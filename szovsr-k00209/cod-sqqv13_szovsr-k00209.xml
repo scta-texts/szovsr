@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,15 +53,15 @@
     </front>
     <body>
       <div xml:id="szovsr-k00209"><!-- t1-l1c4 -->
-        <head>Caput 4</head>
-        <head type="question-title">Sitne deus solus objectum cui virtutis religionis ?</head>
-        <p>
+        <head xml:id="szovsr-k00209-Hd1e101">Caput 4</head>
+        <head xml:id="szovsr-k00209-Hd1e103" type="question-title">Sitne deus solus objectum cui virtutis religionis ?</head>
+        <p xml:id="szovsr-k00209-d1e106">
           <cb ed="#P" n="b"/>
           <lb ed="#P" n="56"/>CAPUT IV.
           <lb ed="#P" n="57"/>SITNE DEUS SOLUS OBJECTUM CUI VIRTUTIS 
           RELI<lb break="no" ed="#P" n="58"/>GIONIS ?
         </p>
-        <p>
+        <p xml:id="szovsr-k00209-d1e117">
           <lb ed="#P" n="59"/>1. Ut Deus sit adequatum objectum cui 
           re<lb break="no" ed="#P" n="60"/>ligionis, tria requiruntur. — Diximus Deum
           <lb ed="#P" n="61"/>esse objectum religionis ; jam exponere 
@@ -91,7 +89,7 @@
           <lb ed="#P" n="83"/>et multum conferre possunt ad naturam et
           <lb ed="#P" n="84"/>excellentiam hujus virtutis explicandam.
         </p>
-        <p>
+        <p xml:id="szovsr-k00209-d1e176">
           <lb ed="#P" n="85"/>2. Circa primum difficultas est, quia, licet
           <lb ed="#P" n="86"/>constet religionem per plures actus suos 
           tan<lb break="no" ed="#P" n="87"/>tum attingere Deum ut objectum cu, tamen
@@ -111,7 +109,7 @@
           <lb ed="#P" n="101"/>amamus Deum, et petimus a Deo sicut 
           spera<lb break="no" ed="#P" n="102"/>mus in Deo.
         </p>
-        <p>
+        <p xml:id="szovsr-k00209-d1e219">
           <lb ed="#P" n="103"/>3. Dicet aliquis semper proximam et 
           di<lb break="no" ed="#P" n="104"/>rectam materiam orationis esse aliud a Deo,
           <lb ed="#P" n="105"/>rem nimirum illam, quam postulamus ; 
@@ -137,7 +135,7 @@
           <lb ed="#P" n="16"/>spei, quia Deum a Deo speramus, quamvis
           <lb ed="#P" n="17"/>res alias ab ipso speremus.
         </p>
-        <p>
+        <p xml:id="szovsr-k00209-d1e274">
           <lb ed="#P" n="18"/>4. Religionis virtus nunquam Deum 
           attin<lb break="no" ed="#P" n="19"/>git, ut objectum quod, sed ut objectum cui. —
           <lb ed="#P" n="20"/>Nihilominus dicendum est, virtutem 
@@ -161,7 +159,7 @@
           dici<lb break="no" ed="#P" n="38"/>tur objectum ejus; ergo etiam illo modo quo
           <lb ed="#P" n="39"/>circa illud versatur.
         </p>
-        <p>
+        <p xml:id="szovsr-k00209-d1e324">
           <lb ed="#P" n="40"/>5. Negandum vero est habere religionem
           <lb ed="#P" n="41"/>aliquem talem actum, quo circa Deum ita
           <lb ed="#P" n="42"/>versetur ; nam petitio, de qua difficultas 
@@ -186,7 +184,7 @@
           omni<lb break="no" ed="#P" n="60"/>no proxime et directe attingit Deum, vel circa
           <lb ed="#P" n="61"/>illum versatur.
         </p>
-        <p>
+        <p xml:id="szovsr-k00209-d1e376">
           <lb ed="#P" n="62"/>6. Statim vero oriebatur difficultas, 
           quae<lb break="no" ed="#P" n="63"/>nam virtus sit ad quam pertineat elicere 
           ac<lb break="no" ed="#P" n="64"/>tum petitionis Dei, et quomodo illa respiciat
@@ -208,7 +206,7 @@
           ob<lb break="no" ed="#P" n="80"/>jectum quod, seu directum, sed ut objectum
           <lb ed="#P" n="81"/>cui religio vult talem honorem deferre.
         </p>
-        <p>
+        <p xml:id="szovsr-k00209-d1e422">
           <lb ed="#P" n="82"/>7. Circa secundum punctum, ratio 
           dubi<lb break="no" ed="#P" n="83"/>tandi est, quia videtur religio habere plures
           <lb ed="#P" n="84"/>actus, qui non habent Deum pro objecto cui,
@@ -224,7 +222,7 @@
           <lb ed="#P" n="94"/>propter ipsum haec omnia in veneratione 
           ha<lb break="no" ed="#P" n="95"/>bentur.
         </p>
-        <p>
+        <p xml:id="szovsr-k00209-d1e455">
           <lb ed="#P" n="96"/>8. Religio ita Deum attingit ut objectum
           <lb ed="#P" n="97"/>cui, ut nihil aliud sub eadem objecti ratione
           <lb ed="#P" n="98"/>respiciat.—Nihilominus dicendum est Deum,
@@ -256,7 +254,7 @@
           <lb ed="#P" n="12"/>rem adoratam, implicite tamen et virtute ad
           <lb ed="#P" n="13"/>eum refertur.
         </p>
-        <p>
+        <p xml:id="szovsr-k00209-d1e524">
           <lb ed="#P" n="14"/>9. Cum ergo dicitur Deus esse dicto 
           mo<lb break="no" ed="#P" n="15"/>do adaequatum objectum religionis , seu
           <lb ed="#P" n="16"/>( quod perinde est) religionem circa solius

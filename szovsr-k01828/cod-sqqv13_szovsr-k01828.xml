@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -55,8 +53,8 @@
     </front>
     <body>
       <div xml:id="szovsr-k01828"><!-- t2-prae -->
-        <head>Praeambulum</head>
-        <p>
+        <head xml:id="szovsr-k01828-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-k01828-d1e103">
           <pb ed="#P" n="75"/>
           <cb ed="#P" n="a"/>
           <lb ed="#P" n="1"/>TRACTATUS SECUNDUS
@@ -64,7 +62,7 @@
           <lb ed="#P" n="3"/>AD DEI CULTUM ET ADORATIONEM,
           <lb ed="#P" n="4"/>PRAESERTIM EXTERNAM, PERTINENTIBDUS.
         </p>
-        <p>
+        <p xml:id="szovsr-k01828-d1e119">
           <lb ed="#P" n="5"/>Tractatus hujus institutum explicatur. — In tria capita dividuntur actus ad 
           re<lb break="no" ed="#P" n="6"/>ligionem pertinentes. —Tractatus distributio. Explicata doctrina quasi speculativa
           <lb ed="#P" n="7"/>virtutis religionis (servando methodum, quam in pertractandis aliis virtutibus, vel

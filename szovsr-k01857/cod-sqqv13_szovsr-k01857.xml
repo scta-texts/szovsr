@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,15 +53,15 @@
     </front>
     <body>
       <div xml:id="szovsr-k01857"><!-- t2-l1prae -->
-        <head>Praeambulum</head>
-        <p>
+        <head xml:id="szovsr-k01857-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-k01857-d1e103">
           <cb ed="#P" n="b"/>
           <lb ed="#P" n="9"/>LIBER PRIMUS
           <lb ed="#P" n="10"/>DE DIVINO CULTU
           <lb ed="#P" n="11"/>EX PRAECEPTO NECESSARIO,
           <lb ed="#P" n="12"/>PRAUESERTIM PER OBLATIONES, DECIMAS AC PRIMITIAS.
         </p>
-        <p>
+        <p xml:id="szovsr-k01857-d1e116">
           <cb ed="#P" n="c"/>
           <lb ed="#P" n="13"/>In hoc libro prius a nobis explicandum est
           <lb ed="#P" n="14"/>generale praeceptum de divino cultu, prout

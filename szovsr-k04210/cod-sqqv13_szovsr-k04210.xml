@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,16 +53,16 @@
     </front>
     <body>
       <div xml:id="szovsr-k04210"><!-- t2-l1c20 -->
-        <head>Caput 20</head>
-        <head type="question-title">Quibus modis privilegium non solvendi decimas amittatur.</head>
-        <p>
+        <head xml:id="szovsr-k04210-Hd1e101">Caput 20</head>
+        <head xml:id="szovsr-k04210-Hd1e103" type="question-title">Quibus modis privilegium non solvendi decimas amittatur.</head>
+        <p xml:id="szovsr-k04210-d1e106">
           <pb ed="#P" n="170"/>
           <cb ed="#P" n="a"/>
           <lb ed="#P" n="1"/>CAPUT XX.
           <lb ed="#P" n="2"/>QUIBUS MODIS PRIVILEGIUM NON SOLVENDI 
           DECI<lb break="no" ed="#P" n="3"/>MAS AMITTATUR.
         </p>
-        <p>
+        <p xml:id="szovsr-k04210-d1e119">
           <lb ed="#P" n="4"/>1. Proponuntur tres modi amittendi 
           privile<lb break="no" ed="#P" n="5"/>giun.—Cres modi amittendi hoc privilegium
           <lb ed="#P" n="6"/>communiter assignantur. Primus est, si 
@@ -108,7 +106,7 @@
           au<lb break="no" ed="#P" n="44"/>tem satis est ut causa decidatur per quemlibet
           <lb ed="#P" n="45"/>judicem competentem.
         </p>
-        <p>
+        <p xml:id="szovsr-k04210-d1e213">
           <lb ed="#P" n="46"/>2. Quando enormis lesio clara non est,
           <lb ed="#P" n="47"/>quid agendum. — Si vero laesionis enormitas
           <lb ed="#P" n="48"/>clara non est, et necessarium est arbitrium,
@@ -143,7 +141,7 @@
           modera<lb break="no" ed="#P" n="76"/>tionem, tunc enim melius facient partes 
           in<lb break="no" ed="#P" n="77"/>ter se componendo.
         </p>
-        <p>
+        <p xml:id="szovsr-k04210-d1e288">
           <lb ed="#P" n="78"/>3. Secundus modus amittendi privilegium.
           <lb ed="#P" n="79"/>— Secundo perditur hoc privilegium per 
           con<lb break="no" ed="#P" n="80"/>trarium usum solvendi decimas, non obstante
@@ -198,7 +196,7 @@
           consen<lb break="no" ed="#P" n="20"/>sus nonnisi per plurium annorum cursum
           <lb ed="#P" n="21"/>praesumitur vel admittitur.
         </p>
-        <p>
+        <p xml:id="szovsr-k04210-d1e405">
           <lb ed="#P" n="22"/>4. Non semper idem annorum numerus 
           re<lb break="no" ed="#P" n="23"/>quisitus ad praescribendum contra ecclesiam.—
           <lb ed="#P" n="24"/>Differentia autem quae in numero annorum,
@@ -227,7 +225,7 @@
           <lb ed="#P" n="47"/>est, quia non habet hic specialem doctrinam,
           <lb ed="#P" n="48"/>sed generalem.
         </p>
-        <p>
+        <p xml:id="szovsr-k04210-d1e466">
           <lb ed="#P" n="49"/>5. Tertius modus amittendi privilegium.—
           <lb ed="#P" n="50"/>Tertius modus perdendi privilegium est ex
           <lb ed="#P" n="51"/>conventione, seu pactione partium. Hunc 
@@ -275,7 +273,7 @@
           si<lb break="no" ed="#P" n="92"/>milia pacta cum debito modo et solemnitate 
           fa<lb break="no" ed="#P" n="93"/>cienda.
         </p>
-        <p>
+        <p xml:id="szovsr-k04210-d1e568">
           <lb ed="#P" n="94"/>6. Quartus modus amittendi hoc 
           privile<lb break="no" ed="#P" n="95"/>giwn. — Quarto, addere possumus hoc 
           privi<lb break="no" ed="#P" n="96"/>legium amitti per alienationem praediorum,

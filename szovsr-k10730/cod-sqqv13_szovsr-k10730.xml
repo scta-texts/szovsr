@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,14 +53,14 @@
     </front>
     <body>
       <div xml:id="szovsr-k10730"><!-- t2-l3c12 -->
-        <head>Caput 12</head>
-        <head type="question-title">De effectibus quos habet immunitas templi in eos qui ad illud confugiunt.</head>
-        <p>
+        <head xml:id="szovsr-k10730-Hd1e101">Caput 12</head>
+        <head xml:id="szovsr-k10730-Hd1e103" type="question-title">De effectibus quos habet immunitas templi in eos qui ad illud confugiunt.</head>
+        <p xml:id="szovsr-k10730-d1e106">
           <lb ed="#P" n="5"/>CAPUT XII.
           <lb ed="#P" n="6"/>DE EFFECTIBUS QUOS HABET IMMUNITAS TEMPLI
           <lb ed="#P" n="7"/>IN EOS QUI AD ILLUD CONFUGIUNT.
         </p>
-        <p>
+        <p xml:id="szovsr-k10730-d1e115">
           <lb ed="#P" n="8"/>1. Varii effectus hujus immunitatis. —
           <lb ed="#P" n="9"/>Supponimus primum ac praecipuum effectum
           <lb ed="#P" n="10"/>hujus immunitatis, esse quem hactenus 
@@ -71,7 +69,7 @@
           dic<lb break="no" ed="#P" n="13"/>tum est. Quaerimus autem an praeter hunc 
           ha<lb break="no" ed="#P" n="14"/>beat alios.
         </p>
-        <p>
+        <p xml:id="szovsr-k10730-d1e133">
           <lb ed="#P" n="15"/>2. In quo imprimis diei potest, alium 
           effec<lb break="no" ed="#P" n="16"/>tum esse, ut etiam intra ipsam ecclesiam non
           <lb ed="#P" n="17"/>possit ei aliqua violentia fieri, qualis esset ibi
@@ -93,7 +91,7 @@
           <lb ed="#P" n="33"/>Covarruvias cum aliis supra, numero 
           duode<lb break="no" ed="#P" n="34"/>cimo.
         </p>
-        <p>
+        <p xml:id="szovsr-k10730-d1e180">
           <lb ed="#P" n="35"/>3. Tertius effectus. — Tertius effectus est,
           <lb ed="#P" n="36"/>ut in ecclesia non spolietur rebus aut bonis
           <lb ed="#P" n="37"/>quae secum tulerit. Ita colligitur ex ejusiem
@@ -122,7 +120,7 @@
           <lb ed="#P" n="59"/>quoad illud cessat immunitas, licet persona ob
           <lb ed="#P" n="60"/>eam causam extrahenda non sit.
         </p>
-        <p>
+        <p xml:id="szovsr-k10730-d1e241">
           <lb ed="#P" n="61"/>4. Quartus effectus. — Quartum effectum
           <lb ed="#P" n="62"/>addit Covar. num. 16, S Trigesimo primo,
           <lb ed="#P" n="63"/>cum ait non posse ecclesiam obsideri propter
@@ -171,7 +169,7 @@
           <lb ed="#P" n="106"/>praecipuae partes corporis intra ecclesiam 
           ma<lb break="no" ed="#P" n="107"/>ncant, propter easdem rationes.
         </p>
-        <p>
+        <p xml:id="szovsr-k10730-d1e345">
           <pb ed="#P" n="430"/>
           <cb ed="#P" n="a"/>
           <lb ed="#P" n="1"/>5. Ultimus effectus. — Ultimo pertinet ad
@@ -218,7 +216,7 @@
           ma<lb break="no" ed="#P" n="42"/>net integra sicut antea, et ita colligitur ex d.
           <lb ed="#P" n="43"/>cap. 7d constitwimus.
         </p>
-        <p>
+        <p xml:id="szovsr-k10730-d1e445">
           <lb ed="#P" n="44"/>6. Qua pona possit imponi confugienti ad
           <lb ed="#P" n="45"/>ecclesiam. — Hinc vero nascitur quaestio,
           <lb ed="#P" n="46"/>quaenam sit haec poena quae imponi potest, et

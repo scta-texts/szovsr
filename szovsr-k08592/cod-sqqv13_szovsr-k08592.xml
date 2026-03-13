@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,14 +53,14 @@
     </front>
     <body>
       <div xml:id="szovsr-k08592"><!-- t2-l2c22 -->
-        <head>Caput 22</head>
-        <head type="question-title">An opera liberalia prohibeantur hoc praecepto, vel cur permittantur.</head>
-        <p>
+        <head xml:id="szovsr-k08592-Hd1e101">Caput 22</head>
+        <head xml:id="szovsr-k08592-Hd1e103" type="question-title">An opera liberalia prohibeantur hoc praecepto, vel cur permittantur.</head>
+        <p xml:id="szovsr-k08592-d1e106">
           <lb ed="#P" n="8"/>CAPUT XXII.
           <lb ed="#P" n="9"/>AN OPERA LIBERALIA PROHIBEANTUR HOC 
           PRAECE<lb break="no" ed="#P" n="10"/>PTO, VEL CUR PERMITTANTUR.
         </p>
-        <p>
+        <p xml:id="szovsr-k08592-d1e115">
           <lb ed="#P" n="11"/>1. Ratio dubitandi. — Ut ratio dubitandi 
           in<lb break="no" ed="#P" n="12"/>telligatur, suppono, non esse quaestionem de
           <lb ed="#P" n="13"/>omni genere liberalium operum ; nam sunt
@@ -96,7 +94,7 @@
           attolli<lb break="no" ed="#P" n="41"/>tur; ergo magis debueruni haec opera liberalia
           <lb ed="#P" n="42"/>prohiberi, quam servilia.
         </p>
-        <p>
+        <p xml:id="szovsr-k08592-d1e187">
           <lb ed="#P" n="43"/>2. Opinio asserens, non licere in festo 
           stu<lb break="no" ed="#P" n="44"/>dere. — Hinc nonnulli Doctores canonistae
           <lb ed="#P" n="45"/>dixerunt simpliciter, non esse licitum in festo
@@ -132,7 +130,7 @@
           <lb ed="#P" n="74"/>consequenter infert satis scrupulose, quae ibi
           <lb ed="#P" n="75"/>videri possunt.
         </p>
-        <p>
+        <p xml:id="szovsr-k08592-d1e264">
           <lb ed="#P" n="76"/>3. Liberalia opera non prohiberi. — 
           Dicen<lb break="no" ed="#P" n="77"/>dum vero est, opera liberalia, et non servilia,
           <lb ed="#P" n="78"/>non esse prohibita in die festo, nec esse 
@@ -165,7 +163,7 @@
           <lb ed="#P" n="105"/>tanta sit occupatio in illis, ut etiam Missam
           <lb ed="#P" n="106"/>impediant.
         </p>
-        <p>
+        <p xml:id="szovsr-k08592-d1e334">
           <lb ed="#P" n="107"/>4. Ostenditur secunda conclusionis pars
           <pb ed="#P" n="345"/>
           <cb ed="#P" n="a"/>
@@ -193,7 +191,7 @@
           <lb ed="#P" n="22"/>causa omissionis alicujus praecepti, malus est,
           <lb ed="#P" n="23"/>ut per se constat.
         </p>
-        <p>
+        <p xml:id="szovsr-k08592-d1e393">
           <lb ed="#P" n="24"/>5. Studium non prohiberi. — Instantia. —
           <lb ed="#P" n="25"/>Occurritur. — Ex hoc ergo principio, 
           conclu<lb break="no" ed="#P" n="26"/>ditur non peccare contra hoc praeceptum, qui
@@ -222,7 +220,7 @@
           <lb ed="#P" n="49"/>mentis instructionem, quia hoc servile non
           <lb ed="#P" n="50"/>est.
         </p>
-        <p>
+        <p xml:id="szovsr-k08592-d1e454">
           <lb ed="#P" n="51"/>6. Unde etiam constat, licitum esse die festo
           <lb ed="#P" n="52"/>docere quamcumque scientiam et artem, prout
           <lb ed="#P" n="53"/>ad mentem pertinet, sive voce, sive scripto
@@ -242,7 +240,7 @@
           <lb ed="#P" n="66"/>vero, qui possunt videri dubii, statim in 
           parti<lb break="no" ed="#P" n="67"/>culari dicetur.
         </p>
-        <p>
+        <p xml:id="szovsr-k08592-d1e496">
           <lb ed="#P" n="68"/>7. Diruitur fundamentum opposite partis.
           <lb ed="#P" n="69"/>— Ad rationem ergo dubitandi, respondetur
           <lb ed="#P" n="70"/>imprimis, etiamsi opera liberalia circa res

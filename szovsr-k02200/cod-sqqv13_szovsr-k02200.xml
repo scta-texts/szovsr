@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,14 +53,14 @@
     </front>
     <body>
       <div xml:id="szovsr-k02200"><!-- t2-l1c4 -->
-        <head>Caput 4</head>
-        <head type="question-title">De ritu simplicium oblationum, praesertim in lege gratiae.</head>
-        <p>
+        <head xml:id="szovsr-k02200-Hd1e101">Caput 4</head>
+        <head xml:id="szovsr-k02200-Hd1e103" type="question-title">De ritu simplicium oblationum, praesertim in lege gratiae.</head>
+        <p xml:id="szovsr-k02200-d1e106">
           <lb ed="#P" n="90"/>CAPUT IV.
           <lb ed="#P" n="91"/>DE RITU SIMPLICIUM OBLATIONUM, PRAESERTIM IN
           <lb ed="#P" n="92"/>LEGE GRATIAE.
         </p>
-        <p>
+        <p xml:id="szovsr-k02200-d1e115">
           <lb ed="#P" n="93"/>1. Principio statuendum est, hunc 
           oblatio<lb break="no" ed="#P" n="94"/>num ritum de se non esse malum, sed legi
           <lb ed="#P" n="95"/>naturali consentaneum ; quoniam divinus
@@ -113,7 +111,7 @@
           <lb ed="#P" n="31"/>cultu notum esse potest, et per se est satis
           <lb ed="#P" n="32"/>evidens.
         </p>
-        <p>
+        <p xml:id="szovsr-k02200-d1e224">
           <lb ed="#P" n="33"/>2. Probatur assertio. — Ex his ergo 
           ulte<lb break="no" ed="#P" n="34"/>rius dicendum est, usum oblationum etiam in
           <lb ed="#P" n="35"/>lege gratiae esse licitum et sanctum. 
@@ -168,7 +166,7 @@
           <lb ed="#P" n="83"/>eisdem fere verbis. De quo praecepto capite
           <lb ed="#P" n="84"/>sequenti dicetur.
         </p>
-        <p>
+        <p xml:id="szovsr-k02200-d1e342">
           <lb ed="#P" n="85"/>3. Antiqua consuetudo panem et vinum
           <lb ed="#P" n="86"/>offerendi. — Panis benedicti usus. — 
           Vide<lb break="no" ed="#P" n="87"/>tur autem consuetudo haec offerendi panem
@@ -224,7 +222,7 @@
           <lb ed="#P" n="25"/>1 de Peccator. merit., cap. 20, et lib. 9,
           <lb ed="#P" n="26"/>cap. 26.
         </p>
-        <p>
+        <p xml:id="szovsr-k02200-d1e462">
           <lb ed="#P" n="27"/>4. Aliee oblationes. — Praeter panem 
           au<lb break="no" ed="#P" n="28"/>tem et vinum, offerri solebant oleum pro 
           lu<lb break="no" ed="#P" n="29"/>minaribus, thymiama ad incensum, et spicae
@@ -248,7 +246,7 @@
           <lb ed="#P" n="47"/>pecuniam dicit solitam fuisse offerri a 
           fide<lb break="no" ed="#P" n="48"/>libus.
         </p>
-        <p>
+        <p xml:id="szovsr-k02200-d1e512">
           <lb ed="#P" n="49"/>5. Oljectiones proponuntur. — Ut vero 
           par<lb break="no" ed="#P" n="50"/>tem hanc ratione declaremus, objici prius
           <lb ed="#P" n="51"/>contra illam potest, quia in Christi Ecclesia
@@ -284,7 +282,7 @@
           pertine<lb break="no" ed="#P" n="80"/>bant ad caeremonialia legis veteris; ergo non
           <lb ed="#P" n="81"/>debuerunt in nova lege retineri vel renovari.
         </p>
-        <p>
+        <p xml:id="szovsr-k02200-d1e588">
           <lb ed="#P" n="82"/>6. Satisfit objectionibus supra positis. —
           <lb ed="#P" n="83"/>Respondetur imprimis distinguendos esse 
           va<lb break="no" ed="#P" n="84"/>rios modos harum oblationum. Nam interdum
@@ -341,7 +339,7 @@
           <lb ed="#P" n="23"/>propriam, sed potius gratiam aliquam 
           postu<lb break="no" ed="#P" n="24"/>lat.
         </p>
-        <p>
+        <p xml:id="szovsr-k02200-d1e710">
           <lb ed="#P" n="25"/>5. Oblationes sacerdotibus factee. — Tertio,
           <lb ed="#P" n="26"/>offeruntur aliqua sacerdotibus per se et 
           di<lb break="no" ed="#P" n="27"/>recte ad eorum sustentationem, non ea 
@@ -379,7 +377,7 @@
           fac<lb break="no" ed="#P" n="58"/>tae, et ita in eis non procedunt difticultates
           <lb ed="#P" n="59"/>propositae.
         </p>
-        <p>
+        <p xml:id="szovsr-k02200-d1e791">
           <lb ed="#P" n="60"/>8. Punctum difficultatis solvitur. — Tota
           <lb ed="#P" n="61"/>ergo dubitatio est de oblatione simplici, quae
           <lb ed="#P" n="62"/>immediate fit Deo de aliquibus bonis ab eo
@@ -421,7 +419,7 @@
           <lb ed="#P" n="98"/>solemnitatem et honorem ipsius sacrificii
           <lb ed="#P" n="99"/>Missae.
         </p>
-        <p>
+        <p xml:id="szovsr-k02200-d1e881">
           <lb ed="#P" n="100"/>9. Solvuntur reliqua argumenta. — Et ita
           <lb ed="#P" n="101"/>etiam responsum est ad secundum; nam tota
           <lb ed="#P" n="102"/>illa caeremonia et significatio est quasi 

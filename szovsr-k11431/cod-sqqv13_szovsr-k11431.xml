@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,13 +53,13 @@
     </front>
     <body>
       <div xml:id="szovsr-k11431"><!-- t3-l1c6 -->
-        <head>Caput 6</head>
-        <head type="question-title">Qualis et quanta sit malitia blasphemue.</head>
-        <p>
+        <head xml:id="szovsr-k11431-Hd1e101">Caput 6</head>
+        <head xml:id="szovsr-k11431-Hd1e103" type="question-title">Qualis et quanta sit malitia blasphemue.</head>
+        <p xml:id="szovsr-k11431-d1e106">
           <lb ed="#P" n="60"/>CAPUT VI.
           <lb ed="#P" n="61"/>QUALIS ET QUANTA SIT MALITIA BLASPHEMUE.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e113">
           <lb ed="#P" n="62"/>1. Blasphemia ea suo genere mortale 
           pecca<lb break="no" ed="#P" n="63"/>tum est. — Imprimis certum est hoc peccatum
           <lb ed="#P" n="64"/>mortale esse, et ex suo genere gravissimum.
@@ -84,7 +82,7 @@
           male<lb break="no" ed="#P" n="81"/>dictionis in Deum; et ideo si humano modo
           <lb ed="#P" n="82"/>fiat, semper est gravissimum peccatum.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e161">
           <lb ed="#P" n="83"/>2. Blasphemia non potest esse venialis eq
           <lb ed="#P" n="84"/>sola levitate materie. — Ft quidem, quod 
           at<lb break="no" ed="#P" n="85"/>tinet ad gravitatem absolutam , manifestum
@@ -117,7 +115,7 @@
           hujusmo<lb break="no" ed="#P" n="3"/>di inadvertentiae, semper tale peccatum 
           mor<lb break="no" ed="#P" n="4"/>tale est, ut bene Cajetanus supra dixit.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e232">
           <lb ed="#P" n="5"/>3. Non est gravius peccatum blasphemiee,
           <lb ed="#P" n="6"/>omni alio. — De gravitate autem comparativa
           <lb ed="#P" n="7"/>hujus peccati, cum gravissimum esse dicitur,
@@ -152,7 +150,7 @@
           <lb ed="#P" n="36"/>quas propter hoc vitium Deus de hominibus
           <lb ed="#P" n="37"/>sumpsit.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e306">
           <lb ed="#P" n="38"/>4. Quomodo blasphemia distinguatur ab 
           in<lb break="no" ed="#P" n="39"/>fidelitate. — Ratio dubitandi. — Ut autem 
           pro<lb break="no" ed="#P" n="40"/>pria malitia hujus vitii magis explicetur,
@@ -193,7 +191,7 @@
           fi<lb break="no" ed="#P" n="74"/>dei ; haec enim proprie opponitur contrarie
           <lb ed="#P" n="75"/>confessioni fidei.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e393">
           <lb ed="#P" n="76"/>5. Blasphemia neque est infidelitas , neque
           <lb ed="#P" n="77"/>illan supponit. — Probatur primum. — 
           Ob<lb break="no" ed="#P" n="78"/>Jectic. — Respondetur. — Haec difficultas non
@@ -240,7 +238,7 @@
           in<lb break="no" ed="#P" n="7"/>juriam illi inferendi; sic ergo infidelitas 
           inte<lb break="no" ed="#P" n="8"/>rior non est blasphemia.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e493">
           <lb ed="#P" n="9"/>6. Probatur secunda pars assertionis. —
           <lb ed="#P" n="10"/>Quod vero neque ad blasphemiam necessario
           <lb ed="#P" n="11"/>supponatur, eodem argumento convincitur,
@@ -286,7 +284,7 @@
           <lb ed="#P" n="51"/>quod probabile est, et tenet Azor, lib. 9, cap.
           <lb ed="#P" n="52"/>28, quaest. 1.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e591">
           <lb ed="#P" n="53"/>1. Blasphemia heereticalis habet malitiam
           <lb ed="#P" n="54"/>religioni contrariam distinciam ab infidelitate.
           <lb ed="#P" n="55"/>— Sed de blasphemia etiam haereticali dicen-
@@ -322,7 +320,7 @@
           <lb ed="#P" n="84"/>ex intrinseca fidei obligatione tenemur non
           <lb ed="#P" n="85"/>negare fidem, etiam exterius.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e667">
           <lb ed="#P" n="86"/>8. Hoc tamen non obstat quominus in 
           illo<lb break="no" ed="#P" n="87"/>met actu, praeter malitiam contrariam 
           confes<lb break="no" ed="#P" n="88"/>sioni tidei, sit etiam malitia contraria laudi,
@@ -362,7 +360,7 @@
           <lb ed="#P" n="10"/>videtur intellexisse Sot., 1. 8de Just., q. 2,a.3,
           <lb ed="#P" n="11"/>in principio ; et Cajetanus in re idem sentit.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e753">
           <lb ed="#P" n="12"/>9. Quomodo blasphemia distinguatur ab odio
           <lb ed="#P" n="13"/>Dei, et desperatione. — Atque hinc etiam 
           obi<lb break="no" ed="#P" n="14"/>ter intelligi potest, quomodo blasphemia 
@@ -421,7 +419,7 @@
           <lb ed="#P" n="66"/>aliquis desperat, et ita facile ad 
           blaspheman<lb break="no" ed="#P" n="67"/>dum de illo provocatur.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e879">
           <lb ed="#P" n="68"/>10. Malitia blasphemiee distinguitur a 
           ju<lb break="no" ed="#P" n="69"/>ramento.— Hatio a priori. —Secundo, 
           prin<lb break="no" ed="#P" n="70"/>cipaliter comparari potest malitia blasphemiae
@@ -451,7 +449,7 @@
           blas<lb break="no" ed="#P" n="94"/>phemat non afferendo Deum in testum, ut
           <lb ed="#P" n="95"/>per se notum est.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e942">
           <lb ed="#P" n="96"/>11. Malitia blasphnemie sepe est conjuncta
           <lb ed="#P" n="97"/>cum malitia juramenti. — Ad Blasphemiam non
           <lb ed="#P" n="98"/>est necessaria formalis indignatio in Deum. —
@@ -548,7 +546,7 @@
           <lb ed="#P" n="76"/>Vide Covar., in d. cap. Quamnis pactum, p. 1,
           <lb ed="#P" n="77"/>§ 1, n.6.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e1150">
           <lb ed="#P" n="78"/>12. Alius blasphemandi modus, cum veritas
           <lb ed="#P" n="79"/>humana aequiparatur divine. — Excusatio. —
           <lb ed="#P" n="80"/>Rejicitur. — Alius praeterea modus 
@@ -590,7 +588,7 @@
           <lb ed="#P" n="4"/>cap: cia sunt alterius significationis, quam ipsi
           <lb ed="#P" n="5"/>intendunt.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e1239">
           <lb ed="#P" n="6"/>13. Jurare per falsos deos est blasphemia.
           <lb ed="#P" n="7"/>— Objectio. — Praeterea verum esse videtur,
           <lb ed="#P" n="8"/>quod Soto docet, jurare per falsos deos 
@@ -624,7 +622,7 @@
           <lb ed="#P" n="36"/>signum est juramentum per falsos deos non
           <lb ed="#P" n="37"/>esse blasphemiam.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e1311">
           <lb ed="#P" n="38"/>14. Responsio Soti rejicitur.—Aliorum 
           re<lb break="no" ed="#P" n="39"/>sponsio refellitur. — Ad hoc respondet Soto,
           <lb ed="#P" n="40"/>juramentum per falsos Deos minus malum
@@ -659,7 +657,7 @@
           <lb ed="#P" n="68"/>illum, quam adducere in testem falsum Deum,
           <lb ed="#P" n="69"/>sive ad verum, sive ad falsum confirmandum.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e1386">
           <lb ed="#P" n="70"/>15. Fera solutio. — Incertum est quis a
           <lb ed="#P" n="71"/>Deo sit magis puniendus, an jurans falsum
           <lb ed="#P" n="72"/>per verum Deum, an jurans verun per 
@@ -708,7 +706,7 @@
           supre<lb break="no" ed="#P" n="3"/>mam excellentiam, cui per talem 
           blasphe<lb break="no" ed="#P" n="4"/>miam derogatur.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e1490">
           <lb ed="#P" n="5"/>16. In eodem actu duplex malitia distincta
           <lb ed="#P" n="6"/>potest esse, perjurii, scilicet, et blasphemiee. —
           <lb ed="#P" n="7"/>Ex quibus onmnibus intelligi potest, quamvis
@@ -742,7 +740,7 @@
           <lb ed="#P" n="35"/>distinctas, ut saepe possint mutuo ad invicem
           <lb ed="#P" n="36"/>separari, licet interdum possint conjungi.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e1562">
           <lb ed="#P" n="37"/>17. Qui promittit peccatum in honorem Dei
           <lb ed="#P" n="38"/>se facturum, est blasphemus.— Et qui ad 
           lau<lb break="no" ed="#P" n="39"/>daudum Deum turpi utitur verbo. — 
@@ -787,7 +785,7 @@
           sacrile<lb break="no" ed="#P" n="77"/>gii vel blasphemiae abstinet, vocatque 
           temeri<lb break="no" ed="#P" n="78"/>tatem, irreverentiam, et contemptum.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e1658">
           <lb ed="#P" n="79"/>18. Utrum blasphemie omnes sint ejusdem
           <lb ed="#P" n="80"/>speciei. — Pors offirmativa.— Negativa pars
           <lb ed="#P" n="81"/>valde probabilis judicatur. — blasphemie 
@@ -827,7 +825,7 @@
           se<lb break="no" ed="#P" n="3"/>cundum magis et minus in ratione contumeliae
           <lb ed="#P" n="4"/>aut convitii.
         </p>
-        <p>
+        <p xml:id="szovsr-k11431-d1e1743">
           <lb ed="#P" n="5"/>19. Utrum blasphemia in Deum prolata 
           dis<lb break="no" ed="#P" n="6"/>tinguatur specie, ab ea quae profertur in 
           San<lb break="no" ed="#P" n="7"/>ctos. — Possunt autem in hoc ordine 

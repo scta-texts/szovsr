@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,13 +53,13 @@
     </front>
     <body>
       <div xml:id="szovsr-k08937"><!-- t2-l2c28 -->
-        <head>Caput 28</head>
-        <head type="question-title">De venatione, piscatione et militia.</head>
-        <p>
+        <head xml:id="szovsr-k08937-Hd1e101">Caput 28</head>
+        <head xml:id="szovsr-k08937-Hd1e103" type="question-title">De venatione, piscatione et militia.</head>
+        <p xml:id="szovsr-k08937-d1e106">
           <lb ed="#P" n="60"/>CAPUT XXVIII.
           <lb ed="#P" n="61"/>DE VENATIONE, PISCATIONE ET MILITIA.
         </p>
-        <p>
+        <p xml:id="szovsr-k08937-d1e113">
           <lb ed="#P" n="62"/>1. Quid sentiendum de actu venandi vel 
           pis<lb break="no" ed="#P" n="63"/>candi.— Solet praeterea dubitari de venatione
           <lb ed="#P" n="64"/>(eademque ratio est de piscatione), an sit 
@@ -91,7 +89,7 @@
           <lb ed="#P" n="88"/>putatis, in eadem d.; Ambros., in serm. 33,
           <lb ed="#P" n="89"/>alias 41, in Dominicam 3 Quadrag.
         </p>
-        <p>
+        <p xml:id="szovsr-k08937-d1e176">
           <lb ed="#P" n="90"/>2. Alii vero existimant venationem non 
           es<lb break="no" ed="#P" n="91"/>se opus servile, nec prohibitam esse in die
           <lb ed="#P" n="92"/>festo, etiamsi fiat quaestus gratia. Ita expresse
@@ -124,7 +122,7 @@
           <lb ed="#P" n="10"/>parte dici potest una venatio servilis, et non
           <lb ed="#P" n="11"/>alia.
         </p>
-        <p>
+        <p xml:id="szovsr-k08937-d1e247">
           <lb ed="#P" n="12"/>3. Venatio est opus servile. — Mihi ergo
           <lb ed="#P" n="13"/>videtur venationem, ut sic et per se 
           specta<lb break="no" ed="#P" n="14"/>tam, opus servile esse. Primo, quia venatoria
@@ -150,7 +148,7 @@
           <lb ed="#P" n="34"/>in alio reperitur, quae differentia ad rationem
           <lb ed="#P" n="35"/>servilis operis parum referre videtur.
         </p>
-        <p>
+        <p xml:id="szovsr-k08937-d1e302">
           <lb ed="#P" n="36"/>4. Quarto moveor, quia, si non esset opus
           <lb ed="#P" n="37"/>servile, nullo modo factum esset prohibitum
           <lb ed="#P" n="38"/>in die festo, ut bene argumentatur Navar.,
@@ -202,7 +200,7 @@
           <lb ed="#P" n="83"/>piscatione conjungantur, praesertim in ea quae
           <lb ed="#P" n="84"/>in mari fit.
         </p>
-        <p>
+        <p xml:id="szovsr-k08937-d1e413">
           <lb ed="#P" n="85"/>5. Haec opera sunt prohibita in festo per
           <lb ed="#P" n="86"/>se. — Quae liceant em consuetudine. — Hinc
           <lb ed="#P" n="87"/>ergo ulterius censeo, opus hoc per se 
@@ -230,7 +228,7 @@
           <lb ed="#P" n="109"/>inde scandalum sumunt, etiamsi in die festo
           <lb ed="#P" n="110"/>fiat.
         </p>
-        <p>
+        <p xml:id="szovsr-k08937-d1e472">
           <pb ed="#P" n="359"/>
           <cb ed="#P" n="a"/>
           <lb ed="#P" n="1"/>6. Unde etiam piscatio in fluminibus 
@@ -253,7 +251,7 @@
           <lb ed="#P" n="18"/>quod in operibus lege humana prohibitis 
           fa<lb break="no" ed="#P" n="19"/>cillimum est.
         </p>
-        <p>
+        <p xml:id="szovsr-k08937-d1e520">
           <lb ed="#P" n="20"/>7. Bellandi actus an servilis. — Tandem
           <lb ed="#P" n="21"/>dubitari potest de actu bellandi, an sit 
           ser<lb break="no" ed="#P" n="22"/>vilis, et prohibitus in die festo, sive justum
@@ -288,7 +286,7 @@
           spe<lb break="no" ed="#P" n="51"/>cialen malitiam ex circumstantia temporis
           <lb ed="#P" n="52"/>festi, quam alia.
         </p>
-        <p>
+        <p xml:id="szovsr-k08937-d1e594">
           <lb ed="#P" n="53"/>8. Bellandi opus servile esse. — Hoc vero
           <lb ed="#P" n="54"/>dubium, eodem modo quo praecedens, 
           expe<lb break="no" ed="#P" n="55"/>diendum videtur. Unde assero imprimis opus
@@ -319,7 +317,7 @@
           <lb ed="#P" n="79"/>censetur opus mechanicum, et de se servile;
           <lb ed="#P" n="80"/>ergo et militare.
         </p>
-        <p>
+        <p xml:id="szovsr-k08937-d1e660">
           <lb ed="#P" n="81"/>9. Tertio ad hoc opus habet respublica suos
           <lb ed="#P" n="82"/>ministros deputatos, qui sub ea ratione servi
           <lb ed="#P" n="83"/>reputantur. Neque refert quod ille actus 
@@ -348,7 +346,7 @@
           <lb ed="#P" n="106"/>nullius momenti est. De tertia vero ratione
           <lb ed="#P" n="107"/>dicetur statim.
         </p>
-        <p>
+        <p xml:id="szovsr-k08937-d1e721">
           <lb ed="#P" n="108"/>10. Bellandi actio per se est prohibita in
           <lb ed="#P" n="109"/>festo. — Secundo consequenter assero, 
           actua<lb break="no" ed="#P" n="110"/>lem militiam per se esse prohibitam in die
@@ -382,7 +380,7 @@
           <lb ed="#P" n="26"/>est; ergo per se continetur sub generali 
           pro<lb break="no" ed="#P" n="27"/>hibitione.
         </p>
-        <p>
+        <p xml:id="szovsr-k08937-d1e793">
           <lb ed="#P" n="28"/>11. Altera vero pars constat, quia duplex
           <lb ed="#P" n="29"/>est bellum, aggressivum et defensivum. 
           De<lb break="no" ed="#P" n="30"/>fensivum ergo est licitum in die festo 

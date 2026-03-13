@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,14 +53,14 @@
     </front>
     <body>
       <div xml:id="szovsr-k15543"><!-- t3-l4c1 -->
-        <head>Caput 1</head>
-        <head type="question-title">Quid simonia sit, et cur hac voce significetur.</head>
-        <p>
+        <head xml:id="szovsr-k15543-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-k15543-Hd1e103" type="question-title">Quid simonia sit, et cur hac voce significetur.</head>
+        <p xml:id="szovsr-k15543-d1e106">
           <lb ed="#P" n="25"/>CAPUT I.
           <lb ed="#P" n="26"/>QUID SIMONIA SIT, ET CUR HAC VOCE 
           SIGNIFI<lb break="no" ed="#P" n="27"/>CETUR.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e115">
           <lb ed="#P" n="28"/>1. Quod vitium significetur per hoc nomen
           <lb ed="#P" n="29"/>simonia. — Principio supponendum est hoc
           <lb ed="#P" n="30"/>nomine simoniae, vitium quoddam significari,
@@ -99,7 +97,7 @@
           mul<lb break="no" ed="#P" n="60"/>tis Doctoribus, qui de hac materia 
           scripse<lb break="no" ed="#P" n="61"/>runt.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e193">
           <lb ed="#P" n="62"/>2. Quis huic vitio nomen simonie 
           imposue<lb break="no" ed="#P" n="63"/>rit.—Que heresis quondam simonia diceretur.
           <lb ed="#P" n="64"/>— Solet autem hic qusaeri, quis nomen 
@@ -145,7 +143,7 @@
           <lb ed="#P" n="21"/>derivata est ad proprium vitium et 
           sacrile<lb break="no" ed="#P" n="22"/>gium significandum.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e292">
           <lb ed="#P" n="23"/>3. Rationes assignantur cur a Simone 
           no<lb break="no" ed="#P" n="24"/>men acceperit hoc vitium. — Prima. — 
           Se<lb break="no" ed="#P" n="25"/>cunda. — Rationes autem ob quas a Simone
@@ -211,7 +209,7 @@
           <lb ed="#P" n="84"/>Apostolos , talis enim apse erat, et quod 
           cende<lb break="no" ed="#P" n="85"/>ret emere volebat.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e433">
           <lb ed="#P" n="86"/>4. Quarta ratio sumi potest, ex eo quod hoc
           <lb ed="#P" n="87"/>vitium in Simone primum per Apostolos 
           dam<lb break="no" ed="#P" n="88"/>natum, et quasi anathematizatum est. Unde
@@ -269,7 +267,7 @@
           Gui<lb break="no" ed="#P" n="28"/>do Carmelita, ut refert Castro, verb. 
           Si<lb break="no" ed="#P" n="29"/>monia.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e557">
           <lb ed="#P" n="30"/>5. Cur hoc vitium simoniaca heresis 
           ap<lb break="no" ed="#P" n="31"/>gelleiur.— Cur simonia Neophytorum heresis
           <lb ed="#P" n="32"/>dicatur. — Atque ex his obiter intelligitur,
@@ -301,7 +299,7 @@
           neophy<lb break="no" ed="#P" n="57"/>tus, id est, recens baptizatus illam invenit, ut
           <lb ed="#P" n="58"/>ibi notat Glossa, et alu.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e625">
           <lb ed="#P" n="59"/>6. Simonia per se non est fidei contraria. —
           <lb ed="#P" n="60"/>Sed nihilominus certum est vitium hoc per se
           <lb ed="#P" n="61"/>et formaliter non esse contrarium fidei, quia
@@ -333,7 +331,7 @@
           <lb ed="#P" n="87"/>solet, et poenas aliquo modo similes mereri,
           <lb ed="#P" n="88"/>ut infra suo loco videbimus.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e693">
           <lb ed="#P" n="89"/>7. Definitio simonie proponitur et 
           emplica<lb break="no" ed="#P" n="90"/>tur. — Simoniam distingui specie a cateris
           <lb ed="#P" n="91"/>sacrilegiis. — Posset ergo simonia juxta dicta
@@ -392,7 +390,7 @@
           <lb ed="#P" n="32"/>mores humanos non potest aliter de illa ferr
           <lb ed="#P" n="33"/>morale seu sacramentale judicium.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e819">
           <lb ed="#P" n="34"/>8. Ex his sufficienter declaratum videri 
           po<lb break="no" ed="#P" n="35"/>terat , quid sit simonia generatim sumpta,
           <lb ed="#P" n="36"/>quia clarior et distinctior notitia non est in
@@ -412,7 +410,7 @@
           <lb ed="#P" n="50"/>esse, ideo per genus sacrilegii illam 
           descripsi<lb break="no" ed="#P" n="51"/>mus ; usitata vero definitio sic habet.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e862">
           <lb ed="#P" n="52"/>9. Definitio simonie magis usitata 
           empli<lb break="no" ed="#P" n="53"/>catur. — Simonia est studiosa voluntas emendi
           <lb ed="#P" n="54"/>vel vendendi aliquid spirituale, vel spirituali
@@ -449,7 +447,7 @@
           <lb ed="#P" n="84"/>Armac. supra. Et sumpta videtur illa particula
           <lb ed="#P" n="85"/>ex c. Qui studet, 1, quaest. prima.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e940">
           <lb ed="#P" n="86"/>10 Quid loco differentie. —Heliquae 
           parti<lb break="no" ed="#P" n="87"/>culae ponuntur loco differentiae, et fere 
           coin<lb break="no" ed="#P" n="88"/>cidunt cum supra positis: tria vero in eis
@@ -491,7 +489,7 @@
           <lb ed="#P" n="12"/>sit materia simoniae, eo ipso habet ut gratis
           <lb ed="#P" n="13"/>danda sit, ut infra dicemus.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e1029">
           <lb ed="#P" n="14"/>11. Quid in hoc loco significet donum 
           spiritua<lb break="no" ed="#P" n="15"/>le.— Sed, ut dixi, haec materia non potest hic
           <lb ed="#P" n="16"/>satis explicari, nec fere una definitione 
@@ -531,7 +529,7 @@
           <lb ed="#P" n="50"/>et illam non excedit, ut ex sequentibus 
           con<lb break="no" ed="#P" n="51"/>stabit.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e1114">
           <lb ed="#P" n="52"/>12. Quee res dicantur annexe spiritualibus.
           <lb ed="#P" n="53"/>— Addo vero bona spiritualia in tantum esse
           <lb ed="#P" n="54"/>posse materiam simoniae, in quantum facto,
@@ -557,7 +555,7 @@
           conse<lb break="no" ed="#P" n="73"/>quenter, alia concomitanter, de qua partitione
           <lb ed="#P" n="74"/>infra suo loco dicemus.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e1169">
           <lb ed="#P" n="75"/>13. In venditione rei sacre peculiariter 
           ec<lb break="no" ed="#P" n="76"/>plicatur simonia.— Secundo, in illa particula
           <lb ed="#P" n="77"/>definitionis insinuatur id, in quo maxime
@@ -600,7 +598,7 @@
           <lb ed="#P" n="2"/>continetur, et quia nonnullam patitur 
           dubita<lb break="no" ed="#P" n="3"/>tionem, de qua infra dicetur.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e1260">
           <lb ed="#P" n="4"/>14. Particula a Canonistis addita rejicitur.
           <lb ed="#P" n="5"/>In actu interno potest dari simonia quee si non
           <lb ed="#P" n="6"/>habeat adjunctum externum, non est capaa 
@@ -640,7 +638,7 @@
           <lb ed="#P" n="40"/>profecto satis accommodata, et juxta 
           utram<lb break="no" ed="#P" n="41"/>que totam hanc materiam prosequemur.
         </p>
-        <p>
+        <p xml:id="szovsr-k15543-d1e1346">
           <lb ed="#P" n="42"/>15. In quatuor capita distribuuntur omnia,
           <lb ed="#P" n="43"/>quee de simonia sunt dicenda. — Ex dicta ergo
           <lb ed="#P" n="44"/>essentiali ratione hujus vitii, reducere possumus

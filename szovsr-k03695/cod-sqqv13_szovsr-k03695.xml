@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,14 +53,14 @@
     </front>
     <body>
       <div xml:id="szovsr-k03695"><!-- t2-l1c17 -->
-        <head>Caput 17</head>
-        <head type="question-title">An clerici et ecclesiastici omnes ad decimas solvendas teneantur.</head>
-        <p>
+        <head xml:id="szovsr-k03695-Hd1e101">Caput 17</head>
+        <head xml:id="szovsr-k03695-Hd1e103" type="question-title">An clerici et ecclesiastici omnes ad decimas solvendas teneantur.</head>
+        <p xml:id="szovsr-k03695-d1e106">
           <lb ed="#P" n="68"/>CAPUT XVII.
           <lb ed="#P" n="69"/>AN CLERICI ET ECCLESIASTICI OMNES AD DECIMAS
           <lb ed="#P" n="70"/>SOLVENDAS TENEANTUR.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e115">
           <lb ed="#P" n="71"/>1. Haec quaestio petitur in secunda parte
           <lb ed="#P" n="72"/>prioris difficultatis in praecedenti capite 
           propo<lb break="no" ed="#P" n="73"/>sitae, quam hic separatim proponimus, quia
@@ -95,7 +93,7 @@
           <lb ed="#P" n="100"/>Decima ; Covar., lib. 1 Var., c. 17, n. 8; 
           Gu<lb break="no" ed="#P" n="101"/>tierez, dicto cap. 21, n. 52, qui alios referunt.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e185">
           <lb ed="#P" n="102"/>2. Clericos non teneri ad decimas praediales
           <lb ed="#P" n="103"/>de redditibus Ecclesie. — Atque ex hac 
           distin<lb break="no" ed="#P" n="104"/>ctione et doctrina inferunt primo, clericum
@@ -133,7 +131,7 @@
           <lb ed="#P" n="28"/>hanc vero rationem occurrit diflicultas, quam
           <lb ed="#P" n="29"/>infra tractabo.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e267">
           <lb ed="#P" n="30"/>3. Clericos teneri ad decimas preediales ex
           <lb ed="#P" n="31"/>pradiis alio titulo possessis. — Secundo 
           mnfe<lb break="no" ed="#P" n="32"/>runt, clericos teneri ad solvendas decimas
@@ -160,7 +158,7 @@
           e<lb break="no" ed="#P" n="53"/>nerali regula eorum, qui ad decimas solvendas
           <lb ed="#P" n="54"/>tenentur.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e324">
           <lb ed="#P" n="55"/>Idem cum proportione de decimis persona-
           <cb ed="#P" n="b"/>
           <lb ed="#P" n="56"/>libus dicendum. — Tertio inferunt idem esse
@@ -191,7 +189,7 @@
           <lb ed="#P" n="81"/>tamen clericos communiter viventes ; sed hoc
           <lb ed="#P" n="82"/>spectat ad tertiam partem regulae.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e389">
           <lb ed="#P" n="83"/>4. Duae difficultates contra doctrinam 
           tra<lb break="no" ed="#P" n="84"/>ditam proponuntur. — Duae vero difficultates
           <lb ed="#P" n="85"/>circa hanc doctrinam occurrunt. Una est circa
@@ -254,7 +252,7 @@
           Levi<lb break="no" ed="#P" n="30"/>tae in veteri lege ex decimis solvebant 
           deci<lb break="no" ed="#P" n="31"/>mas summo sacerdoti.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e524">
           <lb ed="#P" n="32"/>5. Secunda difficultas. — Atque hinc oritur
           <lb ed="#P" n="33"/>secunda difficultas circa consecutionem 
           doc<lb break="no" ed="#P" n="34"/>trinae. Nam si clerici possunt esse debitores
@@ -299,7 +297,7 @@
           <lb ed="#P" n="72"/>fructibus aut lucris, etiam ecclesiastico titulo
           <lb ed="#P" n="73"/>acquisitis.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e620">
           <lb ed="#P" n="74"/>6. Unde apparent valde infirma rationes 
           ad<lb break="no" ed="#P" n="75"/>ductae pro dicto primo, quia licet clericus 
           sol<lb break="no" ed="#P" n="76"/>vat decimas ex fructibus ecclesiasticis sibi alias
@@ -342,7 +340,7 @@
           <lb ed="#P" n="1"/>terminato per ecclesiasticum, si aliunde non
           <lb ed="#P" n="2"/>eximantur.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e711">
           <lb ed="#P" n="3"/>1. Augetur difficultas. — Accedit tandem
           <lb ed="#P" n="4"/>quod illa distinctio videtur inventa ad 
           con<lb break="no" ed="#P" n="5"/>ciliandas duas partes illius capitis secundi de
@@ -400,7 +398,7 @@
           <lb ed="#P" n="56"/>illius capitis secundi , nec veram doctrinam
           <lb ed="#P" n="57"/>continere videtur.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e836">
           <lb ed="#P" n="58"/>8. An Pontifex summus ad decimas teneatur.
           <lb ed="#P" n="59"/>— Resolutio quaestionis. — Hae difficultates
           <lb ed="#P" n="60"/>postulant ut doctrinam illam magis in 
@@ -446,7 +444,7 @@
           <lb ed="#P" n="100"/>obligatur hoc praecepto ; potest autem obligari
           <lb ed="#P" n="101"/>ad aliquam decimam ratione rei.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e934">
           <lb ed="#P" n="102"/>9. Rationes in contrarium solountur.—
           Pro<lb break="no" ed="#P" n="103"/>batur prima pars: primo ratione facta, 
           pro<lb break="no" ed="#P" n="104"/>ponendo priorem difficultatem. Secundo, quia
@@ -509,7 +507,7 @@
           <lb ed="#P" n="49"/>et amplius jam exponetur. Et hanc partem
           <lb ed="#P" n="50"/>sequitur Abulens., Maith. 23, q. 193, infra.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e1069">
           <lb ed="#P" n="51"/>10. Altera pars de debito reali confirmatur.
           <lb ed="#P" n="52"/>—Alteram partem de debito reali non videtur
           <lb ed="#P" n="53"/>admittere Abulensis: est tamen vera, et 
@@ -560,7 +558,7 @@
           <lb ed="#P" n="97"/>Et haec satis sunt de Pontifice, per quae prima
           <lb ed="#P" n="98"/>pars primae difficultatis satis expedita est.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e1178">
           <lb ed="#P" n="99"/>11. Episcopos teneri ad decimas debito 
           rea<lb break="no" ed="#P" n="100"/>li, non vero personali. — In secunda, de 
           Epis<lb break="no" ed="#P" n="101"/>copis et praelatis petitur an teneantur ad 
@@ -609,7 +607,7 @@
           <lb ed="#P" n="32"/>de omnibus, cum Pontifex sit universalis 
           om<lb break="no" ed="#P" n="33"/>nium pastor.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e1282">
           <lb ed="#P" n="34"/>12. Quod autem secundum commune jus
           <lb ed="#P" n="35"/>Pontifex non utatur hac potestate, sentiunt
           <lb ed="#P" n="36"/>idem D. Thomas et omnes, et constat, quia
@@ -653,7 +651,7 @@
           <lb ed="#P" n="73"/>pro actibus judicialibus aut visiationibus 
           de<lb break="no" ed="#P" n="74"/>bentur, sufficienter compensatur.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e1376">
           <lb ed="#P" n="75"/>13. Probatur assertio quoad debitum reale.
           <lb ed="#P" n="76"/>— Ex his ergo satis probata manet assertio
           <lb ed="#P" n="77"/>quoad personale debitum : quoad alteram 
@@ -691,7 +689,7 @@
           ha<lb break="no" ed="#P" n="109"/>bere, quia illas sub sua cura et dispensatione
           <lb ed="#P" n="110"/>habent.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e1458">
           <pb ed="#P" n="155"/>
           <cb ed="#P" n="a"/>
           <lb ed="#P" n="1"/>14. Objectioni occurritur. — Dices hinc 
@@ -754,7 +752,7 @@
           <lb ed="#P" n="57"/>parte sermo est de debito personali, non de
           <lb ed="#P" n="58"/>reali.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e1593">
           <lb ed="#P" n="59"/>15. Probatur ratione assertio. — Vla ergo
           <lb ed="#P" n="60"/>pars eodem modo probanda est, quo similem
           <lb ed="#P" n="61"/>de Pontifice ostendimus, quia res transit cum
@@ -774,7 +772,7 @@
           <lb ed="#P" n="75"/>quia in illis non habet locum reale debitum,
           <lb ed="#P" n="76"/>ut iterum etiam statim dicemus.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e1635">
           <lb ed="#P" n="77"/>16. Parochum teneri ad decimas has 
           sol<lb break="no" ed="#P" n="78"/>vendas debito reali, non vero personali. — 
           Ter<lb break="no" ed="#P" n="79"/>tio, ponitur in eadem parte similis quaestio de
@@ -816,7 +814,7 @@
           <lb ed="#P" n="3"/>parochi ratione sui ministerii, et ideo ex illis
           <lb ed="#P" n="4"/>debet solvere decimas, saltem ex debito reali.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e1724">
           <lb ed="#P" n="5"/>17. Satisfit objectioni. — Dices : in ecclesia
           <lb ed="#P" n="6"/>parochiali decimae solvuntur ipsi parocho;
           <lb ed="#P" n="7"/>ergo si parochus illius ecclesiae tales decimas
@@ -845,7 +843,7 @@
           <lb ed="#P" n="30"/>proprios, ratione temporalis dominii, vel ut
           <lb ed="#P" n="31"/>receptos ratione sui beneficii, ut constat.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e1785">
           <lb ed="#P" n="32"/>18. Probatur secunda pars de debito 
           perso<lb break="no" ed="#P" n="33"/>nali.—Secundam partem de debito personali,
           <lb ed="#P" n="34"/>in curato specialiter, indicavit Soto; sentit
@@ -890,7 +888,7 @@
           suffi<lb break="no" ed="#P" n="72"/>ciens fundamentum persolvendi decimas, de
           <lb ed="#P" n="73"/>possibili loquendo.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e1881">
           <lb ed="#P" n="74"/>19. Differentia inter Summum Pontificem
           <lb ed="#P" n="75"/>et Episcopos in decimis imponendis. — Vst 
           ta<lb break="no" ed="#P" n="76"/>men haec differentia inter Pontificem et 
@@ -933,7 +931,7 @@
           <lb ed="#P" n="1"/>omnes non superiores in jurisdictione, vel
           <lb ed="#P" n="2"/>pastorali munere respectu ipsorum.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e1973">
           <lb ed="#P" n="3"/>20. Parochos non teneri ad decimas 
           solven<lb break="no" ed="#P" n="4"/>das ratione personarum. —Va ergo 
           inductio<lb break="no" ed="#P" n="5"/>ne facta constat parochos non teneri ad 
@@ -979,7 +977,7 @@
           su<lb break="no" ed="#P" n="45"/>pra, qui etiam generalius loquuntur, ut in 
           se<lb break="no" ed="#P" n="46"/>quenti puncto declarabo.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e2071">
           <lb ed="#P" n="47"/>21. Clerici simplices tenentur ex vi juris ad
           <lb ed="#P" n="48"/>decimas, non solum reali, sed personali debito.
           <lb ed="#P" n="49"/>— Quarto tandem similis interrogatio peti
@@ -1022,7 +1020,7 @@
           <lb ed="#P" n="85"/>Poenit. et remiss.; ergo sub regula solvendi
           <lb ed="#P" n="86"/>decimas comprehenduntur in rigore juris.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e2162">
           <lb ed="#P" n="87"/>22. Limitatio a quibusdam assignata. — Ab
           <lb ed="#P" n="88"/>hac tamen obligatione excipiunt aliqui 
           cleri<lb break="no" ed="#P" n="89"/>cos inservientes alicui ecclesiae, cui decimae
@@ -1070,7 +1068,7 @@
           <lb ed="#P" n="19"/>recipientes, et nullum est jus illos eximens;
           <lb ed="#P" n="20"/>ergo.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e2264">
           <lb ed="#P" n="21"/>23. Exceptio praecedens quomodo possit esse
           <lb ed="#P" n="22"/>vera.— Alia limitatio impugnatur. — 
           Intei<lb break="no" ed="#P" n="23"/>lecta vero illa exceptio de decinis, ex 
@@ -1122,7 +1120,7 @@
           <lb ed="#P" n="68"/>per se connexa, nec de facto consuetudine
           <lb ed="#P" n="69"/>servatur, quantum intelligo.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e2375">
           <lb ed="#P" n="70"/>24. Denique ex his colligi potest, quid 
           di<lb break="no" ed="#P" n="71"/>cendum sit de personalibus decimis. 
           Verisi<lb break="no" ed="#P" n="72"/>milius enim est, clericos nunquam teneri ad
@@ -1142,7 +1140,7 @@
           cle<lb break="no" ed="#P" n="86"/>ricis; quae consuetudo, ubi fuerit, servanda est,
           <lb ed="#P" n="87"/>juxta supra dicta, et dicenda in sequenti capite.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e2417">
           <lb ed="#P" n="88"/>25. Religiosos teneri ad solvendas decamas.
           <lb ed="#P" n="89"/>—dAtque ex his constat, quid dicendum sit de
           <lb ed="#P" n="90"/>religiosis, et de quibuseumque personis 
@@ -1167,7 +1165,7 @@
           <lb ed="#P" n="109"/>de Decimis, in 6, et idem supponitur in cap.
           <lb ed="#P" n="110"/>Veniens, de Transactio.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e2470">
           <pb ed="#P" n="159"/>
           <cb ed="#P" n="a"/>
           <lb ed="#P" n="1"/>26. Tandem ex his omnibus satisfactum est
@@ -1201,7 +1199,7 @@
           au<lb break="no" ed="#P" n="29"/>tem ecclesiastica praedia, jam satis explicatum
           <lb ed="#P" n="30"/>est.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e2542">
           <lb ed="#P" n="31"/>27. Cum predia unius ecclesie sunt intra
           <lb ed="#P" n="32"/>terminos alterius, an ecclesia teneatur ad 
           de<lb break="no" ed="#P" n="33"/>cimas. — Una vero superest difficultas circa
@@ -1232,7 +1230,7 @@
           <lb ed="#P" n="57"/>capit. Commissum, cap. Nuper, cum aliis de
           <lb ed="#P" n="58"/>decimis, et 16, q. 1; ergo.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e2607">
           <lb ed="#P" n="59"/>28. Pars affirmativa proponitur. — Ad
           <lb ed="#P" n="60"/>hanc igitur difficultatem primo responderi 
           po<lb break="no" ed="#P" n="61"/>test, concedendo sequelam, nimirum tales 
@@ -1264,7 +1262,7 @@
           ra<lb break="no" ed="#P" n="87"/>tione utuntur saepe jura citata, cum de 
           reli<lb break="no" ed="#P" n="88"/>giosis loquuntur.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e2675">
           <lb ed="#P" n="89"/>29. Pars negativa explicatur. — 
           Nihilomi<lb break="no" ed="#P" n="90"/>nus contrariam sententiam, nimirum, in 
           prae<lb break="no" ed="#P" n="91"/>dicto casu ecclesiam, cujus est possessio 
@@ -1304,7 +1302,7 @@
           <lb ed="#P" n="13"/>tamen unius et ejusdem, sed plurium, juxta
           <lb ed="#P" n="14"/>earum quasi partialia jura.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e2760">
           <lb ed="#P" n="15"/>30. Melius posset suaderi haec sententia ex
           <lb ed="#P" n="16"/>dicto cap. Questi , 16, quaestione 1, cum his
           <lb ed="#P" n="17"/>quae circa illud supra notavimus: videtur
@@ -1328,7 +1326,7 @@
           il<lb break="no" ed="#P" n="35"/>Ium Glossa, in dicto cap. 2 de Decimis, verb.
           <lb ed="#P" n="36"/>clericis.
         </p>
-        <p>
+        <p xml:id="szovsr-k03695-d1e2810">
           <lb ed="#P" n="37"/>31. Rejicitur media sententia inter duas
           <lb ed="#P" n="38"/>supra relatas. — At vero Glos:a, in eodem c.
           <lb ed="#P" n="39"/>Questi, in proponendo casum illius textus,

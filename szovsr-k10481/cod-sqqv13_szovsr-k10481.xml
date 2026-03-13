@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,14 +53,14 @@
     </front>
     <body>
       <div xml:id="szovsr-k10481"><!-- t2-l3c10 -->
-        <head>Caput 10</head>
-        <head type="question-title">Qua personae gaudeant propria ecclesiarum immunitate.</head>
-        <p>
+        <head xml:id="szovsr-k10481-Hd1e101">Caput 10</head>
+        <head xml:id="szovsr-k10481-Hd1e103" type="question-title">Qua personae gaudeant propria ecclesiarum immunitate.</head>
+        <p xml:id="szovsr-k10481-d1e106">
           <lb ed="#P" n="30"/>CAPUT X.
           <lb ed="#P" n="31"/>QUA PERSONAE GAUDEANT PROPRIA ECCLESIARUM
           <lb ed="#P" n="32"/>IMMUNITATE.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e115">
           <lb ed="#P" n="33"/>1. Diximus de amplitudine hujus privilegii
           <lb ed="#P" n="34"/>ex parte locorum sacrorum ; dicendum 
           con<lb break="no" ed="#P" n="35"/>sequenter est de illius extensione , seu 
@@ -85,7 +83,7 @@
           <lb ed="#P" n="52"/>cap. S4 quis contumaz, 11, q. 4, et ex cap. 
           Za<lb break="no" ed="#P" n="53"/>ter alia.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e163">
           <cb ed="#P" n="b"/>
           <lb ed="#P" n="54"/>2. Quid si servus dominum timens ad 
           eccle<lb break="no" ed="#P" n="55"/>siam fugiat — Additur vero ibi specialiter
@@ -135,7 +133,7 @@
           <lb ed="#P" n="99"/>quod aliis etiam commune est, ut infra 
           vide<lb break="no" ed="#P" n="100"/>bimus.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e271">
           <lb ed="#P" n="101"/>3. Fidelis excommunicatus hoc habet 
           privi<lb break="no" ed="#P" n="102"/>legium. — Idem dicendum de interdicto. —
           <lb ed="#P" n="103"/>Secundo, colligitur ex dictis, fidelem gaudere
@@ -168,7 +166,7 @@
           <lb ed="#P" n="20"/>ecclesia non interdicta gaudebit illa respectu
           <lb ed="#P" n="21"/>personae interdictae.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e341">
           <lb ed="#P" n="22"/>4. Hujus vero contrarium docuit Felin., in
           <lb ed="#P" n="23"/>cap. A nobis, de Exceptionibus, num. 5. 
           Lo<lb break="no" ed="#P" n="24"/>quitur tamen specialiter de illo qui 
@@ -201,7 +199,7 @@
           <lb ed="#P" n="51"/>se defendat, maxime si alibi non possit. Et ita
           <lb ed="#P" n="52"/>cessant rationes Felin.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e411">
           <lb ed="#P" n="53"/>5. An clerici hoc gaudeant beneficio. — Dixi
           <lb ed="#P" n="54"/>autem in assertione laicos frui hoc beneficio,
           <lb ed="#P" n="55"/>quia de clericis est controversia; aliqui enim
@@ -224,7 +222,7 @@
           flagella<lb break="no" ed="#P" n="71"/>re prasumat ; ergo multo minus potest 
           cleri<lb break="no" ed="#P" n="72"/>cus inde extrahi ut puniatur.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e459">
           <lb ed="#P" n="73"/>6. Pars negativa approbatur. — 
           Nihilomi<lb break="no" ed="#P" n="74"/>nus contrariam sententiam tenet 
           Panormita<lb break="no" ed="#P" n="75"/>nus, in dicto cap. 7nter alia, num. 13, 
@@ -261,7 +259,7 @@
           <lb ed="#P" n="106"/>prohibetur fieri circa personam clerici, 
           ex<lb break="no" ed="#P" n="107"/>trahendo illum ab ecclesia.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e537">
           <lb ed="#P" n="108"/>7. Limitatur superior conclusio. — Haec 
           er<lb break="no" ed="#P" n="109"/>go sententia probanda est, limitanda vero (ut
           <lb ed="#P" n="110"/>bene dicit Navarr.) ut procedat de clerico res-
@@ -297,7 +295,7 @@
           se<lb break="no" ed="#P" n="28"/>quentibus attingemus, quamvis hoc magis ad
           <lb ed="#P" n="29"/>jurisperitos pertineat.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e613">
           <lb ed="#P" n="30"/>2. Respondetur fundamento oppositae 
           senten<lb break="no" ed="#P" n="31"/>lig. — Ad fundamentum autem contrariae
           <lb ed="#P" n="32"/>sententiae dicendum est, licet canones 
@@ -320,7 +318,7 @@
           immu<lb break="no" ed="#P" n="49"/>nitas ecclesiae non conceditur adversus ipsam
           <lb ed="#P" n="50"/>ecclesiam, seu potestatem ejus.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e662">
           <lb ed="#P" n="51"/>9. An infideles hac gaudeant immunitate.—
           <lb ed="#P" n="52"/>Denique dixi, laicum fidelem, etc., quia de 
           in<lb break="no" ed="#P" n="53"/>fidelibus etiam est controversia. Quod enim
@@ -361,7 +359,7 @@
           <lb ed="#P" n="87"/>pendea:t ex jure positivo, illa opinio 
           praeferen<lb break="no" ed="#P" n="88"/>da videtur, cui verba legis magis favent.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e749">
           <lb ed="#P" n="89"/>10. In jure ergo canonico nihil invenio,
           <lb ed="#P" n="90"/>quo possit haec posterior opinio probari, nam
           <lb ed="#P" n="91"/>verba Canonum generaliter et indifferenter
@@ -396,7 +394,7 @@
           <lb ed="#P" n="8"/>constare, ad praesumptionem necessario 
           recur<lb break="no" ed="#P" n="9"/>rendum est.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e823">
           <lb ed="#P" n="10"/>11. Sententia auctoris. — Aut ergo 
           infide<lb break="no" ed="#P" n="11"/>lis confugiens ad ecclesiam petit baptismum,
           <lb ed="#P" n="12"/>vel non: si non petit, credo non gaudere, ut
@@ -434,7 +432,7 @@
           <lb ed="#P" n="44"/>servis, et aliis infidelibus qui inter nos 
           ver<lb break="no" ed="#P" n="45"/>santur.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e904">
           <lb ed="#P" n="46"/>12. At vero quando infidelis solum post
           <lb ed="#P" n="47"/>delictum, et fugam ad Ecclesiam, incipit 
           os<lb break="no" ed="#P" n="48"/>tendere voluntatem fidei, magna est 
@@ -476,7 +474,7 @@
           <lb ed="#P" n="83"/>procedet secunda opinio juxta praedictam 
           le<lb break="no" ed="#P" n="84"/>gem.
         </p>
-        <p>
+        <p xml:id="szovsr-k10481-d1e993">
           <lb ed="#P" n="85"/>13. Quid de haereticis dicendum.—Sed quid
           <lb ed="#P" n="86"/>de haereticis? illi enim licet sint infideles,
           <lb ed="#P" n="87"/>sunt tamen baptizati, et ex hac parte 

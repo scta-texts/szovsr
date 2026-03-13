@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
      guidelines for a diplomatic edition.</p>
@@ -55,15 +53,15 @@
     </front>
     <body>
       <div xml:id="szovsr-k16975"><!-- t3-l4c12 -->
-        <head>Caput 12</head>
-        <head type="question-title">Utrum in necessitate possit sacramentum emi ab eo qui non vult illud, nisi propter pretium, ministrare.</head>
-        <p>
+        <head xml:id="szovsr-k16975-Hd1e101">Caput 12</head>
+        <head xml:id="szovsr-k16975-Hd1e103" type="question-title">Utrum in necessitate possit sacramentum emi ab eo qui non vult illud, nisi propter pretium, ministrare.</head>
+        <p xml:id="szovsr-k16975-d1e106">
           <lb ed="#P" n="95"/>CAPUT XII.
           <lb ed="#P" n="96"/>UTRUM IN NECESSITATRE POSSIT SACRAMENTUM
           <lb ed="#P" n="97"/>EMI AB EO QUI NON VULT ILLUD, NISI 
           PROP<lb break="no" ed="#P" n="98"/>TER PRETIUM, MINISTRABE.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e117">
           <lb ed="#P" n="99"/>1. Prima opinio negativa. — Haec quaestio
           <lb ed="#P" n="100"/>de omnibus fere rebus sacris tractari potest ;
           <lb ed="#P" n="101"/>solet autem specialiter disputari de baptismo,
@@ -116,7 +114,7 @@
           <lb ed="#P" n="39"/>licet non deberem facere. Quod valde 
           incon<lb break="no" ed="#P" n="40"/>tanter et imprudenter dictum est.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e230">
           <lb ed="#P" n="41"/>2. Fundamentum hujus opimonis. — 
           Fun<lb break="no" ed="#P" n="42"/>damentum hujus opinionis ex duobus 
           princi<lb break="no" ed="#P" n="43"/>piis sumitur : unum est, esse intrinsece malum
@@ -195,7 +193,7 @@
           tol<lb break="no" ed="#P" n="3"/>lendam illam : consequens autem non 
           admitti<lb break="no" ed="#P" n="4"/>tur etiam a dictis auctoribus; ergo.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e400">
           <lb ed="#P" n="5"/>3. Secunda sententia distinguens inter 
           ne<lb break="no" ed="#P" n="6"/>cessitatlem gravem et ectremam. — Secunda
           <lb ed="#P" n="7"/>sententia distinguit inter extremam 
@@ -267,7 +265,7 @@
           ra<lb break="no" ed="#P" n="72"/>tione affert, quod in necessitate etiam ab 
           hae<lb break="no" ed="#P" n="73"/>retico licet baptismum postulare.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e554">
           <lb ed="#P" n="74"/>4. Probatur prima pars lujus opinionis, 
           af<lb break="no" ed="#P" n="75"/>firmans ad baptizandum parvulum in extrema
           <lb ed="#P" n="76"/>necessitate posse dari pecuniam. — Haec 
@@ -332,7 +330,7 @@
           <lb ed="#P" n="23"/>possit; sed permittit malitiam ejus, illaque
           <lb ed="#P" n="24"/>bene utitur, sicut de solvente usuras constat.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e693">
           <lb ed="#P" n="25"/>5. Difficultas urgetur in adulto. — 
           Verum<lb break="no" ed="#P" n="26"/>tamen, licet hic discursus probabiliter 
           proce<lb break="no" ed="#P" n="27"/>dat quoad hanc partem affirmantem, videtur
@@ -365,7 +363,7 @@
           <lb ed="#P" n="54"/>detur pecunia, ac subinde etiam in eo casu
           <lb ed="#P" n="55"/>non esse peccatnm illum dare.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e763">
           <cb ed="#P" n="b"/>
           <lb ed="#P" n="56"/>6. Opinio Soti asserens in extremu 
           necessi<lb break="no" ed="#P" n="57"/>taie pcsse emi sacramentum. — Quapropter
@@ -412,7 +410,7 @@
           mi<lb break="no" ed="#P" n="98"/>nor sit necesstas, videatur quis, dando 
           pecu<lb break="no" ed="#P" n="99"/>niam, alterius iniquitati consentire.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e863">
           <lb ed="#P" n="100"/>7. Impugnatur opinio Soti, dicentis 
           emptio<lb break="no" ed="#P" n="101"/>nem sacramenti non esse intriusece malam. —
           <lb ed="#P" n="102"/>Sed haec non videntur dicta cum fundamento
@@ -457,7 +455,7 @@
           <lb ed="#P" n="29"/>spirituali, magis quam vendens. Est ergo in
           <lb ed="#P" n="30"/>utraque parte aeque intrinseca mahtia.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e959">
           <lb ed="#P" n="31"/>8. Responsum Soti refellitur. — Praeterea
           <lb ed="#P" n="32"/>hoc declaratur ex facto Simonis, cujus factum
           <lb ed="#P" n="33"/>ut per se malum et gravissimum Pe:rus 
@@ -509,7 +507,7 @@
           con<lb break="no" ed="#P" n="78"/>tractum, et similes rationes possunt facile 
           mul<lb break="no" ed="#P" n="79"/>tiplicari, ut in sequentibus etiam dicemus.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e1071">
           <lb ed="#P" n="80"/>9. Non loqui Sotum consequenter. —
           Praete<lb break="no" ed="#P" n="81"/>rea non loquitur Soto consequenter ; nam, si
           <lb ed="#P" n="82"/>emptio sacramenti non est intrinsece mala,
@@ -546,7 +544,7 @@
           <lb ed="#P" n="1"/>de sua contritione et dispositione non sats
           <lb ed="#P" n="2"/>confidens.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e1149">
           <lb ed="#P" n="3"/>10. Adde quod nec etiam apud homines potest
           <lb ed="#P" n="4"/>ibi esse suspicio collusionis, vel consensus in
           <lb ed="#P" n="5"/>peccatum alterius; haec enim suspicio merito
@@ -582,7 +580,7 @@
           faci<lb break="no" ed="#P" n="35"/>lius honestari potest coram Deo, secluso 
           scan<lb break="no" ed="#P" n="36"/>dalo et suspicione mala apud homines.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e1225">
           <lb ed="#P" n="37"/>11. Declaratur aliter Soti opinio. — 
           Eapli<lb break="no" ed="#P" n="38"/>catwr quomodo dici possit non esse simoniam in
           <lb ed="#P" n="39"/>extrema necessitate emere sacramentum.— 
@@ -655,7 +653,7 @@
           mino<lb break="no" ed="#P" n="105"/>ri, sicut malitia furti cessat in extrema 
           neces<lb break="no" ed="#P" n="106"/>sitate, non vero in alia.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e1381">
           <lb ed="#P" n="107"/>12. Impugnatur. — Sed neque isto modo
           <lb ed="#P" n="108"/>censeo illam sententiam sustinendam esse
           <lb ed="#P" n="109"/>quoad priorem partem, nec satisfacere quoad
@@ -704,7 +702,7 @@
           despe<lb break="no" ed="#P" n="40"/>rata (ut sic dicam), sicut est necessitas 
           par<lb break="no" ed="#P" n="41"/>vuli.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e1485">
           <lb ed="#P" n="42"/>13. Opinio asserens posse dari pecuniam non
           <lb ed="#P" n="43"/>ad emendum sacramentum , sed ad removendumn
           <lb ed="#P" n="44"/>impedimentum. — Hec opinio quoad priorem
@@ -762,7 +760,7 @@
           aper<lb break="no" ed="#P" n="95"/>tius constabit ex solutionibus rationum 
           prio<lb break="no" ed="#P" n="96"/>ris sententia.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e1609">
           <lb ed="#P" n="97"/>14. Quoad secundam partem de adulto ctiam
           <lb ed="#P" n="98"/>approbatur hec opinio. — Altera pars hujus
           <lb ed="#P" n="99"/>sententiae est, hoc non tantum habere locum
@@ -812,7 +810,7 @@
           separa<lb break="no" ed="#P" n="31"/>tur, jam non est simonia, et ideo actio est 
           li<lb break="no" ed="#P" n="32"/>cita.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e1717">
           <lb ed="#P" n="33"/>15. Quid dicendum si non solum pecunia 
           pe<lb break="no" ed="#P" n="34"/>tatur, sed etiam in pretium petatur. — Si 
           ju<lb break="no" ed="#P" n="35"/>ramentum petatur, quod pecunia detur in 
@@ -848,7 +846,7 @@
           <lb ed="#P" n="64"/>et privandum se illo remedio, ne Deum 
           offen<lb break="no" ed="#P" n="65"/>dat.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e1793">
           <lb ed="#P" n="66"/>16. Soti opinio rejicitur. — At vero si 
           in<lb break="no" ed="#P" n="67"/>tentio petentis non sit tam prava, sed solius
           <lb ed="#P" n="68"/>avaritie, vel cdii privati, ut faciat alium 
@@ -897,7 +895,7 @@
           <lb ed="#P" n="2"/>hunc casum esse possibilem, sed non video
           <lb ed="#P" n="3"/>qua ratione id possit negari.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e1897">
           <lb ed="#P" n="4"/>17. An liceat inflectere pecunia illum qui ea
           <lb ed="#P" n="5"/>odio non vult dave baptismum ? — Pars 
           affir<lb break="no" ed="#P" n="6"/>mativa approbatur. — Tandem quaeri potest
@@ -956,7 +954,7 @@
           inve<lb break="no" ed="#P" n="58"/>nio novam rationem qua possit solide 
           refu<lb break="no" ed="#P" n="59"/>tari.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e2023">
           <lb ed="#P" n="60"/>18. Idem dicendum de confessionis 
           sacra<lb break="no" ed="#P" n="61"/>mento. — In aliquibus sacramentis hoc etium
           <lb ed="#P" n="62"/>aliquando admittendum. — Atque ex dictis 
@@ -1002,7 +1000,7 @@
           ra<lb break="no" ed="#P" n="102"/>tio cur non possit hoc fieri in tali 
           necessi<lb break="no" ed="#P" n="103"/>tate.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e2121">
           <lb ed="#P" n="104"/>19. Proponitur eadem quaestio in eucharistia :
           <lb ed="#P" n="105"/>sumenda per modum viatici. — Quin potius
           <lb ed="#P" n="106"/>non sine causa verti potest in dubium, an ne- i
@@ -1065,7 +1063,7 @@
           <lb ed="#P" n="51"/>cur ergo non per aliam inductionem non 
           in<lb break="no" ed="#P" n="52"/>irinsece malam ?
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e2256">
           <lb ed="#P" n="53"/>20. Posse dari pecuniam tyranno, qui 
           eu<lb break="no" ed="#P" n="54"/>charistie sacramentum quasi caplivum 
           habue<lb break="no" ed="#P" n="55"/>rit. — Addo denique alium casum quo omnia
@@ -1108,7 +1106,7 @@
           <lb ed="#P" n="91"/>specie asseruit Ugolin.. cap. 38, num. 5; et
           <lb ed="#P" n="92"/>sumitr es Anton., d. c. 5, S 13.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e2348">
           <lb ed="#P" n="93"/>21. Respondetur ad fundamentum prime
           <lb ed="#P" n="94"/>sententig. — Ad fundamentum ergo primae
           <lb ed="#P" n="95"/>sententiae, respondemus posse in illo casu 
@@ -1150,7 +1148,7 @@
           <lb ed="#P" n="19"/>aut appetitus vindictae, si inde nasceretur illa
           <lb ed="#P" n="20"/>renitentia in dando sacramento.
         </p>
-        <p>
+        <p xml:id="szovsr-k16975-d1e2437">
           <lb ed="#P" n="21"/>22. Solvitur primum argumentum.—Fa ita
           <lb ed="#P" n="22"/>patet solutio ad formam argumenti primi, quia
           <lb ed="#P" n="23"/>tollere vexationem, hic non est tollere 
