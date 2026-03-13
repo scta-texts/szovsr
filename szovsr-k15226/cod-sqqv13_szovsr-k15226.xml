@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="610"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k15226"><!-- t3-l3c4 -->
+        <head>Caput 4</head>
+        <head type="question-title">De sacrilegiis contra locum et alias res sacras.</head>
+        <p>
+          <lb ed="#P" n="31"/>CAPUT IV
+          <lb ed="#P" n="32"/>DE SACRILEGIIS CONTRA LOCUM ET ALIAS RES
+          <lb ed="#P" n="33"/>SACRAS.
+        </p>
+        <p>
+          <lb ed="#P" n="34"/>1. An tempus sacrum constituat propriam
+          <lb ed="#P" n="35"/>speciem sacrileg. — Primus dicendi modus
+          <lb ed="#P" n="36"/>affirmativus. — De secunda specie sacrilegi
+          <lb ed="#P" n="37"/>contra locum sacrum multa essent dicenda,
+          <lb ed="#P" n="38"/>nisi in superiori libro omnia essent tradita et
+          <lb ed="#P" n="39"/>explicata. Hic ergo solum est reddenda ratio,
+          <lb ed="#P" n="40"/>cur tempus sacrum non constituat speciem
+          <lb ed="#P" n="41"/>propriam sacrilegii, sicut locus, nam 
+          solemni<lb break="no" ed="#P" n="42"/>tates inter res sacras computantur, teste divo
+          <lb ed="#P" n="43"/>Thoma 1. 2, quaest. 101, art. 4, ad b5. Ad
+          <lb ed="#P" n="44"/>quod altero e duobus modis responderi potest,
+          <lb ed="#P" n="45"/>primo, concedendo dari propriam quamdam
+          <lb ed="#P" n="46"/>speciem sacrilegii ex violatione temporis sacri.
+          <lb ed="#P" n="47"/>Ita sentit novissime Leonardus Lessius, lib. 2,
+          <lb ed="#P" n="48"/>cap. 45, num. 15 et 18. Ponit tamen hoc 
+          sacri<lb break="no" ed="#P" n="49"/>legium in tertia specie, ita ut tempus divino
+          <lb ed="#P" n="50"/>cultui dicatum, inter res sacras connumeretur
+          <lb ed="#P" n="51"/>tanquam mensura rerum sacrarum. Duobus
+          <lb ed="#P" n="52"/>autem vel tribus modis violari potest festum:
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>primo, per omissionem Missae, et hoc (ut recte
+          <lb ed="#P" n="54"/>dicit) non est sacrilegium, sed irreligiositas
+          <lb ed="#P" n="55"/>quaedam erga Deum ipsum per omissionem,
+          <lb ed="#P" n="56"/>potius quam per commissionem. Nam 
+          sacrifi<lb break="no" ed="#P" n="57"/>cium non est veneratio alicujus rei sacrae, sed
+          <lb ed="#P" n="58"/>est supremus cultus ipsiusmet Dei, cujus 
+          obli<lb break="no" ed="#P" n="59"/>gatio determinatur ab Ecclesia ad dies festos;
+          <lb ed="#P" n="60"/>et ideo illius omissio habet malitiam dirccte
+          <lb ed="#P" n="61"/>contrariam cultui secundum se, neque aliter
+          <lb ed="#P" n="62"/>opponitur sanctitati festi. Secundo, violatur
+          <lb ed="#P" n="63"/>festum faciendo in illo opus servile, seu directe
+          <lb ed="#P" n="64"/>prohibitum in die festo; et hanc violationem
+          <lb ed="#P" n="65"/>dicit esse proprie sacrilegium, quia per illud
+          <lb ed="#P" n="66"/>opus sanctitas diei festi violatur vel 
+          contemni<lb break="no" ed="#P" n="67"/>tur. Tertio modo potest sacrum tempus 
+          viola<lb break="no" ed="#P" n="68"/>ri, faciendo in illo opus, quod, licet non sit
+          <lb ed="#P" n="69"/>specialiter prohibitum, repugnat ex generali
+          <lb ed="#P" n="70"/>ratione sanctitati temporis, ut peccando in die
+          <lb ed="#P" n="71"/>festo, et hoc etiam dicit esse sacrilegium idem
+          <lb ed="#P" n="72"/>auctor, eodem cap. 45, dub. 4. Ait tamen
+          <lb ed="#P" n="73"/>malitiam saerilegii esse venialem, quod 
+          intel<lb break="no" ed="#P" n="74"/>ligendum est secluso contemptu, seu nisi ex
+          <lb ed="#P" n="75"/>directa et formah intentione tale opus fiat in
+          <lb ed="#P" n="76"/>despectum et injuriam illius diei; nam tunc
+          <lb ed="#P" n="77"/>erit grave peccatum, ut constat, et videtur esse
+          <lb ed="#P" n="78"/>propriissimum sacrilegium.
+        </p>
+        <p>
+          <lb ed="#P" n="79"/>2. Probabilis judicatur precedens sententia.
+          <lb ed="#P" n="80"/>— Cur sacralegium contra tempus non 
+          consti<lb break="no" ed="#P" n="81"/>tuat speciem distinctam ab aliis, 
+          quemadmo<lb break="no" ed="#P" n="82"/>dumn sacrilegium contra locum.—Cuse sententia
+          <lb ed="#P" n="83"/>probabilis mihi videtur ; oportet tamen 
+          ratio<lb break="no" ed="#P" n="84"/>nem reddere, cur sacrilegium contra locum 
+          sa<lb break="no" ed="#P" n="85"/>crum, ponatur species distincta ab omni 
+          sacri<lb break="no" ed="#P" n="86"/>legium contra alias res sacras, non vero 
+          sacri<lb break="no" ed="#P" n="87"/>legio contra tempus sacrum. Quia si 
+          consi<lb break="no" ed="#P" n="88"/>deremus species malitiarum, violatio festi per
+          <lb ed="#P" n="89"/>opus servile est peccatum aeque distinctum ab
+          <lb ed="#P" n="90"/>irreverentia facta calici, vel imagini, ac est
+          <lb ed="#P" n="91"/>distinctum ab eisdem furtum factum in locc
+          <lb ed="#P" n="92"/>sacro. Si vero locus et tempus inter se 
+          compa<lb break="no" ed="#P" n="93"/>rentur, videntur servare proportionem, ut 
+          su<lb break="no" ed="#P" n="94"/>pra argumentati sumus, nam utrumque est
+          <lb ed="#P" n="95"/>mensura actionum, et sicut actio sacra 
+          deter<lb break="no" ed="#P" n="96"/>minatur ad tale tempus, ita et ad talem 
+          lo<lb break="no" ed="#P" n="97"/>cum ; vel e converso, tam tempus quam locus
+          <lb ed="#P" n="98"/>fit quid sacrum, quia dicatur ad actiones 
+          sa<lb break="no" ed="#P" n="99"/>cras ; igitur videtur esse ea lem utriusque 
+          ra<lb break="no" ed="#P" n="100"/>tio. Sed licet fortasse non possit speculativa
+          <lb ed="#P" n="101"/>differentia assignari, responderi poterit, 
+          ratio<lb break="no" ed="#P" n="102"/>ne doctrinae illam divisionem fuisse sic 
+          tradi<lb break="no" ed="#P" n="103"/>tam, quia sacrilegium contra locum sacrum
+          <lb ed="#P" n="104"/>habet in jure specialem considerationem, 
+          pro<lb break="no" ed="#P" n="105"/>pter multiplicem modum committendi illud,
+          <lb ed="#P" n="106"/>et propter varia privilegia locis sacris 
+          conces<lb break="no" ed="#P" n="107"/>sa. Vel certe dici posset hanc speciem sacrile-
+          <pb ed="#P" n="611"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gii contra tempus sacrum reduci potius ad 
+          se<lb break="no" ed="#P" n="2"/>cundam speciem sacrilegii, quae ex loco 
+          sumi<lb break="no" ed="#P" n="3"/>tur, quia hae duae circumstantiae in moralibus
+          <lb ed="#P" n="4"/>servant proportionem, et ita de illis loquitur
+          <lb ed="#P" n="5"/>D. Thomas in illa solutione ad 5.
+        </p>
+        <p>
+          <lb ed="#P" n="6"/>3. Secundus dicendi modus negans per 
+          vio<lb break="no" ed="#P" n="7"/>lationem temporis committi sacrilegium. —
+          <lb ed="#P" n="8"/>Declaratur primo. — Aliter dicendum 
+          oc<lb break="no" ed="#P" n="9"/>currit, in violatione temporis sacri non 
+          com<lb break="no" ed="#P" n="10"/>mitti proprie sacrilegium, et ideo tempus 
+          sa<lb break="no" ed="#P" n="11"/>crum in hac enumeratione non computari.
+          <lb ed="#P" n="12"/>Quod declarari potest primo ex physica 
+          dif<lb break="no" ed="#P" n="13"/>ferentia inter tempus et locum ; nam locus est
+          <lb ed="#P" n="14"/>res permanens, et ideo est capax specialis 
+          con<lb break="no" ed="#P" n="15"/>secrationis et venerationis; tempus autem est
+          <lb ed="#P" n="16"/>res transiens, unde non aliter sanctificatur,
+          <lb ed="#P" n="17"/>quam determinando actiones sacras quae in
+          <lb ed="#P" n="18"/>illo fieri debent, et ideo non censetur habere
+          <lb ed="#P" n="19"/>aliam sanctitatem praeter sanctitatem talium
+          <lb ed="#P" n="20"/>actionum. Intelligendum autem hoc est de
+          <lb ed="#P" n="21"/>tempore, quod est mensura extrinseca, ita ut
+          <lb ed="#P" n="22"/>servetur proportio ad locum; tempus autem
+          <lb ed="#P" n="23"/>intrinsecum aciioni sacrae eodem modo 
+          sa<lb break="no" ed="#P" n="24"/>crum est, quo actio ipsa ; illud autem proprie
+          <lb ed="#P" n="25"/>ac per se non violatur, nisi in quantum actio
+          <lb ed="#P" n="26"/>ipsa sacra, vel omittitur, vel impeditur, vel
+          <lb ed="#P" n="27"/>male fit , quod non pertinet ad sacrilegium,
+          <lb ed="#P" n="28"/>sed ad alia peccata contra religionem.
+        </p>
+        <p>
+          <lb ed="#P" n="29"/>4. Ostenditur discurrendo per peccata quae
+          <lb ed="#P" n="30"/>fiunt in tempore sacro.—Secundo declaratur,
+          <lb ed="#P" n="31"/>discurrendo per illa tria, quae supra 
+          enume<lb break="no" ed="#P" n="32"/>rata sunt ; nam omissio Missae non est 
+          sacrile<lb break="no" ed="#P" n="33"/>gium, ut probatum est. Commissio etiam 
+          ser<lb break="no" ed="#P" n="34"/>vilis operis in die festo non videtur esse 
+          pro<lb break="no" ed="#P" n="35"/>prium sacrilegium, sed alia species 
+          irreligiosi<lb break="no" ed="#P" n="36"/>tatis contra cultum Dei in se. Quod patet, quia
+          <lb ed="#P" n="37"/>vacatio ab operibus servilibus in die festo non
+          <lb ed="#P" n="38"/>praecipitur quasi in venerationem ipsius 
+          tem<lb break="no" ed="#P" n="39"/>poris, sed directe in cultum ipsius Dei, sive 
+          il<lb break="no" ed="#P" n="40"/>la vacatio instituatur in signum venerationis
+          <lb ed="#P" n="41"/>debitae Deo, sive praecipiatur, ut homo sit 
+          ex<lb break="no" ed="#P" n="42"/>peditus ad vacandum cultui divino; ergo 
+          con<lb break="no" ed="#P" n="43"/>trarium opus non est contra reverentiam 
+          ali<lb break="no" ed="#P" n="44"/>cujus rei sacrae, sed contra revcrentiam Dei in
+          <lb ed="#P" n="45"/>se: et in hoc cerni potest differentia inter 
+          lo<lb break="no" ed="#P" n="46"/>cum et tempus. Nam prohibitio, verbi gratia,
+          <lb ed="#P" n="47"/>negotiandi in ecclesia, immediate fit propter
+          <lb ed="#P" n="48"/>reverentiam habendam ipsi ecclesiae, quamvis
+          <lb ed="#P" n="49"/>magis remote totum ordinetur in Deum; 
+          pro<lb break="no" ed="#P" n="50"/>hibitio autem negotiandi in die festo non fit
+          <lb ed="#P" n="51"/>in reverentiam temporis , sed immediate in
+          <lb ed="#P" n="52"/>cultum, seu ob cultum Dei, et ideo prior 
+          trans<lb break="no" ed="#P" n="53"/>gressio proprie est sacrilegium, posterior 
+          au<lb break="no" ed="#P" n="54"/>tem magis est irreligiositas immediate contra
+          <lb ed="#P" n="55"/>Deum. Unde etiam non videtur necessarium
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>admittere illam tertium modum sacrilegii in
+          <lb ed="#P" n="57"/>die festo per opus in eo specialiter prohibitum,
+          <lb ed="#P" n="58"/>quia tale opus, licet alias malum sit, non est
+          <lb ed="#P" n="59"/>violatio alicujus rei sacrae, neque aliter 
+          repu<lb break="no" ed="#P" n="60"/>gnat religioni, nisi quatenus specialiter 
+          repu<lb break="no" ed="#P" n="61"/>gnat sacrae actioni, vel vacationi tali tempore
+          <lb ed="#P" n="62"/>praeseptae. Unde neque in hoc oportet omnino
+          <lb ed="#P" n="63"/>servari similitudinem inter locum et tempus,
+          <lb ed="#P" n="64"/>quia locus, eo ipso quod ad sacra munia 
+          pubh<lb break="no" ed="#P" n="65"/>ce destinatur, abstrahitur et separatur ab 
+          om<lb break="no" ed="#P" n="66"/>ni usu profano, instar aliarum rerum 
+          sacra<lb break="no" ed="#P" n="67"/>rum, ut statim dicturi sumus ; tempus autem
+          <lb ed="#P" n="68"/>extrinsecum et commune non ita dedicatur et
+          <lb ed="#P" n="69"/>abstrahitur, sed solum quoad eas actiones 
+          sa<lb break="no" ed="#P" n="70"/>cras, quae in ipso fieri praecipiuntur : sub 
+          ac<lb break="no" ed="#P" n="71"/>tionibus comprehendo carentiam actionum
+          <lb ed="#P" n="72"/>juxta regulam a D. Thoma positam 1. 2, q. 71,
+          <lb ed="#P" n="73"/>art. 6, ad 1.
+        </p>
+        <p>
+          <lb ed="#P" n="74"/>5. De tertia specie sacrilegii. — Circa 
+          ter<lb break="no" ed="#P" n="75"/>tiam speciem sacrilegii, D. Thomas., in dicta
+          <lb ed="#P" n="76"/>quaest. 99, art. 3, non aliter explicat materiam
+          <lb ed="#P" n="77"/>hujus speciei sacrilegii, nisi numerando varia
+          <lb ed="#P" n="78"/>genera rerum sacrarum, quae per hanc 
+          spe<lb break="no" ed="#P" n="79"/>ciem sacrilegii violari possunt. In primo 
+          po<lb break="no" ed="#P" n="80"/>nit Sacramenta ; in secundo vasa sacra, et ibi
+          <lb ed="#P" n="81"/>enumerat imagines sacras, et reliquias 
+          Sanc<lb break="no" ed="#P" n="82"/>torum, in quibus, inquit, personae Sanctorum
+          <lb ed="#P" n="83"/>honorantur et dehonorantur. In tertio ponit
+          <lb ed="#P" n="84"/>res, quae pertinent ad ornatum ecclesiae et 
+          mi<lb break="no" ed="#P" n="85"/>nistrorum ; in quarto ponit bona ecclesiastica
+          <lb ed="#P" n="86"/>ad sustentationem ministrorum ecclesiae 
+          de<lb break="no" ed="#P" n="87"/>putata. Non declarat autem divus Thomas cur
+          <lb ed="#P" n="88"/>haec omnia sub una specie sacrilegii 
+          nume<lb break="no" ed="#P" n="89"/>rentur, cum locus ponatur in specie distincta.
+          <lb ed="#P" n="90"/>Nam alioquin solet templum vel 
+          tabernacu<lb break="no" ed="#P" n="91"/>lum comprehendi sub generali appellatione
+          <lb ed="#P" n="92"/>sacrorum, seu rerum sacrarum, eodem modo
+          <lb ed="#P" n="93"/>quo vasa sacra, ut patet ex eodem D. Thom.
+          <lb ed="#P" n="94"/>1. 2, quaest. 101, art. 4, ubi haec omnia vocat
+          <lb ed="#P" n="95"/>instrumenta cultus. Nec videtur esse minor
+          <lb ed="#P" n="96"/>distinctio in ratione rei sacrae inter vasa 
+          sa<lb break="no" ed="#P" n="97"/>cra, et imagines, ac reliquias, quam sit inter
+          <lb ed="#P" n="98"/>loca et vasa sacra. Haec vero diflicuitas 
+          tota<lb break="no" ed="#P" n="99"/>que enumeratio explicabitur melius capite
+          <lb ed="#P" n="100"/>sequenti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

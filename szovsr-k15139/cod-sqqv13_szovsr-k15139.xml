@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="606"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k15139"><!-- t3-l3c3 -->
+        <head>Caput 3</head>
+        <head type="question-title">De sacrilegio persona vel in personam per violationem castitatis.</head>
+        <p>
+          <lb ed="#P" n="95"/>CAPUT III.
+          <lb ed="#P" n="96"/>DE SACRILEGIO PERSONA VEL IN PERSONAM PER
+          <lb ed="#P" n="97"/>VIOLATIONEM CASTITATIS.
+        </p>
+        <p>
+          <lb ed="#P" n="98"/>1. Quo pacto hoc peccatum inter sacrilegia
+          <lb ed="#P" n="99"/>numeretur. — Quartum genus sacrilegii per
+          <lb ed="#P" n="100"/>actus venereos, censetur committi in 
+          perso<lb break="no" ed="#P" n="101"/>nam vel a persona clerici, ratione voti 
+          casti<lb break="no" ed="#P" n="102"/>tatis quod est ordini annexum ; et eadem 
+          ra<lb break="no" ed="#P" n="103"/>tio erit de quocumque habente simile votum,
+          <lb ed="#P" n="104"/>ut sumitur ex D. Thoma 2. 2, quaest. 114,
+          <lb ed="#P" n="105"/>articul. 1, et ex Sylvest., Angel., Cajetan. ct
+          <lb ed="#P" n="106"/>aliis, verb. Sacrilegium; et Toletan., hbro
+          <lb ed="#P" n="107"/>quinto Instruct., capite duodecimo. Unde
+          <pb ed="#P" n="607"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nascuntur duo dubia. Primum est, quomodo
+          <lb ed="#P" n="2"/>hoc peccatum numeretur inter species 
+          sacri<lb break="no" ed="#P" n="3"/>legii, cum revera sit quadam perfidia in
+          <lb ed="#P" n="4"/>Deum, et consequenter pertineat ad 
+          irreligio<lb break="no" ed="#P" n="5"/>sitatem, ut est vitium condistinctum a 
+          sacri<lb break="no" ed="#P" n="6"/>legio, ut in principio hujus tractatus visum
+          <lb ed="#P" n="7"/>est. Et declaratur, nam aut hoc peccatum
+          <lb ed="#P" n="8"/>consideratur, ut committitur ab ipso clerico
+          <lb ed="#P" n="9"/>fornicante, vel ut committitur a complice qui
+          <lb ed="#P" n="10"/>cum illo fornicatur. Priori modo, intervenit
+          <lb ed="#P" n="11"/>ibi fractio voti, cujus malitia non pertinet ad
+          <lb ed="#P" n="12"/>sacrilegium, quia directe est contra Deum 
+          ip<lb break="no" ed="#P" n="13"/>sum, cui fit promissio voti, neque ultra hanc
+          <lb ed="#P" n="14"/>malitiam est in illo peccato alia malitia 
+          con<lb break="no" ed="#P" n="15"/>tra religionem ex vi ejusdem voti, quia non
+          <lb ed="#P" n="16"/>sunt gratis multiplicandae malitia ; alioquin
+          <lb ed="#P" n="17"/>in omni fractione voti duplex malitia similis
+          <lb ed="#P" n="18"/>interveniret, quod incredibile est. Unde 
+          ulte<lb break="no" ed="#P" n="19"/>rius etiam ex parte alterius peccantis cum
+          <lb ed="#P" n="20"/>clerico, inveniri potest malitia fractionis voti
+          <lb ed="#P" n="21"/>per modum cooperationis, quatenus cum illo
+          <lb ed="#P" n="22"/>concurrit ad violandlum votum suum, quae
+          <lb ed="#P" n="23"/>malitia non pertinebit ad sacrilegium, ut 
+          os<lb break="no" ed="#P" n="24"/>tensum est, et multo minus est multiplicanda
+          <lb ed="#P" n="25"/>maltia ex parte voti in socio criminis, quam
+          <lb ed="#P" n="26"/>in principali delinquente; ergo ex hac 
+          cir<lb break="no" ed="#P" n="27"/>cumstantia personae sacrae non consurgit 
+          sa<lb break="no" ed="#P" n="28"/>crilegium, sive consideretur ut circumstantia
+          <lb ed="#P" n="29"/>quis, sive ut circumstantia circa quid.
+          <lb ed="#P" n="30"/>2. Cajetani sententia in hac materia. —
+          <lb ed="#P" n="31"/>Circa hoc Cajetanus, dicta quaest. 99, duo
+          <lb ed="#P" n="32"/>dicit : unum est, fractionem voti esse 
+          perfi<lb break="no" ed="#P" n="33"/>diam contrariam fidelitati quam Deo 
+          debe<lb break="no" ed="#P" n="34"/>mus, quod verissimum quidem est, ut 
+          con<lb break="no" ed="#P" n="35"/>stabit ex materia de voto, neque de hoc 
+          pun<lb break="no" ed="#P" n="36"/>cto hic amplius dicendum est. Secundum est,
+          <lb ed="#P" n="37"/>hujusmodi perfidiam sub sacrilegio 
+          compre<lb break="no" ed="#P" n="38"/>hendi, ac subinde omnem fractionem voti esse
+          <lb ed="#P" n="39"/>sacrilegium, tam in votis realibus, quam 
+          per<lb break="no" ed="#P" n="40"/>sonalibus. hatio est, quia, eo ipso quod res,
+          <lb ed="#P" n="41"/>actus, vel persona Deo promittuntur, dicata
+          <lb ed="#P" n="42"/>manent cultui divino ; ergo efficitur res sacra,
+          <lb ed="#P" n="43"/>et consequenter subtractio ejus per fractionem
+          <lb ed="#P" n="44"/>voti est violatio rei sacree. Atque ita infert,
+          <lb ed="#P" n="45"/>qui vovit jejunare tali die, et non jejunat,
+          <lb ed="#P" n="46"/>sacri'egium committere contra sanctitatem
+          <lb ed="#P" n="47"/>suae personae, quia per votum illud 
+          sancufi<lb break="no" ed="#P" n="48"/>cata fuit talis persona, et dicata Deo quoad
+          <lb ed="#P" n="49"/>talem actum. Sicut mulier, quae votum 
+          sim<lb break="no" ed="#P" n="50"/>plex castitatis emisit, sacrilega censetur 
+          for<lb break="no" ed="#P" n="51"/>niceando, ut sumitur ex D. Thoma, in illa
+          <lb ed="#P" n="52"/>quaest., art. 3, quia per votum suum 
+          sanctifi<lb break="no" ed="#P" n="53"/>cavit se Deo quoad talem materiam. Et cum
+          <lb ed="#P" n="54"/>cadem proportione loquitur de votis realibus,
+          <lb ed="#P" n="55"/>nam qui vovit dare pecuniam vel vineam Ec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>clesiae vel pauperibus, et non implet, sed 
+          bo<lb break="no" ed="#P" n="57"/>na illa apud se retinet, sacrilegus est, 
+          tan<lb break="no" ed="#P" n="58"/>quam inique occupans bona Deo jam sacrata,
+          <lb ed="#P" n="59"/>sicut in jure dicitur sacrilegium committere,
+          <lb ed="#P" n="60"/>qui rem Ecclesiae legatam retinet, cap. 
+          Sacri<lb break="no" ed="#P" n="61"/>legium, cum multis aliis, 17, quaest. 4.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>3. Ostenditur difficultas qua in doctrina
+          <lb ed="#P" n="63"/>Cajetani est. — Haec vero doctrina Cajetani,
+          <lb ed="#P" n="64"/>intellecta de proprio sacrilegio, prout ipse et
+          <lb ed="#P" n="65"/>nos loquimur, difficilis mihi est. Primo, quia
+          <lb ed="#P" n="66"/>perfidia in Deum, et sacrilegium, sunt peccata
+          <lb ed="#P" n="67"/>quodam modo genere diversa; ergo fieri non
+          <lb ed="#P" n="68"/>potest ut unum per aliud essentialiter 
+          contra<lb break="no" ed="#P" n="69"/>hatur; ergo si fractio voti est perfidia, non
+          <lb ed="#P" n="70"/>contrahitur formaliter ad speciem sacrilegii.
+          <lb ed="#P" n="71"/>Antecedens probatur, tum juxta divisionem
+          <lb ed="#P" n="72"/>horum vitiorum a nobis positam; tum etiam
+          <lb ed="#P" n="73"/>juxta eam quam divus Thomas tradit. Nos
+          <lb ed="#P" n="74"/>cnim distinximus primo ac pracipue vitium
+          <lb ed="#P" n="75"/>irreligionis in irreligiositatem , quae directe
+          <lb ed="#P" n="76"/>continet irreverentiam Dei, et proprium 
+          sacri<lb break="no" ed="#P" n="77"/>legium, quod spectat ad irreverentiam rei
+          <lb ed="#P" n="78"/>Deo sacratae, quae duo diximus esse tanquam
+          <lb ed="#P" n="79"/>duo genera maximc diversa sub illo primo. At
+          <lb ed="#P" n="80"/>vero perfidia in Deum continetur sub genere
+          <lb ed="#P" n="81"/>irreligiositatis directe contrariae Deo, nam,
+          <lb ed="#P" n="82"/>sicut votum directe continet cultum Dei, ita
+          <lb ed="#P" n="83"/>perfidia irreverentiam Det; ergo est vitium
+          <lb ed="#P" n="84"/>omnino condistinctum a sacrilegio. Unde
+          <lb ed="#P" n="85"/>etiam divus Thomas, in principio quaestionis
+          <lb ed="#P" n="86"/>nonagesimae septimae, vitia, quae pertinent
+          <lb ed="#P" n="87"/>directe ad irreverentiam Dei, a sacrilegio 
+          con<lb break="no" ed="#P" n="88"/>distinguit. Et ideo nemo dicet perjuriun: 
+          con<lb break="no" ed="#P" n="89"/>tineri posse sub sacrilegio, quia est sub genere
+          <lb ed="#P" n="90"/>condistincto a sacrilegio; at vero non minus
+          <lb ed="#P" n="91"/>directe est talis perfidia contra irreverentiam
+          <lb ed="#P" n="92"/>Dei, quam perjurium, juxta doctrinam D.
+          <lb ed="#P" n="93"/>Thomae, secunda secundae, quaestione 82, 
+          ar<lb break="no" ed="#P" n="94"/>ticulo 8, dicentis majorem irreverentiam esse
+          <lb ed="#P" n="95"/>in infidelitate ad Deum, quam in perjurio;
+          <lb ed="#P" n="96"/>ergo fractio voti hoc modo non potest esse 
+          sa<lb break="no" ed="#P" n="97"/>crilegium.
+        </p>
+        <p>
+          <lb ed="#P" n="98"/>4. Responsio impugnatur. — Dicet fortasse
+          <lb ed="#P" n="99"/>aliquis, fractionem voti specificari per 
+          sacrile<lb break="no" ed="#P" n="100"/>gium, non formaliter, sed quasi materialiter,
+          <lb ed="#P" n="101"/>eo modo quo fornicatio etiam specificatur per
+          <lb ed="#P" n="102"/>sacrilegium in virgine sacra, ut ait D. Thomas,
+          <lb ed="#P" n="103"/>dicta quaest. 99, artic. 3, ad 3. Sicut enim 
+          vi<lb break="no" ed="#P" n="104"/>tium contra unam virtutem potest esse materia
+          <lb ed="#P" n="105"/>peccandi contra aliam, et tunc dicitur 
+          specifi<lb break="no" ed="#P" n="106"/>cari ab illa (ut in adulterio luxuria 
+          specifica<lb break="no" ed="#P" n="107"/>tur per injustitiam, non metaphysico modo,
+          <lb ed="#P" n="108"/>sed morali), ita intra eamdem virtutem potest
+          <lb ed="#P" n="109"/>una malitia per aliam diversae rationis quasi
+          <lb ed="#P" n="110"/>contrahi, ratione moralis conjunctionis in ea-
+          <pb ed="#P" n="608"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dem materia : ut si quis promittat aliquid Deo
+          <lb ed="#P" n="2"/>dare sub juramento, fractio talis voti perfidia
+          <lb ed="#P" n="3"/>est simul contracta ad perjurium. Sic ergo
+          <lb ed="#P" n="4"/>fractio voti esse potest perfidia contracta ad
+          <lb ed="#P" n="5"/>sacrilegium. Sed hoc nihil aliud est quam 
+          di<lb break="no" ed="#P" n="6"/>ccre in omni fractione voti esse duas malitias:
+          <lb ed="#P" n="7"/>unam perfidiae, et alteram sacrilegii, quia illa
+          <lb ed="#P" n="8"/>contractio materialis nihil aliud est quam 
+          con<lb break="no" ed="#P" n="9"/>junctio duarum malitiarum in eadem materia,
+          <lb ed="#P" n="10"/>ut patet in exemplis adduetis, et quia esse non
+          <lb ed="#P" n="11"/>potest per modum generis et differentiae, ut
+          <lb ed="#P" n="12"/>ratio facta plane ostendit; ergo non potest 
+          in<lb break="no" ed="#P" n="13"/>telligi nisi per conjunctionem duarum 
+          mali<lb break="no" ed="#P" n="14"/>tiarum in eadem materia. At incredibile est,
+          <lb ed="#P" n="15"/>ut supra argumentabar, in omni fractione voti
+          <lb ed="#P" n="16"/>esse duas malitias. Et confirmatur ex Paulo,
+          <lb ed="#P" n="17"/>1 ad Timoth. 5, dicente : Habentes 
+          damnatio<lb break="no" ed="#P" n="18"/>nem, quia primam fidem irritam fecerunt. 
+          Lo<lb break="no" ed="#P" n="19"/>quitur enim de viduis, quae votum castitatis
+          <lb ed="#P" n="20"/>fregerant, juxta communem omnium 
+          inter<lb break="no" ed="#P" n="21"/>pretationem, et tamen non aliam malitiam in
+          <lb ed="#P" n="22"/>eo peccato declarat, nisi fregisse primam 
+          fi<lb break="no" ed="#P" n="23"/>dem ; ergo non oportet aliud malitiae genus in
+          <lb ed="#P" n="24"/>eo actu cogitare.
+        </p>
+        <p>
+          <lb ed="#P" n="25"/>5. Fractionem voti solam malitiam perfidie
+          <lb ed="#P" n="26"/>habere probatile est. —Cuapropter probabiliter
+          <lb ed="#P" n="27"/>dici potest, fractionem voti proprie et in 
+          rigo<lb break="no" ed="#P" n="28"/>re non habere nisi malitiam perfidiae. Quod
+          <lb ed="#P" n="29"/>a contrario actu declarari potest, nam 
+          jeju<lb break="no" ed="#P" n="30"/>nium, verbi gratia, ex voto factum non habet
+          <lb ed="#P" n="31"/>aliam honestatem religionis, nisi quia est 
+          fide<lb break="no" ed="#P" n="32"/>litas quaedam ad Deum; ergo e contrario 
+          frac<lb break="no" ed="#P" n="33"/>tio jejunii tantum habet malitiam intidelitatis.
+          <lb ed="#P" n="34"/>Item materia illa non aliter dicitur consecrata
+          <lb ed="#P" n="35"/>Deo, nisi quia illi promissa est; ergo contraria
+          <lb ed="#P" n="36"/>omissio vel actio non aliter est violatio rei 
+          sa<lb break="no" ed="#P" n="37"/>crae, nisi in quantum non est impletio 
+          promis<lb break="no" ed="#P" n="38"/>sionis. Et idem videtur esse cum proportione
+          <lb ed="#P" n="39"/>de voto castitatis, per quod magis videtur 
+          per<lb break="no" ed="#P" n="40"/>sona consecrari Deo, quam per alia vota 
+          parti<lb break="no" ed="#P" n="41"/>cularium actuum, et tamen illa consecratio
+          <lb ed="#P" n="42"/>non est nisi obligatio orta ex promissione;
+          <lb ed="#P" n="43"/>ergo nec violatio ilhus sanctitatis, aliud est
+          <lb ed="#P" n="44"/>quam infidelitas promissionis.
+        </p>
+        <p>
+          <lb ed="#P" n="45"/>6. Objectio. — Quod si objiciatur, quia 
+          com<lb break="no" ed="#P" n="46"/>muniter peccaturm luxuriae dicitur esse species
+          <lb ed="#P" n="47"/>sacrilegii. ut patet ex D. Thoma 2. 2, quaest.
+          <lb ed="#P" n="48"/>154, artic. 10; imo in Concilio Toletan. II,
+          <lb ed="#P" n="49"/>cap. 1, expresse dicuntur sacrilegii rei, Clerici
+          <lb ed="#P" n="50"/>violantes votum castitatis : responderi potest
+          <lb ed="#P" n="51"/>primo, omne peccatum contra religionem 
+          so<lb break="no" ed="#P" n="52"/>lere vocari sacrilegium, ut supra diximus, et
+          <lb ed="#P" n="53"/>hoc modo fractionem voti vocari sacrilegium.
+          <lb ed="#P" n="54"/>Nam et D. Thomas, in dict. artic. 10, non 
+          ali<lb break="no" ed="#P" n="55"/>ter probat hoc esse sacrilegium, nisi quia cas-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>titas, voto promissa, est actus religionis, 
+          qua<lb break="no" ed="#P" n="57"/>tenus ordinata est ad cultum Dei. Addi vero
+          <lb ed="#P" n="58"/>potest fractionem voti quasi eminenter 
+          conti<lb break="no" ed="#P" n="59"/>nere rationem sacrilegii, quia ipsamet perfidia
+          <lb ed="#P" n="60"/>erga Deum est quaedam violatio rei aliquo
+          <lb ed="#P" n="61"/>modo consecratae Deo ad talem actum, vel 
+          of<lb break="no" ed="#P" n="62"/>ficium sanctitatis. Et hoc maxime videtur 
+          ha<lb break="no" ed="#P" n="63"/>bere locum, quando votum non solum ex 
+          pro<lb break="no" ed="#P" n="64"/>missione, sed etiam ex ordinatione, et 
+          acce<lb break="no" ed="#P" n="65"/>ptatione Ecclesiae habet peculiarem vim 
+          dedi<lb break="no" ed="#P" n="66"/>candi personam divino cultui, ut est votum
+          <lb ed="#P" n="67"/>solemne, vel votum castitatis factum in 
+          mani<lb break="no" ed="#P" n="68"/>bus praelati; nam per illud censetur virgo
+          <lb ed="#P" n="69"/>quasi desponsari Christo; tunc ergo cum 
+          ma<lb break="no" ed="#P" n="70"/>jori proprietate est conjuncta violatio rei sacrae
+          <lb ed="#P" n="71"/>cum perfidia, et ideo dici potest proprie 
+          sacri<lb break="no" ed="#P" n="72"/>legium; et tunc non est improbabile addi 
+          spe<lb break="no" ed="#P" n="73"/>cialem malitiam sacrilegii ultra perfidiam.
+          <lb ed="#P" n="74"/>Quod sentiunt auctores, qui existimant 
+          reli<lb break="no" ed="#P" n="75"/>giosum fornicantem non satis explicare 
+          pec<lb break="no" ed="#P" n="76"/>catum suum in confessione, dicendo se habere
+          <lb ed="#P" n="77"/>votum castitatis, nisi explicet etiam statum
+          <lb ed="#P" n="78"/>personae ; quod tenent multi Theologi 
+          moder<lb break="no" ed="#P" n="79"/>ni, quorum opinio optime in hoc fundabitur,
+          <lb ed="#P" n="80"/>quod alias, licet declaret malitiam perfidiae,
+          <lb ed="#P" n="81"/>non declarat sacrilegii. Sed quid de illa 
+          opi<lb break="no" ed="#P" n="82"/>nione sentiendum sit, dicam in materia de
+          <lb ed="#P" n="83"/>voto; nunc, relicto statu, et ex vi solius voti,
+          <lb ed="#P" n="84"/>verius videtur, in fractione voti unam tantum
+          <lb ed="#P" n="85"/>esse malitiam, quae essentialiter est perfidia
+          <lb ed="#P" n="86"/>contra Deum, et concomitanter violat 
+          perso<lb break="no" ed="#P" n="87"/>nam ; quia tamen non violat nisi ratione 
+          perfi<lb break="no" ed="#P" n="88"/>diae, ideo non multiplicat malitias, praesertim
+          <lb ed="#P" n="89"/>quia sola promissio non videtur facere 
+          mate<lb break="no" ed="#P" n="90"/>riam ejus proprie sacram, nisi in ordine ad
+          <lb ed="#P" n="91"/>fidelitatem Deo servandam.
+        </p>
+        <p>
+          <lb ed="#P" n="92"/>7. An tota ratio sacrilegii in materia 
+          castita<lb break="no" ed="#P" n="93"/>tis sit cotum. — Ratio dubitandi. — Secundum
+          <lb ed="#P" n="94"/>dubium est, an tota ratio sacrilegii circa 
+          per<lb break="no" ed="#P" n="95"/>sonam sacram in materia castitatis sit votum.
+          <lb ed="#P" n="96"/>Et ratio dubitandi maxime in clericis est, quia
+          <lb ed="#P" n="97"/>praeter votum habent consecrationem, per
+          <lb ed="#P" n="98"/>quam efficiuntur personae sacrae; ergo etiam
+          <lb ed="#P" n="99"/>secluso voto, turpitudo luxuriae est contra 
+          sanc<lb break="no" ed="#P" n="100"/>titatem talis personae ad eum modum, quo 
+          su<lb break="no" ed="#P" n="101"/>pra dicebamus turpes actus in ecclesia ex 
+          na<lb break="no" ed="#P" n="102"/>tura rei esse contra sanctitatem loci, etiam 
+          se<lb break="no" ed="#P" n="103"/>clusa speciali prohibitione Eeclesiae. Atque ex
+          <lb ed="#P" n="104"/>hac quaestione pendet alia, scilicet, an 
+          consti<lb break="no" ed="#P" n="105"/>tuti in minoribus ordinibus, praesertim si 
+          di<lb break="no" ed="#P" n="106"/>vino cultui actu dicati sint, sacrilegium 
+          com<lb break="no" ed="#P" n="107"/>mittant fornicando, vel quae cum eis scienter
+          <lb ed="#P" n="108"/>fornicantur. Item hinc potest pendere alia
+          <lb ed="#P" n="109"/>quaestio, quae in materia de confessione 
+          trac<lb break="no" ed="#P" n="110"/>tatur, an sacerdos, violans castitatem, teneatur
+          <pb ed="#P" n="609"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in confessione explicare se esse sacerdotem,
+          <lb ed="#P" n="2"/>vel satisfaciat dicendo se habere votum 
+          castta<lb break="no" ed="#P" n="3"/>tis. Nam si illud peccatum est sacrilegium,
+          <lb ed="#P" n="4"/>non solum ratione voti, sed-etiam ratione 
+          sa<lb break="no" ed="#P" n="5"/>cerdotii, oportebit utramque circumstantiam
+          <lb ed="#P" n="6"/>explicare; et ita esse explicandam scripsit 
+          Pe<lb break="no" ed="#P" n="7"/>trus Ledesma, in Summ. sacrament., capite
+          <lb ed="#P" n="8"/>decimo nono, de Poenit., dub. 1 et 2, de 
+          cir<lb break="no" ed="#P" n="9"/>cumstantia persona ; qui dicit sacerdotem vel
+          <lb ed="#P" n="10"/>Episcopum non satisfacere explicando se 
+          ha<lb break="no" ed="#P" n="11"/>bere ordinem sacrum, nisi explicando talem
+          <lb ed="#P" n="12"/>ordinis gradum; indicat ergo ex vi sacerdotii
+          <lb ed="#P" n="13"/>committi sacrilegium per fornicationem, etiam
+          <lb ed="#P" n="14"/>praeter obligationem voti.
+        </p>
+        <p>
+          <lb ed="#P" n="15"/>8. Initiati minoribus ordinibus, peccando
+          <lb ed="#P" n="16"/>contra castitatem, vel nullum, cel solum 
+          ve<lb break="no" ed="#P" n="17"/>niale committunt sacrilegium. — Idem 
+          dicen<lb break="no" ed="#P" n="18"/>dum de subdiaconatu, et diaconatu. — In hoc
+          <lb ed="#P" n="19"/>tamen breviter assero, secluso vo:o, in his
+          <lb ed="#P" n="20"/>qui minoribus ordinihus initiati sunt, hoc 
+          pec<lb break="no" ed="#P" n="21"/>catum vel nullum esse sacrilegium, vel non
+          <lb ed="#P" n="22"/>esse mortaie in illa specie. Hoc indubitatum
+          <lb ed="#P" n="23"/>est apud omnes; nam docent iliam non esse
+          <lb ed="#P" n="24"/>circumstantiam de necessitate confessionis, et
+          <lb ed="#P" n="25"/>a fortiori patebit ex dicendis. Idemque 
+          sen<lb break="no" ed="#P" n="26"/>tiendum est de subdiaconatu per se spectato,
+          <lb ed="#P" n="27"/>sine voto, prout aliquando fuit. Item de 
+          dia<lb break="no" ed="#P" n="28"/>conatu, etiam nunc verissimum est non 
+          ad<lb break="no" ed="#P" n="29"/>dere specialem malitiam gravem praeter 
+          vo<lb break="no" ed="#P" n="30"/>tum. Nam ob eam rem est apud omnes 
+          indu<lb break="no" ed="#P" n="31"/>bitatum, non esse necessarium explicare in
+          <lb ed="#P" n="32"/>confessione illum gradum ordinis, si votum
+          <lb ed="#P" n="33"/>sufficienter explicetur, ut dicendo se habere
+          <lb ed="#P" n="34"/>ordinem sacrum, vel esse religiosum, vel (ut
+          <lb ed="#P" n="35"/>est etiam pifbbabilius) habere votum 
+          castita<lb break="no" ed="#P" n="36"/>tis. Ratio vero omnium est, quia licet hae 
+          per<lb break="no" ed="#P" n="37"/>sonae efficiantur aliquo modo sacrae, tamen,
+          <lb ed="#P" n="38"/>secluso voto, non sacrantur ad usum 
+          castita<lb break="no" ed="#P" n="39"/>us, neque peccatum castitati contrarium 
+          red<lb break="no" ed="#P" n="40"/>dit personam ineptam ad actus illos, ad quos
+          <lb ed="#P" n="41"/>consecratur ; ergo per tale peccatum non 
+          vio<lb break="no" ed="#P" n="42"/>latur formaliter persona sacra, ut sacra est,
+          <lb ed="#P" n="43"/>sed ad summum materialiter; ergo tale 
+          pec<lb break="no" ed="#P" n="44"/>catum, vel nullum est sacrilegium, vel ad
+          <lb ed="#P" n="45"/>summum habebit inde aliquam malitiam 
+          ve<lb break="no" ed="#P" n="46"/>nialem.
+        </p>
+        <p>
+          <lb ed="#P" n="47"/>9. Quid de sacerdotio sentiendum. — 
+          Pro<lb break="no" ed="#P" n="48"/>babile est peccata carnis in sacerdote esse 
+          sacri<lb break="no" ed="#P" n="49"/>legia ex se, etiam praescindendo a voto. — 
+          Ob<lb break="no" ed="#P" n="50"/>Jectio. — At vero in sacerdotio videtur esse
+          <lb ed="#P" n="51"/>major deformitas , tum quia per illud 
+          dedica<lb break="no" ed="#P" n="52"/>tur persona ad ministerium longe altius et
+          <lb ed="#P" n="53"/>sacratius ; tum etiam quia per tale peccatum
+          <lb ed="#P" n="54"/>graviter polluitur talis persona in ordine ad
+          <lb ed="#P" n="55"/>dignam et convenientem administrationem sui
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>muneris. Propter quod multi graves auctores
+          <lb ed="#P" n="57"/>censuerunt, observantiam castitatis ex divino
+          <lb ed="#P" n="58"/>jure esse apnexam sacerdotali ordini, ut infra
+          <lb ed="#P" n="59"/>in materia de voto videbimus, quod saltem 
+          vi<lb break="no" ed="#P" n="60"/>detur verisimile quoa abstinentiam ab 
+          illici<lb break="no" ed="#P" n="61"/>tis actibus castitati contrariis, ita ut sanctitas
+          <lb ed="#P" n="62"/>illius ordinis per se obliget ad abstinendum a
+          <lb ed="#P" n="63"/>talibus actibus, propter quamdam indecentiam
+          <lb ed="#P" n="64"/>quam prae se ferunt comparatione illius. Et
+          <lb ed="#P" n="65"/>confirmari potest, nam lex ipsa naturae 
+          sem<lb break="no" ed="#P" n="66"/>rer dictavit, in sacerdotibus ex vi talis 
+          mune<lb break="no" ed="#P" n="67"/>ris pudicitiam maxime postulari. Et ideo etiam
+          <lb ed="#P" n="68"/>in lege veteri haec munditia maxime 
+          commen<lb break="no" ed="#P" n="69"/>dabatur sacerdotibus, ut ex Levit. 21, et aliis
+          <lb ed="#P" n="70"/>locis colligitur, et ex 1 Regum 21. Et apud
+          <lb ed="#P" n="71"/>Ethnicos maxime commendabatur pudicitia
+          <lb ed="#P" n="72"/>sacerdotibus , ut multis testimoniis ostendit
+          <lb ed="#P" n="73"/>Tiraquel. in legibus Conn., leg. decima quinta,
+          <lb ed="#P" n="74"/>a num. 118. Ergo quantum sacerdotium novae
+          <lb ed="#P" n="75"/>legis dignius est, eo videtur haec obligatio esse
+          <lb ed="#P" n="76"/>major ex vi religionis. Denique non videtur
+          <lb ed="#P" n="77"/>posse negari, quin fornicatio sacerdotis 
+          nota<lb break="no" ed="#P" n="78"/>biliter aggravetur ex tali circumstantia 
+          per<lb break="no" ed="#P" n="79"/>sona , quae gravitas pertinet ad propriam 
+          ra<lb break="no" ed="#P" n="80"/>tionem sacrilegii, ultra perfidiam quae est in
+          <lb ed="#P" n="81"/>transgressicne vcti; ergo quamvis non 
+          inter<lb break="no" ed="#P" n="82"/>venisset votum, et consequenter nec malitia
+          <lb ed="#P" n="83"/>perfidiae , maneret gravis malitia sacrilegii ob
+          <lb ed="#P" n="84"/>personae sacrae violationem. Est ergo haec 
+          sen<lb break="no" ed="#P" n="85"/>tentia pia et probabilis, sed incerta. Quia juxta
+          <lb ed="#P" n="86"/>illam oportebit dicere blasphemiam in ore 
+          sa<lb break="no" ed="#P" n="87"/>cerdotis esse grave sacrilegium ex 
+          circumstan<lb break="no" ed="#P" n="88"/>tia personae ultra malitiam biasphemiae, quia
+          <lb ed="#P" n="89"/>non minus videtur polluere talem personam,
+          <lb ed="#P" n="90"/>et impedire illam a sacro ministerio, quam
+          <lb ed="#P" n="91"/>fornicatio. Consequens autem communiter
+          <lb ed="#P" n="92"/>non admittitur, ut videre licet in Cajetano,
+          <lb ed="#P" n="93"/>dicta quaestione nonagesima nona, dubio
+          <lb ed="#P" n="94"/>quinto, et Navar., in Summ., c. sexto, num.
+          <lb ed="#P" n="95"/>decimo tertio, et in c. Considerent, de Poenit.,
+          <lb ed="#P" n="96"/>d. 5, num. 50. Ali:s omnia peccata gravia
+          <lb ed="#P" n="97"/>sacerdotis essent sacrilegia ex circumstar tia
+          <lb ed="#P" n="98"/>personae, quod est difficile creditu.
+        </p>
+        <p>
+          <lb ed="#P" n="99"/>10. Responsio aliquorum. —espondent 
+          ali<lb break="no" ed="#P" n="100"/>qui, concedendo omnia peccata non solum 
+          sa<lb break="no" ed="#P" n="101"/>cerdotis, sed etiam personae sacrae esse 
+          sacri<lb break="no" ed="#P" n="102"/>legia, iamen sub ea ratione habere tautum
+          <lb ed="#P" n="103"/>malitiam venialem, etiamsi in alio genere
+          <lb ed="#P" n="104"/>mortalia sint, quia licet repugnent sanctitati
+          <lb ed="#P" n="105"/>personae, non tamen speciali rerugnantia, sed
+          <lb ed="#P" n="106"/>generali, sicut nos supra diximus de loco 
+          sa<lb break="no" ed="#P" n="107"/>cro. Verumtamen si hoc semel concedatur,
+          <lb ed="#P" n="108"/>valde probabiliter sequitur tam excellentem
+          <lb ed="#P" n="109"/>posse esse per se consecrationem, et tantam
+          <lb ed="#P" n="110"/>peccati deformitatem, ut violatio illa personae
+          <pb ed="#P" n="610"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sacrae gravem malitiam contineat in ratione
+          <lb ed="#P" n="2"/>sacrilegii ; consecratio autem sacerdotis satis
+          <lb ed="#P" n="3"/>excellens est, et peccatum turpe, ut fornicatio,
+          <lb ed="#P" n="4"/>et enorme, ut blasphemia, satis graviter illi
+          <lb ed="#P" n="5"/>repugnant. Si ergo generalis illa repugnantia
+          <lb ed="#P" n="6"/>sufficit ad rationem sacrilegii, grave 
+          augmen<lb break="no" ed="#P" n="7"/>tum sufficiet ad malitiam mortalem in eo 
+          ge<lb break="no" ed="#P" n="8"/>nere ; hoc autem admittere valde scrupulosum
+          <lb ed="#P" n="9"/>est pro materia de confessione.
+        </p>
+        <p>
+          <lb ed="#P" n="10"/>11. Opposita pars satis probalilis. — Satis
+          <lb ed="#P" n="11"/>ergo probabile est, respectu personae sacrae
+          <lb ed="#P" n="12"/>illam generalem repugnantiam non sufficere
+          <lb ed="#P" n="13"/>ad propriam rationem sacrilegii, quia ex vi
+          <lb ed="#P" n="14"/>consecrationis non prohibentur illi omnes 
+          ac<lb break="no" ed="#P" n="15"/>tiones pravae speciali prohibitione, ut alibi,
+          <lb ed="#P" n="16"/>Deo dante, latius ostendetur. Quo fundamento
+          <lb ed="#P" n="17"/>posito, consequenter dicendum est, solam 
+          con<lb break="no" ed="#P" n="18"/>sec ationem sacerdotii per se non sufficere ad
+          <lb ed="#P" n="19"/>sacrilegium mortale, nisi ratione voti 
+          adjunc<lb break="no" ed="#P" n="20"/>ti, vel ecclesiasticae legis specialiter obligantis
+          <lb ed="#P" n="21"/>tales personas ad abstinendum a venereis, 
+          in<lb break="no" ed="#P" n="22"/>tuitu religionis et sanctitatis. De qua re 
+          dice<lb break="no" ed="#P" n="23"/>mus plura in sequentibus libris, tractando de
+          <lb ed="#P" n="24"/>continentia sacerdotum et statu religiosorum.
+          <lb ed="#P" n="25"/>Et ideo de hac specie sacrilegii haec sufficiunt,
+          <lb ed="#P" n="26"/>nam alia duo dubia, quae hic desiderari 
+          pos<lb break="no" ed="#P" n="27"/>sunt, scilicet, an haec species sit infima in 
+          ra<lb break="no" ed="#P" n="28"/>tione sacrilegii, et cur opponatur religioni, et
+          <lb ed="#P" n="29"/>non observantiae et dulia, in capite sequenti
+          <lb ed="#P" n="30"/>melius tractabuntur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

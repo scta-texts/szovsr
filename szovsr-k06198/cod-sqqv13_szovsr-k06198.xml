@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="249"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k06198"><!-- t2-l2c2 -->
+        <head>Caput 2</head>
+        <head type="question-title">Utrum festorum observatio convenienter in tempore legis gratiae instituta sit.</head>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="50"/>CAPUT II.
+          <lb ed="#P" n="51"/>UTRUM FESTORUM OBSERVATIO CONVENIENTER IN
+          <lb ed="#P" n="52"/>TEMPORE LEGIS GRATIAE INSTITUTA SIT.
+        </p>
+        <p>
+          <lb ed="#P" n="53"/>1. Convenientem esse festorum 
+          observatio<lb break="no" ed="#P" n="54"/>nem in lege nova. — Circa quaestionem-hanc
+          <lb ed="#P" n="55"/>erravit Aerius, qui observationem hanc sacram
+          <lb ed="#P" n="56"/>festorum dierum damnabat, ut auctor est 
+          Epi<lb break="no" ed="#P" n="57"/>phan., haeres. 75; Augustinus vero, haeres. 53,
+          <lb ed="#P" n="58"/>solum de Aerianis ait, negasse statuta 
+          solem<lb break="no" ed="#P" n="59"/>niter servanda esse jejunia, ne cideamur esse
+          <lb ed="#P" n="60"/>sub lege ; quae ratio etiam de diebus festis 
+          pro<lb break="no" ed="#P" n="61"/>cedebat. Unde maxime confirmari solet hic
+          <lb ed="#P" n="62"/>error, quia non licet in lege nova 
+          caeremonia<lb break="no" ed="#P" n="63"/>lia praecepta legis veteris retinere, aut in 
+          mo<lb break="no" ed="#P" n="64"/>rem inducere ; festorum autem observatio ad
+          <lb ed="#P" n="65"/>caeremonias pertinet. Et hunc errorem, licet
+          <lb ed="#P" n="66"/>alio modo explicatum, docent hujus temporis
+          <lb ed="#P" n="67"/>haeretici, ut late refert et impugnat 
+          Bellarmi<lb break="no" ed="#P" n="68"/>nus, lib. 3 de cultu Sanctorum, cap. 10. 
+          Ad<lb break="no" ed="#P" n="69"/>duntque, in sui erroris confirmationem, verba
+          <lb ed="#P" n="70"/>Pauli ad Galat. 4: Dies observatis, et menses,
+          <lb ed="#P" n="71"/>et tempora, et annos - timeo vos, ne forte sine
+          <lb ed="#P" n="72"/>causa laboracerim in vobis; et ad Coloss. 2:
+          <lb ed="#P" n="73"/>Nemo vos judicet in cibo, aut potu, aut in parte
+          <lb ed="#P" n="74"/>dici festi, aut neomenic, aut sabbathorum, ubi
+          <lb ed="#P" n="75"/>sabbathorum nomine omnes dies festos, qui ad
+          <lb ed="#P" n="76"/>otium et cessationem a laboribus observantur,
+          <lb ed="#P" n="77"/>intelligere videtur.
+        </p>
+        <p>
+          <lb ed="#P" n="78"/>2. Assertio. — Nihilominus dicendum est,
+          <lb ed="#P" n="79"/>praeceptum de observatione festorum, seu 
+          die<lb break="no" ed="#P" n="80"/>rum qui ad divinum cultum destinantur, 
+          con<lb break="no" ed="#P" n="81"/>venienter fuisse in Ecclesia traditum. Est 
+          asser<lb break="no" ed="#P" n="82"/>tio de fide, ex perpetua traditione et communi
+          <lb ed="#P" n="83"/>Ecclesiae consensu, qui ad hoc sufficit ; in 
+          di<lb break="no" ed="#P" n="84"/>vina enim Scriptura non habemus traditum,
+          <lb ed="#P" n="85"/>quod Christus Dominus alicujus festi 
+          observa<lb break="no" ed="#P" n="86"/>tionem instituerit ; et infra ostendemus, nulium
+          <lb ed="#P" n="87"/>de hac re Ecclesiae suae peculiare praeceptum
+          <lb ed="#P" n="88"/>tradidisse, quia praeter leges fidei et 
+          sacramcn<lb break="no" ed="#P" n="89"/>torum, nulla praecepta positiva tradidit, sed
+          <lb ed="#P" n="90"/>suis ministris commisit. Tamen etiam non
+          <lb ed="#P" n="91"/>legimus prohibuisse ne festi dies in sua 
+          Eccle<lb break="no" ed="#P" n="92"/>sia instituerentur, vel servari praeciperentur
+          <lb ed="#P" n="93"/>in religiosum cultum. Quia neque hoc est per
+          <lb ed="#P" n="94"/>se malum, nec inutile, sed est valde 
+          consenta<lb break="no" ed="#P" n="95"/>neum rationi naturali, ut ostensum est; et
+          <lb ed="#P" n="96"/>potius est morahter necessarium, tum ad 
+          con<lb break="no" ed="#P" n="97"/>venientem hominum gubernationem ; sunt
+          <lb ed="#P" n="98"/>enim mortales, et laboribus corporis facile 
+          di<lb break="no" ed="#P" n="99"/>strahuntur, et ideo consentaneum naturae 
+          illo<lb break="no" ed="#P" n="100"/>rum est, ut interdum a laboribus quiescant ;
+          <lb ed="#P" n="101"/>tum masxime, ut certum tempus pro tota po-
+          <pb ed="#P" n="250"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>puli communitate designetur, in quo divino
+          <lb ed="#P" n="2"/>cultui vacare, et ad illum publice, et gregatim
+          <lb ed="#P" n="3"/>convenire valeant. De Apostolis vero non solum
+          <lb ed="#P" n="4"/>certum est, observationem festorum non 
+          pro<lb break="no" ed="#P" n="5"/>hibuisse, sed etiam est certum ea observasse
+          <lb ed="#P" n="6"/>modo proprio et peculiari legis novae, et 
+          pro<lb break="no" ed="#P" n="7"/>babilissimum est aliquorum observationem
+          <lb ed="#P" n="8"/>lege lata sanxisse, quod in particulari 
+          osten<lb break="no" ed="#P" n="9"/>demus cap. sequenti, per nonnullos dies festos
+          <lb ed="#P" n="10"/>discurrendo. Nunc duo testimonia, Actor. 20,
+          <lb ed="#P" n="11"/>et 1 Corinth. 16, supra explicata de die 
+          domi<lb break="no" ed="#P" n="12"/>nico sufficiunt, nam ex eis habetur soiitos
+          <lb ed="#P" n="13"/>fuisse fideles tempore Apostoli Pauli convenire
+          <lb ed="#P" n="14"/>specialiter die dominico ad fractionem panis, d
+          <lb ed="#P" n="15"/>est, ad missae sacrificium, et communionem,
+          <lb ed="#P" n="16"/>et in eisdem solitas fuisse fieri collectiones, et
+          <lb ed="#P" n="17"/>oblationes eleemosynarum pro pauperibus 
+          fi<lb break="no" ed="#P" n="18"/>delibus, de quibus ibi Paulus, et Rom. 15, et2
+          <lb ed="#P" n="19"/>Corinth. 9, mentionem facit. Atque hoc modo
+          <lb ed="#P" n="20"/>ex traditione apostolica confutat dictum 
+          erro<lb break="no" ed="#P" n="21"/>rem Epiphanius, et eamdem tradunt Hilarius,
+          <lb ed="#P" n="22"/>in prolog. Psal. ; Tertullianus, lib. Adversus
+          <lb ed="#P" n="23"/>Psychi., c. 14; Origenes, lib. 8 contra Cel.;
+          <lb ed="#P" n="24"/>Nazian., orat. in Pentecost.; Basilius, de 
+          Spi<lb break="no" ed="#P" n="25"/>ritu Sancto, cap. 27; Augustinus, epist. 86, et
+          <lb ed="#P" n="26"/>alii infra referendi.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>3. Ecclesie auctoritate confirmatur. —
+          be<lb break="no" ed="#P" n="28"/>nique, quamvis haec observatio tam antiqua
+          <lb ed="#P" n="29"/>non esset, sufficeret Ecclesiae auctoritas ad 
+          ve<lb break="no" ed="#P" n="30"/>ritatem hanc confirmandam. Nam quod 
+          su<lb break="no" ed="#P" n="31"/>prema ejus auctoritate latum sit hoc 
+          praece<lb break="no" ed="#P" n="32"/>ptum, constat ex canonibus scriptis sub titulo
+          <lb ed="#P" n="33"/>de Fer. et de Consec., d. 3, quos in 
+          sequenti<lb break="no" ed="#P" n="34"/>bus afferemus, et ex universali consensu et 
+          con<lb break="no" ed="#P" n="35"/>suetudine: cum autem ipsa Ecclesia sit 
+          co<lb break="no" ed="#P" n="36"/>lumna et firmamentum veritatis, clarum est
+          <lb ed="#P" n="37"/>in re tanti momenti, et quae ad sanctitatem
+          <lb ed="#P" n="38"/>morum pertinet, errare non potuisse. Et 
+          con<lb break="no" ed="#P" n="39"/>firmatur, quia licet institutio non sit eadem
+          <lb ed="#P" n="40"/>quae fuit in veteri Testamento, est tamen instar
+          <lb ed="#P" n="41"/>illius facta, in his omnibus quae sunt 
+          consen<lb break="no" ed="#P" n="42"/>tanea rationi naturali, ac fidei; solumque 
+          dis<lb break="no" ed="#P" n="43"/>crepat vel in majori perfectione, vel in his quae
+          <lb ed="#P" n="44"/>ad speciales caeremonias, et significationem
+          <lb ed="#P" n="45"/>illius temporis, et non per se ad moralem
+          <lb ed="#P" n="46"/>usum pertinebant ; ergo nihil est in tali usu,
+          <lb ed="#P" n="47"/>quod conveniens ct honestum non sit. Unde
+          <lb ed="#P" n="48"/>solutum manet fundamentum contrarii 
+          erro<lb break="no" ed="#P" n="49"/>ris; nam caeremonialia praecepta legis veteris
+          <lb ed="#P" n="50"/>abrogata quidem sunt, ideoque nullam 
+          obliga<lb break="no" ed="#P" n="51"/>tionem inducunt, et consequenter etiam sunt
+          <lb ed="#P" n="52"/>prohibita, ut tanquam necessaria virtute illius
+          <lb ed="#P" n="53"/>legis fieri non possint. Ac subinde etiam est
+          <lb ed="#P" n="54"/>vetitum, ne secundum propriam et specialem
+          <lb ed="#P" n="55"/>significationem illius legis, et consequenter
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nec secundum proprium modum ad illam 
+          si<lb break="no" ed="#P" n="57"/>gnificationem accommodatum in usum 
+          revo<lb break="no" ed="#P" n="58"/>centur. Nihilominus tamen in illis caremoniis
+          <lb ed="#P" n="59"/>seu observantiis, sunt quaedam rationes 
+          gene<lb break="no" ed="#P" n="60"/>rales, quae secundum se pertinent ad 
+          mora<lb break="no" ed="#P" n="61"/>lem rationem virtutum, ut de se abstrahunt a
+          <lb ed="#P" n="62"/>particulari significatione et ritu veteris legis,
+          <lb ed="#P" n="63"/>ut supra dicebamus de oblationibus, primitiis
+          <lb ed="#P" n="64"/>et decimis ; et in praesenti ita se habent, quod
+          <lb ed="#P" n="65"/>aliquod certum tempus sit lege praescriptum
+          <lb ed="#P" n="66"/>ad cultum Dei, et quod in illo praecipiatur 
+          ali<lb break="no" ed="#P" n="67"/>qua cessatio ab operibus , et similia, quae (ut
+          <lb ed="#P" n="68"/>dicebam) consentanea sunt legi naturali, et
+          <lb ed="#P" n="69"/>in omni tempore, et in omni gente juxta
+          <lb ed="#P" n="70"/>mensuram cognitionis Dei, quam habuit, 
+          ob<lb break="no" ed="#P" n="71"/>servata sunt. Hoc ergo modo retinuit Ecclesia
+          <lb ed="#P" n="72"/>usum de observatione festorum, et de ea re 
+          pe<lb break="no" ed="#P" n="73"/>culiare praeceptum imposuit.
+        </p>
+        <p>
+          <lb ed="#P" n="74"/>4. Exponitur divus Paulus. — Hieronymus.
+          <lb ed="#P" n="75"/>— Ad locum vero Pauli ad Gal. 4, copiose
+          <lb ed="#P" n="76"/>respondet ibi Hieronymus, Apostolum loqui
+          <lb ed="#P" n="77"/>ad litteram de Judaicis ritibus, quos ex vi illius
+          <lb ed="#P" n="78"/>legis aliqui introducere in Ecclesiam volebant;
+          <lb ed="#P" n="79"/>illi ergo observabant dies sabbathorum, 
+          neome<lb break="no" ed="#P" n="80"/>nic et aeymorum, etc. Item menses , martium,
+          <lb ed="#P" n="81"/>ad azymorum festum ; septembrem, ad festum
+          <lb ed="#P" n="82"/>tabernaculorum, etc. Item £empora ann, in
+          <lb ed="#P" n="83"/>quibus fructus terrae, vel maturescere 
+          inci<lb break="no" ed="#P" n="84"/>piunt, vel collecti jam sunt, vel in quibus ter
+          <lb ed="#P" n="85"/>per annum in templum erat ascendendum.
+          <lb ed="#P" n="86"/>Annos denique observabant, vel sabbatnismi
+          <lb ed="#P" n="87"/>terrae, vel remissionis, aut jubilei. Huuc ergo
+          <lb ed="#P" n="88"/>modum Judaicarum observationum ibi 
+          repre<lb break="no" ed="#P" n="89"/>hendit Apostolus, non ecclesiasticam 
+          traditio<lb break="no" ed="#P" n="90"/>nem: JVos enim (ait Hieronymus) aon 
+          azymo<lb break="no" ed="#P" n="91"/>wn Pascha celebramnus, sed resurrectionis, et
+          <lb ed="#P" n="92"/>erucis ; nec septem juvta morem Israel 
+          nume<lb break="no" ed="#P" n="93"/>ramus hebdomadas in Pentecoste, sed S piritus
+          <lb ed="#P" n="94"/>Sancti veneramur adventum, et ne inordinata
+          <lb ed="#P" n="95"/>congregatio populi fidem minueret in Christo,
+          <lb ed="#P" n="96"/>propterea dies aliqu constituti sunt, ut in unum
+          <lb ed="#P" n="97"/>pariter veniremus. Quasi dicat, nunc propter
+          <lb ed="#P" n="98"/>rationem moralem determinata esse haec 
+          tem<lb break="no" ed="#P" n="99"/>pora, non propter Judaicam caeremoniam. Et
+          <lb ed="#P" n="100"/>advertit ulterius, Judaeos ita observasse illa
+          <lb ed="#P" n="101"/>tempora, u: extra illa non liceret tale veltale
+          <lb ed="#P" n="102"/>sacrificium offerre, vel conventus illos facere,
+          <lb ed="#P" n="103"/>tabernacula figere, azyma observare, etc. At
+          <lb ed="#P" n="104"/>nos quolibet die sacrificium offerre possumus,
+          <lb ed="#P" n="105"/>et de illo participare, et mortem vel 
+          resurrec<lb break="no" ed="#P" n="106"/>tionem Dominirecolere; et quoad hoc ait 
+          Hie<lb break="no" ed="#P" n="107"/>ronymus, omnes dies nobis esse aequales, et
+          <lb ed="#P" n="108"/>Ecclesiam non observare dies et annos, sed
+          <lb ed="#P" n="109"/>solum, ut omnia ordinate fiant, designasse
+          <lb ed="#P" n="110"/>tempora accommodata, in quibus fideles te-
+          <pb ed="#P" n="251"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>neantur, vel ad sacrificium congregari, vel
+          <lb ed="#P" n="2"/>peculiaria Dei beneficia propria legis gratiae
+          <lb ed="#P" n="3"/>recognoscere, praesertim (ait) propter eos, qui
+          <lb ed="#P" n="4"/>magis seeculo quam Deo vacant, et 
+          negligentis<lb break="no" ed="#P" n="5"/>sime viverent, nisi per haec precepta ad officium
+          <lb ed="#P" n="6"/>religionis inducerentur.
+        </p>
+        <p>
+          <lb ed="#P" n="7"/>5. Alia ejusdem loci expositio. — Alii 
+          intel<lb break="no" ed="#P" n="8"/>ligunt, Paulum illo loco ritus gentilicos 
+          re<lb break="no" ed="#P" n="9"/>prehendere , quod indicat Origenes, lib. 8
+          <lb ed="#P" n="10"/>Contra Celsum, et videtur verisimile ; nam,
+          <lb ed="#P" n="11"/>quod loquatur ad eos qui ex gentibus 
+          conver<lb break="no" ed="#P" n="12"/>si erant, verba illa ostendunt : Sed tunc 
+          qui<lb break="no" ed="#P" n="13"/>dem ignorantes Deum , iis, qui natura non
+          <lb ed="#P" n="14"/>sunt dii, serviebatis ; quod non Judaeis, sed
+          <lb ed="#P" n="15"/>gentibus dici poterat, et tamen subdit : Nwnc
+          <lb ed="#P" n="16"/>autem cum cognoveritis Deum, imo cogniti 
+          si<lb break="no" ed="#P" n="17"/>tis ab eo, quomodo convertimini iterum ad 
+          in<lb break="no" ed="#P" n="18"/>firma , et egena elementa, quibus denuo servire
+          <lb ed="#P" n="19"/>vultis ? Dies observatis, etc. Unde Augustinus,
+          <lb ed="#P" n="20"/>in Enchir., cap. 19, intelligit, Apostolum 
+          re<lb break="no" ed="#P" n="21"/>prehendere illos, qui certis diebus, sive 
+          mensi<lb break="no" ed="#P" n="22"/>bus, sive annis , volunt vel nolunt aliguid 
+          in<lb break="no" ed="#P" n="23"/>choare, eo quod, secundum canam doctrinam
+          <lb ed="#P" n="24"/>hominwnm , fuusta, vel infausta existiment 
+          tem<lb break="no" ed="#P" n="25"/>pora. Et latius, Epist. 119, cap. 7: Fos(
+          in<lb break="no" ed="#P" n="26"/>quit ) culpat Apostolus, qui dicunt. Non 
+          pro<lb break="no" ed="#P" n="27"/>ficiscar hodie, quia posterus dies est, etc. Hinc
+          <lb ed="#P" n="28"/>idem Augustinus, lib. contra Adiman., c. 16,
+          <lb ed="#P" n="29"/>cum ille abuteretur illis verbis Apostoli ad
+          <lb ed="#P" n="30"/>damnandas caeremonias legis veteris, et 
+          con<lb break="no" ed="#P" n="31"/>sequenter totam legem, et hoc modo Apostoli
+          <lb ed="#P" n="32"/>verba allegaret : Dies observatis, et sabbatha,
+          <lb ed="#P" n="33"/>et solemnitates , timeo vos, etc., illum arguit,
+          <lb ed="#P" n="34"/>quod male verba referret, quia non ibi 
+          Apos<lb break="no" ed="#P" n="35"/>tolus nominat sabbathum , aut solemnitates,
+          <lb ed="#P" n="36"/>sed dies, menses, etc. ; significans, Apostolum
+          <lb ed="#P" n="37"/>non agere ibi de observationibus Judaeorum,
+          <lb ed="#P" n="38"/>quae suo tempore sanctae fuerant, sed de 
+          va<lb break="no" ed="#P" n="39"/>nis superstitionibus, et divinationibus 
+          Genti<lb break="no" ed="#P" n="40"/>lium. Verumtamen non ita hoc docuit 
+          Augus<lb break="no" ed="#P" n="41"/>tinus ut priorem sensum improbaret, imo in
+          <lb ed="#P" n="42"/>residua parte illius cap. illum egregie 
+          decla<lb break="no" ed="#P" n="43"/>rat, dicens : Sed putet esse de sabbatho 
+          dic<lb break="no" ed="#P" n="44"/>tum. Nunquid et nos non dicimus , ista non
+          <lb ed="#P" n="45"/>esse observanda, sed illa potius quee his 
+          signi<lb break="no" ed="#P" n="46"/>ficantur * Illi enim ea similiter observabant,
+          <lb ed="#P" n="47"/>non intelligentes ad quarum rerum 
+          significa<lb break="no" ed="#P" n="48"/>tionem et prenunciationem pertinerent. Hoc
+          <lb ed="#P" n="49"/>in eis culpat Apostolus, et in omnibus qui 
+          ser<lb break="no" ed="#P" n="50"/>viunt creaturee potius quam creatori ; nam nos
+          <lb ed="#P" n="51"/>quoque et Dominicum diem, et Pascha 
+          solem<lb break="no" ed="#P" n="52"/>niter celebramus, et quaslibet alias Christianas
+          <lb ed="#P" n="53"/>dierum festivitates, sed quia intelligimus quo
+          <lb ed="#P" n="54"/>pertineant, non, tempora observamus, sed que
+          <lb ed="#P" n="55"/>illis significantur , et caetera, quae prosequitur,
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>6. Praefertur prima expositio. — Atque ita
+          <lb ed="#P" n="57"/>utrumque sensum amplectitur ibi 
+          Ansel<lb break="no" ed="#P" n="58"/>mus, ut probabilem; divus Thomas vero, 
+          li<lb break="no" ed="#P" n="59"/>cet hunc posteriorem sustineri posse dicat,
+          <lb ed="#P" n="60"/>priorem tamen praefert, et mea sententia
+          <lb ed="#P" n="61"/>merito. Nam, licet ibi loqueretur Paulus cum
+          <lb ed="#P" n="62"/>fidelibus ex Gentilitate conversis, tamen non
+          <lb ed="#P" n="63"/>eos reprehendit quod ad idololatriam , vel
+          <lb ed="#P" n="64"/>gentilicam observationem redire vellent, sed
+          <lb ed="#P" n="65"/>quod legalia vellent observare, et hoc ait in
+          <lb ed="#P" n="66"/>toto illo capite et Epistola. Ergo etiam ibi
+          <lb ed="#P" n="67"/>tractat de observationibus Judaicis, etc. Quod
+          <lb ed="#P" n="68"/>autem ait: Quomodo concertimini iterum, non
+          <lb ed="#P" n="69"/>ideo dicit, quia ad idola converti vellent, sed
+          <lb ed="#P" n="70"/>ita loquitur, quia illa superstitio jam erat 
+          om<lb break="no" ed="#P" n="71"/>nino vana, et verae fidei ita repugnans, sicut
+          <lb ed="#P" n="72"/>idololatria ; et ideo ait, illos voluisse converti
+          <lb ed="#P" n="73"/>iterum et denuo ad egena et infirma 
+          elemen<lb break="no" ed="#P" n="74"/>ta, quae, licet non essent idola, in 
+          superstitio<lb break="no" ed="#P" n="75"/>ne, et inutilitate , ac falsitate conveniebant
+          <lb ed="#P" n="76"/>cum idolis. Unde recte ibi Cajetanus ait, 
+          ve<lb break="no" ed="#P" n="77"/>rum esse quod Apostolus ait, quia 
+          converte<lb break="no" ed="#P" n="78"/>bantur iterum ad elementa , licet non eodem
+          <lb ed="#P" n="79"/>modo ; prius enim adorando elementa, ad illa
+          <lb ed="#P" n="80"/>convertebantur ; postea non adorando, sed 
+          inu<lb break="no" ed="#P" n="81"/>iliter serviendo.
+        </p>
+        <p>
+          <lb ed="#P" n="82"/>7. Alius locus Pauli explicatur. — Eadem
+          <lb ed="#P" n="83"/>responsio est ad aliud Pauh testimonium,
+          <lb ed="#P" n="84"/>ad Colossenses secundo ; nam ibi clare 
+          1o<lb break="no" ed="#P" n="85"/>quitur de observatione legalium, et monet
+          <lb ed="#P" n="86"/>Colossenses ut non timeant , etiamsi quis
+          <lb ed="#P" n="87"/>eos judicet , id est , reprehendat quod non
+          <lb ed="#P" n="88"/>discernant inter cibos mundos, vel 
+          immun<lb break="no" ed="#P" n="89"/>dos, nec in parte diei festi, aut neomenie, aut
+          <lb ed="#P" n="90"/>sabbathorum ; id est, nec in ea temporis parte,
+          <lb ed="#P" n="91"/>quae ad festa judaica, neomenias, et sabbaiha
+          <lb ed="#P" n="92"/>celebranda deputata erat, discretionem 
+          face<lb break="no" ed="#P" n="93"/>rent, vel peculiarem observationem ; vel(ut
+          <lb ed="#P" n="94"/>exponunt Hieronymus et Origenes supra) 
+          par<lb break="no" ed="#P" n="95"/>tem festi , vocat, quia illa festa judaica non
+          <lb ed="#P" n="96"/>erant perfecta et integra , sed imperfecta et
+          <lb ed="#P" n="97"/>adumbrata. Nam, ut statim subdit Paulus, 
+          il<lb break="no" ed="#P" n="98"/>la omnia erant umbrae futurorum, et ideo
+          <lb ed="#P" n="99"/>jam transierant, ideoque merito illa non 
+          ser<lb break="no" ed="#P" n="100"/>vabant. At festa novae legis non sunt umbrae
+          <lb ed="#P" n="101"/>futurorum, sed corpus ipsum Christi 
+          conti<lb break="no" ed="#P" n="102"/>nent ac repraesentant ; nihil ergo ad has 
+          fes<lb break="no" ed="#P" n="103"/>tivitates illa Pauli monitio pertinet, ut 
+          om<lb break="no" ed="#P" n="104"/>nes citati Patres concludunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

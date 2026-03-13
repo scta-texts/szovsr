@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 32</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 32</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="373"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k09339"><!-- t2-l2c32 -->
+        <head>Caput 32</head>
+        <head type="question-title">De causis quae excusare possunt a festi observatione.</head>
+        <p>
+          <lb ed="#P" n="38"/>CAPUT XXXII.
+          <lb ed="#P" n="39"/>DE CAUSIS QUAE EXCUSARE POSSUNT A FESTI 
+          OB<lb break="no" ed="#P" n="40"/>SERVATIONE.
+        </p>
+        <p>
+          <lb ed="#P" n="41"/>1. Discrimen inter non obligari et excusari.
+          <lb ed="#P" n="42"/>— De hac materia ex professo dixi in dicto
+          <lb ed="#P" n="43"/>tom. 3, disput. ultim., section. ultim. Et 
+          om<lb break="no" ed="#P" n="44"/>nia capita, quae ibi numeravi, ex quibus quis
+          <lb ed="#P" n="45"/>potest excusari ab audienda missa in die 
+          fes<lb break="no" ed="#P" n="46"/>to, applicari possunt ad hanc obligationem
+          <lb ed="#P" n="47"/>vacandi ab operibus servilibus. Solum ergo
+          <lb ed="#P" n="48"/>est advertendum, aliud esse non obligari,
+          <lb ed="#P" n="49"/>aliud vero esse excusari. Non obligatur enim
+          <lb ed="#P" n="50"/>aliquis in die festo ad abstinendum ab aliquo
+          <lb ed="#P" n="51"/>opere, quando opus illud revera non est 
+          ma<lb break="no" ed="#P" n="52"/>teria illius praecepti, nec per illud prohibetur,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>ut diximus de opere liberali, vel de 
+          prapa<lb break="no" ed="#P" n="54"/>ratione cibi necessarii in illum diem. 
+          Excusa<lb break="no" ed="#P" n="55"/>ri vero dicitur quis, quando lex quidem 
+          pro<lb break="no" ed="#P" n="56"/>hibebat tale opus; tamen causa vel necessitas
+          <lb ed="#P" n="57"/>occurrens suspendit pro tunc obligationem 
+          le<lb break="no" ed="#P" n="58"/>gis, vel aufert illam pro tali casu. Et ideo,
+          <lb ed="#P" n="59"/>quando non est excusatio. sed absoluta non
+          <lb ed="#P" n="60"/>obligatio, non tenemur praevenire 
+          necessita<lb break="no" ed="#P" n="61"/>tem operis, etiamsi possimus : sed absque ulla
+          <lb ed="#P" n="62"/>necessitate vel dispensatione possumus tale
+          <lb ed="#P" n="63"/>opus in diem festum reservare. Quando vero
+          <lb ed="#P" n="64"/>per excusationem permittitur opus, necesse
+          <lb ed="#P" n="65"/>est, ut necessitas praeveniri non possit, vel ut
+          <lb ed="#P" n="66"/>intercedat dispensatio. De operibus ergo quae
+          <lb ed="#P" n="67"/>simpliciter non cadunt sub hanc 
+          prohibitio<lb break="no" ed="#P" n="68"/>nem, dictum est supra, quia necessarium fuit
+          <lb ed="#P" n="69"/>ad explicanda opera quae per se prohibentur.
+          <lb ed="#P" n="70"/>De excusatione vero, licet aliqua attigerimus
+          <lb ed="#P" n="71"/>de operibus liberalibus specialiter prohibitis,
+          <lb ed="#P" n="72"/>generalem tamen de operibus servilibus 
+          trac<lb break="no" ed="#P" n="73"/>tationem in hunc locum reservavimus. 
+          Sup<lb break="no" ed="#P" n="74"/>ponimus ergo posse interdum intervenire 
+          ex<lb break="no" ed="#P" n="75"/>cusationem circa hanc prohibitionem ; hoc
+          <lb ed="#P" n="76"/>enim fere commune est omni praecepto 
+          posi<lb break="no" ed="#P" n="77"/>tivo, et maxime humano. Deinde haec 
+          excusa<lb break="no" ed="#P" n="78"/>tio dupliciter accidere potest : primo absque
+          <lb ed="#P" n="79"/>dispensatione, vel cum illa; et ad utrumque
+          <lb ed="#P" n="80"/>modum necessaria est aliqua causa, saltem ut
+          <lb ed="#P" n="81"/>juste fiat. Tamen in priori modo, tam gravem
+          <lb ed="#P" n="82"/>oportet esse causam , ut per se faciat 
+          obliga<lb break="no" ed="#P" n="83"/>tionem cessare, eo quod intelligatur non fuisse
+          <lb ed="#P" n="84"/>mentem Ecclesiae obligare pro tali casu. In
+          <lb ed="#P" n="85"/>posteriori autem modo, causa non tollit per
+          <lb ed="#P" n="86"/>se obligationem, sed adjuncta voluntate et 
+          li<lb break="no" ed="#P" n="87"/>centia praelati, quae ex tali causa justa et 
+          ra<lb break="no" ed="#P" n="88"/>tionabilis redditur. Prior ergo proprie 
+          voca<lb break="no" ed="#P" n="89"/>tur excusatio, et ita illam appellabimus; 
+          pos<lb break="no" ed="#P" n="90"/>terior vero proprius dicitur dispensatio, de
+          <lb ed="#P" n="91"/>qua in cap. seq. dicetur.
+        </p>
+        <p>
+          <lb ed="#P" n="92"/>2. Propria necessitas excusat in die festo.
+          <lb ed="#P" n="93"/>— Causa ergo generalis inducens 
+          excusatio<lb break="no" ed="#P" n="94"/>nem, est necessitas imminens, quae praeveniri
+          <lb ed="#P" n="95"/>non potuit, vel quia est repentina, vel quia
+          <lb ed="#P" n="96"/>multis diebus durat, vel quia usus et conditio
+          <lb ed="#P" n="97"/>humana aliud non patitur. In particulari 
+          ve<lb break="no" ed="#P" n="98"/>ro primum caput hujus excusationis est 
+          ne<lb break="no" ed="#P" n="99"/>cessitas propria conservationis, vel 
+          sustenta<lb break="no" ed="#P" n="100"/>tonis propriae vitae, aut familiae. Quia 
+          inten<lb break="no" ed="#P" n="101"/>uo Ecclesiae non est obligare cum tanto 
+          gra<lb break="no" ed="#P" n="102"/>vamine, ut dixi in dicta disputat. ultim., sect.
+          <lb ed="#P" n="103"/>ultim., et quae ibi dixi in 3 et 4 cap. de 
+          excu<lb break="no" ed="#P" n="104"/>sationibus, fere possunt cum proportione ad
+          <lb ed="#P" n="105"/>praesentem casum applicari. Et hujus 
+          excusa<lb break="no" ed="#P" n="106"/>tionis habemus exempla in Scriptura, 1 
+          Ma<lb break="no" ed="#P" n="107"/>chab. 2, de Machabaeis pugnantibus in die
+          <pb ed="#P" n="374"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sabbathi, propter periculum quod eis 
+          immi<lb break="no" ed="#P" n="2"/>nebat, nisi se defenderent. Et de Elia affert
+          <lb ed="#P" n="3"/>divus Thomas exemplum, quia, ut fugeret 
+          per<lb break="no" ed="#P" n="4"/>secutionem Jezabel, confecit iter in sabbatho,
+          <lb ed="#P" n="5"/>magis quam per legem liceret , quod non 
+          inve<lb break="no" ed="#P" n="6"/>nio expressum in Scriptura ; sumi autem 
+          po<lb break="no" ed="#P" n="7"/>test ex 3 Reg. 19, quatenus ibi dicitur, quod
+          <lb ed="#P" n="8"/>ambu!avit quadraginta diebus, in quibus 
+          sab<lb break="no" ed="#P" n="9"/>batha continebantur. Item adducit illud Matth.
+          <lb ed="#P" n="10"/>19 :Quis erit ex colis homo, qui habeat unam
+          <lb ed="#P" n="11"/>ovem, et si ceciderit sabbatho in foveum, uonne
+          <lb ed="#P" n="12"/>tenebit. et levabit eam ? Vtem, quod ibidem
+          <lb ed="#P" n="13"/>Christus excusat discipulos in sabbatho 
+          vel<lb break="no" ed="#P" n="14"/>lentes spicas, propter necessitatem. Denique
+          <lb ed="#P" n="15"/>de hac excusatione habet regula juris : Quod
+          <lb ed="#P" n="16"/>non est licitum in lege, necessitas facit licitum,
+          <lb ed="#P" n="17"/>sumpta ex Beda, Marci 2, et habetur cap. Quod
+          <lb ed="#P" n="18"/>non est, exira, de Reg. jur., ubi exemplum
+          <lb ed="#P" n="19"/>Machabaeorum adducitur, et ibi Glossa alia 
+          re<lb break="no" ed="#P" n="20"/>fert.
+        </p>
+        <p>
+          <lb ed="#P" n="21"/>3. Ex hoc ergo capite possunt excusari veri
+          <lb ed="#P" n="22"/>pauperes, qui, nisi laborent, non possunt 
+          sus<lb break="no" ed="#P" n="23"/>tentare se, vel familiam suam. Qui tamen 
+          ob<lb break="no" ed="#P" n="24"/>servare debent imprimis, ut sine scandalo id
+          <lb ed="#P" n="25"/>faciant, et secreto; secundo, ut certa sit et
+          <lb ed="#P" n="26"/>evidens necessitas sufficiens; et quia 
+          regula<lb break="no" ed="#P" n="27"/>riter ipsi non possunt per se hoc judicare,
+          <lb ed="#P" n="28"/>tum propter periculum affectus, tum propter
+          <lb ed="#P" n="29"/>defectum doctrinae, ut secure id faciant, 
+          con<lb break="no" ed="#P" n="30"/>sulere debent virum, vel confessarium pium
+          <lb ed="#P" n="31"/>et doctum, cujus judicio stare possunt. Quod
+          <lb ed="#P" n="32"/>si res fuerit dubia, petant dispensationem a
+          <lb ed="#P" n="33"/>suo pastore, ve! abstineant; quia, eo ipso
+          <lb ed="#P" n="34"/>quod causa est dubia, est insufficiens, ut per
+          <lb ed="#P" n="35"/>se solam, obligationem auferat. Item ex hoc
+          <lb ed="#P" n="36"/>capite excusantur agricola , qui ingruente
+          <lb ed="#P" n="37"/>pluvia laborant, ut segetes tueantur, illas 
+          con<lb break="no" ed="#P" n="38"/>cinnando vel operiendo; vel qui ob venti
+          <lb ed="#P" n="39"/>commoditatem purgant triticum in area 
+          pro<lb break="no" ed="#P" n="40"/>pter immiriens pericnlum, quia fortasse 
+          com<lb break="no" ed="#P" n="41"/>moditas venti deesse solet. Sed in his et 
+          simi<lb break="no" ed="#P" n="42"/>libus casibus servanda est regula data, ut,
+          <lb ed="#P" n="43"/>scilicet, necessitas sit certa; vel, si sit dubia,
+          <lb ed="#P" n="44"/>licentia petatur. Et quando actiones sunt 
+          pu<lb break="no" ed="#P" n="45"/>blicae , optimum consilium est, ut non fiant
+          <lb ed="#P" n="46"/>sine consensu parochi.
+        </p>
+        <p>
+          <lb ed="#P" n="47"/>4. Regula cognoscendi, quando potest opus
+          <lb ed="#P" n="48"/>continuari in festo. —ltem hinc excusat 
+          Ca<lb break="no" ed="#P" n="49"/>jetanus; coquentes lateres, tegulas, et calcem
+          <lb ed="#P" n="50"/>in festo; quod tamen Soto non probat, quia
+          <lb ed="#P" n="51"/>possunt uno vel ;duobus diebus profestis 
+          de<lb break="no" ed="#P" n="52"/>coqui, et in die festo potest cessari sine 
+          dis<lb break="no" ed="#P" n="53"/>pend?o; secus vero est de vitro et similibus.
+          <lb ed="#P" n="54"/>Sed haec doctrina pendet ex facto, non ex 
+          ju<lb break="no" ed="#P" n="55"/>re ; unde regula est, quando inchoatum opus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non potest intermitti in die festo sine 
+          dispen<lb break="no" ed="#P" n="57"/>dio notabili personae, vel communitatis, tunc
+          <lb ed="#P" n="58"/>potest opus in die festo continuari ; secus,
+          <lb ed="#P" n="59"/>quando non est haec necessitas; quando vero
+          <lb ed="#P" n="60"/>in casu hoc contingat, necne, ad artifices 
+          spec<lb break="no" ed="#P" n="61"/>tat, et illis credendum est. Et ex hoc etiam
+          <lb ed="#P" n="62"/>capite excusant multi famulum, qui cogitur
+          <lb ed="#P" n="63"/>praecepto domini ad laborapdum in die festo,
+          <lb ed="#P" n="64"/>nec potest illi non parere sine gravi 
+          incom<lb break="no" ed="#P" n="65"/>modo, quia vel privaretur stipendio, vel 
+          ali<lb break="no" ed="#P" n="66"/>mento necessario, vel domo excluderetur, et
+          <lb ed="#P" n="67"/>famulatu privaretur cum gravi jactura, quia
+          <lb ed="#P" n="68"/>non sperat aliud commodum facile invenire.
+          <lb ed="#P" n="69"/>In his ergo casibus et similibus, Doctores hos
+          <lb ed="#P" n="70"/>excusant, ut patet ex Cajetano supra, Navarr.,
+          <lb ed="#P" n="71"/>cap. 13, numer. 7, cum Sylvestro, Angelo,
+          <lb ed="#P" n="72"/>Rosella, et aliis; Anton., 1 part., titul. 9,
+          <lb ed="#P" n="73"/>cap. 7, S 5. Et ratio est, quia hic non solum
+          <lb ed="#P" n="74"/>excusat necessitas naturalis, vel quasi ab 
+          in<lb break="no" ed="#P" n="75"/>trinseco, sed etiam necessitas per vim et 
+          me<lb break="no" ed="#P" n="76"/>tum, quia eamdem indigentiam et causam 
+          in<lb break="no" ed="#P" n="77"/>ducit. Quamvis oppositum expresse doceat
+          <lb ed="#P" n="78"/>Abul., in capit. 12 Exod , quaest. 23, sed sine
+          <lb ed="#P" n="79"/>fundamento ; nisi intelligatur, quando vis 
+          in<lb break="no" ed="#P" n="80"/>fertur in injuriam, vel contemptum festi aut
+          <lb ed="#P" n="81"/>religionis, quod etiam ahii Doctores advertunt;
+          <lb ed="#P" n="82"/>tunc enim propter nullum metum licet agere
+          <lb ed="#P" n="83"/>contra legem ecclesiasticam, ut constat ex 
+          ma<lb break="no" ed="#P" n="84"/>teria de legibus.
+        </p>
+        <p>
+          <lb ed="#P" n="85"/>5. Necessitas reipublice etiam inducit 
+          emcu<lb break="no" ed="#P" n="86"/>sationem.—Secundum caput excusationis esse
+          <lb ed="#P" n="87"/>potest necessitas reipublicae, seu 
+          communita<lb break="no" ed="#P" n="88"/>tis, quia non minus, imo magis illi 
+          subvenien<lb break="no" ed="#P" n="89"/>dum est, quam propriae necessitati. Item quia
+          <lb ed="#P" n="90"/>Ecclesia non vult obhgare ad hoc otium cum
+          <lb ed="#P" n="91"/>publico incommodo reipublica, ut satis 
+          de<lb break="no" ed="#P" n="92"/>claratum est in capit. Licet, de Ferns. Item
+          <lb ed="#P" n="93"/>statim dicemus, hoc licere propter privatam
+          <lb ed="#P" n="94"/>necessitatem proximi; ergo multo magis ob
+          <lb ed="#P" n="95"/>publicam. Et ex hoc principio excusantur 
+          mul<lb break="no" ed="#P" n="96"/>ti, opera servilia vel prohibita facientes ob
+          <lb ed="#P" n="97"/>publicam necessitatem. Ut excusantur milites
+          <lb ed="#P" n="98"/>bellum agentes in die festo ob defensionem
+          <lb ed="#P" n="99"/>reipublice, et parantes tormenta bellica, et
+          <lb ed="#P" n="100"/>qui vallo circumdant oppidum, ve fossam 
+          fa<lb break="no" ed="#P" n="101"/>ciunt tempore necessitatis. Item reficientes
+          <lb ed="#P" n="102"/>pontes, et vias, et fontes, et alia quae sunt 
+          pu<lb break="no" ed="#P" n="103"/>blici usus et utilitatis, quando sine magno 
+          in<lb break="no" ed="#P" n="104"/>commodo publico non potest remedium 
+          difter<lb break="no" ed="#P" n="105"/>ri. Item hac ratione licet laborare in 
+          provi<lb break="no" ed="#P" n="106"/>denda republica de necessariis ad victum diei
+          <lb ed="#P" n="107"/>festi, quoad eas res quae praeveniri antea non
+          <lb ed="#P" n="108"/>possunt. Adde etiam excusari eos, qui pro
+          <lb ed="#P" n="109"/>causa publica, honesta, et convenienti 
+          reipu<lb break="no" ed="#P" n="110"/>blicae, aliquod opus faciunt, licet utilitas non
+          <pb ed="#P" n="375"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sit simpliciter necessaria, sed ad communem
+          <lb ed="#P" n="2"/>populi laetitiam, vel splendorem, in occasione
+          <lb ed="#P" n="3"/>moraliter necessaria, ut in adventu regis, vel
+          <lb ed="#P" n="4"/>ortu principis ; tunc enim laborare solent 
+          ar<lb break="no" ed="#P" n="5"/>tifices his diebus, ut vestes, vel publica 
+          artifi<lb break="no" ed="#P" n="6"/>cia, et tabulata, et theatra vel perficiant, vel
+          <lb ed="#P" n="7"/>ornent, et similia : quae ita sunt consuetudine
+          <lb ed="#P" n="8"/>recepta, ut ipsa sufficiat ad excusandum. 
+          Ta<lb break="no" ed="#P" n="9"/>men in his casibus securius est licentiam a
+          <lb ed="#P" n="10"/>pastoribus postulare, nam sine dubio similes
+          <lb ed="#P" n="11"/>causae sufficientes sunt, ut juste illam 
+          conce<lb break="no" ed="#P" n="12"/>dant, quando talia sunt opera, ut praveniri
+          <lb ed="#P" n="13"/>non possint, et fieri in diebus profestis, vel
+          <lb ed="#P" n="14"/>quando occasio talis est, ut brevitas temporis
+          <lb ed="#P" n="15"/>id non permiserit.
+        </p>
+        <p>
+          <lb ed="#P" n="16"/>6. Proami necessitas eadcusat in die festo. —
+          <lb ed="#P" n="17"/>Tertium caput est necessitas proximi, etiam
+          <lb ed="#P" n="18"/>privata : nam Deus plus misericordiam valt,
+          <lb ed="#P" n="19"/>quam sacrificium, Oseae sexto ; ex quo loco 
+          ar<lb break="no" ed="#P" n="20"/>gumentatur Christus contra Judaeos, Matth.
+          <lb ed="#P" n="21"/>duodecimo, unde infra concludit: Licet 
+          sab<lb break="no" ed="#P" n="22"/>ballis benefacere, quando, scilicet, charitas et
+          <lb ed="#P" n="23"/>necessitas proximi id postulat, quia tenemur
+          <lb ed="#P" n="24"/>proximos diligere, sicut nos ipsos. Unde etiam
+          <lb ed="#P" n="25"/>Gentilis Scaevola de hac re consultus 
+          respon<lb break="no" ed="#P" n="26"/>dit : n feriis agere licitum est, quod, si 
+          inter<lb break="no" ed="#P" n="27"/>mitteretur, nobis vel aliis noceret : refert 
+          Ma<lb break="no" ed="#P" n="28"/>crobius, libro primo Satur., capite decimo
+          <lb ed="#P" n="29"/>sexto. Itaque, si salus aut vita proximi 
+          pericli<lb break="no" ed="#P" n="30"/>tatur, licet proilla tuenda et defendenda 
+          labo<lb break="no" ed="#P" n="31"/>rare in festo; et si domus proximi 
+          accendere<lb break="no" ed="#P" n="32"/>tur, laborandum est ad extinguendum ignem,
+          <lb ed="#P" n="33"/>et sic de aliis, in quibus habet locum illud
+          <lb ed="#P" n="34"/>Bernardi: Quaee pro charitate inducta sunt, non
+          <lb ed="#P" n="35"/>debent contra charitatem militare. Neque in
+          <lb ed="#P" n="36"/>hoc potest certior regula tradi, sed in 
+          particu<lb break="no" ed="#P" n="37"/>lari est necessaria prudentia; et consilium in
+          <lb ed="#P" n="38"/>prima regula datum hic etiam applicari 
+          po<lb break="no" ed="#P" n="39"/>test. Ordinarie vero securius potest quis 
+          pro<lb break="no" ed="#P" n="40"/>prio judicio duci in laborando in die festo ad
+          <lb ed="#P" n="41"/>subveniendum necessitati proximi, quam 
+          pro<lb break="no" ed="#P" n="42"/>priae, quia non tam facile excedet in hoc ex
+          <lb ed="#P" n="43"/>affectu ad alium, sicut ad seipsum; 
+          nihilomi<lb break="no" ed="#P" n="44"/>nus tamen tutum semper est uti consilio 
+          pru<lb break="no" ed="#P" n="45"/>dentis , quando necessitas non est patens;
+          <lb ed="#P" n="46"/>nam, si sit evidens, tutius est excedere, quam
+          <lb ed="#P" n="47"/>deficere; et, si bona intentione fiat, nunquam
+          <lb ed="#P" n="48"/>in hoc committetur delictum. De quo videri
+          <lb ed="#P" n="49"/>possunt dicta in illa disp. ult., sect., S 
+          Quar<lb break="no" ed="#P" n="50"/>tun caput.
+        </p>
+        <p>
+          <lb ed="#P" n="51"/>7. Pietas similiter vel in Dewn, vel in 
+          pro<lb break="no" ed="#P" n="52"/>cimun. — Quartum caput est pietas in Deum,
+          <lb ed="#P" n="53"/>velin prosimum ; hoc enim modo excusantur,
+          <lb ed="#P" n="54"/>qui intemplo ornando, et parietibus instruendis
+          <lb ed="#P" n="55"/>auleeis et tapetibus, laborant. Sed de hoc puneto
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>jam supra explieatum est, quando et quomodo
+          <lb ed="#P" n="57"/>locum habeat haec excusatio. Et ad haec 
+          redu<lb break="no" ed="#P" n="58"/>cuntur omnes rationes et causae, quae possunt
+          <lb ed="#P" n="59"/>ab his operibus exercendis excusare. Et omnes
+          <lb ed="#P" n="60"/>tanguntuy in cap. ult. de Fer., in illis duobus
+          <lb ed="#P" n="61"/>verbis: Nisi necessitas urgeat, vel pietas 
+          sua<lb break="no" ed="#P" n="62"/>deat. Circa quem textum supra dictum est, in
+          <lb ed="#P" n="63"/>eo non esse sermonem de operibus servilibus,
+          <lb ed="#P" n="64"/>sed de operibus liberalibus, seu de actionibus
+          <lb ed="#P" n="65"/>forensibus, quae cum judiciali strepitu fiunt.
+          <lb ed="#P" n="66"/>Unde, quia in illis actionibus specialiter fit
+          <lb ed="#P" n="67"/>exceptio expressa in ipsamet lege prohibente
+          <lb ed="#P" n="68"/>illas actiones in die festo, dici non immerito
+          <lb ed="#P" n="69"/>potest, actiones illas in casibus ibi expressis
+          <lb ed="#P" n="70"/>non solum esse licitas per modum 
+          excusatio<lb break="no" ed="#P" n="71"/>nis, sed etiam quia pro illis casibus prohibitae
+          <lb ed="#P" n="72"/>non sunt. Quod fuit maxime conveniens in
+          <lb ed="#P" n="73"/>illis actibus propter peculiarem causam, 
+          nimi<lb break="no" ed="#P" n="74"/>rum, quia non solum prohibentur, sed etiam
+          <lb ed="#P" n="75"/>irritantur, ut supra visum est ; et ideo oportuit
+          <lb ed="#P" n="76"/>expresse excipi, ne fortasse de valore actus
+          <lb ed="#P" n="77"/>dubitari possit. Unde, quod non sola 
+          necessi<lb break="no" ed="#P" n="78"/>tas, sed etiam pietas sufticiat, videtur esse 
+          pe<lb break="no" ed="#P" n="79"/>culiaris concessio in illis actibus, ut supra
+          <lb ed="#P" n="80"/>dictum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

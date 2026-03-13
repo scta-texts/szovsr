@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="648"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k16142"><!-- t3-l4c6 -->
+        <head>Caput 6</head>
+        <head type="question-title">In lege natura habuerit etiam locum simoniae vitium, fueritque prohibitum?</head>
+        <p>
+          <lb ed="#P" n="6"/>CAPUT VI.
+          <lb ed="#P" n="7"/>IN LEGE NATURA HABUERIT ETIAM LOCUM
+          <lb ed="#P" n="8"/>SIMONLE VITIUM, FUERITQUE PROHIBITUM?
+        </p>
+        <p>
+          <lb ed="#P" n="9"/>1. Pars negativa proponitur. — De illo 
+          an<lb break="no" ed="#P" n="10"/>tiquiori tempore potest esse nonnulla major
+          <lb ed="#P" n="11"/>dubitandi ratio, quia in eo non videntur fuisse
+          <lb ed="#P" n="12"/>spiritualia dona , de quibus tam facile possit
+          <lb ed="#P" n="13"/>per lumen naturale cognosci, illa vendere aut
+          <lb ed="#P" n="14"/>emere, intrinsecam malitiam continere. Unde
+          <lb ed="#P" n="15"/>hic etiam non desunt exempla quae oppositum
+          <lb ed="#P" n="16"/>suadere videantur. Nam Abraham sepulturam
+          <lb ed="#P" n="17"/>emit, Genes., 23, quae emptio nunc simoniaca
+          <lb ed="#P" n="18"/>est; et Jacob a suo fratre Esau sacerdotium
+          <lb ed="#P" n="19"/>emit, Genes. 25. Emit enim primogenituram,
+          <lb ed="#P" n="20"/>cui tunc erat sacerdotium adjunctum , ut est
+          <lb ed="#P" n="21"/>communis traditio. Joseph etiam, Genes. 40,
+          <lb ed="#P" n="22"/>post somnii interpretationem , dixit ad 
+          pin<lb break="no" ed="#P" n="23"/>cernam Pharaonis: Tanutum memento mei, cum
+          <lb ed="#P" n="24"/>tibi bene fuerit. Ubi videtur beneficium 
+          tem<lb break="no" ed="#P" n="25"/>porale postulasse pro actu interpretandi, qui
+          <lb ed="#P" n="26"/>propheticus erat et spiritua!is. Et cap. 41,
+          <lb ed="#P" n="27"/>principatum 7Egy pti acceptavit Joseph, quem
+          <lb ed="#P" n="28"/>videtur Pharao illi dedisse propter gratiam
+          <lb ed="#P" n="29"/>interpretandi somnia. Et coufirmatur, quia si
+          <lb ed="#P" n="30"/>in lege naturae fuisset hoc vitium, etiam nunc
+          <lb ed="#P" n="31"/>inter infideles esse posset, quia illi tenentur
+          <lb ed="#P" n="32"/>ad totam legem naturalem; consequens videtur
+          <lb ed="#P" n="33"/>falsum , quia in illis non sunt gratiae, nec 
+          su<lb break="no" ed="#P" n="34"/>pernaturalia dona ; quomodo ergo possunt 
+          si<lb break="no" ed="#P" n="35"/>moniam committere ? Et simile argumentum
+          <lb ed="#P" n="36"/>sumi potest de homine creato in puris 
+          natura<lb break="no" ed="#P" n="37"/>libus , in quo naturalis ratio suam vim 
+          habe<lb break="no" ed="#P" n="38"/>ret, et ita haberet integram naturalem legem,
+          <lb ed="#P" n="39"/>et tamen in eo non haberet locum simonia
+          <lb ed="#P" n="40"/>propter eamdem rationem, quia non haberet
+          <lb ed="#P" n="41"/>supernaturalia dona.
+        </p>
+        <p>
+          <lb ed="#P" n="42"/>2. Duplex acceptio status legis nature. —
+          <lb ed="#P" n="43"/>Priusquam respondeamus , oportet in 
+          memo<lb break="no" ed="#P" n="44"/>riam revocare, statum legis naturae dupliciter
+          <lb ed="#P" n="45"/>accipi: uno modo, ut lex naturae dicit solam
+          <lb ed="#P" n="46"/>rationem naturalem puram, ut per naturale
+          <lb ed="#P" n="47"/>lumen intellectus dictari potest ; alio, ut dicit
+          <lb ed="#P" n="48"/>rationem ipsam ut elevatam per fidem, et
+          <lb ed="#P" n="49"/>prout sic elevata potest dictare de agendis vel
+          <lb ed="#P" n="50"/>vitandis per dictamina connaturalia ipsi fidei,
+          <lb ed="#P" n="51"/>et lumini supernaturali. Hoc ergo loco statum
+          <lb ed="#P" n="52"/>legis natuturalis hoc posteriori modo sumi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>mus ; nam supponimus ut clarum in illo
+          <lb ed="#P" n="54"/>fuisse spiritualem materiam, circa quam solet
+          <lb ed="#P" n="55"/>versari simonia , nam in ilo fuerunt etiam
+          <lb ed="#P" n="56"/>gratiae gratis datae, ut prophetia ; fuit etiam
+          <lb ed="#P" n="57"/>sacerdotium, et aliquod sacramentum, et 
+          sa<lb break="no" ed="#P" n="58"/>crificium , oratio, et aliae spirituales 
+          functio<lb break="no" ed="#P" n="59"/>nes. De statu autem legis naturae priori modo
+          <lb ed="#P" n="60"/>sumpto , seu puro, paulo inferius pauca 
+          dice<lb break="no" ed="#P" n="61"/>mus.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>3. In lege nature simonia potuit committi.
+          <lb ed="#P" n="63"/>—Hoc ergo supposito, dicendum est vitium
+          <lb ed="#P" n="64"/>simoniae committi potuisse in tempore legis
+          <lb ed="#P" n="65"/>naturae, prout fuit in hominibus fidelibus 
+          an<lb break="no" ed="#P" n="66"/>te latam legem Moysi, vel etiam post illam,
+          <lb ed="#P" n="67"/>in his qui non erant de stirpe Abrahae per
+          <lb ed="#P" n="68"/>Isaac et Jacob. Nam in illo tempore (ut dixi)
+          <lb ed="#P" n="69"/>etiam erat materia spiritualis de se sufficiens
+          <lb ed="#P" n="70"/>ad hoc vitium; ergo ibi etiam 
+          committeba<lb break="no" ed="#P" n="71"/>tur tale vitium, si venditio vel emptio circa
+          <lb ed="#P" n="72"/>talem materiam fiebat, quia habebat eamdem
+          <lb ed="#P" n="73"/>malitiam, quae non positivo juri, sed divino
+          <lb ed="#P" n="74"/>ac naturali ex vi luminis fidei contraria esrt,
+          <lb ed="#P" n="75"/>Unde etiam nonnulla exempla simoniaca 
+          il<lb break="no" ed="#P" n="76"/>lius temporis communiter recensentur, quae
+          <lb ed="#P" n="77"/>breviter expendenda sunt.
+        </p>
+        <p>
+          <lb ed="#P" n="78"/>4. Ephron sepulturge locum Abrahee vendens
+          <lb ed="#P" n="79"/>simoniam non commisit. — Primum est de
+          <lb ed="#P" n="80"/>Ephron, qui Abrahae vendidit locum 
+          sepul<lb break="no" ed="#P" n="81"/>turae, Genes. 23. Quod innuit D. Thomas, 
+          di<lb break="no" ed="#P" n="82"/>cta q. 110, art. 4, ad 3. Sed de facto nullum
+          <lb ed="#P" n="83"/>ibi fuit vestigium simoniae ex parte Abrahae,
+          <lb ed="#P" n="84"/>nec forte ex parte Ephron. Tum quia non
+          <lb ed="#P" n="85"/>constat illum agrum fuisse ante deputatum
+          <lb ed="#P" n="86"/>ad sepulturam ; imo verisimilius est 
+          nemi<lb break="no" ed="#P" n="87"/>nem antea fuisse ibi sepultum ; ideo enim
+          <lb ed="#P" n="88"/>Abraham locum illum elegisse videtur, ut 
+          ha<lb break="no" ed="#P" n="89"/>beret locum sepulturae separatum a sepulchris
+          <lb ed="#P" n="90"/>Gentilium, ut ibi notant expositores. Tum
+          <lb ed="#P" n="91"/>etiam quia, licet jam ille locus quoad 
+          spelun<lb break="no" ed="#P" n="92"/>cam esset ad sepeliendum destinatus, poterat
+          <lb ed="#P" n="93"/>ager vendi condigno pretio, habens 
+          adjunc<lb break="no" ed="#P" n="94"/>tam et quasi annexam talem speluncam. Tum
+          <lb ed="#P" n="95"/>etiam quia ipsamet spelunca potuisset emi et
+          <lb ed="#P" n="96"/>vendi pro valore ipsius terra, nulla habita
+          <lb ed="#P" n="97"/>ratione illius deputationis, vel quasi 
+          consecra<lb break="no" ed="#P" n="98"/>tionis; nam, ut infra dicemus, etiam nunc
+          <lb ed="#P" n="99"/>posset vendi, si per jus canonicum 
+          prohibi<lb break="no" ed="#P" n="100"/>tum non esset, sicut calix vendi potest 
+          ratio<lb break="no" ed="#P" n="101"/>ne materiae. Dicit tamen Hieronymus, in
+          <lb ed="#P" n="102"/>quaest. Hebr. in Genes., ad cap. 23, Ephron,
+          <lb ed="#P" n="103"/>postquam victus est pretio, ut sepulchrum
+          <lb ed="#P" n="104"/>venderet argento, licet cogente Atraham, 
+          pos<lb break="no" ed="#P" n="105"/>tea vocatum esse Ephran, significante 
+          Scri<lb break="no" ed="#P" n="106"/>ptura non fuisse consummate perfectaeque 
+          v<lb break="no" ed="#P" n="107"/>tutis, qui potuerit memorias vendere mortuo-
+          <pb ed="#P" n="649"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rum. Sed quicquid de hoc sit, non dicit 
+          Hie<lb break="no" ed="#P" n="2"/>ronymus ibi intervenisse peccatum. De 
+          possi<lb break="no" ed="#P" n="3"/>bili vero, seu ex hypothesi, addit D. Thomas
+          <lb ed="#P" n="4"/>quod, quia inter Gentiles loca sepulehrorum
+          <lb ed="#P" n="5"/>religiosa reputabantur, si Ephron intendit 
+          acci<lb break="no" ed="#P" n="6"/>pere pecuniam tanquam pretium pro loco 
+          se<lb break="no" ed="#P" n="7"/>pulturae, peccatum commisit, utique simoniae,
+          <lb ed="#P" n="8"/>licet Abraham non peccaverit emens, vel quia
+          <lb ed="#P" n="9"/>non intendebat dare pretium nisi pro 
+          com<lb break="no" ed="#P" n="10"/>muni terra, vel quia redimebat suam 
+          vexa<lb break="no" ed="#P" n="11"/>tionem. Sed certe si Ephron peccaret, vix 
+          pos<lb break="no" ed="#P" n="12"/>set excusari Abraham ; primum, quia ibi 
+          nul<lb break="no" ed="#P" n="13"/>la erat vexatio ; poterat enim Abraham alium
+          <lb ed="#P" n="14"/>locum quaerere, ubi suum mortuum sepeliret;
+          <lb ed="#P" n="15"/>nec satis erat emere bona intentione, si 
+          al<lb break="no" ed="#P" n="16"/>ter simoniace vendebat ; non enim licebat
+          <lb ed="#P" n="17"/>cooperari illi, nedum illum inducere. 
+          Dicen<lb break="no" ed="#P" n="18"/>dum ergo videtur Abraham recte egisse, et
+          <lb ed="#P" n="19"/>nuliam habuisse rationem praesumendi in alio
+          <lb ed="#P" n="20"/>malam intentionem, quia solum petebat 
+          pre<lb break="no" ed="#P" n="21"/>tium quod terra ipsa valebat, nec augebat
+          <lb ed="#P" n="22"/>pretium propter solum titulum sepulturae.
+          <lb ed="#P" n="23"/>Unde licet inter Gentiles locus sepulchri sacer
+          <lb ed="#P" n="24"/>et religiosus haberetur, non ideo erat 
+          prohi<lb break="no" ed="#P" n="25"/>bitum vendere locum ipsum materialem justo
+          <lb ed="#P" n="26"/>pretio, quia neque id ex natura rei malum
+          <lb ed="#P" n="27"/>est, nec est cur fingatur tunc aliquo jure 
+          hu<lb break="no" ed="#P" n="28"/>mano fuisse prohibitum, sed ad summum 
+          po<lb break="no" ed="#P" n="29"/>terat esse malum augere pretium ex illo solo
+          <lb ed="#P" n="30"/>titulo, quod esset locus sepulturae, vel pretio
+          <lb ed="#P" n="31"/>vendere usum talis loci ad sepeliendum 
+          ali<lb break="no" ed="#P" n="32"/>quem. Et hoc significat D. Thomas esse 
+          con<lb break="no" ed="#P" n="33"/>tra legem naturalem ; quod an ita sit, infra
+          <lb ed="#P" n="34"/>tractando de materiis simoniae videbimus, nam
+          <lb ed="#P" n="35"/>in casu de quo tractamus, non est talis 
+          exces<lb break="no" ed="#P" n="36"/>sus commissus, quantum ex textu Scripturae
+          <lb ed="#P" n="37"/>colligi potest.
+        </p>
+        <p>
+          <lb ed="#P" n="38"/>5. An Esau primogenituram vendens 
+          simo<lb break="no" ed="#P" n="39"/>niacus fuerit. — An primogenitura Esau 
+          ha<lb break="no" ed="#P" n="40"/>buerit annesum sacerdotium.—Aliud frequens
+          <lb ed="#P" n="41"/>exemplum est de Esau, qui primogenituram
+          <lb ed="#P" n="42"/>vendidit fratri suo Jacob, Genes. 25. Ita etiam
+          <lb ed="#P" n="43"/>sentit D. Thomas in dicta solutione ad 3, ubi
+          <lb ed="#P" n="44"/>accusat Esau tanquam simoniacum, excusat
+          <lb ed="#P" n="45"/>autem Jacob, quod suam redemit vexationem;
+          <lb ed="#P" n="46"/>nam jus primogeniturae ad ipsum pertinebat
+          <lb ed="#P" n="47"/>donatione divina. Non ergo acquisivit aliquod
+          <lb ed="#P" n="48"/>spirituale jus per illam emptionem, sed 
+          abs<lb break="no" ed="#P" n="49"/>tulit impedimentum, quod frater sibi objicera
+          <lb ed="#P" n="50"/>poterat, propter antecessionem pnativitatis.
+          <lb ed="#P" n="51"/>Hec fere D. Thomas, quae Cajetanus latius 
+          pro<lb break="no" ed="#P" n="52"/>sequitur, et praesertim dubitat quomodo 
+          pos<lb break="no" ed="#P" n="53"/>sit excusari Jacob a culpa, si Esau simoniam
+          <lb ed="#P" n="54"/>commisit, quod- certe non parvam habet 
+          du<lb break="no" ed="#P" n="55"/>bitationem, propter quam idem Cajetanus,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Genes. 25, in dubium vocat totum 
+          fundamen<lb break="no" ed="#P" n="57"/>tum hujus quaestionis, nimirum, quod 
+          primo<lb break="no" ed="#P" n="58"/>geuitura tunc haberet annexum sacerdotium,
+          <lb ed="#P" n="59"/>vel aliquid spirituale. Et Oleaster ibi, ulterius
+          <lb ed="#P" n="60"/>progressus, id negare non dubitavit, sumitque
+          <lb ed="#P" n="61"/>argumentum, ex eo quod Abel non fuit 
+          pri<lb break="no" ed="#P" n="62"/>mogenitus, et tamen erat sacerdos, 
+          sacrifi<lb break="no" ed="#P" n="63"/>cium enim obtulit. Hoc vero fundamentum
+          <lb ed="#P" n="64"/>parvi momenti est, tum quia Hieronymus,
+          <lb ed="#P" n="65"/>statim citandus, significat morem illum, quod
+          <lb ed="#P" n="66"/>primogenitus esset sacerdos summus, 
+          ince<lb break="no" ed="#P" n="67"/>pisse post diluvium; tum etiam quia non 
+          re<lb break="no" ed="#P" n="68"/>pugnabat secundo genitum esse sacerdotem,
+          <lb ed="#P" n="69"/>sed non summum ; tum denique quia non
+          <lb ed="#P" n="70"/>constat oblationem Abel fuisse proprium et
+          <lb ed="#P" n="71"/>publicum sacrificium ; potuit enim esse 
+          sim<lb break="no" ed="#P" n="72"/>plex oblatio et privata, quae a non sacerdote
+          <lb ed="#P" n="73"/>fieri potest.
+        </p>
+        <p>
+          <lb ed="#P" n="74"/>6. Affirmativa pars vera resolvitur. —
+          Cua<lb break="no" ed="#P" n="75"/>propter non est facile neganda antiqua 
+          tradi<lb break="no" ed="#P" n="76"/>tio quam refert, eique fidem adhibet 
+          Hiero<lb break="no" ed="#P" n="77"/>nymus, epist. 126 ad Evagri., et in Tradit.
+          <lb ed="#P" n="78"/>Hebr.. ad cap. 14, 27 et 49 Genes. ; 
+          praeser<lb break="no" ed="#P" n="79"/>tim cum eamdem significet Clemens, lib. 8,
+          <lb ed="#P" n="80"/>Constit., cap. 5; et Augustinus, in Psalm. 46,
+          <lb ed="#P" n="81"/>quos fere omnes posteriores Doctores secuti
+          <lb ed="#P" n="82"/>sunt, ut D. Thomas supra, et ad Hebr. 12;
+          <lb ed="#P" n="83"/>Abul., Genes. 25 et 27, et ibi. Lippom. Et 
+          be<lb break="no" ed="#P" n="84"/>ne Benedictus Per., Genes. 25, disp. 8, qui id
+          <lb ed="#P" n="85"/>conatur probare ex 19 Exod., quia ibi dicitur:
+          <lb ed="#P" n="86"/>Sacerdotes qui accedunt ad Domimnnm, 
+          sancti<lb break="no" ed="#P" n="87"/>ficentur. Ex quo loco recte probatur fuisse 
+          sa<lb break="no" ed="#P" n="88"/>cerdotes in populo Dei ante institutum 
+          Levi<lb break="no" ed="#P" n="89"/>ticum sacerdotium, sed non probatur illos
+          <lb ed="#P" n="90"/>fuisse primogenitos. Potuerunt enim aliter
+          <lb ed="#P" n="91"/>esse electi a populo, vel designati per 
+          Moy<lb break="no" ed="#P" n="92"/>sen, ut ex cap. 24 Exodi potest conjectari.
+          <lb ed="#P" n="93"/>Et (quod caput est) irde non habetur illos
+          <lb ed="#P" n="94"/>fuisse summos sacerdotes, sed communes.
+          <lb ed="#P" n="95"/>Nam summus sacerdos tunc revera erat 
+          Moy<lb break="no" ed="#P" n="96"/>ses, ut ex c. 24, et aliis locis satis constat. 
+          Ap<lb break="no" ed="#P" n="97"/>parentius id probat idem auctor Paulo, de
+          <lb ed="#P" n="98"/>quo statim dicetur.
+        </p>
+        <p>
+          <lb ed="#P" n="99"/>7. Esau simoniam commisisse, statutur ut
+          <lb ed="#P" n="100"/>probabile. —Hoc ergo fundamento posito, 
+          opi<lb break="no" ed="#P" n="101"/>nio D. Thomae proposita satis recepta est;
+          <lb ed="#P" n="102"/>et confirmari maxime solet ex Paulo, ad 
+          Hae<lb break="no" ed="#P" n="103"/>breos 12, qui appellat Esau profammn, qui
+          <lb ed="#P" n="104"/>propter unam escam cendidit primitiva sua.
+          <lb ed="#P" n="105"/>Nam profanus idem est quod irreligiosus et
+          <lb ed="#P" n="106"/>res sacras non curans, et ideo in Scriptura
+          <lb ed="#P" n="107"/>profanus sa»cto contraponitur, Levit. 10: Ut
+          <lb ed="#P" n="108"/>habeatis scientiam discernendi inter sanctum
+          <lb ed="#P" n="109"/>et profanwm, inter pollutum et mundwmn. 
+          WNo<lb break="no" ed="#P" n="110"/>cans ergo Paulus profanum Esau, in hoc sa-
+          <pb ed="#P" n="650"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tis indicat sacram rem violasse, vendendo
+          <lb ed="#P" n="2"/>primogenituram, ac subinde simoniacum 
+          fuis<lb break="no" ed="#P" n="3"/>se. Et favet ibi Chrysostomus, homilia 31,
+          <lb ed="#P" n="4"/>nam Esau vocat gmundanum vendentem 
+          spiri<lb break="no" ed="#P" n="5"/>tualia; idemque indicavit Augustinus in 
+          di<lb break="no" ed="#P" n="6"/>cta Enarrat., Psalmo A6, dicens, quod Fsau
+          <lb ed="#P" n="7"/>per gulam perdidit primogenita sua, nam plus
+          <lb ed="#P" n="8"/>anavit quod corporaliter concupierat, quam
+          <lb ed="#P" n="9"/>quod spiritualiter prius nascendo meruerat.
+          <lb ed="#P" n="10"/>Si enim primogenitura tantum esset quid 
+          na<lb break="no" ed="#P" n="11"/>turale et temporale, ratione illius non posset
+          <lb ed="#P" n="12"/>dici Esau aliquid spiritualiter meruisse 
+          nas<lb break="no" ed="#P" n="13"/>cendo; dum ergo Augustinus dicit 
+          spiritua<lb break="no" ed="#P" n="14"/>liter, significat rem illam fuisse spiritualem,
+          <lb ed="#P" n="15"/>et consequenter venditionem ejus fuisse 
+          si<lb break="no" ed="#P" n="16"/>moniam.
+        </p>
+        <p>
+          <lb ed="#P" n="17"/>S. Quo pacto ex ci legis naturalis venditio
+          <lb ed="#P" n="18"/>simoniaca fuerit. — Sed licet haec sententia
+          <lb ed="#P" n="19"/>probabilis sit, tamen quia hic non tam 
+          agen<lb break="no" ed="#P" n="20"/>dum est de accusatione vel excusatione 
+          per<lb break="no" ed="#P" n="21"/>sonae, quam de ipso facto, et jure illius 
+          se<lb break="no" ed="#P" n="22"/>cundum se, sic non caret illa sententia 
+          diffi<lb break="no" ed="#P" n="23"/>cultate, in explicando, quomodo ex vi legis
+          <lb ed="#P" n="24"/>naturalis venditio illa simoniaca fuerit,
+          <lb ed="#P" n="25"/>etiamsi eo tempore primogeniturae esset 
+          con<lb break="no" ed="#P" n="26"/>junctum summum sacerdotium. Et ratio 
+          difh<lb break="no" ed="#P" n="27"/>cultatis est, quia negari non potest quin 
+          pri<lb break="no" ed="#P" n="28"/>mogenitura secundum se sit tantum 
+          proprie<lb break="no" ed="#P" n="29"/>tas quaedam naturalis, seu naturalis dignitas,
+          <lb ed="#P" n="30"/>ut eam vocat Chrysostomus, homilia 51 in
+          <lb ed="#P" n="31"/>Genes. Cui conjunctae erant per 
+          ratiocinatio<lb break="no" ed="#P" n="32"/>nem humanam, et quasi ex jure Gentium
+          <lb ed="#P" n="33"/>multae commoditates, seu praerogativae et 
+          ho<lb break="no" ed="#P" n="34"/>nores, ac utilitates humana et temporales,
+          <lb ed="#P" n="35"/>plures vel pauciores, juxta varias 
+          consuetudi<lb break="no" ed="#P" n="36"/>nes, vel leges humanas, ut indicavit Glossa,
+          <lb ed="#P" n="37"/>in cap. Quam periculosum, 1, quaest. 1. Et
+          <lb ed="#P" n="38"/>late Tiraquell., de Jur. primogen., in 
+          Praefa<lb break="no" ed="#P" n="39"/>uone, ubi specialiter, a num. 12, tractat de
+          <lb ed="#P" n="40"/>primogenitorum praerogativis in illis antiquis
+          <lb ed="#P" n="41"/>Patribus, et inter Judaeos ; et num. 17, et 18,
+          <lb ed="#P" n="42"/>addit munus sacerdotale, referendo 
+          Hierony<lb break="no" ed="#P" n="43"/>mum, et alios. Supponebatur ergo 
+          primogeni<lb break="no" ed="#P" n="44"/>tura naturalis, et civilis seu humana, ut sic
+          <lb ed="#P" n="45"/>dicam, et illi conjungebatur jus sacerdotale,
+          <lb ed="#P" n="46"/>vel ex ordinatione divina, vel ex traditione
+          <lb ed="#P" n="47"/>populorum fidelium. Negari autem non 
+          po<lb break="no" ed="#P" n="48"/>test quin jus primogenii, secundum se 
+          specta<lb break="no" ed="#P" n="49"/>tum, et secluso adjuncto spirituali, habeat 
+          hu<lb break="no" ed="#P" n="50"/>manam aestimationem, secundum quam venale
+          <lb ed="#P" n="51"/>sit, et commutabile pro alio temporali bono;
+          <lb ed="#P" n="52"/>nam totum illud commodum primogeniturae,
+          <lb ed="#P" n="53"/>licet in naturali prioritate nativitatis 
+          funda<lb break="no" ed="#P" n="54"/>tum sit, transferri potest in alium, quia non
+          <lb ed="#P" n="55"/>est necessario conjunctum cum naturali illa
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>prioritate. Ttem est pretio aestimabile, quia
+          <lb ed="#P" n="57"/>simpliciter est temporale bonum; ergo est
+          <lb ed="#P" n="58"/>vendibile sine injustitia, vel alia intrinseea
+          <lb ed="#P" n="59"/>iniquitate, ut late etiam ostendit Tiraquel.
+          <lb ed="#P" n="60"/>supra, q.28 et 29.
+        </p>
+        <p>
+          <lb ed="#P" n="61"/>9. Bene potest intelli à cenditio 
+          primogeni<lb break="no" ed="#P" n="62"/>ture Esau, quin venderetur jus spirituale. —
+          <lb ed="#P" n="63"/>Igitur, licet primogeniturae fuerit annexum
+          <lb ed="#P" n="64"/>sacerdotium , poterat vendi sine simonia,
+          <lb ed="#P" n="65"/>stando in jure naturali, ratione materialis per
+          <lb ed="#P" n="66"/>se spectati, non habendo rationem ad 
+          spiri<lb break="no" ed="#P" n="67"/>tuale, in computatione vel aestimatione pretii.
+          <lb ed="#P" n="68"/>Quod facillime intelligetur in venditione Esau,
+          <lb ed="#P" n="69"/>nam pretium fuit tam vile, ut nec ad 
+          mate<lb break="no" ed="#P" n="70"/>riale solvendum per se sufficeret, ut statim 
+          at<lb break="no" ed="#P" n="71"/>tingam. Prior illatio infra est generaliter 
+          trac<lb break="no" ed="#P" n="72"/>tanda ; nunc breviter patet, tum ratione, quia
+          <lb ed="#P" n="73"/>materiale non amittit valorem suae 
+          commodi<lb break="no" ed="#P" n="74"/>tatis et utilitatis temporalis propter spirituale
+          <lb ed="#P" n="75"/>adjunctum ; tum exemplis, quia hoc modo
+          <lb ed="#P" n="76"/>sine simonia venditur calix ratione materiae ,
+          <lb ed="#P" n="77"/>et venditur villa , seu fundus cui adhaeret jus
+          <lb ed="#P" n="78"/>patronatus, et non propterea venditur ipsum
+          <lb ed="#P" n="79"/>jus patronatus, licet cum fundo transferatur,
+          <lb ed="#P" n="80"/>nec per se vendi possit. Ita ergo recte 
+          intelli<lb break="no" ed="#P" n="81"/>gitur venditio primogeniturae sine venditione
+          <lb ed="#P" n="82"/>juris spiritualis. Et hoc exemplo illam 
+          decla<lb break="no" ed="#P" n="83"/>rat Lippoman., Genes. 25, et consequenter 
+          il<lb break="no" ed="#P" n="84"/>lam a labe simoniae excusat. Idemque habent
+          <lb ed="#P" n="85"/>Archid., Hug. et Laur., in dicto c. Quam 
+          peri<lb break="no" ed="#P" n="86"/>culosum, et certe Glossa idem sentit (quicquid
+          <lb ed="#P" n="87"/>ibi dieat Turrec. art. 5); nam, licet referat
+          <lb ed="#P" n="88"/>Gandulfum dicentem , Esau fuisse 
+          simonia<lb break="no" ed="#P" n="89"/>cum , ipsa subdit : Sed est contra eum caput -
+          <lb ed="#P" n="90"/>Qui studet, 1, quaestion. 1, ubi Giezi dicitur
+          <lb ed="#P" n="91"/>fuisse primus simoniacus. Ad quod non 
+          res<lb break="no" ed="#P" n="92"/>pondet, sed transit; unde videtur objectioni
+          <lb ed="#P" n="93"/>succumbere, et a Gandulfo recedere.
+        </p>
+        <p>
+          <lb ed="#P" n="94"/>10. Nec cap. Qui studet contemnendum est;
+          <lb ed="#P" n="95"/>nam, licet Turrecr. respondeat Giezi fuisse
+          <lb ed="#P" n="96"/>primum simoniacum in veteri lege, sed in
+          <lb ed="#P" n="97"/>naturali Esau fuisse primum, Nazianzenus 
+          ta<lb break="no" ed="#P" n="98"/>men, in dicto capitul., non agit de veteri lege
+          <lb ed="#P" n="99"/>tantum, sed de toto veteri Testamento. Re 
+          ta<lb break="no" ed="#P" n="100"/>men vera non dicit Giezi fuisse primum ; sed
+          <lb ed="#P" n="101"/>solum , probando malitiam simoniae ex 
+          utro<lb break="no" ed="#P" n="102"/>que Testamento, adducit exemplum Giezi et
+          <lb ed="#P" n="103"/>Simonis ; et ita ex illo textu ad summum 
+          col<lb break="no" ed="#P" n="104"/>ligi potest argumentum negativum. Quod 
+          au<lb break="no" ed="#P" n="105"/>tem dicti canonistae negant, Esau vendidisse
+          <lb ed="#P" n="106"/>jus spirituale, non ideo est quia negent fuisse
+          <lb ed="#P" n="107"/>conjunctum cum primogenitura (ut Turrecr.
+          <lb ed="#P" n="108"/>eis imponere videtur); contrarium enim ex illis
+          <lb ed="#P" n="109"/>constat , et ex aliis multis, quos supra 
+          Tira<lb break="no" ed="#P" n="110"/>quell. refert; sed negant annexionem illius |
+          <pb ed="#P" n="651"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>juris cum primogenitura, sufficere ut vendita
+          <lb ed="#P" n="2"/>primogenitura censeatur venditum spirituale
+          <lb ed="#P" n="3"/>jus. ad quod Turrecr. non respondet , neque
+          <lb ed="#P" n="4"/>ad rationem factam. Et sic videtur dixisse
+          <lb ed="#P" n="5"/>Chrysostomus supra, Esau vendidisse 
+          dignita<lb break="no" ed="#P" n="6"/>tem, quam a natura habebat. At sacerdotium
+          <lb ed="#P" n="7"/>non erat a natura, neque illius meminit 
+          Chry<lb break="no" ed="#P" n="8"/>sostomus, non quia non esset, sed quia in 
+          ven<lb break="no" ed="#P" n="9"/>ditionem non venit.
+        </p>
+        <p>
+          <lb ed="#P" n="10"/>11. Probabilius est in facto Esau non fuisse
+          <lb ed="#P" n="11"/>simoniam.—Juxta hunc ergo dicendi modum,
+          <lb ed="#P" n="12"/>probabilius quidem videtur in illo facto, 
+          se<lb break="no" ed="#P" n="13"/>cundum se spectato, et in illo tempore, quando
+          <lb ed="#P" n="14"/>jure tantum naturali regulandum est, et non
+          <lb ed="#P" n="15"/>positivo , per se et intrinsece in tah facto non
+          <lb ed="#P" n="16"/>fuisse simoniam. Atque hoc modo facillime
+          <lb ed="#P" n="17"/>defenditur, quomodo Jacob non peccaverit 
+          pe<lb break="no" ed="#P" n="18"/>tendo a fratre, ut primogenituram venderet,
+          <lb ed="#P" n="19"/>quod alias, ut Cajetanus dixit, Genes. 25, 
+          dif<lb break="no" ed="#P" n="20"/>ficle esset, si venditio illa intrinseve 
+          simo<lb break="no" ed="#P" n="21"/>niaca fuisset. Quia nunquam licet petere ab
+          <lb ed="#P" n="22"/>alio quod ipse sine peccato praestare non 
+          po<lb break="no" ed="#P" n="23"/>test, nec talis petitio potest honestari quando
+          <lb ed="#P" n="24"/>is, a quo petitur venditio, moraliter non 
+          po<lb break="no" ed="#P" n="25"/>test excusare simoniam, si faciat quod 
+          postu<lb break="no" ed="#P" n="26"/>latur. Respondet tamen Cajetanus, in 2. 2,
+          <lb ed="#P" n="27"/>quaest. 100, art. 4, licet verba Jacob sonarent
+          <lb ed="#P" n="28"/>venditionem , tamen sensum non fuisse 
+          pe<lb break="no" ed="#P" n="29"/>tendi veram venditionem , sed traditionem
+          <lb ed="#P" n="30"/>rei, quae sua erat, offerendo aliquid ad 
+          indu<lb break="no" ed="#P" n="31"/>cendam voluntatem Esau, quia aliter ab illo
+          <lb ed="#P" n="32"/>recuperare non poterat ; quam doctrinam ait
+          <lb ed="#P" n="33"/>Cajetanus extendi ad omnem redemptionem
+          <lb ed="#P" n="34"/>vexationis in hac materia. Sed de hoc 
+          videbi<lb break="no" ed="#P" n="35"/>mus postea : nunc solum assero mihi non 
+          sa<lb break="no" ed="#P" n="36"/>tisfacere pro praesenti casu. Quia Esau pro tunc
+          <lb ed="#P" n="37"/>non inferebat injuste vexationem, nam 
+          habe<lb break="no" ed="#P" n="38"/>bat naturalem titulum, et possessionem 
+          pri<lb break="no" ed="#P" n="39"/>mogeniturae, cum consensu et voluntate 
+          pa<lb break="no" ed="#P" n="40"/>tris; unde illi non constabat illam pertinere
+          <lb ed="#P" n="41"/>ad Jacob, et se fuisse obligatum ex justitia ad
+          <lb ed="#P" n="42"/>transferendam, et quasi restituendam illam.
+          <lb ed="#P" n="43"/>Ex ideo in tali occasione , et cum talibus 
+          cir<lb break="no" ed="#P" n="44"/>cumstantiis, Jacob petebat ab Esau rem quam
+          <lb ed="#P" n="45"/>sine peccato facere non poterat, quia per 
+          mo<lb break="no" ed="#P" n="46"/>dum restitutionis, seu cessionis debitae 
+          primo<lb break="no" ed="#P" n="47"/>genituram relinquere non poterat ; ergo 
+          coge<lb break="no" ed="#P" n="48"/>batur illam formaliter ac proprissime 
+          ven<lb break="no" ed="#P" n="49"/>dere ; ergo inducebatur ad malum , quod 
+          vi<lb break="no" ed="#P" n="50"/>tare non poterat.
+        </p>
+        <p>
+          <lb ed="#P" n="51"/>12. Sed ait Cajetanus, quod, licet Esau 
+          sci<lb break="no" ed="#P" n="52"/>visset divinam ordinationem, non cessisset,
+          <lb ed="#P" n="53"/>sed in sua detentione perseverasset. At hoc
+          <lb ed="#P" n="54"/>divinare est, et parum refert, quia illa 
+          con<lb break="no" ed="#P" n="55"/>ditionalis de futuro nihil ponit nunc in esse,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nec reddit hic et nunc culpabilem Esau in non
+          <lb ed="#P" n="57"/>restituendo; ergo nec reddit inculpabilem 
+          Ja<lb break="no" ed="#P" n="58"/>cob in petenda venditione, non prius 
+          instruen<lb break="no" ed="#P" n="59"/>do fratrem de jure suo. Ut si nunc aliquis 
+          bo<lb break="no" ed="#P" n="60"/>na fide haberet meum beneficium, non 
+          lice<lb break="no" ed="#P" n="61"/>ret statim offerre illi pretium ut restituat, sed
+          <lb ed="#P" n="62"/>oporteret prius illi ostendere quomodo 
+          bene<lb break="no" ed="#P" n="63"/>ficium non sit suum, sed petentis. Eo vel 
+          ma<lb break="no" ed="#P" n="64"/>xime quod non constat Jacob eo tempore 
+          ha<lb break="no" ed="#P" n="65"/>buisse jam jus in re, sed ad rem; nam Deus
+          <lb ed="#P" n="66"/>tantum dixerat: Major serviet minori, quae
+          <lb ed="#P" n="67"/>erat promissio de futuro, quae non dabat jus
+          <lb ed="#P" n="68"/>in re, donec translatio majoratus cum 
+          effec<lb break="no" ed="#P" n="69"/>tu fieret; redemptio autem vexationis non
+          <lb ed="#P" n="70"/>habet locum, donec sit jus in re acquisitum,
+          <lb ed="#P" n="71"/>imo fortasse nec ante possessionem adeptam,
+          <lb ed="#P" n="72"/>de quo postea. At vero si illa venditio non erat
+          <lb ed="#P" n="73"/>simoniaca intrinsece, cessat facile omnis 
+          dif<lb break="no" ed="#P" n="74"/>ficultas, sive Jacob praeviderit non fuisse 
+          facien<lb break="no" ed="#P" n="75"/>dam ab Esau sine gravi peccato, sive non;
+          <lb ed="#P" n="76"/>nam satis erat quod fieri posset moraliter sine
+          <lb ed="#P" n="77"/>peccato ; nam Jacob utebatur jure suo, et
+          <lb ed="#P" n="78"/>malitia alterius erat per accidens. Sicut etiam
+          <lb ed="#P" n="79"/>facile excusatur Jacob vel ab injustitia, quod
+          <lb ed="#P" n="80"/>tam vili pretio rem tantam emere voluerit,
+          <lb ed="#P" n="81"/>vel a crudelitate, non subveniendo gratis 
+          fra<lb break="no" ed="#P" n="82"/>tri in tanta necessitate constituto; nam ille
+          <lb ed="#P" n="83"/>utebatur jure suo, et rem sibi debitam 
+          postu<lb break="no" ed="#P" n="84"/>labat; et ut sine injustitia illam peteret pro
+          <lb ed="#P" n="85"/>vili pretio, satis erat quod sibi de jure suo
+          <lb ed="#P" n="86"/>constaret, etiamsi alius ignoraret. Et eadem
+          <lb ed="#P" n="87"/>ratione non tenebatur dare gratis pulmentum,
+          <lb ed="#P" n="88"/>maxime quia Esau non erat in vera 
+          necessita<lb break="no" ed="#P" n="89"/>te, sed in intemperantissima cupiditate.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>13. Quo pacto peccaverit Esau. —Quod vero
+          <lb ed="#P" n="91"/>spectat ad peccatum Esau, mihi curae non est
+          <lb ed="#P" n="92"/>de illo excusando ; potuit enim ex prava 
+          in<lb break="no" ed="#P" n="93"/>tentione esse simoniacus, volens vendere etiam
+          <lb ed="#P" n="94"/>ipsum spirituale jus, et hoc satis est ut 
+          intelli<lb break="no" ed="#P" n="95"/>gatur, etiam in illo tempore potuisse aliquam
+          <lb ed="#P" n="96"/>simoniam committi. Contendo tamen pactum
+          <lb ed="#P" n="97"/>illud, bona intentione factum, potuisse esse
+          <lb ed="#P" n="98"/>non simoniacum, et ideo potuisse a Jacob 
+          sim<lb break="no" ed="#P" n="99"/>pliciter peti. Et quod ad generale jus pertinet,
+          <lb ed="#P" n="100"/>contendo venditionem temporalis rei non fieri
+          <lb ed="#P" n="101"/>simoniacam jure naturae, eo quod sit 
+          antece<lb break="no" ed="#P" n="102"/>denter annexa ad jus aliquod spirituale, si
+          <lb ed="#P" n="103"/>pretium est commensuratum rei temporali, et
+          <lb ed="#P" n="104"/>pro illa tantum detur. Addo etiam nihil esse
+          <lb ed="#P" n="105"/>quod in rigore cogat dicere, Esau commisisse
+          <lb ed="#P" n="106"/>propriam simoniam. Peccavit quidem per 
+          ex<lb break="no" ed="#P" n="107"/>cessum gulae, ut omnes Sancti tradunt, et 
+          ma<lb break="no" ed="#P" n="108"/>xime Gregorius, 3 Moral., cap. 27, et 
+          Augus<lb break="no" ed="#P" n="109"/>tinus, 16 de Civit., cap. 37, ubi ait excessisse
+          <lb ed="#P" n="110"/>per immoderantiam cupiditatis ; et in dicto
+          <pb ed="#P" n="652"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Psalm. 46, ait per gulam perdidisse 
+          primoge<lb break="no" ed="#P" n="2"/>nita. Idem Chrysostomus, homil. 31 in ad
+          <lb ed="#P" n="3"/>Hebr., et ibi Theoph., et D. Thom. ibi etiam
+          <lb ed="#P" n="4"/>exponit, profanwm, id est. gulosum, non tam
+          <lb ed="#P" n="5"/>proprietatem vocis, quam causam venditionis
+          <lb ed="#P" n="6"/>considerans. Praeterea peccavit Esau ut 
+          pro<lb break="no" ed="#P" n="7"/>digus et vilis, prore vilissima, nobilissimum
+          <lb ed="#P" n="8"/>naturae donum et valde honorificum, victus
+          <lb ed="#P" n="9"/>cupiditate, commutans, ut recte notavit 
+          Lip<lb break="no" ed="#P" n="10"/>pom., adducens alios in Caten. Genes.
+        </p>
+        <p>
+          <lb ed="#P" n="11"/>14. Cur Esau profanus appelletur. — 
+          Opi<lb break="no" ed="#P" n="12"/>niones he quomodo possint concordari. — 
+          Tan<lb break="no" ed="#P" n="13"/>dem propter proprietatem vocis profanus, qua
+          <lb ed="#P" n="14"/>utitur Paulus, fatemur peccasse etiam Esau
+          <lb ed="#P" n="15"/>tanquam profanum, carentem religionis 
+          spiri<lb break="no" ed="#P" n="16"/>tu et affectu, et contemnentem jus 
+          primoge<lb break="no" ed="#P" n="17"/>niturae. Itaque licet illud non vendidisset,
+          <lb ed="#P" n="18"/>prout spirituale erat, sicut explicuimus, 
+          con<lb break="no" ed="#P" n="19"/>tempsit tamen, et pro nihilo habuit, et ideo
+          <lb ed="#P" n="20"/>profanus fuit. Quamvis enim jus illud tantum
+          <lb ed="#P" n="21"/>esset anhexum primogeniturae, tamen ratione
+          <lb ed="#P" n="22"/>tantae dignitatis (licet non debuerit aestimari
+          <lb ed="#P" n="23"/>ut res digna temporali pretio), debuit haberi
+          <lb ed="#P" n="24"/>in majori aestimatione spirituali, et 
+          consequen<lb break="no" ed="#P" n="25"/>ter non ita contemni ; merito ergo profanus 
+          di<lb break="no" ed="#P" n="26"/>citur, qui ita illud comtempsit. Quod enim 
+          il<lb break="no" ed="#P" n="27"/>lam contempserit, ex verbis Genes. 
+          apertecol<lb break="no" ed="#P" n="28"/>ligitur, dum ita concluditur: Abiit, parvi 
+          pen<lb break="no" ed="#P" n="29"/>dens quod primogenita vendidisset, ubi Lippom.,
+          <lb ed="#P" n="30"/>id est, vilipendit primogenituram, juxta 
+          se<lb break="no" ed="#P" n="31"/>ptuaginta et Chaldaicum , et in hoc ait 
+          ezag<lb break="no" ed="#P" n="32"/>gerar peccatum Esuu, quod primogenita nihil
+          <lb ed="#P" n="33"/>faciebat. Et Theophyl.: Hoec, inquit, est 
+          pro<lb break="no" ed="#P" n="34"/>fanatio contemptus divinarum rerum. Et de
+          <lb ed="#P" n="35"/>Esau ait: Est helluo, vorag, mundanus, 
+          spiri<lb break="no" ed="#P" n="36"/>tualia profanans et conculcans. Et hoc modo
+          <lb ed="#P" n="37"/>tacite interpretatur verbum cendens , quo
+          <lb ed="#P" n="38"/>Chrysostomus usus fuerat ; et ita etiam recte
+          <lb ed="#P" n="39"/>inteliigitur quod Augustinus dixit, plus 
+          amas<lb break="no" ed="#P" n="40"/>se corporalem cibum, quam spiritualia. Ex
+          <lb ed="#P" n="41"/>his denique etiam praesumi potest , omnia,
+          <lb ed="#P" n="42"/>qua cum primogenitura conjuncta erant,
+          <lb ed="#P" n="43"/>vendere voluisse, nec inter spiritualia et 
+          tem<lb break="no" ed="#P" n="44"/>poralia, seu naturalia differentiam fecisse,
+          <lb ed="#P" n="45"/>quod est propriissime fuisse profanum. Et ita
+          <lb ed="#P" n="46"/>facile possunt concordari opiniones, quantum
+          <lb ed="#P" n="47"/>attinet ad personale factum, dummodo pro
+          <lb ed="#P" n="48"/>regula non sumatur, omnem venditionem 
+          si<lb break="no" ed="#P" n="49"/>milis materiae necessario esse simoniacam ex
+          <lb ed="#P" n="50"/>vi naturalis juris.
+        </p>
+        <p>
+          <lb ed="#P" n="51"/>15. An possit dari simonia in homine creato
+          <lb ed="#P" n="52"/>in puris naturalibus. — Ex his ergo satis 
+          con<lb break="no" ed="#P" n="53"/>stat.inlege naturae potuisse simoniam 
+          commit<lb break="no" ed="#P" n="54"/>ti, quando res spirituales directe et secundum
+          <lb ed="#P" n="55"/>se vendebantur, vel pro temporalibus commu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tabantur. Hinc vero ulterius supererat 
+          dicen<lb break="no" ed="#P" n="57"/>dum de lege naturali pura, id est, vel qualis
+          <lb ed="#P" n="58"/>esset in homine creato in puris naturalibus,
+          <lb ed="#P" n="59"/>vel qualis nunc intelligi potest in republica 
+          hu<lb break="no" ed="#P" n="60"/>mana invincibiliter ignorante totum ordinem
+          <lb ed="#P" n="61"/>gratiae, et colente aliquo modo Deum. Sed haec
+          <lb ed="#P" n="62"/>quaestio pendet ex majori declaratione objecti
+          <lb ed="#P" n="63"/>seu materiae circa quam versatur simonia;
+          <lb ed="#P" n="64"/>nam hypothetice, seu sub conditione dicere
+          <lb ed="#P" n="65"/>possumus, quod si in illo statu inveniri 
+          po<lb break="no" ed="#P" n="66"/>terat materia simoniae mere naturalis, ut sic
+          <lb ed="#P" n="67"/>dicam, etiam vitium inveniri posset aliquo
+          <lb ed="#P" n="68"/>modo, quia naturalis ratio haberet suam vim
+          <lb ed="#P" n="69"/>prohibendi negotiationem rerum sacrarum.
+          <lb ed="#P" n="70"/>Si autem e converso verum est, ut multi 
+          vo<lb break="no" ed="#P" n="71"/>Iunt, in illo statu non inveniri maieriam 
+          si<lb break="no" ed="#P" n="72"/>monisae, etiam est clarum, neque tale vitium
+          <lb ed="#P" n="73"/>potuisse in illo statu locum habere. Quid
+          <lb ed="#P" n="74"/>autem de tali materia sentiendum sit, melius
+          <lb ed="#P" n="75"/>in capite octavo definiemus.
+        </p>
+        <p>
+          <lb ed="#P" n="76"/>16. Solvuntur rationes quee afferebantur in
+          <lb ed="#P" n="77"/>contrarium.— Denique ex dictis solutae fere
+          <lb ed="#P" n="78"/>sunt rationes dubitandi in principio posita.
+          <lb ed="#P" n="79"/>Negamus enim in lege naturali, prout fuit in
+          <lb ed="#P" n="80"/>hominibus fidelibus inventa, non esse 
+          super<lb break="no" ed="#P" n="81"/>naturalia dona, quae possent esse materia 
+          si<lb break="no" ed="#P" n="82"/>moniae; nam (ut dixi) tunc etiam erant 
+          su<lb break="no" ed="#P" n="83"/>pernaturalia dona gratiae, et ministeria, de
+          <lb ed="#P" n="84"/>quibus dubitari non potest quin sint sufficiens
+          <lb ed="#P" n="85"/>materia simoniae. Ad exempla autem de 
+          Abra<lb break="no" ed="#P" n="86"/>ham et Jacob, satis jam responsum est. 
+          Jo<lb break="no" ed="#P" n="87"/>seph autem sine causa adducitur in exemplum,
+          <lb ed="#P" n="88"/>nam quando petiit misericordiam a pincerna
+          <lb ed="#P" n="89"/>Pharaonis, nullum contractum cum illo fecit,
+          <lb ed="#P" n="90"/>nec aliquid per modum debiti exegit, sed 
+          gra<lb break="no" ed="#P" n="91"/>tis omnino somnium interpretatus est ; deinde
+          <lb ed="#P" n="92"/>vero pium opus ab ipso misericorditer et 
+          be<lb break="no" ed="#P" n="93"/>nevole efflagitavit. Et ita notat ibi Abulens.
+          <lb ed="#P" n="94"/>nihil pro interpretatione postulasse Joseph,
+          <lb ed="#P" n="95"/>sed solum quasi eleemosy nam postulasse, sicut
+          <lb ed="#P" n="96"/>illam postulare posset, etiamsi nullum 
+          bene<lb break="no" ed="#P" n="97"/>ficium alteri contulisset. Ille ergo (ait Abul.)
+          <lb ed="#P" n="98"/>non exigebat debitum, quamvis pincerna 
+          tene<lb break="no" ed="#P" n="99"/>retur ex gratitudine beneficium beneficio 
+          com<lb break="no" ed="#P" n="100"/>pensare. Augustinus vero, serm. 80 de 
+          Tem<lb break="no" ed="#P" n="101"/>pore, indicat nonnihil defecisse Joseph a 
+          fir<lb break="no" ed="#P" n="102"/>ma in Deum spe, petendo auxilium ab homine
+          <lb ed="#P" n="103"/>impio, in quo illum a culpa veniali non 
+          excu<lb break="no" ed="#P" n="104"/>sat; de vestigio autem simoniae illum non
+          <lb ed="#P" n="105"/>accusat, quod nobis satis est. Credo tamen
+          <lb ed="#P" n="106"/>nec per diffidentiam venialiter peccasse, quia
+          <lb ed="#P" n="107"/>non est contra debitam et pertectam fiduciam
+          <lb ed="#P" n="108"/>in Deum, uti mediis humanis moraliter 
+          occur<lb break="no" ed="#P" n="109"/>rentibus, et accommodatis ad propriam 
+          mise<lb break="no" ed="#P" n="110"/>riam sublevandam, seu ad vim et injuriam
+          <pb ed="#P" n="653"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>propulsandam ; hoc autem in eo facto egit
+          <lb ed="#P" n="2"/>Joseph. In alio vero loco, evidentius est Joseph
+          <lb ed="#P" n="3"/>nihil temporale postulasse, sed regem ipsum
+          <lb ed="#P" n="4"/>Pharaonem propria sponte dixisse : Jum 
+          in<lb break="no" ed="#P" n="5"/>venire poterimus talem virum, eic., et elegisse
+          <lb ed="#P" n="6"/>illum ad illud munus, non propter acceptam
+          <lb ed="#P" n="7"/>gratiam, sed propter hominis virtutem et 
+          sa<lb break="no" ed="#P" n="8"/>pientiam. Merito ergo potuit Joseph 
+          dignita<lb break="no" ed="#P" n="9"/>tem acceptare, imo et debuit, quia non 
+          igno<lb break="no" ed="#P" n="10"/>rabat illam fuisse Dei voluntatem. Ad ultimam
+          <lb ed="#P" n="11"/>confirmationem de homine in puris 
+          naturali<lb break="no" ed="#P" n="12"/>bus, jam responsum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

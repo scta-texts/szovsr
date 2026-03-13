@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 24</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 24</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="182"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k04521"><!-- t2-l1c24 -->
+        <head>Caput 24</head>
+        <head type="question-title">An in ecclesia baptismali decimae solvendae sint.</head>
+        <p>
+          <lb ed="#P" n="24"/>CAPUT XXIV.
+          <lb ed="#P" n="25"/>AN IN ECCLESIA BAPTISMALI DECIMJE SOLVENDUE
+          <lb ed="#P" n="26"/>SINT.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>1. Dicendum superest de decimis solvendis
+          <lb ed="#P" n="28"/>in ecclesia baptismali, matrice vel cathedrali,
+          <lb ed="#P" n="29"/>quando haec a parochiali distinguitur, vel
+          <lb ed="#P" n="30"/>quando intra terminos sui territorii habet 
+          pa<lb break="no" ed="#P" n="31"/>rochiales ecclesias aedificatas, ad quas proxime
+          <lb ed="#P" n="32"/>spectat cura aliquorum parochianorum. Et ut
+          <lb ed="#P" n="33"/>intelligatur dubium, adverteudum est, 
+          regu<lb break="no" ed="#P" n="34"/>lariter ac ordinarie eamdem ecclesiam solere
+          <lb ed="#P" n="35"/>esse baptismalem et parochialem; baptismalis
+          <lb ed="#P" n="36"/>enim dicitur, in qua solent et debent fideles
+          <lb ed="#P" n="37"/>filios suos baptizare; et quia in eadem ecclesia
+          <lb ed="#P" n="38"/>solent ctiam sacramenta recipere, ac 
+          partici<lb break="no" ed="#P" n="39"/>pare divina, ideo talis ecclesia etiam est 
+          paro<lb break="no" ed="#P" n="40"/>chialis. Contingit autem aliquando ut sub 
+          ec<lb break="no" ed="#P" n="41"/>clesia baptismali sint erectae parochiales 
+          eccle<lb break="no" ed="#P" n="42"/>siae, quae baptismales non sint, sed pure 
+          pa<lb break="no" ed="#P" n="43"/>rochiales, quia nimirum fideles jam baptizati
+          <lb ed="#P" n="44"/>in eis recipere debent alia sacramenta, ibi 
+          ta<lb break="no" ed="#P" n="45"/>men non baptizantur, sed in alia, in qua fons
+          <lb ed="#P" n="46"/>baptismi relictus est pro aliis parochiis, quasi
+          <lb ed="#P" n="47"/>inferioribus; illa vero tunc speciali modo 
+          bap<lb break="no" ed="#P" n="48"/>tismalis dicitur. Non quia nullam omnino 
+          pa<lb break="no" ed="#P" n="49"/>rochiam habeat, aliquam enim semper 
+          reti<lb break="no" ed="#P" n="50"/>net, respectu cujus parochialis etiam est ; nam
+          <lb ed="#P" n="51"/>si solum sit erecta ad juvandas parochiales in
+          <lb ed="#P" n="52"/>ministratione baptismatis propter periculum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>puerorum, tunc solum reputatur ut capella
+          <lb ed="#P" n="54"/>quaedam parochialis ecclesiae, unde in 
+          prae<lb break="no" ed="#P" n="55"/>sentem considerationem non venit, quicquid
+          <lb ed="#P" n="56"/>Rebuffus sentiat in dicta quaestione 6, a 
+          nu<lb break="no" ed="#P" n="57"/>mer. 19.
+        </p>
+        <p>
+          <lb ed="#P" n="58"/>9. Quae sit ecclesia baptismalis. — 
+          Baptis<lb break="no" ed="#P" n="59"/>malis ergo proprie est, quae licet propriam
+          <lb ed="#P" n="60"/>habeat parochiam, habet etiam alias, quae 
+          il<lb break="no" ed="#P" n="61"/>lam aliquo modo recognoscunt in hoc, quod
+          <lb ed="#P" n="62"/>ad professionem solemnem fidei, per 
+          sus<lb break="no" ed="#P" n="63"/>ceptionem baptismi faciendam, subditos suos
+          <lb ed="#P" n="64"/>ad illam deferre tenentur, unde talis 
+          eccle<lb break="no" ed="#P" n="65"/>sia respectu aliarum solet matrix appellari,
+          <lb ed="#P" n="66"/>juxta modum loquendi juris in capitul. Ad 
+          au<lb break="no" ed="#P" n="67"/>d'entiam, 1, de Ecclesiis aedific., et capitul.
+          <lb ed="#P" n="68"/>Ez transmissa, de Praesc., et cap. Preeterea,
+          <lb ed="#P" n="69"/>2 de Transaction., et Clement. 1, de Sent. 
+          ex<lb break="no" ed="#P" n="70"/>commun., ubi id notat Glossa, verb. Matria,
+          <lb ed="#P" n="71"/>dicens, baptismalem ecclesiam matricem 
+          vo<lb break="no" ed="#P" n="72"/>cari, quia sicut mater generat, sic et illa 
+          re<lb break="no" ed="#P" n="73"/>generat per baptismum. Sed juxta hanc 
+          ra<lb break="no" ed="#P" n="74"/>tionem omnis baptismalis ecclesia esset 
+          ma<lb break="no" ed="#P" n="75"/>trix ; non tamen ita appellatur, nisi quando
+          <lb ed="#P" n="76"/>habet alias ecclesias sibi aliquo modo 
+          subjec<lb break="no" ed="#P" n="77"/>tas, ut sentit Panormit., capitul. Fa parte,
+          <lb ed="#P" n="78"/>de Rescript., num. 1, et notat Rebuftus, tract.
+          <lb ed="#P" n="79"/>de Decimis, quaest. 6, num. 6 et 7. Qui etiam
+          <lb ed="#P" n="80"/>advertunt ecclesiam matricem simpliciter 
+          dic<lb break="no" ed="#P" n="81"/>tam, Cathedralem significare, nisi qualitas
+          <lb ed="#P" n="82"/>materiae aliud necessario postulet, juxta cap.
+          <lb ed="#P" n="83"/>Venerabili, de Verb. significat.
+        </p>
+        <p>
+          <lb ed="#P" n="84"/>3. latio dubitandi proponitur .—Probabilior
+          <lb ed="#P" n="85"/>sententia. — Hinc ergo nascitur dubium, quia
+          <lb ed="#P" n="86"/>jura interdum dicunt decimas solvendas esse
+          <lb ed="#P" n="87"/>ecclesiae parochiali, cap. Quoniam, cap. Ad
+          <lb ed="#P" n="88"/>apotolice, cap. Cum contingat, de Decimis;
+          <lb ed="#P" n="89"/>aliquando vero dicunt solvendas esse ecclesiae
+          <lb ed="#P" n="90"/>bapt:smali, c. 1, S 7n dieces., 13, quaest. 1, et
+          <lb ed="#P" n="91"/>cap. De decimis, cap. Statuimus, cap. In 
+          sa<lb break="no" ed="#P" n="92"/>cris, 16, quaest. 1, et in Concilio Lateranensi,
+          <lb ed="#P" n="93"/>sub Alexandro IIT, p. 4, c. 3, ubi integre 
+          ha<lb break="no" ed="#P" n="94"/>betur cap. Nuncios, de Decimis, et dicitur:
+          <lb ed="#P" n="95"/>Omnes de Paroclüia tua moneas, ut decimas
+          <lb ed="#P" n="96"/>matricibus ecclesis persolvant, ubi parochia
+          <lb ed="#P" n="97"/>dioecesim plane significat ; per matrices autem
+          <lb ed="#P" n="98"/>ecclesias, videntur intelligi baptismales. 
+          Quan<lb break="no" ed="#P" n="99"/>do ergo eadem ecclesia parochialis est et 
+          ba<lb break="no" ed="#P" n="100"/>ptismalis respectu ejusdem personae, seu 
+          fami<lb break="no" ed="#P" n="101"/>liae, tunc plane procedunt omnia supra dicta,
+          <lb ed="#P" n="102"/>et de illis ecclesiis loquuntur expresse cap.
+          <lb ed="#P" n="103"/>Questi, et cap. In sacris, 16, quaest. 1. Quando
+          <lb ed="#P" n="104"/>vero una est baptismalis, alia parochialis, 
+          du<lb break="no" ed="#P" n="105"/>bium est quomodo sint applicanda et 
+          intelli<lb break="no" ed="#P" n="106"/>genda omnia quae diximus. Potestque hoc tam
+          <lb ed="#P" n="107"/>de personalibus, quam de praedialibus inter-
+          <pb ed="#P" n="183"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rogari. Primo ergo de personalibus 
+          probabi<lb break="no" ed="#P" n="2"/>lior sententia videtur, pertinere ad 
+          parochia<lb break="no" ed="#P" n="3"/>lem, etiamsi baptismalis non sit. Ita tenet
+          <lb ed="#P" n="4"/>lossa in dicto cap. de Decimis, verb. 
+          Baptis<lb break="no" ed="#P" n="5"/>malem ; Abb., in cap. Cum contingat , de 
+          De<lb break="no" ed="#P" n="6"/>cim., num. 6; Joann. Andr., et Anchar., in
+          <lb ed="#P" n="7"/>dicto cap. Ad Apostolice ; hebuff., d. q. 6,
+          <lb ed="#P" n="8"/>n. 291. Et ratio est, quia regula juris est, ut hae
+          <lb ed="#P" n="9"/>decimae parochiali ecclesiae debeantur, ut 
+          su<lb break="no" ed="#P" n="10"/>pra visum est: at ecclesia parochialis , licet
+          <lb ed="#P" n="11"/>baptismum non tribuat, simpliciter 
+          parochia<lb break="no" ed="#P" n="12"/>lis est; ergo. Item si quis alibi baptizatus 
+          do<lb break="no" ed="#P" n="13"/>micilium mutet, absolute debet decimas 
+          per<lb break="no" ed="#P" n="14"/>sonales illi parochia, ubi fixit domicilium,
+          <lb ed="#P" n="15"/>juxta cap. ult. de Parocniis; ergo. Denique
+          <lb ed="#P" n="16"/>parochialis ecclesia est, quae permanenter 
+          mi<lb break="no" ed="#P" n="17"/>nistrat spiritualia; illi ergo debentur majora,
+          <lb ed="#P" n="18"/>et quasi continua stipendia; saltem ergo 
+          de<lb break="no" ed="#P" n="19"/>bentur decimae personales. Addit vero Abb.,
+          <lb ed="#P" n="20"/>dicto cap. Cum contingat, cum Cardin. , 
+          ibi<lb break="no" ed="#P" n="21"/>dem, verisimile esse, aliquam partem harum
+          <lb ed="#P" n="22"/>decimarum esse dandam ecclesiae baptismali,
+          <lb ed="#P" n="23"/>quia Sacramentum aliquod administrat, et
+          <lb ed="#P" n="24"/>quia solet esse ecclesia matrix, cui aliqua 
+          re<lb break="no" ed="#P" n="25"/>cognitio facienda est. Sed hoc licet servandum
+          <lb ed="#P" n="26"/>sit ubi consuetudine fuerit receptum, per se
+          <lb ed="#P" n="27"/>tamen non videtur necessarium; tum quia
+          <lb ed="#P" n="28"/>semper in ipso baptismo fit aliqua oblatio,
+          <lb ed="#P" n="29"/>quae in recognitionem et stipendium illius 
+          mi<lb break="no" ed="#P" n="30"/>nisterii sufficit; tum etiam quia quatenus 
+          ec<lb break="no" ed="#P" n="31"/>clesia baptismalis matrix est, solet inferior
+          <lb ed="#P" n="32"/>ecclesia aliis modis vel actionibus 
+          subjectio<lb break="no" ed="#P" n="33"/>nem illam recognoscere, juxta cap. Ad 
+          au<lb break="no" ed="#P" n="34"/>dientiam, 1, cum Glossa ibi, de Ecclesiis 
+          aedi<lb break="no" ed="#P" n="35"/>fic.
+        </p>
+        <p>
+          <lb ed="#P" n="36"/>4. Decime praediales ad parochialem 
+          spec<lb break="no" ed="#P" n="37"/>tant. — Objectio. — Secundo de praedialibus
+          <lb ed="#P" n="38"/>multa dicunt Panorm. et lebuff. supra; vera
+          <lb ed="#P" n="39"/>tamen resolutio esse videtur, ubi constiterit
+          <lb ed="#P" n="40"/>ecclesiam parochialem habere territorium 
+          pro<lb break="no" ed="#P" n="41"/>priis terminis clausum, ad illam pertinere 
+          de<lb break="no" ed="#P" n="42"/>cimas omnium praediorum, in illius territorio
+          <lb ed="#P" n="43"/>existentium, nisi aliunde constiterit, speciali
+          <lb ed="#P" n="44"/>aliquo jure pertinere ad ecclesiam 
+          baptisma<lb break="no" ed="#P" n="45"/>lem. Ita tenet Abbas, in dicto cap. Cum 
+          con<lb break="no" ed="#P" n="46"/>tingat , uum. 8; et Archid., 13, quaest 1, in
+          <lb ed="#P" n="47"/>principio, et ad hoc suadendum faciunt cum
+          <lb ed="#P" n="48"/>proportione rationes adductae in puncto 
+          prae<lb break="no" ed="#P" n="49"/>cedenti. Favent etiam jura adducta, quae 
+          cen<lb break="no" ed="#P" n="50"/>sert baec praedia esse adjudicata parochiali
+          <lb ed="#P" n="51"/>ecclesiae talis territorii; nam talis est illa 
+          ec<lb break="no" ed="#P" n="52"/>clesia, simpliciter loquendo, licet baptismum
+          <lb ed="#P" n="53"/>non administret. Unde alia jura, quae de 
+          ec<lb break="no" ed="#P" n="54"/>clesia baptismali loquuntur, vel baptismalem
+          <lb ed="#P" n="55"/>accipiunt pro parochiali, quia regulariter sunt
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>eadem, et illa partitio extraordinaria est et
+          <lb ed="#P" n="57"/>rara ; vel certe loquuntur, quia praedia sunt
+          <lb ed="#P" n="58"/>constituta intra parochiam ipsius ecclesiae 
+          ba<lb break="no" ed="#P" n="59"/>püsmalis. Dices : ordinario solet baptismalis
+          <lb ed="#P" n="60"/>ecclesia esse antiquior parochiali, et antea sub
+          <lb ed="#P" n="61"/>terminis suae parochiae comprehendisse totum
+          <lb ed="#P" n="62"/>territorium novae ecclesiae parochialis, ac 
+          sub<lb break="no" ed="#P" n="63"/>inde omnia praedia illius territorii reali debito
+          <lb ed="#P" n="64"/>fuisse obligata illi ecelesiae antiquiori pro 
+          de<lb break="no" ed="#P" n="65"/>cimis praedialibus; ergo licet praedia postea
+          <lb ed="#P" n="66"/>transierint ad novam parochiam, transierunt
+          <lb ed="#P" n="67"/>cum onere suo, ac subinde illorum decimae
+          <lb ed="#P" n="68"/>non vicinae ecclesiae parochiali, sed baptismali
+          <lb ed="#P" n="69"/>et matrici debentur. Maxime quia in cap. 
+          Fc<lb break="no" ed="#P" n="70"/>clesia, et cap. Quicumque, 16, quaest. 1, 
+          sta<lb break="no" ed="#P" n="71"/>tuitur ut ecclesiae antiquae non priventur suis
+          <lb ed="#P" n="72"/>decimis propter novarum aedificationem.
+        </p>
+        <p>
+          <lb ed="#P" n="73"/>5. Solvitur objectio. — Respondetur 
+          im<lb break="no" ed="#P" n="74"/>primis, argumentum posse converti, quando
+          <lb ed="#P" n="75"/>constiterit, parochialem ecclesiam esse 
+          anti<lb break="no" ed="#P" n="76"/>quiorem ; nam illi etiam favet jus parochiale,
+          <lb ed="#P" n="77"/>quod oritur ex continuo servitio, seu 
+          ministe<lb break="no" ed="#P" n="78"/>rio spirituali, et obligatione ad illud. Et ita in
+          <lb ed="#P" n="79"/>eo casu rem esse indubitatam, fatetur Rebuffus
+          <lb ed="#P" n="80"/>supra, num. 17. Deinde si fuerit dubium de
+          <lb ed="#P" n="81"/>antiquitate, pro parochiali praesumendum est,
+          <lb ed="#P" n="82"/>et ad baptismalem pertinebit probare suam
+          <lb ed="#P" n="83"/>antiquitatem et jus (quidquid Rebuffus supra
+          <lb ed="#P" n="84"/>contendat) ; quia jus commune magis favet
+          <lb ed="#P" n="85"/>parochiali, ut ostensum est, e propter rationem
+          <lb ed="#P" n="86"/>quam nunc subjungemus. Unde ulterius addo,
+          <lb ed="#P" n="87"/>etiamsi constet, ecclesiam baptismalem esse
+          <lb ed="#P" n="88"/>antiquiorem, et prius habuisse illa praedia in
+          <lb ed="#P" n="89"/>suo territorio, per novae ecclesiae 
+          aedificatio<lb break="no" ed="#P" n="90"/>nem juxta illos terminos, et legitimam 
+          erectio<lb break="no" ed="#P" n="91"/>nem illius in parochiam, cum assignatione 
+          ta<lb break="no" ed="#P" n="92"/>lis territorii, translata fuisse praedia, etiam
+          <lb ed="#P" n="93"/>cum jure decimarum, ad talem parochiam,
+          <lb ed="#P" n="94"/>non obstante praejudicio antiquioris ecclesiae.
+          <lb ed="#P" n="95"/>Quod sane satis aperte videtur probare 
+          tex<lb break="no" ed="#P" n="96"/>tus in dicto c. ÁAd audientiam, 1, de 
+          Eccle<lb break="no" ed="#P" n="97"/>siis aedific. Et ratio est, quia licet res soleat
+          <lb ed="#P" n="98"/>transire cum onere suo, tamen quando causa
+          <lb ed="#P" n="99"/>et fundamentum illius oneris cum ipsa re,
+          <lb ed="#P" n="100"/>publica auctoritate, et rationabili causa, in
+          <lb ed="#P" n="101"/>alium transfertur, etiam utilitas illius omnis
+          <lb ed="#P" n="102"/>debet in eumdem transferri, quia ratio 
+          justi<lb break="no" ed="#P" n="103"/>tiae et aequitatis hoc postulat : in praesenti 
+          au<lb break="no" ed="#P" n="104"/>tem, onus ministrandi sacramenta, quod 
+          ba<lb break="no" ed="#P" n="105"/>bebat antiqua ecclesia, transfertur in novam
+          <lb ed="#P" n="106"/>parochiam, et illud est praecipuum 
+          fundamen<lb break="no" ed="#P" n="107"/>tum decimarum ; ergo et praedia antiquae 
+          ec<lb break="no" ed="#P" n="108"/>clesiae translata censenda sunt in novam 
+          eccle<lb break="no" ed="#P" n="109"/>siam cum utilitate decimarum, ac subinde non
+          <lb ed="#P" n="110"/>cum onere tradendi decimas alteri ecclesiae,
+          <pb ed="#P" n="184"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sed cum jure percipiendi illas translata sunt.
+          <lb ed="#P" n="2"/>Alias prior ecclesia ahjecisset a se onus 
+          onero<lb break="no" ed="#P" n="3"/>sum (ut sic dicam), scilicet, ministrandi 
+          sacra<lb break="no" ed="#P" n="4"/>menta in territorio novae parochiae, et 
+          reti<lb break="no" ed="#P" n="5"/>nnisset jus et utilitatem ad onus reale ejusdem
+          <lb ed="#P" n="6"/>territorii, quod videtur contra aequitatem per
+          <lb ed="#P" n="7"/>se loquendo. Non est ergo id praesumendum,
+          <lb ed="#P" n="8"/>nisi aliqua certa ratione constet.
+        </p>
+        <p>
+          <lb ed="#P" n="9"/>6. Explicantur jura. — Quando ergo jura
+          <lb ed="#P" n="10"/>dicunt, antiquis ecclesiis non esse inferendum
+          <lb ed="#P" n="11"/>praejudicium quoad decimarum perceptionem
+          <lb ed="#P" n="12"/>per novae ecclesiae aedificationem, loquuntur
+          <lb ed="#P" n="13"/>imprimis, quando per novae ecclesiae 
+          aedifica<lb break="no" ed="#P" n="14"/>tionem non dividitur parochia. Et ita loquitur
+          <lb ed="#P" n="15"/>aperte dictum capit. Ecelesiee, de novis 
+          orato<lb break="no" ed="#P" n="16"/>riis, et capit. Quicumque, de ecclesia, quam
+          <lb ed="#P" n="17"/>aliquis in sua proprietate aedificare vult de 
+          con<lb break="no" ed="#P" n="18"/>sersu episcopi, quae non solet esse parochia,
+          <lb ed="#P" n="19"/>sed simplex quaedam capella. Secus vero est,
+          <lb ed="#P" n="20"/>quando aedificatio ecclesiae fit ad dividendam
+          <lb ed="#P" n="21"/>parochiam, juxta dictum cap. Ad audientiam,
+          <lb ed="#P" n="22"/>renovatum et auctum in cap. 4 Concilii 
+          Tri<lb break="no" ed="#P" n="23"/>dentini, sess. 21, ubi declarat, posse hoc facere
+          <lb ed="#P" n="24"/>episcopum, etiam invitis rectoribus matricis
+          <lb ed="#P" n="25"/>ecclesiae, seu baptismalis, juxta formam 
+          praedi<lb break="no" ed="#P" n="26"/>cti cap. Ad audientiam. Ad quam formam 
+          ma<lb break="no" ed="#P" n="27"/>xime spectat, ut id non fiat sine magna 
+          ne<lb break="no" ed="#P" n="28"/>cessitate parochianorum, ut quando alias non
+          <lb ed="#P" n="29"/>possunt accedere ad divina audienda sine 
+          ma<lb break="no" ed="#P" n="30"/>gno incommodo, ut ibidem dicitur, et notant
+          <lb ed="#P" n="31"/>Doctores in dicto cap. Ad audientiam. Ubi 
+          vi<lb break="no" ed="#P" n="32"/>deri potest Glossa, 2, et circa illam Abbas, qui
+          <lb ed="#P" n="33"/>bene hoc explicat. Denique oportet advertere
+          <lb ed="#P" n="34"/>semper praesumi, hanc translationem 
+          decima<lb break="no" ed="#P" n="35"/>rum ad parochialem ecclesiam ex rationabili
+          <lb ed="#P" n="36"/>causa et modo legiiimo factam esse, nisi 
+          op<lb break="no" ed="#P" n="37"/>positum probetur, ut notavit Abbas in dicto
+          <lb ed="#P" n="38"/>cap. Cum contingat, num. 8; et Rebuffus, in
+          <lb ed="#P" n="39"/>dicta quaestione 6, numero 15, ex cap. Nisi
+          <lb ed="#P" n="40"/>essent, de Praeben. Et faciunt cap. ultimum, 9,
+          <lb ed="#P" n="41"/>q. 2, et quae congerit Felin. in cap. de Quarta,
+          <lb ed="#P" n="42"/>de Praescription., numero duodecimo.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>7. Limitationis ratio eaplicatur. — Addidi
+          <lb ed="#P" n="44"/>vero limitationem : Nisi aliunde constiterit,
+          <lb ed="#P" n="45"/>ecclesian baptismalem vetinuisse jus ad tales
+          <lb ed="#P" n="46"/>decimas, quia certum est multis modis hoc
+          <lb ed="#P" n="47"/>posse contingere. Unus est, si constet 
+          transa<lb break="no" ed="#P" n="48"/>ctionem et compositionem esse factam in 
+          ere<lb break="no" ed="#P" n="49"/>ctione parochialis ecclesiae inter eam et 
+          baptis<lb break="no" ed="#P" n="50"/>malem, cum approbatione episcopi, et ex vi
+          <lb ed="#P" n="51"/>illius decimas retentas esse baptismali 
+          eccle<lb break="no" ed="#P" n="52"/>siae, et parochiali aliter esse provisum ; nam
+          <lb ed="#P" n="53"/>tunc id servandum est, ut notat Rebuftus 
+          su<lb break="no" ed="#P" n="54"/>pra, n. 12. Alius est, si parochialis ecclesia non
+          <lb ed="#P" n="55"/>est omnino separata a baptismali, nec erecta
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in titulum beneficii curati, aut vicariae 
+          perpe<lb break="no" ed="#P" n="57"/>tuae, sed est annexa baptismali, cujus parochus
+          <lb ed="#P" n="58"/>mercenarium illic constituit, ut in ea serviat;
+          <lb ed="#P" n="59"/>tunc enim tota est quasi sit una parochia,
+          <lb ed="#P" n="60"/>et ita omnes decimae pertinent ad matricem.
+          <lb ed="#P" n="61"/>Et sic ait Panormitanus, per textum ibi in eap.
+          <lb ed="#P" n="62"/>Enz parte, de Rescript., posse ecclesiam 
+          matri<lb break="no" ed="#P" n="63"/>cem plebanalem (sic enim appellat) tenere 
+          ca<lb break="no" ed="#P" n="64"/>pellam positam in suo plebanatu, non ponendo
+          <lb ed="#P" n="65"/>ibi rectorem, sed capellanum, qui eum officiet.
+          <lb ed="#P" n="66"/>Tertius esse potest titulus consuetudinis, nam
+          <lb ed="#P" n="67"/>in hac materia habet magnam vim, ut jura
+          <lb ed="#P" n="68"/>docent. Et consuetudo ostendit, a principio
+          <lb ed="#P" n="69"/>erectam fuisse inferiorem ecclesiam cum hac
+          <lb ed="#P" n="70"/>conditione et modo, praesertim quando aliunde
+          <lb ed="#P" n="71"/>habet sufficientes redditus sine talibus 
+          deci<lb break="no" ed="#P" n="72"/>mis. Et tunc sine dubio sufficiet decennalis
+          <lb ed="#P" n="73"/>consuetudo, quia illa non est aperte contra
+          <lb ed="#P" n="74"/>jus, sed ad summum est de jure dubio ; et ideo
+          <lb ed="#P" n="75"/>Innocentius et alii, in dicto cap. Cum 
+          contin<lb break="no" ed="#P" n="76"/>gat, dicunt, in toto hoc dubio standum esse
+          <lb ed="#P" n="77"/>consuetudini, nam si haec favet parochiali,
+          <lb ed="#P" n="78"/>multo magis procedunt ea quae diximus.
+        </p>
+        <p>
+          <lb ed="#P" n="79"/>8. Idem sentiendum etiamsi baptismalis 
+          ec<lb break="no" ed="#P" n="80"/>clesia sit cathedralis. — Addo praeterea, 
+          di<lb break="no" ed="#P" n="81"/>ctam resolutionem procedere, etiamsi ecclesia
+          <lb ed="#P" n="82"/>baptismalis sit cathedralis vel cujuscumque
+          <lb ed="#P" n="83"/>diguitatis ; semper enim pro parochiali 
+          praesu<lb break="no" ed="#P" n="84"/>mitur, non solum, quando illi favet 
+          consue<lb break="no" ed="#P" n="85"/>tudo, sed etiam secluso hoc titulo, ex vi 
+          ordi<lb break="no" ed="#P" n="86"/>narii juris, quando oppositum sufficienter non
+          <lb ed="#P" n="87"/>probatur in alterius ecclesiae favorem. Nam
+          <lb ed="#P" n="88"/>sola major dignitas talis ecclesiae non confert
+          <lb ed="#P" n="89"/>illi speciale jus ad decimas pradiales alterius
+          <lb ed="#P" n="90"/>parochiae, etiamsi illi alias subjecta sit. Dicit
+          <lb ed="#P" n="91"/>tamen Glossa, in cap. Quicumque, 16, q. 1, in
+          <lb ed="#P" n="92"/>fin., pluralem ecclesiam (sic enim parochialem
+          <lb ed="#P" n="93"/>appellat) debere suas decimas in quatuor 
+          par<lb break="no" ed="#P" n="94"/>tes dividere, et quartam dare ecclesiae 
+          baptis<lb break="no" ed="#P" n="95"/>mali, alias pro pauperibus, fabrica et suis 
+          cle<lb break="no" ed="#P" n="96"/>ricis retinere. Sed hoc nullo jure probat, et 
+          su<lb break="no" ed="#P" n="97"/>pra ostensum est, quartam illam portionem
+          <lb ed="#P" n="98"/>esse de jure episcopali ; non ergo debetur de
+          <lb ed="#P" n="99"/>jure ecclesiae baptismali, quaecumque illa sit.
+          <lb ed="#P" n="100"/>Unde tandcm constat, hoc jus praedialium 
+          deci<lb break="no" ed="#P" n="101"/>marum, quod diximus esse in tali parochiali
+          <lb ed="#P" n="102"/>ecclesia pura, extendi ad novalia, quae post 
+          ta<lb break="no" ed="#P" n="103"/>lis ecclesiae fundationem in illius territorio
+          <lb ed="#P" n="104"/>facta fuerunt, quia non ex privilegio vel 
+          prae<lb break="no" ed="#P" n="105"/>scriptione habet tales decimas, sed ex vi juris
+          <lb ed="#P" n="106"/>communis pertinentis ad parochialem 
+          eccle<lb break="no" ed="#P" n="107"/>siam, et ideo in illa locum habet decisio capit.
+          <lb ed="#P" n="108"/>Quoniam, et cap. Cum contingat, de Decim.
+          <lb ed="#P" n="109"/>Idem vero dicendum est de baptismali ecclesia
+          <lb ed="#P" n="110"/>in illis casibus, in quibus praediales decimas
+          <pb ed="#P" n="185"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>antiqui territorii retinuisse ostenditur ; tunc
+          <lb ed="#P" n="2"/>enim non nisi jure parochialis ecclesiae ab 
+          anti<lb break="no" ed="#P" n="3"/>quo illi conveniente illas retinet, et ideo ad
+          <lb ed="#P" n="4"/>novalia semper extendi potest.
+        </p>
+        <p>
+          <lb ed="#P" n="5"/>9. Quando predia in nullius parochiee 
+          terri<lb break="no" ed="#P" n="6"/>torio sunt, quid dicendum. — Tandem vero 
+          in<lb break="no" ed="#P" n="7"/>terrogari potest in hac materia, ad quam 
+          eccle<lb break="no" ed="#P" n="8"/>siam pertineant decimae praediales, ubi 
+          con<lb break="no" ed="#P" n="9"/>stat, praedia non cadere intra territorium 
+          ali<lb break="no" ed="#P" n="10"/>enjus parochiae. Respondeo breviter, ad nullam
+          <lb ed="#P" n="11"/>ecclesiam jure communi pertincre, sed ad 
+          epi<lb break="no" ed="#P" n="12"/>scopalem mensam. Ita docet Panormitanus,
+          <lb ed="#P" n="13"/>dicto cap. Cum contingat, et sequitur 
+          Rebuf<lb break="no" ed="#P" n="14"/>fus, quaest. 7, num. 8, et sumitur ex dicto
+          <lb ed="#P" n="15"/>cap. Quoniam, quatenus decernit decimas 
+          no<lb break="no" ed="#P" n="16"/>valium ad Episcopos pertinere, quando terrae
+          <lb ed="#P" n="17"/>de novo culta intra certam alicujus ecclesiae
+          <lb ed="#P" n="18"/>parochiam non continentur, nisi Episcopus
+          <lb ed="#P" n="19"/>eas velit alteri ecclesiae deputare. Eadem 
+          au<lb break="no" ed="#P" n="20"/>tem ratio est de terris quibuscumque ab 
+          anti<lb break="no" ed="#P" n="21"/>quo cultis, extra terminos parochiarum 
+          exis<lb break="no" ed="#P" n="22"/>tentibus. Generalis autem ratio esse videtur,
+          <lb ed="#P" n="23"/>quia Episcopus, ante divisionem parochiarum,
+          <lb ed="#P" n="24"/>habet jus disponendi de omnibus decimis 
+          to<lb break="no" ed="#P" n="25"/>tius dioecesis modo sacris canonibus 
+          praescri<lb break="no" ed="#P" n="26"/>pto; si ergo in divisione parochiarum aliquae
+          <lb ed="#P" n="27"/>terre nulli parochiae designatae fuerunt, sub
+          <lb ed="#P" n="28"/>antiquo jure remanserunt ; unde relictae 
+          cen<lb break="no" ed="#P" n="29"/>sentur pro mensa episcopah, vel illi accrevisse,
+          <lb ed="#P" n="30"/>si postea de novo cultae sunt. Et ita videtur hoc
+          <lb ed="#P" n="31"/>jus declarari in illo cap. Quoniam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

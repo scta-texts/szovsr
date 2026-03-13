@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="400"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k09996"><!-- t2-l3c5 -->
+        <head>Caput 5</head>
+        <head type="question-title">De actionibus furti in templo prohibitis ecclesiastico jure.</head>
+        <p>
+          <lb ed="#P" n="14"/>CAPUT V.
+          <lb ed="#P" n="15"/>DE ACTIONIBUS FURTI IN TEMPLO PROHIBITIS
+          <lb ed="#P" n="16"/>ECCLESIASTICO JURE.
+        </p>
+        <p>
+          <lb ed="#P" n="17"/>1. Furtum in ecclesia prohibetur jwre 
+          ecclesias<lb break="no" ed="#P" n="18"/>Lico. — Hoc est tertium genus operum, quae
+          <lb ed="#P" n="19"/>ob templorum reverentiam in eis fieri Ecclesia
+          <lb ed="#P" n="20"/>peculiariter prohibuit ; quam prohibitionem
+          <lb ed="#P" n="21"/>Joannes Papa, in cap. Quisquis, 11, quaest. 4,
+          <lb ed="#P" n="22"/>his verbis declaravit: Sacrilegium 
+          committi<lb break="no" ed="#P" n="23"/>tur auferendo sacrum de sacro, vel non sacrum
+          <lb ed="#P" n="24"/>de sacro, aut sacrum de non sacro. Ex quibus
+          <lb ed="#P" n="25"/>tribus membris tertium non spectat ad 
+          prae<lb break="no" ed="#P" n="26"/>sentem materiam; dicitur enim quis furari 
+          sa<lb break="no" ed="#P" n="27"/>crum de non sacro, quando calicem, verbi
+          <lb ed="#P" n="28"/>gratia, vel alia bona ecclesiae, quae sacra 
+          cen<lb break="no" ed="#P" n="29"/>sentur, rapit non de templo, sed in alio loco
+          <lb ed="#P" n="30"/>non sacro inventa: et ita furtum illud non 
+          ha<lb break="no" ed="#P" n="31"/>bet rationem sacrilegii ex circumstantia loci,
+          <lb ed="#P" n="32"/>de qua sola nunc tractamus, sed ex conditione
+          <lb ed="#P" n="33"/>rei, seu materiae, circa quam furtum 
+          versa<lb break="no" ed="#P" n="34"/>tur: de quo genere sacrilegii diximus in alio
+          <lb ed="#P" n="35"/>opere de immunitate bonorum, et 
+          persona<lb break="no" ed="#P" n="36"/>rum ecclesiasticarum ; et videri potest Jacob.
+          <lb ed="#P" n="37"/>Menoch., libr. 2 de Arbit. Jud., Cent. 4, casu
+          <lb ed="#P" n="38"/>289. Unde etiam primum membrum, 
+          quate<lb break="no" ed="#P" n="39"/>nus hoc caput includit, cum tertio coincidit ;
+          <lb ed="#P" n="40"/>quoad alteram vero partem cum secundo 
+          con<lb break="no" ed="#P" n="41"/>venit, et ex illius declaratione constabit, an
+          <lb ed="#P" n="42"/>illud primum furtum ex duplici capite 
+          sacri<lb break="no" ed="#P" n="43"/>legium sit.
+        </p>
+        <p>
+          <lb ed="#P" n="44"/>2. Aliter jus canonicum, alter cwvile 
+          vide<lb break="no" ed="#P" n="45"/>tur disponere in furto rei non sacra de templo.
+          <lb ed="#P" n="46"/>— Jus civile cum canonico conciliatur. — bDe
+          <lb ed="#P" n="47"/>illo ergo secundo membro , aliter jus civile
+          <lb ed="#P" n="48"/>quam canonicum disponit ; nam in l. Dici, ff
+          <lb ed="#P" n="49"/>ad l. Jul. Peculatus : Mes privatorum , si in
+          <lb ed="#P" n="50"/>edem sacram deposite, surrepta fuerint, furti
+          <lb ed="#P" n="51"/>actionem, non sacrilegii esse. Ubi Glossa 
+          sim<lb break="no" ed="#P" n="52"/>pliciter ait, in co casu non committi sacrile-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>gium, imo nec in tertio, quando sacrum de
+          <lb ed="#P" n="54"/>non sacro surripitur, sed tantum quando
+          <lb ed="#P" n="55"/>utrumque concurrit; et idem tenet Bartrol.,
+          <lb ed="#P" n="56"/>ibi ; et communiter legisperiti , ut refert Jul.
+          <lb ed="#P" n="57"/>Clar. , libro 5, 8 Sacrilegium, num. 1. Et ita
+          <lb ed="#P" n="58"/>ipse distinguit , secundum jus civile tantum
+          <lb ed="#P" n="59"/>in primo casu censeri sacrilegium, quando 
+          sa<lb break="no" ed="#P" n="60"/>crum de sacro aufertur; secundum vero jus
+          <lb ed="#P" n="61"/>canonicum quodlibet sufficere. Verumtamen
+          <lb ed="#P" n="62"/>jus civile non statuit de peccato, an tale sit
+          <lb ed="#P" n="63"/>necne, sed solum de actione, quae in 
+          crimi<lb break="no" ed="#P" n="64"/>nali foro contra hujusmodi furem datur; de
+          <lb ed="#P" n="65"/>hac enim aperte loquitur dicta lex, quae potuit
+          <lb ed="#P" n="66"/>habere apparentem rationem , etiamsi tale
+          <lb ed="#P" n="67"/>peccatum non sit immune a malitia 
+          sacrile<lb break="no" ed="#P" n="68"/>gii, quia directe et quasi per se injuria et 
+          no<lb break="no" ed="#P" n="69"/>cumentum fit domino rei furto sublatae, et
+          <lb ed="#P" n="70"/>ideo illi datur actio, non loco, cui indirecte,
+          <lb ed="#P" n="71"/>et quasi per accidens injuria fit; domino 
+          au<lb break="no" ed="#P" n="72"/>tem rei non competit actio sacrilegii, sed 
+          fur<lb break="no" ed="#P" n="73"/>ti. Quod vero furtum illud in se adjunctam
+          <lb ed="#P" n="74"/>habeat malitiam sacrilegii , non videtur 
+          con<lb break="no" ed="#P" n="75"/>trarium juri civili ; nam in l. Aut facta, ff. de
+          <lb ed="#P" n="76"/>Ponnis, dicitur: Locus facit ut idem , vel 
+          fur<lb break="no" ed="#P" n="77"/>Lum vel sacrilegium sit , id est, vel tantum
+          <lb ed="#P" n="78"/>furtum, vel etiam sacrilegium. Et licet dici
+          <lb ed="#P" n="79"/>posset hoc procedere, quando res est sacra,
+          <lb ed="#P" n="80"/>tamen vix afferri potest ratio, cur locus 
+          ha<lb break="no" ed="#P" n="81"/>heat hanc vim circa rem sacram, et non circa
+          <lb ed="#P" n="82"/>alias, ut nimirum furtum rei sacrae, quod alias
+          <lb ed="#P" n="83"/>non esset sacrilegium, fiat sacrilegium 
+          adjunc<lb break="no" ed="#P" n="84"/>ta circumstantia loci, et non ita sit in furto
+          <lb ed="#P" n="85"/>rei non sacrae.
+        </p>
+        <p>
+          <lb ed="#P" n="86"/>3. Circa hoc dissensio est etiam inter 
+          Theo<lb break="no" ed="#P" n="87"/>logos. — Fundamentum hujus opinionis. — Sed
+          <lb ed="#P" n="88"/>omisso jure civili, ad quod non spectat 
+          pro<lb break="no" ed="#P" n="89"/>prias rationes vitiorum et peccatorum in 
+          or<lb break="no" ed="#P" n="90"/>dine ad conscientiam discernere, sed solum in
+          <lb ed="#P" n="91"/>ordine ad politicam gubernationem, aut 
+          vin<lb break="no" ed="#P" n="92"/>dictam, etiam inter Theologos videtur esse in
+          <lb ed="#P" n="93"/>illo secundo membro opinionum diversitas.
+          <lb ed="#P" n="94"/>Quidam enim simpliciter negant esse 
+          sacrile<lb break="no" ed="#P" n="95"/>gium, furari rem laicam de ecclesia: cujus
+          <lb ed="#P" n="96"/>opinionis videntur fuisse Victor. et Soto, locis
+          <lb ed="#P" n="97"/>cit., c. 3, in1 opinione. Nam generaliter 
+          ex<lb break="no" ed="#P" n="98"/>cludunt alios casus sacrilegii ratione loci 
+          sa<lb break="no" ed="#P" n="99"/>cri, praeter effusionem sanguinis et seminis ;
+          <lb ed="#P" n="100"/>unde idem Soto, . 5 de Just., quaest. 3, art. 1,
+          <lb ed="#P" n="101"/>§  Hinc inepte, explicando, quando furtum sit
+          <lb ed="#P" n="102"/>sacrilegium, ait: Si quod furto rapitur, res
+          <lb ed="#P" n="103"/>est sacra , sacrilegiwn dicitur. Unde 
+          signif<lb break="no" ed="#P" n="104"/>cat , si de loco sacro surripiatur, tunc etiam
+          <lb ed="#P" n="105"/>solum esse sacrilegium ratione rei acceptae et
+          <lb ed="#P" n="106"/>conditionis ejus, non ratione loci. Et hoc 
+          for<lb break="no" ed="#P" n="107"/>tasse modo defenderet Soto generalem exclu-
+          <pb ed="#P" n="401"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sivam , quam in alio loco posuit , scilicet ,
+          <lb ed="#P" n="2"/>quia, licet alia sacrilegia fiant in loco sacro
+          <lb ed="#P" n="3"/>praeter effusionem sanguinis et seminis, non
+          <lb ed="#P" n="4"/>tamen propter solam contaminationem, vel 
+          ir<lb break="no" ed="#P" n="5"/>reverentiam loci, sed ex aliis titulis, ut hic,
+          <lb ed="#P" n="6"/>propter rem sacram inde sublatam. Atque ita
+          <lb ed="#P" n="7"/>in 4, dist. 18, quaest. 2, art. 4, S De die, ait
+          <lb ed="#P" n="8"/>non esse necessarium confiteri circumstantiam
+          <lb ed="#P" n="9"/>loci saeri, nisi quando illic effunditur vel 
+          se<lb break="no" ed="#P" n="10"/>men vel sanguis, cel surripitur res ecclesic.
+          <lb ed="#P" n="11"/>Non enim casu, sed consulto, non dixit i 
+          ec<lb break="no" ed="#P" n="12"/>clesia, sed ecclesi , sicut de effusione seminis
+          <lb ed="#P" n="13"/>et sanguinis dixerat, et paulo superius idem
+          <lb ed="#P" n="14"/>dixerat de homicidio, quod in aliis locis sub
+          <lb ed="#P" n="15"/>sanguinis effusione comprehendit. 
+          Fundamen<lb break="no" ed="#P" n="16"/>tum hujus opinionis esse oportet, quod 
+          hu<lb break="no" ed="#P" n="17"/>jusmodi furtum non est ex natura rci injuria
+          <lb ed="#P" n="18"/>loci sacri, magis quam alia peccata , neque
+          <lb ed="#P" n="19"/>etiam est speciali jure prohibitum sub tali 
+          ra<lb break="no" ed="#P" n="20"/>tione.
+        </p>
+        <p>
+          <lb ed="#P" n="21"/>4. Impugnatur praecedens opinio. — 
+          Limi<lb break="no" ed="#P" n="22"/>tatio communis sententie. — Sed contra hanc
+          <lb ed="#P" n="23"/>sententiam et ejus fundamentum obstat d.
+          <lb ed="#P" n="24"/>cap. Quisquis ; cum enim ibi dicatur esse 
+          sa<lb break="no" ed="#P" n="25"/>crilegium furari rem non sacram de loco sacro,
+          <lb ed="#P" n="26"/>vel supponitur ex natura rei tale csse, vel ibi
+          <lb ed="#P" n="27"/>virtute fertur prohibitio; nec ego video quid
+          <lb ed="#P" n="28"/>possit ad textum illum responderi. Et ita
+          <lb ed="#P" n="29"/>propter illum fatentur ibi Glos., Archid., 
+          Tur<lb break="no" ed="#P" n="30"/>recr. et alii, hoc esse verum sacrilegium, et
+          <lb ed="#P" n="31"/>idem dicit Jul. Clar. supra, et alii statim 
+          re<lb break="no" ed="#P" n="32"/>ferendi. Aliqui vero, hanc sententiam 
+          com<lb break="no" ed="#P" n="33"/>munem limitantes, et primam declarantes,
+          <lb ed="#P" n="34"/>distinguunt duos modos, quibus potest res
+          <lb ed="#P" n="35"/>non sacra in ecclesia esse. Primo, quia est
+          <lb ed="#P" n="36"/>quasi sub jure et pctestate ccclesiae, quia, 
+          sci<lb break="no" ed="#P" n="37"/>licet, vel illi ad custodiendum tradita est, vel
+          <lb ed="#P" n="38"/>in pignus data, vel alio simili modo in 
+          eccle<lb break="no" ed="#P" n="39"/>sia deposita. Secun-lo, potest res aliqua mere
+          <lb ed="#P" n="40"/>temporalis per accidens et casu esse in 
+          eccle<lb break="no" ed="#P" n="41"/>sia, vel quia ib est persona quae illam secum
+          <lb ed="#P" n="42"/>defert, vel quia casu ibi relicta est.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>5. Probatur pror pars in limitatione pcsita.
+          <lb ed="#P" n="44"/>— Feram esse hanc partem resolvitur. —In
+          <lb ed="#P" n="45"/>priori casu, affirmant sacrilegium esse furari
+          <lb ed="#P" n="46"/>bona in ecclesia ; in posteriori autem negant.
+          <lb ed="#P" n="47"/>Et prior pars suaderi potest, primo, quia 
+          sal<lb break="no" ed="#P" n="48"/>tem id est necessarium, ut partitio sacrilegii
+          <lb ed="#P" n="49"/>posita in dict. cap. Quisquis, in omnibus suis
+          <lb ed="#P" n="50"/>membris verificari possit. Secundo, potest 
+          con<lb break="no" ed="#P" n="51"/>firmari ex lib. 2 Machab. 3, ubi refertur 
+          his<lb break="no" ed="#P" n="52"/>toria praeclara de Heliodoro, divina virtute
+          <lb ed="#P" n="53"/>flagellato, eo quod pecuniam in templo 
+          depo<lb break="no" ed="#P" n="54"/>sitam, regis auctor:tate, contra illius templi
+          <lb ed="#P" n="55"/>immunitatem et sanctitaiem, et in ejus con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>temptum (ut ibidem dicitur) rapere tentaret.
+          <lb ed="#P" n="57"/>Tertio est optima ratio, quia quod hoc modo
+          <lb ed="#P" n="58"/>est in templo, est sub speciali patrocinio ac
+          <lb ed="#P" n="59"/>custodia divina; est enim templum speciali
+          <lb ed="#P" n="60"/>modo ac titulo sub dominio Dei, et ideo quod
+          <lb ed="#P" n="61"/>ibi deponitur, et per Dei ministros acceptatur,
+          <lb ed="#P" n="62"/>censetur veluti sub Dei fide et defensione 
+          re<lb break="no" ed="#P" n="63"/>cipi; et ideo tale furtum specialem malitiam
+          <lb ed="#P" n="64"/>habet contra reverentiam Deo, et templo ejus
+          <lb ed="#P" n="65"/>debitam. Atque haec pars mihi etiam videtur
+          <lb ed="#P" n="66"/>certa, existimoque etiam in solo divino ac 
+          na<lb break="no" ed="#P" n="67"/>turali jure veram esse, ut probant exemplum
+          <lb ed="#P" n="68"/>Heliodori et ratio facta ; magis vero indubitata
+          <lb ed="#P" n="69"/>est, addito jure canonico in d. c. Quisquis.
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>6. Probatur secunda pars. — Alteram vero
+          <lb ed="#P" n="71"/>partem probabilem censent aliqui moderni
+          <lb ed="#P" n="72"/>Theologi; quia cum res ibi non esset sub 
+          spe<lb break="no" ed="#P" n="73"/>ciali custodia templi, sed quasi per accidens
+          <lb ed="#P" n="74"/>ibi esset, non videtur per illud furtum gravis
+          <lb ed="#P" n="75"/>injuria templo irrogari. Et alioquin tale 
+          fur<lb break="no" ed="#P" n="76"/>tum non est specialiter interdictum ab 
+          Eccle<lb break="no" ed="#P" n="77"/>siam in honorem templi; ergo non est unde
+          <lb ed="#P" n="78"/>habeat mortiferam malitiam sacrilegii. Atque
+          <lb ed="#P" n="79"/>ita juxta hos auctores non erit haec 
+          circum<lb break="no" ed="#P" n="80"/>stantia furti de necessitate confessionis.
+        </p>
+        <p>
+          <lb ed="#P" n="81"/>7. Communis sententia approbatur, et sine
+          <lb ed="#P" n="82"/>ulla limitatione dicitur furtum in templo
+          <lb ed="#P" n="83"/>esse sacrilegium. — Glossa.— Ego vero 
+          cen<lb break="no" ed="#P" n="84"/>seo communem sententiam esse omnino 
+          ve<lb break="no" ed="#P" n="85"/>ran, quae sine ulla distinctione affirmat, 
+          fur<lb break="no" ed="#P" n="86"/>tum in loco sacro sacrilegium esse, ac 
+          subin<lb break="no" ed="#P" n="87"/>de esse mortale ex suo genere, id est, nisi ex
+          <lb ed="#P" n="88"/>levitate materiae excusetur. lta tenent 
+          com<lb break="no" ed="#P" n="89"/>muniter Canonistae cum Glos., in d. c. 
+          Quis<lb break="no" ed="#P" n="90"/>quis, et in cap. Sacrilegium , 11, q. 4, ubi
+          <lb ed="#P" n="91"/>Turrecrem., quaest. 5, et communitcr etiam
+          <lb ed="#P" n="92"/>Summistae, verb. Sacrilegium , Sylvest., S 
+          Se<lb break="no" ed="#P" n="93"/>cundum ; Angel., n. 1, declarans esse proprie
+          <lb ed="#P" n="94"/>sacrilegium ; Cajet., in Sum., verb. eodem;
+          <lb ed="#P" n="95"/>ct Armilla, n. 4, qui declarat esse hanc 
+          cir<lb break="no" ed="#P" n="96"/>cumstantiam de necessitate confess onis; idem
+          <lb ed="#P" n="97"/>Navar., in Manuali, c. 6, num. 4. 
+          Fundamen<lb break="no" ed="#P" n="98"/>tum praecipuum hujus sententiae esse debet,
+          <lb ed="#P" n="99"/>quia in d. c. Quisquis, simpliciter et sine 
+          li<lb break="no" ed="#P" n="100"/>mitatione ponitur species sacrilegii furari non
+          <lb ed="#P" n="101"/>sacrum de sacro; ubi autem lex non 
+          distin<lb break="no" ed="#P" n="102"/>guit, nec nos distinguere debemus, l. De 
+          pre<lb break="no" ed="#P" n="103"/>lio, ff. de Public., nisi vel aiia lex obliget, vel
+          <lb ed="#P" n="104"/>ratio cogat, quando alias sequeretur 
+          absur<lb break="no" ed="#P" n="105"/>dum; hic autem nihil horum intervenit. Imo
+          <lb ed="#P" n="106"/>distinctio seu limitatio illa quodammodo 
+          des<lb break="no" ed="#P" n="107"/>truit decisionem et partitionem iliius textus;
+          <lb ed="#P" n="108"/>nam res, quae secundum se non sunt sacrae,
+          <lb ed="#P" n="109"/>quatenus constitutae sunt sub patrocinio 
+          eccle<lb break="no" ed="#P" n="110"/>siae, quae in depositum vel custodiam illas re-
+          <pb ed="#P" n="402"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cepit, jam sunt aliquo modo sacrae, sicut alia
+          <lb ed="#P" n="2"/>bona ecclesiae, vel sicut promissio jurata, licet
+          <lb ed="#P" n="3"/>secundum se temporalis sit, ut est sub 
+          testi<lb break="no" ed="#P" n="4"/>monio divino, est sacra, et pertinet ad forum
+          <lb ed="#P" n="5"/>Ecclesiae ; sic ergo res depositae in ecclesia, ad
+          <lb ed="#P" n="6"/>forum et defensionem Ecclcsiae pertinent, 
+          ideo<lb break="no" ed="#P" n="7"/>que illas furari potius est furari sacrum de 
+          sa<lb break="no" ed="#P" n="8"/>cro, quam non sacrum; ergo in rigore 
+          ne<lb break="no" ed="#P" n="9"/>cesse est aliud membrum de aliis rebus 
+          intel<lb break="no" ed="#P" n="10"/>ligere. Eo vel maxime quod, licet haec lex 
+          vi<lb break="no" ed="#P" n="11"/>deatur odiosa latronibus, tamen simpliciter
+          <lb ed="#P" n="12"/>favorabilis est, quia favet Ecclesiae et religioni;
+          <lb ed="#P" n="13"/>ergo amplianda est potius quam restringenda,
+          <lb ed="#P" n="14"/>vel (quod nobis satis est) secundum integrum
+          <lb ed="#P" n="15"/>et absolutum significatum verborum 
+          acciplen<lb break="no" ed="#P" n="16"/>da. Praeterea prius in illo textu ponit 
+          Ponti<lb break="no" ed="#P" n="17"/>fex poenas sacrilegii, postea varia sacrilegia
+          <lb ed="#P" n="18"/>enumerat, et inter ca ponit illa tria membra;
+          <lb ed="#P" n="19"/>et infra loquens de ecclesiis et monasteriis,
+          <lb ed="#P" n="20"/>ait : Vel si qui deposita , vel alia quelibet
+          <lb ed="#P" n="21"/>exinde abstrahunt , velut sacrilegi canonico
+          <lb ed="#P" n="22"/>sententie subjaceant. Ergo non potest ad illum
+          <lb ed="#P" n="23"/>textum alia restrictio accommodari. Denique
+          <lb ed="#P" n="24"/>in eo capite aperte intendit Pontifex 
+          immu<lb break="no" ed="#P" n="25"/>nitatem Ecclesiae defendere ; magna autem et
+          <lb ed="#P" n="26"/>valde rationabilis Ecclesiae immunitas est, ut
+          <lb ed="#P" n="27"/>res in ea existentes quamdam securitatem ab
+          <lb ed="#P" n="28"/>omni injuriosa acceptione participent; et
+          <lb ed="#P" n="29"/>ideo, qui illas inde furatur, contra 
+          immuni<lb break="no" ed="#P" n="30"/>tatem Ecclesiae agit, ac subinde contra 
+          reve<lb break="no" ed="#P" n="31"/>rentiam illi debitam sacrilegium committit,
+          <lb ed="#P" n="32"/>juxta ea quae dicemus cap. seq.
+        </p>
+        <p>
+          <lb ed="#P" n="33"/>8. Haec immunitas Hcclesiastica naturali
+          <lb ed="#P" n="34"/>rationi consentanea.— An sit sacrilegium 
+          fur<lb break="no" ed="#P" n="35"/>tum in templo factum, stando in solo jure 
+          di<lb break="no" ed="#P" n="36"/>vino. — Est autem haec immunitas satis 
+          con<lb break="no" ed="#P" n="37"/>sentanea naturali rationi, quia sine dubio 
+          dic<lb break="no" ed="#P" n="38"/>tat totam hanc reverentiam esse debitam Deo,
+          <lb ed="#P" n="39"/>qui in templo peculiariter habitat, vel templo,
+          <lb ed="#P" n="40"/>quatenus Deo specialiter sanctificatum est,
+          <lb ed="#P" n="41"/>quod in idem redit. Sed nihilominus stando
+          <lb ed="#P" n="42"/>in jure divino solo, fortasse malitia sacrilegii
+          <lb ed="#P" n="43"/>in tali furto vel nulla esset, si injuria templi
+          <lb ed="#P" n="44"/>non esset intenta, vel certe non esset adeo
+          <lb ed="#P" n="45"/>gravis, ut mortifera judicari posset, quia non
+          <lb ed="#P" n="46"/>videtur habere tantam rationem injuriae, ut
+          <lb ed="#P" n="47"/>de aliis peccatis postea dicemus. At vero 
+          ad<lb break="no" ed="#P" n="48"/>juncta immunitate concessa Ecclesiae per jus
+          <lb ed="#P" n="49"/>canonicum, est formalior (ut ita dicam) 
+          inju<lb break="no" ed="#P" n="50"/>ria, et in illa specie longe gravior, quia ex
+          <lb ed="#P" n="51"/>institutione canonica habet Ecclesia peculiare
+          <lb ed="#P" n="52"/>jus, ut sit veluti inviolabilis custodia rerum
+          <lb ed="#P" n="53"/>quae intra illam existunt. Et quoad hoc est
+          <lb ed="#P" n="54"/>major ratio in furto, quam in aliis peccatis
+          <lb ed="#P" n="55"/>quae in ecclesia fiunt, et non ita sunt contra
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>jus et immunitatem, et quasi contra munus et
+          <lb ed="#P" n="57"/>officium loci, sicut est furtum, ut attigi in 4
+          <lb ed="#P" n="58"/>tom., disp. 92, sect. 4, num. 20. Et 
+          confirma<lb break="no" ed="#P" n="59"/>ri hoc tandem potest ex dictis circa 
+          praece<lb break="no" ed="#P" n="60"/>dentem actum , nam si negotiatio in templo
+          <lb ed="#P" n="61"/>prohibetur, quia de se est injustitiis et rapinis
+          <lb ed="#P" n="62"/>obnoxia, quomodo non majori ratione 
+          prohi<lb break="no" ed="#P" n="63"/>bebitur specialiter furtum in ecclesia?
+        </p>
+        <p>
+          <lb ed="#P" n="64"/>9. Hoc furtum in ratione sacrilegu est 
+          mor<lb break="no" ed="#P" n="65"/>tale peccatum.— Ha levitate materie potest esse
+          <lb ed="#P" n="66"/>veniale sacrilegium. — Ex his ergo 
+          concludi<lb break="no" ed="#P" n="67"/>tur tale peccatum in ratione sacrilegii, ex
+          <lb ed="#P" n="68"/>genere suo mortale peccatum esse. Hoc enim
+          <lb ed="#P" n="69"/>sentiunt auctores citati, et probant rationes
+          <lb ed="#P" n="70"/>factae. Et declaratur, quia intra latitudinem
+          <lb ed="#P" n="71"/>illius materiae aut modi furandi, esse potest
+          <lb ed="#P" n="72"/>mortale: ut verbi gratia, latrones, qui in 
+          ec<lb break="no" ed="#P" n="73"/>clesia crumenas occulte suffurantur vel 
+          ab<lb break="no" ed="#P" n="74"/>scindunt, profecto gravissimum sacrilegium
+          <lb ed="#P" n="75"/>committunt, et communi christiani populi 
+          aes<lb break="no" ed="#P" n="76"/>timatione tale reputatur, et tamen illi solum
+          <lb ed="#P" n="77"/>peccant, auferendo non sacrum de sacro. 
+          Pro<lb break="no" ed="#P" n="78"/>pter quae omnia, attente spectata, censeo non
+          <lb ed="#P" n="79"/>esse judicandam practice probabilem ac 
+          secu<lb break="no" ed="#P" n="80"/>ram sententiam, quae absolute negat 
+          circum<lb break="no" ed="#P" n="81"/>stantiam loci sacri in furto de re non sacra
+          <lb ed="#P" n="82"/>non esse de necessitate confessionis, quia est
+          <lb ed="#P" n="83"/>paucorum Doctorum contra torrentem 
+          alio<lb break="no" ed="#P" n="84"/>rum, sine textu, et sinefirma ratione, vel qua
+          <lb ed="#P" n="85"/>probabiliter suadeat. Non est tamen 
+          negan<lb break="no" ed="#P" n="86"/>dum, quin hoc sacrilegium possit esse veniale
+          <lb ed="#P" n="87"/>ex levitate materiae ; nam etiam furtum rei
+          <lb ed="#P" n="88"/>sacrae potest etiam hoc modo esse leve 
+          pec<lb break="no" ed="#P" n="89"/>catum. Et probabile est, quoties furtum in 
+          ra<lb break="no" ed="#P" n="90"/>tione injustitiae est veniale. etiam in loco 
+          sa<lb break="no" ed="#P" n="91"/>cro factum, esse veniale in ratione sacrilegii.
+          <lb ed="#P" n="92"/>An vero e eontrario dicendum etiam sit, 
+          quo<lb break="no" ed="#P" n="93"/>tiescumque est mortale in ratione injustitiae,
+          <lb ed="#P" n="94"/>esse etiam mortale in ratione sacrilegii, non
+          <lb ed="#P" n="95"/>omnino definio, sed prudentibus 
+          consideran<lb break="no" ed="#P" n="96"/>dum relinquo. Quia cum furtum sit magis
+          <lb ed="#P" n="97"/>per se ac directe volitum, quam injuria loci
+          <lb ed="#P" n="98"/>sacri, non videtur repugnare ut aliqua 
+          mate<lb break="no" ed="#P" n="99"/>ria et modus furandi sufficiat ad injustitiam
+          <lb ed="#P" n="100"/>mortiferam committendam, quae in ratione 
+          ir<lb break="no" ed="#P" n="101"/>reverentiae loci sacri, vel violationis 
+          immu<lb break="no" ed="#P" n="102"/>nitatis ejus, non sit ita gravis offensio. Sed
+          <lb ed="#P" n="103"/>quia difficile est haec distinguere et prudenter
+          <lb ed="#P" n="104"/>ponderare, securius existimo pro generali 
+          re<lb break="no" ed="#P" n="105"/>gula statuere, quotiescumque peccatum furti
+          <lb ed="#P" n="106"/>mortale cst, et in loco sacro fit, 
+          circumstan<lb break="no" ed="#P" n="107"/>tiam loci esse in confessione aperiendam, ut
+          <lb ed="#P" n="108"/>mortifere aggravantem in alia specie.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

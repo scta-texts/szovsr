@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="113"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k02771"><!-- t2-l1c9 -->
+        <head>Caput 9</head>
+        <head type="question-title">De praecepto solvendi decimas, an sit in evangelica lege.</head>
+        <p>
+          <lb ed="#P" n="29"/>CAPUT IX.
+          <lb ed="#P" n="30"/>DE PRAECEPTO SOLVENDI DECIMAS, AN SIT IN
+          <lb ed="#P" n="31"/>EVANGELICA LEGE.
+        </p>
+        <p>
+          <lb ed="#P" n="32"/>1. Praeceptum hoc est in Ecclesia, et ad
+          <lb ed="#P" n="33"/>virtutem religionis pertinet. — Praeceptum hoc
+          <lb ed="#P" n="34"/>esse nunc in Ecclesia, tanquam certum 
+          suppo<lb break="no" ed="#P" n="35"/>nimus; quinque enim Ecclesiae praecepta 
+          fide<lb break="no" ed="#P" n="36"/>libus communia, etiam inter ipsa fidei 
+          rudi<lb break="no" ed="#P" n="37"/>menta traduntur, et quintum eorum est de
+          <lb ed="#P" n="38"/>decimis solvendis, sicut de primitiis diximus;
+          <lb ed="#P" n="39"/>et statim allegabimus jura in quibus fundatur.
+          <lb ed="#P" n="40"/>Deinde praeceptum hoc ad religionis virtutem
+          <lb ed="#P" n="41"/>pertinere, supponit divus Thomas 2. 2, quaest.
+          <lb ed="#P" n="42"/>81, et cum eo Theologia omnis. Quod non 
+          ca<lb break="no" ed="#P" n="43"/>ret aliqua difficultate , quia videtur potius
+          <lb ed="#P" n="44"/>pertinere ad justitiam; sed explicando modum
+          <lb ed="#P" n="45"/>et fundamentum illius praecepti, explicabimus
+          <lb ed="#P" n="46"/>quomodo id verum sit. Nunc solum 
+          supponi<lb break="no" ed="#P" n="47"/>mus tanquam manifestum, hoc praeceptum
+          <lb ed="#P" n="48"/>trahere necessitatem suam a virtute religionis,
+          <lb ed="#P" n="49"/>et a quibusdam actibus ejus, tanquam ex 
+          pri<lb break="no" ed="#P" n="50"/>maria radice. Dictum est enim ad officium 
+          re<lb break="no" ed="#P" n="51"/>ligionis pertinere, ut sit in Ecclesia 
+          sacrifi<lb break="no" ed="#P" n="52"/>cium, et caetera omnuia, quae ad illius religio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>nem, et debitum cultum communem et 
+          pu<lb break="no" ed="#P" n="54"/>blicum, Dei necessaria sunt, ad quem etiam
+          <lb ed="#P" n="55"/>pertinent omnia sacramenta et sacramentalia.
+          <lb ed="#P" n="56"/>Hinc ergo factum est, ut in christiana 
+          repu<lb break="no" ed="#P" n="57"/>blica sint masime necessarii ministri ad hoc
+          <lb ed="#P" n="58"/>sacrificium, et ad hunc Dei cultum specialiter
+          <lb ed="#P" n="59"/>deputati, quibus consequenter spiritualis cura,
+          <lb ed="#P" n="60"/>et regimen animarum peculiariter commissum
+          <lb ed="#P" n="61"/>est, quia medio sacrificio et sacramentis, simul
+          <lb ed="#P" n="62"/>cum vera fide et verbo Dei, animarum salus
+          <lb ed="#P" n="63"/>procuratur.
+        </p>
+        <p>
+          <lb ed="#P" n="64"/>2. Quale fuerit iu Ecc'esia instituendi 
+          de<lb break="no" ed="#P" n="65"/>cmas fundamentum. — Duo distinguunt 
+          Doc<lb break="no" ed="#P" n="66"/>tores in decimis. — Hoc ergo fuit primarium
+          <lb ed="#P" n="67"/>decimarum fundamentum : nam hi Ecclesiae
+          <lb ed="#P" n="68"/>ministri corporali sustentatione indigent, et
+          <lb ed="#P" n="69"/>non debent a divino cultu et aliis spiritualibus
+          <lb ed="#P" n="70"/>muneribus abstrahi, ut sibi necessaria ad 
+          vi<lb break="no" ed="#P" n="71"/>tam transigendam procurent; tum quia neque
+          <lb ed="#P" n="72"/>id erat decens, vel conveniens ad divinum
+          <lb ed="#P" n="73"/>cultum, neque ad bonum animarum erat 
+          uti<lb break="no" ed="#P" n="74"/>le; tum etiam quia ratio postutat ut qui 
+          labo<lb break="no" ed="#P" n="75"/>rant aliis spiritualia ministrando, ab eisdem
+          <lb ed="#P" n="76"/>corporaliter alantur, unde est illud Pauli, 1
+          <lb ed="#P" n="77"/>ad Cor. 9: Sà nos vobis spiritualia 
+          semina<lb break="no" ed="#P" n="78"/>us, magauum est si carnalia vestra metamus?
+          <lb ed="#P" n="79"/>et juxta alia testimonia et jura, quae infra 
+          re<lb break="no" ed="#P" n="80"/>feremus. Hinc Doctores omnes duo distinguunt
+          <lb ed="#P" n="81"/>in decimis solvendis : unum est, ut ministris
+          <lb ed="#P" n="82"/>ecclesiasticis congrua sustentatio tribuatur;
+          <lb ed="#P" n="83"/>aliud est, ut ad hunc finem designetur decima
+          <lb ed="#P" n="84"/>pars fructuum, et illa reddi praecipiatur. Nam
+          <lb ed="#P" n="85"/>primum de se abstrahit a quota parte, ut 
+          vo<lb break="no" ed="#P" n="86"/>cant ; posset enim esse major vel minor ad
+          <lb ed="#P" n="87"/>sustentandos ministros necessaria. Unde, si de
+          <lb ed="#P" n="88"/>illa tantum congrua sustentatione sermo esset,
+          <lb ed="#P" n="89"/>vel nihi: vel parum difficultatis baberet, quia
+          <lb ed="#P" n="90"/>ex suppositione facta, et ex tali statu 
+          reipu<lb break="no" ed="#P" n="91"/>blicae fidelis, ratio ipsa naturaliter dictat illam
+          <lb ed="#P" n="92"/>sustentationem esse debitam, lege non tantum
+          <lb ed="#P" n="93"/>religionis, sed etiam naturalis justitiae, ad
+          <lb ed="#P" n="94"/>quam pertinet illud Pauli, citato loco : Quis
+          <lb ed="#P" n="95"/>militat suis stipendiis unguam ? Et illud : Non
+          <lb ed="#P" n="96"/>alligabis os bovi trituranti? Et illud : Qus in
+          <lb ed="#P" n="97"/>sacrario operantur , quae de sacrario sunt,
+          <lb ed="#P" n="98"/>edunt : et qui altari deservit, cum altari 
+          parti<lb break="no" ed="#P" n="99"/>cipat. Hic autem non de sustentatione in 
+          ge<lb break="no" ed="#P" n="100"/>nere, sed de propria decima tractamus.
+        </p>
+        <p>
+          <lb ed="#P" n="101"/>3. Triplea decimarum distinctio proponitur.
+          <lb ed="#P" n="102"/>— Est igitur quaestio an praeceptum solvendi
+          <lb ed="#P" n="103"/>decimam partem fructuum naturale aut 
+          posi<lb break="no" ed="#P" n="104"/>tivum, divinum aut humanum sit. Quia vero,
+          <lb ed="#P" n="105"/>ad intelligendas opiniones et ad claritatem
+          <lb ed="#P" n="106"/>materiae, oportet terminos exponere, ideo 
+          ad<lb break="no" ed="#P" n="107"/>vertere necesse est, duplices, vel triplices de-
+          <pb ed="#P" n="114"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cimas solere distingui; scilicet, praediales et
+          <lb ed="#P" n="2"/>personales, quibus Hostiensis, in principio
+          <lb ed="#P" n="3"/>hujus materiae, in Summa, mixtas addit, quem
+          <lb ed="#P" n="4"/>Angel., Sylvester et alii secuti sunt; et late
+          <lb ed="#P" n="5"/>Navar., cons. 1, de Decim. Praediales dicuntur,
+          <lb ed="#P" n="6"/>quae ex fructibus provenientibus ex terra seu
+          <lb ed="#P" n="7"/>praediis resultant, ut sunt frumentum, vinum
+          <lb ed="#P" n="8"/>et oleum, et sub his etiam continentur omnes
+          <lb ed="#P" n="9"/>fructus arborum, et olera, et si qua sunt 
+          si<lb break="no" ed="#P" n="10"/>milia. Personales dicuntur, quae ex lucro per
+          <lb ed="#P" n="11"/>negotiationem, vel per quamcumque 
+          actio<lb break="no" ed="#P" n="12"/>nem personae comparato solvuntur, juxta c.
+          <lb ed="#P" n="13"/>Ad Apostolice, ev c. Non est, et c. Pastoralis,
+          <lb ed="#P" n="14"/>de Decimis, ut ex mercatura, venatione, 
+          opifi<lb break="no" ed="#P" n="15"/>cio, et similibus : in his enim exempla posuit
+          <lb ed="#P" n="16"/>Augustinus relatus in cap. Decime, 16, quaest.
+          <lb ed="#P" n="17"/>1. Mixtae dicuntur, quae ex fructibus 
+          anima<lb break="no" ed="#P" n="18"/>lium debentur, ut ex ovibus, et similibus, sive
+          <lb ed="#P" n="19"/>sint foetus ipsi, sive lana, caseus, et similia.
+          <lb ed="#P" n="20"/>Vocantur autem hae mixtoee, quia non 
+          prove<lb break="no" ed="#P" n="21"/>niunt ex solis praediis, sed ex illis simul cum
+          <lb ed="#P" n="22"/>industria hominum.
+        </p>
+        <p>
+          <lb ed="#P" n="23"/>4. Medi decime impugnantur. — Fortasse
+          <lb ed="#P" n="24"/>iamen hoc membrum naon est necessarium,
+          <lb ed="#P" n="25"/>quia nullae fere sunt praediales decimae, quae
+          <lb ed="#P" n="26"/>juxta illam considerationem non possint dici
+          <lb ed="#P" n="27"/>mistae, quia nulli essent terrae proventus, si
+          <lb ed="#P" n="28"/>industria hominum ad illos non cooperaretur,
+          <lb ed="#P" n="29"/>plantando, rigando, triturando, quibus modis
+          <lb ed="#P" n="30"/>cooperatur homo ad fructus animalium, 
+          cus<lb break="no" ed="#P" n="31"/>todiendo, pascendo, etc. Et quamvis negari
+          <lb ed="#P" n="32"/>non possit, quin circa animalia major 
+          indus<lb break="no" ed="#P" n="33"/>tria et custodia hominum requiratur, tamen
+          <lb ed="#P" n="34"/>in ipsis praediis hoc ipsum reperitur, majorem
+          <lb ed="#P" n="35"/>enim industriam requirunt segetes, quam 
+          ar<lb break="no" ed="#P" n="36"/>bores; et inter arbores majorem olivae quam
+          <lb ed="#P" n="37"/>poma. Unde jurisperiti ipsos praediales fructus
+          <lb ed="#P" n="38"/>distinguunt in naturales et industriales, ut
+          <lb ed="#P" n="39"/>notavit Covar., l. 1 Var., c. 3, n. 6, cum Glos.,
+          <lb ed="#P" n="40"/>in l. Divortio, verb. Fructus, ff. Solut. Matri.
+          <lb ed="#P" n="41"/>Non quia in prioribus nulla sit necessaria 
+          in<lb break="no" ed="#P" n="42"/>dustria, et in posterioribus nihil operetur 
+          na<lb break="no" ed="#P" n="43"/>tura, sed quia in illis multum facit natura cum
+          <lb ed="#P" n="44"/>parva industria; in his vero multa industria
+          <lb ed="#P" n="45"/>necessaria est ut juvetur natura; et ita fructus
+          <lb ed="#P" n="46"/>arborum vocant naturales, segetum 
+          industria<lb break="no" ed="#P" n="47"/>les, et oleum inter industriales ponunt, ut 
+          pa<lb break="no" ed="#P" n="48"/>tet ex Bart., inl. Ea diverso, c. de Rei vendi.
+          <lb ed="#P" n="49"/>Et eadem ratio est de vino, ut indicatur in I.
+          <lb ed="#P" n="50"/>Si ejus, ff. de Leg., 1. Et hoc modo etiam lac,
+          <lb ed="#P" n="51"/>lana, et animalium foetus inter industriales
+          <lb ed="#P" n="52"/>fructus numerantur a Dart. supra, et Bald., in
+          <lb ed="#P" n="53"/>l. Ancilla, c. de Fur.; et Panor. in c. Graris,
+          <lb ed="#P" n="54"/>de Restit. spoliat. Qui addunt alios fructus,
+          <lb ed="#P" n="55"/>quos civiles vocant, ut pensiones domorum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et similes, quos tamen Bald. industriales etilam
+          <lb ed="#P" n="57"/>vocat, in l. ult., c. de Usuris et fructibus 
+          le<lb break="no" ed="#P" n="58"/>gatorum. Omnes ergo decimae horum 
+          fruc<lb break="no" ed="#P" n="59"/>tuum praediales censendae videntur, nis? 
+          veli<lb break="no" ed="#P" n="60"/>mus tot membra decimarum distinguere, quot
+          <lb ed="#P" n="61"/>fructuum distinguuntur; unde Glos., in d. c.
+          <lb ed="#P" n="62"/>Ad Apnostclice, duo tantum membra ponit, et
+          <lb ed="#P" n="63"/>animalium decimas inter praediales computat,
+          <lb ed="#P" n="64"/>eamque communiter approbari testatur 
+          Na<lb break="no" ed="#P" n="65"/>var., d. cons. de Decimis, n. 8. Et habent 
+          fun<lb break="no" ed="#P" n="66"/>damentum in textu: nam duo tantum 
+          mem<lb break="no" ed="#P" n="67"/>bra ponit; constat autem apud omnes, illas
+          <lb ed="#P" n="68"/>decimas non esse personales. Et ad tollendam
+          <lb ed="#P" n="69"/>ambiguitatem, contra personales deeimas, 
+          pos<lb break="no" ed="#P" n="70"/>sent distingui decimae reales, quae omnes 
+          dic<lb break="no" ed="#P" n="71"/>tas comprehendant, ut indicavit Tyndarus,
+          <lb ed="#P" n="72"/>tract. de Decimis, n. 4. Differentiaque inter
+          <lb ed="#P" n="73"/>eas est, quia personales sunt ex lucris 
+          prove<lb break="no" ed="#P" n="74"/>nientibus ab actionibus mere personalibus, ut
+          <lb ed="#P" n="75"/>sunt corporales, et artificiales omnes, vel 
+          doc<lb break="no" ed="#P" n="76"/>tripnales; et inter has etiam venatio et piscatio
+          <lb ed="#P" n="77"/>computantur, ut notavit Innocentius, in c.
+          <lb ed="#P" n="78"/>Non est, de Decimis; et Tyndar. supra. 
+          Kea<lb break="no" ed="#P" n="79"/>les vero, seu praediales, sunt ex bonis 
+          prove<lb break="no" ed="#P" n="80"/>nientibus a rebus distinctis a nobis, quas 
+          pos<lb break="no" ed="#P" n="81"/>sidemus. Interdum autem, brevitatis causa,
+          <lb ed="#P" n="82"/>utemur nomine mixtarum, ad significandas
+          <lb ed="#P" n="83"/>decimas ex fructibus animalium, ubi specialis
+          <lb ed="#P" n="84"/>difficultas circa eas occurrerit. Non est autem
+          <lb ed="#P" n="85"/>semper facile discernere an aliqua decima sit
+          <lb ed="#P" n="86"/>realis, vel personalis, cum tamen id multum
+          <lb ed="#P" n="87"/>intersit ad sciendum cui solveuda sit. Sed hoc
+          <lb ed="#P" n="88"/>pendet ex dicendis, et praecipue in cap. 19 
+          ex<lb break="no" ed="#P" n="89"/>plicabitur.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>5. Prima assertio: preceptum solvendi 
+          deci<lb break="no" ed="#P" n="91"/>mas non est de puro jure naturali. — Ante 
+          le<lb break="no" ed="#P" n="92"/>gemn scriptam nullum erat praceptum 
+          decima<lb break="no" ed="#P" n="93"/>rum . — Abraham quas ob causas solverit 
+          deci<lb break="no" ed="#P" n="94"/>mas.—His positis, de praecepto solvendi 
+          deci<lb break="no" ed="#P" n="95"/>mas unum constat apud omnes, scilicet, non
+          <lb ed="#P" n="96"/>esse de puro jure naturali, secluso omni 
+          posi<lb break="no" ed="#P" n="97"/>tivo divino et humano, quia nulla ratio 
+          natu<lb break="no" ed="#P" n="98"/>ralis dictat necessarium esse ad honestatem
+          <lb ed="#P" n="99"/>morum dare decimam partem proventuum
+          <lb ed="#P" n="100"/>sacerdotibus, ad suam sustentationem, quia
+          <lb ed="#P" n="101"/>nec certum, nec evidens est, illam copiam esse
+          <lb ed="#P" n="102"/>illis necessariam, aut esse justum stipendium.
+          <lb ed="#P" n="103"/>Unde hoc non solum est verum loquendo de
+          <lb ed="#P" n="104"/>lege naturae, qualis in pura natura esse 
+          po<lb break="no" ed="#P" n="105"/>tuisset, sed etiam loquendo de lege 
+          connatu<lb break="no" ed="#P" n="106"/>rali fidei, seu rationi illustratae per fidem.
+          <lb ed="#P" n="107"/>Neque etiam hoc sclum fundari potest in hoc,
+          <lb ed="#P" n="108"/>quod ipsemet ritus sacrificii et sacerdotii, ut
+          <lb ed="#P" n="109"/>sic, non est ita necessarius ex puro jure 
+          natu<lb break="no" ed="#P" n="110"/>rali, quin aliquo etiam jure positivo divino,
+          <pb ed="#P" n="115"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel fortasse jure gentium fuerit introductum;
+          <lb ed="#P" n="2"/>sed etiam procedit , facta suppositione talis
+          <lb ed="#P" n="3"/>status sacerdotalis, ad cultum Dei et 
+          ministe<lb break="no" ed="#P" n="4"/>rium caeterorum fidelium ordinati : nam
+          <lb ed="#P" n="5"/>etiam hoc modo ex puro discursu rationis non
+          <lb ed="#P" n="6"/>scquitur obligatio reddendi illam quotam 
+          par<lb break="no" ed="#P" n="7"/>tem, sed solum convenientem sustentationem.
+          <lb ed="#P" n="8"/>Et ita ante legem scriptam nullum fuit 
+          praece<lb break="no" ed="#P" n="9"/>po de Solvendis decimis, ut docuit D. 
+          Tho<lb break="no" ed="#P" n="10"/>mas 2. 2, q. S1, art. 1, ad 2, ideoque in 
+          Scr<lb break="no" ed="#P" n="11"/>ptura de toto illo tempore non legimus 
+          ob<lb break="no" ed="#P" n="12"/>gationem aliquam solvendi decimas ex 
+          prae<lb break="no" ed="#P" n="13"/>cepto : nam, licet Gen. 14, Abraham decimas
+          <lb ed="#P" n="14"/>dederit Melchisedech, non constat id fecisse ex
+          <lb ed="#P" n="15"/>obligatione, sed ex gratitudine, vel 
+          reveren<lb break="no" ed="#P" n="16"/>tia, ac devotione, et gratiarum actione pro
+          <lb ed="#P" n="17"/>victoria in bello parta, et in recognitionem
+          <lb ed="#P" n="18"/>dignitatis, et sacerdotii Melchisedech, et 
+          for<lb break="no" ed="#P" n="19"/>tasse spiritu prophetico, ut Christum in sua
+          <lb ed="#P" n="20"/>figura veneraretur, juxta doctrinam Pauli, ad
+          <lb ed="#P" n="21"/>Heb. 7. Similter, licet Gen. 28 Jacob obtulerit
+          <lb ed="#P" n="22"/>Deo decimas , dicens : Cunctorum qua dederis
+          <lb ed="#P" n="23"/>mili, decimas offerum tibi, tamen ipse modus
+          <lb ed="#P" n="24"/>offerendi ex voto (ut recte notarunt Hugo de
+          <lb ed="#P" n="25"/>S. Victor. infra citandus, et Abul. ibi) 
+          osten<lb break="no" ed="#P" n="26"/>dit, non fuisse ex obligatione, sed ex devotione
+          <lb ed="#P" n="27"/>et spontanea promissione. Praeterquam quod
+          <lb ed="#P" n="28"/>illa decimarum solutio alterius rat:ionis et 
+          con<lb break="no" ed="#P" n="29"/>siderationis fuit, ut infra probabo. Utrumque
+          <lb ed="#P" n="30"/>autem modum offerendi decimas in Dei 
+          cul<lb break="no" ed="#P" n="31"/>tum, scilicet, et ex voto, et in gratiarum 
+          ac<lb break="no" ed="#P" n="32"/>tionem pro aliqua victoria, fuisse etiam inter
+          <lb ed="#P" n="33"/>gentiles usitatum, ex humanis historiis 
+          con<lb break="no" ed="#P" n="34"/>stat, quas breviter indicat Caesar Bar.. tom. 1,
+          <lb ed="#P" n="35"/>anno Christi 57, n. 74; et plura Azor, l. 7 
+          In<lb break="no" ed="#P" n="36"/>stit., e. 34, q. 2; Salmer., tom. 4, in Evang.,
+          <lb ed="#P" n="37"/>p. 3, tract. 34; et videri povest Plin., l. 19, c.
+          <lb ed="#P" n="38"/>14; Plutarch., in Problemat., c. 16. Haec vero
+          <lb ed="#P" n="39"/>omnia non indicant naturale praeceptum, sed
+          <lb ed="#P" n="40"/>ad summum consonantiam cum lege naturali.
+          <lb ed="#P" n="41"/>Et quamvis in contrarium referri soleant 
+          In<lb break="no" ed="#P" n="42"/>nocentius, in c. ult. de Parochüs, et 
+          Hostien<lb break="no" ed="#P" n="43"/>sis, in Sum., tit. de Decimis, S 7, et Panor.,
+          <lb ed="#P" n="44"/>in c. 7n aliquibus, de Decimis, et alii, quos
+          <lb ed="#P" n="45"/>refert Covar., 1. 1 Variar., c. 17, n. 2, 8 Ft
+          <lb ed="#P" n="46"/>preeter has. tamen neque illi satis declarant
+          <lb ed="#P" n="47"/>de quo jure loquantur, sed confuse valde 
+          trac<lb break="no" ed="#P" n="48"/>tant de jure divino, neque illa sententia in illo
+          <lb ed="#P" n="49"/>sensu intellecta, probabilitatem aut 
+          verisimi<lb break="no" ed="#P" n="50"/>litudinem habet, nec rationem aut 
+          testimo<lb break="no" ed="#P" n="51"/>nium cui respondere necessarium sit.
+        </p>
+        <p>
+          <lb ed="#P" n="52"/>6. Secunda assertio : in lege ceteri datum
+          <lb ed="#P" n="53"/>est divinum pr eceptum de solvendis decimis.
+          <lb ed="#P" n="54"/>—Secundo, constans et certum est, in lege
+          <lb ed="#P" n="55"/>veteri fuisse datum divinum praeceptum de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>solvendis decimis sacerdotibus et Levitis : res
+          <lb ed="#P" n="57"/>est notissima, Exod. 22 et 23, Levit. 27, etc.
+          <lb ed="#P" n="58"/>Duo autem circa praeceptum illud declarare
+          <lb ed="#P" n="59"/>necesse est: primum, an fuerit datum de solis
+          <lb ed="#P" n="60"/>decimis praedialibus, vel etiam de 
+          personali<lb break="no" ed="#P" n="61"/>bus. Nonnulli enim Canonistae, ut 
+          Innocen<lb break="no" ed="#P" n="62"/>tius, Panormitanus, et alii, indicant de 
+          utris<lb break="no" ed="#P" n="63"/>que datum esse illud praeceptum, quatenus
+          <lb ed="#P" n="64"/>aiunt etiam nunc praeceptum solvendi decimas
+          <lb ed="#P" n="65"/>personales esse de jure de Tamen D. 
+          Tho<lb break="no" ed="#P" n="66"/>mas 2. 2, q. 81, art. 2, ad 1, docet tantum
+          <lb ed="#P" n="67"/>decimas praediales tunc praeceptas, quia
+          <lb ed="#P" n="68"/>de personalibus nullum invenitur datum 
+          prae<lb break="no" ed="#P" n="69"/>ceptum, et eo ipso quod in lege datum non
+          <lb ed="#P" n="70"/>est, recte colligitur non fuisse, quia non erat
+          <lb ed="#P" n="71"/>naturale, ut dictum est; et idem colligo ex
+          <lb ed="#P" n="72"/>Philone, lib. de Sacerdotibus honorandis, ubi
+          <lb ed="#P" n="73"/>post explicatum usum Judaici populi de 
+          sol<lb break="no" ed="#P" n="74"/>vendis decimis subdit : Et he quidem 
+          soltun<lb break="no" ed="#P" n="75"/>tur ex pricatis possessionibus. Sub 
+          praediali<lb break="no" ed="#P" n="76"/>bus autem mistas comprehendi intelligendum
+          <lb ed="#P" n="77"/>est, ut diserte explicatur Levit. 27: Omnes
+          <lb ed="#P" n="78"/>(inquit) decimee terrae, sive de frugibus, sive
+          <lb ed="#P" n="79"/>de pomis arborum, Domini sunt. Sub quibus
+          <lb ed="#P" n="80"/>etiam minimi fructus comprehenduntur, 
+          jux<lb break="no" ed="#P" n="81"/>ta illud Luc. 11: Decimatis mentham, et 
+          ru<lb break="no" ed="#P" n="82"/>tam, et omne olus. Et additur in praedicta 
+          le<lb break="no" ed="#P" n="83"/>ge: Omniun decimarum bovis, et ovis, 
+          etca<lb break="no" ed="#P" n="84"/>pre, quee sub pastoris virga transeunt, 
+          quic<lb break="no" ed="#P" n="85"/>quid decimn cenerit, sanctificabitur Domino:
+          <lb ed="#P" n="86"/>quod etiam de quibuscumque foetibus, et
+          <lb ed="#P" n="87"/>fructibus aliorum animalium intelligendum
+          <lb ed="#P" n="88"/>est. Unde Luca 18, Pharisaeus ille dicebat:
+          <lb ed="#P" n="89"/>Decimas do omnium quae possideo. Ubi etiam
+          <lb ed="#P" n="90"/>notari potest quod, licet se maxime laudare
+          <lb ed="#P" n="91"/>cuperet, non dixit: Decimas do omnium, quae
+          <lb ed="#P" n="92"/>lueror vel acquiro: quod est signum 
+          praedia<lb break="no" ed="#P" n="93"/>les. non personales decimas fuisse tunc 
+          praece<lb break="no" ed="#P" n="94"/>ptas. Atque ha.c sententia vera est et 
+          commu<lb break="no" ed="#P" n="95"/>niter recepta, ut videre licet in Soto, l. 9 de
+          <lb ed="#P" n="96"/>Just., q. 4, art. 2; Covar., Gutierez, et aliis
+          <lb ed="#P" n="97"/>quos infra referemus; et tenuit etiam 
+          Hos<lb break="no" ed="#P" n="98"/>tiens., in d. §  7.
+        </p>
+        <p>
+          <lb ed="#P" n="99"/>1. Prima sententia, astruens preceptum de
+          <lb ed="#P" n="100"/>decimis esse ceremoniale, non vero judiciale
+          <lb ed="#P" n="101"/>nec morale. — Probatur. — Confirmatur, ex
+          <lb ed="#P" n="102"/>eo quod illud preceptum erat significativum.
+          <lb ed="#P" n="103"/>— Alterum explicandum circa illam !egem,
+          <lb ed="#P" n="104"/>est an praeceptum illud decimarum fuerit 
+          ju<lb break="no" ed="#P" n="105"/>diciale, vel caremoniale. Suppono enim ex
+          <lb ed="#P" n="106"/>materia de legibus notam distinctionem 
+          tri<lb break="no" ed="#P" n="107"/>plicium praeceptorum iliius legis, moralium,
+          <lb ed="#P" n="108"/>judicialium et caeremonialium. Suppono etiam
+          <lb ed="#P" n="109"/>praeceptum decimarum non fuisse pure 
+          mo<lb break="no" ed="#P" n="110"/>rale; ut ex prima assertione manifestum est,
+          <pb ed="#P" n="116"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia praecepta moralia dicuntur, illa quae sunt
+          <lb ed="#P" n="2"/>de lcge naturae; in hoc autem praecepto 
+          spe<lb break="no" ed="#P" n="3"/>cialis determinatio addita fuit ex jure divino
+          <lb ed="#P" n="4"/>positivo, ad quod pertinebant praecepta 
+          judi<lb break="no" ed="#P" n="5"/>cialia et caeremonialia. Inquirimus ergo sub
+          <lb ed="#P" n="6"/>quo illorum menibrorum contineretur hoc
+          <lb ed="#P" n="7"/>praeceptum; videri autem potest esse 
+          praecep<lb break="no" ed="#P" n="8"/>tum cercmoniale, quia erat praeceptum 
+          per<lb break="no" ed="#P" n="9"/>tinens ad virtutem religionis ; omnes autem
+          <lb ed="#P" n="10"/>actus religionis sub caeremoniis merito 
+          com<lb break="no" ed="#P" n="11"/>prehenduntur; ergo praeceptum de tah actu
+          <lb ed="#P" n="12"/>caeremoniale erat, quia praeceptum 
+          caeremo<lb break="no" ed="#P" n="13"/>niale nihil aliud esse videtur quam praeceptum
+          <lb ed="#P" n="14"/>de caeremonia religiosa. Item praeceptum illud
+          <lb ed="#P" n="15"/>agniticationem aliquam habebat, quod etiam
+          <lb ed="#P" n="16"/>erat proprium caeremonialium praeceptorum.
+          <lb ed="#P" n="17"/>Assumptuum patet, quia denarius est numerus
+          <lb ed="#P" n="18"/>perfectus ; unde qui decimam sacerdoti solvit,
+          <lb ed="#P" n="19"/>dum novem tantum partes retinet, 
+          imper<lb break="no" ed="#P" n="20"/>fectionem suam profitetur, ut notavit Philo,
+          <lb ed="#P" n="21"/>libr. de Congressu quaerendae eruditionis 
+          gra<lb break="no" ed="#P" n="22"/>tia, ad medium, et ita etiam populus 
+          il<lb break="no" ed="#P" n="23"/>le, solvendio decimam, imperfectionem sui
+          <lb ed="#P" n="24"/>status, et perfectionem per Christum 
+          expec<lb break="no" ed="#P" n="25"/>tandam praefigurabat : et Paulus, ad Hebraeos
+          <lb ed="#P" n="26"/>1, perfectioncm Melchisedech indicatam dicit
+          <lb ed="#P" n="27"/>in eo, quod Abraham ei decimas solvit : 
+          7n<lb break="no" ed="#P" n="28"/>tuemini (inquit) quantus sit kic, cui et decimas
+          <lb ed="#P" n="29"/>dedit de pracipuis Abraham Patriarcha, quae
+          <lb ed="#P" n="30"/>perfectio in Christo praecipue futura 
+          significa<lb break="no" ed="#P" n="31"/>batur, ut ibidem exponit divus Thomas, et
+          <lb ed="#P" n="32"/>latius 3 part., quaest. 231, art. 8. Accedit
+          <lb ed="#P" n="33"/>quod divus Thomas 1. 2, quaest. 104, art. 4,
+          <lb ed="#P" n="34"/>reducens praecepta judicialia ad quatuor
+          <lb ed="#P" n="35"/>membra, nullum assignat sub quo possit hoc
+          <lb ed="#P" n="36"/>praeceptum contineri; et in 3 part., q. 65,
+          <lb ed="#P" n="37"/>art. 1, ad 7, decimas ponit inter sacramenta
+          <lb ed="#P" n="38"/>vetera; at vero praecepta sacramentorum 
+          cae<lb break="no" ed="#P" n="39"/>remonialia erant, juxta doctrinam ejusdem
+          <lb ed="#P" n="40"/>Sancti 1. 2, q. 101, art. 4. Ergo praeceptum
+          <lb ed="#P" n="41"/>decimarum erat caeremoniale, quoad quotam.
+          <lb ed="#P" n="42"/>Atque ita sensit Henric., Quodlibet. 4, 
+          quaes<lb break="no" ed="#P" n="43"/>tione 28.
+        </p>
+        <p>
+          <lb ed="#P" n="44"/>8. Vera D. Thome et aliorum sententia,
+          <lb ed="#P" n="45"/>esse judiciale quoad determinationem partis
+          <lb ed="#P" n="46"/>decima. — Nihilominus D. Thomas, d. quaest.
+          <lb ed="#P" n="47"/>81, art. 1 (quam Soto, Aragon., Valentia, et
+          <lb ed="#P" n="48"/>alii sequuntur, et Astensis, in Sum., 2 part.,
+          <lb ed="#P" n="49"/>lib. 6, num. 35), docet praeceptum illud fuisse
+          <lb ed="#P" n="50"/>judiciale, quoad determinationem partis 
+          de<lb break="no" ed="#P" n="51"/>cimae. Ratio est, quia pracepta judicialia 
+          di<lb break="no" ed="#P" n="52"/>cebantur, quae ad debitum ordinem, et 
+          aequi<lb break="no" ed="#P" n="53"/>tatem inter partes illius popnli servandam 
+          or<lb break="no" ed="#P" n="54"/>dinabantur, ut late D. Thomas declarat, 1. 2,
+          <lb ed="#P" n="55"/>quaest. 104. Praceptum autem decimarum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ordinabatur ad constituendam asequitatem
+          <lb ed="#P" n="57"/>quamdam inter hominces illius populi, 
+          secun<lb break="no" ed="#P" n="58"/>dum specialem et determinatum modum, quem
+          <lb ed="#P" n="59"/>sola naturalis ratio non dictabat ut 
+          necessa<lb break="no" ed="#P" n="60"/>r'um; erat ergo ex praeceptis judicialibus.
+          <lb ed="#P" n="61"/>Minor declaratur, quia imprimis tribus Levi
+          <lb ed="#P" n="62"/>non habuit partem cum aliis tribubus in 
+          di<lb break="no" ed="#P" n="63"/>visione terrae, quoad praedia et possessiones,
+          <lb ed="#P" n="64"/>et ideo oportuit aliquo modo illud 
+          recompen<lb break="no" ed="#P" n="65"/>sari, quod factum est per solutionem 
+          decima<lb break="no" ed="#P" n="66"/>rum. Deinde quia Levitae et sacerdotes 
+          minis<lb break="no" ed="#P" n="67"/>trabant populo; et ideo ratio etiam postulabat
+          <lb ed="#P" n="68"/>ut a populo alerentur , solutis decimis, juxta
+          <lb ed="#P" n="69"/>illud Numerorum 18: Filis Levi dedi omnes
+          <lb ed="#P" n="70"/>decimas Tsrael in possessionem pro ministerio,
+          <lb ed="#P" n="71"/>quo serciunt mihi ; et infra : Nihil aliud 
+          possi<lb break="no" ed="#P" n="72"/>debunt, decimarum ob!atione contenti, quas in
+          <lb ed="#P" n="73"/>usus eorum et necessaria preparavi. ldem
+          <lb ed="#P" n="74"/>Deuter. 10 et 18. Praeterea praeceptum illud
+          <lb ed="#P" n="75"/>non fuit primo et per se datum propter 
+          signi<lb break="no" ed="#P" n="76"/>ficationem, sed propter convenientem ordinem
+          <lb ed="#P" n="77"/>ilius reipublicae; consequenter autem, vel 
+          in<lb break="no" ed="#P" n="78"/>directe, habere potuit significationem supra
+          <lb ed="#P" n="79"/>positam , nam id etiam praeceptis judicialibus
+          <lb ed="#P" n="80"/>convenit. Tandem caeremonialia praecepta ita
+          <lb ed="#P" n="81"/>cessarunt, ut renovari non possint per legem
+          <lb ed="#P" n="82"/>humanam. Praeceptum autem decimarum 
+          re<lb break="no" ed="#P" n="83"/>tentum est in Ecclesia, ut videbimus, quod in
+          <lb ed="#P" n="84"/>judicialibus praeceptis fieri potest, ut constat
+          <lb ed="#P" n="85"/>ex D. Thoma, d. q. 104, art. 3; ergo signum
+          <lb ed="#P" n="86"/>est, esse judiciale.
+        </p>
+        <p>
+          <lb ed="#P" n="87"/>9. Secundam sententiam amplectitur 
+          auc<lb break="no" ed="#P" n="88"/>tor, et ad primum fundamentum respondetur.
+          <lb ed="#P" n="89"/>— D. Thomae loca explanantur. — Ad 
+          ratio<lb break="no" ed="#P" n="90"/>nem igitur in oppositum respondemus, si 
+          con<lb break="no" ed="#P" n="91"/>sideretur actus solvendi decimas, quatenus ad
+          <lb ed="#P" n="92"/>cultum Dei ordinatur, aliquid sine dubio 
+          par<lb break="no" ed="#P" n="93"/>ticipare de caeremonialibus praeceptis, ut dixit
+          <lb ed="#P" n="94"/>etiam D. Thomas, Quodlib. 2, art. 8. Quia
+          <lb ed="#P" n="95"/>vero actus solvendi decimas immediate, et
+          <lb ed="#P" n="96"/>quasi ex objec:o proximo, pertinet ad 
+          justi<lb break="no" ed="#P" n="97"/>tiam, ad religionem autem quasi remote, quia
+          <lb ed="#P" n="98"/>formaliter non continet ipsum cultum Dei,
+          <lb ed="#P" n="99"/>sed ad illum ordinatur, ideo magis censetur
+          <lb ed="#P" n="100"/>illud praeceptum judiciale, quam caeremoniale.
+          <lb ed="#P" n="101"/>Et sic dixit D. Thomas 2. 2, quaest. 85, artic.
+          <lb ed="#P" n="102"/>3, ad 3, decimas non offerri Deo immediate,
+          <lb ed="#P" n="103"/>sed ministris divini cultus, et ideo non esse
+          <lb ed="#P" n="104"/>oblationes neque sacrificia. Unde etiam in 
+          ri<lb break="no" ed="#P" n="105"/>eore, et proprietate sermonis, decimarum 
+          so<lb break="no" ed="#P" n="106"/>lutio non potest dici proprie caeremonia, nam
+          <lb ed="#P" n="107"/>sustentatio ministrorum non est caeremonia,
+          <lb ed="#P" n="108"/>ut per se patet : determinatio autem ad talem
+          <lb ed="#P" n="109"/>modum non fit propter caeremoniam, sed
+          <lb ed="#P" n="110"/>propter quamdam prudentem legis moralis
+          <pb ed="#P" n="117"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>determinationem. Quod autem dicebatur de
+          <lb ed="#P" n="2"/>significatione, jam solutum est; nam facile
+          <lb ed="#P" n="3"/>potuit nunc retineri ille usus sine illa 
+          signifi<lb break="no" ed="#P" n="4"/>catione. Nihil autem impedit quod nunc etiam
+          <lb ed="#P" n="5"/>significet imperfectionem populi laici respectu
+          <lb ed="#P" n="6"/>sacerdotalis. Ad primum asutem locum D.
+          <lb ed="#P" n="7"/>Thomae, respondetur praeceptum hoc reduci
+          <lb ed="#P" n="8"/>ad illud membrum ordinis debiti inter 
+          prin<lb break="no" ed="#P" n="9"/>cipes et subditos ; hunc enim judicialia 
+          prae<lb break="no" ed="#P" n="10"/>cepta constituebant, et inter principes 
+          pos<lb break="no" ed="#P" n="11"/>sunt sacerdotes numerari, quod eleganter 
+          sen<lb break="no" ed="#P" n="12"/>sit Philo supra, dicto lib. de Sacerd. 
+          ho<lb break="no" ed="#P" n="13"/>nor., ubi, explicato praecepto decimarum,
+          <lb ed="#P" n="14"/>subjungit : Ex his liquet juxta legis judicium
+          <lb ed="#P" n="15"/>sacerd.tes equiparari honore ac majestate 
+          re<lb break="no" ed="#P" n="16"/>gibus, siguidem illis tanquam principibus 
+          con<lb break="no" ed="#P" n="17"/>ferri tibuta imperat. In aitero vero loco 
+          ter<lb break="no" ed="#P" n="18"/>tiae partis, late utitur divus Thomas nomine
+          <lb ed="#P" n="19"/>sacramenti, pro quocumque signo sacro; sic
+          <lb ed="#P" n="20"/>enim loquitur Hugo de S. Victor.. 1 de 
+          Sa<lb break="no" ed="#P" n="21"/>cram.. p. 12, c. 10, quem ibi D. Thomas 
+          in<lb break="no" ed="#P" n="22"/>terpretatur; et ideo juxta illius modum 
+          lo<lb break="no" ed="#P" n="23"/>quitur.
+        </p>
+        <p>
+          <lb ed="#P" n="24"/>10. Tertia assertio : preceptum solvendi 
+          de<lb break="no" ed="#P" n="25"/>cinas, quo sensu est de jure naturali, et divino
+          <lb ed="#P" n="26"/>erangeico. — Tertio, principaliter dicendum
+          <lb ed="#P" n="27"/>est fidelibus christianis datum esse 
+          praece<lb break="no" ed="#P" n="28"/>ptum solvendi decimas. Hoc in genere 
+          sum<lb break="no" ed="#P" n="29"/>ptum, certissimum est ac de fide. Quia vero
+          <lb ed="#P" n="30"/>in decima duo distinximus, scilicet, congruam
+          <lb ed="#P" n="31"/>sustentationem clericorum, quae vocari potest
+          <lb ed="#P" n="32"/>decima sustentationis, et determinatio tantae
+          <lb ed="#P" n="33"/>partis. quae vocatur decima quotae, ex diversis
+          <lb ed="#P" n="34"/>fundamentis utrumque probandum est: nam
+          <lb ed="#P" n="35"/>quoad primum, solutio decimarum de jure
+          <lb ed="#P" n="36"/>naturali rigoroso est, ut in principio diximus.
+          <lb ed="#P" n="37"/>Est etiam de jure divino evangelico quasi
+          <lb ed="#P" n="38"/>confirmante et explicante jus ipsum morale;
+          <lb ed="#P" n="39"/>quod aperte docuit Paulus, 1 ad Corint. 9, ubi
+          <lb ed="#P" n="40"/>prius jus naturae declarat, dicens : Quis 
+          mili<lb break="no" ed="#P" n="41"/>tat suis stipendiis unguam? et pluribus aliis
+          <lb ed="#P" n="42"/>similibus verbis. Deinde evangelicum 
+          osten<lb break="no" ed="#P" n="43"/>dit, dicens: 7ta et Dominus ordinav:t iis qui
+          <lb ed="#P" n="44"/>Hrangelium anuunciant, de Ecangelio civere.
+          <lb ed="#P" n="45"/>Significavit autem hoc Christus Dominus,
+          <lb ed="#P" n="46"/>Luc. 10, dicens : 7n eadem autem domo 
+          ma<lb break="no" ed="#P" n="47"/>nete, edentes et lDibentes quae apud illos sunt;
+          <lb ed="#P" n="48"/>dignus est emimm operarius mercede sua. Idem
+          <lb ed="#P" n="49"/>docuit Paulus, 1 ad Timoth. 5, dicens : Qui
+          <lb ed="#P" n="50"/>bene preesunt preesbyteri, duplici honore digni
+          <lb ed="#P" n="51"/>habeantur, maaxine qui laborant in verbo et
+          <lb ed="#P" n="52"/>docrina ; dicit enim Scriptura : Non alligalis
+          <lb ed="#P" n="53"/>0$ bovi trituranti, ct diguus est operarius 
+          mer<lb break="no" ed="#P" n="54"/>cede sua. Ubi Ambrosius et aliqui interpretes
+          <lb ed="#P" n="55"/>per duplicem honorem intelligunt exteriorem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>reverentiam, et sustentationem; 
+          Chrysosto<lb break="no" ed="#P" n="57"/>mns autem ibi, homil. 15, de solo honore 
+          sub<lb break="no" ed="#P" n="58"/>sidii verba intelligit, sed illum futurum dicit
+          <lb ed="#P" n="59"/>esse duplicem, id est, non solum 
+          sufficien<lb break="no" ed="#P" n="60"/>tem, sed etiam abundantem, juxta phrasim
+          <lb ed="#P" n="61"/>Scripturae : Duplici contritione conterc«t eos,
+          <lb ed="#P" n="62"/>Jer. 16, id est, magna. Oportet enim (inquit)
+          <lb ed="#P" n="63"/>doctoribus necessaria affatim ministrare, ne
+          <lb ed="#P" n="64"/>deficiant, neque solvantur, neque minimis 
+          oc<lb break="no" ed="#P" n="65"/>cupati, magnis seipsos atque alios privent.
+          <lb ed="#P" n="66"/>Gregorius autem, hom. 17 in Evangelio, 
+          du<lb break="no" ed="#P" n="67"/>plicem honorem declarat subsidii convenientis
+          <lb ed="#P" n="68"/>in terris, et condigni praemii in coelis: U hic
+          <lb ed="#P" n="69"/>(inquit) de labe preed/cationis merces 
+          inchose<lb break="no" ed="#P" n="70"/>tur, quae ili de veritatis cisione perfic tur. 
+          Quo<lb break="no" ed="#P" n="71"/>cumque autem modo illa verba exponantur,
+          <lb ed="#P" n="72"/>in eis naturaie et evangelicum praeceptum de
+          <lb ed="#P" n="73"/>congrua, imo et abundanti sustentatione 
+          mi<lb break="no" ed="#P" n="74"/>nistris evangelicis debita continetur.
+        </p>
+        <p>
+          <lb ed="#P" n="75"/>11. Probatur hoc preceptum ex traditione
+          <lb ed="#P" n="76"/>Ec-lesiee, et Jure canonico. — Altera vero pars
+          <lb ed="#P" n="77"/>hujus praecepti de quota, probatur ab 
+          aliqui<lb break="no" ed="#P" n="78"/>bus canonistis, etiam ex Evangelio Matth. 23:
+          <lb ed="#P" n="79"/>Ve vobis Scribe et Pharisei, qui 
+          decima<lb break="no" ed="#P" n="80"/>lis, etc.; et infra : Hec oportuit facere, et
+          <lb ed="#P" n="81"/>illa non omittere, etc. Quod etiam habet Luc.,
+          <lb ed="#P" n="82"/>c. 11. Sed inde nihil probatur, quia Christus
+          <lb ed="#P" n="83"/>de tempore antiquae legis ibi loquitur, et 
+          lau<lb break="no" ed="#P" n="84"/>dat Pharisaeos, in hoc quod praeceptum illud
+          <lb ed="#P" n="85"/>servabant, reprehendit autem quia alia 
+          prae<lb break="no" ed="#P" n="86"/>termittebant. Inde vero colligi non potest
+          <lb ed="#P" n="87"/>quod illud idem praeceptum pro tempore legis
+          <lb ed="#P" n="88"/>gratiae approbaverit. Sol um ergo probandum
+          <lb ed="#P" n="89"/>est hoc praeceptum ex traditione Ecclesiae, et
+          <lb ed="#P" n="90"/>ex jure canonico; ita enim habetur in 
+          de<lb break="no" ed="#P" n="91"/>cretis, 16, q. 1, per multa capita, capit. 
+          Ec<lb break="no" ed="#P" n="92"/>clesie, cap. de Decimis, et cap. lecimas, et
+          <lb ed="#P" n="93"/>cap. Statuimus, et cap. In sacris, cap. In
+          <lb ed="#P" n="94"/>Canonibus, cap. Bevertimini, et cap. Decimr,
+          <lb ed="#P" n="95"/>ubi specialiter Augustinus ait : Decime «
+          <lb ed="#P" n="96"/>delito requiruntur, et qui eas dare ulverit,
+          <lb ed="#P" n="97"/>res alienas incasit, serm. 2919 de Tempore.
+          <lb ed="#P" n="98"/>Idem praeceptum habetur in titulis de Decimis,
+          <lb ed="#P" n="99"/>libr. 3 Decretal., et in 6. Ex quibus aliqua
+          <lb ed="#P" n="100"/>decreta statim indicabimus. Et in Clementina
+          <lb ed="#P" n="101"/>Cupientes, de Poenis, excommunicantur 
+          reli<lb break="no" ed="#P" n="102"/>giosi, qui concionando, vel alio modo 
+          abalie<lb break="no" ed="#P" n="103"/>nant homines a solvendis decimis debitis; et
+          <lb ed="#P" n="104"/>in Concilio Tridentino, sess. 25, cap. 13 de
+          <lb ed="#P" n="105"/>Reform., dicitur: NVon sunt ferendi, qui varüis
+          <lb ed="#P" n="106"/>artibus, decimas Ecclesiis ovenientes 
+          subtra<lb break="no" ed="#P" n="107"/>here moliuntur, etc., cum decimarum solutio -
+          <lb ed="#P" n="108"/>debita sit Deo, et qui cas dere noluerint, aut
+          <lb ed="#P" n="109"/>dantes impediunt, ves alienas invadunt. Deinde
+          <lb ed="#P" n="110"/>adjungit praeceptum reddendi integre decimas
+          <pb ed="#P" n="118"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>debitas. Et in concilio Constant., session. 8,
+          <lb ed="#P" n="2"/>damnatur error Wicleph, qui dicebat decimas
+          <lb ed="#P" n="3"/>tantum esse voluntarias eleemosynas, quas
+          <lb ed="#P" n="4"/>populus pro arbitrio negare potest 
+          cacerdo<lb break="no" ed="#P" n="5"/>tibus male viventibus. Rationem autem et 
+          an<lb break="no" ed="#P" n="6"/>uiquitatem hujus praecepti explicabimus 
+          com<lb break="no" ed="#P" n="7"/>modius capitibus sequentibus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

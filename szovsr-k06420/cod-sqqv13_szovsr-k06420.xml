@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="258"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k06420"><!-- t2-l2c5 -->
+        <head>Caput 5</head>
+        <head type="question-title">De festis ad vitam et mortem christi pertinentibus, virginique communibus.</head>
+        <p>
+          <lb ed="#P" n="31"/>CAPUT V.
+          <lb ed="#P" n="32"/>DE FESTIS AD VITAM ET MORTEM CHRISTI 
+          PER<lb break="no" ed="#P" n="33"/>TINENTIBUS, VIRGINIQUE COMMUNIBUS.
+        </p>
+        <p>
+          <lb ed="#P" n="34"/>1. Advertendum est sermonem esse de his
+          <lb ed="#P" n="35"/>festivitatibus, quae sub praecepto servari 
+          man<lb break="no" ed="#P" n="36"/>dantur universae Ecclesiae, et populo ejus, et
+          <lb ed="#P" n="37"/>in rigore tantum sunt quinque : quibus nos
+          <lb ed="#P" n="38"/>duas addemus usque ad Christi mortem. Sunt
+          <lb ed="#P" n="39"/>vero multae aliee, in quibus quoad ecclesiastica
+          <lb ed="#P" n="40"/>officia, mysteria humanitatis Christi 
+          celebran<lb break="no" ed="#P" n="41"/>tur. sed illae non pertinent ad praeceptum 
+          spe<lb break="no" ed="#P" n="42"/>ciale de observatione festorum, de quo nunc
+          <lb ed="#P" n="43"/>disserimus, sed vel ad praeceptum de Horis
+          <lb ed="#P" n="44"/>canonicis, vel de modo celebrandi Missae 
+          sa<lb break="no" ed="#P" n="45"/>crificium, et ideo nunc de illis non agemus:
+          <lb ed="#P" n="46"/>attingemus vero quae necessaria fuerint, ut 
+          in<lb break="no" ed="#P" n="47"/>telligatur, an in aliquo illorum dierum 
+          prae<lb break="no" ed="#P" n="48"/>ceptum hoc de obligatione festorum liget.
+        </p>
+        <p>
+          <lb ed="#P" n="49"/>2. Festum Incarnationis. — In eodem die
+          <lb ed="#P" n="50"/>festum colebatur Verbi Incarnationis, et 
+          Vir<lb break="no" ed="#P" n="51"/>ginis Auuunciationis. — Dupliciter hoc 
+          fes<lb break="no" ed="#P" n="52"/>tum in Ecclesia celebratur. — Primum ergo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>festum, ut secundum ordinem rerum ea 
+          enu<lb break="no" ed="#P" n="54"/>meremus, est festum Incarnationis divini
+          <lb ed="#P" n="55"/>Verbi, quod etiam festum Annunciationis
+          <lb ed="#P" n="56"/>Beatae Virginis appellari solet. Imo, in 
+          Con<lb break="no" ed="#P" n="57"/>cilio Toletano XI, cap. primo, per 
+          antonoma<lb break="no" ed="#P" n="58"/>siam, festum divina seu dominicae Matris 
+          ap<lb break="no" ed="#P" n="59"/>pellatur : Nam quod (ait) festum Matris est,
+          <lb ed="#P" n="60"/>nisi Incarnatio Verbi? Et ita communiter
+          <lb ed="#P" n="61"/>inter festivitates Beatissimae Virginis haec 
+          nu<lb break="no" ed="#P" n="62"/>merari solet, nec immerito, quandoquidem in
+          <lb ed="#P" n="63"/>illa summam dignitatem et excellentissima
+          <lb ed="#P" n="64"/>gratiae dona consecuta est. Proprie tamen dici
+          <lb ed="#P" n="65"/>etiam potest festum Verbi Incarnati, quod illo
+          <lb ed="#P" n="66"/>die conceptum est sanctum, ut per Angelum
+          <lb ed="#P" n="67"/>annunciatum est. Sicut enim festum 
+          Conce<lb break="no" ed="#P" n="68"/>ptionis Virginis magis est festum ejusdem
+          <lb ed="#P" n="69"/>Virginis, quam matris ejus Anna, quamvis
+          <lb ed="#P" n="70"/>ex illa conceptione magnus honor magnaque
+          <lb ed="#P" n="71"/>Dei dona (ut credendum est) in gloriosam 
+          An<lb break="no" ed="#P" n="72"/>nam redundaverint, ita festum Incarnationis
+          <lb ed="#P" n="73"/>Christi principaliter est festum personae 
+          con<lb break="no" ed="#P" n="74"/>ceptae, et mysterii, licet simul ad Virginem
+          <lb ed="#P" n="75"/>pertineat. Quapropter, si secundum se 
+          spe<lb break="no" ed="#P" n="76"/>ctetur illud festum, summae dignitatis et 
+          laeti<lb break="no" ed="#P" n="77"/>tiae, inter omnia quae ad humanitatem Dei
+          <lb ed="#P" n="78"/>pertinent, esse videtur. Quia in illo 
+          supre<lb break="no" ed="#P" n="79"/>mum beneficium Deus hominibus contulit, et
+          <lb ed="#P" n="80"/>maximum omnium mirabilium suorum 
+          ope<lb break="no" ed="#P" n="81"/>rum fecit. Tamen quoad nos non videtur 
+          do<lb break="no" ed="#P" n="82"/>num illud perfecte collatum usque ad Virginis
+          <lb ed="#P" n="83"/>partum; et ideo quoad exteriorem laetitiam
+          <lb ed="#P" n="84"/>solemnius illa Nativitatis festivitas celebratur.
+          <lb ed="#P" n="85"/>Et ob eamdem causam festivitas illa praecipue
+          <lb ed="#P" n="86"/>ad Christum, haec vero ad Virginem referri
+          <lb ed="#P" n="87"/>videtur; et sine dubio ecclesiasticum officium
+          <lb ed="#P" n="88"/>ad Virginem praecipue dirigitur. Nihilominus
+          <lb ed="#P" n="89"/>tamen propter rationes factas, et propter 
+          ordi<lb break="no" ed="#P" n="90"/>nem festivitatum, hoc loco illam posuimus.
+          <lb ed="#P" n="91"/>Sciendum autem est festum hoc duobus modis
+          <lb ed="#P" n="92"/>in Ecclesia celebrari, uno generali, et alio
+          <lb ed="#P" n="93"/>particulari : generali quidem modo 
+          celebra<lb break="no" ed="#P" n="94"/>tur, eodem die quo mysterium peractum est,
+          <lb ed="#P" n="95"/>nimirum vigesima quinta die martii; 
+          parti<lb break="no" ed="#P" n="96"/>culari vero, prout in Hispania observatur,
+          <lb ed="#P" n="97"/>decima septima die Decembris, ex decreto
+          <lb ed="#P" n="98"/>Concilii Toletani X, capite primo, 
+          consuetu<lb break="no" ed="#P" n="99"/>dine et Pontificum approbatione usque ad
+          <lb ed="#P" n="100"/>nostra tempora retento; et olim in ecclesia
+          <lb ed="#P" n="101"/>Mediolanensi juxta ritum Ambrosianum 
+          ce<lb break="no" ed="#P" n="102"/>lebrabatur in Dominica quarta Adventus, ut
+          <lb ed="#P" n="103"/>refert Galesinus in annotationibus ad 
+          Marty<lb break="no" ed="#P" n="104"/>rologium Romanum ; verumtamen hic de 
+          pro<lb break="no" ed="#P" n="105"/>prio festo agimus, nam aliud potius 
+          institu<lb break="no" ed="#P" n="106"/>tum est per translationem quamdam 
+          solemni<lb break="no" ed="#P" n="107"/>tatis, ut iu eodem Concilio dicitur.
+          <pb ed="#P" n="259"/>
+          <cb ed="#P" n="a"/>
+        </p>
+        <p>
+          <lb ed="#P" n="1"/>3. Annuntiationem esse unam ex Deiparae
+          <lb ed="#P" n="2"/>festivitatibus. —De illo ergo festo in omni
+          <lb ed="#P" n="3"/>rigore observando, non invenio praeceptum
+          <lb ed="#P" n="4"/>in jure expressum et scriptum. Nam in cap.
+          <lb ed="#P" n="5"/>1. de Conse., d. 3, inter festivitates generales
+          <lb ed="#P" n="6"/>non ponitur, neque inter eas quae ad 
+          Chri<lb break="no" ed="#P" n="7"/>stum, neque inter eas quae ad Virginem 
+          spe<lb break="no" ed="#P" n="8"/>ctant, cum tamen inter priores ponatur 
+          Puri<lb break="no" ed="#P" n="9"/>ficatio, et inter posteriores Nativitas et 
+          As<lb break="no" ed="#P" n="10"/>sumptio Virginis. In cap. 1, extra, de Feriis,
+          <lb ed="#P" n="11"/>soium in generali dicitur : Et omnes 
+          festivi<lb break="no" ed="#P" n="12"/>tates Beale Firginis ; quae autem illae sint,
+          <lb ed="#P" n="13"/>non declaratur. Nihilominus tamen Doctores
+          <lb ed="#P" n="14"/>ibi communiter, Hostiensis, Joannes Andreas,
+          <lb ed="#P" n="15"/>Panormitanus, et alii, pro certo supponunt
+          <lb ed="#P" n="16"/>Annuntiationem ibi comprehendi sub 
+          festivi<lb break="no" ed="#P" n="17"/>tatibus Virginis, et advertunt quatuor 
+          solen<lb break="no" ed="#P" n="18"/>nes festivitates Virginis in quatuor anni 
+          tem<lb break="no" ed="#P" n="19"/>poribus celebrari, Annuntiationem in vere,
+          <lb ed="#P" n="20"/>Purificationem in hyeme, Assumptionem in
+          <lb ed="#P" n="21"/>aestate, Nativitatem in autumno ; ut ita 
+          omni<lb break="no" ed="#P" n="22"/>bus temporibus Virgo colatur, et vicissim 
+          om<lb break="no" ed="#P" n="23"/>nia tempora Virginis solemnitatibus ornentur
+          <lb ed="#P" n="24"/>et protegantur. Et sane, cum Gregorius IX 
+          au<lb break="no" ed="#P" n="25"/>ctor illius decreti non sit admodum antiquus,
+          <lb ed="#P" n="26"/>verisimile non est, illius tempore, festum 
+          In<lb break="no" ed="#P" n="27"/>carnationis non fuisse ex praecepto 
+          observa<lb break="no" ed="#P" n="28"/>tum in universa Ecclesia; nam ut colligitur
+          <lb ed="#P" n="29"/>ex Leone Papa, epistol. ad Episcopos Siciliae,
+          <lb ed="#P" n="30"/>cap. 2: Sicut est aliud tempus, quo, anuun
+          <lb ed="#P" n="31"/>cinnte Angelo, Beata Maria fecundandam se
+          <lb ed="#P" n="32"/>per Spiritum Sanctum credidit, et concepit ;
+          <lb ed="#P" n="33"/>aliud quo, salva integritate virginea, puer 
+          edi<lb break="no" ed="#P" n="34"/>tus, exultante gaudio colestium manistrorum,
+          <lb ed="#P" n="35"/>pastoribus indicatur ; ita discernende erant
+          <lb ed="#P" n="36"/>cause solemnitatum , et in omnibus institutis
+          <lb ed="#P" n="37"/>Patrum principumque nostrorum rationabilis
+          <lb ed="#P" n="38"/>servanda discretio. Nam spiritus sapentiee et
+          <lb ed="#P" n="39"/>intellectus ita Apostolos, et totius Ecclesie 
+          eru<lb break="no" ed="#P" n="40"/>divit magistros, ut in Christiana obsereantia
+          <lb ed="#P" n="41"/>nilul inordinatum, nihil pateretur esse 
+          confu<lb break="no" ed="#P" n="42"/>sum. Quae verba omnia sunt Leonis, licet non
+          <lb ed="#P" n="43"/>eodem ordine et contextu posita; unde, licet
+          <lb ed="#P" n="44"/>non expresse asserat has solemnitates fuisse a
+          <lb ed="#P" n="45"/>principio distinctas, indicat tamen, et ex 
+          eis<lb break="no" ed="#P" n="46"/>dem verbis satis congrua ratio ejus 
+          institutio<lb break="no" ed="#P" n="47"/>nis colligitur ; unde non dubito quin mysterium
+          <lb ed="#P" n="48"/>Incarnationis proprio et speciali ritu, officio
+          <lb ed="#P" n="49"/>ac die, fuerit ab Ecclesia semper celebratum.
+        </p>
+        <p>
+          <lb ed="#P" n="50"/>4. Quo die observari solitum sit hoc festum, 
+          in<lb break="no" ed="#P" n="51"/>certum est. — An vero ubique et semper fuerit
+          <lb ed="#P" n="52"/>omnibus fidelibus propositum, ut ex praecepto
+          <lb ed="#P" n="53"/>observandum, vel quando haec obligatio 
+          in<lb break="no" ed="#P" n="54"/>ceperit, mihi non constat. Item, an ubique
+          <lb ed="#P" n="55"/>fuerit in vigesima quinia die martüi observa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tum, vel in alio die, mihi incertum est. Nam
+          <lb ed="#P" n="57"/>in dicto Concilio Toletano X, praecipitur 
+          ob<lb break="no" ed="#P" n="58"/>servari in Hispania decima septima die 
+          janua<lb break="no" ed="#P" n="59"/>rii, et de festivitate Martii nulla fit mentio:
+          <lb ed="#P" n="60"/>imo significatur, tune non celebrari propter
+          <lb ed="#P" n="61"/>officia Quadragesimae, aut Passionis vel 
+          Resur<lb break="no" ed="#P" n="62"/>rectionis Domini; et ideo ne omitteretur illa
+          <lb ed="#P" n="63"/>solemnitas, illum alium diem pro illa designari.
+          <lb ed="#P" n="64"/>Et additur: Quod tamen uec sine ememplo 
+          de<lb break="no" ed="#P" n="65"/>centis moris, qui per diversas mundi partes 
+          di<lb break="no" ed="#P" n="66"/>gnoscitur observari, videtur institui. In multis
+          <lb ed="#P" n="67"/>enim Ecclesis a nobis et spatio remotis, et
+          <lb ed="#P" n="68"/>terris, hic mos agnoscitur retineri. Non est
+          <lb ed="#P" n="69"/>autem dubium quin loquatur illud Concilium
+          <lb ed="#P" n="70"/>de observatione propria festi omnibus 
+          fideli<lb break="no" ed="#P" n="71"/>bus injuncti ; nam dixit, debere esse ita 
+          solem<lb break="no" ed="#P" n="72"/>ne, sicut est ejusdem Nativitatis Verbi.
+        </p>
+        <p>
+          <lb ed="#P" n="73"/>5. Quam antiquum sit hoc festum. — Atque
+          <lb ed="#P" n="74"/>eodem modo videtur mentio ejusdem festi
+          <lb ed="#P" n="75"/>fieri in serm. 18 deSanctis, apud Augustinum,
+          <lb ed="#P" n="76"/>qui est secundus de Annuntiatione, quem 
+          ali<lb break="no" ed="#P" n="77"/>qui tribuunt Fulgentio; sub nomine tamen
+          <lb ed="#P" n="78"/>Augustini legitur ab Ecclesia in die Nativitatis
+          <lb ed="#P" n="79"/>Virginis; incipit autem in hunc modum:
+          <lb ed="#P" n="80"/>Adest nobis, dilectissimi, optatus dies Beate
+          <lb ed="#P" n="81"/>ac cenerabilis semper Virginis Mariee; ideo
+          <lb ed="#P" n="82"/>cum summa exultatione gaudeat terra nostra
+          <lb ed="#P" n="83"/>tante Virginis illustrata die solemni, etc. Quae
+          <lb ed="#P" n="84"/>verba satis indicant magnam fuisse tunc illam
+          <lb ed="#P" n="85"/>festivitatem, nec sunt admodum gissimilia,
+          <lb ed="#P" n="86"/>quibus sermonem alium in eamdem festivita -
+          <lb ed="#P" n="87"/>tem inchoat Andr. Jerosol., auctor gravis, et
+          <lb ed="#P" n="88"/>satis antiquus: Adest (inquit) nobis hodie 
+          gau<lb break="no" ed="#P" n="89"/>dium omnium pristinam nobis noxam diluens,
+          <lb ed="#P" n="90"/>adest qui est utique, ut omnia gaud:o impleat.
+          <lb ed="#P" n="91"/>Joannis etiam Chrysostomi oratio in eamdem
+          <lb ed="#P" n="92"/>festivitatem nobis indicat ejus aniiquitatem,
+          <lb ed="#P" n="93"/>incipit autem in hunc modum : Hursus letitie
+          <lb ed="#P" n="94"/>nuncii, rursus libertatis indicia, rursum 
+          gau<lb break="no" ed="#P" n="95"/>dia, rursum a servitute liberatio, ec. Petrus
+          <lb ed="#P" n="96"/>etiam Chrysologus ante mille centum annos
+          <lb ed="#P" n="97"/>varias in illud festum habuit homilias, quae
+          <lb ed="#P" n="98"/>inter sermones ejus a 140 incipiunt, et in 142
+          <lb ed="#P" n="99"/>sic incipit : Audistis hodie, fratres charissimi,
+          <lb ed="#P" n="100"/>Angelum cwumn muliere de hominis reparatione
+          <lb ed="#P" n="101"/>tractantem, eic. Et multa in caeteris habet 
+          si<lb break="no" ed="#P" n="102"/>milia, quibus illius festi observantiam indicat.
+          <lb ed="#P" n="103"/>Beda etiam, in tom. 7, in eadem festivitate
+          <lb ed="#P" n="104"/>concionem habuit; omitto Bernardum, Petrum
+          <lb ed="#P" n="105"/>Damian., et recentiores, quamvis illi etiam
+          <lb ed="#P" n="106"/>suis concionibus festum illud, ut solemne et 
+          an<lb break="no" ed="#P" n="107"/>tiquum, celebrent ; et Guarricus, in serm. 1,
+          <lb ed="#P" n="108"/>plane demonstrat, in proprio die observari 
+          so<lb break="no" ed="#P" n="109"/>litum, sic enim incipit: Opportune nobis in
+          <lb ed="#P" n="110"/>his dicbus quadragesimalis observantiee solem-
+          <pb ed="#P" n="260"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nitas intervenit dominice Annuntiationis, etc.
+          <lb ed="#P" n="2"/>Non est ergo dubium quin hoc festum 
+          anti<lb break="no" ed="#P" n="3"/>quum stis sit; quando vero inceperit, et 
+          prae<lb break="no" ed="#P" n="4"/>sertim quando Romana Ecclesia illud amplexa
+          <lb ed="#P" n="5"/>fuerit, et per universam Ecclesiam observari
+          <lb ed="#P" n="6"/>primum praeceperit, affirmare non possumus,
+          <lb ed="#P" n="7"/>quia scriptum non invenimus; certum tamen
+          <lb ed="#P" n="8"/>est traditione satis esse firmatum hoc 
+          prae<lb break="no" ed="#P" n="9"/>ceptum, et a Summis Pontificibus saltem ipso
+          <lb ed="#P" n="10"/>usu approbatum; et multo ante Gregorium IX
+          <lb ed="#P" n="11"/>festivitatibus praecipuis Virginis fuisse 
+          annu<lb break="no" ed="#P" n="12"/>meratum, ac proinde fuisse ab ipso 
+          compre<lb break="no" ed="#P" n="13"/>hensum, in dicto capite ultimo, in illis verbis
+          <lb ed="#P" n="14"/>ceneralibus, eaque satis esse ut dicamus, hoc
+          <lb ed="#P" n="15"/>festum esse unum ex his, qua jure 
+          com<lb break="no" ed="#P" n="16"/>muni in universa Ecclesia observari 
+          praeci<lb break="no" ed="#P" n="17"/>piuntur.
+        </p>
+        <p>
+          <lb ed="#P" n="18"/>6. Festum Nativitatis.— Nativitatis festum
+          <lb ed="#P" n="19"/>ab Apostolis institutum. — Secundum est 
+          fes<lb break="no" ed="#P" n="20"/>tum Nativitatis Domini, quod primo loco 
+          poni<lb break="no" ed="#P" n="21"/>tur in dictis cap. 1, de Conse., d. 3, et ult. de
+          <lb ed="#P" n="22"/>Feriis. Et illi statim adjunguntur festum
+          <lb ed="#P" n="23"/>sancti Stephani, sancti Joannis Evangelistae et
+          <lb ed="#P" n="24"/>Innocentum, et sancti Silvestri, de quibus 
+          po<lb break="no" ed="#P" n="25"/>stea. Illlud autem festum antiquissimum esse,
+          <lb ed="#P" n="26"/>et ab Apostolis institutum , constat ex 
+          Cle<lb break="no" ed="#P" n="27"/>ment., l. 8 Constit., et ex perpetua traditione,
+          <lb ed="#P" n="28"/>cujus initium ignoratur, quod est signum illam
+          <lb ed="#P" n="29"/>esse Apostolicam. Et ita Isidorus, lib. 1 de
+          <lb ed="#P" n="30"/>Offic., 25 c., indistincte ait: Natalis dies 
+          Do<lb break="no" ed="#P" n="31"/>mini a Patribus votivee solemnitatis institutus
+          <lb ed="#P" n="32"/>est. Idemque ex variis concionibus 
+          autiquissi<lb break="no" ed="#P" n="33"/>morum Patrum in illud festum facile 
+          intelli<lb break="no" ed="#P" n="34"/>gitur. Nicephorus autem, 1. 17 Histor., c. 28,
+          <lb ed="#P" n="35"/>indicat Justinum, hoc festum observari 
+          praece<lb break="no" ed="#P" n="36"/>pisse, his verbis utens : /dem imperator (aàt
+          <lb ed="#P" n="37"/>autem de Justiniano I) tunc primun 
+          fSercato<lb break="no" ed="#P" n="38"/>ris ezceptionem toto orbe terrarum festo die
+          <lb ed="#P" n="39"/>honorare institut, sicut Justinus de sancta
+          <lb ed="#P" n="40"/>Christi Nativitate fecit. ta enim legendum
+          <lb ed="#P" n="41"/>est, non Justinianus, ut habent nonnulla 
+          ve<lb break="no" ed="#P" n="42"/>tera exemplaria. Nam ibi tractat de Justiniano,
+          <lb ed="#P" n="43"/>qui Justino I successit, ante quem non fuit
+          <lb ed="#P" n="44"/>alius Justinianus. Igitur Justino tribuit hujus
+          <lb ed="#P" n="45"/>festi institutionem. Verumtamen non potest
+          <lb ed="#P" n="46"/>ita intelligi, ut tunc primum existimetur hoc
+          <lb ed="#P" n="47"/>festum incepisse; nam sine dubio est multo
+          <lb ed="#P" n="48"/>antiquius. Ad summum ergo potuit Justinus
+          <lb ed="#P" n="49"/>augere illius diei celebritatem, et fortasse 
+          ne<lb break="no" ed="#P" n="50"/>gligentiam aliquam, quae irrepserat, sua lege
+          <lb ed="#P" n="51"/>emendavit, ut adnotavit Bellarm., lib. 3 de
+          <lb ed="#P" n="52"/>Cultu Sanctorum, cap. 16, circa finem.
+        </p>
+        <p>
+          <lb ed="#P" n="53"/>7. Quo die cetebretur. — Celebrat autem
+          <lb ed="#P" n="54"/>Ecclesia festum hoc eodem die mensis, quo
+          <lb ed="#P" n="55"/>factum est mysterium, scilicet, vigesima
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quinta decembris ; illo enim die natus est 
+          Chri<lb break="no" ed="#P" n="57"/>stus, de quo mysterio, et circumstantiis ejus,
+          <lb ed="#P" n="58"/>in dict. 2 tom., disput. 23, diximus. Non 
+          cele<lb break="no" ed="#P" n="59"/>bratur autem semper in eodem die 
+          hebdoma<lb break="no" ed="#P" n="60"/>dae Nativitas Christi; ille enim in die dominico
+          <lb ed="#P" n="61"/>natus est, festum autem non potest semper in
+          <lb ed="#P" n="62"/>dominica celebrari simul cum eodem die 
+          men<lb break="no" ed="#P" n="63"/>sis, et ideo per omnes dies hebdomadae 
+          muta<lb break="no" ed="#P" n="64"/>tur. Cur autem id factum sit in hoc festo 
+          po<lb break="no" ed="#P" n="65"/>tius quam in morte, vel resurrectione Domini,
+          <lb ed="#P" n="66"/>tractat Durandus, lib. 6 Ration., cap. 4, et
+          <lb ed="#P" n="67"/>varias rationes affert, quas infra agentes de
+          <lb ed="#P" n="68"/>Paschate attingemus. Nunc illa sufficit, hoc
+          <lb ed="#P" n="69"/>fuisse necessarium, ut singulis annis, seu post
+          <lb ed="#P" n="70"/>completum anni cireulum, festum posset 
+          cele<lb break="no" ed="#P" n="71"/>brari, quod in omnibus aliis festis immobilibus
+          <lb ed="#P" n="72"/>observatum est; id enim per se erat 
+          conve<lb break="no" ed="#P" n="73"/>niens ; in Paschate vero propter specialem 
+          ra<lb break="no" ed="#P" n="74"/>tionem immutatum est, et consequenter in
+          <lb ed="#P" n="75"/>quibusdam aliis festivitatibus, quae ab illa 
+          pen<lb break="no" ed="#P" n="76"/>dent, et mobiles appellan:ur, ut videbimus.
+          <lb ed="#P" n="77"/>S. Festum Circumcisionis. — 
+          Circumcisio<lb break="no" ed="#P" n="78"/>nis institutio valde antiqua. — Festum hoc
+          <lb ed="#P" n="79"/>non solum Christo, sed Virgini etiam dicari.
+          <lb ed="#P" n="80"/>— Tertium festum est Circumcisionis Domini,
+          <lb ed="#P" n="81"/>quasi annexum praecedenti, et ita in dicto
+          <lb ed="#P" n="82"/>cap. 1 ponitur sub nomine octavae Natalis ; in
+          <lb ed="#P" n="83"/>capite autem ultimo de Ferns, sub proprio
+          <lb ed="#P" n="84"/>nomine Circumcisionis. Quam vero antiqua
+          <lb ed="#P" n="85"/>sit solemnis et festiva observatio illius diei,
+          <lb ed="#P" n="86"/>non satis constat, quia ante illa jura, nec 
+          Cle<lb break="no" ed="#P" n="87"/>mens, nece Isidorus, aut alii ex antiquis 
+          scrip<lb break="no" ed="#P" n="88"/>toribus ecclesiasticarum festivitatum, hujus
+          <lb ed="#P" n="89"/>facit specialem mentionem. Nec etiam Leo
+          <lb ed="#P" n="90"/>Papa, aut Augustinus, aut alii Patres illis 
+          ae<lb break="no" ed="#P" n="91"/>tate aequales de hoc festo proprias conciones
+          <lb ed="#P" n="92"/>reliquerunt. Imo Leo Papa, in sermonibus de
+          <lb ed="#P" n="93"/>Epiphania , signifieat festum illud proxime
+          <lb ed="#P" n="94"/>post Nativitatem Domini solitum fuisse 
+          cele<lb break="no" ed="#P" n="95"/>brari. Idem tamen Leo, in dicta epistola, cap.
+          <lb ed="#P" n="96"/>2. inter illa Christi Domini opera et mysteria
+          <lb ed="#P" n="97"/>peculiari solemnitate digniora illud ponit, quo
+          <lb ed="#P" n="98"/>infans circumciditur. Et Cy prianus, vel auctor
+          <lb ed="#P" n="99"/>de Cardm. Christi operibus, huic festo 
+          peculia<lb break="no" ed="#P" n="100"/>rem orationem dicavit : Beda etiam, in 
+          qua<lb break="no" ed="#P" n="101"/>dam homilia illius diei, tom. 7, sic incipit:
+          <lb ed="#P" n="102"/>Sanctam, cenerabilemque presentis festi 
+          me<lb break="no" ed="#P" n="103"/>moriam paucis quidem verbis Bvangelista 
+          com<lb break="no" ed="#P" n="104"/>prehendit, sed non pauca celestis mysterii 
+          vir<lb break="no" ed="#P" n="105"/>tute reliquit. Ex concionibus etiam Bernardi
+          <lb ed="#P" n="106"/>in illud festum inte ligimus, inter celebres 
+          fes<lb break="no" ed="#P" n="107"/>tivitates illam fuisse annumeratam. Itaque
+          <lb ed="#P" n="108"/>dubitandum non est quin sit satis antiqua, et
+          <lb ed="#P" n="109"/>sine certi initii memoria. Solet autem cum
+          <lb ed="#P" n="110"/>Nativitatis festo confundi, quia est velud ter-
+          <pb ed="#P" n="261"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>minus et octava illius. Tamen, licet ratio 
+          oc<lb break="no" ed="#P" n="2"/>tavae sit sufficiens ad solemnitatem quoad 
+          offi<lb break="no" ed="#P" n="3"/>cium, quoad observantiam autem festi non
+          <lb ed="#P" n="4"/>solet reputari sufficiens, nisi cum die 
+          domini<lb break="no" ed="#P" n="5"/>ca, vel cum alio peculiari jungatur mysterio.
+          <lb ed="#P" n="6"/>Sient in hoc die octavo adjunctum fuit 
+          myste<lb break="no" ed="#P" n="7"/>rium Circumcisionis, quod peculiari festo 
+          me<lb break="no" ed="#P" n="8"/>ruit celebrari; tum quia eodem die coepit
+          <lb ed="#P" n="9"/>Christus pro nobis solvere pretium sanguinis
+          <lb ed="#P" n="10"/>sui; tum etiam quia signaculum 
+          Circumci<lb break="no" ed="#P" n="11"/>sionis, quod proprium lapsorum hominum
+          <lb ed="#P" n="12"/>videbatur, pro nobis sumpsit; tum denique,
+          <lb ed="#P" n="13"/>ut in nomine Jesu, quod illa die accepit, omne
+          <lb ed="#P" n="14"/>genu flectatur. Ob has ergo et alias rationes,
+          <lb ed="#P" n="15"/>sub praecepto festum illud generaliter 
+          consti<lb break="no" ed="#P" n="16"/>tutum est. Et aliqui existimant illud etiam
+          <lb ed="#P" n="17"/>fuisse institutum, ad impediendas 
+          superstitio<lb break="no" ed="#P" n="18"/>nes quas Gentiles in illis calendis januarii 
+          ob<lb break="no" ed="#P" n="19"/>servare sclebant, ut habetur ex cap. Non 
+          ob<lb break="no" ed="#P" n="20"/>sercetis, 96, quaest. ultim. Tandem advertit
+          <lb ed="#P" n="21"/>Durandus, lib. 6 Ration. offi., cap. 15, festum
+          <lb ed="#P" n="22"/>illud non solum Christo, sed etiam Virgini esse
+          <lb ed="#P" n="23"/>dicatum, et olim duas missas solitas fuisse in
+          <lb ed="#P" n="24"/>eo celebrari, unam de Virgine, alteram de
+          <lb ed="#P" n="25"/>mysterio ; et nunc constat ex multis missae et
+          <lb ed="#P" n="26"/>officii partibus, praesertim in Collecta, 
+          Anti<lb break="no" ed="#P" n="27"/>phonis, et Responsoriis, magnam officii 
+          par<lb break="no" ed="#P" n="28"/>tem esse de Beata Virgine. Propter quod idem
+          <lb ed="#P" n="29"/>Durandus, lib. 7, cap. 1, num. 41, illam 
+          vo<lb break="no" ed="#P" n="30"/>cat octavam suppletionis : Nam quia in 
+          Nati<lb break="no" ed="#P" n="31"/>vitate (ait) multum actum est de partu, et 
+          pa<lb break="no" ed="#P" n="32"/>rum de parturiente , ideo in octava plenius ipsa
+          <lb ed="#P" n="33"/>celebratur.
+        </p>
+        <p>
+          <lb ed="#P" n="34"/>9. Festum Epiphanie. — Fpiphanie 
+          fes<lb break="no" ed="#P" n="35"/>tum ab Apostolis decretum.— Quartum festum
+          <lb ed="#P" n="36"/>est Epiphania, quod in eisdem juribus 
+          ex<lb break="no" ed="#P" n="37"/>presse numeratur, estque adeo celebre et
+          <lb ed="#P" n="38"/>antiquum, ut inter Apostolicas festivitates
+          <lb ed="#P" n="39"/>post Nativitatem numerari soleat, ut videre
+          <lb ed="#P" n="40"/>licet in Clem., lib. 5 Const., cap. 12, et libr. S,
+          <lb ed="#P" n="41"/>cap. 33, ubi (quod valde notandum est) pro
+          <lb ed="#P" n="42"/>ratione illius festivitatis affert, quod in illa
+          <lb ed="#P" n="43"/>die declarata sit Divinitas Christi testimonio
+          <lb ed="#P" n="44"/>Patris in baptismo, et Spiritus Sancti, qui
+          <lb ed="#P" n="45"/>in specie columbee ostendit astantibus eum, cui
+          <lb ed="#P" n="46"/>tribulum erat testimonium. Isidorus etiam,
+          <lb ed="#P" n="47"/>libro 1 de Divin. offic., capite vigesimo sexto,
+          <lb ed="#P" n="48"/>eamdem rationem ponit simul cum praecipua
+          <lb ed="#P" n="49"/>de manifestatione Christi Magis facta, 
+          eorum<lb break="no" ed="#P" n="50"/>que adoratione ; addens etiam, eodem die 
+          fac<lb break="no" ed="#P" n="51"/>tum esse a Christo primum et celebre 
+          miracu<lb break="no" ed="#P" n="52"/>lum conversionis aquae in vinum, de quorum
+          <lb ed="#P" n="53"/>mysteriorum concursu in eodem die fusius
+          <lb ed="#P" n="54"/>egimus, dicto 2 tom., disput. 26, section. 1,
+          <lb ed="#P" n="55"/>ubi Augustinum , Ambrosium , Origenem ,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Maximum, Leonem, et alios Patres, festum
+          <lb ed="#P" n="57"/>illud maxime venerantes, retulimus. Et videri
+          <lb ed="#P" n="58"/>etiam potest Rupertus, libro tertio de Divin.
+          <lb ed="#P" n="59"/>offic., cap. 34; et Allin., libr. 4, cap. 23; et
+          <lb ed="#P" n="60"/>Ammianus Marcellinus, lbr. 21, ubi circa
+          <lb ed="#P" n="61"/>tempora Constantii imperatoris hujus 
+          festivi<lb break="no" ed="#P" n="62"/>tatis meminit, longe antiquiorem esse 
+          signifi<lb break="no" ed="#P" n="63"/>cans. De praecepto ergo servandi hoc festum,
+          <lb ed="#P" n="64"/>et scriptum jus habemus, et Apostolicam 
+          tra<lb break="no" ed="#P" n="65"/>ditionem, et magnas hujus observantiae 
+          cau<lb break="no" ed="#P" n="66"/>sas, praesertim propter vocationem gentium,
+          <lb ed="#P" n="67"/>et Christi manifestationem, de quibus dicto
+          <lb ed="#P" n="68"/>loco est disputatum, et ideo hic plura dicere
+          <lb ed="#P" n="69"/>non est necesse.
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>10. Festum Preaesentationis. — 
+          Presenta<lb break="no" ed="#P" n="71"/>Ltionis festum Christo simul et Virgini 
+          exhibe<lb break="no" ed="#P" n="72"/>tur. — Quinto loco inter Christi festa 
+          poni<lb break="no" ed="#P" n="73"/>mus Praesentationem et oblationem ejus in
+          <lb ed="#P" n="74"/>templo propter ordinem festivitatum, et quia
+          <lb ed="#P" n="75"/>revera primaria ratio illius solemnitatis est
+          <lb ed="#P" n="76"/>Christus: unde in hoc ordine videtur 
+          nume<lb break="no" ed="#P" n="77"/>rari in dicto cap. 1 de Cons , distinct. 3, nam
+          <lb ed="#P" n="78"/>proxime post Epiphaniam ponitur ante 
+          Pas<lb break="no" ed="#P" n="79"/>cha, et inferius adduntur festivitates Beatae
+          <lb ed="#P" n="80"/>Mariae; et more Ambrosii , et juxta 
+          Graeco<lb break="no" ed="#P" n="81"/>rum ritum ita numerari dicitur. At vero inc.
+          <lb ed="#P" n="82"/>ult. de Feriis, hoc festum omittitur, unde 
+          si<lb break="no" ed="#P" n="83"/>ne dubio sub festis Beatae Virginis 
+          compre<lb break="no" ed="#P" n="84"/>henditur: nam ita etiam numerari optime 
+          po<lb break="no" ed="#P" n="85"/>test, et communiter solet, praesertim juxta
+          <lb ed="#P" n="86"/>Romanum morem, ut ex lib. Ordo Romanus,
+          <lb ed="#P" n="87"/>et ex communi usu satis constat. Habetque
+          <lb ed="#P" n="88"/>magnum fundamentum in ipso mysterio, quia
+          <lb ed="#P" n="89"/>simul cum oblatione primogeniti sacrificium
+          <lb ed="#P" n="90"/>pro matre offerebatur ; unde et Purificatio
+          <lb ed="#P" n="91"/>Virginis festum illud appellatur. Propter quod
+          <lb ed="#P" n="92"/>recte dixit Beda, tomo 7, homilia illius
+          <lb ed="#P" n="93"/>diei: Solemnitatem nobis hodiernee celebritatis,
+          <lb ed="#P" n="94"/>quam quadragesimo nativitatis die debitis 
+          ve<lb break="no" ed="#P" n="95"/>neramur officiis, mavime ejusdem sSalvatoris
+          <lb ed="#P" n="96"/>nostri, simul et intemeratae Genitricis ejus 
+          hu<lb break="no" ed="#P" n="97"/>militate dedicatam sacra Evangeliste lectio 
+          de<lb break="no" ed="#P" n="98"/>signat, emponens eos, qua legà nihil debuerant,
+          <lb ed="#P" n="99"/>implendis se legalibus per omnia subdidisse 
+          de<lb break="no" ed="#P" n="100"/>cretis. S autem illius festi officium attente
+          <lb ed="#P" n="101"/>spectetur , majori ex parte ad Christum 
+          re<lb break="no" ed="#P" n="102"/>ferri, tam ex collecta, quam ex introitu. 
+          epis<lb break="no" ed="#P" n="103"/>tola, et aliis partibus facile intelligitur.
+        </p>
+        <p>
+          <lb ed="#P" n="104"/>11. Quando inceperit. — De antiquitate 
+          au<lb break="no" ed="#P" n="105"/>tem hujus festi non est tam certa notitia, sicut
+          <lb ed="#P" n="106"/>praecedentis , unde aliqui putarunt coepisse
+          <lb ed="#P" n="107"/>celebrari temporibus Justiniani I, quia 
+          Nice<lb break="no" ed="#P" n="108"/>phorus, libr. 17, capit. 28, sic de illo scribit:
+          <lb ed="#P" n="109"/>Idem imperator (loquitur de Justiniano 
+          senio<lb break="no" ed="#P" n="110"/>re, seu I) tumn primum Servoatoris exceptionem
+          <pb ed="#P" n="262"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>toto orbe terrarum festo die honorare instituit,
+          <lb ed="#P" n="2"/>ubi Serocatoris exceptionem, iius 
+          praesentatio<lb break="no" ed="#P" n="3"/>nem appellat, more Graecorum , qui hoc 
+          fes<lb break="no" ed="#P" n="4"/>tum hypantin vocant, id est, occursum, vel
+          <lb ed="#P" n="5"/>Simeonis et Annae, qui eo die obviaverunt 
+          Do<lb break="no" ed="#P" n="6"/>mino, dum praesentaretur in templo, ut ait
+          <lb ed="#P" n="7"/>Micrologus, cap. 47, vel celebrantium festum,
+          <lb ed="#P" n="8"/>qui fide Christo occurrunt, cum a Virgine 
+          ma<lb break="no" ed="#P" n="9"/>tre in templum praesentandus defertur, ut ex
+          <lb ed="#P" n="10"/>Martino Polono, in Chronic., lib. 17, cap. 28,
+          <lb ed="#P" n="11"/>retulit Covarruvias , lib. 4 Var., cap. 19. Et
+          <lb ed="#P" n="12"/>cum Nicephoro concordare videtur 
+          Sigeber<lb break="no" ed="#P" n="13"/>tus, in Chronico, qui hujus festi institutionem
+          <lb ed="#P" n="14"/>ponit in anno Domini quingentesimo 
+          quadra<lb break="no" ed="#P" n="15"/>gesimo secundo, qui sine dubio cadit in 
+          impe<lb break="no" ed="#P" n="16"/>rium Justiniani ; Durandus etiam, in 
+          Ratio<lb break="no" ed="#P" n="17"/>nalt, lib. 7, c. 7, dicit tempore Justiniani 
+          im<lb break="no" ed="#P" n="18"/>peratoris Constantinopoli magnam hominum
+          <lb ed="#P" n="19"/>multitudinem pestilentia fuisse sublatam, et
+          <lb ed="#P" n="20"/>ideo tunc fuisse institutam festivitatem 
+          Puri<lb break="no" ed="#P" n="21"/>ficationis. Georg. autem Cedrenus Justino,
+          <lb ed="#P" n="22"/>praedecessori Justiniani, institutionem hujus
+          <lb ed="#P" n="23"/>festi tribuit anno quingentesimo vigesimo
+          <lb ed="#P" n="24"/>septimo.
+        </p>
+        <p>
+          <lb ed="#P" n="25"/>13. Hoc festum Romae celebratum ad 
+          abo<lb break="no" ed="#P" n="26"/>lenda lupercalia. — Apud Baronium vero, in
+          <lb ed="#P" n="27"/>1 tom., in 1 Christi anno, numer. 
+          quadrage<lb break="no" ed="#P" n="28"/>simo primo, reperio, Purificationis festum ad
+          <lb ed="#P" n="29"/>abolenda lupercalia Romae coeptum fuisse 
+          an<lb break="no" ed="#P" n="30"/>niversario die celebrari ; ibi autem non 
+          re<lb break="no" ed="#P" n="31"/>fert, quo anno incoeperit, nec potui alium 
+          lo<lb break="no" ed="#P" n="32"/>cum invenire, in quo id se dicturum 
+          promit<lb break="no" ed="#P" n="33"/>tit. Nam tom. 6, ann. 496, numer. 46, dicit
+          <lb ed="#P" n="34"/>tempore Gelasii, et ejus monitu, lupercalia
+          <lb ed="#P" n="35"/>fuisse a Senatu sublata; de institutione autem
+          <lb ed="#P" n="36"/>festi illo tempore facta nihil narrat. At vero
+          <lb ed="#P" n="37"/>Beda, in Martyrol., quinto Idus Septemb., et
+          <lb ed="#P" n="38"/>ordo Romanus referunt, Sergium Pontificem
+          <lb ed="#P" n="39"/>instituisse solemnem supplicationem, seu 
+          pro<lb break="no" ed="#P" n="40"/>cessionem, quae illo die fit, illamque 
+          consue<lb break="no" ed="#P" n="41"/>tudinem et solemnem festivitatem 
+          introduc<lb break="no" ed="#P" n="42"/>tam esse ab Ecclesia ad mutandam lustrandi
+          <lb ed="#P" n="43"/>consuetudinem, quam gentes observabant; 
+          re<lb break="no" ed="#P" n="44"/>fert idem Beda, in libr. de Ratione 
+          tempo<lb break="no" ed="#P" n="45"/>rum, et Allin. Flac., de Divin. offic., capit. de
+          <lb ed="#P" n="46"/>Purificatione ; et Durand. supra, ubi etiam
+          <lb ed="#P" n="47"/>tribuit hanc institutionem Sergio Papae; 
+          un<lb break="no" ed="#P" n="48"/>de dici potest prius fuisse hoc festum 
+          institu<lb break="no" ed="#P" n="49"/>tum Constantinopoli occasione pestis, postea
+          <lb ed="#P" n="50"/>vero Rommae, alia ratione. At Sergius post 
+          Jus<lb break="no" ed="#P" n="51"/>tinianum I fuit, tempore Junioris et Tiberii ,
+          <lb ed="#P" n="52"/>ideoque probabilius est non fuisse festum a
+          <lb ed="#P" n="53"/>Sergio institutum, sed auctum, utsensit etiam
+          <lb ed="#P" n="54"/>Baron., ann. 701, num. 4. [mo verisimile est
+          <lb ed="#P" n="55"/>antiquius esse hoc festum (ut bene Covarru-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vias supra advertit, et sequitur Azor, tom. 2,
+          <lb ed="#P" n="57"/>lib. 1, capit. 18), nam antiquiorum Patrum
+          <lb ed="#P" n="58"/>Gregorii Nysseni, Chrysostomi, Cyrilli, 
+          Hiero<lb break="no" ed="#P" n="59"/>nymi, et aliorum declamationes et homiliae,
+          <lb ed="#P" n="60"/>in ea festivitate hahitee, leguntur apud 
+          Su<lb break="no" ed="#P" n="61"/>rium ; inter quos Cyrillus indicare videtur
+          <lb ed="#P" n="62"/>processionum usum, quae accensis cereis fiunt.
+          <lb ed="#P" n="63"/>Fortasse ergo aucta est solemnitas, vel 
+          inno<lb break="no" ed="#P" n="64"/>vatum ejus praeceptum tum Constantinopoli,
+          <lb ed="#P" n="65"/>tum etiam Romae, ut majori cum pompa et
+          <lb ed="#P" n="66"/>observatione celebraretur ; ipsum autem 
+          fes<lb break="no" ed="#P" n="67"/>tum antiquius esse credibile est, nam et Leo
+          <lb ed="#P" n="68"/>Papa, in dicta epistola A4, illius tempus, et 
+          ra<lb break="no" ed="#P" n="69"/>tionem , cum aliis solemnitatibus majoribus
+          <lb ed="#P" n="70"/>ponit.
+        </p>
+        <p>
+          <lb ed="#P" n="71"/>13. Festum Transfigurationis. — Multa
+          <lb ed="#P" n="72"/>Chr isti festa simul cum alus celebrantur. —
+          <lb ed="#P" n="73"/>Transfigurationis solennitas quam antigua. —
+          <lb ed="#P" n="74"/>Hae festivitates, quas hactenus 
+          enumeravi<lb break="no" ed="#P" n="75"/>mus, pertinent ad infantiam Salvatoris; de
+          <lb ed="#P" n="76"/>reliquis autem mysteriis ejus, quae ante 
+          pas<lb break="no" ed="#P" n="77"/>sionem contigerunt , unam tantum 
+          festivita<lb break="no" ed="#P" n="78"/>tem videtur Eecclesia celebrare, quam sexto
+          <lb ed="#P" n="79"/>loco ponimus, scilicet, Transfigurationis. Nam
+          <lb ed="#P" n="80"/>licet de aliis mysteriis vitae ejus peculiarem
+          <lb ed="#P" n="81"/>commemorationem faciat, ut de initio 
+          doc<lb break="no" ed="#P" n="82"/>trinae ejus in aetate duodecim annorum, 
+          quan<lb break="no" ed="#P" n="83"/>do ad templum veniens cum matre, ibi 
+          re<lb break="no" ed="#P" n="84"/>mansit, etc., et de illius baptismo, jejunio, ac
+          <lb ed="#P" n="85"/>tentationibus, et de initio miraculorum ejus,
+          <lb ed="#P" n="86"/>non tamen his mysteriis peculiarem 
+          festivita<lb break="no" ed="#P" n="87"/>tem dedicat, sed vel cum aliis festivitatibus
+          <lb ed="#P" n="88"/>illa conjungit, vel in aliquibus dominicis per
+          <lb ed="#P" n="89"/>annum ea commemorat, ut mansionem 
+          Chri<lb break="no" ed="#P" n="90"/>sti in templo celebrat in Dominica infra 
+          octa<lb break="no" ed="#P" n="91"/>vam Epiphanise ; baptismum in ipsamet 
+          Epi<lb break="no" ed="#P" n="92"/>phania, et in octava ejus ; initium 
+          miraculo<lb break="no" ed="#P" n="93"/>rum cum eadem etiam Epiphania, et prima
+          <lb ed="#P" n="94"/>Dominica post octavam ejus ; jejunium vero
+          <lb ed="#P" n="95"/>in prima Dominica Quadragesimae. At vero
+          <lb ed="#P" n="96"/>de Transfiguratione licet in secunda 
+          Domini<lb break="no" ed="#P" n="97"/>ca Quadragesimae particularem mentionem 
+          fa<lb break="no" ed="#P" n="98"/>ciat, specialis nihilominus instituta est 
+          festi<lb break="no" ed="#P" n="99"/>vitas, quae sexto die augusti celebratur , qui
+          <lb ed="#P" n="100"/>mos in Ecclesia Graeca videtur esse antiquus,
+          <lb ed="#P" n="101"/>ut ex Moenologio Graecorum colligitur. In 
+          Ec<lb break="no" ed="#P" n="102"/>clesia autem Latina habuisse initium a 
+          Calix<lb break="no" ed="#P" n="103"/>to III, affirmat Platina in Vita ejus, et in eo
+          <lb ed="#P" n="104"/>festo indulgentias illas concessisse, quas 
+          Ur<lb break="no" ed="#P" n="105"/>banus in festo Corporis Domini concesserat.
+          <lb ed="#P" n="106"/>Occasionem illud instituendi in illo die dicit
+          <lb ed="#P" n="107"/>fuisse, quia in eo Christiani insignem 
+          victo<lb break="no" ed="#P" n="108"/>riam a Turcis ad Belgradum reportarunt.
+          <lb ed="#P" n="109"/>Alii vero antiquius putant esse hoc festum,
+          <lb ed="#P" n="110"/>quia illius meminit Wandelbertus in suo Mar-
+          <pb ed="#P" n="263"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tyrologio. Vixit autem ille ante Calixtum III,
+          <lb ed="#P" n="2"/>circea annum Domini 858, teste Trithemio, lib.
+          <lb ed="#P" n="3"/>2 de Vir. illust. S. Benedicti, cap. 36. 
+          Secun<lb break="no" ed="#P" n="4"/>do, quia Durandus, lib. 7 de Divin. offic., c.
+          <lb ed="#P" n="5"/>22 et Joann. Beleth., in explicatione Divin.
+          <lb ed="#P" n="6"/>offic., capit. 144, hanc posuerunt festivitatem
+          <lb ed="#P" n="7"/>in die sexta augusti, et tamen sunt Calixto III
+          <lb ed="#P" n="8"/>antiquiores. Tertio, quia legitur homilia S.
+          <lb ed="#P" n="9"/>Leonis in eo tempore habita. Quapropter in
+          <lb ed="#P" n="10"/>hac re nihil certum affirmare possum. Est
+          <lb ed="#P" n="11"/>autem verisimile, festum hoc quoad officium
+          <lb ed="#P" n="12"/>chori, altarisque solemnitatem, ante Calixtum
+          <lb ed="#P" n="13"/>incoepisse ; quoad praeceptum vero servandi
+          <lb ed="#P" n="14"/>diem illum ut festivum, a tempore ipsius 
+          Ca<lb break="no" ed="#P" n="15"/>lixti exordium habuisse.
+        </p>
+        <p>
+          <lb ed="#P" n="16"/>14. Proposite opiniones in concordiam 
+          re<lb break="no" ed="#P" n="17"/>ducuntur. — Et ita facile possunt in 
+          concor<lb break="no" ed="#P" n="18"/>diam redigi praedictae sententiae: nam Platina
+          <lb ed="#P" n="19"/>de propria observatione festi loqui videtur ;
+          <lb ed="#P" n="20"/>Durandus autem et Beleth. de officio praecipue
+          <lb ed="#P" n="21"/>tractant : nam iunumeras recensent 
+          festivita<lb break="no" ed="#P" n="22"/>tes Sanctorum, quae sub praecepto non sunt,
+          <lb ed="#P" n="23"/>licet Ecclesia de illis recitet. Minus vero urget
+          <lb ed="#P" n="24"/>quod ex Wandelberto refertur, quia solent in
+          <lb ed="#P" n="25"/>Martyrologiis poni festivitates, quae non 
+          ser<lb break="no" ed="#P" n="26"/>vantur ex praecepto , imo saepe ponuntur
+          <lb ed="#P" n="27"/>Sancti de quibus Ecclesia non recitat. 
+          Aliquan<lb break="no" ed="#P" n="28"/>do etiam referuntur festivitates quae apud 
+          Grae<lb break="no" ed="#P" n="29"/>cos celebrantur, etiamsi non observentur a
+          <lb ed="#P" n="30"/>Latinis : verisimile autem est festum hoc 
+          fuis<lb break="no" ed="#P" n="31"/>se celebrius et antiquius apud Graecos quam
+          <lb ed="#P" n="32"/>inter Latinos, ut indicant orationes 
+          Sancto<lb break="no" ed="#P" n="33"/>rum Ephrem , Cyrilli Alexandrini, Andreae
+          <lb ed="#P" n="34"/>Creten. et Basilii Seleuciensis, in eam 
+          solem<lb break="no" ed="#P" n="35"/>nitatem, quas refert Surius, et Simeon 
+          Meta<lb break="no" ed="#P" n="36"/>phrast. ; et prima habetur inter opera Ephrem.
+          <lb ed="#P" n="37"/>Verum est illas tantum esse de mysterio, 
+          ni<lb break="no" ed="#P" n="38"/>hilque de speciali festivitate indicare, unde
+          <lb ed="#P" n="39"/>potuerunt in Donfinica secunda 
+          Quadragesi<lb break="no" ed="#P" n="40"/>mae proferri, quod etiam probabile est de 
+          ho<lb break="no" ed="#P" n="41"/>milia sancti Leonis. Denique quod ad praesens
+          <lb ed="#P" n="42"/>spectat, praeeeptum servandi illud festum non
+          <lb ed="#P" n="43"/>videtur multum antiquum, et fortasse Romae,
+          <lb ed="#P" n="44"/>ubi hoc festum rigorose servatur, a 
+          Calix<lb break="no" ed="#P" n="45"/>to III inchoatum est ; non tamen videtur 
+          fuis<lb break="no" ed="#P" n="46"/>se latum pro universa Ecclesia, vel certe non
+          <lb ed="#P" n="47"/>ubique est consuetudine receptum|, quia de
+          <lb ed="#P" n="48"/>facto non ubique obligat , sed consuetudini
+          <lb ed="#P" n="49"/>standum est. Et ideo haec sufficiunt de hoc
+          <lb ed="#P" n="50"/>festo ; nam de mysterio ipso, in dicto 2 tom.,
+          <lb ed="#P" n="51"/>disput. 32, tractatum est.
+        </p>
+        <p>
+          <lb ed="#P" n="52"/>15. Festum Passionis. — Passionis festum
+          <lb ed="#P" n="53"/>quando incoperit. — Septima Christi festivitas
+          <lb ed="#P" n="54"/>poni potest dies mortis et passionis ejus, cum
+          <lb ed="#P" n="55"/>his quae illam proxime antecedunt et subse-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quuntur usque ad diem resurrectionis 
+          exclu<lb break="no" ed="#P" n="57"/>sive. Hoc enim festum ut ab aliis distinctum
+          <lb ed="#P" n="58"/>ponit Gregorius IX, in dict. cap. ultim. de
+          <lb ed="#P" n="59"/>Feriis, his verbis: Septem diebus Dominicae
+          <lb ed="#P" n="60"/>Passionis, et in leg. Ut in die, et leg. Omnes
+          <lb ed="#P" n="61"/>dies, Cod. de Feriis, septem dies praecedentes
+          <lb ed="#P" n="62"/>ante Pascha observari praecipiuntur. Et (quod
+          <lb ed="#P" n="63"/>majus est) Clemens, libro octavo Constitut.,
+          <lb ed="#P" n="64"/>capite trigesimo tertio, significat, illas fuisse
+          <lb ed="#P" n="65"/>institutiones Apostolorum. Sed sciendum est
+          <lb ed="#P" n="66"/>aliud esse tractare de Feriis, quae in ordine
+          <lb ed="#P" n="67"/>ad judicia concessa sunt in jure, aliud vero in
+          <lb ed="#P" n="68"/>ordine ad observationem ex praecepto quoad
+          <lb ed="#P" n="69"/>abstinendum ab operibus servilibus, 
+          audien<lb break="no" ed="#P" n="70"/>dam missam, etc. Priori modo considerantur
+          <lb ed="#P" n="71"/>maxime in jure civili, et magna ex parte in
+          <lb ed="#P" n="72"/>jure canonico, sub titulo illo de Feriis, et 
+          prae<lb break="no" ed="#P" n="73"/>sertim in illo capite ultimo videtur de hoc
+          <lb ed="#P" n="74"/>praecipue tractari, sic enim in principio 
+          dici<lb break="no" ed="#P" n="75"/>tur : Quamvis non prorogari, sed eapediri 
+          de<lb break="no" ed="#P" n="76"/>ceat quaestiones, debet tamen judicialis 
+          strepi<lb break="no" ed="#P" n="77"/>tus diebus quiescere feriatis, qui ob 
+          reveren<lb break="no" ed="#P" n="78"/>tiam Dei noscuntur esse instituti. Quam 
+          ulti<lb break="no" ed="#P" n="79"/>mam particulam addit, quia sunt aliae feriee,
+          <lb ed="#P" n="80"/>que gratia vindemiarum , vel messium 
+          in<lb break="no" ed="#P" n="81"/>dulgentur (ut ibidem subjungitur), quas 
+          qui<lb break="no" ed="#P" n="82"/>dam juristae rusticas, alii temporales vocant.
+          <lb ed="#P" n="83"/>Inter quas et priores differentia constituitur
+          <lb ed="#P" n="84"/>in eodem capite, in ordine ad strepitum 
+          judi<lb break="no" ed="#P" n="85"/>cialem, quod prioribus non possunt partes 
+          re<lb break="no" ed="#P" n="86"/>nunciare, nam etiam ex consensu illarum non
+          <lb ed="#P" n="87"/>possunt judicia peragi, quia non in earum
+          <lb ed="#P" n="88"/>favorem, sed in Dei honorem sunt introductae:
+          <lb ed="#P" n="89"/>posterioribus autem renunciare possunt 
+          par<lb break="no" ed="#P" n="90"/>tes, si inter se consentiant, ut eis non 
+          obstan<lb break="no" ed="#P" n="91"/>tibus lis tractetur, quia sunt veluti 
+          privile<lb break="no" ed="#P" n="92"/>gium in favorem earum concessum, cui 
+          re<lb break="no" ed="#P" n="93"/>nunciare possunt. His addunt juristae ferias
+          <lb ed="#P" n="94"/>quas repentinas vocant, id est, quae non
+          <lb ed="#P" n="95"/>certa et stabili lege, sed praecepto prineipis,
+          <lb ed="#P" n="96"/>ob occurrentem occasionem, uno vel alio die
+          <lb ed="#P" n="97"/>praecipiuntur. Quae quidem utroque ex dictis
+          <lb ed="#P" n="98"/>modis juberi possunt, scilicet, vel ab 
+          eccle<lb break="no" ed="#P" n="99"/>siastico principe, in honorem Dei, vel 
+          saecu<lb break="no" ed="#P" n="100"/>lari, in honorem suum, vel propter aliam 
+          rei<lb break="no" ed="#P" n="101"/>publicae commoditatem, ob principem natum,
+          <lb ed="#P" n="102"/>vel partam victoriam. Sed haec obiter tantum
+          <lb ed="#P" n="103"/>attingimus ut nominum notitia habeatur;
+          <lb ed="#P" n="104"/>reliqua jurisperitis remittimus.
+        </p>
+        <p>
+          <lb ed="#P" n="105"/>16. An septem dies sancte hebdomadee 
+          ob<lb break="no" ed="#P" n="106"/>serventur operum cessatione. — Quod ergo 
+          at<lb break="no" ed="#P" n="107"/>unet ad septem dies Dominicae Passionis, licet
+          <lb ed="#P" n="108"/>probabile sit, olim dies illos fuisse in praecepto
+          <lb ed="#P" n="109"/>ex vi juris communis, etiam quoad 
+          religio<lb break="no" ed="#P" n="110"/>sum cultum, et cessationem ab operibus ser-
+          <pb ed="#P" n="264"/>
+          <cb ed="#P" n="a"/>
+          <!-- line coord numbering error: TODO renumber from 1 -->
+          <lb ed="#P" n="111"/>vilibus, nihilominus dicendum est, nunc non
+          <lb ed="#P" n="112"/>esse sub peculiari praecepto totam illam 
+          heb<lb break="no" ed="#P" n="113"/>domadam, quam sanctam appellamus. Dico
+          <lb ed="#P" n="114"/>autem sub peculiari, quia prima dies ejus sub
+          <lb ed="#P" n="115"/>generali praecepto de Dominica observanda
+          <lb ed="#P" n="116"/>continetur ; de reliquis vero diebus nullum
+          <lb ed="#P" n="117"/>est praeceptum generale obligans totam 
+          Eccle<lb break="no" ed="#P" n="118"/>siam. Et ita in cap. 1 de Consec., d. 3, nulla
+          <lb ed="#P" n="119"/>fit illorum dierum mentio. Et quamvis ibi
+          <lb ed="#P" n="120"/>Archid. dixerit hodie servari feriam quintam,
+          <lb ed="#P" n="121"/>et diem Parasceves, tamen id non habet 
+          uni<lb break="no" ed="#P" n="122"/>versalis consuetudo, ut notat Silvester, verb.
+          <lb ed="#P" n="123"/>Dominica, quaest. 1, S 7, qui addit 
+          limitatio<lb break="no" ed="#P" n="124"/>nem his verbis : Nisi forte Parasceves, usque
+          <lb ed="#P" n="125"/>ad osculum Crucis. Sed in hoc etiam 
+          consu<lb break="no" ed="#P" n="126"/>lenda est consuetudo ; nam alicubi solet 
+          ob<lb break="no" ed="#P" n="127"/>servari cessatio ab operibus servilibus, ab 
+          of<lb break="no" ed="#P" n="128"/>ficio missae feriae quintae usque ad finem 
+          offi<lb break="no" ed="#P" n="129"/>cii feriae sextae illius hebdomadae. Frequentius
+          <lb ed="#P" n="130"/>taraen (ut opinor) hoc fit ex voluntaria pietate
+          <lb ed="#P" n="131"/>ac devotione, potius quam ex obligatione in
+          <lb ed="#P" n="132"/>conscientia; et sicubi censetur esse obligatio
+          <lb ed="#P" n="133"/>propter consuetudinem, videtur solum esse
+          <lb ed="#P" n="134"/>quoad cessationem ab operibus in publico
+          <lb ed="#P" n="135"/>exercendis, propter scandalum, et 
+          perturba<lb break="no" ed="#P" n="136"/>tionem vitandam, non vero quoa 
+          obligatio<lb break="no" ed="#P" n="137"/>nem audiendi missam, seu sacrum officium,
+          <lb ed="#P" n="138"/>vel omnino cessandi ab operibus, etiam in
+          <lb ed="#P" n="139"/>occulto. Cujus signum esse potest, quod,
+          <lb ed="#P" n="140"/>quando dies Incarnationis cadit in aliquem
+          <lb ed="#P" n="141"/>ex illis diebus, longe alio modo et rigore 
+          ser<lb break="no" ed="#P" n="142"/>vatur festivitas a populo Christiano quoad
+          <lb ed="#P" n="143"/>missam, vel officium audiendum, et quoad
+          <lb ed="#P" n="144"/>cessationem a laboribns.
+        </p>
+        <p>
+          <lb ed="#P" n="145"/>17. Igitur si olim fuit tota illa heblomada
+          <lb ed="#P" n="146"/>sub praecepto, consuetudine derogatum est, ut
+          <lb ed="#P" n="147"/>Summistae communiter docent, Armill., verb.
+          <lb ed="#P" n="148"/>Ferie, num. 6; Rosell. ibidem; Anton., 2
+          <lb ed="#P" n="149"/>part., tit. 9, cap. 7, et alii. Verisimile autem
+          <lb ed="#P" n="150"/>est id, quod Clemens refert, non fuisse in 
+          uui<lb break="no" ed="#P" n="151"/>versa Ecclesia introductum, neque fuisse 
+          insti<lb break="no" ed="#P" n="152"/>tutum ut semper duraret, sed pro aliquo 
+          tem<lb break="no" ed="#P" n="153"/>pore. Nam ibidem refert. etiam Apostolos 
+          prae<lb break="no" ed="#P" n="154"/>cepisse tunc observationem sabbathi more
+          <lb ed="#P" n="155"/>Christiano per modum festi, quod fieri potuit
+          <lb ed="#P" n="156"/>pro illa regione et tempore, donec lex vetus
+          <lb ed="#P" n="157"/>cum honore sepeliretur. De Gregorio autem IX
+          <lb ed="#P" n="158"/>verisimile est, nullum de hoc tulisse 
+          spe<lb break="no" ed="#P" n="159"/>ciale praeceptum, quia in dicto cap. ultim.,
+          <lb ed="#P" n="160"/>non est sermo de cessatione ab omnibus 
+          ope<lb break="no" ed="#P" n="161"/>ribus, sed ab strepitu judiciorum: et hoc solum
+          <lb ed="#P" n="162"/>in principio proponitur, ut patet ex verbis 
+          ci<lb break="no" ed="#P" n="163"/>tatis, et id solum in fine capitis concluditur
+          <lb ed="#P" n="164"/>illis verbis: Quibus solemnibus feriis (nisi 
+          ne<lb break="no" ed="#P" n="165"/>cessitas urgeat, vel pietas suadeat) usque adeo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="166"/>convenit ab hujusmodi abstinere, ut 
+          consentien<lb break="no" ed="#P" n="167"/>tibus etiam partibus, nec processus habitus 
+          te<lb break="no" ed="#P" n="168"/>neat, nec sententia, quam contingit diebus 
+          hu<lb break="no" ed="#P" n="169"/>jusmodi promu gari. Et certe verisimile non
+          <lb ed="#P" n="170"/>est ante Gregorium aliam fuisse 
+          consuetudi<lb break="no" ed="#P" n="171"/>nem, nec facile credi potest, illum voluisse
+          <lb ed="#P" n="172"/>novam consuetudir.em et festivitatem 
+          intro<lb break="no" ed="#P" n="173"/>ducere.
+        </p>
+        <p>
+          <lb ed="#P" n="174"/>18. Quare feriae ille solemnes dicantur. —
+          <lb ed="#P" n="175"/>Neque obstat quod feriae illae dicantur 
+          solem<lb break="no" ed="#P" n="176"/>nes ; non enim ita vocantur propter festivam
+          <lb ed="#P" n="177"/>solemnitatem religiosam. quam in omnibus
+          <lb ed="#P" n="178"/>illis observare necesse sit, sed quia stabili et
+          <lb ed="#P" n="179"/>antiqua consuetudine receptae sunt. Sic enim
+          <lb ed="#P" n="180"/>latine etiam dicitur esse solemne, quod 
+          quo<lb break="no" ed="#P" n="181"/>tannis fieri solet, vel consuetudine receptum
+          <lb ed="#P" n="182"/>est; uude etiam feriae rusticae aestivales vel
+          <lb ed="#P" n="183"/>autumnales solemnes appellantur, ut a 
+          repen<lb break="no" ed="#P" n="184"/>tinis distinguantur, ut sumitur ex Glossa, 
+          dic<lb break="no" ed="#P" n="185"/>to cap. ult., et ibi Panorm., num. 8. Nec
+          <lb ed="#P" n="186"/>etiam obstat quod illae feriae dicantur in Dei
+          <lb ed="#P" n="187"/>reverentiam, quia hoc optime stat sine 
+          prae<lb break="no" ed="#P" n="188"/>cepto abstinendi omnino ab operibus 
+          scrvili<lb break="no" ed="#P" n="189"/>bus, vel audiendi sacrum omnibus illis diebus.
+          <lb ed="#P" n="190"/>Sunt enim multi dies peculiariter dicati in 
+          ho<lb break="no" ed="#P" n="191"/>norem Dei, vel alicujus Sancti, qui non 
+          praeci<lb break="no" ed="#P" n="192"/>piuntur illo modo observari, sed specialis 
+          re<lb break="no" ed="#P" n="193"/>verentia aut honor cernitur maxime in 
+          eccle<lb break="no" ed="#P" n="194"/>siastico officio, quod in diebus majoris 
+          hebdo<lb break="no" ed="#P" n="195"/>madae peculiariter fit in recordationem 
+          Domi<lb break="no" ed="#P" n="196"/>nicae passionis. Et ut majori cum solemnitate
+          <lb ed="#P" n="197"/>fieret, adjunxit Ecclesia vacationem saltem a
+          <lb ed="#P" n="198"/>strepitu judiciorv m, quae non sunt tam 
+          neces<lb break="no" ed="#P" n="199"/>saria al hominum vitam et sustentationem,
+          <lb ed="#P" n="200"/>sicut sunt alia opera; et ideo noluit Ecclesia
+          <lb ed="#P" n="201"/>universale praeceptum ferre de observatione
+          <lb ed="#P" n="202"/>festiva illorum dierum, licet judicia 
+          prohibue<lb break="no" ed="#P" n="203"/>rit in crdine ad reverentiam Dei. Quin potius
+          <lb ed="#P" n="204"/>toto tempore Quadragesimae jure civili 
+          prohi<lb break="no" ed="#P" n="205"/>bebantur judicia criminalia, ut in leg. 
+          Quadra<lb break="no" ed="#P" n="206"/>ginta, Cod. de Feriis, et in c. 2, 15, quaestione
+          <lb ed="#P" n="207"/>quarta, prohibetur, ne omnibus illis diebus
+          <lb ed="#P" n="208"/>liceat aliquem damnare in exilium. Et in c.
+          <lb ed="#P" n="209"/>Decrecit, 22, quaest. 5, a Septuagesima 
+          pro<lb break="no" ed="#P" n="210"/>hibetur exigi ab aliquo juramentum. Quae
+          <lb ed="#P" n="211"/>omnia non servantur, et decreta illa sunt 
+          tan<lb break="no" ed="#P" n="212"/>tum Conciliorum provincialium. Tamen es eis
+          <lb ed="#P" n="213"/>intelligitur quam diversum sit tempus 
+          feria<lb break="no" ed="#P" n="214"/>tum in ordine ad judicia, etiam in 
+          reveren<lb break="no" ed="#P" n="215"/>tiam Dei et bonum animae, vel simpliciter
+          <lb ed="#P" n="216"/>festivum.
+        </p>
+        <p>
+          <lb ed="#P" n="217"/>19. Objectio. — Diluitur. — Potest tamen
+          <lb ed="#P" n="218"/>apparentius cbjici, quia hinc sequitur ex vi
+          <lb ed="#P" n="219"/>illius decreti non probari alios dies, qui ibi
+          <lb ed="#P" n="220"/>numerantur, etiam Natalis, vel Paschatis, et
+          <pb ed="#P" n="265"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>similes esse in praecepto juris communis 
+          quo<lb break="no" ed="#P" n="2"/>ad observationem rigorosam festi. Patet 
+          se<lb break="no" ed="#P" n="3"/>quela, quia pon aliter dicuntur feriati hi dies,
+          <lb ed="#P" n="4"/>quam feriae hebdomadae sanctae : consequens
+          <lb ed="#P" n="5"/>autem videtur contra dicta. Respondeo, 
+          pro<lb break="no" ed="#P" n="6"/>pter hoc argumentum esse probabilem 
+          opi<lb break="no" ed="#P" n="7"/>nionem, quam Sylvester supra communem
+          <lb ed="#P" n="8"/>dicit, in illo capite non tantum praecipi 
+          vaca<lb break="no" ed="#P" n="9"/>tionem ab strepitu judicii, sed etiam ab 
+          ope<lb break="no" ed="#P" n="10"/>ribus servilibus in omnibus illis diebus. Sed
+          <lb ed="#P" n="11"/>nihilominus, inspecta intentione Pontificis in
+          <lb ed="#P" n="12"/>illa lege, et vi verborum ejus, concedendum
+          <lb ed="#P" n="13"/>videtur, intentionem illius legis non fuisse
+          <lb ed="#P" n="14"/>agere de festis ex praecepto observandis ab
+          <lb ed="#P" n="15"/>omnibus fidelibus, sed solum de feriis, in 
+          qui<lb break="no" ed="#P" n="16"/>bus abstinendum est ab strepitu judicii 
+          pro<lb break="no" ed="#P" n="17"/>pter reverentiam Dei, quae feriae latius patent
+          <lb ed="#P" n="18"/>quar illae festivitates, ut declaratum est. 
+          Ni<lb break="no" ed="#P" n="19"/>hilominus tamen ex qualitate materiae, et ex
+          <lb ed="#P" n="20"/>aliis juribus, et maxime ex traditione 
+          Eccle<lb break="no" ed="#P" n="21"/>siae, intelligimus festivitates, quae ibi 
+          nume<lb break="no" ed="#P" n="22"/>rantur, esse ita solemnes, ut ab cmnibus sint
+          <lb ed="#P" n="23"/>ex praecepto observanda cultu religioso, et
+          <lb ed="#P" n="24"/>hanc esse generalem regulam, quae non 
+          ad<lb break="no" ed="#P" n="25"/>mittit exceptionem, nisi ubi ex materia ipsa
+          <lb ed="#P" n="26"/>vel ex consuetudine contrarium constet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

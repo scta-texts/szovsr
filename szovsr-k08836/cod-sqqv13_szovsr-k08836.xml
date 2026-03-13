@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 26</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 26</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="353"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k08836"><!-- t2-l2c26 -->
+        <head>Caput 26</head>
+        <head type="question-title">Actus pingendi sitne servilis, et prohibitus in die festo.</head>
+        <p>
+          <lb ed="#P" n="63"/>CAPUT XXVI.
+          <lb ed="#P" n="64"/>ACTUS PINGENDI SITNE SERVILIS, ET PROHIBITUS
+          <lb ed="#P" n="65"/>IN DIE EFESTO.
+        </p>
+        <p>
+          <lb ed="#P" n="66"/>1. Dubium hoc ex praecedenti sequitur, 
+          ha<lb break="no" ed="#P" n="67"/>betque magnam rationem dubitandi pro 
+          utra<lb break="no" ed="#P" n="68"/>que parte. Nam quod actus pingendi sit opus
+          <lb ed="#P" n="69"/>servile, probari potest primo, quia ars 
+          pin<lb break="no" ed="#P" n="70"/>gendi mechanica est ex omnium sententia;
+          <lb ed="#P" n="71"/>ergo opus ejus servile est. Item est opus 
+          cor<lb break="no" ed="#P" n="72"/>porale terminatum ad extrinsecam materiam,
+          <lb ed="#P" n="73"/>et dirigibile per artem mechanicam ; sed per
+          <lb ed="#P" n="74"/>has conditiones supra descripsimus opus 
+          ser<lb break="no" ed="#P" n="75"/>vile ex Div. Thoma, in 3, disp. 37; ergo. 
+          Ter<lb break="no" ed="#P" n="76"/>tio. alias sequeretur posse licite, et sine 
+          trans<lb break="no" ed="#P" n="77"/>gressione hujus praecepti, hoc opus exerceri
+          <lb ed="#P" n="78"/>in die festo per totam ciem, etiam ex officio, et
+          <lb ed="#P" n="79"/>propter pretium vel lucrum, dummodo missa
+          <lb ed="#P" n="80"/>non omittatur, sicut de studio diximus. 
+          Conse<lb break="no" ed="#P" n="81"/>quens est falsum, et contra communem usum:
+          <lb ed="#P" n="82"/>unde videtur etiam esse contra pietatem et
+          <lb ed="#P" n="83"/>bonos mores fidelium; ergo. Sequela patet,
+          <lb ed="#P" n="84"/>quia si opus de se non est servile, propter 
+          in<lb break="no" ed="#P" n="85"/>tentionem pretii non fit servile, nec propter
+          <lb ed="#P" n="86"/>durationem, vel corporalem laborem, vel 
+          oc<lb break="no" ed="#P" n="87"/>cupationem, ut dictum est. Quarto, si 
+          depin<lb break="no" ed="#P" n="88"/>gere imaginem non est opus servile, nec 
+          scul<lb break="no" ed="#P" n="89"/>pere imaginem vel conflare, esset opus servile,
+          <lb ed="#P" n="90"/>quod manifeste falsum est; alias nec fabrilis
+          <lb ed="#P" n="91"/>artis opus esset servile; ergo. Sequela patet,
+          <lb ed="#P" n="92"/>quia non est major ratio ; nam quod hae artes
+          <lb ed="#P" n="93"/>sculpendi vel conflandi laboriosiores sint
+          <lb ed="#P" n="94"/>quoad corpus, non satis est ut opera earum
+          <lb ed="#P" n="95"/>dicantur servilia, si ex fine proprio et materia
+          <lb ed="#P" n="96"/>servilia non sunt. Simile argumentum est,
+          <lb ed="#P" n="97"/>quia si depingere penicillo non est opus 
+          ser<lb break="no" ed="#P" n="98"/>vile, ergo nec depingere acu erit opus 
+          ser<lb break="no" ed="#P" n="99"/>vile : nam etiam id est opus ingenii, et sine
+          <lb ed="#P" n="100"/>magno labore, aut motu corporis fit; at 
+          con<lb break="no" ed="#P" n="101"/>stat id esse falsum ; ergo. Propter haec 
+          for<lb break="no" ed="#P" n="102"/>tasse Cajetanus dicto art. 4, S Ad secundum,
+          <lb ed="#P" n="103"/>pingere ponit inter opera per se servilia, quae
+          <lb ed="#P" n="104"/>non licent in die festo, sive gratis, sive 
+          mer<lb break="no" ed="#P" n="105"/>cede fiant, et aequiparat illa duo, pingere et
+          <lb ed="#P" n="106"/>statuam facere.
+        </p>
+        <p>
+          <lb ed="#P" n="107"/>9. Suadetur actionem pingendi non esse ser-
+          <pb ed="#P" n="354"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vilem. —In contrarium autem est primo, quia
+          <lb ed="#P" n="2"/>pingere non magis videtur servile quam 
+          scri<lb break="no" ed="#P" n="3"/>bere vel transcribere, quia exterius solum 
+          con<lb break="no" ed="#P" n="4"/>sistit in ferendis quibusdam lineis et figuris,
+          <lb ed="#P" n="5"/>quod etiam in scriptura fit. Interius autem est
+          <lb ed="#P" n="6"/>opus mentis, et ad mentis informationem 
+          or<lb break="no" ed="#P" n="7"/>dinatur, unde etiam pictura historiam 
+          quo<lb break="no" ed="#P" n="8"/>dammodo narrat, et memoriam conservat;
+          <lb ed="#P" n="9"/>est ergo eadem ratio de pictura, quae de 
+          scri<lb break="no" ed="#P" n="10"/>ptura. Secundo, quia opus pingendi non est
+          <lb ed="#P" n="11"/>opus servorum proprium, unde licet 
+          mechani<lb break="no" ed="#P" n="12"/>cum sit, quod negari non potest. tamen est
+          <lb ed="#P" n="13"/>ita nobile, ut a quolibet libero homine 
+          exer<lb break="no" ed="#P" n="14"/>ceri possit, quia solum consistit, ut dixi, in
+          <lb ed="#P" n="15"/>quadam veluti scriptione; non est ergo opus
+          <lb ed="#P" n="16"/>servile. Tertio, si esset opus servile, nunquam
+          <lb ed="#P" n="17"/>liceret in die festo, etiam ob voluptatem vel
+          <lb ed="#P" n="18"/>pietatem, quia prohibitio est absoluta et 
+          vni<lb break="no" ed="#P" n="19"/>versalis, et illi fines non possunt extrahere
+          <lb ed="#P" n="20"/>opus a ratione operis servilis, si natura sua
+          <lb ed="#P" n="21"/>tale est, licet ob necessitatem possit excusari
+          <lb ed="#P" n="22"/>opus, vel propter levitatem materiae, saltem
+          <lb ed="#P" n="23"/>a mortali. Consequens autem est falsum: quia
+          <lb ed="#P" n="24"/>omnes fatentur, esse licitum pingere in die
+          <lb ed="#P" n="25"/>festo tantum voluptatis gratia, vel ad artem
+          <lb ed="#P" n="26"/>discendam occupari in die festo, aliqua imagine
+          <lb ed="#P" n="27"/>pro exemplari proposita, illam imitando et
+          <lb ed="#P" n="28"/>delineando, eam attente intuendo, quae certe
+          <lb ed="#P" n="29"/>non licerent, si pingere ut sic servile esset.
+        </p>
+        <p>
+          <lb ed="#P" n="30"/>3. Hanc ergo partem absolute tuentur Medin.
+          <lb ed="#P" n="31"/>et Lud. Lopez supra ; unde consequenter 
+          con<lb break="no" ed="#P" n="32"/>cedunt, non esse illicitum pingere in die festo,
+          <lb ed="#P" n="33"/>gratia lucri et mercedis acquirendae. Alii vero
+          <lb ed="#P" n="34"/>auctores, qui dicunt pingere ob lucrum esse
+          <lb ed="#P" n="35"/>prohibitum, non vero si absque lucro aliis de
+          <lb ed="#P" n="36"/>causis fiat, plane sentiunt opus ipsum non esse
+          <lb ed="#P" n="37"/>servile materialiter, ut ipsi loquuntur, sed
+          <lb ed="#P" n="38"/>fieri servile formaliter ex fine lucri. Denique
+          <lb ed="#P" n="39"/>idem sentire debent, ut consequenter 
+          loquan<lb break="no" ed="#P" n="40"/>tur, qui dicunt non peccare eos, qui ad artem
+          <lb ed="#P" n="41"/>pingendi addiscendam, aliquid in festo 
+          depin<lb break="no" ed="#P" n="42"/>gunt seu designant, ut loquitur Angel., n. 31,
+          <lb ed="#P" n="43"/>et clarius Silv., verb. Dominica, q. 5, S 
+          Quin<lb break="no" ed="#P" n="44"/>ta: Hacusantur (inquit) pictores, qui in 
+          die<lb break="no" ed="#P" n="45"/>bus festis retrabunt in ecclesis pulchras 
+          figu<lb break="no" ed="#P" n="46"/>ras, quia ad peritiam artis id faciunt. Et 
+          Ar<lb break="no" ed="#P" n="47"/>mil., verb. Festum, n. 21, id declarat de his,
+          <lb ed="#P" n="48"/>qui figuras ab aliis factas pingunt, et extendit
+          <lb ed="#P" n="49"/>ad puellas, quae recamaturas faciunt (sic ipse
+          <lb ed="#P" n="50"/>loquitur) ut addiscant. item ad eos qui 
+          desi<lb break="no" ed="#P" n="51"/>gnant in cartis, quae phantasia fingunt, ut
+          <lb ed="#P" n="52"/>postea illa perficiant, vel fabricentur. Et 
+          si<lb break="no" ed="#P" n="53"/>milia habet Rosella, et alii Summista:.
+        </p>
+        <p>
+          <lb ed="#P" n="54"/>4. Auctoris judicium. — Haec controversia
+          <lb ed="#P" n="55"/>videri potest de nomine, et modo loquendi,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>si res speculative consideretur ; nihilominus
+          <lb ed="#P" n="57"/>ad definiendos casus morales, non est parvi
+          <lb ed="#P" n="58"/>momconti, et fateor rem mihi videri dubiam,
+          <lb ed="#P" n="59"/>quia hinc verendum est, ne nimia licentia
+          <lb ed="#P" n="60"/>his artificibus tribuatur, aliunde vero non
+          <lb ed="#P" n="61"/>sunt scrupuli injiciendi. Neque etiam sine
+          <lb ed="#P" n="62"/>sufficienti ratione differentiae unum opus 
+          ap<lb break="no" ed="#P" n="63"/>probandum est, et aliud simile reprobandum.
+          <lb ed="#P" n="64"/>Sentio igitur hoc opus esse servile ex genere
+          <lb ed="#P" n="65"/>suo, moveorque primo quasi a posteriori, quia
+          <lb ed="#P" n="66"/>ad definiendos casus morales, haec pars 
+          vide<lb break="no" ed="#P" n="67"/>tur securior et rationabilior. Secundo, quia
+          <lb ed="#P" n="68"/>rationes pro illa factae, sunt satis probabiles,
+          <lb ed="#P" n="69"/>et non facile expedientar. Alia vero in 
+          con<lb break="no" ed="#P" n="70"/>trarium factae non habent difficilem 
+          solutio<lb break="no" ed="#P" n="71"/>nem: nam inter picturam et seripturam est
+          <lb ed="#P" n="72"/>magna differentia. Primo, quia licet pictura
+          <lb ed="#P" n="73"/>procedat a mente, non tamen sicut scriptura,
+          <lb ed="#P" n="74"/>sed sicut quaelibet alia ars fabrilis; nam 
+          scri<lb break="no" ed="#P" n="75"/>ptura procedit a mente ad exprimendos mentis
+          <lb ed="#P" n="76"/>conceptus, ratiocinia et judicia ; pictura vero
+          <lb ed="#P" n="77"/>solum progreditur a mente tanquam quoddam
+          <lb ed="#P" n="78"/>artefactum, quod conformatur idolo mentis,
+          <lb ed="#P" n="79"/>quod etiam habet domus, statua, etc. Secundo
+          <lb ed="#P" n="80"/>etiam differunt in fine intrinseco, ad quem
+          <lb ed="#P" n="81"/>tendunt; nam scriptura per se tendit ad 
+          men<lb break="no" ed="#P" n="82"/>tem instruendam, sicut locutio, et ideo per se
+          <lb ed="#P" n="83"/>opus est doctrina et disciplina ; opus vero
+          <lb ed="#P" n="84"/>pingendi natura sua solum ordinatur ad 
+          assi<lb break="no" ed="#P" n="85"/>milandam imaginem artefactam rei verae.
+          <lb ed="#P" n="86"/>Quod vero inde sequatur conservatio vcl 
+          ex<lb break="no" ed="#P" n="87"/>citatio memoriae, accidentarium est ad illam
+          <lb ed="#P" n="88"/>actionem; consequitur enim ad illam, sicut ad
+          <lb ed="#P" n="89"/>productionem cujuscumque objecti similis 
+          se<lb break="no" ed="#P" n="90"/>quitur, ut ducat in cognitionem similis ; vel
+          <lb ed="#P" n="91"/>sicut ex generatione filii, qui est naturalis 
+          ima<lb break="no" ed="#P" n="92"/>go patris, sequitur ut excitet memorian vel
+          <lb ed="#P" n="93"/>amorem ejus. Atque hinc fit, ut ars pingendi
+          <lb ed="#P" n="94"/>non sit ex his. quae ad disciplinas vel liberales
+          <lb ed="#P" n="95"/>artes pertinent: unde nec per se pertinet ad
+          <lb ed="#P" n="96"/>eos, qui in republica nobiles et liberaliores
+          <lb ed="#P" n="97"/>reputantur, sed ad eam deputantur inferiores
+          <lb ed="#P" n="98"/>ministri, et ita illa actio dici potest ex his, ad
+          <lb ed="#P" n="99"/>quas servos deputatos habemus. Quod si 
+          inter<lb break="no" ed="#P" n="100"/>dum nobiles eam exercent, est ad modicum et
+          <lb ed="#P" n="101"/>ad quamdam honestam vel jucundam 
+          occu<lb break="no" ed="#P" n="102"/>pationem, quomodo etiam aliarum artium 
+          ope<lb break="no" ed="#P" n="103"/>ra interdum exercent. Atque ita patet 
+          respon<lb break="no" ed="#P" n="104"/>sio ad secundam rationem ; ad tertiam vero
+          <lb ed="#P" n="105"/>ex sequenti puncto constabit.
+        </p>
+        <p>
+          <lb ed="#P" n="106"/>5. Pingendi opus est in festo prohibitum.
+          <lb ed="#P" n="107"/>— Ex dicta enim resolutione, infero pingendi
+          <lb ed="#P" n="108"/>opus simpliciter esse prohibitum in die festo,
+          <lb ed="#P" n="109"/>sive pretio, sive liberaliter fiat, quia hoc non
+          <lb ed="#P" n="110"/>variat rationem operis servilis, ut dixi. Imo
+          <pb ed="#P" n="355"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>etiam causa pietatis vel religionis per se non
+          <lb ed="#P" n="2"/>Iicet , nisi aliqua justa excusatio interveniat.
+          <lb ed="#P" n="3"/>Ut si templi pars aliqua, ut parietes, aut 
+          tec<lb break="no" ed="#P" n="4"/>tum, pictura sit ornanda, non licebit id 
+          ope<lb break="no" ed="#P" n="5"/>ris in festo facere. etiamsi gratis et ob 
+          reve<lb break="no" ed="#P" n="6"/>rentiam templi fiat, nisi necessitas Ecclesiae et
+          <lb ed="#P" n="7"/>dispensatio praelati interveniat : et ita habet
+          <lb ed="#P" n="8"/>usus. Item, licet quis depingat imaginem 
+          ani<lb break="no" ed="#P" n="9"/>mo illam donandi ecclesiae, non licet in festo
+          <lb ed="#P" n="10"/>id facere sine licentia praelati, quia non licet
+          <lb ed="#P" n="11"/>servile opus facere in festo, etiam causa 
+          pie<lb break="no" ed="#P" n="12"/>tatis, sine necessitate excusante, ut supra 
+          dic<lb break="no" ed="#P" n="13"/>tum est. Quapropter multo minus licebit id
+          <lb ed="#P" n="14"/>facere voluptatis causa, sicut non liceret vas
+          <lb ed="#P" n="15"/>argenteum aut aureum facere, etiamsi quis in
+          <lb ed="#P" n="16"/>eo delectetur, et ea ratione id faciat. Quod si
+          <lb ed="#P" n="17"/>fortasse id permittitur ad modicum tempus.
+          <lb ed="#P" n="18"/>id erit ob materiae levitatem, et excusari 
+          po<lb break="no" ed="#P" n="19"/>terit a culpa veniali, vel ex consuetudine, si
+          <lb ed="#P" n="20"/>talis est, vel ex benigna interpretatione 
+          Ec<lb break="no" ed="#P" n="21"/>clesiae, quae modico tempore illam actionem,
+          <lb ed="#P" n="22"/>licet servilem, permittit, quia proxime 
+          acce<lb break="no" ed="#P" n="23"/>dit ad liberalem, et supremum infimi attingit
+          <lb ed="#P" n="24"/>aliquo modo infimum supremi. Vel etiam 
+          ex<lb break="no" ed="#P" n="25"/>cusari potest ex quodam colorato titulo 
+          mo<lb break="no" ed="#P" n="26"/>ralis necessitatis, quia non potest homo, 
+          prae<lb break="no" ed="#P" n="27"/>sertim saecularis, et ad id non assuetus, toto
+          <lb ed="#P" n="28"/>die integro lectioni vel orationi vacare; et
+          <lb ed="#P" n="29"/>ideo, ne sit otiosus, vel actionibus minus 
+          ho<lb break="no" ed="#P" n="30"/>nestis occupetur, indiget, moraliter 
+          loquen<lb break="no" ed="#P" n="31"/>do, aliqua hujusmodi operatione, et ideo 
+          po<lb break="no" ed="#P" n="32"/>test illa operatio modica, vel alia similis, 
+          ra<lb break="no" ed="#P" n="33"/>tionabiliter permitti, tanquam medium ad
+          <lb ed="#P" n="34"/>sublevandam naturam sine culpabili otio.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>6. Non licet in festo pingere ad artem 
+          ad<lb break="no" ed="#P" n="36"/>discendam. — Atque eodem modo assero, per
+          <lb ed="#P" n="37"/>se non licere pingere in die festo ad artem 
+          ad<lb break="no" ed="#P" n="38"/>discendam, quoad usum et facilitatem ipsius
+          <lb ed="#P" n="39"/>corporalis operis ; quia hoc totum non 
+          trans<lb break="no" ed="#P" n="40"/>cendit servilem conditionem et intentionem,
+          <lb ed="#P" n="41"/>et quia supra ostensum universaliter est, non
+          <lb ed="#P" n="42"/>licere hoc modo in die festo occupari in usu
+          <lb ed="#P" n="43"/>corporali ariis mechanicae propter illam 
+          ad<lb break="no" ed="#P" n="44"/>discendam, quamvis liceat theoremata ejus,
+          <lb ed="#P" n="45"/>vel regulas addiscere, et memoriae mandare.
+          <lb ed="#P" n="46"/>Unde illa, quae ex Summistis retulimus, cum
+          <lb ed="#P" n="47"/>mica salis intelligenda sunt : non enim licet
+          <lb ed="#P" n="48"/>in die festo imaginem ab alio pictam 
+          pingen<lb break="no" ed="#P" n="49"/>do transferre, quia non minus servile est 
+          pin<lb break="no" ed="#P" n="50"/>gere ad imitationem sensibilis exemplaris
+          <lb ed="#P" n="51"/>propositi coram oculis, quam ex propria 
+          men<lb break="no" ed="#P" n="52"/>te, et imagine interna; imo hoc videtur 
+          mi<lb break="no" ed="#P" n="53"/>nus servile, quia magis mentale et internum,
+          <lb ed="#P" n="54"/>sicut magis liberale censetur scribere, quam
+          <lb ed="#P" n="55"/>transcribere. Nec vero intentio addiscendi ho-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nestat actionem, quia medium est servile. lla
+          <lb ed="#P" n="57"/>ergo actio delineandi tantum imaginem 
+          atten<lb break="no" ed="#P" n="58"/>te inspectam , ad illam postea imitandam et
+          <lb ed="#P" n="59"/>pingendam, si excusanda est, ex parvitate 
+          ma<lb break="no" ed="#P" n="60"/>teriae rmprimis excusari potest, et ex 
+          consue<lb break="no" ed="#P" n="61"/>tudine, et ex benigna interpreitatione 
+          praece<lb break="no" ed="#P" n="62"/>pti cum quodam colore necessitatis, ut de 
+          pic<lb break="no" ed="#P" n="63"/>tura voluptatis causa diximus. Vel etiam hic
+          <lb ed="#P" n="64"/>addi potest, quod illud proprie non est 
+          pin<lb break="no" ed="#P" n="65"/>gere, sed solum memoriam et mentem 
+          juva<lb break="no" ed="#P" n="66"/>re, ut possit postea idolum talis imaginis 
+          per<lb break="no" ed="#P" n="67"/>fecte formare, et hoc videtur ad disciplinam
+          <lb ed="#P" n="68"/>liber.lem accedere. Et juxta haec de aliis
+          <lb ed="#P" n="69"/>exemplis judicandum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

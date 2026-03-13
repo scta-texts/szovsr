@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="77"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k01857"><!-- t2-l1prae -->
+        <head>Praeambulum</head>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="9"/>LIBER PRIMUS
+          <lb ed="#P" n="10"/>DE DIVINO CULTU
+          <lb ed="#P" n="11"/>EX PRAECEPTO NECESSARIO,
+          <lb ed="#P" n="12"/>PRAUESERTIM PER OBLATIONES, DECIMAS AC PRIMITIAS.
+        </p>
+        <p>
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="13"/>In hoc libro prius a nobis explicandum est
+          <lb ed="#P" n="14"/>generale praeceptum de divino cultu, prout
+          <lb ed="#P" n="15"/>juris naturalis est ac divini. Hoc autem in 
+          ge<lb break="no" ed="#P" n="16"/>nerali breviter poterit expediri, quia 
+          praece<lb break="no" ed="#P" n="17"/>ptum illud, quatenus affirmativum est et 
+          me<lb break="no" ed="#P" n="18"/>re naturale, valde generale est et indefinitum,
+          <lb ed="#P" n="19"/>ideoque vix potest sine positiva 
+          determina<lb break="no" ed="#P" n="20"/>tione ad praxim applicari; quapropter 
+          conse<lb break="no" ed="#P" n="21"/>quenter explicabimus quomodo, ex 
+          institutio<lb break="no" ed="#P" n="22"/>ne divina vel humana, ad aliquos particulares
+          <lb ed="#P" n="23"/>actus haec obligatio applicetur. Unde quoniam
+          <lb ed="#P" n="24"/>haec institutio non datur de actibus pure 
+          in<lb break="no" ed="#P" n="25"/>ternis, sed de externis, ideo fere totus hic 
+          li<lb break="no" ed="#P" n="26"/>ber erit de actibus externis divini cultus, qui
+          <lb ed="#P" n="27"/>sub praeceptum cadunt, qui ad tres positos
+          <lb ed="#P" n="28"/>revocantur, videlicet, oblationem, sub qua
+          <lb ed="#P" n="29"/>sacrificium comprehendimus; primitiarum ac
+          <lb ed="#P" n="30"/>decimarum solutionem; nam praeceptum 
+          ora<lb break="no" ed="#P" n="31"/>tionis in alium tractatum reservamus, ut dixi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

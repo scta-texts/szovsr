@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prooemium</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prooemium</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k00000"><!-- prooemium -->
+        <head>Prooemium</head>
+        <p>
+          <pb ed="#P" n="1"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>OPUS DE VIRTIUTIE
+          <lb ed="#P" n="2"/>ET STATU RELIGIONIS.
+          <lb ed="#P" n="3"/>PROOEMIUM ET RATIO TOTIUS OPERIS DE RELIGIONE.
+        </p>
+        <p>
+          <lb ed="#P" n="4"/>Sacra Theologia ita subtili divinarum rerum speculatione detinetur, ut humanas
+          <lb ed="#P" n="5"/>etiam dirigat actiones, speculatrix enim est et practica. Hinc fit ut, cum Deum 
+          tan<lb break="no" ed="#P" n="6"/>quam objectum contempletur, non soium ejus nobis ingerat cognitionem, sed etiam
+          <lb ed="#P" n="7"/>modum ostendat quo cognitum debito Majestati cultu veneremur. Minus quidem
+          <lb ed="#P" n="8"/>laudabilis esset Theologia . si mentem illustraret, non mores dirigeret, si Divinae
+          <lb ed="#P" n="9"/>Majestatis notitiam conferret, neque ad eam colendam, viam modumque 
+          ostende<lb break="no" ed="#P" n="10"/>ret. Deum enim cognosccere, et non ut Deum honorificare, flagitium est omnium
+          <lb ed="#P" n="11"/>maximum, quod in antiquis philosophis Paulus reprehendit, ad Roman. 1, ut ibi
+          <lb ed="#P" n="12"/>Chrysostomus adnotavit ; ideoque Divina Sapientia non solum mentem cognitione 
+          il<lb break="no" ed="#P" n="13"/>lustrat, sed etiam normam prafigit voluntati, qua Deum ita cognitum supremo cultu
+          <lb ed="#P" n="14"/>ac veneratone extollamus. Cum ergo aequum sit Theologum doctorem, Theologiam,
+          <lb ed="#P" n="15"/>quam profitetur, amulari, posiquam ea Dei mysteria, in quibus speculatrix 
+          Theolo<lb break="no" ed="#P" n="16"/>gia praecipue versatur, pro meo captu evulgavi, non potui me amplius contnere,
+          <lb ed="#P" n="17"/>quin ad explicanda illa descenderem, quae nos Deo debitum cultum edocerent. Cum
+          <lb ed="#P" n="18"/>enim hic semper fuerit meorum laborum scopus, ut Deus ab hominibus et 
+          cognos<lb break="no" ed="#P" n="19"/>catur magis , et ardentius sanctiusque colatur, hoc peculiari opere id mihi 
+          perfi<lb break="no" ed="#P" n="20"/>ciendum putavi, quo specialius homines ad cultum et honorem Deo exhibendumn
+          <lb ed="#P" n="21"/>incitarem. Cum vero, teste Clemente Alexandrino, 2 Strom., religio, cateras 
+          vir<lb break="no" ed="#P" n="22"/>tutes superans, antiquissimam et supremam causam doceat colere et venerari, de
+          <lb ed="#P" n="23"/>religione hanc institui tractationem.
+        </p>
+        <p>
+          <lb ed="#P" n="24"/>Haec praecipua causa est suscepti operis, cui accessit alia non minoris ponderis, quae
+          <lb ed="#P" n="25"/>ex superiorum sumitur auctoritate, a quibus sape ad hoc opus aggrediendum fui
+          <lb ed="#P" n="26"/>excitatus ; eorum autem nutum et voluntatis significationem tanquam imperium
+          <lb ed="#P" n="27"/>mihi suscipiendum semper existimavi. Quanquam facile illud censeatur imperium,
+          <lb ed="#P" n="28"/>in quod animus ipse sponte propendet, atque in hoc ita libenter voluntas ferebatur,
+          <lb ed="#P" n="29"/>ut calcaribus non indigeret. Enimvero cum tractatus de religioso statu iis sit 
+          con<lb break="no" ed="#P" n="30"/>nectendus, quae de virtute religionis a nobis sunt explicanda, mirum non est s
+          <lb ed="#P" n="31"/>animus, quo se gratum exhiberet, ad illius s:atus commendationem properaret, ao
+          <lb ed="#P" n="32"/>quem divina gratia ipsum evexit, et per plures annos consecravit. Sicut enim 
+          con<lb break="no" ed="#P" n="33"/>ferre graiam bonum est, ita non referre est durissimum, ut in libro 1 de Offic.
+          <lb ed="#P" n="34"/>eleganter dixit Ambrosius.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>Illud etiam benigno lectori attente considerandum est, multa ex his quae ad
+          <lb ed="#P" n="36"/>tertiam partem D. Thomse superioribus annis disputavimus, qualia sunt quae de
+          <lb ed="#P" n="37"/>Adoratione, Sacrificio, Sacramentis, aliisque similibus in lucem dedimus, ad 
+          mate<lb break="no" ed="#P" n="38"/>riam et actus religionis vel directe spectare, vel proxime revocari; ideoque 
+          uni<lb break="no" ed="#P" n="39"/>versam illam docirinam ex hujus virtutis cognitione pendere, eique quodammodo 
+          sub<lb break="no" ed="#P" n="40"/>ordinari; ac subinde tractationem hanc a superiori non discrepare, sed eam 
+          quodam<lb break="no" ed="#P" n="41"/>modo perficere ac consummare. Jam vero quae de Sacramento Ordinis dicenda erunt,
+          <lb ed="#P" n="42"/>majori quadam ratione cum virtute rcligionis copulantur ; nam per illud 
+          sacramen<lb break="no" ed="#P" n="43"/>tum ministri divini cultus consecrantur, et a virtute religionis de actibus, quos in
+          <lb ed="#P" n="44"/>eo munere exercere debent, instruuntur. Denique ipsum etiam Matrimonii Sacra-
+          <pb ed="#P" n="2"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mentum cum votis, tam solemnibus quam simplicibus, quae inter actus religionis
+          <lb ed="#P" n="2"/>numerantur, connexionem habet. Unde si, favente Deo , ad inceptum 
+          Sacramen<lb break="no" ed="#P" n="3"/>torum opus aliquando revertar, expeditior erit cursus , multis in hoc opere
+          <lb ed="#P" n="4"/>enodatis, quae in illo incommode permiscentur. Quod si vita virtusque defecerit,
+          <lb ed="#P" n="5"/>priusquam ad illud opus animum iterum appellam , quod video quam sit 
+          pro<lb break="no" ed="#P" n="6"/>babile, non me facti poenitebit, ut spero, quia non sunt poenitendae rauones, quibus
+          <lb ed="#P" n="7"/>inductus, illud opus interrupi, ut hoc aggrederer.
+        </p>
+        <p>
+          <lb ed="#P" n="8"/>Est ergo religio totius hujus operis scopus et objectum. Sed quia duos hoc 
+          no<lb break="no" ed="#P" n="9"/>men religio praecipuos habet significatus ; alterum, quo exprimit virtutem 
+          quam<lb break="no" ed="#P" n="10"/>dam omnibus Christianis communem, alterum, quo peculiarem significat statum
+          <lb ed="#P" n="11"/>eorum qui proprie religiosi appellantur, duas etiam praecipuas partes totum
+          <lb ed="#P" n="12"/>hoc opus continebit, quarum una virtutis, altera status cognitionem comprehendat.
+          <lb ed="#P" n="13"/>Quamvis enim D. Thomas 2. 2, a quaest. 81 usque ad 100, de virtute religionis
+          <lb ed="#P" n="14"/>disputaverit, et postea, multis interjectis, a quaest. 183, et praesertim in 186 et
+          <lb ed="#P" n="15"/>sequentibus, de statu disseruerit, nihilominus virtus et status religionis ita mutuo
+          <lb ed="#P" n="16"/>nexu copulantur, ut ad unius exactam cognitionem alterius notitia requiri videatur.
+          <lb ed="#P" n="17"/>Nam religiosus status et ad virtuus religionis exercitium instituitur, ideoque statui
+          <lb ed="#P" n="18"/>Angelorum semper laudantium et colentium Deum comparatur ab Ambrosio, et
+          <lb ed="#P" n="19"/>ejusdem virtutis actibus constituitur, consueta nimirum votorum emissione, sine
+          <lb ed="#P" n="20"/>quibus status ille non cohaeret ; imo ipsam religiosae vitae professionem gratum
+          <lb ed="#P" n="21"/>Deo sacrificium S. Augustinus appellavit, et Gregorius addidit gratissimum esse
+          <lb ed="#P" n="22"/>Deo holocaustum. Át votum, sacrificium, et divina laus actus virtutis religionis sunt;
+          <lb ed="#P" n="23"/>non potest ergo ille status, ab hac virtute, disputatione sejungi.
+        </p>
+        <p>
+          <lb ed="#P" n="24"/>Ex dictis tamen manifeste deducitur priorem hujus operis locum virtut esse
+          <lb ed="#P" n="25"/>tribuendum , quoniam ad illam, ut ad finem et efficientem causam, status 
+          re<lb break="no" ed="#P" n="26"/>ligiosus refertur. In virtute autem explicanda , quem in pertractandis alis 
+          vir<lb break="no" ed="#P" n="27"/>tutbus tenere soleo, ordinem observando. Prius enim ejus naturam, subjectum,
+          <lb ed="#P" n="28"/>materiam, actus, essentiam , proprietates , unitatem et disunctionem ab alis 
+          in<lb break="no" ed="#P" n="29"/>vestigabo. Gradum postea faciam ad moralem doctrinam, atque adeo tam divina
+          <lb ed="#P" n="30"/>quam humana praecepta ad hanc virtutem spectantia explicabo, tum ea quae
+          <lb ed="#P" n="31"/>aliquid imperant, tum etiam ea quae quippiam prohibent, et cum illis vitia omnia,
+          <lb ed="#P" n="32"/>quae eidem virtuti opponuntur, recensebo et explanabo. Quanquam enim in virtutum
+          <lb ed="#P" n="33"/>tractatione, moralis doctrina et copiosior et praecipue intenta esse debeat, nisi
+          <lb ed="#P" n="34"/>tamen exacta cognitio speculatioque praecedat , non possunt fundamenta 
+          depre<lb break="no" ed="#P" n="35"/>hendi, a quibus moralis doctrina derivatur.
+        </p>
+        <p>
+          <lb ed="#P" n="36"/>Est tamen postremo loco observandum, licet hujus virtutis actus physice (ut
+          <lb ed="#P" n="37"/>aiunt) spectati multiplices sint, in praesenti nonnisi sub ea ratione considerari, qua
+          <lb ed="#P" n="38"/>cultum Deo debitum continent. Sunt tamen nonnulli actus proprii hujus virtutis,
+          <lb ed="#P" n="39"/>qui rationem ipsam cultus fundatam habent in quadam alia peculiari proprietate
+          <lb ed="#P" n="40"/>morali , ex qua nova et specialis consideratio moralis consurgit. Hi vero actus
+          <lb ed="#P" n="41"/>tres praecipue invenim videntur : oratio, juramentum ac votum. Oratio enim
+          <lb ed="#P" n="42"/>ad impetrandum aliquid ab alio refertur; juramentum , ad confirmandam
+          <lb ed="#P" n="43"/>veritatem infallibili testimonio ; votum ad obligandum hominem peculiari modo
+          <lb ed="#P" n="44"/>ratione promissionis ; quae omnes rationes sunt substratae ad rationem cultus,
+          <lb ed="#P" n="45"/>et satis morales sunt, peculiaresque tractatus exigunt. Quapropter prius generatim
+          <lb ed="#P" n="46"/>de ipsa religionis virtute, ejusque praeceptis, ac vitiis illi oppositis dicam; 
+          pos<lb break="no" ed="#P" n="47"/>tea vero de tribus actibus paulo antea explicatis, et alus qui ad illos revocantur,
+          <lb ed="#P" n="48"/>disseram ; quamvis in materia de voto, et quia copiosior, et quia valde necessaria
+          <lb ed="#P" n="49"/>est, longius erit immorandum. Atque de industria hunc de voto tractatum in 
+          ul<lb break="no" ed="#P" n="50"/>timum hujus virtutis locum reservabimus, quia es voti, ejusque naturae 
+          conside<lb break="no" ed="#P" n="51"/>ratione, accommodato ordine ac proclivi quasi ductu, ad religiosi status 
+          considera<lb break="no" ed="#P" n="52"/>tionem transitum faciemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

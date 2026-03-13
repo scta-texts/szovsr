@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="284"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k07091"><!-- t2-l2c9 -->
+        <head>Caput 9</head>
+        <head type="question-title">De aliorum sanctorum festivitatibus.</head>
+        <p>
+          <lb ed="#P" n="92"/>CAPUT IX.
+          <lb ed="#P" n="93"/>DE ALIORUM SANCTORUM FESTIVITATIBUS.
+        </p>
+        <p>
+          <lb ed="#P" n="94"/>1. Sanctorum festa merito servantur. —
+          <lb ed="#P" n="95"/>Quare antiquus hic mos. —Hic etiam pro 
+          fun<lb break="no" ed="#P" n="96"/>damento ponendum est, jure ac merito 
+          insti<lb break="no" ed="#P" n="97"/>tutum esse ab Eeclesia, ut in aliquorum 
+          Sanc<lb break="no" ed="#P" n="98"/>torum honorem dies aliqui ita Deo dicati sint,
+          <lb ed="#P" n="99"/>ut ex obligatione ac praecepto ab universa
+          <lb ed="#P" n="100"/>Ecclesia serventur. Doctrina in hac assertione
+          <lb ed="#P" n="101"/>contenta de fide est quoad multa; aliquid vero
+          <lb ed="#P" n="102"/>includit certum ex facto ipso. Primo ergo de
+          <lb ed="#P" n="103"/>tide est, sancte et honeste posse dies festos Deo
+          <lb ed="#P" n="104"/>dicari, in peculiarem honorem aliquorum
+          <lb ed="#P" n="105"/>Sanctorum. De hac parte multa diximus in f
+          <lb ed="#P" n="106"/>tomo tertiae partis, tractando de cultu 
+          Sanc<lb break="no" ed="#P" n="107"/>torum, et ideo hic eam breviter expediemus,
+          <lb ed="#P" n="108"/>nam ex perpetua Ecclesiae traditione, et con-
+          <pb ed="#P" n="285"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sensu est manifesta : Clemens enim, libr. 8
+          <lb ed="#P" n="2"/>Constitution., c. 33, Apostolorum et Martyrum
+          <lb ed="#P" n="3"/>festa dicit esse servanda : Quia et magistri
+          <lb ed="#P" n="4"/>nostri fuerunt ad docendum nos de Christo,
+          <lb ed="#P" n="5"/>nobisque Spiritum Sanctum dederunt, et 
+          Chris<lb break="no" ed="#P" n="6"/>tumn vite sue anteposuerunt. Et apud 
+          Euse<lb break="no" ed="#P" n="7"/>bium, libr. 4 Histor., cap. 14, alias 15, extat
+          <lb ed="#P" n="8"/>egregia epistola Ecciesiae Smyrnensis ad alias
+          <lb ed="#P" n="9"/>becclesias, in qua historiam martyris sui 
+          Epis<lb break="no" ed="#P" n="10"/>copi Polycarpi scribit, et concludit : Sic nos
+          <lb ed="#P" n="11"/>postea ossa ejus potiora lapillis pretiosis, 
+          au<lb break="no" ed="#P" n="12"/>roqgue puriora ex cineribus selecta, eo loco 
+          re<lb break="no" ed="#P" n="13"/>posuimus, quà illis erat decorus 
+          consentaneus<lb break="no" ed="#P" n="14"/>que. Ubi sane nolus in unum aliquando coactis
+          <lb ed="#P" n="15"/>Dominus praestabit, ut celebrem ejus martgrii
+          <lb ed="#P" n="16"/>diem instar natalis festi cum exultatione et
+          <lb ed="#P" n="17"/>gaudio, quantumn fieri potest, maaimo 
+          recola<lb break="no" ed="#P" n="18"/>mns. Quibus verbis satis ostenditur, quam sit
+          <lb ed="#P" n="19"/>antiqua consuetudo Christiana dies festivos in
+          <lb ed="#P" n="20"/>honorem Sanctorum dicandi ; eamdemque
+          <lb ed="#P" n="21"/>egregie declarat, quod idem Eusebius, lib. 7,
+          <lb ed="#P" n="22"/>cap. 17, alias 19, refert, antiquos Christianos
+          <lb ed="#P" n="23"/>propter nullam persecutionem, aut loci 
+          in<lb break="no" ed="#P" n="24"/>commoditatem a celebrandis Sanctorum 
+          Mar<lb break="no" ed="#P" n="25"/>tyrum memoriis destitisse. Sic Tertullianus,
+          <lb ed="#P" n="26"/>lib. de Coron. milit., dixit: Ex antiqua 
+          majo<lb break="no" ed="#P" n="27"/>rum traditione pro natalitiis annua die 
+          feci<lb break="no" ed="#P" n="28"/>mus; cum autem Tertullianus non multum
+          <lb ed="#P" n="29"/>ab Apostolorum temporibus distaverit, non
+          <lb ed="#P" n="30"/>potuit vocare antiquam majorum traditionem,
+          <lb ed="#P" n="31"/>nisi quae ab Apostolis manaverat. Eamdemque
+          <lb ed="#P" n="32"/>traditionem plane confirmat Cyprianus, 
+          epis<lb break="no" ed="#P" n="33"/>tol. 34 et 37.
+        </p>
+        <p>
+          <lb ed="#P" n="34"/>2. Finis hujus institutionis, et modus illius.
+          <lb ed="#P" n="35"/>— Frinem et modum hujus institutionis 
+          decla<lb break="no" ed="#P" n="36"/>ravit optime Augustinus multis in locis, 
+          prae<lb break="no" ed="#P" n="37"/>sertim vero lib. 20, c. 21: Populus 
+          Christia<lb break="no" ed="#P" n="38"/>nus memorias Martyrum religiosa solemnitate
+          <lb ed="#P" n="39"/>concelebrat, et ad excitandum imitationem, et
+          <lb ed="#P" n="40"/>ut meritis eorum consocietur, atque orationibus
+          <lb ed="#P" n="41"/>adjwcetur, ita tamen ut uulli Martyrun, sed
+          <lb ed="#P" n="42"/>ipsi Deo Martyrum , quamvis in memoriam
+          <lb ed="#P" n="43"/>Martyrum constituamus altaria , eic. Similia
+          <lb ed="#P" n="44"/>habet 1. 8 de Civit., c. 27, 1. 22, c. 2, Enar. 2
+          <lb ed="#P" n="45"/>in Psalm. 88, 47 serm. de Sanctis, et 101 de
+          <lb ed="#P" n="46"/>Diversis, c. 7. 8, 9, et in multis sermonibus,
+          <lb ed="#P" n="47"/>qui antecedunt et sequuntur, ac denique in
+          <lb ed="#P" n="48"/>omnibus quae de Sanctis scripsit. Atque eadem
+          <lb ed="#P" n="49"/>ratione allegari possunt Nazianzenus, 
+          Grego<lb break="no" ed="#P" n="50"/>rius Nyssenus, Ambrosius, Chrysostomus, et
+          <lb ed="#P" n="51"/>alii antiqui Patres, in orationibus et 
+          concioni<lb break="no" ed="#P" n="52"/>bus, quas de aliis Sanctis, non solum Apostolis
+          <lb ed="#P" n="53"/>et Martyribus, sed etiam Confessoribus, et
+          <lb ed="#P" n="54"/>Doctoribus, ac Virginibus, et in eorum 
+          festivi<lb break="no" ed="#P" n="55"/>tatibus, ad populum factas, scriptas reliquc-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>runt. Denique Isidorus, libr. 1 de Divinis 
+          offi<lb break="no" ed="#P" n="57"/>ciis, c. 34: Festivitates (inquit) Apostolorum,
+          <lb ed="#P" n="58"/>et in honorem Martyrum antiqui Patres in
+          <lb ed="#P" n="59"/>venerationis mysterio celebrari sanaerunt, etc.
+          <lb ed="#P" n="60"/>Et capite trigesimo quinto, addit, has 
+          festivi<lb break="no" ed="#P" n="61"/>tates pro varietate regionum multiplicatas 
+          es<lb break="no" ed="#P" n="62"/>se, ne forte rara congregatio populi fidem 
+          mi<lb break="no" ed="#P" n="63"/>nueret in Christo. Ratio denique hujus 
+          verita<lb break="no" ed="#P" n="64"/>üs est, quia Sanct digni sunt cultu et honore,
+          <lb ed="#P" n="65"/>non tantum civili, sed etiam religioso, ut in
+          <lb ed="#P" n="66"/>dicto 1 tom. probatum et declaratum est; sed
+          <lb ed="#P" n="67"/>ad hunc finem dedicantur festi dies in 
+          hono<lb break="no" ed="#P" n="68"/>rem Sanctorum; et ideo illis diebus Deo 
+          sacri<lb break="no" ed="#P" n="69"/>ficamus, et cum Sanctorum commcmoratione
+          <lb ed="#P" n="70"/>Deum principaliter oramus, specialiter tamen
+          <lb ed="#P" n="71"/>intercessione talis vel talis Sancti adjuvari
+          <lb ed="#P" n="72"/>postulamus. Denique Sanctos ipsos non 
+          rogita<lb break="no" ed="#P" n="73"/>mus, nisi ut amicos Dei cum illo jam 
+          regnan<lb break="no" ed="#P" n="74"/>tes, et ut nostae salutis ministros, et 
+          instru<lb break="no" ed="#P" n="75"/>menta viva, et ut intercessores ac patronos
+          <lb ed="#P" n="76"/>nostros apud Deum; hoc autem totum cadit
+          <lb ed="#P" n="77"/>et terminatur in laudem et gloriam Dei; ergo.
+        </p>
+        <p>
+          <lb ed="#P" n="78"/>3. Feritas altera stalilitur. — Hac ergo
+          <lb ed="#P" n="79"/>veritate supposita , facile est alteram 
+          per<lb break="no" ed="#P" n="80"/>suadere, videlicet, jure ac merito potuisse 
+          Ec<lb break="no" ed="#P" n="81"/>clesiam nonnullos dies ita destinare ad 
+          cul<lb break="no" ed="#P" n="82"/>tum, in peculiarem honorem aliquorum 
+          Sanc<lb break="no" ed="#P" n="83"/>torum, ut sub obligatione praecepti eorum 
+          ob<lb break="no" ed="#P" n="84"/>servantiam constitueret, quia cum res sit 
+          san<lb break="no" ed="#P" n="85"/>cta ct honesta, non excedit ecclesiasticam 
+          po<lb break="no" ed="#P" n="86"/>testatem : nam est valde utilis Christiano 
+          po<lb break="no" ed="#P" n="87"/>pulo, propter rationes quas Augustinus et 
+          Isi<lb break="no" ed="#P" n="88"/>dorus tetigerunt, scilicet, ut fides excitetur et
+          <lb ed="#P" n="89"/>non dormiat ; ut spes erigatur, tum 
+          Sancto<lb break="no" ed="#P" n="90"/>rum gloriam conspiciendo. tum auxilium 
+          in<lb break="no" ed="#P" n="91"/>tercessionis eorum expectando; ut charitas
+          <lb ed="#P" n="92"/>etiam tum ad Deum, tum ad ipsos Sanctos 
+          au<lb break="no" ed="#P" n="93"/>geatur; ac denique ad gratum animum pro
+          <lb ed="#P" n="94"/>beneficiis acceptis ostendendum, et alia similia.
+          <lb ed="#P" n="95"/>Et alioquin non est tale praeceptum nimis 
+          one<lb break="no" ed="#P" n="96"/>rosum vel intolerabile christiano populo, sed
+          <lb ed="#P" n="97"/>potius juvat ad corporum levamen, et 
+          mode<lb break="no" ed="#P" n="98"/>randos labores externos, praesertim ne 
+          spiri<lb break="no" ed="#P" n="99"/>tum obruant. Nec est tanta multitudo harum
+          <lb ed="#P" n="100"/>festivitatum, ut necessarios ac convenientes
+          <lb ed="#P" n="101"/>labores ad usus humanae vitae impediat, ut 
+          ex<lb break="no" ed="#P" n="102"/>perientia ipsa ostendit, et de prudentia et 
+          pro<lb break="no" ed="#P" n="103"/>videntia pastorum Ecclesiae semper 
+          speran<lb break="no" ed="#P" n="104"/>dum est.
+        </p>
+        <p>
+          <lb ed="#P" n="105"/>4. Duo haeereticorum errores circa festa 
+          Sanc<lb break="no" ed="#P" n="106"/>torum. — Quocirca dupliciter errant haeretici
+          <lb ed="#P" n="107"/>hujus temporis cirea has Sanctorum 
+          festivita<lb break="no" ed="#P" n="108"/>tes. Primo, quia non putant posse institui in
+          <lb ed="#P" n="109"/>cultum religiosum, sed civilem tantum, sicut
+          <lb ed="#P" n="110"/>principes temporales possunt in aliquem ho-
+          <pb ed="#P" n="286"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>norem suum dies aliquos destinare. Est enim
+          <lb ed="#P" n="2"/>evidens Sanctos esse dignos altiori honore et
+          <lb ed="#P" n="3"/>adoratione. Nec minus evidens est, hanc 
+          ins<lb break="no" ed="#P" n="4"/>titutionem religiosam cedere in majorem Dei
+          <lb ed="#P" n="5"/>gloriam, majoremque fructum animarum: nam
+          <lb ed="#P" n="6"/>fideles in illis diebus exercentur in operibus
+          <lb ed="#P" n="7"/>pietatis, et cultus divini; tuncque existimare
+          <lb ed="#P" n="8"/>debent diem festum agere, quando cultu 
+          san<lb break="no" ed="#P" n="9"/>cto et religioso Deum in Sanctis suis 
+          veneran<lb break="no" ed="#P" n="10"/>tur et laudant, Psalm. 150. Secundo errant hi
+          <lb ed="#P" n="11"/>haeretici, quia Ecclesiae negant potestatem
+          <lb ed="#P" n="12"/>praecipiendi observationem festorum, quae in
+          <lb ed="#P" n="13"/>Sanctorum honorem ordinantur ; putant enim
+          <lb ed="#P" n="14"/>esse contra libertatem legis gratiae, quam ipsi
+          <lb ed="#P" n="15"/>falso confingunt. Sed haec controversia 
+          gene<lb break="no" ed="#P" n="16"/>ralis est, eamdemque rationem habet in 
+          omni<lb break="no" ed="#P" n="17"/>bus praeceptis ecclesiasticis de jejuniis, et 
+          simi<lb break="no" ed="#P" n="18"/>libus, de quibus in materia de Legibus 
+          dicen<lb break="no" ed="#P" n="19"/>dum est; neque enim in his festis Sanctorum
+          <lb ed="#P" n="20"/>est specialis ratio, ut ex dictis satis constat ;
+          <lb ed="#P" n="21"/>libertas ergo legis gratiae non excludit 
+          prae<lb break="no" ed="#P" n="22"/>cepta positiva, nec festivitates, quae fide et
+          <lb ed="#P" n="23"/>spiritu Christi celebrantur, ut dixit 
+          Nazianze<lb break="no" ed="#P" n="24"/>nus, orat. in sanctum Pentecosten, sed 
+          exclu<lb break="no" ed="#P" n="25"/>dit necessitatem servandi legem Moysis, et
+          <lb ed="#P" n="26"/>ejus festa.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>5. Instituisse Ecclesiam sub precepto 
+          ali<lb break="no" ed="#P" n="28"/>qua Sanctorum festa. — Mis ergo fidei 
+          verita<lb break="no" ed="#P" n="29"/>tibus addimus , de facto institutum et 
+          praece<lb break="no" ed="#P" n="30"/>ptum esse ab Ecclesia, ut aliqui dies festi non
+          <lb ed="#P" n="31"/>solum in honorem Dei, et Filii, ac Matris ejus,
+          <lb ed="#P" n="32"/>sed etiam in honorem aliorum Sanctorum 
+          ge<lb break="no" ed="#P" n="33"/>neraliter celebrentur. Ita docent omnes 
+          Doc<lb break="no" ed="#P" n="34"/>tores in dicto c. 1 de Consec., d. 3, et in ult.
+          <lb ed="#P" n="35"/>de Feriis, et Summistae eodem verb. Feri,
+          <lb ed="#P" n="36"/>et verb. Dominica, et constat ex dictis juribus;
+          <lb ed="#P" n="37"/>in eis enim pluresfestivitates recensentur, quas
+          <lb ed="#P" n="38"/>constat ab universa Ecclesia sub obligatione
+          <lb ed="#P" n="39"/>servari ; quod ipsa consuetudo, et traditio 
+          Ec<lb break="no" ed="#P" n="40"/>clesiae maxime confirmat. Unde supposita hac
+          <lb ed="#P" n="41"/>notitia et traditione, de fide certum relinquitur,
+          <lb ed="#P" n="42"/>nunc de facto teneri fideles vi praecepti ad has
+          <lb ed="#P" n="43"/>festivitates observandas.
+        </p>
+        <p>
+          <lb ed="#P" n="44"/>6. Angelorum festum. — Ratio. — Sed ut
+          <lb ed="#P" n="45"/>hoc praeceptum omnino explicatum 
+          relinqua<lb break="no" ed="#P" n="46"/>tur, oportet in particulari has festivitates 
+          nu<lb break="no" ed="#P" n="47"/>merare ; quod, servato ordine quem Ecclesia
+          <lb ed="#P" n="48"/>in Litaniis observat, faciemus. Primum ergo
+          <lb ed="#P" n="49"/>sit festum Sanctorum Angelorum, quod 
+          Eccle<lb break="no" ed="#P" n="50"/>sia in mense septembri celebrat. Est enim 
+          ad<lb break="no" ed="#P" n="51"/>vertendum, Ecclesiam duo festa Angelorum
+          <lb ed="#P" n="52"/>celebrare : unum mense maio, quod 
+          peculia<lb break="no" ed="#P" n="53"/>riter videtur institutum, in honorem Michaelis
+          <lb ed="#P" n="54"/>Archangeli , occasione apparitionis ejus in
+          <lb ed="#P" n="55"/>monte Gargano; aliud vero mense septembri,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quod , licet denominetur ex dedicatione 
+          tem<lb break="no" ed="#P" n="57"/>pli Michaelis Archangeli , eo tamen die (ut ibi
+          <lb ed="#P" n="58"/>dicitur) omnium Angelorum memoriam Hcclesia
+          <lb ed="#P" n="59"/>celebrat. Unde etiam incertum est quod ex
+          <lb ed="#P" n="60"/>his festis sit antiquius : nam apparitio illa
+          <lb ed="#P" n="61"/>Michaelis antiquior est dedicatione templi
+          <lb ed="#P" n="62"/>ejus ; quia, ut in eadem historia dicitur, 
+          ap<lb break="no" ed="#P" n="63"/>paritio facta est tempore Gelasii L, templum 
+          au<lb break="no" ed="#P" n="64"/>tem Michaelis non ita multo post dedicatum fu:t
+          <lb ed="#P" n="65"/>a Bonifacio Papa, ut ibidem dicitur, debetque
+          <lb ed="#P" n="66"/>necessario intelligi de Donifacio II, qui fuit
+          <lb ed="#P" n="67"/>septimus a Gelasio ; nam Bonifacius I 
+          Gela<lb break="no" ed="#P" n="68"/>sium praecessit. Et quamvis non constet ab
+          <lb ed="#P" n="69"/>eisdem Pontificibus Gelasio I et Bonifacio II
+          <lb ed="#P" n="70"/>haec festa esse instituta respective, non est 
+          ta<lb break="no" ed="#P" n="71"/>men incredibile ; imo dum aliud non constat,
+          <lb ed="#P" n="72"/>id videtur verisimilius. Nihilominus tamen
+          <lb ed="#P" n="73"/>festum septembris est sub praecepto , non 
+          au<lb break="no" ed="#P" n="74"/>tem festum maii. Quod est certum ex ipso usu
+          <lb ed="#P" n="75"/>Ecclesiae, et quia in dictis cap. 1 et ultim. 
+          fes<lb break="no" ed="#P" n="76"/>tum Dedicationis Angelorum specialiter 
+          nu<lb break="no" ed="#P" n="77"/>meratur, de alio vero non fit mentio. Unde
+          <lb ed="#P" n="78"/>primum servatur ex vi juris communis, 
+          ne<lb break="no" ed="#P" n="79"/>que scitur esse alicubi consuetudine 
+          deroga<lb break="no" ed="#P" n="80"/>tum : aliud vero ex devotione tantum colitur,
+          <lb ed="#P" n="81"/>nisi alicubi consuetudo obligationem 
+          induxe<lb break="no" ed="#P" n="82"/>rit. Ratio autem non est alia , nisi quia 
+          obli<lb break="no" ed="#P" n="83"/>gatio non oritur ex antiquitate , sed ex 
+          prae<lb break="no" ed="#P" n="84"/>cepto; et licet festum Michaelis sit antiquius,
+          <lb ed="#P" n="85"/>solum fuit institutum quoad ecclesiasticum
+          <lb ed="#P" n="86"/>officium, et cultum ; aliud vero simul habuit
+          <lb ed="#P" n="87"/>praeceptum adjunctum. Et causa esse potuit ,
+          <lb ed="#P" n="88"/>quod institutum ftuit in honorem omnium 
+          An<lb break="no" ed="#P" n="89"/>gelorum, et ut praecipuum festum etiam ipsius
+          <lb ed="#P" n="90"/>Archangeli Michaelis. Solent etiam in alus
+          <lb ed="#P" n="91"/>locis celebrari festa vel Gabrielis Archangel ,
+          <lb ed="#P" n="92"/>vel Angeli Custodis; sed haec, et similia sunt
+          <lb ed="#P" n="93"/>aliquorum locorum particularia, praesertim in
+          <lb ed="#P" n="94"/>Hispania : omnia tamen honestissimas 
+          ratio<lb break="no" ed="#P" n="95"/>nes habent, si legitima potestate introducta
+          <lb ed="#P" n="96"/>seu approbata sint.
+        </p>
+        <p>
+          <lb ed="#P" n="97"/>7. Nativitas Sancti Joannis Baptiste.—
+          Se<lb break="no" ed="#P" n="98"/>cundo loco ponimus nativitatem Sancti 
+          Joan<lb break="no" ed="#P" n="99"/>nis Baptistae, quod festum inter ea, quae jure
+          <lb ed="#P" n="100"/>communi observari praecipiuntur, in dictis ju -
+          <lb ed="#P" n="101"/>ribus numeratur, et ab omnibus auctoribus,
+          <lb ed="#P" n="102"/>illudque esse antiquissimum constat, quia
+          <lb ed="#P" n="103"/>tempore Augustini jam colebatur ut antiquum,
+          <lb ed="#P" n="104"/>et ab Ecclesia traditum, sicut constat ex 
+          con<lb break="no" ed="#P" n="105"/>cionibus ejus, et de initio illius nulla est 
+          me<lb break="no" ed="#P" n="106"/>moria, quod est signum apostolicae traditionis,
+          <lb ed="#P" n="107"/>juxta doctrinam ejusdem Augustini in epistol.
+          <lb ed="#P" n="108"/>118 et 119. Videturque hoc festum habuisse
+          <lb ed="#P" n="109"/>fundamentum in verbis Archangeli Gabrielis,
+          <lb ed="#P" n="110"/>Luc. 1: Et multi in nativitate ejus gaudebunt,
+          <pb ed="#P" n="287"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et in prodigiis et miraculis, quae partim in ejus
+          <lb ed="#P" n="2"/>sanctificatione in utero, partim in ejus 
+          nativi<lb break="no" ed="#P" n="3"/>tate acciderunt.
+        </p>
+        <p>
+          <lb ed="#P" n="4"/>8. Cur Baptiste nativitas potius quam mors
+          <lb ed="#P" n="5"/>sub praecepto servetur.—Atque hinc etiam 
+          fac<lb break="no" ed="#P" n="6"/>tum est, ut cum duas de hoc Sancto 
+          festivita<lb break="no" ed="#P" n="7"/>tes celebret Ecclesia, unam de nativitate ejus,
+          <lb ed="#P" n="8"/>mense Junio, aliam de ipsius martyrio, in 
+          Au<lb break="no" ed="#P" n="9"/>gusto, priorem sub praecepto praecipiat, non
+          <lb ed="#P" n="10"/>vero posteriorem ; tum quia Gabriel 
+          Archan<lb break="no" ed="#P" n="11"/>gelus, in citatis verbis, significasse videtur
+          <lb ed="#P" n="12"/>placitum Deo esse, ut hujus Sancii festivitas
+          <lb ed="#P" n="13"/>in laetitia de nativitate ejus praecipue 
+          ostenda<lb break="no" ed="#P" n="14"/>tur; tum quia in prima sanctificatione et 
+          na<lb break="no" ed="#P" n="15"/>tivitate specialem quamdam praerogativam 
+          ha<lb break="no" ed="#P" n="16"/>buit; tum etiam quia, licet per vitam creverit
+          <lb ed="#P" n="17"/>in gratia, et per mortem in illa fuerit 
+          consum<lb break="no" ed="#P" n="18"/>matus, non tamen statim ad gloriam 
+          transi<lb break="no" ed="#P" n="19"/>vit, et quoad hoc inter Sanctos antiquae legis
+          <lb ed="#P" n="20"/>computari potest. quorum festa non solet 
+          Eccle<lb break="no" ed="#P" n="21"/>sia specialiter colere. Addit etiam Augustinus,
+          <lb ed="#P" n="22"/>in concionibus suis, nativitatem Joannis 
+          cele<lb break="no" ed="#P" n="23"/>brari propter mysterium quod prae se fert;
+          <lb ed="#P" n="24"/>quia Joannes fuit quasi terminus legis veteris
+          <lb ed="#P" n="25"/>et initium novae, et quasi indicium ubertatis
+          <lb ed="#P" n="26"/>spiritualis ejus, et veluti nexus utriusque, et
+          <lb ed="#P" n="27"/>quasi Lucifer indicans orientem solem, et
+          <lb ed="#P" n="28"/>ideo solemnius ab Ecclesia celebratur. 
+          Deni<lb break="no" ed="#P" n="29"/>que adjungo, non solere Ecclesiam duo festa
+          <lb ed="#P" n="30"/>alieujus Sancti sub praecepto constituere ; hoc
+          <lb ed="#P" n="31"/>enim, quasi in singulare signum excellentiae
+          <lb ed="#P" n="32"/>adorationis hyperduliae, Virgini reservatum
+          <lb ed="#P" n="33"/>est, et ideo quando de aliquo Sancto plura
+          <lb ed="#P" n="34"/>festa celebrat, unum censetur esse principale,
+          <lb ed="#P" n="35"/>alia veluti accessoria, et al summum de 
+          prin<lb break="no" ed="#P" n="36"/>cipali praeceptum datur. Quia ergo Ecclesia
+          <lb ed="#P" n="37"/>nativitatem Joannis principaliter 
+          celebran<lb break="no" ed="#P" n="38"/>dam elegit propter rationes supra indicatas,
+          <lb ed="#P" n="39"/>ideo etiam de illius tantum observatione 
+          prae<lb break="no" ed="#P" n="40"/>ceptum tulit. Caetera, quae de hoc Sancto 
+          desi<lb break="no" ed="#P" n="41"/>derari possunt, in 2 tomo tertiae partis a nobis
+          <lb ed="#P" n="42"/>tractata sunt.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>9. Apostolorum festa antiquissima. — 
+          Ter<lb break="no" ed="#P" n="44"/>tio loco ponimus festa Apostolorum, quam
+          <lb ed="#P" n="45"/>institutionem antiquissimam esse, constat ex
+          <lb ed="#P" n="46"/>Clem., d. lib. 8, cap. 33, ubi specialiter ait:
+          <lb ed="#P" n="47"/>In diebus Apostolorum vacent, magistri enim
+          <lb ed="#P" n="48"/>vestri fuerunt, etc., ubi significat jam tunc
+          <lb ed="#P" n="49"/>fuisse haec festa sub praecepto constituta ; et
+          <lb ed="#P" n="50"/>in dictis cap. 1 de Cons., dist. 3, et ult., de 
+          Fe<lb break="no" ed="#P" n="51"/>riis, similiter generatim ponuntur festa 
+          duode<lb break="no" ed="#P" n="52"/>cim Apostolorum, ubi Doctores omnes et 
+          Sum<lb break="no" ed="#P" n="53"/>mistae advertunt, intelligi de festis 
+          principa<lb break="no" ed="#P" n="54"/>libus, non de accessoriis, nam de aliquibus
+          <lb ed="#P" n="55"/>Apostolis secundaria quaedam festa celebran-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tur, quae non sunt sub praecepto, ut de Petro
+          <lb ed="#P" n="57"/>utraque cathedra Antiochena et Romana, et
+          <lb ed="#P" n="58"/>vinculorum festum ; de Paulo conversio ejus,
+          <lb ed="#P" n="59"/>et peculiaris commemoratio, quae post festum
+          <lb ed="#P" n="60"/>Petri et Pauli de illo fit, et de Joanne 
+          Evan<lb break="no" ed="#P" n="61"/>gelista festum, ante portam Latinam 
+          voca<lb break="no" ed="#P" n="62"/>tum.
+        </p>
+        <p>
+          <lb ed="#P" n="63"/>10. Cur ducdecim Apostoli numerentur, cum
+          <lb ed="#P" n="64"/>sint quatuordecim. — Dubitare autem quis 
+          po<lb break="no" ed="#P" n="65"/>test cur duodecim Apostoli numerentur, cum
+          <lb ed="#P" n="66"/>illi sint quatuordecim : nam praeter duodecim
+          <lb ed="#P" n="67"/>sunt Paulus et Barnabas; nec enim dicere
+          <lb ed="#P" n="68"/>possumus Paulum ab hoc honore ab Ecclesia
+          <lb ed="#P" n="69"/>excludi. Respondeo non excludi quidem 
+          Pau<lb break="no" ed="#P" n="70"/>lum, ut infra dicam ; Barnabam autem non
+          <lb ed="#P" n="71"/>numerari, quia etiamsi cum Paulo fuerit ab
+          <lb ed="#P" n="72"/>Spiritu Sancto segregatus, Act. 3, et ideo 
+          Ec<lb break="no" ed="#P" n="73"/>clesia Apostolorum nomine ac officio illum
+          <lb ed="#P" n="74"/>honoret et colat, nihilominus ejus festum diem
+          <lb ed="#P" n="75"/>sub generali praecepto non constituit, ut est
+          <lb ed="#P" n="76"/>certa et communis sententia Doctorum; quia
+          <lb ed="#P" n="77"/>nec in illis juribus comprehenditur, nec in alio
+          <lb ed="#P" n="78"/>praecipitur, nec usu receptum est tale 
+          praece<lb break="no" ed="#P" n="79"/>ptum; et ideo si alicubi ex consuetudine 
+          ob<lb break="no" ed="#P" n="80"/>servatur, est particularis obligatio, non 
+          gene<lb break="no" ed="#P" n="81"/>ralis lex. Non est autem eadem ratio de Paulo;
+          <lb ed="#P" n="82"/>tum quia licet non sit ex primis Apostolis 
+          or<lb break="no" ed="#P" n="83"/>dine electionis seu vocationis secunlum 
+          or<lb break="no" ed="#P" n="84"/>dinem temporis, est tamen ex primis in 
+          mu<lb break="no" ed="#P" n="85"/>nere, spiritu, et in laboribus pro Christo et
+          <lb ed="#P" n="86"/>Ecclesia; tum etiam quia est (ut sic dicam)
+          <lb ed="#P" n="87"/>individuus comes Petri, et quasi unum quid
+          <lb ed="#P" n="88"/>cum illo: et ideo in illis juribus specialis de
+          <lb ed="#P" n="89"/>illo mentio statim fit. Ubde, cum numerantur
+          <lb ed="#P" n="90"/>duodecim Apostoli, sub Petro comprehenditur
+          <lb ed="#P" n="91"/>Paulus, quia diem festum habent communem,
+          <lb ed="#P" n="92"/>ct Ecclesia nullum aliud festum solius Pauli
+          <lb ed="#P" n="93"/>proprium sub praeceptum constituit. Idem,
+          <lb ed="#P" n="94"/>quod de Barnaba diximus, diceudum est de
+          <lb ed="#P" n="95"/>festis sanctorum Lucae et Marci 
+          Evangelista<lb break="no" ed="#P" n="96"/>rum, quos Ecclesia ritu Apostolorum ceiebrare
+          <lb ed="#P" n="97"/>solet : eorum tamen dies festos sub generali
+          <lb ed="#P" n="98"/>praecepto hactenus non constituit , etiamsi
+          <lb ed="#P" n="99"/>aliud senserint Joannes Andreas, 
+          Panormita<lb break="no" ed="#P" n="100"/>nus et Anton., in dicto capit. ultim., et 
+          Sum<lb break="no" ed="#P" n="101"/>ma Pisana, verb. Ferie , ex cap. Gloriosum,
+          <lb ed="#P" n="102"/>de Reliq. et ven. Sanct. Verumtamen inde 
+          ni<lb break="no" ed="#P" n="103"/>hil probatur, ut infra circa Doctores 
+          adnotabi<lb break="no" ed="#P" n="104"/>mus. Et ita sentiunt Anton., Sylvester, 
+          Ange<lb break="no" ed="#P" n="105"/>lus et alii. Praeterea universalis consuetudo
+          <lb ed="#P" n="106"/>ita est interpretata legem illam; nam in 
+          mul<lb break="no" ed="#P" n="107"/>tis locis non servantur illa festa : ubi tamen
+          <lb ed="#P" n="108"/>fuerit consuetudine recepta obligatio, 
+          servan<lb break="no" ed="#P" n="109"/>da est.
+        </p>
+        <p>
+          <lb ed="#P" n="110"/>11. Festum Petri et Pauli a die martgrü
+          <pb ed="#P" n="288"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illorum coepisse. — Additur praeterea in dicto
+          <lb ed="#P" n="2"/>c. 1, maxime feriandum esse in festo 
+          Sancto<lb break="no" ed="#P" n="3"/>rum Petri et Pauli, qui mundum sua 
+          praedi<lb break="no" ed="#P" n="4"/>catione illuminaverunt, idemque fere in dicto
+          <lb ed="#P" n="5"/>cap. ult. dicitur. Unde non videtur dubium,
+          <lb ed="#P" n="6"/>quin hoc festum a die martyrii illorum 
+          Apos<lb break="no" ed="#P" n="7"/>tolorum fuerit Romae, et in universa Ecclesia
+          <lb ed="#P" n="8"/>Latina, magna veneratione celebratum. Quod
+          <lb ed="#P" n="9"/>etiam ex supra dicto loco Clementis a fortiori
+          <lb ed="#P" n="10"/>colligitur. Meminit hujus festi Hieronymus,
+          <lb ed="#P" n="11"/>epistol. 19 ad Eustochium, his verbis : Festus
+          <lb ed="#P" n="12"/>est dies, et natalis Beati Petri fest vius est 
+          soli<lb break="no" ed="#P" n="13"/>to condiendus. Refert ctiam Nicephorus, lip.
+          <lb ed="#P" n="14"/>16 Hist., capit. 35, tempore Anastasii 
+          impera<lb break="no" ed="#P" n="15"/>toris auctum esse cultum illius festivitatis
+          <lb ed="#P" n="16"/>Constantinopoli ; nam senator quidam 
+          RHoma<lb break="no" ed="#P" n="17"/>nus, nomine Festus, cum illuc alia de causa
+          <lb ed="#P" n="18"/>venisset, et vidisset festum illud minori cura
+          <lb ed="#P" n="19"/>ct splendore celebrari, quam par esset, ab
+          <lb ed="#P" n="20"/>imperatore petiit, ut juberet eadem 
+          reveren<lb break="no" ed="#P" n="21"/>tia celebrari, qua Romae fieri solitum erat; 
+          im<lb break="no" ed="#P" n="22"/>peratorem autem annuisse, et constitutione
+          <lb ed="#P" n="23"/>promulgata sanxisse, ut magnifice conventus
+          <lb ed="#P" n="24"/>ccelesiasticus in Àpostolorum eorum honorem
+          <lb ed="#P" n="25"/>agcretur : Zt ab eo (inquit) tempore 
+          concen<lb break="no" ed="#P" n="26"/>tus ejus celebritas magna cepit incrementa,
+          <lb ed="#P" n="27"/>atque ingenti cum letitia est frequentata.
+        </p>
+        <p>
+          <lb ed="#P" n="28"/>12. Joannis Ecangeliste festum 
+          antiguissi<lb break="no" ed="#P" n="29"/>mwnm. — Post hoc, magna solemnitate colitur
+          <lb ed="#P" n="30"/>ab Ecclesia festum S. Joannis Apostoli et
+          <lb ed="#P" n="31"/>Evangelistae. Quod etiam est ex his, quae in
+          <lb ed="#P" n="32"/>dictis juribus expresse numerantur, 
+          praeter<lb break="no" ed="#P" n="33"/>quam quod universali consuetudine 
+          observa<lb break="no" ed="#P" n="34"/>tur, et traditione adeo antiqua, ut illius 
+          ini<lb break="no" ed="#P" n="35"/>tium ignoretur ; a nullo enim Scriptore 
+          eccle<lb break="no" ed="#P" n="36"/>siastico traditur; et Beda, in Martyrologio, et
+          <lb ed="#P" n="37"/>omnes alni Scriptores de Sanctis, et vel de
+          <lb ed="#P" n="38"/>officiis ecclesiasticis, de hoc festo, ut de 
+          an<lb break="no" ed="#P" n="39"/>tiquissimo et solemnissimo, loquuntur. 
+          Cele<lb break="no" ed="#P" n="40"/>bratur autem ab Eecclesia, tertia die a 
+          Nativi<lb break="no" ed="#P" n="41"/>tate Domini. Cujus rationem aliqui esse 
+          pu<lb break="no" ed="#P" n="42"/>tant, quia eo die, id est, vigesimo septimo
+          <lb ed="#P" n="43"/>decembris, mortuus est ; alii, mcrtuum in die
+          <lb ed="#P" n="44"/>vigesimo quarto junii, quo die nativitas 
+          Bap<lb break="no" ed="#P" n="45"/>tistae celebratur, et ideo translatum fuisse 
+          fes<lb break="no" ed="#P" n="46"/>tum Joannis in illum alium diem, propter 
+          ali<lb break="no" ed="#P" n="47"/>quam peculiarem rationem, quia vel tunc 
+          Se<lb break="no" ed="#P" n="48"/>dem Ephesinam accepit, vel ei est Ecclesia
+          <lb ed="#P" n="49"/>Ephesi dedicata, ut videre licet in Joann. 
+          Be<lb break="no" ed="#P" n="50"/>let., de Divin. offic., c. 30; et Durand., iib.
+          <lb ed="#P" n="51"/>1, c. 42. Sed haec incerta sunt, et probabile
+          <lb ed="#P" n="52"/>est, Ecclesiae non constitisse de die obitus seu
+          <lb ed="#P" n="53"/>transitus ejus, ideoque illum diem designasse,
+          <lb ed="#P" n="54"/>et festum ejus cum natali Domini 
+          conjunxis<lb break="no" ed="#P" n="55"/>se, ad augeudam illius fest eelebritatem , si-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cut de festo S. Stephaui et Innocentum 
+          veri<lb break="no" ed="#P" n="57"/>simile est.
+        </p>
+        <p>
+          <lb ed="#P" n="58"/>13. S. Jacobi festum solemniter Hispania
+          <lb ed="#P" n="59"/>celebrat, tribus de causis. — Prima est, quia
+          <lb ed="#P" n="60"/>ante marlyrium EHispaniam adit. — 
+          Praete<lb break="no" ed="#P" n="61"/>rea, irter festa Apostolorum , festun: Saneti
+          <lb ed="#P" n="62"/>Jacobi Majoris, fratris Joannis, valde celebre
+          <lb ed="#P" n="63"/>est iu universa Ecclesia ; praesertim in nostra
+          <lb ed="#P" n="64"/>Hispania, quae illum singulari solemnitate 
+          co<lb break="no" ed="#P" n="65"/>lit, ut patronum et parentem, tribus 
+          potissi<lb break="no" ed="#P" n="66"/>mum de cansis. Prima est, quia primus ipse
+          <lb ed="#P" n="67"/>Evangelium in Hispania praedicavit ; prius
+          <lb ed="#P" n="68"/>enim quam Hierosolymis martyrium 
+          patere<lb break="no" ed="#P" n="69"/>tur, decimo anno post Christi Domini mortem,
+          <lb ed="#P" n="70"/>Hispaniam peragravit, et fidei semina jecit,
+          <lb ed="#P" n="71"/>quae licet tunc parum fructus attulerint, 
+          ta<lb break="no" ed="#P" n="72"/>men in virtute illius magnum Deus postea 
+          in<lb break="no" ed="#P" n="73"/>crementum dedit. Et quamvis hoc tempore
+          <lb ed="#P" n="74"/>nonnulli tentaverint hunc Jacobi in 
+          Hispa<lb break="no" ed="#P" n="75"/>niam adventum in dubium revocare , nullo
+          <lb ed="#P" n="76"/>modo possunt antiquissimae et generali 
+          om<lb break="no" ed="#P" n="77"/>nium Hispaniarum traditioni resistere, nec
+          <lb ed="#P" n="78"/>aliquid proponere, quod probabilem rationem
+          <lb ed="#P" n="79"/>dubitandi faciat. Nam quod Jacobus 
+          an<lb break="no" ed="#P" n="80"/>te martyrium potuerit in Hispaniam venire,
+          <lb ed="#P" n="81"/>et redire Hierosolymam , non repugnuat his
+          <lb ed="#P" n="82"/>quae de Apostolorum predicatione et 
+          ges<lb break="no" ed="#P" n="83"/>tis, in Actibus Apostolorum , vel in alis
+          <lb ed="#P" n="84"/>historiis fide dignis narrantur. Quia lieet
+          <lb ed="#P" n="85"/>ex Actibus constet, per duos vel tres annos
+          <lb ed="#P" n="86"/>primos ab Ascensione Domini, Apostolos non
+          <lb ed="#P" n="87"/>recessisse Hierosolyma , tamen de caeteris
+          <lb ed="#P" n="88"/>aunis, usque ad Jacobi martyrium, nihil
+          <lb ed="#P" n="89"/>de factis a Jacobo et aliis narratur, sed 
+          so<lb break="no" ed="#P" n="90"/>lum de Petro ct Paulo. Item, licet ante Peiri
+          <lb ed="#P" n="91"/>vincula (quando janm fuerat Jacobus mortuus)
+          <lb ed="#P" n="92"/>non creantur fuisse divisi Apostoli in orbem
+          <lb ed="#P" n="93"/>terrae ad praedicandum , non reversuri 
+          am<lb break="no" ed="#P" n="94"/>plius in Jerusalem, tamen nihil vetat 
+          quomi<lb break="no" ed="#P" n="95"/>nus ante id tempus exierint per diversas 
+          pro<lb break="no" ed="#P" n="96"/>vincias , et digressiones facerent, et iterum
+          <lb ed="#P" n="97"/>Hierosolymam redirent. Sicut scimus Petrum
+          <lb ed="#P" n="98"/>intra id tempus Antiochiam ivisse, ibique 
+          pri<lb break="no" ed="#P" n="99"/>mum sedem suam fundasse, licet interiin
+          <lb ed="#P" n="100"/>Hierosolymam proficisceretur, et Judaeam 
+          vi<lb break="no" ed="#P" n="101"/>sitaret. Sic ergo potuit Jacobus intra idem
+          <lb ed="#P" n="102"/>tempus migrare in Hispaniam, et ibi 
+          praedi<lb break="no" ed="#P" n="103"/>care, et postea Jerusalem redire.
+        </p>
+        <p>
+          <lb ed="#P" n="104"/>14. Ante factam Petro revelationem, an 
+          gen<lb break="no" ed="#P" n="105"/>tibus pradicaretur Evangelium. — Neque
+          <lb ed="#P" n="106"/>etiam obstat , quod eo tempore Apostoli
+          <lb ed="#P" n="107"/>Evangelium non praedicarent Gentibus 
+          us<lb break="no" ed="#P" n="108"/>que ad visionem Petri, Actor. 10. Primum
+          <lb ed="#P" n="109"/>quidem, quia fortasse iu Hispania etiam tunc
+          <lb ed="#P" n="110"/>aliqui Julaei habitabant , quibus aununtiari
+          <pb ed="#P" n="289"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>poterat Evangelium. Nam (ut colligitur ex
+          <lb ed="#P" n="2"/>Actor. 1) Judaei dispersi erant per omnem 
+          na<lb break="no" ed="#P" n="3"/>tionem quae sub coelo est, quandoquidem ex
+          <lb ed="#P" n="4"/>omnibus tunc venerant Hierosolymam; ergo
+          <lb ed="#P" n="5"/>etiam in Hispania esse poterant Judaei, quibus
+          <lb ed="#P" n="6"/>pradicaretur Evangelium. Tum etiam quia
+          <lb ed="#P" n="7"/>non est certum, ante revelationem factam 
+          Pe<lb break="no" ed="#P" n="8"/>tro, non fuisse Evangelium Gentibus 
+          praedica<lb break="no" ed="#P" n="9"/>tum ; nam certe Paulus statim post 
+          conversio<lb break="no" ed="#P" n="10"/>nem suam in Arabiam abiit, et in alias 
+          re<lb break="no" ed="#P" n="11"/>giones, ubi verisimile non est solis Judaeis
+          <lb ed="#P" n="12"/>praedicasse, cum ipse esset Gentium 
+          praedi<lb break="no" ed="#P" n="13"/>cator, et non ab homine, nec per hominem,
+          <lb ed="#P" n="14"/>sed per Jesum Christum edoctus esset, quid,
+          <lb ed="#P" n="15"/>et quibus, et quando praedicaturus esset. Idem
+          <lb ed="#P" n="16"/>ergo credi potest de Jacobo, quem Deus in
+          <lb ed="#P" n="17"/>praedicatorem et fundatorem fidei in Hispania
+          <lb ed="#P" n="18"/>elegerat. Unde revelatio illa Petri eo tendit,
+          <lb ed="#P" n="19"/>ut Ecclesiae universae, et praesertim ex Judaeis
+          <lb ed="#P" n="20"/>collectae, publice jam proponeretur, omnes
+          <lb ed="#P" n="21"/>salvari posse per fidem Christi, et ideo omnes
+          <lb ed="#P" n="22"/>ad Evangelium vocandos esse. Usque ad illud
+          <lb ed="#P" n="23"/>ergo tempus non fuit haec veritas ita publice
+          <lb ed="#P" n="24"/>declarata, ut inter Judaeos Gentibus 
+          praedica<lb break="no" ed="#P" n="25"/>retur Evangelium, neque ex Judaeis et 
+          Genti<lb break="no" ed="#P" n="26"/>bus una Eeclesia corgregari coeperit ; 
+          nihilo<lb break="no" ed="#P" n="27"/>minus tamen potuit ante illam revelationem
+          <lb ed="#P" n="28"/>aliis Apostolis instinctu divino inspirari, ut ad
+          <lb ed="#P" n="29"/>Gentium provincias irent, eisque praedicarent.
+          <lb ed="#P" n="30"/>Tum denique, quia illa revelatio facta est 
+          Pe<lb break="no" ed="#P" n="31"/>tro, quatuor vel ad minus tribus annis ante
+          <lb ed="#P" n="32"/>mortem Jacobi, et illud erat sufficiens 
+          tem<lb break="no" ed="#P" n="33"/>pus ut iret in Hispaniam, et per unum vel
+          <lb ed="#P" n="34"/>duos integros annos ibi praedicaret, et postea
+          <lb ed="#P" n="35"/>Hierosolymam reverteretur.
+        </p>
+        <p>
+          <lb ed="#P" n="36"/>15. Nihil obest, quod humanee historie hunc
+          <lb ed="#P" n="37"/>adventum non enarrent. — Quod si hoc non
+          <lb ed="#P" n="38"/>repugnat canonicae historiae, neque aliis 
+          dog<lb break="no" ed="#P" n="39"/>matibus receptis, parum profecto refert quod
+          <lb ed="#P" n="40"/>privatae historiae humanae illorum temporum
+          <lb ed="#P" n="41"/>illius peregrinationis Jacobi meutionem non
+          <lb ed="#P" n="42"/>fecerint; tum quia in ea Jacobi peregrinatione
+          <lb ed="#P" n="43"/>nihil accidit adeo publicum et prodigiosum,
+          <lb ed="#P" n="44"/>ni in universum orbem illius fama exierit,
+          <lb ed="#P" n="45"/>quo possent excitari historici ad id memoriae
+          <lb ed="#P" n="46"/>prodendum ; tum etiam quia in illis 
+          tempori<lb break="no" ed="#P" n="47"/>bus non fuerunt in Hispania diligentes 
+          scri<lb break="no" ed="#P" n="48"/>ptores rerum, quae in ea gerebantur ; externi
+          <lb ed="#P" n="49"/>autem non poterant facile illarum notitiam
+          <lb ed="#P" n="50"/>habere, nisi fortasse earum qua ad publica
+          <lb ed="#P" n="51"/>bella, et reipublicae statum et dominium 
+          per<lb break="no" ed="#P" n="52"/>tinebant : nam aliarum rerum pertinentium
+          <lb ed="#P" n="53"/>ad religionem, parvam, aut nullam rationem
+          <lb ed="#P" n="54"/>vel curam habebant. Unde, cum in illa eetate
+          <lb ed="#P" n="55"/>non fuerint scriptores ecclesiastici, qui de re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bus Hispaniae mentionem fecerint, nisi 
+          te<lb break="no" ed="#P" n="57"/>nuem, mirum non est quod in historiis 
+          anti<lb break="no" ed="#P" n="58"/>quis nihil de hac profectione Jacobi in 
+          Hispa<lb break="no" ed="#P" n="59"/>niam reperiatur. Nam profecto si Lucas acta
+          <lb ed="#P" n="60"/>Petri et Paul posteritati scripta non 
+          reliquis<lb break="no" ed="#P" n="61"/>set, multae illorum Apostolorum 
+          peregrina<lb break="no" ed="#P" n="62"/>tiones et praedicationes oblivioni traditae 
+          fuis<lb break="no" ed="#P" n="63"/>sent. nec aliter quam ex traditione ipsarum
+          <lb ed="#P" n="64"/>Ecclesiarum, quas fundassent, cognosci 
+          po<lb break="no" ed="#P" n="65"/>tuissent. Sicut profectio Petri Antiochiam,
+          <lb ed="#P" n="66"/>quae a Luca omissa cst, non aliter quam éx
+          <lb ed="#P" n="67"/>illius Ecclesiae traditione cognita fuit, nec ad
+          <lb ed="#P" n="68"/>nostram notitiam pervenisset, nisi ex 
+          monu<lb break="no" ed="#P" n="69"/>mentis illius Ecclesiae Clemens Alexand., et
+          <lb ed="#P" n="70"/>ab illo Eusebius et Hieronymus illam scriptam
+          <lb ed="#P" n="71"/>reliquissent. Sic ergo adventus Jacobi in 
+          His<lb break="no" ed="#P" n="72"/>paniam non nisi ex ejusdem Hispaniae 
+          tradi<lb break="no" ed="#P" n="73"/>tone inquirendus est; hanc autem non 
+          per<lb break="no" ed="#P" n="74"/>misit Deus excidere, nec oblivioni tiadi, nec
+          <lb ed="#P" n="75"/>in angulo concludi, sed ab universis 
+          Eccle<lb break="no" ed="#P" n="76"/>siis Hispaniae retineri. Quis ergo audebit huic
+          <lb ed="#P" n="77"/>traditioni contradicere, aut quomodo aliae 
+          ec<lb break="no" ed="#P" n="78"/>clesiasticae traditiones inconcussae conservari
+          <lb ed="#P" n="79"/>poterunt, si huic fides non adhibeatur.
+        </p>
+        <p>
+          <lb ed="#P" n="80"/>16. Firmatur hoc monumento 
+          Cesaraugus<lb break="no" ed="#P" n="81"/>tano. — Eo vel maxime quod non taptum a
+          <lb ed="#P" n="82"/>publica fama per dimanationem a parentibus
+          <lb ed="#P" n="83"/>ad filios, sed etiam a solemni et antiquissimo
+          <lb ed="#P" n="84"/>monumento Caesaraugustano testimonium 
+          ha<lb break="no" ed="#P" n="85"/>bet haec veritas. Nam Caesaraugustae et in 
+          uni<lb break="no" ed="#P" n="86"/>versa Hispania est receptissima traditio, cum
+          <lb ed="#P" n="87"/>B. Jacobus illuc pervenisset, et animo ac 
+          cogi<lb break="no" ed="#P" n="88"/>tatione suspensus esset, quod paucos homines
+          <lb ed="#P" n="89"/>ad fidem trahere potuisset, Beatissimam 
+          Virgi<lb break="no" ed="#P" n="90"/>nem in corpore mortali ei apparuisse, eumque
+          <lb ed="#P" n="91"/>fuisse consolatam, et ab ea certiorem factum,
+          <lb ed="#P" n="92"/>per discipulos paucos, quo congregarat , 
+          com<lb break="no" ed="#P" n="93"/>rlendum fuisse quod ipse perficere non 
+          potuis<lb break="no" ed="#P" n="94"/>set. Et in hujus beneficii aternam memoriam
+          <lb ed="#P" n="95"/>insigne templum et valde honorificum ibi 
+          fun<lb break="no" ed="#P" n="96"/>datum est. Quod in collegiatam Ecclesiam
+          <lb ed="#P" n="97"/>erectum magnis exemptionibus et privilegiis
+          <lb ed="#P" n="98"/>Apostolicis donatum est, et sanctae Mariae de
+          <lb ed="#P" n="99"/>Columna, vulgo del Pilar dicitur, quia saxum
+          <lb ed="#P" n="100"/>velcolumna in eo cernitur, quam ipsam sacram
+          <lb ed="#P" n="101"/>Virginem suis pedibus caleasse, eadem docet
+          <lb ed="#P" n="102"/>traditio. Haec est ergo prima causa ob quam
+          <lb ed="#P" n="103"/>merito Hispania festum Sancti Jacobi 
+          sum<lb break="no" ed="#P" n="104"/>ma veneratione colit, simulque ut ipsius 
+          bene<lb break="no" ed="#P" n="105"/>ficium recognoscit, quod ejus occasione 
+          Bea<lb break="no" ed="#P" n="106"/>tissima Virgo, antequam ex hoc mundo 
+          dis<lb break="no" ed="#P" n="107"/>cederet , Hispaniam consolari, et sua 
+          prae<lb break="no" ed="#P" n="108"/>sentia honorare, et protectionem ejus simul
+          <lb ed="#P" n="109"/>cum Jacobo assumere dignata fuerit.
+        </p>
+        <p>
+          <lb ed="#P" n="110"/>17. Secunda causa est, quia ejus habet cor-
+          <pb ed="#P" n="290"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pus. —Tertia causa. —Alia causa est, quod 
+          sa<lb break="no" ed="#P" n="2"/>crum Jacobi corpus, post martyrium, navi
+          <lb ed="#P" n="3"/>impositum, divina providentia, et peculiari
+          <lb ed="#P" n="4"/>ejusdem Spiritus Sancti favore, in Galaeciam,
+          <lb ed="#P" n="5"/>Hispaniae provinciam, appulit, ibique usque in
+          <lb ed="#P" n="6"/>hodiernum diem summa gentium omnium
+          <lb ed="#P" n="7"/>veneratione colitur. Tertia denique causa est,
+          <lb ed="#P" n="8"/>quod Jacobus, innumeris amoris signis, et 
+          be<lb break="no" ed="#P" n="9"/>neficiis in Hispanos collatis, se semper ostendit
+          <lb ed="#P" n="10"/>singularem illorum patronum ac 
+          benefacto<lb break="no" ed="#P" n="11"/>rem, quae res notissima est in historiis : nec in
+          <lb ed="#P" n="12"/>his amplius immorari licet. Ex his vero 
+          dua<lb break="no" ed="#P" n="13"/>bus posterioribus rationibus multum apud me
+          <lb ed="#P" n="14"/>prima confirmatur. Non enim sine causa 
+          Ja<lb break="no" ed="#P" n="15"/>cobus post mortem, et corporis praesentia, et
+          <lb ed="#P" n="16"/>gloriosi spiritus favore, tam propensum in
+          <lb ed="#P" n="17"/>Hispanos sese ostendit; sed profecto ea causa
+          <lb ed="#P" n="18"/>fuit, quod in Christo Jesu in Evangelio ipse
+          <lb ed="#P" n="19"/>illos genuit, et illius protectione ac precibus
+          <lb ed="#P" n="20"/>non sclum magna soliditate in fide 
+          perma<lb break="no" ed="#P" n="21"/>nent, sed etiam eorum ministerio et industria
+          <lb ed="#P" n="22"/>Deus uti voluit ad fidem innumeris gentibus,
+          <lb ed="#P" n="23"/>et, ut aiunt, novo mundo praedicandam.
+        </p>
+        <p>
+          <lb ed="#P" n="24"/>18. S. Bartholomai festum cur Roma 
+          di<lb break="no" ed="#P" n="25"/>cerso die celat. — Atque haec sufficiant de
+          <lb ed="#P" n="26"/>Apostolorum festivitatibus dixisse ; nam de
+          <lb ed="#P" n="27"/>caeteris Apostolis nihil nobis peculiare 
+          dicen<lb break="no" ed="#P" n="28"/>dum occurrit. Solum de festo S. Bartholomaei
+          <lb ed="#P" n="29"/>scire oportet, quod licet Romae die 25 augusti
+          <lb ed="#P" n="30"/>celebretur, non obligat praeceptum universam
+          <lb ed="#P" n="31"/>Ecclesiam pro illo die; nam extra Romanam
+          <lb ed="#P" n="32"/>Ecclesiam die 24 celebratur, et pro tunc 
+          obli<lb break="no" ed="#P" n="33"/>gat praeceptum, vel quia ita est consuetudine
+          <lb ed="#P" n="34"/>introductum, ut auctores dicunt, vel certe
+          <lb ed="#P" n="35"/>quia Romana Ecclesia peculiari aliqua ratione
+          <lb ed="#P" n="36"/>ad illum diem immutandum ducta est ; 
+          for<lb break="no" ed="#P" n="37"/>tasse enim in illo die corpus S. Bartholomaei
+          <lb ed="#P" n="38"/>homam est delatum : noluerunt autem 
+          Pon<lb break="no" ed="#P" n="39"/>tifices aliarum Ecclesiarum morem immutare.
+        </p>
+        <p>
+          <lb ed="#P" n="40"/>19. Martyrun festa. — S. Stephani festum
+          <lb ed="#P" n="41"/>antiquissimum.— S S. Inuocentium festum.—
+          <lb ed="#P" n="42"/>S. Laurentii festum.—GQuid de festo S. 
+          Sebas<lb break="no" ed="#P" n="43"/>tiani.— Quarto celebrat Ecclesia et praecipit
+          <lb ed="#P" n="44"/>observari dies festos aliquibus Martyribus 
+          di<lb break="no" ed="#P" n="45"/>catos. Inter quae festa primum et 
+          antiquissi<lb break="no" ed="#P" n="46"/>mum est S. Stephani, nam illius specialiter
+          <lb ed="#P" n="47"/>meminit Clemens, dicto libr. 8, cap. 32, et
+          <lb ed="#P" n="48"/>de illo habemus antiquissimas conciones 
+          Au<lb break="no" ed="#P" n="49"/>gustini, Fulgentii, Gregori Nysseni, Maximi,
+          <lb ed="#P" n="50"/>et aliorum. Ac denique hoc festum in jure
+          <lb ed="#P" n="51"/>etiam habetur in saepe allegatis capitulis. Et
+          <lb ed="#P" n="52"/>huic affine est festum Sanctorum Innocentium,
+          <lb ed="#P" n="53"/>quod in eisdem juribus recensetur, et adeo
+          <lb ed="#P" n="54"/>est aptiquum, ut Origenes, homil. 3, in 
+          Di<lb break="no" ed="#P" n="55"/>vers., dixerit : Horum memoria semper ut di-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gnum est in Ecclesus celebratur, secundum 
+          in<lb break="no" ed="#P" n="57"/>tegrum ordinem Sanctorum ut primorum 
+          Mar<lb break="no" ed="#P" n="58"/>tyrum pro Domino occisorum, et ut ipsa 
+          Be<lb break="no" ed="#P" n="59"/>thleem prinitias Domimo Martyrum, in qua
+          <lb ed="#P" n="60"/>natus est ipse Salvator, obtulisse videatur.
+          <lb ed="#P" n="61"/>Eodem fere modo loquuntur Chrysostomus,
+          <lb ed="#P" n="62"/>homil. 3, ex variis in Matth. ; Augustinus,
+          <lb ed="#P" n="63"/>Hilarius Arelaten., Beda, et alii Patres 
+          anti<lb break="no" ed="#P" n="64"/>qui, in homiliis ejusdem festivitatis. At 
+          nihi<lb break="no" ed="#P" n="65"/>lominus Cajetanus, in Summa, indicat 
+          fes<lb break="no" ed="#P" n="66"/>um illud non observari ex generali 
+          praece<lb break="no" ed="#P" n="67"/>pto, sed ex consuetudine. Contrario tamen
+          <lb ed="#P" n="68"/>modo sentiendum est: est enim sub praecepto
+          <lb ed="#P" n="69"/>ecclesiastico, ut sufficienter probant quae 
+          ad<lb break="no" ed="#P" n="70"/>duximus, et communiter Doctores docent, et
+          <lb ed="#P" n="71"/>ucus Ecclesiae confirmat. Nec est parvum 
+          in<lb break="no" ed="#P" n="72"/>dicium, quod Ecclesia eadem solemnitate, et
+          <lb ed="#P" n="73"/>cum celebritate octavae festum illud celebrat.
+          <lb ed="#P" n="74"/>Nunquam enim invenietur Ecclesia celebrare
+          <lb ed="#P" n="75"/>festum alicujus sancti cum octava, cujus 
+          prin<lb break="no" ed="#P" n="76"/>cipalem festivitatem non praecipiat observari:
+          <lb ed="#P" n="77"/>lex ergo de se omnes obligat; poterit tamen in
+          <lb ed="#P" n="78"/>aliquo loco consuetudine esse derogata, quod -
+          <lb ed="#P" n="79"/>aliis etiam festivitatibus et legibus humanis
+          <lb ed="#P" n="80"/>commune est. His simile est Sancti Laurentii
+          <lb ed="#P" n="81"/>festum, quod sub eodem juris praecepto 
+          conti<lb break="no" ed="#P" n="82"/>netur, et in dictis cap. 1 et ultim. speciatim
+          <lb ed="#P" n="83"/>exprimitur. Et ab initio fere martyrii hujus
+          <lb ed="#P" n="84"/>Sancti celebre fuisse, satis indicant sermones
+          <lb ed="#P" n="85"/>sanctorum Leonis, Ambrosii, Augustini, 
+          Ma<lb break="no" ed="#P" n="86"/>ximi, Petri Chrysologi, et aliorum, in illum
+          <lb ed="#P" n="87"/>diem. Praeter haec festa Martyrum, nullum
+          <lb ed="#P" n="88"/>aliud invenitur juris praecepto mandatum 
+          ob<lb break="no" ed="#P" n="89"/>servari, neque (quod ego sciam) universali
+          <lb ed="#P" n="90"/>consuetudine per modum praecepti obligante
+          <lb ed="#P" n="91"/>receptum sit. Solum de festo Sancti 
+          Sebas<lb break="no" ed="#P" n="92"/>uani potest videri contrarium probabile, quia
+          <lb ed="#P" n="93"/>valde generalis videtur esse consuetudo. Sed
+          <lb ed="#P" n="94"/>nihilominus, quia est res pendens ex facto,
+          <lb ed="#P" n="95"/>non possumus id generaliter affirmare, sed
+          <lb ed="#P" n="96"/>uniusceujusque loci consuetudinem esse 
+          spec<lb break="no" ed="#P" n="97"/>tandam.
+        </p>
+        <p>
+          <lb ed="#P" n="98"/>20. Confessorum festum nullum generali
+          <lb ed="#P" n="99"/>preecepto servatur. — S. Sylvestri festum. —
+          <lb ed="#P" n="100"/>Quinto, de Sanctis Confessoribus, licet multas
+          <lb ed="#P" n="101"/>festivitates solemniter Ecclesia celebret, 
+          nul<lb break="no" ed="#P" n="102"/>lius tamen tnvenio festum, de quo certo 
+          affir<lb break="no" ed="#P" n="103"/>mare possimus generali praecepto Ecclesiae 
+          ob<lb break="no" ed="#P" n="104"/>servandum proponi. Maxime enim probabile
+          <lb ed="#P" n="105"/>id videri potest de festo Sancti Silvestri : multi
+          <lb ed="#P" n="106"/>enim credunt, ex vi juris constitutum esse sub
+          <lb ed="#P" n="107"/>praecepto , quia expresse numeratur in dicto
+          <lb ed="#P" n="108"/>capit. 1 de Consec., et dict. capit. ultim.
+          <lb ed="#P" n="109"/>de Feriis; sed nihilominus omnes fatentur,
+          <lb ed="#P" n="110"/>de facto vix servari extra Romam ; dicunt
+          <pb ed="#P" n="291"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tamen consuetudine contraria esse 
+          abro<lb break="no" ed="#P" n="2"/>gatum. Verumtamen, ut supra insinuavi,
+          <lb ed="#P" n="3"/>ex solis illis duobus textibus, nisi aliunde 
+          tra<lb break="no" ed="#P" n="4"/>ditio accedat . non satis probatur generale
+          <lb ed="#P" n="5"/>praeceptum juris de observatione alicujus festi.
+          <lb ed="#P" n="6"/>Quia cap. ultim. de Feriis solum loquitur de
+          <lb ed="#P" n="7"/>diebus feriatis in ordine ad judiciorum 
+          stre<lb break="no" ed="#P" n="8"/>pitum, et dictum cap. 1 non est jus 
+          pontifi<lb break="no" ed="#P" n="9"/>cium, nec generalis Conciiii, et ideo non 
+          po<lb break="no" ed="#P" n="10"/>tuit generale jus introducere, si antea non
+          <lb ed="#P" n="11"/>erat, ut statim alio exemplo videbitur. Et ideo
+          <lb ed="#P" n="12"/>censeo hoc non esse sub praecepto juris, cum
+          <lb ed="#P" n="13"/>Glossa in leg. Omnes, verb. Epiphaniarum ,
+          <lb ed="#P" n="14"/>C. de Feriis. Quamvis differentia non sit
+          <lb ed="#P" n="15"/>magni momenti, cum jam illud praceptum
+          <lb ed="#P" n="16"/>extra Romam derogatum esse constet, quod
+          <lb ed="#P" n="17"/>perinde est ac si non fuisset latum. Quod si
+          <lb ed="#P" n="18"/>alicubi consuetudine observatur, ibi obligabit,
+          <lb ed="#P" n="19"/>si constet, talem consuetudinem non solum
+          <lb ed="#P" n="20"/>ex devotione servari, sed sub existimatione
+          <lb ed="#P" n="21"/>obligationis.
+        </p>
+        <p>
+          <lb ed="#P" n="22"/>21. S. Martini festum. — Abliud festum,
+          <lb ed="#P" n="23"/>de quo dubitatum est a Summistis, est S. 
+          Mar<lb break="no" ed="#P" n="24"/>tini, quia in d. c. 1 cum aliis ponitur. Unde
+          <lb ed="#P" n="25"/>Silvester, Tabiena, et Armilla, et latius 
+          Ab<lb break="no" ed="#P" n="26"/>bas, cap. ult. de Feriis, num. 6, cum 
+          Specu<lb break="no" ed="#P" n="27"/>lat., Hostiensi, et Joanne Andr. et aliis, 
+          di<lb break="no" ed="#P" n="28"/>cunt fuisse quidem festum illud de jure 
+          anti<lb break="no" ed="#P" n="29"/>quo, sublatum vero fuisse per jus novum cap.
+          <lb ed="#P" n="30"/>ult. de Fer., quia ibi omissum est. Sed neque
+          <lb ed="#P" n="31"/>hoc admittit Abbas, quia omitti (inquit) non
+          <lb ed="#P" n="32"/>est revocari ; et ideo dicendum esset revocatum
+          <lb ed="#P" n="33"/>esse consuetudine. Sed existimo non esse 
+          ne<lb break="no" ed="#P" n="34"/>cessariam revocationem, quia Concilium 
+          Lug<lb break="no" ed="#P" n="35"/>dunense non poterat facere generalem legem;
+          <lb ed="#P" n="36"/>numeravit autem illud, quia Galliae concilium
+          <lb ed="#P" n="37"/>erat ; in Gallia autem merito celebratur 
+          fes<lb break="no" ed="#P" n="38"/>tum illud speciali titulo. et ut magis proprium
+          <lb ed="#P" n="39"/>illius gentis : at extra Galliam non est in 
+          ec<lb break="no" ed="#P" n="40"/>clesiastico praecepto universali, et ideo in alio
+          <lb ed="#P" n="41"/>capite omissum fuit. Est ergo consulenda 
+          con<lb break="no" ed="#P" n="42"/>suetudo : Romae enim observari solet sub
+          <lb ed="#P" n="43"/>praecepto, in Hispania vero minime, nisi 
+          for<lb break="no" ed="#P" n="44"/>tasse in aliquo privato loco.
+        </p>
+        <p>
+          <lb ed="#P" n="45"/>29. Festa Doctorum. — S. Nicolai festum.
+          <lb ed="#P" n="46"/>— S. Francisci festum. — Dubitatum 
+          praetc<lb break="no" ed="#P" n="47"/>rea est de festis Doctorum : nam Canonista
+          <lb ed="#P" n="48"/>volunt esse in praecepto lato in Clem. unic. de
+          <lb ed="#P" n="49"/>Reliq. et Vener. sanct. Ita Joann. Andr., 
+          An<lb break="no" ed="#P" n="50"/>ton. de But. et Panormitanus supra citati. Quod
+          <lb ed="#P" n="51"/>si objicias, quia ibi non inveniuntur verba
+          <lb ed="#P" n="52"/>declarantia tale praeceptum, sed solum ut festa
+          <lb ed="#P" n="53"/>illa sub duplici officio celebrentur, respondet
+          <lb ed="#P" n="54"/>Abbas, non esse verisimile, pro illo modico
+          <lb ed="#P" n="55"/>dimanasse decretalem mature et ornate compo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sitam. Expendi etiam possunt verba illius
+          <lb ed="#P" n="57"/>textus, quatenus videntur aequiparare festum
+          <lb ed="#P" n="58"/>sanctorum Doctorum festo Apostolorum : 
+          e<lb break="no" ed="#P" n="59"/>rito (inquit) procidit ( Apostolica Sedes) 
+          Apo<lb break="no" ed="#P" n="60"/>stolos, Evangelistas, et Confessores eosdem in
+          <lb ed="#P" n="61"/>universali Ecclesia honorificentie potioris 
+          at<lb break="no" ed="#P" n="62"/>tollendos ; et infra concludit : Volumus, 
+          statui<lb break="no" ed="#P" n="63"/>ms , et precipimus, Apostolorum 
+          HEcange<lb break="no" ed="#P" n="64"/>listarum, et Confessorum festivitates precignas
+          <lb ed="#P" n="65"/>anuis singulis perpetuo celebrari sub officio
+          <lb ed="#P" n="66"/>duplici. Nihilominus tamen dicendum est ibi
+          <lb ed="#P" n="67"/>non ferri tale praeceptum de observandis illis
+          <lb ed="#P" n="68"/>festivitatibus, sed solum de celebratione 
+          ea<lb break="no" ed="#P" n="69"/>rum sub officio duplici; in hoc enim tantum
+          <lb ed="#P" n="70"/>facit aequiparationem, et cum illa limitatione
+          <lb ed="#P" n="71"/>praeceptum imponit, quod ultra vim verborum
+          <lb ed="#P" n="72"/>extendendum non est. Neque hoc est aodicum,
+          <lb ed="#P" n="73"/>ut Abbas objicit, quia ex vi illius decretalis,
+          <lb ed="#P" n="74"/>celebritas et solemnitas in officio Doctorum
+          <lb ed="#P" n="75"/>non parum aucta est; non sunt ergo hae 
+          festi<lb break="no" ed="#P" n="76"/>vitates sub praecepto juris, licet possint alicubi
+          <lb ed="#P" n="77"/>ex consuetudine introduci. Et haec sententia
+          <lb ed="#P" n="78"/>nunc magis recepta est, Anton., 2 p., tit. 9,
+          <lb ed="#P" n="79"/>cap. 7, 8 1; Sylvestr., verb. Dominica ; Angel.
+          <lb ed="#P" n="80"/>et fere alii Summistae, verb. Ferie. Idem 
+          di<lb break="no" ed="#P" n="81"/>cendum est de festo Sancti Nicolai, quod nullo
+          <lb ed="#P" n="82"/>jure cautum est, consuetudine autem videtur
+          <lb ed="#P" n="83"/>in multis loeis observari; sed neque est 
+          univer<lb break="no" ed="#P" n="84"/>salis consuetudo, nec, ubi reperitur, creditur
+          <lb ed="#P" n="85"/>esse obligationis, sed devotionis, ut Angelus
+          <lb ed="#P" n="86"/>et Sylvester notant. Quod fere regulariter ita
+          <lb ed="#P" n="87"/>est, in particulari tamen semper est 
+          exami<lb break="no" ed="#P" n="88"/>nandus modus consuetudinis. De festo item
+          <lb ed="#P" n="89"/>S. Franvisci aliqui dicunt esse latum 
+          praece<lb break="no" ed="#P" n="90"/>ptum a Sixto V. Sed de hoc mihi non constat,
+          <lb ed="#P" n="91"/>et consuetudini standum esse judico.
+        </p>
+        <p>
+          <lb ed="#P" n="92"/>23. Nullum festum sanctarum mulierum ec
+          <lb ed="#P" n="93"/>preecepto servatur. — Sexto dicendum est,
+          <lb ed="#P" n="94"/>nullum festum Sanctarum mulierum esse, ex
+          <lb ed="#P" n="95"/>vi juris communis, vel generalis legis, 
+          uni<lb break="no" ed="#P" n="96"/>versae Ecclesiae observari mandatum. lta 
+          do<lb break="no" ed="#P" n="97"/>cent omnes Doctores citati; et constat, quia
+          <lb ed="#P" n="98"/>nec in illis cap. 1 de Consec., d. 3, et ult. de
+          <lb ed="#P" n="99"/>Fer., aliquod festum hujusmodi ponitur, nec
+          <lb ed="#P" n="100"/>alibi reperitur. In concilio autem Oxomensi
+          <lb ed="#P" n="101"/>( quod supra retuli), trium Sanctarum 
+          festivi<lb break="no" ed="#P" n="102"/>tates observari mandantur, Mariae 
+          Maggdale<lb break="no" ed="#P" n="103"/>nae, Catharinae, Margaritee. Sed illa lex 
+          pri<lb break="no" ed="#P" n="104"/>vata fuit illius dioecesis, vel provinciae. De festo
+          <lb ed="#P" n="105"/>autem Magdalensae, multorum locorum est 
+          con<lb break="no" ed="#P" n="106"/>suetudo, non tamen un:versalis. Solet etiam
+          <lb ed="#P" n="107"/>esse S. Catharinae, sed non est tam frequens.
+          <lb ed="#P" n="108"/>Multis etiam in locis S. Luciae festum sacrum
+          <lb ed="#P" n="109"/>habetur. Sed haec duo posteriora regulariter
+          <lb ed="#P" n="110"/>sunt ex devotione tantum, raro vero sub obli-
+          <pb ed="#P" n="292"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gatione. Festum item S. Annae coepit multis
+          <lb ed="#P" n="2"/>in locis introduci, praesertim in Hispania: sed
+          <lb ed="#P" n="3"/>non est ex vi legis, neque hactenus videtur
+          <lb ed="#P" n="4"/>consuetudo obligationem introduxisse. Cur
+          <lb ed="#P" n="5"/>autem de Sanctarum mulierum festivitatibus
+          <lb ed="#P" n="6"/>praeter Virginem, nulla sint data ab Ecclesia
+          <lb ed="#P" n="7"/>praecepta, universum Christianismum 
+          obligan<lb break="no" ed="#P" n="8"/>tia, possent facile rationes et congruentiae
+          <lb ed="#P" n="9"/>excogitari, sed non est necesse in hoc 
+          immo<lb break="no" ed="#P" n="10"/>rari.
+        </p>
+        <p>
+          <lb ed="#P" n="11"/>24. Festum omnium Sanctorum generaliter
+          <lb ed="#P" n="12"/>sercatur. — Festum hoc cepit tempore 
+          Boni<lb break="no" ed="#P" n="13"/>facii I V. — Septimo institutum est ab 
+          Eecle<lb break="no" ed="#P" n="14"/>sia generale festum de omnibus Sanctis, et de
+          <lb ed="#P" n="15"/>illius observatione latum est praeceptum 
+          uni<lb break="no" ed="#P" n="16"/>versale: et ita in dictis c. 1 et ultim. hoc 
+          fes<lb break="no" ed="#P" n="17"/>tum inter solemnia numeratur, et de illius
+          <lb ed="#P" n="18"/>observatione sub obligatione universalis est et
+          <lb ed="#P" n="19"/>indubitata consuetudo. De antiquitate autem
+          <lb ed="#P" n="20"/>hujus festi, Covarr., 4 Variar., capit. 19, 
+          nu<lb break="no" ed="#P" n="21"/>mer. 8, circa finem, existimat esse aute 
+          tem<lb break="no" ed="#P" n="22"/>pora Augustini , propter concionem quae 
+          no<lb break="no" ed="#P" n="23"/>mine Augustini in illa festivitate legitur. 
+          Ve<lb break="no" ed="#P" n="24"/>rumtamen multi cbservarunt sermonem illum
+          <lb ed="#P" n="25"/>non esse Augustini, sed Alcuini, vel alterius,
+          <lb ed="#P" n="26"/>qui ex scriptis Cy priani et Chrysostomi illum
+          <lb ed="#P" n="27"/>concinnavit , ideoque a Lovaniensibus inter
+          <lb ed="#P" n="28"/>sermones Augustini de Sanctis positus non
+          <lb ed="#P" n="29"/>est , sed separatim inter incertos. Est ergo
+          <lb ed="#P" n="30"/>communis resolutio, festum hoc non fuisse
+          <lb ed="#P" n="31"/>ante Bonifacium IV. De quo referunt Platina
+          <lb ed="#P" n="32"/>in vita ejus, et haban., homil. in illud 
+          fes<lb break="no" ed="#P" n="33"/>tum , Bonifacium Rommae consecrasse 
+          tem<lb break="no" ed="#P" n="34"/>plum, quod ab ethnicis Pantheon dicebatur,
+          <lb ed="#P" n="35"/>in honorem omnium Martyrum et Virginis,
+          <lb ed="#P" n="36"/>unde hodie Ecclesia S. Mariae Rotundae 
+          vul<lb break="no" ed="#P" n="37"/>go vocatur. Inde vero (ait Raban. ), crescente
+          <lb ed="#P" n="38"/>paulatim devotione et religione , decretum
+          <lb ed="#P" n="39"/>est ut dies primus novembris in honorem
+          <lb ed="#P" n="40"/>Sanctorum omnium observari praeciperetur.
+          <lb ed="#P" n="41"/>Et Matth. Palmerius in Chronico refert, 
+          Gre<lb break="no" ed="#P" n="42"/>gorium IV ante 835 annos id praecepisse , et
+          <lb ed="#P" n="43"/>ab eo tempore in universa Ecclesia 
+          observa<lb break="no" ed="#P" n="44"/>tum esse, ut refert etiam Durandus in 
+          HRa<lb break="no" ed="#P" n="45"/>tionali, lib. 7, capit. 34. Post diem autem
+          <lb ed="#P" n="46"/>omnium Sanctorum, instituta est 
+          Commemo<lb break="no" ed="#P" n="47"/>ratio defunctorum omnium ; sed dies ille non
+          <lb ed="#P" n="48"/>est observari praeceptus, nec ad festivitatem
+          <lb ed="#P" n="49"/>pertinet. De suffragiis autem pro defunctis
+          <lb ed="#P" n="50"/>al ibidiximus, et de institutione illius diei 
+          vi<lb break="no" ed="#P" n="51"/>deri potest Durandus supra c. 35. Solent 
+          prae<lb break="no" ed="#P" n="52"/>terea hie addi festa dedicationum, vel 
+          Patro<lb break="no" ed="#P" n="53"/>norum, sed haec licet fortasse manent a lege
+          <lb ed="#P" n="54"/>universali, et ex vi juris, ut exponam capite
+          <lb ed="#P" n="55"/>sequenti, tamen nullum est quod obliget sub
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>praecepto universalem Ecclesiam, praeter 
+          fes<lb break="no" ed="#P" n="57"/>tum Angelorum, vel Sanctae Mariae ad Nives,
+          <lb ed="#P" n="58"/>de quibus dictum est : aliae enim dedicationes
+          <lb ed="#P" n="59"/>Lateranensis templi , aut Sancti Petri, quas
+          <lb ed="#P" n="60"/>Ecclesia Romana celebrat quoad officium, de
+          <lb ed="#P" n="61"/>praecepto non sunt, ut constat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

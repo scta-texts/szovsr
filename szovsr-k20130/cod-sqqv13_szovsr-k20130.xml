@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 30</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 30</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="805"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k20130"><!-- t3-l4c30 -->
+        <head>Caput 30</head>
+        <head type="question-title">An pretium ad simoniam necessarium sit temporale, vel possit esse spirituale, et consequenter an commutare spirituale pro spirituali sit simonia ex natura rei.</head>
+        <p>
+          <lb ed="#P" n="97"/>CAPUT XXX.
+          <lb ed="#P" n="98"/>AN PRETIUM AD SIMONIAM NECESSARIUM SIT 
+          TEM<lb break="no" ed="#P" n="99"/>PORALE, VEL POSSIT ESSE SPIRITUALE, ET 
+          CON<lb break="no" ed="#P" n="100"/>SEQUENTER AN COMMUTARE SPIRITUALE PRO 
+          SPI<lb break="no" ed="#P" n="101"/>RITUALI SIT SIMONIA EX NATURA REI.
+        </p>
+        <p>
+          <lb ed="#P" n="102"/>1. Incipit explicari tertia divisio simonie
+          <lb ed="#P" n="103"/>ez parte pretii. — In pret.o duo consideranda,
+          <lb ed="#P" n="104"/>mater iale scilicet, et formale. — Quid 
+          requira<lb break="no" ed="#P" n="105"/>tur ad rationam pretii. — Diximus de materia
+          <lb ed="#P" n="106"/>simoniae, dicendum est jam de pretio: nam
+          <lb ed="#P" n="107"/>cum simonia committatur per contractum
+          <pb ed="#P" n="806"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>onerosum, consistentem in commutatione rei
+          <lb ed="#P" n="2"/>spiritualis per modum venditionis, vel 
+          aequi<lb break="no" ed="#P" n="3"/>valentis contractus, necesse est ut ibi pretium
+          <lb ed="#P" n="4"/>interveniat ; et quoniam hoc multiplex esse
+          <lb ed="#P" n="5"/>potest, et in jure distingui solet in varias 
+          spe<lb break="no" ed="#P" n="6"/>cies, priusquam ad illas descendamus, necesse
+          <lb ed="#P" n="7"/>est ut genus ipsum explicemus. Duo autem
+          <lb ed="#P" n="8"/>in hoc pretio considerari possunt. Unum est
+          <lb ed="#P" n="9"/>res illa materialis, quae in commutationem
+          <lb ed="#P" n="10"/>rei spiritualis datur; aliud est respectus sub
+          <lb ed="#P" n="11"/>quo danda est, ut habeat rationem pretii,
+          <lb ed="#P" n="12"/>quam possumus formale pretii appellare. Haec
+          <lb ed="#P" n="13"/>igitur declaranda sunt, quoniam hinc pendet
+          <lb ed="#P" n="14"/>multorum dubiorum de simonia decisio : 
+          ta<lb break="no" ed="#P" n="15"/>men, quia formale pretii intelligi non potest
+          <lb ed="#P" n="16"/>sine ordine ad pactum, in quo ipsa simonia
+          <lb ed="#P" n="17"/>consummatur, ideo in quarta divisione simul
+          <lb ed="#P" n="18"/>cum ipso pacto melius explicabitur. Hic solum
+          <lb ed="#P" n="19"/>supponimus, ad rationem pretii non satis esse
+          <lb ed="#P" n="20"/>quod pecunia pro actione spirituali detur 
+          quo<lb break="no" ed="#P" n="21"/>cumque modo, etiamsi alias non esset danda;
+          <lb ed="#P" n="22"/>multis enim modis potest licite dari et accipi;
+          <lb ed="#P" n="23"/>ut videbimus. Oportet ergo ut detur iu 
+          com<lb break="no" ed="#P" n="24"/>mutationem et quasi apprehensionem rei, quae
+          <lb ed="#P" n="25"/>pro pecunia datur, et hanc vim habet 
+          parti<lb break="no" ed="#P" n="26"/>cuia pro, quando dicitur simoniam committi,
+          <lb ed="#P" n="27"/>quando spirituale pro temporali datur. 
+          Quo<lb break="no" ed="#P" n="28"/>modo loquitur divus Thomas dicta quaest. 100,
+          <lb ed="#P" n="29"/>art. 1 et 2, et ibi Soto, et alii, et bene 
+          Navar<lb break="no" ed="#P" n="30"/>rus, cap. 23, num. 100, ver. A4. Imo et jura
+          <lb ed="#P" n="31"/>ita loquuntur, cap. Cum in Heoclesie, c. Non
+          <lb ed="#P" n="32"/>satis, c. Sicut, 9, de Simon., c. Placuit, cum
+          <lb ed="#P" n="33"/>aliis, 1, quaest. 2; ubi videri possunt Archid.,
+          <lb ed="#P" n="34"/>in cap. Ordinationes, num. S8; Praeeposit.,
+          <lb ed="#P" n="35"/>num. 5, qui in re idem dicunt. Hoc ergo 
+          po<lb break="no" ed="#P" n="36"/>sito, in praesenti solum tractamus de re quae
+          <lb ed="#P" n="37"/>ad simoniam sufficit, si pro illa in omni 
+          pro<lb break="no" ed="#P" n="38"/>prietate et rigore spiritualis res detur.
+        </p>
+        <p>
+          <lb ed="#P" n="39"/>2. Status queestionis. — Ut ergo ab 
+          univer<lb break="no" ed="#P" n="40"/>salioribus procedamus, videndum imprimis
+          <lb ed="#P" n="41"/>est an res spiritualis possit habere rationem
+          <lb ed="#P" n="42"/>talis pretii. Sumitur autem hic res spiritualis
+          <lb ed="#P" n="43"/>eodem modo quo in defiuitione simoniase, et
+          <lb ed="#P" n="44"/>distinguitur ab omni re temporali, quae vel
+          <lb ed="#P" n="45"/>est pecunia, vel illa aestimari potest, quia et
+          <lb ed="#P" n="46"/>naturaliter vel civiliter habetur, et ad usus,
+          <lb ed="#P" n="47"/>et commoditates humanas ordinatur, et 
+          utili<lb break="no" ed="#P" n="48"/>tatem habet. Et ita idem est quaerere an 
+          spi<lb break="no" ed="#P" n="49"/>rituale possit esse pretium in simonia, quod
+          <lb ed="#P" n="50"/>quaerere an commutatio spiritualis pro 
+          spiri<lb break="no" ed="#P" n="51"/>tuali simoniaca sit. Quod potest tractar vel
+          <lb ed="#P" n="52"/>ex natura rei, vel ex jure ecclesiastico. De hoc
+          <lb ed="#P" n="53"/>sensu posteriori dicemus in capit. sequenti:
+          <lb ed="#P" n="54"/>hic in priori loquimur.
+        </p>
+        <p>
+          <lb ed="#P" n="55"/>3. Opinio asserens committi simoniam, si
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>detur spirituale pro spirituali. — Circa hoc
+          <lb ed="#P" n="57"/>igitur aliqui dixerunt simoniam esse, dare
+          <lb ed="#P" n="58"/>spirituale pro spirituali, si ex vero et proprio
+          <lb ed="#P" n="59"/>pacto oneroso fiat. Ita tenet Richard., in 4,
+          <lb ed="#P" n="60"/>dist. 25, art. 3, quaestione prima, ad primum,
+          <lb ed="#P" n="61"/>ubi duas rationes adducit. Prior est quia 
+          emi<lb break="no" ed="#P" n="62"/>tur (ait) res a non domino ; supra autem 
+          osten<lb break="no" ed="#P" n="63"/>dimus, unam ex radicibus simoniae esse, quia
+          <lb ed="#P" n="64"/>homo non est dominus rerum spiritualium,
+          <lb ed="#P" n="65"/>quae ratio eeque videtur procedere, etiamsi pro
+          <lb ed="#P" n="66"/>re spirituali illam conferat. Posterior ratio est,
+          <lb ed="#P" n="67"/>quia est contra rationem gratiae, ut vendatur
+          <lb ed="#P" n="68"/>pro quocumque pretio, etiam spirituali, quia
+          <lb ed="#P" n="69"/>eo ipso non erit gratia. Addit etiam, omnem
+          <lb ed="#P" n="70"/>pactionem in his esse prohibitam in jure, 
+          ca<lb break="no" ed="#P" n="71"/>pite Tua nos, de Simonia. Sed hoc in rigore
+          <lb ed="#P" n="72"/>non probat de jure divino; de jure autem 
+          ec<lb break="no" ed="#P" n="73"/>clesiastico, sequenti capit. dicetur. Idem tenet
+          <lb ed="#P" n="74"/>expresse Paludan., ibid., quaestione secunda,
+          <lb ed="#P" n="75"/>num. 15;Supplem. Gabr., quaestion. secunda,
+          <lb ed="#P" n="76"/>artic. tertio, dubio quarto, in fin.; Adrianus,
+          <lb ed="#P" n="77"/>Quodlib. 9, circa finem, ad 4 confirm. 2 
+          ar<lb break="no" ed="#P" n="78"/>gum., et ad 5, qui magnam vim facit in 
+          ver<lb break="no" ed="#P" n="79"/>bo Domini : Gratis accepistis, gratis date. 
+          Ci<lb break="no" ed="#P" n="80"/>tantur etiam pro hac sententia aliqui 
+          Cano<lb break="no" ed="#P" n="81"/>nistae : sed illi loquuntur fortasse de jure 
+          po<lb break="no" ed="#P" n="82"/>sitivo, de quo inferius. Potest haec sententia
+          <lb ed="#P" n="83"/>ulterius suaderi, quia, si licet de praesenti
+          <lb ed="#P" n="84"/>commutare unam rem spiritualem pro alia
+          <lb ed="#P" n="85"/>spirituali, licebit etiam in praesenti dare, 
+          ver<lb break="no" ed="#P" n="86"/>bi gratia, missam, dummodo alter obligetur
+          <lb ed="#P" n="87"/>ad dicendum aliam in futurum : consequens
+          <lb ed="#P" n="88"/>est falsum, quia illa obligatio in futurum est
+          <lb ed="#P" n="89"/>pretio aestimabilis; ergo. Denique licebit alicui
+          <lb ed="#P" n="90"/>dare pretiosa vasa sacra, ut mihi conferat
+          <lb ed="#P" n="91"/>suum beneficium, loquendo ex natura rei, 
+          se<lb break="no" ed="#P" n="92"/>clusa prohibitione positiva : consequens est
+          <lb ed="#P" n="93"/>falsum ; ergo. Sequela patet, quia ibi 
+          commu<lb break="no" ed="#P" n="94"/>tatur spirituale pro spirituali : minor autem
+          <lb ed="#P" n="95"/>patet, quia in tali commutaticne necessario
+          <lb ed="#P" n="96"/>miscetur aestimatio rei spiritualis, non solum
+          <lb ed="#P" n="97"/>ratione spiritualitatis, sed etiam ratione 
+          mate<lb break="no" ed="#P" n="98"/>ria.
+        </p>
+        <p>
+          <lb ed="#P" n="99"/>4. Stando in jure divino, pretium simonie
+          <lb ed="#P" n="100"/>debet esse quid temporale, negue sufficit 
+          spiri<lb break="no" ed="#P" n="101"/>tuale. — Nihilominus dicendum est primo,
+          <lb ed="#P" n="102"/>pretium simoniae, stando in solo divino jure,
+          <lb ed="#P" n="103"/>debere esse aliquid temporale, nec spirituale
+          <lb ed="#P" n="104"/>sufficere. Haec assertio est communis 
+          Docto<lb break="no" ed="#P" n="105"/>rum quos statim referam; et sumitur primo,
+          <lb ed="#P" n="106"/>ex Act. 8: Pecunia tua tecum sit in 
+          perditio<lb break="no" ed="#P" n="107"/>nem, quoniam domwmn Dei eaistimasti pecunia
+          <lb ed="#P" n="108"/>possideri. Ubi simoniae malitia ponitur in
+          <lb ed="#P" n="109"/>commutatione rei spiritualis pro pecunia : sub
+          <lb ed="#P" n="110"/>peeunia autem comprehenditur quicquid pe-
+          <pb ed="#P" n="807"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cunia aestimatur, ut ex Aristotele, 3 Polit.,
+          <lb ed="#P" n="2"/>docuit D. Thomas, dicta quaestion. 100, art.
+          <lb ed="#P" n="3"/>2 et 5. Idemque colligi potest ex verbis Christi,
+          <lb ed="#P" n="4"/>Matth. 10, ubi postquam Christus d:xit: 
+          Gra<lb break="no" ed="#P" n="5"/>Lis accepistis, gratis date, subjungit : IVolite
+          <lb ed="#P" n="6"/>possidere aurum, negue argentum, etc., tacite
+          <lb ed="#P" n="7"/>declarans gratuitam donationem excludere
+          <lb ed="#P" n="8"/>pretium auri et argenti. Et ita exposuit 
+          ex<lb break="no" ed="#P" n="9"/>presse Hieronymus ibi; et Chrysostomus, 
+          ho<lb break="no" ed="#P" n="10"/>mil. 33 in Matth., ita illa conjunxit: Nihil
+          <lb ed="#P" n="11"/>possideatis ; gratis accepistis, gratis date. Et
+          <lb ed="#P" n="12"/>D. Thomas exponit: Gratis date, id est, non
+          <lb ed="#P" n="13"/>propter aliguid temporale. Et quia possent
+          <lb ed="#P" n="14"/>dicere (inquit) : Unde ergo vivemus ? subdit :
+          <lb ed="#P" n="15"/>Nolite possidere, eic. Et eodem modo 
+          expo<lb break="no" ed="#P" n="16"/>nunt caeteri Patres. Praeterea probari potest
+          <lb ed="#P" n="17"/>haec assertio ex capite Ad queestiones, de 
+          Re<lb break="no" ed="#P" n="18"/>rum permutat., ubi ait ecclesiam posse pro
+          <lb ed="#P" n="19"/>ecclesia permutari, et temporalem 
+          possessio<lb break="no" ed="#P" n="20"/>nem pro temporali possessione, dummodo
+          <lb ed="#P" n="21"/>contractus non misceantur. Cujus ratio non
+          <lb ed="#P" n="22"/>est alia, nisi, quando ecclesia pro ecclesia 
+          da<lb break="no" ed="#P" n="23"/>tur, non pro re temporali datur, sed pro 
+          spi<lb break="no" ed="#P" n="24"/>rituali, quae non habet rationem pretii; 
+          sup<lb break="no" ed="#P" n="25"/>ponit ergo pretium debere esse rem 
+          tempo<lb break="no" ed="#P" n="26"/>ralem. Ratio denique reddi potest, quia 
+          inde<lb break="no" ed="#P" n="27"/>centia et malitia in commutatione simoniaca
+          <lb ed="#P" n="28"/>nascitur ex improportione inter materialem
+          <lb ed="#P" n="29"/>rem et spiritualem, et constat ex dictis supra,
+          <lb ed="#P" n="30"/>hoc libro, cap. 1 et 2.
+        </p>
+        <p>
+          <lb ed="#P" n="31"/>5. Commutare rem spiritualem cum re 
+          spi<lb break="no" ed="#P" n="32"/>rituali non est simonia em vi juris divini. —
+          <lb ed="#P" n="33"/>Solvitur secundum arguwnentum. — Dico 
+          se<lb break="no" ed="#P" n="34"/>cundo : commutare rem vere spiritualem pro
+          <lb ed="#P" n="35"/>re vere spirituali, non est simonia ex vi juris
+          <lb ed="#P" n="36"/>divini, etiamsi cum omni proprietate et pacto
+          <lb ed="#P" n="37"/>una res spiritualis pro alia detur. Ita sentit D.
+          <lb ed="#P" n="38"/>Thomas in loco citato, ex Matth. 10, et in 4,
+          <lb ed="#P" n="39"/>distinct. 25, quaestion. 3, art. 3, ad 8; 
+          Duran<lb break="no" ed="#P" n="40"/>dus, in quaestione 5, num. 9 ; Major, 
+          quaes<lb break="no" ed="#P" n="41"/>tion. 6; Argent., artic. 4, ad 3;Soto, lib. 9,
+          <lb ed="#P" n="42"/>q. 5, art. 2; Victoria supra, n. 17. Licet enim
+          <lb ed="#P" n="43"/>in numero S confuse loquatur, exponendus
+          <lb ed="#P" n="44"/>videtur juxta ea quae postea expresse dicit.
+          <lb ed="#P" n="45"/>Idem sentit Covarruv., lib. 1 Var., capit. 5,
+          <lb ed="#P" n="46"/>numero 4. Et sequitur aperte ex praecedenti
+          <lb ed="#P" n="47"/>assertione. Primo, quia talis commutatio non
+          <lb ed="#P" n="48"/>est prohibita per Christi verba : Gratis date,
+          <lb ed="#P" n="49"/>ut ex Patrum expositione constat; ergo signum
+          <lb ed="#P" n="50"/>est non esse contra jus divinum naturale.
+          <lb ed="#P" n="51"/>Secundo, quia ubi non est pretium , non
+          <lb ed="#P" n="52"/>est venditio, neque emptio : sed quando datur
+          <lb ed="#P" n="53"/>spirituale pro spirituali, nullum datur 
+          pre<lb break="no" ed="#P" n="54"/>tium ; ergo. Dices : Nonne LIai. 5 dicitur:
+          <lb ed="#P" n="55"/>Venite, emite absque argento? Respondeo, ibi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>potius significari illam non esse venditionem,
+          <lb ed="#P" n="57"/>nec emptionem humanam, sed aliud genus
+          <lb ed="#P" n="58"/>acquisitionis, in qua licet ab homine aliquid
+          <lb ed="#P" n="59"/>postuletur, non est vera emp'io humana. 
+          Un<lb break="no" ed="#P" n="60"/>de recte ibi Hieronymus perinde putat 
+          dic<lb break="no" ed="#P" n="61"/>tum esse: Emite absque argento. ac gratis
+          <lb ed="#P" n="62"/>accipite, adducens dicta verba Christi : Gratis
+          <lb ed="#P" n="63"/>accepistis; et Paul : Gratia salvati estis,
+          <lb ed="#P" n="64"/>Ephes. 2; et concludit : Mirum in modum
+          <lb ed="#P" n="65"/>emunt aquas asque pecunia. lIgitur ubi 
+          pecu<lb break="no" ed="#P" n="66"/>nia non intervenit, vel aliquid aequivalens,
+          <lb ed="#P" n="67"/>non est emptio; nec ergo est simonia. Unde
+          <lb ed="#P" n="68"/>argumentor tertio : nam per talem 
+          commuta<lb break="no" ed="#P" n="69"/>tionem non fit injuria vel irreverentia rei 
+          spi<lb break="no" ed="#P" n="70"/>rituali, sicut non fit injuria gratiae, quod pro
+          <lb ed="#P" n="71"/>gratia detur, juxta illud Joau. 1: Gratiam
+          <lb ed="#P" n="72"/>pro gratia. Et ita expeditur obiter secunda
+          <lb ed="#P" n="73"/>ratio Richardi, quia non est contra rationem
+          <lb ed="#P" n="74"/>gratiae, quod pro gratia detur; sicut etiam
+          <lb ed="#P" n="75"/>non est contra excellentiam spiritualis 
+          prae<lb break="no" ed="#P" n="76"/>mii, quod pro spirituali merito detur; sic 
+          er<lb break="no" ed="#P" n="77"/>go nulla fit injuria rei, vel actioni saerae, si
+          <lb ed="#P" n="78"/>pro alia simili commutetur. Denique usus 
+          Ec<lb break="no" ed="#P" n="79"/>clesiae et piorum hoc confirmat; nam 
+          spiri<lb break="no" ed="#P" n="80"/>tuales satisfactiones vel deprecationes inter se
+          <lb ed="#P" n="81"/>commutant, et curatus postulat a vicino 
+          cu<lb break="no" ed="#P" n="82"/>rato, ut pro se, uno vel alio die parochiae suae
+          <lb ed="#P" n="83"/>inserviat, repensurus alio die servitium pro
+          <lb ed="#P" n="84"/>illo in ejus ecclesia. Et similes commutationes
+          <lb ed="#P" n="85"/>in sacrificiis, in audiendis confessionibus, 
+          quo<lb break="no" ed="#P" n="86"/>idie fiunt.
+        </p>
+        <p>
+          <lb ed="#P" n="87"/>6. Respondetur ad primam rationem 
+          Ri<lb break="no" ed="#P" n="88"/>chard. — Neque obstat quod non sumus 
+          do<lb break="no" ed="#P" n="89"/>mini spiritualium rerum, quae erat prima 
+          ra<lb break="no" ed="#P" n="90"/>tio Richardi : tum quia non est haec completa
+          <lb ed="#P" n="91"/>ratio per se sufficiens ad simoniam, nisi res
+          <lb ed="#P" n="92"/>spiritualis ut temporalis aestimetur; tum eiiam
+          <lb ed="#P" n="93"/>quia revera habemus aliquod dominium (ut
+          <lb ed="#P" n="94"/>c. 2 dicebamus), saltem ratione operum 
+          libe<lb break="no" ed="#P" n="95"/>rorum, quae in his spiritualibus exercemus,
+          <lb ed="#P" n="96"/>vel ratione materiae, cui spiritualitas adhaeret;
+          <lb ed="#P" n="97"/>ut habere potest homo dominium calicis, 
+          rosa<lb break="no" ed="#P" n="98"/>rii benedicti, aut imaginis. Unde quoad opera
+          <lb ed="#P" n="99"/>spiritualia, licet non possit homo habere 
+          ratio<lb break="no" ed="#P" n="100"/>nem sui laboris, vel operis, et dominii ejus, ut
+          <lb ed="#P" n="101"/>illud vendat pretio, quia non est separabile in
+          <lb ed="#P" n="102"/>venditione ab spiritualitate, tamen ut illud
+          <lb ed="#P" n="103"/>commnutet pro opere spirituali, potest habere 
+          ra<lb break="no" ed="#P" n="104"/>tionem sui dominii commutando opus pro 
+          ope<lb break="no" ed="#P" n="105"/>re, et spiritualitatem pro spiritualitate: in hoc
+          <lb ed="#P" n="106"/>enim non fit permixtio, sed totum pro toto
+          <lb ed="#P" n="107"/>commutatur, servata tamen proportione. 
+          Si<lb break="no" ed="#P" n="108"/>militerque in rebus sacris potest ita fieri 
+          com<lb break="no" ed="#P" n="109"/>mutatio, ut habeatur ratio ad spirituale, quod
+          <lb ed="#P" n="110"/>in eis est, in quo differt talis commutatio a
+          <pb ed="#P" n="808"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>venditione talis rei: nam in venditione non
+          <lb ed="#P" n="2"/>potest haberi respectus ad benedictionem ; in
+          <lb ed="#P" n="3"/>commutatione vero unius grani benedicti pro
+          <lb ed="#P" n="4"/>alio potest haberi hic respectus, quia possum
+          <lb ed="#P" n="5"/>intendere dare hoc spirituale pro illo 
+          spiri<lb break="no" ed="#P" n="6"/>tuali, et pro grano non benedicto non darem.
+          <lb ed="#P" n="7"/>Denique esto non simus domini, sumus 
+          dis<lb break="no" ed="#P" n="8"/>pensatores horum bonorum, praesertim eorum
+          <lb ed="#P" n="9"/>quae ab unoquoque privatim possidentur ,
+          <lb ed="#P" n="10"/>quorum habemus liberam administrationem
+          <lb ed="#P" n="11"/>in his omnibus, quae vel eorum reverentiae,
+          <lb ed="#P" n="12"/>vel superiorum legibus non repugnant. Et
+          <lb ed="#P" n="13"/>ita possumus ea libere donare, quantum est
+          <lb ed="#P" n="14"/>ex hoc capite. Ita ergo possumus illa inter se
+          <lb ed="#P" n="15"/>commutare, quia haec commutatio horum 
+          bo<lb break="no" ed="#P" n="16"/>norum quaedam dispensatio illorum est; et
+          <lb ed="#P" n="17"/>quando spirituale pro spirituali commutatur,
+          <lb ed="#P" n="18"/>nulla est indecentia, nec prohibitio ex lege 
+          di<lb break="no" ed="#P" n="19"/>vina; et ideo nisi intercedat lex humana,
+          <lb ed="#P" n="20"/>nulla est ratio simoniae.
+        </p>
+        <p>
+          <lb ed="#P" n="21"/>7. Solvitur prima confirmatio.—Instantia.
+          <lb ed="#P" n="22"/>Ad fundamentum Adriani jam responsum est:
+          <lb ed="#P" n="23"/>ad primam vero confirmationem a nobis 
+          ad<lb break="no" ed="#P" n="24"/>ditam respondetur, tribus modis posse fieri
+          <lb ed="#P" n="25"/>hanc commutationem. Primo, si intercedat
+          <lb ed="#P" n="26"/>mutua obligatio ad aliquid spirituale pro alio
+          <lb ed="#P" n="27"/>faciendum, et tunc spirituale datur pro 
+          spiri<lb break="no" ed="#P" n="28"/>tuali, et obbigatio pro obligatione, et sic 
+          ser<lb break="no" ed="#P" n="29"/>vatur proportio. Secundo, si tantum intercedat
+          <lb ed="#P" n="30"/>reciproca traditio de praesenti rei sacrae pro
+          <lb ed="#P" n="31"/>sacra, seu actionis spiritualis pro actione.
+          <lb ed="#P" n="32"/>Tertio, si unus statim dat vel facit, ut alter
+          <lb ed="#P" n="33"/>postea recompenset; et tunc dicunt aliqui
+          <lb ed="#P" n="34"/>commutationem fieri inter res spirituales,
+          <lb ed="#P" n="35"/>obligationem autem ejus, qui statim rem non
+          <lb ed="#P" n="36"/>exhibet, non esse pretium rei spiritualis quam
+          <lb ed="#P" n="37"/>accipit, sed necessariam quamdam 
+          conditio<lb break="no" ed="#P" n="38"/>nem, quae ex dilatione solutionis nascitur. Sed
+          <lb ed="#P" n="39"/>instari potest ex materia de usura: nam 
+          se<lb break="no" ed="#P" n="40"/>quitur, posse exigi ab alio propter mutuum,
+          <lb ed="#P" n="41"/>ut se obliget ad mutuandum in futurum. 
+          Se<lb break="no" ed="#P" n="42"/>quela patet, quia etiam ibi dicam mutuum
+          <lb ed="#P" n="43"/>praesens non dari nisi pro mutuo futuro ; 
+          obli<lb break="no" ed="#P" n="44"/>gationem autem non esse pretium mutui, sed
+          <lb ed="#P" n="45"/>necessariam conditionem, quae ex dilatione 
+          al<lb break="no" ed="#P" n="46"/>terius mutui sequitur. Addendum ergo est,
+          <lb ed="#P" n="47"/>in praesenti materia illam obligationem etiam
+          <lb ed="#P" n="48"/>reputari quid spirituale, et propterea non esse
+          <lb ed="#P" n="49"/>pretio aestimabilem per se loquendo, quia 
+          tan<lb break="no" ed="#P" n="50"/>quam omnino unum cum re spirituali 
+          tra<lb break="no" ed="#P" n="51"/>denda vel facienda computatur. Sicut quando
+          <lb ed="#P" n="52"/>quis ex mutuo manet obligatus ad solvendum,
+          <lb ed="#P" n="53"/>non est obligatio aestimabilis distincto 
+          pre<lb break="no" ed="#P" n="54"/>tio ab ipso capitali. Quia ergo hic pretium
+          <lb ed="#P" n="55"/>spirituale (ut sic dicam), postea solvendum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>spirituale est , ideo etiam obligatio, quae ex
+          <lb ed="#P" n="57"/>commntatione intrinsece nascitur, tanquam
+          <lb ed="#P" n="58"/>spirituale quid reputanda est, ut in 
+          superiori<lb break="no" ed="#P" n="59"/>bus dixi. Unde in praedicto casu non posset
+          <lb ed="#P" n="60"/>pretio redimi aut vendi sine simonia. Quod
+          <lb ed="#P" n="61"/>autem interdum possit esse temporaliter 
+          one<lb break="no" ed="#P" n="62"/>rosa , accidentarium est, semperque 
+          intelli<lb break="no" ed="#P" n="63"/>gendum est obligare sine gravi incommodo.
+        </p>
+        <p>
+          <lb ed="#P" n="64"/>8. Commutare beneficium pro calice sumonia
+          <lb ed="#P" n="65"/>est ea natura rei. — Ad ultimam 
+          confirmatio<lb break="no" ed="#P" n="66"/>nem de commutatione beneficii pro calice
+          <lb ed="#P" n="67"/>pretioso, respondeo negando sequelam : est
+          <lb ed="#P" n="68"/>enim talis commutatio simoniaca ex natura
+          <lb ed="#P" n="69"/>rei, quia revera non spirituale pro spirituall,
+          <lb ed="#P" n="70"/>sed temporale pro spirituali datur. Unde 
+          opor<lb break="no" ed="#P" n="71"/>tet in hac commutatione maxime observare,
+          <lb ed="#P" n="72"/>an commutatio fiat inter res mere spirituales,
+          <lb ed="#P" n="73"/>vel inter res mistas ex spirituali et temporali;
+          <lb ed="#P" n="74"/>nam in prioribus nullum est periculum 
+          simo<lb break="no" ed="#P" n="75"/>niae ex parte materia , quia licet contingat
+          <lb ed="#P" n="76"/>unam esse digniorem alia, semper sunt 
+          ejus<lb break="no" ed="#P" n="77"/>dem ordinis, ut si duo sacerdotes conveniant:
+          <lb ed="#P" n="78"/>Ego tibi poenitentiam ministrabo, tu da mihi
+          <lb ed="#P" n="79"/>Eucharistiam ; et sic de similibus. In aliis 
+          ve<lb break="no" ed="#P" n="80"/>ro mistis, aliquid potest esse periculi, ne 
+          for<lb break="no" ed="#P" n="81"/>tasse excessus in re temporali per spiritualem
+          <lb ed="#P" n="82"/>compensetur, ut si quis rosarium benedictum
+          <lb ed="#P" n="83"/>pretiosae materiae tribuat pro vili, quia habet
+          <lb ed="#P" n="84"/>majores indulgentias, non carebit labe 
+          simo<lb break="no" ed="#P" n="85"/>niae, nam censeretur emere spirituale, et alter
+          <lb ed="#P" n="86"/>vendere. Oportet etiam servare proportionem,
+          <lb ed="#P" n="87"/>quia temporale potest esse annexum spirituali
+          <lb ed="#P" n="88"/>antecedenter et consequenter, et quaudo 
+          tem<lb break="no" ed="#P" n="89"/>porale se habet antecedenter, semper est per
+          <lb ed="#P" n="90"/>se vendibile, non vero quando se habet 
+          conse<lb break="no" ed="#P" n="91"/>quenter, ut supra dictum est. Hinc ergo fit ut
+          <lb ed="#P" n="92"/>sacrum pro sacro, si in utroque temporale est
+          <lb ed="#P" n="93"/>annexum antecedenter, opóme commutetur,
+          <lb ed="#P" n="94"/>ut calix pro calice; et tunc si in materia sit
+          <lb ed="#P" n="95"/>inaequalitas, potest fieri pecunia 
+          recompensa<lb break="no" ed="#P" n="96"/>tio, quia tota materia vendi posset; si vero in
+          <lb ed="#P" n="97"/>spirituali sit inaequalitas (sicut de 
+          indulgen<lb break="no" ed="#P" n="98"/>tiis dicehamus ), nulla potest intendi 
+          recon<lb break="no" ed="#P" n="99"/>pensatio, sed gratis condonandus est 
+          exces<lb break="no" ed="#P" n="100"/>sus. At vero si commutarentur spiritualia,
+          <lb ed="#P" n="101"/>quae habent temporalia annexa :consequenter
+          <lb ed="#P" n="102"/>( etiam seclusa prohibitione Ecclesiae), licet in
+          <lb ed="#P" n="103"/>temporalibus esset inaequalitas , non posset
+          <lb ed="#P" n="104"/>temporali pretio compensari, quia necessario
+          <lb ed="#P" n="105"/>emeretur spirituale, a quo pendent, juxta 
+          su<lb break="no" ed="#P" n="106"/>perius dicta, quae etiam latius sequenti capite
+          <lb ed="#P" n="107"/>dicemus. Atque hinc fit ut spirituale, cui 
+          an<lb break="no" ed="#P" n="108"/>tecedenter est annexum temporale, 
+          commu<lb break="no" ed="#P" n="109"/>tari non possit, etiam ex natura rei, pro 
+          spiri<lb break="no" ed="#P" n="110"/>tuali, cui sunt annexa temporalia consequen-
+          <pb ed="#P" n="809"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ter, ut calix pro beneficio. Quia quando 
+          tem<lb break="no" ed="#P" n="2"/>porale antecedenter se habet, id, quod primo
+          <lb ed="#P" n="3"/>et quasi fundamentaliter datur, est 
+          tempora<lb break="no" ed="#P" n="4"/>le, quod etiam in tali re est vendibile; in alia
+          <lb ed="#P" n="5"/>vero re, in qua temporale est consequens ad
+          <lb ed="#P" n="6"/>spirituale, quod primo et per se datur, est 
+          spi<lb break="no" ed="#P" n="7"/>rituale ; et ita tunc emeretur spirituale unius
+          <lb ed="#P" n="8"/>pro temporali alterius. Oportet ergo servare
+          <lb ed="#P" n="9"/>proportionem, ita ut vel spiritualia, quae 
+          com<lb break="no" ed="#P" n="10"/>mutantur. pura sint; vel, si habeant 
+          tempora<lb break="no" ed="#P" n="11"/>lem annexum, in utroque sit antecedenter,
+          <lb ed="#P" n="12"/>vel in utroque consequenter, et ut non 
+          mis<lb break="no" ed="#P" n="13"/>ceatur compensatio temporalis pro spirituali.
+        </p>
+        <p>
+          <lb ed="#P" n="14"/>9. Fana judicatur illa questio, an possit
+          <lb ed="#P" n="15"/>cum Deo simonia committi. — Tandem ex 
+          dic<lb break="no" ed="#P" n="16"/>tis intelligi potest, vanam esse quaestionem,
+          <lb ed="#P" n="17"/>an possit cum Deo ipso simonia committi, 
+          of<lb break="no" ed="#P" n="18"/>ferendo illi aliquod temporale opus ad 
+          emen<lb break="no" ed="#P" n="19"/>dum ab ipso sua dona, vel mirabilia opera, ut
+          <lb ed="#P" n="20"/>sanitaltem extraordinario modo restitutam
+          <lb ed="#P" n="21"/>propter eleemosynam, vel aliquid hujusmodi.
+          <lb ed="#P" n="22"/>Certum est enim, in his promissionibus, et
+          <lb ed="#P" n="23"/>quasi pactis, seu votis conditionatis cum Deo,
+          <lb ed="#P" n="24"/>vel Sanctis, nullam esse simoniam : tum quia
+          <lb ed="#P" n="25"/>id quod offertur semper est spirituale 
+          obse<lb break="no" ed="#P" n="26"/>quium ; nam, licet opus promissum, vel bona
+          <lb ed="#P" n="27"/>materialia et temporalia videantur, offerun
+          <lb ed="#P" n="28"/>tur semper ut spiritualia obsequia; et ita 
+          sem<lb break="no" ed="#P" n="29"/>per spirituale pro spirituali commutatur ;
+          <lb ed="#P" n="30"/>tum etiam quia nec ibi esse potest simonia
+          <lb ed="#P" n="31"/>realis, vel conventionalis secundum rem, cum
+          <lb ed="#P" n="32"/>Deus sit dominus omnium, et possit de 
+          om<lb break="no" ed="#P" n="33"/>nibus disponere prout voluerit ; nec etiam ex
+          <lb ed="#P" n="34"/>parte hominis potest esse mentalis, vel 
+          atten<lb break="no" ed="#P" n="35"/>tata simonia , sicut fuit in Simone Mago. quia
+          <lb ed="#P" n="36"/>etiam petit ab omnium domino, et cum eo
+          <lb ed="#P" n="37"/>negotiatur, et illi offert dona ab ipso accepta,
+          <lb ed="#P" n="38"/>non ut materialia pretia, sed ut spiritualia
+          <lb ed="#P" n="39"/>obsequia ; vel etiam potest offerre ut merita,
+          <lb ed="#P" n="40"/>vel ut satisfactiones, aut de congruo, aut de
+          <lb ed="#P" n="41"/>condigno, et obligationem ad illa etiam offerre
+          <lb ed="#P" n="42"/>potest ut specialem cultum religiosum. Nec
+          <lb ed="#P" n="43"/>potest quis esse tam stolidus (nisi sit infidelis
+          <lb ed="#P" n="44"/>valde rusticus), qui pntet aliter posse a Deo
+          <lb ed="#P" n="45"/>emi ejus beneficia, ut illi offerat pecuniam,
+          <lb ed="#P" n="46"/>vel aliquid aequivalens, in pretium. 
+          Quapro<lb break="no" ed="#P" n="47"/>pter nulla distinctione hic opus est, nec 
+          ma<lb break="no" ed="#P" n="48"/>jori discussione. Nec oppositum dixit 
+          Inno<lb break="no" ed="#P" n="49"/>centius, qui citari solet in c. Sceriptura, de
+          <lb ed="#P" n="50"/>Voto; nam, licet prius in contrarium argu
+          <lb ed="#P" n="51"/>mentetur, postea veritatem statuit, quam ibi
+          <lb ed="#P" n="52"/>Abbas et alii sequuntur. Et fortasse in 
+          se<lb break="no" ed="#P" n="53"/>quenti volumine, agentes de voto, plura de
+          <lb ed="#P" n="54"/>hoc puncto dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="517"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k12906"><!-- t3-l2c10 -->
+        <head>Caput 10</head>
+        <head type="question-title">Expediuntur nonnullae difficultates circa superiores divinationum species.</head>
+        <p>
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="103"/>CAPUT X.
+          <lb ed="#P" n="104"/>EXPEDIUNTUR NONNULLJE DIEFICULTATES CIRCA
+          <lb ed="#P" n="105"/>SUPERIORES DIVINATIONUM SPEUIES.
+        </p>
+        <p>
+          <lb ed="#P" n="106"/>1. An divinatio per pactum explicitum 
+          dif<lb break="no" ed="#P" n="107"/>erat specie. ab ea quae fit per implicitum. —
+          <lb ed="#P" n="108"/>Prima dubitatio est, an haec divinatio per pac-
+          <pb ed="#P" n="518"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum implicitum in ratione superstitionis 
+          dif<lb break="no" ed="#P" n="2"/>ferat specie ab illa quae est per pactum 
+          ex<lb break="no" ed="#P" n="3"/>pressum. Aliqui absolute affirmant differre
+          <lb ed="#P" n="4"/>specie in genere vitii et mali moralis, quod
+          <lb ed="#P" n="5"/>significat D. Thom., art. 3, in corpore, et ad
+          <lb ed="#P" n="6"/>1. Difficile vero est hanc sententiam 
+          persua<lb break="no" ed="#P" n="7"/>dere, quia tacita vel expressa voluntas, aut
+          <lb ed="#P" n="8"/>pactum implicitum, non solent morales actus
+          <lb ed="#P" n="9"/>distinguere in specie morali; sicut professio
+          <lb ed="#P" n="10"/>tacita et expressa ejusdem speciei sunt, et
+          <lb ed="#P" n="11"/>sic de aliis. Deinde in illis superstitionibus
+          <lb ed="#P" n="12"/>est eadem participatio idololatriae, et privatio
+          <lb ed="#P" n="13"/>ejusdem honestatis religionis; cur ergo 
+          dis<lb break="no" ed="#P" n="14"/>tinguentur morali specie? Quare, in rigore
+          <lb ed="#P" n="15"/>loquendo, probabile est non distingui, sed
+          <lb ed="#P" n="16"/>solum ut actus perfectus et imperfectus, 
+          com<lb break="no" ed="#P" n="17"/>pletus vel incompletus intra eamdem 
+          spe<lb break="no" ed="#P" n="18"/>ciem. Nihilominus tamen in ordine ad praxim,
+          <lb ed="#P" n="19"/>praesertim in ordine ad confessionem, et ad
+          <lb ed="#P" n="20"/>poenas seu censuras, et ad prasumptionem
+          <lb ed="#P" n="21"/>de haeresi, et alios similes effectus, non 
+          du<lb break="no" ed="#P" n="22"/>bito quin perinde sit de illis censendum, ac
+          <lb ed="#P" n="23"/>si essent distincti specie. Quia certissimum
+          <lb ed="#P" n="24"/>judico, ubi pactum expressum cam daemone
+          <lb ed="#P" n="25"/>intercessit, explicandum esse in confessione,
+          <lb ed="#P" n="26"/>quia longe diversum judicium faciendum est
+          <lb ed="#P" n="27"/>de illo peccato a confessore, quam de alio,
+          <lb ed="#P" n="28"/>et sic de aliis. Et quoad hoc, verissimum est
+          <lb ed="#P" n="29"/>quod D. Thom. ait, d. art. 3, ad 1, multo 
+          gra<lb break="no" ed="#P" n="30"/>vius esse, demones invocare, quam aliqua 
+          fa<lb break="no" ed="#P" n="31"/>cere, quibus digmm sit ut se demones 
+          inge<lb break="no" ed="#P" n="32"/>rant. Hoc enim declarat bene majorem 
+          gra<lb break="no" ed="#P" n="33"/>vitatem notabilem in confessione 
+          explican<lb break="no" ed="#P" n="34"/>dam, sed non specificam diversitatem in 
+          ri<lb break="no" ed="#P" n="35"/>gore ; tum quia committere peccatum aliquod
+          <lb ed="#P" n="36"/>verbi gratia, fornicationem, et exponere se
+          <lb ed="#P" n="37"/>moral ac proximo periculo illius, ejusdem
+          <lb ed="#P" n="38"/>speciet sunt, et ita possunt esse in praesenti;
+          <lb ed="#P" n="39"/>tum quia in pacto implicito etiam est 
+          invo<lb break="no" ed="#P" n="40"/>catio daemonis, vel usus et credulitas 
+          doctri<lb break="no" ed="#P" n="41"/>nae ejus, quod perinde est.
+        </p>
+        <p>
+          <lb ed="#P" n="42"/>2. An distinguenda sint sub his membris
+          <lb ed="#P" n="43"/>plura vitia specie distincta. — Simile dubium
+          <lb ed="#P" n="44"/>est, an sub aliquo ex dictis membris 
+          distin<lb break="no" ed="#P" n="45"/>guenda sint plura vitia superstitionum 
+          spe<lb break="no" ed="#P" n="46"/>cie distinctarum. Aliqui enim censent, in
+          <lb ed="#P" n="47"/>hus vanis observantiis, quae continent 
+          impli<lb break="no" ed="#P" n="48"/>citum pactum, specie distingui ea quae 
+          obser<lb break="no" ed="#P" n="49"/>vant signa, quae in rebus ipsis sine industria
+          <lb ed="#P" n="50"/>hominis praeexistunt, ut sunt astrologia 
+          judi<lb break="no" ed="#P" n="51"/>ciaria, augurium, et similes, ab his quae 
+          utun<lb break="no" ed="#P" n="52"/>tur vanis actionibus humanis, ut ad sortes
+          <lb ed="#P" n="53"/>pertinentibus. Nam D. Thomas etiam dicto
+          <lb ed="#P" n="54"/>art. 3 haec ponit ut genera distincta 
+          supersti<lb break="no" ed="#P" n="55"/>tionum. Sed certe D. Thomas sicut distinxit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>haec genera, ita etiam distinxit sub 
+          unoquo<lb break="no" ed="#P" n="57"/>que illorum plures species quasi ultimas.
+          <lb ed="#P" n="58"/>Quod si hae non sunt verae species morales
+          <lb ed="#P" n="59"/>distinctae in genere vitii et mali moralis, certe
+          <lb ed="#P" n="60"/>non est cur inter illa duo superiora capita
+          <lb ed="#P" n="61"/>distinctio propria et essentialis quasi 
+          specie<lb break="no" ed="#P" n="62"/>rum subalternarum intercedere credatur.
+          <lb ed="#P" n="63"/>Deinde sub genere superstitionis hujus, quae
+          <lb ed="#P" n="64"/>fit cum pacto expresso, non distinguuntur
+          <lb ed="#P" n="65"/>plures species formaliter diversae, sed tantum
+          <lb ed="#P" n="66"/>materialiter; ergo nec sub altero de pacto
+          <lb ed="#P" n="67"/>implicito ; nulla enim apparet sufficiens ratio
+          <lb ed="#P" n="68"/>differentiae. Denique non minus vanum et 
+          inu<lb break="no" ed="#P" n="69"/>tile est medium ad cognoscendam veritatem
+          <lb ed="#P" n="70"/>occultam, quod assumitur in augurio, quam
+          <lb ed="#P" n="71"/>quod sumitur in sortibus, et e converso; nec
+          <lb ed="#P" n="72"/>in ordine ad injuriam Dei multum videtur 
+          re<lb break="no" ed="#P" n="73"/>ferre, quod credatur daemoni loquenti per 
+          si<lb break="no" ed="#P" n="74"/>gnum factum ab homine, vel datum in 
+          dis<lb break="no" ed="#P" n="75"/>positione aliarum rerum; ergo haec 
+          materia<lb break="no" ed="#P" n="76"/>lis diversitas signorum non magis videtur 
+          suf<lb break="no" ed="#P" n="77"/>ficere ad specificam diversitatem malitiarum,
+          <lb ed="#P" n="78"/>quam multiplex alia varietas, quae in hoc 
+          ge<lb break="no" ed="#P" n="79"/>nere divinationum reperitur.
+        </p>
+        <p>
+          <lb ed="#P" n="80"/>3. Objectio.— Sed objici potest ex D. 
+          Tho<lb break="no" ed="#P" n="81"/>ma, quia haec signa assumuntur ut principia
+          <lb ed="#P" n="82"/>cognoscendi ; diversitas autem principiorum
+          <lb ed="#P" n="83"/>diversificat speciem etiam in scientiis 
+          de<lb break="no" ed="#P" n="84"/>monstrativis ; ergo et hic. At haec ratio non
+          <lb ed="#P" n="85"/>minus probat de omnibus speciebus horum
+          <lb ed="#P" n="86"/>signorum in particulari, quam de illis duabus
+          <lb ed="#P" n="87"/>generalibus auguriorum et sortium. Deinde in
+          <lb ed="#P" n="88"/>neutris ostendit diversitatem formalem in 
+          ge<lb break="no" ed="#P" n="89"/>nere vitii moralis, sed ad summum in genere
+          <lb ed="#P" n="90"/>cognitionis ; et praeterea etiam in cognitione,
+          <lb ed="#P" n="91"/>licet ostendat diversitatem quoad 
+          apprehen<lb break="no" ed="#P" n="92"/>sionem, non vero quoad judicium de re 
+          signi<lb break="no" ed="#P" n="93"/>ficata, si detur. Ut licet Deus revelet veritatem
+          <lb ed="#P" n="94"/>occultam per varia signa verborum, 
+          scriptu<lb break="no" ed="#P" n="95"/>rarum, velrerum, vel actionum humanarum,
+          <lb ed="#P" n="96"/>qualia in Prophetis inveniuntur, nihilominus
+          <lb ed="#P" n="97"/>assensus, qui ejus testimonio datur, ejusdem
+          <lb ed="#P" n="98"/>speciei est; ita ergo credere daemoni danti
+          <lb ed="#P" n="99"/>signum, ejusdem rationis est, licet signum sit
+          <lb ed="#P" n="100"/>materialiter diversum. Et ob eamdem causam,
+          <lb ed="#P" n="101"/>uti signo in daemonis auctoritate fundato,
+          <lb ed="#P" n="102"/>tanquam utili ad cognoscendam veritatem,
+          <lb ed="#P" n="103"/>pactum implicitum continet ejusdem rationis,
+          <lb ed="#P" n="104"/>etiamsi signa sint materiahter diversa. Unde
+          <lb ed="#P" n="105"/>Augustinus, lib. 2 de Doct. Christ., cap. 23 et
+          <lb ed="#P" n="106"/>24. postquam omnia dicta signa numeravit,
+          <lb ed="#P" n="107"/>concludit : Que omnia tantum valent, 
+          quan<lb break="no" ed="#P" n="108"/>tum prosunptione animorun, quasi conmuni
+          <lb ed="#P" n="109"/>quadam lingua, cum damonibus faederata sunt.
+          <lb ed="#P" n="110"/>Omnia ergo habent linguam ejusdem rationis
+          <pb ed="#P" n="519"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in ratione mali, et in fallacia loquentis per
+          <lb ed="#P" n="2"/>illa, licet materialiter varia sint.
+        </p>
+        <p>
+          <lb ed="#P" n="3"/>4. Utrum sufficienter dividatur divinatio in
+          <lb ed="#P" n="4"/>augurium et sortilegium. —Ratio dubii. —
+          Ter<lb break="no" ed="#P" n="5"/>tium dubium esse potest circa hanc eamdem 
+          di<lb break="no" ed="#P" n="6"/>visionem bimembrem divinationis cum: tacito
+          <lb ed="#P" n="7"/>pacto, in augurium et sortilegium, an sit 
+          suffi<lb break="no" ed="#P" n="8"/>ciens. Ratio autem dubitandi est, quia praeter
+          <lb ed="#P" n="9"/>illos modos invenitur alius praesagiendi futura
+          <lb ed="#P" n="10"/>ex signis aliquibus occurrentibus, qui vanus
+          <lb ed="#P" n="11"/>est et superstitiosus sine expresso pacto, et
+          <lb ed="#P" n="12"/>ad neutrum illorum pertinet. Assumptum
+          <lb ed="#P" n="13"/>patet in illa, quae dicitur vana observantia
+          <lb ed="#P" n="14"/>eventuum ad actiones proprias moderandas,
+          <lb ed="#P" n="15"/>vel timendos vel sperandos futuros successus,
+          <lb ed="#P" n="16"/>ad quos tales eventus nihil conducunt. Hujus
+          <lb ed="#P" n="17"/>vanitatis multa exempla ponit Augustinus,
+          <lb ed="#P" n="18"/>lib. 2 de Doct. Christ., cap. 20: S; membrum
+          <lb ed="#P" n="19"/>( inquit ) aliqued salierit, sà junctàm 
+          ambulan<lb break="no" ed="#P" n="20"/>tibus amicis, lapis, aut canis, aut puer medius
+          <lb ed="#P" n="21"/>intervenerit. Et infra : Limen calcare, cum ante
+          <lb ed="#P" n="22"/>domum suam transit ; redire ad lectum, si quis,
+          <lb ed="#P" n="23"/>dum se calciat, sternutaverit ; redire domum,
+          <lb ed="#P" n="24"/>si procedens offenderit. In omnibus enim his
+          <lb ed="#P" n="25"/>invenitur quidam modus opinandi de futuris
+          <lb ed="#P" n="26"/>ex signis inutilibus, qui pertinet formahter
+          <lb ed="#P" n="27"/>ad generalem rationem divinationis, ut ex
+          <lb ed="#P" n="28"/>ejus declarationibus conustat. Quod autem sub
+          <lb ed="#P" n="29"/>ils duobus membris non comprehendatur,
+          <lb ed="#P" n="30"/>patet, quia non fit per inspectionem effectuum
+          <lb ed="#P" n="31"/>provenientium ex dispositione rerum 
+          natura<lb break="no" ed="#P" n="32"/>lium, neg ex humanis actionibus ad eum finem
+          <lb ed="#P" n="33"/>factis. Potest vero aliquis respondere, illa
+          <lb ed="#P" n="34"/>omnia non pertinere ad divinationem, quia
+          <lb ed="#P" n="35"/>divinatio fit quasi ex instituto, dum homo
+          <lb ed="#P" n="36"/>quaerit signa unde divinet, quod in illis 
+          ob<lb break="no" ed="#P" n="37"/>servantiis non Bt, sed casu signa eveniunt.
+          <lb ed="#P" n="38"/>Et praeterea divinatio ordinatur ad 
+          cognitio<lb break="no" ed="#P" n="39"/>nem, illae autem observantiae potius ad 
+          diri<lb break="no" ed="#P" n="40"/>gendas operationes referuntur. Unde D. 
+          Tho<lb break="no" ed="#P" n="41"/>mas, in tota q. 95, illarum non meminit, scd
+          <lb ed="#P" n="42"/>eis peculiarem? locum; tribuit in q. 96, a. 3.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>5. Commemoratas observationum vanitates
+          <lb ed="#P" n="44"/>reduci ad divinationem. —Nihilominus assero
+          <lb ed="#P" n="45"/>ilias omnes vanitates ad divinationemireduci.
+          <lb ed="#P" n="46"/>Ita sensit D. Thomas in dicto articulo. Et
+          <lb ed="#P" n="47"/>optimam reddit rationem, quia illi eventus
+          <lb ed="#P" n="48"/>solum observantur ut signa, cum tamen 
+          ne<lb break="no" ed="#P" n="49"/>que ex natura rei, neque ex divina 
+          impo<lb break="no" ed="#P" n="50"/>sitione significent ; ergo ex daemonis 
+          in<lb break="no" ed="#P" n="51"/>dustria ; ergo omnis credulitas , quae illis
+          <lb ed="#P" n="52"/>datur , accipitur ut divinatio dammonis. Et
+          <lb ed="#P" n="53"/>ideo nihil refert quod talia signa non sint
+          <lb ed="#P" n="54"/>quaesita , et casu oblata ; tum quia satis
+          <lb ed="#P" n="55"/>est quod voluntarie acceptentur et credantur;
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tum etiam quia ilicet praesens eventus casu
+          <lb ed="#P" n="57"/>accidat, tamen ars divinandi ex illo instituto
+          <lb ed="#P" n="58"/>quaesita et comparata supponitur. Neque item
+          <lb ed="#P" n="59"/>refert quod talis observatio ordinetur ad 
+          diri<lb break="no" ed="#P" n="60"/>gendas actiones; tum quia inde solum fit, ut
+          <lb ed="#P" n="61"/>cognitio illa sit practica, non tamen quod
+          <lb ed="#P" n="62"/>non sit cognitio, quod satis est ad 
+          divinatio<lb break="no" ed="#P" n="63"/>nem, si per vana fiat de occultis; tum etiam
+          <lb ed="#P" n="64"/>quia illa ordinatio solum est ex parte 
+          scien<lb break="no" ed="#P" n="65"/>tis seu addiscentis; hoc autem modo vix est
+          <lb ed="#P" n="66"/>ulla divinatio,quae non ordinetur ad actionem.
+          <lb ed="#P" n="67"/>Addit vero D. Thomas supra, hanc 
+          divinatio<lb break="no" ed="#P" n="68"/>nem reduci ad illam, quae fit per astra, quod
+          <lb ed="#P" n="69"/>maxime verum est de omni vana observatione
+          <lb ed="#P" n="70"/>dierum hebdomadae, mensis aut auni, 
+          repu<lb break="no" ed="#P" n="71"/>tando quosdam faustos dies, alios infaustos
+          <lb ed="#P" n="72"/>ad aliquas actiones, sine ullo fundamento,
+          <lb ed="#P" n="73"/>quia ex astris sumitur varietas dierum. At
+          <lb ed="#P" n="74"/>vero alia omnia, in quibus observantur 
+          for<lb break="no" ed="#P" n="75"/>tuiti eventus, sub omine continentur. Unde
+          <lb ed="#P" n="76"/>Chrysostomus, homil. 21 ad Populum, circa
+          <lb ed="#P" n="77"/>tinem: Zt quid tandem (inquit) sunt omnia?
+          <lb ed="#P" n="78"/>seepe domum quis suam egressus, hominem vidit
+          <lb ed="#P" n="79"/>wunoculum, vel claudicantem, et ominatus est;
+          <lb ed="#P" n="80"/>et infra : S$ virgini occurreris, sterilis dies
+          <lb ed="#P" n="81"/>erit ; sà vero meretrici, dextera, et bona, et
+          <lb ed="#P" n="82"/>multa mercatione -plena. Unde etiam potest
+          <lb ed="#P" n="83"/>haec divinatio vocari augurium lato modo,
+          <lb ed="#P" n="84"/>quia ex motu, situ, aut aspectu alterius rei
+          <lb ed="#P" n="85"/>occurentis fit; et quod casu occurrat, vel ex
+          <lb ed="#P" n="86"/>industria quaeratur, est impertinens ad 
+          ratio<lb break="no" ed="#P" n="87"/>nem signi ex consortio daemonis habentis 
+          au<lb break="no" ed="#P" n="88"/>ctoritatem, ut dixi.
+        </p>
+        <p>
+          <lb ed="#P" n="89"/>6. In iis observationibus idem genus peccati
+          <lb ed="#P" n="90"/>est. — Veniale peccatum solum in his sepec
+          <lb ed="#P" n="91"/>datur. — Est ergo in hac vana observantia
+          <lb ed="#P" n="92"/>idem genus peccati, ac subinde ex suo 
+          ge<lb break="no" ed="#P" n="93"/>ncre eamdem habet gravitatem , licet ex
+          <lb ed="#P" n="94"/>ignorantia possit esse veniale. Imo 
+          Cajeta<lb break="no" ed="#P" n="95"/>nus, d. art. 3, et in Sum., verb. Superstitio
+          <lb ed="#P" n="96"/>observationum, censet, ordinarie esse veniale,
+          <lb ed="#P" n="97"/>quia ex quadam simplicitate fit absque 
+          prae<lb break="no" ed="#P" n="98"/>sumptione mali, aut pacti cum daemone. Imo
+          <lb ed="#P" n="99"/>addit posse fieri siue ullo peccato, quando ex
+          <lb ed="#P" n="100"/>piaesenti occursu concipitur suspicio alterius
+          <lb ed="#P" n="101"/>mali eventus ex causa utrique communi. Sed
+          <lb ed="#P" n="102"/>hoc posterius tunc habet locum, quando illa
+          <lb ed="#P" n="103"/>conjunctio in communi causa potest in aliqua
+          <lb ed="#P" n="104"/>probabili ratione fundari, juxta doctrinam
+          <lb ed="#P" n="105"/>superius datam, alioquin nulla est ratio 
+          excu<lb break="no" ed="#P" n="106"/>sationis. Deinde fier1 potest ut aliquis non
+          <lb ed="#P" n="107"/>praebeat definitum assensum de futuro effectu
+          <lb ed="#P" n="108"/>ominato, sed solum quod ex vano quodam
+          <lb ed="#P" n="109"/>timore concepto, vel alia simili levi 
+          volun<lb break="no" ed="#P" n="110"/>tate, cesset ab actione, vel aliam inchoet, etc.
+          <pb ed="#P" n="520"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Et tunc facile potest credi, solum committi
+          <lb ed="#P" n="2"/>culpam venialem, per se loquendo, et secluso
+          <lb ed="#P" n="3"/>scandalo, alisque circumstantiis. At si quis
+          <lb ed="#P" n="4"/>definite credat futurum tristem eventum,
+          <lb ed="#P" n="5"/>quem praesagit, solum propter vanam 
+          obser<lb break="no" ed="#P" n="6"/>vationem, non possumus peccatum illud a
+          <lb ed="#P" n="7"/>malitia gravi excusare, nisi maxima sit 
+          igno<lb break="no" ed="#P" n="8"/>rantia et ruditas personae.
+        </p>
+        <p>
+          <lb ed="#P" n="9"/>7. An hae omnes species sine prohibitione
+          <lb ed="#P" n="10"/>etiam sint malae intrinsece. — Ratio dubitandi.
+          <lb ed="#P" n="11"/>— Ultimo vero dubitari potest, an omnes 
+          spe<lb break="no" ed="#P" n="12"/>cies numeratae in hoc genere divinationis,
+          <lb ed="#P" n="13"/>quae sine pacto expresso fit. sint ita intrinsece
+          <lb ed="#P" n="14"/>malae, ut, seclusa etiam positiva prohibitione
+          <lb ed="#P" n="15"/>Dei vel Ecclesia, honestari non possint. Et
+          <lb ed="#P" n="16"/>ratio dubitandi esse potest, auia in Scriptura
+          <lb ed="#P" n="17"/>videntur saepe nonnullae istarum 
+          divinatio<lb break="no" ed="#P" n="18"/>num approbatae , ut cum servus Abrahae,
+          <lb ed="#P" n="19"/>Gen. 24, dixit: Puella, cu ego dicero : 
+          Incli<lb break="no" ed="#P" n="20"/>na hydriam tuam, ut libum, et illa 
+          respon<lb break="no" ed="#P" n="21"/>derit : Dibe, domine, quin et camelis tuis 
+          po<lb break="no" ed="#P" n="22"/>Uum tribuam , ipsa est quam preeparasti servo
+          <lb ed="#P" n="23"/>tuo Isaac, plane ominatus est ; unde inferius
+          <lb ed="#P" n="24"/>subditur : /pse autem contemplabatur eam 
+          ta<lb break="no" ed="#P" n="25"/>citus, scire colens utrum prosperum fecisset
+          <lb ed="#P" n="26"/>Dominus iter suum, an non. Ecce 
+          observatio<lb break="no" ed="#P" n="27"/>nem ad omen vel augurium pertinentem, et
+          <lb ed="#P" n="28"/>tamen non fuit mala, sed potius a Deo per
+          <lb ed="#P" n="29"/>ipsum effectum approbata. Similiter 
+          Jona<lb break="no" ed="#P" n="30"/>thas, 1 Reg. 14, pergens contra inimicos cum
+          <lb ed="#P" n="31"/>armigero suo, conditionem posuit : S$ 
+          dime<lb break="no" ed="#P" n="32"/>rint : Manete, etc., stemus; si autem diaerint
+          <lb ed="#P" n="33"/>Ascendite, ascendumus, quia tradidit illos 
+          Do<lb break="no" ed="#P" n="34"/>minus in manius nostris ; quae verba plane
+          <lb ed="#P" n="35"/>sunt ominativa. Similiaque sunt quae dixit
+          <lb ed="#P" n="36"/>David ad Jonatham, 1 heg. 20: Si diserit
+          <lb ed="#P" n="37"/>Bene, paa erit servo tuo ; si autem fuerit 
+          ira<lb break="no" ed="#P" n="38"/>tus, scito quia completa est malitia ejus. Ecce
+          <lb ed="#P" n="39"/>praedictionem occulti effectus ex signo valde
+          <lb ed="#P" n="40"/>incerto, in quo nulla connexio, vel ratio 
+          cau<lb break="no" ed="#P" n="41"/>sa, vel effectus reperitur. Praeterea est 
+          mani<lb break="no" ed="#P" n="42"/>festum exemplum 1 Reg. 6, ubi sacerdotes et
+          <lb ed="#P" n="43"/>divini Philistinorum dederunt signum de Arca
+          <lb ed="#P" n="44"/>Domini: Sà per ciam finium suorum ascenderit
+          <lb ed="#P" n="45"/>contra Bethsames , ipse fecit nolis hoc malum
+          <lb ed="#P" n="46"/>grande ; sin autem minime, sciemus quia 
+          ne<lb break="no" ed="#P" n="47"/>quaquam, etc. Quod signum ex se nullius 
+          mo<lb break="no" ed="#P" n="48"/>menti videri poterat , et tamen divina 
+          provi<lb break="no" ed="#P" n="49"/>dentia illud probasse videtur. Praeterea 
+          Jo<lb break="no" ed="#P" n="50"/>seph erat vir sanctus, et tamen auguriis et
+          <lb ed="#P" n="51"/>augurandi scientia usum fuisse, testantur ipse
+          <lb ed="#P" n="52"/>et dispensator ejus, Genes. 44. Denique aliqui
+          <lb ed="#P" n="53"/>utuntur loco Job 37: Qui in manu omnium
+          <lb ed="#P" n="54"/>hbonimm signat , ut singuli noverint opera
+          <lb ed="#P" n="55"/>su« ; referuntque illa verba ad lineamenta
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>manuum, ut inde suadeant non esse per se
+          <lb ed="#P" n="57"/>malum, ex lineis et signis manuum futura 
+          di<lb break="no" ed="#P" n="58"/>vinare. Est autem eadem ratio de similibus.
+        </p>
+        <p>
+          <lb ed="#P" n="59"/>8. Error Rabbi kimhi. — Divinationes has
+          <lb ed="#P" n="60"/>omnes esse intrinsece malas. — Circa hoc 
+          no<lb break="no" ed="#P" n="61"/>tari potest quidam error Rabbi David Kimhi,
+          <lb ed="#P" n="62"/>quem refert Abul., 1 Reg. 14, quaest. 4, qui
+          <lb ed="#P" n="63"/>dixit, auguria, quae observantur iu 
+          animal<lb break="no" ed="#P" n="64"/>bus et aliis similibus, esse semper illicita;
+          <lb ed="#P" n="65"/>omnia vero quae sumuntur ex verbis 
+          huma<lb break="no" ed="#P" n="66"/>nis, non semper esse illicita; movebaturque
+          <lb ed="#P" n="67"/>ex nonnullis testimoniis adductis; rationem
+          <lb ed="#P" n="68"/>vero differentiae non assignabat. Sed haec
+          <lb ed="#P" n="69"/>sententia falsa et erronea est, ut ibi late Abul.
+          <lb ed="#P" n="70"/>ostendit : quia in universum damnantur et
+          <lb ed="#P" n="71"/>prohibentur omnia talia omina in Scriptura,
+          <lb ed="#P" n="72"/>nec est ulla probabilis ratio illa excipiendi.
+          <lb ed="#P" n="73"/>Item quia in eis est eadem ratio maltiae, quia
+          <lb ed="#P" n="74"/>non minus sunt signa incerta et vana, et ita
+          <lb ed="#P" n="75"/>aque damnantur a Patribus tanquam 
+          perti<lb break="no" ed="#P" n="76"/>nentia ad reliquias idololatriee. Quocirca 
+          ge<lb break="no" ed="#P" n="77"/>neraliter dicendum est, hoc genus 
+          divinatio<lb break="no" ed="#P" n="78"/>uis intrinsece malum esse, nunquamque 
+          ho<lb break="no" ed="#P" n="79"/>nestari posse, si rationem divinationis a uobis
+          <lb ed="#P" n="80"/>explicatam retineat. Haec sententia sumitur
+          <lb ed="#P" n="81"/>ex D. Thoma, dicta quaest. 95, art. 2 et 3,
+          <lb ed="#P" n="82"/>quam fusius quam caeteri explicuit Cajetanus
+          <lb ed="#P" n="83"/>in art. 2, docens hoc vitium esse prohibitum
+          <lb ed="#P" n="84"/>quia malum, et non e converso, quem omnes
+          <lb ed="#P" n="85"/>sequuntur; et rationibus supra factis, quibus
+          <lb ed="#P" n="86"/>malitia hujus vitii explicata est, hoc satis
+          <lb ed="#P" n="87"/>convincitur. Et consequenter idem sprobant
+          <lb ed="#P" n="88"/>testimonia Patrum relata 26, quaest. 1 et 
+          se<lb break="no" ed="#P" n="89"/>quentibus. Si ergo hoc vitium prohibetur
+          <lb ed="#P" n="90"/>quia malum , aperte sequitur esse intrinsece
+          <lb ed="#P" n="91"/>malum , quia non aliunde quam ex propria
+          <lb ed="#P" n="92"/>materia et conditione deformitatem habet.
+          <lb ed="#P" n="93"/>Quapropter quotiescumque aliqua actio 
+          ma<lb break="no" ed="#P" n="94"/>terialiter similis (ut ita dicam) videtur 
+          con<lb break="no" ed="#P" n="95"/>cessa seu approbata , signum est non fuisse
+          <lb ed="#P" n="96"/>usurpatam cum conditionibus requisitis ad
+          <lb ed="#P" n="97"/>propriam divinationem, ac subinde nullum
+          <lb ed="#P" n="98"/>pactum implicitum cum daemone inclusisse.
+          <lb ed="#P" n="99"/>Duas autem conditiones necessarias supra
+          <lb ed="#P" n="100"/>posuimus. Prima erat, ut non observetur 
+          ef<lb break="no" ed="#P" n="101"/>fectus, vel causa, ut revera talis est, sed 
+          tan<lb break="no" ed="#P" n="102"/>tum sub ratione signi. Secunda , ut non 
+          ob<lb break="no" ed="#P" n="103"/>servetur tanquam signum a Deo acceptum,
+          <lb ed="#P" n="104"/>seu inspiratum. Ubi ergo ista duo concurrunt,
+          <lb ed="#P" n="105"/>semper reprehenditur divinatio; e converso
+          <lb ed="#P" n="106"/>autem, ubi approbari videtur, aliqua illarum
+          <lb ed="#P" n="107"/>conditionum deest.
+        </p>
+        <p>
+          <lb ed="#P" n="108"/>9. Solvitur exemplum servi Abrahe. — In
+          <lb ed="#P" n="109"/>prima igitur quasi divinatione et verbis servi
+          <lb ed="#P" n="110"/>Abrahae utraque conditio deesse potuit. Nam
+          <pb ed="#P" n="521"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>imprimis verisimile est, illa verba protulisse
+          <lb ed="#P" n="2"/>eculiari instinctu Spiritus Sancti, a quo in
+          <lb ed="#P" n="3"/>illo negotio gubernabatur, et non videtur 
+          du<lb break="no" ed="#P" n="4"/>bium quin ex magna fiducia in Deum illa
+          <lb ed="#P" n="5"/>verba protulerit , sperans peculiare 
+          patroci<lb break="no" ed="#P" n="6"/>nium ejus ad eligendam sponsam futuram
+          <lb ed="#P" n="7"/>Isaac. Et hoc significavit D. Thom., d. q. 95,
+          <lb ed="#P" n="8"/>art. 7, ad 3, dum dixit, Eliezer attendisse
+          <lb ed="#P" n="9"/>verba puelle, oratione premissa ad Deumn. De
+          <lb ed="#P" n="10"/>qua oratione bis fit expressa mentio in d.
+          <lb ed="#P" n="11"/>c. 94 Gen. Et idem sensit Augustinus, lib. 1
+          <lb ed="#P" n="12"/>Quaest. in Genes., quaest. 63, dicens aliud
+          <lb ed="#P" n="13"/>esse, mirum aliquid petere quod ipso 
+          mira<lb break="no" ed="#P" n="14"/>culo signum sit, aliud haec observare quae ita
+          <lb ed="#P" n="15"/>fiunt , ut mira non sint, sed a conjectoribus
+          <lb ed="#P" n="16"/>superstitiosa vanitate interpretentur. Hoc ergo
+          <lb ed="#P" n="17"/>posterius ait pertinere ad auguria, primum
+          <lb ed="#P" n="18"/>vero minime , et tale dicit fuisse factum
+          <lb ed="#P" n="19"/>Eliezer. De quo subjungit magis posse 
+          dubi<lb break="no" ed="#P" n="20"/>tari, an reprehendi potuerit quia tentaret
+          <lb ed="#P" n="21"/>Deum, quam quod augurari videretur ; ait
+          <lb ed="#P" n="22"/>tamen nec tentationem Dei illam fuisse, sed
+          <lb ed="#P" n="23"/>consultationem et sanctam petitionem ex 
+          ins<lb break="no" ed="#P" n="24"/>tinctu ipsius Dei, qui idcirco orationem 
+          ec<lb break="no" ed="#P" n="25"/>ceptavit, et omnia complevit, sicut servus 
+          pe<lb break="no" ed="#P" n="26"/>tierat, ut ait Chrysostomus, hom. 48 in Gen,,
+          <lb ed="#P" n="27"/>qui etiam significat potuisse Eliezer accipere
+          <lb ed="#P" n="28"/>signum illud, ut conjecturam probabilem
+          <lb ed="#P" n="29"/>candoris et probitatis animae illius virginis:
+          <lb ed="#P" n="30"/>Quia scivit (imquit) Patriarche 
+          hospntalita<lb break="no" ed="#P" n="31"/>Lem , et quia virginem inde ducendam 
+          congrue<lb break="no" ed="#P" n="32"/>bat iisdem esse moribus praditam, quibus 
+          jus<lb break="no" ed="#P" n="33"/>tus nullam aliam conjecturam inquirit , sed
+          <lb ed="#P" n="34"/>characterem virginitatis animi hosptalitate
+          <lb ed="#P" n="35"/>colligere vult, et inquit : Cui divero, etc.. Non
+          <lb ed="#P" n="36"/>solum faciet quod petivi, sed et candorem, ac 
+          li<lb break="no" ed="#P" n="37"/>beraditatem mentis sue declarabit, morum 
+          suo<lb break="no" ed="#P" n="38"/>rum mititatem satis ex aque praelitione 
+          osten<lb break="no" ed="#P" n="39"/>dendo. Erat ergo signum illud per se ctiam
+          <lb ed="#P" n="40"/>aptum ad prudentem faciendam ex illo 
+          con<lb break="no" ed="#P" n="41"/>jecturam, tanquam ex effectu optimae indolis,
+          <lb ed="#P" n="42"/>et virtutis non vulgaris. Possumus vero 
+          utrum<lb break="no" ed="#P" n="43"/>que conjungere ex Abul. ibi, nam Ehezer et
+          <lb ed="#P" n="44"/>a Deo inspiratus hoc signum petivit, et tale
+          <lb ed="#P" n="45"/>signum petit, in quo magna bonitas 
+          osten<lb break="no" ed="#P" n="46"/>deretur: Ad quam nulla virgo inclinaretur,
+          <lb ed="#P" n="47"/>nisi eam Deus specialiter inclinasset.
+        </p>
+        <p>
+          <lb ed="#P" n="48"/>10. Enodatur secundum de conditione posita
+          <lb ed="#P" n="49"/>a Jonatha.—Ad 2 de conditione posita a 
+          Jo<lb break="no" ed="#P" n="50"/>natha cum armigero suo, late respondet
+          <lb ed="#P" n="51"/>Abulensis supra, dicta quaest. 4. Et in Summa
+          <lb ed="#P" n="52"/>dicit primo, affirmandum non esse nec 
+          cre<lb break="no" ed="#P" n="53"/>dendum, Jonatham in eo facto peccasse;
+          <lb ed="#P" n="54"/>tum quia nec in Scriptura nec a Patribus
+          <lb ed="#P" n="55"/>reprehenditur ; tum quia Deus approbasse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>videtur intentionem et actum ejus, victoriam
+          <lb ed="#P" n="57"/>il praebendo, etiam miraculoso modo. 
+          Se<lb break="no" ed="#P" n="58"/>cundo, sentit eodem modo esse excusandum
+          <lb ed="#P" n="59"/>factum illud, quo proxime tractatum de 
+          Elie<lb break="no" ed="#P" n="60"/>zer. Et sane, quod Jonathas non commiserit
+          <lb ed="#P" n="61"/>omen vel augurium superstitiosum contra
+          <lb ed="#P" n="62"/>Deum, constat, quia non a daemone, sed a
+          <lb ed="#P" n="63"/>Deo expectabat victoriam, ut patet ex illis
+          <lb ed="#P" n="64"/>verbis : Non est Domino difficile salvare, vel
+          <lb ed="#P" n="65"/>in multis vel in paucis. Ab eodem igitur 
+          spe<lb break="no" ed="#P" n="66"/>rabat instrui, mediante illo signo; sic enim
+          <lb ed="#P" n="67"/>concludit : Ascendamus, quia traddit eos 
+          Do<lb break="no" ed="#P" n="68"/>aninus in maniblus nostris, hoc erit nobis sigmwm.
+          <lb ed="#P" n="69"/>Si ergo excessus aliquis potuit esse in 
+          Jona<lb break="no" ed="#P" n="70"/>tha, magis pertinebit ad tentationem Dei
+          <lb ed="#P" n="71"/>quam ad superstitionem. Ab hac autem etiam
+          <lb ed="#P" n="72"/>excusatur , quia credendum est id fecisse
+          <lb ed="#P" n="73"/>divino instinctu, et inspiratione, et praemissa
+          <lb ed="#P" n="74"/>oratione ad Deum, quamvis hoc expresse in
+          <lb ed="#P" n="75"/>Scriptura non referatur.
+        </p>
+        <p>
+          <lb ed="#P" n="76"/>11. Faplicatur tertium de verbis David, et
+          <lb ed="#P" n="77"/>quartum de signo dato a sacerdotibus 
+          Phlis<lb break="no" ed="#P" n="78"/>tinorum. — Idem dici posset de verbis David;
+          <lb ed="#P" n="79"/>tamen ex alio capite intelligimus illud non
+          <lb ed="#P" n="80"/>fuisse omen, sed humanam conjecturam 
+          pru<lb break="no" ed="#P" n="81"/>dentem et probabiiem; quia ex vultu et 
+          ver<lb break="no" ed="#P" n="82"/>bis alicujus conjectari potest affectus odii,
+          <lb ed="#P" n="83"/>aut pravi animi; tale autem fuit signum a
+          <lb ed="#P" n="84"/>David datum, ut bene ibi exponit Abul., q.
+          <lb ed="#P" n="85"/>13. De signo autem dato a sacerdotibus 
+          Phi<lb break="no" ed="#P" n="86"/>listinorum, Abulensis, 1 Reg. 6, 18, ait eos
+          <lb ed="#P" n="87"/>non peccasse in eo facto, tentando Deum.
+          <lb ed="#P" n="88"/>quia non agnoscebant Deum Israel esse 
+          ve<lb break="no" ed="#P" n="89"/>rum Deum ; non tamen explicat an 
+          peccave<lb break="no" ed="#P" n="90"/>rint ominando, et utendo quodam signo de se
+          <lb ed="#P" n="91"/>incertissimo, cujus nullam probabilem 
+          ratio<lb break="no" ed="#P" n="92"/>nem habere potuerunt. Maxime quia 
+          po<lb break="no" ed="#P" n="93"/>tuit Deus nulla special providentia dirigere
+          <lb ed="#P" n="94"/>vaccas, et accidere, ut per aliam viam irent,
+          <lb ed="#P" n="95"/>et falsum tunc esset signum; item quia nulla
+          <lb ed="#P" n="96"/>erat connexio inter signum illud, et rem ad
+          <lb ed="#P" n="97"/>quam significandam assumebatur : possent
+          <lb ed="#P" n="98"/>enim ire vaccae per viam Bethsames, etiamsi
+          <lb ed="#P" n="99"/>per impossibile Deus non fecisset illis 
+          nocu<lb break="no" ed="#P" n="100"/>mentum illud.Nihil ergo obstat quin dicamus,
+          <lb ed="#P" n="101"/>sacerdotes illos in eo peccasse, et ductos
+          <lb ed="#P" n="102"/>fuisse sua consuetudine augurandi, et 
+          con<lb break="no" ed="#P" n="103"/>sultandi etiam daemones ; Deum autem usum
+          <lb ed="#P" n="104"/>fuisse malitia eorum, et speciali providentia
+          <lb ed="#P" n="105"/>voluisse, ut vaccae irent recta via, ad 
+          confu<lb break="no" ed="#P" n="106"/>sionem infidelium, et honorem acreverentiam
+          <lb ed="#P" n="107"/>suae arcae conciliandum etiam ab hostibus.
+          <lb ed="#P" n="108"/>Nec etiam est cur excusentur a peccato 
+          ten<lb break="no" ed="#P" n="109"/>tandi Deum ; nam, licet non crederent, in hoc
+          <lb ed="#P" n="110"/>ipso peccabant, et habebant alia media quibus
+          <pb ed="#P" n="522"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sufficienter agnoscere poterant virtutem 
+          di<lb break="no" ed="#P" n="2"/>vinam ibi intercessisse; unde sine dubio 
+          pec<lb break="no" ed="#P" n="3"/>cabant, novum signum quaerendo.
+        </p>
+        <p>
+          <lb ed="#P" n="4"/>12. Joseph nunquam usus fuit hac arte. —
+          <lb ed="#P" n="5"/>Circa verba Joseph, et servi ejus, omnes 
+          ex<lb break="no" ed="#P" n="6"/>positores pro certo supponunt, Josephum
+          <lb ed="#P" n="7"/>nunquam fuisse usum hujusmodi arte, quia
+          <lb ed="#P" n="8"/>iniqua et intrinsece mala est, et quia ipse,
+          <lb ed="#P" n="9"/>cum interpretabatur somnia, spiritu divino
+          <lb ed="#P" n="10"/>id faciebat, idque suis verbis profitebatur,
+          <lb ed="#P" n="11"/>Gen. 40: Numquid non Dei est interpretatio?
+          <lb ed="#P" n="12"/>etc. 41: Absque me Deus respondebit prospera
+          <lb ed="#P" n="13"/>Pharaoni. Quocirca, si verbum augurandi in
+          <lb ed="#P" n="14"/>proprio sensu intelligatur pro iniqua arte,
+          <lb ed="#P" n="15"/>tres sunt expositiones. Prima est, Josephum
+          <lb ed="#P" n="16"/>joco fuisse locutum ; ita Augustinus, lib.
+          <lb ed="#P" n="17"/>quaest. in Gen., quaest. 145, quem secutus
+          <lb ed="#P" n="18"/>est D. Thomas, dicta quaest. 95, art. 7, ad 1,
+          <lb ed="#P" n="19"/>et Magister Histor. in Gen. Secunda est,
+          <lb ed="#P" n="20"/>Josephum quidem serio id de se affirmasse,
+          <lb ed="#P" n="21"/>et falsum dixisse, ut fratres cogeret ad 
+          verita<lb break="no" ed="#P" n="22"/>tem dicendam, vel ut timorem incuteret, 
+          ideo<lb break="no" ed="#P" n="23"/>que a peccato mendacii non excusari; illud
+          <lb ed="#P" n="24"/>tamen officiosum fuisse, non noxium, et ideo
+          <lb ed="#P" n="25"/>excusari a mortali. Quia, licet videretur se
+          <lb ed="#P" n="26"/>graviter infamare, tamen fratres non illum
+          <lb ed="#P" n="27"/>agnoscebant, et putabant esse idololatram
+          <lb ed="#P" n="28"/>quemdam principem, et ita nihililli nocebat,
+          <lb ed="#P" n="29"/>quod etiam putarent esse augurem. Ita Abul.
+          <lb ed="#P" n="30"/>ibi. Tertia expositio est, non fuisse mentitum
+          <lb ed="#P" n="31"/>Joseph, sed amphibologia usum esse, 
+          inter<lb break="no" ed="#P" n="32"/>rogando : An ignoratis quod non sit similis
+          <lb ed="#P" n="33"/>mei in augurandi scientia? In quibus verbis
+          <lb ed="#P" n="34"/>multiplex est amphibologia : una, quia 
+          in<lb break="no" ed="#P" n="35"/>terrogans, non enunciat nec affirmat aliquid;
+          <lb ed="#P" n="36"/>nam, licet audientes possint illum sensum
+          <lb ed="#P" n="37"/>concipere, potest loquens illum non 
+          intende<lb break="no" ed="#P" n="38"/>re, sed suo jure uti ambigue loquendo, 
+          quic<lb break="no" ed="#P" n="39"/>quid Abulensis contra Joannem Gallensem
+          <lb ed="#P" n="40"/>obiiciat. Altera amphibologia esse potuit in
+          <lb ed="#P" n="41"/>pronomine nei, quia non id quod erat, sed
+          <lb ed="#P" n="42"/>id quod gerebat exterius, et esse putabatur ,
+          <lb ed="#P" n="43"/>significare voluit; unde non afhirmavit se
+          <lb ed="#P" n="44"/>esse augurem, sed eum, qui in illo gradu
+          <lb ed="#P" n="45"/>honoris et principatus esset collocatus, 
+          ti<lb break="no" ed="#P" n="46"/>mendum fuisse ut augurem. Ita fere Theod.,
+          <lb ed="#P" n="47"/>q. 104 in Gen. Denique in illo verbo, sit,
+          <lb ed="#P" n="48"/>potuit esse amphibologia; nam secundum
+          <lb ed="#P" n="49"/>veritatem, vel secundum vulgi opinionem
+          <lb ed="#P" n="50"/>accipi potuit, ut sensus a Joseph inventus
+          <lb ed="#P" n="51"/>fuerit: 4n ignoratis quod uullus reputatur, et
+          <lb ed="#P" n="52"/>estimatur similis mei, etc. Et hoc etiam 
+          signi<lb break="no" ed="#P" n="53"/>ficavit divus Thomas in praedicta solutione 
+          di<lb break="no" ed="#P" n="54"/>cens : Heferens forte hoc ad illud, quod vulgus
+          <lb ed="#P" n="55"/>de eo opinabatur,
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>13. Commodior expositio —Denique etiam
+          <lb ed="#P" n="57"/>in verbo augurandi, potuit esse 
+          amphibolo<lb break="no" ed="#P" n="58"/>gia, quee mihi maxime placet, et stabit 
+          sen<lb break="no" ed="#P" n="59"/>tentia, etiamsi affirmanter etserio accipiatur.
+          <lb ed="#P" n="60"/>Nam verbum augurandi late sumi solet, ut
+          <lb ed="#P" n="61"/>convertitur cumn verbo divinandi, ut 
+          indiffe<lb break="no" ed="#P" n="62"/>rens est ad praecognitionem futurorum, vel
+          <lb ed="#P" n="63"/>occultorum, sive pravam, sive honestam, ut
+          <lb ed="#P" n="64"/>ex Cicerone, Plinio et Aristotele ostendit 
+          Pe<lb break="no" ed="#P" n="65"/>rer., Gen. 44 disp. 1. Potuit ergo Joseph in hac
+          <lb ed="#P" n="66"/>significatione illo verbo uti, etiamsi sciret a
+          <lb ed="#P" n="67"/>fratribus in alia esse accipiendum, 
+          permit<lb break="no" ed="#P" n="68"/>tendo in hoc falli absque suo mendacio. Ita
+          <lb ed="#P" n="69"/>Rupert. ibi, quem Cajetanus sequitur, et 
+          Pe<lb break="no" ed="#P" n="70"/>rerius ibi, disp. 2. Qui recte advertit, uon 
+          di<lb break="no" ed="#P" n="71"/>xisse Joseph se habuisse scientiam augurandi
+          <lb ed="#P" n="72"/>in scypho, sic enim falsum dixisset, vel illud
+          <lb ed="#P" n="73"/>additum contraheret significationem verbi
+          <lb ed="#P" n="74"/>ad prava auguria, nam divina non fiebant in
+          <lb ed="#P" n="75"/>scypho. Quare servus quia ita locutus est, non
+          <lb ed="#P" n="76"/>potest hoc ultimo modo excusari, sed vel 
+          jux<lb break="no" ed="#P" n="77"/>ta Augustini expositionem, vel concedendo
+          <lb ed="#P" n="78"/>illum fuisse mentitum.
+        </p>
+        <p>
+          <lb ed="#P" n="79"/>14. Chiromantiam quamdam et naturalem
+          <lb ed="#P" n="80"/>et bonam, aliam vanam. — Ad ultimam 
+          objec<lb break="no" ed="#P" n="81"/>tionem, ex loco Job. 31, possumus imprimis
+          <lb ed="#P" n="82"/>respondere. duplicem esse chiromantiam :
+          <lb ed="#P" n="83"/>unam naturalem, quae pars est physiognomiae,
+          <lb ed="#P" n="84"/>aliam astronomicam et vanam. Prior non 
+          om<lb break="no" ed="#P" n="85"/>nino reprobanda est, si intra debitos limites
+          <lb ed="#P" n="86"/>se contineat, utendo signis quae sunt in 
+          ma<lb break="no" ed="#P" n="87"/>nu, tanquam effectibus ex quibus aliquo 
+          mo<lb break="no" ed="#P" n="88"/>do colligi potest corporis dispositio, et 
+          tempe<lb break="no" ed="#P" n="89"/>ramentum, cui solent animi inclinationes 
+          ac<lb break="no" ed="#P" n="90"/>commodari. Altera omnino vana et 
+          supersti<lb break="no" ed="#P" n="91"/>tiosa est, quia nullum habet fundamentum in
+          <lb ed="#P" n="92"/>natura, sed in figmentis judiciariae 
+          astrolo<lb break="no" ed="#P" n="93"/>giae, ut late ostendit Valles, c. 32 Sacrae 
+          phi<lb break="no" ed="#P" n="94"/>losophiae, et Martinus del Rio, lib. 4 disp.
+          <lb ed="#P" n="95"/>Mag., c. 3, quaest. 5. Igitur licet quispiam 
+          con<lb break="no" ed="#P" n="96"/>tentiose velit verba Job intelligere de lineis
+          <lb ed="#P" n="97"/>et dispositione manuum, de naturali 
+          chiro<lb break="no" ed="#P" n="98"/>mantia id exponere poterit ; nam ad alteram
+          <lb ed="#P" n="99"/>verba illa applicare, et vanum est, et sine
+          <lb ed="#P" n="100"/>fundamento, ac plane impium ; nam est 
+          doc<lb break="no" ed="#P" n="101"/>trinam vanam etsuperstitiosam Spiritui Sancto
+          <lb ed="#P" n="102"/>attribuere. Atque hoc in Summa late tradit
+          <lb ed="#P" n="103"/>Valles supra, et in fine addit mysticam 
+          expo<lb break="no" ed="#P" n="104"/>sitionem non contemnendam, nimirum, per
+          <lb ed="#P" n="105"/>ipsum manum et figuram manus, 
+          significa<lb break="no" ed="#P" n="106"/>tum esse homini, natum esse ad laborandum
+          <lb ed="#P" n="107"/>et ad Deum adorandum, etc.
+        </p>
+        <p>
+          <lb ed="#P" n="108"/>15. Mamuna pro facultate operandi sumi in
+          <lb ed="#P" n="109"/>Scriptura.— Nihil vero est quod nos cogat ad
+          <lb ed="#P" n="110"/>locum illum intelligendum de propria manu
+          <pb ed="#P" n="523"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>materiali, sed de potestate operandi; nam quia
+          <lb ed="#P" n="2"/>manus est organum organorum, pro facultate
+          <lb ed="#P" n="3"/>operandi solet in Scriptura sumi, juxta illud:
+          <lb ed="#P" n="4"/>In manu Domini omnes fines terre, et illud:
+          <lb ed="#P" n="5"/>Opera manuwnm ejus annunciat firmamentum,
+          <lb ed="#P" n="6"/>et similia. Soletque saepe significare liberam
+          <lb ed="#P" n="7"/>agendi potestatem, sicut paulo autea , c. 36,
+          <lb ed="#P" n="8"/>in eodem libro, de Deo dicitur : 7n manibus
+          <lb ed="#P" n="9"/>abscondit lucem, et precipit ei ut rursus 
+          adve<lb break="no" ed="#P" n="10"/>niat, id est, in sua libera potestate. De hac
+          <lb ed="#P" n="11"/>ergo exponuntur dicta verba in Commentar.
+          <lb ed="#P" n="12"/>Hieronymo attributis in eodem loco, ita ut
+          <lb ed="#P" n="13"/>sensus sit: Qui in manu hominum signat, id
+          <lb ed="#P" n="14"/>est, qui sui signum et characterem posuit in
+          <lb ed="#P" n="15"/>Iibera hominis potestate ad agendum, ut 
+          no<lb break="no" ed="#P" n="16"/>verint singuli opera sua, id est, ut 
+          unusquis<lb break="no" ed="#P" n="17"/>que attente judicet et discernat quid sibi 
+          agen<lb break="no" ed="#P" n="18"/>dum sit; vel, ut alia littera habet, ut noverit
+          <lb ed="#P" n="19"/>homo infirnitatem suam, qua usum etiam est
+          <lb ed="#P" n="20"/>Concilium Milevit., cap. 7, huic favens 
+          expo<lb break="no" ed="#P" n="21"/>sitioni. Quae certe plausibilis est, et si cum
+          <lb ed="#P" n="22"/>antecedentibus et sequentibus cohareret,
+          <lb ed="#P" n="23"/>non esset contemnenda. Verumtamen ibi 
+          lo<lb break="no" ed="#P" n="24"/>quebatur Eliu de mirabilibus operibus Dei, in
+          <lb ed="#P" n="25"/>temporum varietate, et in tonitruis variisque
+          <lb ed="#P" n="26"/>tempestatibus, quae in orbe fiunt, et tandem
+          <lb ed="#P" n="27"/>dixerat : Qui pracipit nivi ut descendat in 
+          ter<lb break="no" ed="#P" n="28"/>ram, et hyemis pluviis, et imbri fortitudinis
+          <lb ed="#P" n="29"/>suc ; et statim adjungit : Qui in manu 
+          om<lb break="no" ed="#P" n="30"/>nium hominuwm signat, id est, qui per has
+          <lb ed="#P" n="31"/>temporum varietates et injurias, homines
+          <lb ed="#P" n="32"/>saepe impedit, et quasi claudit manus eorum,
+          <lb ed="#P" n="33"/>ne laborare possint, ut noverint singuli opera
+          <lb ed="#P" n="34"/>sua, id est, ut curam habeant suorum 
+          ope<lb break="no" ed="#P" n="35"/>rum, nec opportunum tempus laborandi 
+          amit<lb break="no" ed="#P" n="36"/>tant, cum tam facile, mutata coeli dispositione,
+          <lb ed="#P" n="37"/>impediri possint. Et huic sensui consonant
+          <lb ed="#P" n="38"/>sequentia verba : Ingredietur bestia latibulum,
+          <lb ed="#P" n="39"/>utique coacta eadem coeli intemperie : Zt in
+          <lb ed="#P" n="40"/>antro suo morabitur, quasi ibi signata, et
+          <lb ed="#P" n="41"/>clausa, ne cibum quaerere, nedum operari
+          <lb ed="#P" n="42"/>possit. Hoc ergo ipsum cum proportione est,
+          <lb ed="#P" n="43"/>quod de hominibus dixerat, et verbum signare
+          <lb ed="#P" n="44"/>non sumitur, ut est idem quod signo indicare,
+          <lb ed="#P" n="45"/>sed ut est idem quod obsignare et claudere,
+          <lb ed="#P" n="46"/>ut est usitatum in Scriptura, prout late 
+          osten<lb break="no" ed="#P" n="47"/>dit Pineda supra, qui erudite locum hunc in
+          <lb ed="#P" n="48"/>hanc sententiam explicat, quam expositionem
+          <lb ed="#P" n="49"/>etiam Martin. del Rio, cum Olympiodoro et
+          <lb ed="#P" n="50"/>Philippo presbytero amplexus est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

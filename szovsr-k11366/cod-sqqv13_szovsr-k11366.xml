@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="456"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k11366"><!-- t3-l1c5 -->
+        <head>Caput 5</head>
+        <head type="question-title">Quotuplex sit blasphemia.</head>
+        <p>
+          <pb ed="#P" n="456"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT V.
+          <lb ed="#P" n="2"/>QUOTUPLEX SIT BLASPHEMIA.
+        </p>
+        <p>
+          <lb ed="#P" n="3"/>1. Variae solent hujus vitii tradi partitiones,
+          <lb ed="#P" n="4"/>quae obiter fere tactae sunt ejus definitionem
+          <lb ed="#P" n="5"/>explicando; duae tamen indigent peculiari
+          <lb ed="#P" n="6"/>declaratione , quas hic breviter attingimus.
+          <lb ed="#P" n="7"/>Primo itaque dividi potest blasphemia, in
+          <lb ed="#P" n="8"/>eam quae est contra Deum et contra Sanctos.
+          <lb ed="#P" n="9"/>Haec divisio colligi potest tum ex cap. 2 de
+          <lb ed="#P" n="10"/>Maledicis : Si quis (ait) contra Deum, vel 
+          ali<lb break="no" ed="#P" n="11"/>quem Sanctorum suorum, et mazime Beatam
+          <lb ed="#P" n="12"/>Virginem, linguam in blasphemiam publice 
+          re<lb break="no" ed="#P" n="13"/>lazare preesumpserit ; tum ex Glossa, in id ad
+          <lb ed="#P" n="14"/>Ephes. 4: Blasphemia auferatur a vobis, quae
+          <lb ed="#P" n="15"/>addit : In Deum et in Sanctos; tum denique
+          <lb ed="#P" n="16"/>ex D. Thoma, dicta q. 13, art. 1, ad 2, ubi
+          <lb ed="#P" n="17"/>Cajetanus non solum dicit esse blasphemiam
+          <lb ed="#P" n="18"/>in Sanctos, sed etiam dicit esse ejusdem 
+          spe<lb break="no" ed="#P" n="19"/>ciei.
+        </p>
+        <p>
+          <lb ed="#P" n="20"/>2. Sed occurrit difficultas, quia haec divisio
+          <lb ed="#P" n="21"/>videtur contraria definitioni. Diximus enim in
+          <lb ed="#P" n="22"/>definitione, blasphemiam esse contra Deum;
+          <lb ed="#P" n="23"/>in hac autem divisione dicimus etiam esse
+          <lb ed="#P" n="24"/>contra Sanctos : aut ergo hoc falsum est, aut
+          <lb ed="#P" n="25"/>definitio non convertitur cum definito. 
+          Prop<lb break="no" ed="#P" n="26"/>ter hoc aliqui addunt in definitione : Contra
+          <lb ed="#P" n="27"/>Deum, vel Sanctos, ut videre livet in Navar.,
+          <lb ed="#P" n="28"/>d. numero octogesimo primo. Verumtamen
+          <lb ed="#P" n="29"/>non est necessarium : dicimus enim verbum
+          <lb ed="#P" n="30"/>maledictionis vel contumeliae in Sanctos, non
+          <lb ed="#P" n="31"/>esse propriam blasphemiam, nisi quatenus
+          <lb ed="#P" n="32"/>est aliquo modo in Deum prolata, quia 
+          nimi<lb break="no" ed="#P" n="33"/>rum in Sanctis suis maledicitur Deus; ita 
+          res<lb break="no" ed="#P" n="34"/>pondet Alens., dicto memb. 1, et idem fere
+          <lb ed="#P" n="35"/>habet D. Thomas, dicta solut. 2. Ait enim,
+          <lb ed="#P" n="36"/>quod sicut Deus in Sanctis suis laudatur, in
+          <lb ed="#P" n="37"/>quantum laudantur opera quae Deus in Sanctis
+          <lb ed="#P" n="38"/>efficit , ita et blasphemia quae fit in Sanctos,
+          <lb ed="#P" n="39"/>ex consequenti in Dewn redundat. Et simili
+          <lb ed="#P" n="40"/>modo dixit idem Sanctus 2. 2, q. 76, art. 2,
+          <lb ed="#P" n="41"/>maledicere rebus irrationalibus, in quantum
+          <lb ed="#P" n="42"/>sunt creatura Dei, esse peccatum blasphemia.
+          <lb ed="#P" n="43"/>Et idem dicit de detractione creaturae, ibidem,
+          <lb ed="#P" n="44"/>art. 4, ad 1, quia talis maledictio aut 
+          detrac<lb break="no" ed="#P" n="45"/>tio creaturae, ut est opus Dei, redundat in
+          <lb ed="#P" n="46"/>Deum : Ft sic habet (inquit) rationem 
+          blasphe<lb break="no" ed="#P" n="47"/>mic. Juxta hanc ergo doctrinam, etiamsi
+          <lb ed="#P" n="48"/>maledictum in Sanctos blasphemia sit, 
+          ni<lb break="no" ed="#P" n="49"/>hilominus non est diminuta definitio; nam
+          <lb ed="#P" n="50"/>etiam illa blasphemia est in Deum, imo sub
+          <lb ed="#P" n="51"/>ea tantum consideratione habet propriam
+          <lb ed="#P" n="52"/>rationem blasphemiae. Erit ergo illa 
+          particu<lb break="no" ed="#P" n="53"/>la intelligenda, quod blasphemia sit in Deum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>vel in se, vel in Sanctis et creaturis suis.
+        </p>
+        <p>
+          <lb ed="#P" n="55"/>3. Instantia. — Sed nondum est evacuata
+          <lb ed="#P" n="56"/>tota difficultas, quia adoratio Sanctorum 
+          sim<lb break="no" ed="#P" n="57"/>pliciter distinguitur ab adoratione Dei, licet
+          <lb ed="#P" n="58"/>possit Deus in Sanctis adorari ; ergo similiter
+          <lb ed="#P" n="59"/>blasphemia Sanctorum est distincta a 
+          blas<lb break="no" ed="#P" n="60"/>phemia Dei, etiamsi possit Deus in Sancus
+          <lb ed="#P" n="61"/>blasphemari; nam contrariorum eadem est
+          <lb ed="#P" n="62"/>ratio. Quae difficultas petit, an verba 
+          contume<lb break="no" ed="#P" n="63"/>liae vel injuriae, in Sanctum simpliciter prolata,
+          <lb ed="#P" n="64"/>ex se seu ex vi talis objecti contineant veram
+          <lb ed="#P" n="65"/>malitiam blasphemiae contra Deum, aut tunc
+          <lb ed="#P" n="66"/>solum quando sic loquens formalitcr intendit
+          <lb ed="#P" n="67"/>Deum ipsum inhonorare in Sancto suo. Cunstat
+          <lb ed="#P" n="68"/>enim utrumque modum operandi esse 
+          possi<lb break="no" ed="#P" n="69"/>bilem, et inter se multum differre, cum 
+          in<lb break="no" ed="#P" n="70"/>tentio moraliter distinguat operationes ; 
+          quan<lb break="no" ed="#P" n="71"/>do ergo homo operatur ex formali intenuone
+          <lb ed="#P" n="72"/>blasphemandi Deum in Sanctis, optime 
+          proce<lb break="no" ed="#P" n="73"/>dit responsio et doctrina data; quia nemo 
+          du<lb break="no" ed="#P" n="74"/>bitat quin tunc injuria principaliter fiat Deo,
+          <lb ed="#P" n="75"/>et consequenter illa sit propriissima blasphe
+          <lb ed="#P" n="76"/>mia religioni Dei contraria.
+        </p>
+        <p>
+          <lb ed="#P" n="77"/>4. Difficultas ergo est, quando simpliciter
+          <lb ed="#P" n="78"/>convicium profertur in Sanctum, nihil aliud
+          <lb ed="#P" n="79"/>intendendo, nisi contumeliam talis personae.
+          <lb ed="#P" n="80"/>Videtur enim tunc actio illa solum esse contra
+          <lb ed="#P" n="81"/>virtutem illam qua honoramus Sanctos, quae
+          <lb ed="#P" n="82"/>non est religio, sed dulia. Quia, sicut cultus
+          <lb ed="#P" n="83"/>Sanctorum, absolute illis datus, non est cultus
+          <lb ed="#P" n="84"/>Dei, nec virtutis religionis, ita nec 
+          blasphe<lb break="no" ed="#P" n="85"/>mia prolata in Sanctum illo modo., est vere et
+          <lb ed="#P" n="86"/>proprie blasphemia Dei, nec contra 
+          relgio<lb break="no" ed="#P" n="87"/>nem ejus. Quod ex verbis D. Thomae supra
+          <lb ed="#P" n="88"/>citatis confirmari potest; aequiparat enim 
+          blas<lb break="no" ed="#P" n="89"/>phemiam laudi. At vero laus alicujus Sancti,
+          <lb ed="#P" n="90"/>nisi expressis verbis, vel saltem ex formali 
+          in<lb break="no" ed="#P" n="91"/>tentione operantis extendatur ad Deum, non
+          <lb ed="#P" n="92"/>est propria laus Dei, neque habet aliam 
+          hone<lb break="no" ed="#P" n="93"/>statem nisi duliae; ergo similiter blasphemia
+          <lb ed="#P" n="94"/>in Sanctum ex vi objecti, et seclusa speciali
+          <lb ed="#P" n="95"/>intentione operantis, non habet propriam 
+          ma<lb break="no" ed="#P" n="96"/>litiam blasphemiae, quae est contra Deum, sed
+          <lb ed="#P" n="97"/>tantum inobservantiae contra Sanctos. 
+          Deni<lb break="no" ed="#P" n="98"/>que maledictio creaturae irrationalis, 
+          secun<lb break="no" ed="#P" n="99"/>dum se et absolute facta, non est blasphemia,
+          <lb ed="#P" n="100"/>sed est vana et illicita actio, ut dixit D. 
+          Tho<lb break="no" ed="#P" n="101"/>mas, dicta q. 76, art. 2. Unde, ut sit 
+          blasphe<lb break="no" ed="#P" n="102"/>mia, necessarium est ut sit maledictio 
+          crea<lb break="no" ed="#P" n="103"/>turae, ut creatura Dei est. Non videtur autem
+          <lb ed="#P" n="104"/>posse creatura maledici sub hac ratione, nisi
+          <lb ed="#P" n="105"/>ex prava intentione maledicentis. Et fortasse
+          <lb ed="#P" n="106"/>ideo addidit D. Thomas, dicta q. 76, art. 4, ad
+          <lb ed="#P" n="107"/>1, talem maledictionem per accidens habere
+          <lb ed="#P" n="108"/>rationem blasphemiae, id est, ex intentione et
+          <pb ed="#P" n="457"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>relatione operantis, non ex vi operis seu 
+          ob<lb break="no" ed="#P" n="2"/>jesti; ergo simili modo contumelia aut 
+          male<lb break="no" ed="#P" n="3"/>dictio, in Sanctum prolata, per se et ex vi 
+          ob<lb break="no" ed="#P" n="4"/>jecti non est proprie blasphemia, sed tantum
+          <lb ed="#P" n="5"/>ex intentione et relatione operantis.
+        </p>
+        <p>
+          <lb ed="#P" n="6"/>5. Quid recentiores aliqui in hoc sentiant.
+          <lb ed="#P" n="7"/>— In hoc puncto aliqui moderni auctores : 
+          fa<lb break="no" ed="#P" n="8"/>tentur, convicium prolatum in Sanctum 
+          sim<lb break="no" ed="#P" n="9"/>pliciter et absolute spectatum, utin sanctitatem
+          <lb ed="#P" n="10"/>excellentem, non habere propriam malitiam
+          <lb ed="#P" n="11"/>blasphemiae religioni contrariam, propter 
+          ra<lb break="no" ed="#P" n="12"/>tionem factam ; et ideo, ut contumelia irrogata
+          <lb ed="#P" n="13"/>Sanctis habeat rationem blasphemiae in Deum,
+          <lb ed="#P" n="14"/>necessarium esse existimant ut versetur circa
+          <lb ed="#P" n="15"/>Sanctos, quatenus habent aliquem respectum
+          <lb ed="#P" n="16"/>ad Deum ; non tamen postulant formalem 
+          in<lb break="no" ed="#P" n="17"/>tentionem inferendi Deo injuriam, sed satis
+          <lb ed="#P" n="18"/>esse putant si Sancti apprehendantur cum 
+          ali<lb break="no" ed="#P" n="19"/>quo respectu ad Deum. Alii vero auctores 
+          sim<lb break="no" ed="#P" n="20"/>pliciter et sine distinctione asserunt, 
+          contu<lb break="no" ed="#P" n="21"/>melias Sanctorum, praesertim defunctorum et
+          <lb ed="#P" n="22"/>cum Christo regnantium, esse veras et 
+          pro<lb break="no" ed="#P" n="23"/>prias blasphemias in Deum, quacumque 
+          in<lb break="no" ed="#P" n="24"/>tentione fiant, dummodo suffticienti 
+          adverten<lb break="no" ed="#P" n="25"/>tia et libertate proferantur. Ita loquuntur
+          <lb ed="#P" n="26"/>Alensis, D. Thomas, Cajetanus supra, et in
+          <lb ed="#P" n="27"/>Sum,, verb. Blasphemia , et ibid. Armilla,
+          <lb ed="#P" n="28"/>Sylvest. et alii Summistae; et Navar., d. c. 12;
+          <lb ed="#P" n="29"/>et Covar., d. S7, n. 9; et favet jus in dicto
+          <lb ed="#P" n="30"/>cap. 2, de Maledicis, nam absolute eodem
+          <lb ed="#P" n="31"/>modo loquitur. Et quamvis possit dici, non
+          <lb ed="#P" n="32"/>omnem blasphemiam juridicam csse proprie
+          <lb ed="#P" n="33"/>et in rigore blasphemiam, ut Sylvester indicat,
+          <lb ed="#P" n="34"/>nihilominus verisimilius est jnus ipsum 
+          consi<lb break="no" ed="#P" n="35"/>derasse praecipue injuriam, quae in Deum 
+          ip<lb break="no" ed="#P" n="36"/>sum redundat per hujusmodi contumeliam in
+          <lb ed="#P" n="37"/>Sanctum, et ideo illam ut propriam 
+          blasphe<lb break="no" ed="#P" n="38"/>miam dammnasse. Probabiliter ergo defendi
+          <lb ed="#P" n="39"/>potest haec sententia. Et declarari potest ex
+          <lb ed="#P" n="40"/>generali regula, quod ad eontrahendam 
+          maii<lb break="no" ed="#P" n="41"/>tiam non est necessaria formalis intentio, sed
+          <lb ed="#P" n="42"/>sufficit interpretativa, quando in objecto ipso
+          <lb ed="#P" n="43"/>est sufficiens fundamentum ita enim est in
+          <lb ed="#P" n="44"/>praesenti; nam Sancti, ex vi sui status, habent
+          <lb ed="#P" n="45"/>quasi intrinsecam habitudinem ad Deum ; et
+          <lb ed="#P" n="46"/>ideo si contumelia afficiantur, injuria transit
+          <lb ed="#P" n="47"/>in Deum ipsum, etiamsi hoc formaliter non
+          <lb ed="#P" n="48"/>intendatur, vel licet illa habitudo expresse
+          <lb ed="#P" n="49"/>non consideretur, sicut considerari posset et
+          <lb ed="#P" n="50"/>deberet.
+        </p>
+        <p>
+          <lb ed="#P" n="51"/>6. Tripliciter contumeliam proferri posse in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>Sanctos. — Itaque in tribus modis potest 
+          con<lb break="no" ed="#P" n="53"/>tumelia in Sanctum proferri. Primo, expresse
+          <lb ed="#P" n="54"/>cogitando simul de Deo, et intendendo honori
+          <lb ed="#P" n="55"/>ejus detrahere in Sancto suo; et tunc est 
+          for<lb break="no" ed="#P" n="56"/>malissima blasphemia Dei, ut per se constat,
+          <lb ed="#P" n="57"/>quia non ex sono verborum, sed ex 
+          significa<lb break="no" ed="#P" n="58"/>tione et animi intentione malitiam suam 
+          de<lb break="no" ed="#P" n="59"/>sumit. Hic tamen modus blasphemandi 
+          San<lb break="no" ed="#P" n="60"/>ctos rarissimus est, et ideo non possumus ad
+          <lb ed="#P" n="61"/>illum tantum modum limitare hanc 
+          blasphe<lb break="no" ed="#P" n="62"/>miam Dei in Sanctis suis. Secundo, potest
+          <lb ed="#P" n="63"/>quis cogitare de Sancto cum aliqua expressa
+          <lb ed="#P" n="64"/>habitudine ad Deum, scilicet, peculiaris 
+          ami<lb break="no" ed="#P" n="65"/>ci, aut ministri ejus, vel quid simile, et 
+          nihi<lb break="no" ed="#P" n="66"/>lominus voluntarie in Sanctum proferre 
+          ver<lb break="no" ed="#P" n="67"/>ba contumeliae; et tunc etiam censetur 
+          in<lb break="no" ed="#P" n="68"/>juria transire in Deum, et ideo habet 
+          pro<lb break="no" ed="#P" n="69"/>priam malitiam blasphemiae, quia ratione
+          <lb ed="#P" n="70"/>illius vinculi, quod inter hanc personam et
+          <lb ed="#P" n="71"/>Deura consideratur , in Deum cadit 
+          oppro<lb break="no" ed="#P" n="72"/>brium, etiamsi hoc formaliter non intendatur.
+          <lb ed="#P" n="73"/>In quo minus requiritur ad injuriam quam
+          <lb ed="#P" n="74"/>ad cultum et honorationem, quia bonum est
+          <lb ed="#P" n="75"/>ex integra causa, et ideo requirit intentionem
+          <lb ed="#P" n="76"/>magis formalem. Tertio igitur fieri potest ut
+          <lb ed="#P" n="77"/>cogitatio de Sancto non sit expresse respectiva
+          <lb ed="#P" n="78"/>in ordine ad Deum, sed solum de illa 
+          excel<lb break="no" ed="#P" n="79"/>lentia sanctitatis, in qua talis respectus 
+          fun<lb break="no" ed="#P" n="80"/>datur ; et tunc licet imperfectior sit 
+          blasphe<lb break="no" ed="#P" n="81"/>mia in Deum, tamen indirecte participare 
+          vi<lb break="no" ed="#P" n="82"/>detur eamdem malitiam, quia ad hanc sufficit
+          <lb ed="#P" n="83"/>voluntas talis objecti, quod de se cedit in 
+          op<lb break="no" ed="#P" n="84"/>probrium Dei. Item quia si formalis intentio
+          <lb ed="#P" n="85"/>inhonorandi Deum non est necessaria, etiam
+          <lb ed="#P" n="86"/>expressa cogitatio illius habitudinis non erit
+          <lb ed="#P" n="87"/>necessaria ad incurrendam malitiam 
+          blasphe<lb break="no" ed="#P" n="88"/>miae, quia ad voluntarium indirectum, satis
+          <lb ed="#P" n="89"/>est quod potuerit et debuerit cogitari. Ratio
+          <lb ed="#P" n="90"/>autem in contrarium facta solum suadet, esse
+          <lb ed="#P" n="91"/>in illo actu malitiam contra duliam, quod 
+          fa<lb break="no" ed="#P" n="92"/>temur ; addimus vero etiam esse in illo 
+          mal<lb break="no" ed="#P" n="93"/>tiam contra religionem, neque enim haec duo
+          <lb ed="#P" n="94"/>repugnant ; qualis autem sit illa malitia, 
+          ex<lb break="no" ed="#P" n="95"/>plicabimus amplius capite sequenti.
+        </p>
+        <p>
+          <lb ed="#P" n="96"/>1. Secunda blasphemiee divisio. — Altera
+          <lb ed="#P" n="97"/>divisio blasphemiae est in haereticalem, et 
+          sim<lb break="no" ed="#P" n="98"/>plicem, seu non haereticalem ; quae divisio ess
+          <lb ed="#P" n="99"/>maxime necessaria ad explicanda jura quae
+          <lb ed="#P" n="100"/>ferunt poenas contra blasphemos, ut paulo
+          <lb ed="#P" n="101"/>post videbimus. Dicitur autem blasphemia
+          <lb ed="#P" n="102"/>haereticalis, quae haeresim seu falsitatem 
+          con<lb break="no" ed="#P" n="103"/>tra fidem formaliter aut virtualiter continet
+          <lb ed="#P" n="104"/>et significat. Hujusmodi est omnis blasphemia
+          <lb ed="#P" n="105"/>enunciativa, sive affirmando, sive negando
+          <lb ed="#P" n="106"/>aliquid de Deo, quod fides docet, vel etiam
+          <pb ed="#P" n="458"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tribuendo creaturae id quod secundum fidem
+          <lb ed="#P" n="2"/>soli Deo convenit, vel de his etiam 
+          dubitatio<lb break="no" ed="#P" n="3"/>nem ostendendo. Item ad blasphemiam 
+          haere<lb break="no" ed="#P" n="4"/>ticalem pertinent nomina quaedam convicii
+          <lb ed="#P" n="5"/>Deo attributa, ut si quis eum nominet 
+          injus<lb break="no" ed="#P" n="6"/>tum, ignorantem, vel quid simile; nam licet
+          <lb ed="#P" n="7"/>expresse id:non affirmetur enunciando et 
+          com<lb break="no" ed="#P" n="8"/>ponendo, sed simpliciter ita nominando, 
+          nihi<lb break="no" ed="#P" n="9"/>lominus virtüte satis affirmatur, quod ita 
+          pro<lb break="no" ed="#P" n="10"/>iertur. In hoc etiam ordine ponuntur illae
+          <lb ed="#P" n="11"/>blasphemiae gravissimae, quae his verbis solent
+          <lb ed="#P" n="12"/>proferri: IVon credo in Deum, discredo, abnego,
+          <lb ed="#P" n="13"/>vulgo, reniego, et omnes aequivalentes, quia
+          <lb ed="#P" n="14"/>omnia haec formam infidelitatis habent, ut
+          <lb ed="#P" n="15"/>bene notavit Soto, lib. 8 de Just., quaest. 2,
+          <lb ed="#P" n="16"/>art. 3. Blasphemia autem non haereticalis 
+          di<lb break="no" ed="#P" n="17"/>citur omnis illa, quae nec formaliter nec 
+          virtu<lb break="no" ed="#P" n="18"/>te continet falsitatem quasi speculativam 
+          con<lb break="no" ed="#P" n="19"/>trafidei veritatem, ut sunt omnes blasphemiae
+          <lb ed="#P" n="20"/>quae proferuntur per modos optandi, 
+          impe<lb break="no" ed="#P" n="21"/>randi, aut imprecandi; item quae fiunt 
+          nomi<lb break="no" ed="#P" n="22"/>nando aliquid, quod in Deo verc reperitur, 
+          ta<lb break="no" ed="#P" n="23"/>men per modum contumeliae et irrisionis.
+          <lb ed="#P" n="24"/>Nam in his omnibus solum est quaedam 
+          falsi<lb break="no" ed="#P" n="25"/>tas practica, quae non opponitur fidei; et ideo
+          <lb ed="#P" n="26"/>non sunt ita haereticales blasphemiae, sicut
+          <lb ed="#P" n="27"/>priores.
+        </p>
+        <p>
+          <lb ed="#P" n="28"/>8. Alique vulgares blasphemie 
+          expendun<lb break="no" ed="#P" n="29"/>tur. —Et ad hunc ordinem pertinent multa
+          <lb ed="#P" n="30"/>vulgaria verba blasphemia, ut, Displiceat
+          <lb ed="#P" n="31"/>Deo; Ad despectum Dei; Per vitam Dei, e
+          <lb ed="#P" n="32"/>similia, quia per haec non indicatur 
+          infideli<lb break="no" ed="#P" n="33"/>tas, sed contemptus quidam Dei ; nam verbum
+          <lb ed="#P" n="34"/>illud quod sermone vulgari dicitur, Pesse, etc.,
+          <lb ed="#P" n="35"/>non tam est aflfirmantis, quam imprecantis ;
+          <lb ed="#P" n="36"/>per aliud autem verbum vulgo, A despecho,
+          <lb ed="#P" n="37"/>etc., non significatur aliquid fieri posse 
+          con<lb break="no" ed="#P" n="38"/>tra efficacem Dei voluntatem ; sed vel 
+          signifi<lb break="no" ed="#P" n="39"/>catur voluntas faciendi aliquid, etiamsi Deo
+          <lb ed="#P" n="40"/>displiceat eo modo quo displicere potest, per
+          <lb ed="#P" n="41"/>antecedentem voluntatem , aut signi , quae
+          <lb ed="#P" n="42"/>nihilominus est magna irreverentia, et 
+          mag<lb break="no" ed="#P" n="43"/>nus contemptus ; vel certe profertur etiam per
+          <lb ed="#P" n="44"/>modum imprecationis, optando Deo 
+          displicen<lb break="no" ed="#P" n="45"/>tiam, vel taedium de tali re, ut Soto etiam 
+          in<lb break="no" ed="#P" n="46"/>dicat; illud autem verbum vulgare Por vida,
+          <lb ed="#P" n="47"/>eatenus blasphemiam continet, quatenus 
+          exe<lb break="no" ed="#P" n="48"/>cratorium verbum est, quasi subjiciendo 
+          vi<lb break="no" ed="#P" n="49"/>tam Dei defectioni et morti, nisi ita sit aut
+          <lb ed="#P" n="50"/>eveniat quod affirmatur ; et ita in his non est
+          <lb ed="#P" n="51"/>proprie falsitas speculativa, quae ad 
+          infidelita<lb break="no" ed="#P" n="52"/>tem spectat, sed gravissima injuria et 
+          contu<lb break="no" ed="#P" n="53"/>melia Dei, et ideo haereticales non sunt, ut
+          <lb ed="#P" n="54"/>censuit etiam Salzedo, ad Practicam Bernardi,
+          <lb ed="#P" n="55"/>c. 100, S Ft quia. Multa etiam de his blas-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>phemiis in particulari legi possunt in Covar.,
+          <lb ed="#P" n="57"/>d. S 7, n. 9. Ex dictis vero a nobis sufficienter
+          <lb ed="#P" n="58"/>patet ratio et distinctio utriusque membri,
+          <lb ed="#P" n="59"/>quae magis ex sequenti capite patebit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 25</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 25</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="185"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k04599"><!-- t2-l1c25 -->
+        <head>Caput 25</head>
+        <head type="question-title">Possintne decimae deberi aut juste solvi laicis.</head>
+        <p>
+          <lb ed="#P" n="32"/>CAPUT XXV.
+          <lb ed="#P" n="33"/>POSSINTNE DECIMAE DEBERI AUT JUSTE SOLVI
+          <lb ed="#P" n="34"/>LAICIS.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>1. Variis personis decimas solvi.—Vulgaris
+          <lb ed="#P" n="36"/>distinctio. — Licet dictum sit, decimas certis
+          <lb ed="#P" n="37"/>locis seu parochialibnus ecclesiis esse solvendas,
+          <lb ed="#P" n="38"/>tamen propter personas dantur, ad quarum
+          <lb ed="#P" n="39"/>sustentationem praecipue ordinantur. Personae
+          <lb ed="#P" n="40"/>autem sunt variae : quidam enim sunt laici,
+          <lb ed="#P" n="41"/>alii clerici; et inter clericos quidam habent
+          <lb ed="#P" n="42"/>curam animarum, alii minime; quidam item
+          <lb ed="#P" n="43"/>habent in tali ecclesia ministerium aliquod,
+          <lb ed="#P" n="44"/>quidam nullum habent. Igitur exponere 
+          ne<lb break="no" ed="#P" n="45"/>cesse est cui ordini personarum decimae 
+          de<lb break="no" ed="#P" n="46"/>beantur ordinario jure, et consequenter 
+          di<lb break="no" ed="#P" n="47"/>cendum erit quibus ex consuetudine vel 
+          privi<lb break="no" ed="#P" n="48"/>legio competant. Ad cujus quaestionis 
+          decisio<lb break="no" ed="#P" n="49"/>nem vulgaris distinctio supponenda est : nam
+          <lb ed="#P" n="50"/>potest esse sermo vel de jure, seu titulo 
+          perci<lb break="no" ed="#P" n="51"/>piendi decimas, vel de ipsis decimis, prout
+          <lb ed="#P" n="52"/>sunt quidam temporales fructus pretio aesti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>mabiles. Inter quae discrimen assignatur, quod
+          <lb ed="#P" n="54"/>jus ad decimas percipiendas spirituale quid
+          <lb ed="#P" n="55"/>est, quatenus est fundatum in spirituali 
+          mi<lb break="no" ed="#P" n="56"/>nisterio, seu in potestate et obligatione 
+          mi<lb break="no" ed="#P" n="57"/>nistrandi spiritualia, ratione cujus ministerii
+          <lb ed="#P" n="58"/>temporalia dantur. Quod probatur optime ex
+          <lb ed="#P" n="59"/>cap. ult. de Rerum permut., ubi hac ratione
+          <lb ed="#P" n="60"/>dicitur jus percipiendi decimas, non posse
+          <lb ed="#P" n="61"/>temporali pensione compensari , quia non 
+          po<lb break="no" ed="#P" n="62"/>test spirituale pro temporali comparari. At
+          <lb ed="#P" n="63"/>fructus ipsi decimales temporales sunt, ut
+          <lb ed="#P" n="64"/>constat.
+        </p>
+        <p>
+          <lb ed="#P" n="65"/>2. Objectio. — Solvitur. — Dices: etiam jus
+          <lb ed="#P" n="66"/>ad decimas percipiendas potest esse temporale,
+          <lb ed="#P" n="67"/>ut si quis conducat beneficium, titulo 
+          conduc<lb break="no" ed="#P" n="68"/>tionis habet jus ad decimas, quod temporale
+          <lb ed="#P" n="69"/>est. Idem acquiri potest titulo venditionis:
+          <lb ed="#P" n="70"/>potest enim quis futuras decimas hujus anni
+          <lb ed="#P" n="71"/>vendere, et consequenter alteri jus conferre
+          <lb ed="#P" n="72"/>ad illas percipiendas; laici etiam saepe 
+          viden<lb break="no" ed="#P" n="73"/>tur habere hoc jus, et tun- necesse est esse
+          <lb ed="#P" n="74"/>temporale. Respondeo sermonem esse de jure
+          <lb ed="#P" n="75"/>proprio, et per se pertinente ad decimam, ut
+          <lb ed="#P" n="76"/>talem, et juxta institutionem suam; de hoc
+          <lb ed="#P" n="77"/>enim procedit ratio facta, et de illo loquuntur
+          <lb ed="#P" n="78"/>jura, cum dicunt, beneficium dari propter 
+          of<lb break="no" ed="#P" n="79"/>ficium, et ideo esse quid annexum rei 
+          spiri<lb break="no" ed="#P" n="80"/>tuali. Conductor autem aut emptor non habet
+          <lb ed="#P" n="81"/>tale jus ad decimam, nec illam respicit ut 
+          de<lb break="no" ed="#P" n="82"/>cimam, nec ut stipendium pro munere 
+          spiri<lb break="no" ed="#P" n="83"/>tuali, sed solum matcrialiter (ut sic dicam),
+          <lb ed="#P" n="84"/>ut est quidam temporalis fructus tanto pretio
+          <lb ed="#P" n="85"/>eestimabilis. Et similiter laici habentes 
+          deci<lb break="no" ed="#P" n="86"/>marum concessionem aliquam non proprio
+          <lb ed="#P" n="87"/>jure illas recipiunt, sed quasi vice aliorum, ut
+          <lb ed="#P" n="88"/>statim dicemus.
+        </p>
+        <p>
+          <lb ed="#P" n="89"/>3. Decimae, ut tales, non debentur laicis. —
+          <lb ed="#P" n="90"/>Ratio assertionis.— Ex his ergo dicendum est
+          <lb ed="#P" n="91"/>primo, decimas, ut tales sunt, et ut sunt 
+          ec<lb break="no" ed="#P" n="92"/>clesiastici fructus, per se non deberi laicis,
+          <lb ed="#P" n="93"/>neque illis esse solvendas. Est certa, et 
+          com<lb break="no" ed="#P" n="94"/>munis sententia , quam D. Thomas et alii
+          <lb ed="#P" n="95"/>Theologi 2. 2, quaest. 87, art. 3, tenent. Idem
+          <lb ed="#P" n="96"/>divus Thomas, Quodlib. 2, art. 8, ad argum.;
+          <lb ed="#P" n="97"/>Alens., 3 p., q. M, memb. 6, art. 1; Abulens.,
+          <lb ed="#P" n="98"/>quaest. 178, in dicto cap. 23 Matth.; Glossa
+          <lb ed="#P" n="99"/>communiter approbata in cap. Quamcis, de
+          <lb ed="#P" n="100"/>Decimis, verb. Concesserit, et Glossa iu cap.
+          <lb ed="#P" n="101"/>Causam qure, de Praescript., et Doctores 
+          com<lb break="no" ed="#P" n="102"/>muniter ; Rebuffus late, dicto tract., quaest. 10,
+          <lb ed="#P" n="103"/>fere per totam; Covarruvias, dicto cap. 17,a
+          <lb ed="#P" n="104"/>num. 6; Guttierez, dicto cap. 21, a num. 64.
+          <lb ed="#P" n="105"/>Et habetur saepius in jure, cap. Decimas, 10,
+          <lb ed="#P" n="106"/>quaest. 7, ubi Gregorius VII, cum Concilio 
+          La<lb break="no" ed="#P" n="107"/>teranensi, sic ait : Decimas, quee in usum pie-
+          <pb ed="#P" n="186"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>talis concessas esse, canonica auctoritas 
+          de<lb break="no" ed="#P" n="2"/>monstrat, a laicis possideri auctoritate 
+          aposto<lb break="no" ed="#P" n="3"/>lica prohibemus ; et infra : Decimas et 
+          primi<lb break="no" ed="#P" n="4"/>Lias, quas jure sacerdotum esse sancimus, etc.
+          <lb ed="#P" n="5"/>Notatur autem in editione Gregoriana, priora
+          <lb ed="#P" n="6"/>verba reperiri etiam in Concilio Romano, sub
+          <lb ed="#P" n="7"/>Innocentio lI, cap. 9; et utrumque Concilium
+          <lb ed="#P" n="8"/>extare in Dibliotheca Vaticana; posteriora
+          <lb ed="#P" n="9"/>autem verba in neutro Concilio inveniri. Idem
+          <lb ed="#P" n="10"/>vero habetur in cap. Quamcis, cap. 
+          Prohibe<lb break="no" ed="#P" n="11"/>mus, cap. Ad heec, cap. Tua, 1, de Decimis, et
+          <lb ed="#P" n="12"/>in cap. Causam, de Praescription. ; et 
+          gencra<lb break="no" ed="#P" n="13"/>tim de oblationibus Ecclesiae idem tradit 
+          Da<lb break="no" ed="#P" n="14"/>mas., in capite ult., 10, quaestion. 1, 
+          refert<lb break="no" ed="#P" n="15"/>que idem fuisse in Nicaeno Concilio statutum;
+          <lb ed="#P" n="16"/>sic etiam intelligendum est quod in capit. ult.,
+          <lb ed="#P" n="17"/>16, quaestion. 7, dicitur, usum decimarum et
+          <lb ed="#P" n="18"/>oblationum saecularibus provenire non posse.
+          <lb ed="#P" n="19"/>Idem fere in cap. Pervenit , 1, quaestion. 3 et
+          <lb ed="#P" n="20"/>16, quaest. 7. Ratio vero clara est, qua laici
+          <lb ed="#P" n="21"/>spiritualia ministrare non possunt; ergo non
+          <lb ed="#P" n="22"/>sunt capaces spiritualis juris; ergo proprium
+          <lb ed="#P" n="23"/>jus decimarum non potest illis convenire; 
+          er<lb break="no" ed="#P" n="24"/>go laicis non possunt per se, seu ratione 
+          illo<lb break="no" ed="#P" n="25"/>rum deberi decimae.
+        </p>
+        <p>
+          <lb ed="#P" n="26"/>4. Quam immutalilis sit hec regula. —
+          <lb ed="#P" n="27"/>Prascriptione non mutatur hoc jus.— Atque
+          <lb ed="#P" n="28"/>hinc colligitur, hanc regulam non solum 
+          pro<lb break="no" ed="#P" n="29"/>cedere de jure communi, sed etiam 
+          simplici<lb break="no" ed="#P" n="30"/>ter de jure ita fundato in naturali ratione,
+          <lb ed="#P" n="31"/>supposita institutione divina, ut per nullam
+          <lb ed="#P" n="32"/>praescriptionem vel humanam concessionem
+          <lb ed="#P" n="33"/>immutari possit, si formaliter ac proprie 
+          lo<lb break="no" ed="#P" n="34"/>quamur.Declaratur imprimis ex ratione facta,
+          <lb ed="#P" n="35"/>quia ratio naturalis dictat, neminem esse 
+          ca<lb break="no" ed="#P" n="36"/>pacem stipendii, qui non est capax ministerii
+          <lb ed="#P" n="37"/>aut laboris cui stipendium respondet; sed
+          <lb ed="#P" n="38"/>laici jure divino sunt incapaces spiritualis
+          <lb ed="#P" n="39"/>ministerii, ut nunc supponitur, et est per se
+          <lb ed="#P" n="40"/>constans in jure; ergo sunt incapaces 
+          decima<lb break="no" ed="#P" n="41"/>rum, ut sunt stipendium ministrorum 
+          Eccle<lb break="no" ed="#P" n="42"/>siae; ergo nullo modo potest immutari jus,
+          <lb ed="#P" n="43"/>prohibens ne laici decimas accipiant. Deinde
+          <lb ed="#P" n="44"/>per partes ostenditur. Et primo, non posse
+          <lb ed="#P" n="45"/>laicos decimas praescribere, aperte docet 
+          Ale<lb break="no" ed="#P" n="46"/>xander III, in cap. Causam que, de 
+          Praescri<lb break="no" ed="#P" n="47"/>ption.; ergo maxime id verum est de decimis,
+          <lb ed="#P" n="48"/>hoc modo et quasi forinaliter spectatis, 
+          qua<lb break="no" ed="#P" n="49"/>tenus ratione proprii et intrinseci juris 
+          deben<lb break="no" ed="#P" n="50"/>tur. Et ratio est, quia praescriptio supponit
+          <lb ed="#P" n="51"/>capacitatem tituli, et possessionis justae, seu
+          <lb ed="#P" n="52"/>civilis, quia sine tali possessione non currit
+          <lb ed="#P" n="53"/>praescriptio, juxta regulam juris, in sexto. An
+          <lb ed="#P" n="54"/>vero possint laici praescribere decimas ipsas
+          <lb ed="#P" n="55"/>qua-i materialiter, id est, fructus illos alio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nomine et ratione percipiendo, mox 
+          dice<lb break="no" ed="#P" n="57"/>mus. 
+        </p>
+        <p>
+          <lb ed="#P" n="58"/>5. Neque etiam humana concessione 
+          varia<lb break="no" ed="#P" n="59"/>tur hoc jus. —landem hinc etiam facile 
+          proba<lb break="no" ed="#P" n="60"/>tur, non posse hoc jus immutari per humanam
+          <lb ed="#P" n="61"/>concessionem, etiamsi pontificia sit, quia non
+          <lb ed="#P" n="62"/>potest Pontifex laicis concedere spiritualem 
+          ti<lb break="no" ed="#P" n="63"/>tulum, quia non potest illis concedere 
+          spiritua<lb break="no" ed="#P" n="64"/>lia ministeria. Et hoc sane clarum est in 
+          minis<lb break="no" ed="#P" n="65"/>teriis, quae essentialiter pendent a potestate 
+          or<lb break="no" ed="#P" n="66"/>dinis, ut sunt oblatio sacrificii, et administratio
+          <lb ed="#P" n="67"/>sacramentorum, et consequenter usus 
+          spiritua<lb break="no" ed="#P" n="68"/>lis jurisdictionis in foro poenitentiae. De aliquo
+          <lb ed="#P" n="69"/>vero usu spiritualis jurisdictionis in exteriori
+          <lb ed="#P" n="70"/>foro Ecclesiae, et de aliquo spirituali ministerio,
+          <lb ed="#P" n="71"/>quod sine ordine aliquo potest exerceri vel in
+          <lb ed="#P" n="72"/>publicis orationibus, vel in alio ministerio
+          <lb ed="#P" n="73"/>Ecclesiae, potest esse nonnullum dubium, cur
+          <lb ed="#P" n="74"/>mediante tali ministerio non possit jus aliquod
+          <lb ed="#P" n="75"/>decimarum laicis concedi, saltem a Pontifice,
+          <lb ed="#P" n="76"/>sed de hoc inferius dicam. Nunc breviter dico,
+          <lb ed="#P" n="77"/>etsi aliquid possit hoc titulo aliquibus 
+          con<lb break="no" ed="#P" n="78"/>cedi, qui proprie clerici non sunt, 
+          nihilomi<lb break="no" ed="#P" n="79"/>nus non eis concedi ut laici sunt, sed ut 
+          ali<lb break="no" ed="#P" n="80"/>quo modo fiunt ecclesiasticae personae, ut 
+          pos<lb break="no" ed="#P" n="81"/>tea declarabo.
+        </p>
+        <p>
+          <lb ed="#P" n="82"/>6. Laicos posse licite percipere fructus 
+          deci<lb break="no" ed="#P" n="83"/>marwum. — Secundo ergo dicendum est, non
+          <lb ed="#P" n="84"/>repugnare quin laicae personae licite interdum
+          <lb ed="#P" n="85"/>percipiant fructus decimarum, non proprio 
+          ti<lb break="no" ed="#P" n="86"/>tulo, sed vel nomine clericorum, ad quos 
+          per<lb break="no" ed="#P" n="87"/>tinent, vel per justam dispensationem et 
+          appli<lb break="no" ed="#P" n="88"/>cationem praelatorum Ecclesiae. Sensus 
+          asser<lb break="no" ed="#P" n="89"/>tionis non solum est de perceptione 
+          decima<lb break="no" ed="#P" n="90"/>rum quasi materiali, vel ministeriali, ut sic
+          <lb ed="#P" n="91"/>dicam, qualis est in famulo, vel oeconomo, qui
+          <lb ed="#P" n="92"/>colligit fructus non sibi, sed domino, in eujus
+          <lb ed="#P" n="93"/>possessionem et dominium statim transeunt;
+          <lb ed="#P" n="94"/>nam hoc non est proprie percipere decimas.
+          <lb ed="#P" n="95"/>neque hoc poterat in quaestionem venire, cum
+          <lb ed="#P" n="96"/>constet posse clericos, per ministerium 
+          laico<lb break="no" ed="#P" n="97"/>rum, redditus suos colligere ac percipere. 
+          Sen<lb break="no" ed="#P" n="98"/>sus ergo est de propria perceptione quasi 
+          for<lb break="no" ed="#P" n="99"/>mali, qua quis fructus colligit, ut in suam
+          <lb ed="#P" n="100"/>possessionem et dominium illos transferat.
+          <lb ed="#P" n="101"/>Et in hoc sensu assertio est communis, divi
+          <lb ed="#P" n="102"/>Thommae, et aliorum, quos supra retuli ; Glossae
+          <lb ed="#P" n="103"/>receptae in cap. Quamcis, de Decimis; Abbas
+          <lb ed="#P" n="104"/>ibi, et dicto cap. Ad hec, et dicto cap. 
+          Cau<lb break="no" ed="#P" n="105"/>san ; Rebutfus, dicta quaest. 10, a numer. 33;
+          <lb ed="#P" n="106"/>Tiraquel., de Retr., tit. 1, S 1 Glossae, num.
+          <lb ed="#P" n="107"/>51. Estque conclusio per se clara, quia 
+          deci<lb break="no" ed="#P" n="108"/>mae hoc modo spectatae res temporales sunt,
+          <lb ed="#P" n="109"/>ideoque in potestatem juste venire possunt,
+          <lb ed="#P" n="110"/>dummodo ratio accipiendi illas et ab his ma-
+          <pb ed="#P" n="187"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et, quibus jus decimarum, et primarius
+          <lb ed="#P" n="2"/>us earum competit, et justum aliquam 
+          cau<lb break="no" ed="#P" n="3"/>habeat laicis accommodatam. Hoc autem
+          <lb ed="#P" n="4"/>do illam accipiunt, quando et nomine 
+          cle<lb break="no" ed="#P" n="5"/>orum, ad quos pertinent, et ex aliqua 
+          jus<lb break="no" ed="#P" n="6"/>causa illas recipiunt. Maue ita probatur
+          <lb ed="#P" n="7"/>etiam assertio ex jure, in cap. 2, de Locato.
+          <lb ed="#P" n="8"/>Dico autem hoc posse concedi per justum 
+          con<lb break="no" ed="#P" n="9"/>et jure non prohibitum, quia 
+          inter<lb break="no" ed="#P" n="10"/>eniente Ecclesia prohibitione, jam laicus
+          <lb ed="#P" n="11"/>non perciperet decimas ex Eeclesiae consensu,
+          <lb ed="#P" n="12"/>et approbatione ; unde nec nomine Ecclesiae,
+          <lb ed="#P" n="13"/>nec justa aliqua ratione, aut titulo eas posset
+          <lb ed="#P" n="14"/>exigere.
+        </p>
+        <p>
+          <lb ed="#P" n="15"/>7. Quibus modis laici accipiant hoc jus. 
+          <lb ed="#P" n="16"/>Statim vero occurrit inquirendum, quibus
+          <lb ed="#P" n="17"/>modis possint laici accipere hanc facultatem
+          <lb ed="#P" n="18"/>percipiendi fructus decimarum licite et 
+          vali<lb break="no" ed="#P" n="19"/>de, saltem nomine clericorum, a quibus talem
+          <lb ed="#P" n="20"/>facultatem accipiunt. In quo imprimis 
+          consi<lb break="no" ed="#P" n="21"/>derandum est, aliud esse accipere fructus,
+          <lb ed="#P" n="22"/>seu redditus decimarum jam perceptos ab 
+          ip<lb break="no" ed="#P" n="23"/>sis ecclesiasticis personis, ad quas pertinent;
+          <lb ed="#P" n="24"/>aliud vero esse accipere facultatem durabilem
+          <lb ed="#P" n="25"/>ac diuturnam exigendi decimas ex 
+          conces<lb break="no" ed="#P" n="26"/>sione habentium spiritualem potestatem, 
+          at<lb break="no" ed="#P" n="27"/>que adeo nomine illorum. De priori modo hic
+          <lb ed="#P" n="28"/>non tractamus, quia revera tunc non solvitur
+          <lb ed="#P" n="29"/>decima laico, de quo tantum hic agimus, sed,
+          <lb ed="#P" n="30"/>postquam sacerdoti soluta est a laico, ipse 
+          sa<lb break="no" ed="#P" n="31"/>cerdos illam iterum dispensat in laicos, et tunc
+          <lb ed="#P" n="32"/>sacerdos est, qui proprie utitur suis 
+          redditi<lb break="no" ed="#P" n="33"/>bus, eos dispensando, vel donando laico; 
+          post<lb break="no" ed="#P" n="34"/>quam autem in dominium laici transennt, jam
+          <lb ed="#P" n="35"/>non habent rationem bonorum 
+          ecclesiastico<lb break="no" ed="#P" n="36"/>rum, sed mere temporales sunt, et libere illos
+          <lb ed="#P" n="37"/>potest expendere.
+        </p>
+        <p>
+          <lb ed="#P" n="38"/>8. Regula discernendi an justa sit acceptio
+          <lb ed="#P" n="39"/>decumarum. — Regula autem discernendi
+          <lb ed="#P" n="40"/>quando talis acceptio fructuum 
+          ecclesiastico<lb break="no" ed="#P" n="41"/>rum, etiam de mann clerici, licita sit vel 
+          illi<lb break="no" ed="#P" n="42"/>cita laico, sumenda est ex parte clerici; nam
+          <lb ed="#P" n="43"/>si clericus bene dispensat, laicus licite recipit;
+          <lb ed="#P" n="44"/>si autem sacerdos dat quando non potest, alter
+          <lb ed="#P" n="45"/>inique accipit, quia saltem cooperatur iniquae
+          <lb ed="#P" n="46"/>actioni ac distributioni; non tamen semper
+          <lb ed="#P" n="47"/>eodem modo. Nam clericus si dispenset eam
+          <lb ed="#P" n="48"/>partem decimarum quarum non est dominus,
+          <lb ed="#P" n="49"/>sed solum fidelis dispensator, et in 
+          donatio<lb break="no" ed="#P" n="50"/>nem excedit suam commissionem, et decimas
+          <lb ed="#P" n="51"/>donet eis qui non sunt capaces earum, juxta
+          <lb ed="#P" n="52"/>titulum et rationem dispensationis clerico
+          <lb ed="#P" n="53"/>commissae, tunc sicut dans dat contra 
+          justi<lb break="no" ed="#P" n="54"/>tiam, ita et recipiens, nec potest acceptas 
+          de<lb break="no" ed="#P" n="55"/>cimas tuta conscientia retinere, sed tenetur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>eas Ecclesiae restituere. Si vero clericus donet
+          <lb ed="#P" n="57"/>decimas quarum est dominus, peccet autem
+          <lb ed="#P" n="58"/>in modo contra charitatem, vel aliam ecclesiae
+          <lb ed="#P" n="59"/>prohibitionem non irritantem donationem,
+          <lb ed="#P" n="60"/>tunc peccabit quidem accipiens propter 
+          co<lb break="no" ed="#P" n="61"/>operationem, nihilominus tamen factum 
+          tene<lb break="no" ed="#P" n="62"/>bit, et postea retinere poterit quae accepit, et
+          <lb ed="#P" n="63"/>illis licite uti, quia effectus est dominus. 
+          Quan<lb break="no" ed="#P" n="64"/>do autem clerici habentes redditus 
+          ecclesias<lb break="no" ed="#P" n="65"/>ticos peccent uno vel alio modo, vel nullo
+          <lb ed="#P" n="66"/>modo in expendendis decimis, dicemus, Deo
+          <lb ed="#P" n="67"/>dante, tractando de clericis et beneficiis, quia
+          <lb ed="#P" n="68"/>non pertinet ad praesentem materiam.
+        </p>
+        <p>
+          <lb ed="#P" n="69"/>9. Alius modus quo laici decimas 
+          perci<lb break="no" ed="#P" n="70"/>piunt. — Agimus ergo in praesenti de alio
+          <lb ed="#P" n="71"/>modo facultatis, quae interdum conceditur
+          <lb ed="#P" n="72"/>laico ad accipiendas et exigendas decimas,
+          <lb ed="#P" n="73"/>vice et nomine clericorum : et hoc etiam 
+          in<lb break="no" ed="#P" n="74"/>terdum concedi potest ex vi particularis juris,
+          <lb ed="#P" n="75"/>quod clericus vel aliqua ecclesia habet ad 
+          ta<lb break="no" ed="#P" n="76"/>les decimas, interdum vero ex universali 
+          ali<lb break="no" ed="#P" n="77"/>qua potestate gubernandi et dispensandi 
+          ec<lb break="no" ed="#P" n="78"/>clesiastica bona. Priori modo, unusquisque
+          <lb ed="#P" n="79"/>clericus habens ecclesiasticum beneficium, 
+          ra<lb break="no" ed="#P" n="80"/>tione cujus decimas habet, potest sua 
+          aucto<lb break="no" ed="#P" n="81"/>ritate et voluntate, eas locare ad breve 
+          tem<lb break="no" ed="#P" n="82"/>pus, et pro illo dare conductori facultatem ad
+          <lb ed="#P" n="83"/>exigendas illas, juxta cap. secundum, de 
+          Lo<lb break="no" ed="#P" n="84"/>cato. Et eadem ratio est de quolibet alio justo
+          <lb ed="#P" n="85"/>contractu, ut satis indicatur in Clem. 1, de
+          <lb ed="#P" n="86"/>Reb. eccles. non alien., in fine; ut autem 
+          con<lb break="no" ed="#P" n="87"/>tractus sit justus, necesse est imprimis ut jure
+          <lb ed="#P" n="88"/>canonico non sit prohibitus, ut in dicta 
+          Cle<lb break="no" ed="#P" n="89"/>men., et cap. JVulli, de Reb. Eccles. non alien.,
+          <lb ed="#P" n="90"/>ubi constat maxime necessarium esse, ut 
+          con<lb break="no" ed="#P" n="91"/>tractus in alienationem jurium Ecclesiae, seu
+          <lb ed="#P" n="92"/>bonorum immobilium, non transeat; haec
+          <lb ed="#P" n="93"/>enim maxime prohibita est. Reputatur autem
+          <lb ed="#P" n="94"/>alienatio, quando est locatio perpetua, seu ad
+          <lb ed="#P" n="95"/>longum tempus, ut notant Glossa, et 
+          Docto<lb break="no" ed="#P" n="96"/>res, in dicto cap. 2, de Locat., qui tempus
+          <lb ed="#P" n="97"/>illud dicunt esse decennium; nam infra il'ud
+          <lb ed="#P" n="98"/>ex jure communi tempus reputatur breve, ut
+          <lb ed="#P" n="99"/>de septennio habetur in cap. ultim. Ne 
+          pre<lb break="no" ed="#P" n="100"/>lati vices suas; et notat Glossa in dicta 
+          Cle<lb break="no" ed="#P" n="101"/>ment. 1. At vero Pius II, in Extravagant. 
+          Am<lb break="no" ed="#P" n="102"/>bitiose, de Rebus cccles. non alienan., hoc
+          <lb ed="#P" n="103"/>tempus contraxit ad triennium, et irritavit
+          <lb ed="#P" n="104"/>omnem locationem aut venditionem longioris
+          <lb ed="#P" n="105"/>temporis. Quae constitutio servanda est, ubi
+          <lb ed="#P" n="106"/>non fuerit contraria consuetudine derogata.
+          <lb ed="#P" n="107"/>Undea fortiori fit, etiam concessionem ad 
+          vi<lb break="no" ed="#P" n="108"/>tam esse prohibitam auctoritate privata, vel
+          <lb ed="#P" n="109"/>etiam Episcopi, ut notavit Abbas, in cap.
+          <lb ed="#P" n="110"/>Quams, de Decim, Quia concessio ad vitam
+          <pb ed="#P" n="188"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non potest brevis temporis existimari, quod
+          <lb ed="#P" n="2"/>etiam de jure communi ille affirmat, et 
+          vide<lb break="no" ed="#P" n="3"/>tur verum. Oportet autem considerare, hanc
+          <lb ed="#P" n="4"/>prohibitionem non esse tantum in ordine ad
+          <lb ed="#P" n="5"/>laicos, sed ctiam ad clericos, quia etiam inter
+          <lb ed="#P" n="6"/>ecclesias, monasteria, vel Episcopos non 
+          li<lb break="no" ed="#P" n="7"/>cent iuae alienationes, et ideo nihil habent 
+          pe<lb break="no" ed="#P" n="8"/>culiare quod ad praesens pertineat.
+        </p>
+        <p>
+          <lb ed="#P" n="9"/>10. Decimas pro stipendia conferri laicis
+          <lb ed="#P" n="10"/>posse. — Alio etiam modo possunt decimae
+          <lb ed="#P" n="11"/>conferri laico per modum teniporalis 
+          stipen<lb break="no" ed="#P" n="12"/>dii : sic enim potest laicus accipere ab 
+          eccle<lb break="no" ed="#P" n="13"/>sia particulari, vel ab Episcopo portionem 
+          ali<lb break="no" ed="#P" n="14"/>quam in fructibus decimarum pro obsequio
+          <lb ed="#P" n="15"/>exhibito ecclesiae, vel in cantu publico, vel in
+          <lb ed="#P" n="16"/>docenda grammatica, vel in alio simili 
+          obse<lb break="no" ed="#P" n="17"/>quio quod per laicos exerceri potest; et tunc
+          <lb ed="#P" n="18"/>laicus non suo jure spirituali, sed ecclesiae,
+          <lb ed="#P" n="19"/>vel episcopi auctoritate recipit fructus illos,
+          <lb ed="#P" n="20"/>tanquam mercedem pro temporah obsequio.
+          <lb ed="#P" n="21"/>De quo etiam modo percipiendi decimas, nulla
+          <lb ed="#P" n="22"/>est difficultas quin licitus esse possit, quia in
+          <lb ed="#P" n="23"/>eo non conceduntur decimmae laicis, ut aliquam
+          <lb ed="#P" n="24"/>spiritualitatem habent, sed ut sunt quid mere
+          <lb ed="#P" n="25"/>temporale, et justo titulo, et ab habente 
+          po<lb break="no" ed="#P" n="26"/>testatem, ut supponitur, largiuntur. Unde
+          <lb ed="#P" n="27"/>tunc etiam usus decimarum non a laico, seda
+          <lb ed="#P" n="28"/>clerico, vel ecclesia exercetur, et per illum
+          <lb ed="#P" n="29"/>usum fit, ut pars illa decimarum ad 
+          tempo<lb break="no" ed="#P" n="30"/>ralem (ut sic dicam) statum transferatur ex
+          <lb ed="#P" n="31"/>justa causa, ut sit justum pretium corporalis
+          <lb ed="#P" n="32"/>laboris, vel obsequii pretio aestimabilis. Et in
+          <lb ed="#P" n="33"/>hoc genere concessionis nulla videtur facta in
+          <lb ed="#P" n="34"/>jure temporis limitatio, sed potest ad 
+          decen<lb break="no" ed="#P" n="35"/>nium, et ad vitam alicujus fieri ; in hoc enim
+          <lb ed="#P" n="36"/>contractu ecclesia, vel ecclesiastica persona
+          <lb ed="#P" n="37"/>non locat bona ecclesiae, sed conducit potius
+          <lb ed="#P" n="38"/>alterius operas, quas potest ad longum tempus
+          <lb ed="#P" n="39"/>conducere, quod illi prohibitum non est, imo
+          <lb ed="#P" n="40"/>in usu ita servatur.
+        </p>
+        <p>
+          <lb ed="#P" n="41"/>11. Alius modus conferendi decimas laicis
+          <lb ed="#P" n="42"/>ger donationes. — Ad alium modum 
+          conce<lb break="no" ed="#P" n="43"/>dendi decimas laicis, per superiorem et 
+          uni<lb break="no" ed="#P" n="44"/>versalem potestatem dispensandi ecclesiastica
+          <lb ed="#P" n="45"/>bona, spectant maxime liberales donationes
+          <lb ed="#P" n="46"/>decimarum, quae interdum fieri solent laicis
+          <lb ed="#P" n="47"/>per legitimam potestatem. Sic enim reges et
+          <lb ed="#P" n="48"/>principes saeculares solent interdum percipere
+          <lb ed="#P" n="49"/>tertiam vel quartam partem decimarum, vel
+          <lb ed="#P" n="50"/>certa quaedam subsidia aut alia genera 
+          contri<lb break="no" ed="#P" n="51"/>butionum, ex ecclesiasticis decimis. Hoc-
+          au<lb break="no" ed="#P" n="52"/>tem posse esse licitum, praxis Ecclesia 
+          osten<lb break="no" ed="#P" n="53"/>dit; nec enim verisimile est, tam frequentem
+          <lb ed="#P" n="54"/>consuetudinem inter catholicos principes, 
+          con<lb break="no" ed="#P" n="55"/>sentientibus Pontificibus, honestari non posse.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Nec etiam ostendi potest iu illo usu 
+          decima<lb break="no" ed="#P" n="57"/>rum intrinseca malitia, ut licitus esse non
+          <lb ed="#P" n="58"/>valeat. Multa vero concurrere necessarium est,
+          <lb ed="#P" n="59"/>ut sancte fiat. Primum enim certum est, id
+          <lb ed="#P" n="60"/>non posse fieri propria auctoritate, et 
+          potes<lb break="no" ed="#P" n="61"/>tate ipsorum principum saecularium : sive
+          <lb ed="#P" n="62"/>enim illi usurpare tentent hoc jus, sive aliis
+          <lb ed="#P" n="63"/>concedere, injuste faciunt, et res Ecclesiae 
+          ra<lb break="no" ed="#P" n="64"/>piunt ; unde neque ipsi, neque illi quibus eas
+          <lb ed="#P" n="65"/>concedunt, retinere illas possunt, et varias
+          <lb ed="#P" n="66"/>censuras incurrunt, ut constat ex omnibus
+          <lb ed="#P" n="67"/>titulis de Reb. eccles. non alien., et ex cap.
+          <lb ed="#P" n="68"/>Prohibemus, et cap. Tua, 1, de Decim., et in
+          <lb ed="#P" n="69"/>Bulla Canae clausula 17.
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>12. Has concessiones a Pontifice fieri. —
+          <lb ed="#P" n="71"/>Oportet ergo ut talis concessio per 
+          ecclesiasti<lb break="no" ed="#P" n="72"/>cam potestatem fiat. Quam potestatem sine
+          <lb ed="#P" n="73"/>controversia habet Summus Pontifex, nam in
+          <lb ed="#P" n="74"/>omni genere gubernationis et 
+          administratio<lb break="no" ed="#P" n="75"/>nis ecclesiasticae, habet supremam potestatem.
+          <lb ed="#P" n="76"/>Item quia haec potestas moraliter necessaria
+          <lb ed="#P" n="77"/>est ad bonum Ecclesiae universale, et 
+          com<lb break="no" ed="#P" n="78"/>mune; ergo non deest ipsi Ecclesie; ergo
+          <lb ed="#P" n="79"/>maxime est in Pontifice, nam per illum omnis
+          <lb ed="#P" n="80"/>similis potestas ad Ecclesiam manat, ut alibi
+          <lb ed="#P" n="81"/>ostensum est. Denique ex usu ipso id constat;
+          <lb ed="#P" n="82"/>sepe enim Pontifices, cum regibus Hispaniae,
+          <lb ed="#P" n="83"/>et Galliae, hac gratia usi sunt, ut videre licet
+          <lb ed="#P" n="84"/>in Covarr., libr. Pract. quaest., cap. 35; 
+          he<lb break="no" ed="#P" n="85"/>buff., quaest. 10, de Decim. An vero Episcopi
+          <lb ed="#P" n="86"/>inferiores hanc potestatem participent, infra
+          <lb ed="#P" n="87"/>dicemus. Denique necessarium est ut talis
+          <lb ed="#P" n="88"/>concessio ex legitima causa fiat, qualis 
+          inter<lb break="no" ed="#P" n="89"/>dum sumitur ex magrnis obsequiis ac 
+          benefi<lb break="no" ed="#P" n="90"/>ciis ab aliquo rege aut principe in Ecclesiam
+          <lb ed="#P" n="91"/>collatis, praesertim quando facta sunt cum
+          <lb ed="#P" n="92"/>magnis expensis, ac laboribus, nam 
+          hujusmo<lb break="no" ed="#P" n="93"/>di gratitudo et remuneratio ad universale 
+          bo<lb break="no" ed="#P" n="94"/>num Ecclesiae necessaria est, ut constat, et
+          <lb ed="#P" n="95"/>indicavit D. Thomas, dicto Quodlib. 2, art. 8.
+          <lb ed="#P" n="96"/>ad argum. Aliquando vero haec concessio fit
+          <lb ed="#P" n="97"/>per modum subsidii propter imminentes 
+          ne<lb break="no" ed="#P" n="98"/>cessitates ad resistendum infidelibus et 
+          haere<lb break="no" ed="#P" n="99"/>ticis, et aliis Ecclesiae hostibus. Saepe vero
+          <lb ed="#P" n="100"/>conceduntur decimae in feudum cum aliqua
+          <lb ed="#P" n="101"/>recognitione et obligatione alicujus obsequii,
+          <lb ed="#P" n="102"/>vel adjutorii in certis occasionibus, vel 
+          neces<lb break="no" ed="#P" n="103"/>sitatibus, in quo etiam habetur ratio 
+          gratitu<lb break="no" ed="#P" n="104"/>dinis, et defensionis Ecclesiae, simulque id
+          <lb ed="#P" n="105"/>pertinet ad quemdam splendorem et 
+          auctori<lb break="no" ed="#P" n="106"/>tatem Ecclesise, ut praelati ejus in majori 
+          ve<lb break="no" ed="#P" n="107"/>neratione ac honore, etiam a temporalibus
+          <lb ed="#P" n="108"/>principibus, habeantur. An vero talis conces -
+          <lb ed="#P" n="109"/>sio possit esse perpetua, capite sequenti, 
+          dice<lb break="no" ed="#P" n="110"/>mus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

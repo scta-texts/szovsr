@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="322"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k08051"><!-- t2-l2c17 -->
+        <head>Caput 17</head>
+        <head type="question-title">Sola corporalia opera esse prohibita in die festo, non tamen omnia.</head>
+        <p>
+          <lb ed="#P" n="90"/>CAPUT XVII.
+          <lb ed="#P" n="91"/>SOLA CORPORALIA OPERA ESSE PROHIBITA IN DIE
+          <lb ed="#P" n="92"/>FESTO, NON TAMEN OMNIA.
+        </p>
+        <p>
+          <lb ed="#P" n="93"/>1. Incipimus de altera parte hujus praecepti
+          <lb ed="#P" n="94"/>agere, quae negativa est, et longiorem 
+          dispu<lb break="no" ed="#P" n="95"/>tationem requirit, quia in illo loco iertii tomi
+          <lb ed="#P" n="96"/>nihil de illa diximus. Ad illam ergo 
+          explican<lb break="no" ed="#P" n="97"/>dam, suppono primo praecipi fidelibus 
+          vaca<lb break="no" ed="#P" n="98"/>tionem quamdam ab opcribus in die festo.
+          <lb ed="#P" n="99"/>Hoc constat ex jure, nam in cap. 1de Feriis,
+          <lb ed="#P" n="100"/>dicitur esse abstinendum ab opere illicito, et
+          <lb ed="#P" n="101"/>in c. Licet ab omni opere servili, et in c. 
+          Con<lb break="no" ed="#P" n="102"/>questus, et in aliis locis, alia opera 
+          prohiben<lb break="no" ed="#P" n="103"/>tur, ut infra videbimus. Praeterea Clemens,
+          <lb ed="#P" n="104"/>lib. 8 Constit., cap. 33, his verbis explicat hoc
+          <lb ed="#P" n="105"/>praeceptum : Omnes fideles die dominico vacent
+          <lb ed="#P" n="106"/>in ecclesia, et infra, vacent servi, indicans, 
+          va<lb break="no" ed="#P" n="107"/>cationem debere esse ab opcre servili: in sex-
+          <pb ed="#P" n="323"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ta etiam Synodo, cap. 8, prohibentur in 
+          die<lb break="no" ed="#P" n="2"/>bus festis corporalia opera, praeter ea quae 
+          ne<lb break="no" ed="#P" n="3"/>cessaria sunt ad victum, vel similia; in 
+          Conci<lb break="no" ed="#P" n="4"/>lio Aureliano IIT, c. 27, abstinendum dicitur ab
+          <lb ed="#P" n="5"/>opere rurali ; in Concilio Antisi., c.16, dicitur:
+          <lb ed="#P" n="6"/>Non licet in die dominico boves jungere, aut
+          <lb ed="#P" n="7"/>alia opera facere, utique similia. Quod 
+          pluri<lb break="no" ed="#P" n="8"/>bus verbis explicatur in Concilio Matiscon. IT,
+          <lb ed="#P" n="9"/>cap. 1, ubi non tantum servilia opera 
+          nume<lb break="no" ed="#P" n="10"/>rantur, sed quaedam alia, de quibus infra; et
+          <lb ed="#P" n="11"/>similiter in Concilio Maguntiu., sub Carolo,
+          <lb ed="#P" n="12"/>cap. 36, 37, dicitur esse prohibitum opus 
+          ser<lb break="no" ed="#P" n="13"/>vile, cujus aliqua exempla inde colliguntur,
+          <lb ed="#P" n="14"/>scilicet, arare, seminare, hortum vel vineam
+          <lb ed="#P" n="15"/>colere, aut sepem circumdare ; deinde 
+          addun<lb break="no" ed="#P" n="16"/>tur alia opera, quae forensia possumus 
+          appel<lb break="no" ed="#P" n="17"/>lare, de quibus postea. Denique communi 
+          tra<lb break="no" ed="#P" n="18"/>ditione et consuetudine Ecclesiae hoc 
+          rece<lb break="no" ed="#P" n="19"/>ptum est, et omnes Doctores in hoc 
+          conve<lb break="no" ed="#P" n="20"/>niunt.
+        </p>
+        <p>
+          <lb ed="#P" n="21"/>2. Quam sit antiqguum preceptum quoad hoc.
+          <lb ed="#P" n="22"/>—Sed dubitabit aliquis quam sit antiquum
+          <lb ed="#P" n="23"/>hoc praeceptum, quoad hanc partem; videtur
+          <lb ed="#P" n="24"/>enim ex dictis sequi, non esse admodum 
+          anti<lb break="no" ed="#P" n="25"/>quum ; nam jura, quae habentur in 
+          Decretali<lb break="no" ed="#P" n="26"/>bus, recentiora sunt Alia vero, quae adduximus,
+          <lb ed="#P" n="27"/>non probant majorem antiquitatem, nam 
+          quae<lb break="no" ed="#P" n="28"/>dam non habent sufficientem auctoritatem ad
+          <lb ed="#P" n="29"/>vim praecepti, ut libri Clementis. Alia verofere
+          <lb ed="#P" n="30"/>omnia sunt Concilia Provincialia, praeter 
+          sex<lb break="no" ed="#P" n="31"/>tam Synodum, cujus decretum obscurum est,
+          <lb ed="#P" n="32"/>quia videtur plus prohibere, quam prohibitum
+          <lb ed="#P" n="33"/>revera sit, vel unquam fuerit, ut mox dicemus.
+          <lb ed="#P" n="34"/>Et ideo posset aliter quam de proprio 
+          praece<lb break="no" ed="#P" n="35"/>pto exponi, quia verba in rigore non omninc
+          <lb ed="#P" n="36"/>cogunt. Augct ergo praeterea difficultatem
+          <lb ed="#P" n="37"/>modus loquendi Concilii Laodicen., c. 29. Cum
+          <lb ed="#P" n="38"/>enim dixisset, non oportere Christianos 
+          ju<lb break="no" ed="#P" n="39"/>daizare ( quod mox exponemus), subdit: 
+          Prae<lb break="no" ed="#P" n="40"/>ferentes autem in veneratione dominicum diem,
+          <lb ed="#P" n="41"/>sivacare voluerint, ut Christiani hoc faciant.
+        </p>
+        <p>
+          <lb ed="#P" n="42"/>3. Nihilominus tamen certum est, ante 
+          sex<lb break="no" ed="#P" n="43"/>tam Synodum, et ante omnia dicta Concilia
+          <lb ed="#P" n="44"/>Provincialia, fuisse in Ecclesia hanc 
+          observan<lb break="no" ed="#P" n="45"/>tiam sub praecepto, ut colligitur ex dicto loco
+          <lb ed="#P" n="46"/>Clementis, et ex omnibus quibus supra 
+          proba<lb break="no" ed="#P" n="47"/>vimus translationem diei sabbathi in diem 
+          do<lb break="no" ed="#P" n="48"/>minicum. Dicunt enim Patres factam esse
+          <lb ed="#P" n="49"/>translationem quoad quietem, ct vacationem
+          <lb ed="#P" n="50"/>quamdam ab operibus profanis, seu a labore
+          <lb ed="#P" n="51"/>terreno, ut dixit Gregorius, lib. 11 Epst., in 3.
+          <lb ed="#P" n="52"/>Constat autem ex ipi dictis, translationem 
+          ii<lb break="no" ed="#P" n="53"/>lam esse antiquiorem Synodo Laodicena. item
+          <lb ed="#P" n="54"/>Hieronymus et Augustinus hujus tradit onis
+          <lb ed="#P" n="55"/>testes sunt, et ejusdem fere aetatis, id est, non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>multo tempore post Laodicenam Synodum, et
+          <lb ed="#P" n="57"/>tamen loquuntur de illa consuetudine, ut 
+          an<lb break="no" ed="#P" n="58"/>tiqua, et vetusta suo saeculo. Hierony mus,
+          <lb ed="#P" n="59"/>Epist. 22 ad Eustochium, cap. decimo quinto,
+          <lb ed="#P" n="60"/>dicit monachos JEgypti solitos fuisse laborare
+          <lb ed="#P" n="61"/>per hebdomadam, vacare autem die dominica,
+          <lb ed="#P" n="62"/>utique propter Ecclesiae praeceptum; 
+          Augus<lb break="no" ed="#P" n="63"/>tinus vero, serm. 215: Siinfelices Judeitanta
+          <lb ed="#P" n="64"/>devotione celebrant sabbathum, ut in eo nulla
+          <lb ed="#P" n="65"/>opera terrena ezerceant, quanto magis 
+          Christia<lb break="no" ed="#P" n="66"/>ni in die dominico soli Deo vacare, et pro 
+          ani<lb break="no" ed="#P" n="67"/>ma swue salute debent ad ecclesiam concenire.
+          <lb ed="#P" n="68"/>Ex pressius serm. 251: Sciendum est (ait) quod
+          <lb ed="#P" n="69"/>ideo a sanctis Patribus nostris constitutum est
+          <lb ed="#P" n="70"/>Christianis et mandatum , ut in 
+          solemnitati<lb break="no" ed="#P" n="71"/>bus Sanctorum, et maaxime in dominicis diebus
+          <lb ed="#P" n="72"/>otiun haberent, et a negotio terreno cacarent,
+          <lb ed="#P" n="73"/>ut paratiores el promptiores essent ad divinua
+          <lb ed="#P" n="74"/>cultum ; infra vero, per sanctos Patres exponit
+          <lb ed="#P" n="75"/>Apostolos, et apostolicos viros. Quomodo autem
+          <lb ed="#P" n="76"/>Concilium Laodicenum intelligendum sit, 
+          sta<lb break="no" ed="#P" n="77"/>tim dicam. Hoc ergo praeceptum non est de
+          <lb ed="#P" n="78"/>novo latum, quoad substantiam suam, in illis
+          <lb ed="#P" n="79"/>juribus quae habentur sub titulo de Feriis;
+          <lb ed="#P" n="80"/>sed ibi scriptum est quod traditione jam 
+          habe<lb break="no" ed="#P" n="81"/>batur, et fortasse quoad aliquid vel auctum,
+          <lb ed="#P" n="82"/>vel magis declaratum est.
+        </p>
+        <p>
+          <lb ed="#P" n="83"/>5. Diversa est cessatio ab opere in 
+          Chris<lb break="no" ed="#P" n="84"/>tiano, atque in Judao. — Secundo 
+          supponen<lb break="no" ed="#P" n="85"/>dum est, cessationem ab operibus, aliter 
+          Chris<lb break="no" ed="#P" n="86"/>tianis praecipi in diebus festis, quam 
+          praeci<lb break="no" ed="#P" n="87"/>piebatur Judaeis ; nam Christianis non fit tam
+          <lb ed="#P" n="88"/>arcta prohibitio operum in die dominico, sicut
+          <lb ed="#P" n="89"/>Judaeis fiebat in sabbatho, ut notat Abulens.,
+          <lb ed="#P" n="90"/>Exod. 20, q. 13; et patet, tum quia multa
+          <lb ed="#P" n="91"/>opera nunc permittuntur Christianuis in festis,
+          <lb ed="#P" n="92"/>quae non permittebantur Judaeis in sabbatho,
+          <lb ed="#P" n="93"/>de quibus iufra; tum etiam quia in lege nova
+          <lb ed="#P" n="94"/>faeile conceditur licentia laborandi in festo,
+          <lb ed="#P" n="95"/>quae in lege veteri non concedebatur. Ratio
+          <lb ed="#P" n="96"/>vero est, quia Judaeis omnia contingebant in
+          <lb ed="#P" n="97"/>figuram. quae debet esse maxime conformis
+          <lb ed="#P" n="98"/>rei significatae, et invariata manere; unde
+          <lb ed="#P" n="99"/>quia per sabbathum repraesentabatur quies
+          <lb ed="#P" n="100"/>Dei ab operibus exercendis, ideo tam arcte
+          <lb ed="#P" n="101"/>praecipiebatur illud otium; item illa 
+          prohi<lb break="no" ed="#P" n="102"/>bitio erat juris divini, et ideo immobilior
+          <lb ed="#P" n="103"/>erat.
+        </p>
+        <p>
+          <lb ed="#P" n="104"/>5. Hinc saepe Patres cavendum praecipiunt
+          <lb ed="#P" n="105"/>Christianis, ne more Judaeorum in die 
+          domi<lb break="no" ed="#P" n="106"/>uico otientur, et hoc modo intelligi potest
+          <lb ed="#P" n="107"/>Concilium Laodicenum, nam sic habet : Quod
+          <lb ed="#P" n="108"/>non oporteat Christianos judaizare et otiari in
+          <lb ed="#P" n="109"/>sabbatho, sed ipsos eodem die operari; quod
+          <lb ed="#P" n="110"/>autem subjungit : Praeferentes autem domini-
+          <pb ed="#P" n="324"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cam, dupliciter potest intelligi. Primo, ut 
+          do<lb break="no" ed="#P" n="2"/>minicam praeferant sabbatho, otiantes 
+          nimi<lb break="no" ed="#P" n="3"/>rum illa ex praecepto; et nihilominus, si etiam
+          <lb ed="#P" n="4"/>sabbatho vacare voluerint, u Christiani hoc
+          <lb ed="#P" n="5"/>faciant. Secundo potest sic legi : Uft si in die
+          <lb ed="#P" n="6"/>dominico vacare voluerint, ut Christiani hoc
+          <lb ed="#P" n="7"/>faciant ; si autem judaicare inveniantur, 
+          em<lb break="no" ed="#P" n="8"/>communicentur ; non vero ideo dictum est sub
+          <lb ed="#P" n="9"/>ea conditione, quia tunc non esset necessaria
+          <lb ed="#P" n="10"/>ex praecepto, sed voluntaria, vacatio 
+          Christia<lb break="no" ed="#P" n="11"/>na in dominica ; sed vel quia possunt vacare
+          <lb ed="#P" n="12"/>fideles plusquam teneantur, et ab operibus
+          <lb ed="#P" n="13"/>non omnino prohibitis cessare, quod ait 
+          Con<lb break="no" ed="#P" n="14"/>cilium posse fieri licite, dummodo christiano
+          <lb ed="#P" n="15"/>spiritu et modo, et non judaico fiat; vel torte
+          <lb ed="#P" n="16"/>legendum est : Si caluerint, nam alia versio
+          <lb ed="#P" n="17"/>habet : Si modo possint. Eamdem doctrinam
+          <lb ed="#P" n="18"/>observavit Concilium Kurel. IlI, c. 27, ubi 
+          re<lb break="no" ed="#P" n="19"/>fert quosdam persuasisse populis die dominico
+          <lb ed="#P" n="20"/>cum. caballis, et bobus , et vehiculis itinerari
+          <lb ed="#P" n="21"/>non debere, neque ullam rem ad victum 
+          pre<lb break="no" ed="#P" n="22"/>parare, eic., quge res (ait) ad Judeam, magis
+          <lb ed="#P" n="23"/>quam ad observantiam Christianam pertinere
+          <lb ed="#P" n="24"/>probatur. Eumdem errorem ex professo 
+          dam<lb break="no" ed="#P" n="25"/>nat Gregorius, d. epist. 3, 1. 11, docens 
+          con<lb break="no" ed="#P" n="26"/>tra fidem esse, otium sabbathi ad litteram
+          <lb ed="#P" n="27"/>custodire, non solum quoad diem, sed etiam
+          <lb ed="#P" n="28"/>quoad modum otiandi; et specialiter damnat
+          <lb ed="#P" n="29"/>quosdam, qui dicebant non licere die 
+          domi<lb break="no" ed="#P" n="30"/>nico toto corpore lavari, etiam pro necessitate
+          <lb ed="#P" n="31"/>corporis.
+        </p>
+        <p>
+          <lb ed="#P" n="32"/>6. Hoc praecepto solum corporalia 
+          prohi<lb break="no" ed="#P" n="33"/>bentur opera.—tertio statuendum est, opera,
+          <lb ed="#P" n="34"/>quae hoc praecepto prohibentur, esse tantum
+          <lb ed="#P" n="35"/>externa et corporalia. Ita sumitur ex D. 
+          Tho<lb break="no" ed="#P" n="36"/>ma supra, dicta quaest. 122, art. 4, et ex als
+          <lb ed="#P" n="37"/>Doctoribus statim referendis. Et probatur
+          <lb ed="#P" n="38"/>primo ratione generali, qua comprehendat
+          <lb ed="#P" n="39"/>etiam legem divinam datam Judaeis de 
+          obser<lb break="no" ed="#P" n="40"/>vatione sabbathi, quia illa lex tantum data
+          <lb ed="#P" n="41"/>est de cultu esteriori Dei; ergo solum 
+          praeci<lb break="no" ed="#P" n="42"/>piebat vacationem ab operibus externis et 
+          cor<lb break="no" ed="#P" n="43"/>poralibus ; ergo opera prohibita tantum 
+          cor<lb break="no" ed="#P" n="44"/>poralia sunt. Secundo ratione speciah de lege
+          <lb ed="#P" n="45"/>Ecclesise, quia Ecclesia non praecipit nec 
+          pro<lb break="no" ed="#P" n="46"/>hibet internos actus secundum se, sed per se
+          <lb ed="#P" n="47"/>versatur juxta externos, de internis autem 
+          so<lb break="no" ed="#P" n="48"/>lum disponit, quatenus cum externis connexi
+          <lb ed="#P" n="49"/>sunt ; ergo durm praecipit vacare in diebus 
+          fes<lb break="no" ed="#P" n="50"/>tis, externam et corporalem cessationem ab
+          <lb ed="#P" n="51"/>operibus mandat: ergo, dum prohibet 
+          servi<lb break="no" ed="#P" n="52"/>lia opera, prohibet opera corporalia et 
+          exter<lb break="no" ed="#P" n="53"/>na. Quod etiam nomen ipsum servilium 
+          ope<lb break="no" ed="#P" n="54"/>rum prae se fert; nam interna opera animae
+          <lb ed="#P" n="55"/>non sunt servilia, ut per se constat.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>7. Non omnia corporalia opera prohibita.—
+          <lb ed="#P" n="57"/>HEnodatur.—CQuarto suppono non omnia 
+          cor<lb break="no" ed="#P" n="58"/>poralia opera esse prohibita Christianis in die
+          <lb ed="#P" n="59"/>festo. Hoc non indiget probatione, nam usu
+          <lb ed="#P" n="60"/>ipso satis constat, et praeterea etiam colligitur
+          <lb ed="#P" n="61"/>ex ipsa lege ; non enim sine causa addita est
+          <lb ed="#P" n="62"/>illa particula servile, cum dictum est: Omne
+          <lb ed="#P" n="63"/>opus servile non facietis in eo, sed ne omne
+          <lb ed="#P" n="64"/>opus corporale, et externum, prohibitum 
+          pu<lb break="no" ed="#P" n="65"/>taretur. Praeterea idem patet inductione, nam
+          <lb ed="#P" n="66"/>iter agere, scribere, loqui, et similia, opera
+          <lb ed="#P" n="67"/>corporalia sunt, et tamen prohibita non sunt,
+          <lb ed="#P" n="68"/>ut constat. Sed objici potest, quia Exod. 20
+          <lb ed="#P" n="69"/>absolute dictum est: Non facietis omne ogus in
+          <lb ed="#P" n="70"/>e0 ; et Levit. 23: Omne opus non racietis in eo;
+          <lb ed="#P" n="71"/>ergo simpliciter omnia opera prohibentur in
+          <lb ed="#P" n="72"/>die festo, nam Ecclesia suum praeceptum tulit
+          <lb ed="#P" n="73"/>ad imitationem illius. Ad hoc vero uno 
+          ver<lb break="no" ed="#P" n="74"/>bo responderi posset ex dictis, praeceptum
+          <lb ed="#P" n="75"/>Ecclesiae sumptum esse ad imitationem, non
+          <lb ed="#P" n="76"/>vero ad aequalitatem praecepti antiqui.
+        </p>
+        <p>
+          <lb ed="#P" n="77"/>8. Oportet autem ultra considerare, in lege
+          <lb ed="#P" n="78"/>veteri non fuisse aequalem hanc 
+          prohibitio<lb break="no" ed="#P" n="79"/>nem pro sabbatho et omnibus festis; nam
+          <lb ed="#P" n="80"/>pro sabbatho tam generalis erat prohibitio, ut
+          <lb ed="#P" n="81"/>nec cibos illo die praeparare liceret, sed 
+          pro<lb break="no" ed="#P" n="82"/>ximo praecedenti die praeparari debebant, 
+          un<lb break="no" ed="#P" n="83"/>de parasceve vocabatur (ut multi 
+          interpretan<lb break="no" ed="#P" n="84"/>tur), et in deserto non permittebantur manna
+          <lb ed="#P" n="85"/>colligere in sabbatho ; ideo enim eis non 
+          da<lb break="no" ed="#P" n="86"/>batur, sed feria sexta pro utroque die 
+          colli<lb break="no" ed="#P" n="87"/>cebant illud. At vero in festivitatibus 
+          ordina<lb break="no" ed="#P" n="88"/>rie non prohibebantur praeparare cibos, ut
+          <lb ed="#P" n="89"/>Exod. 12 expresse dicitur de die primo et 
+          ul<lb break="no" ed="#P" n="90"/>timo Azymorum: JVilül operis fucietis in eis,
+          <lb ed="#P" n="91"/>eaceptis his quae ad cescendum pertinent. Unde
+          <lb ed="#P" n="92"/>in ipsis etiam Seripturae verbis notari potest
+          <lb ed="#P" n="93"/>haec differentia ; interdum enim simphliciter 
+          di<lb break="no" ed="#P" n="94"/>citur: JVon facietis omne opus, ut in citatis 
+          lo<lb break="no" ed="#P" n="95"/>cis ; interdum additur, non facietis omne opus
+          <lb ed="#P" n="96"/>serviie, ut de primo et septimo die Azymorum
+          <lb ed="#P" n="97"/>dicitur, Levit. 23. Per hanc enim differentiam
+          <lb ed="#P" n="98"/>notatur non fuisse aequalem prohibitionem,
+          <lb ed="#P" n="99"/>nam priora verba indicant, neque ignem 
+          in<lb break="no" ed="#P" n="100"/>cendi, nec cibos parari, nec aliud simile opus,
+          <lb ed="#P" n="101"/>etiam necessarium ad vitam, fieri potuisse 
+          il<lb break="no" ed="#P" n="102"/>lo die, quando antea praeveniri poterat; per
+          <lb ed="#P" n="103"/>alia autem verba notatur haec opera non fuisse
+          <lb ed="#P" n="104"/>prchibita, sed tantum servilia. Quam 
+          differen<lb break="no" ed="#P" n="105"/>tiam notavit noster hibera, lib. 5 de Templo,
+          <lb ed="#P" n="106"/>etc., c. 5, cum Abulen., Exod. 20, q. 13,et
+          <lb ed="#P" n="107"/>Lev.97 q. T.
+        </p>
+        <p>
+          <lb ed="#P" n="108"/>9. Quid prohibitum Judmis in sabbatho. —
+          <lb ed="#P" n="109"/>Cur Hcclesia non fuerit imitata Judaici 
+          sabba<lb break="no" ed="#P" n="110"/>thi quietem. — VFatemur ergo in die sabbatlu
+          <pb ed="#P" n="325"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prohibita fuisse Judaeis non tantum opera
+          <lb ed="#P" n="2"/>servilia, sed etiam alia ; et in die festo 
+          Expia<lb break="no" ed="#P" n="3"/>tionis, die decimo septembris, aequalis 
+          cense<lb break="no" ed="#P" n="4"/>tur fuisse prohibitio, quia Levit. 16 de festo
+          <lb ed="#P" n="5"/>illo specialiter dicitur: Afffigetis animas 
+          ves<lb break="no" ed="#P" n="6"/>tras, nilhilgue operis facietis in eo; et c. 23
+          <lb ed="#P" n="7"/>dicitur: Omnis anima, quae operis quicquam
+          <lb ed="#P" n="8"/>fecerit, delebo eun de populo meo, mihil ergo
+          <lb ed="#P" n="9"/>operis facietis in eo. Verum est, paulo inferius
+          <lb ed="#P" n="10"/>ibi addi opus servile, et Num. 29; tamen ut
+          <lb ed="#P" n="11"/>dicti auctores notant, nec in hebraeo, nec in
+          <lb ed="#P" n="12"/>graeco est additio illa servile; et Abulens. 
+          no<lb break="no" ed="#P" n="13"/>tat, illo die solitos fuisse Judaeos abstinere a
+          <lb ed="#P" n="14"/>cibo et potu per totum diem, et ab uxoribus,
+          <lb ed="#P" n="15"/>a balneis, calceamentis, et ab omni occasione
+          <lb ed="#P" n="16"/>gaudii vel delectationis. In aliis autem 
+          festi<lb break="no" ed="#P" n="17"/>vitatibus non prohibebantur haec, sed tantum
+          <lb ed="#P" n="18"/>opera servilia ; Ecclesia ergo quoad hoc, 
+          po<lb break="no" ed="#P" n="19"/>tius alia festa quam sabbathum imitata est.
+          <lb ed="#P" n="20"/>Et ratio est, quam attigit D. Thomas, dicta q.
+          <lb ed="#P" n="21"/>122. art. 4, nam illa quies sabbathi non erat
+          <lb ed="#P" n="22"/>moralis, sed caeremonialis et significativa;
+          <lb ed="#P" n="23"/>Ecclesia autem non amplectitur hanc 
+          vacatio<lb break="no" ed="#P" n="24"/>nem, nisi quatenus moralis est, et ad divinum
+          <lb ed="#P" n="25"/>cultum, et ad convenientem gubernationem
+          <lb ed="#P" n="26"/>accommodata, et ideo non tam generaliter
+          <lb ed="#P" n="27"/>opera prohibet. Adde etiam, in die sabbathi
+          <lb ed="#P" n="28"/>non fuisse Judaeis prohibitas simpliciter 
+          om<lb break="no" ed="#P" n="29"/>nes actiones corporales et externas; nam 
+          po<lb break="no" ed="#P" n="30"/>terant iter agere ad certam mensuram, et 
+          ne<lb break="no" ed="#P" n="31"/>cessaria opera facere, quae praeveniri non 
+          pos<lb break="no" ed="#P" n="32"/>sunt, ut ducere animalia ad adaquandum ea,
+          <lb ed="#P" n="33"/>vel extrahere illa de tovea, si in eam 
+          cade<lb break="no" ed="#P" n="34"/>rent, Matth. 12, Joan. 7, et sumitur ex 1 
+          Ma<lb break="no" ed="#P" n="35"/>chab. 2. Christianis vero non solum haec, sed
+          <lb ed="#P" n="36"/>etiam illa opera, quae praeveniri possunt, si
+          <lb ed="#P" n="37"/>ad usum communem corporis necessaria sint,
+          <lb ed="#P" n="38"/>permittuntur.
+        </p>
+        <p>
+          <lb ed="#P" n="39"/>10. Qua opera corporalia prolbita 
+          Chris<lb break="no" ed="#P" n="40"/>lianis. — Duplez regula ad opus prohibitum
+          <lb ed="#P" n="41"/>agnoscendum .—His positis, difficultas tota 
+          cir<lb break="no" ed="#P" n="42"/>ca hanc partem est in explicando quae opera
+          <lb ed="#P" n="43"/>corporalia, vel laboriosa, in festis prohibita
+          <lb ed="#P" n="44"/>sint, et quae permissa, et qua certa regula
+          <lb ed="#P" n="45"/>discerni possint. Ad hoc ergo explicandum,
+          <lb ed="#P" n="46"/>suppono, inter opera hominis, quaedam esse
+          <lb ed="#P" n="47"/>servilia, quaedam non servilia. quae liberalia,
+          <lb ed="#P" n="48"/>vel spiritualia late dici solent, quam 
+          divisio<lb break="no" ed="#P" n="49"/>nem postea fusius explicaturi sumus: nunc
+          <lb ed="#P" n="50"/>satis sit voces declarare. Servilia enim opera
+          <lb ed="#P" n="51"/>dicuntur, quae commoditatibus corporis 
+          in<lb break="no" ed="#P" n="52"/>serviunt, et ideo per servos fieri solent, ut 
+          ter<lb break="no" ed="#P" n="53"/>ram colere, artificia facere, et similia: ab his
+          <lb ed="#P" n="54"/>vero distinguuntur opera, quibus animus 
+          ex<lb break="no" ed="#P" n="55"/>colitur, ut loqui, legere, docere, etc. Nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quia humana servitus secundum corpus 
+          atten<lb break="no" ed="#P" n="57"/>ditur, animus vero liber est, ideo priora 
+          ope<lb break="no" ed="#P" n="58"/>ra dicuntur servilia, posteriora vero libera.
+          <lb ed="#P" n="59"/>Sunt igitur in hac materia duae generales 
+          re<lb break="no" ed="#P" n="60"/>gulae observandae. Prima est affirmativa et
+          <lb ed="#P" n="61"/>universalis, cum exceptione, videlicet, in
+          <lb ed="#P" n="62"/>festis prohiberi omnia servilia opera, nisi jure
+          <lb ed="#P" n="63"/>vel consuetudine sint exempta. Secunda est
+          <lb ed="#P" n="64"/>negativa, et universalis, cum exceptione, 
+          sci<lb break="no" ed="#P" n="65"/>licet, nulla opera libera prohiberi in die festo,
+          <lb ed="#P" n="66"/>praeter ea quae in jure specialiter 
+          prohiben<lb break="no" ed="#P" n="67"/>tur. Prima regula sufficienter probatur ex cap.
+          <lb ed="#P" n="68"/>Licet, de Feriis, cum aliis in prima 
+          supposi<lb break="no" ed="#P" n="69"/>tione adductis cap. praeced., et illa prius 
+          trac<lb break="no" ed="#P" n="70"/>tanda est, nam de secunda postea dicemus.
+        </p>
+        <p>
+          <lb ed="#P" n="71"/>11. Triplex opus servile. —Ut autem 
+          decla<lb break="no" ed="#P" n="72"/>remus quid sub servili comprehendatur, 
+          tri<lb break="no" ed="#P" n="73"/>plex servile opus distinguere possumus, ex
+          <lb ed="#P" n="74"/>mente D. Thom. 2. 2, q. 122, art. 4, videlicet,
+          <lb ed="#P" n="75"/>religiosum, quod divinum servitium dici 
+          po<lb break="no" ed="#P" n="76"/>test ; peccaminosum, quo dicitur homo 
+          ser<lb break="no" ed="#P" n="77"/>vire peccato aut daemoni; et indifferens, ac
+          <lb ed="#P" n="78"/>humanum, quo unus homo solet alteri servire.
+          <lb ed="#P" n="79"/>Nam opus servile respectu alicujus dicitur,
+          <lb ed="#P" n="80"/>quia per opus servile alicui servitur : ille 
+          au<lb break="no" ed="#P" n="81"/>tem esse non potest, nisi aut Deus, cum quo
+          <lb ed="#P" n="82"/>numerantur Sancti cum ipso regnantes, vel
+          <lb ed="#P" n="83"/>Daemones, seu peccata, vel mortales homines.
+          <lb ed="#P" n="84"/>Ila ergo opera quibus colitur Deus, servilia
+          <lb ed="#P" n="85"/>sunt Deo, quia Latria est quaedam servitus ; est
+          <lb ed="#P" n="86"/>tamen religiosa et divina servitus, quia in
+          <lb ed="#P" n="87"/>Deum terminatur. Peccata vero dicuntur 
+          ser<lb break="no" ed="#P" n="88"/>vilia , quia qui facit peccatum , servus est 
+          pec<lb break="no" ed="#P" n="89"/>cati , ut dicitur Joann. 8: Qsuia unusquisque
+          <lb ed="#P" n="90"/>est servus eyus cui obedit, sive peccati ad 
+          mor<lb break="no" ed="#P" n="91"/>tem, sive obeditionis ad justitiam, ut dicitur ad
+          <lb ed="#P" n="92"/>Rom. 6, et 2 Pet. 2: A quo quis superatus est,
+          <lb ed="#P" n="93"/>ejus et servus est. Opera vero quibus unus 
+          ho<lb break="no" ed="#P" n="94"/>mo minisirat alteri, in his quae ad corpus 
+          per<lb break="no" ed="#P" n="95"/>tinent , indifferentia sunt, et ad servitutem
+          <lb ed="#P" n="96"/>humanam pertinent. De actionibus ergo 
+          pri<lb break="no" ed="#P" n="97"/>mi generis nulla fere est quaestio ; nam in illis
+          <lb ed="#P" n="98"/>actionibus consistit externus Dei cultus, et
+          <lb ed="#P" n="99"/>Sanctorum honor, ad quem cultum 
+          principa<lb break="no" ed="#P" n="100"/>liter festivi dies ordinantur ; non ergo 
+          prohi<lb break="no" ed="#P" n="101"/>bentur in festo opera servitut's divinae, sed
+          <lb ed="#P" n="102"/>potius commendantur. Ouinimo nec talia 
+          ope<lb break="no" ed="#P" n="103"/>ra servilia dici debent , sed maxime libralia,
+          <lb ed="#P" n="104"/>quia servire Deo, regnare est, et quia licet
+          <lb ed="#P" n="105"/>per corpus exerceantur, principaliter 
+          ordinan<lb break="no" ed="#P" n="106"/>tur ad subjiciendam mentem Deo, et ad 
+          exci<lb break="no" ed="#P" n="107"/>tandum animum ad devotionem, et internum
+          <lb ed="#P" n="108"/>Dei obsequium. Potest autem nonnullum 
+          dn<lb break="no" ed="#P" n="109"/>bium moveri circa hanc partem, quod infra
+          <lb ed="#P" n="110"/>commodiori locc expediemus. Nunc de secun-
+          <pb ed="#P" n="326"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>do membro dicendum est, ut, illo etiam 
+          ex<lb break="no" ed="#P" n="2"/>cluso, tertium, quod proprie ad hoc 
+          praece<lb break="no" ed="#P" n="3"/>ptum, et ad primam regulam positam pertinet,
+          <lb ed="#P" n="4"/>clarius explicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

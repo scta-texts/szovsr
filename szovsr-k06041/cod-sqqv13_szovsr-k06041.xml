@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="243"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k06041"><!-- t2-l2prae -->
+        <head>Praeambulum</head>
+        <p>
+          <pb ed="#P" n="243"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SECUNDUS.
+          <lb ed="#P" n="2"/>DE SACRORUM
+          <lb ed="#P" n="3"/>SEU FESTORUM DIBRUM
+          <lb ed="#P" n="4"/>OBSERVATIONE ET PRJECEPTO.
+        </p>
+        <p>
+          <lb ed="#P" n="5"/>Hactenus explicuimus actiones in quibus 
+          ex<lb break="no" ed="#P" n="6"/>ternus Dei cultus continetur, vel ad illum
+          <lb ed="#P" n="7"/>proxime ordinantur; nunc duae circumstantiae
+          <lb ed="#P" n="8"/>ad hujusmodi actiones necessariae explicandae
+          <lb ed="#P" n="9"/>supersunt, qua sunt tempus et locus: nam
+          <lb ed="#P" n="10"/>de his etiam circumstantiis praecepta sunt 
+          da<lb break="no" ed="#P" n="11"/>ta, ad virtutem religionis pertinentia, quorum
+          <lb ed="#P" n="12"/>declaratio ad hunc locum maxime pertinet.
+          <lb ed="#P" n="13"/>Dicemus ergo prius de tempore, postea de loco.
+          <lb ed="#P" n="14"/>De tempore autem duo praecepta data nobis
+          <lb ed="#P" n="15"/>sunt: unum divinum, quod est tertium 
+          Deca<lb break="no" ed="#P" n="16"/>logi, de sanctificatione sabbathi; aliud 
+          huma<lb break="no" ed="#P" n="17"/>num, quod est primum inter generalia 
+          Eccle<lb break="no" ed="#P" n="18"/>siae praecepta, quod est de festorum 
+          observa<lb break="no" ed="#P" n="19"/>tione : qua duo praecepta in hujus libri 
+          dis<lb break="no" ed="#P" n="20"/>cursu a nobis explicanda sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

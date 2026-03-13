@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="394"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k09846"><!-- t2-l3c4 -->
+        <head>Caput 4</head>
+        <head type="question-title">De acitonibus forensibus in templis prohibitis, ob eorum reverentiam</head>
+        <p>
+          <lb ed="#P" n="29"/>CAPUT IV
+          <lb ed="#P" n="30"/>DE ACTIONIBUS FORENSIBUS IN TEMPLIS 
+          PROHIBI<lb break="no" ed="#P" n="31"/>TIS, OB EORUM REVERENTIAM.
+        </p>
+        <p>
+          <lb ed="#P" n="32"/>1. Ante omnia supponendum est, Ecclesiam
+          <lb ed="#P" n="33"/>habere potestatem ita prohibendi actiones 
+          ali<lb break="no" ed="#P" n="34"/>quas in locis sacris fieri, ut eo ipso sacrilegae
+          <lb ed="#P" n="35"/>sint contra hujusmodi probibitionem factae,
+          <lb ed="#P" n="36"/>etiamsi de se tales non sint. Haec est certa, et
+          <lb ed="#P" n="37"/>communis sententia omnium Doctorum, quos
+          <lb ed="#P" n="38"/>retuli cap. praeced., et in sequentibus referam.
+          <lb ed="#P" n="39"/>Declaraturque ex illa doctrina de legislatore
+          <lb ed="#P" n="40"/>humano, qui habet potestatem constituendi
+          <lb ed="#P" n="41"/>acium praeceptum in certa specie virtutis,
+          <lb ed="#P" n="42"/>juxta materiae capacitatem, et similiter actum
+          <lb ed="#P" n="43"/>prohibitum in certa specie vitii. Dices 
+          legisla<lb break="no" ed="#P" n="44"/>torem non posse facere ut actus, per suam 
+          le<lb break="no" ed="#P" n="45"/>cem, fiat illius virtutis cujus antea non erat,
+          <lb ed="#P" n="46"/>sed posse tantum facere ut actus virtutis, qui
+          <lb ed="#P" n="47"/>non erat necessarius intra illam virtutem, 
+          po<lb break="no" ed="#P" n="48"/>sita lege sit necessarius ad servandum 
+          me<lb break="no" ed="#P" n="49"/>dium illius virtutis; ut quando praecipitur 
+          jeju<lb break="no" ed="#P" n="50"/>nium, non fit per praeceptum, ut jejunium sit
+          <lb ed="#P" n="51"/>actus temperantiae, nec videtur hoc fieri posse
+          <lb ed="#P" n="52"/>per legem ; tum quia hoc pendet ex materia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>quasi intrinseca actui, quam lex nec dare 
+          po<lb break="no" ed="#P" n="54"/>test, nec auferre; tum quia lex, ut praecipiat,
+          <lb ed="#P" n="55"/>videtur supponere rationem virtutis in actu,
+          <lb ed="#P" n="56"/>quia supponit honestatem; solum ergo facit
+          <lb ed="#P" n="57"/>illa lex, ut actus jejunii, qui de se est actus
+          <lb ed="#P" n="58"/>virtutis temperantiae, non tamen necessarius,
+          <lb ed="#P" n="59"/>fiat necessarius ratione legis; ergo in praesenti
+          <lb ed="#P" n="60"/>si actus de se non est religionis, non potest
+          <lb ed="#P" n="61"/>per legem Ecclesiae fieri religionis. Et 
+          conse<lb break="no" ed="#P" n="62"/>quenter nec contrarius actus poterit fieri 
+          sa<lb break="no" ed="#P" n="63"/>crilegium propter prohibitionem.
+        </p>
+        <p>
+          <lb ed="#P" n="64"/>2. Satisfit. — Respondeo imprimis non
+          <lb ed="#P" n="65"/>esse eamdem rationem de actu virtutis et vitii,
+          <lb ed="#P" n="66"/>nam ex vi legis humanae prohibentis actum,
+          <lb ed="#P" n="67"/>incipit esse vitium, quod antea non erat, et
+          <lb ed="#P" n="68"/>simpliciter et in tali specie, ut comedere 
+          car<lb break="no" ed="#P" n="69"/>nes in die veneris est intemperantia, posita
+          <lb ed="#P" n="70"/>prohibitione Ecclesiae, cum antea non esset;
+          <lb ed="#P" n="71"/>et idem videri potest in injustitia, et aliis.
+          <lb ed="#P" n="72"/>Et ratio est, quia lex potest praescribere 
+          me<lb break="no" ed="#P" n="73"/>dium virtutis in materia ejus, quo medio
+          <lb ed="#P" n="74"/>existente, incipit esse vitiosus in eadem 
+          mate<lb break="no" ed="#P" n="75"/>ria recessus ab illo, cum antea non esset 
+          vi<lb break="no" ed="#P" n="76"/>tiosus, quia illud non erat medium, et ita
+          <lb ed="#P" n="77"/>non erat recessus a medio. Item, quia malitia
+          <lb ed="#P" n="78"/>est carentia bonitatis debitae in esse: unde
+          <lb ed="#P" n="79"/>eadem carentia, quae antea erat pura negatio,
+          <lb ed="#P" n="80"/>et ideo non erat mala, incipit ratione 
+          praece<lb break="no" ed="#P" n="81"/>pti esse privatio, quia jam est debita contraria
+          <lb ed="#P" n="82"/>bonitas. Unde respondendo ad objectionem,
+          <lb ed="#P" n="83"/>fateor legem supponere materiam aptam, ut
+          <lb ed="#P" n="84"/>in ea constituatur medium talis virtutis, et
+          <lb ed="#P" n="85"/>hac ratione posse (regulariter loquendo) in
+          <lb ed="#P" n="86"/>tali materia actum talis virtutis exerceri 
+          abs<lb break="no" ed="#P" n="87"/>que lege, si ratio per se possit medium 
+          suffti<lb break="no" ed="#P" n="88"/>ciens ad talem honestatem ibi invenire, licet
+          <lb ed="#P" n="89"/>seclasa lege non judicet esse necessarium; lex
+          <lb ed="#P" n="90"/>autem facit ut illud medium sit necessarium,
+          <lb ed="#P" n="91"/>et (ut ita dicam) unicum. Hoc autem totum
+          <lb ed="#P" n="92"/>in praesenti materia spectare licet. Nam 
+          absti<lb break="no" ed="#P" n="93"/>nere a deambulatione, verbi gratia, in 
+          eccle<lb break="no" ed="#P" n="94"/>sia propter reverentiam ejus, etiam seclusa
+          <lb ed="#P" n="95"/>lege, est bonum, et ad materiam religionis
+          <lb ed="#P" n="96"/>spectans ; si ergo addatur lex id praecipiens
+          <lb ed="#P" n="97"/>intuitu reverentiae templi, faciet illud esse 
+          ne<lb break="no" ed="#P" n="98"/>cessarium intra illam virtutem, et 
+          consequen<lb break="no" ed="#P" n="99"/>ter faciet contrarium actum esse sacrilegium.
+          <lb ed="#P" n="100"/>Idem est de actu vendendi et emendi, 
+          judi<lb break="no" ed="#P" n="101"/>candi, et similibus, nam cessatio ab his 
+          opc<lb break="no" ed="#P" n="102"/>ribus in loco sacro ob sanctitatem ejus, de se
+          <lb ed="#P" n="103"/>est materia apta ad honestatem religionis, et
+          <lb ed="#P" n="104"/>ad actum ejus, etiam secluso praecepto; 
+          ideo<lb break="no" ed="#P" n="105"/>que lex potest intra illam virtutem facere 
+          il<lb break="no" ed="#P" n="106"/>lum actum necessarium, et contrarium 
+          irreli<lb break="no" ed="#P" n="107"/>giosum. Idem videre licet in praecepto absti-
+          <pb ed="#P" n="395"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nendi ab opere servili in die festo, nam, ante
+          <lb ed="#P" n="2"/>praeceptum, illud non erat necessarium ad 
+          vir<lb break="no" ed="#P" n="3"/>tutem religionis, erat tamen materia apta, ut
+          <lb ed="#P" n="4"/>posset intuitu religionis observari. Unde etiam
+          <lb ed="#P" n="5"/>secluso praecepto potuisset aliquis id velle actu
+          <lb ed="#P" n="6"/>henesto et religioso; ut si quis velit, intra 
+          heb<lb break="no" ed="#P" n="7"/>domadam uno die vacare ab illis operibus, ut
+          <lb ed="#P" n="8"/>se totum tribuat cultui Dei, etiam secluso 
+          prae<lb break="no" ed="#P" n="9"/>cepto, honeste ac religiose id facere poterit.
+          <lb ed="#P" n="10"/>Praeceptum ergo Ecclesiae, quod illo intuitu
+          <lb ed="#P" n="11"/>materiam illam prohibet, intra virtutem 
+          reli<lb break="no" ed="#P" n="12"/>gionis legem constituit, et ideo commissio 
+          con<lb break="no" ed="#P" n="13"/>traria sacrilegium est solum contra legem
+          <lb ed="#P" n="14"/>humanam.
+        </p>
+        <p>
+          <lb ed="#P" n="15"/>3. Dupliciter posse actum fieri sacrilegum.
+          <lb ed="#P" n="16"/>—Secundo, suppono duobus modis posse fieri
+          <lb ed="#P" n="17"/>sacrilegum aliquem actum ratione legis 
+          po<lb break="no" ed="#P" n="18"/>sitivae, qui absque illa talis non esset. Uno
+          <lb ed="#P" n="19"/>modo tantum antecedenter, seu 
+          praesuppositi<lb break="no" ed="#P" n="20"/>ve; alio modo formaliter, per propriam et 
+          di<lb break="no" ed="#P" n="21"/>rectam prohibitionem ; ut, verbi gratia, quod
+          <lb ed="#P" n="22"/>res aliqua sanctificetur hoc vel illo modo, et
+          <lb ed="#P" n="23"/>ad talem finem, pendet ex positiva lege vel
+          <lb ed="#P" n="24"/>Christi, vel Ecclesiae : et tamen pcstquam res
+          <lb ed="#P" n="25"/>consecrata est juxta illam legem, sine nova
+          <lb ed="#P" n="26"/>prohibitione erit sacrilegium aliquid facere
+          <lb ed="#P" n="27"/>circa illam rem, quod, si fieret circa illam
+          <lb ed="#P" n="28"/>rem non sanctificatam, sacrilegium non 
+          fuis<lb break="no" ed="#P" n="29"/>set. Ut, verbi gratia, sanctificatio chrismatis
+          <lb ed="#P" n="30"/>vel olei infirmorum ex lege ecclesiastica 
+          pen<lb break="no" ed="#P" n="31"/>det ; tamen illa posita, sacrilegium est oleum
+          <lb ed="#P" n="32"/>illud contemnere , vel irreverenter tractare,
+          <lb ed="#P" n="33"/>etiamsi hoc non esset formaliter ab Ecclesia
+          <lb ed="#P" n="34"/>prohibitum; tunc ergo dicimus sacrilegium
+          <lb ed="#P" n="35"/>pendere ex lege positiva praesuppositive seu
+          <lb ed="#P" n="36"/>antecedenter. Formaliter autem pendet, 
+          quan<lb break="no" ed="#P" n="37"/>do praesupposita rei sanctificatione, talis actus
+          <lb ed="#P" n="38"/>circa illam non esset sacrilegium, nisi per sc
+          <lb ed="#P" n="39"/>ac separatim esset prohibitus ; ut in dieto
+          <lb ed="#P" n="40"/>exemplo, etiam supposita sanctificatione
+          <lb ed="#P" n="41"/>chrismatis, non esset peccatum illud servare
+          <lb ed="#P" n="42"/>in domo particulari et propria; si autem 
+          ac<lb break="no" ed="#P" n="43"/>cedat praeceptum Ecclesiae, ut in templo 
+          tan<lb break="no" ed="#P" n="44"/>tum servetur, et inde non extrahatur, incipiet
+          <lb ed="#P" n="45"/>oppositum esse sacrilegium ex formali 
+          Eccle<lb break="no" ed="#P" n="46"/>siae prohibitione. In hac ergo assertione 
+          lo<lb break="no" ed="#P" n="47"/>quimur dc sacrilegio cirea locum sacrum,
+          <lb ed="#P" n="48"/>quod ratione formalis pronibitionis tale est, et
+          <lb ed="#P" n="49"/>sine illa non esset, etiam supposita 
+          conse<lb break="no" ed="#P" n="50"/>cratione Ecclesiae, et dedicatione ejus ad talem
+          <lb ed="#P" n="51"/>finem ; nam aliud genus sacrilegii, quod 
+          dici<lb break="no" ed="#P" n="52"/>tur ex praesuppositione tantum legis positivae,
+          <lb ed="#P" n="53"/>revera potius est ex vi legis naturalis 
+          dictan<lb break="no" ed="#P" n="54"/>tis sancta sancte tractanda esse, quamvis rei
+          <lb ed="#P" n="55"/>sanctitas ex humana sit institutione; sicut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>peccatum contra votum, peccatum est contra
+          <lb ed="#P" n="57"/>legem naturalem , quamvis pendeat 
+          praesup<lb break="no" ed="#P" n="58"/>positive ex voluntate humana voluntarie 
+          pro<lb break="no" ed="#P" n="59"/>mittentis; si ergo respectu loci sacri est 
+          ali<lb break="no" ed="#P" n="60"/>quod sacrilegium hujusmodi, illud ex natura
+          <lb ed="#P" n="61"/>rei esse dicemus, et in sequenti assertione de
+          <lb ed="#P" n="62"/>illo agemus.
+        </p>
+        <p>
+          <lb ed="#P" n="63"/>4. Tertio, adverto ex superioribus, 
+          actio<lb break="no" ed="#P" n="64"/>nes forenses duplices esse, quasdam 
+          pertinen<lb break="no" ed="#P" n="65"/>tes ad placitum, seu strepitum judicii, alias
+          <lb ed="#P" n="66"/>ad mercatum, seu negotiationem. De 
+          utris<lb break="no" ed="#P" n="67"/>que ergo in hoc capite tractamus; de aliis 
+          vc<lb break="no" ed="#P" n="68"/>ro postea dicemus.
+        </p>
+        <p>
+          <lb ed="#P" n="69"/>5. Dico ergo primo : placitum ex Ecclesiae
+          <lb ed="#P" n="70"/>prohibitione in templis fieri non potest; unde
+          <lb ed="#P" n="71"/>si tiat, sacrilegium committitur : quamvis
+          <lb ed="#P" n="72"/>absque prohibitione Ecciesiae non semper 
+          es<lb break="no" ed="#P" n="73"/>set sacrilegium, etiam supposita institutione
+          <lb ed="#P" n="74"/>templorum, et illorum sanctificatione. Haec
+          <lb ed="#P" n="75"/>ultima pars per se clara est, et pro nunc 
+          sup<lb break="no" ed="#P" n="76"/>ponitur ; quia actus judicii per se non est 
+          ma<lb break="no" ed="#P" n="77"/>lus, ut constat, nec videtur adeo indecens, ut
+          <lb ed="#P" n="78"/>semper includat intrinsecam irreverentiam
+          <lb ed="#P" n="79"/>contra locum sacrum, de quo in sequenti
+          <lb ed="#P" n="80"/>puncto plura dicam. Prior ergo pars probatur
+          <lb ed="#P" n="81"/>primo ex capit. Cum Ecclesia, de immun. 
+          ec<lb break="no" ed="#P" n="82"/>cles. Circa quod advertendum imprimis est,
+          <lb ed="#P" n="83"/>ibi non prohiberi simpliciter omne placitum,
+          <lb ed="#P" n="84"/>sed solum in causis, ubi de sanguinis 
+          effu<lb break="no" ed="#P" n="85"/>sione, et corporali pena agitur - haec enim
+          <lb ed="#P" n="86"/>sunt formalia verba textus. Ex vi ergo illius
+          <lb ed="#P" n="87"/>textus non potest illa prohibitio ulterius 
+          ex<lb break="no" ed="#P" n="88"/>tendi; unde pro ratione additur : Absurdum
+          <lb ed="#P" n="89"/>cnim, est, et crudele, il judicium sanguinis
+          <lb ed="#P" n="90"/>exerceri, ubi est tutela refugii constiluta. Quae
+          <lb ed="#P" n="91"/>ratio in causis civilibus locum non habet; 
+          er<lb break="no" ed="#P" n="92"/>go nec prohibitio ex vi illius textus; de alio
+          <lb ed="#P" n="93"/>enim statim videbimus. Secundo, ex parte loci
+          <lb ed="#P" n="94"/>extenditur illa prohibitio ad ecclesias et 
+          coe<lb break="no" ed="#P" n="95"/>meteria : crediderim tamen id additum esse
+          <lb ed="#P" n="96"/>majoris explicationis gratia; nam, facta 
+          pro<lb break="no" ed="#P" n="97"/>hibitione pro ecclesia, censetur esse facta pro
+          <lb ed="#P" n="98"/>caemeterio, quia sub illa comprehenditur, 
+          tan<lb break="no" ed="#P" n="99"/>quam accessorium sub principali, licet non
+          <lb ed="#P" n="100"/>convertatur, arg. cap. unic. de Consecr. 
+          ec<lb break="no" ed="#P" n="101"/>cles., in 6, quod loquitur de pollutione 
+          coeme<lb break="no" ed="#P" n="102"/>terii; eadem autem ratio procedit in praesenti,
+          <lb ed="#P" n="103"/>ut constat.
+        </p>
+        <p>
+          <lb ed="#P" n="104"/>6. Denique additur in illa prohibitione, sub
+          <lb ed="#P" n="105"/>interminatione anathematis, quod certum est,
+          <lb ed="#P" n="106"/>intelligendum esse de censura ferenda, non
+          <lb ed="#P" n="107"/>ipso jure lata, ut ex vi verborum constat, et
+          <lb ed="#P" n="108"/>Glossa ibi communiter recepta notat. Item 
+          ta<lb break="no" ed="#P" n="109"/>lis paena non extenditur extra causam 
+          san<lb break="no" ed="#P" n="110"/>guinis, quia poena non debet extendi ultra for
+          <pb ed="#P" n="396"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>malia verba legis. Et fortasse ideo Lucius IlI
+          <lb ed="#P" n="2"/>in illo textu de solis causis criminalibus 
+          locu<lb break="no" ed="#P" n="3"/>tus est, quia in illis tantum voluit poenam 
+          ad<lb break="no" ed="#P" n="4"/>dere. Quamvis autem ipse non prohibuerit
+          <lb ed="#P" n="5"/>placitum in eccelesia circa alias causas, tamen
+          <lb ed="#P" n="6"/>si antea facta erat prohibitio, illam non 
+          abs<lb break="no" ed="#P" n="7"/>tulit. Atque ita Glossa ibi ad verbum 
+          sangui<lb break="no" ed="#P" n="8"/>nis effusione, addit, macime, quia ctiam 
+          cau<lb break="no" ed="#P" n="9"/>sae civiles saeculares (inquit) prohibite sunt.
+          <lb ed="#P" n="10"/>Viderique potest illa prohibitio ante 
+          Lu<lb break="no" ed="#P" n="11"/>cium III inveniri in capit. primo, eod. tit. de
+          <lb ed="#P" n="12"/>Immunit. eccles., ubi dicitur, non posse 
+          ju<lb break="no" ed="#P" n="13"/>dices domos ecclesiarum ad placitum 
+          facien<lb break="no" ed="#P" n="14"/>dum vendicare. Unde Glossa et omnes 
+          Docto<lb break="no" ed="#P" n="15"/>res a fortiori colligunt, idem intelligi de ipsis
+          <lb ed="#P" n="16"/>ecclesiis. Et sane merito, tum quia majori 
+          ra<lb break="no" ed="#P" n="17"/>tione immunitate hac gaudent ecclesiae, quam
+          <lb ed="#P" n="18"/>earum domus, nam propter quod 
+          unumquod<lb break="no" ed="#P" n="19"/>que tale, et illud magis; tum etiam quia ipsa
+          <lb ed="#P" n="20"/>ecclesia est quaedam domus, quaee (ut ita 
+          di<lb break="no" ed="#P" n="21"/>cam ) magis est sua, seu juris sui, quam 
+          do<lb break="no" ed="#P" n="22"/>mus ejus sint sub ipsius jure.
+        </p>
+        <p>
+          <lb ed="#P" n="23"/>7. An Eyiscopi concessione possit placitum
+          <lb ed="#P" n="24"/>in, ecclesia fieri. — Confirmatur aliter. — 
+          Ad<lb break="no" ed="#P" n="25"/>verto tamen, quod licet ex illo textu tanta 
+          col<lb break="no" ed="#P" n="26"/>ligatur prohibitio in ecclesia, quapta in 
+          domi<lb break="no" ed="#P" n="27"/>bus ecclesiae, non tamen major, quantum est
+          <lb ed="#P" n="28"/>ex vi illius legis, quia formaliter solum 
+          loqui<lb break="no" ed="#P" n="29"/>tur de domibus ecclesia,, et per vim rationis
+          <lb ed="#P" n="30"/>extenditur ad eccesias; ergo eadem ad 
+          sum<lb break="no" ed="#P" n="31"/>mum potest colligi prohibitio. Quamvis autem
+          <lb ed="#P" n="32"/>inde habeamus prohibitionem, ne judices 
+          sve<lb break="no" ed="#P" n="33"/>culares agant placita in ecclesiis, quasi jure
+          <lb ed="#P" n="34"/>suo aut praescriptione utentes, vel 
+          consuetu<lb break="no" ed="#P" n="35"/>dine, non tamen videtur haberi absoluta 
+          pro<lb break="no" ed="#P" n="36"/>hibitio, ita ut etiam consentientibus praelatis
+          <lb ed="#P" n="37"/>ecclesiae, non possint ibi placita exerceri, vel
+          <lb ed="#P" n="38"/>ipsis praelatis prohibitum ibi sit, ne talem 
+          li<lb break="no" ed="#P" n="39"/>centiam praebeant. Probatur, quia (ut dixi)
+          <lb ed="#P" n="40"/>tanta est ibi prohibitio de domibus ecclesiae,
+          <lb ed="#P" n="41"/>quanta de ecclesiis; at non obstante illo textu,
+          <lb ed="#P" n="42"/>possunt judices saeculares placita facere in 
+          do<lb break="no" ed="#P" n="43"/>mibus ecclesiarum ex concessione ecclesiae, ut
+          <lb ed="#P" n="44"/>expresse ibi notat Abbas, dicens : 7ntelligo,
+          <lb ed="#P" n="45"/>quod in domo ecclesiee non debet secularis jus
+          <lb ed="#P" n="46"/>reddere, quando propria auctoritate, quasi ec
+          <lb ed="#P" n="47"/>Jure publico elegit sibi mansionem in domo 
+          ec<lb break="no" ed="#P" n="48"/>clesie. Quod probat ex illo verbo textus
+          <lb ed="#P" n="49"/>Quasi pro consuetudine. Secus autem puto (ait)
+          <lb ed="#P" n="50"/>ubi haberet domum illam conductam ab ecclesia,
+          <lb ed="#P" n="51"/>vel gratis concessam. Ergo idem dici poterit
+          <lb ed="#P" n="52"/>respectu ecclesiae. Potest etiam hoc confirmari
+          <lb ed="#P" n="53"/>alia aequiparatione : nam ibi aeque et eisdem
+          <lb ed="#P" n="54"/>verbis prohibetur his saecularibus ministris
+          <lb ed="#P" n="55"/>hospitium ac placitum in domibus ecclesia-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rum : at hospitium non simpliciter 
+          prohibe<lb break="no" ed="#P" n="57"/>tur, sed ne illud jure suo vendicent ; nam ex
+          <lb ed="#P" n="58"/>liberalitate ecclesiae, vel alio voluntario pacto
+          <lb ed="#P" n="59"/>id prohibitum non est, ut etiam Glossa 
+          nota<lb break="no" ed="#P" n="60"/>vit; ergo idem dici poterit de placito.
+        </p>
+        <p>
+          <lb ed="#P" n="61"/>8. Videtur ergo prohibitio illa alterius 
+          ra<lb break="no" ed="#P" n="62"/>tionis et immunitatis, ab ea de qua nunc 
+          trac<lb break="no" ed="#P" n="63"/>tamus. Ibi enim non consideratur specialis
+          <lb ed="#P" n="64"/>sanctitas cecclesiae, et proprius finis ejus, 
+          qua<lb break="no" ed="#P" n="65"/>tenus est domus orationis et divini cultus, ut
+          <lb ed="#P" n="66"/>ea ratione prohibeatur simpliciter placitum in
+          <lb ed="#P" n="67"/>illa ; sed consideratur libertas ecclesiae in se,
+          <lb ed="#P" n="68"/>et in bonis suis, ratione cujus non posaunt
+          <lb ed="#P" n="69"/>laici ea sibi subjicere ad aliquam veluti 
+          servi<lb break="no" ed="#P" n="70"/>tutem, et onus temporale: et ideo non videtur
+          <lb ed="#P" n="71"/>ibi prohibitio simpliciter, sed tantum ne 
+          pos<lb break="no" ed="#P" n="72"/>sint judices saecuiares quasi jure suo utentes
+          <lb ed="#P" n="73"/>ibi placita facere. Tandem potest hoc declarari
+          <lb ed="#P" n="74"/>ex alia differentia notanda inter prohibitionem
+          <lb ed="#P" n="75"/>illius textus, et de qua nunc agimus. Nam illa
+          <lb ed="#P" n="76"/>extenditur non solum ad actus involuntariae
+          <lb ed="#P" n="77"/>jurisdictionis , sed etiam voluntaria, quia ad
+          <lb ed="#P" n="78"/>nullos potest judex saecularis jus sibi usurpare
+          <lb ed="#P" n="79"/>in domibus ecclesia; at vero prohibitio, de
+          <lb ed="#P" n="80"/>qua nunc tractamus, non extenditur ad actus
+          <lb ed="#P" n="81"/>jurisdictionis voluntariae, ut mox dicemus.
+          <lb ed="#P" n="82"/>Unde difficile reperietur (ut opinor) in 
+          anti<lb break="no" ed="#P" n="83"/>quiori jure tam absoluta prohibitio.
+        </p>
+        <p>
+          <lb ed="#P" n="84"/>9. At in jure noviori satis expresse facta vel
+          <lb ed="#P" n="85"/>declarata est per Gregorium X, cum Concilio
+          <lb ed="#P" n="86"/>Lugdun. in c. Decet, de Immunit. eccles., in
+          <lb ed="#P" n="87"/>6 : Omnis (inquit) n ecclesiis seecularium 
+          ju<lb break="no" ed="#P" n="88"/>diciorum strepitus conguiescat ; nulla inibi
+          <lb ed="#P" n="89"/>causa per laicos, criminalis mavime, agitetur,
+          <lb ed="#P" n="90"/>sint loce eadem a laicorum cognitionibus aliena.
+          <lb ed="#P" n="91"/>Quod autem haec prohibitio facta sit intuitu
+          <lb ed="#P" n="92"/>tantum religionis, et sanctitatis ipsius loci,
+          <lb ed="#P" n="93"/>constat ex principio textus: Decet domum 
+          Do<lb break="no" ed="#P" n="94"/>mini sanctitudo - decet, ut cujus an pace factus
+          <lb ed="#P" n="95"/>est locus, ejus cultus sit cum debita veneratione
+          <lb ed="#P" n="96"/>gacificus, etc. Unde juxta hanc prohibitionem
+          <lb ed="#P" n="97"/>et rationem ejus, nullo modo aut titulo 
+          per<lb break="no" ed="#P" n="98"/>mitti potest hic actus in ecclesia, etiam ex
+          <lb ed="#P" n="99"/>consensu clericorum, quia est generalis, et
+          <lb ed="#P" n="100"/>independens a voluntate seu concessione 
+          prae<lb break="no" ed="#P" n="101"/>latorum; illa enim non obstante, semper talis
+          <lb ed="#P" n="102"/>actus est contra quietem et pacem, quae in illo
+          <lb ed="#P" n="103"/>loco postulatur.
+        </p>
+        <p>
+          <lb ed="#P" n="104"/>10. Objectio.— Respondetur.— Dices, 
+          hacra<lb break="no" ed="#P" n="105"/>tione probaretur, etiam ipsos clericos judices
+          <lb ed="#P" n="106"/>non posse sua placita ecclesiastica in ecclesiis
+          <lb ed="#P" n="107"/>exercere, quia etiam illa sunt contra pacem et
+          <lb ed="#P" n="108"/>quietem in ecclesia et domo orationis 
+          neces<lb break="no" ed="#P" n="109"/>sariam. Respondeo ita sensisse Decium, in c.
+          <lb ed="#P" n="110"/>Qua fronte, de Appell., numer. 1, et ad id
+          <pb ed="#P" n="397"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ponderat, quod in dicto cap. Decet dicitur:
+          <lb ed="#P" n="2"/>Cessent cujuscumque fori tumultus. Sed haec
+          <lb ed="#P" n="3"/>verba non sunt ad rem, quia non 
+          intelligun<lb break="no" ed="#P" n="4"/>tur de foro judiciali, sed de foro (ut sic dicam)
+          <lb ed="#P" n="5"/>locali, seu materiali, ut bene intellexit Navarr.
+          <lb ed="#P" n="6"/>supra, num. 46. Et constat ex contextu, et
+          <lb ed="#P" n="7"/>quia alias repugnarent illa verba sequentibus,
+          <lb ed="#P" n="8"/>in quibus expressa adhibetur limitatio. 
+          Res<lb break="no" ed="#P" n="9"/>pondeo igitur negando sequelam, quia non
+          <lb ed="#P" n="10"/>potest lex contra sua verba extendi propter 
+          ra<lb break="no" ed="#P" n="11"/>tionem suam, quia potest legislator uti sua 
+          ra<lb break="no" ed="#P" n="12"/>tione, quantum et quomodo velit: in illa 
+          au<lb break="no" ed="#P" n="13"/>tem prohibtione bis fit expresse limitatio 
+          pro<lb break="no" ed="#P" n="14"/>hibitionis ad laicos judices, et ad saecularium
+          <lb ed="#P" n="15"/>judiciorum strepitus. Et alioquin sacri 
+          Cano<lb break="no" ed="#P" n="16"/>nes non solum permittunt, sed etiam monent
+          <lb ed="#P" n="17"/>ut ecclesiasticae causae in ecclesia fiant, in 
+          ca<lb break="no" ed="#P" n="18"/>pit. ultim., 2, quaest. 2, ubi Turrecrem. 
+          intel<lb break="no" ed="#P" n="19"/>ligit esse praeceptum ; sed Glossa, in capit.
+          <lb ed="#P" n="20"/>Cum E cclesia, recte dicit non esse de 
+          necessi<lb break="no" ed="#P" n="21"/>tate, sed de quadam honestate. arg. capit. Qua
+          <lb ed="#P" n="22"/>fronte, ibi, Prout est canonicum et honestum.
+          <lb ed="#P" n="23"/>Atque ita fuisse semper limitanda, et 
+          intelli<lb break="no" ed="#P" n="24"/>genda antiqua jura, docuerunt cum Glossa
+          <lb ed="#P" n="25"/>Panormitanus, et alii Doctores ibi, et in dicto
+          <lb ed="#P" n="26"/>capit. 1 de Immunitate ecclesiae.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>11. Proponntur due difficultates.—
+          EHnoda<lb break="no" ed="#P" n="28"/>tur prima instantia. — Eaplicatur altera 
+          dif<lb break="no" ed="#P" n="29"/>ficultas. — Sed urgebit quis interrogando, cur
+          <lb ed="#P" n="30"/>prohibitio non fuerit universalis, cum ratio
+          <lb ed="#P" n="31"/>generalis videatur. Item, cum in diefesto 
+          pro<lb break="no" ed="#P" n="32"/>hibeantur etiam placita ecclesiastica, cur non
+          <lb ed="#P" n="33"/>in loco sacro? Ad hoc tacite respondent Glos.
+          <lb ed="#P" n="34"/>et Panormitanus supra dicentes, voluisse 
+          Ec<lb break="no" ed="#P" n="35"/>clesiam judicia sua in ecclesiis fieri, ut propter
+          <lb ed="#P" n="36"/>loci reverentiam magis caveant a perjuriis et
+          <lb ed="#P" n="37"/>mendaciis. Àt enim ob hanc rationem etiam
+          <lb ed="#P" n="38"/>saecularia judicia deberent ibi permitti. 
+          Res<lb break="no" ed="#P" n="39"/>pondeo : potuit Ecclesia in hoc habere 
+          ma<lb break="no" ed="#P" n="40"/>jorem rationem suorum judiciorum, et 
+          cau<lb break="no" ed="#P" n="41"/>sarum, quam saecularium. Item potuit 
+          consu<lb break="no" ed="#P" n="42"/>lere honestati suorum clericorum, sicut in cap.
+          <lb ed="#P" n="43"/>Testimonium, 11, q. 4, dicitur, clericum, ut
+          <lb ed="#P" n="44"/>testimonium dicat, in ecclesia esse 
+          examinan<lb break="no" ed="#P" n="45"/>dum. Denique merito praesumit Ecclesia 
+          eccle<lb break="no" ed="#P" n="46"/>siastica judicia cum minori strepitu esse 
+          transi<lb break="no" ed="#P" n="47"/>genda, et breviori tempore ; ac denique judicem
+          <lb ed="#P" n="48"/>ipsum ecclesiasticum, majorem curam 
+          habitu<lb break="no" ed="#P" n="49"/>rum, ut sine indecentia loci fiant. Alia vero
+          <lb ed="#P" n="50"/>ratio est de die festo, quia minus debent 
+          oc<lb break="no" ed="#P" n="51"/>cupari illo tempore in his forensibus 
+          actioni<lb break="no" ed="#P" n="52"/>bus personsae ecclesiasticae, quam saeculares.
+          <lb ed="#P" n="53"/>Sed licet haec vera sint, nihilominus negari
+          <lb ed="#P" n="54"/>non potest quin satis conveniens sit, ut etiam
+          <lb ed="#P" n="55"/>placita ecclesiastica extra ecclesiam fiant in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>episcopali palatio, vel in alio loco 
+          commo<lb break="no" ed="#P" n="57"/>do, ut habet usus, et significatur in dicto 
+          ca<lb break="no" ed="#P" n="58"/>pituio Qua fronte. Hinc autem intelligi facile
+          <lb ed="#P" n="59"/>poterit, hanc prohibitionem esse 
+          ecclesiasti<lb break="no" ed="#P" n="60"/>cam, et de jure positivo, saltem magna ex 
+          par<lb break="no" ed="#P" n="61"/>te ; pendet enim ex arbitrio, et conjecturis 
+          hu<lb break="no" ed="#P" n="62"/>manis, neque in opposito actu intrinseca 
+          ma<lb break="no" ed="#P" n="63"/>litia semper invenitur; an vero aliquando 
+          in<lb break="no" ed="#P" n="64"/>veniatur, infra dicam.
+        </p>
+        <p>
+          <lb ed="#P" n="65"/>12. Hec prohibitio sub mortali obligat. —
+          <lb ed="#P" n="66"/>Dico secundo: illa prohibitio ex suo genere
+          <lb ed="#P" n="67"/>sub mortali culpa obligat, quia materia est
+          <lb ed="#P" n="68"/>satis gravis, et necessaria ad communem 
+          pa<lb break="no" ed="#P" n="69"/>cem, et spiritualem Ecclesiae utilitatem. Item
+          <lb ed="#P" n="70"/>pertinet ad virtutem religionis, ut 
+          declara<lb break="no" ed="#P" n="71"/>tum est; ergo ex suo genere sub mortali
+          <lb ed="#P" n="72"/>obligat. Item quoad causas sanguinis hoc 
+          pro<lb break="no" ed="#P" n="73"/>hibetur sub anathematis vinculo; unde nullum
+          <lb ed="#P" n="74"/>potest de his esse dubium. De aliis vero 
+          ne<lb break="no" ed="#P" n="75"/>gare videtur Sylvester, num. 5. Sed verius
+          <lb ed="#P" n="76"/>credo de omnibus, quia materia omnium est
+          <lb ed="#P" n="77"/>satis gravis ; et non est dubium, quin 
+          pro<lb break="no" ed="#P" n="78"/>hibitio de se sit rigorosa: nam ibi praecipitur
+          <lb ed="#P" n="79"/>ordinariis, ut ibi interdicta observari faciant;
+          <lb ed="#P" n="80"/>ubi expendendca est vox interdicta, quae 
+          rigo<lb break="no" ed="#P" n="81"/>rosum praeceptum dicit : unde ibi 
+          distinguun<lb break="no" ed="#P" n="82"/>tur interdicta ab aliis, quae ibi tantum 
+          sua<lb break="no" ed="#P" n="83"/>dentur. Et de prioribus additur, ut ordinarii
+          <lb ed="#P" n="84"/>ad illa cavenda saeculares compescant , ubi
+          <lb ed="#P" n="85"/>Gloss. addit, per censuras, vel alias ponas.
+          <lb ed="#P" n="86"/>Ergo signum est hanc esse obligationem 
+          gra<lb break="no" ed="#P" n="87"/>vem, et necessitatem inducentem.
+        </p>
+        <p>
+          <lb ed="#P" n="88"/>13. Placita in ecclesia facta annullari. —
+          <lb ed="#P" n="89"/>Placita, quae fiunt in domibus ecclesiee, non 
+          ir<lb break="no" ed="#P" n="90"/>ritari.—Actus jurisdictionis voluntarie negue
+          <lb ed="#P" n="91"/>irritantur, neque prohibentur. — Deinde in
+          <lb ed="#P" n="92"/>eodem paragrapho non solum prohibentur
+          <lb ed="#P" n="93"/>hujusmodi placita, sed etiam annullatur 
+          quic<lb break="no" ed="#P" n="94"/>quid in eis actum fuerit intra ecclesiam, nam
+          <lb ed="#P" n="95"/>de processu et sententia dicitur: Omnà careant
+          <lb ed="#P" n="96"/>robore firmitatis. Quod eodem modo 
+          exponen<lb break="no" ed="#P" n="97"/>dum est, quo similem irritationem de actis
+          <lb ed="#P" n="98"/>in die festo declaravimus. Advertit autem et
+          <lb ed="#P" n="99"/>bene Panormitanus, in dicto cap. 1 de 
+          Im<lb break="no" ed="#P" n="100"/>mun. eccles., hanc irritationem non extendi
+          <lb ed="#P" n="101"/>ad placita, quae in domibus ecclesiae extra 
+          ec<lb break="no" ed="#P" n="102"/>clesiam fiunt, quia in dicto c. Decet, de solis
+          <lb ed="#P" n="103"/>ecclesiis sermo est, et irritatio, cum sit 
+          odio<lb break="no" ed="#P" n="104"/>sa, non debet extendi. Quod sequitur 
+          Sylves<lb break="no" ed="#P" n="105"/>ter, verb. Immunitas, 1, q. 1. Limitant item
+          <lb ed="#P" n="106"/>Panormitanus in d. capit. Cum Ecclesia , et
+          <lb ed="#P" n="107"/>Sylvester supra, irritationem ad acta 
+          jurisdic<lb break="no" ed="#P" n="108"/>tionis involuntarise, ita ut acta voluntariae 
+          ju<lb break="no" ed="#P" n="109"/>risdictionis, licet saecularia sint et in ecclesia
+          <lb ed="#P" n="110"/>fiant, sint valida. Unde consequenter dicere
+          <pb ed="#P" n="398"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>debent illa non esse prohibita ; tum quia ibi
+          <lb ed="#P" n="2"/>sola illa acta irritantur, quae prohibentur ;
+          <lb ed="#P" n="3"/>tum etiam quia est eadem ratio quoad 
+          verbo<lb break="no" ed="#P" n="4"/>rum proprietatem. hatio ergo esse debet,
+          <lb ed="#P" n="5"/>quia sub strepitu judiciali non solent in jure
+          <lb ed="#P" n="6"/>comprehendi acta jurisdictionis voluntariae.
+          <lb ed="#P" n="7"/>Item quia actiones voluntariae jurisdictionis
+          <lb ed="#P" n="8"/>ut dispensationes, et similia, in die festo 
+          va<lb break="no" ed="#P" n="9"/>lide fiunt, ut supra dictum est; ergo et in 
+          lo<lb break="no" ed="#P" n="10"/>co sacro, nam in jure eisdem fere verbis 
+          pro<lb break="no" ed="#P" n="11"/>hibentur et irritantur. Denique isti actus 
+          favo<lb break="no" ed="#P" n="12"/>rabiles sunt.
+        </p>
+        <p>
+          <lb ed="#P" n="13"/>14. Addit nihilominus Abbas, quod si 
+          hu<lb break="no" ed="#P" n="14"/>jusmoli actus concernant pietatem, non 
+          so<lb break="no" ed="#P" n="15"/>lum valide, sed etiam licite fiunt in ecclesia ;
+          <lb ed="#P" n="16"/>si vero pietatem non concernant, licet validi
+          <lb ed="#P" n="17"/>sint, non tamen licite fiunt intra ecclesiam;
+          <lb ed="#P" n="18"/>nam idem censuit supra de diebus festis. Dico
+          <lb ed="#P" n="19"/>tamen ex vi juris positivi, non magis 
+          prohi<lb break="no" ed="#P" n="20"/>beri hos quam illos, quia in d. c. Decet non
+          <lb ed="#P" n="21"/>prohibentur , ut ratio facta clare probat, si
+          <lb ed="#P" n="22"/>consequenter loquendum est, et in cap. 1,
+          <lb ed="#P" n="23"/>extra, eod., non est absoluta prohibitio, ut 
+          su<lb break="no" ed="#P" n="24"/>pra ostendi, neque in alio Canone reperitur.
+          <lb ed="#P" n="25"/>At vero ex natura rei etiam non est per se
+          <lb ed="#P" n="26"/>prohibitio talis in ecclesia, ut supra dixi. 
+          In<lb break="no" ed="#P" n="27"/>terdum vero, si impediant ecclesiae quietem
+          <lb ed="#P" n="28"/>vel officia, non fient honeste in ecclesia, 
+          etiam<lb break="no" ed="#P" n="29"/>si actus jurisdictionis voluntariae sint, ex 
+          ra<lb break="no" ed="#P" n="30"/>tione generali infra tractanda ; hoc autem 
+          po<lb break="no" ed="#P" n="31"/>test contingere in actu pio, ut in subventione
+          <lb ed="#P" n="32"/>pupilli, quando necessitas non urget ut in
+          <lb ed="#P" n="33"/>ecclesia fiat, et potest aeque commode extra
+          <lb ed="#P" n="34"/>fieri.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>15. Quid dicendum de collatione gradus 
+          doc<lb break="no" ed="#P" n="36"/>toralis.—Ex quibus obiter constat, quid 
+          di<lb break="no" ed="#P" n="37"/>cendum sit de quibusdam actibus publicis,
+          <lb ed="#P" n="38"/>qui cum placito habent quamdam 
+          similitudi<lb break="no" ed="#P" n="39"/>nem. Unus est collatio gradus doctoratus; de
+          <lb ed="#P" n="40"/>quo certum est non esse prohibitum, ut in
+          <lb ed="#P" n="41"/>ecclesia fiat, quia revera non est placitum,
+          <lb ed="#P" n="42"/>neque actus jurisdictionis contentiosaee, neque
+          <lb ed="#P" n="43"/>sub alia generali ratione, neque in propria
+          <lb ed="#P" n="44"/>specie invenitur prohibitus. Et consuetudo
+          <lb ed="#P" n="45"/>idem declarat; nam ita fit in gravissimis 
+          aca<lb break="no" ed="#P" n="46"/>demis, et ita docent Joan. Andr., 
+          Panormi<lb break="no" ed="#P" n="47"/>tanus et alii, in d. c. Cum Hecclesia; et 
+          Syl<lb break="no" ed="#P" n="48"/>vester supra. At ex natura rei interdum 
+          po<lb break="no" ed="#P" n="49"/>test esse indecens vel illicitum, si fiat 
+          tem<lb break="no" ed="#P" n="50"/>pore incommodo, et cum perturbatione 
+          di<lb break="no" ed="#P" n="51"/>vinorum ofticiorum, vel alia circumstantia
+          <lb ed="#P" n="52"/>indecente pro illo loco. De quo latius Navar.,
+          <lb ed="#P" n="53"/>in c. 5 de Orat.. n. 31, S Quarto sequitur, et
+          <lb ed="#P" n="54"/>sequentibus.
+        </p>
+        <p>
+          <lb ed="#P" n="55"/>16. Concilium seculare an prohibitum in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ecclesia. — Alius actus est conferre, vel 
+          Con<lb break="no" ed="#P" n="57"/>cilium saeculare facere in Ecclesia de rebus
+          <lb ed="#P" n="58"/>temporalibus et politica gubernatione. Haec
+          <lb ed="#P" n="59"/>enim non censentur prohibita sub nomine
+          <lb ed="#P" n="60"/>placiti, unde nec in festo sunt simpliciter 
+          pro<lb break="no" ed="#P" n="61"/>hibita. Et ita dicendum est, ex vi illius 
+          speci<lb break="no" ed="#P" n="62"/>ficae prohibitionis (ut sic dicam) non 
+          prohibe<lb break="no" ed="#P" n="63"/>ri ; nihilominus per alia verba interdici in d.
+          <lb ed="#P" n="64"/>c. Decet - Cessent in locis illis universitatum
+          <lb ed="#P" n="65"/>et societatum quarumlibet Concilia, Conciones et
+          <lb ed="#P" n="66"/>publica Parlamenta. Quod omnino videtur 
+          in<lb break="no" ed="#P" n="67"/>telligendum, quando materia talium actuum ,
+          <lb ed="#P" n="68"/>est mere temporalis ac saecularis ; nam, si sit
+          <lb ed="#P" n="69"/>de re ecclesiastica, vel pertinente ad pietatem
+          <lb ed="#P" n="70"/>non est prohibita, ut bene Joann. Andr.ibi,
+          <lb ed="#P" n="71"/>et Panormitanus notarunt.
+        </p>
+        <p>
+          <lb ed="#P" n="72"/>17. Ecclesia non debet converii ad usum
+          <lb ed="#P" n="73"/>belli extra casum necessitatis. — Denique ex
+          <lb ed="#P" n="74"/>eisdem juribus colligunt Doctores, ecclesiam
+          <lb ed="#P" n="75"/>non debere ad usus belli converti, ut in illa
+          <lb ed="#P" n="76"/>munitio, vel quasi arx constituatur. Quod 
+          ma<lb break="no" ed="#P" n="77"/>xime colligunt ex d. cap. Cum Fcclesia. Nam
+          <lb ed="#P" n="78"/>si causae sanguinis in ecclesia non sunt 
+          trac<lb break="no" ed="#P" n="79"/>tandae, multo minus est in ea constituendus
+          <lb ed="#P" n="80"/>locus ad sanguinem effundendum, et 
+          homici<lb break="no" ed="#P" n="81"/>dia facienda deputatus. Ita fere Innocentius
+          <lb ed="#P" n="82"/>et Panormitanus ibi; Sylvester, v. Immunitas,
+          <lb ed="#P" n="83"/>1, q. 1, SQuarto; Angel., n. 4; sed hoc 
+          in<lb break="no" ed="#P" n="84"/>telligendum est extra casum necessitatis 
+          oc<lb break="no" ed="#P" n="85"/>currentis in bello defensivo ; tunc enim licere
+          <lb ed="#P" n="86"/>lidem auctores notant; estque manifestum ,
+          <lb ed="#P" n="87"/>quia, licet jus esset expressum, cessaret ob 
+          ne<lb break="no" ed="#P" n="88"/>cessitatem ; multo ergo magis cum in hoc casu
+          <lb ed="#P" n="89"/>expressum non sit, sed per illationem. Et 
+          op<lb break="no" ed="#P" n="90"/>time hoc confirmari potest ex capit. Felinguo,
+          <lb ed="#P" n="91"/>de Custod. Eucharist. Additque Sylvester, ex
+          <lb ed="#P" n="92"/>Hostiens., debere id fieri de licentia Episcopi
+          <lb ed="#P" n="93"/>per se loquendo, quod rationi valde 
+          consenta<lb break="no" ed="#P" n="94"/>neum est, et cap. 1 de Immunit. eccles.
+        </p>
+        <p>
+          <lb ed="#P" n="95"/>18. Mercatus non potest fieri in templo. —
+          <lb ed="#P" n="96"/>Dico secundo : mercatus est etiam actus jure
+          <lb ed="#P" n="97"/>ecclesiastico prohibitus in templis fieri. 
+          Ha<lb break="no" ed="#P" n="98"/>betur haec prohibitio in dicto cap. Decet, his
+          <lb ed="#P" n="99"/>verbis : Cessent in ecclesiis earumque 
+          comnete<lb break="no" ed="#P" n="100"/>riis negotiationes , et precipue wundinarum,
+          <lb ed="#P" n="101"/>ac fori cujuscumque tumultus. Idem probatur
+          <lb ed="#P" n="102"/>ex 6 Synodo, et in 3 tom., disp. 81, sect. 8,
+          <lb ed="#P" n="103"/>S Secundo ex hoc, sufficienter tractavi, 
+          quan<lb break="no" ed="#P" n="104"/>tum ad materiam moralem spectat, neque 
+          ali<lb break="no" ed="#P" n="105"/>quid hic addere necessarium videtur. Addi
+          <lb ed="#P" n="106"/>vero hic possunt, quae supra in simili puncto
+          <lb ed="#P" n="107"/>de mercatu in festis prohibito dixi; nam 
+          eis<lb break="no" ed="#P" n="108"/>dem fere verbis fit in jure utraque prohibitio:
+          <lb ed="#P" n="109"/>et ita sensit Gloss. in dicto c. Decet, verb.
+          <lb ed="#P" n="110"/>Processus, ubi advertit, quod licet peccent,
+          <pb ed="#P" n="399"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>qui faciunt contractus mercium in ecclesia,
+          <lb ed="#P" n="2"/>per illum textum, nihilominus contractus 
+          va<lb break="no" ed="#P" n="3"/>lidi sunt, quia in jure non irritantur, nec 
+          com<lb break="no" ed="#P" n="4"/>prehenduntur sub irritatione placiti, quia
+          <lb ed="#P" n="5"/>illa, cum sit odiosa, non est extendenda; et
+          <lb ed="#P" n="6"/>in utroque consentit Panormitanus, in diet. c.
+          <lb ed="#P" n="7"/>Cum ecclesia, num. 6 et 7; et Sylvester, verb.
+          <lb ed="#P" n="8"/>Immunitas, 1, num. 3 et 4. Et constat etiam
+          <lb ed="#P" n="9"/>ex dictis de contractu facto in die festo. Et
+          <lb ed="#P" n="10"/>videri etiam potest Navar., d. c. 5 de Orat.,
+          <lb ed="#P" n="11"/>n. 32, et 35, et 36 atque 37, ubi hanc 
+          prohi<lb break="no" ed="#P" n="12"/>bitionem latius explicat.
+        </p>
+        <p>
+          <lb ed="#P" n="13"/>19. An haec prohibitio sit de jure 
+          ecclesias<lb break="no" ed="#P" n="14"/>tico. — Dubitare autem potest aliquis, cur
+          <lb ed="#P" n="15"/>hunc actum hic numeremus, quia haec 
+          prohi<lb break="no" ed="#P" n="16"/>bitio non videtur esse ecclesiastici juris, sed
+          <lb ed="#P" n="17"/>divini, ac naturalis. Nam Christus Dominus
+          <lb ed="#P" n="18"/>in veteri templo hoc reprehendit tanquam
+          <lb ed="#P" n="19"/>grave crimen, Joan. 2, et Matih. 21. Imo 
+          ad<lb break="no" ed="#P" n="20"/>vertit Alexander Papa, in cap. Ez multis, 1,
+          <lb ed="#P" n="21"/>q. 3: Et sollicite consideraudum, dicit, quod
+          <lb ed="#P" n="22"/>per totum textum S. Evangelii, nusquam 
+          re<lb break="no" ed="#P" n="23"/>peritur , Dominuum tanta severitate , tamque
+          <lb ed="#P" n="24"/>districla censura justitie peccantes 
+          corri<lb break="no" ed="#P" n="25"/>puisse, etc., sicut illos vendentes et ementes
+          <lb ed="#P" n="26"/>in templo. Et licet idem Pontifex illud statim
+          <lb ed="#P" n="27"/>transferat ad sensum mysticum, per illos 
+          ven<lb break="no" ed="#P" n="28"/>dentes et ementes, simoniacos intelligens,
+          <lb ed="#P" n="29"/>quod etiam Gregorius, Beda, et alii 
+          tradide<lb break="no" ed="#P" n="30"/>runt, ibidem relati in capitulis sequentibus,
+          <lb ed="#P" n="31"/>nihilominus certum est, ad litteram 
+          reprehen<lb break="no" ed="#P" n="32"/>disse Christum, et corripuisse irreverentiam,
+          <lb ed="#P" n="33"/>quae per illas negotiationes templo fiebat, ut
+          <lb ed="#P" n="34"/>satis declarant illa ejus verba : Amferte ista
+          <lb ed="#P" n="35"/>hinc, et nolite facere domum Patris mei domum
+          <lb ed="#P" n="36"/>negotiationis. Nihil ergo aliud Christus in illo
+          <lb ed="#P" n="37"/>actu culpavit, nisi injuriam templi, quia in
+          <lb ed="#P" n="38"/>loco sacro, et orationis actibus deputato, 
+          pro<lb break="no" ed="#P" n="39"/>fanae negotiationi ac lucro intendebatur; 
+          cul<lb break="no" ed="#P" n="40"/>pavit autem Christus actum illum, non quia
+          <lb ed="#P" n="41"/>positivo praecepto legis negotiatio in templo
+          <lb ed="#P" n="42"/>specialiter esset prohibita, quia nec tale 
+          prae<lb break="no" ed="#P" n="43"/>ceptum inven:tur, necChristus illud allegavit,
+          <lb ed="#P" n="44"/>sed sola veluti naturali ratione sumpta ex
+          <lb ed="#P" n="45"/>templi sanctitate et fine usus est; ergo multo
+          <lb ed="#P" n="46"/>magis nunc est hoc per se malum ex ipso 
+          di<lb break="no" ed="#P" n="47"/>vino ac naturali jure.
+        </p>
+        <p>
+          <lb ed="#P" n="48"/>20. Fundatur. — Dupliciter posse spectari
+          <lb ed="#P" n="49"/>negotiationem. — Primus modus: aliquis actus
+          <lb ed="#P" n="50"/>negotiationis in templo fieri potest. — 
+          Wespon<lb break="no" ed="#P" n="51"/>deo valde probabile hoc esse, ideoque, 
+          simph<lb break="no" ed="#P" n="52"/>citer asserui, in citato loco tom. 3, hoc 
+          pro<lb break="no" ed="#P" n="53"/>hiberi, quia malum, quod etiam de aliis 
+          ac<lb break="no" ed="#P" n="54"/>tibus dixi; et Navar., in cap. Qualitas, de
+          <lb ed="#P" n="55"/>Poen., d. 5, n. 23, fatetur eos, quos Dominus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ejecit de templo, male fecisse ratione 
+          circum<lb break="no" ed="#P" n="57"/>stantiae loci, et ideo fuisse a Domino 
+          corre<lb break="no" ed="#P" n="58"/>ptos. Et ita etiam interpretatur d. c. Decet,
+          <lb ed="#P" n="59"/>de Immun., in 6, dicens, multa ibi reprobari,
+          <lb ed="#P" n="60"/>quia ob circumstantiam loci mala sunt. Haec
+          <lb ed="#P" n="61"/>vero ita intelligenda sunt, ut non de omuibus
+          <lb ed="#P" n="62"/>et singulis actibus in individuo accipiantur,
+          <lb ed="#P" n="63"/>sed de actibus his a toto genere, vel etiam 
+          re<lb break="no" ed="#P" n="64"/>gulariter. Duplicrter enim de negotiatione 
+          lo<lb break="no" ed="#P" n="65"/>qui possumus. Uno modo generatim, et 
+          se<lb break="no" ed="#P" n="66"/>cundum intrinsecam rationem suam; et sic
+          <lb ed="#P" n="67"/>dicere non possumus esse ex natura rei 
+          intrin<lb break="no" ed="#P" n="68"/>sece malum omnem actum negotiationis, seu
+          <lb ed="#P" n="69"/>mercaturae intra ecclesiam factum; quia in
+          <lb ed="#P" n="70"/>individuo potest actus in se esse honestus ex
+          <lb ed="#P" n="71"/>objecto, nempe justitiae, et ex fine aliquo 
+          ho<lb break="no" ed="#P" n="72"/>nesto, et potest fieri tali modo, ut sine 
+          pertur<lb break="no" ed="#P" n="73"/>batione ecclesiae, vel alio incommodo fiat;
+          <lb ed="#P" n="74"/>ergo tunc non haberet de se malitiam 
+          sacrile<lb break="no" ed="#P" n="75"/>zii ratione loci. Interdum vero posset aliquam
+          <lb ed="#P" n="76"/>habere tantummodo venialem, et levem, si
+          <lb ed="#P" n="77"/>in modo contendendi, vel vociferandi, aut
+          <lb ed="#P" n="78"/>alio simili esset aliquis excessns.
+        </p>
+        <p>
+          <lb ed="#P" n="79"/>21. Secundus modus - negotiativ em suo 
+          ge<lb break="no" ed="#P" n="80"/>nere ratione naturali prohibetur in templo 
+          fie<lb break="no" ed="#P" n="81"/>ri.—Aliter tamen loqui possumus de 
+          negotia<lb break="no" ed="#P" n="82"/>tione et mercatura ex suo genere; et sic dici
+          <lb ed="#P" n="83"/>merito potest, rationem naturalem dictare,
+          <lb ed="#P" n="84"/>mercaturam non esse in templo exercendam,
+          <lb ed="#P" n="85"/>quia ex se habet magnam improportionem
+          <lb ed="#P" n="86"/>cum tali loco; estque actio multis periculis
+          <lb ed="#P" n="87"/>peccatorum exposita, ut non immerito 
+          Chris<lb break="no" ed="#P" n="88"/>tus Dominus dixerit, facere ecclesiam locum
+          <lb ed="#P" n="89"/>negotiationis, nihil aliud esse quam facere 
+          il<lb break="no" ed="#P" n="90"/>lam speluncam latronum. Quia in 
+          negotiatio<lb break="no" ed="#P" n="91"/>ne secundum se, et moraliter spectata, 
+          nun<lb break="no" ed="#P" n="92"/>quam desunt furta, fraudes, perjuria, et 
+          simi<lb break="no" ed="#P" n="93"/>lia, quae templi sanctitati valde repugnant.
+          <lb ed="#P" n="94"/>Unde in Imperfecto Chrysostomi in Matth.,
+          <lb ed="#P" n="95"/>hom. 38, et habetur in cap. Ejiciens, d. 88,
+          <lb ed="#P" n="96"/>dicitur: Ejiciens Dominus vendentes et ementes
+          <lb ed="#P" n="97"/>de templo, significavit, quia homo mercator
+          <lb ed="#P" n="98"/>viz aut nunguam potest Deo placere. Sic ergo
+          <lb ed="#P" n="99"/>dixit Leo Papa, epist. 90, alias 92 et habetur
+          <lb ed="#P" n="100"/>in cap. Qualitas, de Poenit., dist. 5: Difficile
+          <lb ed="#P" n="101"/>est, inter ementis vendentisque commercium
+          <lb ed="#P" n="102"/>non intervenire peccatum. Sic ergo talem 
+          ac<lb break="no" ed="#P" n="103"/>tum exercere in loco sacro, malum ex suo
+          <lb ed="#P" n="104"/>genere dici potest, maxime si frequenter fiat
+          <lb ed="#P" n="105"/>et faciendo ecclesiam domum negotiationis,
+          <lb ed="#P" n="106"/>licet necesse non sit, omnes et singulos actus
+          <lb ed="#P" n="107"/>esse malos; id autem satis est, ut actus 
+          sim<lb break="no" ed="#P" n="108"/>pliciter prohibeatur per legem positivam,
+          <lb ed="#P" n="109"/>quia licet non ita habeat intrinsece malitiam,
+          <lb ed="#P" n="110"/>ut ex natura rei inseparabilis ab ipso sit in
+          <pb ed="#P" n="400"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>omni individuo, habet tamen ut plurimum;
+          <lb ed="#P" n="2"/>leges autem morales attendunt id quod saepius
+          <lb ed="#P" n="3"/>accidit, et periculis ac incommodis moralibus
+          <lb ed="#P" n="4"/>occurrunt, et multa in individuo prohibent,
+          <lb ed="#P" n="5"/>quae secundum se mala non essent. Atque ita
+          <lb ed="#P" n="6"/>haec prohibitio absoluta de jure ecclesiastico
+          <lb ed="#P" n="7"/>dici potest, quia illa posita, jam non tantum
+          <lb ed="#P" n="8"/>es genere, sed in individuo omnis talis actus
+          <lb ed="#P" n="9"/>prohibitus est, et malus ; quamvis semper 
+          ta<lb break="no" ed="#P" n="10"/>lis prohibitio magnum fundamentum habeat
+          <lb ed="#P" n="11"/>in naturali lege. Et eodem modo cum 
+          propor<lb break="no" ed="#P" n="12"/>tione intelligenda sunt quae de aliis actibus
+          <lb ed="#P" n="13"/>dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

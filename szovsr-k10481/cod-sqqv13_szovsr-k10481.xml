@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="419"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k10481"><!-- t2-l3c10 -->
+        <head>Caput 10</head>
+        <head type="question-title">Qua personae gaudeant propria ecclesiarum immunitate.</head>
+        <p>
+          <lb ed="#P" n="30"/>CAPUT X.
+          <lb ed="#P" n="31"/>QUA PERSONAE GAUDEANT PROPRIA ECCLESIARUM
+          <lb ed="#P" n="32"/>IMMUNITATE.
+        </p>
+        <p>
+          <lb ed="#P" n="33"/>1. Diximus de amplitudine hujus privilegii
+          <lb ed="#P" n="34"/>ex parte locorum sacrorum ; dicendum 
+          con<lb break="no" ed="#P" n="35"/>sequenter est de illius extensione , seu 
+          latitu<lb break="no" ed="#P" n="36"/>dine ex parte personarum. Primo ergo certum
+          <lb ed="#P" n="37"/>est, omnes fideles baptizatos gaudere hoc 
+          pri<lb break="no" ed="#P" n="38"/>vilegio. Ita docent omnes, et sumitur ex 
+          cita<lb break="no" ed="#P" n="39"/>tis juribus, quae indefinite et sine limitatione
+          <lb ed="#P" n="40"/>loquuntur. At vero indefinita locutio in lege
+          <lb ed="#P" n="41"/>prolata aequivalet universali, quia non licet
+          <lb ed="#P" n="42"/>nobis excipere, vel distinguere sine 
+          auctorita<lb break="no" ed="#P" n="43"/>te, vel ratione cogente, uhi lex indistincte 
+          lo<lb break="no" ed="#P" n="44"/>quitur. Eo vel maxime quod, cum haec lex
+          <lb ed="#P" n="45"/>prohibitionem contineat , includit 
+          negatio<lb break="no" ed="#P" n="46"/>nem , quae distribuit, et universalem reddit
+          <lb ed="#P" n="47"/>sermonem. Hinc ergo fit ut hac immunitate
+          <lb ed="#P" n="48"/>gaudeant , non solum homines liberi , sed
+          <lb ed="#P" n="49"/>etiam servi, si fideles et baptizati sint, 
+          excep<lb break="no" ed="#P" n="50"/>tis casibus in quibus illa negatur, de quibus
+          <lb ed="#P" n="51"/>infra dicemus. Atque ita colligitur ex dicto
+          <lb ed="#P" n="52"/>cap. S4 quis contumaz, 11, q. 4, et ex cap. 
+          Za<lb break="no" ed="#P" n="53"/>ter alia.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>2. Quid si servus dominum timens ad 
+          eccle<lb break="no" ed="#P" n="55"/>siam fugiat — Additur vero ibi specialiter
+          <lb ed="#P" n="56"/>de servo confugiente ad ecclesiam ex timore
+          <lb ed="#P" n="57"/>domini, compellendum esse redire ad 
+          domi<lb break="no" ed="#P" n="58"/>num, postquam dominus de servi impunitate
+          <lb ed="#P" n="59"/>clericis juramentum praestiterit ; in quo 
+          punc<lb break="no" ed="#P" n="60"/>to considero, servo non solum concedi 
+          immu<lb break="no" ed="#P" n="61"/>nitatem respectu judicis, si delictum 
+          commi<lb break="no" ed="#P" n="62"/>sit, propter quod possit publice puniri, sed
+          <lb ed="#P" n="63"/>etiam respectu domini, si solum ita deliquit,
+          <lb ed="#P" n="64"/>ut privatim ab eo puniri possit. Quoad 
+          pri<lb break="no" ed="#P" n="65"/>mam ergo immunitatem, nulla ibi fit 
+          distinc<lb break="no" ed="#P" n="66"/>tio inter liberum et servum, et ita aequaliter
+          <lb ed="#P" n="67"/>illa gaudent, ut ibi bene notavit Panorm.,
+          <lb ed="#P" n="68"/>num. 23, in fine, quia, ut ait, non est acceptio
+          <lb ed="#P" n="69"/>personarum agnd Dewn ; servus autem 
+          respec<lb break="no" ed="#P" n="70"/>tu judicis tanquam liber comparatur, et 
+          con<lb break="no" ed="#P" n="71"/>ditio servi accidentaria omnino est. Secus vero
+          <lb ed="#P" n="72"/>respectu domini, quia dominium illius habet,
+          <lb ed="#P" n="73"/>et jus ad opera illius, ut notatur in l. ultim.,
+          <lb ed="#P" n="74"/>circa finem, Cod. de His qui ad ecclesiam
+          <lb ed="#P" n="75"/>confugiunt. Unde sumitur etiam 
+          argumen<lb break="no" ed="#P" n="76"/>tum ab speciali : nam, cum ille textus solum
+          <lb ed="#P" n="77"/>respectu domini addat dictam limitationem,
+          <lb ed="#P" n="78"/>in aliüs nullam admittit. Circa limitationem
+          <lb ed="#P" n="79"/>vero ipsam, addit aliam Panormitanus cum
+          <lb ed="#P" n="80"/>Cyno, nisi servus fugiat propter magnam
+          <lb ed="#P" n="81"/>atrocitatem domini , quia non est 
+          exponen<lb break="no" ed="#P" n="82"/>dus tunc tam gravi periculo ; et idem fortasse
+          <lb ed="#P" n="83"/>est quoties prudenter timetur morale 
+          pericu<lb break="no" ed="#P" n="84"/>lum de gravi nocumento servi, non obstante
+          <lb ed="#P" n="85"/>juramento. Tunc enim aut cogendus est 
+          do<lb break="no" ed="#P" n="86"/>minus majorem cautionem adhibere, vel
+          <lb ed="#P" n="87"/>certe servum vendere, ut Panormitanus ait.
+          <lb ed="#P" n="88"/>Additur vero in l. S sereus, Cod. de His qui
+          <lb ed="#P" n="89"/>ad ecclesiam confugiunt, si servus armatus in
+          <lb ed="#P" n="90"/>ecclesiam irruat, statim extrahendum esse,
+          <lb ed="#P" n="91"/>vel domino liberam concedi facultatem illum
+          <lb ed="#P" n="92"/>extrahendi. Verumtamen Angel., verb. 
+          Im<lb break="no" ed="#P" n="93"/>munitas, n. 129, hoc etiam intelligit cum 
+          cau<lb break="no" ed="#P" n="94"/>tione juris canonici, scilicet, promissa 
+          impu<lb break="no" ed="#P" n="95"/>nitate. Quod intelligo esse verum ex vi talis
+          <lb ed="#P" n="96"/>conditionis personae, scilicet, quod sit servus;
+          <lb ed="#P" n="97"/>secus vero erit ratione delicti, si ita irruat
+          <lb ed="#P" n="98"/>armatus in ecclesiam, ut in ipsa delinquat ;
+          <lb ed="#P" n="99"/>quod aliis etiam commune est, ut infra 
+          vide<lb break="no" ed="#P" n="100"/>bimus.
+        </p>
+        <p>
+          <lb ed="#P" n="101"/>3. Fidelis excommunicatus hoc habet 
+          privi<lb break="no" ed="#P" n="102"/>legium. — Idem dicendum de interdicto. —
+          <lb ed="#P" n="103"/>Secundo, colligitur ex dictis, fidelem gaudere
+          <lb ed="#P" n="104"/>hoc privilegio, etiamsi excommunicatus sit.
+          <lb ed="#P" n="105"/>Ita docet Covar., dicto cap. 20, num. 11, in
+          <lb ed="#P" n="106"/>prineipio, cum Hostiens., in Sum., tit. de 
+          Im<lb break="no" ed="#P" n="107"/>munitate, et aliis pluribus quos refert, dicens
+          <lb ed="#P" n="108"/>esse communem sententiam ; et ratio ejusest,
+          <pb ed="#P" n="420"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia haec immunitas ecclesiis, non 
+          delinquen<lb break="no" ed="#P" n="2"/>tibus concessa est, unde tacite infert, non esse
+          <lb ed="#P" n="3"/>vim inferendam ecclesiae, etiamsi delinquens
+          <lb ed="#P" n="4"/>excommunicatus sit. Oportet vero addere,
+          <lb ed="#P" n="5"/>esse concessam ecclesiae hanc immunitatem
+          <lb ed="#P" n="6"/>cum generali prohibitione, quae comprehendit
+          <lb ed="#P" n="7"/>etiam excommunicatos, cum non exciplantur.
+          <lb ed="#P" n="8"/>Item hic habet iocum ratio supra tacta, quod
+          <lb ed="#P" n="9"/>excommunicatio non habet alios effectus, nisi
+          <lb ed="#P" n="10"/>quos jus declaravit ; nullo autem jure 
+          statu<lb break="no" ed="#P" n="11"/>tum est, ut excommunicatus non possit habere
+          <lb ed="#P" n="12"/>tutelam in ecclesia; ergo non obstante 
+          excom<lb break="no" ed="#P" n="13"/>municatione, inde extrahi non potest. Unde
+          <lb ed="#P" n="14"/>sequitur, idem a fortiori dicendum esse de
+          <lb ed="#P" n="15"/>interdicto, quia gravior est censura 
+          excom<lb break="no" ed="#P" n="16"/>municationis, et magis privat participatione
+          <lb ed="#P" n="17"/>divinorum; item quia nullibi ponitur hic 
+          ef<lb break="no" ed="#P" n="18"/>fectus inter effectus interdicti ; item quia 
+          ec<lb break="no" ed="#P" n="19"/>clesia interdicta gaudet sua immunitate; ergo
+          <lb ed="#P" n="20"/>ecclesia non interdicta gaudebit illa respectu
+          <lb ed="#P" n="21"/>personae interdictae.
+        </p>
+        <p>
+          <lb ed="#P" n="22"/>4. Hujus vero contrarium docuit Felin., in
+          <lb ed="#P" n="23"/>cap. A nobis, de Exceptionibus, num. 5. 
+          Lo<lb break="no" ed="#P" n="24"/>quitur tamen specialiter de illo qui 
+          interdic<lb break="no" ed="#P" n="25"/>tus est ab ingressu ecclesiae, et adducit cap.
+          <lb ed="#P" n="26"/>Quia frustra, de Usur., ubi dicitur, frustra 
+          le<lb break="no" ed="#P" n="27"/>gis auailum invocare, qui committit in legem.
+          <lb ed="#P" n="28"/>Interdictus autem ab ingressu ecclesia in
+          <lb ed="#P" n="29"/>eam delinquit, ingrediendo; ergo non potest
+          <lb ed="#P" n="30"/>illa protegi ac defendi. Item, quia interdictus
+          <lb ed="#P" n="31"/>ab ingressu ecclesiae non potest in ca sepeliri,
+          <lb ed="#P" n="32"/>cap. 7s cui, de Sent. excom., in 6. Et pro bac
+          <lb ed="#P" n="33"/>sententia citat Covarruvias Summam 
+          confes<lb break="no" ed="#P" n="34"/>sorum, titulo de Immunitate ecclesiae, quaest.
+          <lb ed="#P" n="35"/>5. Ipse vero horum auctorum sententiam 
+          re<lb break="no" ed="#P" n="36"/>probat ; unde sentit etiam personale 
+          interdic<lb break="no" ed="#P" n="37"/>tum prohibens expresse ingressum ecclesiae,
+          <lb ed="#P" n="38"/>non excludere effectum hujus immunitatis.
+          <lb ed="#P" n="39"/>Quol mihi etiam placet propter rationes 
+          fac<lb break="no" ed="#P" n="40"/>tas, et quia ille tunc fugiens ad ecclesiam, 
+          ne<lb break="no" ed="#P" n="41"/>cessitate compulsus, non censetur facere 
+          con<lb break="no" ed="#P" n="42"/>tra suum interdictum ; non enim contemnit
+          <lb ed="#P" n="43"/>ecclesiam, nec prohibitio illa videtur obligare
+          <lb ed="#P" n="44"/>cum tanto rigore, praesertim cum non 
+          ingre<lb break="no" ed="#P" n="45"/>diatur ecclesiam in ordine ad actus religionis
+          <lb ed="#P" n="46"/>vel cultus, quo sensu videtur maxime 
+          prohi<lb break="no" ed="#P" n="47"/>beri ille ingressus. Et ideo non censetur 
+          vio<lb break="no" ed="#P" n="48"/>lare tale interdictum qui per ecclesiam 
+          tran<lb break="no" ed="#P" n="49"/>sit, neque etiam qui in eam se recipit, uta
+          <lb ed="#P" n="50"/>pluvia, verbi gratia, et ab injuriis temporum
+          <lb ed="#P" n="51"/>se defendat, maxime si alibi non possit. Et ita
+          <lb ed="#P" n="52"/>cessant rationes Felin.
+        </p>
+        <p>
+          <lb ed="#P" n="53"/>5. An clerici hoc gaudeant beneficio. — Dixi
+          <lb ed="#P" n="54"/>autem in assertione laicos frui hoc beneficio,
+          <lb ed="#P" n="55"/>quia de clericis est controversia; aliqui enim
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>existimant eis valere immunitatem: ita 
+          Inno<lb break="no" ed="#P" n="57"/>centius, dicto cap. 7nter alia, et ibi 
+          Cardina<lb break="no" ed="#P" n="58"/>lis, q. 6; Romanus, et ali apud 
+          Covarru<lb break="no" ed="#P" n="59"/>viam. Et sane ratio a nobis pro assertione 
+          fac<lb break="no" ed="#P" n="60"/>ta hoc etiam probare videtur, quia jura quae
+          <lb ed="#P" n="61"/>de hac immunitate loquuntur, non de solis
+          <lb ed="#P" n="62"/>laicis, sed generaliter de omnibus tractant,
+          <lb ed="#P" n="63"/>scilicet, de liberis, servis, dicto cap. 7nter alia.
+          <lb ed="#P" n="64"/>Clerici autem maxime liberi sunt. Item de
+          <lb ed="#P" n="65"/>reis, in dicto cap. 7d constituumus, vel de 
+          con<lb break="no" ed="#P" n="66"/>fugientibus ad ecclesiam, cap. Definivit. 
+          Ma<lb break="no" ed="#P" n="67"/>xime vero videtur urgere cap. Nullus 
+          cleri<lb break="no" ed="#P" n="68"/>corum, 11, quaest. 4, ubi dicitur: Nullus 
+          cle<lb break="no" ed="#P" n="69"/>ricorum servuwm aut discipulum suwm 
+          fugien<lb break="no" ed="#P" n="70"/>tem ad ecclesiam eatrahere audeat, vel 
+          flagella<lb break="no" ed="#P" n="71"/>re prasumat ; ergo multo minus potest 
+          cleri<lb break="no" ed="#P" n="72"/>cus inde extrahi ut puniatur.
+        </p>
+        <p>
+          <lb ed="#P" n="73"/>6. Pars negativa approbatur. — 
+          Nihilomi<lb break="no" ed="#P" n="74"/>nus contrariam sententiam tenet 
+          Panormita<lb break="no" ed="#P" n="75"/>nus, in dicto cap. 7nter alia, num. 13, 
+          quam<lb break="no" ed="#P" n="76"/>vis fateatur se non reperisse textum, ubi hoc
+          <lb ed="#P" n="77"/>provideatur; allegat tamen Glossam, in dicto
+          <lb ed="#P" n="78"/>cap. JVulius, quae sentire videtur, praelatum
+          <lb ed="#P" n="79"/>ecclesiasticum non peccare extrahendo 
+          cleri<lb break="no" ed="#P" n="80"/>cum ab ecclesia, si id non faciat ex odio, sed
+          <lb ed="#P" n="81"/>zelo disciplinae. Et hanc opinionem sequitur
+          <lb ed="#P" n="82"/>Angelus, num. 14; et Sylvest., quasst. 3, 8
+          <lb ed="#P" n="83"/>Tertium ; et Covarruv., dicto cap. 20, n. 16;
+          <lb ed="#P" n="84"/>et Remigius de Gonny, tract. de Immun., 
+          Fal<lb break="no" ed="#P" n="85"/>lentia 21; et Nav., in Man., cap. 25, num. 21
+          <lb ed="#P" n="86"/>et 22; Julius Clar., d. S finali, quaest. 30, et
+          <lb ed="#P" n="87"/>alii moderni, qui etiam referunt ita esse usu
+          <lb ed="#P" n="88"/>receptum. Ratione etiam declaratur ab 
+          incom<lb break="no" ed="#P" n="89"/>modo ex Sylvest. supra; nam alias religiosi
+          <lb ed="#P" n="90"/>nunquam possent incarcerari, quia semper
+          <lb ed="#P" n="91"/>sunt in monasterio, quod totum est locus 
+          mm<lb break="no" ed="#P" n="92"/>munitatis, ut supra dictum est; consequens
+          <lb ed="#P" n="93"/>autem est plane absurdum, ut per se constat.
+          <lb ed="#P" n="94"/>Item major est immunitas personalis clerici,
+          <lb ed="#P" n="95"/>ut sic dicam, quae illi conceditur ratione suae
+          <lb ed="#P" n="96"/>consecrationis, quam ilia quae provenire 
+          po<lb break="no" ed="#P" n="97"/>test ex circumstantia loci; sed prior non 
+          im<lb break="no" ed="#P" n="98"/>pedit quominus a suo praelato possit clericus
+          <lb ed="#P" n="99"/>incarcerari, et corporaliter puniri intra 
+          eccle<lb break="no" ed="#P" n="100"/>siasticos limites, cap. Universitatis, de Sent.
+          <lb ed="#P" n="101"/>excom. ; ergo nec locus sacer impediet. Item
+          <lb ed="#P" n="102"/>ecclesiasticum judicium censetur magis 
+          me<lb break="no" ed="#P" n="103"/>dicinale quam vindicativum, et spirituaie 
+          po<lb break="no" ed="#P" n="104"/>tius quam temporale, et ideo tale judicium 
+          in<lb break="no" ed="#P" n="105"/>tra ecclesiam fieri non prohibetur ; ergo nec
+          <lb ed="#P" n="106"/>prohibetur fieri circa personam clerici, 
+          ex<lb break="no" ed="#P" n="107"/>trahendo illum ab ecclesia.
+        </p>
+        <p>
+          <lb ed="#P" n="108"/>7. Limitatur superior conclusio. — Haec 
+          er<lb break="no" ed="#P" n="109"/>go sententia probanda est, limitanda vero (ut
+          <lb ed="#P" n="110"/>bene dicit Navarr.) ut procedat de clerico res-
+          <pb ed="#P" n="421"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pectu ecclesiastici judicis. Nam in eo casu, in
+          <lb ed="#P" n="2"/>quo saecularis judex potest manus injicere in
+          <lb ed="#P" n="3"/>clericum, verbi gratia, minorem non 
+          benefi<lb break="no" ed="#P" n="4"/>ciatum, neque tonsuram et habitum 
+          gestan<lb break="no" ed="#P" n="5"/>tem (juxta Tridentinum, sess. 23, cap. 6), non
+          <lb ed="#P" n="6"/>potest illum ab ecclesia extrahere, quia tunc
+          <lb ed="#P" n="7"/>reputatur ut laicus, et non debet esse pejoris
+          <lb ed="#P" n="8"/>conditionis quam ille. Aliam praeterea 
+          limita<lb break="no" ed="#P" n="9"/>tionem addidit Bernardus Diaz, in Practica,
+          <lb ed="#P" n="10"/>cap. 115, alias 1235, nisi delictum clerici 
+          di<lb break="no" ed="#P" n="11"/>gnum sit depositione et traditione curiae 
+          saecu<lb break="no" ed="#P" n="12"/>lari, quia tunc, inquit, judex ecclesiasticus,
+          <lb ed="#P" n="13"/>vel non debet illum extrahere, vel, si 
+          extra<lb break="no" ed="#P" n="14"/>hat, non debet illum brachio saeculari tradere.
+          <lb ed="#P" n="15"/>Covar. autem considerat, limitationem non
+          <lb ed="#P" n="16"/>esse neceseariam, quia quando delictum est
+          <lb ed="#P" n="17"/>tam atrox, ecclesia non defendit clericum,
+          <lb ed="#P" n="18"/>quominus a suo judice tradi possit brachio
+          <lb ed="#P" n="19"/>saeculari. Et hoc mihi placet, quandocumque
+          <lb ed="#P" n="20"/>delictum hujusmodi fuerit. Si vero detur 
+          deli<lb break="no" ed="#P" n="21"/>ctum quod non excipitur ab Ecclesiae tuitione,
+          <lb ed="#P" n="22"/>et nihilominus propter illud, et propter 
+          incor<lb break="no" ed="#P" n="23"/>rigibilitatem in illo, potest clericus tradi
+          <lb ed="#P" n="24"/>brachio saeculari, tunc merito habere debet
+          <lb ed="#P" n="25"/>locum limitatio Bernardi, quia non debet esse
+          <lb ed="#P" n="26"/>pejoris conditionis clericus quam laicus. An
+          <lb ed="#P" n="27"/>vero dari possit hujusmodi delictum, in 
+          se<lb break="no" ed="#P" n="28"/>quentibus attingemus, quamvis hoc magis ad
+          <lb ed="#P" n="29"/>jurisperitos pertineat.
+        </p>
+        <p>
+          <lb ed="#P" n="30"/>2. Respondetur fundamento oppositae 
+          senten<lb break="no" ed="#P" n="31"/>lig. — Ad fundamentum autem contrariae
+          <lb ed="#P" n="32"/>sententiae dicendum est, licet canones 
+          expres<lb break="no" ed="#P" n="33"/>se non lIimitent ad laicos, tamen 
+          consuetudi<lb break="no" ed="#P" n="34"/>nem ipsam ita illos declarasse, est enim 
+          opti<lb break="no" ed="#P" n="35"/>ma legum interpres. Addit Panormitanus, ex
+          <lb ed="#P" n="36"/>ipsis juribus posse colligi, loqui de judicibus
+          <lb ed="#P" n="37"/>seecularibus; nam in dicto cap. 7nter alia,
+          <lb ed="#P" n="38"/>statim additur: JVec inde debet dumnari ad 
+          mor<lb break="no" ed="#P" n="39"/>lem, vel ad penam, sed rectores ecclesiarum 
+          si<lb break="no" ed="#P" n="40"/>bi obtinere debent membra et vitam. Ubi, cum
+          <lb ed="#P" n="41"/>rectores ecclesiarum distinguantur a 
+          judici<lb break="no" ed="#P" n="42"/>bus, et illis committatur defensio persona,
+          <lb ed="#P" n="43"/>non judicium, indicari videtur immunitatem
+          <lb ed="#P" n="44"/>concedi adversus judices saeculares, et eorum
+          <lb ed="#P" n="45"/>punitionem. Unde obiter colligo, etiam laicas
+          <lb ed="#P" n="46"/>personas, in his in quibus possunt ab 
+          ecclesias<lb break="no" ed="#P" n="47"/>ticis judicibus corripi, non posse tueri 
+          adver<lb break="no" ed="#P" n="48"/>sus illos protectione ecciesiae, quia haec 
+          immu<lb break="no" ed="#P" n="49"/>nitas ecclesiae non conceditur adversus ipsam
+          <lb ed="#P" n="50"/>ecclesiam, seu potestatem ejus.
+        </p>
+        <p>
+          <lb ed="#P" n="51"/>9. An infideles hac gaudeant immunitate.—
+          <lb ed="#P" n="52"/>Denique dixi, laicum fidelem, etc., quia de 
+          in<lb break="no" ed="#P" n="53"/>fidelibus etiam est controversia. Quod enim
+          <lb ed="#P" n="54"/>etiam illis valeat haec immunitas, docuit 
+          Glos<lb break="no" ed="#P" n="55"/>sa in dicto capit. Inter alia, verb. Eatrahen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dus ; addit enim, etiam Judeus, quam ibi 
+          se<lb break="no" ed="#P" n="57"/>quuntur Hostiens., Joann. Andr., et Tiraquel.,
+          <lb ed="#P" n="58"/>tract. de Primog., quaest. 66, num. 8, et 
+          plu<lb break="no" ed="#P" n="59"/>res alii per eum relati, et per Covarruviam
+          <lb ed="#P" n="60"/>supra, num. 11. Potestque confirmari ratione
+          <lb ed="#P" n="61"/>supra facta, quia jura generalem regulam 
+          con<lb break="no" ed="#P" n="62"/>stituunt, et non nominant fideles, vel 
+          Chri<lb break="no" ed="#P" n="63"/>stianos, sed simpliciter omnes reos, vel ad 
+          ec<lb break="no" ed="#P" n="64"/>clesiam confugientes ; ergo non est 
+          limitan<lb break="no" ed="#P" n="65"/>dus favor, praesertim quia non fit ipsis reis,
+          <lb ed="#P" n="66"/>vel infidelibus, sed ecclesiae. Item quia 
+          eccle<lb break="no" ed="#P" n="67"/>sia humanitatem exercet etiam cum 
+          infideli<lb break="no" ed="#P" n="68"/>bus, in his qua pertinent ad vitae 
+          conserva<lb break="no" ed="#P" n="69"/>tionem vel defensicnem, quando illa indigent.
+          <lb ed="#P" n="70"/>Nihilominus contrariam sententiam tenet
+          <lb ed="#P" n="71"/>Glossa, in leg. 1, Cod. de His qui ad eccles.
+          <lb ed="#P" n="72"/>contfugiunt, quam veriorem existimant Abbas,
+          <lb ed="#P" n="73"/>dicto cap. Inter alia , num. 6, et plures alii,
+          <lb ed="#P" n="74"/>quos refert et sequitur Covar., dicto num. 11,
+          <lb ed="#P" n="75"/>qui solum hoc probat, quia non est par ab
+          <lb ed="#P" n="76"/>ecclesia defendi eum, qui ejus gremio, tutelae
+          <lb ed="#P" n="77"/>et fidei committere seipsum recusat; quae 
+          ra<lb break="no" ed="#P" n="78"/>tio profecto non multum convincit, si quae 
+          di<lb break="no" ed="#P" n="79"/>ximus pro contraria sententia, expendantur;
+          <lb ed="#P" n="80"/>praesertim quia etiam dicere quis posset non
+          <lb ed="#P" n="81"/>esse par. ut ecclesia defendat iniquum et 
+          ho<lb break="no" ed="#P" n="82"/>micidam. Sicut ergo de illo dicimus, hic non
+          <lb ed="#P" n="83"/>tam considerari beneficium personae , quam
+          <lb ed="#P" n="84"/>loci sanctitatem, neque ecclesiam defendere
+          <lb ed="#P" n="85"/>iniquitatem homiuis, sed vitam, ita etiam 
+          di<lb break="no" ed="#P" n="86"/>ci potest de infideli. Et praeterea cum hoc
+          <lb ed="#P" n="87"/>pendea:t ex jure positivo, illa opinio 
+          praeferen<lb break="no" ed="#P" n="88"/>da videtur, cui verba legis magis favent.
+        </p>
+        <p>
+          <lb ed="#P" n="89"/>10. In jure ergo canonico nihil invenio,
+          <lb ed="#P" n="90"/>quo possit haec posterior opinio probari, nam
+          <lb ed="#P" n="91"/>verba Canonum generaliter et indifferenter
+          <lb ed="#P" n="92"/>loquuntur, et in hoc magis favent priori 
+          sen<lb break="no" ed="#P" n="93"/>tentiae. Potest autem aliquis dicere, canones
+          <lb ed="#P" n="94"/>loqui juxta subjectam materiam de 
+          homini<lb break="no" ed="#P" n="95"/>bus et personis, quae sunt sub Ecclesiae 
+          Juris<lb break="no" ed="#P" n="96"/>dictione : Nam de his quee foris sunt, nilil ad
+          <lb ed="#P" n="97"/>nos; et ideo ex materia subjecta verba 
+          limi<lb break="no" ed="#P" n="98"/>tari ad fideles, etiamsi in ipsis verbis limitatio
+          <lb ed="#P" n="99"/>non addatur, quae ratio probabilis est, rem 
+          ta<lb break="no" ed="#P" n="100"/>men relinquit satis dubiam. Et ideo ulterius
+          <lb ed="#P" n="101"/>considero, circa hanc immunitatem leges 
+          ci<lb break="no" ed="#P" n="102"/>viles, quae canonicis non repugnant, vim et 
+          et<lb break="no" ed="#P" n="103"/>ficaciam habere ; nam in dicto cap. 7nter alia,
+          <lb ed="#P" n="104"/>aperte dicitur: Juata statuta canomun, et 
+          tra<lb break="no" ed="#P" n="105"/>ditiones legum civilium. etc. Si ergo jus civiie
+          <lb ed="#P" n="106"/>aliquid in hoc statuit, observandum est. At
+          <lb ed="#P" n="107"/>vero in leg. 1, Cod. de His qui ad ecclesiam
+          <lb ed="#P" n="108"/>confugiunt, de Judaeis, qui simulant se 
+          chris<lb break="no" ed="#P" n="109"/>tianae legi velle conjungi, dicitur ut ad 
+          eccle<lb break="no" ed="#P" n="110"/>siam fugientes non defendantur, quod a pari-
+          <pb ed="#P" n="422"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tate rationis de pagano vel Sarraceno similiter
+          <lb ed="#P" n="2"/>procedit. Unde sumitur argumentum a 
+          con<lb break="no" ed="#P" n="3"/>trario. quod si non simulato animo, sed ex
+          <lb ed="#P" n="4"/>corde baptizari petat, ab Ecclesia 
+          defendcn<lb break="no" ed="#P" n="5"/>dus est. Non enim sine causa addita est illa
+          <lb ed="#P" n="6"/>restrictio: Qui simulat se, etc. ; quia vero 
+          si<lb break="no" ed="#P" n="7"/>mulatio aut veritas non potest judicibus clare
+          <lb ed="#P" n="8"/>constare, ad praesumptionem necessario 
+          recur<lb break="no" ed="#P" n="9"/>rendum est.
+        </p>
+        <p>
+          <lb ed="#P" n="10"/>11. Sententia auctoris. — Aut ergo 
+          infide<lb break="no" ed="#P" n="11"/>lis confugiens ad ecclesiam petit baptismum,
+          <lb ed="#P" n="12"/>vel non: si non petit, credo non gaudere, ut
+          <lb ed="#P" n="13"/>supponit secunda opinio, et expresse notat
+          <lb ed="#P" n="14"/>Angel., num. 13, quicquid Sylvester 
+          contra<lb break="no" ed="#P" n="15"/>dicat, solum quia jura canonica sine 
+          restric<lb break="no" ed="#P" n="16"/>tione loquuptur. Sed cum Innocentius IIT 
+          ad<lb break="no" ed="#P" n="17"/>jungat legem civilem , optime possumus in
+          <lb ed="#P" n="18"/>hac parte jus canonicum per civile 
+          interpreta<lb break="no" ed="#P" n="19"/>ri (praeter aliam conjecturam, et 
+          responsio<lb break="no" ed="#P" n="20"/>nem superius datam); in dicta autem lege
+          <lb ed="#P" n="21"/>evidenter supponitur, infidelem non 
+          peten<lb break="no" ed="#P" n="22"/>tem baptismum non gandere hoc beneficio.
+          <lb ed="#P" n="23"/>Nam si is qui simulate petit, non gaudet, ut
+          <lb ed="#P" n="24"/>ibi statuitur, multo minus qui non petit. De 
+          il<lb break="no" ed="#P" n="25"/>lo autem qui petit, ulterius distinguo: nam
+          <lb ed="#P" n="26"/>vel ante commissum delictum, et conceptum
+          <lb ed="#P" n="27"/>judicis timorem, voluntatem ostenderat 
+          con<lb break="no" ed="#P" n="28"/>versionis suae, vel solum post fugam ad 
+          ec<lb break="no" ed="#P" n="29"/>clesiam baptismum petit, ut defendatur. In
+          <lb ed="#P" n="30"/>priori casu, profecto probabilior est prima
+          <lb ed="#P" n="31"/>opinio ; quia nulla ratio tunc est praesumendi
+          <lb ed="#P" n="32"/>simulationem, et ita multum favet dicta lex.
+          <lb ed="#P" n="33"/>Neque tunc habet locum responsio Glossae,
+          <lb ed="#P" n="34"/>scilicet , verba illa solum denotare 
+          frequen<lb break="no" ed="#P" n="35"/>tiam, quia etiam verum non est, in 
+          hujusmo<lb break="no" ed="#P" n="36"/>di hominibus frequentius reperiri 
+          simulatio<lb break="no" ed="#P" n="37"/>nem. Accedit quod ille tunc aliquo modo erat
+          <lb ed="#P" n="38"/>fidelis ante delictum, quia erat quasi 
+          cate<lb break="no" ed="#P" n="39"/>chumenus, et animo jam fidem conceperat :
+          <lb ed="#P" n="40"/>item tunc cessat conjectura alterius 
+          senten<lb break="no" ed="#P" n="41"/>tiae ; maxime enim par est ut ecclesia 
+          hujus<lb break="no" ed="#P" n="42"/>modi hominem defendat. Et hujusmodi 
+          ca<lb break="no" ed="#P" n="43"/>sus contingere potest frequenter in captivis
+          <lb ed="#P" n="44"/>servis, et aliis infidelibus qui inter nos 
+          ver<lb break="no" ed="#P" n="45"/>santur.
+        </p>
+        <p>
+          <lb ed="#P" n="46"/>12. At vero quando infidelis solum post
+          <lb ed="#P" n="47"/>delictum, et fugam ad Ecclesiam, incipit 
+          os<lb break="no" ed="#P" n="48"/>tendere voluntatem fidei, magna est 
+          praesum<lb break="no" ed="#P" n="49"/>ptio quod simulate petit; nam, ut 
+          Panormita<lb break="no" ed="#P" n="50"/>nus ait, est praesumptio juris et de jure, 
+          con<lb break="no" ed="#P" n="51"/>tra quam non admittitur probatio; quod 
+          au<lb break="no" ed="#P" n="52"/>tem illa praesumptio sit non tantum juris, sed
+          <lb ed="#P" n="53"/>etiam de jure, solum probat ex illa lege, quia
+          <lb ed="#P" n="54"/>ratione hujus praesumptionis statuit, ut isti
+          <lb ed="#P" n="55"/>infideles non defendantur ab ecclesis, donec
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>debita solvant, vel inpocentiam probent. 
+          Ve<lb break="no" ed="#P" n="57"/>rumtamen si attente consideretur lex illa, non
+          <lb ed="#P" n="58"/>dicit ut non defendantur, sed ut non 
+          susci<lb break="no" ed="#P" n="59"/>piantur, scilicet, ad baptismum, donec, etc.;
+          <lb ed="#P" n="60"/>nam post solutionem debitorum, vel probatam
+          <lb ed="#P" n="61"/>iunocentiam, parum indigerent Ecclesiae 
+          im<lb break="no" ed="#P" n="62"/>munitate: unde quoad illam partem, lex illa
+          <lb ed="#P" n="63"/>nullius momenti est, quia disponit in materia
+          <lb ed="#P" n="64"/>aliena : hoc enim judicium pertinet ad 
+          Eccle<lb break="no" ed="#P" n="65"/>siam. Prius tamen dicit, ut isti arceantur,
+          <lb ed="#P" n="66"/>utique ab ecclesia; sed hoc non generaliter
+          <lb ed="#P" n="67"/>statuit, sed cum illa limitatione: Qui simulant
+          <lb ed="#P" n="68"/>se, etc. Et ideo non videtur ita statuere, ut 
+          in<lb break="no" ed="#P" n="69"/>ducat praesumptionem de jure. Ideoque 
+          proba<lb break="no" ed="#P" n="70"/>biliorem existimo priorem opinionem, quam
+          <lb ed="#P" n="71"/>etiam sequuntur Angelus et Sylvester, cum
+          <lb ed="#P" n="72"/>communi Canonistarum. Potest enim Ecclesia
+          <lb ed="#P" n="73"/>hujusmodi ad se confugientem, et petentem
+          <lb ed="#P" n="74"/>baptismum, protegere, donec examinet an 
+          ve<lb break="no" ed="#P" n="75"/>re vel simulate petat, atque ita admittere
+          <lb ed="#P" n="76"/>probationem contra praesumptionem. Quod
+          <lb ed="#P" n="77"/>si Ecclesia judicaverit illam non esse 
+          simula<lb break="no" ed="#P" n="78"/>tionem, sed veram voluntatem ea occasione
+          <lb ed="#P" n="79"/>a Deo inspiratam, ut saepe accidit, sicut 
+          po<lb break="no" ed="#P" n="80"/>test illum hominem baptizare, ita et vel 
+          decla<lb break="no" ed="#P" n="81"/>rare, vel efficere ut immunitate gaudeat. Si
+          <lb ed="#P" n="82"/>vero prasumptio purgari non potest, tunc
+          <lb ed="#P" n="83"/>procedet secunda opinio juxta praedictam 
+          le<lb break="no" ed="#P" n="84"/>gem.
+        </p>
+        <p>
+          <lb ed="#P" n="85"/>13. Quid de haereticis dicendum.—Sed quid
+          <lb ed="#P" n="86"/>de haereticis? illi enim licet sint infideles,
+          <lb ed="#P" n="87"/>sunt tamen baptizati, et ex hac parte 
+          viden<lb break="no" ed="#P" n="88"/>tur melioris conditionis quam alii infideles.
+          <lb ed="#P" n="89"/>Aliunde vero non invenitur propter haeresim
+          <lb ed="#P" n="90"/>illis imposita haec poeena, ut hac immunitate
+          <lb ed="#P" n="91"/>ecclesiae non gaudeant. In contrarium vero
+          <lb ed="#P" n="92"/>est, quia omnino sunt indigni tali favore.
+          <lb ed="#P" n="93"/>Propter quod Covarruvias supra num. 11,8
+          <lb ed="#P" n="94"/>Decimo quarto, negat haereticum gaudere hoc
+          <lb ed="#P" n="95"/>beneficio: citat Villadieg., tract. de Haeret.,
+          <lb ed="#P" n="96"/>q. 11, num. 15, et alios. Sylvester autem,
+          <lb ed="#P" n="97"/>Inmunitas, 3, quaest. tertia, S Secundum,
+          <lb ed="#P" n="98"/>dicit etiam haereticum gaudere hac 
+          immuni<lb break="no" ed="#P" n="99"/>tate, quantum ad alia maleficia ab haeresi.
+          <lb ed="#P" n="100"/>Itaque certum est pro ipsa haeresi non 
+          gaude<lb break="no" ed="#P" n="101"/>re, tum propter atrocitatem criminis, ut 
+          in<lb break="no" ed="#P" n="102"/>fra dicemus; tum quia illa causa est 
+          eccle<lb break="no" ed="#P" n="103"/>siastica: supra autem diximus immunitatem
+          <lb ed="#P" n="104"/>hanc contra ecclesiasticum judicem non 
+          va<lb break="no" ed="#P" n="105"/>lere. De aliis vero criminibus probabilis 
+          vide<lb break="no" ed="#P" n="106"/>tur Sylvestri opinio, quia non habemus 
+          fun<lb break="no" ed="#P" n="107"/>damentum ad excipiendam personam, ubi
+          <lb ed="#P" n="108"/>crimen non est exceptum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

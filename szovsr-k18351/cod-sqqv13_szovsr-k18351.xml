@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 20</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 20</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="735"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k18351"><!-- t3-l4c20 -->
+        <head>Caput 20</head>
+        <head type="question-title">Utrum actus ecclesiastice jurisdictionis pertinentis ad externum forum sint materia simoniae?</head>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>CAPUT XX.
+          <lb ed="#P" n="54"/>UTRUM ACTUS ECCLESIASTICE JURISDICTIONIS 
+          PER<lb break="no" ed="#P" n="55"/>TINENTIS AD EXTERNUM FORUM SINT MATEBRIA
+          <lb ed="#P" n="56"/>SIMONIAE?
+        </p>
+        <p>
+          <lb ed="#P" n="57"/>1. Nullum actum jurisdictionis externi fori
+          <lb ed="#P" n="58"/>posse vendi sine simonia.— De bac 
+          jurisdictio<lb break="no" ed="#P" n="59"/>ne solet generalis regula constitui, nullum
+          <lb ed="#P" n="60"/>illius actum posse sine simonia vendi aut emi,
+          <lb ed="#P" n="61"/>ac subinde semper esse materiam simoniae.
+          <lb ed="#P" n="62"/>Haec regula sumi potest ex D. Thom., quaest.
+          <lb ed="#P" n="63"/>100, art. tertio, praesertim ad 3, et in 4, dist.
+          <lb ed="#P" n="64"/>25, quaest. 3, articul. 2, quaest. 2. praesertim
+          <lb ed="#P" n="65"/>ad 9, et ex aliis Theologis ibi; et Anton.,
+          <lb ed="#P" n="66"/>Sylvest. et aliis Thomistis, locis saepe citatis;
+          <lb ed="#P" n="67"/>Juris etiam interpretes idem sentire videntur
+          <lb ed="#P" n="68"/>in cap. Vendentes, 1, quaestione tertia, cum
+          <lb ed="#P" n="69"/>Gloss. ibi, Cardinal. Alexand., num. 7, et
+          <lb ed="#P" n="70"/>sanct. Sixt., numer. 6. [tem in cap. Qui recte,
+          <lb ed="#P" n="71"/>11, quaest. 3. Verumtamen haec universalis 
+          re<lb break="no" ed="#P" n="72"/>gula, licet fortasse vera sit, non est aeque certa
+          <lb ed="#P" n="73"/>in omnibus actibus hujus jurisdictionis, quia,
+          <lb ed="#P" n="74"/>licet omnes, quatenus ab illa sunt, sint aliquo
+          <lb ed="#P" n="75"/>modo spirituales ex parte principii, non tamen
+          <lb ed="#P" n="76"/>omnes sunt aeque sp 'uales, vel in se spectati,
+          <lb ed="#P" n="77"/>velin ordine ad proximum finem ad quem 
+          refe<lb break="no" ed="#P" n="78"/>runtur ; quidam enim videntur esse satis 
+          ma<lb break="no" ed="#P" n="79"/>teriales, et immediate ordinati ad finem pol:-
+          <lb ed="#P" n="80"/>ticum inter personas ecclesiasticas, ut lites 
+          ci<lb break="no" ed="#P" n="81"/>viles vel criminales inter eas dirimere, 
+          licen<lb break="no" ed="#P" n="82"/>tiam dare ad aliquem actum mere temporalem
+          <lb ed="#P" n="83"/>et similia; ideoque non potest esse de 
+          omni<lb break="no" ed="#P" n="84"/>bus his eadem certitudo. Propter hoc ergo,
+          <lb ed="#P" n="85"/>operae pretium duco magis in particulari de
+          <lb ed="#P" n="86"/>his actibus loqui, eorum varietatem 
+          distin<lb break="no" ed="#P" n="87"/>guendo.
+        </p>
+        <p>
+          <lb ed="#P" n="88"/>Qui sint actus quibus jurisdictio 
+          confer<lb break="no" ed="#P" n="89"/>tur. — Primo ergo distinguere possumus actus
+          <lb ed="#P" n="90"/>quibus ipsa jurisdictio confertur, ab actibus
+          <lb ed="#P" n="91"/>quibus eadem jurisdictio administratur. Actus
+          <lb ed="#P" n="92"/>enim quo jurisdictio ecclesiastica alicui 
+          con<lb break="no" ed="#P" n="93"/>fertur, revera est actus jurisdictionis. Duobus
+          <lb ed="#P" n="94"/>enim modis confertur haec jurisdictio, 
+          sci<lb break="no" ed="#P" n="95"/>licet, vel ut ordinaria, vel ut delegaia; et
+          <lb ed="#P" n="96"/>cum confertur ut ordinaria, semper datur ab
+          <lb ed="#P" n="97"/>aliquo superiori altiorem jurisdictionem 
+          ha<lb break="no" ed="#P" n="98"/>bente, in virtute cujus potest aliis dignitatem
+          <lb ed="#P" n="99"/>conferre. cui talis jurisdictio conjuncta est. Sic
+          <lb ed="#P" n="100"/>enim a summo Pontifice manat haec jurisdictio
+          <lb ed="#P" n="101"/>ad Episcopos, vel alios praelatos illam 
+          partici<lb break="no" ed="#P" n="102"/>pantes, et interdum ab Episcopo potest alicui
+          <lb ed="#P" n="103"/>inferiori communicari. Potestas autem 
+          dele<lb break="no" ed="#P" n="104"/>gata ab eo conceditur, qui ordinariam habet,
+          <pb ed="#P" n="736"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et in virtute illius committitur, et ita illa 
+          com<lb break="no" ed="#P" n="2"/>missio, actus ordinariae jurisdictionis merito 
+          di<lb break="no" ed="#P" n="3"/>ci potest juxtal. mperiwm, ff. de Jurisdict. 
+          om<lb break="no" ed="#P" n="4"/>nium judic. Solum potest a priori membro 
+          ex<lb break="no" ed="#P" n="5"/>cipijurisdictio Summi Pontificis, quae maxime
+          <lb ed="#P" n="6"/>ordinaria est, et non contfertur ab alio homine
+          <lb ed="#P" n="7"/>habente jurisdictionem ordinariam , sed 
+          im<lb break="no" ed="#P" n="8"/>mediate a*Deo ipso. Haec autem exceptio 
+          ni<lb break="no" ed="#P" n="9"/>hil obstat gcneralitati doctrina : tum quia
+          <lb ed="#P" n="10"/>loquimur de jurisdictione quae per homines
+          <lb ed="#P" n="11"/>dari potest ; homines enim sunt, qui simoniam
+          <lb ed="#P" n="12"/>committere possunt, non Deus; tum etiam
+          <lb ed="#P" n="13"/>quia in illa dignitate ejusque jurisdictione
+          <lb ed="#P" n="14"/>electores Pontificis subeunt vicem ejus, qui
+          <lb ed="#P" n="15"/>jurisdictionem confert, et ita ex parte illorum
+          <lb ed="#P" n="16"/>potest illa jurisdictio esse materia simoniae,
+          <lb ed="#P" n="17"/>nt dicemus.
+        </p>
+        <p>
+          <lb ed="#P" n="18"/>3. Qua sint actus quibus jurisdictio 
+          exerce<lb break="no" ed="#P" n="19"/>tur. — Actus vero quibus haec jurisdictio 
+          ad<lb break="no" ed="#P" n="20"/>ministratur, sunt illi qui ab illa prodeunt, et
+          <lb ed="#P" n="21"/>per quos exercetur, ac veluti executioni 
+          man<lb break="no" ed="#P" n="22"/>datur, versaturque circa externam 
+          guberna<lb break="no" ed="#P" n="23"/>tionem ecclesiasticam. Unde distingui possunt
+          <lb ed="#P" n="24"/>in actus pertinentes ad directionem, et actus
+          <lb ed="#P" n="25"/>pertinentes ad executionem : sub prioribus
+          <lb ed="#P" n="26"/>continentur maxime praeceptorum seu legum
+          <lb ed="#P" n="27"/>lationes in ecclesiastico foro; sub 
+          posteriori<lb break="no" ed="#P" n="28"/>bus continentur omnes actus judiciorum 
+          ec<lb break="no" ed="#P" n="29"/>clesiasticorum , sive civilium, sive 
+          crimina<lb break="no" ed="#P" n="30"/>lium, et caeterorum, qui ad illos reducuntur.
+          <lb ed="#P" n="31"/>Undc etiam duplices actus hujus jurisdictionis
+          <lb ed="#P" n="32"/>distingui solent : quidam vocantur 
+          jurisdictio<lb break="no" ed="#P" n="33"/>nis voluntariae, quia in eis non intercedit 
+          co<lb break="no" ed="#P" n="34"/>actio, sed gratia, et ita fiunt, volente illo cum
+          <lb ed="#P" n="35"/>quo exercentur, ut sunt dispensationes, 
+          privi<lb break="no" ed="#P" n="36"/>legia, facultatum concessiones, legitimationes,
+          <lb ed="#P" n="37"/>et similes: aiii dicuntur jurisdictionis 
+          conten<lb break="no" ed="#P" n="38"/>tiosae, ut qui ad judicia ecclesiastica spectant;
+          <lb ed="#P" n="39"/>et inter hos quidam pertinent ad censuras
+          <lb ed="#P" n="40"/>imponendas vel tollendas, qui plus habent de
+          <lb ed="#P" n="41"/>commodo animarum, et minus de strepitu 
+          ju<lb break="no" ed="#P" n="42"/>dicii externi, ideoque magis spirituales 
+          viden<lb break="no" ed="#P" n="43"/>tur; alii vero sunt magis externi et politici,
+          <lb ed="#P" n="44"/>ut actus omnino forenses litium civilium, vel
+          <lb ed="#P" n="45"/>criminalium personarum ecclesiasticarum. 
+          De<lb break="no" ed="#P" n="46"/>nique in his actibus considerare possumus, vel
+          <lb ed="#P" n="47"/>jurisdictionem ipsam, aut facultatem a qua
+          <lb ed="#P" n="48"/>ipsi actus procedunt (quam spiritualem esse
+          <lb ed="#P" n="49"/>supponimus), vel actus ab illa procedentes;
+          <lb ed="#P" n="50"/>prius ergo dicemus de actibus, quibus ipsa
+          <lb ed="#P" n="51"/>jurisdictio communicatur vel comparatur,
+          <lb ed="#P" n="52"/>quia etiam hi actus ad jurisdictionem 
+          perti<lb break="no" ed="#P" n="53"/>nent; postea de caeteris actibus.
+        </p>
+        <p>
+          <lb ed="#P" n="54"/>4. Actus communicandi jurisdictionem 
+          spi<lb break="no" ed="#P" n="55"/>ritualem sunt materia simonie. — Ratio. 
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Dico ergo primo : actus communicandi 
+          juris<lb break="no" ed="#P" n="57"/>dictionem spiritualem, natura sua sunt 
+          mate<lb break="no" ed="#P" n="58"/>ria simoniae, ita ut illos vendere aut emere 
+          si<lb break="no" ed="#P" n="59"/>monia sit juri divino contraria. Haec assertio
+          <lb ed="#P" n="60"/>certa et communis est, et melius patebit 
+          des<lb break="no" ed="#P" n="61"/>cendendo ad aliquos actus in particulari. Ratio
+          <lb ed="#P" n="62"/>vero generalis est, quia si hujusmodi actus
+          <lb ed="#P" n="63"/>vendantur vel erantur, venditur ipsa 
+          spiri<lb break="no" ed="#P" n="64"/>tualis jurisdictio; at vendere jurisdictionem
+          <lb ed="#P" n="65"/>ecclesiasticam manifeste est simonia, nam et
+          <lb ed="#P" n="66"/>ipsa est supernaturalis, et supernaturaliter
+          <lb ed="#P" n="67"/>data, et ad spiritualem ac supernaturalem 
+          fi<lb break="no" ed="#P" n="68"/>nem per se primo ordinata, ut constat ex 
+          pro<lb break="no" ed="#P" n="69"/>pria materia ; ergo. Major per se nota est,
+          <lb ed="#P" n="70"/>quia vendere actum, quo res traditur, nihil
+          <lb ed="#P" n="71"/>aliud est quam vendere rem traditam; et e
+          <lb ed="#P" n="72"/>converso, non aliter venditur aliqua res quam
+          <lb ed="#P" n="73"/>vendendo elargitionem ejus. Item actus quo res
+          <lb ed="#P" n="74"/>traditur, non alia ratione aestimatur, nisi quia
+          <lb ed="#P" n="75"/>res ipsa aestimabilis est ; unde si unum pretio
+          <lb ed="#P" n="76"/>eestimatur ac venditur, etiam aliud. 
+          Declara<lb break="no" ed="#P" n="77"/>tur praeterea ex duplici modo supra posito
+          <lb ed="#P" n="78"/>communicandi jurisdictionem hanc, ut 
+          ordi<lb break="no" ed="#P" n="79"/>nariam et nt delegatam. Nam priori modo non
+          <lb ed="#P" n="80"/>datur, nisi conferendo aliquam dignitatem 
+          ec<lb break="no" ed="#P" n="81"/>clesiasticam, talem jurisdictionem habentem,
+          <lb ed="#P" n="82"/>vel si tantum sit cura pastoralis, datur 
+          confe<lb break="no" ed="#P" n="83"/>rendo beneficium ecclesiasticum curatum, 
+          ha<lb break="no" ed="#P" n="84"/>bens talem jurisdictionem, seu curam et 
+          solli<lb break="no" ed="#P" n="85"/>citudinem : sed vendere has dignitates, ae
+          <lb ed="#P" n="86"/>beneficia, simonia est, ut paulo inferius 
+          dice<lb break="no" ed="#P" n="87"/>mus generaliter de omnibus beneficiis 
+          eccle<lb break="no" ed="#P" n="88"/>siasticis. Nam quoad hanc partem, tota 
+          doc<lb break="no" ed="#P" n="89"/>trina de simonia in ecclesiasticis beneficiis
+          <lb ed="#P" n="90"/>majorem rationem habet in beneticiis 
+          haben<lb break="no" ed="#P" n="91"/>tibus curam auimarum, et ecclesiasticam 
+          ju<lb break="no" ed="#P" n="92"/>risdictionem, quam in simplicibus, ut per se
+          <lb ed="#P" n="93"/>constat ; ergo. Posteriori item raodo, scilicet
+          <lb ed="#P" n="94"/>per delegationem, immediate communicatut
+          <lb ed="#P" n="95"/>ipsa jurisdictio, non cum aliqua dignitate aul
+          <lb ed="#P" n="96"/>beneficio, sed proxime et in se; ergo sicut 
+          ju<lb break="no" ed="#P" n="97"/>risdictio illa aestimabilis pretio non est, ite
+          <lb ed="#P" n="98"/>ncque illius commissio. Et utraque pars huju:
+          <lb ed="#P" n="99"/>rationis expresse traditur in cap. 1, 2 et 3, N
+          <lb ed="#P" n="100"/>Praelati vices suas, ubi Gloss. et Doctores 
+          om<lb break="no" ed="#P" n="101"/>nes in his conveniunt; et in c. Ad nostram
+          <lb ed="#P" n="102"/>de Sim., et in c. Licet, de Poenis. Et Summis:
+          <lb ed="#P" n="103"/>tae, verb. S'imonia ; Sylvest., q. 14; Tabien.
+          <lb ed="#P" n="104"/>n. 44; Angel., S'imonia, 2, num. 27; Navar.
+          <lb ed="#P" n="105"/>d. 23 n.4111.
+        </p>
+        <p>
+          <lb ed="#P" n="106"/>5. Episcopi vicarius, et similes, non gossum
+          <lb ed="#P" n="107"/>constitui. —Atque hinc colligitur primo
+          <lb ed="#P" n="108"/>non posse Episcopi vicarium pretio constitui
+          <lb ed="#P" n="109"/>nec aliquem spiritualem judicem, sive delega
+          <lb ed="#P" n="110"/>tum, sive ordinarium loco Episcopi, aut capi
+          <pb ed="#P" n="737"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tuli, vacante sede, provideri, nec vicarium ali
+          <lb ed="#P" n="2"/>cujus Ecclesiae, etiam ad nutum amovibilem,
+          <lb ed="#P" n="3"/>neccapvllanum, cui parochialis cura delegatur,
+          <lb ed="#P" n="4"/>pretio constitui, sive pretium detur ex parte
+          <lb ed="#P" n="5"/>ejus qui officium seu jurisdictionem accipit,
+          <lb ed="#P" n="6"/>sive ex parte ejus qui illam communicat: quia
+          <lb ed="#P" n="7"/>quocumque modo id fiat, jurisdictio spiritualis
+          <lb ed="#P" n="8"/>emitur ac venditur, ideoque simonia 
+          committi<lb break="no" ed="#P" n="9"/>tur,ut probant allegata jura, et rationes factae
+          <lb ed="#P" n="10"/>ostendunt. Et specialiter probatur ex c. Ad 
+          nos<lb break="no" ed="#P" n="11"/>tran, de Simon., ibi, seu pro vicariis 
+          assighan<lb break="no" ed="#P" n="12"/>dis, eic. Est autem semper sermo de pretio et
+          <lb ed="#P" n="13"/>de venditione ; nam stipendium sustentationis
+          <lb ed="#P" n="14"/>nunquam excludiur, ut in principio 
+          praemisi<lb break="no" ed="#P" n="15"/>mus, et constat ex usu, et notant Glossae et
+          <lb ed="#P" n="16"/>Doctores, in c. 1 et 2 Ne praelati vices suas, et
+          <lb ed="#P" n="17"/>intra circa tertiam divisionem latius dicturi
+          <lb ed="#P" n="18"/>sumus.
+        </p>
+        <p>
+          <lb ed="#P" n="19"/>6. Quo pacto clericatus camere, et 
+          audito<lb break="no" ed="#P" n="20"/>riatus pretio dari possint. —Hic vero occurrebat
+          <lb ed="#P" n="21"/>difficultas ex usu Romanae Ecclesiae, in qua
+          <lb ed="#P" n="22"/>vidimus vendi clericatum camerae, et 
+          audito<lb break="no" ed="#P" n="23"/>riatum camerae, quae sunt munia constituta ad
+          <lb ed="#P" n="24"/>ecclesiasticam jurisdictionem exercendam vice
+          <lb ed="#P" n="25"/>Pontificis. Respondeo duo in illis muneribus
+          <lb ed="#P" n="26"/>esse distinguenda : unum est jurisdictio 
+          spiri<lb break="no" ed="#P" n="27"/>tualis, quae auditori vel clerico confertur;
+          <lb ed="#P" n="28"/>aliud est emolumentum temporale, quod ex
+          <lb ed="#P" n="29"/>administratione illius jurisdictionis eis 
+          prove<lb break="no" ed="#P" n="30"/>nire solet. Primum etiam ab ipso Pontifice
+          <lb ed="#P" n="31"/>vendi non potest sine simonia, quia est contra
+          <lb ed="#P" n="32"/>jus divinum; secundum autem, per se ac nude
+          <lb ed="#P" n="33"/>spectatum, vendibile est, ut constat ; quia quii
+          <lb ed="#P" n="34"/>temporale est, et sumitur ex cap. ult. Ne 
+          Prae<lb break="no" ed="#P" n="35"/>lati vices suas, ub: Abb., et in c. 1, eod., n.2
+          <lb ed="#P" n="36"/>et ibi alii, et Ang., Simonia, 2, num. 25. Dico
+          <lb ed="#P" n="37"/>autem, per se ac nude spectutum, quia, ut 
+          con<lb break="no" ed="#P" n="38"/>junctum spirituali juri ac jurisdictioni, 
+          tan<lb break="no" ed="#P" n="39"/>quam consequens ex illa, vendi non potest,
+          <lb ed="#P" n="40"/>quia sic etiam ipsum spirituale antecedens
+          <lb ed="#P" n="41"/>venderetur, juxta c. S quis objecerit, 4, q. 3.
+          <lb ed="#P" n="42"/>Hoc autem posterius verum est de jure 
+          eccle<lb break="no" ed="#P" n="43"/>siastico, non de divino jure, saltem respectu
+          <lb ed="#P" n="44"/>ejus, qui potest illa disjungere, et unum sine
+          <lb ed="#P" n="45"/>altero dare. Talis autem est Summus Pontifex,
+          <lb ed="#P" n="46"/>qui ex justa causa potest se ab aliqua humana
+          <lb ed="#P" n="47"/>prohibitione eximere, et potest dare jus 
+          spi<lb break="no" ed="#P" n="48"/>rituale, reservando sibi emolumentum 
+          tem<lb break="no" ed="#P" n="49"/>porale, vel partem ejus. Hoc ergo in illis 
+          offi<lb break="no" ed="#P" n="50"/>ciis fecisse credimus. Nam quia emolumentum
+          <lb ed="#P" n="51"/>tem porale magnum erat , partem ejus sibi 
+          re<lb break="no" ed="#P" n="52"/>servavit, eamque simul a principio redimi
+          <lb ed="#P" n="53"/>voluit, et ita sine simonia, aut venditione 
+          ju<lb break="no" ed="#P" n="54"/>risdictionis spiritualis illud emolumentum 
+          exi<lb break="no" ed="#P" n="55"/>git in praedictis officiis conferendis. Inferiores
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vero Praelati non habent tantam potestatem,
+          <lb ed="#P" n="57"/>et ideo non extenditur haec licentia, ut in 
+          se<lb break="no" ed="#P" n="58"/>quentibus latius dicemus.
+        </p>
+        <p>
+          <lb ed="#P" n="59"/>7. Non potest vendi jus eligendi ad 
+          dignita<lb break="no" ed="#P" n="60"/>tes. — Hatio conclusionis. — Secundo, 
+          sequi<lb break="no" ed="#P" n="61"/>tur ex dicta assertione , non posse vendi jus
+          <lb ed="#P" n="62"/>eligendi ad dignitates, aut ecclesiastica 
+          bene<lb break="no" ed="#P" n="63"/>ficia, neque jus confirmandi electionem, ant
+          <lb ed="#P" n="64"/>conferendi taiia beneficia , aut instituendi in
+          <lb ed="#P" n="65"/>ils. Hoc certum est apud omnes, quia hoc
+          <lb ed="#P" n="66"/>jus aliquo modo spectat ad potestatem 
+          juris<lb break="no" ed="#P" n="67"/>dictionis spiritualis : unde et tale jus in se
+          <lb ed="#P" n="68"/>spirituaie est , et conferre illud, actus cst 
+          ju<lb break="no" ed="#P" n="69"/>risdictionis spiritualis ; est ergo materia 
+          simo<lb break="no" ed="#P" n="70"/>niae. Et confirmatur , quia tota ratio 
+          aestima<lb break="no" ed="#P" n="71"/>tionis in hoc jure, est dignitas illa, seu 
+          bene<lb break="no" ed="#P" n="72"/>ficium ad quod ordinatur electio. collatio, vel
+          <lb ed="#P" n="73"/>institutio; ergo si tale jus venditur, est 
+          pro<lb break="no" ed="#P" n="74"/>pter actum, et actus propter effectum, qui
+          <lb ed="#P" n="75"/>spiritualis est ; ergo venditur id quod 
+          spiri<lb break="no" ed="#P" n="76"/>tuale est. Denique declaratur in singulis. Nam
+          <lb ed="#P" n="77"/>de electione id habetur ex c. Mattheus, de
+          <lb ed="#P" n="78"/>Simon., et ibi notat Abbas, num. 3. Ratione
+          <lb ed="#P" n="79"/>etiam patet, quia per electionem confertur 
+          spi<lb break="no" ed="#P" n="80"/>rituale jus, ut habetur ex cap. ult. de Translat.
+          <lb ed="#P" n="81"/>episcopi , ubi dicitur vinculum spirituale,
+          <lb ed="#P" n="82"/>quod est inter Episcopum et ejus Ecclesiam, in
+          <lb ed="#P" n="83"/>electione initium sumere, quia nimirum 
+          elec<lb break="no" ed="#P" n="84"/>tus incipit statim habere aliquod jus. Quod
+          <lb ed="#P" n="85"/>quidem esse jus in re sensit Glos., in c. 
+          Quan<lb break="no" ed="#P" n="86"/>Lo, d. 63, quam sequitur Abbas, in cap. 
+          Sacro<lb break="no" ed="#P" n="87"/>sancta, de Elect., n. 4, et in capite Quanto, de
+          <lb ed="#P" n="88"/>Judic., num. 6, et in cap. Nobis, de Jure
+          <lb ed="#P" n="89"/>patron., num. 4. Alii autem volunt solum 
+          ac<lb break="no" ed="#P" n="90"/>quirere jus ad rem, non in re; de quo videri
+          <lb ed="#P" n="91"/>possunt multa apud Felin., in c. Cum 
+          Bertol<lb break="no" ed="#P" n="92"/>dus , de Sen. et re judic., n. 2 et 3. Nam ad
+          <lb ed="#P" n="93"/>praesens parum refert, quia qualecumque sit
+          <lb ed="#P" n="94"/>illud jus, spirituale est, et hoc sufficit ut jus
+          <lb ed="#P" n="95"/>eligendi spirituale sit. Id praeterea evidens est
+          <lb ed="#P" n="96"/>in jure confirmandi, nam per confirmationem,
+          <lb ed="#P" n="97"/>ceriissimum est acquiri jus in re. Unde in 
+          dic<lb break="no" ed="#P" n="98"/>to cap. ult. de Translat. Episcopi, dicitur per
+          <lb ed="#P" n="99"/>confirmationem fore ratum spirituale 
+          conju<lb break="no" ed="#P" n="100"/>gium Episcopi cum Ecclesia, et ideo (ut Glos.
+          <lb ed="#P" n="101"/>et Abb. locis allegatis dicunt) jam tunc non
+          <lb ed="#P" n="102"/>solum habet jus quasi in habitu, sed habere
+          <lb ed="#P" n="103"/>etiam potest in usu et exercitio, juxta cap.
+          <lb ed="#P" n="104"/>Transnissam, de Election.; et ideo 
+          confirma<lb break="no" ed="#P" n="105"/>tio actus est jurisdictionis spiritualis, et valde
+          <lb ed="#P" n="106"/>proprius praelatorum ecclesiasticorum. 
+          Idem<lb break="no" ed="#P" n="107"/>que manifestum est de jure conferendi vel 
+          in<lb break="no" ed="#P" n="108"/>stituendi; nam haec etiam sunt propria 
+          mu<lb break="no" ed="#P" n="109"/>nera praelatorum Ecclesiae , nec possunt 
+          exer<lb break="no" ed="#P" n="110"/>cerisine propriissima spirituali juris lietioae ;
+          <pb ed="#P" n="738"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ergo jus ad hujusmodi actiones proprie 
+          spiri<lb break="no" ed="#P" n="2"/>tuale est, et materia simoniae. An vero idem
+          <lb ed="#P" n="3"/>sit de jure praesentandi, dicemus infra 
+          trac<lb break="no" ed="#P" n="4"/>tando de jure patronatus ; nam habet 
+          specia<lb break="no" ed="#P" n="5"/>lem rationem quae ad illud jus pertinet.
+        </p>
+        <p>
+          <lb ed="#P" n="6"/>8. Omnes actus jurisdictionis voluntarie,
+          <lb ed="#P" n="7"/>quatenus ad effectum spiritualem ordinantur,
+          <lb ed="#P" n="8"/>sunt materia simonig. — Dico secundo : 
+          om<lb break="no" ed="#P" n="9"/>nes actus jurisdictionis voluntariae, quatenus
+          <lb ed="#P" n="10"/>ad effectum spiritualem ordinantur, materia
+          <lb ed="#P" n="11"/>suni simoniae. Assertio est communiter 
+          rece<lb break="no" ed="#P" n="12"/>pta, quae ita in generali proposita sufficienter
+          <lb ed="#P" n="13"/>probatur ex cap. Ad nostra, et cap. 
+          Consu<lb break="no" ed="#P" n="14"/>lere, et cap. INemo Presbyterorum, de Simonia.
+          <lb ed="#P" n="15"/>Melius tamen ostendetur quasi inductione,
+          <lb ed="#P" n="16"/>descendendo ad particulares actus hujus 
+          juris<lb break="no" ed="#P" n="17"/>dictionis, quales sunt dispensationes votorum,
+          <lb ed="#P" n="18"/>relaxationes juramentorum. et dispensationes
+          <lb ed="#P" n="19"/>in legibus ecclesiasticis, irregularitate, 
+          impe<lb break="no" ed="#P" n="20"/>dimentis matrimonii, et similibus. De quibus
+          <lb ed="#P" n="21"/>constat apud omnes, esse materiam simoniae:
+          <lb ed="#P" n="22"/>Div. Thomas cum aliis, in 4, d. 25; idem
+          <lb ed="#P" n="23"/>Div. Thom., d. quaest. 100, art. 3, ad 3, et ibi
+          <lb ed="#P" n="24"/>Cajetanus et alii; Sot., q. 6, art. 2,ad 3; 
+          An<lb break="no" ed="#P" n="25"/>ton., d. cap. 5, S 17; Angel., Simonia, 3,
+          <lb ed="#P" n="26"/>num. 45; Sylvest., quaest. 9; Redoan., 1 part.
+          <lb ed="#P" n="27"/>cap. 21, num. 12, et cap. 29, num. 106, S 7tem
+          <lb ed="#P" n="28"/>pro usw ; notant alii Doctores, in c. Nemo, 2,
+          <lb ed="#P" n="29"/>de Simon., et cap. Cum ab omni, de Vit. et
+          <lb ed="#P" n="30"/>honest. cleric. Sumiturque ex eiscem juribus,
+          <lb ed="#P" n="31"/>et ex aliis saepe citatis; et cap. Ad nostram,
+          <lb ed="#P" n="32"/>de Simon. Vel propter generalem 
+          prohibitio<lb break="no" ed="#P" n="33"/>nem accipiendi aliquid pro ecclesiasticis 
+          func<lb break="no" ed="#P" n="34"/>tionibus, inter quas omnes istae dispensationes
+          <lb ed="#P" n="35"/>merito commntantur: vel a simili, et a 
+          for<lb break="no" ed="#P" n="36"/>tiori, quia si pro sententiis, absolutionibus et
+          <lb ed="#P" n="37"/>similibus non est pretium accipiendum, multo
+          <lb ed="#P" n="38"/>minus pro his dispensationibus. Denique in
+          <lb ed="#P" n="39"/>Concilio Tridentino, sess. 24, cap. 5, de 
+          he<lb break="no" ed="#P" n="40"/>for.. de dispensationibus in matrimoniis, 
+          gra<lb break="no" ed="#P" n="41"/>tis esse dandas dicitur; idem de 
+          dispensationi<lb break="no" ed="#P" n="42"/>bus in legibus ecclesiasticis dicitur, sess. 25,
+          <lb ed="#P" n="43"/>c. 18, de Refor. Ratio vero est, quia hae 
+          dis<lb break="no" ed="#P" n="44"/>pensationes sunt actus supernaturalis 
+          potesta<lb break="no" ed="#P" n="45"/>us jurisdictionis, ut constat, nam actus 
+          dispen<lb break="no" ed="#P" n="46"/>sandi actus est jurisdictionis, ut in tractatu
+          <lb ed="#P" n="47"/>de Legibus ostendimus, et infra in tractat. de
+          <lb ed="#P" n="48"/>Voto; et cum ejusdem jurisdictionis sit 
+          dispen<lb break="no" ed="#P" n="49"/>sare, et legem ferre, sicut potestas legislativa
+          <lb ed="#P" n="50"/>ecclesiastica supernaturalis est, ita etiam 
+          po<lb break="no" ed="#P" n="51"/>testas dispensandi in talibus legibus. Et idem
+          <lb ed="#P" n="52"/>a fortiori est de potestate dispensandi in his
+          <lb ed="#P" n="53"/>quae atüingunt aliquo modo jus divinum, ut
+          <lb ed="#P" n="54"/>in votis, juramentis, etc Ergo omnes hi actus
+          <lb ed="#P" n="55"/>supernaturales sunt ex parte principii, nec
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>minus spiritualessurt ex parte finis, quiatollunt
+          <lb ed="#P" n="57"/>vincula quae conscientiam ligant, et solvunt
+          <lb ed="#P" n="58"/>non solum in terra, sed etiam in coelis: ac
+          <lb ed="#P" n="59"/>denique ad spiritualem salutem de se, et 
+          qua<lb break="no" ed="#P" n="60"/>si intrinsece ordinantur. Ergo in hos actus
+          <lb ed="#P" n="61"/>optime cadit sententia Christi : Gratis 
+          acce<lb break="no" ed="#P" n="62"/>pistis, gratis date.
+        </p>
+        <p>
+          <lb ed="#P" n="63"/>9. Accedit alia ratio, quia in 
+          dispensationi<lb break="no" ed="#P" n="64"/>bus servanda est aequitas justitiae 
+          distributi<lb break="no" ed="#P" n="65"/>vae, ut pro ratione causae detur vel negetur
+          <lb ed="#P" n="66"/>dispensatio, qua aequitate sublata, enervatur
+          <lb ed="#P" n="67"/>et corrumpitur ecclesiastica disciplina; at si
+          <lb ed="#P" n="68"/>dispensationes vendantur, justam 
+          distributio<lb break="no" ed="#P" n="69"/>nem non servari morali consecutione 
+          neces<lb break="no" ed="#P" n="70"/>sarium est. Nam, eo ipso quod per 
+          dispensa<lb break="no" ed="#P" n="71"/>tionem lucrum quaeritur, ille dispensatur, qui
+          <lb ed="#P" n="72"/>plus confert; ille autem qui pauper est, 
+          in<lb break="no" ed="#P" n="73"/>dispensatus recedit, etiamsi aequalem vel 
+          for<lb break="no" ed="#P" n="74"/>tasse majorem dispensationis causam habeat.
+          <lb ed="#P" n="75"/>Unde confirmatur, quia vel dispensatio 
+          peti<lb break="no" ed="#P" n="76"/>tur ex causa legitima, et tunc suo jure debita
+          <lb ed="#P" n="77"/>est, et ita immerito pretium postulatur; vel
+          <lb ed="#P" n="78"/>non habet legitimam causam ; et sic turpiter
+          <lb ed="#P" n="79"/>et injuste venditur. Sed hae rationes 
+          proce<lb break="no" ed="#P" n="80"/>dunt etiam in legibus civilibus, earumque
+          <lb ed="#P" n="81"/>dispensationibus. At ibi solum ostendunt 
+          ta<lb break="no" ed="#P" n="82"/>lem abusum esse cortra justitiam legalem.
+          <lb ed="#P" n="83"/>vel distributivam, non vero esse simoniam, ut
+          <lb ed="#P" n="84"/>ex supra dictis constat. In praesenti vero 
+          ma<lb break="no" ed="#P" n="85"/>teria, cum alioquin sit apta ad simoniam, ut
+          <lb ed="#P" n="86"/>ostensum est, optime declarant gravitatem
+          <lb ed="#P" n="87"/>sacrilegii in tali materia, quia cum 
+          gravissi<lb break="no" ed="#P" n="88"/>mo detrimento animarum et ecclesiasticae 
+          gu<lb break="no" ed="#P" n="89"/>bernationis conjunctum est. Atque hinc etiam
+          <lb ed="#P" n="90"/>constat idem dicendum esse de quacumque
+          <lb ed="#P" n="91"/>licentia in materia spirituali, ut sunt litterae
+          <lb ed="#P" n="92"/>dimissoria, pro quibus sine dubio pretium
+          <lb ed="#P" n="93"/>accipere non licet, ut patet ex Concilio 
+          Tri<lb break="no" ed="#P" n="94"/>dentino, sessione vigesima prima, capite 
+          pri<lb break="no" ed="#P" n="95"/>mo, de Reformatione, uhi etiam sponte oblata
+          <lb ed="#P" n="96"/>accipere prohibet ; idemque est de privilegiis,
+          <lb ed="#P" n="97"/>et similibus favoribus, et gratiis quae vel 
+          dis<lb break="no" ed="#P" n="98"/>pensationes quaedam sunt, vel illas virtute
+          <lb ed="#P" n="99"/>continent, vel eamdem rationem habent. Án
+          <lb ed="#P" n="100"/>vero idem dicendum sit de licentiis, vel 
+          facul<lb break="no" ed="#P" n="101"/>tatibus, quae licet per spiritualem potestatem
+          <lb ed="#P" n="102"/>dentur, in materia mere politica versantur,
+          <lb ed="#P" n="103"/>paulo inferius declarabo.
+        </p>
+        <p>
+          <lb ed="#P" n="104"/>10. Difficultas circa stylum Romane curie.
+          <lb ed="#P" n="105"/>— Contra hanc tamen assertionem objici 
+          so<lb break="no" ed="#P" n="106"/>let stylus Romanae curiae, et legatorum 
+          Pon<lb break="no" ed="#P" n="107"/>tificis, qui habet ut, ad obtinendas 
+          dispensa<lb break="no" ed="#P" n="108"/>tiones, necessarium sit aliquam pecuniam
+          <lb ed="#P" n="109"/>persolvere ; dicunt aliqui hujusmodi 
+          pecu<lb break="no" ed="#P" n="110"/>niam non dari pro dispensatione, sed pro
+          <pb ed="#P" n="739"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rescriptis et testimoniis, tanquam necessaria
+          <lb ed="#P" n="2"/>stipendia officialium qui in his laborant. At
+          <lb ed="#P" n="3"/>hoc non honestat actionem; tum quia constat
+          <lb ed="#P" n="4"/>ex usu, praeter omnia stipendia officialium,
+          <lb ed="#P" n="5"/>majorem lucri partem cedere in utilitatem
+          <lb ed="#P" n="6"/>dispensantis ; tum etiam quia etiam pro 
+          char<lb break="no" ed="#P" n="7"/>tis, testimonialibus litteris et sigillo, 
+          prohibi<lb break="no" ed="#P" n="8"/>tum est aliquid accipere, etiam ipsis notariis
+          <lb ed="#P" n="9"/>et officialibus, in cap. 1 de Simon.; et incap.
+          <lb ed="#P" n="10"/>Sicut Episcopum, 1, quaestione 2; et in 
+          Tri<lb break="no" ed="#P" n="11"/>dentino, session. 21, cap. 1 de Reformatione.
+          <lb ed="#P" n="12"/>Unde Navarrus, cous. 2 de Simon,, reprobat
+          <lb ed="#P" n="13"/>in hac parte similem consuetudinem 
+          Roma<lb break="no" ed="#P" n="14"/>nam accipiendi unum aureum pro subscriptione
+          <lb ed="#P" n="15"/>vel registratione datarii, vel pro suspensione
+          <lb ed="#P" n="16"/>sigilli. Et licet dicta jura, atque etiam Navar.,
+          <lb ed="#P" n="17"/>loquantur de litteris testimonialibus, aut 
+          bul<lb break="no" ed="#P" n="18"/>lis in collatione ordinum aut beneficiorum,
+          <lb ed="#P" n="19"/>tamen eadem ratio esse videtur de 
+          dispensa<lb break="no" ed="#P" n="20"/>tionibus, quae non minus gratis couferendae
+          <lb ed="#P" n="21"/>sunt, quam ordines aut beneficia. Auget 
+          prae<lb break="no" ed="#P" n="22"/>terea difficultatem , quia quo difficilior est
+          <lb ed="#P" n="23"/>dispensatio, eo major pecuniae quantitas pro
+          <lb ed="#P" n="24"/>ea postulatur, ut pro dispensatione in 
+          secun<lb break="no" ed="#P" n="25"/>do gradu matrimornii, quam in quarto, et sic
+          <lb ed="#P" n="26"/>de aliis, cum tamen rescripta in testimonium
+          <lb ed="#P" n="27"/>talium dispensationum tradenda ejusdem sint
+          <lb ed="#P" n="28"/>laboris et oneris; ergo videtur augeri pretium
+          <lb ed="#P" n="29"/>solum propter respectum ad rem spiritualem,
+          <lb ed="#P" n="30"/>quod simoniacum est.
+        </p>
+        <p>
+          <lb ed="#P" n="31"/>11. Enodatur. — Ad hoc respondetur 
+          pri<lb break="no" ed="#P" n="32"/>mo, quod, licet exigere pretium pro 
+          dispen<lb break="no" ed="#P" n="33"/>satione sit simonia contra divinum jus, in quo
+          <lb ed="#P" n="34"/>non potest Pontifex dispensare, tamen exigere
+          <lb ed="#P" n="35"/>aliquid in sustentationem, et ad sustinenda
+          <lb ed="#P" n="36"/>onera status dispensantis, non est contra jus
+          <lb ed="#P" n="37"/>divinum, ut infra generaliter dicetur, neque
+          <lb ed="#P" n="38"/>in praesenti materia dispensationum invenitur
+          <lb ed="#P" n="39"/>esse contra jus ecclesiasticum. Nam in hac
+          <lb ed="#P" n="40"/>specie nulla talis prohibitio in illo reperitur.
+          <lb ed="#P" n="41"/>Et licet daretur talis prohibitio, Summus 
+          Pon<lb break="no" ed="#P" n="42"/>Ufex, qui est super tale jus, posset ea, quae
+          <lb ed="#P" n="43"/>ad suum statum pertinent, ordinare, prout
+          <lb ed="#P" n="44"/>sibi videbitur expedire. Ita ergo, si in curia
+          <lb ed="#P" n="45"/>aliquid in dispensationum esxpeditione pro
+          <lb ed="#P" n="46"/>ipso Pontifice postulatur , non est venditio
+          <lb ed="#P" n="47"/>gratiae , sed sustentatio personae , vel onerum
+          <lb ed="#P" n="48"/>illius status. Secundo, dicimus merito potuisse
+          <lb ed="#P" n="49"/>Pontifices imponere hoc onus, et quasi 
+          tribu<lb break="no" ed="#P" n="50"/>tum ad suam sustentationem necessarium,
+          <lb ed="#P" n="51"/>potius in dispensationibus quam in aliis 
+          gra<lb break="no" ed="#P" n="52"/>tiis, quia dispensationes odiosze sunt, et 
+          opor<lb break="no" ed="#P" n="53"/>tet eas onerosas reddere petentibus , ne 
+          faci<lb break="no" ed="#P" n="54"/>litas obtinendi, majorem licentiam tribuat eas
+          <lb ed="#P" n="55"/>mportune petendi: fiunt autem illis onero-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sae, si absque sumptibus ct pecunia illas 
+          obti<lb break="no" ed="#P" n="57"/>nere non possint. Et hac ratione , fieri etiam
+          <lb ed="#P" n="58"/>potuit ut, quo difficilior est dispensatio, ut
+          <lb ed="#P" n="59"/>rarior etiam sit, majus pecunis onus habeat
+          <lb ed="#P" n="60"/>annexum.
+        </p>
+        <p>
+          <lb ed="#P" n="61"/>12. Tertio. saepe id, quod solvi praecipitur,
+          <lb ed="#P" n="62"/>non applicatur Pontifici, vel ejus officialibus,
+          <lb ed="#P" n="63"/>sed ad aliquod pium opus; et tunc ratio 
+          im<lb break="no" ed="#P" n="64"/>positionis esse potest, quia non datur absoluta
+          <lb ed="#P" n="65"/>dispensatio, sed commutatio unius operis in
+          <lb ed="#P" n="66"/>aliud. Quod maxime habet locum in votorum
+          <lb ed="#P" n="67"/>dispensatione. Item aliquando id imponitur
+          <lb ed="#P" n="68"/>in peenam alicujus prioris delicti, ut si 
+          dispen<lb break="no" ed="#P" n="69"/>satio est in irregularitate contracta ex delicto,
+          <lb ed="#P" n="70"/>commutatur in aliam poenam pecuniariam,
+          <lb ed="#P" n="71"/>quam potest etiam Pontifex suae camerae 
+          ap<lb break="no" ed="#P" n="72"/>plicare, et sic etiam in dispensationibus in 
+          af<lb break="no" ed="#P" n="73"/>finitatibus, vel impedimentis contractis per 
+          il<lb break="no" ed="#P" n="74"/>licitam copulam. Quarto, etiam pro 
+          officiali<lb break="no" ed="#P" n="75"/>bus, et expensis eorum, et laboribus in 
+          scri<lb break="no" ed="#P" n="76"/>bendo, expediendo, etc., potest licite aliquid
+          <lb ed="#P" n="77"/>exigi, quia hoc non est per se malum, ut 
+          con<lb break="no" ed="#P" n="78"/>stat, neque in hac specie invenitur 
+          prohibi<lb break="no" ed="#P" n="79"/>tum. Nam jura quae loquuntur de ordinibus
+          <lb ed="#P" n="80"/>et beneficiis, non videntur extendenda ad haec
+          <lb ed="#P" n="81"/>omnia ; tum quia non est in omnibus illis
+          <lb ed="#P" n="82"/>eadem ratio; tum etiam quia illa jura sunt
+          <lb ed="#P" n="83"/>potius oliosa, quam favorabilia. Praeterquam
+          <lb ed="#P" n="84"/>quod , licet esset talis prohibitio canonica,
+          <lb ed="#P" n="85"/>per consuetudinem Homanam , vidente et
+          <lb ed="#P" n="86"/>consentiente Pontifice, esset derogata. Unde
+          <lb ed="#P" n="87"/>etiam in concessione indulgentiarum , quae
+          <lb ed="#P" n="88"/>spiritualior est (ut sic dicam), non censetur
+          <lb ed="#P" n="89"/>esse prohibitum officialibus pro suo labore
+          <lb ed="#P" n="90"/>in instrumentis conficiendis aliquid 
+          acci<lb break="no" ed="#P" n="91"/>pere.
+        </p>
+        <p>
+          <lb ed="#P" n="92"/>13. Consuetudinem curiae Romane liberam
+          <lb ed="#P" n="93"/>esse a simoa.—bubitari ergo non debet quin
+          <lb ed="#P" n="94"/>talis consuetudo per tot Pontifices, non solum
+          <lb ed="#P" n="95"/>pios et timoratos, sed saepe etiam sanctissimos
+          <lb ed="#P" n="96"/>et doctissimos, tolerata et approbata, libera
+          <lb ed="#P" n="97"/>sit ab omni labe simonia et ab omni 
+          cri<lb break="no" ed="#P" n="98"/>mine, ut late confirmat, plura ad hoc 
+          alle<lb break="no" ed="#P" n="99"/>gans, Redoan., 1 p., de Simon., cap. 21, num.
+          <lb ed="#P" n="100"/>A4 et seq. Et animadverti potest Concilium
+          <lb ed="#P" n="101"/>Tridentinum in allegatis locis, et praesertim
+          <lb ed="#P" n="102"/>in Session. 22, cap. 5, de Reform., ubi, agens
+          <lb ed="#P" n="103"/>de dispensationibus quae in Romana curia
+          <lb ed="#P" n="104"/>conceduntur, ait: Ea cero quae gratiose 
+          con<lb break="no" ed="#P" n="105"/>ceduntur, suum non sortiantur effectum, nisi
+          <lb ed="#P" n="106"/>prius ab eisdem (id est, ab Episcopis) tanguam
+          <lb ed="#P" n="107"/>delegatis Apostolicis, summarie tantum et 
+          ez<lb break="no" ed="#P" n="108"/>trajudicialiter cognoscantur. In quibus verbis
+          <lb ed="#P" n="109"/>supponit alias esse dispensationes, quae non
+          <lb ed="#P" n="110"/>gratiose conceduntur, quas non solum tacite
+          <pb ed="#P" n="740"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>approbat, sed etiam permittit ut suum statim
+          <lb ed="#P" n="2"/>sortiantur eftectum. Dicuntur autem non 
+          gra<lb break="no" ed="#P" n="3"/>tiosae, non quia vendantur, absit; sed quia
+          <lb ed="#P" n="4"/>non sine onere aliquo, vel in 
+          commutatio<lb break="no" ed="#P" n="5"/>nem, vel in poenam, vel in subsidium 
+          susten<lb break="no" ed="#P" n="6"/>tationis conceduntur. Aliae vero, quae sine 
+          ul<lb break="no" ed="#P" n="7"/>lo tali onere conceduntur (quae sunt etiam
+          <lb ed="#P" n="8"/>quamplurimae), dicuntur gratiosae. Et 
+          fortas<lb break="no" ed="#P" n="9"/>se, quando in aliquibus aliis locis citatis 
+          dis<lb break="no" ed="#P" n="10"/>ponit Concilium, ut aliqua dispensationes
+          <lb ed="#P" n="11"/>gratis concedantur, de hoc modo gratioso 
+          lo<lb break="no" ed="#P" n="12"/>quitur, qui pon tantum proprium pretium,
+          <lb ed="#P" n="13"/>sed etiam hoc genus oneris excludat: nam
+          <lb ed="#P" n="14"/>prohibitio pretii tam universalis est, tamque
+          <lb ed="#P" n="15"/>divina, ut ejus particularis admonitio non 
+          vi<lb break="no" ed="#P" n="16"/>deretur necessaria.
+        </p>
+        <p>
+          <lb ed="#P" n="17"/>14. Non possunt Episcopi aliquid eaigere,
+          <lb ed="#P" n="18"/>etiam pradictis titulis. — Quapropter 
+          verissi<lb break="no" ed="#P" n="19"/>mam existimo illorum anctorum sententiam,
+          <lb ed="#P" n="20"/>qui docent non posse Episcopos, etiam 
+          prae<lb break="no" ed="#P" n="21"/>dictis titnlis aliquid exigere in dispensando
+          <lb ed="#P" n="22"/>in his casibus qui ad ipsos pertinent: quod
+          <lb ed="#P" n="23"/>tenet Navar., cons. 18, de Poenit. et remis.;
+          <lb ed="#P" n="24"/>Tab., ver. Simonia, num. 49; Ugolin., Tab.
+          <lb ed="#P" n="25"/>1. cap. 52, n. 5 in fin. Probant autem, quia
+          <lb ed="#P" n="26"/>id est prohibitum jure communi, quatenus
+          <lb ed="#P" n="27"/>spiritualia pure, et sine pacto et modo, dari
+          <lb ed="#P" n="28"/>praecipiuntur, cap. ult. de Pact.. cum 
+          simili<lb break="no" ed="#P" n="29"/>bus, et quia pon potest cum onere dari quod
+          <lb ed="#P" n="30"/>ex jure communi gratis dandum esi, cui juri
+          <lb ed="#P" n="31"/>communi ecclesiastico omnes Episcopi 
+          subji<lb break="no" ed="#P" n="32"/>ciuntur, Pontifice solo excepto. Quae principia
+          <lb ed="#P" n="33"/>et jura late Navarrus urget. Ponderari vero
+          <lb ed="#P" n="34"/>potest decretum Concilii Tridentini, sess. 25,
+          <lb ed="#P" n="35"/>cap. 18, de Reform., ubi generaliter agens
+          <lb ed="#P" n="36"/>de dispensationibus ecclesiasticis, inter alia
+          <lb ed="#P" n="37"/>disponit, ut gratis, ad quoscumque 
+          dispensa<lb break="no" ed="#P" n="38"/>uo pertinebit, praestetur, aliterque facta 
+          dis<lb break="no" ed="#P" n="39"/>pensatio subreptitia censeatur. Nam, ut 
+          dice<lb break="no" ed="#P" n="40"/>bam, illnd gratis non videtur tantum 
+          exclu<lb break="no" ed="#P" n="41"/>dere pretium, sed etiam onus et gravamen
+          <lb ed="#P" n="42"/>pecunias, quocumque titulo fiat. Hoc autem
+          <lb ed="#P" n="43"/>maxime verum habet, quando tale onus 
+          im<lb break="no" ed="#P" n="44"/>ponitur, ut cedat in utilitatem cispensantis
+          <lb ed="#P" n="45"/>titulo sustentationis, nam hoc praecipue 
+          vi<lb break="no" ed="#P" n="46"/>detur voluisse prohibere Concilium. Et est
+          <lb ed="#P" n="47"/>vale necessarium, ne illo titulo detur occasio
+          <lb ed="#P" n="48"/>nuitiplicandi injustas dispensationes , quod
+          <lb ed="#P" n="49"/>maxime videtur voluisse vitare Concilium , ut
+          <lb ed="#P" n="50"/>ex principio illius cap. constat. Item hoc 
+          prae<lb break="no" ed="#P" n="51"/>cipue habet locum , quando Episcopi habent
+          <lb ed="#P" n="52"/>aliunde suflicientes redditus ad suum statum
+          <lb ed="#P" n="53"/>et ejus onera sustentanda , ut sunt maxime in
+          <lb ed="#P" n="54"/>Hispania , et regulariter in aliis Eeclesiae 
+          pro<lb break="no" ed="#P" n="55"/>vinciis.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>15. Haec onera non facile debent imponi pro
+          <lb ed="#P" n="57"/>stipendiis officialium. — Et ob easdem causas
+          <lb ed="#P" n="58"/>non facile permitti debet, ut pro salariis aut
+          <lb ed="#P" n="59"/>stipendiis officialium talia onera imponantur.
+          <lb ed="#P" n="60"/>Quia Episcopi tenentur suos habere officiales,
+          <lb ed="#P" n="61"/>et iilis ex suis redditibus convenientia 
+          stipen<lb break="no" ed="#P" n="62"/>dia tribuere, ut sentit Sot., dicta quaest. 6,
+          <lb ed="#P" n="63"/>art. 1. Nam, cum hi praelati, ratione 
+          mune<lb break="no" ed="#P" n="64"/>ris , teneantur ad hos actus praestandos, 
+          te<lb break="no" ed="#P" n="65"/>nentur etiam ad omnia quae moraliter ad illos
+          <lb ed="#P" n="66"/>necessaria sunt, unde propter illa omnia 
+          red<lb break="no" ed="#P" n="67"/>ditus convenientes recipiunt. Unde si aliquod
+          <lb ed="#P" n="68"/>lucrum ex dispensationibus illis tribuant 
+          offi<lb break="no" ed="#P" n="69"/>cialibus , ipsi virtute accipiunt in suum 
+          com<lb break="no" ed="#P" n="70"/>modum, et incommoda, quae Concilium vitare
+          <lb ed="#P" n="71"/>voluit , non evitant. In hoc tamen existimo
+          <lb ed="#P" n="72"/>multum posse valere consuetudinem , 
+          praeser<lb break="no" ed="#P" n="73"/>tim cum in hoc speciali casu nihil sit in jure
+          <lb ed="#P" n="74"/>statutum, ut dixi. Addo praeterea quod, licet
+          <lb ed="#P" n="75"/>haec vera sint , non est prohibitum Episcopis,
+          <lb ed="#P" n="76"/>quin per modum commutationis possint 
+          dis<lb break="no" ed="#P" n="77"/>pensando, onus alicujus eleemosynae 
+          impone<lb break="no" ed="#P" n="78"/>re, maxime quando dispensant in votis, et in
+          <lb ed="#P" n="79"/>observatione festi, et similibus, quia non 
+          te<lb break="no" ed="#P" n="80"/>nentur puram dispensationem dare , sed 
+          pos<lb break="no" ed="#P" n="81"/>sunt commutationem miscere; et eadem 
+          ratio<lb break="no" ed="#P" n="82"/>ne, si dispensatio supponat culpam , possunt
+          <lb ed="#P" n="83"/>illam punire praecipiendo eleemosynam ; ut
+          <lb ed="#P" n="84"/>tamen ab omni simonia labe, et illius specie
+          <lb ed="#P" n="85"/>abstineant , non sibi, sed piis operibus talem
+          <lb ed="#P" n="86"/>pecuniam applicare debent; et optime facient,
+          <lb ed="#P" n="87"/>si eorum liberam dispositionem eisdem , cum
+          <lb ed="#P" n="88"/>quibus dispensant, vei, si necesse sit, alis 
+          fi<lb break="no" ed="#P" n="89"/>delibus ministris committant.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>16. Actus jurisdictionis ecclesiasticee, etiam
+          <lb ed="#P" n="91"/>contentiosqc, sunt materia simonig.—bico 
+          ter<lb break="no" ed="#P" n="92"/>tio : actus jurisdictionis ecclesiasticae , etiam
+          <lb ed="#P" n="93"/>contentiosae et involuntariae, materia sunt 
+          si<lb break="no" ed="#P" n="94"/>moniae, ad quam vitandam gratis exerceri 
+          de<lb break="no" ed="#P" n="95"/>bent. Ita docent omnes auctores allegati in
+          <lb ed="#P" n="96"/>praecedenti assertione; numerantque primo
+          <lb ed="#P" n="97"/>actus visitandi, juxta cap. 1 et 2 ae Cens., in
+          <lb ed="#P" n="98"/>6, et Concil. Trid., sess. 24, cap. 3 de Reform.
+          <lb ed="#P" n="99"/>Quibus locis victualia, seu consuetae 
+          procura<lb break="no" ed="#P" n="100"/>tiones ad sustentationem permittuntur, de
+          <lb ed="#P" n="101"/>quibus etiam statutum est in cap. Cum 
+          vene<lb break="no" ed="#P" n="102"/>rabilis, et c. Procurationes, de Censib. 
+          Se<lb break="no" ed="#P" n="103"/>cundo, numerantur actus ecclesiastici judicit
+          <lb ed="#P" n="104"/>usque ad sententiae prolationem. Ita sumitur
+          <lb ed="#P" n="105"/>ex D. Thoma in locis citatis, cum Theologis in
+          <lb ed="#P" n="106"/>eisdem locis, praesertim Richard. , 4, dist. 25,
+          <lb ed="#P" n="107"/>art. 2, quaest. 3, ad 5; Anton., dicto 8 17;
+          <lb ed="#P" n="108"/>Sylvest., quaest. 10; Angel., Sàmonia, 3, 
+          nu<lb break="no" ed="#P" n="109"/>mer. 28; Tabien., num. 47; Navar., in 
+          Com<lb break="no" ed="#P" n="110"/>ment. de Dat. et accept., seu in Extravag. At
+          <pb ed="#P" n="741"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ipso, not. 9, rum. 19; Glossis et doctoribus,
+          <lb ed="#P" n="2"/>in cap. lendentes, 1, quaest. 3. Idem Hostiens.
+          <lb ed="#P" n="3"/>et Abbas, in cap. 7ua nos, de Simon., ubi
+          <lb ed="#P" n="4"/>etiam Felinus, num. 4, referens etiam Abbat.,
+          <lb ed="#P" n="5"/>in cap. Cum ab omni, de Vit. et honest. 
+          Cleri<lb break="no" ed="#P" n="6"/>corum ; Redoanus, 2 part., cap. 30, num. 13
+          <lb ed="#P" n="7"/>et sequentibus. Et sumitur ex dicto cap. Cum
+          <lb ed="#P" n="8"/>ab omni, ut ibi late per Panorm., et ex d. cap.
+          <lb ed="#P" n="9"/>Vendentes , ibid.: Vendentes in templo sunt, qui
+          <lb ed="#P" n="10"/>hoc, quod quibusdam jure competit, ad 
+          pre<lb break="no" ed="#P" n="11"/>mium largiuntur ; et ex cap. INemo 
+          Presbyte<lb break="no" ed="#P" n="12"/>rorum, de Simon., ubi dicitur simoniam esse
+          <lb ed="#P" n="13"/>aliquem reconciliare, vel testimonium 
+          recon<lb break="no" ed="#P" n="14"/>eiliationis ei dare, non gratis; et ex cap. Ad
+          <lb ed="#P" n="15"/>aures, eodem, ubi est sermo de absolutione a
+          <lb ed="#P" n="16"/>censura, quae pars est judicii. Denique ex 
+          ge<lb break="no" ed="#P" n="17"/>nerali prohibitione, cap. Ad audientium, nam
+          <lb ed="#P" n="18"/>judicia ecclesiastica facere, inter ecclesiastica
+          <lb ed="#P" n="19"/>ministeria computatur ; non ergo licet illa
+          <lb ed="#P" n="20"/>endere ; licebit tamen stipendium 
+          sustenta<lb break="no" ed="#P" n="21"/>tionis accipere, quo titulo honestari solent 
+          ali<lb break="no" ed="#P" n="22"/>quae contributiones, quae dari solent 
+          ecclesias<lb break="no" ed="#P" n="23"/>ticis judicibus, et sportulae vocantur, de quibus
+          <lb ed="#P" n="24"/>videri potest Panormit., ir d. cap. Cum ab
+          <lb ed="#P" n="25"/>omni, numer. 9 et 10. Addunt vero praedicti
+          <lb ed="#P" n="26"/>Doctores fere omnes, non iantum judicem,
+          <lb ed="#P" n="27"/>sed etiam testem, simoniam committere 
+          ven<lb break="no" ed="#P" n="28"/>dendo testimonium suum in spirituali judicio.
+          <lb ed="#P" n="29"/>Sed hoc examinabimus infra, tractando de his
+          <lb ed="#P" n="30"/>qui simoniam committunt. Tertius actus est,
+          <lb ed="#P" n="31"/>censura ligare vel absolvere, quanquam haec
+          <lb ed="#P" n="32"/>etiam sub judiciis comprehendantur. Et de
+          <lb ed="#P" n="33"/>absolutione jam supra dictum est capit. 
+          prae<lb break="no" ed="#P" n="34"/>ced.: de censura vero id colligitur ex capit. 2
+          <lb ed="#P" n="35"/>de Simon. Et ibi a Doctoribus notatur, in 
+          uni<lb break="no" ed="#P" n="36"/>versum ligare aliquem per potestatem 
+          eccle<lb break="no" ed="#P" n="37"/>siasticam, vel punire, si pretio fiat, simoniam
+          <lb ed="#P" n="38"/>conmitti. Ad quod etiam facit d. cap. Nemo
+          <lb ed="#P" n="39"/>Presbyterorum. Ratio denique universalis est,
+          <lb ed="#P" n="40"/>quia in his omnibus actibus exercetur 
+          super<lb break="no" ed="#P" n="41"/>naturalis potestas a Deo gratis data ad 
+          guber<lb break="no" ed="#P" n="42"/>nandam Ecclesiam suam, ac prcinde gratis
+          <lb ed="#P" n="43"/>exerceri debet ex vi suae institutionis et 
+          natu<lb break="no" ed="#P" n="44"/>rae; ergo, si pretio vendatur, simonia 
+          commit<lb break="no" ed="#P" n="45"/>titur; ergo in omnibus his actibus invenitur
+          <lb ed="#P" n="46"/>simoniae materia. Unde non vidctur haec 
+          si<lb break="no" ed="#P" n="47"/>monia tantum esse quia prohibita (licet 
+          reve<lb break="no" ed="#P" n="48"/>ra per Ecclesiam prohibita sit), sed etiam 
+          na<lb break="no" ed="#P" n="49"/>tura sua, et ex vi talis materiae.
+          <lb ed="#P" n="50"/>l1. An predicta sint etiam intelligenda de
+          <lb ed="#P" n="51"/>actu procedente a potestate ecclesiastica, qui
+          <lb ed="#P" n="52"/>lamen versatur circa materiam politicam. —
+          <lb ed="#P" n="53"/>Sed circa hanc et praecedentem assertionem
+          <lb ed="#P" n="54"/>superest dubium , an locum habeant, etiam
+          <lb ed="#P" n="55"/>quando actus jurisdictionis, licet ab ecclesias-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tica potestate procedant, circa materiam 
+          poli<lb break="no" ed="#P" n="57"/>ticam et mere humanam versantur. In quo
+          <lb ed="#P" n="58"/>imprimis suppono sermonem esse de potestate
+          <lb ed="#P" n="59"/>ecciesiastica formaliter ; contingit enim 
+          prae<lb break="no" ed="#P" n="60"/>latos Ecclesiae habere propriam et directam 
+          ju<lb break="no" ed="#P" n="61"/>risdictionem temporalem, ut habet Pontifex in
+          <lb ed="#P" n="62"/>suo temporalti territorio et regno, et habent
+          <lb ed="#P" n="63"/>multi Episcopi in aliquibus locis , quae 
+          juris<lb break="no" ed="#P" n="64"/>dictio, ut est in illis, potest denominari 
+          eccle<lb break="no" ed="#P" n="65"/>siastica , sicut temporalia bona Ecclesiae 
+          spiri<lb break="no" ed="#P" n="66"/>tualia vocantur. Nihilominus tamen certum
+          <lb ed="#P" n="67"/>est actus illius jurisdictionis, etiam ut 
+          exer<lb break="no" ed="#P" n="68"/>centur per judicem ecclesiasticum , non esse
+          <lb ed="#P" n="69"/>materiam simoniae, quia semper manent mere
+          <lb ed="#P" n="70"/>temporales. Et ita docent communnater 
+          cano<lb break="no" ed="#P" n="71"/>nistae in capitulo secundo, Ne praelati vices
+          <lb ed="#P" n="72"/>suas. Debent ergo assertiones positae intelligi
+          <lb ed="#P" n="73"/>de actibus procedentibus ab ecclesiastica 
+          po<lb break="no" ed="#P" n="74"/>testate propria et spirituali. Deinde hi actus
+          <lb ed="#P" n="75"/>saeepe versantur in materia pure spirituali, ut
+          <lb ed="#P" n="76"/>patet quoad priores actus in dispensationibus
+          <lb ed="#P" n="77"/>votorum et legum ecclesisticarum, et similibus:
+          <lb ed="#P" n="78"/>et in posterioribus actibus in censuris 
+          feren<lb break="no" ed="#P" n="79"/>dis et tollendis, in beneficialibus causis et 
+          ma<lb break="no" ed="#P" n="80"/>trimonialibus , vel in his quae ad fidem 
+          perti<lb break="no" ed="#P" n="81"/>nent , et similibus. Et in his nullum est 
+          du<lb break="no" ed="#P" n="82"/>bium, quia actus suut omnino spirituaies,
+          <lb ed="#P" n="83"/>tam ex parte principii , quam ex parte 
+          mate<lb break="no" ed="#P" n="84"/>ria, et finis.
+        </p>
+        <p>
+          <lb ed="#P" n="85"/>18. Expenduntur alii actus, qui proaime
+          <lb ed="#P" n="86"/>cersantur in materia temporali. — Possunt
+          <lb ed="#P" n="87"/>autem per spiritualem potestatem exerceri
+          <lb ed="#P" n="88"/>quidam actus, qui videntur mere politici et
+          <lb ed="#P" n="89"/>humani, quia proxime versantur in materia
+          <lb ed="#P" n="90"/>temporali et humana. Ut in actibus 
+          jurisdic<lb break="no" ed="#P" n="91"/>tionis voluntariae esse videtur licentia 
+          studer<lb break="no" ed="#P" n="92"/>di, vel humanis litteris et Philosophiae, vel
+          <lb ed="#P" n="93"/>etiam juri canonico aut Theologiae; quia hoc
+          <lb ed="#P" n="94"/>studium actus naturalis, et vendibilis est, ct
+          <lb ed="#P" n="95"/>proxime ordinatur tantum ad commoditatem
+          <lb ed="#P" n="96"/>humanam. Idemque censeri potest de licentia
+          <lb ed="#P" n="97"/>docendi. Item legitimatio, verbi gratia, solum
+          <lb ed="#P" n="98"/>spectata quatenus per eam tollitur quaedam
+          <lb ed="#P" n="99"/>inhabilitas ad temporales honores, et 
+          com<lb break="no" ed="#P" n="100"/>moda, et similia. In actibus vero jurisdictionis
+          <lb ed="#P" n="101"/>non voluntaria, videntur hujusmodi esse
+          <lb ed="#P" n="102"/>causae mere civiles inter clericos de bonis 
+          tem<lb break="no" ed="#P" n="103"/>poralibus, vel de criminibus aut injuris. De
+          <lb ed="#P" n="104"/>his ergo actibus censent aliqui, natura sua
+          <lb ed="#P" n="105"/>non esse materiam simonia, quia mere 
+          hu<lb break="no" ed="#P" n="106"/>mani et politici sunt. Nec sufficere putant
+          <lb ed="#P" n="107"/>quod a jurisdictione ecclesiastica proccant,
+          <lb ed="#P" n="108"/>quia, licet haec potestas in se spritualis sit,
+          <lb ed="#P" n="109"/>simul est eminenter politica, et temporalis, et
+          <lb ed="#P" n="110"/>ideo quando sub hac tantum ratione opera-
+          <pb ed="#P" n="742"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur, non est ex natura rei simonia vendere
+          <lb ed="#P" n="2"/>actus ejus; sed poterit esse simonia, quia ab
+          <lb ed="#P" n="3"/>Ecclesia prohibita. Et huic sententiae favet
+          <lb ed="#P" n="4"/>Innocent., in cap. 2, de Magist., quatenus 
+          di<lb break="no" ed="#P" n="5"/>cit non esse simoniam, sed turpe lucrum, 
+          ven<lb break="no" ed="#P" n="6"/>dere licentiam studendi, quod sequitur 
+          An<lb break="no" ed="#P" n="7"/>gel., verb. Magister, n. 15.
+        </p>
+        <p>
+          <lb ed="#P" n="8"/>19. Resolvitur illos actus. quatenus procedunt
+          <lb ed="#P" n="9"/>a potestate spirituali, esse materiam simonie.
+          <lb ed="#P" n="10"/>— Sed nihilominus probabilius videtur omnes
+          <lb ed="#P" n="11"/>hos actus, quatenus a potestate spirituali 
+          pro<lb break="no" ed="#P" n="12"/>cedunt, esse veram materiam simoniae ex vi
+          <lb ed="#P" n="13"/>juris divini. Quod sentit Glossa prima, in 
+          ca<lb break="no" ed="#P" n="14"/>pit. 2 Ne praelati vices suas, dicens, 
+          ubicum<lb break="no" ed="#P" n="15"/>que Episcopus gratis facere aliquid debet 
+          ra<lb break="no" ed="#P" n="16"/>tioue sui officii, simoniam committere, si 
+          ali<lb break="no" ed="#P" n="17"/>quid exigat: Maaime (inquid) cum jurisdictio
+          <lb ed="#P" n="18"/>sit spiritualis. Ubi per illam particulam 
+          mazi<lb break="no" ed="#P" n="19"/>m^, non potest fieri comparatio ad actus qui
+          <lb ed="#P" n="20"/>procedunt a jurisdictione temporali, cum in eis
+          <lb ed="#P" n="21"/>simonia locum non habeat, ut dictum est 
+          pro<lb break="no" ed="#P" n="22"/>xime, et latius supra, cap. 8. Sensus ergo esse
+          <lb ed="#P" n="23"/>videtur, vel ob hanc maxime causam ibi 
+          inter<lb break="no" ed="#P" n="24"/>venire simoniam, quod jurisdictio, a qua illi
+          <lb ed="#P" n="25"/>actus procedunt, est spiritualis: vel tunc 
+          ma<lb break="no" ed="#P" n="26"/>xime committi simoniam, quando actus, ex vi
+          <lb ed="#P" n="27"/>objecti et materiae, est spiritualis. Utroque au
+          <lb ed="#P" n="28"/>tem modo infertur assertio posita. Nam, si 
+          po<lb break="no" ed="#P" n="29"/>tissima ratio simoniae in tali materia est 
+          habi<lb break="no" ed="#P" n="30"/>tudo ad talem jurisdictionem, omnes actus ab
+          <lb ed="#P" n="31"/>illa procedentes erunt materia simoniae, quia
+          <lb ed="#P" n="32"/>in omnibus illa potissima ratio invenitur. Si
+          <lb ed="#P" n="33"/>vero actus, spirituales ex objecto, dicuntur
+          <lb ed="#P" n="34"/>naxune esse materia hujus simoniae, etiam alii
+          <lb ed="#P" n="35"/>actus ejusdem muneris et potestatis, licet non
+          <lb ed="#P" n="36"/>habeant materiam ita spiritualem, erunt 
+          ma<lb break="no" ed="#P" n="37"/>teria simoniae, etsi non tam gravis nec tam
+          <lb ed="#P" n="38"/>praecipua. Et hoc posteriori modo intelligunt
+          <lb ed="#P" n="39"/>illic Glossam Abb., Aretin. et alii, qui 
+          corse<lb break="no" ed="#P" n="40"/>quenter in hanc sententiam descendunt. Et
+          <lb ed="#P" n="41"/>eamdem supponere videntur Joan. Andr.,
+          Ana<lb break="no" ed="#P" n="42"/>ni. et Card., in cap. 2de Magist.; et Turrecre.
+          <lb ed="#P" n="43"/>et Praeposit., in c. De quibusdam, 31 dist., 
+          di<lb break="no" ed="#P" n="44"/>centes esse simoniam aliquid exigere pro 
+          li<lb break="no" ed="#P" n="45"/>centia stulendi, nam haec licentia proxime
+          <lb ed="#P" n="46"/>non versatur circa materiam spiritualem.
+        </p>
+        <p>
+          <lb ed="#P" n="47"/>20. Ratio assertionis.— Ratio vcro 
+          genera<lb break="no" ed="#P" n="48"/>lis est, quia usus jurisdictionis spiritualis, 
+          for<lb break="no" ed="#P" n="49"/>maliter ac per se spiritualis est. Nec refert
+          <lb ed="#P" n="50"/>quod interlum materia proxima actus 
+          videa<lb break="no" ed="#P" n="51"/>tur politica aut temporalis, quia consideranda
+          <lb ed="#P" n="52"/>est prout cadit sub talem spiritualem 
+          potesta<lb break="no" ed="#P" n="53"/>tem; sie cnim non cadit, nisi ut ordinata ad
+          <lb ed="#P" n="54"/>spirttualem finem, et ad iilum aliquo modo
+          <lb ed="#P" n="55"/>conducens, et ut sic jam est spiritualis, et ita
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>actus spiritualis efficitur non solum ex parte
+          <lb ed="#P" n="57"/>principii, sed etiam ex parte finis. Atque hac
+          <lb ed="#P" n="58"/>ratione quodlibet judicium inter clericos 
+          spi<lb break="no" ed="#P" n="59"/>rituale censendum est, quia, licet sit de 
+          cri<lb break="no" ed="#P" n="60"/>mine communi laicis et clericis, vel de bonis
+          <lb ed="#P" n="61"/>temporalibus, semper causa illa tractanda est
+          <lb ed="#P" n="62"/>modo ecclesiastico, in quo semper habetur 
+          ra<lb break="no" ed="#P" n="63"/>tio clericalis decentiae ac dignitatis. Ubi obiter
+          <lb ed="#P" n="64"/>notandum est, haec judicia semper esse a 
+          po<lb break="no" ed="#P" n="65"/>testate ecclesiastica formaliter, licet 
+          conve<lb break="no" ed="#P" n="66"/>niant clericis ratione suee immunitatis; quia
+          <lb ed="#P" n="67"/>haec immunitas non est ex potestate civili, ut
+          <lb ed="#P" n="68"/>haeretici volunt, vel eorum fautores, sed est
+          <lb ed="#P" n="69"/>ex ecclesiastica potestate et a divino jure dueit
+          <lb ed="#P" n="70"/>originem, et ideo semper illi actus sunt a 
+          su<lb break="no" ed="#P" n="71"/>pernaturali potestate elicitive (ut sic dicam);
+          <lb ed="#P" n="72"/>et ex relatione ad finem spiritualis boni totius
+          <lb ed="#P" n="73"/>Ecclesiae, et maxime ecclesiastici status, 
+          sem<lb break="no" ed="#P" n="74"/>per sunt actus spirituales, ac subinde materia
+          <lb ed="#P" n="75"/>simoniae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

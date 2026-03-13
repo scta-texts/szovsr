@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="415"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k10388"><!-- t2-l3c9 -->
+        <head>Caput 9</head>
+        <head type="question-title">Quae nam ecclesiae propria immunitate gaudeant.</head>
+        <p>
+          <lb ed="#P" n="68"/>CAPUT IX.
+          <lb ed="#P" n="69"/>QUAE NAM ECCLESIAE PROPRIA IMMUNITATE 
+          GAU<lb break="no" ed="#P" n="70"/>DEANT.
+        </p>
+        <p>
+          <lb ed="#P" n="71"/>1. Quae ecclesiae hac immunatate gaudeant.
+          <lb ed="#P" n="72"/>— Circa hoc, primo dicendum est ccclesiam
+          <lb ed="#P" n="73"/>auctoritate Episcopi fundatam et consecratam,
+          <lb ed="#P" n="74"/>seu benedictam, primo et principaliter 
+          gau<lb break="no" ed="#P" n="75"/>dere hac immunitate. Hoc manifestum est ex
+          <lb ed="#P" n="76"/>dictis juribus, et tradunt omnes Doctores 
+          ci<lb break="no" ed="#P" n="77"/>tandi, et a fortiori constabit ex dicendis. 
+          So<lb break="no" ed="#P" n="78"/>lum quaeri potest circa hanc assertionem, si
+          <lb ed="#P" n="79"/>in hujusmodi ecclesia nondum sunt celebrata
+          <lb ed="#P" n="80"/>divina mysteria, an gaudeat hac immunitate;
+          <lb ed="#P" n="81"/>sed haec quaestio in ecclesia proprie consecrata
+          <lb ed="#P" n="82"/>vix locum habet, cum consecratio sine missa
+          <lb ed="#P" n="83"/>esse non debeat, c. 2, et c. De fabrica, de
+          <lb ed="#P" n="84"/>Consec., d. 1. Nihilominus tamen interdum
+          <lb ed="#P" n="85"/>posset contingere sine missa consecrari, quia
+          <lb ed="#P" n="86"/>missa non est de substantia consecrationis, ut
+          <lb ed="#P" n="87"/>cum Host. et aliis docet Sylvest., verb. 
+          Con<lb break="no" ed="#P" n="88"/>secratio, 2. Tunc ergo dicendum est, talem
+          <lb ed="#P" n="89"/>ecclesiam gaudere privilegio immunitatis.Imo,
+          <lb ed="#P" n="90"/>etiamsi proprie consecrata non sit, sed 
+          tan<lb break="no" ed="#P" n="91"/>tum benedicta, jam est religiosus locus, et
+          <lb ed="#P" n="92"/>perpetuo Deo dicatus. Item, est similiter 
+          ec<lb break="no" ed="#P" n="93"/>clesia, in propria et usitata significatione ; 
+          er<lb break="no" ed="#P" n="94"/>go jura, quae hanc immunitatem concedunt
+          <lb ed="#P" n="95"/>ecclesiis, illam comprehendunt, maxime cum
+          <lb ed="#P" n="96"/>favores ecclesiarum extendendi sint. Denique
+          <lb ed="#P" n="97"/>id colligitur ex capite penultimo de 
+          Immu<lb break="no" ed="#P" n="98"/>nit. eccles., ut statim videbimus; nam qua in
+          <lb ed="#P" n="99"/>sequenti puncto dicemus, hoc a fortiori 
+          con<lb break="no" ed="#P" n="100"/>rmabunt.
+        </p>
+        <p>
+          <lb ed="#P" n="101"/>2. Etiam non benedicta.—Secundo ergo 
+          di<lb break="no" ed="#P" n="102"/>cendum est, etiam ecclesiam non consecratam,
+          <lb ed="#P" n="103"/>nec benedictam, si obsequiis divinis dedicata
+          <lb ed="#P" n="104"/>sit, et in ea divina mysteria celebrentur,
+          <lb ed="#P" n="105"/>eodem privilegio immunitatis frui. Ita 
+          decla<lb break="no" ed="#P" n="106"/>rat Gregorius IX, in capitul. Fcclesie, de
+          <lb ed="#P" n="107"/>Immunitat. eccles.. quamvis expresse solum
+          <pb ed="#P" n="416"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>loquatur de ecclesia non consecrata, et ideo
+          <lb ed="#P" n="2"/>dubitari possit an comprehendat ecclesiam
+          <lb ed="#P" n="3"/>non benedictam. Aliqui enim sentiunt non
+          <lb ed="#P" n="4"/>gaudere, quia simpliciter ecclesia non est, ut
+          <lb ed="#P" n="5"/>Abbas, in Rubr. de Consecrat. Ecclesiae, et
+          <lb ed="#P" n="6"/>Angel., et Sylvest., verb. Ecclesie. lItem. quia
+          <lb ed="#P" n="7"/>ecclesia non benedicta non censetur locus
+          <lb ed="#P" n="8"/>sacer; cujus signum est, quia non polluitur,
+          <lb ed="#P" n="9"/>neque indiget reconciliatione. Sed 
+          nihilomi<lb break="no" ed="#P" n="10"/>nus dicendum est decisionem illius textus 
+          ex<lb break="no" ed="#P" n="11"/>tendendam esse etiam ad ecclesiam non 
+          bene<lb break="no" ed="#P" n="12"/>dictam, si habeat alias conditiones in illo 
+          tex<lb break="no" ed="#P" n="13"/>tu requisitas. Ita sentit Abbas in dicto cap.
+          <lb ed="#P" n="14"/>HE'cclesie, et clarius in cap. ultim. de Censib.,
+          <lb ed="#P" n="15"/>num. 4, ubi dicit, oratoria, si sint auctoritate
+          <lb ed="#P" n="16"/>Episcopi constructa, gaudere hac immunitate;
+          <lb ed="#P" n="17"/>idem in cap. Patentibus, de Privilegiis, num.
+          <lb ed="#P" n="18"/>3; Angel., verb. Immunitas, num. 26; 
+          Syl<lb break="no" ed="#P" n="19"/>vest., verb. Immunitas, 5, quaest. 1, in fine,
+          <lb ed="#P" n="20"/>et verbo Loca religiosa, quaest. 2; et Gregorius
+          <lb ed="#P" n="21"/>Lopez, in l. 4, tit. 11, part. 1; Covar., cum
+          <lb ed="#P" n="22"/>aliis infra citandis. Colligiturque primo ex
+          <lb ed="#P" n="23"/>ratione textus in dicto cap. penult., seu 
+          Zc<lb break="no" ed="#P" n="24"/>clesire, scilicet, guia Ecclesia obsequis divinis
+          <lb ed="#P" n="25"/>dedicata , nullis est temerariis ausibus 
+          profa<lb break="no" ed="#P" n="26"/>nanda ; sed potest esse ecclesia sufficienter 
+          de<lb break="no" ed="#P" n="27"/>dicata divinis officiis, etiamsi benedicta non
+          <lb ed="#P" n="28"/>sit; ergo gaudebit hoc privilegio. Minor 
+          pa<lb break="no" ed="#P" n="29"/>tet, si ecclesia sit auctoritate Episcopi primum
+          <lb ed="#P" n="30"/>lapidem ponentis dedicata ; quia talis ecclesia
+          <lb ed="#P" n="31"/>hoc ipso manet perpetuo dicata divino 
+          obse<lb break="no" ed="#P" n="32"/>quio, nec potest ad profanos usus converti ;
+          <lb ed="#P" n="33"/>ergo juxta rationem Gregorii IX hoc satis
+          <lb ed="#P" n="34"/>est ut immunitate gaudeat.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>3. Et ita confirmatur optime haec sententia
+          <lb ed="#P" n="36"/>ex cap. Ad heec, de hReligiosis domibus, ubi
+          <lb ed="#P" n="37"/>de hospitali, et consequenter de omni loco 
+          auc<lb break="no" ed="#P" n="38"/>toritate Pontificis (id est Episcopi) ad sacrum
+          <lb ed="#P" n="39"/>uswn destinato, dicitur ita esse religiosum, ut
+          <lb ed="#P" n="40"/>non possit ad profanos usus converti; ergo
+          <lb ed="#P" n="41"/>et ecclesia sic dedicata est locus religiosus, qui
+          <lb ed="#P" n="42"/>profanari non debet ; ergo gaudet dicto 
+          privi<lb break="no" ed="#P" n="43"/>legio. Praeterea talis ecclesia, si fuerit 
+          sangui<lb break="no" ed="#P" n="44"/>nis vel seminis effusione polluta, purificanda
+          <lb ed="#P" n="45"/>est, ut constat ex cap. ult. de Consecr. Eccles.,
+          <lb ed="#P" n="46"/>unde mirum est, quomodo aliqui moderni 
+          op<lb break="no" ed="#P" n="47"/>positum dixerint. Unde ibi Glossa, verb. Non
+          <lb ed="#P" n="48"/>consecrata, advertit ecclesiam non consecratam
+          <lb ed="#P" n="49"/>gaudere eodem privilegio, quo consecrata: E
+          <lb ed="#P" n="50"/>si aliquis (uquit) illuc confugerit, debet ab 
+          ec<lb break="no" ed="#P" n="51"/>clesia defendi, et hoc ideo, quia locus 
+          auctorita<lb break="no" ed="#P" n="52"/>te Fyiscopi dedicatus est divino cultui. et quod
+          <lb ed="#P" n="53"/>semel Deo dedicatum est, ad profanos usus 
+          re<lb break="no" ed="#P" n="54"/>dire non debet. Denique talis ecclesia 
+          simplici<lb break="no" ed="#P" n="55"/>ter venit appellatione ecclesiae, ut probant dic-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ta jura: et, licet Panormitanus, dicto capit.
+          <lb ed="#P" n="57"/>Fcclesie, numero 2, dicat hoc procedere large
+          <lb ed="#P" n="58"/>sunmpto vocabulo, tamen hoc intelligo intra
+          <lb ed="#P" n="59"/>propriam significationem, cum jura 
+          italoquan<lb break="no" ed="#P" n="60"/>tur. Et ideo id nihil obstat quominus haec 
+          im<lb break="no" ed="#P" n="61"/>munitas ecclesiis concessa ad has 
+          extenda<lb break="no" ed="#P" n="62"/>tur, quia, ut dixi, haec privilegia in favorem
+          <lb ed="#P" n="63"/>ecclesiarum extendenda potius sunt, quam 
+          li<lb break="no" ed="#P" n="64"/>mitanda.
+        </p>
+        <p>
+          <lb ed="#P" n="65"/>4. Et in qua divina officia non sunt adhnc
+          <lb ed="#P" n="66"/>celebrata. — Atque hinc ulterius hoc 
+          amplia<lb break="no" ed="#P" n="67"/>tur, ut procedat, etiamsi in hujusmodi 
+          eccle<lb break="no" ed="#P" n="68"/>sia divina officia nondum coeperint celebrari.
+          <lb ed="#P" n="69"/>Ita docet Panormitanus cum Hostiensi, et 
+          Car<lb break="no" ed="#P" n="70"/>dinal., in dicto cap. Fcclesie ; sequitur etiam
+          <lb ed="#P" n="71"/>Covarruvias supra, num. 4, dicitque esse 
+          fre<lb break="no" ed="#P" n="72"/>quentiori Interpretum sententia probatum.
+          <lb ed="#P" n="73"/>Idem Sylvest., verb. Immunitas, 1, 
+          quaestio<lb break="no" ed="#P" n="74"/>ne 1. Colligiturque ex dicto capitul. Ad hec,
+          <lb ed="#P" n="75"/>de Religiosis domibus, quatenus statuit locoum
+          <lb ed="#P" n="76"/>auctoritate deputatum ad hospitalitatem, esse
+          <lb ed="#P" n="77"/>locum religiosum, et ad profanos usus non 
+          am<lb break="no" ed="#P" n="78"/>plius convertendum. Ex quo colligunt 
+          Docto<lb break="no" ed="#P" n="79"/>res, ut infra dicemus, gaudere hac 
+          immunita<lb break="no" ed="#P" n="80"/>te, cum tamen in illo necessarium non sit 
+          di<lb break="no" ed="#P" n="81"/>vina officia celebrari ; ergo a fortiori idem 
+          di<lb break="no" ed="#P" n="82"/>cendum est de ecclesia auctoritate Episcopi
+          <lb ed="#P" n="83"/>depntata, etiamsi nondum sit in ea oblatum
+          <lb ed="#P" n="84"/>sacrificium, vel celebratum aliud divinum 
+          of<lb break="no" ed="#P" n="85"/>ficium. Praeterea talis ecclesia jam est 
+          simpli<lb break="no" ed="#P" n="86"/>citer ecclesia, quia non incipit esse ecclesia,
+          <lb ed="#P" n="87"/>propter sacrificium in ea celebratum, sed 
+          po<lb break="no" ed="#P" n="88"/>tius ideo jam potest in illo loco legitime, et
+          <lb ed="#P" n="89"/>quasi jure ordinario celebrari, quia est vera
+          <lb ed="#P" n="90"/>ecclesia; et quoad hoc dedicatio facta 
+          auctori<lb break="no" ed="#P" n="91"/>tate Episcopi aequiparatur benedictioni; ergo
+          <lb ed="#P" n="92"/>jura, concedentia ecclesiis hoc privilegium,
+          <lb ed="#P" n="93"/>hanc comprehendunt; et procedunt aliae 
+          ra<lb break="no" ed="#P" n="94"/>tiones supra factae. Tandem favet ratio textus
+          <lb ed="#P" n="95"/>in dicto cap. penultimo de Immunitat. eccles.,
+          <lb ed="#P" n="96"/>quia divinis officiis dedicata. nullis est 
+          teme<lb break="no" ed="#P" n="97"/>raris ausibus profananda. Quae ratio idem '
+          <lb ed="#P" n="98"/>aperte probat de hujusmodi ecclesia.
+        </p>
+        <p>
+          <lb ed="#P" n="99"/>5. Objectio. — Satisfit.— Objici tamen pos
+          <lb ed="#P" n="100"/>test, quia in principio loquitur ille textus de
+          <lb ed="#P" n="101"/>ecclesia, in qua divina officia et mysteria 
+          cele<lb break="no" ed="#P" n="102"/>brantur; propter quae verba Glossa ibi 
+          con<lb break="no" ed="#P" n="103"/>trarium sentit, dicens ecclesiam, in qua 
+          mys<lb break="no" ed="#P" n="104"/>teria nondum celebrata sunt, nondum plene
+          <lb ed="#P" n="105"/>de 'icata videri divinis obsequiis. Respondetur
+          <lb ed="#P" n="106"/>imprimis ad textum, per illa verba non sta
+          <lb ed="#P" n="107"/>tui, vel postulari illam conditionem, sed solum
+          <lb ed="#P" n="108"/>ab illa nominari, quia ita frequentius accidit;
+          <lb ed="#P" n="109"/>tamen sub illa voce comprehendi ecclesiam
+          <lb ed="#P" n="110"/>proxime aptam et sufficientem, ut in ea divina
+          <pb ed="#P" n="417"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mysteria celebrentur; et haec fuit intentio
+          <lb ed="#P" n="2"/>Pontificis, ut ratione sua declaravit. Neque
+          <lb ed="#P" n="3"/>est novum ut nomen siguificans actum, 
+          usur<lb break="no" ed="#P" n="4"/>petur ad significandum aptitudinem, neque
+          <lb ed="#P" n="5"/>etiam est inusitatum ut aliud significet 
+          no<lb break="no" ed="#P" n="6"/>men, praeter id, unde impositum fuit ad 
+          si<lb break="no" ed="#P" n="7"/>gnificandum. Quod autem dicit Glossa, 
+          dedi<lb break="no" ed="#P" n="8"/>cationem non esse consummatam ante 
+          cele<lb break="no" ed="#P" n="9"/>brationem mysteriorum, falsum est in rigore
+          <lb ed="#P" n="10"/>loquendo, quandoquidem taiis ecctesia non
+          <lb ed="#P" n="11"/>potest amplius ad humanos usus converti.
+          <lb ed="#P" n="12"/>Unde etiam est falsum, quod ibidem subdit,
+          <lb ed="#P" n="13"/>ibi non dici committi sacrilegium ; quia ille
+          <lb ed="#P" n="14"/>locus est sacer et religiosus; ergo ex parte
+          <lb ed="#P" n="15"/>sua sufficit ad sacrilegium. Denique repugnare
+          <lb ed="#P" n="16"/>sibi videtur, cum subdit talem locum, si 
+          se<lb break="no" ed="#P" n="17"/>mine vel sanguine polluatur, expiandum esse,
+          <lb ed="#P" n="18"/>priusquam in eo celebretur; ergo signum est
+          <lb ed="#P" n="19"/>ibi committi sacrilegium ; ergo etiam est 
+          si<lb break="no" ed="#P" n="20"/>gnum, locum illum gaudere immunitate. Nam
+          <lb ed="#P" n="21"/>licet multa loca gaudeant hac immunitate,
+          <lb ed="#P" n="22"/>quae non polluuntur, quia non sunt ceclesiae,
+          <lb ed="#P" n="23"/>nihilominus, si ille locus, de quo tractamus,
+          <lb ed="#P" n="24"/>polluitur, signum est esse veram ecclesiam, et
+          <lb ed="#P" n="25"/>magis religiosum locum. quam alia quae 
+          gau<lb break="no" ed="#P" n="26"/>dent illo privilegio, licet non sint ecclesia.
+          <lb ed="#P" n="27"/>Ergo gaudet hac immunitate ecclesis 
+          con<lb break="no" ed="#P" n="28"/>cessa.
+        </p>
+        <p>
+          <lb ed="#P" n="29"/>6. Interdicta vel polluta. — Eatio 
+          assertio<lb break="no" ed="#P" n="30"/>nis. — Praeterea extenditur haec immunitas ad
+          <lb ed="#P" n="31"/>quamcumque ex dictis ecclesiis, etiamsi 
+          in<lb break="no" ed="#P" n="32"/>terdicta sit, vel etiamsi fuerit polluta, et 
+          non<lb break="no" ed="#P" n="33"/>dum sit reconciliata. Ita docent Hostiensis, 
+          Pa<lb break="no" ed="#P" n="34"/>normitanus, et communiter Doctores in dicto
+          <lb ed="#P" n="35"/>cap. Zcclesie, praesertim quoad priorem 
+          par<lb break="no" ed="#P" n="36"/>tem ; et Sylvester verb. Immunitas, 1, q. 1.
+          <lb ed="#P" n="37"/>Et ratio est, quia inter effectus interdicti non
+          <lb ed="#P" n="38"/>ponitur, ut privet ecclesiam sua immunitate
+          <lb ed="#P" n="39"/>pro eo tempore quo interdicta est; nullo enim
+          <lb ed="#P" n="40"/>jure hoc habetur, ut constat ex his quae de
+          <lb ed="#P" n="41"/>interdicto, suo loco tractavimus, in 5 tom.,
+          <lb ed="#P" n="42"/>disp. 33 et sequentibus. Interdictum autem
+          <lb ed="#P" n="43"/>non plus operatur, quam jure statntum sit.
+          <lb ed="#P" n="44"/>Neque extendendum est, cum sit poenale,
+          <lb ed="#P" n="45"/>quod omnibus censuris commune est; et 
+          prae<lb break="no" ed="#P" n="46"/>sertim non est facienda extensio in majus
+          <lb ed="#P" n="47"/>gravamen ecclesiae. Atque haec ratio eadem
+          <lb ed="#P" n="48"/>efficacitate procedit in ecclesia polluta, 
+          quam<lb break="no" ed="#P" n="49"/>vis illa non sit proprie interdicta, nec de illa
+          <lb ed="#P" n="50"/>in particulari Doctores citati loquantur. 
+          Con<lb break="no" ed="#P" n="51"/>venit enim in hoc pollutio ecclesiae cum 
+          in<lb break="no" ed="#P" n="52"/>terdicto, quod jure ecclesiastico introducta
+          <lb ed="#P" n="53"/>est, sicut interdictum, et ideo illos hapet 
+          ef<lb break="no" ed="#P" n="54"/>fectus quos jus statuit, et non plures. Statuit
+          <lb ed="#P" n="55"/>autem jus, ut ecclesia polluta sit impedita
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quoad divina officia et sepulturam, non vero
+          <lb ed="#P" n="57"/>quod privetur sua immunitate. Et ratio 
+          opti<lb break="no" ed="#P" n="58"/>ma est, quia ecclesia non peccavit, neque in
+          <lb ed="#P" n="59"/>se fuit polluta, id cst, privata et diminuta sua
+          <lb ed="#P" n="60"/>sanctitate ; imo semper manet ad celebranda
+          <lb ed="#P" n="61"/>divina mysteria immutabiliter dedicata. 
+          So<lb break="no" ed="#P" n="62"/>lum ergo, ex institutione juris, dicitur esse
+          <lb ed="#P" n="63"/>polluta in ordine ad publica officia divina, et
+          <lb ed="#P" n="64"/>funera fidelium, ad terrorem fidelium, et ut
+          <lb ed="#P" n="65"/>majorem reverentiam circa talem locum 
+          con<lb break="no" ed="#P" n="66"/>cipiant; propter hoc ergo non debuit ipsa 
+          pri<lb break="no" ed="#P" n="67"/>vari suo jure ac immunitate. Confirmari hoc
+          <lb ed="#P" n="68"/>potest, primo, ratione saepe facta, quod 
+          eccle<lb break="no" ed="#P" n="69"/>sia, licet sit ita polluta, simpliciter est 
+          eccle<lb break="no" ed="#P" n="70"/>sia. Secundo, quia clericus excommunicatus
+          <lb ed="#P" n="71"/>vel interdictus non privatur immunitate. 
+          Ter<lb break="no" ed="#P" n="72"/>tio, quia talis ecclesia non privatur aliis 
+          immu<lb break="no" ed="#P" n="73"/>nitatibus, verbi gratia, ut sit libera a placito,
+          <lb ed="#P" n="74"/>et a mercatu, et ab omni alia 
+          contaminatio<lb break="no" ed="#P" n="75"/>ne, tributo, etc. ; ergo idem est de 
+          praesen<lb break="no" ed="#P" n="76"/>ti immunitate. Neque circa hoc diflicultas 
+          oc<lb break="no" ed="#P" n="77"/>currit.
+        </p>
+        <p>
+          <lb ed="#P" n="78"/>7. Immunitas haec quoad totam ecclesie 
+          fa<lb break="no" ed="#P" n="79"/>bricam.—Bmpliatur praeterea haec immunitas,
+          <lb ed="#P" n="80"/>ut non solum ecclesia quoad internum 
+          ambi<lb break="no" ed="#P" n="81"/>tum suum, sed etiam quoad totam suam 
+          fa<lb break="no" ed="#P" n="82"/>bricam, seu habitationem, aut capacitatem, et
+          <lb ed="#P" n="83"/>quoad externum coemeterium, hoc gaudeat
+          <lb ed="#P" n="84"/>privilegio. Utraque pars communi consensu
+          <lb ed="#P" n="85"/>Doctorum reccpta est; nam quoad priorem,
+          <lb ed="#P" n="86"/>omnes constituunt differentiam inter 
+          eccle<lb break="no" ed="#P" n="87"/>siam , prout pollui potest, vel prout gaudet
+          <lb ed="#P" n="88"/>hac immunita:e. Quia non polluitur per actus
+          <lb ed="#P" n="89"/>qui fiunt vel supra tectum, vel in turri, vel in
+          <lb ed="#P" n="90"/>alio simili loco cum illa conjuncto, et extra
+          <lb ed="#P" n="91"/>illam existente, et ad sacros usus non 
+          depu<lb break="no" ed="#P" n="92"/>tato. At vero quoad hanc immunitatem, 
+          no<lb break="no" ed="#P" n="93"/>mine ecclesiae omnia ista comprehenduntur.
+          <lb ed="#P" n="94"/>Cujus ratio esse videtur, quia nomine ecclesiae
+          <lb ed="#P" n="95"/>lata significatione, et in communi modo 
+          lo<lb break="no" ed="#P" n="96"/>quendi usitata, tota haec fabrica 
+          comprehen<lb break="no" ed="#P" n="97"/>ditur, et favores ampliandi sunt, maxime in
+          <lb ed="#P" n="98"/>causa religionis. Praeterea consuetudo, quae
+          <lb ed="#P" n="99"/>est optima legum interpres, ita hoc exposuit.
+          <lb ed="#P" n="100"/>Multum praeterea favet cap. 7d constituimus,
+          <lb ed="#P" n="101"/>11, quaest. 4, dicens, observandum esse, quod
+          <lb ed="#P" n="102"/>ecclesiastici canones decreverunt, et lev 
+          Roma<lb break="no" ed="#P" n="103"/>na constituit, ut ab ecclesie atriis, vel domo
+          <lb ed="#P" n="104"/>Hpiscopi reos abstrahere omnino non liceat;
+          <lb ed="#P" n="105"/>ergo multo minus licet abstrahere de 
+          habita<lb break="no" ed="#P" n="106"/>culis seu locis ipsiusmet ecclesiae. Expressius
+          <lb ed="#P" n="107"/>vero id habetur in c. Sà quis contumac, eadem
+          <lb ed="#P" n="108"/>causa et q., ibi: De atrio ecclesiee, vel de 
+          porti<lb break="no" ed="#P" n="109"/>cibus quolibet modo ecclesie adherentibus ; ubi
+          <lb ed="#P" n="110"/>Glossa, in confirmationem adducit, quod etiam
+          <pb ed="#P" n="418"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>juxta civile jus : Que religiosis adhaerent, 
+          re<lb break="no" ed="#P" n="2"/>ligiosa sunt, 1. Que religiosis, tf. de Rei 
+          ven<lb break="no" ed="#P" n="3"/>dicat.
+        </p>
+        <p>
+          <lb ed="#P" n="4"/>8. Et cemeterium. — Atque ex his juribus,
+          <lb ed="#P" n="5"/>et ex cap. ultim. de Immunit. Eccles., satis
+          <lb ed="#P" n="6"/>probata relinquitur altera pars de coemeterio,
+          <lb ed="#P" n="7"/>quod secundum jus antiquum (ut supra 
+          nota<lb break="no" ed="#P" n="8"/>vimus), extenditur ad ambitum quadraginta
+          <lb ed="#P" n="9"/>passuum pro majoribus ecclesiis, et triginta
+          <lb ed="#P" n="10"/>pro minoribus, in illarum circuitu, ex cap. 
+          S2<lb break="no" ed="#P" n="11"/>cut antiquitus, et cap. Definivit, cum alis, 17,
+          <lb ed="#P" n="12"/>quaestion. 4. Sed, ut dixi, in hoc standum est
+          <lb ed="#P" n="13"/>consuetudini, et in unaquaque ecclesia ilud
+          <lb ed="#P" n="14"/>spatium pro coemeterio habendum est, quod
+          <lb ed="#P" n="15"/>vel est benedictum, vel pro loco sacro ab
+          <lb ed="#P" n="16"/>Episcopo deputatum. De quo videri potest 
+          Pa<lb break="no" ed="#P" n="17"/>normitanus, dicto cap. Ecclesie, num. 10, et
+          <lb ed="#P" n="18"/>latius Covarr., dicto cap. 20, num. 5. Unde
+          <lb ed="#P" n="19"/>colligunt Doctores, eum, qui confugiendo ad
+          <lb ed="#P" n="20"/>ecclesiam, portae clausae adhaeret, et vectem
+          <lb ed="#P" n="21"/>manu tenet, seu ansam, quia ingredi non 
+          po<lb break="no" ed="#P" n="22"/>test, gaudere hac immunitate. Ita Covar.,
+          <lb ed="#P" n="23"/>dicto cap. 20, num. 18, cum Joan. Igneo, in
+          <lb ed="#P" n="24"/>leg. 1, ff. ad Syllan., num. 57. Ratio reddi
+          <lb ed="#P" n="25"/>potest, quia, licet ille non sit intra ecclesiam,
+          <lb ed="#P" n="26"/>est in illa magis quam si esset in coemeterio,
+          <lb ed="#P" n="27"/>et ordinarie est intra concavum ipsius parietis
+          <lb ed="#P" n="28"/>ecclesiae ; et ita est intra spatium ejus, non 
+          mi<lb break="no" ed="#P" n="29"/>nus quam si esset in superiori cubiculo. Sed
+          <lb ed="#P" n="30"/>quid, si quis supra tectum ecclesiae sit, et 
+          su<lb break="no" ed="#P" n="31"/>per tegulas? Hoc non invenio in specie 
+          inter<lb break="no" ed="#P" n="32"/>rogatum a Doctoribus; videri autem potest
+          <lb ed="#P" n="33"/>non gaudere, quia non est in ecclesia tanquam
+          <lb ed="#P" n="34"/>in loco, nec muris ejus ullo modo continetur,
+          <lb ed="#P" n="35"/>sed est in aere. Nihilominus probabilus est
+          <lb ed="#P" n="36"/>gaudere, tum quia pr:vilegia ecclesiaa 
+          am<lb break="no" ed="#P" n="37"/>plianda sunt; tum etiam quia ille revera est
+          <lb ed="#P" n="38"/>in ecclesia, quia ibi dicitur aliquis esse 
+          pro<lb break="no" ed="#P" n="39"/>prie, ubi pedes habet, licet a tali corpore non
+          <lb ed="#P" n="40"/>circumdetur ; sicut corpora Sanctorum erunt
+          <lb ed="#P" n="41"/>in coeio, quia pedibus calcabunt superficiem
+          <lb ed="#P" n="42"/>convexam coeli, licet a corpore ceelesti non
+          <lb ed="#P" n="43"/>circumdentur ; tum praeterea quia etiam illae
+          <lb ed="#P" n="44"/>tegulae rehgiosae sunt, juxta illam regulam:
+          <lb ed="#P" n="45"/>Quae religiosis adhaerent, religiosa sunt ; et ideo
+          <lb ed="#P" n="46"/>qui adhaeret tegulis, non potest ab illis 
+          reli<lb break="no" ed="#P" n="47"/>giose evelli. Tum denique quia, licet ille homo
+          <lb ed="#P" n="48"/>tunc non sit intra ecclesiam, est intra situm
+          <lb ed="#P" n="49"/>ecclesiae, et adhaeret illi; gaudet ergo 
+          immu<lb break="no" ed="#P" n="50"/>nitate, non minus quam qui est in camera 
+          su<lb break="no" ed="#P" n="51"/>periori; ille enim non tam videtur gaudere
+          <lb ed="#P" n="52"/>propter muros, quibus circumdatur, vel 
+          pro<lb break="no" ed="#P" n="53"/>pter tectum, quo tegitur, quam quia est supra
+          <lb ed="#P" n="54"/>ipsam ecclesiam, et intra situm ejus.
+        </p>
+        <p>
+          <lb ed="#P" n="55"/>9. Hospitale. — Denique extenditur haec
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>immunitas ad alia loca, quae in jure religiosa
+          <lb ed="#P" n="57"/>censentur, ut est hospitale auctoritate 
+          Epis<lb break="no" ed="#P" n="58"/>copi dedicatum, justa cap. Ad haec, de 
+          Reli<lb break="no" ed="#P" n="59"/>giosis domibus, estque communiter receptum
+          <lb ed="#P" n="60"/>per Innocentium, Panormitanum, et alios, in
+          <lb ed="#P" n="61"/>dicto cap. Zcclesig, et plures refert Covarr.
+          <lb ed="#P" n="62"/>supra, num. 4. Idem est de monasteriis 
+          reli<lb break="no" ed="#P" n="63"/>giosorum quoad totum claustrum, 
+          monaste<lb break="no" ed="#P" n="64"/>rium, seu habitationem eorum, quia totus ille
+          <lb ed="#P" n="65"/>locus religiosus et sacer est, ut constat ex toto
+          <lb ed="#P" n="66"/>titulo de Religiosis domibus, et optime 
+          proba<lb break="no" ed="#P" n="67"/>tur ex capit. Ligna, de Consecrat., 
+          distinctio<lb break="no" ed="#P" n="68"/>ne 1, atque hoc etiam consuetudo confirmat.
+          <lb ed="#P" n="69"/>Denique addunt Doctores, etiam domum 
+          Epis<lb break="no" ed="#P" n="70"/>copi hac gaudere immunitate, quod expresse
+          <lb ed="#P" n="71"/>habetur in dicto cap. 7d constituimus. 
+          Non<lb break="no" ed="#P" n="72"/>nulli tamen voluerunt illud restringere, ut
+          <lb ed="#P" n="73"/>intelligatur quando domus Episcopi intra
+          <lb ed="#P" n="74"/>quadraginta passus ecclesiae suae sita est. Sed
+          <lb ed="#P" n="75"/>hoc justa antiquum jus nullum fuisset 
+          privile<lb break="no" ed="#P" n="76"/>gium Episcopi; illud autem decretum aliquid
+          <lb ed="#P" n="77"/>speciale illi concedere voluit. Item non est
+          <lb ed="#P" n="78"/>cur favorem limitemus sine fundamento in
+          <lb ed="#P" n="79"/>textu ; igitur, ubicumque situm sit palatium
+          <lb ed="#P" n="80"/>Episcopi, hoc gaudet privilegio. Et ita sensit
+          <lb ed="#P" n="81"/>Glossa ibi, et Abbas supra, num. 9 ; 
+          Covarru<lb break="no" ed="#P" n="82"/>vias vero, dicto numero 5, S Quinto, dicit
+          <lb ed="#P" n="83"/>priorem limitationem esse forensi 
+          consuetu<lb break="no" ed="#P" n="84"/>dine receptam ; quod si ita est, ili standum
+          <lb ed="#P" n="85"/>erit, quia talis consuetudo non est expresse
+          <lb ed="#P" n="86"/>contra jus canonicum.
+        </p>
+        <p>
+          <lb ed="#P" n="87"/>10. Nou quoad oratoria privata.—Uhimo 
+          ad<lb break="no" ed="#P" n="88"/>dendum est in hoc puncto , oratoria privata
+          <lb ed="#P" n="89"/>non gaudere hac immunitate. Ita docent 
+          Inno<lb break="no" ed="#P" n="90"/>centius, c. 7uter dilectos, de Donationibus; et
+          <lb ed="#P" n="91"/>Abbas, in capit. ultim., de Censib., num. 4;
+          <lb ed="#P" n="92"/>Sylvester , locis citatis, et verb. Interdictum,
+          <lb ed="#P" n="93"/>6, q. 5; Armilia, verb. /mmunitas , num. 19;
+          <lb ed="#P" n="94"/>et Julius Clar., lib. 5, ultim., quaestione 
+          trige<lb break="no" ed="#P" n="95"/>sima, num. 7. Et ratio est, quia hujusmodi
+          <lb ed="#P" n="96"/>oratorium non est ecclesia, simpliciter 
+          loquen<lb break="no" ed="#P" n="97"/>do juxta modum juris. Imo neque est 
+          religio<lb break="no" ed="#P" n="98"/>sus, nam privata auctoritate erectus est, et
+          <lb ed="#P" n="99"/>eadem potest ad profanos usus converti;
+          <lb ed="#P" n="100"/>utrumque autem repugnat loco religioso et
+          <lb ed="#P" n="101"/>sacro, stricte ac proprie sumpto. Dicitur 
+          au<lb break="no" ed="#P" n="102"/>tem oratorium privatum , quod auctoritate
+          <lb ed="#P" n="103"/>Episcopi dicatum non est, ut omnes colligunt
+          <lb ed="#P" n="104"/>ex capit. Ad hec, de heligios. domibus ; 
+          Glos<lb break="no" ed="#P" n="105"/>sa, in Clement. Quia contingit, de Religios. 
+          do<lb break="no" ed="#P" n="106"/>mib. Neque sufficit ut de licentia Episcopi
+          <lb ed="#P" n="107"/>possit in eo sacrum celebrari, quia per hoc
+          <lb ed="#P" n="108"/>non manet locus ille immutabiliter deputatus
+          <lb ed="#P" n="109"/>ad sacra ministeria. Quomodo autem 
+          consta<lb break="no" ed="#P" n="110"/>re debeat oratcrium, seu capellam esse publi-
+          <pb ed="#P" n="419"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cam, et auctoritate Episcopi dicatam, ut hac
+          <lb ed="#P" n="2"/>gaudeat immunitate, tractant Doctores in c.
+          <lb ed="#P" n="3"/>Patentibus , de Privilegiis; et Summistae, in
+          <lb ed="#P" n="4"/>verb. Ecclesia, et verb. Loca sacra, qui 
+          vide<lb break="no" ed="#P" n="5"/>ri possunt, nam res est facilis, et magis 
+          perti<lb break="no" ed="#P" n="6"/>nens ad externum forum quam ad nos, 
+          mul<lb break="no" ed="#P" n="7"/>tumque ex consuetudine pendet. Tandem non
+          <lb ed="#P" n="8"/>omittam adnotare, Hostiensem extendere hanc
+          <lb ed="#P" n="9"/>immunitatem ad sacerdotem eucharistiam 
+          de<lb break="no" ed="#P" n="10"/>ferentem per plateas, et ad thronum, seu 
+          ta<lb break="no" ed="#P" n="11"/>bernaculum in quo idem corpus Domini 
+          de<lb break="no" ed="#P" n="12"/>fertur, ita ut si reus fugiens illud amplexetur,
+          <lb ed="#P" n="13"/>capi non possit. Quod sequitur Turrecremata,
+          <lb ed="#P" n="14"/>in cap. Queesitum, 13, quaest. 2; et Sylvest.,
+          <lb ed="#P" n="15"/>num. 1, in fine, et multii alii, quos refert 
+          Co<lb break="no" ed="#P" n="16"/>varruvias, num. 5, qui non jure, sed pia 
+          qua<lb break="no" ed="#P" n="17"/>dam consideratione fundantur, et ideo ipse
+          <lb ed="#P" n="18"/>dubius est ; Glossa vero, in dicto cap. 
+          Quaesi<lb break="no" ed="#P" n="19"/>Lwn, 13, quaest. 2, oppositum tenet, quia 
+          pri<lb break="no" ed="#P" n="20"/>vilegia non debent trahi per consequentiam.
+          <lb ed="#P" n="21"/>Sed certe consequentia, quae hic fit, valde
+          <lb ed="#P" n="22"/>probabilis est, quia corpus Christi est 
+          funda<lb break="no" ed="#P" n="23"/>mentum hujus immunitatis. Praeterquam quod
+          <lb ed="#P" n="24"/>videtur hoc pertinere ad reverentiam jure 
+          di<lb break="no" ed="#P" n="25"/>vino debitam corpori Christi. Denique nomen
+          <lb ed="#P" n="26"/>ecclesiae non absurde extenditur ad locum 
+          il<lb break="no" ed="#P" n="27"/>lum , in quo actu est (quamvis in transitu)
+          <lb ed="#P" n="28"/>corpus Christi, et ideo communem sententiam
+          <lb ed="#P" n="29"/>servandam in praxi censeo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="3"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k00024"><!-- t1-l1prae -->
+        <head>Praeambulum</head>
+        <p>
+          <pb ed="#P" n="3"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>TRACTATUS PRIMUS
+          <lb ed="#P" n="2"/>DE NATURA ET ESSENTIA
+          <lb ed="#P" n="3"/>VIRTUTIS RELIGION
+          <lb ed="#P" n="4"/>IN TRES LIBROS DIVISUS.
+        </p>
+        <!--<p>
+          <lb ed="#P" n="5"/>INDEX CAPITUM LIBRI PRIMI
+          <lb ed="#P" n="6"/>DE OBJECTO ET MATERIA VIRTUTIS RELIGIONTS.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="7"/>Capr. I. De etymologia et multiplici 
+          si<lb break="no" ed="#P" n="8"/>gnificatu vocis religionis.
+          <lb ed="#P" n="9"/>Car. II. De diisione religionis in 
+          vir<lb break="no" ed="#P" n="10"/>tutem et statum.
+          <lb ed="#P" n="11"/>Cap. III. Quomodo Deus sub objecto 
+          vir<lb break="no" ed="#P" n="12"/>tutis religionis comprehendatur.
+          <lb ed="#P" n="13"/>Car. IV. Sitne Deus solus objectum cui
+          <lb ed="#P" n="14"/>virtutis religionis.
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="15"/>Cap. V. An sola religio respiciat Deum
+          <lb ed="#P" n="16"/>ut objectum cui.
+          <lb ed="#P" n="17"/>Cap. VI. Sub qua ratione Deus sit 
+          ob<lb break="no" ed="#P" n="18"/>jectum religionis.
+          <lb ed="#P" n="19"/>Cap. VII. Quanam sit materia proxima
+          <lb ed="#P" n="20"/>religionis.
+          <lb ed="#P" n="21"/>Cap. VIIT. De cultu quem exercet religio.
+          <lb ed="#P" n="22"/>Cap. IX. De debito quod reddit religio.
+        </p>
+        <p>
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="23"/>LIBER PRIMUS
+          <lb ed="#P" n="24"/>DE OBJECTO ET MATERIA VIRTUTIS RELIGIONIS.
+        </p>-->
+        <p>
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="25"/>Hunc de religione tractatum in tres 
+          praeci<lb break="no" ed="#P" n="26"/>puas partes seu libros dividemus ; in primo,
+          <lb ed="#P" n="27"/>tam materiale quam formale objectum 
+          virtu<lb break="no" ed="#P" n="28"/>tis religionis explicabimus. In secundo, 
+          gene<lb break="no" ed="#P" n="29"/>ralem doctrinam de actibus ejus trademus.
+          <lb ed="#P" n="30"/>In tertio virtutem quoad ejus habitum, 
+          excel<lb break="no" ed="#P" n="31"/>lentiam, seu perfectionis gradum, ac 
+          distinc<lb break="no" ed="#P" n="32"/>tionem a caeteris virtutibus exponemus. Prius
+          <lb ed="#P" n="33"/>vero quam ad rem ipsam acccdamus, pauca
+          <lb ed="#P" n="34"/>de nomine religionis pramittere opportunum
+          <lb ed="#P" n="35"/>judicavimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="29"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k00690"><!-- t1-l2c3 -->
+        <head>Caput 3</head>
+        <head type="question-title">An cultus externus sit actus a religione elicitus, vel imperatus.</head>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>CAPUT III.
+          <lb ed="#P" n="56"/>AN CULTUS EXTERNUS SIT ACTUS A RELIGIONE
+          <lb ed="#P" n="57"/>ELICITUS, VEL IMPERATUS.
+        </p>
+        <p>
+          <lb ed="#P" n="58"/>1. Argumentum quo probatur externum 
+          cul<lb break="no" ed="#P" n="59"/>tum a religionis virtute non posse elici. — Sub
+          <lb ed="#P" n="60"/>externo comprehendimus omnem actum 
+          al<lb break="no" ed="#P" n="61"/>terius potentiae a voluntate; et hinc oritur
+          <lb ed="#P" n="62"/>ratio dubitandi, quia actus elicitus ab habitu
+          <lb ed="#P" n="63"/>debet etiam esse elicitus a potentia, in qua
+          <lb ed="#P" n="64"/>inest habitus; sed hic cultus externus non
+          <lb ed="#P" n="65"/>elicitur a voluntate, in qua inest religio, ut
+          <lb ed="#P" n="66"/>infra videbimus; ergo neque ab ipsa religione
+          <lb ed="#P" n="67"/>elicitur. Minor per se clara est, quia ille 
+          cul<lb break="no" ed="#P" n="68"/>tus externus per corpus immediate exercetur;
+          <lb ed="#P" n="69"/>voluntas autem per se et immediate non 
+          affi<lb break="no" ed="#P" n="70"/>cit motus corporis , sed solum applicat 
+          poten<lb break="no" ed="#P" n="71"/>tias exequentes ad movendum; non ergo 
+          ta<lb break="no" ed="#P" n="72"/>lem cultum elicit ; nam elicere, est proprie et
+          <lb ed="#P" n="73"/>per se efficere. Neque, ut voluntas dicatur
+          <lb ed="#P" n="74"/>elicere motum aliquem, satis est ut applicet
+          <lb ed="#P" n="75"/>aliam potentiam ad efficiendum talem cultum;
+          <lb ed="#P" n="76"/>alias voluntas eliceret assensum fidei, vel 
+          opi<lb break="no" ed="#P" n="77"/>nionis, et actum visionis corporalis, et 
+          simi<lb break="no" ed="#P" n="78"/>lia, quae dici non possunt. Major autem 
+          pro<lb break="no" ed="#P" n="79"/>batur, quia habitus non est principium per se
+          <lb ed="#P" n="80"/>efficiens, sed solum coadjuvans potentiam, et
+          <lb ed="#P" n="81"/>ideo in tantum habitus operatur, in quantum
+          <lb ed="#P" n="82"/>potentia, cui adhaeret, utitur illo, et ideo 
+          ha<lb break="no" ed="#P" n="83"/>bitibus utimur, cum volumus ; ergo non 
+          po<lb break="no" ed="#P" n="84"/>test habitus elicere actum , nisi cum sua 
+          po<lb break="no" ed="#P" n="85"/>tentia; ergo necesse est ut potentia eumdem
+          <lb ed="#P" n="86"/>eliciat, et quod ad illum eliciendum applicet
+          <lb ed="#P" n="87"/>habitum, seu habitu utatur. Et confirmatur,
+          <lb ed="#P" n="88"/>quia elicere actum , juxta propriam illius
+          <lb ed="#P" n="89"/>verbi significationem communi usu receptam,
+          <lb ed="#P" n="90"/>idem est quod immediate ac per se efficere
+          <lb ed="#P" n="91"/>actum, qui elici dicitur; at vero habitus non
+          <lb ed="#P" n="92"/>efficit hoc modo, nisi actus suae potentia ;
+          <lb ed="#P" n="93"/>ergo.
+        </p>
+        <p>
+          <lb ed="#P" n="94"/>2. D. Thomae in hac re sententia proponitur.
+          <lb ed="#P" n="95"/>— Nihilominus D. Thomas, d. q. S1, art. 2,
+          <lb ed="#P" n="96"/>ad 1, et art. 4, ad 2, sentit actus aliquos 
+          ex<lb break="no" ed="#P" n="97"/>terioris;cultus divini esse elicitos a virtute 
+          re<lb break="no" ed="#P" n="98"/>ligionis. Et quia hoc non poterat in universum
+          <lb ed="#P" n="99"/>de omnibus affirmari, distinctionem talem
+          <lb ed="#P" n="100"/>indicat. Nam cum colimus Deum per actus
+          <lb ed="#P" n="101"/>aliarum virtutum, ut fidei, misericordiae, etc.,
+          <lb ed="#P" n="102"/>tunc cultus ille non est elicitus a religione,
+          <lb ed="#P" n="103"/>sed tantum imperatus; quando vero actus,
+          <lb ed="#P" n="104"/>quo Deum colimus, non habet per se 
+          hones<lb break="no" ed="#P" n="105"/>tatem alterius virtutis, ut est sacrificium, 
+          ado<lb break="no" ed="#P" n="106"/>ratio, tunc actus ille est proprie elicitus a vir-
+          <pb ed="#P" n="30"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tute religionis. Ratio hujus sententia esse
+          <lb ed="#P" n="2"/>potest, quia necesse est omnem actum 
+          vir<lb break="no" ed="#P" n="3"/>tutis, tam externum quam internum, elici
+          <lb ed="#P" n="4"/>ab aliqua virtute; sed actus , quibus colimus
+          <lb ed="#P" n="5"/>Deum, qui ex se non habent aliam 
+          honesta<lb break="no" ed="#P" n="6"/>tem praeter rationem cultus, non eliciuntur
+          <lb ed="#P" n="7"/>ab alia virtute extra religionem; ergo 
+          eliciun<lb break="no" ed="#P" n="8"/>tur ab illa.
+        </p>
+        <p>
+          <lb ed="#P" n="9"/>3. Cajetani corollarium. — Unde infert 
+          Ca<lb break="no" ed="#P" n="10"/>jetanus non esse deratione actus eliciti ab 
+          ali<lb break="no" ed="#P" n="11"/>qua virtute, quod sit elicitus ab eadem potentia
+          <lb ed="#P" n="12"/>in qua est virtus, sed solum quod non 
+          elicia<lb break="no" ed="#P" n="13"/>tur ab alia virtute, et quod sit a voluntate
+          <lb ed="#P" n="14"/>movente aliam potentiam ad talem actum ex
+          <lb ed="#P" n="15"/>immediata inchinatione talis virtutis. Nam,
+          <lb ed="#P" n="16"/>ut actus sit elicitus a virtute, non est necesse
+          <lb ed="#P" n="17"/>ut sit ab illa quoad substantiam suam, sed 
+          sa<lb break="no" ed="#P" n="18"/>tis est quod ab illa habeat modum, id est, 
+          fa<lb break="no" ed="#P" n="19"/>cilitatem et promptitudinem. At vero quando
+          <lb ed="#P" n="20"/>fit immediate ex propensione religionis, non
+          <lb ed="#P" n="21"/>interveniente aliqua alia virtute morali, tunc,
+          <lb ed="#P" n="22"/>licet non sit actus voluntatis, sed intellectus,
+          <lb ed="#P" n="23"/>aut alterius facultatis, a sola religione habet
+          <lb ed="#P" n="24"/>quod facile et prompte fiat; ergo est elicitus
+          <lb ed="#P" n="25"/>ab illa. Quae ratio cessat, quando actus habet
+          <lb ed="#P" n="26"/>propriam honestatem alterius virtutis, nam
+          <lb ed="#P" n="27"/>tunc ab illa habet immediate promptitudinem
+          <lb ed="#P" n="28"/>et facilitatem, ut eleemosyna a misericordia,
+          <lb ed="#P" n="29"/>et ideo talis actus non est elicitus a religione,
+          <lb ed="#P" n="30"/>sed tantum imperatus.
+        </p>
+        <p>
+          <lb ed="#P" n="31"/>4. Solvitur argumentum ex doctrina 
+          Caje<lb break="no" ed="#P" n="32"/>tani. — Unde ad rationem in contrarium,
+          <lb ed="#P" n="33"/>in summa respondet Cajetanus negando
+          <lb ed="#P" n="34"/>majorem, quia ut actus sit elicitus a virtute,
+          <lb ed="#P" n="35"/>non est necesse ut ab illa habeat 
+          substan<lb break="no" ed="#P" n="36"/>tiam, sed modum; hanc autem potest 
+          ha<lb break="no" ed="#P" n="37"/>bere actus a virtute superioris potentiae,
+          <lb ed="#P" n="38"/>etiamsi ab illa non eliciatur. Unde alii 
+          infe<lb break="no" ed="#P" n="39"/>runt, etiam actum virtutis existentem in 
+          vo<lb break="no" ed="#P" n="40"/>luntate, et ab illa sola per se effectum, quoad
+          <lb ed="#P" n="41"/>suam entitatem et substantiam, posse etiam
+          <lb ed="#P" n="42"/>esse elicitum a virtute existente in appetitu
+          <lb ed="#P" n="43"/>sensitivo, quia, mediante moderatione 
+          passio<lb break="no" ed="#P" n="44"/>nis alicujus, ab illa habet immediate 
+          facilita<lb break="no" ed="#P" n="45"/>tem et modum virtutis; ut actus temperantiae,
+          <lb ed="#P" n="46"/>qui est in voluntate, elicitur a virtute 
+          tempe<lb break="no" ed="#P" n="47"/>rantiae, quae est in appetitu sensitivo. Alii vero
+          <lb ed="#P" n="48"/>moderantur loquendi modum, et aiunt 
+          virtu<lb break="no" ed="#P" n="49"/>tem voluntatis elicere actum potentiae 
+          exe<lb break="no" ed="#P" n="50"/>quentis, non physice, propter rationem a
+          <lb ed="#P" n="51"/>nobis in principio factam, sed moraliter, 
+          pro<lb break="no" ed="#P" n="52"/>pter illam facilitatem, et modum virtutis.
+        </p>
+        <p>
+          <lb ed="#P" n="53"/>5. Quaestio magis explicatur. — Sed ne 
+          for<lb break="no" ed="#P" n="54"/>tasse sit quaestio de nomine, vel propter 
+          abu<lb break="no" ed="#P" n="55"/>sum vocis alicujus circa rem ipsam erremus,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>explicemus prius quid res ipsa habeat, et inde
+          <lb ed="#P" n="57"/>facile constabit quomodo loquendum sit.
+          <lb ed="#P" n="58"/>Primo ergo certum videtur, religionem non
+          <lb ed="#P" n="59"/>habere efticientiam aliquam, sive physicam,
+          <lb ed="#P" n="60"/>sive moralem in exteriorem actum, nisi medio
+          <lb ed="#P" n="61"/>actu elicito ab ipsa voluntate simul cum 
+          vir<lb break="no" ed="#P" n="62"/>tute religionis. De physica efficientia, hoc est
+          <lb ed="#P" n="63"/>per se notum ex ratione in principio posita,
+          <lb ed="#P" n="64"/>quia habitus non operatur per se, sed 
+          quate<lb break="no" ed="#P" n="65"/>nus illo utitur potentia, et ideo nihil potest
+          <lb ed="#P" n="66"/>immediate ac per se efficere physice, nisi
+          <lb ed="#P" n="67"/>proprium actum talis potentiae. Item quia 
+          ha<lb break="no" ed="#P" n="68"/>bitus per se efficere non potest nisi in ordine
+          <lb ed="#P" n="69"/>ad objectum suum; in suo autem objecto 
+          ser<lb break="no" ed="#P" n="70"/>vat proportionem cum potentia, et ideo non
+          <lb ed="#P" n="71"/>potest immediate operari nisi circa objectum
+          <lb ed="#P" n="72"/>suae potentiae, et sub particulari aliqua ratione
+          <lb ed="#P" n="73"/>illius, atque ita immediate nihil per se efficit,
+          <lb ed="#P" n="74"/>nisi cooperando ipsi potentiae. De morali 
+          au<lb break="no" ed="#P" n="75"/>tem efficientia patet, quia religio non est 
+          cau<lb break="no" ed="#P" n="76"/>sa moralis per se actus exterioris, nisi 
+          quate<lb break="no" ed="#P" n="77"/>nus moraliter applicat potentiam exequentem
+          <lb ed="#P" n="78"/>ad operandum ; sed non applicat illam nisi
+          <lb ed="#P" n="79"/>mediante actu elicito a voluntate, id est, 
+          me<lb break="no" ed="#P" n="80"/>dia voluntate sacrificandi, vel flectendi genua,
+          <lb ed="#P" n="81"/>vel quid simile; ergo.
+        </p>
+        <p>
+          <lb ed="#P" n="82"/>6. Quot modis virtus unius potentie 
+          facilita<lb break="no" ed="#P" n="83"/>tem praeebeat ad actionem alterius. — Unde 
+          obi<lb break="no" ed="#P" n="84"/>ter intelligitur quomodo virtus unius potentiae
+          <lb ed="#P" n="85"/>det facilitatem ad actionem alterius potentiae;
+          <lb ed="#P" n="86"/>variis enim modis potest illam conferre, uno
+          <lb ed="#P" n="87"/>modo per accidens tantum, tollendo 
+          impedi<lb break="no" ed="#P" n="88"/>menta, et hoc modo habitus appetitus 
+          sensi<lb break="no" ed="#P" n="89"/>tivi, quatenus moderatur affectum ejus, potest
+          <lb ed="#P" n="90"/>dare facilitatem ad actum voluntatis. Hic 
+          ta<lb break="no" ed="#P" n="91"/>men modus non satis est ut actus voluntatis
+          <lb ed="#P" n="92"/>dicatur elici ab habitu appetitus sensitivi, quia
+          <lb ed="#P" n="93"/>illa facilitas solum est in tali habitu, ut a causa
+          <lb ed="#P" n="94"/>per accidens. Alioquin etiam posset dici elici
+          <lb ed="#P" n="95"/>a frigefactione corporis, aut a complexione sic
+          <lb ed="#P" n="96"/>vel sic temperata, quia haec etiam conferunt
+          <lb ed="#P" n="97"/>ad facilitatem, removendo prohibens. Alio 
+          mo<lb break="no" ed="#P" n="98"/>do confert virtus ad facilitatem ex parte 
+          obje<lb break="no" ed="#P" n="99"/>cti, et per quamdam concomitantiam ; quia
+          <lb ed="#P" n="100"/>qualis unusquisque est, talis finis sibi videtur;
+          <lb ed="#P" n="101"/>et quia facilius et attentius cogitamus de his
+          <lb ed="#P" n="102"/>ad quae afficimur vel inclinamur. Et hic etiam
+          <lb ed="#P" n="103"/>modus non sufficit, ut actus unius potentiae fiat
+          <lb ed="#P" n="104"/>ab alia, vel a virtute ejus, quia est etiam 
+          mo<lb break="no" ed="#P" n="105"/>dus valde extrinsecus, et per accidens, magis
+          <lb ed="#P" n="106"/>per quamdam occasionem quam per 
+          efficien<lb break="no" ed="#P" n="107"/>tiam.
+        </p>
+        <p>
+          <lb ed="#P" n="108"/>7. Tertius facilitandi modus magis proprius
+          <lb ed="#P" n="109"/>egplicatur. — Tertio ergo modo potest virtus
+          <lb ed="#P" n="110"/>unius potentiae dare facilitatem ad actionem
+          <pb ed="#P" n="31"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>alterius potentiae, quatenus illae potentiae per
+          <lb ed="#P" n="2"/>se subordinantur, et superior applicat 
+          inferio<lb break="no" ed="#P" n="3"/>rem ad operandum, quae applicatio est moralis
+          <lb ed="#P" n="4"/>influxus per se. Et hoc modo in tantum virtus
+          <lb ed="#P" n="5"/>superioris potentiae, verbi gratia, religio, dat
+          <lb ed="#P" n="6"/>facilitatem in actum inferioris facultatis, in
+          <lb ed="#P" n="7"/>quantum voluniati dat facilitatem in efficiendo
+          <lb ed="#P" n="8"/>illummet actum, quo movet inferiorem 
+          po<lb break="no" ed="#P" n="9"/>tentiam. Alio enim modo facilitatem per se
+          <lb ed="#P" n="10"/>dare non potest. Unde si potentia exequens in
+          <lb ed="#P" n="11"/>se habet aliam difficultatem, vel defectum
+          <lb ed="#P" n="12"/>virtutis, non sufficit virtus superioris potentiae
+          <lb ed="#P" n="13"/>ad dandam facilitatem intrinsecam, ut sic 
+          di<lb break="no" ed="#P" n="14"/>cam, sed per proprias dispositiones, vel 
+          habi<lb break="no" ed="#P" n="15"/>tus danda est, ut per se constat, et sumitur
+          <lb ed="#P" n="16"/>ex D. Thoma, 1. 2, q. 56, art. 4, et 2. 2, q. 4,
+          <lb ed="#P" n="17"/>art. 2. Facilitas ergo in actu potentia 
+          exe<lb break="no" ed="#P" n="18"/>quentis solum potest esse per denominationem
+          <lb ed="#P" n="19"/>extrinsecam ab actu voluntatis, quatenus ille
+          <lb ed="#P" n="20"/>facilius fit ex habitu. Unde propter illam 
+          so<lb break="no" ed="#P" n="21"/>lam rationem non poterit dici elici ab 
+          habi<lb break="no" ed="#P" n="22"/>tu tali, quia etiam actus imperatus participat
+          <lb ed="#P" n="23"/>hanc denominationem ab actu imperante; eo
+          <lb ed="#P" n="24"/>enim facilius fit talis actus, quo voluntas 
+          ma<lb break="no" ed="#P" n="25"/>Jjorem facilitatem habet in imperando; ergo
+          <lb ed="#P" n="26"/>participat illam ut actus imperatus, non ut
+          <lb ed="#P" n="27"/>elicitus.
+        </p>
+        <p>
+          <lb ed="#P" n="28"/>8. Actum externorum cultus divini, alii
+          <lb ed="#P" n="29"/>proxime a. religione imperantur, alii remote.
+          <lb ed="#P" n="30"/>— Secundo nihilominus certum est, quosdam
+          <lb ed="#P" n="31"/>esse actus externos, qui, in ratione actus 
+          ho<lb break="no" ed="#P" n="32"/>nesti et studiosi, non postulant fieri, nisi ex
+          <lb ed="#P" n="33"/>motione immediata religionis per actum 
+          vo<lb break="no" ed="#P" n="34"/>luntatis pertinentem de se ad illam virtutem;
+          <lb ed="#P" n="35"/>alios vero esse qui non fiunt ex immediata
+          <lb ed="#P" n="36"/>motione voluntatis per actum religionis, sed
+          <lb ed="#P" n="37"/>per actum alterius virtutis misericordiae, aut
+          <lb ed="#P" n="38"/>temperantiae, vel alterius similis. Hoc constat
+          <lb ed="#P" n="39"/>satis ex supra dictis, et ex doctrina D. Thomae
+          <lb ed="#P" n="40"/>et Cajetani. Jam ergo, rectene dicantur 
+          prio<lb break="no" ed="#P" n="41"/>res actus eliciti a religione, et posteriores 
+          im<lb break="no" ed="#P" n="42"/>perati propter dictam differentiam, et ad 
+          ex<lb break="no" ed="#P" n="43"/>plicandam illam, quaestio est de nomine. 
+          Ta<lb break="no" ed="#P" n="44"/>men quia periti in hac arte ita loquuntur, ita
+          <lb ed="#P" n="45"/>etiam nos loqui possumus. Satis vero esset
+          <lb ed="#P" n="46"/>priores vocare, proxime imperatos, 
+          posterio<lb break="no" ed="#P" n="47"/>res vero remote, quia illi sine alia virtute
+          <lb ed="#P" n="48"/>media imperantur, hi vero media alia virtute.
+          <lb ed="#P" n="49"/>Non video enim cur, sicut voluntas dicitur 
+          im<lb break="no" ed="#P" n="50"/>perare genuflexionem, immediate illam 
+          vo<lb break="no" ed="#P" n="51"/>lendo, non dicatur etiam religio illam 
+          impe<lb break="no" ed="#P" n="52"/>rare, immediate concurrendo, et efficiendo
+          <lb ed="#P" n="53"/>illam voluntatem.
+        </p>
+        <p>
+          <lb ed="#P" n="54"/>9. Imo, ut actus sit imperatus a virtute, non
+          <lb ed="#P" n="55"/>semper necesse est ut eliciatur med?o alio ha-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bitu; nam assensus fidci imperatur a pia 
+          affec<lb break="no" ed="#P" n="57"/>tione voluntatis, licet fiat medio habitu fidei ;
+          <lb ed="#P" n="58"/>et actus fortitudinis, existens in irascibili, 
+          im<lb break="no" ed="#P" n="59"/>peratur immediate a voluntate, et ab habitu
+          <lb ed="#P" n="60"/>ejus (si quis est), licet eliciatur ab appetitu,
+          <lb ed="#P" n="61"/>medio habitu. quem in se habet. Tunc ergo
+          <lb ed="#P" n="62"/>dicitur actus alterius potentiae a voluntate, 
+          im<lb break="no" ed="#P" n="63"/>mediate imperari a virtute voluntatis, quando
+          <lb ed="#P" n="64"/>illa potentia applicatur immediate per actum
+          <lb ed="#P" n="65"/>voluntatis elicitum a tali virtute. Quando 
+          au<lb break="no" ed="#P" n="66"/>tem voluntas, utens una virtute sua, non 
+          ap<lb break="no" ed="#P" n="67"/>plicat aliam potentiam, nisi media alia virtute
+          <lb ed="#P" n="68"/>ejusdem voluntatis et actu illius, tunc dicitur
+          <lb ed="#P" n="69"/>mediate imperare actum exteriorem, et hoc
+          <lb ed="#P" n="70"/>modo se habet religio ad opera misericordiae,
+          <lb ed="#P" n="71"/>et alia similia. Et ita satis constat distinctio
+          <lb ed="#P" n="72"/>talium actuum, sive quidam vocentur eliciti,
+          <lb ed="#P" n="73"/>et quidam imperati ; sive illi dicantur proprii
+          <lb ed="#P" n="74"/>et quasi connaturales religioni, alii adventitii
+          <lb ed="#P" n="75"/>et extranei; sivedenique hi dicantur immediate
+          <lb ed="#P" n="76"/>imperati a religione, alii mediate. Quod 
+          pro<lb break="no" ed="#P" n="77"/>prie locum habet in actibus externis 
+          secun<lb break="no" ed="#P" n="78"/>dum se spectatis, ut condistinctis ab internis;
+          <lb ed="#P" n="79"/>nam si consideretur actus externus ut 
+          con<lb break="no" ed="#P" n="80"/>junctus interno, et quatenus ex utroque fit
+          <lb ed="#P" n="81"/>unus moraliter, sic optime dicetur talis actus
+          <lb ed="#P" n="82"/>elicitus a religione, quando eliciendo 
+          inter<lb break="no" ed="#P" n="83"/>num, immediate trahit externum, et illum
+          <lb ed="#P" n="84"/>proxime informat, et ita locutus est D. 
+          Tho<lb break="no" ed="#P" n="85"/>mas.
+        </p>
+        <p>
+          <lb ed="#P" n="86"/>10. D. Jacobi verba, licet a D. Thoma ad
+          <lb ed="#P" n="87"/>actus a religione imperatos applicentur, 
+          pro<lb break="no" ed="#P" n="88"/>prius tamen de religionis statu intelligenda
+          <lb ed="#P" n="89"/>sunt. — Ex quibus facile intelliguntur verba
+          <lb ed="#P" n="90"/>Jacobi 1: Aeligio munda et immaculata hec
+          <lb ed="#P" n="91"/>est, visitare pupillos et viduas in tribulatione
+          <lb ed="#P" n="92"/>eorwum, et mmaculatum se custodire ab hoc 
+          see<lb break="no" ed="#P" n="93"/>culo. Quae existimat D. Thomas, dicto art. 4,
+          <lb ed="#P" n="94"/>ad 1, esse dicta, quia haec officia solent a 
+          reli<lb break="no" ed="#P" n="95"/>gionis virtute imperari. Quod potest facile 
+          sus<lb break="no" ed="#P" n="96"/>tineri, verba illa nude considerando, quia in
+          <lb ed="#P" n="97"/>re verum est. Tamen, inspecta intentione 
+          Ja<lb break="no" ed="#P" n="98"/>cobi, ngn videtur loqui de speciali virtute 
+          re<lb break="no" ed="#P" n="99"/>ligionis, sed destatu, seu professione religiosa,
+          <lb ed="#P" n="100"/>ut patet ex antecedentibus verbis : S? quis
+          <lb ed="#P" n="101"/>putat sereligiosum esse, non reframans linguam
+          <lb ed="#P" n="102"/>suam, sed seducens cor suum, Intjus vana est
+          <lb ed="#P" n="103"/>religio. Ibi enim religiosum appellat non a sola
+          <lb ed="#P" n="104"/>virtute religionis, ut constat, quia non fraenare
+          <lb ed="#P" n="105"/>linguam non est contra specialem virtutem,
+          <lb ed="#P" n="106"/>sed contra sanctitatem, ut complectitur 
+          om<lb break="no" ed="#P" n="107"/>nem virtutem, et consequenter veram 
+          profes<lb break="no" ed="#P" n="108"/>sionem religiosam. Contrariam ergo 
+          professio<lb break="no" ed="#P" n="109"/>nem vocat vanam religionem, cui veram 
+          op<lb break="no" ed="#P" n="110"/>ponit, cum subjungit : Meligio munda, etc.
+          <pb ed="#P" n="32"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Quae profecto munda et immaculata erit,
+          <lb ed="#P" n="2"/>etiamsi illi actus visitandi pupillos non fiant
+          <lb ed="#P" n="3"/>ex imperio peculiaris virtutis religionis, sed
+          <lb ed="#P" n="4"/>ex propriis virtutibus. Potest autem hoc 
+          in<lb break="no" ed="#P" n="5"/>telligi, vel de professione religiosa, ut dicit
+          <lb ed="#P" n="6"/>statum perfectionis ; quomodo dixit Euseb., in
+          <lb ed="#P" n="7"/>Vita Hieron. : Sacerdos et monachus sine 
+          mi<lb break="no" ed="#P" n="8"/>sericordia, navis est in medio pelagi undique
+          <lb ed="#P" n="9"/>perforata ; sunt li monachi solo habitu et 
+          no<lb break="no" ed="#P" n="10"/>mine, quorum cana est religio. Vel magis ad
+          <lb ed="#P" n="11"/>mentem Jacobi intelligi potest de religione
+          <lb ed="#P" n="12"/>christiana; ac si dicat, non esse solidum, ac
+          <lb ed="#P" n="13"/>bonum christianum , qui linguam non 
+          mode<lb break="no" ed="#P" n="14"/>ratur, neque opera misericordiae exercet. Et
+          <lb ed="#P" n="15"/>hanc esse Jacobi sententiam, dixit Abbas
+          <lb ed="#P" n="16"/>Isaias, orat. 21 de Pentec., tom. 2 Bibl.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

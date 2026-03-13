@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 48</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 48</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="905"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k22653"><!-- t3-l4c48 -->
+        <head>Caput 48</head>
+        <head type="question-title">An exactiones temporalium pro spiritualibus consuetudine possint honestari, ita ut propter solam illam a labe simoniae conventionalis excusentur?</head>
+        <p>
+          <lb ed="#P" n="65"/>CAPUT XLVIII.
+          <lb ed="#P" n="66"/>AN EXACTIONES TEMPORALIUM PRO SPIRITUALIBUS
+          <lb ed="#P" n="67"/>CONSUETUDINE POSSINT HONESTARI, ITA UT
+          <lb ed="#P" n="68"/>PROPTER SOLAM ILLAM A LABE SIMONIAE 
+          CON<lb break="no" ed="#P" n="69"/>VENTIONALIS EXCUSENTUR?
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>1. Explicatur difficultas.— Ut intelligatur
+          <lb ed="#P" n="71"/>quid in hoc puncto possit habere difficultatem,
+          <lb ed="#P" n="72"/>suppono primo, nulla consuetudine introduci
+          <lb ed="#P" n="73"/>posse, ut licitum sit dare temporale pro 
+          spiri<lb break="no" ed="#P" n="74"/>tuali per modum pretii. Hoc per seest evidens,
+          <lb ed="#P" n="75"/>quia illud est intrinsece malum, et contra jus
+          <lb ed="#P" n="76"/>divinum ; ergo nulla consuetudo potest 
+          con<lb break="no" ed="#P" n="77"/>trarium inducere aut honestare. Et hoc 
+          con<lb break="no" ed="#P" n="78"/>firmant a fortiori multa jura, quae similes
+          <lb ed="#P" n="79"/>consuetudines vel etiam minus malas 
+          repro<lb break="no" ed="#P" n="80"/>bant tanquam corruptelas, quae jura paulo
+          <lb ed="#P" n="81"/>inferius indicabimus. Suppono secundo ita esse
+          <lb ed="#P" n="82"/>licitum accipere aliquid temporale pro 
+          spiri<lb break="no" ed="#P" n="83"/>tuali per modum stipendii sustentationis, ut
+          <lb ed="#P" n="84"/>ad honestandam talem receptionem, vel 
+          pe<lb break="no" ed="#P" n="85"/>titionem, nulla consuetudo necessaria sit, nec
+          <lb ed="#P" n="86"/>ab illa pendeat. Quia jus ipsum divinum non
+          <lb ed="#P" n="87"/>solum hoc approbat, sed etiam praecipit ; ergo
+          <lb ed="#P" n="88"/>in hoc nihil potest operari consuetudo. sed ad
+          <lb ed="#P" n="89"/>summum poterit deservire vel ad tollendam
+          <lb ed="#P" n="90"/>omnem suspicionem, quia consuetudo declarat
+          <lb ed="#P" n="91"/>illud peti ut stipendium justum, et non ut
+          <lb ed="#P" n="92"/>pretium , vel ad derogandum alicui 
+          prohibi<lb break="no" ed="#P" n="93"/>tioni mere positivae, si in modo exigendi 
+          sti<lb break="no" ed="#P" n="94"/>pendium lata sit; sicut aliqui dixerunt de his
+          <lb ed="#P" n="95"/>clericis, qui absque obligatione officii 
+          minis<lb break="no" ed="#P" n="96"/>trant, quoad faciendum pactum de stipendio.
+          <lb ed="#P" n="97"/>Licet enim exemplum in re verum non sit,
+          <lb ed="#P" n="98"/>ut supra vidimus, non repugnat tamen ita
+          <lb ed="#P" n="99"/>fieri. Quocirca proposita quaestionon habet 
+          lo<lb break="no" ed="#P" n="100"/>cum in his simplicibus ministris; quia illi,
+          <lb ed="#P" n="101"/>quod ad jus attinet, nihil plus possunt ratione
+          <lb ed="#P" n="102"/>consuetudinis , quam jure naturae possint:
+          <lb ed="#P" n="103"/>sed, quod spectat ad factum, poterunt rationc
+          <lb ed="#P" n="104"/>consuetudinis plus vel minus exigere, et in
+          <lb ed="#P" n="105"/>modo exigendi poterunt etiam toleratam 
+          con<lb break="no" ed="#P" n="106"/>suetudinem sequi, quia in his nihil circa illos
+          <lb ed="#P" n="107"/>jus commune disposuit.
+        </p>
+        <p>
+          <pb ed="#P" n="906"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>2. Versatur ergo quaestio de his qui ex 
+          offi<lb break="no" ed="#P" n="2"/>cio spiritualia ministrant, de quibus suppono,
+          <lb ed="#P" n="3"/>tertio, posse per laudabilem consuetudinem
+          <lb ed="#P" n="4"/>acquirere jus ad aliquas oblationes fidelium
+          <lb ed="#P" n="5"/>extraordinarias, id est, non pertinentes ad
+          <lb ed="#P" n="6"/>iura decimarum, vel alios stabiles redditus
+          <lb ed="#P" n="7"/>ecclesiarum aut heneficiorum. Id constat ex
+          <lb ed="#P" n="8"/>capit. 44d Apostolicam, de Simonia. In 
+          ea<lb break="no" ed="#P" n="9"/>rum tamen exactione servanda est forma 
+          prae<lb break="no" ed="#P" n="10"/>scripta, ut tetigi capit. praeced., et latius in
+          <lb ed="#P" n="11"/>superioribus. Unde hoc modo clarum est,
+          <lb ed="#P" n="12"/>consuetudine bhonestari petitionem aliquam
+          <lb ed="#P" n="13"/>temporalis doni pro administratione 
+          spiritua<lb break="no" ed="#P" n="14"/>lium, quae sine consuetudine honeste non 
+          fie<lb break="no" ed="#P" n="15"/>ret, et labem vel suspicionem simoniae 
+          habe<lb break="no" ed="#P" n="16"/>ret; hoc autem non fit per talem 
+          consuetu<lb break="no" ed="#P" n="17"/>dinem mutando jus divinum, vel humanum,
+          <lb ed="#P" n="18"/>sed solum mutando materiam juris, quia 
+          ni<lb break="no" ed="#P" n="19"/>mirum per consuetudinem fit debitum 
+          stipen<lb break="no" ed="#P" n="20"/>dium, quod absque consuetudine non fuisset.
+          <lb ed="#P" n="21"/>Habet autem locum haec consuetudo citra
+          <lb ed="#P" n="22"/>omnem controversiam in oblationibus 
+          volun<lb break="no" ed="#P" n="23"/>tariis, quae ad divinum cultum fiunt, vel 
+          im<lb break="no" ed="#P" n="24"/>mediate et directe, ut in his quae ad altare
+          <lb ed="#P" n="25"/>ofteruntur; vel ex relatione offerentium 
+          me<lb break="no" ed="#P" n="26"/>diate, ut in his quae ad sustentationem 
+          mi<lb break="no" ed="#P" n="27"/>nistrorum, vel sumptus templorum a fidelibus
+          <lb ed="#P" n="28"/>sponte offeruntur. Quae omnia per se satis
+          <lb ed="#P" n="29"/>constant ex d. c. Ad Apostolicam, et ex supra
+          <lb ed="#P" n="30"/>dictis de his oblationibus.
+        </p>
+        <p>
+          <lb ed="#P" n="31"/>3. Dubium principale. — Discrimen inter
+          <lb ed="#P" n="32"/>consuetudinem et statutum. — Difficultas ergo
+          <lb ed="#P" n="33"/>tantum superest, an aliae exactiones 
+          tempora<lb break="no" ed="#P" n="34"/>lium pro spiritualibus actibus possint 
+          consue<lb break="no" ed="#P" n="35"/>tudime honestari ; non quidem mutando jus
+          <lb ed="#P" n="36"/>divinum, vel in illo dispensando, quod fieri
+          <lb ed="#P" n="37"/>non poterit; sed vel mutando objectum illius
+          <lb ed="#P" n="38"/>juris, et faciendo ut sit stipendium debitum,
+          <lb ed="#P" n="39"/>id quod non erat, vel certe derogando in ea
+          <lb ed="#P" n="40"/>parte juri humano, si in aliquo obstiterit. 
+          Ra<lb break="no" ed="#P" n="41"/>tio autem difficultatis est, primo, quia per
+          <lb ed="#P" n="42"/>consuetudinem possunt abrogari humanae 
+          le<lb break="no" ed="#P" n="43"/>ges: illa ergo omnia, qua in hac materia
+          <lb ed="#P" n="44"/>tantum sunt prohibita jure humano, possunt
+          <lb ed="#P" n="45"/>per contrariam consuetudinenm licita fieri. In
+          <lb ed="#P" n="46"/>quo est magna difterentia inter 
+          consuetudi<lb break="no" ed="#P" n="47"/>nem et statutum, etiamsi utrumque sit unius
+          <lb ed="#P" n="48"/>provincia tantum vel episcopatus , quod per
+          <lb ed="#P" n="49"/>statutum non potest derogari juri communi,
+          <lb ed="#P" n="50"/>per consuetudinem vero potest. Et ratio 
+          diffe<lb break="no" ed="#P" n="51"/>rentiae est, quia statutum fit sola inferioris
+          <lb ed="#P" n="52"/>potestate, et ideo non potest praevalere contra
+          <lb ed="#P" n="53"/>legem superioris; consuetudo vero supponitur
+          <lb ed="#P" n="54"/>nota superiori, et per illum approbata, 
+          sal<lb break="no" ed="#P" n="55"/>tem tacite, et ideo in tali loco potest derogare
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illius legi. Unde si statutum particulare esset
+          <lb ed="#P" n="57"/>approbatum per Pontificem, tunc esset 
+          aequi<lb break="no" ed="#P" n="58"/>paratio. Secundo, piae consuetudines in hac
+          <lb ed="#P" n="59"/>materia observandae sunt, juxta caput Ad
+          <lb ed="#P" n="60"/>Apostolicam, de Simon. ; sed non repugnat has
+          <lb ed="#P" n="61"/>exactiones iemporalium munerum pro 
+          spiri<lb break="no" ed="#P" n="62"/>tualibus ministeriis esse pias, quia possunt
+          <lb ed="#P" n="63"/>peti non in pretium, sed in subsidium; ergo
+          <lb ed="#P" n="64"/>si piae fuerint, servandae erunt. Tertio, hoc
+          <lb ed="#P" n="65"/>maxime confirmat Concilium Trident., sess.
+          <lb ed="#P" n="66"/>24. cap. 14, nam supponit alhiquas 
+          consuetu<lb break="no" ed="#P" n="67"/>dines hujusmodi esse pravas, et alias pias; et
+          <lb ed="#P" n="68"/>ideo praecipit examinari et discerni, ut pie
+          <lb ed="#P" n="69"/>retineantur, aliae auferantur; ergo sunt aliquae
+          <lb ed="#P" n="70"/>consuetudines, quae possunt hanc exactionem
+          <lb ed="#P" n="71"/>honestare.
+        </p>
+        <p>
+          <lb ed="#P" n="72"/>4. In contrarium vero est, quia consuetudo
+          <lb ed="#P" n="73"/>reprobata per legem non potest vires 
+          resume<lb break="no" ed="#P" n="74"/>re, nec dare jus, nec praevalere contra legem,
+          <lb ed="#P" n="75"/>ut late docet Covar. plures referens, libr. 3
+          <lb ed="#P" n="76"/>Var., cap. 13, numer. 4; Greg. Lop., in Leg.
+          <lb ed="#P" n="77"/>3, titul. 2, part. prima ; Glos. 6, et Navarrus
+          <lb ed="#P" n="78"/>in Comment. de Spoli., S 14, num. 8. Et 
+          ra<lb break="no" ed="#P" n="79"/>tio est, quia tunc consuetudo dicitur reprobata
+          <lb ed="#P" n="80"/>per legem, quando non solum simpliciter 
+          pro<lb break="no" ed="#P" n="81"/>hibetur, sed etiam prohibetur quia ipsa est
+          <lb ed="#P" n="82"/>per se iniqua, et bonis moribus contraria ;
+          <lb ed="#P" n="83"/>sed in praesenti materia leges canonicae ita
+          <lb ed="#P" n="84"/>prohibent has exactiones, ut consuetudines
+          <lb ed="#P" n="85"/>illarum omnino reprobent ut malas; ergo
+          <lb ed="#P" n="86"/>non possunt praevalere, aut dare jus. Minor
+          <lb ed="#P" n="87"/>patet ex capite IVon satis, ibi: Nec sub 
+          obten<lb break="no" ed="#P" n="88"/>tu cujusquam consuetudinis ; et additur ratio:
+          <lb ed="#P" n="89"/>Quia diuturnitas temporis non dimimnt 
+          pec<lb break="no" ed="#P" n="90"/>catum, sed auget. Quae ratio supponit 
+          consue<lb break="no" ed="#P" n="91"/>tudinem esse de re per se mala, alias potuisset
+          <lb ed="#P" n="92"/>consuetudine purgari. Idem in c. Cum in 
+          Ec<lb break="no" ed="#P" n="93"/>clesie, et cap. In tantum, ibi: Pravam illam
+          <lb ed="#P" n="94"/>consuetudinem. etc. Et clarius in capite Sicut
+          <lb ed="#P" n="95"/>pro certo, ibi: Tantum abolere volentes 
+          abu<lb break="no" ed="#P" n="96"/>sum , consuetudinem hujusmodi (que magis
+          <lb ed="#P" n="97"/>dicenda est corruptela) penitus reprobantes.
+          <lb ed="#P" n="98"/>Et confirmantur haec valde ex capit. ultim. de
+          <lb ed="#P" n="99"/>Consuet., ubi his modis explicatur, quando
+          <lb ed="#P" n="100"/>consuetudo per se mala sit, et juri divino 
+          con<lb break="no" ed="#P" n="101"/>traria. Videnturque haec jura in hoc fundari,
+          <lb ed="#P" n="102"/>quod talis exactio est injusta , cum Ecclesia
+          <lb ed="#P" n="103"/>deputaverit sufficientes redditus pro 
+          susten<lb break="no" ed="#P" n="104"/>tandis his ministris, omnibusqnue oneribus 
+          eo<lb break="no" ed="#P" n="105"/>rum ; et ideo non caret vitio, aut vehementi
+          <lb ed="#P" n="106"/>suspicione simoniae.
+        </p>
+        <p>
+          <lb ed="#P" n="107"/>5. In quo Doctores conveniant. — W hoc
+          <lb ed="#P" n="108"/>puncto Doctores conveniunt, non omnem 
+          con<lb break="no" ed="#P" n="109"/>suetudinem in hac parte reprobandam esse,
+          <lb ed="#P" n="110"/>quamvis saepe iniqua esse possit, ct suspicio-
+          <pb ed="#P" n="907"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem habere possit simoniae, saltem in 
+          eccle<lb break="no" ed="#P" n="2"/>siastico foro, nisi ex circumstantiis et 
+          adjunc<lb break="no" ed="#P" n="3"/>tis praesumptio purgetur. Hanc sententiam
+          <lb ed="#P" n="4"/>communiter docent auctores statim referendi.
+          <lb ed="#P" n="5"/>Et videtur convinci rationibus pro utraque
+          <lb ed="#P" n="6"/>parte factis, et maxime auctoritate Concilii
+          <lb ed="#P" n="7"/>Tridentini. Ratione etiam declarari potest,
+          <lb ed="#P" n="8"/>quia materia talium consuetudinum non est
+          <lb ed="#P" n="9"/>intrinsece mala, quia in illa nihi! aliud est
+          <lb ed="#P" n="10"/>intrinsece malum, nisi vel accipere temporale
+          <lb ed="#P" n="11"/>ut pretium rci spiritualis, quod est simonia;
+          <lb ed="#P" n="12"/>vel exigere non debitum tanquam debitum,
+          <lb ed="#P" n="13"/>qudd est injustitia ; sed neutrum est 
+          intrin<lb break="no" ed="#P" n="14"/>sece connexum cum tali actione ; non est ergo
+          <lb ed="#P" n="15"/>intrinsece mala. Minor quoad priorem partem
+          <lb ed="#P" n="16"/>probatur, quia potest temporale peti non ut
+          <lb ed="#P" n="17"/>pretium, sed ut subsidium sustentationis, vel
+          <lb ed="#P" n="18"/>interdum pro expensis quas fieri contingit. Et
+          <lb ed="#P" n="19"/>similiter probatur quoad alteram partem, quia
+          <lb ed="#P" n="20"/>utroque titulo accidere potest, ut illud quasi
+          <lb ed="#P" n="21"/>tributum imponatur juste ab habente 
+          potesta<lb break="no" ed="#P" n="22"/>tem. Hinc ergo fit ut talis consuetudo saepe 
+          pos<lb break="no" ed="#P" n="23"/>sit esse iniqua, saltem ex injustitia, et ex
+          <lb ed="#P" n="24"/>turpi avaritia (quae in ecclesiasticis personis
+          <lb ed="#P" n="25"/>maxime detestanda est), et consequenter 
+          prop<lb break="no" ed="#P" n="26"/>ter speciem simoniae, et vehementem 
+          suspi<lb break="no" ed="#P" n="27"/>cionem quam illae radices inducunt. Et 
+          auge<lb break="no" ed="#P" n="28"/>tur valde ex repugnantia jurium, quando 
+          con<lb break="no" ed="#P" n="29"/>tingit consuetudinem versari in eisdem rebus,
+          <lb ed="#P" n="30"/>seu actionibus, de quibus prohibitiones jurium
+          <lb ed="#P" n="31"/>loquuntur. Nihilominus tamen non repugnat
+          <lb ed="#P" n="32"/>tales occuirere circumstantias, quae ostendant
+          <lb ed="#P" n="33"/>consuetudinem justo titulo et ratione esse 
+          fun<lb break="no" ed="#P" n="34"/>datam, et consequenter omni simoniae 
+          suspicio<lb break="no" ed="#P" n="35"/>ne carere. Cui etiam favet, quod similes 
+          con<lb break="no" ed="#P" n="36"/>suetudines non introducuntur nec 
+          conservan<lb break="no" ed="#P" n="37"/>tur sine auctoritate praelatorum Ecclesiae , de
+          <lb ed="#P" n="38"/>quibus recte semper est praesumendum , nisi
+          <lb ed="#P" n="39"/>contrarium constet ; ergo non possunt in 
+          uni<lb break="no" ed="#P" n="40"/>versum damnari tales consuetvdines, 
+          argu<lb break="no" ed="#P" n="41"/>mento capitis Mos antiquus, cum aliis, 65 
+          dis<lb break="no" ed="#P" n="42"/>tinct.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>6. Duo signa.— Alud signum.— Difficultas
+          <lb ed="#P" n="44"/>vero est in explicando quae consuetudo, in 
+          prae<lb break="no" ed="#P" n="45"/>senti materia, pia et honesta judicanda sit,
+          <lb ed="#P" n="46"/>qua vero reprobanda. Ad hoc respondet
+          <lb ed="#P" n="47"/>Ugolin., Tab. prima, capit. 9, S 11, numero
+          <lb ed="#P" n="48"/>secundo, illam consuetuuinem esso 
+          laudabi<lb break="no" ed="#P" n="49"/>lem, quae simoniam non inducit, nec 
+          simo<lb break="no" ed="#P" n="50"/>niam sapit, intelligit etiam nec sordidam 
+          ava<lb break="no" ed="#P" n="51"/>ritiam aut injustitiam. Verumtamen hoc est
+          <lb ed="#P" n="52"/>quod inquirimus, quaudo consuetudo censeri
+          <lb ed="#P" n="53"/>poterit immunis ab his sordibus, et qualiter
+          <lb ed="#P" n="54"/>discerni poterit. Ad hoc ponit idem auctor
+          <lb ed="#P" n="55"/>alia duo signa in S 10, numer. octavo. Unum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est, tune consuetudinem aliquid accipiendi
+          <lb ed="#P" n="57"/>esse liberam a suspicione simoniae, quando
+          <lb ed="#P" n="58"/>sine consuetudine posset absque simoniae vitio
+          <lb ed="#P" n="59"/>vel suspicione idem dari in eadem occasione,
+          <lb ed="#P" n="60"/>seu pro eodem ministerio, et accipi recta
+          <lb ed="#P" n="61"/>intentione. Verumtamen haec regula esset 
+          op<lb break="no" ed="#P" n="62"/>tima ad discernendas consuetudines 
+          lauda<lb break="no" ed="#P" n="63"/>biles, quae introductae censentur ex spontanea
+          <lb ed="#P" n="64"/>voluntate offerentium, de quibus jam diximus;
+          <lb ed="#P" n="65"/>hic autem de illis agimus, quae per viam 
+          tri<lb break="no" ed="#P" n="66"/>buti impositi et exactionis, semper et ab 
+          ini<lb break="no" ed="#P" n="67"/>tio impositae fuerunt. Et ideo non potest etiam
+          <lb ed="#P" n="68"/>ad hunc casum aptari secundum signum,
+          <lb ed="#P" n="69"/>quo etiam frequenter Canonistae utuntur, 
+          dis<lb break="no" ed="#P" n="70"/>tinguentes laudabiles consuetudines a non
+          <lb ed="#P" n="71"/>laudabilibus, ex eo quod priores a pia et 
+          reli<lb break="no" ed="#P" n="72"/>giosa dantium liberalitate originem ducunt ;
+          <lb ed="#P" n="73"/>posteriores vero ab exactione et necessitate.
+          <lb ed="#P" n="74"/>Ut tradunt Glossa, Hostiensis, Abbas, Felin.,
+          <lb ed="#P" n="75"/>Socin. et alii in cap. Ad Apostolicam, et cap.
+          <lb ed="#P" n="76"/>Suam de Simon. et in cap. Cum Maj. de
+          <lb ed="#P" n="77"/>Const., et favet etiam divus Thomas, dicta
+          <lb ed="#P" n="78"/>quaestion. 100, art. 3; Soto, quaestione nona,
+          <lb ed="#P" n="79"/>art. 9; Anton., dicto cap. 5, S 22; 
+          Sylves<lb break="no" ed="#P" n="80"/>ter, quaestione 1. Haec enim distinctio optime
+          <lb ed="#P" n="81"/>cccommodatur ad eas consuetudines, quae sunt
+          <lb ed="#P" n="82"/>de oblationibus piis et sacris, et directe ad
+          <lb ed="#P" n="83"/>divinum cultum ordinatis; quae quidem 
+          ha<lb break="no" ed="#P" n="84"/>bere debent spontaneam origipem, ut docuit
+          <lb ed="#P" n="85"/>Divus Thomas, quaestione 86, articulo primo,
+          <lb ed="#P" n="86"/>et supponitur in dicto cap. Ad Apostolicam,
+          <lb ed="#P" n="87"/>et regulariter praesumuntur illam habere, nisi
+          <lb ed="#P" n="88"/>certis indiciis oppositum constet. Nunc vero
+          <lb ed="#P" n="89"/>non de his consuetudinibus agimus, sed de
+          <lb ed="#P" n="90"/>ills quae meram exactionem prae se ferunt
+          <lb ed="#P" n="91"/>et eamdem habuisse originem dignoscuntur.
+          <lb ed="#P" n="92"/>De his enim loquitur aperte Concilium Trid.
+          <lb ed="#P" n="93"/>Nam quae solvi solent in electione, 
+          praesenta<lb break="no" ed="#P" n="94"/>tione, nominatione, institutione, 
+          confirmatio<lb break="no" ed="#P" n="95"/>ne, et collatione, et similibus, de quibus 
+          Con<lb break="no" ed="#P" n="96"/>cilium loquitur, non solent solvi spontanee,
+          <lb ed="#P" n="97"/>nec prae se ferunt tale initium; et tamen de
+          <lb ed="#P" n="98"/>eisdem jubet Episcopis, ut de consuetudinitus
+          <lb ed="#P" n="99"/>supra dictis cognoscant. Et inter eas suppcnit
+          <lb ed="#P" n="100"/>esse posse aliquas laudabiics, quae excipiendae
+          <lb ed="#P" n="101"/>sint, aliis reprobatis.
+        </p>
+        <p>
+          <lb ed="#P" n="102"/>7. Aliter etiam videntur iiem Canonistae
+          <lb ed="#P" n="103"/>inter has consuetudines ex fiuc illarum 
+          su<lb break="no" ed="#P" n="104"/>mere distinctionem. Nam interdum tales 
+          exa<lb break="no" ed="#P" n="105"/>ctiones fiunt ad pios usus, ut ad 
+          subventio<lb break="no" ed="#P" n="106"/>nem pauperum, ad ornatum ecclesiae, et 
+          simi<lb break="no" ed="#P" n="107"/>les ; interdum ad solam utilitatem 
+          extorquen<lb break="no" ed="#P" n="108"/>tium: priores censent esse pias consuetudines;
+          <lb ed="#P" n="109"/>posteriores, pravas et detestandas; et ideo
+          <lb ed="#P" n="110"/>priores non reprobari et posse praevalere con-
+          <pb ed="#P" n="908"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tra ipsum jus ; posteriores autem minime, sed
+          <lb ed="#P" n="2"/>potius esse reprobatas ipso jure. Ita fere 
+          Pa<lb break="no" ed="#P" n="3"/>normitanus, Felin. et alii, in dicto cap. 
+          Jaco<lb break="no" ed="#P" n="4"/>Dus, et in dicto cap. Cum Major, et Praepos.,
+          <lb ed="#P" n="5"/>in dicto cap. Ex multis, prima, quaestione 
+          se<lb break="no" ed="#P" n="6"/>cunda, et idem sentit Sylvester, quaestione 13,
+          <lb ed="#P" n="7"/>verb. Quintum ; nam sequitur Panormitanum.
+          <lb ed="#P" n="8"/>Et quainvis tandem non videatur probare 
+          dis<lb break="no" ed="#P" n="9"/>üunctionem, intelligit quoad statutum, non
+          <lb ed="#P" n="10"/>quoad consuetudinem. Ita enim 
+          Panormita<lb break="no" ed="#P" n="11"/>nus distinxit. Et illam distinctioncm esse 
+          com<lb break="no" ed="#P" n="12"/>muniter probatam docet Navarrus, dicto cap.
+          <lb ed="#P" n="13"/>23, numer. 102, verb. Undecimo. Ubi etiam
+          <lb ed="#P" n="14"/>sentit Concilium approbasse illum modum dis
+          <lb ed="#P" n="15"/>tinguendi inter laudabiles et reprehensibiles
+          <lb ed="#P" n="16"/>consuetudines. Et idem habet Cons. 18, de
+          <lb ed="#P" n="17"/>Ponit. et remis., numero 5; et Ugolin. supra,
+          <lb ed="#P" n="18"/>et colligitur ex illis verbis: Ut qwecumque 
+          lhnu<lb break="no" ed="#P" n="19"/>jusmodi in pios usus non convertuntur. Et ratio
+          <lb ed="#P" n="20"/>reddi potest, quia si temporale petitur ad pias
+          <lb ed="#P" n="21"/>causas, eo ipso spirituale fit, et ita tollitur 
+          la<lb break="no" ed="#P" n="22"/>bes simoniae , nam spirituale pro spirituali
+          <lb ed="#P" n="23"/>commutatur; si autem petatur ad propriam
+          <lb ed="#P" n="24"/>utilitatem, manet pure temporale. 
+          Nihilomi<lb break="no" ed="#P" n="25"/>nus distinctio, nisi ei aliquid addatur, non 
+          vi<lb break="no" ed="#P" n="26"/>detur satisfacere. Primo, quia dicta jura 
+          indis<lb break="no" ed="#P" n="27"/>tncte loquuntur, et damnant omnem 
+          exactio<lb break="no" ed="#P" n="28"/>nem, et in ea ponunt rationem improbitatis,
+          <lb ed="#P" n="29"/>et non tantum in fine ad quem petuntur
+          <lb ed="#P" n="30"/>temporalia,quia illa exactio prae se fert 
+          simo<lb break="no" ed="#P" n="31"/>niam, vel speciem ejus, quae cavenda 
+          dici<lb break="no" ed="#P" n="32"/>tur in dicto cap. 7n tantum, et cap. 
+          Audivi<lb break="no" ed="#P" n="33"/>mus. Secundo, quia in dicto cap. Ez multis,
+          <lb ed="#P" n="34"/>in particulari reprobantur exactiones etiam
+          <lb ed="#P" n="35"/>ad pios usus. Tertio, addi potest ratio, quia ut
+          <lb ed="#P" n="36"/>sit licita exactio, quae tanquam debita et 
+          ne<lb break="no" ed="#P" n="37"/>cessario solvenda postulatur, non satis est
+          <lb ed="#P" n="38"/>quod ad pium usum postuletur, sed oportet
+          <lb ed="#P" n="39"/>supponere justum titulum petendi, ut probat
+          <lb ed="#P" n="40"/>aperte dictum cap. Ea multis; unde licet
+          <lb ed="#P" n="41"/>Concilium Trid. judicet, exactiones ad pios
+          <lb ed="#P" n="42"/>usus facilius posse praesumi justas, non tamen
+          <lb ed="#P" n="43"/>dicit id sufficere. Et ratio reddi potest, quia
+          <lb ed="#P" n="44"/>neno potest juste cogi ad expendendum in
+          <lb ed="#P" n="45"/>pios usus, quae non tenetur; nec consuetudo
+          <lb ed="#P" n="46"/>sola sine alio titulo potest hoc justificare, quia
+          <lb ed="#P" n="47"/>est contra jus naturale, et contra justitium. E
+          <lb ed="#P" n="48"/>contrario etiam, quo petitio fiat ad propriam
+          <lb ed="#P" n="49"/>utilitatem petentium, non videtur esse sufli
+          <lb ed="#P" n="50"/>ciens signum consuetudinis ita prava, ut
+          <lb ed="#P" n="51"/>reprobauda statim sit tanquam corruptela ,
+          <lb ed="#P" n="52"/>quia potest illa utilitas esse rationabilis ; ut
+          <lb ed="#P" n="53"/>consuetudo introducta sit propter 
+          necessita<lb break="no" ed="#P" n="54"/>tem ministrorum, vel propter aliquem 
+          extra<lb break="no" ed="#P" n="55"/>ordinarium laborem, vel per modum cujus-
+          <cb ed="#P" n="b"/>.
+          <lb ed="#P" n="56"/>dam distributionis, ut in tali actu assistant, et
+          <lb ed="#P" n="57"/>ad illum libentius invitentur.
+        </p>
+        <p>
+          <lb ed="#P" n="58"/>8. Dico ergo consuetudinem hanc, ut juri
+          <lb ed="#P" n="59"/>contrariam, nunquam posse honestari, nec
+          <lb ed="#P" n="60"/>contra illud praevalere ad derogandum ipsum;
+          <lb ed="#P" n="61"/>posse tamen tot circumstantiis et 
+          conditioni<lb break="no" ed="#P" n="62"/>bus vestiri, ut non sit juri contraria, sed 
+          ho<lb break="no" ed="#P" n="63"/>nesta, ideoque retineri possit, non quia 
+          dero<lb break="no" ed="#P" n="64"/>get juri ecclesiastico, sed quia non est contra
+          <lb ed="#P" n="65"/>illud. Haec resolutio sequitur ex priori 
+          asser<lb break="no" ed="#P" n="66"/>tione, communi sententia probata. Et prior
+          <lb ed="#P" n="67"/>pars ostenditur sufficienter rationibus priori
+          <lb ed="#P" n="68"/>loco supra positis. Et declaratur in hunc 
+          mo<lb break="no" ed="#P" n="69"/>dum, nam jura supra citata non prohibent in
+          <lb ed="#P" n="70"/>hac parte, nisi vel id quod per se malum est,
+          <lb ed="#P" n="71"/>vel quod magnam habet mali speciem et 
+          sus<lb break="no" ed="#P" n="72"/>picionem. Quandiu ergo consuetudo fuerit de
+          <lb ed="#P" n="73"/>re per se mala, sive ratione simoniae, sive 
+          ra<lb break="no" ed="#P" n="74"/>tione inustitiae, clarum est non posse 
+          praevale<lb break="no" ed="#P" n="75"/>re. Idem autem est quandiu habuerit mali 
+          sus<lb break="no" ed="#P" n="76"/>picionem, et speciem simoniae, vel turpis 
+          ava<lb break="no" ed="#P" n="77"/>ritiae in materia sacra et spirituali ; nam 
+          me<lb break="no" ed="#P" n="78"/>rito ecclesiasticum jus talem consuetudinem
+          <lb ed="#P" n="79"/>simpliciter et absolute reprobat, tam in 
+          praete<lb break="no" ed="#P" n="80"/>ritum quam in futurum ; quia, licet non 
+          vi<lb break="no" ed="#P" n="81"/>deatur tam intrinsece mala ratione injustitiae,
+          <lb ed="#P" n="82"/>vel simoniae, nihilominus tamen, ratione 
+          scan<lb break="no" ed="#P" n="83"/>dali et mali exempli, et cujusdam 
+          irrehgiosi<lb break="no" ed="#P" n="84"/>tatis, habet quamdam intrinsecam 
+          deformita<lb break="no" ed="#P" n="85"/>tem, ratione cujus potest absolute et omnino
+          <lb ed="#P" n="86"/>prohiberi, et constitui in ratione sacrilegii, et
+          <lb ed="#P" n="87"/>simoniae ita prohibitae, ut nunquam possit 
+          ho<lb break="no" ed="#P" n="88"/>nestari, si eamdem suspicionem et speciem
+          <lb ed="#P" n="89"/>mali secundum se retineat. Hoc ergo modo,
+          <lb ed="#P" n="90"/>verissimum est consuetudinem, ut juri 
+          con<lb break="no" ed="#P" n="91"/>trariam, nunquam posse praevalere.
+        </p>
+        <p>
+          <lb ed="#P" n="92"/>9. Conclusio. — Quid requiratur ad 
+          bonita<lb break="no" ed="#P" n="93"/>tem consuetudnum circa hoc. —Atque hinc
+          <lb ed="#P" n="94"/>concluditur, ad honestandam consuetudinemn
+          <lb ed="#P" n="95"/>vel materiam ejus, necessarium esse ut tales
+          <lb ed="#P" n="96"/>conditiones ac circumstantiae occurrant, quae
+          <lb ed="#P" n="97"/>non solum veram malitiam ex objecto 
+          aufe<lb break="no" ed="#P" n="98"/>rant, sed etiam speciem et suspicionem mali
+          <lb ed="#P" n="99"/>sufficienter purgent. Si enim consuetudo has
+          <lb ed="#P" n="100"/>duas proprietates habuerit, jam non erit 
+          repro<lb break="no" ed="#P" n="101"/>bata per legem, quia non est cur reprobetur,
+          <lb ed="#P" n="102"/>ut priora etiam argumenta ostendunt; si 
+          au<lb break="no" ed="#P" n="103"/>tem aliqua illarum caruerit, et malitiam vel
+          <lb ed="#P" n="104"/>speciem ejus retinuerit, semper erit 
+          reproba<lb break="no" ed="#P" n="105"/>ta, ut posteriora etiam argumenta 
+          convin<lb break="no" ed="#P" n="106"/>cunt, et aperte sensit Concilium Trid., dicto
+          <lb ed="#P" n="107"/>cap. 14, ibi: Zngressus eos, qui simouiace 
+          la<lb break="no" ed="#P" n="108"/>bis, aut sordide avaritie suspicionem habent,
+          <lb ed="#P" n="109"/>fieri non per nittant ; supponit ergo sufticere
+          <lb ed="#P" n="110"/>talem suspicionem, ut talis consuetudo repro-
+          <pb ed="#P" n="909"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>banda sit. Et e converso, cum haec ponatur
+          <lb ed="#P" n="2"/>veluti adaequata causa reprobationis, cessante
+          <lb ed="#P" n="3"/>illa, non erit consuetudo ex reprobatis a 
+          Cen<lb break="no" ed="#P" n="4"/>cilio, et consequenter neque a jure communi,
+          <lb ed="#P" n="5"/>quod ipsummet Concilium paulo inferius 
+          reno<lb break="no" ed="#P" n="6"/>vat. Quod etiam confirmant verba ejusdem 
+          Con<lb break="no" ed="#P" n="7"/>cilii, nam, facta exceptione laudabilium 
+          con<lb break="no" ed="#P" n="8"/>suctudinum, subjungit : Neliquas ut pravas ac
+          <lb ed="#P" n="9"/>scandalosas rejiciant et abloleant. Ergo excipit
+          <lb ed="#P" n="10"/>illas consuetudines, quae nec pravae sunt, nec
+          <lb ed="#P" n="11"/>scandalosa; tales autem sunt, quae non sunt
+          <lb ed="#P" n="12"/>per se malae, nec suspicionem mali habent; ergo
+          <lb ed="#P" n="13"/>quando has duas couditiones habuerint, 
+          reti<lb break="no" ed="#P" n="14"/>neri poterunt. Ut autem has duas conditiones
+          <lb ed="#P" n="15"/>habeant, vel habere praesumantur, tria 
+          viden<lb break="no" ed="#P" n="16"/>tur necessaria. Primum, ut petitio juste 
+          re<lb break="no" ed="#P" n="17"/>duci possit ad stipendii sustentationis 
+          debi<lb break="no" ed="#P" n="18"/>tum, non tantum ratione solius 
+          consuetudi<lb break="no" ed="#P" n="19"/>nis, sed etiam ratione suae originis; quia ni
+          <lb ed="#P" n="20"/>mirum e principio propter indigentiam 
+          minis<lb break="no" ed="#P" n="21"/>trorum coepit tale onus imponi; nam praeter
+          <lb ed="#P" n="22"/>hunc nullum alium invenio justum titulum,
+          <lb ed="#P" n="23"/>quo talis exactio ab illa injustitia et simonia,
+          <lb ed="#P" n="24"/>saltem praesumpta (etiam seclusa positiva 
+          pro<lb break="no" ed="#P" n="25"/>hibitione), excusari possit. Nam exactio ad
+          <lb ed="#P" n="26"/>pium opus, nisi credatur esse onus reale 
+          be<lb break="no" ed="#P" n="27"/>neficio impositum (ut esse aliquando potest,
+          <lb ed="#P" n="28"/>ut in super?oribus dixi). non potest juste 
+          im<lb break="no" ed="#P" n="29"/>poni personee, nisi reducatur ad levamen et
+          <lb ed="#P" n="30"/>subsidium ministrorum, quibus cura talium
+          <lb ed="#P" n="31"/>operum incumbit, nam aliter non est justa,
+          <lb ed="#P" n="32"/>et consequenter non caret specie simoniae. 
+          Lo<lb break="no" ed="#P" n="33"/>quor autem semper de exactione, quia in
+          <lb ed="#P" n="34"/>oblatione pia, quae spontaneam habeat 
+          origi<lb break="no" ed="#P" n="35"/>nem, secus est, ut dixi.
+        </p>
+        <p>
+          <lb ed="#P" n="36"/>10. Interrogatio expeditur.—bices: 
+          quomo<lb break="no" ed="#P" n="37"/>do poterit cognosci talis origo post 
+          invetera<lb break="no" ed="#P" n="38"/>tam consuetudinem ? Respondeo, imprimis ex
+          <lb ed="#P" n="39"/>materia subjecta posse satis verisimiliter 
+          con<lb break="no" ed="#P" n="40"/>Jectari, nam ordinarie non solent homines 
+          ta<lb break="no" ed="#P" n="41"/>lia munera sponte offerre, sed alqua 
+          necessi<lb break="no" ed="#P" n="42"/>tate coacti. Deinde adhibent Canonistae 
+          distinc<lb break="no" ed="#P" n="43"/>tionem aliam inter clericos et laicos, nam 
+          lai<lb break="no" ed="#P" n="44"/>ci solent sponte facere pias oblationes 
+          cleri<lb break="no" ed="#P" n="45"/>cis; et ideo quando consuctudo est laicorum
+          <lb ed="#P" n="46"/>in ordine ad clericos, praesumitur habere
+          <lb ed="#P" n="47"/>spontaneum initium ; clerici autem non solent
+          <lb ed="#P" n="48"/>! has oblationes voluntarias facerc aliis clericis,
+          <lb ed="#P" n="49"/>nec in ecclesiis, et ideo quando aliquid 
+          tem<lb break="no" ed="#P" n="50"/>porale pro spirituali conferunt ex 
+          consuetu<lb break="no" ed="#P" n="51"/>dine, signum est nec esse, nec fuisse uuiquam
+          <lb ed="#P" n="52"/>illam contributio..em spontaneam, sed 
+          impo<lb break="no" ed="#P" n="53"/>sitam. Quae conjectura formaliter intellecta
+          <lb ed="#P" n="54"/>probabilis est, licet uon sit universalis. Dico
+          <lb ed="#P" n="55"/>autcm formaliter, quia interdum clericus of-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ferre potest more laicorum, ut in funeribus.
+          <lb ed="#P" n="57"/>Dico etiam non esse universalem, quia etiam
+          <lb ed="#P" n="58"/>in Baptismo, et aliis sacramentis quae 
+          confe<lb break="no" ed="#P" n="59"/>runtur laicis, solent fieri interdum similes 
+          vio<lb break="no" ed="#P" n="60"/>lentae exactiones, quae in jure prohibentur, ut
+          <lb ed="#P" n="61"/>patet ex cap. Placuit, 2, et cap. 1, Emendari,
+          <lb ed="#P" n="62"/>quaest. 1. Et interdum etiam clerici solent
+          <lb ed="#P" n="63"/>clericis aliquid sponte offerre, ut sumitur ex
+          <lb ed="#P" n="64"/>cap. De Eulogiis, 18 distinct. Maxime ergo
+          <lb ed="#P" n="65"/>spectanda est materia et occasio muneris,
+          <lb ed="#P" n="66"/>cum alis circumstantis locorum et 
+          persona<lb break="no" ed="#P" n="67"/>rum, ex quibus etiam conjectandum est an
+          <lb ed="#P" n="68"/>justus titulus ad talem exactionem subesse
+          <lb ed="#P" n="69"/>potuerit ; quod si probahiliter potuit 
+          interve<lb break="no" ed="#P" n="70"/>nire, praesumendus est, juxta rectam rationem,
+          <lb ed="#P" n="71"/>et communes regulas.
+        </p>
+        <p>
+          <lb ed="#P" n="72"/>11. In hac materia fere equiparatur 
+          sta<lb break="no" ed="#P" n="73"/>tutum consuetudini. — Praeterea, necessarium
+          <lb ed="#P" n="74"/>est ut talis impositio sufficienti auctoritate et
+          <lb ed="#P" n="75"/>potestate facta sit, quia non possunt privatae
+          <lb ed="#P" n="76"/>personae, etiamsi indigeant, imponere 
+          hujus<lb break="no" ed="#P" n="77"/>modi onera, his qui spiritualia recipiunt, ut
+          <lb ed="#P" n="78"/>in cap. praecedenti dictum est, et ex natura
+          <lb ed="#P" n="79"/>rei constat. Difficile autem est hanc etiam
+          <lb ed="#P" n="80"/>conditionem in ipsa origine agnoscere; 
+          ta<lb break="no" ed="#P" n="81"/>men, si res ipsa rationabilis appareat ex parte
+          <lb ed="#P" n="82"/>materiae, et aliarum circurastantiarum, ipsa
+          <lb ed="#P" n="83"/>consuetudo esse potest sufficiens testis hujus
+          <lb ed="#P" n="84"/>conditionis. Et praesumi debet, nisi aliud 
+          ob<lb break="no" ed="#P" n="85"/>stet, ut sensit Navarrus, cons. 3, de Simon , et
+          <lb ed="#P" n="86"/>notat late Felin., alios referens in capite Ez
+          <lb ed="#P" n="87"/>parte, 1, de Officio deleg. Maxime vero 
+          pote<lb break="no" ed="#P" n="88"/>rit obstare indebitus modus exigendi. Et haec
+          <lb ed="#P" n="89"/>est tertia conditio imprimis necessaria ad 
+          ho<lb break="no" ed="#P" n="90"/>nestandam consuetudinem, nimirum ut 
+          exac<lb break="no" ed="#P" n="91"/>tio non sit consueta fieri modo specialiter 
+          pro<lb break="no" ed="#P" n="92"/>hibito in jure, qualis est extorquere 
+          tempo<lb break="no" ed="#P" n="93"/>ralia negando spiritualia, nisi prius 
+          tempora<lb break="no" ed="#P" n="94"/>lia dentur, vel (quod idem est, quicquid aliqui
+          <lb ed="#P" n="95"/>dicant) certa cautio eorum; hunc enim 
+          mo<lb break="no" ed="#P" n="96"/>dum maxime jura detestantur, quia speciem
+          <lb ed="#P" n="97"/>habet mali, ut dicitur in cap. Audivimus, et
+          <lb ed="#P" n="98"/>imaginem venditionis, iu cap. 7n tantumn, 
+          ideo<lb break="no" ed="#P" n="99"/>que pravae exactiones dicuntur in cap. Ad
+          <lb ed="#P" n="100"/>Apostolicam. Et ita si quis recte consideret 
+          al<lb break="no" ed="#P" n="101"/>legata jura, semper inveniet aliquem ex hus
+          <lb ed="#P" n="102"/>defectibus in actionibus prohib:tis. Quando
+          <lb ed="#P" n="103"/>ergo has conditiones habet, consuetudo 
+          tole<lb break="no" ed="#P" n="104"/>rari poterit ; debet aufém prius examinari ab
+          <lb ed="#P" n="105"/>Episcopo, et permitti juxta decretum Concilii
+          <lb ed="#P" n="106"/>Tridentini. Non omittam etiam advertere, in
+          <lb ed="#P" n="107"/>hac materia majus esse periculum in 
+          exigen<lb break="no" ed="#P" n="108"/>tibus quam in solventibus, quia qui solvere
+          <lb ed="#P" n="109"/>coguntur, ab injustitia immunes sunt, nam si
+          <lb ed="#P" n="110"/>qua intervenit, illam patiuntur, non faciunt;
+          <pb ed="#P" n="910"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>a simonia autem sola recta intentione 
+          libe<lb break="no" ed="#P" n="2"/>rari facile possunt, quia non intendunt dare
+          <lb ed="#P" n="3"/>pretium, sed onus vel rei impositum, vel sibi
+          <lb ed="#P" n="4"/>imperatum ab co qui potest, et cujus factum
+          <lb ed="#P" n="5"/>ipsi examinare non tenentur. Et ideo facile
+          <lb ed="#P" n="6"/>excusari poterunt a prohibhitione positiva, si
+          <lb ed="#P" n="7"/>qua fuerit, quia bona fide credunt 
+          consuetu<lb break="no" ed="#P" n="8"/>dinem non esse simoniacam, et quia ordinarie
+          <lb ed="#P" n="9"/>jura prohibentia has actiones, magis 
+          loquun<lb break="no" ed="#P" n="10"/>tur cum exigentibus quam cum solventibus.
+        </p>
+        <p>
+          <lb ed="#P" n="11"/>12. Ex quibus tandem colligitur, in hac
+          <lb ed="#P" n="12"/>materia fere aequiparari statutum 
+          consuetu<lb break="no" ed="#P" n="13"/>dini. Quod sentit Ludov. Gomoz, in Regul. de
+          <lb ed="#P" n="14"/>Triennali possess., quaest. 12, ubi alios 
+          alle<lb break="no" ed="#P" n="15"/>gat. Et juxta dicta est intelligendum. Quia 
+          h<lb break="no" ed="#P" n="16"/>cet differentia superius assignata inter 
+          arguen<lb break="no" ed="#P" n="17"/>dum vera sit, hic nuon recte applicatur, quia
+          <lb ed="#P" n="18"/>non admittimus consuetudinem quasi 
+          dero<lb break="no" ed="#P" n="19"/>gantem juri communi ex tacita approbatione
+          <lb ed="#P" n="20"/>Pontificum per scientiam et patientiam; quia
+          <lb ed="#P" n="21"/>revera nulla intervenit talis derogatio, nec
+          <lb ed="#P" n="22"/>jura citata illam permittunt ; solum ergo 
+          toie<lb break="no" ed="#P" n="23"/>ratur consuetudo, quando talis est, ut ex 
+          par<lb break="no" ed="#P" n="24"/>te materiae et modi non sit communi juri 
+          con<lb break="no" ed="#P" n="25"/>traria. At vero hoc modo etiam statutum erit
+          <lb ed="#P" n="26"/>validum, si non sit contra jus commune, 
+          si<lb break="no" ed="#P" n="27"/>cut esse potest, si in illum concurrant 
+          condi<lb break="no" ed="#P" n="28"/>tiones proposita ; ergo aequiparantur. Atque
+          <lb ed="#P" n="29"/>hoc etiam sumi potest ex Concilio Tridentino,
+          <lb ed="#P" n="30"/>dicto cap. 14, nam pariform:ter loquitur de
+          <lb ed="#P" n="31"/>consuetudinibus et statutis. Quod notavit
+          <lb ed="#P" n="32"/>etiam Navar., cap. 23, num. 102, verb. 
+          Us<lb break="no" ed="#P" n="33"/>decimo, et Ugolin., d. c. 9, S11. Dixi autem
+          <lb ed="#P" n="34"/>fere, quia, licet cousuetudo in hoc conveniat
+          <lb ed="#P" n="35"/>cum statuto, quod debet versari circa 
+          mate<lb break="no" ed="#P" n="36"/>riam justam, et a suspicione simoniae 
+          alie<lb break="no" ed="#P" n="37"/>nam, superat tamen in hoc, quod pluribus 
+          ti<lb break="no" ed="#P" n="38"/>tulis honestari potest ex parte materiae; 
+          po<lb break="no" ed="#P" n="39"/>test enim esse indicium realis oneris, et non
+          <lb ed="#P" n="40"/>personalis, cum tamen reale onus non possit
+          <lb ed="#P" n="41"/>fortasse per particulare statutum beneficio
+          <lb ed="#P" n="42"/>im poni ; per consuetudinem etiam potest 
+          prae<lb break="no" ed="#P" n="43"/>suni auctoritas Papae, si necessaria sit, ut in
+          <lb ed="#P" n="44"/>d. cons. 3 Navarr. attigit; per statutum 
+          au<lb break="no" ed="#P" n="45"/>tem minime, iisi de expressa confirmatione
+          <lb ed="#P" n="46"/>constet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="77"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k01863"><!-- t2-l1c1 -->
+        <head>Caput 1</head>
+        <head type="question-title">An praeceptum colendi et adorandi deum, tam corpore quam spiritu, naturale sit.</head>
+        <p>
+          <lb ed="#P" n="32"/>CAPUT I.
+          <lb ed="#P" n="33"/>AN PRAECEPTUM COLENDI ET ADORANDI DEUM, TAM
+          <lb ed="#P" n="34"/>CORPORE QUAM SPIRITU, NATURALE SIT.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>1. Philosophi qui cultum Dei abjecerunt. —
+          <lb ed="#P" n="36"/>Impugnantur hi philosophi. — Haereticorum
+          <lb ed="#P" n="37"/>error. — Catholicorum falsa opinio. — 
+          Non<lb break="no" ed="#P" n="38"/>nulli philosophi omnem cultum, et 
+          veneratio<lb break="no" ed="#P" n="39"/>nem superioris numinis abjecerunt et 
+          repro<lb break="no" ed="#P" n="40"/>barunt, ut significat Lactant., lib. 2 Div. 
+          in<lb break="no" ed="#P" n="41"/>stit., c. 3. Quia cum ratione naturali 
+          cognos<lb break="no" ed="#P" n="42"/>cerent falsas esse religiones plurium deorum,
+          <lb ed="#P" n="43"/>quas Gentiles profitebantur, et veram non
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="44"/>valerent attingere, sine religione manserunt.
+          <lb ed="#P" n="45"/>Et in hoc numero solet referri Comment. in
+          <lb ed="#P" n="46"/>12 Met. Imo Cajetanus, 1. 2, q. 85, artic. 1,
+          <lb ed="#P" n="47"/>suspicatur etiam Aristotelem in eodem errore
+          <lb ed="#P" n="48"/>fuisse. Sed hi omnes, ut ait Paulus, Rom. 1,
+          <lb ed="#P" n="49"/>dicentes se esse sapentes, stulti facti sunt.
+          <lb ed="#P" n="50"/>Nam si illi credebant nullum esse verum
+          <lb ed="#P" n="51"/>Deum, quid magis stultum cogitari potest? si
+          <lb ed="#P" n="52"/>autem agnoscentes esse aliquem verum Deum
+          <lb ed="#P" n="53"/>a cujus potentia et providentia pendemus, et
+          <lb ed="#P" n="54"/>nihilominus senserunt non esse nobis 
+          colen<lb break="no" ed="#P" n="55"/>dum, contra omnem etiam naturalem 
+          ratio<lb break="no" ed="#P" n="56"/>nem locuti sunt. Nam si ratio naturalis dictat
+          <lb ed="#P" n="57"/>parentes esse honorandos, multo magis dictat
+          <lb ed="#P" n="58"/>Deum verum esse colendum. Unde propter
+          <lb ed="#P" n="59"/>hos philosophos recte dixit Paulus : Cum 
+          co<lb break="no" ed="#P" n="60"/>gnovissent Deum, non sicut Deum 
+          glorificave<lb break="no" ed="#P" n="61"/>runt, aut gratias egerunt, unde etiam, sunt
+          <lb ed="#P" n="62"/>ineacusaliles. Fortasse tamen hi non de omni
+          <lb ed="#P" n="63"/>cultu, sed de externo tantum loquebantur.
+          <lb ed="#P" n="64"/>Putarunt enim aliqui haec signa externa 
+          cul<lb break="no" ed="#P" n="65"/>tus respectu Dei permitti quidem posse 
+          pro<lb break="no" ed="#P" n="66"/>pter vulgus, vere tamen uihil deservire ad
+          <lb ed="#P" n="67"/>cultum Dei; neque minus errarunt haeretici,
+          <lb ed="#P" n="68"/>qui dixerunt Deum non esse adorandum 
+          ac<lb break="no" ed="#P" n="69"/>tibus corporalibus, quia, Spiritus est Deus,
+          <lb ed="#P" n="70"/>et in spritu et veritate debet adorari. E 
+          con<lb break="no" ed="#P" n="71"/>trario, quorumdam etiam Catholicorum 
+          sen<lb break="no" ed="#P" n="72"/>tentia fuit, adorationem propriam per sola
+          <lb ed="#P" n="73"/>corporis membra, illa inflectendo, vel hoc aut
+          <lb ed="#P" n="74"/>illo modo in notam submissionis 
+          componen<lb break="no" ed="#P" n="75"/>do, exhiberi posse, etiam ad Deum, quia 
+          si<lb break="no" ed="#P" n="76"/>gno vel actu spirituali non potest talis nota
+          <lb ed="#P" n="77"/>submissionis intelligi, licet interius exerceri
+          <pb ed="#P" n="78"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>possint alii actus colendi Deum, ut orandi,
+          <lb ed="#P" n="2"/>gratias agendi, et similes, qui non sunt 
+          ado<lb break="no" ed="#P" n="3"/>rationes. Ex qua sententia sequitur, proprium
+          <lb ed="#P" n="4"/>praeceptum adorationis dari posse de 
+          adora<lb break="no" ed="#P" n="5"/>ione externa et corporali, non vero ae 
+          inter<lb break="no" ed="#P" n="6"/>na et spirituali. Contra primum errorem 
+          dis<lb break="no" ed="#P" n="7"/>putavi late in 3 tom. tertiae partis, disp. 3,
+          <lb ed="#P" n="8"/>sect. 1, et disp. 15, sect. 2, et tota disp. 73.
+          <lb ed="#P" n="9"/>Posteriorem autem sententiam copiose 
+          trac<lb break="no" ed="#P" n="10"/>tavi in 1 tom. tertiae partis, disp. 51, sect. 2,
+          <lb ed="#P" n="11"/>ubi ostendi adorationem Dei, non solum esse
+          <lb ed="#P" n="12"/>posse internam et spiritualem, verum potius
+          <lb ed="#P" n="13"/>illam esse perfectissimam : illa ergo quae ibi
+          <lb ed="#P" n="14"/>dicta sunt, hoc loco repetere necessarium
+          <lb ed="#P" n="15"/>non est.
+        </p>
+        <p>
+          <lb ed="#P" n="16"/>2. An Deus possit actius mere internis
+          <lb ed="#P" n="17"/>adorari. — Angeli vere Deum adorant. — Dico
+          <lb ed="#P" n="18"/>ergo imprimis, Deum posse et debere adorari
+          <lb ed="#P" n="19"/>a nobis actibus mere internis et spiritualibus.
+          <lb ed="#P" n="20"/>Ita docet D. Thomas, d. quaest. 84, art. 2.
+          <lb ed="#P" n="21"/>Unde, cum in initio illius quaestionis 
+          propo<lb break="no" ed="#P" n="22"/>nit se acturum de actibus exterioribus latriae,
+          <lb ed="#P" n="23"/>et primo loco ponit adorationem illam, per
+          <lb ed="#P" n="24"/>quam aliquis corpus suum ad Deum 
+          veneran<lb break="no" ed="#P" n="25"/>dum exhibet, non intelligit solam hanc 
+          vene<lb break="no" ed="#P" n="26"/>rationem per corpus proprium habere veram
+          <lb ed="#P" n="27"/>rationem adorationis , sed potius supponit
+          <lb ed="#P" n="28"/>Deum aliis etiam modis adorari posse ; in illa
+          <lb ed="#P" n="29"/>autem quaestione, de illo speciali modo 
+          ado<lb break="no" ed="#P" n="30"/>randi tractare intendit, quia de aliis vel jam
+          <lb ed="#P" n="31"/>dixerat, scilicet, de adoratione pure interna,
+          <lb ed="#P" n="32"/>in q. 82; de alia vero externa, quae per alias
+          <lb ed="#P" n="33"/>actiones fieri potest, in sequentibus 
+          quaestio<lb break="no" ed="#P" n="34"/>nibus ibidem tractare disponit. Unde in 
+          eo<lb break="no" ed="#P" n="35"/>dem articulo 2, ad 2, expresse comparat 
+          ado<lb break="no" ed="#P" n="36"/>rationem cum oratione , et dicit, sicut datur
+          <lb ed="#P" n="37"/>oratio mentalis, ita etiam posse dari 
+          adora<lb break="no" ed="#P" n="38"/>tionem mentalem, seu internam; non datur
+          <lb ed="#P" n="39"/>autem in mente solus affectus orandi, sed
+          <lb ed="#P" n="40"/>etiam vera oratio; ergo etiam datur interius
+          <lb ed="#P" n="41"/>in mente non solum affectus adorandi Deum;
+          <lb ed="#P" n="42"/>sed etiam executio (ut sic dicam) illius 
+          affec<lb break="no" ed="#P" n="43"/>ius , atque adeo vera adoratio. Eadem est
+          <lb ed="#P" n="44"/>communis sententia Theologorum in 3, d. 9.
+          <lb ed="#P" n="45"/>Et sumitur ex Augustino, 10 de Civit., c. 4;
+          <lb ed="#P" n="46"/>Damasceno, lib. 4 de Fide, cap. 63, et 
+          opti<lb break="no" ed="#P" n="47"/>me orat. 3 de Imagin., circa medium, et aliis
+          <lb ed="#P" n="48"/>Patribus, quos citato loco retuli. Imo etiam
+          <lb ed="#P" n="49"/>in Scripturis, hic modus loquendi de 
+          adora<lb break="no" ed="#P" n="50"/>tionequam Angeli exhibent Deo, et quae in
+          <lb ed="#P" n="51"/>spiritu exhiberi potest, tam frequens est, ut
+          <lb ed="#P" n="52"/>eum per metaphoram vel tropum exponere,
+          <lb ed="#P" n="53"/>alienum a sincera Scripturae intelligentia 
+          vi<lb break="no" ed="#P" n="54"/>deatur. Ratio autem est, quia inter puros 
+          spi<lb break="no" ed="#P" n="55"/>ritus esse potest ordo, et consequenter esse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>possunt diversi gradus honoris et 
+          reveren<lb break="no" ed="#P" n="57"/>tiae. Nam in omni republica bene instituta,
+          <lb ed="#P" n="58"/>ecin omni corpore mystico recte composito,
+          <lb ed="#P" n="59"/>hoc necessarium est; potest ergo esse 
+          reve<lb break="no" ed="#P" n="60"/>rentia, seu honoratio spiritualis et interna;
+          <lb ed="#P" n="61"/>ergo etiam potest esse adoratio spiritualis et
+          <lb ed="#P" n="62"/>interna Angeli ad Deum ; ergo etiam in 
+          ho<lb break="no" ed="#P" n="63"/>mine suo modo esse potest.
+        </p>
+        <p>
+          <lb ed="#P" n="64"/>3. Cujus potentie sit actus adoratio 
+          inter<lb break="no" ed="#P" n="65"/>na.—-Hic vero statim occurrit quaestio, similis
+          <lb ed="#P" n="66"/>illi quam de oratione Theo!ogi tractant, 
+          cu<lb break="no" ed="#P" n="67"/>jusnam potentiae actus sit haec interna 
+          adora<lb break="no" ed="#P" n="68"/>tio. Necesse est enim ut consistat in aliqua
+          <lb ed="#P" n="69"/>operatione ; nam adoratio actus virtutis 
+          mo<lb break="no" ed="#P" n="70"/>ralis est, unde in operatione consistit ; ergo,
+          <lb ed="#P" n="71"/>cum sit interna et spiritualis, et proxime ad
+          <lb ed="#P" n="72"/>Deum referatur, ut ad personam adoratam,
+          <lb ed="#P" n="73"/>necesse est ut voluntatis vel intellectus 
+          ac<lb break="no" ed="#P" n="74"/>tus sit. Praeterea in nostra anima corpori
+          <lb ed="#P" n="75"/>unita, manifestum est, si non utatur membris
+          <lb ed="#P" n="76"/>corporis ad Deum adorandum, non posse id
+          <lb ed="#P" n="77"/>facere nisi actibus intellectus vel voluntatis,
+          <lb ed="#P" n="78"/>per quod non escluditur , quin possit etiam
+          <lb ed="#P" n="79"/>cooperari phantasia. Necesse est ergo ut
+          <lb ed="#P" n="80"/>mentalhs adoratio praecipue sit actus 
+          intel<lb break="no" ed="#P" n="81"/>lectus, vel voluntatis ; non videtur autem 
+          es<lb break="no" ed="#P" n="82"/>se voluntatis, quia in ea est affectus 
+          adoran<lb break="no" ed="#P" n="83"/>di, qui affectus non est adoratio, sed hahet
+          <lb ed="#P" n="84"/>illam pro objecto, sicut affectus orandi non
+          <lb ed="#P" n="85"/>est oratio, sed imperat illam. Neque etiam
+          <lb ed="#P" n="86"/>videtur esse actus intellectus, quia omnis 
+          ac<lb break="no" ed="#P" n="87"/>tus intellectus est cognitio ; tum quia 
+          cogni<lb break="no" ed="#P" n="88"/>tio Dei est actus fidei vel scientiae; tum etiam
+          <lb ed="#P" n="89"/>quia stat cognoscere, et non adorare; 
+          Dae<lb break="no" ed="#P" n="90"/>mones enim vel inviti recognoscunt 
+          majes<lb break="no" ed="#P" n="91"/>tatem Dei, quam non adorant.
+        </p>
+        <p>
+          <lb ed="#P" n="92"/>4. Resolutio queestionis.—hespondeo hanc
+          <lb ed="#P" n="93"/>adorationem posse esse utriusque potentiae
+          <lb ed="#P" n="94"/>actum, si ex affectu adorandi procedat, et sit
+          <lb ed="#P" n="95"/>aptus ad profitendam, indicandam, vel 
+          exer<lb break="no" ed="#P" n="96"/>cendam submissionem animi ad Deum. Et 
+          qui<lb break="no" ed="#P" n="97"/>dem in intellectu potest esse hic actus per 
+          mo<lb break="no" ed="#P" n="98"/>durm- cognitionis, et in nobis etiam esse 
+          pote<lb break="no" ed="#P" n="99"/>rit per modum locutionis humana mentalis
+          <lb ed="#P" n="100"/>et internae. Prior actus est, quando ex 
+          affec<lb break="no" ed="#P" n="101"/>tu colendi Deum applicatur intellectus ad 
+          re<lb break="no" ed="#P" n="102"/>cognoscendam divinam excellentiam, et 
+          re<lb break="no" ed="#P" n="103"/>cognoscit Deum ut supremum principem et
+          <lb ed="#P" n="104"/>dominum, et hanc ipsam recogitationem illi
+          <lb ed="#P" n="105"/>offert in cultum et adorationem. Quod enim
+          <lb ed="#P" n="106"/>hic actus in puro spiritu exerceri possit, per
+          <lb ed="#P" n="107"/>se notum est, neque minus evidens est illum
+          <lb ed="#P" n="108"/>esse sanctum et honestum. At non est 
+          alte<lb break="no" ed="#P" n="109"/>rius virtulis nisi religionis, formaliter 
+          loquen<lb break="no" ed="#P" n="110"/>do, cum moralem bonestatem habeat ab af-
+          <pb ed="#P" n="79"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fectu a quo procedit, et immediate oriatur ab
+          <lb ed="#P" n="2"/>affectu religionis ; neque intra virtutem 
+          reli<lb break="no" ed="#P" n="3"/>gionis aliud esse potest quam adoratio, quia
+          <lb ed="#P" n="4"/>formaliter non est oratio, ut per se patet,
+          <lb ed="#P" n="5"/>neque etiam est devotio, sed potius affectus
+          <lb ed="#P" n="6"/>ipse, a quo procedit, dici posset quaedam 
+          de<lb break="no" ed="#P" n="7"/>votio; est ergo propriissimam adoratio.
+        </p>
+        <p>
+          <lb ed="#P" n="8"/>5. Neque refert quod illa cogitatio 
+          sub<lb break="no" ed="#P" n="9"/>stantialiter ( ut sic dicam ) sit actus fidei, vel
+          <lb ed="#P" n="10"/>alterius doni Spiritus Sancti, dummodo 
+          libe<lb break="no" ed="#P" n="11"/>re et ex dicto affectu exerceatur; nam inde
+          <lb ed="#P" n="12"/>sumit nomen et formalem rationem 
+          adoratio<lb break="no" ed="#P" n="13"/>nis, sicut genuflexio materialiter est motus
+          <lb ed="#P" n="14"/>localis, tamen ex tali affectu et intentione
+          <lb ed="#P" n="15"/>habet , quod sit adoratio latriae, vel dulia,
+          <lb ed="#P" n="16"/>etc. Vel sicut detestatio peccati propter Deum
+          <lb ed="#P" n="17"/>potest esse substantialiter actus charitatis, et
+          <lb ed="#P" n="18"/>tamen factus ex affectu poenitentiae dici 
+          po<lb break="no" ed="#P" n="19"/>test quaedam satisfactio, vel recompensatio
+          <lb ed="#P" n="20"/>pro offensa, quantum ab homine exhiberi 
+          po<lb break="no" ed="#P" n="21"/>test. Atque hoc modo est etiam aptissimus
+          <lb ed="#P" n="22"/>actus ad hanc adorationem internam 
+          recogi<lb break="no" ed="#P" n="23"/>tatio propriae naturae, quatenus tam Angelus,
+          <lb ed="#P" n="24"/>quam homo ex se nihil est, et vel peccat, vel
+          <lb ed="#P" n="25"/>peccare posset, et in omnibus bonis a Deo
+          <lb ed="#P" n="26"/>pendet ; haec enim cognitio, sicut animi 
+          sub<lb break="no" ed="#P" n="27"/>missionem fovet ac generat, ita est aptissima
+          <lb ed="#P" n="28"/>materia, ut in signum et notam ejusdem 
+          sub<lb break="no" ed="#P" n="29"/>missionis exhibeatnr. Multo enim magis 
+          ge<lb break="no" ed="#P" n="30"/>nuflectitur spiritualiter anima coram Deo per
+          <lb ed="#P" n="31"/>illam recogitationem, ad hunc finem 
+          ordina<lb break="no" ed="#P" n="32"/>tam ex affectu colendi Deum, quam 
+          corpora<lb break="no" ed="#P" n="33"/>liter genuflectatur per crurium plicationem,
+          <lb ed="#P" n="34"/>et demissionem usque ad terram.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>6. Adoratio potest esse per modum 
+          locutio<lb break="no" ed="#P" n="36"/>nis. — Per modum etiam locutionis potest in
+          <lb ed="#P" n="37"/>nobis esse talis actus eodem fere modo, quo
+          <lb ed="#P" n="38"/>potest esse in nostro intellectu petitio, et
+          <lb ed="#P" n="39"/>gratiarum actio, mentaliter loquendo per 
+          con<lb break="no" ed="#P" n="40"/>ceptus vocum nobis ad placitum 
+          significan<lb break="no" ed="#P" n="41"/>tium. Quod imprimis explicatur in actu 
+          lau<lb break="no" ed="#P" n="42"/>dandi Deum, qui absque ulla controversia 
+          po<lb break="no" ed="#P" n="43"/>test dicto modo in mente fieri. Et licet laus
+          <lb ed="#P" n="44"/>Dei specialiter numerari soleat ut actus 
+          dis<lb break="no" ed="#P" n="45"/>tinctus ab adoratione, prout exhibetur per
+          <lb ed="#P" n="46"/>signa quae non sunt voces, nec ita expresse
+          <lb ed="#P" n="47"/>significant sicut voces , nihilominus distinctio
+          <lb ed="#P" n="48"/>illa materialis potius est in signis ad cultum
+          <lb ed="#P" n="49"/>exhibendum assumptis, quam in formali 
+          ra<lb break="no" ed="#P" n="50"/>Uone adorationis, si laudatio fiat ex affectu
+          <lb ed="#P" n="51"/>ostendendi submissionem animi ac Deum, et
+          <lb ed="#P" n="52"/>profitendi supremum dominium ejus; sicut
+          <lb ed="#P" n="53"/>ergo possumus solo spiritu et mente laudare
+          <lb ed="#P" n="54"/>Deum, ita etiam adorare. Deinde intelligi hoc
+          <lb ed="#P" n="55"/>potest in actu interiori expressae confessionis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>divinae excellentiae, et supremi dominii, facto
+          <lb ed="#P" n="57"/>in ejusdem Dei praesentia, per verba 
+          menta<lb break="no" ed="#P" n="58"/>lia expresse significantia subjectionem, et
+          <lb ed="#P" n="59"/>submissionem illi majestati debitam. Haec
+          <lb ed="#P" n="60"/>enim interna confessio ( quam esse 
+          possibi<lb break="no" ed="#P" n="61"/>lem nemo vertit iu dubium )distincta est a
+          <lb ed="#P" n="62"/>confessione laudis divina , quia formaliter
+          <lb ed="#P" n="63"/>non ad hoc tendit, sed ad exhibendam 
+          de<lb break="no" ed="#P" n="64"/>bitam servitutem, saltem confitendo et 
+          affir<lb break="no" ed="#P" n="65"/>mando esse illi debitam ratione uae 
+          excel<lb break="no" ed="#P" n="66"/>lentiae, et supremi dominii, et hanc ipsam
+          <lb ed="#P" n="67"/>confessionem in signum illius recognitionis
+          <lb ed="#P" n="68"/>exhibendo. Sicut enim homo, confitendo 
+          in<lb break="no" ed="#P" n="69"/>terius coram Deo se esse peccatorem, 
+          illam<lb break="no" ed="#P" n="70"/>met confessionem offert Deo in aliqualem
+          <lb ed="#P" n="71"/>satisfactionem pro peccaiis , ita confitendo
+          <lb ed="#P" n="72"/>interius dominatum Dei in nos, et 
+          subjectio<lb break="no" ed="#P" n="73"/>nem nostram ad illum, ipsammet 
+          subjectio<lb break="no" ed="#P" n="74"/>nem offerimus in notam et signum talis 
+          sub<lb break="no" ed="#P" n="75"/>jectionis et submissionis ad Deum, et hoc est
+          <lb ed="#P" n="76"/>esse adorationem.
+        </p>
+        <p>
+          <lb ed="#P" n="77"/>7. Qui voluntatis actus ad orationem 
+          spec<lb break="no" ed="#P" n="78"/>lent. — Admiratio quid sit. — Denique in
+          <lb ed="#P" n="79"/>voluntate multi actus inveniri possunt 
+          ap<lb break="no" ed="#P" n="80"/>tissimi ad hanc animi submissionem 
+          signifi<lb break="no" ed="#P" n="81"/>candam, ut in citato loco satis copiose 
+          pro<lb break="no" ed="#P" n="82"/>secutus sum. DUnus autem videtur 
+          propriis<lb break="no" ed="#P" n="83"/>simus, qui est admiratio, qua post 
+          conside<lb break="no" ed="#P" n="84"/>rationem divina majestatis et excellentiae,
+          <lb ed="#P" n="85"/>anima quasi suspenditur, et suspensa 
+          quies<lb break="no" ed="#P" n="86"/>cit in conspectu Dei. In quo actu multi Patres
+          <lb ed="#P" n="87"/>perfectissimam collocant contemplationem,
+          <lb ed="#P" n="88"/>ut infra videbimus. Est autera admiratio 
+          ac<lb break="no" ed="#P" n="89"/>tus voluntatis, ut in primo tomo tertiae partis,
+          <lb ed="#P" n="90"/>quaestione decimo , quinta, articulo octavo,
+          <lb ed="#P" n="91"/>declaravi, et quomodo in illo consistat 
+          inte<lb break="no" ed="#P" n="92"/>rior reverentia et veneratio Dei, explicui in
+          <lb ed="#P" n="93"/>quaest. 1, disp. 20, sect. 2. Est enim vel 
+          ge<lb break="no" ed="#P" n="94"/>nus quoddam suavissimae complacentiae, seu
+          <lb ed="#P" n="95"/>gaudii, quo aliquis veluti in stuporem 
+          rapi<lb break="no" ed="#P" n="96"/>tur, contemplans summam excellentiam Dei
+          <lb ed="#P" n="97"/>super omnia dilecti, vel est genus quoddam
+          <lb ed="#P" n="98"/>reverentialis timoris, quo aliquis veluti 
+          refor<lb break="no" ed="#P" n="99"/>midat ad Deum accedere, aut majestatem
+          <lb ed="#P" n="100"/>ejus contemplari, prout significabant 
+          Sera<lb break="no" ed="#P" n="101"/>phim velantia capita et pedes suos, Isaiae
+          <lb ed="#P" n="102"/>sexto : Significabunt enim ( ait Dionysius, c.
+          <lb ed="#P" n="103"/>13 de Caelesti Hierarch. ) sacram illam , ac
+          <lb ed="#P" n="104"/>plenam horroris venerationem, qua Sancti 
+          cel<lb break="no" ed="#P" n="105"/>siorem mgysteriorum indaginem perhorrescunt.
+          <lb ed="#P" n="106"/>Et Chrysostomus, homilia 1 in eadem verba
+          <lb ed="#P" n="107"/>Isaiae : Duabus ( inquit ) alis velabant faciem,
+          <lb ed="#P" n="108"/>simul excludentia radum e throno 
+          proceden<lb break="no" ed="#P" n="109"/>tem, eo quod ferre non possent immensam 
+          il<lb break="no" ed="#P" n="110"/>lius gloriam, simul autem sua:n religionem et
+          <pb ed="#P" n="80"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>reverentium significantia, quam habent erga
+          <lb ed="#P" n="2"/>Dominum - tali gaudio gaudent illa, tali 
+          le<lb break="no" ed="#P" n="3"/>titia eaultant ; et infra : Facies quidem 
+          vela<lb break="no" ed="#P" n="4"/>bant propter metuendum spectaculum, quodque
+          <lb ed="#P" n="5"/>non possent inaccessum gloriam intueri; et
+          <lb ed="#P" n="6"/>infra: Quare pedes velant? inemplebilem erga
+          <lb ed="#P" n="7"/>conditorem reverentiam exhibere student; et
+          <lb ed="#P" n="8"/>homilia 2: Cum ( inquit ) etiam ipsas 
+          super<lb break="no" ed="#P" n="9"/>nas Firtutes semper maaimus obtineat 
+          stu<lb break="no" ed="#P" n="10"/>por, propterea avertunt facies, alasque vice 
+          mu<lb break="no" ed="#P" n="11"/>rorum objiciunt; et in alia enarratione in c.
+          <lb ed="#P" n="12"/>6 Isai., sic ait: Quod velabant pedes, quodque
+          <lb ed="#P" n="13"/>operiebant terga, utrumque indicat eos 
+          adma<lb break="no" ed="#P" n="14"/>ratione fuisse perculsos, et ad fulgorem tante
+          <lb ed="#P" n="15"/>majestatis contremuisse ; et in oratione 
+          septi<lb break="no" ed="#P" n="16"/>ma ex decem nuper impressis, in fine tomi
+          <lb ed="#P" n="17"/>quinti, eleganter hanc ipsam adorationem 
+          ex<lb break="no" ed="#P" n="18"/>ponit. Hanc ergo internam reverentiam et
+          <lb ed="#P" n="19"/>adorationem participare possumus in hac 
+          vi<lb break="no" ed="#P" n="20"/>ta per Spiritus Sancti dona , et ita interius
+          <lb ed="#P" n="21"/>Deum adorare per actus voluntatis nostrae;
+          <lb ed="#P" n="22"/>imo etiam per ipsos actus spei, orationis, et
+          <lb ed="#P" n="23"/>similes, ut in loco citato latius sum 
+          prosecu<lb break="no" ed="#P" n="24"/>tus. :
+        </p>
+        <p>
+          <lb ed="#P" n="25"/>8. An externis corporis actibus Deum 
+          ado<lb break="no" ed="#P" n="26"/>rare possimus. —Dico secundo: etiam actibus
+          <lb ed="#P" n="27"/>corporis ex affectu reverentis ac submissi
+          <lb ed="#P" n="28"/>animi procedentibus adorare possumus Deum,
+          <lb ed="#P" n="29"/>et debemus. Assertio est de fide, quam docent
+          <lb ed="#P" n="30"/>omnes Theologi. 3, distinct. 9, cum D. Thoma
+          <lb ed="#P" n="31"/>supra, et Damasceno, lib. 4 de Fide, cap. 13.
+          <lb ed="#P" n="32"/>Supponit autem haec assertio posse Deum ab
+          <lb ed="#P" n="33"/>homine adorari etiam actibus corporis, quod
+          <lb ed="#P" n="34"/>supra, lib. 1, satis est declaratum, estque ex
+          <lb ed="#P" n="35"/>se et ex usu satis notum, quia potest homo
+          <lb ed="#P" n="36"/>per actum externum corporis indicare suam
+          <lb ed="#P" n="37"/>mentem, et internum affectum, et haec ipsa
+          <lb ed="#P" n="38"/>manifestatio dicitur adoratio, quando ex 
+          af<lb break="no" ed="#P" n="39"/>fectu submittendi se alteri procedit. Supponit
+          <lb ed="#P" n="40"/>etiam, illum modum adorandi Deum esse 
+          ho<lb break="no" ed="#P" n="41"/>nestum. Et hoc etiam est per se evidens, quia
+          <lb ed="#P" n="42"/>est rationi consentaneus, et ex eo quod sit
+          <lb ed="#P" n="43"/>corporalis, non habet intrinsecam 
+          indecen<lb break="no" ed="#P" n="44"/>tiam, quia non ordinatur ad Deum, ut illi 
+          in<lb break="no" ed="#P" n="45"/>notescat noster animus, ac si illum ignoraret,
+          <lb ed="#P" n="46"/>sed ut nos omni modo nobis possibilem ei
+          <lb ed="#P" n="47"/>servitutem exhibeamus.
+        </p>
+        <p>
+          <lb ed="#P" n="48"/>9. Utriusque natura actibus Deum colere
+          <lb ed="#P" n="49"/>debemus. — Unde concluditur tertium, quod
+          <lb ed="#P" n="50"/>intendimus, nempe, quod haec etiam adoratio
+          <lb ed="#P" n="51"/>Deo debeatur, scilicet, quia nos duplici 
+          natu<lb break="no" ed="#P" n="52"/>ra constamus, corporali nimirum et spirituali,
+          <lb ed="#P" n="53"/>et ideo utriusque actibus colere debemus
+          <lb ed="#P" n="54"/>Deum, quia utriusque auctor est. Quam 
+          ra<lb break="no" ed="#P" n="55"/>tionem cum alis declarabimus, de oratione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vocali disputando, est enim eadem ratio. Hoc
+          <lb ed="#P" n="57"/>etiam suadet vetustissima consuetudo, non
+          <lb ed="#P" n="58"/>solum Ecclesiae in lege gratiae (de quo mirum
+          <lb ed="#P" n="59"/>non est, quod Deum, factum carnem, ipsis
+          <lb ed="#P" n="60"/>etiam corporeis membris, et genibus flexis,
+          <lb ed="#P" n="61"/>et manibus extensis adoret), verum etiam
+          <lb ed="#P" n="62"/>omnium fidelium Sanctorum, tam in lege 
+          ve<lb break="no" ed="#P" n="63"/>teri, quam naturali, ut in veteri testamento
+          <lb ed="#P" n="64"/>passim legimus. Est etiam hic modus colendi
+          <lb ed="#P" n="65"/>tam naturalis homini, ut vix possit modo sibi
+          <lb ed="#P" n="66"/>accommodato aliter Deum adorare. Quia sicut
+          <lb ed="#P" n="67"/>intelligit spiritualia per sensibilia, et ad 
+          mo<lb break="no" ed="#P" n="68"/>dum rerum corporalium, ita vix exprimit 
+          in<lb break="no" ed="#P" n="69"/>teriorem reverentiam et submissionem, nisi
+          <lb ed="#P" n="70"/>exhibendo aliqua sensibilia signa illius, per
+          <lb ed="#P" n="71"/>quae et suo affectui quodammodo satisfacit,
+          <lb ed="#P" n="72"/>et rursus per eadem in illo interiori affectu
+          <lb ed="#P" n="73"/>confirmatur et crescit. Praeterquam quod,
+          <lb ed="#P" n="74"/>cum homo non sit solitarium animal, sed 
+          so<lb break="no" ed="#P" n="75"/>ciale, et inter homines vivat, expedit ut 
+          exis<lb break="no" ed="#P" n="76"/>timationem quam de Deo habet, et 
+          adoratio<lb break="no" ed="#P" n="77"/>nem quam illi praebet, aliis ostendat; hoc 
+          au<lb break="no" ed="#P" n="78"/>tem non fit nisi per corporalem adorationem,
+          <lb ed="#P" n="79"/>quia homines non vident internos actus 
+          nos<lb break="no" ed="#P" n="80"/>tros, sed sensibiles. His ergo rationibus, et
+          <lb ed="#P" n="81"/>infinitis aliis, necesse est Deo adorationem,
+          <lb ed="#P" n="82"/>etiam corporalem, exhibere.
+        </p>
+        <p>
+          <lb ed="#P" n="83"/>10. An modus externe adorationis habeat
+          <lb ed="#P" n="84"/>locum in spiritibus separatis. —Hic vero 
+          for<lb break="no" ed="#P" n="85"/>tasse aliquis curiose inquiret, an modus hic
+          <lb ed="#P" n="86"/>externa adorationis etiam in spiritibus 
+          se<lb break="no" ed="#P" n="87"/>paratis locum habere possit, et an possit esse
+          <lb ed="#P" n="88"/>debitus. Respondeo imprimis adorationem
+          <lb ed="#P" n="89"/>per propria membra corporis non habere in
+          <lb ed="#P" n="90"/>eis locum, quia corpora non habent. Deiude
+          <lb ed="#P" n="91"/>in assumptis corporibus posse illam 
+          exerce<lb break="no" ed="#P" n="92"/>re, si velint, uti in Scriptura saepe legimus,
+          <lb ed="#P" n="93"/>et optime declarat Chrysostomus in oratione
+          <lb ed="#P" n="94"/>1, supra citata; et non est dubium quin 
+          pos<lb break="no" ed="#P" n="95"/>sit Deus eam illis praecipere. Nam licet hoc
+          <lb ed="#P" n="96"/>non exigat eorum natura, tamen ad 
+          exerci<lb break="no" ed="#P" n="97"/>tium obedientiae, vel propter 
+          communicatio<lb break="no" ed="#P" n="98"/>nem cum hominibus posset eis praecipi. 
+          Prae<lb break="no" ed="#P" n="99"/>terea motus ipse localis angelicus potest 
+          in<lb break="no" ed="#P" n="100"/>terdum habere rationem cultus et 
+          adoratio<lb break="no" ed="#P" n="101"/>nis, ut si Angelus, cum a coelo in terram 
+          des<lb break="no" ed="#P" n="102"/>cendit ex obedientia Dei, illammet 
+          descen<lb break="no" ed="#P" n="103"/>sionem offerat Deo in cultum et adorationem.
+          <lb ed="#P" n="104"/>Sic Angeli, cum descenderunt ad praesepe,
+          <lb ed="#P" n="105"/>ut Christum natum adorarent et glorificarent,
+          <lb ed="#P" n="106"/>illammet descensionem et detentionem in
+          <lb ed="#P" n="107"/>illo loco potuerunt in divinitatis ejus 
+          reco<lb break="no" ed="#P" n="108"/>gnitionem ordinare. Et quando illum 
+          ascen<lb break="no" ed="#P" n="109"/>dentem in coelum comitabantur, tota illa 
+          co<lb break="no" ed="#P" n="110"/>mitatio habebat veram rationem cultus et
+          <pb ed="#P" n="81"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>adorationis. Et his modis ad litteram 
+          imple<lb break="no" ed="#P" n="2"/>tum est, quod Paulus ad Hebr. ait: Et cum
+          <lb ed="#P" n="3"/>iterum introducit primogeniium in orbem 
+          ter<lb break="no" ed="#P" n="4"/>re, dicit : Et adorent eun omnes Angeli Dei;
+          <lb ed="#P" n="5"/>et quod dicit ad Philipp. 2 : /n nomine Jesu
+          <lb ed="#P" n="6"/>omne geuuflectatur, calestium, etc.
+        </p>
+        <p>
+          <lb ed="#P" n="7"/>11. Animue purgatorii possunt Deum 
+          ado<lb break="no" ed="#P" n="8"/>rare. —lmo existimo ipsas purgatorii animas
+          <lb ed="#P" n="9"/>posse adorare et colere Deum, ipsammet 
+          de<lb break="no" ed="#P" n="10"/>tentionem in illo loco, et passionem ab igne
+          <lb ed="#P" n="11"/>in Deum referendo. Nam sicut violenta 
+          de<lb break="no" ed="#P" n="12"/>tentio in animabus damnatis habet veram 
+          ra<lb break="no" ed="#P" n="13"/>tionem poena, et coacta humiliationis, eo
+          <lb ed="#P" n="14"/>quod sit detentio in loco infimo et vilissimo,
+          <lb ed="#P" n="15"/>repugnante voluntate, ita, e converso, 
+          vo<lb break="no" ed="#P" n="16"/>luntaria detentio in loco illo poenali, sicut
+          <lb ed="#P" n="17"/>habet quamdam rationem voluntariae poenae,
+          <lb ed="#P" n="18"/>ita potest assumi ut nota et signum debitae
+          <lb ed="#P" n="19"/>subjectionis ad Deum, potestque illi offerri in
+          <lb ed="#P" n="20"/>recognitionem supremi dominii, et potestatis
+          <lb ed="#P" n="21"/>ejus. Quamvis enim illa detentio, seu 
+          perma<lb break="no" ed="#P" n="22"/>nentia in illo loco, fortasse non sit ex 
+          impe<lb break="no" ed="#P" n="23"/>rio proprio ipsarum animarum, nec sit in 
+          po<lb break="no" ed="#P" n="24"/>testate earum inde discedere, nihilominus
+          <lb ed="#P" n="25"/>potest esse objective voluntaria, et hoc satis
+          <lb ed="#P" n="26"/>est ut per eamdem voluntatem ordinetur in
+          <lb ed="#P" n="27"/>cultum et adorationem Dei. Sicut passio 
+          Mar<lb break="no" ed="#P" n="28"/>tyris, vel etiam Christi Domini, non erat 
+          ef<lb break="no" ed="#P" n="29"/>fective a voluntate ejus, sed a militibus seu
+          <lb ed="#P" n="30"/>ministris; erat tamen objective voluntaria;
+          <lb ed="#P" n="31"/>et hoc satis fuit ut per modum cultus 
+          sacri<lb break="no" ed="#P" n="32"/>ficium potuerit Deo offerre. His ergo modis
+          <lb ed="#P" n="33"/>potest in spiritibus separatis, seu Angelis,
+          <lb ed="#P" n="34"/>intelligi cultus et adoratio per actus 
+          exter<lb break="no" ed="#P" n="35"/>nos, seu imperatos, seu voluntarie ordinatos
+          <lb ed="#P" n="36"/>in recognitionem divinae excellentiae.
+        </p>
+        <p>
+          <lb ed="#P" n="37"/>12. Tam interna, quam externa adoratio
+          <lb ed="#P" n="38"/>Dei est de praecepto naturali. — Eaplicatur
+          <lb ed="#P" n="39"/>queestio, et proponitur triples adoratio.—bico
+          <lb ed="#P" n="40"/>tertio utramque adorationem Dei, tam 
+          spiri<lb break="no" ed="#P" n="41"/>tualem, quam corporalem, esse homini in
+          <lb ed="#P" n="42"/>praecepto ex vi ipsius legis naturalis. Loquor
+          <lb ed="#P" n="43"/>de hominibus, quia de Angelis dicta 
+          suffi<lb break="no" ed="#P" n="44"/>ciunt. Est ergo haec veritas certa omnino, et
+          <lb ed="#P" n="45"/>communis : ut autem illam probemus, prius
+          <lb ed="#P" n="46"/>explicanda est. Distinguere enim possumus
+          <lb ed="#P" n="47"/>duplicem, vel, ut alii volunt, triplicem 
+          ado<lb break="no" ed="#P" n="48"/>rationem, pure spiritualem, constantem ex
+          <lb ed="#P" n="49"/>spirituali et corporali, et pure corporalem.
+          <lb ed="#P" n="50"/>Ego vero hanc tertiam praetermitto, quia vera
+          <lb ed="#P" n="51"/>non est, sed ficta. Ut enim exterior adoratio
+          <lb ed="#P" n="52"/>vera sit, debet vere significare talem 
+          existi<lb break="no" ed="#P" n="53"/>mationem de excellentia rei adoratae, qualem
+          <lb ed="#P" n="54"/>exteriores actiones significant, et procedere
+          <lb ed="#P" n="55"/>ex voluntate et affectu illam profitendi, pam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>si haec conformitas signi cum interiori mente
+          <lb ed="#P" n="57"/>deficiat, fictio est et mendacium, non vera
+          <lb ed="#P" n="58"/>adoratio, ut recte dixit Chrysostomus, homil.
+          <lb ed="#P" n="59"/>8 in Matth. Si autem externum signum ex
+          <lb ed="#P" n="60"/>tali mente procedat, vocamus illam 
+          adoratio<lb break="no" ed="#P" n="61"/>nem mistam, ex corpore et spiritu 
+          composi<lb break="no" ed="#P" n="62"/>tam. Pure autem spiritualis est, quando sine
+          <lb ed="#P" n="63"/>corporali signo Deus mente colitur, ut in 
+          pri<lb break="no" ed="#P" n="64"/>ma assertione explicatum est. Quod ergo ad
+          <lb ed="#P" n="65"/>fictam adorationem attinet, non solum 
+          prae<lb break="no" ed="#P" n="66"/>cepta non est, verum etiam est omnino 
+          pro<lb break="no" ed="#P" n="67"/>hibita, tanquam continens perniciosum 
+          men<lb break="no" ed="#P" n="68"/>dacium, ut infra dicemus. Adoratio autem
+          <lb ed="#P" n="69"/>pure spiritualis non est in hac vita 
+          determi<lb break="no" ed="#P" n="70"/>nate praecepta hominibus, quia si semper
+          <lb ed="#P" n="71"/>colamus Deum adoratione mista, satis 
+          imple<lb break="no" ed="#P" n="72"/>mus obhgationem colendi Deum; nam, licet
+          <lb ed="#P" n="73"/>adoremus corpore, simul adoramus ipsum in
+          <lb ed="#P" n="74"/>spiritu et veritate. Et ideo dixi non praecipi
+          <lb ed="#P" n="75"/>puram spiritualem adorationem determinate,
+          <lb ed="#P" n="76"/>quia, licet praecepto adorandi Deum saepe 
+          sa<lb break="no" ed="#P" n="77"/>tisfieri possit per solam internam 
+          adoratio<lb break="no" ed="#P" n="78"/>nem, nunquam tamen nobis praeceptum est
+          <lb ed="#P" n="79"/>ut in illa sola sistamus, et ita quoad illam
+          <lb ed="#P" n="80"/>particulam pura, non est determinate 
+          prae<lb break="no" ed="#P" n="81"/>cepta, quia non est prohibitum quin semper
+          <lb ed="#P" n="82"/>conjungi cum illa possit corporalis adoratio.
+          <lb ed="#P" n="83"/>Nullibi enim talis prohibitio reperitur, nec
+          <lb ed="#P" n="84"/>ratione aliqua naturali ostendi potest, nec
+          <lb ed="#P" n="85"/>est cur homini prohibeatur semper operari
+          <lb ed="#P" n="86"/>modo faciliori, magisque accommodato 
+          na<lb break="no" ed="#P" n="87"/>turae suae.
+        </p>
+        <p>
+          <lb ed="#P" n="88"/>13. Quomodo adoratio mista sit homini 
+          pree<lb break="no" ed="#P" n="89"/>cepta. — At vero e contrario adoratio mista,
+          <lb ed="#P" n="90"/>seu exterior, est homini determinate 
+          praece<lb break="no" ed="#P" n="91"/>pta, etiam ex lege naturae. Quod non est ita
+          <lb ed="#P" n="92"/>intelligendum, ut existimetur homo obligari
+          <lb ed="#P" n="93"/>ad utendum semper hoc genere adorationis:
+          <lb ed="#P" n="94"/>est enim hoc praeceptum aflfirmativum, quod
+          <lb ed="#P" n="95"/>non pro semper obligat; et sicut potest homo
+          <lb ed="#P" n="96"/>in multis temporibus non adorare Deum, ita
+          <lb ed="#P" n="97"/>potest, si velit, sape adorare sola mente sine
+          <lb ed="#P" n="98"/>usu membrorum corporis, quia illa adoratio
+          <lb ed="#P" n="99"/>est prior, et abstractior, et non pendet a 
+          pos<lb break="no" ed="#P" n="100"/>teriori, neque ut ftiat, neque ut honestissime
+          <lb ed="#P" n="101"/>fiat. Imo utilissimum est saepe exerccere 
+          ani<lb break="no" ed="#P" n="102"/>mum in hoc adorationis modo, vel ut 
+          assues<lb break="no" ed="#P" n="103"/>cat ad rerum spiritualium contemplationem
+          <lb ed="#P" n="104"/>et usum, vel ut saepius ac frequentius possit
+          <lb ed="#P" n="105"/>adorare Deum, etiam ubi non est commoditas
+          <lb ed="#P" n="106"/>exercendi externa signa adorationis. Quod
+          <lb ed="#P" n="107"/>ergo dicimus, est obligari homines ex lege
+          <lb ed="#P" n="108"/>natura,, ut interdum etiam corpore Deum
+          <lb ed="#P" n="109"/>adorent, quia, cum animo et corpore 
+          con<lb break="no" ed="#P" n="110"/>stent, et utrumque a Deo habeant, utrumque
+          <pb ed="#P" n="82"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>debent Deo exhibere hostiam viventem, ac
+          <lb ed="#P" n="2"/>ei placentem in cultum et adorationem ejus.
+          <lb ed="#P" n="3"/>Item quia, moraliter loquendo, et humano
+          <lb ed="#P" n="4"/>modo, non facile potest homo reverenter ad
+          <lb ed="#P" n="5"/>Deum accedere, nisi corpore ipso signa 
+          re<lb break="no" ed="#P" n="6"/>verentiae exhibeat, et per corpus ipsum 
+          ani<lb break="no" ed="#P" n="7"/>mum componat: hic est enim modus homini
+          <lb ed="#P" n="8"/>maxime connaturalis, et licet interdum possit
+          <lb ed="#P" n="9"/>per spiritum ad Deum ascendere sine 
+          de<lb break="no" ed="#P" n="10"/>monstratione corporis, raro tamen, et post
+          <lb ed="#P" n="11"/>longam consuetudinem ; et ideo cultus 
+          exte<lb break="no" ed="#P" n="12"/>rior homini praecipitur tanquam maxime 
+          con<lb break="no" ed="#P" n="13"/>naturalis. Denique quod Paulus dixit: Corde
+          <lb ed="#P" n="14"/>creditur ad justitiam, ore autem confessio fit ad
+          <lb ed="#P" n="15"/>salutem, ad cultum etiam religiosum Dei 
+          ap<lb break="no" ed="#P" n="16"/>plicari potest ; oportet enim ut homo exterius
+          <lb ed="#P" n="17"/>se ostendat Dei servum et cultorem, et hoc
+          <lb ed="#P" n="18"/>etiam ipsa ratio naturalis dictat: ostendit 
+          au<lb break="no" ed="#P" n="19"/>tem se talem per veri Dei verum cultum 
+          exter<lb break="no" ed="#P" n="20"/>num. Est ergo haec adoratio sub naturalis 
+          le<lb break="no" ed="#P" n="21"/>gis obligatione.
+        </p>
+        <p>
+          <lb ed="#P" n="22"/>14. Objectio.— Dices : si de hoc divino 
+          cul<lb break="no" ed="#P" n="23"/>tu datum est naturale praeceptum, quomodo
+          <lb ed="#P" n="24"/>in Decalogo, inter praecepta primae tabulae,
+          <lb ed="#P" n="25"/>quae ad Deum pertinent, datum non est? In
+          <lb ed="#P" n="26"/>illa enim tabula tantum tria praecepta scripta
+          <lb ed="#P" n="27"/>esse legimus, ex quibus duo priora, quae 
+          mo<lb break="no" ed="#P" n="28"/>ralia erant, negativa fuere: JVon habebis Deos
+          <lb ed="#P" n="29"/>alienos coram me, etinon assumes nomen 
+          Do<lb break="no" ed="#P" n="30"/>mini Dei tui in vanum. Tertium vero, quod
+          <lb ed="#P" n="31"/>affirmativum fuit, de sabbathi sanctificatione,
+          <lb ed="#P" n="32"/>non fuit morale, sed caeremoniale; propterea
+          <lb ed="#P" n="33"/>enim cessavit, et non servatur, ut docuit 
+          lre<lb break="no" ed="#P" n="34"/>naeus, lib. 4 contra Haeres., cap. 31; et 
+          Au<lb break="no" ed="#P" n="35"/>gustinus, 19 contra Faustum, cap. 18, et lib.
+          <lb ed="#P" n="36"/>3 contra duas epistolas Pelagianorum, cap.
+          <lb ed="#P" n="37"/>4. Respondeo praeceptum hoc naturale, de
+          <lb ed="#P" n="38"/>quo hic agimus, in primo praecepto Decalogi
+          <lb ed="#P" n="39"/>indicari, et ad tertium etiam posse reduci, nec
+          <lb ed="#P" n="40"/>fuisse necessarium ut expressius traderetur.
+          <lb ed="#P" n="41"/>Primum patet, quia, licet primum 
+          praece<lb break="no" ed="#P" n="42"/>ptum per formam negationis detur, supponit
+          <lb ed="#P" n="43"/>et virtute includit affirmationem, in qua illa
+          <lb ed="#P" n="44"/>negatio fundatur; ideo enim idololatria 
+          prohi<lb break="no" ed="#P" n="45"/>betur, quia cultus, vero Deo debitus, non est
+          <lb ed="#P" n="46"/>ad falsos Deos transferendus. Et sic 
+          significa<lb break="no" ed="#P" n="47"/>tum est in ipsa forma praecepti, in verbo 
+          co<lb break="no" ed="#P" n="48"/>ramn me ; perinde enim fuit ac si diceret Deus:
+          <lb ed="#P" n="49"/>Me solum habebis tanquam verum Deum
+          <lb ed="#P" n="50"/>quem colas, neque alium in consortium 
+          dei<lb break="no" ed="#P" n="51"/>tatis mecum tibi propones.
+        </p>
+        <p>
+          <lb ed="#P" n="52"/>15. Abulens. sensus verborum primi 
+          praece<lb break="no" ed="#P" n="53"/>pti Decalogi. — Hinc Hebraei (ut Abulens. ibi,
+          <lb ed="#P" n="54"/>quaest. 2, refert) dixerunt verba illa: Fgo sum
+          <lb ed="#P" n="55"/>Dominus Deus tuus, quae praecedunt ante il-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lam negationem: Non habebis Deos alienos
+          <lb ed="#P" n="57"/>coram me, continere primum praeceptum 
+          De<lb break="no" ed="#P" n="58"/>calogi, et illud esse affirmativum de 
+          adora<lb break="no" ed="#P" n="59"/>tione Dei, et sequens negavtium esse 
+          se<lb break="no" ed="#P" n="60"/>cundum. Ouinimo etiam Hieronymus, Oseae
+          <lb ed="#P" n="61"/>10, circa illa verba : Corripientur propter duas
+          <lb ed="#P" n="62"/>iniqitates suas, dicit illas duas iniquitates
+          <lb ed="#P" n="63"/>populi Israel, fuisse contra duo preecepta 
+          Deca<lb break="no" ed="#P" n="64"/>logi- Ego sum Dominus Deus tuus, et: Non
+          <lb ed="#P" n="65"/>habebis Deos alienos. Sicut etiam illa 
+          praece<lb break="no" ed="#P" n="66"/>pta distinxit Esichius, Levitici vigesimo sexto,
+          <lb ed="#P" n="67"/>quem refert D. Thomas 1. 2, quaestione 
+          cen<lb break="no" ed="#P" n="68"/>tesima, articulo quarto. Verumtamen, licet
+          <lb ed="#P" n="69"/>non sit hoc admittendum, tum quia verba
+          <lb ed="#P" n="70"/>illa non habent formam praecepti, nullum enim
+          <lb ed="#P" n="71"/>verbum praeceptivum continent; tum etiam
+          <lb ed="#P" n="72"/>quia alias plura essent praecepta Decalogi
+          <lb ed="#P" n="73"/>quam decem, contra id quod habetur Exod.
+          <lb ed="#P" n="74"/>31 et 34, et Deut. 4; nihilominus verum est in
+          <lb ed="#P" n="75"/>verbis illis insinuatum esse, Deum verum esse
+          <lb ed="#P" n="76"/>singulariter colendum et adorandum, et hoc
+          <lb ed="#P" n="77"/>fuisse propositum, et in memoriam redactum,
+          <lb ed="#P" n="78"/>ut inde facile intelligeretur ratio praecepti 
+          ne<lb break="no" ed="#P" n="79"/>gativi statim subjuncti: lVon habebis Daeos
+          <lb ed="#P" n="80"/>alienos. Unde D. Thomas, art. 4, ait, comn 
+          scri<lb break="no" ed="#P" n="81"/>ptum sit Matth. 1 Nemo potest duobus domimis
+          <lb ed="#P" n="82"/>servire, ejusdem rationis esse, et sub eodem
+          <lb ed="#P" n="83"/>praecepto cadere : Ego sum Dominus Deus tuus,
+          <lb ed="#P" n="84"/>et : Non habebis Deos alienos.
+        </p>
+        <p>
+          <lb ed="#P" n="85"/>16. An tertium praeceptum Decalogi sit 
+          mo<lb break="no" ed="#P" n="86"/>rale. — Secundum patet, quia tertium 
+          prae<lb break="no" ed="#P" n="87"/>ceptum, licet quoad determinationem diei
+          <lb ed="#P" n="88"/>sabbathi caeremoniale sit, ut citati Sancti 
+          do<lb break="no" ed="#P" n="89"/>cent, et est per se clarum, tamen quoad 
+          sub<lb break="no" ed="#P" n="90"/>stantiam est morale, quatenus praecipit ut
+          <lb ed="#P" n="91"/>per aliquod tempus divino cultui et 
+          adoratio<lb break="no" ed="#P" n="92"/>ni vacemus, ut recte D. Thomas 1. 2, q. 100,
+          <lb ed="#P" n="93"/>art. 3, ad 2; et Abulens., quaest. 3, et latius
+          <lb ed="#P" n="94"/>in 11, in cap. 20 Exodi, ubi ait, ibi preecipi
+          <lb ed="#P" n="95"/>etiam aliquam externam Dei adorationem,
+          <lb ed="#P" n="96"/>quia propter illam praecipiebatur vacatio ab
+          <lb ed="#P" n="97"/>operibus, non propter corporis otium ; et ideo
+          <lb ed="#P" n="98"/>in eodem praecepto dicitur: Memento ut diem
+          <lb ed="#P" n="99"/>sabbathi sanctifices ; sanctificatur enim dies
+          <lb ed="#P" n="100"/>per opera religionis, quae iu eo exercenda
+          <lb ed="#P" n="101"/>sunt. Et ideo etiam erravit Esichius, ut D.
+          <lb ed="#P" n="102"/>Thomas notat, dicto art. 4, excludens 
+          praece<lb break="no" ed="#P" n="103"/>ptum de sabbathi sanctificatione, a praeceptis
+          <lb ed="#P" n="104"/>Decalogi, eo quod caeremoniale sit. Nam 
+          prae<lb break="no" ed="#P" n="105"/>terquam quod hoc repugnat contextui 
+          Scri<lb break="no" ed="#P" n="106"/>pturae, est contra communem sententiam 
+          Pa<lb break="no" ed="#P" n="107"/>trum, et sensum totius Ecclesia, et contra
+          <lb ed="#P" n="108"/>rationem ; quia (ut dixi) praeceptum illud non
+          <lb ed="#P" n="109"/>tantum caeremoniale est, sed etiam morale,
+          <lb ed="#P" n="110"/>et ideo ex illa parte potuit optime inter prae-
+          <pb ed="#P" n="83"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cepta Decalogi poni. Et fuit etiam conveniens,
+          <lb ed="#P" n="2"/>quoniam in illo praecepto indicatur servitus
+          <lb ed="#P" n="3"/>Deo debita in recognitionem beneficiorum
+          <lb ed="#P" n="4"/>ejus, ut D. Thomas ait, dicto articulo 4 et 5;
+          <lb ed="#P" n="5"/>et ideo debuit ab ipso Deo tradi inter illa 
+          de<lb break="no" ed="#P" n="6"/>cem verba, quae in Tabulis digito suo scripsit.
+        </p>
+        <p>
+          <lb ed="#P" n="7"/>17. Adorationem Dei non fuit necesse tradi
+          <lb ed="#P" n="8"/>expressius in Decalogo. — Tertium, videlicet
+          <lb ed="#P" n="9"/>non fuisse necessarium praeceptum hoc 
+          ado<lb break="no" ed="#P" n="10"/>randi Deum, clarius et expressius tradi in
+          <lb ed="#P" n="11"/>Decalogo, probatur ab Abulens. supra, 
+          quaes<lb break="no" ed="#P" n="12"/>tione 2, quia praeceptum affirmativum 
+          colen<lb break="no" ed="#P" n="13"/>di Deum non est unum, sed multiples, nam
+          <lb ed="#P" n="14"/>complectitur praecepta fidei, spei et 
+          charita<lb break="no" ed="#P" n="15"/>tis, quibus maxime colitur Deus, teste 
+          Augus<lb break="no" ed="#P" n="16"/>tino, in Enchir., cap. 3 et 5, et lib. 12 de 
+          Tri<lb break="no" ed="#P" n="17"/>nitate, cap. 14. Sed hoc parum urget, nam
+          <lb ed="#P" n="18"/>licet praeceptum adorandi Deum possit esse
+          <lb ed="#P" n="19"/>generale, quoad materiam qua potest homo
+          <lb ed="#P" n="20"/>uti ad colendum Deum, nihilominus 
+          formali<lb break="no" ed="#P" n="21"/>ter, et sub ratione adorationis et religiosi 
+          cul<lb break="no" ed="#P" n="22"/>tus, potest esse speciale, saltem specie 
+          sub<lb break="no" ed="#P" n="23"/>alterna pertinente ad virtutem religionis,
+          <lb ed="#P" n="24"/>juxta illa quae de actibus hujus virtutis 
+          prae<lb break="no" ed="#P" n="25"/>cedenti tractatu diximus. Aliter ergo D. 
+          Tho<lb break="no" ed="#P" n="26"/>mas, dicta quaest. 100, articulo 4, ad 2, ait
+          <lb ed="#P" n="27"/>praeceptum affirmativum non distingui a 
+          ne<lb break="no" ed="#P" n="28"/>gativo, quando unum comprehenditur sub
+          <lb ed="#P" n="29"/>alio, sicut non est aliud praeceptum 
+          restituen<lb break="no" ed="#P" n="30"/>di a praecepto non furandi; hic autem 
+          prae<lb break="no" ed="#P" n="31"/>ceptum adorandi Deum, et non colendi alium
+          <lb ed="#P" n="32"/>Deum, ita comparari, ut unum sub alio 
+          com<lb break="no" ed="#P" n="33"/>prehendatur. Addo vero illud ipsum 
+          praece<lb break="no" ed="#P" n="34"/>ptum magis fuisse explicatum in primo 
+          prae<lb break="no" ed="#P" n="35"/>cepto per negationem, quam per 
+          affirmatio<lb break="no" ed="#P" n="36"/>nem; quia tam naturale est homini adorare
+          <lb ed="#P" n="37"/>Deum, ut solum fuerit necessarium 
+          impedi<lb break="no" ed="#P" n="38"/>menta removere; quod factum est per illam
+          <lb ed="#P" n="39"/>prohibitionem, quae illi populo, et illo 
+          tempo<lb break="no" ed="#P" n="40"/>re fuit maxime necessaria propter pronitatem
+          <lb ed="#P" n="41"/>ad idololatriam, quam ex consuetudine et
+          <lb ed="#P" n="42"/>conyersatione cum gentibus conceperat. 
+          Abla<lb break="no" ed="#P" n="43"/>to autem impedimento, solum oportuit 
+          cer<lb break="no" ed="#P" n="44"/>tum aliquod tempus exigere ad cultum Dei
+          <lb ed="#P" n="45"/>exercendum, quod in tertio praecepto factum
+          <lb ed="#P" n="46"/>est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 16</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 16</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="317"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k07923"><!-- t2-l2c16 -->
+        <head>Caput 16</head>
+        <head type="question-title">An in die festo alue actiones sacrae sint in praecepto.</head>
+        <p>
+          <lb ed="#P" n="86"/>CAPUT XVI.
+          <lb ed="#P" n="87"/>AN IN DIE FESTO ALUE ACTIONES SACRAE SINT IN
+          <lb ed="#P" n="88"/>PRAECEPTO.
+        </p>
+        <p>
+          <lb ed="#P" n="89"/>1. Hoc preceptum, quatenus affirmativum,
+          <lb ed="#P" n="90"/>nilil ultra jubet. — Regula generalis est, hoc
+          <lb ed="#P" n="91"/>praeceptum colendi Deum in die festo, 
+          quate<lb break="no" ed="#P" n="92"/>nus affirmativum est, non obligare ad 
+          exer<lb break="no" ed="#P" n="93"/>cendum intra illum diem alium actum divini
+          <lb ed="#P" n="94"/>cultus, sive internum, sive externum, praeter
+          <lb ed="#P" n="95"/>missam. Assertio est communis, praeter 
+          pau<lb break="no" ed="#P" n="96"/>cos auctores, in uno vel alio puncto, quod 
+          sta<lb break="no" ed="#P" n="97"/>tim indicabo. Ratio autem unica est, quia 
+          Ec<lb break="no" ed="#P" n="98"/>clesia nihil aliud praecepit, quia nec scriptum
+          <lb ed="#P" n="99"/>invenitur tale praeceptum, nec traditione, seu
+          <lb ed="#P" n="100"/>consuetudine habetur, et qui oppositum 
+          sen<lb break="no" ed="#P" n="101"/>serit, oportet ut alterutrum horum ostendat ;
+          <lb ed="#P" n="102"/>melius autem hoc probabitur discurrendo per
+          <lb ed="#P" n="103"/>alias obligationes illius diei, quae vel ab aliis
+          <lb ed="#P" n="104"/>assertae sunt, vel excogitari possunt.
+        </p>
+        <p>
+          <lb ed="#P" n="105"/>2. An ad hoc spectet communicatio in die
+          <lb ed="#P" n="106"/>Paschatis. — Prima exceptio et singularis est
+          <lb ed="#P" n="107"/>de die Paschatis, iu qua obligamur ad commu-
+          <pb ed="#P" n="318"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nicandum, qui est actus religionis, et ad 
+          cul<lb break="no" ed="#P" n="2"/>tum Dei spectans. Adde, in Can. 10 
+          Apostolo<lb break="no" ed="#P" n="3"/>rum, dici communione privandos esse illos,
+          <lb ed="#P" n="4"/>qui in solemnitatibus sacris ab Ecclesia 
+          dis<lb break="no" ed="#P" n="5"/>cedunt, antequam missa peragatur, et 
+          sanc<lb break="no" ed="#P" n="6"/>tam communionem percipiant. Sed hoc non
+          <lb ed="#P" n="7"/>est ad rem, quia illa obligatio non est ex vi 
+          prae<lb break="no" ed="#P" n="8"/>cepti observandi festum, sed ex vi alterius
+          <lb ed="#P" n="9"/>praecepti, cui accidentarium est, quod tempus
+          <lb ed="#P" n="10"/>illud, pro quo actus praecipitur, feriatum sit.
+          <lb ed="#P" n="11"/>Unde, qui non communicat illo die, si missam
+          <lb ed="#P" n="12"/>audit, nullo modo peccat contra hoc 
+          praece<lb break="no" ed="#P" n="13"/>ptum, sed contra aliud. Adde, jam illud 
+          prae<lb break="no" ed="#P" n="14"/>ceptum non esse determinatum ad diem 
+          fes<lb break="no" ed="#P" n="15"/>tum ; nam potest in diebus profestis 
+          antece<lb break="no" ed="#P" n="16"/>dentis sequentisque hebdomadae sufhicienter
+          <lb ed="#P" n="17"/>impleri. Multo vero magis consuetudine 
+          su<lb break="no" ed="#P" n="18"/>blatum est id, quod de communione videtur
+          <lb ed="#P" n="19"/>fuisse ordinatum in illo Canone Apostolorum,
+          <lb ed="#P" n="20"/>si in hunc modum intelligatur; habere enim
+          <lb ed="#P" n="21"/>potest alios sensus, ut in 3 tom. tertiae part.,
+          <lb ed="#P" n="22"/>disp. 69, sect. 3, circa finem, diligentius 
+          per<lb break="no" ed="#P" n="23"/>ractavi.
+        </p>
+        <p>
+          <lb ed="#P" n="24"/>3. Sitne praeceptum orandi in festo. — 
+          Se<lb break="no" ed="#P" n="25"/>cunda instantia esse potest de actibus 
+          oratio<lb break="no" ed="#P" n="26"/>nis distinctis a missa; nam in jure distincte
+          <lb ed="#P" n="27"/>haec praeci piuntur ; in dicto enim cap. 8 sextae
+          <lb ed="#P" n="28"/>Synodi dicitur : Diei domimici tanta debet esse
+          <lb ed="#P" n="29"/>observantia, ut preter orationes, et missarum
+          <lb ed="#P" n="30"/>solemnia, et ea qua ad vescendum pertinent,
+          <lb ed="#P" n="31"/>nihil aliud fiat ; et infra in necessitate datur
+          <lb ed="#P" n="32"/>licentia iter agendi: 7ta duntaaat, ut hujus
+          <lb ed="#P" n="33"/>occasione, missae et orationes non 
+          praetermit<lb break="no" ed="#P" n="34"/>tantur. Ergo orationes sub eadem necessitate
+          <lb ed="#P" n="35"/>qua missa constituuntur. Quod autem illae
+          <lb ed="#P" n="36"/>orationes a missa distinctae esse debeant, 
+          pa<lb break="no" ed="#P" n="37"/>tet, tum ex accurata numeratione illarum, ut
+          <lb ed="#P" n="38"/>distinctarum ; tum ex eo quod missa parvam
+          <lb ed="#P" n="39"/>diei partem occupat, orationes pro toto illo
+          <lb ed="#P" n="40"/>die imponuntur. Ad hoc etiam facit, quod in
+          <lb ed="#P" n="41"/>Concilio Triburi.,sub Arnulpho, capit. 35, 
+          di<lb break="no" ed="#P" n="42"/>citur: Diebus dominicis et Sanctorum festis,
+          <lb ed="#P" n="43"/>vigiliis et orationibus vnsistendum, et ad 
+          mis<lb break="no" ed="#P" n="44"/>sas cuilibet Christiuno cum oblationibus est
+          <lb ed="#P" n="45"/>currendum. Multaque similia leguntur in 
+          Con<lb break="no" ed="#P" n="46"/>cil. Matiscon. I, cap. 1. Atque in hanc partem
+          <lb ed="#P" n="47"/>videtur inclinare Abulens., quaest. 13, in cap.
+          <lb ed="#P" n="48"/>20 Exod. ; nam reprehendit eos, qui dicunt
+          <lb ed="#P" n="49"/>hoc praeceptum solum obligare ad vacandum
+          <lb ed="#P" n="50"/>privative a laboribus corporalibus, non vero
+          <lb ed="#P" n="51"/>ad vacandum positive Deo per orationes, etc.
+          <lb ed="#P" n="52"/>Inferius autem videtur id limitare, dicens, per
+          <lb ed="#P" n="53"/>orationes, vel misse auditionem. Sed nec illa
+          <lb ed="#P" n="54"/>disjunctio est nesessaria, quia praeceptum 
+          de<lb break="no" ed="#P" n="55"/>finite est de missa audienda, et de oratione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quam intrinsece includit, cum attente auditur,
+          <lb ed="#P" n="57"/>et non de alio actu.
+        </p>
+        <p>
+          <lb ed="#P" n="58"/>4. Pars negativa approbatur. — Dicendum
+          <lb ed="#P" n="59"/>ergo est hoc praeceptum non obligare ad alias
+          <lb ed="#P" n="60"/>orationes fundendas in die festo, praeter eas,
+          <lb ed="#P" n="61"/>quae in missa dicuntur, assistendo, et 
+          attenden<lb break="no" ed="#P" n="62"/>do ad illas. Hoc patet ex usu Ecclesiae, et ex d.
+          <lb ed="#P" n="63"/>can. Omnes fideles, qui est decimus 
+          Apostolo<lb break="no" ed="#P" n="64"/>rum, per quem interpretandum est c. 8 sextae
+          <lb ed="#P" n="65"/>Synodi; dicitur enim ibi: Omnes fideles, qui
+          <lb ed="#P" n="66"/>conveniunt in solemnitatibus sacris ad 
+          Hccle<lb break="no" ed="#P" n="67"/>sian, et Scripturas Apostolorum et 
+          Evange<lb break="no" ed="#P" n="68"/>Lium audiant, qui autem non perseverant in
+          <lb ed="#P" n="69"/>oratione, usque dum missa peragatur , etc.,
+          <lb ed="#P" n="70"/>commnunione privari ; ex quibus verbis constat,
+          <lb ed="#P" n="71"/>non praecipi alias orationes ex vi hujus 
+          prae<lb break="no" ed="#P" n="72"/>cepti, praeter illam quae in missa fit, in qua
+          <lb ed="#P" n="73"/>jubentur fideles perseverare, quia cum debita
+          <lb ed="#P" n="74"/>attentione debent illi assistere. Possuntque, si
+          <lb ed="#P" n="75"/>velint, alias orationes privatas pro sua 
+          devo<lb break="no" ed="#P" n="76"/>tione ibi dicere, ut in alio loco ostendi ; non
+          <lb ed="#P" n="77"/>tamen tenentur, sed attendendo orationibus
+          <lb ed="#P" n="78"/>sacerdotis, praecepto satisfaciunt. Extra 
+          tem<lb break="no" ed="#P" n="79"/>pus autem missae non tenentur aliis pubhcis
+          <lb ed="#P" n="80"/>orationibus Ecclesiae, seu horis canonicis 
+          as<lb break="no" ed="#P" n="81"/>sistere, ut infra tractando de horis canonicis
+          <lb ed="#P" n="82"/>videbimus. Nec etiam tenentur privatas 
+          ora<lb break="no" ed="#P" n="83"/>tiones domi aut in ecclesia dicere, quia, licet
+          <lb ed="#P" n="84"/>hoc optimum sit et consulendum, non est 
+          po<lb break="no" ed="#P" n="85"/>situm sub obligatione praecepti. Cujus signum
+          <lb ed="#P" n="86"/>etiam est, quia praeceptum positivum de 
+          ali<lb break="no" ed="#P" n="87"/>quo actu exercendo semper datur de actu, et
+          <lb ed="#P" n="88"/>duratione determinata ; Ecclesia vero nullum
+          <lb ed="#P" n="89"/>orationis tempus praescripsit fidelibus pro die
+          <lb ed="#P" n="90"/>dominico aut festo extra missam, nec quid
+          <lb ed="#P" n="91"/>orare debeant determinavit ; nullum ergo est
+          <lb ed="#P" n="92"/>tale praeceptum. Canones ergo, qui de 
+          oratio<lb break="no" ed="#P" n="93"/>nibus loquuntur, vel intelliguntur de 
+          oratio<lb break="no" ed="#P" n="94"/>nibus quae in ipsa missa fiunt, vel, si de aliis
+          <lb ed="#P" n="95"/>inteligantur, continent consilium, non 
+          prae<lb break="no" ed="#P" n="96"/>ceptum, aut certe indicant tantum finem 
+          prae<lb break="no" ed="#P" n="97"/>cepti, ut dixit Sylvest., verb. Dominica, q. 6,
+          <lb ed="#P" n="98"/>qui finis non cadit semper sub praeceptum,
+          <lb ed="#P" n="99"/>juxta doctrinam communem D. Thomae 1. 2,
+          <lb ed="#P" n="100"/>quaest. 100, art. 9.
+        </p>
+        <p>
+          <lb ed="#P" n="101"/>5. Obligenturne fideles ad concionem in festo.
+          <lb ed="#P" n="102"/>— Tertia instantia esse potest de auditione
+          <lb ed="#P" n="103"/>sacrae concionis. Videntur enim obligari 
+          fide<lb break="no" ed="#P" n="104"/>les ad audiendam concionem in die festo,
+          <lb ed="#P" n="105"/>quando in publico eccl.siae conventu fit: 
+          dici<lb break="no" ed="#P" n="106"/>tur enim in Concilio Carthag. IV, cap. 24:
+          <lb ed="#P" n="107"/>Sacerdote verbum Dei in ecclesia faciente, qua
+          <lb ed="#P" n="108"/>egressus de auditorio fuerit, escommunicetur,
+          <lb ed="#P" n="109"/>c. Sacerdote, de Consecrat., dist. 1; et incap.
+          <lb ed="#P" n="110"/>Omnes fideles, ex dict. Can. 10 Apostolorum,
+          <pb ed="#P" n="319"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dicitur debere fideles, qui ad missas 
+          conve<lb break="no" ed="#P" n="2"/>niunt, Sanctas Scripturas audire. Accedit,
+          <lb ed="#P" n="3"/>quod, teste Augustino, lib. 50 Hom., hom. 26,
+          <lb ed="#P" n="4"/>non est minus verbum Dei, quam corpus
+          <lb ed="#P" n="5"/>Christi : habetur in cap. nterrogo, 1. q. 1;
+          <lb ed="#P" n="6"/>unde ipse infert non minus reum esse, qui
+          <lb ed="#P" n="7"/>verbum Dei negligenter audierit, quam qui
+          <lb ed="#P" n="8"/>corpus Christi indigne tractaverit; ergo 
+          simi<lb break="no" ed="#P" n="9"/>liter non minus reus erit, qui concionem non
+          <lb ed="#P" n="10"/>audierit, quam qui missam omiserit. 
+          Praeter<lb break="no" ed="#P" n="11"/>ea, pabulum verbi Dei maxime est fidelibus
+          <lb ed="#P" n="12"/>necessarium, ut dicitur in cap. 7nter catera,
+          <lb ed="#P" n="13"/>de Offic. ordin., ex Concilio Lateran., sub 
+          In<lb break="no" ed="#P" n="14"/>nocentio IlI, cap. 10; ergo non minus, sed
+          <lb ed="#P" n="15"/>magis debet quam missa praecipi. Propter
+          <lb ed="#P" n="16"/>quod aliqui Doctores dixerunt, in die festo
+          <lb ed="#P" n="17"/>praeferendam esse sacram concionem missae,
+          <lb ed="#P" n="18"/>si utraque simul audiri non possit. Denique in
+          <lb ed="#P" n="19"/>Concilio Tridentino, sessione 24, cap. 4, de
+          <lb ed="#P" n="20"/>Reform., sic dicitur: Moneat Episcopus 
+          popu<lb break="no" ed="#P" n="21"/>lIum diligenter, teneri unumquemque parochie
+          <lb ed="#P" n="22"/>suee interesse, uli commode id fieri potest, ad
+          <lb ed="#P" n="23"/>audiendum cerbum Dei. Est ergo hoc in 
+          prae<lb break="no" ed="#P" n="24"/>cepto.
+        </p>
+        <p>
+          <lb ed="#P" n="25"/>6. Non esse in praecepto concionem. — 
+          Ob<lb break="no" ed="#P" n="26"/>jectio. — Solvitur. — Dico tamen nullum esse
+          <lb ed="#P" n="27"/>praeceptum quod obliget in rigore ac per se,
+          <lb ed="#P" n="28"/>ad audiendam concionem in die festo. Tta 
+          sup<lb break="no" ed="#P" n="29"/>ponunt ut clarum Doctores omnes, et constat
+          <lb ed="#P" n="30"/>ex communi usu, et sensu fidelium. Item, quia
+          <lb ed="#P" n="31"/>nullibi extat hoc praeceptum. Praeterea est 
+          opti<lb break="no" ed="#P" n="32"/>mum argumentum, quia si fideles tenerentur
+          <lb ed="#P" n="33"/>audire concionem sacram, pastores Ecclesiae
+          <lb ed="#P" n="34"/>tenerentur providere ut omnibus diebus 
+          domi<lb break="no" ed="#P" n="35"/>nicis et festis, fieret concio in ecclesia. 
+          Pasto<lb break="no" ed="#P" n="36"/>res autem ad hoc non tenentur, nec de facto
+          <lb ed="#P" n="37"/>ita Bt ; ergo. Dices, obligationem fidelium esse,
+          <lb ed="#P" n="38"/>ut concioni assistant, si fiat ; quae obligatio 
+          po<lb break="no" ed="#P" n="39"/>test consistere, etiamsi concio nec semper, 
+          ne<lb break="no" ed="#P" n="40"/>que ex obligatione parochorum fiat. 
+          Respon<lb break="no" ed="#P" n="41"/>deo gratis affirmari illud primum, quia 
+          nulli<lb break="no" ed="#P" n="42"/>bi extat tale praeceptum conditionatum , nec
+          <lb ed="#P" n="43"/>solet ab Ecclesia ita poni; et ratio declarat,
+          <lb ed="#P" n="44"/>quod si oportuisset imponere populo 
+          obligatio<lb break="no" ed="#P" n="45"/>nem audiendi concionem, cum fit, majori 
+          ra<lb break="no" ed="#P" n="46"/>tione fuisset sacerdotibus imponenda obligatio
+          <lb ed="#P" n="47"/>illam faciendi vel semper, vel pro aliquibus
+          <lb ed="#P" n="48"/>determinatis diebus.
+        </p>
+        <p>
+          <lb ed="#P" n="49"/>7. Instantia. — Satisfit. — Dices ita esse
+          <lb ed="#P" n="50"/>impositam per Concilium Tridentinum, 
+          ses<lb break="no" ed="#P" n="51"/>sione quinta, c. 2, et sessione vigesima 
+          quar<lb break="no" ed="#P" n="52"/>ta. c. 4, de Reform. Praecipit enim kEpiscopis,
+          <lb ed="#P" n="53"/>et inferioribus pastoribus, seu parochis, ut
+          <lb ed="#P" n="54"/>saitem in omnibus dominicis diebus, et 
+          solem<lb break="no" ed="#P" n="55"/>nioribus festis, populis suis perse vel per alios
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>praedicent verbum Dei. Respondeo, pastores 
+          Ec<lb break="no" ed="#P" n="57"/>clesiae ex officio teneri ad praedicandum 
+          ver<lb break="no" ed="#P" n="58"/>bum Dei, et docendum, ac instruendum, et
+          <lb ed="#P" n="59"/>excitandum populum: hanc ergo obligationem
+          <lb ed="#P" n="60"/>ibi Concilium proponit, et quia de se non 
+          ha<lb break="no" ed="#P" n="61"/>bet tempus definitum ex divino jure, neque ex
+          <lb ed="#P" n="62"/>antiquis canonibus, ut frequentius executioni
+          <lb ed="#P" n="63"/>mandetur, determinat ut saltem diebus 
+          domi<lb break="no" ed="#P" n="64"/>nicis et solemnioribus festis hoc faciant. Non
+          <lb ed="#P" n="65"/>tamen videtur tam rigorose, ac praecise id 
+          prae<lb break="no" ed="#P" n="66"/>cipere, ut peccare graviter censeantur, si 
+          in<lb break="no" ed="#P" n="67"/>terdum vel saepius iliud omittant, quia non
+          <lb ed="#P" n="68"/>utitur Concilium verbis tantam obligationem
+          <lb ed="#P" n="69"/>indicantibus ; sed mandat ut id faciant illis 
+          die<lb break="no" ed="#P" n="70"/>bus et aliis, per Quadragesimam et Adventum:
+          <lb ed="#P" n="71"/>Si ita oportere dumerint, ui ibi additur, et
+          <lb ed="#P" n="72"/>alias quotiescumque id opportune fieri posse 
+          ju<lb break="no" ed="#P" n="73"/>dicaverint. Debent ergo pastores hoc officium
+          <lb ed="#P" n="74"/>non negligere, et curare ut diebus illis, 
+          quan<lb break="no" ed="#P" n="75"/>tum commode fieri possit, verbum Dei populo
+          <lb ed="#P" n="76"/>praedicetur; pro singulis tamen dominicis, et
+          <lb ed="#P" n="77"/>festis, non est rigorosum praeceptum, ut etiam
+          <lb ed="#P" n="78"/>consuetudo interpretatur. Et hoc satis est ut
+          <lb ed="#P" n="79"/>ex parte fidelium non sit talis obligatio 
+          au<lb break="no" ed="#P" n="80"/>diendi concionem singulis festivitatibus. Imo
+          <lb ed="#P" n="81"/>saepe teneri poterunt pastores Ecclesiae ad 
+          prae<lb break="no" ed="#P" n="82"/>dicandum, et nihilominus ipsi fideles non 
+          te<lb break="no" ed="#P" n="83"/>nentur ad audiendum ex generali praecepto 
+          po<lb break="no" ed="#P" n="84"/>sitivo, sed unusquisque potest consulere 
+          con<lb break="no" ed="#P" n="85"/>scientiae, ut juxta necessitatem suam se sentiat
+          <lb ed="#P" n="86"/>obligatum aut immunem. Obligatio enim 
+          pas<lb break="no" ed="#P" n="87"/>toris respicit totum populum, qui semper 
+          in<lb break="no" ed="#P" n="88"/>diget verbo Dei, licet non singuli de populo
+          <lb ed="#P" n="89"/>eeque indigeant; obligatio autem fidelium ad
+          <lb ed="#P" n="90"/>audiendum est singularis, et personalis 
+          unius<lb break="no" ed="#P" n="91"/>cujusque, respectu suiipsius, et ideo nec est ita
+          <lb ed="#P" n="92"/>generalis de se, nec habet tam certam 
+          tempo<lb break="no" ed="#P" n="93"/>ris determinationem, sicut alia.
+        </p>
+        <p>
+          <lb ed="#P" n="94"/>8. Explicantur cagntis cujusdam verba. —
+          <lb ed="#P" n="95"/>Ad illud ergo caput Sacerdote, respondetur
+          <lb ed="#P" n="96"/>imprimis non esse Concilii generalis , sed 
+          pro<lb break="no" ed="#P" n="97"/>vincialis : deinde, cum non dicat, 
+          eaxcommau<lb break="no" ed="#P" n="98"/>nicatus sit, sed eacommunicetur , videtur 
+          ma<lb break="no" ed="#P" n="99"/>gis positum ad terrorem et comminationem,
+          <lb ed="#P" n="100"/>quam ad proprium praeceptum, saltem quod
+          <lb ed="#P" n="101"/>sub mortali obliget. Praeterea, ibi non 
+          praeci<lb break="no" ed="#P" n="102"/>pitur fidelibus ut audiant, sed ut, sacerdote
+          <lb ed="#P" n="103"/>concionante, nemo egrediatur. S1 ergo 
+          ante<lb break="no" ed="#P" n="104"/>quam inciperet concionari, quis egrederetur,
+          <lb ed="#P" n="105"/>non ageret contra illum Canonem, qui propter
+          <lb ed="#P" n="106"/>vitandam perturbationem et scandalum, 
+          man<lb break="no" ed="#P" n="107"/>dat ut, dum fit concio, nemo egrediatur. Et
+          <lb ed="#P" n="108"/>ita Angel., verb. Ferig, num. 44, textum
+          <lb ed="#P" n="109"/>illum intelligit, de eo qui egreditur cum 
+          con<lb break="no" ed="#P" n="110"/>temptu vel scandalo. Denique licet in eo loco,
+          <pb ed="#P" n="320"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel tempore fortasse fuerit illud statutum 
+          ne<lb break="no" ed="#P" n="2"/>cessarium propter vitandam aliquam pravam
+          <lb ed="#P" n="3"/>consuetudinem, nunc de illa re nullum est
+          <lb ed="#P" n="4"/>peculiare praeceptum, praeter id quod 
+          natura<lb break="no" ed="#P" n="5"/>lis ratio de cavendo scandalo, et publico 
+          im<lb break="no" ed="#P" n="6"/>pedimento verbi Dei, dictat. Addo etiam nunc
+          <lb ed="#P" n="7"/>posse praelatum monere eum, qui aliquo modo
+          <lb ed="#P" n="8"/>in hoc perturbat ecclesiam, vel est negligens
+          <lb ed="#P" n="9"/>in audiendo verbo Dei cum publico scandalo,
+          <lb ed="#P" n="10"/>et praecipere ut audiat , et excommunicare, si
+          <lb ed="#P" n="11"/>sit contumax : tamen hoc neque pertinet ad
+          <lb ed="#P" n="12"/>praeceptum de servandis festis, neque de facto
+          <lb ed="#P" n="13"/>est in praecepto jure ipso lato, licet per 
+          ho<lb break="no" ed="#P" n="14"/>mines possit imponi. Aliud vero caput, Omnes
+          <lb ed="#P" n="15"/>fideles, non videtur loqui de concione, sed de
+          <lb ed="#P" n="16"/>lectione sacrae Scripturae, id est, Epistola et
+          <lb ed="#P" n="17"/>Evangelii, quae in missa recitari solet. Unde
+          <lb ed="#P" n="18"/>in textu Gratiani additur : Scripturas 
+          Apos<lb break="no" ed="#P" n="19"/>tolorum et Evangelium audiant , quae verba
+          <lb ed="#P" n="20"/>per paraphrasim aucta videntur, nam in 
+          ori<lb break="no" ed="#P" n="21"/>ginali non habentur illa duo verba, 
+          Apostolo<lb break="no" ed="#P" n="22"/>rum et Evangcelium. Adde ibi non praecipi ut
+          <lb ed="#P" n="23"/>audiant, sed ut illi, qui audiunt lectionem 
+          sa<lb break="no" ed="#P" n="24"/>cram, non egrediantur vel abeant, antequam
+          <lb ed="#P" n="25"/>sacram officium compleatur, propter 
+          inquie<lb break="no" ed="#P" n="26"/>tudinem et scandalum vitandum. Unde sic
+          <lb ed="#P" n="27"/>concluditur : Velut inguietudines ecclesiee 
+          com<lb break="no" ed="#P" n="28"/>moventes, convenit communione privari; unde
+          <lb ed="#P" n="29"/>videtur canon ille editus contra aliquos, qui
+          <lb ed="#P" n="30"/>ex aliqua perturbatione, aut falso ritu, 
+          nole<lb break="no" ed="#P" n="31"/>bant cum aliis in oratione et sacris 
+          commu<lb break="no" ed="#P" n="32"/>nicare, sed tantum in Scripturis auiendis, ut
+          <lb ed="#P" n="33"/>in d. tom. 3, d. 609, sect. 3, circa tinem,
+          <lb ed="#P" n="34"/>dixi.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>9. Explicatur Augustinus. — Ad 
+          Augusti<lb break="no" ed="#P" n="36"/>num, respondeo non loqui de verbo Dei 
+          ratio<lb break="no" ed="#P" n="37"/>ne sensibilis soni, sed ratione veritatis 
+          aeter<lb break="no" ed="#P" n="38"/>nae, et necessariae ad salutem, quam proponit,
+          <lb ed="#P" n="39"/>ut recte notavit Bellarmin., lib. 2 de Euchar.,
+          <lb ed="#P" n="40"/>c. 24, circa finem, et ita non posse inde inferri
+          <lb ed="#P" n="41"/>obligationem audiendi corporis aure verbum
+          <lb ed="#P" n="42"/>Dei, sed de obligatione corde recipiendi illud,
+          <lb ed="#P" n="43"/>quando fuerit ad salutem necessarium. Et ita
+          <lb ed="#P" n="44"/>dixit Augustinus, curandum esse ut verbum
+          <lb ed="#P" n="45"/>Dei de corde puro non pereat. Et licet inde 
+          pos<lb break="no" ed="#P" n="46"/>sit colligi, interdum esse necessarium corpore
+          <lb ed="#P" n="47"/>audire verbnm, ut mente possit veritas ejus 
+          re<lb break="no" ed="#P" n="48"/>tineri, non tamen potest inferri necessarium 
+          es<lb break="no" ed="#P" n="49"/>se, ut id fiat diebus festis, nec quod illa 
+          necessi<lb break="no" ed="#P" n="50"/>tas pertineat ad hoc praeceptum de festorum
+          <lb ed="#P" n="51"/>observatione. Et haec tantum necessitas ex aliis
+          <lb ed="#P" n="52"/>juribus probatur, et non alia quae oriatur ex
+          <lb ed="#P" n="53"/>speciali praecepto, quia haec non est imposita.
+          <lb ed="#P" n="54"/>Nec habet eamdem rationem cum missa, quia
+          <lb ed="#P" n="55"/>cultus Dei per sacrificii oblationem aeque per-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tinet ad omnes, et ideo omnibus debuit imponi
+          <lb ed="#P" n="57"/>praeceptum missae ; necessitas autem audiendi
+          <lb ed="#P" n="58"/>verbum Dei non est aequalis in omnibus, nec
+          <lb ed="#P" n="59"/>est propter se, sed propter tollendam 
+          ignoran<lb break="no" ed="#P" n="60"/>tiam: et ideo non praecipitur omnibus 
+          gene<lb break="no" ed="#P" n="61"/>raliter; sed judicatum est sufficere, ut ex 
+          par<lb break="no" ed="#P" n="62"/>te Ecclesiae et pastorum ejus verbum Dei non
+          <lb ed="#P" n="63"/>desit, et ut imvitentur fideles ad illud 
+          audien<lb break="no" ed="#P" n="64"/>dum , quia non debent omnia sub rigore 
+          prae<lb break="no" ed="#P" n="65"/>cepti constitui.
+        </p>
+        <p>
+          <lb ed="#P" n="66"/>10. Non relinquenda missa propter 
+          concio<lb break="no" ed="#P" n="67"/>nem. — Quapropter probanda non est illa
+          <lb ed="#P" n="68"/>sententia, quae praefert auditionem concionis
+          <lb ed="#P" n="69"/>auditioni missae in die festo; nam, per se 
+          lo<lb break="no" ed="#P" n="70"/>quendo, contrarium est omnino verum et 
+          cer<lb break="no" ed="#P" n="71"/>tum , ut dixi in dicto tom. 3, disp. ultim.,
+          <lb ed="#P" n="72"/>sect. 1, in fine, quia praecepta praeferri debent
+          <lb ed="#P" n="73"/>consiliis, ut ibi latius explicui. Denique ad
+          <lb ed="#P" n="74"/>Concilium Tridentinum, respondeo, cum 
+          ip<lb break="no" ed="#P" n="75"/>summet addiderit, teneri, ubi commode id fieri
+          <lb ed="#P" n="76"/>potest, satis declarasse non loqui de rigorosa
+          <lb ed="#P" n="77"/>praecepti obligatione ; unde session. 22, eap.
+          <lb ed="#P" n="78"/>de Observandis in Missa, ait: Moneant 
+          Epis<lb break="no" ed="#P" n="79"/>copi populum. ut frequenter ad suas purochias,
+          <lb ed="#P" n="80"/>saltem diebus dominicis et majoribus festis, 
+          ac<lb break="no" ed="#P" n="81"/>cedant; quae verba satis ostendunt hoc non
+          <lb ed="#P" n="82"/>esse necessitatis, sed congruitatis. Dico 
+          praete<lb break="no" ed="#P" n="83"/>rea, fortasse Concilium non loqui de 
+          obliga<lb break="no" ed="#P" n="84"/>tione quae descendat ex praecepto Ecclesiae ,
+          <lb ed="#P" n="85"/>sed ex lege charitatis, qua quis tenetur habere
+          <lb ed="#P" n="86"/>curam animae suae, non solum adhibendo 
+          me<lb break="no" ed="#P" n="87"/>dia simpliciter necessaria, sed etiam utilia,
+          <lb ed="#P" n="88"/>quale saepe est concionem audire , et ita illa
+          <lb ed="#P" n="89"/>obligatio non pertinet ad hoc praeceptum. Et
+          <lb ed="#P" n="90"/>tunc monet Concilium ut ad parochiam 
+          acce<lb break="no" ed="#P" n="91"/>dant fideles, si commode possunt, vel certe si
+          <lb ed="#P" n="92"/>in eis commodius instruendi sunt. Unde etiam
+          <lb ed="#P" n="93"/>indicat Concilium obligationem juris 
+          commu<lb break="no" ed="#P" n="94"/>nis, qua tenentur fideles interesse parochiis
+          <lb ed="#P" n="95"/>suis ; additur autem, ad audiendum verbum Dei,
+          <lb ed="#P" n="96"/>non quia hoc sit per se praeceptum, sed quia
+          <lb ed="#P" n="97"/>hic etiam fuit finis Ecclesiae, et quia est 
+          mo<lb break="no" ed="#P" n="98"/>raliter conjunctus cum auditione missae , si
+          <lb ed="#P" n="99"/>concio inter officium missae fiat ; in rigore 
+          ta<lb break="no" ed="#P" n="100"/>men non est ita praeceptum sicut missa, 
+          ne<lb break="no" ed="#P" n="101"/>que nunc est in rigore praeceptum parochiis
+          <lb ed="#P" n="102"/>interesse, ut alibi dictum est.
+        </p>
+        <p>
+          <lb ed="#P" n="103"/>11. An ad oblationes obligatio sit in festis.—-
+          <lb ed="#P" n="104"/>Quarta instantia est de oblationibus sacris,
+          <lb ed="#P" n="105"/>nam ad has etiam videntur obligari speciali--
+          <lb ed="#P" n="106"/>ter fideles in diebus dominicis et festis, nisi
+          <lb ed="#P" n="107"/>propter paupertatem excusentur. Ita enim 
+          de<lb break="no" ed="#P" n="108"/>clarari videtur in cap. Omnis Christianus, de
+          <lb ed="#P" n="109"/>Consecr., d. 1; et clarius in dicto Concilio
+          <lb ed="#P" n="110"/>Tribur., cap. 35: Dominicis dicbus et Sancto-
+          <pb ed="#P" n="321"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rum festis, ad Missas omni Christiano cum
+          <lb ed="#P" n="2"/>oblationibus est currendum. Sed de hoc puncto
+          <lb ed="#P" n="3"/>videnda sunt quae supra, lib. 1, c. 2, 
+          tradidi<lb break="no" ed="#P" n="4"/>mus, ubi prius caput exposuimus: loquitur
+          <lb ed="#P" n="5"/>enim de oblationibus faciendis inter missarum
+          <lb ed="#P" n="6"/>solemnia, non vero declarat in dominicis vel
+          <lb ed="#P" n="7"/>aliis festis diebus esse faciendas; et non habet
+          <lb ed="#P" n="8"/>verbum praeceptivum, sed solum dicit: Omnis
+          <lb ed="#P" n="9"/>Christianus procuret ad anissarum solemnia
+          <lb ed="#P" n="10"/>aliquid Deo offerre. Quae verba solum 
+          admo<lb break="no" ed="#P" n="11"/>nitionem vel exhortationem quamdam 
+          conti<lb break="no" ed="#P" n="12"/>nere videntur, et ita potest etiam aliud 
+          Con<lb break="no" ed="#P" n="13"/>cilium intelligi ; proponit enim non solum
+          <lb ed="#P" n="14"/>substantiam actus audiendi missam, sed etiam
+          <lb ed="#P" n="15"/>modum, et saepe modus non cadit sub 
+          praece<lb break="no" ed="#P" n="16"/>ptum, licet substantia cadat. Addo vero, licet
+          <lb ed="#P" n="17"/>jus oblationum possit consuetudine esse 
+          in<lb break="no" ed="#P" n="18"/>troductum, oblationem vero, quae inde 
+          nasci<lb break="no" ed="#P" n="19"/>tur, pon pertinere ad hoc praeceptum 
+          servan<lb break="no" ed="#P" n="20"/>di festa, sed ad aliud speciale, vel religionis,
+          <lb ed="#P" n="21"/>ratione akerius divini cultus , vel justitiae
+          <lb ed="#P" n="22"/>ad ministros ejus ; quae obligatio posset etiam
+          <lb ed="#P" n="23"/>extra diem festum impleri, vel per 
+          contra<lb break="no" ed="#P" n="24"/>riam consuetudinem tolli, manente integro
+          <lb ed="#P" n="25"/>praecepto de observatione festi.
+        </p>
+        <p>
+          <lb ed="#P" n="26"/>12. Dilectio Dei an ea hoc preecepto 
+          elicien<lb break="no" ed="#P" n="27"/>da. — Quinta instantia esse potest de cultu
+          <lb ed="#P" n="28"/>mere interno per dilectionem Dei super 
+          om<lb break="no" ed="#P" n="29"/>nia, etiamsi homo sit in statu gratiae. Nam
+          <lb ed="#P" n="30"/>hoc affirmavit Scot., 3, dist. 27, a. 1, verb.
+          <lb ed="#P" n="31"/>Quantum ad 2, quem sequitur Tabiena, verb.
+          <lb ed="#P" n="32"/>Charitas, n. 20. Non apparet autem quo 
+          fun<lb break="no" ed="#P" n="33"/>damento satis apparenti possit haec opinio
+          <lb ed="#P" n="34"/>suaderi. Quia si respiciamus decalogum, vel
+          <lb ed="#P" n="35"/>in illo non praecipitur specialiter amor Dei,
+          <lb ed="#P" n="36"/>vel si in aliquo praecepto includitur, magis in
+          <lb ed="#P" n="37"/>primo conünetur , nec praecipitur pro 
+          deter<lb break="no" ed="#P" n="38"/>minato tempore, sed simpliciter. Si vero 
+          res<lb break="no" ed="#P" n="39"/>piciamus ecclesiasticum praeceptum , nullum
+          <lb ed="#P" n="40"/>est quod hane imponat obligationein. item
+          <lb ed="#P" n="41"/>hoc praeceptum est de cultu Dei, atque adeo
+          <lb ed="#P" n="42"/>est virtuüs religionis ; amor vero per se non
+          <lb ed="#P" n="43"/>pertinet ad cultum, nec ad religionem, sed
+          <lb ed="#P" n="44"/>ad superiorem virtutem. Tertio, ut recte 
+          ar<lb break="no" ed="#P" n="45"/>gumentatur Cajetanus 2. 2, q. 122, art. 4, 
+          ter<lb break="no" ed="#P" n="46"/>tium praeceptum Decalogi non fuit de cultu
+          <lb ed="#P" n="47"/>interno , sed de externo, idemque est cum
+          <lb ed="#P" n="48"/>proportione de praecepto Ecclesiae ; amor 
+          au<lb break="no" ed="#P" n="49"/>tem, etsi possit ex intentione cultus fieri, ad
+          <lb ed="#P" n="50"/>interiorem cuitum pertinet, non ergo 
+          praeci<lb break="no" ed="#P" n="51"/>pitur hoc praecepto. Nec vero talis actus est
+          <lb ed="#P" n="52"/>necessarius homini justo, ut possit digne 
+          mis<lb break="no" ed="#P" n="53"/>sam audire, aut alium actum religionis 
+          exer<lb break="no" ed="#P" n="54"/>cere, quia non est de necessitate actus 
+          he<lb break="no" ed="#P" n="55"/>nesti quod ab amore imperetur, nec etiam hoc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pertinet ad particularia praecepta ; ergo nullo
+          <lb ed="#P" n="57"/>titulo cadit sub obligationem talis actus pro
+          <lb ed="#P" n="58"/>omnibus festis.
+        </p>
+        <p>
+          <lb ed="#P" n="59"/>13. Objectio. — Diluitur. — Dices: amoris
+          <lb ed="#P" n="60"/>praeceptum non habet de se certum tempus,
+          <lb ed="#P" n="61"/>pro quo obliget, et ideo obligat pro 
+          tempori<lb break="no" ed="#P" n="62"/>bus opportunis ; nullum autem videtur essc
+          <lb ed="#P" n="63"/>magis opportunum , quam dies festus; ergo.
+          <lb ed="#P" n="64"/>Respondeo non obligare pro omnibus 
+          tempo<lb break="no" ed="#P" n="65"/>ribus opportunis, sed vel pro articulis 
+          neces<lb break="no" ed="#P" n="66"/>sitatis, vel quando ad vitam recte 
+          instituen<lb break="no" ed="#P" n="67"/>dam necessarius moraliter est talis actus: non
+          <lb ed="#P" n="68"/>est autem sic necessarius in omnibus diebus
+          <lb ed="#P" n="69"/>festis, et in multis profestis potest esse magis
+          <lb ed="#P" n="70"/>necessarius. Adde, eadem ratione dicendum
+          <lb ed="#P" n="71"/>fore, teneri hominem in die festo ad 
+          exer<lb break="no" ed="#P" n="72"/>cendum actum fidei et spei, quia de se sunt
+          <lb ed="#P" n="73"/>in praecepto, et non habent determinatum
+          <lb ed="#P" n="74"/>tempus de se, et illud tempus diei festi est 
+          op<lb break="no" ed="#P" n="75"/>portunum. Quapropter contraria sententia 
+          ne<lb break="no" ed="#P" n="76"/>gans necessitatem hujus actus in die festo, et
+          <lb ed="#P" n="77"/>vera, et communis est, et sumitur ex D. 
+          Tho<lb break="no" ed="#P" n="78"/>ma, 2. 2, quaest. 122, artic. 4, quatenus ait,
+          <lb ed="#P" n="79"/>per praeceptum de observatione sabbathi non
+          <lb ed="#P" n="80"/>fuisse mandatum cultum internum per 
+          oratio<lb break="no" ed="#P" n="81"/>nem, vel devotionem internam ; nam eadem
+          <lb ed="#P" n="82"/>ratio est de amore, ut bene netat ibi Cajet.;
+          <lb ed="#P" n="83"/>Navar., in Manuali, cap. 13, num. 17 ; Sot.,
+          <lb ed="#P" n="84"/>lib. 2 de Just., quaest. 4, art. 4, et in materia
+          <lb ed="#P" n="85"/>de charitate caeteri communiter.
+        </p>
+        <p>
+          <lb ed="#P" n="86"/>14. Sitne in festis actus penitentie 
+          impe<lb break="no" ed="#P" n="87"/>ratus. — Pars negativa certa est. — Sexta 
+          in<lb break="no" ed="#P" n="88"/>siantia, praecedenti similis, est de cultu 
+          inter<lb break="no" ed="#P" n="89"/>no per actum poenitentiae , contritionis, vel
+          <lb ed="#P" n="90"/>attritionis, nam quod hic sit necessarius ex
+          <lb ed="#P" n="91"/>vi hujus praecepti, saltem homini existenti in
+          <lb ed="#P" n="92"/>peccato mortali, dixit Angel., verb. Feriee, n.
+          <lb ed="#P" n="93"/>43, tanta exaggeratione, ut affirmarit rem
+          <lb ed="#P" n="94"/>esse indubitatam. Fundatur autem solum in
+          <lb ed="#P" n="95"/>hoc, quod existens in peccato mortali, 
+          praeci<lb break="no" ed="#P" n="96"/>pue si habeat memoriam illius, non potest 
+          va<lb break="no" ed="#P" n="97"/>care Deo per aliquod tempus diei festi, ut 
+          exi<lb break="no" ed="#P" n="98"/>git hoc praeceptum ; ergo. Potestque haec 
+          opi<lb break="no" ed="#P" n="99"/>nio confirmari ex eo, quod in die sabbathi
+          <lb ed="#P" n="100"/>praecipiebatur Judaeis: Affligelis animas 
+          ves<lb break="no" ed="#P" n="101"/>tras, Levit. 16 et 23, quod significat 
+          poeni<lb break="no" ed="#P" n="102"/>tentiam de peccatis ; ergo idem nunc erit cum
+          <lb ed="#P" n="103"/>proportione. Sed de hoc punsto disi in quarto
+          <lb ed="#P" n="104"/>tomo, tractando de praecepto poenitentiae, et
+          <lb ed="#P" n="105"/>ostendi hanc opinionem esse falsam. Et plane
+          <lb ed="#P" n="106"/>fundamentum Angeli nullius momenti est,
+          <lb ed="#P" n="107"/>quia licet homo sciat se esse in mortali, potest
+          <lb ed="#P" n="108"/>audire missam, eo modo quo exigit 
+          praece<lb break="no" ed="#P" n="109"/>ptum, ut a fortiori constat ex his quae de 
+          in<lb break="no" ed="#P" n="110"/>tentione, et attentione necessaria ad missam
+          <pb ed="#P" n="322"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>audiendam, dixi in dicto 3 tomo, disp. ult.,
+          <lb ed="#P" n="2"/>sect. 3; ergo propter missam non est 
+          neces<lb break="no" ed="#P" n="3"/>saria contritio: at hoc praeceptum non 
+          obli<lb break="no" ed="#P" n="4"/>gat ad vacandum Deo in die festo alio modo,
+          <lb ed="#P" n="5"/>seu per alios actus; ergo propter vacandum
+          <lb ed="#P" n="6"/>Deo non est necessaria poenitentia ; nec etiam
+          <lb ed="#P" n="7"/>per se et directe praecipitur; ergo non cadit
+          <lb ed="#P" n="8"/>sub hoc praeceptum. Et ita sentiunt Cajetan.,
+          <lb ed="#P" n="9"/>Sot., Navarr., Armil., Rosel., et alii 
+          commu<lb break="no" ed="#P" n="10"/>niter ; Sylvester etiam, verb. Dominica, quaest.
+          <lb ed="#P" n="11"/>6, dist. 4, fatetur non teneri peccatorem 
+          con<lb break="no" ed="#P" n="12"/>teri in die festo ex vi praecepti de festo; 
+          ta<lb break="no" ed="#P" n="13"/>men, si recordetur sui status, teneri ex vi
+          <lb ed="#P" n="14"/>memoriae. Sed haec obligatio, si vera esset,
+          <lb ed="#P" n="15"/>communis esset aliis diebus ; non est tamen
+          <lb ed="#P" n="16"/>vera ; sed hoc pertinet ad materiam de 
+          Poeni<lb break="no" ed="#P" n="17"/>tentia, ubi de hoc latius.
+        </p>
+        <p>
+          <lb ed="#P" n="18"/>15. Destruitur fundamentum oppositee 
+          sen<lb break="no" ed="#P" n="19"/>tentie. — Ad fundamentum ergo contrariae
+          <lb ed="#P" n="20"/>sententiae negatur assumptum ; nam, qui est
+          <lb ed="#P" n="21"/>in peccato mortali, potest orare et missam 
+          au<lb break="no" ed="#P" n="22"/>dire. Ad confirmationem primo dici potest 
+          il<lb break="no" ed="#P" n="23"/>lam legem nunc non obligare. Secundo 
+          dici<lb break="no" ed="#P" n="24"/>tur illud mandatum: Affligetis animas 
+          ves<lb break="no" ed="#P" n="25"/>tras, non pertinuisse ad diem sabbathi, nec
+          <lb ed="#P" n="26"/>ad omnia festa Judaeorum, sed ad quoddam
+          <lb ed="#P" n="27"/>speciale, quod celebratur decimo die 
+          septem<lb break="no" ed="#P" n="28"/>bris, et in eo distincte praecipiebatur cessatio
+          <lb ed="#P" n="29"/>ab opere servih. Unde potius sumitur 
+          argu<lb break="no" ed="#P" n="30"/>mentum e contrario, quod illa afflictio non
+          <lb ed="#P" n="31"/>pertineat ad festorum observationem, ut sic,
+          <lb ed="#P" n="32"/>neque ad observationem dominicae, quae 
+          sab<lb break="no" ed="#P" n="33"/>batho successit. Festum autem illud peculiare
+          <lb ed="#P" n="34"/>omnino jam cessavit, et si quid illi successit
+          <lb ed="#P" n="35"/>in lege nova, fuit poenitentia, quae tempore
+          <lb ed="#P" n="36"/>confessionis annuae agi praecipitur. Nam per
+          <lb ed="#P" n="37"/>illud significabatur futura emundatio a 
+          pecca<lb break="no" ed="#P" n="38"/>tis Christiani populi, ut dixit D. Thomas 1. 2,
+          <lb ed="#P" n="39"/>quaest. 102. art. 4, ad 10; in quaest. vero 103,
+          <lb ed="#P" n="40"/>art. 3, ad 4, dicit, illi festo Expiationis 
+          succe<lb break="no" ed="#P" n="41"/>dere in Ecclesia festa Martyrum et 
+          Confesso<lb break="no" ed="#P" n="42"/>rum. De quo videri potest Cano. Relect. de
+          <lb ed="#P" n="43"/>Poenitent., p. 4, in fin.
+        </p>
+        <p>
+          <lb ed="#P" n="44"/>16. Difficultas. — Sed objiciet aliquis 
+          con<lb break="no" ed="#P" n="45"/>tra dicta : nam sequitur non peccare contra
+          <lb ed="#P" n="46"/>hoc praeceptum , qui in toto die festo nullum
+          <lb ed="#P" n="47"/>alium actum divini cultus exercet, praeter
+          <lb ed="#P" n="48"/>missae auditionem, etiamsi reliquum tempus
+          <lb ed="#P" n="49"/>ludendo, confabulando, etc., consumat, 
+          dum<lb break="no" ed="#P" n="50"/>modo contra alteram partem praecepti, 
+          prohi<lb break="no" ed="#P" n="51"/>bentem opera servilia et profana , nihil 
+          com<lb break="no" ed="#P" n="52"/>mittat : consequens videtur esse absurdum;
+          <lb ed="#P" n="53"/>alias sine causa praeciperetur hominibus 
+          vaca<lb break="no" ed="#P" n="54"/>tio ab aliis laboriosis operibus toto illo die,
+          <lb ed="#P" n="55"/>quia melius esset corporaliter laborare, quam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>otiose diem transigere. Sic enim dixit Á
+          ugus<lb break="no" ed="#P" n="57"/>tnus, libro de Decem chor., capite 3, loquens
+          <lb ed="#P" n="58"/>de Judaeis in sabbatho otiantibus ; videtur 
+          au<lb break="no" ed="#P" n="59"/>tem esse eadem ratio proportionalis de 
+          Chri<lb break="no" ed="#P" n="60"/>stianis. Respondeo nunc non tractari, an 
+          pec<lb break="no" ed="#P" n="61"/>care in die festo sit contra hoc praeceptum, ex
+          <lb ed="#P" n="62"/>ea parte qua prohibet certa quadam opera;
+          <lb ed="#P" n="63"/>de hoc enim statim dicemus; sed quaestionem
+          <lb ed="#P" n="64"/>esse solum de omissione actuum divini cultus.
+          <lb ed="#P" n="65"/>Et ex hac parte concedo, nullum incurri 
+          pecca<lb break="no" ed="#P" n="66"/>tum omissionis contra hoc praeceptum, etiamsi
+          <lb ed="#P" n="67"/>nullus alius actus religionis in toto festo fiat,
+          <lb ed="#P" n="68"/>praeter auditionem missae, quia nullum extat
+          <lb ed="#P" n="69"/>de hoc praeceptum affirmativum; negativum
+          <lb ed="#P" n="70"/>autem prohibens opera servilia non obligat ad
+          <lb ed="#P" n="71"/>aliquid agendum; ex negstione enim non
+          <lb ed="#P" n="72"/>bene sequitur affirmatio; neque propterea 
+          il<lb break="no" ed="#P" n="73"/>lud inutiliter praecipitur, quia propter cultum
+          <lb ed="#P" n="74"/>praecipitur ; finis tamen praecepti, ut sic, non
+          <lb ed="#P" n="75"/>cadit sub praeceptum, meiium autem ipsum
+          <lb ed="#P" n="76"/>de se utile est, et ideo recte praecipitur, licet
+          <lb ed="#P" n="77"/>finis non ita praecipiatur. Tandem posset hic
+          <lb ed="#P" n="78"/>quaeri, an saltem cum aliquis non potest 
+          au<lb break="no" ed="#P" n="79"/>dire missam in die festo ex justo 
+          impedimen<lb break="no" ed="#P" n="80"/>to, teneatur loco illius aliquid recitare, vel 
+          re<lb break="no" ed="#P" n="81"/>ligionis opus exercere; et similiter, quando
+          <lb ed="#P" n="82"/>aliquis missam omisit, an teneatur aliis 
+          preci<lb break="no" ed="#P" n="83"/>bus eodem die illam compensare, vel in 
+          se<lb break="no" ed="#P" n="84"/>quenti die missam audire. Dico tamen non
+          <lb ed="#P" n="85"/>teneri, de quo videri possun: resoluta in d.
+          <lb ed="#P" n="86"/>disp. ult., sect. 5, dub. ult., et sect. 6, dub.
+          <lb ed="#P" n="87"/>penult. Et juvare etiam possunt ea quae de
+          <lb ed="#P" n="88"/>omissione Horarum Canonicarum in simili 
+          di<lb break="no" ed="#P" n="89"/>ximus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

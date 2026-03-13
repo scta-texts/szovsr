@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="437"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k10914"><!-- t3-prae -->
+        <head>Praeambulum</head>
+        <p>
+          <pb ed="#P" n="437"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>TRACTATUS TERTIUS
+          <lb ed="#P" n="2"/>DE VITIIS
+          <lb ed="#P" n="3"/>RELIGIONI CONTRAREHS
+          <lb ed="#P" n="4"/>ET NEGATIVIS PRAZECEPTIS, QUIBUS ILLA PROHIBENTUR.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>Inter disputandum de praeceptis affirmativis religionis, obiter diximus de nonnullis
+          <lb ed="#P" n="6"/>prohibitionibus, quae in eisdem praeceptis affirmativis virtute continentur, vel tantam
+          <lb ed="#P" n="7"/>cum eis connexionem habent, ut unum sine altero explicari non potuerit ; praeter illa
+          <lb ed="#P" n="8"/>vero sunt alia praecepta, quae directe et per se tantum sunt negativa, prohibentque
+          <lb ed="#P" n="9"/>omnem deformitatem contrariam divino cultui, sive per excessum, sive per defectum,
+          <lb ed="#P" n="10"/>de quibus in hoc tractatu dicendum est. Hoc autem optime fiet explicando vitia 
+          di<lb break="no" ed="#P" n="11"/>vino cultui contraria; illa enim sunt quae per propria praecepta negcativa prohibentur.
+          <lb ed="#P" n="12"/>De his autem vitiis disputavit D. Thomas 2. 2, a quaest. 92 usque ad 100, quia prius
+          <lb ed="#P" n="13"/>de virtute ipsa, et de omnibus actibus ejus tractavit. Nos autem in primo tractatu
+          <lb ed="#P" n="14"/>solum de virtute secundum se, et de divino cultu diximus; et quosdam actus, qui,
+          <lb ed="#P" n="15"/>praeter cultum, pcculiares quasdam rationes habent, scilicet, orationem, juramentum
+          <lb ed="#P" n="16"/>et votum, ad proprios tractatus reservavimus; et ideo hic non dicemus de vitiis, quae
+          <lb ed="#P" n="17"/>his actibus proprie opponuntur, ut sunt perjurium, infidelitas in promissis divinis,
+          <lb ed="#P" n="18"/>et defectus qui committi possunt in oratione ad Deum; quamvis quae de aliis vitiis
+          <lb ed="#P" n="19"/>dicemus, non poterunt non pertinere aliquo modo ad illos actus, quatenus illi 
+          parti<lb break="no" ed="#P" n="20"/>cipant rationem cultus.
+        </p>
+        <p>
+          <lb ed="#P" n="21"/>Praeterea circa haec vitia generaliter adverto, posse in eis tria distingui : primo,
+          <lb ed="#P" n="22"/>materialem et realem actionem, quae in omni peccato commissionis intervenire sole,
+          <lb ed="#P" n="23"/>et solet dici materiale peccati, seu vitii; secundo, deformitatem, quam talis actio
+          <lb ed="#P" n="24"/>solet habere frequenter in alio genere, seu contra aliam virtutem a religione 
+          distinc<lb break="no" ed="#P" n="25"/>tam , soletque esse fundamentum vel occasio malitiae contra religionem; tertio, 
+          spec<lb break="no" ed="#P" n="26"/>tare possumus malitiam ipsam formaliter rehigioni contrariam. De his ergo vitus, ut
+          <lb ed="#P" n="27"/>formaliter consutuuntur per hanc ultimam malitiam, hic consideramus; tamen ad
+          <lb ed="#P" n="28"/>ipsam malitiam explicandam, et ut ipsa vitia comprehendantur, saepe necessarium
+          <lb ed="#P" n="29"/>erit ipsas materiales actiones prius exponere, et si quam aliam involvunt aut 
+          prae<lb break="no" ed="#P" n="30"/>habent malitiam, aperire, quantum necesse fuerit ad declarandum, quomodo in eis
+          <lb ed="#P" n="31"/>malitia contra religionem fundetur. Dividemus autem hunc tractatum in tres libros,
+          <lb ed="#P" n="32"/>unum de irreligiositate, alterum de superstitione, et tertium de sacrilegio, cujus 
+          par<lb break="no" ed="#P" n="33"/>ttionis ratio ex primo capite libri sequentis constabit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

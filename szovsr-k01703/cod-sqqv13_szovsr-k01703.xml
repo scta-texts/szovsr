@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="69"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k01703"><!-- t1-l3c9 -->
+        <head>Caput 9</head>
+        <head type="question-title">Quem perfectionis et excellentiae gradum habeat religio inter virtutes omnes.</head>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>CAPUT IX.
+          <lb ed="#P" n="57"/>QUEM PERFECTIONIS ET EXCELLENTIAE GRADUM
+          <lb ed="#P" n="58"/>HABEAT RELIGIO INTER VIRTUTES OMNES.
+        </p>
+        <p>
+          <lb ed="#P" n="59"/>1. Religionis virtus theologalium cwigue 
+          ce<lb break="no" ed="#P" n="60"/>dit in excellentia et dignitate. — Divus 
+          Tho<lb break="no" ed="#P" n="61"/>mas 2. 2, quaest. 81, art. 6, similem 
+          propo<lb break="no" ed="#P" n="62"/>nens quaestionem, solum comparat 
+          religio<lb break="no" ed="#P" n="63"/>nem ad alias virtutes morales, nec sine 
+          cau<lb break="no" ed="#P" n="64"/>sa; quia, cum ostensum sit illam non esse
+          <lb ed="#P" n="65"/>virtutem theologalem, tanquam manifestum
+          <lb ed="#P" n="66"/>supponit, religionem esse inferiorem 
+          virtuti<lb break="no" ed="#P" n="67"/>bus theologicis. Nec immerito, ita enim 
+          sen<lb break="no" ed="#P" n="68"/>tiunt communiter Theologi, et sumitur ex illo
+          <lb ed="#P" n="69"/>Pauli, 1 ad Corinth. 13: Nunc autem manent
+          <lb ed="#P" n="70"/>fides, spes, charitas, tria hec. Uhi illis tribus
+          <lb ed="#P" n="71"/>quasi per antonomasiam tribuit excellentiam
+          <lb ed="#P" n="72"/>et eminentiam virtutis, ideoque de illis solis
+          <lb ed="#P" n="73"/>est certa, et indubitata sententia, esse 
+          virtu<lb break="no" ed="#P" n="74"/>tes per se infusas : de caeteris enim solum est
+          <lb ed="#P" n="75"/>opinio probabilior. Quare in illis 
+          principah<lb break="no" ed="#P" n="76"/>ter, et quasi essentialiter consistit 
+          supernatu<lb break="no" ed="#P" n="77"/>ralis justitia mfusa, ut sumitur ex Tridentino,
+          <lb ed="#P" n="78"/>sess. 6, cap. 7. Ratio denique est, quia 
+          per<lb break="no" ed="#P" n="79"/>fectio virtutis est, ut conjungat mentem Deo,
+          <lb ed="#P" n="80"/>saltem ut fini; ergo illae virtutes, quae 
+          imme<lb break="no" ed="#P" n="81"/>diatius et perfectius attingunt Deum, 
+          perfec<lb break="no" ed="#P" n="82"/>tiores sunt caeteris, quae remotius in Deum
+          <lb ed="#P" n="83"/>ordinantur; sed virtutes theologales 
+          propin<lb break="no" ed="#P" n="84"/>quius et perfectius attingunt Deum, quam
+          <lb ed="#P" n="85"/>religio, ut ex supra dictis constat; sunt ergo
+          <lb ed="#P" n="86"/>perfectiores illa.
+        </p>
+        <p>
+          <lb ed="#P" n="87"/>2. Pia voluntatis affectio religione 
+          perfe<lb break="no" ed="#P" n="88"/>ctior est. — Solum posset quispiam dubitare
+          <lb ed="#P" n="89"/>de habitu piae affectionis, qui comitatur 
+          fi<lb break="no" ed="#P" n="90"/>dem, prout est in intellectu. Nam de illo non
+          <lb ed="#P" n="91"/>procedit ratio facta, quia non immediate nos
+          <lb ed="#P" n="92"/>unrit Deo, nec, praecise spectatus, est virtus
+          <lb ed="#P" n="93"/>theologica, ut supra dixi, sed magis est 
+          mo<lb break="no" ed="#P" n="94"/>ralis. Unde cogitare quis posset, cum religio
+          <lb ed="#P" n="95"/>praefertur omnibus virtutibus moralibus, illi
+          <lb ed="#P" n="96"/>etiam habitui praeferri. Nihilominus existimo
+          <lb ed="#P" n="97"/>fidem quoad illum habitum antecedere, et
+          <lb ed="#P" n="98"/>praferri religioni, quia licet per se non sit
+          <lb ed="#P" n="99"/>theologica virtus, tamen per se est necessaria
+          <lb ed="#P" n="100"/>ad quamdam theologicam virtutem, cujus est
+          <lb ed="#P" n="101"/>quasi moralis forma. Item versatur circa 
+          no<lb break="no" ed="#P" n="102"/>bilissimam materiam, puta intellectum, quem
+          <lb ed="#P" n="103"/>captivat in obsequium fidei, unde ex hac
+          <lb ed="#P" n="104"/>parte superat religionem, et ex alia non est
+          <lb ed="#P" n="105"/>inferior in attingendo Deum in se, quia per
+          <lb ed="#P" n="106"/>illam materiam nobilissimo modo, et 
+          imme<lb break="no" ed="#P" n="107"/>diate illum attingit; plus est enim ad Deum
+          <pb ed="#P" n="70"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ipsum, ipsimet credendo, accedere, quam 
+          si<lb break="no" ed="#P" n="2"/>gna quaecumque reverentia illi exhibere;
+          <lb ed="#P" n="3"/>ergo habitus voluntatis, qui immediate movet
+          <lb ed="#P" n="4"/>hominem, et ejus mentem, ut priori modo
+          <lb ed="#P" n="5"/>Deo conjungatur, perfectior est quam religio,
+          <lb ed="#P" n="6"/>quae posteriori modo eum movet. Nec refert
+          <lb ed="#P" n="7"/>quod religio movere possit ipsam fidem et
+          <lb ed="#P" n="8"/>charitatem, ut sub ratione sua in Deum 
+          fe<lb break="no" ed="#P" n="9"/>rantur ; tum quia religio ad summum movere
+          <lb ed="#P" n="10"/>potest ad exercitium illorum actuum; pia 
+          ve<lb break="no" ed="#P" n="11"/>ro affectio quoad specificationem ad actus
+          <lb ed="#P" n="12"/>credendi intellectum determinat, quod longe
+          <lb ed="#P" n="13"/>altius ac difficilius est; tum etiam quia religio
+          <lb ed="#P" n="14"/>solum utitur actibus illarum virtutum, 
+          tan<lb break="no" ed="#P" n="15"/>quam signis recognitionis, et subjectionis ad
+          <lb ed="#P" n="16"/>divinam excellentiam, supponit autem 
+          aliun<lb break="no" ed="#P" n="17"/>de substantiam illorum actuum. At pia 
+          affe<lb break="no" ed="#P" n="18"/>ctio utitur intellectu ad cliciendum actum
+          <lb ed="#P" n="19"/>fidei quoad substantiam ejus. Estque suo
+          <lb ed="#P" n="20"/>modo per se necessaria ad illam, et ideo hinc
+          <lb ed="#P" n="21"/>magis commendatur ejus perfectio. Virtutes
+          <lb ed="#P" n="22"/>ergo theologales, quoad omnes habitus quos
+          <lb ed="#P" n="23"/>includunt, perfectiores religione sunt.
+        </p>
+        <p>
+          <lb ed="#P" n="24"/>3. Ex D. Thome sententia, una religio
+          <lb ed="#P" n="25"/>ceteras virtutes morales longo superat 
+          inter<lb break="no" ed="#P" n="26"/>vallo. — Comparando autem religionem ad
+          <lb ed="#P" n="27"/>virtutes morales, D. Thomas, dicta q. S1,
+          <lb ed="#P" n="28"/>art. 6, absolute et sine limitatione affirmat,
+          <lb ed="#P" n="29"/>religionem esse perfectiorem virtutem 
+          omni<lb break="no" ed="#P" n="30"/>bus virtutibus moralibus. Potestque hoc 
+          per<lb break="no" ed="#P" n="31"/>suaderi, quia virtutes theologales perfectiores
+          <lb ed="#P" n="32"/>sunt omnibus moralibus; ergo etiam religio
+          <lb ed="#P" n="33"/>est perfectior illis. Patet consequentia, quia,
+          <lb ed="#P" n="34"/>licet religio non sit virtus theologalis, ita
+          <lb ed="#P" n="35"/>proxime ad eas accedit, ut minimum ab illis
+          <lb ed="#P" n="36"/>distinguatur ; ergo erit perfectior aliis, quae
+          <lb ed="#P" n="37"/>magis a theologalibus distant. Nam id quod
+          <lb ed="#P" n="38"/>est perfectissimum, est quasi metrum et 
+          men<lb break="no" ed="#P" n="39"/>sura caeterorum ; quod ergo ad illud 
+          propin<lb break="no" ed="#P" n="40"/>quius accedit, caeteris perfectius est. Hatio
+          <lb ed="#P" n="41"/>item a priori est, quam D. Thomas tetigit,
+          <lb ed="#P" n="42"/>quia virtutes theologales habent excellentiam
+          <lb ed="#P" n="43"/>suam ex immediata conjunctione ad Deum,
+          <lb ed="#P" n="44"/>quia virtus sicut ab objecto habet speciem
+          <lb ed="#P" n="45"/>suam, ita ex eodem habet suam nobiltatem.
+          <lb ed="#P" n="46"/>Deus autem est nobilissimum objectum, et
+          <lb ed="#P" n="47"/>immediata tendentia in ipsum, omnium etiam
+          <lb ed="#P" n="48"/>excellentior est, et ideo virtutes theologales
+          <lb ed="#P" n="49"/>sunt nobilissimae. Post illas vero religio 
+          at<lb break="no" ed="#P" n="50"/>ungit Deum propinquius quam reliquae 
+          virtu<lb break="no" ed="#P" n="51"/>tes morales; ergo inde majorem nobilitatem
+          <lb ed="#P" n="52"/>participat.
+        </p>
+        <p>
+          <lb ed="#P" n="53"/>4. Haec vero assertio D. Thoma, licet
+          <lb ed="#P" n="54"/>quoad plures virtutes, et fere omnes 
+          certissi<lb break="no" ed="#P" n="55"/>ma et per se clara sit, in quibusdam peculia-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ribus comparationibus habere potest 
+          nonnul<lb break="no" ed="#P" n="57"/>lam dubitationem, an, scilicet, aliqua exceptio
+          <lb ed="#P" n="58"/>admittenda sit. Itaque, quoad omnes virtutes
+          <lb ed="#P" n="59"/>quae versantur circa passiones, 
+          temperan<lb break="no" ed="#P" n="60"/>tiam, scilicet, fortitudinem, et omnes virtutes
+          <lb ed="#P" n="61"/>illis connexas, nulla est controversia, nec 
+          oc<lb break="no" ed="#P" n="62"/>casio dubitandi. Item de nonnullis virtutibus
+          <lb ed="#P" n="63"/>connexis justitiae, quae cum proportione 
+          exer<lb break="no" ed="#P" n="64"/>cent cum proximo illud officium, quod rcligio
+          <lb ed="#P" n="65"/>exercet cum Deo, clarum est esse longe 
+          infe<lb break="no" ed="#P" n="66"/>riores, ut constat de pietate, dulia, seu 
+          obser<lb break="no" ed="#P" n="67"/>vantia, etc.
+        </p>
+        <p>
+          <lb ed="#P" n="68"/>5. Cajetani sententia legalem justitiam 
+          pree<lb break="no" ed="#P" n="69"/>ferens religiumi ; ea tamen impugnatur. —
+          <lb ed="#P" n="70"/>Primum vero dubium est de justitia legali, de
+          <lb ed="#P" n="71"/>qua Cajetanus, dicto art. 6, contendit 
+          praefe<lb break="no" ed="#P" n="72"/>rendam esse religioni. Nam D. Thomas 2. 2,
+          <lb ed="#P" n="73"/>q. 58, art. 12, absolute et sine limitatione
+          <lb ed="#P" n="74"/>dixit, justitiam legalem esse praeclariorem
+          <lb ed="#P" n="75"/>inter omnes virtutes morales. Tamen relgio
+          <lb ed="#P" n="76"/>sine dubio praestat etiam justitiae legali. Et
+          <lb ed="#P" n="77"/>D. Thomas, in dicto art. 6, dum generalem,
+          <lb ed="#P" n="78"/>et sine ulla restrictione vel praelatione, facit
+          <lb ed="#P" n="79"/>comparationem, tacite declarat 
+          comparatio<lb break="no" ed="#P" n="80"/>nem in alio loco factam, scilicet, ut 
+          intelliga<lb break="no" ed="#P" n="81"/>tur esse de virtutibus moralibus, quae Deum
+          <lb ed="#P" n="82"/>ut objectum non attngunt, sed circa ea 
+          ver<lb break="no" ed="#P" n="83"/>santur, quae in Deum ut in finem ordinantur,
+          <lb ed="#P" n="84"/>ut ibi expresse dixit D. Thomas. Deinde hoc
+          <lb ed="#P" n="85"/>etiam declarat, et suadet ratio, qua divus
+          <lb ed="#P" n="86"/>Thomas utitur in dicto art. 12. Inde enimn
+          <lb ed="#P" n="87"/>probat justitiam legalem esse excellentiorem,
+          <lb ed="#P" n="88"/>quia bonum commune praeeminet bono 
+          par<lb break="no" ed="#P" n="89"/>ticulari unius personae. Ex hac enim ratione
+          <lb ed="#P" n="90"/>constat, solum comparare justitiam legalem
+          <lb ed="#P" n="91"/>cum virtutibus moralibus, quae circa personas
+          <lb ed="#P" n="92"/>creatas versantur. De hujusmodi enim 
+          perso<lb break="no" ed="#P" n="93"/>nis loquitur ; nam si de honore et gloria Dei
+          <lb ed="#P" n="94"/>sit sermo, praeferendum sine dubio est hoc
+          <lb ed="#P" n="95"/>bonum cuicumque bono creato, etiam 
+          com<lb break="no" ed="#P" n="96"/>muni. Unde sic potest ratio concludi, quia
+          <lb ed="#P" n="97"/>religio nobilius objectum habet, quam justitia
+          <lb ed="#P" n="98"/>legalis, nam illa habet pro objecto cui, Deum,
+          <lb ed="#P" n="99"/>et pro objecto quod, cultum illi debitum: haec
+          <lb ed="#P" n="100"/>vero pro objecto cui habet rempublicam, vel
+          <lb ed="#P" n="101"/>communitatem humanam, quae Deo longe 
+          in<lb break="no" ed="#P" n="102"/>ferior est; pro objecto vero quod, habet jus,
+          <lb ed="#P" n="103"/>seu bonum debitum huic communitati. 
+          Ob<lb break="no" ed="#P" n="104"/>jectum ergo religionis excellentius est ; ergo
+          <lb ed="#P" n="105"/>et ipsa religio.
+        </p>
+        <p>
+          <lb ed="#P" n="106"/>6. Instantia pro Cajetani sententia ; ea 
+          ta<lb break="no" ed="#P" n="107"/>mpen dissolvitur. — Sed ait Cajetanus, 
+          justi<lb break="no" ed="#P" n="108"/>tiam legalem non omnino excludere Deum,
+          <lb ed="#P" n="109"/>quia etiam ad justitiam pertinet reddere 
+          de<lb break="no" ed="#P" n="110"/>bitum Deo, vel satis esse inquit quod Deus sit
+          <pb ed="#P" n="71"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>finis particularis justitiae legalis. Unde ita 
+          ar<lb break="no" ed="#P" n="2"/>gumentatur : justitia legalis comparatur ad
+          <lb ed="#P" n="3"/>religionem, sicut totum ad partem, vel sicuti
+          <lb ed="#P" n="4"/>imperans et ordinans ad imperatum et 
+          ordi<lb break="no" ed="#P" n="5"/>natum ; nam et leges latae inveniuntur de his
+          <lb ed="#P" n="6"/>quae ad religionem spectant, et justitia legalis
+          <lb ed="#P" n="7"/>non minus ordinat de reddendo debito Deo,
+          <lb ed="#P" n="8"/>quam proximo ; ergo. Sed non satis percipio
+          <lb ed="#P" n="9"/>quid Cajetanus his rationibus intendat. Nam
+          <lb ed="#P" n="10"/>si per justitiam legalem intelligit totam 
+          colle<lb break="no" ed="#P" n="11"/>ctionem virtutum, vel omnium simpliciter, vel
+          <lb ed="#P" n="12"/>earum, quae sunt ad alterum, sic verum est
+          <lb ed="#P" n="13"/>justitiam legalem comparari ad religionem,
+          <lb ed="#P" n="14"/>sicut totum ad partem, esseque perfectiorem
+          <lb ed="#P" n="15"/>non intensive (si de sola collectione moralium
+          <lb ed="#P" n="16"/>virtutum loquamur), sed extensive, quia 
+          jus<lb break="no" ed="#P" n="17"/>titia sic sumpta non est una virtus 
+          simplici<lb break="no" ed="#P" n="18"/>ter, sed piures virtutes. Haec vero comparatio
+          <lb ed="#P" n="19"/>impertinens est, nec D. Thomas ita loquitur
+          <lb ed="#P" n="20"/>de justitia legali, cum ejus perfectionem
+          <lb ed="#P" n="21"/>exaggerat; neque etiam Aristoteles, 1. 1
+          <lb ed="#P" n="22"/>Ethicor, cap. 1, juxta probabiliorem 
+          intelle<lb break="no" ed="#P" n="23"/>ctum. Si autem legalis justitia accipiatur pro
+          <lb ed="#P" n="24"/>una speciali virtute justitia, quae a 
+          commuta<lb break="no" ed="#P" n="25"/>tiva et distributiva distinguitur, juxta 
+          Docto<lb break="no" ed="#P" n="26"/>ris Angelici doctrinam, dicta q. 58, art. 5 et
+          <lb ed="#P" n="27"/>D, sic falsum est comparari ad religionem, ut
+          <lb ed="#P" n="28"/>totum ad partem.
+        </p>
+        <p>
+          <lb ed="#P" n="29"/>7. Solutio magis expenditur, et ostenditur
+          <lb ed="#P" n="30"/>actus omnium virtutum, cvel etiam 
+          theologa<lb break="no" ed="#P" n="31"/>lium, sub imperio religionis contineri. — Nam
+          <lb ed="#P" n="32"/>justitia legalis sic sumpta dici solet 
+          univer<lb break="no" ed="#P" n="33"/>salis justitia secundum quamdam 
+          causalita<lb break="no" ed="#P" n="34"/>tem, et materiae extensionem. Quod videtur
+          <lb ed="#P" n="35"/>Cajetanus considerasse, ut eam compararet
+          <lb ed="#P" n="36"/>ad religionem, ut totum ad partem. Et 
+          prae<lb break="no" ed="#P" n="37"/>cipue videtur eam considerasse, quatenus in
+          <lb ed="#P" n="38"/>principe est legum lativa, et ferre potest 
+          le<lb break="no" ed="#P" n="39"/>ges in materia religionis, in quibus ferendis
+          <lb ed="#P" n="40"/>etiam observat rationem boni communis,
+          <lb ed="#P" n="41"/>quod respicit haec justitia; verumtamen 
+          ne<lb break="no" ed="#P" n="42"/>que ob illam causam justitia legalis potest
+          <lb ed="#P" n="43"/>praeferri religioni, neque ad illam comparari
+          <lb ed="#P" n="44"/>ut totum vel superior, sed ut pars et inferior.
+          <lb ed="#P" n="45"/>Probatur, quia etiam religio in causalitate et
+          <lb ed="#P" n="46"/>materia habet universalitatem quamdam, in
+          <lb ed="#P" n="47"/>qua non solum aequiparatur, sed superat
+          <lb ed="#P" n="48"/>etiam justitiam legalem. Patet prior pars ex
+          <lb ed="#P" n="49"/>supra dictis de materia, et actibus imperatis
+          <lb ed="#P" n="50"/>ab hac virtute, nam omnium virtutum actus
+          <lb ed="#P" n="51"/>sub imperio suo complectitur, quatenus eos
+          <lb ed="#P" n="52"/>ordinare potest ad cultum Dei. Posterior vero
+          <lb ed="#P" n="53"/>pars patet; primo, quia religio non tantum
+          <lb ed="#P" n="54"/>moralibus virtutibus, sed etiam theologicis
+          <lb ed="#P" n="55"/>imperare potest, quod non potest ita proprie
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et vere dici de justitia legali. Deinde, quia
+          <lb ed="#P" n="57"/>conferendo illas duas virtutes inter se, potius
+          <lb ed="#P" n="58"/>religio imperat et ordinat justitiam legalem
+          <lb ed="#P" n="59"/>ad suum finem, quam e converso. Proprio
+          <lb ed="#P" n="60"/>enim et recto ordine, non debet divinus 
+          cul<lb break="no" ed="#P" n="61"/>tus ordinari ad bonum reipublicae, ut ad 
+          pa<lb break="no" ed="#P" n="62"/>cem et quietem ejus, vel quid simile; sed 
+          po<lb break="no" ed="#P" n="63"/>tius totum reipublicae bonum ad hoc referri
+          <lb ed="#P" n="64"/>debet, ut Deus melius colatur, et in majorem
+          <lb ed="#P" n="65"/>Dei gloriam cedat.
+        </p>
+        <p>
+          <lb ed="#P" n="66"/>8. Religio aliquando potest per justitiam
+          <lb ed="#P" n="67"/>ordinari ; id tamen magis fit intentione 
+          ope<lb break="no" ed="#P" n="68"/>rantis quam virtutis. — Non nego quin etiam
+          <lb ed="#P" n="69"/>liceat aliquando curam religionis in 
+          reipu<lb break="no" ed="#P" n="70"/>blica haberi, ut pax ejus et omne aliud bonum
+          <lb ed="#P" n="71"/>melius in ea conservetur, quia hic finis 
+          ho<lb break="no" ed="#P" n="72"/>nestus est, et medium illud ad eum 
+          obtinen<lb break="no" ed="#P" n="73"/>dum est sine dubio utilissimum. Tamen ita
+          <lb ed="#P" n="74"/>hoc licitum est, sicut licet saepe ordinare 
+          su<lb break="no" ed="#P" n="75"/>periora bona ad bonum inferius, ita, scilicet,
+          <lb ed="#P" n="76"/>ut tandem omnia in majorem Dei gloriam
+          <lb ed="#P" n="77"/>redundent. Nam humanae reipublicae bonum
+          <lb ed="#P" n="78"/>inferius est, ad divinam gloriam 
+          compara<lb break="no" ed="#P" n="79"/>tum, et ideo divinum bonum, quo est Deo
+          <lb ed="#P" n="80"/>propinquius, eo ex se magis comparatur ut
+          <lb ed="#P" n="81"/>finis, quam ut medium, ad quodlibet 
+          huma<lb break="no" ed="#P" n="82"/>num bonum. Cujus signum evidens est, quia
+          <lb ed="#P" n="83"/>Deus ipse vult bonum commune humanum
+          <lb ed="#P" n="84"/>propter gloriam suam. Igitur considerando
+          <lb ed="#P" n="85"/>has virtutes secundum se, et non per 
+          acci<lb break="no" ed="#P" n="86"/>dens ex intentione hominis operantis, religio
+          <lb ed="#P" n="87"/>imperat justitiae legali, et omne bonum ejus
+          <lb ed="#P" n="88"/>refert in finem et objectum suum. Nullo ergo
+          <lb ed="#P" n="89"/>modo comparatur justitia legalis ad 
+          religio<lb break="no" ed="#P" n="90"/>nem, ut totum ad partem. Quia non in 
+          es<lb break="no" ed="#P" n="91"/>sentia, cum sint essentialiter condistinctae,
+          <lb ed="#P" n="92"/>neque in integritate, aut alio genere 
+          compo<lb break="no" ed="#P" n="93"/>sitionis, cum neque una ex alia, neque ex
+          <lb ed="#P" n="94"/>utraque aliquod tertium componatur. Nec 
+          de<lb break="no" ed="#P" n="95"/>nique in virtute. aut causalitate universali,
+          <lb ed="#P" n="96"/>cum religio absolute et simpliciter prior sit,
+          <lb ed="#P" n="97"/>ac universalior et eminentior in agendo.
+        </p>
+        <p>
+          <lb ed="#P" n="98"/>9. Religio ita est praestantissima in ratione
+          <lb ed="#P" n="99"/>virtutis, ut sit in ratione justitie aliis 
+          virtuti<lb break="no" ed="#P" n="100"/>bus inferior. — Neque quidquam refert quod
+          <lb ed="#P" n="101"/>religio ponatur inter partes potentiales 
+          justi<lb break="no" ed="#P" n="102"/>tae, ac proinde deficere videatur a perfecta
+          <lb ed="#P" n="103"/>ratione justitiae. Nam si haec ratio quidquam
+          <lb ed="#P" n="104"/>valeret, probaret religionem esse virtutem
+          <lb ed="#P" n="105"/>minus perfectam justitia commutativa, imo
+          <lb ed="#P" n="106"/>etiam probaret justitiam commutatiyam esse
+          <lb ed="#P" n="107"/>perfectiorem legali, quia conditiones justitiae
+          <lb ed="#P" n="108"/>magis integre et exacte in ea inveniuntur.
+          <lb ed="#P" n="109"/>Aliud ergo est considerare rigorem et 
+          pro<lb break="no" ed="#P" n="110"/>prietatem justitiae, aliud excellentiam virtu-
+          <pb ed="#P" n="72"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tis; nam in priori deficit aliquando religio,
+          <lb ed="#P" n="2"/>et ideo pars potentialis justitiae dicitur, ut 
+          su<lb break="no" ed="#P" n="3"/>pra explicatum est. Nihilominus tamen hoc
+          <lb ed="#P" n="4"/>non impedit quominus in perfectionc virtutis
+          <lb ed="#P" n="5"/>simpliciter superet, propter excellentiam 
+          ob<lb break="no" ed="#P" n="6"/>jecti, et affectus voluntatis. Unde D. 
+          Tho<lb break="no" ed="#P" n="7"/>mas, in dicto art. 6, ad 1, in simili, 
+          respon<lb break="no" ed="#P" n="8"/>det posse esse religionem perfectiorem 
+          sim<lb break="no" ed="#P" n="9"/>pliciter in esse virtutis, licet in attingendo 
+          me<lb break="no" ed="#P" n="10"/>dium justitiee deficiat, magis ex impotentia
+          <lb ed="#P" n="11"/>subjecti, quam ex imperfectione voluntatis.
+        </p>
+        <p>
+          <lb ed="#P" n="12"/>10. Cajetani fundamenta magis evertuntur.
+          <lb ed="#P" n="13"/>— Quod vero Cajetanus assumit, leges etiam
+          <lb ed="#P" n="14"/>ferri de his qua ad religionem spectant, non
+          <lb ed="#P" n="15"/>video quid ad causam referat. Nam si in 
+          le<lb break="no" ed="#P" n="16"/>gislatore consideretur potentia legum lativa,
+          <lb ed="#P" n="17"/>haec est bonum alterius ordinis. et cum illa
+          <lb ed="#P" n="18"/>non fit comparatio, ut per se constat. Si vero
+          <lb ed="#P" n="19"/>consideretur prudentia legislativa, quatenus
+          <lb ed="#P" n="20"/>est vera virtus, non solum intellectualis, sed
+          <lb ed="#P" n="21"/>etiam moralis, sic quidem illa praeferri 
+          po<lb break="no" ed="#P" n="22"/>test moralibus virtutibus ; sed illa non est
+          <lb ed="#P" n="23"/>justitia legalis, neque cum illa fit 
+          compara<lb break="no" ed="#P" n="24"/>tio. At vero si in legislatore consideretur illa
+          <lb ed="#P" n="25"/>virtus voluntatis , quae dirigit intentionem
+          <lb ed="#P" n="26"/>ejus, ut recte praecipiat in quacumque 
+          mate<lb break="no" ed="#P" n="27"/>ria in ordine ad commune bonum, sic 
+          qui<lb break="no" ed="#P" n="28"/>dem habet justitia legalis excellentiam 
+          quam<lb break="no" ed="#P" n="29"/>dam, tamen illa vincitur a religione, quae
+          <lb ed="#P" n="30"/>multo magis dirigere debet intentionem 
+          legis<lb break="no" ed="#P" n="31"/>latoris, ut divinam gloriam in ferendis 
+          legi<lb break="no" ed="#P" n="32"/>bus respiciat. Unde hoc modo etiam dici 
+          po<lb break="no" ed="#P" n="33"/>test religio imperare, ut leges ferantur non
+          <lb ed="#P" n="34"/>solum in sua materia, sed etiam in materis
+          <lb ed="#P" n="35"/>aliarum virtutum, si ad divinum honorem id
+          <lb ed="#P" n="36"/>spectet.
+        </p>
+        <p>
+          <lb ed="#P" n="37"/>11. Deus non est finis particularis justitiee
+          <lb ed="#P" n="38"/>legalis. — Quapropter falsum absolute est,
+          <lb ed="#P" n="39"/>Deum esse finem particularem justitiae legalis,
+          <lb ed="#P" n="40"/>quia non est finis intrinsecus et proprius, 
+          si<lb break="no" ed="#P" n="41"/>cut est religionis, quia non est objectum in
+          <lb ed="#P" n="42"/>quod immediate dirigat justitia legalis 
+          ac<lb break="no" ed="#P" n="43"/>tiones suas. Neque etiam est finis 
+          compre<lb break="no" ed="#P" n="44"/>hensus (ut ita dicam) intrinsece in 
+          commu<lb break="no" ed="#P" n="45"/>nitate illa, cujus bonum procurat justitia 
+          le<lb break="no" ed="#P" n="46"/>galis. Nam Deus potius est finis ultimus 
+          ex<lb break="no" ed="#P" n="47"/>trinsecus, seu objectivus, in cujus gloriam
+          <lb ed="#P" n="48"/>quodlibet humanum bonum referendum est,
+          <lb ed="#P" n="49"/>quod ad religionem spectat. Denique, ob
+          <lb ed="#P" n="50"/>eamdem causam falsum est quod Cajetanus
+          <lb ed="#P" n="51"/>ait, ad justitiam legalem spectare reddere
+          <lb ed="#P" n="52"/>debitum Deo, nisi justitiam legalem sumat
+          <lb ed="#P" n="53"/>pro collectione aliqua, vel pro aliquo genere
+          <lb ed="#P" n="54"/>virtutum , in quibus religio contineatur. Nam
+          <lb ed="#P" n="55"/>Icquendo de propria et speciali virtute justi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tiae legalis, non pertinet ad illam reddere 
+          de<lb break="no" ed="#P" n="57"/>bitum Deo, vel proximo, qui sit privata 
+          per<lb break="no" ed="#P" n="58"/>sona, ut talis est; sed solum communitati ut
+          <lb ed="#P" n="59"/>sic, seu quatenus ad commune bonum illius
+          <lb ed="#P" n="60"/>jus spectat. Quod hoc loco fusius explicari
+          <lb ed="#P" n="61"/>non potest ; satis vero inde probatur, quod
+          <lb ed="#P" n="62"/>justitia humana, sub qua legalis continetur,
+          <lb ed="#P" n="63"/>non attingit ullo modo Deum ut objectum
+          <lb ed="#P" n="64"/>cui ; et hoc titulo longe inferior est religione.
+        </p>
+        <p>
+          <lb ed="#P" n="65"/>12. Misericordia ea sententia Cajetani 
+          prae<lb break="no" ed="#P" n="66"/>stat religioni.—Secunda comparatio, de qua
+          <lb ed="#P" n="67"/>dubitari potest, cum misericordia fit. Nam
+          <lb ed="#P" n="68"/>Cajetanus misericordiam praefert justitiae 
+          le<lb break="no" ed="#P" n="69"/>gali, in dicta quaest. 58, et 1. 2; ergo si 
+          lega<lb break="no" ed="#P" n="70"/>lem justitiam praefert religioni, multo magis
+          <lb ed="#P" n="71"/>misericordiam. Favet D. Thomas 2. 2, queest.
+          <lb ed="#P" n="72"/>30, articnlo quarto, ubi solam charitatem 
+          vi<lb break="no" ed="#P" n="73"/>detur misericordiae praeferre m nobis : nam in
+          <lb ed="#P" n="74"/>Deo etiam charitati misericordiam anteponit.
+          <lb ed="#P" n="75"/>Denique ad hoc suadendum afferri possunt
+          <lb ed="#P" n="76"/>illa verba Matth. 9 et 12, ex Oseae 6 : 
+          Miseri<lb break="no" ed="#P" n="77"/>cordiam volo, non sacrificium. Quod perinde
+          <lb ed="#P" n="78"/>est, ac si diceretur : Malo misericordiae 
+          ope<lb break="no" ed="#P" n="79"/>ra, quam religionis ; ergo, testimonio Christi
+          <lb ed="#P" n="80"/>et Osea, opera misericordiae meliora sunt
+          <lb ed="#P" n="81"/>operibus religionis, quia quod Deus praefert
+          <lb ed="#P" n="82"/>et eligit, melius est ; ergo et virtus ipsa 
+          mise<lb break="no" ed="#P" n="83"/>ricordiae est melior.
+        </p>
+        <p>
+          <lb ed="#P" n="84"/>13. Vera D. Thomme sententia, 
+          misericor<lb break="no" ed="#P" n="85"/>diam, licet alüs cirtutibus proestet, religioni
+          <lb ed="#P" n="86"/>tamen cedere. — Nihilominus dicendum est,
+          <lb ed="#P" n="87"/>religionem esse perfectiorem virtutem 
+          mise<lb break="no" ed="#P" n="88"/>ricordia. Ita sumitur ex D. Thoma, dicta q.
+          <lb ed="#P" n="89"/>30, ubi cum limitatione ait, aemisericordiam
+          <lb ed="#P" n="90"/>esse potentissimam inter omnes virtutes, que
+          <lb ed="#P" n="91"/>ad procximum pertinent, non vero excedere
+          <lb ed="#P" n="92"/>illas virtutes, quae conjungunt hominem Deo.
+          <lb ed="#P" n="93"/>Nam ei qui supra se aliquem habet, melius
+          <lb ed="#P" n="94"/>est conjungi superiori, quam supplere 
+          defec<lb break="no" ed="#P" n="95"/>tum inferioris. Et quamvis ibi D. Thomas 
+          so<lb break="no" ed="#P" n="96"/>lum ponat exemplum in charitate , non est
+          <lb ed="#P" n="97"/>tamen dubium quin ea doctrina locum habeat
+          <lb ed="#P" n="98"/>in spe et fide, quae etiam conjungunt 
+          homi<lb break="no" ed="#P" n="99"/>nem Deo. Ob eamdem ergo rationem habebit
+          <lb ed="#P" n="100"/>locum in religione, quae, licet non aeque ac
+          <lb ed="#P" n="101"/>virtutes theologicae, tamen proxime post illas
+          <lb ed="#P" n="102"/>conjungit nos Deo, ut supremo principio, cui
+          <lb ed="#P" n="103"/>cultum defert. Idem confirmat D. Thomas,
+          <lb ed="#P" n="104"/>dicta q. 81, art. 6, dum sine limitatione 
+          prae<lb break="no" ed="#P" n="105"/>fert religionem caeteris virtutibus moralibus.
+          <lb ed="#P" n="106"/>Et ratio qua id probat, procedit etiam 
+          res<lb break="no" ed="#P" n="107"/>pectu misericordia , quae non ita proxime nos
+          <lb ed="#P" n="108"/>unit Deo, sicut religio. Unde in eadem quaest.,
+          <lb ed="#P" n="109"/>art. 1, ad 1, significat idem D. Thomas, ita
+          <lb ed="#P" n="110"/>excedi misericordiam a religione, sicut me-
+          <pb ed="#P" n="73"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dium a fine, quia religio attingit finem, 
+          pro<lb break="no" ed="#P" n="2"/>pter quem misericordie actus imperandi
+          <lb ed="#P" n="3"/>sunt. Atque ita simul ratione et auctoritate
+          <lb ed="#P" n="4"/>probata est nostra resolutio.
+        </p>
+        <p>
+          <lb ed="#P" n="5"/>14. Scripture loca pro Cajetano allata 
+          ea<lb break="no" ed="#P" n="6"/>plicantur.— Ad locum autem Oseae et Matth.,
+          <lb ed="#P" n="7"/>Hieronymus, super Oseam, per misericordiam
+          <lb ed="#P" n="8"/>videtur intelligere non nostram erga 
+          paupe<lb break="no" ed="#P" n="9"/>res, sed Dei erga nos, quam exercet 
+          remit<lb break="no" ed="#P" n="10"/>tendo nobis peccata, unde sic exponit : Von
+          <lb ed="#P" n="11"/>in sacrificiis delector, et victimis, et 
+          multitudi<lb break="no" ed="#P" n="12"/>ne holocaustorum ; victime mem et holocausta,
+          <lb ed="#P" n="13"/>salus credentium. et conversio peccatorum est.
+          <lb ed="#P" n="14"/>Quo sensu haec sententia aequivalet illi Psal.:
+          <lb ed="#P" n="15"/>Quoniam si voluisses, sacrificium dedissem 
+          uti<lb break="no" ed="#P" n="16"/>que, holocaustis non delectaberis. Sacrificium
+          <lb ed="#P" n="17"/>Deo spüritus contribulatus, etc. At 
+          commu<lb break="no" ed="#P" n="18"/>nius exponitur de misericordia hominis; et
+          <lb ed="#P" n="19"/>exponitur primo : Afisericordiam volo, et non
+          <lb ed="#P" n="20"/>tantum sacrificium, seu: Nolo sacrijcium sine
+          <lb ed="#P" n="21"/>misericordia. Ita Anselmus Matt. 9. Secundo,
+          <lb ed="#P" n="22"/>non velle Deum sacrificium externum sine 
+          in<lb break="no" ed="#P" n="23"/>terno, vel quod internum praeferat externo;
+          <lb ed="#P" n="24"/>nam per misericordiam omnia charitatis opera
+          <lb ed="#P" n="25"/>ex amore Dei facta intelliguntur. Ita Maldon.,
+          <lb ed="#P" n="26"/>Matth. 9, et sumitur ex Augustino, libr. 10
+          <lb ed="#P" n="27"/>de Civitate, cap. 5 et 20, contra Faustum,
+          <lb ed="#P" n="28"/>cap. 16. Tertio, significat Dominus se non
+          <lb ed="#P" n="29"/>velle sacrificia haec externa, quia illis indigeat
+          <lb ed="#P" n="30"/>in suam utilitatem, ideoque, ubi necessitas
+          <lb ed="#P" n="31"/>proximi occurrerit, se malle misericordiam.
+          <lb ed="#P" n="32"/>Ita fere Bellarm.,. tom. 1, libro 3, de Cultu
+          <lb ed="#P" n="33"/>Sanctorum, cap. 6. Unde non fit 
+          misericor<lb break="no" ed="#P" n="34"/>diam esse meliorem, sed interdum esse 
+          ma<lb break="no" ed="#P" n="35"/>gis necessariam, quanquam etiam tunc 
+          me<lb break="no" ed="#P" n="36"/>lius sit ipsammet misericordiam intuitu 
+          reli<lb break="no" ed="#P" n="37"/>gionis exercere propter Deum. Et ita licet 
+          in<lb break="no" ed="#P" n="38"/>terdum materia externa propria religionis
+          <lb ed="#P" n="39"/>omittenda sit propter misericordiam, internus
+          <lb ed="#P" n="40"/>vero cultus nunquam est necessario 
+          omitten<lb break="no" ed="#P" n="41"/>dus. Et sic facile conciliantur omnes 
+          exposi<lb break="no" ed="#P" n="42"/>tiones, et veritas constat.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>15. Confertur religio cum obedientia, ac
+          <lb ed="#P" n="44"/>prefertur. — Tertia comparatio fieri potest
+          <lb ed="#P" n="45"/>cum virtute obedientiae ; nam de obedientia
+          <lb ed="#P" n="46"/>scriptum est, 1 Reg., c. 11: Melior est 
+          obe<lb break="no" ed="#P" n="47"/>dientia quam victime. Item obedientia videtur
+          <lb ed="#P" n="48"/>conjunctissima charitati, et similis in materia,
+          <lb ed="#P" n="49"/>quatenus voluntatem propriam voluntati Dei
+          <lb ed="#P" n="50"/>subjicit. Nihilominus est dicendum religionem
+          <lb ed="#P" n="51"/>esse simpliciter perfectiorem. Ita sentit, licet
+          <lb ed="#P" n="52"/>obscure, D. Thomas 2. 2, quaest. 104, articul.
+          <lb ed="#P" n="53"/>3; expressius vero Cajetanus ibi, qui paucis
+          <lb ed="#P" n="54"/>verbis rationem comprehendtit, dicens : 
+          Quo<lb break="no" ed="#P" n="55"/>nium religio Deum, qui praecipit, colit, obe-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dientia vero ad ejus preceptum attendit. 
+          Ra<lb break="no" ed="#P" n="57"/>üones etiam supra factae de justitia legali
+          <lb ed="#P" n="58"/>hic habent locum, quia religio propinquior
+          <lb ed="#P" n="59"/>est virtutibus theologalibus, quam 
+          obedien<lb break="no" ed="#P" n="60"/>tia, magisque devovet Deo totum 
+          homi<lb break="no" ed="#P" n="61"/>nem, quam obedientia. Et in hoc est 
+          cha<lb break="no" ed="#P" n="62"/>ritati similior, ut ex supra dictis constare
+          <lb ed="#P" n="63"/>potest, et infra, cum agemus de devotione,
+          <lb ed="#P" n="64"/>magis constabit. Cum ergo obedientia 
+          prae<lb break="no" ed="#P" n="65"/>fertur externo sacrificio, non ideo praefertur
+          <lb ed="#P" n="66"/>toti religioni. Sed, ut Cajetanus bene notavit,
+          <lb ed="#P" n="67"/>prafertur sacrificium internum externo, quia
+          <lb ed="#P" n="68"/>illo voluntas Deo mactatur, ut Gregorius dixit,
+          <lb ed="#P" n="69"/>ult. Moral., cap. 12. At illa interior mactatio
+          <lb ed="#P" n="70"/>per religionem fit media devotione.
+        </p>
+        <p>
+          <lb ed="#P" n="71"/>16. Comparatur religio cum ponitentia, illa
+          <lb ed="#P" n="72"/>tamen ignobilior judicatur. — Quarto, 
+          con<lb break="no" ed="#P" n="73"/>ferri potest cum virtute poenitentiae religio,
+          <lb ed="#P" n="74"/>de qua comparatione nihil scriptum invenio.
+          <lb ed="#P" n="75"/>Tractat quidem D. Thomas, 3 part., quaest.
+          <lb ed="#P" n="76"/>85, art. 6, an poenitentia sit prima virtutum,
+          <lb ed="#P" n="77"/>et significat natura esse inferiorem aliis, id
+          <lb ed="#P" n="78"/>est, excellentia et perfectione, quia quod est
+          <lb ed="#P" n="79"/>per se, melius est quam id quod est per
+          <lb ed="#P" n="80"/>accidens; alia autem virtutes sunt per se
+          <lb ed="#P" n="81"/>necessaria, poenitentia vero per accidens,
+          <lb ed="#P" n="82"/>supposito peccato. Verumtamen D. Thomas,
+          <lb ed="#P" n="83"/>illo in loco, imprimis non comparat 
+          poeniten<lb break="no" ed="#P" n="84"/>tiam ad alias virtutes in perfectione, sed in
+          <lb ed="#P" n="85"/>usu sui actus, et in hoc dicit, quodammodo
+          <lb ed="#P" n="86"/>esse imperfectiorem poenitentiam ; quae 
+          com<lb break="no" ed="#P" n="87"/>paratio est tantum secundum quid, et 
+          praeter<lb break="no" ed="#P" n="88"/>ea, juxta nostram sententiam , non habet
+          <lb ed="#P" n="89"/>locum in virtute poenitentiae, quoad totam 
+          la<lb break="no" ed="#P" n="90"/>titudinem sui objecti suorumque actuum, sed
+          <lb ed="#P" n="91"/>solum in propriisimo actu detestandi 
+          pecca<lb break="no" ed="#P" n="92"/>tum commissum ; nam in aliis per se habet
+          <lb ed="#P" n="93"/>illa virtus usum suorum actuum, quoad odium
+          <lb ed="#P" n="94"/>peccati secundum se, et quoad propositum
+          <lb ed="#P" n="95"/>cavendi omnem divinam injuriam, et 
+          simi<lb break="no" ed="#P" n="96"/>les.
+        </p>
+        <p>
+          <lb ed="#P" n="97"/>17. Quocirca, facta comparatione absolute
+          <lb ed="#P" n="98"/>et simpliciter inter illas virtutes, quoad 
+          per<lb break="no" ed="#P" n="99"/>fectionem earum, verisimile mihi est 
+          antece<lb break="no" ed="#P" n="100"/>dere virtutem justitiaa ad Deum, quae nomine
+          <lb ed="#P" n="101"/>poenitentiae significatur, si distincta est a 
+          re<lb break="no" ed="#P" n="102"/>ligione. Ratio est, quia cum modo attingendi
+          <lb ed="#P" n="103"/>Deum immediate convenit cum religione, et
+          <lb ed="#P" n="104"/>in reddendo illi debito, attendit strictius, 
+          ma<lb break="no" ed="#P" n="105"/>gisque rigorosum debitum. Unde sicut in 
+          or<lb break="no" ed="#P" n="106"/>dine ad proximum nobis non specialiter 
+          con<lb break="no" ed="#P" n="107"/>junctum, perfectior virtus est justitia propria
+          <lb ed="#P" n="108"/>et rigorosa, quam alia virtutes illi annexa
+          <lb ed="#P" n="109"/>eumdem proximum respicientes, ut 
+          liberali<lb break="no" ed="#P" n="110"/>tas, observantia, etc., ita inter virtutes quae
+          <pb ed="#P" n="74"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>reddunt debitum Deo, illa videtur perfectior,
+          <lb ed="#P" n="2"/>quae magis de perfectione et obligatione 
+          justi<lb break="no" ed="#P" n="3"/>tiae participat. Nec refert quod in 
+          constituen<lb break="no" ed="#P" n="4"/>da aequalitate magis videatur deficere 
+          poeni<lb break="no" ed="#P" n="5"/>tentia quam religio, ut supra insinuavimus;
+          <lb ed="#P" n="6"/>nam, ut notavimus ex D. Thoma, dicta 
+          quaes<lb break="no" ed="#P" n="7"/>tione 81, articulo 1, ad 1, defectus 
+          aequalita<lb break="no" ed="#P" n="8"/>tis, cum non sit voluntatis, sed potestatis,
+          <lb ed="#P" n="9"/>parum minuit perfectionem virtutis. Magis
+          <lb ed="#P" n="10"/>vero illam auget. quod ad conservandum
+          <lb ed="#P" n="11"/>illesum omne divinum jus, quantum in se
+          <lb ed="#P" n="12"/>est, toto affectu tendit, et quando laesum est,
+          <lb ed="#P" n="13"/>illud, quantum potest, restaurare studet. Et
+          <lb ed="#P" n="14"/>in Psalm. 50, maxime commendatur 
+          sacrifi<lb break="no" ed="#P" n="15"/>cium contriti cordis, ut notavit Augustinus,
+          <lb ed="#P" n="16"/>10 de Civitate, capite 5. Nec D. Thomas 
+          alie<lb break="no" ed="#P" n="17"/>nus est ab hac sententia, in illa quaestione 81,
+          <lb ed="#P" n="18"/>articulo 6. Nam cum facit comparationem
+          <lb ed="#P" n="19"/>simpliciter, solas virtutes theologales praefert
+          <lb ed="#P" n="20"/>absolute poenitentiae. Cajetanus vero saltem
+          <lb ed="#P" n="21"/>eequiparat poenitentiam religioni, quia illas
+          <lb ed="#P" n="22"/>non distinguit. Unde cum religio numerari
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="23"/>solet inter virtutes proximo loco post 
+          theolo<lb break="no" ed="#P" n="24"/>gales, intelligendum existimo de religione in
+          <lb ed="#P" n="25"/>communi et generice, prout omnem justitiam
+          <lb ed="#P" n="26"/>ad Deum sub se comprehendit.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>18. Comparatur cum prudentia. — Ultimo
+          <lb ed="#P" n="28"/>fieri potest comparatio religionis ad 
+          pru<lb break="no" ed="#P" n="29"/>dentiam, sed hanc omittimus, quia est inter
+          <lb ed="#P" n="30"/>res diversorum ordinum. Prudentia enim non
+          <lb ed="#P" n="31"/>tantum moralis, sed etiam intellectualis est
+          <lb ed="#P" n="32"/>virtus, de cujus praestantia supra reliquas
+          <lb ed="#P" n="33"/>virtutes morales alibi dicendum est. Atque,
+          <lb ed="#P" n="34"/>ex his quae diximus de virtute religionis,
+          <lb ed="#P" n="35"/>satis videtur natura ejus declarata, simulque
+          <lb ed="#P" n="36"/>causas, materiam et effectum ejus 
+          exposui<lb break="no" ed="#P" n="37"/>mus generatim ; nam in particulari tractari
+          <lb ed="#P" n="38"/>amplius non possunt, nisi discurrendo per
+          <lb ed="#P" n="39"/>singulos actus internos et externos hujus 
+          vir<lb break="no" ed="#P" n="40"/>tutis, quod in sequentibus tractatibus 
+          facie<lb break="no" ed="#P" n="41"/>mus, simulque dicemus de praeceptis 
+          perti<lb break="no" ed="#P" n="42"/>nentibus ad hanc virtutem, quia haec dantur
+          <lb ed="#P" n="43"/>de actibus in particulari, et quia doctrina
+          <lb ed="#P" n="44"/>moralis circa particularia etiam versatur.
+          <lb ed="#P" n="45"/>FINIS TRACTATUS PRIMI.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

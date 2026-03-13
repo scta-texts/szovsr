@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="163"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k04039"><!-- t2-l1c19 -->
+        <head>Caput 19</head>
+        <head type="question-title">Exponuntur varia dubia circa privilegia non solvendi decimas.</head>
+        <p>
+          <lb ed="#P" n="22"/>CAPUT XIX.
+          <lb ed="#P" n="23"/>EXPONUNTUR VARIA DUBIA CIRCA PRIVILEGIA
+          <lb ed="#P" n="24"/>NON SOLVENDI DECIMAS.
+        </p>
+        <p>
+          <lb ed="#P" n="25"/>1. Primum dubium est, an per praedicta
+          <lb ed="#P" n="26"/>privilegia eximentia a solutione decimarum
+          <lb ed="#P" n="27"/>praedialium, liberetur quis a debito etiam
+          <lb ed="#P" n="28"/>reali solvendi decimam praedialem, quae 
+          an<lb break="no" ed="#P" n="29"/>tea parochiae ex tali agro debebatur. Nam 
+          OI<lb break="no" ed="#P" n="30"/>dra., dicto consil. 268, putat non liberari, sed
+          <lb ed="#P" n="31"/>solum a decimis agri novalis, quem religiosi
+          <lb ed="#P" n="32"/>suis laboribus denuo excoluerunt. Quod 
+          se<lb break="no" ed="#P" n="33"/>quitur Rebuff., 13, num. 114, et alii, ut 
+          refe<lb break="no" ed="#P" n="34"/>runt Covar., dicto capite 17, numero 14;
+          <lb ed="#P" n="35"/>Guttier., dicto cap. 21, numero 129. Ratio est,
+          <lb ed="#P" n="36"/>quia hoc privilegium est odiosum, et ideo
+          <lb ed="#P" n="37"/>stricte interpretandum; ergo cum possit 
+          ha<lb break="no" ed="#P" n="38"/>bere effectum, et sufficienter servari ex 
+          exem<lb break="no" ed="#P" n="39"/>ptione a decimis, quae sine praejudicio tertii
+          <lb ed="#P" n="40"/>possunt non solvi, non est ultra illas 
+          exten<lb break="no" ed="#P" n="41"/>dendum ; sed intellectum de decimis novalium
+          <lb ed="#P" n="42"/>praediorum cavetur praejudicium tertii, quia
+          <lb ed="#P" n="43"/>illa praedia nunquam fuerunt obligata 
+          solutio<lb break="no" ed="#P" n="44"/>ni decimarum alteri ecclesize, et suffieienter
+          <lb ed="#P" n="45"/>impletur privilegium in rigore verborum;
+          <lb ed="#P" n="46"/>tum quia illa verba, de laboribus quos propriis
+          <lb ed="#P" n="47"/>manibus et sumptibus eucolunt, propriissime
+          <lb ed="#P" n="48"/>arctantur ad novalia, et quae proprio labore et
+          <lb ed="#P" n="49"/>sumptu fructifera fiunt; proventus enim 
+          anti<lb break="no" ed="#P" n="50"/>quorum praediorum suo modo aliorum 
+          labori<lb break="no" ed="#P" n="51"/>bus attribui possunt; tum etiam quia, cum
+          <lb ed="#P" n="52"/>aliquis eximitur a decima, optime intelligitur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>eximi a debito personali, non a reali, quod
+          <lb ed="#P" n="54"/>magis est rei quam personae, cum ratione rei
+          <lb ed="#P" n="55"/>solius persona obligetur.
+        </p>
+        <p>
+          <lb ed="#P" n="56"/>2. Pars affirmativa communis et certa. —
+          <lb ed="#P" n="57"/>Nihilominus contraria sententia est 
+          commu<lb break="no" ed="#P" n="58"/>nis, ut referunt Covar. et Guttier. supra, cum
+          <lb ed="#P" n="59"/>Abb, in cap. Dudum, de Privileg. Estque
+          <lb ed="#P" n="60"/>communis praxis. Et post declarationem 
+          Ale<lb break="no" ed="#P" n="61"/>xandri III, videtur mihi res indubitata ; nam
+          <lb ed="#P" n="62"/>antea poterat fortasse prior sententia 
+          appa<lb break="no" ed="#P" n="63"/>renter sustineri, quia neque Paschasius, neque
+          <lb ed="#P" n="64"/>Adrianus Papa, usi fuerunt verbis, quibus 
+          sa<lb break="no" ed="#P" n="65"/>tis aperte ostenderent, se eximere non tantum
+          <lb ed="#P" n="66"/>personas, sed etiam res prius obnoxias dehbito
+          <lb ed="#P" n="67"/>decimarum. At vero Alexander III, in dicta
+          <lb ed="#P" n="68"/>cap. Ez parte, 1, expresse distinguit dicens,
+          <lb ed="#P" n="69"/>antiquitus fuisse concessum omnibus 
+          religio<lb break="no" ed="#P" n="70"/>sis, ut decimas non solverent de laboribus
+          <lb ed="#P" n="71"/>suis: quod intelligit a temporibus Paschasii Il,
+          <lb ed="#P" n="72"/>in dieto cap. Decimas, 16, quaestione prima;
+          <lb ed="#P" n="73"/>nam antea monachi solvebant decimas, non
+          <lb ed="#P" n="74"/>minus quam laici, ut notat Gloss.. in dicto cap.
+          <lb ed="#P" n="75"/>Ha parte, 1, juxta cap. Alia causa, 1, 
+          adjun<lb break="no" ed="#P" n="76"/>cta Glossa, ver. Si minus, 16, quaest. 1. 
+          Re<lb break="no" ed="#P" n="77"/>buff. vero, dicta quaest. 14, num. 27 et 38,
+          <lb ed="#P" n="78"/>addit, Gregorium exemisse monachos a 
+          deci<lb break="no" ed="#P" n="79"/>mis suorum praediorum solvendis simpliciter
+          <lb ed="#P" n="80"/>et sine illa limitatione, de laboribus suis, 
+          ci<lb break="no" ed="#P" n="81"/>tatque canonem Gregorii, qui in jure, vel 
+          ope<lb break="no" ed="#P" n="82"/>ribus ejus non invenitur. Postmodum vero
+          <lb ed="#P" n="83"/>Paschasius religiosos exemit verbis supra 
+          re<lb break="no" ed="#P" n="84"/>latis, quae ambiguitatem tactam facere 
+          pote<lb break="no" ed="#P" n="85"/>rant. At vero, attenta relatione et 
+          contirmatio<lb break="no" ed="#P" n="86"/>ne Alexandri, res est clara ; dicit enim se cum
+          <lb ed="#P" n="87"/>Adriano eximere quosdam absolute a decimis
+          <lb ed="#P" n="88"/>solcendis de laboribus suis, alios cero tantum
+          <lb ed="#P" n="89"/>a decimis de nocalibus, animalibus, et hortis.
+          <lb ed="#P" n="90"/>Ergo plane declarat illos priores, non tantum
+          <lb ed="#P" n="91"/>quoad novalia, sed absolute quoad omnes 
+          ter<lb break="no" ed="#P" n="92"/>ras propriis manibus cultas, eximi, sive prius
+          <lb ed="#P" n="93"/>cultae fuerint et solvendis decimis assuetae,
+          <lb ed="#P" n="94"/>sive non, alias nulla esset differentia inter illa
+          <lb ed="#P" n="95"/>duo membra. Et consequenter exponit illa
+          <lb ed="#P" n="96"/>verba, de laboribus, eic., extendi ad 
+          quaecum<lb break="no" ed="#P" n="97"/>que praedia propriis laboribus vel sumptibus
+          <lb ed="#P" n="98"/>culta, ac subinde in hoc sensu fuisse 
+          an<lb break="no" ed="#P" n="99"/>tea concessum privilegium. Ac denique in
+          <lb ed="#P" n="100"/>cap. Ad audientiam, eodem titulo, expresse
+          <lb ed="#P" n="101"/>refert priorem interpretationem, et explodit
+          <lb ed="#P" n="102"/>illam. Tandem Innocentius IlI. in dicto cap.
+          <lb ed="#P" n="103"/>Nuper, statuit ut religiosi de terris amodo
+          <lb ed="#P" n="104"/>acquirendis decimas persolvant ecclesiis, 
+          qui<lb break="no" ed="#P" n="105"/>bus ratione praediorum antea solvebantur;
+          <lb ed="#P" n="106"/>ergo de terris ante illud decretum acquisitis
+          <lb ed="#P" n="107"/>non tenebantur solvere decimas, licet ratione
+          <pb ed="#P" n="164"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praediorum antea solverentur. Et e contrario
+          <lb ed="#P" n="2"/>etiam nunc non tenentur solvere de novalibus,
+          <lb ed="#P" n="3"/>nam ex illis, vel ratione ipsorum, nullis 
+          eccle<lb break="no" ed="#P" n="4"/>siis prius decimae solvebantur. Ergo per illa
+          <lb ed="#P" n="5"/>verba generalia, concessa erat exemptio a
+          <lb ed="#P" n="6"/>praedialibus decimis, etiam quoad reale 
+          debi<lb break="no" ed="#P" n="7"/>tum. Atque hoc evidentius locum habet in
+          <lb ed="#P" n="8"/>privilegiis extra jus concessis religiosis, in
+          <lb ed="#P" n="9"/>quorum favorem interdum derogatur dictum
+          <lb ed="#P" n="10"/>cap. Nuper , interdum additur distributio, ab
+          <lb ed="#P" n="11"/>omnibus decimis , aliquando simpliciter 
+          dici<lb break="no" ed="#P" n="12"/>tur, a pra dialibus decimis.
+        </p>
+        <p>
+          <lb ed="#P" n="13"/>3. Objectio. — Solvitur. — Sed objici 
+          po<lb break="no" ed="#P" n="14"/>test cap. Dudum, de Privileg., quatenus ex eo
+          <lb ed="#P" n="15"/>colligitur, per privilegium non solvendi 
+          deci<lb break="no" ed="#P" n="16"/>mas de novalibus non privari aliquam 
+          eccle<lb break="no" ed="#P" n="17"/>siam jure vel possessione exigendi decimas de
+          <lb ed="#P" n="18"/>talibus rebus, nisi hoc ipsum in ipso 
+          privile<lb break="no" ed="#P" n="19"/>gio exprimatur; ergo in universurm, nisi 
+          in<lb break="no" ed="#P" n="20"/>duitum mentionem faciat debiti realis, non
+          <lb ed="#P" n="21"/>eximit ab illo, nec privat tertium jure suo.
+          <lb ed="#P" n="22"/>Sic etiam in capit. Dudum, de Decimis, per
+          <lb ed="#P" n="23"/>concessionem cujusdam ecclesiae cuidam 
+          hos<lb break="no" ed="#P" n="24"/>pitali factam, non censetur Episcopus privari
+          <lb ed="#P" n="25"/>jure decimarum talis ecclesiae, quia hoc in 
+          lit<lb break="no" ed="#P" n="26"/>teris bon exprimebatur; ergo idem est in
+          <lb ed="#P" n="27"/>praesenti. Respondetur, casum utriusque 
+          tex<lb break="no" ed="#P" n="28"/>tus esse longe diversum: nam in priori sermo
+          <lb ed="#P" n="29"/>est de privilegio concesso ad non solvendas
+          <lb ed="#P" n="30"/>decimas de novalibus, et declaratur sub tali
+          <lb ed="#P" n="31"/>indulto non comprehendi novalia, a quibus
+          <lb ed="#P" n="32"/>ecclesia decimas accipiebat prius quam 
+          rum<lb break="no" ed="#P" n="33"/>perentur et excolerentur. Poterat enim prius
+          <lb ed="#P" n="34"/>accipere decimas ex herbis, pascuis, aut lignis
+          <lb ed="#P" n="35"/>talium terrarum; et tunc non censetur 
+          Ponti<lb break="no" ed="#P" n="36"/>fex facere praejudicium ecclesiae possidenti, sed
+          <lb ed="#P" n="37"/>solum concedere illa novalia, qua omnino 
+          in<lb break="no" ed="#P" n="38"/>fructuosa erant ecclesiis, quia ex vi vocis 
+          no<lb break="no" ed="#P" n="39"/>calium, haec videtur esse intentio Pontificis,
+          <lb ed="#P" n="40"/>et ita declarata est illa vox in cap. Quid per
+          <lb ed="#P" n="41"/>notale, de Verbor. significat. At in praesenti
+          <lb ed="#P" n="42"/>cum conceditur absolute exemptio a decimis
+          <lb ed="#P" n="43"/>ex propriis laboribus (seu, quod idem est) ex
+          <lb ed="#P" n="44"/>praediis propriis laboribus vel sumptibus 
+          cul<lb break="no" ed="#P" n="45"/>tis, comprehenduntur etiam decimae ex terris
+          <lb ed="#P" n="46"/>prius cultis, et sub possessione ecclesiae 
+          con<lb break="no" ed="#P" n="47"/>stitutis quoad decimarum perceptionem, quia
+          <lb ed="#P" n="48"/>verba illa in proprietate hoc totum 
+          compre<lb break="no" ed="#P" n="49"/>hendunt. Nam ipsa vox decima, significat 
+          ali<lb break="no" ed="#P" n="50"/>quid sub jure ecclesiae constitutum, a quo jure
+          <lb ed="#P" n="51"/>privilegium liberat, quia implicite saltem fit
+          <lb ed="#P" n="52"/>in eo sufficiens mentio illius juris. Hinc vero
+          <lb ed="#P" n="53"/>inferunt Covarruvias et Guttierez, hanc 
+          sen<lb break="no" ed="#P" n="54"/>tentiam intelligendam esse quoad decimas,
+          <lb ed="#P" n="55"/>quatenus communi jure debentur. Nam si ali-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cui deberentur ex talibus praediis ex 
+          particu<lb break="no" ed="#P" n="57"/>lari privilegio vel titulo, tunc illi non 
+          praeju<lb break="no" ed="#P" n="58"/>dicaret tale privilegium, nisi vel alterius juris
+          <lb ed="#P" n="59"/>specialis expressam faceret mentionem, vel
+          <lb ed="#P" n="60"/>daretur per verba adeo particularia, ut omnes
+          <lb ed="#P" n="61"/>similes titulos et exactiones comprehenderet,
+          <lb ed="#P" n="62"/>ut in privilegiis religionum fieri nunc solet,
+          <lb ed="#P" n="63"/>quod mihi valde placet. In alio vero capit.
+          <lb ed="#P" n="64"/>Dudum , minor est difficultas ; quia concedere
+          <lb ed="#P" n="65"/>ecclesiam, seu illam unire hospital aut 
+          mo<lb break="no" ed="#P" n="66"/>nasterio, in rigore non est illi applicare jura
+          <lb ed="#P" n="67"/>episcopalia illius ecclesiae, sed ad summum
+          <lb ed="#P" n="68"/>propria et parochialia; et ideo nulla ibi erat
+          <lb ed="#P" n="69"/>difficultas, nec similitudo cum nostro casu.
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>4. An privilegium de non solvendis 
+          predia<lb break="no" ed="#P" n="71"/>libus decimis extendatur ad novalia.— Secundo
+          <lb ed="#P" n="72"/>vero potesl e converso dubitari, an 
+          privile<lb break="no" ed="#P" n="73"/>gium concessum de non solvendis predialibus
+          <lb ed="#P" n="74"/>decimis, extendatur ad novalia post 
+          conces<lb break="no" ed="#P" n="75"/>sum privilegium culta, vei solum de praedis
+          <lb ed="#P" n="76"/>usque ad illud tempus cultis intelligatur. 
+          Qui<lb break="no" ed="#P" n="77"/>dam enim censent non extendendum ad 
+          no<lb break="no" ed="#P" n="78"/>valia. Ita Rebuffus, dicta quaest. 14, num. 29
+          <lb ed="#P" n="79"/>et 30; refertque Anton. et Socin., et eum 
+          se<lb break="no" ed="#P" n="80"/>quitur Gutier., dicto c. 21, num. 130. 
+          Con<lb break="no" ed="#P" n="81"/>sutuunt autem dicti auctores differentiam 
+          in<lb break="no" ed="#P" n="82"/>ter privilegium eximens a decimis solvendis
+          <lb ed="#P" n="83"/>ex propriis laboribus propriorum agrorum,
+          <lb ed="#P" n="84"/>vel absolute eximens a decimis propriorum
+          <lb ed="#P" n="85"/>praediorum ; nam primum fatentur extendi
+          <lb ed="#P" n="86"/>ad novalia, auod de altero negant. Quocirca
+          <lb ed="#P" n="87"/>loquendo de privilegiis in jure concessis, 
+          sim<lb break="no" ed="#P" n="88"/>pliciter dicendum est extendi ad novalia, quia
+          <lb ed="#P" n="89"/>in jure non invenitur privilegium eximensa
+          <lb ed="#P" n="90"/>praedialibus decimis, nisi cum illa duplici
+          <lb ed="#P" n="91"/>limitatione, de prediis propriis, et de propriis
+          <lb ed="#P" n="92"/>laboribus, vel eagensis ; sed ita concessum 
+          ex<lb break="no" ed="#P" n="93"/>tenditur ad novalia; ergo. Atque ita colligitur
+          <lb ed="#P" n="94"/>ex dicto cap. Ad audientiam, ibi: Nam si 
+          in<lb break="no" ed="#P" n="95"/>telligeremus tantummodo de novalibus ; ergo
+          <lb ed="#P" n="96"/>intelligit etiam de illis, quamvis non solis.
+          <lb ed="#P" n="97"/>Idem argumentum sumitur ex capit. E 
+          par<lb break="no" ed="#P" n="98"/>te, 1, ibi: Cateris cero, ut de nocalibus suis;
+          <lb ed="#P" n="99"/>aliis ergo, id est, quibus privilegium de 
+          pro<lb break="no" ed="#P" n="100"/>priis laboribus datum est, tam de novalibus,
+          <lb ed="#P" n="101"/>quam de aliis facta est gratia. Item potest 
+          su<lb break="no" ed="#P" n="102"/>mi argumentum ex cap. Za parte, 3, de 
+          De<lb break="no" ed="#P" n="103"/>cimis, quia ibi dicitur, parochianis, quibus
+          <lb ed="#P" n="104"/>concessae sunt decimae de laboribus terrae 
+          pa<lb break="no" ed="#P" n="105"/>rochiae suae, concessas etiam esse decimas 
+          no<lb break="no" ed="#P" n="106"/>valium ; ergo similiter religiosis, quibus 
+          con<lb break="no" ed="#P" n="107"/>cessae sunt decimae de propriis laboribus, 
+          no<lb break="no" ed="#P" n="108"/>valia etiam data intelliguntur. Verum est 
+          tex<lb break="no" ed="#P" n="109"/>tum illum habere obscuriorem intellectum,
+          <lb ed="#P" n="110"/>de quo in capite sequent.
+        </p>
+        <p>
+          <pb ed="#P" n="165"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>5. Prius vero quam rationem reddamus,
+          <lb ed="#P" n="2"/>oportet expendere alteram partem de 
+          privile<lb break="no" ed="#P" n="3"/>gio absolute concesso, de non solvendis 
+          deci<lb break="no" ed="#P" n="4"/>mis praedialibus : nam si hoc non extenditur ad
+          <lb ed="#P" n="5"/>novalia, difficile est rationem differentiae 
+          red<lb break="no" ed="#P" n="6"/>dere. Illi enim auctores hoc probant, quia hoc
+          <lb ed="#P" n="7"/>privilegium est odiosum et restringendum:
+          <lb ed="#P" n="8"/>at idem argumentum procedit de altero; nam
+          <lb ed="#P" n="9"/>etiam est odiosum, ut dictum est; in utroque
+          <lb ed="#P" n="10"/>ergo non est restrictio facienda ultra 
+          verbo<lb break="no" ed="#P" n="11"/>rum proprietatem. Unde quia in novalibus
+          <lb ed="#P" n="12"/>implentur duae illae conditiones, nimirum,
+          <lb ed="#P" n="13"/>quod decimsae ipsorum sunt ex agriis propriis
+          <lb ed="#P" n="14"/>(supponimus enim terras illas esse proprias
+          <lb ed="#P" n="15"/>monasterii privilegiati) et sunt ex propris 
+          la<lb break="no" ed="#P" n="16"/>boribus (nam etiam supponimus propriis 
+          la<lb break="no" ed="#P" n="17"/>boribus, et expensis fuisse ruptas), ideo sub
+          <lb ed="#P" n="18"/>illa negatione non solvendi decimas ex 
+          prae<lb break="no" ed="#P" n="19"/>diis et laboribus, evidenter 
+          comprehendun<lb break="no" ed="#P" n="20"/>tur etiam novalia. At vero haec ratio procedit
+          <lb ed="#P" n="21"/>in alio privilegio de non solvendis decimis ex
+          <lb ed="#P" n="22"/>propriis prediis, quia etiam novalia sunt 
+          pro<lb break="no" ed="#P" n="23"/>pria praedia, et iila negatio est absoluta ; ergo
+          <lb ed="#P" n="24"/>omnia praedia comprehendit. Item inter haec
+          <lb ed="#P" n="25"/>privilegia solum videtur esse differentia, quod
+          <lb ed="#P" n="26"/>in uno exigitur duplex conditio supra dicta:
+          <lb ed="#P" n="27"/>in altero vero una tantum, scilicet quod, praedia
+          <lb ed="#P" n="28"/>sint propria; ergo sicut illud extenditur ad
+          <lb ed="#P" n="29"/>omnia praedia, in quibus duplex conditio 
+          in<lb break="no" ed="#P" n="30"/>venitur, sive illa sint novalia, sive non, ita et
+          <lb ed="#P" n="31"/>secundum aeque universaliter intelligendum
+          <lb ed="#P" n="32"/>est de omnibus praediis, in quibus illa 
+          condi<lb break="no" ed="#P" n="33"/>tio verificatur, quod, scilicet, propria sint.
+        </p>
+        <p>
+          <lb ed="#P" n="34"/>6. Alia differentia, quae assignatur. — 
+          As<lb break="no" ed="#P" n="35"/>signant vero aliam differentiam, quod quando
+          <lb ed="#P" n="36"/>privilegium limitatur ad proprios labores, 
+          po<lb break="no" ed="#P" n="37"/>test parvum detrimentum ecclesiae afferre,
+          <lb ed="#P" n="38"/>quia non possunt religiosi magnam terrae
+          <lb ed="#P" n="39"/>partem propriis laboribus colere, ideoque 
+          po<lb break="no" ed="#P" n="40"/>test ad novalia extendi ; secus vero est de alio
+          <lb ed="#P" n="41"/>privilegio sine tali limitatione concesso, quia
+          <lb ed="#P" n="42"/>potest magnum praejudicium afferre. Sed haec
+          <lb ed="#P" n="43"/>differentia non est solida: primo, quia fieri
+          <lb ed="#P" n="44"/>facile potest, ut prius privilegium grave
+          <lb ed="#P" n="45"/>praejudicium afferat, si monasterium multa
+          <lb ed="#P" n="46"/>praedia habeat ; nam licet religiosi non possint
+          <lb ed="#P" n="47"/>facile propriis manibus illa colere, possunt 
+          ta<lb break="no" ed="#P" n="48"/>men facile propriis sumptibus, quod perinde
+          <lb ed="#P" n="49"/>est ; et e contrario, aliud privilegium parvum
+          <lb ed="#P" n="50"/>detrimentum aftferet, si monasterium parvam
+          <lb ed="#P" n="51"/>terram habeat. Secundo, quia illud est per
+          <lb ed="#P" n="52"/>accidens; hic autem per se loquimur, nam
+          <lb ed="#P" n="53"/>sive in uno, sive in alio privilegio enormis
+          <lb ed="#P" n="54"/>laesio contingat, alio jure agendum est, ita ut
+          <lb ed="#P" n="55"/>vel solvantur decimae, vel congrua compositio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fiat, juxta cap. Suggestum, de Decim., cap.
+          <lb ed="#P" n="57"/>Quid de novale, de Verb. sign., et argum.cap.
+          <lb ed="#P" n="58"/>penult. de Cler. non resid. Quapropter verius
+          <lb ed="#P" n="59"/>existimo, utrumque privilegium per se 
+          exten<lb break="no" ed="#P" n="60"/>di ad novalia, quia proprietas verborum
+          <lb ed="#P" n="61"/>utriusque id requirit; per accidens vero saepius
+          <lb ed="#P" n="62"/>uni derogari propter enormem laesionem inde
+          <lb ed="#P" n="63"/>subsecutam, quam alteri.
+        </p>
+        <p>
+          <lb ed="#P" n="64"/>7. An privilegia sint solum ad predia 
+          ac<lb break="no" ed="#P" n="65"/>quisita, an etiam ad acquirenda. — Resolvitur
+          <lb ed="#P" n="66"/>extendi etiam ad pradia acquirenda. — Tertio,
+          <lb ed="#P" n="67"/>dubitari solet an talia privilegia limitanda sint
+          <lb ed="#P" n="68"/>ad praedia acquisita et possessa tempore 
+          con<lb break="no" ed="#P" n="69"/>cessionis, an vero extendantur etiam ad 
+          ac<lb break="no" ed="#P" n="70"/>quirenda. Nam priorem partem affirmat 
+          Ol<lb break="no" ed="#P" n="71"/>drad., cons. 268, ex eodem principio, quod
+          <lb ed="#P" n="72"/>tale privilegium stricte intelligendum est. Itcm
+          <lb ed="#P" n="73"/>quia res transit cum suo onere. Item quia in
+          <lb ed="#P" n="74"/>decimis non fit extensio ad futurum, capit.
+          <lb ed="#P" n="75"/>Cum contingat, cap. Tua, 1, S ultimo, de 
+          Deci<lb break="no" ed="#P" n="76"/>mis. Sed contrarium est omnino verum, 
+          maxi<lb break="no" ed="#P" n="77"/>me quando privilegium est restrictum ad 
+          pro<lb break="no" ed="#P" n="78"/>prios labores, potestque id non obscure colligi
+          <lb ed="#P" n="79"/>ex dicto cap. JVuper, de Decimis, in quantum
+          <lb ed="#P" n="80"/>decernit, ut de terris amodo acquirendis 
+          deci<lb break="no" ed="#P" n="81"/>ma ea tunc solverentur, non olstante preedicto
+          <lb ed="#P" n="82"/>privilegio; ergo antea ad terras acquirendas
+          <lb ed="#P" n="83"/>extendebatur, et ex vi illorum verborum tales
+          <lb ed="#P" n="84"/>terrae comprehendebantur. Et ita omnes 
+          in<lb break="no" ed="#P" n="85"/>telligunt, in illo Concilio Lateranensi factamn
+          <lb ed="#P" n="86"/>esse revocationem illius privilegii quoad illam
+          <lb ed="#P" n="87"/>partem, et idcirco in privilegiis postea 
+          conces<lb break="no" ed="#P" n="88"/>sis, quando extensio fit ad terras acquirendas,
+          <lb ed="#P" n="89"/>additur : Non obstante cagnt. Nuper, etc. 
+          De<lb break="no" ed="#P" n="90"/>inde est ad hoc textus fere expressus in cap.
+          <lb ed="#P" n="91"/>Quia circa, de Privileg., ubi interrogatus 
+          Pon<lb break="no" ed="#P" n="92"/>tifex, an privilegium monachis concessum ab
+          <lb ed="#P" n="93"/>Episcopo de retinendis decimis, extendatur ad
+          <lb ed="#P" n="94"/>possessiones acquirendas, respondet 
+          affirman<lb break="no" ed="#P" n="95"/>do (si privilegium fuit secundum jus 
+          conces<lb break="no" ed="#P" n="96"/>sum ) : Quia indefinite concedendo intelleadsse
+          <lb ed="#P" n="97"/>videtur non solum de decimis illius temporis,
+          <lb ed="#P" n="98"/>sed futuris. Haec ergo decisio a fortiori 
+          proce<lb break="no" ed="#P" n="99"/>dit in privilegio pontificio, quod non 
+          dubita<lb break="no" ed="#P" n="100"/>tur esse legitimum. Nam rationes quae ibi 
+          red<lb break="no" ed="#P" n="101"/>duntur, fortius in Pontifice procedunt. Prima,
+          <lb ed="#P" n="102"/>cum nihàl exceperit, et potuerit eacepisse. 
+          Se<lb break="no" ed="#P" n="103"/>cunda, quia in beneficiis plenissima est 
+          inter<lb break="no" ed="#P" n="104"/>pretatio adhibenda , utique juxta verborum
+          <lb ed="#P" n="105"/>proprictatem : unde recte dixit , plenissima,
+          <lb ed="#P" n="106"/>quia debent verba integre expleri, non 
+          adden<lb break="no" ed="#P" n="107"/>do limitationem in verbis non contentam, nec
+          <lb ed="#P" n="108"/>necessariam ad aequitatem beneficii. Quae ratio
+          <lb ed="#P" n="109"/>maxime locum habet in beneficiis supremi
+          <lb ed="#P" n="110"/>principis, juxta regulam juris. Tertia ratio,
+          <pb ed="#P" n="166"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia non debet una eademque substantia diverso
+          <lb ed="#P" n="2"/>jure censeri. Quae licet non semper cogat, ut
+          <lb ed="#P" n="3"/>sequenti capite videbimus, est tamen congrua
+          <lb ed="#P" n="4"/>ratio, quando aliae juvant. Maxime quia ex
+          <lb ed="#P" n="5"/>ila colligitur alia, scilicet, quod indefinita
+          <lb ed="#P" n="6"/>equivalet universali, quando est eadem ratio
+          <lb ed="#P" n="7"/>de omnibus, ut ibidem advertit Henricus, in
+          <lb ed="#P" n="8"/>prineipio, et cum eo Covarr., lib. 1 Variar.,
+          <lb ed="#P" n="9"/>cap. 13, in fin. Accedit tandem, quod 
+          privile<lb break="no" ed="#P" n="10"/>givm hoc includit negationem non solvendi
+          <lb ed="#P" n="11"/>decimas, et tunc etiam indefinita transit in
+          <lb ed="#P" n="12"/>universalem, ut ibidem late Covarr., num. 7.
+          <lb ed="#P" n="13"/>Et per haec satis est responsum fundamentis
+          <lb ed="#P" n="14"/>contrariae sententiae. Quia privilegium est
+          <lb ed="#P" n="15"/>stricte intelligendum, sed plane, et tunc res
+          <lb ed="#P" n="16"/>transit cum onere, quando privilegium illud
+          <lb ed="#P" n="17"/>non tollit; hic autem tollit, ut ostensum est.
+          <lb ed="#P" n="18"/>Nec est eadem ratio de praescriptione 
+          decima<lb break="no" ed="#P" n="19"/>rum, de quibus textus ibi allegati loquuntur,
+          <lb ed="#P" n="20"/>ut in capite sequenti videbimus.
+        </p>
+        <p>
+          <lb ed="#P" n="21"/>8. An religiosi evimantur a solvendis 
+          deci<lb break="no" ed="#P" n="22"/>mis praediorum quorum non habent proprium
+          <lb ed="#P" n="23"/>dominium. — Non eaimuntur in prediis 
+          con<lb break="no" ed="#P" n="24"/>ductis. — Panormitani responsio. — Quarto,
+          <lb ed="#P" n="25"/>interrogari potest an ex vi dictorum 
+          privile<lb break="no" ed="#P" n="26"/>giorum eximantur religiosi a solvendis 
+          deci<lb break="no" ed="#P" n="27"/>mis, ex praediis quorum proprium dominium
+          <lb ed="#P" n="28"/>non habent. Quidam enim distinguunt, quia
+          <lb ed="#P" n="29"/>vel privilegium concedit ut non solvant 
+          reli<lb break="no" ed="#P" n="30"/>giosi decimas ex predis suis, seu proprüis, et
+          <lb ed="#P" n="31"/>tunc aiunt solvendas esse decimas, si praedia
+          <lb ed="#P" n="32"/>non sint propria, etiamsi in emphyteusim
+          <lb ed="#P" n="33"/>habeantur; vel privilegium concedit ne 
+          sol<lb break="no" ed="#P" n="34"/>vant decimas ez pruediis, seu locis quae habent,
+          <lb ed="#P" n="35"/>et tunc aiunt eximi a solvendis decimis, etiam
+          <lb ed="#P" n="36"/>ex agris conductis, quos ipsi suis manibus vel
+          <lb ed="#P" n="37"/>sumptibus colunt, quia etiam praedia conducta
+          <lb ed="#P" n="38"/>habentur a conductore, et multo magis bona
+          <lb ed="#P" n="39"/>emphyteutica. Idemque videri potest 
+          dicen<lb break="no" ed="#P" n="40"/>dum esse, quando forma privilegii est illa 
+          usi<lb break="no" ed="#P" n="41"/>tata in jure: De laboribus et nutrimentis suis
+          <lb ed="#P" n="42"/>propriis, ut habet cap. Decimas, 16, quaest. 1,
+          <lb ed="#P" n="43"/>vel illa : Indulsit decimas laborum suorum,
+          <lb ed="#P" n="44"/>quos propriis manibus vel sumptibus colunt,
+          <lb ed="#P" n="45"/>ut habetur in c. Ea parte, 1, de Decimis. Nam
+          <lb ed="#P" n="46"/>si religiosi manibus suis vel sumptibus colant
+          <lb ed="#P" n="47"/>conductitios agros, revera illi fructus sunt de
+          <lb ed="#P" n="48"/>laboribus suis propriis; ergo de illis non 
+          de<lb break="no" ed="#P" n="49"/>bent decimas. Verumtamen hac in re unum
+          <lb ed="#P" n="50"/>habemus de jure certum, nimirum, si agri
+          <lb ed="#P" n="51"/>sint conducti, licet religiosi eos colant propriis
+          <lb ed="#P" n="52"/>laboribus vel sumptibus, teneri ad solvendas
+          <lb ed="#P" n="53"/>decimas. Ita enim declaravit Alexander II, in
+          <lb ed="#P" n="54"/>cap. Dilecti, de Decimis, et sumitur etiam ex
+          <lb ed="#P" n="55"/>dicto cap. Ea parte, ut in utroque loco notant
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Panormitanus et omnes, et Rebuffus, dicta
+          <lb ed="#P" n="57"/>quaest. 14, num. 52. Nec oportet hic alias 
+          ra<lb break="no" ed="#P" n="58"/>tiones quaerere, praeter voluntatem Pontificis,
+          <lb ed="#P" n="59"/>qui noluit illam concessionem amplius 
+          exten<lb break="no" ed="#P" n="60"/>dere; tum ne parochiales ecclesiae enormius
+          <lb ed="#P" n="61"/>laederentur; tum ne religiosi in conducendis
+          <lb ed="#P" n="62"/>agris excederent. Haec autem declaratio solum
+          <lb ed="#P" n="63"/>cadit in haec privilegia, quatenus in jure 
+          con<lb break="no" ed="#P" n="64"/>ceduntur, seu quatenus ante Alexandrum IH
+          <lb ed="#P" n="65"/>concessa erant, non enim poterat ipse 
+          de<lb break="no" ed="#P" n="66"/>clarare futura, si verbis distinctis 
+          concederen<lb break="no" ed="#P" n="67"/>r. Contra illam vero declarationem videtur
+          <lb ed="#P" n="68"/>procedere ultima objectio facta. Ad quam 
+          ta<lb break="no" ed="#P" n="69"/>cite respondit Panormitanus, in dicto capite
+          <lb ed="#P" n="70"/>Lilecti, quo1 licet esset privilegium simplieiter
+          <lb ed="#P" n="71"/>concessum de decimis non solvendis, 
+          restrin<lb break="no" ed="#P" n="72"/>gitur contra propriam significationem 
+          verbo<lb break="no" ed="#P" n="73"/>rum, ut tertio non inferatur grave 
+          praejudi<lb break="no" ed="#P" n="74"/>cium. Et nihilominus inferius ait, non fuisse
+          <lb ed="#P" n="75"/>illam revocationem partialem privilegii, sed
+          <lb ed="#P" n="76"/>declarationem intentionis Pontificis.
+        </p>
+        <p>
+          <lb ed="#P" n="77"/>9. Impugnatur praedicta responsio. — Sed
+          <lb ed="#P" n="78"/>imprinis non videtur vera facti narratio, quia
+          <lb ed="#P" n="79"/>in jure non conceditur religiosis privilegium
+          <lb ed="#P" n="80"/>simpliciter de decimis non solvendis, sed cum
+          <lb ed="#P" n="81"/>limitationibus multis, ut patet ex verbis 
+          ci<lb break="no" ed="#P" n="82"/>tatis. Deinde non videtur esse verum, quod
+          <lb ed="#P" n="83"/>privilegium restringatur contra propriam 
+          ver<lb break="no" ed="#P" n="84"/>borum significationem, quia hoc est contra
+          <lb ed="#P" n="85"/>naturam privilegii, ut supra dictum est. Unde
+          <lb ed="#P" n="86"/>si Pontifex talem declarationem faceret, in
+          <lb ed="#P" n="87"/>rigore potius esset partialis revocatio, quam
+          <lb ed="#P" n="88"/>interpretatio, vel certe solus ipse posset illam
+          <lb ed="#P" n="89"/>declarationem adhibere, quia ipse novit 
+          in<lb break="no" ed="#P" n="90"/>tentionem suam, licet fortasse per verba non
+          <lb ed="#P" n="91"/>bene fuerit explicata, quod in praesenti dicere
+          <lb ed="#P" n="92"/>necessarium non est. Unde existimo ex vi et
+          <lb ed="#P" n="93"/>proprietate verborum, quae in jure habentur,
+          <lb ed="#P" n="94"/>privilegium illud non extendi ad praedia 
+          con<lb break="no" ed="#P" n="95"/>ductitia ; nam in verbis illis Alexandri IlI,
+          <lb ed="#P" n="96"/>laborum suorum, subintelligendum videtur
+          <lb ed="#P" n="97"/>suorum agroruwn, nam subjungitur : Quos
+          <lb ed="#P" n="98"/>propriis manibus, vel sumptibus colunt ;
+          <lb ed="#P" n="99"/>non enim coluntur labores, sed agri; ergo
+          <lb ed="#P" n="100"/>necesse est agros subintelligere, quos oportet
+          <lb ed="#P" n="101"/>esse suos, non conductos : unde cum ibi 
+          re<lb break="no" ed="#P" n="102"/>ferat Alexander, talem fuisse concessionem
+          <lb ed="#P" n="103"/>Adriani, in eodem sensu interpretatur priora
+          <lb ed="#P" n="104"/>verba de laboribus suis, seu propriis. Et addi
+          <lb ed="#P" n="105"/>praeterea potest, labores culturae tunc maxime
+          <lb ed="#P" n="106"/>dici proprios, quando in propriis agris fiunt,
+          <lb ed="#P" n="107"/>nam quando fiunt in alieno agro, potius 
+          vi<lb break="no" ed="#P" n="108"/>dentur alieni, et domini agri venditi, seu 
+          lo<lb break="no" ed="#P" n="109"/>cati. Atque haec tandem videtur esse propria
+          <lb ed="#P" n="110"/>ratio hujus declarationis, nimirum, quia per
+          <pb ed="#P" n="167"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>hoc privilegium eximuntur directe ab onere
+          <lb ed="#P" n="2"/>decimarum personae, non praedia, nisi 
+          ra<lb break="no" ed="#P" n="3"/>tione personarum, ut notavit Abb. in dicto
+          <lb ed="#P" n="4"/>cap. Ex parte. Et ideo, quando praedia sunt
+          <lb ed="#P" n="5"/>aliena, non eximuntur a decimis, etiamsi 
+          co<lb break="no" ed="#P" n="6"/>lantur a personis exemptis, quia sola cultura
+          <lb ed="#P" n="7"/>non sufficit ut praedia censeantur exempta 
+          ra<lb break="no" ed="#P" n="8"/>tione personarum, si non sint sua. Quod ita
+          <lb ed="#P" n="9"/>etiam declaratur, quia fruetus agri culti non
+          <lb ed="#P" n="10"/>sunt proprii ipsius colentis, vel laborum ejus,
+          <lb ed="#P" n="11"/>sed sunt maxime fructus ipsius agri, et ideo
+          <lb ed="#P" n="12"/>decima illorum fructuum non potest dici ex
+          <lb ed="#P" n="13"/>propriis laboribus, nisi etiam agri sint 
+          colen<lb break="no" ed="#P" n="14"/>tium ipsos. Ita ergo verum existimo decimas
+          <lb ed="#P" n="15"/>ex agris conductitiis, etiam in rigore 
+          verbo<lb break="no" ed="#P" n="16"/>rum, non comprehendi in privilegiis jure 
+          con<lb break="no" ed="#P" n="17"/>cessis sub praedicta verborum forma.
+        </p>
+        <p>
+          <lb ed="#P" n="18"/>10. De illa igitur verborum forma : JVe 
+          sol<lb break="no" ed="#P" n="19"/>vant decinas ex propriis fundis, vel ex suis
+          <lb ed="#P" n="20"/>fundis, a fortiori sequitur sub illa non 
+          com<lb break="no" ed="#P" n="21"/>prehendi agros conductitios, quia illi revera
+          <lb ed="#P" n="22"/>non sunt proprii vel sui : quod etiam 
+          convin<lb break="no" ed="#P" n="23"/>cit dictum capit. Dilecti. Ildem vero censeo
+          <lb ed="#P" n="24"/>dicendum de verbis illis : Non solvant decimas
+          <lb ed="#P" n="25"/>de pradiis quae habent, seu de bonis possessis
+          <lb ed="#P" n="26"/>et obtentis, et similibus : et hic maxime habet
+          <lb ed="#P" n="27"/>locum doctrina Panormitani, quod Pontifices
+          <lb ed="#P" n="28"/>voluerunt, satisque declararunt verba 
+          privile<lb break="no" ed="#P" n="29"/>giorum istorum, quoad hanc partem, esse
+          <lb ed="#P" n="30"/>stricte intelligenda; illa autem verba cum 
+          om<lb break="no" ed="#P" n="31"/>ni proprietate restringuntur ad bona, quae
+          <lb ed="#P" n="32"/>habentur vel possidentur ut propria; non enim
+          <lb ed="#P" n="33"/>dicitur quis babere domum simpliciter, eo
+          <lb ed="#P" n="34"/>quod habeat conductam, sed dicitur habere
+          <lb ed="#P" n="35"/>secundum quid, id est, ad habitandum aliquo
+          <lb ed="#P" n="36"/>tempore, seu habere usum ejus.
+        </p>
+        <p>
+          <lb ed="#P" n="37"/>11. An ex bonis emphyteuticis monasterium
+          <lb ed="#P" n="38"/>debeat decimnas. — Major certe difficultas esse
+          <lb ed="#P" n="39"/>potest de bonis acceptis in emphyteusim, an
+          <lb ed="#P" n="40"/>si monasterium privilegiatum aliqua talia 
+          ha<lb break="no" ed="#P" n="41"/>beat, et suis sumptibus colat, ex illis decimas
+          <lb ed="#P" n="42"/>debeat : videtur enim non debere, quia bona
+          <lb ed="#P" n="43"/>emphyteutica simpliciter et absolute in bonis
+          <lb ed="#P" n="44"/>propriis talis monasterii numerantur, juxta
+          <lb ed="#P" n="45"/>communem existimationem et loquendi 
+          mo<lb break="no" ed="#P" n="46"/>dum. Item contractus emphyteuticus 
+          distinc<lb break="no" ed="#P" n="47"/>tus esi a locato et conducto, ut constat ex jure;
+          <lb ed="#P" n="48"/>sed Pontifex in dicto cap. Dilecti, solum 
+          exci<lb break="no" ed="#P" n="49"/>pit agros conductitios ; ergo non 
+          comprehen<lb break="no" ed="#P" n="50"/>dit emphyteuticos ; ergo exceptio illa firmat
+          <lb ed="#P" n="51"/>regulam in contrarium, ac subinde tales agri
+          <lb ed="#P" n="52"/>sub privilegio exemptionis decimarum 
+          compre<lb break="no" ed="#P" n="53"/>henduntur. Denique emphyteuta simpliciter
+          <lb ed="#P" n="54"/>solet vocari dominus agri, quia habet 
+          domi<lb break="no" ed="#P" n="55"/>nium utile; ergo hoc satis est ut monasterium,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quod est emphyteuta, dicatur colere agros
+          <lb ed="#P" n="57"/>suos; ergo, etc.
+        </p>
+        <p>
+          <lb ed="#P" n="58"/>12. In contrarium vero est, quia illi agri
+          <lb ed="#P" n="59"/>sunt alterius habentis dominium directum 
+          il<lb break="no" ed="#P" n="60"/>lorum, nam ille proprietatem eorum habet:
+          <lb ed="#P" n="61"/>unde monasterium eos colendo, non potest
+          <lb ed="#P" n="62"/>dici proprios agros colere. Maxime, quia verba
+          <lb ed="#P" n="63"/>hujus privilegii sunt stricte intelligenda; in
+          <lb ed="#P" n="64"/>rigore autem et propriissime , emphyteuta
+          <lb ed="#P" n="65"/>non est dominus, juxta leg. 1, juncta Glossa
+          <lb ed="#P" n="66"/>ultim., ff. Si ager emphyteuticus petatur.
+          <lb ed="#P" n="67"/>Praeterea, si priviiegia illa extendantur ad
+          <lb ed="#P" n="68"/>agros emphyteuticos, pari ratione extendentur
+          <lb ed="#P" n="69"/>ad agros conductos ad longum tempus. 
+          Con<lb break="no" ed="#P" n="70"/>sequens admittendum non est; ergo. Sequela
+          <lb ed="#P" n="71"/>patet, quia revera emphyteusis non est nisi
+          <lb ed="#P" n="72"/>quaedam ad longum tempus locatio et 
+          con<lb break="no" ed="#P" n="73"/>ductio ; nam eosdem effectus et easdem 
+          condi<lb break="no" ed="#P" n="74"/>tiones habet, et conductor longi temporis etiam
+          <lb ed="#P" n="75"/>censetur habere dominium utile, seu 
+          actio<lb break="no" ed="#P" n="76"/>nem in rem, juxta leg. 1, ff. De 
+          Superficie<lb break="no" ed="#P" n="77"/>bus; et locatio ad longum tempus etiam 
+          cen<lb break="no" ed="#P" n="78"/>setur in jure quaedam alienatio, juxta capit.
+          <lb ed="#P" n="79"/>Nulli, De rebus eccles. non alien., cum Gloss.
+          <lb ed="#P" n="80"/>in Clement. 1, eod. tit. Quod si haec non 
+          di<lb break="no" ed="#P" n="81"/>citur alienatio nisi large, nec etiam 
+          emphy<lb break="no" ed="#P" n="82"/>teusis, et consequenter nec ex parte 
+          accipien<lb break="no" ed="#P" n="83"/>tis est propria acquisitio; est ergo aequalis
+          <lb ed="#P" n="84"/>ratio. Minor vero patet ; tum quia 
+          consequen<lb break="no" ed="#P" n="85"/>ter extendetur etiam ad rem locatam ad breve
+          <lb ed="#P" n="86"/>tempus, quia majoris vel minoris temporis
+          <lb ed="#P" n="87"/>duratio substantiam contractus non mutat:
+          <lb ed="#P" n="88"/>tum maxime quia Pontifex indefinite loquitur
+          <lb ed="#P" n="89"/>de agris conductitiis; ergo ubi ipse non 
+          dis<lb break="no" ed="#P" n="90"/>tinguit, nec distinguere debemus. Maxime
+          <lb ed="#P" n="91"/>quia illa declarauo est simpliciter favorabilis.
+          <lb ed="#P" n="92"/>et ad evitandum gravamen, et praejudicium
+          <lb ed="#P" n="93"/>tertii, et ideo restringenda non est. Imo si
+          <lb ed="#P" n="94"/>verba textus attente pensentur, videntur omnes
+          <lb ed="#P" n="95"/>illos contractus comprehendere, in quibus res
+          <lb ed="#P" n="96"/>accipitur ad culturam, et fructus, sine dominio
+          <lb ed="#P" n="97"/>directo, et sub certa pactione, sub qua 
+          gene<lb break="no" ed="#P" n="98"/>ralis omnis conductio, sive ad longum, sive
+          <lb ed="#P" n="99"/>ad breve tempus, et emphyteusis 
+          comprehen<lb break="no" ed="#P" n="100"/>ditur ; verba textus sunt : Conduaistis, et 
+          rece<lb break="no" ed="#P" n="101"/>pistis pred.a ad formam, scilicet, pensionem;
+          <lb ed="#P" n="102"/>sic autem accipiuntur etiam emphyteutica
+          <lb ed="#P" n="103"/>bona, seu ad longum tempus conducta, 
+          argu<lb break="no" ed="#P" n="104"/>mento capit. Vestra declaratio. Quocirca licet
+          <lb ed="#P" n="105"/>res appareat dubia, haec posterior tutior et 
+          pro<lb break="no" ed="#P" n="106"/>babilior est; nam est juri conformior, et quia
+          <lb ed="#P" n="107"/>ex fundamentis ejus contraria dissolvuntur
+          <lb ed="#P" n="108"/>facile, et non tanti momenti esse videntur.
+        </p>
+        <p>
+          <lb ed="#P" n="109"/>13. Colonos religiosorum non eximi a 
+          deci<lb break="no" ed="#P" n="110"/>mis per luaec privilegia. — Ratio assertionis.—
+          <pb ed="#P" n="168"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Aliqui religiosi circa hoc habent particulare
+          <lb ed="#P" n="2"/>privilegium. —Quinta dubitatio esse potest, an
+          <lb ed="#P" n="3"/>coloni conducentes praedia religiosorum 
+          ha<lb break="no" ed="#P" n="4"/>bentium talia privilegia, eximantur ipsi a 
+          so<lb break="no" ed="#P" n="5"/>Iutione decimarum. In quo, si de solis 
+          privi<lb break="no" ed="#P" n="6"/>legiis in jure contentis loquamur, resolutio
+          <lb ed="#P" n="7"/>clara est, colonos non eximi, sed teneri ad
+          <lb ed="#P" n="8"/>solvendas decimas. Ratio est, quia hoc 
+          privi<lb break="no" ed="#P" n="9"/>legium expresse conceditur sub illa conditione
+          <lb ed="#P" n="10"/>ex propriis laboribus, et explicatur 
+          necessa<lb break="no" ed="#P" n="11"/>rium esse, ut propriis manibus, vel expensis
+          <lb ed="#P" n="12"/>praedia colant, ut saepe dictum est; ergo si per
+          <lb ed="#P" n="13"/>colonos id faciant, tenentur ipsi religiosi 
+          sol<lb break="no" ed="#P" n="14"/>vere decimas de iilis fructibus quos ipsi 
+          per<lb break="no" ed="#P" n="15"/>cipiunt, ut expresse declaratur in capit. Zicet,
+          <lb ed="#P" n="16"/>de Decimis; ergo etiam ipsi coloni tenentur
+          <lb ed="#P" n="17"/>solvere decimas illius partis fructuum, qua
+          <lb ed="#P" n="18"/>fruuntur, juxta capit. A nobis, et capit. Tua,
+          <lb ed="#P" n="19"/>2. eodem titulo. Quando vero aliquis 
+          censen<lb break="no" ed="#P" n="20"/>dus sit colonus, et quomodo inter eum et 
+          do<lb break="no" ed="#P" n="21"/>minum integrae decimae solvenda- sint, infra
+          <lb ed="#P" n="22"/>capit. 35 explicabitur. Hoc autem procedit, ut
+          <lb ed="#P" n="23"/>dixi, et indubitatum est, attenta forma 
+          privi<lb break="no" ed="#P" n="24"/>legiorum juris : si tamen forma mutetur, vel
+          <lb ed="#P" n="25"/>augeatur, ut iuterdum solet, tunc aliter 
+          judi<lb break="no" ed="#P" n="26"/>candum erit. Aliquibus enim religiosis 
+          con<lb break="no" ed="#P" n="27"/>cessum est, ut de suis praediis, etiamsi per 
+          co<lb break="no" ed="#P" n="28"/>lonos ea colant, decimas solvere non 
+          tenean<lb break="no" ed="#P" n="29"/>tur. Quo stante privilegio, coloni ipsi non 
+          te<lb break="no" ed="#P" n="30"/>nebuntur solvere laicam decimam , praeter
+          <lb ed="#P" n="31"/>pensionem, quam religiosis solvunt ratione
+          <lb ed="#P" n="32"/>contractus, non quidem quia coloni ipsi aliqua
+          <lb ed="#P" n="33"/>ex parte privilegio il!o fruantur, ut statim 
+          ex<lb break="no" ed="#P" n="34"/>plicabo, sed quia religiosi possunt sibi 
+          vendi<lb break="no" ed="#P" n="35"/>care illam decimam, sive augendo ob eam
+          <lb ed="#P" n="36"/>causam quantitatem pensionis, sive distincte
+          <lb ed="#P" n="37"/>exigendo tantum pro pensione, et tantum pro
+          <lb ed="#P" n="38"/>decima. Quia cum simpliciter sint exempti a
+          <lb ed="#P" n="39"/>decima, eam sibi usurpare possunt.
+        </p>
+        <p>
+          <lb ed="#P" n="40"/>14. Discrimen inter privilegium reale, et
+          <lb ed="#P" n="41"/>persona!e. — Et juxta haec intelligenda est
+          <lb ed="#P" n="42"/>communis distinctio juristarum de privilegio
+          <lb ed="#P" n="43"/>reali et personali. Dicunt enim, si privilegium
+          <lb ed="#P" n="44"/>detur tartum personae, et non praedio, tunc ad
+          <lb ed="#P" n="45"/>colonos non extendi; si vero per privilegium
+          <lb ed="#P" n="46"/>praedia ipsa eximantur directe et absolute ab
+          <lb ed="#P" n="47"/>onere decimarum, sine alia conditione vel
+          <lb ed="#P" n="48"/>onere, nisi quod talis religionis sint, tunc 
+          ex<lb break="no" ed="#P" n="49"/>tendi ad conductores. Ita Glossa, in 
+          Clementi<lb break="no" ed="#P" n="50"/>na 1, de Decimis, verb. Eacolendas, quam ibi
+          <lb ed="#P" n="51"/>omnes sequuntur; et Abbas, in capit. Ez 
+          par<lb break="no" ed="#P" n="52"/>te, 1, de Decimis, numero quinto. Non 
+          expli<lb break="no" ed="#P" n="53"/>cant autem dicti auctores, quando privilegium
+          <lb ed="#P" n="54"/>hoc censendum sit tantum personae 
+          conces<lb break="no" ed="#P" n="55"/>sum, quando vero etiam praedio. Solum Pa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>normitanus ait privilegia in jure contenta
+          <lb ed="#P" n="57"/>tantum personis concedi, et ideo ad colonos
+          <lb ed="#P" n="58"/>non extendi. Glossa vero illa dicit, 
+          conside<lb break="no" ed="#P" n="59"/>randa esse verba privilegii, juxta caput Porro,
+          <lb ed="#P" n="60"/>de Privil. Quatuor ergo modis possunt concipi
+          <lb ed="#P" n="61"/>talia verba. Primus est ille usitatus in jure,
+          <lb ed="#P" n="62"/>de propriis, vel de agris quos suis laboribus
+          <lb ed="#P" n="63"/>cel expensis eacolunt; et tunc res est clara,
+          <lb ed="#P" n="64"/>privilegium esse personale, ut bene dixit 
+          Ab<lb break="no" ed="#P" n="65"/>bas. Secundus est, si privilegium dicat : 
+          Exi<lb break="no" ed="#P" n="66"/>mimus tales religiosos , el eorum pradia ab
+          <lb ed="#P" n="67"/>onere solvendi decianas, ut de facto nunc habent
+          <lb ed="#P" n="68"/>aliqua privilegia. Et tunc sine dupio 
+          privile<lb break="no" ed="#P" n="69"/>gium est reale, ut praedicta Glossa expresse
+          <lb ed="#P" n="70"/>declarat, et verba ipsa prae se ferunt. Tertius
+          <lb ed="#P" n="71"/>modus erit, si privilegiura eximat religiosos a
+          <lb ed="#P" n="72"/>decimis solvendis de suis praediis, addendo:
+          <lb ed="#P" n="73"/>Sive per se, sive per colonos illa colant. Et
+          <lb ed="#P" n="74"/>tunc, licet privilegium videatur directe referri
+          <lb ed="#P" n="75"/>ad personas, tamen quia in favorem earum
+          <lb ed="#P" n="76"/>simpliciter eximit terras, reale dici potest, et
+          <lb ed="#P" n="77"/>eumdem effectum habet, ut mox explicabo.
+          <lb ed="#P" n="78"/>Quartus modus esse potest, si absolute 
+          exima<lb break="no" ed="#P" n="79"/>tur religio a debito decimarum praedialium
+          <lb ed="#P" n="80"/>suorum praediorum, non addita restrictione:
+          <lb ed="#P" n="81"/>Si ea propriis laboribus colant, nec 
+          ampliatio<lb break="no" ed="#P" n="82"/>ne, licet per colonos, eic. Et tunc Glossa illa
+          <lb ed="#P" n="83"/>sentit privilegium esse personale; ego vero
+          <lb ed="#P" n="84"/>censeo transire in reale.
+        </p>
+        <p>
+          <lb ed="#P" n="85"/>15. Impugnatur discrimen a Glossa 
+          assi<lb break="no" ed="#P" n="86"/>gnatum.— Ut autem haec intelligantur et 
+          pro<lb break="no" ed="#P" n="87"/>bentur, oportet expendere differentiam inter
+          <lb ed="#P" n="88"/>hoc privilegium, quando est personale aut
+          <lb ed="#P" n="89"/>reale, quam dicta Glossa assignat. Dicit enim,
+          <lb ed="#P" n="90"/>quando privilegium est reale, tunc si ager
+          <lb ed="#P" n="91"/>tradatur aliis excolendus, colonos non teneri
+          <lb ed="#P" n="92"/>ad solutionem decimarum , quia privilegio
+          <lb ed="#P" n="93"/>participant, et sequitur Abbas, quia fructus
+          <lb ed="#P" n="94"/>capuuntur ex terra privilegiata. Scd non 
+          exis<lb break="no" ed="#P" n="95"/>timo hoc esse verum, nisi sano modo 
+          intelli<lb break="no" ed="#P" n="96"/>gatur, quia privilegium illud concessum est
+          <lb ed="#P" n="97"/>rebus seu agris, in ordine ad commodum et
+          <lb ed="#P" n="98"/>ntilitatem religiosorum, non vero colonorum;
+          <lb ed="#P" n="99"/>nec enim intentio concedentis fuit directe vel
+          <lb ed="#P" n="100"/>indirecte concedere bencficium aliquod 
+          con<lb break="no" ed="#P" n="101"/>ductoribus, seu locatoribus. Igitur coloni non
+          <lb ed="#P" n="102"/>sunt liberi a decima, nisi quatenus illam 
+          com<lb break="no" ed="#P" n="103"/>pensant, solvendo eam religiosis, vel augendo
+          <lb ed="#P" n="104"/>pensionem quam solvere obligantur, nisi ipsi
+          <lb ed="#P" n="105"/>religiosi illam remittant ex justa causa; aliter
+          <lb ed="#P" n="106"/>enim non possunt, quia esset abusus 
+          privile<lb break="no" ed="#P" n="107"/>gii, etin virtute darentur laicis bona Ecclesiae,
+          <lb ed="#P" n="108"/>sine causa et potestate; ergo coloni non 
+          parti<lb break="no" ed="#P" n="109"/>cipant privilegium quoad exemptionem ab
+          <lb ed="#P" n="110"/>onere, sed solum quoad libertatem vel facul-
+          <pb ed="#P" n="169"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tatem solvendi religiosis, et non ecclesiae, tales
+          <lb ed="#P" n="2"/>deeimas. Reale igitur privilegium in praesenti
+          <lb ed="#P" n="3"/>dicetur illud, per quod agri ita eximuntur, ut,
+          <lb ed="#P" n="4"/>quomodocumque colaniur, possint religiosi
+          <lb ed="#P" n="5"/>apud se retinere decimas, et non solvere illas
+          <lb ed="#P" n="6"/>ecclesiae, nec permittere ut a colonis solvantur.
+          <lb ed="#P" n="7"/>Personale autem erit, quando conceditur cum
+          <lb ed="#P" n="8"/>onere personali, id est, colendi agros per se,
+          <lb ed="#P" n="9"/>seu suis sumptibus, quia tunc, si aliter fiat,
+          <lb ed="#P" n="10"/>non possunt privilegiati retinere decimas 
+          illo<lb break="no" ed="#P" n="11"/>rum fructuum, quos percipiunt, nec colonos
+          <lb ed="#P" n="12"/>impedire quominus pro sua parte ceclesiae
+          <lb ed="#P" n="13"/>solvant : juxta hanc ergo doctrinam, quam
+          <lb ed="#P" n="14"/>omnino veram censeo, etiam privilegium 
+          ter<lb break="no" ed="#P" n="15"/>tio modo concessum reale erit, quia per illud
+          <lb ed="#P" n="16"/>eximuntur omnino talia praedia ab onere 
+          deci<lb break="no" ed="#P" n="17"/>marum ecclesiae solvendarum, et applicantur
+          <lb ed="#P" n="18"/>ipsis relisiosis, quomodocumque talia praedia
+          <lb ed="#P" n="19"/>excolantur.
+        </p>
+        <p>
+          <lb ed="#P" n="20"/>16. Objectio. — Eaplicatur. — Dices, 
+          ver<lb break="no" ed="#P" n="21"/>ba illa posse habere hunc sensum, ut, scilicet,
+          <lb ed="#P" n="22"/>religiosi ex vi illorum liberentur ab onere
+          <lb ed="#P" n="23"/>solvendi decimas fructuum quos percipiunt,
+          <lb ed="#P" n="24"/>qui interdum sunt omnes fructus agri, ut
+          <lb ed="#P" n="25"/>quando illum per se excolunt, interdum pars
+          <lb ed="#P" n="26"/>aliquota, ut quando colunt illum per colonos
+          <lb ed="#P" n="27"/>partiarios, seu pensionarios, et tunc ex 
+          alte<lb break="no" ed="#P" n="28"/>ra parte fructuum , quam coloni percipiunt,
+          <lb ed="#P" n="29"/>solvent decimas ecclesia, et sic privilegium
+          <lb ed="#P" n="30"/>erit personale. non reale. At enim hic sensus
+          <lb ed="#P" n="31"/>erit probabilis, si privilegium dicat : JVon
+          <lb ed="#P" n="32"/>solvant decimas de fructibus suis; non solet
+          <lb ed="#P" n="33"/>autem sub hac forma concedi, sed sub hac:
+          <lb ed="#P" n="34"/>Non solvant de prediis suis decimas , etiamsi
+          <lb ed="#P" n="35"/>per colonos, etc., quod perinde est ac si 
+          di<lb break="no" ed="#P" n="36"/>catur : Non solvant decimas de fructibus 
+          pre<lb break="no" ed="#P" n="37"/>diorum suorum ; pars autem illa fructuum,
+          <lb ed="#P" n="38"/>quam cojoni accipiunt, de praediis religionis
+          <lb ed="#P" n="39"/>sunt, licet ipsi fructus non sint illius; ergo
+          <lb ed="#P" n="40"/>etiam decima illorum fructuum ad 
+          religio<lb break="no" ed="#P" n="41"/>nem pertinet, quia illi etiam fructus 
+          eximun<lb break="no" ed="#P" n="42"/>tur ex vi illoum verborum. Et ita 
+          privile<lb break="no" ed="#P" n="43"/>gium reale est, quia ex vi illius eximuntur
+          <lb ed="#P" n="44"/>illi fructus ab onere decimae solvendae 
+          eccle<lb break="no" ed="#P" n="45"/>siee, et applicatur religioni, cui per colonos
+          <lb ed="#P" n="46"/>danda est, vel ratione illius pensio augenda.
+          <lb ed="#P" n="47"/>Et revera si recte pensentur hac verba:
+          <lb ed="#P" n="48"/>Ezinimus predia religionis, vel emimimus
+          <lb ed="#P" n="49"/>fructus prediorum religionis , aequipollentia
+          <lb ed="#P" n="50"/>sunt : at vero idem est eximere personas a
+          <lb ed="#P" n="51"/>solutione decimarum ex fructibus cum illa
+          <lb ed="#P" n="52"/>ampliatione, quod esimere absolute fructus
+          <lb ed="#P" n="53"/>talium praediorum. Quamvis ergo non 
+          repu<lb break="no" ed="#P" n="54"/>gnet concessionem fieri in priori sensu, et ad
+          <lb ed="#P" n="55"/>illum judicandum pensanda sint verba privi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>legii, tamen, juxta formam verborum a 
+          no<lb break="no" ed="#P" n="57"/>bis propositam, quam in privilegiis legimus,
+          <lb ed="#P" n="58"/>sensus declaratus videtur proprius , absque
+          <lb ed="#P" n="59"/>ampliatione verborum, cum sola propria et
+          <lb ed="#P" n="60"/>integra illorum significatione.
+        </p>
+        <p>
+          <lb ed="#P" n="61"/>17. Ultima forma privilegiorum supra 
+          po<lb break="no" ed="#P" n="62"/>sita. — De ultima vero forma verborum 
+          pos<lb break="no" ed="#P" n="63"/>set esse nonnullum dubium, quia, cum non
+          <lb ed="#P" n="64"/>addatur in ea illa amphatio : Licet per 
+          colo<lb break="no" ed="#P" n="65"/>nos, non videtur derogari juri communi, nam
+          <lb ed="#P" n="66"/>posset illa clausula exponi secundum 
+          com<lb break="no" ed="#P" n="67"/>mune jus. Sed nihilommnus censeo ex vi 
+          illo<lb break="no" ed="#P" n="68"/>rum verborum eximi fructus et praedia, 
+          abs<lb break="no" ed="#P" n="69"/>que illa conditione, quod propriis laboribus
+          <lb ed="#P" n="70"/>colantur , quando Fontifex illam non adhibet,
+          <lb ed="#P" n="71"/>quia quando vult ut servetur, solet illam 
+          ad<lb break="no" ed="#P" n="72"/>dere; si ergo hic voluisset, expressisset, ut in
+          <lb ed="#P" n="73"/>simili ait Pontifex, dicto cap. Ad audientiam,
+          <lb ed="#P" n="74"/>de Decimis. Item jus commune non statuit
+          <lb ed="#P" n="75"/>quasi positive ut religiosi non eximantur a
+          <lb ed="#P" n="76"/>decimis sine illa conditione, sed solum 
+          ne<lb break="no" ed="#P" n="77"/>gative in hoc se habet, quia in eo non 
+          inve<lb break="no" ed="#P" n="78"/>nitur privilegium tam absolutum ; hoc autem
+          <lb ed="#P" n="79"/>non satis est ut illa forma dicatur esse contra
+          <lb ed="#P" n="80"/>jus commune, sed esse ultra formam 
+          inven<lb break="no" ed="#P" n="81"/>tam in jure communi; ergo non est 
+          restrin<lb break="no" ed="#P" n="82"/>genda ad formas juris communis, quia potius
+          <lb ed="#P" n="83"/>omittendo illam conditionem, satis indicavit
+          <lb ed="#P" n="84"/>Pontifex velle ampliorem concessionem 
+          facc<lb break="no" ed="#P" n="85"/>re. Denique si Pontifex in privilegio dicat :
+          <lb ed="#P" n="86"/>Haunimus predia religionis, non addendo
+          <lb ed="#P" n="87"/>restrictionem, nec ampliationem, sed pure, 
+          in<lb break="no" ed="#P" n="88"/>telligitur absolute eximere praedia, ita ut, 
+          li<lb break="no" ed="#P" n="89"/>cet per colonos colantur, non sint subjecta
+          <lb ed="#P" n="90"/>oneri decimarum, ut dicta Giossa et 
+          Panor<lb break="no" ed="#P" n="91"/>mitanus fatentur, et ego admitto, dummodo
+          <lb ed="#P" n="92"/>decimae cedant religiosis, non ipsis colonis;
+          <lb ed="#P" n="93"/>ergo idem est si pure dicat : Eximimus 
+          reli<lb break="no" ed="#P" n="94"/>giosos a decimis predialibus, quia, sive hoe,
+          <lb ed="#P" n="95"/>sive illo modo explicetur, semper intenditur
+          <lb ed="#P" n="96"/>favor religiosorum in omnibus illis decimis
+          <lb ed="#P" n="97"/>absolute. Unde si religiosi non possunt sibi
+          <lb ed="#P" n="98"/>retinere decimam fructuum quos percipiunt
+          <lb ed="#P" n="99"/>coloni, revera licet proxime videantur coloni
+          <lb ed="#P" n="100"/>illam solvere, non ipsi, sed religiosi solvunt,
+          <lb ed="#P" n="101"/>cum sit de praediis ipsorum, et coloni nihil 
+          ju<lb break="no" ed="#P" n="102"/>ris in illa habeant; at vero Pontifex per illa
+          <lb ed="#P" n="103"/>verba liberat eos ab onere decimarum 
+          prae<lb break="no" ed="#P" n="104"/>dialium pure et absolute, et sine conditione;
+          <lb ed="#P" n="105"/>ergo dicendum est, per illa verba simpliciter
+          <lb ed="#P" n="106"/>eximi praedia religiosorum a tali onere, eo
+          <lb ed="#P" n="107"/>ipso quod illorum sunt, a quocumque, nomine
+          <lb ed="#P" n="108"/>illorum, colantur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

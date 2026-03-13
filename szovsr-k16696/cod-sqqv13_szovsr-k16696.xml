@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="669"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k16696"><!-- t3-l4c9 -->
+        <head>Caput 9</head>
+        <head type="question-title">An gratia sanctificans, vel dona et actus ejus possint esse materia simoniae?</head>
+        <p>
+          <lb ed="#P" n="94"/>CAPUT IX.
+          <lb ed="#P" n="95"/>AN GRATIA SANCTIFICANS, VEL DONA ET ACTUS
+          <lb ed="#P" n="96"/>EJUS POSSINT ESSE MATERIA SIMONIAE?
+        </p>
+        <p>
+          <lb ed="#P" n="97"/>1. Altera divisio simonie es parte materic.
+          <lb ed="#P" n="98"/>—fSupernaturalia bona in tria membra 
+          dici<lb break="no" ed="#P" n="99"/>duntur.—Potest ulterius simonia, prout nunc
+          <lb ed="#P" n="100"/>in Ecclesia committitur, dividi ex parte 
+          ma<lb break="no" ed="#P" n="101"/>teriae, in eam quae circa propria bona 
+          spiri<lb break="no" ed="#P" n="102"/>tualia supernaturalia versatur, et aliam, quae
+          <lb ed="#P" n="103"/>cadit in res spiritualibus annexas: de quibus
+          <lb ed="#P" n="104"/>membris sigillatum et per partes dicendum
+          <lb ed="#P" n="105"/>est. Solent auiem priora spiritualia bona in
+          <lb ed="#P" n="106"/>tria membra dividi, ut videri potest in 
+          omni<lb break="no" ed="#P" n="107"/>bus Summistis, verb. Simonia, praesertim
+          <pb ed="#P" n="670"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Sylvest. et Angel., num. 1; Tabien., num.
+          <lb ed="#P" n="2"/>Jet T. Anton., 9 part. tit. 4. cap. 5; 
+          Palu<lb break="no" ed="#P" n="3"/>dano et aliis, A4, distinct. 25; Gloss., in
+          <lb ed="#P" n="4"/>Summ. , 1, quaest. 1, et ibi aliis doctoribus, et
+          <lb ed="#P" n="5"/>in Rubr. de Simon., et in cap. Consulere,
+          <lb ed="#P" n="6"/>eod., quamvis ibi Panormitanus, cum Joanne
+          <lb ed="#P" n="7"/>Andr.. plura membra distinguat, quae ad haec
+          <lb ed="#P" n="8"/>facile reducuntur. Quaedam ergo dicuntur 
+          spi<lb break="no" ed="#P" n="9"/>ritualia in se, seu per essentiam, ut gratia,
+          <lb ed="#P" n="10"/>et virtutes infusae, et dona Spiritus Sancti;
+          <lb ed="#P" n="11"/>et huc etiam spectant gratiae gratis datae, 
+          qua<lb break="no" ed="#P" n="12"/>si in habitu consideratae, et character, et 
+          si<lb break="no" ed="#P" n="13"/>milia. Alia dicuntur spiritualia ex parte 
+          cau<lb break="no" ed="#P" n="14"/>sae, per relationem ad spiritualem effectum,
+          <lb ed="#P" n="15"/>nimirum, quia sunt causae bonorum 
+          spiri<lb break="no" ed="#P" n="16"/>tualium, et supernaturalium prioris modi, et
+          <lb ed="#P" n="17"/>sic sacramenta sunt spiritualia bona 
+          causali<lb break="no" ed="#P" n="18"/>ter, quia sunt causae gratiae, etc. Et ad haeec
+          <lb ed="#P" n="19"/>reducuntur sacramentalia omnia, et similia.
+          <lb ed="#P" n="20"/>Alia denique dicuntur supernaturalia et 
+          spi<lb break="no" ed="#P" n="21"/>ritualia ex parte effectus, seu per relationem
+          <lb ed="#P" n="22"/>ad spiritualem causam supernaturalem, a qua
+          <lb ed="#P" n="23"/>proxime et principaliter oriuntur, vel 
+          efh<lb break="no" ed="#P" n="24"/>cienter, vel etiam finaliter. Sic actus 
+          pro<lb break="no" ed="#P" n="25"/>phetandi spiritualis est, quia et nascitur ex
+          <lb ed="#P" n="26"/>causa spirituali, et ad salutem, vel fidem 
+          Ec<lb break="no" ed="#P" n="27"/>clesiae ordinatur, et sic de aliis. Si quis 
+          au<lb break="no" ed="#P" n="28"/>tem recte consideret, saepe haec omnia 
+          pos<lb break="no" ed="#P" n="29"/>sunt in eamdem rem convenire, imo fere
+          <lb ed="#P" n="30"/>semper conjunguntur. Nam gratia et in se
+          <lb ed="#P" n="31"/>est spiritualis, et est causa multorum 
+          bono<lb break="no" ed="#P" n="32"/>rum spiritualium, et est effectus proprius 
+          Spi<lb break="no" ed="#P" n="33"/>ritus Sancti supernaturaliter operantis, quae est
+          <lb ed="#P" n="34"/>causa maxime spiritualis. Item Sacramenta
+          <lb ed="#P" n="35"/>ipsa non solum sunt causae gratise, sed etiam
+          <lb ed="#P" n="36"/>effectus meritorum Christi, et institutionis a
+          <lb ed="#P" n="37"/>Christo factae, quae spirituale quid est; et in
+          <lb ed="#P" n="38"/>se etiam sunt bona quadam spiritualia et
+          <lb ed="#P" n="39"/>sancta, ut patet maxime de Eucharistia, et in
+          <lb ed="#P" n="40"/>caeteris suo modo, scilicet quatenus in se
+          <lb ed="#P" n="41"/>aliquo modo continent Christi gratiam, ut
+          <lb ed="#P" n="42"/>Concilium Tridentinum definit, sess. 7; et
+          <lb ed="#P" n="43"/>ita D. Thomas, artic. 1, ad 6, sacramenta 
+          po<lb break="no" ed="#P" n="44"/>nit, inter ea qua sunt spiritualia secundum
+          <lb ed="#P" n="45"/>se. Actus etiam prophetiae sicut a causa 
+          spi<lb break="no" ed="#P" n="46"/>rituali procedit, ita in se superna*urale quid
+          <lb ed="#P" n="47"/>est, et vere spirituale, saltem prout est in
+          <lb ed="#P" n="48"/>mente prophetae ; et spiritualem effectum 
+          ha<lb break="no" ed="#P" n="49"/>bet, nimirum fidem, seu cognitionem quam
+          <lb ed="#P" n="50"/>in aliis generat. Itaque distinctio illa 
+          acci<lb break="no" ed="#P" n="51"/>pienda erit sano modo, et ad doctrinam 
+          ac<lb break="no" ed="#P" n="52"/>commodato, quatenus unumquodque illorum
+          <lb ed="#P" n="53"/>membrorum denominatur ab eo, quod in 
+          ip<lb break="no" ed="#P" n="54"/>so praecipuum essc videtur. Hic ergo de 
+          pri<lb break="no" ed="#P" n="55"/>mo membro specialiter dicendum est.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>2. An gratia unionis possit esse materia 
+          si<lb break="no" ed="#P" n="57"/>monic. — Posset autem imprimis quaeri ar
+          <lb ed="#P" n="58"/>gratia unionis, quae maxime spiritualis et 
+          su<lb break="no" ed="#P" n="59"/>pernaturalis est, possit esse materia simoniae
+          <lb ed="#P" n="60"/>Et ratio dubitandi esse potest, quia potest ess
+          <lb ed="#P" n="61"/>materia venditionis et emptionis humana, e
+          <lb ed="#P" n="62"/>pro pretio temporali dan. Sic enim Judas
+          <lb ed="#P" n="63"/>vendendo Christum, vendidit gratiam unio
+          <lb ed="#P" n="64"/>nis. Et idem dici poterit de illo qui vendere
+          <lb ed="#P" n="65"/>Eucharistiam. Tali enim venditioni conve
+          <lb ed="#P" n="66"/>nit tota definitio simoniae, nam ibi interveni
+          <lb ed="#P" n="67"/>studiosa voluntas vendendi rem maxime spi
+          <lb ed="#P" n="68"/>ritualem; ergo illa gratia est materia simo
+          <lb ed="#P" n="69"/>niae. Confirmatur, quia ob hanc causam Jui
+          <lb ed="#P" n="70"/>das inter simoniacos connumerari solet. Si
+          <lb ed="#P" n="71"/>enim dixisse videtur Tarasius, relatus in cap
+          <lb ed="#P" n="72"/>HEos qui, 1, quaest. 1: Ut cerius dicam, Juda
+          <lb ed="#P" n="73"/>comparantur, qui Judeis Christum vendidit
+          <lb ed="#P" n="74"/>loquitur autem de simoniacis. Expressius Na
+          <lb ed="#P" n="75"/>zianzenus, ibidem relatus, cap. Qui studet
+          <lb ed="#P" n="76"/>prius dicit, multorum eaemplis, se velle os
+          <lb ed="#P" n="77"/>tendere quam detestabile vitium sit simonia
+          <lb ed="#P" n="78"/>et postea inter exempla ponit Judam, qu
+          <lb ed="#P" n="79"/>Christum omniun redemptorem vendidit. len
+          <lb ed="#P" n="80"/>Cyrillus Hierosoly mitanus, Catechesi 16, 
+          lo<lb break="no" ed="#P" n="81"/>quens cum simone Mago, ait: Alter tu Juda:
+          <lb ed="#P" n="82"/>argento te gratiam Spiritus Sancti emptu
+          <lb ed="#P" n="83"/>rum. eastimas. Sentit ergo Judam prius simt
+          <lb ed="#P" n="84"/>le vitium commisisse, et Simonem illum 
+          imi<lb break="no" ed="#P" n="85"/>tatum fuisse. Insinuat etiam Basilius, epist
+          <lb ed="#P" n="86"/>116, ubi ad simoniacos ait: Ne ovelitis Judam
+          <lb ed="#P" n="87"/>sectantes, questus gratia secundo illum 
+          pro<lb break="no" ed="#P" n="88"/>dere.
+        </p>
+        <p>
+          <lb ed="#P" n="89"/>3. Pars negativa vera resolvitur. — 
+          Nihilo<lb break="no" ed="#P" n="90"/>minus dicendum est gratiam unionis non
+          <lb ed="#P" n="91"/>posse esse materiam simoniae, nec Judam
+          <lb ed="#P" n="92"/>fuisse vere ac proprie simoniacum. Hanc 
+          pos<lb break="no" ed="#P" n="93"/>teriorem partem supponunt omnes 
+          communi<lb break="no" ed="#P" n="94"/>ter, dum Simonem ponunt ut primum 
+          simo<lb break="no" ed="#P" n="95"/>niacum novi testamenti, nisi forte Judas 
+          nu<lb break="no" ed="#P" n="96"/>meretur inter homines veteris testamenti,
+          <lb ed="#P" n="97"/>quia ante Christi mortem et peccavit et 
+          mor<lb break="no" ed="#P" n="98"/>tuus est. Sed quidquid de hoc sit, nobiscum
+          <lb ed="#P" n="99"/>sensisse videtur Sot., dict. quaest. 5, artic. 1,
+          <lb ed="#P" n="100"/>in fin. primae conc. Et rationem indicat, quia
+          <lb ed="#P" n="101"/>Judas, licet Christum auctorem gratie 
+          ven<lb break="no" ed="#P" n="102"/>diderit, non tainen vendidit tanguam donum
+          <lb ed="#P" n="103"/>ementibus utile, sed ut morte perimendum ;
+          <lb ed="#P" n="104"/>et ideo non est ab illo nomen hujus sacrilegi
+          <lb ed="#P" n="105"/>tractum. Ubi non aperte negat Judam 
+          com<lb break="no" ed="#P" n="106"/>misisse hoc crimen, sed non esse ab illo 
+          no<lb break="no" ed="#P" n="107"/>men vitii desumptum. hatio etiam non 
+          vi<lb break="no" ed="#P" n="108"/>detur multum efficax ; nam quod venditio fiat
+          <lb ed="#P" n="109"/>ad peremptionem, non tollit veram rationem
+          <lb ed="#P" n="110"/>venditionis, nec obstaret pravitati simonia,
+          <pb ed="#P" n="671"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>si alias materia esset capax. Qui enim nunc
+          <lb ed="#P" n="2"/>venderet infideli oleum sanctum, ut sanctum
+          <lb ed="#P" n="3"/>est, id est, majori pretio quam oleum valeat,
+          <lb ed="#P" n="4"/>simoniacus esset, licet illud venderet ut 
+          fie<lb break="no" ed="#P" n="5"/>ret pabulum ignis, ubi perimitur. Et ratio
+          <lb ed="#P" n="6"/>est. quia hic finis est extrinsecus, et potest
+          <lb ed="#P" n="7"/>addere novam malitiam, non vero tollit illam
+          <lb ed="#P" n="8"/>quae ex materia sumi potest. Unde qui 
+          ven<lb break="no" ed="#P" n="9"/>deret Judaeo Eucharistiam, qui illam igni 
+          tra<lb break="no" ed="#P" n="10"/>diturus est, non solum esset cooperator ad
+          <lb ed="#P" n="11"/>maleficium, seu sacrilegium Judaei, sed etiam
+          <lb ed="#P" n="12"/>vere simoniacus, si sacrum iilum panem 
+          ca<lb break="no" ed="#P" n="13"/>rius venderet, eo quod sacer est. Alii reddunt
+          <lb ed="#P" n="14"/>rationem, cur venditio Judae non fuerit 
+          si<lb break="no" ed="#P" n="15"/>moniaca, quia respectu Christi non fuit 
+          com<lb break="no" ed="#P" n="16"/>mutatio voluntaria, sed injuriosa, et coacta
+          <lb ed="#P" n="17"/>actio. Sed non placet, quia simonia nunguam
+          <lb ed="#P" n="18"/>est voluntaria actio respectu materiae in quam
+          <lb ed="#P" n="19"/>cadit, seu ex parte rei veniitae, sed respectu
+          <lb ed="#P" n="20"/>alterius cum quo fit contractus, quod habuit
+          <lb ed="#P" n="21"/>etiam illa Christi venditio. Quod autem fuerit
+          <lb ed="#P" n="22"/>simul Christo involuntaria, non tollit aliam
+          <lb ed="#P" n="23"/>malitiam. sed auget; est enim illa 
+          circumstan<lb break="no" ed="#P" n="24"/>tia quasi per accidens, quatenus illa materia
+          <lb ed="#P" n="25"/>vendita rationalis erat, et capax voluntarii et
+          <lb ed="#P" n="26"/>involuntarii, ut statim aliis exemplis patebit.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>4. Ratio cur Judas simoniacus non fuit 
+          ven<lb break="no" ed="#P" n="28"/>dendo Christum. — Propria ergo ratio, quod
+          <lb ed="#P" n="29"/>ad Judam spectat, esse videtur, quia ille non
+          <lb ed="#P" n="30"/>vendidit Christum cogitans aliquid de 
+          spiri<lb break="no" ed="#P" n="31"/>tualitate quae in Christo erat, nec eo titulo 
+          ali<lb break="no" ed="#P" n="32"/>quod pretium sumens, sed solum ratione 
+          hu<lb break="no" ed="#P" n="33"/>manae naturse quae erat in Christo, quasi res
+          <lb ed="#P" n="34"/>corporalis annesa rei spirituali ; in simili 
+          au<lb break="no" ed="#P" n="35"/>tem venditione non continetur intrinsece 
+          si<lb break="no" ed="#P" n="36"/>monia, quando pretium non extenditur ad rei
+          <lb ed="#P" n="37"/>spiritualitatem, sed praecise datur propter 
+          ma<lb break="no" ed="#P" n="38"/>teriale illud quod est in re, cujus 
+          aestimatio<lb break="no" ed="#P" n="39"/>nem pretium non excedit. Dices, quamvis
+          <lb ed="#P" n="40"/>demus neque Judam, neque Pharisaeos aliquid
+          <lb ed="#P" n="41"/>cogitasse de persona vera quae sub illa 
+          huma<lb break="no" ed="#P" n="42"/>nitate latebat, tamen culpabiliter illam 
+          igno<lb break="no" ed="#P" n="43"/>rasse, et ideo ejus injuriam nihilominus 
+          impu<lb break="no" ed="#P" n="44"/>tari, quam si illam cognovissent. Respondeo
+          <lb ed="#P" n="45"/>amputari quidem quoad ratiunem injustitiae
+          <lb ed="#P" n="46"/>et irreverentiae alterius rationis,non vero 
+          quo<lb break="no" ed="#P" n="47"/>ad malitiam propriam simoniae, quia haec 
+          pen<lb break="no" ed="#P" n="48"/>det intrinsece ex cognitione spiritualitatis rei
+          <lb ed="#P" n="49"/>quae venditur ; alioquin venditio praecise fit
+          <lb ed="#P" n="50"/>de re materiali quae cognoscitur, et in alium
+          <lb ed="#P" n="51"/>transfertur. Potest tamen hic adjungi alia 
+          ra<lb break="no" ed="#P" n="52"/>uo sumpta ex dictis supra de irreligiositaie et
+          <lb ed="#P" n="53"/>sacrilegio, quod injuriae factaee in Christi 
+          per<lb break="no" ed="#P" n="54"/>sonam sunt alterius speciei , et malitiae
+          <lb ed="#P" n="55"/>quasi alterius ordinis quam sint sacrile-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gia, quae fiunt contra personas et res sacras
+          <lb ed="#P" n="57"/>pure creatas ; quia sunt contra excellentiam
+          <lb ed="#P" n="58"/>alterius ordinis, et contra adorationem alterius
+          <lb ed="#P" n="59"/>rationis illi debitam. Sic ergo, licet venditio
+          <lb ed="#P" n="60"/>Christi habuerit malitiam contra religionem, et
+          <lb ed="#P" n="61"/>reverentiam debitam tantae personae, illa tamen
+          <lb ed="#P" n="62"/>malitialonge altioris ordinis fvit quam simonia.
+          <lb ed="#P" n="63"/>Et haec ratio probat in universum priorem 
+          par<lb break="no" ed="#P" n="64"/>tem conclusionis, quod gratia unionis non 
+          pos<lb break="no" ed="#P" n="65"/>sit esse materia simoniae, quia illa gratia est
+          <lb ed="#P" n="66"/>alterius ordinis ab omni re supernaturali pure
+          <lb ed="#P" n="67"/>creata, contra quam versatur propria simonia.
+          <lb ed="#P" n="68"/>Item applicari potest prior ratio , quia 
+          impos<lb break="no" ed="#P" n="69"/>sibile videtur , ut aliquis cognoscens gratiam
+          <lb ed="#P" n="70"/>unionis, seu (quod idem est) cognoscens 
+          ali<lb break="no" ed="#P" n="71"/>quem hominem esse veram personam 
+          divi<lb break="no" ed="#P" n="72"/>nam, tentet illum vendere temporali pretio;
+          <lb ed="#P" n="73"/>non potest ergo talis venditio contingere, nisi
+          <lb ed="#P" n="74"/>ratione materialis natura , quae ad propriam
+          <lb ed="#P" n="75"/>simoniam non sufficit.
+        </p>
+        <p>
+          <lb ed="#P" n="76"/>5. Solvuntur argumenta partis opposita.
+          <lb ed="#P" n="77"/>— Neque obstant in contrarium objecta. Ad
+          <lb ed="#P" n="78"/>rationem enim jam responsum est, negando
+          <lb ed="#P" n="79"/>assumptum, non est enim illa gratia talis res
+          <lb ed="#P" n="80"/>quae vendi possit etiam facto, et licet posset,
+          <lb ed="#P" n="81"/>non est ex rebus creatis, et ideo nec 
+          venditio<lb break="no" ed="#P" n="82"/>nis, nec propria simouia materia esse potest.
+          <lb ed="#P" n="83"/>Ad verba Tarasii, dico probare contrarium.
+          <lb ed="#P" n="84"/>Nam ibi etiam comparat peccatum Simonis
+          <lb ed="#P" n="85"/>cum peccato blasphemantium Christum, et
+          <lb ed="#P" n="86"/>tamen constat esse diversae speciei, et eodem
+          <lb ed="#P" n="87"/>modo statim adjungit comparationem cum
+          <lb ed="#P" n="88"/>peccato Judae, tanquam cum re diversa, 
+          ha<lb break="no" ed="#P" n="89"/>bente tamen quamdam analogiam, seu 
+          pro<lb break="no" ed="#P" n="90"/>portionem ad illam. Et idem dicendum est ad
+          <lb ed="#P" n="91"/>Nazianzenum. Comparat enim in effectu et
+          <lb ed="#P" n="92"/>poena, non in specie malitia. Maxime quia
+          <lb ed="#P" n="93"/>textus ille in Nazianzeno non invenitur, sed
+          <lb ed="#P" n="94"/>videtur desumptus paucis mutatis ex epistola
+          <lb ed="#P" n="95"/>Tarasii, ut in Decreto Gregoriano notatur, et
+          <lb ed="#P" n="96"/>ideo in eumdem sensum trahendus est. 
+          Cyril<lb break="no" ed="#P" n="97"/>lus autem, et Basilius apertius loquuntur 
+          me<lb break="no" ed="#P" n="98"/>taphorice, et secundum quamdam 
+          umitatio<lb break="no" ed="#P" n="99"/>nem gravioris peccati.
+        </p>
+        <p>
+          <lb ed="#P" n="100"/>6. An gratia sanctificans sit mvendililis , et
+          <lb ed="#P" n="101"/>Jure, et fucto. — Superest ergo quaestio, an
+          <lb ed="#P" n="102"/>idem dicendum sit de gratia sanctificante,
+          <lb ed="#P" n="103"/>quod nimirum sit invendibilis, non solum jure,
+          <lb ed="#P" n="104"/>sed etiam facto, et ideo non possit esse 
+          mate<lb break="no" ed="#P" n="105"/>ria simoniae. Ita enim multi doctores sentire
+          <lb ed="#P" n="106"/>videntur, quia, ut supra dicebamus, nemo
+          <lb ed="#P" n="107"/>potest gratiam, quam in se habet, in alterum
+          <lb ed="#P" n="108"/>transferre ; quomodo ergo potest illam 
+          ven<lb break="no" ed="#P" n="109"/>dere, etiam facto ? Panormitanus igitur, in
+          <lb ed="#P" n="110"/>cap. Consulere, numer. 3, distinguens spiri-
+          <pb ed="#P" n="672"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tualia per essentiam, in incorporalia et 
+          cor<lb break="no" ed="#P" n="2"/>poralia, dicit priora, ut sunt gratia, et dona
+          <lb ed="#P" n="3"/>Spiritus Sancti, vendi non posse nec jure, nec
+          <lb ed="#P" n="4"/>facto, et ita non esse materiam simoniae. Citat
+          <lb ed="#P" n="5"/>Gloss., in cap. 1, 1, quaest. prima, quae 
+          re<lb break="no" ed="#P" n="6"/>vera id non dicit. Idem vero asseruit Angel.,
+          <lb ed="#P" n="7"/>Simon. 1, num. 1, et Tabien., numer. 7.
+          <lb ed="#P" n="8"/>Idemque sentit Sot., dicto libr. 9, quaest. 6,
+          <lb ed="#P" n="9"/>artic. 1, et alii quos refert Ugolin., staiim 
+          al<lb break="no" ed="#P" n="10"/>legandus. Et sumi potest ex cap. Salvator, 1,
+          <lb ed="#P" n="11"/>quaest. 3, ibi: Nec Apostolus emptionem 
+          Spi<lb break="no" ed="#P" n="12"/>ritus Sancti (quam bene fieri non posse noverat),
+          <lb ed="#P" n="13"/>sed ambitionem et avaritiam, etc., in Simone
+          <lb ed="#P" n="14"/>exchorruit. Et simile habetur in cap. Judices,
+          <lb ed="#P" n="15"/>verb. Poterat, 1, quaest. 1.
+        </p>
+        <p>
+          <lb ed="#P" n="16"/>7. Gratiam posse esse materiam simonim.
+          <lb ed="#P" n="17"/>— Sed nihilominus dicendum est hanc eiiam
+          <lb ed="#P" n="18"/>gratiam posse esse materiam simoniae. Eaec
+          <lb ed="#P" n="19"/>assertio sumi potest ex D. Thom., a. 9, quatenus
+          <lb ed="#P" n="20"/>ait gratiam sacramentorum non posse vendi
+          <lb ed="#P" n="21"/>sine simonia, supponens illam esse materiam
+          <lb ed="#P" n="22"/>simonia; gratia autem sacramentorum res
+          <lb ed="#P" n="23"/>est spiritualis per essentiam. Palud. etiam,
+          <lb ed="#P" n="24"/>4, distinct. 25, quaest. 5, n. 15, aperte dixit
+          <lb ed="#P" n="25"/>spiritualia per essentiam esse materiam 
+          simo<lb break="no" ed="#P" n="26"/>niae. Eamdem opinionem amplectitur 
+          Ugo<lb break="no" ed="#P" n="27"/>Iin., de Simon., Tabul. 1, cap. 35; non recte
+          <lb ed="#P" n="28"/>autem illam defendit ac persuadet. Fatetur
+          <lb ed="#P" n="29"/>enim hujusmodi gratiam de facto vendi non
+          <lb ed="#P" n="30"/>posse, et nihilominus posse esse materiam 
+          si<lb break="no" ed="#P" n="31"/>moniae, quia ad simoniam sufhicit animus et
+          <lb ed="#P" n="32"/>voluntas, seu desiderium vendendi rem 
+          spi<lb break="no" ed="#P" n="33"/>ritualem. Àt enim, quia si de facto nunquam
+          <lb ed="#P" n="34"/>posset talis gratia ab hominibus vendi vel emi,
+          <lb ed="#P" n="35"/>nec super illam acquirendam vel dandam 
+          pos<lb break="no" ed="#P" n="36"/>sent fieri conventiones humanae sub pretio
+          <lb ed="#P" n="37"/>temporali, profecto nullus peccaret per solam
+          <lb ed="#P" n="38"/>voluntatem, vel affectum vendendi, vel 
+          emen<lb break="no" ed="#P" n="39"/>di circa talem materiam: ergo dicendum 
+          po<lb break="no" ed="#P" n="40"/>tius esset illam non esse materiam simoniae.
+          <lb ed="#P" n="41"/>Nam circa materiam simpliciter impossibilem
+          <lb ed="#P" n="42"/>homini, non versatur studiosa voluntas, esto
+          <lb ed="#P" n="43"/>possit intelligi affectus simplex, vel 
+          conditio<lb break="no" ed="#P" n="44"/>nata voluntas vendendi, vei emendi talem
+          <lb ed="#P" n="45"/>gratiam, si esset possibile, hoc enim satis non
+          <lb ed="#P" n="46"/>est ut dicamus illam esse materiam simoniae.
+          <lb ed="#P" n="47"/>Quis enim dicat angelum esse materiam 
+          simo<lb break="no" ed="#P" n="48"/>niae, quia potest homo habere affectum 
+          ven<lb break="no" ed="#P" n="49"/>dendi Angelum, si posset? Itaque licet malitia
+          <lb ed="#P" n="50"/>simoniae mentalis possit committi per solam
+          <lb ed="#P" n="51"/>voluntatem, tamen simonia proprie est 
+          pec<lb break="no" ed="#P" n="52"/>catum, quod exteriori actione consummatur,
+          <lb ed="#P" n="53"/>et ideo matcria illius non dicitur, nisi illa
+          <lb ed="#P" n="54"/>circa quam possunt exteriores actiones 
+          ven<lb break="no" ed="#P" n="55"/>dendi et emendi inter homines fieri.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>8. Gratiam posse vendi et emi. — Qui 
+          ven<lb break="no" ed="#P" n="57"/>dit pluris hominem quia Christianus est, 
+          si<lb break="no" ed="#P" n="58"/>moniamn comm;ttit. — Ut ergo probetur 
+          assep<lb break="no" ed="#P" n="59"/>tio, ostendendum est ipsammet gratiam posse
+          <lb ed="#P" n="60"/>vendi et emi. Probari autem hoc potest, tum
+          <lb ed="#P" n="61"/>de habitibus gratiae sanctificantis, tum de ac
+          <lb ed="#P" n="62"/>tibus. Primo ergo, ut gratia habitualis 
+          pro<lb break="no" ed="#P" n="63"/>prie vendi dicatur, non est necesse ut 
+          venda<lb break="no" ed="#P" n="64"/>tur in abstracto sumpta, ut sic dicam, sed 
+          sa<lb break="no" ed="#P" n="65"/>tis est quod vendatur in concreto, id est, ut
+          <lb ed="#P" n="66"/>vendatur homo gratus, qua gratus est, sicut
+          <lb ed="#P" n="67"/>venditur artificiosa figura, quando venditur
+          <lb ed="#P" n="68"/>arte factum, quod ratione figurae et artis 
+          pre<lb break="no" ed="#P" n="69"/>tiosum et aestimabile est, et sicut venduntur
+          <lb ed="#P" n="70"/>res aliae subsistentes, quatenus per quaedam
+          <lb ed="#P" n="71"/>accidentia vel pretio digna, vel certe majori
+          <lb ed="#P" n="72"/>pretio digna redduntur. Sed gratia vendi 
+          po<lb break="no" ed="#P" n="73"/>test ab homine hoe modo; ergo id satis est ut
+          <lb ed="#P" n="74"/>sit propria materia simoniae; et cum gratia
+          <lb ed="#P" n="75"/>sit accidens, ut materia venditionis esse 
+          dica<lb break="no" ed="#P" n="76"/>tur, satis est ut sit materia illius per modum
+          <lb ed="#P" n="77"/>accidentis, scilicet, quatenus afficit subj ecium,
+          <lb ed="#P" n="78"/>quia accidentia, sicut aliter non sunt, ita nec
+          <lb ed="#P" n="79"/>sunt aliter vendibilia. Probatur ergo minor,
+          <lb ed="#P" n="80"/>quia si Christianus captivus, verbi gratia, 
+          ca<lb break="no" ed="#P" n="81"/>rius redimatur, solum quia Christianus est,
+          <lb ed="#P" n="82"/>profecto ex pa:te vendentis illa est simonia,
+          <lb ed="#P" n="83"/>ut bene notavit Ugolinus supra, capit. 36,
+          <lb ed="#P" n="84"/>numero tertio. Et ratio est, quia tunc 
+          ven<lb break="no" ed="#P" n="85"/>ditur illa persona majori pretio quam 
+          va<lb break="no" ed="#P" n="86"/>leat, solum ratione spiritualis gratiae , vel
+          <lb ed="#P" n="87"/>fidei, vel characteris quem in se habet;
+          <lb ed="#P" n="88"/>haec enim omnia nunc comprehendo sub ha- 4
+          <lb ed="#P" n="89"/>bituali gratia; nam, si vendens calicem, 
+          au<lb break="no" ed="#P" n="90"/>gens preiium ratione solius consecrationis, est
+          <lb ed="#P" n="91"/>simoniacus, cur non magis, qui vendit 
+          Chri<lb break="no" ed="#P" n="92"/>stianum, augens pretium, solum quia 
+          Chri<lb break="no" ed="#P" n="93"/>stianus est.
+        </p>
+        <p>
+          <lb ed="#P" n="94"/>9. Qui vendit sacerdotem intuitu sacerdotii,
+          <lb ed="#P" n="95"/>simoniacus est.—Idem dicendum de vendente
+          <lb ed="#P" n="96"/>servum pluris, quia sanctus est. —Simili 
+          mo<lb break="no" ed="#P" n="97"/>do, si quis venderet sacerdotem in 
+          manci<lb break="no" ed="#P" n="98"/>pium, si idfaciat intuitu sacerdotii, simoniaeus
+          <lb ed="#P" n="99"/>est, quia vendit characterem ipsum 
+          sacerdota<lb break="no" ed="#P" n="100"/>lem. Dico autem intuitu sacerdotii, quia si
+          <lb ed="#P" n="101"/>venderet hominem illum eo modo quo solent
+          <lb ed="#P" n="102"/>servi vendi, in ordine tantum ad corporaiem
+          <lb ed="#P" n="103"/>usum , et juxta aestimationem communem
+          <lb ed="#P" n="104"/>servorum, tunc non esset simonia, quia mere
+          <lb ed="#P" n="105"/>materialiter se habet ibi character (sicut 
+          pau<lb break="no" ed="#P" n="106"/>lo ante de venditione Christi dicebamus , sd
+          <lb ed="#P" n="107"/>esset et injustitia, et sacrilegium contra 
+          cano<lb break="no" ed="#P" n="108"/>nem Si quis suadenie. Ai vero si spocialiten
+          <lb ed="#P" n="109"/>aestimaret illum ratione sacerdotii, et augeret
+          <lb ed="#P" n="110"/>illo titulo pretium ejus, vel si tota ratio pret
+          <pb ed="#P" n="673"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>esset illa dignitas, tunc dico vendi intuitu 
+          sa<lb break="no" ed="#P" n="2"/>cerdotii, et committi simoniam, ut ratio facta
+          <lb ed="#P" n="3"/>probat, quia venditur consecrattio talis 
+          perso<lb break="no" ed="#P" n="4"/>nae, et consequenter forma ipsa, et character,
+          <lb ed="#P" n="5"/>per quem consecratur. Simili modo, existimo
+          <lb ed="#P" n="6"/>fore simoniacum, si quis habens servum 
+          jus<lb break="no" ed="#P" n="7"/>tum et sanctum, illum venderet cariori pretio
+          <lb ed="#P" n="8"/>quam valeat, ut servus est, solum quia sanctus
+          <lb ed="#P" n="9"/>est, et in gratia esse ac vivere creditur. Dices
+          <lb ed="#P" n="10"/>interdum fieri posse ut, ratione bonitatis 
+          mo<lb break="no" ed="#P" n="11"/>ralis, servus sit fidelior et aptior ad 
+          servien<lb break="no" ed="#P" n="12"/>dum, et hoc titulo illum majori pretio 
+          aesti<lb break="no" ed="#P" n="13"/>mare, nec simoniacum esse, nec injustum.
+          <lb ed="#P" n="14"/>Respondeo verum hoc esse, nec de hoc titulo
+          <lb ed="#P" n="15"/>nos loqui, sed de puro titulo spiritualis 
+          sancti<lb break="no" ed="#P" n="16"/>tatis, quamvis illum non reddat aptiorem ad
+          <lb ed="#P" n="17"/>munus serviendi, sed solum quia creditur
+          <lb ed="#P" n="18"/>Deo magis gratus : pam hoc titulo illum carius
+          <lb ed="#P" n="19"/>vendere, sine dubio contra rationem, et contra
+          <lb ed="#P" n="20"/>dignitatem gratiae est, et tunc dicimus vendi
+          <lb ed="#P" n="21"/>gratiam. Sicut quando dixit Christus : Qui 
+          re<lb break="no" ed="#P" n="22"/>cipit prophetam in nomine prophetae, ibi 
+          in<lb break="no" ed="#P" n="23"/>tellexit venerari prophetiae donum ; qui ergo
+          <lb ed="#P" n="24"/>venderet Sanctum Prophetam propter 
+          excel<lb break="no" ed="#P" n="25"/>lentiam sanctitatis et prophetiae, ingens 
+          pre<lb break="no" ed="#P" n="26"/>tium pro illo postulans, spiritualem illam 
+          dig<lb break="no" ed="#P" n="27"/>nitatem plane venderet, et simoniam 
+          com<lb break="no" ed="#P" n="28"/>mitteret ; sunt ergo vel de se possunt esse haec
+          <lb ed="#P" n="29"/>materia simoniae. Posset etiam hoc ex actibus
+          <lb ed="#P" n="30"/>gratiae confirmari, quia illi actus etiam sunt
+          <lb ed="#P" n="31"/>in essentia spirituales et supernaturales. Sed
+          <lb ed="#P" n="32"/>de illis infra dicendum est.
+        </p>
+        <p>
+          <lb ed="#P" n="33"/>10. Explicatur aliter assertio.— Alio item
+          <lb ed="#P" n="34"/>modo explicari ac probari potest assertio, 
+          res<lb break="no" ed="#P" n="35"/>pondendo simul ad difficultatem in principio
+          <lb ed="#P" n="36"/>positam. Quia non solum venditur res, quam
+          <lb ed="#P" n="37"/>aliquis jam possidet, et in alium transferre 
+          po<lb break="no" ed="#P" n="38"/>test, ut illum afficiat, vel ab illo possideatur
+          <lb ed="#P" n="39"/>( est enim hic certus quidam venditionis 
+          mo<lb break="no" ed="#P" n="40"/>dus, quem fatemur non habere locum in his
+          <lb ed="#P" n="41"/>donis abstracte consideratis ). Ille tamen 
+          mo<lb break="no" ed="#P" n="42"/>dus nec est necessarius, nec unicus, et ideo
+          <lb ed="#P" n="43"/>consecutio valida non est; tum quia jam 
+          os<lb break="no" ed="#P" n="44"/>tensum est quomodo possit vendi gratia cum
+          <lb ed="#P" n="45"/>suo subjecto, et cum illo transferri in 
+          posses<lb break="no" ed="#P" n="46"/>sionem alterius, quasi redigendo illam in 
+          ser<lb break="no" ed="#P" n="47"/>vitutem alterius, quantum est ex parte 
+          ven<lb break="no" ed="#P" n="48"/>dentis ; tum maxime quia non tantum solet
+          <lb ed="#P" n="49"/>vendi res quae possidetur transferendo in 
+          emen<lb break="no" ed="#P" n="50"/>tem, sed etiam potest res de novo fieri, et tradi
+          <lb ed="#P" n="51"/>alteri ; quod si hoc fiat, propter pretium res
+          <lb ed="#P" n="52"/>illa vendi dicitur et emi. Ut pictor vendit 
+          ima<lb break="no" ed="#P" n="53"/>ginem quam facit, et ideo si fingeremus posse
+          <lb ed="#P" n="54"/>pictorem dare alicui pulchritudinem, 
+          pingen<lb break="no" ed="#P" n="55"/>do, vel coloribus afficiendo faciem ejus, si
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>id faceret propter pretium, vere diceretur
+          <lb ed="#P" n="57"/>vendere illi pulchritudinem. Et qui pingit
+          <lb ed="#P" n="58"/>domum alicujus pretio, vendit illi figuras illas,
+          <lb ed="#P" n="59"/>licet nunquam fuerit illarum dominus, sed
+          <lb ed="#P" n="60"/>tantum actionis, per quam illas fecit. Sic
+          <lb ed="#P" n="61"/>ergo vendi etiam potest gratia, quatenus per
+          <lb ed="#P" n="62"/>unum hominem in alio fieri potest ; ut 
+          sacer<lb break="no" ed="#P" n="63"/>dos, vendens absolutionem, vere dicetur 
+          ven<lb break="no" ed="#P" n="64"/>dere gratiam, et ordinans alium propter 
+          pe<lb break="no" ed="#P" n="65"/>cunias vendit illi characterem ordinis, et 
+          gra<lb break="no" ed="#P" n="66"/>tiam sacramentalem, quantum est ex se, nam
+          <lb ed="#P" n="67"/>illam confert pro pretio, si alius non ponat
+          <lb ed="#P" n="68"/>obicem, quod potest contingere, quando ipse
+          <lb ed="#P" n="69"/>ignorat, et bona fide accedit.
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>11. Quando venditur actio, per quam gratia
+          <lb ed="#P" n="71"/>fit, venditur ipsa gratia.— Et hoc modo 
+          ven<lb break="no" ed="#P" n="72"/>ditur ipsa gratia non cum subjecto, sed 
+          secun<lb break="no" ed="#P" n="73"/>dum se, quamvis non vendatur nisi ut 
+          termi<lb break="no" ed="#P" n="74"/>nus actionis, quae est aliquo modo in potestate,
+          <lb ed="#P" n="75"/>et dominio vendentis. Nihil tamen obstat 
+          quo<lb break="no" ed="#P" n="76"/>minus simul cum ipsa actione vendatur 
+          effec<lb break="no" ed="#P" n="77"/>tus ejus, imo ille principaliter, quia propter
+          <lb ed="#P" n="78"/>quod unuwmquodque tale, et illud magis. Tunc
+          <lb ed="#P" n="79"/>autem tota aestimatio, et valor talis actionis
+          <lb ed="#P" n="80"/>ab effectu sumitur ; ergo effectus ipse est, qui
+          <lb ed="#P" n="81"/>tunc maxime pretio aestimatur. Et hoc modo
+          <lb ed="#P" n="82"/>dicunt sape Sancti, Simonem Magum 
+          vo<lb break="no" ed="#P" n="83"/>luisse ipsum Spiritum Sanctum et gratiam
+          <lb ed="#P" n="84"/>ejus vendere, et ideo voluisse donum ejus, id
+          <lb ed="#P" n="85"/>est, potestatem conferendi gratiam, emere:
+          <lb ed="#P" n="86"/>peccavit ergo volens emere gratiam quasi 
+          gra<lb break="no" ed="#P" n="87"/>tis datam, seu propriam potestatem 
+          ministeria<lb break="no" ed="#P" n="88"/>lem, et volens vendere gratiam sanctificantem.
+          <lb ed="#P" n="89"/>Imo Sot., dicta quaest. 5, artic. 1, in principio,
+          <lb ed="#P" n="90"/>dixit voluisse emere ipsum Spiritum Sanctum,
+          <lb ed="#P" n="91"/>et gratiam ejus gratum facientem ; proprius
+          <lb ed="#P" n="92"/>autem id dicitur de voluntate vendendi, 
+          quam<lb break="no" ed="#P" n="93"/>vis emere potestatem dandi gratiam, 
+          quodam<lb break="no" ed="#P" n="94"/>modo etiam sit illam emere. Hic autem modus
+          <lb ed="#P" n="95"/>venditionis non tam proprie habet locum in
+          <lb ed="#P" n="96"/>actibus gratiae, praesertim internis et 
+          spiritua<lb break="no" ed="#P" n="97"/>libus, quia non est in hominibus potestas ita
+          <lb ed="#P" n="98"/>efficax horum actuum in alio, sicut gratiae
+          <lb ed="#P" n="99"/>habitualis, vel characteris permanentis. Potest
+          <lb ed="#P" n="100"/>tamen esse altero e duobus modis. Primo, si
+          <lb ed="#P" n="101"/>ego venderem meum supernaturalem actum,
+          <lb ed="#P" n="102"/>quatenus potest alteri afferre aliquam 
+          utilita<lb break="no" ed="#P" n="103"/>tem spiritualem vel meriti de congruo, vel
+          <lb ed="#P" n="104"/>impetrationis, vel satisfactionis. Nam ita 
+          pos<lb break="no" ed="#P" n="105"/>sunt vendi opera, etiamsi ipsamet realiter
+          <lb ed="#P" n="106"/>non transeant in alium ut ab illo possideantur,
+          <lb ed="#P" n="107"/>sed satis est quod gratia illius fiant, vel ad 
+          ar<lb break="no" ed="#P" n="108"/>bitrium ejus; nam hoc ipsum aestimabile pretio
+          <lb ed="#P" n="109"/>esset, si qualitas, et dignitas operis non 
+          repug<lb break="no" ed="#P" n="110"/>naret cum pretio. Alio modo potest id intelligi
+          <pb ed="#P" n="674"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quatenus unus homo potest cooperari ad fidem,
+          <lb ed="#P" n="2"/>et similes actus alterius, saltem plantando et
+          <lb ed="#P" n="3"/>rigando, nam qui hanc cooperationem 
+          ven<lb break="no" ed="#P" n="4"/>dit, merito censetur alteri vendere fidem quam
+          <lb ed="#P" n="5"/>concipit, vel similes actus, quia illa cooperatio
+          <lb ed="#P" n="6"/>non cersetur aestimari illo pretio, nisi ratione
+          <lb ed="#P" n="7"/>illius termini, seu effectus, sicut in actione
+          <lb ed="#P" n="8"/>pingendi explicavimus.
+        </p>
+        <p>
+          <lb ed="#P" n="9"/>12. Respondetur doctoribus oppositum 
+          sen<lb break="no" ed="#P" n="10"/>Liuntibus.—Ad doctores autem qui oppositum
+          <lb ed="#P" n="11"/>sentire videntur, duo dici possunt. Unum est,
+          <lb ed="#P" n="12"/>illos solum fuisse locutos de donis 
+          habituali<lb break="no" ed="#P" n="13"/>bus, vel quae per modum habitus 
+          permanen<lb break="no" ed="#P" n="14"/>tis dantur, et de iliis tantum voluisse docere,
+          <lb ed="#P" n="15"/>non posse de facto vendi, ut nude spectata et
+          <lb ed="#P" n="16"/>secundum se, quod verum est, quia semper
+          <lb ed="#P" n="17"/>venduntyr ut conjuncta vel subjecto aliqua
+          <lb ed="#P" n="18"/>ex parte materiali, ut homo, vel conjuncta
+          <lb ed="#P" n="19"/>alicui actioni per quam fiant, quae ordinarie
+          <lb ed="#P" n="20"/>etiam est materialis, et homini sensibili 
+          ac<lb break="no" ed="#P" n="21"/>commodata. Vel secundo dici potest illos 
+          ni<lb break="no" ed="#P" n="22"/>hil aliud voluisse, nisi quod insinustur in 
+          ju<lb break="no" ed="#P" n="23"/>ribus quae allegant. Dicunt autem illa 
+          de<lb break="no" ed="#P" n="24"/>creta, Spiritum Sanctum nec vendi posse, nec
+          <lb ed="#P" n="25"/>emi, non quia homo non possit de facto 
+          gra<lb break="no" ed="#P" n="26"/>tiam ejus vendere, cum possit pro pretio 
+          il<lb break="no" ed="#P" n="27"/>lam offerre, et cum effectu dare, non 
+          obs<lb break="no" ed="#P" n="28"/>tante pretio, si actionem rite exerceat, et ex
+          <lb ed="#P" n="29"/>parte recipientis non sit obex, sed quia tunc
+          <lb ed="#P" n="30"/>etiam non datur Spiritus Sanctus ex vi 
+          ven<lb break="no" ed="#P" n="31"/>ditionis vel emptionis, nec ex vi voluntatis
+          <lb ed="#P" n="32"/>pravae, qua venditur, sed ex vi suae 
+          promis<lb break="no" ed="#P" n="33"/>sionis et institutionis. Et hoc modo vocatur
+          <lb ed="#P" n="34"/>ibi talis venditio potius simulata quam vera,
+          <lb ed="#P" n="35"/>scilicet quoad eflicaciam et dominium 
+          voen<lb break="no" ed="#P" n="36"/>dentis, quamvis quoad externam 
+          conventio<lb break="no" ed="#P" n="37"/>nem et pravam intentionem vera sine dubio
+          <lb ed="#P" n="38"/>sit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

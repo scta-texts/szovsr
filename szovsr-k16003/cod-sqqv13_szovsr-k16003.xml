@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="642"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k16003"><!-- t3-l4c5 -->
+        <head>Caput 5</head>
+        <head type="question-title">An simoniae vitium sit proprium temporis legis gratiae, vel etiam in lege veteri committi potuerit.</head>
+        <p>
+          <lb ed="#P" n="60"/>CAPUT V.
+          <lb ed="#P" n="61"/>AN SIMONLIE VITIUM SIT PROPRIUM TEMPORBIS 
+          LE<lb break="no" ed="#P" n="62"/>GIS GRATLE, VEL ETIAM IN LEGE VETEBI 
+          COM<lb break="no" ed="#P" n="63"/>MITTI POTUERIT.
+        </p>
+        <p>
+          <lb ed="#P" n="64"/>1. An in lege veteri simonia daretur.—Pars
+          <lb ed="#P" n="65"/>affirmativa. — Quaestio haec annexa est 
+          prae<lb break="no" ed="#P" n="66"/>cedentibus : si enim hoc peccatum contra jus
+          <lb ed="#P" n="67"/>naturale existit, sequitur in omni tempore et
+          <lb ed="#P" n="68"/>sub omni lege esse potuisse, quia lex 
+          natura<lb break="no" ed="#P" n="69"/>lis in omni tempore obligavit. Consequens 
+          au<lb break="no" ed="#P" n="70"/>tem videtur dubium, tam de tempore legis
+          <lb ed="#P" n="71"/>veteris quam naturae, et ideo de priori hie
+          <lb ed="#P" n="72"/>tractabimus, de posteriori in capite 
+          sequen<lb break="no" ed="#P" n="73"/>ti. Quod ergo in lege veteri hoc vitium non
+          <lb ed="#P" n="74"/>fuerit, ostendi potest, quia Prophetae 
+          mu<lb break="no" ed="#P" n="75"/>nus prophetandi propter pretium exercuisse
+          <lb ed="#P" n="76"/>videntur ; talem enim fuisse tunc 
+          consuetudi<lb break="no" ed="#P" n="77"/>nem, ex historia, 1 Reg. 9, colligi potest, cum
+          <lb ed="#P" n="78"/>Saul interregavit puerum: Quid feremus ad
+          <lb ed="#P" n="79"/>virum Dei ? et puer respondit: Ecce inventa
+          <lb ed="#P" n="80"/>est in manu mea quarta pars stateris argenti,
+          <lb ed="#P" n="81"/>demus homini Dei, ut indicet nobis viam 
+          nos<lb break="no" ed="#P" n="82"/>tram. Et 3 Reg. 14, Jeroboam misit uxorem
+          <lb ed="#P" n="83"/>ad Abiam Prophetam cum muneribus, ut 
+          si<lb break="no" ed="#P" n="84"/>bi indicaret quid futurum esset de filio, qui
+          <lb ed="#P" n="85"/>eegrotabat ; et 4 Reg. 8, rex Syriae misit 
+          nun<lb break="no" ed="#P" n="86"/>cium ad Eliseum cum magnis muneribus, ut
+          <lb ed="#P" n="87"/>ei praediceret an ab infirmitate sanandus 
+          es<lb break="no" ed="#P" n="88"/>set, necne. Et licet in his locis Scriptura non
+          <lb ed="#P" n="89"/>dicat, Prophetas illos recepisse pecuniam, vel
+          <lb ed="#P" n="90"/>dona, non tamen dicit ipsos illa non recepisse,
+          <lb ed="#P" n="91"/>nec dicit illos reprehendisse ferentes ea, et
+          <lb ed="#P" n="92"/>usus ille videtur ostendere, et tunc fuisse 
+          fre<lb break="no" ed="#P" n="93"/>quens, et non fuisse reputatum illicitum, vel
+          <lb ed="#P" n="94"/>infame, quale est factum simoniacum, alias
+          <lb ed="#P" n="95"/>non fuissent ausi homines tam facile invitare
+          <lb ed="#P" n="96"/>sanctos viros et insignes ad simoniam 
+          com<lb break="no" ed="#P" n="97"/>mittendam. Daniel etiam postquam somnium
+          <lb ed="#P" n="98"/>et interpretationem ejus Nabuchodonosor 
+          ape<lb break="no" ed="#P" n="99"/>ruit, praefectura, principatu et magnis 
+          mune<lb break="no" ed="#P" n="100"/>ribus donatus est, quae ron repudiavit, sed
+          <lb ed="#P" n="101"/>potius magistratum quemdam pro sociis 
+          pos<lb break="no" ed="#P" n="102"/>ulavit, ut constat Daniel. secundo. Illud 
+          au<lb break="no" ed="#P" n="103"/>tem ad vitium simoniae pertinuisset, si tune
+          <lb ed="#P" n="104"/>malum esset. Et similiter capite quinto, 
+          ma<lb break="no" ed="#P" n="105"/>gnam retributionem temporalem aceepit 
+          Da<lb break="no" ed="#P" n="106"/>niel propter alterius somnii interpretationem.
+        </p>
+        <p>
+          <lb ed="#P" n="107"/>2. Confirmatur. — Denique confirmari hoc
+          <pb ed="#P" n="643"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>potest, quia in tota lege veteri nulla fit 
+          men<lb break="no" ed="#P" n="2"/>tio prohibitionis simoniae, seu venditionis et
+          <lb ed="#P" n="3"/>emptionis spiritualium rerum; signum ergo
+          <lb ed="#P" n="4"/>est non fuisse tunc prohibitum. Nec satis est
+          <lb ed="#P" n="5"/>dicere illam fuisse prohibitam, quia maa est;
+          <lb ed="#P" n="6"/>et ideo non oportuisse legem de illa ferri.
+          <lb ed="#P" n="7"/>Nam in lege veteri illa etiam prohibebantur,
+          <lb ed="#P" n="8"/>quae per se mala erant, ut patet ex praeceptis
+          <lb ed="#P" n="9"/>Decalogi in ea scriptis. Id autem duabus ex
+          <lb ed="#P" n="10"/>causis fiebat : prima et praecipua. quia 
+          obscu<lb break="no" ed="#P" n="11"/>raia nimium erat naturalis ratio, et 
+          oporte<lb break="no" ed="#P" n="12"/>bat per legem illuminari et instrui ; altera 
+          ra<lb break="no" ed="#P" n="13"/>tio erat, ut poena pro delictis imponeretur.
+          <lb ed="#P" n="14"/>Utraque autem causa in hoc vitio maxime 
+          lo<lb break="no" ed="#P" n="15"/>cum habebat : prima quidem , quia malitia
+          <lb ed="#P" n="16"/>hujus vitii minus clara est quam multorum
+          <lb ed="#P" n="17"/>aliorum, et ideo facilius poterat ignorari ; 
+          se<lb break="no" ed="#P" n="18"/>cunda vero, quia, ut supra dicebamus, natura
+          <lb ed="#P" n="19"/>valde proclivis est ad hoc vitium, et ideo 
+          ma<lb break="no" ed="#P" n="20"/>xime debet poenis coerceri. Ergo si illo 
+          tem<lb break="no" ed="#P" n="21"/>pore esset prohibitum, debuisset in lege 
+          ex<lb break="no" ed="#P" n="22"/>plicari et puniri : hoc autem non fit ; ergo 
+          si<lb break="no" ed="#P" n="23"/>gnum est non fuisse prohibitum.
+        </p>
+        <p>
+          <lb ed="#P" n="24"/>3. Duobus modis posse hominem esse 
+          incapa<lb break="no" ed="#P" n="25"/>cem simonia. — Pro resolutione, advertendum
+          <lb ed="#P" n="26"/>est duobus modis intelligi posse hominem in
+          <lb ed="#P" n="27"/>aliquo statu hujus vitae mortalis esse 
+          incapa<lb break="no" ed="#P" n="28"/>cem simoniae. Primo, ex defectu materiae, 
+          ni<lb break="no" ed="#P" n="29"/>mirum, quia in tali statu non habet dona 
+          spi<lb break="no" ed="#P" n="30"/>ritualia quae possit emere vel vendere, nam
+          <lb ed="#P" n="31"/>ubi materia vitii deest, etiam deest 
+          possibili<lb break="no" ed="#P" n="32"/>tas, ideoque merito dicetur homo incapax 
+          si<lb break="no" ed="#P" n="33"/>moniae in tali statu. Quamvis enim interdum
+          <lb ed="#P" n="34"/>aliquis per desiderium peccet per furtum, 
+          ver<lb break="no" ed="#P" n="35"/>bi gratia , vel fornicationem , qui materiam
+          <lb ed="#P" n="36"/>peccandi non habet, quia neque occurrit 
+          ali<lb break="no" ed="#P" n="37"/>quid quod furari possit, nec cum qua possit
+          <lb ed="#P" n="38"/>fornicari , tamen ubi deesset omnino in tota
+          <lb ed="#P" n="39"/>natura, vel in tota aliqua aetate, vel statu 
+          ho<lb break="no" ed="#P" n="40"/>minum, materia alicujus vitii, nec cogitatio,
+          <lb ed="#P" n="41"/>nec desiderium talis vitii posset moraliter 
+          as<lb break="no" ed="#P" n="42"/>cendere in cor hominis, et ideo simpliciter 
+          di<lb break="no" ed="#P" n="43"/>ci potest homo incapax talis vitii in tali 
+          sta<lb break="no" ed="#P" n="44"/>tu. Secundo modo, in statu alicujus legis 
+          in<lb break="no" ed="#P" n="45"/>capax hujus vitii, si in illo haberet quidem
+          <lb ed="#P" n="46"/>propriam et veram spiritualem materiam ,
+          <lb ed="#P" n="47"/>quam facto posset emere vel vendere, non 
+          ta<lb break="no" ed="#P" n="48"/>men esset illi prohibita talis emptio vel 
+          ven<lb break="no" ed="#P" n="49"/>ditio. Hic ergo non tractamus de priori 
+          sen<lb break="no" ed="#P" n="50"/>su, quia nondum egimus distincte et ex 
+          pro<lb break="no" ed="#P" n="51"/>fesso de materia hujus vitii, et ideo sensum
+          <lb ed="#P" n="52"/>illum remittimus in caput octavum. In 
+          se<lb break="no" ed="#P" n="53"/>cundo ergo sensu ponitur quaestio. Unde, quod
+          <lb ed="#P" n="54"/>ad legem veterem spectat, supponimus in illa
+          <lb ed="#P" n="55"/>fuisse materiam aptam ad simoniam , si pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>hibitio non deerat ; nam erant spiritualia 
+          do<lb break="no" ed="#P" n="57"/>na, quae constat esse materiam simoniae, etiam
+          <lb ed="#P" n="58"/>ex his quae circa definitionem breviter 
+          dixi<lb break="no" ed="#P" n="59"/>mus Et ita solum superest quaestio, an 
+          fue<lb break="no" ed="#P" n="60"/>rit etiam prohibitio in illa lege, ut hoc vitium
+          <lb ed="#P" n="61"/>ibi committi potuerit.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>4. In lege veteri fuit prohibita simonia. —
+          <lb ed="#P" n="63"/>Dico ergo primo, simoniam repugnantem di--
+          <lb ed="#P" n="64"/>vino juri, etiam in lege veteri fuisse 
+          prohibi<lb break="no" ed="#P" n="65"/>tam , et ita hoc vitium potuisse illo tempore
+          <lb ed="#P" n="66"/>committi, et de facto fuisse commissum. Haec
+          <lb ed="#P" n="67"/>assertio communis est. Propria vero ejus ratio
+          <lb ed="#P" n="68"/>est, quia in lege veteri fuit sufficiens materia
+          <lb ed="#P" n="69"/>simoniae ; ergo et vitium esse poterat. 
+          Antece<lb break="no" ed="#P" n="70"/>dens jam declaratum est et constat, tum quia
+          <lb ed="#P" n="71"/>multae gratiae gratis datae erant tunc ejusdem
+          <lb ed="#P" n="72"/>rationis, cum his quae sunt in lege gratiae, ut
+          <lb ed="#P" n="73"/>prophetica interpretatio Scripturarum, etc.;
+          <lb ed="#P" n="74"/>tum etiam quia pontificatus, sacerdotium,
+          <lb ed="#P" n="75"/>sacrificium , sacramenta , templum, et 
+          simi<lb break="no" ed="#P" n="76"/>lia, licet essent minus perfecta, erant 
+          ta<lb break="no" ed="#P" n="77"/>men vere spiritualia, et ad divinum cultum,
+          <lb ed="#P" n="78"/>et ad spirituale bonum animarum suo modo
+          <lb ed="#P" n="79"/>ordinabantur. Consequentia vero probatur,
+          <lb ed="#P" n="80"/>quia facile poterant homines tunc vendere et
+          <lb ed="#P" n="81"/>emere illa spiritualia, quae in ea lege erant.
+          <lb ed="#P" n="82"/>Et quamvis daremus nunquam fuisse tale 
+          pec<lb break="no" ed="#P" n="83"/>catum illo in tempore commissum, vel de illo
+          <lb ed="#P" n="84"/>non satis constare ex Scriptura , parum ad
+          <lb ed="#P" n="85"/>causam referret ; satis enim est, ut ex 
+          hypo<lb break="no" ed="#P" n="86"/>thesi verum sit, quod si talis venditio aut 
+          em<lb break="no" ed="#P" n="87"/>ptio tunc facta est seu fieret, haberet 
+          mali<lb break="no" ed="#P" n="88"/>tiam ejusdem speciei, cum ea quam nunc 
+          si<lb break="no" ed="#P" n="89"/>moniam appellamus. Patet ex ratione in 
+          prin<lb break="no" ed="#P" n="90"/>cipio tacta, quia talis venditio et emptio circa
+          <lb ed="#P" n="91"/>talem materiam ex natura sua est sacrilega, et
+          <lb ed="#P" n="92"/>sanctitati materiae contraria ; ergo talis etiam
+          <lb ed="#P" n="93"/>tunc fuisset.
+        </p>
+        <p>
+          <lb ed="#P" n="94"/>5. An in facto Giezi smonia fuerit data. —
+          <lb ed="#P" n="95"/>Ad majorem autem rei claritatem, et quia 
+          de<lb break="no" ed="#P" n="96"/>serviet ad futuram doctrinam, examinanda
+          <lb ed="#P" n="97"/>sunt aliqua exempla, quae de hac simonia 
+          af<lb break="no" ed="#P" n="98"/>ferri solent. Primum et valde celebre est de
+          <lb ed="#P" n="99"/>Giezi, qui duo talenta argenti a Naaman 
+          ac<lb break="no" ed="#P" n="100"/>cepit, postquam a lepra sanatus fuit ab Eliseo,
+          <lb ed="#P" n="101"/>4 Reg. quinto. Nam ibi statim fuit punitus
+          <lb ed="#P" n="102"/>Giezi lepra propter peccatum simoniae, nam
+          <lb ed="#P" n="103"/>pro spirituali beneficio temporale pretium 
+          ac<lb break="no" ed="#P" n="104"/>cepit. Ita sentit de facto Giezi divus Thomas,
+          <lb ed="#P" n="105"/>dicto articulo primo, ad quartum. Unde ait
+          <lb ed="#P" n="106"/>eos, qui actu vendunt spiritualia, licet in 
+          in<lb break="no" ed="#P" n="107"/>tentione imitentur Simonem, in facto imitari
+          <lb ed="#P" n="108"/>Giezi, et ideo non solum simoniacos, sed etiam
+          <lb ed="#P" n="109"/>giezitas dici posse. Alensis etiam, dicta 
+          quaes<lb break="no" ed="#P" n="110"/>tione 169, memb. 1, in principio , eamdem
+          <pb ed="#P" n="644"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sententiam confirmans, ait ementes spiritualia
+          <lb ed="#P" n="2"/>proprie esse simoniacos, vendentes autem 
+          es<lb break="no" ed="#P" n="3"/>se proprie giezitas, licet jam communi usu
+          <lb ed="#P" n="4"/>omnes simoniaci dicantur. Idem sentit Hugo
+          <lb ed="#P" n="5"/>Victor,, 2 de Sacram., p. 10, cap. 2, et in hoc
+          <lb ed="#P" n="6"/>consentiunt caeteri Scholastici , et Summistae,
+          <lb ed="#P" n="7"/>ac Canonistae. Nam in cap. Sacut pro certo, de
+          <lb ed="#P" n="8"/>Simoni., de vendentibus spiritualia dicitur:
+          <lb ed="#P" n="9"/>Omnino damnentur . et cun Samone et Gien
+          <lb ed="#P" n="10"/>condemnentur. Et in cgpite Hos, 21, 1, q. 1,
+          <lb ed="#P" n="11"/>hac ratione dicit Tarasius, venditionem hanc
+          <lb ed="#P" n="12"/>et emptionem in Actibus Apostolorum et in 4
+          <lb ed="#P" n="13"/>Regum esse damnatam. Et in capit. Cito, 16,
+          <lb ed="#P" n="14"/>eadem quaest., in eodem sensu dicitur: Cito
+          <lb ed="#P" n="15"/>turpem sequitur lepra mercedem, etc., ex 
+          Am<lb break="no" ed="#P" n="16"/>brosio, lib. 4 in Lucam. Sic etiam dixit 
+          Cyril<lb break="no" ed="#P" n="17"/>lus Hierosoly mitanus, catech. 16: Cum 
+          Eli<lb break="no" ed="#P" n="18"/>seus gratis sanasset lepram Naaman . Giezi
+          <lb ed="#P" n="19"/>pretium ejus accegut , alien officii premium
+          <lb ed="#P" n="20"/>intercipiens. Et infra: FVendidisti curationem
+          <lb ed="#P" n="21"/>leprosi, et hereditans llus lepram. Implevi
+          <lb ed="#P" n="22"/>(inquit Eliseus) ego perfectionem allius , qui
+          <lb ed="#P" n="23"/>dicit mihi: Gratis accepistis, gratis date. Tu
+          <lb ed="#P" n="24"/>autem vendidisti hanc gratiam , suscipe ergo
+          <lb ed="#P" n="25"/>et pramiwmn istius venditionis. Uhi attente 
+          con<lb break="no" ed="#P" n="26"/>siderandum est quod Cyrillus ait, jam tunc
+          <lb ed="#P" n="27"/>audivisse Eliseum Christi verba, quia licet
+          <lb ed="#P" n="28"/>non audivisset ab ipso Christo, rem ipsam 
+          au<lb break="no" ed="#P" n="29"/>dierat per lumen fidei, et rectam rationem ab
+          <lb ed="#P" n="30"/>illo deductam.
+        </p>
+        <p>
+          <lb ed="#P" n="31"/>6. Objectio. — At enim dicet aliquis, licet
+          <lb ed="#P" n="32"/>in facto Giezi statim appareat gravissimum
+          <lb ed="#P" n="33"/>peecatum, et turpis avaritiae et injustitiae, ac
+          <lb ed="#P" n="34"/>plani furti ac latrocinii, non tamen ita 
+          appa<lb break="no" ed="#P" n="35"/>rere malitiam simoniae, nec ex Scriptura 
+          colli<lb break="no" ed="#P" n="36"/>gi posse ob talem malitiam esse punitum.
+          <lb ed="#P" n="37"/>Primum quidem patet, quia Giezi, nomine 
+          El<lb break="no" ed="#P" n="38"/>sei petiit quod ipse non petebat, nec acceptare
+          <lb ed="#P" n="39"/>voluerat, in quo cóntra Naaman injustitiam
+          <lb ed="#P" n="40"/>et furtum commisit; nam illum decepit, et
+          <lb ed="#P" n="41"/>per deceptionem ab eo rapuit quod alter dare
+          <lb ed="#P" n="42"/>nolebat illi : unde revera non dedit, neque
+          <lb ed="#P" n="43"/>in illum dominium transtulit, et consequenter
+          <lb ed="#P" n="44"/>nec ipse Giezi, quod acceperat, juste poterat
+          <lb ed="#P" n="45"/>retinere. Unde Chrysostomus, Enarrat. in 3
+          <lb ed="#P" n="46"/>cap. Isaiae, factum illud vocat furtum. Peccavit
+          <lb ed="#P" n="47"/>deinde gravissime contra Eliseum, nomine
+          <lb ed="#P" n="48"/>illius petendo quod ipse non petebat, et 
+          quan<lb break="no" ed="#P" n="49"/>tum in se erat, illum infamando, in quae 
+          cri<lb break="no" ed="#P" n="50"/>mina ex turpissimo avaritiae affectu inciderat.
+          <lb ed="#P" n="51"/>Et ita Chrysostomus, hom. in illum locum,
+          <lb ed="#P" n="52"/>in fin. 1 tomi, vocat saepius delictum illud
+          <lb ed="#P" n="53"/>perfidiam et mendacium : Perfidia (inquit)
+          <lb ed="#P" n="54"/>attulit penam. At vero simoniae macula, aut
+          <lb ed="#P" n="55"/>venditio rei spiritualis non ita ibi apparet ;
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nam imprimis gratia jam erat gratis facta, et
+          <lb ed="#P" n="57"/>deinde Giezi non petiit aliquid quasi debitum,
+          <lb ed="#P" n="58"/>vel quasi pretium pro sanitate restituta, sed
+          <lb ed="#P" n="59"/>petiit ex amicitia et benevolentia ; hoc autem
+          <lb ed="#P" n="60"/>modo petere aliquid ab eo cui spirituale 
+          bene<lb break="no" ed="#P" n="61"/>ficium factum vel donatum est, non est 
+          ven<lb break="no" ed="#P" n="62"/>dere gratiam jam factam, nec est simonia, ut
+          <lb ed="#P" n="63"/>constat ; ergo. Minor supponatur nunc ; infra
+          <lb ed="#P" n="64"/>enim tractanda est late: sumi vero potest ex
+          <lb ed="#P" n="65"/>cap. Quam pio, et cap. Sicut Episcopum, 1,
+          <lb ed="#P" n="66"/>quaest. 2. Major autem ex ipsa historia 
+          colli<lb break="no" ed="#P" n="67"/>gitur ; nullum enim verbum Giezi protulit,
+          <lb ed="#P" n="68"/>quod exactionem pretii aut rei debitae 
+          indi<lb break="no" ed="#P" n="69"/>caret. Et confirmatur : nam si Eliseus 
+          recepis<lb break="no" ed="#P" n="70"/>set illa dona a Naaman quando illa offerebat,
+          <lb ed="#P" n="71"/>in rigore non committeret simoniam, esto
+          <lb ed="#P" n="72"/>non tam perfecte et sapcte ageret, sicut fecit
+          <lb ed="#P" n="73"/>ilia respuendo. Probatur ex dictis juribus,
+          <lb ed="#P" n="74"/>quia gratia jam erat facta sine ullo pacto vel
+          <lb ed="#P" n="75"/>umbra illius, et donatio illa erat liberalis 
+          gra<lb break="no" ed="#P" n="76"/>titudinis, ut ostendunt verba illa : Obsecro te,
+          <lb ed="#P" n="77"/>ut accipias benedictionem a servo tuo. Unde
+          <lb ed="#P" n="78"/>Chrysostomus, in loco proxime citato, 
+          in<lb break="no" ed="#P" n="79"/>troducit Naaman dicentem : Accipe munera
+          <lb ed="#P" n="80"/>qu«ee offero, non enim pretium curationis est
+          <lb ed="#P" n="81"/>istud, mec sanitatem perceptam isto munere
+          <lb ed="#P" n="82"/>redimo ; quippe cum sanitas ista, quam erui,
+          <lb ed="#P" n="83"/>nec pretio poterit redimi, nec ullo munere 
+          in<lb break="no" ed="#P" n="84"/>veniri. Ergo nec Giezi postea commisit 
+          pro<lb break="no" ed="#P" n="85"/>priam simoniam accipiendo, etiamsi alias 
+          pec<lb break="no" ed="#P" n="86"/>caverit. Patet consequentia, quia non aliter
+          <lb ed="#P" n="87"/>petiit, quam veluti acceptando nomine Elisei
+          <lb ed="#P" n="88"/>priorem oblationem sibi factam, et ex nova 
+          oc<lb break="no" ed="#P" n="89"/>casione mutando priorem voluntatem.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>7. Abulensis sententia.— Hanc quaestionem
+          <lb ed="#P" n="91"/>tractat Abulens., 4 Reg. 5, quaest. 29, et 
+          ter<lb break="no" ed="#P" n="92"/>tio. Et in summa respondet Giezi commisisse
+          <lb ed="#P" n="93"/>simoniam, non conventionalem, ut constat,
+          <lb ed="#P" n="94"/>quia nullum pactum inter eum et Naaman
+          <lb ed="#P" n="95"/>praecessit, sed realem cum intentione 
+          simonia<lb break="no" ed="#P" n="96"/>ca, quia petiit pecuniam pro sanitate divinitus
+          <lb ed="#P" n="97"/>collata, et sub eadem intentione illam recepit.
+          <lb ed="#P" n="98"/>Nec refert ( ait) quod sanitas jam esset 
+          colla<lb break="no" ed="#P" n="99"/>ta, et non per Giezi, sed per Eliseum, quia
+          <lb ed="#P" n="100"/>simonia committi potest, si pecunia petatur
+          <lb ed="#P" n="101"/>pro spirituali jam dato, etiamsi prius gratis
+          <lb ed="#P" n="102"/>datum fuerit; quia veluti retractatur prior
+          <lb ed="#P" n="103"/>liberalis voluntas, et in onerosam seu 
+          vendi<lb break="no" ed="#P" n="104"/>bilem commutatur, quantum est ex parte sic
+          <lb ed="#P" n="105"/>petentis, quod sufficit ad simoniam mentalem
+          <lb ed="#P" n="106"/>et realem, etiamsi conventionalis non 
+          prae<lb break="no" ed="#P" n="107"/>cesserit. Quod autem Giezi non dederit 
+          sani<lb break="no" ed="#P" n="108"/>tatem, sed Eliseus, nihil refert, nam petiit
+          <lb ed="#P" n="109"/>nomine Elisei, quod perinde est. Verumtamen
+          <lb ed="#P" n="110"/>licet doctrina, quantum ad jus attinet, sit ve-
+          <pb ed="#P" n="645"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ra, supposita illa intentione quae Giezi 
+          attri<lb break="no" ed="#P" n="2"/>buitur, tamen nec illa intentio probatur, nec
+          <lb ed="#P" n="3"/>ab ipso Giezi fuit expressa, nec ex facto satis
+          <lb ed="#P" n="4"/>colligitur ; quia etiam potuit Giezi illud 
+          postu<lb break="no" ed="#P" n="5"/>lare, solum quia videbat Naaman fuisse 
+          para<lb break="no" ed="#P" n="6"/>tum ad donandum gratis et liberaliter, non
+          <lb ed="#P" n="7"/>tapquam satisfactionem et compensationem
+          <lb ed="#P" n="8"/>pro sanitate offerenda, sed supposito heneficio
+          <lb ed="#P" n="9"/>gratis accepto in significationem animi grat,
+          <lb ed="#P" n="10"/>vel ad subveniendum gratis necessitatibus 
+          Eli<lb break="no" ed="#P" n="11"/>sei, vel in religionem et obsequium veri Dei,
+          <lb ed="#P" n="12"/>quem ex beneficio recepto cognoverat. Sicut
+          <lb ed="#P" n="13"/>ergo in Naaman haec potius intentio quam alia
+          <lb ed="#P" n="14"/>praesumitur, et ideo excusatur ab omni 
+          simo<lb break="no" ed="#P" n="15"/>nia, non solum quando Eliseo obtulit 
+          pecu<lb break="no" ed="#P" n="16"/>niam, sed etiam quando dedit Giezi, quia et
+          <lb ed="#P" n="17"/>eadem pia intentione dedit, et credidit ab
+          <lb ed="#P" n="18"/>Eliseo pie etiam et honeste peti, ita etiam ex
+          <lb ed="#P" n="19"/>parte Giezi potuit factum illud fieri sine 
+          in<lb break="no" ed="#P" n="20"/>tentione simoniaca, inhaerendo, ut dixi, 
+          libe<lb break="no" ed="#P" n="21"/>ralitati Naaman, quae, licet per occasionem
+          <lb ed="#P" n="22"/>orta sit ex sanitate, non propterea erat mala
+          <lb ed="#P" n="23"/>nec simoniaca.
+        </p>
+        <p>
+          <lb ed="#P" n="24"/>8. Dici ergo imprimis posset, speculative
+          <lb ed="#P" n="25"/>loquendo, hoc non repugnare, nihilominus in
+          <lb ed="#P" n="26"/>tali persona, et cum talibus circumstantiis,
+          <lb ed="#P" n="27"/>merito praesumi simoniacam intentionem in
+          <lb ed="#P" n="28"/>tali facto. Quia quando temporalis pecunia
+          <lb ed="#P" n="29"/>statim post beneficium datum postulatur, 
+          ma<lb break="no" ed="#P" n="30"/>gna praesumptio est pro illo postulari, et non
+          <lb ed="#P" n="31"/>liberaliter peti. sed exigi ut quasi necessitate
+          <lb ed="#P" n="32"/>quadam alter dare compellatur. Et haec 
+          prae<lb break="no" ed="#P" n="33"/>sumptio major est, quando persona est iniqua,
+          <lb ed="#P" n="34"/>et in facto ipso ostendit immoderatum 
+          affec<lb break="no" ed="#P" n="35"/>tum extorquendi pecuniam, quocumque 
+          illici<lb break="no" ed="#P" n="36"/>to modo possit. Hac ergo ratione praesumitur
+          <lb ed="#P" n="37"/>simonia in Giezi, et non in Naaman. Et quod
+          <lb ed="#P" n="38"/>ad rem nostram spectat, hoc satis esse posset.
+          <lb ed="#P" n="39"/>Nam saltem Supponunt Doctores omnes factum
+          <lb ed="#P" n="40"/>Illud, etiam illo tempore et sub illa lege, fuisse
+          <lb ed="#P" n="41"/>prohibitum. Addi vero ulterius potest, factum
+          <lb ed="#P" n="42"/>illum fuisse revera simoniacum, quia omnino
+          <lb ed="#P" n="43"/>vitandum erat propter speciem simoniae, quam
+          <lb ed="#P" n="44"/>prae se ferebat. Propter quam causam 
+          proba<lb break="no" ed="#P" n="45"/>bile est ipsum Eliseum noluisse acceptare illa
+          <lb ed="#P" n="46"/>dona. non solum ex consilio, sed etiam ex
+          <lb ed="#P" n="47"/>obligatione, ne in factum, quod prae se ferebat
+          <lb ed="#P" n="48"/>I speciem simoniae, consentire videretur. Quod
+          <lb ed="#P" n="49"/>significavit Jansen., in c. 55 Concord. Evang.,
+          <lb ed="#P" n="50"/>dicens : Non conveniebat gratuita dona 
+          acci<lb break="no" ed="#P" n="51"/>pere, ne pietas converteretur in questum, et
+          <lb ed="#P" n="52"/>ae gratia Dei vilesceret. Et ita plane 
+          sente<lb break="no" ed="#P" n="53"/>bat sanctus Hilarius apud Hieronymum, in
+          <lb ed="#P" n="54"/>Vita ejus, quando Orionus nobilis, a quo
+          <lb ed="#P" n="55"/>ipse legionem daemoniorum expulerat, post
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nonnullos dies ad ipsum rediit dona 
+          offe<lb break="no" ed="#P" n="57"/>rens. Cui Sanctus : Non legisti quid Giezi,
+          <lb ed="#P" n="58"/>quid Simon passi sint, quorum alter accepit
+          <lb ed="#P" n="59"/>pretium, alter obtult, ut ille venderet gratiam
+          <lb ed="#P" n="60"/>Spiritus Sancti, hic mercaretur? Cumque
+          <lb ed="#P" n="61"/>Orionus flens diceret - Accipe et da pauperibus,
+          <lb ed="#P" n="62"/>respondit : Tu melius potes tua distribuere. Et
+          <lb ed="#P" n="63"/>subjungit inferius : Noli contristari, fili ; quod
+          <lb ed="#P" n="64"/>facio pro me, et pro te facio, si enim haec 
+          acce<lb break="no" ed="#P" n="65"/>pero, et ego offendam Dewmmn, et ad te legio 
+          re<lb break="no" ed="#P" n="66"/>certetur.
+        </p>
+        <p>
+          <lb ed="#P" n="67"/>9. Examinatur factum Balaam.— In eo non
+          <lb ed="#P" n="68"/>fuisse simoniam resolvitur.—Secundum 
+          exem<lb break="no" ed="#P" n="69"/>plum affertur de Balaam, qui prophetandi
+          <lb ed="#P" n="70"/>munus vendebat, ut ex Num. 22 colligi potest,
+          <lb ed="#P" n="71"/>nam mercede conductus ibat ab 
+          maledicen<lb break="no" ed="#P" n="72"/>dum Israel, quod notavit Hugo de S. Victor.,
+          <lb ed="#P" n="73"/>lib. 2 de Sacram., part. 10, c. 2, et Adrian.,
+          <lb ed="#P" n="74"/>Quodlib. 9, art. 2, ubi ait aliquos Doctores
+          <lb ed="#P" n="75"/>ob hanc causam vocare simoniacos Balaamitas.
+          <lb ed="#P" n="76"/>Hoc etiam exemplo utitur Victoria, dicta 
+          Re<lb break="no" ed="#P" n="77"/>lect.. num. 11, et ad hoc afferunt verba Petr.,
+          <lb ed="#P" n="78"/>2 Epist., c. 2: Derelinquentes rectam ciam,
+          <lb ed="#P" n="79"/>erraverunt, secuti viam Baalam ex Bosor, qui
+          <lb ed="#P" n="80"/>mercedem iniquitatis amavit ; et illa Judae:
+          <lb ed="#P" n="81"/>Errore balaam mercede effusi sunt. 
+          Verumta<lb break="no" ed="#P" n="82"/>men in illo facto et in his testimoniis nullum
+          <lb ed="#P" n="83"/>vestigium simoniae invenio. Nam Balaam non
+          <lb ed="#P" n="84"/>fuit vocatus ut propheta Dei. sed ut ariolus, nec
+          <lb ed="#P" n="85"/>ad veritatem aliquam revelandam, vel gratiam
+          <lb ed="#P" n="86"/>conferendam, sed ad maledicendum populo
+          <lb ed="#P" n="87"/>Dei, utendo maleficiis et invocatione 
+          daemo<lb break="no" ed="#P" n="88"/>num, qui Dii falso putabantur. Ergo non 
+          ma<lb break="no" ed="#P" n="89"/>gis fuit simoniacus, quam possint nunc 
+          simo<lb break="no" ed="#P" n="90"/>niaci dici malefici, qui operas suas ad auguria
+          <lb ed="#P" n="91"/>vel maleficia facienda turpissime vendunt.
+          <lb ed="#P" n="92"/>Fuit ergo in Balaam praeter idololatriam et
+          <lb ed="#P" n="93"/>vitium ariolandi, auri et argenti magna 
+          cu<lb break="no" ed="#P" n="94"/>piditas, et propter hanc cupiditatem, licet 
+          se<lb break="no" ed="#P" n="95"/>mel esset correptus a Deo, et prohibitus ne
+          <lb ed="#P" n="96"/>iret ad maledicendum populum, nihilominus
+          <lb ed="#P" n="97"/>iterum ire tentavit, et Deus iratus contra illum,
+          <lb ed="#P" n="98"/>eum ire permisit. Et fortasse hanc ejus 
+          cupi<lb break="no" ed="#P" n="99"/>ditatem rex Dalaac praenoverat, et ideo 
+          quam<lb break="no" ed="#P" n="100"/>vis semel repulsam ab illo passus fuerat, iterum
+          <lb ed="#P" n="101"/>eum invitavit, et majora dona promittens
+          <lb ed="#P" n="102"/>tandem eum corrupit. Haec ergo peccata ejus
+          <lb ed="#P" n="103"/>in Scriptura clare indicantur, et 
+          reprehendun<lb break="no" ed="#P" n="104"/>tur, et notantur ab Augustino, quaest. 49 in
+          <lb ed="#P" n="105"/>Num., et serm. 103 de Tempore, et ab Anast.
+          <lb ed="#P" n="106"/>Nicaen., quaest. 32. De alio autem simoniae
+          <lb ed="#P" n="107"/>vitio nullibi invenio illum reprehensum. Nam
+          <lb ed="#P" n="108"/>verba Petri et Judae valde generalia sunt.
+          <lb ed="#P" n="109"/>Amare enim mqercedem inigwtatis, de 
+          quo<lb break="no" ed="#P" n="110"/>cumque vere dicitur, qui mercede conductus
+          <pb ed="#P" n="646"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad iniqua perpetranda inducitur ; nam de
+          <lb ed="#P" n="2"/>Juda dixit idem Petrus, quod possedit agrum
+          <lb ed="#P" n="3"/>de mercede iniguitatis. Et eodem modo optime
+          <lb ed="#P" n="4"/>dicitur Balaam mercede effusus, non quia
+          <lb ed="#P" n="5"/>spiritualia vendidit, sed quia summam 
+          iniqui<lb break="no" ed="#P" n="6"/>tatem, et conatum maledicendi per falsas 
+          ar<lb break="no" ed="#P" n="7"/>tes vendidit. Ibi ergo nec invenitur simonia,
+          <lb ed="#P" n="8"/>nec reprehensio ejus; nec Abulensis, Num. 22,
+          <lb ed="#P" n="9"/>23 aut 24, illam notavit. Et alibi, 4 Regum 5,
+          <lb ed="#P" n="10"/>quaest. 35, ait, de nullo alio ante Giezi legi,
+          <lb ed="#P" n="11"/>quod fuerit simoniacus, sed illum fuisse 
+          pri<lb break="no" ed="#P" n="12"/>mum, et ideo fuisse graviter punitum, cum
+          <lb ed="#P" n="13"/>tamen praecessisset Balaam ; in illo ergo tale
+          <lb ed="#P" n="14"/>vitium non agnovit.
+        </p>
+        <p>
+          <lb ed="#P" n="15"/>10. Factum Jeroboam non fuit simoniacum.
+          <lb ed="#P" n="16"/>— Tertium exemplum adduci solet ex lib. 3
+          <lb ed="#P" n="17"/>Regum 13, ubi de Jeroboam dicitur : Fecit
+          <lb ed="#P" n="18"/>de novissimis populi sacerdotes eacelsorum ;
+          <lb ed="#P" n="19"/>quicunque volebat , implebat manum suam
+          <lb ed="#P" n="20"/>et fiebat sacerdos emcelsorum, et propter hanc
+          <lb ed="#P" n="21"/>causam peccavit domus Jeroloam, et deleta est.
+          <lb ed="#P" n="22"/>Et fortasse propter hunc locum dixit Tarasius,
+          <lb ed="#P" n="23"/>in dicto cap. Eos, simoniam esse damnatam
+          <lb ed="#P" n="24"/>in 3 Regum, sicut in 4. Estque valde 
+          consi<lb break="no" ed="#P" n="25"/>derandum, quod illi sacerdotes, quos Jeroboam
+          <lb ed="#P" n="26"/>faciebat, non erant veri sacerdotes, sed falsi,
+          <lb ed="#P" n="27"/>sacrilegi et idololatrae ; et tamen ex 
+          supposi<lb break="no" ed="#P" n="28"/>tione falsae apprehensionis et conscientiae 
+          er<lb break="no" ed="#P" n="29"/>roneae, venditio illa reprehenditur. Sed in hoc
+          <lb ed="#P" n="30"/>exemplo supponitur Jeroboam vendidisse illa
+          <lb ed="#P" n="31"/>sacerdotia, et videtur colligi ex verbis illis:
+          <lb ed="#P" n="32"/>Qui volebat, implebat manum suam, id est,
+          <lb ed="#P" n="33"/>manum Jeroboam implebat pecunia; sicque
+          <lb ed="#P" n="34"/>multos Sanctos exposuisse, refert Abulensis
+          <lb ed="#P" n="35"/>ibi, quaest. 41. Ipse vero longe alium putat
+          <lb ed="#P" n="36"/>esse sensum, quia non est sermo de manu 
+          Je<lb break="no" ed="#P" n="37"/>roboam, sed de manu sacerdotis, seu ejus qui
+          <lb ed="#P" n="38"/>volebat fieri sacerdos; dicitur autem implere
+          <lb ed="#P" n="39"/>manum, non quia pecuniam acciperet, sed
+          <lb ed="#P" n="40"/>quia consecrabat et initiabat manum suam,
+          <lb ed="#P" n="41"/>applicando illam ad sacrificia, juxta suos 
+          fal<lb break="no" ed="#P" n="42"/>sos ritus. Qui sensus mihi valde placet. Et 
+          vi<lb break="no" ed="#P" n="43"/>detur aperte declarari 2 Paralipom. 13, ubi
+          <lb ed="#P" n="44"/>Abia exprobrabat Israelitas, dicens : Hjecistis
+          <lb ed="#P" n="45"/>sacerdotes Domini, et fecistis volis sacerdotes,
+          <lb ed="#P" n="46"/>etc. ; declarans autem modum addit : 
+          Quicumn<lb break="no" ed="#P" n="47"/>que venerit, et antiaverit manum suam in 
+          tau<lb break="no" ed="#P" n="48"/>ro de bobus. et in arietibus septem, sit 
+          sacer<lb break="no" ed="#P" n="49"/>dos eorum qui non sunt Dii. Hoc ergo 
+          exem<lb break="no" ed="#P" n="50"/>plum nihil etiam probat.
+        </p>
+        <p>
+          <lb ed="#P" n="51"/>11. Jasonis factum simoniacum fuit. —
+          Quar<lb break="no" ed="#P" n="52"/>tum et certum exemplum sumitur ex seeundo
+          <lb ed="#P" n="53"/>Machab. 4, ubi refertur Jasonem ambiisse
+          <lb ed="#P" n="54"/>summum sacerdotium, et pro illo obtinendo
+          <lb ed="#P" n="55"/>cum aliis facultatibus et praerogativis, obtu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lisse regi Antiocho multa talenta argenti. Et
+          <lb ed="#P" n="57"/>deinde additur multa mala inde evenisse,
+          <lb ed="#P" n="58"/>propter impii et non sacerdotis Jasonis 
+          nefa<lb break="no" ed="#P" n="59"/>rium, et inauditum scelus. Et postea refertur
+          <lb ed="#P" n="60"/>Menelaum quemdam, aucta promissione 
+          ma<lb break="no" ed="#P" n="61"/>joris pretii, sacerdotium obtinuisse, ejecto
+          <lb ed="#P" n="62"/>Jasone. Illud autem factum sine dubio ibi 
+          nar<lb break="no" ed="#P" n="63"/>ratur ut pravum et sacrilegum, ac subinde
+          <lb ed="#P" n="64"/>ut habens veram pravitatem simoniae, et ab
+          <lb ed="#P" n="65"/>eo tempore creditur hoc vitium percrebuisse
+          <lb ed="#P" n="66"/>inter Judaeos, et usque ad Christi tempora 
+          du<lb break="no" ed="#P" n="67"/>rasse ; indeque ortum esse, ut summum 
+          sa<lb break="no" ed="#P" n="68"/>cerdotium, quod antea perpetuum erat, annale
+          <lb ed="#P" n="69"/>esse incoeperit, sicut ex Evangelio colligitur;
+          <lb ed="#P" n="70"/>nam Joann. 11 et 18, Caiphas dicitur 
+          Ponti<lb break="no" ed="#P" n="71"/>fex anni illius ; et Lucae 3, dicuntur Annas et
+          <lb ed="#P" n="72"/>Caiphas principes sacerdotum, quia alternatim
+          <lb ed="#P" n="73"/>per annos pontificatum administrabant, quem
+          <lb ed="#P" n="74"/>largitionibus a Romanis obtinuerant, ut sentit
+          <lb ed="#P" n="75"/>Abul., 4 Reg. 5, quaest. 39, ubi ait Romanos
+          <lb ed="#P" n="76"/>ob majorem quaestum fecisse, ut summum 
+          sa<lb break="no" ed="#P" n="77"/>cerdotium per annos administraretur. Quod
+          <lb ed="#P" n="78"/>colligi potest ex Joseph., libr. 18 Antiq., cap.
+          <lb ed="#P" n="79"/>3, alias 4. Quamvis enim ibi non faciat 
+          expres<lb break="no" ed="#P" n="80"/>sam mentionem venditionis pontificatus, 
+          re<lb break="no" ed="#P" n="81"/>fert tamen frequentem mutationem factam
+          <lb ed="#P" n="82"/>auctoritate Praesidum Gentilium, quam 
+          veri<lb break="no" ed="#P" n="83"/>simile est non fuisse factam sine munerum
+          <lb ed="#P" n="84"/>largitione. Unde refert Isidor. Pel., lib. ult.,
+          <lb ed="#P" n="85"/>Epist. 315, Caipham emisse pontificatum. Hllae
+          <lb ed="#P" n="86"/>vero emptiones non sine magno scelere fiebant,
+          <lb ed="#P" n="87"/>quia erant contrariae legi praecipienti, ut 
+          sum<lb break="no" ed="#P" n="88"/>mum sacerdotium in his Aaron permaneret
+          <lb ed="#P" n="89"/>jure perpetuo. Qucd autem illud peccatum
+          <lb ed="#P" n="90"/>esset etiam proprium scelus simonise, ex lege
+          <lb ed="#P" n="91"/>naturali probatur ; quomodo autem ex lege
+          <lb ed="#P" n="92"/>etiam scripta colligi possit, statim videbimus.
+          <lb ed="#P" n="93"/>12. Solvuntur objectiones supra positge. —
+          <lb ed="#P" n="94"/>Ad objectiones ergo in principiosumptas ex
+          <lb ed="#P" n="95"/>Scriptura, respondet Gratianus in cap. 
+          Judi<lb break="no" ed="#P" n="96"/>ces, 93, 1, quaesst. 1, ex Hieronymo Micheae 3,
+          <lb ed="#P" n="97"/>non sanctos, sed malos prophetas solitos fuisse
+          <lb ed="#P" n="98"/>pretium pro suo munere postulare , illosque
+          <lb ed="#P" n="99"/>valde reprehendi in eadem Scriptura, ut paulo
+          <lb ed="#P" n="100"/>post dicemus. Ad illud vero dictum Saulis, et
+          <lb ed="#P" n="101"/>pueri ejus, respondet imprimis Hieronymus,
+          <lb ed="#P" n="102"/>licet inter se ita confabulati fuerint, postea
+          <lb ed="#P" n="103"/>vero ausos non fuisse aliquid offerre prophetae;
+          <lb ed="#P" n="104"/>quin potius Samuelem liberaliter illos hospitio
+          <lb ed="#P" n="105"/>excepisse , et non solum gratis respondisse,
+          <lb ed="#P" n="106"/>sed etiam ad coenam invitasse. Deinde addit,
+          <lb ed="#P" n="107"/>etiamsi prophetae datum fuisset tale aliquid
+          <lb ed="#P" n="108"/>quale illi cogitabant, illud non potuisse ut
+          <lb ed="#P" n="109"/>pretium offerri; fuisset enim vile pretium, et
+          <lb ed="#P" n="110"/>indignum tanto propheta ; fuisset ergo per
+          <pb ed="#P" n="647"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>modum piae oblationis pro templo, ut 
+          Hiero<lb break="no" ed="#P" n="2"/>uymus ait, vel per modum stipendii, seu 
+          elee<lb break="no" ed="#P" n="3"/>mosynae sicut nunc datur sacerdoti missam
+          <lb ed="#P" n="4"/>dicenti. Simili modo respondet ibi Gratianus
+          <lb ed="#P" n="5"/>sub nomine Hieronymi , ad factum uxoris
+          <lb ed="#P" n="6"/>Jeroboam, attulisse illa muuera non in 
+          pre<lb break="no" ed="#P" n="7"/>tium, sed per modum eleemosynae, ad 
+          susten<lb break="no" ed="#P" n="8"/>tationem prophetae. Haec tamen responsio in
+          <lb ed="#P" n="9"/>Hierony mo non legitur. Quia ille absolute 
+          res<lb break="no" ed="#P" n="10"/>pondet prophetam non accepisse illa munera,
+          <lb ed="#P" n="11"/>sed potius feminam corripuisse. Et 
+          probabili<lb break="no" ed="#P" n="12"/>ter conjectat illam, ex prava consuetudine 
+          de<lb break="no" ed="#P" n="13"/>ferendi similia munera ad augures et divinos,
+          <lb ed="#P" n="14"/>cogitasse etiam sanctum Prophetam illis fuisse
+          <lb ed="#P" n="15"/>movendum ad revelandum quod illa 
+          deside<lb break="no" ed="#P" n="16"/>rabat.
+        </p>
+        <p>
+          <lb ed="#P" n="17"/>13. Daniel nullam simoniam commisit. —
+          <lb ed="#P" n="18"/>De Daniele nulla est difficultas : nam ex c. 5
+          <lb ed="#P" n="19"/>satis colligitur quam liberum haberet animum
+          <lb ed="#P" n="20"/>ab his muneribus et honoribus humanis: nam
+          <lb ed="#P" n="21"/>regi Balthasar multa offerenti respondit : 
+          Mu<lb break="no" ed="#P" n="22"/>nera tua sint tibi, et dona domus tuee alteri da;
+          <lb ed="#P" n="23"/>Scripturam autem legam tibi, rex, et 
+          interpre<lb break="no" ed="#P" n="24"/>tationem ejus ostendam. Et nihilominus, 
+          ju<lb break="no" ed="#P" n="25"/>bente rege, post auditam interpretationem,
+          <lb ed="#P" n="26"/>dndutus est Daniel purpura, et circumdata est
+          <lb ed="#P" n="27"/>torgues aurea collo ejus, et predicatum est de
+          <lb ed="#P" n="28"/>eo quiod haberet potestatem tertius in regno suo.
+          <lb ed="#P" n="29"/>Aliud est ergo dona recipere quasi in pretium
+          <lb ed="#P" n="30"/>vel commutationem prophetiae, quod Daniel
+          <lb ed="#P" n="31"/>non fecit ; aliud propter magnam personae
+          <lb ed="#P" n="32"/>existimationem et admirationem conceptam
+          <lb ed="#P" n="33"/>ex sapientia , et responsis ejus, elevari quasi
+          <lb ed="#P" n="34"/>per potentiam regiam ad excellentem 
+          digni<lb break="no" ed="#P" n="35"/>tatis gradum, cum muneribus et honoribus
+          <lb ed="#P" n="36"/>illi convenientibus, quod Danieli contigit. 
+          si<lb break="no" ed="#P" n="37"/>eut de Joseph postea videbimus. Eodenr ergo
+          <lb ed="#P" n="38"/>modo accipienda sunt quae cap. 2 narrantur;
+          <lb ed="#P" n="39"/>ibi enim nulla promissio donorum ex parte
+          <lb ed="#P" n="40"/>regis praecessit. et ideo nec ex parte Danielis
+          <lb ed="#P" n="41"/>potuit refutatio illorum praecedere ; ita tamen
+          <lb ed="#P" n="42"/>locutus est, ut nihil sibi attribueret, et 
+          conse<lb break="no" ed="#P" n="43"/>quenter ut nihil etiam sibi appeteret, dicens:
+          <lb ed="#P" n="44"/>Est Deus iu celo revelans mysteria, qui 
+          indi<lb break="no" ed="#P" n="45"/>cavit tibi, rer, qua ventura sunt, etc.; et iufra:
+          <lb ed="#P" n="46"/>Mihi, non in sapientia quae est in me pus
+          <lb ed="#P" n="47"/>quam in cunctis viventibus , sacramentum hoc
+          <lb ed="#P" n="48"/>revelatum est , sed ut interpretatio regi 
+          mani<lb break="no" ed="#P" n="49"/>fosta fieret. Quibus verbis satis ostendit ad
+          <lb ed="#P" n="50"/>hoc sibi fuisse datam illam cognitionem, ut
+          <lb ed="#P" n="51"/>eam revelaret, et nihil aliud in eo facto 
+          quae<lb break="no" ed="#P" n="52"/>sisse , nisi divinam voluntatem implere. 
+          Pos<lb break="no" ed="#P" n="53"/>lea vero rex non quasi recompensans 
+          benefi<lb break="no" ed="#P" n="54"/>cium, sed ex cognitione veri Dei concepta, et
+          <lb ed="#P" n="55"/>admiratione personae, Danielem sublimavit at-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>que ditavit. Quod sicut non fiebat sine speciali
+          <lb ed="#P" n="57"/>Dei providentia, ita etiam verisimile est vel
+          <lb ed="#P" n="58"/>fuisse factum a rege cum tanto imperio et 
+          po<lb break="no" ed="#P" n="59"/>tentia, ut Daniel resistere non potuerit, vel
+          <lb ed="#P" n="60"/>certe Danielem ex divina inspiratione 
+          intel<lb break="no" ed="#P" n="61"/>lexisse id tunc fuisse conveniens ad Dei 
+          glo<lb break="no" ed="#P" n="62"/>riam, et sui populi consolationem et levamen;
+          <lb ed="#P" n="63"/>et ex eodem principio existimo ortum fuisse ,
+          <lb ed="#P" n="64"/>ut Daniel pro tribus sociis apud regem 
+          inter<lb break="no" ed="#P" n="65"/>cesserit. Quae omnia consona sunt his quae
+          <lb ed="#P" n="66"/>D. Hieronymus ibi contra Porphyrii calumnias
+          <lb ed="#P" n="67"/>commentatus est.
+        </p>
+        <p>
+          <lb ed="#P" n="68"/>14. In lege veteri satis hoc vitium fuisse
+          <lb ed="#P" n="69"/>prolibitum.—Ad rationem, imprimis dicimus,
+          <lb ed="#P" n="70"/>vitium hoc sufficienter fuisse in lege 
+          prohibi<lb break="no" ed="#P" n="71"/>tum , cum Exod. 23 dicatur : Non accipietis
+          <lb ed="#P" n="72"/>munera qua escecant etiam prudentes , et
+          <lb ed="#P" n="73"/>subvertunt verba justorum. Deinde cum Deus
+          <lb ed="#P" n="74"/>in illa lege tam copiose providerit, ac 
+          deputa<lb break="no" ed="#P" n="75"/>verit bona ex quibus sacerdotes vivere 
+          debe<lb break="no" ed="#P" n="76"/>rent, ut decimas, primitias, et alias oblationes
+          <lb ed="#P" n="77"/>et sacrificia, satis hoc praecepit eis, ut sine
+          <lb ed="#P" n="78"/>pretio et mercede spiritualia ministrarent ;
+          <lb ed="#P" n="79"/>imo virtute illis prohibitum erat, ut nec alia,
+          <lb ed="#P" n="80"/>neque aliter exigerent, quam per legem 
+          insti<lb break="no" ed="#P" n="81"/>tutum erat. Et ideo, 1 Reg. 2, gravissime 
+          re<lb break="no" ed="#P" n="82"/>prehenduntur filii Heli, quia venientes ad 
+          sa<lb break="no" ed="#P" n="83"/>crificandum in templo, cogebant carnem 
+          cru<lb break="no" ed="#P" n="84"/>dam dare, vel aliter quam lex disponebat. Et
+          <lb ed="#P" n="85"/>Christus, Matth. 15, reprehendit Seribas et
+          <lb ed="#P" n="86"/>Pharisaeos, eo quod munera acciperent, et 
+          ap<lb break="no" ed="#P" n="87"/>probarent, per traditionem hominum, contra
+          <lb ed="#P" n="88"/>legis mandatum. Denique hac de causa 
+          gra<lb break="no" ed="#P" n="89"/>vissime reprehenditur hoc vitium in illa lege
+          <lb ed="#P" n="90"/>per prophetas, Michaeae 3, ubi prius ad 
+          princi<lb break="no" ed="#P" n="91"/>pes et duces populi (sub quibus etiam sine 
+          du<lb break="no" ed="#P" n="92"/>bio sacerdotes comprehenduntur) dicitur
+          <lb ed="#P" n="93"/>Qui comederunt carnem poguli mei, et pellem
+          <lb ed="#P" n="94"/>eorum desuper excoriaverunt, tunc clamabunt
+          <lb ed="#P" n="95"/>ad Dominum, et non exaudiet eos, etc. Quibus
+          <lb ed="#P" n="96"/>verbis exactiones iniquae judicum, et 
+          sacerdo<lb break="no" ed="#P" n="97"/>tum reprehenduntur. Quod bene Chaldaeus
+          <lb ed="#P" n="98"/>sine figura dixit : Violenter facultates populi
+          <lb ed="#P" n="99"/>ab eo rapientes , et pecunias eorum tollentes ,
+          <lb ed="#P" n="100"/>ut ibi Bibera notavit, afferens similia loca
+          <lb ed="#P" n="101"/>Ezech. 34, Jerem. 23, Zach. 11, quae de 
+          sacer<lb break="no" ed="#P" n="102"/>dotibus loquuntur ; in his ergo 
+          reprehensioni<lb break="no" ed="#P" n="103"/>bus a fortiori simonia comprehenditur. Et
+          <lb ed="#P" n="104"/>clarissime in eodem loco Michaeae de 
+          Prophe<lb break="no" ed="#P" n="105"/>tis additur : S1 quis non dederit in ore eorum
+          <lb ed="#P" n="106"/>quippiam, sanctificant super eum praluum ; ct
+          <lb ed="#P" n="107"/>infra : Principes ejus in muneribus judicabant,
+          <lb ed="#P" n="108"/>et sacerdotes ejus in mercede docebant , et 
+          pro<lb break="no" ed="#P" n="109"/>phete ejus in pecunia divinabant. Ac denique,
+          <lb ed="#P" n="110"/>kzech. 22 Prophetae reprehenduntur , eo quod
+          <pb ed="#P" n="648"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>opes ei pretium acceperunt. Satis ergo constat
+          <lb ed="#P" n="2"/>quam fuerit detestabile hoc vitium in illa
+          <lb ed="#P" n="3"/>lege ; et quo minus expresse in illa lege 
+          prohi<lb break="no" ed="#P" n="4"/>bebatur, eo evidentius constat, quam fuerit
+          <lb ed="#P" n="5"/>divino ac naturali juri contrarium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

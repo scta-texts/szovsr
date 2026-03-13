@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="10"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k00209"><!-- t1-l1c4 -->
+        <head>Caput 4</head>
+        <head type="question-title">Sitne deus solus objectum cui virtutis religionis ?</head>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>CAPUT IV.
+          <lb ed="#P" n="57"/>SITNE DEUS SOLUS OBJECTUM CUI VIRTUTIS 
+          RELI<lb break="no" ed="#P" n="58"/>GIONIS ?
+        </p>
+        <p>
+          <lb ed="#P" n="59"/>1. Ut Deus sit adequatum objectum cui 
+          re<lb break="no" ed="#P" n="60"/>ligionis, tria requiruntur. — Diximus Deum
+          <lb ed="#P" n="61"/>esse objectum religionis ; jam exponere 
+          opor<lb break="no" ed="#P" n="62"/>tet an in ea ratione adaequatum sit. Dico 
+          au<lb break="no" ed="#P" n="63"/>tem in ea ratione , quia, comparatione ad
+          <lb ed="#P" n="64"/>objectum quod, seu materiam ejusdem 
+          virtu<lb break="no" ed="#P" n="65"/>üis, constat uon esse adaequatum objectum:
+          <lb ed="#P" n="66"/>nam praeter illud necessaria est alia materia,
+          <lb ed="#P" n="67"/>circa quam proxime versatur talis virtus, quae
+          <lb ed="#P" n="68"/>materia objectum sine dubio est, seu quasi
+          <lb ed="#P" n="69"/>pars objecti, licet suo modo ad actiones 
+          ex<lb break="no" ed="#P" n="70"/>ternas ejusdem virtutis pertineat, ut postea
+          <lb ed="#P" n="71"/>dicemus. Ut autem Deus priori modo sit 
+          ob<lb break="no" ed="#P" n="72"/>jectum adaequatum hujus virtutis, tria 
+          neces<lb break="no" ed="#P" n="73"/>saria videntur. Primo, ut semper sit objectum
+          <lb ed="#P" n="74"/>cui, et nunquam sit objectum god religionis.
+          <lb ed="#P" n="75"/>Secundum, ut religio solum Deum hoc modo
+          <lb ed="#P" n="76"/>attingat, et nullam aliam rem vel personam
+          <lb ed="#P" n="77"/>attingat, ut objectum cui. Tertium, ut Deus
+          <lb ed="#P" n="78"/>ad nullam virtutem, praeterquam ad 
+          religio<lb break="no" ed="#P" n="79"/>nem, pertinere possit, ut objectum cui. Atque
+          <lb ed="#P" n="80"/>haec tria breviter a nobis explicanda sunt,
+          <lb ed="#P" n="81"/>quia revera sunt necessaria ad perfectam, et
+          <lb ed="#P" n="82"/>(ut sic dicam) convertibilem adaequationem,
+          <lb ed="#P" n="83"/>et multum conferre possunt ad naturam et
+          <lb ed="#P" n="84"/>excellentiam hujus virtutis explicandam.
+        </p>
+        <p>
+          <lb ed="#P" n="85"/>2. Circa primum difficultas est, quia, licet
+          <lb ed="#P" n="86"/>constet religionem per plures actus suos 
+          tan<lb break="no" ed="#P" n="87"/>tum attingere Deum ut objectum cu, tamen
+          <lb ed="#P" n="88"/>per aliquos videtur immediatius attingere
+          <lb ed="#P" n="89"/>Deum ut objectum quod. At si hoc verum est,
+          <lb ed="#P" n="90"/>non minus dicendus est Deus proximum et
+          <lb ed="#P" n="91"/>immediatum objectum gnuod religionis, quam
+          <lb ed="#P" n="92"/>charitatis et fidei. Quia etiam hae virtutes non
+          <lb ed="#P" n="93"/>omnibus actibus suis proxime attingunt Deum,
+          <lb ed="#P" n="94"/>ut objectum quod, sed per multos versantur
+          <lb ed="#P" n="95"/>immediate circa res alias, ut patet in amore
+          <lb ed="#P" n="96"/>proximi, et in actu credendi Virginis 
+          integri<lb break="no" ed="#P" n="97"/>tatem. Assumptum ergo probatur, quia oratio
+          <lb ed="#P" n="98"/>est actus virtutis religionis, ut infra 
+          videbi<lb break="no" ed="#P" n="99"/>mus. Oratio autem immediate attingit Deum,
+          <lb ed="#P" n="100"/>ut objectum quod ; oramus enim Deum sicut
+          <lb ed="#P" n="101"/>amamus Deum, et petimus a Deo sicut 
+          spera<lb break="no" ed="#P" n="102"/>mus in Deo.
+        </p>
+        <p>
+          <lb ed="#P" n="103"/>3. Dicet aliquis semper proximam et 
+          di<lb break="no" ed="#P" n="104"/>rectam materiam orationis esse aliud a Deo,
+          <lb ed="#P" n="105"/>rem nimirum illam, quam postulamus ; 
+          per<lb break="no" ed="#P" n="106"/>sonam autem, a qua postulamus, semper se
+          <lb ed="#P" n="107"/>habere ut objectum cui, quia indirecte et per
+          <pb ed="#P" n="11"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aliud attingitur, scilicet, per petendi actum.
+          <lb ed="#P" n="2"/>Sed contra hoc insto, quia non solum petimus
+          <lb ed="#P" n="3"/>a Deo res alias, sed etiam Deum ipsum:: sic
+          <lb ed="#P" n="4"/>enim interrogatus D. Thomas: Quam 
+          merce<lb break="no" ed="#P" n="5"/>dem accipies ? respondit : Domine, non aliam,
+          <lb ed="#P" n="6"/>nisi teipsum. Sicut ergo haec merces 
+          deside<lb break="no" ed="#P" n="7"/>rari potest et sperari, ita etiam postulari;
+          <lb ed="#P" n="8"/>ergo talis oratio omnino habet pro materia
+          <lb ed="#P" n="9"/>proxima directa et indirecta Deum, quia 
+          pe<lb break="no" ed="#P" n="10"/>tit Deum a Deo. lItem dantur justis non 
+          tan<lb break="no" ed="#P" n="11"/>tum Spiritus Sancti dona, sed etiam persona
+          <lb ed="#P" n="12"/>ipsa Spiritus Sancti; ergo etiam perscna ipsa
+          <lb ed="#P" n="13"/>postulari potest. Hoc ergo satis erit ut dicatur
+          <lb ed="#P" n="14"/>Deus objectum proximum et directum 
+          reli<lb break="no" ed="#P" n="15"/>gionis, sicut ob similem causam est objectum
+          <lb ed="#P" n="16"/>spei, quia Deum a Deo speramus, quamvis
+          <lb ed="#P" n="17"/>res alias ab ipso speremus.
+        </p>
+        <p>
+          <lb ed="#P" n="18"/>4. Religionis virtus nunquam Deum 
+          attin<lb break="no" ed="#P" n="19"/>git, ut objectum quod, sed ut objectum cui. —
+          <lb ed="#P" n="20"/>Nihilominus dicendum est, virtutem 
+          religio<lb break="no" ed="#P" n="21"/>nis nunquam attingere Deum, ut objectum
+          <lb ed="#P" n="22"/>quod, sed tantum ut cui. Quod facile 
+          probabi<lb break="no" ed="#P" n="23"/>tur, et solvetur difficultas proposita, si 
+          ad<lb break="no" ed="#P" n="24"/>vertamus sermonem esse de objecto virtutis,
+          <lb ed="#P" n="25"/>quantum ad proprium et internum actum 
+          im<lb break="no" ed="#P" n="26"/>mediate ab ipsa elicitum. Illud enim 
+          obje<lb break="no" ed="#P" n="27"/>ctum, quod per talem actum directe et 
+          imme<lb break="no" ed="#P" n="28"/>diate attingitur, dicitur esse objectum 
+          proxi<lb break="no" ed="#P" n="29"/>mum ejusdem virtutis cum eadem 
+          propor<lb break="no" ed="#P" n="30"/>tione. Et respectu talis actus, satis quidem
+          <lb ed="#P" n="31"/>esse quod virtus per unum actum immediate
+          <lb ed="#P" n="32"/>et directe attingat aliquod objectum, ut illud
+          <lb ed="#P" n="33"/>dicatur esse proximum et directum objectum
+          <lb ed="#P" n="34"/>quod talis virtutis, sive sit adaequatum, sive
+          <lb ed="#P" n="35"/>principale, hoc enim convincunt exempla 
+          ad<lb break="no" ed="#P" n="36"/>ducta de fide et charitate. Ratio vero est,
+          <lb ed="#P" n="37"/>quia illud, in quo virtus versatur, vere 
+          dici<lb break="no" ed="#P" n="38"/>tur objectum ejus; ergo etiam illo modo quo
+          <lb ed="#P" n="39"/>circa illud versatur.
+        </p>
+        <p>
+          <lb ed="#P" n="40"/>5. Negandum vero est habere religionem
+          <lb ed="#P" n="41"/>aliquem talem actum, quo circa Deum ita
+          <lb ed="#P" n="42"/>versetur ; nam petitio, de qua difficultas 
+          pro<lb break="no" ed="#P" n="43"/>cedebat, non est hoc modo proprius et 
+          in<lb break="no" ed="#P" n="44"/>ternus actus religionis. Aliud enim est velle
+          <lb ed="#P" n="45"/>petere, aliud petere, sicut aliud est honorare,
+          <lb ed="#P" n="46"/>aliud velle honorare; velle ergo petere est
+          <lb ed="#P" n="47"/>actus internus immediate elicitus a virtute
+          <lb ed="#P" n="48"/>religionis, qui non attingit Deum, nisi media
+          <lb ed="#P" n="49"/>petitione; sicut voluntas credendi Deum, et
+          <lb ed="#P" n="50"/>Deo, directe et immediate non attingit Deum,
+          <lb ed="#P" n="51"/>sed credulitatem Dei. Ob hanc ergo causam
+          <lb ed="#P" n="52"/>ipsa religionis virtus directe et immediate
+          <lb ed="#P" n="53"/>non attingit Deum per talem actum, quia,
+          <lb ed="#P" n="54"/>cum ipsa sit virtus voluntatis, immediatus
+          <lb ed="#P" n="55"/>actus ejus est velle; non vult autem directe
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Deum, hoc enim ad charitatem, vel spem
+          <lb ed="#P" n="57"/>spectat, sed vult petere Deum, vel a Deo;
+          <lb ed="#P" n="58"/>ergo inter immediatum actum ejus et Deum
+          <lb ed="#P" n="59"/>interponitur petitio, ratione cujus non 
+          omni<lb break="no" ed="#P" n="60"/>no proxime et directe attingit Deum, vel circa
+          <lb ed="#P" n="61"/>illum versatur.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>6. Statim vero oriebatur difficultas, 
+          quae<lb break="no" ed="#P" n="63"/>nam virtus sit ad quam pertineat elicere 
+          ac<lb break="no" ed="#P" n="64"/>tum petitionis Dei, et quomodo illa respiciat
+          <lb ed="#P" n="65"/>Deum ut objectum proximum et 
+          immedia<lb break="no" ed="#P" n="66"/>tum; sed hoc melius infra dicetur, 
+          dispu<lb break="no" ed="#P" n="67"/>tando de oratione. Nunc solum addo, in 
+          ipsa<lb break="no" ed="#P" n="68"/>met petitione Dei, seu a Deo, duos respectus
+          <lb ed="#P" n="69"/>seu rationes posse considerari. Prior est,
+          <lb ed="#P" n="70"/>quatenus illa petitio cedit in bonum et 
+          com<lb break="no" ed="#P" n="71"/>modum petentis, et ut sic non pertinet ad
+          <lb ed="#P" n="72"/>religionem, ut per se constat, quia religio ad
+          <lb ed="#P" n="73"/>alterum tendit, eique debitum reddit. 
+          Poste<lb break="no" ed="#P" n="74"/>rior est, quatenus ipsa petitio est quidam
+          <lb ed="#P" n="75"/>cultus, et honor ejus, a quo aliquid 
+          postula<lb break="no" ed="#P" n="76"/>tur, et ut sic pertinet ad religionem. Constat
+          <lb ed="#P" n="77"/>autem sub hac ratione Deum non 
+          conside<lb break="no" ed="#P" n="78"/>rari, nisi ut personam cui honor defertur;
+          <lb ed="#P" n="79"/>ideoque non comparari ad religionem, ut 
+          ob<lb break="no" ed="#P" n="80"/>jectum quod, seu directum, sed ut objectum
+          <lb ed="#P" n="81"/>cui religio vult talem honorem deferre.
+        </p>
+        <p>
+          <lb ed="#P" n="82"/>7. Circa secundum punctum, ratio 
+          dubi<lb break="no" ed="#P" n="83"/>tandi est, quia videtur religio habere plures
+          <lb ed="#P" n="84"/>actus, qui non habent Deum pro objecto cui,
+          <lb ed="#P" n="85"/>sed alias personas, vel res; ac proinde non
+          <lb ed="#P" n="86"/>esse Deum sub ea ratione objectum 
+          adaequa<lb break="no" ed="#P" n="87"/>tum. Assumptum probatur in actu adorandi
+          <lb ed="#P" n="88"/>sanctos viros, qui videtur ad officium hujus
+          <lb ed="#P" n="89"/>virtutis pertinere, idemque est de actu 
+          vene<lb break="no" ed="#P" n="90"/>randi res sacras, ut imagines, calicem et
+          <lb ed="#P" n="91"/>similia ; nam hic actus non attingit talem 
+          ma<lb break="no" ed="#P" n="92"/>teriam, ut objectum quod, sed cui, Deumque
+          <lb ed="#P" n="93"/>non proxime attingit, sed remote, quatenus
+          <lb ed="#P" n="94"/>propter ipsum haec omnia in veneratione 
+          ha<lb break="no" ed="#P" n="95"/>bentur.
+        </p>
+        <p>
+          <lb ed="#P" n="96"/>8. Religio ita Deum attingit ut objectum
+          <lb ed="#P" n="97"/>cui, ut nihil aliud sub eadem objecti ratione
+          <lb ed="#P" n="98"/>respiciat.—Nihilominus dicendum est Deum,
+          <lb ed="#P" n="99"/>etiam quoad hanc partem, esse objectum
+          <lb ed="#P" n="100"/>adaequatum cui religionis. Quia nimirum
+          <lb ed="#P" n="101"/>nullum habet actum externum proprium,
+          <lb ed="#P" n="102"/>quo non attingat Deum illo modo. Ut autem
+          <lb ed="#P" n="103"/>hoc probetur, et solvatur difficultas 
+          propo<lb break="no" ed="#P" n="104"/>sita, advertendum est non omnem actum
+          <lb ed="#P" n="105"/>hujusmodi attingere Deum eodem modo.
+          <lb ed="#P" n="106"/>sunt enim quidam actus primarii, quibus 
+          co<lb break="no" ed="#P" n="107"/>litur Deus in seipso, ut sacrificium, et 
+          simi<lb break="no" ed="#P" n="108"/>les; et hi proxime tendunt in Deum ipsum,
+          <lb ed="#P" n="109"/>in quem explicite diriguntur per 
+          intentio<lb break="no" ed="#P" n="110"/>nem colentis Deum. Alii vero sunt actus se-
+          <pb ed="#P" n="12"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cundarii, quibus colitur Deus non in se, sed
+          <lb ed="#P" n="2"/>in alio, ut in imagine, vel in re sacra, 
+          quan<lb break="no" ed="#P" n="3"/>do illa sumitur ut tota materia proxima 
+          ado<lb break="no" ed="#P" n="4"/>rationis. Quia vero talis res non propter se
+          <lb ed="#P" n="5"/>adoratur, sed propter habitudinem aliquam,
+          <lb ed="#P" n="6"/>vel conjunctionem quam habet cum Deo,
+          <lb ed="#P" n="7"/>ipse Deus attingitur per talem actum, 
+          tan<lb break="no" ed="#P" n="8"/>quam ratio adorandi. Hoc autem satis est ut
+          <lb ed="#P" n="9"/>talis actus, ex vi talis virtutis, in Deum 
+          ten<lb break="no" ed="#P" n="10"/>dat, quia licet expressa intentione tunc non
+          <lb ed="#P" n="11"/>dirigatur talis actus colendi in Deum ut in
+          <lb ed="#P" n="12"/>rem adoratam, implicite tamen et virtute ad
+          <lb ed="#P" n="13"/>eum refertur.
+        </p>
+        <p>
+          <lb ed="#P" n="14"/>9. Cum ergo dicitur Deus esse dicto 
+          mo<lb break="no" ed="#P" n="15"/>do adaequatum objectum religionis , seu
+          <lb ed="#P" n="16"/>( quod perinde est) religionem circa solius
+          <lb ed="#P" n="17"/>Dei cultum versari, intelligendum est 
+          abs<lb break="no" ed="#P" n="18"/>tracte, ita ut quilibet illorum modorum 
+          suf<lb break="no" ed="#P" n="19"/>ficiat, ut religio secundum totam latitudinem
+          <lb ed="#P" n="20"/>suorum actuum sic operetur. Quod clarius
+          <lb ed="#P" n="21"/>constabit, explicando ipsos actus religionis et
+          <lb ed="#P" n="22"/>in genere et in specie. Et multa, qua huc
+          <lb ed="#P" n="23"/>spectant, attigimus in 1 tomo, 3 p., disp. 54,
+          <lb ed="#P" n="24"/>sect. 5bet 6; et 3 tomo, d. 81, sect. 8. Actus
+          <lb ed="#P" n="25"/>ergo, quibus colimus Sanctos gloriosos, si
+          <lb ed="#P" n="26"/>in eis sistant, ut in re per se adorata propter
+          <lb ed="#P" n="27"/>propriam excellentiam, non sunt actus hujus
+          <lb ed="#P" n="28"/>virtutis religionis, de qua tractamus, et ita
+          <lb ed="#P" n="29"/>non potest ab illis sumi argumentum ; si vero
+          <lb ed="#P" n="30"/>solum considerentur Sancti ut templa Dei,
+          <lb ed="#P" n="31"/>in eisque colatur Deus quoquo modo, ex vi
+          <lb ed="#P" n="32"/>talis actus, jam Deus ipse erit etiam 
+          objec<lb break="no" ed="#P" n="33"/>tum caui ejusdem actus. Sancti vero per illos
+          <lb ed="#P" n="34"/>non coluntur, nisi in quantum aliquo modo
+          <lb ed="#P" n="35"/>sunt unum cum ipso Deo. Idemque est,
+          <lb ed="#P" n="36"/>quoad hanc partem, de quibusvis rebus 
+          sa<lb break="no" ed="#P" n="37"/>cris, qua ob habitudinem aliquam 
+          immedia<lb break="no" ed="#P" n="38"/>tam ad Deum adorantur. Atque ita semper
+          <lb ed="#P" n="39"/>Deus ingreditur in objecto cui hujus virtutis,
+          <lb ed="#P" n="40"/>quoad omnes actus illius.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

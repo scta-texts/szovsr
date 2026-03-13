@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 61</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 61</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1013"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k25384"><!-- t3-l4c61 -->
+        <head>Caput 61</head>
+        <head type="question-title">De dispensatione circa simoniam.</head>
+        <p>
+          <lb ed="#P" n="47"/>CAPUT LXI.
+          <lb ed="#P" n="48"/>DE DISPENSATIONE CIRCA SIMONIAM.
+        </p>
+        <p>
+          <lb ed="#P" n="49"/>1. Prima assertio. — Duobus modis 
+          intelli<lb break="no" ed="#P" n="50"/>gi potest quod dispensatio cadat in simoniam,
+          <lb ed="#P" n="51"/>scilicet, vel quoad culpam, vel quoad poenam.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>De priori genere dispensationis nihil fere 
+          di<lb break="no" ed="#P" n="53"/>cere necesse est; nam si sit sermo de simonia
+          <lb ed="#P" n="54"/>contra jus naturale, manifestum est non esse
+          <lb ed="#P" n="55"/>capacem dispensationis humanae ; nam de 
+          di<lb break="no" ed="#P" n="56"/>vina, alia speculatio est, quam in superioribus
+          <lb ed="#P" n="57"/>sufficienter tetigimus. Si vero sit sermo de
+          <lb ed="#P" n="58"/>simonia lege tantum ecclesiastica prohibita,
+          <lb ed="#P" n="59"/>duo breviter dicenda sunt. Unum est, nullum
+          <lb ed="#P" n="60"/>praelatum Ecclesiae infra Summum Pontificem
+          <lb ed="#P" n="61"/>posse in illa dispensare, quia omnis simonia
+          <lb ed="#P" n="62"/>hujusmodi per ipsos Pontifices prohibita est ;
+          <lb ed="#P" n="63"/>nullus autem inferior potest in lege 
+          superio<lb break="no" ed="#P" n="64"/>ris dispensare, nisi forte ex commissione 
+          ejus<lb break="no" ed="#P" n="65"/>dem superioris, vel expressa, quae in hac 
+          ma<lb break="no" ed="#P" n="66"/>teria data non legitur; vel tacita, seu 
+          inter<lb break="no" ed="#P" n="67"/>pretativa, quae ex gravi aliqua necessitate oriri
+          <lb ed="#P" n="68"/>solet; nam haec etiam in praesenti materia
+          <lb ed="#P" n="69"/>locum habere non potest ; nam est valde 
+          odio<lb break="no" ed="#P" n="70"/>sa, et vix potest cogitari utilitas talis 
+          dispen<lb break="no" ed="#P" n="71"/>sationis, nedum necessitas, ut in sequenti 
+          as<lb break="no" ed="#P" n="72"/>sertione magis declarabitur.
+        </p>
+        <p>
+          <lb ed="#P" n="73"/>2. Secundo, dico Pontificem Summum in
+          <lb ed="#P" n="74"/>rigore posse in hoc genere simonioe dispensare,
+          <lb ed="#P" n="75"/>nunquam tamen id facere, moraliter loquendo.
+          <lb ed="#P" n="76"/>Prior pars probatur, quia Pontifex potest 
+          dis<lb break="no" ed="#P" n="77"/>pensare in ecclesiasticis legibus; ergo potest
+          <lb ed="#P" n="78"/>dispensare in hac prohibitione; ergo potest
+          <lb ed="#P" n="79"/>dispensare in hac simonia quoad culpam. Non
+          <lb ed="#P" n="80"/>quidem faciendo ut maneat simonia, et non
+          <lb ed="#P" n="81"/>sit culpa; hoc enim repugnat, quia simonia ex
+          <lb ed="#P" n="82"/>proprio conceptu significat rem inordinatam,
+          <lb ed="#P" n="83"/>et malam ; sed faciendo ut emptio, vel 
+          ven<lb break="no" ed="#P" n="84"/>ditio, quae obligante lege esset simoniaca,
+          <lb ed="#P" n="85"/>ablata obligatione non sit. Unde hie etiam 
+          ha<lb break="no" ed="#P" n="86"/>bet locum generalis regula de legibus 
+          huma<lb break="no" ed="#P" n="87"/>nis; quia, licet talis dispensatio concederetur
+          <lb ed="#P" n="88"/>sine rationabili causa, et fortasse cum culpa
+          <lb ed="#P" n="89"/>dispensantis, nihilominus esset valida, et 
+          suf<lb break="no" ed="#P" n="90"/>ficiens ad excusandam culpam simonise, 
+          quid<lb break="no" ed="#P" n="91"/>quid de alia sit. Addidi vero in posteriori parte
+          <lb ed="#P" n="92"/>assertionis, Pontifices non solere has 
+          dispensa<lb break="no" ed="#P" n="93"/>tiones facere, quia sibi non sunt neceessariae, et
+          <lb ed="#P" n="94"/>aliis vel Ecclesiae non possunt esse utiles, seu
+          <lb ed="#P" n="95"/>convenientes. Dico autem illis non esse 
+          neces<lb break="no" ed="#P" n="96"/>sarias, quia quando expedit dare vel accipere
+          <lb ed="#P" n="97"/>temporalia pro spiritualibus non est necesse
+          <lb ed="#P" n="98"/>id fieri per modum pretii, nec unum pro alio
+          <lb ed="#P" n="99"/>commutando, sed alio superiori providentiae
+          <lb ed="#P" n="100"/>genere, unum auferre, et aliud dare ad 
+          sus<lb break="no" ed="#P" n="101"/>tentationem personse, vel ex alia simili causa.
+          <lb ed="#P" n="102"/>Quando vero necesse est permutauones inter
+          <lb ed="#P" n="103"/>spiritualia facere vel permittere, id ex 
+          ordi<lb break="no" ed="#P" n="104"/>naria potestate fieri potest a Pontifice sine ulla
+          <lb ed="#P" n="105"/>dispensatione; ergo ad nullum effectum est
+          <lb ed="#P" n="106"/>Pontifici necessaria talis dispensatio. Quod
+          <pb ed="#P" n="1014"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>reservatione in constitutione Sixti V saepe 
+          ci<lb break="no" ed="#P" n="2"/>tata, estque contra ordinatos simoniace, et 
+          re<lb break="no" ed="#P" n="3"/>servatio fertur cum eodem tenore quo de 
+          sus<lb break="no" ed="#P" n="4"/>pensione dictum est, et ita nihil de illa 
+          supe<lb break="no" ed="#P" n="5"/>rest addendum. Alter casus interdicti est in
+          <lb ed="#P" n="6"/>simonia confidentiali, ferturque in Bulla Pii
+          <lb ed="#P" n="7"/>IV, contra Cardinales et Episcopos, ac 
+          si<lb break="no" ed="#P" n="8"/>miles praelatos recipientes beneficia 
+          quae<lb break="no" ed="#P" n="9"/>cumque, vel pensiones et similia in 
+          confiden<lb break="no" ed="#P" n="10"/>tiam, reservaturque Summo Pontifici 
+          sim<lb break="no" ed="#P" n="11"/>pliciter, et sine ulla additione. Et ita licet
+          <lb ed="#P" n="12"/>jure ordinario non possit ab inferioribus 
+          re<lb break="no" ed="#P" n="13"/>laxari, sequitur tamen quoad jubilea et 
+          in<lb break="no" ed="#P" n="14"/>dulta, generalem regulam casuum 
+          reservato<lb break="no" ed="#P" n="15"/>rum.
+        </p>
+        <p>
+          <lb ed="#P" n="16"/>9. De penis pro collatione vel obtentione 
+          be<lb break="no" ed="#P" n="17"/>neficii. — Ultimo, dicendum superest de 
+          dis<lb break="no" ed="#P" n="18"/>pensatione in aliis poenis ipso jure latis, 
+          qua<lb break="no" ed="#P" n="19"/>rum prima est irritatio collationis, seu 
+          obten<lb break="no" ed="#P" n="20"/>tionis beneficii. Et in hanc proprie non cadit
+          <lb ed="#P" n="21"/>dispensatio, nisi fortasse cogitetur 
+          anteceden<lb break="no" ed="#P" n="22"/>ter (ut sic dicam). Nam stante lege et efficacia
+          <lb ed="#P" n="23"/>ejus, necessarium est ut collatio, vel electio
+          <lb ed="#P" n="24"/>sic facta sit invalida ; si autem semel nulla est,
+          <lb ed="#P" n="25"/>per nulam dispensationem fieri potest ut 
+          vali<lb break="no" ed="#P" n="26"/>da sit aut fuerit ; quia sicut habet regula juris:
+          <lb ed="#P" n="27"/>Non firmatur tractu temporis, quod de jure
+          <lb ed="#P" n="28"/>ab initio non subsistit; ita dicere possumus
+          <lb ed="#P" n="29"/>non firmari dispensatione, quod a principio
+          <lb ed="#P" n="30"/>nullum fuit, licet possit iterum conferri, ut
+          <lb ed="#P" n="31"/>statim dicemus. Antecedenter autem posset
+          <lb ed="#P" n="32"/>dispensatione concedi , ut beneficia valide
+          <lb ed="#P" n="33"/>obtineantur, etiamsi interveniat simonia. Sed
+          <lb ed="#P" n="34"/>hoc magis potest cogitari, quam fieri; nam
+          <lb ed="#P" n="35"/>adeo est iniqua et indecens talis 
+          dispen<lb break="no" ed="#P" n="36"/>satio, ut timendum non sit posse 
+          aliquan<lb break="no" ed="#P" n="37"/>do cum effectu concedi, quamvis potestas non
+          <lb ed="#P" n="38"/>desit.
+        </p>
+        <p>
+          <lb ed="#P" n="39"/>10. De inbalilitate ad beneficium. — 
+          Secun<lb break="no" ed="#P" n="40"/>da poena numerari potest inhabilitas ad 
+          obti<lb break="no" ed="#P" n="41"/>nendum idem beneficium, quod fuerat per 
+          si<lb break="no" ed="#P" n="42"/>moniam obtentum. Et in bac poena solus Papa
+          <lb ed="#P" n="43"/>potest dispensare, si is qui beneficium 
+          reci<lb break="no" ed="#P" n="44"/>pit, simoniam non ignoravit, et ad illam 
+          coo<lb break="no" ed="#P" n="45"/>peratus est, vel expresse aut tacite consensit.
+          <lb ed="#P" n="46"/>Haec reservatio colligitur ex cap. penult. de
+          <lb ed="#P" n="47"/>Electione, ut statim declarabitur : sequitur
+          <lb ed="#P" n="48"/>eliam ex natura talis poenae, quae ipso facto
+          <lb ed="#P" n="49"/>per legem pontificiam imponitur, et non est
+          <lb ed="#P" n="50"/>censura. Nam in his poenis non possunt 
+          infe<lb break="no" ed="#P" n="51"/>riores praelati dispensare, nisi in casibus sibi
+          <lb ed="#P" n="52"/>concessis ; hic autem casus non legitur 
+          con<lb break="no" ed="#P" n="53"/>cessus Episcopis; ergo est papalis. Dixi autem,
+          <lb ed="#P" n="54"/>si recipiens beneficium simoniace, sit 
+          parti<lb break="no" ed="#P" n="55"/>ceps criminis; nam si per ignorantiam bona
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fide illud recipiat, distinctione utendum est,
+          <lb ed="#P" n="57"/>juxta d. c. penult. de Elect. Nam si beneficium
+          <lb ed="#P" n="58"/>sit simplex, post liberam ejus resignationem
+          <lb ed="#P" n="59"/>potest Episcopus dispensare cum tali persona,
+          <lb ed="#P" n="60"/>et iterum illud beneficium eidem conferre. At
+          <lb ed="#P" n="61"/>vero si beneficium sit majus, non poterit 
+          Epis<lb break="no" ed="#P" n="62"/>copus pro illa vice cum illo dispensare. Ita
+          <lb ed="#P" n="63"/>enim intelligo priorem partem illius capituli;
+          <lb ed="#P" n="64"/>nam, licet de praelatione tantum loquatur,
+          <lb ed="#P" n="65"/>inter quam et beneficium simplex sunt alia
+          <lb ed="#P" n="66"/>beneficia, quasi mediae conditionis (ut sic 
+          di<lb break="no" ed="#P" n="67"/>cam), nihilominus quia solum beneficium 
+          sim<lb break="no" ed="#P" n="68"/>plex excipit, quoad reliqua omnia regulam
+          <lb ed="#P" n="69"/>firmare videtur. Atque ita sentiunt Doctores
+          <lb ed="#P" n="70"/>ibi, et in c. De simoniace, de Simon. Est 
+          au<lb break="no" ed="#P" n="71"/>tem ponderanda illa particula i/la vice; nam
+          <lb ed="#P" n="72"/>ex illa colligitur, quod si beneficium illud 
+          se<lb break="no" ed="#P" n="73"/>mel alteri detur, et postea iterum vacet, tunc
+          <lb ed="#P" n="74"/>poterit Episcopus dispensare cum priori, qui
+          <lb ed="#P" n="75"/>per ignorantiam simoniace illud receperat,
+          <lb ed="#P" n="76"/>ut ad illud eligatur, vel in illo provideatur;
+          <lb ed="#P" n="77"/>nam hoc suflicienter significatur per illam 
+          l<lb break="no" ed="#P" n="78"/>mitationem, ut omnes intelligunt. Atque ita
+          <lb ed="#P" n="79"/>etiam constat, extra casus ibi concessos 
+          Epis<lb break="no" ed="#P" n="80"/>copo, solum Papam posse in hac inhabilitate
+          <lb ed="#P" n="81"/>dispensare, vel per argumentum ab speciali,
+          <lb ed="#P" n="82"/>vel a contrario sensu; utrumque enim est 
+          effi<lb break="no" ed="#P" n="83"/>cax in tali materia, in qua lex ipsa veluti ex
+          <lb ed="#P" n="84"/>natura secum affert talem reservationem, ut
+          <lb ed="#P" n="85"/>dixi.
+        </p>
+        <p>
+          <lb ed="#P" n="86"/>11. De inhabilitate ad alia beneficia.—Vlertia
+          <lb ed="#P" n="87"/>poena est inhabilitas ad alia beneficia, de qua
+          <lb ed="#P" n="88"/>tractant Doctores in capit. De simoniace , de
+          <lb ed="#P" n="89"/>Simon., ubi Abbas, Felinus et alu dicunt,
+          <lb ed="#P" n="90"/>quando simoniacus in beneficio voluntarie
+          <lb ed="#P" n="91"/>renunciat beneficio male acquisito, ante 
+          con<lb break="no" ed="#P" n="92"/>demnationem, Upiscopum posse dispensare
+          <lb ed="#P" n="93"/>cum illo adalia beneticia obtinenda. Secus 
+          ve<lb break="no" ed="#P" n="94"/>ro, si, antequam renunciet, de simonia 
+          con<lb break="no" ed="#P" n="95"/>demnetur, et ideo beneficio privetur: nam
+          <lb ed="#P" n="96"/>tunc aiunt non posse Episcopum dispensare
+          <lb ed="#P" n="97"/>ad alia beneficia obtinenda ; et hoc sequitur
+          <lb ed="#P" n="98"/>Ugol., Tab. 4, c. 6, S 7, n. 2. Verumtamen
+          <lb ed="#P" n="99"/>hi auctores supponunt hunc simoniacum, ante
+          <lb ed="#P" n="100"/>condemnationem indigere dispensatione ad
+          <lb ed="#P" n="101"/>nova beneficia obtinenda, et consequenter
+          <lb ed="#P" n="102"/>supponunt esse inhabilem, ipso facto, ab 
+          obti<lb break="no" ed="#P" n="103"/>nenda nova beneficia, quod non censeo verum,
+          <lb ed="#P" n="104"/>stando in jure communi, quia nullibi 
+          inveni<lb break="no" ed="#P" n="105"/>tur talis poena lata ipso jure, ut supra visum
+          <lb ed="#P" n="106"/>est. Habere autem posset id locum juxta
+          <lb ed="#P" n="107"/>Constitution. 5 Pii V, quia per eam 
+          impo<lb break="no" ed="#P" n="108"/>sita est talis poena, ut supra dixi. Et tunc
+          <lb ed="#P" n="109"/>illa supposita, non crederem posse Episcopum
+          <lb ed="#P" n="110"/>in illa dispensare, quia est pura poena papalis,
+          <pb ed="#P" n="1015"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et praecise imposita propter delictum 
+          commis<lb break="no" ed="#P" n="2"/>sum, et cum illa adjectione : Sit perpetuo
+          <lb ed="#P" n="3"/>inhabilis ; maxime, quia in jure communi
+          <lb ed="#P" n="4"/>Episcopo non est concessa talis facultas. Quia
+          <lb ed="#P" n="5"/>vero supra cum Navar. diximus hanc poenam
+          <lb ed="#P" n="6"/>non esse usu receptam, ideo in rigore non
+          <lb ed="#P" n="7"/>credimus esse necessariam hanc 
+          dispensatio<lb break="no" ed="#P" n="8"/>nem, ut receptio aliorum beneficiorum 
+          vali<lb break="no" ed="#P" n="9"/>da sit. Esse tamen poterit utilis, ut postea non
+          <lb ed="#P" n="10"/>possit quis per sententiam illis privari propter
+          <lb ed="#P" n="11"/>simoniam in alio commissam, et ad hoc 
+          me<lb break="no" ed="#P" n="12"/>rito exigitur ut beneficium prius male 
+          acqui<lb break="no" ed="#P" n="13"/>situm sponte reliquerit, arg. c. Quicumque,
+          <lb ed="#P" n="14"/>1. q. 1, ibi: Postquam eas omnino dimaserit, e
+          <lb ed="#P" n="15"/>ibi : Cum ea, quae emerunt, dimiserint. 
+          Qua<lb break="no" ed="#P" n="16"/>propter si per sententiam prius deponantur,
+          <lb ed="#P" n="17"/>et inhabiles reddantur, merito dicitur non
+          <lb ed="#P" n="18"/>posse Episcopum cum eis dispensare, argum.
+          <lb ed="#P" n="19"/>c. JVobis, de Sim., et aliorum, quae dicti 
+          auc<lb break="no" ed="#P" n="20"/>tores allegant. Circa has vero poenas, seu
+          <lb ed="#P" n="21"/>censuras, in quibus diximus non posse 
+          Epis<lb break="no" ed="#P" n="22"/>copum dispensare, addenda est limitatio de
+          <lb ed="#P" n="23"/>casibus occultis, et ad forum contentiosum
+          <lb ed="#P" n="24"/>non deductis, juxta facultatem datam 
+          Episco<lb break="no" ed="#P" n="25"/>pis in Trid., sess. 24, c. 6, quae extepditur
+          <lb ed="#P" n="26"/>ad excommunicationem, et ad quamcumque
+          <lb ed="#P" n="27"/>suspensionem occultam, quae propter 
+          simo<lb break="no" ed="#P" n="28"/>niam incurritur, quia eo ipso quod non 
+          ex<lb break="no" ed="#P" n="29"/>cipitur, sub generali includitur, ut dictum
+          <lb ed="#P" n="30"/>est. Dubitari etiam potest an extendatur ad
+          <lb ed="#P" n="31"/>inhabilitatem ad beneficia, quae ipso jure per
+          <lb ed="#P" n="32"/>simoniam ineurritur; nam videtur esse irre
+          <lb ed="#P" n="33"/>gularitas quaedam, vel saltem partialis 
+          qui<lb break="no" ed="#P" n="34"/>dam effectus irregularitatis. Sed verius est,
+          <lb ed="#P" n="35"/>non extendi facultatem illam ad hanc 
+          inha<lb break="no" ed="#P" n="36"/>bilitatem, quia illa non est irregularitas, sed
+          <lb ed="#P" n="37"/>particularis poena ; concilium autem non dat
+          <lb ed="#P" n="38"/>facultatem generalem dispensandi in 
+          omni<lb break="no" ed="#P" n="39"/>bus poenis oecultis Papae reservatis, et ita de
+          <lb ed="#P" n="40"/>haec peena in particulari declaratum est a
+          <lb ed="#P" n="41"/>Cardinalibus in congregatione Homana. Duas
+          <lb ed="#P" n="42"/>autem declarationes in hoc invenio: una sic
+          <lb ed="#P" n="43"/>habet: Non potest Episcopus halilitare ad
+          <lb ed="#P" n="44"/>beneficia in posterum obtinenda, qua per 
+          simo<lb break="no" ed="#P" n="45"/>niam occultam quis obtinuit ; alia sic: lVon
+          <lb ed="#P" n="46"/>tamen ad beneficia quibus pro simonia 
+          priva<lb break="no" ed="#P" n="47"/>lus fuisset, nec ad obtinenda. Quod ultimum
+          <lb ed="#P" n="48"/>verbum absolute prolatum videtur extendi
+          <lb ed="#P" n="49"/>ad omnia beneficia, et non tantum ad 
+          acqui<lb break="no" ed="#P" n="50"/>sita simoniace. Quod verum esse censeo, si
+          <lb ed="#P" n="51"/>supponatur motum Pii V, inducentem hanc
+          <lb ed="#P" n="52"/>poenam, observari ; tum quia etiam illa 
+          inha<lb break="no" ed="#P" n="53"/>bilitas non est vere irregularitas; tum quia
+          <lb ed="#P" n="54"/>etiam illa poena fuit introducta post 
+          Conci<lb break="no" ed="#P" n="55"/>lium, et illa facultas non extenditur ad casus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nova lege pontificia reservatos post Concilium,
+          <lb ed="#P" n="57"/>juxta quamdam declarationem Gregorii XHI,
+          <lb ed="#P" n="58"/>audita praedicta congregatione, quae inter 
+          res<lb break="no" ed="#P" n="59"/>ponsa ejus refertur.
+        </p>
+        <p>
+          <lb ed="#P" n="60"/>12. Tria dubia.— Primum.—tria vero 
+          du<lb break="no" ed="#P" n="61"/>bia supersunt explicanda. Primum est, an
+          <lb ed="#P" n="62"/>in restitutione pretii simoniace accepti possit
+          <lb ed="#P" n="63"/>Papa dispensare. In quo distinguendum est:
+          <lb ed="#P" n="64"/>aut enim restitutio illa debita est ex naturali
+          <lb ed="#P" n="65"/>jure, ut in casibus supra tractatis; aut est
+          <lb ed="#P" n="66"/>tantum debita ex lege ecclesiastica. In priori
+          <lb ed="#P" n="67"/>casu, dicendum est per se loquendo non posse
+          <lb ed="#P" n="68"/>Pontificem dispensare. Ratio est, quia tunc
+          <lb ed="#P" n="69"/>restitutio debetur certae et determinatae 
+          per<lb break="no" ed="#P" n="70"/>sonae, non ratione poenae, sed ratione injuria;
+          <lb ed="#P" n="71"/>ergo non potest illa obligatio per 
+          dispensatio<lb break="no" ed="#P" n="72"/>ncm auferri; tum quia est de jure natural;
+          <lb ed="#P" n="73"/>tum etiam quia non potest alter privari jure
+          <lb ed="#P" n="74"/>suo sine causa. Dixi autem per se, quia si is
+          <lb ed="#P" n="75"/>qui pecuniam dedit, simoniam commisit,
+          <lb ed="#P" n="76"/>etiamsi non fuerit ex illis quae habent illam
+          <lb ed="#P" n="77"/>poenam ipso jure annexam, posset per 
+          Ponti<lb break="no" ed="#P" n="78"/>ficem privari illa pecunia in poenam sui 
+          de<lb break="no" ed="#P" n="79"/>licti, et mediante hac poena posset Pontifex
+          <lb ed="#P" n="80"/>cum alio dispensare ne illam solveret: 
+          opor<lb break="no" ed="#P" n="81"/>teret tamen ut praecederet sufficiens probatio
+          <lb ed="#P" n="82"/>et condemnatio delicti. At vero quando 
+          resti<lb break="no" ed="#P" n="83"/>tutio solum debetur ut ecclesiastica poena,
+          <lb ed="#P" n="84"/>tunc facile potest Pontifex in illa dispensare,
+          <lb ed="#P" n="85"/>vel compositionem facere; tum quia potest
+          <lb ed="#P" n="86"/>dispensare in jure positivo; tum etiam quia
+          <lb ed="#P" n="87"/>illa pecunia jam pertinet ad ecclesiastica 
+          bo<lb break="no" ed="#P" n="88"/>na, nam Ecclesiae adjudicata est.
+        </p>
+        <p>
+          <lb ed="#P" n="89"/>13. Secundum dubium.—Secundum dubiüm
+          <lb ed="#P" n="90"/>pertinet ad modum quo potest aut solet haec
+          <lb ed="#P" n="91"/>dispensatio conferri, an in ea praestanda 
+          de<lb break="no" ed="#P" n="92"/>beat certa forma servari. In quo breviter 
+          dis<lb break="no" ed="#P" n="93"/>tinguendum est inter Pontificem et inferiores
+          <lb ed="#P" n="94"/>praelatos. Et de inferioribus dicendum est,
+          <lb ed="#P" n="95"/>quamvis non habeant praescripiam formam
+          <lb ed="#P" n="96"/>verborum ad dispensationem concedendam,
+          <lb ed="#P" n="97"/>necessarium nihilominus esse ut espressis
+          <lb ed="#P" n="98"/>verbis sufficienter declarent voluntatem 
+          dis<lb break="no" ed="#P" n="99"/>pensandi, et ut post causam cognitam id 
+          fa<lb break="no" ed="#P" n="100"/>ciant, quia dispensant in lege superioris. et
+          <lb ed="#P" n="101"/>ideo si absque justa causa dispensent, non
+          <lb ed="#P" n="102"/>est valida dispensatio. Atque hine inferunt
+          <lb ed="#P" n="103"/>auctores statim referendi, Episcopum 
+          confe<lb break="no" ed="#P" n="104"/>rendo beneficium simoniaco, etiamsi scienter
+          <lb ed="#P" n="105"/>id faciat, non propterea dispensare, licet
+          <lb ed="#P" n="106"/>alias possit dispensare ordinato modo; sicut
+          <lb ed="#P" n="107"/>alibi diximus Episcopum, communicando
+          <lb ed="#P" n="108"/>cum excommunicato, non absolvere illum,
+          <lb ed="#P" n="109"/>etiamsi velit, in tom. 5, disp. 7, sect. 9,
+          <lb ed="#P" n="110"/>num. 13.
+        </p>
+        <p>
+          <pb ed="#P" n="1016"/>
+          <!-- duplication of 1014 (at 1034.jpg) and 1015 (at 1335.jpg) -->
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>14. De Summo vero Pontifice dubitari 
+          so<lb break="no" ed="#P" n="2"/>let, an conferendo beneficium ei quem scit
+          <lb ed="#P" n="3"/>fuisse simoniacum in eodem beneficio, 
+          cen<lb break="no" ed="#P" n="4"/>seatur cum illo dispensare, etiamsi id non 
+          de<lb break="no" ed="#P" n="5"/>claret ; nam si exprimat se velle dispensare,
+          <lb ed="#P" n="6"/>non est dubium quin dispensatio teneat, quia
+          <lb ed="#P" n="7"/>sive data sit sine causa, sive cum illa, est 
+          va<lb break="no" ed="#P" n="8"/>lida, et Pontifex non obligatur ad certam 
+          for<lb break="no" ed="#P" n="9"/>mam in ea servandam, quod a fortiori probari
+          <lb ed="#P" n="10"/>potest ex Clem. unic. de Sentent. Excomm.
+          <lb ed="#P" n="11"/>Ex eodem vero textu oritur difficultas, quando
+          <lb ed="#P" n="12"/>Pontifex talem voluntatem non exprimit : nam
+          <lb ed="#P" n="13"/>ibi dicitur Pontificem, scienter communicando
+          <lb ed="#P" n="14"/>cum excommunicato, non censeri absolvere
+          <lb ed="#P" n="15"/>illum, nisi id exprimat; ergo similiter 
+          confe<lb break="no" ed="#P" n="16"/>rendo beneficium simoniaco, non censetur
+          <lb ed="#P" n="17"/>dispensare. Et eadem quaestio esse potest de
+          <lb ed="#P" n="18"/>quocumque inhabili. Sed nihilominus 
+          probabi<lb break="no" ed="#P" n="19"/>lius censeo, tunc eo ipso dispensare per tale
+          <lb ed="#P" n="20"/>factum , quantum necesse est ad validitatem
+          <lb ed="#P" n="21"/>ejus. Ita Panormit., in c. Cum in cunctis, S
+          <lb ed="#P" n="22"/>Inferiora, de Elect., n. S, etFelin., inc. 
+          Pre<lb break="no" ed="#P" n="23"/>terea, de Testibus cogendis, n. 7, ubi alos
+          <lb ed="#P" n="24"/>plures auctores refert; et in additione alii 
+          alle<lb break="no" ed="#P" n="25"/>gantur, et idem sentiunt auctores statim 
+          refe<lb break="no" ed="#P" n="26"/>rendi. Ratio est, quia non censetur princeps
+          <lb ed="#P" n="27"/>supremus frustra beneficium conferre ; frustra
+          <lb ed="#P" n="28"/>autem daret ei quem novit inhabilem, nisi 
+          si<lb break="no" ed="#P" n="29"/>mul vellet illum habilem reddere, maxime
+          <lb ed="#P" n="30"/>quia decet ut concessum a principe beneficium
+          <lb ed="#P" n="31"/>semper sit mansurum, ut habet regula juris
+          <lb ed="#P" n="32"/>16, num. 6. Ad dictam autem Clement.,
+          <lb ed="#P" n="33"/>respondeo quod, licet Pontifex non 
+          absol<lb break="no" ed="#P" n="34"/>vat excommunicatum communicando cum
+          <lb ed="#P" n="35"/>illo, et nihil amplius exprimendo, 
+          nihilomi<lb break="no" ed="#P" n="36"/>nus, si scienter conferat illi beneficium, 
+          dis<lb break="no" ed="#P" n="37"/>pensare quantum necesse est ad valorem 
+          il<lb break="no" ed="#P" n="38"/>lius effectus; idem ergo in preesenti 
+          dici<lb break="no" ed="#P" n="39"/>mus, ex uno facto non inferri 
+          dispensatio<lb break="no" ed="#P" n="40"/>nem simpliciter et in omni poena, inferri 
+          ta<lb break="no" ed="#P" n="41"/>men quoad habilitatem necessariam ad 
+          valo<lb break="no" ed="#P" n="42"/>rem illius concessionis.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>15. An Papa vendens beneficium censeatur
+          <lb ed="#P" n="44"/>despensare cum emptore. — Et juxta haec 
+          ex<lb break="no" ed="#P" n="45"/>pedienda est alia interrogatio, quae hic fieri
+          <lb ed="#P" n="46"/>solet, an Romanus Pontifex vendens alicui 
+          be<lb break="no" ed="#P" n="47"/>neficium, et committens cum illo simoniam,
+          <lb ed="#P" n="48"/>censeatur cum illo dispensare , saltem quoad
+          <lb ed="#P" n="49"/>poenas juris. Nam quidam ita negant, ut 
+          di<lb break="no" ed="#P" n="50"/>cant illum manere excommunicatum,, et 
+          in<lb break="no" ed="#P" n="51"/>currere caeteras poenas. Ita sensit Adrianus,
+          <lb ed="#P" n="52"/>Quodlib. 9, art. 3, ad 4; Panorm., non satis
+          <lb ed="#P" n="53"/>sibi constans, in c. 1 de Sim., n. 8, ubi refert
+          <lb ed="#P" n="54"/>Joannem And., et in additione citantur idem
+          <lb ed="#P" n="55"/>Abb.. in c. Eztirpande, de Praebend., Felin.,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in c. De Cetero, de Rejudicata, et alii. Tenuit
+          <lb ed="#P" n="57"/>edam Major, in 4, d. 25, q. 3, ad 4. 
+          Funda<lb break="no" ed="#P" n="58"/>turque in dicta Clement., et inclinat Cajet.,
+          <lb ed="#P" n="59"/>d. q. 100, art. 6. Contraria vero est 
+          commu<lb break="no" ed="#P" n="60"/>nis sententia, quam tenet Palud., d. dist. 25,
+          <lb ed="#P" n="61"/>q. 4; et Sot., lib. 9 de Just., q. 5, art. 2, et
+          <lb ed="#P" n="62"/>q. 8, art.2; Sylvest., verb. S'imonia, q. 4 et 19;
+          <lb ed="#P" n="63"/>Turr., in c. Latorem, 1, q. 4, n. 4; Covarr.,
+          <lb ed="#P" n="64"/>in regula Peccatum, 2 p., S 8, n. 9, ubi plures
+          <lb ed="#P" n="65"/>alios refert. Et videtur sententia magis rationi
+          <lb ed="#P" n="66"/>consentanea. Et imprimis quoad poenam 
+          nulli<lb break="no" ed="#P" n="67"/>tatis talis collationis, id est manifestum ex dictis
+          <lb ed="#P" n="68"/>in praecedenti puncto. Deinde quoad poenam
+          <lb ed="#P" n="69"/>excommunicationis, certe non potest dici 
+          con<lb break="no" ed="#P" n="70"/>tumax contra legem Papae, qui cum ipso 
+          com<lb break="no" ed="#P" n="71"/>mittit actum per legem prohibitum, et sine
+          <lb ed="#P" n="72"/>contumacia non incurritur excommunicatio.
+          <lb ed="#P" n="73"/>Praeterea non est verisimile principem velle
+          <lb ed="#P" n="74"/>punire opus quod ipse simul efficit, vel 
+          for<lb break="no" ed="#P" n="75"/>tasse ad illud invitat. Denique si simonia esset
+          <lb ed="#P" n="76"/>contra jus tantum positivum, etiam quoad
+          <lb ed="#P" n="77"/>culpam censeretur dispensare cum illo, et 
+          sub<lb break="no" ed="#P" n="78"/>ditus ipse ita deberet existimare, quia non 
+          de<lb break="no" ed="#P" n="79"/>beret praesumere, velle Papam simoniam 
+          com<lb break="no" ed="#P" n="80"/>mittere. Et ita sensit Felin., in d. c. Decetero,
+          <lb ed="#P" n="81"/>num. 18. Imo, licet simonia alias videretur
+          <lb ed="#P" n="82"/>contra jus divinum, si tamen exeusari posset
+          <lb ed="#P" n="83"/>in Papa per mutationem materiae (juxta 
+          sn<lb break="no" ed="#P" n="84"/>pra dicta) ita etiam deberet subditus 
+          praesu<lb break="no" ed="#P" n="85"/>mere, et bona fide vitare culpam. Quando 
+          au<lb break="no" ed="#P" n="86"/>tem talis esset simonia, ut Papa illam 
+          vita<lb break="no" ed="#P" n="87"/>re non posset, involveretur quidem subditus
+          <lb ed="#P" n="88"/>cum ipso in crimine, cum eodem tamen a
+          <lb ed="#P" n="89"/>poena excusaretur.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>16. Ultimum dubium. — Ultimum dubium
+          <lb ed="#P" n="91"/>esse potest, an per consuetudinem possit 
+          in<lb break="no" ed="#P" n="92"/>duci dispensatio in simonia. Sed nulla fere
+          <lb ed="#P" n="93"/>indiget nova expositione; nam per 
+          consuetu<lb break="no" ed="#P" n="94"/>dinem proprie hic non introducitur 
+          dispensa<lb break="no" ed="#P" n="95"/>tio, sed interdum solet consuetudo abrogare
+          <lb ed="#P" n="96"/>legem humanam, , vel in totum, vel ex parte.
+          <lb ed="#P" n="97"/>Et interdum potest illam abrcgare, etiam
+          <lb ed="#P" n="98"/>quoad vim directivam, et consequenter tollere
+          <lb ed="#P" n="99"/>rationem culpae, quae ex sola prohibitione 
+          nas<lb break="no" ed="#P" n="100"/>cebatur, aliquando vero potest abrogare legem
+          <lb ed="#P" n="101"/>solum quoad poenam. Quod potest contingere,
+          <lb ed="#P" n="102"/>etiamsi delictum, quod per eim punitur, 
+          con<lb break="no" ed="#P" n="103"/>tra jus divinum sit, quia poena solum nascitur
+          <lb ed="#P" n="104"/>ex lege humana, quam consuetudo abrogare
+          <lb ed="#P" n="105"/>potest. De consuetudine ergo, quae in hac 
+          ma<lb break="no" ed="#P" n="106"/>teria potest interdum excusare culpam, supra,
+          <lb ed="#P" n="107"/>c. 48, sufticienter dictum est. De illa vero,
+          <lb ed="#P" n="108"/>quatenus in hac materia potest leges poenales
+          <lb ed="#P" n="109"/>abrogare vel mitigare, nihil peculiare 
+          adno<lb break="no" ed="#P" n="110"/>tandum occurrit, sed consulenda sunt gene-
+          <pb ed="#P" n="1017"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rales regulae de consuetudine et de 
+          conditioni<lb break="no" ed="#P" n="2"/>bus necessariis , ut contra legem praescribat;
+          <lb ed="#P" n="3"/>nam eaedem ad hanc materiam applicandae
+          <lb ed="#P" n="4"/>sunt. Et quoad usum, observare oportet ut de
+          <lb ed="#P" n="5"/>facto ipso suffBcienter constet, talem poenam
+          <lb ed="#P" n="6"/>non esse usu receptam, ut tuta conscientia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="7"/>possit quis ab illa hoc titulo excusari ; 
+          consta<lb break="no" ed="#P" n="8"/>re autem poterit, vel communi sensu 
+          Docto<lb break="no" ed="#P" n="9"/>rum, vel ex praxi praelatorum et prudentum
+          <lb ed="#P" n="10"/>confessorum, maximeque ex usu Romanae 
+          cu<lb break="no" ed="#P" n="11"/>riae; et ideo tam de hoc dubio quam de tota
+          <lb ed="#P" n="12"/>materia simoniae hactenus dixisse sufficiat.
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="13"/>FINIS TRACTATUS TERTH ET TOMI DECIMI TERTII.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="601"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k15013"><!-- t3-l3c1 -->
+        <head>Caput 1</head>
+        <head type="question-title">Quid sit, et quotuplex sacrilegium.</head>
+        <p>
+          <lb ed="#P" n="52"/>CAPUT I.
+          <lb ed="#P" n="53"/>QUID SIT, ET QUOTUPLEX SACRILEGIUM.
+        </p>
+        <p>
+          <lb ed="#P" n="54"/>1. Definitur sacilegium. — Supposita 
+          vo<lb break="no" ed="#P" n="55"/>cis etymologia, et significatione supra 
+          decla<lb break="no" ed="#P" n="56"/>rata, recte sacrilegium definitur, esse 
+          viola<lb break="no" ed="#P" n="57"/>tionem rei sacra, ut ex D. Thom. sumitur 2.
+          <lb ed="#P" n="58"/>2. q. 99, art. 1. Et eamdem definitionem ha-
+          <pb ed="#P" n="602"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bet Glossa, in cap. Omnes Ecclesia, 11, q. 4;
+          <lb ed="#P" n="2"/>Turrec., in cap. Sacrilegium, 11, q. 4, ubi
+          <lb ed="#P" n="3"/>alias descriptiones refert - sed vel non sunt
+          <lb ed="#P" n="4"/>de proprio sacrilegio, vel ad hanc revocantur.
+          <lb ed="#P" n="5"/>Quid vero nomine rei sacrae in illa 
+          descriptio<lb break="no" ed="#P" n="6"/>ne intelligatur, patebit ex sequentibus; nunc
+          <lb ed="#P" n="7"/>solum dicimus, rei sacre nomine intelligi
+          <lb ed="#P" n="8"/>quamlibet rem creatam, quae ex peculiari 
+          de<lb break="no" ed="#P" n="9"/>dicatione ad cultum Dei sancta vel sacra 
+          ef<lb break="no" ed="#P" n="10"/>fecta est; violatio autem talis rei dicitur
+          <lb ed="#P" n="11"/>quaelibet irreverentia aut indigna ejus 
+          trac<lb break="no" ed="#P" n="12"/>tatio.
+        </p>
+        <p>
+          <lb ed="#P" n="13"/>2. Particula a Cajetano addta in 
+          defini<lb break="no" ed="#P" n="14"/>Lone sacrilegii ad excludendum simoniam. —
+          <lb ed="#P" n="15"/>Cajetanus vero, in dicto art. 1, addendum
+          <lb ed="#P" n="16"/>putavit esse violationem rei sacrae per 
+          actio<lb break="no" ed="#P" n="17"/>nem seu commutationem involuntariam ; 
+          ob<lb break="no" ed="#P" n="18"/>Jicit enim simoniam esse quamdam 
+          violatio<lb break="no" ed="#P" n="19"/>nem rei sacrae, et non sacrilegium. Ut ergo
+          <lb ed="#P" n="20"/>ilam excluderet, necessarium putavit illam
+          <lb ed="#P" n="21"/>particulam addere, vel secundum illam 
+          ver<lb break="no" ed="#P" n="22"/>ba D. Thoma interpretar:. Declarat hoc 
+          exem<lb break="no" ed="#P" n="23"/>plo vitiorum quae sunt opposita justitiae, et
+          <lb ed="#P" n="24"/>distinguuntur per hoc, quod quaedam 
+          versan<lb break="no" ed="#P" n="25"/>tur in commutationibus voluntariis, ut 
+          usu<lb break="no" ed="#P" n="26"/>ra; quaedam in involuntariis, ut furtum. Sic
+          <lb ed="#P" n="27"/>enim existimat in virtute religionis 
+          sacrile<lb break="no" ed="#P" n="28"/>gium esse violationem et actionem 
+          involunta<lb break="no" ed="#P" n="29"/>riam, simoniam vero non esse sacrilegium,
+          <lb ed="#P" n="30"/>quia est in actione voluntaria ; committitur
+          <lb ed="#P" n="31"/>cnim per modum emptionis et venditionis.
+          <lb ed="#P" n="32"/>Ali constituunt differentiam inter 
+          sacrile<lb break="no" ed="#P" n="33"/>gium et simoniam, quod per sacrilegium 
+          vio<lb break="no" ed="#P" n="34"/>latur res sacra in aliquo usu suo, ut si quis
+          <lb ed="#P" n="35"/>utatur calice consecrato in communi mensa,
+          <lb ed="#P" n="36"/>etc.; per simoniam vero non derogatur usui
+          <lb ed="#P" n="37"/>rei sacrae, sed ipsimet rei, quatenus 
+          vilipendi<lb break="no" ed="#P" n="38"/>tur et indigne tractatur.
+        </p>
+        <p>
+          <lb ed="#P" n="39"/>3. Rejicitur Cajetani sententia.— Sed nihil
+          <lb ed="#P" n="40"/>video quod cogat negare, peccatum simoniae
+          <lb ed="#P" n="41"/>esse verum sacrilegium, quia pro materia 
+          pro<lb break="no" ed="#P" n="42"/>xima habet, non Deum, sed rem sacram, ut
+          <lb ed="#P" n="43"/>beneficium , sacramentum, etc.; ergo illud
+          <lb ed="#P" n="44"/>peccatum non continetur sub illis vitus 
+          oppo<lb break="no" ed="#P" n="45"/>sitis religioni, quibus Deo directe injuria 
+          irro<lb break="no" ed="#P" n="46"/>gatur ; ergo continetur sub vitio communi,
+          <lb ed="#P" n="47"/>quo irrogatur injuria rei satrae, seu( quod
+          <lb ed="#P" n="48"/>idem est ) quo res sacra inique violatur : hoc
+          <lb ed="#P" n="49"/>autem vitinm, sacrilegium vocatur, quod in
+          <lb ed="#P" n="50"/>plura specie distincta dividitur, ut postea 
+          vi<lb break="no" ed="#P" n="51"/>debimus ; unum ergo inter alia est simonia.
+          <lb ed="#P" n="52"/>Accedit quod multa possunt esse sacrilegia
+          <lb ed="#P" n="53"/>per actiones voluntarias ; nam vendere res
+          <lb ed="#P" n="54"/>Ecclesiae indebite sacrilegium est ; non enim
+          <lb ed="#P" n="55"/>est simonia, ut infra ostendemus ; et est pec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>catum contra religionem, quod non potest ad
+          <lb ed="#P" n="57"/>aliam speciem pertinere, et ita etiam in jure
+          <lb ed="#P" n="58"/>appellatur, ut videbimus; et tamen illa 
+          inju<lb break="no" ed="#P" n="59"/>ria fit per contractum voluntarium ; ergo hoc
+          <lb ed="#P" n="60"/>non obstat rationi sacrilegii. Item 
+          matrimo<lb break="no" ed="#P" n="61"/>nium sacerdotis , vel religiosi, aut habentis
+          <lb ed="#P" n="62"/>votum castitatis , sacrilegium est, et tamen
+          <lb ed="#P" n="63"/>committitur per actionem voluntariam, 
+          scili<lb break="no" ed="#P" n="64"/>cet, per contractum sive invalidum , quando
+          <lb ed="#P" n="65"/>votum est solemne, sive validum, quando est
+          <lb ed="#P" n="66"/>omnino simplex. Unde etiam sumitur 
+          argu<lb break="no" ed="#P" n="67"/>mentum, quia illud peccatum non est 
+          simo<lb break="no" ed="#P" n="68"/>nia, licet sit injuria per actionem utrinque 
+          vo<lb break="no" ed="#P" n="69"/>luntariam ex parte hominis; ergo etiam illo
+          <lb ed="#P" n="70"/>modo a Cajetano intento non adaequate 
+          expli<lb break="no" ed="#P" n="71"/>catur ratio simoniae, nec ratio sacrilegii. 
+          Prae<lb break="no" ed="#P" n="72"/>terea exemplum de justitia non videtur recte
+          <lb ed="#P" n="73"/>accommodari, quia justitia est ad alterum 
+          ho<lb break="no" ed="#P" n="74"/>minem, et ideo injuria potest variari ex 
+          diver<lb break="no" ed="#P" n="75"/>so modo, quo actio, qua infertur, est 
+          volunta<lb break="no" ed="#P" n="76"/>ria, vel involuntaria ei cui fit injuria ; 
+          quo<lb break="no" ed="#P" n="77"/>modo etiam D. Thomas 2. 2, quaest. 66, art.
+          <lb ed="#P" n="78"/>4. distinxit furtum et rapinam per diversum
+          <lb ed="#P" n="79"/>modum invorluntarii, ex parte illius qui 
+          pa<lb break="no" ed="#P" n="80"/>titur injuriam. At vero ratio injuriae quae est
+          <lb ed="#P" n="81"/>in sacrilegio, attenditur principaliter respectu
+          <lb ed="#P" n="82"/>Dei, ut infra videbimus : Deo autem non est
+          <lb ed="#P" n="83"/>minus involuntaria irreverentia rei savra,
+          <lb ed="#P" n="84"/>quae fit per simoniam, quam illa quae fit per
+          <lb ed="#P" n="85"/>alias actiones; ergo sive illa actiones inter
+          <lb ed="#P" n="86"/>homines sint per voluntcrium pactum , sive
+          <lb ed="#P" n="87"/>alio modo, illud non impedit quominus tales
+          <lb ed="#P" n="88"/>actiones sint vera sacrilegia. Et ita facile 
+          ex<lb break="no" ed="#P" n="89"/>cluditur alia differentia ; tum quia ad 
+          sum<lb break="no" ed="#P" n="90"/>mum est specifica secundum diversas species
+          <lb ed="#P" n="91"/>sacrilegii, non tamen excludit convenientiam
+          <lb ed="#P" n="92"/>in genere sacrilegii ; tum etiam quia illa 
+          dif<lb break="no" ed="#P" n="93"/>ferentia non constat ; percussio enim clerici
+          <lb ed="#P" n="94"/>sacrilegium est, non quia sit contra usum 
+          sa<lb break="no" ed="#P" n="95"/>cerdotii, sed quia est indigna tractatio rei 
+          sa<lb break="no" ed="#P" n="96"/>crae ; et venditio doni gratuiti etiam est contra
+          <lb ed="#P" n="97"/>debitum usum ejus, datum est enim ut gratis
+          <lb ed="#P" n="98"/>detur ; et venditio beneficiorum et ordinum
+          <lb ed="#P" n="99"/>maxime est contra bonum usum eorum, ut
+          <lb ed="#P" n="100"/>omnia jura clamant.
+        </p>
+        <p>
+          <lb ed="#P" n="101"/>4. Dico ergo nihil esse absurdi concedere,
+          <lb ed="#P" n="102"/>simoniam esse speciem sacrilegii, ut rationes
+          <lb ed="#P" n="103"/>factae probant, contra quas nihil affertur 
+          ali<lb break="no" ed="#P" n="104"/>cujus momenti, nisi quod D. Thomas et ali
+          <lb ed="#P" n="105"/>Doctores separatim tractant de simonia et 
+          sa<lb break="no" ed="#P" n="106"/>crilegio ; dico tamen id fuisse propter 
+          specia<lb break="no" ed="#P" n="107"/>lem rationem simoniae, et amplissimam ejus
+          <lb ed="#P" n="108"/>materiam, sicut nos etiam faciemus in hoc 
+          li<lb break="no" ed="#P" n="109"/>bro et sequenti ; neque hic noster sensus 
+          alie<lb break="no" ed="#P" n="110"/>nus est a modo loquendi Doctorum et jurium.
+          <pb ed="#P" n="603"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Soto enim, libr. 9 de Just., quaest. 5, art. 1et
+          <lb ed="#P" n="2"/>2. simoniam vocat sacrilegium ; et Beda, lib.
+          <lb ed="#P" n="3"/>Retract. in Acta, cap. S, dicit Simonem 
+          Ma<lb break="no" ed="#P" n="4"/>gum tentasse facere emptionem sacrilegam;
+          <lb ed="#P" n="5"/>et Glossa, in c. Audivimus, 1, q. 3, dicit 
+          sa<lb break="no" ed="#P" n="6"/>crilegium in simonia committi; et ibi Turrec.,
+          <lb ed="#P" n="7"/>num. 2, dicit: Bene sacrilegium dicitur 
+          simo<lb break="no" ed="#P" n="8"/>nia. Et habet fundamentum in textu, ubi 
+          Gre<lb break="no" ed="#P" n="9"/>gorius ait: A sacrilegio hoc facinus non dispar
+          <lb ed="#P" n="10"/>dizerim. Quamvis enim per haec verba 
+          for<lb break="no" ed="#P" n="11"/>mahter non dicatur simoniam esse 
+          sacrile<lb break="no" ed="#P" n="12"/>gium, satis nihilominus indicatur. Denique 
+          li<lb break="no" ed="#P" n="13"/>cet diei possit sacrilegium interdum accipi
+          <lb ed="#P" n="14"/>quasi specitice, ut distinguitur a simonia, 
+          ni<lb break="no" ed="#P" n="15"/>hilominus negari non potest quin illa vitia
+          <lb ed="#P" n="16"/>conveniant in generali ratione violandi rem
+          <lb ed="#P" n="17"/>sacram ; neque negari potest quin hoc genus
+          <lb ed="#P" n="18"/>optime sacrilegii nomine significetur ; hoc 
+          er<lb break="no" ed="#P" n="19"/>go modo hic definitur, et ideo nulla additio
+          <lb ed="#P" n="20"/>necessaria est. In sequentibus autem 
+          capitn<lb break="no" ed="#P" n="21"/>lis, prius dicemus de sacrilegio, quasi 
+          distin<lb break="no" ed="#P" n="22"/>guendo illud a simonia, de qua postea in 
+          par<lb break="no" ed="#P" n="23"/>ticulari dicemus.
+        </p>
+        <p>
+          <lb ed="#P" n="24"/>5. Sacrilegium in tres species dividitur. —
+          <lb ed="#P" n="25"/>Ita ergo generatim declarata ratione 
+          sacrile<lb break="no" ed="#P" n="26"/>gii, ad explicandam totam latitudinem ejus,
+          <lb ed="#P" n="27"/>oportet varios modos sacrilegii proponere et
+          <lb ed="#P" n="28"/>explicare. D. Thomas igitur, dicta quaest. 99,
+          <lb ed="#P" n="29"/>art. 3, sacrilegium distinguit ex parte rerum
+          <lb ed="#P" n="30"/>sacrarum, quae per illud violantur. Quia sicut
+          <lb ed="#P" n="31"/>habitus (ait ) distinguuntur ex objeetis, ita 
+          vi<lb break="no" ed="#P" n="32"/>tia per materias circa quas versantur ; materia
+          <lb ed="#P" n="33"/>autem sacrilegii est res sacra; ergo juxta 
+          di<lb break="no" ed="#P" n="34"/>versitatem rerum sacrarum dividentur 
+          sacrile<lb break="no" ed="#P" n="35"/>gia. Unde colligit D. Thomas, sicut tria sunt
+          <lb ed="#P" n="36"/>genera rerum sacrarum, scilicet, personae, 
+          lo<lb break="no" ed="#P" n="37"/>ca, et quaedam res aliae, ita triplicem esse 
+          spe<lb break="no" ed="#P" n="38"/>ciem sacrilegii, contra personas, et contra
+          <lb ed="#P" n="39"/>loca, et contra res alias divino cultui dicatas.
+        </p>
+        <p>
+          <lb ed="#P" n="40"/>6. Difficultates circa propositam divisionem.
+          <lb ed="#P" n="41"/>— Circa quam partitionem multiplex oriri 
+          po<lb break="no" ed="#P" n="42"/>test dubitatio. Primo, circa singula membra,
+          <lb ed="#P" n="43"/>quid sub se contineant, et quale in eis 
+          sacri<lb break="no" ed="#P" n="44"/>legium committatur. Secundo, circa eorum
+          <lb ed="#P" n="45"/>sufficientiam, quia inter res sacras 
+          computa<lb break="no" ed="#P" n="46"/>tur tempus Deo dicatum; unde sacrilegium
+          <lb ed="#P" n="47"/>committit, qui illud violat, ut supra visum est,
+          <lb ed="#P" n="48"/>et tamen in illa divisione non 
+          comprehendi<lb break="no" ed="#P" n="49"/>tur. Item Scriptura sacra est res valde sacra,
+          <lb ed="#P" n="50"/>unde, qui pervertit verba ejus, sacrilegns 
+          ap<lb break="no" ed="#P" n="51"/>pellatur a D. Thoma dicta quaest. 99, art. 2,
+          <lb ed="#P" n="52"/>ad 1. Quod si forte dicatur haec omnia et 
+          simi<lb break="no" ed="#P" n="53"/>lia comprehendi sub tertio membro rerum 
+          sa<lb break="no" ed="#P" n="54"/>crarum, sic erit aliunde superflua vel mere 
+          vo<lb break="no" ed="#P" n="55"/>luntaria distinctio, quia non minus distin-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>guuntur tempus aut Scriptura, seu verbum
+          <lb ed="#P" n="57"/>Dei, ab aliis rebus sacris, quam locus sacer;
+          <lb ed="#P" n="58"/>cur ergo magis specialiter ponitur locus, quam
+          <lb ed="#P" n="59"/>caeterae res sacrae? Valde etiam obscurum et
+          <lb ed="#P" n="60"/>incertum remanet, quae sint illae res sub tertio
+          <lb ed="#P" n="61"/>membro contentae.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>7. Tertio, occurrit difficultas circa illorum
+          <lb ed="#P" n="63"/>membrorum distinctionem; tum quia cum
+          <lb ed="#P" n="64"/>sacrilegium consistat in irreverentia rei sacrae,
+          <lb ed="#P" n="65"/>potius sunt distinguenda sacrilegia ex parte
+          <lb ed="#P" n="66"/>sanctitatis, per quam res constituitur in esse 
+          sa<lb break="no" ed="#P" n="67"/>crae, quam ex varietate rerum quae sacrae 
+          de<lb break="no" ed="#P" n="68"/>nominantur, et quasi materialiter ad 
+          sacrile<lb break="no" ed="#P" n="69"/>gium pertinent ; sed in locis sacris, et vasis, et
+          <lb ed="#P" n="70"/>sumilibus, non est sanctitas diversae rationis,
+          <lb ed="#P" n="71"/>quia in omnibus est solum per quamdam 
+          de<lb break="no" ed="#P" n="72"/>nominationem et deputationem, sea 
+          benedic<lb break="no" ed="#P" n="73"/>tionem extrinsecam in ordine ad cultum Dei;
+          <lb ed="#P" n="74"/>ergo distingui non debent; tum etiam quia in
+          <lb ed="#P" n="75"/>cadem re possunt esse variitituli sanctitatis, ut,
+          <lb ed="#P" n="76"/>verbi gratia, in eadem persona est sanctitas
+          <lb ed="#P" n="77"/>grauae, et fidei, et characteris baptismalis, et
+          <lb ed="#P" n="78"/>simul esse potest sanctitas ordinis, seu 
+          conse<lb break="no" ed="#P" n="79"/>crationis, et praeterea sanctitas voti vel 
+          profes<lb break="no" ed="#P" n="80"/>sionis religiosae ; et similiter idem calix 
+          eccle<lb break="no" ed="#P" n="81"/>siae sacra res est, et quatenus consecratus est,
+          <lb ed="#P" n="82"/>et quatenus sub bonis ecclesiae est, et quatenus
+          <lb ed="#P" n="83"/>in loco ecclesiae custoditur; magis ergo 
+          secun<lb break="no" ed="#P" n="84"/>dum has rationes distinguenda essent 
+          sacrile<lb break="no" ed="#P" n="85"/>gia, quam secundum res ipsas sacras 
+          materiali<lb break="no" ed="#P" n="86"/>ter sumptas ; tum denique, quia ex modo 
+          viola<lb break="no" ed="#P" n="87"/>tonis magis pendet mahtia sacrilegii ; nam 
+          fu<lb break="no" ed="#P" n="88"/>rari imaginem, et illam conculcare aut 
+          combu<lb break="no" ed="#P" n="89"/>rere, longe diversumsacrilegium esse videtur,
+          <lb ed="#P" n="90"/>quamvis circa eamdem rem utrumque 
+          verse<lb break="no" ed="#P" n="91"/>tur ; ergo non sumitur sufficienter haec 
+          distinc<lb break="no" ed="#P" n="92"/>tio ex parte rerum sacrarum.
+        </p>
+        <p>
+          <lb ed="#P" n="93"/>8. Defenditur proposita divisio. — 
+          Nihilo<lb break="no" ed="#P" n="94"/>minus trimembris illa divisio sacrilegii ex 
+          par<lb break="no" ed="#P" n="95"/>te materiae sacrae multum recepta est inter
+          <lb ed="#P" n="96"/>Doctores, ut videre licet in omnibus 
+          Summnis<lb break="no" ed="#P" n="97"/>tis, verb. Sacrilegiumn ; Angel., num. 1; 
+          Syl<lb break="no" ed="#P" n="98"/>vest., 81; Cajetan., eod. verb., et 2. 2, 
+          quaes<lb break="no" ed="#P" n="99"/>tione 99. Eamdem habet Alens., 2 part., 
+          quaes<lb break="no" ed="#P" n="100"/>tione 170, memb. 2, et illam attigit 
+          Bona<lb break="no" ed="#P" n="101"/>vent., in 3, distinct. 37, dub. 7, circa 
+          litte<lb break="no" ed="#P" n="102"/>ram ; eamdem habent Canonistae, in cap. 
+          Sa<lb break="no" ed="#P" n="103"/>crilegium, 11, quaest. 4, ubi Turrecrem., q.
+          <lb ed="#P" n="104"/>5 et 6. Habetque illa distinctio magnum
+          <lb ed="#P" n="105"/>fundamentum in sacris canonibus: nam illa
+          <lb ed="#P" n="106"/>tria genera sacrilegiorum tanquam maxime
+          <lb ed="#P" n="107"/>propria in eis numerantur: nam de sacrilegiis
+          <lb ed="#P" n="108"/>contra personas sacras loquuntur, cap. Sicut,
+          <lb ed="#P" n="109"/>et cap. Quasquis, 17, quaest. 4. Imo, si attente
+          <lb ed="#P" n="110"/>legantur, tota trimembris distrinctio in eis
+          <pb ed="#P" n="604"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>continetur. Praeterea de sacrilegiis contra 
+          per<lb break="no" ed="#P" n="2"/>sonas sacras extant multi canones, in cap. S
+          <lb ed="#P" n="3"/>quis deinceps, usque ad cap. Si quis suadente,
+          <lb ed="#P" n="4"/>ead. caus. et quaest. ; et de sacrilegiis contra
+          <lb ed="#P" n="5"/>loca sacra, in cap. Miror, etcap. Frater, cum
+          <lb ed="#P" n="6"/>aliis ibidem ; et desacrilegiis contra res seu 
+          bo<lb break="no" ed="#P" n="7"/>na ecclesiae, c. Sacrilegium, c. Omnes ecclesie,
+          <lb ed="#P" n="8"/>et cap. Attendendum, ibid. Et expresse in cap.
+          <lb ed="#P" n="9"/>Qui rapit, dicitur: Qui pecunias, vel res ecclesie
+          <lb ed="#P" n="10"/>abstulerit , sacrilegium facit. Ratio vero et
+          <lb ed="#P" n="11"/>sufficientia hujus divisionis non est 
+          specu<lb break="no" ed="#P" n="12"/>lativo rigore exigenda ; solum enim haec 
+          tra<lb break="no" ed="#P" n="13"/>ditur tanquam magistralis divisio 
+          accommoda<lb break="no" ed="#P" n="14"/>ta ad omnia sacrilegia explicanda, et sub 
+          cer<lb break="no" ed="#P" n="15"/>tis capitibus comprehendenda ; satisquc est ut
+          <lb ed="#P" n="16"/>membra illa sufficientem distinctionem in 
+          ra<lb break="no" ed="#P" n="17"/>tione sacrilegii inter se habeant, et quod sub
+          <lb ed="#P" n="18"/>illis nihi! includatur, quod rationem sacrilegii
+          <lb ed="#P" n="19"/>non habeat; ac denique quod nullum sit 
+          sacri<lb break="no" ed="#P" n="20"/>legium, quod ad illa tria membra non 
+          reduca<lb break="no" ed="#P" n="21"/>tur, quamvis sub illis membris possint 
+          diver<lb break="no" ed="#P" n="22"/>sae etiam species sacrilegiorum magis in 
+          parti<lb break="no" ed="#P" n="23"/>culari distingui. Quae omnia discurrendo 
+          bre<lb break="no" ed="#P" n="24"/>viter per illa membra facilius declarabuntur,
+          <lb ed="#P" n="25"/>simulque difficultates solventur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

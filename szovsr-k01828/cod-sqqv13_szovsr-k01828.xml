@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="75"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k01828"><!-- t2-prae -->
+        <head>Praeambulum</head>
+        <p>
+          <pb ed="#P" n="75"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>TRACTATUS SECUNDUS
+          <lb ed="#P" n="2"/>DE PRAECEPTIS AFFIRMATIVIS RELIGIONTIS
+          <lb ed="#P" n="3"/>AD DEI CULTUM ET ADORATIONEM,
+          <lb ed="#P" n="4"/>PRAESERTIM EXTERNAM, PERTINENTIBDUS.
+        </p>
+        <p>
+          <lb ed="#P" n="5"/>Tractatus hujus institutum explicatur. — In tria capita dividuntur actus ad 
+          re<lb break="no" ed="#P" n="6"/>ligionem pertinentes. —Tractatus distributio. Explicata doctrina quasi speculativa
+          <lb ed="#P" n="7"/>virtutis religionis (servando methodum, quam in pertractandis aliis virtutibus, vel
+          <lb ed="#P" n="8"/>sacramentis tenere soleo), materiam moralem hujus virtutis, quasi generaliter in hoc
+          <lb ed="#P" n="9"/>et sequenti tractatu tradere decrevi, priusquam ad nonnullos particulares actus 
+          ejus<lb break="no" ed="#P" n="10"/>dem virtutis, qui, sub specialibus et propriis rationibus, proprias et prolisas postulant
+          <lb ed="#P" n="11"/>disputationes, descendam. Quia vero doctrina moralis de actibus humanis datur, et,
+          <lb ed="#P" n="12"/>ut practica sit et utilis, ad particularia descendere debet, ideo necessarium erit in
+          <lb ed="#P" n="13"/>praesenti de nonnullis actibus religionis in particulari dicere. Tria vero capita illorum
+          <lb ed="#P" n="14"/>actuum distinguimus, ut totam moralem materiam comprehendamus. Primum 
+          com<lb break="no" ed="#P" n="15"/>plectitur actus qui, secundum substantiam suam, pertinent ad alias virtutes a quibus
+          <lb ed="#P" n="16"/>eliciuntur, licet a religione possint ad suum proprium finem imperari, ut sunt actus
+          <lb ed="#P" n="17"/>fidei, humilitatis, et virtutum omnium, ut supra tractatum est, et statim attingemus.
+          <lb ed="#P" n="18"/>Secundum comprehendit actus qui, ex intrinseca ratione sua, continent cultum Deti,
+          <lb ed="#P" n="19"/>et in nulla alia specie virtutis per se collocantur, quos ad tres revoco, qui sunt oratio,
+          <lb ed="#P" n="20"/>juramentum, et votum; et ad orauonem devotionem reduco; quamvis enim 
+          propriis<lb break="no" ed="#P" n="21"/>sime sumpta magis pertineat ad affectum cultus quam ad cultum ( haec enim duo
+          <lb ed="#P" n="22"/>distincta sunt, ut supra declaravi, et statim attingam), tamen, quia devotio maxime
+          <lb ed="#P" n="23"/>comitari solet orationem praecipue mentalem, de hac tractando, simul rationem 
+          de<lb break="no" ed="#P" n="24"/>votionis et obligationem declarabimus. Tertium genus est illorum actuum, qui ex se
+          <lb ed="#P" n="25"/>non habent aliquam rationem virtutis aut cultus, assumuntur tamen ad protestandum
+          <lb ed="#P" n="26"/>divinam excellentiam; cujusmodi sunt actus quidam externi, ut genuflexio, 
+          sacrifi<lb break="no" ed="#P" n="27"/>cium, et similes. De primo ergo genere actuum nihil dicendum est, quia proprias
+          <lb ed="#P" n="28"/>habent rationes et praecepta, quae aliis in locis considerantur ; quomodo autem 
+          apph<lb break="no" ed="#P" n="29"/>cari possint ad cultum Dei, obiter attingemus. De actibus vero secundi ordinis,
+          <lb ed="#P" n="30"/>quantum ad ea quae illis propria sunt, dicemus postea; hic enim solum ea quae 
+          ge<lb break="no" ed="#P" n="31"/>neraliter pertinent ad rationem cultus, ad illos poterunt applicari. In hoc ergo 
+          trac<lb break="no" ed="#P" n="32"/>tatu solum explicabimus illa praecepta affirmativa, quae circa actus tertii ordinis 
+          ver<lb break="no" ed="#P" n="33"/>santur. Dividemus autem hunc tractatum in tres libros. Primus erit de praeceptis
+          <lb ed="#P" n="34"/>pertinenti bus ad actus ipsos : in secundo vero et tertio, de temporibus ac locis ad
+          <lb ed="#P" n="35"/>divinum cultum destinatis disseremus, quoniam hae duae circumstantiae praecipue
+          <lb ed="#P" n="36"/>spectantur in divino cultu, et materiam continent, ad complementum hujus doctrinae
+          <lb ed="#P" n="37"/>maxime necessariam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

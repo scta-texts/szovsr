@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 28</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 28</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="195"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k04868"><!-- t2-l1c28 -->
+        <head>Caput 28</head>
+        <head type="question-title">Ad quas personas ecclesiasticas decimae pertineant jure communi.</head>
+        <p>
+          <lb ed="#P" n="99"/>CAPUT XXXVIII.
+          <lb ed="#P" n="100"/>AD QUAS PERSONAS ECCLESIASTICAS DECIMAE 
+          PER<lb break="no" ed="#P" n="101"/>TINEANT JURE COMMUNI.
+        </p>
+        <p>
+          <lb ed="#P" n="102"/>1. Decimas jure communi ad solos parochos
+          <lb ed="#P" n="103"/>pertinere. — Ex dicus in praecedenti capite,
+          <lb ed="#P" n="104"/>constat decimas ad clericos per se et jure 
+          per<lb break="no" ed="#P" n="105"/>tinere ; tamen, quia inter clericos est magna
+          <lb ed="#P" n="106"/>varietas, ideo explicare oportet ad quos 
+          perti<lb break="no" ed="#P" n="107"/>neat hoc jus decimarum, et quo modo. Iu qua
+          <pb ed="#P" n="196"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>re est quaedam sententia satis communis, quae
+          <lb ed="#P" n="2"/>affirmat decimas jure communi ad solos 
+          paro<lb break="no" ed="#P" n="3"/>chos pertinere, et omnem aliam decimarum
+          <lb ed="#P" n="4"/>applicationem, seu donationem alis clericis
+          <lb ed="#P" n="5"/>vel personis ecclesiasticis factam, esse 
+          privile<lb break="no" ed="#P" n="6"/>gio, vel alio speciali jure factam. Ita sentit D.
+          <lb ed="#P" n="7"/>Thomas 2. 2, quaest. 87, art. 4, ubi ait, jus
+          <lb ed="#P" n="8"/>spirituale decimarum sequi ex debito, quo
+          <lb ed="#P" n="9"/>ministris altaris debentur sumptus de 
+          ministe<lb break="no" ed="#P" n="10"/>rio spirituali : Quod (ait) ad solos clericos 
+          per<lb break="no" ed="#P" n="11"/>Ltinet habentes curam animarum, et ideo eis
+          <lb ed="#P" n="12"/>solum competit hoc jus habere. Quam 
+          senten<lb break="no" ed="#P" n="13"/>tiam ibi Cajetanus ita exponit et defendit,
+          <lb ed="#P" n="14"/>quam etiam in articulo primo tradiderat. Et
+          <lb ed="#P" n="15"/>hanc opinionem habet Glossa in cap. Cum 
+          con<lb break="no" ed="#P" n="16"/>tingat, de Decimis, ver. De jure communi, per
+          <lb ed="#P" n="17"/>textum ibi, quatenus ait, decimas de jure 
+          com<lb break="no" ed="#P" n="18"/>mwni ad ecclesias parochnales pertinere, ex quo
+          <lb ed="#P" n="19"/>Glossa infert, decimas parocliaurum ita deberi
+          <lb ed="#P" n="20"/>parochis, ut Episcopi nulam in eis debeant 
+          ha<lb break="no" ed="#P" n="21"/>bere portionem, sed solum in decimis sue 
+          paro<lb break="no" ed="#P" n="22"/>chie, vel episcopalis ecclesiee. Sentit ergo 
+          deci<lb break="no" ed="#P" n="23"/>mas ad solos parochos, vel pastores ecclesiae
+          <lb ed="#P" n="24"/>respective pertinere. In idem inclinat 
+          Sylves<lb break="no" ed="#P" n="25"/>ter, ver. Decima, quaest. 8, distinct. 9, dum
+          <lb ed="#P" n="26"/>ait clericum non posse praescribere decimas,
+          <lb ed="#P" n="27"/>nisi habeat parochiam, sed solos parochos.
+        </p>
+        <p>
+          <lb ed="#P" n="28"/>2. Fundamentum secundae sententiae. —
+          Alio<lb break="no" ed="#P" n="29"/>rum opinio.— Hanc vero opinionem reprobant
+          <lb ed="#P" n="30"/>Soto, libr. 9 de Justit., quaest. 3, art. 1 et 3;
+          <lb ed="#P" n="31"/>Aragon., 2. 2, quaest. 97, art. 1 et 3. Et in
+          <lb ed="#P" n="32"/>hanc partem magis inclinat Valentia, et alii
+          <lb ed="#P" n="33"/>moderni. Fundamentum hujus sententiae est,
+          <lb ed="#P" n="34"/>quia non soli parochi, nec illi soli qui curam
+          <lb ed="#P" n="35"/>animarum habent, ministrant Ecclesiae in 
+          spi<lb break="no" ed="#P" n="36"/>ritualibus, et ex officio; sed decimae institutae
+          <lb ed="#P" n="37"/>sunt pro omnibus qui ministrant in 
+          spirituali<lb break="no" ed="#P" n="38"/>bus, juxta sententiam Pauli sape citatam;
+          <lb ed="#P" n="39"/>ergo decimae non parochis solis debentur. Alii
+          <lb ed="#P" n="40"/>denique distinctione utuntur dicentes, decimas
+          <lb ed="#P" n="41"/>solis parochis, seu habentibus animarum 
+          cu<lb break="no" ed="#P" n="42"/>ram ex justitia deberi; alirs vero clericis deberi
+          <lb ed="#P" n="43"/>posse ex charitate et religione, ac praecepto
+          <lb ed="#P" n="44"/>Ecclesiae, non vero proprie ex justitia. Ratio
+          <lb ed="#P" n="45"/>prioris partis est, quia soli curatores 
+          auimma<lb break="no" ed="#P" n="46"/>rum, ex obligatione et officio habent quasi 
+          im<lb break="no" ed="#P" n="47"/>plicitum pactum cum populo, ut illi teneantur
+          <lb ed="#P" n="48"/>spiritualia ministrare, ideoque ab ipso alantur;
+          <lb ed="#P" n="49"/>alii vero, licet divino cultui inserviant, non
+          <lb ed="#P" n="50"/>ita sunt populo obligati, unde nec ipse 
+          popu<lb break="no" ed="#P" n="51"/>lus tenetur eos alere ex vi justitiae, cum illius
+          <lb ed="#P" n="52"/>utilitati non serviant: ex praecepto autem 
+          reli<lb break="no" ed="#P" n="53"/>gionis et Ecclesiae teneri possunt, quia Ecclesia
+          <lb ed="#P" n="54"/>ita statuit.
+        </p>
+        <p>
+          <lb ed="#P" n="55"/>3. Decimas ex prima institutione deberi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>clericis. — Haec dissensio fotasse magna ex
+          <lb ed="#P" n="57"/>parte est de modo loquendi, et ideo, ut tota
+          <lb ed="#P" n="58"/>res explicetur, incipiemus a prima institutione
+          <lb ed="#P" n="59"/>decimarum, et indicabimus quid olim 
+          serva<lb break="no" ed="#P" n="60"/>tum fuerit, et quid nunc servandum sit in
+          <lb ed="#P" n="61"/>distribuendis decimis inter clericos, ac 
+          tan<lb break="no" ed="#P" n="62"/>dem constabit quid in hoc peculiare habeant
+          <lb ed="#P" n="63"/>parochi, vel in universum omnes qui curam
+          <lb ed="#P" n="64"/>habent animarum. Dico ergo primo, decimas
+          <lb ed="#P" n="65"/>ex primaeva institutione deberi clero ad ipsius
+          <lb ed="#P" n="66"/>sustentationem, et ad omnes expensas 
+          neces<lb break="no" ed="#P" n="67"/>sarias ad ecclesiarum servitium, ac divini
+          <lb ed="#P" n="68"/>cultus ministerium. Hoc facile ostendi pctest
+          <lb ed="#P" n="69"/>ex dictis in principio hujus materiae, et ex
+          <lb ed="#P" n="70"/>proportione ad institutionem decimarum in
+          <lb ed="#P" n="71"/>veteri Testamento, et ex decretis statim 
+          alle<lb break="no" ed="#P" n="72"/>gandis.
+        </p>
+        <p>
+          <lb ed="#P" n="73"/>4. Dimcesum divisio antiquissima. — 
+          Se<lb break="no" ed="#P" n="74"/>cundo ergo dicendum est, in Ecclesia factam
+          <lb ed="#P" n="75"/>esse a principio divisionem dioecesum, et
+          <lb ed="#P" n="76"/>uniuscujusque dioecesis decimas ad clerum
+          <lb ed="#P" n="77"/>illius dioecesis pertinuisse, licet praecipua 
+          ea<lb break="no" ed="#P" n="78"/>rum administratio Episcopo esset commissa,
+          <lb ed="#P" n="79"/>ut cum debita proportione eas distribueret.
+          <lb ed="#P" n="80"/>Prima pars de divisione dicecesum constat ex
+          <lb ed="#P" n="81"/>ipsamet Scriptura, praesertim in Actibus 
+          Apo<lb break="no" ed="#P" n="82"/>stolorum, et epistolis Pauli, et Apocalypsi;
+          <lb ed="#P" n="83"/>item ex decretis Pontificum, distinct. 80, cap.
+          <lb ed="#P" n="84"/>1 et sequentibus, et distinct. 99, cap. 1et
+          <lb ed="#P" n="85"/>sequentibus : item ex ecclesiasticis historiis,
+          <lb ed="#P" n="86"/>in quibus Hierosolymitanam Ecclesiam ab
+          <lb ed="#P" n="87"/>Apostolis fundatam, et Jacobum illius 
+          Episco<lb break="no" ed="#P" n="88"/>pum creatum fuisse legimus: item Antiochiae
+          <lb ed="#P" n="89"/>Petrum prius sedem suam collocasse, paucis
+          <lb ed="#P" n="90"/>annis post Christi ascensionem, et alias 
+          Eecle<lb break="no" ed="#P" n="91"/>sias per Syriam et alias regiones fundasse, et
+          <lb ed="#P" n="92"/>postea Romae sedisse, et partim per se, partim
+          <lb ed="#P" n="93"/>per discipulos a se missos episcopatus varios
+          <lb ed="#P" n="94"/>erexisse ; idemque Joannem Apostolum 
+          Ephe<lb break="no" ed="#P" n="95"/>si, et in aliis Orientis Ecclesiis, Paulum vero
+          <lb ed="#P" n="96"/>et alios Apostolos fere per universum mundum
+          <lb ed="#P" n="97"/>fecisse, ut summatim collegit Baronius, tom.
+          <lb ed="#P" n="98"/>1, anno Christi 39, a numero nono, usque ad
+          <lb ed="#P" n="99"/>finem, et anno quadragesimo quarto, a 
+          nu<lb break="no" ed="#P" n="100"/>mero decimo, usque ad 41. Ratio etiam illam
+          <lb ed="#P" n="101"/>partem suadet, nam episcopalis dignitas a
+          <lb ed="#P" n="102"/>Christo est instituta, et ita haec divisio 
+          eccle<lb break="no" ed="#P" n="103"/>siarum episcopalium a Christi praecepto 
+          ma<lb break="no" ed="#P" n="104"/>navit, licet modus et determinatio in 
+          particu<lb break="no" ed="#P" n="105"/>lari ex Petri et Apostolorum fuerit arbitrio,
+          <lb ed="#P" n="106"/>ideoque tanquam maxime necessaria ad 
+          Ec<lb break="no" ed="#P" n="107"/>clesiae ordinem et regimen, statim a principio,
+          <lb ed="#P" n="108"/>quoad fieri potuit, indicata est.
+        </p>
+        <p>
+          <lb ed="#P" n="109"/>5. Decimarum usus quando incepi. —
+          <lb ed="#P" n="110"/>Clemens. — Decimae unius dieecesis ad Mlus
+          <pb ed="#P" n="197"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>clerum spectabant. — Et ita etiam facile 
+          sua<lb break="no" ed="#P" n="2"/>detur pars secunda, nam licet forte prior
+          <lb ed="#P" n="3"/>fuerit episcopatuum divisio, quam 
+          decima<lb break="no" ed="#P" n="4"/>rum institutio (nam prius per aliquot 
+          an<lb break="no" ed="#P" n="5"/>nos omnia fuerunt communia, postea ex
+          <lb ed="#P" n="6"/>eleemosynis, et oblationibus fidelium clerici
+          <lb ed="#P" n="7"/>vivebant, et pauperibus subveniebatur, ut
+          <lb ed="#P" n="8"/>intelligi potest ex illo Pauli, 1 Corinth. 6:
+          <lb ed="#P" n="9"/>De collectis autem quae fiunt in sanctos, et ex
+          <lb ed="#P" n="10"/>aliis quae refert Baronius, tom. 1, anno A44,
+          <lb ed="#P" n="11"/>num. 068 et sequentibus); nihilominus etiam
+          <lb ed="#P" n="12"/>decimae imperatae sunt non multo post, 
+          quan<lb break="no" ed="#P" n="13"/>doquidem earum memninnit Clemens, lib. 2
+          <lb ed="#P" n="14"/>Constit., cap. 25, 34 et 35, et post eum fere
+          <lb ed="#P" n="15"/>omnes antiqui Patres, quos in principio hujus
+          <lb ed="#P" n="16"/>materiae retulimus. Semper ergo pro cleri et
+          <lb ed="#P" n="17"/>ministrorum Dei sustentatione, et cum dicta
+          <lb ed="#P" n="18"/>proportione imperatae fuerunt, ut in 
+          unaqua<lb break="no" ed="#P" n="19"/>que dicecesi ad clerum illius dioecesis 
+          pertine<lb break="no" ed="#P" n="20"/>rent, quia ratio justitiae id postulabat, et ad
+          <lb ed="#P" n="21"/>debitum ordinem necessarium erat. Imo,
+          <lb ed="#P" n="22"/>quando erant omnia communia, non est 
+          pu<lb break="no" ed="#P" n="23"/>tandum in universa Ecclesia Catholica, jam
+          <lb ed="#P" n="24"/>per varias regiones dispersa, omnia fuisse ita
+          <lb ed="#P" n="25"/>communia, ut essent sub dominio totius 
+          uni<lb break="no" ed="#P" n="26"/>versalis Ecclesiae ; sed ita ut in unaquaque 
+          ec<lb break="no" ed="#P" n="27"/>clesia, vel civitate, Hierosolymitana, 
+          Alexan<lb break="no" ed="#P" n="28"/>drina, etc., omnia essent ibi communia; ita
+          <lb ed="#P" n="29"/>ergo decimae et oblationes ad singulas 
+          divece<lb break="no" ed="#P" n="30"/>ses cum proportione spectabant. Quod etiam
+          <lb ed="#P" n="31"/>aperte probatur ex 16, quaest. 1, cap. 
+          Perec<lb break="no" ed="#P" n="32"/>nit, cap. Omnes Basilice, et cap. Quoniam,
+          <lb ed="#P" n="33"/>cum aliis: et ratio est clara; tum quia in 
+          una<lb break="no" ed="#P" n="34"/>quaque dioecesi ministri ejus sunt illius 
+          cle<lb break="no" ed="#P" n="35"/>rici; ergo illis dari debent illius dioecesis 
+          de<lb break="no" ed="#P" n="36"/>cimae ; tum etiam quia hoc necessarium 
+          sem<lb break="no" ed="#P" n="37"/>per fuit ad servandum debitum ordinem, et
+          <lb ed="#P" n="38"/>confusionem et dissensionem vitandam.
+        </p>
+        <p>
+          <lb ed="#P" n="39"/>6. Confirmatur tradita doctrina.—Quod ex
+          <lb ed="#P" n="40"/>tertia parte proposita aperte declaratur et 
+          con<lb break="no" ed="#P" n="41"/>firmatur ; nam, ut Clemens dicit, dicto c. 25,
+          <lb ed="#P" n="42"/>ad unumquemque Episcopum, decimarum et
+          <lb ed="#P" n="43"/>oblationum distributio spectabat; vitanda 
+          an<lb break="no" ed="#P" n="44"/>tem semper fuit Episcopatuum confusio, 
+          ideo<lb break="no" ed="#P" n="45"/>que ad uniuscujusque Episcopi curam suae
+          <lb ed="#P" n="46"/>dioecesis decimae pertinebant. Non tamen pro
+          <lb ed="#P" n="47"/>solo Episcopo solvebantur, sed pro ipso et 
+          uni<lb break="no" ed="#P" n="48"/>verso clero, aliisque ecclesiasticis sumptibus
+          <lb ed="#P" n="49"/>et oneribus, unde non illi proprie, sed clero
+          <lb ed="#P" n="50"/>per illum solvebantur. Et hoc ipsum sumitur
+          <lb ed="#P" n="51"/>ex multis decretis, 12, quaest. 1, cap. 
+          Viden<lb break="no" ed="#P" n="52"/>tes, cap. Episcopus, capit. Precipimus, et 
+          se<lb break="no" ed="#P" n="53"/>quentibus; et 12, quaest. 2, cap. Vulteranae,
+          <lb ed="#P" n="54"/>cap. Concessio, cap. Quatuor, et sequentibus.
+          <lb ed="#P" n="55"/>In quibus de divisione ecclesiasticorum reddi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tuum in quatuor partes per Episcopum 
+          facien<lb break="no" ed="#P" n="57"/>da, sermo est. Unde in capit. 1, 16, quaest. 7,
+          <lb ed="#P" n="58"/>sic Gregorius inquit: Decimas sub manu 
+          Epis<lb break="no" ed="#P" n="59"/>copi fure censerous, ut ille, qui ceteris preeest,
+          <lb ed="#P" n="60"/>omnibus juste distribuat, etc.; et in cap. 
+          Per<lb break="no" ed="#P" n="61"/>venit, reprehendit Episcopos, qui decimas, 
+          at<lb break="no" ed="#P" n="62"/>que oblationes christianorum, non in sacerdotes
+          <lb ed="#P" n="63"/>propriee diecesis conferunt. In quibus verbis
+          <lb ed="#P" n="64"/>rationes etiam hujus institutionis tanguntur,
+          <lb ed="#P" n="65"/>quia decimae institutae sunt pro his, qui divina
+          <lb ed="#P" n="66"/>populo ministrant ; at non soli Episcopi 
+          mini<lb break="no" ed="#P" n="67"/>strant, sed etiam alii clerici; ergo. In clero
+          <lb ed="#P" n="68"/>autem Episcopus praeest ; ergo et illi peculiari
+          <lb ed="#P" n="69"/>ratione provideri debet de necessariis ex 
+          fruc<lb break="no" ed="#P" n="70"/>tibus decimarum , et ipsi tanquam aliorum
+          <lb ed="#P" n="71"/>pastori committi debuit omnium reddituum
+          <lb ed="#P" n="72"/>dioecesis suae gubernatio.
+        </p>
+        <p>
+          <lb ed="#P" n="73"/>7. Quando decime unius parochue ad illius
+          <lb ed="#P" n="74"/>clerum pertinere inceperint. — Tertio 
+          dicen<lb break="no" ed="#P" n="75"/>dum est, postquam dioeceses in parochias 
+          di<lb break="no" ed="#P" n="76"/>visa fuere, uniuscujusque parochiae decimas
+          <lb ed="#P" n="77"/>ad clerum, in illa parochia ex officio 
+          minis<lb break="no" ed="#P" n="78"/>trantem divina, per se loquendo pertinere, 
+          il<lb break="no" ed="#P" n="79"/>lique esse reddendas, et non soli parocho, licet
+          <lb ed="#P" n="80"/>per illum regulariter distribuantur, in quo
+          <lb ed="#P" n="81"/>consuetudo vel Episcoporum ordinationes 
+          ser<lb break="no" ed="#P" n="82"/>vandae sunt. Haec assertio imprimis habet 
+          fun<lb break="no" ed="#P" n="83"/>damentum in his quae supra diximus, de 
+          di<lb break="no" ed="#P" n="84"/>visione parochiarum a Dionysio facta, cum
+          <lb ed="#P" n="85"/>assignatione propriorum finium, seu 
+          decima<lb break="no" ed="#P" n="86"/>rum ad unamquamque pertinentium. Inde
+          <lb ed="#P" n="87"/>enim plane constat, uniuscujusque parochiae
+          <lb ed="#P" n="88"/>decimas pro ministris propriis solvi, non pro
+          <lb ed="#P" n="89"/>alienis ; in hoc enim sensu probatum est, 
+          deci<lb break="no" ed="#P" n="90"/>mas parochiae in illius ecclesia solvendas esse,
+          <lb ed="#P" n="91"/>nonin aliena. Item facta divisione, eadem 
+          pro<lb break="no" ed="#P" n="92"/>portio servanda est inter parochias distinctas,
+          <lb ed="#P" n="93"/>quae inter dioeceses distinctas prius 
+          servaba<lb break="no" ed="#P" n="94"/>tur, ut respondit Urbanus II, in cap. Super
+          <lb ed="#P" n="95"/>e0, de Parochiis, et rationes supra factae 
+          pro<lb break="no" ed="#P" n="96"/>bant ; ergo.
+        </p>
+        <p>
+          <lb ed="#P" n="97"/>8. Differentia consideranda inter pavochias
+          <lb ed="#P" n="98"/>et dieceses. — Est autem hic consideranda
+          <lb ed="#P" n="99"/>quaedam differentia, nam parochiae nunquam
+          <lb ed="#P" n="100"/>debent intelligi ita divisae, ut unaquaeque 
+          so<lb break="no" ed="#P" n="101"/>lum parochum et inferiores clericos 
+          compre<lb break="no" ed="#P" n="102"/>hendat ; nam etiam Episcopus totius dioecesis
+          <lb ed="#P" n="103"/>ad clerum uniuscujusque parochia aliquo
+          <lb ed="#P" n="104"/>modo pertinet, tanquam principalis illius 
+          po<lb break="no" ed="#P" n="105"/>puli gubernator, et minister in spiritualibus,
+          <lb ed="#P" n="106"/>et suo modo etiam proximus ; dioeceses vero
+          <lb ed="#P" n="107"/>ita fuerunt semper distinctae, ut clerus illius
+          <lb ed="#P" n="108"/>dicecesis solum Episcopum et inferiores 
+          com<lb break="no" ed="#P" n="109"/>prehendat. Nam licet Papa ex institutione 
+          di<lb break="no" ed="#P" n="110"/>vina, omnium ecclesiarum et episcopatuum
+          <pb ed="#P" n="198"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sit pastor, nihilominus quatenus Papa est,
+          <lb ed="#P" n="2"/>censetur esse extra, et supra clerum 
+          uniuscu<lb break="no" ed="#P" n="3"/>jusque dioecesis , praesertim quoad negotium
+          <lb ed="#P" n="4"/>decimarum, quia, tanquam supremus princeps
+          <lb ed="#P" n="5"/>et caput, non ordinario jure, sed altiori modo
+          <lb ed="#P" n="6"/>de redditibus singularum dioecesum 
+          partici<lb break="no" ed="#P" n="7"/>pat, ut supra tetigimus, et statim amplius 
+          ex<lb break="no" ed="#P" n="8"/>plicabimus. Alii vero superiores praelati 
+          epis<lb break="no" ed="#P" n="9"/>copalium dioecesum, quos Ecclesia constituit,
+          <lb ed="#P" n="10"/>ut Archiepiscopi , primates, seu patriarchae,
+          <lb ed="#P" n="11"/>valde etiam remote attingunt regimen et 
+          cu<lb break="no" ed="#P" n="12"/>ram suffraganeorum episcopatuum , et ideo
+          <lb ed="#P" n="13"/>extra clerum illorum censentur , maxime in
+          <lb ed="#P" n="14"/>jure decimarum.
+        </p>
+        <p>
+          <lb ed="#P" n="15"/>9. Decima parochiales ad episcopum etiam
+          <lb ed="#P" n="16"/>pertinent. — Ex his ergo satis probata manet
+          <lb ed="#P" n="17"/>non solum prima assertionis pars, sed aliquo
+          <lb ed="#P" n="18"/>modo etiam secunda quoad negationem illius
+          <lb ed="#P" n="19"/>exclusivae, nimirum, quod decimae 
+          parochia<lb break="no" ed="#P" n="20"/>les non pertineant ad solum parochum, etiam
+          <lb ed="#P" n="21"/>per se et jure ordinario, quia etiam ad 
+          Epis<lb break="no" ed="#P" n="22"/>copum dioecesis cum proportione pertinent,
+          <lb ed="#P" n="23"/>quo sensu dicimus sub clero uniuscujusque
+          <lb ed="#P" n="24"/>parochiae comprehendi. Dico autem, cum 
+          pro<lb break="no" ed="#P" n="25"/>portione, quia inter clericos parochiae cum 
+          pro<lb break="no" ed="#P" n="26"/>portione dividendae sunt decimae, et inter eos
+          <lb ed="#P" n="27"/>praelatus computatur , ad quem pars 
+          decima<lb break="no" ed="#P" n="28"/>rum spectat, ut recte docuit Abulens., quaest.
+          <lb ed="#P" n="29"/>176, in 23 cap. Masth. ; et Panormitanus in
+          <lb ed="#P" n="30"/>cap. Cum contingat, de Decimis, num. 7, ubi
+          <lb ed="#P" n="31"/>quartam partem ad Episcopum pertinere dicit,
+          <lb ed="#P" n="32"/>ut videtur expresse declaratum in capit. 
+          Con<lb break="no" ed="#P" n="33"/>querente, de Offic. ordin., ubi inter 
+          episcopa<lb break="no" ed="#P" n="34"/>lia jura ponitur, Quarta decimationum ; et 
+          hi<lb break="no" ed="#P" n="35"/>cet Glossa ibi dicat, quod hanc quartam 
+          Epis<lb break="no" ed="#P" n="36"/>copus de consuetudine percipiebat , tamen et
+          <lb ed="#P" n="37"/>nullam probationem affert, et illa consuetudo
+          <lb ed="#P" n="38"/>sufficere potuit ad introducendum jus ; vel
+          <lb ed="#P" n="39"/>certe ex antiquo jure manasse, probabilius
+          <lb ed="#P" n="40"/>est : nam illa consuetudo consentanea est 
+          an<lb break="no" ed="#P" n="41"/>tiquis decretis cap. Fobis, cap. Fulteranw et
+          <lb ed="#P" n="42"/>sequentibus, 12, q. 2. Unde in cap. De 
+          quar<lb break="no" ed="#P" n="43"/>ta, de Praescript., clare supponitur hanc 
+          quar<lb break="no" ed="#P" n="44"/>tam pertinere ad Episcopum jure ordinario,
+          <lb ed="#P" n="45"/>cum ibi dicatur necessariam esse 
+          praescriptio<lb break="no" ed="#P" n="46"/>nem quadraginta annorum, ut parochus 
+          pos<lb break="no" ed="#P" n="47"/>sit contra Episcopum se tueri in hujus quartae
+          <lb ed="#P" n="48"/>petitione. Et idem plane colligitur ex c. 
+          Quo<lb break="no" ed="#P" n="49"/>niamn, de Decimis, ibi: 7ua parte retenta ; nam
+          <lb ed="#P" n="50"/>plane supponitur , partem aliquam 
+          decima<lb break="no" ed="#P" n="51"/>rum praedialium parochiarum ita ad 
+          Episco<lb break="no" ed="#P" n="52"/>pum pertinere, ut tanquam suam possit illam
+          <lb ed="#P" n="53"/>retinere. Signum est ergo esse certam partem
+          <lb ed="#P" n="54"/>aliquotam, quam oportet esse jure definitam
+          <lb ed="#P" n="55"/>el concessam ; nam propter solam consueta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dinem contingentem, non oporteret illam 
+          ex<lb break="no" ed="#P" n="57"/>ceptionem facere. Idem colligitur ex cap. 
+          Du<lb break="no" ed="#P" n="58"/>dum , eod. tit., ut ibi notant Joannes Andreas
+          <lb ed="#P" n="59"/>et Hostiensis, in illis verbis: Zntentione tua
+          <lb ed="#P" n="60"/>de jure communi fundata petisti. Nec refert
+          <lb ed="#P" n="61"/>quod Glossa, quam sequitur Rebuffus, dict.
+          <lb ed="#P" n="62"/>quaest. 7, num. 11, dicat illam esse 
+          narratio<lb break="no" ed="#P" n="63"/>nem partis, non Papae ; hoc, inquam, non 
+          ob<lb break="no" ed="#P" n="64"/>stat, tum quia id non satis constat ex verbis;
+          <lb ed="#P" n="65"/>tum etiam quia Papa inferius consentit, dum
+          <lb ed="#P" n="66"/>ait non fuisse juri episcopali derogatum ; 
+          lo<lb break="no" ed="#P" n="67"/>quitur enim de jure quod pro se Episcopus
+          <lb ed="#P" n="68"/>allegaverat.
+        </p>
+        <p>
+          <lb ed="#P" n="69"/>10. Decimas mediante parochia deberi 
+          Epis<lb break="no" ed="#P" n="70"/>copo, aliqui dicunt. — Ratio institutionis. —
+          <lb ed="#P" n="71"/>Addunt tamen Joannes Andreas, et Abbas in
+          <lb ed="#P" n="72"/>dicto cap. Conquerente, decimas de jure 
+          com<lb break="no" ed="#P" n="73"/>muni non deberi Episcopo, sed ecclesiis 
+          paro<lb break="no" ed="#P" n="74"/>chialibus ; has vero ecclesias debere Episcopo
+          <lb ed="#P" n="75"/>quartam partem perceptarum decimarum.
+          <lb ed="#P" n="76"/>Sed hoc in idem redit; dicuntur enim decimae
+          <lb ed="#P" n="77"/>parochiarum non deberi Episcopo quasi 
+          im<lb break="no" ed="#P" n="78"/>mediate , sed mediante ipsa parochia: quia
+          <lb ed="#P" n="79"/>immediatum jus est in ipsa parochia, seu 
+          cle<lb break="no" ed="#P" n="80"/>ro illius, et respectu illius totus cumulus 
+          de<lb break="no" ed="#P" n="81"/>cimarum ad talem ecclesiam pertinentium
+          <lb ed="#P" n="82"/>congregandus: ex illo autem sua portio ad
+          <lb ed="#P" n="83"/>Episcopum spectat aeque primo, ac ad 
+          caete<lb break="no" ed="#P" n="84"/>ros de illo clero, vel etiam principalius, quia
+          <lb ed="#P" n="85"/>ipse de jure est principalis dispensator illius
+          <lb ed="#P" n="86"/>cumuli perceptarum decimarum ; et ita etiam
+          <lb ed="#P" n="87"/>in hoc modo loquendi vel non magis 
+          perti<lb break="no" ed="#P" n="88"/>nent decimae de jure communi ad parochum,
+          <lb ed="#P" n="89"/>quam ad Episcopum, respective loquendo de
+          <lb ed="#P" n="90"/>portionibus illorum, vel ad summum dici
+          <lb ed="#P" n="91"/>posse videtur, parochum esse quasi proxsimum
+          <lb ed="#P" n="92"/>ministrum, ad quem jus coliigendi decimas
+          <lb ed="#P" n="93"/>ecclesiae suae debitas pertinet. Propter hoc
+          <lb ed="#P" n="94"/>enim ille habet potestatem agendi ad 
+          peten<lb break="no" ed="#P" n="95"/>das omnes decimas parochiae contra injuste
+          <lb ed="#P" n="96"/>occupantes, ut notavit Rebuffus, quaest. 9, n.
+          <lb ed="#P" n="97"/>16, licet non sibi soli, sed aliis consortibus 
+          pe<lb break="no" ed="#P" n="98"/>tat. Ratio autem hujus institutionis est supra
+          <lb ed="#P" n="99"/>tacta, quia Episcopus est principalis minister
+          <lb ed="#P" n="100"/>singularum parochiarum ; ergo ratio postulat,
+          <lb ed="#P" n="101"/>ut de bonis ac decimis uniuscujusque 
+          paro<lb break="no" ed="#P" n="102"/>chiae principaliter participet, unde olim etiam
+          <lb ed="#P" n="103"/>pars fructuum illi conferebatur , ut colligitur
+          <lb ed="#P" n="104"/>ex cap. Unio, 10, quaest. 3. Quod tamen non
+          <lb ed="#P" n="105"/>de decimis, sed de oblationibus multi 
+          intelli<lb break="no" ed="#P" n="106"/>gunt, juxta alia jura ejusdem quaestionis. 
+          In<lb break="no" ed="#P" n="107"/>de vero roboratur saltem ratio facta, quod
+          <lb ed="#P" n="108"/>Episcopus semper habitus est tanquam pars
+          <lb ed="#P" n="109"/>et caput parochialis cleri ; ideo enim etiam
+          <lb ed="#P" n="110"/>oblationum particeps fiebat; ergo licet iilud
+          <pb ed="#P" n="199"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>de oblationibus ordinariis usu videatur 
+          subla<lb break="no" ed="#P" n="2"/>tum, merito participatio decimarum jure 
+          com<lb break="no" ed="#P" n="3"/>muni retenta est. Neque huic assertioni divus
+          <lb ed="#P" n="4"/>Thomas aut Cajetanus refragantur, nam 
+          gene<lb break="no" ed="#P" n="5"/>ratim loquuntur de clericis habentibus 
+          ani<lb break="no" ed="#P" n="6"/>marum curam, sub quibus merito Episcopi
+          <lb ed="#P" n="7"/>comprehenduntur. Atque ex hac ratione 
+          con<lb break="no" ed="#P" n="8"/>stat, non esse hoc limitandum ad parochiam
+          <lb ed="#P" n="9"/>cathedralis ecclesiae , quia, quod attinet ad
+          <lb ed="#P" n="10"/>quartam partem decimarum praedialium, jura
+          <lb ed="#P" n="11"/>de omnibus parochiis dioecesis loquuntur. Nec
+          <lb ed="#P" n="12"/>majorem partem habet in decimis parochiae
+          <lb ed="#P" n="13"/>ecclesiae cathedralis, nisi ubi ipse fuerit 
+          pro<lb break="no" ed="#P" n="14"/>prius curatus ejus (ut notavit Rebuffus, dicta
+          <lb ed="#P" n="15"/>quaest. 7, num. 7, alios referens ), quia nullo
+          <lb ed="#P" n="16"/>jure plus illi tribuitur.
+        </p>
+        <p>
+          <lb ed="#P" n="17"/>11. Objectio. — Satisfit ilh. — Dices, hac
+          <lb ed="#P" n="18"/>ratione concludi decimas singularum 
+          eccle<lb break="no" ed="#P" n="19"/>siarum, sive parochialium, sive episcopalium,
+          <lb ed="#P" n="20"/>cum debita proportione etiam ad Summum
+          <lb ed="#P" n="21"/>Pontificem pertinere, quia ipse etiam est 
+          cle<lb break="no" ed="#P" n="22"/>ricus habens animarum curam ; habet autem
+          <lb ed="#P" n="23"/>curam omnium animarum in omnibus 
+          paro<lb break="no" ed="#P" n="24"/>chiis degentium, et ibi suas decimas 
+          persol<lb break="no" ed="#P" n="25"/>ventium. Respondeo breviter, ex supra dictis
+          <lb ed="#P" n="26"/>capite duodecimo, loquendo de possibili, 
+          po<lb break="no" ed="#P" n="27"/>tuisse quidem jure communi statui, ut in 
+          dis<lb break="no" ed="#P" n="28"/>tributione omnium decimarum parochialium
+          <lb ed="#P" n="29"/>suam partem Summus Pontifex haberet, quia
+          <lb ed="#P" n="30"/>cum ipse sit caput omnium ecclesiarum, et
+          <lb ed="#P" n="31"/>universalis pastor spiritualis, in illo maxime
+          <lb ed="#P" n="32"/>locum habet finis proximus decimarum. Et
+          <lb ed="#P" n="33"/>ita supponit D. Thomas, secunda secundae,
+          <lb ed="#P" n="34"/>quaest. 18, art. 4 ad 3; Alens., 3 part., quaest.
+          <lb ed="#P" n="35"/>D1, memb. 6, art. 6; Abulensis, dicto cap.
+          <lb ed="#P" n="36"/>23. quaest. 176; Joannes Andreas, 
+          Hostien<lb break="no" ed="#P" n="37"/>sis, et alii, in cap. 1, de Decimis. Ad quod
+          <lb ed="#P" n="38"/>notari potest singulare verbum in Concilio
+          <lb ed="#P" n="39"/>Lateranensi, sub Alexandro III, parte quarta,
+          <lb ed="#P" n="40"/>capite quarto: Cum homines, etc., decimas
+          <lb ed="#P" n="41"/>Hcclesiee et mihi solvere teneantur ; est enim
+          <lb ed="#P" n="42"/>consideranda illa particula, et mihi; nam
+          <lb ed="#P" n="43"/>Pontifex est qui loquitur, et significat decimas
+          <lb ed="#P" n="44"/>sibi deberi. Sed illa particula, in cap. Cum
+          <lb ed="#P" n="45"/>homines, extra, de Decimis, omittitur ; tamen
+          <lb ed="#P" n="46"/>potest intelligi, ut dicantur Pontifici deberi,
+          <lb ed="#P" n="47"/>tum quia ex praecepto ejus debentur; tum
+          <lb ed="#P" n="48"/>quia est supremus dispensator illarum; tum
+          <lb ed="#P" n="49"/>quia jus habet de illis participandi, si velit et
+          <lb ed="#P" n="50"/>indigeat. Nihilominus jure communi et 
+          ordi<lb break="no" ed="#P" n="51"/>nario non usurparunt sibi Pontifices hoc jus,
+          <lb ed="#P" n="52"/>ut iidem auctores pro comperto habent, et
+          <lb ed="#P" n="53"/>nos in dicto capite ostendimus, et hujus 
+          insti<lb break="no" ed="#P" n="54"/>tutionis varias congruentias Abulensis supra
+          <lb ed="#P" n="55"/>adducit, Et in hoc sensu diximus supra, Pa-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pam non comprehendi sub parochia, seu clero
+          <lb ed="#P" n="57"/>parochiali cui debentur decimae jure ordinario
+          <lb ed="#P" n="58"/>et communi ; quamvis alioquin habeat 
+          supre<lb break="no" ed="#P" n="59"/>mum jus dispensandi omnes decimas, et 
+          ali<lb break="no" ed="#P" n="60"/>quam earum partem postulandi ex vera, ac
+          <lb ed="#P" n="61"/>justa causa, et necessitate. At Episcopus e
+          <lb ed="#P" n="62"/>converso quoad suam canonicam portionem
+          <lb ed="#P" n="63"/>jure communi censetur de illo clero; quoad
+          <lb ed="#P" n="64"/>reliquas vero partes, licet habeat potestatem
+          <lb ed="#P" n="65"/>administrandi et distribuendi illas, habet 
+          ta<lb break="no" ed="#P" n="66"/>men illam alligatam juri communi, nec potest
+          <lb ed="#P" n="67"/>ea, quae ad alios pertinent, usurpare, nec 
+          no<lb break="no" ed="#P" n="68"/>vum onus clericis imponere, ut in multis
+          <lb ed="#P" n="69"/>decretis institutum est, 16, quaest. 1. Hac
+          <lb ed="#P" n="70"/>ergo ratione, merito dicimus decimas 
+          paro<lb break="no" ed="#P" n="71"/>chiae non soli parocho deberi, quia etiam
+          <lb ed="#P" n="72"/>Episcopo magna ex parte, et quodammodo
+          <lb ed="#P" n="73"/>magis ac principalius debentur.
+        </p>
+        <p>
+          <lb ed="#P" n="74"/>12. Quibus ecclesiee ministris decime etiam
+          <lb ed="#P" n="75"/>debeantur.— Addendum vero ulterius est, alia
+          <lb ed="#P" n="76"/>etiam ratione deberi decimas non solis 
+          paro<lb break="no" ed="#P" n="77"/>chis, quia, videlicet, in unaquaque ecclesia
+          <lb ed="#P" n="78"/>simul debentur aliis ministris altaris, qui ex
+          <lb ed="#P" n="79"/>titulo alicujus beneficii, ex decimis instituti,
+          <lb ed="#P" n="80"/>tenentur ex officio altari vel choro inservire.
+          <lb ed="#P" n="81"/>Hanc conclusionem principaliter intendunt
+          <lb ed="#P" n="82"/>Soto, et qui eum sequuutur : et licet non 
+          pos<lb break="no" ed="#P" n="83"/>sit positive (ut sic dicam) et in particulari ex
+          <lb ed="#P" n="84"/>jure ostendi, ostenditur autem imprimis illa
+          <lb ed="#P" n="85"/>ratione, quod decimae non sunt institutae 
+          pro<lb break="no" ed="#P" n="86"/>pter solum ministerium curandi animas, seu
+          <lb ed="#P" n="87"/>ministrandi illis sacramenta, sed simpliciter
+          <lb ed="#P" n="88"/>propter ministerium divini cultus, cap. Ez
+          <lb ed="#P" n="89"/>parte, 2, de Decim. Quia populus christianus
+          <lb ed="#P" n="90"/>non tenetur tantum sacramenta suscipere, sed
+          <lb ed="#P" n="91"/>etiam sacrificia offerre, ac Deum publice 
+          co<lb break="no" ed="#P" n="92"/>lere et laudare, fidemque profiteri, ac tueri;
+          <lb ed="#P" n="93"/>ad hos autem fines, necessarium est, non 
+          so<lb break="no" ed="#P" n="94"/>lum alere ministros qui curam habeant 
+          ani<lb break="no" ed="#P" n="95"/>marum, sed etiam alios, qui Deum variis 
+          mo<lb break="no" ed="#P" n="96"/>dis colant nomine totius populi, et fidem
+          <lb ed="#P" n="97"/>tueantur ac doceant, et verbo Dei populum
+          <lb ed="#P" n="98"/>pascant; ergo decimae non tantum curatis,
+          <lb ed="#P" n="99"/>sed etiam aliis ex officio ministrantibus 
+          spi<lb break="no" ed="#P" n="100"/>ritualia deberi possunt. Atque hoc modo 
+          po<lb break="no" ed="#P" n="101"/>test hoc ex jure colligi partim negative, 
+          par<lb break="no" ed="#P" n="102"/>tim ex generalibus locutionibus et rationibus
+          <lb ed="#P" n="103"/>decimarum, quae in jure habentur. Negative
+          <lb ed="#P" n="104"/>quidem, quia nullum est jus ita praecipiens
+          <lb ed="#P" n="105"/>decimas dari parochis, ut alii ministri 
+          eccle<lb break="no" ed="#P" n="106"/>siae excludantur ; ad summum enim dicunt
+          <lb ed="#P" n="107"/>jura, decimas persolvendas esse parochiis ; at
+          <lb ed="#P" n="108"/>in parochiis non solum compntantur parochi,
+          <lb ed="#P" n="109"/>sed etiam alii ministri, licet cura et 
+          admini<lb break="no" ed="#P" n="110"/>stratio proxima parochiae, et bonorum ad
+          <pb ed="#P" n="200"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>eam pertinentium, peculiari modo Rectori
+          <lb ed="#P" n="2"/>ejus commissa sit.
+        </p>
+        <p>
+          <lb ed="#P" n="3"/>13. Unde adjungi potest alia probatio ex
+          <lb ed="#P" n="4"/>generalibus locutionibus; nam in cap. Non
+          <lb ed="#P" n="5"/>est, de Decimis, dicitur, decimas esse ministris
+          <lb ed="#P" n="6"/>HFcclesie tribuendas; et in cap. E parte, 2,
+          <lb ed="#P" n="7"/>supponitur canonicis in sua ecclesia esse 
+          de<lb break="no" ed="#P" n="8"/>bitas ; et In cap. Tua, 2, dicitur, Deo debitam
+          <lb ed="#P" n="9"/>esse solutionem decimarum , quia nimirum
+          <lb ed="#P" n="10"/>propter cultum suum principaliter 
+          imperan<lb break="no" ed="#P" n="11"/>tur, unde subditur, esse clericis emhibendas,
+          <lb ed="#P" n="12"/>quilus eas ipse pro suo cultu concessit. Et in
+          <lb ed="#P" n="13"/>c. 1, 16, q. 71, absolute dicitur: Decimas in
+          <lb ed="#P" n="14"/>usum pietatis concessas esse, canonica 
+          aucto<lb break="no" ed="#P" n="15"/>ritas demonstrat. Et hoc maxime probant 
+          an<lb break="no" ed="#P" n="16"/>tiqui canones, qui in divisione decimarum
+          <lb ed="#P" n="17"/>disposuerunt, ut quarta pars non solis 
+          paro<lb break="no" ed="#P" n="18"/>chis daretur, sed presbyteris , diaconibus et
+          <lb ed="#P" n="19"/>clero divideretur, ut dicitur in cap. Ad hoc, 16,
+          <lb ed="#P" n="20"/>q. 1, et aliis supra citatis. Quae jura antiqua
+          <lb ed="#P" n="21"/>quoad hanc partem non sunt per posteriora
+          <lb ed="#P" n="22"/>decreta sublata, nec parochiarum divisio 
+          ob<lb break="no" ed="#P" n="23"/>stat, quominus illa in sua vi possint 
+          rema<lb break="no" ed="#P" n="24"/>nere.
+        </p>
+        <p>
+          <lb ed="#P" n="25"/>14. Objectiones proponuntur. — 
+          Quorum<lb break="no" ed="#P" n="26"/>dam opinio. — Sed objici potest, quia hinc 
+          se<lb break="no" ed="#P" n="27"/>quitur decimas praediales non ad solum 
+          cle<lb break="no" ed="#P" n="28"/>rum pertinere, sed etiam ad pauperes, quia
+          <lb ed="#P" n="29"/>etiam illis sua portio decimarum ex vi 
+          com<lb break="no" ed="#P" n="30"/>munis juris applicanda est; consequens est
+          <lb ed="#P" n="31"/>plane falsum, ut ex omnium sententia et ex
+          <lb ed="#P" n="32"/>dictis in capite praecedenti constat. Similiter
+          <lb ed="#P" n="33"/>sequitur, decimas aliqua ex parte non 
+          perti<lb break="no" ed="#P" n="34"/>nere ad personas clericorum, sed etiam ad
+          <lb ed="#P" n="35"/>ipsam ecclesiam, seu fabricam ejus, in qua
+          <lb ed="#P" n="36"/>etiam pars aliqua decimarum expendi 
+          de<lb break="no" ed="#P" n="37"/>bet, juxta dispositionem juris. Consequens est
+          <lb ed="#P" n="38"/>falsum, quia materiale ipsum templum non
+          <lb ed="#P" n="39"/>est capax juris; sed clerici vel rectores ejus
+          <lb ed="#P" n="40"/>habent tale jus cum tali obligatione seu onerc.
+          <lb ed="#P" n="41"/>Denique si ratio facta esset efficax, quotquot
+          <lb ed="#P" n="42"/>ministri Ecclesia ex decimis ejus aluntur,
+          <lb ed="#P" n="43"/>computandi essent inter eos quibus decimae
+          <lb ed="#P" n="44"/>debentur, et:am cantores laici, et famuli, quia
+          <lb ed="#P" n="45"/>omnibus "atur aliqua pars decimarum, ex vi
+          <lb ed="#P" n="46"/>illius legis : Non alligabis os bovi trituranti,
+          <lb ed="#P" n="47"/>et : Dignaus est mercenarius mercede sua. 
+          Prop<lb break="no" ed="#P" n="48"/>ter haec et similia, dicunt aliqui decimas solis
+          <lb ed="#P" n="49"/>parochis proprie deberi, et ad summum etiam
+          <lb ed="#P" n="50"/>Episcopis ; caeteros autem ecclesiae ministros
+          <lb ed="#P" n="51"/>non habere jus decimarum, quia populus non
+          <lb ed="#P" n="52"/>tenetur eos alere, cum illius utilitatem non
+          <lb ed="#P" n="53"/>procurent ; sed ecclesia, cui inserviunt, ad hoc
+          <lb ed="#P" n="54"/>tenetur, quae obligatio cadit in eos, qui habent
+          <lb ed="#P" n="55"/>animarum, et consequenter etiam ecclesiarum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>curam. Tenentur enim illi alere ex suis 
+          red<lb break="no" ed="#P" n="57"/>ditibus ministros et coadjutores sibi 
+          necessa<lb break="no" ed="#P" n="58"/>rios, ut suo muneri possint satisfacere, sive
+          <lb ed="#P" n="59"/>illi ministri clerici sint, sive etiam laici, pro
+          <lb ed="#P" n="60"/>ratione et modo ministerii aut servitii 
+          eccle<lb break="no" ed="#P" n="61"/>siae, ad quod conducuntur.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>15. Solvuntur objectiones.— Respondeo, ad
+          <lb ed="#P" n="63"/>excludendas has et similes objectiones, et rem
+          <lb ed="#P" n="64"/>totam explicandam, dictum a nobis esse, 
+          de<lb break="no" ed="#P" n="65"/>cimas deberi illis minisiris altaris, qui ex 
+          ti<lb break="no" ed="#P" n="66"/>tulo alicujus beneficii tenentur in ecclesia ad
+          <lb ed="#P" n="67"/>aliquod ministerium spirituale, etiamsi 
+          pro<lb break="no" ed="#P" n="68"/>priam animarum curam non habeant. Quod
+          <lb ed="#P" n="69"/>omnino verum esse probatur, quia illi proprie
+          <lb ed="#P" n="70"/>et in rigore debentur decimae, qui habet jus
+          <lb ed="#P" n="71"/>spirituale in quo fundatur tale debitum; sed
+          <lb ed="#P" n="72"/>omnes illi qui habent tale beneficium, habent
+          <lb ed="#P" n="73"/>jus ad percipiendos fructus ejus, etiamsi sint
+          <lb ed="#P" n="74"/>fructus decimarum ; ergo. Major ex supra 
+          no<lb break="no" ed="#P" n="75"/>tatis clara est, quia in decima duo tantum a
+          <lb ed="#P" n="76"/>D. Thoma et Doctoribus distinguuntur, 
+          red<lb break="no" ed="#P" n="77"/>ditus ipsi materiales, et jus spirituale; cui
+          <lb ed="#P" n="78"/>ergo ista duo proprie conveniunt, 
+          propriis<lb break="no" ed="#P" n="79"/>sime etiam decimae debentur. Minor autem est
+          <lb ed="#P" n="80"/>etiam certa. Nam omnia beneficia, etiamsi
+          <lb ed="#P" n="81"/>curata non sint, in spirituali jure fundata
+          <lb ed="#P" n="82"/>sunt, et illud principaliter includunt ; 
+          tempo<lb break="no" ed="#P" n="83"/>rale autem est quasi annexum, et hoc est 
+          to<lb break="no" ed="#P" n="84"/>tum fundamentum simoniae, in venditione et
+          <lb ed="#P" n="85"/>emptione beneficiorum; non enim tantum in
+          <lb ed="#P" n="86"/>beneficiis curatis, sed in omnibus simonia
+          <lb ed="#P" n="87"/>committitur, et ideo ait Soto, non posse sine
+          <lb ed="#P" n="88"/>errore negari, jus ad decimas in talibus 
+          bene<lb break="no" ed="#P" n="89"/>ficiis spirituale esse. Et confirmatur ac 
+          decla<lb break="no" ed="#P" n="90"/>ratur, quia licet alii clerici non ita immediate
+          <lb ed="#P" n="91"/>incumbant saluti animarum, sicut curati, 
+          ni<lb break="no" ed="#P" n="92"/>hilominus non tantum actiones propriae 
+          paro<lb break="no" ed="#P" n="93"/>chorum spirituales sunt, sed etiam aliae; ergo
+          <lb ed="#P" n="94"/>aliae etiam sufficiunt ad fundandum jus, et
+          <lb ed="#P" n="95"/>proprium debitum decimarum, quia non est
+          <lb ed="#P" n="96"/>de ratione hujvs juris ut fundetur in 
+          actioni<lb break="no" ed="#P" n="97"/>bus directe operantibus salutem animarum,
+          <lb ed="#P" n="98"/>sed satis est ut sint actiones spirituales 
+          perti<lb break="no" ed="#P" n="99"/>nentes ad cultum Dei. Eo vel maxime quod
+          <lb ed="#P" n="100"/>nullae sunt hujusmodi actiones factae a 
+          miris<lb break="no" ed="#P" n="101"/>tris Ecclesiae, ut tales sunt, quae non conferant
+          <lb ed="#P" n="102"/>ad animarum salutem, licet non omnes 
+          aequa<lb break="no" ed="#P" n="103"/>liter, neque cum eadem necessitate, quod 
+          pa<lb break="no" ed="#P" n="104"/>rum refert.
+        </p>
+        <p>
+          <lb ed="#P" n="105"/>16. Accedit tandem quod utrumque genus
+          <lb ed="#P" n="106"/>actionum pertinentium tam directe ad 
+          cura<lb break="no" ed="#P" n="107"/>tionem animarum, quam ad alia ministeria
+          <lb ed="#P" n="108"/>divini cultus, potest duobus modis fieri, 
+          scili<lb break="no" ed="#P" n="109"/>cet, vel ex proprio officio collato per 
+          Eccle<lb break="no" ed="#P" n="110"/>siam cum spirituali titulo, vel non ex officio,
+          <pb ed="#P" n="201"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sed aut devotione, ut fit a religiosis, vel 
+          mer<lb break="no" ed="#P" n="2"/>cenario stipendio, sicut fit a clericis mercede
+          <lb ed="#P" n="3"/>conductis, inter quos modos tanta est 
+          differen<lb break="no" ed="#P" n="4"/>tia, ut etiam ministerium propriorum 
+          paro<lb break="no" ed="#P" n="5"/>chorum, nisi fiat priori modo, non sufficiat,
+          <lb ed="#P" n="6"/>ut sic operantibus decimae proprie debeantur.
+          <lb ed="#P" n="7"/>Et hac ratione, religiosis ut sic et ex proprio
+          <lb ed="#P" n="8"/>jure non debentur decimae, etiamsi maxime
+          <lb ed="#P" n="9"/>cooperentur animarum saluti, ut est certa
+          <lb ed="#P" n="10"/>omnium sententia. Nec etiam clerico 
+          capella<lb break="no" ed="#P" n="11"/>no per mercedem conducto ut parochum 
+          ju<lb break="no" ed="#P" n="12"/>vet, debentur decimae, sed parochus vel 
+          Epis<lb break="no" ed="#P" n="13"/>copus debet ei suam mercedem. Ergo simil
+          <lb ed="#P" n="14"/>modo dicendum est inaliis spiritualibus 
+          actio<lb break="no" ed="#P" n="15"/>nibus, ac ministeriis divini cultus, quod licet,
+          <lb ed="#P" n="16"/>facta ex devotione vel mercenaria 
+          conductio<lb break="no" ed="#P" n="17"/>ne, non sufficiant ad fundandum proprium
+          <lb ed="#P" n="18"/>debitum decimarum, nihilominus facta ex 
+          of<lb break="no" ed="#P" n="19"/>cio ratione beneficii et tituli spiritualis, 
+          fun<lb break="no" ed="#P" n="20"/>dant proprium jus, cui etiam ondt 
+          pro<lb break="no" ed="#P" n="21"/>prium debitum decimarum.
+        </p>
+        <p>
+          <lb ed="#P" n="22"/>17. Non esse eamdem rationem in pauperibus,
+          <lb ed="#P" n="23"/>atque in aliis clericis. —Et ita facile 
+          responde<lb break="no" ed="#P" n="24"/>tur objectionibus factis. Imprimis enim non
+          <lb ed="#P" n="25"/>est ea lem ratio de pauperibus, quia illi 
+          nun<lb break="no" ed="#P" n="26"/>quam habent intrinsecum jus ad aliquam 
+          par<lb break="no" ed="#P" n="27"/>tem decimarum, sed ipsis clericis dantur 
+          be<lb break="no" ed="#P" n="28"/>neficia cum hoc onere subveniendi pauperibus,
+          <lb ed="#P" n="29"/>sive onus illud sit ex propria justitia, sive ex
+          <lb ed="#P" n="30"/>charitate, vel alia virtute, quod alibi est 
+          trac<lb break="no" ed="#P" n="31"/>tandum. Unde optime dixit Ambrosius, serm.
+          <lb ed="#P" n="32"/>58 de Ascens: 7lle bonus Christianus est, qui
+          <lb ed="#P" n="33"/>decimas Deo annis singulis erogandas 
+          pauperi<lb break="no" ed="#P" n="34"/>bus reddit, qui sacerdotibus suis honcrem 
+          im<lb break="no" ed="#P" n="35"/>pendit ; pauperibus ergo decimae sunt 
+          erogan<lb break="no" ed="#P" n="36"/>dae, sed per sacerdotes locum Dei tenentes,
+          <lb ed="#P" n="37"/>qui decimarum solutione honorandi sunt. Sic
+          <lb ed="#P" n="38"/>etiam Clemens, . 2 Constitutionum, cap. 25:
+          <lb ed="#P" n="39"/>Quae secundum Dei mandatum (ait) tribuuntur,
+          <lb ed="#P" n="40"/>decimas dico et primitias insumat Episcopus,
+          <lb ed="#P" n="41"/>ut homo Dei, quae causa pauperum sponte 
+          offe<lb break="no" ed="#P" n="42"/>runtur, distribuat decenter, etc. Et plura de
+          <lb ed="#P" n="43"/>hoc videri possunt in Abulens., in d. c. 23
+          <lb ed="#P" n="44"/>Matt., quaest. 117.
+        </p>
+        <p>
+          <lb ed="#P" n="45"/>18. Quid de templi fabrica dicendum. —
+          <lb ed="#P" n="46"/>Eademque ratio est de fabrica cum 
+          proportio<lb break="no" ed="#P" n="47"/>ne. Quod si fortasse contingat, ut olim 
+          obser<lb break="no" ed="#P" n="48"/>vatum erat, partem aliquam decimarum nulli
+          <lb ed="#P" n="49"/>clerico seu beneficiato applicari, sed ad usum
+          <lb ed="#P" n="50"/>fabricae vel pauperum reservari, tunc quidem
+          <lb ed="#P" n="51"/>decimae illae non debentur proprie alicui 
+          cle<lb break="no" ed="#P" n="52"/>rico in particulari, ut in ejus dominium 
+          trans<lb break="no" ed="#P" n="53"/>ferantur; sed debentur ecclesiae, non quidem
+          <lb ed="#P" n="54"/>materiali templo, ut objectio procedebat, sed
+          <lb ed="#P" n="55"/>ratione templi debentur ecclesiae, id est, cle-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ro, ut in talem usum, et non in alium illas
+          <lb ed="#P" n="57"/>dispenset ; non est autem ita de decimis, quae
+          <lb ed="#P" n="58"/>per institutionem beneficiorum 
+          ecclesiastico<lb break="no" ed="#P" n="59"/>rum variis modis applicata sunt clericis ad
+          <lb ed="#P" n="60"/>varia ministeria ; nam tunc proprium jus 
+          de<lb break="no" ed="#P" n="61"/>cimarum confertur clerico habenti tale 
+          bene<lb break="no" ed="#P" n="62"/>ficium. Et ideo etiam non est simile de aliis
+          <lb ed="#P" n="63"/>qu: ecclesia inserviunt (etiam in 
+          spirituali<lb break="no" ed="#P" n="64"/>bus), tantum ut mercenarii conducti, quia
+          <lb ed="#P" n="65"/>il non habent intrinsecum jus ad decimas,
+          <lb ed="#P" n="66"/>neque respectu plebis solventis decimas 
+          ha<lb break="no" ed="#P" n="67"/>bent propriam actionem, sed tantum respectu
+          <lb ed="#P" n="68"/>Episcoporum, parochorum, vel ecclesiarum,
+          <lb ed="#P" n="69"/>quae eos conduxerunt; secus vero est de his
+          <lb ed="#P" n="70"/>qui ratione beneficii ministrant in 
+          quibus<lb break="no" ed="#P" n="71"/>cumque spiritualibus actionibus, ut 
+          declara<lb break="no" ed="#P" n="72"/>tum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

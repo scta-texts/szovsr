@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="94"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k02287"><!-- t2-l1c5 -->
+        <head>Caput 5</head>
+        <head type="question-title">An oblationes ecclesiae ex praecepto debeantur.</head>
+        <p>
+          <lb ed="#P" n="26"/>CAPUT V.
+          <lb ed="#P" n="27"/>AN OBLATIONES ECCLESIAE EX PRAECEPTO
+          <lb ed="#P" n="28"/>DEBEANTUR.
+        </p>
+        <p>
+          <lb ed="#P" n="29"/>1. Ratio dubitandi. — Ratio dubitandi esse
+          <lb ed="#P" n="30"/>potest, quia ex Patribus et decretis videtur
+          <lb ed="#P" n="31"/>colligi, oblationes esse simpliciter sub 
+          obliga<lb break="no" ed="#P" n="32"/>tione: nam imprimis Ambrosius, serm. 58
+          <lb ed="#P" n="33"/>de Ascens., inter opera boni Christiani ponit,
+          <lb ed="#P" n="34"/>quod quando ad Ecclesiam venit, oblationem,
+          <lb ed="#P" n="35"/>quae altari debetur, eahibet ; et ibidem : Qui
+          <lb ed="#P" n="36"/>de fructibus suis non gustat, nisi prius eo ipsis
+          <lb ed="#P" n="37"/>Deo aliquid offerat. Et Clemens Rom., libro 4
+          <lb ed="#P" n="38"/>Constitut., capite 7, dicit, oblationes populi
+          <lb ed="#P" n="39"/>fieri ad victum sacerdotum , et eleemosynas
+          <lb ed="#P" n="40"/>pauperum ; habent ergo vel habere possunt
+          <lb ed="#P" n="41"/>eamdem rationem obligationis, quam decimae
+          <lb ed="#P" n="42"/>vel primitiae ; et ita in cap. Preeter, d. 32,
+          <lb ed="#P" n="43"/>idem praeceptum eodem tenore verborum de
+          <lb ed="#P" n="44"/>primitiis, decimis et oblationibus ponitur. 
+          Si<lb break="no" ed="#P" n="45"/>milis ratio et necessitas oblationum 
+          supponi<lb break="no" ed="#P" n="46"/>tur in cap. De his, et cap. Antiguos, 10.
+          <lb ed="#P" n="47"/>quaestione 1, ex Concilio Aurel., cap. 16 et
+          <lb ed="#P" n="48"/>17, et in tribus capitibus ultimis ejusdem
+          <lb ed="#P" n="49"/>quaestionis fertur anathema in laicos, qui 
+          Ec<lb break="no" ed="#P" n="50"/>clesiae oblationes usurpant, et in cap. 
+          Statui<lb break="no" ed="#P" n="51"/>mus, 16, quaestione 1; Anastasius Papa 
+          simi<lb break="no" ed="#P" n="52"/>Jem facit prohibitionem, et supponit populum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>debere suae ecclesiae baptismali tales 
+          oblatio<lb break="no" ed="#P" n="54"/>nes. Item habet Gregorius VII, in cap. Omnis
+          <lb ed="#P" n="55"/>Christiamts, de Consecr., d. 1. Denique 
+          capi<lb break="no" ed="#P" n="56"/>tulo praecedenti retulimus verba Fabiani, et
+          <lb ed="#P" n="57"/>Concilii Matiscon., quibus hae oblationes 
+          prae<lb break="no" ed="#P" n="58"/>cipi videntur. Propter haec, aliqui Canonistae
+          <lb ed="#P" n="59"/>absolute docuerunt oblationes aliquas facere,
+          <lb ed="#P" n="60"/>esse in praecepto ecclesiastico. Referuntur pro
+          <lb ed="#P" n="61"/>hac sententia Glossae in dicto cap. Statuimus,
+          <lb ed="#P" n="62"/>et dicto cap. Omnes Christiani, et Hostiens.,
+          <lb ed="#P" n="63"/>in Rub. de Parochiis, et latius in Summ.,
+          <lb ed="#P" n="64"/>titul. de Parochi., S 7n quibus, vers. Sed 
+          uun<lb break="no" ed="#P" n="65"/>quid tenetur, etc.; Lapus, Alleg. 58, num. 1
+          <lb ed="#P" n="66"/>et 7. Sed revera hi omnes nihil diversum 
+          do<lb break="no" ed="#P" n="67"/>cent ab his, qui solent etiam in contrarium
+          <lb ed="#P" n="68"/>referri, ut legenti constabit. Non enim 
+          fun<lb break="no" ed="#P" n="69"/>dant obligationem in pura lege ecclesiastica,
+          <lb ed="#P" n="70"/>sed in consuetudine, indigentia parochi, vel
+          <lb ed="#P" n="71"/>promissione, aut legato.
+        </p>
+        <p>
+          <lb ed="#P" n="72"/>2. Non est praceptum faciendi oblationes.
+          <lb ed="#P" n="73"/>— Vera ergo resolutio est, quam tradit divus
+          <lb ed="#P" n="74"/>Thomas, hujusmodi oblationes per se et 
+          na<lb break="no" ed="#P" n="75"/>tura sua spontaneas esse et de consilio, posse
+          <lb ed="#P" n="76"/>autem cadere sub obligationem aliquo ex 
+          qua<lb break="no" ed="#P" n="77"/>tuor modis paulo ante insinuatis. Est autem
+          <lb ed="#P" n="78"/>supponendum nunc esse sermonem de 
+          obla<lb break="no" ed="#P" n="79"/>tionibus, prout distinguuntur a primitns et
+          <lb ed="#P" n="80"/>decimis. Nam de his separatim dicendum est;
+          <lb ed="#P" n="81"/>sic autem nullum invenitur decretum 
+          abso<lb break="no" ed="#P" n="82"/>lute, et in rigore praecipiens oblationes fieri,
+          <lb ed="#P" n="83"/>sed jura omnia citata praecipiunt, ut 
+          oblatio<lb break="no" ed="#P" n="84"/>nes, quae aliquo titulo debentur, solvantur a
+          <lb ed="#P" n="85"/>laicis, et declarant, illas oblationes debitas
+          <lb ed="#P" n="86"/>reddendas esse ecclesiis, et clericis, et non
+          <lb ed="#P" n="87"/>posse usurpari a laicis. Et ita loquuntur fere
+          <lb ed="#P" n="88"/>omnia jura citata ; simpliciter autem, ac per
+          <lb ed="#P" n="89"/>se, oblationes spontaneas esse, declaratur in
+          <lb ed="#P" n="90"/>Concilio Cabilon. sub Carolo Magno, cap. 6,
+          <lb ed="#P" n="91"/>his verbis : Animarum salutem inguirere 
+          sa<lb break="no" ed="#P" n="92"/>cerdos, non lucra terrena debet, quoniam fideles
+          <lb ed="#P" n="93"/>ad res suas dandas non sunt cogendi, neque
+          <lb ed="#P" n="94"/>circumveniendi : oblatio enim spontanea esse
+          <lb ed="#P" n="95"/>debet, juxta id quod ait Scriptura: Voluntarie
+          <lb ed="#P" n="96"/>sacrificabo tibi, Psalm. 55; et illud : Omnis 
+          po<lb break="no" ed="#P" n="97"/>pulus mente devota obtulerunt donaria Domino,
+          <lb ed="#P" n="98"/>Exodi 33. Atque ita docent communiter 
+          Theo<lb break="no" ed="#P" n="99"/>logi cum divo Thoma supra, et canonistae ac
+          <lb ed="#P" n="100"/>Summistae infra referendi ; praesertim Anton.,
+          <lb ed="#P" n="101"/>3 part., tit. 12, cap. 11; Gabriel, in Can.,
+          <lb ed="#P" n="102"/>lect. 6.
+        </p>
+        <p>
+          <lb ed="#P" n="103"/>3. Quomodo hic sumatur oblatio. — Magis
+          <lb ed="#P" n="104"/>vero hoc constabit, discurrendo per quatuor
+          <lb ed="#P" n="105"/>titulos a divo Thoma positos, ex quibus
+          <lb ed="#P" n="106"/>potest oriri haec obligatio. Ad quos 
+          explican<lb break="no" ed="#P" n="107"/>dos, supponendum est, hic non sumi obla-
+          <pb ed="#P" n="95"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tionem pro sola illa simplici oblatione, quae
+          <lb ed="#P" n="2"/>in ecclesia vel altari offertur immediate ipsi
+          <lb ed="#P" n="3"/>Deo, per modum proprii cultus et 
+          adora<lb break="no" ed="#P" n="4"/>tionis .sed sumitur latius pro quacumque
+          <lb ed="#P" n="5"/>donatione faeta ecclesiae, de aliqua parte
+          <lb ed="#P" n="6"/>bonorum temporalium, sive immediate detur
+          <lb ed="#P" n="7"/>ministris ad sustentationem eorum, sive 
+          ec<lb break="no" ed="#P" n="8"/>clesiae ad fabricam, et ornatum, vel alias 
+          ex<lb break="no" ed="#P" n="9"/>pensas ejus, et sive detur res immobilis in
+          <lb ed="#P" n="10"/>perpetuum, et quoad proprietatem, sive ad
+          <lb ed="#P" n="11"/>tempus, vel quoad fructum, vel usum tantum,
+          <lb ed="#P" n="12"/>sive detur res mobilis, etc. Quamvis enim
+          <lb ed="#P" n="13"/>priores oblationes Deo immediate factae in 
+          Ec<lb break="no" ed="#P" n="14"/>clesia frequentius soleant illa voce intelligi,
+          <lb ed="#P" n="15"/>tamen drvus Thomas generalius loquitur, et
+          <lb ed="#P" n="16"/>jura etiam citata ita loquuntur, et hoc mode
+          <lb ed="#P" n="17"/>omnia pia legata solent nomine oblationum
+          <lb ed="#P" n="18"/>significari, etiamsi sint sacrificia 
+          eleemosgna<lb break="no" ed="#P" n="19"/>rum, ut loquitur Augustinus, libro 
+          Quaestio<lb break="no" ed="#P" n="20"/>num ad Dulcitium, quaest. 2; et colligitur ex
+          <lb ed="#P" n="21"/>capite Qui oblationes, 1 et 2, et cap. Clerici,
+          <lb ed="#P" n="22"/>13, quaest. 2.
+        </p>
+        <p>
+          <lb ed="#P" n="23"/>4. Primus titulus, oblationis debitae ob 
+          con<lb break="no" ed="#P" n="24"/>ventionem. — Primus ergo titulus a divo 
+          Tho<lb break="no" ed="#P" n="25"/>ma positus, est quando oblatio debetur per
+          <lb ed="#P" n="26"/>modum census, ratione conventionis prius
+          <lb ed="#P" n="27"/>factae, ut cum quis vel in morte, vel in vita
+          <lb ed="#P" n="28"/>donat alteti talem possessionem cum onere
+          <lb ed="#P" n="29"/>faciendi talem oblationem Elecclesiae talibus
+          <lb ed="#P" n="30"/>temporibus. Tunc enim nota est obligatio orta
+          <lb ed="#P" n="31"/>ex contractu, nihilque refert quod fuerit 
+          do<lb break="no" ed="#P" n="32"/>natio legatum aut venditio, vel alia 
+          commu<lb break="no" ed="#P" n="33"/>tatio, dummodo fuerit pactio. Et tunc 
+          obli<lb break="no" ed="#P" n="34"/>gatio erit justitiae, tam respectu primi 
+          donan<lb break="no" ed="#P" n="35"/>tisseu contrahentis, quam respectu Ecclesiae,
+          <lb ed="#P" n="36"/>supposita ejus acceptatione. Quia et justum
+          <lb ed="#P" n="37"/>pactum obligat ex justitia respectu ejus, cum
+          <lb ed="#P" n="38"/>quo fit, et Ecclesiae ex vi talis legati vel 
+          do<lb break="no" ed="#P" n="39"/>nationis datum est peculiare jus ad talem
+          <lb ed="#P" n="40"/>oblaticnem, seu pensionem, sive hoc jus sit
+          <lb ed="#P" n="41"/>tantum ad rem, sive in re, et sive sit cum 
+          ac<lb break="no" ed="#P" n="42"/>tione in foro exteriori, sive absque illa; hoc
+          <lb ed="#P" n="43"/>enim pendet ex modo contractus, aut u
+          <lb ed="#P" n="44"/>et acceptationis ex parte Eeclesiae. Neque hoc
+          <lb ed="#P" n="45"/>est in praesenti latius tractandum ; oporteret
+          <lb ed="#P" n="46"/>enim huc advocare totam materiam de legatis
+          <lb ed="#P" n="47"/>piis, et multa ex materia de voto, quod est a
+          <lb ed="#P" n="48"/>praesenti instituto alienum.
+        </p>
+        <p>
+          <lb ed="#P" n="49"/>5. Secundus titulus, veti vel legati.— Et
+          <lb ed="#P" n="50"/>eadem ratione nihil amplius dicere necesse
+          <lb ed="#P" n="51"/>est de secundo titulo a divo Thoma posito, qui
+          <lb ed="#P" n="52"/>a praecedenti parum differt, videlicct, quando
+          <lb ed="#P" n="53"/>per votum vel legatum aliqua bona 
+          jempora<lb break="no" ed="#P" n="54"/>lia directe relinquuntur ecclesiae, sive illa
+          <lb ed="#P" n="55"/>mobilia sint, sive immobilia ; nam tunc obli-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gatur qui vovit, rem promissam offerre et 
+          do<lb break="no" ed="#P" n="57"/>nare ecclesiae, non ex justitia, neque ex 
+          prae<lb break="no" ed="#P" n="58"/>cepto humano, sed ex religione, et naturali
+          <lb ed="#P" n="59"/>jure dictante vota esse reddenda. Et similiter
+          <lb ed="#P" n="60"/>obligatur haeres ad implendum legatum 
+          de<lb break="no" ed="#P" n="61"/>functi, quae obligatio ex justitia est, ut 
+          con<lb break="no" ed="#P" n="62"/>stat. Hae autem oblationes non limitantur ad
+          <lb ed="#P" n="63"/>eas quae in ecclesia fiunt, et immediate Deo
+          <lb ed="#P" n="64"/>in se offeruntur, sed generaliter 
+          comprehen<lb break="no" ed="#P" n="65"/>dunt omnes eleemosynas, et donationes factas
+          <lb ed="#P" n="66"/>vel promissas ecclesiis, nam omnes dicuntur
+          <lb ed="#P" n="67"/>offerri Deo, quia ad ejus cultum proxime 
+          or<lb break="no" ed="#P" n="68"/>dinantur.
+        </p>
+        <p>
+          <lb ed="#P" n="69"/>6. Tertius titulus, sustentandi ministros
+          <lb ed="#P" n="70"/>Ecclesie. — Tertius titulus est, quando 
+          mi<lb break="no" ed="#P" n="71"/>nistri Ecclesioe aliunde non habent 
+          commo<lb break="no" ed="#P" n="72"/>dam sustentationem : et hunc praecipue. et
+          <lb ed="#P" n="73"/>sequentem ponunt omnes Canonistae superius
+          <lb ed="#P" n="74"/>citati, neque aliud revera intendunt. Et ita
+          <lb ed="#P" n="75"/>cum eis conveniunt Panorm., Anchar., et alii
+          <lb ed="#P" n="76"/>in Rub. de Parochiis, et Smmmistae omnes, et
+          <lb ed="#P" n="77"/>alii Doctores, quos refert et sequitur Covar.,
+          <lb ed="#P" n="78"/>dicto libr. 1 Variar., capit. 17. numer. 3; et
+          <lb ed="#P" n="79"/>Gutierrez, in Canon. Quaestionum, cap. 21,
+          <lb ed="#P" n="80"/>numer. 139 et sequentibus; Gregor. Lopez, in
+          <lb ed="#P" n="81"/>leg. 9, tit. 19, part. 1; Soto, l. 9 de Justit.,
+          <lb ed="#P" n="82"/>quaest. 3, art. 1. Solum est advertendum, hanc
+          <lb ed="#P" n="83"/>obligationem reduci ad illam generalem, qua
+          <lb ed="#P" n="84"/>tenentur laici fideles alere ministros 
+          sacra<lb break="no" ed="#P" n="85"/>mentorum : JVam dignus est operarius 
+          mer<lb break="no" ed="#P" n="86"/>cede sua, de qua obligatione latius dicemus
+          <lb ed="#P" n="87"/>infra tractando de decimis. Ex vi autem hujus
+          <lb ed="#P" n="88"/>generalis principii, non tenetur homo magis
+          <lb ed="#P" n="89"/>subvenire parocho, aut praelato indigenti per
+          <lb ed="#P" n="90"/>propriam oblationem, quam per primitias, vel
+          <lb ed="#P" n="91"/>decimas, vel per quemcumque alium modum
+          <lb ed="#P" n="92"/>contribuendi. Et ideo cum dicuntur fideles
+          <lb ed="#P" n="93"/>habere obligationes ad oblationes propter 
+          in<lb break="no" ed="#P" n="94"/>digentiam ministrorum, intelligitur late de
+          <lb ed="#P" n="95"/>oblationibus pro quocumque genere 
+          donatio<lb break="no" ed="#P" n="96"/>nis seu contributionis. Ubi autem vel ex 
+          con<lb break="no" ed="#P" n="97"/>suetudine, vel ex pacto aliquo, seu 
+          transac<lb break="no" ed="#P" n="98"/>tione aut concordia, modus sustentandi 
+          mi<lb break="no" ed="#P" n="99"/>nistros determinatus fuerit ad talem modum
+          <lb ed="#P" n="100"/>oblationum, tunc erit obligatio determinata
+          <lb ed="#P" n="101"/>ad tales oblationes, quia jam simul cum hoc
+          <lb ed="#P" n="102"/>titulo concurrit alius ex dictis, vel titulus 
+          con<lb break="no" ed="#P" n="103"/>suetudinis, de quo statim. Tunc etiam fieri
+          <lb ed="#P" n="104"/>potest talis determinatio ad oblationes, vel
+          <lb ed="#P" n="105"/>quantitatem, aut modum earum per 
+          ecclesias<lb break="no" ed="#P" n="106"/>tica praecepta. Nam, licet divus Thomas dicat,
+          <lb ed="#P" n="107"/>quando oblatio fit ex hoc titulo, licet oblatio
+          <lb ed="#P" n="108"/>ipsa sit necessitatis, quanutatem esse 
+          volun<lb break="no" ed="#P" n="109"/>tatis, limitandum id est, nisi tam parva sit
+          <lb ed="#P" n="110"/>quantitas oblationum, ut non sufficiant ad
+          <pb ed="#P" n="96"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>congruam sustentationem; ad hanc enim
+          <lb ed="#P" n="2"/>obligat naturalis lex justitiae, et ideo in eo
+          <lb ed="#P" n="3"/>casu etiam obligat ad quantitatem oblationis
+          <lb ed="#P" n="4"/>ad hunc finem suflicientem ; ultra illam vero
+          <lb ed="#P" n="5"/>erit voluntaria quantitas, nisi per legem vel
+          <lb ed="#P" n="6"/>conventionem taxata sit, vel certe nisi sit 
+          in<lb break="no" ed="#P" n="7"/>troducta consuetudo de tali oblatione, et in
+          <lb ed="#P" n="8"/>tanta quantitate determinata : nam tunc 
+          ea<lb break="no" ed="#P" n="9"/>dem erit utriusque ratio. Cum his ergo 
+          limi<lb break="no" ed="#P" n="10"/>tationibus sententia illa divi Thomae 
+          intelli<lb break="no" ed="#P" n="11"/>genda est.
+        </p>
+        <p>
+          <lb ed="#P" n="12"/>7. Apponuntur duae declarationes hujus 
+          ti<lb break="no" ed="#P" n="13"/>tuli.—Addendae vero ulterius sunt circa hunc
+          <lb ed="#P" n="14"/>titulum duae alia declarationes. Una est, ut
+          <lb ed="#P" n="15"/>procedat, quando necessitas ministrorum 
+          ori<lb break="no" ed="#P" n="16"/>tur ex eo, quod parochiani non solvunt 
+          deci<lb break="no" ed="#P" n="17"/>mas, neque primitias sufficientes, tunc enim
+          <lb ed="#P" n="18"/>necesse est ut aliquo alio modo tribuant pro
+          <lb ed="#P" n="19"/>ministrorum sustentatione, et totum illud
+          <lb ed="#P" n="20"/>comprehenditur sub oblationibus. At vero si
+          <lb ed="#P" n="21"/>parochiani solvunt*primitias, et deeimas non
+          <lb ed="#P" n="22"/>solum sufticientes, sed etiam abundantes ad
+          <lb ed="#P" n="23"/>sustentationem ministrorum, tam proprii, ut
+          <lb ed="#P" n="24"/>est parochus , quam communium , ut sunt
+          <lb ed="#P" n="25"/>Episcopus, et alii praelati necessarii, ad 
+          quo<lb break="no" ed="#P" n="26"/>rum sustentationem cum debita proportione
+          <lb ed="#P" n="27"/>debent concurrere omnes fideles; si (inquam)
+          <lb ed="#P" n="28"/>parochiani solvunt decimas suffhicientes, et 
+          ni<lb break="no" ed="#P" n="29"/>hilominus parochus aut vicarius non habet
+          <lb ed="#P" n="30"/>sustentationem congruam, quia decimae ad
+          <lb ed="#P" n="31"/>alios usus applicatae sunt, vel in plura 
+          beneti<lb break="no" ed="#P" n="32"/>cia simplicia aut praestimonia divisae fuerunt,
+          <lb ed="#P" n="33"/>vel quia unus possidet beneficium, et vicario
+          <lb ed="#P" n="34"/>nihil fere tribuit: aut e converso, quia 
+          bene<lb break="no" ed="#P" n="35"/>ficiarius nihil accipit ex decimis, sed omnes
+          <lb ed="#P" n="36"/>fructus alteri pro pensione dati sunt; in his
+          <lb ed="#P" n="37"/>et similibus casibus, non juste coguntur 
+          fide<lb break="no" ed="#P" n="38"/>les ad novas oblationes faciendas, seclusa 
+          con<lb break="no" ed="#P" n="39"/>suetudine, vel alio titulo, propter solam 
+          indi<lb break="no" ed="#P" n="40"/>gentiam ministrantis proxime, sive 
+          proprie<lb break="no" ed="#P" n="41"/>tarius sit, sive mercenarius.
+        </p>
+        <p>
+          <lb ed="#P" n="42"/>8. Ratione confirmatur. — Ratio est, quia
+          <lb ed="#P" n="43"/>nullus juste cogitur ut duplicatam mercedem
+          <lb ed="#P" n="44"/>solvat pro eadem opera ; sed parochiani illi
+          <lb ed="#P" n="45"/>solvendo decimas, dant stipendium et 
+          susten<lb break="no" ed="#P" n="46"/>tationem ministris, non tantum sufficientem,
+          <lb ed="#P" n="47"/>sed etiam ordinarie abundantem; ergo titulo
+          <lb ed="#P" n="48"/>sustentationis non possunt juste obligari ad
+          <lb ed="#P" n="49"/>novas oblationes. Atque ita docent 
+          communi<lb break="no" ed="#P" n="50"/>ter Doctores superius citati. Unde in eo casu,
+          <lb ed="#P" n="51"/>qui recipit decimarum fructus, tenetur 
+          sufti<lb break="no" ed="#P" n="52"/>cienter ecclesiae et ministris ejus providere;
+          <lb ed="#P" n="53"/>et praelati tenentur sollicite curare ut ita fiat,
+          <lb ed="#P" n="54"/>et ne pauperes et fideles nimium graventur.
+          <lb ed="#P" n="55"/>Atque haec resolutio indubitata est, quando
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de facto proprius beneficiatus accipit decimas
+          <lb ed="#P" n="57"/>a parochianis ; quia tunc maxime 
+          proce<lb break="no" ed="#P" n="58"/>dit ratio facta. Difficultas vero nonnulla esse
+          <lb ed="#P" n="59"/>potest, quando Papa illas accipit, vel applicat
+          <lb ed="#P" n="60"/>cui vult , de qua difficultate dicemus infra
+          <lb ed="#P" n="61"/>tractando de decimis.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>9. Secunda declaratio. — Alia declaratio,
+          <lb ed="#P" n="63"/>seu limitatio est, nisi parochiani sint adeo
+          <lb ed="#P" n="64"/>pauperes, ut non habeant unde tot oblationes
+          <lb ed="#P" n="65"/>facere valeant, quot ad parochi 
+          sustentatio<lb break="no" ed="#P" n="66"/>nem necessariae sunt. Ita advertit Hostiens.,
+          <lb ed="#P" n="67"/>in Summ., tit. de Parochiis ; idem Silvester,
+          <lb ed="#P" n="68"/>vers. Decima, quaest. 2, citans Gloss. 
+          Inno<lb break="no" ed="#P" n="69"/>cent. et Raymund., sed tunc, ait, vel sacerdos
+          <lb ed="#P" n="70"/>quaerat aliquid ad supplendam 
+          sustentatio<lb break="no" ed="#P" n="71"/>nem suam ex aliqua arte non indecente, 
+          jux<lb break="no" ed="#P" n="72"/>ta cap. Clericus victum, cum sequent. , dist.
+          <lb ed="#P" n="73"/>91; vel certe Episcopus providere debet 
+          un<lb break="no" ed="#P" n="74"/>de illius ecelesiae , et ministrorum ejus 
+          neces<lb break="no" ed="#P" n="75"/>sitati subveniatur, quia ad hoc facultatem 
+          ha<lb break="no" ed="#P" n="76"/>bet in sua diaecesi, jaxta capit. Episcopus 
+          Ec<lb break="no" ed="#P" n="77"/>clesiarum, et cap. Precipimus, 12, q. 4, et
+          <lb ed="#P" n="78"/>significat Hostiensis Episcopum teneri ex 
+          pro<lb break="no" ed="#P" n="79"/>priis redditibus tali ecclesiae indigenti 
+          provi<lb break="no" ed="#P" n="80"/>dere, si aliunde non habet unde provideat.
+          <lb ed="#P" n="81"/>Quod existimo verum, quando commode 
+          po<lb break="no" ed="#P" n="82"/>test, attentis aliis sui status oneribus. Quod si
+          <lb ed="#P" n="83"/>Episcopus per se e medium adhibere non 
+          po<lb break="no" ed="#P" n="84"/>terit, uti debet remediis traditis a Concilio
+          <lb ed="#P" n="85"/>Tridentino, sessione 21, capite 7 et 8, de 
+          Re<lb break="no" ed="#P" n="86"/>form., et sess. quarta, capit. 3 de Reform.,
+          <lb ed="#P" n="87"/>et quando illa sufficientia non fuerint, 
+          Sum<lb break="no" ed="#P" n="88"/>mum Pontificem consulere oportebit, ut 
+          tan<lb break="no" ed="#P" n="89"/>quam supremus dispensator bonorum 
+          Eeccle<lb break="no" ed="#P" n="90"/>siae, illi necessitati provideat.
+        </p>
+        <p>
+          <lb ed="#P" n="91"/>10. Quartus titulus consuetudinis, an 
+          obli<lb break="no" ed="#P" n="92"/>get. — Circa quartum titulum de 
+          consuetudi<lb break="no" ed="#P" n="93"/>ne variae sunt sententiae. Aliqui enim 
+          existi<lb break="no" ed="#P" n="94"/>mant per hujusmodi consuetudinem non 
+          in<lb break="no" ed="#P" n="95"/>duci praecepti obligationem ; quia semper fit
+          <lb ed="#P" n="96"/>ex devotione tantum spontanea ; hujusmodi
+          <lb ed="#P" n="97"/>autem consuetudines non inducunt legis 
+          obli<lb break="no" ed="#P" n="98"/>gationem, etiamsi diuturnae sint, ut notarunt
+          <lb ed="#P" n="99"/>Cajetanus, in Summ., vers. Hore Canonica,
+          <lb ed="#P" n="100"/>S2; et Soto, libr. 2 de Justit., quaest. 7, art.
+          <lb ed="#P" n="101"/>2 quia actus agentium non operantur ultra 
+          in<lb break="no" ed="#P" n="102"/>tentionem eorum ; qui ergo nunquam 
+          opera<lb break="no" ed="#P" n="103"/>tur intentione se obligandi, sed ex pura 
+          de<lb break="no" ed="#P" n="104"/>votione, etiamsi saepius id faciat, non 
+          obligabi<lb break="no" ed="#P" n="105"/>tur. Sicut qui quotidie dat eleemosynam 
+          pau<lb break="no" ed="#P" n="106"/>peri ad januam petenti, non propterea 
+          obliga<lb break="no" ed="#P" n="107"/>tur tandem dare, nec pauper acquirit jus,
+          <lb ed="#P" n="108"/>etiamsi per multum. tempus petat, et 
+          acci<lb break="no" ed="#P" n="109"/>piat. Quod autem talis sit haec consuetudo,
+          <lb ed="#P" n="110"/>declaratur argumento Innoccntii statim citan-
+          <pb ed="#P" n="97"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>di, quia vel oblatio in principio fuit 
+          sponta<lb break="no" ed="#P" n="2"/>nea, vel extorta: si dicatur hoc secundum,
+          <lb ed="#P" n="3"/>talis coactio est injusta, et simoniaca, et ideo
+          <lb ed="#P" n="4"/>ex vi illius non potest obligatio induci, licet
+          <lb ed="#P" n="5"/>eodem modo sapius repetatur. Si vero 
+          dica<lb break="no" ed="#P" n="6"/>tur primum , procedit argumentum factum,
+          <lb ed="#P" n="7"/>quod per spontaneam donationem etiam 
+          con<lb break="no" ed="#P" n="8"/>tinuatam non inducitur obligatio. Eo vel 
+          ma<lb break="no" ed="#P" n="9"/>xime quod hae consuetudines oblationum non
+          <lb ed="#P" n="10"/>sunt adeo regulares et continuae, quin saepius
+          <lb ed="#P" n="11"/>om;ttantur sine scrupulo peccati, quod satis
+          <lb ed="#P" n="12"/>est ad interrumpendam consuetudinem, seu
+          <lb ed="#P" n="13"/>praescriptionem.
+        </p>
+        <p>
+          <lb ed="#P" n="14"/>11. Dices: licet ab hac vel ilia privata 
+          per<lb break="no" ed="#P" n="15"/>sona omittatur interdum oblatio, tamen a 
+          po<lb break="no" ed="#P" n="16"/>pulo nunquam omittitur, sed ad minimum
+          <lb ed="#P" n="17"/>tit a majori parte, et hoc satis est ad praescri
+          <lb ed="#P" n="18"/>ptionem. Sed contra, quia obligatio non 
+          in<lb break="no" ed="#P" n="19"/>ducitur in communitatem, nisi ratione 
+          singu<lb break="no" ed="#P" n="20"/>lorum ; sed singuli non obligantur, si singuli
+          <lb ed="#P" n="21"/>interrumpant actus; ergo nec populus 
+          mance<lb break="no" ed="#P" n="22"/>bit obligatus, etiamsi in diversis personis 
+          ac<lb break="no" ed="#P" n="23"/>tus ilie continuetur, sed habebit semper illam
+          <lb ed="#P" n="24"/>moralem continuationem, sine obligatione 
+          ta<lb break="no" ed="#P" n="25"/>men. Confirmatur ex cap. Cum in Ecclesia, ct
+          <lb ed="#P" n="26"/>cap. Suam, de Simonia, ubi damnatur 
+          exac<lb break="no" ed="#P" n="27"/>tio talium oblationum, non obstante 
+          qua<lb break="no" ed="#P" n="28"/>cumque consuetudine, quae ibi corruptela 
+          di<lb break="no" ed="#P" n="29"/>citur, et magis aggravare culpam quam 
+          ex<lb break="no" ed="#P" n="30"/>cusare ; at vero si talis oblatio ideo esset 
+          de<lb break="no" ed="#P" n="31"/>bita, quia consueta, eadem ratione posset 
+          pe<lb break="no" ed="#P" n="32"/>ti et exigi, non minus quam decimae vel 
+          pri<lb break="no" ed="#P" n="33"/>mitiae; sicut etiam in tribus casibus prius
+          <lb ed="#P" n="34"/>dictis non solum possunt recipi oblationes,
+          <lb ed="#P" n="35"/>cnum offeruntur, sed etiam exigi, si non 
+          sol<lb break="no" ed="#P" n="36"/>vantur ; ergo signum est, in hoc quarto casu,
+          <lb ed="#P" n="37"/>esse semper voluntariam oblationem, non 
+          ob<lb break="no" ed="#P" n="38"/>stante consuetudine. Et ita tenet Angel. in
+          <lb ed="#P" n="39"/>verb. Oblationes, num. 1, in additione ad 
+          il<lb break="no" ed="#P" n="40"/>Ium, et inclinat Sot., lib. 9 de Justit., quaest.
+          <lb ed="#P" n="41"/>6, articul. 1; nam ubi decimae solvuntur, non
+          <lb ed="#P" n="42"/>putat consuetudinem oblationum obligare.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>12. Consuetudinem oblationum obligare. —
+          <lb ed="#P" n="44"/>Nihilominus contraria sententia communis est;
+          <lb ed="#P" n="45"/>eam enim tenet D. Thomas, 2. 2, quaest. 86,
+          <lb ed="#P" n="46"/>art. 1, et ibi Cajetan., Aragon, et alii ; Major,
+          <lb ed="#P" n="47"/>in 4, distinct. 15, quaest. 4, conc. 2, et ad
+          <lb ed="#P" n="48"/>argumenta contra illam ; Panorm., Hostiens.,
+          <lb ed="#P" n="49"/>et alii in cap. Suam , et cap. Ad aud«entiam,
+          <lb ed="#P" n="50"/>de Simon. ; Silvest., verb. Decima, quaest. 2;
+          <lb ed="#P" n="51"/>et frequentius Summistae, Covar., dict. num.
+          <lb ed="#P" n="52"/>3, ubi ait esse communiter receptam 
+          senten<lb break="no" ed="#P" n="53"/>tiam, nemine refragante : quam etiam multis
+          <lb ed="#P" n="54"/>allegationibus contirmat Guttierrez, dict. cap.
+          <lb ed="#P" n="55"/>21, num. 140 et sequenuübus. Videtur autem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sufficienter probari ex dicto cap. Ad 
+          audien<lb break="no" ed="#P" n="57"/>liam, ubi in primis laudabilis dicitur 
+          consue<lb break="no" ed="#P" n="58"/>tudo introducta in Ecclesia, pia devotione 
+          fide<lb break="no" ed="#P" n="59"/>lium, offerendi aliquid pro exequiis 
+          defuncto<lb break="no" ed="#P" n="60"/>rum, vel benedictionibus nuptiarum, aut aliis
+          <lb ed="#P" n="61"/>similibus sacramentorum administrationibus,
+          <lb ed="#P" n="62"/>et deiude dicitur, non esse permittendum 
+          fide<lb break="no" ed="#P" n="63"/>libus, ut has consuetudines laudabiles 
+          infrin<lb break="no" ed="#P" n="64"/>gant, aut immutent, sed compescendos esse qui
+          <lb ed="#P" n="65"/>hoc tentaverint. In quo aperte supponitur
+          <lb ed="#P" n="66"/>hanc consuetudinem inducere obligationem ;
+          <lb ed="#P" n="67"/>non enim posset Episcopus cogere fideles ad
+          <lb ed="#P" n="68"/>solvendas hujusmodi oblationes titulo 
+          consue<lb break="no" ed="#P" n="69"/>tudinis, nisi eadem consuetudo obligationem
+          <lb ed="#P" n="70"/>induxisset.
+        </p>
+        <p>
+          <lb ed="#P" n="71"/>13. Responderi vero potest, in illo textu
+          <lb ed="#P" n="72"/>non dici, ut fideles cogantur consuetas 
+          obla<lb break="no" ed="#P" n="73"/>tiones solvere, sed verba textus esse: Sed per
+          <lb ed="#P" n="74"/>Hpiscopum loci, veritate cognita, 
+          compescan<lb break="no" ed="#P" n="75"/>tur, qui malitiose nituntur laudabilem 
+          consue<lb break="no" ed="#P" n="76"/>tudinem immutare; dixerat enim superius:
+          <lb ed="#P" n="77"/>Quidam laudabilem consuetudinem erga 
+          sanc<lb break="no" ed="#P" n="78"/>tam Ecclesiam pia devotione fidelium 
+          intro<lb break="no" ed="#P" n="79"/>ductam, ex fermento hereticae pravitatis 
+          ni<lb break="no" ed="#P" n="80"/>tuntur infringere, sub preetextu canonice 
+          pie<lb break="no" ed="#P" n="81"/>tatis. Quando ergo praecipit ut compescantur,
+          <lb ed="#P" n="82"/>qui laudabilem consuetudinem malitiose 
+          im<lb break="no" ed="#P" n="83"/>mutare nituntur, videtur loqui de his, qui
+          <lb ed="#P" n="84"/>pravo spiritu nituntur infringere piam 
+          con<lb break="no" ed="#P" n="85"/>suetudinem, vel damnando illam ut malam
+          <lb ed="#P" n="86"/>vel simoniacam. quae pertinent cd fermentum
+          <lb ed="#P" n="87"/>heeretice pravitatis, vel alio modo impediendo
+          <lb ed="#P" n="88"/>fideles ne piam copsuetudinem observent. At
+          <lb ed="#P" n="89"/>vero hinc non sequitur ipsos fideles, qui non
+          <lb ed="#P" n="90"/>malitiose , sed propria voluntate oblationes
+          <lb ed="#P" n="91"/>omittunt, quia non putant illas esse ex 
+          obli<lb break="no" ed="#P" n="92"/>gatione, sed spontaneas, esse cogendos ad illas
+          <lb ed="#P" n="93"/>solvendas propter solam consuetudinem. Nec
+          <lb ed="#P" n="94"/>ex eo textu id colligi potest: aliud enim est
+          <lb ed="#P" n="95"/>malitiose infringere piam consuetudinem ex
+          <lb ed="#P" n="96"/>fermento haeresis, aliud propria sponte nolle
+          <lb ed="#P" n="97"/>oblationem offerre. Et hunc sensum expresse
+          <lb ed="#P" n="98"/>sequitur Innocentius, in dict. cap. Ad 
+          apos<lb break="no" ed="#P" n="99"/>tolicam, dicens non pertinere ad officium
+          <lb ed="#P" n="100"/>Episcopi cogere fideles ut oblationes solvant,
+          <lb ed="#P" n="101"/>neque hoc in illo textu doceri, sed tantum
+          <lb ed="#P" n="102"/>compescere eos qui volunt tales consuetudines
+          <lb ed="#P" n="103"/>mutare, sollicitando, vel statuendo ne tales
+          <lb ed="#P" n="104"/>consuetudines serventur. Idemque videtur
+          <lb ed="#P" n="105"/>sentire ibi Ant. de Butr.
+        </p>
+        <p>
+          <lb ed="#P" n="106"/>14. Responsio ad argumentum. — Alii vero
+          <lb ed="#P" n="107"/>Canonistae, praesertim Hostiens. et Panormit.,
+          <lb ed="#P" n="108"/>absolute intelligunt illum textum, videlicet in
+          <lb ed="#P" n="109"/>eo supponi, talem consuetudinem induxisse
+          <lb ed="#P" n="110"/>obligationem, et ideo cogi posse fideles per
+          <pb ed="#P" n="98"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Episcopum. et debito modo, ut illas 
+          obser<lb break="no" ed="#P" n="2"/>vent. Et huic sensui favent multum illa verba
+          <lb ed="#P" n="3"/>textus : Pratam exactionem fieri prohibemus,
+          <lb ed="#P" n="4"/>et pias consuetudines preecipimus obsercari.
+          <lb ed="#P" n="5"/>Nam haec posteriora verba absolutum 
+          conti<lb break="no" ed="#P" n="6"/>nent praeceptum, quod non sufficienter 
+          im<lb break="no" ed="#P" n="7"/>pleretur, solum compescendo impedientes
+          <lb ed="#P" n="8"/>malitiose. Respondere autem posset 
+          Innocen<lb break="no" ed="#P" n="9"/>tius llla verba intelligenda esse juxta casus
+          <lb ed="#P" n="10"/>proportionem, et juxta verba ultima 
+          expli<lb break="no" ed="#P" n="11"/>cantia praeceptum illud. Unde sensus illorum
+          <lb ed="#P" n="12"/>esse posset, ut praecipiantur observari 
+          consue<lb break="no" ed="#P" n="13"/>tudines, id est, non immutari, nec impediri,
+          <lb ed="#P" n="14"/>sed in sua libertate relinqui, ut ita 
+          observen<lb break="no" ed="#P" n="15"/>tur sicut introductae fuerunt, id est, ut sponte
+          <lb ed="#P" n="16"/>offerentes aliquid, libere et sine impedimento
+          <lb ed="#P" n="17"/>possint id facere; qui vero noluerint, non 
+          co<lb break="no" ed="#P" n="18"/>gantur. lta enim moraliter loquendo fiet, ut
+          <lb ed="#P" n="19"/>semper consuetudo in sua observantia 
+          per<lb break="no" ed="#P" n="20"/>severet, quia ex tota multitudine populi 
+          sem<lb break="no" ed="#P" n="21"/>per aliqui offerent, licet alii omittant, et qui
+          <lb ed="#P" n="22"/>offerunt, sponte id faciant, et non ex 
+          obl<lb break="no" ed="#P" n="23"/>gatione. Atque ita fateor textum illum non
+          <lb ed="#P" n="24"/>omnino cogere, maxime cum sint alia decreta
+          <lb ed="#P" n="25"/>multum repugnantia huic actioni, et 
+          obliga<lb break="no" ed="#P" n="26"/>tioni.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>15. Pars affirmativa confirmatur ad 
+          homi<lb break="no" ed="#P" n="28"/>nem. — Nihilominus hic posterior sensus 
+          Hos<lb break="no" ed="#P" n="29"/>tiensis et Panormitani est simplicior et magis
+          <lb ed="#P" n="30"/>pius, et ideo praeferendus est. Et juxta illum
+          <lb ed="#P" n="31"/>simpliciter fatendum est, per hanc 
+          consuetu<lb break="no" ed="#P" n="32"/>dinem induci obligationem. Et ad hominem
+          <lb ed="#P" n="33"/>confirmari hoc potest contra Innocentium.
+          <lb ed="#P" n="34"/>Nam ille concedit, per consuetudinem 
+          volun<lb break="no" ed="#P" n="35"/>tariam posse induci obligationem, quando
+          <lb ed="#P" n="36"/>non ipsa collatione sacramenti, vel rei 
+          spiri<lb break="no" ed="#P" n="37"/>tualis administratione aliquid ex 
+          consuetu<lb break="no" ed="#P" n="38"/>dine datur, sed postea, quia qui tanto tempore
+          <lb ed="#P" n="39"/>(ait) emsolverunt, creditur quod voluntarie se
+          <lb ed="#P" n="40"/>obligaverint. Sed haec ratio etiam habet locum
+          <lb ed="#P" n="41"/>in consuetudine efferendi aliquid, tempore
+          <lb ed="#P" n="42"/>ipso quo sacramentum ministratur ; ergo. Et
+          <lb ed="#P" n="43"/>confirmatur, quia vel talis consuetudo non
+          <lb ed="#P" n="44"/>obligat, solum quia per spontaneam actionem
+          <lb ed="#P" n="45"/>incoepit et duravit, vel quia simoniae labe 
+          in<lb break="no" ed="#P" n="46"/>fecta est. Hoc posterius dici non potest; tum
+          <lb ed="#P" n="47"/>quia in illomet textu vocatur haec pia 
+          consue<lb break="no" ed="#P" n="48"/>tudo; tum etiam quia ibi non datur aliquid
+          <lb ed="#P" n="49"/>pro re spirituali, licet simul detur, sed datur
+          <lb ed="#P" n="50"/>gratis; haec enim duo non repugnant. 
+          Pri<lb break="no" ed="#P" n="51"/>mum item non recte dicitur, quandoquidem
+          <lb ed="#P" n="52"/>in aliis exemplis admittitur, per gratuitam
+          <lb ed="#P" n="53"/>oblationem continuatam posse obligationem
+          <lb ed="#P" n="54"/>induci : et nulla ratio affertur cur hic etiam
+          <lb ed="#P" n="55"/>non possit.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>16. Solvuntur rationes in oppositum factae.
+          <lb ed="#P" n="57"/>— Duplex caput hujus obligationis proponitur.
+          <lb ed="#P" n="58"/>— Ratio autem hujus sententiae magis 
+          consta<lb break="no" ed="#P" n="59"/>bit respondendo ad rationes in oppositum.
+          <lb ed="#P" n="60"/>Circa primam ac praecipuam, de intentione
+          <lb ed="#P" n="61"/>sponte offerentium, occurrit advertendum 
+          duo<lb break="no" ed="#P" n="62"/>bus modis posse intelligi hanc obligationem,
+          <lb ed="#P" n="63"/>scilicet vel per modum consuetudinis habentis
+          <lb ed="#P" n="64"/>vim legis, et introducentis rigorosum 
+          praece<lb break="no" ed="#P" n="65"/>ptum, vel per modum praescriptionis Ecclesiae,
+          <lb ed="#P" n="66"/>seu parochorum contra laicos, seu 
+          parochia<lb break="no" ed="#P" n="67"/>nos offerentes: sunt enim haec duo vaide 
+          di<lb break="no" ed="#P" n="68"/>versa, ut infra, capite decimo tertio, latius
+          <lb ed="#P" n="69"/>explicabo. Si priori modo intelligatur, 
+          conse<lb break="no" ed="#P" n="70"/>quenter dicendum est quod, licet haec 
+          consue<lb break="no" ed="#P" n="71"/>tudo in principio gratis, et spontanea 
+          inten<lb break="no" ed="#P" n="72"/>tione incoeperit, postea paulatim mutata est
+          <lb ed="#P" n="73"/>intentio in voluntatem solvendi illam 
+          oblatio<lb break="no" ed="#P" n="74"/>nem, ut jam debitam, sive ex voluntate
+          <lb ed="#P" n="75"/>sponte se obligandi formali aut virtuali, sive
+          <lb ed="#P" n="76"/>ex conscientia erronea: quia cum priores 
+          offe<lb break="no" ed="#P" n="77"/>rentes gratis darent, successores, cogitantes
+          <lb ed="#P" n="78"/>illam esse obligationem, in eodem officio 
+          per<lb break="no" ed="#P" n="79"/>severarunt, et cum illa apprehensione reliqui
+          <lb ed="#P" n="80"/>prosecuti sunt; et ita tandem inducta est 
+          con<lb break="no" ed="#P" n="81"/>suetudo habens vim legis. Atque ita explicat
+          <lb ed="#P" n="82"/>hanc obligationem Major, dict. quaestione
+          <lb ed="#P" n="83"/>quarta, et non putat esse singulare in hoc
+          <lb ed="#P" n="84"/>cenere operis pii, sed generale ad similia 
+          ope<lb break="no" ed="#P" n="85"/>ra religionis publica et communia, ut est 
+          ob<lb break="no" ed="#P" n="86"/>servatio alicujus diei festi, vel jejunii alicujus
+          <lb ed="#P" n="87"/>vigiliae, verbi gratia, nativitatis Virginis, vel
+          <lb ed="#P" n="88"/>alterius similis; unde doctrina Cajetani et
+          <lb ed="#P" n="89"/>Sot. supra in contrarium allegata, 
+          intelligen<lb break="no" ed="#P" n="90"/>da erit quando usus incipit sub apprehensione
+          <lb ed="#P" n="91"/>et intentione voluntariae intentionis, et cum
+          <lb ed="#P" n="92"/>eadem continuatur; secus vero erit si 
+          pau<lb break="no" ed="#P" n="93"/>latim mutetur intentio dicto modo, ut 
+          dic<lb break="no" ed="#P" n="94"/>tum est.
+        </p>
+        <p>
+          <lb ed="#P" n="95"/>17. Praecedens expositio ampugnatur. —
+          <lb ed="#P" n="96"/>Solvitur argumentum. — Contra hanc vero
+          <lb ed="#P" n="97"/>expositionem objici potest, quia omnes 
+          Doc<lb break="no" ed="#P" n="98"/>tores, ad valorem hujus consuetudinis 
+          requi<lb break="no" ed="#P" n="99"/>runt ut sit spontanea et mere voluntaria ob!
+          a<lb break="no" ed="#P" n="100"/>tio, ut in supra allegatis videri potest, ex dicto
+          <lb ed="#P" n="101"/>cap. Ad Apostolicam, ibi: Pia fidelium 
+          devo<lb break="no" ed="#P" n="102"/>tione introducia. Hoc vero non urget, tum
+          <lb ed="#P" n="103"/>quia jam supponitur, consuetudinis initium
+          <lb ed="#P" n="104"/>fuisse omnino purum ab omni pactione et
+          <lb ed="#P" n="105"/>coactione, ac perfecte voluntarium ; tum quia
+          <lb ed="#P" n="106"/>etiam continuatio fuit sine actione et 
+          compul<lb break="no" ed="#P" n="107"/>sione, ut supponimus. Quod autem pro aliquo
+          <lb ed="#P" n="108"/>tempore fuerit ex conscientia obligationis, aut
+          <lb ed="#P" n="109"/>intentione se oblgandi, non obstat quominus
+          <lb ed="#P" n="110"/>absolute sit spontanea oblatio, quia illamet
+          <pb ed="#P" n="99"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>obligatio voluntarie assumpta supponitur ,
+          <lb ed="#P" n="2"/>non per aliquam coactionem. Sicut quod ex
+          <lb ed="#P" n="3"/>voto redditur, dicitur esse spontaneum, et
+          <lb ed="#P" n="4"/>gratuitum in suo radice, cap. E parte, de
+          <lb ed="#P" n="5"/>Censibus.
+        </p>
+        <p>
+          <lb ed="#P" n="6"/>18. Duplex proponitur difficultas contra 
+          so<lb break="no" ed="#P" n="7"/>lutionem datam. — An consuetudo errore 
+          intro<lb break="no" ed="#P" n="8"/>ducta obliget.—^dhuc vero responsio illa duas
+          <lb ed="#P" n="9"/>patitur difficultates. Una est, quia saltem 
+          se<lb break="no" ed="#P" n="10"/>quitur decisionem capituli Ad Apostolicam,
+          <lb ed="#P" n="11"/>non esse universalem ; nam, ubi constiterit
+          <lb ed="#P" n="12"/>offerentes nunquam habuisse intentionem se
+          <lb ed="#P" n="13"/>obligandi, neque ex tali conscientia aut 
+          exis<lb break="no" ed="#P" n="14"/>timatione rei debitae aliquid tale obtulisse, sed
+          <lb ed="#P" n="15"/>tantum ex pia devotione voluntaria, non erit
+          <lb ed="#P" n="16"/>inducta lex, nec obligatio, nec poterunt 
+          fide<lb break="no" ed="#P" n="17"/>les compelli ad similes oblationes faciendas.
+          <lb ed="#P" n="18"/>Non est autem impossibile saepius posse 
+          cons<lb break="no" ed="#P" n="19"/>tare de tali irtentione; imo est verisimile in
+          <lb ed="#P" n="20"/>multis populis, vel Ecclesiis, ita explicaturos
+          <lb ed="#P" n="21"/>fideles mentem suam, si interrogentur. Alia
+          <lb ed="#P" n="22"/>difficultas est, quia licet fideles ex erronea
+          <lb ed="#P" n="23"/>conscientia habuerint illam intentionem 
+          sol<lb break="no" ed="#P" n="24"/>vendi debitum, non videtur sufficiens ad 
+          in<lb break="no" ed="#P" n="25"/>ducendam obligationem, quia illa obligatio
+          <lb ed="#P" n="26"/>debet esse voluntaric inducta; error autem
+          <lb ed="#P" n="27"/>ille causat involuntarium, et ita non suffhicit
+          <lb ed="#P" n="28"/>ad inducendam talem obligationem. 
+          Quocir<lb break="no" ed="#P" n="29"/>ca, si aliquando talis consuetudo obtinet vim
+          <lb ed="#P" n="30"/>legis, necesse est ut non praesumatur ex tali
+          <lb ed="#P" n="31"/>errore fuisse inductam, sed ex voluntate se
+          <lb ed="#P" n="32"/>obligandi; in hac autem materia supponitur
+          <lb ed="#P" n="33"/>ut constans, initium talium oblationum fuisse
+          <lb ed="#P" n="34"/>spontaneum, et non transiisse in 
+          cogitatio<lb break="no" ed="#P" n="35"/>nem obligationis nisi per errorem; ergo 
+          diffi<lb break="no" ed="#P" n="36"/>cile est hoc modo salvare obligationem cum
+          <lb ed="#P" n="37"/>solido fundamento, nisi aliquid aliud addatur,
+          <lb ed="#P" n="38"/>quod statim videbimus.
+        </p>
+        <p>
+          <lb ed="#P" n="39"/>19. Secundum caput obligationis, quod est
+          <lb ed="#P" n="40"/>praescriptio. — Prascriptio non requirit 
+          con<lb break="no" ed="#P" n="41"/>sensum. — Discrimen inter abrogationem et
+          <lb ed="#P" n="42"/>praescriptionem. — Alio ergo modo potest haec
+          <lb ed="#P" n="43"/>obligatio intelligi per modum praescriptionis;
+          <lb ed="#P" n="44"/>nam in praescriptione non intervenit 
+          abroga<lb break="no" ed="#P" n="45"/>tio, vel inductio legis, sed acquisitio alicujus
+          <lb ed="#P" n="46"/>dominii, vel juris in re, vel ad rem, in aliquem
+          <lb ed="#P" n="47"/>locum, vel in rem alterius, vel ad opus, aut
+          <lb ed="#P" n="48"/>servitium ejus, quod jus acquiri solet per 
+          diu<lb break="no" ed="#P" n="49"/>turnum usum cum bona fide, ct aliis 
+          conditio<lb break="no" ed="#P" n="50"/>nibus in jure requisitis : sic enim acquiritur
+          <lb ed="#P" n="51"/>jus servitutis in fundum, vel domum, vel etiam
+          <lb ed="#P" n="52"/>in personam, aut jus ad aliquam actionem 
+          hu<lb break="no" ed="#P" n="53"/>manam, ut ad eligendum, juxta cap. Cumnana,
+          <lb ed="#P" n="54"/>de Electione, et clarius in cap. Cum Hecclesia
+          <lb ed="#P" n="55"/>sutrina, de Caus. possess. et propriet. Haec
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>autem praescriptio in alterius personam, vel
+          <lb ed="#P" n="57"/>actionem aut rem ejus, non requirit ex parte
+          <lb ed="#P" n="58"/>ejus, super quem cadit, consensum, aut 
+          volun<lb break="no" ed="#P" n="59"/>tatem dandi tale jus alteri, aut obligandi se
+          <lb ed="#P" n="60"/>illi, sed ipso usu, et facto ipso acquiritur 
+          ad<lb break="no" ed="#P" n="61"/>miniculo juris. Unde saepe acquiritur, alio 
+          ni<lb break="no" ed="#P" n="62"/>hil sciente, et consequenter ipso neque 
+          ex<lb break="no" ed="#P" n="63"/>presse ncque tacite consentiente. Quae est 
+          dif<lb break="no" ed="#P" n="64"/>ferentia quaedam notanda inter hanc 
+          praescri<lb break="no" ed="#P" n="65"/>ptionem, et consuetudinem deropantem legi
+          <lb ed="#P" n="66"/>positivae ; nam haec non potest hunc effectum
+          <lb ed="#P" n="67"/>habere, nisi interveniente tacito consensu 
+          prin<lb break="no" ed="#P" n="68"/>cipis, cujus legi per talem consnetudinem 
+          de<lb break="no" ed="#P" n="69"/>rogatur, ut ex materia de legibus suppono. In
+          <lb ed="#P" n="70"/>praescriptione vero non requiritur consensus
+          <lb ed="#P" n="71"/>ejus, contra quem praescribitur, quia jura illum
+          <lb ed="#P" n="72"/>non requirunt, et praescriptio inducitur 
+          vir<lb break="no" ed="#P" n="73"/>tute legis, imo videtur a lege inducta ad 
+          sup<lb break="no" ed="#P" n="74"/>plendum consensum alterius, ut possit 
+          trans<lb break="no" ed="#P" n="75"/>latio jurium fieri ipso usu, sine consensu 
+          alte<lb break="no" ed="#P" n="76"/>rius, al quem antea pertinebat. Et 
+          nihilomi<lb break="no" ed="#P" n="77"/>nus, consummata praescriptione, ille contra
+          <lb ed="#P" n="78"/>quem praescriptum est, obligatus manet ex
+          <lb ed="#P" n="79"/>justitia ad servandum alteri jus acquisitum per
+          <lb ed="#P" n="80"/>praescriptionem, non quidem in virtute 
+          alicu<lb break="no" ed="#P" n="81"/>jus legis positivae inductae per consuetudinem,
+          <lb ed="#P" n="82"/>sed ex vi naturalis justitiae, quae obligat ad
+          <lb ed="#P" n="83"/>servandum unicuique jus suum.
+        </p>
+        <p>
+          <lb ed="#P" n="84"/>20. Clerici per modum preescriptionis 
+          acqui<lb break="no" ed="#P" n="85"/>runt jus in oblationes. —Sic igitur in praesenti,
+          <lb ed="#P" n="86"/>dicimus per diuturnam consuetudinern 
+          offe<lb break="no" ed="#P" n="87"/>rendi acquiri Ecclesiae seu clericis jus ad 
+          simi<lb break="no" ed="#P" n="88"/>les oblationes per modum cujusdam 
+          praescrip<lb break="no" ed="#P" n="89"/>tionis, et consequenter parochianos manere
+          <lb ed="#P" n="90"/>obligatos ad oblationes, non ex voto, vel ex
+          <lb ed="#P" n="91"/>speciali voluntate, et intentionc se obligandi,
+          <lb ed="#P" n="92"/>sed ex vi juris acquisiti Ecclesiae, quod 
+          servan<lb break="no" ed="#P" n="93"/>dum est ex ipso naturali jure, postquam revera
+          <lb ed="#P" n="94"/>semel acquisitum est. Ut autem acquiratur,
+          <lb ed="#P" n="95"/>non est necessarius specialis consensus 
+          offe<lb break="no" ed="#P" n="96"/>rentium in voluntariam oblationem, 
+          continua<lb break="no" ed="#P" n="97"/>tus tanto tempore, quia ad praescriptionem,
+          <lb ed="#P" n="98"/>ut dixi, non requiritur similis consensus ex
+          <lb ed="#P" n="99"/>parte ejus contra quem praescribitur. 
+          Necessa<lb break="no" ed="#P" n="100"/>rium vero est adminiculum juris, et hoc 
+          vide<lb break="no" ed="#P" n="101"/>tur praestari in dicto cap. Ad audientium, in
+          <lb ed="#P" n="102"/>quo praecipue haec obligatio fundatur. Quod si
+          <lb ed="#P" n="103"/>quis dicat illud jus fundari in praesumptione,
+          <lb ed="#P" n="104"/>quia, ut Innocentius aiebat, qui tanto tempore
+          <lb ed="#P" n="105"/>obtulerunt, praesumuntur voluisse se obligare,
+          <lb ed="#P" n="106"/>et ideo, si veritas in rc ipsa non respondveat
+          <lb ed="#P" n="107"/>praesumptioni, legem illam in conscientia 
+          sal<lb break="no" ed="#P" n="108"/>tem non obligare, respondemus primo, 
+          ne<lb break="no" ed="#P" n="109"/>gando consequentiam, quidquid sit de 
+          antece<lb break="no" ed="#P" n="110"/>denti, nam illa praesumptio fuit (ut sic dicam,
+          <pb ed="#P" n="100"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>occasio legis, non causa, et proprium 
+          funda<lb break="no" ed="#P" n="2"/>mentum ; nam non immerito haberi poterat
+          <lb ed="#P" n="3"/>talis praesumptio, et quia illa non sufficiebat
+          <lb ed="#P" n="4"/>ad certitudinem obligationis, voluit Ecclesia
+          <lb ed="#P" n="5"/>tollere omnem dubitationem conferendo 
+          Eecle<lb break="no" ed="#P" n="6"/>sia jus et modum praescribendi; ideoque,
+          <lb ed="#P" n="7"/>supposito illo jure, qui voluntarie perseverant
+          <lb ed="#P" n="8"/>tanto tempore in oblatione, convincuntur velle
+          <lb ed="#P" n="9"/>se obligare juxta illud jus, etiamsi illud 
+          igno<lb break="no" ed="#P" n="10"/>rent, et nihil de hoc cogitent. Secundo, 
+          re<lb break="no" ed="#P" n="11"/>spondetur cam Panorm., Covar., et alis, 
+          ne<lb break="no" ed="#P" n="12"/>gando hoc jus esse inductum propter 
+          praesum<lb break="no" ed="#P" n="13"/>ptionem ; sed in favorem Ecclesiae et piae
+          <lb ed="#P" n="14"/>causae. Addit etiam Panorm., cum Bart., hoc
+          <lb ed="#P" n="15"/>maxime hahere locum in actionibus quae 
+          refe<lb break="no" ed="#P" n="16"/>runtur ad alium, sub aliquo respectu ad 
+          recom<lb break="no" ed="#P" n="17"/>pensationem, ut in praesenti offertur aliquid
+          <lb ed="#P" n="18"/>ministris in recognitionem beneficii, et in 
+          or<lb break="no" ed="#P" n="19"/>dine ad sustentationem eorum, simulque in
+          <lb ed="#P" n="20"/>Dei honorem; et ideo Ecclesia ita acceptat 
+          il<lb break="no" ed="#P" n="21"/>lam oblationem, ut, si tanto tempore duret,
+          <lb ed="#P" n="22"/>etiam jus acquirat.
+        </p>
+        <p>
+          <lb ed="#P" n="23"/>21. Qua continuatio requiratur ad hanc
+          <lb ed="#P" n="24"/>obligationem. — Limitatio conclusionis. — Sed
+          <lb ed="#P" n="25"/>quaeres quanta continuatio, et quanto tempore
+          <lb ed="#P" n="26"/>necessaria sit ad hanc obligationem 
+          inducen<lb break="no" ed="#P" n="27"/>dam. hespondeo breviter, imprimis sufficere
+          <lb ed="#P" n="28"/>tempus decem annorum. Ita docent Panorm.,
+          <lb ed="#P" n="29"/>et ratio est, quia haec consuetudo non est 
+          con<lb break="no" ed="#P" n="30"/>tra jus, sed potius illi conformis, et est pia et
+          <lb ed="#P" n="31"/>favorabilis, et ideo decennium in illa sufhicit,
+          <lb ed="#P" n="32"/>quia in hujusmodi rebus non solent jura 
+          lon<lb break="no" ed="#P" n="33"/>gius tempus postulare ad praescriptionem. 
+          Ad<lb break="no" ed="#P" n="34"/>denda vero est limitatio, nisi constet 
+          consue<lb break="no" ed="#P" n="35"/>tudinem illam, inchoatam et continuatam esse
+          <lb ed="#P" n="36"/>in ordine ad certum effectum, ut ad 
+          aedifica<lb break="no" ed="#P" n="37"/>tionem ecclesiae, vel quid simile; nam tunc
+          <lb ed="#P" n="38"/>tinito effectu, potest cessare consuetudo, quia
+          <lb ed="#P" n="39"/>tunc non habet locum absoluta obligatio, vel
+          <lb ed="#P" n="40"/>praescriptio, ut per se notum est, et notat
+          <lb ed="#P" n="41"/>Panorm., in cap. Abolende, de Sepult. Modus
+          <lb ed="#P" n="42"/>autem continuandi seu frequentandi actum
+          <lb ed="#P" n="43"/>sine interruptione, debet esse accommodatus
+          <lb ed="#P" n="44"/>matera et actioni. Hae namque oblationes 
+          in<lb break="no" ed="#P" n="45"/>terdum fiunt a particularibus, et solis 
+          singula<lb break="no" ed="#P" n="46"/>ribus personis, ut ab sponsis, in 
+          benedictioni<lb break="no" ed="#P" n="47"/>bus nuptialibus, ab ordinatis, qui solent 
+          can<lb break="no" ed="#P" n="48"/>delam offerre; et in his non oportet quod ab
+          <lb ed="#P" n="49"/>eisdem personis actus frequententur, sed satis
+          <lb ed="#P" n="50"/>est quod a diversis in simili occasione vel
+          <lb ed="#P" n="51"/>causa. Aliquando vero fiunt oblationes a populo
+          <lb ed="#P" n="52"/>congregato in ecclesia ad sacriticium, vel aliud
+          <lb ed="#P" n="53"/>divinum officium, ita ut singuli ahquid 
+          otte<lb break="no" ed="#P" n="54"/>rant, et tunc satis est ut pro majori parte 
+          assi<lb break="no" ed="#P" n="55"/>stentes offerre soleant, vel qui po'entes sunt,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quia hoc satis est ut absolute censeatur esse in
+          <lb ed="#P" n="57"/>illo populo talis consuetudo, nut late Paulus
+          <lb ed="#P" n="58"/>Castrens. probat, cons. 296, quem cum aliis
+          <lb ed="#P" n="59"/>refert Guttierrez supra, num. 148. Tunc 
+          au<lb break="no" ed="#P" n="60"/>tem licet unus vel alius interdum omittat, non
+          <lb ed="#P" n="61"/>solum non interrumpitur consuetudo, verum
+          <lb ed="#P" n="62"/>etiam nec fortasse graviter peccatur, 
+          praeser<lb break="no" ed="#P" n="63"/>tim si rationabilis causa interveniat, quia juxta
+          <lb ed="#P" n="64"/>communem morem non introducuntur hae
+          <lb ed="#P" n="65"/>consuetudines cum majori rigore. Et ita 
+          re<lb break="no" ed="#P" n="66"/>sponsum est sufficienter ad secundam rationem
+          <lb ed="#P" n="67"/>dubitandi.
+        </p>
+        <p>
+          <lb ed="#P" n="68"/>22. Respondetur juris capitibus prohibentibus
+          <lb ed="#P" n="69"/>exactionem oblationum. — Ad alia vero jura,
+          <lb ed="#P" n="70"/>quae videntur prohibere exactionem talium
+          <lb ed="#P" n="71"/>oblationum, Major respondet illa loqui de 
+          obla<lb break="no" ed="#P" n="72"/>tionibus nondum satis praescriptis, et 
+          consue<lb break="no" ed="#P" n="73"/>tudine firmatis. Addo vero etiam post jus 
+          ac<lb break="no" ed="#P" n="74"/>quisitum , prohiberi indebitum et indecentem
+          <lb ed="#P" n="75"/>modum exigendi. Nam imprimis privatus 
+          pa<lb break="no" ed="#P" n="76"/>rochus non habet propriam jurisdictionem ad
+          <lb ed="#P" n="77"/>cogendum alium, et ideo non potest auctoritate
+          <lb ed="#P" n="78"/>sua extorquere oblationem, neque cogere 
+          il<lb break="no" ed="#P" n="79"/>lum, qui non vult dare, sed per Episcopum
+          <lb ed="#P" n="80"/>cogi debet, et ab Episcopo peti debet, ut ipse
+          <lb ed="#P" n="81"/>exigat et solvere cogat, prout cavetur in dicto
+          <lb ed="#P" n="82"/>cap. Ad Apostolicam. Deinde specialiter 
+          damna<lb break="no" ed="#P" n="83"/>tur in illis juribus modus extorquendi 
+          oblatio<lb break="no" ed="#P" n="84"/>nes, negando sacramenta, vel spiritualia 
+          offi<lb break="no" ed="#P" n="85"/>cia, nisi oblationes prius afferantur, vel detur
+          <lb ed="#P" n="86"/>cautio, aut aliquid simile. Hoc enim habet
+          <lb ed="#P" n="87"/>quamdam speciem simonise, et venditionis
+          <lb ed="#P" n="88"/>sacramentorum. Et ideo prohibent jura ne ita
+          <lb ed="#P" n="89"/>fiat, in quo non contradicit cap. Ad 
+          Apostoli<lb break="no" ed="#P" n="90"/>cam. Et ideo scrvandum id est, ut etiam D.
+          <lb ed="#P" n="91"/>Thomas et omnes Doctores admonent.
+        </p>
+        <p>
+          <lb ed="#P" n="92"/>23. An possit negari sacramentum non 
+          sol<lb break="no" ed="#P" n="93"/>venti oblationem. — Interrogat autem 
+          Cajeta<lb break="no" ed="#P" n="94"/>nus d. quaest. 86, art. 4, quid faciet parochus,
+          <lb ed="#P" n="95"/>si videat parochianum esse in malo statu, eo
+          <lb ed="#P" n="96"/>quod non csolvit oblationem, et nihilominus 
+          pe<lb break="no" ed="#P" n="97"/>tere sacramentum, nam tunc tenebitur illud
+          <lb ed="#P" n="98"/>negare, ne conferat indigno; et negando illud,
+          <lb ed="#P" n="99"/>videtur agere contra praedicta jura. Dicencum
+          <lb ed="#P" n="100"/>vero est imprimis, necessarium esse ut sit 
+          om<lb break="no" ed="#P" n="101"/>nino certum, subditum esse in statu peccati;
+          <lb ed="#P" n="102"/>nam si sit res aliquo modo dubia, praesumi
+          <lb ed="#P" n="103"/>potest illum habere bonam fidem, et sequi
+          <lb ed="#P" n="104"/>probabilem opinionem, vel consilium alicujus
+          <lb ed="#P" n="105"/>hominis docti, et ita poterit illi dari 
+          sacra<lb break="no" ed="#P" n="106"/>mentum sine culpa. Imo ulterius oportet ut
+          <lb ed="#P" n="107"/>crimen sit publicum, si sacramentum publice
+          <lb ed="#P" n="108"/>negandum est, quia peccatori occulto petenti
+          <lb ed="#P" n="109"/>publice sacramentum, dari potest sine culpa,
+          <lb ed="#P" n="110"/>imo etiam dari debet ab co qui ex otticio tene-
+          <pb ed="#P" n="101"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur, ut ex materia de sacramentis et censuris
+          <lb ed="#P" n="2"/>constat. Si autem crimen est certum et 
+          publi<lb break="no" ed="#P" n="3"/>cum, sive illud consistat in non dandis 
+          obla<lb break="no" ed="#P" n="4"/>tionibus debitis, sive in non solvendis decimis,
+          <lb ed="#P" n="5"/>sive in quacumque alia materia, negari potest
+          <lb ed="#P" n="6"/>et debet sacramentum. Neque fit contra dicta
+          <lb ed="#P" n="7"/>jura ; quia non negatur ad extorquendum 
+          tem<lb break="no" ed="#P" n="8"/>porale commodum, sed ne indigne conferatur
+          <lb ed="#P" n="9"/>sacramentum, et tuuc satis erit moderatam 
+          di<lb break="no" ed="#P" n="10"/>ligentiam adhiberi, ut hoc etiam publice 
+          intel<lb break="no" ed="#P" n="11"/>ligatur, et ita omne scandalum vitetur.
+        </p>
+        <p>
+          <lb ed="#P" n="12"/>24. Contra consuetudinem non potest 
+          popu<lb break="no" ed="#P" n="13"/>lus aliquid statuere. — Ex quibus a fortiori
+          <lb ed="#P" n="14"/>sequitur, post inductam talem consuetudinem,
+          <lb ed="#P" n="15"/>non posse populum, vel laicum aliquem 
+          sta<lb break="no" ed="#P" n="16"/>tuere contra illam, ut non servetur vel 
+          conti<lb break="no" ed="#P" n="17"/>nuetur, nam id esset contra jus Ecclesiae 
+          acqui<lb break="no" ed="#P" n="18"/>situm, ac subinde contra libertatem 
+          ecclesias<lb break="no" ed="#P" n="19"/>ticam, ut bene notavit Abbas, dicto cap. 
+          Abo<lb break="no" ed="#P" n="20"/>lende, cum Bart., inleg. Privilegia, Cod. de
+          <lb ed="#P" n="21"/>Sacros. Eccles. Et hoc ipsum ut notius supponit
+          <lb ed="#P" n="22"/>Innocentius. Nam etiamsi consuetudo nondum
+          <lb ed="#P" n="23"/>induxisset obligationem, illam prohibere, cum
+          <lb ed="#P" n="24"/>sit pia, impium esset, et contra ecclesiasticam
+          <lb ed="#P" n="25"/>libertatem, quia esset dispositio in spirituali
+          <lb ed="#P" n="26"/>materia a potestate laica omnino aliena.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>95. Qui oblationes non solvunt, an incurrant
+          <lb ed="#P" n="28"/>censuram. — Sed quaeret tandem aliquis, an
+          <lb ed="#P" n="29"/>qui non solvunt oblationes debitas, censuram
+          <lb ed="#P" n="30"/>aliquam vel poenam ecclesiasticam eo ipso 
+          in<lb break="no" ed="#P" n="31"/>currant. Respondeo breviter, nullam essetalem
+          <lb ed="#P" n="32"/>poenam vel censuram ipso facto incurrendam,
+          <lb ed="#P" n="33"/>per Ecclesiam latam aliquo jure, nullum enim
+          <lb ed="#P" n="34"/>tale invenitur: sunt quidem aliqua jura, quae
+          <lb ed="#P" n="35"/>praecipiunt excommunicari, vel ab Ecclesia ut
+          <lb ed="#P" n="36"/>infideles excludi, eos qui bona, Ecclesia 
+          le<lb break="no" ed="#P" n="37"/>gata, non solvunt, vel qui bona semel Ecclesiae
+          <lb ed="#P" n="38"/>donata auferre moliuntur, ut patet in cap.
+          <lb ed="#P" n="39"/>Qui oblationes, 1 et 2, et cap. Clerici, 13,
+          <lb ed="#P" n="40"/>quaest. 2. Sed ibi nulla censura fertur ipso
+          <lb ed="#P" n="41"/>jure, ut Glossa etiam notavit. Et illa jura non
+          <lb ed="#P" n="42"/>de omnibus oblationibus loquuntur, sed de
+          <lb ed="#P" n="43"/>illis specialiter , qua vel jam donata sunt
+          <lb ed="#P" n="44"/>Ecclesiae, et actu transierunt in ejus 
+          domi<lb break="no" ed="#P" n="45"/>nium, ejusque bona sunt effecta, vel 
+          testa<lb break="no" ed="#P" n="46"/>mento ei legata sunt, et post mortem testatoris
+          <lb ed="#P" n="47"/>etiam suo modo ad ecclesiastica bona 
+          perti<lb break="no" ed="#P" n="48"/>nent. De aliis vero oblationibus, quae solum
+          <lb ed="#P" n="49"/>ex consuetudine debentur, nihil peculiare
+          <lb ed="#P" n="50"/>statutum est in jure, circa modum quo.
+          cogen<lb break="no" ed="#P" n="51"/>di sunt fideles ad illas solvendas, praeter illud
+          <lb ed="#P" n="52"/>quod circa hoc statuitur in dicto c. Ad 
+          Aposto<lb break="no" ed="#P" n="53"/>licam, ubi hoc videtur committi arbitrio 
+          Epis<lb break="no" ed="#P" n="54"/>copi, ut, veritate cognita, id est, consuetudine
+          <lb ed="#P" n="55"/>et obligatione bene examinata, faciat pias
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>consuetudines servari, prudenti arbitrio 
+          poe<lb break="no" ed="#P" n="57"/>nam et coactionem adhibendo. De quadam
+          <lb ed="#P" n="58"/>vero censura specialiter lata in Concilio 
+          Tri<lb break="no" ed="#P" n="59"/>dentino, sess. 22, cap. 11 de Reform., et alia
+          <lb ed="#P" n="60"/>quae habetur in Bulla Coenae, estque num. 17,
+          <lb ed="#P" n="61"/>an possit vel debeat ad hanc materiam 
+          appli<lb break="no" ed="#P" n="62"/>cari, dicemus commodius infra, tractando de
+          <lb ed="#P" n="63"/>decimis; quia difficultas potest esse communis
+          <lb ed="#P" n="64"/>ad oblationes, decimas et primitias; et in 
+          de<lb break="no" ed="#P" n="65"/>cimis, quae magis debitae esse solent, 
+          magis<lb break="no" ed="#P" n="66"/>que pertinent ad ecclesiasticos fructus, melius
+          <lb ed="#P" n="67"/>expendetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

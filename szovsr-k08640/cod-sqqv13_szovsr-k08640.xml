@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 23</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 23</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="345"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k08640"><!-- t2-l2c23 -->
+        <head>Caput 23</head>
+        <head type="question-title">Denturne opera nec liberalia nec servilia, et quomodo ad hoc praeceptum comparentur.</head>
+        <p>
+          <lb ed="#P" n="102"/>CAPUT XXIII.
+          <lb ed="#P" n="103"/>DENTURNE OPERA NEC LIBERALIA NEC SERVILIA,
+          <lb ed="#P" n="104"/>ET QUOMODO AD HOC PRAECEPTUM COMPARENTUR.
+        </p>
+        <p>
+          <lb ed="#P" n="105"/>1. An dentur opera qua nec servilia sint,
+          <lb ed="#P" n="106"/>nec liberalia.— Ratio pro affirmativa parte.—
+          <lb ed="#P" n="107"/>In hoc capite, examinandum est an dicta di-
+          <pb ed="#P" n="346"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>visio operum in servilia et liberalia, sufficiens
+          <lb ed="#P" n="2"/>sit, vel sint aliqua opera tertii ordinis sub
+          <lb ed="#P" n="3"/>neutro illorum membrorum comprehensa, et
+          <lb ed="#P" n="4"/>quid de illis dicendumn sit, quod attinet ad
+          <lb ed="#P" n="5"/>observationem festi, et prohibitionem eorum.
+          <lb ed="#P" n="6"/>In quo dubio Cajetanus supra, quem multi
+          <lb ed="#P" n="7"/>sequuntur, supponit dari quaedam opera, nec
+          <lb ed="#P" n="8"/>liberalia, nec servilia, quae vocat communia,
+          <lb ed="#P" n="9"/>ac subinde divisionem illam bimembrem pro
+          <lb ed="#P" n="10"/>hac materia non esse sufficientem. sed 
+          adden<lb break="no" ed="#P" n="11"/>dum esse hoc tertium membrum. Ratio ejus
+          <lb ed="#P" n="12"/>est, quia opera servilia sunt ea, quae sunt 
+          pro<lb break="no" ed="#P" n="13"/>pria servorum; liberalia vero, quae sunt 
+          pro<lb break="no" ed="#P" n="14"/>pria liberorum, seu dominorum : at sunt 
+          quae<lb break="no" ed="#P" n="15"/>dam utrisque communia, ut etiam D. Thomas,
+          <lb ed="#P" n="16"/>in illo art. 4, indicavit ; ergo. Et confirmatur
+          <lb ed="#P" n="17"/>inductione : nam iter agere commune est 
+          ser<lb break="no" ed="#P" n="18"/>vis et dominis; item venari, piscari, scribere,
+          <lb ed="#P" n="19"/>et omnes actiones similes, quae ex suo genere
+          <lb ed="#P" n="20"/>non includunt servitutem, quamvis neque 
+          il<lb break="no" ed="#P" n="21"/>lam excludant : recte ergo communes seu 
+          in<lb break="no" ed="#P" n="22"/>differentes appellantur, et tertium membrum
+          <lb ed="#P" n="23"/>operationum constituunt. Hinc dicunt 
+          conse<lb break="no" ed="#P" n="24"/>quenter hi auctores, has actiones nec semper
+          <lb ed="#P" n="25"/>esse prohibitas, nec semper concessas in die
+          <lb ed="#P" n="26"/>festo, sed quatenus possunt induere modum
+          <lb ed="#P" n="27"/>servilem, prohiberi : nam sub ea ratione 
+          ser<lb break="no" ed="#P" n="28"/>viles sunt, et propriae servorum. Si vero a 
+          mo<lb break="no" ed="#P" n="29"/>do servili abstrahantur, non esse prohibitas,
+          <lb ed="#P" n="30"/>quia serviles non sunt. Quis autem sit ille
+          <lb ed="#P" n="31"/>modus, quo tales actiones efficiuntur serviles,
+          <lb ed="#P" n="32"/>non satis a dictis auctoribus explicatur, eta
+          <lb ed="#P" n="33"/>nobis statim inquiretur.
+        </p>
+        <p>
+          <lb ed="#P" n="34"/>2. Difficultas praecedentis opinionis 
+          osten<lb break="no" ed="#P" n="35"/>ditur. — Haec ergo opinio speculative spectata
+          <lb ed="#P" n="36"/>mihi est diffivilis, et ad expediendos casus
+          <lb ed="#P" n="37"/>morales, veram rationem in eis reddendo, non
+          <lb ed="#P" n="38"/>videtur sufficiens. Primo enim in generali 
+          oh<lb break="no" ed="#P" n="39"/>jicio, quia inter hominem servum et liberum
+          <lb ed="#P" n="40"/>non potest dari medium; ergo neque inter
+          <lb ed="#P" n="41"/>opus servile et liberum. Patet consequentia a
+          <lb ed="#P" n="42"/>paritate rationis : ideo enim in homine non
+          <lb ed="#P" n="43"/>datur medium, quia illa membra vel privative
+          <lb ed="#P" n="44"/>opponuntur, vel includunt immediatam 
+          con<lb break="no" ed="#P" n="45"/>tradictionem ; nam qui relatione servitutis 
+          ca<lb break="no" ed="#P" n="46"/>ret, eo ipso liber est, quia liber esse dicitur
+          <lb ed="#P" n="47"/>sui juris, in quo negatio indicatur, scilicet,
+          <lb ed="#P" n="48"/>non alterius; sicut cum dicitur Deus esse a se,
+          <lb ed="#P" n="49"/>negatio declaratur, id est, non ab alio : haec
+          <lb ed="#P" n="50"/>autem ratio non minus probat in illis terminis
+          <lb ed="#P" n="51"/>ad opera applicatis, nam, eo ipso quod opus
+          <lb ed="#P" n="52"/>non habet conditionem et relationem 
+          servi<lb break="no" ed="#P" n="53"/>lem, liberum est.
+        </p>
+        <p>
+          <lb ed="#P" n="54"/>3. Secundo, non apparet quomodo distingui
+          <lb ed="#P" n="55"/>possint opera propria servorum ac liberorum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ita ut aliqua utrisque communia relinquantur.
+          <lb ed="#P" n="57"/>Aut enim agimus de personis servis et liberis
+          <lb ed="#P" n="58"/>absolute, vel formaliter ut servi vel ut liberi
+          <lb ed="#P" n="59"/>sunt. Priori modo nullum est opus ita 
+          pro<lb break="no" ed="#P" n="60"/>prium servi, quod non possit a persona libera
+          <lb ed="#P" n="61"/>exerceri, ut supra dicebam; nam rex potest
+          <lb ed="#P" n="62"/>artem mechanicam exercere; in eo tamen non
+          <lb ed="#P" n="63"/>se geret ut rex, sed ut artifex; et si pedes
+          <lb ed="#P" n="64"/>suorum laverit, vel mensis ministraverit, 
+          ser<lb break="no" ed="#P" n="65"/>vilia profecto opera exercebit; et licet ipse sit
+          <lb ed="#P" n="66"/>liber et dominus, in eis se geret ut servus. 
+          Igi<lb break="no" ed="#P" n="67"/>tur quod persona operans libera sit, non tollit
+          <lb ed="#P" n="68"/>quin opus sit simpliciter servile, atque ita
+          <lb ed="#P" n="69"/>nullum est opus servile proprium servorum
+          <lb ed="#P" n="70"/>materialiter, ut sic dicam, seu quoad statum
+          <lb ed="#P" n="71"/>et conditionem personae. Et smmiliter e 
+          con<lb break="no" ed="#P" n="72"/>verso nullum est opus ita ingenuum, quod
+          <lb ed="#P" n="73"/>non possit fieri ab eo qui est servus, quamvis
+          <lb ed="#P" n="74"/>in eo opere revera non serviat. Igitur isto
+          <lb ed="#P" n="75"/>modo non possunt distingui inadaequate opera
+          <lb ed="#P" n="76"/>in servilia et libera, per relationem ad 
+          condi<lb break="no" ed="#P" n="77"/>tiones personarum operantium. Si autem illa
+          <lb ed="#P" n="78"/>distinctio sumatur in ordine ad personas 
+          ope<lb break="no" ed="#P" n="79"/>rantes formaliter spectatas, sic non videtur
+          <lb ed="#P" n="80"/>posse dari medium inter opus servile et 
+          libe<lb break="no" ed="#P" n="81"/>rum; nam illud, quod dicitur commune, si
+          <lb ed="#P" n="82"/>exerceatur a servo, non fiet ab illo, ut servus
+          <lb ed="#P" n="83"/>est, sed ut convenit cum libero in ratione 
+          per<lb break="no" ed="#P" n="84"/>sonae rationalis; vel e converso, si, eo ipso
+          <lb ed="#P" n="85"/>quod fit a servo, fiat ab illo ut servus est, 
+          pro<lb break="no" ed="#P" n="86"/>fecto licet fiat a persona libera, in eo non se
+          <lb ed="#P" n="87"/>gerit ut liber, sed ut servus, vel potius ut 
+          ser<lb break="no" ed="#P" n="88"/>viens, quod satis est ad rationem operis 
+          servi<lb break="no" ed="#P" n="89"/>lis.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>4. Responsio. — Impugnatur. — Dici potest
+          <lb ed="#P" n="91"/>opus servile posse quidem esse in persona 
+          li<lb break="no" ed="#P" n="92"/>bera, non tamen tanquam in proprio subjecto,
+          <lb ed="#P" n="93"/>sed tanquam in alieno; et e converso de 
+          ac<lb break="no" ed="#P" n="94"/>tione libera : atque ita opus servile dici 
+          pro<lb break="no" ed="#P" n="95"/>prium servi, quia illum respicit (ut sic dicam),
+          <lb ed="#P" n="96"/>tanquam connaturale et proportionatum 
+          sub<lb break="no" ed="#P" n="97"/>jectum, licet in alio esse possit quasi per 
+          ac<lb break="no" ed="#P" n="98"/>cidens et praeternaturaliter. Sed contra, quia
+          <lb ed="#P" n="99"/>hoc dato, idem insurgit argumentum, quod
+          <lb ed="#P" n="100"/>non possit dari opus medium, quia eo ipso
+          <lb ed="#P" n="101"/>quod opus non postulat servum tanquam 
+          pro<lb break="no" ed="#P" n="102"/>prium et connaturale subjectum, est opus 
+          li<lb break="no" ed="#P" n="103"/>berum; atque ita licet possit esse commune
+          <lb ed="#P" n="104"/>quoad personas liberas et servas, quia iu 
+          om<lb break="no" ed="#P" n="105"/>nibus esse potest sine praeternaturalitate (ut
+          <lb ed="#P" n="106"/>sic dicam), nihilominus .non est commune
+          <lb ed="#P" n="107"/>quoad abstrahendum a servili et libero, sed
+          <lb ed="#P" n="108"/>simpliciter liberum est. Nullum enim opus est
+          <lb ed="#P" n="109"/>adeo liberum, quod non possit esse in servo
+          <lb ed="#P" n="110"/>sine ulla praeternaturalitate. Quod enim opus
+          <pb ed="#P" n="347"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>magis liberum, quam amare et laudare Deum?
+          <lb ed="#P" n="2"/>et tamen haec sunt in servis non minus 
+          conna<lb break="no" ed="#P" n="3"/>turaliter quam in liberis, si alioquin justi sunt.
+          <lb ed="#P" n="4"/>Ita ergo scire et docere possunt convenire 
+          ser<lb break="no" ed="#P" n="5"/>vis, tam connaturaliter, ac liberis, eo ipso
+          <lb ed="#P" n="6"/>quod rationales sunt.
+        </p>
+        <p>
+          <lb ed="#P" n="7"/>5. Aliter eadem difficultas ostenditur. —
+          <lb ed="#P" n="8"/>Denique moraliter magis hoc inquirendo, si
+          <lb ed="#P" n="9"/>idem opus dicitur esse commune , quia nunc
+          <lb ed="#P" n="10"/>potest esse servile, nunc non esse, inquiro
+          <lb ed="#P" n="11"/>per quid fiat servile. Respondent multi fieri
+          <lb ed="#P" n="12"/>servile, per relationem ad mercedem vel 
+          tem<lb break="no" ed="#P" n="13"/>porale lucrum : sed hoc jam reprobatum est,
+          <lb ed="#P" n="14"/>et a Cajetano et aliis auctoribus, cum quibus
+          <lb ed="#P" n="15"/>disputamus, reprobatur. Et praeterea, qui
+          <lb ed="#P" n="16"/>id affirmant, non negant, illud opus, per se
+          <lb ed="#P" n="17"/>spectatum, esse liberale ; imo dicunt omne
+          <lb ed="#P" n="18"/>opus liberale fieri servile illo respectu. Aliter
+          <lb ed="#P" n="19"/>responderi potest, dari quidem posse opus
+          <lb ed="#P" n="20"/>quod secundum suam speciem servile non sit,
+          <lb ed="#P" n="21"/>nec positive liberum , quia usque ad certam
+          <lb ed="#P" n="22"/>mensuram , vel corporais laboris, vel 
+          dura<lb break="no" ed="#P" n="23"/>tionis, vel alterius similis conditionis aut
+          <lb ed="#P" n="24"/>modi, liberum est : nam exerceri potest ab
+          <lb ed="#P" n="25"/>homine libero, ut liber est, id est, absque eo
+          <lb ed="#P" n="26"/>quod sic operando censeatur servire, aut 
+          ali<lb break="no" ed="#P" n="27"/>quid agere minus decens hominem liberum ac
+          <lb ed="#P" n="28"/>dominum ; si autem idem opus creseat, et 
+          au<lb break="no" ed="#P" n="29"/>geatur in labore, vel duratione, vel alia 
+          si<lb break="no" ed="#P" n="30"/>mili conditione, jam erit opus servile 
+          contra<lb break="no" ed="#P" n="31"/>ria ratione. Exemplum esse potest in 
+          itinera<lb break="no" ed="#P" n="32"/>tione, et potest sumi ex lege veteri, in qua
+          <lb ed="#P" n="33"/>breve et suave iter non censebatur servile,
+          <lb ed="#P" n="34"/>imo nec contrarium sabbatho : majus autem
+          <lb ed="#P" n="35"/>iter esset contrarium sabbatho, cum tamen
+          <lb ed="#P" n="36"/>idem sit secundum speciem. Idemque videtur
+          <lb ed="#P" n="37"/>nunc esse in venatione, prout sumitur 
+          recrea<lb break="no" ed="#P" n="38"/>tionis causa, vel ex officio. Atque hoc videtur
+          <lb ed="#P" n="39"/>sensisse Abul., in c. 12 Exod., q. 24, dum 
+          de<lb break="no" ed="#P" n="40"/>finit, opus servile esse opus laboriosum 
+          orga<lb break="no" ed="#P" n="41"/>norum exequentium, etc. Unde infert in fine
+          <lb ed="#P" n="42"/>illius quaestionis , esse peccatum mortale 
+          am<lb break="no" ed="#P" n="43"/>bulare unam vel duas leucas ad venationem,
+          <lb ed="#P" n="44"/>aut majorem diei partem in ea immorari.
+          <lb ed="#P" n="45"/>Item ait esse mortale ambulare itinerando pro
+          <lb ed="#P" n="46"/>negotio aliquo expediendo.
+        </p>
+        <p>
+          <lb ed="#P" n="47"/>6. Opus non servile em se, non fit servile 
+          pro<lb break="no" ed="#P" n="48"/>pter corporis laborem. — Ratio assertionis. —
+          <lb ed="#P" n="49"/>Sed haec et alia similia , quae ibi 
+          scrupulosissi<lb break="no" ed="#P" n="50"/>me colligit, sunt contra communem usum 
+          Ec<lb break="no" ed="#P" n="51"/>clesiae et judicium omnium prudentum, 
+          nul<lb break="no" ed="#P" n="52"/>Iumque habent sufficiens fundamentum, ut
+          <lb ed="#P" n="53"/>mox videbimus. Et ideo difficile creditu est,
+          <lb ed="#P" n="54"/>quod opus ejusdem rationis, et in sua 
+          substan<lb break="no" ed="#P" n="55"/>tia non servile, fiat servile propter corporis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>laborem, aut defatigationem, aut propter 
+          tem<lb break="no" ed="#P" n="57"/>poris continuationem. Quia studium, licet per
+          <lb ed="#P" n="58"/>multum diei tempus continuetur, ei licet in
+          <lb ed="#P" n="59"/>eo non parum defatigetur corpus, laborando
+          <lb ed="#P" n="60"/>etiam interdum corporaliter in movendis,
+          <lb ed="#P" n="61"/>aperiendis et claudendis libris, non tamen
+          <lb ed="#P" n="62"/>propterea fit opus servile, nec prohibitum,
+          <lb ed="#P" n="63"/>idemque est in itineratione, aut venatione, et
+          <lb ed="#P" n="64"/>similibus. Et ratio est, quia hoc praecepto non
+          <lb ed="#P" n="65"/>prohibetur labor corporis, vel continuatio
+          <lb ed="#P" n="66"/>operis, sed opus servile; continuatio autem non
+          <lb ed="#P" n="67"/>est servilis, si opus, quod inchoatur, non est
+          <lb ed="#P" n="68"/>servile. Idemque est de labore, nam auget opus
+          <lb ed="#P" n="69"/>intra suum ordinem, et labor operis liberalis,
+          <lb ed="#P" n="70"/>labor liberalis est, non servilis : sic enim 
+          la<lb break="no" ed="#P" n="71"/>bor corporalis in caeremoniis quibus colitur
+          <lb ed="#P" n="72"/>Deus, servilis non est, sed rcligiosus, ut sentit
+          <lb ed="#P" n="73"/>divus Thomas d. art. 4; ergo etiam labor 
+          cor<lb break="no" ed="#P" n="74"/>poris in quibuscumque spiritualibus actibus
+          <lb ed="#P" n="75"/>(ita enim D. Thomas vocat omnes actus 
+          libe<lb break="no" ed="#P" n="76"/>rales), non est servilis, sed spiritualis, seu 
+          li<lb break="no" ed="#P" n="77"/>beralis. Idemque est de intensione actionis,
+          <lb ed="#P" n="78"/>vel similibus conditionibus, ad quas rationes
+          <lb ed="#P" n="79"/>factae applicari possunt; praeter has autem
+          <lb ed="#P" n="80"/>non occurrunt alia, quibus possit discerni,
+          <lb ed="#P" n="81"/>quando idem opus ex non servili transeat in
+          <lb ed="#P" n="82"/>servile.
+        </p>
+        <p>
+          <lb ed="#P" n="83"/>7. Non dari opera media inter servilia et 
+          li<lb break="no" ed="#P" n="84"/>Leralia. — Quamobrem generatim loquendo,
+          <lb ed="#P" n="85"/>probabile existimo non oportere tertium illud
+          <lb ed="#P" n="86"/>membrum adjungere. Nam si opus corporale
+          <lb ed="#P" n="87"/>sit, et circa materiam et effectum corporalem
+          <lb ed="#P" n="88"/>versetur, et non sit quasi connaturale opus, ad
+          <lb ed="#P" n="89"/>conservationem, propagationem, et 
+          vegetatio<lb break="no" ed="#P" n="90"/>nem corporis ab ipsa natura datum, sed 
+          indus<lb break="no" ed="#P" n="91"/>tria hominis, vel arte adjunctum, et 
+          ordina<lb break="no" ed="#P" n="92"/>tum principaliter ad sensibilem seu 
+          corpora<lb break="no" ed="#P" n="93"/>lem usum, tale opus servile est, ut ex dictis
+          <lb ed="#P" n="94"/>constat ; unde, licet sit facile, et parum duret,
+          <lb ed="#P" n="95"/>erit quidem leve opus, intra genus tamen 
+          ser<lb break="no" ed="#P" n="96"/>vilis operis continebitur. Opus autem quod
+          <lb ed="#P" n="97"/>non habuerit illam conditionem, non erit 
+          ser<lb break="no" ed="#P" n="98"/>vile, quomodocumque fiat, et consequenter
+          <lb ed="#P" n="99"/>non erit prohibitum ex vi generalis 
+          prohibi<lb break="no" ed="#P" n="100"/>tionis operis servilis, nisi alia lege vel 
+          consue<lb break="no" ed="#P" n="101"/>tudine prohibitum sit, vel nisi ratione operum
+          <lb ed="#P" n="102"/>servilium, quae potest interdum habere 
+          ad<lb break="no" ed="#P" n="103"/>juncta.
+        </p>
+        <p>
+          <lb ed="#P" n="104"/>8. Nec ego apud D. Thomam invenio illud
+          <lb ed="#P" n="105"/>tertium membrum operis communis, quod a
+          <lb ed="#P" n="106"/>servili et non servili abstrahat, vel quod 
+          se<lb break="no" ed="#P" n="107"/>cundum diversos gradus possit esse servile et
+          <lb ed="#P" n="108"/>non servile. Sed solum dixit in illo articulo
+          <lb ed="#P" n="109"/>quarto, corporalia ad spiritualem Dei cultum
+          <lb ed="#P" n="110"/>non pertinentia in tantum servilia dici, in
+          <pb ed="#P" n="348"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quantum proprie pertinent ad servientes. Ubi
+          <lb ed="#P" n="2"/>sub corporalibus operibus ad Dei cultum non
+          <lb ed="#P" n="3"/>pertinentibus, etiam opera liberalium artium
+          <lb ed="#P" n="4"/>comprehenduntur , quae per corpus 
+          exercen<lb break="no" ed="#P" n="5"/>tur, et ad Dei cultum non spectant. Et de 
+          il<lb break="no" ed="#P" n="6"/>lis operibus generaliter ait, servilia non dici,
+          <lb ed="#P" n="7"/>si sint communia servis et liberis, id est, si
+          <lb ed="#P" n="8"/>non sint propria servientium, ut tales sunt:
+          <lb ed="#P" n="9"/>inde vero non sequitur talia opera esse media
+          <lb ed="#P" n="10"/>inter servilia et non servilia, sed potius 
+          sequi<lb break="no" ed="#P" n="11"/>tur illa non esse servilia, et consequenter aut
+          <lb ed="#P" n="12"/>libera esse, aut naturalia. Sed hoc 
+          explicabi<lb break="no" ed="#P" n="13"/>tur amplius et melius descendendo ad ;
+          non<lb break="no" ed="#P" n="14"/>nullas particulares actiones, quae maxime 
+          mo<lb break="no" ed="#P" n="15"/>verunt alios auctores, quia videntur interdum
+          <lb ed="#P" n="16"/>permitti tanquam non serviles; si autem 
+          con<lb break="no" ed="#P" n="17"/>stiterit, vel non esse necessarium hoc 
+          admit<lb break="no" ed="#P" n="18"/>tere in aliqua ex his actionibus, quae ab aliis
+          <lb ed="#P" n="19"/>afteruntur, vel si in aliqua reperitur , oriri
+          <lb ed="#P" n="20"/>ex alio capite, constabit satis nostra sententia,
+          <lb ed="#P" n="21"/>eritque ad fundamentum alterius satis 
+          respon<lb break="no" ed="#P" n="22"/>sum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="674"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k16810"><!-- t3-l4c10 -->
+        <head>Caput 10</head>
+        <head type="question-title">Utrum sacramenta omnia ecclesiae sint propria materia simoniae.</head>
+        <p>
+          <lb ed="#P" n="39"/>CAPUT X.
+          <lb ed="#P" n="40"/>UTRUM SACRAMENTA OMNIA ECCLESIAE SINT 
+          PRO<lb break="no" ed="#P" n="41"/>PRIA MATERIA SIMONIAE.
+        </p>
+        <p>
+          <lb ed="#P" n="42"/>1. Sub sacramentis sacrificium 
+          compre<lb break="no" ed="#P" n="43"/>hendi. — Post sanctificantem gratiam, 
+          proxi<lb break="no" ed="#P" n="44"/>mum locum inter spiritualia, quae sunt 
+          mate<lb break="no" ed="#P" n="45"/>ria simoniae, censentur habere sacramenta, sub
+          <lb ed="#P" n="46"/>quibus sacrificium comprehendi debet (etiamsi
+          <lb ed="#P" n="47"/>de illo expressa mentio non semper fiat, ut 
+          pa<lb break="no" ed="#P" n="48"/>tet in D. Thoma, dict. quaest. 100, articulo
+          <lb ed="#P" n="49"/>secundo) , tum quia, et in sacrificio consistit
+          <lb ed="#P" n="50"/>cultus divinus, formalius ac principalius,
+          <lb ed="#P" n="51"/>quam in caeteris actionibus, ut dixit D. 
+          Tho<lb break="no" ed="#P" n="52"/>mas, prima secundae, quaest. 101, articulo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>quarto, et in tertio tomo de Sacrament. late
+          <lb ed="#P" n="54"/>diximus, et supra in primo tractatu ; tum
+          <lb ed="#P" n="55"/>etiam quia in lege nova sacrificium, et 
+          potis<lb break="no" ed="#P" n="56"/>simum sacramentorum in eamdem rem 
+          coin<lb break="no" ed="#P" n="57"/>cidunt, nam sacramentum Eucharistiae 
+          sacrifi<lb break="no" ed="#P" n="58"/>cando conficitur, et res oblata in illo sacrificio
+          <lb ed="#P" n="59"/>est ipsum sacramentum consummatum, et (ut
+          <lb ed="#P" n="60"/>vocant) in facto essc. De his ergo sacramentis
+          <lb ed="#P" n="61"/>breviter explicandum est quomodo sint 
+          mate<lb break="no" ed="#P" n="62"/>ria simonia.
+        </p>
+        <p>
+          <lb ed="#P" n="63"/>2. Ut autem possit uniformis et generalis
+          <lb ed="#P" n="64"/>esse doctripa, separemus Eucharistiam, ut est
+          <lb ed="#P" n="65"/>proprie sacramentum, habens esse suum 
+          per<lb break="no" ed="#P" n="66"/>manens a caeteris sacramentis omnibus, 
+          quo<lb break="no" ed="#P" n="67"/>rum esse est transiens; consistit enim in 
+          ac<lb break="no" ed="#P" n="68"/>tione quadam, vel passioue, sicut etiam 
+          con<lb break="no" ed="#P" n="69"/>secratio ipsius Eucharistiae est actio 
+          sacra<lb break="no" ed="#P" n="70"/>mentalis transiens, seu sacrificauo, ut dixi. Et
+          <lb ed="#P" n="71"/>usus ejusdem Eucharistiae, id est, 
+          sacramen<lb break="no" ed="#P" n="72"/>talis communio, sub his transeuntibus 
+          sacra<lb break="no" ed="#P" n="73"/>mentis comprehenditur, nam est dispensatio
+          <lb ed="#P" n="74"/>actualis cujusdam sacramenti. Illa ergo omnia
+          <lb ed="#P" n="75"/>sacramenta, quae consistunt in actione 
+          uans<lb break="no" ed="#P" n="76"/>eunte, sieut habent majorem quamdam 
+          con<lb break="no" ed="#P" n="77"/>venientiam et similitudinem interse, ita etiam
+          <lb ed="#P" n="78"/>facilius possunt generalibus regulis 
+          compre<lb break="no" ed="#P" n="79"/>hendi; et ideo operae pretium visum est prius
+          <lb ed="#P" n="80"/>de Eucharistia, ut est sacramentum 
+          perma<lb break="no" ed="#P" n="81"/>nens, veram et claram doctrinam supponere,
+          <lb ed="#P" n="82"/>et postea de caeteris dicere.
+        </p>
+        <p>
+          <lb ed="#P" n="83"/>3. Eucharistia est suprema materia 
+          simo<lb break="no" ed="#P" n="84"/>ni.— Igitur de Eucharistia certissimum est
+          <lb ed="#P" n="85"/>non solum esse propriam, sed etiam 
+          supre<lb break="no" ed="#P" n="86"/>mam et maximam materiam simoniae, nisi
+          <lb ed="#P" n="87"/>forte venditio ipsius dicenda sit detestabilius
+          <lb ed="#P" n="88"/>vitium, quam simonia. Probatur, quia hoc 
+          sa<lb break="no" ed="#P" n="89"/>cramentum est Christus ipse sub 
+          sacramenta<lb break="no" ed="#P" n="90"/>libus speciebus contentus, et ut est panis vivus
+          <lb ed="#P" n="91"/>sacramentalis, vel sunt species consecratae, ut
+          <lb ed="#P" n="92"/>realiter continentes ipsum Christum (nam quod
+          <lb ed="#P" n="93"/>ad praesens attinet, parum refert uno vel alio
+          <lb ed="#P" n="94"/>modo loqui); ergo non potest vendi hoc 
+          sa<lb break="no" ed="#P" n="95"/>cramentum, quin Christus ipse vendatur; ergo
+          <lb ed="#P" n="96"/>talis venditio magnam irreligiositatem 
+          intrin<lb break="no" ed="#P" n="97"/>sece continet. Ac propterea dixi videri posse
+          <lb ed="#P" n="98"/>peccatum hoc majus quam simoniam, quia 
+          vi<lb break="no" ed="#P" n="99"/>detur simile venditioni Judae, de qua diximus
+          <lb ed="#P" n="100"/>fuisse peccatum alterius rationis et gravioris.
+          <lb ed="#P" n="101"/>Aut fortasse verius est utramque malitiam
+          <lb ed="#P" n="102"/>comprehendere, nam quatenus est venditio
+          <lb ed="#P" n="103"/>sacramenti sensibilis, et ad usus humanos 
+          ac<lb break="no" ed="#P" n="104"/>commodati, est propria simonia, et summa ex
+          <lb ed="#P" n="105"/>genere suo: ut vero transit in gravissimam
+          <lb ed="#P" n="106"/>irreverentiam personae Christi, est 
+          irreligiosi<lb break="no" ed="#P" n="107"/>tas gravioris rationis. juxta dicta de sacrile-
+          <pb ed="#P" n="675"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gio, superioris libri eapite tertio. Imo, ut 
+          ver<lb break="no" ed="#P" n="2"/>satur circa ipsum sacramentum, ui tale est,
+          <lb ed="#P" n="3"/>potest interdum duplicem malitiam contra 
+          re<lb break="no" ed="#P" n="4"/>ligionem participare, quia duobus modis 
+          pos<lb break="no" ed="#P" n="5"/>sunt vendi sacrae illae species. Primo ad usum
+          <lb ed="#P" n="6"/>proprium sacramentalem, scilicet aü 
+          commu<lb break="no" ed="#P" n="7"/>nicandum, et tune in venditione illa 
+          propriis<lb break="no" ed="#P" n="8"/>sime simonia committitur, de qua loquitur
+          <lb ed="#P" n="9"/>textus in cap.JVullus Episcopus, 100, 1, quaest.
+          <lb ed="#P" n="10"/>1, et pro ratione redditur ibi, quia tunc gratia
+          <lb ed="#P" n="11"/>Spiritus Sancti venditur. Et addi possun: alue
+          <lb ed="#P" n="12"/>rationes, quia res maxime sacra temporali
+          <lb ed="#P" n="13"/>pretio commensuratur, et ita tractatur ac si
+          <lb ed="#P" n="14"/>esset sub dominio vendentis, quae sunt 
+          ratio<lb break="no" ed="#P" n="15"/>nes malitiae simoniae. Nec ibi invenitur alia
+          <lb ed="#P" n="16"/>malitia per se, nam quod ibi conjungatur, vel
+          <lb ed="#P" n="17"/>indigna sumptio, vel indigna dispensatio 
+          Eu<lb break="no" ed="#P" n="18"/>charistiae, est per accidens, et in rigore potest
+          <lb ed="#P" n="19"/>separari, interveniente ignorantia ex parte
+          <lb ed="#P" n="20"/>recipientis. Hic vero occurrebat quaestio, an
+          <lb ed="#P" n="21"/>iuterdum liceat emere Eucharistiam propter
+          <lb ed="#P" n="22"/>vitandam majorem ejus injuriam. Ui, verbi
+          <lb ed="#P" n="23"/>gratia, ad vindicandam illam de potestate 
+          hae<lb break="no" ed="#P" n="24"/>retici, aut Judaei, vel idololatrae, qui illam
+          <lb ed="#P" n="25"/>rapuit, et quasi captivam retinet ; sed de hoc
+          <lb ed="#P" n="26"/>infra dicam in generali quaestione de hac re.
+          <lb ed="#P" n="27"/>Secundo modo vendi potest Eucharistia ad
+          <lb ed="#P" n="28"/>pravos et magicos usus, ita enim solet a 
+          male<lb break="no" ed="#P" n="29"/>fieis irreverenter tractari, et tunc duo peccata
+          <lb ed="#P" n="30"/>intelliso committi ex parte vendentis : unum
+          <lb ed="#P" n="31"/>simoniae, quod jam explicatum est ; aliud 
+          hor<lb break="no" ed="#P" n="32"/>rendi sacrilegii, quatenus rem adeo sacram
+          <lb ed="#P" n="33"/>ad profanos usus convertit : tale enim 
+          sacrile<lb break="no" ed="#P" n="34"/>gium committeret, si ad eumdem usum gratis
+          <lb ed="#P" n="35"/>illam daret; quamvis ergo vendat, non 
+          excu<lb break="no" ed="#P" n="36"/>satur ab ilo, nec in aliud illud commutat,
+          <lb ed="#P" n="37"/>sed utrumque committit.
+        </p>
+        <p>
+          <lb ed="#P" n="38"/>4. Materiam remotam Hucharistie vendi
+          <lb ed="#P" n="39"/>posse.— Materiam groaimam ncn posse vendi.
+          <lb ed="#P" n="40"/>— Et haec videntur sufficere de hoc 
+          sacra<lb break="no" ed="#P" n="41"/>mento, quia in eo nulla occurrit alia 
+          difticul<lb break="no" ed="#P" n="42"/>tas. Nec etiam hic habet difficultatem quaestio
+          <lb ed="#P" n="43"/>de materia hujus sacramenti, an vendi possit.
+          <lb ed="#P" n="44"/>Nam si sit sermo de materia remota, quae in
+          <lb ed="#P" n="45"/>hoc sacramento transiens appellatur, clarum
+          <lb ed="#P" n="46"/>est vendi posse, quia nihil aliud est quam 
+          pa<lb break="no" ed="#P" n="47"/>nis et vinum, quae sunt res venales. Et licet
+          <lb ed="#P" n="48"/>petantur ad conficiendum ex illis sacramen -
+          <lb ed="#P" n="49"/>tum, non propterea gratis necessario dandae
+          <lb ed="#P" n="50"/>sunt, quia propter illam ordinationem 
+          extrin<lb break="no" ed="#P" n="51"/>secam petentis non efficiuntur res sacrae, ut
+          <lb ed="#P" n="52"/>de aliis sacramentis mox dicemus. Et hinc 
+          col<lb break="no" ed="#P" n="53"/>ligit Ugolinus, tractatu primo, capite 
+          trigesi<lb break="no" ed="#P" n="54"/>no nono, numero septimo, pro expensis factis
+          <lb ed="#P" n="55"/>in conficiendis hostiis, etc., vel illia emendis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>(publice enim vendi solent), posse aliquil
+          <lb ed="#P" n="57"/>exigi. Addit tamen illud esse peccatum ratione
+          <lb ed="#P" n="58"/>scandali; quod hahet locum, si talis 
+          compensa<lb break="no" ed="#P" n="59"/>tio statim peteretur a communicantibus. Imo
+          <lb ed="#P" n="60"/>tunc vix posset a simonia excusari, quia 
+          ma<lb break="no" ed="#P" n="61"/>gis videtur sacramentum vendi, quam pura
+          <lb ed="#P" n="62"/>iila materia. At si separatim a communitate,
+          <lb ed="#P" n="63"/>et non a singulis communicantibus, petantur
+          <lb ed="#P" n="64"/>hujusmodi expensae, non est per se 
+          scandalo<lb break="no" ed="#P" n="65"/>sum, nec iniquum ; erit vero injustum, si vel
+          <lb ed="#P" n="66"/>petat, qui ex officio et beneficio obligatur ad
+          <lb ed="#P" n="67"/>illas, ut parochus, vel si ultra aequitatem 
+          pe<lb break="no" ed="#P" n="68"/>tat. At vero si loquamur de materia proxima,
+          <lb ed="#P" n="69"/>illa nihil aliud est quam ipsamet species 
+          con<lb break="no" ed="#P" n="70"/>secratae, de quibus jam dictum est vendi non
+          <lb ed="#P" n="71"/>posse. imo etiam, si quis velit ad valorem
+          <lb ed="#P" n="72"/>prioris panis respectum habere, postquam
+          <lb ed="#P" n="73"/>species consecratae sunt, non retinent illum
+          <lb ed="#P" n="74"/>valorem, sicut non continent antiquam 
+          sub<lb break="no" ed="#P" n="75"/>stantiam. Nec habere possunt proprium 
+          anti<lb break="no" ed="#P" n="76"/>quum usum mere materialem, sed novum et
+          <lb ed="#P" n="77"/>spiritualem ; nam, licet corporaliter sumendae
+          <lb ed="#P" n="78"/>sint, non tamen ad naturalem usum, sed ad
+          <lb ed="#P" n="79"/>spiritualem. Et licet corporaliter nutriant,
+          <lb ed="#P" n="80"/>postquam sumptae sunt, hoc veluti per 
+          acci<lb break="no" ed="#P" n="81"/>dens esse debet ad debitum usum illius coeles -
+          <lb ed="#P" n="82"/>üs panis, et illud ipsum sine interventu 
+          su<lb break="no" ed="#P" n="83"/>pernaturalis operis non fit, nam oportet Deum
+          <lb ed="#P" n="84"/>ibi iterum materiam panis recreare : et ideo
+          <lb ed="#P" n="85"/>quicquid in illo sancto sacramento est, extra
+          <lb ed="#P" n="86"/>humanam aestimationem, et supra omne 
+          pre<lb break="no" ed="#P" n="87"/>tium est.
+        </p>
+        <p>
+          <lb ed="#P" n="88"/>b. Sacramentum, ut sic, esse materiam 
+          si<lb break="no" ed="#P" n="89"/>monie juri naturali contrariam. — Venio ad
+          <lb ed="#P" n="90"/>caetera sacramenta, in quibus loqui possumus
+          <lb ed="#P" n="91"/>vel de ipso sacramento, ut includit totum quod
+          <lb ed="#P" n="92"/>est de ratione sacramenti, vel de materia ipsius.
+          <lb ed="#P" n="93"/>Voco autem nunc materiam totum illud 
+          si<lb break="no" ed="#P" n="94"/>gnum sensibile, quantum ad rem totam, quae
+          <lb ed="#P" n="95"/>substernitur significationi, sive sit elementum,
+          <lb ed="#P" n="96"/>sive verbum. Quod ergo attinet ad 
+          sacramen<lb break="no" ed="#P" n="97"/>tum ipsum, regula generalis et certa est, 
+          sacra<lb break="no" ed="#P" n="98"/>menia ut sic esse propriissimam materiam 
+          si<lb break="no" ed="#P" n="99"/>moniae juri naturali contrariae. Haec est 
+          senten<lb break="no" ed="#P" n="100"/>tia conmunis omnium, quos referemus. Et vix
+          <lb ed="#P" n="101"/>indiget probatione, quia, licet sacramenta in
+          <lb ed="#P" n="102"/>actionibus quibusdam, vel passionibus circa
+          <lb ed="#P" n="103"/>res materiales consistant, nihilominus, ut 
+          sa<lb break="no" ed="#P" n="104"/>cramenta sunt, divina et supernaturalia dona
+          <lb ed="#P" n="105"/>sunt gratis collata nobis a Christo eorum 
+          au<lb break="no" ed="#P" n="106"/>ctore, et per respectum ad gratiam, quam 
+          con<lb break="no" ed="#P" n="107"/>ferunt, spirituala sunt. Imo D. Thomas,
+          <lb ed="#P" n="108"/>articulo primo, ad sextum, illa vocat secun
+          <lb ed="#P" n="109"/>dum se spiritualia. Cajetanus, vero verb. 
+          Si<lb break="no" ed="#P" n="110"/>monia, ea vocat composita ex materiali et spi-
+          <pb ed="#P" n="676"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rituali, in quibus spirituale praecipuum est,
+          <lb ed="#P" n="2"/>et quasi formale, et ideo spiritualium 
+          reti<lb break="no" ed="#P" n="3"/>nent naturam; nam revera supernaturalia
+          <lb ed="#P" n="4"/>sunt, et propter spirituale sunt instituta. Ergo
+          <lb ed="#P" n="5"/>eo ipso quod sunt talia, contra reverentiam
+          <lb ed="#P" n="6"/>illis debitam, et contra religionem, et contra
+          <lb ed="#P" n="7"/>verbum Christi : Gratis accepistis, gratis date,
+          <lb ed="#P" n="8"/>est illa vendere; est ergo simonia ex natura
+          <lb ed="#P" n="9"/>sua mala, et ideo prohibita. Habetur autem
+          <lb ed="#P" n="10"/>haec generalis prohibitio in cap. Cum in 
+          eccle<lb break="no" ed="#P" n="11"/>sice, de Simon. ibi: Seu pro aliis sacramentis
+          <lb ed="#P" n="12"/>aliud exigatur. Quod vitium ibi appellatur
+          <lb ed="#P" n="13"/>horribile, quo verbo satis significatur esse 
+          con<lb break="no" ed="#P" n="14"/>tra divinum jus. Comparatur etiam cum 
+          pec<lb break="no" ed="#P" n="15"/>cato Giezi, quod fuit contra legem naturalem,
+          <lb ed="#P" n="16"/>ut vidimus. Ac denique dicitur contra hanc
+          <lb ed="#P" n="17"/>prohibitionem nullam posse praevalere 
+          con<lb break="no" ed="#P" n="18"/>suetudinem, quod est etiam signum intrinsecae
+          <lb ed="#P" n="19"/>deformitatis. Praeter banc vero gencralem 
+          pro<lb break="no" ed="#P" n="20"/>hibitionem sunt aliae particulares de 
+          Ordina<lb break="no" ed="#P" n="21"/>tionibus, de Confirmatione, et Baptismo, et
+          <lb ed="#P" n="22"/>cap. 1, quaest. 1, cap. 2, 4, et multis 
+          sequen<lb break="no" ed="#P" n="23"/>tibus. Et in cap. Bapticandis, 99, cum multis
+          <lb ed="#P" n="24"/>sequentibus, in particulari prohibetur simonia
+          <lb ed="#P" n="25"/>circa Baptismum, Confirmationem, Ordinem
+          <lb ed="#P" n="26"/>et Communionem; de Poenitentia habetur in
+          <lb ed="#P" n="27"/>cap. Nemo presbyterorum; de Simon., et de
+          <lb ed="#P" n="28"/>Oleo sancto, id est, Extrema unctione, cap.
+          <lb ed="#P" n="29"/>ult., 1, quaest. 3.
+        </p>
+        <p>
+          <lb ed="#P" n="30"/>6. In venditione sacramentorum praeter 
+          si<lb break="no" ed="#P" n="31"/>moniam dari posse ctiam malitiam contra 
+          cha<lb break="no" ed="#P" n="32"/>ritatem. — Addo praeterea, praeter malitiam
+          <lb ed="#P" n="33"/>simoniae, posse facile inveniri in 
+          sacramento<lb break="no" ed="#P" n="34"/>rum venditione malitiam contra charitatem.
+          <lb ed="#P" n="35"/>Primo quidem, quia cum tali actu regulariter
+          <lb ed="#P" n="36"/>est conjuncta malitia scandali, maxime 
+          quan<lb break="no" ed="#P" n="37"/>do sacramenta communi populo 
+          ministran<lb break="no" ed="#P" n="38"/>tur. Secundo, quia per hunc abusum arceri 
+          fa<lb break="no" ed="#P" n="39"/>cile possunt pauperes a perceptione 
+          sacramen<lb break="no" ed="#P" n="40"/>torum. Et utramque rationem tetigit 
+          Gela<lb break="no" ed="#P" n="41"/>sius Papa, in cap. Baptizandis, 99, 1, quaest.
+          <lb ed="#P" n="42"/>1, dicens : Et ideo uihil a predictis prorsus
+          <lb ed="#P" n="43"/>exigere moliantur, quo vel paupertate cogente
+          <lb ed="#P" n="44"/>deterriti, vel indignatione revocati, 
+          redemptio<lb break="no" ed="#P" n="45"/>nis suge causas adire despiciant. Et notavit
+          <lb ed="#P" n="46"/>Gloss., in cap. Ielatum , 10, quaest. 3, et 
+          Pa<lb break="no" ed="#P" n="47"/>norm., in c. Cum sit, de Simon. Addo etiam
+          <lb ed="#P" n="48"/>interdum esse posse injustitiam, quando, 
+          sci<lb break="no" ed="#P" n="49"/>licet, qui pretium exigit, tenetur ex officio et
+          <lb ed="#P" n="50"/>justitia gratis ministrare. Quod indicavit 
+          Gre<lb break="no" ed="#P" n="51"/>gorius Papa in dict. cap. Eelatum, 10, quaest.
+          <lb ed="#P" n="52"/>3, admonens animarum rectores , ne per has
+          <lb ed="#P" n="53"/>exactiones, graves sipt subditis suis: est enim
+          <lb ed="#P" n="54"/>gravamen illud plane injustum.
+        </p>
+        <p>
+          <lb ed="#P" n="55"/>7. Opinio asserens uatrimoniwmn posse ven-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>di sine simonia. — Neque circa generalem
+          <lb ed="#P" n="57"/>hanc regulam invenio difficultatem, aut 
+          opi<lb break="no" ed="#P" n="58"/>nionum diversitatem, praeter quamdam 
+          exce<lb break="no" ed="#P" n="59"/>ptionem, quam nonnulli Canonistae fecerunt.
+          <lb ed="#P" n="60"/>Dixerunt enim aliqui, excipiendum esse 
+          ma<lb break="no" ed="#P" n="61"/>trimonium ; nam illud vendere licet, et ita
+          <lb ed="#P" n="62"/>non est macreria simoniae. Ita sensit Glos., in
+          <lb ed="#P" n="63"/>c. Cum in Ecclesie, de Simonia, quae fatetur
+          <lb ed="#P" n="64"/>quidem matrimonium esse sacramentum, et
+          <lb ed="#P" n="65"/>nihilominus dicit posse vendi, quia in eo (ait)
+          <lb ed="#P" n="66"/>gratia non confertur , juxta c. Connubia , 32,
+          <lb ed="#P" n="67"/>q.2, et c. Nuptiarum, 11, quaest. 1. Idem 
+          te<lb break="no" ed="#P" n="68"/>net Glos. in Summa, et in cap. Quicquid, 201,
+          <lb ed="#P" n="69"/>1, quaest. 1, et in cap. FVendentes, 1 , quaest.
+          <lb ed="#P" n="70"/>3. Quae Glossae allegant d. cap. Quicquid, 
+          for<lb break="no" ed="#P" n="71"/>tasse quia in eo dicitur pro his actibus, in 
+          qui<lb break="no" ed="#P" n="72"/>bus gratiae consolatio invenitur, non posse
+          <lb ed="#P" n="73"/>pretium recipi, vel fortasse quia ibi 
+          numeran<lb break="no" ed="#P" n="74"/>tur actus qui sunt materia simoniae, et inter
+          <lb ed="#P" n="75"/>illos non ponitur matrimonium. Allegant etiam
+          <lb ed="#P" n="76"/>cap. Zonorantur, 32, quaest. 2, solum quia ibi
+          <lb ed="#P" n="77"/>dicit Ambrosius: Honorantur parentes lebecce
+          <lb ed="#P" n="78"/>munerilus. Inde enim infert etiam ibi Glos.:
+          <lb ed="#P" n="79"/>Frgo pro matrimonio contrahendo potest emigi
+          <lb ed="#P" n="80"/>pecunia. Et infra eamdem rationem erroneam
+          <lb ed="#P" n="81"/>repctit. Et ab hac sententia non discordat 
+          Du<lb break="no" ed="#P" n="82"/>randus, 4, distinct. 26, quaest. 3, ubi pro illa
+          <lb ed="#P" n="83"/>refert etiam Hostiens. in Sum., tit. de Sacram.
+          <lb ed="#P" n="84"/>non iter., S Tertia divisio. Et eamdem 
+          se<lb break="no" ed="#P" n="85"/>quitur Alens., 2 part. , quaest. 169, num. 4,
+          <lb ed="#P" n="86"/>art. 1, dub. 1, in fine.
+        </p>
+        <p>
+          <lb ed="#P" n="87"/>8. Rejicitur prcposita sententia. — 
+          Funda<lb break="no" ed="#P" n="88"/>mentum illius esse erroneum. — Nihilominus
+          <lb ed="#P" n="89"/>certum est non esse talem exceptionem 
+          ad<lb break="no" ed="#P" n="90"/>mittendam. Nam secundum fidem 
+          cathoh<lb break="no" ed="#P" n="91"/>cam, matrimonium est verum sacramentum
+          <lb ed="#P" n="92"/>novae legis, et gratiam ex opere operato 
+          con<lb break="no" ed="#P" n="93"/>fert, ut in Concilio Tridertino, sess. 7 
+          gene<lb break="no" ed="#P" n="94"/>ratim, et sess. 24, can. 1, in specie de 
+          matri<lb break="no" ed="#P" n="95"/>monio definitum est. Unde consequenter 
+          se<lb break="no" ed="#P" n="96"/>quitur matrimonium, quatenus sacramentum
+          <lb ed="#P" n="97"/>est, vendi non posse. Ita docet D. Thomas, d.
+          <lb ed="#P" n="98"/>quaest. 100, artic. 6, ad 2, cujus tempore non
+          <lb ed="#P" n="99"/>erat ita certum, matrimonium esse verum 
+          sa<lb break="no" ed="#P" n="100"/>cramentum, et dare gratiam, et ideo solum 
+          di<lb break="no" ed="#P" n="101"/>cit contrariam sententiam non esse 
+          usquequa<lb break="no" ed="#P" n="102"/>que veram : jam vero, sicut de fide est 
+          matri<lb break="no" ed="#P" n="103"/>monium dare gratiam, ita etiam est omnino
+          <lb ed="#P" n="104"/>certum esse materiam simoniae, ut 
+          sacramen<lb break="no" ed="#P" n="105"/>tum est, neque posse ut sic sine simonia 
+          ven<lb break="no" ed="#P" n="106"/>di. Et ita docent omnes Theologi cum divo
+          <lb ed="#P" n="107"/>Thoma supra, et in 4, distinct. 25. Et juris 
+          in<lb break="no" ed="#P" n="108"/>terpretes super citata jura, et omnes 
+          Sum<lb break="no" ed="#P" n="109"/>mistae. Fundamentum autem illarum 
+          OGlossa<lb break="no" ed="#P" n="110"/>rum erroneum cest, ut dixi, et nunc haereti-
+          <pb ed="#P" n="677"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cum. Et praeterea male inferunt, quia ut 
+          ma<lb break="no" ed="#P" n="2"/>trimonium non possit vendi, satis est quod sit
+          <lb ed="#P" n="3"/>sacramentum ( ut ipsae fatentur, imo et esse
+          <lb ed="#P" n="4"/>maximum sacramentum, ut dicit Glos., in d.
+          <lb ed="#P" n="5"/>cap. Honorantur ), etiamsi gratiam non 
+          da<lb break="no" ed="#P" n="6"/>ret. Sed fortasse Glossae non intellexerunt 
+          es<lb break="no" ed="#P" n="7"/>se sacramentum proprie institutum a Christo,
+          <lb ed="#P" n="8"/>sed lato modo, sicut fuit in statu innocentiae,
+          <lb ed="#P" n="9"/>teste Paulo, ad Ephes. 5. Et in omni lege fuit
+          <lb ed="#P" n="10"/>aliquo modo sacramentum , quia significavit
+          <lb ed="#P" n="11"/>conjunctionem Christi cum Ecclesia, et 
+          nihi<lb break="no" ed="#P" n="12"/>lominus vendi poterat. Sed licet in hoc sensu
+          <lb ed="#P" n="13"/>illatio posset sustineri, tamen in antecedente
+          <lb ed="#P" n="14"/>duplex error includeretur, scilicet et quod 
+          ma<lb break="no" ed="#P" n="15"/>trimonium non sit sacramentum speciale 
+          no<lb break="no" ed="#P" n="16"/>vae legis, et quod gratiam non conferat. Et
+          <lb ed="#P" n="17"/>sane Glos., in dict. cap. Quicquid, potius 
+          vi<lb break="no" ed="#P" n="18"/>detur sentire actiones sacras, quae gratiam non
+          <lb ed="#P" n="19"/>conferunt, posse sine simonia vendi, nam ex
+          <lb ed="#P" n="20"/>negatione illius effectus, tanquam ex 
+          negatio<lb break="no" ed="#P" n="21"/>ne causae adaequatae, infert non esse simoniam
+          <lb ed="#P" n="22"/>vendere mairimonii sacramentum. Et e 
+          con<lb break="no" ed="#P" n="23"/>yerso, de benedictione nuptiali, quae a 
+          sacer<lb break="no" ed="#P" n="24"/>dote datur, ait dare gratiam et ideo esse 
+          ma<lb break="no" ed="#P" n="25"/>teriam simoniae, sentiens illud esse necessarium
+          <lb ed="#P" n="26"/>fundamentum simoniae. Quae assertio etiam
+          <lb ed="#P" n="27"/>erronea est, quoniam certissimum est alias
+          <lb ed="#P" n="28"/>actiones spirituales , quae non dant gratiam,
+          <lb ed="#P" n="29"/>esse materiam simoniae, ut infra videbimus.
+          <lb ed="#P" n="30"/>Et de benedictione sacerdotis improbabile est
+          <lb ed="#P" n="31"/>dare gratiam cx opere operato, cum non sit
+          <lb ed="#P" n="32"/>forma sacramenti, sed sacramentale 
+          quod<lb break="no" ed="#P" n="33"/>dam , ut suppono, ut eadem Glossa plane 
+          fa<lb break="no" ed="#P" n="34"/>tetur.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>9. Solecuntur objecta contra ceram 
+          senten<lb break="no" ed="#P" n="36"/>tiam capit. Quicquid.—Neque alia jura, quae
+          <lb ed="#P" n="37"/>illae Glossae allegant, sunt ad rem. Nam in c.
+          <lb ed="#P" n="38"/>Quicguid generalis regula ponitur de 
+          omni<lb break="no" ed="#P" n="39"/>bus sacramentis , sub quibus matrimonium
+          <lb ed="#P" n="40"/>comprehenditur , etiamsi non nominetur in
+          <lb ed="#P" n="41"/>particulari, quia nec ibi numerantur omnia,
+          <lb ed="#P" n="42"/>nec erat necessarium. Et ita ibi etiam non 
+          ex<lb break="no" ed="#P" n="43"/>cluduntur aliae actiones, quae gratiam non
+          <lb ed="#P" n="44"/>conferunt, etiamsi illarum mentio non fiat.
+          <lb ed="#P" n="45"/>Là cap. autem Nuptiarum, nihil habetur ad
+          <lb ed="#P" n="46"/>praesentem causam pertinens. Capitul. autem
+          <lb ed="#P" n="47"/>un. non loquitur de sacramento , aut
+          <lb ed="#P" n="48"/>vinculo matrimonii, sed de usu et actu quo
+          <lb ed="#P" n="49"/>consummatur. Et deinde quod ibi dicitur, non
+          <lb ed="#P" n="50"/>adesse in illo actu praesentiam Spiritus 
+          Sanc<lb break="no" ed="#P" n="51"/>ti, si intelligatur de praesentia per efficientiam
+          <lb ed="#P" n="52"/>gratiae ex opere operato, clarum est; si vero
+          <lb ed="#P" n="53"/>intelligatur de praesentia Spiritus Sancti 
+          auxi<lb break="no" ed="#P" n="54"/>liantis, ut honeste et sine peccato fiat, vel
+          <lb ed="#P" n="55"/>etiam remunerantis per gratiae augmentum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>si legitima intentione ac debita puritate fiat
+          <lb ed="#P" n="57"/>(quod magis videtur significare Origenes, qui
+          <lb ed="#P" n="58"/>est auctor illius textus, ) non est id 
+          universa<lb break="no" ed="#P" n="59"/>liter verum, nam seepe potest fieri ille actus
+          <lb ed="#P" n="60"/>sancte et meritorie, quod non fit sine auxilio
+          <lb ed="#P" n="61"/>et praesentia Spiritus Sancti. Sed quia hoc 
+          ra<lb break="no" ed="#P" n="62"/>rum est etiam in justis conjugatis , ideo ita
+          <lb ed="#P" n="63"/>locutus est Origenes. Cap. autem Honorantur
+          <lb ed="#P" n="64"/>nihil ad rem facit ; tum quia in eo est sermo
+          <lb ed="#P" n="65"/>de conjugio Rebeccae, quod fatemur non fuisse
+          <lb ed="#P" n="66"/>sacramentum ; tum etiam quia illa donatio
+          <lb ed="#P" n="67"/>non fuit pretium, ut eadem Glossa ibidem 
+          fa<lb break="no" ed="#P" n="68"/>tetur, dicens: Talis donatio potius dicitur 
+          ho<lb break="no" ed="#P" n="69"/>nor, quam pretium ; fuit enim quidam actus
+          <lb ed="#P" n="70"/>voluntatis, et gratitudinis, et amicitiae, non
+          <lb ed="#P" n="71"/>pretium.
+        </p>
+        <p>
+          <lb ed="#P" n="72"/>10. Quo pacto detur et accipiatur dos in 
+          ma<lb break="no" ed="#P" n="73"/>trunonio sine simonia. —Sed adhue superest
+          <lb ed="#P" n="74"/>difficultas circa usum Ecclesiae. Videmus enim
+          <lb ed="#P" n="75"/>in matrimoniis pecuniam semper dari, et 
+          mul<lb break="no" ed="#P" n="76"/>ta pacta intervenire priusquam fiant. In qua
+          <lb ed="#P" n="77"/>difficultate responsio communis est, hoc non
+          <lb ed="#P" n="78"/>esse pretium matrimonii, sed dotem 
+          necessa<lb break="no" ed="#P" n="79"/>riam ad onera matrimonii sustentanda. Ita
+          <lb ed="#P" n="80"/>communiter jurisperiti citatis locis, praesertim
+          <lb ed="#P" n="81"/>in dict. c. Cum in Ecclesie, ubi Panormit.,
+          <lb ed="#P" n="82"/>num. 2, et Thom. de Argen., in 4, distinct.
+          <lb ed="#P" n="83"/>95, quaest. 1, art. 4, dub. 2, ad 1; Anton.,
+          <lb ed="#P" n="84"/>2 part., tit. 1, c. 5, S 16; Sylvest., Tabien.
+          <lb ed="#P" n="85"/>et alii. Et sumitur ex cap. Per vestras, de 
+          Do<lb break="no" ed="#P" n="86"/>nat. inter vir. et uxor., et leg. Pro oneribus.
+          <lb ed="#P" n="87"/>c. de Jur. dot. Quae responsio optime 
+          satisfa<lb break="no" ed="#P" n="88"/>cit, quantum ad dotem spectat ; nam et 
+          eccle<lb break="no" ed="#P" n="89"/>sia , quae res sacra est, sine dote consecrari
+          <lb ed="#P" n="90"/>non debet, juxta cap. Cum sicut, de Consecr.
+          <lb ed="#P" n="91"/>eccl., et cap. 1, prima quaest., 2. et cap. Nemo,
+          <lb ed="#P" n="92"/>de Consecr., distinct. 1; imo nec aedificari, ut
+          <lb ed="#P" n="93"/>ibi notant Glos., Panorm. et alii. Sed 
+          difficul<lb break="no" ed="#P" n="94"/>tas semper superest de aliis contractibus, qui
+          <lb ed="#P" n="95"/>circa matrimonium frequenter fiunt, qui non
+          <lb ed="#P" n="96"/>videntur posse excusari a venditione et 
+          emp<lb break="no" ed="#P" n="97"/>tone matrimonii. Solet enim, quando 
+          perso<lb break="no" ed="#P" n="98"/>nae non sunt aequales in nobilitate, vel alia 
+          si<lb break="no" ed="#P" n="99"/>militudine, inaqualitas illa ad quamdam
+          <lb ed="#P" n="100"/>equalitatem reduci per pecuniam, ut 
+          con<lb break="no" ed="#P" n="101"/>stat ex usu. Tunc non potest dici id fieri ad
+          <lb ed="#P" n="102"/>sustinenda onera matrimonii, nam ad hoc 
+          suf<lb break="no" ed="#P" n="103"/>ficeret competens dos; tunc vero fit haec 
+          ad<lb break="no" ed="#P" n="104"/>ditio ultra sufficientem et abundantem dotem.
+          <lb ed="#P" n="105"/>Et interdum fit sub conditione, ut, si 
+          contin<lb break="no" ed="#P" n="106"/>gat mori sine filiis conjugem minus nobilem,
+          <lb ed="#P" n="107"/>alter superstes sit necessarius haeres tantae 
+          pe<lb break="no" ed="#P" n="108"/>cuniae, vel tallum bonorum. Et confirmatur
+          <lb ed="#P" n="109"/>ex cap. De illis, de Condit. appos., ubi dicitur
+          <lb ed="#P" n="110"/>validum esse contractum hunc: Ducam te in
+          <pb ed="#P" n="678"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>uxorem, si rem talem mihi donaveris; ibi 
+          au<lb break="no" ed="#P" n="2"/>tem intervenit pactum asequivalens venditioni;
+          <lb ed="#P" n="3"/>nam ille sic contahens vendit matrimonium
+          <lb ed="#P" n="4"/>ex parte sua pro re quam postulat. Nec ibi
+          <lb ed="#P" n="5"/>habet locum excusatio de dote, quia conditio
+          <lb ed="#P" n="6"/>ponitur de absoluta donatione praeter dotem.
+        </p>
+        <p>
+          <lb ed="#P" n="7"/>11. Fera responsio. — Videtur ergo 
+          dicen<lb break="no" ed="#P" n="8"/>dum, mairimonium, quamvis sit 
+          sacramen<lb break="no" ed="#P" n="9"/>tum, simul esse contractum humanum, in quo
+          <lb ed="#P" n="10"/>communicatio materialis, ut sic dicam, id est
+          <lb ed="#P" n="11"/>rei corporalis pro corporali manifeste 
+          interve<lb break="no" ed="#P" n="12"/>nit. Nam in matrimonio conjuges invicem 
+          tra<lb break="no" ed="#P" n="13"/>dunt et acceptant corpora sua, unde unus 
+          tra<lb break="no" ed="#P" n="14"/>dit se alteri, quia alter tradit se illi, ete
+          <lb ed="#P" n="15"/>contrario. Igiturex parte hujus contractus nihil
+          <lb ed="#P" n="16"/>repugnat quod in matrimonio aliquod pretium
+          <lb ed="#P" n="17"/>interveniat. quando ad aequitatem contractus
+          <lb ed="#P" n="18"/>necessarium visum fuerit. Et tunc non emitur
+          <lb ed="#P" n="19"/>ant venditur sacramentum, nec aliquid 
+          spiri<lb break="no" ed="#P" n="20"/>tuale, sed venditur vel materialis contractus,
+          <lb ed="#P" n="21"/>vel potius quodammodo emitur quasi 
+          partiali<lb break="no" ed="#P" n="22"/>ter corpus ipsum materiale, quod est materia
+          <lb ed="#P" n="23"/>sacramenti. Nihil enim repugnat corpus 
+          hu<lb break="no" ed="#P" n="24"/>manum emi ad usum matrimonii, sicut 
+          emi<lb break="no" ed="#P" n="25"/>tur ad servitutem. Nam, sicut corpus unius
+          <lb ed="#P" n="26"/>conjugis pro corpore alterius commutatur, ita
+          <lb ed="#P" n="27"/>si non sint moraliter aequalia, potest 
+          commu<lb break="no" ed="#P" n="28"/>tari corpus unius, pro corpore et pecunia 
+          alte<lb break="no" ed="#P" n="29"/>rius; hoc enim nec contra justitiam est, nec
+          <lb ed="#P" n="30"/>cum simonia habet commercium.
+        </p>
+        <p>
+          <lb ed="#P" n="31"/>12. Declaratur aliter. — Potest hoc etiam
+          <lb ed="#P" n="32"/>aliter declarari, quia per hujusmodi peeuniam
+          <lb ed="#P" n="33"/>semper compensatur aliqua conditio 
+          tempora<lb break="no" ed="#P" n="34"/>lis, in qua aiter contrahentium alterum 
+          exce<lb break="no" ed="#P" n="35"/>dit, et ita semper fit commutatio temporalis
+          <lb ed="#P" n="36"/>pro temporali, non pro spirituali. Ut, verbi
+          <lb ed="#P" n="37"/>gratia, quando alter contrahentium est nobilis
+          <lb ed="#P" n="38"/>et alter dives, sicut corpus pro corpore 
+          com<lb break="no" ed="#P" n="39"/>mutatur, ita nobilitas pro divitiis; et si unus
+          <lb ed="#P" n="40"/>est senex dives, alter juvenis pauper, 
+          grava<lb break="no" ed="#P" n="41"/>men illud et periculum, quod suscipit juvenis,
+          <lb ed="#P" n="42"/>pecunia compensatur. Et s:e de aliis 
+          conditio<lb break="no" ed="#P" n="43"/>nibus pulchritudinis, aut deformitatis, 
+          hebe<lb break="no" ed="#P" n="44"/>tudinis, vel facilitatis ingenii; et similibus 
+          ju<lb break="no" ed="#P" n="45"/>dicandum est. Et hoc totum videtur 
+          compre<lb break="no" ed="#P" n="46"/>hendisse D. Thom., d. art. 2, ad 6, dicens,
+          <lb ed="#P" n="47"/>matrimonium non solum esse sacramentum . sed
+          <lb ed="#P" n="48"/>etiam naturee officium, et ideo licet pro 
+          sacra<lb break="no" ed="#P" n="49"/>mento non possit pecunia dari, pro matrimonio,
+          <lb ed="#P" n="50"/>ut est officuum naturme, licitum esse pecuniam
+          <lb ed="#P" n="51"/>dare. Nam sub ila ratione ofticii naturae 
+          inclu<lb break="no" ed="#P" n="52"/>duntur omnia quae ad aequalitatem contractus,
+          <lb ed="#P" n="53"/>ut talis est, necessaria videbuntur, ut bene 
+          ex<lb break="no" ed="#P" n="54"/>plicavit Richard., 4 distinct. 25, art. 3, quaest.
+          <lb ed="#P" n="55"/>1. ad. 4. Et idem sentit Panorm., in cap. Cums
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in Ecclesie, de Simon., num. 3, eitans Bart., in
+          <lb ed="#P" n="57"/>leg. S ita stipulatus, S 3, etinleg. 
+          Sidivor<lb break="no" ed="#P" n="58"/>lio, tf. de Verb. oblig. Et idem Guillel. 
+          Re<lb break="no" ed="#P" n="59"/>doan., tract. de Simon., part. 1, cap. 11,
+          <lb ed="#P" n="60"/>num. 4; qui tamen in eo cavendus est, 
+          quod<lb break="no" ed="#P" n="61"/>non videtur recte sentire de matrimonio, ut
+          <lb ed="#P" n="62"/>sacramentum est, sed in opinionem Glossarum
+          <lb ed="#P" n="63"/>damnatam inclinare, sine ulla necessitate ad
+          <lb ed="#P" n="64"/>praesentem resolutionem. Quia, licet 
+          matrimo<lb break="no" ed="#P" n="65"/>niuni sit perfectissimum sacramentum, non
+          <lb ed="#P" n="66"/>abstulit rationem contractus, neque alia quae
+          <lb ed="#P" n="67"/>ad aequitatem ejus, et ad officium natura 
+          ne<lb break="no" ed="#P" n="68"/>cessaria sunt. Et hinc etiam est, ut in 
+          contra<lb break="no" ed="#P" n="69"/>hendo matrimonio licitum sit pecunia 
+          procu<lb break="no" ed="#P" n="70"/>rare consensum alterius, et dare aliquid vel
+          <lb ed="#P" n="71"/>parentibus puellae ut consentiant, vel 
+          inter<lb break="no" ed="#P" n="72"/>nunciis ut illud procurent, quia haec omnia
+          <lb ed="#P" n="73"/>immediate ad contractum et officium naturae
+          <lb ed="#P" n="74"/>ordinantur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

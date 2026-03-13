@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="87"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k02116"><!-- t2-l1c3 -->
+        <head>Caput 3</head>
+        <head type="question-title">An offerre deo aliqua sacrificia in cultum ejus, sit lege naturali, divina vel ecclesiastica praeceptum.</head>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>CAPUT III
+          <lb ed="#P" n="55"/>AN OFFERRE DEO ALIQUA SACRIEICIA IN CULTUM
+          <lb ed="#P" n="56"/>EJUS, SIT LEGE NATURALI, DIVINA VEL 
+          ECCLE<lb break="no" ed="#P" n="57"/>SIASTICA PRUEGEPTUM.
+        </p>
+        <p>
+          <lb ed="#P" n="58"/>1. Oblatio, et sacrificium in quo differant.
+          <lb ed="#P" n="59"/>— Hic breviter explicabo quae Divus Thomas
+          <lb ed="#P" n="60"/>in hac materia, quaest. 85, 2. 2, attigit, 
+          so<lb break="no" ed="#P" n="61"/>lum quatenus necessaria videbuntur ad hujus
+          <lb ed="#P" n="62"/>materiae complementum, et ad ea 
+          intelligen<lb break="no" ed="#P" n="63"/>da, quae postea de superstitione, idololatria, et
+          <lb ed="#P" n="64"/>aliis vitiis religioni contrariis ; seu (quod 
+          pe<lb break="no" ed="#P" n="65"/>rinde est) ad intelligenda praecepta negativa
+          <lb ed="#P" n="66"/>huic virtuti annexa, necessaria sunt. Quia
+          <lb ed="#P" n="67"/>vero sacrificium oblatio quaedam est, ideo
+          <lb ed="#P" n="68"/>prius ratio nominum oblationis et sacrificii
+          <lb ed="#P" n="69"/>praemittenda est. Differunt enim illa duo 
+          tan<lb break="no" ed="#P" n="70"/>quam genus et species : omne enim 
+          sacrifi<lb break="no" ed="#P" n="71"/>cium oblatio est, non vero omnis oblatio est
+          <lb ed="#P" n="72"/>sacrificium, proprie et stricte tam de 
+          obla<lb break="no" ed="#P" n="73"/>tione quam de sacrificio loquendo. Nomen
+          <lb ed="#P" n="74"/>enim oblationis latissime patet: nam potest
+          <lb ed="#P" n="75"/>esse oblatio interna et externa; prior proprie
+          <lb ed="#P" n="76"/>pertinet ad devotionem, qua homo se totum
+          <lb ed="#P" n="77"/>et sua offert in obsequium Dei; posterior
+          <lb ed="#P" n="78"/>vero fit per actiones sensibiles et externas.
+          <lb ed="#P" n="79"/>Rursum potest homo offerre seipsum Deo,
+          <lb ed="#P" n="80"/>non solum interius et affectu, sed etiam 
+          ex<lb break="no" ed="#P" n="81"/>terius, et cum reali effectu, quomodo se offert
+          <lb ed="#P" n="82"/>quis Deo per professionem religionis, vel per
+          <lb ed="#P" n="83"/>sacram ordinationem, imo et per baptismum,
+          <lb ed="#P" n="84"/>vel confirmationem aut poenitentiam, et sic
+          <lb ed="#P" n="85"/>etiam martyr per martyrium vitam suam Deo
+          <lb ed="#P" n="86"/>offert. Et ita nonnulli, inter actus 
+          peculiari<lb break="no" ed="#P" n="87"/>ter designatos ad cultum Dei, ponunt 
+          mar<lb break="no" ed="#P" n="88"/>tyrium, ut ex Augustino, 10 de Civit., cap. 4,
+          <lb ed="#P" n="89"/>notat Wald., tom. 3 de Sacrament., cap. 117,
+          <lb ed="#P" n="90"/>num. 4; Cordub., lib. 4, quast. 5, dub. 6;
+          <lb ed="#P" n="91"/>Aragon., 2. 2, quaest. 84, art. 2, in fine. 
+          Ve<lb break="no" ed="#P" n="92"/>rumtamen non agimus hic de his 
+          oblationi<lb break="no" ed="#P" n="93"/>bus; nam illae secundum proprias rationes
+          <lb ed="#P" n="94"/>aut habent peculiares virtutes, ad quas 
+          per<lb break="no" ed="#P" n="95"/>tineant, ut martyrium fortitudinem et 
+          chari<lb break="no" ed="#P" n="96"/>tatem ; satisfactio, vel castigatio proprii 
+          cor<lb break="no" ed="#P" n="97"/>poris poenitentiam ; licet ad cultum et 
+          adora<lb break="no" ed="#P" n="98"/>tionem per religionem assumi possint, vel
+          <lb ed="#P" n="99"/>certe multa ex illis pertinent ad cultum 
+          sacra<lb break="no" ed="#P" n="100"/>mentorum. Solum illa de professione 
+          reli<lb break="no" ed="#P" n="101"/>gionis habere potest in hac materia 
+          peculia<lb break="no" ed="#P" n="102"/>rem considerationem, quam infra trademus,
+          <lb ed="#P" n="103"/>tractando de voto praesertim solemni.
+        </p>
+        <p>
+          <lb ed="#P" n="104"/>2. Quid sit oblatio proprie. — Oblationis
+          <lb ed="#P" n="105"/>varie divisiones. — Oblatio ergo proprie di-
+          <pb ed="#P" n="88"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>citur actio exterior, per quam aliquid ex
+          <lb ed="#P" n="2"/>nostris sensibilibus bonis Deo offerimus 
+          inre<lb break="no" ed="#P" n="3"/>cognitionem dominii, et excellentiae ejus, et
+          <lb ed="#P" n="4"/>servitutis nostra ad ipsum, vel in 
+          quemcum<lb break="no" ed="#P" n="5"/>que cultum religiosum Dei. Haec vero oblatio
+          <lb ed="#P" n="6"/>ulterius dividi potest, nam quaedam 
+          offerun<lb break="no" ed="#P" n="7"/>tur Deo ipsi immediate, tanquam illi cui 
+          di<lb break="no" ed="#P" n="8"/>recte donantur, etiamsi postea cedant in 
+          ali<lb break="no" ed="#P" n="9"/>quem hominum usum, ut sunt multa ex his
+          <lb ed="#P" n="10"/>quae in Ecclesia, vel in altari offeruntur ; alia
+          <lb ed="#P" n="11"/>offeruntur Deo tanquam ei propter quem 
+          do<lb break="no" ed="#P" n="12"/>nantur; proxime vero et directe donantur
+          <lb ed="#P" n="13"/>ministris ejus, ut fit in decimarum solutione;
+          <lb ed="#P" n="14"/>sed illa communiter non censentur proprie
+          <lb ed="#P" n="15"/>oblationes ; et ita D. Thomas, 2. 2, quaest. 85,
+          <lb ed="#P" n="16"/>art. 3 ad 3, dixit decimas non esse 
+          oblatio<lb break="no" ed="#P" n="17"/>nes. Nunc ergo de oblatione in hac stricta 
+          si<lb break="no" ed="#P" n="18"/>enificatione tractamus; et adhuc sic accepta
+          <lb ed="#P" n="19"/>tandem subdividitur in oblationem simplicem,
+          <lb ed="#P" n="20"/>seu puram, et in sacrificium, quae est oblatio
+          <lb ed="#P" n="21"/>cum aliqua consecratione vel mutatione rei
+          <lb ed="#P" n="22"/>oblatae, ita ut ipsa consecratio vel mutatio fiat
+          <lb ed="#P" n="23"/>in peculiarem Dei venerationem. Et ita 
+          dis<lb break="no" ed="#P" n="24"/>tinxit divus Thomas supra oblationem a 
+          sa<lb break="no" ed="#P" n="25"/>crificio, eamque distinctionem late 
+          declaravi<lb break="no" ed="#P" n="26"/>mus, et ex Patribus confirmavimus in tom. 3
+          <lb ed="#P" n="27"/>tertiae partis, disput. 73, sect. 5. In hoc ergo
+          <lb ed="#P" n="28"/>capite de solo sacrificio tractamus; in 
+          sequen<lb break="no" ed="#P" n="29"/>tibus de oblationibus dicemus.
+        </p>
+        <p>
+          <lb ed="#P" n="30"/>3. Sacrificium externum est quasi de jure
+          <lb ed="#P" n="31"/>gentium. — Dico ergo primo: colere Deum
+          <lb ed="#P" n="32"/>per visibile sacrificium, et externam 
+          obla<lb break="no" ed="#P" n="33"/>tionem, licet non sit in rigore praescriptum
+          <lb ed="#P" n="34"/>sola lege natura, est adeo consentaneum
+          <lb ed="#P" n="35"/>illi, ut semper fuerit quasi de jure gentium,
+          <lb ed="#P" n="36"/>quod quodammodo naturale dicitur. Hanc
+          <lb ed="#P" n="37"/>etiam assertionem attigi citato loco, et juxta
+          <lb ed="#P" n="38"/>illam interpretor D. Thomam, dict. quaest. 85,
+          <lb ed="#P" n="39"/>art. 1, dicentem sacrificium esse de lege 
+          na<lb break="no" ed="#P" n="40"/>turae, quod de oblatione etiam dicit, quaest.
+          <lb ed="#P" n="41"/>86, art. 4. Prima ergo pars sequitur aperte
+          <lb ed="#P" n="42"/>ex praecedentibus, quia, licet cultus per 
+          ex<lb break="no" ed="#P" n="43"/>ternas oblationes vel sacrificia generalis sit,
+          <lb ed="#P" n="44"/>et hac ratione videatur esse posse naturalis,
+          <lb ed="#P" n="45"/>nihilominus comparatus ad cultum externum
+          <lb ed="#P" n="46"/>in communi, jam addit determinationem 
+          ali<lb break="no" ed="#P" n="47"/>quam; nam multi sunt cultus externi, qui
+          <lb ed="#P" n="48"/>non sunt sacrificia nec oblationes externarum
+          <lb ed="#P" n="49"/>rerum, ut sunt genuflexio, tunsio pectoris,
+          <lb ed="#P" n="50"/>laudatio vocalis, et similes. Possent ergo 
+          ho<lb break="no" ed="#P" n="51"/>mines esse contenti similibus actionibus ad
+          <lb ed="#P" n="52"/>Deum adorandum, sine aliis oblationibus;
+          <lb ed="#P" n="53"/>neque hoc haberet intrinsecam deformitatem
+          <lb ed="#P" n="54"/>ex vi legis naturae, ut per se constat, quia ex
+          <lb ed="#P" n="55"/>nullo principio ostendi potest intrinseca mali-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tia in limitatione talium signorum, cum 
+          nega<lb break="no" ed="#P" n="57"/>tione (ut sic dicam) aliorum. Ergo ex solis
+          <lb ed="#P" n="58"/>principiis naturae non ostenditur necessarium
+          <lb ed="#P" n="59"/>praeceptum talium obationum.
+        </p>
+        <p>
+          <lb ed="#P" n="60"/>4. Probatur conclusio. — Altera 
+          nihilomi<lb break="no" ed="#P" n="61"/>nus pars probatur ex ipso usu, qui satis 
+          os<lb break="no" ed="#P" n="62"/>tendit inclinationem hominis naturalem; nam
+          <lb ed="#P" n="63"/>imprimis ex Scriptura habemus, statim a 
+          prin<lb break="no" ed="#P" n="64"/>cipio mundi, Abel et Cain obtulisse Deo de
+          <lb ed="#P" n="65"/>bonis suis, quos naturali lege ductos fecisse
+          <lb ed="#P" n="66"/>testatur Chrysostomus, homilia 18 in Genes.,
+          <lb ed="#P" n="67"/>et Cassian., collat. 8, cap. 23, et oblationes
+          <lb ed="#P" n="68"/>illas sacrificium fuisse sentiunt, estque 
+          com<lb break="no" ed="#P" n="69"/>munis expositio in illum locum. Et licet de
+          <lb ed="#P" n="70"/>Adam simile quid non legatur, verisimillimum
+          <lb ed="#P" n="71"/>est filios, a patris doctrina et exemplo id 
+          di<lb break="no" ed="#P" n="72"/>dicisse. Nec oportuit Scripturam omnia 
+          nar<lb break="no" ed="#P" n="73"/>rare, ut dixit D. Thomas, dicto art. 1, ad 5,
+          <lb ed="#P" n="74"/>ubi etiam congruentiam addit, cur neque de
+          <lb ed="#P" n="75"/>Adam, neque de Isaac id in Scriptura 
+          refera<lb break="no" ed="#P" n="76"/>tur, quae ibi videri potest. De aliis vero 
+          pa<lb break="no" ed="#P" n="77"/>triarchis, ante legem scriptam frequenter 
+          re<lb break="no" ed="#P" n="78"/>fertur, de Noe, Abraham, Jacob, 
+          Melchise<lb break="no" ed="#P" n="79"/>dech. Nec solum de fidelium oblationibus et
+          <lb ed="#P" n="80"/>sacrificiis, sed etiam de gentium 
+          sacerdoti<lb break="no" ed="#P" n="81"/>bus, et sacrificiis quae diis suis et idolis 
+          facie<lb break="no" ed="#P" n="82"/>bant, Scriptura loquitur, et praecipue Genes.
+          <lb ed="#P" n="83"/>41 fit mentio sacerdotum ZEgypti, et 
+          singula<lb break="no" ed="#P" n="84"/>ris immunitatis eorum. Aristoteles etiam,
+          <lb ed="#P" n="85"/>lib. 7 Polit., cap. 8, inter alia ad perfectam
+          <lb ed="#P" n="86"/>rempublicam necessaria , primum, id est,
+          <lb ed="#P" n="87"/>praecipuum esse dicit, circa rem divinam 
+          cul<lb break="no" ed="#P" n="88"/>tun, quem vocant sacrificium. Unde in fine
+          <lb ed="#P" n="89"/>concludit, inter alios artifices vel magistratus
+          <lb ed="#P" n="90"/>necessarios, esse sacerdotes, de quibus etiam
+          <lb ed="#P" n="91"/>dixerat lib. 6, cap. ult., quosdam vocari 
+          sa<lb break="no" ed="#P" n="92"/>cerdotes, alios aedituos, qui templorum 
+          cu<lb break="no" ed="#P" n="93"/>ram habent, et earum rerum quae ad divinum
+          <lb ed="#P" n="94"/>cultum pertinent ; alios autem vocari 
+          sacrifi<lb break="no" ed="#P" n="95"/>culos, alios reges sacrorum, alios pontifices
+          <lb ed="#P" n="96"/>maximos ; et lib. 8 Ethic., cap. 9, sacrificia
+          <lb ed="#P" n="97"/>dicit esse antiqua. In Romana etiam republica
+          <lb ed="#P" n="98"/>et aliis, hunc morem fuisse constat; satis
+          <lb ed="#P" n="99"/>ergo hinc ostenditur quam sit naturalis hic
+          <lb ed="#P" n="100"/>cultus. Non defuerunt tamen philosophi, qui
+          <lb ed="#P" n="101"/>dixerint hunc ritum visibilium sacrificiorum
+          <lb ed="#P" n="102"/>solum propter continendum vulgus permitti,
+          <lb ed="#P" n="103"/>non vero quia ad Dei cultum conferant, ut
+          <lb ed="#P" n="104"/>de Seneca refert Augustinus, lib. 6 de Civit.,
+          <lb ed="#P" n="105"/>cap. 10; sed hi ex dictis in cap. praeced. satis
+          <lb ed="#P" n="106"/>confutantur.
+        </p>
+        <p>
+          <lb ed="#P" n="107"/>5. Hunc modum colendi Dewm esse 
+          hones<lb break="no" ed="#P" n="108"/>tum .—Quod ergo hic modus colendi Deum,
+          <lb ed="#P" n="109"/>si alias in verum Deum referatur, et debitis
+          <lb ed="#P" n="110"/>circumstantiis fiat, honestus sit ex vi legis
+          <pb ed="#P" n="89"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>naturae, manifestum est ex usu omnium 
+          pio<lb break="no" ed="#P" n="2"/>rum, et vera fide colentium Deum; item quia
+          <lb ed="#P" n="3"/>in tali actu est aptitudo, et congruentia ut ad
+          <lb ed="#P" n="4"/>divinum cultum ordinetur, et alioquin nulla
+          <lb ed="#P" n="5"/>deordinatio vel prava circumstantia per se 
+          il<lb break="no" ed="#P" n="6"/>Ii conjuncta est. Quae omnia in dicto loco late
+          <lb ed="#P" n="7"/>dedusi, et patet breviter, quia dum res 
+          ali<lb break="no" ed="#P" n="8"/>qua Deo oftertur, gratitudo animi erga illum
+          <lb ed="#P" n="9"/>ostenditur, et ipse tanquam bonorum omnium
+          <lb ed="#P" n="10"/>auctor recegnoscitur. Neque enim haec dona
+          <lb ed="#P" n="11"/>illi offeruntur, quia eis indigeat, vel quia illi
+          <lb ed="#P" n="12"/>sint utilia, sed offerentium utilitati 
+          prospici<lb break="no" ed="#P" n="13"/>tur (ait Philo, lib. de Sacerdotum honoribus,
+          <lb ed="#P" n="14"/>in principio ); dum enim assuescunt semper
+          <lb ed="#P" n="15"/>alimenti partem Deo decidere, uunguam in ejus
+          <lb ed="#P" n="16"/>oblivionem veniunt, quare nilil in vita potest
+          <lb ed="#P" n="17"/>contingere felicius homini. Deinde cum huic
+          <lb ed="#P" n="18"/>oblationi adjungitur aliqua caeremonia sacra,
+          <lb ed="#P" n="19"/>qua res oblata mactatur, vel aliquo modo
+          <lb ed="#P" n="20"/>conficitur, vel consumitur, additur expressa
+          <lb ed="#P" n="21"/>quaedam significatio dominii supremi Dei, a
+          <lb ed="#P" n="22"/>quo omnium aliarum rerum vita et esse 
+          pen<lb break="no" ed="#P" n="23"/>det, et interdum etiam ex divina institutione
+          <lb ed="#P" n="24"/>ad aliquid aliud mystice significandum 
+          accom<lb break="no" ed="#P" n="25"/>modatur, quod totum sanctum et religiosum
+          <lb ed="#P" n="26"/>est.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>6. Conformitas inter hunc cultum et hominis
+          <lb ed="#P" n="28"/>naturam. — Et hinc orta est conformitas et
+          <lb ed="#P" n="29"/>consonantia inter hunc cultum et naturam
+          <lb ed="#P" n="30"/>hominis, quae sensibilis simul ac rationalis
+          <lb ed="#P" n="31"/>est, ut Damasc., orat. 3 de Imag., et lib. 4 de
+          <lb ed="#P" n="32"/>Fide, cap. 13, adnotavit. Nam quia homo per
+          <lb ed="#P" n="33"/>sensibilia intelligit, per usus etiam signorum
+          <lb ed="#P" n="34"/>sensibilium explicat mentem suam, et 
+          memo<lb break="no" ed="#P" n="35"/>riam renovat, et affectum suum movet. Quod
+          <lb ed="#P" n="36"/>jucundius, et cum majori attentione et quasi
+          <lb ed="#P" n="37"/>admiratione facit, quando non tantum verbis,
+          <lb ed="#P" n="38"/>sed etiam factis, nec tantum usu membrorum
+          <lb ed="#P" n="39"/>corporis, sed etiam aliis actionibus, et rebus
+          <lb ed="#P" n="40"/>ipsis, seu bonis suis externis animum suum
+          <lb ed="#P" n="41"/>ostendit. Ita ergo in exhibenda reverentia,
+          <lb ed="#P" n="42"/>praesertim Deo, his omnibus signis utitur,
+          <lb ed="#P" n="43"/>estque hoc illi valde connaturale, et 
+          propen<lb break="no" ed="#P" n="44"/>sioni naturali consentaneum. Hic vero statim
+          <lb ed="#P" n="45"/>occurrebat declarandum, quae circumstantiae
+          <lb ed="#P" n="46"/>necessariae sint ut sacrificium honeste 
+          offera<lb break="no" ed="#P" n="47"/>tur; sed hoc in 3 tom. late tractatum est. Bt
+          <lb ed="#P" n="48"/>summa est, primo ex parte materiae 
+          servan<lb break="no" ed="#P" n="49"/>dum esse, ut res Deo digna illi offeratur;
+          <lb ed="#P" n="50"/>secundo, ut vero Deo offeratur; tertio, ut 
+          jux<lb break="no" ed="#P" n="51"/>ta legitimam institutionem ; quarto, ut a 
+          de<lb break="no" ed="#P" n="52"/>bito ministro. Omnia vero pendent maxime
+          <lb ed="#P" n="53"/>ex institutione: qualis vero esse possit, an
+          <lb ed="#P" n="54"/>humana, vel tantum divina, dicto loco late
+          <lb ed="#P" n="55"/>disserui.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>7. Difficultas proponitur. — Tandem, ut
+          <lb ed="#P" n="57"/>explicemus amplius ultimam partem 
+          asser<lb break="no" ed="#P" n="58"/>tionis, interrogare possumus quid sibi 
+          volue<lb break="no" ed="#P" n="59"/>rit divus Thomas, constituendo in hoc 
+          dis<lb break="no" ed="#P" n="60"/>crimen aliquod, inter sacrificium et 
+          simpli<lb break="no" ed="#P" n="61"/>cem oblationem, ut ex ipso licet colligere, in
+          <lb ed="#P" n="62"/>2. 2, quaest. 85, artic. 1. et quaest. 86, art. 1.
+          <lb ed="#P" n="63"/>Nam in priori simpliciter assérit sacrificium
+          <lb ed="#P" n="64"/>esse de lege natura; in posteriori vero ait,
+          <lb ed="#P" n="65"/>luusmodi oblationes de sui ratione habere,
+          <lb ed="#P" n="66"/>ut voluntarie offerantur, secundum illud Exod.
+          <lb ed="#P" n="67"/>23: Ab homine qui offert ultroneus, accipetis
+          <lb ed="#P" n="68"/>eas. Videtur enim difficile explicatu, in quo
+          <lb ed="#P" n="69"/>haec differentia posita sit; nam si loquamur
+          <lb ed="#P" n="70"/>proprie et in rigore de lege naturali, prout
+          <lb ed="#P" n="71"/>dicit praeceptum obligans ex solo discursu
+          <lb ed="#P" n="72"/>rationis naturalis, non magis sacrificium quam
+          <lb ed="#P" n="73"/>oblatio simplex est de lege naturae, ut 
+          os<lb break="no" ed="#P" n="74"/>tensum est; si vero loquamur latius de lege
+          <lb ed="#P" n="75"/>naturae, prout dicit solum moralem quemdam
+          <lb ed="#P" n="76"/>usum de se honestum, ac religiosum, et 
+          con<lb break="no" ed="#P" n="77"/>sentaneum natura hominis, non minus 
+          sim<lb break="no" ed="#P" n="78"/>plex oblatio est de iure natura, quam 
+          sacri<lb break="no" ed="#P" n="79"/>ficium; imo simplex oblatio videtur de se
+          <lb ed="#P" n="80"/>magis connaturalis, quia sine speciali 
+          imposi<lb break="no" ed="#P" n="81"/>tione aut institutione, statim ipsa dictante
+          <lb ed="#P" n="82"/>natura, oblatio munerum et fructuum a Deo
+          <lb ed="#P" n="83"/>receptorum repraesentatur ut apta ad ipsius
+          <lb ed="#P" n="84"/>dominatum et beneficentiam 
+          recognoscen<lb break="no" ed="#P" n="85"/>dam, ac protestandam. Respondeo breviter,
+          <lb ed="#P" n="86"/>quod ad legem pure naturalem attinet, 
+          nul<lb break="no" ed="#P" n="87"/>lam in hoc inveniri differentiam inter 
+          obla<lb break="no" ed="#P" n="88"/>tuonem simplicem et sacrificium, ut ratio 
+          fac<lb break="no" ed="#P" n="89"/>ta convincit, nec divus Thomas talem 
+          diffe<lb break="no" ed="#P" n="90"/>rentiam constituere intendit. Quin potius,
+          <lb ed="#P" n="91"/>cum in artic. 1 dictae quaest. 85, dicit 
+          sacrifi<lb break="no" ed="#P" n="92"/>cium esse de lege natura, late videtur loqui
+          <lb ed="#P" n="93"/>de omni oblatione alicujus rei facta Deo in
+          <lb ed="#P" n="94"/>recognitionem dominii ejus; hoc enim tantum
+          <lb ed="#P" n="95"/>probat ejus ratio; unde postea, in artic. 3, ad
+          <lb ed="#P" n="96"/>3, distinctionem constituit inter oblationem
+          <lb ed="#P" n="97"/>et sacrificium; sentit ergo doctrinam priorem
+          <lb ed="#P" n="98"/>utrique esse communem. Postea vero, in
+          <lb ed="#P" n="99"/>quaest. 86, artic. 1, potius explicat quibus
+          <lb ed="#P" n="100"/>modis nunc contingat interventu humanae 
+          vo<lb break="no" ed="#P" n="101"/>luntatis oblationem cadere sub obligationem.
+        </p>
+        <p>
+          <lb ed="#P" n="102"/>8. Sacrificium est actio magis sacra, quam
+          <lb ed="#P" n="103"/>oblatio. — Ex illo tamen loco videtur colligi
+          <lb ed="#P" n="104"/>quaedam differentia, quia sacrificium semper
+          <lb ed="#P" n="105"/>habitum est ut actio magis sacra et publica,
+          <lb ed="#P" n="106"/>quam simplex oblatio, et ideo regulariter de
+          <lb ed="#P" n="107"/>ritu sacrificandi in unaquaque republica 
+          sem<lb break="no" ed="#P" n="108"/>per fuerunt instituta jura, et praecepta 
+          specia<lb break="no" ed="#P" n="109"/>lia, tam spectantia ad modum et ritum 
+          sacri<lb break="no" ed="#P" n="110"/>ficii, quam praecipientia usum et exercitium
+          <pb ed="#P" n="90"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>eorum. Sicut in lege veteri factum esse 
+          sci<lb break="no" ed="#P" n="2"/>mus, et in nova conspicimus, et verisimile est
+          <lb ed="#P" n="3"/>idem fuisse in lege naturae, tam inter 
+          culto<lb break="no" ed="#P" n="4"/>res veri Dei, quam inter gentiles suo modo;
+          <lb ed="#P" n="5"/>quamvis enim non omnes etiam fideles eodem
+          <lb ed="#P" n="6"/>modo sacriticarent, ut in sacrificio 
+          Melchise<lb break="no" ed="#P" n="7"/>dech, et sacrificiis Noe, vel Abrahae notari
+          <lb ed="#P" n="8"/>potest, tamen in unaquaque congregatione
+          <lb ed="#P" n="9"/>credibile est fuisse solemnem sacrificandi 
+          ri<lb break="no" ed="#P" n="10"/>tum, neque fuisse unicuique licitum vel 
+          per<lb break="no" ed="#P" n="11"/>missum suo arbitrio, et auctoritate ad 
+          libi<lb break="no" ed="#P" n="12"/>tum sacrificare, ut in dicta disputat. 73 
+          la<lb break="no" ed="#P" n="13"/>tius tractavi. At vero usus simplicium 
+          obla<lb break="no" ed="#P" n="14"/>tionum videtur fuisse semper magis liber et
+          <lb ed="#P" n="15"/>voluntarius, et ideo D. Thomas illis 
+          oblatio<lb break="no" ed="#P" n="16"/>nibus specialiter tribuit, quod ex sua natura
+          <lb ed="#P" n="17"/>spontaneae sint, non solum purum jus naturae
+          <lb ed="#P" n="18"/>considerando, sed etiam spectando ad 
+          com<lb break="no" ed="#P" n="19"/>munem usum, et quasijus gentium. Et ideo
+          <lb ed="#P" n="20"/>licet utraque oblatio simplex et sacrificium,
+          <lb ed="#P" n="21"/>suo modo sit de jure natura, quantum ad
+          <lb ed="#P" n="22"/>honestatem, et congruitatem ad divinum 
+          cul<lb break="no" ed="#P" n="23"/>tum, tamen sacrificium specialius videtur
+          <lb ed="#P" n="24"/>fuisse semper in praecepto, quasi ex 
+          com<lb break="no" ed="#P" n="25"/>muni consensu omnium nationum ; usus vero
+          <lb ed="#P" n="26"/>oblationum, et modus earum minorem 
+          deter<lb break="no" ed="#P" n="27"/>minationem semper habuit, et uniuscujusque
+          <lb ed="#P" n="28"/>arbitrio relictus est. Ex his ergo satis tota haec
+          <lb ed="#P" n="29"/>conclusio declarata, et probata est.
+        </p>
+        <p>
+          <lb ed="#P" n="30"/>9. Sacrificium in nova lege est de jure 
+          divi<lb break="no" ed="#P" n="31"/>so. —Dico secundo : cultus Dei per verum 
+          sa<lb break="no" ed="#P" n="32"/>crificium in lege nova praeceptum est jure 
+          di<lb break="no" ed="#P" n="33"/>vino, a Christo ipso institutum. Haec assertio
+          <lb ed="#P" n="34"/>est de fide, ex verbis Christi Domini, Matth.
+          <lb ed="#P" n="35"/>6: Hoc facite in meam commemorationem ;
+          <lb ed="#P" n="36"/>addita sententia Concilii Trident., sess. 22,
+          <lb ed="#P" n="37"/>cap. 1, dicentis Christum, illis verbis : Hoc
+          <lb ed="#P" n="38"/>facite in meam commemorationem, Apostolis,
+          <lb ed="#P" n="39"/>eorumque in sacerdotio successoribus, ut 
+          offer<lb break="no" ed="#P" n="40"/>rent, preecepisse, uti semper catholica Ecclesia
+          <lb ed="#P" n="41"/>intellexit et docuit; et can.2, ita definit: Si
+          <lb ed="#P" n="42"/>quis dicerit illis verbis : Hoc facite in meam
+          <lb ed="#P" n="43"/>commemorationem, Christum non instituisse
+          <lb ed="#P" n="44"/>Apostolos sacerdotes, awt non ordinasse, ut
+          <lb ed="#P" n="45"/>ipsi aliique sacerdotes offerrent corpus et 
+          sangui<lb break="no" ed="#P" n="46"/>em swwn, anathema sit Ratio vero hujus 
+          prae<lb break="no" ed="#P" n="47"/>cepti est, quia Ecclesia Christi est visibilis 
+          con<lb break="no" ed="#P" n="48"/>gregatio sub una fide et uno capite ad verum
+          <lb ed="#P" n="49"/>Dei cultum instituta, et ideo habere debuit a
+          <lb ed="#P" n="50"/>suo institutore visibile sacrificium, quo 
+          maxi<lb break="no" ed="#P" n="51"/>me Deum colere teneretur. Ergo Christus, qui
+          <lb ed="#P" n="52"/>est auctor Ecclesiae, ritum etiam sacrificandi
+          <lb ed="#P" n="53"/>in ea instituit et praecepit. De hac autem 
+          veri<lb break="no" ed="#P" n="54"/>tate late disputatum est in 3 tom. tertiae partis,
+          <lb ed="#P" n="55"/>disp. 73, sect. 1, et secunda declaratum est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quomodo sacrificium hoc in mysterio 
+          Eucha<lb break="no" ed="#P" n="57"/>ristiae conficiendo celebretur et offeratur ; et
+          <lb ed="#P" n="58"/>in toto discursu illius, et sequentium 
+          dispu<lb break="no" ed="#P" n="59"/>tationum, declaratum est in quo consistat
+          <lb ed="#P" n="60"/>essentia illius sacrificii, et quas causas et 
+          ef<lb break="no" ed="#P" n="61"/>fectus habeat. Et specialiter in disput. 80 
+          de<lb break="no" ed="#P" n="62"/>claratum est praeceptum hujus sacrificii, 
+          qua<lb break="no" ed="#P" n="63"/>tenus ad ministros illius pertinet, et in 
+          dis<lb break="no" ed="#P" n="64"/>put. 88, quatenus ad alios fideles spectare 
+          po<lb break="no" ed="#P" n="65"/>test.
+        </p>
+        <p>
+          <lb ed="#P" n="66"/>10. — Preceptum sacrificii datum esse 
+          Ec<lb break="no" ed="#P" n="67"/>clesie. — Unde hic solum advertere necesse
+          <lb ed="#P" n="68"/>est praeceptum hoc, quatenus divinum est, per
+          <lb ed="#P" n="69"/>se primo datum esse ipsi Ecclesiae, 
+          relin<lb break="no" ed="#P" n="70"/>quendo pastoribus Ecclesiae determinationem
+          <lb ed="#P" n="71"/>ejus, tam quoad tempus, seu frequentiam,
+          <lb ed="#P" n="72"/>quam quoad modum observandi tale 
+          praece<lb break="no" ed="#P" n="73"/>ptum, personis accommodatum; aliter enim
+          <lb ed="#P" n="74"/>per sacerdotes, ut tales sunt, offerri potest et
+          <lb ed="#P" n="75"/>debet, aliter per alios fideles inferioris status,
+          <lb ed="#P" n="76"/>quibus propterea praecipitur ut certis 
+          quibus<lb break="no" ed="#P" n="77"/>dam diebus huic sacrificio assistant, et suo
+          <lb ed="#P" n="78"/>modo per sacerdotem offerant; ipsis vero
+          <lb ed="#P" n="79"/>sacerdotibus injungitur ut immediate 
+          offe<lb break="no" ed="#P" n="80"/>rant: nam ad hoc sunt ordinati ministri, nec
+          <lb ed="#P" n="81"/>praeceptum datum universae Ecclesiae potest
+          <lb ed="#P" n="82"/>aliter impleri, nisi per sacerdotes offerendo.
+          <lb ed="#P" n="83"/>Et ita de obligatione hujus praecepti, et 
+          quan<lb break="no" ed="#P" n="84"/>do ac quomodo a singulis implendum sit,
+          <lb ed="#P" n="85"/>nihil hic occurrit addendum. Cur autem non
+          <lb ed="#P" n="86"/>liceat in hac Ecclesia uti alio sacrificio, et
+          <lb ed="#P" n="87"/>quomodo in Christi institutione haec 
+          prohibi<lb break="no" ed="#P" n="88"/>tio contenta sit, in disput. 74, sect. 4, 
+          expli<lb break="no" ed="#P" n="89"/>catum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

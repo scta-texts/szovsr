@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="653"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k16271"><!-- t3-l4c7 -->
+        <head>Caput 7</head>
+        <head type="question-title">Sitne aliqua simonia solo humano seu ecclesiastico jure prohibita.</head>
+        <p>
+          <lb ed="#P" n="13"/>CAPUT VII.
+          <lb ed="#P" n="14"/>SITNE ALIQUA SIMONIA SOLO HUMANO SEU 
+          EGCLE<lb break="no" ed="#P" n="15"/>SIASTICO JURE PROHIBITA.
+        </p>
+        <p>
+          <lb ed="#P" n="16"/>1. Pars negativa proponitur. — Omnia quae
+          <lb ed="#P" n="17"/>hactenus diximus, pertinent ad prius 
+          mem<lb break="no" ed="#P" n="18"/>brum divisionis propositae, quod erat simonia
+          <lb ed="#P" n="19"/>contra jus naturale ; nunc de altero membro
+          <lb ed="#P" n="20"/>simonise contra jus positivum dicendum est;
+          <lb ed="#P" n="21"/>non enim deest circa illud contreversia. Nam
+          <lb ed="#P" n="22"/>Durand., in 4, d. 25, quaest. 5, num. 9, 
+          con<lb break="no" ed="#P" n="23"/>| tendit nullam esse simoniam soli juri positivo
+          <lb ed="#P" n="24"/>contrariam. Probat primum, quia id quod est
+          <lb ed="#P" n="25"/>tantum contra praeceptum positivum, solum
+          <lb ed="#P" n="26"/>habet malitiam inobedientiee, quia in talibus
+          <lb ed="#P" n="27"/>| tota ratio malitiae est pracceptum, cui sola 
+          ino<lb break="no" ed="#P" n="28"/>bedientia opponitur; ergo si venditio vel 
+          em<lb break="no" ed="#P" n="29"/>plio solum est mala quia prohibita, erit 
+          tan<lb break="no" ed="#P" n="30"/>tum inobedientia, non simonia. Majorem
+          <lb ed="#P" n="31"/>videtur divus Thomas docere 2. 2, quaest. 104,
+          <lb ed="#P" n="32"/>art. 9. ad 1, ubi ait quaedam esse, quae ad 
+          nul<lb break="no" ed="#P" n="33"/>lam aliam virtutem nisi obedientiae pertinent,
+          <lb ed="#P" n="34"/>ut patet in his quae ideo sunt mala, quia 
+          pro<lb break="no" ed="#P" n="35"/>hibita; eteamdem probat Durandus cxemplis,
+          <lb ed="#P" n="36"/>quia qui in die jejunii pluries comedit, solum
+          <lb ed="#P" n="37"/>contra obedientiam peccat, et sic de aliis. 
+          Se<lb break="no" ed="#P" n="38"/>cundo argumentatur, quia vel res, quae vendi
+          <lb ed="#P" n="39"/>prohibetur, est sacra, vel non est sacra: si est
+          <lb ed="#P" n="40"/>sacra, non solum erit simonia, quia prohibita,
+          <lb ed="#P" n="41"/>sed ex natura rei, talis erit, quia omnes rationes
+          <lb ed="#P" n="42"/>facte ad probandum dari simoniam contra jus
+          <lb ed="#P" n="43"/>naturale, probabunt idem de tali simonia. Si
+          <lb ed="#P" n="44"/>vero res non est sacra, etiamsi jure humano
+          <lb ed="#P" n="45"/>vendi prohibeatur, venditio ejus npon erit vera
+          <lb ed="#P" n="46"/>simonia, quia prohibitio illa non mutat rerum
+          <lb ed="#P" n="47"/>naiuras, et ita nec facit ut sit res sacra, quae
+          <lb ed="#P" n="48"/>non erat, nec ut simonia vera in alia materia
+          <lb ed="#P" n="49"/>versetur, quam in re sacra. Ne autem videatur
+          <lb ed="#P" n="50"/>Glossis et doctrinis Canonistarum 
+          contradice<lb break="no" ed="#P" n="51"/>TIe, exponit solere hujusmodi contractus 
+          pro<lb break="no" ed="#P" n="52"/>ibitos per Eeclesiam ( quando, licet alias de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>se mali non sint, nihilominus sub poenis 
+          si<lb break="no" ed="#P" n="54"/>moniae prohibentur), simonias appellari largo
+          <lb ed="#P" n="55"/>modo et in ordine ad poenas, non quia revera
+          <lb ed="#P" n="56"/>pravitatem simoniae contineant.
+        </p>
+        <p>
+          <lb ed="#P" n="57"/>2. Propriam simoniam dari posse, solo 
+          ec<lb break="no" ed="#P" n="58"/>clesiastico jure prohibitam. — Nihilominus
+          <lb ed="#P" n="59"/>dicendum est, non tantum illo metaphorico
+          <lb ed="#P" n="60"/>modo, sed vere ac proprie dari posse simoniam
+          <lb ed="#P" n="61"/>etiamsi contra jus tantum ecclesiasticum et
+          <lb ed="#P" n="62"/>positivum sit. Ita sentiunt Glossae, et 
+          Canonis<lb break="no" ed="#P" n="63"/>tae relati cap. 2, qui hoc defendunt specialiter
+          <lb ed="#P" n="64"/>contra Durandum : Palud., 4, dist. 25, q. 4,
+          <lb ed="#P" n="65"/>art. 2 ; Sot., lib. 9 Just.. quaest. 5, art. 2. Qui
+          <lb ed="#P" n="66"/>auctores solum quibusdam exemplis declarant,
+          <lb ed="#P" n="67"/>ubi, quando et quomodo haec simonia tantum
+          <lb ed="#P" n="68"/>positiva inveniatur. Sed exempla non 
+          suffi<lb break="no" ed="#P" n="69"/>ciunt, tum quia fere omnia possunt esse 
+          du<lb break="no" ed="#P" n="70"/>bia, et Durandus dicet, in multis illorum esse
+          <lb ed="#P" n="71"/>simoniam quoad poenam, non quoad culpam;
+          <lb ed="#P" n="72"/>tum etiam quia oportet assignare regulam
+          <lb ed="#P" n="73"/>ad cognoscendam materiam hujus simoniae et
+          <lb ed="#P" n="74"/>prohibitionis ; nam ex tali regula judicandum
+          <lb ed="#P" n="75"/>est de exemplis, et sine illa, doctrina est 
+          in<lb break="no" ed="#P" n="76"/>completa, et insufficiens ad particulares 
+          quae<lb break="no" ed="#P" n="77"/>stiones definiendas. Ut ergo res breviter 
+          de<lb break="no" ed="#P" n="78"/>claretur, et solvantur objectiones Durandi,
+          <lb ed="#P" n="79"/>adverto, duobus modis posse intelligi aliquam
+          <lb ed="#P" n="80"/>simoniam esse de jure humano. Primo, quia
+          <lb ed="#P" n="81"/>res spiritualis, quae venditur, licet vere sacra
+          <lb ed="#P" n="82"/>et spiritualis sit, tamen totam 
+          spiritualita<lb break="no" ed="#P" n="83"/>tem suam habet ex jure humano, et 
+          Eccle<lb break="no" ed="#P" n="84"/>siae institutione , ut sacramentalia omnia
+          <lb ed="#P" n="85"/>sunt spiritualia de jure humano. Secundo,
+          <lb ed="#P" n="86"/>quia immediate ipsa venditio talis rei, vel
+          <lb ed="#P" n="87"/>commutatio pro alia, ex pacto, et obligatione
+          <lb ed="#P" n="88"/>mutua, de se non est mala, jure tamen 
+          hu<lb break="no" ed="#P" n="89"/>mano prohibita est intuitu religionis; ut, 
+          ver<lb break="no" ed="#P" n="90"/>bi gratia, officium oeconomi (quod gratia 
+          tan<lb break="no" ed="#P" n="91"/>tum exempli dictum sit) Ecclesia per se
+          <lb ed="#P" n="92"/>spectatum non est res sacra, et ideo vendere
+          <lb ed="#P" n="93"/>illud non est de se simoniacum : si autem 
+          Ec<lb break="no" ed="#P" n="94"/>clesia illud vendere prohibuit intuitu 
+          reve<lb break="no" ed="#P" n="95"/>rentiae rerum sacrarum, erit venditio 
+          simo<lb break="no" ed="#P" n="96"/>niaca jure positivo Ecclesiae, et non divino.
+          <lb ed="#P" n="97"/>Multi ergo Doctores videntur priori modo
+          <lb ed="#P" n="98"/>interpretari hanc simoniam juris humani. Ita
+          <lb ed="#P" n="99"/>docet satis aperte Major, in 4, distinct. 25,
+          <lb ed="#P" n="100"/>quaest. 3, ad 41; et supra Palud., ad 2 
+          Du<lb break="no" ed="#P" n="101"/>randi ; quem imitatur Turrec. ; et ita 
+          expli<lb break="no" ed="#P" n="102"/>care videntur sententiam suam Glos., licet
+          <lb ed="#P" n="103"/>non satis clare in dicto capit. Ex parte. 
+          Idem<lb break="no" ed="#P" n="104"/>que significant ibi Felin., n. 1; Dec., num.7;
+          <lb ed="#P" n="105"/>et alii, tum ibi, tum in dicto cap. Latorem, 4,
+          <lb ed="#P" n="106"/>q. T, et in c. 1 de Simon.
+        </p>
+        <p>
+          <lb ed="#P" n="107"/>J. Impugnatur primus modus exuplicandi si-
+          <pb ed="#P" n="654"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>654
+          <lb ed="#P" n="2"/>moniam, contra solum jus positivum. — Hic
+          <lb ed="#P" n="3"/>vero modus explicandi hanc simoniam probari
+          <lb ed="#P" n="4"/>non potest, si proprie loquamur, et vis non
+          <lb ed="#P" n="5"/>fiat in verbis, ut recte notavit Victor., in 
+          Re<lb break="no" ed="#P" n="6"/>lect. de Simonia, num 12 et seq. Nam primo
+          <lb ed="#P" n="7"/>pluris vendere aquam benedictam ratione 
+          be<lb break="no" ed="#P" n="8"/>nedictionis, simonia est contra jus divinum;
+          <lb ed="#P" n="9"/>et idem est in similibus rebus sacris, ut infra
+          <lb ed="#P" n="10"/>videbimus. Et tamen res ipsae sacrae factae sunt
+          <lb ed="#P" n="11"/>per institutionem positivam Ecclesiae. 
+          Secun<lb break="no" ed="#P" n="12"/>do haec duo, videlicet , benedicere aquam
+          <lb ed="#P" n="13"/>ad tales effectus spirituales, et prohibere ne
+          <lb ed="#P" n="14"/>vendatur, valde distincta sunt, ut per se 
+          no<lb break="no" ed="#P" n="15"/>tum videtur. Ponamus ergo Ecclesiam 
+          insti<lb break="no" ed="#P" n="16"/>tuisse benedictionem aquae, ut fecit, et non
+          <lb ed="#P" n="17"/>prohibuisse in particulari venditionem ejus,
+          <lb ed="#P" n="18"/>nec comprehendisse venditionem sub aliqua
+          <lb ed="#P" n="19"/>generali lege sua , hoc posito, nihilominus
+          <lb ed="#P" n="20"/>venditio illa simoniaca erit, si, ut aqua 
+          bene<lb break="no" ed="#P" n="21"/>dicta est, vendatur, id est, majori pretio 
+          ratio<lb break="no" ed="#P" n="22"/>ne benedictionis, quam per se vendi possit;
+          <lb ed="#P" n="23"/>igitur talis simonia non est de jure humano,
+          <lb ed="#P" n="24"/>sed ex ipsa rei natura. Non est enim tunc
+          <lb ed="#P" n="25"/>mala quia prohibita jure humano ; ponimus
+          <lb ed="#P" n="26"/>enim nullum esse tale jus prohibens; est ergo
+          <lb ed="#P" n="27"/>prohibita quia mala, ac subinde jure naturae
+          <lb ed="#P" n="28"/>prohibita. Tertio, ostendimus supra, 
+          tracian<lb break="no" ed="#P" n="29"/>do de sacrilegio et de immunitate templorum,
+          <lb ed="#P" n="30"/>sacrilegium, quod committitur utendo profane
+          <lb ed="#P" n="31"/>vasis sacris, esse contra legem naturae, et 
+          si<lb break="no" ed="#P" n="32"/>militer profanationem templi, et similia, licet
+          <lb ed="#P" n="33"/>talium rerum sanctitas sit de jure humano;
+          <lb ed="#P" n="34"/>ergo similiter simonia, quae necessario 
+          sequi<lb break="no" ed="#P" n="35"/>tur ex rei consecratione, est contra jus 
+          natu<lb break="no" ed="#P" n="36"/>rale, licet ipsa consecratio non sit de jure 
+          na<lb break="no" ed="#P" n="37"/>turali. Tandem in ipsis sacramentis simile
+          <lb ed="#P" n="38"/>quid invenitur, nam institutio eorum est de
+          <lb ed="#P" n="39"/>jure divino positivo ; sacrilegium autem quod
+          <lb ed="#P" n="40"/>committitur indigne illa sumendo, vel 
+          concul<lb break="no" ed="#P" n="41"/>cando, vel ( quod idem est) vendendo, est
+          <lb ed="#P" n="42"/>contra jus divinum naturale. Ergo non recte
+          <lb ed="#P" n="43"/>explicatur membrum dicto modo, nisi de 
+          no<lb break="no" ed="#P" n="44"/>mine ( ut dixi) sit contentio, et dicatur esse
+          <lb ed="#P" n="45"/>de jure positivo in radice, quod fortasse 
+          ne<lb break="no" ed="#P" n="46"/>gasset Durandus, quamvis in hoc etiam satis
+          <lb ed="#P" n="47"/>diminute loquatur. Verumtamen nec modus
+          <lb ed="#P" n="48"/>ille loquendi probandus est, quia revera non
+          <lb ed="#P" n="49"/>declarat rem, et illa appellatio tantum in illo
+          <lb ed="#P" n="50"/>sensu declarata nihil ad moralem quaestionem
+          <lb ed="#P" n="51"/>confert, ut in sequentibus videbimus
+        </p>
+        <p>
+          <lb ed="#P" n="52"/>4. Quando simonia aliqua sit solun de jure
+          <lb ed="#P" n="53"/>positivo.— Dicendum ergo est, tunc simoniam
+          <lb ed="#P" n="54"/>aliquam esse de jure positivo, quando 
+          imme<lb break="no" ed="#P" n="55"/>diate habet talem malitiam ex vi prohibitionis
+          <lb ed="#P" n="56"/>Ecclesiae vetantis venditionem, aut pactum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="57"/>onerosum circa talem rem, intuitu religionis,
+          <lb ed="#P" n="58"/>seu reverentiae debitae rebus sacris, ita ut 
+          ta<lb break="no" ed="#P" n="59"/>lis actio illam malitiam non haberet, seclusa
+          <lb ed="#P" n="60"/>Ecclesiae prohibitione, etiamsi res tam 
+          spiri<lb break="no" ed="#P" n="61"/>tualis vel sacra esset, sicut nunc est. 
+          Proba<lb break="no" ed="#P" n="62"/>tur, quia revera hoc est necessarium ut 
+          ac<lb break="no" ed="#P" n="63"/>tio aliqua dicatur esse mala in aliqua specie
+          <lb ed="#P" n="64"/>vitil ex vi solius prohibitionis Ecclesiae. Quod
+          <lb ed="#P" n="65"/>imprimis declaratur exemplo, sumpto ex
+          <lb ed="#P" n="66"/>Concilio Tridentino, sess. 24, cap. 18 de 
+          Re<lb break="no" ed="#P" n="67"/>for., ubi de examinatoribus ad beneficia 
+          di<lb break="no" ed="#P" n="68"/>cit: Caveant ne quicquam prorsus occasione
+          <lb ed="#P" n="69"/>hujus emuminis, nec ante, nec post accipiant.
+          <lb ed="#P" n="70"/>Quam prohibitionem constat esse positivam;
+          <lb ed="#P" n="71"/>et etiam subjungit: Alioquin Simonis vitium,
+          <lb ed="#P" n="72"/>tam ipsi, quam alii dantes incurrant. Quae
+          <lb ed="#P" n="73"/>verba non possunt nisi nimis violenter de
+          <lb ed="#P" n="74"/>sola peena explicari, praesertim cum postea
+          <lb ed="#P" n="75"/>poenam subjiciat. A simili etiam potest hoc
+          <lb ed="#P" n="76"/>confirmari, quia nunc contrahere 
+          matrimo<lb break="no" ed="#P" n="77"/>nium cum consanguineo in tertio gradu vel
+          <lb ed="#P" n="78"/>quarto, est sacrilegium contra jus naturale;
+          <lb ed="#P" n="79"/>fornicari autem cum illo est incestus contra
+          <lb ed="#P" n="80"/>jus positivum. Ratio autem discriminis est,
+          <lb ed="#P" n="81"/>quia matrimonium cum consanguineo non
+          <lb ed="#P" n="82"/>tantum est illicitum, quia immediate est 
+          con<lb break="no" ed="#P" n="83"/>tra legem Ecclesia prohibentem illud, sed
+          <lb ed="#P" n="84"/>etiam est sacrilegium contra legem divinam
+          <lb ed="#P" n="85"/>naturalem, vetantem facere sacramenta 
+          irri<lb break="no" ed="#P" n="86"/>ta, quae obligatio ex natura rei sequitur, eo
+          <lb ed="#P" n="87"/>ipso quod personae factae sunt inhabiles ad
+          <lb ed="#P" n="88"/>contrahendum, etiamsi haec inhabilitas jure
+          <lb ed="#P" n="89"/>humano introducta sit. At vero copula illicita
+          <lb ed="#P" n="90"/>cum consanguinea accipit specialem 
+          cireum<lb break="no" ed="#P" n="91"/>stantiam incestus ex lege prohibente 
+          imme<lb break="no" ed="#P" n="92"/>diate, quia per illam legem immediate 
+          con<lb break="no" ed="#P" n="93"/>stituitur talis circumstantia ut necessaria ad
+          <lb ed="#P" n="94"/>debitam honestatem inter personas in tali
+          <lb ed="#P" n="95"/>gradu conjunctas. Ita ergo intelligi potest et
+          <lb ed="#P" n="96"/>debet in materia praesenti; nam si actus fiat
+          <lb ed="#P" n="97"/>simoniacus ex institutione Ecclesiae, solum
+          <lb ed="#P" n="98"/>mediate, quatenus res sacratur, vel spiritualis
+          <lb ed="#P" n="99"/>fit ex institutione Ecclesiae, et inde ex 
+          natu<lb break="no" ed="#P" n="100"/>ra rei resultat ratio simoniae, tunc simonia
+          <lb ed="#P" n="101"/>non est mala quia prohibita, sed prohibita
+          <lb ed="#P" n="102"/>quia mala, et contra jus naturae; at vero si
+          <lb ed="#P" n="103"/>contingat immediate ex sola prohibitione 
+          re<lb break="no" ed="#P" n="104"/>sultare simoniam, non aliter mutata materia
+          <lb ed="#P" n="105"/>in ratione rei sacrae, vel annexae rei sacrae,
+          <lb ed="#P" n="106"/>quam per prohibitionem, illa erit propria 
+          si<lb break="no" ed="#P" n="107"/>monia de jure positivo. Quod autem hic 
+          mo<lb break="no" ed="#P" n="108"/>dus possibilis sit, ostenditur ratione supra 
+          in<lb break="no" ed="#P" n="109"/>sinuata, quia lex positiva praecipiens aliquem
+          <lb ed="#P" n="110"/>actum in aliqua materia virtutis, intuitu 
+          ho<lb break="no" ed="#P" n="111"/>nestatis illius virtutis, habet vim constituendi
+          <pb ed="#P" n="655"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>materiam illam ut necessariam ad honestatem
+          <lb ed="#P" n="2"/>talis virtutis; et e converso, lex prohibens
+          <lb ed="#P" n="3"/>aliquid intuitu alicujus virtutis, eo ipso 
+          cons<lb break="no" ed="#P" n="4"/>tituit actum prohibitum in specie vitii 
+          contra<lb break="no" ed="#P" n="5"/>rii illi virtuti, quia habet vim constituendi
+          <lb ed="#P" n="6"/>medium, et quasi tasandi illud in materia 
+          vir<lb break="no" ed="#P" n="7"/>tutis; unde fit ut actus, prohibiti iutuitu
+          <lb ed="#P" n="8"/>ejusdem virtutis, excedant vel deficiant a
+          <lb ed="#P" n="9"/>medio necessario talis virtutis, et 
+          consequen<lb break="no" ed="#P" n="10"/>ter habeant malitiam tali virtuti 
+          contra<lb break="no" ed="#P" n="11"/>riam.
+        </p>
+        <p>
+          <lb ed="#P" n="12"/>5. Hoc autem principium supponitur ut
+          <lb ed="#P" n="13"/>manifestum, ex materia de legibus; et 
+          funda<lb break="no" ed="#P" n="14"/>mentum ejus est, quia qui habet potestatem
+          <lb ed="#P" n="15"/>legislativam, habet etiam potestatem 
+          dirigen<lb break="no" ed="#P" n="16"/>di actus subditorum in unaquaque materia
+          <lb ed="#P" n="17"/>virtutis, juxta exigentiam ejus, quod maxime
+          <lb ed="#P" n="18"/>est universaliter verum in potestate divina, et
+          <lb ed="#P" n="19"/>suo modo in potestate ecclesiastica, quae 
+          im<lb break="no" ed="#P" n="20"/>mediate ad internam animae salutem 
+          ordina<lb break="no" ed="#P" n="21"/>tur; et ideo generalius potest praecipere in
+          <lb ed="#P" n="22"/>omni materia virtutis, quam lex civilis. Sic
+          <lb ed="#P" n="23"/>ergo in materia religionis potest lex 
+          ecclesias<lb break="no" ed="#P" n="24"/>tica aliquam actionem emendi aut vendendi
+          <lb ed="#P" n="25"/>rem sacram, aut annexam rei sacrae, de se non
+          <lb ed="#P" n="26"/>malam, prohibere intuitu religionis tantum,
+          <lb ed="#P" n="27"/>et ob reverentiam rerum sacrarum, ac 
+          subin<lb break="no" ed="#P" n="28"/>de constituere immunitatem a tali contractu,
+          <lb ed="#P" n="29"/>ut necessariam ad servandum debitum 
+          me<lb break="no" ed="#P" n="30"/>dium in honestate religionis, et cultum 
+          debi<lb break="no" ed="#P" n="31"/>tum rei sacrae. Tunc ergo actio illa erit 
+          im<lb break="no" ed="#P" n="32"/>mediate mala ex prohibitione Eeclesiae, et illa
+          <lb ed="#P" n="33"/>malitia erit in specie simoniae, quia prohibitio
+          <lb ed="#P" n="34"/>fit in materia capaci illius malitiae, et intuitu
+          <lb ed="#P" n="35"/>sacri cultus, cui malitia simoniae opponitur;
+          <lb ed="#P" n="36"/>sicut in superioribus dicebamus, 
+          immunita<lb break="no" ed="#P" n="37"/>tem loci sacri a negotiationibus et forensibus
+          <lb ed="#P" n="38"/>judieiis, et a violenta extractione 
+          delinquen<lb break="no" ed="#P" n="39"/>tium, qui ejus custodia se committunt, licet ex
+          <lb ed="#P" n="40"/>jure ecclesiastico sit, facere ut actus contrarii
+          <lb ed="#P" n="41"/>sint sacrilegia talis speciei contra locum 
+          sa<lb break="no" ed="#P" n="42"/>crum ; ita ergo in praesenti prohibitio facit, ut
+          <lb ed="#P" n="43"/>talis venditio sit sacrilegium tale. quod est 
+          si<lb break="no" ed="#P" n="44"/>monia.
+        </p>
+        <p>
+          <lb ed="#P" n="45"/>6. Objectio. — Responsio. Tripliciter fieri
+          <lb ed="#P" n="46"/>hanc prohibitionem. — Dices: quomodo potest
+          <lb ed="#P" n="47"/>fieri talis prohibitio, quae pertineat ad 
+          mate<lb break="no" ed="#P" n="48"/>riam simoniae, nisi supponatur fieri circa rem
+          <lb ed="#P" n="49"/>sacram ? Si autem res supponatur sacra, jam
+          <lb ed="#P" n="50"/>supponitur venditio ejus ex se simoniaca 
+          abs<lb break="no" ed="#P" n="51"/>que supperaddita prohibitione positiva; 
+          nun<lb break="no" ed="#P" n="52"/>quam ergo potest haec malitia immediate oriri
+          <lb ed="#P" n="53"/>ex prohibitione positiva. Respondeo tripliciter
+          <lb ed="#P" n="54"/>posse id intelligi, juxta tria quae in simonia 
+          in<lb break="no" ed="#P" n="55"/>tercedunt, scilicet res vendita, pretium et con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tractus. Potest ergo haec simonia intelligi, 
+          pri<lb break="no" ed="#P" n="57"/>mo ex parte actionis vendendi vel emendi,
+          <lb ed="#P" n="58"/>etiamsi circa rem vere et proprie sacram sit.
+          <lb ed="#P" n="59"/>Secundo, ex parte rei quae vendi prohibetur.
+          <lb ed="#P" n="60"/>Tertio, ex parte pretii. Quando fit primo modo,
+          <lb ed="#P" n="61"/>oportet ut contractus, vel datio et acceptio rei
+          <lb ed="#P" n="62"/>quae prohibetur, non sit propria emptio et
+          <lb ed="#P" n="63"/>venditio, et ideo ex solo jure naturae non sit
+          <lb ed="#P" n="64"/>prohibita etiam circa rem sacram, et 
+          nihilo<lb break="no" ed="#P" n="65"/>minus lex positiva illam prohibeat intuitu 
+          re<lb break="no" ed="#P" n="66"/>ligionis, quia est pactio aliqua habens magnam
+          <lb ed="#P" n="67"/>affinitatem cum emptione et venditione, et
+          <lb ed="#P" n="68"/>consequenter magnam speciem seu 
+          apparen<lb break="no" ed="#P" n="69"/>tiam ejus, et ideo expedit prohiber! ad 
+          majo<lb break="no" ed="#P" n="70"/>rem puritatem religienis, et ad tollendam 
+          om<lb break="no" ed="#P" n="71"/>nem occasionem et suspicionem simoniae.
+          <lb ed="#P" n="72"/>Tunc ergo actio sic prohibita erit simonia 
+          po<lb break="no" ed="#P" n="73"/>sitiva, quia licet res, circa quam versatur, sit
+          <lb ed="#P" n="74"/>vere sacra, nihilominus ipsa de se non erat
+          <lb ed="#P" n="75"/>mala; talis tamen erat ut potuerit prohiberi
+          <lb ed="#P" n="76"/>intuitu religionis, et (ut ita rem explicem) ad
+          <lb ed="#P" n="77"/>majorem immunitatem rei sacrae ab omni 
+          la<lb break="no" ed="#P" n="78"/>be simoniae, ideoque talis prohibitio constituit
+          <lb ed="#P" n="79"/>illam materiam in specie talis vitii, quod est
+          <lb ed="#P" n="80"/>simonia. Exemplum sit: si Ecclesia prohibeat
+          <lb ed="#P" n="81"/>ut in actuali administratione alicujus 
+          sacra<lb break="no" ed="#P" n="82"/>menti nihil recipiatur etiam sponte oblatum,
+          <lb ed="#P" n="83"/>agere contra illam prohibitionem, esset 
+          simo<lb break="no" ed="#P" n="84"/>nia positiva. Quia illa acceptio de se non erat
+          <lb ed="#P" n="85"/>propria venditio, tamen ab Ecclesia ita 
+          prohi<lb break="no" ed="#P" n="86"/>betur ac si esset venditio. Item beneficiorum
+          <lb ed="#P" n="87"/>permutatio, propria auctoritate facta, fortasse
+          <lb ed="#P" n="88"/>non est propria venditio sufficiens ad 
+          simo<lb break="no" ed="#P" n="89"/>niam ex natura rei ; Ecclesia tamen 
+          prohibi<lb break="no" ed="#P" n="90"/>tio facit illam simoniacam. Item compositio
+          <lb ed="#P" n="91"/>litis beneficialis per solam conventionem 
+          par<lb break="no" ed="#P" n="92"/>tium ; et alia similia exempla peti possunt ex
+          <lb ed="#P" n="93"/>c. Quam pio. c. Quesitum, et c. Cum olim, de
+          <lb ed="#P" n="94"/>Rer. permut., et c. Cum pridem, c. Cun 
+          cle<lb break="no" ed="#P" n="95"/>rici, de Pactis, et c. Constitutus, cum aliis de
+          <lb ed="#P" n="96"/>Transact. De quibus infra ex professo 
+          dice<lb break="no" ed="#P" n="97"/>mus ; nunc enim solum ut probabilia exempla
+          <lb ed="#P" n="98"/>haec ponimus ad rem explicandam, quicquid
+          <lb ed="#P" n="99"/>sit de eorum veritate ; generaliter autem 
+          ma<lb break="no" ed="#P" n="100"/>nifestum videtur hunc modum prohibitionis
+          <lb ed="#P" n="101"/>et simoniae esse possibilem.
+        </p>
+        <p>
+          <lb ed="#P" n="102"/>1. Secundus modus.— Alio modo fieri potest,
+          <lb ed="#P" n="103"/>ut venditio, quae prohibetur, vera et propria
+          <lb ed="#P" n="104"/>sit; res autem circa quam prohibetur, non sit
+          <lb ed="#P" n="105"/>ita sacra, ut ex natura rei sit irreligiosa ejus
+          <lb ed="#P" n="106"/>venditio; et nihilominus Ecclesia illam 
+          prohi<lb break="no" ed="#P" n="107"/>beat, non instituendo circa rem talem novam
+          <lb ed="#P" n="108"/>aliquam consecrationem, aut benedictionem,
+          <lb ed="#P" n="109"/>sed immediate faciendo talem prohibitionem
+          <lb ed="#P" n="110"/>intuitu solius religionis, et ob majorem im-
+          <pb ed="#P" n="656"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>munitatem rerum sacrarum ab omni labe 
+          si<lb break="no" ed="#P" n="2"/>moniae; tunc enim etiam illa materia 
+          consti<lb break="no" ed="#P" n="3"/>tuetur ex vi legis ecclesiasticae in materia 
+          reli<lb break="no" ed="#P" n="4"/>gionis, quantum ad abstinentiam ab illa 
+          actio<lb break="no" ed="#P" n="5"/>ne, et consequenter contrarius actus 
+          constitue<lb break="no" ed="#P" n="6"/>tur in materia simoniae. Hic autem modus non
+          <lb ed="#P" n="7"/>potest contingere circa rem in se vere sacram,
+          <lb ed="#P" n="8"/>ut ratio supra facta probat ; potest tamen 
+          con<lb break="no" ed="#P" n="9"/>tingere in re annexa aliquo modo rei sacrae;
+          <lb ed="#P" n="10"/>potest enim esse tam remota annexio (ut sic
+          <lb ed="#P" n="11"/>dicam), ut ex natura rei non sufficiat ad 
+          ma<lb break="no" ed="#P" n="12"/>teriam simoniae, et nihilominus sufficiat ut
+          <lb ed="#P" n="13"/>per legem positivam compleatur. Sicut de 
+          in<lb break="no" ed="#P" n="14"/>cestu supra dicebamus, quod, licet conjunctio
+          <lb ed="#P" n="15"/>sanguinis in tertio gradu ex sola rei natura
+          <lb ed="#P" n="16"/>non sufficiat ad incestum, vel ad irritandum
+          <lb ed="#P" n="17"/>matrimonium, est sufficiens fundamentum ut
+          <lb ed="#P" n="18"/>per legem humanam possit prohiberi intuitu
+          <lb ed="#P" n="19"/>castitatis, seu honestatis inter consanguineos;
+          <lb ed="#P" n="20"/>ita ergo in praesenti cum proportione. 
+          Exem<lb break="no" ed="#P" n="21"/>plum autem esse potest in officio oeconomi.
+          <lb ed="#P" n="22"/>aut thesaurarii rerum ecclesiasticarum ; 
+          ha<lb break="no" ed="#P" n="23"/>bent enim aliquam connexionem et affinitatem
+          <lb ed="#P" n="24"/>ad res sacras, non vero tantam ut ex natura
+          <lb ed="#P" n="25"/>rei sit simonia vendere tale officium: 
+          acce<lb break="no" ed="#P" n="26"/>dente autem Ecclesiae prohibitione, erit 
+          si<lb break="no" ed="#P" n="27"/>monia, juxta c. Salvator, 1, q. 3.
+        </p>
+        <p>
+          <lb ed="#P" n="28"/>8. Tertius modus. — Tertio modo, ut pro
+          <lb ed="#P" n="29"/>re spirituali non detur temporale pretium, sed
+          <lb ed="#P" n="30"/>spirituale, et nihilominus permutatio 
+          prchi<lb break="no" ed="#P" n="31"/>beatur sub hac specie, ut cum dicto exemplo
+          <lb ed="#P" n="32"/>de permutatione beneficiorum, et ex discursu
+          <lb ed="#P" n="33"/>materiae constabit. Nam discurrendo per 
+          sin<lb break="no" ed="#P" n="34"/>gulas materias vel actiones simoniae, 
+          applica<lb break="no" ed="#P" n="35"/>bimus hanc veluti regulam, ad explicandum
+          <lb ed="#P" n="36"/>quis modus simoniae in unaquaque reperiatur.
+          <lb ed="#P" n="37"/>Nunc brevis ratio regulae reddi potest, quia
+          <lb ed="#P" n="38"/>in simonia, quae per se talis est, illa tria 
+          re<lb break="no" ed="#P" n="39"/>quiruntur, scilicet materia, quae est res sacra,
+          <lb ed="#P" n="40"/>pretium temporale, et pactio seu venditio,
+          <lb ed="#P" n="41"/>quae est actio sacrilega ; ergo ut actio, quae ex
+          <lb ed="#P" n="42"/>natura sua talis non est, per prohibitionem
+          <lb ed="#P" n="43"/>talis fiat, oportet ut servet proportionem vel
+          <lb ed="#P" n="44"/>in materia, vel in pretio, vel in pacto, ad
+          <lb ed="#P" n="45"/>aliam quae per se talis est, ut intuitu ejusdem
+          <lb ed="#P" n="46"/>religiosae honestatis prohiberi possit, et de
+          <lb ed="#P" n="47"/>facto prohibeatur; omnibus autem modis 
+          ex<lb break="no" ed="#P" n="48"/>plicatis, potest servari proportio in 
+          prohibi<lb break="no" ed="#P" n="49"/>tione, si illo intuitu fiat; ergo in ordine ad
+          <lb ed="#P" n="50"/>rectam rationem inducit tale praeceptum 
+          ho<lb break="no" ed="#P" n="51"/>nestatem ejusdem rationis intra latitudinem
+          <lb ed="#P" n="52"/>illius virtutis.
+        </p>
+        <p>
+          <lb ed="#P" n="53"/>9. Fundamenta Durandi enervantur. — Ex
+          <lb ed="#P" n="54"/>his facile est respondere ad fundamenta 
+          Du<lb break="no" ed="#P" n="55"/>randi. Ad primum, dicitur falsum esse assum-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ptum, nam transgressio legis positivae non est
+          <lb ed="#P" n="57"/>tantum inobedientia, imo nec est formaliter
+          <lb ed="#P" n="58"/>inobedientia, nisi Pat ex formali intentione,
+          <lb ed="#P" n="59"/>et contemptu praecepti aut legislatoris ; 
+          alio<lb break="no" ed="#P" n="60"/>quin solum generali ratione, et quasi 
+          mate<lb break="no" ed="#P" n="61"/>rialiter, inobedientia est; formaliter vero et
+          <lb ed="#P" n="62"/>specifice est tale vitium, qualis est materia 
+          le<lb break="no" ed="#P" n="63"/>gis, et modus prohibitionis ejus. Quod eisdem
+          <lb ed="#P" n="64"/>exemplis. quae Durandus adducit, probamus.
+          <lb ed="#P" n="65"/>Nam comedere carnes in die prohibito 
+          intem<lb break="no" ed="#P" n="66"/>perantia est, et non tantum inobedientia; et
+          <lb ed="#P" n="67"/>similiter comedere pluries in die jejunii ; 
+          vio<lb break="no" ed="#P" n="68"/>lare etiam immunitatem ecclesiae , aliquem
+          <lb ed="#P" n="69"/>violenter extrahendo, sacrilegium est, non
+          <lb ed="#P" n="70"/>tantum inobedientia, et sic de aliis. Ad D.
+          <lb ed="#P" n="71"/>Thomam autem ibi citatum respondet 
+          Cajeta<lb break="no" ed="#P" n="72"/>nus in eodem loco, quando divus Thomas 
+          di<lb break="no" ed="#P" n="73"/>cit, ea, quae sunt mala solum quia prohibita,
+          <lb ed="#P" n="74"/>talia esse, ut ad nullam virtutem pertineant
+          <lb ed="#P" n="75"/>praeter obedientiam, intelligendum esse cum
+          <lb ed="#P" n="76"/>addito secunduam se. Sic enim, ait, multa 
+          ca<lb break="no" ed="#P" n="77"/>dunt sub humanum preceptum, quee secundum
+          <lb ed="#P" n="78"/>se ad nullam spectant virtutem. Sed hoc etiam
+          <lb ed="#P" n="79"/>non videtur verum, quia aliud est non 
+          perti<lb break="no" ed="#P" n="80"/>nere ad virtutem, aliud non cadere sub 
+          obliga<lb break="no" ed="#P" n="81"/>tionem virtutis, ut ex D. Thoma in eodem 
+          lo<lb break="no" ed="#P" n="82"/>co constat, ubi dicit non omnia opera virtutum
+          <lb ed="#P" n="83"/>cadere sub praeceptum, ac subinde multa 
+          perti<lb break="no" ed="#P" n="84"/>nere ad virtutem, et non ad obligationem 
+          vir<lb break="no" ed="#P" n="85"/>tutis. Hlla ergo quae sunt mala quia prohibita,
+          <lb ed="#P" n="86"/>talia sunt, ut eorum opposita secundum se
+          <lb ed="#P" n="87"/>non sint de necessitate et obligatione 
+          alicu<lb break="no" ed="#P" n="88"/>jus virtutis, ut per se constat ; nihilominus
+          <lb ed="#P" n="89"/>etiam secundum se possuni pertinere ad 
+          vir<lb break="no" ed="#P" n="90"/>tutem aliquam, ut jejunare ad temperantiam
+          <lb ed="#P" n="91"/>pertinet, etiam quando non praecipitur, et 
+          au<lb break="no" ed="#P" n="92"/>dire missam, et similia. Imo videtur hoc 
+          ne<lb break="no" ed="#P" n="93"/>cessario esse praesupponendum ad legem 
+          hu<lb break="no" ed="#P" n="94"/>manam, quia non potest praecipere nisi 
+          hones<lb break="no" ed="#P" n="95"/>ta, nec praecipiendo facit honesta in specie
+          <lb ed="#P" n="96"/>virtutis determinata praeter obedientiam, sed
+          <lb ed="#P" n="97"/>supponit esse honesta, et facit necessaria.
+        </p>
+        <p>
+          <lb ed="#P" n="98"/>19. Interpretatur D. Thomas. — Quare 
+          pos<lb break="no" ed="#P" n="99"/>semus interpretari D. Thomam, cum ait, ad
+          <lb ed="#P" n="100"/>nullam virtutem talia pertinere, intelligere
+          <lb ed="#P" n="101"/>non pertinere quoad obligationem, et 
+          necessi<lb break="no" ed="#P" n="102"/>tatem, non tamen excludere quin possint 
+          per<lb break="no" ed="#P" n="103"/>tinere quoad honestatem. Et fortasse 
+          Cajeta<lb break="no" ed="#P" n="104"/>nus non aliud voluit. Adde vero, ulterius 
+          in<lb break="no" ed="#P" n="105"/>terdum posse praecipi id, quod secundum se
+          <lb ed="#P" n="106"/>ad nullam virtutem pertinet, et per 
+          praece<lb break="no" ed="#P" n="107"/>ptum constitui non solum in necessitate 
+          vir<lb break="no" ed="#P" n="108"/>tutis, sed etiam in honestate virtutis. Ut 
+          Ec<lb break="no" ed="#P" n="109"/>clesia prohibet, verbi gratia, jejunium in die
+          <lb ed="#P" n="110"/>Dominico, et tamen abstinere a jejunio in illo
+          <pb ed="#P" n="657"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>die secundum se non pertinebat ad virtutem,
+          <lb ed="#P" n="2"/>sed erat quid indifferens ; et hoc satis est ad
+          <lb ed="#P" n="3"/>legem humanam, potest enim actum de se 
+          in<lb break="no" ed="#P" n="4"/>differentem praecipere. Et licet semper 
+          praeci<lb break="no" ed="#P" n="5"/>piat illum propter honestum finem, pon 
+          ta<lb break="no" ed="#P" n="6"/>men cadit sub praeceptum finis legislatoris,
+          <lb ed="#P" n="7"/>sed tantum actus praeceptus. Et ita non 
+          repu<lb break="no" ed="#P" n="8"/>gnat aliquem transgressorem alicujuslegis 
+          hu<lb break="no" ed="#P" n="9"/>manae habere tantum malitiam inobedientiae,
+          <lb ed="#P" n="10"/>quando, scilicet , materia ejus ad nullam
+          <lb ed="#P" n="11"/>aliam specialem virtutem pertinet praeter 
+          obe<lb break="no" ed="#P" n="12"/>dientiam , quod fortasse voluit indicare D.
+          <lb ed="#P" n="13"/>Thomas. At vero quando materia praecepti
+          <lb ed="#P" n="14"/>pertinet ad specialem virtutem, vel ex vi 
+          prae<lb break="no" ed="#P" n="15"/>cepti in illa collocatur, tanquam necessaria ad
+          <lb ed="#P" n="16"/>honestatem illius virtutis, tunc transgressio
+          <lb ed="#P" n="17"/>habet specialem malitiam contrariam illi 
+          vir<lb break="no" ed="#P" n="18"/>tuti, et non tantum obedientiae ; et ita est in
+          <lb ed="#P" n="19"/>praesenti, ut declaratum est.
+        </p>
+        <p>
+          <lb ed="#P" n="20"/>11. Lex licet non posset mutare res in esse
+          <lb ed="#P" n="21"/>physico, potest tamen mutare quoad esse morale.
+          <lb ed="#P" n="22"/>— Hnoe actiones simoniacee non sunt solum in
+          <lb ed="#P" n="23"/>pana, sed etiam in culpa. — Ad secundum 
+          ar<lb break="no" ed="#P" n="24"/>cumentum Durandi jam est responsum, quod
+          <lb ed="#P" n="25"/>potest esse res sacra, et actio non simoniaca ex
+          <lb ed="#P" n="26"/>sola rei natura. et fieri simoniaca ex vi 
+          prohi<lb break="no" ed="#P" n="27"/>bitionis ; potest item esse res annexa rei 
+          sa<lb break="no" ed="#P" n="28"/>crae, sed non tam arcto vinculo, ut sufficiat
+          <lb ed="#P" n="29"/>ad naturalem simoniam, per prohibitionem
+          <lb ed="#P" n="30"/>autem possit fieri. Cum vero Durandus ait 
+          le<lb break="no" ed="#P" n="31"/>gem non posse mutare rerunm naturas, 
+          res<lb break="no" ed="#P" n="32"/>pondemus verum esse non mutare illas in esse
+          <lb ed="#P" n="33"/>physico, seu reali, nihiiominus tamen mutare
+          <lb ed="#P" n="34"/>illas quoad esse quoddam morale, et quoad 
+          ne<lb break="no" ed="#P" n="35"/>cessitatem vel medium virtutis. Sic enim lex
+          <lb ed="#P" n="36"/>justitiaa taxans pretia rerum mutat valorem
+          <lb ed="#P" n="37"/>earum, et mutat medium justitiae in earum
+          <lb ed="#P" n="38"/>commutatione servandum; et sic etiam potest
+          <lb ed="#P" n="39"/>praescribere tempus et locum, et modum 
+          ne<lb break="no" ed="#P" n="40"/>cessario servandum in operatione, ut studiose
+          <lb ed="#P" n="41"/>fiat etiam in proprio genere virtutis; et talis
+          <lb ed="#P" n="42"/>mutatio est, quae in praesenti fit. Neque 
+          satis<lb break="no" ed="#P" n="43"/>facit Durandus intentioni jnrium et 
+          Canonis<lb break="no" ed="#P" n="44"/>tarum., cum actiones sic prohibitas 
+          simonia<lb break="no" ed="#P" n="45"/>cas appellant ; tum quia vitium non est simile
+          <lb ed="#P" n="46"/>alteri in ratione, neque in nomine, propter 
+          si<lb break="no" ed="#P" n="47"/>militudinem poenae, ut patet de homicidio ; et
+          <lb ed="#P" n="48"/>in praesenti, alienatio rerum ecclesiasticarum
+          <lb ed="#P" n="49"/>solet puniri eisdem poenis quibus simonia, et
+          <lb ed="#P" n="50"/>tamen simonia non est; tum etiam quia in 
+          ordi<lb break="no" ed="#P" n="51"/>ne ad confessionem, multum interest uno vel
+          <lb ed="#P" n="52"/>alio modo loqui de tali actu. Nam si sententia
+          <lb ed="#P" n="53"/>Durandi esset vera, non oporteret in 
+          confessio<lb break="no" ed="#P" n="54"/>ne exprimere simoniam probibitam ab 
+          Eccle<lb break="no" ed="#P" n="55"/>sia, sed sufficere dicere, fuisse quamdam inobe-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dientiam in materia gravi, quia adjectio 
+          paee<lb break="no" ed="#P" n="57"/>narum, vel sola denominatio analoga ob 
+          simi<lb break="no" ed="#P" n="58"/>litudinem poenarum, non sufficit ad 
+          obligatio<lb break="no" ed="#P" n="59"/>nem confessionis, ut constat. At certum est
+          <lb ed="#P" n="60"/>talem simoniam esse confitendam in specie et
+          <lb ed="#P" n="61"/>ut simoniam, ut constat ex consensu et praxi
+          <lb ed="#P" n="62"/>totius Ecclesiae. Est ergo illa simonia non
+          <lb ed="#P" n="63"/>solum quoad culpam, sed etiam quoad 
+          poe<lb break="no" ed="#P" n="64"/>nam.
+        </p>
+        <p>
+          <lb ed="#P" n="65"/>12. Hanc simoniam positivam solum esse
+          <lb ed="#P" n="66"/>propriam legis gratie. — Atque hinc constat
+          <lb ed="#P" n="67"/>simoniam hanc, quam positivam appellare
+          <lb ed="#P" n="68"/>possumus, propriam esse temporis legis 
+          gra<lb break="no" ed="#P" n="69"/>tiae; nam in statu legis natura non constat
+          <lb ed="#P" n="70"/>nobis fuisse hujusmodi prohb:tionem 
+          positi<lb break="no" ed="#P" n="71"/>vam, licet illam fuisse non repugnaverit ; quia
+          <lb ed="#P" n="72"/>non deerat potestas legislativa, et prohibitio
+          <lb ed="#P" n="73"/>poterat esse conveniens. Minus autem erat
+          <lb ed="#P" n="74"/>tunc neecessaria, quia non erant tot spiritualia
+          <lb ed="#P" n="75"/>dona, nec etiam tot res temporales 
+          spirituali<lb break="no" ed="#P" n="76"/>bus annexae; et ita ibi sufficere poterat ipsa
+          <lb ed="#P" n="77"/>naturalis legis direetio. Imo etiam in lege
+          <lb ed="#P" n="78"/>scripta non invenimus de hoc speciale 
+          praece<lb break="no" ed="#P" n="79"/>ptum, sed tantum sub communi voce 
+          munc<lb break="no" ed="#P" n="80"/>rum, et magis ad judices quam ad 
+          sacerdo<lb break="no" ed="#P" n="81"/>tes; licet a fortiori omnes comprehenderit,
+          <lb ed="#P" n="82"/>maxime quia sacerdotes tunc etiam erant 
+          ju<lb break="no" ed="#P" n="83"/>dices in multis et praecipuis rebus. Illa tamen
+          <lb ed="#P" n="84"/>prohibitio pure moralis videtur fuisse, et 
+          na<lb break="no" ed="#P" n="85"/>turale jus proponens, ac declarans. Quare
+          <lb ed="#P" n="86"/>etiam in illa lege nulla videtur fuisse propria
+          <lb ed="#P" n="87"/>simonia positiva.
+        </p>
+        <p>
+          <lb ed="#P" n="88"/>13. Simoniam positivam esse mortalem oi
+          <lb ed="#P" n="89"/>swe materie. Tlandem colligitur ex dictis,
+          <lb ed="#P" n="90"/>hoc peccatum simoniae, etiam quando est 
+          con<lb break="no" ed="#P" n="91"/>tra legem positivam, mortale esse ex vi suae
+          <lb ed="#P" n="92"/>speciei et materiae; nam revera ejusdem 
+          spe<lb break="no" ed="#P" n="93"/>ciei est cum simonia contra legem naturalem,
+          <lb ed="#P" n="94"/>quia diversitas praeceptorum quoa 
+          eflficien<lb break="no" ed="#P" n="95"/>ies causas eorum non variat speciem 
+          pecca<lb break="no" ed="#P" n="96"/>ii, quando in materia ejusdem rationis 
+          ver<lb break="no" ed="#P" n="97"/>santur, et eamdem virtutis honestatem 
+          respi<lb break="no" ed="#P" n="98"/>ciunt; quia species, tam praecepti quam 
+          virtu<lb break="no" ed="#P" n="99"/>tis, ex objecto et motivo sumitur, et 
+          conse<lb break="no" ed="#P" n="100"/>quenter species vitii sumenda est per 
+          reces<lb break="no" ed="#P" n="101"/>sum ab his, seu per carentiam honestatis 
+          de<lb break="no" ed="#P" n="102"/>bitae, quae eadem est, etiamsi ex diversig
+          <lb ed="#P" n="103"/>praeceptis debeatur. Est ergo haec simonia 
+          ejus<lb break="no" ed="#P" n="104"/>dem speciei cum simonia naturali jure 
+          prohi<lb break="no" ed="#P" n="105"/>bita, ac subinde ejusdem est gravitatis 
+          sub<lb break="no" ed="#P" n="106"/>stantialis. Ac denique in illam conveniunt 
+          om<lb break="no" ed="#P" n="107"/>nia quae de hac gravitate diximus in cap. 3,
+          <lb ed="#P" n="108"/>his exceptis quae pertinent ad intrinsecam 
+          con<lb break="no" ed="#P" n="109"/>nexionem malitiae cum tali materia, vel actione
+          <lb ed="#P" n="110"/>secundum se spectata; illa enim in hac simo-
+          <pb ed="#P" n="658"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nia non reperitur, ut satis declaratum est. Et
+          <lb ed="#P" n="2"/>hactenus de hac prima divisione simoniae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="301"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k07516"><!-- t2-l2c13 -->
+        <head>Caput 13</head>
+        <head type="question-title">An obligentur peregrini ad festa patrie servanda.</head>
+        <p>
+          <lb ed="#P" n="64"/>CAPUT XIII.
+          <lb ed="#P" n="65"/>AN OBLIGENTUR PEREGRINI AD FESTA PATRIE
+          <lb ed="#P" n="66"/>SERVANDA.
+        </p>
+        <p>
+          <lb ed="#P" n="67"/>1. Utrum absens obligetur legibus patrig.—
+          <lb ed="#P" n="68"/>Haec quaestio generalis esse potest pro materia
+          <lb ed="#P" n="69"/>de legibus, et in materia de jejunio et aliis
+          <lb ed="#P" n="70"/>tractari solet; tamen etiam hujus loci est 
+          pro<lb break="no" ed="#P" n="71"/>pria, et est annexa his quae proxime diximus.
+          <lb ed="#P" n="72"/>Duo enim dubia inde oriuntur : primum est,
+          <lb ed="#P" n="73"/>an subditi Episcopi extra dioecesim existentes
+          <lb ed="#P" n="74"/>teneantur tale festum observave, quando, in
+          <lb ed="#P" n="75"/>loco in quo existunt, non est festum sub 
+          prae<lb break="no" ed="#P" n="76"/>cepto indictum. Loquimur autem de his qui
+          <lb ed="#P" n="77"/>non mutarunt domicilium, sed solum actualem
+          <lb ed="#P" n="78"/>praesentiam, seu existentiam : nam qui 
+          domi<lb break="no" ed="#P" n="79"/>cilium mutat, eo ipso desinit esse subditus, et
+          <lb ed="#P" n="80"/>ideo manifestum est non teneri ad servanda
+          <lb ed="#P" n="81"/>festa propria prioris territorii, seu dioecesis
+          <lb ed="#P" n="82"/>aut parochiae. De alio autem esse potest aliqua
+          <lb ed="#P" n="83"/>ratio dubitandi : nam multi auctores docent
+          <lb ed="#P" n="84"/>obligari aliquem legibus patria propriis,
+          <lb ed="#P" n="85"/>etiamsi absens sit, si non mutavit domicilium;
+          <lb ed="#P" n="86"/>unde idem erit in hac lege de servando festo.
+          <lb ed="#P" n="87"/>Tenet autem id Sylvester, verb. Jejunium,
+          <lb ed="#P" n="88"/>quaest. 2, dist. 2; et ibi Rosella, n. 16; et 
+          An<lb break="no" ed="#P" n="89"/>ton., 2 p,, titulo sexto, cap. 2, Ssecundo; 
+          Pa<lb break="no" ed="#P" n="90"/>ludanus, A4, d. 15, q. 4, art. 3. Fundamentum
+          <lb ed="#P" n="91"/>esse potest, quia ille semper est membrum
+          <lb ed="#P" n="92"/>illius communitatis, et ideo semper tenetur illi
+          <lb ed="#P" n="93"/>conformari in legum observatione ; vel aliter,
+          <lb ed="#P" n="94"/>quia ille est subditus; ergo tenetur obedire
+          <lb ed="#P" n="95"/>praecepto sui praelati ac superioris. Secundo,
+          <lb ed="#P" n="96"/>alias posset quis per fraudem subterfugere
+          <lb ed="#P" n="97"/>onus hujus praecepti ; ut, verbi gratia, in loco
+          <lb ed="#P" n="98"/>propinquo terminis territorii, posset quis in
+          <lb ed="#P" n="99"/>initio festi transilire trans territorii solum, ut
+          <lb ed="#P" n="100"/>laborare libere posset ; vel certe si festum 
+          tan<lb break="no" ed="#P" n="101"/>tum esset unius oppidi, posset in vicinum ire;
+          <lb ed="#P" n="102"/>vel si in eadem civitate festum solum esset
+          <lb ed="#P" n="103"/>unius parochiae, ut esse potest, liceret 
+          paro<lb break="no" ed="#P" n="104"/>chianis illius Ecclesia transire ad domos 
+          al<lb break="no" ed="#P" n="105"/>terius parochiae, et ibi opera servilia facere:
+          <lb ed="#P" n="106"/>haec autem videntur absurda, quia nemo po-
+          <pb ed="#P" n="302"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>test per fraudem ab obligatione legis eximi;
+          <lb ed="#P" n="2"/>ergo.
+        </p>
+        <p>
+          <lb ed="#P" n="3"/>2. Pars negativa eligitur. — Nibilominus
+          <lb ed="#P" n="4"/>dicendum est, personas alias subditas, dum
+          <lb ed="#P" n="5"/>extra territorium, id est, diecesim, oppidum,
+          <lb ed="#P" n="6"/>aut parochiam (respective) versantur, non 
+          te<lb break="no" ed="#P" n="7"/>neri ad haec festa observanda. Haec videtur
+          <lb ed="#P" n="8"/>esse communis sententia Doctorum, in c. Uf
+          <lb ed="#P" n="9"/>animarum, S Statuo, de Constit., in 6, ut 
+          no<lb break="no" ed="#P" n="10"/>tavimus in 5 tomo tertiae partis, disput. 5,
+          <lb ed="#P" n="11"/>sect. 4. Item in c. A nobis, 1, de Sent. excom.,
+          <lb ed="#P" n="12"/>ubi Abbas, n. 11, et Felin., n. 6. Et hic ali
+          <lb ed="#P" n="13"/>referuntur. Item tenet Navarr., in Manual.,
+          <lb ed="#P" n="14"/>c. 1, num. quinto, c. 23, n. 120; Covar., 4
+          <lb ed="#P" n="15"/>Variar., c. 20, n. 8, in fin.; et omnes qui 
+          te<lb break="no" ed="#P" n="16"/>nent, alienigenas, dum versantur in alieno
+          <lb ed="#P" n="17"/>episcopatu, obligari statutis ejus, ut 
+          videbi<lb break="no" ed="#P" n="18"/>mus dub. seq. Et probatur suflicienter ex c.
+          <lb ed="#P" n="19"/>Ut animarum, ubi declaratur non incurrere
+          <lb ed="#P" n="20"/>censuram, per statutum Episcopi latam, qui
+          <lb ed="#P" n="21"/>extra territorium Episcopi agit contra 
+          statu<lb break="no" ed="#P" n="22"/>tum. Cujus decisionis ratio est, quia ille non
+          <lb ed="#P" n="23"/>peccat contra statutum, sed aut nihil peccat,
+          <lb ed="#P" n="24"/>si alias actio vel omissio non erat contralegem
+          <lb ed="#P" n="25"/>divinam, vel naturalem, sed tantum contra
+          <lb ed="#P" n="26"/>humanam : vel si peccat, erit ex alio capite,
+          <lb ed="#P" n="27"/>quia agit, verbi gratia, contra legem 
+          natura<lb break="no" ed="#P" n="28"/>lem, non quia agat contra statutum, nec quia
+          <lb ed="#P" n="29"/>sit contumax contra obedientiam suo 
+          Epi<lb break="no" ed="#P" n="30"/>scopo debitam, et ideo ejus censuram non
+          <lb ed="#P" n="31"/>incurrit; illa ergo decisio evidenter supponit
+          <lb ed="#P" n="32"/>statutum episcopale non obligare subditos, seu
+          <lb ed="#P" n="33"/>personas dioecesis extra dioecesim 
+          peregrinan<lb break="no" ed="#P" n="34"/>tes, ut late declaravi in dicta disp. 5, sect. 4
+          <lb ed="#P" n="35"/>et 5. Et ex ibi dictis multa sumi possunt in
+          <lb ed="#P" n="36"/>hujus sententiae confirmationem. Et ibi 
+          ratio<lb break="no" ed="#P" n="37"/>nes universales declaravimus, quia statutum
+          <lb ed="#P" n="38"/>directe ac per se respicit territorium, et 
+          pa<lb break="no" ed="#P" n="39"/>cem illius, vel communes mores ejus, ut in
+          <lb ed="#P" n="40"/>eo servandi sunt, et ideo non cadit in 
+          perso<lb break="no" ed="#P" n="41"/>nas etiam subditas, nisi ut existentes intra
+          <lb ed="#P" n="42"/>territorium. Et ideo in eod. cap. additur 
+          ra<lb break="no" ed="#P" n="43"/>tio : Quia eatra territorium jus dicenti non
+          <lb ed="#P" n="44"/>paretur impune ; nam cum jurisdictio, ut 
+          res<lb break="no" ed="#P" n="45"/>picit territorium, intra illud limitetur, lex quae
+          <lb ed="#P" n="46"/>pro territorio fertur, non potest extra illud
+          <lb ed="#P" n="47"/>obligare, quia jam excederet jurisdictionem.
+        </p>
+        <p>
+          <lb ed="#P" n="48"/>3. Confirmatur. — Et confirmatur ex 
+          Au<lb break="no" ed="#P" n="49"/>gustino, epist. 118, et in c. 7l/a, d. 12, 
+          dicen<lb break="no" ed="#P" n="50"/>te, quod non est contra fidem et bonos 
+          mo<lb break="no" ed="#P" n="51"/>res, honeste observari debere, juxta morem
+          <lb ed="#P" n="52"/>eorum inter quos vivitur : Zt ideo, inquit, in
+          <lb ed="#P" n="53"/>sabbatho, si sum Roma, jejuno; si Mediolani,
+          <lb ed="#P" n="54"/>non jejwno ; idemque refert ex sententia 
+          Am<lb break="no" ed="#P" n="55"/>brosii. Ergo signum est non teneri aliquem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>servare in alio episcopatu festum sui 
+          episcopa<lb break="no" ed="#P" n="57"/>tus. Tota enim haec doctrina, quae 
+          receptissi<lb break="no" ed="#P" n="58"/>ma est, habet locum in hoc praecepto de 
+          obser<lb break="no" ed="#P" n="59"/>vando aliquo particulari festo; nam 
+          praece<lb break="no" ed="#P" n="60"/>ptum illud maxime respicit publicum ritum
+          <lb ed="#P" n="61"/>religiosum in tali loco servandum. Et 
+          confir<lb break="no" ed="#P" n="62"/>matur, nam de lege, vel consuetudine privata
+          <lb ed="#P" n="63"/>jejunii, vel abstinentiae a carnibus, in 
+          Lusita<lb break="no" ed="#P" n="64"/>nia, verbi gratia, pro vigilia S. Antonii, 
+          cer<lb break="no" ed="#P" n="65"/>tum est non teneri Lusitanum ad servandam
+          <lb ed="#P" n="66"/>illam, dum in Castella versatur , ubi non est
+          <lb ed="#P" n="67"/>talis consuetudo , ut omnes fatentur, et 
+          con<lb break="no" ed="#P" n="68"/>suetudo ipsa satis ostendit ; ergo idem est
+          <lb ed="#P" n="69"/>in observatione festi particularis : est enim
+          <lb ed="#P" n="70"/>eadem ratio.
+        </p>
+        <p>
+          <lb ed="#P" n="71"/>4. Solvitur argumentum. — Ad rationem
+          <lb ed="#P" n="72"/>ergo dubitandi solutio constat ex dictis; nam
+          <lb ed="#P" n="73"/>lex talis non fertur ad subditos absolute et 
+          se<lb break="no" ed="#P" n="74"/>cundum se spectatos , sed ad subditos 
+          praesen<lb break="no" ed="#P" n="75"/>tes, et existentes in tali loco; vel potius 
+          di<lb break="no" ed="#P" n="76"/>recte fertur ad locum, praecipitque in eo 
+          ser<lb break="no" ed="#P" n="77"/>vari tale festum, et ideo non comprehendit
+          <lb ed="#P" n="78"/>absentes , quia non possunt servare festum in
+          <lb ed="#P" n="79"/>tali loco. Ideoque licet alibi illud non servent,
+          <lb ed="#P" n="80"/>non agunt contra obedientiam sui praelati;
+          <lb ed="#P" n="81"/>tum quia non obligantur praecepto ejus ; tum
+          <lb ed="#P" n="82"/>etiam quia revera non agunt aliquid contra
+          <lb ed="#P" n="83"/>materiam praecepti, quia non violant festum
+          <lb ed="#P" n="84"/>in loco, in quo observari praecipitur, et ita, eo
+          <lb ed="#P" n="85"/>ipso quod sunt absentes, quasi mutant statum,
+          <lb ed="#P" n="86"/>ratione cujus materia talis praecepti in eis 
+          lo<lb break="no" ed="#P" n="87"/>cum non habet. Ad inconvenientia vero, quae
+          <lb ed="#P" n="88"/>ihi inferebantur, Navarrus supra expresse illa
+          <lb ed="#P" n="89"/>concedit, et infert tanquam corollaria ; ait
+          <lb ed="#P" n="90"/>enim, ex dicto principio iuferri, quod operarii,
+          <lb ed="#P" n="91"/>qui ad locandas suas operas, vadunt in alias
+          <lb ed="#P" n="92"/>regiones, non tenentur observare dies festos
+          <lb ed="#P" n="93"/>suorum locorum, ubi ad tempus commorantur,
+          <lb ed="#P" n="94"/>ct quod in festis illis, quae in propria parochia
+          <lb ed="#P" n="95"/>observantur, non peccant, operas suas 
+          prae<lb break="no" ed="#P" n="96"/>stando in aliis parochiis ubi illa festa non 
+          ser<lb break="no" ed="#P" n="97"/>vantur, nec posse ob eas rationes puniri juste,
+          <lb ed="#P" n="98"/>etiamsi in vigilia festi, vel etiam in eodem,
+          <lb ed="#P" n="99"/>migrent a loco ubi servatur festum, ad alium
+          <lb ed="#P" n="100"/>ubi non servatur. Nego igitur illa esse 
+          incon<lb break="no" ed="#P" n="101"/>venientia, quia in nullo illorum casuum 
+          agi<lb break="no" ed="#P" n="102"/>tur contra id quod praeceptum jubet, quod 
+          so<lb break="no" ed="#P" n="103"/>lum est, ut praeceptum in tali loco non 
+          viole<lb break="no" ed="#P" n="104"/>tur; nunquam enim in illo loco violatur ; et
+          <lb ed="#P" n="105"/>licet praecipiat ut servetur in tali loco, non 
+          ta<lb break="no" ed="#P" n="106"/>men praecipit ibi assistere ad celebrandum 
+          il<lb break="no" ed="#P" n="107"/>lIud. Quocirca ibi non intervenit propria fraus,
+          <lb ed="#P" n="108"/>aut dolus, sed fuga quaedam (ut sic dicam)
+          <lb ed="#P" n="109"/>obligationis praecepti, quae tamen contra 
+          prae<lb break="no" ed="#P" n="110"/>ceptum non est, et ita licet per se non sit bona,
+          <pb ed="#P" n="303"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non est mala, sed erit bona, vel mala aliunde
+          <lb ed="#P" n="2"/>pro ratione finis, aut causa, propter quam
+          <lb ed="#P" n="3"/>fit.
+        </p>
+        <p>
+          <lb ed="#P" n="4"/>4. Navarri limitatio in missa audienda. —
+          <lb ed="#P" n="5"/>Addit vero Navarrus in hoc limitationem circa
+          <lb ed="#P" n="6"/>missae auditionem, dicens, nisi dies festus 
+          in<lb break="no" ed="#P" n="7"/>veniat incolam in loco proprio ubi festum 
+          ser<lb break="no" ed="#P" n="8"/>vatur , quam Summistae posteriores secuti
+          <lb ed="#P" n="9"/>sunt, ut videre licet in Lud. Lop., 1 p 
+          In<lb break="no" ed="#P" n="10"/>struct., c. 25, S Nec peccat ; Sairo, libr. 7,
+          <lb ed="#P" n="11"/>in cap. 3, n. 12; Manuele, in Sum., 1p.,
+          <lb ed="#P" n="12"/>c. 122; et Emanuele Sa, in sua Sum. Sed de
+          <lb ed="#P" n="13"/>hoc dicemus commodius infra, c. 15, in fine.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

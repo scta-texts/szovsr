@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="438"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k10927"><!-- t3-l1c1 -->
+        <head>Caput 1</head>
+        <head type="question-title">Irreligiositas quid sit, et quot modis dicatur, et quomodo vitia religioni contraria generatim distinguenda sint.</head>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="13"/>LIBER PRIMUS
+          <lb ed="#P" n="14"/>DE IRRELIGIOSITATE
+          <lb ed="#P" n="15"/>EJUSQUE SPECIEBUS.
+        </p>
+        <p>
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="16"/>CAPUT I.
+          <lb ed="#P" n="17"/>IRRELIGIOSITAS QUID SIT, ET QUOT MODIS DICATUR,
+          <lb ed="#P" n="18"/>ET QUOMODO VITIA RELIGIONI CONTRARIA 
+          GE<lb break="no" ed="#P" n="19"/>NERATIM DISTINGUENDA SINT.
+        </p>
+        <p>
+          <lb ed="#P" n="20"/>1. Omnia vitia religioni contraria posse
+          <lb ed="#P" n="21"/>wno conceptu concipi, et una voce significari.
+          <lb ed="#P" n="22"/>— Sicut virtus religionis una est, ita vitium
+          <lb ed="#P" n="23"/>illi contrarium sub ratione unius concipi et
+          <lb ed="#P" n="24"/>significari potest. De conceptu patet, tum
+          <lb ed="#P" n="25"/>quia oppositorum eadem est ratio, cum 
+          pro<lb break="no" ed="#P" n="26"/>portione loquendo; tum etiam quia omnia
+          <lb ed="#P" n="27"/>vitia contraria religioni in hoc conveniunt,
+          <lb ed="#P" n="28"/>quod medium et honestatem religionis 
+          des<lb break="no" ed="#P" n="29"/>truunt; ergo ab illis omnibus abstrahi potest
+          <lb ed="#P" n="30"/>conceptus communis vitii religioni contrarii.
+          <lb ed="#P" n="31"/>Id autem, quod uno conceptu concipitur,
+          <lb ed="#P" n="32"/>potest etiam una voce significari. Hoc ergo
+          <lb ed="#P" n="33"/>potest esse primum significatum hujus vocis,
+          <lb ed="#P" n="34"/>irreligiositas , illam scholastice 
+          accommo<lb break="no" ed="#P" n="35"/>dando, licet apud Latinos admodum frequens
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="36"/>non videatur; illa tamen usus est divus 
+          Tho<lb break="no" ed="#P" n="37"/>mas in hac materia, licet in significatione
+          <lb ed="#P" n="38"/>magis restricta, ut statim dicam. Nulla 
+          ete<lb break="no" ed="#P" n="39"/>nim vox videtur esse magis accommodata
+          <lb ed="#P" n="40"/>ad illum generalissimum conceptum hujus
+          <lb ed="#P" n="41"/>vitii exprimendum. Posset tamen etiam 
+          ap<lb break="no" ed="#P" n="42"/>pellari irreverentia, quae magis latina vox
+          <lb ed="#P" n="43"/>est; verumtamen ex se latius patet, quia
+          <lb ed="#P" n="44"/>non tantum divinam, sed etiam humanam
+          <lb ed="#P" n="45"/>irreverentiam significat, irreligiositas autem
+          <lb ed="#P" n="46"/>proprie indicat irreverentiam Deo ac 
+          religio<lb break="no" ed="#P" n="47"/>ni contrariam. Confirmari hoc potest 
+          exem<lb break="no" ed="#P" n="48"/>plis aliarum virtutum : nam vitium in 
+          com<lb break="no" ed="#P" n="49"/>muni oppositum justitiae injustitiam 
+          appel<lb break="no" ed="#P" n="50"/>lamus, et similiter intemperantiam 
+          tempe<lb break="no" ed="#P" n="51"/>rantiae opponimus ; ergo et irreligiositatem
+          <lb ed="#P" n="52"/>religioni. Hoc igitur modo, et idololatria, et
+          <lb ed="#P" n="53"/>sacrilegium, imo et perjurium, et omne 
+          si<lb break="no" ed="#P" n="54"/>mile vitium, irreligiositas est.
+        </p>
+        <p>
+          <lb ed="#P" n="55"/>2. An irreligiositas sit species infima. —
+          <lb ed="#P" n="56"/>Staiim vero occurrit inquirendum, an vitium
+          <lb ed="#P" n="57"/>hoc, sic conceptum et significatum, sit unum
+          <pb ed="#P" n="439"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in specie ultima, vel quam habeat unitatem?
+          <lb ed="#P" n="2"/>Quidam enim distinguunt de hoc vitio 
+          mate<lb break="no" ed="#P" n="3"/>rialiter sumpto, vel formaliter quoad malitiam
+          <lb ed="#P" n="4"/>religioni oppositam. Priori modo dicunt non
+          <lb ed="#P" n="5"/>habere unitatem specificam, sed valde 
+          gene<lb break="no" ed="#P" n="6"/>ricam, vel analogam, quod est manifestum,
+          <lb ed="#P" n="7"/>sive considerentur materiales actiones quibus
+          <lb ed="#P" n="8"/>in hoc genere peccatur; interdum enim sunt
+          <lb ed="#P" n="9"/>corporales, interdum spirituales ; aliquando
+          <lb ed="#P" n="10"/>sunt voces, aliquando corporis gestus, seepe
+          <lb ed="#P" n="11"/>vero actiones circa exteriorem materiam,
+          <lb ed="#P" n="12"/>etc. Sive considerentur malitia contra alias
+          <lb ed="#P" n="13"/>virtutes, quas in hujusmodi actionibus ante
+          <lb ed="#P" n="14"/>malitiam religionis inesse conungit : nam 
+          alt<lb break="no" ed="#P" n="15"/>quando est malitia infidelitatis, aliquando
+          <lb ed="#P" n="16"/>mendacii, vel furti, homicidii, aut similes.
+          <lb ed="#P" n="17"/>De toto ergo hoc materiali nulla est 
+          contro<lb break="no" ed="#P" n="18"/>versia. In formali autem malitia dicunt esse
+          <lb ed="#P" n="19"/>unum vitium in specie ultima, quod variis
+          <lb ed="#P" n="20"/>nominibus significatur, et ita in plura vitia
+          <lb ed="#P" n="21"/>distinguitur ratione materiae, et nou ratione
+          <lb ed="#P" n="22"/>formae. Fundamentum est illud vulgare, quod
+          <lb ed="#P" n="23"/>malitia moralis consistit in privatione 
+          ho<lb break="no" ed="#P" n="24"/>nestatis : honestas autem religionis una est
+          <lb ed="#P" n="25"/>in specie ( supponimus enim, ex supra dicts,
+          <lb ed="#P" n="26"/>religionem esse unam virtutem); ergo et
+          <lb ed="#P" n="27"/>malitia est una, quia privatio ex habitu 
+          op<lb break="no" ed="#P" n="28"/>posito sumit speciem suam.
+        </p>
+        <p>
+          <lb ed="#P" n="29"/>3. Pars uffirmatira impugnatur.—kaec 
+          ve<lb break="no" ed="#P" n="30"/>ro sententia probari nullo modo potest. 
+          Pri<lb break="no" ed="#P" n="31"/>mo, quia incredibile est idololatriam et 
+          perju<lb break="no" ed="#P" n="32"/>rium, verbi gratia, non habere malitias 
+          for<lb break="no" ed="#P" n="33"/>maliter distinctas, quatenus sunt vitia religioni
+          <lb ed="#P" n="34"/>opposita, quia statim recta ratio in eis 
+          inve<lb break="no" ed="#P" n="35"/>nit deformitates valde diversarum rationum,
+          <lb ed="#P" n="36"/>et longe diverso modo destruentium 
+          honesta<lb break="no" ed="#P" n="37"/>tem religionis. Secundo, quia alias non 
+          opor<lb break="no" ed="#P" n="38"/>teret has varietates vitiorum irreligiositatis
+          <lb ed="#P" n="39"/>distincte explicare in confessione, per se 
+          lo<lb break="no" ed="#P" n="40"/>quendo, et ubi ad alias malitias explicandas
+          <lb ed="#P" n="41"/>non esset necessarium, maxime juxta 
+          opinio<lb break="no" ed="#P" n="42"/>nem asserentem, non esse necessarium in
+          <lb ed="#P" n="43"/>confessione explicare circumstantias, nisi 
+          mu<lb break="no" ed="#P" n="44"/>tantes speciem malitiae ; consequens autem
+          <lb ed="#P" n="45"/>in omnium sententia absurdum est. Tertio,
+          <lb ed="#P" n="46"/>quia in aliis virtutibus commune est habere
+          <lb ed="#P" n="47"/>multa vitia opposita specie diversa, non 
+          tan<lb break="no" ed="#P" n="48"/>tum materialiter, sed etiam formaliter ; sicut
+          <lb ed="#P" n="49"/>opponuntur liberalitati avaritia et 
+          prodigali<lb break="no" ed="#P" n="50"/>tas ; nemo enim dixit, in his vitiis esse 
+          mali<lb break="no" ed="#P" n="51"/>tias ejusdem rationis; neque est verisimile,
+          <lb ed="#P" n="52"/>cum habeant modos destruendi medium 
+          libe<lb break="no" ed="#P" n="53"/>ralitatis extreme contrarios. Habet ergo 
+          irre<lb break="no" ed="#P" n="54"/>ligiositas unitatem communem, et valde 
+          ge<lb break="no" ed="#P" n="55"/>nericam. Dico autem calde, quia sub illo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>genere non descenditur immediate ad species
+          <lb ed="#P" n="57"/>infimas, sed ad subalternas, seu ad genera
+          <lb ed="#P" n="58"/>media, quae sub se habent alias species, vel
+          <lb ed="#P" n="59"/>ultimas, vel interdum etiam subalterpas 
+          ma<lb break="no" ed="#P" n="60"/>gis contractas, ut videbimus, ct nunc brcviter
+          <lb ed="#P" n="61"/>uno vel alio exemplo declarari potest. Nam
+          <lb ed="#P" n="62"/>sub irreligiositate dicto modo accep'a 
+          conti<lb break="no" ed="#P" n="63"/>netur superstitio, et similiter saciilegium
+          <lb ed="#P" n="64"/>haec autem inter se distinguuntur, et sub se
+          <lb ed="#P" n="65"/>continent varias species formales, et in gencre
+          <lb ed="#P" n="66"/>talis malitiae, qucd argumento facto de 
+          con<lb break="no" ed="#P" n="67"/>fessione sufficienter ostendi potest a posteriori;
+          <lb ed="#P" n="68"/>non enim quis sutficienter confitetur, dicens se
+          <lb ed="#P" n="69"/>commisisse unum sacrilegium, nisi speciem
+          <lb ed="#P" n="70"/>ejus aperiat, et idem est de superstitione.
+          <lb ed="#P" n="71"/>Unde communis consensus omnium es!, in
+          <lb ed="#P" n="72"/>his vitiis reperiri specificas diversitates 
+          forma<lb break="no" ed="#P" n="73"/>les, et in genere talis malitiae. Atque haec est
+          <lb ed="#P" n="74"/>clara doctrina D. Thomse in discursu 
+          praedic<lb break="no" ed="#P" n="75"/>tarum quaestionum, et signatim in quaest. 92,
+          <lb ed="#P" n="76"/>art. 2, ad 1, et quaest. 99, art. 3, ad 1, quibus
+          <lb ed="#P" n="77"/>locis Cajetanus id notat, et tanquam 
+          maaife<lb break="no" ed="#P" n="78"/>stum supponit, et uterque respondet 
+          funda<lb break="no" ed="#P" n="79"/>mento contrariae sententiae.
+        </p>
+        <p>
+          <lb ed="#P" n="80"/>4. Respondetur fundamento contrarie 
+          op<lb break="no" ed="#P" n="81"/>nionis. — Ad vulgare igitur argumentum 
+          fa<lb break="no" ed="#P" n="82"/>cile respondent, qui pegant malitiam 
+          mora<lb break="no" ed="#P" n="83"/>lem consistere in privatione, sed in positiva
+          <lb ed="#P" n="84"/>habitudine contraria; sic eprim unum potest
+          <lb ed="#P" n="85"/>habere multa contraria, licet non omnino ei
+          <lb ed="#P" n="86"/>extreme opposita; sed illud fundamentum
+          <lb ed="#P" n="87"/>falsum esse existimo; illud tamen in primam
+          <lb ed="#P" n="88"/>secundae remitto. Respondeo ergo primo, 
+          h<lb break="no" ed="#P" n="89"/>cet virtus religionis quoad habitum una st
+          <lb ed="#P" n="90"/>specie, habere tamen actus specie 
+          diiferen<lb break="no" ed="#P" n="91"/>tes, ut in primo libro dixi, et secundum hance
+          <lb ed="#P" n="92"/>varietatem actuum posse dari vitia specie 
+          dis<lb break="no" ed="#P" n="93"/>tincta religioni opposita. Quia formalis malitia
+          <lb ed="#P" n="94"/>vitii in actu spectatur, potius quam in habitu;
+          <lb ed="#P" n="95"/>nam actus non generat habitum per malitiam,
+          <lb ed="#P" n="96"/>sed per positivam entitatem. Secundo, dicitur
+          <lb ed="#P" n="97"/>cum divo Thoma et Cajetano supra, bonitatem
+          <lb ed="#P" n="98"/>consurgere ex integra causa, malitiam autem
+          <lb ed="#P" n="99"/>ex quocumque defectu, et licet bonitas 
+          reli<lb break="no" ed="#P" n="100"/>gionis sit una, destrui posse multis modis,
+          <lb ed="#P" n="101"/>seu per varios defectus diversarum 
+          circum<lb break="no" ed="#P" n="102"/>stentiarum, et inde posse resultare malitias
+          <lb ed="#P" n="103"/>specie distinctas. Unde ad argumentum, cum
+          <lb ed="#P" n="104"/>dicitur privationem specificari ex habitu, seu
+          <lb ed="#P" n="105"/>ex forma positiva, quam destruit, 
+          responde<lb break="no" ed="#P" n="106"/>tur id esse verum ; tamen illam speciem non
+          <lb ed="#P" n="107"/>esse ultimam, nisi privatio sit totalis (ut sic
+          <lb ed="#P" n="108"/>dicam ), id est, nisi privet tota forma, et 
+          tota<lb break="no" ed="#P" n="109"/>liter, ac omni modo. At vero quando privatio
+          <lb ed="#P" n="110"/>est quasi partialis, non oportet ut privationes
+          <pb ed="#P" n="440"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>eidem formae oppositae sint ejusdem speciei.
+          <lb ed="#P" n="2"/>Ita vero comparantur varia vitia 
+          irreligiosi<lb break="no" ed="#P" n="3"/>tatum respectu religionis, nam, licet 
+          sin<lb break="no" ed="#P" n="4"/>gula totam honestatem religionis expellant
+          <lb ed="#P" n="5"/>a suo actu, non tamen singula destruunt
+          <lb ed="#P" n="6"/>totaliter ipsam religionem; nam 
+          sacrile<lb break="no" ed="#P" n="7"/>gium, verbi gratia, non introducit cultum
+          <lb ed="#P" n="8"/>falsi Dei, et non omnino excludit cultum 
+          ve<lb break="no" ed="#P" n="9"/>ri Dei, et sic de aliis. Et ex hac responsione
+          <lb ed="#P" n="10"/>inteliigitur ratio a priori hujus veritatis, quam
+          <lb ed="#P" n="11"/>in hunc locum propterea reservavi; genus
+          <lb ed="#P" n="12"/>enim irreligiositatis complectitur totam 
+          ma<lb break="no" ed="#P" n="13"/>teriam religionis, et omnem modum 
+          destru<lb break="no" ed="#P" n="14"/>endi in illa honestatem religionis; vitia autem
+          <lb ed="#P" n="15"/>particularia sub irreligiositate contenta non
+          <lb ed="#P" n="16"/>ita destruunt honestatem religionis in tota
+          <lb ed="#P" n="17"/>materia, et omni modo, et ideo sub illo 
+          ge<lb break="no" ed="#P" n="18"/>nere plures species et genera malitiarum
+          <lb ed="#P" n="19"/>contineri possunt.
+        </p>
+        <p>
+          <lb ed="#P" n="20"/>5. Declaratur divisio irreligiositatis. — 
+          le<lb break="no" ed="#P" n="21"/>religiositas autem sic accepta dividi potest
+          <lb ed="#P" n="22"/>in irreligiositatem magis propriam, et 
+          sacri<lb break="no" ed="#P" n="23"/>legium; haec enim mihi divisio non displicet,
+          <lb ed="#P" n="24"/>quamvis alii Doctores illa non utantur. Quod
+          <lb ed="#P" n="25"/>ut declarem, adverto D. Thomam, in 
+          princi<lb break="no" ed="#P" n="26"/>pio quaest. 92, cum nihil dixisset de communi
+          <lb ed="#P" n="27"/>genere, seu vitio religioni opposito, statim
+          <lb ed="#P" n="28"/>illud distinxisse in superstitionem et 
+          irreligio<lb break="no" ed="#P" n="29"/>sitatem, qua duo membra distingui dicit,
+          <lb ed="#P" n="30"/>quia superstitio opponitur religioni per 
+          exces<lb break="no" ed="#P" n="31"/>sum, irreligiositas per defectum. Nam 
+          super<lb break="no" ed="#P" n="32"/>stitio convenit quasi materialiter cum 
+          religio<lb break="no" ed="#P" n="33"/>ne in hoc quod exhibet cultum; differt 
+          au<lb break="no" ed="#P" n="34"/>tem, et opponitur illi, quia in cultu exhibendo
+          <lb ed="#P" n="35"/>excedit et errat, sicut prodigalitas convenit
+          <lb ed="#P" n="36"/>cum liberalitate in largiendo, sed excedit.
+          <lb ed="#P" n="37"/>Irrelieiositas autem differt a religione, quia
+          <lb ed="#P" n="38"/>despicit cultum; et itaà opponitur religioni
+          <lb ed="#P" n="39"/>per defectum, sicut avaritia opponitur 
+          libera<lb break="no" ed="#P" n="40"/>litati, quia retrahit a largiendo. Sub his autem
+          <lb ed="#P" n="41"/>duobus membris plura D. Thomas 
+          subdistin<lb break="no" ed="#P" n="42"/>guit, et ita discurrit et procedit explicando
+          <lb ed="#P" n="43"/>singula vitia. Quam rationem distinguendi
+          <lb ed="#P" n="44"/>non improbo, sed utor alia, quae mihi est
+          <lb ed="#P" n="45"/>aptior ad distinctionem singulorum vitiorum
+          <lb ed="#P" n="46"/>explicandam. Possunt enim haec vitia, et in
+          <lb ed="#P" n="47"/>universum habitus et actus, habere in se 
+          va<lb break="no" ed="#P" n="48"/>rias convenientias et differentias, propter 
+          va<lb break="no" ed="#P" n="49"/>rias habitudines quas continent, et secundum
+          <lb ed="#P" n="50"/>illas possunt variis modis distingui, sine 
+          fal<lb break="no" ed="#P" n="51"/>sitate vel oppositione. D. Thomas ergo, in
+          <lb ed="#P" n="52"/>toto suo discursu, solum utitur voce 
+          irreligio<lb break="no" ed="#P" n="53"/>sitalis ad significandum quoddam genus 
+          su<lb break="no" ed="#P" n="54"/>balternum vitii irreligionis (ut sic dicam);
+          <lb ed="#P" n="55"/>nam communi generi nullum nomen impo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>suit, ut notavi, et nullam speciem ultimam
+          <lb ed="#P" n="57"/>hujus vitii illo nomine appellavit. Nos autem
+          <lb ed="#P" n="58"/>sumemus etiam illam vocem pro genere 
+          su<lb break="no" ed="#P" n="59"/>balterno, sed diverso modo; imo etiam 
+          neces<lb break="no" ed="#P" n="60"/>sarium erit ad aliquam speciem ultimam illud
+          <lb ed="#P" n="61"/>nomen accommodare, ut videbimus.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>6. Ut ergo priorem divisionem a nobis 
+          po<lb break="no" ed="#P" n="63"/>sitam explicemus, adverto, ex dictis in 1 lib.,
+          <lb ed="#P" n="64"/>religionem duplices habere actus: quidam
+          <lb ed="#P" n="65"/>primarii sunt, quibus Deus ipse in se colitur,
+          <lb ed="#P" n="66"/>ut sunt adoratio, sacrificium, et similes; alii
+          <lb ed="#P" n="67"/>sunt secundarii, quibus res omnes Deo dicatae,
+          <lb ed="#P" n="68"/>et ad ejus cultum sacratae cum debita 
+          venera<lb break="no" ed="#P" n="69"/>tione acreverentia tractantur. Juxta has ergo
+          <lb ed="#P" n="70"/>duas rationes, duo generalia vitia religioni 
+          op<lb break="no" ed="#P" n="71"/>posita distinguimus. Unum, quod Deo ipsi 
+          irre<lb break="no" ed="#P" n="72"/>verentiam exhibet, seu cultum ipsiusmet Dei
+          <lb ed="#P" n="73"/>incongrue tractat. Aliud, quod in reverentia
+          <lb ed="#P" n="74"/>debita rebus Deo dicatis deficit; et primum
+          <lb ed="#P" n="75"/>quidem apte retinet nomen irreligiositatis,
+          <lb ed="#P" n="76"/>quia religio Deum ipsum respicit tanquam
+          <lb ed="#P" n="77"/>proprium objectum, et ideo irreligiositas 
+          di<lb break="no" ed="#P" n="78"/>citur vitium oppositum religioni, quoad 
+          prima<lb break="no" ed="#P" n="79"/>rium objectum ejus. Aliud autem vitium jam
+          <lb ed="#P" n="80"/>communi usu sacrilegii nomen obtinuit, de
+          <lb ed="#P" n="81"/>cujus vocis etymologia infra suo loco 
+          dice<lb break="no" ed="#P" n="82"/>mus. Satis ergo probabil ratione, ut apparet,
+          <lb ed="#P" n="83"/>dividitur primo illud generale vitium in haec
+          <lb ed="#P" n="84"/>duo membra ; datur enim illa divisio per 
+          ob<lb break="no" ed="#P" n="85"/>jecta, per quae solent habitus et actus distingui:
+          <lb ed="#P" n="86"/>illa etiam objectorum distinctio prima omnium
+          <lb ed="#P" n="87"/>esse videtur, quae in objecto religionis 
+          consi<lb break="no" ed="#P" n="88"/>derari potest, sive materiale, sive formale
+          <lb ed="#P" n="89"/>objectum spectemus; nam ex parte materiae,
+          <lb ed="#P" n="90"/>Deus, qui per secolitur, maxime distinguitur
+          <lb ed="#P" n="91"/>ab omni re creata, quae ad ipsius cultum 
+          con<lb break="no" ed="#P" n="92"/>secrata est ; excellentia etiam divina, quae est
+          <lb ed="#P" n="93"/>ratio formalis hujus objecti, longe aliter est
+          <lb ed="#P" n="94"/>in Deo ipso, quam in aliis rebus sacris; nam
+          <lb ed="#P" n="95"/>in Deo est per essentiam, in aliis per 
+          quam<lb break="no" ed="#P" n="96"/>dam participationem ; seu in Deo est 
+          forma<lb break="no" ed="#P" n="97"/>liter et intrinsece, in aliis per quamdam 
+          ha<lb break="no" ed="#P" n="98"/>bitudinem seu denominationem. Unde longe
+          <lb ed="#P" n="99"/>alterius rationis est irreverentia Dei in seipso,
+          <lb ed="#P" n="100"/>vel in rebus sacris ordinatis ad ipsum; ergo
+          <lb ed="#P" n="101"/>convenienter dividitur vitium rehgioni 
+          con<lb break="no" ed="#P" n="102"/>trarium in irreverentiam ipsiusmet Dei in se,
+          <lb ed="#P" n="103"/>quam vocavimus irreligiositatem minus late
+          <lb ed="#P" n="104"/>sumptam, et sacrilegium, seu irreverentiam
+          <lb ed="#P" n="105"/>rei sacrae. Atque ita constat distinctio horum
+          <lb ed="#P" n="106"/>membrorum, et propria uniuscujusque ratio,
+          <lb ed="#P" n="107"/>et adaequatio eorum cum diviso. Nam in 
+          ob<lb break="no" ed="#P" n="108"/>jecto adorabili aliquo modo per virtutem
+          <lb ed="#P" n="109"/>religionis, non potest intelligi, nisi aut 
+          objec<lb break="no" ed="#P" n="110"/>tum per se adorabile, vel propter aliud, quia
+          <pb ed="#P" n="441"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>hae duae differentiae immediate et 
+          contradic<lb break="no" ed="#P" n="2"/>torie opponuntur ; ergo neque in vitiis 
+          con<lb break="no" ed="#P" n="3"/>trariis inveniri potest aliud, quod sub aliquo
+          <lb ed="#P" n="4"/>illorum membrorum non contineatur.
+        </p>
+        <p>
+          <lb ed="#P" n="5"/>7. Subdividitur ulterius irreligiositas. —
+          <lb ed="#P" n="6"/>Omisso autem pro nunc sacrilegio, de quo
+          <lb ed="#P" n="7"/>dicemus in tertio libro hujus tractatus, 
+          irre<lb break="no" ed="#P" n="8"/>ligiositas subdistingui ulterius potest in 
+          divi<lb break="no" ed="#P" n="9"/>nam irreverentiam, seu irreligiositatem tertio
+          <lb ed="#P" n="10"/>modo strictiori sumptam, et superstitionem;
+          <lb ed="#P" n="11"/>ita ut ad haec duo membra specialiter 
+          accom<lb break="no" ed="#P" n="12"/>modetur, quod D. Thomas dixit de vitiis 
+          re<lb break="no" ed="#P" n="13"/>ligioni oppositis per defectum vel excessum;
+          <lb ed="#P" n="14"/>nam haec duo inveniri possunt in cultu 
+          ipsius<lb break="no" ed="#P" n="15"/>met Dei secundum se, ut D. Thomas fatetur,
+          <lb ed="#P" n="16"/>partim q. 92, partim in 97, in capitibus 
+          quae<lb break="no" ed="#P" n="17"/>stionum, licet in secundo loco addat alia vitia
+          <lb ed="#P" n="18"/>opposita religioni per defectum, de quibus
+          <lb ed="#P" n="19"/>dicemus agentes de sacrilegio. Superstitio
+          <lb ed="#P" n="20"/>ergo dicitur opponi religioni per excessum,
+          <lb ed="#P" n="21"/>et varias habet species, de quibus postea
+          <lb ed="#P" n="22"/>dicturi sumus. Irreligiositas vero, seu 
+          irreve<lb break="no" ed="#P" n="23"/>rentia Dei, contrarietatem cum religione 
+          ha<lb break="no" ed="#P" n="24"/>bere dicitur per defectum ; quia tunc 
+          pec<lb break="no" ed="#P" n="25"/>cari dicitur hoc modo contra religionem,
+          <lb ed="#P" n="26"/>quando in ipsomet actu, qui deberet essc
+          <lb ed="#P" n="27"/>cultus, defectus aliquis commtittitur. ratione
+          <lb ed="#P" n="28"/>cnjus cedit potius in irreverentium Dei. Sub
+          <lb ed="#P" n="29"/>hoc autem membro duas tantum species D.
+          <lb ed="#P" n="30"/>Thomas posuit in dicta quaest. 97, spectantes
+          <lb ed="#P" n="31"/>nimirum ad irreverentiam Det secundum se,
+          <lb ed="#P" n="32"/>scilicet tentationem Dei et perjurium, quarum
+          <lb ed="#P" n="33"/>sufficientiam non declarat, neque aliam 
+          ra<lb break="no" ed="#P" n="34"/>tionem divisionis assignat. Ex illis autem
+          <lb ed="#P" n="35"/>duabus speciebus, perjurii consideratio, ut
+          <lb ed="#P" n="36"/>dixi, differenda a nobis est, donec de 
+          pecu<lb break="no" ed="#P" n="37"/>liari actu juramenti tractemus; et ita ex illis
+          <lb ed="#P" n="38"/>speciebus, quas sub hoc genere D. Thomas
+          <lb ed="#P" n="39"/>posuit, sola divina tentatio superest nobis
+          <lb ed="#P" n="40"/>explicanda. Possetque non immerito post
+          <lb ed="#P" n="41"/>materiam de oratione tractari; quia revera
+          <lb ed="#P" n="42"/>potissimum orationi opponitur, ut videbimus;
+          <lb ed="#P" n="43"/>tamen quia in rigore generalius vitium est,
+          <lb ed="#P" n="44"/>et in aliis factis inveniri potest, ideo in cap.
+          <lb ed="#P" n="45"/>sequenti hoc vitium, et praecepta quae ad illud
+          <lb ed="#P" n="46"/>pertinent, explicabimus.
+        </p>
+        <p>
+          <lb ed="#P" n="47"/>8. Numerantur quedam witia ad 
+          irret<lb break="no" ed="#P" n="48"/>giositatem pertinentia. — Blasphemia. — 
+          Infi<lb break="no" ed="#P" n="49"/>delitas ad Deum in promissis. — Non video
+          <lb ed="#P" n="50"/>autem cur blasphemia religioni non 
+          oppona<lb break="no" ed="#P" n="51"/>tur, et ad hoc genus vitii irreligiositatis non
+          <lb ed="#P" n="52"/>pertineat ; nam revera continet magnam 
+          irre<lb break="no" ed="#P" n="53"/>verentiam Dei in se, et opponitur cultui ejus,
+          <lb ed="#P" n="54"/>non per excessum cultus, ut constat, sed per
+          <lb ed="#P" n="55"/>summum defectum et contemptum divina
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>reverentiae, per quem contemptum D. Thomas
+          <lb ed="#P" n="57"/>hanc irreligiositatem declaravit. Non videtur
+          <lb ed="#P" n="58"/>etiam hoc vilium in hac materia 
+          praetermit<lb break="no" ed="#P" n="59"/>tendum, quamvis de illo tractavit D. Thomas
+          <lb ed="#P" n="60"/>2. 2. q. 13, et q. 14, eo quod fidei 
+          confes<lb break="no" ed="#P" n="61"/>sioni opponi videatur ; sed profecto etiam 
+          di<lb break="no" ed="#P" n="62"/>vina tentatio suo modo opponitur confessioni
+          <lb ed="#P" n="63"/>fidei, imo et idololatria, et multa alia similia
+          <lb ed="#P" n="64"/>vitia, qua cum infidelitate magnam 
+          ha<lb break="no" ed="#P" n="65"/>bent conjunctionem. Sicut ergo hoc non
+          <lb ed="#P" n="66"/>obstat quominus caetera religioni proprie 
+          op<lb break="no" ed="#P" n="67"/>ponantur, ita etiam non obstat quominus
+          <lb ed="#P" n="68"/>blasphemia sit vitium religioni contrarium;
+          <lb ed="#P" n="69"/>de illo ergo in hoc libro etiam dicemus. Sunt
+          <lb ed="#P" n="70"/>praeterea alia vitia religioni contraria per
+          <lb ed="#P" n="71"/>dcfectum, quae sub hoc etiam membro 
+          collo<lb break="no" ed="#P" n="72"/>cari possent. Unum est perfidia, seu 
+          infide<lb break="no" ed="#P" n="73"/>litas ad Deum in promissis, quod constat
+          <lb ed="#P" n="74"/>magnum vitium esse, et directe ad 
+          irreve<lb break="no" ed="#P" n="75"/>rentiam Dei pertinere, non minus quam 
+          per<lb break="no" ed="#P" n="76"/>jurium; opponitur autem religioni, mediante
+          <lb ed="#P" n="77"/>voto, et 1ideo de illo simu! dicemus tractando
+          <lb ed="#P" n="78"/>de voto; a D. Thoma autem praetermissum
+          <lb ed="#P" n="79"/>videtur, quia magis opponitur religioni seu
+          <lb ed="#P" n="80"/>voto, per modum omissionis, quam per 
+          mo<lb break="no" ed="#P" n="81"/>dum commissionis, nam directe opponitur
+          <lb ed="#P" n="82"/>praecepto affirmativo: Fota tua Domino 
+          red<lb break="no" ed="#P" n="83"/>des, ut suo loco latius tractabimus.
+        </p>
+        <p>
+          <lb ed="#P" n="84"/>9. Ingratitudo ad Deumn. — Aliud vitium
+          <lb ed="#P" n="85"/>esse potest ingratitudo ad Deum ; sicut enim
+          <lb ed="#P" n="86"/>gratiarum actio ad Deum actus est religionis,
+          <lb ed="#P" n="87"/>ut supra vidimus, ita ingratitudo, quae illi
+          <lb ed="#P" n="88"/>contraria est, religioni etiam opponitur; non
+          <lb ed="#P" n="89"/>quidem per excessum, ut constat ; ergo per
+          <lb ed="#P" n="90"/>defectum; continetur ergo sub praedicta 
+          irre<lb break="no" ed="#P" n="91"/>ligiosiiate. De hoc autem vitio nonnulla 
+          dixi<lb break="no" ed="#P" n="92"/>mus, tractando de poenitentia, ubi 
+          ostendi<lb break="no" ed="#P" n="93"/>mus, ordinarie non esse speciale vitium, sed
+          <lb ed="#P" n="94"/>in omni peccato materialiter seu generaliter
+          <lb ed="#P" n="95"/>includi. Quando autem specialem malitiam
+          <lb ed="#P" n="96"/>habet, magis videtur in omissione quam in
+          <lb ed="#P" n="97"/>commissione consistere, et ad defectus 
+          ora<lb break="no" ed="#P" n="98"/>tionis pertinet, ut patebit ex his quae de 
+          ora<lb break="no" ed="#P" n="99"/>tione dicemus. Potest autem hoc vitium
+          <lb ed="#P" n="100"/>formaliter committi per contemptum divini
+          <lb ed="#P" n="101"/>beneficit, ut dixit D. Thomas 2. 2, q. 101,
+          <lb ed="#P" n="102"/>art. 2, ad 1, et consequenter etiam exterius
+          <lb ed="#P" n="103"/>ostendi potest per quemcumque actum 
+          pro<lb break="no" ed="#P" n="104"/>cedentem ab hujusmodi contemptu, ad 
+          signi<lb break="no" ed="#P" n="105"/>ficandum illum. Hic autem modus peccandi
+          <lb ed="#P" n="106"/>contra Deum vix separatur a blasphemia, 
+          est<lb break="no" ed="#P" n="107"/>que rarissimus, et cum proportione ita est
+          <lb ed="#P" n="108"/>explicandus, sicut ingratitudo ad homines;
+          <lb ed="#P" n="109"/>et ideo D. Thomas nihil de hac ingratitudine
+          <lb ed="#P" n="110"/>ad Deum dixit in 2. 2, praeter ea quae genera-
+          <pb ed="#P" n="442"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>liter tractat in illa q. 107, ad quam pro nunc
+          <lb ed="#P" n="2"/>lectorem remittimus. Denique, omnes 
+          defec<lb break="no" ed="#P" n="3"/>tus, qui in oratione contingunt, et reddunt
+          <lb ed="#P" n="4"/>ipsum actum orationis irreligiosum, ad hoc
+          <lb ed="#P" n="5"/>membrum mrreligiositatis pertinent, quamvis
+          <lb ed="#P" n="6"/>sub alia ratione possint sacrilegia reputari,
+          <lb ed="#P" n="7"/>ut suo loco declarabimus. Omnes vero illi
+          <lb ed="#P" n="8"/>defectus vel in omissione consistunt, vel ex
+          <lb ed="#P" n="9"/>illa originem ducunt, et orationi proxime 
+          op<lb break="no" ed="#P" n="10"/>ponuntur, ideoque explicando conditiones ad
+          <lb ed="#P" n="11"/>bene orandum necessarias, totum hoc genus
+          <lb ed="#P" n="12"/>vitii declaratum manebit.
+        </p>
+        <p>
+          <lb ed="#P" n="13"/>10. Irreligiositas, tertio modo sumpta, adlnic
+          <lb ed="#P" n="14"/>genus.—Ex quibus constat,irreligiositatem hoc
+          <lb ed="#P" n="15"/>etiam tertio modo sumptam, non esse infimam
+          <lb ed="#P" n="16"/>speciem alicujus vitii, sed quasi genus 
+          proxi<lb break="no" ed="#P" n="17"/>mum plures species infimas sub se continens,
+          <lb ed="#P" n="18"/>quales sunt tentatio Dei, perjurium, 
+          blasphe<lb break="no" ed="#P" n="19"/>mia, infidelitas in promissis ad Deum, 
+          ingra<lb break="no" ed="#P" n="20"/>titudo ad Deum, et incongrua oratio; vel si
+          <lb ed="#P" n="21"/>quod aliud est hujusmodi innominatum 
+          vi<lb break="no" ed="#P" n="22"/>tium ; nobis enim de alio non constat, neque
+          <lb ed="#P" n="23"/>aliam rationem hujus sufficientis 
+          numeratio<lb break="no" ed="#P" n="24"/>nis reddere possumus, nisi quia non 
+          inve<lb break="no" ed="#P" n="25"/>niuntur alia officia religionis, quatenus 
+          direc<lb break="no" ed="#P" n="26"/>te Deum colit, prater ea quae numeravimus;
+          <lb ed="#P" n="27"/>et ideo etiam non invenitur alius modus 
+          de<lb break="no" ed="#P" n="28"/>ficiendi in religionis officio erga Deum, 
+          prae<lb break="no" ed="#P" n="29"/>ter supra dictos. Est ergo, ut summatim
+          <lb ed="#P" n="30"/>quaestionem resolvamus, triplex acceptio 
+          ir<lb break="no" ed="#P" n="31"/>religiositatis : in prima est genus quasi 
+          ge<lb break="no" ed="#P" n="32"/>neralissimum in hac materia, sub se 
+          conti<lb break="no" ed="#P" n="33"/>nens omnia vitia contraria religioni ; in 
+          se<lb break="no" ed="#P" n="34"/>cunda est genus medium, quod 
+          superstitio<lb break="no" ed="#P" n="35"/>nem sub se complectitur, et a sacrilegio 
+          dis<lb break="no" ed="#P" n="36"/>tinguitur; in tertia est genus infimum a 
+          su<lb break="no" ed="#P" n="37"/>perstitione distinctum, et praedictas sub se
+          <lb ed="#P" n="38"/>continens species.
+        </p>
+        <p>
+          <lb ed="#P" n="39"/>11. An malitia, quae in omni peccato 
+          in<lb break="no" ed="#P" n="40"/>cluditur, spectet ad irreligiositatem. — Una
+          <lb ed="#P" n="41"/>tantum hic difficultas occurrebat de malitia
+          <lb ed="#P" n="42"/>divinae injuriae, quae ip omni peccato 
+          inclu<lb break="no" ed="#P" n="43"/>ditur , et ad aversionem Dei pertinere 
+          di<lb break="no" ed="#P" n="44"/>citur. Illa enim, cum sit quaedam injuria
+          <lb ed="#P" n="45"/>Dei, speciale vitium constituere videtur, et
+          <lb ed="#P" n="46"/>virtuti religionis opponi, ad quam spectat,
+          <lb ed="#P" n="47"/>Deo debitum jus reddere : hoc autem vitium
+          <lb ed="#P" n="48"/>sub tota enumeratione facta minime 
+          com<lb break="no" ed="#P" n="49"/>prehenditur. Sed non est hic locus 
+          dispu<lb break="no" ed="#P" n="50"/>tandi de illa malitia, quam non omnes in 
+          pec<lb break="no" ed="#P" n="51"/>cato agnoscunt tanquam specialem, et ab alis
+          <lb ed="#P" n="52"/>distinctam ; illa autem posita, consequenter
+          <lb ed="#P" n="53"/>fatendum est, illam vel opponi religioni, vel
+          <lb ed="#P" n="54"/>reduci ad aliquod speciale vitium Deo 
+          con<lb break="no" ed="#P" n="55"/>trarium. Credimus autem illam per se op-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>poni illi virtuti justitiae ad Deum, quam 
+          vo<lb break="no" ed="#P" n="57"/>camus poenatentiam, ut in 4 tom. tertiae 
+          par<lb break="no" ed="#P" n="58"/>tis diximus. Hic autem vel supponimus, 
+          re<lb break="no" ed="#P" n="59"/>ligionem re ipsa esse distinctam virtutem
+          <lb ed="#P" n="60"/>ab illa justitia, et poenitentia, vel certe de
+          <lb ed="#P" n="61"/>illa disputamus sub hoc praeciso conceptu,
+          <lb ed="#P" n="62"/>quo a poenitentia distinguitur, saltem 
+          forma<lb break="no" ed="#P" n="63"/>liter, seu ratione cum fundamento inre, 
+          idec<lb break="no" ed="#P" n="64"/>que vitium illud, qualecumque illud sit, non
+          <lb ed="#P" n="65"/>pertinet ad ea quae religioni opponuntur: et
+          <lb ed="#P" n="66"/>ideo de praeceptis, vel prohibentibus tale 
+          vi<lb break="no" ed="#P" n="67"/>tium, vel praecipientibus contrariam 
+          aequita<lb break="no" ed="#P" n="68"/>tem et justitiam ad Deum, in materia de 
+          poe<lb break="no" ed="#P" n="69"/>nitentia satis dictum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

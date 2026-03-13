@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="429"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k10730"><!-- t2-l3c12 -->
+        <head>Caput 12</head>
+        <head type="question-title">De effectibus quos habet immunitas templi in eos qui ad illud confugiunt.</head>
+        <p>
+          <lb ed="#P" n="5"/>CAPUT XII.
+          <lb ed="#P" n="6"/>DE EFFECTIBUS QUOS HABET IMMUNITAS TEMPLI
+          <lb ed="#P" n="7"/>IN EOS QUI AD ILLUD CONFUGIUNT.
+        </p>
+        <p>
+          <lb ed="#P" n="8"/>1. Varii effectus hujus immunitatis. —
+          <lb ed="#P" n="9"/>Supponimus primum ac praecipuum effectum
+          <lb ed="#P" n="10"/>hujus immunitatis, esse quem hactenus 
+          expli<lb break="no" ed="#P" n="11"/>cuimus, videlicet, ut reus non possit inde et
+          <lb ed="#P" n="12"/>invita ecclesia abduci, de quo jam satis 
+          dic<lb break="no" ed="#P" n="13"/>tum est. Quaerimus autem an praeter hunc 
+          ha<lb break="no" ed="#P" n="14"/>beat alios.
+        </p>
+        <p>
+          <lb ed="#P" n="15"/>2. In quo imprimis diei potest, alium 
+          effec<lb break="no" ed="#P" n="16"/>tum esse, ut etiam intra ipsam ecclesiam non
+          <lb ed="#P" n="17"/>possit ei aliqua violentia fieri, qualis esset ibi
+          <lb ed="#P" n="18"/>ligari, vel in vinculis poni; nam hoc esset ex
+          <lb ed="#P" n="19"/>ecclesia carcerem facere, quod ejus 
+          immuni<lb break="no" ed="#P" n="20"/>tati magis repugnat. Unde in Concilio 
+          Tole<lb break="no" ed="#P" n="21"/>tan. XII, cap. 10, definitur, ut uulus audeat
+          <lb ed="#P" n="22"/>confugientes ad ecclesiam, vel residentes, inde
+          <lb ed="#P" n="23"/>abstrahere , aut quodcumque nocibilitatis vel
+          <lb ed="#P" n="24"/>danni inferre. Et ibidem subditur, 
+          permitten<lb break="no" ed="#P" n="25"/>dum esse hujusmodi delinquentibus, ut extra
+          <lb ed="#P" n="26"/>ecclesiam per triginta passus secure exire 
+          va<lb break="no" ed="#P" n="27"/>leant. Supponit ergo non esse ligandos, etc.
+          <lb ed="#P" n="28"/>Et expresse id cavetur in leg. Preesenti, Cod.
+          <lb ed="#P" n="29"/>de His qui ad ecclesiam confugiunt, ibi: Nec in
+          <lb ed="#P" n="30"/>ipsis ecclesiis ita quemquam detineri atque
+          <lb ed="#P" n="31"/>constringi, wt ei aliguid victualium rerum aut
+          <lb ed="#P" n="32"/>cestis negetur, aut requies. Atque ita docuit
+          <lb ed="#P" n="33"/>Covarruvias cum aliis supra, numero 
+          duode<lb break="no" ed="#P" n="34"/>cimo.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>3. Tertius effectus. — Tertius effectus est,
+          <lb ed="#P" n="36"/>ut in ecclesia non spolietur rebus aut bonis
+          <lb ed="#P" n="37"/>quae secum tulerit. Ita colligitur ex ejusiem
+          <lb ed="#P" n="38"/>juribus, nam in cap. Definivit, 11, quaest. 4,
+          <lb ed="#P" n="39"/>dicitur: Aut quodcumque nocibilitatis, vel 
+          dam<lb break="no" ed="#P" n="40"/>ni, seu spolii, etc.; privatio autem bonorum,
+          <lb ed="#P" n="41"/>damnum seu spolium est. Hoc autem intelligo
+          <lb ed="#P" n="42"/>de bonis quae sine alicujus injuria secum 
+          de<lb break="no" ed="#P" n="43"/>fert, vel ibi retinet; nam si debita aliena ibi
+          <lb ed="#P" n="44"/>detineret, posset illis spoliari per eum, qui ad
+          <lb ed="#P" n="45"/>hoc haberet potestatem. Sicut in cap. De 
+          ra<lb break="no" ed="#P" n="46"/>ptoribus, 36, quaest. 1, de raptore dicitur,
+          <lb ed="#P" n="47"/>quod si secum deferat raptam ad ecclesiam
+          <lb ed="#P" n="48"/>feminam, abstrahenda est, licet ipse non sit
+          <lb ed="#P" n="49"/>per vim abducendus. Atque ad hunc modum
+          <lb ed="#P" n="50"/>dixit Covar. supra, num. ult., S Trigesimo
+          <lb ed="#P" n="51"/>sezto, eum, qui fueit ad ecclesiam cum armis
+          <lb ed="#P" n="52"/>prohibitis, posse ibi expoliari armis per judi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>cem, quia habere ibi hujusmodi arma, contra
+          <lb ed="#P" n="54"/>legem est, quod ecclesia defendere non 
+          inten<lb break="no" ed="#P" n="55"/>dit; unde illa non est proprie poena, sed 
+          sub<lb break="no" ed="#P" n="56"/>traciio materiae culpae. Eo vel maxime quod
+          <lb ed="#P" n="57"/>illud ipsum quoddam peccatum est, quod in
+          <lb ed="#P" n="58"/>ecclesia committitur vel continuatur, et ideo
+          <lb ed="#P" n="59"/>quoad illud cessat immunitas, licet persona ob
+          <lb ed="#P" n="60"/>eam causam extrahenda non sit.
+        </p>
+        <p>
+          <lb ed="#P" n="61"/>4. Quartus effectus. — Quartum effectum
+          <lb ed="#P" n="62"/>addit Covar. num. 16, S Trigesimo primo,
+          <lb ed="#P" n="63"/>cum ait non posse ecclesiam obsideri propter
+          <lb ed="#P" n="64"/>eum, qui ad ecclesiam confugit. Sed hoc 
+          intel<lb break="no" ed="#P" n="65"/>ligendum est cum limitatione ab eo addita,
+          <lb ed="#P" n="66"/>videlicet, hoc non licere ad impediendum ne
+          <lb ed="#P" n="67"/>alimenta, et vestitus, et alia necessaria ad 
+          vi<lb break="no" ed="#P" n="68"/>tam et ad humanas actiones recluso in 
+          eccle<lb break="no" ed="#P" n="69"/>sia deferantur, quia esset manifesta coactio,
+          <lb ed="#P" n="70"/>quae tanta esse posset, ut reus vel se tradere,
+          <lb ed="#P" n="71"/>vel exire, vel mori cogeretur. Et hoc aperte
+          <lb ed="#P" n="72"/>cautum est in leg. Praesenti, in verbis citatis,
+          <lb ed="#P" n="73"/>ut notant Host:ensis, et Panormitanus, in 
+          dic<lb break="no" ed="#P" n="74"/>to cap. nter alia. S1 vero ecclesia obsideatur
+          <lb ed="#P" n="75"/>a judice, solum ad praecavendum ne reus 
+          libe<lb break="no" ed="#P" n="76"/>re fugiat, vel certe ut, si extra fines ecclesiae
+          <lb ed="#P" n="77"/>exeat, capiatur, illud non erit contra 
+          immuni<lb break="no" ed="#P" n="78"/>tatem, quia nulla vis fit existenti in loco sacro,
+          <lb ed="#P" n="79"/>sed solum locus non sacer observatur, ut si
+          <lb ed="#P" n="80"/>voluntate sua illuc exeat delinquens, ibi 
+          te<lb break="no" ed="#P" n="81"/>neatur ubi jure capi potest. Et hoc tamen 
+          ob<lb break="no" ed="#P" n="82"/>servandum est, quod Panormitanus, num. 13,
+          <lb ed="#P" n="83"/>reprehendit judices, quia si fugiens ad 
+          eccle<lb break="no" ed="#P" n="84"/>siamn (inquit) ponit pedem extra ecclesium, 
+          sta<lb break="no" ed="#P" n="85"/>tim eum capi faciunt. Sic etiam Sylvester, 
+          Co<lb break="no" ed="#P" n="86"/>var., cum Joan. Andr. et aliis, docent contra
+          <lb ed="#P" n="87"/>immunitatem esse, illum, qui est intra 
+          eccle<lb break="no" ed="#P" n="88"/>siam in ultimo termino ejus, et chlamydem
+          <lb ed="#P" n="89"/>vestis habet extra terminos ecclesia, 
+          appre<lb break="no" ed="#P" n="90"/>hensa extremitate vestis violenter trahere et
+          <lb ed="#P" n="91"/>ab ecclesia abducere ; nam, dum persona est
+          <lb ed="#P" n="92"/>intra ecclesiam, gaudet immunitate, 
+          etiam<lb break="no" ed="#P" n="93"/>si vestis extra ecclesiam extendatur, qui 
+          po<lb break="no" ed="#P" n="94"/>test etiam numerari inter effectus hujus 
+          fa<lb break="no" ed="#P" n="95"/>voris. Et ratio reddi potest, tum quia illa vis
+          <lb ed="#P" n="96"/>non infertur vesti, sed persona quae gaudet
+          <lb ed="#P" n="97"/>immunitate, cum sit intra ecclesiam; tum
+          <lb ed="#P" n="98"/>etiam quia accesscrium sequitur principale:
+          <lb ed="#P" n="99"/>vestis autem adhaeret personae tanquam 
+          acces<lb break="no" ed="#P" n="100"/>sorium principali; et ideo dum persona est ibi,
+          <lb ed="#P" n="101"/>gaudet immunitate, consequenter etiam 
+          ves<lb break="no" ed="#P" n="102"/>tis, maxime cum semper major pars vestis sit
+          <lb ed="#P" n="103"/>intra ecclesiam. Unde idem credo esse 
+          dicen<lb break="no" ed="#P" n="104"/>dum, etiamsi manum vel pedem extra 
+          termi<lb break="no" ed="#P" n="105"/>num ecclesiae extendat, dummodo caput et
+          <lb ed="#P" n="106"/>praecipuae partes corporis intra ecclesiam 
+          ma<lb break="no" ed="#P" n="107"/>ncant, propter easdem rationes.
+        </p>
+        <p>
+          <pb ed="#P" n="430"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>5. Ultimus effectus. — Ultimo pertinet ad
+          <lb ed="#P" n="2"/>hos effectus, ut hujusmodi reus, quandiu in 
+          ec<lb break="no" ed="#P" n="3"/>clesia perseverat, non possit ad mortem vel
+          <lb ed="#P" n="4"/>corporalem poenam damnari. Ita notat Abbas
+          <lb ed="#P" n="5"/>supra, n. 3, S, et seqq., et colligitur ex d.c.
+          <lb ed="#P" n="6"/>Inter alia, nam prius dicit : INVon est violenter ab
+          <lb ed="#P" n="7"/>ecclesia emtrahendus, et statim addit: Neque
+          <lb ed="#P" n="8"/>inde damnari debet ad mortem, vel ad penam.
+          <lb ed="#P" n="9"/>Est ergo hic effectus distinctus a primo, et 
+          sen<lb break="no" ed="#P" n="10"/>sus apertus est, quod licet intra ecclesiam 
+          exis<lb break="no" ed="#P" n="11"/>tens judicari possit, non tamen ad illas poenas
+          <lb ed="#P" n="12"/>damnari. Unde Panormitanus per poenam ibi
+          <lb ed="#P" n="13"/>intelligit paenam corporis afflictwvam, quam 
+          di<lb break="no" ed="#P" n="14"/>cit esse strictam poenae appellationem. At vero
+          <lb ed="#P" n="15"/>Glossa ibi de omni genere poenarum vocem
+          <lb ed="#P" n="16"/>intelligit, allegans cap. 7d constituimus, 1T,
+          <lb ed="#P" n="17"/>quaest. 4, ubi dicitur: De morte et debilitate,
+          <lb ed="#P" n="18"/>et omni penarum genere,sint securi. Vera 
+          ta<lb break="no" ed="#P" n="19"/>men videtur sententia Panormitani, nam in
+          <lb ed="#P" n="20"/>eodem cap. Znter alia, statim subjungitur:
+          <lb ed="#P" n="21"/>Super hoc tamen quod inique fecit , est alias
+          <lb ed="#P" n="22"/>legitume puniendus ; non potest tamen puniri
+          <lb ed="#P" n="23"/>nisi aliqua poena; non ergo omnis poena 
+          pro<lb break="no" ed="#P" n="24"/>hibetur; ergo tantum stricta poena corporis
+          <lb ed="#P" n="25"/>afflictiva. Tamen quia poenae, etiam corporis,
+          <lb ed="#P" n="26"/>multiplices esse possunt, ideo de illis etiam 
+          pos<lb break="no" ed="#P" n="27"/>sunt intelligi verba illa alterius textus, ei omni
+          <lb ed="#P" n="28"/>ponarum genere, scilicet, corporalium. Dixi
+          <lb ed="#P" n="29"/>autem, quandiw in ecclesia perseverat, quia si
+          <lb ed="#P" n="30"/>inde exeat, et capiatur, corporaliter damnari
+          <lb ed="#P" n="31"/>poterit, quamvis Sylvester, q. 4, in fine, 
+          con<lb break="no" ed="#P" n="32"/>trarium sentiat, dicens, quod, licet exeat de
+          <lb ed="#P" n="33"/>ecclesia, ex quo semel confugit ad eam, jam
+          <lb ed="#P" n="34"/>non potest de illo maleficio corporaliter 
+          damna<lb break="no" ed="#P" n="35"/>ri, juxta Glossam et Archid., in cap. Aeum, 17,
+          <lb ed="#P" n="36"/>quaest. 4 ; sed Glossa loquitur, quando exit fide
+          <lb ed="#P" n="37"/>data et jurata a judice de impunitate ejus ; tunc
+          <lb ed="#P" n="38"/>enim jam ecclesia illi obtinuit remissionem
+          <lb ed="#P" n="39"/>poenae corporalis ; nos autem loquimur, 
+          quan<lb break="no" ed="#P" n="40"/>do ille exit nulla compositione facta, et sicres
+          <lb ed="#P" n="41"/>est clara, quia cessavit immunitas, et res 
+          ma<lb break="no" ed="#P" n="42"/>net integra sicut antea, et ita colligitur ex d.
+          <lb ed="#P" n="43"/>cap. 7d constitwimus.
+        </p>
+        <p>
+          <lb ed="#P" n="44"/>6. Qua pona possit imponi confugienti ad
+          <lb ed="#P" n="45"/>ecclesiam. — Hinc vero nascitur quaestio,
+          <lb ed="#P" n="46"/>quaenam sit haec poena quae imponi potest, et
+          <lb ed="#P" n="47"/>quo modo. Ad priorem partem, respondet 
+          Pa<lb break="no" ed="#P" n="48"/>normitanus esse poenam pecuniariam ; 
+          sequi<lb break="no" ed="#P" n="49"/>tur Sylvester, dicta quaest. 4, et sumitur ex
+          <lb ed="#P" n="50"/>Glossa, dicto cap. Aeum, et videtur 
+          necessa<lb break="no" ed="#P" n="51"/>rium, maxime loquendo de poena 
+          criminali<lb break="no" ed="#P" n="52"/>ter imponenda, quia seclusa poena corporali,
+          <lb ed="#P" n="53"/>haec videtur fere necessaria, vel saltem 
+          faci<lb break="no" ed="#P" n="54"/>lior et frequentior. Addit praeterea Glossa, in
+          <lb ed="#P" n="55"/>dicto cap. Aeum, quod si reus non habeat pe-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cuniam, potest damnari ut serviat perpetuo
+          <lb ed="#P" n="57"/>ei, cui injuriam intulit, sicut de raptore 
+          dici<lb break="no" ed="#P" n="58"/>tur, 36, quaest. 1, cap. De raptoribus. Ego 
+          ve<lb break="no" ed="#P" n="59"/>ro hoc non admitterem, etiamsi Archid. et
+          <lb ed="#P" n="60"/>Panormitanus consentiant, quia illa poena est
+          <lb ed="#P" n="61"/>gravissima, et major quam multae corporales;
+          <lb ed="#P" n="62"/>sicut non posset condemnari ad triremes,
+          <lb ed="#P" n="63"/>etiamsi ibi verberandus non esset, solum 
+          pro<lb break="no" ed="#P" n="64"/>pter duram et laboriosam servitutem. Neque
+          <lb ed="#P" n="65"/>etiam existimo posse condemnari ad exilium,
+          <lb ed="#P" n="66"/>quia haec etiam esset gravis poena, et inter
+          <lb ed="#P" n="67"/>corporales computatur ; ergo neque ad 
+          servi<lb break="no" ed="#P" n="68"/>tutem cogi potest. Unde dispositionem illam
+          <lb ed="#P" n="69"/>in raptu virginum specialem esse existimo,
+          <lb ed="#P" n="70"/>propter illius delicti atrocitatem, et in illo
+          <lb ed="#P" n="71"/>etiam crimine non definite ponitur illa 
+          poe<lb break="no" ed="#P" n="72"/>na, sed sub disjunctione : Au£ serviendi 
+          con<lb break="no" ed="#P" n="73"/>ditioni subjectus sit, aut redimendi se liberam
+          <lb ed="#P" n="74"/>habeat facultatem. Unde si pecunia possit 
+          sa<lb break="no" ed="#P" n="75"/>tisfacere pro delicto, clarum est teneri et 
+          pos<lb break="no" ed="#P" n="76"/>se etiam ad hoc condemnari ; si tamen esset
+          <lb ed="#P" n="77"/>impotens ad solvendum, in illo casu, et ex vi
+          <lb ed="#P" n="78"/>illius decreti, ubi esset receptum, posset 
+          obli<lb break="no" ed="#P" n="79"/>gari ad serviendum ; existimo tamen non esse
+          <lb ed="#P" n="80"/>in usu, etiam in illo casu, neque Canon ille,
+          <lb ed="#P" n="81"/>ut supra notavi, per se posset universam 
+          Ec<lb break="no" ed="#P" n="82"/>clesiam obligare. Caetera autem de ordine 
+          ser<lb break="no" ed="#P" n="83"/>vando in hujusmodi poena imponenda legi
+          <lb ed="#P" n="84"/>possunt in Panormitano et aliis, in dicto cap.
+          <lb ed="#P" n="85"/>Inter alia; qui etiam advertunt posse 
+          hujus<lb break="no" ed="#P" n="86"/>modi peccatorem, etiamsi ad ecclesiam 
+          con<lb break="no" ed="#P" n="87"/>fugerit, cogi a pastoribus ecclesiae ad 
+          agen<lb break="no" ed="#P" n="88"/>dam aliquam poenitentiam pro salute animae,
+          <lb ed="#P" n="89"/>quia hoc non est contra immunitatem, cum
+          <lb ed="#P" n="90"/>possit poenitentiam illam intra ecclesiam 
+          age<lb break="no" ed="#P" n="91"/>re, et immunitas non sit concessa contra 
+          salu<lb break="no" ed="#P" n="92"/>tem animae. Unde hoc praecipue intelligitur de
+          <lb ed="#P" n="93"/>poenitentia medicinali, vel quando peccatum
+          <lb ed="#P" n="94"/>est publicum, et ad tollendum scandalum 
+          ne<lb break="no" ed="#P" n="95"/>cessaria judicatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

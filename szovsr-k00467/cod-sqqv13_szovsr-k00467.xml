@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="20"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k00467"><!-- t1-l1c9 -->
+        <head>Caput 9</head>
+        <head type="question-title">Quomodo ratio debiti pertineat ad formale objectum religionis.</head>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>CAPUT IX.
+          <lb ed="#P" n="56"/>QUOMODO RATIO DEBITI PERTINEAT AD FORMALE
+          <lb ed="#P" n="57"/>OBJECTUM RELIGIONIS.
+        </p>
+        <p>
+          <lb ed="#P" n="58"/>1. Questionis status aperitur. — Debitum
+          <lb ed="#P" n="59"/>potest esse em varüs titulis. — Ratio dubitandi
+          <lb ed="#P" n="60"/>esse potest, quia religio non solum reddit
+          <lb ed="#P" n="61"/>Deo cultum debitum, sed etiam non 
+          debi<lb break="no" ed="#P" n="62"/>tum, nam reddit, verbi gratia, cultum per
+          <lb ed="#P" n="63"/>votum, quod mere voluntarium est, et non
+          <lb ed="#P" n="64"/>debitum. Quanquam enim solvere votum, 
+          de<lb break="no" ed="#P" n="65"/>bitum sit, tamen facere non est debitum,
+          <lb ed="#P" n="66"/>cum sit religiosus cultus. Item, oratio non
+          <lb ed="#P" n="67"/>solum est ex religione, quando est debita,
+          <lb ed="#P" n="68"/>sed etiam quando est omnino spontanea ; 
+          er<lb break="no" ed="#P" n="69"/>go signum est rationem debiti non cadere
+          <lb ed="#P" n="70"/>formaliter in objectum religionis, sed 
+          mate<lb break="no" ed="#P" n="71"/>rialiter, seu per accidens, sicut cadere 
+          po<lb break="no" ed="#P" n="72"/>test in materiam temperantiae, quae non 
+          mi<lb break="no" ed="#P" n="73"/>nus exercet abstinentiam voluntariam, quam
+          <lb ed="#P" n="74"/>praeceptam. Alias distinguere oportebit 
+          du<lb break="no" ed="#P" n="75"/>plicem religionem: unam, quae reddat 
+          forma<lb break="no" ed="#P" n="76"/>liter; aliam, quae praebeat cultum mere 
+          libera<lb break="no" ed="#P" n="77"/>liter; sicut inter homines, circa tribuendas
+          <lb ed="#P" n="78"/>pecunias, alia est virtus, quae solvendo 
+          de<lb break="no" ed="#P" n="79"/>bitum illas reddit; alia quae omnino 
+          liberali<lb break="no" ed="#P" n="80"/>ter donat. Rursus intra rationem debiti 
+          plu<lb break="no" ed="#P" n="81"/>ra objecta formalia distingui poterunt, 
+          si<lb break="no" ed="#P" n="82"/>cut inter homines aliud est debitum 
+          gratitu<lb break="no" ed="#P" n="83"/>dinis, aliud fidelitatis, aliud justitiae ; quae in
+          <lb ed="#P" n="84"/>formalibus rationibus objectorum adeo 
+          distinc<lb break="no" ed="#P" n="85"/>ta sunt, ut virtutes etiam distinguant ; ergo 
+          eis<lb break="no" ed="#P" n="86"/>dem modis distingui poterit debitum respectu
+          <lb ed="#P" n="87"/>Dei, ita ut aliquod esse intelligatur omnino 
+          ri<lb break="no" ed="#P" n="88"/>gorosum ex speciali jure Dei ad talem rem vel
+          <lb ed="#P" n="89"/>aclioncm ; aliud vero ex gratitudine tantum,
+          <lb ed="#P" n="90"/>vel alio simili modo. Haec autem non 
+          censen<lb break="no" ed="#P" n="91"/>tur formalia in objecto religionis, cum illam
+          <lb ed="#P" n="92"/>non distinguant; ergo nec ipsa ratio debiti
+          <lb ed="#P" n="93"/>pertinet ad formalitatem objecti ejus.
+        </p>
+        <p>
+          <lb ed="#P" n="94"/>2. Statuitur, proprium et adaquatum 
+          reli<lb break="no" ed="#P" n="95"/>gionis munus esse reddere Deo delatum cultum.
+          <lb ed="#P" n="96"/>— Nihilominus communis vox omnium est,
+          <lb ed="#P" n="97"/>reddere Deo debitum cultum, esse proprium
+          <lb ed="#P" n="98"/>et adaequatum munus religionis, ut constat
+          <lb ed="#P" n="99"/>ex D. Thoma, in dicta quaest. 81, fere in 
+          om<lb break="no" ed="#P" n="100"/>nibus articulis. Nam in prima, hac ratione
+          <lb ed="#P" n="101"/>dicit, appellatam esse religionem, quia 
+          alli<lb break="no" ed="#P" n="102"/>gari debemus Deo, tanquam indeficienti 
+          prin<lb break="no" ed="#P" n="103"/>cipio. Et in solutione ad 3, hoc munus 
+          reli<lb break="no" ed="#P" n="104"/>gionis vocat specialem servitutem ad Deum;
+          <lb ed="#P" n="105"/>constat autem servitutem debitum intrinsece
+          <pb ed="#P" n="21"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>includere. Et in solutione ad 4, ait specialem
+          <lb ed="#P" n="2"/>rationem honoris et cultus Deo deberi, cui
+          <lb ed="#P" n="3"/>attendit religio. Et artic. 2 ait, ad religionem
+          <lb ed="#P" n="4"/>pertinere, reddere honorem debitum Deo:
+          <lb ed="#P" n="5"/>ubi Cajetanus advertit hunc esse adaequatum
+          <lb ed="#P" n="6"/>actum, seu materiam proximam religionis.
+          <lb ed="#P" n="7"/>Idem repetunt saepe D. Thomas et Cajetanus
+          <lb ed="#P" n="8"/>in caeteris articulis ; Soto, ibidem ; Aragonius,
+          <lb ed="#P" n="9"/>et alii, tum ibi, tum etiam supra, quaest. 57,
+          <lb ed="#P" n="10"/>artic. 4. Ergo signum est rationem debiti 
+          at<lb break="no" ed="#P" n="11"/>tendi formaliter in objecto religionis, seu
+          <lb ed="#P" n="12"/>(quoa idem est) formaliter intendi ab 
+          ipsa<lb break="no" ed="#P" n="13"/>met religione, quando munus suum exercet.
+          <lb ed="#P" n="14"/>Ratione ostendi potest, nam munus justitiae
+          <lb ed="#P" n="15"/>est reddere debitum; religio autem est pars
+          <lb ed="#P" n="16"/>potestativa justitiae ; ergo. Praeterea ideo 
+          disi<lb break="no" ed="#P" n="17"/>mus Deum sub ratione primi principii objici
+          <lb ed="#P" n="18"/>religioni, ut in eo spectetur aliqua ratio, ob
+          <lb ed="#P" n="19"/>quam honor ei debeatur; ergo honor et 
+          cul<lb break="no" ed="#P" n="20"/>tus Dei non cadit in religionem, nisi ut ei
+          <lb ed="#P" n="21"/>debitus.
+        </p>
+        <p>
+          <lb ed="#P" n="22"/>3. Declaratur magis proposita doctrina. —
+          <lb ed="#P" n="23"/>Declarari praeterea potest in huuc modum,
+          <lb ed="#P" n="24"/>quia homo nihil potest tribuere Deo per 
+          mo<lb break="no" ed="#P" n="25"/>dum liberalitatis, quia cum sit servus, et 
+          om<lb break="no" ed="#P" n="26"/>nia quae habet, vel operatur servus, sint 
+          ma<lb break="no" ed="#P" n="27"/>gis domini quam sua, non potest 
+          liberalita<lb break="no" ed="#P" n="28"/>tem circa dominum exercere ; quidquid ergo
+          <lb ed="#P" n="29"/>facit in obsequium ejus, facit per modum 
+          de<lb break="no" ed="#P" n="30"/>biti, quia inter donationem, seu officium
+          <lb ed="#P" n="31"/>mere liberale, ac debitum, non est medium.
+          <lb ed="#P" n="32"/>Unde in hoc cernitur magna differentia 
+          ho<lb break="no" ed="#P" n="33"/>minis ad Deum, et hominum inter se ; propter
+          <lb ed="#P" n="34"/>quam inter homines, praeter virtutes ad 
+          alte<lb break="no" ed="#P" n="35"/>rum, quae solvunt debita, datur virtus 
+          libera<lb break="no" ed="#P" n="36"/>litatis ; respectu vero Dei nulla datur virtus
+          <lb ed="#P" n="37"/>quae in modo operandi, liberalitatem imitetur;
+          <lb ed="#P" n="38"/>tum quia liberalitas proprie dicta, ut respicit
+          <lb ed="#P" n="39"/>alios, videtur respicere utilitatem illorum, et
+          <lb ed="#P" n="40"/>versari in his rebus quae in eorum dominium
+          <lb ed="#P" n="41"/>transferri, vel in eorum commodum expendi
+          <lb ed="#P" n="42"/>possint ; haec autem respectu Dei locum 
+          ha<lb break="no" ed="#P" n="43"/>bere non possunt ; tum etiam quia in modo
+          <lb ed="#P" n="44"/>operandi ita se habet liberalitas, ut in usu
+          <lb ed="#P" n="45"/>pecuniae, vel donatione alicujus rei, non 
+          con<lb break="no" ed="#P" n="46"/>sideret in altero conditionem aliquam, quae
+          <lb ed="#P" n="47"/>vel minimam rationem debiti personalis 
+          in<lb break="no" ed="#P" n="48"/>ducat ad talem donationem. Nunquam autem
+          <lb ed="#P" n="49"/>homo ita operatur circa Deum, et ideo 
+          dici<lb break="no" ed="#P" n="50"/>mus, nullam esse virtutem hominis adDeum,
+          <lb ed="#P" n="51"/>quae in modo conferendi aliquid liberalitatem
+          <lb ed="#P" n="52"/>intendat. Cum ergo religio sit virtus per quam
+          <lb ed="#P" n="53"/>homo aliquid Deo retribuit, necesse est ut id
+          <lb ed="#P" n="54"/>faciat sub aliqua ratione debiti. 
+        </p>
+        <p>
+          <lb ed="#P" n="55"/>4. Debitum a D. Thoma, in legale, ac mo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rale dividitur. — Quomodo aliqui respondeant
+          <lb ed="#P" n="57"/>objectionibus. — Ad solvendas autem 
+          difh<lb break="no" ed="#P" n="58"/>cultates priori loco positas, distingui solet
+          <lb ed="#P" n="59"/>duplex debitum , unum legale, et alterum
+          <lb ed="#P" n="60"/>morale, ex D. Thoma 2. 2, quaest. 80, ubi
+          <lb ed="#P" n="61"/>ait debitum legale esse, ad quod 
+          redden<lb break="no" ed="#P" n="62"/>dum aliquis lege astringitur; morale vero,
+          <lb ed="#P" n="63"/>quod aliquis debet ex honestate virtutis, in
+          <lb ed="#P" n="64"/>quo dicit esse latitudinem, nam aliquando
+          <lb ed="#P" n="65"/>est tantum hoc debitum, ut sine illius 
+          obser<lb break="no" ed="#P" n="66"/>vatione non possit honestas virtutis 
+          conser<lb break="no" ed="#P" n="67"/>vari, aliquando vero tale debitum solum 
+          con<lb break="no" ed="#P" n="68"/>fert ad majorem honestatem. Dicunt ergo
+          <lb ed="#P" n="69"/>aliqui debitum religionis non esse legale, sed
+          <lb ed="#P" n="70"/>morale, quod interdum potest esse 
+          necessa<lb break="no" ed="#P" n="71"/>rium ad honestatem morum, interdum vero
+          <lb ed="#P" n="72"/>solum ad melius esse, et ita satisfieri putant
+          <lb ed="#P" n="73"/>difficultatibus positis, quae ad summum 
+          pro<lb break="no" ed="#P" n="74"/>bant hoc debitum non esse legale. Et 
+          confir<lb break="no" ed="#P" n="75"/>mari ac declarari amplius potest haec 
+          respon<lb break="no" ed="#P" n="76"/>sio, quia reddere Deo illud legale debitum,
+          <lb ed="#P" n="77"/>formaliter ac proprie est virtutis obedientiae;
+          <lb ed="#P" n="78"/>ergo non pertinet ad religionem. Unde etiam
+          <lb ed="#P" n="79"/>quando aliquis audit sacrum in die festo, si
+          <lb ed="#P" n="80"/>opus illud formaliter consideretur solum ut
+          <lb ed="#P" n="81"/>praeceptum est, et sub illa ratione fiat, non
+          <lb ed="#P" n="82"/>proprie ex religione, sed ex obedientia fit; e
+          <lb ed="#P" n="83"/>contrario vero, si fiat formaliter ad 
+          redden<lb break="no" ed="#P" n="84"/>dum Deo cultum illi debitum ratione suae 
+          ex<lb break="no" ed="#P" n="85"/>cellentiae, est actus religionis. Superest ergo
+          <lb ed="#P" n="86"/>ut, cum dicimus rationem debiti pertinere
+          <lb ed="#P" n="87"/>formaliter ad objectum religionis, 
+          intelligen<lb break="no" ed="#P" n="88"/>dum sit de debito morali, quod per se 
+          sepa<lb break="no" ed="#P" n="89"/>rabile est a priori, et solet esse fundamentum
+          <lb ed="#P" n="90"/>ejus, ut in aliis etiam praeceptis, ac virtutibus
+          <lb ed="#P" n="91"/>videre licet. Sic enim dicunt Theologi 
+          mora<lb break="no" ed="#P" n="92"/>lia praecepta fundari in bonitate debita ipsis
+          <lb ed="#P" n="93"/>rebus vel actionibus, ac subinde quaedam
+          <lb ed="#P" n="94"/>opera esse prohibita, quia mala sunt, id est,
+          <lb ed="#P" n="95"/>quia carent bonitate debita; sunt ergo talia
+          <lb ed="#P" n="96"/>opera praecepta propter intrinsecam 
+          bonita<lb break="no" ed="#P" n="97"/>tem sibi moraliter debitam ; sicut colere 
+          pa<lb break="no" ed="#P" n="98"/>rentes, ideo praeceptum est, quia ex se 
+          bo<lb break="no" ed="#P" n="99"/>num est, et moraliter debitum parentibus;
+          <lb ed="#P" n="100"/>est ergo morale debitum a legali distinctum,
+          <lb ed="#P" n="101"/>et prius illo; sic ergo potest attendi erga
+          <lb ed="#P" n="102"/>Deum per virtutem religionis.
+        </p>
+        <p>
+          <lb ed="#P" n="103"/>5. Objectio insurgit. — Respondetur justa
+          <lb ed="#P" n="104"/>aliorum sententiam. — Dicet vero aliquis:
+          <lb ed="#P" n="105"/>hoc genus debiti moralis commune est omni
+          <lb ed="#P" n="106"/>virtuti, maxime quoad aliquos actus, qui 
+          na<lb break="no" ed="#P" n="107"/>tura sua habent bonitatem tam necessariam
+          <lb ed="#P" n="108"/>homini, ut ex illa sequatur obligatio 
+          praece<lb break="no" ed="#P" n="109"/>pti, ut notavit Cajetanus infra, quaest. 10,
+          <lb ed="#P" n="110"/>art. 9, ad J, cum D. Thoma; ibi ergo nihil
+          <pb ed="#P" n="22"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in hoc habet speciale religio, ut ei hoc 
+          debi<lb break="no" ed="#P" n="2"/>tum tribuatur tanquam pertinens ad 
+          formali<lb break="no" ed="#P" n="3"/>tatem sui objecti. Responderi potest, hoc 
+          de<lb break="no" ed="#P" n="4"/>bitum morale spectandum esse juxta 
+          exigen<lb break="no" ed="#P" n="5"/>tiam materiae in qua virtus versatur. Nam 
+          re<lb break="no" ed="#P" n="6"/>vera omnis virtus aliquo modo versatur circa
+          <lb ed="#P" n="7"/>debitum, quia omnis virtus servat modum,
+          <lb ed="#P" n="8"/>speciem et ordinem, ut ex Augustino 
+          sumi<lb break="no" ed="#P" n="9"/>tur, quem hic D. Thomas, art. 2, citat, et ex
+          <lb ed="#P" n="10"/>ratione boni quam virtus per se respicit ; haec
+          <lb ed="#P" n="11"/>autem includunt aliquam rationem debiti, 
+          se<lb break="no" ed="#P" n="12"/>cundum convenientem proportionem unius
+          <lb ed="#P" n="13"/>rei ad aliam. Sed in hoc est diversitas inter
+          <lb ed="#P" n="14"/>virtutes morales, quae solum ad operantem,
+          <lb ed="#P" n="15"/>vel ad alterum pertinent. Nam priores solum
+          <lb ed="#P" n="16"/>respiciunt debitum secundum convenientiam
+          <lb ed="#P" n="17"/>talis materiae ad propriam naturam 
+          rationa<lb break="no" ed="#P" n="18"/>lem; posteriores vero respiciunt debitum 
+          se<lb break="no" ed="#P" n="19"/>cundum jus, vel conditionem alterius 
+          perso<lb break="no" ed="#P" n="20"/>nae rationalis, vel intellectualis, considerata
+          <lb ed="#P" n="21"/>etiam conditione operantis comparatione 
+          il<lb break="no" ed="#P" n="22"/>lius. Et secundum hunc respectum ad 
+          al<lb break="no" ed="#P" n="23"/>terum intelligitur ratio debiti, quando de
+          <lb ed="#P" n="24"/>his virtutibus loquimur. Variatur autem hoc
+          <lb ed="#P" n="25"/>debitum juxta conditiones, et proportiones
+          <lb ed="#P" n="26"/>personarum, et ideo, quatenus est hominis
+          <lb ed="#P" n="27"/>ad Deum, habet specialem rationem, quam
+          <lb ed="#P" n="28"/>virtus religionis formaliter respicit.
+        </p>
+        <p>
+          <lb ed="#P" n="29"/>6. Concluditur debitum religionis esse 
+          le<lb break="no" ed="#P" n="30"/>gale. — Verumtamen, licet haec explicatio 
+          de<lb break="no" ed="#P" n="31"/>biti moralis communis sit, tamen applicatio
+          <lb ed="#P" n="32"/>ejus ad virtutem religionis, et responsio etiam,
+          <lb ed="#P" n="33"/>juxta distinctionem datam, aperte est contra
+          <lb ed="#P" n="34"/>mentem D. Tbomae citato loco. Nam potius
+          <lb ed="#P" n="35"/>ibi distinxerat virtutes, quae non deficiunt a
+          <lb ed="#P" n="36"/>proprietate justitia in ratione debiti, ab illis
+          <lb ed="#P" n="37"/>quae in hoc patiuntur defectum. Et sub priori
+          <lb ed="#P" n="38"/>membro comprehenderat religionem, et 
+          to<lb break="no" ed="#P" n="39"/>tum illud pertinere dicit ad debitum legale;
+          <lb ed="#P" n="40"/>sub posteriori autem membro complectitur
+          <lb ed="#P" n="41"/>virtutes, quae solum reddunt debitum moraie
+          <lb ed="#P" n="42"/>1n ordine ad alterum; debitum ergo 
+          reli<lb break="no" ed="#P" n="43"/>gionis, ex sententia D. Thomae, legale est,
+          <lb ed="#P" n="44"/>non minus quam debitum justitia ad 
+          ho<lb break="no" ed="#P" n="45"/>mines. Imo ex suo genere majus debitum
+          <lb ed="#P" n="46"/>est, sicut debitum pietatis inter homines
+          <lb ed="#P" n="47"/>legale etiam est, ut ibibem docet D. 
+          Tho<lb break="no" ed="#P" n="48"/>mas, et majus quam sit debitum justitiae ad
+          <lb ed="#P" n="49"/>homines, ut recte notavit Cajetanus, 2. 2,
+          <lb ed="#P" n="50"/>quaest. 57, artic. 4, et ibi Soto, et alii 
+          Doc<lb break="no" ed="#P" n="51"/>tores. Debitum autem ad Deum majus est
+          <lb ed="#P" n="52"/>quam ad parentes. Non dicitur autem hoc
+          <lb ed="#P" n="53"/>debitum legale, quia per legem 
+          constitua<lb break="no" ed="#P" n="54"/>tur, aut quia formaliter consideretur ut
+          <lb ed="#P" n="55"/>est obligatio legis et obedientia, ut in prio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ri responsione insinuabatur; sed dicitur 
+          le<lb break="no" ed="#P" n="57"/>gale, quia hoc debitum est, quod maxime
+          <lb ed="#P" n="58"/>attendunt leges reipublicae. Id enim quod hoc
+          <lb ed="#P" n="59"/>modo est debitum, unicuique debetur ex 
+          pro<lb break="no" ed="#P" n="60"/>prio jure invento in ipso; maxime autem 
+          in<lb break="no" ed="#P" n="61"/>terest bono reipublicae et paci ejus, ut hoc jus
+          <lb ed="#P" n="62"/>illesum conservetur. Religio ergo hoc modo
+          <lb ed="#P" n="63"/>reddit cultum Deo, jure proprio illi debitum,
+          <lb ed="#P" n="64"/>et ideo debitum ejus non utcunque morale,
+          <lb ed="#P" n="65"/>sed proprium et legale est.
+        </p>
+        <p>
+          <lb ed="#P" n="66"/>7. Vera solutio propositee objectionis, et 
+          ex<lb break="no" ed="#P" n="67"/>plicatur quale sit religionis debitum. — Ut
+          <lb ed="#P" n="68"/>autem difficultati positae satisfaciamus, 
+          adver<lb break="no" ed="#P" n="69"/>tendum est, quanquam hoc debitum non sit
+          <lb ed="#P" n="70"/>semper tale, ut ex eo nascatur in singulis 
+          ac<lb break="no" ed="#P" n="71"/>tibus obligatio praecepti, tale tamen esse, ut
+          <lb ed="#P" n="72"/>per singulos religionis actus possit aliqua ex
+          <lb ed="#P" n="73"/>parte solvi et expleri: idque satis est ut talis
+          <lb ed="#P" n="74"/>virtus possit respicere rationem debiti. Sicut,
+          <lb ed="#P" n="75"/>verbi gratia, qui ex justitia aliquid debet,
+          <lb ed="#P" n="76"/>etiamsi solvat ante tempus pro quo obligatur,
+          <lb ed="#P" n="77"/>vere solvit debitum, et intuitu illius operatur;
+          <lb ed="#P" n="78"/>vel si in communi debeat aliquid, quod possit
+          <lb ed="#P" n="79"/>in hoc vel illo opere, vel in hac aut illa re
+          <lb ed="#P" n="80"/>praestare, quamvis spontanee hoc vel illud
+          <lb ed="#P" n="81"/>faciat, nihilominus debitum solvit, et intuitu
+          <lb ed="#P" n="82"/>illius operatur. Ita ergo intelligendum est
+          <lb ed="#P" n="83"/>fieri in actibus religionis, quamvis spontanei
+          <lb ed="#P" n="84"/>videantur. Neque inde fit ut materia, vel 
+          de<lb break="no" ed="#P" n="85"/>bitum religionis exhauriri possit, quia huic
+          <lb ed="#P" n="86"/>virtuti peculiare est, ut debitum ejus 
+          nun<lb break="no" ed="#P" n="87"/>quam possit impleri solutione; tum quia 
+          de<lb break="no" ed="#P" n="88"/>bitum quodammodo infinitum est; tum etiam
+          <lb ed="#P" n="89"/>quia ipsa solutione crescit, nam per eam 
+          no<lb break="no" ed="#P" n="90"/>vum beneficium homini confertur. Quod non
+          <lb ed="#P" n="91"/>ita est in justitia ad hominem, nam per 
+          solu<lb break="no" ed="#P" n="92"/>tionem eius potest ita finiri debitum, ut locum
+          <lb ed="#P" n="93"/>jam non habeat justitiae exhibitio. Per actus
+          <lb ed="#P" n="94"/>autem religionis nunquam potest homo 
+          ex<lb break="no" ed="#P" n="95"/>haurire debitum quod ad Deum habet, sive
+          <lb ed="#P" n="96"/>in gratiis agendis, sive in quolibet alio cultu
+          <lb ed="#P" n="97"/>deferendo.
+        </p>
+        <p>
+          <lb ed="#P" n="98"/>8. Debitum religionis magis eaplicatur. —
+          <lb ed="#P" n="99"/>Aliter etiam potest hoc debitum religionis
+          <lb ed="#P" n="100"/>explicari, ut non tam intelligatur esse in
+          <lb ed="#P" n="101"/>exercitio actus, quam in specificatione illius.
+          <lb ed="#P" n="102"/>Dicitur enim actus debitus quoad exercitium,
+          <lb ed="#P" n="103"/>quando urget obligatio exercendi illum ; quae
+          <lb ed="#P" n="104"/>obligatio non semper conjuncta est cum 
+          ho<lb break="no" ed="#P" n="105"/>nestate actus, quia raro sequitur ex illa 
+          prae<lb break="no" ed="#P" n="106"/>cise considerata, sed ex speciali praecepto,
+          <lb ed="#P" n="107"/>vel ex speciali necessitate. Quoad 
+          specifica<lb break="no" ed="#P" n="108"/>tionem autem dici potest actus debitus alicui
+          <lb ed="#P" n="109"/>personae, quando talis persona, ratione suae
+          <lb ed="#P" n="110"/>excellentiae, vel alio simili titulo, jure suo
+          <pb ed="#P" n="23"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>postulat talem actum, qui licet non semper
+          <lb ed="#P" n="2"/>necessarius sit, tamen et aliquando esse 
+          po<lb break="no" ed="#P" n="3"/>test, et saltem semper est necessarium non
+          <lb ed="#P" n="4"/>operari contra tale debitum.
+        </p>
+        <p>
+          <lb ed="#P" n="5"/>9. Per haec igitur sufficienter explicata 
+          vi<lb break="no" ed="#P" n="6"/>detur assertio posita, et solutae difficultates
+          <lb ed="#P" n="7"/>omnes in principio posita praeter ultimam,
+          <lb ed="#P" n="8"/>quae in praesenti non potest sufficienter expli-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="9"/>cari. Postulat enim illa difficultas, an sub hac
+          <lb ed="#P" n="10"/>ratione generali cultus Deo debiti, 
+          continean<lb break="no" ed="#P" n="11"/>tur variae rationes debiti, adeo diversae, ut
+          <lb ed="#P" n="12"/>sufficiant actus morales specie distinguere, et
+          <lb ed="#P" n="13"/>consequenter an ex his actibus diversi etiam
+          <lb ed="#P" n="14"/>babitus generentur. Utrumque autem horum
+          <lb ed="#P" n="15"/>commodius examinabimus in libris 
+          sequer<lb break="no" ed="#P" n="16"/>tibus.
+        </p>
+        <p>
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="17"/>FINIS LIBRI PRIMI.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

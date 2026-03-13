@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 32</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 32</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="816"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k20396"><!-- t3-l4c32 -->
+        <head>Caput 32</head>
+        <head type="question-title">An praelati auctoritas necessaria sit ut spiritualium permutatio in beneficis absque simonia fiat?</head>
+        <p>
+          <lb ed="#P" n="42"/>CAPUT XXXII.
+          <lb ed="#P" n="43"/>AN PRAELATI AUCTORITAS NECESSARIA SIT UT 
+          SPI<lb break="no" ed="#P" n="44"/>RITUALIUM PERMUTATIO IN BENEFICIS ABSQUE
+          <lb ed="#P" n="45"/>SIMONIA FIAT?
+        </p>
+        <p>
+          <lb ed="#P" n="46"/>1. Status quaestionis. — Cum haec simonia
+          <lb ed="#P" n="47"/>solum sit mala quia prohibita, solum habet 
+          lo<lb break="no" ed="#P" n="48"/>cum (ut diximus) in ecclesiasticis beneficiis.
+          <lb ed="#P" n="49"/>Sub beneficiis comprehendo omnia jura illis
+          <lb ed="#P" n="50"/>annexa quae ad illa revocantur juxta dicta in
+          <lb ed="#P" n="51"/>praecedenti capite : nam in aliis materiis 
+          spi<lb break="no" ed="#P" n="52"/>ritualibus, ubi nec commutatio prohibita est,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>nec per se mala, nulla conditio positiva (ut sic
+          <lb ed="#P" n="54"/>dicam) necessaria est, ut in eis non 
+          committa<lb break="no" ed="#P" n="55"/>tur simonia per earum inter se 
+          permutatio<lb break="no" ed="#P" n="56"/>nem, sed solum negativa , scilicet, ut non
+          <lb ed="#P" n="57"/>misceatur prava intentio, nec alia mala 
+          cir<lb break="no" ed="#P" n="58"/>cumstantia quae destruat puritatem 
+          contrac<lb break="no" ed="#P" n="59"/>tus; nam tunc jam non spirituale pro 
+          spiri<lb break="no" ed="#P" n="60"/>tuali, sed pro temporali, vel omnino, vel 
+          ali<lb break="no" ed="#P" n="61"/>qua ex parte daretur, ut cap. 30 explicatum
+          <lb ed="#P" n="62"/>est. Et ideo alias res spirituales missas 
+          faci<lb break="no" ed="#P" n="63"/>nus, solumque de beneficiis tractamus. Atque
+          <lb ed="#P" n="64"/>de illis supponimus non ita esse 
+          prohibi<lb break="no" ed="#P" n="65"/>tam eorum permutationem, quin aliquando
+          <lb ed="#P" n="66"/>fieri possit sine simonia. Id enim clare 
+          suppo<lb break="no" ed="#P" n="67"/>nitur in cap. nter cetera, de Praebend., ct in
+          <lb ed="#P" n="68"/>c. unico, de Rerum permutatione, in 6. Et 
+          su<lb break="no" ed="#P" n="69"/>mi potest ex c. Quaeerenti, et cap. Cum olim, et
+          <lb ed="#P" n="70"/>c. Ad quaestiones , extra, eodem, et in praeced.
+          <lb ed="#P" n="71"/>etiam c. tactum est. Ut ergo discerni valeat
+          <lb ed="#P" n="72"/>permutatio simoniaca a non simoniaca, 
+          opor<lb break="no" ed="#P" n="73"/>tet exponere conditiones necessarias ad 
+          puri<lb break="no" ed="#P" n="74"/>tatem ejus, et ideo consequenter constabit,
+          <lb ed="#P" n="75"/>cum malum sit ex quocumque defectu, quibus
+          <lb ed="#P" n="76"/>modis possit in hoc simonia committi. Prima
+          <lb ed="#P" n="77"/>autem et praecipua est auctoritas praelati, et
+          <lb ed="#P" n="78"/>ideo in hoc capite de illa dicemus, et postca
+          <lb ed="#P" n="79"/>de reliquis.
+        </p>
+        <p>
+          <lb ed="#P" n="80"/>2. Auctoritas superioris necessaria est ut
+          <lb ed="#P" n="81"/>permutatio licite fiat. — St igitur generalis
+          <lb ed="#P" n="82"/>regula, ut permutatio licite fiat, necessarium
+          <lb ed="#P" n="83"/>esse ut auctoritate snperioris fiat. Haec 
+          asser<lb break="no" ed="#P" n="84"/>tio expresse habetur in proxime citatis 
+          juri<lb break="no" ed="#P" n="85"/>bus, et optime in c. Cum universorum, de 
+          Re<lb break="no" ed="#P" n="86"/>rum perm., ibi: Zicet ipsi per se de jure non
+          <lb ed="#P" n="87"/>possint ecclesiastica beneficia commutare. Et
+          <lb ed="#P" n="88"/>ratio clara est, quia talis permutatio potest
+          <lb ed="#P" n="89"/>esse necessaria, vel utilis, aut Ecclesiae, aut
+          <lb ed="#P" n="90"/>ipsis beneficiatis, et ideo non debuit omnino
+          <lb ed="#P" n="91"/>prohiberi ; fuit autem expediens ut proprio
+          <lb ed="#P" n="92"/>arbitrio privatorum non fieret, ideoque merito
+          <lb ed="#P" n="93"/>superioris auctoritas postulata est.
+        </p>
+        <p>
+          <lb ed="#P" n="94"/>3. An fiat permutatio beneficiorum, an 
+          so<lb break="no" ed="#P" n="95"/>lum personarum. — Ad explicandum autem
+          <lb ed="#P" n="96"/>magis sensum hujus concessionis ejusque 
+          ra<lb break="no" ed="#P" n="97"/>tionem, dubitant canonistae an in tali casu fiat
+          <lb ed="#P" n="98"/>permutatio beneficiorum, vel tantum 
+          persona<lb break="no" ed="#P" n="99"/>rum mutua translatio. Sunt enim haec duo 
+          di<lb break="no" ed="#P" n="100"/>versa, nam permutatio directe cadit in rem
+          <lb ed="#P" n="101"/>quae permutatur, et fit per quemdam 
+          contra<lb break="no" ed="#P" n="102"/>ctum, in quo unusquisque contrahentium,
+          <lb ed="#P" n="103"/>quantum in se est, confert aliquid alteri 
+          pro<lb break="no" ed="#P" n="104"/>pria voluntate et consensu, ut vicissim aliquid
+          <lb ed="#P" n="105"/>ab alio recipiat, ut constat ex jure, titul. de 
+          Re<lb break="no" ed="#P" n="106"/>rum perm., et Doctoribus ibi, ir Rubr., et 
+          Sum<lb break="no" ed="#P" n="107"/>mistis, verb. Permutatio. Translatio autem
+          <pb ed="#P" n="817"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non res, sed personam vel personas immediate
+          <lb ed="#P" n="2"/>respicit ; est enim translatio, in praesenii 
+          mate<lb break="no" ed="#P" n="3"/>ria, personae, ab uno beneficio in aliud, aut ab
+          <lb ed="#P" n="4"/>una ecclesia ad aliam mutatio legitime facta
+          <lb ed="#P" n="5"/>auctoritate superioris, a cujus voluntate et 
+          au<lb break="no" ed="#P" n="6"/>ctoritate maxime vires accipit, ut constat ex
+          <lb ed="#P" n="7"/>titul. de Translat. Praelat., et c. Scias, frater,
+          <lb ed="#P" n="8"/>7, quaest. 1. Dixerunt ergo aliqui, 
+          permuta<lb break="no" ed="#P" n="9"/>tionem beneficiorum nunquam licere, etiam
+          <lb ed="#P" n="10"/>praelati auctoritate, sed solum translationem
+          <lb ed="#P" n="11"/>personarum ab una dignitate, vel ecclesia,
+          <lb ed="#P" n="12"/>seu ecclesiastica obligatione et sollicitudine in
+          <lb ed="#P" n="13"/>aliam ; utrumque enim videtur dici in dicto c.
+          <lb ed="#P" n="14"/>Quaerenti , de Rerum permutatione. Nam
+          <lb ed="#P" n="15"/>prius in illo pro generali regula datur: 
+          Per<lb break="no" ed="#P" n="16"/>mutationes beneficiorum de jure fieri non 
+          pos<lb break="no" ed="#P" n="17"/>sunt; et postea in fine subditur: Si autem
+          <lb ed="#P" n="18"/>Hpiscopus causam inspemerit necessariam, 
+          lici<lb break="no" ed="#P" n="19"/>te poterit ab uno loco ad alium transferre 
+          per<lb break="no" ed="#P" n="20"/>sonas.
+        </p>
+        <p>
+          <lb ed="#P" n="21"/>4. Auctoritate pralati est concessa jure 
+          be<lb break="no" ed="#P" n="22"/>neficiorum permutatio proprie sumpta. — 
+          Ni<lb break="no" ed="#P" n="23"/>hilominus tamen certum est permutationem
+          <lb ed="#P" n="24"/>beneficiorum proprie sumptam et ut 
+          distingui<lb break="no" ed="#P" n="25"/>tur a translatione personarum, esse jure 
+          con<lb break="no" ed="#P" n="26"/>cessam auctoritate praelati. Nam quod illa duo
+          <lb ed="#P" n="27"/>distinguantur, constat ex dictis in principio,
+          <lb ed="#P" n="28"/>et ex diversis titulis, quae de illis habentur in
+          <lb ed="#P" n="29"/>jure, et ex principiis et causis earum: quia
+          <lb ed="#P" n="30"/>translatio non est contractus, nec fit per 
+          mo<lb break="no" ed="#P" n="31"/>dum contractus; unde per se non requirit
+          <lb ed="#P" n="32"/>quod fiat inter duos, et per se respicit 
+          utilita<lb break="no" ed="#P" n="33"/>tem Ecclesiae, non translatorum, unde 
+          origi<lb break="no" ed="#P" n="34"/>nem ducit a providentia praeati, non a 
+          volun<lb break="no" ed="#P" n="35"/>tate transati; ideoque sine illius consensu
+          <lb ed="#P" n="36"/>fieri potest, et interdum cum majori onere, et
+          <lb ed="#P" n="37"/>minori temporali commodo, et saepe fit circa
+          <lb ed="#P" n="38"/>unum tantum ad beneficium vacans. 
+          Fermu<lb break="no" ed="#P" n="39"/>tatio autem revera fit per modum contractus,
+          <lb ed="#P" n="40"/>et ideo per se postulat ut fiat inter duos et ex
+          <lb ed="#P" n="41"/>consensu eorum. tenditque proxime ad eorum
+          <lb ed="#P" n="42"/>commodum sine Ecclesiae incommodo, ac 
+          de<lb break="no" ed="#P" n="43"/>nique in ea datur unum pro alio in 
+          recom<lb break="no" ed="#P" n="44"/>pensationem. Totum ergo hoc permittitur in
+          <lb ed="#P" n="45"/>beneficiis cum auctoritate praelati, et ideo hoc
+          <lb ed="#P" n="46"/>modo non solum translatio personarum, sed
+          <lb ed="#P" n="47"/>etiam permutatio beneficiorum, in rigore 
+          sum<lb break="no" ed="#P" n="48"/>pta, licita est cum dicta conditione. Et ita 
+          sen<lb break="no" ed="#P" n="49"/>tiunt omnes Doctores, et aperte divus 
+          Tho<lb break="no" ed="#P" n="50"/>mas, dicto art. 1, ad 5; prius enim dicit has
+          <lb ed="#P" n="51"/>permutationes fieri non posse privatim ; 
+          sub<lb break="no" ed="#P" n="52"/>dit vero statim : Potest tamen prelatus 
+          per<lb break="no" ed="#P" n="53"/>mutationes hujusmodi facere. Et probatur 
+          sufhi<lb break="no" ed="#P" n="54"/>cienter ex dictis juribus, et ex Clem. unic., de
+          <lb ed="#P" n="55"/>Rerum permut. In dicto autem c. Quaerenti,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Pontifex illum modum loquendi tenuit, ut 
+          si<lb break="no" ed="#P" n="57"/>gnificaret duo. Unum est, beneficia secundum
+          <lb ed="#P" n="58"/>jus non posse permutari privata auctoritate et
+          <lb ed="#P" n="59"/>consensu permutantium ; ita enim omnes 
+          il<lb break="no" ed="#P" n="60"/>lam primam generalem regulam intelligunt.
+          <lb ed="#P" n="61"/>Aliud est, hanc permutationem non esse 
+          fa<lb break="no" ed="#P" n="62"/>ciendam ab Episcopo siue respectu ad 
+          com<lb break="no" ed="#P" n="63"/>mune bonum ecclesiarum, quia hoc ex 
+          per<lb break="no" ed="#P" n="64"/>sonis maxime pendet, ideo potius per 
+          transla<lb break="no" ed="#P" n="65"/>tionem personarum, quam per beneficiorum
+          <lb ed="#P" n="66"/>permutatiónem eam Ponuifex declaravit. 
+          For<lb break="no" ed="#P" n="67"/>te etiam olim major rigor in hoc 
+          observaha<lb break="no" ed="#P" n="68"/>tur, ut non per modum permutationis, sed
+          <lb ed="#P" n="69"/>tántum per modum translationis hoc fieret;
+          <lb ed="#P" n="70"/>postea vero major facultas concessa est, ut
+          <lb ed="#P" n="71"/>constat ex superioribus juribus, et in sequenti
+          <lb ed="#P" n="72"/>puncto amplius exponetur.
+        </p>
+        <p>
+          <lb ed="#P" n="73"/>5. An liceat partibus sine licentia preelati
+          <lb ed="#P" n="74"/>inter se tractare permutationem, animo tamen
+          <lb ed="#P" n="75"/>petendi pralati consensum. — Pars affirmativa
+          <lb ed="#P" n="76"/>eligitur.—Objectioni satisfit. — Secundo enim
+          <lb ed="#P" n="77"/>dubitari potest circa hanc assertionem, esto
+          <lb ed="#P" n="78"/>non liceat permutationem consummare sine
+          <lb ed="#P" n="79"/>notitia et consensu praelati, an saltem liceat
+          <lb ed="#P" n="80"/>partibus inter se prius negotium tractare, et
+          <lb ed="#P" n="81"/>de permutatione facienda tali vel tali modo
+          <lb ed="#P" n="82"/>convenire cum ordine ad scientiam et 
+          consen<lb break="no" ed="#P" n="83"/>sum praelati. Aliqui enim canonistae 
+          scrupu<lb break="no" ed="#P" n="84"/>lose in hoc locuti sunt, negantes hoc licere.
+          <lb ed="#P" n="85"/>Quod sentit Gloss., in cap. Cum universorum,
+          <lb ed="#P" n="86"/>de Rer. permutat., verb. Tractare, quam ibi
+          <lb ed="#P" n="87"/>sequitur Anchar., et idem docet Innocentius,
+          <lb ed="#P" n="88"/>in dicto c. Queesitum, eod., quem ibi 
+          sequun<lb break="no" ed="#P" n="89"/>tur aliqui, et Hostiens. dixit esse tutius. Sed
+          <lb ed="#P" n="90"/>non habent fundamentum, quia hoc nullibi
+          <lb ed="#P" n="91"/>est prohibitum , nam solum prohibetur 
+          per<lb break="no" ed="#P" n="92"/>mutare vcl pacisci ; tractare autem ncutrum
+          <lb ed="#P" n="93"/>illorum est, quia non dicit actum 
+          consumma<lb break="no" ed="#P" n="94"/>tum, sed praeparationem ad illum, ut constat
+          <lb ed="#P" n="95"/>ex vi ipsius vocis, atque etiam ex jure colligi
+          <lb ed="#P" n="96"/>potest, c. 1, de Reb. Eccles. non alien. Unde
+          <lb ed="#P" n="97"/>opposita sententia colligi potest ex cap. Cum
+          <lb ed="#P" n="98"/>universorwn, de Rerum permut. Ubi cum de
+          <lb ed="#P" n="99"/>tractatu de permutatione facta fuisset mentio,
+          <lb ed="#P" n="100"/>tractatus non improbatur , sed solum dixit
+          <lb ed="#P" n="101"/>Pontifex partes per se non posse permutare.
+          <lb ed="#P" n="102"/>Ratio etiam moralis est evidens, quia 
+          prohi<lb break="no" ed="#P" n="103"/>bere tractatum, moraliter loquendo, esset 
+          pro<lb break="no" ed="#P" n="104"/>hibere permutationem, quia non potest ad 
+          il<lb break="no" ed="#P" n="105"/>lam alia via perveniri. Dices, posse fieri ex
+          <lb ed="#P" n="106"/>licentia praelati. At hoc valde onerosum est,
+          <lb ed="#P" n="107"/>interdum enim superior longe distat. Item 
+          ni<lb break="no" ed="#P" n="108"/>si prius sit aliqua spes concordiae, superflua 
+          es<lb break="no" ed="#P" n="109"/>set petitio talis licentiae, Denique, quod caput
+          <lb ed="#P" n="110"/>est, nullibi est hoc prieceptum. Illi ergo ca-
+          <pb ed="#P" n="818"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nonista videntur locuti juxta aliquem 
+          anti<lb break="no" ed="#P" n="2"/>quum rigorem, quando non tam 
+          beneficio<lb break="no" ed="#P" n="3"/>rum permutatio, quam translatio personarum
+          <lb ed="#P" n="4"/>tiebat ex officio praelati, et non ad petitionem
+          <lb ed="#P" n="5"/>privatorum ; nunc autem cum permutationes
+          <lb ed="#P" n="6"/>proprie liceant de petitione beneficiatorum,
+          <lb ed="#P" n="7"/>non potest negari quin possit praecedere inter
+          <lb ed="#P" n="8"/>eos tractatus.
+        </p>
+        <p>
+          <lb ed="#P" n="9"/>6. An partes possint inter se non sclum 
+          per<lb break="no" ed="#P" n="10"/>mutationem tractare, sed etiam mutuo se 
+          obli<lb break="no" ed="#P" n="11"/>gare? — Dixerunt autem alii esse quidem 
+          lici<lb break="no" ed="#P" n="12"/>tum tractare prius de permutatione, sed non
+          <lb ed="#P" n="13"/>concludere, aut se mutuo obligare, quia hoc
+          <lb ed="#P" n="14"/>esset pacisci, quod non licet sineconsensu 
+          pree<lb break="no" ed="#P" n="15"/>lati. Ita significat Panormitanus, in dicto 
+          ca<lb break="no" ed="#P" n="16"/>pite Queesitum, circa finem, dicens posse 
+          par<lb break="no" ed="#P" n="17"/>tes inter se tractare, non tamen concludere
+          <lb ed="#P" n="18"/>permutationem, et adducit Glossam et Joan.
+          <lb ed="#P" n="19"/>Andr., inc. unic., eodem, et sequitur Cardin.,
+          <lb ed="#P" n="20"/>in eodem cap. Quaesitum, num. 4. Et eodem
+          <lb ed="#P" n="21"/>modo loquitur idem Panormitanus in dictoc.
+          <lb ed="#P" n="22"/>Cwun universorum ; imo ibi difficilius se 
+          expli<lb break="no" ed="#P" n="23"/>cat, dicens quod clerici dicuntur permutare,
+          <lb ed="#P" n="24"/>quando inter se deliberant de permutando
+          <lb ed="#P" n="25"/>cum deliberato consensu, et ideo male facere,
+          <lb ed="#P" n="26"/>licet postea vadant ad superiorem; et hoc putat
+          <lb ed="#P" n="27"/>esse reprehensum in illo textu. Et hoc 
+          vide<lb break="no" ed="#P" n="28"/>tur sequi Anton., 2 part., titul. 1, c. 5, 8 8.
+          <lb ed="#P" n="29"/>Sed melius hanc sententiam exposuit 
+          Sylves<lb break="no" ed="#P" n="30"/>ter, verb. Permutatio, 2. q. 5.
+        </p>
+        <p>
+          <lb ed="#P" n="31"/>7. Resolvitur queestio pro parte affirmativa.
+          <lb ed="#P" n="32"/>—Possunt partes se obligare ad 
+          perseveran<lb break="no" ed="#P" n="33"/>dum in conventione, si pralatus consenserit.—
+          <lb ed="#P" n="34"/>Dicendum ergo est, licitum esse, volentibus
+          <lb ed="#P" n="35"/>permutare, et tractare de negotio. et 
+          conclu<lb break="no" ed="#P" n="36"/>dere, quantum est ex se, praebendo suum
+          <lb ed="#P" n="37"/>mutuum consensum in ordine ad consensum
+          <lb ed="#P" n="38"/>praelati: hoc enim etiam est moraliter 
+          neces<lb break="no" ed="#P" n="39"/>sarium, et aperte colligitur ex dicto cap. unic.
+          <lb ed="#P" n="40"/>de Rerum permutat., in 6, ibi: Sua beneficia
+          <lb ed="#P" n="41"/>permutare colentes. Et similia verba 
+          haben<lb break="no" ed="#P" n="42"/>tur in Clement. unic., eodem, ubi Glossa 
+          in<lb break="no" ed="#P" n="43"/>de colligit, posse praecedere tractatum, utique
+          <lb ed="#P" n="44"/>usque ad consensum, nam hoc significat 
+          ver<lb break="no" ed="#P" n="45"/>bum colentis. Et ita sentit ibi Cardinal. 
+          Za<lb break="no" ed="#P" n="46"/>barel., citans Paul., num. 7, et Cardinal., in
+          <lb ed="#P" n="47"/>dicto c. Quasitum, quaestione 39, num. ?3.
+          <lb ed="#P" n="48"/>Ratio etiam eadem est, quia hoc est medium
+          <lb ed="#P" n="49"/>necessarium moraliter ad finem 
+          permutatio<lb break="no" ed="#P" n="50"/>nis; concesso autem fine, conceduntur 
+          me<lb break="no" ed="#P" n="51"/>dia, praesertim adeo intrinseca et necessaria.
+          <lb ed="#P" n="52"/>Denique hoc etiam nullibi invenitur 
+          prohibi<lb break="no" ed="#P" n="53"/>tum. Addo vero ulterius, etiam posse partes
+          <lb ed="#P" n="54"/>ita consertire, ut se obligent ad standum 
+          con<lb break="no" ed="#P" n="55"/>ventioni inter se factae, non simpliciter et ab-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>solute, sed sub conditione, si praelatus 
+          con<lb break="no" ed="#P" n="57"/>senserit. Ita hoc declaravit Sylvest. Et 
+          pro<lb break="no" ed="#P" n="58"/>bat optime, quia hoc etiam non est 
+          prohibi<lb break="no" ed="#P" n="59"/>tum, sed sola permutatio praesertim pactione
+          <lb ed="#P" n="60"/>prammnissa, ut dicitur in dicto c. Quesitum.
+          <lb ed="#P" n="61"/>Pactio autem tantum conditionata, Si 
+          praela<lb break="no" ed="#P" n="62"/>tus consenserit , nec est permutatio, nec 
+          sim<lb break="no" ed="#P" n="63"/>pliciter pactio de permutatione, cum 
+          condi<lb break="no" ed="#P" n="64"/>tionalis suspendat permutationem, et 
+          subji<lb break="no" ed="#P" n="65"/>ciat juri voluntates contrahentium. Item hoc
+          <lb ed="#P" n="66"/>genus obligationis est etiam moraliter 
+          neces<lb break="no" ed="#P" n="67"/>sarium, ne contingat frustra postulari 
+          supe<lb break="no" ed="#P" n="68"/>rioris consensum, si, illo praestito, possent 
+          par<lb break="no" ed="#P" n="69"/>tes retrocedere pro suo arbitrio. Unde in praxi
+          <lb ed="#P" n="70"/>videtur ita servari, nam postquam praelatus
+          <lb ed="#P" n="71"/>consentit, non est in potestate permutantium,
+          <lb ed="#P" n="72"/>vel resignantium retrocedere, ut tradit 
+          Inno<lb break="no" ed="#P" n="73"/>centius in c. Inter cetera, de Praebend. 
+          Quam<lb break="no" ed="#P" n="74"/>vis enim permutantes non acquirant 
+          benefi<lb break="no" ed="#P" n="75"/>cia usque ad collationem, ut tractat Rebuff.
+          <lb ed="#P" n="76"/>supra, et Cardinal. Zabarel., in dicta 
+          Cle<lb break="no" ed="#P" n="77"/>ment. unic., de Rerum permutat., num. 19,
+          <lb ed="#P" n="78"/>nihilominus interposita auctoritate praelati
+          <lb ed="#P" n="79"/>per consensum perfecta est resignatio, et ita
+          <lb ed="#P" n="80"/>non possunt partes retrocedere; ergo signum
+          <lb ed="#P" n="81"/>est antea consensisse et se obligasse sub illa
+          <lb ed="#P" n="82"/>conditione. Nec videtur Panormitanus 
+          dissen<lb break="no" ed="#P" n="83"/>tire; nam in c. Quweesitum, solum dicit non
+          <lb ed="#P" n="84"/>posse inter se concludere permutationem, 
+          uti<lb break="no" ed="#P" n="85"/>que absolute; in alio autem c. Cum 
+          universo<lb break="no" ed="#P" n="86"/>rum , obscurius loquitur. Sed debet intelligi
+          <lb ed="#P" n="87"/>justa textum: in cujus casu (si attente 
+          lega<lb break="no" ed="#P" n="88"/>tur ), partes ita inter se tractaverant de 
+          per<lb break="no" ed="#P" n="89"/>mutatione, ut quoad illam consensum 
+          prae<lb break="no" ed="#P" n="90"/>lati non requirerent pro resignatione 
+          facien<lb break="no" ed="#P" n="91"/>da in favorem tertii. Inde enim ortum habuit
+          <lb ed="#P" n="92"/>deceptio in qua fundatur ille textus, quod 
+          al<lb break="no" ed="#P" n="93"/>ter resignavit suum beneficium in 
+          consangui<lb break="no" ed="#P" n="94"/>neum alterius, et alter postea resignare 
+          nole<lb break="no" ed="#P" n="95"/>bat. Haec autem deceptio locum non 
+          habuis<lb break="no" ed="#P" n="96"/>set, si conventio permutandi Episcopo 
+          inno<lb break="no" ed="#P" n="97"/>tuisset. In hoc ergo sensu ait Panormitanus
+          <lb ed="#P" n="98"/>deliberationem inter partes esse 
+          peccamino<lb break="no" ed="#P" n="99"/>sam, etiamsi ad Episcopum pro resignatione
+          <lb ed="#P" n="100"/>accedant, et ita etiam intellexit Sylvest., et
+          <lb ed="#P" n="101"/>bene hebuft., in Pract., tit. de Permut., num.
+          <lb ed="#P" n="102"/>52 et 53.
+        </p>
+        <p>
+          <lb ed="#P" n="103"/>8. An liceat sese mutuo obligare ad 
+          perseve<lb break="no" ed="#P" n="104"/>randum in conventione donec praesentetur 
+          su<lb break="no" ed="#P" n="105"/>periori, et ipse eonsensum neget. — Roesolutio
+          <lb ed="#P" n="106"/>queestionis. — Sed dubitabit aliquis, an liceat
+          <lb ed="#P" n="107"/>sese mutuo obligare ad perseverandum in
+          <lb ed="#P" n="108"/>conventione facta, et ad non revocandam 
+          il<lb break="no" ed="#P" n="109"/>lam donec praesentetur superiori, et ipse suum
+          <lb ed="#P" n="110"/>consensum neget. Aliqui enim hoc negare vi-
+          <pb ed="#P" n="819"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dentur. Unde Rebufft., in Pract., titul. de 
+          Per<lb break="no" ed="#P" n="2"/>mutat., num. 4, ait, post conventionem 
+          fac<lb break="no" ed="#P" n="3"/>tam inter volentes permutare, et data 
+          procu<lb break="no" ed="#P" n="4"/>ratione , quando est res integra, posse 
+          revo<lb break="no" ed="#P" n="5"/>cari, licet non possit revocari ab altera parte,
+          <lb ed="#P" n="6"/>postquam alia suum beneficium resignavit.
+          <lb ed="#P" n="7"/>Et potest suaderi, quia illa mutua obligatio
+          <lb ed="#P" n="8"/>cum illo rigore facta, non est necessaria ad
+          <lb ed="#P" n="9"/>permutationem, unde non censetur concessa
+          <lb ed="#P" n="10"/>eo ipso quod permutatio conceditur; ergo
+          <lb ed="#P" n="11"/>censetur prohibita per generalem 
+          prohibitio<lb break="no" ed="#P" n="12"/>nem faciendi pacta et conventiones super 
+          be<lb break="no" ed="#P" n="13"/>neficia. Nihilominus probabilius videtur quod,
+          <lb ed="#P" n="14"/>licet tanta obligatio non oriatur ex mutuo
+          <lb ed="#P" n="15"/>consensu permutandi, nisi exprimatur (quod
+          <lb ed="#P" n="16"/>fortasse voluit dicere Rebuffus ), nihilominus
+          <lb ed="#P" n="17"/>si fiat, non committi simoniam, imo validam
+          <lb ed="#P" n="18"/>esse, et inducere obligationem in conscientia.
+          <lb ed="#P" n="19"/>Ita tenet Frederic. Senens., in tract. de 
+          Per<lb break="no" ed="#P" n="20"/>mut. benefic., quaest. 38, num. 64 et 65; et
+          <lb ed="#P" n="21"/>idem sentit Cardin. supra, nec caeteri 
+          contra<lb break="no" ed="#P" n="22"/>dicunt. Ratio vero est, quia etiam hoc pactum
+          <lb ed="#P" n="23"/>non est per se malum, ut constat, nec etiam
+          <lb ed="#P" n="24"/>est prohibitum: tum quia non est de 
+          permu<lb break="no" ed="#P" n="25"/>tatione beneficiorum, nisi juxta juris 
+          conces<lb break="no" ed="#P" n="26"/>sionem, tale autem pactum non prohibetur,
+          <lb ed="#P" n="27"/>ut ostendimus ; tum etiam quia tota illa 
+          pac<lb break="no" ed="#P" n="28"/>tio consistit in promissione mutua circa 
+          perse<lb break="no" ed="#P" n="29"/>verantiam, et stabilitatem in concordia facta;
+          <lb ed="#P" n="30"/>hoc autem bonum est, cum concordia bona et
+          <lb ed="#P" n="31"/>secundum jura esse supponatur.
+        </p>
+        <p>
+          <lb ed="#P" n="32"/>9. Hyscopus est superior cujus auctoritate
+          <lb ed="#P" n="33"/>facienda est permutatio. — Tertio dubitari 
+          po<lb break="no" ed="#P" n="34"/>test circa eamdem conditionem, quis sit 
+          supe<lb break="no" ed="#P" n="35"/>rior cujus auctoritate facienda est permutatio,
+          <lb ed="#P" n="36"/>ut absque simonia fiat. Respondeo nunc 
+          ser<lb break="no" ed="#P" n="37"/>monem esse de permutatione, quae simpliciter
+          <lb ed="#P" n="38"/>fit inter beneficia sine adjectione oneris, vel
+          <lb ed="#P" n="39"/>pensionis ex altera parte (de hoc enim infra
+          <lb ed="#P" n="40"/>dicemus), et sic dicimus superiorem ad quem
+          <lb ed="#P" n="41"/>pertinet auctoritas faciendi permutationem,
+          <lb ed="#P" n="42"/>esse Episcopum. Ita colligitur manifeste ex
+          <lb ed="#P" n="43"/>dicto c. Queesitum, ibi : Si autem Episcopus,
+          <lb ed="#P" n="44"/>etc., et idem sumitur ex dicto capitulo unico
+          <lb ed="#P" n="45"/>de Rerum permutatione, in 6, ibi : Zn 
+          mani<lb break="no" ed="#P" n="46"/>bus tuis ipsa resignant. Ex quibus juribus, et
+          <lb ed="#P" n="47"/>ex ipsa rei natura constat, hoc esse 
+          intelligen<lb break="no" ed="#P" n="48"/>dum respective de unoquoque Episcopo pro
+          <lb ed="#P" n="49"/>sua dicecesi, et cum proportione loquendum
+          <lb ed="#P" n="50"/>esse de ipsis Episcopis respectu sui superioris,
+          <lb ed="#P" n="51"/>ut late tractant Doctores, praesertim Zabar. et
+          <lb ed="#P" n="52"/>RHebufft.. statim referendi.
+        </p>
+        <p>
+          <lb ed="#P" n="53"/>10. Quid intelligendum sit sub nomine 
+          Eis<lb break="no" ed="#P" n="54"/>copi . — Opinio aliquorum. — Duo vero 
+          super<lb break="no" ed="#P" n="55"/>sunt exponenda, scilicet quid nomine Episcopi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>intelligendum sit, et consequenter an praelati
+          <lb ed="#P" n="57"/>Episcopis inferiores, interdum hoc possint.
+          <lb ed="#P" n="58"/>Multi enim simpliciter negant inferioribus
+          <lb ed="#P" n="59"/>hanc potestatem, et id colligunt ex dicto c.
+          <lb ed="#P" n="60"/>Quaesitum quatenus ibi prius ponitur generalis
+          <lb ed="#P" n="61"/>regula, quod hae permutationes jure non 
+          li<lb break="no" ed="#P" n="62"/>cent, et postea additur quasi exceptio, Nisi
+          <lb ed="#P" n="63"/>Episcopus intervenerit; ergo firmatur regula
+          <lb ed="#P" n="64"/>in contrarium, quod, licet fiant auctoritate
+          <lb ed="#P" n="65"/>cujuscumque inferioris praelati, non liceant.
+          <lb ed="#P" n="66"/>Ita tenet Glossa, in Clement. unic. de Rerum
+          <lb ed="#P" n="67"/>permutatione, quam sequitur Panormitanus,
+          <lb ed="#P" n="68"/>dicto capitulo Queesitum, dicens esse 
+          commu<lb break="no" ed="#P" n="69"/>nem sententiam, quam etiam tenent 
+          Innocen<lb break="no" ed="#P" n="70"/>tius, Hostiensis, Cardinalis, et Frederic., in
+          <lb ed="#P" n="71"/>tract. de Benef. permutat., quaestione decima
+          <lb ed="#P" n="72"/>nona, et vigesima secunda ; Rebufl., in 
+          Trac<lb break="no" ed="#P" n="73"/>tat. de Permut., numero 2 et sequentibus.
+          <lb ed="#P" n="74"/>Declarant autem hi auctores, quid intelligant
+          <lb ed="#P" n="75"/>nomine Episcopi, et quid excludant, cum 
+          di<lb break="no" ed="#P" n="76"/>cunt ad solum illum hoc jus pertinere.
+        </p>
+        <p>
+          <lb ed="#P" n="77"/>11. In hac opinione qui prelati hanc 
+          juris<lb break="no" ed="#P" n="78"/>dictionem habeant. — Primo igitur, nomine
+          <lb ed="#P" n="79"/>Episcopi intelligunt eum, qui habet 
+          jurisdic<lb break="no" ed="#P" n="80"/>tionem episcopalem, etiamsi dignitatem 
+          epis<lb break="no" ed="#P" n="81"/>copalem non habeat, ut est capitulum, sede
+          <lb ed="#P" n="82"/>vacante, ut notavit Glossa, in dict. Clement.
+          <lb ed="#P" n="83"/>unica, verb. Conceduntur, et ibi Zabarell.,
+          <lb ed="#P" n="84"/>quaestione undecima. Et idem sentit Rot., 
+          de<lb break="no" ed="#P" n="85"/>cisione centesima undecima, et trecentesima
+          <lb ed="#P" n="86"/>duodecima, alias in titulo de Rerum 
+          permu<lb break="no" ed="#P" n="87"/>tatione, decisione quinta, et sexta in novis.
+          <lb ed="#P" n="88"/>Item si sit inferior praelatus, ut abbas exercens
+          <lb ed="#P" n="89"/>in omnibus jurisdictionem episcopalem, ut ex
+          <lb ed="#P" n="90"/>eadem Glossa sumitur ; expressius 
+          Panormita<lb break="no" ed="#P" n="91"/>nus supra. Imo etiam satis erit quod habeat
+          <lb ed="#P" n="92"/>praescriptam jurisdictionem in hoc actu dandi
+          <lb ed="#P" n="93"/>auctoritatem permutationibus, ut in 
+          particu<lb break="no" ed="#P" n="94"/>lari notavit Rebuffus, quia per 
+          praescriptio<lb break="no" ed="#P" n="95"/>nem acquiritur jurisdictio. Ratio hujus partis
+          <lb ed="#P" n="96"/>est, quia fundamentum hujus actionis est 
+          epis<lb break="no" ed="#P" n="97"/>copalis jurisdictio; unde si praelatus hanc 
+          ha<lb break="no" ed="#P" n="98"/>beat, sufficit, et ita divus Thomas non facit
+          <lb ed="#P" n="99"/>mentionem Episcopi in particulari, sed dixit:
+          <lb ed="#P" n="100"/>Potest autem pralatus ex officio suo, etc. Quod
+          <lb ed="#P" n="101"/>vero in dicto capitulo Quaerenti, nominetur
+          <lb ed="#P" n="102"/>Episcopus, non refert ; tum quia denominatio
+          <lb ed="#P" n="103"/>solet sumi ab eo quod est regulare et 
+          ordina<lb break="no" ed="#P" n="104"/>rium, per quod non excluduntur, imo 
+          compre<lb break="no" ed="#P" n="105"/>henduntur ea quae sunt ejusdem rationis, ut
+          <lb ed="#P" n="106"/>latissime confirmat Tiraquel., libro primo de
+          <lb ed="#P" n="107"/>Retract., S 20, a num. 4, usque ad decimum;
+          <lb ed="#P" n="108"/>tum etiam quia Episcopus uuo modo et quasi
+          <lb ed="#P" n="109"/>formaliter dicitur ratione jurisdictionis 
+          epis<lb break="no" ed="#P" n="110"/>copalis, id est quoad officium et curam, licet
+          <pb ed="#P" n="820"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non sit talis quoad dignitatem, et 
+          consecratio<lb break="no" ed="#P" n="2"/>nem. Unde quando actus, de quo est sermo,
+          <lb ed="#P" n="3"/>pertinet pure ad officium, et jurisdictionem
+          <lb ed="#P" n="4"/>ordinariam , etiamsi nominetur Episcopus,
+          <lb ed="#P" n="5"/>intelligitur ratione jurisdictionis. Nam 
+          charac<lb break="no" ed="#P" n="6"/>ter vel dignitas nihil ad talem actum 
+          opera<lb break="no" ed="#P" n="7"/>tur. Secus vero est ubi jurisdictio committitur
+          <lb ed="#P" n="8"/>Episcopis ex special delegatione Papae, ut
+          <lb ed="#P" n="9"/>in multis decretis Concili Tridentini. Tunc
+          <lb ed="#P" n="10"/>enim non extenditur ad inferiores, ut constat,
+          <lb ed="#P" n="11"/>et videri potest per Decium in capitulo 
+          Qmuo<lb break="no" ed="#P" n="12"/>niam abbas, de Offic. delegat., numero decimo
+          <lb ed="#P" n="13"/>quinto. In praesenti autem constat 
+          jurisdictio<lb break="no" ed="#P" n="14"/>nem esse ordinariam, non delegatam, et ideo
+          <lb ed="#P" n="15"/>de hac parte nulla est controversia.
+        </p>
+        <p>
+          <lb ed="#P" n="16"/>12. Qui preelati excludantur. — Qui autem
+          <lb ed="#P" n="17"/>excludantur, cum dicitur nullum praeter 
+          Epis<lb break="no" ed="#P" n="18"/>copum posse permutationem approbare, 
+          de<lb break="no" ed="#P" n="19"/>claratur. Quia non id dicitur propter 
+          inferio<lb break="no" ed="#P" n="20"/>res, qui non habent potestatem conferendi
+          <lb ed="#P" n="21"/>beneficia, nam de illis constat, et per se notum
+          <lb ed="#P" n="22"/>est, non posse permutationem probare; sed
+          <lb ed="#P" n="23"/>dicitur propter aliquos inferiores praelatos, qui
+          <lb ed="#P" n="24"/>interdum possunt beneficia conferre, de 
+          qui<lb break="no" ed="#P" n="25"/>bus dicti auctores, et fere omnes, dicunt non
+          <lb ed="#P" n="26"/>habere potestatem dandi auctoritatem 
+          permu<lb break="no" ed="#P" n="27"/>tationibus beneficiorum, ac subinde non 
+          excu<lb break="no" ed="#P" n="28"/>sari simoniam, si tantum coram illo pralato,
+          <lb ed="#P" n="29"/>Episcopo praetermisso, permutatio fiat. Quia
+          <lb ed="#P" n="30"/>ille praelatus non est Episcopus , neque quoad
+          <lb ed="#P" n="31"/>dignitatem, nec quoad jurisdictionem, et ideo
+          <lb ed="#P" n="32"/>nullo modo comprehenditur in dicto capitulo
+          <lb ed="#P" n="33"/>Quaerenti. Advertunt tamen hi auctores quod,
+          <lb ed="#P" n="34"/>licet approbatio permutationis pertineat ad
+          <lb ed="#P" n="35"/>Episcopum, si collatio ad alium pertineat, ejus
+          <lb ed="#P" n="36"/>consensum esse necessarium , et idem de 
+          elec<lb break="no" ed="#P" n="37"/>tore, patrono, et similibus ; quod est clarum,
+          <lb ed="#P" n="38"/>quia per dicta decreta non privantur alii jure
+          <lb ed="#P" n="39"/>suo, neque cum praejudicio eorum sunt 
+          exe<lb break="no" ed="#P" n="40"/>quenda.
+        </p>
+        <p>
+          <lb ed="#P" n="41"/>13. Contraria sententia. — Ratione 
+          proba<lb break="no" ed="#P" n="42"/>tur. — Contrariam nihilominus sententiam in
+          <lb ed="#P" n="43"/>hoc puncto tenet Angel., verb. Permutatio,
+          <lb ed="#P" n="44"/>num. 5; Sylvester, eodem, 2, quaest. 2, 
+          di<lb break="no" ed="#P" n="45"/>cens superiorem sufficientem ad 
+          permutatio<lb break="no" ed="#P" n="46"/>nem, non esse solum Episcopum respectu 
+          suo<lb break="no" ed="#P" n="47"/>rum inferiorum, si ad illum talium 
+          beneficio<lb break="no" ed="#P" n="48"/>rum collatio non pertineat ; sed esse posse 
+          in<lb break="no" ed="#P" n="49"/>feriorem, si ad illum collatio vel institutio
+          <lb ed="#P" n="50"/>spectet. Et hoc videtur sentire Soto, dicto lib.
+          <lb ed="#P" n="51"/>9, quaest. 5, art. 2, et quaest. 1, art. 2, qui
+          <lb ed="#P" n="52"/>sub disjunctione loquitur de Episcopo, vel eo
+          <lb ed="#P" n="53"/>ad quem collatio spectat ; ipse autem hoc non
+          <lb ed="#P" n="54"/>disputat, sed supponit ; Sylvester vero solum
+          <lb ed="#P" n="55"/>probat ex cap. Ad hec, S ultimo, de Offic. Ar-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>chid., et cap. Super eo, S ultim., de Offic. 
+          de<lb break="no" ed="#P" n="57"/>legat. Verumtamen illa jura ad summum
+          <lb ed="#P" n="58"/>probant, tunc non esse usurpandam 
+          collatio<lb break="no" ed="#P" n="59"/>nem beneficiorum ab Episcopo, sine consensu
+          <lb ed="#P" n="60"/>eorum ad quos pertinet, ut etiam fatetur prior
+          <lb ed="#P" n="61"/>communis sententia; non tamen probant quod
+          <lb ed="#P" n="62"/>sine auctoritate Episcopi possit fieri 
+          permuta<lb break="no" ed="#P" n="63"/>tio. Apparentius induci posset cap. unic. de
+          <lb ed="#P" n="64"/>Rerum permutatione, in 6: 7llos tamen, qui
+          <lb ed="#P" n="65"/>secundum furmum juris sua beneficia in eadem
+          <lb ed="#P" n="66"/>dicesi ad tuam collationem spectantia 
+          perma<lb break="no" ed="#P" n="67"/>tare volentes, etc. ; expendo etenim 
+          particu<lb break="no" ed="#P" n="68"/>lam illam, ad tuam collationem spectantia.
+          <lb ed="#P" n="69"/>Quia per eam indicantur permutationes 
+          bene<lb break="no" ed="#P" n="70"/>ficiorum, non pertinentium ad collationem
+          <lb ed="#P" n="71"/>Episcopi, ad eum non spectare. Et licet Gloss.
+          <lb ed="#P" n="72"/>ibi dicat, verba illa non esse juris, sed 
+          narra<lb break="no" ed="#P" n="73"/>tionis facti, non satisfacit; tum quia id non
+          <lb ed="#P" n="74"/>potest satis ex textu colligi, cum omnia illa
+          <lb ed="#P" n="75"/>verba sint Bonifacii condentis jus ; tum etiam
+          <lb ed="#P" n="76"/>quia, licet demus sumpta fuisse ex 
+          proposi<lb break="no" ed="#P" n="77"/>tione facti, seu quaestionis, nihilominus recte
+          <lb ed="#P" n="78"/>ex eis colligimus, et Episcopum interrogantem
+          <lb ed="#P" n="79"/>intellexisse ad se non pertinere beneficiorum
+          <lb ed="#P" n="80"/>permutationem, nisi quorum collationem 
+          ha<lb break="no" ed="#P" n="81"/>bet, et Pontificem tacite illum sensum 
+          appro<lb break="no" ed="#P" n="82"/>basse. Ratione potest haec sententia suaderi,
+          <lb ed="#P" n="83"/>quia in permutatione ideo requiritur 
+          superio<lb break="no" ed="#P" n="84"/>ris auctoritas, quia nec unius beneficii 
+          renun<lb break="no" ed="#P" n="85"/>ciatio potest esse valida siue praelati consensu,
+          <lb ed="#P" n="86"/>nec potest novum beneficium obtineri sine
+          <lb ed="#P" n="87"/>praelati collatione; ergo si ad aliquem 
+          infe<lb break="no" ed="#P" n="88"/>riorem praelatum pertinet resignatio, et 
+          colla<lb break="no" ed="#P" n="89"/>tio talium beneficiorum, illius auctoritas
+          <lb ed="#P" n="90"/>sufficiet ad concludendam et exequendam
+          <lb ed="#P" n="91"/>permutationem, nec Ebpiscopus poterit tunc
+          <lb ed="#P" n="92"/>se intromittere, cum ad illum non pertineat
+          <lb ed="#P" n="93"/>institutio aut destitutio talium beneficiorum.
+          <lb ed="#P" n="94"/>Et confirmatur, quia jam ille inferior praeiatus
+          <lb ed="#P" n="95"/>habet jurisdictionem episcopalem, saltem
+          <lb ed="#P" n="96"/>quoad provisionem talium beneficiorum (nam
+          <lb ed="#P" n="97"/>talis potestas ordinarie propria est 
+          Episcopo<lb break="no" ed="#P" n="98"/>rum, cap. Omnes basilice, 9, quaest. 7); ergo
+          <lb ed="#P" n="99"/>quoad tales actus, recte comprehendi potest
+          <lb ed="#P" n="100"/>nomine Episcopi. Et ita solvitur 
+          fundamen<lb break="no" ed="#P" n="101"/>tum contrariae sententiae, et ampliatur jus in
+          <lb ed="#P" n="102"/>re favorabili. Nam frustra (ut inquiunt) fit per
+          <lb ed="#P" n="103"/>plura, quod potest fieri per pauciora ; cum
+          <lb ed="#P" n="104"/>ergo collatorum consensus necessarius sit, et
+          <lb ed="#P" n="105"/>ibi Episcopus nihil fere cooperetur, ad quid
+          <lb ed="#P" n="106"/>sunt onera et gravamina multiplicanda?
+        </p>
+        <p>
+          <lb ed="#P" n="107"/>14. Prima sententia in praai servauda,
+          <lb ed="#P" n="108"/>quamnis posteriori valde sit verisimilis.— Haec
+          <lb ed="#P" n="109"/>posterior sententia, si vim rationis spectemus,
+          <lb ed="#P" n="110"/>videtur mihi valde verisimilis ; quia tamen
+          <pb ed="#P" n="821"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>difficile est in re morali, a receptissima 
+          sen<lb break="no" ed="#P" n="2"/>tentia recedere, tutius censeo admonere ut in
+          <lb ed="#P" n="3"/>praxi illa servetur, ubi consuetudo praescripta
+          <lb ed="#P" n="4"/>aliud non habuerit. Nam ubi praelatus, ad
+          <lb ed="#P" n="5"/>quem pertinet collatio, habet consuetudinem
+          <lb ed="#P" n="6"/>approbandi permntationem beneficiorum,
+          <lb ed="#P" n="7"/>communis etiam sententia fatetur, saltem 
+          ti<lb break="no" ed="#P" n="8"/>tulo praescriptionis posse id facere ratione 
+          ju<lb break="no" ed="#P" n="9"/>risdictionis episcopalis praescriptione 
+          compa<lb break="no" ed="#P" n="10"/>ratae ad illum effectum. Ubi autem non fuerit
+          <lb ed="#P" n="11"/>tale jus praescriptione acquisitum, ex vi juris
+          <lb ed="#P" n="12"/>communis defendi optime potest, 
+          approbatio<lb break="no" ed="#P" n="13"/>nem permutationis ad Episcopum pertinere
+          <lb ed="#P" n="14"/>ratione jurisdictionis episcopalis. Quod ita
+          <lb ed="#P" n="15"/>potest declarari distinguendo duo, quae in hoc
+          <lb ed="#P" n="16"/>negotio interveniunt. Unum est approbare
+          <lb ed="#P" n="17"/>permutationem et conventionem partium, seu
+          <lb ed="#P" n="18"/>consensibus partium auctoritatem dare, et
+          <lb ed="#P" n="19"/>quasi complere conditionem, ut pactio 
+          condi<lb break="no" ed="#P" n="20"/>uonata transeat in absolutam ; aliud est 
+          exe<lb break="no" ed="#P" n="21"/>qui permutationem acceptando resignationem,
+          <lb ed="#P" n="22"/>et novam collationem faciendo. Primum ergo
+          <lb ed="#P" n="23"/>pertinet ad Episcopum, d. cap. Quarenti, et
+          <lb ed="#P" n="24"/>non ad inferiorem collatorem, nisi 
+          jurisdictio<lb break="no" ed="#P" n="25"/>nem episcopalem etiam habeat. Secundum
+          <lb ed="#P" n="26"/>autem pertinebit ad inferiores, quando 
+          bene<lb break="no" ed="#P" n="27"/>ficiorum collatio ad illos, et non ad Episcopum
+          <lb ed="#P" n="28"/>pertinet, et ita fieri non poterit ab Episcopo,
+          <lb ed="#P" n="29"/>nisi de consensu illorum. (Quid autem facere
+          <lb ed="#P" n="30"/>possit Episcopus, si ipsi nolint consentire, 
+          trac<lb break="no" ed="#P" n="31"/>tant allegati Doctores, in quibus videri potest,
+          <lb ed="#P" n="32"/>quia neque ad nos pertinet, neque ad 
+          expli<lb break="no" ed="#P" n="33"/>candam simoniam necessarium est). Et quia
+          <lb ed="#P" n="34"/>in d. cap. unic. sermo est de permutatione
+          <lb ed="#P" n="35"/>quoad utrumque, et praesertim quoad 
+          execu<lb break="no" ed="#P" n="36"/>tionem, ut patet ex verbis illis: Et in 
+          mani<lb break="no" ed="#P" n="37"/>bus tais ipsa resignent , ileo in particulari 
+          ex<lb break="no" ed="#P" n="38"/>primuntur beneficia ad collationem Episcopi
+          <lb ed="#P" n="39"/>pertinentia. Ratio autem reddi potest, quia
+          <lb ed="#P" n="40"/>permutatio beneficiorum, licet in rigore sit
+          <lb ed="#P" n="41"/>distincta a translatione personarum, tamen
+          <lb ed="#P" n="42"/>regulariter non fit sine iila, saepe quoad loca,
+          <lb ed="#P" n="43"/>et fere semper quoad munera et officia : 
+          trans<lb break="no" ed="#P" n="44"/>latio autem personarum, quia multum 
+          inte<lb break="no" ed="#P" n="45"/>rest Ecclesiae, ad Episcopum spectat, ut 
+          su<lb break="no" ed="#P" n="46"/>mitur ex cap. Mutationes, 1, q. 1, et notatur
+          <lb ed="#P" n="47"/>ab allegatis Doctoribus, et ab Innocentio et
+          <lb ed="#P" n="48"/>aliis, in cap. JVisi cum pridem, de 
+          Renuncia<lb break="no" ed="#P" n="49"/>Uon. Et ratio est, quia ad Episcopum ex suo
+          <lb ed="#P" n="50"/>munere pertinet curam habere universalis 
+          bo<lb break="no" ed="#P" n="51"/>ni totius dioecesis. Merito ergo permutatio,
+          <lb ed="#P" n="52"/>quatenus translationem includit, ad Episcopi
+          <lb ed="#P" n="53"/>approbationem pertinet, quia interest 
+          Eccle<lb break="no" ed="#P" n="54"/>siae, et diaecesi, ut cum ejus utilitate, vel 
+          sal<lb break="no" ed="#P" n="55"/>tem sine dispendio et incommodo illius fiat.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Executio vero, ad quem spectat collatio, 
+          re<lb break="no" ed="#P" n="57"/>mittenda est, quia non debet cum illius 
+          prae<lb break="no" ed="#P" n="58"/>judicio permutatio fieri. Et hanc rationcm
+          <lb ed="#P" n="59"/>tetigit Zabarel., in d. Clem. unic., quaestione
+          <lb ed="#P" n="60"/>S; qui videri potest cum aliis, qui ibi 
+          allegan<lb break="no" ed="#P" n="61"/>tur.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>15. An aliquando fieri possit permutatio sine
+          <lb ed="#P" n="63"/>superioris interventu.— Ratio dubii.— Quarto,
+          <lb ed="#P" n="64"/>inquiri potest circa eamdem assertionem, an
+          <lb ed="#P" n="65"/>illa generalis regula patiatur aliquam 
+          exceptio<lb break="no" ed="#P" n="66"/>nem, ita ut aliquando possit licite fieri 
+          aliqua<lb break="no" ed="#P" n="67"/>rum praebendarum permutatio ex privatorum
+          <lb ed="#P" n="68"/>mutuo consensu, sine interventu superioris.
+          <lb ed="#P" n="69"/>Rao autem dubitandi est, quia Innocentius,
+          <lb ed="#P" n="70"/>in d.cap. Queesitum, docet regulam procedere
+          <lb ed="#P" n="71"/>primo, in praebendis, quae in diversis ecciesiis
+          <lb ed="#P" n="72"/>sunt; secundo intra eamdem ecclesiam in
+          <lb ed="#P" n="73"/>praebendis, quae diverso jure censentur, quia
+          <lb ed="#P" n="74"/>habent diversa onera vel munera. At vero si
+          <lb ed="#P" n="75"/>sint praebendae ejusdem ecclesiae, et ejusdem
+          <lb ed="#P" n="76"/>rationis, dicit posse sine simonia privatim
+          <lb ed="#P" n="77"/>permutari : Bene potest (iuquit) unus 
+          canoni<lb break="no" ed="#P" n="78"/>cus unam prebendaum cwumn alio permutare.
+          <lb ed="#P" n="79"/>Subjungit vero hanc limitationem : Dumamodo
+          <lb ed="#P" n="80"/>collatio prebendee non pertineat ad 
+          investitu<lb break="no" ed="#P" n="81"/>ram alicujus, quiatunc videtur, quod ejus debeat
+          <lb ed="#P" n="82"/>requiri consensus. Sequitur Glos. ibi, verb.
+          <lb ed="#P" n="83"/>Fpiscopus, et pro ratione allegat caput 
+          Sanc<lb break="no" ed="#P" n="84"/>torum, d. 10, quia ibi dicitur debere clericum
+          <lb ed="#P" n="85"/>perpetuo manere in ecclesa, ad cujus titulum
+          <lb ed="#P" n="86"/>ordinatus est, significans quando in 
+          permuta<lb break="no" ed="#P" n="87"/>tione non fit translatio a loco, vel a munere,
+          <lb ed="#P" n="88"/>tunc fieri posse privata auctoritate. 
+          Consen<lb break="no" ed="#P" n="89"/>tiunt in eamdem sententiam Cardin. et 
+          Im<lb break="no" ed="#P" n="90"/>mol., ibidem, sed ita exponunt, ut 
+          praebenda<lb break="no" ed="#P" n="91"/>rum possit fieri permutatio, non titulorum,
+          <lb ed="#P" n="92"/>nam praebendae per se spectatae temporales
+          <lb ed="#P" n="93"/>sunt, et ita in earum cambio non committitur
+          <lb ed="#P" n="94"/>simonia, nec ctiam fit alienatio earum, quia
+          <lb ed="#P" n="95"/>in eadem ecclesia manent.
+        </p>
+        <p>
+          <lb ed="#P" n="96"/>16. Resolvitur nullam dari emceptionem in
+          <lb ed="#P" n="97"/>regula posita. — Dicendum nihilominus est,
+          <lb ed="#P" n="98"/>nnllam esse exceptionem admittendam in 
+          re<lb break="no" ed="#P" n="99"/>gula posita. Ita docent Hostiens., Panormit.,
+          <lb ed="#P" n="100"/>et alii communiter, in d. c. Quesitum ; Zabar.,
+          <lb ed="#P" n="101"/>dicta Clem. unic., num. 8. Sequitur Angel.,
+          <lb ed="#P" n="102"/>verb. Permutatio, num. 4; Tabien., verb. 
+          Be<lb break="no" ed="#P" n="103"/>neficium, 3, num. 15. Et fundamentum est,
+          <lb ed="#P" n="104"/>quia prohibitio juris generalis est, et absque
+          <lb ed="#P" n="105"/>ulla exceptione : quomodo ergo possumus nos
+          <lb ed="#P" n="106"/>ilam admittere ? Maxime, quia nullo modo
+          <lb ed="#P" n="107"/>potest opinio Innocentii convenienter intelligi
+          <lb ed="#P" n="108"/>aut explicari. Quia, si sermo sit de beneficiis
+          <lb ed="#P" n="109"/>quoad titulum, manifestum est non posse 
+          un<lb break="no" ed="#P" n="110"/>quam fieri permutationem illorum, propria
+          <pb ed="#P" n="822"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>auctoritate permutantium, quia nullus potest
+          <lb ed="#P" n="2"/>seipsum suo titulo privare, nisi consentiente
+          <lb ed="#P" n="3"/>praelato renunciationi ejus, nec etiam potest
+          <lb ed="#P" n="4"/>novum beneficium alicui conferri sine praelati
+          <lb ed="#P" n="5"/>collatione, ut est notum in jure, tit. de 
+          Re<lb break="no" ed="#P" n="6"/>nunc., et de Instit., et de Regul. Juris, in 1.
+          <lb ed="#P" n="7"/>Et ita omnis hujusmodi permutatio non 
+          so<lb break="no" ed="#P" n="8"/>lum de jure, sed etiam de facto impossibilis
+          <lb ed="#P" n="9"/>est, stante natura, et modo institutionis 
+          bene<lb break="no" ed="#P" n="10"/>ficiorum ecclesiasticorum. Si autem aliquod
+          <lb ed="#P" n="11"/>pactum secrete fiat, et postea executio 
+          procu<lb break="no" ed="#P" n="12"/>retur, non declarato pacto, erit simonia 
+          con<lb break="no" ed="#P" n="13"/>tra jus positivum, ut declaratum est.
+        </p>
+        <p>
+          <lb ed="#P" n="14"/>17. Si vero sit sermo de praebendis, ut 
+          an<lb break="no" ed="#P" n="15"/>nexis suis titulis, impossibile etiam est inter
+          <lb ed="#P" n="16"/>illas fieri permutationem auctoritate privata,
+          <lb ed="#P" n="17"/>quia non possunt a titulis separari auctoritaie
+          <lb ed="#P" n="18"/>privatorum. Quod in hunc modum declaro,
+          <lb ed="#P" n="19"/>quia unus canonicus non habet jus ad fructus
+          <lb ed="#P" n="20"/>praebendae, nisi medio spirituali officio, ad
+          <lb ed="#P" n="21"/>quod tenetur ratione sui tituli; sed semper
+          <lb ed="#P" n="22"/>retinet eumdem titulum; ergo ad idem 
+          offi<lb break="no" ed="#P" n="23"/>cium tenetur; ergo ratione illius nunquam
+          <lb ed="#P" n="24"/>poterit consequi aliam praebendam, vel alios
+          <lb ed="#P" n="25"/>fructus nisi illos qui sunt annexi tali titulo,
+          <lb ed="#P" n="26"/>quia semper sunt illi annexi, et non alteri;
+          <lb ed="#P" n="27"/>ergo impossibilis est etiam de facto talis 
+          per<lb break="no" ed="#P" n="28"/>mutatio praebendarum. Accedit, quod etiam
+          <lb ed="#P" n="29"/>permutatio bonorum annexorum, propria 
+          auc<lb break="no" ed="#P" n="30"/>toritate facta, est in jure prohibita, et ideo de
+          <lb ed="#P" n="31"/>illis etiam, ut talia sunt, privata facere pacta,
+          <lb ed="#P" n="32"/>esset simoniacum. Tertio vero modo posset
+          <lb ed="#P" n="33"/>intelligi duos canonicos commutare inter se
+          <lb ed="#P" n="34"/>fructus praesentes, vel futuros, praebendarum
+          <lb ed="#P" n="35"/>suarum; vel, si habeant certas possessiones
+          <lb ed="#P" n="36"/>suis praebendis annexas, posse illas 
+          commu<lb break="no" ed="#P" n="37"/>tare inter se, quoad usus tantum, vel 
+          usum<lb break="no" ed="#P" n="38"/>fructum personalem et temporalem, qui ad
+          <lb ed="#P" n="39"/>eos pertinere potest. Et hoc sine dubio fieri
+          <lb ed="#P" n="40"/>potest licite, quia in eo contractu, non 
+          prae<lb break="no" ed="#P" n="41"/>benda, sed fructus praebendae commutantur,
+          <lb ed="#P" n="42"/>qui etiam vendi possent, vel locari, quia ut
+          <lb ed="#P" n="43"/>sic mere temporales sunt. Tamen si hoc 
+          tan<lb break="no" ed="#P" n="44"/>tum voluissent Innocentius aut Cardinal., non
+          <lb ed="#P" n="45"/>oporteret distinguere de praebendis ejusdem vel
+          <lb ed="#P" n="46"/>diversae rationis, imo nec in eadem vel 
+          diver<lb break="no" ed="#P" n="47"/>sis ecclesiis, quia fructus sicut pro arbitrio
+          <lb ed="#P" n="48"/>dominorum possunt vendi, vel dispensari, ita
+          <lb ed="#P" n="49"/>et permutari, sive diverso, sive simili titulo
+          <lb ed="#P" n="50"/>comparentur, et sive in eadem ecclesia, sive
+          <lb ed="#P" n="51"/>in diversis. Haec autem non est limitatio 
+          ne<lb break="no" ed="#P" n="52"/>que exceptio a generali prohibitione, ut 
+          con<lb break="no" ed="#P" n="53"/>stat, et ideo nullam hic adhibere necesse est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

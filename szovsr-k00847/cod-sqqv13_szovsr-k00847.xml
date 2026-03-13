@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="35"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k00847"><!-- t1-l3c1 -->
+        <head>Caput 1</head>
+        <head type="question-title">An religio sit habitus proprius naturae creatae intellectualis.</head>
+        <p>
+          <cb ed="#P" n="h"/>
+          <lb ed="#P" n="56"/>CAPUT I.
+          <lb ed="#P" n="57"/>AN RELIGIO SIT HABITUS PROPRIUS NATURAE
+          <lb ed="#P" n="58"/>CREATAE INTELLECTUALIS.
+        </p>
+        <p>
+          <lb ed="#P" n="59"/>1. Prima, assertio, dari in nobis habitum
+          <lb ed="#P" n="60"/>religionis. — Primo, certum est dari in nobis
+          <lb ed="#P" n="61"/>habitum religionis, objecto et actibus supra
+          <pb ed="#P" n="36"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>declaratis correspondentem. Hoc pro certo
+          <lb ed="#P" n="2"/>supponunt D. Thomas, et omnes qui de hac
+          <lb ed="#P" n="3"/>materia disputant. Potestque experimento
+          <lb ed="#P" n="4"/>constare aliquo modo, nam hujusmodi 
+          acti<lb break="no" ed="#P" n="5"/>bus fit homo promptior et facilior ad similes
+          <lb ed="#P" n="6"/>actus efficiendos. Ratio enim generalis, ob
+          <lb ed="#P" n="7"/>quam in nobis generantur habitus, maxime
+          <lb ed="#P" n="8"/>locum habet hic, quia praedicti actus difficiles
+          <lb ed="#P" n="9"/>sunt, et ex multis capitibus repugnantes 
+          ali<lb break="no" ed="#P" n="10"/>quo modo inclinationi naturali. Quae rationes
+          <lb ed="#P" n="11"/>probant masime de habitu acquisito, qui 
+          ac<lb break="no" ed="#P" n="12"/>tibus naturalibus proportionatus est. Tamen,
+          <lb ed="#P" n="13"/>supponendo ex supra dictis, dari etiam actus
+          <lb ed="#P" n="14"/>religionis supernaturales, ad quorum 
+          singu<lb break="no" ed="#P" n="15"/>los gratia est necessaria, evidentius est dari
+          <lb ed="#P" n="16"/>etiam habitum religionis per se infusum, et
+          <lb ed="#P" n="17"/>supernaturalem, quia talis habitus non est
+          <lb ed="#P" n="18"/>necessarius propter solam facilitatem talium
+          <lb ed="#P" n="19"/>actuum, sed etiam propter substantiam 
+          eo<lb break="no" ed="#P" n="20"/>rum, scilicet ut sit principium intrinsecum ad
+          <lb ed="#P" n="21"/>eliciendos tales actus connaturali modo; haec
+          <lb ed="#P" n="22"/>enim est causa ob quam in aliis materiis 
+          hu<lb break="no" ed="#P" n="23"/>jusmodi habitus inveniuntur. Datur ergo 
+          du<lb break="no" ed="#P" n="24"/>plex habitus religionis : unus acquisitus, et
+          <lb ed="#P" n="25"/>alter infusus, respectu diversorum actuum. Ne
+          <lb ed="#P" n="26"/>tamen oporteat semper de illis sigillatim 
+          di<lb break="no" ed="#P" n="27"/>cere, theologico more loquemur semper de
+          <lb ed="#P" n="28"/>infusa religione, et cum proportione 
+          appli<lb break="no" ed="#P" n="29"/>canda erunt omnia ad religionem 
+          acquisi<lb break="no" ed="#P" n="30"/>tam ; quod si in aliquo fuerit diversitas, id
+          <lb ed="#P" n="31"/>adnotabimus.
+        </p>
+        <p>
+          <lb ed="#P" n="32"/>2. Secunda assertio : hic religionis habitus
+          <lb ed="#P" n="33"/>essentialiter est virtus. — Secundo, dicendum
+          <lb ed="#P" n="34"/>est hunc habitum religionis essentialiter esse
+          <lb ed="#P" n="35"/>virtutem. Assertio certa est, quam recte 
+          pro<lb break="no" ed="#P" n="36"/>bat D. Thomas, dicta quaest. 81, artic. 2, quia
+          <lb ed="#P" n="37"/>actus religionis sunt boni et honesti; ergo et
+          <lb ed="#P" n="38"/>habitus qui ab eis generatur, vel est 
+          prin<lb break="no" ed="#P" n="39"/>cipium per se illorum, est habitus per se
+          <lb ed="#P" n="40"/>honestus , quod est esse habitum virtuts.
+          <lb ed="#P" n="41"/>Praeterea D. Thomas, art. 2, eamdem 
+          verita<lb break="no" ed="#P" n="42"/>tem demonstrat ex hoc principio, quod ad
+          <lb ed="#P" n="43"/>omnem actum per se honestum et bonum 
+          ne<lb break="no" ed="#P" n="44"/>cessaria est aliqua virtus; sed actus colendi
+          <lb ed="#P" n="45"/>Deum est per se honestus et bonus; ergo ad
+          <lb ed="#P" n="46"/>illum est necessaria virtus; illam autem 
+          re<lb break="no" ed="#P" n="47"/>ligionem appellamus, nam illius officium est
+          <lb ed="#P" n="48"/>reddere Deo honorem debitum. Atque ita
+          <lb ed="#P" n="49"/>minor est satis nota ex dictis. Majorem 
+          au<lb break="no" ed="#P" n="50"/>tem probat D. Thomas, ex definitione 
+          virtu<lb break="no" ed="#P" n="51"/>tis, scilicet, esse illam quae bonum facit 
+          ha<lb break="no" ed="#P" n="52"/>bentem, et opus ejus bonum reddit. Circa
+          <lb ed="#P" n="53"/>quam probationem dubitat Cajetanus, quia
+          <lb ed="#P" n="54"/>videtur supponere quod omnis actus per se
+          <lb ed="#P" n="55"/>bonus est ab aliquo habitu, ut significat di-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vus Thomas dicens : Omnis actus bonus ad
+          <lb ed="#P" n="57"/>virtutem pertinet ; et tamen hoc fallit in 
+          acti<lb break="no" ed="#P" n="58"/>bus qui antecedunt habitum. Sed inspectis
+          <lb ed="#P" n="59"/>D. Thomae verbis, non habet locum 
+          dubita<lb break="no" ed="#P" n="60"/>tio, quia non dicit D. Thomas omnem actum
+          <lb ed="#P" n="61"/>bonum fieri ab habitu virtutis , sed pertinere
+          <lb ed="#P" n="62"/>ad cirtutem, id est, postulare habitum, ut 
+          be<lb break="no" ed="#P" n="63"/>ne et convenienter fiat; majus dubium 
+          ha<lb break="no" ed="#P" n="64"/>bere posset, an de omni actu voluntatis 
+          ho<lb break="no" ed="#P" n="65"/>nesto illa propositio vera sit absque 
+          exceptio<lb break="no" ed="#P" n="66"/>ne. Sed nunc non est necessarium id 
+          exami<lb break="no" ed="#P" n="67"/>nare, quia de his actibus divini cultus, satis
+          <lb ed="#P" n="68"/>notum est indigere habitu, ut in praecedenti
+          <lb ed="#P" n="69"/>assertione ostensum est. Atque ideo, licet
+          <lb ed="#P" n="70"/>principium illud haberet aliquam 
+          exceptio<lb break="no" ed="#P" n="71"/>nem (in quo nunc non immoror), illa non
+          <lb ed="#P" n="72"/>haberet locum in praesenti, quia constat hos
+          <lb ed="#P" n="73"/>actus habere specialem ac propriam 
+          honesta<lb break="no" ed="#P" n="74"/>tem, esseque satis difficiles, licet fortasse
+          <lb ed="#P" n="75"/>probabilius etiam sit, principium illud sine
+          <lb ed="#P" n="76"/>exceptione verum esse, de quo alias.
+        </p>
+        <p>
+          <lb ed="#P" n="77"/>3. Tertia assertio. —Tertio, dicendum est
+          <lb ed="#P" n="78"/>virtutem religionis esse propriam naturae
+          <lb ed="#P" n="79"/>creatae intellectualis, ut rationalis. In qua
+          <lb ed="#P" n="80"/>assertione non solum loquor de religione,
+          <lb ed="#P" n="81"/>prout est habitus vel qualitas, sic enim nulla
+          <lb ed="#P" n="82"/>virtus esse potest, nisi in natura creata, quia
+          <lb ed="#P" n="83"/>increata non est capax accidentium. Loquor
+          <lb ed="#P" n="84"/>ergo de religione formaliter quoad 
+          perfectio<lb break="no" ed="#P" n="85"/>nem et honestatem ejus, sicut loquendo de
+          <lb ed="#P" n="86"/>justitia et misericordia, dicimus esse in Deo
+          <lb ed="#P" n="87"/>formaliter et secundum se, licet non quoad
+          <lb ed="#P" n="88"/>qualitates, vel alias materiales conditiones.
+          <lb ed="#P" n="89"/>In hoc ergo constituimus differentiam inter
+          <lb ed="#P" n="90"/>religionem et illas virtutes, vel alias similes,
+          <lb ed="#P" n="91"/>quod religio non habet conceptum 
+          commu<lb break="no" ed="#P" n="92"/>nem naturae creatae et increatae, sicut 
+          sapien<lb break="no" ed="#P" n="93"/>tia, justitia, sed definitum ex se ad naturam
+          <lb ed="#P" n="94"/>creatam ; et hoc modo dicimus esse 
+          pro<lb break="no" ed="#P" n="95"/>priam perfectionem illius. Unde fit ut ex 
+          pro<lb break="no" ed="#P" n="96"/>prio conceptu, seu ratione formali, non dicat
+          <lb ed="#P" n="97"/>perfectionem simpliciter simplicem, sicut 
+          di<lb break="no" ed="#P" n="98"/>ctae virtutes. Ratio est, quia intrinsece respicit
+          <lb ed="#P" n="99"/>superiorem ; habere autem superiorem, 
+          im<lb break="no" ed="#P" n="100"/>perfectionem involvit, propriumque naturae
+          <lb ed="#P" n="101"/>creatae est : sicut ergo natura divina 
+          supe<lb break="no" ed="#P" n="102"/>riorem non habet, ita nec capax est 
+          religio<lb break="no" ed="#P" n="103"/>nis. Et declaratur, quia religio est ad 
+          alte<lb break="no" ed="#P" n="104"/>rum; nemo enim colit seipsum, sed alium; at
+          <lb ed="#P" n="105"/>Deus non habet alterum Deum quem colat,
+          <lb ed="#P" n="106"/>neque aliquem infra se colere potest, sed
+          <lb ed="#P" n="107"/>amare, benefacere, aut misereri, quia omnia
+          <lb ed="#P" n="108"/>respicit ut sibi inferiora et indigentia.
+        </p>
+        <p>
+          <lb ed="#P" n="109"/>4. Objectio prima. — Solvitur , et 
+          ostendi<lb break="no" ed="#P" n="110"/>tur unam personam divinam alium non posse
+          <pb ed="#P" n="37"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>colere. — Secunda objectio. — Solutio ejvsdem.
+          <lb ed="#P" n="2"/>— Dices saltem posse unam personam 
+          divi<lb break="no" ed="#P" n="3"/>nam colere aliam , quatenus habet 
+          excellen<lb break="no" ed="#P" n="4"/>tiam relativam distinctam. Respondeo non
+          <lb ed="#P" n="5"/>posse, tum quia omnes personae sunt unum
+          <lb ed="#P" n="6"/>in voluntate ; tum etiam quia sunt unum in
+          <lb ed="#P" n="7"/>illa excellentia, secundum quam sunt dignae
+          <lb ed="#P" n="8"/>cultu et veneratione religiosa. Nam perfectio
+          <lb ed="#P" n="9"/>relativa tantum ad hoc sufficit, in quantum
+          <lb ed="#P" n="10"/>essentialem perfectionem in re includit; et
+          <lb ed="#P" n="11"/>ideo Trnitas unica tantum adoratione 
+          sim<lb break="no" ed="#P" n="12"/>pliciter adoratur. Dices rursus : Deus vult
+          <lb ed="#P" n="13"/>gloriam suam formaliter, quatenus gloria est,
+          <lb ed="#P" n="14"/>juxta illud : Gloriam meam alteri non dabo;
+          <lb ed="#P" n="15"/>ergo vult ut alii ipsum glorificent et 
+          hono<lb break="no" ed="#P" n="16"/>rent; ergo formaliter vult cultum sub ratione
+          <lb ed="#P" n="17"/>cultus : sed in hoc consistit propria et 
+          forma<lb break="no" ed="#P" n="18"/>lis perfectio religionis ; ergo. Respondeo aliud
+          <lb ed="#P" n="19"/>esse velle sibi deferri cultum, aiiud velle 
+          de<lb break="no" ed="#P" n="20"/>ferre cultum alteri : hoc posterius pertinet ad
+          <lb ed="#P" n="21"/>observantiam et religionem, non vero illud
+          <lb ed="#P" n="22"/>prius, quia revera non est motus ad 
+          alte<lb break="no" ed="#P" n="23"/>rum, sed ad se: unde magis spectat vel ad
+          <lb ed="#P" n="24"/>amorem sui, seu proprii commodi aut quasi
+          <lb ed="#P" n="25"/>commodi, vei ad summum pertinet ab 
+          sim<lb break="no" ed="#P" n="26"/>plicem affectum boni honesti, quod ad 
+          uno<lb break="no" ed="#P" n="27"/>quoque amari vel desiderari potest in alterius
+          <lb ed="#P" n="28"/>voluntate.
+        </p>
+        <p>
+          <lb ed="#P" n="29"/>5. Tertia assertio magis explicatur. — 
+          Ad<lb break="no" ed="#P" n="30"/>didi vero in assertione, talem naturam 
+          debe<lb break="no" ed="#P" n="31"/>re esse intellectualem vel rationalem, non 
+          so<lb break="no" ed="#P" n="32"/>lum propter generalem rationem virtutis 
+          mo<lb break="no" ed="#P" n="33"/>ralis, ad quam est necessarius usus rationis
+          <lb ed="#P" n="34"/>propter libertatem, quam postulat virtus 
+          mo<lb break="no" ed="#P" n="35"/>ralis, et propter cognitionem boni honesti, in
+          <lb ed="#P" n="36"/>quod tendit virtus ; sed etiam propter 
+          spe<lb break="no" ed="#P" n="37"/>cialem rationem hujus virtutis , quae habet
+          <lb ed="#P" n="38"/>pro immediato et proximo subjecto 
+          volunta<lb break="no" ed="#P" n="39"/>tem; tum quia proprius actus ejus est in 
+          vo<lb break="no" ed="#P" n="40"/>luntate, ut supra ostendi; tum etiam quia
+          <lb ed="#P" n="41"/>non versatur immediate circa passiones, sed
+          <lb ed="#P" n="42"/>circa operationes, et ad alterum tendit. De
+          <lb ed="#P" n="43"/>his autem virtutibus, quae sunt ad alterum,
+          <lb ed="#P" n="44"/>extra controversiam est, quod sint in 
+          volun<lb break="no" ed="#P" n="45"/>tate ( quidquid sit de aliis virtutibus); ergo
+          <lb ed="#P" n="46"/>religio dicit ex intrinseca ratione 
+          habitudi<lb break="no" ed="#P" n="47"/>nem ad voluntatem creatam, quae non est
+          <lb ed="#P" n="48"/>nisi in natura intellectuali, et ideo dicitur 
+          es<lb break="no" ed="#P" n="49"/>se propria illius.
+        </p>
+        <p>
+          <lb ed="#P" n="50"/>6. Addo etiam dici propriam talis naturae,
+          <lb ed="#P" n="51"/>quia habet quamdam adaequationem cum 
+          il<lb break="no" ed="#P" n="52"/>la. Nam, licet religio, ut est habitus quidam,
+          <lb ed="#P" n="53"/>non insit omni voluntati creatae, nihilominus
+          <lb ed="#P" n="54"/>semina hujus virtutis cuicumque intellectuali
+          <lb ed="#P" n="55"/>naturae indita sunt, omnisque voluntas creata
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>respicit Deum ut superiorem, estque sub 
+          il<lb break="no" ed="#P" n="57"/>lius dominio, et ideo capax est religionis, et
+          <lb ed="#P" n="58"/>illam postulat ut magnam perfectionem suam,
+          <lb ed="#P" n="59"/>quia perfectio voluntatis creatae consistit in
+          <lb ed="#P" n="60"/>debita conjunctione et subjectione ad Deum.
+          <lb ed="#P" n="61"/>Quod adeo verum est, ut in humana Christi
+          <lb ed="#P" n="62"/>voluntate, quantumvis deificata , virtus haec
+          <lb ed="#P" n="63"/>locum habuerit, et necessaria fuerit, quia
+          <lb ed="#P" n="64"/>semper mansit inferior et subjecta, et ideo
+          <lb ed="#P" n="65"/>attente non dixi hanc virtutem esse propriam
+          <lb ed="#P" n="66"/>personae creatae, sed naturae, quia potest 
+          es<lb break="no" ed="#P" n="67"/>se in persona increata secundum creatam 
+          na<lb break="no" ed="#P" n="68"/>turam. Unde a fortiori esse petest in omni
+          <lb ed="#P" n="69"/>persona creata. Ideoque in omnibus 
+          volunta<lb break="no" ed="#P" n="70"/>tibus Beatorum haec virtus invenitur , quia
+          <lb ed="#P" n="71"/>maxime sunt subjectae Deo, et ipsum 
+          ado<lb break="no" ed="#P" n="72"/>rant. Nec refert quod habeant necessariam
+          <lb ed="#P" n="73"/>rectitudinem ex perfecta conjunctione ad 
+          ip<lb break="no" ed="#P" n="74"/>sum Deum, quia ad hanc ipsam rectitudinem
+          <lb ed="#P" n="75"/>cooperatur reliegio in eis existens.
+        </p>
+        <p>
+          <lb ed="#P" n="76"/>7. Sitne religio in damnatis. — De 
+          inferio<lb break="no" ed="#P" n="77"/>ribus autem voluntatibus, seu existentibus in
+          <lb ed="#P" n="78"/>inferiori statu, constat voluntates 
+          damnato<lb break="no" ed="#P" n="79"/>rum esse incapaces hujus virtutis, non 
+          se<lb break="no" ed="#P" n="80"/>cundum se, sed ratione status. Quod quidem
+          <lb ed="#P" n="81"/>generale quodammodo est omni virtuti, 
+          pro<lb break="no" ed="#P" n="82"/>pter obstinationem damnatorum in malo;
+          <lb ed="#P" n="83"/>speciali tamen ratione in hac verum est, 
+          pro<lb break="no" ed="#P" n="84"/>pter maximum odium Dei, quo semper 
+          te<lb break="no" ed="#P" n="85"/>nentur; ex quo fit ut illum blasphement et
+          <lb ed="#P" n="86"/>contemnant, quantum possunt. Quod si 
+          co<lb break="no" ed="#P" n="87"/>guntur illi genua flectere, juxta illud ad 
+          Phi<lb break="no" ed="#P" n="88"/>lippenses secundo: Ommne genuflectatur, 
+          ca<lb break="no" ed="#P" n="89"/>lestium, terrestrium et infernorum , ut multi
+          <lb ed="#P" n="90"/>exponunt, tamen illud ipsum non faciunt ex
+          <lb ed="#P" n="91"/>virtute, sed ex necessitate, quia, velint 
+          no<lb break="no" ed="#P" n="92"/>lint, coguntur recognoscere Christum ut
+          <lb ed="#P" n="93"/>Deum et Dominum, quamvis illi reverentiae
+          <lb ed="#P" n="94"/>signa non exhibeant, nisi vel ex prava 
+          inten<lb break="no" ed="#P" n="95"/>tione, vel necessitate coacti a Deo per 
+          Sanc<lb break="no" ed="#P" n="96"/>torum Angelorum ministerium, de quo alias.
+          <lb ed="#P" n="97"/>At vero viatores ex se capaces sunt hujus
+          <lb ed="#P" n="98"/>virtutis ; ex defectu autem cognitionis 
+          divi<lb break="no" ed="#P" n="99"/>nae aut rectitudinis voluntatis, possunt illa
+          <lb ed="#P" n="100"/>privari.
+        </p>
+        <p>
+          <lb ed="#P" n="101"/>8. Specialiter autem dubitari posset de hac
+          <lb ed="#P" n="102"/>virtute quatenus infusa est, an locum habeat
+          <lb ed="#P" n="103"/>in homine peccatore habente fidem et spem.
+          <lb ed="#P" n="104"/>Et ratio dubitandi esse potest, quia talis 
+          ho<lb break="no" ed="#P" n="105"/>mo potest habere actus proprios, et perfectos
+          <lb ed="#P" n="106"/>hujus virtutis, et maxime potest orare Deum,
+          <lb ed="#P" n="107"/>ut supernaturalem finem et auctorem, cum
+          <lb ed="#P" n="108"/>debita fiducia et aliis requisitis ad 
+          impetratio<lb break="no" ed="#P" n="109"/>nem. Imo hoc est unum ex potissimis mediis,
+          <lb ed="#P" n="110"/>quae talis homo habet ad recuperandam gra-
+          <pb ed="#P" n="38"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tiam ; sed oratio supernaturalis est actus 
+          re<lb break="no" ed="#P" n="2"/>ligionis infusae; ergo etiam virtus ipsa habet
+          <lb ed="#P" n="3"/>locum in peccatore. In contrarium vero est,
+          <lb ed="#P" n="4"/>quia nulla alia virtus moralis censetur esse
+          <lb ed="#P" n="5"/>in peccatore, nec recuperari, nisi recuperata
+          <lb ed="#P" n="6"/>gratia. Piopter quod haec dubitatio videri 
+          po<lb break="no" ed="#P" n="7"/>test generalis omnibus virtutibus moralibus,
+          <lb ed="#P" n="8"/>ut revera est ; habet tamen hic specialem 
+          ra<lb break="no" ed="#P" n="9"/>tionem dubitandi, quam proposui.
+        </p>
+        <p>
+          <lb ed="#P" n="10"/>9. Sine gratia habituali potest quis 
+          ha<lb break="no" ed="#P" n="11"/>bere actus religionis supernaturalis. — 
+          Vide<lb break="no" ed="#P" n="12"/>tur autem mihi ratio illa convincere, posse
+          <lb ed="#P" n="13"/>peccatorem habere veros actus 
+          supernatura<lb break="no" ed="#P" n="14"/>les pertinentes ad virtutem infusam 
+          religio<lb break="no" ed="#P" n="15"/>nis, ut de oratione esplicui, et idem censeo
+          <lb ed="#P" n="16"/>de sacrificio, non solum ut exterius fit, quod
+          <lb ed="#P" n="17"/>per se est clarum , sed etiam ut procedit ex
+          <lb ed="#P" n="18"/>vera existimatione, et interiori affectu 
+          colen<lb break="no" ed="#P" n="19"/>di Deum, ut fide propositum. Nam veram et
+          <lb ed="#P" n="20"/>supernaturalem existimationem de Deo et de
+          <lb ed="#P" n="21"/>cultu illi debito, praebet fides, quae in 
+          pecca<lb break="no" ed="#P" n="22"/>tore manet, qua supposita, voluntas cum 
+          au<lb break="no" ed="#P" n="23"/>xilio Dei, quod de se paratum est, pro 
+          liber<lb break="no" ed="#P" n="24"/>tate sua potest velle exhibere Deo illum 
+          cul<lb break="no" ed="#P" n="25"/>tum, quamvis non exhibeat perfectum 
+          amo<lb break="no" ed="#P" n="26"/>rem. Quia isti duo actus non sunt ita inter se
+          <lb ed="#P" n="27"/>connexi, ut honor necessario supponat 
+          amo<lb break="no" ed="#P" n="28"/>rem, praesertim perfectum appretiative et 
+          su<lb break="no" ed="#P" n="29"/>per omnia ; et ideo ex parte Dei etiam non
+          <lb ed="#P" n="30"/>negatur auxilium sufliciens ad efficiendum
+          <lb ed="#P" n="31"/>priorem actum, etiamsi alius non fiat. Nam
+          <lb ed="#P" n="32"/>peccator ponit in Deo suam totam fiduciam et
+          <lb ed="#P" n="33"/>spem, etiamsi nondum in eo collocet totum
+          <lb ed="#P" n="34"/>amorem suum. Ergo simili proportione 
+          po<lb break="no" ed="#P" n="35"/>test ad illum orare, vel sacrificium offerre ex
+          <lb ed="#P" n="36"/>affectu supremi cultus. Itaque quod ad 
+          ac<lb break="no" ed="#P" n="37"/>tum attinet, mihi non est dubium quin habere
+          <lb ed="#P" n="38"/>possit locum in voluntate peccatoris.
+        </p>
+        <p>
+          <lb ed="#P" n="39"/>10. Habitus supernaturalis religionis sine
+          <lb ed="#P" n="40"/>gratia in homine de lege esse non potest.—Dbe
+          <lb ed="#P" n="41"/>habitu vero non est ita necessarium: nam, 
+          li<lb break="no" ed="#P" n="42"/>cet indirecte inferatur nullam esse 
+          repugnan<lb break="no" ed="#P" n="43"/>tiam, quod talis habitus sit in tali voluntate,
+          <lb ed="#P" n="44"/>nihilominus de facto verisimile est sequi hanc
+          <lb ed="#P" n="45"/>virtutem legem communem alis virtutibus
+          <lb ed="#P" n="46"/>moralibus infusis, nimirum, ut charitatem 
+          co<lb break="no" ed="#P" n="47"/>mitetur, et ab illa non separetur. Fidelis ergo
+          <lb ed="#P" n="48"/>cum primum mortaliter peccat , religionem
+          <lb ed="#P" n="49"/>infusam cum gratia amittit ; postea vero,
+          <lb ed="#P" n="50"/>quamvis actus religionis supernaturalis , et
+          <lb ed="#P" n="51"/>ex auxilio gratiae efficiat, non statim 
+          virtu<lb break="no" ed="#P" n="52"/>tem ipsam infusam recuperat, donec 
+          suffi<lb break="no" ed="#P" n="53"/>cientem de peccato poenitentiam agat, quia
+          <lb ed="#P" n="54"/>neque illam meretur de condigno, cum non
+          <lb ed="#P" n="55"/>sit in statu gratiae, neque ad illam sufficienter
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>se disponit. Quia haec virtus non est talis ut
+          <lb ed="#P" n="57"/>per se conferatur, sed ut proprietas 
+          conse<lb break="no" ed="#P" n="58"/>quens ad formam gratiae ; et ideo sola illa est
+          <lb ed="#P" n="59"/>dispositio sufficiens ad talem virtutem 
+          recu<lb break="no" ed="#P" n="60"/>perandam, quae sufficit ad iterum 
+          obtinen<lb break="no" ed="#P" n="61"/>dam gratiam. Actus ergo illi pro eo statu
+          <lb ed="#P" n="62"/>non fiunt connaturali modo, sed sunt ab
+          <lb ed="#P" n="63"/>auxilio speciali Dei operantis, nondum vero
+          <lb ed="#P" n="64"/>inhabitantis per sanctificantem gratiam.
+        </p>
+        <p>
+          <lb ed="#P" n="65"/>11. Qualis religionis habitus in appetitu
+          <lb ed="#P" n="66"/>sensitivo esse possit. — Tandem quaeri hic
+          <lb ed="#P" n="67"/>potest, an haec virtus possit esse solum in
+          <lb ed="#P" n="68"/>rationali natura secundum mentem, seu 
+          vo<lb break="no" ed="#P" n="69"/>luntatem spiritualem, vel etiam secundum
+          <lb ed="#P" n="70"/>appetitum sensitivum. Nam rationes 
+          supe<lb break="no" ed="#P" n="71"/>rius factae videntur probare, nullo modo 
+          pos<lb break="no" ed="#P" n="72"/>se esse in tali appetitu; tum quia justitia
+          <lb ed="#P" n="73"/>et virtus ad alterum non est in illo; tum
+          <lb ed="#P" n="74"/>etiam quia excellentia objecti hujus 
+          virtu<lb break="no" ed="#P" n="75"/>tis videtur transcendere illum inferiorem
+          <lb ed="#P" n="76"/>appetitum. In contrarium autem est, quia
+          <lb ed="#P" n="77"/>hic appetitus potest aliquo modo tendere
+          <lb ed="#P" n="78"/>in Deum, ut supra dixi. Unde etiam disi,
+          <lb ed="#P" n="79"/>posse hunc appetitum habere aliquos actus,
+          <lb ed="#P" n="80"/>quibus ad divinum cultum suo modo 
+          coope<lb break="no" ed="#P" n="81"/>ratur, in quibus actibus ditficultatem aliquam
+          <lb ed="#P" n="82"/>patitur, ut experimento constat. Est ergo 
+          ca<lb break="no" ed="#P" n="83"/>pax habituum quibus ad hujusmodi actus
+          <lb ed="#P" n="84"/>promptior fiat, prout ipso usu et experientia
+          <lb ed="#P" n="85"/>cognoscitur. Talis ergo habitus ad hanc 
+          vir<lb break="no" ed="#P" n="86"/>tutem pertinet, illique inservit, ut voluntas 
+          fa<lb break="no" ed="#P" n="87"/>cilius et suavius in operibus hujus virtutis se
+          <lb ed="#P" n="88"/>exerceat, dum appetitus ipse prompte in hoc
+          <lb ed="#P" n="89"/>officio illi cooperatur. Denique in simili 
+          cau<lb break="no" ed="#P" n="90"/>sa, et ob rationes similes, diximus, tractando
+          <lb ed="#P" n="91"/>de poenitentia, dariin appetitu sensitivo 
+          habi<lb break="no" ed="#P" n="92"/>tum aliquem poenitentiae, seu deservientem
+          <lb ed="#P" n="93"/>virtuti poenitentiae ; ergo cum proportione est
+          <lb ed="#P" n="94"/>hic dicendum. Quod sane concedimus, 
+          quan<lb break="no" ed="#P" n="95"/>quam, ut ibi etiam dixi, talis habitus non 
+          me<lb break="no" ed="#P" n="96"/>reatur nomen virtutis per se spectatus, sed
+          <lb ed="#P" n="97"/>ad summum ut conjunctus virtuti voluntatis,
+          <lb ed="#P" n="98"/>et ab illa quasi informatus moraliter. Et ideo
+          <lb ed="#P" n="99"/>nullam rationem illius habitus in praesenti
+          <lb ed="#P" n="100"/>habemus, sed solius virtutis, quae in rationali
+          <lb ed="#P" n="101"/>et creato appetitu existit.
+        </p>
+        <p>
+          <lb ed="#P" n="102"/>12. Corollarium primum de causis virtutis
+          <lb ed="#P" n="103"/>religionis. —Ex dictis obiter intelligi potest
+          <lb ed="#P" n="104"/>quas causas habeat haec virtus; et ideo non
+          <lb ed="#P" n="105"/>oportet de hac re specialem disputationem
+          <lb ed="#P" n="106"/>instituere. Prima enim causa , quae est 
+          fina<lb break="no" ed="#P" n="107"/>lis, jam declarata est; coincidit enim cum
+          <lb ed="#P" n="108"/>objecto hujus virtutis, si sit sermo de fine
+          <lb ed="#P" n="109"/>per se et intrinseco ; nam finis extrinsecus,
+          <lb ed="#P" n="110"/>quem adhibere potest operans, per accidens
+          <pb ed="#P" n="39"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est, et variari potest, nec cadit sub scientiam.
+          <lb ed="#P" n="2"/>Causa efficiens propria et physica in 
+          acquisi<lb break="no" ed="#P" n="3"/>to babitu sunt actus, in infuso Deus, 
+          suppo<lb break="no" ed="#P" n="4"/>sita dispositione subjecti, quae fit etiam per
+          <lb ed="#P" n="5"/>actus proportionatos. Moralis autem causa
+          <lb ed="#P" n="6"/>per meritum vel impetrationem, et 
+          instru<lb break="no" ed="#P" n="7"/>mentalis per sacramenta, ita possunt 
+          inter<lb break="no" ed="#P" n="8"/>venire in hac virtute, sicut in aliis, neque in
+          <lb ed="#P" n="9"/>boc habet aliquid speciale haec virtus. Causa
+          <lb ed="#P" n="10"/>formalis physica et propria hic nulla est,
+          <lb ed="#P" n="11"/>quia ipsa religio est quaedam forma; 
+          meta<lb break="no" ed="#P" n="12"/>physica vero, est differentia specifica ejus,
+          <lb ed="#P" n="13"/>quam mox inquiremus. Objectum vero, quod
+          <lb ed="#P" n="14"/>solet repntari quasi forma virtutis, quatenus
+          <lb ed="#P" n="15"/>specificat illam, jam explicatum est. Denique
+          <lb ed="#P" n="16"/>materialis causa virtutis non est nisi 
+          subje<lb break="no" ed="#P" n="17"/>ctum ejus, quod in hoc ipso capite a nobis
+          <lb ed="#P" n="18"/>declaratum est, tam quoad subjectum 
+          proxi<lb break="no" ed="#P" n="19"/>mum, quod est voluntas, quam quoad 
+          remo<lb break="no" ed="#P" n="20"/>tum, quod est natura, vel persona. Alia item
+          <lb ed="#P" n="21"/>materia, quae in virtutibus intervenit, et 
+          vo<lb break="no" ed="#P" n="22"/>catur circa quam, cum materiali objecto 
+          coin<lb break="no" ed="#P" n="23"/>cidit, quod etiam declaratum est ; nihil ergo
+          <lb ed="#P" n="24"/>de his causis dicendum superest.
+        </p>
+        <p>
+          <lb ed="#P" n="25"/>13. Corollarium secundum de effectibus 
+          vir<lb break="no" ed="#P" n="26"/>tutis religionis. —Omnes item effectus , qui
+          <lb ed="#P" n="27"/>in hac virtute considerari possunt, ex dictis
+          <lb ed="#P" n="28"/>colligi et facillime intelligi possunt, si tales
+          <lb ed="#P" n="29"/>sint, ut generaliter ad ipsam virtutem 
+          perti<lb break="no" ed="#P" n="30"/>neant ; ad duo enim capita revocantur. Nam
+          <lb ed="#P" n="31"/>hic effectus potest esse vel formalis, vel in
+          <lb ed="#P" n="32"/>genere causae efficientis, quia causaljtas 
+          ma<lb break="no" ed="#P" n="33"/>terialis hic locum non habet, ut per se 
+          con<lb break="no" ed="#P" n="34"/>stat. Finalis vero inveniri potest ; multa enim
+          <lb ed="#P" n="35"/>ab homine fieri possunt propter hanc 
+          virtu<lb break="no" ed="#P" n="36"/>tem obtinendam, et tunc illa omnia possunt
+          <lb ed="#P" n="37"/>dici effectus hujus virtutis in genere finis;
+          <lb ed="#P" n="38"/>tamen, quia illa sunt extrinseca, et pro 
+          arbi<lb break="no" ed="#P" n="39"/>trio operantis multiplicari possunt, non 
+          per<lb break="no" ed="#P" n="40"/>tinent ad particularem considerationem 
+          hu<lb break="no" ed="#P" n="41"/>jus virtutis. Tantum ergo supersunt illi duo
+          <lb ed="#P" n="42"/>effectus, qui communes sunt omni virtuti, et
+          <lb ed="#P" n="43"/>tanguntur in definitione virtutis, cum de illa
+          <lb ed="#P" n="44"/>dicitur, quod facit bonum habentem, et opus
+          <lb ed="#P" n="45"/>ejus bonum reddit. Nam primum horum 
+          fa<lb break="no" ed="#P" n="46"/>cit formaliter ; id autem praestat 
+          unaquae<lb break="no" ed="#P" n="47"/>que virtus ex parte, et ita haec virtus facit 
+          ha<lb break="no" ed="#P" n="48"/>bentem rehgiosum, id est, promptum et 
+          faci<lb break="no" ed="#P" n="49"/>lem ad religiosum cultum Deo 
+          persolven<lb break="no" ed="#P" n="50"/>dum ; vel si loquamur de infusa, inclinat ad
+          <lb ed="#P" n="51"/>colendum Deum superiori quadam ratione,
+          <lb ed="#P" n="52"/>et ad hoc dat et potestatem, et quamdam
+          <lb ed="#P" n="53"/>connaturalitatem, et in hoc terminatur 
+          for<lb break="no" ed="#P" n="54"/>malis effectus hujus virtutis. In quo 
+          propor<lb break="no" ed="#P" n="55"/>tionem servat cum reliquis, neque habet ali-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quid speciale notatione dignum. Secundum
+          <lb ed="#P" n="57"/>autem, id est, opus bonum, facit haec virtus
+          <lb ed="#P" n="58"/>effective, sive physice eliciendo, sive 
+          morali<lb break="no" ed="#P" n="59"/>ter imperando justa superius tractata. 
+          Qui<lb break="no" ed="#P" n="60"/>bus hic nihil addere necesse est, quia 
+          hujus<lb break="no" ed="#P" n="61"/>modi effectus cum actibus hujus virtutis 
+          co<lb break="no" ed="#P" n="62"/>incidunt. Potest autem haec virtus mediis suis
+          <lb ed="#P" n="63"/>actibus habere altios effectus, non tam 
+          physi<lb break="no" ed="#P" n="64"/>co quam morali modo, et sic peculiariter 
+          ha<lb break="no" ed="#P" n="65"/>bet effectum impetrandi, media oratione, de
+          <lb ed="#P" n="66"/>quo infra dicemus, et habere potest etiam
+          <lb ed="#P" n="67"/>effectus merendi, vel satisfaciendi; sed hi
+          <lb ed="#P" n="68"/>communes sunt aliis virtutibus, et si quid
+          <lb ed="#P" n="69"/>habent peculiare aliqui actus hujus virtutis,
+          <lb ed="#P" n="70"/>propter quod censeantur habere peculiarem
+          <lb ed="#P" n="71"/>aptitudinem ad hos effectus, cum ipsis 
+          acti<lb break="no" ed="#P" n="72"/>bus explicandum est; ideoque nihil amplius
+          <lb ed="#P" n="73"/>de his effectibus hoc loco dicere necesse est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

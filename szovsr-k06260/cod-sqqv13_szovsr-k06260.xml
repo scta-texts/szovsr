@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="252"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k06260"><!-- t2-l2c3 -->
+        <head>Caput 3</head>
+        <head type="question-title">De diebus quos universa ecclesia ex obligatione servat in generali.</head>
+        <p>
+          <pb ed="#P" n="252"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT III.
+          <lb ed="#P" n="2"/>DE DIEBUS QUOS UNIVERSA ECCLESIA EX 
+          OBLIGA<lb break="no" ed="#P" n="3"/>TIONE SERVAT IN GENERALI.
+        </p>
+        <p>
+          <lb ed="#P" n="4"/>1. Duplex solemnitas. —Explicuimus in 
+          ge<lb break="no" ed="#P" n="5"/>nerali hoc praeceptum ; tamen quia in multa
+          <lb ed="#P" n="6"/>dividitur, quae sub se quodammodo continet,
+          <lb ed="#P" n="7"/>et obligatio praecepti non nisi in particulari
+          <lb ed="#P" n="8"/>cognoscitur, ideo de his praeceptis sigillatim
+          <lb ed="#P" n="9"/>dicere necesse est. Advertendum autem est,
+          <lb ed="#P" n="10"/>dupliciter ferri posse hujusmodi praeceptum
+          <lb ed="#P" n="11"/>de aliquo festo servando, scilicet, vel pro tota
+          <lb ed="#P" n="12"/>Ecclesia, vel pro aliqua tantum provincia, vel
+          <lb ed="#P" n="13"/>dioecesi. Hanc partitionem indicavit Pontifex
+          <lb ed="#P" n="14"/>in c. Conquestus, de Feriis, ubi prius 
+          nume<lb break="no" ed="#P" n="15"/>rat universales festivitates totius Ecclesiae ;
+          <lb ed="#P" n="16"/>deinde addit: Ceeterisque solemnitatibus, quas
+          <lb ed="#P" n="17"/>singuli Episcopi in suis diecesibus dumerint
+          <lb ed="#P" n="18"/>solemniter venerandas. Et in cap. Quoniam, 
+          eo<lb break="no" ed="#P" n="19"/>dem , dicitur secundum diversas 
+          consuetudi<lb break="no" ed="#P" n="20"/>nes interdum celebrari unum festum in uno
+          <lb ed="#P" n="21"/>loco, et non in alio, et hic in uno die, alibi in
+          <lb ed="#P" n="22"/>alio. Idem sumitur ex cap. 1, de 
+          Consecratio<lb break="no" ed="#P" n="23"/>ne, distinctione 3, et generalius ex capit. 
+          Ca<lb break="no" ed="#P" n="24"/>Lholica, distinctione 11, quod est ex 
+          Augusti<lb break="no" ed="#P" n="25"/>no, Epist. 118. Priores ergo festivitates 
+          uni<lb break="no" ed="#P" n="26"/>versales , posteriores particulares 
+          appellabi<lb break="no" ed="#P" n="27"/>mus; atque prius de universalibus, postea 
+          ve<lb break="no" ed="#P" n="28"/>ro de particularibus dicemus.
+        </p>
+        <p>
+          <lb ed="#P" n="29"/>9. In quo sit potestas ferendi leges 
+          univer<lb break="no" ed="#P" n="30"/>sales celebrandi festa. — Carca universales 
+          au<lb break="no" ed="#P" n="31"/>tem festivitates, supbonendum est esse in 
+          Ec<lb break="no" ed="#P" n="32"/>clesia potestatem ferendi legem, aut leges
+          <lb ed="#P" n="33"/>universales quae totam Ecclesiam obligent ad
+          <lb ed="#P" n="34"/>has vel illas festivitates servandas. Hoc satis
+          <lb ed="#P" n="35"/>constat ex dictis in capite praecedenti. Nam
+          <lb ed="#P" n="36"/>haec celebritas, et consensio totius Ecclesiae in
+          <lb ed="#P" n="37"/>aliquibus praecipuis festivitatibus, pertinere
+          <lb ed="#P" n="38"/>potest ad convenientem usum religionis, et
+          <lb ed="#P" n="39"/>ad unitatem ecclesiasticam ; et aliunde 
+          deter<lb break="no" ed="#P" n="40"/>minatio talium dierum non est facta divino
+          <lb ed="#P" n="41"/>jure, ut dictum est, et dicetur ; ergo 
+          necessa<lb break="no" ed="#P" n="42"/>ria fuit potestas in Ecclesia, qua hujusmodi 
+          le<lb break="no" ed="#P" n="43"/>gem posset statuere.
+        </p>
+        <p>
+          <lb ed="#P" n="44"/>10. Unde ulterius tanquam certum et 
+          cla<lb break="no" ed="#P" n="45"/>rum supponimus, hanc potestatem praecipue
+          <lb ed="#P" n="46"/>esse in Summo Pontifice, et quodammodo in
+          <lb ed="#P" n="47"/>illo solo. Primum patet, quia Pontifex est 
+          uni<lb break="no" ed="#P" n="48"/>versalis pastor, et ideo habet universalem 
+          po<lb break="no" ed="#P" n="49"/>testatem legislativam in spiritualibus, ut alibi
+          <lb ed="#P" n="50"/>in materia de Legibus, et de Summo Pontifice
+          <lb ed="#P" n="51"/>latius probandum est; inde vero probatur
+          <lb ed="#P" n="52"/>etiam exclusiva, per quam imprimis exclu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>duntur imperatores, reges , et omnes 
+          potesta<lb break="no" ed="#P" n="54"/>tes saeculares ; non enim possunt illi in 
+          spiri<lb break="no" ed="#P" n="55"/>tuali materia praecipere, ut generaliter in 
+          ma<lb break="no" ed="#P" n="56"/>teria de immunitate ecclesiastica ostensum
+          <lb ed="#P" n="57"/>est, et in particulari aliquid addemus in 
+          dis<lb break="no" ed="#P" n="58"/>cursu hujus capitis et sequentium. 
+          Excludun<lb break="no" ed="#P" n="59"/>tur praeterea quicumque Episcopi, inferiores
+          <lb ed="#P" n="60"/>Pontifice, quia nullus eorum potest legem 
+          uni<lb break="no" ed="#P" n="61"/>versalem pro universa Ecclesia ferre. Dixi 
+          au<lb break="no" ed="#P" n="62"/>tem quodammodo , quia Concilium generale
+          <lb ed="#P" n="63"/>potest hanc legem ferre, non tamen sine 
+          Pon<lb break="no" ed="#P" n="64"/>tifice cogente et approbante Concilium. Item
+          <lb ed="#P" n="65"/>universalis consuetnudo totius Ecclesiae potest
+          <lb ed="#P" n="66"/>hanc legem introducere, non tamen sine 
+          Pon<lb break="no" ed="#P" n="67"/>tifice, vel expresse , vel tacite approbante, ut
+          <lb ed="#P" n="68"/>cum proportione dicemus infra de 
+          consuetu<lb break="no" ed="#P" n="69"/>dine particulari respectu Episcopi; est enim
+          <lb ed="#P" n="70"/>eadem proportionalis ratio.
+        </p>
+        <p>
+          <lb ed="#P" n="71"/>4. Festivitates quasdam esse Dei, alias 
+          sanc<lb break="no" ed="#P" n="72"/>torum. — His positis, ut usum hujus 
+          potesta<lb break="no" ed="#P" n="73"/>tis circa institutionem universalem festorum
+          <lb ed="#P" n="74"/>ad aliquem ordinem revocemus, est pra 
+          ocu<lb break="no" ed="#P" n="75"/>lis habendum, licet festivitates omnes in Dei
+          <lb ed="#P" n="76"/>cultum et venerationem primario ordineutur,
+          <lb ed="#P" n="77"/>nihilominus inter eas quasdam esse, quae in
+          <lb ed="#P" n="78"/>solius Dei memoria et honore, vel gratiarum
+          <lb ed="#P" n="79"/>actione pro aliquo beneficio suscepto 
+          quolam<lb break="no" ed="#P" n="80"/>modo sistunt ; alias vero, quae simul cum Dei
+          <lb ed="#P" n="81"/>cultu conjungunt specialem alicujus Sancti
+          <lb ed="#P" n="82"/>memoriam et venerationem. Prioresque 
+          voca<lb break="no" ed="#P" n="83"/>re possumus Dei festivitates, posteriores vero
+          <lb ed="#P" n="84"/>festivitates Sanctorum. Et utrumque ex his
+          <lb ed="#P" n="85"/>membris in alia duo subdividere possumus:
+          <lb ed="#P" n="86"/>nam inter Dei festivitates, quaedam ad Deum
+          <lb ed="#P" n="87"/>ipsum, ut Deus est, referuntur, eumque quasi
+          <lb ed="#P" n="88"/>pro speciali materia et objecto habent ; aliae
+          <lb ed="#P" n="89"/>vero sunt propriae festivitates Christi, seu Dei
+          <lb ed="#P" n="90"/>hominis facti. Inter Sanctos vero Virginem
+          <lb ed="#P" n="91"/>Beatissimam speciali cultu colimus, quem 
+          hy<lb break="no" ed="#P" n="92"/>perduliam vocamus; alios vero omnes 
+          Sanc<lb break="no" ed="#P" n="93"/>tos communi dulia, et ideo festivitates 
+          Sanc<lb break="no" ed="#P" n="94"/>torum in duo etiam capita dividimus : 
+          quae<lb break="no" ed="#P" n="95"/>dam enim sunt propriae Beatssimae Virginis,
+          <lb ed="#P" n="96"/>quae inter festivitates Sanctorum sunt 
+          praeci<lb break="no" ed="#P" n="97"/>puae, et interdum ita sunt cum Christi 
+          festi<lb break="no" ed="#P" n="98"/>vitatibus conjuncta , ut aliquae festivitates
+          <lb ed="#P" n="99"/>tam Matri quam Filio tribuantur ; sub 
+          ulti<lb break="no" ed="#P" n="100"/>mo vero membro reliquorum Sanctorum 
+          fes<lb break="no" ed="#P" n="101"/>tivitates comprehendimus. Per haec ergo 
+          capi<lb break="no" ed="#P" n="102"/>ta breviter festivitates omnes, quas Ecclesia
+          <lb ed="#P" n="103"/>universaliter celebrat, proponemus, et in 
+          sin<lb break="no" ed="#P" n="104"/>gulis antiquitatem , rationem institutionis ,
+          <lb ed="#P" n="105"/>et modum institutionis explicabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

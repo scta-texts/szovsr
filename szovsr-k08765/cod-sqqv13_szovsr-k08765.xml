@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 25</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 25</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="350"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k08765"><!-- t2-l2c25 -->
+        <head>Caput 25</head>
+        <head type="question-title">An transcribere sit opus servile in die festo prohibitum.</head>
+        <p>
+          <lb ed="#P" n="87"/>CAPUT XXV.
+          <lb ed="#P" n="88"/>AN TRANSCRIBERE SIT OPUS SERVILE IN DIE
+          <lb ed="#P" n="89"/>FESTO PROHIBITUM.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>1. De transcriptione potest esse nonnulla
+          <lb ed="#P" n="91"/>major ratio dubitandi. Quia Silvest., Angel.
+          <lb ed="#P" n="92"/>et Rosel. eodem modo, et cum eadem 
+          distinc<lb break="no" ed="#P" n="93"/>tione loquuntur de transcriptione, qua de
+          <lb ed="#P" n="94"/>scriptione ; nimirum, si fiat propter pretium,
+          <lb ed="#P" n="95"/>esse opus servile; si liberaliter, minime. Et
+          <lb ed="#P" n="96"/>fere idem sentit Soto ; Cajetanus vero 
+          simpli<lb break="no" ed="#P" n="97"/>citer, et nulla facta distinctione nec mentione
+          <lb ed="#P" n="98"/>pretii, dicit transcriptionem esse prohibitam,
+          <lb ed="#P" n="99"/>quia est opus servile, et quia est opus 
+          mecha<lb break="no" ed="#P" n="100"/>nicum, et corporalis operis limen non eait - 
+          si<lb break="no" ed="#P" n="101"/>cut pingere , vel statuam facere. In quo 
+          fun<lb break="no" ed="#P" n="102"/>damento magis consequenter loquitur ; nam
+          <lb ed="#P" n="103"/>quod transcriptio fiat gratis vel mercede, non
+          <lb ed="#P" n="104"/>refert, si alioquin opus in se non supponatur
+          <lb ed="#P" n="105"/>servile. Idemque videtur sentire Navar., dict.
+          <lb ed="#P" n="106"/>c. 13, num. 14; licet enim loquatur de 
+          tran<lb break="no" ed="#P" n="107"/>scriptione facta ob mercedem, explicat tamen
+          <pb ed="#P" n="351"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non esse servilem propter mercedem, sed
+          <lb ed="#P" n="2"/>quia ipsa in se est opus servile. Unde 
+          conse<lb break="no" ed="#P" n="3"/>quenter dicere debet esse opus servile, 
+          etiam<lb break="no" ed="#P" n="4"/>si gratis fiat. Potestque suaderi, quia 
+          transcri<lb break="no" ed="#P" n="5"/>bere non est opus mentis, neque artis 
+          libera<lb break="no" ed="#P" n="6"/>lis, quia solum est ita pingere characteres,
+          <lb ed="#P" n="7"/>sieut in originali leguntur. Et confirmatur,
+          <lb ed="#P" n="8"/>quia imprimere librum, mechanicum est sine
+          <lb ed="#P" n="9"/>ulla dubitatione, et tamen etiam est genus
+          <lb ed="#P" n="10"/>quoddam transcriptionis.
+        </p>
+        <p>
+          <lb ed="#P" n="11"/>2. Transcribere opus est lberale, nec 
+          pro<lb break="no" ed="#P" n="12"/>hibetur. — Nihilominus contrariam 
+          senten<lb break="no" ed="#P" n="13"/>tiam docet Med., in Instruct., lib. 1, c.14,8
+          <lb ed="#P" n="14"/>8; et Lud. Lop., in Instruct. , cap. 52. Quam
+          <lb ed="#P" n="15"/>etiam recentiores Theologi frequentius 
+          se<lb break="no" ed="#P" n="16"/>quuntur, et satis ipso usu recepta videtur,
+          <lb ed="#P" n="17"/>eamque veram et tutam esse existimo ; 
+          opor<lb break="no" ed="#P" n="18"/>tet tamen illius rationem diligenter inspicere,
+          <lb ed="#P" n="19"/>ut possimus illam secure opponere 
+          auctori<lb break="no" ed="#P" n="20"/>tati Doctorum contrarium sentientium. 
+          Pri<lb break="no" ed="#P" n="21"/>mo ergo statuo, transcribere non esse in 
+          uni<lb break="no" ed="#P" n="22"/>versum opus servile, nec prohibitum in die
+          <lb ed="#P" n="23"/>festo. Hoc plane supponunt Summistae 
+          com<lb break="no" ed="#P" n="24"/>muniter, ut dixi, quia solum damnant illud,
+          <lb ed="#P" n="25"/>quando fit pretio, idemque sentit Sot., et 
+          con<lb break="no" ed="#P" n="26"/>sentit Azor supra, q. 5. Et probatur , quia
+          <lb ed="#P" n="27"/>transcribere gratia addiscendi servile non est,
+          <lb ed="#P" n="28"/>sed liberale opus, nec peccat scholaris, qui in
+          <lb ed="#P" n="29"/>die festo transcribit lectionem omissam , vel
+          <lb ed="#P" n="30"/>materiam aliquam, ut illam tunc vel postea
+          <lb ed="#P" n="31"/>addiscat, vel ut eam memoria retineat. 
+          Pro<lb break="no" ed="#P" n="32"/>batur, quia tunc illud opus est doctripae vel
+          <lb ed="#P" n="33"/>disciplina ; ergo non est servile, sed 
+          spiritua<lb break="no" ed="#P" n="34"/>le. ftem, est actus et a mente procedens, et
+          <lb ed="#P" n="35"/>ad mentem ordinatus, scilicet, ut illi 
+          signifi<lb break="no" ed="#P" n="36"/>cet, et illam instruat, et non sistit in 
+          commo<lb break="no" ed="#P" n="37"/>ditate corporis ; ergo. Tertio, scripto accipere
+          <lb ed="#P" n="38"/>lectionem in die festo, a praeceptore dictante
+          <lb ed="#P" n="39"/>illam voce, non est opus servile ; ergo 
+          acci<lb break="no" ed="#P" n="40"/>pere eamdem lectionem ab eodem 
+          praecepto<lb break="no" ed="#P" n="41"/>re quasi docente illam per scriptum suum,
+          <lb ed="#P" n="42"/>non erit opus servile. Probatur consequentia,
+          <lb ed="#P" n="43"/>quia (ut Cajetanus et omnes fatentur) perinde
+          <lb ed="#P" n="44"/>est loqui scripto ac verbo ; ergo perinde est
+          <lb ed="#P" n="45"/>scribere, quod verbo audio, vel quod visu 
+          au<lb break="no" ed="#P" n="46"/>dio (ut sic dicam), ab eo qui per scripturam
+          <lb ed="#P" n="47"/>mihi loquitur ; ergo sicut non est servile 
+          scri<lb break="no" ed="#P" n="48"/>bere quae magister voce dictat, ita nec 
+          scri<lb break="no" ed="#P" n="49"/>bere quae per suum scriptum dictat ; et hoc
+          <lb ed="#P" n="50"/>est transcribere. Idemque erit si transcriptio
+          <lb ed="#P" n="51"/>fiat ex quaternione condiscipuli, quia non 
+          ac<lb break="no" ed="#P" n="52"/>cipitur nisi ut signum magistri loquentis, et
+          <lb ed="#P" n="53"/>impertinens est quod charta ipsa scripta, sit
+          <lb ed="#P" n="54"/>magistri, discipuli, aut cujuscumque alterius.
+          <lb ed="#P" n="55"/>Quarto, qui studet in die festo per librum, licite
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>facit sententias ejus in suo codice scribendo, ita
+          <lb ed="#P" n="57"/>ut memoriae scriptio inserviat ; ergo non facit
+          <lb ed="#P" n="58"/>opus servile; et illa est quaedam transcriptio.
+          <lb ed="#P" n="59"/>Quid enim refert ex impresso codice vel 
+          ma<lb break="no" ed="#P" n="60"/>nuscripto transcribere? Ergo sententia 
+          Caje<lb break="no" ed="#P" n="61"/>tani, quatenus absolute, et sine ulla 
+          restrictio<lb break="no" ed="#P" n="62"/>ne omnem transcriptionem damnare videtur,
+          <lb ed="#P" n="63"/>nulla probabili ratione defendi potest: et
+          <lb ed="#P" n="64"/>ita haec assertio jam sine dubitatione 
+          recipi<lb break="no" ed="#P" n="65"/>tur.
+        </p>
+        <p>
+          <lb ed="#P" n="66"/>3. Transcribere propter mercedem non est
+          <lb ed="#P" n="67"/>servile, quando etiam transcribentis discipline
+          <lb ed="#P" n="68"/>inservtit.—Ex hac vero assertione infero 
+          con<lb break="no" ed="#P" n="69"/>tra Angel., Silvest. et alios, et consentanee
+          <lb ed="#P" n="70"/>ad superius dicta, si transcriptio fiat dicto 
+          mo<lb break="no" ed="#P" n="71"/>do, etgratia disciplinae, etiamsi fiat propter
+          <lb ed="#P" n="72"/>mercedem, non esse actionem servilem, nec
+          <lb ed="#P" n="73"/>prohibitam in die festo. Probatur, quia 
+          tran<lb break="no" ed="#P" n="74"/>scriptio hujusmodi sine mercede facta non est
+          <lb ed="#P" n="75"/>servilis, ut ostensum est ; ergo nec cum 
+          mer<lb break="no" ed="#P" n="76"/>cede facta, quia nulla actio propter solam
+          <lb ed="#P" n="77"/>mercedis adjectionem transfertur ex non 
+          ser<lb break="no" ed="#P" n="78"/>vili in servilem, ut ostensum est. Exemplis
+          <lb ed="#P" n="79"/>declaro: primum sit supra tactum de famulo
+          <lb ed="#P" n="80"/>scholari, et sui domini iu eadem facultate
+          <lb ed="#P" n="81"/>audienda condiscipulo, qui pro stipendio, vel
+          <lb ed="#P" n="82"/>sustentatione quam a domino recipit, 
+          lectio<lb break="no" ed="#P" n="83"/>nem illam transcribit, in ea transcriptione 
+          si<lb break="no" ed="#P" n="84"/>mul intendens suam doctrinam, et mentis
+          <lb ed="#P" n="85"/>utilitatem, ad quam sperat illa eadem 
+          scrip<lb break="no" ed="#P" n="86"/>tura uti. Profecto illa transcriptio, per se
+          <lb ed="#P" n="87"/>spectata et seclusa mercede, servilis 
+          existima<lb break="no" ed="#P" n="88"/>ri non potest, quia per se, et natura sua, ac
+          <lb ed="#P" n="89"/>etiam de facto, est opus propriae disciplinae
+          <lb ed="#P" n="90"/>ipsius tianscribentis ; quod autem 
+          adjunga<lb break="no" ed="#P" n="91"/>tur utilitas domini, vel quod cartha ipsa sit
+          <lb ed="#P" n="92"/>domini, et in ejus possessione ac dominio
+          <lb ed="#P" n="93"/>mansura sit scriptura, extrinsecum et 
+          accei<lb break="no" ed="#P" n="94"/>dentarium est, nec mutat naturam operis. 
+          Un<lb break="no" ed="#P" n="95"/>de si gratis id fieret cum eadem intentione,
+          <lb ed="#P" n="96"/>non censeretur opus servile, sed liberalis 
+          pie<lb break="no" ed="#P" n="97"/>tatis; at sola merces addita non facit servile
+          <lb ed="#P" n="98"/>opus; ergo. Aliud exemplum est, si quis 
+          ama<lb break="no" ed="#P" n="99"/>nuensis docti viri, cui operas suas locavit, ab
+          <lb ed="#P" n="100"/>illo scripta describat, ut per illam 
+          transcrip<lb break="no" ed="#P" n="101"/>tionem in doctrina proficiat, et eisdem 
+          codici<lb break="no" ed="#P" n="102"/>bus a se scriptis pro aliquo tempore ad suum
+          <lb ed="#P" n="103"/>spiritualem, seu mentalem profectum utatur;
+          <lb ed="#P" n="104"/>profecto liberale opus facit, licet conjunctum
+          <lb ed="#P" n="105"/>habeat usum alterius, et lucrum proprium
+          <lb ed="#P" n="106"/>etiam principaliter intentum, quia haec 
+          in<lb break="no" ed="#P" n="107"/>tentio non facit opus servile, nec refert 
+          ali<lb break="no" ed="#P" n="108"/>quid ad praeceptum de observatione 
+          festo<lb break="no" ed="#P" n="109"/>rum.
+        </p>
+        <p>
+          <lb ed="#P" n="110"/>4. Non est servile transcribere, etiam sine
+          <pb ed="#P" n="352"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>proprio profectu. —Unde ulterius infero, quod
+          <lb ed="#P" n="2"/>licet aliquis transcribat etiam mercede 
+          condu<lb break="no" ed="#P" n="3"/>ctus, et ad domini usum, sine propria utilitate
+          <lb ed="#P" n="4"/>vel profectu spirituali, non facit opus servile,
+          <lb ed="#P" n="5"/>nec prohibitum in festo ex vi generalis 
+          pro<lb break="no" ed="#P" n="6"/>hibitionis operis servilis (quicquid accidere
+          <lb ed="#P" n="7"/>possit ex alia prohibitione speciali, de qua
+          <lb ed="#P" n="8"/>postea dicturi sumus). Probatur primo, quia
+          <lb ed="#P" n="9"/>illa actio de se mentalis et spiritualis est, et
+          <lb ed="#P" n="10"/>per accidens ad illam est, quod hac vel illa
+          <lb ed="#P" n="11"/>intentione fiat ab operante; ergo inde non
+          <lb ed="#P" n="12"/>efficitur servilis; neque vero fit servilis ex 
+          lu<lb break="no" ed="#P" n="13"/>cro vel mercede, juxta principium supra 
+          posi<lb break="no" ed="#P" n="14"/>tum; ergo nullo modo est servilis. Dicunt fieri
+          <lb ed="#P" n="15"/>servilem, eo ipso quod non intenditur 
+          profec<lb break="no" ed="#P" n="16"/>tus mentis, quia deest finis liberalis in 
+          ope<lb break="no" ed="#P" n="17"/>rante: sed dico imprimis hoc esse 
+          imperti<lb break="no" ed="#P" n="18"/>nens, quia opus liberale non attenditur ex 
+          fi<lb break="no" ed="#P" n="19"/>ne operantis, sed ex objecto operis. Deinde 
+          di<lb break="no" ed="#P" n="20"/>co intentionem mercedis non esse servilem,
+          <lb ed="#P" n="21"/>sed mercenariam. Praeterea etiam potest 
+          in<lb break="no" ed="#P" n="22"/>tendi proprius profectus mentalis, non 
+          mi<lb break="no" ed="#P" n="23"/>nus quam per scriptionem, ut dictum est; et
+          <lb ed="#P" n="24"/>quod non intendatur, est per accidens. 
+          Deni<lb break="no" ed="#P" n="25"/>que, eo ipso quod quis intendit cooperari 
+          ac<lb break="no" ed="#P" n="26"/>tioni liberali ejus qui per ipsum scribit, et
+          <lb ed="#P" n="27"/>per actionem de se liberalem, habet 
+          sufficien<lb break="no" ed="#P" n="28"/>tem intentionem liberalem, etiamsi alias 
+          inten<lb break="no" ed="#P" n="29"/>tiones extrinsecas adjungat. Unde argumentor
+          <lb ed="#P" n="30"/>secundo, quia in omnibus eadem est ratio de
+          <lb ed="#P" n="31"/>transcriptione, quae est de scriptione quae fit
+          <lb ed="#P" n="32"/>alio dictante, cum eadem intentione et 
+          circum<lb break="no" ed="#P" n="33"/>stantiis ; sed ostensum est scriptionem sic 
+          fac<lb break="no" ed="#P" n="34"/>tam, etiam propter stipendium, non esse opus
+          <lb ed="#P" n="35"/>servile ; ergo idem dicendum est de 
+          transcrip<lb break="no" ed="#P" n="36"/>tione. Probatur major; quia si quis dictet
+          <lb ed="#P" n="37"/>duobus amanuensibus simul, et cum eisdem
+          <lb ed="#P" n="38"/>circumstantiis, neuter eorum facit opus 
+          ser<lb break="no" ed="#P" n="39"/>vile, quia concomitantia alterius non facit
+          <lb ed="#P" n="40"/>opus esse servile, magis quam si quis solus
+          <lb ed="#P" n="41"/>scriberet, ut videtur per se notum; ergo licet
+          <lb ed="#P" n="42"/>unus prius scribat, et alter transcribat, non
+          <lb ed="#P" n="43"/>magis facit opus servile transcribens, quam
+          <lb ed="#P" n="44"/>scribens; tum quia, quod simul scribant vel
+          <lb ed="#P" n="45"/>successive, non mutat naturam operis; tum
+          <lb ed="#P" n="46"/>etiam quia uterque scribit dictante alio, unus
+          <lb ed="#P" n="47"/>mediate, alter immediate ; quod etiam 
+          imper<lb break="no" ed="#P" n="48"/>tinens videtur, ut opus sit vel non sit servile.
+        </p>
+        <p>
+          <lb ed="#P" n="49"/>5. Unde argumentor tertio, quia perinde
+          <lb ed="#P" n="50"/>est loqui scripto ac verbo; ergo perinde est
+          <lb ed="#P" n="51"/>scribere quae dictantur verbo, vel quae di--
+          <lb ed="#P" n="52"/>tantur calamo ; sicut ergo non facit opus 
+          ser<lb break="no" ed="#P" n="53"/>vile, qui scripto recipit quae ego dicto voce,
+          <lb ed="#P" n="54"/>ita nec qui scribit quae ego calamo dicto, id
+          <lb ed="#P" n="55"/>est, qui transcribit quae ego scribo, nam sceri-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bendo illi dicto ; et hoc argumentum est 
+          effi<lb break="no" ed="#P" n="57"/>cax ad hominem contra Cajetanum, qui 
+          fate<lb break="no" ed="#P" n="58"/>tur ita esse judicandum de locutione 
+          perma<lb break="no" ed="#P" n="59"/>nente per scripturam, ac de vocali et 
+          trans<lb break="no" ed="#P" n="60"/>eunte ; simileque argumentum contra eum
+          <lb ed="#P" n="61"/>est, quia scribere per alium, non est magis
+          <lb ed="#P" n="62"/>opus servile, quam scribere per se, ut recte
+          <lb ed="#P" n="63"/>Cajetanus dixit ; et ideo quando ego per alium
+          <lb ed="#P" n="64"/>scribo, dictando illi, nec ego facio opus 
+          ser<lb break="no" ed="#P" n="65"/>vile, ut per se constat, nec ille qui scribit;
+          <lb ed="#P" n="66"/>tum quia veluti unum mecum in illa actione
+          <lb ed="#P" n="67"/>reputatur, et quia in liberali opere mihi 
+          mi<lb break="no" ed="#P" n="68"/>nistrat actione de se liberali ; tum etiam quia
+          <lb ed="#P" n="69"/>alias si opus scriptoris esset servile, mihi 
+          im<lb break="no" ed="#P" n="70"/>putaretur, et ita nunquam mihi liceret per
+          <lb ed="#P" n="71"/>alium scribere, nec tale opus posset dici 
+          sim<lb break="no" ed="#P" n="72"/>pliciter non servile igitur, quando ego per
+          <lb ed="#P" n="73"/>alium scribo, nec ego, nec ille per quem 
+          scri<lb break="no" ed="#P" n="74"/>bo, servile opus facimus. At quando alius
+          <lb ed="#P" n="75"/>transcribit quae ego dictavi aut scripsi, etiam
+          <lb ed="#P" n="76"/>ego per illum secundo scribo; ergo. Praeterea
+          <lb ed="#P" n="77"/>quando ego per meipsum iterum eamdem rem
+          <lb ed="#P" n="78"/>scribo, non magis facio opus servile, quam
+          <lb ed="#P" n="79"/>cum primum scripsi, et quando eamdem rem
+          <lb ed="#P" n="80"/>bis voce dicto, ille, qui secundo scribit, non
+          <lb ed="#P" n="81"/>facit opus servile; ergo nec, etiamsi dictem
+          <lb ed="#P" n="82"/>illi per scripturam priorem, opus facit servile
+          <lb ed="#P" n="83"/>illam transcribendo. Denique si ego ipse 
+          tran<lb break="no" ed="#P" n="84"/>scribam quae prius scripsi, non magis facio
+          <lb ed="#P" n="85"/>opus servile, quam si secundo scriberem sola
+          <lb ed="#P" n="86"/>memoria : quid enim refert quod juver 
+          exem<lb break="no" ed="#P" n="87"/>plari scripto ad memoriam ? ergo transcriptio
+          <lb ed="#P" n="88"/>de se non est opus servile; circumstantiae
+          <lb ed="#P" n="89"/>vero quae adduntur, scilicet, quod sit 
+          tran<lb break="no" ed="#P" n="90"/>scriptio alieni scripti, vel in utilitatem 
+          alte<lb break="no" ed="#P" n="91"/>rius, vel propter mercedem, non transferunt
+          <lb ed="#P" n="92"/>opus non servile in servile, ut ostensum est ;
+          <lb ed="#P" n="93"/>ergo.
+        </p>
+        <p>
+          <lb ed="#P" n="94"/>6. Denique nulla sufficiens ratio differentiae
+          <lb ed="#P" n="95"/>inter scriptionem et transcriptionem 
+          assigna<lb break="no" ed="#P" n="96"/>tur; sed scriptio etiam cum illis 
+          circumstan<lb break="no" ed="#P" n="97"/>tiis non est opus servile (ut ostendi, et 
+          Caje<lb break="no" ed="#P" n="98"/>tanus supponit); ergo nec transcri»tio erit.
+          <lb ed="#P" n="99"/>Major patet, quia transcriptio solum differt a
+          <lb ed="#P" n="100"/>scriptione in hoc, quod transcribens, si alienos
+          <lb ed="#P" n="101"/>conceptus scribat, oculis, et non auribus 
+          per<lb break="no" ed="#P" n="102"/>cipit quae scribit, quod valde accidentarium
+          <lb ed="#P" n="103"/>est; si vero scribit conceptus proprios ex
+          <lb ed="#P" n="104"/>priori scripto, differt solum, quia nunce juvatur
+          <lb ed="#P" n="105"/>exemplari externo, quod prius non habuit,
+          <lb ed="#P" n="106"/>quod minus refert ad servile opus; quia 
+          utro<lb break="no" ed="#P" n="107"/>que modo actio est spiritualis, et al mentem
+          <lb ed="#P" n="108"/>ordinata.
+        </p>
+        <p>
+          <lb ed="#P" n="109"/>7. Respondetur contrarie partis 
+          funda<lb break="no" ed="#P" n="110"/>mento. — Ad fundamentum ergo in contra-
+          <pb ed="#P" n="353"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rium, negatur transcribere esse opus servile.
+          <lb ed="#P" n="2"/>Nego etiam transcribere ut sic, idem esse quod
+          <lb ed="#P" n="3"/>depingere characteres, ad imitationem eorum
+          <lb ed="#P" n="4"/>qui sunt in exemplari; nam qui transcribit,
+          <lb ed="#P" n="5"/>per se non habet hunc finem, sed sensa 
+          men<lb break="no" ed="#P" n="6"/>tis vel suae, vel alienae in signo sensibili 
+          po<lb break="no" ed="#P" n="7"/>nere, quo possint ad aliorum mentes devenire.
+          <lb ed="#P" n="8"/>Sicut enim hic est scriptionis finis per se et
+          <lb ed="#P" n="9"/>intrinsecus, ita etiam transcriptionis, 
+          quan<lb break="no" ed="#P" n="10"/>tum est ex vi operis, quidquid sit de intentione
+          <lb ed="#P" n="11"/>operantis. Et hujus signum esse potest, quod
+          <lb ed="#P" n="12"/>transcribens non utitur scripto exemplari ad
+          <lb ed="#P" n="13"/>imitandum illud materialiter, sed formaliter,
+          <lb ed="#P" n="14"/>ut signum est; et ideo transcribens non 
+          imi<lb break="no" ed="#P" n="15"/>tatur formam vel figuram litterarum 
+          exem<lb break="no" ed="#P" n="16"/>plaris, sed significationem; unde saepe fieri
+          <lb ed="#P" n="17"/>potest, ut simul transcribat, et in aliam 
+          lin<lb break="no" ed="#P" n="18"/>guam vertat, quod profecto simile non est.
+        </p>
+        <p>
+          <lb ed="#P" n="19"/>8. Imprimere est opus servile. — Ad 
+          confir<lb break="no" ed="#P" n="20"/>mationem autem de impressione, respondeo,
+          <lb ed="#P" n="21"/>sine dubio imprimere esse opus servile, quia
+          <lb ed="#P" n="22"/>non Bit per modum locutionis et expressionis
+          <lb ed="#P" n="23"/>conceptuum mentis, sicut fit scriptio, vel 
+          tran<lb break="no" ed="#P" n="24"/>scriptio. Duo enim sunt in impressione: unum
+          <lb ed="#P" n="25"/>est compositio et ordinatio litterarum, aliud
+          <lb ed="#P" n="26"/>est impressio earum; et ante haec duo 
+          antece<lb break="no" ed="#P" n="27"/>dit formatio singularum litterarum, quae sine
+          <lb ed="#P" n="28"/>dubio fit per actionem mechanicam et 
+          servi<lb break="no" ed="#P" n="29"/>lem, scilicet, infusionem metalli liquefacti,
+          <lb ed="#P" n="30"/>etc., quae per se terminatur in illo corporali
+          <lb ed="#P" n="31"/>artefacto perficiendo. Similiter litteras 
+          com<lb break="no" ed="#P" n="32"/>positas imprimere et quasi figere, plane est
+          <lb ed="#P" n="33"/>mere materiale et corporale, nec illa actio ex
+          <lb ed="#P" n="34"/>intrinseco modo suo dirigitur, nisi ad 
+          impri<lb break="no" ed="#P" n="35"/>mendam chartae illam figuram, sicut 
+          imprimi<lb break="no" ed="#P" n="36"/>tur cera sigillum, vel imago, vel quidvis
+          <lb ed="#P" n="37"/>aliud, quod plane mechanicum est; ct tali 
+          ac<lb break="no" ed="#P" n="38"/>tioni accidentarium est et remotum, quod 
+          fi<lb break="no" ed="#P" n="39"/>gura ex illa compressione resultans sit 
+          men<lb break="no" ed="#P" n="40"/>tale signum, necne; in ipsa vero ordinatione
+          <lb ed="#P" n="41"/>et compositione litterarum, major quadam
+          <lb ed="#P" n="42"/>artis et mentis ratio viostur inveniri; tamen
+          <lb ed="#P" n="43"/>non transcendit ordinem actionis mechanicae,
+          <lb ed="#P" n="44"/>et de se servilis est, sive mercede fiat, sive
+          <lb ed="#P" n="45"/>gratis, quia solum est veluti praeparatio 
+          quae<lb break="no" ed="#P" n="46"/>dam materiae, seu instrumentorum ad aliam
+          <lb ed="#P" n="47"/>actionem imprimendi, quae servilis est. Unde
+          <lb ed="#P" n="48"/>etiam terminus illius actionis est materialis
+          <lb ed="#P" n="49"/>illa compositio litterarum, cui valde 
+          extrinse<lb break="no" ed="#P" n="50"/>cum et accidentarium est, quod inde 
+          resul<lb break="no" ed="#P" n="51"/>tent signa, quibus mentis conceptus 
+          expri<lb break="no" ed="#P" n="52"/>muntur. Denique illa compositio non fit de se
+          <lb ed="#P" n="53"/>per modum locutionis, et expressionis mentis,
+          <lb ed="#P" n="54"/>sicut fit scriptio et transcriptio, nec in ea 
+          for<lb break="no" ed="#P" n="55"/>mantur litterae ipsae, sicut fit etiam in tran-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>scriptione, et ideo non tenet similitudo. Et
+          <lb ed="#P" n="57"/>hoc consonat communi sensui, et existimationi
+          <lb ed="#P" n="58"/>apud omnes, a quibus tota imprimendi ars
+          <lb ed="#P" n="59"/>mechanica reputatur ; non sic autem ars 
+          scri<lb break="no" ed="#P" n="60"/>bendi, qua utimur, sive scribendo, sive 
+          tran<lb break="no" ed="#P" n="61"/>scribendo, et ideo utroque modo actio est
+          <lb ed="#P" n="62"/>eeque liberalis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

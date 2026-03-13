@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="23"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k00539"><!-- t1-l2prae -->
+        <head>Praeambulum</head>
+        <p>
+          <cb ed="#P" n="f"/>
+          <lb ed="#P" n="28"/>LIBER SECUNDDUS.
+          <lb ed="#P" n="29"/>DE ACTIBUS RELIGIONIS
+          <lb ed="#P" n="30"/>IN GENERALTI.
+        </p>
+        <p>
+          <cb ed="#P" n="g"/>
+          <lb ed="#P" n="31"/>De his actibus nihil in communi disseruit
+          <lb ed="#P" n="32"/>D. Thomas in d. q. 81; sed statim in q. 82,
+          <lb ed="#P" n="33"/>incipit agere de actibus hujus virtutis in 
+          par<lb break="no" ed="#P" n="34"/>ticulari. Nobis autem, ad majus doctrinae
+          <lb ed="#P" n="35"/>complementum, majoremque claritatem, 
+          ne<lb break="no" ed="#P" n="36"/>cessarium visum est pauca de his actibus
+          <lb ed="#P" n="37"/>generatim praemittere; sic enim postea in
+          <lb ed="#P" n="38"/>singulis brevior et facilior erit doctrina, 
+          me<lb break="no" ed="#P" n="39"/>liusque ipsius virtutis essentia et unitas 
+          expli<lb break="no" ed="#P" n="40"/>cari poterit. Nam religio habitus operativus
+          <lb ed="#P" n="41"/>est, unde a suis actibus speciem sumit, sicut
+          <lb ed="#P" n="42"/>caeterae virtutes et potentiae. Breviter igitur
+          <lb ed="#P" n="43"/>prae oculis ponemus hujus virtutis actus, 
+          se<lb break="no" ed="#P" n="44"/>cundum generales rationes eorum ; singulo-
+          <cb ed="#P" n="h"/>
+          <lb ed="#P" n="45"/>rum vero considerationem secundum 
+          pro<lb break="no" ed="#P" n="46"/>prias rationes eorum postea suis locis 
+          ira<lb break="no" ed="#P" n="47"/>demus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

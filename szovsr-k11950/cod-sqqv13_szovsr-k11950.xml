@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="480"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k11950"><!-- t3-l2c3 -->
+        <head>Caput 3</head>
+        <head type="question-title">De idololatria, quid sit, et quod objectum habeat.</head>
+        <p>
+          <lb ed="#P" n="27"/>CAPUT II.
+          <lb ed="#P" n="28"/>DE IDOLOLATRIA, QUID SIT, ET QUOD OBJECTUM
+          <lb ed="#P" n="29"/>HABEAT.
+        </p>
+        <p>
+          <lb ed="#P" n="30"/>1. Idololatria aliquando metaphorice 
+          acci<lb break="no" ed="#P" n="31"/>pitur pro cariis rebus.—Vox Idololatria 
+          inter<lb break="no" ed="#P" n="32"/>dum accipitur metaphorice, ut patet ex Paulo,
+          <lb ed="#P" n="33"/>ad Ephes. 5, ubi avaritiam vocat idolorum
+          <lb ed="#P" n="34"/>servitutem ; nam avarus totum suum aftectum
+          <lb ed="#P" n="35"/>in pecuniis habet, et ideo videtur pecunias
+          <lb ed="#P" n="36"/>tanquam Deos colere. Sic enim idem Paulus,
+          <lb ed="#P" n="37"/>ad Philippens. 3, de hominibus ventri deditis
+          <lb ed="#P" n="38"/>dixit: Quorum Deus venter est; et eadem fere
+          <lb ed="#P" n="39"/>ratione omnis, qui mortaliter peccat, potest
+          <lb ed="#P" n="40"/>per metaphoram idololatra vocari, quia 
+          crea<lb break="no" ed="#P" n="41"/>turam, propter quam peccat, pro Deo habere
+          <lb ed="#P" n="42"/>censetur, quatenus illam super omnia amat.
+          <lb ed="#P" n="43"/>Atque ita Hieronymus, Amos 2, itractans illa
+          <lb ed="#P" n="44"/>verba: Super tribus sceleribus Judeae, etc.,
+          <lb ed="#P" n="45"/>ait, unumquemnque peccatorem christianum 
+          ado<lb break="no" ed="#P" n="46"/>rare vitia sua, eumque ancipere habere Deum, a
+          <lb ed="#P" n="47"/>quo victus est, dicente Petro: À quo quis 
+          supe<lb break="no" ed="#P" n="48"/>ratus, ejus et servus est. Et Isai. 44, circa illa
+          <lb ed="#P" n="49"/>verba: Heec dicit Dominus, etc., similiter 
+          in<lb break="no" ed="#P" n="50"/>quit haereticos esse idololatras, utique per 
+          me<lb break="no" ed="#P" n="51"/>taphoram : Qui simulacra dogmatum suorum
+          <lb ed="#P" n="52"/>atque mendacii, artifici corde componunt, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>venerantur ea quaee sciunt a se simulata. Quibus
+          <lb ed="#P" n="54"/>similia habet Augustinus lib. de Vera relig.,
+          <lb ed="#P" n="55"/>cap. 18. Sed idololatria hoc modo sumpta non
+          <lb ed="#P" n="56"/>signiticat aliquod speciale vitium religioni 
+          op<lb break="no" ed="#P" n="57"/>positum, sed, ut dixi, universis peccatis 
+          mor<lb break="no" ed="#P" n="58"/>talibus attribui potest, et praesertim aliquibus,
+          <lb ed="#P" n="59"/>in quibus major inordinatio affectus erga 
+          crea<lb break="no" ed="#P" n="60"/>turam cognoscitur, et ideo haec significatio
+          <lb ed="#P" n="61"/>praesenti instituto non servit. Quamvis 
+          neces<lb break="no" ed="#P" n="62"/>sarium fuerit adnotare illam, tum ne vitia
+          <lb ed="#P" n="63"/>confundantur, tum ut Scripturae intelligantur,
+          <lb ed="#P" n="64"/>tum denique quia ex metaphorica 
+          significatio<lb break="no" ed="#P" n="65"/>ne intelligi potest, esse aliam propriam, a qua
+          <lb ed="#P" n="66"/>translatio facta est.
+        </p>
+        <p>
+          <lb ed="#P" n="67"/>2. Quid proprie sit idololatria. — Solum
+          <lb ed="#P" n="68"/>imaginem rei ficte vocari idolum qui dicant.—
+          <lb ed="#P" n="69"/>Contrarium est verum. —ldololatria ergo 
+          pro<lb break="no" ed="#P" n="70"/>prie dicta idem significat, quod voces 
+          simpli<lb break="no" ed="#P" n="71"/>citer, ex quibus illa componitur, prae se 
+          fe<lb break="no" ed="#P" n="72"/>runt, nimirum idolorum latriam, unde 
+          expli<lb break="no" ed="#P" n="73"/>cando quid in praesenti sitidolum, et quid latria,
+          <lb ed="#P" n="74"/>explicatum relinquetur quid sit idololatria, et
+          <lb ed="#P" n="75"/>quomodo committatur. Idolum ergo, juxta 
+          pri<lb break="no" ed="#P" n="76"/>mariam significationem , statuam vel 
+          imagi<lb break="no" ed="#P" n="77"/>nem significat, ut ex Sap. 13 colligitur, ubi
+          <lb ed="#P" n="78"/>late describitur idoli fabricatio per artem 
+          scul<lb break="no" ed="#P" n="79"/>pendi et pingendi, et de idolo concluditur:
+          <lb ed="#P" n="80"/>Imago enim est, et opus est illi adjutorio;
+          <lb ed="#P" n="81"/>et cap. 14: Per manus (dicitur) quod fit 
+          ido<lb break="no" ed="#P" n="82"/>lum, maledictum est et ipsum, et qui fucit 
+          il<lb break="no" ed="#P" n="83"/>Llud ; et infra: Acerbo enim luctu dolens, pater
+          <lb ed="#P" n="84"/>cito sibi rapti fil fecit imaginem ; et infra:
+          <lb ed="#P" n="85"/>Imaginem Wegis, quem honorare volebant, 
+          fece<lb break="no" ed="#P" n="86"/>runt. Idolum ergo, juxta primaevam 
+          significa<lb break="no" ed="#P" n="87"/>tionem, imaginem significat ; non tamen 
+          quaeli<lb break="no" ed="#P" n="88"/>bet imago idolum dici potest, ut mox dicemus.
+          <lb ed="#P" n="89"/>Dicunt tamen aliqui , tunc solum imaginem
+          <lb ed="#P" n="90"/>idolum posse appellari, quando rem non 
+          sub<lb break="no" ed="#P" n="91"/>sistentem nec possibilem significat, sed 
+          fic<lb break="no" ed="#P" n="92"/>tam, ut chimaeram, vel quid simile. Ita sentit
+          <lb ed="#P" n="93"/>Origenes, hom. 8 in Exod., sic exponens quod
+          <lb ed="#P" n="94"/>Paulus ait 1 ad Cor. 8: Scimus quia nihil
+          <lb ed="#P" n="95"/>idolum est in mundo. Quod sequitur Theod.,
+          <lb ed="#P" n="96"/>q. 38 in Exod.; et OEcum., in 1 ad Cor., et
+          <lb ed="#P" n="97"/>multi alii; verumtamen, licet verum sit multa
+          <lb ed="#P" n="98"/>talia fuisse idola Gentium, ut sumi potest ex
+          <lb ed="#P" n="99"/>Athan., Orat. contra idola, nihilominus 
+          nega<lb break="no" ed="#P" n="100"/>ri non potest quin idolum potuerit etiam esse
+          <lb ed="#P" n="101"/>imago alicujus rei verae, et aliquando 
+          subsis<lb break="no" ed="#P" n="102"/>tentis, quod ex citatis locis Sapient. aperte 
+          col<lb break="no" ed="#P" n="103"/>ligitur. Nam in eis dicitur idololatriam 
+          coepis<lb break="no" ed="#P" n="104"/>se, fabricando et depingendo imagines 
+          homi<lb break="no" ed="#P" n="105"/>num, vel aliquorum animalium, quae res verae
+          <lb ed="#P" n="106"/>ac subsistentes sunt. Et Cyprianus, lib. de 
+          Ido<lb break="no" ed="#P" n="107"/>lor. vanit., late ostendit, Deos Gentium majori
+          <pb ed="#P" n="481"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>es parte fuisse homines; et Augustinus, 1.8
+          <lb ed="#P" n="2"/>de Civ., cap. 26. Unde l. 20 contra Faustum,
+          <lb ed="#P" n="3"/>cap. 5, late probat idola et Deos Gentium, 
+          ali<lb break="no" ed="#P" n="4"/>quas res veras esse, seu corpora vera, ad 
+          salu<lb break="no" ed="#P" n="5"/>tem autem nihil esse, neque etiam ad cultum
+          <lb ed="#P" n="6"/>divinum promerendum.
+        </p>
+        <p>
+          <lb ed="#P" n="7"/>3. Idolum esse imaginem destinatam ad 
+          in<lb break="no" ed="#P" n="8"/>debitum cultum alicui tribuendum. — 
+          Quapro<lb break="no" ed="#P" n="9"/>pter alii existimant rationem idoli non 
+          com<lb break="no" ed="#P" n="10"/>pleri per hoc, quod sit imago rei falsae vel
+          <lb ed="#P" n="11"/>fictae, sed per hoc quod sit imago ad indebitum
+          <lb ed="#P" n="12"/>cultum alicui tribuendum destinata. Nam
+          <lb ed="#P" n="13"/>etiam imago chimerae vel rei fictae, si non ad
+          <lb ed="#P" n="14"/>cultum, sed ad delectationem, aut memoriam,
+          <lb ed="#P" n="15"/>vel exercitium artis fabricetur, vocari non 
+          po<lb break="no" ed="#P" n="16"/>test idolum. Atque ita Sapient., dict. cap. 13,
+          <lb ed="#P" n="17"/>describens constitutionem idoli, praeter 
+          scul<lb break="no" ed="#P" n="18"/>pturam et picturam adjungit: Et fecit ei 
+          di<lb break="no" ed="#P" n="19"/>gnam habitationem , etc. Et cap. 14, cum 
+          di<lb break="no" ed="#P" n="20"/>xisset, patrem rapti filii fecisse imaginem,
+          <lb ed="#P" n="21"/>subdit : Et illum, qui tunc quasi homo 
+          mor<lb break="no" ed="#P" n="22"/>tuus fuerat, nunc tanquam Dewm colere capit,
+          <lb ed="#P" n="23"/>et constituit inter servos suos sacra et 
+          sacrift<lb break="no" ed="#P" n="24"/>ca ; et infra vocat idola figmenta, quae iniqua
+          <lb ed="#P" n="25"/>consuetudine, aut lege, ex deceptione aut 
+          inor<lb break="no" ed="#P" n="26"/>dinato affectu colebantur : Incommnunicabile
+          <lb ed="#P" n="27"/>(iuquit) nomen lignis, et lapidibus tribuerunt.
+          <lb ed="#P" n="28"/>Sentit ergo idolum vocari effigiem ad cultum
+          <lb ed="#P" n="29"/>indebitum institutam. Dico autem indebitum
+          <lb ed="#P" n="30"/>cultun, quia si imago sit alicujus rei verae et
+          <lb ed="#P" n="31"/>digna, secundum rectam rationem. aliquo
+          <lb ed="#P" n="32"/>vero honore et cultu, et solum erigatur talis
+          <lb ed="#P" n="33"/>imago ad rem illam debito honore colendam,
+          <lb ed="#P" n="34"/>non potest illa imago idolum appellari. Et hac
+          <lb ed="#P" n="35"/>ratione septima Synodus, act. 7, definit 
+          ima<lb break="no" ed="#P" n="36"/>gines Christianorum, et prout ecclesia 
+          catho<lb break="no" ed="#P" n="37"/>lica eas recipit et approbat, idola dici non
+          <lb ed="#P" n="38"/>posse, ut late tractavi in 1 tom. de Incarnat.,
+          <lb ed="#P" n="39"/>disputat. 54, sect. 7. Et hoc sensisse videtur
+          <lb ed="#P" n="40"/>Tertullianus, lib. de Idol., cap. 4, dicens 
+          ima<lb break="no" ed="#P" n="41"/>gines earum rerum, quas colit humanus error,
+          <lb ed="#P" n="42"/>idola appellari.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>4. Origenis doctriua commode eaplicatur.
+          <lb ed="#P" n="44"/>— Et Isidor., lib. 8 Etym., dixit, idolum esse
+          <lb ed="#P" n="45"/>sunulacrum, quod humana effigie factum et
+          <lb ed="#P" n="46"/>consecratum est. Quas descriptio quoad 
+          prio<lb break="no" ed="#P" n="47"/>rem partem nimium restricta est; non est
+          <lb ed="#P" n="48"/>cnim de ratione idoli ut sit ad humanam 
+          effi<lb break="no" ed="#P" n="49"/>giem expresse enim dicitur in dicto cap. 13
+          <lb ed="#P" n="50"/>Sap.: Ft assimilat illud imag ni hominis, aut
+          <lb ed="#P" n="51"/>alicui es animalibus illud comparat. Et ex cap.
+          <lb ed="#P" n="52"/>32 Exod., constat Hebraeos, imitantes 
+          Agy<lb break="no" ed="#P" n="53"/>ptios, idolum fecisse in vituli effigie; 
+          latius<lb break="no" ed="#P" n="54"/>que explicavit Paulus ad Roman. 1, dicens:
+          <lb ed="#P" n="55"/>Mutaverunt gloriam incorruptibilis Dei in 
+          si<lb break="no" ed="#P" n="56"/>militudinem imaginis corruptibilis hominis, et
+          <lb ed="#P" n="57"/>volucrum, et quadrupedum. et serpentum. Imo
+          <lb ed="#P" n="58"/>etiam potest figurari idolum, quod non sit
+          <lb ed="#P" n="59"/>alicujus rei verae, vel speciei effigies, sed 
+          fic<lb break="no" ed="#P" n="60"/>tae, ut diximus. Quoad posteriorem vero 
+          par<lb break="no" ed="#P" n="61"/>tem, videtur illa descriptio diminuta, quia, ut
+          <lb ed="#P" n="62"/>humana imago sit idolum, non satis est quoi
+          <lb ed="#P" n="63"/>sit consecrata, id est, ad cultum dicata; debet
+          <lb ed="#P" n="64"/>ergo restringi ad consecrationem indebitam,
+          <lb ed="#P" n="65"/>seu excedentem humanae naturae capacitatem.
+          <lb ed="#P" n="66"/>Et ideo optime Augustinus, lib. 7 Quaest. in
+          <lb ed="#P" n="67"/>libr. Jud.,.idolum declarat, id est, Cujusdam
+          <lb ed="#P" n="68"/>Dei falsi simulacrum, et in hoc sensu accom
+          <lb ed="#P" n="69"/>modari potest Origenis sententia. Nam licet
+          <lb ed="#P" n="70"/>idolum possit esse imago veri hominis, si 
+          ta<lb break="no" ed="#P" n="71"/>men destinetur ad colendum iilum hominem
+          <lb ed="#P" n="72"/>ut Deum, jam erit imago falsi Dei, et sub ea
+          <lb ed="#P" n="73"/>ratione crit imago rei non existentis. Imo 
+          for<lb break="no" ed="#P" n="74"/>tassis eadem vel proportionali ratione, si quis
+          <lb ed="#P" n="75"/>iniquum hominem, et in peccatis mortuum
+          <lb ed="#P" n="76"/>sibi depingeret ad cultum, quamvis non ut
+          <lb ed="#P" n="77"/>Deum, sed nt sanctum hominem illum colere
+          <lb ed="#P" n="78"/>vellet, talis imago rationem idoli participaret,
+          <lb ed="#P" n="79"/>ut sensit Sander., lib. 1 de Imaginibus; quia,
+          <lb ed="#P" n="80"/>licet talis imago repraesentaret verum 
+          homi<lb break="no" ed="#P" n="81"/>nem, simul referret falsum Sanctum. Et iu
+          <lb ed="#P" n="82"/>hoc sensu recte dicitur, idolum involvere 
+          fal<lb break="no" ed="#P" n="83"/>sitatem in sua repraesentatione, ac subinde
+          <lb ed="#P" n="84"/>imaginem falsam. Sic enim Scriptura de 
+          ido<lb break="no" ed="#P" n="85"/>lis loquitur, ut notavit Bellarm., lib. 2 de
+          <lb ed="#P" n="86"/>Imaginib. , c. 5. Et propterea fortasse Zach.,
+          <lb ed="#P" n="87"/>11, de iniquo pastore qui officium pastoris
+          <lb ed="#P" n="88"/>non exercet, dicitur : O Pastor et idolum, quia
+          <lb ed="#P" n="89"/>non est verus pastor, sed fictus, et nomine
+          <lb ed="#P" n="90"/>potius quam re, sicut idolum vocatur Deus,
+          <lb ed="#P" n="91"/>cum non sit; vel certe, ut ibi ait Hieronymus,
+          <lb ed="#P" n="92"/>sceleratus pastor vocatur idolum, dum se 
+          ap<lb break="no" ed="#P" n="93"/>pellat Deum, et vult ab hominibus adorari.
+          <lb ed="#P" n="94"/>Et ita etiam potest intelligi Paulus, 1 Cor. 10,
+          <lb ed="#P" n="95"/>cum dicit idolum nihil esse, scilicet in ratione,
+          <lb ed="#P" n="96"/>qua Deum, vel personam summo honore 
+          di<lb break="no" ed="#P" n="97"/>gnam repraesentat. Unde post illa verba:
+          <lb ed="#P" n="98"/>Scimus quia nilil est idolum in mundo, 
+          suh<lb break="no" ed="#P" n="99"/>jungit : Ft quod nullus est Deus, nisi unus.
+          <lb ed="#P" n="100"/>Et ita etiam dicuntur idola non esse, Esth. 14,
+          <lb ed="#P" n="101"/>ut exposuit Hieronymus, Oseae T.
+        </p>
+        <p>
+          <lb ed="#P" n="102"/>5. Quaevis creatura quae tanquam Deus 
+          coli<lb break="no" ed="#P" n="103"/>tur, dicitur idolum. — Ex hac vero primaeva
+          <lb ed="#P" n="104"/>significatione, extensum est nomen idoli ad
+          <lb ed="#P" n="105"/>significandam quamcumque creaturam, quae
+          <lb ed="#P" n="106"/>tanquam Deus colitur, seu colenda proponitur
+          <lb ed="#P" n="107"/>supremo cultu, vero Deo debito, etiamsi talis
+          <lb ed="#P" n="108"/>res non sit imago, neque ut imago alterius
+          <lb ed="#P" n="109"/>falsi Dei adoretur, sed ut ipsemet falsus Deus,
+          <lb ed="#P" n="110"/>nam in hac significatione videtur profecto su-
+          <pb ed="#P" n="482"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mi in ipsomet nomine idololatria. Nam omnis
+          <lb ed="#P" n="2"/>adoratio creaturae, per quam ut Deus colitur,
+          <lb ed="#P" n="3"/>idololatria est; ergo omnis creatura sic 
+          ado<lb break="no" ed="#P" n="4"/>rata idolum est, etiamsi non in aliqua 
+          imagi<lb break="no" ed="#P" n="5"/>ne, sed in se, et propter se immediate 
+          adore<lb break="no" ed="#P" n="6"/>tur. Et similiter omnes, qui creaturam ut 
+          crea<lb break="no" ed="#P" n="7"/>torem adorant, in eis computantur, qui a
+          <lb ed="#P" n="8"/>Paulo vocantur , idolis servientes, 1 ad Cor. 5
+          <lb ed="#P" n="9"/>et 6, sive creaturae adoratae sint statuae, sive
+          <lb ed="#P" n="10"/>ignis aut aqua, et similia, quae Sap. 13 
+          nume<lb break="no" ed="#P" n="11"/>rantur, et rectores terrarum ac Deos putatos
+          <lb ed="#P" n="12"/>esse a Gentibus refertur; et qui eos adorabant,
+          <lb ed="#P" n="13"/>inter idololatras numerantur. Unde Paulus, 1
+          <lb ed="#P" n="14"/>ad Cor. 10, cum dixisset : Fugite ab idolorum
+          <lb ed="#P" n="15"/>cultura , subjungit : Que immotant Gentes,
+          <lb ed="#P" n="16"/>demoniis immolant. Et sic etiam Augustinus,
+          <lb ed="#P" n="17"/>lib. 5 Locutionum de Deut., in fine, idololatras
+          <lb ed="#P" n="18"/>inquit appellari, qui idolis serviunt, et 
+          idolo<lb break="no" ed="#P" n="19"/>latriam esse idolorum servitutem ; ubi nomine
+          <lb ed="#P" n="20"/>idolorum intelligere videtur omnes deos 
+          gen<lb break="no" ed="#P" n="21"/>tium, atque adeo quicquid creatum tanquam
+          <lb ed="#P" n="22"/>divinum numen ab eis colebatur. Atque eodem
+          <lb ed="#P" n="23"/>modo loquitur Athanasius, Orat. contra idola,
+          <lb ed="#P" n="24"/>aliquantulum a principio. Et Tertullianus, lib.
+          <lb ed="#P" n="25"/>de Idol., cap. 3, hacratione dixit, idololatriam
+          <lb ed="#P" n="26"/>agi posse sine idolo, id est, sine simulachro,
+          <lb ed="#P" n="27"/>et aliquando factam esse sine isto nomine, licet
+          <lb ed="#P" n="28"/>non sine isto operc. Unde signiticat nomen
+          <lb ed="#P" n="29"/>idoli et idololatriae non fuisse, donec 
+          simula<lb break="no" ed="#P" n="30"/>chra pro diis adoranda introducia sunt, rem
+          <lb ed="#P" n="31"/>autem ipsam, id est, idololatriae vitium, sine
+          <lb ed="#P" n="32"/>simulacris sensibilibus exerceri potuisse. Unde
+          <lb ed="#P" n="33"/>fit ut simili modo nomen idoli, licet ab statuis
+          <lb ed="#P" n="34"/>pro diis adorandis sumptum sit, nihilominus
+          <lb ed="#P" n="35"/>quatenus significat adaequatum objectum 
+          ido<lb break="no" ed="#P" n="36"/>lolatria, omnem rem creatam, quae tanquam
+          <lb ed="#P" n="37"/>verus Deus adoranda proponitur, 
+          comprehen<lb break="no" ed="#P" n="38"/>dat. Ex his ergo satis constare potest, et quid
+          <lb ed="#P" n="39"/>nomine idoli in voce idololatriae significetur,
+          <lb ed="#P" n="40"/>et quod sit hujus vitii objectum , quamvis
+          <lb ed="#P" n="41"/>ejusdem objecti ratio et modus magis in 
+          se<lb break="no" ed="#P" n="42"/>quentibus elucidanda sint.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>6. Latria est adoratio soli Deo debita.— 
+          Al<lb break="no" ed="#P" n="44"/>tera vero pars illius vocis est latria, quae cum
+          <lb ed="#P" n="45"/>omni proprietate ac rigore, intelligenda est
+          <lb ed="#P" n="46"/>de adoratione ac servitute soli Deo debita, ut
+          <lb ed="#P" n="47"/>exposuit Augustinus, d. lib. 5 Locutionum de
+          <lb ed="#P" n="48"/>Deut., et lib. i Quaest. in Gen., quaest. 61, et
+          <lb ed="#P" n="49"/>lib. 1 de Trinit., cap. 6. Et satis declaratur a
+          <lb ed="#P" n="50"/>Sap., d. cap. 13, ubi hanc latriam declarat per
+          <lb ed="#P" n="51"/>votum, orationem, et petitionem de omniuim
+          <lb ed="#P" n="52"/>rerum eventu, et c. 14, idem: declarat per 
+          cul<lb break="no" ed="#P" n="53"/>tum sacrorum et sacriticiorum ; imo addit
+          <lb ed="#P" n="54"/>etiam appellationem et aestimationem Dei; et
+          <lb ed="#P" n="55"/>incommunicabile , inquit, nomen lapidibus, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lignis imposuerunt. Et hoc idem est, quod
+          <lb ed="#P" n="57"/>Paulus ad Rom. 1 dixit: Mutaverunt gloriam
+          <lb ed="#P" n="58"/>incorruptibilis Dei in similtudinem imaginis
+          <lb ed="#P" n="59"/>corruptibilis hominis, et quadrupedum, et 
+          ser<lb break="no" ed="#P" n="60"/>pentum.
+        </p>
+        <p>
+          <lb ed="#P" n="61"/>7. Laítriam constare et internis et extermis
+          <lb ed="#P" n="62"/>actibus.— Ut autem explicetur quomodo latria
+          <lb ed="#P" n="63"/>potuerit idolis tribui, ac subinde committi 
+          vi<lb break="no" ed="#P" n="64"/>tium idololatriae, advertendum est, ex supra
+          <lb ed="#P" n="65"/>dictis, latriam et internis et externis actibus
+          <lb ed="#P" n="66"/>fieri posse. Et quidem internis, ut sit vera,
+          <lb ed="#P" n="67"/>on ficta adoratio, primo requirit actum 
+          in<lb break="no" ed="#P" n="68"/>tellectus, quo res adorabilis, seu quae adoranda
+          <lb ed="#P" n="69"/>proponitur, aestimetur, seu habeatur pro Deo.
+          <lb ed="#P" n="70"/>Deinde in voluntate requiritur voluntas et 
+          in<lb break="no" ed="#P" n="71"/>tentio adorandi, id est, exhibendi aliquod 
+          si<lb break="no" ed="#P" n="72"/>enum submissionis et recognitionis 
+          excellen<lb break="no" ed="#P" n="73"/>uae divina in tali re. Ultimo consummatur
+          <lb ed="#P" n="74"/>adoratio in exhibitione talis signi, vel 
+          interio<lb break="no" ed="#P" n="75"/>ris, si adoratio sit mere interna, vel exterioris,
+          <lb ed="#P" n="76"/>si externa sit. Haec ergo tria debent in 
+          idolo<lb break="no" ed="#P" n="77"/>latria concurrere circa idolum, ut omnino vera
+          <lb ed="#P" n="78"/>et consummata sit in suo genere, scilicet, 
+          opi<lb break="no" ed="#P" n="79"/>nio aliqua divinitatis de idolo, seu re quae
+          <lb ed="#P" n="80"/>adoratur, affectus adorationis, et adoratio ipsa,
+          <lb ed="#P" n="81"/>seu exhibitio signi submissionis, et 
+          recogni<lb break="no" ed="#P" n="82"/>tonis alicujus excellentiae divinae in re sic
+          <lb ed="#P" n="83"/>acorata; quae tria breviter a nobis explicanda
+          <lb ed="#P" n="84"/>sunt, ut ratio idololatriae exacte cognoscatur,
+          <lb ed="#P" n="85"/>et simul explicabitur multiplex modus ejus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

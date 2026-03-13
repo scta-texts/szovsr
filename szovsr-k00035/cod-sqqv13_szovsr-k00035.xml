@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="3"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k00035"><!-- t1-l1c1 -->
+        <head>Caput 1</head>
+        <head type="question-title">Religio unde dicta sit, et quomodo solius dei cultum proprie significet, licet ad alia etiam transferatur.</head>
+        <p>
+          <lb ed="#P" n="36"/>CAPUT I.
+          <lb ed="#P" n="37"/>RELIGIO UNDE DICTA SIT, ET QUOMODO SOLIUS
+          <lb ed="#P" n="38"/>DEI CULTUM PROPRIE SIGNIFICET, LICET AD ALIA
+          <lb ed="#P" n="39"/>ETIAM TRANSFERATUR.
+        </p>
+        <p>
+          <lb ed="#P" n="40"/>1. Religionis significatus ex D. Augustini
+          <lb ed="#P" n="41"/>aliorumque sententia. — Ex Latinis Patribus
+          <cb ed="#P" n="f"/>
+          <lb ed="#P" n="42"/>et Doctoribus, Augustinus, libro 10 de 
+          Civi<lb break="no" ed="#P" n="43"/>tate, cap. 1, quem imitatus est Jonas 
+          Aure<lb break="no" ed="#P" n="44"/>lianensis, lib. 1 de Cultu imaginum, ante 
+          me<lb break="no" ed="#P" n="45"/>dium, religionem dixit, juxta latine loquendi
+          <lb ed="#P" n="46"/>consuetudinem, non imperitorum, sed 
+          doctis<lb break="no" ed="#P" n="47"/>simorum, non significare solius Dei cultum,
+          <lb ed="#P" n="48"/>sed etiam officium quod hominibus cognatis
+          <lb ed="#P" n="49"/>et aftinibus, vel alia quacumque ratione 
+          no<lb break="no" ed="#P" n="50"/>bis conjunctis, exhibemus. Hanc tamen 
+          sen<lb break="no" ed="#P" n="51"/>tentiam expendens D. Thomas2. 2, quaestione
+          <lb ed="#P" n="52"/>octogesima prima, articulo primo, ad 
+          secun<lb break="no" ed="#P" n="53"/>dam, dicit Augustinum late religionis voce
+          <lb ed="#P" n="54"/>usum fuisse, et secundum vocis proprietatem
+          <lb ed="#P" n="55"/>soli Deo attributam esse, quod verum censeo,
+          <lb ed="#P" n="56"/>et hanc esse propriam et primaevam hujus
+          <lb ed="#P" n="57"/>vocis significationem, non solum ex usu et
+          <lb ed="#P" n="58"/>accommodatione Latinorum Patrum, quod
+          <lb ed="#P" n="59"/>certum est, sed etiam apud Latinos auctores.
+          <lb ed="#P" n="60"/>Nam Cicero, lib. 2 de Inventione : Religio, in-
+          <pb ed="#P" n="4"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quit, est, quae superioris cujusdum nature,
+          <lb ed="#P" n="2"/>quam divinam vocant, curam cueremoniamque
+          <lb ed="#P" n="3"/>affert. Quam definitionem usurpavit 
+          Augus<lb break="no" ed="#P" n="4"/>tinus, lib. 83 Quaestionum, quaestione 31, et
+          <lb ed="#P" n="5"/>in hac significatione a nobis in hac materia
+          <lb ed="#P" n="6"/>usurpatur. Ad cognatos autem, nobisque 
+          con<lb break="no" ed="#P" n="7"/>junctos, pietas, vel amicitia, aut observantia
+          <lb ed="#P" n="8"/>haberi dicitur, non autem religio, nisi fortasse
+          <lb ed="#P" n="9"/>quatenus vel per exaggerationem, vel per
+          <lb ed="#P" n="10"/>translationem (ut infra declarabo), quidquid
+          <lb ed="#P" n="11"/>magna cura et studio animi fit, es religione
+          <lb ed="#P" n="12"/>vel religiose fieri dicitur, vel etiam quatenus
+          <lb ed="#P" n="13"/>ipsamet Dei religio beneficentiam 
+          proximo<lb break="no" ed="#P" n="14"/>rum, et praecipue nobis conjunctorum 
+          impe<lb break="no" ed="#P" n="15"/>rat, juxta illud Jacobi 1: Aeligio munda et
+          <lb ed="#P" n="16"/>immaculata heec est, visitare pupillos et viduas
+          <lb ed="#P" n="17"/>in tribulatione eorum.
+        </p>
+        <p>
+          <lb ed="#P" n="18"/>2. Religionis etymologia a verbo relinquo
+          <lb ed="#P" n="19"/>refertur. — Qui crediderint a verbo religo 
+          de<lb break="no" ed="#P" n="20"/>ductum religionis nomen.—heligio ergo Deum
+          <lb ed="#P" n="21"/>solum ejusque cultum respicit. Quam 
+          signifi<lb break="no" ed="#P" n="22"/>cationem ex ipsa vocis origine seu 
+          etymolo<lb break="no" ed="#P" n="23"/>gia colligere possumus, quae multiplex eiiam
+          <lb ed="#P" n="24"/>ab auctoribus traditur. Primo enim quidam
+          <lb ed="#P" n="25"/>religionis nomen deducere voluerunt a verbo
+          <lb ed="#P" n="26"/>relinguo, quia religiosum illud esse dicitur,
+          <lb ed="#P" n="27"/>quod propter sanctitatem aliquam remotum
+          <lb ed="#P" n="28"/>est ac separatum a communi usu. Ita refert,
+          <lb ed="#P" n="29"/>ex Masurio Sabino, Aulus Gellius, lib. 4 
+          Noc<lb break="no" ed="#P" n="30"/>tium Atticar., cap. 9. Nimis autem remota
+          <lb ed="#P" n="31"/>videtur deductio haec, sive effectum ex quo
+          <lb ed="#P" n="32"/>desumitur, sive ipsarum vocum 
+          dissimilitudi<lb break="no" ed="#P" n="33"/>nem consideremus. Secundo, existimatum
+          <lb ed="#P" n="34"/>est vocem raligio, a verbo religendi derivatum
+          <lb ed="#P" n="35"/>esse. Sic D. Augustinus, 10 de Civit., cap 4,
+          <lb ed="#P" n="36"/>de Deo loquens: Ipse (inquit) fons nostre
+          <lb ed="#P" n="37"/>beatitudinis , ipse omnis appetitionis est finis ;
+          <lb ed="#P" n="38"/>hunc eligentes vel potius religentes , umiseramus
+          <lb ed="#P" n="39"/>enim negligentes ; hunc ergo religentes, unde
+          <lb ed="#P" n="40"/>et religio dicta perhibetur, ad eum dilectione
+          <lb ed="#P" n="41"/>tendimus, etc. Ejusdem meminit 1 Retractat.,
+          <lb ed="#P" n="42"/>cap. 13, eamque tribuit Latini sermonis 
+          au<lb break="no" ed="#P" n="43"/>ctoribus, Ciceronem subindicans ; fortasse
+          <lb ed="#P" n="44"/>enim ita intellexit illa verba Ciceronis, 
+          se<lb break="no" ed="#P" n="45"/>cundo de Natura Deorum: Z dicti religiosi,
+          <lb ed="#P" n="46"/>ex veligendo, tanguam eligendo eligentes, et
+          <lb ed="#P" n="47"/>diligendo diligentes, intelligendo intelligentes.
+          <lb ed="#P" n="48"/>Verumtamen constat Ciceronem in alio sensu
+          <lb ed="#P" n="49"/>locutum esse, ut statim dicam. Aliqui etiam
+          <lb ed="#P" n="50"/>putant Isidorum hanc sequi etymologiam, 
+          li<lb break="no" ed="#P" n="51"/>cet in alio sensu, scilicet, quia religiosi Deum
+          <lb ed="#P" n="52"/>religant, non quem amiserant, sed quem
+          <lb ed="#P" n="53"/>prius elegerant. Verumtamen Isidorus nihil
+          <lb ed="#P" n="54"/>aliud facit, quam sententiam Ciceronis sequi
+          <lb ed="#P" n="55"/>ct referre.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>3. Religio a verbo religo haudquaquam 
+          de<lb break="no" ed="#P" n="57"/>rivatur. — Denique Augustinus ipse in ea
+          <lb ed="#P" n="58"/>sententia non permansit, neque nobis placet,
+          <lb ed="#P" n="59"/>sive vocem, sive rem attendamus. Nam 
+          im<lb break="no" ed="#P" n="60"/>primis nullum est verbum proprium Latinum
+          <lb ed="#P" n="61"/>religendi, ex quo illa vox deduci potuerit, imo
+          <lb ed="#P" n="62"/>nec religo usitatum invenitur. Quin etiamsi
+          <lb ed="#P" n="63"/>illud admittamus, non tam significabit eligere
+          <lb ed="#P" n="64"/>quod neglectum erat, quam iterum eligere
+          <lb ed="#P" n="65"/>quod jam erat electum; sicut religare non 
+          si<lb break="no" ed="#P" n="66"/>enificare ligare ea quae soluta erant, sed 
+          ite<lb break="no" ed="#P" n="67"/>rum ligare ea quae jam erant hgata. Accedit
+          <lb ed="#P" n="68"/>quod eligere Deum jam negligenter amissum,
+          <lb ed="#P" n="69"/>vel non est munus religionis, sed poenitentiae;
+          <lb ed="#P" n="70"/>vel, si poenitentia aliquo modo sub religione
+          <lb ed="#P" n="71"/>continetur, illud munus est quasi 
+          secunda<lb break="no" ed="#P" n="72"/>rium et accidentarium; nam religio per se
+          <lb ed="#P" n="73"/>respicit Deum, et ad illum tendit, etiamsi
+          <lb ed="#P" n="74"/>nunquam negligenter amissus sit. Non est
+          <lb ed="#P" n="75"/>crgo verisimile, nomen religionis fuisse 
+          trac<lb break="no" ed="#P" n="76"/>tum ex comparatione (ut sic dicam) ad 
+          prio<lb break="no" ed="#P" n="77"/>rem negligentiam, seu ad negligentem Dei
+          <lb ed="#P" n="78"/>amissionem.
+        </p>
+        <p>
+          <lb ed="#P" n="79"/>4. Religionem a verbo relego dictam dixit
+          <lb ed="#P" n="80"/>Tullius.— Tertio igitur derivata censetur vox
+          <lb ed="#P" n="81"/>religio a verbo velegendi, quia nimirum ea
+          <lb ed="#P" n="82"/>quae ad Dei cultum pertinent iterum atque
+          <lb ed="#P" n="83"/>iterum legenda seu cogitanda sunt. Ita Cicero,
+          <lb ed="#P" n="84"/>lib. 2 de Natura Deorum, quem secutus est
+          <lb ed="#P" n="85"/>Isidor., lib. 10 Originum, litt. R, in princip.
+          <lb ed="#P" n="86"/>Quorum sensus constat ex illis Ciceronis 
+          ver<lb break="no" ed="#P" n="87"/>bis: Qui omnia quee ad cultum Dei pertinerent,
+          <lb ed="#P" n="88"/>retractarent et relegerent, li dicti sunt 
+          reli<lb break="no" ed="#P" n="89"/>giosi, a relegendo. Alia autem verba supra 
+          ci<lb break="no" ed="#P" n="90"/>tata adducuntur tanquam exempla, non quia
+          <lb ed="#P" n="91"/>ex verbo eligendi, aut religendi, in alia 
+          signi<lb break="no" ed="#P" n="92"/>ficatione sumpta sit etymologia, sed ex hac
+          <lb ed="#P" n="93"/>qua proprie significat legere, quatenus ad 
+          co<lb break="no" ed="#P" n="94"/>gnitionem ordinatur. Estque probabilis 
+          de<lb break="no" ed="#P" n="95"/>ductio, sive vocum similitudinem, sive munus
+          <lb ed="#P" n="96"/>ipsum religionis spectemus.
+        </p>
+        <p>
+          <lb ed="#P" n="97"/>5. Religionem a religando Lactantius 
+          deri<lb break="no" ed="#P" n="98"/>vavit. — Nihiiominus Lactantius, lib. 4 de
+          <lb ed="#P" n="99"/>Vera sapientia, cap. 28, Ciceronem in hoc 
+          de<lb break="no" ed="#P" n="100"/>serit, et religionem ex verbo religandi 
+          dedu<lb break="no" ed="#P" n="101"/>cit, dicens: Hac conditione gignimur, ut 
+          ge<lb break="no" ed="#P" n="102"/>neratà nos Deo justa et debita obsequna 
+          praebea<lb break="no" ed="#P" n="103"/>mus, hunc solum noverimus, hunc sequamur,
+          <lb ed="#P" n="104"/>hoc vinculo pietatis obstricti, Deo et religati
+          <lb ed="#P" n="105"/>sumus, unde ipsa religio nomen accepit, non,
+          <lb ed="#P" n="106"/>ut Cicero interpretatus est, a relegendo. Atque
+          <lb ed="#P" n="107"/>hanc Lactantii sententiam approbarunt D.
+          <lb ed="#P" n="108"/>Hicronymus circa illa verba Amos 9: Qui 
+          edi<lb break="no" ed="#P" n="109"/>ficat in celo ascensionem suam, et fasciculum
+          <lb ed="#P" n="110"/>suum super terram fundavit, et D. Augusti-
+          <pb ed="#P" n="5"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nus, lib. de Vera religione, cap. ult., qui 
+          pri<lb break="no" ed="#P" n="2"/>mam suam etymologiam retractat, lib. 1 
+          Re<lb break="no" ed="#P" n="3"/>tract.. cap. 13. Atque haec sententia est 
+          maxi<lb break="no" ed="#P" n="4"/>me verisimilis, sive spectemus vocum 
+          allu<lb break="no" ed="#P" n="5"/>sionem et propinquitatem, sive munus ipsum
+          <lb ed="#P" n="6"/>religionis.
+        </p>
+        <p>
+          <lb ed="#P" n="7"/>6. In quo Lactantius et Hieronymus 
+          dissi<lb break="no" ed="#P" n="8"/>deant. — Approbatur ea sententia, quae 
+          Beli<lb break="no" ed="#P" n="9"/>gionem ita dictam credit, quia religat homines
+          <lb ed="#P" n="10"/>Deo. — Est autem differentia inter 
+          Lactan<lb break="no" ed="#P" n="11"/>tium et Hieronymum: Lactantius enim vult
+          <lb ed="#P" n="12"/>religionem esse dictam, quia ipsa Deo 
+          homi<lb break="no" ed="#P" n="13"/>nes ligat; Hieronymus vero quia ipsos 
+          homi<lb break="no" ed="#P" n="14"/>nes inter se ligat, et quasi in unum congregat
+          <lb ed="#P" n="15"/>ad colendum Deum;; et ideo ait. gregem 
+          jus<lb break="no" ed="#P" n="16"/>torum seu electorum fasciculum appellari, quia
+          <lb ed="#P" n="17"/>una Domini religione constrictus est ; unde et
+          <lb ed="#P" n="18"/>ipsa religio a religando, et in fascem Domini
+          <lb ed="#P" n="19"/>vinciendo, nomen accepit. Lactantium videtur
+          <lb ed="#P" n="20"/>sequi Bernardus, lib. de Natura et dignitate
+          <lb ed="#P" n="21"/>divini amoris, cap. 15, dicens: Corporalibus
+          <lb ed="#P" n="22"/>religamur sacramentis, ne a Deo recedamus,
+          <lb ed="#P" n="23"/>unde et/am a religando religio dicitur. E 
+          con<lb break="no" ed="#P" n="24"/>trario Abulens., Exodi 12. sub quaest. 419: 
+          He<lb break="no" ed="#P" n="25"/>ligio, inquit, dicitur modus specialis colendi
+          <lb ed="#P" n="26"/>Deum, sive verum, sive falsos Deos. 
+          vocatur<lb break="no" ed="#P" n="27"/>que religio a religando, quia religant se 
+          homi<lb break="no" ed="#P" n="28"/>nes illi modo vivendi, et colendi Deum. Mihi
+          <lb ed="#P" n="29"/>magis placet ut religio dicatur, quia ipsamet
+          <lb ed="#P" n="30"/>religat homines Deo. Nam expositio 
+          Hiero<lb break="no" ed="#P" n="31"/>nymi est quidem accommodatissima ad eam
+          <lb ed="#P" n="32"/>significationem, qua vox religio pro statu 
+          re<lb break="no" ed="#P" n="33"/>ligioms accipitur; tamen quia illa primaeva
+          <lb ed="#P" n="34"/>non est, sed derivata, ut infra dicam, ideo
+          <lb ed="#P" n="35"/>Lactantii consideratio potior videtur, et 
+          pri<lb break="no" ed="#P" n="36"/>mario effectui religionis accommodatior. 
+          Re<lb break="no" ed="#P" n="37"/>ligio enim primum omnium unit nos Deo;
+          <lb ed="#P" n="38"/>hinc vero consequenter fit, ut qui eumdem
+          <lb ed="#P" n="39"/>Deum colunt, aliquo modo inter se colligati
+          <lb ed="#P" n="40"/>maneant, magis autem vel minus, juxta 
+          ra<lb break="no" ed="#P" n="41"/>tionem cultus.
+        </p>
+        <p>
+          <lb ed="#P" n="42"/>7. Discrimen inter D. Augustini 
+          Lactanti<lb break="no" ed="#P" n="43"/>que sententiam.— Ligantur non solum dissoluta
+          <lb ed="#P" n="44"/>sed ligata, ut firmius adhereant, qui sensus
+          <lb ed="#P" n="45"/>optime quadrat in religione. — Rursus vero
+          <lb ed="#P" n="46"/>considerari potest aliud discrimen inter 
+          Lac<lb break="no" ed="#P" n="47"/>tantium et Augustinum, nam Lactantius 
+          si<lb break="no" ed="#P" n="48"/>gnificat religionem dictam esse ab illo 
+          vin<lb break="no" ed="#P" n="49"/>culo naturali, quo Deo obligamur ex propria
+          <lb ed="#P" n="50"/>naturae conditione; Augustinus autem potius
+          <lb ed="#P" n="51"/>dictam significat, quia huic vinculo novum
+          <lb ed="#P" n="52"/>vinculum superaddit. Quod exphcuit D. 
+          Tho<lb break="no" ed="#P" n="53"/>mas, Opusc. 19, contra impugnantes 
+          religio<lb break="no" ed="#P" n="54"/>nem, cap. 1, dicens: Religio iteratam 
+          liga<lb break="no" ed="#P" n="55"/>tionem importans, ostendit ad illum aliquem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ligari, cui primo conjunctus fuerat, et ab eo
+          <lb ed="#P" n="57"/>distare incepit, et quia omnis creatura prius
+          <lb ed="#P" n="58"/>in Deo extitit, quam in seipsa. et a Deo 
+          pro<lb break="no" ed="#P" n="59"/>cessit, qucdamodo ab eo distare incipiens 
+          se<lb break="no" ed="#P" n="60"/>cunduw. essentiam per crentionem , ideo 
+          ratio<lb break="no" ed="#P" n="61"/>nalis creatura ad ipsum Deum debet religari,
+          <lb ed="#P" n="62"/>cui primo conjuncta fuerat, antequam esset, ut
+          <lb ed="#P" n="63"/>sic ad locum unde exeunt, flumina revertantur.
+          <lb ed="#P" n="64"/>Qua esplicatio subtilis quidem est, magis
+          <lb ed="#P" n="65"/>vero favet sententiae Lactantii, quatenus 
+          de<lb break="no" ed="#P" n="66"/>clarat cur ipsum naturale vinculum 
+          subjectio<lb break="no" ed="#P" n="67"/>nis rationalis creatuvcae ad Deum, dicatur 
+          po<lb break="no" ed="#P" n="68"/>tius religio quam ligamentum. Tamen nimis
+          <lb ed="#P" n="69"/>metaphorica minusque propria videtur illa
+          <lb ed="#P" n="70"/>deductio; nam creaturae, prout sunt in Deo,
+          <lb ed="#P" n="71"/>non tam dici possunt alligatae Deo, quam esse
+          <lb ed="#P" n="72"/>ipsemet Deus; solum ergo ligantur illi, 
+          qua<lb break="no" ed="#P" n="73"/>tenus sunt in se productae, et ab illo 
+          distin<lb break="no" ed="#P" n="74"/>ctae ; ergo primum vinculum quo illi 
+          conjun<lb break="no" ed="#P" n="75"/>guntur, non proprie dicitur religio, sed 
+          liga<lb break="no" ed="#P" n="76"/>mentum tantum. Nec dicuntur tantum religari
+          <lb ed="#P" n="77"/>quae dissoluta jam sunt, cum prius fuerint
+          <lb ed="#P" n="78"/>ligata, sed etiam et forte proprius illa quae,
+          <lb ed="#P" n="79"/>licet ligata jam sint, ut fortius adhaereant et
+          <lb ed="#P" n="80"/>non dissolvantur, iterum religantur. Juxta
+          <lb ed="#P" n="81"/>hanc ergo proprietatem videtur religionis 
+          no<lb break="no" ed="#P" n="82"/>men recte posse explicari ; nam cum creatura
+          <lb ed="#P" n="83"/>rationalis per naturale debitum et inditam
+          <lb ed="#P" n="84"/>propensionem ligata sit ad colendum unum
+          <lb ed="#P" n="85"/>auctorem suum, per voluntariam electionem
+          <lb ed="#P" n="86"/>et superadditam habitus inclinationem 
+          reli<lb break="no" ed="#P" n="87"/>gatur ; et ideo virtus quae hoc officium 
+          prae<lb break="no" ed="#P" n="88"/>stat, religio dici potuit.
+        </p>
+        <p>
+          <lb ed="#P" n="89"/>8. Cum rationalis creatura naturalter Deo
+          <lb ed="#P" n="90"/>sit subjecta et alligata, merito veligio illa 
+          di<lb break="no" ed="#P" n="91"/>citur. quae hoc vinculum religat. — Quod si
+          <lb ed="#P" n="92"/>fortasse objiciat aliquis hanc considerationem
+          <lb ed="#P" n="93"/>habere locum in omni habitu, nam auget
+          <lb ed="#P" n="94"/>inclinationem potentiae, et ita quasi iterato
+          <lb ed="#P" n="95"/>eam ligat suo objecto, respondemus hoc nihil
+          <lb ed="#P" n="96"/>referre; tum quia potuit haec ratio in hov 
+          no<lb break="no" ed="#P" n="97"/>mine imponendo considerari, et non in aliis;
+          <lb ed="#P" n="98"/>tum etiam quia haec propensio rationalis 
+          crea<lb break="no" ed="#P" n="99"/>turae ad suum creatorem maxima est; nam
+          <lb ed="#P" n="100"/>quia est perfectissima subjectio et servitus,
+          <lb ed="#P" n="101"/>magnum debitum et obligationem inducit,
+          <lb ed="#P" n="102"/>ideoque merito vinculum, seu ligamen 
+          dici<lb break="no" ed="#P" n="103"/>tur; et quia haec est nobilitas creatura 
+          ratio<lb break="no" ed="#P" n="104"/>nalis, ut per se et ex vi suae originis, ad 
+          nul<lb break="no" ed="#P" n="105"/>lum alium, nisi ad Deum, ut ad finem, 
+          ordi<lb break="no" ed="#P" n="106"/>netur, ideo quasi per antonomasiam soli Dco
+          <lb ed="#P" n="107"/>naturaliter alligata censetur ; merito ergo illa
+          <lb ed="#P" n="108"/>virtus, quae hoc vinculum confirmat, et 
+          debi<lb break="no" ed="#P" n="109"/>tum solvit, religio dicta est. Unde etiam 
+          obi<lb break="no" ed="#P" n="110"/>ter intelligitur, ubi novum vinculum voti sup-
+          <pb ed="#P" n="6"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>peradditur in ordine ad hunc ipsum cultum,
+          <lb ed="#P" n="2"/>ibi specialiori quadam ratione quadrare 
+          no<lb break="no" ed="#P" n="3"/>men religionis, hoc modo deductum, ideoque
+          <lb ed="#P" n="4"/>ratio sic vivendi, et colendi Deum, fere jam
+          <lb ed="#P" n="5"/>sibi usurpavit in Ecclesia hoc nomen 
+          religio<lb break="no" ed="#P" n="6"/>nis simpliciter dictum.
+        </p>
+        <p>
+          <lb ed="#P" n="7"/>9. Aliae religionis significationes per 
+          habi<lb break="no" ed="#P" n="8"/>tudinem ad vinculum deducte.— Ultimo, ex his
+          <lb ed="#P" n="9"/>quae dicta sunt de propria significatione, et
+          <lb ed="#P" n="10"/>etymologia hujus vocis, intelligere licet, si
+          <lb ed="#P" n="11"/>quas alias significationes habet haec vox, 
+          de<lb break="no" ed="#P" n="12"/>ductas esse aliquo modo ex comparatione vel
+          <lb ed="#P" n="13"/>habitudine ad vinculum cum Deo jam 
+          decla<lb break="no" ed="#P" n="14"/>ratum, etiamsi aliquid immediate ad Deum
+          <lb ed="#P" n="15"/>ordinatum continere non videantur. Ut, verbi
+          <lb ed="#P" n="16"/>gratia, religio apud Latinos aliquando sumi
+          <lb ed="#P" n="17"/>solet pro anaia cura ; sic Cicero de Clar.
+          <lb ed="#P" n="18"/>Orat., dixit quorumdam hominum orationem
+          <lb ed="#P" n="19"/>esse attenuatam nima religione, id est, 
+          solli<lb break="no" ed="#P" n="20"/>citudine. Nam quia in divino cultu maxima
+          <lb ed="#P" n="21"/>cura adhibenda est, et illa caeteris curis 
+          prae<lb break="no" ed="#P" n="22"/>ferenda, ideo translata est haec vox ad 
+          signi<lb break="no" ed="#P" n="23"/>ficandam quamdam nimiam anxietatem in
+          <lb ed="#P" n="24"/>aliqua re agenda. Simili modo, religionis 
+          no<lb break="no" ed="#P" n="25"/>mine signif.cari solet scrupulus conscientiae,
+          <lb ed="#P" n="26"/>ac timor, juxta illud Pamphili apud 
+          Teren<lb break="no" ed="#P" n="27"/>tium in Andrian.: Dignus es odio cum tua 
+          re<lb break="no" ed="#P" n="28"/>ligione, id est, cum timore et scrupulo. 
+          Quo<lb break="no" ed="#P" n="29"/>modo est frequens apud Ciceronem, 
+          religio<lb break="no" ed="#P" n="30"/>nem injicere, id est, conscientiae scrupulum ;
+          <lb ed="#P" n="31"/>aliquid esse religioni, id est, in debito 
+          con<lb break="no" ed="#P" n="32"/>scientie, et similia. Intellexisse enim suo
+          <lb ed="#P" n="33"/>modo videntur etiam philosophi, timorem
+          <lb ed="#P" n="34"/>conscientiae ad cultum Dei aliquo modo 
+          per<lb break="no" ed="#P" n="35"/>tinere; et e converso contra conscientiarn
+          <lb ed="#P" n="36"/>agere, nihil aliud esse quam Deum offendere.
+          <lb ed="#P" n="37"/>Sic ergo religionis vox ex significatione divini
+          <lb ed="#P" n="38"/>cultus ad significandum conscientiae 
+          scrupu<lb break="no" ed="#P" n="39"/>lum translata est ; et inde etiam ulterius ad
+          <lb ed="#P" n="40"/>significandum nimium scrupulum, vel 
+          ti<lb break="no" ed="#P" n="41"/>morem in aliis rebus vel actionibus traducta
+          <lb ed="#P" n="42"/>est.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>10. Tandem debitum officium in 
+          quocum<lb break="no" ed="#P" n="44"/>que munere praestando, solet etiam a Latinis
+          <lb ed="#P" n="45"/>religionis significari. Quod forte significavit
+          <lb ed="#P" n="46"/>Augustinus, in principio citatus, cum dixit 
+          re<lb break="no" ed="#P" n="47"/>ligionem etiam dici ad cognatos vel affines.
+          <lb ed="#P" n="48"/>Generalius autem dixit Cicero, 4in Ver.: Ego
+          <lb ed="#P" n="49"/>quos adhuc magistratus mihi popgulus 
+          Roma<lb break="no" ed="#P" n="50"/>nus mandavit, sic accepi, ut me omnium 
+          offi<lb break="no" ed="#P" n="51"/>ciorum veligione obstringi arbitrarer. Quae 
+          ex<lb break="no" ed="#P" n="52"/>tensio eamdem fere rationem habet quam
+          <lb ed="#P" n="53"/>praecedentes ; nam debitum officium praestare
+          <lb ed="#P" n="54"/>in omnibus, eatenus ad divinum cultum 
+          per<lb break="no" ed="#P" n="55"/>timere potest, quatenus in eo deficere redun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dat in offensionem De1; vel certe, quia honor
+          <lb ed="#P" n="57"/>divinus est officium maxime debitum, per
+          <lb ed="#P" n="58"/>quamdam analogiam ad illud, omne debitum
+          <lb ed="#P" n="59"/>officium, religionis nomine appellatur. Omnes
+          <lb ed="#P" n="60"/>ergo hae significationes hujus vocis, per 
+          ex<lb break="no" ed="#P" n="61"/>tensionem quamdam derivatae sunt a 
+          princi<lb break="no" ed="#P" n="62"/>pali et propria, qua religio solius Dei cultum
+          <lb ed="#P" n="63"/>importat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

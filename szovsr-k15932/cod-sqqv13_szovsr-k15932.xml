@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="639"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k15932"><!-- t3-l4c4 -->
+        <head>Caput 4</head>
+        <head type="question-title">An in peccato simoniae sit tantum malitia contra religionem, an etiam contra justitiam.</head>
+        <p>
+          <lb ed="#P" n="85"/>CAPUT IV.
+          <lb ed="#P" n="86"/>AN IN PECCATO SIMONIAE SIT TANTUM MALITIA
+          <lb ed="#P" n="87"/>CONTRA RELIGIONEM, AN ETIAM CONTRA 
+          JUS<lb break="no" ed="#P" n="88"/>TITIAM.
+        </p>
+        <p>
+          <lb ed="#P" n="89"/>1. Ratio dubitandi.— Ex dictis in duobus
+          <lb ed="#P" n="90"/>capitibus praecedentibus, et ex rationibus 
+          qui<lb break="no" ed="#P" n="91"/>bus malitiam simoniae declaravimus, nascitur
+          <lb ed="#P" n="92"/>occasio praesentis quaestionis, et ideo visa est
+          <lb ed="#P" n="93"/>hoc in loco necessario. Ratio autem dubitandi
+          <lb ed="#P" n="94"/>est, quia vendere rem alienam invito domino,
+          <lb ed="#P" n="95"/>non solum est contra religionem, sed etiam
+          <lb ed="#P" n="96"/>contra justitiam ; sed simonia est venditio rei
+          <lb ed="#P" n="97"/>alienae invito domino; ergo est contra 
+          justi<lb break="no" ed="#P" n="98"/>tiam. Item, qui vendit pretio rem non 
+          aesti<lb break="no" ed="#P" n="99"/>mabilem pretio, contra justitiam peccat; sed
+          <lb ed="#P" n="100"/>res spiritnalis non est pretio aestimabilis; ergo.
+          <lb ed="#P" n="101"/>Denique hac ratione usura est contra 
+          justi<lb break="no" ed="#P" n="102"/>tiam, quia mutuum pretio venditur, cum 
+          ip<lb break="no" ed="#P" n="103"/>sum pretio aestimabile non sit ; ergo similiter
+          <lb ed="#P" n="104"/>simonia. Atque ita videtur sentire Soto, dicto
+          <lb ed="#P" n="105"/>libro 9, quaest. 5, art. 2, quem anqui 
+          moder<lb break="no" ed="#P" n="106"/>ni secuti sunt. Non est iamen facile 
+          praecipi<lb break="no" ed="#P" n="107"/>tanda sententia, quia hinc pendet resolutio
+          <pb ed="#P" n="640"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>eorum, quae de obligatione restituendi 
+          simo<lb break="no" ed="#P" n="2"/>niace accepta infra tractanda sunt.
+        </p>
+        <p>
+          <lb ed="#P" n="3"/>2. In simonia datur injustitia ad Deum, quee
+          <lb ed="#P" n="4"/>malitia est contra religionem.—bistingui ergo
+          <lb ed="#P" n="5"/>debet injustitia vel respectu Dei, vel respectu
+          <lb ed="#P" n="6"/>hominis, cui res spiritualis venditur. Quod ad
+          <lb ed="#P" n="7"/>Deum attinet, injustitia contra illum 
+          committi<lb break="no" ed="#P" n="8"/>tur; et hoe probatad summum prima ratio facta,
+          <lb ed="#P" n="9"/>quia res spiritualis, quam ego vendo, ncn est
+          <lb ed="#P" n="10"/>hominis cui illam vendo, sed est Dei; et ideo
+          <lb ed="#P" n="11"/>si aliqua est injustitia in tali venditione, 
+          qua<lb break="no" ed="#P" n="12"/>tenus est contra voluntatem domini, et ultra
+          <lb ed="#P" n="13"/>facultatem dispensandi talem rem ab ipso 
+          da<lb break="no" ed="#P" n="14"/>tam, solum est respectu Dei. Haec vero mali
+          <lb ed="#P" n="15"/>tia non est contra aliam virtutem praeter 
+          reli<lb break="no" ed="#P" n="16"/>gionem, quia, ut supra ostendimus, justitia
+          <lb ed="#P" n="17"/>ad Deum non est nisi religio; nec intra hanc
+          <lb ed="#P" n="18"/>virtutem sunt ibi duae malitiae: una, contra
+          <lb ed="#P" n="19"/>venerationem et aestimationem debitam rebus
+          <lb ed="#P" n="20"/>sacris, et alia contra Deum, seu dominium
+          <lb ed="#P" n="21"/>ejus ; quia haec injustitia non tam est in 
+          alie<lb break="no" ed="#P" n="22"/>natione vel destructione rei alienae, quam in
+          <lb ed="#P" n="23"/>modo. Unde injustitia haec non consistit in
+          <lb ed="#P" n="24"/>damno illato domino rei; Deus enim non
+          <lb ed="#P" n="25"/>privatur dominio ialis rei; nam cuicumque
+          <lb ed="#P" n="26"/>conferatur, semper illius est, et ipse non 
+          ve<lb break="no" ed="#P" n="27"/>tuit dare illam alteri, sed tantum dare tali
+          <lb ed="#P" n="28"/>modo, venditione scilicet, vel aequivalenti 
+          pa<lb break="no" ed="#P" n="29"/>cto. Et ita tota haec injustitia respectu Dei 
+          re<lb break="no" ed="#P" n="30"/>ducitur ad irreverentiam quae fit Deo, non
+          <lb ed="#P" n="31"/>debito modo utendo tali re, cui etiam rei 
+          de<lb break="no" ed="#P" n="32"/>rogatur per eumdem modum concessionis
+          <lb ed="#P" n="33"/>ejus; et ita tota ibi est una malitia, quae 
+          si<lb break="no" ed="#P" n="34"/>mul est contra Deum et rem sacram; seu
+          <lb ed="#P" n="35"/>contra Deum, per indebitum usum rei 
+          sa<lb break="no" ed="#P" n="36"/>crae.
+        </p>
+        <p>
+          <lb ed="#P" n="37"/>3. Solvitur primum argumentum.—Ekx hinc
+          <lb ed="#P" n="38"/>fit, ut hic modus injustitiae, tam ex parte
+          <lb ed="#P" n="39"/>ementis, quam ex parte vendentis reperiatur,
+          <lb ed="#P" n="40"/>licet ratio in objectione facta solum de 
+          ven<lb break="no" ed="#P" n="41"/>dente in rigore procedat ; nam qui potest rem
+          <lb ed="#P" n="42"/>alicujus domini accipere a dispensatore ejus
+          <lb ed="#P" n="43"/>si gratis illam donet, non facit injuriam 
+          do<lb break="no" ed="#P" n="44"/>mino ejusdem rei, si a dispensatore, nolente
+          <lb ed="#P" n="45"/>gratis eam dare, illam emat. Nam potius ipse
+          <lb ed="#P" n="46"/>qui emit, in hoc potest pati injuriam. Sic 
+          so<lb break="no" ed="#P" n="47"/>lent pauperes, quibus testamento legantur 
+          cen<lb break="no" ed="#P" n="48"/>sus , quando haeres vel curator animae 
+          negli<lb break="no" ed="#P" n="49"/>gens est vel iniquus, et ditfert solutionem, vel
+          <lb ed="#P" n="50"/>tergiversatur, remittere partem, ut aliquid sine
+          <lb ed="#P" n="51"/>difficultate accipiant ; quae remissio emptio
+          <lb ed="#P" n="52"/>quaedam est, nulli tamen est injuriosa, et tales
+          <lb ed="#P" n="53"/>esse possunt circumstantiae , ut non sit iniqua
+          <lb ed="#P" n="54"/>ex parte pauperum, licet sit injusta ex parte
+          <lb ed="#P" n="55"/>dispensatoris. At in proposito etiam emens rem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sacram injuste agit contra Deum eodem 
+          ge<lb break="no" ed="#P" n="57"/>nere injustitiae ; quia, licet non sit contra 
+          vo<lb break="no" ed="#P" n="58"/>Iuntatem domini talis rei, ut talis persona 
+          il<lb break="no" ed="#P" n="59"/>lam accipiat et habeat, est tamen contra ejus
+          <lb ed="#P" n="60"/>voluntatem, ut accipiat tali modo, scilicet,
+          <lb ed="#P" n="61"/>per emptionem, et cum irreverentia, et 
+          vili<lb break="no" ed="#P" n="62"/>pendio rei sacrae; tota vero haec injustitia, ut
+          <lb ed="#P" n="63"/>dixi, non transcendit rationem sacrilegii tali
+          <lb ed="#P" n="64"/>modo , et in tali specie commissi. Et ita 
+          res<lb break="no" ed="#P" n="65"/>ponsum est ad primam rationem.
+        </p>
+        <p>
+          <lb ed="#P" n="66"/>4. Solvitur secundum ar gumentum.—
+          Pro<lb break="no" ed="#P" n="67"/>batur in simonia nulli fieri injyurium ab emente.
+          <lb ed="#P" n="68"/>— Secunda vero ratio procedit de injustitia
+          <lb ed="#P" n="69"/>propria et commutativa, quae est respectu 
+          ho<lb break="no" ed="#P" n="70"/>minis. Ad quam imprimis dico malitiam 
+          in<lb break="no" ed="#P" n="71"/>justitiae non semper conjungi seu involvi cum 
+          <lb ed="#P" n="72"/>malitia simoniae. Hoc patet imprimis ex parte
+          <lb ed="#P" n="73"/>ementis : ille enim vere ac perfecte 
+          simonia<lb break="no" ed="#P" n="74"/>cus est, et tamen nulli homini facit injuriam
+          <lb ed="#P" n="75"/>(loquor enim ex sola rei natura, seclusis
+          <lb ed="#P" n="76"/>legibus positivis, de quibus infra), et sic 
+          vi<lb break="no" ed="#P" n="77"/>detur res per se clara, quia vel ille facit 
+          in<lb break="no" ed="#P" n="78"/>juriam alteri, cum quo contrahit, vel alicui
+          <lb ed="#P" n="79"/>tertio; hoc posterius dici non potest, quia
+          <lb ed="#P" n="80"/>non necessarium intervenire tertiam 
+          per<lb break="no" ed="#P" n="81"/>sonam, vel damnum ejus; et si id 
+          contin<lb break="no" ed="#P" n="82"/>gat, erit per accidens ad rationem 
+          simo<lb break="no" ed="#P" n="83"/>niae. Primum etiam non est verum, quia 
+          re<lb break="no" ed="#P" n="84"/>cipiens ab altero rem spiritualem tali modo
+          <lb ed="#P" n="85"/>non facit illi injuriam, quia alter voluntarie
+          <lb ed="#P" n="86"/>dat rem illo modo, et est contentus tanto 
+          pre<lb break="no" ed="#P" n="87"/>tio; volenti autem non fit injuria. Et in hoc
+          <lb ed="#P" n="88"/>potest considerari convenientia et differentia
+          <lb ed="#P" n="89"/>inter usuram et simoniam. Nam in usura qui
+          <lb ed="#P" n="90"/>emit, non est injustus, nec vocatur usurarius,
+          <lb ed="#P" n="91"/>nec per se loquendo est iniquus ; potest enim
+          <lb ed="#P" n="92"/>nihil peccare solvendo usuras; quod si 
+          inter<lb break="no" ed="#P" n="93"/>dum peccet cooperando, vel inducendo ab
+          <lb ed="#P" n="94"/>malum, erit contra charitatem, et per 
+          acci<lb break="no" ed="#P" n="95"/>dens. At vero in simonia emens non peccat
+          <lb ed="#P" n="96"/>quidem contra justitiam respectu vendentis,
+          <lb ed="#P" n="97"/>in quo convenit cum usura ; simpliciter 
+          ta<lb break="no" ed="#P" n="98"/>men, et per se peccat proprio peccato 
+          simo<lb break="no" ed="#P" n="99"/>nias, unde simoniacus vere dicitur. Signum
+          <lb ed="#P" n="100"/>ergo est malitiam injustitiae non involvi 
+          neces<lb break="no" ed="#P" n="101"/>sario, nec per se, cum malitia simoniae.
+        </p>
+        <p>
+          <lb ed="#P" n="102"/>5. Idem probatur ex parte vendentis. —
+          Pro<lb break="no" ed="#P" n="103"/>batur vero ulterius assertio etiam ex parte
+          <lb ed="#P" n="104"/>vendentis, quia saepe dando rem spiritualem
+          <lb ed="#P" n="105"/>alteri, privat seipsum commodo suo, vel
+          <lb ed="#P" n="106"/>quoad temporalem utilitatem, vel quoad 
+          ho<lb break="no" ed="#P" n="107"/>norem et dignitatem, vel certe quoad 
+          vo<lb break="no" ed="#P" n="108"/>luptatem, ornatum, vel quid simile, ut patet |
+          <lb ed="#P" n="109"/>in concessione beneficii, officii, eic.; hoc
+          <lb ed="#P" n="110"/>autem incommodum proprium est pretio aes-
+          <pb ed="#P" n="641"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>timabile, humano modo loquendo ; ergo, licet
+          <lb ed="#P" n="2"/>alias causa religionis non liceat 
+          recompensa<lb break="no" ed="#P" n="3"/>tionem pecuniae pro illo incommodo accipere,
+          <lb ed="#P" n="4"/>si tamen fiat. non peccatur contra justitiam,
+          <lb ed="#P" n="5"/>sed contra religionem. Item, licet interdum
+          <lb ed="#P" n="6"/>corporalis res propter annexionem ad 
+          spiri<lb break="no" ed="#P" n="7"/>tualem fiat invendibilis ex obligatione 
+          religio<lb break="no" ed="#P" n="8"/>nis, nihilominus illa secundum se suum 
+          valo<lb break="no" ed="#P" n="9"/>rem retinet ; ergo, quamvis contra 
+          prohibitio<lb break="no" ed="#P" n="10"/>nem religionis, secundum illum valorem 
+          ven<lb break="no" ed="#P" n="11"/>datur, non peccatur contra justitiam, quia in
+          <lb ed="#P" n="12"/>re datur res materialis aequivalens pretio,
+          <lb ed="#P" n="13"/>per pactum ex utraque parte omnino 
+          vo<lb break="no" ed="#P" n="14"/>luntarium. Atque haerationes saltem probant
+          <lb ed="#P" n="15"/>injustitiam non esse necessario conjunctam
+          <lb ed="#P" n="16"/>cum venditione simoniaca ex sola rei natura.
+          <lb ed="#P" n="17"/>Neque contra hoc procedit secunda ratio 
+          du<lb break="no" ed="#P" n="18"/>bitandi supra posita, quia licet res spiritualis
+          <lb ed="#P" n="19"/>secundum se non sit aestimabilis pretio, ac
+          <lb ed="#P" n="20"/>proinde neque vendibilis, nihilominus ejus
+          <lb ed="#P" n="21"/>alienatio potest habere conjunctum aliquid
+          <lb ed="#P" n="22"/>aestimabile pretio, et ratione illius poterit 
+          ven<lb break="no" ed="#P" n="23"/>di. Sicut in mutuo potest aliquid ultra sortem
+          <lb ed="#P" n="24"/>accipi ratione damni emergentis, vel lucri 
+          ces<lb break="no" ed="#P" n="25"/>santis. Solum est differentia, quod in mutuo
+          <lb ed="#P" n="26"/>separari id potest non solum ab injustitia,
+          <lb ed="#P" n="27"/>sed etiam ab omni malitia, quia. seclusa 
+          in<lb break="no" ed="#P" n="28"/>justitia, nulla alia malitia in usura reperitur.
+          <lb ed="#P" n="29"/>In praesenti vero, seclusa injustitia, manere 
+          po<lb break="no" ed="#P" n="30"/>test malitia simoniae, quia sine injustitia ad
+          <lb ed="#P" n="31"/>hominem, potest fieri irreverentia Deo et rei
+          <lb ed="#P" n="32"/>sacrae.
+        </p>
+        <p>
+          <lb ed="#P" n="33"/>6. An ea natura rei possit omnis simonia 
+          se<lb break="no" ed="#P" n="34"/>parari ab injustitia proaimi. —bajor difficultas
+          <lb ed="#P" n="35"/>est. an ex natura rei omnis simonia possit ab
+          <lb ed="#P" n="36"/>injustitia proximi separari, quando proximus
+          <lb ed="#P" n="37"/>alias non tenetur ex justitia dare rem 
+          spiri<lb break="no" ed="#P" n="38"/>tualem, quam vult vendere. Nam ubi 
+          praece<lb break="no" ed="#P" n="39"/>dit obligatio ex justitia, clarum est aliam
+          <lb ed="#P" n="40"/>exactionem esse injustam ; ut si parochus, qui
+          <lb ed="#P" n="41"/>ex officio tenetur sacramenta ministrare, velit
+          <lb ed="#P" n="42"/>illa vendere; sed id accidentarium est, quia
+          <lb ed="#P" n="43"/>non provenit per se ex venditione rei sacrae
+          <lb ed="#P" n="44"/>ut sic, sed quia agit contra priorem justitiae
+          <lb ed="#P" n="45"/>obligationem. Propria ergo dubitatio est,
+          <lb ed="#P" n="46"/>quando aliquis non tenetur ex justitia 
+          spiri<lb break="no" ed="#P" n="47"/>tualem rem conferre, vel actionem efficere.
+          <lb ed="#P" n="48"/>Et ratio dubitandi esse potest, quia vel illa
+          <lb ed="#P" n="49"/>venditio est injusta, quia res, quae datur, non
+          <lb ed="#P" n="50"/>est pretio aestimabilis, et ideo est invendibilis;
+          <lb ed="#P" n="51"/>vel quia vendens non est dominus talis rei,
+          <lb ed="#P" n="52"/>et voluntas domini est, ut talis res gratis 
+          do<lb break="no" ed="#P" n="53"/>netur, et non vendatur. Neutra autem ratio
+          <lb ed="#P" n="54"/>videtur efficax; ergo. Probatur minor quoad
+          <lb ed="#P" n="55"/>priorem partem; quia res spiritualis est inaes-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>timabilis temporali pretio, non per defectum,
+          <lb ed="#P" n="57"/>sed per excessum, quia, scilicet, pluris 
+          aesti<lb break="no" ed="#P" n="58"/>manda est quam pecunia; quando ergo 
+          pecu<lb break="no" ed="#P" n="59"/>nia aestimatur, non fit illi injuria, cui propter
+          <lb ed="#P" n="60"/>pecuniam datur, quia aliquid majus ei datur,
+          <lb ed="#P" n="61"/>quam sit ejus pecunia; ergo ex hac parte non
+          <lb ed="#P" n="62"/>est inaqualitas respectu illius, sed potius 
+          res<lb break="no" ed="#P" n="63"/>pectu dantis. Et quoad hoc non est simile
+          <lb ed="#P" n="64"/>exemplum de usura : nam usura est iniqua,
+          <lb ed="#P" n="65"/>quia mutuatio pecuniae est invendibilis per 
+          de<lb break="no" ed="#P" n="66"/>fectum, quia nihil valet, nisi quantum valet
+          <lb ed="#P" n="67"/>pecunia; per se autem nullius aestimationis
+          <lb ed="#P" n="68"/>vel valoris temporalis est. Potest confirmari
+          <lb ed="#P" n="69"/>a simili : nam, ut infra dicitur, scientia 
+          ac<lb break="no" ed="#P" n="70"/>quisita etiam Theologiae pretio vendi potest
+          <lb ed="#P" n="71"/>sine injustitia, imo sine peccato; et tamen in
+          <lb ed="#P" n="72"/>illa etiam verum habet, quod Sapiens dixit,
+          <lb ed="#P" n="73"/>Proverb. 3, de sapientia, pretiosiorem esse
+          <lb ed="#P" n="74"/>cunctis opibus, quod non obstat quominus
+          <lb ed="#P" n="75"/>pretio possit vendi sine injustitia; ergo 
+          simi<lb break="no" ed="#P" n="76"/>hter in praesenti. Similiter potest aliquis 
+          ven<lb break="no" ed="#P" n="77"/>dere famam suam pecunia sine injustitia,
+          <lb ed="#P" n="78"/>quamvis sit longe majoris aestimationis; et
+          <lb ed="#P" n="79"/>virgo vendendo virginitatem snam, licet sit 
+          im<lb break="no" ed="#P" n="80"/>pudica, non est injusta, et sic de aliis; ergo
+          <lb ed="#P" n="81"/>ex hoc capite non apparet injustitia; neque
+          <lb ed="#P" n="82"/>etiam ex alio. Primo, quia illud ad summum
+          <lb ed="#P" n="83"/>videtur procedere, quando quis tenetur ex
+          <lb ed="#P" n="84"/>officio dare spiritualia ; qui vero absolute non
+          <lb ed="#P" n="85"/>tenetur dare, licet ratione religionis teneatur
+          <lb ed="#P" n="86"/>dare gratis, si dare vult, tamen, cum liber
+          <lb ed="#P" n="87"/>sit ad nolendum, et absque injustitia possit
+          <lb ed="#P" n="88"/>nolle dare talem rem, potest etiam sine 
+          in<lb break="no" ed="#P" n="89"/>justitia non concedere talem rem, vel non
+          <lb ed="#P" n="90"/>exercere talem actionem, nisi pretio. Ut, verbi
+          <lb ed="#P" n="91"/>gratia, licet ego, si eligo, tenear eligere 
+          di<lb break="no" ed="#P" n="92"/>gniorem, tamen, si sum liber ad eligendum
+          <lb ed="#P" n="93"/>vel non eligendum, non videtur injustitia ( ex
+          <lb ed="#P" n="94"/>natura rei loquimur, et secluso positivo jure)
+          <lb ed="#P" n="95"/>nolle eligere nisi pretio accepto. Et praeterea
+          <lb ed="#P" n="96"/>voluntas illa Dei non videtur obligare ex 
+          jus<lb break="no" ed="#P" n="97"/>titia, quia non id prohibuit intuitu commodi
+          <lb ed="#P" n="98"/>temporalis proximi, sed intuitu religionis, et
+          <lb ed="#P" n="99"/>ne res sacrae vilescant ; ergo ex illa lege, seu
+          <lb ed="#P" n="100"/>conditione rerum sacrarum non videtur oriri
+          <lb ed="#P" n="101"/>obligatio vel materia justitiae.
+        </p>
+        <p>
+          <lb ed="#P" n="102"/>7. Aliquando dari injustitium in simonig.
+          <lb ed="#P" n="103"/>—Roegula generalis.—Haec pars fit satis 
+          appa<lb break="no" ed="#P" n="104"/>rens hujusmodi discursu ; nihilomiuus tamen
+          <lb ed="#P" n="105"/>probabilius videtur, non semper venditionem
+          <lb ed="#P" n="106"/>simoniacam esse immunem ab injustitia, 
+          pos<lb break="no" ed="#P" n="107"/>seque generalem regulam constitui, 
+          quoties<lb break="no" ed="#P" n="108"/>cumque ratione solius spiritualitatis rei 
+          ali<lb break="no" ed="#P" n="109"/>quod temporale pretium accipitur, injustitiam
+          <lb ed="#P" n="110"/>committi. Ut, verbi gratia, si quis vendat ca-
+          <pb ed="#P" n="642"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>licem consecratum, pluris quam valeat 
+          argen<lb break="no" ed="#P" n="2"/>tum, opus, seu effectio, et omnis alia 
+          tempo<lb break="no" ed="#P" n="3"/>ralis expensa in eo consecrando facta, sed 
+          so<lb break="no" ed="#P" n="4"/>lum ratione consecrationis, venditio non est
+          <lb ed="#P" n="5"/>tantum simoniaca, sed etiam injusta quoad
+          <lb ed="#P" n="6"/>illum excessum. Unde, quia parum aquae vel
+          <lb ed="#P" n="7"/>nullo, vel exiguo pretio aestimatur, si quis 
+          il<lb break="no" ed="#P" n="8"/>lam aquam benedictam vendat pretio majori,
+          <lb ed="#P" n="9"/>et simoniacus et injustus est ; et juxta hanc
+          <lb ed="#P" n="10"/>regulam, et cum proportione ad haec exempla
+          <lb ed="#P" n="11"/>judicandum censeo. Ratio autem est, quia 
+          ra<lb break="no" ed="#P" n="12"/>tione solius spiritualitatis res non est pretio
+          <lb ed="#P" n="13"/>ae:timabilis , et consequenter nec cst magis
+          <lb ed="#P" n="14"/>eestimabilis , quam ratione materiae valeat ;
+          <lb ed="#P" n="15"/>imo quodammodo videri posset minus 
+          aestima<lb break="no" ed="#P" n="16"/>bilis, quia ratione spiritualitatis est magis 
+          li<lb break="no" ed="#P" n="17"/>mitata, et coarctata quoad usum, quia solum
+          <lb ed="#P" n="18"/>ad usus sacros assumi potest ; satis vero est,
+          <lb ed="#P" n="19"/>quod saltem non crescit in temporali valore
+          <lb ed="#P" n="20"/>propter solam spiritualitatem, licet crescat in
+          <lb ed="#P" n="21"/>quadam veluti dignitate et reverentia. Hoc 
+          au<lb break="no" ed="#P" n="22"/>tem probari potest ex communi hominum
+          <lb ed="#P" n="23"/>consensu et aestimatione, ex qua pretia 
+          re<lb break="no" ed="#P" n="24"/>rum maxime pendent. Constat enim hanc 
+          es<lb break="no" ed="#P" n="25"/>se communem apprehensionem et 
+          aestimatio<lb break="no" ed="#P" n="26"/>nem Christianorum omnium ; praeterquam
+          <lb ed="#P" n="27"/>quod leges etiam per quas solent pretia 
+          re<lb break="no" ed="#P" n="28"/>rum venalium taxari, non solum in tali 
+          mate<lb break="no" ed="#P" n="29"/>ria illam non adhibent, sed omnino 
+          prohi<lb break="no" ed="#P" n="30"/>bent talem aestimationem seu appretiationem
+          <lb ed="#P" n="31"/>fieri.
+        </p>
+        <p>
+          <lb ed="#P" n="32"/>8. Secundo est optima illa ratio, quod res
+          <lb ed="#P" n="33"/>spiritualis , ut sicj, invendibilis est secundum
+          <lb ed="#P" n="34"/>temporalem aestimationem , sive hoc 
+          prove<lb break="no" ed="#P" n="35"/>niat ex dignitate taum rerum per se 
+          specta<lb break="no" ed="#P" n="36"/>ta, sive adjuncto modo et circumstantiis, ac
+          <lb ed="#P" n="37"/>praesertim fine, cum quibus talia bona sunt
+          <lb ed="#P" n="38"/>collata hominibus, et eorum usui ac 
+          dispensa<lb break="no" ed="#P" n="39"/>tioni commissa. Et ideo parum refert quod
+          <lb ed="#P" n="40"/>haec exemptio et quasi immunitas talium 
+          re<lb break="no" ed="#P" n="41"/>rum ab aestimatione pecuniaria, sit propter
+          <lb ed="#P" n="42"/>excessum dignitatis ; nam hoc satis est ut 
+          va<lb break="no" ed="#P" n="43"/>lor temporalis rei, cui spiritualitas adhaeret,
+          <lb ed="#P" n="44"/>non crescat ratione solius spiritualitatis, ac
+          <lb ed="#P" n="45"/>subinde ut non possit solo illo titulo, vel exigi
+          <lb ed="#P" n="46"/>pretium, vel augeri. Exempla autem quae in
+          <lb ed="#P" n="47"/>contrarium adducuntur, vel sunt de rebus
+          <lb ed="#P" n="48"/>quae, licet digniores videantur quam pecunia,
+          <lb ed="#P" n="49"/>nihilominus secundum usum et 
+          apprehensio<lb break="no" ed="#P" n="50"/>nem hominum , pecunia taxari ac aestimari
+          <lb ed="#P" n="51"/>possunt prudenti arbitrio; vel sunt de rebus
+          <lb ed="#P" n="52"/>quae in se revera non venduntur nec emuntur,
+          <lb ed="#P" n="53"/>sed ratione alicujus actionis pretio 
+          aestimabi<lb break="no" ed="#P" n="54"/>lis, ut infra de scientia dicemus. Et per haec
+          <lb ed="#P" n="55"/>satis responsum est ad rationem dubitandi in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>contrarium ; caetera enim facilia sunt, et ideo
+          <lb ed="#P" n="57"/>haec pro nunc sufficiant de hac quaestione;
+          <lb ed="#P" n="58"/>nam in discursu materiae, et maxime 
+          tractan<lb break="no" ed="#P" n="59"/>do de restitutione, omnia clariora fient.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 52</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 52</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="937"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k23452"><!-- t3-l4c52 -->
+        <head>Caput 52</head>
+        <head type="question-title">An vitium simoniae cadere possit in pontificem vel ejus curiam?</head>
+        <p>
+          <lb ed="#P" n="26"/>CAPUT LII.
+          <lb ed="#P" n="27"/>AN VITIUM SIMONIAE CADERE POSSIT IN PONTIFICEM
+          <lb ed="#P" n="28"/>VEL EJUS CURIAM?
+        </p>
+        <p>
+          <lb ed="#P" n="29"/>1. De causis simoniae. — Causarum 
+          distinc<lb break="no" ed="#P" n="30"/>Lio. — Explicavimus hactenus simoniae vitium
+          <lb ed="#P" n="31"/>secundum se, attingendo omnes species ejus,
+          <lb ed="#P" n="32"/>seu modos quibus committi potest; superest
+          <lb ed="#P" n="33"/>dicendum de causis et effectibus ejus. Causae
+          <lb ed="#P" n="34"/>autem quaedam sunt intrinsecae, ut materia et
+          <lb ed="#P" n="35"/>forma ; aliae extrinseca, ut finis et efficiens.
+          <lb ed="#P" n="36"/>Priores eo modo quo in actu humano inveniri
+          <lb ed="#P" n="37"/>possunt, satis sunt cum ipso actu seu vitio 
+          ex<lb break="no" ed="#P" n="38"/>plicatae ; diximus enim de materia ejus et de
+          <lb ed="#P" n="39"/>pretio , ex quibus coalescit quodammodo 
+          pro<lb break="no" ed="#P" n="40"/>xima materia, quae est contractus, circa quae
+          <lb ed="#P" n="41"/>studiosa voluntas versatur, quae dici potest
+          <lb ed="#P" n="42"/>quasi forma simoniae. Quod si in ipsa 
+          volun<lb break="no" ed="#P" n="43"/>tate materiam et formam distinguere velimus,
+          <lb ed="#P" n="44"/>actus ipse realis voluntatis materia est, 
+          pra<lb break="no" ed="#P" n="45"/>vitas autem ejus est quasi forma, vel potius
+          <lb ed="#P" n="46"/>deformitas ejus. Unde fit ut de final causa
+          <lb ed="#P" n="47"/>nihil etiam dicendum sit ; nam si actus ille
+          <lb ed="#P" n="48"/>consideretur ut deformis, non habet finem,
+          <lb ed="#P" n="49"/>sed potius defectum debiti finis ; s1 vero 
+          spec<lb break="no" ed="#P" n="50"/>tetur ut realis actus est, pro fine habet suum
+          <lb ed="#P" n="51"/>objectum intrinsecum , qui est vendere rem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>spiritualem, et pro illa pretium recipere, vel
+          <lb ed="#P" n="53"/>e converso emere spiritualem rem, dato pro
+          <lb ed="#P" n="54"/>illa pretio; de quo fine satis a nobis dictum
+          <lb ed="#P" n="55"/>est. Alii autem fines extrinseci, qui ab 
+          ope<lb break="no" ed="#P" n="56"/>rante adhiberi possunt, non cadunt sub 
+          scien<lb break="no" ed="#P" n="57"/>tiam, nec ad illam spectant, quia per accidens
+          <lb ed="#P" n="58"/>sunt, et in infinitum variari possunt, ut etiam
+          <lb ed="#P" n="59"/>in superioribus tactum est. Solum ergo de
+          <lb ed="#P" n="60"/>efficienti causa aliquid desiderari potest , id
+          <lb ed="#P" n="61"/>est, de personis quae hoc vitium committere
+          <lb ed="#P" n="62"/>possunt; hoc enim ad complementum 
+          mate<lb break="no" ed="#P" n="63"/>riae moralis, et ad explicandos effectus seu 
+          poe<lb break="no" ed="#P" n="64"/>nas simoniae necessarium esse potest.
+        </p>
+        <p>
+          <lb ed="#P" n="65"/>2. Primo ergo ac praecipue tractari solet
+          <lb ed="#P" n="66"/>haec quaestio de Summo Peontifice, an possit
+          <lb ed="#P" n="67"/>vitium simoniae committere; quam attigit D.
+          <lb ed="#P" n="68"/>Thom. in art. 1 hujus materiae, ad 7; et ibi
+          <lb ed="#P" n="69"/>Cajet., Soto, et alii expositores, et alii 
+          Theolo<lb break="no" ed="#P" n="70"/>gi, in 4, dist. 25; Summistae omnes, verb. 
+          Si<lb break="no" ed="#P" n="71"/>monia ; Canonistae, in cap. 1, de Simon., ubi
+          <lb ed="#P" n="72"/>Panorm., num. 6; Felin. et alii. Idem 
+          Panor<lb break="no" ed="#P" n="73"/>mitan., in Repet., cap. Fatirpanda, S Qui
+          <lb ed="#P" n="74"/>vero, de Praebend., num. 53 et 54; Redoan.,
+          <lb ed="#P" n="75"/>part. 4, c. 20; Jul. Clar.. lib. 1, S Simonia,
+          <lb ed="#P" n="76"/>num. 5; Covar., in Regul. Peccatum, part. 2,
+          <lb ed="#P" n="77"/>c. 8, n. 8, ad finem, qui alios refert ; Navarr.,
+          <lb ed="#P" n="78"/>d. cap. 23, n. 108. Est autem considerandum
+          <lb ed="#P" n="79"/>inter hos auctores interdum inveniri 
+          dissen<lb break="no" ed="#P" n="80"/>sionem quasi materialem, quia circa rem quae
+          <lb ed="#P" n="81"/>venditur, dubitant an sit materia simoniae,
+          <lb ed="#P" n="82"/>necne, vel an sit talis materia dejure divino,
+          <lb ed="#P" n="83"/>vel tantum de humano; formalis autem nulla
+          <lb ed="#P" n="84"/>videtur esse dissensio; et haec est a nobis 
+          con<lb break="no" ed="#P" n="85"/>sideranda, et ideo breviter potest haec res
+          <lb ed="#P" n="86"/>expediri; nam materialis resolutio singularum
+          <lb ed="#P" n="87"/>quaestionum ex doctrina in superioribus data
+          <lb ed="#P" n="88"/>petenda est, ut hic breviter indicabo. Suppono
+          <lb ed="#P" n="89"/>autem non esse quaestionem hic de potestate
+          <lb ed="#P" n="90"/>committendi hoc peccatum ex parte liberae
+          <lb ed="#P" n="91"/>voluntatis, vel alicujus privilegii in hac parte
+          <lb ed="#P" n="92"/>concessi Summo Pontifici, sicut quaeri solet
+          <lb ed="#P" n="93"/>an Pontifex, ut privata persona, possit esse
+          <lb ed="#P" n="94"/>haereticus ; nam quia simonia solet vocari 
+          hae<lb break="no" ed="#P" n="95"/>resis, cogitari posset in illo sensu tractari
+          <lb ed="#P" n="96"/>quaestionem hanc : non vero ita est, sed 
+          mo<lb break="no" ed="#P" n="97"/>vetur ex parte materiae, seu legis simoniae, an
+          <lb ed="#P" n="98"/>habere locum possit in persona Pontificis.
+          <lb ed="#P" n="99"/>eamque obligare, nam ex parte voluntatis suae
+          <lb ed="#P" n="100"/>certum est defectibilem esse, nec habere 
+          con<lb break="no" ed="#P" n="101"/>tra hoc vitium specialem in bono 
+          confirmatio<lb break="no" ed="#P" n="102"/>nem, magis quam contra alia, quamvis, 
+          mo<lb break="no" ed="#P" n="103"/>raliter loquendo, vix habere possit occasionem
+          <lb ed="#P" n="104"/>ad hoc vitium committendum, ut 
+          explicabi<lb break="no" ed="#P" n="105"/>mus.
+        </p>
+        <p>
+          <lb ed="#P" n="106"/>3. Prima assertio. — Dico ergo primo : in
+          <pb ed="#P" n="938"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>omni materia, in qua simonia committitur
+          <lb ed="#P" n="2"/>contra jus divinum, etiam Pontifex peccabit
+          <lb ed="#P" n="3"/>eodem genere peccati, si illam pro temporali
+          <lb ed="#P" n="4"/>vendat. In hac assertione omnes conveniunt.
+          <lb ed="#P" n="5"/>Et patet, quia Pontifex subditus est juri 
+          divi<lb break="no" ed="#P" n="6"/>no. Item, quia illa actio intrinsece mala est.
+          <lb ed="#P" n="7"/>Potestque fieri inductio primo, in 
+          Sacramen<lb break="no" ed="#P" n="8"/>tis, si Papa illa vendat pro pretio temporali ;
+          <lb ed="#P" n="9"/>in reliquiis sacris ; item in doctrina fidei, si
+          <lb ed="#P" n="10"/>Papa illam vel illius definitionem vendere
+          <lb ed="#P" n="11"/>vellet ; imo et in ipsamet dignitate pontificia,
+          <lb ed="#P" n="12"/>si pro regno temporali, verbi gratia, tanquam
+          <lb ed="#P" n="13"/>pro pretio illam renunciaret. Idem denique
+          <lb ed="#P" n="14"/>est in omni simili materia, quae de se et 
+          na<lb break="no" ed="#P" n="15"/>tura sua, seu divina institutione spiritualis
+          <lb ed="#P" n="16"/>est. Addo vero idem esse de rebus sacris,
+          <lb ed="#P" n="17"/>quae ex institutione Ecclesiae sacrae sunt, ut
+          <lb ed="#P" n="18"/>si Pontifex venderet Agnos Dei, vel grana 
+          be<lb break="no" ed="#P" n="19"/>nedicta, majori pretio quam valeant ratione
+          <lb ed="#P" n="20"/>materiae, solum propter consecrationem, vel
+          <lb ed="#P" n="21"/>benedictionem quam ipse adjunxit, sine dubio
+          <lb ed="#P" n="22"/>non minus esset simoniacus, quam quilibet
+          <lb ed="#P" n="23"/>alius id committens ; quia (ut supra dictum
+          <lb ed="#P" n="24"/>est), licet illa spiritualitas sit ex positiva 
+          insti<lb break="no" ed="#P" n="25"/>tutione, tamen, hac supposita, simonia quae
+          <lb ed="#P" n="26"/>in illa committitur contra jus divinum est.
+          <lb ed="#P" n="27"/>Circa beneficia autem ecclesiastica, sicut sunt
+          <lb ed="#P" n="28"/>opiniones an illa vendere sit simonia contra
+          <lb ed="#P" n="29"/>jus divinum, vel humanum, ita etiam sunt
+          <lb ed="#P" n="30"/>de actu Pontificis. Veritas nihilominus est,
+          <lb ed="#P" n="31"/>quod si spirituale jus beneficii a Pontifice
+          <lb ed="#P" n="32"/>vendatur, simonia committetur. Juxta hanc
+          <lb ed="#P" n="33"/>ergo conclusionem locutus est divus Thomas
+          <lb ed="#P" n="34"/>in illa solutione ad septimum, qui ampliat
+          <lb ed="#P" n="35"/>illam, sive Pontifex accipiat pro re spirituali
+          <lb ed="#P" n="36"/>pecuniam, vel bona temporalia ex fructibus
+          <lb ed="#P" n="37"/>beneficiorum, vel redditibus ecclesiarum, sive
+          <lb ed="#P" n="38"/>ex bonis laicorum. Quod verissimum est, si
+          <lb ed="#P" n="39"/>pecuniam illam accipiat ut pretium rei 
+          spiri<lb break="no" ed="#P" n="40"/>tualis, quia tunc alia differentia materialis
+          <lb ed="#P" n="41"/>et accidentaria est. Verumtamen hoc habet
+          <lb ed="#P" n="42"/>singulare Pontifex, quod potest multis justis
+          <lb ed="#P" n="43"/>titulis et modis pecuniam accipere, vei aliis
+          <lb ed="#P" n="44"/>applicare, cum alicui dat beneficium, sine 
+          ven<lb break="no" ed="#P" n="45"/>ditione illius, et sine intentione pretii, et 
+          con<lb break="no" ed="#P" n="46"/>sequenter etiam sine simonia. Et ideo dixi vix
+          <lb ed="#P" n="47"/>posse Pontificem habere occasionem 
+          conmit<lb break="no" ed="#P" n="48"/>tendi hoc vitium, quia sine venditione potest
+          <lb ed="#P" n="49"/>fere omnes effectus efficere ex pastorali 
+          provi<lb break="no" ed="#P" n="50"/>dentia suprema, qui moraliter illi occurrere
+          <lb ed="#P" n="51"/>possunt; alii vero possibiles, qui excogitari
+          <lb ed="#P" n="52"/>possunt, moraliter non occurrunt, ut ex 
+          in<lb break="no" ed="#P" n="53"/>ductione facta, et ex dictis in superioribus
+          <lb ed="#P" n="54"/>facile constare potest. Et in hoc fundati sunt,
+          <lb ed="#P" n="55"/>qui prudenter dixerunt, in Romanum Pontifi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cem vix aut nullo modo cadere posse 
+          suspi<lb break="no" ed="#P" n="57"/>cionem simonisae, ut videre licet in Redoan.
+          <lb ed="#P" n="58"/>et Jul. Clar., locis citatis, et aliis.
+        </p>
+        <p>
+          <lb ed="#P" n="59"/>4. Assertio secunda. — Dico secundo, 
+          Pon<lb break="no" ed="#P" n="60"/>tificem Summum posse facile vitare simoniae
+          <lb ed="#P" n="61"/>vitium, etiamsi venditiones vel contractus 
+          fa<lb break="no" ed="#P" n="62"/>ciat circa res spirituales, qui jure tantum 
+          ec<lb break="no" ed="#P" n="63"/>clesiastico simoniaci effecti sunt. Haec etiam
+          <lb ed="#P" n="64"/>assertio est communis: potest autem explicari
+          <lb ed="#P" n="65"/>duobus modis. Primo, si dicamus jura 
+          prohi<lb break="no" ed="#P" n="66"/>bentia simoniam, quae de se talis non est, non
+          <lb ed="#P" n="67"/>obligare Pontificem : nam hoc supposito, 
+          evi<lb break="no" ed="#P" n="68"/>dens est non solum posse Pontificem illos 
+          ac<lb break="no" ed="#P" n="69"/>tus efficere, vitando simoniam, sed etiam non
+          <lb ed="#P" n="70"/>posse illam committere, quia non potest 
+          pec<lb break="no" ed="#P" n="71"/>care contra illas leges, cum illis non obligetur.
+          <lb ed="#P" n="72"/>Illud autem fundamentum non debet niti in
+          <lb ed="#P" n="73"/>alio generali principio, quod princeps 
+          supre<lb break="no" ed="#P" n="74"/>mus non possit suis legibus obligari, hoc enim
+          <lb ed="#P" n="75"/>verum non est, ut ex materia de legibus 
+          sup<lb break="no" ed="#P" n="76"/>ponimus ; sed specialiter debet fundari in hoc,
+          <lb ed="#P" n="77"/>quod materia talium legum non spectat ad
+          <lb ed="#P" n="78"/>Pontificem: constat autem quod, licet 
+          prin<lb break="no" ed="#P" n="79"/>ceps possit sua lege obligari, quando materia
+          <lb ed="#P" n="80"/>ejus uniformiter ad ipsum pertinet, non 
+          ta<lb break="no" ed="#P" n="81"/>men obligatur, quando materia non est 
+          uni<lb break="no" ed="#P" n="82"/>formis, sed ex peculiari ratione et habitudine
+          <lb ed="#P" n="83"/>pertinet ad inferiores, ut tales sunt, ut bene
+          <lb ed="#P" n="84"/>notavit Soto, lib. 1 de Just., quaest. 6, art. 7.
+        </p>
+        <p>
+          <lb ed="#P" n="85"/>5. Quod ergo talis sit materia illarum legum
+          <lb ed="#P" n="86"/>ecclesiasticarum, quae positivam simoniam 
+          pro<lb break="no" ed="#P" n="87"/>hibent, inductione quadam ostendi potest. 
+          Pri<lb break="no" ed="#P" n="88"/>mo enim inter eas leges illae praecipuae 
+          censen<lb break="no" ed="#P" n="89"/>tur, quae permutationes beneficiorum, vel 
+          re<lb break="no" ed="#P" n="90"/>nunciationes sub conditione et modo, vel cum
+          <lb ed="#P" n="91"/>pensione aliqua fieri prohibent: at omnes istae
+          <lb ed="#P" n="92"/>leges includunt conditionem, nisi in ordine ad
+          <lb ed="#P" n="93"/>Pontificis consensum et auctoritatem, vel nisi
+          <lb ed="#P" n="94"/>in manibus ejus, et similes; ergo ex ipsa 
+          for<lb break="no" ed="#P" n="95"/>ma legum constat non obligare Pontificem.
+          <lb ed="#P" n="96"/>Unde si forte sine rationabili causa, vel contra
+          <lb ed="#P" n="97"/>bonum Ecclesiae Pontifex admitteret aliquam
+          <lb ed="#P" n="98"/>permutationem, seu renunciationem 
+          ejusmo<lb break="no" ed="#P" n="99"/>di, vel imponeret pensionem injustam, licet
+          <lb ed="#P" n="100"/>peccaret contra justam vel fidelem 
+          dispensatio<lb break="no" ed="#P" n="101"/>nem, non tamen simoniam committeret contra
+          <lb ed="#P" n="102"/>leges prohibentes tales contractus ; nam 
+          pro<lb break="no" ed="#P" n="103"/>hibent illos inferioribus, non tamen Papa,a
+          <lb ed="#P" n="104"/>quo non fiunt per modum contractuum, sed
+          <lb ed="#P" n="105"/>per modum pastoralis providentiae ac 
+          dispen<lb break="no" ed="#P" n="106"/>sationis. Idemque judicium est de illis legibus
+          <lb ed="#P" n="107"/>quae prohibent confidentialem simoniam ; nam
+          <lb ed="#P" n="108"/>haec in Pontifice locum non habet. Idem est
+          <lb ed="#P" n="109"/>de legibus prohibentibus exactionem 
+          stipen<lb break="no" ed="#P" n="110"/>diorum pro muneribus spiritualibus alias de-
+          <pb ed="#P" n="939"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bitis, quia illae, ut prohibent injustitiam, 
+          na<lb break="no" ed="#P" n="2"/>turalem legem continent, et ita obligant 
+          Pon<lb break="no" ed="#P" n="3"/>tificem, sed non pertinent ad praesens; ut vero
+          <lb ed="#P" n="4"/>prohibent imaginem et suspicionem simoniae,
+          <lb ed="#P" n="5"/>non spectant ad Pontificem, qui nulla habet
+          <lb ed="#P" n="6"/>certa stipendia pro suis muneribus, nisi quae
+          <lb ed="#P" n="7"/>ipse definit et praescribit. Idem est de legibus
+          <lb ed="#P" n="8"/>prohibentibus aliquas largitiones, etiam 
+          gra<lb break="no" ed="#P" n="9"/>tuitas : nam fere omnes illae diriguntur ad
+          <lb ed="#P" n="10"/>Episcopos, et praelatos ordinarios, ut videre
+          <lb ed="#P" n="11"/>licet in Trident., sess. 21, cap. 1, de Refor.,
+          <lb ed="#P" n="12"/>sub quibus non solet Summus Pontifex 
+          com<lb break="no" ed="#P" n="13"/>prehendi.
+        </p>
+        <p>
+          <lb ed="#P" n="14"/>6. Questiuncula solvitur. — Hic ergo 
+          mo<lb break="no" ed="#P" n="15"/>dus dicendi valde probabilis mihi videtur; et
+          <lb ed="#P" n="16"/>certe in omnibus legibus adductis verus 
+          appa<lb break="no" ed="#P" n="17"/>ret, et rationi conformis, quia omnes illae 
+          le<lb break="no" ed="#P" n="18"/>ges fundantur vel in tollendis privatis 
+          pactioni<lb break="no" ed="#P" n="19"/>bus et negotiationibus circa res spirituales, vel
+          <lb ed="#P" n="20"/>in cavenda omni suspicione simoniae; prior
+          <lb ed="#P" n="21"/>vero ratio per ipsammet Pontificis 
+          auctorita<lb break="no" ed="#P" n="22"/>tem cessat; posterior autem vix in illum 
+          ca<lb break="no" ed="#P" n="23"/>dit (ut dixi), propter eminentiam sui status
+          <lb ed="#P" n="24"/>et dignitatis; non videntur ergo leges illae
+          <lb ed="#P" n="25"/>Pontificem comprehendere. Solum posset 
+          ins<lb break="no" ed="#P" n="26"/>tari de legibus prohentibus venditiones 
+          officio<lb break="no" ed="#P" n="27"/>rum quorumdam temporalium Ecclesiae. De
+          <lb ed="#P" n="28"/>illa vero prohibitione, et est valde dubium an
+          <lb ed="#P" n="29"/>pertineat ad simoniam, et probabile est non
+          <lb ed="#P" n="30"/>esse receptam a Pontificibus pro sua curia, ut
+          <lb ed="#P" n="31"/>supra dixi. Imo ex forma verborum iegis 
+          vi<lb break="no" ed="#P" n="32"/>detur non comprehendere Pontificem: illa
+          <lb ed="#P" n="33"/>enim prohibitio maxime habetur in Conc.
+          <lb ed="#P" n="34"/>Chalced., c. 2, quod citat et probat Urbanus
+          <lb ed="#P" n="35"/>Papa, cap. Salvator, 1, quaest. 3, et tamen in
+          <lb ed="#P" n="36"/>eo generaliter dicitur : S quis Episcopus. eic.,
+          <lb ed="#P" n="37"/>sub qua generalitate non solet comprehendi
+          <lb ed="#P" n="38"/>Pontifex. Et materia ipsa talis legis hoc 
+          postu<lb break="no" ed="#P" n="39"/>lat, quia nullus rex, vel supremus princeps
+          <lb ed="#P" n="40"/>reipublicae prohibetur vendere officia 
+          vendi<lb break="no" ed="#P" n="41"/>bilia suae reipublicae. Imo illi soli hoc solet 
+          li<lb break="no" ed="#P" n="42"/>cere, dummodo naturalem justitiam in eo 
+          ser<lb break="no" ed="#P" n="43"/>vet, et rationem habeat communis boni; ergo
+          <lb ed="#P" n="44"/>in republica christiana, non debuit hoc 
+          pro<lb break="no" ed="#P" n="45"/>hiberi supremo principi, sed ejus dispositioni
+          <lb ed="#P" n="46"/>et prudentiae relinqui. Et ita videtur sentire
+          <lb ed="#P" n="47"/>specialiter de illa lege Anton., d. cap. 5, 82,
+          <lb ed="#P" n="48"/>verb. Quod autem de Papa, 3, citans Hostiens.
+          <lb ed="#P" n="49"/>et Anton. de Butr., et sequitur Tab., verb.
+          <lb ed="#P" n="50"/>Simonia, num. A4. Itaque ex vi materiae talium
+          <lb ed="#P" n="51"/>legum, et ex verbis et rationibus earum, est
+          <lb ed="#P" n="52"/>mihi valde verisimile non posse Pontificem 
+          si<lb break="no" ed="#P" n="53"/>moniam positivam committere.
+        </p>
+        <p>
+          <lb ed="#P" n="54"/>7. Secundus modus defendendi 
+          conclusio<lb break="no" ed="#P" n="55"/>nem. — Objectio. — Solvitur. — Secundo ta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>men modo defendi solet communiter haec 
+          sen<lb break="no" ed="#P" n="57"/>tentia, quia, licet Pontifex obligetur his 
+          legi<lb break="no" ed="#P" n="58"/>bus, potest secum facile dispensare, et ita non
+          <lb ed="#P" n="59"/>committere simoniam contra tales leges. Ita
+          <lb ed="#P" n="60"/>videntur sentire Panorm., Felin., et alii 
+          ca<lb break="no" ed="#P" n="61"/>nonistae, in d. cap. f, de Simon., et in cap.
+          <lb ed="#P" n="62"/>Enx parte, 1, de Offic. deleg.; Sylvest., verb.
+          <lb ed="#P" n="63"/>Simonia, quaest. 4; Soto, lib. 9, quaest. 5,
+          <lb ed="#P" n="64"/>art. 2, ad 2. Ratio vero est, quia per 
+          dispen<lb break="no" ed="#P" n="65"/>sationem tollitur obligatio legis, et 
+          consequen<lb break="no" ed="#P" n="66"/>ter vitatur culpa. Sed objici potest primo, quia
+          <lb ed="#P" n="67"/>fieri potest ut Pontifex non habeat animum
+          <lb ed="#P" n="68"/>dispensandi secum, sed parvi pendat 
+          obligatio<lb break="no" ed="#P" n="69"/>nem legis. Respondetur primo, ideo in 
+          conclu<lb break="no" ed="#P" n="70"/>sione dictum non esse Papam non posse hanc
+          <lb ed="#P" n="71"/>simoniam committere, sed posse illam non
+          <lb ed="#P" n="72"/>committere ; in illo ergo casu simoniam 
+          com<lb break="no" ed="#P" n="73"/>mitteret ex pura voluntate, non quia non
+          <lb ed="#P" n="74"/>posset id facere sine tali culpa. Unde 
+          addi<lb break="no" ed="#P" n="75"/>mus illum casum esse moraliter impossibilem;
+          <lb ed="#P" n="76"/>quia, nisi directa et expressa voluntate dicat
+          <lb ed="#P" n="77"/>Pontifex se nolle secum dispensare, sed velle
+          <lb ed="#P" n="78"/>transgredi legem, quantumvis obliget, eo ipso
+          <lb ed="#P" n="79"/>quod vult sic operari, sciens se posse 
+          dispen<lb break="no" ed="#P" n="80"/>sare in lege, censebitur secum dispensare; ille
+          <lb ed="#P" n="81"/>autem alius modus operandi tam est 
+          inordina<lb break="no" ed="#P" n="82"/>tus et voluntarius, ut cadere non possit, nisi
+          <lb ed="#P" n="83"/>in depravatissimam voluntatem, quae velit
+          <lb ed="#P" n="84"/>frangere legem, solum ut frangat illam; et
+          <lb ed="#P" n="85"/>ideo moraliter loquendo, potest dici 
+          impossi<lb break="no" ed="#P" n="86"/>bilis ille peccandi modus.
+        </p>
+        <p>
+          <lb ed="#P" n="87"/>8. Alia objectio. — VFictorie responsio. —
+          <lb ed="#P" n="88"/>Responsio aliorum. — Roesolutio vera. — 
+          Po<lb break="no" ed="#P" n="89"/>test tamen secundo objici, quia licet hoc recte
+          <lb ed="#P" n="90"/>procedat, quando Papa secum ex causa 
+          ratio<lb break="no" ed="#P" n="91"/>nabili dispensat, non vero si absque causa 
+          ra<lb break="no" ed="#P" n="92"/>tionabili velit secum dispensare, nam in hoc
+          <lb ed="#P" n="93"/>ipso graviter peccat; tunc ergo etiam 
+          pecca<lb break="no" ed="#P" n="94"/>bit peccato simoniae. Ad hoc Victoria 
+          utrum<lb break="no" ed="#P" n="95"/>que concedit, et probat a simili; nam si 
+          co<lb break="no" ed="#P" n="96"/>mederet carnes in die veneris, secum sine
+          <lb ed="#P" n="97"/>causa dispensando, esset intemperatus; sed
+          <lb ed="#P" n="98"/>eadem est difficultas. Videtur ergo supponere
+          <lb ed="#P" n="99"/>Victoria, dispensationem legis positiva, sine
+          <lb ed="#P" n="100"/>causa datam, esse invalidam, et non tollere
+          <lb ed="#P" n="101"/>obligationem legis. Hoc autem in universum
+          <lb ed="#P" n="102"/>verum non est, ut suppono ex materia de 
+          le<lb break="no" ed="#P" n="103"/>gibus. Posset autem dici non improbabiliter,
+          <lb ed="#P" n="104"/>quod licet respectu inferiorum sit valida 
+          dis<lb break="no" ed="#P" n="105"/>pensatio, quia respectu illorum legis obligatio
+          <lb ed="#P" n="106"/>omnino pendet ex voluntate principis, 
+          res<lb break="no" ed="#P" n="107"/>pectu ipsius principis est invalida, quia non
+          <lb ed="#P" n="108"/>tam propria voluntate, quam ex vi naturalis
+          <lb ed="#P" n="109"/>legis suae legi subjicitur; et ideo vel non
+          <lb ed="#P" n="110"/>potest absque causa secum valide dispensare,
+          <pb ed="#P" n="940"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel certe nec dispensare secum potest, sed
+          <lb ed="#P" n="2"/>declarare se non obligari lege, existente
+          <lb ed="#P" n="3"/>tali causa. Neque mirum est quod in hoc
+          <lb ed="#P" n="4"/>sit quodammodo strictior ejus obligatio, quia
+          <lb ed="#P" n="5"/>etiam necessitas et ratio major est. Alii 
+          ve<lb break="no" ed="#P" n="6"/>ro dicunt peccare tunc principem, sic 
+          se<lb break="no" ed="#P" n="7"/>cum dispensando, contra justitiam 
+          distribu<lb break="no" ed="#P" n="8"/>tivam, et bonam gubernationem ; stante vero
+          <lb ed="#P" n="9"/>dispensatione, jam non committere simoniam,
+          <lb ed="#P" n="10"/>quia dispensatio valida fuit, et abstuht 
+          obli<lb break="no" ed="#P" n="11"/>gationem, qua sublata, illa non est materia
+          <lb ed="#P" n="12"/>simonia.. lImo addunt aliqui, tunc non 
+          pec<lb break="no" ed="#P" n="13"/>care mortaliter, sed venialiter, secluso 
+          scan<lb break="no" ed="#P" n="14"/>dalo et injustitia, quia solum peccat non se
+          <lb ed="#P" n="15"/>conformando toti corpori in observatione 
+          ta<lb break="no" ed="#P" n="16"/>lis legis. Sed hoc ultimum non credo, quia
+          <lb ed="#P" n="17"/>graviter peccat secum dispensando sine causa,
+          <lb ed="#P" n="18"/>et eam dispensationem quasi conservando;
+          <lb ed="#P" n="19"/>alias parvi momenti esset obligatio principis
+          <lb ed="#P" n="20"/>ad suam legem servandam. Hoc autem 
+          sup<lb break="no" ed="#P" n="21"/>posito. non est magni momenti illa opinionum
+          <lb ed="#P" n="22"/>diversitas, et utraque opinio est probabilis.
+          <lb ed="#P" n="23"/>Quia vero pendet ex fundamento illo generali
+          <lb ed="#P" n="24"/>pertinente ad materiam de Legibus, ibi 
+          di<lb break="no" ed="#P" n="25"/>cemus generaliter quid nobis videatur 
+          proba<lb break="no" ed="#P" n="26"/>bilius.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>9. Assertio tertia. — Dico tertio Pontificem
+          <lb ed="#P" n="28"/>Summum non incidere in poenas contra 
+          simo<lb break="no" ed="#P" n="29"/>niacos latas, etiamsi simoniam, vel contra 
+          di<lb break="no" ed="#P" n="30"/>vinum jus, vel contra humanum, committat.
+          <lb ed="#P" n="31"/>Conclusio est ccommunis omnium quos retuli,
+          <lb ed="#P" n="32"/>et caetercrum scribentium, quos in re clara
+          <lb ed="#P" n="33"/>referre necessarium non est. Fundamentum
+          <lb ed="#P" n="34"/>autem est, quia hae poenae jure tantum 
+          eccle<lb break="no" ed="#P" n="35"/>siastico sunt latae (nam de poena debita in
+          <lb ed="#P" n="36"/>foro Dei non agimus); princeps autem 
+          supre<lb break="no" ed="#P" n="37"/>mus quoad vim coactivam non subjicitur suis
+          <lb ed="#P" n="38"/>legibus, ut D. Thom. tradit 1. 2, q. 96, et
+          <lb ed="#P" n="39"/>ibi latius disputatur, et breviter attigimus
+          <lb ed="#P" n="40"/>tom. 5 de Censur., disp. 5, sect. 1, num. 27.
+          <lb ed="#P" n="41"/>Unde a fortiori constat, in casu simoniae non
+          <lb ed="#P" n="42"/>posse Papam ab aliquo judicari, etiamsi 
+          simo<lb break="no" ed="#P" n="43"/>nia lato modo haeresis appelletur. Quod 
+          atti<lb break="no" ed="#P" n="44"/>git Panormit., in cap. Cum venissent, de 
+          Ju<lb break="no" ed="#P" n="45"/>dic., num. 7, ubi in additione, verb. De 
+          de<lb break="no" ed="#P" n="46"/>licto sinonie, multa referuntur. Sed haec in
+          <lb ed="#P" n="47"/>materia de Pontifice tractanda sunt, quanquam
+          <lb ed="#P" n="48"/>per se sint notissima. Consequenter vero 
+          so<lb break="no" ed="#P" n="49"/>let hic quaeri, quoniam simonia cum alio
+          <lb ed="#P" n="50"/>committitur, si contingat Pontificem facere
+          <lb ed="#P" n="51"/>contractum simoniacum, an eo ipso eximat
+          <lb ed="#P" n="52"/>illum a poeena simoniae; et similiter quaeri
+          <lb ed="#P" n="53"/>posset, si talis simonia sit contra jus 
+          huma<lb break="no" ed="#P" n="54"/>num, an contrahendo cum alio censeatur 
+          dis<lb break="no" ed="#P" n="55"/>pensare cum illo in prohibitione humana. Sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de his dicemus melius in cap. ultimo hujus
+          <lb ed="#P" n="57"/>libri.
+        </p>
+        <p>
+          <lb ed="#P" n="58"/>10. Circa Romanam curiam deciditur 
+          ques<lb break="no" ed="#P" n="59"/>tionis pars. — Ultimo, quaerunt circa hoc 
+          Ca<lb break="no" ed="#P" n="60"/>nonistae, an in Romana Curia committi possit
+          <lb ed="#P" n="61"/>simonia. Sed vix est locus quaestioni, etiamsi
+          <lb ed="#P" n="62"/>opiniones variae referantur. Conveniunt itaque
+          <lb ed="#P" n="63"/>omnes, contra divinum jus, non minus in
+          <lb ed="#P" n="64"/>Romana Curia quam ubique gentium, posse
+          <lb ed="#P" n="65"/>simoniam committi. Hoc probare non est 
+          ne<lb break="no" ed="#P" n="66"/>cesse : imo fortasse ibi sunt plures occasiones
+          <lb ed="#P" n="67"/>ilam committendi , propter frequentiorem
+          <lb ed="#P" n="68"/>usum dandi et accipiendi spiritualia, praesertim
+          <lb ed="#P" n="69"/>beneficia, circa quae etiam committitur 
+          simo<lb break="no" ed="#P" n="70"/>nia contra jus divinum, ut supra visum est.
+          <lb ed="#P" n="71"/>Eadem item committütur circa dispensationem
+          <lb ed="#P" n="72"/>indulgentiarum, et aliarum gratiarum, et cir
+          <lb ed="#P" n="73"/>ca reliquias Sanctorum, et res sacras; quae
+          <lb ed="#P" n="74"/>omnia in Curia frequentius procurantur, et
+          <lb ed="#P" n="75"/>ideo possunt ibi frequentius pravis medis,
+          <lb ed="#P" n="76"/>quae labem simoniae contineant, procurari.
+          <lb ed="#P" n="77"/>Nam, licet cum ipsomet Pontifice non 
+          com<lb break="no" ed="#P" n="78"/>mittatur, potest ab ipsis appetentibus 
+          spiri<lb break="no" ed="#P" n="79"/>tualia, et de illis contrahentibus, vel etiam a
+          <lb ed="#P" n="80"/>ministris et intercessoribus committi, ut in
+          <lb ed="#P" n="81"/>cap. seq. generaliter explicabimus. Unde 
+          ul<lb break="no" ed="#P" n="82"/>terius certum est, posse ibi committi 
+          simo<lb break="no" ed="#P" n="83"/>niam contra jus ecclesiasticum, inscio et 
+          igno<lb break="no" ed="#P" n="84"/>rante Pontifice. In hoc etiam omnes 
+          conve<lb break="no" ed="#P" n="85"/>niunt, et eodem fere discursu declarari potest:
+          <lb ed="#P" n="86"/>imo quaedam sunt simoniae species quasi 
+          pro<lb break="no" ed="#P" n="87"/>priae illius loci; maxime vero simonia 
+          confi<lb break="no" ed="#P" n="88"/>dentialis, ut colligitur ex Bullis Pii IVet PuV
+          <lb ed="#P" n="89"/>contra illam. Possumus autem advertere
+          <lb ed="#P" n="90"/>dupliciter posse simoniam committi in Curia:
+          <lb ed="#P" n="91"/>uno modo, quasi materialiter, quia contingit
+          <lb ed="#P" n="92"/>eos, qui pacta simoniaca faciunt, ibi 
+          commo<lb break="no" ed="#P" n="93"/>1ari; et ita nulla est difficultas, nec de illa
+          <lb ed="#P" n="94"/>Curia potest esse specialis quaestio. Alio ergo
+          <lb ed="#P" n="95"/>modo potest committi in Curia formaliter, et
+          <lb ed="#P" n="96"/>quatenus talis est, id est, ab officialibus et
+          <lb ed="#P" n="97"/>cum officialibus, qui quodammodo talem 
+          Cu<lb break="no" ed="#P" n="98"/>riam constituunt ; et sic intelligenda sunt quae
+          <lb ed="#P" n="99"/>in hac materia dicuntur. Sunt ergo jura 
+          quae<lb break="no" ed="#P" n="100"/>dam positiva, prohibentia simoniam, qua
+          <lb ed="#P" n="101"/>principaliter feruntur pro Curia, ut illa de 
+          Si<lb break="no" ed="#P" n="102"/>monia confidentiali, de quibus non est dubium
+          <lb ed="#P" n="103"/>quin ibi maxime violentur per simoniam 
+          pro<lb break="no" ed="#P" n="104"/>hibitam, praesertim non interveniente tacita
+          <lb ed="#P" n="105"/>vel expressa dispensatione, aut conniventia
+          <lb ed="#P" n="106"/>Pontificis. Alia vero sunt jura generalia, de
+          <lb ed="#P" n="107"/>quibus magis posset dubitari. Verumtamen
+          <lb ed="#P" n="108"/>etiam haec sine dubio obligant in Curia 
+          Ro<lb break="no" ed="#P" n="109"/>mana, nisi constet contraria consuetudine esse
+          <lb ed="#P" n="110"/>derogata ; et ita contra illa etiam poterit in
+          <pb ed="#P" n="941"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illa Curia simonia committi, quando tacitus
+          <lb ed="#P" n="2"/>consensus Pontificis non intervenit.
+        </p>
+        <p>
+          <lb ed="#P" n="3"/>11. Non quevis tolerantia Pontificis 
+          simo<lb break="no" ed="#P" n="4"/>niam tollit. —Auctores ergo qui ita loquuntur,
+          <lb ed="#P" n="5"/>ut negent simoniam solo jure positivo 
+          prohi<lb break="no" ed="#P" n="6"/>bitam, habere locum in Curia, maxime loqui
+          <lb ed="#P" n="7"/>videntur, quando sciente et dissimulante 
+          Pon<lb break="no" ed="#P" n="8"/>tifice exercetur ; quia tunc videtur tacite 
+          dis<lb break="no" ed="#P" n="9"/>pensare. Ita sensit Joan. de Lignan., inc.1
+          <lb ed="#P" n="10"/>de Simon., ut refert et sequitur Sylvester, d.
+          <lb ed="#P" n="11"/>q. 4. Quia in Curia principis non habet locum
+          <lb ed="#P" n="12"/>lex Julia de ambitu; de qua sententia videri
+          <lb ed="#P" n="13"/>possunt multa per Abb., cum additione ad 
+          il<lb break="no" ed="#P" n="14"/>lum in cap. 1, de Simon., numer. 5 et 6; et
+          <lb ed="#P" n="15"/>ibi Felin. Sed illi auctores videntur loqui de
+          <lb ed="#P" n="16"/>simoniis commissis in Curia cum ipsomet 
+          Pa<lb break="no" ed="#P" n="17"/>pa, seu cooperante ipso; nam ita cum 
+          propor<lb break="no" ed="#P" n="18"/>tione loquitur lex de ambitu. Atque ita dicti
+          <lb ed="#P" n="19"/>doctores expresse loquuntur de Simonia in 
+          be<lb break="no" ed="#P" n="20"/>neficiis; unde magis quoad excusationem 
+          poe<lb break="no" ed="#P" n="21"/>nae quam culpae loqui videntur : quam 
+          quae<lb break="no" ed="#P" n="22"/>stionem infra tractandam remisi. Loquendo
+          <lb ed="#P" n="23"/>autem de culpa simoniae, etiam contra legem
+          <lb ed="#P" n="24"/>ecclesiasticam universalem, non est sufficiens
+          <lb ed="#P" n="25"/>signum dispensationis, quod Papa sciat 
+          con<lb break="no" ed="#P" n="26"/>trarium fieri in Curia, et toleret, quia potest
+          <lb ed="#P" n="27"/>tolerare quoad non inferendam poenam, quia
+          <lb ed="#P" n="28"/>fortasse non denunciatur, vel quia non 
+          sem<lb break="no" ed="#P" n="29"/>per expedit omnes poenas exequi, vel certe quia
+          <lb ed="#P" n="30"/>in hoc potest esse aliqua negligentia, et non
+          <lb ed="#P" n="31"/>propterea factum approbari. Igitur nisi talis
+          <lb ed="#P" n="32"/>sit scientia et patientia Pontificis, talisque 
+          con<lb break="no" ed="#P" n="33"/>suetudo ut, communi judicio prudentum ,
+          <lb ed="#P" n="34"/>censeatur lex ibi abrogata, sine dubio 
+          commit<lb break="no" ed="#P" n="35"/>tetur etiam ibi simonia in talis legis 
+          transgres<lb break="no" ed="#P" n="36"/>sione, quia de obligatione legis constat, et de
+          <lb ed="#P" n="37"/>abrogatione non constat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

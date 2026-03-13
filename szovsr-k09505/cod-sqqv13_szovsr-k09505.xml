@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="380"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k09505"><!-- t2-l3prae -->
+        <head>Praeambulum</head>
+        <p>
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="29"/>LIBER TERTIUS.
+          <lb ed="#P" n="30"/>DE TEMPLORUM AC LOCORUM SACRORUM
+          <lb ed="#P" n="31"/>RELIGIOSA OBSERVATIONE
+          <lb ed="#P" n="32"/>ET PRAECEPTIS AD ILLAM SPECTANTIBUS.
+        </p>
+        <p>
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="33"/>Explicata religiosa obligatione pertinente
+          <lb ed="#P" n="34"/>ad tempora Deo dicata, dicendum superest de
+          <lb ed="#P" n="35"/>altera circumstantia proposita, scilicet, de 
+          lo<lb break="no" ed="#P" n="36"/>cis Deo consecratis ; nam, ut supra dixi, hae
+          <lb ed="#P" n="37"/>duae circumstantiae in ordine ad actus 
+          huma<lb break="no" ed="#P" n="38"/>nos, proesertim publicos, quamdam inter se
+          <lb ed="#P" n="39"/>proportionem observant. Supponit autem haec
+          <lb ed="#P" n="40"/>disputatio , esse posse ac debere, jureque ac
+          <cb ed="#P" n="f"/>
+          <lb ed="#P" n="41"/>merito esse etiam in lege gratiae aliqua loca
+          <lb ed="#P" n="42"/>specialiter destinata ac sacrata ad Deum in eis
+          <lb ed="#P" n="43"/>religiose colendum : quod multi haeretici, et
+          <lb ed="#P" n="44"/>praesertim his temporibus novatores, et 
+          sanc<lb break="no" ed="#P" n="45"/>torum templorum eversores, pertinaciter 
+          ne<lb break="no" ed="#P" n="46"/>gant. Contra quos longa hic fuisset 
+          instituen<lb break="no" ed="#P" n="47"/>da disputatio , nisi illa, quae nostro instituto
+          <lb ed="#P" n="48"/>sufficiunt, tradita a nobis fuissent in 3 tomo
+          <pb ed="#P" n="381"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tertiae partis, disp. 81, sect. 1 et 2, ubi ex 
+          di<lb break="no" ed="#P" n="2"/>vina Scriptura et Ecclesiae definitione ac 
+          tra<lb break="no" ed="#P" n="3"/>ditione hanc veritatem ostendimus. Quae adeo
+          <lb ed="#P" n="4"/>etiam est rationi naturali consentanea, ut vix
+          <lb ed="#P" n="5"/>ratio apparens occurrat, qua error contrarius
+          <lb ed="#P" n="6"/>fundari possit. Hoc igitur errore omisso, in
+          <lb ed="#P" n="7"/>praesenti tantum a nobis sunt declaranda 
+          prae<lb break="no" ed="#P" n="8"/>cepta , quae vel debitum cultum talium 
+          loco<lb break="no" ed="#P" n="9"/>rum praescribunt , vel eorum irreverentias
+          <lb ed="#P" n="10"/>prohibent.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

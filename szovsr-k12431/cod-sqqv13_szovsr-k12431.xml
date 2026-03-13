@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="499"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k12431"><!-- t3-l2c7 -->
+        <head>Caput 7</head>
+        <head type="question-title">De superstitione divinativa, quid sit, et unde habeat malitiam seu deformitatem.</head>
+        <p>
+          <lb ed="#P" n="18"/>CAPUT VII
+          <lb ed="#P" n="19"/>DE SUPERSTITIONE DIVINATIVA, QUID SIT, ET UNDE
+          <lb ed="#P" n="20"/>HABEAT MALITIAM SEU DEFGORMITATEM.
+        </p>
+        <p>
+          <lb ed="#P" n="21"/>1. Dividitur superstitio in divinativam, et
+          <lb ed="#P" n="22"/>ranam observantiam. — Postquam de aperta
+          <lb ed="#P" n="23"/>et expressa idololatria dictum est, sequitur ut
+          <lb ed="#P" n="24"/>de tacita, seu implicita dicamus, nam hac
+          <lb ed="#P" n="25"/>etiam inter superstitionis species religioni
+          <lb ed="#P" n="26"/>contrarias a D. Thoma et omnibus 
+          Doctori<lb break="no" ed="#P" n="27"/>bus numeratur. Haec autem superstitio in duas
+          <lb ed="#P" n="28"/>species subdividitur : una cognitionis dici 
+          po<lb break="no" ed="#P" n="29"/>test, altera operis; communiter vero prior
+          <lb ed="#P" n="30"/>appellatur divinativa, posterior vero vanae
+          <lb ed="#P" n="31"/>observantie dicitur, ut patet ex D. Thoma
+          <lb ed="#P" n="32"/>et interpretibus, 2. 2, quaest. 95 et 96.Ut
+          <lb ed="#P" n="33"/>autem communis ratio hujus superstitionis,
+          <lb ed="#P" n="34"/>et sufficientia dictae divisionis intelligatur,
+          <lb ed="#P" n="35"/>advertendum est ex doctrina D. Thoma 2. 2,
+          <lb ed="#P" n="36"/>q. 99 art. 2 et q. 95,art. 2, divinum cultum
+          <lb ed="#P" n="37"/>non solum ordinari ad reverentiam Deo 
+          ex<lb break="no" ed="#P" n="38"/>hibendam, quasi recognoscendo solum 
+          ex<lb break="no" ed="#P" n="39"/>cellentiam divinitatis et majestatis ejus. sed
+          <lb ed="#P" n="40"/>etiam referri ad aliquid ab eo obtinendum,
+          <lb ed="#P" n="41"/>quod solus ipse praestare potest. Superstitio
+          <lb ed="#P" n="42"/>ergo idololairie expressae opponitur 
+          reveren<lb break="no" ed="#P" n="43"/>tia debita priori modo: haec autem 
+          supersti<lb break="no" ed="#P" n="44"/>tio tacitae idololatrie opponitur cultui soli Deo
+          <lb ed="#P" n="45"/>debito posteriori modo. Duo autem sunt, quae
+          <lb ed="#P" n="46"/>homo potest a Deo velle singulariter obtinere:
+          <lb ed="#P" n="47"/>unum est mentis instructio in cognitione 
+          re<lb break="no" ed="#P" n="48"/>rum occultarum, quas per suae naturae vires
+          <lb ed="#P" n="49"/>consequi non potest ; aliud est effectio 
+          alicu<lb break="no" ed="#P" n="50"/>jus operationis seu effectus superantis vim
+          <lb ed="#P" n="51"/>causarum naturalium, quas homo suis 
+          natu<lb break="no" ed="#P" n="52"/>ralibus viribus applicare potest, sive eifectus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>ille sit externus et sensibilis, sive internus,
+          <lb ed="#P" n="54"/>qualis est affectus voluntatis. Quando ergo
+          <lb ed="#P" n="55"/>homo aliquid ex his duobus intendit consequi
+          <lb ed="#P" n="56"/>ab alio quam a Deo. et aliquid facit eo fine,
+          <lb ed="#P" n="57"/>superstitionem continentem idololatriam 
+          ta<lb break="no" ed="#P" n="58"/>citam censetur committere ; quae si ordinetur
+          <lb ed="#P" n="59"/>ad cognitionem occultorum obtinendam, 
+          di<lb break="no" ed="#P" n="60"/>vinatio dicitur ; si ad praeternaturalem 
+          effec<lb break="no" ed="#P" n="61"/>tionem, dicitur vana observantia, nos magiam
+          <lb ed="#P" n="62"/>appellabimus. Qua omnia in discursu 
+          se<lb break="no" ed="#P" n="63"/>quentium capitum declarabuntur et 
+          proba<lb break="no" ed="#P" n="64"/>buntur. Dicemus autem prius de divinatione,
+          <lb ed="#P" n="65"/>postea de vana observantia, seu magia.
+        </p>
+        <p>
+          <lb ed="#P" n="66"/>2. Primo igitur ex dictis intelligi potest,
+          <lb ed="#P" n="67"/>quomodo divinatio in praesenti sumatur, et
+          <lb ed="#P" n="68"/>quid sit : si enim vim vocis attendamus, 
+          divi<lb break="no" ed="#P" n="69"/>natio idem videtur esse, atque divina notio,
+          <lb ed="#P" n="70"/>id est, participatio quaedam illius cognitionis
+          <lb ed="#P" n="71"/>rerum futurarum, seu occultarum, qua 
+          divi<lb break="no" ed="#P" n="72"/>nitatis est propria. Unde juxta hanc latam
+          <lb ed="#P" n="73"/>etymologiam, divinatio et bona et mala esse
+          <lb ed="#P" n="74"/>potest : unde Cicero, lib. 1 de Divinatione.
+          <lb ed="#P" n="75"/>dicit divinationem esse a Divis sumpiam,
+          <lb ed="#P" n="76"/>quia est praestantissimae rei nomen ; significat
+          <lb ed="#P" n="77"/>enim scientiam, seu prassensionem 
+          futuro<lb break="no" ed="#P" n="78"/>rum ; et in lib. 2 addit, divinationem etiam
+          <lb ed="#P" n="79"/>significare vim quamdam interpretandi divina
+          <lb ed="#P" n="80"/>oracula et responsa. Verumtamen, quia tota
+          <lb ed="#P" n="81"/>haec cognitio in Gentibus proveniebat ex 
+          vir<lb break="no" ed="#P" n="82"/>tute Daemonis, ideo usu Scripturae et 
+          ecclesia<lb break="no" ed="#P" n="83"/>sticorum Doctorum divinatio fere semper in
+          <lb ed="#P" n="84"/>malam partem acceipitur. Nam si cognitio 
+          oc<lb break="no" ed="#P" n="85"/>cultorum ex Dei dono seu revelatione 
+          accipia<lb break="no" ed="#P" n="86"/>tur, bona et sancta existit, et dicitur prophetia,
+          <lb ed="#P" n="87"/>vel scientia aliqua infusa. Divinatio autem 
+          di<lb break="no" ed="#P" n="88"/>citur. quando cognitio seu praenotio rerum 
+          fu<lb break="no" ed="#P" n="89"/>turarum seu occultarum, quae vi natura ab
+          <lb ed="#P" n="90"/>homine cognosci non possunt, per media 
+          in<lb break="no" ed="#P" n="91"/>debita comparatur, seu procuratur. Sic docet
+          <lb ed="#P" n="92"/>D. Thomas q. 95, art. 1, ex Hieronymo, in
+          <lb ed="#P" n="93"/>c. 3 Micha, circa finem, dicente in 
+          Sceriptu<lb break="no" ed="#P" n="94"/>ris semper in malam partem sumi, juxta iilud
+          <lb ed="#P" n="95"/>Num.35: Non est augurium in Jacob. nec 
+          diri<lb break="no" ed="#P" n="96"/>natio in Israel. Quod in laudem illius populi
+          <lb ed="#P" n="97"/>dictum est, in quo erat prophetia, non 
+          divi<lb break="no" ed="#P" n="98"/>patio. Unde in eodem c. 3 Michaae. de falsis
+          <lb ed="#P" n="99"/>Prophetis, qui pretio divinabant, dicitur: Voz
+          <lb ed="#P" n="100"/>cvolis pro visione erit. ei tenebra pro 
+          divinatio<lb break="no" ed="#P" n="101"/>ne. Unde Origines, hom. 16 in Numeros, 
+          di<lb break="no" ed="#P" n="102"/>vinationem putatper antiphrasim ex contrario
+          <lb ed="#P" n="103"/>nomen accepisse, quasi quae per homines 
+          Da<lb break="no" ed="#P" n="104"/>sonibus repletos fiat. lsidor. autem, lib. 8
+          <lb ed="#P" n="105"/>Etymol., c. 9 dicit istos superstitiosos 
+          divina<lb break="no" ed="#P" n="106"/>tores , dictos esse dirinos, quia dirinitate se
+          <lb ed="#P" n="107"/>pienos simulant, et astu.ia q«adam fraudule.-
+          <pb ed="#P" n="500"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tie hominibus futura conjectant. Bivinatio
+          <lb ed="#P" n="2"/>ergo est usurpatio indebita praenotionis, seu
+          <lb ed="#P" n="3"/>praedictionis rerum futurarum, seu 
+          occulta<lb break="no" ed="#P" n="4"/>rum, quae divinitatis est propria; et ideo qui
+          <lb ed="#P" n="5"/>a Deo ipso hanc cognitionem per 
+          revelatio<lb break="no" ed="#P" n="6"/>nem suscipit, non dicitur proprie divinare,
+          <lb ed="#P" n="7"/>quia non usurpat Dei cognitionem, vel (ut
+          <lb ed="#P" n="8"/>divus Thomas ait) non facit quod divinum est,
+          <lb ed="#P" n="9"/>sed suscipit.
+        </p>
+        <p>
+          <lb ed="#P" n="10"/>3. Divinatio est peccaminosa actio.—
+          Secun<lb break="no" ed="#P" n="11"/>do, dicendum est divinationem hanc pravam
+          <lb ed="#P" n="12"/>esse, et peccaminosam actionem. Hoc de fide
+          <lb ed="#P" n="13"/>certum est: primo, quia in Scriptura sancta
+          <lb ed="#P" n="14"/>prohibetur et reprehenditur. Deut. 18: 
+          Nonin<lb break="no" ed="#P" n="15"/>veniatur in te qui ariolos sciscitetur, nec qui
+          <lb ed="#P" n="16"/>pythones consulat , uec qui divinos, etc. ; 
+          om<lb break="no" ed="#P" n="17"/>nia enim hec abominatur Dominus ; et infra:
+          <lb ed="#P" n="18"/>Gentes iste, quarum possidebis terram, 
+          augu<lb break="no" ed="#P" n="19"/>ves el divinos audiunt; tu autem a Domino
+          <lb ed="#P" n="20"/>Deo tuo aliter institutus es. Et Lev. 19: Non
+          <lb ed="#P" n="21"/>declinetis ad malos, nec ab ariolis aliquid 
+          scis<lb break="no" ed="#P" n="22"/>citemini, etc. Item Levit. 20: Vir sive mulier,
+          <lb ed="#P" n="23"/>in quibus pythonicus, sive divinationis fuerit
+          <lb ed="#P" n="24"/>species, morte moriatur. Unde Eccl. 24: Vana
+          <lb ed="#P" n="25"/>spes, et mendacium viro insipienti, eic. Et
+          <lb ed="#P" n="26"/>infra : Divinatio erroris, et augwria mendacia,
+          <lb ed="#P" n="27"/>et somnia malefacientium, vanitas est. Secundo,
+          <lb ed="#P" n="28"/>quia haec prohibitio non fuit tantum in lege
+          <lb ed="#P" n="29"/>veteri, sed etiam nunc durat, et in sacris
+          <lb ed="#P" n="30"/>Canonibus continetur, 26, quaest. 5, per 
+          mul<lb break="no" ed="#P" n="31"/>ta capita, et in aliis pontificiis decretis, quae
+          <lb ed="#P" n="32"/>in sequentibus exponemus; et habetur etiam
+          <lb ed="#P" n="33"/>in jure civili, Cod. de Maleficiis. Non fuit 
+          au<lb break="no" ed="#P" n="34"/>tem haec prohibitio de solo jure positivo 
+          divi<lb break="no" ed="#P" n="35"/>no in lege veteri, vel humano in lege nova:
+          <lb ed="#P" n="36"/>sed fuit semper de jure divino naturali, quod
+          <lb ed="#P" n="37"/>ilis positivis legibus declaratur, et additis
+          <lb ed="#P" n="38"/>poenis roboratur; nam hoc vitium non ideo
+          <lb ed="#P" n="39"/>malum est quia prohibitum, sed ideo 
+          prohi<lb break="no" ed="#P" n="40"/>bitum quia malum.
+        </p>
+        <p>
+          <lb ed="#P" n="41"/>4. In divinatione, et finis et media 
+          distin<lb break="no" ed="#P" n="42"/>guenda sunt.— Ad intelligendum autem 
+          ra<lb break="no" ed="#P" n="43"/>tionem et modum hujus malitiae et 
+          deor<lb break="no" ed="#P" n="44"/>dinationis, duo in hac divinatione 
+          distin<lb break="no" ed="#P" n="45"/>guenda suni : unum habet rationem finis,
+          <lb ed="#P" n="46"/>aliud rationem mediorum. Primum ergo 
+          in<lb break="no" ed="#P" n="47"/>tervenit in hoc negotio, per modum 
+          inten<lb break="no" ed="#P" n="48"/>tonis finis, appetitus et desiderium sciendi
+          <lb ed="#P" n="49"/>occulta, nam licet haec ipsa cognitio possit
+          <lb ed="#P" n="50"/>appeti ut medium ad alios fines, ut ad vanos
+          <lb ed="#P" n="51"/>honores, et famam comparandam, vel ad 
+          lu<lb break="no" ed="#P" n="52"/>crum, vel ad vitanda pericula, et similia,
+          <lb ed="#P" n="53"/>tamen isti fines sunt per accidens ad malitiam
+          <lb ed="#P" n="54"/>aivinationis, quam inquirimus; nam ipsa 
+          co<lb break="no" ed="#P" n="55"/>gnitio occuitorum est per se appetibilis, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>saepe desideratur ex sola quadam nimia 
+          cu<lb break="no" ed="#P" n="57"/>riositate sciendi, et ita in proposito solum
+          <lb ed="#P" n="58"/>consideratur ut finis, propter quem iila media
+          <lb ed="#P" n="59"/>eliguntur, quae ad talem cognitionem 
+          obti<lb break="no" ed="#P" n="60"/>nendam deservire possunt. Secundo ergo
+          <lb ed="#P" n="61"/>iutervenit in hoc opere medium, seu modus
+          <lb ed="#P" n="62"/>et via acquirendi talem cognitionem, et in
+          <lb ed="#P" n="63"/>hoc consistit propria deformitas hujus 
+          ac<lb break="no" ed="#P" n="64"/>tionis, prout nunc a nobis consideratur. Si
+          <lb ed="#P" n="65"/>enim tantum spectetur secundum se illa 
+          in<lb break="no" ed="#P" n="66"/>tentio, seu desiderium talis cognitionis, 
+          vide<lb break="no" ed="#P" n="67"/>tur esse ex objecto indifferens, ut expresse
+          <lb ed="#P" n="68"/>docuit Origenes, hom. 16 in Numeros. Non
+          <lb ed="#P" n="69"/>enim est intrinsece malum cupere scire 
+          oc<lb break="no" ed="#P" n="70"/>culta et abdita sapientiae divina; tum quia
+          <lb ed="#P" n="71"/>hoc videtur conforme appetitul naturae, quo
+          <lb ed="#P" n="72"/>omnis homo naturaliter scire desiderat ; tum
+          <lb ed="#P" n="73"/>etiam quia interdum potest esse honestus
+          <lb ed="#P" n="74"/>ille appetitus, si ex bono fine et cum debita
+          <lb ed="#P" n="75"/>mensura habeatur. Unde quando habet 
+          mali<lb break="no" ed="#P" n="76"/>tiam, id est vel quia propter malum finem
+          <lb ed="#P" n="77"/>concipitur, vel saltem quia sine honesto fine
+          <lb ed="#P" n="78"/>habetur, solum ex vana quadam curiositate ;
+          <lb ed="#P" n="79"/>ve! certe quia in modo appetendi talem 
+          co<lb break="no" ed="#P" n="80"/>gnitionem exceditur, amando illam nimium,
+          <lb ed="#P" n="81"/>et per modum ultimi finis; quod tunc 
+          ma<lb break="no" ed="#P" n="82"/>xime cognoscitur, quando talis cognitio per
+          <lb ed="#P" n="83"/>iniqua media inquiritur. Igitur in mediis
+          <lb ed="#P" n="84"/>sceu modis inquirendi talem cognitionem,
+          <lb ed="#P" n="85"/>potissima mahtia hujus actionis existit, ut
+          <lb ed="#P" n="86"/>breviter attigit D. Thomas, d. q. 95, art. 2,
+          <lb ed="#P" n="87"/>ad 1.
+        </p>
+        <p>
+          <lb ed="#P" n="88"/>5. Hanc deformitatem m eo consistere, quod
+          <lb ed="#P" n="89"/>per doctrinam Daemonwmn occulta cognitio 
+          in<lb break="no" ed="#P" n="90"/>quiritur.— TVertio, dicendum est divinationis
+          <lb ed="#P" n="91"/>malitiam in hoc consistere, quod futurorum
+          <lb ed="#P" n="92"/>contingentium, seu rerum occultarum cognitio
+          <lb ed="#P" n="93"/>per instructionem et doctriuam Daemonum
+          <lb ed="#P" n="94"/>inquiritur vel comparatur. Hanc assertionem
+          <lb ed="#P" n="95"/>declaravit D. Thomas, in dicta q., art. 1et 2.
+          <lb ed="#P" n="96"/>Nam in primo dicit, tunc divinationem 
+          com<lb break="no" ed="#P" n="97"/>mitti, quando praenunciatio futurorum 
+          occul<lb break="no" ed="#P" n="98"/>torum usurpatur indebito modo. Ibi autem
+          <lb ed="#P" n="99"/>non explicat qualis sit ille indebitus modus,
+          <lb ed="#P" n="100"/>nec etiam dicit omnem indebitum modum
+          <lb ed="#P" n="101"/>esse superstitionem divinativam ; nec revera
+          <lb ed="#P" n="102"/>ita est ; nam potest quis curiose vel superflue
+          <lb ed="#P" n="103"/>appetere cognitionem aliquorum occultorum,
+          <lb ed="#P" n="104"/>eamque a vero Deo indebite postulare, et
+          <lb ed="#P" n="105"/>tunc non erit superstitiosus, nec divinus, sed
+          <lb ed="#P" n="106"/>erit tentans Deum, aut indiscrete deprecans
+          <lb ed="#P" n="107"/>Deum. Tales erant discipuli, quando a 
+          Chris<lb break="no" ed="#P" n="108"/>to interrogabant: Domine, si in tempore hoc 
+          res<lb break="no" ed="#P" n="109"/>titues regmun Isvael ? Quibus ille respondit:
+          <lb ed="#P" n="110"/>Non est vestrum nosse tempora , vel momenta,
+          <pb ed="#P" n="501"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quae Pater posuit in sua potestate ; rejiciens
+          <lb ed="#P" n="2"/>interrogationem illam tanquam ineptam, et
+          <lb ed="#P" n="3"/>appetitum illum, ut curiosum, ut ibi auctores
+          <lb ed="#P" n="4"/>omnes advertunt, maxime Chrysostomus, et
+          <lb ed="#P" n="5"/>Augustinus epist. 78 et 80. Imo cum multorum
+          <lb ed="#P" n="6"/>sententia sit (ut testis est Justin., Quaest. 112)
+          <lb ed="#P" n="7"/>in ea interrogatione errasse discipulos, 
+          cogi<lb break="no" ed="#P" n="8"/>tantes regnum Christi fore terrenum, Christus
+          <lb ed="#P" n="9"/>ibi hunc errorem dissimulavit, et non 
+          repre<lb break="no" ed="#P" n="10"/>hendit, quia forte excusabantur ignorantia
+          <lb ed="#P" n="11"/>(ut nonnulli moderni expositores volunt),
+          <lb ed="#P" n="12"/>quam noluit Christus removere usque ad 
+          Spi<lb break="no" ed="#P" n="13"/>ritus Sancti adventum; reprehendit autem
+          <lb ed="#P" n="14"/>curiosam interrogationem de refutura, et soli
+          <lb ed="#P" n="15"/>divinae ordinationi, ac praescientiae reservata.
+        </p>
+        <p>
+          <lb ed="#P" n="16"/>6. Sic etiam, Matt. 24, Christus 
+          interroga<lb break="no" ed="#P" n="17"/>tus a discipulis: Dic nobis quando heec erunt,
+          <lb ed="#P" n="18"/>et quod signum adventus tui, respondit: De
+          <lb ed="#P" n="19"/>die illa nemo scit, neque Angeli in celo, neque
+          <lb ed="#P" n="20"/>Filius (ut addit Marcus), sed solus Pater. Ubi
+          <lb ed="#P" n="21"/>adnotant catholici Doctores, licet Christus
+          <lb ed="#P" n="22"/>diem judicii non ignoraret simpliciter et 
+          abso<lb break="no" ed="#P" n="23"/>lute, sed solum certa quadam ratione, quia
+          <lb ed="#P" n="24"/>non a se, nec ex humanitate sciebat, voluisse
+          <lb ed="#P" n="25"/>tamen nihilominus cum illa exaggeratione 
+          lo<lb break="no" ed="#P" n="26"/>qui ad retundendam curiosam 
+          interrogatio<lb break="no" ed="#P" n="27"/>nem , et nimiam aviditatem discipulorum
+          <lb ed="#P" n="28"/>sciendi futura, quae ex Dei voluntate pendent.
+          <lb ed="#P" n="29"/>Excesserunt ergo discipuli in illo appetitu,
+          <lb ed="#P" n="30"/>interrogatione ac petitione; non possunt 
+          ta<lb break="no" ed="#P" n="31"/>men dici fuisse superstitiosi, nec divini, aut
+          <lb ed="#P" n="32"/>divinationis affectatores, quia non ab alio,
+          <lb ed="#P" n="33"/>quam a vero Deo cognitionem futurorum 
+          in<lb break="no" ed="#P" n="34"/>quirebant ; et licet indebito modo eam 
+          quae<lb break="no" ed="#P" n="35"/>rerent, quia intempestive ac sine causa , non
+          <lb ed="#P" n="36"/>tamen talis erat ille modus indebitus, ut ad
+          <lb ed="#P" n="37"/>«superstitionem pertineret. Igitur non omnis
+          <lb ed="#P" n="38"/>indebitus modus in hac materia sufficit ad
+          <lb ed="#P" n="39"/>superstitionem divinativam, nec per illa sola
+          <lb ed="#P" n="40"/>verba explicatur specifica ratio superstitionis,
+          <lb ed="#P" n="41"/>sed ad summum generica.
+        </p>
+        <p>
+          <lb ed="#P" n="42"/>7. Qualis sit modus indebitus superstitionis.
+          <lb ed="#P" n="43"/>— Proprius ergo modus indebitus 
+          divinatio<lb break="no" ed="#P" n="44"/>nis futurorum, quo haec superstitio 
+          comple<lb break="no" ed="#P" n="45"/>tur, est, quod talis cognitio non a vero Deo,
+          <lb ed="#P" n="46"/>sed aliunde inquiritur ac postulatur, 
+          nimi<lb break="no" ed="#P" n="47"/>rum, a daemonibus ; nam, secluso vero Deo,
+          <lb ed="#P" n="48"/>non superest recursus nisi ad daemones. 
+          Un<lb break="no" ed="#P" n="49"/>de ab Ecclesia et Patribus hoc nomine 
+          maxi<lb break="no" ed="#P" n="50"/>me damnatur haec ars divinatoria, et 
+          supers<lb break="no" ed="#P" n="51"/>titiosa censetur, quod a daemonibus 
+          cognitio<lb break="no" ed="#P" n="52"/>nem rerum occultarum procuret. Et ideo in
+          <lb ed="#P" n="53"/>Conc. Anquir., c. 1, prout refertur in capite
+          <lb ed="#P" n="54"/>E piscopi, 26, quaest. 5, de his divinatoribus
+          <lb ed="#P" n="55"/>dicitur, quod, relicto Creatore, diaboli suffra-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gia quaerunt. Idem testatur Augustinus, lib. 2
+          <lb ed="#P" n="57"/>de Doctr. Christ., c. 22, in fine, et 23, in 
+          prin<lb break="no" ed="#P" n="58"/>cipio, dicens: ste opiniones quibusdam rerum
+          <lb ed="#P" n="59"/>signis luumana preesumptione institutis ad 
+          ea<lb break="no" ed="#P" n="60"/>dem illa, quasi quaedam cum damonibus pacta
+          <lb ed="#P" n="61"/>et conventa, referendee sunt. Hinc enim fit, ut
+          <lb ed="#P" n="62"/>occulto quodas judicio divino, cupidi malarum
+          <lb ed="#P" n="63"/>rerum homines tradantur illudendi et 
+          decipien<lb break="no" ed="#P" n="64"/>di pro meritis voluptatum suarum , 
+          illuden<lb break="no" ed="#P" n="65"/>tibus ac decipientibus eos Angelis, utique 
+          ma<lb break="no" ed="#P" n="66"/>lis; et infra: Omnes igitur artes iste vel 
+          na<lb break="no" ed="#P" n="67"/>gatorim, cel novie superstitionis, e quadam
+          <lb ed="#P" n="68"/>pestifera societate hominum et demomun, quasi
+          <lb ed="#P" n="69"/>pacta infidelis et dolose amicitie constituta,
+          <lb ed="#P" n="70"/>penitus sunt repudianda et fugienda Christiano.
+          <lb ed="#P" n="71"/>De qua re videri etiam potest libr. 2 de 
+          Di<lb break="no" ed="#P" n="72"/>vin. Daem., a cap. 2 usque ad 6.
+        </p>
+        <p>
+          <lb ed="#P" n="73"/>8. Similiter Cyprianus, lib. de Idolor. 
+          Va<lb break="no" ed="#P" n="74"/>nit.: Nequissimi (inquit) Spiritus afflatu suo
+          <lb ed="#P" n="75"/>vatum pectora inspirant, extorum fibras 
+          ani<lb break="no" ed="#P" n="76"/>nam et falluntur et fallunt. Et Origenes, 
+          ho<lb break="no" ed="#P" n="77"/>mil. 16 in Numer.: Zst (inquit) quedam in
+          <lb ed="#P" n="78"/>mant, avium volatus gubernant, sortes regunt,
+          <lb ed="#P" n="79"/>oracula efficiunt, falsa veris semper involvunt,
+          <lb ed="#P" n="80"/>müinisterio preescientiee operatio demomm, que
+          <lb ed="#P" n="81"/>artibus quibusdam ab his, qui domonibus 
+          manci<lb break="no" ed="#P" n="82"/>parunt, colligitur. Idem ostendit Eusebius, lib.
+          <lb ed="#P" n="83"/>de Praep. Evang., c. 7, testimoniis Gentilium
+          <lb ed="#P" n="84"/>id confirmans, qui Diis suis artes tribuebant,
+          <lb ed="#P" n="85"/>quos daemones esse constat testimonio David
+          <lb ed="#P" n="86"/>dicentis : Omnes Dii gentium demonia. 
+          Ratio<lb break="no" ed="#P" n="87"/>ne praeterea declarari potest, quia homo 
+          du<lb break="no" ed="#P" n="88"/>plicem tantum habet viam acquirendi 
+          cogni<lb break="no" ed="#P" n="89"/>tionem : una est per inventionem, alia est per
+          <lb ed="#P" n="90"/>disciplinam ; res autem occultas, quae per 
+          di<lb break="no" ed="#P" n="91"/>vinatoriam artem cognoscuntur, tales sunt, ut
+          <lb ed="#P" n="92"/>per solam inventionem et naturalem 
+          faculta<lb break="no" ed="#P" n="93"/>tem ingenii humani cognosci non possint, ea
+          <lb ed="#P" n="94"/>certitudine ac modo quo per talem 
+          supersti<lb break="no" ed="#P" n="95"/>tionem expetuntur; ergo necesse est ut per
+          <lb ed="#P" n="96"/>disciplinam ab aliquo eas agnoscente 
+          discan<lb break="no" ed="#P" n="97"/>tur ; ergo talis disciplina seu intructio a 
+          dae<lb break="no" ed="#P" n="98"/>mone postulatur, secluso vero Deo.
+        </p>
+        <p>
+          <lb ed="#P" n="99"/>9. Confirmatur vatio facta a rebus, quae per
+          <lb ed="#P" n="100"/>divinationem acquiruntur. — Major certissima
+          <lb ed="#P" n="101"/>est, et ex usu ipso supponitur; ideo enim 
+          homi<lb break="no" ed="#P" n="102"/>nes curiosi his superstitionibus utuntur, quia
+          <lb ed="#P" n="103"/>non possunt per se talium rerum cognitionem
+          <lb ed="#P" n="104"/>comparare. Patet etiam ex materia subjecta,
+          <lb ed="#P" n="105"/>pam haec cognitio imprimis est de actibus 
+          libe<lb break="no" ed="#P" n="106"/>ris ei futuris conBingentibus, quae ab illis 
+          pen<lb break="no" ed="#P" n="107"/>dent, de quibus non esse potest humana 
+          cogni<lb break="no" ed="#P" n="108"/>tio ; et licet esse possit aliqua conjectura, 
+          ho<lb break="no" ed="#P" n="109"/>mo tamen per hanc superstitionem certiorem
+          <lb ed="#P" n="110"/>quaerit cognitionem , imo certissimam et in-
+          <pb ed="#P" n="502"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fallibilem, quae propria est Dei, vel 
+          revelatio<lb break="no" ed="#P" n="2"/>nis ejus, juxta illud Isa. 41: Annunciate nobis
+          <lb ed="#P" n="3"/>futura, et dicemus quia Dei estis vos. Deinde
+          <lb ed="#P" n="4"/>si inquiritur haec cognitio de rebus quae in
+          <lb ed="#P" n="5"/>praesenti tempore fiunt, hae aut sunt 
+          cogita<lb break="no" ed="#P" n="6"/>tiones, et spirituales affectiones mentis 
+          hu<lb break="no" ed="#P" n="7"/>manae nullo externo signo manifestatae, quas
+          <lb ed="#P" n="8"/>solus Deus novit, ut dicitur 2 Paralip. 6; vel,
+          <lb ed="#P" n="9"/>si sunt exteriores effectus, fiunt in locis ita
+          <lb ed="#P" n="10"/>absentibus et distantibus, vel aliter occultis,
+          <lb ed="#P" n="11"/>ut sub humanum sensum, vel cognitionem
+          <lb ed="#P" n="12"/>tali tempore cadere non possint, quando 
+          ea<lb break="no" ed="#P" n="13"/>rum cognitio postulatur. Rursus peti potest
+          <lb ed="#P" n="14"/>haec cognitio de rebus praeteritis eodem modo
+          <lb ed="#P" n="15"/>occultis et remotis a sensibus humanis, et
+          <lb ed="#P" n="16"/>cum certitudine superante omnem humanam
+          <lb ed="#P" n="17"/>et naturalem conjecturam; postulari etiam 
+          po<lb break="no" ed="#P" n="18"/>test de rebus pertinentibus ad ordinem 
+          divi<lb break="no" ed="#P" n="19"/>nae praedestinationis, aut singularis 
+          providen<lb break="no" ed="#P" n="20"/>tiae, velcerte de aliquibus rebus naturalibus ita
+          <lb ed="#P" n="21"/>occultis hominibus, ut nullis effectibus vel 
+          si<lb break="no" ed="#P" n="22"/>gnis sensibilibus indicentur, ut sunt plures
+          <lb ed="#P" n="23"/>herbarum proprietates, vel lapidum, aut 
+          mi<lb break="no" ed="#P" n="24"/>neralium, et similia ; vel denique, licet talia
+          <lb ed="#P" n="25"/>sint, ut humana industria ac diligentia 
+          com<lb break="no" ed="#P" n="26"/>parari aliquo modo possint, per hanc vero
+          <lb ed="#P" n="27"/>superstitionem sciri desiderantur sine 
+          huma<lb break="no" ed="#P" n="28"/>no labore, aut inquisitione, et breviori 
+          tem<lb break="no" ed="#P" n="29"/>pore, faciliori modo, majorique certitudine,
+          <lb ed="#P" n="30"/>quam per vires humanas possit. Constat 
+          igi<lb break="no" ed="#P" n="31"/>tur hanc cognitionem non posse obtineri per
+          <lb ed="#P" n="32"/>inventionem humanam, quod in antecedenti
+          <lb ed="#P" n="33"/>sumebatur.
+        </p>
+        <p>
+          <lb ed="#P" n="34"/>10. A quibus divinatio procuretur.— 
+          Procu<lb break="no" ed="#P" n="35"/>ratur ergo haec cognitio ab aliquo alio, qui eam
+          <lb ed="#P" n="36"/>possit docere et tradere, unde necesse estillum
+          <lb ed="#P" n="37"/>esse intellectualem personam ; quia res 
+          inferi<lb break="no" ed="#P" n="38"/>ores, sive inanimes, sive animatae irrationales,
+          <lb ed="#P" n="39"/>non possunt hommem docere propria doctrina,
+          <lb ed="#P" n="40"/>ut per se notum est. Nam licet coeli dicantur
+          <lb ed="#P" n="41"/>loqui, et bruta animalia, ut formicae, interdum
+          <lb ed="#P" n="42"/>dicantur docere hominem, non tamen proprie,
+          <lb ed="#P" n="43"/>sed metaphorice, quatenus ex illorum actibus
+          <lb ed="#P" n="44"/>vel operibus excitari potest homo, ut per
+          <lb ed="#P" n="45"/>discursum suum aliqua intelligat, quod ad
+          <lb ed="#P" n="46"/>inventionem pertinet ; propriam autem 
+          disci<lb break="no" ed="#P" n="47"/>plinam non accipit homo, nisi per 
+          illumina<lb break="no" ed="#P" n="48"/>tionem et locutionem aliquam propriam 
+          na<lb break="no" ed="#P" n="49"/>turae intellectualis. Divinativa ergo cognitio
+          <lb ed="#P" n="50"/>ab aliquo intelligente postulatur; non petitur
+          <lb ed="#P" n="51"/>autem a vero Deo, ut supponitur; ergo a 
+          dae<lb break="no" ed="#P" n="52"/>mone. Probatur haec ultima consequentia ,
+          <lb ed="#P" n="53"/>quia inter Deum et daemones tantum sunt vel
+          <lb ed="#P" n="54"/>sancti Angeli, vel alii homines : sancti autem
+          <lb ed="#P" n="55"/>Angeli, cum sint Dei ministri, et ab illius vo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>luntate discrepare non possint, nihil homines
+          <lb ed="#P" n="57"/>docent, nisi quae a Deo accipiunt, ut de illis
+          <lb ed="#P" n="58"/>homines instruant; unde quidquid a sanctis
+          <lb ed="#P" n="59"/>Angelis in hoc genere petitur, ad Deum 
+          re<lb break="no" ed="#P" n="60"/>vocatur. Idemque est de animabus sanctis
+          <lb ed="#P" n="61"/>cum Deo regnantibus; nam vel ab eis solum
+          <lb ed="#P" n="62"/>postulari potest, ut a Deo nobis impetrent
+          <lb ed="#P" n="63"/>aliquarum rerum cognitionem, quando nobis
+          <lb ed="#P" n="64"/>expedit, vel si ab ipsis animabus instructio
+          <lb ed="#P" n="65"/>aut revelatio aliqua postulari posset, solum
+          <lb ed="#P" n="66"/>esset per communicationem illius cognitionis,
+          <lb ed="#P" n="67"/>quam a Deo participant, et cum 
+          subordina<lb break="no" ed="#P" n="68"/>tione ad voluntatem ejus; et ita tota illa 
+          peti<lb break="no" ed="#P" n="69"/>tio ad orationem Deo fusam reducitur, ut in
+          <lb ed="#P" n="70"/>tractatu de Orat. latius dicemus : ideoque 
+          co<lb break="no" ed="#P" n="71"/>gnitio illo modo habita non esset propria 
+          divi<lb break="no" ed="#P" n="72"/>natio, de qua loquimur, sed ad prophetiam,
+          <lb ed="#P" n="73"/>seu sacram revelationem reduceretur. 
+          Homi<lb break="no" ed="#P" n="74"/>nes vero per vim naturae, seu per inventionem
+          <lb ed="#P" n="75"/>non possunt haec occulta cognoscere, ut 
+          dixi<lb break="no" ed="#P" n="76"/>mus, et ideo sub ea ratione non potest unus
+          <lb ed="#P" n="77"/>homo ab alio discere aut petere talium rerum
+          <lb ed="#P" n="78"/>cognitionem. Quod si ab alio homine petatur,
+          <lb ed="#P" n="79"/>oportet ut ille supponatur habere hanc 
+          cogni<lb break="no" ed="#P" n="80"/>tionem, vel a Deo, vel a daemone: si a Deo,
+          <lb ed="#P" n="81"/>jam illa non erit divinatio, et hoc modo 
+          requi<lb break="no" ed="#P" n="82"/>rere scientiam ab homine, idem est quod a
+          <lb ed="#P" n="83"/>Deo illam expectare mediate, quia expectatur
+          <lb ed="#P" n="84"/>ab homine, ut organo per quod Deus loquitur.
+          <lb ed="#P" n="85"/>Et pari ratione, quando petitur ab homine, et
+          <lb ed="#P" n="86"/>non ut ministro veri Dei, a damone inquiritur.
+          <lb ed="#P" n="87"/>Sic ergo tota haec superstitiosa divinatio per
+          <lb ed="#P" n="88"/>daemonum instructionem, seu disciplinam 
+          in<lb break="no" ed="#P" n="89"/>vestigatur.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>11. Divinatio intrinsece est mala, et non
+          <lb ed="#P" n="91"/>quia prohibetur. —Hinc ergo recte 
+          concludi<lb break="no" ed="#P" n="92"/>tur hujusmodi divinationem, per se, 
+          intrinse<lb break="no" ed="#P" n="93"/>ce ac semper pravam esse, ac detestabilem
+          <lb ed="#P" n="94"/>natura sua, et non solum propter positivam
+          <lb ed="#P" n="95"/>prohibitionem. Probatur primo, quia 
+          divina<lb break="no" ed="#P" n="96"/>tio hac est studium praesciendi futura, seu
+          <lb ed="#P" n="97"/>cognoscendi occulta per medium omnino 
+          im<lb break="no" ed="#P" n="98"/>proportionatum, et inordinatum : hoc autem
+          <lb ed="#P" n="99"/>est rationi et voluntati Dei contrarium ; ergo.
+          <lb ed="#P" n="100"/>Probatur minor, quia medium illud involvit
+          <lb ed="#P" n="101"/>societatem et communicationem familiarem
+          <lb ed="#P" n="102"/>cum daemone ; dicit autem Paulus, 1 Cor. 10:
+          <lb ed="#P" n="103"/>NNolo cos fieri socios demoniorum. Unde Orig.,
+          <lb ed="#P" n="104"/>bom. 16 in Num.: Non vult Deus (inquit) aud;-
+          <lb ed="#P" n="105"/>Lores nos fieri, et discipulos demonii, negue vult
+          <lb ed="#P" n="106"/>ut si quid volunuus discere, discamus a 
+          deanoni<lb break="no" ed="#P" n="107"/>bus : melius est enim ignorare, quam a 
+          damo<lb break="no" ed="#P" n="108"/>nibus discere. Cujus prohibitionis ratio 
+          sufh<lb break="no" ed="#P" n="109"/>ciens est, quando alia deesset, quia omnis
+          <lb ed="#P" n="110"/>societas cum daemonibus noxia est, et peri-
+          <pb ed="#P" n="503"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>culis plena. Sed hoc latius declarabimus
+          <lb ed="#P" n="2"/>capite sequenti ostendendo, qualis sit malitia
+          <lb ed="#P" n="3"/>hujus vanae divinationis. Non omittam 
+          egre<lb break="no" ed="#P" n="4"/>giam rationem, quam indicavit Origines, d.
+          <lb ed="#P" n="5"/>hom. 16 in Num.: Nam si expedit notis scire
+          <lb ed="#P" n="6"/>futura, dicentur a Deo per spiritum swum; si
+          <lb ed="#P" n="7"/>vero non dicuntur, neque denunciantur, scito
+          <lb ed="#P" n="8"/>quia mnon mnobDis expedit futura prenoscere.
+          <lb ed="#P" n="9"/>Quod. si idcirco non dicuntur nobis, quia ea
+          <lb ed="#P" n="10"/>scire nobis non expedit, qui diversis artibus, et
+          <lb ed="#P" n="11"/>damonum invocationibus gestiunt futura 
+          pre<lb break="no" ed="#P" n="12"/>noscere, nill aliud faciunt, nisi ea cupiunt
+          <lb ed="#P" n="13"/>scire, quae sibi scire non expedit. Quae ratio
+          <lb ed="#P" n="14"/>aliis jungenda est, ut gravem malitiam 
+          os<lb break="no" ed="#P" n="15"/>tendat ; nam, ut supra dixi, haec malitia 
+          ma<lb break="no" ed="#P" n="16"/>gis ex medio sumenda est quam ex fine. 
+          Qua<lb break="no" ed="#P" n="17"/>lis autem et quam gravis sit, magis in 
+          se<lb break="no" ed="#P" n="18"/>quenti capite declarabitur, et si quid 
+          diffi<lb break="no" ed="#P" n="19"/>cultatis hic occurrere poterat, ibi expedietur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

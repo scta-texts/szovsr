@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="6"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k00108"><!-- t1-l1c2 -->
+        <head>Caput 2</head>
+        <head type="question-title">Quot modis dicatur religio ad deum, et sub quo illorum virtus vel status sit.</head>
+        <p>
+          <lb ed="#P" n="64"/>CAPUT II.
+          <lb ed="#P" n="65"/>QUOT MODIS DICATUR RELIGIO AD DEUM, ET SUB
+          <lb ed="#P" n="66"/>QUO ILLORUM VIRTUS VEL STATUS SIT.
+        </p>
+        <p>
+          <lb ed="#P" n="67"/>1. Religio in veram et falsam lipartitur.—
+          <lb ed="#P" n="68"/>Religionem qui attribuerint intellectui, et qui
+          <lb ed="#P" n="69"/>voluntati. — Ludovicus Vives in Scholio ad 4
+          <lb ed="#P" n="70"/>cap., lib. 10 de Civit. Dei. — Religio a 
+          sapien<lb break="no" ed="#P" n="71"/>Lia distinguitur, sed se invicem comitantur. —
+          <lb ed="#P" n="72"/>Primum omnium notanda est divisio 
+          religio<lb break="no" ed="#P" n="73"/>nis valde usitata ab antiquis Patribus, in
+          <lb ed="#P" n="74"/>veram et falsam, quam supponit Lactantius
+          <lb ed="#P" n="75"/>in suis Institutionibus ; nam in primo libro
+          <lb ed="#P" n="76"/>agit de falsa religione, in quarto vero et sexto
+          <lb ed="#P" n="77"/>agit de vera sapientia et de vero cultu. 
+          Au<lb break="no" ed="#P" n="78"/>gustinus etiam, in libro de Vera religione, in
+          <lb ed="#P" n="79"/>ipso titulo tacite indicat dari etiam religionem
+          <lb ed="#P" n="80"/>falsam, seu per errorem introductam, et 
+          sta<lb break="no" ed="#P" n="81"/>tim in capite primo significat, et in discursu
+          <lb ed="#P" n="82"/>operis latius prosequitur. Cum autem verum
+          <lb ed="#P" n="83"/>et falsum proprie ad intellectum referantur,
+          <lb ed="#P" n="84"/>et rebus etiam tribui soleant, declarare 
+          opor<lb break="no" ed="#P" n="85"/>tet quo ex his modis religioni 
+          accommoden<lb break="no" ed="#P" n="86"/>tur. Pro quo est animadvertendum 
+          religio<lb break="no" ed="#P" n="87"/>nem, juxta modum etiam loquendi 
+          antiquo<lb break="no" ed="#P" n="88"/>rum, aliquando tribui intellectui, aliquando
+          <lb ed="#P" n="89"/>vero affectui. Priori modo dixit Mercurius
+          <lb ed="#P" n="90"/>Trismegistus, éucégew qvóou éct 0ov. Quem 
+          imi<lb break="no" ed="#P" n="91"/>tatus Salvianus, lib. 9 ad Ecclesiam 
+          Catholi<lb break="no" ed="#P" n="92"/>cam, non longe a fine, dixit : Beligio scientia
+          <lb ed="#P" n="93"/>est Dei. At vero Lactantus, lib. 4 de Vera 
+          sa<lb break="no" ed="#P" n="94"/>pientia, cap. 4, religionem aperte tribuit 
+          vo<lb break="no" ed="#P" n="95"/>luntati, dum ait religionem et sapientiam ita
+          <lb ed="#P" n="96"/>esse conjunctas, ut nunquam separentur,
+          <lb ed="#P" n="97"/>quia idem Deus est, qui intelligi debet, quod
+          <lb ed="#P" n="98"/>est sapientiae, et honorari, quod est religionis:
+          <lb ed="#P" n="99"/>Sed sapientia, inquit, preecedit, religio 
+          segui<lb break="no" ed="#P" n="100"/>tur, quia prius est Deum scire, consequens
+          <lb ed="#P" n="101"/>colere. Sicut ergo voluntas intellectum, ita
+          <lb ed="#P" n="102"/>religio sapientiam sequitur. Statim vero 
+          vide<lb break="no" ed="#P" n="103"/>tur haec duo confundere, dicens: 7ta in 
+          duo<lb break="no" ed="#P" n="104"/>Dus nominibus una vis est, quamvis diversa
+          <lb ed="#P" n="105"/>esse videantur. Sed non negat haec duo esse
+          <lb ed="#P" n="106"/>distincta, nam subdit: Alterum est in sensu,
+          <lb ed="#P" n="107"/>alterum in actione, id est, in intellectu et af-
+          <pb ed="#P" n="7"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fectu, sed illa unum appellat in radice et
+          <lb ed="#P" n="2"/>fundamento, nam similia sunt, inquit, duobus
+          <lb ed="#P" n="3"/>rivis ex uno fnte manantibus, fons autem 
+          sa<lb break="no" ed="#P" n="4"/>pientiee et religionis Deus est. Clemens etiam
+          <lb ed="#P" n="5"/>Alexandrinus, lib. 2 Stromat., num. S$, 
+          reli<lb break="no" ed="#P" n="6"/>gionem a sapientia distinguit; significat 
+          au<lb break="no" ed="#P" n="7"/>tem religionem esse priorem, dum ait, 
+          reli<lb break="no" ed="#P" n="8"/>gionem esse initium sapientie ; sed aliter 
+          lo<lb break="no" ed="#P" n="9"/>quitur de sapientia quam Lactantius; nam
+          <lb ed="#P" n="10"/>hic sapientiam vocat fidem ipsam, seu 
+          quam<lb break="no" ed="#P" n="11"/>cumque veram Dei cognitionem; Clemens
+          <lb ed="#P" n="12"/>vero loquitur de sapientia perfecta, quae cum
+          <lb ed="#P" n="13"/>charitate conjuncta est, cujus initium dicitur
+          <lb ed="#P" n="14"/>esse religio, vel eodem modo quo timor, vel
+          <lb ed="#P" n="15"/>quia a Deo est impetranda per orationem,
+          <lb ed="#P" n="16"/>quae est actus religionis.
+        </p>
+        <p>
+          <lb ed="#P" n="17"/>2. Religio, secundum id quod in intellectu
+          <lb ed="#P" n="18"/>suppouit, formaliter d cétur vera vel falsa. —
+          <lb ed="#P" n="19"/>Ex hac ergo conjunctione inter sapientiam et
+          <lb ed="#P" n="20"/>religionem, ortum est ut aliquando sapieutia
+          <lb ed="#P" n="21"/>ipsa vocetur religio, et religio sapientia. Hoc
+          <lb ed="#P" n="22"/>enim sensisse videtur Clemens Alexandrinus
+          <lb ed="#P" n="23"/>supra, dicens: Zntelligentia est. rerum 
+          sanc<lb break="no" ed="#P" n="24"/>tarum cura et providentia, quod est religionis
+          <lb ed="#P" n="25"/>munus, juxta illud Ciceronis in principio 
+          ci<lb break="no" ed="#P" n="26"/>tati: Heligio est quae divine nature cultum
+          <lb ed="#P" n="27"/>ceremoniamque affert. Haec autem cura 
+          proxi<lb break="no" ed="#P" n="28"/>me quidem affectus est ; tamen quia ex vera
+          <lb ed="#P" n="29"/>Dei cognitione nascitur, intelligentia vocatur.
+          <lb ed="#P" n="30"/>Sic igitur, si religio sumatur secundum id
+          <lb ed="#P" n="31"/>quod in intellectu supponit, vera vel falsa 
+          ap<lb break="no" ed="#P" n="32"/>pellatur proprie ac formaliter, prout haec 
+          at<lb break="no" ed="#P" n="33"/>tributa in intellectu inveniuntur. Atque ita
+          <lb ed="#P" n="34"/>cera religio erit veri Dei, cerique cultus illi
+          <lb ed="#P" n="35"/>deliti vera cognitio. Atque hoc modo fides
+          <lb ed="#P" n="36"/>christiana solet frequenter a Patribus 
+          appel<lb break="no" ed="#P" n="37"/>lari sola et vera religio, quia veritatem 
+          conti<lb break="no" ed="#P" n="38"/>net in ostendendo Deo, qui colendus est, et
+          <lb ed="#P" n="39"/>in proponendo modo quo colendus est;
+          <lb ed="#P" n="40"/>utrumque enim ad veram religionem 
+          neces<lb break="no" ed="#P" n="41"/>sarium est. Est enim fides simul et eminenter
+          <lb ed="#P" n="42"/>speculativa et practica : speculativa quidem,
+          <lb ed="#P" n="43"/>ostendens Deum esse, et dignum esse omni
+          <lb ed="#P" n="44"/>honore; practica vero, quatenus etiam docet
+          <lb ed="#P" n="45"/>modum et obligationem colendi illum, et in
+          <lb ed="#P" n="46"/>utroque munere veritatem requirit, ut 
+          simpli<lb break="no" ed="#P" n="47"/>citer vera religio sit.
+        </p>
+        <p>
+          <lb ed="#P" n="48"/>3. Quibus modis falsa est religio ex parte
+          <lb ed="#P" n="49"/>cognitionis. — Unde e contrario falsa religio
+          <lb ed="#P" n="50"/>ex parte cognitionis duobus modis potest 
+          con<lb break="no" ed="#P" n="51"/>üngere (nam malum ex quocumque defectu).
+          <lb ed="#P" n="52"/>Primo, quando pro Deo habetur et colitur
+          <lb ed="#P" n="53"/>quod Deus non est, et hoc modo fuit falsa
+          <lb ed="#P" n="54"/>religio apud Gentiles, colentes falsos Deos,
+          <lb ed="#P" n="55"/>et est apud omnes illos qui divinum cultum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>creaturae aut daemonibus aliquo modo 
+          com<lb break="no" ed="#P" n="57"/>municant, ut late prosequitur Augustinus, 
+          li<lb break="no" ed="#P" n="58"/>bro secundo de Doctrina Christiana, cap. 19
+          <lb ed="#P" n="59"/>et sequentibus. Alio modo contingit error in
+          <lb ed="#P" n="60"/>ipso cultu, quia, licet colatur verus Deus, 
+          ho<lb break="no" ed="#P" n="61"/>nor tamen ejus in eis rebus ponitur, quibus
+          <lb ed="#P" n="62"/>revera non colitur neque adoratur. Et hoc
+          <lb ed="#P" n="63"/>modo est nunc falsa religio apud Judaeos et
+          <lb ed="#P" n="64"/>paganos, et omnes illos infideles et haereticos,
+          <lb ed="#P" n="65"/>qui unum verum Deum et creatorem 
+          reco<lb break="no" ed="#P" n="66"/>gnoscunt, et se colere profitentur, re tamen
+          <lb ed="#P" n="67"/>vera non colunt, quia vel falsis signis ad Deum
+          <lb ed="#P" n="68"/>colendum utuntur, maxime Juda:; vel 
+          caere<lb break="no" ed="#P" n="69"/>moniis superfluis, et ad salutem anima nihil
+          <lb ed="#P" n="70"/>conferentibus, ut pagani, et multi ex 
+          haereti<lb break="no" ed="#P" n="71"/>cis; vel certe quia in his omnibus nunquam
+          <lb ed="#P" n="72"/>deest aliquis error circa ipsius Dei 
+          cognitio<lb break="no" ed="#P" n="73"/>nem, neque illi mentem subjiciunt, quod esse
+          <lb ed="#P" n="74"/>debet verae religionis fundamentum. Propter
+          <lb ed="#P" n="75"/>quod Divus Thomas dixit, dicto Opusculo 19,
+          <lb ed="#P" n="76"/>capite primo, primum vinculum quo Deo 
+          liga<lb break="no" ed="#P" n="77"/>tur homo, esse fidem, scilicet veram, et quae
+          <lb ed="#P" n="78"/>ita in ipso Deo fundetur, ut in nulla re 
+          aber<lb break="no" ed="#P" n="79"/>rare possit.
+        </p>
+        <p>
+          <lb ed="#P" n="80"/>4. Vera religio, quae in cera fide fundatur.
+          <lb ed="#P" n="81"/>— Atque hinc ulterius religio, prout spectat
+          <lb ed="#P" n="82"/>ad affectum (quae est propria et formalis 
+          re<lb break="no" ed="#P" n="83"/>ligio) denominabitur vera vel falsa, vel in
+          <lb ed="#P" n="84"/>esse rei, vel (quod perinde est) per 
+          habitu<lb break="no" ed="#P" n="85"/>dinem ad suum fundamentum, quod est fides,
+          <lb ed="#P" n="86"/>aut cognitio Dei. Erit ergo vera religio quae
+          <lb ed="#P" n="87"/>in vera fide fundatur, et consequenter circa
+          <lb ed="#P" n="88"/>verum cultum veri Dei versatur; falsa autem
+          <lb ed="#P" n="89"/>erit omnis illa quae in errore fundata est, quae
+          <lb ed="#P" n="90"/>etiam solet superstitio appellari, de qua 
+          pos<lb break="no" ed="#P" n="91"/>tea dicemus. Unde in priori est verum esse
+          <lb ed="#P" n="92"/>religionis, quia constat ex illis principiis, quae
+          <lb ed="#P" n="93"/>vera religio postulat, et ideo dicitur vera in
+          <lb ed="#P" n="94"/>esse rei, et per conformitatem ad veras 
+          cau<lb break="no" ed="#P" n="95"/>sas religionis, quae sunt verus Deus, veraque
+          <lb ed="#P" n="96"/>cognitio ejus. Alia vero solum habet nomen
+          <lb ed="#P" n="97"/>et apparentiam religionis, et ideo falsa 
+          dici<lb break="no" ed="#P" n="98"/>tur, vel potius nulla, nam religio simpliciter
+          <lb ed="#P" n="99"/>dicta solum est illa quae vera existit. Unde
+          <lb ed="#P" n="100"/>etiam constat religionem falsam non esse 
+          vir<lb break="no" ed="#P" n="101"/>tutem ; imo, nihil, quod ad veram virtutem
+          <lb ed="#P" n="102"/>spectet, in ea, quatenus talis est, reperiri.
+          <lb ed="#P" n="103"/>Nam (ut recte dixit Lactantius, dicto lib. 4,
+          <lb ed="#P" n="104"/>cap. 4): Fons sagientiee et religionis Deus est,
+          <lb ed="#P" n="105"/>u quo hi duo rici, si aberraverint, arescant 
+          ne<lb break="no" ed="#P" n="106"/>cesse est ; nihil ergo verae virtutis fructificare
+          <lb ed="#P" n="107"/>possunt. Virtus enim opus honestum requirit;
+          <lb ed="#P" n="108"/>in cultu autem falsi Dei, vel in falso et 
+          super<lb break="no" ed="#P" n="109"/>stitioso cultu, nulla honestas esse potest, cum
+          <lb ed="#P" n="110"/>rectae rationi repugnet; quidquid ergo virtu-
+          <pb ed="#P" n="8"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tis in religione esse potest, in vera religione
+          <lb ed="#P" n="2"/>quaerendum est.
+        </p>
+        <p>
+          <lb ed="#P" n="3"/>5. Religionis nomen non solum interno 
+          af<lb break="no" ed="#P" n="4"/>fvctui, sed etiam externis actibus atque 
+          doctri<lb break="no" ed="#P" n="5"/>ne quibus Deus colitur, tribuitur. — Rursus
+          <lb ed="#P" n="6"/>vero circa veram religionem (et cum 
+          propor<lb break="no" ed="#P" n="7"/>tione idem est in falsa), advertere oportet
+          <lb ed="#P" n="8"/>nomoen religionis non solum interno affectui,
+          <lb ed="#P" n="9"/>sed etiam exterioribus actionibus, imo et 
+          re<lb break="no" ed="#P" n="10"/>bus quibus Deus colitur, tribui solere, atque
+          <lb ed="#P" n="11"/>etiam doctrinae quae talem cultum vel 
+          caere<lb break="no" ed="#P" n="12"/>moniam docet. Hoc constat ex communi usu
+          <lb ed="#P" n="13"/>loquendi etiam Scripturae. Nam Exodi 
+          duode<lb break="no" ed="#P" n="14"/>cimo, de Phase dicitur: Quae est ista religio?
+          <lb ed="#P" n="15"/>id est, quid est ista caeremonia sacra, et actio
+          <lb ed="#P" n="16"/>religiosa? et Num. 19: ZIsta est religio 
+          victi<lb break="no" ed="#P" n="17"/>me, etc., ubi sermo est de sacrificio vaccae
+          <lb ed="#P" n="18"/>rufae. Sic etiam Exodi 29, Lev. 7 et 16, 
+          dici<lb break="no" ed="#P" n="19"/>tur aliquid esse faciendum reigione perpetua,
+          <lb ed="#P" n="20"/>id est, lege stabili ad religionem et cultum
+          <lb ed="#P" n="21"/>Dei pertinente. Sic etiam dixit Clemens
+          <lb ed="#P" n="22"/>Alexand., lib. 2 Strom., num. 5: RNligio est
+          <lb ed="#P" n="23"/>actio quae Deum sequitur. Denique sicut fidei
+          <lb ed="#P" n="24"/>nomine significari solet et doctrina fidei, et
+          <lb ed="#P" n="25"/>actus vcl habitus fidei, vel sicut votum dici
+          <lb ed="#P" n="26"/>solet. et res qua: vovetur, et ipsa promissio,
+          <lb ed="#P" n="27"/>ita etiam religio dicitur, ct cultus ipse, seu
+          <lb ed="#P" n="28"/>modus colendi Deum, sive in hominis 
+          ac<lb break="no" ed="#P" n="29"/>tibus, sive in rebus quae talibus actibus 
+          deser<lb break="no" ed="#P" n="30"/>viunt, consideretur, et actiones ipsae sive 
+          ex<lb break="no" ed="#P" n="31"/>teriores, per quas talis cultus exercetur, sive
+          <lb ed="#P" n="32"/>interiores, a quibus proficiscuntur, et 
+          conse<lb break="no" ed="#P" n="33"/>quenter etiam habitus, a quo tales actiones
+          <lb ed="#P" n="34"/>proprie et sub ratione cultus efficiuntur.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>6. Quomodo aliqua honestas reperiatur in
+          <lb ed="#P" n="36"/>iis omnibus, quibus religionis nomen 
+          attribui<lb break="no" ed="#P" n="37"/>tur. — Atque in his omnibus, prout ad veram
+          <lb ed="#P" n="38"/>religionem pertinent, aliqua honestas 
+          reperi<lb break="no" ed="#P" n="39"/>tur, sed diverso modo. Nam in ipso cultu 
+          re<lb break="no" ed="#P" n="40"/>peritur tanquam in objecto et materia circa
+          <lb ed="#P" n="41"/>quam aliquae actiones humanae versantur. Est
+          <lb ed="#P" n="42"/>enim illud objectum quoddam rectae rationi
+          <lb ed="#P" n="43"/>consentaneum, id est, secundum rectam 
+          ratio<lb break="no" ed="#P" n="44"/>nem amabile, seu eligibile. In actionibus 
+          au<lb break="no" ed="#P" n="45"/>tem, quatenus voluntarie seu libere 
+          exercen<lb break="no" ed="#P" n="46"/>tur, invenitur moralis honestas, quia studiosae
+          <lb ed="#P" n="47"/>sunt et divinae legrconformes. In habitu etiam
+          <lb ed="#P" n="48"/>reperitur rectitudo, quatenus connaturale et
+          <lb ed="#P" n="49"/>proximum principium est talium actionum,
+          <lb ed="#P" n="50"/>praebens optimum modum illas operandi.
+        </p>
+        <p>
+          <lb ed="#P" n="51"/>7. Ex supra dictis, constat aliquem esse
+          <lb ed="#P" n="52"/>habitum religionis qui vera virtus sit.— 
+          Reli<lb break="no" ed="#P" n="53"/>gionis vox pro statu em sententia Abulensis, est
+          <lb ed="#P" n="54"/>vquivoca.— Unde tandem constat, ex his 
+          om<lb break="no" ed="#P" n="55"/>nibus quae vera religio complectitur, et quae
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nomen religionis aliquo modo participant,
+          <lb ed="#P" n="57"/>aliquid esse, quod vera virtus sit, nempe 
+          ha<lb break="no" ed="#P" n="58"/>bitus ille qui ad tales actiones inclinat; nam
+          <lb ed="#P" n="59"/>virtus simpliciter dicta nihnil aliud est quam
+          <lb ed="#P" n="60"/>habitus per se studiosus et honestus, qualem
+          <lb ed="#P" n="61"/>hunc esse constat ex dictis, ampliusque ex
+          <lb ed="#P" n="62"/>discursu materiae constabit. Atque in hac 
+          si<lb break="no" ed="#P" n="63"/>gnificatione, qua hujusmodi habitum 
+          desi<lb break="no" ed="#P" n="64"/>gnat, fere semper voce religionis utemur;
+          <lb ed="#P" n="65"/>dico autem fere, quia non possumus aliam
+          <lb ed="#P" n="66"/>omittere, in qua etiam pro stetu religionis
+          <lb ed="#P" n="67"/>sumitur, quae licet ex priori derivata sit, ut
+          <lb ed="#P" n="68"/>supra tetigimus, et ideo analogiam quamdam
+          <lb ed="#P" n="69"/>continere videatur, tamen jam vox illa 
+          acci<lb break="no" ed="#P" n="70"/>pitur, ut omnino aequivoca, proprie, et 
+          sim<lb break="no" ed="#P" n="71"/>piciter utrumque significans, statum, scilicet,
+          <lb ed="#P" n="72"/>et virtutem, et ita etiam nos illa utemur:
+          <lb ed="#P" n="73"/>nam ex materia subjecta constabit in qua 
+          si<lb break="no" ed="#P" n="74"/>gnificatione accipiatur. Quin etiam religionis
+          <lb ed="#P" n="75"/>vox, prout statum significat, aequivocationem
+          <lb ed="#P" n="76"/>continet, ut notavit Abulensis, Levitivi 
+          septi<lb break="no" ed="#P" n="77"/>mo, circa finem. Nam generalis status 
+          Eccle<lb break="no" ed="#P" n="78"/>siae Catholicae, quae talem doctrinam, 
+          talem<lb break="no" ed="#P" n="79"/>que modum colendi Deum profitetur, religio
+          <lb ed="#P" n="80"/>Christiana dicitur, imo et unica et sola religio
+          <lb ed="#P" n="81"/>dici potest. quia extra illam nulla esse potest
+          <lb ed="#P" n="82"/>vera religio. Et eodem modo ante legem 
+          gra<lb break="no" ed="#P" n="83"/>tiae synagoga Judaeorum erat vera religio,
+          <lb ed="#P" n="84"/>quamvis non esset unisersalis, sicut nunc est
+          <lb ed="#P" n="85"/>Ecclesia Catholica; specialiori autem modo
+          <lb ed="#P" n="86"/>religionis vox applicata est ad significandum
+          <lb ed="#P" n="87"/>peculiarem vivendi modum et statum, in quo
+          <lb ed="#P" n="88"/>aliqui fideles congregantur ad perfectiori
+          <lb ed="#P" n="89"/>modo colendum Deum, et haec significatio
+          <lb ed="#P" n="90"/>nobis deserviet simul cum alia priori, quae
+          <lb ed="#P" n="91"/>virtutem indicat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

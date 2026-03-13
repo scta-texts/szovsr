@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="448"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k11178"><!-- t3-l1c3 -->
+        <head>Caput 3</head>
+        <head type="question-title">De tentatione dei interpretativa.</head>
+        <p>
+          <lb ed="#P" n="50"/>CAPUT III
+          <lb ed="#P" n="51"/>DE TENTATIONE DEI INTERPRETATIVA.
+        </p>
+        <p>
+          <lb ed="#P" n="52"/>1. Dicendum superest de alio modo 
+          tentan<lb break="no" ed="#P" n="53"/>di Deum interpretative et implicite, quem 
+          om<lb break="no" ed="#P" n="54"/>nes Doctores cum D. Thoma supra ponunt;
+          <lb ed="#P" n="55"/>dicuntque esse, quando aliquis opere ipso Dei
+          <lb ed="#P" n="56"/>potentiam vel amorem explorat, quamvis hoc
+          <lb ed="#P" n="57"/>non intendat formaliter. Sic D. Thomas 
+          in<lb break="no" ed="#P" n="58"/>quit, illum tentare Deum interpretative, qui,
+          <lb ed="#P" n="59"/>etsi non intendit experimentum de Deo sumere,
+          <lb ed="#P" n="60"/>aliquid tamen petit, vel facit, quod ad milul
+          <lb ed="#P" n="61"/>aliud est utile, nisi ad probandam De 
+          potesta<lb break="no" ed="#P" n="62"/>tem, vel bonitatem. Exempla communia sunt,
+          <lb ed="#P" n="63"/>si quis continuos quadraginta dies velit 
+          absti<lb break="no" ed="#P" n="64"/>nere ab omni cibo, et potu, ut Christum 
+          imite<lb break="no" ed="#P" n="65"/>tur; item, si quis aperto vitae periculo se 
+          ex<lb break="no" ed="#P" n="66"/>ponat sine necessitate, vel noht uti mediis 
+          or<lb break="no" ed="#P" n="67"/>dinariis, vel a Deo institutis, vel ad salutem
+          <lb ed="#P" n="68"/>tuendam in gravi morbo, vel ad actionem 
+          ali<lb break="no" ed="#P" n="69"/>quam convenienter exercendam. Sic Navar.,
+          <lb ed="#P" n="70"/>in Manuali, c. 11, n. 40, dicit peccare 
+          mortali<lb break="no" ed="#P" n="71"/>ter eum, qui voluntarie omissa praevia 
+          medi<lb break="no" ed="#P" n="72"/>taiione concionatur, vel qui in gravi morbo
+          <lb ed="#P" n="73"/>solum providentiae divinae se committit, nullo
+          <lb ed="#P" n="74"/>utens remedio, absque necessitate. Similiter
+          <lb ed="#P" n="75"/>erit grave peccatum, ad probationem alicujus
+          <lb ed="#P" n="76"/>veritatis miraculoso experimento uti velle, ut
+          <lb ed="#P" n="77"/>apud multos fuit aliquando in usu, ut paulo
+          <lb ed="#P" n="78"/>post attingemus. In his ergo, et similibus 
+          casi<lb break="no" ed="#P" n="79"/>bus, censetur tentari Deus interpretative 
+          pro<lb break="no" ed="#P" n="80"/>pter rationem contentam in verbis D. Thomae
+          <lb ed="#P" n="81"/>supra relatis, qui etiam exemplum adjungit.
+          <lb ed="#P" n="82"/>Nam cum quis equum currere facit, ut evadat
+          <lb ed="#P" n="83"/>hostem, non sumit de equo experimentum; si
+          <lb ed="#P" n="84"/>vero absque ulla necessitate vel udühtate
+          <lb ed="#P" n="85"/>equum currere faciat, nihil aliud facere 
+          cen<lb break="no" ed="#P" n="86"/>setur, quam experiri equi velocitatem ; ita 
+          er<lb break="no" ed="#P" n="87"/>go dicit esse in praesenti.
+        </p>
+        <p>
+          <lb ed="#P" n="88"/>2. Sitne in tentatione interpretativa 
+          specia<lb break="no" ed="#P" n="89"/>lis malitia contra religionem. — in hoc vero
+          <lb ed="#P" n="90"/>tentationis genere, licet regulariter facile sit
+          <lb ed="#P" n="91"/>deformitatein et malitiam invenire contra
+          <lb ed="#P" n="92"/>alias virtutes a religione distinctas, ut contra
+          <lb ed="#P" n="93"/>justitiam, si actio fiat cum periculo vitae 
+          pro<lb break="no" ed="#P" n="94"/>ximi, vel alterius injusti nocumenti, vel 
+          con<lb break="no" ed="#P" n="95"/>tra charitatem, si fiat cum periculo proprio,
+          <lb ed="#P" n="96"/>vel contra temperantiam, aut aliam similem
+          <lb ed="#P" n="97"/>virtutem, si imprudenter ejus medium et 
+          ne<lb break="no" ed="#P" n="98"/>cessarius actus omittatur, ut patebit facile,
+          <lb ed="#P" n="99"/>hoc applicando cum proportione ad exempla
+          <lb ed="#P" n="100"/>adaucta, nihilominus non est facile in hoc
+          <lb ed="#P" n="101"/>opere declarare specialem malitiam contra
+          <pb ed="#P" n="449"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>religionem, si non interveniat expressa et 
+          for<lb break="no" ed="#P" n="2"/>malis intentio probandi Deum ; si autem haec
+          <lb ed="#P" n="3"/>intentio interveniat, jam non erit 
+          interpreta<lb break="no" ed="#P" n="4"/>tiva tentatio, sed expressa. Ergo loquendo de
+          <lb ed="#P" n="5"/>vitio contrario religioni, nulla est 
+          interpreta<lb break="no" ed="#P" n="6"/>tiva tentatio; sed illa, quae sic appellatur,
+          <lb ed="#P" n="7"/>vel dicetur tentatio praesumptione quadam,
+          <lb ed="#P" n="8"/>et non vere, vel solum materialiter, quia illa
+          <lb ed="#P" n="9"/>actio talis est, ut de se sit apta ad tentandum
+          <lb ed="#P" n="10"/>Deum. Antecedens declaratur in illo exemplo,
+          <lb ed="#P" n="11"/>quando aliquis ingreditur ignem ad 
+          proban<lb break="no" ed="#P" n="12"/>dam innocentiam suam; aut enim id fit sine
+          <lb ed="#P" n="13"/>ullo intuitu religionis respectu Dei, ex 
+          temeri<lb break="no" ed="#P" n="14"/>tate quadam, et tunc ibi nulla ratio 
+          irreligio<lb break="no" ed="#P" n="15"/>sitatis invenitur, sed solum temeritatis, et 
+          pe<lb break="no" ed="#P" n="16"/>riculi propriae mortis, et publici scandali ; saepe
+          <lb ed="#P" n="17"/>enim continget illo modo, et innocentem 
+          com<lb break="no" ed="#P" n="18"/>buri, et vulgarem populum decipi, dum putat
+          <lb ed="#P" n="19"/>illo modo probatum esse delictum, cum 
+          reve<lb break="no" ed="#P" n="20"/>ra non sit, ut recte dixit Ivo, epistol. 74. Si
+          <lb ed="#P" n="21"/>vero illud fiat intuitu Dei, id etiam esse 
+          po<lb break="no" ed="#P" n="22"/>test duobus modis: unus est, existimando ad
+          <lb ed="#P" n="23"/>divinam providentiam pertinere, non 
+          permit<lb break="no" ed="#P" n="24"/>tere in eo casu innocentem cremari, etiamsi
+          <lb ed="#P" n="25"/>necesse sit miraculose actionem ignis 
+          suspen<lb break="no" ed="#P" n="26"/>dere, et hinc concipiendo certam et 
+          indubita<lb break="no" ed="#P" n="27"/>tam fiduciam non patiendi ab igne 
+          detrimen<lb break="no" ed="#P" n="28"/>tum, cum is, qui ingreditur, certus de sua 
+          in<lb break="no" ed="#P" n="29"/>nocentia sit. Alius modus esse potest, quando
+          <lb ed="#P" n="30"/>aliquis non habens hanc existimationem, ct
+          <lb ed="#P" n="31"/>spem certam, vult suo periculo experiri an
+          <lb ed="#P" n="32"/>Deus innocentiam hoc etiam modo tueatur et
+          <lb ed="#P" n="33"/>defendat. Si ergo hoc posteriori modo fiat,
+          <lb ed="#P" n="34"/>erit quidem tentatio Dei, non tamen 
+          interpre<lb break="no" ed="#P" n="35"/>tativa, sed satis expressa et formalis, ut ex
+          <lb ed="#P" n="36"/>ipsa declaratione satis constat. Non tamen 
+          so<lb break="no" ed="#P" n="37"/>let ita fieri regulariter, sed priori modo, et de
+          <lb ed="#P" n="38"/>illo videntur loqui auctores, quando hanc 
+          vo<lb break="no" ed="#P" n="39"/>cant tentationem Dei interpretativam. At vero
+          <lb ed="#P" n="40"/>tum nihil minus esse videtur, quam tentatio
+          <lb ed="#P" n="41"/>Dei; nam tentatio Dei debet esse ex 
+          dubita<lb break="no" ed="#P" n="42"/>tione, vel de perfectione Dei, vel saltem de
+          <lb ed="#P" n="43"/>ejus voluntate, ut supra visum est, et D. 
+          Tho<lb break="no" ed="#P" n="44"/>mas docet ; ergo, ut sit interpretativa tentatio,
+          <lb ed="#P" n="45"/>oportet ut sit etiam saltem interpretativa 
+          dubi<lb break="no" ed="#P" n="46"/>tatio ; ibi autem neutra invenitur, sed potius
+          <lb ed="#P" n="47"/>nimia certitudo, vel potius pertinacia circa
+          <lb ed="#P" n="48"/>credulitatem de tali futuro eventu ex speciali
+          <lb ed="#P" n="49"/>providentia Dei.
+        </p>
+        <p>
+          <lb ed="#P" n="50"/>3. Unde confirmatur primo, quia illud 
+          po<lb break="no" ed="#P" n="51"/>tius videtur esse vitium praesumptionis, spei
+          <lb ed="#P" n="52"/>oppositum per excessum, et procedens etiam
+          <lb ed="#P" n="53"/>ex quadam fide nimia et voluntaria; et ideo
+          <lb ed="#P" n="54"/>videtur extreme distans a tentatione Dei, quae
+          <lb ed="#P" n="55"/>est ex defectu fidei vel confidentie in Deo.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Confirmatur secundo, quia per hujusmodi 
+          ope<lb break="no" ed="#P" n="57"/>rationem non explorat homo aliquid de Deo,
+          <lb ed="#P" n="58"/>nec quoad attributa, nec quoad actus ejus;
+          <lb ed="#P" n="59"/>sed explorat aliquid de homine, verbi gratia,
+          <lb ed="#P" n="60"/>an fecerit hoc delictum, necne; vel, an in hoc
+          <lb ed="#P" n="61"/>verum dicat, aut aliquid hujusmodi; ergo illa
+          <lb ed="#P" n="62"/>non est tentatio Dei, sed potius hominis. Unde
+          <lb ed="#P" n="63"/>tandem cessare videtur ratio D. Thomae et in
+          <lb ed="#P" n="64"/>contrarium revolvi ; dicit enim tunc esse 
+          tentz<lb break="no" ed="#P" n="65"/>tionem interpretativam, quando actio non est
+          <lb ed="#P" n="66"/>ad aliud utilis, nisi ad experimentum 
+          sumen<lb break="no" ed="#P" n="67"/>dum de Deo; at in praesenti, actio putatur 
+          uti<lb break="no" ed="#P" n="68"/>lis ad alios fines, ut ad probandam propriam
+          <lb ed="#P" n="69"/>innocentiam , vel ostendendam singularem
+          <lb ed="#P" n="70"/>sanctitatem, etiamsi fortasse ostentatio vana
+          <lb ed="#P" n="71"/>sit, vel certe ad confirmandam veritatem,
+          <lb ed="#P" n="72"/>etiam fidei, ex zelo indiscreto et temerario;
+          <lb ed="#P" n="73"/>ergo.
+        </p>
+        <p>
+          <lb ed="#P" n="74"/>4. Ad tentationem interpretativam, necesse
+          <lb ed="#P" n="75"/>est ut opus fiat cum aliquo respectu ad Deum.
+          <lb ed="#P" n="76"/>—In hoc puncto imprimis dicendum est ad
+          <lb ed="#P" n="77"/>hanc tentationem Dei interpretativam, 
+          neces<lb break="no" ed="#P" n="78"/>sarium esse ut opus fiat cum aliquo respectu
+          <lb ed="#P" n="79"/>ad Deum, etiam ex intentione operantis. Hoc
+          <lb ed="#P" n="80"/>recte probat discursus factus. Declaratur 
+          prae<lb break="no" ed="#P" n="81"/>terea ex eo quod Cajetanus. in dicto art. 1,
+          <lb ed="#P" n="82"/>ait formale hujus tentationis Dei 
+          interpreta<lb break="no" ed="#P" n="83"/>tivae consistere in hoc, quod sine utilitate, vel
+          <lb ed="#P" n="84"/>necessitate respuat homo causas secundas; nam
+          <lb ed="#P" n="85"/>hoc non est intelligendum mere negative,
+          <lb ed="#P" n="86"/>quia non sufficit hoc ad tentandum Deum;
+          <lb ed="#P" n="87"/>debet ergo intelligi positive, scilicet, quod
+          <lb ed="#P" n="88"/>homo contentus sola causalitate causae primae
+          <lb ed="#P" n="89"/>respuat secundas ; ergo saltem hic respectus
+          <lb ed="#P" n="90"/>ad Deum necessarius est ad hanc tentationem.
+          <lb ed="#P" n="91"/>Antecedens declaratur ; nam si quis 
+          ingredia<lb break="no" ed="#P" n="92"/>tur ignem, non ut liber evadat, sed ut 
+          combu<lb break="no" ed="#P" n="93"/>ratur, non censetur tentare Deum, sed se 
+          oc<lb break="no" ed="#P" n="94"/>cidere, vel per desperationem, vel per 
+          specia<lb break="no" ed="#P" n="95"/>lem instinctum Spiritus Sancti, ut Tecla.
+          <lb ed="#P" n="96"/>Item qui aliquem gravem dolorem vel ulcus
+          <lb ed="#P" n="97"/>patitur, et respuit causas secundas, nullam
+          <lb ed="#P" n="98"/>adhibendo medicinam, non ut sine his 
+          cau<lb break="no" ed="#P" n="99"/>sis sanetur per solam virtutem causae primae,
+          <lb ed="#P" n="100"/>sed quia non vult sanari, sed potius illam 
+          in<lb break="no" ed="#P" n="101"/>firmitatem continue pati, ille non tentat
+          <lb ed="#P" n="102"/>Deum, quia nec formaliter nec virtute aliquid
+          <lb ed="#P" n="103"/>de illo explorat. Unde si imprudenter id agat,
+          <lb ed="#P" n="104"/>peccat quidem, non tamen contra religiouem,
+          <lb ed="#P" n="105"/>nec contra Dei hororem, sed contra suam 
+          sa<lb break="no" ed="#P" n="106"/>lutem. Si vero ex bono fine et prudenti 
+          dis<lb break="no" ed="#P" n="107"/>cretione id faciat, ut de viris spiritualibus, et
+          <lb ed="#P" n="108"/>Sanctis dicit Cajetanus in illo art. 1, faciet
+          <lb ed="#P" n="109"/>quidem opus virtutis; tamen ex objecto non
+          <lb ed="#P" n="110"/>facit opus religionis, sed patientiae, humilita-
+          <pb ed="#P" n="450"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tis, aut aliquid hujusmodi; ergo ad 
+          tentatio<lb break="no" ed="#P" n="2"/>nem interpretativam Dei non satis est 
+          res<lb break="no" ed="#P" n="3"/>puere causas secundas, nolendo effectum, sed
+          <lb ed="#P" n="4"/>oportet velle effectum sine causis secundis;
+          <lb ed="#P" n="5"/>nemo autem est ita stolidus, ut possit velle 
+          et<lb break="no" ed="#P" n="6"/>fectum sine ulla causa, tam secunda quam
+          <lb ed="#P" n="7"/>prima ; ergo qui tentat Deum, etiam 
+          inter<lb break="no" ed="#P" n="8"/>pretative, vult effectum a causa prima sine
+          <lb ed="#P" n="9"/>secunda ; ergo tentatio Dei fit semper saltem
+          <lb ed="#P" n="10"/>cum hoc respectu ad Deum. Et in hoc convenit
+          <lb ed="#P" n="11"/>haec tentatio Dei cum formali et expressa.
+        </p>
+        <p>
+          <lb ed="#P" n="12"/>5. In tentatione interpretativa commitittur
+          <lb ed="#P" n="13"/>peccatum contra religionem. — Addendum 
+          prae<lb break="no" ed="#P" n="14"/>terea est, in hoc modo operandi, peccatum
+          <lb ed="#P" n="15"/>committi non sclum contra alias virtutes juxta
+          <lb ed="#P" n="16"/>materiae capacitatem, sed etiam contra 
+          religio<lb break="no" ed="#P" n="17"/>nem. Probatur, quia in eoopere intervenit vel
+          <lb ed="#P" n="18"/>formalis, vel saltem virtualis imploratio 
+          divi<lb break="no" ed="#P" n="19"/>ni auxilii ; sed illa est indebita, et contra 
+          ra<lb break="no" ed="#P" n="20"/>tionem, et in materia quae non pertinet ad
+          <lb ed="#P" n="21"/>honorem Dei; ergo est irreverentia contra 
+          re<lb break="no" ed="#P" n="22"/>ligionem Deo debitam, nam sive expresse, et
+          <lb ed="#P" n="23"/>formalter, sive interpretative, et (ut ita 
+          di<lb break="no" ed="#P" n="24"/>cam ) in actu exercito aliquis imploret divinum
+          <lb ed="#P" n="25"/>auxilium, debet id facere prudenter, et juxta
+          <lb ed="#P" n="26"/>beneplacitum ejus. Quod autem in illo 
+          operan<lb break="no" ed="#P" n="27"/>di modo intercedat imploratio divini auxilii,
+          <lb ed="#P" n="28"/>manifestum est, quia ejus intuitu homo 
+          aggre<lb break="no" ed="#P" n="29"/>ditur tale opus, etiam saepe cum periculo vitae.
+          <lb ed="#P" n="30"/>Unde ordinarie adjungi solet etiam expressa 
+          in<lb break="no" ed="#P" n="31"/>vocatio divini auxilii, ut constat ex multis 
+          his<lb break="no" ed="#P" n="32"/>toriis, quas erudite congerit Martinus del Rio,
+          <lb ed="#P" n="33"/>lib. 4 Disquisition. Magic., cap. 4, quaest. 4 et
+          <lb ed="#P" n="34"/>sequentibus; et moraliter vix poterit homo
+          <lb ed="#P" n="35"/>aliter tale opus aggredi, nam licet voce forte
+          <lb ed="#P" n="36"/>non oret, corde tamen implorabit Deum, in
+          <lb ed="#P" n="37"/>quo ita confidit ; vel certe, quamvis nec 
+          inte<lb break="no" ed="#P" n="38"/>rius loquatur orando, ipso desiderio, et 
+          inten<lb break="no" ed="#P" n="39"/>tione obtinendi a Deo talem protectionem, vei
+          <lb ed="#P" n="40"/>cooperationem, virtualiter implorat 
+          extraor<lb break="no" ed="#P" n="41"/>dinarium Dei auxilium ad talem effectum 
+          ne<lb break="no" ed="#P" n="42"/>cessarium. Quod autem ille modus invocandj
+          <lb ed="#P" n="43"/>Deum sit indebitus, et contra honorem ipsius
+          <lb ed="#P" n="44"/>Dei, probatur, quia est contra ordinem 
+          pro<lb break="no" ed="#P" n="45"/>videntiae ejus. Item hoc probant omnia 
+          adduc<lb break="no" ed="#P" n="46"/>ta in cap. praecedenti, respondendo ad ultimam
+          <lb ed="#P" n="47"/>difficultatem in fine propositam.
+        </p>
+        <p>
+          <lb ed="#P" n="48"/>6. Hoc genus peccati diversum est a 
+          for<lb break="no" ed="#P" n="49"/>mali tentatione Dei. — Utrum specie differanz
+          <lb ed="#P" n="50"/>inter se. — Praeterea concedendum est, hunc
+          <lb ed="#P" n="51"/>modum peccati longe diversum esse a 
+          forma<lb break="no" ed="#P" n="52"/>li et expressa tentatione Dei, quod satis 
+          pro<lb break="no" ed="#P" n="53"/>bant objectiones factae: nam formalis 
+          tenta<lb break="no" ed="#P" n="54"/>tio procedit ex aliqua dubitatione; haec vero
+          <lb ed="#P" n="55"/>culpa, de qua nunc agimus, procedit ex nimia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>confidentia. Item, illa est exploratio divinae
+          <lb ed="#P" n="57"/>perfectionis aut voluntatis ex intentione 
+          ope<lb break="no" ed="#P" n="58"/>rantis, et ex ipsa actione; in hoc autem operce
+          <lb ed="#P" n="59"/>nihil exploratur de Deo, sed solum 
+          implora<lb break="no" ed="#P" n="60"/>tur quod non oportet, saltem ex intentiione
+          <lb ed="#P" n="61"/>operantis. His ergo stantibus, quaestio satis
+          <lb ed="#P" n="62"/>speculativa est, an haec malitia, quam nunc
+          <lb ed="#P" n="63"/>explicuimus, sit specie distincta a malitia
+          <lb ed="#P" n="64"/>formalis tentationis Dei. Tamen argumenta
+          <lb ed="#P" n="65"/>facta videntur mihi satis persuadere esse 
+          dis<lb break="no" ed="#P" n="66"/>tinctam, quia longe diversa ratione pertinet
+          <lb ed="#P" n="67"/>ad irreverentiam Dei, et quia procedit ex
+          <lb ed="#P" n="68"/>principiis et causis moralibus longe diversis.
+          <lb ed="#P" n="69"/>Et quod ad mores spectat, clarum est, 
+          ne<lb break="no" ed="#P" n="70"/>cessarium esse in confessione aperire, an 
+          ten<lb break="no" ed="#P" n="71"/>tatio Dei fuerit expressa, vel tantum 
+          interpre<lb break="no" ed="#P" n="72"/>tativa, quia saltem necessarium est aperire
+          <lb ed="#P" n="73"/>intentionem, qua factum est opus quo tentari
+          <lb ed="#P" n="74"/>Deus dicitur.
+        </p>
+        <p>
+          <lb ed="#P" n="75"/>7. Án hoc peccatum congrue vocetur 
+          tenta<lb break="no" ed="#P" n="76"/>tio Dei.—Hinc vero nascitur alia quaestio, quae
+          <lb ed="#P" n="77"/>in eisdem objectionibus tangitur, an recte
+          <lb ed="#P" n="78"/>vocetur hoc peccatum tentatio Dei, etiam 
+          in<lb break="no" ed="#P" n="79"/>terpretativa, cum nihil videatur habere 
+          com<lb break="no" ed="#P" n="80"/>mune cum propria tentatione Dei. Sed haec
+          <lb ed="#P" n="81"/>quaestio tantum ad modum loquendi spectat,
+          <lb ed="#P" n="82"/>in quo non est recedendum a communi usu.
+          <lb ed="#P" n="83"/>Omnes autem Theologi hoc peccatum vocant
+          <lb ed="#P" n="84"/>tentationem Dei, saltem cum illo addito, 
+          in<lb break="no" ed="#P" n="85"/>terpretativam ; ita etiam loquitur Augustinus
+          <lb ed="#P" n="86"/>in d. lib. de Opere Monach., c. 27, et 1. 22
+          <lb ed="#P" n="87"/>contra Faust., c. 30, ubi regulam statuit, 
+          ten<lb break="no" ed="#P" n="88"/>tare hominem Deum, quando non vult uti 
+          de<lb break="no" ed="#P" n="89"/>bita industria. Imo etiam jura canonica ita
+          <lb ed="#P" n="90"/>loquuntur, quae statim referemus. hatio vero
+          <lb ed="#P" n="91"/>reddi potest. quia malitia hujus peccati, licet
+          <lb ed="#P" n="92"/>ex praesumptione proccedat, non est 
+          praesum<lb break="no" ed="#P" n="93"/>ptio, sed irreligiositas ; sicut supra 
+          diceba<lb break="no" ed="#P" n="94"/>mus, expressam tentationem Dei, licet 
+          pro<lb break="no" ed="#P" n="95"/>cedat ex infidelitate, non esse infidelitatem.
+          <lb ed="#P" n="96"/>Haec autem irreligiositas convenit cum 
+          for<lb break="no" ed="#P" n="97"/>mali tentatione Dei, tum quia est formalis
+          <lb ed="#P" n="98"/>vel virtualis petitio divini auxilii contra 
+          or<lb break="no" ed="#P" n="99"/>dinem providentiae divinae; tum quia fit per
+          <lb ed="#P" n="100"/>opus de se explorativum, ut sic dicam, divinae
+          <lb ed="#P" n="101"/>sapientiae aut potentiae. Et ita dixit 
+          Augusti<lb break="no" ed="#P" n="102"/>nus, 16 de Civ., c. 19, quod si Abraham 
+          peri<lb break="no" ed="#P" n="103"/>culum, quantum caveri poterat, non caveret,
+          <lb ed="#P" n="104"/>magis tentaret Deum quam speraret in Deo.
+          <lb ed="#P" n="105"/>Haec ergo sufficiunt ad rationem vocis, 
+          maxi<lb break="no" ed="#P" n="106"/>me cum haec censeatur esse tentatio Dei non
+          <lb ed="#P" n="107"/>simpliciter, sed cum illo addito, interpretativa ;
+          <lb ed="#P" n="108"/>quia in eo opere Deus tentari videtur, ut 
+          dici<lb break="no" ed="#P" n="109"/>tur in cap. ultim. de Purg. vulg., et fortasse
+          <lb ed="#P" n="110"/>ita etiam potest commode exponi illud Eecies.
+          <pb ed="#P" n="451"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>18: Noli esse quasi homo qui tentat Deum;
+          <lb ed="#P" n="2"/>quod de interpretativa tentatione exponit D.
+          <lb ed="#P" n="3"/>Thomas, quia ille, qui imparatus ad orationem
+          <lb ed="#P" n="4"/>accedit, vult fructum seu effectum orationis
+          <lb ed="#P" n="5"/>sine mediis ordinatis a Deo, quod est 
+          inter<lb break="no" ed="#P" n="6"/>pretative tentare ipsum, ut declaravimus; et
+          <lb ed="#P" n="7"/>tamen ille non dicitur simpliciter tentans
+          <lb ed="#P" n="8"/>Deum, sed quas tentans, ut ponderai ibi 
+          Ca<lb break="no" ed="#P" n="9"/>jetanus dicens: Non nisi extenso vocabulo, 
+          ir<lb break="no" ed="#P" n="10"/>reverentia hec tentatio Dei est.
+        </p>
+        <p>
+          <lb ed="#P" n="11"/>8. Probationes vulgares merito prohiberi. —
+          <lb ed="#P" n="12"/>Atque ex his infertur, merito prohiberi per
+          <lb ed="#P" n="13"/>sacros canones probationes illas, quae 
+          purga<lb break="no" ed="#P" n="14"/>tones vulgares appellantur, ut patet ex c.
+          <lb ed="#P" n="15"/>Mennam, 2, q. 5, etcap. Consuluisti, et cap.
+          <lb ed="#P" n="16"/>Monomachiam ; item cap. 1 et 3 de Purg.
+          <lb ed="#P" n="17"/>vulg., et cap. Ex tuarum, de Purgat. 
+          Cano<lb break="no" ed="#P" n="18"/>nica, in quibus prohibentur purgatio, vel 
+          pro<lb break="no" ed="#P" n="19"/>batio per experimentum ferri candentis et
+          <lb ed="#P" n="20"/>aquae ferventis; et idem est de 
+          quibuscum<lb break="no" ed="#P" n="21"/>que operibus vel signis, in quibus miraculosa
+          <lb ed="#P" n="22"/>divinae virtutis ostensio expectatur vel 
+          postu<lb break="no" ed="#P" n="23"/>latur ad veritatis occultae probationem. Et 
+          ea<lb break="no" ed="#P" n="24"/>dem ratione prohibetur monomachia in 
+          eum<lb break="no" ed="#P" n="25"/>dem finem facta, ut patet ex eisdem juribus,
+          <lb ed="#P" n="26"/>et ex Concilio Tridentino, sess. 25, c. 19, de
+          <lb ed="#P" n="27"/>Reform., ubi generaliter duellum prohibetur,
+          <lb ed="#P" n="28"/>et consequenter etiam hic casus continetur.
+          <lb ed="#P" n="29"/>Nam licet duellum potissime prohibeatur 
+          pro<lb break="no" ed="#P" n="30"/>pter periculum et propriae mortis et 
+          homici<lb break="no" ed="#P" n="31"/>dii alterius, tamen, quando fit in ostensionem
+          <lb ed="#P" n="32"/>veritatis, etiam prohibetur ratione divinae 
+          ir<lb break="no" ed="#P" n="33"/>reverentiae, quia ibi virtualiter postulatur a
+          <lb ed="#P" n="34"/>Deo peculiare auxilium, ut ille cui veritas
+          <lb ed="#P" n="35"/>favet, victor evadat, alioquin nulla esset 
+          pro<lb break="no" ed="#P" n="36"/>batio veritatis in illo opere; illud autem a
+          <lb ed="#P" n="37"/>Deo postulare, magna irreverentia est. 
+          Quo<lb break="no" ed="#P" n="38"/>circa, si ea, quae diximus, considerentur, 
+          fa<lb break="no" ed="#P" n="39"/>cile intelligetur haec prohiberi quia mala sunt,
+          <lb ed="#P" n="40"/>et non tantum esse mala quia prohibita; nam
+          <lb ed="#P" n="41"/>ipsa jura dicunt haec prohiberi, quia in eis
+          <lb ed="#P" n="42"/>tentatur Deus: tntatio autem Dei etiam 
+          in<lb break="no" ed="#P" n="43"/>terpretativa per se mala est, seciusa humana
+          <lb ed="#P" n="44"/>prohibitione. Et ideo nihil refert quod jura
+          <lb ed="#P" n="45"/>in una vel altera particulari actione 
+          loquan<lb break="no" ed="#P" n="46"/>tur, quia nihilominus prohibitio ratione 
+          ma<lb break="no" ed="#P" n="47"/>teriae aequivalet universali, ut recte sensit 
+          di<lb break="no" ed="#P" n="48"/>vus Thomas 1. 2, quaest. 95, art. 8, ad 3, et3
+          <lb ed="#P" n="49"/>p., quaest. 80, art. 6, ad 3; et Alexand. Alens.,
+          <lb ed="#P" n="50"/>3 p., q. 45, memb. 3; Abbas, Ancharanus,
+          <lb ed="#P" n="51"/>et alii in dicto cap. 3 de Purgat. vulgari ; 
+          Tur<lb break="no" ed="#P" n="52"/>rec., in dicto cap. Consuluisti, 2, q. 5.
+        </p>
+        <p>
+          <lb ed="#P" n="53"/>9. Objectio Del Rio. — Sed objici potest,
+          <lb ed="#P" n="54"/>quia Deus similem delicti purgationem saepe
+          <lb ed="#P" n="55"/>per miracula confirmavit , ut variis exem-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>plis ostendit del Rio supra, sect. 3 et 
+          se<lb break="no" ed="#P" n="57"/>quentibus ; ergo signum est non esse per se
+          <lb ed="#P" n="58"/>malam. Adde, quod, Num. 5, quoddam simile
+          <lb ed="#P" n="59"/>purgationis genus praecipit Deus in muliere
+          <lb ed="#P" n="60"/>suspecta de adulterio. Item iu Concilio 
+          Wor<lb break="no" ed="#P" n="61"/>maciensi, cap. 15, et habetur in cap. Sepe,
+          <lb ed="#P" n="62"/>2. quaest. 5, praecipitur ut, si furtum in 
+          mo<lb break="no" ed="#P" n="63"/>nasterio committatur, fratres purgentur hoc
+          <lb ed="#P" n="64"/>modo, ut fratres omnes in fine missae de manu
+          <lb ed="#P" n="65"/>Abbatis communicent in haec verba : Corgus
+          <lb ed="#P" n="66"/>Domini sit mihi ad probationem hodie. Et in
+          <lb ed="#P" n="67"/>cap. 10 similem purgationem postulat ab 
+          Epi<lb break="no" ed="#P" n="68"/>scopo vel presbytero suspectis de gravi 
+          crimi<lb break="no" ed="#P" n="69"/>ne, et habetur cap. ultim., 2, quaest. 5.
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>10. Satisfit. —Respondetur ad primam 
+          par<lb break="no" ed="#P" n="71"/>tem, de miraculis, vel ea accidisse in 
+          aliqui<lb break="no" ed="#P" n="72"/>bus casibus, in quibus ex speciali inspiratione
+          <lb ed="#P" n="73"/>divina id fieri potuit, vel certe quia Deus 
+          vo<lb break="no" ed="#P" n="74"/>luit innocentiae favere, etiamsi homines inepte
+          <lb ed="#P" n="75"/>id postularent ex ignorantia vel invincibili,
+          <lb ed="#P" n="76"/>vel etiam crassa, bona tamen intentione 
+          agen<lb break="no" ed="#P" n="77"/>do. Ad secundam, licet Alens. supra sentiat
+          <lb ed="#P" n="78"/>illam fuisse permissionem tantum, non legem
+          <lb ed="#P" n="79"/>Dei, verius videtur placuisse tunc Deo, uti cum
+          <lb ed="#P" n="80"/>illo populo tali genere miraculosae probationis,
+          <lb ed="#P" n="81"/>et ideo tunc fuisse licitam, quia jam non erat
+          <lb ed="#P" n="82"/>tentatio Dei, nam erat medium ordinarium ab
+          <lb ed="#P" n="83"/>ipsomet constitutum. Et eadem ratione non
+          <lb ed="#P" n="84"/>est tentatio Dei, quoties fit ex speciali 
+          revela<lb break="no" ed="#P" n="85"/>uone, aut aequivalente inspiratione Dei, quia
+          <lb ed="#P" n="86"/>tunc jam est medium proportionatum, et Deus
+          <lb ed="#P" n="87"/>ipse vult tale miraculum a se postulari. Ad
+          <lb ed="#P" n="88"/>tertiam, divus Thomas idem censet de illa
+          <lb ed="#P" n="89"/>purgatione per sumptionem corporis Domini,
+          <lb ed="#P" n="90"/>quod de aliis puargationibus vulgaribus, esse
+          <lb ed="#P" n="91"/>scilicet per se malam, et interpretativam 
+          ten<lb break="no" ed="#P" n="92"/>tauonem Dei, juxta cujus sententiam 
+          conse<lb break="no" ed="#P" n="93"/>quenter dicendum est errasse illud Concilium
+          <lb ed="#P" n="94"/>provinciale, quod plane fatetur Valentia, 3
+          <lb ed="#P" n="95"/>tom., disputat. 3, quaest. 14, p. 1, in fine, ubi
+          <lb ed="#P" n="96"/>censet illa decreta fuisse revocata per nova
+          <lb ed="#P" n="97"/>jura. Alii vero censent illam probationem non
+          <lb ed="#P" n="98"/>esse illicitam, si auctoritate publica judicis
+          <lb ed="#P" n="99"/>ecclesiastici fiat, de quo videri potest Martin.
+          <lb ed="#P" n="100"/>del Rio, dicto libr. 4, cap. 4, quaest. 3. Et ego
+          <lb ed="#P" n="101"/>nullibi illam invenio specialiter prohibitam,
+          <lb ed="#P" n="102"/>sed solum in generali, in quantum peregrina
+          <lb ed="#P" n="103"/>judicia inhibita esse dicuntur in dicto cap. Ex
+          <lb ed="#P" n="104"/>tuarum ; neque etiam videtur esse intrinsece
+          <lb ed="#P" n="105"/>tentatio Dei, quia non fit ad aliquam 
+          ostensio<lb break="no" ed="#P" n="106"/>nem miraculosam, sed solum quasi in 
+          testi<lb break="no" ed="#P" n="107"/>monium et juramentum innocentiae. 
+          Nihilo<lb break="no" ed="#P" n="108"/>minus non censeo esse convenientem propter
+          <lb ed="#P" n="109"/>periculum animae, et magis propter 
+          irreveren<lb break="no" ed="#P" n="110"/>tiam Sacramenti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

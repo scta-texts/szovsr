@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 18</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 18</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="590"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k14743"><!-- t3-l2c18 -->
+        <head>Caput 18</head>
+        <head type="question-title">An sit intrinsece malum, vel aliquando liceat uti maleficio ad maleficium destruendum.</head>
+        <p>
+          <lb ed="#P" n="99"/>CAPUT XVIII.
+          <lb ed="#P" n="100"/>AN SIT INTRINSECE MALUM , VEL ALIQUANDO
+          <lb ed="#P" n="101"/>LICEAT UTI MALEFICIO AD MALEFICIUM 
+          DE<lb break="no" ed="#P" n="102"/>STRUENDUM.
+        </p>
+        <p>
+          <lb ed="#P" n="103"/>1. Non licet uti magia ad tollendum 
+          efec<lb break="no" ed="#P" n="104"/>tum remanentem ea maleficio quod jam 
+          cessa<lb break="no" ed="#P" n="105"/>vit. — Superest dicendum de remediis 
+          super<lb break="no" ed="#P" n="106"/>stitiosis, quae possunt adhiberi vel ad 
+          tollen<lb break="no" ed="#P" n="107"/>dum nocumentum prius factum per praece-
+          <pb ed="#P" n="591"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dens maleficium, quod jam omnino praeteriit
+          <lb ed="#P" n="2"/>et cessavit, solumque reliquit effectum suum;
+          <lb ed="#P" n="3"/>vel possunt adhiberi ad maleficii signa 
+          de<lb break="no" ed="#P" n="4"/>struenda , et rescindendum pactnm quod 
+          du<lb break="no" ed="#P" n="5"/>rat. Item in hoc distingui potest inter ipsum
+          <lb ed="#P" n="6"/>magum, qui talibus maleficiis utitur, et
+          <lb ed="#P" n="7"/>alium, qui ab ipso petit ut tollat malcficium
+          <lb ed="#P" n="8"/>jam factum. Primo ergo certum est , si 
+          effec<lb break="no" ed="#P" n="9"/>tus relictus est ex maleficio, et maleficium
+          <lb ed="#P" n="10"/>jam ecessavit, non licere uti opera artis 
+          magi<lb break="no" ed="#P" n="11"/>cae ad curandum talem effectum, quod a 
+          for<lb break="no" ed="#P" n="12"/>tiori docent omnes Doctores infra referendi.
+          <lb ed="#P" n="13"/>Quia non est licitum uti arte magica ad 
+          cu<lb break="no" ed="#P" n="14"/>randum morbum ortum a causis naturalibus,
+          <lb ed="#P" n="15"/>et propria naturae corruptione ; ergo nec ad
+          <lb ed="#P" n="16"/>curandum morbum ex maleticio causatum;
+          <lb ed="#P" n="17"/>est euim eadem ratio deformitatis in utroque
+          <lb ed="#P" n="18"/>remedio ; et quod morbus provenerit ex 
+          prio<lb break="no" ed="#P" n="19"/>ri maleficio, valde accidentarium est. Item
+          <lb ed="#P" n="20"/>non licet uti magica arte ad benefaciendum;
+          <lb ed="#P" n="21"/>ergo nec ad recuperandas divitias, quae per
+          <lb ed="#P" n="22"/>maleficium destructae aut combustae fuerant ;
+          <lb ed="#P" n="23"/>ergo neque omnino ad expellendum 
+          quem<lb break="no" ed="#P" n="24"/>cumque similem effectum. Quae rationes 
+          pro<lb break="no" ed="#P" n="25"/>bant non solum esse illicitum in eo casu per
+          <lb ed="#P" n="26"/>se uti arte magica, habendo pactum cum 
+          dae<lb break="no" ed="#P" n="27"/>mone expressum, vel pactum quod intrinsece
+          <lb ed="#P" n="28"/>malum est ; verum etiam nec licere uti 
+          indu<lb break="no" ed="#P" n="29"/>stria magi ad ta!em effectum submovendum,
+          <lb ed="#P" n="30"/>vel curandum , etiamsi magus ipse maxime
+          <lb ed="#P" n="31"/>paratus sit ad tale remedium tribuendum.
+          <lb ed="#P" n="32"/>Quia non licet petere a mago parato, ut 
+          natu<lb break="no" ed="#P" n="33"/>rali morbo per suam iniquam artem 
+          reme<lb break="no" ed="#P" n="34"/>dium adhibeat ; nam hoc est quod universa
+          <lb ed="#P" n="35"/>Scriptura et omnes Canones, et leges 
+          prohi<lb break="no" ed="#P" n="36"/>bent ; ergo idem est, etiamsi morbus, vel alius
+          <lb ed="#P" n="37"/>similis effectus per aliud maleficium fuerit
+          <lb ed="#P" n="38"/>factus ; est enim (ut dixi) eadem ratio. Quae
+          <lb ed="#P" n="39"/>autem sit propria ratio a priori hujus 
+          prohi<lb break="no" ed="#P" n="40"/>bitionis, in sequenti puncto dicetur.
+        </p>
+        <p>
+          <lb ed="#P" n="41"/>2. Mago non licet uti maleficio ad alaud 
+          tol<lb break="no" ed="#P" n="42"/>lendum. — An aliis liceat uti opera magi ad
+          <lb ed="#P" n="43"/>Lollendum unum maleficium per aliud. — Pars
+          <lb ed="#P" n="44"/>affirmativa. — Secundo, certum est mago 
+          ip<lb break="no" ed="#P" n="45"/>si nunquam licere uti maleficio ad maleficium
+          <lb ed="#P" n="46"/>tollendum, etiamsi ipsemet prius maleficium
+          <lb ed="#P" n="47"/>fecerit, et non possit aliter illud destruere, 
+          si<lb break="no" ed="#P" n="48"/>cut interdum contingit. Ita docent omnes 
+          sta<lb break="no" ed="#P" n="49"/>tim referendi , tanquam certum et 
+          indubita<lb break="no" ed="#P" n="50"/>tum mn fide. Et patet rationibus factis, et ex
+          <lb ed="#P" n="51"/>omnibus quae hactenus diximus de malitia 
+          ta<lb break="no" ed="#P" n="52"/>lis operis, quod intrinsece malum est, et 
+          uni<lb break="no" ed="#P" n="53"/>versalter prohibitum. His ergo stantibus,
+          <lb ed="#P" n="54"/>quaeri nihilominus solet an liceat uti opera
+          <lb ed="#P" n="55"/>ejusdem vel alterius magi, ad impediendum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vel tollendum prius maleficium et effectum
+          <lb ed="#P" n="57"/>ejus per aliud maleficium efficacius, ut sic 
+          di<lb break="no" ed="#P" n="58"/>cam. In qua re auctores variis distinctionibus
+          <lb ed="#P" n="59"/>usi sunt. Prima est, quia vel maleficus paratus
+          <lb ed="#P" n="60"/>est ad utendum maleficio, ut prius destruat,
+          <lb ed="#P" n="61"/>et sic cesset effectus ejus, vel non est paratus,
+          <lb ed="#P" n="62"/>sed oportet rogare et inducere illum. Quando
+          <lb ed="#P" n="63"/>non est paratus, omnes fatentur non licere
+          <lb ed="#P" n="64"/>uti opera malefici, ut ma'eficus est. Tamen
+          <lb ed="#P" n="65"/>in alio casu, quando est paratus , dicunt esse
+          <lb ed="#P" n="66"/>licitum ab illo petere ut maleficium maeficio
+          <lb ed="#P" n="67"/>solvat. Hanc sententiam tenet Angel.,in Sum.,
+          <lb ed="#P" n="68"/>verb. Superstitio, numero decimo tertio, 
+          re<lb break="no" ed="#P" n="69"/>ferens pro illa Aureol.. 4, d. 34, quaestione 
+          se<lb break="no" ed="#P" n="70"/>cunda. Fundatur solum in hoc, quod licet ad
+          <lb ed="#P" n="71"/>bonum finem uti malitia hominis parati, 
+          si<lb break="no" ed="#P" n="72"/>cut licet petere mutuum ab usurario, et 
+          jura<lb break="no" ed="#P" n="73"/>mentum ab infideli, qui per Deos falsos 
+          jura<lb break="no" ed="#P" n="74"/>turus est. Addi potest in contirmationem,
+          <lb ed="#P" n="75"/>quod tunc non petitur effectus positivus, seu
+          <lb ed="#P" n="76"/>auxilium daemonis ad aliquid agendum, sed
+          <lb ed="#P" n="77"/>sola destructio maleficii, quae bona est. 
+          Con<lb break="no" ed="#P" n="78"/>firmatur secundo, quia ab ipso daemone liceret
+          <lb ed="#P" n="79"/>petere ut desistat ; ergo a ministro daemonis
+          <lb ed="#P" n="80"/>idem licet postulare, vel certe ab ipso 
+          daemo<lb break="no" ed="#P" n="81"/>ne per suum ministrum. Antecedens patet,
+          <lb ed="#P" n="82"/>quia sanctus Angelus, et interdum homo 
+          prae<lb break="no" ed="#P" n="83"/>cipit daemoni ut desistat a malo faciendo ; 
+          er<lb break="no" ed="#P" n="84"/>go qui non valet imperare vel cogere illum,
+          <lb ed="#P" n="85"/>poterit saltem petere.
+        </p>
+        <p>
+          <lb ed="#P" n="86"/>3. Pars affirmativa erronea judicatur. —
+          <lb ed="#P" n="87"/>Verumtamen haec sententia sibi ipsi contraria
+          <lb ed="#P" n="88"/>est, et omnino falsa speculative. et practice
+          <lb ed="#P" n="89"/>improbabilis, et tiàm repugnans dogmatibus
+          <lb ed="#P" n="90"/>fidei, ut erronea judicetur. Prima pars, quae
+          <lb ed="#P" n="91"/>est fundamentum caeterarum, declaratur ; nam
+          <lb ed="#P" n="92"/>dicti auctores fatentur non licere inducere 
+          il<lb break="no" ed="#P" n="93"/>lum qui maleficia facere novit, non tamen est
+          <lb ed="#P" n="94"/>solitus nec paratus illa facere, ut maleficium
+          <lb ed="#P" n="95"/>maleficio solvat ; quod certissimum est. Et 
+          ra<lb break="no" ed="#P" n="96"/>tio est, quia ir ipsomet malefico seu mago, 
+          in<lb break="no" ed="#P" n="97"/>trinsece malum est per magicam artem 
+          ali<lb break="no" ed="#P" n="98"/>quid efficere aut procurare, et ideo nunquam
+          <lb ed="#P" n="99"/>licet, etiamsi propter bonum finem fiat; quia
+          <lb ed="#P" n="100"/>non sunt facienda mala ut veniant bona, ad
+          <lb ed="#P" n="101"/>Rom. 3, quod in his maxime verum est, quae
+          <lb ed="#P" n="102"/>sunt intrinsece mala. Quod autem tale sit opus
+          <lb ed="#P" n="103"/>magiae, constat ex omnibus hactenus tractatis,
+          <lb ed="#P" n="104"/>et ex dictis in puncto proxime praecedenti.
+          <lb ed="#P" n="105"/>Quando enim maleficium cessavit, et effectus
+          <lb ed="#P" n="106"/>maleficii permanet, non est licitum illum 
+          cu<lb break="no" ed="#P" n="107"/>rare per remedia magica, quaecumque illa sint,
+          <lb ed="#P" n="108"/>si talia siut ut non possint esse naturales 
+          cau<lb break="no" ed="#P" n="109"/>sae, sed signa non divina; nam eo ipso sunt
+          <lb ed="#P" n="110"/>signa dasmoniaea, et pactum cum daemone in-
+          <pb ed="#P" n="592"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cludunt, quo uti intrinsece malum est, et ut
+          <lb ed="#P" n="2"/>tale prohibitum in Scriptura etjure canonico,
+          <lb ed="#P" n="3"/>ut supra visum est. Haec autem ratio eodem
+          <lb ed="#P" n="4"/>modo procedit, quando neque effectus maleficii
+          <lb ed="#P" n="5"/>cessavit, neque ipsum maleficium; ergo non
+          <lb ed="#P" n="6"/>minus est intrinsece malum uti maleficio, seu
+          <lb ed="#P" n="7"/>arte magica, ad tollendum maleficium, quia
+          <lb ed="#P" n="8"/>pactum cum daemone idem intercedit ; nec 
+          ma<lb break="no" ed="#P" n="9"/>gis potest ex hoc fine honestari quam ex aliis,
+          <lb ed="#P" n="10"/>ut recte docuit D. Thomas, in 4, d. 34, art. 3,
+          <lb ed="#P" n="11"/>et ibi Bonav., Scot., et omnes. Sicut ergoipse
+          <lb ed="#P" n="12"/>magus non potest licite uti arte sua ad 
+          malefi<lb break="no" ed="#P" n="13"/>cium tollendum, ita neque alius potest licite
+          <lb ed="#P" n="14"/>illum ad id faciendum inducere, praesertim
+          <lb ed="#P" n="15"/>quando ille paratus non est, quia nunquam 
+          li<lb break="no" ed="#P" n="16"/>cet alium ad malum inducere. Et ita dicti 
+          auc<lb break="no" ed="#P" n="17"/>tores in primo puncto recte sentiunt.
+        </p>
+        <p>
+          <lb ed="#P" n="18"/>4. Opus per se illicitum nunquam potest ab
+          <lb ed="#P" n="19"/>aliquo peti, etiamsi ad illud sit paratus. —
+          <lb ed="#P" n="20"/>Objeclio. — Ex ulo autem convincuntur 
+          fal<lb break="no" ed="#P" n="21"/>sum dicere in secundo puncto, seu membro
+          <lb ed="#P" n="22"/>divisionis suae. Nam ut recte advertit 
+          Cajeta<lb break="no" ed="#P" n="23"/>nus 2. 2, q. 18, artic. 4, tunc licet ab aliquo
+          <lb ed="#P" n="24"/>petere aliquid, quod ille sine peccato facturus
+          <lb ed="#P" n="25"/>non est, quando id quod petitur, per se licet,
+          <lb ed="#P" n="26"/>et sine peccato fieri potest; tunc enim 
+          acci<lb break="no" ed="#P" n="27"/>dentarium est quod alter peccaturus sit id 
+          fa<lb break="no" ed="#P" n="28"/>ciendo ; nam ex maltia sua addit operi 
+          postu<lb break="no" ed="#P" n="29"/>lato malitiam , non ex vi petitionis. At vero
+          <lb ed="#P" n="30"/>opus per se illicitum, quodque bene fieri non
+          <lb ed="#P" n="31"/>potest, nunquam potest ab alio licite 
+          postula<lb break="no" ed="#P" n="32"/>ri, quantumcumque ille paratus sit. Et ratio
+          <lb ed="#P" n="33"/>est, quia tunc petendo opus, petitur malitia,
+          <lb ed="#P" n="34"/>quia inseparabilis est ab opere; at qui pett,
+          <lb ed="#P" n="35"/>auctor est operis, nam rogans sicut et 
+          consu<lb break="no" ed="#P" n="36"/>lens, causa moralis est operis postulati; ergo
+          <lb ed="#P" n="37"/>est etiam auctor malitiae, et propria causa 
+          ta<lb break="no" ed="#P" n="38"/>lis peccati ob eamdem rationem, quia 
+          insepa<lb break="no" ed="#P" n="39"/>rabilis est malitia a tali opere. Dices: 
+          quan<lb break="no" ed="#P" n="40"/>do alter est paratus, non videtur induci ad
+          <lb ed="#P" n="41"/>opus, quia ipse per se est satis inductus ; qui
+          <lb ed="#P" n="42"/>ergo petit opus aliquod a tali homine sic 
+          dis<lb break="no" ed="#P" n="43"/>posito, non est causa operis vel peccati, sed
+          <lb ed="#P" n="44"/>tantum utitur malitia alterius. Respondeo 
+          fal<lb break="no" ed="#P" n="45"/>sam ac perniciosam esse hanc doctrinam,
+          <lb ed="#P" n="46"/>alias ordinarie ae regulariter licebit petere
+          <lb ed="#P" n="47"/>maleficia seu veneficia a magis, quia ipsi 
+          pa<lb break="no" ed="#P" n="48"/>ratissimi sunt ad illa facienda, neque qui sic
+          <lb ed="#P" n="49"/>peteret, censeretur esse particeps talis delicti,
+          <lb ed="#P" n="50"/>ut magia est, quia non est causa ejus juxta
+          <lb ed="#P" n="51"/>illam doctrinam. Consequens est erroneum,
+          <lb ed="#P" n="52"/>ut ex dictis constat ; ergo. Et alia similia 
+          ab<lb break="no" ed="#P" n="53"/>surda possunt inferri in materia morali. 
+          Fal<lb break="no" ed="#P" n="54"/>sum ergo est quod in illa evasione assumitur.
+          <lb ed="#P" n="55"/>Nam qui petit ab alio ut det vel faciat ali-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quid, causa est moralis talis operis, etiamsi
+          <lb ed="#P" n="57"/>alter sit paratissimus ad dandum. Et qui petit
+          <lb ed="#P" n="58"/>mutuum ab usurario parato, non excusatur a
+          <lb ed="#P" n="59"/>culpa, quia non sit causa mutui, nam revera
+          <lb ed="#P" n="60"/>causa est, sed excusatur, quia mutuum de se
+          <lb ed="#P" n="61"/>bonum est, et ipse non est causa usurarum,
+          <lb ed="#P" n="62"/>neque illas petiit, sed permisit. Secus autem
+          <lb ed="#P" n="63"/>est quando quod postulatur,.est ipse actus 
+          fla<lb break="no" ed="#P" n="64"/>gitiosus, a quo non est separabilis malitia ;
+          <lb ed="#P" n="65"/>tinc enim qui tale opus petit etiam a parato,
+          <lb ed="#P" n="66"/>ad totum opus ct malitiam ejus illum 
+          indu<lb break="no" ed="#P" n="67"/>cit, et ideo a culpa excusari non potest. In
+          <lb ed="#P" n="68"/>prasenti autem ita est , quia opus illud 
+          des<lb break="no" ed="#P" n="69"/>truendi maleficium per maleficium , seu 
+          ma<lb break="no" ed="#P" n="70"/>giam, intrinsece malum est, ut ostendimus,
+          <lb ed="#P" n="71"/>et ideo non potest postulari etiam a parato,
+          <lb ed="#P" n="72"/>absque eodem genere peccati. Et haec, ut 
+          di<lb break="no" ed="#P" n="73"/>xi, est communis et indubitata resolutio 
+          Theo<lb break="no" ed="#P" n="74"/>logorum, in 4, d. 34, et aliorum ; Cajetani,
+          <lb ed="#P" n="75"/>tomo 2 Opusc., tract. 12; Castr., lib. 2 de
+          <lb ed="#P" n="76"/>Just. haeret. punit., cap. 15; Abulens., Matth.
+          <lb ed="#P" n="77"/>19, quaest. 90 ; Turecr., in c. ult., 33, quaest.
+          <lb ed="#P" n="78"/>1, art. 3; Covar., in capit. Quamvis pactum,
+          <lb ed="#P" n="79"/>pat. 1, $1, num. 10; Navar. , in Man. cap.
+          <lb ed="#P" n="80"/>11, num. 29, et aliorum, quos late referunt
+          <lb ed="#P" n="81"/>Martinus, lib. 6, cap. 2, sect. 1, q. 2, et 
+          San<lb break="no" ed="#P" n="82"/>cius, lib. 7, disput. 65, num. 7, et Petrus
+          <lb ed="#P" n="83"/>Binsfel. , in libr. 4, capit. de Math. et Mal,
+          <lb ed="#P" n="84"/>quaest. 5.
+        </p>
+        <p>
+          <lb ed="#P" n="85"/>5. Poscere a demone ut cesset a maleficio,
+          <lb ed="#P" n="86"/>non licet. — Per haec ergo, et partes omnes
+          <lb ed="#P" n="87"/>assertionis probatae sunt, et responsum est ad
+          <lb ed="#P" n="88"/>fundamentum et exempla Aureoli. Ad primam
+          <lb ed="#P" n="89"/>vero confirmationem dicitur imprimis, si 
+          ma<lb break="no" ed="#P" n="90"/>leficium maleficio tollendum est, aliquod 
+          po<lb break="no" ed="#P" n="91"/>sitivum crimen postulari, et contrarium 
+          ne<lb break="no" ed="#P" n="92"/>gativo praecepto, quia petitur ut fiat illud 
+          ma<lb break="no" ed="#P" n="93"/>leficium, quo aliud tollendum est. Et ita licet
+          <lb ed="#P" n="94"/>ipsa destructio prioris maleficii de se mala
+          <lb ed="#P" n="95"/>non sit, tamen procurare illam tali medio, 
+          in<lb break="no" ed="#P" n="96"/>trinsece malum est. Secundo, respondendo 
+          si<lb break="no" ed="#P" n="97"/>mul ad secundam confirmationem, dicitur
+          <lb ed="#P" n="98"/>quod, licet destructio maleficii in se bona esse
+          <lb ed="#P" n="99"/>possit, tamen postulare illam a daemone, 
+          in<lb break="no" ed="#P" n="100"/>trinsece malum est, quia involvit societatem
+          <lb ed="#P" n="101"/>et pactum cum ipso daemone, et quemdam
+          <lb ed="#P" n="102"/>cultum ejus. Nam rogare daemonem ut aliquid
+          <lb ed="#P" n="103"/>non faciat, non minus est quidam cultus
+          <lb ed="#P" n="104"/>ejus, et quaedam subjectio ad ipsum, quam
+          <lb ed="#P" n="105"/>rogare illum ut aliquid faciat; sed petere ab
+          <lb ed="#P" n="106"/>illo quodlibet bonum, vel remedium alicujus
+          <lb ed="#P" n="107"/>mali, intrinsece malum est; ergo et petere
+          <lb ed="#P" n="108"/>ab illo ut a maleficio cesset, intrinsece malum
+          <lb ed="#P" n="109"/>est. Unde Leo Papa, sermone 19 de Passione,
+          <lb ed="#P" n="110"/>de daemcnibus ait : Multis, quod dolendum est,
+          <pb ed="#P" n="593"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ita per nequitiam simulationis illudunt . ut
+          <lb ed="#P" n="2"/>quidem illos et timeant infensos, et velint 
+          ha<lb break="no" ed="#P" n="3"/>bere placatos, cum beneflcina demonum 
+          omni<lb break="no" ed="#P" n="4"/>bus sint nocentiora vulneribus, quia tutius est
+          <lb ed="#P" n="5"/>houini inimictiam demonis meruisse, quam
+          <lb ed="#P" n="6"/>pacem. Nihil ergo ab eis licet petere seu 
+          ro<lb break="no" ed="#P" n="7"/>gare; ergo nec dissolutionem maleficii. Atque
+          <lb ed="#P" n="8"/>ita docet Sot., 4, d. 54, articul. 3, S Quod si
+          <lb ed="#P" n="9"/>quis ; et Martinus, ac Sancius supra, contra
+          <lb ed="#P" n="10"/>quemdam Briansonium (quem referunt) in
+          <lb ed="#P" n="11"/>Collectari. supra 4 Sentent., quaestion. 13,
+          <lb ed="#P" n="12"/>conclusion. 3. Noster etiam bLessius dicto
+          <lb ed="#P" n="13"/>libro 2. cap. 44, dub. 10, dicit licitum esse
+          <lb ed="#P" n="14"/>verbo petere a diabolo, ut desinat nocere,
+          <lb ed="#P" n="15"/>modo id non petatur deprecando. Sed est
+          <lb ed="#P" n="16"/>sano modo intelligendum : nam petere et 
+          de<lb break="no" ed="#P" n="17"/>precari parum differunt, unde petere per
+          <lb ed="#P" n="18"/>modum supplicationis ron licet; petere autem
+          <lb ed="#P" n="19"/>per modum objurgationis et contemptus 
+          lici<lb break="no" ed="#P" n="20"/>tum est, ut si dicas: Abi hinc, cessa 
+          male<lb break="no" ed="#P" n="21"/>facere; in hoc enim nulla est societas cum
+          <lb ed="#P" n="22"/>daemone, nec aliquid ab eo proprie postulatur,
+          <lb ed="#P" n="23"/>nec honor ei defertur. Et ita nihil contra hoc
+          <lb ed="#P" n="24"/>obstat ratio supra facta, quia quando Angelus
+          <lb ed="#P" n="25"/>vel sanctus homo praecipiunt daemoni 
+          impe<lb break="no" ed="#P" n="26"/>rando, id faciunt virtute divina, et ut 
+          minis<lb break="no" ed="#P" n="27"/>tri Dei, ejusque obsequentes voluntati; at
+          <lb ed="#P" n="28"/>quando homo rogat daemonem, tanquam 
+          sup<lb break="no" ed="#P" n="29"/>plex ei indigens ejus ope, plane se illi 
+          sub<lb break="no" ed="#P" n="30"/>jicit, eumque quodammodo Deo praefert, juxta
+          <lb ed="#P" n="31"/>illud 4 Reg. 1: Nunquid non est Deus in
+          <lb ed="#P" n="32"/>Israel, ut eatis ad consulendum Beelzebub?
+          <lb ed="#P" n="33"/>Deus ergo orandus est ut liberet a maleficio,
+          <lb ed="#P" n="34"/>non daemon. Quod si Deus liberare noluerit,
+          <lb ed="#P" n="35"/>non propterea orandus aut colendus est 
+          dae<lb break="no" ed="#P" n="36"/>mon, ut in simili dixerunt tres pueri, Dan. 3.
+          <lb ed="#P" n="37"/>Eo vel maxime quod, si quis rectam tidem 
+          te<lb break="no" ed="#P" n="38"/>neat, non potest cum fiducia petere a daemone
+          <lb ed="#P" n="39"/>aliquod remedium, etiam in proprio maleficio,
+          <lb ed="#P" n="40"/>cum sciat illum esse mendacem et 
+          pernicio<lb break="no" ed="#P" n="41"/>sum hostem, qui bonum etiam corporis non
+          <lb ed="#P" n="42"/>confert, nisi in ordine ad animae malum, et
+          <lb ed="#P" n="43"/>ideo etiam ratione periculi moralis non potest
+          <lb ed="#P" n="44"/>hoc fieri sine gravi peccato.
+        </p>
+        <p>
+          <lb ed="#P" n="45"/>6. Hinc ergo aperte concluditur, non licere
+          <lb ed="#P" n="46"/>petere a mago ut maleficium maleficio tollat,
+          <lb ed="#P" n="47"/>quantumvis paratus sit. Satis enim paratus est
+          <lb ed="#P" n="48"/>daemon, a quo non licet id postulare ; quando
+          <lb ed="#P" n="49"/>autem petitur ab aliquo mago, ab ipso 
+          dae<lb break="no" ed="#P" n="50"/>mone postulatur, quamvis per magum. Quia
+          <lb ed="#P" n="51"/>petere a mago ut maleficium faciat ad 
+          tollen<lb break="no" ed="#P" n="52"/>dum maleficium, nihil est aliud quam petere
+          <lb ed="#P" n="53"/>ab illo ut id a daemone obtineat, tanquam
+          <lb ed="#P" n="54"/>ejus amicus et socius, qui cum illo pactum
+          <lb ed="#P" n="55"/>habet; ergo qui hoc petit a mago, per illum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>petit a daemone, quod ejusdem malitiae est.
+          <lb ed="#P" n="57"/>Sicut qui petit a Sancto ut a Deo impetret,
+          <lb ed="#P" n="58"/>religiose orat, quia per Sanctum a Deo petit;
+          <lb ed="#P" n="59"/>ita ergo hic superstitiose petit, quia per 
+          ma<lb break="no" ed="#P" n="60"/>gum a daemone petit.
+        </p>
+        <p>
+          <lb ed="#P" n="61"/>7. Refertur opinio asserens non licere id a
+          <lb ed="#P" n="62"/>mago petere, licere tamen ewn ad id cogere
+          <lb ed="#P" n="63"/>mnis.—Hme vero sumpserunt aliqui 
+          occasio<lb break="no" ed="#P" n="64"/>nem aliter distinguendi inter petitionem et
+          <lb ed="#P" n="65"/>et coactionem, ac dicendi non licere rogare
+          <lb ed="#P" n="66"/>magum, ut maleficium tollat per suam 
+          ar<lb break="no" ed="#P" n="67"/>tem, propter rationes factas, nihilominus 
+          ta<lb break="no" ed="#P" n="68"/>men licere eum cogere minis ac poenis, ut 
+          ta<lb break="no" ed="#P" n="69"/>li modo maleficium destruat. Quia hoc non
+          <lb ed="#P" n="70"/>est societatem cum daemone inire, sed jure
+          <lb ed="#P" n="71"/>suo uti, et quasi se defendere. Item, quia si
+          <lb ed="#P" n="72"/>daemonem ipsum cogere homo posset, non 
+          es<lb break="no" ed="#P" n="73"/>set illicitum eum cogere ad tollendum 
+          malefi<lb break="no" ed="#P" n="74"/>cium, quia illud non esset colere illum, sed
+          <lb ed="#P" n="75"/>esset imperare, et quodammodo conculcare.
+          <lb ed="#P" n="76"/>Ita refert ex quodam Remigiv Martinus supra,
+          <lb ed="#P" n="77"/>eumque impugnat, ejusque argumenta 
+          dissol<lb break="no" ed="#P" n="78"/>vit, qua omitto, quia futilia sunt, et ejus
+          <lb ed="#P" n="79"/>sententia plane falsa et improbabilis. Nam
+          <lb ed="#P" n="80"/>imprimis, si talis distinctio locum haberet,
+          <lb ed="#P" n="81"/>non minus liceret paratum cogere imperio,
+          <lb ed="#P" n="82"/>quam reluctantem cogere minis ac terrore;
+          <lb ed="#P" n="83"/>quia ejus argumenta aeque in utroque 
+          proce<lb break="no" ed="#P" n="84"/>dunt, scilicet, quia coactio inhonorat, et 
+          ex<lb break="no" ed="#P" n="85"/>pers est omnis pacti, et similia. At 
+          utrum<lb break="no" ed="#P" n="86"/>que improbabile est: quomodo enim licitum
+          <lb ed="#P" n="87"/>esse potest alium cogere ad malum 
+          facien<lb break="no" ed="#P" n="88"/>dum, etiam quando alias invitus est et a tali
+          <lb ed="#P" n="89"/>crimine alienus, si non licet etiam paratum 
+          in<lb break="no" ed="#P" n="90"/>ducere ac rogare? Itaque licet cogere non sit
+          <lb ed="#P" n="91"/>honorare, non propterea non est moraliter 
+          effi<lb break="no" ed="#P" n="92"/>cere, et efficacius causare crimen illud, ad
+          <lb ed="#P" n="93"/>quod faciendum alius cogitur. Et haec est 
+          prae<lb break="no" ed="#P" n="94"/>cipua ratio malitiae in hac inductione, quae 
+          ef<lb break="no" ed="#P" n="95"/>ficacior est in coactione; et ideo nullo titulo
+          <lb ed="#P" n="96"/>vel necessitatis vel recepti nocumenti 
+          hones<lb break="no" ed="#P" n="97"/>tari potest. Solum ergo habere posset locum
+          <lb ed="#P" n="98"/>illa coactio sine peccato, quando magus, qui
+          <lb ed="#P" n="99"/>maleficium fecit, posset illud destruere 
+          abs<lb break="no" ed="#P" n="100"/>que novo maleficio, novove auxilio daemonis.
+          <lb ed="#P" n="101"/>Tunc enim licitum esset cogere magum, ut tali
+          <lb ed="#P" n="102"/>modo licito maleficium tolleret, juxta ea quae in
+          <lb ed="#P" n="103"/>sequenti puncto dicemus. Et in eotantum casu
+          <lb ed="#P" n="104"/>procedit alia ratio, quod licet vim vi repellere,
+          <lb ed="#P" n="105"/>et cogere illam, qui nocumentum infert, ut
+          <lb ed="#P" n="106"/>cesset, quia id sine peccato optime potest. At
+          <lb ed="#P" n="107"/>tunc impertinens est distinctio, quia tunc non
+          <lb ed="#P" n="108"/>solum licet cogere, sed multo magis rogare,
+          <lb ed="#P" n="109"/>sive paratus sit, sive non paratus, quia non
+          <lb ed="#P" n="110"/>ad malum, sed ad bonum inducitur.
+        </p>
+        <p>
+          <pb ed="#P" n="594"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>8. Discrimen quod est inter magum et 
+          dae<lb break="no" ed="#P" n="2"/>monem quoad petitionem vel coactionem que
+          <lb ed="#P" n="3"/>eis inferatur.—Unde obiter intelligitur 
+          ditfe<lb break="no" ed="#P" n="4"/>rentia inter daemonem ipsum, et magum
+          <lb ed="#P" n="5"/>ministrum ejus, quod daemon in nullo casu
+          <lb ed="#P" n="6"/>potest a nobis cogi vel rogari, etiamsi 
+          dare<lb break="no" ed="#P" n="7"/>mus posse tollere maleficium sine peccato suo;
+          <lb ed="#P" n="8"/>sicut revera posset ex vi objecti, licet ipse
+          <lb ed="#P" n="9"/>nunquam id sit facturus sine aliqua malitia
+          <lb ed="#P" n="10"/>propter obstinationem suam et pravam 
+          inten<lb break="no" ed="#P" n="11"/>tionem, quod esset per accidens, si aliud non
+          <lb ed="#P" n="12"/>obstaret. Obstat tamen imprimis quoad 
+          coac<lb break="no" ed="#P" n="13"/>iionem, quia mortalis homo (seclusa virtute
+          <lb ed="#P" n="14"/>divina, quae in praesenti non operatur, ut
+          <lb ed="#P" n="15"/>supponimus) non potest cogere unum 
+          daemo<lb break="no" ed="#P" n="16"/>nem, nisi virtute alterius, ac subinde per 
+          pa<lb break="no" ed="#P" n="17"/>ctum cum alio daemone superiori, qui potest
+          <lb ed="#P" n="18"/>inferiorem cogere. Propter quod recte dixit
+          <lb ed="#P" n="19"/>D. Thomas, quaest. de Potent.. art. 10, 
+          seclu<lb break="no" ed="#P" n="20"/>sa virtute divina, non posse daemonem cogi
+          <lb ed="#P" n="21"/>ab homine, nisi per artem magicam, id est,
+          <lb ed="#P" n="22"/>in virtute alicujus pacti cum superiori 
+          daemo<lb break="no" ed="#P" n="23"/>ne, ut late etiam prosequitur Victor., in dicta
+          <lb ed="#P" n="24"/>Relect., a num. 20. Sicut ergo nunquam 
+          li<lb break="no" ed="#P" n="25"/>cet uti arte magica, ita nunquam licet 
+          ho<lb break="no" ed="#P" n="26"/>mini cogere daemonem. At vero unus homo
+          <lb ed="#P" n="27"/>potest ab alio cogi, et facto, propter majores
+          <lb ed="#P" n="28"/>vires, vel etiam jure, quando sine inductione
+          <lb ed="#P" n="29"/>ad malum, et sine injustitia id fieri potest.
+          <lb ed="#P" n="30"/>Utrumque autem horum concurrit in 
+          coac<lb break="no" ed="#P" n="31"/>tione magi ad destruendum maleficium, 
+          quan<lb break="no" ed="#P" n="32"/>do sine maleficio potest, et ideo talis coactio
+          <lb ed="#P" n="33"/>interaum licet circa magum, nunquam vero
+          <lb ed="#P" n="34"/>circa daemonem. Sumiliter ostensum est 
+          nun<lb break="no" ed="#P" n="35"/>quam ficere rogare daemonem, quia omnis 
+          so<lb break="no" ed="#P" n="36"/>cietas cum illo nobis est interdicta, ut 
+          contra<lb break="no" ed="#P" n="37"/>ria fidehtati et religioni debitae Deo; at non sic
+          <lb ed="#P" n="38"/>nobis est interdicta omnis societas cum mago
+          <lb ed="#P" n="39"/>viatore, quando cum illo agimus, non ut 
+          ma<lb break="no" ed="#P" n="40"/>gus est, sed ut homo; hoc, autem modo 
+          ro<lb break="no" ed="#P" n="41"/>gamus illum, cum ab eo petimus ut destruat
+          <lb ed="#P" n="42"/>maleficium quod sine peccato destruere 
+          po<lb break="no" ed="#P" n="43"/>test.
+        </p>
+        <p>
+          <lb ed="#P" n="44"/>9. An possit hoc peti a mago, qu novit 
+          li<lb break="no" ed="#P" n="45"/>cito et illicito modo tollere maleficia. — Atque
+          <lb ed="#P" n="46"/>hinc coiligitur declaratio ad assertionem 
+          pro<lb break="no" ed="#P" n="47"/>xime positam contra Angel., quae partim
+          <lb ed="#P" n="48"/>est ampliatio, partim videri potest restrictio
+          <lb ed="#P" n="49"/>ejus. Nam a mago etiam parato ad magiam
+          <lb ed="#P" n="50"/>exercendam, non potest peti expresse ut per
+          <lb ed="#P" n="51"/>illam maleficium destruat, ut probatum est.
+          <lb ed="#P" n="52"/>Unde fit quod, si constet tale esse maleficium,
+          <lb ed="#P" n="53"/>ut sine novo maleficio, seu auxilio daemonis
+          <lb ed="#P" n="54"/>dissolvi non possit, non licet petere a mago,
+          <lb ed="#P" n="55"/>etiam indifferenter et in communi, ut male-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ficium dissolvat, quia in tali casu et opere
+          <lb ed="#P" n="57"/>illud est virtute petere ut opus magicum 
+          exer<lb break="no" ed="#P" n="58"/>ceat. Idemque erit si destructio maleficii in
+          <lb ed="#P" n="59"/>cenere petatur, non ab eodem mago qui illud
+          <lb ed="#P" n="60"/>fecit, sed ab alio, qui de illo, vel de loco ubi
+          <lb ed="#P" n="61"/>sunt signa ejus, nihil novit; nam in tali 
+          ho<lb break="no" ed="#P" n="62"/>mine talis petitio, licet in specie verborum
+          <lb ed="#P" n="63"/>indifferens videatur, revera est petitio 
+          male<lb break="no" ed="#P" n="64"/>ficii. Quoad hoc ergo aliquo modo amphliatur
+          <lb ed="#P" n="65"/>praedicta assertio. At vero si constet 
+          malefi<lb break="no" ed="#P" n="66"/>cum optime posse absque maleficio novo 
+          sol<lb break="no" ed="#P" n="67"/>vere maleficium, licite ab eo petitur in 
+          parti<lb break="no" ed="#P" n="68"/>culari, ut modo licito, et sine usu pacti cum
+          <lb ed="#P" n="69"/>daemone, illud destruat, quia hoc non est 
+          con<lb break="no" ed="#P" n="70"/>tra positam assertionem ; nec ratio ejus 
+          con<lb break="no" ed="#P" n="71"/>tra hoc militat, cum talis petitio non sit 
+          in<lb break="no" ed="#P" n="72"/>ductio ad opera magiae. Unde hoc modo non
+          <lb ed="#P" n="73"/>solum licet id petere a parato, sed etiam a
+          <lb ed="#P" n="74"/>non parato ; imo a non parato securius 
+          peti<lb break="no" ed="#P" n="75"/>tur, quia quod petitur bonum est, et in illo
+          <lb ed="#P" n="76"/>minus est periculi, cum non supponatur 
+          pa<lb break="no" ed="#P" n="77"/>ratus ad opera magiae praestanda. Difficultas
+          <lb ed="#P" n="78"/>vero nonnulla est, an ab his qui norunt 
+          utro<lb break="no" ed="#P" n="79"/>que modo dissolvere maleficium, licito, 
+          scii<lb break="no" ed="#P" n="80"/>cet, et illicito, liceat absolute petere ut 
+          ma<lb break="no" ed="#P" n="81"/>leficium destruant. Potest autem sic petens,
+          <lb ed="#P" n="82"/>triplicem opinionem seu existimationem 
+          ha<lb break="no" ed="#P" n="83"/>bere de illo mago, a quo petit. Primo, ut 
+          pro<lb break="no" ed="#P" n="84"/>babiliter credat illum non usurum mala arte,
+          <lb ed="#P" n="85"/>quando per se habet potestatem ad 
+          destruen<lb break="no" ed="#P" n="86"/>dum signum maleficii, et ita dissolvendum
+          <lb ed="#P" n="87"/>illud. Et tunc sine dubio est licitum absolute
+          <lb ed="#P" n="88"/>petere, quia petitio est indifferens ex se, et ex
+          <lb ed="#P" n="89"/>parte personae cessat morale periculum. 
+          Se<lb break="no" ed="#P" n="90"/>cundo, potest petens timere, et dubitare an
+          <lb ed="#P" n="91"/>alius superstitioso vel licito modo sit 
+          dissolu<lb break="no" ed="#P" n="92"/>turus maleticium. Et in hoc etiam casu 
+          lici<lb break="no" ed="#P" n="93"/>tum est sic petere, quia etiam petitio est de se
+          <lb ed="#P" n="94"/>indifferens, et potest honesto modo impleri,
+          <lb ed="#P" n="95"/>et in dubio potest praesumi bonum, potius
+          <lb ed="#P" n="96"/>quam malum, et quia petens non constituit
+          <lb ed="#P" n="97"/>alium in morali periculo, de quo ipsi constet,
+          <lb ed="#P" n="98"/>et a fortiori propter ea quae dicemus in 
+          se<lb break="no" ed="#P" n="99"/>quenti puncto. Loquimur autem in hoc 
+          pun<lb break="no" ed="#P" n="100"/>cto. quando dubium est de futura voluntate
+          <lb ed="#P" n="101"/>talis hominis ; nam si dubium sit de potestate
+          <lb ed="#P" n="102"/>seu scientia, non videtur licere in dubio pete -
+          <lb ed="#P" n="103"/>re, quia cum constet illum esse maleficum, et
+          <lb ed="#P" n="104"/>non constet illum scire tollere maleficium 
+          si<lb break="no" ed="#P" n="105"/>ne usu suae artis, praesumendum contra illum
+          <lb ed="#P" n="106"/>est, quia isti frequentius nesciunt solvere 
+          ma<lb break="no" ed="#P" n="107"/>leficia, nisi per artem suam, ut auctores citati
+          <lb ed="#P" n="108"/>docuerunt ; praesertim vero quia, si dubito an
+          <lb ed="#P" n="109"/>ille sciat solvere sine maleficio, dubito an 
+          il<lb break="no" ed="#P" n="110"/>la dissolutio possit licite fieri; id autem de
+          <pb ed="#P" n="595"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quo est dubium, an licite fieri possit, nec 
+          pe<lb break="no" ed="#P" n="2"/>tendum nec agendum est, stante dubio.
+        </p>
+        <p>
+          <lb ed="#P" n="3"/>10. Sententia auctoris.—Tertio, potest 
+          pe<lb break="no" ed="#P" n="4"/>tens certus esse vel probabiliter credere, quod
+          <lb ed="#P" n="5"/>si a tali mago petat destructionem maleficii,
+          <lb ed="#P" n="6"/>potius per artem illicitam, quam per 
+          potesta<lb break="no" ed="#P" n="7"/>tem licitam illud sit destructurus. Et in eo
+          <lb ed="#P" n="8"/>casu, dicunt aliqui non esse licitum petere,
+          <lb ed="#P" n="9"/>etiam indifferenter et in communi. Quod tenet
+          <lb ed="#P" n="10"/>Cajetanus, tomo 2 Opuscul., tract. 12, et 
+          nos<lb break="no" ed="#P" n="11"/>ter Martinus indicat, sect. 1, quaest. 2, in fine
+          <lb ed="#P" n="12"/>4 conclus. Sed oppositum verum existimo:
+          <lb ed="#P" n="13"/>quod tenent aperte Petrus Ledesmus, de 
+          Ma<lb break="no" ed="#P" n="14"/>trimon., q. 58, a. 2, dubio 2, c. 3; Henricus,
+          <lb ed="#P" n="15"/>lib. 2, alias 12, de Matrim., cap. 8, n. 3, in
+          <lb ed="#P" n="16"/>fine; Sancius supra, numer. 11. Et ratio est
+          <lb ed="#P" n="17"/>clara, quia tunc peto rem quam alius licite
+          <lb ed="#P" n="18"/>prasstare potest, et habeo jus petendi; ergo
+          <lb ed="#P" n="19"/>nec induce ad malum, nec moralem praebeo
+          <lb ed="#P" n="20"/>occasionem, quia utor jure meo. Et per 
+          asci<lb break="no" ed="#P" n="21"/>dens est, quod alius malitia sua usurus sit,
+          <lb ed="#P" n="22"/>nam ego permitto illam, non consentio, nec
+          <lb ed="#P" n="23"/>sum causa ejus. Et hoc probant optime 
+          exem<lb break="no" ed="#P" n="24"/>pla quae Angelus et Aureolus afferebant. Et si
+          <lb ed="#P" n="25"/>attente legatur Martinus, non contradicit ; non
+          <lb ed="#P" n="26"/>enim dicit quod, licet possit et sciat maleficus
+          <lb ed="#P" n="27"/>solvere sine maleficio, malum sit ab eo petere;
+          <lb ed="#P" n="28"/>sed passive ait: Licet possit maleficium solvi.
+          <lb ed="#P" n="29"/>Unde videtur loqui in casu, quando 
+          malefi<lb break="no" ed="#P" n="30"/>cium quidem ex se potest dissolvi sine 
+          pecca<lb break="no" ed="#P" n="31"/>to; ille tamen a quo petitur ut illud destruat,
+          <lb ed="#P" n="32"/>non novit illud solvere sine maleficio; de hoc
+          <lb ed="#P" n="33"/>enim tantum exemplum adductt. Et ae illo
+          <lb ed="#P" n="34"/>verum est non licere ab illo petere, ut dixi,
+          <lb ed="#P" n="35"/>quia impertinens est respectu talis personae,
+          <lb ed="#P" n="36"/>quod maleficium secundum sesit aliter 
+          disso<lb break="no" ed="#P" n="37"/>lubile, si talis persona illum modum licitum
+          <lb ed="#P" n="38"/>nescit ; tunc enim absolute ab illa peteretur,
+          <lb ed="#P" n="39"/>quod nonnisi illicito modo facere novit; nos
+          <lb ed="#P" n="40"/>autem loquimur quando persona scit, et 
+          con<lb break="no" ed="#P" n="41"/>sequenter potest licite facere, sed creditur non
+          <lb ed="#P" n="42"/>factura; tunc enim ejus malitia non obstat, ut
+          <lb ed="#P" n="43"/>declaratum est, et in hoc sensu loquuntur 
+          Le<lb break="no" ed="#P" n="44"/>desma et Henricus, quos pro se Martinus citat.
+        </p>
+        <p>
+          <lb ed="#P" n="45"/>11. Cajetani opinio rejicitur. — Cajetanus
+          <lb ed="#P" n="46"/>autem aperte sentit contrarium, non tamen
+          <lb ed="#P" n="47"/>sufficienter id probat. Ait enim oportere 
+          par<lb break="no" ed="#P" n="48"/>ticulare opus petere, et non vage, relinquendo
+          <lb ed="#P" n="49"/>in arbitrio pravi hominis petitionem propriam.
+          <lb ed="#P" n="50"/>At enim satis est petere effectum 
+          determina<lb break="no" ed="#P" n="51"/>tum, qui possit licite ab alio fieri, neque 
+          opor<lb break="no" ed="#P" n="52"/>tet semper medium aut modum 
+          determina<lb break="no" ed="#P" n="53"/>tum proponere.Alias non posset ab infideli peti
+          <lb ed="#P" n="54"/>ut juret; sed oporteret petere ut per verum
+          <lb ed="#P" n="55"/>Deum juret, et sic de aliis. Unde etiam falsum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est quod sumit, tunc petitionem fieri a 
+          male<lb break="no" ed="#P" n="57"/>fico, ut talis artifex est; quia non petitur opus
+          <lb ed="#P" n="58"/>quod ex se requirat talem artem, ut ex 
+          sup<lb break="no" ed="#P" n="59"/>positione constat. Ergo talis petitio ex vi 
+          ver<lb break="no" ed="#P" n="60"/>borum non dirigitur ad artificem pravum, ut
+          <lb ed="#P" n="61"/>sic, sed ad illum hominem, ut tenetur 
+          dissol<lb break="no" ed="#P" n="62"/>vere maleficium, quae petitio ex natura rei 
+          vi<lb break="no" ed="#P" n="63"/>detur ita intelligenda, etiamsi absolute 
+          pro<lb break="no" ed="#P" n="64"/>ponatur. Quod ergo Cajetanus docet, est 
+          bo<lb break="no" ed="#P" n="65"/>num consilium, non tamen simpliciter 
+          neces<lb break="no" ed="#P" n="66"/>sarium per se loquendo, et ex vi religionis.
+          <lb ed="#P" n="67"/>Quod addo, nam si esset spes quod, petendo
+          <lb ed="#P" n="68"/>et rogando, ut medio licito utatur, ad id 
+          pos<lb break="no" ed="#P" n="69"/>set induci, et retrahi a peccato, charitas 
+          obli<lb break="no" ed="#P" n="70"/>garet ad id consulendum et petendum tali
+          <lb ed="#P" n="71"/>modo ; quando vero non est spes, etiam ipsa
+          <lb ed="#P" n="72"/>charitas non obligat, quia utor jure meo, et
+          <lb ed="#P" n="73"/>illa est tantum permissio. Cavendum enim est
+          <lb ed="#P" n="74"/>ne adhibeatur aliqua cooperatio ad maleficium
+          <lb ed="#P" n="75"/>si fortasse magus velit maleficio uti, quod
+          <lb ed="#P" n="76"/>non potest sine cooperatione petentis vel 
+          ma<lb break="no" ed="#P" n="77"/>leficiati applicari; talis enim cooperatio 
+          nun<lb break="no" ed="#P" n="78"/>quam licet, quia determinate est ad actum
+          <lb ed="#P" n="79"/>per se illicitum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

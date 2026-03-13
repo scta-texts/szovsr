@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="243"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k06047"><!-- t2-l2c1 -->
+        <head>Caput 1</head>
+        <head type="question-title">An praeceptum de observatione sabbathi convenienter inter praecepta primae tabulae latum sit.</head>
+        <p>
+          <lb ed="#P" n="21"/>CAPUT I.
+          <lb ed="#P" n="22"/>AN PRAECEPTUM DE OBSERVATIONE SABBATHI 
+          CON<lb break="no" ed="#P" n="23"/>VENIENTER INTER PRAECEPTA PRIMAE TABULAE
+          <lb ed="#P" n="24"/>LATUM SIT.
+        </p>
+        <p>
+          <lb ed="#P" n="25"/>1. Quoniam ab hoc praecepto derivatum est
+          <lb ed="#P" n="26"/>praeceptum ecclesiasticum de observatione 
+          fes<lb break="no" ed="#P" n="27"/>torum, ideo ab hujus praecepti declaratione
+          <lb ed="#P" n="28"/>initium hujus materiae sumendum est. 
+          Adno<lb break="no" ed="#P" n="29"/>tandum autem imprimis est, in observatione
+          <lb ed="#P" n="30"/>alicujus temporis ad divinum cultum dicati,
+          <lb ed="#P" n="31"/>duo posse considerari: unum ad jus naturale
+          <lb ed="#P" n="32"/>spectans, aliud ad positivum. Nam aliquid 
+          in<lb break="no" ed="#P" n="33"/>venitur quod, dictante ratione naturali, 
+          neces<lb break="no" ed="#P" n="34"/>sarium est, etiamsi nulla lex extrinsecus 
+          ad<lb break="no" ed="#P" n="35"/>dita sit; aliquid vero quod per voluntatem
+          <lb ed="#P" n="36"/>alicujus legislatoris inductum est. Naturale
+          <lb ed="#P" n="37"/>enim est ut aliquod tempus soli divino cultui
+          <lb ed="#P" n="38"/>tribuendum sit ; positivum vero est, quod tale
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="39"/>tempus sit determinatum ad talem diem, vel
+          <lb ed="#P" n="40"/>horam, etc. ; utrumque facile constat ex supra
+          <lb ed="#P" n="41"/>dictis. Dixsimus enim cultumDei externum esse
+          <lb ed="#P" n="42"/>de praecepto legis naturalis: at haec est 
+          homi<lb break="no" ed="#P" n="43"/>nis natura, ut ad suas actiones, praesertim 
+          ex<lb break="no" ed="#P" n="44"/>ternas, tempore indigeat ; ergo sub idem 
+          prae<lb break="no" ed="#P" n="45"/>ceptum cadit , quod in eo cultu exercendo
+          <lb ed="#P" n="46"/>tempus aliquod insumamus. Rursus haec est
+          <lb ed="#P" n="47"/>etiam hominis conditio, ut non possit 
+          conve<lb break="no" ed="#P" n="48"/>nienter vacare divino cultui, nisi ab aliis 
+          ope<lb break="no" ed="#P" n="49"/>ribus vacet; ergo hoc etiam cadit sub idem
+          <lb ed="#P" n="50"/>praeceptum , pro eo nimirum tempore quo
+          <lb ed="#P" n="51"/>cultui divino vacandum est. Diximus praeterea
+          <lb ed="#P" n="52"/>naturale praeceptum religionis, quod 
+          affirma<lb break="no" ed="#P" n="53"/>tivum est, ex vi solius rationis naturalis non
+          <lb ed="#P" n="54"/>determinari ex necessitate ad certas 
+          caeremo<lb break="no" ed="#P" n="55"/>nias, vel actiones, et multo minus ad certa
+          <lb ed="#P" n="56"/>tempora ; ergo illa praecepta. quatenus certa
+          <lb ed="#P" n="57"/>tempora determinant, non sunt naturalia, sed
+          <lb ed="#P" n="58"/>positiva.
+        </p>
+        <p>
+          <lb ed="#P" n="59"/>2. In quo differat tertium preceptum 
+          Deca<lb break="no" ed="#P" n="60"/>logi ab aliis. — Primo ergo ex hac doctrina,
+          <lb ed="#P" n="61"/>quae certa, clara et communis est, inferunt
+          <lb ed="#P" n="62"/>Theologi, tertium praeceptum Decalogi, prout
+          <lb ed="#P" n="63"/>latum fuit in lege Moysis, in hoc differrea
+          <lb ed="#P" n="64"/>caeteris ejusdem Decalogi, quod caetera pure
+          <lb ed="#P" n="65"/>moralia sunt, tertium vero partim morale,
+          <lb ed="#P" n="66"/>partim caeremoniale fuit. Ita D. Thomas 2. 2.
+          <lb ed="#P" n="67"/>quaest. 122, art. 4, ad 2, et ibi Cajetanus et
+          <lb ed="#P" n="68"/>alii. Idem D. Thomas 1. 2, quaest. 100, art.
+          <lb ed="#P" n="69"/>6, ad 2 et 5; Alensis, 3 p., quaest. 32, memb.
+          <lb ed="#P" n="70"/>2 :et omnes Scholastici et Summistae ; et 
+          nota<lb break="no" ed="#P" n="71"/>vit lrenaeus, lib. 4 Contra haeres., c. 31; 
+          signi<lb break="no" ed="#P" n="72"/>ficat etiam Augustinus, lib. de Spirit. et lit.,
+          <lb ed="#P" n="73"/>c. 16; qui ob eamdem causam dixit, l. 3 
+          Con<lb break="no" ed="#P" n="74"/>tra duas Epist. Pelag., c. 4, Decalogum 
+          serva<lb break="no" ed="#P" n="75"/>ri a Christianis, eacepta sabbathi observatione
+          <pb ed="#P" n="244"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>carnali, quee spiritualem sanctificationem 
+          quie<lb break="no" ed="#P" n="2"/>temque significat ; ait autem obsercatione 
+          car<lb break="no" ed="#P" n="3"/>nali, id est, quoad id quod ad litteram 
+          praece<lb break="no" ed="#P" n="4"/>pto illo mandabatur ; sic enim paulo antea 
+          di<lb break="no" ed="#P" n="5"/>xerat, Christum abstulisse a nobis jugum car -
+          <lb ed="#P" n="6"/>nalium observationum, inter quas ponit: Ve
+          <lb ed="#P" n="7"/>sabbatho, septeno dierum volumine redeunte, ab
+          <lb ed="#P" n="8"/>operibus eliam necessariis quiescan.us. E 
+          con<lb break="no" ed="#P" n="9"/>trario vero dixit, lib. 19 Contra Faustum, cap.
+          <lb ed="#P" n="10"/>18, praeceptum illud tertium spiritualiter 
+          ser<lb break="no" ed="#P" n="11"/>vari a Christianis : Numquid (ait) ipsum 
+          sab<lb break="no" ed="#P" n="12"/>bat hum, quod ad intelligendaum veram requiem
+          <lb ed="#P" n="13"/>pertinet, non observant Christiani?
+        </p>
+        <p>
+          <lb ed="#P" n="14"/>3. Alia differentia. — Respondetur. — Haec
+          <lb ed="#P" n="15"/>etiam differentia ex alia facile ostenditur,
+          <lb ed="#P" n="16"/>quia ante legem Moysis praeceptum de 
+          obser<lb break="no" ed="#P" n="17"/>vatione sabbathi non obligabat homines, 
+          cae<lb break="no" ed="#P" n="18"/>tera autem praecepta Decalogi obligabant. Hoc
+          <lb ed="#P" n="19"/>posterius patet ex illo Pauli : Gentes, que
+          <lb ed="#P" n="20"/>legem non habent , naturaliter ea qua legis
+          <lb ed="#P" n="21"/>sunt, fuciunt, Roman. 9. Primum autem 
+          con<lb break="no" ed="#P" n="22"/>stat, quia ante Abraham non erat 
+          sabbatho<lb break="no" ed="#P" n="23"/>rum observatio, etiam apud pios et Deum
+          <lb ed="#P" n="24"/>colentes, sicut neque in nobis est, ut dixit
+          <lb ed="#P" n="25"/>Eusebius lib. 1 Histor., cap. 4, post Irenaeum,
+          <lb ed="#P" n="26"/>lib. 4, cap. 30 et 42; et Tertullianus, lib.
+          <lb ed="#P" n="27"/>contra Judaeos, cap. 2; et post illos Damasc.,
+          <lb ed="#P" n="28"/>lib. 4 de Fid., c. 24. Dices: quid ergo est
+          <lb ed="#P" n="29"/>quod, Genes. 2, dicitur Deus benediaisse diei
+          <lb ed="#P" n="30"/>septimo, et sanctificasse illum? Hinc enim
+          <lb ed="#P" n="31"/>aliqui collegerunt ex tunc dicasse Deum diem
+          <lb ed="#P" n="32"/>illum ad suum cultum, quia non potest esse
+          <lb ed="#P" n="33"/>alia illa benedictio et sanctificatio. Respondet
+          <lb ed="#P" n="34"/>autem ibi Abulensis, quaest. 4, illud esse 
+          di<lb break="no" ed="#P" n="35"/>ctum per anticipationem, ut est frequens in
+          <lb ed="#P" n="36"/>Seriptura : itaque ex tunc dedicavit Deus
+          <lb ed="#P" n="37"/>illum diem ad suum cultum in sua mente, et
+          <lb ed="#P" n="38"/>proposito, non in executione. Vel certe tunc
+          <lb ed="#P" n="39"/>posuit (ut sic dicam) fundamentum illius 
+          san<lb break="no" ed="#P" n="40"/>ctificationis, non obligationem, aut legem,
+          <lb ed="#P" n="41"/>quia nec illam specialiter promulgavit, nec
+          <lb ed="#P" n="42"/>per rationem naturalem patefecit : non est
+          <lb ed="#P" n="43"/>autem improbabile ex tunc incepisse 
+          observa<lb break="no" ed="#P" n="44"/>tionem aliquam diei septimae, quae per 
+          tradi<lb break="no" ed="#P" n="45"/>tionem ad posteros devenerit ; nam Eusebius,
+          <lb ed="#P" n="46"/>lib. 13 de Praeparat., cap. 7, refert, 
+          septi<lb break="no" ed="#P" n="47"/>ma;n diem, non Hoebrwos tantum, sed omnes
+          <lb ed="#P" n="48"/>fere, tam plülosophos quam poetas, sacratiorem
+          <lb ed="#P" n="49"/>esse cognovisse. Credit tamen ipse, hanc 
+          opi<lb break="no" ed="#P" n="50"/>nionem ad philosophos ab Hebraeis manasse,
+          <lb ed="#P" n="51"/>ac subinde vel antea non fuisse, vel per 
+          erro<lb break="no" ed="#P" n="52"/>res et idololatrias fuisse extinctam. Non fuit
+          <lb ed="#P" n="53"/>ergo illa lex pure moralis, sed ex parte 
+          caere<lb break="no" ed="#P" n="54"/>monialis.
+        </p>
+        <p>
+          <lb ed="#P" n="55"/>4. Quid morale et quid ceremoniale in hoc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>preecepto. — Quid auntem fuit morale in illo
+          <lb ed="#P" n="57"/>praecepto, quid vero caeremoniale? Respondeo
+          <lb ed="#P" n="58"/>fuisse morale illud praeceptum, quatenus 
+          ab<lb break="no" ed="#P" n="59"/>solute praecipiebat cultum Dei externum;
+          <lb ed="#P" n="60"/>hunc enim ibi esse praeceptum docet D. 
+          Tho<lb break="no" ed="#P" n="61"/>mas 2. 2, quaest. 192, art. 4: Quia ad 
+          interio<lb break="no" ed="#P" n="62"/>rem cultum (ait) magis inducitur homo 
+          Spiri<lb break="no" ed="#P" n="63"/>tus Sancti instinctu, quam eateriori lege, e
+          <lb ed="#P" n="64"/>ideo haec data fuit de exteriori cultu. Item
+          <lb ed="#P" n="65"/>quia vacatio ab operibus ibi praecepta, proprie
+          <lb ed="#P" n="66"/>intelligitur de operibus externis, et ita 
+          praeci<lb break="no" ed="#P" n="67"/>piebatur quaedam exterior dedicatio alicujus
+          <lb ed="#P" n="68"/>temporis ad cultum Dei. Perinde autem esse
+          <lb ed="#P" n="69"/>videtur praecipere cultum Dei externum, et
+          <lb ed="#P" n="70"/>praecipere ut tempus aliquod huic cultui 
+          desti<lb break="no" ed="#P" n="71"/>nemus ; quia nec tempus praecipitur, nisi ut
+          <lb ed="#P" n="72"/>circumstantia illius actionis, nec actio 
+          prae<lb break="no" ed="#P" n="73"/>cipi potest, quin etiam tempus aliquod illi
+          <lb ed="#P" n="74"/>tribuere ex vi ejusdem praecepti necessarium
+          <lb ed="#P" n="75"/>sit. Unde Alensis, dicta quaest. 32, memb. 3,
+          <lb ed="#P" n="76"/>art. 29, S Ad illud, ait ad internam 
+          adoratio<lb break="no" ed="#P" n="77"/>nem (quam dicit pertinere ad primum 
+          prae<lb break="no" ed="#P" n="78"/>ceptum) non fuisse additam in Decalogo 
+          alicu<lb break="no" ed="#P" n="79"/>jus temporis determinationem, quia ad 
+          exer<lb break="no" ed="#P" n="80"/>cendam illam non oportet ab externis 
+          operi<lb break="no" ed="#P" n="81"/>bus vacare : Ecercetur enim (ait) heec adoratio
+          <lb ed="#P" n="82"/>per latrium mentis, concurrente devotione fidei,
+          <lb ed="#P" n="83"/>spei et charitatis, quae simul esse potest cum
+          <lb ed="#P" n="84"/>opere corporali. Ad exercendum autem 
+          exter<lb break="no" ed="#P" n="85"/>num cultum Dei, necessarium est ab aliis 
+          va<lb break="no" ed="#P" n="86"/>care operibus pro illo tempore; ct ideo dicit
+          <lb ed="#P" n="87"/>hanc vacationem in illo tertio praecepto fuisse
+          <lb ed="#P" n="88"/>specialiter determinatam; sentit ergo fuisse
+          <lb ed="#P" n="89"/>illud praeceptum de cultu exteriori.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>5. Qui cultus externus fuerit per illud 
+          pre<lb break="no" ed="#P" n="91"/>ceplum impositus. — Sed quaeres quisnam
+          <lb ed="#P" n="92"/>externus cultus fuerit mandatus ex vi illius
+          <lb ed="#P" n="93"/>praecepti, nam cultus hic consistit in actu 
+          po<lb break="no" ed="#P" n="94"/>sitivo : at in forma illius praecepti nullus actus
+          <lb ed="#P" n="95"/>in Dei cultum exercendus in die sabbathi 
+          de<lb break="no" ed="#P" n="96"/>signabatur, nec praecipiebatur, sed sola 
+          va<lb break="no" ed="#P" n="97"/>catio ab aliis externis operibus servilibus, seu
+          <lb ed="#P" n="98"/>alienis a divino cultu, ut videre licet Exod.
+          <lb ed="#P" n="99"/>20 et 31, et Deut. 5, cum similibus. Ad hoc
+          <lb ed="#P" n="100"/>tacite respondet Cajetanus, dicta quaest. 122,
+          <lb ed="#P" n="101"/>art. 4, in principio, illum externum cultum
+          <lb ed="#P" n="102"/>ex vi illius praecepti necessarium, non in 
+          po<lb break="no" ed="#P" n="103"/>sitivo actu, sed in carentia actus constitisse:
+          <lb ed="#P" n="104"/>Colebatur siquidem Deus (ait) sabbatho in apsa
+          <lb ed="#P" n="105"/>exteriori quiete ab operibus servilibus, quia
+          <lb ed="#P" n="106"/>quiescebant ad repraesentandam divinam 
+          quie<lb break="no" ed="#P" n="107"/>ten a creatione mundi. Unde aliqui dixerunt
+          <lb ed="#P" n="108"/>praeceptum illud negativum fuisse, quia 
+          nul<lb break="no" ed="#P" n="109"/>lum actum praecipiebat, sed tantum 
+          cessatio<lb break="no" ed="#P" n="110"/>nem ab actu. Et licet forma illius videatur
+          <pb ed="#P" n="245"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>positiva, Memento ut sabbathum sanctifices,
+          <lb ed="#P" n="2"/>tamen re ipsa sanctificatio illa ibi praecepta
+          <lb ed="#P" n="3"/>solum consistebat in privatione quadam ; ut si
+          <lb ed="#P" n="4"/>alicui praecipiatur quiescere per horam, licet
+          <lb ed="#P" n="5"/>forma praecepti per verba affirmativa 
+          profe<lb break="no" ed="#P" n="6"/>ratur, re ipsa est negativa, quia nihil aliud
+          <lb ed="#P" n="7"/>praecipitur quam non moveri. Confirmatur,
+          <lb ed="#P" n="8"/>quia si praeceptum illud fuisset affirmativum,
+          <lb ed="#P" n="9"/>oportuisset ut obligaret ad exercendum 
+          ah<lb break="no" ed="#P" n="10"/>quod opus externum divini cultus in die 
+          sab<lb break="no" ed="#P" n="11"/>bathi, sicut nunc praeceptum Ecclesiae de 
+          ob<lb break="no" ed="#P" n="12"/>servatione festorum positivum est quoad 
+          ali<lb break="no" ed="#P" n="13"/>quid, ut postea dicemus. At vero ex vi illius
+          <lb ed="#P" n="14"/>praecepti, ut erat legis veteris, non fuit 
+          deter<lb break="no" ed="#P" n="15"/>minatum speciale opus cultus divini 
+          necessa<lb break="no" ed="#P" n="16"/>rio exercendum in die sabbathi, ut ex dictis
+          <lb ed="#P" n="17"/>locis aperte constat, et Exod. 31 et 35.
+        </p>
+        <p>
+          <lb ed="#P" n="18"/>6. Objectioni satisfit. — Dices, licet non
+          <lb ed="#P" n="19"/>obligaverit praeceptum illud ad particulare
+          <lb ed="#P" n="20"/>opus divini cultus, nihilominus obligasse ad
+          <lb ed="#P" n="21"/>colendum aliquo modo Deum illo die, externo
+          <lb ed="#P" n="22"/>cultu, prout unusquisque vellet. At enim 
+          ne<lb break="no" ed="#P" n="23"/>que hoc colligi posse videtur ex Scriptura;
+          <lb ed="#P" n="24"/>nam ubicumque de illo praecepto fit mentio,
+          <lb ed="#P" n="25"/>sola cessatio ab opere praecipitur, non vero
+          <lb ed="#P" n="26"/>alicujus operis positivus cultus, et specialiter
+          <lb ed="#P" n="27"/>Lev. 23 dicitur: Sea diebus facietis opus ; dies
+          <lb ed="#P" n="28"/>septimus, quia sabbathi requies est, vocabitur
+          <lb ed="#P" n="29"/>sanctus ; omne opus non facietis in eo. Ubi
+          <lb ed="#P" n="30"/>notanda est illa causalis, per illam enim 
+          expli<lb break="no" ed="#P" n="31"/>catur verbum sanctificandi diem sabbathi;
+          <lb ed="#P" n="32"/>consistebat enim illa sanctificatio in 
+          cessa<lb break="no" ed="#P" n="33"/>Uone ab opere servili, ordinata ad divinum
+          <lb ed="#P" n="34"/>cultum, tum propter significationem ejus,
+          <lb ed="#P" n="35"/>tum maxime quia per eam deputabatur 
+          tem<lb break="no" ed="#P" n="36"/>pus illud divino cultui ; ad illam vero nullum
+          <lb ed="#P" n="37"/>opus positivum divini cultus postulari 
+          videba<lb break="no" ed="#P" n="38"/>tur. Dici vero potest primo, licet, per illud
+          <lb ed="#P" n="39"/>praeceptum, expresse ac formaliter non 
+          prae<lb break="no" ed="#P" n="40"/>ciperetur cultus positivus, virtute fuisse 
+          prae<lb break="no" ed="#P" n="41"/>ceptum, quia, moraliter loquendo, non 
+          pote<lb break="no" ed="#P" n="42"/>rat cessari ab omni opere modo religioso,
+          <lb ed="#P" n="43"/>prout ibi praecipiebatur, et infra 
+          explicabi<lb break="no" ed="#P" n="44"/>mus, quin signo aliquo externo et positivo id
+          <lb ed="#P" n="45"/>ostenderetur : tale autem signum pertineret
+          <lb ed="#P" n="46"/>ad externum cultum Dei. Item, cum lex 
+          na<lb break="no" ed="#P" n="47"/>turalis obliget ad colendum Deum aliquando
+          <lb ed="#P" n="48"/>cultu externo, eo ipso quod Deus determinet
+          <lb ed="#P" n="49"/>aliquod tempus huic cultui, ut fecit per illud
+          <lb ed="#P" n="50"/>praeceptum , videtur consequenter obligatio
+          <lb ed="#P" n="51"/>illa naturalis ad tale tempus determinari, et
+          <lb ed="#P" n="52"/>pro ipso urgere, sicut praeceptum divinum
+          <lb ed="#P" n="53"/>communicandi, licet de se non determinet
+          <lb ed="#P" n="54"/>certum tempus suae obligationis, nihilominus
+          <lb ed="#P" n="55"/>facta determinatione per Ecclesiam de die
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Paschatis, obligat pro illo. Atque hoc modo
+          <lb ed="#P" n="57"/>posset dici, praeceptum illud tertium 
+          Deca<lb break="no" ed="#P" n="58"/>logi esse morale et naturale quoad positivam
+          <lb ed="#P" n="59"/>obligationem cultus, facta tali temporis 
+          deter<lb break="no" ed="#P" n="60"/>minatione.
+        </p>
+        <p>
+          <lb ed="#P" n="61"/>7. Quid formaliter per hoc preceptum 
+          man<lb break="no" ed="#P" n="62"/>daretur. — Sed licet hoc probabile sit, non
+          <lb ed="#P" n="63"/>satis colligitur ex forma praecepti, quia non
+          <lb ed="#P" n="64"/>determinat tempus illud, praecipiendo aliquid
+          <lb ed="#P" n="65"/>fieri, sed solum prohibendo ne aliquid fiat,
+          <lb ed="#P" n="66"/>quod non satis est, ut dicamus praeceptum
+          <lb ed="#P" n="67"/>illud fuisse de cultu positivo, praeter 
+          cessatio<lb break="no" ed="#P" n="68"/>nem ab operibus servilibus. Quia haec cessatio
+          <lb ed="#P" n="69"/>ex intentione praecepti, et ex intentione 
+          ser<lb break="no" ed="#P" n="70"/>vandi illud, esset religiosa, absque alia 
+          de<lb break="no" ed="#P" n="71"/>monstratione exteriori. Neque ex tali 
+          cessa<lb break="no" ed="#P" n="72"/>tione fit consequens, ut lex naturalis obliget
+          <lb ed="#P" n="73"/>ad exercendos actus exteriores divini cultus
+          <lb ed="#P" n="74"/>in illo tempore, nisi per aliam legem 
+          positi<lb break="no" ed="#P" n="75"/>vam pro tunc praecipiantur, sicut de 
+          ecclesia<lb break="no" ed="#P" n="76"/>stico praecepto mox dicemus. Formaliter ergo
+          <lb ed="#P" n="77"/>nihil ibi praecipiebatur, nisi dedicatio 
+          quae<lb break="no" ed="#P" n="78"/>dam illius temporis ad cultum Dei, quae 
+          voca<lb break="no" ed="#P" n="79"/>tur sanctificatio illius, ut ait D. Thomas, dicto
+          <lb ed="#P" n="80"/>art. 4, ad 3. Haec autem dedicatio formaliter
+          <lb ed="#P" n="81"/>fit per cessationem ab opere, quae pertinet ad
+          <lb ed="#P" n="82"/>externum cultum per signum negativum 
+          de<lb break="no" ed="#P" n="83"/>claratum. Unde materialiter videtur esse illud
+          <lb ed="#P" n="84"/>praeceptum negativum ; formaliter vero, et in
+          <lb ed="#P" n="85"/>genere signi ac cultus, esse affirmativum.
+          <lb ed="#P" n="86"/>Addi etiam potest, in illa lege fuisse alia 
+          prae<lb break="no" ed="#P" n="87"/>cepta positiva de aliquibus actibus divini 
+          cul<lb break="no" ed="#P" n="88"/>tus exercendis in die sabbathi, ut erat oblatio
+          <lb ed="#P" n="89"/>et sanctificatio panis propositionis, Levit. 24,
+          <lb ed="#P" n="90"/>et sacrificandi eodem die duos agnos, et duas
+          <lb ed="#P" n="91"/>decimas similae, et liba, Num. 28; sed illa caé-
+          <lb ed="#P" n="92"/>remonialia erant, et non pertinebant ad 
+          om<lb break="no" ed="#P" n="93"/>nes et singulos de illo populo, sed ad 
+          sacer<lb break="no" ed="#P" n="94"/>dotes; non enim tenebantur omnes ad illa
+          <lb ed="#P" n="95"/>sacrificia convenire, ut constat. Addit vero
+          <lb ed="#P" n="96"/>Philo, et refert Eusebius, libro 8 de Praepar.
+          <lb ed="#P" n="97"/>Evangelica, c. 2, Moysem instituisse, populum
+          <lb ed="#P" n="98"/>septenis diebus congregari, ut considentes
+          <lb ed="#P" n="99"/>Scripturas audirent ; quem morem ex 
+          Evan<lb break="no" ed="#P" n="100"/>geliis etiam et Actibus Apostolorum 
+          colligi<lb break="no" ed="#P" n="101"/>mus. Videtur autem potius traditione, et quasi
+          <lb ed="#P" n="102"/>morali consecutione introductum, quam ex
+          <lb ed="#P" n="103"/>vi, ac forma praecepti; igitur tertium illud
+          <lb ed="#P" n="104"/>praeceptum solum fuit morale, quatenus 
+          ge<lb break="no" ed="#P" n="105"/>neraliter continebat tempus aliquod esse 
+          divi<lb break="no" ed="#P" n="106"/>no cultui dicandum.
+        </p>
+        <p>
+          <lb ed="#P" n="107"/>8. Tertium Decalogi preceptum, in quo fuit
+          <lb ed="#P" n="108"/>ceremoniale. — Fuit autem praeceptum illud
+          <lb ed="#P" n="109"/>caeremoniale quoad multa. Primo, quoad 
+          si<lb break="no" ed="#P" n="110"/>gnificationem, ut testatur D. Thomas, dicto
+          <pb ed="#P" n="246"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>art. 4, in corp., et ad 1. Nam datum est illud
+          <lb ed="#P" n="2"/>praeceptum in signum rememorativum 
+          bene<lb break="no" ed="#P" n="3"/>ficii creationis, ut expresse in eisdem locis
+          <lb ed="#P" n="4"/>ostenditur, quia pro ratione illius praecepti 
+          as<lb break="no" ed="#P" n="5"/>signatur: Quoniam sex diebus fecit Deus celum
+          <lb ed="#P" n="6"/>et terram, et in septimo requievit, et idcirco
+          <lb ed="#P" n="7"/>(dicitur) benediait Deus diei septimo, et 
+          sancti<lb break="no" ed="#P" n="8"/>ficavit illum, Exod. 20. Addit etiam D. 
+          Tho<lb break="no" ed="#P" n="9"/>mas, allegorice significasse quietem Christi
+          <lb ed="#P" n="10"/>Domini in sepulchro, et anagogice quietem
+          <lb ed="#P" n="11"/>aeternae patriae. Secundo fuit caeremoniale
+          <lb ed="#P" n="12"/>quoad temporis determinationem, in qua 
+          de<lb break="no" ed="#P" n="13"/>terminatione duo distingui possunt. Unum est,
+          <lb ed="#P" n="14"/>quod ad hunc effectum non tantum singulis 
+          an<lb break="no" ed="#P" n="15"/>nis aut mensibus, sed etiam singulis 
+          hebdo<lb break="no" ed="#P" n="16"/>madis certum unius diei tempus designatum
+          <lb ed="#P" n="17"/>sit, ita ut post sex dies operibus humanis 
+          oc<lb break="no" ed="#P" n="18"/>cupatos, septimus quietis sequatur; et hoc 
+          li<lb break="no" ed="#P" n="19"/>cet positivum sit, non potest tamen dici 
+          caere<lb break="no" ed="#P" n="20"/>moniale veteris legis, quia nihil habet 
+          pro<lb break="no" ed="#P" n="21"/>prium illius; poterat enim talis determinatio
+          <lb ed="#P" n="22"/>sine speciali caeremonia, vel significatione, 
+          so<lb break="no" ed="#P" n="23"/>Ium propter moralem rationem et utilitatem
+          <lb ed="#P" n="24"/>fieri. Quia licet naturalis ratio non dictet 
+          il<lb break="no" ed="#P" n="25"/>lam determinationem ut necessariam, dictat
+          <lb ed="#P" n="26"/>tamen ut convenientem, ut sic per publicam
+          <lb ed="#P" n="27"/>legem homines ad servandam naturae legem
+          <lb ed="#P" n="28"/>inducantur. Et similiter est consentaneum 
+          ra<lb break="no" ed="#P" n="29"/>tioni naturali, ut Dei cultus frequenter 
+          exer<lb break="no" ed="#P" n="30"/>ceatur, et ideo illa etiam temporis 
+          determina<lb break="no" ed="#P" n="31"/>tio quoad dierum frequentiam, poterat fieri ex
+          <lb ed="#P" n="32"/>morali ac prudenti ratione, sine propria 
+          cae<lb break="no" ed="#P" n="33"/>remoniali significatione. Aliud vero fuit 
+          pecu<lb break="no" ed="#P" n="34"/>liare in illa determinatione, quod, scilicet,
+          <lb ed="#P" n="35"/>dies ille septimus fuerit talis, nimirum 
+          ulti<lb break="no" ed="#P" n="36"/>mus hebdomadae, incipiendo numerationem
+          <lb ed="#P" n="37"/>a primo die creationis mundi ; ita enim fuit
+          <lb ed="#P" n="38"/>dies ille determinatus in lege veteri, unde
+          <lb ed="#P" n="39"/>non potuit nisi a Deo, vel ex revelatione Dei
+          <lb ed="#P" n="40"/>determinari, quia non poterat aliter cognosci
+          <lb ed="#P" n="41"/>quis fuerit primus creationis dies. Et ideo dies
+          <lb ed="#P" n="42"/>ille per antonomasiam sabbathum appellatus
+          <lb ed="#P" n="43"/>est, quia tunc Deus ab operibus suis 
+          requie<lb break="no" ed="#P" n="44"/>vit ; sabbathum enim juxta Hebraicam 
+          deri<lb break="no" ed="#P" n="45"/>vationem requiem significat: sic ergo illa 
+          de<lb break="no" ed="#P" n="46"/>terminatio sumpta est in ordine ad 
+          significa<lb break="no" ed="#P" n="47"/>tionem, fuitque proprie caremonialis.
+        </p>
+        <p>
+          <lb ed="#P" n="48"/>9. Qued sabbathi solemnitas per viginti 
+          qua<lb break="no" ed="#P" n="49"/>tuor horas duret, positivum et ceremoniale est.
+          <lb ed="#P" n="50"/>— Tertio fuit etiam positivi juris, et aliquo
+          <lb ed="#P" n="51"/>modo caeremoniale in illa determinatione,
+          <lb ed="#P" n="52"/>quod solemnitas illa sabbathi per integras 
+          vi<lb break="no" ed="#P" n="53"/>ginti quatuor horas jussa est observari, juxta
+          <lb ed="#P" n="54"/>illud: Avespera usque ad vesperam celebrabitis
+          <lb ed="#P" n="55"/>sabbatha vestra, Levitic. 93. Unde non est du-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bium quin hoc tunc fuerit divino jure 
+          statu<lb break="no" ed="#P" n="57"/>tum. Aliqui vero sentiunt illud fuisse ita 
+          im<lb break="no" ed="#P" n="58"/>mutabile, ut hodie etiam necessario sit 
+          ser<lb break="no" ed="#P" n="59"/>vandum in eelebratione dominici diei, ita ut
+          <lb ed="#P" n="60"/>nulla consuetudine vel potestate humana 
+          pos<lb break="no" ed="#P" n="61"/>sit tempus illud viginti quatuor horarum 
+          mi<lb break="no" ed="#P" n="62"/>nui, quia esset contra jus divinum, ex quo 
+          pla<lb break="no" ed="#P" n="63"/>ne sequitur hanc circumstantiam illius 
+          prae<lb break="no" ed="#P" n="64"/>cepti non fuisse ex positivo jure, sed naturali.
+          <lb ed="#P" n="65"/>Atque ita sentit Angel., verbo Dies festus, in
+          <lb ed="#P" n="66"/>principio; et inclinat Silvester, verbo 
+          Domi<lb break="no" ed="#P" n="67"/>nica, num. 4. Sed hoc sine dubio est 
+          improba<lb break="no" ed="#P" n="68"/>bile, quia nulla ratio naturalis dictabat 
+          tan<lb break="no" ed="#P" n="69"/>quam necessarium ad honestatem morum, ut
+          <lb ed="#P" n="70"/>integer dies viginti quatuor horarum divino
+          <lb ed="#P" n="71"/>cultui dedicaretur ; quae enim potest esse haec
+          <lb ed="#P" n="72"/>necessitas? Item, non fuit de jure naturali, ut
+          <lb ed="#P" n="73"/>per singulas hebdomadas certum tempus 
+          prae<lb break="no" ed="#P" n="74"/>ciperetur pro divino cultu ; poterat enim 
+          prae<lb break="no" ed="#P" n="75"/>cipi singulis mensibus ; ut in lege veteri, 
+          po<lb break="no" ed="#P" n="76"/>tuit Deus praecipere neomenias, et non 
+          sabba<lb break="no" ed="#P" n="77"/>thum ; nam cur non? Ergo potuit praecipere
+          <lb ed="#P" n="78"/>in singulis hebdomadis tantum dimidium
+          <lb ed="#P" n="79"/>diem, vel aliquas horas. Fuit ergo sine ulla
+          <lb ed="#P" n="80"/>dubitatione illa circumstantia temporis, de
+          <lb ed="#P" n="81"/>jure tantum positivo divino, et ad caeremonias
+          <lb ed="#P" n="82"/>pertinuit , quatenus propter significationem
+          <lb ed="#P" n="83"/>etiam observata est. Quamvis potuerit habere
+          <lb ed="#P" n="84"/>rationem moralem congruentiae, non 
+          necessi<lb break="no" ed="#P" n="85"/>tatis, videlicet, ut divinus cultus publicus et
+          <lb ed="#P" n="86"/>solemnis, durabilior esset ac solemnior; et ita
+          <lb ed="#P" n="87"/>potuit Ecclesia in suis festivitatibus hanc 
+          cir<lb break="no" ed="#P" n="88"/>cumstantiam imitari, licet id non fuerit 
+          sim<lb break="no" ed="#P" n="89"/>pliciter necessarium, nec semper servetur, ut
+          <lb ed="#P" n="90"/>infra dicemus.
+        </p>
+        <p>
+          <lb ed="#P" n="91"/>10. Otium et requies sabbathi positiva et 
+          ce<lb break="no" ed="#P" n="92"/>remonialia fuere. — Quarto, fuit etiam 
+          positi<lb break="no" ed="#P" n="93"/>vum et caeremoniale in illa determinatione
+          <lb ed="#P" n="94"/>otium, et cessatio ab operibus ibi praecepta. Illa
+          <lb ed="#P" n="95"/>enim non erat per se, et ex sola ratione 
+          natu<lb break="no" ed="#P" n="96"/>rali, necessaria ad divinum cultum, ut per se
+          <lb ed="#P" n="97"/>manifestum est; potuit tamen praecipi ex 
+          ra<lb break="no" ed="#P" n="98"/>tione morali congruenti, ut homines illo 
+          tem<lb break="no" ed="#P" n="99"/>pore essent magis expediti, et dispositi ad 
+          di<lb break="no" ed="#P" n="100"/>vinum cultum ; unde hoc modo etiam Gentiles
+          <lb ed="#P" n="101"/>custodiebant suos dies festos, abstinendo ab
+          <lb ed="#P" n="102"/>humanis occupationibus et laboribus, ut suis
+          <lb ed="#P" n="103"/>sacrificiis et caeremoniis vacare possent. 
+          Ta<lb break="no" ed="#P" n="104"/>men, quatenus in illa lege otium illud 
+          specia<lb break="no" ed="#P" n="105"/>liter praeceptum est, propter proportionem et
+          <lb ed="#P" n="106"/>analogiam ad significandam requiem Dei ab
+          <lb ed="#P" n="107"/>operibus, ad caeremonialia praecepta illud 
+          per<lb break="no" ed="#P" n="108"/>tinuit. Et auget, ac declarat caeeremoniam, quod
+          <lb ed="#P" n="109"/>propter exactam significationem, non solum a
+          <lb ed="#P" n="110"/>servilibus operibus voluntariis, sed etiam ali-
+          <pb ed="#P" n="247"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quo modo a necessariis vacatio praecipebatur;
+          <lb ed="#P" n="2"/>in quo clara distinctio cernitur illius praecepti
+          <lb ed="#P" n="3"/>a praecepto Eeclesiae, ut postea videbimus. Haec
+          <lb ed="#P" n="4"/>igitur fuit ratio caeremonialis praecepti, ex qua
+          <lb ed="#P" n="5"/>intelligitur, propter ignorantiam religionis 
+          er<lb break="no" ed="#P" n="6"/>rasse Senecam, qui sabbatha Judaeorum 
+          re<lb break="no" ed="#P" n="7"/>prehendebat, quod existimaret inutiliter 
+          sep<lb break="no" ed="#P" n="8"/>timam vita partem perdere, ut Augustinus
+          <lb ed="#P" n="9"/>refert, 6 lib. de Civit., c. 11. Impium autem
+          <lb ed="#P" n="10"/>est existimare, inutiliter amitti tempus quod
+          <lb ed="#P" n="11"/>in divino cultu consumitur. Quod si quis, 
+          va<lb break="no" ed="#P" n="12"/>cans ab aliis operibus propter praeceptum, 
+          di<lb break="no" ed="#P" n="13"/>vino cultui et bonis operibus non vacet, 
+          inuti<lb break="no" ed="#P" n="14"/>liter tempus amittit, quia praecepto abutitur,
+          <lb ed="#P" n="15"/>et non quia praeceptum de se inutile sit.
+        </p>
+        <p>
+          <lb ed="#P" n="16"/>11. Quid de hoc praecepto cessaverit in lege
+          <lb ed="#P" n="17"/>gratige. — Secundo principaliter dicendum
+          <lb ed="#P" n="18"/>est, praeceptum illud tertium Decalogi, 
+          quan<lb break="no" ed="#P" n="19"/>tum ad totam illam determinationem, quam
+          <lb ed="#P" n="20"/>addit ultra moralem ac naturalem 
+          obligatio<lb break="no" ed="#P" n="21"/>nenm, cessasse, et in lege gratiae non obligare,
+          <lb ed="#P" n="22"/>sicut nec praecepta de alis festivitatibus in ea
+          <lb ed="#P" n="23"/>lege lata nunc obligant. Hoc de fide certum
+          <lb ed="#P" n="24"/>est, ex generali doctrina decessationelegalium,
+          <lb ed="#P" n="25"/>unde eodem modo de caeteris festis Judaeorum,
+          <lb ed="#P" n="26"/>prout in ealege observabantur, intelligendum
+          <lb ed="#P" n="27"/>est, et probabitur aperte ex locis Pauli infra
+          <lb ed="#P" n="28"/>tractandis. In particulari vero de sabbatho id
+          <lb ed="#P" n="29"/>tradit Gregorius, lib. 11, Epist. 3, et in cap.
+          <lb ed="#P" n="30"/>Pervenit, de Consec., d. 3, contra quosdam
+          <lb ed="#P" n="31"/>haereticos, qui suo tempore, errorem 
+          Ebionita<lb break="no" ed="#P" n="32"/>rum excitando, Christianos cogebant ad 
+          ser<lb break="no" ed="#P" n="33"/>vandum sabbathum, vacando ab operibus; et
+          <lb ed="#P" n="34"/>eamdem haeresim ait excitaturum esse 
+          Anti<lb break="no" ed="#P" n="35"/>christum, ut Judaeos sibi lucrifaciat. Eamdem
+          <lb ed="#P" n="36"/>veritatem tradidit Augustinus, locis citatis,
+          <lb ed="#P" n="37"/>censens eamdem esse rationem de hoc 
+          praece<lb break="no" ed="#P" n="38"/>pto observationis sabbathi, quae de tota lege
+          <lb ed="#P" n="39"/>veteri; et in serm. 251, de Tempore, ait,
+          <lb ed="#P" n="40"/>ideo sanctos Ecclesiee pastores decrevisse, 
+          om<lb break="no" ed="#P" n="41"/>nem gloriam Judaàci sabbathi in diem 
+          domini<lb break="no" ed="#P" n="42"/>cam transferre, ut quod ipsi in figura, nos
+          <lb ed="#P" n="43"/>celebraremaus in veritate ; quod ipse optime 
+          de<lb break="no" ed="#P" n="44"/>claravit lib. 4 Genes. ad litteram, cap. 13.
+          <lb ed="#P" n="45"/>Unde Concilium Lugdunense, in c. 1. de
+          <lb ed="#P" n="46"/>Consec., d. 3, dixit, Christianos observare 
+          Do<lb break="no" ed="#P" n="47"/>minicam diem, ne Judaismo capiantur, utique
+          <lb ed="#P" n="48"/>in observatione sabbathi.
+        </p>
+        <p>
+          <lb ed="#P" n="49"/>12. Cur lex vetus sit mortua, et cur 
+          morti<lb break="no" ed="#P" n="50"/>fera. — Diluitur objectio. — Circa rationem
+          <lb ed="#P" n="51"/>autem bujus assertionis, oportet advertere
+          <lb ed="#P" n="52"/>unam esse rationem, ob quam lex vetus 
+          mor<lb break="no" ed="#P" n="53"/>tua est ; aliam, ob quam est mortifera : 
+          dici<lb break="no" ed="#P" n="54"/>tur enim mortua, quatenus non obligat ; 
+          mor<lb break="no" ed="#P" n="55"/>tifera vero, quatenus non solum non tenemur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>servare ritus ejus, sed etiam peccatum est 
+          il<lb break="no" ed="#P" n="57"/>los servare. Ratio ergo ob quam illa lex fuit
+          <lb ed="#P" n="58"/>mortua, est, quia non fuit in perpetuum 
+          po<lb break="no" ed="#P" n="59"/>sita, sed usque ad Christi consummationem,
+          <lb ed="#P" n="60"/>ut dixit Paulus, ad Galat. 3, interrogans:
+          <lb ed="#P" n="61"/>Quid igitur lem ? et respondens : Propter
+          <lb ed="#P" n="62"/>transgressionem posita est, donec veniret 
+          se<lb break="no" ed="#P" n="63"/>men, cui promiserat, etc. Ratio autem cur sit
+          <lb ed="#P" n="64"/>mortifera, est, quia erat umbra et figura 
+          fu<lb break="no" ed="#P" n="65"/>turorum ; et ideo adveniente luce et veritate,
+          <lb ed="#P" n="66"/>prohiberi debuit, quia jam ejus significatio
+          <lb ed="#P" n="67"/>et professio falsa esset. Prima ergo ratio 
+          ma<lb break="no" ed="#P" n="68"/>nifeste habet locum in praecepto de 
+          observa<lb break="no" ed="#P" n="69"/>tione sabbathi. Posterior autem videri potest
+          <lb ed="#P" n="70"/>non ita necessaria, quia propria significatio
+          <lb ed="#P" n="71"/>observantiae sabbathi non erat de futuro 
+          ali<lb break="no" ed="#P" n="72"/>quo mysterio , sed de beneficio creationis;
+          <lb ed="#P" n="73"/>semper autem potuit vere significari 
+          benefi<lb break="no" ed="#P" n="74"/>cium illud, et requies Dei ab operibus suis
+          <lb ed="#P" n="75"/>per quietem sabbathi , etiam post Christi 
+          ad<lb break="no" ed="#P" n="76"/>ventum, et sine injuria ejus. Unde Clemens,
+          <lb ed="#P" n="77"/>lib. 7 Institut., cap. 24, sabbathntn cum 
+          do<lb break="no" ed="#P" n="78"/>minica servandum esse dicit , illud in 
+          roecor<lb break="no" ed="#P" n="79"/>dationem fubricationis mundi, hanc 
+          resurrec<lb break="no" ed="#P" n="80"/>tionis Domini. Et hunc tuisse morem 
+          anti<lb break="no" ed="#P" n="81"/>quum Ecclesiae Orientahs testatur Socrates,
+          <lb ed="#P" n="82"/>lib. 6 Histor., cap. 8; et patet ex Can. 64
+          <lb ed="#P" n="83"/>Apostol. ; Ignat., Epistol. 5; Clemen., lib. 7
+          <lb ed="#P" n="84"/>Const., cap. 24. Nec obstat, si quis dicat cum
+          <lb ed="#P" n="85"/>D. Thoma supra, illud otium sabbathi etiam
+          <lb ed="#P" n="86"/>significasse futuram requiem Christi in 
+          sepul<lb break="no" ed="#P" n="87"/>chro; quia non constat illam significationem
+          <lb ed="#P" n="88"/>fuisse in illo praecepto intentam, vel non 
+          opor<lb break="no" ed="#P" n="89"/>tet illam significari ut futuram, sed posset 
+          si<lb break="no" ed="#P" n="90"/>gnificari ut jam facta, sicut significatur 
+          bene<lb break="no" ed="#P" n="91"/>ficium creationis. Respondetur nihilominus
+          <lb ed="#P" n="92"/>hac ratione ad summum probari, 
+          observatio<lb break="no" ed="#P" n="93"/>nem sabbathi, secluso spiritu Judaico, non 
+          es<lb break="no" ed="#P" n="94"/>se intrinsece malam, id est, si non fiat vel ex
+          <lb ed="#P" n="95"/>necessitate et obligatione legis veteris, ac si
+          <lb ed="#P" n="96"/>illa duraret, nec in significationem alicujus
+          <lb ed="#P" n="97"/>mysterii Christi, tanquam venturi. Atque hac
+          <lb ed="#P" n="98"/>ratione dicitur in Concilio Laodicen., cap. 29,
+          <lb ed="#P" n="99"/>qued non oporteat Christianos judaicare, et
+          <lb ed="#P" n="100"/>otiari in sabbatho, sed operari eos in eodem
+          <lb ed="#P" n="101"/>die. Quibus verbis ostenditur, mortuum esse
+          <lb ed="#P" n="102"/>antiquum praeceptum ; subditur vero statim:
+          <lb ed="#P" n="103"/>Praferentes autem in veneratione dominicum
+          <lb ed="#P" n="104"/>diem, si vacare voluerint , ut Christiani hoc
+          <lb ed="#P" n="105"/>faciant , id est, non eo ritu et modo quo 
+          fa<lb break="no" ed="#P" n="106"/>ciebant Judaei, alioquin anathemate feriendos
+          <lb ed="#P" n="107"/>esse decernit. Indicat ergo id non fuisse 
+          sim<lb break="no" ed="#P" n="108"/>pliciter prohibitum, sed solum si spiritu 
+          Ju<lb break="no" ed="#P" n="109"/>daico fieret.
+        </p>
+        <p>
+          <lb ed="#P" n="110"/>13. Sabbathi observatio mortifera. — Nihi-
+          <pb ed="#P" n="248"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lominus dicendum est, absolute esse 
+          mortife<lb break="no" ed="#P" n="2"/>ram nunc observationem sabbathi , qualem
+          <lb ed="#P" n="3"/>praescribebat lex vetus, meritoque esse ab 
+          Ec<lb break="no" ed="#P" n="4"/>clesia prohibitam in detestationem Judaicae
+          <lb ed="#P" n="5"/>caecitatis, ne videatur Ecclesia illi consentire :
+          <lb ed="#P" n="6"/>et ideo suspecti merito sunt de Judaismo, qui
+          <lb ed="#P" n="7"/>sabbathum custodire inveniuntur. Nam 
+          im<lb break="no" ed="#P" n="8"/>primis Ecclesia non pracipit observantiam
+          <lb ed="#P" n="9"/>sabbathi, ut per se notum est ; nullibi enim
+          <lb ed="#P" n="10"/>talis lex ecclesiastica reperitur : quin potius,
+          <lb ed="#P" n="11"/>Act. 15, universaliter dictum est ab 
+          Aposto<lb break="no" ed="#P" n="12"/>lis : Visum est Spiritui Sancto, et nobis, nilil
+          <lb ed="#P" n="13"/>aliud imponere vobis oneris, etc. ; declararunt
+          <lb ed="#P" n="14"/>ergo etiam onus sabbathi esse sublatum : qui
+          <lb ed="#P" n="15"/>ergo illud observat, mer:to censetur ex 
+          obli<lb break="no" ed="#P" n="16"/>gatione legis veteris illud servare, ac subinde
+          <lb ed="#P" n="17"/>spiritu Judaico duci. Deinde Ecclesia absolute
+          <lb ed="#P" n="18"/>prohibet illam observantiam, ut patet ex 
+          dic<lb break="no" ed="#P" n="19"/>to cap. 1, et cap. Pervenit, de Consecr., d. 3;
+          <lb ed="#P" n="20"/>et ex traditione Ecclesiae, quae ex citatis 
+          Pa<lb break="no" ed="#P" n="21"/>tribus colligitur, et ex translatione sabbati in
+          <lb ed="#P" n="22"/>dominicam diem, de qua infra dicemus. 
+          Quo<lb break="no" ed="#P" n="23"/>circa, licet significatio beneficii creationis 
+          fac<lb break="no" ed="#P" n="24"/>ta per otium sabbathi falsitatem non 
+          conti<lb break="no" ed="#P" n="25"/>neat, semper indicat imperfectionem legis 
+          ve<lb break="no" ed="#P" n="26"/>teris, et saltem oblique indicabat beneficium
+          <lb ed="#P" n="27"/>redemptionis nondum fuisse hominibus 
+          col<lb break="no" ed="#P" n="28"/>latum : nam cum sit longe majus, multo 
+          ma<lb break="no" ed="#P" n="29"/>gis debuit illud coli, et repraesentari per 
+          do<lb break="no" ed="#P" n="30"/>minicum diem, quam beneficium creationis
+          <lb ed="#P" n="31"/>per sabbathum. Nec oportuit utrumque 
+          com<lb break="no" ed="#P" n="32"/>memorari utrumque diem festum agendo;
+          <lb ed="#P" n="33"/>tum propter moralem rationem, quia non 
+          ex<lb break="no" ed="#P" n="34"/>pediebat tantum onus perpetuum ac 
+          conti<lb break="no" ed="#P" n="35"/>nuum imponere Christiano populo; tum etiam
+          <lb ed="#P" n="36"/>quia in die dominico potest utrumque 
+          benefi<lb break="no" ed="#P" n="37"/>cium recognosci, vel quia illo die coepit 
+          mun<lb break="no" ed="#P" n="38"/>di creatio, ut constat, vel quia eumdem esse
+          <lb ed="#P" n="39"/>credimus mundi auctorem et restauratorem.
+        </p>
+        <p>
+          <lb ed="#P" n="40"/>14. Confirmatur.— Accedit quod, teste 
+          Pau<lb break="no" ed="#P" n="41"/>lo, ad Colos. 2, etiam sabbathorum observatio
+          <lb ed="#P" n="42"/>erat umbra futurorum adimplendorum per
+          <lb ed="#P" n="43"/>Christum, et in Christo, cujus erat umbra lex
+          <lb ed="#P" n="44"/>illa ; et ideo significatio futurae quietis Christi
+          <lb ed="#P" n="45"/>in sepulchro non est tantum ab hominibus
+          <lb ed="#P" n="46"/>excogitata, sed etiam ab Spiritu Sancto 
+          in<lb break="no" ed="#P" n="47"/>tenta, licet fortasse usque ad veritatis 
+          adven<lb break="no" ed="#P" n="48"/>tum non fuerit declarata. Et quamvis illius
+          <lb ed="#P" n="49"/>diei observantia, quae prius erat signum 
+          fu<lb break="no" ed="#P" n="50"/>iuri, mutari potuerit in memoriam praeteriti
+          <lb ed="#P" n="51"/>beneficii, tamen haec memoria non per 
+          fes<lb break="no" ed="#P" n="52"/>tum, et laetitiam, sed per jejunium et 
+          moero<lb break="no" ed="#P" n="53"/>rem debuit retineri et repraesentari; et ideo
+          <lb ed="#P" n="54"/>Ecciesia jejunari potius voluit illo die, seua
+          <lb ed="#P" n="55"/>carnibus abstineri, quam festum diem agi. ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Innocentius Papa tradit, epist. 11 ad 
+          Decen<lb break="no" ed="#P" n="57"/>tium, cap. 4, cap. Sabbatho, de Consec., d. 3.
+          <lb ed="#P" n="58"/>Quam consuetudinem antiquissimam esse,
+          <lb ed="#P" n="59"/>constat ex Hieronymo, Epist. 97 ad 
+          Augusti<lb break="no" ed="#P" n="60"/>num ; et ex Augustino, epist. 86 et 118.
+        </p>
+        <p>
+          <lb ed="#P" n="61"/>15. Objectio. — Respondetur. — Commodior
+          <lb ed="#P" n="62"/>responsio assignatur. — Una vero superest
+          <lb ed="#P" n="63"/>contra hoc objectio ex capit. Licet, de Feriis,
+          <lb ed="#P" n="64"/>ubi Alexander III prius dicit : Licet tam 
+          ve<lb break="no" ed="#P" n="65"/>Leris quam novi Testamenti pagina septimum
+          <lb ed="#P" n="66"/>diem ad umnanam quietem specialiter 
+          deputa<lb break="no" ed="#P" n="67"/>verit ; postea vero subjungit, quod tam eum,
+          <lb ed="#P" n="68"/>quam alios dies Majestati altissime 
+          deputa<lb break="no" ed="#P" n="69"/>tos, nec non natalitia Sanctorum Martyrum
+          <lb ed="#P" n="70"/>H'cclesia decrevit observanda. Ergo non solum
+          <lb ed="#P" n="71"/>in veteri, sed etiam in nova lege sabbathina
+          <lb ed="#P" n="72"/>requies commendata est, et ejus religiosa 
+          ob<lb break="no" ed="#P" n="73"/>servatio saltem ex Ecclesiae praecepto 
+          retinen<lb break="no" ed="#P" n="74"/>da est. Quod autem Pontifex ait, in novo 
+          Tes<lb break="no" ed="#P" n="75"/>tamento esse sabbathum approbatum , ideo
+          <lb ed="#P" n="76"/>dixisse videtur, quia Actor. 20 dicitur: 
+          Pau<lb break="no" ed="#P" n="77"/>lum una sabbathorum convenisse ad 
+          frangen<lb break="no" ed="#P" n="78"/>dum panem ; et simile habetur 1 Corinth. 16,
+          <lb ed="#P" n="79"/>et clarius, Act. 13, Paulus ingressus est 
+          Syna<lb break="no" ed="#P" n="80"/>gogas in die sabbatho ad docendum. Ad 
+          Ale<lb break="no" ed="#P" n="81"/>xandrum respondet ibi Glossa, partitionem
+          <lb ed="#P" n="82"/>illam debere accipi cum distributione 
+          accom<lb break="no" ed="#P" n="83"/>moda; nam vetus Testamentum deputavit
+          <lb ed="#P" n="84"/>sabbathum ad htteram, et quasi materialiter,
+          <lb ed="#P" n="85"/>novum cero (ait) spiritualiter illud servat,
+          <lb ed="#P" n="86"/>primam diem pro septimana celebrando. Idem
+          <lb ed="#P" n="87"/>sequitur Panormitanus, sed non placet, quia
+          <lb ed="#P" n="88"/>Pontifex loquitur de observantia vera et ad
+          <lb ed="#P" n="89"/>litteram, quae in diebus festis servanda est.
+          <lb ed="#P" n="90"/>Dicendum ergo est, Pontificem non fuisse 
+          lo<lb break="no" ed="#P" n="91"/>cutum de sabbatho, neque illud nominasse,
+          <lb ed="#P" n="92"/>sed locutum esse de die septimo. Septimus
+          <lb ed="#P" n="93"/>autem dies intelligi potest, vel ille qui est
+          <lb ed="#P" n="94"/>septimus numerando a primo die creationis,
+          <lb ed="#P" n="95"/>quae dici potest veluti materialis numeratio;
+          <lb ed="#P" n="96"/>vel potest dici septimus quasi generatim, seu
+          <lb ed="#P" n="97"/>formaliter, ille qui est ultimus in septenario
+          <lb ed="#P" n="98"/>numero dierum,, sicut Aristoteles dixit, 
+          ulti<lb break="no" ed="#P" n="99"/>mam unitatem esse formam numeri. Dico 
+          er<lb break="no" ed="#P" n="100"/>go Pontificem locutum fuisse de die septimo,
+          <lb ed="#P" n="101"/>hoc posteriori modo, sensumque esse, 
+          utrum<lb break="no" ed="#P" n="102"/>que Testamentum approbasse morem 
+          depu<lb break="no" ed="#P" n="103"/>tandi ad quietem humanam, septimum 
+          quem<lb break="no" ed="#P" n="104"/>que diem hebdomadae, quod est formahter
+          <lb ed="#P" n="105"/>deputare septimum diem, licet materialiter
+          <lb ed="#P" n="106"/>non idem dies fuerit ille deputatus ad hanc
+          <lb ed="#P" n="107"/>quietem pro divino cultu : unde cum subdit,
+          <lb ed="#P" n="108"/>tam eum, etc., illud relativum, eum, non 
+          re<lb break="no" ed="#P" n="109"/>fert sabbathum materialiter sumptum sed
+          <lb ed="#P" n="110"/>refert septimum diem, quem Ecclesia ad il-
+          <pb ed="#P" n="249"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lam requiem designavit. Et hoc modo verum
+          <lb ed="#P" n="2"/>est, quod alii dicunt, septimum illum diem in
+          <lb ed="#P" n="3"/>lege veteri esse sabbathum, in nova vero esse
+          <lb ed="#P" n="4"/>dominicam diem.
+        </p>
+        <p>
+          <lb ed="#P" n="5"/>16. Ubi septimi diei requies approbetur in
+          <lb ed="#P" n="6"/>novo Testamento. — Dices : ubi pagina novi
+          <lb ed="#P" n="7"/>Testamenti dedicavit septimum diem pro 
+          hu<lb break="no" ed="#P" n="8"/>mana requie? Respondeo imprimis, 
+          ubicum<lb break="no" ed="#P" n="9"/>que in novo Testamento approbatur 
+          sabba<lb break="no" ed="#P" n="10"/>thismus Judaeorum, virtute approbari 
+          dedica<lb break="no" ed="#P" n="11"/>tionem septimi cujusque diei ad divinum 
+          cul<lb break="no" ed="#P" n="12"/>tum, quia in praecepto de oliservatione 
+          sab<lb break="no" ed="#P" n="13"/>bathi hoc etiam continetur, ut dixi. 
+          Approba<lb break="no" ed="#P" n="14"/>tur autem Judaicum sabbathum in novo 
+          Tes<lb break="no" ed="#P" n="15"/>tamento vel in generali, ubicumque lex vetus
+          <lb ed="#P" n="16"/>commemoratur ; vel in particulari, 
+          ubicum<lb break="no" ed="#P" n="17"/>que legimus, tam Christum quam Apostolos,
+          <lb ed="#P" n="18"/>sabbathum observasse, vel honorasse, ut de
+          <lb ed="#P" n="19"/>Christo in multis ejus verbis et actibus 
+          legi<lb break="no" ed="#P" n="20"/>mus; cum enim saepe argueretur a Judaeis de
+          <lb ed="#P" n="21"/>violatione sabbathi, semper ostendit se 
+          nun<lb break="no" ed="#P" n="22"/>quam illud violasse, sed secundum veram 
+          in<lb break="no" ed="#P" n="23"/>telligentiam et pietatem observasse. Et 
+          praete<lb break="no" ed="#P" n="24"/>rea refert Marcus, cap. 6, quod, facto 
+          sabba<lb break="no" ed="#P" n="25"/>tho, coepit in Synagoga docere. Quam 
+          con<lb break="no" ed="#P" n="26"/>suetudinem servasse frequenter refert Lucas,
+          <lb ed="#P" n="27"/>cap. 4 et 13; ev eodem modo Paulus se 
+          osten<lb break="no" ed="#P" n="28"/>dit cultorem sabbathi, Act. 13 et 18. 
+          Verisi<lb break="no" ed="#P" n="29"/>mile enim est Apostolos. eo primo tempore
+          <lb ed="#P" n="30"/>quo lex erat mortua, et non mortifera, 
+          sab<lb break="no" ed="#P" n="31"/>bathum observasse ; nam qui circumcisionem
+          <lb ed="#P" n="32"/>retinebant, consequenter etiam caeteras 
+          caere<lb break="no" ed="#P" n="33"/>monias legis et sabbatha cum honore 
+          sepelie<lb break="no" ed="#P" n="34"/>bant. Per haec autem facta, non intelliguntur
+          <lb ed="#P" n="35"/>quidem Christus vel Apostoli approbare seu
+          <lb ed="#P" n="36"/>confirmare legem sabbathi pro tempore legis
+          <lb ed="#P" n="37"/>gratiae, sed approbare illam in se; unde fit,
+          <lb ed="#P" n="38"/>ut generaliter etiam approbaverint 
+          dedicatio<lb break="no" ed="#P" n="39"/>nem septimi diei pro divino cultu, ut mox
+          <lb ed="#P" n="40"/>dicemus latius. Nunc ita interpretamur alia
+          <lb ed="#P" n="41"/>duo testimonia citata ex Act. 20, et 1 Corinth.
+          <lb ed="#P" n="42"/>16; hic enim, una sabbathi, diem dominicam
+          <lb ed="#P" n="43"/>significat : dicitur enim una, id est, prima
+          <lb ed="#P" n="44"/>sabbathi, id est, post sabbathum, juxta 
+          doctri<lb break="no" ed="#P" n="45"/>nam Hieronymi, epistol. 150 ad Hedibiam,
+          <lb ed="#P" n="46"/>quaest. 4. Et in particulari ita exponit Pauli
+          <lb ed="#P" n="47"/>verba, lib. contra Vigilan., c. 5; estque 
+          com<lb break="no" ed="#P" n="48"/>munis expositio Anselmi, D. Thomee, 
+          Cajeta<lb break="no" ed="#P" n="49"/>ni, etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

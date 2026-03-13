@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="601"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k15003"><!-- t3-l3prae -->
+        <head>Praeambulum</head>
+        <p>
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="15"/>LIBER TERTIUS
+          <lb ed="#P" n="16"/>DE SACRILEGIO
+          <lb ed="#P" n="17"/>EJUSQUE SPECIEBUS, ET PRAECEPTIS QUIBUS PROHIBENTUR.
+        </p>
+        <p>
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="18"/>Sacrilegium quid proprie significet. — Res
+          <lb ed="#P" n="19"/>sacra stricte sumpta distinguitur a Deo.— 
+          Sa<lb break="no" ed="#P" n="20"/>crilegium dictum censetur a sacro et lego;
+          <lb ed="#P" n="21"/>hoc autem verbum interdum significat 
+          fu<lb break="no" ed="#P" n="22"/>rari, aut rapere ; unde sacrilegium primo 
+          im<lb break="no" ed="#P" n="23"/>positum videtur ad significandum furtum,
+          <lb ed="#P" n="24"/>vel iniquam contrectationem rei sacra ; 
+          at<lb break="no" ed="#P" n="25"/>que ita Isidorus, lib. 1 Origin., htt. S., dixit:
+          <lb ed="#P" n="26"/>Sacrilegus dicitur , ab eo quod sacra legit, id
+          <lb ed="#P" n="27"/>est, furatur. Inde autem extensum est ad 
+          si<lb break="no" ed="#P" n="28"/>gnificandam omnem injuriam, vel 
+          violatio<lb break="no" ed="#P" n="29"/>nem rei sacrae. Potest autem res sacra large
+          <lb ed="#P" n="30"/>dici etiam Deus ipse; et sic omne peccatum
+          <lb ed="#P" n="31"/>contra religionem poterit dici sacrilegium,
+          <lb ed="#P" n="32"/>quomodo cultus idolorum sacrilegus vocatur,
+          <lb ed="#P" n="33"/>ct ignem, quo victimae aut odores idolis 
+          ado<lb break="no" ed="#P" n="34"/>lentur, sacrilegum appellavit Tibullus. 
+          Stric<lb break="no" ed="#P" n="35"/>te vero, ac proprie res sacra ab ipso Deo 
+          dis<lb break="no" ed="#P" n="36"/>tinguitur, et est illa quae divino cultui 
+          pecu<lb break="no" ed="#P" n="37"/>liariter dicata est; et hoc modo sacrilegium
+          <lb ed="#P" n="38"/>proprie dictum, et ut hic sumitur, est vitium
+          <lb ed="#P" n="39"/>condistinctum a vitiis hactenus tractatis, qui-
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="40"/>bus ipsi Deo quasi directe et in se injuria 
+          in<lb break="no" ed="#P" n="41"/>fertur, et ita nec perjurium nec alia similia
+          <lb ed="#P" n="42"/>vitia sunt proprie sacrilegia. Per sacrilegium
+          <lb ed="#P" n="43"/>enim immediate res Deo dicata violatur, et
+          <lb ed="#P" n="44"/>ita illa est quasi materia proxima hujus 
+          pec<lb break="no" ed="#P" n="45"/>cati, quae vocari solet objectum quod ; Deus
+          <lb ed="#P" n="46"/>autem est objectum caui, seu in cujus 
+          inju<lb break="no" ed="#P" n="47"/>riam remote actio redundat. Habet autem
+          <lb ed="#P" n="48"/>hoc vitium species varias, et ideo prius in 
+          ge<lb break="no" ed="#P" n="49"/>nere rationem ejus aperiemus, illudque in
+          <lb ed="#P" n="50"/>sua membra dividemus, postea de singulis
+          <lb ed="#P" n="51"/>speciebus dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

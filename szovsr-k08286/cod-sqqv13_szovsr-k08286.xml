@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 19</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 19</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="332"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k08286"><!-- t2-l2c19 -->
+        <head>Caput 19</head>
+        <head type="question-title">Utrum omne opus mercenarium servile sit, ac subinde sit specialiter prohibitum in die festo.</head>
+        <p>
+          <lb ed="#P" n="3"/>CAPUT XIX
+          <lb ed="#P" n="4"/>UTRUM OMNE OPUS MERCENARIUM SERVILE SIT,
+          <lb ed="#P" n="5"/>AC SUBINDE SIT SPECIALITER PROHIBITUM IN
+          <lb ed="#P" n="6"/>DIE FESTO.
+        </p>
+        <p>
+          <lb ed="#P" n="7"/>1. Quod sit opus mercenarium. — Dicitur
+          <lb ed="#P" n="8"/>mercenarium opus, quod fit propter 
+          tempo<lb break="no" ed="#P" n="9"/>ralem lucrum, vel stipendium, quod interdum
+          <lb ed="#P" n="10"/>ac saepe contingit esse de se conditionis 
+          ser<lb break="no" ed="#P" n="11"/>vilis, et tunc non est locus quaestioni, ut per
+          <lb ed="#P" n="12"/>se patet, quia si opus servile propter 
+          merce<lb break="no" ed="#P" n="13"/>dem fiat, non propterea desinit esse servile.
+          <lb ed="#P" n="14"/>Sed quaestio est, quando lucrum, vel merces,
+          <lb ed="#P" n="15"/>seu intentio ejus additur operi de se non 
+          ser<lb break="no" ed="#P" n="16"/>vili, an eo ipso opus reddatur ita servile, ut
+          <lb ed="#P" n="17"/>sub generali prohibitione et regula supra 
+          po<lb break="no" ed="#P" n="18"/>sita contineatur. In quo puncto. quod 
+          funda<lb break="no" ed="#P" n="19"/>mentum est multorum casuum moralium, duo
+          <lb ed="#P" n="20"/>subdistinguenda sunt : unum de lucro, aliud
+          <lb ed="#P" n="21"/>de mercede seu stipendio ; haec enim diversa
+          <lb ed="#P" n="22"/>sunt, ut statim declarabo.
+        </p>
+        <p>
+          <lb ed="#P" n="23"/>2. Prima opinio, opus causa lucri esse 
+          ser<lb break="no" ed="#P" n="24"/>vile. — Prima ergo sententia in hac materia
+          <lb ed="#P" n="25"/>est, opus sufficienter dici et esse servile ex
+          <lb ed="#P" n="26"/>solo respectu ad lucrum temporale, etiamsi
+          <lb ed="#P" n="27"/>ex nullo alio capite servile sit; unde si extra
+          <lb ed="#P" n="28"/>hunc respectum habuerit opus conditionem
+          <lb ed="#P" n="29"/>servilem infra explicandam, pluribus modis
+          <lb ed="#P" n="30"/>erit servile. Ita sentiunt multi Canonistae, in
+          <lb ed="#P" n="31"/>c. 1 de Fer., ut videre licet in Anton. ; ibi
+          <lb ed="#P" n="32"/>Abb., num. 4; et in Legistis, in l. Omnes 
+          ju<lb break="no" ed="#P" n="33"/>dices, cap. de Fer., qui late referuntur in 
+          Ad<lb break="no" ed="#P" n="34"/>dit. ad Abbat., citato loco, et per Jacobum
+          <lb ed="#P" n="35"/>Abbarotium, in Prooemio Feudorum, capiteM;
+          <lb ed="#P" n="36"/>eamdem significant Angelus, et alii infra 
+          ci<lb break="no" ed="#P" n="37"/>tandi : dicunt enim ipsum studere, quod 
+          vi<lb break="no" ed="#P" n="38"/>detur opus maxime liberale, si spe et 
+          inten<lb break="no" ed="#P" n="39"/>tione lucri principaliter fiat in die festo, esse
+          <lb ed="#P" n="40"/>festi transgressionem, et peccatum grave.
+          <lb ed="#P" n="41"/>Unde necesse est ut dicant illud opus esse
+          <lb ed="#P" n="42"/>servile, quia, cum non sit specialiter 
+          prohibi<lb break="no" ed="#P" n="43"/>tum in jure, nec per consuctudinem, ut 
+          con<lb break="no" ed="#P" n="44"/>stat, si est contra observationem festi, oportet
+          <lb ed="#P" n="45"/>ut sit prohibitum per illam generalem 
+          prohi<lb break="no" ed="#P" n="46"/>bitionem : Opus servile non facies ; ergo illa
+          <lb ed="#P" n="47"/>relatio sufficit ad constituendum opus servile.
+          <lb ed="#P" n="48"/>Ei ita expresse docent Richard., Sylvester,
+          <lb ed="#P" n="49"/>Ang., et alii, qui propterea distinguunt triplex
+          <lb ed="#P" n="50"/>opus servile, materialiter tantum, formaliter
+          <lb ed="#P" n="51"/>tantum, et materialiter ac formaliter simul:
+          <lb ed="#P" n="52"/>et hoc tertium aiunt solum prohiberi hoc prae-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>cepto. Materialiter autem intelligunt, id est,
+          <lb ed="#P" n="54"/>quod sit opus corporale et externum; 
+          forma<lb break="no" ed="#P" n="55"/>liter autem, quod fiat propter lucrum, seu
+          <lb ed="#P" n="56"/>temporale commodum principali intentione.
+          <lb ed="#P" n="57"/>Unde etiam indicant hanc intentionem esse
+          <lb ed="#P" n="58"/>necessariam ad opus servile prohibitum hoc
+          <lb ed="#P" n="59"/>praecepto. Sed de hoc puncto, et de tota illa
+          <lb ed="#P" n="60"/>partitione in sequentibus dicam. Eamdem fere
+          <lb ed="#P" n="61"/>sententiam docet Abulens., Exod. 12, quaest.
+          <lb ed="#P" n="62"/>25. distinguens duplex opus servile : unum,
+          <lb ed="#P" n="63"/>quod est opus potentiae executivae laboriosum,
+          <lb ed="#P" n="64"/>et non necessarium, nec immediate 
+          ordina<lb break="no" ed="#P" n="65"/>tum ad conservationem vitae humanae, quod
+          <lb ed="#P" n="66"/>ipse ibi late explicat; aliud tantum ex fine,
+          <lb ed="#P" n="67"/>quia ad lucrum ordinatur, quia servus 
+          prop<lb break="no" ed="#P" n="68"/>ter lucrum operatur. Unde universaliter 
+          con<lb break="no" ed="#P" n="69"/>cludit, omnes operationes exteriores, 
+          secun<lb break="no" ed="#P" n="70"/>dum se liberales, ex hoc fine fieri serviles et
+          <lb ed="#P" n="71"/>prohibitas. Fundamentum hujus sententiae,
+          <lb ed="#P" n="72"/>examinando et impugnando illam, 
+          declara<lb break="no" ed="#P" n="73"/>hitur.
+        </p>
+        <p>
+          <lb ed="#P" n="74"/>3. Refellitur. — Hanc ergo sententiam 
+          me<lb break="no" ed="#P" n="75"/>rito reprobat Cajetanus, dicta quaest. 122,
+          <lb ed="#P" n="76"/>art. 4, dub. ult., in 1 supposit. quam facit,
+          <lb ed="#P" n="77"/>et eum sequuntur Sot., Navar., et alii infra
+          <lb ed="#P" n="78"/>referendi. Dicendum ergo est, solum 
+          respec<lb break="no" ed="#P" n="79"/>tum ad lucrum ex intentione operantis, non
+          <lb ed="#P" n="80"/>esse satis ut opus sit prohibitum tanquam
+          <lb ed="#P" n="81"/>servile. Hoc solum probat Cajetanus unico
+          <lb ed="#P" n="82"/>exemplo, quia negotiatio, seu mercatura fit
+          <lb ed="#P" n="83"/>maxime spe lucri temporalis, et tamen non
+          <lb ed="#P" n="84"/>fit inde opus servile, quia non est prohibita
+          <lb ed="#P" n="85"/>ex vi illius primae regulae generalis, cujus 
+          si<lb break="no" ed="#P" n="86"/>gnum est, quia ideo de illa negotiatione 
+          ad<lb break="no" ed="#P" n="87"/>dita est in jure specialis prohibitio, ut infra
+          <lb ed="#P" n="88"/>videbimus. Sed auctores allegati negarent 
+          as<lb break="no" ed="#P" n="89"/>sumptum ; nam, si de studio id negant, 
+          ma<lb break="no" ed="#P" n="90"/>jori ratione id negarent de negotiatione, 
+          cu<lb break="no" ed="#P" n="91"/>jus lucrum minus nobile, minusque liberale,
+          <lb ed="#P" n="92"/>magisque periculosum est; et consequenter
+          <lb ed="#P" n="93"/>dicerent prohiberi speciatim in jure, non quia
+          <lb ed="#P" n="94"/>non contineatur sub regula generali, sed vel
+          <lb ed="#P" n="95"/>ut tolleretur omne dubium, vel certe, ut 
+          ab<lb break="no" ed="#P" n="96"/>solute prohibeatur, sive fiat propter lucrum,
+          <lb ed="#P" n="97"/>sive propter alium finem magis pium; nam
+          <lb ed="#P" n="98"/>illo etiam modo non licet, ut infra dicam.
+          <lb ed="#P" n="99"/>Sed instat Cajetanus, quia negotiari est opus
+          <lb ed="#P" n="100"/>liberorum, qui sunt domini pecuniarum, et
+          <lb ed="#P" n="101"/>non servorum, qui nihil habent. 
+          Responde<lb break="no" ed="#P" n="102"/>bunt tamen consequenter, esto negotiari 
+          se<lb break="no" ed="#P" n="103"/>cundum se non sit opus servile, nihilominus
+          <lb ed="#P" n="104"/>factum propter lucrum fieri opus servile ; sic
+          <lb ed="#P" n="105"/>enim de studio dicti auctores dicunt. Unde
+          <lb ed="#P" n="106"/>solum illum respectum sufficere putant, ut
+          <lb ed="#P" n="107"/>opus alias liberale, si nobili intentione fiat,
+          <pb ed="#P" n="333"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>intuitu lucri factum sit servile, quia 
+          pro<lb break="no" ed="#P" n="2"/>prium servorum est operari propter lucrum.
+        </p>
+        <p>
+          <lb ed="#P" n="3"/>4. At enim haec ipsa ratio ostendit, sine
+          <lb ed="#P" n="4"/>fundamento hoc dici. Quia operari spe lucri
+          <lb ed="#P" n="5"/>non est proprium servorum, quod patet tum
+          <lb ed="#P" n="6"/>inductione, quia nobiles et principes illa spe
+          <lb ed="#P" n="7"/>et intentione saepe operantur, et nulli se 
+          prop<lb break="no" ed="#P" n="8"/>terea servire putant; tum etiam quia nulli 
+          re<lb break="no" ed="#P" n="9"/>vera serviunt, quia nec ratione operis, cum
+          <lb ed="#P" n="10"/>non tendat de se ad commodum alterius, nec
+          <lb ed="#P" n="11"/>ratione intentionis, quia intendendo lucrum,
+          <lb ed="#P" n="12"/>potius quis operatur propter se. Praeterea ratio
+          <lb ed="#P" n="13"/>magis moralis est, quia Ecclesia per hoc 
+          prae<lb break="no" ed="#P" n="14"/>ceptum non prohibet operari hac vel illa 
+          in<lb break="no" ed="#P" n="15"/>tentione, sed prohibet facere hoc vel illud
+          <lb ed="#P" n="16"/>opus; ergo si opus secundum sc non est 
+          con<lb break="no" ed="#P" n="17"/>tra prohibitionem Ecclesiae, neque factum ex
+          <lb ed="#P" n="18"/>intentione lucri est contra generalem 
+          Eccle<lb break="no" ed="#P" n="19"/>siae prohibitionem de opere serviii; ergo 
+          si<lb break="no" ed="#P" n="20"/>gnum est non fieri opus servile propter solam
+          <lb ed="#P" n="21"/>intentionem. Et confirmatur, quia alias 
+          stu<lb break="no" ed="#P" n="22"/>dere in die festo ex intentione copsectandi
+          <lb ed="#P" n="23"/>famam, et magnum nomen, et honorem, esset
+          <lb ed="#P" n="24"/>opus servile, et contra praeceptum de 
+          obser<lb break="no" ed="#P" n="25"/>vatione festi, quod ridiculum est. Sequela 
+          pro<lb break="no" ed="#P" n="26"/>batur. quia illud censetur majus lucrum quam
+          <lb ed="#P" n="27"/>sit pecunia, et licet sit nobilius et altius, 
+          mi<lb break="no" ed="#P" n="28"/>nusque servile quam sit pecuniarum lucrum,
+          <lb ed="#P" n="29"/>nihilominus moraliter et mystice loquendo,
+          <lb ed="#P" n="30"/>ambitio honoris non minus est idoiorum 
+          ser<lb break="no" ed="#P" n="31"/>vitus, quam sit avaritia; neutra tamen est
+          <lb ed="#P" n="32"/>vera servitus cum proprietate. Et tandem 
+          de<lb break="no" ed="#P" n="33"/>clarari recte potest ex Divo Thoma 2.2, quaest.
+          <lb ed="#P" n="34"/>118, art. 5, ad 4, ubi exponens illud ad Ephes.
+          <lb ed="#P" n="35"/>5: Acaritia est idolorum servitus, ait, non
+          <lb ed="#P" n="36"/>proprie, sed per similitudinem dictum esse.
+          <lb ed="#P" n="37"/>Est autem similitudo in hoc, quod, sicnt 
+          ido<lb break="no" ed="#P" n="38"/>lolatra subjicitur idolo, ita avaru: pecuniae;
+          <lb ed="#P" n="39"/>differentia vero est, quod idololatra subjicitur
+          <lb ed="#P" n="40"/>idolo ad cultum, et ideo idololatria est propria
+          <lb ed="#P" n="41"/>servitus; avarus non subjicitur pecuniae ad 
+          cul<lb break="no" ed="#P" n="42"/>tum, sed ad usum. Ergo intendens pecuniae
+          <lb ed="#P" n="43"/>lucrum non servii proprie, et consequenter
+          <lb ed="#P" n="44"/>nec opus factum ex illa intentione inde fit
+          <lb ed="#P" n="45"/>servile, si alias non est. Et ex sequenti puncto
+          <lb ed="#P" n="46"/>hoc a fortiori confirmabitur.
+        </p>
+        <p>
+          <lb ed="#P" n="47"/>5. Secunda opinio, asserens omne opus 
+          mer<lb break="no" ed="#P" n="48"/>cenarium esse servile. — In quo differant he
+          <lb ed="#P" n="49"/>due opiniones. — Fundamentun. — Secunda
+          <lb ed="#P" n="50"/>opinio est, opus fieri servile, si fiat intuitu
+          <lb ed="#P" n="51"/>mercedis, stipendii, seu salarii, etiamsi de se
+          <lb ed="#P" n="52"/>servile non sit, sed liberum. Differt autem
+          <lb ed="#P" n="53"/>haec sententia a praecedenti, quantum differt
+          <lb ed="#P" n="54"/>merces a lucro : videntur autem differre 
+          tan<lb break="no" ed="#P" n="55"/>quam genus et species, nam merces lucrum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quoddam est, ut constat ; non tamen omne
+          <lb ed="#P" n="57"/>lucrum est merces, nam lucrum, quod 
+          nego<lb break="no" ed="#P" n="58"/>uatione comparatur, non est merces, nec 
+          sti<lb break="no" ed="#P" n="59"/>pendium. Merces ergo dicitur, quando 
+          lu<lb break="no" ed="#P" n="60"/>crum speratur ab aliquo, qui in 
+          recompensa<lb break="no" ed="#P" n="61"/>tione obsequii sibi facti, tantum lucrum 
+          red<lb break="no" ed="#P" n="62"/>diturus est, quantum tali obsequio debetur.
+          <lb ed="#P" n="63"/>Hinc ergo videtur intentio mercedis magis
+          <lb ed="#P" n="64"/>servilis, quam intentio lucri, quod non est
+          <lb ed="#P" n="65"/>merces, nec stipendium ; quia qui ab alio
+          <lb ed="#P" n="66"/>mercedem sperat, illi servire convincitur, non
+          <lb ed="#P" n="67"/>vero qui sperat aliunde lucrum, ut in 
+          praece<lb break="no" ed="#P" n="68"/>denti puncto declaratum est. Sic igitur ait
+          <lb ed="#P" n="69"/>haec sententia, opus mercenarium eo ipso esse
+          <lb ed="#P" n="70"/>servile, ac subinde esse prohibitum per illa
+          <lb ed="#P" n="71"/>generalia verba in die festo. Ita sentiunt a
+          <lb ed="#P" n="72"/>fortioi omnes Doctores citati in opinione
+          <lb ed="#P" n="73"/>praecedenii, et praeterea antiqui Summistae,
+          <lb ed="#P" n="74"/>Astens., lib. 1, tit. 99, art. 4, et tit. 23, art.
+          <lb ed="#P" n="75"/>3, q. 5; Summ. confes., lib. 1, tit. 12, q.9;
+          <lb ed="#P" n="76"/>Angel., verb. Ferie, num. 9, qui ex hoc 
+          prin<lb break="no" ed="#P" n="77"/>cipio multa infert, num. 26 et sequentibus,
+          <lb ed="#P" n="78"/>Et adducit Richard. pro hac opinione, in 3,
+          <lb ed="#P" n="79"/>dist. 37, art. 2, quaest. 4: et sequitur 
+          Sylves<lb break="no" ed="#P" n="80"/>ter, verb. Dominica, q. 4 et 5, ubi de lucro
+          <lb ed="#P" n="81"/>in genere loquitur, et satis lubrice ; tamen in
+          <lb ed="#P" n="82"/>q. 5, conclus. 3, plane affirmat esse peccatum
+          <lb ed="#P" n="83"/>mortale in advocato dare consilium in die
+          <lb ed="#P" n="84"/>festo, si principaliter intendat lucrum (quod
+          <lb ed="#P" n="85"/>in eo est stipendium), etiam in eo casu in
+          <lb ed="#P" n="86"/>quo non peccaret dando iilud consilium sine
+          <lb ed="#P" n="87"/>lucro, vel non intendendo illud principaliter,
+          <lb ed="#P" n="88"/>sed tantum secundario. Tenet etiam 
+          Tabie<lb break="no" ed="#P" n="89"/>na, verb. Feria, num. 39; Rosella, num. 7.
+          <lb ed="#P" n="90"/>Fundamentum hujus sententiae jam 
+          declara<lb break="no" ed="#P" n="91"/>tum est, quia operari propter stipendium est
+          <lb ed="#P" n="92"/>servilis mous operandi, et proprius 
+          servien<lb break="no" ed="#P" n="93"/>tium, et ideo constituit opus servile, quod
+          <lb ed="#P" n="94"/>alias non esset. Et confirmari hoc potest 
+          in<lb break="no" ed="#P" n="95"/>ductione, nam piscari in die festo 
+          recreatio<lb break="no" ed="#P" n="96"/>nis causa non est servile opus, nec contra
+          <lb ed="#P" n="97"/>observationem festi; et tamen factum propter
+          <lb ed="#P" n="98"/>stipendium vel lucrum, est servile et 
+          prohibi<lb break="no" ed="#P" n="99"/>tum, quia sine dispensatione non licet, cap.
+          <lb ed="#P" n="100"/>Licet, de Fer. Item transcribere gratia 
+          doc<lb break="no" ed="#P" n="101"/>trinae non est servile ; transcribere autem
+          <lb ed="#P" n="102"/>propter mercedem, est servile et prohibitum,
+          <lb ed="#P" n="103"/>ut multi volunt, et sic de aliis.
+        </p>
+        <p>
+          <lb ed="#P" n="104"/>6. Opus non fieri servile ea mercede. — 
+          Di<lb break="no" ed="#P" n="105"/>cendum nihilominus censeo, nunquam opus
+          <lb ed="#P" n="106"/>fieri servile, eo quod fiat propter mercedem et
+          <lb ed="#P" n="107"/>stipendium, si alias ingenue factum non sit
+          <lb ed="#P" n="108"/>servile, sed liberum. Imo cetiam addo, quod,
+          <lb ed="#P" n="109"/>licet opus ex se servile sit, et mechanicum, ac
+          <lb ed="#P" n="110"/>per se prohibitum in die festo, si hic et nunc
+          <pb ed="#P" n="334"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>occurrat necessitas, vel causa justa excusans a
+          <lb ed="#P" n="2"/>praecepto, non esse illicitum nec contra 
+          praece<lb break="no" ed="#P" n="3"/>ptum, illud facere propter mercedem, et non
+          <lb ed="#P" n="4"/>alias ; ac subinde jam tunc non fieri specialiter
+          <lb ed="#P" n="5"/>illud opus servile ex relatione ad mercedem.
+          <lb ed="#P" n="6"/>Praecipuus defensor hujus sententiae est 
+          Caje<lb break="no" ed="#P" n="7"/>tanus. in dicto art. 4, dub. ultim., qui valde
+          <lb ed="#P" n="8"/>ingeniose et acriter illam confirmat ; et 
+          sequi<lb break="no" ed="#P" n="9"/>tur Sot.. dictoart. 4, licet fortasse non in 
+          om<lb break="no" ed="#P" n="10"/>nibus consequen!er loquatur; tenet etiam
+          <lb ed="#P" n="11"/>Medina, in sua Instruct. confess., lib. 1, cap.
+          <lb ed="#P" n="12"/>14. SS; Ludov. Lopez, in sua Instruc., 1 p.,c.
+          <lb ed="#P" n="13"/>25; Navar., in Manual., cap. 13, numer. 5;
+          <lb ed="#P" n="14"/>Armilla, verb. Perie, num. 23; Azor.. 2 p.
+          <lb ed="#P" n="15"/>Sum., libr. 1, cap. 25, quaest. 1. Et moderni
+          <lb ed="#P" n="16"/>trequentius hoc sequuntur. Ratio moralis est,
+          <lb ed="#P" n="17"/>quia Ecclesia nullibi prohibuit operari in die
+          <lb ed="#P" n="18"/>festo propter mercedem, nisi in quantum 
+          pro<lb break="no" ed="#P" n="19"/>hibet ipsum opus ; quotiescunque ergo ex vi
+          <lb ed="#P" n="20"/>festi non prohibet opus, non prohibet, nec
+          <lb ed="#P" n="21"/>curat an fiat propter mercedem, vel gratis;
+          <lb ed="#P" n="22"/>hoc naturali juri, et perfectioni relinquit. Ergo
+          <lb ed="#P" n="23"/>opus de se non prohibitum, quia de se liberale
+          <lb ed="#P" n="24"/>est, et non servile, non prohibetur in die
+          <lb ed="#P" n="25"/>festo, etiamsi propter mercedem fiat. Et 
+          simi<lb break="no" ed="#P" n="26"/>liter licet opus alias sit servile, et de se 
+          prohi<lb break="no" ed="#P" n="27"/>bitum, si hic et nunc permittatur ex causa, 
+          li<lb break="no" ed="#P" n="28"/>cet non fiat sine mercede, non propterea 
+          ma<lb break="no" ed="#P" n="29"/>gis violatur festum, quam si gratis fieret. Nam
+          <lb ed="#P" n="30"/>licet alias respectu aliarum virtutum, ex hac
+          <lb ed="#P" n="31"/>conditione, vel intentione, possit bcne, vel
+          <lb ed="#P" n="32"/>male, aut minus bene fieri, tamen respectu
+          <lb ed="#P" n="33"/>religionis et festi, non magis violatur, eo quod
+          <lb ed="#P" n="34"/>ex mercede fiat, quam si fiat gratis. Nisi in 
+          ca<lb break="no" ed="#P" n="35"/>su in quo permissio sit per dispensationem
+          <lb ed="#P" n="36"/>sub illa conditione concessam, nam tunc est
+          <lb ed="#P" n="37"/>specialis ratio, quae potius confirmat 
+          senten<lb break="no" ed="#P" n="38"/>tiam nastram, ut jam declarabo.
+        </p>
+        <p>
+          <lb ed="#P" n="39"/>7. Confirmatur assertio. — Potest ergo 
+          as<lb break="no" ed="#P" n="40"/>sertio posita confirmari, praesertim quoad 
+          po<lb break="no" ed="#P" n="41"/>steriorem partem, ex eo quod interdum 
+          dis<lb break="no" ed="#P" n="42"/>pensatur cum operariis, ut possint in templo
+          <lb ed="#P" n="43"/>eedificando laborare, aut lapides, vel ligna ad
+          <lb ed="#P" n="44"/>ecclesiam vel hospitale deferre, dummodo
+          <lb ed="#P" n="45"/>gratis id faciant. Quae dispensatio justa est,
+          <lb ed="#P" n="46"/>quia involvit commutationem vacationis 
+          prae<lb break="no" ed="#P" n="47"/>ceptae in opus pietatis ; ergo si absolute 
+          dare<lb break="no" ed="#P" n="48"/>tur sine tali restrictione (ut dari licite posset,
+          <lb ed="#P" n="49"/>si necessitas id postularet), tunc sine ulla
+          <lb ed="#P" n="50"/>transgressione, vel violatione festi, possent 
+          fi<lb break="no" ed="#P" n="51"/>deles laborare propter mercedem. Quia in
+          <lb ed="#P" n="52"/>praecepto sunt simpliciter dispensati, et nullum
+          <lb ed="#P" n="53"/>est aliud quo prohibeantur stipendium 
+          acci<lb break="no" ed="#P" n="54"/>pere, cum alioquin opus dignum sit mercede,
+          <lb ed="#P" n="55"/>licet ex dispensatione tantum liceat. Item ali-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quando conceditur dispensatio piscandi ad
+          <lb ed="#P" n="57"/>lucrum sub hac conditione, ut pars lucri 
+          ec<lb break="no" ed="#P" n="58"/>clesiae aut pauperibus detur, ut patet ex capite
+          <lb ed="#P" n="59"/>Licet, de Feriis, juxta verum ejus intellectum.
+          <lb ed="#P" n="60"/>Non enim ibi datur facultas sub conditione
+          <lb ed="#P" n="61"/>solvendi decimas ecclesiis, ut Gloss. putavit,
+          <lb ed="#P" n="62"/>sed sub conditione faciendi aliquam 
+          eleemosy<lb break="no" ed="#P" n="63"/>nam ex lucro illo; tum quia textus aperte 
+          lo<lb break="no" ed="#P" n="64"/>quitur de pauperibus et de ecclesiis 
+          cireumvi<lb break="no" ed="#P" n="65"/>cinis, quibus non solent deberi tales decimae,
+          <lb ed="#P" n="66"/>quae personales sunt; tum etiam quia, cum
+          <lb ed="#P" n="67"/>solutio decimarum per se debeatur, non 
+          opor<lb break="no" ed="#P" n="68"/>tebat illam in dispensatione declarare, ut bene
+          <lb ed="#P" n="69"/>notavit Panormitanus ibi. Neque illa concessio
+          <lb ed="#P" n="70"/>sic facta simoniaca est, quia non venditur
+          <lb ed="#P" n="71"/>dispensatio propter partem lucri, sed 
+          imponi<lb break="no" ed="#P" n="72"/>tur illud opus pietatis quasi in commutationem
+          <lb ed="#P" n="73"/>praecepti. Ergo habita illa dispensatione, non
+          <lb ed="#P" n="74"/>violatur festum, etiamsi quis piscetur propter
+          <lb ed="#P" n="75"/>lucrum, quod ex piscatione sperat.
+        </p>
+        <p>
+          <lb ed="#P" n="76"/>8. Objectio. — Infirmatur. — Dices hoc esse
+          <lb ed="#P" n="77"/>verum, si intendat secundario et 
+          consequen<lb break="no" ed="#P" n="78"/>ter, non vero si intendat principaliter ; nam
+          <lb ed="#P" n="79"/>potius debet intendere opus illud pietatis, vel
+          <lb ed="#P" n="80"/>eleemosynae, aut publicam utilitatem, propter
+          <lb ed="#P" n="81"/>quam dispensatio conceditur. Sed hoc gratis
+          <lb ed="#P" n="82"/>dicitur; tum quia, ut dixi, Ecclesia non 
+          prae<lb break="no" ed="#P" n="83"/>cipit vel prohibet in his actionibus hac vel illa
+          <lb ed="#P" n="84"/>intentione operari ; tum etiam quia 
+          accidenta<lb break="no" ed="#P" n="85"/>rium est, illam dispensationem concedi sub
+          <lb ed="#P" n="86"/>conditione talis eleemosynae; posset enim 
+          sim<lb break="no" ed="#P" n="87"/>pliciter concedi, et tunc non deberetur talis
+          <lb ed="#P" n="88"/>eleemosyna ex praecepto, sed ex consilio, ut
+          <lb ed="#P" n="89"/>etiam Angel., numer. 35, et Sylvest.. quaest. 5,
+          <lb ed="#P" n="90"/>concedunt ; et tunc non peccabit quis, etiamsi
+          <lb ed="#P" n="91"/>non intendat facere eleemosynam ex lucro.
+          <lb ed="#P" n="92"/>similiter licet dispensans ordinarie intendat
+          <lb ed="#P" n="93"/>publicam utilitatem, tamen utens 
+          dispensa<lb break="no" ed="#P" n="94"/>tione non tenetur iutendere communem 
+          utili<lb break="no" ed="#P" n="95"/>tatem, sed potest intendere proprium 
+          commo<lb break="no" ed="#P" n="96"/>dum, neque in hoc peccabit contra festum.
+          <lb ed="#P" n="97"/>Imo interdum posset esse haec causa justae 
+          dis<lb break="no" ed="#P" n="98"/>pensationis, quoad unam vel aliam personam
+          <lb ed="#P" n="99"/>propter indigentiam ejus.
+        </p>
+        <p>
+          <lb ed="#P" n="100"/>9. Instantiae satisfit. — Sed dices tandem
+          <lb ed="#P" n="101"/>hoc esse verum de intentione lucri, non vero
+          <lb ed="#P" n="102"/>de intentione mercedis. Sed revera unum 
+          se<lb break="no" ed="#P" n="103"/>quitur ex alio: nam inquiro, cum piscatio 
+          il<lb break="no" ed="#P" n="104"/>la fieri non possit sine multis cooperantibus,
+          <lb ed="#P" n="105"/>an omnes illi, qui adjuvant, teneantur gratis
+          <lb ed="#P" n="106"/>juvare, vel esse debeant partiarii lucratores
+          <lb ed="#P" n="107"/>(ui sic dicam ). Certe neutrum dici potest:
+          <lb ed="#P" n="108"/>non primum, quia sic vana esset dispensatio,
+          <lb ed="#P" n="109"/>nulli enim vellent illa uii ad gratis 
+          servien<lb break="no" ed="#P" n="110"/>dum ; non etiam secundum, tum quia mora-
+          <pb ed="#P" n="335"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>liter id fieri non potest de omnibus 
+          quomodo<lb break="no" ed="#P" n="2"/>cumque juvantibus , sed oportet ut multi
+          <lb ed="#P" n="3"/>sint stipendiarii et mercede conducti ; imo
+          <lb ed="#P" n="4"/>multi pauperes non aliter laborarent, quia 
+          vo<lb break="no" ed="#P" n="5"/>Iunt lucrum certum, et non dubium, quale
+          <lb ed="#P" n="6"/>est in partiaris. Unde recte advertit 
+          Cajeta<lb break="no" ed="#P" n="7"/>nus quod nisi liceret mercedem accipere pro
+          <lb ed="#P" n="8"/>his operibus servilibus, quae ob necessitatem in
+          <lb ed="#P" n="9"/>festis permittuntur , raro invenirentur 
+          ser<lb break="no" ed="#P" n="10"/>vientes, nec subveniretur necessitatibus, quia
+          <lb ed="#P" n="11"/>paueci sunt qui gratis velint intendere 
+          alio<lb break="no" ed="#P" n="12"/>rum commodis. Eo vel maxime quia, licet
+          <lb ed="#P" n="13"/>opus sit necessarium ad remedium proximi,
+          <lb ed="#P" n="14"/>non est tamen necessarium ut gratis fiat, 
+          quan<lb break="no" ed="#P" n="15"/>do proximus potest mercedem dare; ergo 
+          nul<lb break="no" ed="#P" n="16"/>lum peccatum est illam postulare ; imo 
+          in<lb break="no" ed="#P" n="17"/>justum videretur cogere ad serviendum 
+          gra<lb break="no" ed="#P" n="18"/>Us ei, qui potest servitium compensare ; non
+          <lb ed="#P" n="19"/>est ergo contra observantiam festi talem 
+          mer<lb break="no" ed="#P" n="20"/>cedem exigere; ergo nec intendere illam, 
+          si<lb break="no" ed="#P" n="21"/>ve secundario, sive principaliter, quautum
+          <lb ed="#P" n="22"/>attinet ad observantiam festi ; sed illa 
+          inten<lb break="no" ed="#P" n="23"/>tio aliunde discutiefida est. Recte ergo hinc
+          <lb ed="#P" n="24"/>concluditur etiam altera pars , quando opus
+          <lb ed="#P" n="25"/>non ex dispensatione, vel per excusationem
+          <lb ed="#P" n="26"/>licet, sed per se, quia servile non est, nec
+          <lb ed="#P" n="27"/>alias specialiter prohibitum ; tunc enim nulla
+          <lb ed="#P" n="28"/>malitia, vel circusnstantia contraria 
+          observa<lb break="no" ed="#P" n="29"/>uoni praecepti il adjungitur, eo quod fiat
+          <lb ed="#P" n="30"/>propter mercedem, quia haec relatio non 
+          ma<lb break="no" ed="#P" n="31"/>gis in hoc opere, quam in quolibet alio est
+          <lb ed="#P" n="32"/>contra praeceptum de obscervatione festi.
+        </p>
+        <p>
+          <lb ed="#P" n="33"/>10. Opus non acquirit malitiam praeecepto
+          <lb ed="#P" n="34"/>contrariam ex mercede. — Applico deinde cum
+          <lb ed="#P" n="35"/>proportione rationem factam, quia licet opus
+          <lb ed="#P" n="36"/>sit liberale, et de se non servile, potest esse
+          <lb ed="#P" n="37"/>pretio aestimabile , ut constat ex communi
+          <lb ed="#P" n="38"/>sensu omnium , et exemplis statim 
+          declarabi<lb break="no" ed="#P" n="39"/>tur ; ergo si non est contra observantiam 
+          fes<lb break="no" ed="#P" n="40"/>ti tale opus gratis facere , neque erit contra
+          <lb ed="#P" n="41"/>eamdem observantiam, exigere pro illo justam
+          <lb ed="#P" n="42"/>mercedem, maxime ab eo qui commode 
+          po<lb break="no" ed="#P" n="43"/>test illam reddere, quia nemo cogitur suum
+          <lb ed="#P" n="44"/>opus alteri gratis impendere, quod pretio 
+          aes<lb break="no" ed="#P" n="45"/>tmabile est. Item, quia talia opera saepe sunt
+          <lb ed="#P" n="46"/>necessaria in die festo ad convenientiam 
+          rei<lb break="no" ed="#P" n="47"/>publicae vel ecclesiae ornatum, vel ad aliquam
+          <lb ed="#P" n="48"/>publicam necessitatem, et si gratis exhibenda
+          <lb ed="#P" n="49"/>sint, pauci, aut nulli ad illa praestanda 
+          indu<lb break="no" ed="#P" n="50"/>cepntur. Cogere autem illos ut gratis faciant,
+          <lb ed="#P" n="51"/>cum reipublicae hoc non intersit, videtur 
+          con<lb break="no" ed="#P" n="52"/>tra rationem justitiae, et sine ulla causa 
+          reli<lb break="no" ed="#P" n="53"/>gionis : hoc enim per se ad cultum religionis
+          <lb ed="#P" n="54"/>nec necessarium est, nec fere confert. 
+          Tan<lb break="no" ed="#P" n="55"/>dem hoc confirmatur evidenti inductione ;
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nam cantare , et pulsare cithara, et similia,
+          <lb ed="#P" n="57"/>opera sunt non servilia de se, et tamen 
+          vi<lb break="no" ed="#P" n="58"/>demus in ipsis ecclesiis non fieri a ministris
+          <lb ed="#P" n="59"/>earum , nisi propter stipendium certum. Nec
+          <lb ed="#P" n="60"/>refert dicere illud non esse intentum 
+          principa<lb break="no" ed="#P" n="61"/>Iiter, sed sccundario: tum quia incertum hoc
+          <lb ed="#P" n="62"/>est ; multi enim , praesertim stipendiarii , et
+          <lb ed="#P" n="63"/>maxime laici, principaliter hoc intendunt, et
+          <lb ed="#P" n="64"/>sive in hoc alias peccent per simoniam, sive
+          <lb ed="#P" n="65"/>non, tamen ex illo capite non violant festum,
+          <lb ed="#P" n="66"/>quia, ut saepe dixi, prohibitio operum in die
+          <lb ed="#P" n="67"/>festo non datur de intentione, sed de ipso 
+          ope<lb break="no" ed="#P" n="68"/>re ; tum etiam quia satis est quod non 
+          inten<lb break="no" ed="#P" n="69"/>dant sic servientes gratis operari, sed ob 
+          mer<lb break="no" ed="#P" n="70"/>cedem, nec sine illa serviren:; si ergo tunc
+          <lb ed="#P" n="71"/>opus non est servile, nec prohibitum , 
+          quan<lb break="no" ed="#P" n="72"/>tumcumque hoc sit praecipue intentum, opus
+          <lb ed="#P" n="73"/>non erit servile. Item in multis academiis
+          <lb ed="#P" n="74"/>tenentur Lectores stipendiarii docere in 
+          ali<lb break="no" ed="#P" n="75"/>quibus festis ratione stipendii, et ita propter
+          <lb ed="#P" n="76"/>illud docent , et non aliter, et tamen id non
+          <lb ed="#P" n="77"/>censetur illicitum, nec contra festum. Et 
+          si<lb break="no" ed="#P" n="78"/>mila exempla multa adducit Cajetanus, ex
+          <lb ed="#P" n="79"/>quibus recte concludit , communem populi
+          <lb ed="#P" n="80"/>christiani consensicnem esse, non esse contra
+          <lb ed="#P" n="81"/>observantiam festi locare operas suas in illo
+          <lb ed="#P" n="82"/>die, quando alias tales operae non sunt in 
+          fes<lb break="no" ed="#P" n="83"/>to prohibitae, vel ex causa permittuntur.
+        </p>
+        <p>
+          <lb ed="#P" n="84"/>11. Diruitur fundamentum alterius 
+          senten<lb break="no" ed="#P" n="85"/>tie. — Prima ratio. — Ad fundamentum 
+          er<lb break="no" ed="#P" n="86"/>go contrariae sententiae negatur, ex hac sola
+          <lb ed="#P" n="87"/>relatione fieri opus servile, quod de se non
+          <lb ed="#P" n="88"/>est : hoc enim nulia efficaci ratione ab 
+          adver<lb break="no" ed="#P" n="89"/>sariis probatur. Contrarium autem probat 
+          Ca<lb break="no" ed="#P" n="90"/>jetanus tribus rationibus. Prima est, quia
+          <lb ed="#P" n="91"/>multa sunt opera servilia, etiamsi absque 
+          in<lb break="no" ed="#P" n="92"/>tuitu mercedis fiant, ut infra videbimus. Haec
+          <lb ed="#P" n="93"/>vero ratio solum videtur probare 
+          habitudi<lb break="no" ed="#P" n="94"/>nem hanc, seu conditionem merceis, non 
+          es<lb break="no" ed="#P" n="95"/>se de necessitate operis servilis, quod 
+          verissi<lb break="no" ed="#P" n="96"/>mum est, ut infra tractabimus. Non tamen 
+          vi<lb break="no" ed="#P" n="97"/>detur immediate et efficaciter concludere, 
+          re<lb break="no" ed="#P" n="98"/>spectum illum non sufficere ad reddendum
+          <lb ed="#P" n="99"/>opus servile, quod de se tale non erat.
+        </p>
+        <p>
+          <lb ed="#P" n="100"/>12. Secunda ratio. — Addit ergo secundam
+          <lb ed="#P" n="101"/>rationem Cajetanus, quia aliud est operari 
+          ser<lb break="no" ed="#P" n="102"/>viliter, alud mercenarie ; a diversis autem
+          <lb ed="#P" n="103"/>non fit illatio, quando inter se connexionem
+          <lb ed="#P" n="104"/>necessariam non habent, quac hic nulla est.
+          <lb ed="#P" n="105"/>Quia operari serviliter, est operari in 
+          commo<lb break="no" ed="#P" n="106"/>dum domini, propter illum; operari autem
+          <lb ed="#P" n="107"/>mercenarie, est operari propter se, et in 
+          com<lb break="no" ed="#P" n="108"/>modum proprium. Unde concludit haec non
+          <lb ed="#P" n="109"/>solum non esse connexa, verum etiam 
+          repu<lb break="no" ed="#P" n="110"/>gnare eidem operi, quia opus servile est pro-
+          <pb ed="#P" n="336"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prium servorum, servis autem non redditur
+          <lb ed="#P" n="2"/>merces, quia omnes operae servi sunt domini.
+          <lb ed="#P" n="3"/>Sed hoc posterius nimium est, quia sipe 
+          du<lb break="no" ed="#P" n="4"/>bio non repugnat opus esse servile, et esse
+          <lb ed="#P" n="5"/>propter mercedem ; laborare enim in domo
+          <lb ed="#P" n="6"/>aedificanda, vel in vinea colenda, sine dubio
+          <lb ed="#P" n="7"/>est opus servile, et tamen propter mercedem
+          <lb ed="#P" n="8"/>fit. Unde cum opus servile dicitur esse 
+          servo<lb break="no" ed="#P" n="9"/>rum, non oportet intelligere servorum nomine
+          <lb ed="#P" n="10"/>mancipia captiva, et libertate carentia, ut 
+          Ca<lb break="no" ed="#P" n="11"/>jetanus indicat ; nam hi servi sunt, qui nihil
+          <lb ed="#P" n="12"/>habent, et qui suas operas dominis debent, de
+          <lb ed="#P" n="13"/>quibus Cajetanus vult illud esse 
+          intelligen<lb break="no" ed="#P" n="14"/>dum. Ego vero non ita opinor, nam opera
+          <lb ed="#P" n="15"/>servilia exercentur propriissime, et satis 
+          ser<lb break="no" ed="#P" n="16"/>viliter a famulis liberis, qui servire 
+          propriissi<lb break="no" ed="#P" n="17"/>me dicuntur, licet stipendium accipiant. Sunt
+          <lb ed="#P" n="18"/>ergo opera servilia servorum, id est, 
+          servien<lb break="no" ed="#P" n="19"/>tium, et de his non semper est verum, nihil
+          <lb ed="#P" n="20"/>habere proprium, aut omnia sua opera 
+          debe<lb break="no" ed="#P" n="21"/>re dominis, sed illa tantum pro quibus 
+          mer<lb break="no" ed="#P" n="22"/>cedem accipiunt; tunc clarum est non 
+          repu<lb break="no" ed="#P" n="23"/>gnare opus esse servile, et propter mercedem
+          <lb ed="#P" n="24"/>factum. Nec vero repugnat, simul esse haec
+          <lb ed="#P" n="25"/>duo, operari propter dominum et propter se;
+          <lb ed="#P" n="26"/>nam duplex utilitas ex opere resultat: una,
+          <lb ed="#P" n="27"/>tanquam immediatus effectus operis, et quasi
+          <lb ed="#P" n="28"/>intrinsecus terminus ejus quasi physicus;
+          <lb ed="#P" n="29"/>alia, tanquam recompensatio operis, quae dici
+          <lb ed="#P" n="30"/>potest mediatus effectus , moraliter potius
+          <lb ed="#P" n="31"/>quam physice. llle igitur, qui propter 
+          merce<lb break="no" ed="#P" n="32"/>dem, verbi gratia, fodit vineam , immediate
+          <lb ed="#P" n="33"/>intendit terram praeparare, et colere in 
+          com<lb break="no" ed="#P" n="34"/>modum patroni, et ita operatur immediate
+          <lb ed="#P" n="35"/>propter illum ; mediante autem hoc labore,
+          <lb ed="#P" n="36"/>intendit comparare sibl mercedem, et ita 
+          pro<lb break="no" ed="#P" n="37"/>xime operatur propter dominum, et ultimate
+          <lb ed="#P" n="38"/>seu remote propter se. Et hac ratione non 
+          re<lb break="no" ed="#P" n="39"/>pugnat ex hoc capite operari mercenarie et
+          <lb ed="#P" n="40"/>serviliter, seu idem opus esse servile et 
+          mer<lb break="no" ed="#P" n="41"/>cenarium.
+        </p>
+        <p>
+          <lb ed="#P" n="42"/>13. Tertia Cajetani ratio. — Sed instat 
+          Ca<lb break="no" ed="#P" n="43"/>jetanus in ratione tertia, quia ex hoc, quod
+          <lb ed="#P" n="44"/>opus fiat propter commodum alterius, non fit
+          <lb ed="#P" n="45"/>serviliter, quia potest fieri gratis ; additio 
+          au<lb break="no" ed="#P" n="46"/>tem relationis ad mercedem non est vinculum
+          <lb ed="#P" n="47"/>servile, quia haec relatio operis mercenarii
+          <lb ed="#P" n="48"/>terminatur ad operantem, et non ad alium,
+          <lb ed="#P" n="49"/>quia operari propter mercedem ut sic, est 
+          ope<lb break="no" ed="#P" n="50"/>rari propter se, et non propter alium. Sed in
+          <lb ed="#P" n="51"/>hac etiam ratione quamdam repugnantiam
+          <lb ed="#P" n="52"/>invenio ; nam si operari propter mercedem,
+          <lb ed="#P" n="53"/>ut sic, non est vinculum servitutis, ut revera
+          <lb ed="#P" n="54"/>non est, et bene probatur discursu Cajetani,
+          <lb ed="#P" n="55"/>ergo operari gratis non tollit vinculum servi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tutis, quia solum tollit vinculum mercenarii
+          <lb ed="#P" n="57"/>operis ; ergo ex eo quod opus factum in 
+          com<lb break="no" ed="#P" n="58"/>modum alterius gratis fit, non recte infert
+          <lb ed="#P" n="59"/>Cajetanus non fieri serviliter; alioquin 
+          repu<lb break="no" ed="#P" n="60"/>gnaret opus gratis fieri, et esse servile, quod
+          <lb ed="#P" n="61"/>falsum est, ut dixi, et infra ostendam. Quod
+          <lb ed="#P" n="62"/>si fortasse quis dicat, et pro Cajetano 
+          respon<lb break="no" ed="#P" n="63"/>deat, opus gratis factum proptcr commodum
+          <lb ed="#P" n="64"/>alterius esse posse servile, tunc autem non
+          <lb ed="#P" n="65"/>serviliter fieri, quia liberaliter fit , 
+          consequen<lb break="no" ed="#P" n="66"/>ter fateri cogetur, opus factum in commodum
+          <lb ed="#P" n="67"/>alterius propter mercedem, licet in se servile
+          <lb ed="#P" n="68"/>non sit, illo tamen modo serviliter fieri, quia
+          <lb ed="#P" n="69"/>non gratis fit.
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>14. Potest opus factum immediate in 
+          com<lb break="no" ed="#P" n="71"/>modwn operantis, esse servile. — Ut ergo 
+          con<lb break="no" ed="#P" n="72"/>sequenter loquamur, et ex toto hoc discursu
+          <lb ed="#P" n="73"/>rationem eflicacem colligamus, dicendum in
+          <lb ed="#P" n="74"/>primis est, licet de ratione operis servilis sit,
+          <lb ed="#P" n="75"/>ut fiat propter commodum alterius. non tamen
+          <lb ed="#P" n="76"/>hoc satis esse ut opus sit servile, quia etiam
+          <lb ed="#P" n="77"/>opus liberale, quale est opus doctrinae, vel
+          <lb ed="#P" n="78"/>artis liberalis potest fieri propter commodum
+          <lb ed="#P" n="79"/>alterius. Haec ergo relatio et modus operandi
+          <lb ed="#P" n="80"/>propter commodum alterius non facit opus 
+          ser<lb break="no" ed="#P" n="81"/>vile, sed abstrahit, et communis est operi 
+          lhi<lb break="no" ed="#P" n="82"/>berali. Imo addo ulterius, non repugnare
+          <lb ed="#P" n="83"/>opus fieri immediate in commodum operantis,
+          <lb ed="#P" n="84"/>et nihilominus esse servile, ut quando quis
+          <lb ed="#P" n="85"/>laborat in propria vinea, et propter suum
+          <lb ed="#P" n="86"/>commodum. Ex his ergo relationibus, ut esse
+          <lb ed="#P" n="87"/>possunt in operante, non discernitur opus 
+          ser<lb break="no" ed="#P" n="88"/>vile a non servili, nec aliqua earum constituit
+          <lb ed="#P" n="89"/>opus servile, licet neutra illi repugnet, et illa,
+          <lb ed="#P" n="90"/>quae est ad commodum alterius, magis 
+          acce<lb break="no" ed="#P" n="91"/>dat ad servitutem. Et idem fere est de relatione
+          <lb ed="#P" n="92"/>ad mercedem additam operi de se nonservih;
+          <lb ed="#P" n="93"/>non enim constituit illud servile, quia illa 
+          re<lb break="no" ed="#P" n="94"/>latio, ut sic, non respicit commodum alterius,
+          <lb ed="#P" n="95"/>sed ipsius operantis, ut bene Cajetanus dixit;
+          <lb ed="#P" n="96"/>nec repugnat operi servili, si in eo 
+          condi<lb break="no" ed="#P" n="97"/>tionem servilem supponat, quam infra 
+          expli<lb break="no" ed="#P" n="98"/>cabimus.
+        </p>
+        <p>
+          <lb ed="#P" n="99"/>15. Relatio ad mercedem, quod opus faciat.
+          <lb ed="#P" n="100"/>— Relatio ergo ad mercedem facit opus 
+          mer<lb break="no" ed="#P" n="101"/>cenarium, non servile, cujus signum est, quia
+          <lb ed="#P" n="102"/>si pro mercede intendatur honor aut gloria,
+          <lb ed="#P" n="103"/>nemo dicit inde fieri opus servile, quamvis
+          <lb ed="#P" n="104"/>mercenarium revera fiat. Item operari propter
+          <lb ed="#P" n="105"/>stipendium non est proprium servientium,
+          <lb ed="#P" n="106"/>nam principes, et duces, et magistri, et 
+          lecto<lb break="no" ed="#P" n="107"/>res, et ministri Ecclesiae operantur propter
+          <lb ed="#P" n="108"/>stipendium, et non propterea dicuntur 
+          servili<lb break="no" ed="#P" n="109"/>ter operari, sed mercenarie. Ac denique licet
+          <lb ed="#P" n="110"/>daremus illos operari modo servili, non tamen
+          <pb ed="#P" n="337"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dicere possemus facere opera servilia, quod
+          <lb ed="#P" n="2"/>praecipue intendimus, quia Ecclesia non 
+          pro<lb break="no" ed="#P" n="3"/>hibuit modum operandi mercenarium, nec
+          <lb ed="#P" n="4"/>praecipit liberalem, id est, gratuitum, sed 
+          pro<lb break="no" ed="#P" n="5"/>hibuit opera servilia. Et hoc est clarum et
+          <lb ed="#P" n="6"/>morale fundamentum hujus veritatis, quod
+          <lb ed="#P" n="7"/>modus ille operandi propter mercedem, sive
+          <lb ed="#P" n="8"/>vocetur mercenarius, sive servilis (quod potest
+          <lb ed="#P" n="9"/>pertinere ad modum loquendi), non cadit sub
+          <lb ed="#P" n="10"/>Ecclesiae prohibitionem ; tum quia nihil de hoc
+          <lb ed="#P" n="11"/>Ecclesia in suis decretis explicavit ; tum etiam
+          <lb ed="#P" n="12"/>quia ille modus est magis intentionalis, quam
+          <lb ed="#P" n="13"/>realis; pendet enim ex intentione, et relatione
+          <lb ed="#P" n="14"/>extrinseca operantis ; Ecclesia autem prohibet
+          <lb ed="#P" n="15"/>opus ipsum, non intentionem, nec opus ex tali
+          <lb ed="#P" n="16"/>intentione factum. Et haec ratio maxime urget
+          <lb ed="#P" n="17"/>contra eos, qui fatentur non esse contra hoc
+          <lb ed="#P" n="18"/>praeceptum. operari propter mercedem, quando
+          <lb ed="#P" n="19"/>non est principaliter intenta, sed secundario,
+          <lb ed="#P" n="20"/>quod fatentur auctores fere omnes contrariae
+          <lb ed="#P" n="21"/>sententiae. Sine causa vero addunt esse contra
+          <lb ed="#P" n="22"/>praeceptum, si sit principaliter intenta merces,
+          <lb ed="#P" n="23"/>quia Ecclesia vel non disponit de intentione
+          <lb ed="#P" n="24"/>extrinseca operis, sed solum de voluntate 
+          ne<lb break="no" ed="#P" n="25"/>cessario connexa cum opere; vel si interdum
+          <lb ed="#P" n="26"/>potest prohibere externum opus, ut natum ex
+          <lb ed="#P" n="27"/>tali intentione, et non ex alia, nunquam 
+          cen<lb break="no" ed="#P" n="28"/>setur id facere, nisi quando expresse id 
+          decla<lb break="no" ed="#P" n="29"/>rat, ut suppono ex materia de Legibus; hic
+          <lb ed="#P" n="30"/>autem nihil de tali intentione Eecclesia 
+          decla<lb break="no" ed="#P" n="31"/>ravit, nec ex prohibitione operis servilis 
+          sequi<lb break="no" ed="#P" n="32"/>tur prohibitio talis intentionis, ut satis 
+          decla<lb break="no" ed="#P" n="33"/>ratum est.
+        </p>
+        <p>
+          <lb ed="#P" n="34"/>16. Scribere propter mercedem non est 
+          ser<lb break="no" ed="#P" n="35"/>vile.— Circa confirmationem pro illa sententia
+          <lb ed="#P" n="36"/>factam ex quadam inductione, occurrcbat 
+          tra<lb break="no" ed="#P" n="37"/>ctandum de aliquibus operibus in particulari,
+          <lb ed="#P" n="38"/>maxime de venatione, piscatione, scriptione,
+          <lb ed="#P" n="39"/>et transcriptione, an sint opera servilia,
+          <lb ed="#P" n="40"/>necne, et consequenter an sint prohibita in
+          <lb ed="#P" n="41"/>die festo. Multi enim Doctores et Summistae
+          <lb ed="#P" n="42"/>in priori sententia citati, cum supponant haec
+          <lb ed="#P" n="43"/>opera vel de se non esse servilia, vel saltem
+          <lb ed="#P" n="44"/>non semper, sub distinctione quadam 
+          respon<lb break="no" ed="#P" n="45"/>dert, si fiant propter mercedem vel lucrum,
+          <lb ed="#P" n="46"/>servilia esse et prohibita ; si vero fiant gratis,
+          <lb ed="#P" n="47"/>vel recreationis gratia, non esse servilia, uec
+          <lb ed="#P" n="48"/>prohibita. Sot. etiam, dicto art., de actu 
+          scri<lb break="no" ed="#P" n="49"/>bendi agens, in S Tertium gemus, ait, scribere,
+          <lb ed="#P" n="50"/>quatenus est quaedam locutio cum absente, non
+          <lb ed="#P" n="51"/>esse opus servile : Si tamen (ait) ad opus servile
+          <lb ed="#P" n="52"/>vergat, ut stata mercede transcribere, aut alia
+          <lb ed="#P" n="53"/>ratione calamo mereri, id minime fas est. Unde
+          <lb ed="#P" n="54"/>videtur dicere rationem, cur aliquando non
+          <lb ed="#P" n="55"/>lieeat, solum esse, si, stata mercede, aut ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>merendum stipendium fiat. Si autem Soto hoc
+          <lb ed="#P" n="57"/>sentit, non est consequenter locutus, quia hoc
+          <lb ed="#P" n="58"/>repugnat cum auperiori resolutione. 
+          Suppo<lb break="no" ed="#P" n="59"/>nendum ergo est, scribere ut sic de se non esse
+          <lb ed="#P" n="60"/>opus servile, quod omnes fatentur; praesertim
+          <lb ed="#P" n="61"/>vero declarat Cajetanus, dicto art. 4, 8 442
+          <lb ed="#P" n="62"/>dubium; et Navar., in Manual., c. 13, num. 14,
+          <lb ed="#P" n="63"/>et infra probabitur : cum enim hactenus non
+          <lb ed="#P" n="64"/>explicuerimus per quid constituatur opus in
+          <lb ed="#P" n="65"/>ratione servilis, non possumus propriam 
+          ratio<lb break="no" ed="#P" n="66"/>nem reddere, cur hoc opus excludatur a ratione
+          <lb ed="#P" n="67"/>operis servilis; hoc vero supposito, 
+          conse<lb break="no" ed="#P" n="68"/>quenter dicitur nunquam tale opus fieri 
+          ser<lb break="no" ed="#P" n="69"/>vile, ex eo solum quod propter stipendium vel
+          <lb ed="#P" n="70"/>lucrum fiat; hoc enim plane sequitur ex 
+          reso<lb break="no" ed="#P" n="71"/>lutione data, et rationibus ejus. An vero ex
+          <lb ed="#P" n="72"/>alio capite alius modus seribendi sit servilis,
+          <lb ed="#P" n="73"/>ut etiam Cajetanus et multi volunt, infra 
+          vide<lb break="no" ed="#P" n="74"/>bimus. Nunc solum dico, si scribere aliquo
+          <lb ed="#P" n="75"/>modo servile est, sive gratis, sive mercenarie
+          <lb ed="#P" n="76"/>fiat, servile esse; et consequenter, si nulla
+          <lb ed="#P" n="77"/>scriptio gratis facta servilis est, nullam etiam
+          <lb ed="#P" n="78"/>pretio faciam servilem esse. Et idem dico de
+          <lb ed="#P" n="79"/>venatione, et quacumque alia actione, et ita
+          <lb ed="#P" n="80"/>respondeo ad confirmationem illam. An vero
+          <lb ed="#P" n="81"/>intra eamdem speciem actionis quaedam possit
+          <lb ed="#P" n="82"/>esse servilis, alia non servilis, ex dicendis
+          <lb ed="#P" n="83"/>constabit.
+        </p>
+        <p>
+          <lb ed="#P" n="84"/>17. Opus in se est sercile, et non ex aliqua
+          <lb ed="#P" n="85"/>relatione. — Ex dictis ergo circa opinionem
+          <lb ed="#P" n="86"/>tractatam, et circa rationes Cajetani, recte
+          <lb ed="#P" n="87"/>concluditur non constitui opus sufficienter in
+          <lb ed="#P" n="88"/>ratione servilis propter relationem ad lucrum,
+          <lb ed="#P" n="89"/>vcl ad stipendum , sed necessarium esse ut
+          <lb ed="#P" n="90"/>ipsum opus in se, et absolute, et (ut sic dicam)
+          <lb ed="#P" n="91"/>materialiter spectatum habeat proprietatem et
+          <lb ed="#P" n="92"/>conditionem operis servilis. Hoc enim probant
+          <lb ed="#P" n="93"/>omnia quae adduximus contra superiorem 
+          sen<lb break="no" ed="#P" n="94"/>tentiam ; et ita sentiunt omnes auctores, quos
+          <lb ed="#P" n="95"/>pro nostra sententia retulimus. Unde obiter
+          <lb ed="#P" n="96"/>constat divisionem illam Richardi et 
+          Summis<lb break="no" ed="#P" n="97"/>tarum de iriplici opere servili materialiter
+          <lb ed="#P" n="98"/>lantum, formaliter tantum, et materialiter ac
+          <lb ed="#P" n="99"/>tormaliter simul, superfluam esse, et falsum
+          <lb ed="#P" n="100"/>supponere , saltem quoad secundum 
+          mem<lb break="no" ed="#P" n="101"/>brum: nullum enim est opus servile ex sola
+          <lb ed="#P" n="102"/>formalitate intentionis (de hac enim illi 
+          lo<lb break="no" ed="#P" n="103"/>quuntur, et alia cogitari non potest), nisi 
+          ma<lb break="no" ed="#P" n="104"/>teria ipsius operis, id est, opus ipsum 
+          materia<lb break="no" ed="#P" n="105"/>liter sumptum servile sit. Adde, Sylvestrum,
+          <lb ed="#P" n="106"/>Angelum, et alios non solum vocare opus 
+          ser<lb break="no" ed="#P" n="107"/>vile formaliter tantum, opus ipsum externum
+          <lb ed="#P" n="108"/>de se non servile factum ex intentione lucri,
+          <lb ed="#P" n="109"/>sed etiam cogitationem, vel internam 
+          medita<lb break="no" ed="#P" n="110"/>tuoncm, aut consultationem factam in die festo
+          <pb ed="#P" n="338"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>de opere mercenario aut servili, faciendo 
+          po<lb break="no" ed="#P" n="2"/>stea in die profesto; ut si advocatus in die 
+          do<lb break="no" ed="#P" n="3"/>minica cogitet de his, quae feria 2 proponere
+          <lb ed="#P" n="4"/>debet propter Iucrum, aut mercator de 
+          con<lb break="no" ed="#P" n="5"/>tractu faciendo, aut colonus de cultura terrae
+          <lb ed="#P" n="6"/>ex mercede facienda. At vero licet hi auctores
+          <lb ed="#P" n="7"/>fateantur hoc opus non ita esse servile, ut sit
+          <lb ed="#P" n="8"/>prohibitum ex vi praecepti observandi festum,
+          <lb ed="#P" n="9"/>sed tantum de consilio, ut dicit Angel., dict.
+          <lb ed="#P" n="10"/>num. 9, et Sylvester, quaest. 4, dist. 2, 
+          nihilo<lb break="no" ed="#P" n="11"/>minus immerito vocant illud opus servile,
+          <lb ed="#P" n="12"/>quia neque opus est, nec sub diviso illo 
+          con<lb break="no" ed="#P" n="13"/>tinetur. Patet, quia illa cogitatio mere 
+          inter<lb break="no" ed="#P" n="14"/>nus actus est (ita enim ipsi supponunt) ; opus
+          <lb ed="#P" n="15"/>autem servile hic dividendum, est opus exter
+          <lb ed="#P" n="16"/>num, quia hoc solum hoc praecepto 
+          prohibe<lb break="no" ed="#P" n="17"/>tur, ut supra probatum est. Quod si illa 
+          pra<lb break="no" ed="#P" n="18"/>paratio non sistat in cogitatione et meditatione
+          <lb ed="#P" n="19"/>interna, sed in actionem externam prodeat,
+          <lb ed="#P" n="20"/>tunc eadem ratio de illa erit, quae de aliis
+          <lb ed="#P" n="21"/>corporalibus actionibus ad lucrum vel 
+          stipen<lb break="no" ed="#P" n="22"/>dium relatis. Quia, nisi opus ipsum servilem
+          <lb ed="#P" n="23"/>conditionem habeat, propter solam 
+          formaiita<lb break="no" ed="#P" n="24"/>tem ad mercedem, non potest dici opus servile
+          <lb ed="#P" n="25"/>formaliter tantum, ita ut contineatur sub 
+          pro<lb break="no" ed="#P" n="26"/>hibitione ratione festi. Hoc enim est quod ad
+          <lb ed="#P" n="27"/>rem spectat; nam si quis vocet servile 
+          forma<lb break="no" ed="#P" n="28"/>liter, et postea dicat illam servitutem non 
+          suf<lb break="no" ed="#P" n="29"/>ficere al prohibitionem, nec ad peccandum
+          <lb ed="#P" n="30"/>contra praeceptum, de nomine tantum 
+          dispu<lb break="no" ed="#P" n="31"/>tabit. An vero duo alia membra illius 
+          partitio<lb break="no" ed="#P" n="32"/>nis sint necessaria, ex sequentibus constabit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

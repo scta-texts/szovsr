@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 13</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 13</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="132"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k03262"><!-- t2-l1c13 -->
+        <head>Caput 13</head>
+        <head type="question-title">De tempore necessario ut consuetudo non solvendi decimas sit legitime praescripta.</head>
+        <p>
+          <lb ed="#P" n="64"/>CAPUT XIII.
+          <lb ed="#P" n="65"/>DE TEMPORE NECESSARIO UT CONSUETUDO NON
+          <lb ed="#P" n="66"/>SOLVENDI DECIMAS SIT LEGITIME PRAESCRIPTA.
+        </p>
+        <p>
+          <lb ed="#P" n="67"/>1. Quanto tempore opus sit ad 
+          prescriben<lb break="no" ed="#P" n="68"/>dum in decimis. — Aliter de conmunitate 
+          lo<lb break="no" ed="#P" n="69"/>quendum, aliter de particulari in hac materia.
+          <lb ed="#P" n="70"/>—bDicendum est imprimis, in hac 
+          praescriptio<lb break="no" ed="#P" n="71"/>ne servandam esse regulam capit. primi de
+          <lb ed="#P" n="72"/>Praescriptionibus, in 6: oportere talem 
+          con<lb break="no" ed="#P" n="73"/>suetudinem immemorialem esse, vel 
+          necessa<lb break="no" ed="#P" n="74"/>rium esse ostendere titulum, in quo talis 
+          prae<lb break="no" ed="#P" n="75"/>scriptio fundata fuerit. Nam ad 
+          praescriben<lb break="no" ed="#P" n="76"/>dum contra Ecclesiam in his quae simul sunt
+          <lb ed="#P" n="77"/>contra jus commune, talis modus 
+          consuetudi<lb break="no" ed="#P" n="78"/>nis et probationis ibi postulatur : haec autem
+          <lb ed="#P" n="79"/>praescriptio, de qua loquimur, et est contra
+          <lb ed="#P" n="80"/>Ecclesiam, et contra jus commune, ut constat;
+          <lb ed="#P" n="81"/>ergo in ea jus illius decreti servandum est. Et
+          <lb ed="#P" n="82"/>ita docent, allegando alias, Covarruvias, dicto
+          <lb ed="#P" n="83"/>cap. 17, n. 7, 8 et 10; et Gutierrez, n. 65 et
+          <lb ed="#P" n="84"/>67; et Molina, tract. 2 de Just., disp. 75. 
+          Ad<lb break="no" ed="#P" n="85"/>dunt vero iidem auctores, non esse eamdem
+          <lb ed="#P" n="86"/>rationem de consuetudine totius communitatis
+          <lb ed="#P" n="87"/>in non solvendis decimis, quia in illa sufficit
+          <lb ed="#P" n="88"/>tempus quadraginta annorum, etiam sine 
+          ti<lb break="no" ed="#P" n="89"/>tulo, juxta capitulum ultimum de 
+          Consuetu<lb break="no" ed="#P" n="90"/>dine, adjuncta Glossa, verb. Legitime 
+          preescri<lb break="no" ed="#P" n="91"/>pla, et quae ibi a Panormitano et aliis 
+          notan<lb break="no" ed="#P" n="92"/>tur, et cap. Auditis, de Praescriptionibus, cum
+          <lb ed="#P" n="93"/>similibus.
+        </p>
+        <p>
+          <lb ed="#P" n="94"/>2. Impugnatur tradita differentia. — 
+          Res<lb break="no" ed="#P" n="95"/>ponsio. — Contra hanc vero differentiam 
+          ob<lb break="no" ed="#P" n="96"/>stare videtur ratio supra facta, quod facilius
+          <lb ed="#P" n="97"/>videtur eximere unam personam ab onere
+          <lb ed="#P" n="98"/>solvendi decimas, quam totam 
+          communita<lb break="no" ed="#P" n="99"/>tem ; si ergo, ut praevaleat consuetudo totius
+          <lb ed="#P" n="100"/>communitatis contra debitum decimarum,
+          <lb ed="#P" n="101"/>sufficit tempus quadraginta annorum absque
+          <lb ed="#P" n="102"/>alio titulo, cur in privata persona ultra 
+          tem<lb break="no" ed="#P" n="103"/>pus quadraginta annorum postulatur titulus,
+          <lb ed="#P" n="104"/>et, deficiente titulo, immemorialis 
+          consuetu<lb break="no" ed="#P" n="105"/>do requiritur ? Ad hoc respondent dicti 
+          auc<lb break="no" ed="#P" n="106"/>tores, et rationem diversitatis reddunt, quia
+          <lb ed="#P" n="107"/>peculiaris persona non ceximitur ex vi solius
+          <pb ed="#P" n="133"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>consuetudinis, sed ex vi praescriptionis: 
+          com<lb break="no" ed="#P" n="2"/>munitas autem eximitur ex vi consuetudinis
+          <lb ed="#P" n="3"/>absque praescriptione, et ideo praescriptio 
+          pri<lb break="no" ed="#P" n="4"/>vatae persona regulanda est juxta jus 
+          statu<lb break="no" ed="#P" n="5"/>tum in dicto capite primo, de 
+          Praescriptioni<lb break="no" ed="#P" n="6"/>bus, in sexto, quod de Praescriptione contra
+          <lb ed="#P" n="7"/>Ecclesiam, quae fit resistente jure, expresse
+          <lb ed="#P" n="8"/>loquitur. Hllud autem jus, cum odiosum 
+          quo<lb break="no" ed="#P" n="9"/>dammodo sit, et restringens, non est 
+          exten<lb break="no" ed="#P" n="10"/>dendum ad consuetudinem, quae non est 
+          prae<lb break="no" ed="#P" n="11"/>scriptio, qualis est consuetudo totius 
+          commu<lb break="no" ed="#P" n="12"/>nitatis de non solvendis decimis. Cum ergo
+          <lb ed="#P" n="13"/>juxta jus commune ad talem consvetudinem
+          <lb ed="#P" n="14"/>sufficiat tempus quadraginta annorum cum
+          <lb ed="#P" n="15"/>aliis conditionibus requisitis, ut suum 
+          effec<lb break="no" ed="#P" n="16"/>tum habeat, idem dicendum erit de 
+          consue<lb break="no" ed="#P" n="17"/>tudine communitatis non solvendi decimas.
+        </p>
+        <p>
+          <lb ed="#P" n="18"/>3. In quo differant consuetudo et 
+          praeescri<lb break="no" ed="#P" n="19"/>ptio. — Responsio quorundam impugnatur. —
+          <lb ed="#P" n="20"/>In hac vero resolutione, quam veram 
+          existi<lb break="no" ed="#P" n="21"/>mo, statim occurrit illa difficultas, cur vel in
+          <lb ed="#P" n="22"/>quo praescriptio a consuetudine distinguatur :
+          <lb ed="#P" n="23"/>quia praescriptio essentialiter videtur 
+          include<lb break="no" ed="#P" n="24"/>re consuetudinem, cum nihil aliud sit quam
+          <lb ed="#P" n="25"/>jus quoddam usu longi temporis bona fide 
+          ac<lb break="no" ed="#P" n="26"/>quisitum ; usus autem longi temporis et 
+          con<lb break="no" ed="#P" n="27"/>suetudo idem esse videntur , et e contrario
+          <lb ed="#P" n="28"/>omnis consuetudo debet esse legitime 
+          praescri<lb break="no" ed="#P" n="29"/>pta, ut vim habeat, ut dicitur in dicto cap.
+          <lb ed="#P" n="30"/>ult. de Cons. Omnis ergo consuetudo 
+          praescri<lb break="no" ed="#P" n="31"/>ptionem aliquam inducit. Quae est ergo illa
+          <lb ed="#P" n="32"/>differentia ? Et quae reddi potest ratio ob
+          <lb ed="#P" n="33"/>quam, ad consuetudinem non solvendi 
+          deci<lb break="no" ed="#P" n="34"/>mam, sufficiat tempus quadraginta annorum
+          <lb ed="#P" n="35"/>absque titulo, non vero ad praescriptionem?
+          <lb ed="#P" n="36"/>Item, cur immunitas privatae personae a debito
+          <lb ed="#P" n="37"/>decimarum vocatur praescriptio, et non 
+          libe<lb break="no" ed="#P" n="38"/>ratio etimmunitas totius communitatis ? Quod
+          <lb ed="#P" n="39"/>enim aliqui respondent, praescriptionem, et
+          <lb ed="#P" n="40"/>consuetudinem differre , quod praescriptione
+          <lb ed="#P" n="41"/>jus acquiritur privatis personis, consuetudine
+          <lb ed="#P" n="42"/>autem communitati , et est petitio principii,
+          <lb ed="#P" n="43"/>et ad summum est quaedam vocabulorum 
+          ac<lb break="no" ed="#P" n="44"/>commodatio, non vero declarat rationem ob
+          <lb ed="#P" n="45"/>quam plus in privata persona quam in 
+          com<lb break="no" ed="#P" n="46"/>munitate postuletur. Eo vel maxime quod
+          <lb ed="#P" n="47"/>etiam communitas potest praescribere tam 
+          con<lb break="no" ed="#P" n="48"/>tra aliam communitatem, quam contra 
+          per<lb break="no" ed="#P" n="49"/>sonas privatas, ut civitas contra civitatem, et
+          <lb ed="#P" n="50"/>contra cives, ut est res clara.
+        </p>
+        <p>
+          <lb ed="#P" n="51"/>4. Assignatur discrimen. — In hac 
+          diffe<lb break="no" ed="#P" n="52"/>rentia assignanda inter consuetudinem et
+          <lb ed="#P" n="53"/>praescriptionem laborant jurisperiti, cum 
+          Glos<lb break="no" ed="#P" n="54"/>sa, in cap. ult. de Consuet., et in c. ult., 18,
+          <lb ed="#P" n="55"/>g. 2; Covarruvias, allegans alios, in regula
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Possessor, 2 p., S 3, n. 2; et Matienzo, in 
+          le<lb break="no" ed="#P" n="57"/>ge 1, titul 7, lib. 5 Novae Recopilat. Gloss. 6,
+          <lb ed="#P" n="58"/>n. 3; Molina, libr. de Primogeniis, cap. 6, n.
+          <lb ed="#P" n="59"/>10 ; Gutierrez, qui alios etiam refert, dicto
+          <lb ed="#P" n="60"/>cap. 21, num. 68 et seqq. Omissis vero variis
+          <lb ed="#P" n="61"/>differentiis , quas ibi assignant , breviter 
+          di<lb break="no" ed="#P" n="62"/>cendum videtur, si ad usum tantum 
+          termino<lb break="no" ed="#P" n="63"/>rum attendamus, variam et multiplicem 
+          es<lb break="no" ed="#P" n="64"/>se, nam interdum consuetudo consummata
+          <lb ed="#P" n="65"/>vocatur praescriptio, et e converso, ut ex 
+          Pau<lb break="no" ed="#P" n="66"/>lo de Castro notavit Gutierrez supra. In 
+          ri<lb break="no" ed="#P" n="67"/>gore vero illa duae voces videntur se habere,
+          <lb ed="#P" n="68"/>ut generalis et specialis ; nam omnis 
+          praescri<lb break="no" ed="#P" n="69"/>ptio consuetudo quaedam est, ut ratio supra
+          <lb ed="#P" n="70"/>facta probat , non tamen omnis consuetudo
+          <lb ed="#P" n="71"/>est praescriptio, ut statim declarabimus. Hinc
+          <lb ed="#P" n="72"/>ergo est, ut consuetudo soleat interdum a
+          <lb ed="#P" n="73"/>praescriptione distingui, applicando genericum
+          <lb ed="#P" n="74"/>nomen uni speciei, prout est Dialecticis 
+          con<lb break="no" ed="#P" n="75"/>suetum, et hoc modo loquuntar auctores 
+          ci<lb break="no" ed="#P" n="76"/>tati in praesenti puncto.
+        </p>
+        <p>
+          <lb ed="#P" n="77"/>5. Prescriptio est quid facti, consuetud»
+          <lb ed="#P" n="78"/>autem est quid juris. —Differentia autem quae
+          <lb ed="#P" n="79"/>constituenda videtur inter praescriptionem et
+          <lb ed="#P" n="80"/>consuetudinem, et ad rem praesentem maxime
+          <lb ed="#P" n="81"/>facit, est, quod praescriptio videtur esse quid
+          <lb ed="#P" n="82"/>facti (ut sic dicam ); consuetudo autem quid
+          <lb ed="#P" n="83"/>juris, accipiendojus, prout ad legem pertinet,
+          <lb ed="#P" n="84"/>quia etiam illa vox aequivoca est. Nam jus 
+          in<lb break="no" ed="#P" n="85"/>terdum sumitur pro lege, interdum vero pro
+          <lb ed="#P" n="86"/>facultate utendi vel non utendi aliqua re, ut
+          <lb ed="#P" n="87"/>est dominium, vel servitus, et alia hujusmodi.
+          <lb ed="#P" n="88"/>Et jus hoc posteriori modo sumptum vocamus
+          <lb ed="#P" n="89"/>quid facti, quia non constituit legem, nec 
+          ali<lb break="no" ed="#P" n="90"/>quid illi aequivalens, sed respicit tantum 
+          do<lb break="no" ed="#P" n="91"/>minia , et potestates morales utendi rebus.
+          <lb ed="#P" n="92"/>Hoc ergo modo dicimus praescriptionem esse
+          <lb ed="#P" n="93"/>quid facti, quia per se non constituit vel 
+          mu<lb break="no" ed="#P" n="94"/>tat ins legale, sed mutat dominia rerum, vel
+          <lb ed="#P" n="95"/>eequivalentia jura, quae, generaliter loquendo,
+          <lb ed="#P" n="96"/>consistunt in facultate utendi vel non utendi
+          <lb ed="#P" n="97"/>rebus; consuetudinem vero specialiter 
+          sum<lb break="no" ed="#P" n="98"/>ptam dicimus esse quid juris, quia proprie 
+          di<lb break="no" ed="#P" n="99"/>citur consuetudo , illa quae habet vim legis,
+          <lb ed="#P" n="100"/>vel quae habet vim abrogandi legem, seu 
+          libe<lb break="no" ed="#P" n="101"/>randi a jugo legis; nam semper privatio ad
+          <lb ed="#P" n="102"/>habitum reducitur, et ejusdem ordinis 
+          repu<lb break="no" ed="#P" n="103"/>tatur. In qua differentia res ipsa satis nota
+          <lb ed="#P" n="104"/>est, nam sine dubio invenitur ille duplex 
+          mo<lb break="no" ed="#P" n="105"/>dus juris, seu facultatis, ut constat ex materia
+          <lb ed="#P" n="106"/>de legibus , et justitia et jure. Constat etiam
+          <lb ed="#P" n="107"/>utrumque illorum posse usu ac frequentia 
+          ac<lb break="no" ed="#P" n="108"/>tuum acquiri, ut ex eisdem materiis 
+          manifes<lb break="no" ed="#P" n="109"/>tum est. Quod autem vocabula consuetudinis
+          <lb ed="#P" n="110"/>et praescriptionis ad illa duo significanda recte
+          <pb ed="#P" n="134"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>accommodentur, ex usu sapientium est etiam
+          <lb ed="#P" n="2"/>notum, sufficitque ad usum terminorum. 
+          Ma<lb break="no" ed="#P" n="3"/>xime cum non habeamus alias voces, quibus
+          <lb ed="#P" n="4"/>illa duo distincte significemus.
+        </p>
+        <p>
+          <lb ed="#P" n="5"/>6. Ex hac ergo differentia expeditur optime
+          <lb ed="#P" n="6"/>difficultas tacta, et redditur ratio discriminis
+          <lb ed="#P" n="7"/>supra constituti circa tempus praescriptionis
+          <lb ed="#P" n="8"/>privatae personae, vel consuetudinis 
+          communi<lb break="no" ed="#P" n="9"/>tatis de non solvendis decimis. Nam privata
+          <lb ed="#P" n="10"/>persona non potest liberari a lege decimarum
+          <lb ed="#P" n="11"/>per solam vim consuetudinis stricte sumptae,
+          <lb ed="#P" n="12"/>et ideo ut liberetur. necesse est ut proprie
+          <lb ed="#P" n="13"/>praescribat cum omnibus conditionibus in jure
+          <lb ed="#P" n="14"/>requisitis ad veram praescriptionem talis rei.
+          <lb ed="#P" n="15"/>Ratio autem cur non possit liberari per 
+          consue<lb break="no" ed="#P" n="16"/>iudinem, est, quia unus tantum personae usus
+          <lb ed="#P" n="17"/>longaevus non potest legem introducere, nam
+          <lb ed="#P" n="18"/>lex proprie respicit communitatem. Et eadem
+          <lb ed="#P" n="19"/>ratione privatus usus unius personae non potest
+          <lb ed="#P" n="20"/>legem abrogare, neque immutare, quia 
+          ejus<lb break="no" ed="#P" n="21"/>dem rationis et potestatis est ferre aut 
+          abro<lb break="no" ed="#P" n="22"/>gare illam, vel in illa dispensare. Et hinc est
+          <lb ed="#P" n="23"/>ut privata persona nunquam eximatur ab 
+          obli<lb break="no" ed="#P" n="24"/>gatione legis, propter diuturnam non 
+          obser<lb break="no" ed="#P" n="25"/>vantiam ejus, etiamsi ex ignorantia invincibili
+          <lb ed="#P" n="26"/>bona fide in illa perstiterit, sed, quamprimum
+          <lb ed="#P" n="27"/>ignorantiam depulerit, incipiat lege obligari.
+          <lb ed="#P" n="28"/>Ergo per puram consuetudinem, ut est quid
+          <lb ed="#P" n="29"/>juris, non potest aliquis eximi ab obligatione
+          <lb ed="#P" n="30"/>pracepti solvendi decimas; oportet ergo ut
+          <lb ed="#P" n="31"/>eximatur per praescriptionem, ut est quid facti,
+          <lb ed="#P" n="32"/>id est, ut potest dominia rerum augere vel
+          <lb ed="#P" n="33"/>mutare, obligationes et debita extinguere,
+          <lb ed="#P" n="34"/>servitutes introducere, vel ab illis liberare,
+          <lb ed="#P" n="35"/>et similia.
+        </p>
+        <p>
+          <lb ed="#P" n="36"/>7. Diuturnus usus communitalis habet vim
+          <lb ed="#P" n="37"/>introducendi legem. — At vero communitas 
+          po<lb break="no" ed="#P" n="38"/>test liberari a jugo decimarum per 
+          consuetu<lb break="no" ed="#P" n="39"/>dinem, ut est quid juris; et ratio est, quia
+          <lb ed="#P" n="40"/>frequens et diuturnus usus communitatis 
+          ha<lb break="no" ed="#P" n="41"/>bet vim introducendi legem, et ideo potest
+          <lb ed="#P" n="42"/>etiam illam abrogare, si legitimo tempore
+          <lb ed="#P" n="43"/>duret. Ad abrogandam autem legem 
+          ecclesia<lb break="no" ed="#P" n="44"/>sticam, sufficit consuetudo quadraginta 
+          anno<lb break="no" ed="#P" n="45"/>rum, ut ex materia de legibus notum est,
+          <lb ed="#P" n="46"/>ideoque etiam suflicit ad abrogandum 
+          prae<lb break="no" ed="#P" n="47"/>ceptum de solvendis decimis respectu talis
+          <lb ed="#P" n="48"/>communitatis, in qua illa consuetudo 
+          intro<lb break="no" ed="#P" n="49"/>ducta tolerata est. Imo sunt, qui putent minus
+          <lb ed="#P" n="50"/>tempus sufficere, ut lex ecclesiastica per 
+          con<lb break="no" ed="#P" n="51"/>trariam consuetudinem abrogetur. Sed hoc in
+          <lb ed="#P" n="52"/>generali pertinet ad materiam de legibus : in
+          <lb ed="#P" n="53"/>hac vero particulari lege decimarum, omnes
+          <lb ed="#P" n="54"/>auctores hoc tempus requirunt. Estque 
+          secu<lb break="no" ed="#P" n="55"/>rior sententia, tum quia est juri communi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>conformior, esto non sit in illo satis; tum
+          <lb ed="#P" n="57"/>etiam quia illa consuetudo est in grave 
+          dam<lb break="no" ed="#P" n="58"/>num Ecclesiae, et ideo temperanda est; tum
+          <lb ed="#P" n="59"/>etiam quia non potest prudenter praesumi in
+          <lb ed="#P" n="60"/>minori tempore de tacito consensu Pontificis,
+          <lb ed="#P" n="61"/>sine quo nihil potest consuetudo illa operari.
+          <lb ed="#P" n="62"/>Ob dictam vero causam, in communitate non
+          <lb ed="#P" n="63"/>petuntur conditiones aliae ad praescriptionem
+          <lb ed="#P" n="64"/>requisitae ; non quidem quia communitas etiam
+          <lb ed="#P" n="65"/>praescribere non possit, hoc enim non est in
+          <lb ed="#P" n="66"/>universum verum, ut objectiones probant, sed
+          <lb ed="#P" n="67"/>quia non oportet expectare rigorosam 
+          prae<lb break="no" ed="#P" n="68"/>scriptionem, sed sola consuetudo suffticit, ut
+          <lb ed="#P" n="69"/>notatum est.
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>8. Ad praescriptionem requiritur bona 
+          fi<lb break="no" ed="#P" n="71"/>des, non vero in consuetudine. — Quando 
+          pre<lb break="no" ed="#P" n="72"/>sumatur bona fides in consuetudine, etiamsi
+          <lb ed="#P" n="73"/>non constet de titulo. — Potest denique haec
+          <lb ed="#P" n="74"/>ratio amplius explicari ex alia differentia 
+          no<lb break="no" ed="#P" n="75"/>tanda inter praescriptionem et 
+          consuetudi<lb break="no" ed="#P" n="76"/>nem, sumptas eo modo quo a nobis explicatae
+          <lb ed="#P" n="77"/>sunt. Nam ad praescriptionem requiritur bona
+          <lb ed="#P" n="78"/>fides in praescribente, ab initio temporis usque
+          <lb ed="#P" n="79"/>ad consummationem ejus, maxime secundum
+          <lb ed="#P" n="80"/>jus canonicum, ut suppono ex toto titulo de
+          <lb ed="#P" n="81"/>Praescriptionibus, et ex propria materia. At
+          <lb ed="#P" n="82"/>vero ad consuetudinem abrogantem legem,
+          <lb ed="#P" n="83"/>non requiritur bona fides toto tempore illius.
+          <lb ed="#P" n="84"/>Nam in principio, quando consuetudo nititur
+          <lb ed="#P" n="85"/>contra legem, solet inchoari cum mala fide, et
+          <lb ed="#P" n="86"/>per actus pravos, utpote legi contrarios, ut
+          <lb ed="#P" n="87"/>omnes fatentur, alias nulla consuetudo 
+          hu<lb break="no" ed="#P" n="88"/>mana posset legem positivam abrogare. Ex
+          <lb ed="#P" n="89"/>hac ergo differentia sequitur, merito ad 
+          prae<lb break="no" ed="#P" n="90"/>scriptionem non solvendi decimas in 
+          particu<lb break="no" ed="#P" n="91"/>lari persona postulari immemorialem 
+          consue<lb break="no" ed="#P" n="92"/>tudinem, aut in illius defectum postulari 
+          sal<lb break="no" ed="#P" n="93"/>tem consuetudinem longi temporis cum 
+          titu<lb break="no" ed="#P" n="94"/>lo. Quia, ut praescriptio inducatur, requiritur
+          <lb ed="#P" n="95"/>bona fides; quando autem consuetudo est 
+          im<lb break="no" ed="#P" n="96"/>memorialis, praesumitur bona fides, etiamsi
+          <lb ed="#P" n="97"/>de titulo non constet ; quia, sicut initium 
+          con<lb break="no" ed="#P" n="98"/>suetudinis extra memoriam hominum est, ita
+          <lb ed="#P" n="99"/>etiam facile potuit oblivisci titulus, et ideo
+          <lb ed="#P" n="100"/>prassumitur bonus, cum probari non possit
+          <lb ed="#P" n="101"/>malus : imo, si conjectura utendum sit, 
+          veri<lb break="no" ed="#P" n="102"/>similius apparet, tam diuturnum et 
+          constan<lb break="no" ed="#P" n="103"/>tem usum non potuisse sine bona fide 
+          intro<lb break="no" ed="#P" n="104"/>duci. Imo, licet in principio male inchoatus
+          <lb ed="#P" n="105"/>fuisset, postea potuit bona fide continuari, et
+          <lb ed="#P" n="106"/>ex quo coepit bona fides, potuit etiam 
+          suffi<lb break="no" ed="#P" n="107"/>cienti tempore praescribi, quia immemoriale
+          <lb ed="#P" n="108"/>tempus totum hoc comprehendere potest, et
+          <lb ed="#P" n="109"/>ideo totum praesumitur, quando aliud non
+          <lb ed="#P" n="110"/>constat.
+        </p>
+        <p>
+          <pb ed="#P" n="135"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>9. Quando praesumatur mala fides in 
+          con<lb break="no" ed="#P" n="2"/>suetudine. — At vero quando de initio 
+          consue<lb break="no" ed="#P" n="3"/>tudimis constat, et non apparet titulus, eo ipso
+          <lb ed="#P" n="4"/>merito praesumitur mala fides, quia actus sine
+          <lb ed="#P" n="5"/>legitimo titulo factus contra communem 
+          le<lb break="no" ed="#P" n="6"/>gem de se malus est. At vero actus ille quo
+          <lb ed="#P" n="7"/>inchoatur praescriptio, nisi habeat legitimam
+          <lb ed="#P" n="8"/>excusationem, de se injustus est, quia est,
+          <lb ed="#P" n="9"/>verbi gratia, usus vel detentio rei alienae, et
+          <lb ed="#P" n="10"/>ideo nisi ostendatur titulus, contra se habet
+          <lb ed="#P" n="11"/>praesumptionem, maxime in praesenti, ubi
+          <lb ed="#P" n="12"/>non solvere decimas est contra jus commune,
+          <lb ed="#P" n="13"/>et adeo gravc, ut difficile dispensetur, aut
+          <lb ed="#P" n="14"/>privilegium contra illud concedatur. Item quia
+          <lb ed="#P" n="15"/>non potest quis in eo casu justam causam 
+          ob<lb break="no" ed="#P" n="16"/>livionis tituli allegare, cum ipsummet initium
+          <lb ed="#P" n="17"/>consuetudinis immemoriale non sit. Át vero
+          <lb ed="#P" n="18"/>ad consuetudinem alicujus communitatis de
+          <lb ed="#P" n="19"/>non solvendis decimis, sufficere censetur 
+          tem<lb break="no" ed="#P" n="20"/>pus quadraginta annorum absque alio titulo,
+          <lb ed="#P" n="21"/>quia, ut dixi, illa non est praescriptio, sed
+          <lb ed="#P" n="22"/>aliud genus consuetudinis, in quo in 
+          princi<lb break="no" ed="#P" n="23"/>pio non requiritur bona fides, et ideo non
+          <lb ed="#P" n="24"/>postulatur praesumptio ejus, sed sive 
+          praeces<lb break="no" ed="#P" n="25"/>serit, sive non, consuetudo est sufficiens ad
+          <lb ed="#P" n="26"/>derogandum legi, dummodo habeat alias 
+          con<lb break="no" ed="#P" n="27"/>ditiones in tali consuetudine requisitas, et
+          <lb ed="#P" n="28"/>praesertim quod sciente et tolerante Pontifice,
+          <lb ed="#P" n="29"/>ad eum statum pervenerit. Et per haec satis
+          <lb ed="#P" n="30"/>responsum est ad difficultates omnes supra
+          <lb ed="#P" n="31"/>insinuatas.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 28</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 28</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="357"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k08937"><!-- t2-l2c28 -->
+        <head>Caput 28</head>
+        <head type="question-title">De venatione, piscatione et militia.</head>
+        <p>
+          <lb ed="#P" n="60"/>CAPUT XXVIII.
+          <lb ed="#P" n="61"/>DE VENATIONE, PISCATIONE ET MILITIA.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>1. Quid sentiendum de actu venandi vel 
+          pis<lb break="no" ed="#P" n="63"/>candi.— Solet praeterea dubitari de venatione
+          <lb ed="#P" n="64"/>(eademque ratio est de piscatione), an sit 
+          ac<lb break="no" ed="#P" n="65"/>tio servilis prohibita. Habet enim haec actio
+          <lb ed="#P" n="66"/>fere easdem rationes dubitandi, quia est 
+          quo<lb break="no" ed="#P" n="67"/>dammodo communis, seu media; convenit
+          <lb ed="#P" n="68"/>enim hominibus liberis, dominis, et convenit
+          <lb ed="#P" n="69"/>etiam servis. Unde, quando fit ob 
+          delectatio<lb break="no" ed="#P" n="70"/>nem, videtur actio libera; quando vero fit ex
+          <lb ed="#P" n="71"/>officio ad sustentationem vitae, videtur 
+          servi<lb break="no" ed="#P" n="72"/>lis; unde a mu'tis numeratur inter actiones
+          <lb ed="#P" n="73"/>communes servis et dominis. Praeterea in cap.
+          <lb ed="#P" n="74"/>Licet, de Feriis, supponitur piscationem, hoc
+          <lb ed="#P" n="75"/>posteriori modo factam, esse prohibitam;
+          <lb ed="#P" n="76"/>nam ex dispensatione, et non sine 
+          commu<lb break="no" ed="#P" n="77"/>tatione in aliud opus pium, in peculiari casu
+          <lb ed="#P" n="78"/>ob necessitatem et ex dispensatione 
+          concedi<lb break="no" ed="#P" n="79"/>tur. Et ita quamplures auctores sentiunt 
+          ve<lb break="no" ed="#P" n="80"/>nationem ob animi delectationem licere ; quae
+          <lb ed="#P" n="81"/>vero fit quaestus gratia, esse servilem et 
+          illi<lb break="no" ed="#P" n="82"/>citam. Ita Angel., n. 26; Sylvest., Rosel., et
+          <lb ed="#P" n="83"/>idem sentit Sot. Et Angelus ex eo sumit 
+          argu<lb break="no" ed="#P" n="84"/>mentum, quod venatio prohibetur in diebus
+          <lb ed="#P" n="85"/>jejuniorum; ergo multo magis in die festo.
+          <lb ed="#P" n="86"/>Antecedens probatur ex Glos. in cap. Qui 
+          ve<lb break="no" ed="#P" n="87"/>natoribus, d. S6, et videtur haberi in cap. An
+          <lb ed="#P" n="88"/>putatis, in eadem d.; Ambros., in serm. 33,
+          <lb ed="#P" n="89"/>alias 41, in Dominicam 3 Quadrag.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>2. Alii vero existimant venationem non 
+          es<lb break="no" ed="#P" n="91"/>se opus servile, nec prohibitam esse in die
+          <lb ed="#P" n="92"/>festo, etiamsi fiat quaestus gratia. Ita expresse
+          <lb ed="#P" n="93"/>Navar., dict. cap. 13, num. 11, 8 Sexto : Quia
+          <lb ed="#P" n="94"/>non est (ait) servile opus, nec finis queestus
+          <lb ed="#P" n="95"/>facit illud servile. Idem Med. et Ludov. Lopez
+          <lb ed="#P" n="96"/>supra. Et sane cistinctio illa de venatione,
+          <lb ed="#P" n="97"/>voluptatis vel quaestus gratia facta, mihi 
+          pro<lb break="no" ed="#P" n="98"/>bari non potest, quoad hoc ut una dicatur
+          <lb ed="#P" n="99"/>servilis, et non alia; quia, si differunt in solo
+          <lb ed="#P" n="100"/>fine, parum id refert ad prohibitionem, vel
+          <lb ed="#P" n="101"/>ad rationem servilis operis, ut recte dicit 
+          Na<lb break="no" ed="#P" n="102"/>var., et saepe probatum est. Et praeterea non
+          <lb ed="#P" n="103"/>magis honestus est finis voluptatis, quam 
+          fi<lb break="no" ed="#P" n="104"/>nis acquirendi lucrum; imo hic posterior 
+          fa<lb break="no" ed="#P" n="105"/>cilius potest honestari, quia ordinarie, qui
+          <lb ed="#P" n="106"/>illo fine venatur, indiget illo juvamine ad
+          <lb ed="#P" n="107"/>suam sustentationem. Si vero differunt illae
+          <pb ed="#P" n="358"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>venationes in aliqua intrinseca conditione, 
+          ra<lb break="no" ed="#P" n="2"/>tione cujus una est servilis, et non alia, 
+          in<lb break="no" ed="#P" n="3"/>quiro quaenam illa sit. Non enim est 
+          conti<lb break="no" ed="#P" n="4"/>nuatio temporis, nec corporalis labor major,
+          <lb ed="#P" n="5"/>vel aliquid ejusmodi; tum quia revera non 
+          in<lb break="no" ed="#P" n="6"/>tercedit talis differentia ; non enim minus 
+          la<lb break="no" ed="#P" n="7"/>borant per totum diem divites et nobiles in
+          <lb ed="#P" n="8"/>venatione, quam pauperes, qui ex officio ad se
+          <lb ed="#P" n="9"/>sustentandum venantur; ergo neque ex hac
+          <lb ed="#P" n="10"/>parte dici potest una venatio servilis, et non
+          <lb ed="#P" n="11"/>alia.
+        </p>
+        <p>
+          <lb ed="#P" n="12"/>3. Venatio est opus servile. — Mihi ergo
+          <lb ed="#P" n="13"/>videtur venationem, ut sic et per se 
+          specta<lb break="no" ed="#P" n="14"/>tam, opus servile esse. Primo, quia venatoria
+          <lb ed="#P" n="15"/>ars inter mechanicas computatur, ut ex 
+          Dia<lb break="no" ed="#P" n="16"/>lectica constat. Secundo, quia est opus 
+          corpo<lb break="no" ed="#P" n="17"/>rale , laboriosum, sistens omnino in materia
+          <lb ed="#P" n="18"/>et effectu corporali : unde quodammodo est
+          <lb ed="#P" n="19"/>commune homini cum bestiis, nam illae etiam
+          <lb ed="#P" n="20"/>venationi insistunt. Solum addit homo artem
+          <lb ed="#P" n="21"/>et industriam, ac varia insirumenta 
+          venatio<lb break="no" ed="#P" n="22"/>num ; et utitur etiam his animalibus brutis
+          <lb ed="#P" n="23"/>ad venandum aptis, ut eis in eo opere 
+          juve<lb break="no" ed="#P" n="24"/>tur: tota vero haec industria in materia, et
+          <lb ed="#P" n="25"/>corpore sistit, et ideo non transcendit 
+          actio<lb break="no" ed="#P" n="26"/>nem servilem. Tertio, addo argumentum a 
+          si<lb break="no" ed="#P" n="27"/>mili : nam scindere arbores, et ligna 
+          collige<lb break="no" ed="#P" n="28"/>re, servile opus est sine controversia; ergo
+          <lb ed="#P" n="29"/>laborare in occisione animalium, et illa 
+          mor<lb break="no" ed="#P" n="30"/>tua defetrre, servile opus est ex genere suo.
+          <lb ed="#P" n="31"/>Patet consequentia, nam haec opera solum
+          <lb ed="#P" n="32"/>differunt, quia in uno major est fatigatio 
+          cor<lb break="no" ed="#P" n="33"/>poris, et minor industria et voluptas, quam
+          <lb ed="#P" n="34"/>in alio reperitur, quae differentia ad rationem
+          <lb ed="#P" n="35"/>servilis operis parum referre videtur.
+        </p>
+        <p>
+          <lb ed="#P" n="36"/>4. Quarto moveor, quia, si non esset opus
+          <lb ed="#P" n="37"/>servile, nullo modo factum esset prohibitum
+          <lb ed="#P" n="38"/>in die festo, ut bene argumentatur Navar.,
+          <lb ed="#P" n="39"/>quia nec specialiter prohibitum invenitur, nec
+          <lb ed="#P" n="40"/>sub generali pronibitione operis servilis 
+          con<lb break="no" ed="#P" n="41"/>tnetur. Prior pars constat, quia in nullo 
+          Ca<lb break="no" ed="#P" n="42"/>none haec specialis prohibitio continetur : 
+          ar<lb break="no" ed="#P" n="43"/>gumentum vero Angeli nuliius momenti est ;
+          <lb ed="#P" n="44"/>tum quia argumentum a simili in his legibus
+          <lb ed="#P" n="45"/>non valet; tum etiam quia assumptum est
+          <lb ed="#P" n="46"/>falsum : nam in diebus Quadragesiniae vel 
+          je<lb break="no" ed="#P" n="47"/>jniorum non est per se prohibita venatio,
+          <lb ed="#P" n="48"/>nec Ambrosius potuit universalem de hoc 
+          le<lb break="no" ed="#P" n="49"/>gem ferre. Unde vel loquitur de venatione
+          <lb ed="#P" n="50"/>illicita, saltem per accidens, quatenus vel in
+          <lb ed="#P" n="51"/>ea interveniunt alia peccata, vel propter eam
+          <lb ed="#P" n="52"/>omittuntur alia praecepta: vel reprehendit 
+          il<lb break="no" ed="#P" n="53"/>lam ut indecentem pro illo tempore, non ut
+          <lb ed="#P" n="54"/>simpliciter prohibitam. Posterior pars satis
+          <lb ed="#P" n="55"/>probata est, quia sub illa generali prohibitio -
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ne non continetur opus, quod de se servile
+          <lb ed="#P" n="57"/>non est, neque illud fit servile ex fine vel aliis
+          <lb ed="#P" n="58"/>circumstantiis. At vero tantam licentiam dare
+          <lb ed="#P" n="59"/>venatoribus in diebus festis, ut simpliciter, ac
+          <lb ed="#P" n="60"/>per se, et quoeumque modo eis liceat, nimium
+          <lb ed="#P" n="61"/>mihi videtur. Et contra illud non parum 
+          ur<lb break="no" ed="#P" n="62"/>get dictum cap. Zicet, de Feriis, ubi piscatio
+          <lb ed="#P" n="63"/>sine dispensatione supponitur esse illicita ;
+          <lb ed="#P" n="64"/>neque enim ibi de novo prohibetur, nec ex
+          <lb ed="#P" n="65"/>alio capite illicita esse supponitur, nisi quia
+          <lb ed="#P" n="66"/>servilis actio est, ut ibi Panormitanus et alii
+          <lb ed="#P" n="67"/>iuterpretes docent. Responderi potest ibi non
+          <lb ed="#P" n="68"/>esse sermonem de venatione, sed de 
+          piscatio<lb break="no" ed="#P" n="69"/>ne ; at hoc parum refert, quia haec opera 
+          ma<lb break="no" ed="#P" n="70"/>terialiter potius quam formaliter differunt:
+          <lb ed="#P" n="71"/>unde eadem ratio operis servilis, quae in uno
+          <lb ed="#P" n="72"/>est, reperitur in alio. Dicunt aliqui, etiam 
+          pis<lb break="no" ed="#P" n="73"/>cationem non esse opus servile, sed habere
+          <lb ed="#P" n="74"/>adjunctas actiones serviles, propter quas 
+          cen<lb break="no" ed="#P" n="75"/>setur prohibita, ut sunt extendere retia, 
+          edu<lb break="no" ed="#P" n="76"/>cere, lavare, item remigare , et similia, quae
+          <lb ed="#P" n="77"/>non videntur in venatione intervenire. Sed
+          <lb ed="#P" n="78"/>profecto istae actiones non tantum ex 
+          adjunc<lb break="no" ed="#P" n="79"/>tis, sed per se etiam sunt serviles, ut ostendi.
+          <lb ed="#P" n="80"/>Et praeterea etiam in venatione necessariae
+          <lb ed="#P" n="81"/>sunt multae actiones laboriosae et serviles, ut
+          <lb ed="#P" n="82"/>exercitio ipso constat, licet fortasse plures cum
+          <lb ed="#P" n="83"/>piscatione conjungantur, praesertim in ea quae
+          <lb ed="#P" n="84"/>in mari fit.
+        </p>
+        <p>
+          <lb ed="#P" n="85"/>5. Haec opera sunt prohibita in festo per
+          <lb ed="#P" n="86"/>se. — Quae liceant em consuetudine. — Hinc
+          <lb ed="#P" n="87"/>ergo ulterius censeo, opus hoc per se 
+          prohibi<lb break="no" ed="#P" n="88"/>tum esse in die festo, quia sub generali 
+          pro<lb break="no" ed="#P" n="89"/>hibitione operis servilis continetur ; nam hoc
+          <lb ed="#P" n="90"/>aperte sequitur ex praecedentibus. Quapropter,
+          <lb ed="#P" n="91"/>si aliqua venatio, recreationis gratia 
+          assum<lb break="no" ed="#P" n="92"/>pta, excipienda est, per modum excusationis
+          <lb ed="#P" n="93"/>eximenda est, non quia per se servilis non
+          <lb ed="#P" n="94"/>sit, nec prohibita. Erit autem excusatio prima
+          <lb ed="#P" n="95"/>ob levitatem materiae, et ex quadam morali
+          <lb ed="#P" n="96"/>necesssitate ad vitandum vel otium, vel pejora
+          <lb ed="#P" n="97"/>opera. Et quidem, si venatio esset moderata,
+          <lb ed="#P" n="98"/>et solum a prandio per duas aut tres horas,
+          <lb ed="#P" n="99"/>mihi non displiceret excusatio, ut supra in 
+          si<lb break="no" ed="#P" n="100"/>mili dixi. Tamen quia difficile est damnare
+          <lb ed="#P" n="101"/>illos omnes, qui majorem sumunt licentiam,
+          <lb ed="#P" n="102"/>ideo potest addi alia excusatio ex 
+          consuetudi<lb break="no" ed="#P" n="103"/>ne, quae potest legem remittere, quae videtur
+          <lb ed="#P" n="104"/>in hac parte praevaluisse scientibus et 
+          toleran<lb break="no" ed="#P" n="105"/>tibus pastoribus Ecclesiae, quamvis fortasse
+          <lb ed="#P" n="106"/>introducta fuerit ex apprehensione , et vulgi
+          <lb ed="#P" n="107"/>existimatione, quod venationem nobili modo
+          <lb ed="#P" n="108"/>exercitam non reputant opus servile, neque
+          <lb ed="#P" n="109"/>inde scandalum sumunt, etiamsi in die festo
+          <lb ed="#P" n="110"/>fiat.
+        </p>
+        <p>
+          <pb ed="#P" n="359"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>6. Unde etiam piscatio in fluminibus 
+          re<lb break="no" ed="#P" n="2"/>creationis gratia facta, ex eadem consuetudine
+          <lb ed="#P" n="3"/>licet, maxime quando est moderata, et sine
+          <lb ed="#P" n="4"/>magno labore ministrantium in illa. Alia
+          <lb ed="#P" n="5"/>vero, quae fit in mari, non est in 
+          consuetudi<lb break="no" ed="#P" n="6"/>ne, nisi propter peculiarem necessitatem, et
+          <lb ed="#P" n="7"/>ideo non licet ; et de hac maxime loquitur
+          <lb ed="#P" n="8"/>dictum cap. Licet. laque in hoc differimus
+          <lb ed="#P" n="9"/>ab aliis auctoribus, quod non approbamus
+          <lb ed="#P" n="10"/>hanc actionem per se, et ad improbandam
+          <lb ed="#P" n="11"/>illam , tanquam aliquando servilem, 
+          circum<lb break="no" ed="#P" n="12"/>stantias extrinsecas quaerimus, ut faciebat
+          <lb ed="#P" n="13"/>prima opinio, quia hoc non potest consequenti
+          <lb ed="#P" n="14"/>ratione fieri, ut secunda opinio recte 
+          argu<lb break="no" ed="#P" n="15"/>mentatur ; sed e contrario per se dicimus 
+          pro<lb break="no" ed="#P" n="16"/>hiberi, in casu vero, vel tali modo factam 
+          per<lb break="no" ed="#P" n="17"/>mitti ex ratione speciali, vel consuetudine,
+          <lb ed="#P" n="18"/>quod in operibus lege humana prohibitis 
+          fa<lb break="no" ed="#P" n="19"/>cillimum est.
+        </p>
+        <p>
+          <lb ed="#P" n="20"/>7. Bellandi actus an servilis. — Tandem
+          <lb ed="#P" n="21"/>dubitari potest de actu bellandi, an sit 
+          ser<lb break="no" ed="#P" n="22"/>vilis, et prohibitus in die festo, sive justum
+          <lb ed="#P" n="23"/>sit bellum, sive injustum ; hoc enim non 
+          va<lb break="no" ed="#P" n="24"/>riat rationem prohibitionis, ut ex dictis 
+          con<lb break="no" ed="#P" n="25"/>stat. Videtur ergo hoc opus non esse servile,
+          <lb ed="#P" n="26"/>quia non est opus servorum, sed potius 
+          inge<lb break="no" ed="#P" n="27"/>nuorum, et nobilium hominum, ut ex usu
+          <lb ed="#P" n="28"/>constat, et hominum aestimatione, et Arist., 3
+          <lb ed="#P" n="29"/>Ethic., cap. 6, et sumitur ex 2 Polit., cap. 7,
+          <lb ed="#P" n="30"/>quatenus ibi dicit Aristoteles vitam militarem
+          <lb ed="#P" n="31"/>continere multas virtutis partes. Secundo,
+          <lb ed="#P" n="32"/>quia, ut juristae dicunt, militia et studium in
+          <lb ed="#P" n="33"/>honore et ingenuitate comparantur : at 
+          stu<lb break="no" ed="#P" n="34"/>dium non est opus servile, nec prohibitum in
+          <lb ed="#P" n="35"/>festo, ut dictum est; ergo nec militia. De qua
+          <lb ed="#P" n="36"/>ratione videri possunt juris civilis interpretes
+          <lb ed="#P" n="37"/>l. Advocati , C. de Advocat. diversor. judic.;
+          <lb ed="#P" n="38"/>et Panorm., in cap. de Feriis, num. 4. Tertio,
+          <lb ed="#P" n="39"/>ex l. Divcus. ff. de Ferüs, ubi dicitur ea quae
+          <lb ed="#P" n="40"/>ad militarem disciplinam pertinent , etiam
+          <lb ed="#P" n="41"/>diebus feriatis esse peragenda, ubi Glossa id
+          <lb ed="#P" n="42"/>notat, et in l. Omnes judices, C. de Fer., et
+          <lb ed="#P" n="43"/>utraque Glossa plane docere videtur, non 
+          mi<lb break="no" ed="#P" n="44"/>nus esse licitam actionem militiae in die festo,
+          <lb ed="#P" n="45"/>quam studium. Et confirmatur, quia si 
+          mili<lb break="no" ed="#P" n="46"/>tare esset illicitum in festo, etiam privatim
+          <lb ed="#P" n="47"/>rixare et pugnare esset speciale peccatum in
+          <lb ed="#P" n="48"/>die festo, et multo magis in privato duello
+          <lb ed="#P" n="49"/>congredi in die festo; consequens videtur 
+          fal<lb break="no" ed="#P" n="50"/>sum, quia non magis hoc peccatum habet 
+          spe<lb break="no" ed="#P" n="51"/>cialen malitiam ex circumstantia temporis
+          <lb ed="#P" n="52"/>festi, quam alia.
+        </p>
+        <p>
+          <lb ed="#P" n="53"/>8. Bellandi opus servile esse. — Hoc vero
+          <lb ed="#P" n="54"/>dubium, eodem modo quo praecedens, 
+          expe<lb break="no" ed="#P" n="55"/>diendum videtur. Unde assero imprimis opus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>actualis militiae, seu pugnae, de se servile esse.
+          <lb ed="#P" n="57"/>Loquor de opere ipso quoad executionem ;
+          <lb ed="#P" n="58"/>nam regere militiam, et ordinare necessaria
+          <lb ed="#P" n="59"/>ad illam, liberale opus est, quia est potius
+          <lb ed="#P" n="60"/>opus mentis, quam corporis; at ipse actualis
+          <lb ed="#P" n="61"/>pugnae congressus, opus servile est. Primo,
+          <lb ed="#P" n="62"/>quia hoc modo etiam militaris ars inter 
+          me<lb break="no" ed="#P" n="63"/>chanicas computatur, et non est dubium quin
+          <lb ed="#P" n="64"/>artifices, qui juvenes docent ensium et 
+          armo<lb break="no" ed="#P" n="65"/>rum usum, mechanici censeantur. Unde non
+          <lb ed="#P" n="66"/>dubito quin de se sit servile opus, per 
+          actua<lb break="no" ed="#P" n="67"/>lem usum membrorum corporis et 
+          instrumen<lb break="no" ed="#P" n="68"/>torum pugnae, exerceri in docenda vel 
+          addis<lb break="no" ed="#P" n="69"/>cenda hujusmodi arte ; et ita usu ipso constat
+          <lb ed="#P" n="70"/>id non fieri, nec permitti in die festo. Secundo,
+          <lb ed="#P" n="71"/>quia si intendere occisioni ferarum opus 
+          ser<lb break="no" ed="#P" n="72"/>vile est, cur non magis intendere occisioni 
+          ho<lb break="no" ed="#P" n="73"/>minum ? unde rationes factae de venatione
+          <lb ed="#P" n="74"/>cum proportione ad militiam, quae dici potest
+          <lb ed="#P" n="75"/>hominum venatio , applicari possunt : est
+          <lb ed="#P" n="76"/>enim haec actio mere corporalis, et laboriosa,
+          <lb ed="#P" n="77"/>et circa effectus corporales omnino insistens.
+          <lb ed="#P" n="78"/>Simile argumentum est, quod usus chirurgiae
+          <lb ed="#P" n="79"/>censetur opus mechanicum, et de se servile;
+          <lb ed="#P" n="80"/>ergo et militare.
+        </p>
+        <p>
+          <lb ed="#P" n="81"/>9. Tertio ad hoc opus habet respublica suos
+          <lb ed="#P" n="82"/>ministros deputatos, qui sub ea ratione servi
+          <lb ed="#P" n="83"/>reputantur. Neque refert quod ille actus 
+          tio<lb break="no" ed="#P" n="84"/>bilis videatur , et ideo ab ingenuis et 
+          no<lb break="no" ed="#P" n="85"/>bilibus indifferenter exerceatur ; habet enim
+          <lb ed="#P" n="86"/>nobilitatem suam non ex fine proximo, ex quo
+          <lb ed="#P" n="87"/>attenditur ratio operis servilis : quid enim
+          <lb ed="#P" n="88"/>magis servile, quam homines occidere? sed
+          <lb ed="#P" n="89"/>habet illam nobilitatem tum ex fine remoto,
+          <lb ed="#P" n="90"/>quia ad reipublicae defensionem, et ad famam,
+          <lb ed="#P" n="91"/>et ad nobilitatem captandam ordinatur ; tum
+          <lb ed="#P" n="92"/>etiam ex eo quod , si justa causa fiat, insignis
+          <lb ed="#P" n="93"/>actus virtutis fortitudinis est, et indicium 
+          prae<lb break="no" ed="#P" n="94"/>stantis animi, et fortis corporis, et magnarum
+          <lb ed="#P" n="95"/>virium. Et hoc solum probat ratio prima in
+          <lb ed="#P" n="96"/>contrarium facta ; et ideo non obstat 
+          quomi<lb break="no" ed="#P" n="97"/>nus hoc opus ex se servile sit, licet aliunde
+          <lb ed="#P" n="98"/>nobilitatem accipiat. Nec etiam obstat ratio
+          <lb ed="#P" n="99"/>secunda, quia illa aequiparatio studii, et 
+          mili<lb break="no" ed="#P" n="100"/>tiae non est accipienda in omnibus, et maxime
+          <lb ed="#P" n="101"/>in intrinsecis conditionibus ipsorum operum ,
+          <lb ed="#P" n="102"/>sed in utilitate et necessitate eorum ad 
+          commu<lb break="no" ed="#P" n="103"/>ne bonum reipublicae, et in aliquibus 
+          privile<lb break="no" ed="#P" n="104"/>eiis, quae illis in jure conceduntur, et ideo 
+          ar<lb break="no" ed="#P" n="105"/>gumentum ab studio ad militiam in praesenti
+          <lb ed="#P" n="106"/>nullius momenti est. De tertia vero ratione
+          <lb ed="#P" n="107"/>dicetur statim.
+        </p>
+        <p>
+          <lb ed="#P" n="108"/>10. Bellandi actio per se est prohibita in
+          <lb ed="#P" n="109"/>festo. — Secundo consequenter assero, 
+          actua<lb break="no" ed="#P" n="110"/>lem militiam per se esse prohibitam in die
+          <pb ed="#P" n="360"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>festo, licet per accidens, et ex causa interdum
+          <lb ed="#P" n="2"/>toleretur , et permittatur. Primum docuit
+          <lb ed="#P" n="3"/>Abbas ex Anton., in cap. 1 de Fer., dicens,
+          <lb ed="#P" n="4"/>licere militare in diebus feriatis, jure civili,
+          <lb ed="#P" n="5"/>non tamen canonico ; et allegat cap. 1 de
+          <lb ed="#P" n="6"/>Treuga et pace, qui textus nihil probat, tum
+          <lb ed="#P" n="7"/>quia non est ibi sermo de festis, sed de 
+          Ad<lb break="no" ed="#P" n="8"/>ventu, Quadragesima, et aliis quibusdam 
+          die<lb break="no" ed="#P" n="9"/>bus ; tum etiam quia lex illa derogata fuit per
+          <lb ed="#P" n="10"/>contrariam consuetudinem. Melius videtur
+          <lb ed="#P" n="11"/>probari ex cap. Quod non licet , de Reg. jur.,
+          <lb ed="#P" n="12"/>ubi inter ea quae non licent in die festo, nisi
+          <lb ed="#P" n="13"/>ob necessitatem, ponitur militare. Sed nec 
+          il<lb break="no" ed="#P" n="14"/>lud decretum cogit, quia ibi solum generalis
+          <lb ed="#P" n="15"/>regula constituitur, quod necessitas facit 
+          lici<lb break="no" ed="#P" n="16"/>tum, quod non erat; aliud vero de militia 
+          so<lb break="no" ed="#P" n="17"/>lum adducitur in exemplum ex Machabaeis,
+          <lb ed="#P" n="18"/>quorum tempore militia extra necessitatem in
+          <lb ed="#P" n="19"/>sabbatho erat prohibita. Potest autem quis 
+          di<lb break="no" ed="#P" n="20"/>cere, illud fuisse, quia in lege Judaeorum non
+          <lb ed="#P" n="21"/>solum prohibebatur servile opus in sabbatho,
+          <lb ed="#P" n="22"/>sed simpliciter opus. An vero illud exemplum
+          <lb ed="#P" n="23"/>etiam in lege nova verum habeat, ibi non 
+          de<lb break="no" ed="#P" n="24"/>claratur. Ratione ego probandum hoc est ex
+          <lb ed="#P" n="25"/>principio posito, quia illud opus de se servile
+          <lb ed="#P" n="26"/>est; ergo per se continetur sub generali 
+          pro<lb break="no" ed="#P" n="27"/>hibitione.
+        </p>
+        <p>
+          <lb ed="#P" n="28"/>11. Altera vero pars constat, quia duplex
+          <lb ed="#P" n="29"/>est bellum, aggressivum et defensivum. 
+          De<lb break="no" ed="#P" n="30"/>fensivum ergo est licitum in die festo 
+          ratio<lb break="no" ed="#P" n="31"/>ne necessitatis; et de hac militia loquitur lex
+          <lb ed="#P" n="32"/>civilis supra citata, ut sensit, cum Anton.,
+          <lb ed="#P" n="33"/>Abb., in d. cap. 1 de Fer.; et sic concordat jus
+          <lb ed="#P" n="34"/>canonicum cum cirvili ; Glos. per textum in
+          <lb ed="#P" n="35"/>cap. Si nulla, 23, quaest. 8. et notavit Glos.,
+          <lb ed="#P" n="36"/>in cap. 1 de Treuga, et pace. Bellum autem
+          <lb ed="#P" n="37"/>aggressivum ordinarie non licet in die festo;
+          <lb ed="#P" n="38"/>sed per epiikiam et dispensationem, d. cap.
+          <lb ed="#P" n="39"/>Licet, de Fer. (cum proportione applicatam),
+          <lb ed="#P" n="40"/>licebit in bello justo, si se offerat bona occasio
+          <lb ed="#P" n="41"/>comparandi victoriam , quae semel amissa
+          <lb ed="#P" n="42"/>non facile solet redire, et ita patet responsio
+          <lb ed="#P" n="43"/>ad tertiam rationem in principio objectam.
+          <lb ed="#P" n="44"/>Et ad confirmatione, dicendum est cum 
+          ea<lb break="no" ed="#P" n="45"/>dem proportione loquendum esse de privato
+          <lb ed="#P" n="46"/>duello aut rixa. Adde solere tempore pacis
+          <lb ed="#P" n="47"/>fieri in die festo quasdam exercitationes et 
+          de<lb break="no" ed="#P" n="48"/>nonstrationes militares quae in consuetudine
+          <lb ed="#P" n="49"/>sunt, et damnari non possunt, non solum 
+          ra<lb break="no" ed="#P" n="50"/>tione consuetudinis, sed etiam ratione moralis
+          <lb ed="#P" n="51"/>necessitatis ad publicam custodiam civitatis,
+          <lb ed="#P" n="52"/>quia non possunt commode aliis diebus fieri,
+          <lb ed="#P" n="53"/>ac denique quia illa, quae tunc fiunt, aut 
+          pa<lb break="no" ed="#P" n="54"/>rum , aut nihil de servilibus operibus habent,
+          <lb ed="#P" n="55"/>et ad memoriam potius exercendam, vel co-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gnitionem personarum habendam, quam ad
+          <lb ed="#P" n="57"/>exercendam militiam ordinantur ; et si aliquis
+          <lb ed="#P" n="58"/>servile miscetur, ex aliis causis honestatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

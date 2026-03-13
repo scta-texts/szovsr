@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 14</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 14</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="135"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k03332"><!-- t2-l1c14 -->
+        <head>Caput 14</head>
+        <head type="question-title">Quid possit summus pontifex in remittendis vel dispensandis decimis.</head>
+        <p>
+          <lb ed="#P" n="32"/>CAPUT XIV.
+          <lb ed="#P" n="33"/>QUID POSSIT SUMMUS PONTIFEX IN REMITTENDIS VEL
+          <lb ed="#P" n="34"/>DISPENSANDIS DECIMIS.
+        </p>
+        <p>
+          <lb ed="#P" n="35"/>1 Prima difficultas, an Pontifex possit 
+          ab<lb break="no" ed="#P" n="36"/>rogare totam legem decimarum. — Ex 
+          potes<lb break="no" ed="#P" n="37"/>tate Summi Pontificis, insurgit specialis 
+          diffi<lb break="no" ed="#P" n="38"/>cultas circa doctrinam capitis undecimi, quae
+          <lb ed="#P" n="39"/>hoc loco expedienda est, et simul 
+          declarabi<lb break="no" ed="#P" n="40"/>mus quantum extendatur potestas pontificia,
+          <lb ed="#P" n="41"/>vel prout in ipso est, vel prout participatur
+          <lb ed="#P" n="42"/>ab aliis Episcopis, tam circa jus decimarum,
+          <lb ed="#P" n="43"/>quam circa proventus seu redditus ipsos. Quod
+          <lb ed="#P" n="44"/>magna ex parte attingit materiam de 
+          bene<lb break="no" ed="#P" n="45"/>ficiis, non tamen involvemus illam, sed 
+          tan<lb break="no" ed="#P" n="46"/>tum nonnulla fundamenta jaciemus. 
+          Difficul<lb break="no" ed="#P" n="47"/>tas ergo est, quia videtur sequi ex dictis,
+          <lb ed="#P" n="48"/>Pontificem Summum posse abrogare totam
+          <lb ed="#P" n="49"/>legem decimarum, salva tantum congrua 
+          su<lb break="no" ed="#P" n="50"/>stentatione clericorum. Consequens nulla 
+          ra<lb break="no" ed="#P" n="51"/>tionc videtur admittendum, quia esset in 
+          ma<lb break="no" ed="#P" n="52"/>gnam perniciem Ecclesiae, et in destructionem,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>et non aedificationem; ergo. Sequela patet,
+          <lb ed="#P" n="54"/>quia dictum est praeceptum decimarum, quoad
+          <lb ed="#P" n="55"/>quotam, esse mere ecclesiasticum, solumque
+          <lb ed="#P" n="56"/>pertinere ad jus divinum naturale ratione
+          <lb ed="#P" n="57"/>congrui stipendii : Pontifex autem potest 
+          ab<lb break="no" ed="#P" n="58"/>rogare totum id quod est de solo jure 
+          eccle<lb break="no" ed="#P" n="59"/>siastico, quia totum pendet ex voluntate 
+          ip<lb break="no" ed="#P" n="60"/>sius, quia per quam voluntatem introductum
+          <lb ed="#P" n="61"/>est, potest etiam tolli; nam si affirmatio est
+          <lb ed="#P" n="62"/>causa adaequata affirmationis, negatio erit 
+          ne<lb break="no" ed="#P" n="63"/>gationis.
+        </p>
+        <p>
+          <lb ed="#P" n="64"/>2. Secunda, an possit sibi capere decimas,
+          <lb ed="#P" n="65"/>relinguendo ecclesiasticis sufficiens stipendium.
+          <lb ed="#P" n="66"/>— Tertia, an possit liberare a decimis quem
+          <lb ed="#P" n="67"/>voluerit. — Secunda difficultas est, quia 
+          se<lb break="no" ed="#P" n="68"/>quitur posse Pontificem sibi usurpare totas
+          <lb ed="#P" n="69"/>decimas quoad quotam, relinquendo caeteris
+          <lb ed="#P" n="70"/>inferioribus omnibus ecclesiasticis ministris
+          <lb ed="#P" n="71"/>solum certum stipendium, sufficiens ad 
+          con<lb break="no" ed="#P" n="72"/>gruam sustentationem, juxta uniuscujusque
+          <lb ed="#P" n="73"/>statum. Consequens est durissimum, et nulio
+          <lb ed="#P" n="74"/>modo admittendum. Sequela patet, quia 
+          Pon<lb break="no" ed="#P" n="75"/>tifex habet in se supremam potestatem ; ergo
+          <lb ed="#P" n="76"/>in rigore solum tenetur ad id, ad quod jure
+          <lb ed="#P" n="77"/>divino naturali obligatur , nam positivum
+          <lb ed="#P" n="78"/>ipse potest mutare; sed dando aliis stipendium
+          <lb ed="#P" n="79"/>sufficiens, satisfacit juri divino naturali; ergo
+          <lb ed="#P" n="80"/>usurpando reliqua, contra nullam legem 
+          fa<lb break="no" ed="#P" n="81"/>cit: ergo potest licite id facere. Tertia 
+          diffi<lb break="no" ed="#P" n="82"/>cultas similis est, quia sequitur posse 
+          Pontifi<lb break="no" ed="#P" n="83"/>cem suo arbitrio liberare quem voluerit a 
+          de<lb break="no" ed="#P" n="84"/>bito solvendi decimas, et dare, cum voluerit,
+          <lb ed="#P" n="85"/>jus recipiendi illas, vel applicare illas ad
+          <lb ed="#P" n="86"/>hunc vel illum locum, aut personam, ita ut
+          <lb ed="#P" n="87"/>etiam licite id faciat, si ex rationabili causa,
+          <lb ed="#P" n="88"/>vel saltem valide, etiamsi absque illa pro sola
+          <lb ed="#P" n="89"/>voluntate faciat. Consequens autem non est
+          <lb ed="#P" n="90"/>admittendum; ergo. Sequela probatur eodem
+          <lb ed="#P" n="91"/>modo quo aliae, quia in omnibus illis factis
+          <lb ed="#P" n="92"/>nihil est contra jus naturale, sed tantum 
+          con<lb break="no" ed="#P" n="93"/>tra ecclesiasticum.
+        </p>
+        <p>
+          <lb ed="#P" n="94"/>3. Quorumdam opinio. — Circa quaestionem
+          <lb ed="#P" n="95"/>hanc multi ex Canonistis docuerunt, Summum
+          <lb ed="#P" n="96"/>Pontificem non posse tollere in totum, seu 
+          ab<lb break="no" ed="#P" n="97"/>solute et simpliciter praeceptum de decima
+          <lb ed="#P" n="98"/>solvenda, etiam quoad quotam; sed solum
+          <lb ed="#P" n="99"/>posse eximere aliquem ab hac obligatione, et
+          <lb ed="#P" n="100"/>concedere huic vel illi usum aut jus 
+          decima<lb break="no" ed="#P" n="101"/>rum. Ita tenuit Glossa, in cap. A nobis, de
+          <lb ed="#P" n="102"/>Decimis, quam scribentes fere sequuntur, 
+          Hos<lb break="no" ed="#P" n="103"/>tiens., Joann. Andr., Panorm., et alii, tum
+          <lb ed="#P" n="104"/>ibi, tum etiam in cap. Zicet, et c. Ad 
+          audien<lb break="no" ed="#P" n="105"/>tiam. et c. Ez parte tua, eodem titul. 
+          Fun<lb break="no" ed="#P" n="106"/>dantur autem quoad primum dictum in hoc,
+          <lb ed="#P" n="107"/>quod praeceptum decimarum est divinum, et
+          <pb ed="#P" n="136"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ideo non potest in totum abrogari a Papa.
+          <lb ed="#P" n="2"/>Confirmant hoc et declarant, quia Deus ipse
+          <lb ed="#P" n="3"/>retinuit sibi decimas in signum universalis
+          <lb ed="#P" n="4"/>dominii, juxta cap. Tua nobis, de Decimis;
+          <lb ed="#P" n="5"/>non potest autem Papa facere quin homines
+          <lb ed="#P" n="6"/>recognoscant Deum ut universalem 
+          domi<lb break="no" ed="#P" n="7"/>num.
+        </p>
+        <p>
+          <lb ed="#P" n="8"/>4. Posse aliquos ewimi a decimis. — 
+          Ni<lb break="no" ed="#P" n="9"/>hilominus vero addunt posse Pontificem 
+          exi<lb break="no" ed="#P" n="10"/>mere aliquos particulares ab onere solvendi
+          <lb ed="#P" n="11"/>decimas, quia potest, inquiunt, remittere ex
+          <lb ed="#P" n="12"/>parte jus divinum et naturale. Ponit Glossa
+          <lb ed="#P" n="13"/>illa exemplum in jure libertatis humanae,
+          <lb ed="#P" n="14"/>quod naturale est, et ideo non potest in totum
+          <lb ed="#P" n="15"/>tolli; non enim possunt omnes homines fieri
+          <lb ed="#P" n="16"/>servi; potest autem ex parte remitti, quia 
+          pos<lb break="no" ed="#P" n="17"/>sunt aliqui in servitutem redigi. Aliter vero
+          <lb ed="#P" n="18"/>Panorm. et Hostiensis, cum existiment 
+          prae<lb break="no" ed="#P" n="19"/>ceptum hoc decimarum pertinere ad moralia,
+          <lb ed="#P" n="20"/>differentiam constituunt inter illud et alia
+          <lb ed="#P" n="21"/>moralia, quod alia non possunt per 
+          Pontifi<lb break="no" ed="#P" n="22"/>cem tolli nec remitti, quia continent 
+          imniu<lb break="no" ed="#P" n="23"/>tabilem honestatem. In hoc autem praecepto
+          <lb ed="#P" n="24"/>duplicem distinguunt considerationem : una
+          <lb ed="#P" n="25"/>est, quatenus ordinatur ad recognitionem 
+          su<lb break="no" ed="#P" n="26"/>premi dominii Dei, et hac ratione dicunt non
+          <lb ed="#P" n="27"/>posse tolli omnino a Papa. Alia consideratio
+          <lb ed="#P" n="28"/>est, quatenus concernit commodum 
+          clerico<lb break="no" ed="#P" n="29"/>rum, et hac ratione dicunt posse ex parte, et
+          <lb ed="#P" n="30"/>quoad aliquas personas remitti. De tertio 
+          au<lb break="no" ed="#P" n="31"/>tem puncto, scilicet de potestate applicandi
+          <lb ed="#P" n="32"/>decimam, ad hanc vel illam personam, ait
+          <lb ed="#P" n="33"/>Panormitanus rem esse claram, quando 
+          per<lb break="no" ed="#P" n="34"/>sonae sunt ecclesiasticae, quia ibi nihil fit 
+          con<lb break="no" ed="#P" n="35"/>tra praeceptum divinum, seu ad summum
+          <lb ed="#P" n="36"/>contra ecclesiasticum. Si vero decimae 
+          confe<lb break="no" ed="#P" n="37"/>rantur laico, est inter Canonistas nonnulla
+          <lb ed="#P" n="38"/>dissensio, quam in sequentibus attingemus:
+          <lb ed="#P" n="39"/>nunc de duobus primis punctis pauca dicenda
+          <lb ed="#P" n="40"/>sunt.
+        </p>
+        <p>
+          <lb ed="#P" n="41"/>5. Refellitur primum Canonistarum 
+          dic<lb break="no" ed="#P" n="42"/>tum. — Primum ergo dictum Canonistarum
+          <lb ed="#P" n="43"/>falso nititur fundamento, quia, ut 
+          ostendi<lb break="no" ed="#P" n="44"/>mus, totum hoc praeceptum decimarum non
+          <lb ed="#P" n="45"/>est de jure divino mere positivo, quia jus 
+          po<lb break="no" ed="#P" n="46"/>sitivum legis veteris omnino cessavit; in lege
+          <lb ed="#P" n="47"/>autem evangelica, nullum est jus positivum
+          <lb ed="#P" n="48"/>divinum de decima quoad quotam; et licet
+          <lb ed="#P" n="49"/>inveniatur jus evangelicum de decima 
+          susten<lb break="no" ed="#P" n="50"/>tationis, illud non est proprie positivum, sed
+          <lb ed="#P" n="51"/>est explicatio juris naturalis, quod in Ecclesia
+          <lb ed="#P" n="52"/>locum habet, supposita institutione ejus et
+          <lb ed="#P" n="53"/>ministrorum illius. Ex hoc ergo jure divino
+          <lb ed="#P" n="54"/>solum potest colligi, Pontificem non posse 
+          dis<lb break="no" ed="#P" n="55"/>pensare, aut efficere quominus ministris evan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gelicis congrua sustentatio debeatur, quia hoc
+          <lb ed="#P" n="57"/>est contra jus naturale. Si autem ipse alio
+          <lb ed="#P" n="58"/>sufficienti modo provideat clericis et Ecclesiis
+          <lb ed="#P" n="59"/>de sustentatione congrua, ex illo principio
+          <lb ed="#P" n="60"/>non potest ostendi hoc esse extra Pontificis
+          <lb ed="#P" n="61"/>potestatem. Nec confirmatio illa de 
+          recogni<lb break="no" ed="#P" n="62"/>tione universalis dominii divini ahcujus 
+          mo<lb break="no" ed="#P" n="63"/>menti est ; nam, licet sit de jure naturali haec
+          <lb ed="#P" n="64"/>recognitio, et protestatio illius per aliquod
+          <lb ed="#P" n="65"/>signum sensibile, determinatio autem hujus
+          <lb ed="#P" n="66"/>signi per solutionem decimae non est de puro
+          <lb ed="#P" n="67"/>jure naturali, ut est evidens ex dictis in 
+          prin<lb break="no" ed="#P" n="68"/>cipio hujus libri. Quod si illa determinatio
+          <lb ed="#P" n="69"/>facta est in lege veteri, quoad illam fuit jus
+          <lb ed="#P" n="70"/>illud positivum et temporale, licet divinum;
+          <lb ed="#P" n="71"/>et inde jam nunc non obligat, ut lex divina
+          <lb ed="#P" n="72"/>fuit. Ac subinde si talis determinatio nunc
+          <lb ed="#P" n="73"/>etiam est in lege gratiae, solum est in 
+          quan<lb break="no" ed="#P" n="74"/>tum Ecclesia vult illam facere, et in ea 
+          imi<lb break="no" ed="#P" n="75"/>tari antiquum jus divinum ; et ideo. quantum
+          <lb ed="#P" n="76"/>est ex hoc capite, per eamdem Ecclesiam
+          <lb ed="#P" n="77"/>poterit talis determinatio auferri, et constitui
+          <lb ed="#P" n="78"/>ut illa recognitio universalis dominii Dei fiat
+          <lb ed="#P" n="79"/>per alias oblationes, vel contributiones, 
+          prae<lb break="no" ed="#P" n="80"/>terquam quod etiam fit per divinum 
+          sacrifi<lb break="no" ed="#P" n="81"/>cium.
+        </p>
+        <p>
+          <lb ed="#P" n="82"/>6. Refellitur secundum punctum.—Praeterea
+          <lb ed="#P" n="83"/>in secundo puncto non satis constanter 
+          loquun<lb break="no" ed="#P" n="84"/>tur. Nam verum jus divinum, ut supra dixi,
+          <lb ed="#P" n="85"/>non solum non potest in totum auferri, verum
+          <lb ed="#P" n="86"/>etiam nec diminui circa propriam materiam
+          <lb ed="#P" n="87"/>suam. Quod imprimis clarum est in jure 
+          natu<lb break="no" ed="#P" n="88"/>rali, seu morali proprio, id est, quod ex se 
+          ne<lb break="no" ed="#P" n="89"/>cessarium est, seclusa omni lege positiva, 
+          di<lb break="no" ed="#P" n="90"/>vina et humana: nam quod est contrarium
+          <lb ed="#P" n="91"/>tali juri naturali, intrinsece malum est, et
+          <lb ed="#P" n="92"/>prohibitum quia malum, non malum quia 
+          pro<lb break="no" ed="#P" n="93"/>hibitum ; et ideo in quocumque individuo 
+          sem<lb break="no" ed="#P" n="94"/>per est malum, quia semper secum defert 
+          in<lb break="no" ed="#P" n="95"/>trinsecam rationem suam; ergo tale jus non
+          <lb ed="#P" n="96"/>solum in totum, sed etiam quoad 
+          quamcum<lb break="no" ed="#P" n="97"/>que partem immutabile et irremissibile est,
+          <lb ed="#P" n="98"/>maxime per potestatem homini concessam.
+          <lb ed="#P" n="99"/>Neque exemplum adductum a Glossa ad rem
+          <lb ed="#P" n="100"/>facit, quia, quod homines sint liberi, et non
+          <lb ed="#P" n="101"/>servi, non est de jure naturali praeceptivo (ut
+          <lb ed="#P" n="102"/>sic dicam), sed de jure naturali concessivo,
+          <lb ed="#P" n="103"/>seu creativo ( ut sic etiam rem declarem); si
+          <lb ed="#P" n="104"/>enim puram naturam hominis consideremus,
+          <lb ed="#P" n="105"/>ab illa habent homines naturaliter ut liberi
+          <lb ed="#P" n="106"/>procreentur. Non est autem aliqua lex 
+          natura<lb break="no" ed="#P" n="107"/>lis, quae praecipiat ut homines in illa libertate
+          <lb ed="#P" n="108"/>conserventur aut generentur semper. Et ita
+          <lb ed="#P" n="109"/>cum jus libertatis dicitur naturale, illud jus
+          <lb ed="#P" n="110"/>non est proprie lesale, sed dominativum, ut
+          <pb ed="#P" n="137"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>supra in simili distinxi ; quia videlicet 
+          domi<lb break="no" ed="#P" n="2"/>nium libertatis, seu propriarum actionum, 
+          na<lb break="no" ed="#P" n="3"/>turale est, et ideo auferri non potest, nisi ex
+          <lb ed="#P" n="4"/>legitima causa et potestate; nam quod hoc
+          <lb ed="#P" n="5"/>modo auferatur, non est prohibitum praecepto
+          <lb ed="#P" n="6"/>naturali. Et in idem cedit, quod alias dici 
+          so<lb break="no" ed="#P" n="7"/>et, libertatem esse de jure naturae negative,
+          <lb ed="#P" n="8"/>non affirmative, quia lex naturalis non facit
+          <lb ed="#P" n="9"/>hominem servum, neque etiam positive 
+          prae<lb break="no" ed="#P" n="10"/>cipit ut semper sit liber. In illo ergo exemplo
+          <lb ed="#P" n="11"/>nec tollitur, nec remittitur jus naturale 
+          prae<lb break="no" ed="#P" n="12"/>ceptivum, de quo tantum in praesenti sermo
+          <lb ed="#P" n="13"/>est.
+        </p>
+        <p>
+          <lb ed="#P" n="14"/>7. Differentiam supra traditam non 
+          subsi<lb break="no" ed="#P" n="15"/>stere. — Objectioni respondetur. — Differentia
+          <lb ed="#P" n="16"/>autem a Panormitano et Hostiensi assignata,
+          <lb ed="#P" n="17"/>inter hoc praeceptum et alia moralia, subsistere
+          <lb ed="#P" n="18"/>non potest, supponendo, ut supponunt, hoc
+          <lb ed="#P" n="19"/>etiam praeceptum morale esse. Nam si jus 
+          na<lb break="no" ed="#P" n="20"/>turae determinate praecipit ut homines 
+          haben<lb break="no" ed="#P" n="21"/>tes fructus terrae, solvant Deo quasi tributum
+          <lb ed="#P" n="22"/>decimae partis, in recognitionem universalis
+          <lb ed="#P" n="23"/>dominii ejus, nullus hominum poterit eximi
+          <lb ed="#P" n="24"/>ab hac lege, sicut nullus filius eximi potest a
+          <lb ed="#P" n="25"/>lege honorandi parentes, et sicut nullus 
+          homi<lb break="no" ed="#P" n="26"/>num potest eximi a lege colendi Deum cultu
+          <lb ed="#P" n="27"/>externo illi naturaliter debito, quicumque 
+          tan<lb break="no" ed="#P" n="28"/>dem ille sit. Quapropter ex illo principio non
+          <lb ed="#P" n="29"/>solum deherent concludere, hanc 
+          recognitio<lb break="no" ed="#P" n="30"/>nem divini dominii non posse in universum
+          <lb ed="#P" n="31"/>auferri, verum etiam nec posse diminui, aut
+          <lb ed="#P" n="32"/>aliquem ab illa eximi. Verumtamen quia jus
+          <lb ed="#P" n="33"/>illud quoad talem determinationem, ut dixi,
+          <lb ed="#P" n="34"/>naturale non est, ideo, quantum est ex hoc
+          <lb ed="#P" n="35"/>capite, non minus in totum auferri, quam ex
+          <lb ed="#P" n="36"/>parte remitti potest. Addo quod, licet hoc jus
+          <lb ed="#P" n="37"/>esset positivum divinum, nihilominus 
+          dicen<lb break="no" ed="#P" n="38"/>dum jam esset non posse ex parteremitti magis
+          <lb ed="#P" n="39"/>quam auferri in totum, quia non potest 
+          Ponti<lb break="no" ed="#P" n="40"/>fex dispensare in jure divino positivo, nisi
+          <lb ed="#P" n="41"/>fortasse in casu sibi specialiter concesso. Unde
+          <lb ed="#P" n="42"/>sicut non potest auferre praeceptum divinum
+          <lb ed="#P" n="43"/>confitendi vel communicandi, ita non potest
+          <lb ed="#P" n="44"/>cum aliqua personain talibus praeceptis 
+          dispen<lb break="no" ed="#P" n="45"/>sare. Dices posse Pontificem remittere decimas
+          <lb ed="#P" n="46"/>debitas Ecclesiae, etiamsi debeantur jure 
+          divi<lb break="no" ed="#P" n="47"/>no, quia hoc non est dispensare in praecepto
+          <lb ed="#P" n="48"/>divino. Respondeo imprimis hoc non satis
+          <lb ed="#P" n="49"/>esse, ut dicatur remittere ipsum jus divinum
+          <lb ed="#P" n="50"/>in parte. Nam hoc modo quilibet parochus,
+          <lb ed="#P" n="51"/>vel beneficiatus habens jus ad decimas, potest
+          <lb ed="#P" n="52"/>eximere aliquem, remittendo jus suum ; nam
+          <lb ed="#P" n="53"/>ibi intervenit quaedam virtualis donatio, et
+          <lb ed="#P" n="54"/>consequenter ex parte alterius praecedit 
+          vir<lb break="no" ed="#P" n="55"/>tualis solutio, per quam servat praeceptum sol-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vendi decimas. Deinde illa remissio facienda a
+          <lb ed="#P" n="57"/>Pontifice solum haberet locum in decimis ad
+          <lb ed="#P" n="58"/>ipsum speciali titulo pertinentibus, quia non
+          <lb ed="#P" n="59"/>faceret illam per potestatem supra legem 
+          de<lb break="no" ed="#P" n="60"/>cimarum, sed per jus proprium, seu dominium
+          <lb ed="#P" n="61"/>quod haberet circa tales decimas.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>8. Pontificis potestatem dupliciter spectari.
+          <lb ed="#P" n="63"/>— Omissis ergo fundamentis illius doctrinae,
+          <lb ed="#P" n="64"/>et supposita communi sententia Theologorum
+          <lb ed="#P" n="65"/>supra explicata, circa modum quo decimae
+          <lb ed="#P" n="66"/>sunt de jure divino, vel ecclesiastico, 
+          adver<lb break="no" ed="#P" n="67"/>tendum ulterius est, potestatem Pontificis
+          <lb ed="#P" n="68"/>quoad jurisdictionem seu administrationem
+          <lb ed="#P" n="69"/>ecclesiasticam, duobus modis spectari posse.
+          <lb ed="#P" n="70"/>Primo, secundum se, seu nude sumptam,
+          <lb ed="#P" n="71"/>quomodo dici potest quaedam absoluta 
+          poten<lb break="no" ed="#P" n="72"/>tia ; secundo, prout subest directioni et 
+          regi<lb break="no" ed="#P" n="73"/>mini Spiritus Sancti, quomodo dici potest 
+          po<lb break="no" ed="#P" n="74"/>tentia quaedam ordinata. Rursus in usu hujus
+          <lb ed="#P" n="75"/>potestatis distinguendum est inter licitum et
+          <lb ed="#P" n="76"/>validum. Multa enim per potestatem 
+          jurisdic<lb break="no" ed="#P" n="77"/>tonis fiunt, quae licet illicite fiant, facta tenent.
+          <lb ed="#P" n="78"/>Quanquam e converso nihil tiat invalide, quin
+          <lb ed="#P" n="79"/>etiam illicite fiat, per se loquendo,seu nisi
+          <lb ed="#P" n="80"/>ignorantia excuset, quia semper ibi 
+          interve<lb break="no" ed="#P" n="81"/>nit illicita ucurpatio jurisdictionis, seu 
+          potes<lb break="no" ed="#P" n="82"/>tatis quae non habetur. Optimus autem usus
+          <lb ed="#P" n="83"/>potestatis est, quando et est validus et 
+          lici<lb break="no" ed="#P" n="84"/>tus.
+        </p>
+        <p>
+          <lb ed="#P" n="85"/>9. Pontifex quomodo calide possit decimas
+          <lb ed="#P" n="86"/>omnino tollere.— Dico ergo primo Pontificem,
+          <lb ed="#P" n="87"/>absoluta potestate utendo, posse omnino 
+          obli<lb break="no" ed="#P" n="88"/>gationem decimarum tollere, ita ut si id 
+          face<lb break="no" ed="#P" n="89"/>ret, factum teneret, quamvis male faceret,
+          <lb ed="#P" n="90"/>salvo tamen semper naturali jure alendi 
+          eccle<lb break="no" ed="#P" n="91"/>siasticos ministros. lta docent communiter
+          <lb ed="#P" n="92"/>Theologi supra citati, quos Covarruvias, 
+          Gu<lb break="no" ed="#P" n="93"/>tierrez, et alii moderni Canonista, 
+          sequun<lb break="no" ed="#P" n="94"/>tur, ex principio posito, quod haec obligatio
+          <lb ed="#P" n="95"/>est de jure ecclesiastico; potest autem 
+          Pon<lb break="no" ed="#P" n="96"/>tifex auferre totum ecclesiasticum 
+          praecep<lb break="no" ed="#P" n="97"/>tum, quia semper pendet ex ejus voluntate,
+          <lb ed="#P" n="98"/>non ut talis vel talis persona est, sed ut 
+          Pon<lb break="no" ed="#P" n="99"/>tifex est. Si ergo, per impossibile, daretur
+          <lb ed="#P" n="100"/>casus in quo Pontifex totum hoc praeceptum
+          <lb ed="#P" n="101"/>abrogaret, laici non tenerentur ad quotam
+          <lb ed="#P" n="102"/>decimae solvendam, neque in rigore ad 
+          ali<lb break="no" ed="#P" n="103"/>quam determinatam partem fructuum , sed
+          <lb ed="#P" n="104"/>retinerent tantum naturalem obligationem
+          <lb ed="#P" n="105"/>alendi ministros suos: hanc enim auferre non
+          <lb ed="#P" n="106"/>potest Pontifex, etiamsi universa ecclesiastica
+          <lb ed="#P" n="107"/>praecepta everteret per impossibile (ut dixi).
+          <lb ed="#P" n="108"/>Et consequenti ratione, si in eo casu Pontifex
+          <lb ed="#P" n="109"/>non determinaret modum alendi ministros,
+          <lb ed="#P" n="110"/>Episcopi possent et deberent illum determi-
+          <pb ed="#P" n="138"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nare, quia sunt ordinarii pastores, et habent
+          <lb ed="#P" n="2"/>sufficientem jurisdictionem, nisi impediantur.
+          <lb ed="#P" n="3"/>Quod si ipsi etiam hoc facere omitterent, tunc
+          <lb ed="#P" n="4"/>ipsimet fideles prudenti arbitrio possent 
+          mo<lb break="no" ed="#P" n="5"/>dum illum determinare, praesertim per 
+          mo<lb break="no" ed="#P" n="6"/>dum compositionis cum suis clericis divina
+          <lb ed="#P" n="7"/>ministrantibus. Et juxta hanc assertionem, et
+          <lb ed="#P" n="8"/>sensum ejus, existimo intelligendos esse 
+          auc<lb break="no" ed="#P" n="9"/>tores modernos, dicentes posse Pontificem 
+          re<lb break="no" ed="#P" n="10"/>mittere decimam , reducendo illam in 
+          vigesi<lb break="no" ed="#P" n="11"/>mam aut trigesimam partem, non tamen posse
+          <lb ed="#P" n="12"/>in universum praeceptum de decimis auferre,
+          <lb ed="#P" n="13"/>ut videre licet in Soto, dicto libr. 9 de Just.,
+          <lb ed="#P" n="14"/>quaest. 4, artic. 1; Covarr., dicto cap. 11,a
+          <lb ed="#P" n="15"/>num. 9; Gutierrez, dicto cap. 21, n. 30, qui
+          <lb ed="#P" n="16"/>alios allegant. Intelligunt autem, ut aperte
+          <lb ed="#P" n="17"/>explicant, non posse auferre in totum 
+          prae<lb break="no" ed="#P" n="18"/>ceptum decimarum, quatenus continet 
+          susten<lb break="no" ed="#P" n="19"/>tationem necessariam ministrorum, vel nisi
+          <lb ed="#P" n="20"/>haec aliunde suppleatur. Posset etiam id 
+          inter<lb break="no" ed="#P" n="21"/>pretari juxta sequentem assertionem.
+        </p>
+        <p>
+          <lb ed="#P" n="22"/>10. Quomodo non possit Pontifea decimarum
+          <lb ed="#P" n="23"/>legem abrogare. — Dico secundo, simpliciter
+          <lb ed="#P" n="24"/>loquende, non posse Pontificem legem 
+          deci<lb break="no" ed="#P" n="25"/>marum in totum abrogare, etiam quatenus
+          <lb ed="#P" n="26"/>ecclesiastica est. In hoc Canonistis assentior,
+          <lb ed="#P" n="27"/>Theologis non repugnantibus, ut ex 
+          declara<lb break="no" ed="#P" n="28"/>tione patebit: nam imprimis certum est talem
+          <lb ed="#P" n="29"/>abrogationem non posse licite fieri, quia non
+          <lb ed="#P" n="30"/>esset dispensatio, sed dissipatio reddituum
+          <lb ed="#P" n="31"/>ecclesiasticorum. Deinde talis usus supremae
+          <lb ed="#P" n="32"/>potestatis a Christo datae Pontifici, sine dubio
+          <lb ed="#P" n="33"/>cederet in gravissimum et generale damnum
+          <lb ed="#P" n="34"/>totius Ecclesiae, non solum temporale, sed
+          <lb ed="#P" n="35"/>etiam spirituale; tum quia necessario fieret
+          <lb ed="#P" n="36"/>consequens, ut divinus cultus, et maxima ex
+          <lb ed="#P" n="37"/>parte minueretur, et fere in universum 
+          inde<lb break="no" ed="#P" n="38"/>center, vel sine convenienti ornatu et honore
+          <lb ed="#P" n="39"/>fieret. Praeterea ecclesiasticae personae 
+          viles<lb break="no" ed="#P" n="40"/>cerent, essentque veluti mercenarii operari
+          <lb ed="#P" n="41"/>laicorum, et ita ab eis contemnerentur, et 
+          sae<lb break="no" ed="#P" n="42"/>pe etiam cogerentur ad sacramenta indigne
+          <lb ed="#P" n="43"/>tractanda. Unde ulterius ipsimet clerici 
+          ha<lb break="no" ed="#P" n="44"/>bentes animarum curam, nec de illa essent
+          <lb ed="#P" n="45"/>multum solliciti, humano et morali modo 
+          lo<lb break="no" ed="#P" n="46"/>quendo, neque in administrando suo munere
+          <lb ed="#P" n="47"/>auctcritatem et libertatem necessariam 
+          habe<lb break="no" ed="#P" n="48"/>re possent. Tandem subventio pauperum et
+          <lb ed="#P" n="49"/>miserabilium personarum magna ex parte
+          <lb ed="#P" n="50"/>periclitaretur. Hinc ergo magna cum 
+          proba<lb break="no" ed="#P" n="51"/>bilitate inferimus, cum ad providentiam 
+          Spi<lb break="no" ed="#P" n="52"/>ritus Sancti pertineat regere et gubernare 
+          su<lb break="no" ed="#P" n="53"/>premam potestatem Pontificis, ut non erret,
+          <lb ed="#P" n="54"/>saltem cum notabili et communi detrimento
+          <lb ed="#P" n="55"/>iotius Ecclesiae, fieri non posse ut eum hujus-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modi abrogationem facere permittat. Hoc 
+          er<lb break="no" ed="#P" n="57"/>go modo dicimus simpliciter non posse in 
+          to<lb break="no" ed="#P" n="58"/>tum tollere decimas, sicut etiam alibi diximus
+          <lb ed="#P" n="59"/>non posse ecclesiasticam immunitatem 
+          abro<lb break="no" ed="#P" n="60"/>gare, vel ecclesiasticas ceeremonias auferre,
+          <lb ed="#P" n="61"/>aut similibus modis universalem Ecclesiae 
+          sta<lb break="no" ed="#P" n="62"/>tum perturbare. Atque hic etiam loquendi
+          <lb ed="#P" n="63"/>modus consentaneus est modo loquendi 
+          ipso<lb break="no" ed="#P" n="64"/>rum Pontificum, ut constat ex c. Litteras, de
+          <lb ed="#P" n="65"/>Restit. spoliat., cum similibus.
+        </p>
+        <p>
+          <lb ed="#P" n="66"/>11. Pontifex potest cum aliquibus dispensare
+          <lb ed="#P" n="67"/>in decimis —Dico tertio : potest Summus 
+          Pon<lb break="no" ed="#P" n="68"/>tifex in particulari eximere aliquos a solutione
+          <lb ed="#P" n="69"/>decimarum, non tantum cedendo juri suo, sed
+          <lb ed="#P" n="70"/>dispensando, vel in praecepto ipso solvendi
+          <lb ed="#P" n="71"/>decimas, vel in usu et applicatione ipsorum
+          <lb ed="#P" n="72"/>fructuum decimarum. Tota haec assertio 
+          com<lb break="no" ed="#P" n="73"/>munis est, et satis certa ex usu ipso, et praxi
+          <lb ed="#P" n="74"/>Pontificum; frequenter enim haec privilegia
+          <lb ed="#P" n="75"/>conceduntur, ut colligitur ex c. A nobis, et c.
+          <lb ed="#P" n="76"/>Ha parte, de Decimis; et ex cap. Nuper, 
+          eo<lb break="no" ed="#P" n="77"/>dem titulo, eadem potestas colligitur, 
+          quam<lb break="no" ed="#P" n="78"/>vis similia privilegia ibi aliquo modo 
+          restrin<lb break="no" ed="#P" n="79"/>gantur. Eadem potestas colligitur ex c. 2 de
+          <lb ed="#P" n="80"/>Ecclesiis aedificandis, et ex c. ult. Ut lite 
+          pen<lb break="no" ed="#P" n="81"/>dente, et ex variis privilegiis religionibus 
+          con<lb break="no" ed="#P" n="82"/>cessis, quae interdum satis ampla snnt, et juri
+          <lb ed="#P" n="83"/>etiam communi derogant, quae fortasse 
+          infe<lb break="no" ed="#P" n="84"/>rius tractando de statu religionis 
+          explicabi<lb break="no" ed="#P" n="85"/>mus : hic enim provinciam hanc non 
+          assumi<lb break="no" ed="#P" n="86"/>mus, ne doctrina ordinem pervertamus. 
+          Vi<lb break="no" ed="#P" n="87"/>deri potest interim Joannes Azorius, in 1 tom.,
+          <lb ed="#P" n="88"/>lib. 7, c. 31, q. 6,1 et S. Ratio denique est,
+          <lb ed="#P" n="89"/>quia praeceptum solvendi decimas, 
+          ecclesias<lb break="no" ed="#P" n="90"/>ticum est, ut saepe dixi, et ideo per 
+          potesta<lb break="no" ed="#P" n="91"/>tem ecclesiasticam possunt aliqui eximi ab
+          <lb ed="#P" n="92"/>ejus obligatione. Dices praeceptum hoc 
+          natu<lb break="no" ed="#P" n="93"/>rale esse, saltem quoad decimam 
+          sustentatio<lb break="no" ed="#P" n="94"/>nis; ergo dispensatio Pontificis non poterit
+          <lb ed="#P" n="95"/>omnino eximere a decimis solvendis, saltem
+          <lb ed="#P" n="96"/>quoad sustentationem. Respondeo, quamvis
+          <lb ed="#P" n="97"/>naturale jus dictet, dandam esse ministris
+          <lb ed="#P" n="98"/>congruentem sustentationem, non tamen 
+          dic<lb break="no" ed="#P" n="99"/>tare ut detur ab omnibus et singulis personis,
+          <lb ed="#P" n="100"/>seu membris communitatis ; ideoque potest
+          <lb ed="#P" n="101"/>Pontifex eximere omnino aliqua membra in
+          <lb ed="#P" n="102"/>particulari, dummodo ex decimis. quas ali
+          <lb ed="#P" n="103"/>solvunt, habeant ecclesiastici ministri 
+          con<lb break="no" ed="#P" n="104"/>gruam sustentationem, vel aliunde eis 
+          suffi<lb break="no" ed="#P" n="105"/>cienter sit provisum; haec enim conditio 
+          sem<lb break="no" ed="#P" n="106"/>per subintelligenda est, ne illam repetere 
+          ne<lb break="no" ed="#P" n="107"/>cessarium sit.
+        </p>
+        <p>
+          <lb ed="#P" n="108"/>12. Dispensatio in decimis reguirit justam
+          <lb ed="#P" n="109"/>causam. —Et ex ratione data constant aliae 
+          par<lb break="no" ed="#P" n="110"/>tes assertionis, scilicet, hoc privilegium non
+          <pb ed="#P" n="139"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>concedi per modum donationis, seu cessionis
+          <lb ed="#P" n="2"/>ex rebus propriis, vel pertinentibus ad 
+          pro<lb break="no" ed="#P" n="3"/>prium et speciale jus Pontificis. Nam constat
+          <lb ed="#P" n="4"/>generaliter privilegia concedi respectu 
+          cujus<lb break="no" ed="#P" n="5"/>cumque Ecclesiae, episcopatus, vel beneficii.
+          <lb ed="#P" n="6"/>Datur ergo per modum dispensationis in lege
+          <lb ed="#P" n="7"/>communi, ut probatum est. Vel certe intelligi
+          <lb ed="#P" n="8"/>etiam posset per modum applicationis talium
+          <lb ed="#P" n="9"/>decimarum ad usum et sustentationem eorum
+          <lb ed="#P" n="10"/>quibus tale privilegium conceditur, ut in 
+          pri<lb break="no" ed="#P" n="11"/>vilegiis religiosorum facile considerari et 
+          cre<lb break="no" ed="#P" n="12"/>di potest. Unde circa hujasmodi 
+          dispensatio<lb break="no" ed="#P" n="13"/>nes ac privilegia imprimis necessaria est justa
+          <lb ed="#P" n="14"/>causa, saltem ut licite concedantur; quia 
+          dis<lb break="no" ed="#P" n="15"/>pensatio in lege communi causam justam 
+          re<lb break="no" ed="#P" n="16"/>quirit, ut licite fiat, sicut in materia de 
+          legi<lb break="no" ed="#P" n="17"/>bus constans est. Maxime vero est necessaria
+          <lb ed="#P" n="18"/>talis causa, quando dispensatio redundat in
+          <lb ed="#P" n="19"/>aliquod praejudicium vel gravamen aliorum,
+          <lb ed="#P" n="20"/>ut in praesenti cortingit; nam exemptio 
+          ali<lb break="no" ed="#P" n="21"/>quorum a decimarum solutione minuit 
+          reddi<lb break="no" ed="#P" n="22"/>tus ecclesiasticorum. Quocirca, etiamsi haec
+          <lb ed="#P" n="23"/>dispensatio consideretur ut distributio et 
+          ap<lb break="no" ed="#P" n="24"/>plicatio reddituum ecclesiasticorum, magnam
+          <lb ed="#P" n="25"/>causam requirit, ut aliis applicentur, quam
+          <lb ed="#P" n="26"/>illis quibus ex communi et ordinario jure
+          <lb ed="#P" n="27"/>competebant. An vero haec causa necessaria
+          <lb ed="#P" n="28"/>sit etiam ad valorem concessionis, statim 
+          di<lb break="no" ed="#P" n="29"/>cemus. Est enim ulterius considerandum 
+          qua<lb break="no" ed="#P" n="30"/>lis sit persona, qua a solutione decimarum
+          <lb ed="#P" n="31"/>eximitur: potest enim esse vel ecclesiastica,
+          <lb ed="#P" n="32"/>vel laica.
+        </p>
+        <p>
+          <lb ed="#P" n="33"/>13. Exemptio a decimis, ecclesiasticis facile
+          <lb ed="#P" n="34"/>potest concedi. —De ecclesiasticis indubitatum
+          <lb ed="#P" n="35"/>est apud omnes, facile posse illis hanc 
+          exem<lb break="no" ed="#P" n="36"/>ptionem concedi, ut advertunt Anton., et 
+          Pa<lb break="no" ed="#P" n="37"/>normit. in c. A nobis de Decimis. Imo, si quis
+          <lb ed="#P" n="38"/>recte consideret jura omnia, et indulta quae
+          <lb ed="#P" n="39"/>supra ad hoc confirmandum allegavimus, 
+          in<lb break="no" ed="#P" n="40"/>veniet, per illa omnia concedi hoc privilegium
+          <lb ed="#P" n="41"/>ecclesiasticis personis; nam religiosi omnes in
+          <lb ed="#P" n="42"/>hoc ordine continentur. Unde certum 
+          existi<lb break="no" ed="#P" n="43"/>mo, privilegium hoc ecclesiasticis concessum
+          <lb ed="#P" n="44"/>validum semper esse absque alia extrinseca
+          <lb ed="#P" n="45"/>causa, tum quia ipsamet subventio 
+          persona<lb break="no" ed="#P" n="46"/>rum ecclesiasticarum, vel alicujus 
+          particulia<lb break="no" ed="#P" n="47"/>ris ecclesiae est causa justa, et quasi intrinsece
+          <lb ed="#P" n="48"/>inclusa in hac dispensatione; tum etiam quia
+          <lb ed="#P" n="49"/>per hoc privilegium non immutatur 
+          genera<lb break="no" ed="#P" n="50"/>lis ratio, et quasi adaequatus finis, et per se
+          <lb ed="#P" n="51"/>intentus in decimis, qui est divinus cultus, et
+          <lb ed="#P" n="52"/>sustentatio ministrorum Dei ac pauperum;
+          <lb ed="#P" n="53"/>sed immutatur particulare jus applicandi hanc
+          <lb ed="#P" n="54"/>partem decimarum huic ecclesia vel illi, his
+          <lb ed="#P" n="55"/>personis vel illis; hoc autem licet aliquam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>causam requirat, quatenus per tale 
+          privile<lb break="no" ed="#P" n="57"/>gium aliquo modo jus commune immutatur,
+          <lb ed="#P" n="58"/>tanto vero minor causa sufficit, quanto minor
+          <lb ed="#P" n="59"/>est immutatio. Praecipue tamen cavendum
+          <lb ed="#P" n="60"/>est ne tale privilegium cedat in aliorum 
+          scan<lb break="no" ed="#P" n="61"/>dalum, vel rationabilem querimoniam, juxta
+          <lb ed="#P" n="62"/>capitulum Suggestum, de Decimis. 
+          Nihilomi<lb break="no" ed="#P" n="63"/>nus tamen, etiamsi in hoc Summus Pontifex
+          <lb ed="#P" n="64"/>interdum sit nimium liberalis, ita ut excedat
+          <lb ed="#P" n="65"/>justitiam causae, ac denique licet in tali 
+          con<lb break="no" ed="#P" n="66"/>cessione peccet, nihilominus censeo 
+          privile<lb break="no" ed="#P" n="67"/>gium esse validum, quia contra nullum 
+          divi<lb break="no" ed="#P" n="68"/>num jus est, nec rontra naturale; semper
+          <lb ed="#P" n="69"/>enim suppono Ecclesia et clericis relinqui
+          <lb ed="#P" n="70"/>sufficientes redditus; et ita in rigore non fit
+          <lb ed="#P" n="71"/>injuria contra justitiam commutativam, licet
+          <lb ed="#P" n="72"/>fiat contra legalem, et fortasse etiam contra
+          <lb ed="#P" n="73"/>prudentem distributionem, et fidelem 
+          dispen<lb break="no" ed="#P" n="74"/>sationem. Et in hoc etiam videntur convenire
+          <lb ed="#P" n="75"/>Anton. et Panormit. supra.
+        </p>
+        <p>
+          <lb ed="#P" n="76"/>14. Quomodo laicis possit concedi hoc 
+          pri<lb break="no" ed="#P" n="77"/>vilegium .—At vero in personis laicis habet hoc
+          <lb ed="#P" n="78"/>privilegium nonnullam majorem difficultatem,
+          <lb ed="#P" n="79"/>quia per exemptionem earum non haec vel 
+          il<lb break="no" ed="#P" n="80"/>la ecclesia, aut haec vel illa pars personarum
+          <lb ed="#P" n="81"/>ecclesiasticarum, sed in universum totum 
+          ec<lb break="no" ed="#P" n="82"/>clesiasticum corpus illis ecclesiasticis 
+          redditi<lb break="no" ed="#P" n="83"/>bus privatur. Quod videtur esse magnum
+          <lb ed="#P" n="84"/>praejudicium Ecclesiae, et contra ipsam 
+          insti<lb break="no" ed="#P" n="85"/>tutionem decimarum. Unde ex nullo jure 
+          ca<lb break="no" ed="#P" n="86"/>nonico (quantum invenire potui) probari 
+          po<lb break="no" ed="#P" n="87"/>test tale privilegium laicis concessum. 
+          Nihilo<lb break="no" ed="#P" n="88"/>minus ccrtum est, ex justa causa posse hoc
+          <lb ed="#P" n="89"/>privilegium concedi laicis. Probatur primo,
+          <lb ed="#P" n="90"/>quia per hoc non laeditur jus divinum, vel 
+          na<lb break="no" ed="#P" n="91"/>turale; ergo non est cur potestas Papae ad
+          <lb ed="#P" n="92"/>noc non estendatur. Secundo probatur a 
+          for<lb break="no" ed="#P" n="93"/>tiori, quia laico potest Pontifex concedere 
+          de<lb break="no" ed="#P" n="94"/>cimas, quas alii solvunt Ecclesiae; ergo ex 
+          si<lb break="no" ed="#P" n="95"/>mili, vel proportionali eausa, potest idem
+          <lb ed="#P" n="96"/>Pontifex laico concedere ut decimas non 
+          sol<lb break="no" ed="#P" n="97"/>vat, sed sibi retineat. Ut autem tale 
+          privile<lb break="no" ed="#P" n="98"/>gium licite concedatur, justa causa necessaria
+          <lb ed="#P" n="99"/>est, ut ex dictis constat; an vero sit etiam 
+          ne<lb break="no" ed="#P" n="100"/>cessaria ad valorem ejus, in sequenti capite
+          <lb ed="#P" n="101"/>dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

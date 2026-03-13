@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="118"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k02893"><!-- t2-l1c10 -->
+        <head>Caput 10</head>
+        <head type="question-title">An praeceptum decimarum nunc sit juris divini, vel tantum ecclesiastici?</head>
+        <p>
+          <lb ed="#P" n="8"/>CAPUT X.
+          <lb ed="#P" n="9"/>AN PRAECEPTUM DECIMARUM NUNC SIT JURIS DIVINI,
+          <lb ed="#P" n="10"/>VEL TANTUM ECCLESIASTICI?
+        </p>
+        <p>
+          <lb ed="#P" n="11"/>1. Notanda est sententia Andr. Hispan. et
+          <lb ed="#P" n="12"/>Reluf. — Suppositis his quae in superiori 
+          ca<lb break="no" ed="#P" n="13"/>pite diximus, vix relinquitur huic quaestioni
+          <lb ed="#P" n="14"/>locus : solet tamen latissime tractari, et ideo
+          <lb ed="#P" n="15"/>non possumus omittere quin breviter illam
+          <lb ed="#P" n="16"/>attingamus. Canonistae itaque contendunt esse
+          <lb ed="#P" n="17"/>de jure divino, quod aliqui etiam naturale
+          <lb ed="#P" n="18"/>vocant. Inter ipsos vero duae sunt opiniones.
+          <lb ed="#P" n="19"/>Prima affirmat esse simpliciter de jure divino
+          <lb ed="#P" n="20"/>hoc praeceptum. tam quoad personales, quam
+          <lb ed="#P" n="21"/>quoad praediales decimas. Haec fuit opinio 
+          In<lb break="no" ed="#P" n="22"/>nocentii, in Rubrica de Decimis, et in c. ult.
+          <lb ed="#P" n="23"/>de Parochiis, quam secuta est Glossa in c. 1
+          <lb ed="#P" n="24"/>de Decimis, in 6; et Archidiac., in c. Decima,
+          <lb ed="#P" n="25"/>19, q. 1, et in c. Quicumque, ubi etiam G'
+          os<lb break="no" ed="#P" n="26"/>sa, 16, q. 7; et Anton. de Butrio, in c. 
+          Paro<lb break="no" ed="#P" n="27"/>chianos, de Dccimis; et esse communem 
+          sen<lb break="no" ed="#P" n="28"/>tentiam Canonistarum ait Tyndarus, tractatu
+          <lb ed="#P" n="29"/>de Decimis, quaest. 2, n. 36, et eam constanter
+          <lb ed="#P" n="30"/>sequitur Andr. Hispan., tract. de Decimis,
+          <lb ed="#P" n="31"/>S 2, ubi sentit fuisse praeceptum naturale et
+          <lb ed="#P" n="32"/>morale, ct esse immutabile, etiam quoad 
+          quo<lb break="no" ed="#P" n="33"/>tam, per ecclesiasticam potestatem. At vero
+          <lb ed="#P" n="34"/>Rebuf., in tract. de Decimis, q. 1, n. 9 et 10,
+          <lb ed="#P" n="35"/>declarat non esse de jure naturali, sed de jure
+          <lb ed="#P" n="36"/>divino positivo, dictante ratione naturali. 
+          Fun<lb break="no" ed="#P" n="37"/>dantur praecipue in aliquibus decretis 
+          canoni<lb break="no" ed="#P" n="38"/>cis, quae ita loqui videntur sub tit. de 
+          Deci<lb break="no" ed="#P" n="39"/>mis, ut in cap. Parochianos ait Papa : Cum
+          <lb ed="#P" n="40"/>decime non ab homine, sed a Deo sint 
+          insti<lb break="no" ed="#P" n="41"/>tute, tanquam delitum exigi possunt. Et cap.
+          <lb ed="#P" n="42"/>Tua nolis dicitur : Decime, quas Deus in 
+          si<lb break="no" ed="#P" n="43"/>gnum universalis dominii sibi reddi precipit ;
+          <lb ed="#P" n="44"/>et idem in c. Cum non sit, et 16, q. 1, c. 
+          De<lb break="no" ed="#P" n="45"/>cimas, et c. Revertimini, cum similibus, et in
+          <lb ed="#P" n="46"/>c. Decimas, etc. ult. ejusdem caus., et q. 15,
+          <lb ed="#P" n="47"/>etc. Mapjores, 16, quaest. 7, c. Quadragesima,
+          <lb ed="#P" n="48"/>de Consec., d. 5, ex Gregorio ; idemque habet
+          <lb ed="#P" n="49"/>Ambrosius, serm. 33 in fer. 2 post Dom. 1
+          <lb ed="#P" n="50"/>Quadrag., et clarius serm. 34, et habetur cap.
+          <lb ed="#P" n="51"/>Nam qui, 16, q. 2, et cap. Quicumque, 16,
+          <lb ed="#P" n="52"/>q. 7.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>2. Sententia asserens praeceptum solvendi
+          <lb ed="#P" n="54"/>decinas pradiales esse de jure divino, 
+          perso<lb break="no" ed="#P" n="55"/>nales cero, ecclesiastico.—Secunda opinio 
+          Ca<lb break="no" ed="#P" n="56"/>nonistarum est, praeceptum solvendi decimas
+          <lb ed="#P" n="57"/>praediales esse de jure divino, praeceptum 
+          au<lb break="no" ed="#P" n="58"/>tem solvendi decimas personales esse tantum
+          <lb ed="#P" n="59"/>ecclesiasticum. Haec fuit opinio Hostiensis, in
+          <lb ed="#P" n="60"/>Sum., tit. de Decimis, S 7, et in capit. 7n 
+          ali<lb break="no" ed="#P" n="61"/>quibus, de Decimis : eamdem tenet Joannes
+          <lb ed="#P" n="62"/>Andr., in regula Qui prior, in Mercurialibus;
+          <lb ed="#P" n="63"/>et Imola, et Florianus, quos refert Tyndarus
+          <lb ed="#P" n="64"/>supra; et Felinus, in cap. Causam, de 
+          Praes<lb break="no" ed="#P" n="65"/>cription.; Cardinalis, et Henricus cum ahlis,
+          <lb ed="#P" n="66"/>quos moderni referunt, de quibus statim. Haec
+          <lb ed="#P" n="67"/>opinio videtur orta ex eo quod supra diximus,
+          <lb ed="#P" n="68"/>praediales decimas fuisse praeceptas jure 
+          di<lb break="no" ed="#P" n="69"/>vino legis veteris, non vero personales. Unde
+          <lb ed="#P" n="70"/>sentiunt hi auctores hoc jus divinum, quod
+          <lb ed="#P" n="71"/>nunc obligat ad decimarum praediatium 
+          solu<lb break="no" ed="#P" n="72"/>tionem, esse illud ipsum quod in lege veteri
+          <lb ed="#P" n="73"/>obligavit, et vix possunt exponi, ut solum 
+          lo<lb break="no" ed="#P" n="74"/>quantur secundum quamdam imitationem vel
+          <lb ed="#P" n="75"/>confirmationem, et non formaliter ac per se;
+          <lb ed="#P" n="76"/>nam addunt tale esse illud jus divinum circa
+          <lb ed="#P" n="77"/>praediales decimas, ut nulla humana 
+          consue<lb break="no" ed="#P" n="78"/>tudo possit contra illud praevalere, etiam
+          <lb ed="#P" n="79"/>quoad quotam. fn personalibus autem id 
+          fa<lb break="no" ed="#P" n="80"/>cile admittunt, quia praeceptum eas solvendi
+          <lb ed="#P" n="81"/>humanum est.
+        </p>
+        <p>
+          <lb ed="#P" n="82"/>3. Quarta assertio : preceptum alendi 
+          mi<lb break="no" ed="#P" n="83"/>nistros Ecclesie est de jure naturali , 
+          deter<lb break="no" ed="#P" n="84"/>minatio quoud quotam, de jure ecclesiastico.—
+          <lb ed="#P" n="85"/>Vera tamen sententia est, quae ex discursu et
+          <lb ed="#P" n="86"/>assertionibus cap. praeced. positis facile 
+          colli<lb break="no" ed="#P" n="87"/>gitur, nempe obligationem alendi 
+          ecclesias<lb break="no" ed="#P" n="88"/>ticos ministros de jure naturali esse, explicato
+          <lb ed="#P" n="89"/>etiam et confirmato in evangelica lege per
+          <lb ed="#P" n="90"/>Christum ipsum et Apostolos ; modum autem,
+          <lb ed="#P" n="91"/>seu determinationem decimae quoad quotam
+          <lb ed="#P" n="92"/>ad praedictum finem reddendam, in tempore
+          <lb ed="#P" n="93"/>legis gratiae formaliter esse de jure 
+          ecclesias<lb break="no" ed="#P" n="94"/>tico , exemplariter autem (ut sic dicam) 
+          cons<lb break="no" ed="#P" n="95"/>titutum esse ad imiiationem juris divini legis
+          <lb ed="#P" n="96"/>veteris. Addo praeterea, radicaliter seu 
+          potes<lb break="no" ed="#P" n="97"/>tative manasse ex jure evangelico, et potestate
+          <lb ed="#P" n="98"/>a Christo specialiter data. Haec est doctrina
+          <lb ed="#P" n="99"/>D. Thomae 2. 2, q. 81, art. 1, ubti satis 
+          ex<lb break="no" ed="#P" n="100"/>presse omnes partes a nobis positas declarat,
+          <lb ed="#P" n="101"/>ultima excepta ; idem Quodlib. 2, art. 8. liem
+          <lb ed="#P" n="102"/>etiam est intelligenda sententia Hugonis de S.
+          <lb ed="#P" n="103"/>Victor., de Sacrament., libr. 1, c. 4 et 11, qui
+          <lb ed="#P" n="104"/>dixit decimas ante legem fuisse in consilio,
+          <lb ed="#P" n="105"/>sub lege in praecepto divino, nunc de 
+          eccle<lb break="no" ed="#P" n="106"/>siastico ; idem Alens., 3 p., q. 51, m. 1,2et
+          <lb ed="#P" n="107"/>3; D. Anton., 2 p., tit. 4,cap. 3, 55; Ri-
+          <pb ed="#P" n="119"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>chard., in 4, d. 17, art. 2, q. 7, al 4; Major,
+          <lb ed="#P" n="2"/>4. d. 15, q. 4, ad 2 cont. 3 c.; idem sentit in
+          <lb ed="#P" n="3"/>d. 95, quaest. 4. et in 3, d. 37, q. 36. ldem
+          <lb ed="#P" n="4"/>tenet Henr., Quodlib. 4, q. 28; Adrianus,
+          <lb ed="#P" n="5"/>Quodlib. 5; Abulens., Matt. 23, q. 63; Soto,
+          <lb ed="#P" n="6"/>.. 9 de Just., q. 4, art. 1, et recentiores 
+          Theo<lb break="no" ed="#P" n="7"/>logi omnes, atque etiam moderni Canonistae,
+          <lb ed="#P" n="8"/>prassertim Navar. in Manuali, cap. 21, n.28,
+          <lb ed="#P" n="9"/>et in Apolog. de Redditibus ecclesiast., q. 1,
+          <lb ed="#P" n="10"/>monito 69; Covar., l. 1 Variar., c. 17, a 
+          prin<lb break="no" ed="#P" n="11"/>cipio; et Guttierez, lib. 2 Canon. quaest., c.
+          <lb ed="#P" n="12"/>21. n. 8 et sequentibus.
+        </p>
+        <p>
+          <lb ed="#P" n="13"/>4. Probatur tota assertio. — Ratio totius
+          <lb ed="#P" n="14"/>sententiae facilis est ex dictis; nam in prima
+          <lb ed="#P" n="15"/>parte nulla est dissensio, sed omnes 
+          conveni<lb break="no" ed="#P" n="16"/>mus decimam sustentationis jure naturae et
+          <lb ed="#P" n="17"/>divino evangelico deberi. Cum autem 
+          evan<lb break="no" ed="#P" n="18"/>gelicum jus conjungimus naturali, non 
+          exis<lb break="no" ed="#P" n="19"/>timamus in hac parte esse diversum, quia in
+          <lb ed="#P" n="20"/>lege gratiaee non habemus specialia praecepta
+          <lb ed="#P" n="21"/>judicialia, vel caremonialia, praeter praecepta
+          <lb ed="#P" n="22"/>sacrificii et sacramentorum, et praecepta fidei,
+          <lb ed="#P" n="23"/>sub quibus spiritualis potestas in Ecclesia a
+          <lb ed="#P" n="24"/>Christo relicta, cum obligatione illi obediendi,
+          <lb ed="#P" n="25"/>comprehenditur ; sed dicimus hoc naturale
+          <lb ed="#P" n="26"/>praeceptum peculiariter fuisse a Chrsto 
+          Do<lb break="no" ed="#P" n="27"/>mino in evangelio declaratum, confirmatum,
+          <lb ed="#P" n="28"/>et ad usum Ecclesiae sua accommodatum, in
+          <lb ed="#P" n="29"/>quibus omnibus nulla, ut dixi, dissensio est.
+          <lb ed="#P" n="30"/>Deinde, loquendo in rigore de decima quoad
+          <lb ed="#P" n="31"/>quutam, et de proprio praecepto legis divinae
+          <lb ed="#P" n="32"/>naturalis, evideniissimum est non esse nunc
+          <lb ed="#P" n="33"/>in Ecclesia hoc praeceptum juris divini in hoc
+          <lb ed="#P" n="34"/>sensu, quia ex natura sua tale non est, et in
+          <lb ed="#P" n="35"/>hoc tempore non habet aliam naturam, neque
+          <lb ed="#P" n="36"/>est nunc peculiaris aliqua ratio naturalis, quae
+          <lb ed="#P" n="37"/>per se sola convincat magis esse debitam 
+          cle<lb break="no" ed="#P" n="38"/>ricis decimam partem fructuum, quam 
+          octa<lb break="no" ed="#P" n="39"/>vam, vel duodecimam, et sic de aliis. Ac 
+          de<lb break="no" ed="#P" n="40"/>nique usus ipse ostendit non esse hoc 
+          natu<lb break="no" ed="#P" n="41"/>rale praeceptum, cum non eodem modo in
+          <lb ed="#P" n="42"/>omnibus Ecclesiae provinciis servetur, idque
+          <lb ed="#P" n="43"/>sine peccato, ut postea videbimus.
+        </p>
+        <p>
+          <lb ed="#P" n="44"/>5. Praeceptum decimarum non est idem, quod
+          <lb ed="#P" n="45"/>legis veteris.— Si vero sit sermo de jure 
+          divi<lb break="no" ed="#P" n="46"/>no positivo, duobus modis intelligi potest,
+          <lb ed="#P" n="47"/>decimam quotae esse nunc de hoc jure divino.
+          <lb ed="#P" n="48"/>Primo, quia illudmet praeceptum,quod populo
+          <lb ed="#P" n="49"/>Israel fuit datum, adhuc durat, ita ut ex vi
+          <lb ed="#P" n="50"/>illius obligentur nunc fideles. Et in hoc sensu
+          <lb ed="#P" n="51"/>id sentire haereticum esset, quia de fide est
+          <lb ed="#P" n="52"/>legem illam veterem jam non obligare, 
+          maxi<lb break="no" ed="#P" n="53"/>me quoad caeremonialia et judicialia praecepta,
+          <lb ed="#P" n="54"/>imo nec quoad moralia, quatenus illius erant,
+          <lb ed="#P" n="55"/>sed solum quatenus naturali ratione dictan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tur. Et ideo Major, in tertio, Canonistarum
+          <lb ed="#P" n="57"/>sententiam quoad hanc partem haereticam 
+          vo<lb break="no" ed="#P" n="58"/>cavit ; quia revera interdum significant 
+          obli<lb break="no" ed="#P" n="59"/>gare nunc ilud praeceptum, eo ipso, quod
+          <lb ed="#P" n="60"/>non invenitur expresse revocatum, ut videre
+          <lb ed="#P" n="61"/>licet in Rebuffo, et aliis relatis ab ipso, eta
+          <lb ed="#P" n="62"/>nobis supra. Verumtamen non fuit necessaria
+          <lb ed="#P" n="63"/>revocatio, quia illa lex non erat perpetua,
+          <lb ed="#P" n="64"/>sed temporalis; lex autem quae pro aliquo
+          <lb ed="#P" n="65"/>tempore datur, illo completo, desinit obligare
+          <lb ed="#P" n="66"/>absque alia revocatione ; illa autem lex posita
+          <lb ed="#P" n="67"/>est, donec veniret semen, ut dicit Paulus, ad
+          <lb ed="#P" n="68"/>Galat. 3; et ideo advenicnte Christo, et 
+          con<lb break="no" ed="#P" n="69"/>summata redenptione, cessavit : Fuit enim
+          <lb ed="#P" n="70"/>illa lea (ait Paulus, citato loco) pedagogus 
+          fi<lb break="no" ed="#P" n="71"/>delius. in Christo; at ubi venit fides, jam non
+          <lb ed="#P" n="72"/>sumus sub pedagogo. Et propterea, quod hoc
+          <lb ed="#P" n="73"/>praeceptum nunc non obhget in virtute illius
+          <lb ed="#P" n="74"/>legis, evidens argumentum est, quia illa lex
+          <lb ed="#P" n="75"/>non obligabat omnes homines, sed tantum
+          <lb ed="#P" n="76"/>judaicum populum, vel eos qui per 
+          circum<lb break="no" ed="#P" n="77"/>cisionem ad illum transibant. Hoc autem 
+          prae<lb break="no" ed="#P" n="78"/>ceptum nunc obligat de se universum 
+          mun<lb break="no" ed="#P" n="79"/>dum, et non media circumcisione, sed 
+          baptis<lb break="no" ed="#P" n="80"/>mate.
+        </p>
+        <p>
+          <lb ed="#P" n="81"/>6. Commodiori modo ecplicatur illud jus
+          <lb ed="#P" n="82"/>divimmmn ; et inpugnatur. — Alio ergo modo
+          <lb ed="#P" n="83"/>posset hoc jus divinum positivum 
+          intelli<lb break="no" ed="#P" n="84"/>gi, quia illud praeceptum divinum ex 
+          pecu<lb break="no" ed="#P" n="85"/>lari Christi confirmatione prorogatum est
+          <lb ed="#P" n="86"/>pro lege gratiae. Et hic sensus non continet
+          <lb ed="#P" n="87"/>apertum errorem contra fidem, quia, ut est
+          <lb ed="#P" n="88"/>communis sententia divi Thomae et 
+          Theolo<lb break="no" ed="#P" n="89"/>gorum, praecepta judicialia legis veteris, 
+          li<lb break="no" ed="#P" n="90"/>cet, ut erant illius, cessaverint et mortua
+          <lb ed="#P" n="91"/>sint, possunt secundum eamdem formam 
+          re<lb break="no" ed="#P" n="92"/>tineri in aliqua republica , si per legitimum
+          <lb ed="#P" n="93"/>principem ferantur. Unde multo magis potuit
+          <lb ed="#P" n="94"/>hoc praeceptum a Christo Domino pro sua 
+          Ec<lb break="no" ed="#P" n="95"/>clesia confirmari, vel potius de novo tradi
+          <lb ed="#P" n="96"/>Est tamen illa sententia in hoe sensu 
+          volunta<lb break="no" ed="#P" n="97"/>ria et improbabilis ; tum quia nullum habet
+          <lb ed="#P" n="98"/>fundamentum in Evangelio, neque in 
+          tradi<lb break="no" ed="#P" n="99"/>tione, aut doctrina Patrum ; nam quae 
+          Hos<lb break="no" ed="#P" n="100"/>tiensis, Innocentius et alii Canonistae asserunt,
+          <lb ed="#P" n="101"/>ex Greg., Ambrosio, Augustino et Hieronymo
+          <lb ed="#P" n="102"/>relatis apud Gratianum supra, nihil probant;
+          <lb ed="#P" n="103"/>quia non loquuntur de speciali praecepto a
+          <lb ed="#P" n="104"/>Christo dato, sed ab Ecclesia tradito, ad 
+          imita<lb break="no" ed="#P" n="105"/>tionem divinae legis antiqua, ut ex 
+          Cypria<lb break="no" ed="#P" n="106"/>no, et aliis, capite sequenti referemus. Est
+          <lb ed="#P" n="107"/>etiam contra receptam doctrinam 
+          Theologo<lb break="no" ed="#P" n="108"/>rum, quod cum lege nova non sunt a Christo
+          <lb ed="#P" n="109"/>data praecepta judicialia, nec caeremonialia
+          <lb ed="#P" n="110"/>praeterquam sacramentorum , et est D. Tho-
+          <pb ed="#P" n="120"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mae 1.2, q. 108, art. 1 et 2, et Quodlib. 4, art.
+          <lb ed="#P" n="2"/>13. Relinquitur ergo praeceptum hoc, quoad
+          <lb ed="#P" n="3"/>hanc partem, ecclesiasticum esse.
+        </p>
+        <p>
+          <lb ed="#P" n="4"/>7. Supercacanea distinctio. — Decime in
+          <lb ed="#P" n="5"/>Ecclesia sunt ad imitationem legis antipwe. —
+          <lb ed="#P" n="6"/>Unde etiam constat nullam esse in hoc 
+          neces<lb break="no" ed="#P" n="7"/>sariam cistinctionem inter decimas praediales
+          <lb ed="#P" n="8"/>et personales, si in rigore loquamur, quoad
+          <lb ed="#P" n="9"/>praecepti obligationem ; quia si solum 
+          conside<lb break="no" ed="#P" n="10"/>rentur quatenus sunt decimae sustentationis,
+          <lb ed="#P" n="11"/>sic verius dicunt qui indifferenter asserunt,
+          <lb ed="#P" n="12"/>omnes esse de jure naturali divino, quia
+          <lb ed="#P" n="13"/>etiam illi fideles, qui possessiones non habent,
+          <lb ed="#P" n="14"/>tenentur concurrere ad sustentandos ministros
+          <lb ed="#P" n="15"/>spirituales, si ex labore et actionibus suis 
+          ha<lb break="no" ed="#P" n="16"/>beant unde id facere possint. Si autem 
+          loqua<lb break="no" ed="#P" n="17"/>mur de decimis quoad quotam, neutrae sunt
+          <lb ed="#P" n="18"/>de jure divino quoad obligationem, ut dixi.
+          <lb ed="#P" n="19"/>At vero quoad imitationem , admitti potest
+          <lb ed="#P" n="20"/>distinctio Hostiensis : nam praedia'es retentae
+          <lb ed="#P" n="21"/>sunt in Ecclesia ad imitationem antiqui juris
+          <lb ed="#P" n="22"/>divini, personales vero sine exemplo additae
+          <lb ed="#P" n="23"/>sunt: cur autem id fecerit Ecclesia , postea
+          <lb ed="#P" n="24"/>videbimus. Atque ita constat quo sensu 
+          in<lb break="no" ed="#P" n="25"/>tell.gerda sint jura canonica, quando decimas
+          <lb ed="#P" n="26"/>dicunt esse ex Dei praecepto, vel de jure 
+          divi<lb break="no" ed="#P" n="27"/>no : loquuntur enim de praecepto divino, non
+          <lb ed="#P" n="28"/>quod nunc obliget, sed quod aliquando fuit,
+          <lb ed="#P" n="29"/>et quo primum fuerunt decimae sub 
+          necessi<lb break="no" ed="#P" n="30"/>tate constitutae; et quia inde seu exemplo 
+          il<lb break="no" ed="#P" n="31"/>lius sumptum est ecclesiasticum praeceptum,
+          <lb ed="#P" n="32"/>ideo etiam hoc per quamdam imitationem 
+          di<lb break="no" ed="#P" n="33"/>vinum dicitur. Sicut solent Patres praeceptum
+          <lb ed="#P" n="34"/>Quadragesimae servandae divinum vocare, quia
+          <lb ed="#P" n="35"/>exemplum ejus in Domino praecessit, ut est
+          <lb ed="#P" n="36"/>apud Ambrosium, serm. 31 in 1 Dum. 
+          Qua<lb break="no" ed="#P" n="37"/>drag., et per nonnulla capita de Cons., d. 5.
+          <lb ed="#P" n="38"/>Unde allegata jura praesertim loqui videntur
+          <lb ed="#P" n="39"/>de praedialibus decimis ; nam personales 
+          ne<lb break="no" ed="#P" n="40"/>que isto modo dici possunt de jure divino,
+          <lb ed="#P" n="41"/>nisi nimis remote, et per quamdam 
+          similitu<lb break="no" ed="#P" n="42"/>dinem rationis.
+        </p>
+        <p>
+          <lb ed="#P" n="43"/>8. Ultima assertionis pars confirmatur. —
+          <lb ed="#P" n="44"/>Addidi vero in fine assertionis modum alium
+          <lb ed="#P" n="45"/>ntrisque decimis praedialibus et 
+          personali<lb break="no" ed="#P" n="46"/>bus communem, quo possunt omnes dici esse
+          <lb ed="#P" n="47"/>jure divino evangelico, non actu, sed 
+          potes<lb break="no" ed="#P" n="48"/>tate, seu in radice. Quod utile est ad 
+          intelli<lb break="no" ed="#P" n="49"/>gendum per quam potestatem potuerit haec
+          <lb ed="#P" n="50"/>determinatio decimarum quoad quotam in
+          <lb ed="#P" n="51"/>Ecclesia fieri : dicimus enim hoc pertinere ad
+          <lb ed="#P" n="52"/>potestatem spiritualem Ecclesiae, non ad 
+          tem<lb break="no" ed="#P" n="53"/>poralem, seu civilem. Quod certum de fide
+          <lb ed="#P" n="54"/>est, quia disponere de spiritualibus, et de 
+          spi<lb break="no" ed="#P" n="55"/>ritualibus annexis , ad spiritualem potesta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tem pertinet, non ad temporalem, ut in 
+          mate<lb break="no" ed="#P" n="57"/>ria de legibus, et in peculaari tractatu de 
+          im<lb break="no" ed="#P" n="58"/>munitate Ecclesiae latius diximus; jus autem
+          <lb ed="#P" n="59"/>decimarum spirituale est, et decimae ipsae 
+          spi<lb break="no" ed="#P" n="60"/>ritualibus sunt annexae; ergo taxatio, seu 
+          de<lb break="no" ed="#P" n="61"/>terminatio illarum ad spiritualem potestatem
+          <lb ed="#P" n="62"/>spectat. Unde etiam omnes causae decimales
+          <lb ed="#P" n="63"/>ecclesiasticae sunt, ut est indubitatum. Ac 
+          de<lb break="no" ed="#P" n="64"/>nique decimae ipsae peculiari titulo sunt bona
+          <lb ed="#P" n="65"/>Dei; et ideo tota cura et providentia circa 
+          il<lb break="no" ed="#P" n="66"/>las ad dispensatores Dei per Christuin 
+          consti<lb break="no" ed="#P" n="67"/>tutos pertinet. Ergo determinatio decimae
+          <lb ed="#P" n="68"/>quoad quotam, in tempore legis gratiae, actus
+          <lb ed="#P" n="69"/>est sprritualis potestatis. Haec autem potestas
+          <lb ed="#P" n="70"/>supernaturalis est, et ab ipso Christo 
+          imme<lb break="no" ed="#P" n="71"/>diate data, et instituta in Ecclesia sua; ergo
+          <lb ed="#P" n="72"/>haec determinatio peculari modo trahit 
+          origi<lb break="no" ed="#P" n="73"/>nem a jure divino evangelico, saltem radica -
+          <lb ed="#P" n="74"/>liter, seu potestative. Hac ergo ratione possunt
+          <lb ed="#P" n="75"/>etiam dici decimae aliquo modo de jure 
+          divi<lb break="no" ed="#P" n="76"/>no. Adde, postquam hoc jus decimarum in
+          <lb ed="#P" n="77"/>Ecclesia constitutum est , decimas deberi Dei
+          <lb ed="#P" n="78"/>in ministris suis. et hac ratione jam peculiari
+          <lb ed="#P" n="79"/>modo pertinere ad jus divinum. Item decimae
+          <lb ed="#P" n="80"/>sunt res sacrae ac religiosae, et jus percipiendi
+          <lb ed="#P" n="81"/>illas spirituale est, et ad divinum cultum 
+          per<lb break="no" ed="#P" n="82"/>tinet, et ideo hac etiam ratione divinum 
+          ap<lb break="no" ed="#P" n="83"/>pellari potest, id est, jus Deo ipsi comparatum.
+        </p>
+        <p>
+          <lb ed="#P" n="84"/>9. Potestatem d terminandi quotam decime,
+          <lb ed="#P" n="85"/>de jure divino residere in Summo Pontifice. —
+          <lb ed="#P" n="86"/>Atque hinc obiter constat hanc potestatem
+          <lb ed="#P" n="87"/>determinandi quotam decimae, primo ac perse
+          <lb ed="#P" n="88"/>residere in Summo Pontifice, et jure divino
+          <lb ed="#P" n="89"/>soli illi immediate convenire; quia tota 
+          po<lb break="no" ed="#P" n="90"/>testas spiritualis, quae est in Eecclesia, in illo
+          <lb ed="#P" n="91"/>solo est immediate ex divino jure, aliis vero
+          <lb ed="#P" n="92"/>per ipsum communicatur, ut nune suppono;
+          <lb ed="#P" n="93"/>est enim sermo de potestate spiritualis 
+          juris<lb break="no" ed="#P" n="94"/>dictionis et gubernationis, non de potestate
+          <lb ed="#P" n="95"/>ordinis; sub illa autem generali potestate 
+          com<lb break="no" ed="#P" n="96"/>prehenditur haec, de qua nunc tractamus.
+          <lb ed="#P" n="97"/>Quoad usum vero hujus potestatis, 
+          adverten<lb break="no" ed="#P" n="98"/>dum est quod licet per se primo pertineat ad
+          <lb ed="#P" n="99"/>Pontificem, praesertim respectu totius 
+          Eccle<lb break="no" ed="#P" n="100"/>siae universalis, tamen in his quae ipse non
+          <lb ed="#P" n="101"/>prohibet, vel si ipse non praeveniat. modum
+          <lb ed="#P" n="102"/>et ordinem universalem in hac determinatione
+          <lb ed="#P" n="103"/>constituendo, al unumquemque Episcopum
+          <lb ed="#P" n="104"/>in sua dicecesi pertinere, hujusmodi facere 
+          de<lb break="no" ed="#P" n="105"/>terminationem, et consequenter etiam potuisse
+          <lb ed="#P" n="106"/>unumquemque Ebpiscopum decimam in sua
+          <lb ed="#P" n="107"/>dioecesi imperare, etiamsi pro tota Ecclesia non
+          <lb ed="#P" n="108"/>esset lex lata per Pontifices, vel generalia
+          <lb ed="#P" n="109"/>Concilia, dummodo(ut dixi) non esset 
+          prohibi<lb break="no" ed="#P" n="110"/>tum. Quia unusquisque Episcopus potest in
+          <pb ed="#P" n="121"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sua dioecesi facere omnia quae ad 
+          convenien<lb break="no" ed="#P" n="2"/>tem spiritualem administrationem pertinent,
+          <lb ed="#P" n="3"/>iu his quae sibi per Pontificem prohibita, aut
+          <lb ed="#P" n="4"/>limitata non sunt; inter haec autem continetur
+          <lb ed="#P" n="5"/>decimarum determinatio ; sed in eo casu, ut
+          <lb ed="#P" n="6"/>supponimus, nulla esset prohibitio; ergo.
+          <lb ed="#P" n="7"/>Quantam: vero potestatem circa hoc habeant
+          <lb ed="#P" n="8"/>nunc Bpiscopi, infra declarabimus. 
+          Diflicul<lb break="no" ed="#P" n="9"/>tates etiam quae circa hoc praeceptum 
+          occur<lb break="no" ed="#P" n="10"/>rere possunt, in sequenti capite 
+          elucidabun<lb break="no" ed="#P" n="11"/>tur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

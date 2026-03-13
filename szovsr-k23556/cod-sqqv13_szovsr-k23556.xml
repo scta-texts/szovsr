@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 53</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 53</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="941"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k23556"><!-- t3-l4c53 -->
+        <head>Caput 53</head>
+        <head type="question-title">An et quomodo inferiores praelati, vel eorum officiales, familiares aut intercessores, apud illos simoniam committant?</head>
+        <p>
+          <lb ed="#P" n="38"/>CAPUT LII.
+          <lb ed="#P" n="39"/>AN ET QUOMODO INFERIORES PRAELATI, VEL EORUM
+          <lb ed="#P" n="40"/>OFFICIALES, FAMILIARES AUT INTERCESSORES,
+          <lb ed="#P" n="41"/>APUD ILLOS SIMONIAM COMMITTANT?
+        </p>
+        <p>
+          <lb ed="#P" n="42"/>1. Quod ab his omnibus personis vitium
+          <lb ed="#P" n="43"/>hoc committi possit, certius est quam ut 
+          pro<lb break="no" ed="#P" n="44"/>batione indigeat : nullus enim est personarum
+          <lb ed="#P" n="45"/>status in Eeclesia, qui ab hac labe immunis
+          <lb ed="#P" n="46"/>sit, quod jura omnia contra simoniacos lata
+          <lb ed="#P" n="47"/>testantur; singulariter vero Extravagans 2, de
+          <lb ed="#P" n="48"/>Sim., inter communes, ubi nominat 
+          Cardina<lb break="no" ed="#P" n="49"/>les, Patriarchas, Archiepiscopos, Episcopos,
+          <lb ed="#P" n="50"/>etc. Et ratio est clara, quia illi possunt dare
+          <lb ed="#P" n="51"/>et accipere spiritualia, et sunt homines, qui
+          <lb ed="#P" n="52"/>avaritia, ambitione, et similibus affectibus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>vinci possunt, et ad committendam simoniam
+          <lb ed="#P" n="54"/>induc.
+        </p>
+        <p>
+          <lb ed="#P" n="55"/>2. Secundo, hinc facile intelligitur omnes
+          <lb ed="#P" n="56"/>praedictas personas posse simoniam 
+          commit<lb break="no" ed="#P" n="57"/>tere, et contra jus divinum, ut per se constat,
+          <lb ed="#P" n="58"/>et contra humanum, quia iili subjectae sunt ; et
+          <lb ed="#P" n="59"/>regulariter jura prohibentia simoniam, etiam
+          <lb ed="#P" n="60"/>positivam, ita loquuntur, ut omnes personas
+          <lb ed="#P" n="61"/>ecclesiasticas comprehendant usque ad 
+          Cardi<lb break="no" ed="#P" n="62"/>nales, nisi ex verbis alia limitatio colligatur.
+          <lb ed="#P" n="63"/>De quo videri possunt quae in simili congerit
+          <lb ed="#P" n="64"/>Navar., de Datis et promis., 11, S S'exto nota.
+          <lb ed="#P" n="65"/>Unde etiam sequitur haec procedere non solum
+          <lb ed="#P" n="66"/>de simonia quoad culpam, sed etiam quoad
+          <lb ed="#P" n="67"/>omnes poenas, quia omnes hae personae, 
+          quan<lb break="no" ed="#P" n="68"/>tumvis sacrae et eminentis status esse 
+          videan<lb break="no" ed="#P" n="69"/>tur, subjiciuntur ecclesiasticis legibus, non
+          <lb ed="#P" n="70"/>solum quoad vim directivam, sed etiam quoad
+          <lb ed="#P" n="71"/>coactivam, quia sunt plene et perfecte 
+          subdi<lb break="no" ed="#P" n="72"/>tae, et constitutionibus Ecclesiae omnes 
+          obli<lb break="no" ed="#P" n="73"/>gantur ac ligantur, juxta cap. 1 et ult., de
+          <lb ed="#P" n="74"/>Constit. Quomodo autem poenae simoniacorum
+          <lb ed="#P" n="75"/>ad singulos applicandae sint, infra videbimus.
+        </p>
+        <p>
+          <lb ed="#P" n="76"/>3. Tertio, addendum est non solum 
+          inferio<lb break="no" ed="#P" n="77"/>res praelatos, sed etiam eorum ministros seu
+          <lb ed="#P" n="78"/>officiales posse simoniam committere , vel
+          <lb ed="#P" n="79"/>cooperando praelatis ipsis, vel per se illam
+          <lb ed="#P" n="80"/>committendo. Quod ita declaro : nam duobus
+          <lb ed="#P" n="81"/>modis potest ab his personis committi 
+          simo<lb break="no" ed="#P" n="82"/>niam, scili.et, dando et recipiendo 
+          spiritua<lb break="no" ed="#P" n="83"/>lia. Posteriori modo non committitur ab eis,
+          <lb ed="#P" n="84"/>ut praelati sunt, id est, ut potestatem aliquam
+          <lb ed="#P" n="85"/>exercent, sed ut homines sunt capaces 
+          spiri<lb break="no" ed="#P" n="86"/>tualium bonorum aut dignitatum; et ideo de
+          <lb ed="#P" n="87"/>hoc nihil speciale hic adnotandum occurrit,
+          <lb ed="#P" n="88"/>vel circa principaliter delinquentes, vel circa
+          <lb ed="#P" n="89"/>cooperantes: nam ad utrosque applicandae
+          <lb ed="#P" n="90"/>sunt generales doctrinae, vel in superioribus
+          <lb ed="#P" n="91"/>traditae de simonia in particulari, vel quae dari
+          <lb ed="#P" n="92"/>solent in generali de cooperantibus ad aliena
+          <lb ed="#P" n="93"/>peccata. Et in particulari, pro legibus 
+          prohi<lb break="no" ed="#P" n="94"/>bentibus vel punientibus simoniam , 
+          ponde<lb break="no" ed="#P" n="95"/>randa sunt verba legum, ex quibus 
+          colligen<lb break="no" ed="#P" n="96"/>dum est an poenae ad cooperatores 
+          extendan<lb break="no" ed="#P" n="97"/>tur. Priori modo, scilicet, ministrando 
+          spiri<lb break="no" ed="#P" n="98"/>tualia, committitur simonia proprie ac 
+          princi<lb break="no" ed="#P" n="99"/>paliter a praelatis, ut praelati sunt ; nam, licet
+          <lb ed="#P" n="100"/>alii clerici possint etiam, ministrando 
+          spiritua<lb break="no" ed="#P" n="101"/>lia, simoniam committere, nunc solum de
+          <lb ed="#P" n="102"/>episcopali ministerio tractamus. Sic ergo 
+          dici<lb break="no" ed="#P" n="103"/>mus etiam a praelatorum ministris, seu 
+          officia<lb break="no" ed="#P" n="104"/>libus posse committi. Quod patet, quia etiam
+          <lb ed="#P" n="105"/>ipsi suo modo ministrant, et cousequenter
+          <lb ed="#P" n="106"/>possunt contra divinum jus peceare, pretium
+          <lb ed="#P" n="107"/>pro ministerio vel participatione ejus recipien-
+          <pb ed="#P" n="942"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>do, vel etiam contra jus ecclesiasticum 
+          trans<lb break="no" ed="#P" n="2"/>grediendo prohibitiones ad ipsos pertinentes,
+          <lb ed="#P" n="3"/>ut ex discursu totius materiae constat.
+        </p>
+        <p>
+          <lb ed="#P" n="4"/>4. Ministeria episcopalia qua. — Ut autem
+          <lb ed="#P" n="5"/>nonnulla brevia dubia circa hoc occurrentia
+          <lb ed="#P" n="6"/>explicemus, tria vel quatuor ministeria 
+          prin<lb break="no" ed="#P" n="7"/>cipalia Episcoporum distinguere possumus:
+          <lb ed="#P" n="8"/>sacramenta pontificalia, et praecipue ordines
+          <lb ed="#P" n="9"/>tribuere ; spirituales seu ecclesiasticas causas
+          <lb ed="#P" n="10"/>dicere ac judicare; dispensationes et alias 
+          gra<lb break="no" ed="#P" n="11"/>tias voluntariae jurisdictionis exercere, et 
+          be<lb break="no" ed="#P" n="12"/>neficia ecclesiastica conferre. In quibus 
+          om<lb break="no" ed="#P" n="13"/>nibus potest jus divinum intercedere et 
+          hu<lb break="no" ed="#P" n="14"/>manum. Et de divino nihil addendum 
+          occur<lb break="no" ed="#P" n="15"/>rit, sed applicandum est juxta regulas 
+          supe<lb break="no" ed="#P" n="16"/>rius traditas, et ab unoquoque est servandum
+          <lb ed="#P" n="17"/>quoad eam partem, quae juxta suum 
+          minis<lb break="no" ed="#P" n="18"/>terium recta ratione pensatum ad illum 
+          per<lb break="no" ed="#P" n="19"/>tinuerit. Circa humanum vero jus aliqua 
+          no<lb break="no" ed="#P" n="20"/>tanda occurrunt circa nonnulla ex membris
+          <lb ed="#P" n="21"/>numeratis.
+        </p>
+        <p>
+          <lb ed="#P" n="22"/>5. Circa ordines prohibitio. — Et primo,
+          <lb ed="#P" n="23"/>circa ministerium ordinum extat jus 
+          canoni<lb break="no" ed="#P" n="24"/>cum, in cap. 1, de Simon., quod sic habet:
+          <lb ed="#P" n="25"/>Sicut non debet Episcopus manum quam 
+          impo<lb break="no" ed="#P" n="26"/>nit, ita nec minister, vel notarius in 
+          ordinatio<lb break="no" ed="#P" n="27"/>ne ejus, vocem vel calamun vendere. Pro 
+          or<lb break="no" ed="#P" n="28"/>dinatione igitur vel usu palli, seu chartis 
+          at<lb break="no" ed="#P" n="29"/>que pastellis, eum qui ordinatur, omnino 
+          ali<lb break="no" ed="#P" n="30"/>quid dare, prolibemus. Habeturque fere idem
+          <lb ed="#P" n="31"/>jus in cap. Nullus abbas, et cap. Sicut 
+          Egns<lb break="no" ed="#P" n="32"/>copum., 1, quaest. 2. In quibus locis explicatur,
+          <lb ed="#P" n="33"/>nomine ministri intelligi eum, qui 
+          Evange<lb break="no" ed="#P" n="34"/>lium in ordinatione legit ; unde vocem 
+          ven<lb break="no" ed="#P" n="35"/>dere, idem est quod vendere sacram lectionem
+          <lb ed="#P" n="36"/>Evangelii: atque ita exposuit Gofre., ut refert
+          <lb ed="#P" n="37"/>Panorm.; et ipse fatetur esse magis 
+          consenta<lb break="no" ed="#P" n="38"/>neum antiquae lectioni. Addit vero etiam 
+          pos<lb break="no" ed="#P" n="39"/>se intelligi de illa voce, qua archidiaconus 
+          vo<lb break="no" ed="#P" n="40"/>cat promovendos, vel de illa voce qua 
+          respon<lb break="no" ed="#P" n="41"/>det in scrutinio , testimonium praebendo, 
+          di<lb break="no" ed="#P" n="42"/>gnum esse promovendum, juxta cap. unic. de
+          <lb ed="#P" n="43"/>Scrutinio. Glossa vero intelligit de 
+          archidiaco<lb break="no" ed="#P" n="44"/>no, ad quem pertinet examinare ordinandos,
+          <lb ed="#P" n="45"/>et approbatos praesentare Episcopo, juxta cap.
+          <lb ed="#P" n="46"/>Ad haec , verb. In quadam , de Offi. Archid.
+          <lb ed="#P" n="47"/>Idemque est de quocumque alio, qui officium
+          <lb ed="#P" n="48"/>examinatoris exercet, ut in superioribus 
+          tac<lb break="no" ed="#P" n="49"/>tum est. Et quamvis Gregorius sine dubio de
+          <lb ed="#P" n="50"/>voce evangelica lectionis loquatur, ut ex 
+          ori<lb break="no" ed="#P" n="51"/>ginali constat, lib. 4, epist. 44, nihilominus
+          <lb ed="#P" n="52"/>illa omnia quae declarata sunt, imo 
+          quodcum<lb break="no" ed="#P" n="53"/>que ministerium sacrum ibi exhibitum, sub
+          <lb ed="#P" n="54"/>eadem regula comprehenduntur, quia 
+          prohi<lb break="no" ed="#P" n="55"/>bitio illa quoad hanc partem est de re per se
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mala ; nam totum illud ministerium 
+          spiritua<lb break="no" ed="#P" n="57"/>le est, quod vendi non potest, ut etiam 
+          Pa<lb break="no" ed="#P" n="58"/>norm. notavit. Et hoc magis declaratum est
+          <lb ed="#P" n="59"/>in Concilio Tridentino, sess. 21, c. 1, ubi sic
+          <lb ed="#P" n="60"/>dicitur : IVihil pro collatione quorumcumque
+          <lb ed="#P" n="61"/>ordinum, nec pro litteris dimissoriis, aut 
+          tes<lb break="no" ed="#P" n="62"/>timomalibus , nec alia quacumque de causa,
+          <lb ed="#P" n="63"/>etiam sponte oblatum, Episcogi et alii ordinum
+          <lb ed="#P" n="64"/>collatores, aut eorum ministri, quovis 
+          pretea<lb break="no" ed="#P" n="65"/>tu accipiant. Nam per verba illa, quacumque
+          <lb ed="#P" n="66"/>de causa, et illa, aut eorum ministri, 
+          quam<lb break="no" ed="#P" n="67"/>cumque vocem vel actionem ministrantium
+          <lb ed="#P" n="68"/>collationi ordinum comprehendit. Et 
+          conso<lb break="no" ed="#P" n="69"/>nat cap. Sicut pro certo, de Simonia.
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>6. De notariis. — De notario vero solet 
+          du<lb break="no" ed="#P" n="71"/>bitari, an simoniam committat legem illam
+          <lb ed="#P" n="72"/>transgrediendo. Multi enim censent illum non
+          <lb ed="#P" n="73"/>fore simoniacum, quia nihil spirituale confert,
+          <lb ed="#P" n="74"/>sed temporalem operam, quae de se posset pretio
+          <lb ed="#P" n="75"/>eestimari ; prohibetur autem vendi propter 
+          tol<lb break="no" ed="#P" n="76"/>lendam speciem mali, vel quia erat turpe 
+          lIu<lb break="no" ed="#P" n="77"/>crum, cum notarii habeant proprium sui 
+          mu<lb break="no" ed="#P" n="78"/>neris stipendium. Et confirmatur haec 
+          senten<lb break="no" ed="#P" n="79"/>tia, quia Concilium Tridentinum, ses. 21, c.1,
+          <lb ed="#P" n="80"/>limitavit illam prohibitionem, permitten4o ut
+          <lb ed="#P" n="81"/>notarii decimam partem aurei pro litteris 
+          ac<lb break="no" ed="#P" n="82"/>cipere possint, cum tribus conditionibus: una,
+          <lb ed="#P" n="83"/>ut solum hoc liceat ubi non viget laudabilis
+          <lb ed="#P" n="84"/>consuetudo nihil accipiendi ; alia, ut notarius
+          <lb ed="#P" n="85"/>non habeat stipendium pro officio exercendo;
+          <lb ed="#P" n="86"/>tertia, ut nihil ex illo lucrc ad Episcopum 
+          re<lb break="no" ed="#P" n="87"/>dundet ; alias decernit, notarium teneri gratis
+          <lb ed="#P" n="88"/>suas operas praestare.
+        </p>
+        <p>
+          <lb ed="#P" n="89"/>7. Quando notarius sit simoniacus. — Sed
+          <lb ed="#P" n="90"/>prius videndum est an peccet, deinde quo 
+          ge<lb break="no" ed="#P" n="91"/>nere peccati. Quoad primum, communis 
+          dis<lb break="no" ed="#P" n="92"/>tinctio est, quod si habet salarium pro officio
+          <lb ed="#P" n="93"/>suo, non potest aliquid accipere; si vero non
+          <lb ed="#P" n="94"/>habet, potest. Ita Panorm. ibi, Sylvest., q. 8,
+          <lb ed="#P" n="95"/>et alii referendi. Ratio prioris partis est, tum
+          <lb ed="#P" n="96"/>quia est contra justitiam vendere id, quod 
+          ra<lb break="no" ed="#P" n="97"/>tione stipendii tenetur ex officio gratis facere;
+          <lb ed="#P" n="98"/>tum etiam quia saltem tunc procedunt jura
+          <lb ed="#P" n="99"/>praedicta. Ratio vero alterius partis est, quia
+          <lb ed="#P" n="100"/>notarius non tenetur gratis ministrare. Dices:
+          <lb ed="#P" n="101"/>tenetur Episcopus salarium dare, et hoc 
+          vi<lb break="no" ed="#P" n="102"/>dentur intendisse dicta jura ad tollendos 
+          abu<lb break="no" ed="#P" n="103"/>sus ; unde supplem. Gabr., 4, d. 25, quaest. 2,
+          <lb ed="#P" n="104"/>art. 3, dub. 6, etiam in eo casu negat posse
+          <lb ed="#P" n="105"/>notarium aliquid recipere. Sed nimis 
+          rigoro<lb break="no" ed="#P" n="106"/>sum hoc est, et contra communem 
+          senten<lb break="no" ed="#P" n="107"/>tiam. Dico ergo quod, licet Episcopus debeat
+          <lb ed="#P" n="108"/>dare stipendium, tamen si de facto non det,
+          <lb ed="#P" n="109"/>notarius non peccat illud accipiendo ab eo cui
+          <lb ed="#P" n="110"/>servit. Deinde fortasse episcopatus est tenuis, et
+          <pb ed="#P" n="943"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Episcopus non potest commodum stipendium
+          <lb ed="#P" n="2"/>dare, et ita presumendum est. Ac denique in
+          <lb ed="#P" n="3"/>his multum valet consuetudo, nec damnandi
+          <lb ed="#P" n="4"/>sunt Episcopi qui non consueverunt salarium
+          <lb ed="#P" n="5"/>dare notariis. Et ita videtur rem hanc 
+          decia<lb break="no" ed="#P" n="6"/>rasse Tridentinum, loco nuper citato, 
+          permit<lb break="no" ed="#P" n="7"/>tens ut notarii decimam partem aurei pro 
+          lit<lb break="no" ed="#P" n="8"/>teris accipiant, ubi nec salarium habent, nec
+          <lb ed="#P" n="9"/>est contraria consuetudo.
+        </p>
+        <p>
+          <lb ed="#P" n="10"/>S. Ad alteram partem, quando gratis 
+          tene<lb break="no" ed="#P" n="11"/>tur ministrare, et aliquid recipit, videtur 
+          cer<lb break="no" ed="#P" n="12"/>te contra justitiam peccare, non vero 
+          simo<lb break="no" ed="#P" n="13"/>niam committere, propter rationem supra 
+          fac<lb break="no" ed="#P" n="14"/>tam. Nihilominus dico, si intendat notarius
+          <lb ed="#P" n="15"/>vendere suas operas, pretium earum 
+          acci<lb break="no" ed="#P" n="16"/>piendo, simoniam committere. Ita sentit 
+          Syl<lb break="no" ed="#P" n="17"/>vest. supra, et Durand., 4, d. 25, q. 3; et 
+          So<lb break="no" ed="#P" n="18"/>to, d. lib. 9, q. 6, art. 1. Ratio est, quia illa
+          <lb ed="#P" n="19"/>actio, licet temporalis videatur, est annexa
+          <lb ed="#P" n="20"/>spirituali muneri quasi consequenter, 
+          scili<lb break="no" ed="#P" n="21"/>cet ordini suscepto, cui testimonium illud
+          <lb ed="#P" n="22"/>debetur, ut commode exerceri possit. Unde
+          <lb ed="#P" n="23"/>ab illo etiam habet totam aestimationem suam;
+          <lb ed="#P" n="24"/>testimonium enim illud pro nihilo 
+          aestimare<lb break="no" ed="#P" n="25"/>tur, nisi ordo ipse, qui per illt probandus
+          <lb ed="#P" n="26"/>est, in sua aestimatione haberetur; unde 
+          si<lb break="no" ed="#P" n="27"/>cut ordo non debet pretio aestimari, ita nec
+          <lb ed="#P" n="28"/>litterae testimoniales. Quando ergo Concilium
+          <lb ed="#P" n="29"/>permittit aliquid recipi cum illis 
+          conditioni<lb break="no" ed="#P" n="30"/>bus, intelligit per modum stipendii, non per
+          <lb ed="#P" n="31"/>modum pretii. Unde ulterius addo, quod si
+          <lb ed="#P" n="32"/>notarius aliquid recipiat contra praedictam
+          <lb ed="#P" n="33"/>prohibitionem, hcet dicat se non accipere ut
+          <lb ed="#P" n="34"/>pretium, sed ut stipendium, non solum 
+          pec<lb break="no" ed="#P" n="35"/>cat contra justitiam, sed etiam contra 
+          religio<lb break="no" ed="#P" n="36"/>nem, cujus intuitu illa prohibitio facta est, ut
+          <lb ed="#P" n="37"/>constat ex verbis jurium ; et ideo, licet illa in
+          <lb ed="#P" n="38"/>rigore non sit ex se nisi praesumpta simonia,
+          <lb ed="#P" n="39"/>supposita prohibitione, valde probabile est
+          <lb ed="#P" n="40"/>esse simoniam, ut in similibus saepe dictum
+          <lb ed="#P" n="41"/>est.
+        </p>
+        <p>
+          <lb ed="#P" n="42"/>9. De advocato. — Circa aliud munus 
+          Epis<lb break="no" ed="#P" n="43"/>coporum exercendi jurisdictionem tam 
+          volun<lb break="no" ed="#P" n="44"/>taram quam involuntariam, nihil invenio
+          <lb ed="#P" n="45"/>specialiter dispositum jure positivo, quod 
+          pe<lb break="no" ed="#P" n="46"/>culiariter pertineat ad eos qui ministrant,
+          <lb ed="#P" n="47"/>vel aliquo modo cooperantur praelatis, vel 
+          ju<lb break="no" ed="#P" n="48"/>dicibus ecclesiasticis in his causis. Dubitari
+          <lb ed="#P" n="49"/>autem solet de advocato et teste in causa 
+          spi<lb break="no" ed="#P" n="50"/>rituali, an simoniam committant, vendendo
+          <lb ed="#P" n="51"/>operas suas. Sed de advocato certum est posse
+          <lb ed="#P" n="52"/>vendere suum patrocinium, etiamsi causa 
+          spi<lb break="no" ed="#P" n="53"/>ritualis sit. Quia hoc nec est simonia ex 
+          natu<lb break="no" ed="#P" n="54"/>ra rei, nec est prohibitum jure ecclesiastico.
+          <lb ed="#P" n="55"/>Primum patet, quia officium advocati tantum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est, vel illuminare et informare, vel factum
+          <lb ed="#P" n="57"/>aperiendo, vel jus ostendendo, et informando
+          <lb ed="#P" n="58"/>intellectum judicis; hoc autem totum etiam
+          <lb ed="#P" n="59"/>in materia spirituali vendibile est. Vel si sit
+          <lb ed="#P" n="60"/>procurator, ad eum spectabit sollicitare 
+          nego<lb break="no" ed="#P" n="61"/>tium, qui labor mere temporalis est, et quasi
+          <lb ed="#P" n="62"/>per accidens et antecedenter est annexus
+          <lb ed="#P" n="63"/>causae spirituali. Secundum etiam patet, quia
+          <lb ed="#P" n="64"/>nullum est jus canonicum hoc prohibens: imo
+          <lb ed="#P" n="65"/>sententiam Augustini, licere advocato 
+          patro<lb break="no" ed="#P" n="66"/>cinium suum vendere, relata in cap. Non sune,
+          <lb ed="#P" n="67"/>14. quaest. 5, indifferenter de patrocinio in
+          <lb ed="#P" n="68"/>quacumque causa intelligitur. Et ita habet
+          <lb ed="#P" n="69"/>totius Ecclesiae consuetudo; nec de hoc est
+          <lb ed="#P" n="70"/>ulla controversia inter auctores.
+        </p>
+        <p>
+          <lb ed="#P" n="71"/>10. De testibus. — De testibus vero in causa
+          <lb ed="#P" n="72"/>spirituali communis fere sententia est, 
+          simo<lb break="no" ed="#P" n="73"/>niam committere, si pretium pro testimonio
+          <lb ed="#P" n="74"/>accipiunt. Ita tenet Richardus, 4, d. 25, art.
+          <lb ed="#P" n="75"/>3, q. 2, ad 5; Anton., d. c. 5, S 17, notab. 1.
+          <lb ed="#P" n="76"/>Idem Panormit., inc. Tua nos, num. 6, de
+          <lb ed="#P" n="77"/>Simon., ubi cum Hostiensi aequiparat testem
+          <lb ed="#P" n="78"/>judici quoad hoc, quod qui corrumpit illum
+          <lb ed="#P" n="79"/>pecunia in causa spirituali, est simoniacus,
+          <lb ed="#P" n="80"/>propter quamdam connexionem cum rebus
+          <lb ed="#P" n="81"/>spiritualibus. Addit vero, vel quasi simoniacus.
+          <lb ed="#P" n="82"/>Idem Felin. ibi, n. 4, referens Glossam, in
+          <lb ed="#P" n="83"/>cap. Vendentes, 1, q. 3, verb. Justitiam, quae
+          <lb ed="#P" n="84"/>de solo judice loquitur. Tabiena vero, n. A47,
+          <lb ed="#P" n="85"/>absolute sequitur doctrinam Panormit. 
+          Po<lb break="no" ed="#P" n="86"/>testque ita suaderi, quia qui corrumpit 
+          judi<lb break="no" ed="#P" n="87"/>cem in causa spirituali, dando ei pecuniam,
+          <lb ed="#P" n="88"/>est simoniacus, ut supra visum est; sed qui
+          <lb ed="#P" n="89"/>corrumpit testem, mediate corrumpit judicem
+          <lb ed="#P" n="90"/>quoad effectum, licet non quoad culpam, quia
+          <lb ed="#P" n="91"/>tenetur secundum allegata et probata 
+          judi<lb break="no" ed="#P" n="92"/>care ; ergo. Confirmatur, quia qui daret 
+          inter<lb break="no" ed="#P" n="93"/>cessori pecuniam, ut a judice sententiam 
+          ob<lb break="no" ed="#P" n="94"/>tineret, esset simoniacus; sed hoc idem facit,
+          <lb ed="#P" n="95"/>qui per pecuniam testem corrumpit, licet 
+          di<lb break="no" ed="#P" n="96"/>verso modo; ergo. Est jergo haec sententia
+          <lb ed="#P" n="97"/>valde probabilis, maxime quando per 
+          pecu<lb break="no" ed="#P" n="98"/>niam corrumpitur testis in causa spirituali.
+        </p>
+        <p>
+          <lb ed="#P" n="99"/>11. Quando vero non corrumpitur, sed ad
+          <lb ed="#P" n="100"/>veritatem dicendam inducitur, quia non vult
+          <lb ed="#P" n="101"/>aliter testificari, non erit simonia ex parte
+          <lb ed="#P" n="102"/>dantis, sed redemptio vexationis quam facit
+          <lb ed="#P" n="103"/>testis, negando testimonium suum, nisi detur
+          <lb ed="#P" n="104"/>ei pecunia. Et hoc esit aliud exemplum, in
+          <lb ed="#P" n="105"/>quo licitum est redimere vexationem propter
+          <lb ed="#P" n="106"/>jus ad testimonium, licet nondum sit quasi
+          <lb ed="#P" n="107"/>possessum, quod exemplum admittit Ugolin.,
+          <lb ed="#P" n="108"/>Tab. 1, c. 53, S 14, num. 2. Ex parte autem
+          <lb ed="#P" n="109"/>recipientis tunc est injustitia, juxta doctrinam
+          <lb ed="#P" n="110"/>Augustini, in d. cap. JVon sane, 14, quaest. 5,
+          <pb ed="#P" n="944"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et D. Tho., 2. 2, quaest. 71, articulo 4, ad 3,
+          <lb ed="#P" n="2"/>quam omnes Theologi sequuntur, et 
+          jurispe<lb break="no" ed="#P" n="3"/>riti, in cap. 1, et cap. Sicut nobis, de Testibus;
+          <lb ed="#P" n="4"/>et Turrecr., in c. Qui recte, 11, q. 3. 
+          Anve<lb break="no" ed="#P" n="5"/>ro committat etiam simoniam, pecuniam 
+          reci<lb break="no" ed="#P" n="6"/>piendo in causa spirituali, dicendum videtur,
+          <lb ed="#P" n="7"/>si directe accipiat illam ut pretium, et ad 
+          pro<lb break="no" ed="#P" n="8"/>movendam causam spiritualem, tunc 
+          simo<lb break="no" ed="#P" n="9"/>niam committere, quia est clara connexio, et
+          <lb ed="#P" n="10"/>eestimatio sumitur a re spirituali; si autem
+          <lb ed="#P" n="11"/>accipiat ut stipendium, vel etiam ut pretium
+          <lb ed="#P" n="12"/>sui laboris, non apparere simoniam, quia nec
+          <lb ed="#P" n="13"/>ex natura rei talis est, neque in hoc 
+          inveni<lb break="no" ed="#P" n="14"/>tur specialis prohibitio. Imo potest excusari
+          <lb ed="#P" n="15"/>ah injustitia, si non pro veritate dicenda, nec
+          <lb ed="#P" n="16"/>ut faveat uni parti, sed praecise pro labore
+          <lb ed="#P" n="17"/>vel alio incommodo compensando mercedem
+          <lb ed="#P" n="18"/>accipiat.
+        </p>
+        <p>
+          <lb ed="#P" n="19"/>12. Officiales. — Tandem circa ministros
+          <lb ed="#P" n="20"/>qui intercedunt in collationibus beneficiorum,
+          <lb ed="#P" n="21"/>eadem quaeri possunt quae in collationibus 
+          or<lb break="no" ed="#P" n="22"/>dinum, et cum proportione est 
+          responden<lb break="no" ed="#P" n="23"/>dum, advertendo solum, de notariis et 
+          simi<lb break="no" ed="#P" n="24"/>libus, non inveniri specialem prohibitionem
+          <lb ed="#P" n="25"/>in collationibus beneficiorum. Et ideo in illis
+          <lb ed="#P" n="26"/>solum cavendum est ne talia ministeria carius
+          <lb ed="#P" n="27"/>vendant ratione spiritualis materiae, circa
+          <lb ed="#P" n="28"/>quam versantur; quia si hoc observent, non
+          <lb ed="#P" n="29"/>erunt simoniaci ; poterunt autem esse injusti,
+          <lb ed="#P" n="30"/>si ratione muneris vel salarii teneantur gratis
+          <lb ed="#P" n="31"/>litteras dare, vel si excedant statuta, vel 
+          con<lb break="no" ed="#P" n="32"/>suetudinem, vel alias extorsiones faciant.
+        </p>
+        <p>
+          <lb ed="#P" n="33"/>13. Intercessores. — Maxime vero in his
+          <lb ed="#P" n="34"/>dubitari solet, an sit simonia dare pecuniam
+          <lb ed="#P" n="35"/>familiaribus vel privatis amicis praelatorum,
+          <lb ed="#P" n="36"/>ut ab eis beneficium danti obtineatur ; et idem
+          <lb ed="#P" n="37"/>cum proportione est, si detur ad obtinendam
+          <lb ed="#P" n="38"/>dispensationem, vel aliam similem gratiam,
+          <lb ed="#P" n="39"/>vel justitiam. Videri enim potest nullam in
+          <lb ed="#P" n="40"/>hoc committi simoniam, nam supponimus, 
+          in<lb break="no" ed="#P" n="41"/>tercessorem illum nihil daturum esse praelato,
+          <lb ed="#P" n="42"/>eed solam gratiam et amicitiam ab illo 
+          postu<lb break="no" ed="#P" n="43"/>laturum, faciendam non sibi, sed alteri, 
+          gra<lb break="no" ed="#P" n="44"/>tia sui. Tunc enim Episcopus concedens 
+          bene<lb break="no" ed="#P" n="45"/>ficium vel gratiam, non est simoniacus, ut ex
+          <lb ed="#P" n="46"/>supra dictis constat ; ergo nec intercessor illam
+          <lb ed="#P" n="47"/>postulando ; ergo nec vendendo illam 
+          postula<lb break="no" ed="#P" n="48"/>tionem seu intercessionem committit 
+          simo<lb break="no" ed="#P" n="49"/>niam, quia vendit laborem suum, vel actionem,
+          <lb ed="#P" n="50"/>et favorem humanum pretio aestimabilem; ergo
+          <lb ed="#P" n="51"/>nec qui dat pecuniam, committit simoniam,
+          <lb ed="#P" n="52"/>quia licet intendat per illam viam consequi
+          <lb ed="#P" n="53"/>beneficium, non tamen emendo illud, sed 
+          gra<lb break="no" ed="#P" n="54"/>tis obtinendo; emendo autem aliquid 
+          tempo<lb break="no" ed="#P" n="55"/>rale, quod potest conducere valde remote, non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>per modum pretii ipsius beneficii, sed solum
+          <lb ed="#P" n="57"/>per modum amicitiae et benevolentiae. Sicut
+          <lb ed="#P" n="58"/>potest quis pecunia emere aliquid quod donet
+          <lb ed="#P" n="59"/>Episcopo, vel suis sumptibus illi servire spe
+          <lb ed="#P" n="60"/>beneficii. non tamen cum intentione pretii vel
+          <lb ed="#P" n="61"/>obligationis, sed solum ut eum benevolum sibi
+          <lb ed="#P" n="62"/>reddat ; ita ergo emit intercessionem alterius,
+          <lb ed="#P" n="63"/>qua illi sibi berevolum reddat; non est ergo
+          <lb ed="#P" n="64"/>haec simonia.
+        </p>
+        <p>
+          <lb ed="#P" n="65"/>14. Nihilominus communiter Doctores hanc
+          <lb ed="#P" n="66"/>negotiationem rt simoniacam damnant. In
+          <lb ed="#P" n="67"/>hoc enim sensu videtur dixisse Bonavent., in
+          <lb ed="#P" n="68"/>4. d. 25, circa litter. , dub. ult., simoniam
+          <lb ed="#P" n="69"/>committi: Dando collateralibus, licet non detur
+          <lb ed="#P" n="70"/>Episcopo. Quod magis explicavit Major, q. 3,
+          <lb ed="#P" n="71"/>ad 2; supplem. Gabr., quaest. 2, art. 3, dub.
+          <lb ed="#P" n="72"/>4, circa finem ; Armil., l. 10 de Quaest. Arm.,
+          <lb ed="#P" n="73"/>cap. 18; Sylvest., verb. Simonia, q. 6; Tab,
+          <lb ed="#P" n="74"/>n. 8; Angel., Simonia, 3, num. 25, et reliqui
+          <lb ed="#P" n="75"/>Summistae. Latius quam caeteri Navar., d.c.
+          <lb ed="#P" n="76"/>23, n. 106, verb. Ad quintam, ubi refert 
+          In<lb break="no" ed="#P" n="77"/>noc., Anton., Panorm. et Felin., in c. Tuam,
+          <lb ed="#P" n="78"/>de Atat. et qualit., et in c. Tanta, de Simon.
+          <lb ed="#P" n="79"/>Idem Navarr., in Comment. de Datis et 
+          pro<lb break="no" ed="#P" n="80"/>mis., not. 32, num. 45, et cons. 56 et 57, de
+          <lb ed="#P" n="81"/>Sim. ; Soto, d. lib. 9, q. 7, art. 3. Et sumi
+          <lb ed="#P" n="82"/>potest haec sententia ex D. Thoma, d. q. 100,
+          <lb ed="#P" n="83"/>art. 2, ad 5, ubi docet, arte jus acquisitum
+          <lb ed="#P" n="84"/>in beneficium, simoniam esse per pecuniam
+          <lb ed="#P" n="85"/>sternere viam ad illud obtinendum, tollendo
+          <lb ed="#P" n="86"/>impedimenta. Ergo a fortiori directe 
+          procu<lb break="no" ed="#P" n="87"/>rando et influendo. Potest autem haec 
+          resolu<lb break="no" ed="#P" n="88"/>tio intelligi, vel de jure divino, vel de jure 
+          po<lb break="no" ed="#P" n="89"/>sitivo, et utroque modo videtur affirmari a
+          <lb ed="#P" n="90"/>dictis auctoribus, et merito.
+        </p>
+        <p>
+          <lb ed="#P" n="91"/>15. Probatur intercessores pretium non 
+          pos<lb break="no" ed="#P" n="92"/>se accipere absque simonia. — Probatur ergo
+          <lb ed="#P" n="93"/>primo ratione quam indicat Innocent., quia
+          <lb ed="#P" n="94"/>perinde est per pecuniam beneficium 
+          imme<lb break="no" ed="#P" n="95"/>diate a collatore obtinere , vel medio 
+          inter<lb break="no" ed="#P" n="96"/>cessore, quia utroque modo per pecuniam 
+          ob<lb break="no" ed="#P" n="97"/>tineo, et consequenter emo beneficium. Et
+          <lb ed="#P" n="98"/>declaratur, nam quando in effectu datur 
+          be<lb break="no" ed="#P" n="99"/>neficium, non a solo collatore, sed ab 
+          inter<lb break="no" ed="#P" n="100"/>cessore etiam quodammodo datur, quia causa
+          <lb ed="#P" n="101"/>inducens est vera causa moralis; ergo saltem
+          <lb ed="#P" n="102"/>emitur collatio, ut manat moraliter ab 
+          inter<lb break="no" ed="#P" n="103"/>cessore. Secundo, argumentatur Soto, quia
+          <lb ed="#P" n="104"/>non solum dare, sed etiam recipere 
+          benefi<lb break="no" ed="#P" n="105"/>cium pro pecunia simoniacum est; sed licet
+          <lb ed="#P" n="106"/>tunc praelatus non conferat beneficium pro 
+          pe<lb break="no" ed="#P" n="107"/>cunia, alter pro pecunia recipit; ergo est 
+          si<lb break="no" ed="#P" n="108"/>moniacus. Haec vero ratio supponit 
+          praece<lb break="no" ed="#P" n="109"/>dentem, quia nemo recipit pro pecunia, nisi
+          <lb ed="#P" n="110"/>aliquis det pro pecunia, saltem in simonia rea-
+          <pb ed="#P" n="945"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>li et completa, qualis est haec ; ideo ergo iste
+          <lb ed="#P" n="2"/>recipit pro pecunia, quia ex parte dantis 
+          con<lb break="no" ed="#P" n="3"/>sideratur etiam intercessor, qui per pecuniam
+          <lb ed="#P" n="4"/>suo modo dat. Tertio, ex Navar., secundo loco
+          <lb ed="#P" n="5"/>supra citato, quia haec intercessio virtualiter est
+          <lb ed="#P" n="6"/>quidpiam spirituale, quia non emitur nisi ut
+          <lb ed="#P" n="7"/>virtute continens collationem beneficii, nec alia
+          <lb ed="#P" n="8"/>ratiope in aestimatione haberetur. Et 
+          declara<lb break="no" ed="#P" n="9"/>tur tandem, quia si quis intercessori 
+          promit<lb break="no" ed="#P" n="10"/>tat decem pro precibus, non simpliciter et 
+          ab<lb break="no" ed="#P" n="11"/>solute, sed sub conditione, Si fuerint efhicaces,
+          <lb ed="#P" n="12"/>id est, si cum effectu obtinuerint 
+          dispensatio<lb break="no" ed="#P" n="13"/>nem aut beneficium, tunc clarissima est 
+          simo<lb break="no" ed="#P" n="14"/>nia, ut omnes fatentur, et specialius 
+          declara<lb break="no" ed="#P" n="15"/>vit Supplem. Gabr., quia evidenter tunc
+          <lb ed="#P" n="16"/>emuntur preces, ut habentes effectum 
+          spiri<lb break="no" ed="#P" n="17"/>tualem, et non aliter, atque adeo ratione 
+          il<lb break="no" ed="#P" n="18"/>lius, et ipse principalius. Ergo idem est si
+          <lb ed="#P" n="19"/>emantur ut sufficientes ad obtinendum 
+          eum<lb break="no" ed="#P" n="20"/>dem effectum, quia similem connexionem 
+          ha<lb break="no" ed="#P" n="21"/>bent, licet non omnino eamdem.
+        </p>
+        <p>
+          <lb ed="#P" n="22"/>16. Denique ex jure canonico probari 
+          po<lb break="no" ed="#P" n="23"/>test haec sententia ex cap. Statuimus, 2, 1, q.
+          <lb ed="#P" n="24"/>1. ubi Nicolaus Papa numerat tres species 
+          si<lb break="no" ed="#P" n="25"/>moniace ordinatorum : et una est, quando 
+          si<lb break="no" ed="#P" n="26"/>moniaci a non simoniacis simoniace 
+          ordinan<lb break="no" ed="#P" n="27"/>hur. Qui modus simoniae tunc videtur 
+          com<lb break="no" ed="#P" n="28"/>mitti, quando ordinanti nihil datur, sed 
+          me<lb break="no" ed="#P" n="29"/>diatoribus, ut Turrecr. ibi, et alii notarunt.
+          <lb ed="#P" n="30"/>Item quoad simoniam ab ordine aperte 
+          proba<lb break="no" ed="#P" n="31"/>tur ex cap. Preesentium, 1, quaest. 5, ubi 
+          Ur<lb break="no" ed="#P" n="32"/>banus Papa agnoscit simoniam commissam
+          <lb ed="#P" n="33"/>per pecuniam non Episcopo, sed cuidam 
+          prin<lb break="no" ed="#P" n="34"/>cipum ejus datam. Per quae jura magis 
+          vide<lb break="no" ed="#P" n="35"/>tur declarari naturale jus, quam novum 
+          sta<lb break="no" ed="#P" n="36"/>tui ; quando vero illud esset obscurius, de 
+          ec<lb break="no" ed="#P" n="37"/>clesiastico jure dubitari non potest. Et 
+          contir<lb break="no" ed="#P" n="38"/>mari potest congruentia ex necessitate talis
+          <lb ed="#P" n="39"/>prohibitionis ; quia per hunc modum emendi
+          <lb ed="#P" n="40"/>ordines aut beneficia, maxima mala Ecclesiae
+          <lb ed="#P" n="41"/>proveniunt : nam promoventur indigni si 
+          pe<lb break="no" ed="#P" n="42"/>cuniis abundent , et digni relinquuntur: et
+          <lb ed="#P" n="43"/>ita non minus fiunt venialia beneficia, et alia
+          <lb ed="#P" n="44"/>similia, quam si ab ipsis praelatis emerentur.
+          <lb ed="#P" n="45"/>Praesertim quia interdum tantum valent apud
+          <lb ed="#P" n="46"/>patronos hi rogatores, ut moraliter perinde
+          <lb ed="#P" n="47"/>sit ab eis emere, quod ab eorum patronis.
+          <lb ed="#P" n="48"/>Ratio autem dubitandi ex dictis soluta 
+          relin<lb break="no" ed="#P" n="49"/>quitur.
+        </p>
+        <p>
+          <lb ed="#P" n="50"/>11. Advertendum. — GSecundum 
+          adverten<lb break="no" ed="#P" n="51"/>dum. — Advertunt autem omnes quod, si 
+          fa<lb break="no" ed="#P" n="52"/>miliaris intercessionem non interponeret, sed
+          <lb ed="#P" n="53"/>tantum aperiret januam, aut facilem aditum
+          <lb ed="#P" n="54"/>tribueret, ut ipse orator posset petere a 
+          prae<lb break="no" ed="#P" n="55"/>lato, licet hac de causa daretur pecunia, non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>committeretur simonia, quidquid sit de turpi
+          <lb ed="#P" n="57"/>Iucro, vel injustitia ex parte accipientis, quam
+          <lb ed="#P" n="58"/>interdum committere posset, si nimium 
+          vexa<lb break="no" ed="#P" n="59"/>ret ; secus si oblatam acciperet, vel si aliquid
+          <lb ed="#P" n="60"/>faceret ultra id quod teneretur. Ita fere Adria.
+          <lb ed="#P" n="61"/>supra, et Palud., quaest. 5. Addit etiam 
+          Na<lb break="no" ed="#P" n="62"/>var., d. num. 106, non esse simoniam, si 
+          ali<lb break="no" ed="#P" n="63"/>quid detur pro labore suscepto, eundo et 
+          re<lb break="no" ed="#P" n="64"/>deundo ad collatorem, vel in 
+          recompensatio<lb break="no" ed="#P" n="65"/>nem alicujus damni quod ea de causa 
+          pati<lb break="no" ed="#P" n="66"/>tur, aut alterius lucri quod amittit. Quod in
+          <lb ed="#P" n="67"/>rigore verum est, quia haec accidentalia etiam
+          <lb ed="#P" n="68"/>in spiritualibus actionibus compensari possunt,
+          <lb ed="#P" n="69"/>sed cavendum est ne suhb hoc colore aliquid
+          <lb ed="#P" n="70"/>accipiatur ultra aestimationem talis valoris,
+          <lb ed="#P" n="71"/>vel damni secundum se spectati; alias simonia
+          <lb ed="#P" n="72"/>non evitabitur. Addit denique Adrianus, si
+          <lb ed="#P" n="73"/>mediator ille solum assumat curam 
+          informan<lb break="no" ed="#P" n="74"/>di praelatum de meritis talis personae, licet
+          <lb ed="#P" n="75"/>pro illo labore pecuniam accipiat, non fore
+          <lb ed="#P" n="76"/>simoniacum. Quod mihi videtur speculative
+          <lb ed="#P" n="77"/>verum, practice autem periculosum, nisi 
+          ma<lb break="no" ed="#P" n="78"/>gna cautela et recta intentione fiat. Ratio
+          <lb ed="#P" n="79"/>prioris partis est, quia ille non se gerit ut 
+          in<lb break="no" ed="#P" n="80"/>tercessor proprie, sed ut advocatus docens et
+          <lb ed="#P" n="81"/>instruens judicem de meritis causae, seu 
+          par<lb break="no" ed="#P" n="82"/>ts suae in tali causa; ita ergo potest mediator
+          <lb ed="#P" n="83"/>informare electorem, vel collatorem de 
+          parti<lb break="no" ed="#P" n="84"/>bus et dignitate talis personae, quod officium
+          <lb ed="#P" n="85"/>mere temporale est, et dignum mercede. 
+          Erit<lb break="no" ed="#P" n="86"/>que securius, si per modum stipendii potius
+          <lb ed="#P" n="87"/>quam pretii accipiat. Periculum vero est, quia
+          <lb ed="#P" n="88"/>mediator iste saepe excedit officium 
+          informan<lb break="no" ed="#P" n="89"/>tis, et assumit officium exhortantis et 
+          indu<lb break="no" ed="#P" n="90"/>centis, plusquam objectum ipsum per se posset
+          <lb ed="#P" n="91"/>inclipnare; tunc autem jam exercebit officium
+          <lb ed="#P" n="92"/>intercessoris, et incidet in simoniam, ratione
+          <lb ed="#P" n="93"/>jam dicta. Debet ergo in actione servare 
+          mo<lb break="no" ed="#P" n="94"/>dum, ut puram informationem tribuat sine
+          <lb ed="#P" n="95"/>laudatione et exaggeratione, et in intentione,
+          <lb ed="#P" n="96"/>ut non intendat per se inducere, sed tantum
+          <lb ed="#P" n="97"/>tollere ignorantiam objecti, ut ipsum per se
+          <lb ed="#P" n="98"/>moveat, quod justum est. .
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

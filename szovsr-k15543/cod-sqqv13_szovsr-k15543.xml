@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="624"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k15543"><!-- t3-l4c1 -->
+        <head>Caput 1</head>
+        <head type="question-title">Quid simonia sit, et cur hac voce significetur.</head>
+        <p>
+          <lb ed="#P" n="25"/>CAPUT I.
+          <lb ed="#P" n="26"/>QUID SIMONIA SIT, ET CUR HAC VOCE 
+          SIGNIFI<lb break="no" ed="#P" n="27"/>CETUR.
+        </p>
+        <p>
+          <lb ed="#P" n="28"/>1. Quod vitium significetur per hoc nomen
+          <lb ed="#P" n="29"/>simonia. — Principio supponendum est hoc
+          <lb ed="#P" n="30"/>nomine simoniae, vitium quoddam significari,
+          <lb ed="#P" n="31"/>quod committitur, vendendo, emendo, aut
+          <lb ed="#P" n="32"/>quocumque modo commutando rem sacram,
+          <lb ed="#P" n="33"/>seu spiritualem pro temporali. Nam quod 
+          hu<lb break="no" ed="#P" n="34"/>jusmodi contractus fieri possit et soleat, 
+          no<lb break="no" ed="#P" n="35"/>tius est quam ut declaratione indigeat. Quod
+          <lb ed="#P" n="36"/>vero talis contractus cedat in injuriam rei 
+          sa<lb break="no" ed="#P" n="37"/>crae, nunc supponitur, nam infra ex professo
+          <lb ed="#P" n="38"/>probandum est in variis speciebus simoniae,
+          <lb ed="#P" n="39"/>cuia non in omnibus eamdem radicem 
+          ma<lb break="no" ed="#P" n="40"/>litie habet. Ideoque suflicit nunc quaedam
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="41"/>brevis declaratio; nam, eo ipso quod res 
+          sa<lb break="no" ed="#P" n="42"/>cra, ut sacra est, pro re temporali ac profana
+          <lb ed="#P" n="43"/>commutatur, indigne tractatur ac profanatur;
+          <lb ed="#P" n="44"/>ergo talis commutatio malitiam sacrilegii 
+          in<lb break="no" ed="#P" n="45"/>volvit. Vel aliter, eo ipso quod res spiritualis
+          <lb ed="#P" n="46"/>temporali pretio emitur aut venditur, illi 
+          ae<lb break="no" ed="#P" n="47"/>quiparatur in valore et aestimatione, quia 
+          con<lb break="no" ed="#P" n="48"/>tractus ipse postulat quamdam asequalitatem
+          <lb ed="#P" n="49"/>inter ea quae commutantur ; at hoc ipsum est
+          <lb ed="#P" n="50"/>contra debitam aestimationem et dignitatem
+          <lb ed="#P" n="51"/>rei sacrae; ergo talis actio vitiosa est, 
+          merito<lb break="no" ed="#P" n="52"/>que inter sacrilegia connumeratur. Quod 
+          de<lb break="no" ed="#P" n="53"/>nique hoc vitium nomine simonia 
+          significe<lb break="no" ed="#P" n="54"/>tur, constat ex usu totius Ecclesiae, et ex 
+          titu<lb break="no" ed="#P" n="55"/>lis de Simonia in Decretalibus Sext. et 
+          Cle<lb break="no" ed="#P" n="56"/>men., et ex iunumeris Decretis, causa 1, per
+          <lb ed="#P" n="57"/>sex primas quaestiones, ubi haec materia ex
+          <lb ed="#P" n="58"/>Patribus, et a Doctoribus tractatur : et a 
+          Theo<lb break="no" ed="#P" n="59"/>logis in 4, d. 25 et 22, q. 100, et ab aliis 
+          mul<lb break="no" ed="#P" n="60"/>tis Doctoribus, qui de hac materia 
+          scripse<lb break="no" ed="#P" n="61"/>runt.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>2. Quis huic vitio nomen simonie 
+          imposue<lb break="no" ed="#P" n="63"/>rit.—Que heresis quondam simonia diceretur.
+          <lb ed="#P" n="64"/>— Solet autem hic qusaeri, quis nomen 
+          simo<lb break="no" ed="#P" n="65"/>niae huic vitio imposuerit, et qua ratione ita
+          <lb ed="#P" n="66"/>appellatum sit. Sed non est res magni 
+          mo<lb break="no" ed="#P" n="67"/>menti. Nam de auctore nominis nihil (ut 
+          ar<lb break="no" ed="#P" n="68"/>bitror) certum dici potest. Chrysostomus 
+          qui<lb break="no" ed="#P" n="69"/>dem, hom. 60 ad Populum, omnes, qui hoc
+          <lb ed="#P" n="70"/>vitium committunt, Simones vocat, dum 
+          pro<lb break="no" ed="#P" n="71"/>hibet ne ullus Simon communicare audeat;
+          <lb ed="#P" n="72"/>et homil. 13 in Marce., Simonem proponit
+          <lb ed="#P" n="73"/>tanquam primum hujus vitii exemplar, quem
+          <lb ed="#P" n="74"/>imitari dicit omnes, qui gratiam Christi 
+          eme<lb break="no" ed="#P" n="75"/>re student ; et eodem modo loquuntur Patres
+          <lb ed="#P" n="76"/>illi aequales, vel antiquiores; distincte vero
+          <lb ed="#P" n="77"/>non utuntur voce simoniae pro ipso vitio 
+          si<lb break="no" ed="#P" n="78"/>gnificando. Gregorius autem, lib. 7, epist.
+          <lb ed="#P" n="79"/>110, 113 et 114, simoniacam haeresim 
+          appel<lb break="no" ed="#P" n="80"/>lat. Legimus item antiquiores Patres 
+          mentio<lb break="no" ed="#P" n="81"/>nem facere cujusdam haeresis, quam simonia-
+          <pb ed="#P" n="625"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cam appellant, ut patet apud Nazian., orat.
+          <lb ed="#P" n="2"/>44 in Pentecost , prope initium, et Epiphan.,
+          <lb ed="#P" n="3"/>haeres. 21. Sed illa longe alia haeresis fuit a
+          <lb ed="#P" n="4"/>vitio simonia; imo fuit infinitarum collectio
+          <lb ed="#P" n="5"/>haeresum, nam ille Simon et negabat Deum
+          <lb ed="#P" n="6"/>esse creatorem coeli et terrae, seque creatorem
+          <lb ed="#P" n="7"/>Angelorum faciebat, et Spiritum Sanctum
+          <lb ed="#P" n="8"/>quamdam feminam esse dicebat ; et sexcenta
+          <lb ed="#P" n="9"/>similia deliramenta effutiebat. Imo ait 
+          lre<lb break="no" ed="#P" n="10"/>naeus, lib. 1 contr. Har., cap. 20, abillo 
+          hae<lb break="no" ed="#P" n="11"/>reses omnes substitisse, et sectatores ejus 
+          vo<lb break="no" ed="#P" n="12"/>eatos esse simonianos, ut ctiam appellat 
+          Au<lb break="no" ed="#P" n="13"/>gustinus, lib. de Haeres., in 1, qui longe 
+          di<lb break="no" ed="#P" n="14"/>versi sunt a simoniacis. Ergo haeresis 
+          simo<lb break="no" ed="#P" n="15"/>niaca, de qua loguitur Gregorius, non 
+          com<lb break="no" ed="#P" n="16"/>plectitur totam doctrinam falsam Simonis;
+          <lb ed="#P" n="17"/>sed pro illa speciali quam Simon indicavit,
+          <lb ed="#P" n="18"/>quando virtutem dandi Spiritum Sanctum
+          <lb ed="#P" n="19"/>emere voluit, vox illa usurpata est a 
+          Grego<lb break="no" ed="#P" n="20"/>rio, et inde postea vox incomplexa simonie,
+          <lb ed="#P" n="21"/>derivata est ad proprium vitium et 
+          sacrile<lb break="no" ed="#P" n="22"/>gium significandum.
+        </p>
+        <p>
+          <lb ed="#P" n="23"/>3. Rationes assignantur cur a Simone 
+          no<lb break="no" ed="#P" n="24"/>men acceperit hoc vitium. — Prima. — 
+          Se<lb break="no" ed="#P" n="25"/>cunda. — Rationes autem ob quas a Simone
+          <lb ed="#P" n="26"/>hoc vitium nomen acceperit, plures 
+          reddun<lb break="no" ed="#P" n="27"/>tur. Prima est, quia ille fuit primus, qui in
+          <lb ed="#P" n="28"/>lege gratiae hoc vitium commisit; an vero
+          <lb ed="#P" n="29"/>ante hanc legem alii illud commiserint, infra
+          <lb ed="#P" n="30"/>videbimus. Secunda est, quia ex parte 
+          mate<lb break="no" ed="#P" n="31"/>riae gravissime deliquit, quia ipaammet 
+          perso<lb break="no" ed="#P" n="32"/>nam Spiritus Sancti, et dona ejus venalia
+          <lb ed="#P" n="33"/>esse voluit, et consequenter voluit Spiritum
+          <lb ed="#P" n="34"/>Sanctum sibi subjectum, et tanquam servum
+          <lb ed="#P" n="35"/>venalem babere, sicut scripsit Tharasius ad
+          <lb ed="#P" n="36"/>Paschasium Papam, et habetur in c. Eos, 1,
+          <lb ed="#P" n="37"/>quaest. 1. Tertia est, quia simul emendo et
+          <lb ed="#P" n="38"/>vendendo Spiritum Sanctum peccavit, saltem
+          <lb ed="#P" n="39"/>affectu, intentione et conatu. Formaliter enim
+          <lb ed="#P" n="40"/>emere tentavit potestatem dandi Spiritum
+          <lb ed="#P" n="41"/>Sanctum, et quia haec potestas non datur sine
+          <lb ed="#P" n="42"/>ipso Spiritu Sancto, ipsum etiam Spiritum
+          <lb ed="#P" n="43"/>Sanctum emere voluit. Et ita ex loco Actor.
+          <lb ed="#P" n="44"/>8, probat Chrysostomus, homil. 13 in Marc.,
+          <lb ed="#P" n="45"/>non solum esse malum vendere spiritualia,
+          <lb ed="#P" n="46"/>sed etiam emere: Nam Simon Magus (inquit)
+          <lb ed="#P" n="47"/>non quaa vendidit, sed quia emere voluit, 
+          dam<lb break="no" ed="#P" n="48"/>Anatus est. Nibilominus addit D. Thomas, dicta
+          <lb ed="#P" n="49"/>q. 100, art. 1, ad 4, etiam peccasse vendendo
+          <lb ed="#P" n="50"/>Spiritum Sanctum, saltem affectu, et 
+          inten<lb break="no" ed="#P" n="51"/>tione, quia ad hoc emere volebat potestatem,
+          <lb ed="#P" n="52"/>ut postea ipsum Spiritum Sanctum venderet,
+          <lb ed="#P" n="53"/>et allegat cap. Salcator, 1, quaest. 3, ubi 
+          Ur<lb break="no" ed="#P" n="54"/>ban. Il ait : Simon Magus non Spiritum
+          <lb ed="#P" n="55"/>Sanctum propter Syiritum Sanctum, quo ipse
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>erat indignus, sed ideo quantum in ipso erat,
+          <lb ed="#P" n="57"/>emere voluit, ut ex venditione signorum, quee
+          <lb ed="#P" n="58"/>per eumdem fierent, multiplicatam pecuniam
+          <lb ed="#P" n="59"/>lucraretur. Sic etiam Epiphan., haeres. 21, 
+          in<lb break="no" ed="#P" n="60"/>quit : Cum Simon non haberet rectum cor, 
+          ne<lb break="no" ed="#P" n="61"/>que cogitationem Tectam, sed lucro et studio
+          <lb ed="#P" n="62"/>pecuniarum intentus esset, offerebat pecunias
+          <lb ed="#P" n="63"/>Petro Apostolo, ut daret ipsi potestatem dandi
+          <lb ed="#P" n="64"/>Spiritum Sanctum per manus impositionem ;
+          <lb ed="#P" n="65"/>ita ratione secum inita, qua dare vellet multis
+          <lb ed="#P" n="66"/>pro mcdica pecunia, atque sic per emhibitionem
+          <lb ed="#P" n="67"/>Spiritus multas pecunias cumulare ac lucrari.
+          <lb ed="#P" n="68"/>Et Cyrillus Hierosolymitanus Cateches. 16:
+          <lb ed="#P" n="69"/>Non dixit (inquit): Date mihi Spiritus
+          <lb ed="#P" n="70"/>Sancti communionem, sed potestatem, ut aliis
+          <lb ed="#P" n="71"/>venderet quod non erat venale. Et similem
+          <lb ed="#P" n="72"/>sententiam habet Áugustinus, tr. 10 in Joan.
+          <lb ed="#P" n="73"/>Neque hanc pravam Simonis intentionem 
+          te<lb break="no" ed="#P" n="74"/>mere jndicarunt Patres, sed ex verbis et 
+          cir<lb break="no" ed="#P" n="75"/>cumstantiis personae et operum ejus 
+          pruden<lb break="no" ed="#P" n="76"/>ter eam collegerunt. Expresse enim ipse 
+          Si<lb break="no" ed="#P" n="77"/>mon dixit Apostolis: Date mihi hanc 
+          potesta<lb break="no" ed="#P" n="78"/>tem, ut cuicumque imposuero manus, accipiat
+          <lb ed="#P" n="79"/>Spiritum Sanctum ; cnum enim aiebat: Date,
+          <lb ed="#P" n="80"/>non liberalem donationem, sed oblationem
+          <lb ed="#P" n="81"/>pretio venditam postulabat ; eodem ergo modo
+          <lb ed="#P" n="82"/>dare intendebat. Unde recte Augustinus, tract.
+          <lb ed="#P" n="83"/>10 in Joan.: Putabat (inquit) mercatores esse
+          <lb ed="#P" n="84"/>Apostolos , talis enim apse erat, et quod 
+          cende<lb break="no" ed="#P" n="85"/>ret emere volebat.
+        </p>
+        <p>
+          <lb ed="#P" n="86"/>4. Quarta ratio sumi potest, ex eo quod hoc
+          <lb ed="#P" n="87"/>vitium in Simone primum per Apostolos 
+          dam<lb break="no" ed="#P" n="88"/>natum, et quasi anathematizatum est. Unde
+          <lb ed="#P" n="89"/>est illud, quod Gelas. Papa, epist. 1, cap. 26,
+          <lb ed="#P" n="90"/>de Simoniacis scripsit : Dantem simul et 
+          ac<lb break="no" ed="#P" n="91"/>cipientem damnatio Simonis, quam sacra 
+          lec<lb break="no" ed="#P" n="92"/>to testatur, involvit. Et habetur in cap. Quos,
+          <lb ed="#P" n="93"/>6, 1, q. 1, et similis sententia potest sumi ex
+          <lb ed="#P" n="94"/>cap. Aeperiuntur, 1. Quinta ratio sumi potest,
+          <lb ed="#P" n="95"/>quia in Simone non solum ipsum vitium 
+          dam<lb break="no" ed="#P" n="96"/>natum est, sed etiam radix ejus, quae est 
+          avari<lb break="no" ed="#P" n="97"/>tia, a qua maxime oriri solet. Quod adeo ex»
+          g<lb break="no" ed="#P" n="98"/>gerat Urban. Papa, in d. cap. Salvator, ut 
+          ci<lb break="no" ed="#P" n="99"/>cat : IVec Apostolus emptionem Spiritus S'a»cti
+          <lb ed="#P" n="100"/>(quam bene fieri non gosse noverat), sed 
+          ambi<lb break="no" ed="#P" n="101"/>tionem questus talis, et avaritiam, quae est
+          <lb ed="#P" n="102"/>idolorum servitus, in ceodem Smone emhorruit,
+          <lb ed="#P" n="103"/>et maledictionis jaculo percussit. Ubi non 
+          in<lb break="no" ed="#P" n="104"/>telligit, Apostolum non exhorruisse vitium
+          <lb ed="#P" n="105"/>ipsum emendi Spiritum Sanctum; nam in
+          <lb ed="#P" n="106"/>universum affectum illum exhorruit ; maxime
+          <lb ed="#P" n="107"/>vero talem, qui ad turpem quaestum ex nimia
+          <lb ed="#P" n="108"/>avaritia ordinabatur. Unde illi maxime sunt
+          <lb ed="#P" n="109"/>simoniaci, maximeque haereticum illum 
+          imi<lb break="no" ed="#P" n="110"/>tantur, qui ob temporalem quaestum spiritua-
+          <pb ed="#P" n="626"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lia emunt, quamvis omnes ementes et 
+          ven<lb break="no" ed="#P" n="2"/>dentes, simoniaci sint, quacumque intentione
+          <lb ed="#P" n="3"/>id faciant. Sexta etiam ratio addi solet, quia
+          <lb ed="#P" n="4"/>Simon ex falsa fide, et ex haeresi concepta, in
+          <lb ed="#P" n="5"/>vitium illud prolapsus est. Quod ex verbis
+          <lb ed="#P" n="6"/>Petri non obscure colligitur : Pecunia tua 
+          te<lb break="no" ed="#P" n="7"/>cum sit in perditionem, quoniam donum Dei
+          <lb ed="#P" n="8"/>egistimasti pecunsa possideri. Vla ergo 
+          existi<lb break="no" ed="#P" n="9"/>matio non erat secundum fidei puritatem, ut
+          <lb ed="#P" n="10"/>ponderavit Ambrosius, lib. 2 de Poenit., c. 4,
+          <lb ed="#P" n="11"/>cap. Petrus, 1, quaest. 1. Fuit ergo aliqua 
+          hae<lb break="no" ed="#P" n="12"/>resis. llla vero duobus modis explicari potest.
+          <lb ed="#P" n="13"/>Primo, quia revera non existimabat nec 
+          cre<lb break="no" ed="#P" n="14"/>debat illud esse donum Dei, sed putabat 
+          Apos<lb break="no" ed="#P" n="15"/>tolos esse magos, sicut ipse erat, et volebat
+          <lb ed="#P" n="16"/>ab eis doceri artem illam, et ad hoc pecunias
+          <lb ed="#P" n="17"/>offerebat. Hoc indicavit Magist. Histor. in
+          <lb ed="#P" n="18"/>Actib., c. 44, dicens, existimasse Simonem,
+          <lb ed="#P" n="19"/>Apostolos quadam peculiari industria 
+          potesta<lb break="no" ed="#P" n="20"/>tem illam solitos fuisse conferre, potuisseque
+          <lb ed="#P" n="21"/>pecunia comparari. Secundo, quia existimavit
+          <lb ed="#P" n="22"/>Spiritum Sanctum et dona ejus venalia esse,
+          <lb ed="#P" n="23"/>et pecunia obtineri posse, ut ait Nicephorus,
+          <lb ed="#P" n="24"/>libro secundo Histor., capitul. 6, et indicat
+          <lb ed="#P" n="25"/>Cyrillus Hierosoly mitanus, Cateches. 6; ex quo
+          <lb ed="#P" n="26"/>manavit haeresis affirmans spiritualia posse
+          <lb ed="#P" n="27"/>pecunia aestimari, quam Armenis tribuit 
+          Gui<lb break="no" ed="#P" n="28"/>do Carmelita, ut refert Castro, verb. 
+          Si<lb break="no" ed="#P" n="29"/>monia.
+        </p>
+        <p>
+          <lb ed="#P" n="30"/>5. Cur hoc vitium simoniaca heresis 
+          ap<lb break="no" ed="#P" n="31"/>gelleiur.— Cur simonia Neophytorum heresis
+          <lb ed="#P" n="32"/>dicatur. — Atque ex his obiter intelligitur,
+          <lb ed="#P" n="33"/>cur vitium hoc, quod sacrilegium esse 
+          dixi<lb break="no" ed="#P" n="34"/>mus, simoniaca haeresis a Gregorio appelletur.
+          <lb ed="#P" n="35"/>Estque in jure canonico valde usitatus ille 
+          mo<lb break="no" ed="#P" n="36"/>dus loquendi, ut patet, 1, quaest. 1, cap. 
+          Pres<lb break="no" ed="#P" n="37"/>byter, 3, cum aliquib. sequentib., cap. Cum
+          <lb ed="#P" n="38"/>liqueat, 13,cap. Statuimus, 206, et gravissime
+          <lb ed="#P" n="39"/>in cap. Zos, 21, ubi Macedonii haeresi haec
+          <lb ed="#P" n="40"/>antefertur ; nam Macedonius Spiritum 
+          Sanc<lb break="no" ed="#P" n="41"/>tum Patris et Filii servum faciebat, Simon
+          <lb ed="#P" n="42"/>autem hominum, quem Simoniaci imitantur.
+          <lb ed="#P" n="43"/>Et in cap. Patet, ult. 1, q. 7, cum magna
+          <lb ed="#P" n="44"/>exaggeratione dicitur Simoniacos, tanquam
+          <lb ed="#P" n="45"/>primos et praecipuos haereticos, esse 
+          detestan<lb break="no" ed="#P" n="46"/>dos. Et quod loquantur haec jura de ipso vitio
+          <lb ed="#P" n="47"/>simoniae, patet ex cap. Qnoties, extra, de 
+          Si<lb break="no" ed="#P" n="48"/>mon., ubi quidam dic:tur ordinatus per 
+          simo<lb break="no" ed="#P" n="49"/>niacam haeresim ; unde aperte constat ipsum
+          <lb ed="#P" n="50"/>vitium haeresim appellari. Solet etiam 
+          Grego<lb break="no" ed="#P" n="51"/>rius hanc vocare Neophytorum haeresim, ut
+          <lb ed="#P" n="52"/>patet ex dicta epist. 110, et ex lib. 4, epist.
+          <lb ed="#P" n="53"/>55, et lib. 5, epist. 107, et c. Quisquis, 4, q.
+          <lb ed="#P" n="54"/>1, non quia ab aliquo homine sic appellato
+          <lb ed="#P" n="55"/>originem traxerit ( nullum enim talem histo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>riae referunt), sed quia Simon adhuc 
+          neophy<lb break="no" ed="#P" n="57"/>tus, id est, recens baptizatus illam invenit, ut
+          <lb ed="#P" n="58"/>ibi notat Glossa, et alu.
+        </p>
+        <p>
+          <lb ed="#P" n="59"/>6. Simonia per se non est fidei contraria. —
+          <lb ed="#P" n="60"/>Sed nihilominus certum est vitium hoc per se
+          <lb ed="#P" n="61"/>et formaliter non esse contrarium fidei, quia
+          <lb ed="#P" n="62"/>per se non requirit errorem in intellectu 
+          con<lb break="no" ed="#P" n="63"/>trarium fidei. Nam, licet non male sentiat de
+          <lb ed="#P" n="64"/>rebus sacris, potest tamen ex aliquo pravo
+          <lb ed="#P" n="65"/>affectu vel intentione eas indigne tractare.
+          <lb ed="#P" n="66"/>Alias omne sacrilegium haeresis esset, quod
+          <lb ed="#P" n="67"/>verum non est. Dicit D. Thomas, dicto art. 1,
+          <lb ed="#P" n="68"/>ad 1, simoniam vocari haeresim quoad 
+          exter<lb break="no" ed="#P" n="69"/>nam professionem, quia qui donum Spiritus
+          <lb ed="#P" n="70"/>Sancti vendit, profitetur se esse doni Spiritus
+          <lb ed="#P" n="71"/>Sancti dominum; vel, generalius loquendo,
+          <lb ed="#P" n="72"/>qui rem spiritualem et sacram vendit, eam
+          <lb ed="#P" n="73"/>tanquam venalem se aestimare significat, ac
+          <lb ed="#P" n="74"/>subinde judicare esse rem pretio aestimabilem,
+          <lb ed="#P" n="75"/>qnod speculative judicatum haeresis esset. 
+          Ta<lb break="no" ed="#P" n="76"/>men quia potest vitium committi cum solo 
+          ju<lb break="no" ed="#P" n="77"/>dicio practico, sine illo speculativo, ideo 
+          pro<lb break="no" ed="#P" n="78"/>prie et vere haeresis non est. Et ita Glossa et
+          <lb ed="#P" n="79"/>Doctores in cap. Firmissime, áe Haeret., notant
+          <lb ed="#P" n="80"/>simoniacum vocari haereticum late, non 
+          pro<lb break="no" ed="#P" n="81"/>prie. Fortasse etiam ab origine dicta est baec
+          <lb ed="#P" n="82"/>pestis simoniaca haeresis, quia ex haeresi 
+          pri<lb break="no" ed="#P" n="83"/>mum orta est, et qui illam exercet, primum
+          <lb ed="#P" n="84"/>haeresiarcham novi Testamenti imitatur. 
+          Pro<lb break="no" ed="#P" n="85"/>pter quae omnia, vitium hoc, praesertim 
+          fre<lb break="no" ed="#P" n="86"/>quenter usitatum, suspicionem haeresis afferre
+          <lb ed="#P" n="87"/>solet, et poenas aliquo modo similes mereri,
+          <lb ed="#P" n="88"/>ut infra suo loco videbimus.
+        </p>
+        <p>
+          <lb ed="#P" n="89"/>7. Definitio simonie proponitur et 
+          emplica<lb break="no" ed="#P" n="90"/>tur. — Simoniam distingui specie a cateris
+          <lb ed="#P" n="91"/>sacrilegiis. — Posset ergo simonia juxta dicta
+          <lb ed="#P" n="92"/>breviter definiri, esse sacrilegium, quod 
+          com<lb break="no" ed="#P" n="93"/>mittitur in emptione et venditione, seu in
+          <lb ed="#P" n="94"/>contractu quolibet, quo res spiritualis, ut talis
+          <lb ed="#P" n="95"/>est, pro temporali commutatur. Quod enim
+          <lb ed="#P" n="96"/>hoc vitium sub hoc genere contineatur, supra
+          <lb ed="#P" n="97"/>ostensum est, quia revera est profanatio 
+          quae<lb break="no" ed="#P" n="98"/>dam et injuriosa contrectatio rei sacrae. Per
+          <lb ed="#P" n="99"/>hoc ergo genus ab aliis vitiis religioni 
+          contra<lb break="no" ed="#P" n="100"/>riis, quae sub hoc genere non continentur,
+          <lb ed="#P" n="101"/>distinguitur. Per alias vero particulas 
+          explica<lb break="no" ed="#P" n="102"/>tur differentia propria constitutiva hujus vitii,
+          <lb ed="#P" n="103"/>et ita illam declarant Hostiens., et Abbas, in
+          <lb ed="#P" n="104"/>cap. Nemo, de Simonia. Unde per easdem 
+          dis<lb break="no" ed="#P" n="105"/>tinguitur simonia ab aliis speciebus 
+          sacrile<lb break="no" ed="#P" n="106"/>giorum ; nam in aliis non tractantur indigne
+          <lb ed="#P" n="107"/>res sacrae, u tales sunt, per voluntariam 
+          com<lb break="no" ed="#P" n="108"/>mutationem, sed per actiones longe diversas,
+          <lb ed="#P" n="109"/>ut supra visum est. Quae differentia tanta visa
+          <lb ed="#P" n="110"/>est Cajetano, ut erediderit per eam distingui
+          <pb ed="#P" n="627"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>hoc vitium quasi genere, ab omnibus aliis 
+          vi<lb break="no" ed="#P" n="2"/>tiis contra religionem hactenus tractatis. 
+          Ve<lb break="no" ed="#P" n="3"/>rumtamen satis est si dicamus per illam 
+          dis<lb break="no" ed="#P" n="4"/>tingui specie ab omnibus alus sacrilegis.
+          <lb ed="#P" n="5"/>Nam a genere ipso excludi non potest per 
+          il<lb break="no" ed="#P" n="6"/>lam differentiam, nec enim descriptio 
+          propo<lb break="no" ed="#P" n="7"/>sita ex repugnantibus partibus constat. Nam
+          <lb ed="#P" n="8"/>licet emptio sit voluntaria actio, nihilominus
+          <lb ed="#P" n="9"/>est contra reverentiam rei sacrae, et ideo 
+          dif<lb break="no" ed="#P" n="10"/>ferentia illa optime potest contrahere genus
+          <lb ed="#P" n="11"/>sacrilegii. Quod autem simonia distinguatur
+          <lb ed="#P" n="12"/>specie, etiam morali, et in genere vitii, a 
+          cae<lb break="no" ed="#P" n="13"/>teris sacrilegiis, probari potest ex diversa 
+          ra<lb break="no" ed="#P" n="14"/>tione deformitatis in ordine ad rectam 
+          ratio<lb break="no" ed="#P" n="15"/>nem , et ex aliis quae de distinctione harum
+          <lb ed="#P" n="16"/>specierum saepe diximus. Et ut abstrahamus
+          <lb ed="#P" n="17"/>ab speculativa quaestione , saltem est 
+          morali<lb break="no" ed="#P" n="18"/>ter certum, hanc speciem esse diversam in 
+          or<lb break="no" ed="#P" n="19"/>dine ad confessionem , quia necesse est in
+          <lb ed="#P" n="20"/>confessione explicare simoniae peccatum 
+          com<lb break="no" ed="#P" n="21"/>missum esse. Neque satis esset in genere 
+          di<lb break="no" ed="#P" n="22"/>cere sacrilegium aliquod esse commissum,
+          <lb ed="#P" n="23"/>quod est indubitatum apud omnes, et 
+          com<lb break="no" ed="#P" n="24"/>muni consensu totius Ecclesiae receptum. Imo
+          <lb ed="#P" n="25"/>etiam in speciebus simoniae (ne de illarum
+          <lb ed="#P" n="26"/>distinctione iterum dicere necesse sit), idem
+          <lb ed="#P" n="27"/>cum proportione observare necessarium erit.
+          <lb ed="#P" n="28"/>Nam inter eas esse solet tanta varietas, ut 
+          mo<lb break="no" ed="#P" n="29"/>dum et materiam simoniae declararc 
+          necessa<lb break="no" ed="#P" n="30"/>rium sit ; sive id sit propter rigorosam 
+          speci<lb break="no" ed="#P" n="31"/>ficam distinctionem, sive quia in ordine ad
+          <lb ed="#P" n="32"/>mores humanos non potest aliter de illa ferr
+          <lb ed="#P" n="33"/>morale seu sacramentale judicium.
+        </p>
+        <p>
+          <lb ed="#P" n="34"/>8. Ex his sufficienter declaratum videri 
+          po<lb break="no" ed="#P" n="35"/>terat , quid sit simonia generatim sumpta,
+          <lb ed="#P" n="36"/>quia clarior et distinctior notitia non est in
+          <lb ed="#P" n="37"/>hoc principio requirenda, ne omnia 
+          confun<lb break="no" ed="#P" n="38"/>damus. Nihilominus praetermittere non 
+          possu<lb break="no" ed="#P" n="39"/>mus communem et usitatam definitionem 
+          si<lb break="no" ed="#P" n="40"/>moniae, ejusque brevem declarationem, ne 
+          il<lb break="no" ed="#P" n="41"/>lam reprehendere aut contemnere videamur.
+          <lb ed="#P" n="42"/>Non est enim ita, sed in re non putamus 
+          dis<lb break="no" ed="#P" n="43"/>tingui ab ea quam tradidimus, imo in hoc
+          <lb ed="#P" n="44"/>excedit, quod per universaliores terminos et
+          <lb ed="#P" n="45"/>abstrahentes a particularibus opinionibus 
+          da<lb break="no" ed="#P" n="46"/>tur ; nos enim, ut insinuaremus 
+          consequen<lb break="no" ed="#P" n="47"/>tiam hujus doctrinae ad traditam in 
+          superiori<lb break="no" ed="#P" n="48"/>bus, et ut supponeremus omnia quae dicta sunt
+          <lb ed="#P" n="49"/>in genere de sacrilegio, in simonia supponenda
+          <lb ed="#P" n="50"/>esse, ideo per genus sacrilegii illam 
+          descripsi<lb break="no" ed="#P" n="51"/>mus ; usitata vero definitio sic habet.
+        </p>
+        <p>
+          <lb ed="#P" n="52"/>9. Definitio simonie magis usitata 
+          empli<lb break="no" ed="#P" n="53"/>catur. — Simonia est studiosa voluntas emendi
+          <lb ed="#P" n="54"/>vel vendendi aliquid spirituale, vel spirituali
+          <lb ed="#P" n="55"/>auneswm. Hanc amplectitur D. Thomas in d.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>25, quaest. 5, art. 1, et omnes Theologi in
+          <lb ed="#P" n="57"/>4. d. 25; et Altis., lib. 3, tract. 21; Alens.,2
+          <lb ed="#P" n="58"/>p.. quaest. 167, alias 185, memb. 2; Anton.,
+          <lb ed="#P" n="59"/>9p,tt 1. cap. 5,S 1. Sot.. 1 9 de Just.,
+          <lb ed="#P" n="60"/>q. 5, art. 1; juris canonici interpretes, in
+          <lb ed="#P" n="61"/>Rub. de Simon. Et Summista eodem; Navar.,
+          <lb ed="#P" n="62"/>cap. 23, num. 100; Armach., lib. 10 de Quaes:.
+          <lb ed="#P" n="63"/>Armen., c. 12. Estque sumpta ex Glossa in
+          <lb ed="#P" n="64"/>priucip. 1, 4, verb. Quidam, ubi Turrecrem.
+          <lb ed="#P" n="65"/>late illam tractat et defendit. Ponitur autem
+          <lb ed="#P" n="66"/>loco generis studiosa voluntas, vel quia 
+          genc<lb break="no" ed="#P" n="67"/>ralissimum genus est, de quo non potest esse
+          <lb ed="#P" n="68"/>controversia, quin sit de ratione cujuscumque
+          <lb ed="#P" n="69"/>peccati et vitii, quia sine voluntate eligente
+          <lb ed="#P" n="70"/>peccari non potest, et haec dicitur voluntas
+          <lb ed="#P" n="71"/>studiosa ; vel ad denotandum hoc vitium esse
+          <lb ed="#P" n="72"/>oppositum religioni, quae est pars justitiae. et
+          <lb ed="#P" n="73"/>voluntatem habet pro subjecto proprio. Vel
+          <lb ed="#P" n="74"/>ad indicandum, vitium hoc non opere tantum,
+          <lb ed="#P" n="75"/>sed etiam solo affectu deliberato posse 
+          com<lb break="no" ed="#P" n="76"/>mitti, non solum generali ratione qua omne
+          <lb ed="#P" n="77"/>peccatum potest solo desiderio Reri, ut Navar.
+          <lb ed="#P" n="78"/>sigiificat, sed etiam alia speciali, quam in 
+          si<lb break="no" ed="#P" n="79"/>monia mentali infra explicabimus. Vel 
+          deni<lb break="no" ed="#P" n="80"/>que quia prima simonia in Ecclesia commissa,
+          <lb ed="#P" n="81"/>a quo hoc vitium nomen accepit, sola studiosa
+          <lb ed="#P" n="82"/>voluntate et conatu commissa est, ut placuit
+          <lb ed="#P" n="83"/>Victor., in Relect. de Simon., num. 3, cum
+          <lb ed="#P" n="84"/>Armac. supra. Et sumpta videtur illa particula
+          <lb ed="#P" n="85"/>ex c. Qui studet, 1, quaest. prima.
+        </p>
+        <p>
+          <lb ed="#P" n="86"/>10 Quid loco differentie. —Heliquae 
+          parti<lb break="no" ed="#P" n="87"/>culae ponuntur loco differentiae, et fere 
+          coin<lb break="no" ed="#P" n="88"/>cidunt cum supra positis: tria vero in eis
+          <lb ed="#P" n="89"/>insinuantur. ex quibus pendet tota cognitio
+          <lb ed="#P" n="90"/>hujus vitii. Primum est materia simoniae, quae
+          <lb ed="#P" n="91"/>explicatur illis verbis, aliguid spirituale, vel
+          <lb ed="#P" n="92"/>spiriuali anueyum . Uhi statim occurrebat 
+          in<lb break="no" ed="#P" n="93"/>quirendum, quid hic significetur nomine 
+          spi<lb break="no" ed="#P" n="94"/>ritualis, et quid sit spirituali annpexum. 
+          Verum<lb break="no" ed="#P" n="95"/>tamen ad exacte hoc explicandum, oportet
+          <lb ed="#P" n="96"/>multa dubia infra tractanda hic antevertere,
+          <lb ed="#P" n="97"/>quod confusionem pareret. Et ideo D. Thomas
+          <lb ed="#P" n="98"/>non curavit hoc per definitionem explicare,
+          <lb ed="#P" n="99"/>sed per exempla ; ut in argum. Sed contira,
+          <lb ed="#P" n="100"/>ait, vendere altare, decimas, vel Spiritum
+          <lb ed="#P" n="101"/>Sanctum, esse simoniam, ex cap. Altare, 1,
+          <lb ed="#P" n="102"/>q. 35; et in solut. ad 6, numerat Sacrameata,
+          <lb ed="#P" n="103"/>et alia ( inquit) hujusmodi. Victor. vero, post
+          <lb ed="#P" n="104"/>longam disputationem, coneludit in num. 6,
+          <lb ed="#P" n="105"/>spirituale in proposito esse idem quod donum
+          <lb ed="#P" n="106"/>Spiritus Sancti, juxta illud Act. 8: Pecunia
+          <lb ed="#P" n="107"/>tua tecum sit in perditionem, quia donum Di
+          <lb ed="#P" n="108"/>existimasti pecunia possideri. Et sub hoc doio,
+          <lb ed="#P" n="109"/>ait comprehendi tam gratias gratis datas, quae
+          <lb ed="#P" n="110"/>numerantur 1 Corinth. 12, quam varia minis-
+          <pb ed="#P" n="628"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>teria seu Ecclesiae dignitates, quae ad Ephes.
+          <lb ed="#P" n="2"/>4 recensentur ; Navarrus autem, dicto cap. 23,
+          <lb ed="#P" n="3"/>num. 99, et ad Rubr. de Judic., num. 24, 
+          im<lb break="no" ed="#P" n="4"/>primis declarat debere esse donum 
+          suprana<lb break="no" ed="#P" n="5"/>turale ad salutem animarum ordinatum ; et
+          <lb ed="#P" n="6"/>deinde addit non oportere ut sit immediate
+          <lb ed="#P" n="7"/>datum a Deo, sed satis esse quod sit ab 
+          Eccle<lb break="no" ed="#P" n="8"/>sia institutum, per supernaturalem potestatem
+          <lb ed="#P" n="9"/>a Christo sibi gratis datam. Et addit ultimo,
+          <lb ed="#P" n="10"/>oportere ut sit gratis dandum.Sed hoc addere
+          <lb ed="#P" n="11"/>non oportet, quia si res ita sit spiritualis, ut
+          <lb ed="#P" n="12"/>sit materia simoniae, eo ipso habet ut gratis
+          <lb ed="#P" n="13"/>danda sit, ut infra dicemus.
+        </p>
+        <p>
+          <lb ed="#P" n="14"/>11. Quid in hoc loco significet donum 
+          spiritua<lb break="no" ed="#P" n="15"/>le.— Sed, ut dixi, haec materia non potest hic
+          <lb ed="#P" n="16"/>satis explicari, nec fere una definitione 
+          descri<lb break="no" ed="#P" n="17"/>bi, sed paulatim explicanda est in discursu
+          <lb ed="#P" n="18"/>doctrinae, et ideo dico breviter cum hichard.,
+          <lb ed="#P" n="19"/>4. dist. 25, art. 3, quaest. 1, et aliis Theologis
+          <lb ed="#P" n="20"/>ibi, quos ali, et praesertim Summistae omnes
+          <lb ed="#P" n="21"/>imitantur, spirituale hic non dici ab spiritu
+          <lb ed="#P" n="22"/>creato, sed ab increato, id est, ab Spiritu
+          <lb ed="#P" n="23"/>Sancto quatenus est auctor donorum gratiae,
+          <lb ed="#P" n="24"/>quae per antonomasiam spiritualia dona 
+          vo<lb break="no" ed="#P" n="25"/>cantur; sub spiritualibus autem donis hic 
+          in<lb break="no" ed="#P" n="26"/>telligimus omnes gratias gratis datas, et omnia
+          <lb ed="#P" n="27"/>dona Spiritus Sancti, et ministeria divinitus 
+          or<lb break="no" ed="#P" n="28"/>dinata ad spiritualem salutem animarum, eta
+          <lb ed="#P" n="29"/>fortiori instrumenta ejusdem salutis, et 
+          quic<lb break="no" ed="#P" n="30"/>quid propter illam est a Deo, vel Eeclesia 
+          spe<lb break="no" ed="#P" n="31"/>cialiter institutum. Hoc non aliter nunc 
+          pro<lb break="no" ed="#P" n="32"/>batur, quam ex verbis Christi, Matt. 10: 
+          Gra<lb break="no" ed="#P" n="33"/>lis acceyistis, gratis date. U enim (ut infra
+          <lb ed="#P" n="34"/>declarabo ) intrinsecam malitiam simoniae 
+          si<lb break="no" ed="#P" n="35"/>gnificavit; unde etiam indicavit propriam
+          <lb ed="#P" n="36"/>materiam ejus, quae sunt gratiae gratis datae,
+          <lb ed="#P" n="37"/>et alia supernaturalia dona, quae gratis dantur
+          <lb ed="#P" n="38"/>in ordine ad salutem animae. Item ex verbis
+          <lb ed="#P" n="39"/>Petri: Existimasti donum Dei pecunia 
+          possi<lb break="no" ed="#P" n="40"/>deri. Spirituale ergo in dicta definitione ab
+          <lb ed="#P" n="41"/>Spiritu Sancto denominatur, seu a salute 
+          ani<lb break="no" ed="#P" n="42"/>mae, quae per antonomasiam spirituale 
+          bo<lb break="no" ed="#P" n="43"/>num dicitur, quia est suprema participatio
+          <lb ed="#P" n="44"/>Spiritus Sancti, et maxima perfectio Spiritus
+          <lb ed="#P" n="45"/>creati; ideoque omnia dona, quae ad hanc
+          <lb ed="#P" n="46"/>salutem ordinantur, per se ac proxime 
+          singu<lb break="no" ed="#P" n="47"/>lari titulo spiritualia vocantur. Et hic est 
+          com<lb break="no" ed="#P" n="48"/>munis consensus omnium, quia vitium 
+          simo<lb break="no" ed="#P" n="49"/>niae circa totam hanc materiam versari potest,
+          <lb ed="#P" n="50"/>et illam non excedit, ut ex sequentibus 
+          con<lb break="no" ed="#P" n="51"/>stabit.
+        </p>
+        <p>
+          <lb ed="#P" n="52"/>12. Quee res dicantur annexe spiritualibus.
+          <lb ed="#P" n="53"/>— Addo vero bona spiritualia in tantum esse
+          <lb ed="#P" n="54"/>posse materiam simoniae, in quantum facto,
+          <lb ed="#P" n="55"/>licet non jure, pro materiali pretio aestimari
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ac commutari possunt. Quia tamen haec 
+          spi<lb break="no" ed="#P" n="57"/>ritualia, de quibus homines prave regotiari
+          <lb ed="#P" n="58"/>possunt, non sunt pure immaterialia, imo 
+          fre<lb break="no" ed="#P" n="59"/>quentius sine corporalibus non subsistunt, ut
+          <lb ed="#P" n="60"/>dicetur in cap. Sa quis objecerit, 1, quaest. 3,
+          <lb ed="#P" n="61"/>ideo in definitione adduntur ea, quae sunt
+          <lb ed="#P" n="62"/>spiritualibus annexa. Hujusmodi autem sunt
+          <lb ed="#P" n="63"/>res quaedam, quae, licet in se materiales sint,
+          <lb ed="#P" n="64"/>cum spiritualibus connectuntur , vel tanquam
+          <lb ed="#P" n="65"/>materia cum forma, ut calix argenteus cum
+          <lb ed="#P" n="66"/>consecratione; vel tanquam materiale cum
+          <lb ed="#P" n="67"/>formali, ut ablutio cum ratione sacramenti;
+          <lb ed="#P" n="68"/>vel ut principium seu inchoatio ad terminum,
+          <lb ed="#P" n="69"/>ut jus patronatus ad beneficium; vel tanquam
+          <lb ed="#P" n="70"/>effectus ad causam aliquo modo, si beneficium
+          <lb ed="#P" n="71"/>datur propter officium : unde ex his quaedam
+          <lb ed="#P" n="72"/>dicuntur annexa antecedenter, alia 
+          conse<lb break="no" ed="#P" n="73"/>quenter, alia concomitanter, de qua partitione
+          <lb ed="#P" n="74"/>infra suo loco dicemus.
+        </p>
+        <p>
+          <lb ed="#P" n="75"/>13. In venditione rei sacre peculiariter 
+          ec<lb break="no" ed="#P" n="76"/>plicatur simonia.— Secundo, in illa particula
+          <lb ed="#P" n="77"/>definitionis insinuatur id, in quo maxime
+          <lb ed="#P" n="78"/>realis simonia consistit, id est , indebita actio
+          <lb ed="#P" n="79"/>circa rem sacram, de qua dicitur esse 
+          emptio<lb break="no" ed="#P" n="80"/>nem vel venditionem ejus. Quia res 
+          spiritua<lb break="no" ed="#P" n="81"/>les et sacrae multis modis possunt injuria
+          <lb ed="#P" n="82"/>affici, et non omnes pertinent ad simoniam,
+          <lb ed="#P" n="83"/>sed tantum illae, quae fiunt per hujusmodi
+          <lb ed="#P" n="84"/>contractum. Declarat autem divus Thomas
+          <lb ed="#P" n="85"/>supra, et omnes cum illo, sub nomine 
+          emp<lb break="no" ed="#P" n="86"/>tionis et venditionis comprehendi alios 
+          contra<lb break="no" ed="#P" n="87"/>ctus aequivalentes venditioni, quales sunt:
+          <lb ed="#P" n="88"/>Do ut facias, vel ut obligeris ad hoc vel illud,
+          <lb ed="#P" n="89"/>et similes. Nam etiam in jure civili solet 
+          in<lb break="no" ed="#P" n="90"/>terdum venditionis contractus in hac 
+          genera<lb break="no" ed="#P" n="91"/>litate sumi, ut expresse dicitur in leg. Sicut,
+          <lb ed="#P" n="92"/>S Venditionis, ffü. Quibus modis pignus, etc.
+          <lb ed="#P" n="93"/>Et ibi Glossa refert alia jura; et latius 
+          Tira<lb break="no" ed="#P" n="94"/>quel., lib. 1 de Retract., S 1, Gloss. 2. Tertio,
+          <lb ed="#P" n="95"/>in eadem venditionis voce indicatur tertium,
+          <lb ed="#P" n="96"/>quod in hoc peccato intervenit, nimirum 
+          pre<lb break="no" ed="#P" n="97"/>tium, sine quo nec datio rei spiritualis esset
+          <lb ed="#P" n="98"/>venditio, nec receptio esset emptio, sed esset
+          <lb ed="#P" n="99"/>gratuita donatio et acceptio, quod est 
+          con<lb break="no" ed="#P" n="100"/>tra rationem simoniae, ut declaratum est, et
+          <lb ed="#P" n="101"/>sumitur ex capit. 1, et capit. Gratia, 1, 
+          quas<lb break="no" ed="#P" n="102"/>tion. 1, quatenus ibi dicitur simoniacos, non
+          <lb ed="#P" n="103"/>gratis seu gratuito ordines accipere, et cla--
+          <lb ed="#P" n="104"/>rius ex Actor. 8: Ewistimasti donunm Dei
+          <lb ed="#P" n="105"/>pecunia possideri. Tamen, sicut diximus 
+          ven<lb break="no" ed="#P" n="106"/>ditionem late sumi pro acceptione non 
+          gra<lb break="no" ed="#P" n="107"/>tuita, ita pecunia vel pretium accipiendum
+          <lb ed="#P" n="108"/>est pro quacumque re aequivalente, seu pretio
+          <lb ed="#P" n="109"/>eestimabili ; unde aliqui addunt illi definitioni
+          <lb ed="#P" n="110"/>particulam, pro re temporali. Sed non est ne-
+          <pb ed="#P" n="629"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cessaria, quia in ipso verbo vendendi satis
+          <lb ed="#P" n="2"/>continetur, et quia nonnullam patitur 
+          dubita<lb break="no" ed="#P" n="3"/>tionem, de qua infra dicetur.
+        </p>
+        <p>
+          <lb ed="#P" n="4"/>14. Particula a Canonistis addita rejicitur.
+          <lb ed="#P" n="5"/>In actu interno potest dari simonia quee si non
+          <lb ed="#P" n="6"/>habeat adjunctum externum, non est capaa 
+          pa<lb break="no" ed="#P" n="7"/>narum MBHcclesie. — Addunt aliqui Canonistae
+          <lb ed="#P" n="8"/>huic definitioni aliam particulam, nimirum,
+          <lb ed="#P" n="9"/>opere subsecuto , quia si per solam 
+          volunta<lb break="no" ed="#P" n="10"/>tem definiatur , conveniet definitio simoniae
+          <lb ed="#P" n="11"/>mentali, non vero reali, vel conventionali :
+          <lb ed="#P" n="12"/>ita Host., in cap. Nemo, de Simon., nec 
+          re<lb break="no" ed="#P" n="13"/>pugnat ibi Abbas. Sed posset contra eos 
+          con<lb break="no" ed="#P" n="14"/>verti ratio, quia addita illa particula, definitur
+          <lb ed="#P" n="15"/>realis simonia, et externa, non vero mentalis,
+          <lb ed="#P" n="16"/>in qua est essentialis ratio peccati , nam actus
+          <lb ed="#P" n="17"/>exterior non addit essentialem malitiam actui.
+          <lb ed="#P" n="18"/>Unde illi videntur locuti ut juristae de 
+          simo<lb break="no" ed="#P" n="19"/>nia, quae ad forum Ecclesiae externum 
+          perti<lb break="no" ed="#P" n="20"/>net, et est capax poenarum Ecclesiae, quae
+          <lb ed="#P" n="21"/>sempe- requirit aliquod opus subsecutum ,
+          <lb ed="#P" n="22"/>etiamsi mentalis sit. Tamen apud Deum 
+          po<lb break="no" ed="#P" n="23"/>test dari vera simonia per solam voluntatem.
+          <lb ed="#P" n="24"/>Fateor tamen potuisse simoniam definiri, non
+          <lb ed="#P" n="25"/>per voluntatem, sed per actum ipsum, dicendo
+          <lb ed="#P" n="26"/>esse venditionem rei spiritualis, sicut definitur
+          <lb ed="#P" n="27"/>furtum esse acceptionem rei alienae, etc. Ft
+          <lb ed="#P" n="28"/>sicut ibi non excluditur furtum mentale, quia
+          <lb ed="#P" n="29"/>intelligitur esse acceptionem actu, vel voto
+          <lb ed="#P" n="30"/>seu desiderio, ita dici posset de simonia. At
+          <lb ed="#P" n="31"/>vero etiam e converso, cum dicitur, est 
+          co<lb break="no" ed="#P" n="32"/>luntas vendendi , etc. , non excluditur actualis
+          <lb ed="#P" n="33"/>venditio voluntaria, et studiosa seu deliberata,
+          <lb ed="#P" n="34"/>quia actio illa, ut simonia sit, voluntatem 
+          il<lb break="no" ed="#P" n="35"/>lam includit. Unde tota controversia est de
+          <lb ed="#P" n="36"/>modo loquendi ; nam res satis constat, et 
+          vul<lb break="no" ed="#P" n="37"/>gata definitio sustineri poterit sine ulla 
+          addi<lb break="no" ed="#P" n="38"/>uone. Illa vero quam nos dedimus, per 
+          pro<lb break="no" ed="#P" n="39"/>prium genus vitii et differentiam ejus, videtur
+          <lb ed="#P" n="40"/>profecto satis accommodata, et juxta 
+          utram<lb break="no" ed="#P" n="41"/>que totam hanc materiam prosequemur.
+        </p>
+        <p>
+          <lb ed="#P" n="42"/>15. In quatuor capita distribuuntur omnia,
+          <lb ed="#P" n="43"/>quee de simonia sunt dicenda. — Ex dicta ergo
+          <lb ed="#P" n="44"/>essentiali ratione hujus vitii, reducere possumus
+          <lb ed="#P" n="45"/>totam illius materiam et amplitudinem ad 
+          qua<lb break="no" ed="#P" n="46"/>tuor capita, seu quatuor divisiones, juxta 
+          qua<lb break="no" ed="#P" n="47"/>tuor conditiones ejus, quae ex dictis 
+          definitio<lb break="no" ed="#P" n="48"/>nibus colliguntur, scilicet, genus vitii, seu 
+          sa<lb break="no" ed="#P" n="49"/>erilegii ; materia, circa quam versatur, quae est
+          <lb ed="#P" n="50"/>res aliqua spiritualis; pretium, seu res 
+          tempo<lb break="no" ed="#P" n="51"/>ralis, quae pro tali re spirituali datur; actio ipsa
+          <lb ed="#P" n="52"/>vendendi seu commutandi ; et ad primum ex
+          <lb ed="#P" n="53"/>his capitibus potest accommodari divisio 
+          si<lb break="no" ed="#P" n="54"/>moniae in intrinsece malam, vel solum quia
+          <lb ed="#P" n="55"/>prohibita est. Nam vitium consistit in devia-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tone a regula; constituitur enim per 
+          caren<lb break="no" ed="#P" n="57"/>tiam conformitatis ad regulam : regula autem
+          <lb ed="#P" n="58"/>est lex seu jus prohibens talem actionem ; hoc
+          <lb ed="#P" n="59"/>autem jus explicatur per illam divisionem ;
+          <lb ed="#P" n="60"/>recte ergo generi accommodatur. Ad 
+          secun<lb break="no" ed="#P" n="61"/>dum pertinent variae divisiones simoniae, quae
+          <lb ed="#P" n="62"/>ex partae materia dari solent, ut quod 
+          si<lb break="no" ed="#P" n="63"/>monia alia est circa rem spiritualem, alia
+          <lb ed="#P" n="64"/>circa rem annexam rei spirituali ; vel in 
+          par<lb break="no" ed="#P" n="65"/>ticulari solet distingui simonia in 
+          ordini<lb break="no" ed="#P" n="66"/>bus, vel in beneficiis, et aliis similibus. Ad
+          <lb ed="#P" n="67"/>tertium pertinet divisio illa simoniae ex parte
+          <lb ed="#P" n="68"/>pretii, scilicet, a manu, a lingua, ab obsequio,
+          <lb ed="#P" n="69"/>ex cap. Ordinationes, 1, quaest. 1, cap. Tvtum,
+          <lb ed="#P" n="70"/>1, q. 3. Et huc spectant aliae quaesiiones , de
+          <lb ed="#P" n="71"/>variis rebus quae in commutationem rei 
+          spiri<lb break="no" ed="#P" n="72"/>tualis dari possunt. Ad quartum spectat 
+          com<lb break="no" ed="#P" n="73"/>munis etiam divisio simonise, in mentalem,
+          <lb ed="#P" n="74"/>realem et conventionalem, et huc etiam 
+          spec<lb break="no" ed="#P" n="75"/>tant omnes modi pactionum et contractuum,
+          <lb ed="#P" n="76"/>qui sufficiunt ad simoniam committendam,
+          <lb ed="#P" n="77"/>ex quorum cognitione pendet, qui non 
+          suffi<lb break="no" ed="#P" n="78"/>ciunt. In his ergo quatuor capitibus, totam
+          <lb ed="#P" n="79"/>hane materiam, quantum ad explicandam 
+          cul<lb break="no" ed="#P" n="80"/>pam spectat, comprehendemus; et eodem 
+          or<lb break="no" ed="#P" n="81"/>dine illam prosequemur, quia videtur satis
+          <lb ed="#P" n="82"/>accommodata ad naturam et varietatem hujus
+          <lb ed="#P" n="83"/>vitii explicandam; qua intellecta, facile erit
+          <lb ed="#P" n="84"/>de obligationibus quae ex ea resultare possunt,
+          <lb ed="#P" n="85"/>et de poenis illis impositis dicere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

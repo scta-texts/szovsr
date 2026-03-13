@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="381"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k09513"><!-- t2-l3c1 -->
+        <head>Caput 1</head>
+        <head type="question-title">An ex affirmativo praecepto aliqua reverentia loco sacro debeatur, vel solum ex negativo.</head>
+        <p>
+          <lb ed="#P" n="11"/>CAPUT I.
+          <lb ed="#P" n="12"/>AN EX AFFIRMATIVO PPJUECEPTO ALIQUA 
+          REVE<lb break="no" ed="#P" n="13"/>RENTIA LOCO SACRO DEBEATUR, VEL SOLUM EX
+          <lb ed="#P" n="14"/>NEGATIVO.
+        </p>
+        <p>
+          <lb ed="#P" n="15"/>1. Locus sacer triplex. — Primus. — 
+          Se<lb break="no" ed="#P" n="16"/>cundus. — Tertius. — Ut constet de quibus
+          <lb ed="#P" n="17"/>locis loquamur, supponendum est primo, 
+          lo<lb break="no" ed="#P" n="18"/>cum sacrum ac religiosum in praesenti materia
+          <lb ed="#P" n="19"/>appellari, qui ad actiones divini cultus 
+          exer<lb break="no" ed="#P" n="20"/>cendas peculiariter deputatus est, praesertim
+          <lb ed="#P" n="21"/>ad sacrificia et orationem. Hic autem locus
+          <lb ed="#P" n="22"/>triplex distingui potest. Unus est auctoritate
+          <lb ed="#P" n="23"/>Episcopi aedificatus, ac consecratus, vel 
+          bene<lb break="no" ed="#P" n="24"/>dictus, et ad praedictum finem destinatus ; qui
+          <lb ed="#P" n="25"/>proprie Ecclesiae nomine venire solet, cum de
+          <lb ed="#P" n="26"/>materiali ecclesia sermo est. Alius est 
+          auctori<lb break="no" ed="#P" n="27"/>tate quidem Episcopi erectus ad eumdem 
+          fi<lb break="no" ed="#P" n="28"/>nem, non tamen benedictus, de quo loco ait
+          <lb ed="#P" n="29"/>Sylvester, verb. Fcclesia, 2, non dici 
+          Eecle<lb break="no" ed="#P" n="30"/>siam nisi aequivoce, sed vocari basilicam, seu
+          <lb ed="#P" n="31"/>domum regiam. Et Glossa, in c. 1, de Religios.
+          <lb ed="#P" n="32"/>domib., verb. Dedicanda. Tunc, ait, 
+          acci<lb break="no" ed="#P" n="33"/>pit nomen ecclesie , cum consecratur , sicut
+          <lb ed="#P" n="34"/>electus tunc accipit nomen Hpiscopi , cum
+          <lb ed="#P" n="35"/>consecratur. Verumtamen , si talis locus 
+          pu<lb break="no" ed="#P" n="36"/>blice sit destinatus pro ordinario usu fidelium
+          <lb ed="#P" n="37"/>ad missas, et conciones audiendas, 
+          recipien<lb break="no" ed="#P" n="38"/>daque sacramenta , simpliciter solet ecclesia
+          <lb ed="#P" n="39"/>vocari. An vero semper, et quoad omnes juris
+          <lb ed="#P" n="40"/>effectus comprehendatur in jure nomine 
+          eccle<lb break="no" ed="#P" n="41"/>siae, infra videbimus. Ut tamen nulla sit 
+          aequi<lb break="no" ed="#P" n="42"/>vocatio, priora loca absolute appellabimus 
+          ec<lb break="no" ed="#P" n="43"/>clesiae nomine; haec vero posteriora cum addito
+          <lb ed="#P" n="44"/>vocabimus ecclesias non benedictas. Tertium
+          <lb ed="#P" n="45"/>genus horum locorum, est eorum quae non
+          <lb ed="#P" n="46"/>publica auctoritate, sed privata, destinantur
+          <lb ed="#P" n="47"/>ad sacra munera, quae non appellantur 
+          eccle<lb break="no" ed="#P" n="48"/>siae, nisi aequivoce; imo nec loca sacra 
+          simpli<lb break="no" ed="#P" n="49"/>citer dici possunt; ut enim dixit etiam Juris
+          <lb ed="#P" n="50"/>Cons., in leg. 7n tantum, ff. de Rerum divis.:
+          <lb ed="#P" n="51"/>Sacre res sunt, quae publice consecrate sunt.
+          <lb ed="#P" n="52"/>Vocantur ergo haec vel oratoria, si sunt in do-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>mibus privatis; vel eremitoria, si sint per se
+          <lb ed="#P" n="54"/>separata ; interdum etiam vocantur capellae,
+          <lb ed="#P" n="55"/>quamvis nomen hoc multiplex sit ; interdum
+          <lb ed="#P" n="56"/>enim significat locum aliquem intra ecclesiam
+          <lb ed="#P" n="57"/>constitutum, ad divina deputatum, 
+          benedic<lb break="no" ed="#P" n="58"/>tum, qui est pars ejusdem ecclesiae, et unum
+          <lb ed="#P" n="59"/>cum illa corpus efficiens; interdum vero 
+          si<lb break="no" ed="#P" n="60"/>gnificat ecclesiam integram, propriam, ac 
+          bene<lb break="no" ed="#P" n="61"/>dictam, non parochialem, nec matricem, sed
+          <lb ed="#P" n="62"/>simplicem (ut sic dicam); aliquando vero 
+          in<lb break="no" ed="#P" n="63"/>differenter pro ecclesia sumitur, ut in titulo
+          <lb ed="#P" n="64"/>de Capellis monachorum. Hic ergo praecipue
+          <lb ed="#P" n="65"/>sermo est de primo genere sacrorum 
+          loco<lb break="no" ed="#P" n="66"/>rum, et de illis semper loquemur prius ; 
+          dein<lb break="no" ed="#P" n="67"/>de vero adnotabimus quid de caeteris locis
+          <lb ed="#P" n="68"/>dicendum sit.
+        </p>
+        <p>
+          <lb ed="#P" n="69"/>2. Dei templum quomodo tractandum.—
+          DbDein<lb break="no" ed="#P" n="70"/>de suppono Dei templum, seu ecclesiam debita
+          <lb ed="#P" n="71"/>reverentia tractandam esse, hocque pertinere ad
+          <lb ed="#P" n="72"/>religiosum cultum Deo debitum. Haec assertio
+          <lb ed="#P" n="73"/>certissima est, sumiturque ex D. Thoma 2. 2,
+          <lb ed="#P" n="74"/>q. 99, a. 1 et 3, ubi de hac re a Doctoribus
+          <lb ed="#P" n="75"/>disputatur ; et de illa videri possunt dieta
+          <lb ed="#P" n="76"/>in d. disp. S1 tertii tomi, sect. 8. Et ratio est,
+          <lb ed="#P" n="77"/>quia rebus sacris debetur religiosus honor:
+          <lb ed="#P" n="78"/>sed templum Deo dicatum inter res sacras 
+          me<lb break="no" ed="#P" n="79"/>rito computatur; ergo. Major continetur in
+          <lb ed="#P" n="80"/>generali definitione fidei tradita in septima
+          <lb ed="#P" n="81"/>Synodo generali, Nicaena IT, ubi dicitur, res
+          <lb ed="#P" n="82"/>sacras et cultui divino dicatas, debito honore
+          <lb ed="#P" n="83"/>afficiendas et venerandas esse. Minor vero est
+          <lb ed="#P" n="84"/>per se evidens, quia non est minus sacrum
+          <lb ed="#P" n="85"/>templum quam vestis, vel aliquid simile; et
+          <lb ed="#P" n="86"/>ex Decretis refercendis, cum aliis multis, et
+          <lb ed="#P" n="87"/>quae ex Sanctis Patribus in dicto loco 
+          adduxi<lb break="no" ed="#P" n="88"/>mus, manifesta etiam est. Unde omnes 
+          Theo<lb break="no" ed="#P" n="89"/>logi inter species saczilegii numerant 
+          irreve<lb break="no" ed="#P" n="90"/>rentiam, quae templo fit, tanquam factam rei
+          <lb ed="#P" n="91"/>sacrae.
+        </p>
+        <p>
+          <lb ed="#P" n="92"/>3. Dupliciter explicatur reverentia templis
+          <lb ed="#P" n="93"/>debita. — Ut autem hanc veritatem 
+          declare<lb break="no" ed="#P" n="94"/>mus, praemittendum praeterea est, quod in
+          <lb ed="#P" n="95"/>dicta sect. 8, in principio, animadverti, 
+          duo<lb break="no" ed="#P" n="96"/>bus modis posse hanc reverentiam Deo 
+          debi<lb break="no" ed="#P" n="97"/>tam explicari: uno modo, per obligationem
+          <lb ed="#P" n="98"/>positivam, seu affirmativam aliquid faciendi
+          <lb ed="#P" n="99"/>in honorem talis loci; alio modo per 
+          obliga<lb break="no" ed="#P" n="100"/>tionem privativam, seu prohibentem aliquid
+          <lb ed="#P" n="101"/>fieri, quod in injuriam cedat talis loci; sicut
+          <lb ed="#P" n="102"/>etiam in superioribus, diximus observationem
+          <lb ed="#P" n="103"/>diei festi consistere partim in aliquo opere
+          <lb ed="#P" n="104"/>praestando, partim in aliquo vitando. Rursus
+          <lb ed="#P" n="105"/>circa priorem modum obligationis 
+          consideran<lb break="no" ed="#P" n="106"/>dum est, aliud esse obligari ad exhibendum
+          <lb ed="#P" n="107"/>Deo cultum in tali loco, aliud vero obligari
+          <pb ed="#P" n="382"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad colendum, vel honorandum locum ipsum.
+          <lb ed="#P" n="2"/>Quamvis enim locus, quantumvis 
+          consecra<lb break="no" ed="#P" n="3"/>tus, non sit capax honoris propter seipsum,
+          <lb ed="#P" n="4"/>quia res inanimis est, ideoque, si aliqua 
+          ve<lb break="no" ed="#P" n="5"/>neratio illi exhibeatur, tota sit propter Deum,
+          <lb ed="#P" n="6"/>qui in eo speciali modo habitare censetur, et
+          <lb ed="#P" n="7"/>cujus cultui specialiter deputatus est, atque
+          <lb ed="#P" n="8"/>ita totus honor, loco datus, ipsi Deo semper ac
+          <lb ed="#P" n="9"/>principaliter dari videatur , nihilominus aliud
+          <lb ed="#P" n="10"/>est colere Deum ipsum in tali loco, aliud vero
+          <lb ed="#P" n="11"/>locum ipsum venerari. Nam illud prius fit per
+          <lb ed="#P" n="12"/>actum directe terminatum ad Deum, ut 
+          ob<lb break="no" ed="#P" n="13"/>jectum quod colitur propter seipsum, id est,
+          <lb ed="#P" n="14"/>propter excellentiam propriam quam in se 
+          ha<lb break="no" ed="#P" n="15"/>bet, et quae per talem actum adoratur ut quod,
+          <lb ed="#P" n="16"/>seu ut ratio adorandi. At vero hoc posterius
+          <lb ed="#P" n="17"/>fit per actum proxime terminatum ad locum
+          <lb ed="#P" n="18"/>ipsum, ut ad objectum, quod est veluti 
+          mate<lb break="no" ed="#P" n="19"/>ria rca quam versatur actus reverentiae ; 
+          at<lb break="no" ed="#P" n="20"/>tingit vero Deum, ut rationem colendi 
+          tem<lb break="no" ed="#P" n="21"/>plum ipsum. An vero haec duo possint 
+          inter<lb break="no" ed="#P" n="22"/>dum simul fieri per unuum eumdemque actum,
+          <lb ed="#P" n="23"/>nonnullam quaestionem, et difficultatem 
+          ha<lb break="no" ed="#P" n="24"/>bet, quae hic necessaria non est, et generalis
+          <lb ed="#P" n="25"/>est ad omnes res sacras, imagines, reliquias,
+          <lb ed="#P" n="26"/>ideoque in materia de adoratione est late 
+          dis<lb break="no" ed="#P" n="27"/>putata. Nunc ergo satis est modos illos 
+          secun<lb break="no" ed="#P" n="28"/>dum se distinctos esse, posseque unum cadere
+          <lb ed="#P" n="29"/>in obligationem sine alio. Sic enim in 
+          tem<lb break="no" ed="#P" n="30"/>pore sacro, seu die festo habemus praeceptum
+          <lb ed="#P" n="31"/>affirmativum colendi Deum in eo tempore,
+          <lb ed="#P" n="32"/>per sacrificii oblationem, seu missae 
+          auditio<lb break="no" ed="#P" n="33"/>nem, et non invenitur aliud praeceptum 
+          co<lb break="no" ed="#P" n="34"/>lendi aliter, aut venerandi sacrum illud
+          <lb ed="#P" n="35"/>tempus.
+        </p>
+        <p>
+          <lb ed="#P" n="36"/>4. An sit speciale praeceptum colendi Deun
+          <lb ed="#P" n="37"/>in ecclesia. — Dico ergo primo : nullum est
+          <lb ed="#P" n="38"/>praeceptum speciale colendi Deum in tali loco,
+          <lb ed="#P" n="39"/>scilicet , in ecclesia, vel templo, nisi quatenus
+          <lb ed="#P" n="40"/>actio aliqua divini cultus legitime exerceri non
+          <lb ed="#P" n="41"/>potest extra talem locum. Si haec conclusio 
+          in<lb break="no" ed="#P" n="42"/>telligatur, stando in naturali jure, est 
+          mani<lb break="no" ed="#P" n="43"/>festa ; quia jus naturae non determinat certum
+          <lb ed="#P" n="44"/>modum cultus externi dandi Deo, ut supra est
+          <lb ed="#P" n="45"/>ostensum ; ergo nec circumstantiam loci 
+          deter<lb break="no" ed="#P" n="46"/>minat. Et huc spectat illud Joan. 4: Spiritus
+          <lb ed="#P" n="47"/>est Deus, et in spiritu et veritate debet adorari;
+          <lb ed="#P" n="48"/>ideoque ex se non determinat locum, quia
+          <lb ed="#P" n="49"/>ubique est, et omnia prospicit, licet ex parte
+          <lb ed="#P" n="50"/>nostra, id est, ejus qui colit, vel eorum, coram
+          <lb ed="#P" n="51"/>quibus colit, prudentem circumspectionem 
+          re<lb break="no" ed="#P" n="52"/>quirat, ut locus sit aptus, et sine impedimento,
+          <lb ed="#P" n="53"/>ut infra tractando de oratione vocali magis
+          <lb ed="#P" n="54"/>explicabimus. Si vero intelligatur conclusio de
+          <lb ed="#P" n="55"/>jure positivo, ut praecipue intelligenda est, sic
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>declaratur primo in praecepto audiendi 
+          mis<lb break="no" ed="#P" n="57"/>sam, quod fere est unicum de cultu externo
+          <lb ed="#P" n="58"/>datum omnibus fidelibus. Illud ergo 
+          praece<lb break="no" ed="#P" n="59"/>ptum de se non obligat ad dandum illum 
+          cul<lb break="no" ed="#P" n="60"/>tum Deo in ecclesia, seu templo, quia hoc non
+          <lb ed="#P" n="61"/>ponitur in verbis, et forma praecepti ; 
+          jube<lb break="no" ed="#P" n="62"/>mur enim audire missam in dominicis, et
+          <lb ed="#P" n="63"/>diebus festis, non vero in ecclesiis, vel templis.
+          <lb ed="#P" n="64"/>Sed hoc aliunde necessarium est, nimirum,
+          <lb ed="#P" n="65"/>quia Ecclesia alias praecipit missas non dici
+          <lb ed="#P" n="66"/>extra ecclesiam, juxta modum declaratum, et
+          <lb ed="#P" n="67"/>tractatum in dicta disput. 81, sect. 4. Unde
+          <lb ed="#P" n="68"/>quacumque ratione cesset haec necessitas, quia
+          <lb ed="#P" n="69"/>contingit invenire missam extra ecclesiam, ut
+          <lb ed="#P" n="70"/>in privato oratorio, vel in campo sub dio, vel
+          <lb ed="#P" n="71"/>tentorio, illam ibi audiendo impletur 
+          praece<lb break="no" ed="#P" n="72"/>ptum audiendi missam, quamvis in ecclesia
+          <lb ed="#P" n="73"/>non audiatur ; signum ergo est hoc praeceptum
+          <lb ed="#P" n="74"/>per se non respicere locum.
+        </p>
+        <p>
+          <lb ed="#P" n="75"/>5. Verum est sacris Canonibus antiquis 
+          in<lb break="no" ed="#P" n="76"/>terdum praecipi audire missas in propriis 
+          ec<lb break="no" ed="#P" n="77"/>clesiis, saltem in quibusdam majoribus 
+          solem<lb break="no" ed="#P" n="78"/>nitatibus, ut patet ex cap. Si quis etiam. de
+          <lb ed="#P" n="79"/>Consec., distinct. 21, et in c. IVulli, de Consec.,
+          <lb ed="#P" n="80"/>dist. 3. Et supra vidimus olim fuisse 
+          consue<lb break="no" ed="#P" n="81"/>tudinem audiendi Missas diebus dominicis in
+          <lb ed="#P" n="82"/>propriis parochiis ; jam vero hoc non est 
+          sim<lb break="no" ed="#P" n="83"/>pliciter sub praecepto, generatim loquendo;
+          <lb ed="#P" n="84"/>ex vi ergo hujus praecepti non est 
+          determina<lb break="no" ed="#P" n="85"/>tus locus colendi Deum. Batio vero assertionis
+          <lb ed="#P" n="86"/>est, quia licet ecclesiarum ritus 
+          convenientis<lb break="no" ed="#P" n="87"/>sime sit institutus, ut fideles habeant publica
+          <lb ed="#P" n="88"/>et sancta loca, in quibus commodius possint
+          <lb ed="#P" n="89"/>Deum colere, non fuit tamen necessarium illos
+          <lb ed="#P" n="90"/>arctare ad cultum exhibendum in illis locis,
+          <lb ed="#P" n="91"/>cum in quolibet honesto loco possint Deum
+          <lb ed="#P" n="92"/>colere. Solum ad cultum sacrificii propter
+          <lb ed="#P" n="93"/>sanctitatem ejus, et solemnem ac publicum 
+          ri<lb break="no" ed="#P" n="94"/>tum, determinatum est ut in tali loco fiat, et
+          <lb ed="#P" n="95"/>non in alio, sine dispensatione ; et ita ratione
+          <lb ed="#P" n="96"/>illius potest haec obligatio ad eos redundare,
+          <lb ed="#P" n="97"/>qui tali sacrificio cooperari vel interesse 
+          obli<lb break="no" ed="#P" n="98"/>gantur, ut explicatum est.
+        </p>
+        <p>
+          <lb ed="#P" n="99"/>6. Explicatur id ipsum in preecepto orandi.
+          <lb ed="#P" n="100"/>— Simile quid considerare quis poterit in
+          <lb ed="#P" n="101"/>praecepto de oratione ; nam divinum, seu 
+          na<lb break="no" ed="#P" n="102"/>turale praeceptum orandi Deum non est de se
+          <lb ed="#P" n="103"/>determinatum ad certum locum, sed ubique
+          <lb ed="#P" n="104"/>potest orari Deus, ut in tractatu quarto 
+          vide<lb break="no" ed="#P" n="105"/>bimus. Nec etiam est in Ecclesia praeceptum
+          <lb ed="#P" n="106"/>universale omnibus fidelihus propositum, quod
+          <lb ed="#P" n="107"/>omnes et singulos obliget ad orandum 
+          specia<lb break="no" ed="#P" n="108"/>liter in ecclesia. Solum in Horis Canonicis,
+          <lb ed="#P" n="109"/>quatenus ab Ecclesiae ministris publice 
+          reci<lb break="no" ed="#P" n="110"/>tandae, vel canendae sunt, praescriptum est ut
+          <pb ed="#P" n="383"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in ecclesiis fiat talis oratio publica. Hic autem
+          <lb ed="#P" n="2"/>non de oratiope agimus, sed alio cultu, qui
+          <lb ed="#P" n="3"/>per alias actiones exhibetur, ut in principio
+          <lb ed="#P" n="4"/>notavimus. Instari item potest de oblationibus,
+          <lb ed="#P" n="5"/>quae fieri in ecclesia debent interdum ex 
+          prae<lb break="no" ed="#P" n="6"/>cepto; sed illud praeceptum generale non est,
+          <lb ed="#P" n="7"/>sed ad summum ubi fuerit consuetudine 
+          in<lb break="no" ed="#P" n="8"/>troductum. Et tunc etiam non respicit 
+          perso<lb break="no" ed="#P" n="9"/>nas, sed potius ipsum sacrificium, vel aliud
+          <lb ed="#P" n="10"/>divinum officium. Fiunt enim tales oblationes
+          <lb ed="#P" n="11"/>tempore missae, et quia missa fit in ecclesia,
+          <lb ed="#P" n="12"/>ideo etiam oblationes in ecclesia fieri debent.
+          <lb ed="#P" n="13"/>Si tamen quocumque casu contingeret missam
+          <lb ed="#P" n="14"/>illam solempem, quae pro totius populi 
+          con<lb break="no" ed="#P" n="15"/>gregatione canitur, extra ecclesiam seu 
+          tem<lb break="no" ed="#P" n="16"/>plum fieri, ibi fieri posset oblatio, et satisfieret
+          <lb ed="#P" n="17"/>obligationi offerendi; illa ergo per se et 
+          im<lb break="no" ed="#P" n="18"/>mediate (ut sic dicam) non respicit talem 
+          lo<lb break="no" ed="#P" n="19"/>cum. I
+        </p>
+        <p>
+          <lb ed="#P" n="20"/>7. Praeceptum colendi loca sacra negativum
+          <lb ed="#P" n="21"/>esse. — Dico secundo, nullum esse datum 
+          af<lb break="no" ed="#P" n="22"/>firmativum praeceptum absolutum de 
+          exercen<lb break="no" ed="#P" n="23"/>do aliquo actu venerationis seu cultus, circa
+          <lb ed="#P" n="24"/>loca sacra templorum seu ecclesiarum, ac 
+          su<lb break="no" ed="#P" n="25"/>Dbinde praeceptum hoc reverenter tractandi
+          <lb ed="#P" n="26"/>loca sacra, licet formam affirmativi praecepti
+          <lb ed="#P" n="27"/>habeat, in negativum resolvi, et per 
+          cessatio<lb break="no" ed="#P" n="28"/>nem ab omni opere, quod sit templo 
+          injurio<lb break="no" ed="#P" n="29"/>sum, aut contra reverentiam ejus, posse 
+          im<lb break="no" ed="#P" n="30"/>pleri. Haec assertio sola declaratione 
+          sufficien<lb break="no" ed="#P" n="31"/>ter probabitur, eamque propono solum, ut
+          <lb ed="#P" n="32"/>tota materia comprehendatur. Praeceptum
+          <lb ed="#P" n="33"/>ergo affirmativum absolutum dicitur, quod ad
+          <lb ed="#P" n="34"/>opus aliquod interdum efficiendum absolute
+          <lb ed="#P" n="35"/>oobligat, ut est praeceptum audiendi missam.
+          <lb ed="#P" n="36"/>Hoc ergo modo nullum invenimus in praesenti
+          <lb ed="#P" n="37"/>materia absolutum praeceptum, quia, si non
+          <lb ed="#P" n="38"/>occurrat necessitas, vel obligatio directe 
+          exer<lb break="no" ed="#P" n="39"/>cendi in ecclesia actus divini cultus, ut sunt
+          <lb ed="#P" n="40"/>sacrificium, oblatio, vel si quid est simile,
+          <lb ed="#P" n="41"/>propter aliam specialem loci venerationem
+          <lb ed="#P" n="42"/>non tenemur templum adire, vel alia signa
+          <lb ed="#P" n="43"/>venerationis ostendere, ut per se constat, quia
+          <lb ed="#P" n="44"/>nullum potest assignari tale praeceptum, nec
+          <lb ed="#P" n="45"/>necessitas, vel usus illius. Quando vero 
+          occur<lb break="no" ed="#P" n="46"/>rit obligatio colendi Deum exterius publice et
+          <lb ed="#P" n="47"/>in ecclesia, tunc satis impletur haec obligatio
+          <lb ed="#P" n="48"/>exercendi actum ipsum cultus erga Deum 
+          im<lb break="no" ed="#P" n="49"/>mediate et directe, licet nullo modo ad locum
+          <lb ed="#P" n="50"/>ipsum terminetur, nec formaliter (ut aiunt),
+          <lb ed="#P" n="51"/>nec materialiter, nisi tantum per accidens,
+          <lb ed="#P" n="52"/>quatenus ille cultus Dei in tali loco fit. Sic
+          <lb ed="#P" n="53"/>ergo constat nullum esse tale praeceptum 
+          af<lb break="no" ed="#P" n="54"/>firmativum absolutum, sed ex suppositione
+          <lb ed="#P" n="55"/>aliqua, quae pendet ex voluntate operantis; ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>attentio orationis dicitur esse in praecepto,
+          <lb ed="#P" n="57"/>etiam in spontanea oratione, non tamen est
+          <lb ed="#P" n="58"/>absolutum illud praeceptum , sed quasi 
+          condi<lb break="no" ed="#P" n="59"/>tionatum, quia absolute non obligatur quis
+          <lb ed="#P" n="60"/>attendere ad Deum; tamen, supposito quod
+          <lb ed="#P" n="61"/>vult orare, obligatur ad praestandam 
+          attentio<lb break="no" ed="#P" n="62"/>nem. Simili itaque modo ego nunc non teneor
+          <lb ed="#P" n="63"/>absolute circa imagines sanctorum, quas apud
+          <lb ed="#P" n="64"/>me habeo, actionem aliquam exercere ; 
+          ta<lb break="no" ed="#P" n="65"/>men si aliquam exercere volo, illa esse debet
+          <lb ed="#P" n="66"/>reverentiae et honorarise adorationis (ut 
+          sep<lb break="no" ed="#P" n="67"/>tima Synodus loquitur ). Ita ergo in 
+          prae<lb break="no" ed="#P" n="68"/>senti dicere possumus, licet hic non 
+          inter<lb break="no" ed="#P" n="69"/>veniat affirmativum praeceptum absolutum,
+          <lb ed="#P" n="70"/>inveniri tamen conditionatum, seu 
+          hypotheti<lb break="no" ed="#P" n="71"/>cum (ut sic dicam), quia si quis velit ad 
+          tem<lb break="no" ed="#P" n="72"/>plum accedere, debet reverenter accedere ; et
+          <lb ed="#P" n="73"/>si velit signa aestimationis, quam de illo habet,
+          <lb ed="#P" n="74"/>exhibere, debet proferre signa reverentiae et
+          <lb ed="#P" n="75"/>honorariae adorationis. Quod est manifestum
+          <lb ed="#P" n="76"/>ex dicto Concilio Nicano II, et ex secunda
+          <lb ed="#P" n="77"/>suppositione. Atque hoc modo videtur loqui
+          <lb ed="#P" n="78"/>cap. Decet, de Immunit. Eecles., in 6, quod
+          <lb ed="#P" n="79"/>late exponit Navarr., in Enchir. de Orat.,
+          <lb ed="#P" n="80"/>cap. 5. Verum est tamen priorem partem 
+          il<lb break="no" ed="#P" n="81"/>lius capitis suasoriam magis esse, quam 
+          prae<lb break="no" ed="#P" n="82"/>ceptivam ; interim tamen et quasi per 
+          occa<lb break="no" ed="#P" n="83"/>sionem declarat reverentiam hoc modo 
+          Eccle<lb break="no" ed="#P" n="84"/>siae debitam quasi naturali lege.
+        </p>
+        <p>
+          <lb ed="#P" n="85"/>8. Atque ex his facile patet ultima pars 
+          as<lb break="no" ed="#P" n="86"/>seruonis, quae imprimis ex dictis de praecepto
+          <lb ed="#P" n="87"/>sanctificandi sabbathum constat ; habet enim
+          <lb ed="#P" n="88"/>affirmativam formam; impletur autem per
+          <lb ed="#P" n="89"/>cessationem ab omni opere servili, seu 
+          prohi<lb break="no" ed="#P" n="90"/>bito in tali die, et ipsamet cessatio est de se
+          <lb ed="#P" n="91"/>signum quoddam reverentiae in Deum, si 
+          de<lb break="no" ed="#P" n="92"/>bito modo et intentione observetur. Ita ergo,
+          <lb ed="#P" n="93"/>cum dicimus templa esse reverenter tractanda,
+          <lb ed="#P" n="94"/>per negationem debet explicari, id est, non
+          <lb ed="#P" n="95"/>esse irreverenter tractanda; nam omnis 
+          irre<lb break="no" ed="#P" n="96"/>verentia loci saeri tanquam sacrilega prohibita
+          <lb ed="#P" n="97"/>est, ut in dicta sect. 8 tertii tom., in principio
+          <lb ed="#P" n="98"/>late ostensum est. Ergo, absolute loquendo,
+          <lb ed="#P" n="99"/>hoc praeceptum sufficienter impletur, si homo
+          <lb ed="#P" n="100"/>se abstineat ab omni actu irreverentiae vel 
+          in<lb break="no" ed="#P" n="101"/>juriae loci saeri. Et ideo, ut dicebam, si homo
+          <lb ed="#P" n="102"/>velit actum aliquem exercere in templo, vel
+          <lb ed="#P" n="103"/>circa templum, qui sanctitatem ejus attingat,
+          <lb ed="#P" n="104"/>tenetur ita se gerere, ut actum honorariae 
+          ad<lb break="no" ed="#P" n="105"/>orationis exhibeat, quia alias contra 
+          sanctita<lb break="no" ed="#P" n="106"/>tem loci ageret, et ita irreverentiam illi 
+          face<lb break="no" ed="#P" n="107"/>ret. Sic igitur tota haec obligatio in negativam
+          <lb ed="#P" n="108"/>resolvitur, et per solam carentiam actus 
+          ser<lb break="no" ed="#P" n="109"/>vari potest, si homo nolit aliquid positive 
+          ope<lb break="no" ed="#P" n="110"/>rari. Unde lIieet in hoc libro de affirmativis
+          <pb ed="#P" n="384"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praeceptis directe tantum disseramus, hic 
+          ne<lb break="no" ed="#P" n="2"/>cessario dicendum est de his actibus, qui in
+          <lb ed="#P" n="3"/>templo fieri prohibentur, tanquam 
+          continen<lb break="no" ed="#P" n="4"/>tibus irreverentiam, seu injuriam ejus, sicut
+          <lb ed="#P" n="5"/>de operibus die festo prohibitis supra 
+          tracta<lb break="no" ed="#P" n="6"/>vmus, quia non potest reverentia loco sacro
+          <lb ed="#P" n="7"/>debita, nisi per hanc negationem, sufticienter
+          <lb ed="#P" n="8"/>explicari.
+        </p>
+        <p>
+          <lb ed="#P" n="9"/>9. Quae actiones in templo vitande. — Dico
+          <lb ed="#P" n="10"/>ergo tertio : ob reverentiam loco sacro 
+          debi<lb break="no" ed="#P" n="11"/>tam, teremur vitare, non tantum omnem 
+          ac<lb break="no" ed="#P" n="12"/>tionem directa et formali intentione factam
+          <lb ed="#P" n="13"/>in contumeliam seu irreverentiam templi, sed
+          <lb ed="#P" n="14"/>etiam omnem exteriorem actum, qui in se
+          <lb ed="#P" n="15"/>continet irreverentiam templi, quacumque
+          <lb ed="#P" n="16"/>intentione fiat. Declaratur, quia duobus modis
+          <lb ed="#P" n="17"/>constituitur actus aliquis in aliqua specie 
+          pec<lb break="no" ed="#P" n="18"/>cati : uno modo, ex directa et formali 
+          inten<lb break="no" ed="#P" n="19"/>tione operantis, ut cum aliquis ad uxorem 
+          al<lb break="no" ed="#P" n="20"/>terius accedit, ut de marito vindictam sumat,
+          <lb ed="#P" n="21"/>vel eum inhonoret ac infamet; alio modo, ex
+          <lb ed="#P" n="22"/>sola operis voluntate, ut cum quis adulterium
+          <lb ed="#P" n="23"/>committit, sola carnis concupiscentia ductus,
+          <lb ed="#P" n="24"/>et dolens quod cum illo actu conjuncta sit 
+          in<lb break="no" ed="#P" n="25"/>juria alterius quod non obstat quominus 
+          in<lb break="no" ed="#P" n="26"/>justus sit. His ergo duobus modis potest 
+          com<lb break="no" ed="#P" n="27"/>mitti sacrilegium, et irreverentia in locum 
+          sa<lb break="no" ed="#P" n="28"/>crum; primo, ex directa ac formali intentione,
+          <lb ed="#P" n="29"/>quae vix potest cadere, nisi in haereticum 
+          ani<lb break="no" ed="#P" n="30"/>mum. Sic enim peccant in Deum haeretici, qui
+          <lb ed="#P" n="31"/>templa infringunt, comburunt et evertunt;
+          <lb ed="#P" n="32"/>directe enim id faciunt in contemptum, et
+          <lb ed="#P" n="33"/>injuriam templi. Posset etiam talis intentio
+          <lb ed="#P" n="34"/>cadere in hominem obduratum, desperatum,
+          <lb ed="#P" n="35"/>et odio habentem Deum, ut per se constat.
+          <lb ed="#P" n="36"/>Secundo, potest haec culpa committi, quasi
+          <lb ed="#P" n="37"/>materiali voluntate, ut sic dicam, id est, 
+          vo<lb break="no" ed="#P" n="38"/>lendo facere aliquid in eo loco sacro, quod in
+          <lb ed="#P" n="39"/>se continet injuriam talis loci; et licet illa 
+          di<lb break="no" ed="#P" n="40"/>recte intenta non sit, est consequenter volita
+          <lb ed="#P" n="41"/>cum ipso opere, quia per se loquimur, et 
+          se<lb break="no" ed="#P" n="42"/>clusa ignorantia, vel alia causa excusante. Ut
+          <lb ed="#P" n="43"/>cum quis inimicum occidit in loco sacro, quem
+          <lb ed="#P" n="44"/>nollet ibi occidere, sed id vult quia aliter non
+          <lb ed="#P" n="45"/>posset occidere, nihilominus sacrilegus est,
+          <lb ed="#P" n="46"/>quia ad malitiam voluntatis et actionis 
+          culpa<lb break="no" ed="#P" n="47"/>bilis, satis est velle externum actum habentem
+          <lb ed="#P" n="48"/>talem conditionem non ignoratam, etiamsi
+          <lb ed="#P" n="49"/>illa non intendatur. De priori ergo modo 
+          irre<lb break="no" ed="#P" n="50"/>verentiae, clarum est esse intrinsece malam, ac
+          <lb ed="#P" n="51"/>subinde semper prohibitam, ut in prima parte
+          <lb ed="#P" n="52"/>assertionis dicitur. Imo tam prava est illa 
+          in<lb break="no" ed="#P" n="53"/>tentio, ut quamvis exterior actio vel 
+          irreve<lb break="no" ed="#P" n="54"/>rentia loci sacri levissima esse videatur, 
+          sem<lb break="no" ed="#P" n="55"/>per mortalis et gravissima culpa sit, quia pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cedit vel ex contemptu, vel ex odio ipsius Dei,
+          <lb ed="#P" n="57"/>aut sacrarum rerum ad ipsum pertinentium,
+          <lb ed="#P" n="58"/>vel ex animo haeretico, vel infideli, quae omnia
+          <lb ed="#P" n="59"/>et singula sufficiunt, ut peccatum mortale sit
+          <lb ed="#P" n="60"/>in omni materia etiam levissima. Quin potius
+          <lb ed="#P" n="61"/>licet exterior actus ex se non esset injuriosus,
+          <lb ed="#P" n="62"/>sed indifferens, ut confabulatio de rebus 
+          indif<lb break="no" ed="#P" n="63"/>ferentibus, si fieret ex contemptu loci sacri,
+          <lb ed="#P" n="64"/>et ad significandum, non oportere 
+          differen<lb break="no" ed="#P" n="65"/>tiam facere inter illum locum et communem,
+          <lb ed="#P" n="66"/>esset peccatum mortale, quia esset peccatum
+          <lb ed="#P" n="67"/>ex contemptu, quod semper grave est. De hac
+          <lb ed="#P" n="68"/>ergo formali irreverentia nihil aliud dicendum
+          <lb ed="#P" n="69"/>superest, quia cum species ejus ex ipsa formali
+          <lb ed="#P" n="70"/>intentione sumatur, facile cognoscitur. At
+          <lb ed="#P" n="71"/>vero in posteriori modo peccandi contra locum
+          <lb ed="#P" n="72"/>sacrum, difficile est discernere quando actio
+          <lb ed="#P" n="73"/>ex se sit injuriosa loco sacro, ita ut inde habeat
+          <lb ed="#P" n="74"/>actus specialem malitiam contra religionem,
+          <lb ed="#P" n="75"/>etiamsi injuria loci sacri intenta non sit, 
+          ideo<lb break="no" ed="#P" n="76"/>que in sequenti capite accuratius tractandum
+          <lb ed="#P" n="77"/>hoc est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

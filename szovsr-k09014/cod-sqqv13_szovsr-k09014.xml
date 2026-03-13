@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 29</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 29</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="360"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k09014"><!-- t2-l2c29 -->
+        <head>Caput 29</head>
+        <head type="question-title">De operibus non servilibus seu liberis, speciali jure prohibitis.</head>
+        <p>
+          <lb ed="#P" n="59"/>CAPUT XXIX.
+          <lb ed="#P" n="60"/>DE OPERIBUS NON SERVILIBUS SEU LIBERIS, 
+          SPE<lb break="no" ed="#P" n="61"/>CIALI JURE PROHITBITIS.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>1. Quae opera liberalia jure prohibeantur. —
+          <lb ed="#P" n="63"/>Hactenus explicuimus generalem regulam de
+          <lb ed="#P" n="64"/>prohipitione operum servilium,cum 
+          exceptio<lb break="no" ed="#P" n="65"/>nibus quae occurrerunt, et obiter ostensum
+          <lb ed="#P" n="66"/>est opera non servilia, non esse comprehensa
+          <lb ed="#P" n="67"/>unquam ex vi illius prohibitionis, quia per
+          <lb ed="#P" n="68"/>Iimitationem illam, servile, excluduntur, et
+          <lb ed="#P" n="69"/>quia in nullo alio jure generaiis prohibitio
+          <lb ed="#P" n="70"/>liberorum, seu spiritualium operum facta 
+          in<lb break="no" ed="#P" n="71"/>venitur. Quia vero nonnullae actiones non 
+          ser<lb break="no" ed="#P" n="72"/>viles in die festo specialiter prohibitae 
+          inve<lb break="no" ed="#P" n="73"/>niuntur, illas recensere ac exponere, ad hujus
+          <lb ed="#P" n="74"/>doctrinae complementum necessarium est.
+          <lb ed="#P" n="75"/>Sunt autem hae actiones prohibita, non 
+          plu<lb break="no" ed="#P" n="76"/>res quam quinque, ut constat ex cap. 1de
+          <lb ed="#P" n="77"/>Fer.; ibi enim prohibentur mercatus, 
+          placi<lb break="no" ed="#P" n="78"/>tum, judicium ad mortem, vel ad poenam, et
+          <lb ed="#P" n="79"/>juramentum. In aliis etiam juribus 
+          inveniun<lb break="no" ed="#P" n="80"/>tur prohibita quaedam ex his, ut in cap. ultim.
+          <lb ed="#P" n="81"/>ejusdem tituli prohibentur omnia, quae ad 
+          ju<lb break="no" ed="#P" n="82"/>dicium pertinent sub nomine strepitus 
+          judi<lb break="no" ed="#P" n="83"/>cialis, sub quo placitum, et judicium ad 
+          mor<lb break="no" ed="#P" n="84"/>tem vel ad penam comprehenduntur. In 
+          Con<lb break="no" ed="#P" n="85"/>cilio item Matiscon. II, cap. 1 solum dicitur:
+          <lb ed="#P" n="86"/>Nullus vestrum litium fomitibus vacet, nullus
+          <lb ed="#P" n="87"/>causarum actiones ecerceat. In Concilio Turon.,
+          <lb ed="#P" n="88"/>cap. 40, solum mercatus et placitum 
+          prohiben<lb break="no" ed="#P" n="89"/>tur; idemque fit in Concilio Mogunt., cap. 37,
+          <lb ed="#P" n="90"/>et circa placitum additur limitatio : Ubi 
+          ali<lb break="no" ed="#P" n="91"/>quis ad mortem, vel ad penam judicetur, quae
+          <lb ed="#P" n="92"/>nunc necessaria non est; nam generalis est
+          <lb ed="#P" n="93"/>prohibitio, maxime ex d. cap. ultim. de Feriis.
+          <lb ed="#P" n="94"/>Itaque duo genera actionum sunt principaliter
+          <lb ed="#P" n="95"/>prohibita, scilicet, mercaturae, et fori seu 
+          ju<lb break="no" ed="#P" n="96"/>dicii. In solo autem d. cap. 1 additur 
+          jura<lb break="no" ed="#P" n="97"/>mentum , quod multi putant sub judicio 
+          in<lb break="no" ed="#P" n="98"/>cludi; sed an hoc sit in universum verum, 
+          in<lb break="no" ed="#P" n="99"/>fra dicemus. Consonatque haec prohibitio juri
+          <lb ed="#P" n="100"/>civili, tum antiquo, tum etiam noviori ; refert
+          <lb ed="#P" n="101"/>enim Cicero lib. de Legib. , et lib. 1 de 
+          Divi<lb break="no" ed="#P" n="102"/>nat., juxta leges duodecim Tabularum in feriis
+          <lb ed="#P" n="103"/>cessandum fuisse a jurgiis, et in leg. penul.,
+          <lb ed="#P" n="104"/>IT. de Fer., dicitur ferias dare cacationem a 
+          fo<lb break="no" ed="#P" n="105"/>rensius negotiis, sub quibus omnes dictae 
+          ac<lb break="no" ed="#P" n="106"/>tiones possunt comprehendi, quia omnes 
+          quo<lb break="no" ed="#P" n="107"/>dammodo in foro fiunt. Sed praecipue intelligi
+          <pb ed="#P" n="361"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>solent, ut Glos. ibi notavit, actiones judiciales,
+          <lb ed="#P" n="2"/>quae C. de Fer. late prohibentur in festis, in
+          <lb ed="#P" n="3"/>1 1, 2, 3et ult. Constat autem has actiones de
+          <lb ed="#P" n="4"/>se serviles non esse, quia nec sunt propriae
+          <lb ed="#P" n="5"/>servorum, nec sunt mechanicae, sed ad 
+          cogni<lb break="no" ed="#P" n="6"/>tionem et convictum humanum ordinantur ;
+          <lb ed="#P" n="7"/>specialiter ergo prohibentur , licet liberales
+          <lb ed="#P" n="8"/>sint. Et magna quidem ratione, propter 
+          jur<lb break="no" ed="#P" n="9"/>gia. et dissensiones, et saecularem 
+          distractio<lb break="no" ed="#P" n="10"/>nem, quam secum afterunt, unde quietem
+          <lb ed="#P" n="11"/>et vacationem in die festo intentam maxime
+          <lb ed="#P" n="12"/>impedirent. Haec autem ratio in 
+          mercimo<lb break="no" ed="#P" n="13"/>niis , et contractibus temporalibus non 
+          mino<lb break="no" ed="#P" n="14"/>rem vim habet, et propterea jus canonicum
+          <lb ed="#P" n="15"/>has etiam actiones expresse addidit; et quia de
+          <lb ed="#P" n="16"/>se pertrahunt ad peccatum, ut notavit 
+          Panor<lb break="no" ed="#P" n="17"/>mnitanus, in cap. ult. de Fer. Praeter has 
+          au<lb break="no" ed="#P" n="18"/>tem actiones. non inveniuntur aliae liberales
+          <lb ed="#P" n="19"/>specialiter prohibitae , neque in aliis tam 
+          ge<lb break="no" ed="#P" n="20"/>neraliter habent locum rationes factae. Ista
+          <lb ed="#P" n="21"/>ergo prohibitio ad praedictas actiones 
+          revoca<lb break="no" ed="#P" n="22"/>tur, de quibus pauca notanda sunt.
+        </p>
+        <p>
+          <lb ed="#P" n="23"/>2. Quid sub mercatus nomine prohübeatur.
+          <lb ed="#P" n="24"/>— Circa mercatum ergo, si vim juris 
+          atten<lb break="no" ed="#P" n="25"/>damus, et propriam illius vocis 
+          significatio<lb break="no" ed="#P" n="26"/>nem, per illam prohibentur in die festo 
+          om<lb break="no" ed="#P" n="27"/>nes contractus emptionum et venditionum,
+          <lb ed="#P" n="28"/>locationum et permutationum , ut Doctores
+          <lb ed="#P" n="29"/>omnes ibi, et Summista , Cajetanus, Sot. et
+          <lb ed="#P" n="30"/>alii notant. Advertit tamen Cajetanus 
+          nun<lb break="no" ed="#P" n="31"/>quam fuisse prohibitum emere in die festo
+          <lb ed="#P" n="32"/>necessaria ad illius diei victum et potum.
+          <lb ed="#P" n="33"/>Quod censco verum de his, quae ante illum
+          <lb ed="#P" n="34"/>diem commode emi non possunt, aut 
+          ubicum<lb break="no" ed="#P" n="35"/>que moralis necessitas occurrit ; tamen, quae
+          <lb ed="#P" n="36"/>facile vitari possunt , vitanda sunt , nisi 
+          pro<lb break="no" ed="#P" n="37"/>pter levitatem materiae, et communem usum
+          <lb ed="#P" n="38"/>excusentur. Praecipue vero prohibentur 
+          pu<lb break="no" ed="#P" n="39"/>blicae nundinae, quae cum magno concursu 
+          ho<lb break="no" ed="#P" n="40"/>minum 1in certis locis fieri solent, ad quae 
+          va<lb break="no" ed="#P" n="41"/>riae merces deportantur negotiationis causa,
+          <lb ed="#P" n="42"/>ad quas nundinas solent certi dies semel aut
+          <lb ed="#P" n="43"/>bis in anno assignari ; illi ergo dies, ex vi hujus
+          <lb ed="#P" n="44"/>juris, festi esse non debent. Deinde idem est
+          <lb ed="#P" n="45"/>de nundinis magis privatis , quae in singulis
+          <lb ed="#P" n="46"/>hebdomadis certo quodam die fiunt, qua jam
+          <lb ed="#P" n="47"/>vulgo mercatus nomine appellari solent ; si
+          <lb ed="#P" n="48"/>ergo in illum diem festum aliquod inciderit,
+          <lb ed="#P" n="49"/>cessandum est a mercatu, et in alium diem
+          <lb ed="#P" n="50"/>transferendus est. Tertio prohibentur etiam
+          <lb ed="#P" n="51"/>privati contractus , praesertim si publice, vel
+          <lb ed="#P" n="52"/>pnblica solemnitate fiant, quia in his etiam
+          <lb ed="#P" n="53"/>propriissime mercatus fit, qui absolute et sine
+          <lb ed="#P" n="54"/>restrictione prohibetur.
+        </p>
+        <p>
+          <lb ed="#P" n="55"/>3. Objectio. — Dices communem Ecclesiae
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>praxim contrariam esse huic legi. Nam 
+          publi<lb break="no" ed="#P" n="57"/>cae nundinae in diebus festis ubique fiunt, 
+          ne<lb break="no" ed="#P" n="58"/>que solum quando contingit , festivitatem
+          <lb ed="#P" n="59"/>conjungi cum die ad nundinas designato, sed
+          <lb ed="#P" n="60"/>etiam ex directa intentione festum 
+          designan<lb break="no" ed="#P" n="61"/>do ; quia in eo celebriores sunt nundina,
+          <lb ed="#P" n="62"/>quam si in profesto fiant. Deinde bona 
+          mor<lb break="no" ed="#P" n="63"/>tuorum publice solent in diebus festis 
+          sub<lb break="no" ed="#P" n="64"/>hastari, et voce praeconis publice vendi. Item
+          <lb ed="#P" n="65"/>simili modo solent beneficia, aut ecclesiarum
+          <lb ed="#P" n="66"/>proventus, aut terra, publice ad locandum
+          <lb ed="#P" n="67"/>proponi. Item solent operarii conduci in die
+          <lb ed="#P" n="68"/>festo a prandio, et mitti in villam. Item 
+          mer<lb break="no" ed="#P" n="69"/>cenarii artifices solent in die festo vendere
+          <lb ed="#P" n="70"/>merces, aut calceos, vel alia hujusmodi: et
+          <lb ed="#P" n="71"/>haec omnia publice tolerantur a pastoribus
+          <lb ed="#P" n="72"/>Ecclesiae ; unde in eis non videtur graviter
+          <lb ed="#P" n="73"/>peccari. Circa haec rigorose loquuntur Host. et
+          <lb ed="#P" n="74"/>Abbas, in cap. 1 de Fer., dum aiunt, nullam
+          <lb ed="#P" n="75"/>consuetudinem excusare posse, ut mercatum
+          <lb ed="#P" n="76"/>in die festo facere liceat, quia est prava 
+          con<lb break="no" ed="#P" n="77"/>suetudo, et irrationabilis. Quod probat 
+          Panor<lb break="no" ed="#P" n="78"/>mitanus, quia licet mercari non sit peccatum,
+          <lb ed="#P" n="79"/>est tamen ex actionibus, quae ad peccandum
+          <lb ed="#P" n="80"/>pertrahunt ; vix enim inter ementes et 
+          ven<lb break="no" ed="#P" n="81"/>dentes non intervenit peccatum , cap. 
+          Quali<lb break="no" ed="#P" n="82"/>tas, de Poenitent. distinct., 5, et propter hanc
+          <lb ed="#P" n="83"/>causam specialiter prohibetur mercatus in 
+          fes<lb break="no" ed="#P" n="84"/>tis, et quia nimium distrahit animum a 
+          divi<lb break="no" ed="#P" n="85"/>nis, ad quae festa destinantur. Censent ergo hi
+          <lb ed="#P" n="86"/>auctores, tales consuetudines esse iniquas, et
+          <lb ed="#P" n="87"/>ad summum excusare posse ab exteriori 
+          poe<lb break="no" ed="#P" n="88"/>na, non tamen a culpa.
+        </p>
+        <p>
+          <lb ed="#P" n="89"/>4. Respondetur. — Nihilominus dicendum
+          <lb ed="#P" n="90"/>est consuetudines has, quoad fieri possit. 
+          ca<lb break="no" ed="#P" n="91"/>vendas vel moderandas esse, ita ut nec 
+          intro<lb break="no" ed="#P" n="92"/>ducantur ubi non sunt, nec exiendantur ubi
+          <lb ed="#P" n="93"/>sunt; nihilominus tamen ubi receptae fuerint,
+          <lb ed="#P" n="94"/>excusare a culpa. Ita sentiunt Cajetan., d. art.
+          <lb ed="#P" n="95"/>4, et in Sum., ver. Festorum violatio ; Navar.,
+          <lb ed="#P" n="96"/>dict. cap. 13, num. 8. Ratio clara est, quia
+          <lb ed="#P" n="97"/>tota haec festorum observatio est de lege 
+          hu<lb break="no" ed="#P" n="98"/>mana, cui potest per consuetudinem derogari.
+          <lb ed="#P" n="99"/>Nec refert quod haec actio sit obnoxia periculis
+          <lb ed="#P" n="100"/>peccandi ; tum quia hoc non obstat quominus
+          <lb ed="#P" n="101"/>tale opus licite exerceatur aliis temporibvs;
+          <lb ed="#P" n="102"/>ergo nec obstabit quominus in die festo licite
+          <lb ed="#P" n="103"/>fiat, si in illo non sit simpliciter prohibitum;
+          <lb ed="#P" n="104"/>ubi autem consnuetudo praevaluit, jam cessavit
+          <lb ed="#P" n="105"/>prohibitio ; tum etiam quia illa ratio pertinet
+          <lb ed="#P" n="106"/>ad motivum legislatoris , non tamen facit 
+          ma<lb break="no" ed="#P" n="107"/>teriam legis adeo necessariam, ut contra 
+          il<lb break="no" ed="#P" n="108"/>lam non possit praevalere consuetudo ; 
+          deni<lb break="no" ed="#P" n="109"/>que consuetudo contraria posset omnino festi
+          <lb ed="#P" n="110"/>obligationem auferre; ergo et minuere. Adde,
+          <pb ed="#P" n="362"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in omnibus illis casibus intervenire rationes
+          <lb ed="#P" n="2"/>aliquas honestantes consuetudines ex aliqua 
+          pu<lb break="no" ed="#P" n="3"/>blica necessitate. Solent enim nundinae in festo
+          <lb ed="#P" n="4"/>fieri interdum, ut rustici et pauperes, qui non
+          <lb ed="#P" n="5"/>possunt in profestis operas suas deserere, illas
+          <lb ed="#P" n="6"/>possint adire. Aliquando fiunt, quia tali die
+          <lb ed="#P" n="7"/>solet multitudo populorum ad locum aliquem
+          <lb ed="#P" n="8"/>convenire pietatis causa, et, ne cogantur 
+          ite<lb break="no" ed="#P" n="9"/>rum illuc verire, vel nimium ibi detineri cum
+          <lb ed="#P" n="10"/>magno dispendio et publico, nundinae in 
+          eo<lb break="no" ed="#P" n="11"/>dem die constituuntur. Oportet tamen 
+          obser<lb break="no" ed="#P" n="12"/>vare nunquam istam consuetudinem ita 
+          in<lb break="no" ed="#P" n="13"/>troduci, ut missa omitti possit licite absque
+          <lb ed="#P" n="14"/>speciali necessitate.
+        </p>
+        <p>
+          <lb ed="#P" n="15"/>5. In mercatibus autem qui in singulis 
+          ci<lb break="no" ed="#P" n="16"/>vitatibus, vel oppidis, semel in hebdomada
+          <lb ed="#P" n="17"/>fieri solent, non ita praevaluisse videtur haec
+          <lb ed="#P" n="18"/>consuetudo, quia facile transferri possunt in
+          <lb ed="#P" n="19"/>alterum diem; et ita observandum est, quoad
+          <lb ed="#P" n="20"/>fieri possit, nisi consuetudo inveterata omnino
+          <lb ed="#P" n="21"/>resistat. Venditiones vero solent publice fieri
+          <lb ed="#P" n="22"/>in festo, praesertim in parvis oppidis ; quia
+          <lb ed="#P" n="23"/>alias pauci essent emptores, et res vilissime
+          <lb ed="#P" n="24"/>venderentur ; et similes causae cum 
+          propor<lb break="no" ed="#P" n="25"/>tione in aliis casibus reperientur. Interdum
+          <lb ed="#P" n="26"/>etiam venditio potest illo die fieri in gratiam
+          <lb ed="#P" n="27"/>emptoris, qui fortasse est rusticus agricola,
+          <lb ed="#P" n="28"/>aut peregrinus, qui alio die adesse ibi non
+          <lb ed="#P" n="29"/>potest, vel alia ratione tunc indiget tali re.
+          <lb ed="#P" n="30"/>Interdum vero in gratiam venditoris, qui alio
+          <lb ed="#P" n="31"/>die non posset vendere ex defectu ementium,
+          <lb ed="#P" n="32"/>etc. Quae omnia generatim spectata ad 
+          publi<lb break="no" ed="#P" n="33"/>cam utilitatem pertinent, et ideo aliquid 
+          par<lb break="no" ed="#P" n="34"/>ticipant de dispensatione cap. Zicet, de 
+          Fe<lb break="no" ed="#P" n="35"/>riis, quam inferius exponemus. His tamen
+          <lb ed="#P" n="36"/>non obstantibus, lex ipsa canonica perse suam
+          <lb ed="#P" n="37"/>vim retinet, et servanda est, ubi non fuerit
+          <lb ed="#P" n="38"/>in aliquo casu particulari per consuetudinem
+          <lb ed="#P" n="39"/>derogata.
+        </p>
+        <p>
+          <lb ed="#P" n="40"/>6. Placitum prohiberi diebus festis.— Circa
+          <lb ed="#P" n="41"/>aliam partem de placito, seu judicio forensi,
+          <lb ed="#P" n="42"/>certum est prohibitum esse in diebus feriatis,
+          <lb ed="#P" n="43"/>ut vidimus; tamen quia in hoc judicio plures
+          <lb ed="#P" n="44"/>interveniunt personae et actiones, nonnulla
+          <lb ed="#P" n="45"/>circa illas breviter notanda sunt. Personae sunt
+          <lb ed="#P" n="46"/>judex, et partes : actor, scilicet, et reus, testes,
+          <lb ed="#P" n="47"/>tabellio, advocatus, et si qui sunt alii horum
+          <lb ed="#P" n="48"/>ministri. Cirea quas personas generatim 
+          so<lb break="no" ed="#P" n="49"/>lum possumus dicere, omnes teneri ad 
+          ser<lb break="no" ed="#P" n="50"/>vandam hanc legem quoad actiones forenses
+          <lb ed="#P" n="51"/>ad singulas pertinentes, ut eleganter et 
+          spe<lb break="no" ed="#P" n="52"/>ciatim declaratur in l. ult., C. de Fer., et 
+          si<lb break="no" ed="#P" n="53"/>militer singuli gaudent illa indulgentia, 
+          etiam<lb break="no" ed="#P" n="54"/>si aliis onerosam esse contingat : quia lex 
+          in<lb break="no" ed="#P" n="55"/>differenter et generaliter loquitur.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>7. Dubitari autem solet cujus personse 
+          ha<lb break="no" ed="#P" n="57"/>benda sit ratio in hac cessatione ab strepitu
+          <lb ed="#P" n="58"/>judicii; contingit enim ut partes et judex in
+          <lb ed="#P" n="59"/>diversis locis domicilia habeant, et festum vel
+          <lb ed="#P" n="60"/>ferias in uno loco servari, non in alio; cujus
+          <lb ed="#P" n="61"/>ergo loci consuetudo servanda est, judicisne,
+          <lb ed="#P" n="62"/>an rei, vel actoris, vel omnium ? Respondeo,
+          <lb ed="#P" n="63"/>spectandum semper esse locum illum, in quo
+          <lb ed="#P" n="64"/>judex adest, et causa tractatur, et judicium
+          <lb ed="#P" n="65"/>ordinatur ; tum quia judex est principalis 
+          per<lb break="no" ed="#P" n="66"/>sona, et quasi caput in hoc negotio; et ideo
+          <lb ed="#P" n="67"/>ratio postulat ut caeteri illum sequantur; tum
+          <lb ed="#P" n="68"/>etiam quia in modo ordinandi judicium 
+          at<lb break="no" ed="#P" n="69"/>tenditur consuetudo loci, in quo agitur causa;
+          <lb ed="#P" n="70"/>ergo ctiam in tempore apto ad judicium : tum
+          <lb ed="#P" n="71"/>denique quia judex ipse tenetur loci, in quo
+          <lb ed="#P" n="72"/>adest et operatur, festa servare, et 
+          consequen<lb break="no" ed="#P" n="73"/>ter ibi tenetur a forensibus actibus abstinere.
+          <lb ed="#P" n="74"/>Non vero tenetur etiam indulgere partibus, ut
+          <lb ed="#P" n="75"/>suorum locorum feriis, seu festivitatibus 
+          utan<lb break="no" ed="#P" n="76"/>tur , quia haec esset nimia judiciorum dilatio;
+          <lb ed="#P" n="77"/>et quia possunt, vel debent ad locum judicii
+          <lb ed="#P" n="78"/>accedere, ubi jam non tenentur festa suorum
+          <lb ed="#P" n="79"/>locorum propria observare. In hoc conveniunt
+          <lb ed="#P" n="80"/>Canonistae in cap. ultim. de Fer., ut recte ibi
+          <lb ed="#P" n="81"/>expendit Abbas, num. 23, qui magis loquuntur
+          <lb ed="#P" n="82"/>de feriis temporalibus, seu rusticanis; tamen
+          <lb ed="#P" n="83"/>cum proportione eadem ratio est de 
+          solemni<lb break="no" ed="#P" n="84"/>bus, seu festivis. Addo vero, si aliquae actiones
+          <lb ed="#P" n="85"/>pertinentes ad illam causam extra locum 
+          judi<lb break="no" ed="#P" n="86"/>cii transigendae sint, posse optime fieri in eo
+          <lb ed="#P" n="87"/>die, qui est festus in loco judicii, et non in
+          <lb ed="#P" n="88"/>loco ubi tales actiones sint. Ut, verbi gratia,
+          <lb ed="#P" n="89"/>si testes sint in alio loco examinandi ex 
+          com<lb break="no" ed="#P" n="90"/>missione judicis prius data, optime poterit in
+          <lb ed="#P" n="91"/>illo die ab eis exigi juramentum, et 
+          conse<lb break="no" ed="#P" n="92"/>quenter etiam examinari poterunt. Advocatus
+          <lb ed="#P" n="93"/>item, si alibi resideat, et tabellio, si alio in
+          <lb ed="#P" n="94"/>loco inquisitionem faciat vel instrumentum,
+          <lb ed="#P" n="95"/>sua munera eodem die praestare possunt; quia
+          <lb ed="#P" n="96"/>obligatio servandi tale festum non se extendit
+          <lb ed="#P" n="97"/>ad alia loca, ut supponimus; et ita ex hac
+          <lb ed="#P" n="98"/>parte talis actio non est contra festi 
+          obligatio<lb break="no" ed="#P" n="99"/>nem. Aliunde vero non est contra vacationem
+          <lb ed="#P" n="100"/>concessam pro illo die in tali judicio; quia illa
+          <lb ed="#P" n="101"/>vacatio solum praecipitur et conceditur pro tali
+          <lb ed="#P" n="102"/>loco; et ibi non fit progressio, sed in remotis
+          <lb ed="#P" n="103"/>dispositionibus (ut sic dicam), seu 
+          praeparatio<lb break="no" ed="#P" n="104"/>nibus quae in aliis locis fieri possunt.
+        </p>
+        <p>
+          <lb ed="#P" n="105"/>8. Quid placitum.—Secundo, circa actionem
+          <lb ed="#P" n="106"/>judicii dicendum est, sub illa comprehendi
+          <lb ed="#P" n="107"/>omnes actiones, quae proprie forenses et 
+          pu<lb break="no" ed="#P" n="108"/>blicae sunt, et pertinent quasi intrinsece ad
+          <lb ed="#P" n="109"/>acta judicii, et expresse vel virtute in cap. 1
+          <lb ed="#P" n="110"/>et ultim. de Feriis continentur. Hoc imprimis
+          <pb ed="#P" n="363"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>constat generali ratione , quia haec prohibitio
+          <lb ed="#P" n="2"/>nititur in lege ecclesiastica; ergo tanta est,
+          <lb ed="#P" n="3"/>quanta legis verba exigunt. Verba autem 
+          ca<lb break="no" ed="#P" n="4"/>nonica legis, in dict. cap. ultim., sunt: Debet
+          <lb ed="#P" n="5"/>judicialis strepitus diebus conguiescere feriatis,
+          <lb ed="#P" n="6"/>qui ob reverentiam Dei noscuntur esse statuti.
+          <lb ed="#P" n="7"/>In fine vero haec cessatio strepitus duobus
+          <lb ed="#P" n="8"/>verbis declaratur, scilicet, u£ nec habeantur
+          <lb ed="#P" n="9"/>processus, nec feratur sententia; ergo ex vi
+          <lb ed="#P" n="10"/>illius juris, ea omnia quae pertinent ad 
+          forma<lb break="no" ed="#P" n="11"/>tionem processus iudicialis, et ad prolationem
+          <lb ed="#P" n="12"/>sententiae, prohibita sunt. In cap. autem 1
+          <lb ed="#P" n="13"/>ejusdem tituli, his verbis declaratur haec 
+          pro<lb break="no" ed="#P" n="14"/>hibitio: His diebus nec placitum fiat , neque
+          <lb ed="#P" n="15"/>aliquis ad mortem vel ad panam judicetur, nec
+          <lb ed="#P" n="16"/>sacrumenta (id est, juramenta) preestentur. In
+          <lb ed="#P" n="17"/>quibus, quid nomine placiti significetur, ex
+          <lb ed="#P" n="18"/>usu canonum sumendum est, quia extra illos
+          <lb ed="#P" n="19"/>non invenio vocem illam in hac significatione,
+          <lb ed="#P" n="20"/>ut forensem causam vel litem significet : 
+          pro<lb break="no" ed="#P" n="21"/>prie enim significare solet voluntatis 
+          electio<lb break="no" ed="#P" n="22"/>nem et consensum. Unde etiam objectum 
+          vo<lb break="no" ed="#P" n="23"/>Iuntate approbatum placitum vocatur, Genes.
+          <lb ed="#P" n="24"/>24: A Domino egressus est sermo, non 
+          possu<lb break="no" ed="#P" n="25"/>mus extra placitum ejus quicquam logui. Unde
+          <lb ed="#P" n="26"/>eiiam significat conventionem, et pactum ex
+          <lb ed="#P" n="27"/>mutuo consensu definitum, ut Gen. 29 et 30
+          <lb ed="#P" n="28"/>videre licet : vel etiam significat mentis 
+          de<lb break="no" ed="#P" n="29"/>cretum, quomodo dicuntur esse 
+          philosopho<lb break="no" ed="#P" n="30"/>rum et medicorum piacita. Atque hoc modo,
+          <lb ed="#P" n="31"/>quae decreta vel statuta sunt a Deo, vel 
+          princi<lb break="no" ed="#P" n="32"/>pibus, vel senatu, placita vocantur, Proverb.
+          <lb ed="#P" n="33"/>10 : Labia justi considerant placita, et os 
+          im<lb break="no" ed="#P" n="34"/>piorum perversa. Ac denique terminus 
+          defini<lb break="no" ed="#P" n="35"/>tus ad aliquid agendum, placitum vocari 
+          so<lb break="no" ed="#P" n="36"/>let, 2 Reg. 20 : Moratus est extra placitum,
+          <lb ed="#P" n="37"/>quod ei constituerat rex. Quia ergo in forensi
+          <lb ed="#P" n="38"/>judicio, juxta voluntatem et arbitrium judicis
+          <lb ed="#P" n="39"/>legibus regulatum, vel termini constituuntur,
+          <lb ed="#P" n="40"/>vel decreta dantur et sententiae , ideo tota
+          <lb ed="#P" n="41"/>causa judicialis et forensis tractatio, nomine
+          <lb ed="#P" n="42"/>placiti in jure canonico significatur, ut videre
+          <lb ed="#P" n="43"/>licet in d. cap. 1, 15, quaestione quarta, per
+          <lb ed="#P" n="44"/>totam. Juxta hanc ergo interpretationem idem
+          <lb ed="#P" n="45"/>est prohiberi in die festo placitum, ac 
+          prohi<lb break="no" ed="#P" n="46"/>beri strepitum judicialem, ut in alio capite
+          <lb ed="#P" n="47"/>dicitur.
+        </p>
+        <p>
+          <lb ed="#P" n="48"/>9. Difficultas.— Satisfit.—At enim 
+          dubita<lb break="no" ed="#P" n="49"/>bit aliquis, si hoc ita est, quid necesse fuerit
+          <lb ed="#P" n="50"/>addere caetera verba in illo cap. 1, quia, 
+          pro<lb break="no" ed="#P" n="51"/>hibito toto strepitu judiciali, caetera prohibita
+          <lb ed="#P" n="52"/>erant, scilicet, judicium, ac juramentum, quae
+          <lb ed="#P" n="53"/>per alia verba exprimuntur. Quod si totum
+          <lb ed="#P" n="54"/>ipsum per partes explicari oportuit, 
+          debuis<lb break="no" ed="#P" n="55"/>sent omnes actiones forenses numerari; alio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quin cogitare quis poterit, illas tantum duas
+          <lb ed="#P" n="57"/>actiones esse prohibitas, et genus per speciocs
+          <lb ed="#P" n="58"/>limitatum esse, quod tamen falsum est. Et
+          <lb ed="#P" n="59"/>praesertim habent difficultatem illa verba:
+          <lb ed="#P" n="60"/>Neque aliquis ad mortem, vel ad penam 
+          judi<lb break="no" ed="#P" n="61"/>cetur, quia videtur per ea limitari haec 
+          prohi<lb break="no" ed="#P" n="62"/>bitio ad judicium criminale, nam in illo 
+          tan<lb break="no" ed="#P" n="63"/>tum per se agitur de infligenda poena; imo
+          <lb ed="#P" n="64"/>nec semper illud prohiberi videtur, sed solum
+          <lb ed="#P" n="65"/>quando condemnandus est reus ad poenam : si
+          <lb ed="#P" n="66"/>ergo absolvendus sit, non erit tale judicium
+          <lb ed="#P" n="67"/>in festo prohibitum, quod etiam falsum est.
+          <lb ed="#P" n="68"/>Hanc difficultatem quoad hanc tantum 
+          poste<lb break="no" ed="#P" n="69"/>riorem partem sensit Glossa in d. cap. 1, verb.
+          <lb ed="#P" n="70"/>Ad mortem, et ideo addidit, subintelligendum
+          <lb ed="#P" n="71"/>esse: Maaime, quia nulla causa (inquit) tunc
+          <lb ed="#P" n="72"/>tractari debet, maxime vero causa sanguinis.
+          <lb ed="#P" n="73"/>Panormitanus autem existimat, nomine placiti
+          <lb ed="#P" n="74"/>solum significari causam civilem , et citat
+          <lb ed="#P" n="75"/>cap. Placita, 15, quaest. 4; sed ibi hoc non
+          <lb ed="#P" n="76"/>declaratur; nam absclute dicitur, ut placita
+          <lb ed="#P" n="77"/>secularia dominicis diebus vel aliis precipuis
+          <lb ed="#P" n="78"/>festis non fiant; a criminalia judicia magis
+          <lb ed="#P" n="79"/>seecularia sunt, quam civilia. Et ideo dici 
+          pos<lb break="no" ed="#P" n="80"/>set cum Cajetan. , d. art. 4, S S'ed ad hoc, in
+          <lb ed="#P" n="81"/>fine, tempore illius Concilii, a quo caput illud
+          <lb ed="#P" n="82"/>desumptum est, non fuisse prohibita omnia
+          <lb ed="#P" n="83"/>judicia in die festo; et sane in Concilio 
+          Ma<lb break="no" ed="#P" n="84"/>gunt., supra citato, hoc multum indicatur.
+          <lb ed="#P" n="85"/>Verumtamen. quia ex cap. 1 et 2, 15, quaest.
+          <lb ed="#P" n="86"/>4, quae sunt antiquiora, contrarium colligitur,
+          <lb ed="#P" n="87"/>non videtur omnino deserenda Panormitani
+          <lb ed="#P" n="88"/>sententia. Est enim probabilis illa vocis 
+          signi<lb break="no" ed="#P" n="89"/>ficatio, quia placitum magis significare solet
+          <lb ed="#P" n="90"/>decretum spectans ad civilem gubernationem,
+          <lb ed="#P" n="91"/>quam ad punitionem. Supposita ergo illa 
+          si<lb break="no" ed="#P" n="92"/>gnificatione, per primum verbum omnes 
+          cau<lb break="no" ed="#P" n="93"/>sae civiles, per secundum vero omnes 
+          crimi<lb break="no" ed="#P" n="94"/>nales prohibitae sunt, et in singulis prohibitae
+          <lb ed="#P" n="95"/>sunt omnes actiones judiciales. Cur autem 
+          ju<lb break="no" ed="#P" n="96"/>ramentum specialiter expressum fuerit, paulo
+          <lb ed="#P" n="97"/>inferius dicam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

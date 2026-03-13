@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 31</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 31</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="809"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k20221"><!-- t3-l4c31 -->
+        <head>Caput 31</head>
+        <head type="question-title">Utrum in spiritualium commutatione, praesertim beneficiorum, possit vera simonia committi, saltem contra ecclesiasticum jus?</head>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>CAPUT XXXI.
+          <lb ed="#P" n="56"/>UTRUM IN SPIRITUALIUM COMMUTATIONE, 
+          PRAESER<lb break="no" ed="#P" n="57"/>TIM BENEFICIORUM, POSSIT VERA SIMONIA 
+          COM<lb break="no" ed="#P" n="58"/>MITTI, SALTEM CONTRA ECCLESIASTICUM JUS?
+        </p>
+        <p>
+          <lb ed="#P" n="59"/>1. Proponitur pars negativa. — Videri 
+          po<lb break="no" ed="#P" n="60"/>test non esse possibilem talis simoniae modum,
+          <lb ed="#P" n="61"/>quia non potest esse simonia, nisi verum 
+          pre<lb break="no" ed="#P" n="62"/>tium interveniat ; sed per jus positivum fieri
+          <lb ed="#P" n="63"/>non potest, ut res spiritualis habeat veram
+          <lb ed="#P" n="64"/>rationem pretii; ergo nec potest fieri ut talis
+          <lb ed="#P" n="65"/>commutatio sit simoniaca. Major patet ex 
+          dic<lb break="no" ed="#P" n="66"/>tis, quia sine pretio non est venditio, nec sine
+          <lb ed="#P" n="67"/>venditione simonia. Minor etiam patet, quia
+          <lb ed="#P" n="68"/>de ratione pretii est, ut sit res temporalis et
+          <lb ed="#P" n="69"/>materialis, ut etiam ostensum est. Et 
+          decla<lb break="no" ed="#P" n="70"/>ratur, quia si res illa, pro qua altera spiritualis
+          <lb ed="#P" n="71"/>datur, in se non est pretio aestimabilis, jam
+          <lb ed="#P" n="72"/>non aestimatur pretio res altera, quae pro illa
+          <lb ed="#P" n="73"/>datur, et consequenter ibi non intervenit 
+          de<lb break="no" ed="#P" n="74"/>formitas simoniae. At Ecclesia per suam 
+          pro<lb break="no" ed="#P" n="75"/>hibitionem non potest facere, ut res 
+          spiritua<lb break="no" ed="#P" n="76"/>lis, temposalis fiat, vel pretio aestimabilis;
+          <lb ed="#P" n="77"/>ergo nec potest faeere ut commutatio rerum
+          <lb ed="#P" n="78"/>spiritualium inter se, cum proportione facta,
+          <lb ed="#P" n="79"/>sit simonia. Atque hanc partem defendit 
+          Du<lb break="no" ed="#P" n="80"/>randus, cum quo cap. 8 disputatum est.
+        </p>
+        <p>
+          <lb ed="#P" n="81"/>2. Sententia asserens omnem commudtatio -
+          <lb ed="#P" n="82"/>nem rei spiritualis pro alia simoniacam esse ea
+          <lb ed="#P" n="83"/>jure ecclesiastico. — Aliunde vero apparet, ex
+          <lb ed="#P" n="84"/>jure ecclesiastico factum esse ut omnis 
+          com<lb break="no" ed="#P" n="85"/>mutatio rei spiritualis proalia etiam spirituali,
+          <lb ed="#P" n="86"/>simoniaca sit. Probatur, quia in jure omnis
+          <lb ed="#P" n="87"/>pactio in distributione seu traditione 
+          spiritua<lb break="no" ed="#P" n="88"/>lium rerum prohibetur; ergo etiam pactio de
+          <lb ed="#P" n="89"/>dando spirituali pro spirituali prohibita est,
+          <lb ed="#P" n="90"/>quia ubi jus non distinguit, neque nos 
+          distin<lb break="no" ed="#P" n="91"/>guere debemus. Antecedens constat ex c. ult.
+          <lb ed="#P" n="92"/>de Pactis, et ex c. Preeterea, 2, de Transact.,
+          <lb ed="#P" n="93"/>cap. Tua nos, de Simon., cum similibus, in
+          <lb ed="#P" n="94"/>quibus omnis pactio in spiritualibus absolute
+          <lb ed="#P" n="95"/>et simpliciter improbatur. Atque hanc 
+          sen<lb break="no" ed="#P" n="96"/>tentiam docuerunt aliqui Canonistae, in dicto
+          <lb ed="#P" n="97"/>cap. ult. de Pactis, ut Cardin., Imol., Anton.
+          <lb ed="#P" n="98"/>Tribui etiam solet Navarro, d. cap. 23, num.
+          <lb ed="#P" n="99"/>100, vers. 2. Sed revera illam non docet, ut
+          <lb ed="#P" n="100"/>videbimus.
+        </p>
+        <p>
+          <lb ed="#P" n="101"/>3. Non repugnat hanc commutationem esse
+          <lb ed="#P" n="102"/>simoniacam, solum quia fit contra 
+          prohibitio<lb break="no" ed="#P" n="103"/>nem Ecclesie. —bico ergo primo: non 
+          repu<lb break="no" ed="#P" n="104"/>gnat, commutationem spiritualis pro 
+          spiri<lb break="no" ed="#P" n="105"/>tuali, aliter factam quam legibus ecclesiasticis
+          <lb ed="#P" n="106"/>permissa sit, vere ac proprie esse simoniacam,
+          <pb ed="#P" n="810"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>solum quia contra Ecclesiae prohibitionem fit.
+          <lb ed="#P" n="2"/>Hanc assertionem tradidimus supra, c. 8, in
+          <lb ed="#P" n="3"/>generali; hie vero ad particulares materias
+          <lb ed="#P" n="4"/>applicanda est. Illam ergo decet Navar., dicto
+          <lb ed="#P" n="5"/>vers. 2, refertque pro illa Sylvestrum, verb.
+          <lb ed="#P" n="6"/>Simonia, quaest. 13, verb. 4; Angel., 
+          Simo<lb break="no" ed="#P" n="7"/>nia, 3, numero 3. Idem tenet Sylvester verb.
+          <lb ed="#P" n="8"/>Permutatio, 2, quaest. 4. Et in beneficus id
+          <lb ed="#P" n="9"/>docent communiter Canonista, in cap. 
+          Que<lb break="no" ed="#P" n="10"/>situm, de Rerum permutat., et in cap. Ec
+          <lb ed="#P" n="11"/>parte, 1, de Officio delegat. Et sumitur ex
+          <lb ed="#P" n="12"/>D. Thom., dicta quaest. 100, art. 1, ad 5. 
+          Te<lb break="no" ed="#P" n="13"/>net Paludan., 4, distinct. 25, q. 5. Et idem
+          <lb ed="#P" n="14"/>sentiunt Major, Richard., Argent. et ali, solo
+          <lb ed="#P" n="15"/>Durando excepto ; Soto, dicta quaest. 5, a.2;
+          <lb ed="#P" n="16"/>Victor., d. num. 17. Qui omnes fere in 
+          bene<lb break="no" ed="#P" n="17"/>ficiis loquuntur, et ab illis sumi potest 
+          gene<lb break="no" ed="#P" n="18"/>rale argumentum. Nam beneficium 
+          ecclesias<lb break="no" ed="#P" n="19"/>tcum simpliciter est quid spirituale, et ideo
+          <lb ed="#P" n="20"/>commntatio unius pro alio, si pure fiat, id est,
+          <lb ed="#P" n="21"/>sine adjectione, vel reservatione alicujus 
+          tem<lb break="no" ed="#P" n="22"/>poraltatis , sed simpliciter unum pro alio
+          <lb ed="#P" n="23"/>conferendo, ex vi solius juris divini simonia
+          <lb ed="#P" n="24"/>non est, juxta dicta in cap. praec. Et 
+          nihilo<lb break="no" ed="#P" n="25"/>minus per Ecclesiam facta est simoniaca, si
+          <lb ed="#P" n="26"/>absque auctoritate praelati per *solam 
+          pactio<lb break="no" ed="#P" n="27"/>nem privatorum beneficiatorum fiat, ut nunc
+          <lb ed="#P" n="28"/>supponimus, et in sequenti assertione 
+          osten<lb break="no" ed="#P" n="29"/>demnus ; ergo.
+        </p>
+        <p>
+          <lb ed="#P" n="30"/>4. Enodatur dubium circa communem 
+          ratio<lb break="no" ed="#P" n="31"/>nem beneficiorum. — Sed fortasse aliquis 
+          dubi<lb break="no" ed="#P" n="32"/>tabit in hoc exemplo, quia permutatio 
+          bene<lb break="no" ed="#P" n="33"/>ficiorum privata auctoritate, non tantum 
+          ec<lb break="no" ed="#P" n="34"/>clesiastico jure prohibita est, sed etiam divino,
+          <lb ed="#P" n="35"/>supposita tali beneficiorum institutione; quia
+          <lb ed="#P" n="36"/>beneficium ex natura sua, quam habet a tali
+          <lb ed="#P" n="37"/>institutione, postulat auctoritatem superioris,
+          <lb ed="#P" n="38"/>ut alteri conferri possit. Sed hoc non obstat:
+          <lb ed="#P" n="39"/>nam aliud est considerare impossibilitatem,
+          <lb ed="#P" n="40"/>ut sic dicam, translationis beneficii in alium,
+          <lb ed="#P" n="41"/>et rcceptionem benefrcii alterius privata 
+          auc<lb break="no" ed="#P" n="42"/>toritate; aliud vero est considerare 
+          pactio<lb break="no" ed="#P" n="43"/>nem et permutationem privatorum inter se.
+          <lb ed="#P" n="44"/>Nam prior actio, vel potius conatus, per
+          <lb ed="#P" n="45"/>se et natura sua illicitus est et sacrilegus;
+          <lb ed="#P" n="46"/>tum quia illo spiritualia indigne tractantur,
+          <lb ed="#P" n="47"/>et usurpantur, ac conferuutur, totumque 
+          fac<lb break="no" ed="#P" n="48"/>tum irritum est natura sua; tum etiam quia
+          <lb ed="#P" n="49"/>est injustitia usurpatae jurisdictionis ; nam 
+          be<lb break="no" ed="#P" n="50"/>neficiorum collatio et institutio ad solum 
+          prae<lb break="no" ed="#P" n="51"/>latum, ratione jurisdictioni- suae, pertinet.
+          <lb ed="#P" n="52"/>Tamen in eo ut sic non est simonia : quia ibi
+          <lb ed="#P" n="53"/>non consideratur ratio venditionis, vel 
+          per<lb break="no" ed="#P" n="54"/>mutationis, sed iniquae intrusionis. Est ergo
+          <lb ed="#P" n="55"/>illud sacrilegium alterius rationis contra divi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>num jus, supposita institutione, quam suo jure
+          <lb ed="#P" n="57"/>postulat beneficiorum finis, et natura. At vero
+          <lb ed="#P" n="58"/>sine hoc sacrilegio posset intelligi commutatio
+          <lb ed="#P" n="59"/>unius beneficii pro alio, ex conventione 
+          par<lb break="no" ed="#P" n="60"/>tium inter se, obtinendo postea collationem et
+          <lb ed="#P" n="61"/>institutionem a praelato, nec sciente, neque 
+          ap<lb break="no" ed="#P" n="62"/>probante contractum permutationis inter ipsos
+          <lb ed="#P" n="63"/>factum, et in hoc dicimus non inveniri 
+          simo<lb break="no" ed="#P" n="64"/>niam contra jus divinum, et fatentur omnes
+          <lb ed="#P" n="65"/>Doctores citati, et alii quos referemus, et 
+          pro<lb break="no" ed="#P" n="66"/>bant adducta superiori cap. Et solet 
+          confir<lb break="no" ed="#P" n="67"/>mari, quia si illa permutatio esset de se mala,
+          <lb ed="#P" n="68"/>etiam nunc fieri non posset auctoritate 
+          prae<lb break="no" ed="#P" n="69"/>lati, quod falsum esse constat. Sed quantam
+          <lb ed="#P" n="70"/>vim hoc habeat, statim dicemus. Sic ergo
+          <lb ed="#P" n="71"/>exem plum illud recte probat conclusionem.
+        </p>
+        <p>
+          <lb ed="#P" n="72"/>5. An sit aliqua geculiaris ratio, ut fiat
+          <lb ed="#P" n="73"/>prohibitio in spiritualibus quibus temporalia
+          <lb ed="#P" n="74"/>sunt anneca, et non in alüs spiritualibus. —
+          <lb ed="#P" n="75"/>Resolvitur. — Sed ulterius considerari potest
+          <lb ed="#P" n="76"/>in hoc exemplo, et similibus, in quibus 
+          tem<lb break="no" ed="#P" n="77"/>poralia sunt spiritualibus connexa, specialem
+          <lb ed="#P" n="78"/>rationem inveniri, ob quam in eis merito fieri
+          <lb ed="#P" n="79"/>possit prohibitio, quae non invenitur in aliis
+          <lb ed="#P" n="80"/>spiritualibus rebus ; unde inferri posse videtur
+          <lb ed="#P" n="81"/>non esse assertionem extendendam ad 
+          mate<lb break="no" ed="#P" n="82"/>rias pure spirituales. Déclaratur, quia in 
+          bene<lb break="no" ed="#P" n="83"/>ficiis, licet titulus sit spiritualis, proventus
+          <lb ed="#P" n="84"/>sunt temporales, et sunt ita spiritualibus 
+          func<lb break="no" ed="#P" n="85"/>tionibus annexi, ut ex illis necessitate quadam
+          <lb ed="#P" n="86"/>dimanent; unde facile fieri poterit, ut in 
+          com<lb break="no" ed="#P" n="87"/>mutationibus talium spiritualium rerum 
+          ma<lb break="no" ed="#P" n="88"/>jor ratio temporalium quam spiritualium 
+          ha<lb break="no" ed="#P" n="89"/>beatur. Quod aliquo modo derogat 
+          spiritua<lb break="no" ed="#P" n="90"/>lium dignitati, et convenienti administrationi,
+          <lb ed="#P" n="91"/>et saltem habet speciem mali, quae ab 
+          omni<lb break="no" ed="#P" n="92"/>bus Christianis cavenda est, dicente Paulo, 2
+          <lb ed="#P" n="93"/>Thes. 5b: Ab omni specie mali abstinete vos;
+          <lb ed="#P" n="94"/>maxime vero hoc servandum est ecclesiasticis
+          <lb ed="#P" n="95"/>personis, et in pertractandis spiritualibus rebus,
+          <lb ed="#P" n="96"/>atque ideo merito potuit Ecclesia illam 
+          per<lb break="no" ed="#P" n="97"/>mutationem prohibere intuitu religionis, ad
+          <lb ed="#P" n="98"/>cavendam illam mali speciem, ut dixit 
+          Ponti<lb break="no" ed="#P" n="99"/>fex in cap. Audivimus, 4, de Simon. In aliis
+          <lb ed="#P" n="100"/>autem materiis pure spiritualibus non habet
+          <lb ed="#P" n="101"/>locum haec ratio, neque ex parte unius rei,
+          <lb ed="#P" n="102"/>pro qua altera datur, potest aliquid 
+          tempo<lb break="no" ed="#P" n="103"/>rale considerari, ratione cujus fiat prohibitio,
+          <lb ed="#P" n="104"/>praesertim in ordine ad vitandam simoniam,
+          <lb ed="#P" n="105"/>vel periculum, aut specicm ejus. Et ita in 
+          per<lb break="no" ed="#P" n="106"/>mutatione earum non videtur habere posse 
+          lo<lb break="no" ed="#P" n="107"/>cum simonia quia prohibita. Ad hoc autem
+          <lb ed="#P" n="108"/>facile possemus concedere totum quod 
+          infer<lb break="no" ed="#P" n="109"/>tur. Ideo enim in assertione indefinite locuti
+          <lb ed="#P" n="110"/>sumus, solumque diximus non repugnare ;
+          <pb ed="#P" n="811"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nam ad hoc satis est quod in aliqua materia
+          <lb ed="#P" n="2"/>spirituali possit habere locum talis simonia,
+          <lb ed="#P" n="3"/>nec est necessarium ut ad omnem materiam
+          <lb ed="#P" n="4"/>extendatur. Addo vero potestatem 
+          ecclesiasti<lb break="no" ed="#P" n="5"/>cam ad prohibenda pacta, et commutationes
+          <lb ed="#P" n="6"/>inter spiritualia, de se universalem esse, et in
+          <lb ed="#P" n="7"/>quacumque materia posse illas prohibere, si
+          <lb ed="#P" n="8"/>sufficiens ratio occurrerit ad prohibitionem
+          <lb ed="#P" n="9"/>faciendam : sine tali enim ratione nec 
+          opera<lb break="no" ed="#P" n="10"/>tur illa potestas, quia lex debet esse 
+          rationa<lb break="no" ed="#P" n="11"/>bilis, nec potestas data est in destructionem,
+          <lb ed="#P" n="12"/>sed in aedificationem. At vero si abusus aliquis
+          <lb ed="#P" n="13"/>introduceretur per commutationem aliquarum
+          <lb ed="#P" n="14"/>functionum pure spiritualium, ut 
+          absolutio<lb break="no" ed="#P" n="15"/>nem pro absolutione praestando, vel quidpiam
+          <lb ed="#P" n="16"/>simile, merito posset Ecclesia talem 
+          commu<lb break="no" ed="#P" n="17"/>tationem prohibere, ut per se constat. Et 
+          for<lb break="no" ed="#P" n="18"/>tasse talis prohibitionis transgressio ad 
+          simo<lb break="no" ed="#P" n="19"/>niam etiam pertineret, ut paulo inferius dicam.
+        </p>
+        <p>
+          <lb ed="#P" n="20"/>6. Permutatio beneficiorum, propria 
+          auctori<lb break="no" ed="#P" n="21"/>tate facta, est vera simonia. — Dico secundo:
+          <lb ed="#P" n="22"/>permutatio unius rei spiritualis pro alia 
+          spi<lb break="no" ed="#P" n="23"/>rituali in beneficiis ecclesiasticis , et in his
+          <lb ed="#P" n="24"/>quae illa concernunt, probibita est per 
+          Ec<lb break="no" ed="#P" n="25"/>clesiam, si propria auctoritate fiat, et sic facta,
+          <lb ed="#P" n="26"/>veram simoniam continet, quia prohibita.
+          <lb ed="#P" n="27"/>Prima pars satis ex jure constat, et ita in illa
+          <lb ed="#P" n="28"/>nulla est controversia, cap. Queesitum cum
+          <lb ed="#P" n="29"/>olim, de Rerum permutatione, c. Majoribus,
+          <lb ed="#P" n="30"/>de Praebend. , ubi de sola permutatione 
+          di<lb break="no" ed="#P" n="31"/>gnitatum sermo est; verumtamen in aliis 
+          ju<lb break="no" ed="#P" n="32"/>ribus declaratur seu extenditur ad omnia 
+          be<lb break="no" ed="#P" n="33"/>neficia. Et ita etiam intelligitur generalis
+          <lb ed="#P" n="34"/>regula, in cap. ultim. de Pactis, quod in his
+          <lb ed="#P" n="35"/>spiritualibus omnis pactio prohibita est; 
+          per<lb break="no" ed="#P" n="36"/>mutatio enim quaedam pactio est, ut constat.
+        </p>
+        <p>
+          <lb ed="#P" n="37"/>7. An permutatio beneficiorum siue 
+          inter<lb break="no" ed="#P" n="38"/>ventu pecuniae sit simonia ratione 
+          prohibitio<lb break="no" ed="#P" n="39"/>nis ecclesiastice. — Pars negativa. — 
+          Difficul<lb break="no" ed="#P" n="40"/>tas vero est in posteriori parte assertionis, an
+          <lb ed="#P" n="41"/>talis permutatio beneficiorum simpliciter 
+          fac<lb break="no" ed="#P" n="42"/>ta, et sine interventu pecuniae, vel alterius
+          <lb ed="#P" n="43"/>temporalis aequivalentis, sit vera simonia 
+          ra<lb break="no" ed="#P" n="44"/>tione ecclesiasticae prohibitionis. Quidam enim
+          <lb ed="#P" n="45"/>contendunt quod, licet sit mala quia 
+          prohibi<lb break="no" ed="#P" n="46"/>ta, non tamen est simonia. Quod juxta 
+          opinio<lb break="no" ed="#P" n="47"/>nem Durandi supra tractatam, cap. $8, recte
+          <lb ed="#P" n="48"/>diceretur; tamen praeter illum citantur pro hac
+          <lb ed="#P" n="49"/>sententia Soto, lib. 9 de Just., q. 7, art. 2, et
+          <lb ed="#P" n="50"/>Covarruvias, 1. 2 Var., c. 5, n. 4 et 5. Sed
+          <lb ed="#P" n="51"/>neuter ibi tractat de hac re, sed de 
+          renuncia<lb break="no" ed="#P" n="52"/>tione beneficii sub conditione ; et quia putant
+          <lb ed="#P" n="53"/>non esse simoniacam , putant etiam non esse
+          <lb ed="#P" n="54"/>illicitam nec prohibitam, ut infra videbimus.
+          <lb ed="#P" n="55"/>Neminem ergo invenio hanc opinionem tenen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tem, praeter Durandum, et vix potest defendi,
+          <lb ed="#P" n="57"/>nisi juxta illius sententiam. Nihilominus 
+          ali<lb break="no" ed="#P" n="58"/>qui viri docti dixerunt, licet possit dari 
+          simo<lb break="no" ed="#P" n="59"/>nia de jure positivo, non tamen in hac 
+          mate<lb break="no" ed="#P" n="60"/>ria permutationis beneficiorum, quia in ea non
+          <lb ed="#P" n="61"/>datur temporale pro spirituali. Sed ad hoc
+          <lb ed="#P" n="62"/>jam a nobis responsum est, habere temporale
+          <lb ed="#P" n="63"/>admixtum, et ratione illius posse esse 
+          funda<lb break="no" ed="#P" n="64"/>mentum simonia prohibitae. Contra hoc vero
+          <lb ed="#P" n="65"/>instatur, quia in beneficio temporale est 
+          acces<lb break="no" ed="#P" n="66"/>sorium, spirituale principale; at in rebus vel
+          <lb ed="#P" n="67"/>actionibus accessorium in considerationem non
+          <lb ed="#P" n="68"/>venit, sed sequitur principale, leg. 1, ff. de
+          <lb ed="#P" n="69"/>Auctor. tutor.; ergo. Et confirmatur, quia si
+          <lb ed="#P" n="70"/>haec permutatio esset simoniaca, non posset
+          <lb ed="#P" n="71"/>auctoritate Episcopi fieri, quia non potest ille
+          <lb ed="#P" n="72"/>dispensare in jure communi, quod est jus 
+          su<lb break="no" ed="#P" n="73"/>perioris: at potest licite fieri Episcopi 
+          auc<lb break="no" ed="#P" n="74"/>toritate; ergo non est simonia quia 
+          prohi<lb break="no" ed="#P" n="75"/>bita.
+        </p>
+        <p>
+          <lb ed="#P" n="76"/>8. Pars affirmativa eligitur. — Nihilominus
+          <lb ed="#P" n="77"/>contraria sententia communis est, et omnino
+          <lb ed="#P" n="78"/>vera. Illlam enim tenent ex Theologis 
+          Paluda<lb break="no" ed="#P" n="79"/>nus, Hichardus, Major, Argent., Sot. et Vict.,
+          <lb ed="#P" n="80"/>locis citatis in prima assertione: et Summistae
+          <lb ed="#P" n="81"/>omnes, et Canonistae ibidem allegati; et 
+          An<lb break="no" ed="#P" n="82"/>ton., 2 par., tit. 1, cap. , 8 8; Rebuff., in
+          <lb ed="#P" n="83"/>Pract., 3 p., tit. de Permutatione, num. 52:
+          <lb ed="#P" n="84"/>Ugolin., Tab. 1. cap. 27; Redoan., tiul. de
+          <lb ed="#P" n="85"/>Simon., part. 3, et 13. Probaturque primo ex
+          <lb ed="#P" n="86"/>cap. Cum olim, de Rerum permut., et clarius
+          <lb ed="#P" n="87"/>in cap. Queesitum, eod., ibi: Presertim 
+          pactio<lb break="no" ed="#P" n="88"/>ne praemissa, quee circa spiritualia, vel 
+          con<lb break="no" ed="#P" n="89"/>neza spuritualibus, labem semper continet 
+          simo<lb break="no" ed="#P" n="90"/>nic. Respondent aliqui illud esse verum, 
+          quan<lb break="no" ed="#P" n="91"/>do permutatio fit pactione praemissa. Sed 
+          in<lb break="no" ed="#P" n="92"/>terrogo de qua pactione sit sermo: an de 
+          pac<lb break="no" ed="#P" n="93"/>tione dandi aliquid temporale ultra 
+          benefi<lb break="no" ed="#P" n="94"/>cium, vel de pactione et conventione dandi
+          <lb ed="#P" n="95"/>unum beneficium pro alio. Primum dici non
+          <lb ed="#P" n="96"/>potest, juxta mentem Pontificis in illo textu,
+          <lb ed="#P" n="97"/>quia nec de hoc erat quaesitum, sed solum:
+          <lb ed="#P" n="98"/>An commutationes fieri valeant prebendarum ;
+          <lb ed="#P" n="99"/>nec pro ratione dubitandi afferebatur, quod
+          <lb ed="#P" n="100"/>dandum erat aliquid temporale , sed solum
+          <lb ed="#P" n="101"/>quod in Concilio Turon., c. Majoribus, de
+          <lb ed="#P" n="102"/>Praebend., tantum inter dignitates videbatur
+          <lb ed="#P" n="103"/>prohibita permutatio. Unde etiam intelligitur,
+          <lb ed="#P" n="104"/>solum ibi de permutatione mala, quia 
+          prohi<lb break="no" ed="#P" n="105"/>bita, fuisse interrogatum Pontificem. Debet
+          <lb ed="#P" n="106"/>autem responsio esse interrogation 
+          proportio<lb break="no" ed="#P" n="107"/>nata. Non ergo agitur ibi de alic puncto, in quo
+          <lb ed="#P" n="108"/>temporale detur pro spirituah: nam haec 
+          si<lb break="no" ed="#P" n="109"/>monia contra jus divinum est, unde nullum
+          <lb ed="#P" n="110"/>verbum ibi reperitur, quo tale pactum signi-
+          <pb ed="#P" n="812"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ficetur. Ergo pactio illa non est, nisi de pura
+          <lb ed="#P" n="2"/>commutatione unius beneficii pro alio; ergo
+          <lb ed="#P" n="3"/>illa est simoniaca, juxta illum textum.
+        </p>
+        <p>
+          <lb ed="#P" n="4"/>9. Dubium circa Pontificis verba.— 
+          Solvi<lb break="no" ed="#P" n="5"/>tur.—bces : quid ergo vult Pontifex ibi, cum
+          <lb ed="#P" n="6"/>eit : Generaliter teneas , quod commutationes
+          <lb ed="#P" n="7"/>prabendarum de jure fieri non possunt, 
+          pra<lb break="no" ed="#P" n="8"/>sertim pactione pramissa? Nam si pactio 
+          tan<lb break="no" ed="#P" n="9"/>tum est de pura permutatione, superflue 
+          ad<lb break="no" ed="#P" n="10"/>ditur illud, preesertim, etc., quia impossibile
+          <lb ed="#P" n="11"/>est fieri permutationem sine pactione, quia
+          <lb ed="#P" n="12"/>permutatio, contractus quidam est, et omnis
+          <lb ed="#P" n="13"/>contractus est pactio. Respondeo, fortasse illud
+          <lb ed="#P" n="14"/>verbum solum fuisse additum ad explicandum
+          <lb ed="#P" n="15"/>in quo consistat deformitas illius 
+          permutatio<lb break="no" ed="#P" n="16"/>nis factae sine auctoritate Episcopi, quia fit in
+          <lb ed="#P" n="17"/>vi pacti; vel certe dici potest permutationem
+          <lb ed="#P" n="18"/>simpliciter posse fieri, primo solo facto dando
+          <lb ed="#P" n="19"/>et recipiendo sine alia pactione, vel quod
+          <lb ed="#P" n="20"/>etiam fiat pactio per mutuam obligationem in
+          <lb ed="#P" n="21"/>futurum : et utraque permutatio est illicita
+          <lb ed="#P" n="22"/>ct simoniaca, sed posterior est magis clara et
+          <lb ed="#P" n="23"/>deterior, quia plures obligationes includit.
+          <lb ed="#P" n="24"/>Quae distinctio potest intelligi ex lege E 
+          pla<lb break="no" ed="#P" n="25"/>cito, codice de Rerum permutatione, ubi prius
+          <lb ed="#P" n="26"/>dicitur, ex placito permutandi, re non secuta,
+          <lb ed="#P" n="27"/>actionem non competere ; et subditur : JVisi
+          <lb ed="#P" n="28"/>stipulatio subjecta em verborum obligatione
+          <lb ed="#P" n="29"/>queesierit partibus actionem. Sic ergo potest
+          <lb ed="#P" n="30"/>esse permutatio sine pacto, et cum illo.
+        </p>
+        <p>
+          <lb ed="#P" n="31"/>10. Aliter confirmatur assertio. — Posset
+          <lb ed="#P" n="32"/>item persuaderi assertio ex dictis supra contra
+          <lb ed="#P" n="33"/>Durandum, si pro fundamento sumeret 
+          con<lb break="no" ed="#P" n="34"/>traria sententia, nullam dari simoniam contra
+          <lb ed="#P" n="35"/>jus positivum ; si autem admittatur aliqua
+          <lb ed="#P" n="36"/>simonia contra jus positivum, uon video 
+          quo<lb break="no" ed="#P" n="37"/>modo possit negari, in hoc facto prohibito
+          <lb ed="#P" n="38"/>reperiri. Nam si pro beneficio, vel alia re 
+          spi<lb break="no" ed="#P" n="39"/>rituali detur res mere temporalis, jam simonia
+          <lb ed="#P" n="40"/>non esset contra jus humanum, sed contra
+          <lb ed="#P" n="41"/>divinum. Quando ergo in materia beneficiali
+          <lb ed="#P" n="42"/>potest esse simonia, quia prohibita? 
+          Respon<lb break="no" ed="#P" n="43"/>dent, quando id quod datur, est mere 
+          tempo<lb break="no" ed="#P" n="44"/>rale, sed modus dandi non esset sufficiens ad
+          <lb ed="#P" n="45"/>simoniam, nisi prohiberetur. Sed hinc sumo
+          <lb ed="#P" n="46"/>argumentum satis efficax. Nam si lex facit 
+          mo<lb break="no" ed="#P" n="47"/>dum sufficientem ad simoniam, qui de se non
+          <lb ed="#P" n="48"/>erat, cur non poterit etiam facere ut res, quae
+          <lb ed="#P" n="49"/>de se non erat sufficiens ad pretium ex natura
+          <lb ed="#P" n="50"/>rei, ex prohibitione et quasi taxatione legis
+          <lb ed="#P" n="51"/>sit sufficiens ad commutationem simoniacam?
+          <lb ed="#P" n="52"/>Certe non potest reddi ratio quae satisfaciat.
+        </p>
+        <p>
+          <lb ed="#P" n="53"/>11. In hac materia non distinguitur 
+          illici<lb break="no" ed="#P" n="54"/>tum quia prohibitum, et simoniacum.— Valde
+          <lb ed="#P" n="55"/>probalile est si de facto esset prohibita ab Ec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>clesia commutatio inter mere spiritualia, talem
+          <lb ed="#P" n="57"/>commvutationem esse simoniacam. — Sed 
+          prae<lb break="no" ed="#P" n="58"/>terea ostendo ex principiis supra positis, in
+          <lb ed="#P" n="59"/>hac materia et in hac actione non distingui
+          <lb ed="#P" n="60"/>illicitum quia prohibitum, et simoniacum
+          <lb ed="#P" n="61"/>ex eodem capite. Et argumentor in hunc
+          <lb ed="#P" n="62"/>modum : illa permutatio et pactio est illicita
+          <lb ed="#P" n="63"/>in materia spirituali contra religionem; sed
+          <lb ed="#P" n="64"/>solum ratione voluntariae pactionis et 
+          com<lb break="no" ed="#P" n="65"/>mutationis; ergo est simonia. Antecedens
+          <lb ed="#P" n="66"/>supponitur ex dictis contra Durandum , quia
+          <lb ed="#P" n="67"/>illa transgressio non est formaliter contra
+          <lb ed="#P" n="68"/>obedientiam, nec contra justitiam , sed 
+          su<lb break="no" ed="#P" n="69"/>mit speciem ex materia; unde necessario est
+          <lb ed="#P" n="70"/>contra religionem. Quod autem deordinatio
+          <lb ed="#P" n="71"/>non aliunde quam ex prohibito pacto 
+          oria<lb break="no" ed="#P" n="72"/>tur, per se evidens est, et ex dictis juribus
+          <lb ed="#P" n="73"/>et ex cap. Cum universorum, de Rerum 
+          per<lb break="no" ed="#P" n="74"/>mutatione. Consequentia vero probatur , quia
+          <lb ed="#P" n="75"/>illa est quaedam irreligiositas, et non potest
+          <lb ed="#P" n="76"/>ad aliam speciem vitiorum contra religionem
+          <lb ed="#P" n="77"/>pertinere. Suppono enim resignationem 
+          bene<lb break="no" ed="#P" n="78"/>ficiorum fieri in manibus praelati, et ab ipso
+          <lb ed="#P" n="79"/>conferri, tamen ex pactione praecedenti, de qua
+          <lb ed="#P" n="80"/>nulla mentio facta est; ibi ergo non intervenit
+          <lb ed="#P" n="81"/>injuria, neque alia maltia contra divinum jus;
+          <lb ed="#P" n="82"/>tota ergo malitia consistit in pacto prohibito per
+          <lb ed="#P" n="83"/>ecclesiastica jura. Jam ergo probatur 
+          conse<lb break="no" ed="#P" n="84"/>quentia, quia simonia non est aliud quam 
+          ir<lb break="no" ed="#P" n="85"/>religiositas circa res sacras et spirituales, seu
+          <lb ed="#P" n="86"/>sacrilegium commissum per iniquam 
+          negotia<lb break="no" ed="#P" n="87"/>tionem virca illas. Et discurrendo per alias
+          <lb ed="#P" n="88"/>species irreligiositatis, facile constabit, in nulla
+          <lb ed="#P" n="89"/>alia specie vitii contra religionem posse 
+          collo<lb break="no" ed="#P" n="90"/>cari. Et propterea mihi valde probabile est,
+          <lb ed="#P" n="91"/>quod si de facto esset prohibita per Ecclesiam
+          <lb ed="#P" n="92"/>pactio et commutatio inter aliqua mere 
+          spiri<lb break="no" ed="#P" n="93"/>tualia, ita ut illa esset mala quia prohibita,
+          <lb ed="#P" n="94"/>necessario esset quaedam simonia , quia esset
+          <lb ed="#P" n="95"/>peccatum contra religionem, et contra 
+          debi<lb break="no" ed="#P" n="96"/>tum modum contractandi res sacras, et non per
+          <lb ed="#P" n="97"/>furtum, nec per alias actiones sacrilegas. sed
+          <lb ed="#P" n="98"/>per negotiationem prohibitam circa illas, ut
+          <lb ed="#P" n="99"/>spirituales sunt. Unde hoc existimo in rigore
+          <lb ed="#P" n="100"/>sufficere posse ad rationem simoniae, saltem
+          <lb ed="#P" n="101"/>de possibili. Ideoque cum communiter dicitur
+          <lb ed="#P" n="102"/>simoniam non mntervenire, nisi cum datur
+          <lb ed="#P" n="103"/>temporale pro spirituali, intelligitur ex natura
+          <lb ed="#P" n="104"/>rei, et stando in divino jure; absolute vero
+          <lb ed="#P" n="105"/>extendi potest ad omnem commutationem de
+          <lb ed="#P" n="106"/>re spirituali, quae in reverentiam ejus fieri
+          <lb ed="#P" n="107"/>prohibeatur.
+        </p>
+        <p>
+          <lb ed="#P" n="108"/>12. Longe id certius est, quando prohibitio
+          <lb ed="#P" n="109"/>fit in rebus spiritualibus ratione temporalitatis
+          <lb ed="#P" n="110"/>quam involvunt.— Sed quicquid de hoc sit
+          <pb ed="#P" n="813"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>(quod magis potest esse dubium), longe 
+          cer<lb break="no" ed="#P" n="2"/>tius id est, quando commutatio est prohibita
+          <lb ed="#P" n="3"/>ad vitandam speciem et occasionem simoniae,
+          <lb ed="#P" n="4"/>quae esse potest in tali materia, ratione 
+          tem<lb break="no" ed="#P" n="5"/>poralitatis quam involvit, ut paulo antea 
+          de<lb break="no" ed="#P" n="6"/>claravi. Et amplius suaderi potest, quia ex
+          <lb ed="#P" n="7"/>parte materiae simoniae, non solum est 
+          suffi<lb break="no" ed="#P" n="8"/>ciens materia simonisae res in se vere 
+          spiritua<lb break="no" ed="#P" n="9"/>lis, sed etiam res temporalis annexa spirituali
+          <lb ed="#P" n="10"/>quando per legem ecclesiasticam constituta
+          <lb ed="#P" n="11"/>est, ut sic dicam, in illo ordine per 
+          prohibi<lb break="no" ed="#P" n="12"/>tionem, et quasi annesionem positivam. Ergo
+          <lb ed="#P" n="13"/>et e contrario res spiritualis habens annexam
+          <lb ed="#P" n="14"/>temporalem, potest ratione illius prohiberi
+          <lb ed="#P" n="15"/>in commutationem alterius rei similis adduci,
+          <lb ed="#P" n="16"/>et consequenter constitui tanquam sufficiens
+          <lb ed="#P" n="17"/>pretium ad simoniams coustituendam. Atque
+          <lb ed="#P" n="18"/>ita factum est in beneficiis, ut declaravi. 
+          Ne<lb break="no" ed="#P" n="19"/>que obstat quod temporale in beneficio sit
+          <lb ed="#P" n="20"/>accessorium, quia, licet ex natura rei 
+          accesso<lb break="no" ed="#P" n="21"/>rium sequatur principale, si ordo non 
+          perver<lb break="no" ed="#P" n="22"/>tatur, homines tamen seepe abutuntur his 
+          re<lb break="no" ed="#P" n="23"/>bus, et magis amant accessorium quam 
+          prin<lb break="no" ed="#P" n="24"/>cipale ; et ideo morale periculum est ne, 
+          quan<lb break="no" ed="#P" n="25"/>do videntur principale pro principali 
+          permu<lb break="no" ed="#P" n="26"/>tare, potius pro acccessorio permutent. Merito
+          <lb ed="#P" n="27"/>ergo lex ecclesiastica potuit huic malo 
+          provi<lb break="no" ed="#P" n="28"/>dere, et ita prohibere illam permutationem,
+          <lb ed="#P" n="29"/>ne spiritualia, quae ibi sunt principalia, pro
+          <lb ed="#P" n="30"/>temporalibus, quae sunt accessoria, darentur.
+          <lb ed="#P" n="31"/>Et ita in generali loquendo de simonia, de
+          <lb ed="#P" n="32"/>facto prohibita divino jure, vel humano, 
+          di<lb break="no" ed="#P" n="33"/>cendum est pretium, vel quasi pretium quod
+          <lb ed="#P" n="34"/>in illa intervenit, esse rem temporalem, vel
+          <lb ed="#P" n="35"/>nudam, vel conjunctam rei spirituali, si per
+          <lb ed="#P" n="36"/>Ecclesiam prohibita sit in talem 
+          commutatio<lb break="no" ed="#P" n="37"/>nem adduci.
+        </p>
+        <p>
+          <lb ed="#P" n="38"/>13. Solvitur confirmatio opposite sententim.
+          <lb ed="#P" n="39"/>—Et per haec satisfactum est principali 
+          moti<lb break="no" ed="#P" n="40"/>vo alterius sententiae. Confirmatio autem 
+          nul<lb break="no" ed="#P" n="41"/>lam habet difficultatem, quia ipsa lex, 
+          prohi<lb break="no" ed="#P" n="42"/>bens permutationes has privatim factas, 
+          con<lb break="no" ed="#P" n="43"/>cedit ut auctoritate Episcopi fieri possint, ut
+          <lb ed="#P" n="44"/>videbimus capite sequenti. Et ideo, dum ita fit
+          <lb ed="#P" n="45"/>permutatio, non dispensat Episcopus m lege
+          <lb ed="#P" n="46"/>pontificia prohibente permutationem, quia lex
+          <lb ed="#P" n="47"/>non prohibuit talem permu:ationem. Denique,
+          <lb ed="#P" n="48"/>ut disputatio haec non de solo modo loquendi,
+          <lb ed="#P" n="49"/>nec in sola speculatione sistere videatur, quod
+          <lb ed="#P" n="50"/>ad praxim attinet, non parum referre potest,
+          <lb ed="#P" n="51"/>ut infra agendo de paenis videbimus. Et ideo
+          <lb ed="#P" n="52"/>verius censeo, in foro saltem ecclesiastico, 
+          ta<lb break="no" ed="#P" n="53"/>lem permutationem cum pactione occulta 
+          tan<lb break="no" ed="#P" n="54"/>quam veram simoniam jure censeri. Ita enim
+          <lb ed="#P" n="55"/>loquuntur jura, et omnia pontificia rescripta,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et Doctores communiter, a quibus usus vocum
+          <lb ed="#P" n="57"/>in propria arte sumendus est. Et consequenter
+          <lb ed="#P" n="58"/>etiam in ordine ad forum poenitentiae lapsus
+          <lb ed="#P" n="59"/>hic tanquam simoniacus reputandus est. Nam
+          <lb ed="#P" n="60"/>si simonia circa beneficia esset reservata, sine
+          <lb ed="#P" n="61"/>dubio haec etiam comprehenderetur sub tali
+          <lb ed="#P" n="62"/>reservatione, et sic de aliis ad illud forum 
+          per<lb break="no" ed="#P" n="63"/>tinentibus. Ac denique in confessione hujus
+          <lb ed="#P" n="64"/>peccati, clarum est non posse aliter quam ut
+          <lb ed="#P" n="65"/>simoniam in confessione declarari, et ita credo
+          <lb ed="#P" n="66"/>esse in usu omnium.
+        </p>
+        <p>
+          <lb ed="#P" n="67"/>14. Simonia est contra jus positivum 
+          com<lb break="no" ed="#P" n="68"/>mutationes facere in provisionibus 
+          beneficio<lb break="no" ed="#P" n="69"/>nin. — Ex his colligitur esse simoniam, 
+          sal<lb break="no" ed="#P" n="70"/>tem contra jus positivum, commutationes 
+          fa<lb break="no" ed="#P" n="71"/>cere in actionibus pertinentibus ad provisiones
+          <lb ed="#P" n="72"/>beneficiorum, quae a potestate vel jure aliquo
+          <lb ed="#P" n="73"/>spirituali procedunt; ut verbi gratia, cum
+          <lb ed="#P" n="74"/>duo electores ita paciscuntur : Tu elige hunc,
+          <lb ed="#P" n="75"/>et ego eligam illum; vel elector cum 
+          confir<lb break="no" ed="#P" n="76"/>matore, vel etiam si electio vel confirmatio pro
+          <lb ed="#P" n="77"/>collatione alicujus beneficii, vel promissione
+          <lb ed="#P" n="78"/>illius fiat, juxta caput De hoc, de Simon. Imo
+          <lb ed="#P" n="79"/>etiam si patronus praesentationem offerat, si
+          <lb ed="#P" n="80"/>alter sibi renunciet beneficium. Ita sentiunt
+          <lb ed="#P" n="81"/>Doctores citati. Et colligitur aperte ex dictis
+          <lb ed="#P" n="82"/>juribus, et ex aliis, quae in universum 
+          prohi<lb break="no" ed="#P" n="83"/>bent pacta in his materiis, cap. Cum pridem,
+          <lb ed="#P" n="84"/>et cap. ult. de Pactis, cum similibus. Ratio
+          <lb ed="#P" n="85"/>vero est, quia, licet hic videatur spiritualis
+          <lb ed="#P" n="86"/>functio pro spirituali commutari, tamen 
+          mo<lb break="no" ed="#P" n="87"/>rahter loquendo, et cum praesumptione, ut sic
+          <lb ed="#P" n="88"/>dicam, non aestimatur ut quid spirituale, sed
+          <lb ed="#P" n="89"/>ut via et medium ad lucrum temporale, et ideo
+          <lb ed="#P" n="90"/>merito tales commutationes ab Eeclesia 
+          prohi<lb break="no" ed="#P" n="91"/>bitae sunt. Item jura prohibent similia pacta
+          <lb ed="#P" n="92"/>inter ea quae connexa sunt spiritualibus : sed
+          <lb ed="#P" n="93"/>haec omnia sunt beneficiis anpexa, nam ad
+          <lb ed="#P" n="94"/>illa ordinantur, et ab eis aestimationem 
+          ha<lb break="no" ed="#P" n="95"/>bent; est ergo haec commutatio prohibita, et
+          <lb ed="#P" n="96"/>consequenter est simonia quia prohibita, quia
+          <lb ed="#P" n="97"/>ex materia statim resultat haec malitia, quod
+          <lb ed="#P" n="98"/>eodem modo declarandum et probandum est,
+          <lb ed="#P" n="99"/>sicut de beneflciis diximus.
+        </p>
+        <p>
+          <lb ed="#P" n="100"/>15. Ita sentiendum de alis spiritualibus
+          <lb ed="#P" n="101"/>quag habent temporalia annema consequenter,
+          <lb ed="#P" n="102"/>licet beneficia non sint. — Secundo, infero
+          <lb ed="#P" n="103"/>doctrinam hanc extendi ad omnia spiritualia,
+          <lb ed="#P" n="104"/>quae habent temporalia annexa consequenter,
+          <lb ed="#P" n="105"/>etiamsi proprie et in rigore beneficia non
+          <lb ed="#P" n="106"/>sint, quia non sunt perpetua, ut, verbi gratia,
+          <lb ed="#P" n="107"/>si beneficium pro vicaria etiam amovibili ad
+          <lb ed="#P" n="108"/>nutum permutetur, vel quid simile. Probatur
+          <lb ed="#P" n="109"/>primo, quia est eadem ratio malitiae et 
+          prohi<lb break="no" ed="#P" n="110"/>bitionis, ut constat. Secundo, quia in dictg
+          <pb ed="#P" n="814"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cap. Quaesitum, dicitur esse prohibita pacta
+          <lb ed="#P" n="2"/>omnia, in his etiam quae spiritualibus annexa
+          <lb ed="#P" n="3"/>sunt, quod maxime intelligendum est, ut
+          <lb ed="#P" n="4"/>statim dicam, in his quae sunt annexa 
+          con<lb break="no" ed="#P" n="5"/>sequenter, quia habent eamdem rationem,
+          <lb ed="#P" n="6"/>idemque fundamentum simonia, si per 
+          res<lb break="no" ed="#P" n="7"/>pectum ad temporalia commutentur.
+        </p>
+        <p>
+          <lb ed="#P" n="8"/>16. Simonia est permutare beneficium pro
+          <lb ed="#P" n="9"/>jure quasi inchoato ad aliud beneficium. —
+          <lb ed="#P" n="10"/>Contrariam sententium qui teneant. — Tertio,
+          <lb ed="#P" n="11"/>infero etiam esse simoniam prohibitam, 
+          per<lb break="no" ed="#P" n="12"/>mutare beneficium pro jure quasi inchoato
+          <lb ed="#P" n="13"/>ad aliud beneficium, sive per praesentationem,
+          <lb ed="#P" n="14"/>sive per nominationem comparatum sit; ut
+          <lb ed="#P" n="15"/>si quis det uni beneficium, ut cedat 
+          praesen<lb break="no" ed="#P" n="16"/>tationi quam ad aliud beneficium habet, vel
+          <lb ed="#P" n="17"/>simile. Hoc etiam videtur clarum propter 
+          eas<lb break="no" ed="#P" n="18"/>dem rationes, quia tunc beneficium non 
+          con<lb break="no" ed="#P" n="19"/>fertur pure, nec sine pacto; tum etiam quia
+          <lb ed="#P" n="20"/>sicut praesentatio activa non potest pro 
+          bene<lb break="no" ed="#P" n="21"/>ficio permutari, quia est annexa beneficio, ita
+          <lb ed="#P" n="22"/>nec praesentatio passiva, quia etiam est suo
+          <lb ed="#P" n="23"/>modo connexa, et ab illo habet 
+          aestimatio<lb break="no" ed="#P" n="24"/>nem, quam habere potest. Atque ita sensit
+          <lb ed="#P" n="25"/>Franc., in cap. 1 de Rer. perm., in 6; 
+          ibi<lb break="no" ed="#P" n="26"/>dem Joann. Andr., Sylvest., verb. Permutatio,
+          <lb ed="#P" n="27"/>quaest. 13 ; Navar., in cons. 43, de Simon.,
+          <lb ed="#P" n="28"/>qui aliam rationem adducunt, de qua statim
+          <lb ed="#P" n="29"/>dicetur. Contrarium vero hujus illationis 
+          sen<lb break="no" ed="#P" n="30"/>tit Glos. in cap. Ad audientiam, 2, de Rescr.,
+          <lb ed="#P" n="31"/>et ibi Panor., num. 6. Loquunturque in eo
+          <lb ed="#P" n="32"/>casu, in quo aliquis renunciat Litteris 
+          aposto<lb break="no" ed="#P" n="33"/>licis de obtinendo beneficio, cum pacto 
+          susci<lb break="no" ed="#P" n="34"/>piendi beneficium. Et fundantur in hoc, quod
+          <lb ed="#P" n="35"/>per tales litteras nullum acquiritur spirituale
+          <lb ed="#P" n="36"/>jus. Sed illud esset verum, quando per illud
+          <lb ed="#P" n="37"/>pactum nihil aliud exprimeretur, quam quod
+          <lb ed="#P" n="38"/>ex vi litterarum fieri deberet. Alioquin si 
+          no<lb break="no" ed="#P" n="39"/>vum pactum fiat de re quae in ipsis litteris non
+          <lb ed="#P" n="40"/>inerat, quod diximus verius est et magis 
+          re<lb break="no" ed="#P" n="41"/>ceptum, ut ibi late refert Felin. Nec negari
+          <lb ed="#P" n="42"/>potest quin litterae illae aliquid conferant, sive
+          <lb ed="#P" n="43"/>vocetur jus ad rem, sive actio, sive 
+          commo<lb break="no" ed="#P" n="44"/>dum ; nam sine dubio est spirituale per 
+          an<lb break="no" ed="#P" n="45"/>nexionem, originem, et proximam 
+          habitudi<lb break="no" ed="#P" n="46"/>nem. Alias vendi posset pro temporali pretio,
+          <lb ed="#P" n="47"/>quod absurdum est dicere. Et huic parti 
+          ma<lb break="no" ed="#P" n="48"/>gis favet textus ille, si recte expendatur.
+        </p>
+        <p>
+          <lb ed="#P" n="49"/>17. Simonia etiam est permutare inter se
+          <lb ed="#P" n="50"/>similia jura. — Quarto, consequenter infertur
+          <lb ed="#P" n="51"/>esse simoniam ejusdem ordinuis, permutare 
+          in<lb break="no" ed="#P" n="52"/>ter se similia jura ad beneficia, ut si unus 
+          ce<lb break="no" ed="#P" n="53"/>dat suae praesentationi, ut alius sibi conferat
+          <lb ed="#P" n="54"/>aliam expectationem, quam a Pontifice habet,
+          <lb ed="#P" n="55"/>vel quidpiam simile. Hoc sumitur ex Panor-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mitano, ex cap. Cum enim, de Rerum 
+          per<lb break="no" ed="#P" n="57"/>mut., num. A, et docent Joan. Andr., Franc.
+          <lb ed="#P" n="58"/>et Freder. Senen., cap. 1 de Rerum 
+          permuta<lb break="no" ed="#P" n="59"/>tione; late Felinus, referens alios in cap. Ad
+          <lb ed="#P" n="60"/>audientiam, 2, de Rescript., num. 11; Sylvest.,
+          <lb ed="#P" n="61"/>verb. Permutatio, 2, quaest. 7, et quaest. 13,
+          <lb ed="#P" n="62"/>conclus. 9; et Navar. supra, qui alios allegant.
+          <lb ed="#P" n="63"/>Ratio eorum est, quia permutatio solum est
+          <lb ed="#P" n="64"/>concessa inter beneficia, et quae sunt propria
+          <lb ed="#P" n="65"/>permutantium, ut patet ex dicto cap. 1, de
+          <lb ed="#P" n="66"/>lHerum permutatione, in 6, ibi : Secundum
+          <lb ed="#P" n="67"/>furmam juris sua beneficia permutare volentes:
+          <lb ed="#P" n="68"/>nam illa particula sua, requirit jus acquisitum
+          <lb ed="#P" n="69"/>in beneficiis permutandis ; qui autem habet
+          <lb ed="#P" n="70"/>tantum praesentationem, vel exspectativam,
+          <lb ed="#P" n="71"/>non habet beneficium, ut constat, et sumitur
+          <lb ed="#P" n="72"/>ex cap. Si tibi absenti, de Praebend., in 6.
+          <lb ed="#P" n="73"/>Ergo inter illa jura quae tantum sunt ad rem,
+          <lb ed="#P" n="74"/>non habet locum permutatio. Probari solet
+          <lb ed="#P" n="75"/>haec illatio, quia permutatio illorum jurium
+          <lb ed="#P" n="76"/>non est permissa ; est ergo prohibita, in cap.
+          <lb ed="#P" n="77"/>Quam pio, 1, quaestione secunda. Sed ibi non
+          <lb ed="#P" n="78"/>est sermo de commutatione spiritualium inter
+          <lb ed="#P" n="79"/>se, sed spiritualis pro temporali. Jura autem
+          <lb ed="#P" n="80"/>de quibus agimus spiritualia sunt; non ergo
+          <lb ed="#P" n="81"/>comprehenduntur sub illo jure, nec sub aliis
+          <lb ed="#P" n="82"/>quae generatim loquuntur ; quia, ut statim 
+          di<lb break="no" ed="#P" n="83"/>cam, generales prohinitiones paciscendi in
+          <lb ed="#P" n="84"/>spiritualibus, intelliguntur, quando de 
+          com<lb break="no" ed="#P" n="85"/>mutando spirituali pro temporali agitur, nisi
+          <lb ed="#P" n="86"/>ubi est sermo specialis de beneficiis. Unde
+          <lb ed="#P" n="87"/>posset retorqueri argumentum, quia 
+          permu<lb break="no" ed="#P" n="88"/>tatio spiritualis pro spirituali, quae non est
+          <lb ed="#P" n="89"/>prohibita, non est simoniaca, sed potius licita,
+          <lb ed="#P" n="90"/>per se loquendo; sed permutatio horum jurium
+          <lb ed="#P" n="91"/>non est prohibita; ergo. Probatur minor 
+          ar<lb break="no" ed="#P" n="92"/>gumento aliorum, quia permutantes jura non
+          <lb ed="#P" n="93"/>permutant beneficia, quia habere jus non est
+          <lb ed="#P" n="94"/>habere beneficium, et ideo ex vi talis 
+          permu<lb break="no" ed="#P" n="95"/>tationis non permutantur beneficia. Quamvis
+          <lb ed="#P" n="96"/>autem ille qui habet jus ad beneficium, non
+          <lb ed="#P" n="97"/>sit dominus beneficii, nihilominus suo modo
+          <lb ed="#P" n="98"/>est dominus illius juris quod in se habet, 
+          qua<lb break="no" ed="#P" n="99"/>lecumque illud sit; cur ergo non poterit illud
+          <lb ed="#P" n="100"/>permutare ?
+        </p>
+        <p>
+          <lb ed="#P" n="101"/>18. Ratio ab alios adducta inefficam 
+          judica<lb break="no" ed="#P" n="102"/>Lwr. — Propter hoc fortasse addunt 
+          Panormi<lb break="no" ed="#P" n="103"/>tanus et caeteri aliam rationem, videlicet, quia
+          <lb ed="#P" n="104"/>haec jura sunt mere personalia, quae non 
+          pos<lb break="no" ed="#P" n="105"/>sunt in alium transferri. Quae ratio optima
+          <lb ed="#P" n="106"/>est ad probandum, haec jura non solum non
+          <lb ed="#P" n="107"/>possejure permutari, verum etiam nec facto,
+          <lb ed="#P" n="108"/>ita ut sit valida et rata permutatio, quod est
+          <lb ed="#P" n="109"/>manifestum in praesentationibus, expectativis
+          <lb ed="#P" n="110"/>et electionibus ; sunt enim haec personalia tan-
+          <pb ed="#P" n="815"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum ; conditio enim seu qualitas, vel 
+          indus<lb break="no" ed="#P" n="2"/>tria personae in eis electa est. Et ideo tales
+          <lb ed="#P" n="3"/>concessiones non excedunt casum expressum
+          <lb ed="#P" n="4"/>cap. Cui de uon sacerdotali , de Praebendis, in
+          <lb ed="#P" n="5"/>6. Atque ita haec ratio non solum probat 
+          ta<lb break="no" ed="#P" n="6"/>lem permutationem fieri non posse 
+          auctori<lb break="no" ed="#P" n="7"/>tate privata , sed neque etiam in manibus
+          <lb ed="#P" n="8"/>Episeopi, nam solum conceditur inter sua 
+          be<lb break="no" ed="#P" n="9"/>neftcia. Hoc autem modo explicata, ratio non
+          <lb ed="#P" n="10"/>probat hanc permutationem non posse fieri
+          <lb ed="#P" n="11"/>propter vitandam simoniam, sed quia 
+          simpii<lb break="no" ed="#P" n="12"/>citer hac jura non sunt permutabilia, quia
+          <lb ed="#P" n="13"/>sunt tantum personalia, ut notavit Guillel.
+          <lb ed="#P" n="14"/>Redoan., 3 p. de Simon., c. 12, in fine. 
+          Quo<lb break="no" ed="#P" n="15"/>circa si aliunde ponamus haec jura esse 
+          trans<lb break="no" ed="#P" n="16"/>feribilia in alium, ex illo capite non apparet
+          <lb ed="#P" n="17"/>simonia in tali cambio. Ut si praesentatus 
+          ob<lb break="no" ed="#P" n="18"/>tineat a patrono licentiam transferendi 
+          no<lb break="no" ed="#P" n="19"/>minationem in alium, et habens expectativam
+          <lb ed="#P" n="20"/>a Papa similem facultatem ab eo obtineret, et
+          <lb ed="#P" n="21"/>inter se postea commutarent , non posset hoc
+          <lb ed="#P" n="22"/>improbari dicta ratione, nec ex dicto c. unic.,
+          <lb ed="#P" n="23"/>ut ostensum est.
+        </p>
+        <p>
+          <lb ed="#P" n="24"/>19. Probatur assertio rationibus supra 
+          in<lb break="no" ed="#P" n="25"/>sinuatis. — Probandum ergo videtur 
+          rationi<lb break="no" ed="#P" n="26"/>bus supra insinuatis, quia in prohibitione 
+          per<lb break="no" ed="#P" n="27"/>mutandi beneficia et illis annexa, prohibitum
+          <lb ed="#P" n="28"/>est haec jura inter se commutare, quia et sunt
+          <lb ed="#P" n="29"/>beneficiis annexa, et ab illis habent suam 
+          aes<lb break="no" ed="#P" n="30"/>timationem , unde virtute ibi permutantur
+          <lb ed="#P" n="31"/>bencficia. Et confirmatur: nam licet hoc jus
+          <lb ed="#P" n="32"/>ad beneficium non possit in alium transferri,
+          <lb ed="#P" n="33"/>potest renunciari ad arbitrium habentis, et
+          <lb ed="#P" n="34"/>tamen si id fieret cum simili pacto, 
+          simonia<lb break="no" ed="#P" n="35"/>cum esset; ut si quis renunciet expectationi
+          <lb ed="#P" n="36"/>quam habet a Papa ad unum beneficium,
+          <lb ed="#P" n="37"/>dummodo ad aliud praesentetur, ut dictum
+          <lb ed="#P" n="38"/>est, et idem auctores docent ; ergo ratio hujus
+          <lb ed="#P" n="39"/>simoniae non pendet ex impotentia 
+          transfe<lb break="no" ed="#P" n="40"/>rendi tale jus in alium, sed ex prohibitione
+          <lb ed="#P" n="41"/>paciscendi in beneficialibus sumenda est. 
+          Un<lb break="no" ed="#P" n="42"/>de etiam concludo, hoc intelligendum esse de
+          <lb ed="#P" n="43"/>permutatione propria auctoritate facta : nam
+          <lb ed="#P" n="44"/>in manibus praelati fieri posset, ut opinor, si
+          <lb ed="#P" n="45"/>alias habent:bus talia jura data esset facultas
+          <lb ed="#P" n="46"/>transferendi in alios, ab eo qui potest eam 
+          da<lb break="no" ed="#P" n="47"/>re. Verumtamen licet Pontifex faciat 
+          faculta<lb break="no" ed="#P" n="48"/>tem transferendi in alium expectativam, nisi
+          <lb ed="#P" n="49"/>expresse concedat facultatem commutandi,
+          <lb ed="#P" n="50"/>non posset fieri permutatio propria 
+          auctorita<lb break="no" ed="#P" n="51"/>te, sed translatio facienda esset liberaliter, ut
+          <lb ed="#P" n="52"/>de pensionibus diximus; accedente autem
+          <lb ed="#P" n="53"/>praelati auctoritate, si commutatio fiat inter
+          <lb ed="#P" n="54"/>jura spiritualia, non videtur prohibitum, ut
+          <lb ed="#P" n="55"/>capite sequenti videbimus.
+        </p>
+        <p>
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>20. Commnutare spirituale pro spirituali 
+          ea<lb break="no" ed="#P" n="57"/>ira beneficiorum materiam non est jure 
+          prohibi<lb break="no" ed="#P" n="58"/>twn. — Dico tertio: Permutare spirituale pro
+          <lb ed="#P" n="59"/>spirituali extra beneficiorum materiam non est
+          <lb ed="#P" n="60"/>specialiter prohibitum jure positivo. Ita sentit
+          <lb ed="#P" n="61"/>Gloss., in cap. Quam pio, 1, quaestione 2, verb.
+          <lb ed="#P" n="62"/>Pactio, quatenus declarat per illa verba 
+          gene<lb break="no" ed="#P" n="63"/>ralia : Dummodo cesset omnis pactio, prohiberi
+          <lb ed="#P" n="64"/>inhonestas pactiones; non tamen honestas:
+          <lb ed="#P" n="65"/>per inhonestas autem videtur intelligere illas
+          <lb ed="#P" n="66"/>quae sunt inter spiritualem et temporalem
+          <lb ed="#P" n="67"/>rem ; per honestas vero, quae inter spiritualia
+          <lb ed="#P" n="68"/>versari possunt : et ita exponit ac sequitur ibi
+          <lb ed="#P" n="69"/>Praeposit., num. 2, refertque plures antiquos
+          <lb ed="#P" n="70"/>pro eadem sententia, et inter eos Innocentium
+          <lb ed="#P" n="71"/>et Panormitanum. Et idem sentit Turrec. Item
+          <lb ed="#P" n="72"/>alos., in cap. ult. de Paction., verb. Cessare,
+          <lb ed="#P" n="73"/>ubi Abbas, Cardin. et alii, et in cap.2, et cap.
+          <lb ed="#P" n="74"/>Super eo, de Transact., idemque supponunt
+          <lb ed="#P" n="75"/>omnes allegati in 1 conclus. Ratio vero est,
+          <lb ed="#P" n="76"/>quia nulla talis prohibitio in jure invenitur.
+          <lb ed="#P" n="77"/>Dices satis contineri in generalibus 
+          prohibitio<lb break="no" ed="#P" n="78"/>nibus quae habentur in dicto cap. Quam pio,
+          <lb ed="#P" n="79"/>et in dicto cap. Super eo, ct cap. Cum pridem,
+          <lb ed="#P" n="80"/>et cap. ultim. de Pact. Sed contra, quia haec
+          <lb ed="#P" n="81"/>jura generatim loquuntur de pactis in quibus
+          <lb ed="#P" n="82"/>temporale pro spirituali datur, ut patet in 
+          di<lb break="no" ed="#P" n="83"/>cto cap. Quam pio, et in dicto cap. ultim. de
+          <lb ed="#P" n="84"/>Pact., et aliis, quae ita loquuntur, ut improbent
+          <lb ed="#P" n="85"/>pacta in quibus aliquid datur pro spiritualibus
+          <lb ed="#P" n="86"/>obtinendis ; dum enim id quod datur ab 
+          spiri<lb break="no" ed="#P" n="87"/>tualibus distinguunt, satis significant loqui de
+          <lb ed="#P" n="88"/>temporali munere dato pro spirituali. Imo
+          <lb ed="#P" n="89"/>etiam multa jura in materia beneficiali de 
+          si<lb break="no" ed="#P" n="90"/>mili pactione loquuntur, ut in cap. Tua nos,
+          <lb ed="#P" n="91"/>de Simon., c. Super eo, de Transact , Et 
+          opti<lb break="no" ed="#P" n="92"/>me in cap. ult. de Rerum permut., cum Gloss.
+          <lb ed="#P" n="93"/>ibi, verb. Temporalia. Alia vero quae specialius
+          <lb ed="#P" n="94"/>loquuntur damnando pacta in spiritualibus,
+          <lb ed="#P" n="95"/>semper loquuntur in particulari de beneficiis,
+          <lb ed="#P" n="96"/>aut juribus quae illa concernunt, non vero de
+          <lb ed="#P" n="97"/>aliis rateriis spiritualibus.
+        </p>
+        <p>
+          <lb ed="#P" n="98"/>21. Explicatur assertio discurrendo per duo
+          <lb ed="#P" n="99"/>genera rerum spiritualium. — Unde 
+          explica<lb break="no" ed="#P" n="100"/>tur haec assertio: nam spiritualia haec de 
+          qui<lb break="no" ed="#P" n="101"/>bus in hae assertione loqui possumus, duplicia
+          <lb ed="#P" n="102"/>sunt. Quaedam pure spiritualia, sub quibus
+          <lb ed="#P" n="103"/>comprehendimus functiones omnes sacras,
+          <lb ed="#P" n="104"/>quibus si quid est materiale annexum, est
+          <lb ed="#P" n="105"/>concomitanter et ita intime, ut spirituale 
+          sim<lb break="no" ed="#P" n="106"/>pliciter, seu moraliter reputetur. Alia vero
+          <lb ed="#P" n="107"/>sunt spiritualia mista, quae habent aliquid 
+          cor<lb break="no" ed="#P" n="108"/>porale antecedenter annexum, ut vasa sacra,
+          <lb ed="#P" n="109"/>vestes, et similia. De prioribus inter se 
+          com<lb break="no" ed="#P" n="110"/>mutandis vel non commutandis nunquam fit
+          <pb ed="#P" n="816"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in jure mentio, sed solum cavetur ne pretio
+          <lb ed="#P" n="2"/>vendantur, cap. Ad nostram, cap. Non satis,
+          <lb ed="#P" n="3"/>cap. Cum in ecclesie, de Simonia, cum aliis
+          <lb ed="#P" n="4"/>supra allegatis. De posterioribus etiam nullum
+          <lb ed="#P" n="5"/>invenitur jus prohibens permutationem, unius
+          <lb ed="#P" n="6"/>pro alio ejusdem ordinis. Imo in cap. Ad
+          <lb ed="#P" n="7"/>queestiones, de Rerum permutatione, 
+          approba<lb break="no" ed="#P" n="8"/>tur permutatio unius ecclesiae pro alia pure
+          <lb ed="#P" n="9"/>facta : ubi Glossa reddit rationem, quia 
+          spiri<lb break="no" ed="#P" n="10"/>tuale pro spirituali commutatur. Verum est,
+          <lb ed="#P" n="11"/>Glossam illam postulare auctoritatem 
+          superio<lb break="no" ed="#P" n="12"/>ris, sed hoc ideo ibi verum est, vel quia simul
+          <lb ed="#P" n="13"/>fit permutatio beneficiorum, vel quia ecclesia
+          <lb ed="#P" n="14"/>parochialis non potest alicui conventuali de
+          <lb ed="#P" n="15"/>novo uniri sine preelati auctoritate. At vero si
+          <lb ed="#P" n="16"/>res spirituales sint omnino sub libera 
+          potesta<lb break="no" ed="#P" n="17"/>te et dispensatione commutantium, non erit
+          <lb ed="#P" n="18"/>talis auctoritas necessaria.
+        </p>
+        <p>
+          <lb ed="#P" n="19"/>22. Contra hanc vero assertionem referri
+          <lb ed="#P" n="20"/>solent Richardus, Adrianus, et Paludanus 
+          lo<lb break="no" ed="#P" n="21"/>cis supra citatis, et ex canonistis Gofred. quem
+          <lb ed="#P" n="22"/>Praeposit. refert in dicto cap. Quam pio. ltem
+          <lb ed="#P" n="23"/>Imol. et Anton. cap. ultimo de Pactis. 
+          Ve<lb break="no" ed="#P" n="24"/>rumtamen Paludanus, Richardus, et 
+          Adria<lb break="no" ed="#P" n="25"/>nus non loquuntur de simonia ex 
+          prohibitio<lb break="no" ed="#P" n="26"/>ne Ecclesiae, sed de jure divino, et ideo eorum
+          <lb ed="#P" n="27"/>sententia ad praesentem assertionem non 
+          spe<lb break="no" ed="#P" n="28"/>ctat, sed in superiori capite tractata est. Alu
+          <lb ed="#P" n="29"/>vero auctores videntur praecipue locuti in 
+          ma<lb break="no" ed="#P" n="30"/>teria beneficiali de qua nonnulla remanet
+          <lb ed="#P" n="31"/>quaestio, an interdum liceat pactum inter
+          <lb ed="#P" n="32"/>spiritualia saltem per modum transactionis,
+          <lb ed="#P" n="33"/>de qua quaestione infra dicemus: nunc enim
+          <lb ed="#P" n="34"/>solum de propria permutatione locut 
+          su<lb break="no" ed="#P" n="35"/>mus. Quod si illi auctores plus dicere 
+          volue<lb break="no" ed="#P" n="36"/>runt, ostendere non possunt talem 
+          prohibitio<lb break="no" ed="#P" n="37"/>nem tam universalem esse ab Ecclesia factam,
+          <lb ed="#P" n="38"/>nec fortasse moraliter expediret. Denique (ut
+          <lb ed="#P" n="39"/>supra argumentabar) usus ipse Ecclesiae satis
+          <lb ed="#P" n="40"/>docet non esse factam. Neque hic superest 
+          no<lb break="no" ed="#P" n="41"/>va difficultas.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

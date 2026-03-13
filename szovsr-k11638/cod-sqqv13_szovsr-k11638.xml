@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="467"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k11638"><!-- t3-l2c1 -->
+        <head>Caput 1</head>
+        <head type="question-title">Quomodo superstitio circa deum verum esse possit, et quid illa sit.</head>
+        <p>
+          <cb ed="#P" n="f"/>
+          <lb ed="#P" n="50"/>CAPUT I.
+          <lb ed="#P" n="51"/>QUOMODO SUPERSTITIO CIRCA DEUM VERUM ESSE
+          <lb ed="#P" n="52"/>POSSIT, ET QUID ILLA SIT.
+        </p>
+        <p>
+          <lb ed="#P" n="53"/>1. Nominis etymologia.— Primum omnium
+          <lb ed="#P" n="54"/>observandurm est, quod superstitio excessum
+          <lb ed="#P" n="55"/>quemdam importat, quia juxta communem
+          <lb ed="#P" n="56"/>usum nimium Dei cultum significat, ut con-
+          <pb ed="#P" n="468"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>stat ex usu, tam Latinorum quam 
+          Theologo<lb break="no" ed="#P" n="2"/>rum, cum D. Thoma 2. 2, q. 93. Unde Aulus
+          <lb ed="#P" n="3"/>Gellius, lib. 10 Noct. Atticar., dixit, 
+          supersti<lb break="no" ed="#P" n="4"/>tionem esse importunam et ineptam religionem;
+          <lb ed="#P" n="5"/>et idem fere habet Cicero, lib. 2 de Nat. deor.
+          <lb ed="#P" n="6"/>Circa etymologiam autem hujus vocis varie
+          <lb ed="#P" n="7"/>loquuntur auctores ; nam Cicero supra putat
+          <lb ed="#P" n="8"/>derivatum esse nomen illud a voce supersto,
+          <lb ed="#P" n="9"/>seu a nomine superstes; nam qni totos (
+          in<lb break="no" ed="#P" n="10"/>quit) dies immolabant, ut eorum liberi 
+          super<lb break="no" ed="#P" n="11"/>stites essent, superstitiosti sunt vocati. Isidorus
+          <lb ed="#P" n="12"/>vero, lib. 8 Etymol., cap. 3, ex eadem voce
+          <lb ed="#P" n="13"/>superstes aliam derivationem refert: Alii (
+          in<lb break="no" ed="#P" n="14"/>quit ) a senibus, quia multis annis super stites
+          <lb ed="#P" n="15"/>ger etatem delirant, et errant superstitione 
+          qua<lb break="no" ed="#P" n="16"/>dam, nescientes quaee vetera colant, aut quee 
+          ve<lb break="no" ed="#P" n="17"/>terum ignari adsciscant, superstitionem dictam
+          <lb ed="#P" n="18"/>putant. Deinde refert ex Lucretio, 
+          superstitio<lb break="no" ed="#P" n="19"/>nem dictam esse, a superstando, quasi 
+          super<lb break="no" ed="#P" n="20"/>stitio sit cultus superstantium rerum, seu 
+          re<lb break="no" ed="#P" n="21"/>rum quae supra nos sunt, id est, coelestium ac
+          <lb ed="#P" n="22"/>divinarum ; quam etymologiam ipse reprobat,
+          <lb ed="#P" n="23"/>quia cultus talium rerum non est superstitio,
+          <lb ed="#P" n="24"/>sed maxime legitimus. Unde ipse potius sentit
+          <lb ed="#P" n="25"/>superstitionem dictam esse a superstatuo, vel
+          <lb ed="#P" n="26"/>superinstituo. Nam superstitio est superflua
+          <lb ed="#P" n="27"/>observantia in cultu, super statuta seu instituta
+          <lb ed="#P" n="28"/>majorum. Quae descriptio ad significationem
+          <lb ed="#P" n="29"/>vocis declarandam apta est, ad vocis autem
+          <lb ed="#P" n="30"/>derivationem non videtur satis vocibus ipsis
+          <lb ed="#P" n="31"/>accommodata. Et ideo alii e contrario 
+          existi<lb break="no" ed="#P" n="32"/>mant etymologiam Lucretii cum vocibus 
+          qua<lb break="no" ed="#P" n="33"/>drare, licet ille in re explicanda erraverit. Fuit
+          <lb ed="#P" n="34"/>enim Epicureus, qui omnem Dei religionem
+          <lb ed="#P" n="35"/>contempsit, quia non putavit Deum habere
+          <lb ed="#P" n="36"/>providentiam humanarum rerum, et ideo 
+          om<lb break="no" ed="#P" n="37"/>nem Dei cultum superstitiosum esse credidit,
+          <lb ed="#P" n="38"/>quia procedit ex timore Dei super nos stantis,
+          <lb ed="#P" n="39"/>quem timorem in universum vanum esse 
+          pu<lb break="no" ed="#P" n="40"/>tavit; in quo turpiter erravit. Potest autem
+          <lb ed="#P" n="41"/>hic timor esse nimius et irrationabilis, et inde
+          <lb ed="#P" n="42"/>potuit nimius Dei cultus superstitio vocari,
+          <lb ed="#P" n="43"/>quasi procedat ex nimio timore Dei super nos
+          <lb ed="#P" n="44"/>stantis. Parum tamen ad nos refert unde vox
+          <lb ed="#P" n="45"/>derivata sit, dummodo constet quid significet.
+        </p>
+        <p>
+          <lb ed="#P" n="46"/>2. Dupliciter fit cultus superstitiosus, vel
+          <lb ed="#P" n="47"/>ex parte rei culle, vel ea parte modi quo 
+          coli<lb break="no" ed="#P" n="48"/>tur. — Multiplea superstitionis divisio. — Est
+          <lb ed="#P" n="49"/>autem advertendum secundo, ad legitimum
+          <lb ed="#P" n="50"/>cultum religiosum duo requiri: unum est, ut
+          <lb ed="#P" n="51"/>cultus sit legitimus ex parte rei cultae; aliud
+          <lb ed="#P" n="52"/>est, ut in modo etiam colendi prudens et 
+          mo<lb break="no" ed="#P" n="53"/>deratus sit. Unde e contrario, quia malum
+          <lb ed="#P" n="54"/>contingit ex quocumque defectu, dupliciter
+          <lb ed="#P" n="55"/>potest cultus esse superstitiosus, scilicet, vel
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ex parte rei cultae, si non sit cultus veri Dei,
+          <lb ed="#P" n="57"/>sed falsi, vel ex parte modi observandi etiam
+          <lb ed="#P" n="58"/>in adoratione veri Dei. Posset etiam quis 
+          ad<lb break="no" ed="#P" n="59"/>dere tertium membhrum, scilicet, cultum 
+          de<lb break="no" ed="#P" n="60"/>ficientem in utroque; nam Cicero supra etiam
+          <lb ed="#P" n="61"/>in cultu falsi Dei significat posse esse 
+          super<lb break="no" ed="#P" n="62"/>stitionem in modo; sed nobis non est hoc 
+          ter<lb break="no" ed="#P" n="63"/>tium membrum necessarium. Gentilis enim,
+          <lb ed="#P" n="64"/>qui putabat cultum exhibitum suo idolo juxta
+          <lb ed="#P" n="65"/>suas leges et mores, esse legitimum, 
+          voca<lb break="no" ed="#P" n="66"/>vit superstitionem cultum ejusdem idoli 
+          ul<lb break="no" ed="#P" n="67"/>tra instituta suorum majorum ; nos tamen 
+          to<lb break="no" ed="#P" n="68"/>tum cultum talis Dei, qualiscumque cultus
+          <lb ed="#P" n="69"/>sit, ut superstitiooum omnino abjicimus, et
+          <lb ed="#P" n="70"/>ideo in tali cultu non curamus de modo ejus,
+          <lb ed="#P" n="71"/>ut superstitiosum appellemus. Sic ergo apud
+          <lb ed="#P" n="72"/>Theologos, et alios Doctores duplex 
+          distin<lb break="no" ed="#P" n="73"/>guitur superstitio: una est in cultu veri Dei,
+          <lb ed="#P" n="74"/>alia in cultu falsi Dei et haec posterior 
+          ge<lb break="no" ed="#P" n="75"/>neraliter vocari potest falsus cultus, seu 
+          su<lb break="no" ed="#P" n="76"/>perstitio idololatria ; prior vero vocatur 
+          in<lb break="no" ed="#P" n="77"/>debitus vel nimius cultus veri Dei. Ita docet
+          <lb ed="#P" n="78"/>D. Thomas, communiter receptus, in 2.2,
+          <lb ed="#P" n="79"/>quaest. 92, art. 2, ubi superstitionem ex
+          <lb ed="#P" n="80"/>parte rei cultae, quam nos generatim 
+          idolo<lb break="no" ed="#P" n="81"/>latriam vocavimus, in fres distinguit species,
+          <lb ed="#P" n="82"/>scilicet, in idololatriam expressam, seu stricte
+          <lb ed="#P" n="83"/>sumptam, et divinationem, et vanam 
+          obser<lb break="no" ed="#P" n="84"/>vantiam, quae idololatriae tacitae dici possunt,
+          <lb ed="#P" n="85"/>de quibus postea dicemus. Alteram vero 
+          su<lb break="no" ed="#P" n="86"/>perstitionem in cultu veri Dei in duo membra
+          <lb ed="#P" n="87"/>distinguit, scilicet, in superstitionem 
+          pernicio<lb break="no" ed="#P" n="88"/>sam, et superfluam, de quibus in praesenti 
+          trac<lb break="no" ed="#P" n="89"/>tabimus.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>3. Error haereticorum, qui nihil distinguunt
+          <lb ed="#P" n="91"/>inter idololatriam et superstitionem. — 
+          Ante<lb break="no" ed="#P" n="92"/>quam vero ulterius progrediamur, oportet,
+          <lb ed="#P" n="93"/>circa divisionem datam, lectorem admonere
+          <lb ed="#P" n="94"/>cujusdam erroris novorum haereticorum, qui
+          <lb ed="#P" n="95"/>nihil distinguunt inter idololatriam et 
+          supersii<lb break="no" ed="#P" n="96"/>tiosum cultum veri Dei, sed omnem 
+          supersti<lb break="no" ed="#P" n="97"/>tiosum cultum, etiamsi circa Deum verum
+          <lb ed="#P" n="98"/>versetur, idololatriam vocant. Quod solum 
+          fa<lb break="no" ed="#P" n="99"/>ciunt, ut Catholicos calumnientur, eosque
+          <lb ed="#P" n="100"/>idololatriae falso coarguant. Ad quod 
+          conclu<lb break="no" ed="#P" n="101"/>dendum, alium adjungunt errorem, fingentes
+          <lb ed="#P" n="102"/>superstitionem ubi non est, ut paulo post 
+          vi<lb break="no" ed="#P" n="103"/>debimus ; non tamen suo furori satisfaciunt,
+          <lb ed="#P" n="104"/>Catholicam Ecclesiam ut superstitiosam 
+          repre<lb break="no" ed="#P" n="105"/>hendentes, nisi etiam idololatram illam 
+          fa<lb break="no" ed="#P" n="106"/>ciant; et ideo superstitionem etiam illam,
+          <lb ed="#P" n="107"/>quae est circa verum Deum, idololatriam 
+          vo<lb break="no" ed="#P" n="108"/>cant. Hunc errorem copiose et docte refutavit
+          <lb ed="#P" n="109"/>Gregorius de Valent., in suo 3 tom., disp. 6,
+          <lb ed="#P" n="110"/>quaest. 11, punct. 1; et postea Leonardus Les-
+          <pb ed="#P" n="469"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sius, lib. 2 de Just., capit. 43, dub. 4; et ideo
+          <lb ed="#P" n="2"/>nobis necesse non est in hoc errore 
+          confu<lb break="no" ed="#P" n="3"/>tando immorari. Nam si vocem ipsam 
+          atten<lb break="no" ed="#P" n="4"/>damus, nihil aliud est idololatria, quam idoli
+          <lb ed="#P" n="5"/>latria, seu suprema adoratio: Deus autem 
+          ve<lb break="no" ed="#P" n="6"/>rus idolum non est; ergo contra vocem ipsam
+          <lb ed="#P" n="7"/>est, aliquem cultum veri Dei idololatriam 
+          vo<lb break="no" ed="#P" n="8"/>-are, quod etiam confirmat et convincit 
+          fre<lb break="no" ed="#P" n="9"/>quentissimus Scriptura sacra et Sanctorum
+          <lb ed="#P" n="10"/>Patrum usus, ut dicti auctores late 
+          prose<lb break="no" ed="#P" n="11"/>quuntur. Si autem rem ipsam spectemus, 
+          evi<lb break="no" ed="#P" n="12"/>dentissimum est deformitatem et malitiam
+          <lb ed="#P" n="13"/>longe diversae rationis esse in adoratione 
+          fal<lb break="no" ed="#P" n="14"/>sorum deorum, quam sit in adoratione veri
+          <lb ed="#P" n="15"/>Dei, quantumvis superstitiosa, ut ex terminis
+          <lb ed="#P" n="16"/>ipsis videtur per se notum, et ex rebus 
+          huma<lb break="no" ed="#P" n="17"/>nis declarari potest ; nam longe majorem 
+          in<lb break="no" ed="#P" n="18"/>juriam facit regi, qui alium regem in eodem
+          <lb ed="#P" n="19"/>regno praeter legitimum recognoscit, quam
+          <lb ed="#P" n="20"/>qui ipsummet verum regem indebito modo
+          <lb ed="#P" n="21"/>reveretur. Unde nemo est, qui Judaeos nunc
+          <lb ed="#P" n="22"/>idololatras vocet, quia Deum verum colunt,
+          <lb ed="#P" n="23"/>etiamsi male colant; et idem esse potest de
+          <lb ed="#P" n="24"/>Paganis cognoscentibus unum verum Deum,
+          <lb ed="#P" n="25"/>ut mox dicemus, et a fortiori idem crit de
+          <lb ed="#P" n="26"/>Christianis, etiam male colentibus Deum. 
+          Be<lb break="no" ed="#P" n="27"/>ne ergo generalis illa partitio data est 
+          secun<lb break="no" ed="#P" n="28"/>dum illa duo genera malitiarum per excessum
+          <lb ed="#P" n="29"/>in cultu. Bene etiam nomina singulis 
+          mem<lb break="no" ed="#P" n="30"/>bris adaptata sunt, quae immutare non licet,
+          <lb ed="#P" n="31"/>praesertim coutra usum Scripturae et 
+          Sancto<lb break="no" ed="#P" n="32"/>rum ; nam ex verbis inordinate prolatis 
+          hae<lb break="no" ed="#P" n="33"/>resis incurritur. Quam vero stulte isti haeretici
+          <lb ed="#P" n="34"/>calumnientur Ecclesiam de idololatria, eo quod
+          <lb ed="#P" n="35"/>sanctos cum Christo regnantes colat, in 1
+          <lb ed="#P" n="36"/>tom. tertiae p. ostensum est.
+        </p>
+        <p>
+          <lb ed="#P" n="37"/>4. Utrum in cultu veri Dei possit esse 
+          su<lb break="no" ed="#P" n="38"/>perstitio. —Sed adhuc superest nobis 
+          dispu<lb break="no" ed="#P" n="39"/>tatio quasi per contrarium extremum cum
+          <lb ed="#P" n="40"/>Lactantio, lib. 4 Instit., cap. 28, ubi 
+          reprehen<lb break="no" ed="#P" n="41"/>dit Ciceronem, eo quod dixerit superstitionem
+          <lb ed="#P" n="42"/>esse posse in vera religione ; nam vera 
+          reli<lb break="no" ed="#P" n="43"/>gio tantum est in cultu veri Dei, quem ipse
+          <lb ed="#P" n="44"/>Lactantius non putat posse esse 
+          superstitio<lb break="no" ed="#P" n="45"/>sum : Nam superstitio (inquit) solum est in
+          <lb ed="#P" n="46"/>cultu novorum et falsorun Deorumn, qui 
+          su<lb break="no" ed="#P" n="47"/>perstitio appellatus est, eo quod homines, 
+          re<lb break="no" ed="#P" n="48"/>licto antiquo et vero Deo, superstitem suorum
+          <lb ed="#P" n="49"/>Deorum memoriam colere ceeperint ; 
+          suaderi<lb break="no" ed="#P" n="50"/>que potest haec sententia, quia in cultu veri
+          <lb ed="#P" n="51"/>Dei non potest esse excessus. Probatur, quia
+          <lb ed="#P" n="52"/>in veri Dei amore excessus esse non potest;
+          <lb ed="#P" n="53"/>ergo nec in cultu et religione. Patet 
+          conse<lb break="no" ed="#P" n="54"/>quentia, quia sicut Deus super omnia 
+          aman<lb break="no" ed="#P" n="55"/>dus est, ita etiam colendus; ergo sicut amor
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Dei non potest esse nimius, ita neque cultus.
+          <lb ed="#P" n="57"/>Item vel hic excessus accidere potest in cultu
+          <lb ed="#P" n="58"/>interno vel in externo : non quidem in 
+          inter<lb break="no" ed="#P" n="59"/>no, quia interna de Deo aestimatio, si sit vera,
+          <lb ed="#P" n="60"/>non potest esse nimia, sed quanto major 
+          aes<lb break="no" ed="#P" n="61"/>timatur, tanto verius cogitatur; si autem non
+          <lb ed="#P" n="62"/>sit vera aestimatio, jam cultus, qui ex illa 
+          nas<lb break="no" ed="#P" n="63"/>citur, non pertinebit ad cultum Dei. Nec etiam
+          <lb ed="#P" n="64"/>externus potest esse nimius, sed oportet ut sit
+          <lb ed="#P" n="65"/>verus et commensuratus : nam ex vero et 
+          mo<lb break="no" ed="#P" n="66"/>derato actu interno non potest oriri excessus
+          <lb ed="#P" n="67"/>in exteriori actu; si autem externus cultus
+          <lb ed="#P" n="68"/>non nascatur ex vero ac legitimo cultu 
+          in<lb break="no" ed="#P" n="69"/>terno, jam non erit veri Dei cultus.
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>5. Posse dari, resolvitur. — Ohjectio. —
+          <lb ed="#P" n="71"/>Solvitur. — Sed dubitari non potest quin in
+          <lb ed="#P" n="72"/>colendo vero Deo possit superstitio committi,
+          <lb ed="#P" n="73"/>id est, peccatum per excessum in molo 
+          co<lb break="no" ed="#P" n="74"/>lendi verum Deum ; ita enim docent Theologi
+          <lb ed="#P" n="75"/>omnes cum D. Thoma, dicta quaestione 93,
+          <lb ed="#P" n="76"/>art. 2. Declaratur autem imprimis ratione
+          <lb ed="#P" n="77"/>hoc vitium esse possibile, et quomodo 
+          intelli<lb break="no" ed="#P" n="78"/>gendum sit; deinde exemplis et testimoniis
+          <lb ed="#P" n="79"/>confirmabimus tale esse. Primum autem facile
+          <lb ed="#P" n="80"/>intelligetur, distinguendo illa duo, quae supra
+          <lb ed="#P" n="81"/>in cultu et adoratione distinximus. Unum est
+          <lb ed="#P" n="82"/>vera existimatio de excellentia personae, quam
+          <lb ed="#P" n="83"/>colere intendimus ; aliud est signum illud,
+          <lb ed="#P" n="84"/>quo utimur ad recognoscendam illius 
+          excel<lb break="no" ed="#P" n="85"/>lentiam, nosque illi submittendum, in cujus
+          <lb ed="#P" n="86"/>signi exhibitione cultus ipse et adoratio 
+          con<lb break="no" ed="#P" n="87"/>sistit. In cultu ergo veri Dei, etiamsi 
+          super<lb break="no" ed="#P" n="88"/>stitiosus sit, non potest omnino deesse 
+          pri<lb break="no" ed="#P" n="89"/>mum ex his quae posuimus, et hoc probat 
+          ra<lb break="no" ed="#P" n="90"/>tio dubitandi proposita, quia si existimatio
+          <lb ed="#P" n="91"/>veri Dei omnino deesset , jam non esset 
+          cul<lb break="no" ed="#P" n="92"/>tus veri Dei; id enim adoramus, quod nobis
+          <lb ed="#P" n="93"/>in mente et intentione adorandum 
+          proponi<lb break="no" ed="#P" n="94"/>mus ; per falsam autem existimationem Dei
+          <lb ed="#P" n="95"/>nemo sibi proponit verum Beum adorandum,
+          <lb ed="#P" n="96"/>sed falsum, et a se fictum ; ergo adoratio, quae
+          <lb ed="#P" n="97"/>inde oritur, non est adoratio veri Dei; ergo
+          <lb ed="#P" n="98"/>nec est superstitio, de qua nunc agimus. Dices:
+          <lb ed="#P" n="99"/>Judaeus, vel Saracenus falsam de Deo habet
+          <lb ed="#P" n="100"/>existimationem , quando illum apprehendit,
+          <lb ed="#P" n="101"/>et judicat esse unum, et non trinum, et 
+          ni<lb break="no" ed="#P" n="102"/>hilominus verum Deum colit. Respondeo in
+          <lb ed="#P" n="103"/>aliquo quidem decipi, quatenus Trinitatem
+          <lb ed="#P" n="104"/>personarum in Deo negat ; in aliquo vero non
+          <lb ed="#P" n="105"/>errat, sed verum Deum secundum essentiam
+          <lb ed="#P" n="106"/>cognoscit; ipse autem non adorat Deum 
+          quan<lb break="no" ed="#P" n="107"/>tum ad id quod de illo negat, sed quantum ad
+          <lb ed="#P" n="108"/>id quod affirmat, seu de illo cognoscit, et ita
+          <lb ed="#P" n="109"/>veram de Deo existimationem habet , 
+          verum<lb break="no" ed="#P" n="110"/>que Deum colit ; quamvis (ut ita dicam) in eo
+          <pb ed="#P" n="470"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non colat quidquid revera colendum est. 
+          At<lb break="no" ed="#P" n="2"/>que ita cum dicimus ad cultum veri Dei, sive
+          <lb ed="#P" n="3"/>legitiinum, sive superstitiosum, necessariam
+          <lb ed="#P" n="4"/>esse veram de Deo existimationem, non est
+          <lb ed="#P" n="5"/>sensus oportere ita esse veram, ut nullam 
+          ha<lb break="no" ed="#P" n="6"/>beat admixtam falsitatem, alioquiu nulli 
+          infi<lb break="no" ed="#P" n="7"/>deles vel haeretici adorarent verum Deum,
+          <lb ed="#P" n="8"/>quod falsum est, dicente Paulo de Gentibus:
+          <lb ed="#P" n="9"/>Cum cognovissent Deum , non sicut Dewn
+          <lb ed="#P" n="10"/>glorificaverunt, al Roman. 2; et de Judaeis,
+          <lb ed="#P" n="11"/>cap. 10 : Testimonium prehibeo illis , quod
+          <lb ed="#P" n="12"/>emaulationem Dei habent, sed non secundum
+          <lb ed="#P" n="13"/>scientiam. Sensus ergo est, necessariam esse
+          <lb ed="#P" n="14"/>de vero Deo existimationem, saltem quoad
+          <lb ed="#P" n="15"/>substantiam , et essentiam , ac existentiam
+          <lb ed="#P" n="16"/>ejus confuse conceptam, etiamsi alia de illo
+          <lb ed="#P" n="17"/>ignorentur vel falso existimentur.
+        </p>
+        <p>
+          <lb ed="#P" n="18"/>6. In signo quo Deus colitur, potest dari
+          <lb ed="#P" n="19"/>error. — At vero, licet haec existimatio veri
+          <lb ed="#P" n="20"/>Dei supponatur, in materia cultus, sive in illo
+          <lb ed="#P" n="21"/>signo quo utimur ad Deuin adorandum, 
+          po<lb break="no" ed="#P" n="22"/>test esse error et superstitio, quia haec duo
+          <lb ed="#P" n="23"/>valde diversa sunt, scilicet, Deum esse dignum
+          <lb ed="#P" n="24"/>honore propter talem excellentiam quam 
+          ha<lb break="no" ed="#P" n="25"/>bet, et hanc rem, vel illam esse aptam ad 
+          ex<lb break="no" ed="#P" n="26"/>hibendum Deo debitum honorem ; ergo licet
+          <lb ed="#P" n="27"/>in primo non erretur, potest in secundo error
+          <lb ed="#P" n="28"/>contingere. Quando ergo aliquis intendens
+          <lb ed="#P" n="29"/>colere verum Deum, illis rebus utitur, ad illi
+          <lb ed="#P" n="30"/>exhibendum honorem, quae ad illud officium
+          <lb ed="#P" n="31"/>aptae non sunt , neque illis vere Deus 
+          honora<lb break="no" ed="#P" n="32"/>tur, tunc superstitio committitur, et cultus ille
+          <lb ed="#P" n="33"/>superstitiosus dicitur. Unde fit ut hoc genus
+          <lb ed="#P" n="34"/>culpae maxime contingat in exteriori 
+          adora<lb break="no" ed="#P" n="35"/>tione, quamvis non in sola. Primum significat
+          <lb ed="#P" n="36"/>divus Thomas, quaest. 93, art. 2, ad2, quia 
+          si<lb break="no" ed="#P" n="37"/>gnum, quo in tali adoratione utimur, non est
+          <lb ed="#P" n="38"/>natura sua impositum ad significandam vel
+          <lb ed="#P" n="39"/>Dei excellentiam , vel nostram submissionem
+          <lb ed="#P" n="40"/>ad illam ; et ideo facile potest in tali 
+          adora<lb break="no" ed="#P" n="41"/>tione contingere error circa usum signi, vel
+          <lb ed="#P" n="42"/>materiae quae ad Deum colendum assumitur,
+          <lb ed="#P" n="43"/>quod in humana adoratione facile perspicitur;
+          <lb ed="#P" n="44"/>contingit enim rusticum hominem ineptis
+          <lb ed="#P" n="45"/>verbis aut gestibus uti ad regem adorandum,
+          <lb ed="#P" n="46"/>qui non errat in persona regis quam adorat,
+          <lb ed="#P" n="47"/>sed in modo et actibus quibus illum adorat.
+          <lb ed="#P" n="48"/>Unde mirum est, quomodo Lactantius, 
+          alio<lb break="no" ed="#P" n="49"/>quin eruditus, dixerit : Omnino quid colas
+          <lb ed="#P" n="50"/>interest , non quemadnodum colas. Est enim
+          <lb ed="#P" n="51"/>hic manifestus error moralis et practicus, et
+          <lb ed="#P" n="52"/>valde generalis : nam honestas actionum 
+          mul<lb break="no" ed="#P" n="53"/>tum pendet ex modo; et ex defectu modi
+          <lb ed="#P" n="54"/>saepe tota bonitas actus destruitur, quia 
+          boni<lb break="no" ed="#P" n="55"/>tas integram causam requirit, ut in moralibus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>notum est; ergo non tantum interest quid
+          <lb ed="#P" n="57"/>colas, sed multum est quomodo colas. In
+          <lb ed="#P" n="58"/>defectu ergo hujusmodi, superstitio haec, de
+          <lb ed="#P" n="59"/>qua tractamus, consistit. Unde etiam constat
+          <lb ed="#P" n="60"/>altera pars, scilicet, posse hanc superstitionem
+          <lb ed="#P" n="61"/>intervenire in interiori cultu ; nam zelus seu
+          <lb ed="#P" n="62"/>semulatio pro Deo, actus interior est, et potest
+          <lb ed="#P" n="63"/>quis illum concipere ex intentione colendi
+          <lb ed="#P" n="64"/>Deum, et tamen si zelus indiscretus sit, ut
+          <lb ed="#P" n="65"/>esse potest (teste Paulo, citato loco ad Rom.
+          <lb ed="#P" n="66"/>10), erit superstitio, non religio. Et idex in
+          <lb ed="#P" n="67"/>timore et similibus actibus internis, aptis ex
+          <lb ed="#P" n="68"/>suo genere colendum Deum, contingere 
+          po<lb break="no" ed="#P" n="69"/>test, si in particulari imprudenter 
+          exercean<lb break="no" ed="#P" n="70"/>tur, quia talibus actibus revera non honoratur
+          <lb ed="#P" n="71"/>Deus , neque sunt apti ut ad illum finem 
+          or<lb break="no" ed="#P" n="72"/>dinentur.
+        </p>
+        <p>
+          <lb ed="#P" n="73"/>7. Inductione declaratur in Judais et 
+          Gen<lb break="no" ed="#P" n="74"/>Ltibus. — Jam vero ex usu ipso et quasi 
+          induc<lb break="no" ed="#P" n="75"/>tiore hoc genus vitii declaratur ; habet enim
+          <lb ed="#P" n="76"/>locum tam in infidelibus, qui verum 
+          Deumali<lb break="no" ed="#P" n="77"/>quo modo agnoscunt, quam in Catholieis, qui
+          <lb ed="#P" n="78"/>perfecte et absque errore illum cognoscunt.
+          <lb ed="#P" n="79"/>Nam imprimis Judaei nunc circumcidentes 
+          fi<lb break="no" ed="#P" n="80"/>lios suos, sabbatha servantes, superstitiosi
+          <lb ed="#P" n="81"/>sunt, quia verum quidem Deum colere illis
+          <lb ed="#P" n="82"/>caeremoniis iutendunt, sed tamen illis jam
+          <lb ed="#P" n="83"/>Deum non honorant, sed potius offendunt.
+          <lb ed="#P" n="84"/>Sic dixit Ambrosius, in Psalm. 118, Enarrat.
+          <lb ed="#P" n="85"/>in Octon. 5, circa illa verba: Statue servo tuo
+          <lb ed="#P" n="86"/>eloquium tuum n timore tuo: Judai habent
+          <lb ed="#P" n="87"/>zelum Dei, sed quia non habent secundum
+          <lb ed="#P" n="88"/>scientiam, in ipso zelo et timore majorem 
+          con<lb break="no" ed="#P" n="89"/>trahunt Divinitatis offensam. Et postea de
+          <lb ed="#P" n="90"/>circumcisione et sabbathis adhibet exempla.
+          <lb ed="#P" n="91"/>Gentilis etiam, si quis nunc esset verum Deum
+          <lb ed="#P" n="92"/>agnoscens, et christianam fidem non 
+          accep<lb break="no" ed="#P" n="93"/>tans, si offerat Deo sacrificium vituli, 
+          su<lb break="no" ed="#P" n="94"/>perstitiosum est; quia licet Deum verum 
+          co<lb break="no" ed="#P" n="95"/>lere intendat, illi offert quod revera 
+          sacrifi<lb break="no" ed="#P" n="96"/>cium non est, nec verus Dei cultus. Nam 
+          li<lb break="no" ed="#P" n="97"/>cet olim illud esse potuerit sacrificium, nunc
+          <lb ed="#P" n="98"/>revera non est; nam ut recte dixit 
+          Augusti<lb break="no" ed="#P" n="99"/>nus, epist. 49, quaest. 3: Cum hec ealü
+          ben<lb break="no" ed="#P" n="100"/>tur Deo secundum veram inspirationem, atque
+          <lb ed="#P" n="101"/>doctrinam, vera religio est; illud autem 
+          sa<lb break="no" ed="#P" n="102"/>crificium non offertur secundum Dei veram
+          <lb ed="#P" n="103"/>iuspirationem atque doctrinam; ergo non est
+          <lb ed="#P" n="104"/>actus verae religionis; est ergo superstitio.
+          <lb ed="#P" n="105"/>Nec refert quod illud sacrificium videatur legi
+          <lb ed="#P" n="106"/>naturali conforme ; est enim conforme 
+          nega<lb break="no" ed="#P" n="107"/>tive, id est, non habens ex sola lege naturae
+          <lb ed="#P" n="108"/>indecentiam : tamen, postquam a Deo 
+          repro<lb break="no" ed="#P" n="109"/>batum est, et in melius commutatum, jam
+          <lb ed="#P" n="110"/>rationem cultus non habet, sed superstitio
+          <pb ed="#P" n="471"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est. Quod si fortasse contingat philosophum
+          <lb ed="#P" n="2"/>gentilem, sic offerentem, habere ignorantiam
+          <lb ed="#P" n="3"/>invincibilem fidei, et ductu naturae duci, ille
+          <lb ed="#P" n="4"/>quidem excusaretur a culpa propter 
+          ignoran<lb break="no" ed="#P" n="5"/>tiam, tamen actio ipsa in se superstitiosa 
+          es<lb break="no" ed="#P" n="6"/>set, quia revera non est sacrificium, nam ex
+          <lb ed="#P" n="7"/>vi divinae institutionis, unius incruenti 
+          sacri<lb break="no" ed="#P" n="8"/>ficii oblatione omne aliud sacrificium irritum
+          <lb ed="#P" n="9"/>factum est et nullum, etiamsi per 
+          ignoran<lb break="no" ed="#P" n="10"/>tiam excusaretur, qui illud intentat. Adde,
+          <lb ed="#P" n="11"/>multis aliis modis posse contingere 
+          supersti<lb break="no" ed="#P" n="12"/>tionem in hujusmodi gentili, si Deum verum
+          <lb ed="#P" n="13"/>variis observationibus colere intendat, ut alii
+          <lb ed="#P" n="14"/>circa falsos Deos faciebant.
+        </p>
+        <p>
+          <lb ed="#P" n="15"/>8. Ostenditur posse veperiri in heretico et
+          <lb ed="#P" n="16"/>catholico. —Praeterea haeretici multis modis
+          <lb ed="#P" n="17"/>superstitiosi esse solent, vel in sacrificio 
+          Eu<lb break="no" ed="#P" n="18"/>charistie aliquid admiscendo, quod Christus
+          <lb ed="#P" n="19"/>non obtulit, vel in Baptismo, aut aliorum 
+          sa<lb break="no" ed="#P" n="20"/>cramentorum usu. Multi etiam in ritibus
+          <lb ed="#P" n="21"/>orandi, jejunandi, aut aliis operibus quibus
+          <lb ed="#P" n="22"/>Deum colere solemus, infinitas superstitiones
+          <lb ed="#P" n="23"/>miscuerunt, qui tamen omnes verum Deum
+          <lb ed="#P" n="24"/>colebant. Denique etiam Catholicus potest 
+          in<lb break="no" ed="#P" n="25"/>terdum in hoc vitium labi; sic enim 
+          Coelesti<lb break="no" ed="#P" n="26"/>nus Papa, ep. 2 ad Episcop. Gallia, cap. 1,
+          <lb ed="#P" n="27"/>quosdam sacerdotes reprehendit, qui 
+          ambula<lb break="no" ed="#P" n="28"/>bant amicti pallio, et lumbos preecincti, ut 
+          vi<lb break="no" ed="#P" n="29"/>derentur ad litteram observare Christi verba,
+          <lb ed="#P" n="30"/>Luc. 12: Sint lumbi vestri preecincti, et de 
+          il<lb break="no" ed="#P" n="31"/>lis dicit, superstitioso potius cultui insercire,
+          <lb ed="#P" n="32"/>quam aentis vel fidei puritati. Sic etiam dixit
+          <lb ed="#P" n="33"/>Alexander Papa, epistola prima, capite 
+          quar<lb break="no" ed="#P" n="34"/>to: Hepulsis opinionibus superstitionum, 
+          pa<lb break="no" ed="#P" n="35"/>nis tantum et viuum aqua permistum in 
+          sacri<lb break="no" ed="#P" n="36"/>ficium offerantur.
+        </p>
+        <p>
+          <lb ed="#P" n="37"/>9. Haereticorum error asserentium omnem
+          <lb ed="#P" n="38"/>cultum humano discursu introductum 
+          prohi<lb break="no" ed="#P" n="39"/>beri. — Oportet tamen in hoc puncto cavere
+          <lb ed="#P" n="40"/>alium haereticorum hujus temporis errorem;
+          <lb ed="#P" n="41"/>dicunt enim omnem caeremoniam et omnem
+          <lb ed="#P" n="42"/>cultum a Deo ipso non praceptum, seu in
+          <lb ed="#P" n="43"/>Evangelio non contentum superstitiosum esse;
+          <lb ed="#P" n="44"/>imo et idololatriam vocant, ut paulo antea 
+          no<lb break="no" ed="#P" n="45"/>tavi. Fundanturque praecipue in illo 
+          Deute<lb break="no" ed="#P" n="46"/>ron. 18: Quod praecipio tibi, hoc tantum facito
+          <lb ed="#P" n="47"/>Domino, neque addas quicquam, nec minuas.
+          <lb ed="#P" n="48"/>Unde colligunt omnem cultum non 
+          praecep<lb break="no" ed="#P" n="49"/>tum, eo ipso prohibitum esse, et ideo Paulum,
+          <lb ed="#P" n="50"/>ad Coloss. 2, dixisse: Fidete, ne quis vos 
+          de<lb break="no" ed="#P" n="51"/>cipiat per philosophiam, et inanem fallaciam,
+          <lb ed="#P" n="52"/>secundum traditionem hominum, secundum 
+          ele<lb break="no" ed="#P" n="53"/>menta mundi, et non secundum Christum; et
+          <lb ed="#P" n="54"/>infra: Nemo cos seducat, volens in humilitate
+          <lb ed="#P" n="55"/>et religione Angelorum, quae non vidit ambu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lans, frustra inflatus sensu carnis sue. Unde
+          <lb ed="#P" n="57"/>colligunt omnem cultum voluntarium, et ex
+          <lb ed="#P" n="58"/>humano discursu introductum, esse illicitum
+          <lb ed="#P" n="59"/>et a Deo prohibitum. Verumtamen haec 
+          sen<lb break="no" ed="#P" n="60"/>tentia haeretica est, quia non solum est 
+          con<lb break="no" ed="#P" n="61"/>tra universalem consuetudinem et perpetuam
+          <lb ed="#P" n="62"/>iraditionem Ecclesiae, sed etiam contra 
+          Scrip<lb break="no" ed="#P" n="63"/>turam, et contra rationem naturalem, ut 
+          os<lb break="no" ed="#P" n="64"/>tendi in 3 tom. tertiae partis, disp. 15, sect. 2.
+          <lb ed="#P" n="65"/>Et patet breviter, quia Scriptura ipsa 
+          praeci<lb break="no" ed="#P" n="66"/>pit observare vota, quae tamen voluntarie, et
+          <lb ed="#P" n="67"/>non ex praecepto promittuntur. Et ratio 
+          natu<lb break="no" ed="#P" n="68"/>ralis dictat non solum esse facienda bona 
+          prae<lb break="no" ed="#P" n="69"/>cepta, sed etiam esse utile plura bona et 
+          ho<lb break="no" ed="#P" n="70"/>nesta facere, quam praecepta sint. Item vix
+          <lb ed="#P" n="71"/>possunt homines non uti determinatione 
+          ali<lb break="no" ed="#P" n="72"/>qua humana in actionibus divini cultus, quia
+          <lb ed="#P" n="73"/>lex diviua vel naturalis non omnia 
+          determina<lb break="no" ed="#P" n="74"/>vit, ut saepe superioribus ostensum est. Unde
+          <lb ed="#P" n="75"/>etiam haeretici ipsi suos peculiares modos et
+          <lb ed="#P" n="76"/>ritus introducunt in modo colcndi Deum, qui
+          <lb ed="#P" n="77"/>non sunt in Evangelio vel divina lege 
+          prae<lb break="no" ed="#P" n="78"/>cepti, imo nec ipsi inter se in hujusmodi 
+          riti<lb break="no" ed="#P" n="79"/>bus conveniunt ; ergo plane ignorant quid 
+          lo<lb break="no" ed="#P" n="80"/>quantur, et seipsos tanquam superstitiosos et
+          <lb ed="#P" n="81"/>idololatras condemnant. Non est ergo 
+          supersti<lb break="no" ed="#P" n="82"/>tiosum quicquid praeceptum non est, sed
+          <lb ed="#P" n="83"/>quicquid contra praeceptum est, sive sit 
+          con<lb break="no" ed="#P" n="84"/>tra divinam institutionem, sive contra 
+          eccle<lb break="no" ed="#P" n="85"/>siasticam, sive contra rationem naturalem, 
+          os<lb break="no" ed="#P" n="86"/>tendentem in aliquo ritu vel inutilitatem, vel
+          <lb ed="#P" n="87"/>superfluitatem, vel aliquid hujusmodi.
+        </p>
+        <p>
+          <lb ed="#P" n="88"/>10. Explicatur locus Deuteronomii. — Et
+          <lb ed="#P" n="89"/>ita intelligitur locus ille Deuteronomii. Ibi
+          <lb ed="#P" n="90"/>enim specialiter prohibebat Deus Hebraeis uti
+          <lb ed="#P" n="91"/>caeremoniis Gentium, ut ex verbis proxime
+          <lb ed="#P" n="92"/>praecedentibus constat; et in hoc sensu 
+          con<lb break="no" ed="#P" n="93"/>cluditur ibi nihil fuisse addendum vel 
+          minuen<lb break="no" ed="#P" n="94"/>dum, utique legi sibi traditae contrarium. Non
+          <lb ed="#P" n="95"/>vero prohibebantur omnia quae non erant 
+          prae<lb break="no" ed="#P" n="96"/>cepta, dummodo non essent praeceptis 
+          contra<lb break="no" ed="#P" n="97"/>ria, sed potius eis consentanea, ut in ipsamet
+          <lb ed="#P" n="98"/>lege explicatur, Levit. 23, ubi post praecepta
+          <lb ed="#P" n="99"/>festivitatum, oblationum et sacrificiorum, 
+          ad<lb break="no" ed="#P" n="100"/>ditur: Eaceptis sabbathis Domini, donisque
+          <lb ed="#P" n="101"/>vestris, et quae offeretis eu voto, vel qua sponte
+          <lb ed="#P" n="102"/>tribuetis Domino. Quae lex non est derogata
+          <lb ed="#P" n="103"/>per prohibitionem in Deuteronomio factam,
+          <lb ed="#P" n="104"/>ut constat. Unde postea juxta legem Levitici
+          <lb ed="#P" n="105"/>instituerunt Judaei aliquas festivitates in lege
+          <lb ed="#P" n="106"/>non praeceptas, et Christus Dominus usus est
+          <lb ed="#P" n="107"/>multis caeremoniis in lege non praeceptis, ut
+          <lb ed="#P" n="108"/>in dicto loco ostendi. Unde nec Paulus, ad 
+          Co<lb break="no" ed="#P" n="109"/>lossens. 2, omnem voluntarium cultum 
+          dam<lb break="no" ed="#P" n="110"/>nat, cum ipsemet, 1 ad Corinth. 7, virginita-
+          <pb ed="#P" n="472"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tem et abstinentiam ab opere conjugii propter
+          <lb ed="#P" n="2"/>orationem consulat, etiam quando praecepta
+          <lb ed="#P" n="3"/>non est; in dicto ergo loco ad Coloss. 2, agit
+          <lb ed="#P" n="4"/>praecipue de vitanda superstitione legalium
+          <lb ed="#P" n="5"/>caeremoniarum, et cavendis deceptoribus, qui
+          <lb ed="#P" n="6"/>illam sub specie humilitatis et religionis 
+          Ange<lb break="no" ed="#P" n="7"/>licae, seu per Angelos traditae, introducere 
+          vo<lb break="no" ed="#P" n="8"/>lebant, ut D. Thomas exponit. Quamvis 
+          ex<lb break="no" ed="#P" n="9"/>tendi possit doctrina illa ad omnem 
+          supersti<lb break="no" ed="#P" n="10"/>tiosum cultum non fundatum in recta 
+          ra<lb break="no" ed="#P" n="11"/>tione, sed in hypocrisi et irrationabili 
+          volun<lb break="no" ed="#P" n="12"/>tate, ut Cajetanus, et alii declarant ; in hoc
+          <lb ed="#P" n="13"/>enim sensu recte dici potest superstitio, 
+          reli<lb break="no" ed="#P" n="14"/>gio ita voluntaria, ut nec lege nec justa 
+          ra<lb break="no" ed="#P" n="15"/>tione fundata sit; quae superstitio etiam in
+          <lb ed="#P" n="16"/>cultu veri Dei locum habet, ut dixi.
+        </p>
+        <p>
+          <lb ed="#P" n="17"/>11. Lactantii fundamento respondetur. —
+          <lb ed="#P" n="18"/>Ad fundamentum ergo Lactantii non est 
+          dif<lb break="no" ed="#P" n="19"/>ficile ex dictis respondere : fatemur enim, ex
+          <lb ed="#P" n="20"/>parte Dei non posse esse excessum in cultu, si
+          <lb ed="#P" n="21"/>alias cultus sit rationi consentaneus, et in 
+          eo<lb break="no" ed="#P" n="22"/>dem sensu recte etiam dicitur non posse esse
+          <lb ed="#P" n="23"/>excessum in quantitate veri cultus, quia 
+          nul<lb break="no" ed="#P" n="24"/>lus potest adaequare excellentiam Dei, 
+          ne<lb break="no" ed="#P" n="25"/>dum excedere ; unde Ecclesiast. 43 dicitur:
+          <lb ed="#P" n="26"/>Glorificantes Dominum, quantumcumque 
+          potue<lb break="no" ed="#P" n="27"/>ritis, supercalebit adhuc et admiralis 
+          magni<lb break="no" ed="#P" n="28"/>ficentia ejus. Benedicentes Dominum, emaltate
+          <lb ed="#P" n="29"/>eum quantum potestis , major enim est omni
+          <lb ed="#P" n="30"/>laude. Quis magnificabit eum, sicut est ? 
+          Ni<lb break="no" ed="#P" n="31"/>hilominus tamen ex circumstantiis , et modo
+          <lb ed="#P" n="32"/>seu qualitate cultus, potest hic Intervenire 
+          ex<lb break="no" ed="#P" n="33"/>cessus, ut bene declarat D. Thomas, dicta
+          <lb ed="#P" n="34"/>quaest. 992. art. 1, et in idem redit quod quaest.
+          <lb ed="#P" n="35"/>93. art 2, ait, in cultu Dei nihil esse posse 
+          su<lb break="no" ed="#P" n="36"/>perfluum, seu excedens secundum 
+          quantita<lb break="no" ed="#P" n="37"/>tem absolutam, quae videlicet supponat verum
+          <lb ed="#P" n="38"/>cultum ; tamen secundum quantitatem 
+          pro<lb break="no" ed="#P" n="39"/>portionatam posse esse superfluum, quatenus
+          <lb ed="#P" n="40"/>id offertur in cultum,- quod aptum non est.
+        </p>
+        <p>
+          <lb ed="#P" n="41"/>12. Prima objectio. — Secunda. — Tertia.
+          <lb ed="#P" n="42"/>—Sed occurrunt nonnulla objectiones. Prima,
+          <lb ed="#P" n="43"/>quia hinc sequitur hoc non esse vitium per
+          <lb ed="#P" n="44"/>excessum, sed potius per defectum : patet,
+          <lb ed="#P" n="45"/>quia qui colit Deum actu improportionato,
+          <lb ed="#P" n="46"/>ipsum revera non colit; ergo non excedit, sed
+          <lb ed="#P" n="47"/>deficit in cultu Dei; sicut qui daret pauperi
+          <lb ed="#P" n="48"/>fictam pecuniam, et non veram, non peccaret
+          <lb ed="#P" n="49"/>per excessum contra misericordiam, sed 
+          po<lb break="no" ed="#P" n="50"/>tius per defectum. Secunda, quia si in 
+          quanti<lb break="no" ed="#P" n="51"/>ate proportionali potest esse excessus, etiam
+          <lb ed="#P" n="52"/>in absoluta ; nam qui bis in die communicat,
+          <lb ed="#P" n="53"/>excedit , addendo quantitatem absolutam in
+          <lb ed="#P" n="54"/>vero cultu; nam secunda communio tam
+          <lb ed="#P" n="55"/>vera communio est, sicut prima. Tertia, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>etiam e converso potest illa quantitas minui;
+          <lb ed="#P" n="57"/>ut si quis offerat in sacrificio corpus, et non
+          <lb ed="#P" n="58"/>sanguinem. erit illud peccatum, non per 
+          ex<lb break="no" ed="#P" n="59"/>cessum, sed per defectum, et tamen 
+          supersti<lb break="no" ed="#P" n="60"/>tio est, juxta sententiam Gelasii, in c. 
+          Compe<lb break="no" ed="#P" n="61"/>rimws, de Cons., d. 2, qui de illis, qui ita 
+          of<lb break="no" ed="#P" n="62"/>ferebant, ait: Nescio qua superstitione 
+          do<lb break="no" ed="#P" n="63"/>centur astringi.
+        </p>
+        <p>
+          <lb ed="#P" n="64"/>13. Respondetur ad objectiones. —Respondeo
+          <lb ed="#P" n="65"/>omnia procedere ex quadam aequivocatione,
+          <lb ed="#P" n="66"/>nam excessus non debet considerari in 
+          for<lb break="no" ed="#P" n="67"/>mali cultu, ut sic dicam, sed in materiali ;
+          <lb ed="#P" n="68"/>nam, si cultus semper sit verus et legitimus,
+          <lb ed="#P" n="69"/>nunquam potest esse excessus in colendo Deo,
+          <lb ed="#P" n="70"/>ut dictum est; quando vero aut ex materia
+          <lb ed="#P" n="71"/>actionis aut ex circumstantiis, contingit ut
+          <lb ed="#P" n="72"/>cultus transeat in superstitionem, jam quidem
+          <lb ed="#P" n="73"/>desinit esse cultus , et ita verum est non esse
+          <lb ed="#P" n="74"/>excessum in cultu formaliter sumpto. Est 
+          ta<lb break="no" ed="#P" n="75"/>men excessus in multiplicandis vel faciendis
+          <lb ed="#P" n="76"/>actionibus pro cultu, quae ad illum non 
+          deser<lb break="no" ed="#P" n="77"/>viunt, et hoc modo vocatur hoc vitium per
+          <lb ed="#P" n="78"/>excessum. Quod potest non incommode 
+          de<lb break="no" ed="#P" n="79"/>clarari per ordinem ad affectum colentis ; 
+          ha<lb break="no" ed="#P" n="80"/>bet enim superstitiosum affectum colendi,
+          <lb ed="#P" n="81"/>vel saltem illum ostendit , quantum est ex
+          <lb ed="#P" n="82"/>parte operis, et excedere existimatur in eo 
+          af<lb break="no" ed="#P" n="83"/>fectu, quandoquidem opportune et 
+          impor<lb break="no" ed="#P" n="84"/>tune (ut sic dicam) colere vult, et quidquid
+          <lb ed="#P" n="85"/>occurrit, in cultum offert, sive sit aptum, sive
+          <lb ed="#P" n="86"/>non sit. Ad primum ergo respondeo negando
+          <lb ed="#P" n="87"/>sequelam. Ad probationem dico verum esse,
+          <lb ed="#P" n="88"/>illum non excedere vere colendo et 
+          honoran<lb break="no" ed="#P" n="89"/>do, excedere tamen operando ad cultum 
+          mo<lb break="no" ed="#P" n="90"/>do, aut tempore, aut loco repugnantibus vero
+          <lb ed="#P" n="91"/>cultui. Ad secundum, respondeo ibi etiam
+          <lb ed="#P" n="92"/>non esse excessum in cultu formali, qui 
+          so<lb break="no" ed="#P" n="93"/>lum pertinere hic dicitur ad quantitatem 
+          abso<lb break="no" ed="#P" n="94"/>lutam, sed in materiali, quia licet communio
+          <lb ed="#P" n="95"/>de se sit materia veri cultus, si tamen indebito
+          <lb ed="#P" n="96"/>modo fiat, desinit esse verus cultus, et ita illa
+          <lb ed="#P" n="97"/>secunda communio hic et nunc non continet
+          <lb ed="#P" n="98"/>verum cultum, neque honorat Deum, etiamsi
+          <lb ed="#P" n="99"/>sit tam vera communio sicut prior , quia pon
+          <lb ed="#P" n="100"/>fit tam debito modo. Ad tertium similiter 
+          res<lb break="no" ed="#P" n="101"/>pondeo ibi quidem peccari per defectum,
+          <lb ed="#P" n="102"/>quoad integritatem sacrificii, operari tamen
+          <lb ed="#P" n="103"/>per excessum in materia cultus, quatenus pro
+          <lb ed="#P" n="104"/>sacrificio offertur, quod revera sacrificium non
+          <lb ed="#P" n="105"/>est, unde quoad hoc intervenit ibi superstitio.
+          <lb ed="#P" n="106"/>An vero quoad alium defectum de mutilatione
+          <lb ed="#P" n="107"/>sacrificii ibi adsit sacrilegii genus contra 
+          reve<lb break="no" ed="#P" n="108"/>rentiam rei sacrae debitam, infra dicetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

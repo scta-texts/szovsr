@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="61"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k01490"><!-- t1-l3c6 -->
+        <head>Caput 6</head>
+        <head type="question-title">Utrum religio sit virtus distincta ab illa quae debitam obedientiam deo reddit.</head>
+        <p>
+          <lb ed="#P" n="22"/>CAPUT VI.
+          <lb ed="#P" n="23"/>UTRUM RELIGIO SIT VIRTUS DISTINCTA AB ILLA
+          <lb ed="#P" n="24"/>QUAE DEBITAM OBEDIENTIAM DEO REDDIT.
+        </p>
+        <p>
+          <lb ed="#P" n="25"/>1. Ratio dubitandi ponitur. — Responsio.
+          <lb ed="#P" n="26"/>—Ad considerandam propriam unitatem 
+          vir<lb break="no" ed="#P" n="27"/>tutis religionis, et distinctionem ejus ab aliis,
+          <lb ed="#P" n="28"/>superest ut cum aliis virtutibus moralibus,
+          <lb ed="#P" n="29"/>quae aliquo modo circa Deum proxime 
+          ver<lb break="no" ed="#P" n="30"/>santur, eique aliquod debitum reddere 
+          vi<lb break="no" ed="#P" n="31"/>dentur, eam conferamus. Duas autem invenio
+          <lb ed="#P" n="32"/>virtutes, quae in hoc puncto difficultatem 
+          ali<lb break="no" ed="#P" n="33"/>quam ingerere possunt. Una est obedientia,
+          <lb ed="#P" n="34"/>et altera poenitentia : de priori dicemus in
+          <lb ed="#P" n="35"/>hoc capite, de altera in sequenti. Ratio igitur
+          <lb ed="#P" n="36"/>dubitandi ex supra dictis oritur. Nam 
+          dixi<lb break="no" ed="#P" n="37"/>mus religionem esse justitiam quamdam ad
+          <lb ed="#P" n="38"/>Deum, quia illi proprium quoddam et 
+          rigoro<lb break="no" ed="#P" n="39"/>sum debitum reddit ; at hoc etiam convenit
+          <lb ed="#P" n="40"/>virtuti obedientiae ; reddit enim obedientiam
+          <lb ed="#P" n="41"/>Deo, quae illi summa cum proprietate et 
+          ri<lb break="no" ed="#P" n="42"/>gore debetur, non minus quam cultus aut
+          <lb ed="#P" n="43"/>veneratio; ergo obedientia est quaedam 
+          jus<lb break="no" ed="#P" n="44"/>titia ad Deum; ergo erit idem cum religione,
+          <lb ed="#P" n="45"/>nam justitia ad Deum una tantum est. 
+          Res<lb break="no" ed="#P" n="46"/>pondebit aliquis fortasse, obedientiam non
+          <lb ed="#P" n="47"/>considerare rationem debiti respectu Dei, sed
+          <lb ed="#P" n="48"/>solum respicere honestatem, quae in materia
+          <lb ed="#P" n="49"/>praecepta resultat, ex hoc praecise quod 
+          prae<lb break="no" ed="#P" n="50"/>cepta est, quod nos supra, tractando de 
+          ob<lb break="no" ed="#P" n="51"/>jecto, insinuavimus.
+        </p>
+        <p>
+          <lb ed="#P" n="52"/>2. Refutatur ratione tradita vesponsio. 
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>Contra hoc vero objicitur, quia obedientia est
+          <lb ed="#P" n="54"/>revera debita Deo, unde illi fit injuria, si ei
+          <lb ed="#P" n="55"/>non obediatur; ergo ad aliquam virtutem
+          <lb ed="#P" n="56"/>pertinet hoc debitum reddere; ergo ad 
+          obe<lb break="no" ed="#P" n="57"/>dientiam. Illa enim videtur maxime formalis
+          <lb ed="#P" n="58"/>obedientia, imo sola illa videtur specialem
+          <lb ed="#P" n="59"/>virtutem requirere, nam illa honestas, quae
+          <lb ed="#P" n="60"/>in materia praecepta resultat, posito praecepto,
+          <lb ed="#P" n="61"/>non esi una, sed nunc ad temperantiam, nunc
+          <lb ed="#P" n="62"/>ad justitiam, vel aliam similem virtutem 
+          per<lb break="no" ed="#P" n="63"/>tinet. Ergo propria et formalis obedientia est
+          <lb ed="#P" n="64"/>justitia quaedam propria (licet potentialis) ad
+          <lb ed="#P" n="65"/>Deum. Unde D. Thomas 2. 2, quaestione 
+          cen<lb break="no" ed="#P" n="66"/>tesima quarta, art. 2, ex ratione debiti 
+          colli<lb break="no" ed="#P" n="67"/>git honestatem obedientiae : Quia cum multa
+          <lb ed="#P" n="68"/>(inquit) debeant subditi suis superioribus,
+          <lb ed="#P" n="69"/>unwm eorum est obedire illis : quod habet 
+          spe<lb break="no" ed="#P" n="70"/>cialem rationem boni; et art. 4 subjungit, 
+          mo<lb break="no" ed="#P" n="71"/>veri hominem ad obediendum Deo, ex quadam
+          <lb ed="#P" n="72"/>necessitate justitie. Ergo obedientia et 
+          red<lb break="no" ed="#P" n="73"/>dit debitum Deo, et est quaedam justitia ad
+          <lb ed="#P" n="74"/>ipsum; est ergo idem quod religio ; nam sola
+          <lb ed="#P" n="75"/>religio est justitia ad Deum, et omne debitum
+          <lb ed="#P" n="76"/>reddit ei, alias essent plures virtutes 
+          distin<lb break="no" ed="#P" n="77"/>guendae, qua varia debita Deo redderent,
+          <lb ed="#P" n="78"/>quod admittendum non est, ut 1. 1 tetigi, et
+          <lb ed="#P" n="79"/>infra dicam. Tandem confirmatur : nam qui
+          <lb ed="#P" n="80"/>vovit obedientiam Deo, certum est debere
+          <lb ed="#P" n="81"/>illam ex speciali virtute religionis; sed non
+          <lb ed="#P" n="82"/>est minus debitum illud, quo ex se, et ex vi
+          <lb ed="#P" n="83"/>supremae jurisdictionis Dei, ipsa obedientia
+          <lb ed="#P" n="84"/>debita illi est ; ergo, etiam secluso voto, 
+          red<lb break="no" ed="#P" n="85"/>dere obedientiam debitam Deo, pertinet ad
+          <lb ed="#P" n="86"/>illam virtutem quae pro officio habet reddere
+          <lb ed="#P" n="87"/>debitum Deo.
+        </p>
+        <p>
+          <lb ed="#P" n="88"/>3. Fera assertio : religio ab obedientia 
+          pro<lb break="no" ed="#P" n="89"/>prie distinguitur.— In hoc puncto nullam 
+          in<lb break="no" ed="#P" n="90"/>venio moveri quaestionem a Doctoribus, sed
+          <lb ed="#P" n="91"/>omnes pro comperto videntur supponere 
+          re<lb break="no" ed="#P" n="92"/>ligionem esse virtutem distinctam ab 
+          obe<lb break="no" ed="#P" n="93"/>dientia, ut patet ex D. Thoma, 2. 2, quaestione
+          <lb ed="#P" n="94"/>centesima quarta, art. 2, et ibi Cajet., Valent.,
+          <lb ed="#P" n="95"/>etc. Patres etiam semper de his virtutibus,
+          <lb ed="#P" n="96"/>ut de distinctis, loquuntur. Et aperte 
+          Grego<lb break="no" ed="#P" n="97"/>rius distinxit actus earum cum dixit : Melior
+          <lb ed="#P" n="98"/>est obedientia quam victime : de quo 
+          testi<lb break="no" ed="#P" n="99"/>monio plura in sequentibus. Ratio autem
+          <lb ed="#P" n="100"/>reddi potest, quia formaliter, et in ratione
+          <lb ed="#P" n="101"/>honesti, aliud est colere, aliud obedire; prius
+          <lb ed="#P" n="102"/>est officium religionis, posterius obedientiae ;
+          <lb ed="#P" n="103"/>virtutes autem ex ofliciis seu actibus 
+          distin<lb break="no" ed="#P" n="104"/>guuntur ; ergo virtutes illae distinctae sunt.
+          <lb ed="#P" n="105"/>Dicet aliquis, obedire et colere non 
+          distin<lb break="no" ed="#P" n="106"/>gui tanquam duo membra specifica omnino
+          <lb ed="#P" n="107"/>condisiincia, sed distingui ut generale et spe-
+          <pb ed="#P" n="62"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ciale, nam colere generalius est, obedire 
+          au<lb break="no" ed="#P" n="2"/>tem est quoddam colere. Nam obediendo
+          <lb ed="#P" n="3"/>Deo, magnum cultum ei exhibemus; 
+          transgre<lb break="no" ed="#P" n="4"/>diendo autem praeceptum ejus, injuriam et
+          <lb ed="#P" n="5"/>irreverentiam illi facimus; sicut colere et
+          <lb ed="#P" n="6"/>orare distinguuntur, ut generale et speciale,
+          <lb ed="#P" n="7"/>quia orare quidam cultus est.
+        </p>
+        <p>
+          <lb ed="#P" n="8"/>4. Ostenditur ita diversas esse rationes 
+          for<lb break="no" ed="#P" n="9"/>males cultus et obedientie ut ummn non 
+          conti<lb break="no" ed="#P" n="10"/>nenatur sub alio tanguam sub superiori. — Sed
+          <lb ed="#P" n="11"/>contra, quia licet obedire possit esse materia
+          <lb ed="#P" n="12"/>cultus, si ex intepntione formali ad eum finem
+          <lb ed="#P" n="13"/>dirigatur, sicut etiam credere vel jejunare,
+          <lb ed="#P" n="14"/>tamen obedire formaliter non est colere, nec
+          <lb ed="#P" n="15"/>adaequate, nec tanquam particulare 
+          conten<lb break="no" ed="#P" n="16"/>tum sub generali, considerata ratione 
+          for<lb break="no" ed="#P" n="17"/>mali utriusque, quae ad distinctionem 
+          virtu<lb break="no" ed="#P" n="18"/>tum maxime spectanda est. Assumptum 
+          de<lb break="no" ed="#P" n="19"/>claratur, quia formalis ratio et intentio 
+          obe<lb break="no" ed="#P" n="20"/>diendi non respicit reverentiam debitam 
+          per<lb break="no" ed="#P" n="21"/>sona , cui obeditur, propter excellentiam
+          <lb ed="#P" n="22"/>ejus, sed respicit solum honestatem, quae est
+          <lb ed="#P" n="23"/>in observantia praecepti, seu ( quod perinde
+          <lb ed="#P" n="24"/>est ) quae est in conformitate yoluntatis 
+          sub<lb break="no" ed="#P" n="25"/>diti cum voluntate superioris volentis et 
+          po<lb break="no" ed="#P" n="26"/>tentis obligare. Et hoc significavit D. 
+          Tho<lb break="no" ed="#P" n="27"/>mas, dicta quaestione centesima quarta, 
+          ar<lb break="no" ed="#P" n="28"/>tic. secundo, ad 4, dicens: Beverentia directe
+          <lb ed="#P" n="29"/>respicit personam enxcellentem, obedientia vero
+          <lb ed="#P" n="30"/>respicit preceptum personee exmcellentis. Velle
+          <lb ed="#P" n="31"/>ergo obedire formaliter non est velle colere
+          <lb ed="#P" n="32"/>superiorem ; et ideo talis actus respectu Dei
+          <lb ed="#P" n="33"/>non est actus a religione elicitus, ac proinde
+          <lb ed="#P" n="34"/>nec obedientia ipsa est religio. Et potest ex
+          <lb ed="#P" n="35"/>dictis haec differentia explicari, quia 
+          obedien<lb break="no" ed="#P" n="36"/>tia, etiam prout versatur circa praecepta Dei,
+          <lb ed="#P" n="37"/>non ita proxime tendit in Deum, sicut 
+          reli<lb break="no" ed="#P" n="38"/>gio ; tum quia obedientia tota versatur 
+          im<lb break="no" ed="#P" n="39"/>mediate circa praeceptum, et auctorem 
+          prae<lb break="no" ed="#P" n="40"/>cepti solum respicit, tanquam extrinsecam
+          <lb ed="#P" n="41"/>causam efticientem praecepti , vel tanquam
+          <lb ed="#P" n="42"/>regulam extrinsecam, cui secundum 
+          volun<lb break="no" ed="#P" n="43"/>tatem conformari tenetur. Unde D. Thomas,
+          <lb ed="#P" n="44"/>dicta quaest. 104, art. 2, in corp., et ad 3, 
+          di<lb break="no" ed="#P" n="45"/>cit, proprium objectum obedientie esse 
+          praece<lb break="no" ed="#P" n="46"/>ptum, quod ex alterius voluntate procedit ; et
+          <lb ed="#P" n="47"/>ad 1, dicit, non facere aliquem, formalem 
+          ac<lb break="no" ed="#P" n="48"/>tum obedientiae, nisi quando operatur em 
+          in<lb break="no" ed="#P" n="49"/>tentione implendi preceptum. Et Augustinus,
+          <lb ed="#P" n="50"/>14 de Civit., cap. duodecimo, dixit, obedientiam
+          <lb ed="#P" n="51"/>commendatam esse in praecepto. At religio 
+          im<lb break="no" ed="#P" n="52"/>mediatius et directius tendit in Deum ; 
+          im<lb break="no" ed="#P" n="53"/>mediatius quidem, quia non nititur in 
+          prae<lb break="no" ed="#P" n="54"/>cepto ejus, sed in excellentia ejus, atque ita
+          <lb ed="#P" n="55"/>in eo quod ipse est ; directius vero, quia non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>respicit Deum ut causam efficientem, sed ut
+          <lb ed="#P" n="57"/>personam ad quam tendit, colendo illam 
+          tan<lb break="no" ed="#P" n="58"/>quam proximum finem, seu objectum cui 
+          re<lb break="no" ed="#P" n="59"/>verentiam defert.
+        </p>
+        <p>
+          <lb ed="#P" n="60"/>5. Ad rationem dubitandi initio positam
+          <lb ed="#P" n="61"/>respondetur. — Ad difficultatem igitur 
+          propo<lb break="no" ed="#P" n="62"/>sitam bene responsum est, obedientiam non
+          <lb ed="#P" n="63"/>attendere formaliter ad rationem debiti 
+          res<lb break="no" ed="#P" n="64"/>pectu personae superioris, quod attendit 
+          re<lb break="no" ed="#P" n="65"/>ligio. Sed generaliter dicitur reddere debitum,
+          <lb ed="#P" n="66"/>quia implet obligationem praecepti, et hanc
+          <lb ed="#P" n="67"/>obligationem formaliter respicit. Ad replicam
+          <lb ed="#P" n="68"/>vero concedimus, Deo esse debitam 
+          obedien<lb break="no" ed="#P" n="69"/>tiam. Advertimus autem hoc duobus modis
+          <lb ed="#P" n="70"/>considerari posse : uno modo, ut est quid
+          <lb ed="#P" n="71"/>pertinens ad bona Dei, vel(ut ita dicam)
+          <lb ed="#P" n="72"/>ad jus quoddam quod Deus habet in 
+          creatu<lb break="no" ed="#P" n="73"/>ram suam, pertinetque ad integritatem 
+          do<lb break="no" ed="#P" n="74"/>minii ejus, quod debet illaesum servari; alio
+          <lb ed="#P" n="75"/>modo considerari posse solum, ut ex debito
+          <lb ed="#P" n="76"/>et ex usu illius potestatis nascitur quaedam
+          <lb ed="#P" n="77"/>specialis honestas , quae in re praecepta 
+          inve<lb break="no" ed="#P" n="78"/>nitur, ex hoc praecise quod praecepta est. 
+          Di<lb break="no" ed="#P" n="79"/>co ergo obedientiam non habere curam 
+          sol<lb break="no" ed="#P" n="80"/>vendi hoc debitum priori ratione spectatum,
+          <lb ed="#P" n="81"/>sed tantum posteriori , ut explicatum est.
+          <lb ed="#P" n="82"/>Cum autem quaeritur an formaliter intendere
+          <lb ed="#P" n="83"/>debitum hoc reddere Deo, priori modo 
+          spec<lb break="no" ed="#P" n="84"/>tatum, scilicet, quatenus quid illius et in 
+          bo<lb break="no" ed="#P" n="85"/>nis ejus extrinsecis computatur, pertineat ad
+          <lb ed="#P" n="86"/>aliquam virtutem, et quaenam illa sit, 
+          res<lb break="no" ed="#P" n="87"/>pondeo pertinere quidem ad aliquam 
+          virtu<lb break="no" ed="#P" n="88"/>tem ; nam ibi profecto cernitur magna 
+          quae<lb break="no" ed="#P" n="89"/>dam et specialis ratio honestatis. Arbitrorque
+          <lb ed="#P" n="90"/>pertinere ad specialem justitiam ad Deum,
+          <lb ed="#P" n="91"/>de qua statim in puncto sequenti dicam.
+          <lb ed="#P" n="92"/>Et hoc existimo sensisse divum Thomam,
+          <lb ed="#P" n="93"/>dicta solutione ad 4, cum distinguit inter 
+          re<lb break="no" ed="#P" n="94"/>verentiam et obedientiam, et subdit 
+          obedien<lb break="no" ed="#P" n="95"/>tiam formaliter non respicere reverentiam
+          <lb ed="#P" n="96"/>personae ( utique reddendo illi jus suum),
+          <lb ed="#P" n="97"/>posse tamen imperari ex reverentia 
+          perso<lb break="no" ed="#P" n="98"/>nae. Quia nimirum ab illa virtute, quae 
+          res<lb break="no" ed="#P" n="99"/>picit hoc jus divinum, optime imperatur 
+          obe<lb break="no" ed="#P" n="100"/>dientia in praeceptis Dei.
+        </p>
+        <p>
+          <lb ed="#P" n="101"/>6. Loca D. Thome supra posita in 
+          melio<lb break="no" ed="#P" n="102"/>rem sensum trahuntur, juxta ejus doctrinam.
+          <lb ed="#P" n="103"/>— Ad D. Thomam respondeo , loca illa ex
+          <lb ed="#P" n="104"/>aliis ejusdem doctrinae locis explicanda esse.
+          <lb ed="#P" n="105"/>Intelligit ergo obedientiam solvere quoddam
+          <lb ed="#P" n="106"/>debitum generali quadam ratione, quatenus
+          <lb ed="#P" n="107"/>omnis obligatio praecepti est debitum 
+          quod<lb break="no" ed="#P" n="108"/>dam; in quo solvendo hoc habet proprium
+          <lb ed="#P" n="109"/>et speciale obedientia, quod illam 
+          obligatio<lb break="no" ed="#P" n="110"/>nem praecepti formaliter ac praecise attendit.
+          <pb ed="#P" n="63"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Et haec obligatio vocatur etiam quaedam 
+          ne<lb break="no" ed="#P" n="2"/>ceessitus justitiae late sumptae. pro 
+          quacum<lb break="no" ed="#P" n="3"/>que obligatione quae quovis modo alterum
+          <lb ed="#P" n="4"/>respicit. Sic etiam facile solvitur confirmatio
+          <lb ed="#P" n="5"/>ibi addita, de debito orto ex obedientiae 
+          vo<lb break="no" ed="#P" n="6"/>to; in impletione enim illius voti formaliter
+          <lb ed="#P" n="7"/>loquendo, id est, si praecise ex vi voti 
+          im<lb break="no" ed="#P" n="8"/>pleatur, attenditur speciale jus acquisitum
+          <lb ed="#P" n="9"/>Deo ex vi talis yoti, ideoque actus ille, ut sic,
+          <lb ed="#P" n="10"/>non est formaliter ex virtute obedientiae, sed
+          <lb ed="#P" n="11"/>religionis.
+        </p>
+        <p>
+          <lb ed="#P" n="12"/>7. Eadem obedientia inclinamur ab 
+          obtem<lb break="no" ed="#P" n="13"/>perandum Deo et hominibus, non tamen eadem
+          <lb ed="#P" n="14"/>religione colimus Deum et Sanctos. — 
+          Deni<lb break="no" ed="#P" n="15"/>que ex his potest sumi aliqua ratio 
+          respon<lb break="no" ed="#P" n="16"/>dendi ad comparationem relictam in 
+          praece<lb break="no" ed="#P" n="17"/>denti capite inter obedientiam, et 
+          religio<lb break="no" ed="#P" n="18"/>nem in unitate. Quanquam enim hic nec
+          <lb ed="#P" n="19"/>tractare velimus nec definire illam 
+          quaeestio<lb break="no" ed="#P" n="20"/>nem, an virtus obedientia, quatenus inclinat
+          <lb ed="#P" n="21"/>ad obediendum Deo et hominibus, una sit:
+          <lb ed="#P" n="22"/>supponendo tamen id ut probabile, ratio
+          <lb ed="#P" n="23"/>differentia inquiritur , ob quam obedientia
+          <lb ed="#P" n="24"/>habeat illam amplitudinem, religio vero 
+          sis<lb break="no" ed="#P" n="25"/>tat in solo Deo, et non habeat unitatem cum
+          <lb ed="#P" n="26"/>virtute, quae sanctos homines veneratur. 
+          Ra<lb break="no" ed="#P" n="27"/>tio igitur ex dictis reddi potest, quia 
+          obedien<lb break="no" ed="#P" n="28"/>tia solum attendit honestatem, quae est in 
+          ob<lb break="no" ed="#P" n="29"/>servatione praecepti ut sic, quae ejusdem 
+          ra<lb break="no" ed="#P" n="30"/>tionis esse videtur, sive tale praeceptum 
+          ma<lb break="no" ed="#P" n="31"/>net immediate a Deo, sive per hominem. 
+          Re<lb break="no" ed="#P" n="32"/>ligio autem respicit excellentiam et debitum
+          <lb ed="#P" n="33"/>ratione excellentise, prout singularis rationis
+          <lb ed="#P" n="34"/>est in Deo, supra omnem creaturam, et ideo
+          <lb ed="#P" n="35"/>singularem virtutem requirit. Quam 
+          ratio<lb break="no" ed="#P" n="36"/>nem attigit D. Thomas, dicta quaest. 104, art.
+          <lb ed="#P" n="37"/>2. ad 4, ubi etiam adjungit quod, licet 
+          obe<lb break="no" ed="#P" n="38"/>dientia praeceptorum unius rationis sit, potest
+          <lb ed="#P" n="39"/>imperari a causis specie distinctis, quia 
+          obe<lb break="no" ed="#P" n="40"/>dientia ad praeceptum hominis imperari 
+          po<lb break="no" ed="#P" n="41"/>test a justitia ad hominem, vel ab 
+          observan<lb break="no" ed="#P" n="42"/>tia: obedientia vero ad Deum, a religione,
+          <lb ed="#P" n="43"/>seu justitia ad ipsum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

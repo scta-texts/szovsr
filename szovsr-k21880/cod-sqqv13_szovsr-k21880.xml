@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 42</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 42</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="875"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k21880"><!-- t3-l4c42 -->
+        <head>Caput 42</head>
+        <head type="question-title">De simonia ficta.</head>
+        <p>
+          <pb ed="#P" n="875"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT XLII
+          <lb ed="#P" n="2"/>DE SIMONIA FICTA.
+        </p>
+        <p>
+          <lb ed="#P" n="3"/>1. Simonia ficta quae. — Disimus de 
+          dis<lb break="no" ed="#P" n="4"/>tinciione inter membra praecedentis 
+          divisio<lb break="no" ed="#P" n="5"/>nis, nunc oportet circa ejus sufficientiam duas
+          <lb ed="#P" n="6"/>diffieultates expedire, quae ex simonia fieta et
+          <lb ed="#P" n="7"/>confidentiali oriri possunt et de priori 
+          dice<lb break="no" ed="#P" n="8"/>mns in praesenti capite; de posteriori vero in
+          <lb ed="#P" n="9"/>sequenti. Dicitur autem simonia ficta, quando
+          <lb ed="#P" n="10"/>fit exterius promissio rci temporalis pro 
+          spi<lb break="no" ed="#P" n="11"/>rituali, vel spiritualis pro temporal sine 
+          in<lb break="no" ed="#P" n="12"/>tentione implendi promissum, aut se 
+          obh<lb break="no" ed="#P" n="13"/>gandi : haec enim fictio intercedere potest in
+          <lb ed="#P" n="14"/>quolbet contrahentium, vel in utroque. De
+          <lb ed="#P" n="15"/>hac ergo simonia quaert potest, sub quo 
+          illo<lb break="no" ed="#P" n="16"/>rum membrorum comprehendatur. Potestque
+          <lb ed="#P" n="17"/>esse duplex modus dicendi.
+        </p>
+        <p>
+          <lb ed="#P" n="18"/>2. Unus est, sub nubo illorum 
+          comprehen<lb break="no" ed="#P" n="19"/>di, nec propterea divisionem es:e diminutam.
+          <lb ed="#P" n="20"/>Ratio est, quia illa non est simonia, sicut 
+          fic<lb break="no" ed="#P" n="21"/>tum aurum non est aurum, licet appareat, vel
+          <lb ed="#P" n="22"/>sieut prolatio haeresis sinec mente haretica,
+          <lb ed="#P" n="23"/>non est proprium peccatum haeresis, sed 
+          alte<lb break="no" ed="#P" n="24"/>rius rationis ; divisum autem in illa divisione
+          <lb ed="#P" n="25"/>est vera simonia. Et confirmatur, quia non
+          <lb ed="#P" n="26"/>est simonia mentalis, quia deest intentio 
+          ven<lb break="no" ed="#P" n="27"/>dendi, vel emendi, cum desit intentio pretii
+          <lb ed="#P" n="28"/>solvendi ; cergo nec potest esse conventionalis,
+          <lb ed="#P" n="29"/>quia haec intrinsece supponit mentalem, et
+          <lb ed="#P" n="30"/>consequenter nec realis erit, quia haec 
+          suppo<lb break="no" ed="#P" n="31"/>nit caeteras. Denique nullus contractus factus
+          <lb ed="#P" n="32"/>sine intentione et consensu interno verus 
+          con<lb break="no" ed="#P" n="33"/>tractus est, neque in genere, neque in sua
+          <lb ed="#P" n="34"/>specie, ut patet de matrimonio facto sine 
+          con<lb break="no" ed="#P" n="35"/>sensu, et de voto, aut professione facta sine
+          <lb ed="#P" n="36"/>intentione vovendi. Ergo similiter in 
+          prae<lb break="no" ed="#P" n="37"/>senti, cum illa fictione non fit verus 
+          contrac<lb break="no" ed="#P" n="38"/>tus, et consequenter nec vera simonia. Quae
+          <lb ed="#P" n="39"/>ratio probat ad hanc fictionem sufficere, quod
+          <lb ed="#P" n="40"/>ex alterutra parte intercedat fictio, ut in 
+          ma<lb break="no" ed="#P" n="41"/>irimonio sufficit defectus consensus in uno
+          <lb ed="#P" n="42"/>conjuge, ut totum matrmonium fictum, et
+          <lb ed="#P" n="43"/>nullum sit, quia pendet ab utroque et a 
+          sin<lb break="no" ed="#P" n="44"/>gulis ; et ideo licet, qui bona fide contrahit,
+          <lb ed="#P" n="45"/>possit dici in affectu suo non ficte contrahere,
+          <lb ed="#P" n="46"/>quia putat se consentire in verum 
+          matrimo<lb break="no" ed="#P" n="47"/>nium, tamen in re ipsa non consentit nisi in
+          <lb ed="#P" n="48"/>fictum ; ita ergo cum proportione in praesenti,
+          <lb ed="#P" n="49"/>licet alter paciscentium simoniace, si habeat
+          <lb ed="#P" n="50"/>intentionem implendi promissum, veram 
+          cul<lb break="no" ed="#P" n="51"/>pam simonia committat quoad affectum et
+          <lb ed="#P" n="52"/>mentem, tamen in re non exequitur veram
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>simoniam externam, de qua tractamus, sed
+          <lb ed="#P" n="54"/>tantum apparentem et putatam. Haec est 
+          opi<lb break="no" ed="#P" n="55"/>nio Cajetani, tom. 2 Opusc., tract. 9, q. 2,
+          <lb ed="#P" n="56"/>quem sequuntur Soto, lib. 9, quaest. 8, art. 1;
+          <lb ed="#P" n="57"/>Tolet., in Instruct., lib. 5, cap. 90, num. 4;
+          <lb ed="#P" n="58"/>Petrus Navar., lib. 2 de Restit., c. 2, n. Att,
+          <lb ed="#P" n="59"/>qui consequenter aiunt per hanc simoniam
+          <lb ed="#P" n="60"/>non incurri poenas contra simoniam latas ipso
+          <lb ed="#P" n="61"/>jure, quia non cadunt, nisi in verum 
+          delic<lb break="no" ed="#P" n="62"/>tum talis speciei, sicut adorans idola exterius
+          <lb ed="#P" n="63"/>sine intentione colendi, non incurrit poenas
+          <lb ed="#P" n="64"/>haereticorum.
+        </p>
+        <p>
+          <lb ed="#P" n="65"/>3. Dici potest simoniam fictam esse veram
+          <lb ed="#P" n="66"/>simoniam juata sententiam Navarri. — 
+          Con<lb break="no" ed="#P" n="67"/>firnatur primo. — Secundo. — Secundus 
+          mo<lb break="no" ed="#P" n="68"/>dus dicendi est, illam esse veram simoniam,
+          <lb ed="#P" n="69"/>et comprehendi in illa divisione sub simonia
+          <lb ed="#P" n="70"/>conventionali. Ita tenet Navarrus, in 
+          Com<lb break="no" ed="#P" n="71"/>ment. ad caput ultimum de Simon., num. 10,
+          <lb ed="#P" n="72"/>dicto cap. 23, numer. 106. S Ad tertium. 
+          Ra<lb break="no" ed="#P" n="73"/>tio ejus est, quia, licet promissio fuerit ficto
+          <lb ed="#P" n="74"/>animo facta, nihilominus commutatio rei 
+          spi<lb break="no" ed="#P" n="75"/>ritualis pro temporali fuit vera; et quamvis
+          <lb ed="#P" n="76"/>circa unpum pretium (ut sic dicam ) 
+          interces<lb break="no" ed="#P" n="77"/>serit fictio, et idco respectu illius sit tantum
+          <lb ed="#P" n="78"/>ficta emptio et venditio, nihilominus 
+          conside<lb break="no" ed="#P" n="79"/>rari ibi potest aliud pretium, seu aliquid 
+          tem<lb break="no" ed="#P" n="80"/>porale datum pro re spirituali, ratione cujus
+          <lb ed="#P" n="81"/>intercedit ibi vera simonia. Declaratur hoc
+          <lb ed="#P" n="82"/>ultimum, quia illa actio promittendi, etiamsi
+          <lb ed="#P" n="83"/>ficta sit, est vera actio realis, et temporale
+          <lb ed="#P" n="84"/>quid , et potest censeri pretio aestimabilis;
+          <lb ed="#P" n="85"/>nam revera qui sic promittit, etiam ficte, 
+          ali<lb break="no" ed="#P" n="86"/>quid facit valde onerosum, et non paucis 
+          pe<lb break="no" ed="#P" n="87"/>riculis expositum, sub qua ratione aestimabile
+          <lb ed="#P" n="88"/>pretio est : per hoc autem temporale intendit
+          <lb ed="#P" n="89"/>consequi beneficium, quod ad simoniam 
+          ve<lb break="no" ed="#P" n="90"/>ram sufhicit ; ergo est illa vera simonia : nam,
+          <lb ed="#P" n="91"/>licet ex una parte intercedat fictio, ex alia 
+          in<lb break="no" ed="#P" n="92"/>tercedit veritas et realitas, ut sic dicam. Et
+          <lb ed="#P" n="93"/>potest confirmari haec Navarri sententia. Nam,
+          <lb ed="#P" n="94"/>si quis promitteret centum aureos pro 
+          bene<lb break="no" ed="#P" n="95"/>ficio, intentione tradendi illos fictos ex 
+          auri<lb break="no" ed="#P" n="96"/>chalco, veram simoniam conventionalem 
+          com<lb break="no" ed="#P" n="97"/>mitteret, et si re ipsa solveret ilos fictos 
+          au<lb break="no" ed="#P" n="98"/>reos, consummaretur simonia realis, quia 
+          re<lb break="no" ed="#P" n="99"/>vera datur et recipitur aliquid temporale pro
+          <lb ed="#P" n="100"/>spirituali, etiamsi temporale non sit tale, 
+          qua<lb break="no" ed="#P" n="101"/>le a recipiente putatur ; hoc enim necessarium
+          <lb ed="#P" n="102"/>non est ad veram simoniam, nam in quocumque
+          <lb ed="#P" n="103"/>vili pretio committitur, ut supra dictum est;
+          <lb ed="#P" n="104"/>ergo similiter, qui confert verba promissoria
+          <lb ed="#P" n="105"/>pér instrumentum promissionis , animo non
+          <lb ed="#P" n="106"/>implendi, aliquid temporale confert pro 
+          spiri<lb break="no" ed="#P" n="107"/>tuali, quod satis est ad veram simoniam. Et
+          <pb ed="#P" n="876"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>confirmatur secundo : nam illa largitio, vel
+          <lb ed="#P" n="2"/>acceptio rei spiritualis non est gratuita, sed
+          <lb ed="#P" n="3"/>sub onere promittendi, quod licet exterius
+          <lb ed="#P" n="4"/>tantum fiat, onerosum est, ut dicebam ; et si
+          <lb ed="#P" n="5"/>unus ab alio peteret, ut pro se exterius se 
+          obli<lb break="no" ed="#P" n="6"/>aret, licet ficte, posset sine injustitia pro tali
+          <lb ed="#P" n="7"/>exteriori facto et obligatione pecunia 
+          postu<lb break="no" ed="#P" n="8"/>lari: sed datin et acceptio rei spirituaiis non
+          <lb ed="#P" n="9"/>gratuita, est vera simonia; ergo. Tandem
+          <lb ed="#P" n="10"/>confirmatur, quia qui per fictas laudes, vel
+          <lb ed="#P" n="11"/>alia falsa signa honoris, tanquam per pretium
+          <lb ed="#P" n="12"/>obtinet beneficium , veram simoniam 
+          com<lb break="no" ed="#P" n="13"/>mittit, ut supra dictum est; ergo idem est in
+          <lb ed="#P" n="14"/>praesenti, nam videtur eadem proportio. 
+          Ad<lb break="no" ed="#P" n="15"/>dit nihilominus Navarrus hanc simoniam non
+          <lb ed="#P" n="16"/>sufficere ad poenas ipso jure latas incurrendas,
+          <lb ed="#P" n="17"/>ex alio principio, quod illae non incurruntur,
+          <lb ed="#P" n="18"/>nist per realem simoniam ex utraque parte
+          <lb ed="#P" n="19"/>completam : haec autem non completur ex
+          <lb ed="#P" n="20"/>ntraque parte, cum pecunia non tradatur.
+        </p>
+        <p>
+          <lb ed="#P" n="21"/>4. Resolutio. — Non est hec in rigore 
+          si<lb break="no" ed="#P" n="22"/>snonia cum se habet ez parte dantis 
+          spiritua<lb break="no" ed="#P" n="23"/>le. — Cum fictio est em uiraque parte, non
+          <lb ed="#P" n="24"/>datwur vera simonia. —In hac re duo videntur
+          <lb ed="#P" n="25"/>mihi certa, et tertium esse aliquo modo 
+          dubi<lb break="no" ed="#P" n="26"/>tabile. Primo ergo, quando fictio intervenit
+          <lb ed="#P" n="27"/>ex parte ejus qui daturus est rem spiritualem,
+          <lb ed="#P" n="28"/>sine dubio nulla committitur vera simonia
+          <lb ed="#P" n="29"/>externa, sed tantum fictio, et mendacium 
+          il<lb break="no" ed="#P" n="30"/>lius. Probatur, quia ille, qui sic promittit ficte
+          <lb ed="#P" n="31"/>rem spiritualem, nullo modo intendit dare
+          <lb ed="#P" n="32"/>rem spiritualem pro temporali, neque ad id
+          <lb ed="#P" n="33"/>se obligare, et consequenter, neque habet 
+          ani<lb break="no" ed="#P" n="34"/>muin faciendi verum pactum ; ergo nequce in
+          <lb ed="#P" n="35"/>mente committit veram simoniam, neque 
+          ex<lb break="no" ed="#P" n="36"/>terius veram conventionem simoniacam. Et
+          <lb ed="#P" n="37"/>hoc evidenter convincunt argumenta facta
+          <lb ed="#P" n="38"/>pro opinione Cajetani. Ille ergo tantum peccat
+          <lb ed="#P" n="39"/>mendacio pernicioso, scandaloso, et sacrilego,
+          <lb ed="#P" n="40"/>quia injuriam facit rebus sacris, ita illis 
+          abu<lb break="no" ed="#P" n="41"/>tendo. Poterit etiam injustitiam et rapipam
+          <lb ed="#P" n="42"/>committere, si intendat illo medio pecuniam
+          <lb ed="#P" n="43"/>ab altero rapere, et promissionem ex parte
+          <lb ed="#P" n="44"/>sua non implere. Ex parte vero alterius, qui
+          <lb ed="#P" n="45"/>tunc promittit temporale vero animo 
+          implen<lb break="no" ed="#P" n="46"/>di, invenitur quidem vera simonia interior ac
+          <lb ed="#P" n="47"/>pure mentahs, fundata in falsa existimatione
+          <lb ed="#P" n="48"/>de simili intentione alterius ; tamen actio 
+          ex<lb break="no" ed="#P" n="49"/>terior, ut ab illo fit, etiam non est vera 
+          si<lb break="no" ed="#P" n="50"/>monia conventionalis, sed tantum putata,
+          <lb ed="#P" n="51"/>quia vera conventio non potest esse ex una
+          <lb ed="#P" n="52"/>parte tantum, ut etiam probant rationes factae
+          <lb ed="#P" n="53"/>circa primam opinionem. Hine secundo etiam
+          <lb ed="#P" n="54"/>est certum, quando fictio intercedit ex 
+          utra<lb break="no" ed="#P" n="55"/>que parte, nullam veram simoniam committi,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quia si defectus intentionis in uno 
+          contrahen<lb break="no" ed="#P" n="57"/>tium sufficit ad impediendam simoniam, 
+          mul<lb break="no" ed="#P" n="58"/>to magis in utroque. Item quia tunc in nullo
+          <lb ed="#P" n="59"/>illorum contrahentium est vera simonia 
+          men<lb break="no" ed="#P" n="60"/>talis, nisi fortasse ex conscientia erronea, et
+          <lb ed="#P" n="61"/>per modum scandali, quatenus uterque 
+          existi<lb break="no" ed="#P" n="62"/>mat decipere alium, et inducere illum ad 
+          ve<lb break="no" ed="#P" n="63"/>ram simoniam committendam ; tamen directe
+          <lb ed="#P" n="64"/>neuter intendit facere veram simoniam ; ergo
+          <lb ed="#P" n="65"/>neque actus exterior potest esse vera simonia
+          <lb ed="#P" n="66"/>conventionalis, aut realis.
+        </p>
+        <p>
+          <lb ed="#P" n="67"/>5. Si fictio sit tantum ex parte promittentis
+          <lb ed="#P" n="68"/>pecuniam, non erit etiam cera simonia.—bico
+          <lb ed="#P" n="69"/>tertio : licet opinio Navarri non careat omni
+          <lb ed="#P" n="70"/>specie probabilitatis, nihilominus vera 
+          sen<lb break="no" ed="#P" n="71"/>tentia est, quamvis fictio intercedat tantum ex
+          <lb ed="#P" n="72"/>parte promittentis pecuniam, illam non foere
+          <lb ed="#P" n="73"/>simoniam conventionalem , nec per illam
+          <lb ed="#P" n="74"/>fuisse incurrendas poenas ipso jure latas,
+          <lb ed="#P" n="75"/>etiamsi contra simoniam conventionalem, vel
+          <lb ed="#P" n="76"/>ex altera tantum paste completam latae essent,
+          <lb ed="#P" n="77"/>ut de facto est multorum opinio. Probatur 
+          ra<lb break="no" ed="#P" n="78"/>tione facta, quia ibi non intervenit vera 
+          con<lb break="no" ed="#P" n="79"/>ventio, neque emptio aut venditio. Nec 
+          satis<lb break="no" ed="#P" n="80"/>facit quod Navarrus respondet, distinguendo
+          <lb ed="#P" n="81"/>inter emptionem, et venditionem, et 
+          largitio<lb break="no" ed="#P" n="82"/>nem spiritualis pro temporali; haec enim duo
+          <lb ed="#P" n="83"/>in praeseuti materia videntur converti, vel 
+          po<lb break="no" ed="#P" n="84"/>tius se habere tanquam definitio et definitum,
+          <lb ed="#P" n="85"/>ut constat ex dictis supra in definitione 
+          simo<lb break="no" ed="#P" n="86"/>niae; si ergo ibi non intervenit emptio ex 
+          de<lb break="no" ed="#P" n="87"/>fectu intentionis, nec vera commutatio, aut
+          <lb ed="#P" n="88"/>pactio dandi spirituale prc temporali 
+          interve<lb break="no" ed="#P" n="89"/>nire potest. Et explicatur, nam, licet ille 
+          dece<lb break="no" ed="#P" n="90"/>ptor intendat, mediante illa promissione falsa,
+          <lb ed="#P" n="91"/>obtinere beneficium, non tamen intendit dare
+          <lb ed="#P" n="92"/>ipsammet promissionem, ut pretium beneficii,
+          <lb ed="#P" n="93"/>sed solum ficte offerre id, quod alter putat esse
+          <lb ed="#P" n="94"/>futurum pretium. Unde etiam alter non 
+          inten<lb break="no" ed="#P" n="95"/>dit dare beneficium pro promissione, sed pro
+          <lb ed="#P" n="96"/>re promissa, et promissio tunc se habet 
+          tan<lb break="no" ed="#P" n="97"/>quam conditio conferens certitudinem de 
+          pre<lb break="no" ed="#P" n="98"/>tio; ergo licet illa promissio aliquid temporale
+          <lb ed="#P" n="99"/>sit, non satis est ad simoniam veram, nam
+          <lb ed="#P" n="100"/>preces sunt aliquid temporale, et non 
+          suffi<lb break="no" ed="#P" n="101"/>ciunt ad simoniam, quia non offeruntur ut
+          <lb ed="#P" n="102"/>pretium; ita ergo illa promissio non offertur
+          <lb ed="#P" n="103"/>in pretium. Et confirmatur ad hominem 
+          con<lb break="no" ed="#P" n="104"/>tra Navarrum; nam quando promissio est 
+          ve<lb break="no" ed="#P" n="105"/>ra, non potest illa promissio dici pars pretu,
+          <lb ed="#P" n="106"/>alioquin, eo ipso quod daretur beneficium in
+          <lb ed="#P" n="107"/>virtute promissionis, esset simonia realis ex
+          <lb ed="#P" n="108"/>utraque parte completa, quia jam esset soluta
+          <lb ed="#P" n="109"/>pars pretii, quod sufficit ad complementum
+          <lb ed="#P" n="110"/>simoniae realis, ut ipse Navarrus alias fatetur,
+          <pb ed="#P" n="877"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cum tamen neget promissionem etiam veram
+          <lb ed="#P" n="2"/>sufficere; non est ergo pars pretii secundum
+          <lb ed="#P" n="3"/>illum ; ergo multo minus promissio ficta 
+          po<lb break="no" ed="#P" n="4"/>test dici pretium, aut pars pretii; ergo non
+          <lb ed="#P" n="5"/>datur beneficium pro illa tanquam pro pretio;
+          <lb ed="#P" n="6"/>ergo non committitur vera simonia, etiamsi
+          <lb ed="#P" n="7"/>quis vtatur illo medio tanquam via (ut sic 
+          di<lb break="no" ed="#P" n="8"/>cam), seu prava industria ad obtinendum 
+          be<lb break="no" ed="#P" n="9"/>neficium, quia hoc non pertinet ad 
+          commuta<lb break="no" ed="#P" n="10"/>tionem unius pro alio. Est ergo illud grave
+          <lb ed="#P" n="11"/>peccatum injustae deceptionis, scandali, vel
+          <lb ed="#P" n="12"/>cooperationis ad simoniam mentalem alterius,
+          <lb ed="#P" n="13"/>et in foro exteriori puniri poterit per judicem,
+          <lb ed="#P" n="14"/>et propter dictas malitias, et propter 
+          praesum<lb break="no" ed="#P" n="15"/>ptam simoniam; dizccte autem et proprie non
+          <lb ed="#P" n="16"/>est vera simonia.
+        </p>
+        <p>
+          <lb ed="#P" n="17"/>6. Rationes pro Nacvarro resolvuntur. —
+          <lb ed="#P" n="18"/>Fundamentum ergo Navarri ex dictis 
+          solu<lb break="no" ed="#P" n="19"/>tum est. Exemplum autem adductum in 
+          pri<lb break="no" ed="#P" n="20"/>ma confirmatione, non est simile, quia in
+          <lb ed="#P" n="21"/>illo intervenit vera intentio solvendi saltem
+          <lb ed="#P" n="22"/>aliquid pretii, quod, licet sit quid minimum
+          <lb ed="#P" n="23"/>et vile respectu pretii commissi, sufficit ad
+          <lb ed="#P" n="24"/>veram simoniam. Ad secundam vero 
+          confir<lb break="no" ed="#P" n="25"/>mationem respondetur, collationem beneficii
+          <lb ed="#P" n="26"/>ex parte recipientis accipi revera ut 
+          gratui<lb break="no" ed="#P" n="27"/>tam, quia non habet animum aliquid solvendi
+          <lb ed="#P" n="28"/>pro beneficio; ex parte vero dantis, non est
+          <lb ed="#P" n="29"/>gratuita ex vi intentionis ejus; procedit tamen
+          <lb ed="#P" n="30"/>ex falsa existimatione, et ideo in re ipsa non
+          <lb ed="#P" n="31"/>constituit veram conventionalem actionem,
+          <lb ed="#P" n="32"/>nec largitionem ex illa procedentem, sed 
+          tan<lb break="no" ed="#P" n="33"/>tum existimatam. Ultima vero confirmatio ex
+          <lb ed="#P" n="34"/>dictis expedita est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

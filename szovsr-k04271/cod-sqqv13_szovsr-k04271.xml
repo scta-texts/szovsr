@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 21</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 21</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="172"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k04271"><!-- t2-l1c21 -->
+        <head>Caput 21</head>
+        <head type="question-title">An secundum commune jus, decimae solvendae sint ecclesia parochiali.</head>
+        <p>
+          <lb ed="#P" n="42"/>CAPUT XXI.
+          <lb ed="#P" n="43"/>AN SECUNDUM COMMUNE JUS, DECIMAE SOLVENDUE
+          <lb ed="#P" n="44"/>SINT ECCLESIA PAROCHIALI.
+        </p>
+        <p>
+          <lb ed="#P" n="45"/>1. Personales decimas deberi proprie 
+          paro<lb break="no" ed="#P" n="46"/>chiee. — Ratio conclusionis. — Quoniam hoc
+          <lb ed="#P" n="47"/>decimarum debitum non est immediate ad
+          <lb ed="#P" n="48"/>Deum, sed ad homines intuitu Dei, ideo,
+          <lb ed="#P" n="49"/>postquam dictum est de personis quae decimas
+          <lb ed="#P" n="50"/>debent, dicendum sequitur de illis quibus 
+          de<lb break="no" ed="#P" n="51"/>bentur ; sed quia personae illae semper habent
+          <lb ed="#P" n="52"/>respectum ad locum, seu ecclesiam aliquam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>cui inserviunt, ideo prius de locis, postea de
+          <lb ed="#P" n="54"/>personis, quibus decimae so'vendae sunt, 
+          dice<lb break="no" ed="#P" n="55"/>mus. In priori ergo puncto, distinguendum
+          <lb ed="#P" n="56"/>est quid jure communi debeatur, quid vero
+          <lb ed="#P" n="57"/>aliis titulis excipi possit ac debeat. Et quoniam
+          <lb ed="#P" n="58"/>diversa est difficultas de decimis praedialibus,
+          <lb ed="#P" n="59"/>de personalibus prius dicemus. Sitque 
+          genera<lb break="no" ed="#P" n="60"/>lis regula, personales decimas, ex vi juris 
+          com<lb break="no" ed="#P" n="61"/>munis, deberi propriae parochiae in qua quis
+          <lb ed="#P" n="62"/>tenetur ex eodem jure, vel Missas debitis 
+          tem<lb break="no" ed="#P" n="63"/>poribus audire, vel sacramenta recipere, etc.
+          <lb ed="#P" n="64"/>Ita divus Thomas, dicta quaest. 87, art. 3, ad
+          <lb ed="#P" n="65"/>2. et ibi omnes ; Abulens., in c. 23 Matth.,
+          <lb ed="#P" n="66"/>quaest. 196; Sylvester, verb. Decima, n. 14;
+          <lb ed="#P" n="67"/>Canonistae omnes in sequentibus capitibus:
+          <lb ed="#P" n="68"/>expresse enim hoc traditum est in cap. Ad
+          <lb ed="#P" n="69"/>apostolice, de Decimis, et cap. Significacit,
+          <lb ed="#P" n="70"/>de Parochiis, et in cap. Questi, cap. 
+          Statui<lb break="no" ed="#P" n="71"/>mus, cap. In sacris, 16, quaest. 1. Et de eisdem
+          <lb ed="#P" n="72"/>decimis est maxime intelligendus textus in
+          <lb ed="#P" n="73"/>cap. de Decimis, ibidem. Ratio vero est, quia
+          <lb ed="#P" n="74"/>decimantur in sustentationem eorum qui 
+          spi<lb break="no" ed="#P" n="75"/>ritualia ministrant ; ergo unusquisque fidelis
+          <lb ed="#P" n="76"/>illi maxime tenetur eas solvere, qui tenetur ei
+          <lb ed="#P" n="77"/>ex officio spiritualia ministrare ; ergo illi 
+          eccle<lb break="no" ed="#P" n="78"/>siae debet eas solvere, ubi sacramenta recipit,
+          <lb ed="#P" n="79"/>nam parochus illius ecclesiae est proprius 
+          sa<lb break="no" ed="#P" n="80"/>cerdos et minister ejus.
+        </p>
+        <p>
+          <lb ed="#P" n="81"/>2. Confirmatur assertio. — Declaratur 
+          prae<lb break="no" ed="#P" n="82"/>terea in hunc modum, quia decimae personales
+          <lb ed="#P" n="83"/>non sunt onus reale, id est, rei extra personam,
+          <lb ed="#P" n="84"/>sed mere personale ; ergo maxime debetur ab
+          <lb ed="#P" n="85"/>ipsa persona ratione ministerii, seu officii,
+          <lb ed="#P" n="86"/>quod circa illam ecclesiam exercet; ergo ill
+          <lb ed="#P" n="87"/>ecclesia debetur decima personalis, in qua
+          <lb ed="#P" n="88"/>persona ipsa hoc beneficium suscipit. Et eadem
+          <lb ed="#P" n="89"/>ratio probat de rectore ejusdem ecclesiae, quod
+          <lb ed="#P" n="90"/>ei debeantur tales decimae, quia ipse rector
+          <lb ed="#P" n="91"/>suo parochiano inservit, ut a fortiori probat
+          <lb ed="#P" n="92"/>capit. Novrum, de Decimis, in secunda parte
+          <lb ed="#P" n="93"/>illius. Unde infertur, quod si persona mutet
+          <lb ed="#P" n="94"/>domicilium in aliam parochiam, licet habeat
+          <lb ed="#P" n="95"/>possessionem in alia, decimas personales debet
+          <lb ed="#P" n="96"/>solvere ibi, ubi habet domicilium, quia ibi 
+          sus<lb break="no" ed="#P" n="97"/>cipit Sacramenta, etc. At vero si non mutet
+          <lb ed="#P" n="98"/>domicilium, licet extra suam parochiam 
+          labo<lb break="no" ed="#P" n="99"/>ret, negotietur, aut lucretur etiam per magnam
+          <lb ed="#P" n="100"/>anni partem, semper solvere debet decimas
+          <lb ed="#P" n="101"/>personales illi ecelesiae ubi habet domicilium,
+          <lb ed="#P" n="102"/>quia ibi per se recipit divina, licet ex accidenti
+          <lb ed="#P" n="103"/>contingat, ratione absentise et peregrinationis
+          <lb ed="#P" n="104"/>alibi ea recipere. Quod totum ex dicto cap.
+          <pb ed="#P" n="173"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Ad apostolice colligitur, et optime 
+          confirma<lb break="no" ed="#P" n="2"/>tur ex cap. 3de Sepult., num. 6. Quod si 
+          con<lb break="no" ed="#P" n="3"/>tineat unam personam habere duo domicilia
+          <lb ed="#P" n="4"/>imn diversis parochiis, tunc, si unum sit 
+          princi<lb break="no" ed="#P" n="5"/>pale, aliud quas: accessorium, priori ecclesiae
+          <lb ed="#P" n="6"/>debentur decimae personales ; si vero sint
+          <lb ed="#P" n="7"/>equalia domicilia, dividuntur decimae, ut 
+          re<lb break="no" ed="#P" n="8"/>solvit Rebuffus supra, quaestione sexta, ubi
+          <lb ed="#P" n="9"/>alios similes casus sufficienter prosequitur.
+          <lb ed="#P" n="10"/>Sed non oportet immorari, quia hae decimae
+          <lb ed="#P" n="11"/>personales fere sunt omnino sublatae per 
+          con<lb break="no" ed="#P" n="12"/>suetudinem, ita ut nullibi solvantur, ut 
+          nota<lb break="no" ed="#P" n="13"/>vit Panormitanus, in cap. Cum homines, de
+          <lb ed="#P" n="14"/>Decimis, n. 5, in fine. Si alicubi tamen so'-
+          <lb ed="#P" n="15"/>vuntur, semper propriae ecclesiae solvuntur;
+          <lb ed="#P" n="16"/>neque legi alicubi esse consuetudinem, ut 
+          per<lb break="no" ed="#P" n="17"/>sona ex propriis personalibus lucris decimas
+          <lb ed="#P" n="18"/>solvat extra suam parochiam.
+        </p>
+        <p>
+          <lb ed="#P" n="19"/>3. Si domicilium in una parochia fuerit, et
+          <lb ed="#P" n="20"/>pradia iu alia, cui decima solvenda. — De
+          <lb ed="#P" n="21"/>decimis autem praedialibus est specialis 
+          diffi<lb break="no" ed="#P" n="22"/>cultas, quae inde oritur, quod aliquando 
+          con<lb break="no" ed="#P" n="23"/>tingit personam habitare in una parochia, ubi
+          <lb ed="#P" n="24"/>habet domicilium, in alia vero habere praedia,
+          <lb ed="#P" n="25"/>ex quibus percipit fructus. (uod interdum 
+          con<lb break="no" ed="#P" n="26"/>tingit in diversis episcopat:bus, interdum vero
+          <lb ed="#P" n="27"/>in diversis parochiis ejusdem episcopatus.
+          <lb ed="#P" n="28"/>Nam sicut dioeceses, et territoria episcopatuum
+          <lb ed="#P" n="29"/>divisa olim fuerunt per localia spatia, quae suis
+          <lb ed="#P" n="30"/>propriis terminis clauduntur, ita in 
+          unaqua<lb break="no" ed="#P" n="31"/>que dioecesi divisa fuerunt territoria 
+          parochia<lb break="no" ed="#P" n="32"/>lia, (ut sic dicam) quae singulis ecclesiis 
+          fue<lb break="no" ed="#P" n="33"/>runt commissa, quae ecclesiae parochiales 
+          vo<lb break="no" ed="#P" n="34"/>cantur, et unicuique tali ecclesiae praeficitur
+          <lb ed="#P" n="35"/>sacerdos aliquis tanquam rector, cui talis 
+          ec<lb break="no" ed="#P" n="36"/>clesiae demandata est cura, omniumque 
+          habi<lb break="no" ed="#P" n="37"/>tantium intra ambitum loci tali ecclesiae 
+          desi<lb break="no" ed="#P" n="38"/>gnatum ; et totum illud spatium solet parochia
+          <lb ed="#P" n="39"/>appellari, ut constat ex toto titulo de 'arochiis,
+          <lb ed="#P" n="40"/>et Doctor. ibi, in Rub., et ex cap. primo, 13,
+          <lb ed="#P" n="41"/>quaest. prima, ubi Turrecrem. et alii, et ex
+          <lb ed="#P" n="42"/>Sylvestr. et aliis, verb. Parochia. Facta ergo
+          <lb ed="#P" n="43"/>hac divisione, optime intelligitur posse aliquem
+          <lb ed="#P" n="44"/>habere domicilium (id est, suae stabilis 
+          habita<lb break="no" ed="#P" n="45"/>tionis domum) in territorio unius parochiae,
+          <lb ed="#P" n="46"/>et possessiones ac fructus in alia parochia
+          <lb ed="#P" n="47"/>ejusdem vel alterius episcopatus, et ita habere
+          <lb ed="#P" n="48"/>duas parochias, unam personae, quam 
+          perso<lb break="no" ed="#P" n="49"/>nalem vocare possumus, aliam praediorum,
+          <lb ed="#P" n="50"/>quae preedialis nominetur : cui ergo parochiae
+          <lb ed="#P" n="51"/>decimas praediales solvet? Videri enim potest
+          <lb ed="#P" n="52"/>quod eas debeat ecclesiae domicilii, quia ibi 
+          re<lb break="no" ed="#P" n="53"/>cipit sacramenta, et omnia ministeria, ratione
+          <lb ed="#P" n="54"/>quorum debet decimas, ut late argumentatur
+          <lb ed="#P" n="55"/>Gratianus in illa quaest. 1, causae 13, fere per
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>totam. Quam quaestionem adeo difficilem 
+          judi<lb break="no" ed="#P" n="57"/>cavit Alexander lI, in cap. Cum sint, de 
+          deci<lb break="no" ed="#P" n="58"/>mis, ut consuetudinem consulendam esse 
+          dixe<lb break="no" ed="#P" n="59"/>rit, nec aliter illam definierit.
+        </p>
+        <p>
+          <lb ed="#P" n="60"/>4. Praediales decime solvende uli sunt
+          <lb ed="#P" n="61"/>praedia. — Nihilominus dicendum est primo,
+          <lb ed="#P" n="62"/>ordinario jure decimas praediales illi ecclesiae
+          <lb ed="#P" n="63"/>solvendas esse, in cujus parochia sunt praedia.
+          <lb ed="#P" n="64"/>Haec est certa, et communis resolutio divi
+          <lb ed="#P" n="65"/>Thomae, Abulens. et aliorum Theologorum,
+          <lb ed="#P" n="66"/>Juristarum, et Summistarum in locis citatis,
+          <lb ed="#P" n="67"/>et explicando jura ex quibus illa probatur,
+          <lb ed="#P" n="68"/>quae multa sunt : imprimis cap. Cum 
+          contin<lb break="no" ed="#P" n="69"/>gat, cap. Cum in tua, de Decimis; idemque
+          <lb ed="#P" n="70"/>supponitur in cap. Quoniam, eod. tit., et cap.
+          <lb ed="#P" n="71"/>ultim., in fine, de Parochiis, et optime in cap.
+          <lb ed="#P" n="72"/>ultim. de Restit. spoliat., in 6. Ratio vero 
+          su<lb break="no" ed="#P" n="73"/>menda est ex ipsamet ecclesiae iustitutione,
+          <lb ed="#P" n="74"/>et parochiarum divisione; per eam enim 
+          fac<lb break="no" ed="#P" n="75"/>tum est ut praedia omnia, seu terrae sitae in
+          <lb ed="#P" n="76"/>territorio uniuscujusque parochialis ecclesiae
+          <lb ed="#P" n="77"/>illi applicarentur, ut illi solverentur decimae
+          <lb ed="#P" n="78"/>ex omnibus illis terris, quibus ex vi ejusdem
+          <lb ed="#P" n="79"/>communis juris hoc onus reale impositum
+          <lb ed="#P" n="80"/>est. Hinc ergo fit ut, sicut illae terrae 
+          immu<lb break="no" ed="#P" n="81"/>tabiliter manent in illo territorio, ita etiam
+          <lb ed="#P" n="82"/>jus illius ecclesiae parochialis ad tales decimas
+          <lb ed="#P" n="83"/>immutabile sit ex vi juris communis, 
+          quan<lb break="no" ed="#P" n="84"/>tumcumque persona habens dominium talium
+          <lb ed="#P" n="85"/>terrarum mutet domicilium suum, seu 
+          paro<lb break="no" ed="#P" n="86"/>chiam, quia in solvendo reali onere non 
+          con<lb break="no" ed="#P" n="87"/>sideratur persona, sed res ipsa, juxta leg.
+          <lb ed="#P" n="88"/>Imperatores, ft. de Publican. et vectigal. Quod
+          <lb ed="#P" n="89"/>autem talis fuerit ecclesiae institutio, ex 
+          alle<lb break="no" ed="#P" n="90"/>gatis juribus colligitur. ltem ex dicto cap. 1,
+          <lb ed="#P" n="91"/>13, q. 1, ubi Dionysius Papa sic inquit : 
+          Zccle<lb break="no" ed="#P" n="92"/>sias singulas singulis presbyteris dedumus 
+          pa<lb break="no" ed="#P" n="93"/>rochias, et cemeteria eis divisimus, et 
+          unicui<lb break="no" ed="#P" n="94"/>que jus propriun habere statumus, ita ut
+          <lb ed="#P" n="95"/>nullus alterius parochiee terminos aut jus 
+          in<lb break="no" ed="#P" n="96"/>vadat, sed sit unusquisque suis terminis 
+          con<lb break="no" ed="#P" n="97"/>tentus. Quibus verbis satis declarat jus illud
+          <lb ed="#P" n="98"/>fundatum esse in ipso territorio, eique quasi
+          <lb ed="#P" n="99"/>affixsum, et hoc est esse onus reale Quod 
+          op<lb break="no" ed="#P" n="100"/>tume confirmat Concilium Moguntinum, in
+          <lb ed="#P" n="101"/>c. S quis laicus, vel clericus, 16, quaest. 1, 
+          di<lb break="no" ed="#P" n="102"/>cens : Si quis laicus, vel clericus, vel 
+          utrius<lb break="no" ed="#P" n="103"/>que sexus persona, proprietalis sue loca vel
+          <lb ed="#P" n="104"/>res alicui dare delegaverit, decimationum 
+          pro<lb break="no" ed="#P" n="105"/>ventum priori ecclesiee legitime assignatum 
+          in<lb break="no" ed="#P" n="106"/>de abstrahere nullam habeat potaestatem. Et
+          <lb ed="#P" n="107"/>quicquid in contrarium tentatum fuerit, 
+          de<lb break="no" ed="#P" n="108"/>claratur ibidem irritum et inane, qu'a 
+          sem<lb break="no" ed="#P" n="109"/>per a possessore terrae poterit decima peti,
+          <lb ed="#P" n="110"/>quia res transit cum onere suo, ut ibi Glossa
+          <pb ed="#P" n="174"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>advertit : fuit ergo hoc onus impositum ipsis
+          <lb ed="#P" n="2"/>terris, seu proprietatibus. Et idem habetur ex
+          <lb ed="#P" n="3"/>cap. Ecclesim , et capit. Quicumgue, eadem
+          <lb ed="#P" n="4"/>causa et quaest.
+        </p>
+        <p>
+          <lb ed="#P" n="5"/>5. Convenientia hnujus rei. — Fuitque haec
+          <lb ed="#P" n="6"/>institutio magna ratione facta in hunc 
+          mo<lb break="no" ed="#P" n="7"/>dum, ut jura ecclesiarum, quoad fieri posset,
+          <lb ed="#P" n="8"/>firma et immutabilia permanerent. Nam si
+          <lb ed="#P" n="9"/>praediorum jura transferrentur cum personis,
+          <lb ed="#P" n="10"/>intfinita esset confusio, cum personae ipsae 
+          quo<lb break="no" ed="#P" n="11"/>tidie mutentur, vel praedia in hoc territorio
+          <lb ed="#P" n="12"/>existentia vendantur, donentur, aut legentur
+          <lb ed="#P" n="13"/>hominibus in alia dioecesi vel parochia 
+          degen<lb break="no" ed="#P" n="14"/>tibus; unde fieret ut proprietates ecclesiarum
+          <lb ed="#P" n="15"/>essent permistae, nam hodie ad hanc, cras ad
+          <lb ed="#P" n="16"/>illam ecclesiam pertinerent. Quam rationem
+          <lb ed="#P" n="17"/>attigit Alexander IIT, in dicto cap. Cum sint
+          <lb ed="#P" n="18"/>homines, dicens : Difficile nimis cidetur, quod
+          <lb ed="#P" n="19"/>una ecclesia in episcopatu alterius accipiat
+          <lb ed="#P" n="20"/>decimas, cum exm hoc episcopatuum fines 
+          con<lb break="no" ed="#P" n="21"/>fundi non immerito viderentur. Ubi licet de
+          <lb ed="#P" n="22"/>solis episcopatibus loquatur, in quibus illud
+          <lb ed="#P" n="23"/>inconveniens majus est, et clarius cernitur,
+          <lb ed="#P" n="24"/>tamen etiam habet locum in parochiis, ut
+          <lb ed="#P" n="25"/>aperte supponitur in cap. Super eo, de 
+          Paro<lb break="no" ed="#P" n="26"/>chiis, et in cap. Zicet, 16, quaest. 3, et juvat
+          <lb ed="#P" n="27"/>cap. Quicumque, ibid., et cap. 9 de Reformat.,
+          <lb ed="#P" n="28"/>Concilii Tridentini, sess. 14, et optime in sess.
+          <lb ed="#P" n="29"/>24, c. 13, in fine.
+        </p>
+        <p>
+          <lb ed="#P" n="30"/>6. Per hoc uulli parochiee fit injuria. — Nec
+          <lb ed="#P" n="31"/>vero per hanc institutionem aliqua injuria fit
+          <lb ed="#P" n="32"/>illi ecclesiae, quae sacramenta ministrat 
+          perso<lb break="no" ed="#P" n="33"/>nis habentibus praedia in aliis ecclesiis; tum
+          <lb ed="#P" n="34"/>quia jus ecclesiarum aequale est per se 
+          loquen<lb break="no" ed="#P" n="35"/>do, et per accidens est quod huic ecclesiae hoc
+          <lb ed="#P" n="36"/>incommodum contineat ; potuisset enim etiam
+          <lb ed="#P" n="37"/>alteri accidere, et poterit cursu temporis 
+          com<lb break="no" ed="#P" n="38"/>mutari ; tum etiam quia unicuique ecclesiae
+          <lb ed="#P" n="39"/>semper manent integra ex vi communis juris
+          <lb ed="#P" n="40"/>sua praedia, quorum decimae visae sunt 
+          suffi<lb break="no" ed="#P" n="41"/>cere ad clericorum sustentationem. Quod ergo
+          <lb ed="#P" n="42"/>in aliqua crescat numerus parochianorum 
+          si<lb break="no" ed="#P" n="43"/>ne augmento praedialium decimarum, non
+          <lb ed="#P" n="44"/>est inconveniens; tum quia jam supponitur
+          <lb ed="#P" n="45"/>jus naturale impletum per congruam 
+          susten<lb break="no" ed="#P" n="46"/>tationem ; tum etiam quia saepe augetur ille
+          <lb ed="#P" n="47"/>numerus personarum ex pauperibus, qui 
+          nul<lb break="no" ed="#P" n="48"/>libi habent praedia: quid ergo refert quod
+          <lb ed="#P" n="49"/>augeatur ex aliquibus habentibus ea in alio
+          <lb ed="#P" n="50"/>territorio? tum denique quia semper hi 
+          paro<lb break="no" ed="#P" n="51"/>chiani aliquid conferunt vel ex decimis 
+          perso<lb break="no" ed="#P" n="52"/>nalibus, vel ex oblationibus, et quotidianis
+          <lb ed="#P" n="53"/>contributionibus, quae solent esse majores,
+          <lb ed="#P" n="54"/>quando parochiani divites sunt, etiamsi in
+          <lb ed="#P" n="55"/>aliis ecclesiis praedia sua possideant. Accedit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tandem quod humanae leges considerant id,
+          <lb ed="#P" n="57"/>quod frequentius accidit ; frequentius autem
+          <lb ed="#P" n="58"/>accidit, ut domini praediorum parochiani sint
+          <lb ed="#P" n="59"/>illius ecclesiae, in cujus territorio praedia 
+          exis<lb break="no" ed="#P" n="60"/>tunt; quod autem in hoc contingat mutatio,
+          <lb ed="#P" n="61"/>rarum est et accidentarium, nec debet 
+          praeju<lb break="no" ed="#P" n="62"/>dicium afferre ipsi ecclesiae parochiali, quia
+          <lb ed="#P" n="63"/>ipsa parata est de se administrare eis 
+          sacra<lb break="no" ed="#P" n="64"/>menta, si in suis fundis habitare voluerint.
+          <lb ed="#P" n="65"/>(Rebuffus, q. 5, n. 19, q. 6, n.11, q. 14, n. 39.)
+        </p>
+        <p>
+          <lb ed="#P" n="66"/>1. Quid in simili casu sentiendum de 
+          deci<lb break="no" ed="#P" n="67"/>mis miaxtis. — RHatio dubitandi. — Superest
+          <lb ed="#P" n="68"/>vero videndum, quid dicendum sit in 
+          quaes<lb break="no" ed="#P" n="69"/>tione simili de decimis ex fructibus et foetibus
+          <lb ed="#P" n="70"/>pecorum, quas supra misxtas appeari 
+          dixi<lb break="no" ed="#P" n="71"/>mus. Est enim quaedam differentia inter has
+          <lb ed="#P" n="72"/>et praecedentes, quod res illae, seu animalia
+          <lb ed="#P" n="73"/>unde producuntur, non sunt immobilia, sicut
+          <lb ed="#P" n="74"/>sunt praedia; unde fit ut interdum intra 
+          pro<lb break="no" ed="#P" n="75"/>priam parochiam domini sui fructificent , 
+          in<lb break="no" ed="#P" n="76"/>terdum extra illam. Quando ergo intra illam
+          <lb ed="#P" n="77"/>habitant, et ibi producunt fructos suos, 
+          cla<lb break="no" ed="#P" n="78"/>rum est eorum decimas ecclesia parochiali
+          <lb ed="#P" n="79"/>ipsiusmet domini esse reddendas, quia tunc
+          <lb ed="#P" n="80"/>et persona, et res fructiferae ibi permanentem
+          <lb ed="#P" n="81"/>habitationem habent. Contingit autem ut haec
+          <lb ed="#P" n="82"/>animalia, ut oves, verbi gratia, in hyeme in
+          <lb ed="#P" n="83"/>uno loco pascantur, et maneant longe ab 
+          ec<lb break="no" ed="#P" n="84"/>clesia parochiali, imo interdum etiam a 
+          dioe<lb break="no" ed="#P" n="85"/>cesi et provincia, in aestate vero ad propriam
+          <lb ed="#P" n="86"/>habitationem reducantur. Tunc ergo 
+          difficul<lb break="no" ed="#P" n="87"/>tas est, an sequantur conditionem personalium
+          <lb ed="#P" n="88"/>vel praedialium decimarum ; et consequenter
+          <lb ed="#P" n="89"/>an tales decimae solvendae sint ubi fructus
+          <lb ed="#P" n="90"/>percipiuntur, vel ubi dominus fructuum 
+          reci<lb break="no" ed="#P" n="91"/>pit sacramenta. Et ratio dubii est primo, quia
+          <lb ed="#P" n="92"/>jura nihil in hoc casu de his decimis 
+          dispo<lb break="no" ed="#P" n="93"/>nunt; dictum enim cap. Ad apostolice, solum
+          <lb ed="#P" n="94"/>distinguit de personalibus decimis messium,
+          <lb ed="#P" n="95"/>ac fructuum arborum, de his vero mistis 
+          ni<lb break="no" ed="#P" n="96"/>hil dicit, nec in alio textu disponitur, quem
+          <lb ed="#P" n="97"/>ego viderim : nam capitul. Commissum, quod
+          <lb ed="#P" n="98"/>adduci solet, non agit de animalibus, sed de
+          <lb ed="#P" n="99"/>pascuis, quorum decimae etiam praediales sunt,
+          <lb ed="#P" n="100"/>ut constat. Secundo, quia hae decimae sunt
+          <lb ed="#P" n="101"/>mistae, et ideo non apparet cujus extremi 
+          na<lb break="no" ed="#P" n="102"/>turam sequantur; nam personalibus multum
+          <lb ed="#P" n="103"/>assimilantur in hoc, quod ex hominum 
+          in<lb break="no" ed="#P" n="104"/>dustria maxime pendere videntur; 
+          praediali<lb break="no" ed="#P" n="105"/>bus vero in hoc, quod immediate non ex
+          <lb ed="#P" n="106"/>lucris actionum, sed ex fructibus rerum 
+          pos<lb break="no" ed="#P" n="107"/>sessarum ab homine proveniunt.
+        </p>
+        <p>
+          <lb ed="#P" n="108"/>8. Resolvitur questio. — Navarri opinio.
+          <lb ed="#P" n="109"/>—In hoc puncto communis resolutio est, jn eo
+          <lb ed="#P" n="110"/>casu dividendas esse decimas, et pro rata tem-
+          <pb ed="#P" n="175"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>poris unicuique ecclesia partem fructuum
+          <lb ed="#P" n="2"/>esse reddendam ; ita ut si per totum dimidium
+          <lb ed="#P" n="3"/>annum in alia ecclesia oves habuerunt pascua,
+          <lb ed="#P" n="4"/>illi dimidia pars decimarum solvatur, alia 
+          ve<lb break="no" ed="#P" n="5"/>ro dimidia detur propriae ecclesiae ipsius 
+          per<lb break="no" ed="#P" n="6"/>sona, si in ea per alium dimidium annum
+          <lb ed="#P" n="7"/>commorantur et pascuntur : quod si in alia
+          <lb ed="#P" n="8"/>tertia ecclesia per aliquam notabilem partem
+          <lb ed="#P" n="9"/>anni, verbi gratia, quartam, depastae sunt
+          <lb ed="#P" n="10"/>oves, illi etiam sua pars proportionalis detur,
+          <lb ed="#P" n="11"/>et diminuatur alteri, in qua temporis etiam
+          <lb ed="#P" n="12"/>diminutio facta est. Ratio est, quia hae decimae
+          <lb ed="#P" n="13"/>simpliciter sunt praediales, et in canonibus sub
+          <lb ed="#P" n="14"/>illis comprehenduntur, ut in principio hujus
+          <lb ed="#P" n="15"/>materiae ostendimus, et ideo illarum naturam
+          <lb ed="#P" n="16"/>et legem sequuntur. Et potest confirmari, quia
+          <lb ed="#P" n="17"/>decimae pascuorum debentur ecclesiae 
+          prae<lb break="no" ed="#P" n="18"/>diali, argument. dicti cap. Commissum ; ergo
+          <lb ed="#P" n="19"/>quando haec pecora aluntur ex praediis 
+          paro<lb break="no" ed="#P" n="20"/>chiae alicujus, illi debentur decimae ex 
+          fructi<lb break="no" ed="#P" n="21"/>bus pecorum pro rata temporis. lta tenet
+          <lb ed="#P" n="22"/>Glossa, in dicto capitulo Ad apostolice, quam
+          <lb ed="#P" n="23"/>ibi doctores sequuntur, et divus Thomas 2. 2,
+          <lb ed="#P" n="24"/>quaestione octogesima septima, art. 3, ad. 2;
+          <lb ed="#P" n="25"/>et ibidem Soto et alii; Alensis, tertiae partis
+          <lb ed="#P" n="26"/>quaestione quinquagesima prima , membro
+          <lb ed="#P" n="27"/>quarto, art. quarto, in fine; Rebuffus, dicta
+          <lb ed="#P" n="28"/>quaestione sexta, numero vigesimo quinto, et
+          <lb ed="#P" n="29"/>sequentibus. Haecque sententia in praxi 
+          se<lb break="no" ed="#P" n="30"/>quenda est, nisi consuetudo aliud exposcat, ut
+          <lb ed="#P" n="31"/>mox dicemus ; minus tamen certa est, quam
+          <lb ed="#P" n="32"/>altera de decimis praedialibus, quia non est
+          <lb ed="#P" n="33"/>omnino certum, has mistas regulandas esse
+          <lb ed="#P" n="34"/>per jura praedialium. Unde alii dicunt, quando
+          <lb ed="#P" n="35"/>dominus ovium domicilium habet in ecclesia,
+          <lb ed="#P" n="36"/>in qua oves nunquam pascuntur, sed in alia,
+          <lb ed="#P" n="37"/>vel aliis, unam partem fructuum dandam esse
+          <lb ed="#P" n="38"/>ecclesiae domicilii, alias vero partes ecclesiae
+          <lb ed="#P" n="39"/>vel ecclesiis ubi sunt pascua ; quia, ut 
+          persona<lb break="no" ed="#P" n="40"/>lis est, haec decima sequitur personam, ut 
+          prae<lb break="no" ed="#P" n="41"/>dialis praedia. Ita indicat Navarrus, consilio
+          <lb ed="#P" n="42"/>primo, de Decimis, n. 10. Quia tamen verius
+          <lb ed="#P" n="43"/>est has decimas simpliciter censeri 
+          praedia<lb break="no" ed="#P" n="44"/>les, ideo communis opinio probabilior est.
+        </p>
+        <p>
+          <lb ed="#P" n="45"/>9. Aliqua notatu digna. — Nonnulla vero
+          <lb ed="#P" n="46"/>occurrunt advertenda. Primum, in his 
+          muta<lb break="no" ed="#P" n="47"/>tionibus gregum ab uno loco in alium 
+          distan<lb break="no" ed="#P" n="48"/>tem, solere muktum temporis in itinere 
+          consu<lb break="no" ed="#P" n="49"/>mi, quod tamen non consideratur, sed solum
+          <lb ed="#P" n="50"/>illi termini, in quibus habitatio et quasi 
+          do<lb break="no" ed="#P" n="51"/>micilium per plures menses figitur ; tum quia
+          <lb ed="#P" n="52"/>pascua itineris, respectu singularum 
+          paro<lb break="no" ed="#P" n="53"/>chiarum in itinere occurrentium, sunt parvi
+          <lb ed="#P" n="54"/>momenti, et moraliter fieri non potest ut
+          <lb ed="#P" n="55"/>inter omnes dividantur decimae cum propor-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tione, ut notat Navarrus supra, numero tertio;
+          <lb ed="#P" n="57"/>tum etiam quia personae peregrinantes non
+          <lb ed="#P" n="58"/>tenentur solvere aliquam personalem decimam
+          <lb ed="#P" n="59"/>in parochiis per quas transeunt, licet ibi 
+          sacra<lb break="no" ed="#P" n="60"/>menta percipiant, sed solum ubi domicilium
+          <lb ed="#P" n="61"/>habent, vel si nullibi habeant omnino fixum,
+          <lb ed="#P" n="62"/>ubi diutius permanent, et quasi domicilium
+          <lb ed="#P" n="63"/>ponunt. Est item ulterius considerandum, in
+          <lb ed="#P" n="64"/>ipsamet provincia, ubi oves, verbi gratia, 
+          pas<lb break="no" ed="#P" n="65"/>cuntur per totam hyemem, vel aestatem, saepe
+          <lb ed="#P" n="66"/>non permanere in eadem parochia per totum
+          <lb ed="#P" n="67"/>tempus veris, sed per varias discurrere, unum
+          <lb ed="#P" n="68"/>mensem in una, et alium in alia tentoria 
+          fi<lb break="no" ed="#P" n="69"/>gendo, interdum etiam in diversis 
+          episcopati<lb break="no" ed="#P" n="70"/>bus. Et tunc difficile erit distributionem 
+          de<lb break="no" ed="#P" n="71"/>cimarum facere, ideoque judicio prudentis
+          <lb ed="#P" n="72"/>existimo relinquendum, vel consuetudini, ut
+          <lb ed="#P" n="73"/>infra dicam.
+        </p>
+        <p>
+          <lb ed="#P" n="74"/>10. Quando greges in una parochia 
+          pascun<lb break="no" ed="#P" n="75"/>tur, et in alia accubant , cui decime debeantur.
+          <lb ed="#P" n="76"/>— Aliorum probabilis opinio. — Praeterea 
+          con<lb break="no" ed="#P" n="77"/>siderandum etiam est, interdum solere 
+          contin<lb break="no" ed="#P" n="78"/>gere ut greges armentorum pascantur in 
+          prae<lb break="no" ed="#P" n="79"/>diis unius parochias, accubant vero in alia
+          <lb ed="#P" n="80"/>parochia, in qua habent quasi domicilium, seu
+          <lb ed="#P" n="81"/>habitationem. Et tunc divus Thomas, cum
+          <lb ed="#P" n="82"/>Alense, quos Soto sequitur, dixit magis deberi
+          <lb ed="#P" n="83"/>decimam ecclesiae praediali, quia fructus gregis
+          <lb ed="#P" n="84"/>ex agris proveniunt. At vero citata Glossa,
+          <lb ed="#P" n="85"/>quam ibi sequitur Henric., Bohic. et Rebuffus
+          <lb ed="#P" n="86"/>supra, putant tunc etiam esse dividendas 
+          deci<lb break="no" ed="#P" n="87"/>mas. Et videtur hoc probabile, quia hae 
+          deci<lb break="no" ed="#P" n="88"/>mae, ut dictum est, praediales sunt; id ergo
+          <lb ed="#P" n="89"/>quod hic tanquam praedium reputatur, sunt
+          <lb ed="#P" n="90"/>ipsa animalia; ergo sicut decima praedii 
+          debe<lb break="no" ed="#P" n="91"/>tur ubi est praedium, ita hae decimae ubi sunt
+          <lb ed="#P" n="92"/>animalia. Dicuntur autem proprie esse non
+          <lb ed="#P" n="93"/>minus ubi degunt et jacent, quam ubi 
+          pascun<lb break="no" ed="#P" n="94"/>tur. Et induci potest, quod J. C. ait in l. S
+          <lb ed="#P" n="95"/>plures, ff. Arborum furtim caesarum, in 
+          ulti<lb break="no" ed="#P" n="96"/>mis verbis : Si radicibus vicini arbor alatur,
+          <lb ed="#P" n="97"/>tamen ejus est in cujus fundo origo ejus fuerit.
+          <lb ed="#P" n="98"/>Ita enim per quamdam accommodationem,
+          <lb ed="#P" n="99"/>ubi oves jacent et dormiunt, ibi quodammodo
+          <lb ed="#P" n="100"/>radices figunt, ibique nutriuntur, et ab 
+          incle<lb break="no" ed="#P" n="101"/>mentiis coeli proteguntur ; ergo ea ratione 
+          di<lb break="no" ed="#P" n="102"/>centur saltem ex parte illius territorii esse, et
+          <lb ed="#P" n="103"/>ea ratione pertinere ad jus illius ecclesiae
+          <lb ed="#P" n="104"/>quoad partem decimarum, licet altera 
+          debea<lb break="no" ed="#P" n="105"/>tur ecclesiae praediali propter rationem D.
+          <lb ed="#P" n="106"/>Thomae.
+        </p>
+        <p>
+          <lb ed="#P" n="107"/>11. Denique interdum potest contingere,
+          <lb ed="#P" n="108"/>ut oves neque pascantur, neque habitent per
+          <lb ed="#P" n="109"/>ullam partem anni in ecclesia parochiali sui
+          <lb ed="#P" n="110"/>domini, sed in aliis, et tunc nulla pars deci-
+          <pb ed="#P" n="176"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>marum videtur deberi tali ecclesiae parochiali,
+          <lb ed="#P" n="2"/>sed dividendas esse cum proportione inter
+          <lb ed="#P" n="3"/>alias ecclesias, in quarum parochiis vel 
+          pas<lb break="no" ed="#P" n="4"/>cuntur, vel jacent. Navarrus autem vult 
+          sem<lb break="no" ed="#P" n="5"/>per esse solvendam saltem partem quartam
+          <lb ed="#P" n="6"/>ecclesiae parochiali, quia putat has decimas
+          <lb ed="#P" n="7"/>reputandas esse personales aliqua ex parte.
+          <lb ed="#P" n="8"/>Sed illud prius videtur verins, praesertim quia
+          <lb ed="#P" n="9"/>nulla ratio illius quotae seu quartae partis 
+          red<lb break="no" ed="#P" n="10"/>di potest, magis quam sextae vel octavae, quia
+          <lb ed="#P" n="11"/>nec ex debito persona, nec ex quantitate
+          <lb ed="#P" n="12"/>temporis reddi potest. Igitur sequenda est 
+          re<lb break="no" ed="#P" n="13"/>gula praedialium decimarum, et applicanda
+          <lb ed="#P" n="14"/>cum proportione ad tempus pascuae vel 
+          habi<lb break="no" ed="#P" n="15"/>tationum ovium; semper tamen est 
+          consu<lb break="no" ed="#P" n="16"/>lenda consuetudo, ut generaliter nunc 
+          expo<lb break="no" ed="#P" n="17"/>nemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="126"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k03115"><!-- t2-l1c12 -->
+        <head>Caput 12</head>
+        <head type="question-title">Quid possit consuetudo circa obligationem vel modum solvendi decimas.</head>
+        <p>
+          <lb ed="#P" n="87"/>CAPUT XII.
+          <lb ed="#P" n="88"/>QUID POSSIT CONSUETUDO CIRCA OBLIGATIONEM VEL
+          <lb ed="#P" n="89"/>MODUM SOLVENDI DECIMAS.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>1. An obligatio solvendi decimas possit 
+          au<lb break="no" ed="#P" n="91"/>ferri per consuetudinem. — Prima opinio 
+          In<lb break="no" ed="#P" n="92"/>nocentii. — Priusquam de circumstantiis 
+          hu<lb break="no" ed="#P" n="93"/>jus praecepti dicamus, videtur haec quaestio
+          <lb ed="#P" n="94"/>hoc loco necessaria ; tum quia pendet ex 
+          dic<lb break="no" ed="#P" n="95"/>tis in capitibus proxime praecedentibus, et
+          <lb ed="#P" n="96"/>illius resolutio doctrinam in eis datam magis
+          <lb ed="#P" n="97"/>declarabit et confirmabit ; tum etiam quia 
+          lu<lb break="no" ed="#P" n="98"/>cem afferet ad omnia sequentia, quia majori
+          <lb ed="#P" n="99"/>ex parte ex consuetudine definienda sunt. Sub
+          <lb ed="#P" n="100"/>consuetudine autem praescriptionem 
+          compre<lb break="no" ed="#P" n="101"/>hendimus, quamvis aliquo modo inter se 
+          dif<lb break="no" ed="#P" n="102"/>ferant, ut dicemus. Praecipua ergo quaestio in
+          <lb ed="#P" n="103"/>prasenti est, an obligatio solvendi decimas
+          <lb ed="#P" n="104"/>possit per consuetudinem auferri. In qua 
+          con<lb break="no" ed="#P" n="105"/>sequenter loquuntur Canonistae, ut late tractat
+          <lb ed="#P" n="106"/>et refert Covar., d. c.17, n. 8; et Gutierrez,
+          <lb ed="#P" n="107"/>d. lib. 2, c. 20, n. 31 et sequentibus, praeser-
+          <pb ed="#P" n="127"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tim usque ad 38. Qui ergo dixerunt decimam
+          <lb ed="#P" n="2"/>deberi ex jure divino, etiam quoad quotam,
+          <lb ed="#P" n="3"/>consequenter asserunt nec tolli nec diminui
+          <lb ed="#P" n="4"/>posse per contrariam consuetudinem, quia
+          <lb ed="#P" n="5"/>haec non potest derogare juri divino: nam si
+          <lb ed="#P" n="6"/>naturale sit, illud est immutabile ; si vero est
+          <lb ed="#P" n="7"/>pesitivum, pendet ex divina voluntate, quae
+          <lb ed="#P" n="8"/>non mutatur, neque aufert legem, propter
+          <lb ed="#P" n="9"/>pravam hominum consuetudinem. Et hanc
+          <lb ed="#P" n="10"/>opinionem tenent Innocentius et Joann. And.,
+          <lb ed="#P" n="11"/>quos tandem sequitur Panorm., in c. 7n 
+          ali<lb break="no" ed="#P" n="12"/>quibus, de Decim., num. 7, licet satis dubius
+          <lb ed="#P" n="13"/>et perplexus in hac re fuisse videatur. 
+          Non<lb break="no" ed="#P" n="14"/>nulli vero relati a dictis auctoribus valde 
+          in<lb break="no" ed="#P" n="15"/>constanter loquuntur, et errant, quia ex una
+          <lb ed="#P" n="16"/>parte asserunt quotam decimae esse de jure 
+          di<lb break="no" ed="#P" n="17"/>vino, et ex alia affirmant posse diminui per
+          <lb ed="#P" n="18"/>consuetud;nem, licet non prorsus tolli; quia
+          <lb ed="#P" n="19"/>jus, inquiunt, divinum, licet non possit tolli,
+          <lb ed="#P" n="20"/>potest diminui. Quod omnino falsum est, nam
+          <lb ed="#P" n="21"/>ratio facta aeque probat de immutabilitate
+          <lb ed="#P" n="22"/>quoad diminutionem et quoad ablationem. Eo
+          <lb ed="#P" n="23"/>vel maxime quod lex taxans stipendium, sicut
+          <lb ed="#P" n="24"/>et pretium, quasi in indivisibili consistit, nam,
+          <lb ed="#P" n="25"/>ex eo quod praecipitur, et taxatur tanta 
+          quan<lb break="no" ed="#P" n="26"/>titas, si illa non impletur, non servatur lex.
+          <lb ed="#P" n="27"/>Isti ergo, dum illa duo admittunt, licet 
+          pro<lb break="no" ed="#P" n="28"/>priam vocem ignorare videantur, in re dicunt
+          <lb ed="#P" n="29"/>quotam non esse de jure divino, sed aliquid
+          <lb ed="#P" n="30"/>aliud, quod per minorem partem impleri 
+          po<lb break="no" ed="#P" n="31"/>test, nempe sustentatio ministrorum.
+        </p>
+        <p>
+          <lb ed="#P" n="32"/>2. Alia opinio refertur. — Alii, qui inter
+          <lb ed="#P" n="33"/>praediales et personales decimas distinguebant,
+          <lb ed="#P" n="34"/>asserendo priores esse de jure divino, et 
+          pos<lb break="no" ed="#P" n="35"/>teriores de humano, consequenter distinguunt
+          <lb ed="#P" n="36"/>cum proportione in praesenti, dicentes, 
+          prae<lb break="no" ed="#P" n="37"/>diales nec tolli nec diminur posse per 
+          contra<lb break="no" ed="#P" n="38"/>riam consuetudinem, utpote repugnantem
+          <lb ed="#P" n="39"/>divino juri; personales autem aiuni posse et
+          <lb ed="#P" n="40"/>diminui et tolli per consuetudinem, quia 
+          con<lb break="no" ed="#P" n="41"/>suetudo potest praevalere contra humanam
+          <lb ed="#P" n="42"/>legem ; hae autem decimae tantum 
+          ecclesias<lb break="no" ed="#P" n="43"/>tica lege debentur, ut supponitur. Atque ita
+          <lb ed="#P" n="44"/>distinxit Turrecr., in c. Recertimini, 16, q. 1,
+          <lb ed="#P" n="45"/>art. 7, cum Hostiensi et aliis, quos latius 
+          re<lb break="no" ed="#P" n="46"/>ferunt Covar. et Gutier., supra. Hoc modo
+          <lb ed="#P" n="47"/>interpretantur multi S 7lle quippe, cap. In
+          <lb ed="#P" n="48"/>aliquibus, de Decimis, in quo dicitur, illas
+          <lb ed="#P" n="49"/>decimas necessario esse solvendas, quee 
+          deben<lb break="no" ed="#P" n="50"/>tur ex lege divina, vel loci consuetudine 
+          pro<lb break="no" ed="#P" n="51"/>bata. Nam prior pars censetur posita propter
+          <lb ed="#P" n="52"/>decimas praediales, quas dicunt non pendere
+          <lb ed="#P" n="53"/>ex consuetudine, quia in lege divina taxatae
+          <lb ed="#P" n="54"/>sunt ; posteriorem vero partem accommodant
+          <lb ed="#P" n="55"/>ad decimas personales, nam, quia illae de jure
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>humano sunt, ipsummet jus humanum potuit
+          <lb ed="#P" n="57"/>approbare vel tolerare consuetudinem illis 
+          de<lb break="no" ed="#P" n="58"/>rogantem. :
+        </p>
+        <p>
+          <lb ed="#P" n="59"/>3. Opinio aliorum in hac materia. — Non
+          <lb ed="#P" n="60"/>defuerunt alii qui ahter distinguerent, 
+          dicen<lb break="no" ed="#P" n="61"/>tes consuetudinem per se solam, et non 
+          ap<lb break="no" ed="#P" n="62"/>probatam a Papa, non posse praevalere contra
+          <lb ed="#P" n="63"/>decimas, etiam ad diminuendas illas, sive sint
+          <lb ed="#P" n="64"/>de jure divino, sive de humano. Si vero sit
+          <lb ed="#P" n="65"/>approbata a Papa, putant sufficere, 
+          cujuscum<lb break="no" ed="#P" n="66"/>que etiam juris sint. Ita refert Abb., d. cap.
+          <lb ed="#P" n="67"/>In aliquibus, et non multum refragatur. Et
+          <lb ed="#P" n="68"/>idem significat Gloss. ibi, ver. Consuetudinem.
+          <lb ed="#P" n="69"/>Late illam defendit Didac. Perez, in 1. 1, tit.
+          <lb ed="#P" n="70"/>5, libr. 1 Ordin. Ratio prioris partis quoad jus
+          <lb ed="#P" n="71"/>divinum jam constat ex dictis : quoad 
+          huma<lb break="no" ed="#P" n="72"/>num vero reddi potest, quia non quaecumque
+          <lb ed="#P" n="73"/>consuetudo potens est ad derogandum juri 
+          ec<lb break="no" ed="#P" n="74"/>clesiastico, sed illa tantum quae rationabilis
+          <lb ed="#P" n="75"/>est ; consuetudo autem non solvendi integre
+          <lb ed="#P" n="76"/>decimas irrationabilis est. Quod declarari 
+          po<lb break="no" ed="#P" n="77"/>test ex dictis in praecedenti capite, nam si
+          <lb ed="#P" n="78"/>quota decimae, secundum prudentem 
+          aestima<lb break="no" ed="#P" n="79"/>tionem Pontificum et totius Ecclesiae, est 
+          con<lb break="no" ed="#P" n="80"/>veniens subsidium clericorum, et moraliter
+          <lb ed="#P" n="81"/>necessarium ad sustentanda onera illius 
+          sta<lb break="no" ed="#P" n="82"/>tus, profecto consuetudo diminuens illam 
+          quo<lb break="no" ed="#P" n="83"/>tam irrationabilis censenda est. Quod etiam
+          <lb ed="#P" n="84"/>ex effectibus declarari potest, quia necesse
+          <lb ed="#P" n="85"/>est per talem consuetudinem diminui, et 
+          sub<lb break="no" ed="#P" n="86"/>sidium pauperum, et divinum cultum, aut
+          <lb ed="#P" n="87"/>ornatum ejus, et decentiam sacerdotum, seu
+          <lb ed="#P" n="88"/>clericorum, quae omnia sunt a recta ratione
+          <lb ed="#P" n="89"/>aliena.
+        </p>
+        <p>
+          <lb ed="#P" n="90"/>4. Posterior pars opinionis probatur. —
+          <lb ed="#P" n="91"/>Altera vero pars, scilicet, quod, interveniente
+          <lb ed="#P" n="92"/>approbatione Pontificis, haec consuetudo 
+          prae<lb break="no" ed="#P" n="93"/>valere possit, si supponamus quotam decimae
+          <lb ed="#P" n="94"/>tantum de jure ecclesiastico deberi, facilis
+          <lb ed="#P" n="95"/>est; quia Pontifex potest ecclesiasticam legem
+          <lb ed="#P" n="96"/>immediate immutare ; ergo etiam potest id 
+          fa<lb break="no" ed="#P" n="97"/>cere, approbando consuetudinem. Item, tunc
+          <lb ed="#P" n="98"/>cessat ratio in contrarium facta; quia 
+          Pontifi<lb break="no" ed="#P" n="99"/>cis approbatio prassumitur rationabilis, et non
+          <lb ed="#P" n="100"/>fieri nisi ubi aliter est sufficienter provisum
+          <lb ed="#P" n="101"/>Ecclesiae et ministris ejus. At vero si quota 
+          de<lb break="no" ed="#P" n="102"/>cimae esset in rigore de praecepto divino, 
+          dif<lb break="no" ed="#P" n="103"/>ficile videretur illam partem sustinere, quia
+          <lb ed="#P" n="104"/>non potest Pontifex divinum praeceptum 
+          au<lb break="no" ed="#P" n="105"/>ferre, etiam ex parte. Posset autem quis 
+          dice<lb break="no" ed="#P" n="106"/>re, posse Pontificem cedere juri suo, vel 
+          Ec<lb break="no" ed="#P" n="107"/>clesiarum, et hoc modo probare 
+          consuetudi<lb break="no" ed="#P" n="108"/>nem, non directe mutando jus divinum, sed
+          <lb ed="#P" n="109"/>quasi subtrahendo materiam ejus, sicut qui
+          <lb ed="#P" n="110"/>remittit promissionem, tollit ab altero obliga-
+          <pb ed="#P" n="128"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tionem, nullam mutationem faciendo in jure
+          <lb ed="#P" n="2"/>divino naturali.
+        </p>
+        <p>
+          <lb ed="#P" n="3"/>5. Alia distinctio de decima sustentationis et
+          <lb ed="#P" n="4"/>quote. — Alia distinctio magis recepta et
+          <lb ed="#P" n="5"/>communis, est de decima sustentationis, vel
+          <lb ed="#P" n="6"/>decima quotae. Nam contra priorem non 
+          po<lb break="no" ed="#P" n="7"/>test valere consuetudo ; potest autem 
+          praeva<lb break="no" ed="#P" n="8"/>lere contra posteriorem, quando tota illa 
+          ne<lb break="no" ed="#P" n="9"/>cessaria non est ad congruam sustentationem
+          <lb ed="#P" n="10"/>ministrorum. Ita tenet Covar. sup., n. 8; et
+          <lb ed="#P" n="11"/>Gutierrez, n. 35, et in re idem tenet Sot., de
+          <lb ed="#P" n="12"/>Just., q. 4, ad 4; et Aragon., 2. 2, q. 87, a.1,
+          <lb ed="#P" n="13"/>circa solutionem ad 5; Rebuf. etiam, tract. de
+          <lb ed="#P" n="14"/>Decimis, q. 13, hoc ipsum sentit, licet aliter
+          <lb ed="#P" n="15"/>loqui videatur, quod fere in omnibus juristis
+          <lb ed="#P" n="16"/>citatis observari potest ; et in Abulens. et aliis,
+          <lb ed="#P" n="17"/>quos statim referam. Et ex hac distinctione
+          <lb ed="#P" n="18"/>colligunt dicti auctores consuetudine fieri
+          <lb ed="#P" n="19"/>posse, ut minuantur decimae quoad quotam,
+          <lb ed="#P" n="20"/>id est, quod sufficiat solvere vigesimam, vel
+          <lb ed="#P" n="21"/>trigesimam partem, non vero posse fieri ut
+          <lb ed="#P" n="22"/>omnino tollantur, quia cum diminutione 
+          po<lb break="no" ed="#P" n="23"/>test manere sufficieps sustentatio 
+          ministro<lb break="no" ed="#P" n="24"/>rum, non vero si omnino nihil solvatur. Unde
+          <lb ed="#P" n="25"/>fit ut etiam in diminutione nccessario sit
+          <lb ed="#P" n="26"/>assignandus terminus, ultra quem jam non
+          <lb ed="#P" n="27"/>relinqueretur congrua sustentatio.
+        </p>
+        <p>
+          <lb ed="#P" n="28"/>6. Doctrina quae ex superiori opinione 
+          infer<lb break="no" ed="#P" n="29"/>tur. — Deinde inferunt, consuetudine facile
+          <lb ed="#P" n="30"/>posse introduci, ut personales decimae absque
+          <lb ed="#P" n="31"/>culpa non solvantur. quia praediales sufticiunt
+          <lb ed="#P" n="32"/>ad sustentationem ministrorum. Consequenti
+          <lb ed="#P" n="33"/>autem ratione videtur posse inferri, ubi fuerit
+          <lb ed="#P" n="34"/>consuetudo solvendi decimas personales, et
+          <lb ed="#P" n="35"/>illa fuerint sufficientes ad sustentationem 
+          mi<lb break="no" ed="#P" n="36"/>nistrorum, posse valere consuetudinem nihil
+          <lb ed="#P" n="37"/>solvendi de decimis praedialibus, quia tunc 
+          ea<lb break="no" ed="#P" n="38"/>dem procedit ratio Neque auctores citati hoc
+          <lb ed="#P" n="39"/>negant, licet illud taceant, fortasse quia vel
+          <lb ed="#P" n="40"/>raro, vel nunquam contingit talis modus 
+          con<lb break="no" ed="#P" n="41"/>suetudinis. Cujus ratio esse potest, quia 
+          sol<lb break="no" ed="#P" n="42"/>ventes praediales decimas ordinarie sunt 
+          divi<lb break="no" ed="#P" n="43"/>tes, solventes autem personales frequentius
+          <lb ed="#P" n="44"/>sunt pauperes ; rationabile autem est ut divites,
+          <lb ed="#P" n="45"/>potius quam pauperes, ministros alant. 
+          Fru<lb break="no" ed="#P" n="46"/>ctus etiam praediales sunt magis naturales,
+          <lb ed="#P" n="47"/>ut sic dicam, et sunt magis certi et magis 
+          no<lb break="no" ed="#P" n="48"/>ii, et ideo, ubi est consuetudo solvendi 
+          deci<lb break="no" ed="#P" n="49"/>mas, ordinarie incipit a praedialibus ; nisi 
+          for<lb break="no" ed="#P" n="50"/>tasse in aliqua civitate (qualis potest cogitari
+          <lb ed="#P" n="51"/>Venetia, vel alia similis), in qua pauca, vel
+          <lb ed="#P" n="52"/>nulla sunt praedia, et ideo omnes vel artibus
+          <lb ed="#P" n="53"/>vel negotiationibus incumbunt. In hujusmodi
+          <lb ed="#P" n="54"/>enim locis, facile posset introduci consuetudo
+          <lb ed="#P" n="55"/>non solvendi decimas praediales dummodo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>personales persolvantur : e contrario vero non
+          <lb ed="#P" n="57"/>item, quia sine decimis personalibus non 
+          ha<lb break="no" ed="#P" n="58"/>berent ecclesiastici sufficientem 
+          sustentatio<lb break="no" ed="#P" n="59"/>nem, ut notarunt Gregor. Lup., in lib. 1, tit.
+          <lb ed="#P" n="60"/>90. p. 1; et Archid.. inlib. 1, nt. 5 lib 4
+          <lb ed="#P" n="61"/>Nov. recopil., quos refert et sequitur Gutier.
+          <lb ed="#P" n="62"/>sup., num. 33, cum Covar., d. num. S. Ratio
+          <lb ed="#P" n="63"/>denique fundamentalis hujus sententiae est,
+          <lb ed="#P" n="64"/>quia decima sustentationis est de jure 
+          natu<lb break="no" ed="#P" n="65"/>rali : ergo debitum ejus non potest tolli per
+          <lb ed="#P" n="66"/>consuetudinem ; decima autem quotae de jure
+          <lb ed="#P" n="67"/>humano est ; ergo potest per consuetudinem
+          <lb ed="#P" n="68"/>tolli, vel, quod perinde est, diminui in omni
+          <lb ed="#P" n="69"/>illa parte quae non repugnaverit congruae 
+          sus<lb break="no" ed="#P" n="70"/>tentationi.
+        </p>
+        <p>
+          <lb ed="#P" n="71"/>1. Approbatur pracedens opinio, et 
+          empli<lb break="no" ed="#P" n="72"/>catur. — Objectio contra priman partem. —
+          <lb ed="#P" n="73"/>Et haec quidem sententia in re vera est, 
+          indi<lb break="no" ed="#P" n="74"/>get tamen explicatione quoad utrumque 
+          mem<lb break="no" ed="#P" n="75"/>bram. Nam contra primum objici potest, quia
+          <lb ed="#P" n="76"/>supra dictum est solvendas esse primitias ex
+          <lb ed="#P" n="77"/>praecepto, quantitatem vero primitiarum. aut
+          <lb ed="#P" n="78"/>voluntate, aut consuetudine determinari. Si
+          <lb ed="#P" n="79"/>ergo esset consuetudo solvendi tantum 
+          quan<lb break="no" ed="#P" n="80"/>titatem primitiarum, ut ad congruam 
+          susten<lb break="no" ed="#P" n="81"/>tationem ministrorum sufficeret, posset ibi
+          <lb ed="#P" n="82"/>valere consuetudo nihil omnino solvendi ex
+          <lb ed="#P" n="83"/>decimis, tam praedialibus, quam personalibus;
+          <lb ed="#P" n="84"/>ergo non tantum decima quotae, sed etiam
+          <lb ed="#P" n="85"/>decima sustentationis potest consuetudine 
+          ab<lb break="no" ed="#P" n="86"/>rogari. Simile argumentum sumi potest ex
+          <lb ed="#P" n="87"/>oblationibus ; nam illae etiam cedunt in 
+          su<lb break="no" ed="#P" n="88"/>stentationem ministrorum ; si ergo illae tantae
+          <lb ed="#P" n="89"/>sint ut sufficiant, non erit contra naturale jus
+          <lb ed="#P" n="90"/>vel divinum nihil omnino ex decimis solvere.
+          <lb ed="#P" n="91"/>Praesertim, quia supra dictum est, interdum
+          <lb ed="#P" n="92"/>teneri fideles ad oblationes solvendas, solum
+          <lb ed="#P" n="93"/>quia ministri illis indigent ad suam 
+          sustenta<lb break="no" ed="#P" n="94"/>tionem; ergo, commutata proportione, quando
+          <lb ed="#P" n="95"/>ministri sufficienter aluntur per oblationes,
+          <lb ed="#P" n="96"/>poterit per consuetudinem tolli integre et 
+          om<lb break="no" ed="#P" n="97"/>nino obligatio solvendi decimas. Tandem 
+          ec<lb break="no" ed="#P" n="98"/>clesiis dantur a fidelibus multa praedia et
+          <lb ed="#P" n="99"/>bona immobilia fructifera, et solvuntur census
+          <lb ed="#P" n="100"/>per pia legata, vel aliis modis Ecclesiae relicti;
+          <lb ed="#P" n="101"/>ergo fieri potest ut ex his fructibus habeant
+          <lb ed="#P" n="102"/>ministri Ecclesiarum sufticientem 
+          sustentatio<lb break="no" ed="#P" n="103"/>nem; ergo ibi etiam non erit juri naturali
+          <lb ed="#P" n="104"/>contraria consuetudo nihil omnino solvendi
+          <lb ed="#P" n="105"/>ex decimis ; poterit ergo praevalere. Atque ita
+          <lb ed="#P" n="106"/>sine ulla distinctione decimarum hoc asseruit
+          <lb ed="#P" n="107"/>Gloss., in c. Quia cognocimus, 10, q. 3, et in
+          <lb ed="#P" n="108"/>cap. 7n aliquibus, S Ille quippe, de Decim.;
+          <lb ed="#P" n="109"/>Abulens., quaest. 185, in cap. 22 Matth.; et
+          <lb ed="#P" n="110"/>eamdem opinionem constanter defendit Men-
+          <pb ed="#P" n="129"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cha., libr. 2 Controver. lHlustr., cap. 89,
+          <lb ed="#P" n="2"/>num. S. Nec dissentit Rebuft., dicta q. 13,
+          <lb ed="#P" n="3"/>n. 43 et 414; ait enim non valere 
+          consuctudi<lb break="no" ed="#P" n="4"/>nem non solvendi decimas, nisi eadem 
+          consuc<lb break="no" ed="#P" n="5"/>tudo habeat, ut detur aliquid pro ipsis 
+          ceci<lb break="no" ed="#P" n="6"/>mis, nam tunc, inquit, valeret : hoc autem in
+          <lb ed="#P" n="7"/>omnibus dictis casibus fit.
+        </p>
+        <p>
+          <lb ed="#P" n="8"/>8. Argumenta facta non procedere contra 
+          su<lb break="no" ed="#P" n="9"/>periorem sententiam. — Dico ergo hujusmodi
+          <lb ed="#P" n="10"/>argumenta non procedere contra mentem et
+          <lb ed="#P" n="11"/>intentionem praecedentis sententiae, si 
+          conve<lb break="no" ed="#P" n="12"/>nienter declaretur. Non enim facienda est vis
+          <lb ed="#P" n="13"/>in voce decima, neque in hoc, quod sustentatio
+          <lb ed="#P" n="14"/>congrua ministrorum deducenda necessario
+          <lb ed="#P" n="15"/>sit ex aliqua parte aliquota fructuum 
+          praedia<lb break="no" ed="#P" n="16"/>lium, vel negotiorum, aut operum, sed in ho:
+          <lb ed="#P" n="17"/>tantum, quod clericis provideatur de congrua
+          <lb ed="#P" n="18"/>sustentatione ; nam hoc est debitum ex jure
+          <lb ed="#P" n="19"/>naturali; quod autem impleatur hoc vel illo
+          <lb ed="#P" n="20"/>modo, non est de jure naturali vel divino, et
+          <lb ed="#P" n="21"/>ideo si alia via sufficienter provisum est 
+          Ec<lb break="no" ed="#P" n="22"/>clesiis, non est dubium quin possit 
+          consuetu<lb break="no" ed="#P" n="23"/>dine introduci, ut nulla alia pars fructuum
+          <lb ed="#P" n="24"/>vel lucrorum clericis solvatur. Et haec 
+          consue<lb break="no" ed="#P" n="25"/>tudo dicitur esse in ltalia, atque eadem dicitur
+          <lb ed="#P" n="26"/>viguisse inter Graecos.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>Impugnatur Covar. — Unde non video cur
+          <lb ed="#P" n="28"/>Covar., d. cap. 17, cum prius D. Thomae et
+          <lb ed="#P" n="29"/>Theologorum sententiam defendisset, postea
+          <lb ed="#P" n="30"/>in fine n. S, ver. Undecimo, simpliciter 
+          dam<lb break="no" ed="#P" n="31"/>net, ut irrationabilem, consuetudinem non
+          <lb ed="#P" n="32"/>solvendi aliquas decimas, etiamsi sacerdotes
+          <lb ed="#P" n="33"/>(inquit) spiritualia ministrantes , aliunde 
+          ha<lb break="no" ed="#P" n="34"/>beant unde congrue alumenta recipiant. Nec
+          <lb ed="#P" n="35"/>reddit aliam rationem, nisi quia est nimia illa
+          <lb ed="#P" n="36"/>exemptio, si quidem ex ea tollitur recognitio,
+          <lb ed="#P" n="37"/>quam exhibere debent laici sacerdotibus 
+          mi<lb break="no" ed="#P" n="38"/>nistrantibus eis sacramenta, praebendo eis
+          <lb ed="#P" n="39"/>aliquod stipendium. Verumtamen si 
+          suppo<lb break="no" ed="#P" n="40"/>nantur ministri altaris habere ratione sui 
+          mi<lb break="no" ed="#P" n="41"/>nisterii congrua alimenta., non possunt dici
+          <lb ed="#P" n="42"/>omnino privari stipendio, nec laici prorsus
+          <lb ed="#P" n="43"/>exempti ab illo solvendo. Ideoque, licet talis
+          <lb ed="#P" n="44"/>consuetudo laudanda non sit, ubi fuerit 
+          prae<lb break="no" ed="#P" n="45"/>scripta legitime, Ecclesia non repugnante,
+          <lb ed="#P" n="46"/>non videtur damnanda. At vero si Convarruvias
+          <lb ed="#P" n="47"/>loquatur in eo casu, in quo ministri Ecclesiae
+          <lb ed="#P" n="48"/>ab illa nihil habent, licet aliunde ex 
+          patri<lb break="no" ed="#P" n="49"/>monio, vel ex industria, seu arte, alimentum
+          <lb ed="#P" n="50"/>habere possint, tunc vera esset ejus 
+          senten<lb break="no" ed="#P" n="51"/>tia; nam esset irrationabilis talis consuetudo,
+          <lb ed="#P" n="52"/>ut ejus ratio probat. Nos autem loquimur
+          <lb ed="#P" n="53"/>semper in priori sensu.
+        </p>
+        <p>
+          <lb ed="#P" n="54"/>9. Unde talis consuetudo posset oriri.—
+          <lb ed="#P" n="55"/>Atque hoc modo potuit contingere, ut hujus-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modi consuetudines in principio introductae
+          <lb ed="#P" n="57"/>fuerint ex benigna conventione inter clericos
+          <lb ed="#P" n="58"/>et laicos, consentientibus Episcopis, et 
+          appro<lb break="no" ed="#P" n="59"/>banie, vel saltem non repugnante Summo
+          <lb ed="#P" n="60"/>Pontifice. Potuerunt etiam in principio clerici
+          <lb ed="#P" n="61"/>voluntarie cedere juri decimarum, contenti
+          <lb ed="#P" n="62"/>solis spontaneis oblationibus (sicut Paulus,
+          <lb ed="#P" n="63"/>1 ad Cor. 9, de se dicit, non fuisse usum 
+          po<lb break="no" ed="#P" n="64"/>testate exigendi sustentationem, sed 
+          pro<lb break="no" ed="#P" n="65"/>priis manibus laborasse, ad ea, quaesibi 
+          neces<lb break="no" ed="#P" n="66"/>saria erant, comparanda), et postea usu 
+          tem<lb break="no" ed="#P" n="67"/>poris illam consuetudinem praescriptam essc.
+          <lb ed="#P" n="68"/>Contra hunc ergo sensum non procedunt 
+          ob<lb break="no" ed="#P" n="69"/>jectiones factae. Sed objici potest, quia nemo
+          <lb ed="#P" n="70"/>potest praescriptione liberari ab obligatione
+          <lb ed="#P" n="71"/>solvendi tributum regi, leg. Comperimus,
+          <lb ed="#P" n="72"/>cap. de Praescription. trigint., etc.; ergo 
+          mi<lb break="no" ed="#P" n="73"/>nus poterit liberari a solutione divini tributi,
+          <lb ed="#P" n="74"/>qualis est decima, juxta cap. Tua nobis, de
+          <lb ed="#P" n="75"/>Decim. Respondent Abbas, Felin. et alii in
+          <lb ed="#P" n="76"/>cap. Ad audientiam, de Praescript., negando
+          <lb ed="#P" n="77"/>cousequentiam, quia tributa immediate 
+          sol<lb break="no" ed="#P" n="78"/>vuntur in recognitionem regia potestatis, 
+          de<lb break="no" ed="#P" n="79"/>cimae vero in commodum et sustentationem
+          <lb ed="#P" n="80"/>ministrorum, et protestatio divinii dominii
+          <lb ed="#P" n="81"/>est quasi annexa, et secundaria in hoc actu,
+          <lb ed="#P" n="82"/>nam aliis actionibus primario fit. Dici etiam
+          <lb ed="#P" n="83"/>potest, ob hanc et aliam rationem, jus civile
+          <lb ed="#P" n="84"/>non admittere illam praescriptionem, jus 
+          au<lb break="no" ed="#P" n="85"/>tem canonicum illam admittere in decimis,
+          <lb ed="#P" n="86"/>quia noluit cum majori rigore decimas 
+          im<lb break="no" ed="#P" n="87"/>perare.
+        </p>
+        <p>
+          <lb ed="#P" n="88"/>10. Quo sensu verum sit preceptum 
+          decima<lb break="no" ed="#P" n="89"/>rum non tolli per consuetudinem.— Circa hanc
+          <lb ed="#P" n="90"/>vero partem est advertendum, ex mente D.
+          <lb ed="#P" n="91"/>Thomae, dicta q. 67, art. 1, et Quodlib. 6, art.
+          <lb ed="#P" n="92"/>10, ad 2, quod docte animadvertit Soto, dicto
+          <lb ed="#P" n="93"/>art. 1, in fine, hanc consuetudinem, 
+          minuen<lb break="no" ed="#P" n="94"/>tem vel tollentem solutionem decimarum,
+          <lb ed="#P" n="95"/>nunquam posse ita contra Ecclesiam 
+          praescri<lb break="no" ed="#P" n="96"/>bi, ut privetur Ecclesia potestate imperandi
+          <lb ed="#P" n="97"/>decimas, etiam quoad quotam, non obstante
+          <lb ed="#P" n="98"/>tali consuetudine, quoties ad bonum Ecclesiae
+          <lb ed="#P" n="99"/>expedire judicaverit. Atque in hoc sensu 
+          ve<lb break="no" ed="#P" n="100"/>rum est, praeceptum decimarum non posse
+          <lb ed="#P" n="101"/>tolli aut diminui per consuetudinem, nisi sit
+          <lb ed="#P" n="102"/>a Pontifice approbata, vel saltem tolerata; est
+          <lb ed="#P" n="103"/>autem tolerata, quandiu Pontifex illi non 
+          re<lb break="no" ed="#P" n="104"/>sistit, maxime si illam non iguoret. 
+          Verum<lb break="no" ed="#P" n="105"/>tamen etiamsi ignoret illam, ratione juris
+          <lb ed="#P" n="106"/>communis ceusetur eam approbare; neque
+          <lb ed="#P" n="107"/>enim necessaria est specialis approbatio, quae
+          <lb ed="#P" n="108"/>praerequirit facti cognitionem; nullo enim
+          <lb ed="#P" n="109"/>jure hoc cavetur, et ex natura rei, non est
+          <lb ed="#P" n="110"/>necessarium, ut probant omnia quae diximus,
+          <pb ed="#P" n="130"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Sufficit ergo jus commune, quod frequenter
+          <lb ed="#P" n="2"/>in hac materia disponit, in decimarum 
+          solu<lb break="no" ed="#P" n="3"/>tione consuetudinem attendendam esse, ut
+          <lb ed="#P" n="4"/>patet ex cap. Commistum, cap. Cum sint 
+          ho<lb break="no" ed="#P" n="5"/>mines, et in cap. Delicti, et cap. Apostolice,
+          <lb ed="#P" n="6"/>de Decimis; et idem probat dictum capitulum,
+          <lb ed="#P" n="7"/>In quibusdam, S Ille. Sensus enim supra 
+          rela<lb break="no" ed="#P" n="8"/>tus necessarius non est, sed proprius 
+          intellec<lb break="no" ed="#P" n="9"/>tus esse videtur, decimam solvendam esse ex
+          <lb ed="#P" n="10"/>rigore legis quoad quotam; ubi autem minus
+          <lb ed="#P" n="11"/>solutum fuerit, debere esse ex consuetudine
+          <lb ed="#P" n="12"/>approbata; censetur autem approbata, ut
+          <lb ed="#P" n="13"/>dixi, eo ipso quod est legitimo tempore 
+          prae<lb break="no" ed="#P" n="14"/>scripta, et illi contradictum non est per eum,
+          <lb ed="#P" n="15"/>qui habet legitimam potestatem.
+        </p>
+        <p>
+          <lb ed="#P" n="16"/>11. In Ecclesia est potestas ad imponendam
+          <lb ed="#P" n="17"/>decimam de noco, etiam contra consuetudinem.
+          <lb ed="#P" n="18"/>— Hoc solum ad Sunmum Pontificem spectat.
+          <lb ed="#P" n="19"/>— Non obstante vero hoc jure communi, et
+          <lb ed="#P" n="20"/>quacumque consuetudine,etiam immemoriali,
+          <lb ed="#P" n="21"/>semper manet in Ecclesia spiritualis potestas
+          <lb ed="#P" n="22"/>ad imponendam decimam de novo, etiam ubi
+          <lb ed="#P" n="23"/>nunquam soluta fuit, si judicaverit expedire.
+          <lb ed="#P" n="24"/>Haec autem potestas de facto non est in aliquo
+          <lb ed="#P" n="25"/>inferiori Summo Poatifice. Itaque ubi est
+          <lb ed="#P" n="26"/>praescripta consuetudo non solvendi quotam
+          <lb ed="#P" n="27"/>decimae, vel simpliciter, vel ex talibus rebus,
+          <lb ed="#P" n="28"/>non possunt clerici sua auctoritate illam 
+          pe<lb break="no" ed="#P" n="29"/>tere vel exigere, et injuste facerent si per
+          <lb ed="#P" n="30"/>coactionem vellent illam extorquere. Imo 
+          ne<lb break="no" ed="#P" n="31"/>que Episcopi particulares, cujuscumque 
+          di<lb break="no" ed="#P" n="32"/>gnitatis sint infra Pontificem, possunt 
+          impo<lb break="no" ed="#P" n="33"/>nere obligationem solvendi decimam contra
+          <lb ed="#P" n="34"/>consuetudinen receptam. Ratio est, quia hoc
+          <lb ed="#P" n="35"/>est contra jus commune; inferiores autem
+          <lb ed="#P" n="36"/>Episcopi non possunt contra jus commune
+          <lb ed="#P" n="37"/>quicquam disponere, praesertim in re tam
+          <lb ed="#P" n="38"/>gravi, et quae potest esse onerosa fidelibus,
+          <lb ed="#P" n="39"/>et scandalum generare, quando de novo 
+          in<lb break="no" ed="#P" n="40"/>troducitur. At vero in Summo Pontifice 
+          sem<lb break="no" ed="#P" n="41"/>per manet integra haec potestas : nam 
+          im<lb break="no" ed="#P" n="42"/>primis semper potest juri communi derogare,
+          <lb ed="#P" n="43"/>et licite id facit ex legitima causa. Deinde
+          <lb ed="#P" n="44"/>potestas illa imperandi decimas, quam 
+          su<lb break="no" ed="#P" n="45"/>pra diximus Pontificem habere, divina est et
+          <lb ed="#P" n="46"/>per nullam consuetudinem tolli aut diminui
+          <lb ed="#P" n="47"/>potest. Et ideo sicut in principio, antequam
+          <lb ed="#P" n="48"/>esset in Ecclesia haec vel illa consuetudo,
+          <lb ed="#P" n="49"/>potuerunt Pontifices praeceptum decimarum
+          <lb ed="#P" n="50"/>imponere, ita semper possunt, non obstante
+          <lb ed="#P" n="51"/>quacumque consuetudine. Unde licet 
+          sem<lb break="no" ed="#P" n="52"/>per possint cedere juri suo, vel Ecclesiarum,
+          <lb ed="#P" n="53"/>vel connivere, aut privilegia concedere,
+          <lb ed="#P" n="54"/>ut capite sequenti dicam, nunquam potest
+          <lb ed="#P" n="55"/>seipsum privare potestate condendi hoc jus,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quando et ubi expedire censuerit, neque 
+          sub<lb break="no" ed="#P" n="57"/>diti possunt ita praescribere contra hanc 
+          po<lb break="no" ed="#P" n="58"/>testatem, quin teneantur consuetudinem 
+          re<lb break="no" ed="#P" n="59"/>linquere, quoties Pontifex illam reprobaverit,
+          <lb ed="#P" n="60"/>aut mutaverit, et haec est communis resolutio,
+          <lb ed="#P" n="61"/>quam expresse tenet Anton., 2 p., tit. 4,c. 3,
+          <lb ed="#P" n="62"/>S816; et Silvest., ver. Decimae, q. 3, S 
+          Quan<lb break="no" ed="#P" n="63"/>tum ad tertium ; Covar., dicto cap. 17, num.
+          <lb ed="#P" n="64"/>12; et Gutierrez allegat plures d. cap. 21,
+          <lb ed="#P" n="65"/>num. 51.
+        </p>
+        <p>
+          <lb ed="#P" n="66"/>12. Explicatur D. Thomas dupliciter. —
+          <lb ed="#P" n="67"/>Et juxta haec intelligendus est divus Thomas
+          <lb ed="#P" n="68"/>quando in dicto articulo 1, ad 5, ait, eos, qui
+          <lb ed="#P" n="69"/>propler desuetudinem non solvunt decimas, non
+          <lb ed="#P" n="70"/>esse in statu peccati, nisi forte propter 
+          obsti<lb break="no" ed="#P" n="71"/>nationem animi habentes coluntatem non 
+          sol<lb break="no" ed="#P" n="72"/>vendi, etiamsi ab eis petantur. Duobus enim
+          <lb ed="#P" n="73"/>modis hoc potest intelligi : primo, quando
+          <lb ed="#P" n="74"/>adeo est obstinatus animus, ut licet clerici
+          <lb ed="#P" n="75"/>servientes Ecclesiae non habeant congruentem
+          <lb ed="#P" n="76"/>sustentationem, et ideo illam petant, 
+          nihilo<lb break="no" ed="#P" n="77"/>minus fideles non sint parati ad illam 
+          dan<lb break="no" ed="#P" n="78"/>dam praetextu consuetudinis ; nam hoc contra
+          <lb ed="#P" n="79"/>justitiam esset. Unde si fortasse ecclesia aliqua
+          <lb ed="#P" n="80"/>superiori tempore habebat praedia, vel alios
+          <lb ed="#P" n="81"/>redditus , ex quibus posset ministros 
+          susten<lb break="no" ed="#P" n="82"/>tare, et postea per mutationem rerum et 
+          tem<lb break="no" ed="#P" n="83"/>porum ad paupertatem perveniat, et ideo de
+          <lb ed="#P" n="84"/>novo petat decimas, sine dubio tenebuntur 
+          fi<lb break="no" ed="#P" n="85"/>deles illas solvere, saltem in ea quantitate
+          <lb ed="#P" n="86"/>quae ad sustentationem sufliciat, dummodo 
+          ip<lb break="no" ed="#P" n="87"/>sis de necessitate constet, quia jam tunc illud
+          <lb ed="#P" n="88"/>incipit esse debitum justitiae, et divini ac 
+          na<lb break="no" ed="#P" n="89"/>turalis juris, quod reddendum est, etiam sine
+          <lb ed="#P" n="90"/>interventu humani praecepti. Imo si Ecclesia
+          <lb ed="#P" n="91"/>semper fuit indigens, ct nihilominus 
+          anteces<lb break="no" ed="#P" n="92"/>sores parochi non petebant decimas, nec 
+          sus<lb break="no" ed="#P" n="93"/>tentationem, sed cedebant juri suo, et aliunde
+          <lb ed="#P" n="94"/>victum , ac vestitum , et necessaria sibi 
+          quae<lb break="no" ed="#P" n="95"/>rebant, postea vero succedentes clerici 
+          no<lb break="no" ed="#P" n="96"/>lint cedere juri suo, sed petant sibi 
+          sustenta<lb break="no" ed="#P" n="97"/>tionem debitam, tenebuntur fideles eam 
+          prae<lb break="no" ed="#P" n="98"/>stare, et consequenter ubicumque status 
+          Ec<lb break="no" ed="#P" n="99"/>clesiae est hujusmodi , quamvis decimae sine
+          <lb ed="#P" n="100"/>peccato non solvantur, quandiu non petuntur,
+          <lb ed="#P" n="101"/>quia ita habet consuetudo, et quia censentur
+          <lb ed="#P" n="102"/>Pastores cedere juri suo, nihilominus 
+          tenen<lb break="no" ed="#P" n="103"/>tur fideles esse parati ad dandum saltem 
+          con<lb break="no" ed="#P" n="104"/>grua, si petantur, et tunc procedit quod divus
+          <lb ed="#P" n="105"/>Thomas ait, illos esse in statu peccati, si sint
+          <lb ed="#P" n="106"/>obstinati in conirario proposito.
+        </p>
+        <p>
+          <lb ed="#P" n="107"/>13. Cur D. Thomas particulam forte 
+          addi<lb break="no" ed="#P" n="108"/>derit. — Dixit autem forte, non quia jus sit
+          <lb ed="#P" n="109"/>incertum, sed quia factum potest esse 
+          du<lb break="no" ed="#P" n="110"/>bium. id est, an Ecclesia vere indigeat, et an
+          <pb ed="#P" n="131"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non solutio decimarum fundetur in 
+          volunta<lb break="no" ed="#P" n="2"/>ria cessione clericorum, vel in alia 
+          recompen<lb break="no" ed="#P" n="3"/>satione. Tamen, supposita facti certitudine,
+          <lb ed="#P" n="4"/>obligatio satis certa est, quia contra naturale
+          <lb ed="#P" n="5"/>jus praescribi non potest , et quia liberalitas
+          <lb ed="#P" n="6"/>unius cedentis juri suo non potest successori
+          <lb ed="#P" n="7"/>praejudicium afferre , nec obligare illum, ut
+          <lb ed="#P" n="8"/>etiam ipse cedat juri suo. Imo neque eadem 
+          per<lb break="no" ed="#P" n="9"/>sona, Jropterea quod aliquo tempore cessit ,
+          <lb ed="#P" n="10"/>vel dissimulavit , obligatur, aut cogitur ad
+          <lb ed="#P" n="11"/>non petendum postea congruam sustentatio -
+          <lb ed="#P" n="12"/>nem, si revera illa indiget.
+        </p>
+        <p>
+          <lb ed="#P" n="13"/>14. Secundus modus explicandi.— Alio 
+          mo<lb break="no" ed="#P" n="14"/>do potest intelligi illud dictum D. Thomae de
+          <lb ed="#P" n="15"/>petitione decimarum, etiam quoad quotam,
+          <lb ed="#P" n="16"/>quamvis non tota sit necessaria ad congruam
+          <lb ed="#P" n="17"/>sustentationem ministrorum talis Ecclesiae,
+          <lb ed="#P" n="18"/>vel provinciae, vel etiamsi petatur in minori
+          <lb ed="#P" n="19"/>parte, nova tamen, et non solita solvi, peque
+          <lb ed="#P" n="20"/>propter novam mutationem et penuriam in
+          <lb ed="#P" n="21"/>bonis Ecclesiae factam, sed solum propter 
+          uni<lb break="no" ed="#P" n="22"/>versale jus Ecclesiae, ejusque potestatem. Et in
+          <lb ed="#P" n="23"/>hoc sensn erit hoc etiam verum in ordine ad
+          <lb ed="#P" n="24"/>potestatem Pontificis, propter rationem supra
+          <lb ed="#P" n="25"/>factam, et quia ipse respicit universale bonum
+          <lb ed="#P" n="26"/>Ecclesiae, et ita potest statuere de novo aliquid,
+          <lb ed="#P" n="27"/>quod obliget particularem ecclesiam, vel 
+          pro<lb break="no" ed="#P" n="28"/>vinciam, etiamsi ibi non sit facta nova 
+          muta<lb break="no" ed="#P" n="29"/>tio, neque occurrat particularis necessitas,
+          <lb ed="#P" n="30"/>quia universalis gubernator et dispensator 
+          po<lb break="no" ed="#P" n="31"/>test uti sua potestate propter universaliores
+          <lb ed="#P" n="32"/>causas. Qui ergo in hujusmodi provinciis, ubi
+          <lb ed="#P" n="33"/>nunc est talis consuetudo non solvendi 
+          deci<lb break="no" ed="#P" n="34"/>mas, essent in animo obstinato non reddendi,
+          <lb ed="#P" n="35"/>etiamsi a Pontifice praeciperentur, essent sine
+          <lb ed="#P" n="36"/>dubio in statu peccati mortalis. Si solum 
+          au<lb break="no" ed="#P" n="37"/>tem essent in proposito non dandi quotam
+          <lb ed="#P" n="38"/>decimae, vel aliam partem non necessariam
+          <lb ed="#P" n="39"/>ad sustentationem, etiam inferioribus clericis
+          <lb ed="#P" n="40"/>petentibus , tunc non essent in statu peccati
+          <lb ed="#P" n="41"/>mortalis. Et ita videtur clarius locutus divus
+          <lb ed="#P" n="42"/>Thomas, in Quodlibeto 2, artic. 8, dum ait,
+          <lb ed="#P" n="43"/>non obstante quacumque consuetudine, 
+          Eccle<lb break="no" ed="#P" n="44"/>siam posse imperare decimas, et fideles debere
+          <lb ed="#P" n="45"/>esse paratos ad obediendum illi : nam per 
+          Ec<lb break="no" ed="#P" n="46"/>clesiam, supremam ejus potestatem intelligit,
+          <lb ed="#P" n="47"/>ut auctores citati recte intellexerunt.
+        </p>
+        <p>
+          <lb ed="#P" n="48"/>15. Posse consuetudine introduci varietatem
+          <lb ed="#P" n="49"/>in circumstantiis decimarum.—Ex his quae 
+          di<lb break="no" ed="#P" n="50"/>ximus de virtute consuetudinis, ad 
+          minuen<lb break="no" ed="#P" n="51"/>dam vel abrogandam obligationem solvendi
+          <lb ed="#P" n="52"/>decimas Ecclesiae absolute et simpliciter, 
+          sup<lb break="no" ed="#P" n="53"/>posita aliunde suffticienti sustentatione 
+          minis<lb break="no" ed="#P" n="54"/>trorum, sequitur a fortiori posse consuetudine
+          <lb ed="#P" n="55"/>introduci mutationem, seu varietatem in cir-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cumstantiis (ut sic dicam) circa solutionem
+          <lb ed="#P" n="57"/>decimarum, ut, verbi gratia, quod solvantur
+          <lb ed="#P" n="58"/>ex his rebus, et non ex illis, quod solvantur
+          <lb ed="#P" n="59"/>huic loco potius quam illi, verbi gratia, 
+          Ec<lb break="no" ed="#P" n="60"/>clesiae, ubi quis habet praedia, vel ubi recipit
+          <lb ed="#P" n="61"/>sacramenta. Item quod solvantur hoc ternpore,
+          <lb ed="#P" n="62"/>hac mensura, hoc modo potius quam illo, ut,
+          <lb ed="#P" n="63"/>verbi gratia, quod solum solvantur quando
+          <lb ed="#P" n="64"/>petuntur, vel etiamsi non petantur, vel quod
+          <lb ed="#P" n="65"/>solvantur in arca, aut deferantur in ecclesiam,
+          <lb ed="#P" n="66"/>seu domum parochi, et similia : haec enim
+          <lb ed="#P" n="67"/>omnia ex consuetudine pendent, ut jura supra
+          <lb ed="#P" n="68"/>citata docent, et in sequentibus in particulari
+          <lb ed="#P" n="69"/>dicemus. Ratio vero generalis est, quia jura
+          <lb ed="#P" n="70"/>nihil statuunt in particulari de his 
+          circum<lb break="no" ed="#P" n="71"/>stantiis singulis, et consuetudo de se habet
+          <lb ed="#P" n="72"/>vim sufficientem ad introducendam humanam
+          <lb ed="#P" n="73"/>regulam in his rebus servandam, praesertim
+          <lb ed="#P" n="74"/>quando alia deest. Quod ideo addo, quia sub
+          <lb ed="#P" n="75"/>consuetudine comprehendi debent pacta, et
+          <lb ed="#P" n="76"/>conventiones humanae, seu concordia, quae
+          <lb ed="#P" n="77"/>in hujusmodi circumstantiis possunt transigi
+          <lb ed="#P" n="78"/>et constitui inter laicos et clericos, aáummodo
+          <lb ed="#P" n="79"/>sufficienti auctoritate confirmatae sint. Nam si
+          <lb ed="#P" n="80"/>sint perpetuae, Episcopi consensum requirunt;
+          <lb ed="#P" n="81"/>si vero ad tempus tantum vel vitam fiant, ex
+          <lb ed="#P" n="82"/>partium conventione fieri possunt, ut notat
+          <lb ed="#P" n="83"/>Glossa, in c. Ez multiplici, de Decim., per
+          <lb ed="#P" n="84"/>textum ibi, et c. Suggestum, et c. Nuper, eod.
+          <lb ed="#P" n="85"/>tit., et c. Statuimus, c. Veniens, de Transact.
+          <lb ed="#P" n="86"/>Denique semper in his consuetudinibus 
+          sup<lb break="no" ed="#P" n="87"/>ponendum est manere integrum jus naturale
+          <lb ed="#P" n="88"/>dandi sufficientem sustentationem ministris
+          <lb ed="#P" n="89"/>Ecclesiae ; nam huic juri nunquam potest 
+          con<lb break="no" ed="#P" n="90"/>suetudo derogare, et haec regula applicanda
+          <lb ed="#P" n="91"/>semper est ad particulares casus, quos infra
+          <lb ed="#P" n="92"/>attingemus.
+        </p>
+        <p>
+          <lb ed="#P" n="93"/>16. Potest per consuetudinem aliguis 
+          libe<lb break="no" ed="#P" n="94"/>rari a solvendis decimis. — Secundo sequitur
+          <lb ed="#P" n="95"/>ex dictis, posse aliquem usu, et consuetudine
+          <lb ed="#P" n="96"/>legitime praescripta, liberari a debito solvendi
+          <lb ed="#P" n="97"/>decimas, vel ex parte, vel etiam in toto. Ita
+          <lb ed="#P" n="98"/>sentit Covarr., dicto c. 17, numer. 10, contra
+          <lb ed="#P" n="99"/>nonnullos Canonistas, quos ibi refert. 
+          Verum<lb break="no" ed="#P" n="100"/>tamen illi Canonistae fundabantur in opinione
+          <lb ed="#P" n="101"/>supra reprobata, quod consuetudo non possit
+          <lb ed="#P" n="102"/>decimarum debitum tollere. Suppositis autem
+          <lb ed="#P" n="103"/>iis quae diximus, nulla in hoc potest esse 
+          du<lb break="no" ed="#P" n="104"/>bitatio, quia si consuetudo potest liberare ab
+          <lb ed="#P" n="105"/>hac obligatione totam communitatem, a 
+          for<lb break="no" ed="#P" n="106"/>tiori poterit unam vel aliam personam 
+          exi<lb break="no" ed="#P" n="107"/>mere, quia minus est eximere unam personam,
+          <lb ed="#P" n="108"/>quam omnes. Item sicut consuetudo potest
+          <lb ed="#P" n="109"/>abrogare legem, ita et aliquem liberare ab
+          <lb ed="#P" n="110"/>obligatione legis humanase : sed ostendimus
+          <pb ed="#P" n="132"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>hanc legem decimarum, quoad quotam, esse
+          <lb ed="#P" n="2"/>humanam, et ideo posse abrogari per 
+          consue<lb break="no" ed="#P" n="3"/>tudinem; ergo eadem ratione potest limitari
+          <lb ed="#P" n="4"/>(ut sic dicam), seu exceptionem pati quoad
+          <lb ed="#P" n="5"/>unam vel aliam personam ; supponimus enim
+          <lb ed="#P" n="6"/>per hoc non privari ministros 
+          sacramento<lb break="no" ed="#P" n="7"/>rum congruenti sustentatione : hoc enim jus
+          <lb ed="#P" n="8"/>semper dcbet manere illaesum. Et ita 
+          sequi<lb break="no" ed="#P" n="9"/>tur Gutier. sup., n. 64, citans etiam Mencha.,
+          <lb ed="#P" n="10"/>lib. 2 Contr. lllustr., cap. 89, num. 10.
+        </p>
+        <p>
+          <lb ed="#P" n="11"/>17. Objectio. — Sed objici solet, quia laicus
+          <lb ed="#P" n="12"/>non potest praescribere jus decimarum, id est,
+          <lb ed="#P" n="13"/>ut ei solvantur decimae ab aliis; ergo nec 
+          po<lb break="no" ed="#P" n="14"/>test praescribere jus retinendi decimas, quas
+          <lb ed="#P" n="15"/>ipse solvere deberet Consequentia probatur.
+          <lb ed="#P" n="16"/>Quia haec duo paria sunt, nam retinendo 
+          deci<lb break="no" ed="#P" n="17"/>mas, quasi a seipso illas recipit : antecedens 
+          au<lb break="no" ed="#P" n="18"/>tem certum est apud jurisperitos, ex c. Causam,
+          <lb ed="#P" n="19"/>quae, de Preeseript., ubi videtur esse expressa
+          <lb ed="#P" n="20"/>diffinitio : et ratio est, quia laicus est incapax
+          <lb ed="#P" n="21"/>spiritualis juris, et persona incapax nunquam
+          <lb ed="#P" n="22"/>praescribit. Respondetur tamen negando 
+          con<lb break="no" ed="#P" n="23"/>sequentiam : nam longe diversa sunt 
+          acqui<lb break="no" ed="#P" n="24"/>rere jus decimarum, vel liberari ab onere 
+          sol<lb break="no" ed="#P" n="25"/>vendi decimas; illud enim prius est acquirere
+          <lb ed="#P" n="26"/>jus spirituale , nam jus obtinendi deciras
+          <lb ed="#P" n="27"/>spirituale est, onus autem solvendi decimas
+          <lb ed="#P" n="28"/>temporale, et ideo immunitas ab hoc onere, in
+          <lb ed="#P" n="29"/>rigore, tantum est quaedam commoditas, vel
+          <lb ed="#P" n="30"/>libertas temporalis, quae consuetudine 
+          prae<lb break="no" ed="#P" n="31"/>scribi potest.
+        </p>
+        <p>
+          <lb ed="#P" n="32"/>18. Augetur argumenti vis. — Respondetur.
+          <lb ed="#P" n="33"/>— Sed urgebis, quia videtur contra justitiam,
+          <lb ed="#P" n="34"/>quod is, qui fruitur ministerio et labore 
+          alte<lb break="no" ed="#P" n="35"/>rius, non solvat stipendium; cur enim onus
+          <lb ed="#P" n="36"/>hoc aliis accrescet, cum non magis participent
+          <lb ed="#P" n="37"/>de hujusmodi ministerio , quam ille alius qui
+          <lb ed="#P" n="38"/>decimas non solvit? Respondetur posse hanc
+          <lb ed="#P" n="39"/>consuetudinem, legitime praescriptam, non
+          <lb ed="#P" n="40"/>esse contra justitiam, nam vel injustitia 
+          con<lb break="no" ed="#P" n="41"/>sideratur respectu parochi, vel respectu 
+          alio<lb break="no" ed="#P" n="42"/>rum parochianorum, qui solvunt decimas. At
+          <lb ed="#P" n="43"/>vero respectu parochi, non est injustitia, quia
+          <lb ed="#P" n="44"/>supponitur habere congruentem 
+          sustentatio<lb break="no" ed="#P" n="45"/>nem, et illius parum interest quod ab hoc vel
+          <lb ed="#P" n="46"/>ab illo solvantur; integrae autem decimae non
+          <lb ed="#P" n="47"/>debentur illi, nisi juxta consuetudinem 
+          prae<lb break="no" ed="#P" n="48"/>scriptam. Neque etiam respectu aiiorum 
+          paro<lb break="no" ed="#P" n="49"/>chianorum intercedit necessario injustitia ;
+          <lb ed="#P" n="50"/>tum quia fieri optime potest ut, licet alius non
+          <lb ed="#P" n="51"/>solvat decimas, ipsi non plus solvant; tum
+          <lb ed="#P" n="52"/>etiam quia potest interdum rationabilis causa
+          <lb ed="#P" n="53"/>intervenire eximendi aliquem privatum a
+          <lb ed="#P" n="54"/>communi onere aliorum, et quando invenitur
+          <lb ed="#P" n="55"/>consuetudo praescripta legitime, praesumitur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>exemptionem illam ex aliqua legitima causa
+          <lb ed="#P" n="57"/>factam esse, imo etiam praesumitur 
+          privile<lb break="no" ed="#P" n="58"/>gium aliquod praecessisse, vel saltem bona fide
+          <lb ed="#P" n="59"/>reputatum semper esse, quia non est 
+          verisi<lb break="no" ed="#P" n="60"/>mile pastores, et parochos, ad quos pertinebat
+          <lb ed="#P" n="61"/>jus talium decimarum, tanto tempore 
+          cissi<lb break="no" ed="#P" n="62"/>mulasse, et patienter tolerasse non solvi sibi
+          <lb ed="#P" n="63"/>decimas sine aliquo justo titulo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

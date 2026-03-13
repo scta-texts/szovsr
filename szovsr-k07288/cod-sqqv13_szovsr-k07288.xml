@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="292"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k07288"><!-- t2-l2c10 -->
+        <head>Caput 10</head>
+        <head type="question-title">De numero et comparatione dictarum festivitatum.</head>
+        <p>
+          <lb ed="#P" n="62"/>CAPUT X.
+          <lb ed="#P" n="63"/>DE NUMERO ET COMPARATIONE DICTARUM 
+          FESTI<lb break="no" ed="#P" n="64"/>VITATUM.
+        </p>
+        <p>
+          <lb ed="#P" n="65"/>1. Ex dictis in superioribus capitulis, 
+          colli<lb break="no" ed="#P" n="66"/>gere licet, numerum festivitatum, quae ex 
+          ge<lb break="no" ed="#P" n="67"/>nerali praecepto ab universa Ecclesia 
+          obser<lb break="no" ed="#P" n="68"/>vandae sunt, ad numerum octoginta unius 
+          die<lb break="no" ed="#P" n="69"/>rum ad summum accedere. Patet, quia 
+          domi<lb break="no" ed="#P" n="70"/>nici dies regulariter sunt quinquaginta duo;
+          <lb ed="#P" n="71"/>ex festis autem Domini quae numeravimus,
+          <lb ed="#P" n="72"/>decem tantum sunt sub praecepto ; ex illis 
+          ta<lb break="no" ed="#P" n="73"/>men duo cum dominicis coincidunt, et duo
+          <lb ed="#P" n="74"/>alia Virgini tribui solent; pro eis tamen 
+          ad<lb break="no" ed="#P" n="75"/>di debent quatuor dies festivi, qui 
+          conjungun<lb break="no" ed="#P" n="76"/>tur cum festis Paschae, et Pentecostes; et ita
+          <lb ed="#P" n="77"/>relinquitur idem numerus decem dierum,
+          <lb ed="#P" n="78"/>quibus addendae sunt quatuor solemnes 
+          festi<lb break="no" ed="#P" n="79"/>vitates Virginis, et unus dies Joannis 
+          Baptis<lb break="no" ed="#P" n="80"/>tae, et decem Apostolorum (quia, licet ipsi sint
+          <lb ed="#P" n="81"/>tredecim , sex illorum bini celebrantur per
+          <lb ed="#P" n="82"/>singulos dies); Martyrum vero tres tantum 
+          fes<lb break="no" ed="#P" n="83"/>tivitates ex praecepto observamus, quae omnes
+          <lb ed="#P" n="84"/>numerum octoginta dierum efficiunt, cui 
+          nu<lb break="no" ed="#P" n="85"/>mero dies unus omnibus Sanctis dicatus 
+          ad<lb break="no" ed="#P" n="86"/>jungitur. Interdum vero hic numerus dierum
+          <lb ed="#P" n="87"/>minuitur, quia saepe Sanctorum festivitates in
+          <lb ed="#P" n="88"/>diem dominicum cadunt. Et ideo moraliter
+          <lb ed="#P" n="89"/>loquendo non potest augeri ille numerus, nisi
+          <lb ed="#P" n="90"/>de novo feratur aliquod praeceptum, quia, 
+          li<lb break="no" ed="#P" n="91"/>cet nonnunquam (scilicet) per singulos 
+          se<lb break="no" ed="#P" n="92"/>narios annorum, numerus dominicarum 
+          cres<lb break="no" ed="#P" n="93"/>cat ad quinquaginta tres, semper, ex alia 
+          par<lb break="no" ed="#P" n="94"/>te dierum festivalium numerus minuetur, et
+          <lb ed="#P" n="95"/>ideo vix unquam accedet ad numerum 
+          die<lb break="no" ed="#P" n="96"/>rum octoginta.
+        </p>
+        <p>
+          <lb ed="#P" n="97"/>2. An hi dies omnes aequales sint in 
+          obli<lb break="no" ed="#P" n="98"/>gatione. — Sed quaeret tandem aliquis, an hi
+          <lb ed="#P" n="99"/>omnes dies aequales sint quoad praecepti 
+          obli<lb break="no" ed="#P" n="100"/>gationem. Et ratio dubitandi esse potest, quia
+          <lb ed="#P" n="101"/>in jure quidam majores, alii minores 
+          dicun<lb break="no" ed="#P" n="102"/>tur, ut ex capite 1, et capit. Licet, de Fer.,
+          <lb ed="#P" n="103"/>colligitur. Respondeo breviter primo, si 
+          com<lb break="no" ed="#P" n="104"/>paratio fiat in magnitudine seu duratione 
+          tem<lb break="no" ed="#P" n="105"/>poris, hos dies omnes esse aequales, nimirum
+          <lb ed="#P" n="106"/>viginti quatuor horarum, non quia hoc 
+          perti<lb break="no" ed="#P" n="107"/>neat ad jus divinum, vel naturale, ut quidam
+          <pb ed="#P" n="293"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Summistae falso confingunt, contra quos 
+          su<lb break="no" ed="#P" n="2"/>pra egimus ; sed quia jus commune de his
+          <lb ed="#P" n="3"/>diebus loquitur, ut patet ex c. 1 de Feriis, et
+          <lb ed="#P" n="4"/>aliis supra citatis; et quia, simpliciter 
+          lo<lb break="no" ed="#P" n="5"/>quendo de diebus, solent intelligi dies 
+          natu<lb break="no" ed="#P" n="6"/>rales, qui sunt viginti quatuor horarum. et
+          <lb ed="#P" n="7"/>ita praecepta jejuniorum, vel orationum, quae
+          <lb ed="#P" n="8"/>per singulos dies fieri debent, semper de his
+          <lb ed="#P" n="9"/>diebus intelliguntur.
+        </p>
+        <p>
+          <lb ed="#P" n="10"/>3. Quid dicendum de rebus ad quas 
+          obli<lb break="no" ed="#P" n="11"/>gant. — Ratio conclusionis. — Secundo, si
+          <lb ed="#P" n="12"/>comparatio fiat in actionibus vel omissioni -
+          <lb ed="#P" n="13"/>bus , ad quas obligat praeceptum observandi
+          <lb ed="#P" n="14"/>festos dies, sic etiam omnes hi dies sunt 
+          aequa<lb break="no" ed="#P" n="15"/>les extensive (ut sic dicam), licet intensive
+          <lb ed="#P" n="16"/>possit inter eos aliqua inaequalitas cogitari.
+          <lb ed="#P" n="17"/>Dico autem esse aequales in hoc extensive,
+          <lb ed="#P" n="18"/>quia (ut infra late dicam) non obhgat 
+          dic<lb break="no" ed="#P" n="19"/>tum praeceptum ad plures actiones in uno
+          <lb ed="#P" n="20"/>festo quam in alio, nec ad abstinendum a 
+          plu<lb break="no" ed="#P" n="21"/>ribus operibus in uno quam in alio, 
+          quan<lb break="no" ed="#P" n="22"/>tumvis in se sit dignius alio. Ratio est, quia
+          <lb ed="#P" n="23"/>tenor praecepti unus est pro omnibus diebus;
+          <lb ed="#P" n="24"/>nam positive jubet tantum audire Missam;
+          <lb ed="#P" n="25"/>negative autem prohibet universa opera 
+          servi<lb break="no" ed="#P" n="26"/>lia, et omnia quae ad illa reducuntur, ut 
+          in<lb break="no" ed="#P" n="27"/>fra videbimus. Neque in hoc fit ampliatio aut
+          <lb ed="#P" n="28"/>restrictio pro diversis diebus, et si quis velit
+          <lb ed="#P" n="29"/>Dingere varietatem aliquam, nullam regulam
+          <lb ed="#P" n="30"/>aut rationem illius assignare poterit. Est 
+          er<lb break="no" ed="#P" n="31"/>go in hoc quadam aequalitas, quae plane fuit
+          <lb ed="#P" n="32"/>necessaria, quia totum hoc praeceptum fertur
+          <lb ed="#P" n="33"/>per modum unius, nec poterat aliter ad 
+          di<lb break="no" ed="#P" n="34"/>verscs dies applicari. Intensive autem dico 
+          es<lb break="no" ed="#P" n="35"/>se in hoc quamdam inaequalitatem, quia quo
+          <lb ed="#P" n="36"/>solemnius et dignius est festum, eo major est
+          <lb ed="#P" n="37"/>obligatio servandi illud, et in illius 
+          transgres<lb break="no" ed="#P" n="38"/>sione aut contemptu magis peccatur. Cujus 
+          si<lb break="no" ed="#P" n="39"/>gnum est, quia magis scandalizat seu 
+          offen<lb break="no" ed="#P" n="40"/>dit alios publica violatio festi in uno quam in
+          <lb ed="#P" n="41"/>alio. Et ratio est, quia haec inaqualitas non
+          <lb ed="#P" n="42"/>oritur ex forma praecepta, sed ex materia 
+          ip<lb break="no" ed="#P" n="43"/>sa, quae in uno actu ejusdem virtutis nobilior
+          <lb ed="#P" n="44"/>est quam in alio, et consequenter actus ipsi
+          <lb ed="#P" n="45"/>inaequales sunt; unde fit, ut idem praeceptum
+          <lb ed="#P" n="46"/>cadens in illos, magis vel minus obliget. 
+          Exis<lb break="no" ed="#P" n="47"/>timo tamen hanc inaqualitatem non esse 
+          tan<lb break="no" ed="#P" n="48"/>tam, ut notabilem diversitatem faciat, quam
+          <lb ed="#P" n="49"/>in confessionem explicare necesse sit, nisi 
+          ra<lb break="no" ed="#P" n="50"/>tione notabilis scandali, aut alterius 
+          extrinse<lb break="no" ed="#P" n="51"/>cae circumstantiae.
+        </p>
+        <p>
+          <lb ed="#P" n="52"/>4. Dies festi inequales sunt in solemnitate,
+          <lb ed="#P" n="53"/>et in difficultate relamand observationem. —
+          <lb ed="#P" n="54"/>Diebus festis an flectenda genua. — Tertio,
+          <lb ed="#P" n="55"/>hinc fit ut inter bos dies sit aliqua inaequali-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tas in solemnitate, et signis honoris et cultus,
+          <lb ed="#P" n="57"/>quibus ab Eeclesia celebrantur, atque etiam,
+          <lb ed="#P" n="58"/>quod ad nos magis spectat, iu difficultate 
+          re<lb break="no" ed="#P" n="59"/>laxandi observationem talis diei. Prior pars
+          <lb ed="#P" n="60"/>pertinet ad clerum, et ad modum celebrandi
+          <lb ed="#P" n="61"/>divina officia in his diebus, et ideo eam ut
+          <lb ed="#P" n="62"/>notam, et ab hoc loco alienam, remitto. 
+          So<lb break="no" ed="#P" n="63"/>lum adverto, quia hoc ad omnes pertinet,
+          <lb ed="#P" n="64"/>Alexandrum HT, in capit. secundo de Feriis,
+          <lb ed="#P" n="65"/>docere, dominicis diebus, et in precipuis 
+          fes<lb break="no" ed="#P" n="66"/>Ltivitatibus non esse flectenda genua in 
+          ora<lb break="no" ed="#P" n="67"/>tionibus publicis, sicut observatur tempore
+          <lb ed="#P" n="68"/>paschali, ubi obscurum est quid intelligat per
+          <lb ed="#P" n="69"/>praecipuas festivitates, et quod in hoc habeant
+          <lb ed="#P" n="70"/>singulare. Nam Glossa ibi, verb. Preecipuis,
+          <lb ed="#P" n="71"/>intelligit omnes festivitates ibi comprehendi,
+          <lb ed="#P" n="72"/>quae observari praecipiuntur in dicto capit. 1
+          <lb ed="#P" n="73"/>de Cons., d. 3, et in ult. de Feriis, ac subinde
+          <lb ed="#P" n="74"/>in hoc etiam servari aequalitatem in omnibus
+          <lb ed="#P" n="75"/>diebus festis. Sed imprimis caeremonia illa
+          <lb ed="#P" n="76"/>non spectat ad obligationem praecepti. Deinde
+          <lb ed="#P" n="77"/>forte nunquam observata fuit in omnibus 
+          die<lb break="no" ed="#P" n="78"/>hus festis indifferenter, sed in quibusdam 
+          ma<lb break="no" ed="#P" n="79"/>joribus, qui in eo textu dicuntur praecipui.
+          <lb ed="#P" n="80"/>Denique Clemens VIII, revocans caeremoniam
+          <lb ed="#P" n="81"/>illam in Breviario, non facit mentionem 
+          fes<lb break="no" ed="#P" n="82"/>tivitatum, sed tantum dominicarum. 
+          Postertio<lb break="no" ed="#P" n="83"/>rem ergo partem posuimus propter c. Zicet, de
+          <lb ed="#P" n="84"/>Fer., ubi facultas datur laborandi in aliquibus
+          <lb ed="#P" n="85"/>operibus alias prohibitis in diebus festis, et ab
+          <lb ed="#P" n="86"/>illa dispensatione excipiuntur majores anni
+          <lb ed="#P" n="87"/>solemnitates. Quae exceptio, licet in particulari
+          <lb ed="#P" n="88"/>dispensatione fieri videatur, tamen ibi 
+          intel<lb break="no" ed="#P" n="89"/>ligitur data esse forma concedendi similes 
+          in<lb break="no" ed="#P" n="90"/>dulgentias, seu dispensationes, et quoad hoc
+          <lb ed="#P" n="91"/>dicimus non omnia festa esse aequalia; nam
+          <lb ed="#P" n="92"/>in minoribus festis conceditur ex aliqua causa
+          <lb ed="#P" n="93"/>indulgentia, quae ex eadem in majoribus 
+          con<lb break="no" ed="#P" n="94"/>cedi non debet.
+        </p>
+        <p>
+          <lb ed="#P" n="95"/>5. Quae festivitates dicantur majores. — 
+          Du<lb break="no" ed="#P" n="96"/>bitant tamen ibi Doctores, quae dicantur 
+          ma<lb break="no" ed="#P" n="97"/>jores festivitates. Glossa enim ibi quinque 
+          nu<lb break="no" ed="#P" n="98"/>merat, Nativitatem Domini, Epiphaniam, 
+          Pas<lb break="no" ed="#P" n="99"/>cha, Ascensionem, et Pentecostem, nulla 
+          adhi<lb break="no" ed="#P" n="100"/>bita probatione : eam tamen sequuntur 
+          Joan<lb break="no" ed="#P" n="101"/>nes And., et Panorm. Addunt vero 
+          Assum<lb break="no" ed="#P" n="102"/>ptionem Virginis, nam illud festum inter 
+          qua<lb break="no" ed="#P" n="103"/>tuor maxime privilegiata quoad interdictum
+          <lb ed="#P" n="104"/>numeratur in cap. ALlma, de Sent. Excom.,
+          <lb ed="#P" n="105"/>in 6, ubi ex illis quinque numeratis a Glossa,
+          <lb ed="#P" n="106"/>omittuntur Epiphania, et Ascensio Domini,
+          <lb ed="#P" n="107"/>et aliis tribus aequiparatur Assumptio; ergo
+          <lb ed="#P" n="108"/>a fortiori in praesenti est comprehendenda sub
+          <lb ed="#P" n="109"/>festis majoribus. Censeo vero etiam esse 
+          ad<lb break="no" ed="#P" n="110"/>dendum festum corporis Christi; tum quia in
+          <pb ed="#P" n="294"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Ecclesia non est receptum ut minus solemne,
+          <lb ed="#P" n="2"/>quam caetera enumerata; tum etiam quia 
+          il<lb break="no" ed="#P" n="3"/>lud etiam festum non est capax interdicti,
+          <lb ed="#P" n="4"/>juxta concessiones Pontificum, de quibus 
+          di<lb break="no" ed="#P" n="5"/>ximus in tom. 5 tertiae part., disput. 34 sect.
+          <lb ed="#P" n="6"/>1, num. 41. Sunt autem haec septem festa 
+          ma<lb break="no" ed="#P" n="7"/>jora limitanda, ut existimo, ad septem dies,
+          <lb ed="#P" n="8"/>quoad dictum effectum, quia non oportet 
+          il<lb break="no" ed="#P" n="9"/>lam difficultatem dispensationis extendi ad
+          <lb ed="#P" n="10"/>octavarum dies, etiamsi aliqui eorum festivi
+          <lb ed="#P" n="11"/>sint, ut a fortiori constat ex his quae in dicto
+          <lb ed="#P" n="12"/>loco tom. 5 dixi. Cum autem haec enumeratio
+          <lb ed="#P" n="13"/>nullo jure in rigore probetur, quia dictum
+          <lb ed="#P" n="14"/>cap. Alma parum favet Epiphaniae et 
+          Ascen<lb break="no" ed="#P" n="15"/>sioni, oportet ut communi opinione et 
+          existi<lb break="no" ed="#P" n="16"/>matione nitatur ; nam omnia illa festa 
+          com<lb break="no" ed="#P" n="17"/>muniter reputantur quasi aequalia et 
+          pascha<lb break="no" ed="#P" n="18"/>lia ( ut sic dicam , licet interdum in jure 
+          ali<lb break="no" ed="#P" n="19"/>quod privilegium uni concedatur, quod alteri
+          <lb ed="#P" n="20"/>non conceditur; quod non obstat quominus
+          <lb ed="#P" n="21"/>simpliciter ex majoribus censeantur. Unde 
+          in<lb break="no" ed="#P" n="22"/>fero, quod si alicubi aliquod festum Patroni,
+          <lb ed="#P" n="23"/>ut verbi gratia, Sancti Jacobi Compostellae,
+          <lb ed="#P" n="24"/>vel aliud simile, aeque solemne ac praedicta,
+          <lb ed="#P" n="25"/>communiter reputetur, merito etiam possit
+          <lb ed="#P" n="26"/>inter majores festivitates Ibi reputari, ut non
+          <lb ed="#P" n="27"/>debeat in illo indulgentia laborandi sine 
+          val<lb break="no" ed="#P" n="28"/>de extraordinaria causa concedi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

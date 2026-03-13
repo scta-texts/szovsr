@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-03-13">March 13, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv13">Paris 1859, v. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="629"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-k15678"><!-- t3-l4c2 -->
+        <head>Caput 2</head>
+        <head type="question-title">Sitne aliqua simonia jure divino prohibita, incipitque explicari prima divisio simoniae, in eam quae est prohibita quia mala, et eam quae est mala, quia prohibita.</head>
+        <p>
+          <lb ed="#P" n="86"/>CAPUT II.
+          <lb ed="#P" n="87"/>SITNE ALIQUA SIMONIA JURE DIVINO PROHIBITA,
+          <lb ed="#P" n="88"/>INCIPITQUE EXPLICARI PRIMA DIVISIO SIMONIAE,
+          <lb ed="#P" n="89"/>IN EAM QUAE EST PROHIBITA QUIA MALA, ET
+          <lb ed="#P" n="90"/>EAM QUAE EST MALA, QUIA PROHIBITA.
+        </p>
+        <p>
+          <lb ed="#P" n="91"/>1. Prima simoniae divisio : in eam quae est
+          <lb ed="#P" n="92"/>de jure divino, et in eam quae est de jure 
+          eccle<lb break="no" ed="#P" n="93"/>siastico. —Probatur divisio. —Quoniam 
+          praeci<lb break="no" ed="#P" n="94"/>pua hujus tractatus intentio est declarare
+          <lb ed="#P" n="95"/>malitiam simoniae , quae per comparationem
+          <lb ed="#P" n="96"/>ad regulam, quae est jus seu praeceptum, 
+          su<lb break="no" ed="#P" n="97"/>menda est, ideo primo loco tractanda est 
+          divi<lb break="no" ed="#P" n="98"/>sio simonise, quae per comparationem ad hanc
+          <lb ed="#P" n="99"/>regulam sumitur. Ante omnia ergo 
+          suppo<lb break="no" ed="#P" n="100"/>nenda est divisio simoniae, in eam quae est
+          <lb ed="#P" n="101"/>contra jus divinum, et eam quae tantum est
+          <lb ed="#P" n="102"/>contra ecclesiasticum. Quam divisionem 
+          om<lb break="no" ed="#P" n="103"/>nes fere admittunt , ut de jurisperitis constat
+          <lb ed="#P" n="104"/>ex Glos., in cap. Cum pridem, de Pactis, verb.
+          <lb ed="#P" n="105"/>Illicitee pactionis ; alia Glos., in cap. Ez parte,
+          <lb ed="#P" n="106"/>1, de Offieiis deleg., verb. Dimittere. Quam
+          <lb ed="#P" n="107"/>ibi Innocent., Hostiens., Abbas et alii appro-
+          <pb ed="#P" n="630"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bant. Item sentit Gloss., in cap. Salvator, 1,
+          <lb ed="#P" n="2"/>quaest. 3, verb. Et judicem ; Turrec., incap.
+          <lb ed="#P" n="3"/>Latorem, art. 3, num. 5, 1, q. 1. Eamdem 
+          dis<lb break="no" ed="#P" n="4"/>tinctionem admittunt Theologi, uno vel alio
+          <lb ed="#P" n="5"/>excepto, ut infra. Et in generali persuaderi
+          <lb ed="#P" n="6"/>facile petest. Primo , ex commuui ratione
+          <lb ed="#P" n="7"/>sacrilegii ; nam aliquod esse potest 
+          sacrile<lb break="no" ed="#P" n="8"/>gium contra jus diviuum, et aliquod contra
+          <lb ed="#P" n="9"/>ecclesiasticum, ut supra visum est; ergo 
+          ea<lb break="no" ed="#P" n="10"/>dem ratione .poterit esse simonia utriusque
+          <lb ed="#P" n="11"/>modi. Patet consequentia, quia simonia 
+          sa<lb break="no" ed="#P" n="12"/>crilegium quoddam est, et ita ex vi 
+          ge<lb break="no" ed="#P" n="13"/>neris non repugnat ei dicta partitio , nec
+          <lb ed="#P" n="14"/>ex propria ratione potest ostendi 
+          repugnan<lb break="no" ed="#P" n="15"/>tia. Secundo, ostendi potest in particulari
+          <lb ed="#P" n="16"/>de singulis membris. Nam imprimis Simon
+          <lb ed="#P" n="17"/>Magus propriam et gravissimam simoniam
+          <lb ed="#P" n="18"/>commisit, ut ex dictis capitibus 
+          praeceden<lb break="no" ed="#P" n="19"/>tibus constat ; sed ille non peccavit 
+          con<lb break="no" ed="#P" n="20"/>tra positivam legem Excclesiae, quia nec lata
+          <lb ed="#P" n="21"/>tunc erat, nec ille tenebatur illam scire;
+          <lb ed="#P" n="22"/>ergo peccavit contra divinum jus. De altero
+          <lb ed="#P" n="23"/>vero membro, quod possibile sit, probatur ex
+          <lb ed="#P" n="24"/>generali principio, quod lex humana potest
+          <lb ed="#P" n="25"/>constituere materiam aliquam, ut necessariam
+          <lb ed="#P" n="26"/>in aliqua specie virtutis, quae ex natura sua
+          <lb ed="#P" n="27"/>necessaria non erat, et sic potest facere ut
+          <lb ed="#P" n="28"/>aliquid siv malum contra talem virtutem,
+          <lb ed="#P" n="29"/>quod, seclusa lege positiva, malum non esset:
+          <lb ed="#P" n="30"/>ut saeculare judicium agere in loco sacro est
+          <lb ed="#P" n="31"/>sacrilegium contra jus humanum, quia 
+          Eccle<lb break="no" ed="#P" n="32"/>sia id prohibuit in peculiarem reverentiam
+          <lb ed="#P" n="33"/>loci sacri; sic ergo negotiari vendendo vel
+          <lb ed="#P" n="34"/>emendo rem aliquam annexam rei saerae, vel
+          <lb ed="#P" n="35"/>permutare beneficia propria auctoritate, 
+          po<lb break="no" ed="#P" n="36"/>tuit ab Ecclesia prohiberi , ut necessarium ad
+          <lb ed="#P" n="37"/>reverentiam talis rei, et tunc opposita actio
+          <lb ed="#P" n="38"/>erit simonia contra jus Ecclesiae.
+        </p>
+        <p>
+          <lb ed="#P" n="39"/>2. An primum membrum simonie sit 
+          con<lb break="no" ed="#P" n="40"/>tra jus divinum naturale, vel contra positivum.
+          <lb ed="#P" n="41"/>— Ratio dubitandi. — Probatur esse contra
+          <lb ed="#P" n="42"/>utrumque. — Quantumvis autem haec divisio
+          <lb ed="#P" n="43"/>recepta sit, non desunt circa illam difficultates,
+          <lb ed="#P" n="44"/>nec ctiam desunt qui in aliquo contradicant,
+          <lb ed="#P" n="45"/>et ideo utrumque membrum sigillatim 
+          trac<lb break="no" ed="#P" n="46"/>tandum est. Circa primum ergo membrum de
+          <lb ed="#P" n="47"/>simonia contra jus divinum, dubitari potest an
+          <lb ed="#P" n="48"/>talis simonia sit contra jus divinum naturale,
+          <lb ed="#P" n="49"/>vel positivam. Et ratio dubii est, quia D. 
+          Tho<lb break="no" ed="#P" n="50"/>mas, in d. art. 1 (quem omnes sequuntur ,
+          <lb ed="#P" n="51"/>utrumque conjungere videtur. Nam prius 
+          pro<lb break="no" ed="#P" n="52"/>bat simoniam esse malam duplici ratione, 
+          sci<lb break="no" ed="#P" n="53"/>Iicet, quia res spiritualis et sacra indigne 
+          tra<lb break="no" ed="#P" n="54"/>ctatur, cum pretio aestimatur; et quia vendit
+          <lb ed="#P" n="55"/>homo rem cujus non est dominus, scilicet, rem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sacram et spiritualem. Quae duae rationes 
+          vi<lb break="no" ed="#P" n="57"/>dentur eo tendere, ut probent hoc esse contra
+          <lb ed="#P" n="58"/>jus divinum naturale. Deinde vero adjungit
+          <lb ed="#P" n="59"/>tertiam rationem sumptam ex verbis Christi,
+          <lb ed="#P" n="60"/>Matth. 10: Gratis accepistis, gratis date. Quae
+          <lb ed="#P" n="61"/>ratio procedere videtur de jure divino positivo,
+          <lb ed="#P" n="62"/>nam ex natura rei non est intrinsece malum,
+          <lb ed="#P" n="63"/>rem gratis acceptam non gratis dare, 
+          nisialiun<lb break="no" ed="#P" n="64"/>de resultet malitia ; sic enim homo gratis a
+          <lb ed="#P" n="65"/>Deo accepit libertatem naturalem , vires ad 
+          la<lb break="no" ed="#P" n="66"/>borandum, et similia, et tamen illa vendere,
+          <lb ed="#P" n="67"/>vel fructus aut usus eorum. non est per se 
+          ma<lb break="no" ed="#P" n="68"/>lum. Videtur ergo D. Thomas velle hoc vitium
+          <lb ed="#P" n="69"/>esse contra utrumque jus divinum.
+        </p>
+        <p>
+          <lb ed="#P" n="70"/>3. Probatur non esse contra utrumque. —
+          <lb ed="#P" n="71"/>Probatur non esse contra jus divinum 
+          positi<lb break="no" ed="#P" n="72"/>tum. — Aliunde vero apparet contra neutrum
+          <lb ed="#P" n="73"/>esse: non quidem contra jus divinum 
+          positi<lb break="no" ed="#P" n="74"/>vum in lege gratiae, quiain hac iege nulla sunt
+          <lb ed="#P" n="75"/>data praecepta positiva a Christo Domino, 
+          prae<lb break="no" ed="#P" n="76"/>ter praecepta fidei et sacramentorum ; circa
+          <lb ed="#P" n="77"/>modum autem tractaudi sacramenta, vel alias
+          <lb ed="#P" n="78"/>res sacras, nihil peculiare praecepit Christus,
+          <lb ed="#P" n="79"/>praeter id quod jure naturae sequitur ex 
+          sanc<lb break="no" ed="#P" n="80"/>titate, seu dignitate uniuscujusque rei sacrae.
+          <lb ed="#P" n="81"/>Et confirmatur, quia verba illa Gratis 
+          accepis<lb break="no" ed="#P" n="82"/>tis, gratis date, possunt facile per modum 
+          con<lb break="no" ed="#P" n="83"/>silii explicari; tum quia nullum est verbum
+          <lb ed="#P" n="84"/>quod rigorosum praeceptum, ejusque 
+          obliga<lb break="no" ed="#P" n="85"/>tionem rcquirat ; tum quia ibi non tantum 
+          mo<lb break="no" ed="#P" n="86"/>vet venditionem, sed etiam quamcumque 
+          mu<lb break="no" ed="#P" n="87"/>nerum oblationem, etiam gratuitam, si in 
+          re<lb break="no" ed="#P" n="88"/>compensationem facti beneficii offeratur, ut
+          <lb ed="#P" n="89"/>Jansen. in Concord., cap. 55, animadvertit, et
+          <lb ed="#P" n="90"/>tamen hoc non est praeceptum, sed consilium,
+          <lb ed="#P" n="91"/>ut constat; tum denique quia statim 
+          subjun<lb break="no" ed="#P" n="92"/>gitur, quasi in confirmationem praecedentis
+          <lb ed="#P" n="93"/>consilii: Volite possidere aurum, neque 
+          argen<lb break="no" ed="#P" n="94"/>lun, neque pecuniam àn conis vestris. Quod 
+          ta<lb break="no" ed="#P" n="95"/>men consilium est, licet sub eadem forma 
+          im<lb break="no" ed="#P" n="96"/>perando proponatur.
+        </p>
+        <p>
+          <lb ed="#P" n="97"/>4. Probatur non esse contra naturale. —
+          Ra<lb break="no" ed="#P" n="98"/>tio 1 D. Thome impugnatur.—OQnod vero nec
+          <lb ed="#P" n="99"/>contra jus naturale sit hoc vitium, probari 
+          po<lb break="no" ed="#P" n="100"/>test, quia duae priores rationes D. Thomae non
+          <lb ed="#P" n="101"/>videntur hoc convincere. Non quidem prima,
+          <lb ed="#P" n="102"/>quae inde sumebatur, quod videtur res 
+          spiri<lb break="no" ed="#P" n="103"/>tualis indigne tractari, dum per temporale
+          <lb ed="#P" n="104"/>pretium comparatur. At hoc non videtur 
+          coge<lb break="no" ed="#P" n="105"/>re: tum quia saepe in contractibus justitiae fit
+          <lb ed="#P" n="106"/>licite permutatio vel recompensatio inter rem,
+          <lb ed="#P" n="107"/>quae per pecuniam satis recompensari non 
+          po<lb break="no" ed="#P" n="108"/>test per pretium pecuniae; ut fama, vel 
+          corpo<lb break="no" ed="#P" n="109"/>ris membrum pon potest pecunia 
+          recompen<lb break="no" ed="#P" n="110"/>sari, et tamen qui abstulit famam, vel abscidit
+          <pb ed="#P" n="631"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>membrum, potest ex conventione humano 
+          ar<lb break="no" ed="#P" n="2"/>bitrio facta, injuriam pecunia recompensare ;
+          <lb ed="#P" n="3"/>tum etiam quia non oportet ut hoc fiat ex falsa
+          <lb ed="#P" n="4"/>eestimatione aequalitatis inter rem temporalem
+          <lb ed="#P" n="5"/>et spiritualem, sed ex voluntaria quadam 
+          pac<lb break="no" ed="#P" n="6"/>tione, instituendo vel designando certum 
+          ali<lb break="no" ed="#P" n="7"/>quod pretium loco rei aequalis, quod ab eo
+          <lb ed="#P" n="8"/>qui aequale dare non potest, videtur posse 
+          pos<lb break="no" ed="#P" n="9"/>tulari quod potest, sine injuria rei dignioris,
+          <lb ed="#P" n="10"/>quam ille accepturus est. Sic eniin non 
+          possu<lb break="no" ed="#P" n="11"/>mus nos reddere aequale Deo pro injuria quam
+          <lb ed="#P" n="12"/>illi fecimus, et tamen ipse honestissime a nobis
+          <lb ed="#P" n="13"/>postulat in recompensationem, id quod facere
+          <lb ed="#P" n="14"/>possumus. Et confirmatur, quia si haec ratio
+          <lb ed="#P" n="15"/>valida esset, utique probaret nec scientiam 
+          na<lb break="no" ed="#P" n="16"/>turalem posse vendi, nec sauitatem, quia haec
+          <lb ed="#P" n="17"/>non possunt pretio ullo aestimari. 
+          Responde<lb break="no" ed="#P" n="18"/>bit aliquis, sanitatem aut scientiam non 
+          ven<lb break="no" ed="#P" n="19"/>di, sed actiones aut industrias, quae juvant ad
+          <lb ed="#P" n="20"/>illas acquirendas, quae actiones humanae sunt,
+          <lb ed="#P" n="21"/>et pretio aestimabiles. At enim eodem modo
+          <lb ed="#P" n="22"/>dicemus non vendi gratiam, quae per 
+          sacramen<lb break="no" ed="#P" n="23"/>ta, verbi gratia, datur, nec virtutem 
+          sacra<lb break="no" ed="#P" n="24"/>mentorum, nec sanitatem, verbi gratia, quae
+          <lb ed="#P" n="25"/>per gratiam gratis datam confertur, sed actiones
+          <lb ed="#P" n="26"/>quasdam humanas, quae ibi interveniunt, et
+          <lb ed="#P" n="27"/>pretio aestimabiles sunt.
+        </p>
+        <p>
+          <lb ed="#P" n="28"/>5. Secunda ratio D. Thome impugnatur.—
+          <lb ed="#P" n="29"/>Altera ratio D. Thomae scmitur ex eo, quod
+          <lb ed="#P" n="30"/>non sumus domini rerum spiritualium , sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="31"/>dispensatores ; nemo autem vendere potest,
+          <lb ed="#P" n="32"/>nisi id cujus est dominus. Quae ratio videtur
+          <lb ed="#P" n="33"/>habere fundamenitum in cap. Zos, 1, q. 1.
+          <lb ed="#P" n="34"/>Potest autem refutari ex objectione proxime
+          <lb ed="#P" n="35"/>facta, quia, licet non simus domini donorum
+          <lb ed="#P" n="36"/>spiritualium, sumus tamen domini actionum
+          <lb ed="#P" n="37"/>quas per illa dona exercere possumus; ergo
+          <lb ed="#P" n="38"/>possumus illas vendere. Secundo, quia falsum
+          <lb ed="#P" n="39"/>videtur assumptum : aliqui enim censent esse
+          <lb ed="#P" n="40"/>nos dominos gratiae et spiritualium virtutum,
+          <lb ed="#P" n="41"/>quas in nobis recipimus, nt beneficiatus est
+          <lb ed="#P" n="42"/>dominus sui beneficii, et sic de aliis '. Tertio,
+          <lb ed="#P" n="43"/>quia esto non habeamus dominium, habemus
+          <lb ed="#P" n="44"/>usum ; usuarius autem potest vendere jus
+          <lb ed="#P" n="45"/>suum, etiamsi dominus rei non sit; sic ergo,
+          <lb ed="#P" n="46"/>qui prophetiae vel linguarum donum accepit,
+          <lb ed="#P" n="47"/>poterit pro usu illius, ut concionandi aut 
+          in<lb break="no" ed="#P" n="48"/>terpretandi, pretium accipere. Tandem 
+          con<lb break="no" ed="#P" n="49"/>firmatur, quia si haec ratio esset valida, 
+          seque<lb break="no" ed="#P" n="50"/>retur esse simoniacum, rem spiritualem pro
+          <lb ed="#P" n="51"/>alia spirituali commutari ; consequens est fal-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="52"/>sum, ut suppono; ergo. Sequela patet , quia
+          <lb ed="#P" n="53"/>qui non est dominus, sed dispensator, nullam
+          <lb ed="#P" n="54"/>recom pensationem potest exigere. nec 
+          tempo<lb break="no" ed="#P" n="55"/>ralem , nec spiritualem , quia nullum habet
+          <lb ed="#P" n="56"/>jus, eum non sit dominus. Ut qui dispensat
+          <lb ed="#P" n="57"/>eleemosynam alterius gratis dandam 
+          secun<lb break="no" ed="#P" n="58"/>dum voluntatem ejus, non potest exigere a
+          <lb ed="#P" n="59"/>paupere ut aliquam orationem dicat, vel 
+          Mis<lb break="no" ed="#P" n="60"/>sam, si sit sacerdos, imponendo illi 
+          obligatio<lb break="no" ed="#P" n="61"/>nem.
+        </p>
+        <p>
+          <lb ed="#P" n="62"/>6. Simonia non solum potest esse, sed 
+          regu<lb break="no" ed="#P" n="63"/>lariter est contra jus divinwm naturale. — In
+          <lb ed="#P" n="64"/>hac dubitatione, breviter aliqua dicenda sunt.
+          <lb ed="#P" n="65"/>Primum est, vitium simoniae ex genere suo
+          <lb ed="#P" n="66"/>esse posse, imo reeulariter esse contra jus 
+          di<lb break="no" ed="#P" n="67"/>vinum naturale. Haec est sententia et. mens
+          <lb ed="#P" n="68"/>D. Thomae, dicto art. 1, et expressius in art.
+          <lb ed="#P" n="69"/>2. quem ibi Cajetanus et alii sequuntur ; Sot.,
+          <lb ed="#P" n="70"/>lib. 9 de Just., quaest. 5, art. 1 et 2; Victor.,
+          <lb ed="#P" n="71"/>dicta Relect., num. 11; Durand., 4,d. 15, q.
+          <lb ed="#P" n="72"/>b, num. 7; et ibi Paludan., quaest. 4, art.2;
+          <lb ed="#P" n="73"/>et idem sentit Richar., art. 3, q. 1; Adrian.,
+          <lb ed="#P" n="74"/>Quodhlb. 9, ad 3 ; Armach., lib. 10, cap. 9. Et
+          <lb ed="#P" n="75"/>nullum invenio contradicentem quoad hoc
+          <lb ed="#P" n="76"/>membrum, et Gloss. ac juristae allegati illud
+          <lb ed="#P" n="77"/>tauquam indubitatum supponunt. Ideoque
+          <lb ed="#P" n="78"/>pars haec omnino certa videtur, et 
+          convinci<lb break="no" ed="#P" n="79"/>tur ex verbis Petri, Act. 8: Pecunia tua 
+          te<lb break="no" ed="#P" n="80"/>cum sit in perditionem, quia donum Dei 
+          exis<lb break="no" ed="#P" n="81"/>tmasti pecunia possideri. Ubi ex ipsa natura
+          <lb ed="#P" n="82"/>et conditione talis doni arguit Simonem, non
+          <lb ed="#P" n="83"/>ex aliqua positiva prohibitione ; sentit ergo
+          <lb ed="#P" n="84"/>ex natura rei affectum illum, et conatum
+          <lb ed="#P" n="85"/>fuisse iniquum et sacrilegum. Videtur 
+          au<lb break="no" ed="#P" n="86"/>tem esse vis rationis a Petro insinuatae, quia
+          <lb ed="#P" n="87"/>contra dignitatem et excellentiam doni, quod
+          <lb ed="#P" n="88"/>est proprium Dei, et ex ejus gratuita 
+          vo<lb break="no" ed="#P" n="89"/>luntate pendet, est, ut per humanum 
+          con<lb break="no" ed="#P" n="90"/>tractum ac temporale pretium acquiratur:
+          <lb ed="#P" n="91"/>hoc autem fit per simoniam; est ergo 
+          ma<lb break="no" ed="#P" n="92"/>gnum sacrilegium ortum ex ipsa rei 
+          natu<lb break="no" ed="#P" n="93"/>ra, quia est contemptus quidam et 
+          vilipen<lb break="no" ed="#P" n="94"/>dium divini doni. Est etiam gravis injuria
+          <lb ed="#P" n="95"/>ipsiusmet Dei, quia ejus dona ita tractantur,
+          <lb ed="#P" n="96"/>ac si Ipse esset per pecuniam inducendus, et
+          <lb ed="#P" n="97"/>quasi cogendus ad sua gratuita dona 
+          prae<lb break="no" ed="#P" n="98"/>standa. Vel certe, quia dum haec dona ab 
+          ho<lb break="no" ed="#P" n="99"/>mine emuntur, ipso opere et facto 
+          significa<lb break="no" ed="#P" n="100"/>tur, non Deum, sed hominem esse 
+          principa<lb break="no" ed="#P" n="101"/>lem auctorem talium donorum, et ab illius 
+          vo<lb break="no" ed="#P" n="102"/>luntate et efficacia principaliter pendere, non
+          <lb ed="#P" n="103"/>ex gratuita voluntate Dei. Ergo talis modus
+          <lb ed="#P" n="104"/>acquirendi vel conferendi haec dona divina, ex
+          <lb ed="#P" n="105"/>natura rei est coptrarius sanctitati et propriae
+          <lb ed="#P" n="106"/>conditiont talium donorum, ideoque ex natu-
+          <pb ed="#P" n="632"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ra rei illicitus est et sacrilegus. Et 
+          confirma<lb break="no" ed="#P" n="2"/>tur, quia lex naturalis dictat sancta esse sancte
+          <lb ed="#P" n="3"/>tractanda, et ideo de sacramentis dicimus,
+          <lb ed="#P" n="4"/>quod, licet eorum institutio sit de jure divino
+          <lb ed="#P" n="5"/>positivo, tamen, illa supposita institutione,
+          <lb ed="#P" n="6"/>contra legem naturalem est sacramenta 
+          in<lb break="no" ed="#P" n="7"/>digne suscipere. Ita ergo in praesenti, eo ipso
+          <lb ed="#P" n="8"/>quod haec dona supernaturalia et divina sunt,
+          <lb ed="#P" n="9"/>contra legem naturalem est ea indigne 
+          trac<lb break="no" ed="#P" n="10"/>tare, deducendo illa ad viles et temporales
+          <lb ed="#P" n="11"/>contractus. Unde intelligitur obiter hoc jus
+          <lb ed="#P" n="12"/>non dici naturale, eo quod per nudum 
+          natu<lb break="no" ed="#P" n="13"/>rale lumen dictetur, sed quia ratio fide 
+          illus<lb break="no" ed="#P" n="14"/>trata naturaliter hoc dictat, ita ut hoc jus sit
+          <lb ed="#P" n="15"/>quasi connaturale ipsi fidei, ut in materia de
+          <lb ed="#P" n="16"/>legibus latius expositum est.
+        </p>
+        <p>
+          <lb ed="#P" n="17"/>7. Rationes D. Thome defenduntur.—
+          Prae<lb break="no" ed="#P" n="18"/>terea rationes D. Thomae optimae sunt, et 
+          com<lb break="no" ed="#P" n="19"/>muniter ab omnibus probantur, imo fere illis
+          <lb ed="#P" n="20"/>solis utuntur ac veritatem hanc 
+          confirman<lb break="no" ed="#P" n="21"/>dam, ut videre licet in citatis auctoribus, 
+          prae<lb break="no" ed="#P" n="22"/>sertim Dur. et Richard., et in Jans., Matth. 10.
+          <lb ed="#P" n="23"/>Prima autem ratio, ut efficacior sit, non est
+          <lb ed="#P" n="24"/>fundanda in sola inaequalitate inter pretium
+          <lb ed="#P" n="25"/>temporale et rem spiritualem, sed maxime
+          <lb ed="#P" n="26"/>in improportione quadam , ratione cujus res
+          <lb ed="#P" n="27"/>spiritualis indigne tractatur, quando pro 
+          tem<lb break="no" ed="#P" n="28"/>porali pretio commutatur. Quia tractatur ut
+          <lb ed="#P" n="29"/>subjecta humano arbitrio, et aestimationi, et
+          <lb ed="#P" n="30"/>non ut res suo modo divina, et pendens ex 
+          h<lb break="no" ed="#P" n="31"/>berali largitione Dei. Item tractatur ut res 
+          vi<lb break="no" ed="#P" n="32"/>lis et parvae aestimationis ; nam, ut recte dixit
+          <lb ed="#P" n="33"/>Hormisda Papa, de hac eadem re scribens ad
+          <lb ed="#P" n="34"/>Episcopos Hispaniae : Quis non vile putat esse
+          <lb ed="#P" n="35"/>quod venditur ? Et ita cessant objectiones 
+          fac<lb break="no" ed="#P" n="36"/>tae. Nam, licet in bonis mere humanis 
+          distin<lb break="no" ed="#P" n="37"/>gui soleant bona diversorum ordinum, ut 
+          di<lb break="no" ed="#P" n="38"/>vitiae, fama et vita, inter quae fit interdum
+          <lb ed="#P" n="39"/>commutatio, vel compensatio aliqualis et 
+          ar<lb break="no" ed="#P" n="40"/>bitraria, esto res non sint omnino 
+          commensu<lb break="no" ed="#P" n="41"/>rabiies, nihilominus omnia illa humana sunt
+          <lb ed="#P" n="42"/>inferioris ordinis respectu bonorum gratiae,
+          <lb ed="#P" n="43"/>et inter se in hoc conveniunt, quod omnia
+          <lb ed="#P" n="44"/>sunt bona mere temporalia et humana , et
+          <lb ed="#P" n="45"/>ideo possunt sine ulla irrreverentia in 
+          commu<lb break="no" ed="#P" n="46"/>tationem afferri, quia nullum ex illis bonis
+          <lb ed="#P" n="47"/>est sacrum, vel dignum aliqua veneratione.
+          <lb ed="#P" n="48"/>Et similiter sine injustitia possunt ita 
+          com<lb break="no" ed="#P" n="49"/>mutari, quia permutantes possunt ita 
+          conve<lb break="no" ed="#P" n="50"/>nire, et tale jus inter se constituere, vel 
+          ce<lb break="no" ed="#P" n="51"/>dere juri suo. Secus vero est in bonis gratiae,
+          <lb ed="#P" n="52"/>et rebus sacris, quae speciali veneratione 
+          trac<lb break="no" ed="#P" n="53"/>tandae sunt, et ideo non sunt per temporalia
+          <lb ed="#P" n="54"/>pretia aestimandae, nec ad hos temporales 
+          con<lb break="no" ed="#P" n="55"/>tractus deducendae. Unde non est simile quod
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>afferebatur in priori difficultate de 
+          recompen<lb break="no" ed="#P" n="57"/>satione divinae offensionis per poenitentiam,
+          <lb ed="#P" n="58"/>quia , licet ibi non sit aequalitas, est tamen
+          <lb ed="#P" n="59"/>quaedam proportio. et id quod in 
+          recompensa<lb break="no" ed="#P" n="60"/>tionem offertur, divinum donum est, et non
+          <lb ed="#P" n="61"/>ex humana, sed ex divina voluntate taxatur
+          <lb ed="#P" n="62"/>et postulatur. Eodemque fere modo respondet
+          <lb ed="#P" n="63"/>D. Thomas supra, de gloria, qua: per merita
+          <lb ed="#P" n="64"/>quodammodo emitur. In confirmatione autem
+          <lb ed="#P" n="65"/>addita ad primam difficultatem, postulatur an
+          <lb ed="#P" n="66"/>sacrae functiones, saltem ratione materialis
+          <lb ed="#P" n="67"/>operis ac laboris humani, possint vendi, 
+          sal<lb break="no" ed="#P" n="68"/>tem stando in jure naturae ; sed hoc infra in
+          <lb ed="#P" n="69"/>particulari tractandum est ; nunc dicimus 
+          sal<lb break="no" ed="#P" n="70"/>tem ex natura rei non posse vendi, prout 
+          sa<lb break="no" ed="#P" n="71"/>crae sunt, quod ad propositum satis est. Nec in
+          <lb ed="#P" n="72"/>hoc aequiparantur eis aliae actiones humana,
+          <lb ed="#P" n="73"/>quia semper sunt inferioris ordinis, ut in seq.
+          <lb ed="#P" n="74"/>magis exponemus.
+        </p>
+        <p>
+          <lb ed="#P" n="75"/>8. Quid dicendum de beneficiis ecclesiasticis.
+          <lb ed="#P" n="76"/>—CGraltiam non cadere sub dominium homnis
+          <lb ed="#P" n="77"/>probabilius esse.—Ad secundam difficultatem,
+          <lb ed="#P" n="78"/>quod attinet ad beneficia ecclesiastica, 
+          quate<lb break="no" ed="#P" n="79"/>nus aliquid spirituale in illis est, eadem ratio
+          <lb ed="#P" n="80"/>est de illis quae de aliis rebus spiritualibus ;
+          <lb ed="#P" n="81"/>quatenus vero temporale emolumentum 
+          ha<lb break="no" ed="#P" n="82"/>bent, infra tractandum est, quomodo subsint
+          <lb ed="#P" n="83"/>dispensationi praelatorum Ecclesiae, vel eorum
+          <lb ed="#P" n="84"/>qui illa possident, et quomodo in eis simonia
+          <lb ed="#P" n="85"/>committatur; de illo enim non satis constat an
+          <lb ed="#P" n="86"/>sit contra jus divinum vel humanum, et ideo
+          <lb ed="#P" n="87"/>necesse nunc non est de illa in particulari
+          <lb ed="#P" n="88"/>miscere sermonem. Tamen de abis proprie
+          <lb ed="#P" n="89"/>spiritualibus et supernaturalibus, ut sunt 
+          gra<lb break="no" ed="#P" n="90"/>tia gratum faciens, et gratis data, cum 
+          omni<lb break="no" ed="#P" n="91"/>bus donis quae ad has reducuntur, 
+          probabi<lb break="no" ed="#P" n="92"/>lius simpliciter est non cadere sub humanum
+          <lb ed="#P" n="93"/>dominium, ut hic supponit D. Thomas atque
+          <lb ed="#P" n="94"/>etiam docuit 1. 2, quaest. 73, art. 9, ad 2; et
+          <lb ed="#P" n="95"/>Sot., 4de Just., q. 2; et videtur habere 
+          funda<lb break="no" ed="#P" n="96"/>mentum in Paschasio Papa, in d. capit. Fos
+          <lb ed="#P" n="97"/>qui, 1, q. 1, quatenus in hoc maxime fundat
+          <lb ed="#P" n="98"/>iniquitatem simoniae.
+        </p>
+        <p>
+          <lb ed="#P" n="99"/>9. Licet cadat sub dominium, adhuc non
+          <lb ed="#P" n="100"/>posse vendi. — Hationes Victoriee non cogere
+          <lb ed="#P" n="101"/>ostenditur.— Verumtamen etiamsi demus esse
+          <lb ed="#P" n="102"/>nos dominos aliquo modo donorum gratiae,
+          <lb ed="#P" n="103"/>quae nobis collata sunt, potest ratio subsistere,
+          <lb ed="#P" n="104"/>quam Victor. variis modis declarat. Primo,
+          <lb ed="#P" n="105"/>quia licet nostra sint, data sunt a solo Deo;
+          <lb ed="#P" n="106"/>quae autem sic habentur, non possunt vendi:
+          <lb ed="#P" n="107"/>Nam ovidctur (inquit) jure gentium, quod
+          <lb ed="#P" n="108"/>pisces maris, ferae omnibus sint communes. 
+          Se<lb break="no" ed="#P" n="109"/>cundo, quia sunt data nobis ad communem
+          <lb ed="#P" n="110"/>utilitatem; quae autem talia sunt, non pos-
+          <pb ed="#P" n="633"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sunt in utilitatem privatam converti, illa 
+          ven<lb break="no" ed="#P" n="2"/>dendo. Tertio, quia quae gratis et sine 
+          operi<lb break="no" ed="#P" n="3"/>bus nostris conferuntur, nobis liberaliter 
+          de<lb break="no" ed="#P" n="4"/>bent distribui, ut aqua, sol, etc. Sed profecto
+          <lb ed="#P" n="5"/>parum cogunt, quia, licet aliqua bona sint a
+          <lb ed="#P" n="6"/>Deo solo, et gratis donata, si mihi in 
+          parti<lb break="no" ed="#P" n="7"/>culari donata sunt, licitum mihi erit illa, vel
+          <lb ed="#P" n="8"/>utilitatem, vel usum illorum vendere, si 
+          aliun<lb break="no" ed="#P" n="9"/>de non repugnat ; quia dominium dat hanc
+          <lb ed="#P" n="10"/>facultatem, sive a solo Deo, sive a 
+          quocum<lb break="no" ed="#P" n="11"/>que alio originem duxerit : parum enim hoc
+          <lb ed="#P" n="12"/>refert. Nec exempla sunt ad rem, quia pisces
+          <lb ed="#P" n="13"/>et ferae tunc vendi non possunt, quando non
+          <lb ed="#P" n="14"/>sunt alicui in particulari ad dominium 
+          apph<lb break="no" ed="#P" n="15"/>catae; at vero facta applicatione vendi possunt.
+          <lb ed="#P" n="16"/>Et si Deus ipse alicui immediate pisces aliquos
+          <lb ed="#P" n="17"/>aut feras donasset, posset illas vendere, sicut
+          <lb ed="#P" n="18"/>vidua potuit vendere oleum, quod per Eliseum
+          <lb ed="#P" n="19"/>Deus miraculose donaverat. In praesenti 
+          au<lb break="no" ed="#P" n="20"/>tem haec dona gratiae non dantur tantum 
+          ge<lb break="no" ed="#P" n="21"/>neri humano in communi, sed dantur divisa,
+          <lb ed="#P" n="22"/>et applicata tali personae, dividente Spiritu
+          <lb ed="#P" n="23"/>Sancto singulis, prout vult; ergo ex hoccapite
+          <lb ed="#P" n="24"/>non procedunt exempla, nec rationes factae.
+          <lb ed="#P" n="25"/>Neque etiam videtur sufficere quod dentur 
+          pro<lb break="no" ed="#P" n="26"/>pter aliorum utilitatem, quia simul dari 
+          pos<lb break="no" ed="#P" n="27"/>sunt propter communem utilitatem et 
+          priva<lb break="no" ed="#P" n="28"/>tam; posset cnim quis deservire communitati,
+          <lb ed="#P" n="29"/>utendo, verbi gratia, dono sanitatis, etiamsi
+          <lb ed="#P" n="30"/>propter curationem aliquid acciperet, vel 
+          ope<lb break="no" ed="#P" n="31"/>ram suam venderet.
+        </p>
+        <p>
+          <lb ed="#P" n="32"/>10. Aliter ergo exponenda est illa ratio, nam
+          <lb ed="#P" n="33"/>in his donis gratiae ad summum potest 
+          consi<lb break="no" ed="#P" n="34"/>derari aliquod dominium quoad actus eorum,
+          <lb ed="#P" n="35"/>quatenus illos libere exercemus, et ea 
+          ratio<lb break="no" ed="#P" n="36"/>ne dicimur esse illorum domini. Tamen hi 
+          ac<lb break="no" ed="#P" n="37"/>tus dupliciter considerari possunt, uno modo,
+          <lb ed="#P" n="38"/>ut pertinent ad sanctificationem operantis, et
+          <lb ed="#P" n="39"/>illi possunt esse utiles ad meritum ; et ut sic
+          <lb ed="#P" n="40"/>constat non esse vendibiles pretio temporali,
+          <lb ed="#P" n="41"/>quia non possunt transferri in dominium 
+          alio<lb break="no" ed="#P" n="42"/>rum; imo neque efficaciter transferri in 
+          uti<lb break="no" ed="#P" n="43"/>litatem aliorum. Alio ergo modo considerari
+          <lb ed="#P" n="44"/>possunt, ut possunt per eos conferri aliqua 
+          spi<lb break="no" ed="#P" n="45"/>ritualia bona proximis ; et ut sic etiam vendi
+          <lb ed="#P" n="46"/>non possunt, quia nos non sumus domini 
+          illo<lb break="no" ed="#P" n="47"/>rum spiritualium bonorum, quae per illos 
+          ac<lb break="no" ed="#P" n="48"/>tus conferenda sunt aliis, sed pendent ex sola
+          <lb ed="#P" n="49"/>institutione, acceptatione, ac voluntate et 
+          effi<lb break="no" ed="#P" n="50"/>cacitate Dei; et ideo si quis tentet vendere 
+          ta<lb break="no" ed="#P" n="51"/>lesactiones, quatenus spirituales fructus aliis
+          <lb ed="#P" n="52"/>afferunt, non actiones, sed fructum ipsum 
+          ven<lb break="no" ed="#P" n="53"/>deret. Et ita Petrusreprehendit Simonem, quod
+          <lb ed="#P" n="54"/>donum ipsum Dei emere tentasset, quamvis
+          <lb ed="#P" n="55"/>ille ab Apostolis non postularet nisi actionem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illam, per quam conferri posse putabat tale
+          <lb ed="#P" n="57"/>donum. Adde actionem ipsam spiritualem,
+          <lb ed="#P" n="58"/>ut talis est, esse donum Dei, quod vilesceret,
+          <lb ed="#P" n="59"/>si pecunia aestimaretur. De actione autem ipsa
+          <lb ed="#P" n="60"/>materiali, an intrinsece maneat invendibilis
+          <lb ed="#P" n="61"/>ex natura rei, eo ipso quod elevata est ad tale
+          <lb ed="#P" n="62"/>esse spirituale, vel ad talem efficaciam 
+          super<lb break="no" ed="#P" n="63"/>naturalem efficiendam, infra videbimus 
+          trac<lb break="no" ed="#P" n="64"/>tando de sacramentis, et aliis actionibus 
+          cor<lb break="no" ed="#P" n="65"/>poralibus, ubi efficacia harum rationum et 
+          in<lb break="no" ed="#P" n="66"/>trinseca malitia simoniae magis constabit.
+        </p>
+        <p>
+          <lb ed="#P" n="67"/>11. In lege gratie non est positivum 
+          pre<lb break="no" ed="#P" n="68"/>ceplun prohibens vend:tionem rerum 
+          spiritua<lb break="no" ed="#P" n="69"/>lium ; naturale tamen eaplicatum est. — 
+          Se<lb break="no" ed="#P" n="70"/>cundo, dicendum est in lege gratiae non esse
+          <lb ed="#P" n="71"/>latum speciale praeceptum divinum positivum
+          <lb ed="#P" n="72"/>prohibens venditionem rerum spiritualium,
+          <lb ed="#P" n="73"/>sed naturale esse a Christo Domino in 
+          Evange<lb break="no" ed="#P" n="74"/>lio explicatum. Priorem partem ponit 
+          expres<lb break="no" ed="#P" n="75"/>se Victor., in d. Relect., n. 11, quem 
+          poste<lb break="no" ed="#P" n="76"/>riores sequuntur propter rationem supra 
+          in<lb break="no" ed="#P" n="77"/>sinuatam, quod inlege nova, nec negativa, nec
+          <lb ed="#P" n="78"/>affirmativa praecepta data sunt a Christo, 
+          prae<lb break="no" ed="#P" n="79"/>ter praecepta fidei et sacramentorum, ut 
+          sumi<lb break="no" ed="#P" n="80"/>tur ex D. Thoma, 1.2, quaest. 108, art. 1, ad 2,
+          <lb ed="#P" n="81"/>etart. 2, in corp.,ubi ostendit hoc pertinere ad
+          <lb ed="#P" n="82"/>libertatem legis gratiae. Confirmarique potest
+          <lb ed="#P" n="83"/>haec pars ex praecedenti assertione, quia 
+          om<lb break="no" ed="#P" n="84"/>nis simonia, quae committi potest contra res
+          <lb ed="#P" n="85"/>per se spirituales, vel contra illas res sacras,
+          <lb ed="#P" n="86"/>quae sunt ex ipsius Christi institutione, est 
+          im<lb break="no" ed="#P" n="87"/>mediate vel mediate contra legem naturalem ;
+          <lb ed="#P" n="88"/>ergo non fuit necessarium addere specialem
+          <lb ed="#P" n="89"/>legem positivam divinam circa hanc 
+          prohibi<lb break="no" ed="#P" n="90"/>tionem, licet fuerit conveniensjus ipsum 
+          natu<lb break="no" ed="#P" n="91"/>rale a Christo indicari.
+        </p>
+        <p>
+          <lb ed="#P" n="92"/>12. Probatur ultima pars assertionis. — Sic
+          <lb ed="#P" n="93"/>ergo procedit altera pars assertionis, quae 
+          pro<lb break="no" ed="#P" n="94"/>bari solet ex Matth. 21, et Joann. 2, ubi 
+          Chris<lb break="no" ed="#P" n="95"/>tus ejecit vendentes et ementes de templo, 
+          in<lb break="no" ed="#P" n="96"/>ter quos erant vendentes columbas, quia 
+          co<lb break="no" ed="#P" n="97"/>lumba Spiritum Sanctum et dona ejus 
+          reprae<lb break="no" ed="#P" n="98"/>sentat; ut exponunt in Matth. Hieronymus
+          <lb ed="#P" n="99"/>et Beda ; Ambrosius, Luc. 19; Chrysostomus,
+          <lb ed="#P" n="100"/>bene homil. 13 in Marc., ubi fere omnia dicta
+          <lb ed="#P" n="101"/>confirmat. Et de eodem testimonio habentur
+          <lb ed="#P" n="102"/>multa jura, 1, quaest. 3, c. Ex multis, cum 
+          se<lb break="no" ed="#P" n="103"/>quentibus. Verumtamen, licet auctoritas 
+          red<lb break="no" ed="#P" n="104"/>dat hoc argumentum ethicas, tamen ex 
+          testi<lb break="no" ed="#P" n="105"/>monio per se spectato non sumitur, quia est
+          <lb ed="#P" n="106"/>mystica expositio, a qua non solet efficax 
+          ar<lb break="no" ed="#P" n="107"/>gumentum sumi. Possumus etiam inde 
+          argu<lb break="no" ed="#P" n="108"/>mentari, quasi a fortiori. Nam si Christus tam
+          <lb ed="#P" n="109"/>acriter reprehendit negotiationem in templo,
+          <lb ed="#P" n="110"/>multo certe magis damnat negotiationes et
+          <pb ed="#P" n="634"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>venditiones ipsarum rerum sacrarum ac 
+          divi<lb break="no" ed="#P" n="2"/>narum. Potissime vero probanda est haec pars
+          <lb ed="#P" n="3"/>ex dictis verbis Christi : Gratis accepistis, 
+          gra<lb break="no" ed="#P" n="4"/>tis date. In quibus verbis imprimis pro certo
+          <lb ed="#P" n="5"/>statuendum est, adverbium illud, gratis, in
+          <lb ed="#P" n="6"/>utroque luco proprie accipi. Quod adverto, quia
+          <lb ed="#P" n="7"/>Maldonatus exposuit, gratis date, id est, 
+          largi<lb break="no" ed="#P" n="8"/>ler ; nam, quae gratis dantur, largiter dantur.
+          <lb ed="#P" n="9"/>Sed sine dubio illa non est proprietas vocis,
+          <lb ed="#P" n="10"/>nec fundamentum illius translationis videtur
+          <lb ed="#P" n="11"/>in universum verum; nam saepe, quae gratis
+          <lb ed="#P" n="12"/>dantur, etiamsi gratis accepta sint, cum magna
+          <lb ed="#P" n="13"/>moderatione et mensura dari solent, nisi 
+          con<lb break="no" ed="#P" n="14"/>tingat multum esse liberalem, qui donat. 
+          De<lb break="no" ed="#P" n="15"/>nique, quicquid sit de hac metaphora, 
+          pro<lb break="no" ed="#P" n="16"/>prietas vocis prius tenenda est, tum propter
+          <lb ed="#P" n="17"/>generalem regulam interpretandi Scripturam';
+          <lb ed="#P" n="18"/>tum quia et Patres et Theologi omnes ita 
+          intel<lb break="no" ed="#P" n="19"/>ligunt, ut gratis sit, dare sine pretio; tum
+          <lb ed="#P" n="20"/>etiam quia haec est significatio aptissima pro
+          <lb ed="#P" n="21"/>materiae qualitate, et ad mores maxime 
+          neces<lb break="no" ed="#P" n="22"/>saria, et nullum habet inconveniens; tum 
+          de<lb break="no" ed="#P" n="23"/>nique quia in hoc sensu dicitur, gratis 
+          accepis<lb break="no" ed="#P" n="24"/>tis, id est, sine pretio et sine merito, ex 
+          gra<lb break="no" ed="#P" n="25"/>tuita voluntate dantis; in eodem ergo sensu
+          <lb ed="#P" n="26"/>subjicitur, gratis date.
+        </p>
+        <p>
+          <lb ed="#P" n="27"/>13. Praedicta Christi verba preceptum 
+          con<lb break="no" ed="#P" n="28"/>tinent.—Secundo est supponendum, verba illa
+          <lb ed="#P" n="29"/>praeceptum continere, et necessitatem 
+          indica<lb break="no" ed="#P" n="30"/>re, non consilium. Ita in rigore postulat 
+          im<lb break="no" ed="#P" n="31"/>perandi verbum, si aliunde non constet de alio
+          <lb ed="#P" n="32"/>leniori sensu, quod hic constare non potest,
+          <lb ed="#P" n="33"/>neque ex materia, quia illa capax est talis
+          <lb ed="#P" n="34"/>praecepti, ut constat, neque ex Patrum 
+          expo<lb break="no" ed="#P" n="35"/>sitione; nam potius illi et expositores 
+          commu<lb break="no" ed="#P" n="36"/>niter, ac Theologi, intelligunt ibi praeceptum
+          <lb ed="#P" n="37"/>contineri, quo prohibetur simonia. Et licet
+          <lb ed="#P" n="38"/>Patres hac voce non semper utantur, sed 
+          ava<lb break="no" ed="#P" n="39"/>ritiae turpis, quam dicunt ibi Christum 
+          prohi<lb break="no" ed="#P" n="40"/>buisse, tamen in re in idem redit, quia idcirco
+          <lb ed="#P" n="41"/>avaritia illa materia est graviter culpabilis et
+          <lb ed="#P" n="42"/>turpis, quia est sacrilega, et contra dignitatem
+          <lb ed="#P" n="43"/>ac sanctitatem divinae gratiae. Sic Hieronymus
+          <lb ed="#P" n="44"/>ibi, exponens illa verba, inquit : Quia semper
+          <lb ed="#P" n="45"/>dona spiritualia, si merces media sit, viliora
+          <lb ed="#P" n="46"/>fiunt, adjungitur avaritie condemnatio - 
+          Gra<lb break="no" ed="#P" n="47"/>tis accepistis, gratis date. Sentit ergo damnari
+          <lb ed="#P" n="48"/>illam venditionem, ut sacrilegam et 
+          redun<lb break="no" ed="#P" n="49"/>dantem in vilipendium spiritualium donorum.
+          <lb ed="#P" n="50"/>Unde subjungit : Ego magister et Dominus
+          <lb ed="#P" n="51"/>absque pretio hoc vobis tribui, et vos sine pretio
+          <lb ed="#P" n="52"/>date, ne Evangelii gratia corrumpatur. Quod
+          <lb ed="#P" n="53"/>optime confirmant verba Petri, 1 Epistol.,
+          <lb ed="#P" n="54"/>capit. quarto : Unusquisque prout accepit
+          <lb ed="#P" n="55"/>gratiam in alteruirum illam administrantes,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sicul boni dispensatores multiformis gratig
+          <lb ed="#P" n="57"/>Da.
+        </p>
+        <p>
+          <lb ed="#P" n="58"/>14. Confirmatur.—Unde nova insurgit 
+          con<lb break="no" ed="#P" n="59"/>firmatio : cum enim hae gratiae et ecclesiastica
+          <lb ed="#P" n="60"/>ministeria ad confirmationem et 
+          fructiticatio<lb break="no" ed="#P" n="61"/>nem doctrinae ordinentur, si pretio 
+          venderen<lb break="no" ed="#P" n="62"/>tur, corrumperetur Evangelium, id est, 
+          ineffi<lb break="no" ed="#P" n="63"/>cax et inutile redderetur; tum quia signa ipsa
+          <lb ed="#P" n="64"/>et verbum vilescerent , nec existimarentur
+          <lb ed="#P" n="65"/>tanquam divina, sed ut artes vel inventiones
+          <lb ed="#P" n="66"/>humanae ad lucrandum; et ministri acciperent
+          <lb ed="#P" n="67"/>occasionem vacandi potius quaestui quam 
+          doc<lb break="no" ed="#P" n="68"/>trina, et auditores minus benevoli 
+          redderen<lb break="no" ed="#P" n="69"/>tur ad verbum Dei suscipiendum. Et hoc fere
+          <lb ed="#P" n="70"/>modo expendit locum illum late ibi Abulens.,
+          <lb ed="#P" n="71"/>quaest. 61, 62, 63. Continent ergo verba illa
+          <lb ed="#P" n="72"/>praeceptum de re valde necessaria ad 
+          apostoli<lb break="no" ed="#P" n="73"/>cum ministerium. Nec refert quod sequentia
+          <lb ed="#P" n="74"/>verba contüneant consilium, quia verba 
+          ad<lb break="no" ed="#P" n="75"/>aptantur materiae in quam cadunt. Quamvis
+          <lb ed="#P" n="76"/>dici possit, etiam sequentia verba continere
+          <lb ed="#P" n="77"/>verum praeceptum ; ita enim loquitur ibi 
+          Hie<lb break="no" ed="#P" n="78"/>ronymus. Sive illud fuerit quasi personale
+          <lb ed="#P" n="79"/>praeceptum pro sclis Apostolis, et pro illo 
+          tem<lb break="no" ed="#P" n="80"/>pore datum, ut significat Augustinus, libr.
+          <lb ed="#P" n="81"/>Quaest. nov. et vet. Testam., quaest. 104, et
+          <lb ed="#P" n="82"/>Ambros. , lib. 7 in Luc. 10, circa illa verba:
+          <lb ed="#P" n="83"/>Non peram, etc.; et exponit late Jansen.,
+          <lb ed="#P" n="84"/>Matth. 19. Sive spiritualiter intelligendum sit,
+          <lb ed="#P" n="85"/>nimiam sollicitudinem talium rerum ibi 
+          pro<lb break="no" ed="#P" n="86"/>hiberi, quae solet esse turpis avaritiae mater,
+          <lb ed="#P" n="87"/>ut ibi latius expositores declarant, et uno 
+          ver<lb break="no" ed="#P" n="88"/>bo attigit Ambrosius, lib. de Joseph., cap. 13,
+          <lb ed="#P" n="89"/>dicens : Misit Dominus discipulos sine auro,
+          <lb ed="#P" n="90"/>etc., id est, ut incentiva litis, et instrumenta
+          <lb ed="#P" n="91"/>eriperet ultionis ; et Psalm. 118, Oct. 5: Ideo
+          <lb ed="#P" n="92"/>dizit Dominus : Nolite possidere aurum, vel
+          <lb ed="#P" n="93"/>argentum , ne cos auri et argenti cupiditas
+          <lb ed="#P" n="94"/>avara possideat.
+        </p>
+        <p>
+          <lb ed="#P" n="95"/>15. Praeceptum in illis verbis contentum non
+          <lb ed="#P" n="96"/>est positivum tantum. — Addo vero ulterius,
+          <lb ed="#P" n="97"/>praeceptum illis verbis contentum non esse 
+          po<lb break="no" ed="#P" n="98"/>sitivum tantum, sed ex natura rei et ex vi 
+          ta<lb break="no" ed="#P" n="99"/>lis materiae necessarium. Hoc satis 
+          declara<lb break="no" ed="#P" n="100"/>tum est et probatum rationibus factis, qnia
+          <lb ed="#P" n="101"/>et finis talium gratiarum, et dignitas earum
+          <lb ed="#P" n="102"/>postulat ut mercatui non exponantur. Sic 
+          er<lb break="no" ed="#P" n="103"/>go dixit Ambrosius, lib. 5 in Luc. 3: Tum cili
+          <lb ed="#P" n="104"/>actione vult estimari se Christus, ut ab 
+          om<lb break="no" ed="#P" n="105"/>nibus ematur, ne quis pauper deterreatur : 
+          Gra<lb break="no" ed="#P" n="106"/>tis (inquit) accepistis, gratis date, pecuniam
+          <lb ed="#P" n="107"/>non querit divitiarum altitudo, sed gratiam.
+          <lb ed="#P" n="108"/>Ubi utramque rationem, et ex parte finis, et
+          <lb ed="#P" n="109"/>ex aignitate gratiae attigit. Sic etiam dixit idem
+          <lb ed="#P" n="110"/>Ambrosius, lib. de Dignit. Sacerd., cap. 5:
+        </p>
+        <p>
+          <pb ed="#P" n="635"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Si gratia gratis datur, et pretio non 
+          compara<lb break="no" ed="#P" n="2"/>tur, a te cur gratia pecuniis comparatur ? Ubi
+          <lb ed="#P" n="3"/>observandum occeurrit, in verbis Christi,
+          <lb ed="#P" n="4"/>utramque gratis, cum eodem rigore et 
+          pro<lb break="no" ed="#P" n="5"/>prietate sumi, eo nimirum modo, quo gratia
+          <lb ed="#P" n="6"/>divini et supernaturalis ordinis, gratia per
+          <lb ed="#P" n="7"/>antonomasiam appellatur, quia videlicet 
+          om<lb break="no" ed="#P" n="8"/>nino gratis datur, ita ut omne debitum 
+          exclu<lb break="no" ed="#P" n="9"/>dat, sive meriti perfecti, sive imperfecti, sive
+          <lb ed="#P" n="10"/>connaturalis habitudinis ad ipsam naturam.
+          <lb ed="#P" n="11"/>Quod enim gratis sic accipitur, gratis etiam
+          <lb ed="#P" n="12"/>et sine pretio communicari debet, eo modo
+          <lb ed="#P" n="13"/>quo potest ab uno homine alteri communicari,
+          <lb ed="#P" n="14"/>quia si communicetur propter pretium, agitur
+          <lb ed="#P" n="15"/>contra naturam talis gratiae, et contra 
+          au<lb break="no" ed="#P" n="16"/>ctorem ejus; nam venditur id quod ipse solus
+          <lb ed="#P" n="17"/>potest conferre, et ita homo opus Dei vendit
+          <lb ed="#P" n="18"/>tanquam suum, et id quod vendit, vult 
+          aesti<lb break="no" ed="#P" n="19"/>mari ut suum, non ut Dei.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
