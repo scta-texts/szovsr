@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="438"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m10976"><!-- t5prae -->
+        <head xml:id="szovsr-m10976-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m10976-d1e103">
+          <pb ed="#P" n="438"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>TRACTATUS QUINTUS.
+          <lb ed="#P" n="2"/>DE
+          <lb ed="#P" n="3"/>IURAMENTO ET ADILRATIONE,
+        </p>
+        <p xml:id="szovsr-m10976-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>1. D. Thoma diisio generalis actuum externorum religionis. —Divus Thomas,
+          <lb ed="#P" n="5"/>secunda secundae, in principio quaestionis 84, et 89, divisionem quamdam 
+          genera<lb break="no" ed="#P" n="6"/>lem actuum externorum religionis insinuat, nam quosdam exercemus offerendo 
+          al<lb break="no" ed="#P" n="7"/>quid Deo, alios assumendo aliquid sacrum et divinum. Ad prius membrum 
+          perti<lb break="no" ed="#P" n="8"/>nent omnia, quae in superiori volumine a nobis tractata sunt, et sub eodem collocat
+          <lb ed="#P" n="9"/>D. Thomas votum, per quod aliquid Deo promittimus, et ideo prius de illo agit,
+          <lb ed="#P" n="10"/>quam de juramento. Posterius autem membrum subdividit in cultum 
+          sacramento<lb break="no" ed="#P" n="11"/>rum, et in assumptionem nominis Dei; quia vel assumptio illa consistit in facto,
+          <lb ed="#P" n="12"/>vel in verbo; si in facto, pertinet ad usum sacramentorum ; si in verbo, ad usum
+          <lb ed="#P" n="13"/>divini nominis. Sub sacramentis autem intelligenda sunt sacramentalia, ut est prima
+          <lb ed="#P" n="14"/>ionsura, aqua benedicta, et similia, quae religiose sumimus. Sed tractatum de his 
+          re<lb break="no" ed="#P" n="15"/>bus merito rejicit D. Thomas in tertiam partem, ubi nos etiam de iilis disserummus.
+          <lb ed="#P" n="16"/>Assumptionem autem divini nommis dividit D. Thomas in tria membra, scilicet, 
+          ju<lb break="no" ed="#P" n="17"/>ramentum, adjurationem, et invocationem ad orandum vel laudandum Deum. Posset
+          <lb ed="#P" n="18"/>vero etiam votum sub assumptione divini nominis constitui, quia non possumus Deo
+          <lb ed="#P" n="19"/>vovere, quin ipsum aliquo modo nominemus. Unde sub praecepto illo Exod. 20:
+          <lb ed="#P" n="20"/>Non assumes nomen Dei tu in vanum, omnes comprehendunt vota Deo facta, per
+          <lb ed="#P" n="21"/>quae in vanum Dei nomen assumitur, nisi fideliter fiant et impleantur. Item sub
+          <lb ed="#P" n="22"/>nomine Dei, etiam verba ejus sacra comprehendi possunt : illa enim etiam 
+          assumn<lb break="no" ed="#P" n="23"/>mus ad aliquem usum, qui non debet esse vanus vel profanus, sed religiosus, et ita,
+          <lb ed="#P" n="24"/>sub hoc genere actus religiosi, multi ex actibus supra tractatis comprehenduntur.
+        </p>
+        <p xml:id="szovsr-m10976-d1e166">
+          <lb ed="#P" n="25"/>2. Duplex modus assumendi nomen Dei honeste. — Locutio de Deo de se non
+          <lb ed="#P" n="26"/>perlinet ad religionem. — Assumere nomen Dei ad loquendum cum illo, est 
+          off<lb break="no" ed="#P" n="27"/>cium religionis. — Verumtamen, ut methodum a nobis inchoatam prosequamur, 
+          ad<lb break="no" ed="#P" n="28"/>vertendum est, duobus modis posse assumi nomen Dei, modo honesto, scilicet, vel
+          <lb ed="#P" n="29"/>ad loquendum de Deo, vel ad loquendum cum Deo ; vix enim cogitari potest aliqua
+          <lb ed="#P" n="30"/>ratio nominandi Deum, quae ad has non reducatur; vel si cogitetur, non erit 
+          ra<lb break="no" ed="#P" n="31"/>tioni consentanea, sed erit aliquis abusus nominis Dei, qualis erit usus sacrorum
+          <lb ed="#P" n="32"/>verborum, applicando illa ad profana colloquia, vel ad vanas hominum laudes, et
+          <lb ed="#P" n="33"/>similia , quae ad genus quoddam sacrilegii vel irreligiositatis spectant , ut supra in
+          <lb ed="#P" n="34"/>tertio tractatu visum est, et tractando de horis canonicis attigimus. Nommnare autem
+          <lb ed="#P" n="35"/>Deum ad loquendum de illo, honestum et sanctum est, per se loquendo, non 
+          ta<lb break="no" ed="#P" n="36"/>men directe spectat ad virtutem religionis, quia ibi non respicitur Deus necessario ut
+          <lb ed="#P" n="37"/>objectum cut, sed tantum ut materia locutionis, nisi iste sermo de Deo ad ejusdem
+          <lb ed="#P" n="38"/>cultum specialiter referatur, quod tamen necessarium non est ex vi locutionis de
+          <lb ed="#P" n="39"/>Deo, etiam ut honeste fiat. Pertinere ergo potest ad fidei confessionem, si solum
+          <lb ed="#P" n="40"/>de Deo loquamur ad protestandam fidem. tem spectare potest ad charitatem, si
+          <lb ed="#P" n="41"/>de Deo loquamur, ut vel nos vel alios ad Dei amorem incitemus : aliquando vero
+          <lb ed="#P" n="42"/>potest esse actus doctrinae, quasi speculativae, ut cum de Deo loquimur ad docen-
+          <pb ed="#P" n="439"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dum, vel discendum, quod potest honeste fieri ex sola studiositate, et honestius
+          <lb ed="#P" n="2"/>ex charitate; ex religione vero ordinarie non fit, fieri autem potest ex intentione
+          <lb ed="#P" n="3"/>operantis, ut per se constat. Inde vero non consurgit speciahs actus religionis :
+          <lb ed="#P" n="4"/>sed ita se habet sicut actus aliarum virtutum , qui ex intentione operantis possunt
+          <lb ed="#P" n="5"/>imperari a religione. Igitur sermo de Deo esse potest materia intentionis religiosse,
+          <lb ed="#P" n="6"/>non tamen est specialis actus religionis. Assumere autem nomen Dei ad 
+          loquen<lb break="no" ed="#P" n="7"/>dum cum illo est proprium officium religionis , quia ibi respicitur Deus tanquam
+          <lb ed="#P" n="8"/>objectum cut , seu tanquam persona ad quam actus dirigitur, quod est proprium
+          <lb ed="#P" n="9"/>religionis, nam est pars justitiae , et respicit Deum tanquam aiterum, ad quem 
+          ten<lb break="no" ed="#P" n="10"/>dit. Item quia quoties cum aliquo loquimur , ratio postulat ut cum debito honore
+          <lb ed="#P" n="11"/>loquamur; et hoc observat religio respectu Dei.
+        </p>
+        <p xml:id="szovsr-m10976-d1e236">
+          <lb ed="#P" n="12"/>3. Locutio ad. Deum quibus modis fiat. — Quomodo Deus nobis assistat 
+          juran<lb break="no" ed="#P" n="13"/>tibus. — Locutio autem ad Deum variis modis fieri potest ; primo, solum ad 
+          cul<lb break="no" ed="#P" n="14"/>tum et hoaorem, et hoc maxime fit per divinam laudem; secundo, ad grati animi 
+          si<lb break="no" ed="#P" n="15"/>gnificationem, quod fit per grauiarum actionem; tertio, ad impetrandum aliquid ab
+          <lb ed="#P" n="16"/>ipso, quod fit per orationem, seu petitionem, et per omnem modum obsecrandi,
+          <lb ed="#P" n="17"/>precandi, et similes, quae omnia nos supra ad tractatum de Oratione reduximus,
+          <lb ed="#P" n="18"/>propter rationes ibi traditas. Per votum etiam satis directe et expresse cum Deo
+          <lb ed="#P" n="19"/>loquimur, ad effectum autem proximum longe diversum quam praedictis modis : dico
+          <lb ed="#P" n="20"/>autem proximum, quia, licet in ratione cultus omnes conveniant, haec in voto 
+          fun<lb break="no" ed="#P" n="21"/>datur in oblatione, et obligatione quae per promissionem Deo fit. Ultra hos vero 
+          in<lb break="no" ed="#P" n="22"/>venitut alius modus loquendi ad Deum, qui licet non sit tam expressus, re tamen
+          <lb ed="#P" n="23"/>vera est etiam locutio ad Deum, et hic invenitur in juramento et adjuratione, nam
+          <lb ed="#P" n="24"/>per utramque invocatur et imprecatur aliquo modo Deus ; non potest autem 
+          invo<lb break="no" ed="#P" n="25"/>cari vel imprecari a nobis, nisi aliquo modo loquamur cum ipso, ut videtur per se
+          <lb ed="#P" n="26"/>notum. Per juramentum autem invocatur a nobis, ut testis, vel tanquam fidejussor;
+          <lb ed="#P" n="27"/>per adjurationem vero, aliquo etiam modo invocamus Deum , ut nobis assistat,
+          <lb ed="#P" n="28"/>quasi favorem praebens, ut alius, quem adjuramus, faciat quod rogamus vel 
+          impera<lb break="no" ed="#P" n="29"/>mus. Unde licet votum magis conveniat cum oratione in modo loquendi cum Deo,
+          <lb ed="#P" n="30"/>magis expresso et directo, et in hoc etiam quod solet votum orationem adjuvare,
+          <lb ed="#P" n="31"/>nihilominus juramentum in hoc cum oratione convenit, quod quamdam tacitam pe
+          <lb ed="#P" n="32"/>titionem involvit, ut explicando rationem juramenti magis patebit. Hac igitur ratione,
+          <lb ed="#P" n="33"/>hunc tractatum non incommode post praecedentem de oratione proxime 
+          collocavi<lb break="no" ed="#P" n="34"/>mus , votum in ultimum locum reservantes, ut ab illo ad statum religiosum, 
+          tan<lb break="no" ed="#P" n="35"/>quam ad efftectum ejus, transitum faciamus.
+        </p>
+        <p xml:id="szovsr-m10976-d1e292">
+          <lb ed="#P" n="36"/>4. Modus colligendi omnes actus externos religionis. — Atque hinc etiam obiter
+          <lb ed="#P" n="37"/>possumus colligere novam rationem comprehendendi omnes actus virtutis religionis
+          <lb ed="#P" n="38"/>externos, id est, distinctos ab affectu colendi, nam quidam consistunt in actione,
+          <lb ed="#P" n="39"/>alii in receptione , alii in sermone, seu locutione ad Deum: de primis dictum est
+          <lb ed="#P" n="40"/>in tribus primis tractatibus, praesertim in secundo. Actus vero, qui in receptione
+          <lb ed="#P" n="41"/>consistunt, in tractatum de Sacramentis rejicimus. Postremi igitur in hoc volumine
+          <lb ed="#P" n="42"/>explicantur, et juxta tres modos principales loquendi ad Deum jam explicatos, 
+          tri<lb break="no" ed="#P" n="43"/>bus etiam tractatibus illos comprehendimus. In illo autem modo ultimo quasi 
+          invo<lb break="no" ed="#P" n="44"/>candi divinum nomen, ut assistat praebendo auctoritatem alicui actui nostro, tres
+          <lb ed="#P" n="45"/>modos distinguere possumus : in uno adducimus Deum in testem, quod pertinet ad
+          <lb ed="#P" n="46"/>juramentum assertorium ; in alio dici potest afferri ut fidejussor, ut in juramento
+          <lb ed="#P" n="47"/>promissorio ; in tertio videtur interponi ut mediator dans virtutem, vel favorem 
+          de<lb break="no" ed="#P" n="48"/>siderio nostro, ut in adjuratione. Juxta hanc ergo partitionem, et adjungendo vitia
+          <lb ed="#P" n="49"/>contraria, hunc tractatum in quatuor libros dividemus : primus erit de Juramento 
+          as<lb break="no" ed="#P" n="50"/>sertorio, secundus de Promissorio, tertius de Perjurio, quartus de Adjuratione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

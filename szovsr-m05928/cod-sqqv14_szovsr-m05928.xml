@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="237"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m05928"><!-- t4l3c7 -->
+        <head xml:id="szovsr-m05928-Hd1e101">Caput 7</head>
+        <head xml:id="szovsr-m05928-Hd1e103" type="question-title">Caput 7</head>
+        <p xml:id="szovsr-m05928-d1e106">
+          <lb ed="#P" n="72"/>CAPUT VII.
+          <lb ed="#P" n="73"/>DE CIRCUMSTANTIIS SERVANDIS IN ORATIONE 
+          VO<lb break="no" ed="#P" n="74"/>CALI, UT RECTE ET CONVENIENTER FIAT.
+        </p>
+        <p xml:id="szovsr-m05928-d1e115">
+          <lb ed="#P" n="75"/>1. Varie circumstantie proponuntur. —
+          <lb ed="#P" n="76"/>Duplea circumstantia interna. — Hic etiam
+          <lb ed="#P" n="77"/>solum agimus de oratione privata, nam de
+          <lb ed="#P" n="78"/>canonica et per se publica in libro sequenti
+          <lb ed="#P" n="79"/>dicturi sumus. Possumus autem distinguere
+          <lb ed="#P" n="80"/>in hoc actu duplices circumstantias, internas
+          <lb ed="#P" n="81"/>et externas. Interna jam explicata sunt, ad
+          <lb ed="#P" n="82"/>duas enim reducuntur : prima est intentio
+          <lb ed="#P" n="83"/>bona, quae pertinet ad circumstantiam 
+          pro<lb break="no" ed="#P" n="84"/>pter quid, quae interdum esse potest propria
+          <lb ed="#P" n="85"/>circumstantia, id est, accidentalis conditio,
+          <lb ed="#P" n="86"/>ut si finis sit extrinsecus et remotus, ut 
+          satis<lb break="no" ed="#P" n="87"/>faciendi pro peccatis, vel sublevandi 
+          mise<lb break="no" ed="#P" n="88"/>riam proximi. Hic autem finis non est 
+          simpli<lb break="no" ed="#P" n="89"/>citer necessarius, quia sufficit intentio 
+          in<lb break="no" ed="#P" n="90"/>trinsecae honestatis. seu divini cultus. Si 
+          ta<lb break="no" ed="#P" n="91"/>men illa circumstantia addatur, necesse est
+          <lb ed="#P" n="92"/>ut sit de fine honesto, alias oratio non recte
+          <lb ed="#P" n="93"/>fieret. Altera circumstantia interior est 
+          at<lb break="no" ed="#P" n="94"/>tentio, quae in aliquo gradu non est 
+          circum<lb break="no" ed="#P" n="95"/>stantia propria, sed de substantia orationis,
+          <lb ed="#P" n="96"/>ut diximus ; tamen quatenus esse potest 
+          va<lb break="no" ed="#P" n="97"/>ria, et melior, aut perfecta, sic vocari potest
+          <lb ed="#P" n="98"/>circumstantia, de qua, praeter dicta in 
+          supe<lb break="no" ed="#P" n="99"/>rioribus, nihil occurrit addendum.
+        </p>
+        <p xml:id="szovsr-m05928-d1e172">
+          <lb ed="#P" n="100"/>2. Circunstantie evterne. — Tractamus
+          <lb ed="#P" n="101"/>ergo de circumstantis externis, ex quibus
+          <lb ed="#P" n="102"/>multae etiam in superioribus expositae sunt:
+          <lb ed="#P" n="103"/>nam omnia quae desiderari possuntde 
+          circum<lb break="no" ed="#P" n="104"/>stantiis persona orantis, vel persona ad
+          <lb ed="#P" n="105"/>quam oratur, vel pro qua oratur; item de
+          <lb ed="#P" n="106"/>materia, seu re quae postulari potest per 
+          ora<lb break="no" ed="#P" n="107"/>tionem, et de circumstantiis ex parte illius
+          <pb ed="#P" n="238"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>servandis ; item de auxiliis necessariis ad
+          <lb ed="#P" n="2"/>orandum, et de effectibus vel fructibus, qui
+          <lb ed="#P" n="3"/>ex oratione resultare possunt, dictum est in
+          <lb ed="#P" n="4"/>libro 4, et omnia ibi dicta communia sunt
+          <lb ed="#P" n="5"/>orationi vocali; solum ergo supersunt tres
+          <lb ed="#P" n="6"/>circumstantiae, scilicet tempus, locus et 
+          mo<lb break="no" ed="#P" n="7"/>dus.
+        </p>
+        <p xml:id="szovsr-m05928-d1e212">
+          <lb ed="#P" n="8"/>3. Circumstantia temporis. — Omni 
+          tempo<lb break="no" ed="#P" n="9"/>re potest oratio fieri. — Et de circumstantia
+          <lb ed="#P" n="10"/>temporis multa sunt etiam tacta in 
+          praece<lb break="no" ed="#P" n="11"/>denti capite, ubi ostendimus nullum certum
+          <lb ed="#P" n="12"/>tempus esse lege praescriptum ad orandum ;
+          <lb ed="#P" n="13"/>quod verum est, non solum quoad exercitium
+          <lb ed="#P" n="14"/>actus, sed etiam quoad specificationem, ut
+          <lb ed="#P" n="15"/>sic dicam, quia neque absolute est 
+          determi<lb break="no" ed="#P" n="16"/>natum tempus, pro quo praecipiatur 
+          exerci<lb break="no" ed="#P" n="17"/>tium orationis vocalis, neque sub conditione,
+          <lb ed="#P" n="18"/>ita ut, si exercenda sit oratio, sit in tali vel
+          <lb ed="#P" n="19"/>tali tempore. Hoc est certissimum, quia licet
+          <lb ed="#P" n="20"/>propter fragilitatem humanam non possit 
+          ho<lb break="no" ed="#P" n="21"/>mo orare omni tempore collective ( ut sic 
+          di<lb break="no" ed="#P" n="22"/>cam ), tamen nullum est tempus in quo non
+          <lb ed="#P" n="23"/>possit licite et sancte orare, in die, in nocte,
+          <lb ed="#P" n="24"/>et in quacumque hora diei vel noctis. Et ideo
+          <lb ed="#P" n="25"/>legimus in Scriptura orationes factas in omni
+          <lb ed="#P" n="26"/>temporum varietate ; imo David disit: 
+          Bene<lb break="no" ed="#P" n="27"/>dicam Dominum in omni tempore, semper laus
+          <lb ed="#P" n="28"/>ejus in ore meo, Ps. 33; et Christus, Luc. 18:
+          <lb ed="#P" n="29"/>Opotet semper orare. Quod aliis modis supra,
+          <lb ed="#P" n="30"/>in 1 lib., explicatum est. Hic autem non 
+          in<lb break="no" ed="#P" n="31"/>commode addi potest, quodlibet tempus esse
+          <lb ed="#P" n="32"/>opportunum ad orandum: et ratio est clara,
+          <lb ed="#P" n="33"/>quia oratio vocalis per se bona est, et nulla
+          <lb ed="#P" n="34"/>conditio temporis cogitari potest, quae ad il
+          <lb ed="#P" n="35"/>lam per se sit necessaria. Dico autem per se,
+          <lb ed="#P" n="36"/>quia praecise consideranda est ratio et 
+          condi<lb break="no" ed="#P" n="37"/>tio temporis, ita ut in sensu diviso loquamur
+          <lb ed="#P" n="38"/>respectu aliarum actionum. Clarum est enim
+          <lb ed="#P" n="39"/>multas esse externas actiones, cum quibus
+          <lb ed="#P" n="40"/>non potest simul fieri vocalis oratio, et ideo
+          <lb ed="#P" n="41"/>si alia actio pro aliquo tempore praecepta sit,
+          <lb ed="#P" n="42"/>inde oriri potest circumstantia temporis 
+          in<lb break="no" ed="#P" n="43"/>commoda ad orandum, non ratione ipsius
+          <lb ed="#P" n="44"/>temporis, sed ratione alterius praecepti 
+          impe<lb break="no" ed="#P" n="45"/>rantis aliam actionem. Unde si illo eodem
+          <lb ed="#P" n="46"/>tempore aliquis modus orationis vocalis per
+          <lb ed="#P" n="47"/>breves morulas fieri potest, non intermissa
+          <lb ed="#P" n="48"/>actione praecepta, tempus illud pro 
+          quacum<lb break="no" ed="#P" n="49"/>que sui parte divisim spectata non erit 
+          cir<lb break="no" ed="#P" n="50"/>cumstantia incongrua ad illum orandi 
+          mo<lb break="no" ed="#P" n="51"/>dum.
+        </p>
+        <p xml:id="szovsr-m05928-d1e310">
+          <lb ed="#P" n="52"/>4. Oratio an debeat esse diuturna ? — 
+          So<lb break="no" ed="#P" n="53"/>lum potest quaeri circa hanc circumstantiam,
+          <lb ed="#P" n="54"/>an vocalis oratio debeat esse diuturna ? Quod
+          <lb ed="#P" n="55"/>D. Thomas quaesivit in communi de oratio-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ne, d. q. 83, art. 4, et respondet tantum 
+          de<lb break="no" ed="#P" n="57"/>bere durare, quantum est utile ad 
+          excitan<lb break="no" ed="#P" n="58"/>dum desiderii fervorem, ita quod si absque
+          <lb ed="#P" n="59"/>taedio durare non possit, non sit ulterius 
+          pro<lb break="no" ed="#P" n="60"/>tendenda, ex Augustino, Epist. 121, cap. 10.
+          <lb ed="#P" n="61"/>Quae regula quomodo sit applicanda ad 
+          ora<lb break="no" ed="#P" n="62"/>tionem mentalem, supra dictum est. 
+          Appli<lb break="no" ed="#P" n="63"/>cata vero ad vocalem, intelligenda imprimis
+          <lb ed="#P" n="64"/>est de oratione voluntaria ; nam in 
+          necessa<lb break="no" ed="#P" n="65"/>ria, mensura temporis est praeceptum. Quia
+          <lb ed="#P" n="66"/>vero praeceptum per se non petit durationem
+          <lb ed="#P" n="67"/>temporis, sed tantam vel talem actionem,
+          <lb ed="#P" n="68"/>quae breviori vel longiori tempore fieri potest j
+          <lb ed="#P" n="69"/>juxta velocitatem orantis, ideo quoad hanc :
+          <lb ed="#P" n="70"/>latitudinem poterit etiam ibi locum habere
+          <lb ed="#P" n="71"/>dicta regula, quia illa temporis latitudo 
+          vo<lb break="no" ed="#P" n="72"/>luntaria est, quae excedit minimum tempus
+          <lb ed="#P" n="73"/>sufficiens, ut convenienter fiat talis oratio.
+        </p>
+        <p xml:id="szovsr-m05928-d1e362">
+          <lb ed="#P" n="74"/>5. Ne aliquis teedio facile superetur. —
+          Pri<lb break="no" ed="#P" n="75"/>mus modus intermittendi orationem vocalem.
+          <lb ed="#P" n="76"/>— Secundus modus. — Orationes vocales mne
+          <lb ed="#P" n="77"/>sint in nimia multitudine. — Deinde in illa
+          <lb ed="#P" n="78"/>regula, cavendum est ne quis taedio orandi
+          <lb ed="#P" n="79"/>se facile superari sinat. Nam saepe potest 
+          tae<lb break="no" ed="#P" n="80"/>dium ex tentatione, vel ex acedia aut mala
+          <lb ed="#P" n="81"/>consuetudine oriri, et ideo sepe necesse est
+          <lb ed="#P" n="82"/>fortiter perseverare, et contraria 
+          consuetu<lb break="no" ed="#P" n="83"/>dine taedium vincere. Oportet ergo per 
+          pru<lb break="no" ed="#P" n="84"/>dentiam discernere, an merito possit talis et
+          <lb ed="#P" n="85"/>tam diuturna oratio vocalis nimia existimari
+          <lb ed="#P" n="86"/>in homine sic affecto, ideoque intermittenda
+          <lb ed="#P" n="87"/>sit ad vitandum taedium animae, vel corporis
+          <lb ed="#P" n="88"/>defatigationem. In quo etiam adverto duobus
+          <lb ed="#P" n="89"/>modis posse orationem vocalem relinqui, uno
+          <lb ed="#P" n="90"/>modo tantum ut vocalis est, non vero ut 
+          ora<lb break="no" ed="#P" n="91"/>tio est, ut quando homo cessat loqui lingua,
+          <lb ed="#P" n="92"/>ut mente attentius et devotius oret ; et tunc
+          <lb ed="#P" n="93"/>facilius potest omitti oratio vocalis ad 
+          vitan<lb break="no" ed="#P" n="94"/>dum taedium animae, imo in oratione mentali
+          <lb ed="#P" n="95"/>regulariter videtur consultius, quoties videtur
+          <lb ed="#P" n="96"/>probabllis spes attentius orandi sola mente,
+          <lb ed="#P" n="97"/>quam simul voce, quia vocem adhibemus ut
+          <lb ed="#P" n="98"/>juvet spiritum, non ut impediat. Si vero sit
+          <lb ed="#P" n="99"/>oratio vocalis omnino dimittenda, tum 
+          assi<lb break="no" ed="#P" n="100"/>gnata regula prudentiae observanda est, nulla
+          <lb ed="#P" n="101"/>enim alia certo assignari potest. Et ideo recte
+          <lb ed="#P" n="102"/>monuit Cajetan.. d. q. 83, art. 12, neminem
+          <lb ed="#P" n="103"/>imponere sibi debere tantum onus orationum
+          <lb ed="#P" n="104"/>vocalium, ut ab interna meditatione 
+          impedia<lb break="no" ed="#P" n="105"/>tur. Et similiter cavendum est ne tot 
+          multi<lb break="no" ed="#P" n="106"/>plicentur vocales orationes, ut sese 
+          quodam<lb break="no" ed="#P" n="107"/>modo impediant, quia, consideratis aliis 
+          oc<lb break="no" ed="#P" n="108"/>cupationibus, non possunt nisi nimia 
+          veloci<lb break="no" ed="#P" n="109"/>tate expleri. Oportet ergo prius prudenti
+          <lb ed="#P" n="110"/>mensura certum numerum orationum sibi
+          <pb ed="#P" n="239"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>proponere, et postea non facile illum 
+          omitte<lb break="no" ed="#P" n="2"/>re, nisi ubi de justa causa, vel de spe 
+          majo<lb break="no" ed="#P" n="3"/>ris fructus constiterit.
+        </p>
+        <p xml:id="szovsr-m05928-d1e456">
+          <lb ed="#P" n="4"/>6. Et juxta haec posset intelligi quod 
+          Chri<lb break="no" ed="#P" n="5"/>stus ait, Matth. 6: In oratione nolite multum
+          <lb ed="#P" n="6"/>loqui ; non enim prohibet diuturnas etiam 
+          ora<lb break="no" ed="#P" n="7"/>tiones vocales, ut supra in simili diximus
+          <lb ed="#P" n="8"/>agendo de mentali, et litteralem sensum 
+          tra<lb break="no" ed="#P" n="9"/>didimus. Nam illa prohibitio in utraque 
+          ora<lb break="no" ed="#P" n="10"/>tione habet locum in eo sensu, quo a Christo
+          <lb ed="#P" n="11"/>facta est; non est autem facta absolute, sed
+          <lb ed="#P" n="12"/>cum illo addito: Sicut ethnici faciunt. 
+          Oran<lb break="no" ed="#P" n="13"/>tes enim ad Deos suos multiplicant verba,
+          <lb ed="#P" n="14"/>quia existimant sibi esse necessaria ut 
+          intelli<lb break="no" ed="#P" n="15"/>gantur et ut persuadeant. Unde subjungit
+          <lb ed="#P" n="16"/>Christus : Putant enim, ut in multiloquio suo
+          <lb ed="#P" n="17"/>exaudiantur. Nolite ergo assimilari eis : scit
+          <lb ed="#P" n="18"/>enim Pater vester quid opus sit vobis. Hic ergo
+          <lb ed="#P" n="19"/>addere nunc possumus, prohiberi illud 
+          multi<lb break="no" ed="#P" n="20"/>loquium, quod internam devotionem 
+          impe<lb break="no" ed="#P" n="21"/>diat, et aliunde praeceptum non est, quia cum
+          <lb ed="#P" n="22"/>sensibile eloquium cum Deo non sit propter
+          <lb ed="#P" n="23"/>Deum, sed propter nos, multiloquium erit, si
+          <lb ed="#P" n="24"/>spiritum obruat; et hoc significavit 
+          Augusti<lb break="no" ed="#P" n="25"/>nus supra, quem etiam D. Thomas ad 1 
+          re<lb break="no" ed="#P" n="26"/>fert, dicens: Absit ab oratione vulta locutio,
+          <lb ed="#P" n="27"/>sed non absit multa precatio, si fervens 
+          perse<lb break="no" ed="#P" n="28"/>ceret intentio, etc.
+        </p>
+        <p xml:id="szovsr-m05928-d1e513">
+          <lb ed="#P" n="29"/>1. An ad orandum sit necessarius certus 
+          lo<lb break="no" ed="#P" n="30"/>cits. — Secundo dicendum est de 
+          circumstan<lb break="no" ed="#P" n="31"/>tia loci, de qua interrogari potest, an ad 
+          oran<lb break="no" ed="#P" n="32"/>dum recte sit necessarius certus locus. Cum
+          <lb ed="#P" n="33"/>enim templa Ecclesia, vel aliqua certa loca
+          <lb ed="#P" n="34"/>soleant ad officium orandi determinari, 
+          vide<lb break="no" ed="#P" n="35"/>tur id fierl ex necessitate orationis; nam cum
+          <lb ed="#P" n="36"/>sit actio valde sacra, videtur non posse 
+          con<lb break="no" ed="#P" n="37"/>venienter fieri, nisi in loco sacro, vel saltem
+          <lb ed="#P" n="38"/>ad illud munus specialiter deputato. 
+          Respon<lb break="no" ed="#P" n="39"/>deo, duobus modis posse hanc 
+          detorminatio<lb break="no" ed="#P" n="40"/>nem cogitari, scilicet positive et negative. 
+          Po<lb break="no" ed="#P" n="41"/>sitive appello, quod locus habere debeat 
+          cer<lb break="no" ed="#P" n="42"/>tam aliquam conditionem, ut quod sit 
+          bene<lb break="no" ed="#P" n="43"/>dictus, quod separatus, vel destinatus ad 
+          so<lb break="no" ed="#P" n="44"/>lum illud opus, vel ornatus, vel quid simile.
+          <lb ed="#P" n="45"/>Negative autem appello, quod saltem habere
+          <lb ed="#P" n="46"/>non debeat vilem aliquam conditionem, ut
+          <lb ed="#P" n="47"/>quod non sit locus immundus, vel obscoenus.
+          <lb ed="#P" n="48"/>Item loqui de hoc possumus, vel ex sola rei
+          <lb ed="#P" n="49"/>natura, vel ex jure aliquo humano.
+        </p>
+        <p xml:id="szovsr-m05928-d1e561">
+          <lb ed="#P" n="50"/>8. Oratio vocalis privata non postulat 
+          cer<lb break="no" ed="#P" n="51"/>tum locum. — Ratio assertionis. — Dico ergo
+          <lb ed="#P" n="52"/>imprimis, privatam orationem vocalem per
+          <lb ed="#P" n="53"/>se non postulare certam loci conditionem, sed
+          <lb ed="#P" n="54"/>in quovis loco fieri posse. Haec est certa et
+          <lb ed="#P" n="55"/>communis sententia; et probatur primo ex
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Paulo, 1 ad Timoth. 2, dicente: Volo ciros
+          <lb ed="#P" n="57"/>orare in omni loco ; sicut David dixit Psalm.
+          <lb ed="#P" n="58"/>102: In omni loco dominationis ejus, benedic
+          <lb ed="#P" n="59"/>anima mea Domino ; et hoc etiam significavit
+          <lb ed="#P" n="60"/>Christus, Matth. 6, dicens : Cum oraveris, 
+          in<lb break="no" ed="#P" n="61"/>ira in culiculum luum ; nam cubiculum nec
+          <lb ed="#P" n="62"/>locum sacrum, nec specialiter ad orandum
+          <lb ed="#P" n="63"/>deputatum significat, sed ordinarium 
+          habi<lb break="no" ed="#P" n="64"/>tandi locum, per quem significare voluit 
+          Chri<lb break="no" ed="#P" n="65"/>stus, ubicumque opportune fieri possit, ibi
+          <lb ed="#P" n="66"/>esse aptum orandi locum. Idem sumitur ex
+          <lb ed="#P" n="67"/>illo Joan. 4: Spiritus est Deus, et eos qui 
+          ado<lb break="no" ed="#P" n="68"/>rant ewm, in spiritu et veritate oportet adorare.
+          <lb ed="#P" n="69"/>Quibus verbis non excludit quin ad majorem
+          <lb ed="#P" n="70"/>decentiam et commoditatem possint certa loca
+          <lb ed="#P" n="71"/>ad divinum cultum, praesertim publicum, 
+          des<lb break="no" ed="#P" n="72"/>unari (ut haeretici calumniantur, quod 
+          tracta<lb break="no" ed="#P" n="73"/>vimus in tertio tomo, disp. 81, sect. 1), sed
+          <lb ed="#P" n="74"/>docere intendit, nullum locum ita esse ad hoc
+          <lb ed="#P" n="75"/>definitum, quin ubique possit orari Deus. Et
+          <lb ed="#P" n="76"/>ratio in eisdem verbis insinuatur, quia Deus
+          <lb ed="#P" n="77"/>ubique est, et ubique audit ac videt; ergo
+          <lb ed="#P" n="78"/>etiam ubique orari potest, quia nulla est 
+          ra<lb break="no" ed="#P" n="79"/>tio cur specialis conditio postuletur. Item,
+          <lb ed="#P" n="80"/>oratio mentalis non requirit certam loci 
+          con<lb break="no" ed="#P" n="81"/>ditionem, ut supra ostensum est; ergo nec
+          <lb ed="#P" n="82"/>vocalis privata, quia solum addit externam
+          <lb ed="#P" n="83"/>significationem interni desiderii, et immediate
+          <lb ed="#P" n="84"/>dirigitur in Deum, sine ullo speciali respectu
+          <lb ed="#P" n="85"/>ad locum. Tandem specialis loci conditio jure
+          <lb ed="#P" n="86"/>naturae non est requisita, quia nulla ratione
+          <lb ed="#P" n="87"/>hoc ostendi potest ; neque jure positivo, quia
+          <lb ed="#P" n="88"/>nullum scriptum invenitur, neque 
+          consuetu<lb break="no" ed="#P" n="89"/>dine introductum; ergo.
+        </p>
+        <p xml:id="szovsr-m05928-d1e653">
+          <lb ed="#P" n="90"/>9. In loco vili non est malum orare 
+          vocali<lb break="no" ed="#P" n="91"/>ter. — Dico secundo: non est maium orare
+          <lb ed="#P" n="92"/>vocaliter in quovis loco, quantumvis vili et
+          <lb ed="#P" n="93"/>immundo, dummodo in eo conveniens 
+          atten<lb break="no" ed="#P" n="94"/>tio et reverentia ad Deum haberi possit. 
+          At<lb break="no" ed="#P" n="95"/>que ita nulla conditio etiam negativa per se
+          <lb ed="#P" n="96"/>requiritur ex parte loci ad honestatem 
+          ora<lb break="no" ed="#P" n="97"/>üonis, praeter hanc, quod non sit ineptus ad
+          <lb ed="#P" n="98"/>attentionem habendam, quod non potest ex
+          <lb ed="#P" n="99"/>se habere, quatenus locus est, sed quatenus
+          <lb ed="#P" n="100"/>in eo aliae actiones vel rumores fiunt 
+          impe<lb break="no" ed="#P" n="101"/>dientes attentionem. Et ita explicata conclusio
+          <lb ed="#P" n="102"/>videtur per se clara. Navarrus autem, de
+          <lb ed="#P" n="103"/>Orat., c. 5, docuit, ex nonnullorum 
+          senten<lb break="no" ed="#P" n="104"/>tia, orationem debere fieri in loco honesto,
+          <lb ed="#P" n="105"/>non in obsceeno et inhonesto, quia ibi non
+          <lb ed="#P" n="106"/>decenter fit, refertque Ambrosium qui 
+          expli<lb break="no" ed="#P" n="107"/>cando locum Pauli: Volo vos orare in omni
+          <lb ed="#P" n="108"/>lovo, etc., addit: Sic tamen in omni loco 
+          oran<lb break="no" ed="#P" n="109"/>dum pracipit, ut competens locus intelligatur,
+          <lb ed="#P" n="110"/>non wtique inopportuno aut sordido loco (quippe
+          <pb ed="#P" n="240"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cum prohibeat Dominus vulgo orare), sed hoc
+          <lb ed="#P" n="2"/>aonet, ne in sola Ecclesia putarent orandum.
+          <lb ed="#P" n="3"/>Similia refert ex Augustino Waldens., tom.
+          <lb ed="#P" n="4"/>3; de Sacram., c. 143, n. 2, sed neuter locum
+          <lb ed="#P" n="5"/>designat. D. Thomas autem, in eumdem 
+          lo<lb break="no" ed="#P" n="6"/>cum Pauli, etiam dixit orationem mentalem
+          <lb ed="#P" n="7"/>ubique posse fieri, sed signa orationis 
+          exte<lb break="no" ed="#P" n="8"/>rius non debere fieri omni in loco.
+        </p>
+        <p xml:id="szovsr-m05928-d1e723">
+          <lb ed="#P" n="9"/>10. Locus pravas cogitationes ingerens 
+          ora<lb break="no" ed="#P" n="10"/>tioni ineptus. — Tamen idem Navarrus 
+          sta<lb break="no" ed="#P" n="11"/>tim, n. S, hoc limitat dicens, prius dictum
+          <lb ed="#P" n="12"/>suum non habere locum in orationibus 
+          vo<lb break="no" ed="#P" n="13"/>lIuntariis, imo nec in obligatoriis, quando 
+          ne<lb break="no" ed="#P" n="14"/>cessitas vel sufficiens ratio cogit ad 
+          recitan<lb break="no" ed="#P" n="15"/>dum in sordido loco. Denique addit non tam
+          <lb ed="#P" n="16"/>esse intelligendum de loco contaminato 
+          cor<lb break="no" ed="#P" n="17"/>poris sordibus, quam de eo, qui occasionem
+          <lb ed="#P" n="18"/>praebet sordidis cogitationibus sese 
+          contami<lb break="no" ed="#P" n="19"/>nare. Et ita tandem sententiam a nobis 
+          posi<lb break="no" ed="#P" n="20"/>tam defendit, adducens plures conjecturas, et
+          <lb ed="#P" n="21"/>Cassianum, Collat. 12, c. 10. Nobis vero 
+          suf<lb break="no" ed="#P" n="22"/>ficit ratio facta, quia nullo jure positivo 
+          pro<lb break="no" ed="#P" n="23"/>hibitum est, neque ex natura rei est contra
+          <lb ed="#P" n="24"/>rectam rationem, sive homo sit in loco 
+          sordi<lb break="no" ed="#P" n="25"/>do ex necessitate, sive voluntarie, dummodo
+          <lb ed="#P" n="26"/>existendo ibi non actu peccet, nam tunc non
+          <lb ed="#P" n="27"/>poterit simul recte orare, non ratione 
+          condi<lb break="no" ed="#P" n="28"/>tionis loci, sed propter actualem culpam. Hac
+          <lb ed="#P" n="29"/>ergo occasione seclusa, non potest esse 
+          ma<lb break="no" ed="#P" n="30"/>lum, per se loquendo, proferre verba laudis,
+          <lb ed="#P" n="31"/>vel petitionis ad Deum, quia hic actus nihil
+          <lb ed="#P" n="32"/>pendet ex qualitate loci, et melius est illum
+          <lb ed="#P" n="33"/>exercere, quam otiosum esse; et quia etiam ibi
+          <lb ed="#P" n="34"/>factus potest excitare animum ad devotionem;
+          <lb ed="#P" n="35"/>si ergo ibi interior oratio licita est, cur non
+          <lb ed="#P" n="36"/>haec exterior?
+        </p>
+        <p xml:id="szovsr-m05928-d1e786">
+          <lb ed="#P" n="37"/>11. Explicatur limitatio posita. — Quando
+          <lb ed="#P" n="38"/>tencamur orare in loco impediente attentionem.
+          <lb ed="#P" n="39"/>— Addidimus tamen limitationem de loco, in
+          <lb ed="#P" n="40"/>quo datur impedimentum attentioni; nam cum
+          <lb ed="#P" n="41"/>attentio sit necessaria ad honeste orandum,
+          <lb ed="#P" n="42"/>etiam est necessarium tollere impedimenta
+          <lb ed="#P" n="43"/>attentionis; ergo in loco, in quo fuerint talia
+          <lb ed="#P" n="44"/>impedimenta, orandum non est. Et hac 
+          ra<lb break="no" ed="#P" n="45"/>tione dixit Ambrosius non esse vulgo 
+          oran<lb break="no" ed="#P" n="46"/>dum, id est, in foro, et ubi est hominum et
+          <lb ed="#P" n="47"/>secularium negotiorum concursus. Et hoc 
+          ip<lb break="no" ed="#P" n="48"/>sum intelligendum est, quando necessitas non
+          <lb ed="#P" n="49"/>urget ad orandum in tali loco. Ut autem hic
+          <lb ed="#P" n="50"/>casus proprie occurrat, duplex necessitas 
+          in<lb break="no" ed="#P" n="51"/>tervenire debet: una est necessitas existendi
+          <lb ed="#P" n="52"/>tunc in tali loco, sive sit violenta, sive 
+          nate<lb break="no" ed="#P" n="53"/>ralis, sive moralis. Alia est necessitas 
+          obliga<lb break="no" ed="#P" n="54"/>tionis tunc orandi ex praecepto. Tunc enim
+          <lb ed="#P" n="55"/>licet impedimenta attentionis interveniant,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non est omnino orandi officium omittendum,
+          <lb ed="#P" n="57"/>tum qnia ex duobus malis minus est 
+          eligen<lb break="no" ed="#P" n="58"/>dum: minus autem malum est sic orare,
+          <lb ed="#P" n="59"/>quam praeceptum non servare; tum etiam quia
+          <lb ed="#P" n="60"/>illa distractio tunc non est voluntaria, et ideo
+          <lb ed="#P" n="61"/>non excludit attentionem virtualem, quam
+          <lb ed="#P" n="62"/>habere aliquis censebitur, proponendo 
+          atten<lb break="no" ed="#P" n="63"/>dere in tali loco, quantum potuerit. Eo vel
+          <lb ed="#P" n="64"/>maxime , quod vix potest attentio adeo 
+          im<lb break="no" ed="#P" n="65"/>pediri, quin saltem ad verba pro aliquibus
+          <lb ed="#P" n="66"/>temporibus adhibeatur , licet frequenter 
+          in<lb break="no" ed="#P" n="67"/>terrumpatur. Constat autem totum hoc esse
+          <lb ed="#P" n="68"/>extrinsecum, et accidentarium ad 
+          circumstan<lb break="no" ed="#P" n="69"/>tiam loci.
+        </p>
+        <p xml:id="szovsr-m05928-d1e862">
+          <lb ed="#P" n="70"/>12. Locum sacrum conferre ad orationem.
+          <lb ed="#P" n="71"/>— Unde tertio dicendum est, circumstantiam
+          <lb ed="#P" n="72"/>loci sacri per se conferre ad vocalem 
+          oratio<lb break="no" ed="#P" n="73"/>nem ; ex accidenti autem posse contingere,
+          <lb ed="#P" n="74"/>ut alius locus commodior sit. Prior pars est
+          <lb ed="#P" n="75"/>certa contra haereticos, qui templa et loca 
+          sa<lb break="no" ed="#P" n="76"/>cra ad orandum contemnunt, ut late refert et
+          <lb ed="#P" n="77"/>impugnat Waldens., tom. 3 de Sacram., c.
+          <lb ed="#P" n="78"/>143; et nos id attigimus 3 tom., disp. 81,
+          <lb ed="#P" n="79"/>sect. 1. Breviterque explicatur: nam duobus
+          <lb ed="#P" n="80"/>modis potest esse locus sacer ad orandum:
+          <lb ed="#P" n="81"/>primo proprie, quia speciali benedictione vel
+          <lb ed="#P" n="82"/>consecratione Deo dicatus est ; secundo, per
+          <lb ed="#P" n="83"/>extrinsecam tantum deputationem, quia 
+          spe<lb break="no" ed="#P" n="84"/>cialiter dicatus est ad munus orandi, et 
+          simi<lb break="no" ed="#P" n="85"/>les actiones sacras. Prior locus juvare potest
+          <lb ed="#P" n="86"/>etiam ex opere operato (ut sic dicam ), quia
+          <lb ed="#P" n="87"/>intercedit divina promissio, vel specialis 
+          Ec<lb break="no" ed="#P" n="88"/>clesiae intercessio, ut orationes ibi factae
+          <lb ed="#P" n="89"/>facilius exaudiantur. Posterior autem locus
+          <lb ed="#P" n="90"/>juvare potest, quasi ex opere operantis (ut
+          <lb ed="#P" n="91"/>sic dicam), quia nimirum, cum 
+          apprehendi<lb break="no" ed="#P" n="92"/>tur tanquam locus, in quo peculiariter colitur
+          <lb ed="#P" n="93"/>Deus, majorem reverentiam et devotionem
+          <lb ed="#P" n="94"/>conciliat.
+        </p>
+        <p xml:id="szovsr-m05928-d1e919">
+          <lb ed="#P" n="95"/>13. Locus non sacrum aliquando 
+          commo<lb break="no" ed="#P" n="96"/>dicrem esse probatur.—Altera vero pars etiam
+          <lb ed="#P" n="97"/>est clara, quia si locus sacer sit publicus,
+          <lb ed="#P" n="98"/>potest accidere ut in eo sit occasio, aut 
+          di<lb break="no" ed="#P" n="99"/>stractionis, aut inanis gloriae, ideoque utilius
+          <lb ed="#P" n="100"/>sit, juxta Christi consilium, ingredi 
+          cubicu<lb break="no" ed="#P" n="101"/>lum ad orandum : et sic etiam dixit Isid., lib.
+          <lb ed="#P" n="102"/>3 Sent., c. 7: Oratio privatis locis 
+          opportu<lb break="no" ed="#P" n="103"/>nius funditur, majusque obtentum impetrat,
+          <lb ed="#P" n="104"/>dum Doeo tantum teste depromitur. Speciahter
+          <lb ed="#P" n="105"/>etiam juvare potest privatus locus ad liberius
+          <lb ed="#P" n="106"/>exhibenda exteriora signa, quae attentionem
+          <lb ed="#P" n="107"/>excitare solent, vel ad loquendum altius, vel
+          <lb ed="#P" n="108"/>summissius, juxta uniuscujusque 
+          devotio<lb break="no" ed="#P" n="109"/>nem : in hoc enim sensu dixit D. Thomas, 1
+          <lb ed="#P" n="110"/>ad Timoth. 2, lect. 2, exteriora signa oratio-
+          <pb ed="#P" n="241"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nis non debere fieriin omni loco, quia homo non
+          <lb ed="#P" n="2"/>debet singularis apparere in eaterioribus, quia
+          <lb ed="#P" n="3"/>propter hoc haberi posset inanis gloria. Haec
+          <lb ed="#P" n="4"/>vero intelliguntur de oratione voluntaria et
+          <lb ed="#P" n="5"/>privata ; nam in publica servanda est 
+          Eccle<lb break="no" ed="#P" n="6"/>siae institutio, de qua infra.
+        </p>
+        <p xml:id="szovsr-m05928-d1e974">
+          <lb ed="#P" n="7"/>14. Versus Orientem orare an oporteat. —
+          <lb ed="#P" n="8"/>Prima ratio. — Secunda. — Tertia.— Quarta.
+          <lb ed="#P" n="9"/>—Christus facie ad Orientem versa crucifixus.
+          <lb ed="#P" n="10"/>—-Quinta. — Hic vero specialiter inquiri 
+          po<lb break="no" ed="#P" n="11"/>test de caeremonia orandi versus Orientem,
+          <lb ed="#P" n="12"/>quae ad hanc circumstantiam pertinere 
+          vide<lb break="no" ed="#P" n="13"/>tur, quam necessaria sit. Nam Patres 
+          signifi<lb break="no" ed="#P" n="14"/>cant servandam esse ex Apostolica 
+          traditio<lb break="no" ed="#P" n="15"/>ne, variasque illius rationes assignant, unde
+          <lb ed="#P" n="16"/>indicant a Christianis omnibus servandam 
+          es<lb break="no" ed="#P" n="17"/>se. Et D. Thomas 2. 2, q. 84, art. 3, ad 3, 
+          di<lb break="no" ed="#P" n="18"/>cit, pertinere hoc ad decentiam adorationis :
+          <lb ed="#P" n="19"/>eadem autem est ratio de oratione : tres vero
+          <lb ed="#P" n="20"/>rationes ibi adducit. Prima est, quia per
+          <lb ed="#P" n="21"/>Orientem majestas Domini nobis indicatur,
+          <lb ed="#P" n="22"/>quam etiam tradit Justinus Martyr, q. 118; et
+          <lb ed="#P" n="23"/>Augustinus, lib. 1, deSerm. Domini in monte,
+          <lb ed="#P" n="24"/>c. b. Secunda est, quia paradisus in 
+          Orien<lb break="no" ed="#P" n="25"/>te positus erat, Gen. 2; sic Greg. Nys., lib.
+          <lb ed="#P" n="26"/>de Dom. Orat. circa illa verba Christi: Dimitte
+          <lb ed="#P" n="27"/>nobis debita nostra: Nos(inquit) ad Orientem
+          <lb ed="#P" n="28"/>convertimus ; et infra : Recordamur 
+          quemad<lb break="no" ed="#P" n="29"/>modum ea lucidis et orientalibus locis ejecti
+          <lb ed="#P" n="30"/>sumus. Idem fere Basilius lib. de Spiritu
+          <lb ed="#P" n="31"/>Sancto, c. 27. Tertia ratio D. Thomae est, eo
+          <lb ed="#P" n="32"/>quod Christus in Scriptura Oriens, et sol 
+          jus<lb break="no" ed="#P" n="33"/>titiae appelletur; quam etiam indicavit 
+          Ter<lb break="no" ed="#P" n="34"/>tul. contra Valentinianos, c. 3, ut ibi 
+          adnota<lb break="no" ed="#P" n="35"/>vit Pamelius; et Athan., lib. Variar. quaest.,
+          <lb ed="#P" n="36"/>q. 14, ubi alias etiam congerit. Quartam 
+          ra<lb break="no" ed="#P" n="37"/>tionem addidit Damascen., lib. 4, de Fide,
+          <lb ed="#P" n="38"/>c. 13, quia Christus Dominus in Oriente 
+          cru<lb break="no" ed="#P" n="39"/>cifixus est, facie ad Occidentem conversa ;
+          <lb ed="#P" n="40"/>unde cum ad Orientem oramus, quasi in
+          <lb ed="#P" n="41"/>Christi faciem intuemur. Non probat autem
+          <lb ed="#P" n="42"/>Damascenus, Dominum in cruce ad 
+          Occiden<lb break="no" ed="#P" n="43"/>tem aspexisse, sed hoc videtur supponere,
+          <lb ed="#P" n="44"/>vel ex hac, vel ex speciali traditione. Nam id
+          <lb ed="#P" n="45"/>etiam affirmant Hieron., Marci 15; et Beda,
+          <lb ed="#P" n="46"/>Luc. 23; et Sedulius, quem ipse refert; et
+          <lb ed="#P" n="47"/>Cassiod., in Psalm. 67. Non displicet etiam
+          <lb ed="#P" n="48"/>ratio, quam significavit Pamelius, in Scholiis
+          <lb ed="#P" n="49"/>ad Apol. Tertull., c. 16, num. 2471, 
+          Eccle<lb break="no" ed="#P" n="50"/>siam introduxisse consuetudinem orandi ad
+          <lb ed="#P" n="51"/>Orientem, ut Christiani discernerentur a 
+          Ju<lb break="no" ed="#P" n="52"/>daeis, qui, ad Occidentem orare solebant;
+          <lb ed="#P" n="53"/>nam tabernaculum templi erat versus 
+          Occi<lb break="no" ed="#P" n="54"/>dentem dispositum : cujus rationem reddit
+          <lb ed="#P" n="55"/>D. Thomas, 1. 2, q. 102, art. 4, ad 5.
+        </p>
+        <p xml:id="szovsr-m05928-d1e1084">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>15. Orientem versus orare licitum, sed non
+          <lb ed="#P" n="57"/>necessarium.—Haec omnia recte probant, 
+          li<lb break="no" ed="#P" n="58"/>cite et sancte facere cos, qui hanc 
+          caeremo<lb break="no" ed="#P" n="59"/>niam servant eo spiritu, quo introducia est.
+          <lb ed="#P" n="60"/>Et hac ratione Epiph., lib. 1 contra haeres.,
+          <lb ed="#P" n="61"/>in 19, damnat haereticum quemdam 
+          appella<lb break="no" ed="#P" n="62"/>tum Elxai, qui inter alia prohibebat ad 
+          Orien<lb break="no" ed="#P" n="63"/>tem adorare, judaismum volens introducere.
+          <lb ed="#P" n="64"/>Nihilominus tamen verum est, hanc 
+          circum<lb break="no" ed="#P" n="65"/>stantiam non esse de necessitate orationis,
+          <lb ed="#P" n="66"/>ut bene notavit Hosius, lib. 4 de 
+          Traditioni<lb break="no" ed="#P" n="67"/>bus, circa medium, S Fxaminat aliam, etc.;
+          <lb ed="#P" n="68"/>et Durand., lib. 1, de Hitib., c. 3. Quod 
+          ma<lb break="no" ed="#P" n="69"/>xime verum est in privatis orationibus: non
+          <lb ed="#P" n="70"/>tenemur enim, cum privatim oramus, de situ
+          <lb ed="#P" n="71"/>ad Orientem sollicitos esse: quia nullum
+          <lb ed="#P" n="72"/>est de hoc praeceptum, nec consuetudo fuit
+          <lb ed="#P" n="73"/>in hoc sensu introducta. Sed solum de 
+          ora<lb break="no" ed="#P" n="74"/>tionibus publicis, quae in templis fieri debent,
+          <lb ed="#P" n="75"/>quia juxta hanc traditionem consuetudine 
+          in<lb break="no" ed="#P" n="76"/>troductum est, ut templa Christianorum 
+          Ori<lb break="no" ed="#P" n="77"/>entem respiciant. Imo hoc ipsum non 
+          exis<lb break="no" ed="#P" n="78"/>timo esse adeo necessarium, ut si non 
+          serve<lb break="no" ed="#P" n="79"/>tur simplici fide, sit grave delictum ; unde
+          <lb ed="#P" n="80"/>Hosius supra inquit: Hac in re si quid 
+          erra<lb break="no" ed="#P" n="81"/>tum est imprudentia, veniale peccatum est, ac
+          <lb ed="#P" n="82"/>dissimulatur non raro. Unde si ex causa 
+          le<lb break="no" ed="#P" n="83"/>gitima fiat, nulla erit culpa; si tamen id 
+          fie<lb break="no" ed="#P" n="84"/>ret in contemptum traditionis, grave 
+          pecca<lb break="no" ed="#P" n="85"/>tum esset, ut merito idem auctor subjungit ;
+          <lb ed="#P" n="86"/>imo vix fieri posset sine spiritu erroris 
+          dam<lb break="no" ed="#P" n="87"/>nantis vel omnes traditiones, vel hanc ex
+          <lb ed="#P" n="88"/>particulari, cum pia et sancta sit.
+        </p>
+        <p xml:id="szovsr-m05928-d1e1160">
+          <lb ed="#P" n="89"/>16. Modus exterior orandi qualis.—Triplea
+          <lb ed="#P" n="90"/>respectus'in hoc seroandus. —rVertia 
+          circumstan<lb break="no" ed="#P" n="91"/>tia est modus exterior orandi, qui modus 
+          con<lb break="no" ed="#P" n="92"/>siderari potest, vel in ipsa voce, vel in 
+          ges<lb break="no" ed="#P" n="93"/>tu vel habitu corporis. De utroque autem
+          <lb ed="#P" n="94"/>modo breviter dicendum est, nihil in 
+          parti<lb break="no" ed="#P" n="95"/>culari praeceptum aut definitum esse quoad
+          <lb ed="#P" n="96"/>privatas orationes, de quibus nunc agimus,
+          <lb ed="#P" n="97"/>praeter illud generale, quod in omni actione
+          <lb ed="#P" n="98"/>honesta servandum est, ut decenti modo
+          <lb ed="#P" n="99"/>fiat. Hoc constat, quia nihil aliud ex jure 
+          so<lb break="no" ed="#P" n="100"/>lo uaturae colligi potest, et ex humano nihil
+          <lb ed="#P" n="101"/>invenitur in particulari praescriptum. Modus
+          <lb ed="#P" n="102"/>autem decentiae in particulari pendet ex 
+          ar<lb break="no" ed="#P" n="103"/>bitrio prudentiae : triplicem vero respectum
+          <lb ed="#P" n="104"/>considerare necesse est. Primus est ad Deum,
+          <lb ed="#P" n="105"/>ejusque majestatem et excellentiam, et ex
+          <lb ed="#P" n="106"/>hac parte conferunt verba, et signa 
+          summis<lb break="no" ed="#P" n="107"/>sionis, humilitatis, ut sunt genutflexio, et 
+          si<lb break="no" ed="#P" n="108"/>milia. Secundus respectus est ad nos ipsos
+          <lb ed="#P" n="109"/>orantes, et ex hac parte adhibenda sunt 
+          si<lb break="no" ed="#P" n="110"/>gna et verba, quae animum componant, et
+          <pb ed="#P" n="242"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>excitent ad devotionem et compunctionem,
+          <lb ed="#P" n="2"/>etc., ut sunt levare manus, pectus tundere,
+          <lb ed="#P" n="3"/>et similia : tertus respectus est ad 
+          circum<lb break="no" ed="#P" n="4"/>stantes, si adsunt, nam talis servandus est
+          <lb ed="#P" n="5"/>modus, ut alios non perturbet, nec 
+          scandah<lb break="no" ed="#P" n="6"/>zet, ita ut omnis hypocrisis, et gloriae 
+          ambi<lb break="no" ed="#P" n="7"/>tio etiam in externa specie vitetur.
+        </p>
+        <p xml:id="szovsr-m05928-d1e1230">
+          <lb ed="#P" n="8"/>17. In eateriori modo orandi quando fiat
+          <lb ed="#P" n="9"/>grave peccatum. — Atque hinc colligitur, ex
+          <lb ed="#P" n="10"/>detectu hujus circumstantiae non peccari 
+          gra<lb break="no" ed="#P" n="11"/>viter, nisi altero e duobus modis. Unus est, si
+          <lb ed="#P" n="12"/>exteriora signa reverentia ex contemptu
+          <lb ed="#P" n="13"/>omittantur, quod vix facere potest, nisi aliquis
+          <lb ed="#P" n="14"/>haereticus, aut atheus, aut ita obstinatus in
+          <lb ed="#P" n="15"/>malo, ut Deum ipsum contemnat. Atque ita
+          <lb ed="#P" n="16"/>orare ad Deum cooperto capite, verbi gratia,
+          <lb ed="#P" n="17"/>de se non est peccatum, ut constat ; si tamen
+          <lb ed="#P" n="18"/>fieret ex contemptu, esset gravissimum 
+          pecca<lb break="no" ed="#P" n="19"/>tum, quia esse gravis injuria Dei. Secundo,
+          <lb ed="#P" n="20"/>posset esse culpa gravis ratione scandali, ut
+          <lb ed="#P" n="21"/>si quis publice orando absque signis externis
+          <lb ed="#P" n="22"/>reverentiae malam fidei suae suspicionem 
+          prae<lb break="no" ed="#P" n="23"/>beret, vel alios ad peccandum graviter 
+          pro<lb break="no" ed="#P" n="24"/>vocaret. Extra hos autem casus non apparet
+          <lb ed="#P" n="25"/>culpa gravis; venialis autem saepius committi
+          <lb ed="#P" n="26"/>potest, vel omittendo consuetum modum in
+          <lb ed="#P" n="27"/>oratione quae in publico fit, sine rationabili
+          <lb ed="#P" n="28"/>causa, vel ex nimio amore corporalis 
+          commo<lb break="no" ed="#P" n="29"/>ditatis, maxime quando ad devotionem et 
+          at<lb break="no" ed="#P" n="30"/>tentionem moraliter juvat, quod saepe 
+          expe<lb break="no" ed="#P" n="31"/>rientia ipsa constare potest.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

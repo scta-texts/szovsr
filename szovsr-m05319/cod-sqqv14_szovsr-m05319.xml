@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="213"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m05319"><!-- t4l3c1 -->
+        <head xml:id="szovsr-m05319-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-m05319-Hd1e103" type="question-title">Utrum vocalis oratio sit honestus ac religiosus actus</head>
+        <p xml:id="szovsr-m05319-d1e106">
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="42"/>CAPUT I.
+          <lb ed="#P" n="43"/>UTRUM VOCALIS ORATIO SIT HONESTUS AC 
+          RELIGIO<lb break="no" ed="#P" n="44"/>SUS ACTUS?
+        </p>
+        <p xml:id="szovsr-m05319-d1e117">
+          <lb ed="#P" n="45"/>1. Haereticorum error damnantuum usum
+          <lb ed="#P" n="46"/>orationis vocalis. — Nonnulli ex haereticis 
+          ab<lb break="no" ed="#P" n="47"/>solute damnarunt usum vocaliter orandi,
+          <lb ed="#P" n="48"/>quem errorem videtur interdum attribuere
+          <lb ed="#P" n="49"/>Wiclepho Waldensis , tomo tertio, titul. 1,
+          <lb ed="#P" n="50"/>cap. 1 et sequenti. Tamen ille videtur potius
+          <lb ed="#P" n="51"/>damnasse cantus ecclesiasticos , et modum
+          <lb ed="#P" n="52"/>orandi alta voce, quam simpliciter per 
+          vo<lb break="no" ed="#P" n="53"/>cem, et ideo contra illum agemus libro 
+          se<lb break="no" ed="#P" n="54"/>quenti. Prateolus autem in Elencho Haeresum
+          <lb ed="#P" n="55"/>refert, ex Lindano et aliis, haereticos hujus
+          <lb ed="#P" n="56"/>temporis dictos Trinitarios inter alia dixisse,
+          <lb ed="#P" n="57"/>eo quod Deus spiritus sit, in solo spiritu esse
+          <lb ed="#P" n="58"/>a nobis orandum, id est, mentaliter, et non
+          <lb ed="#P" n="59"/>vocaliter invocandum esse. Itaque solum vi-
+          <pb ed="#P" n="214"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dentur fundari in verbis illis Christi, Joan. 4:
+          <lb ed="#P" n="2"/>Spiritus est Deus, et eos qui adorant eum, in 
+          spi<lb break="no" ed="#P" n="3"/>ritu et veritate oportet adorare. Ratione etiam
+          <lb ed="#P" n="4"/>possumus hunc errorem confirmare, quia vox
+          <lb ed="#P" n="5"/>sensibilis solum instituta est ad loquendum
+          <lb ed="#P" n="6"/>cum his, qui audire illam possunt. et per 
+          il<lb break="no" ed="#P" n="7"/>lam percipere interiores actus hominis 
+          loquen<lb break="no" ed="#P" n="8"/>tis, et non aliter. At Deusnec sensibiliter audit,
+          <lb ed="#P" n="9"/>nec indiget tali signo ad videndas hominis 
+          co<lb break="no" ed="#P" n="10"/>gitationes; ergo superstitiosum et vanum est
+          <lb ed="#P" n="11"/>ad Deum dirigere vocales orationes. Unde
+          <lb ed="#P" n="12"/>sicut Elias deridebat Prophetas Baal, 3 Reg.
+          <lb ed="#P" n="13"/>18, dicens : Clamate coce majori , Deus enim
+          <lb ed="#P" n="14"/>vester forsitan cum alio loguitur, aut in 
+          diver<lb break="no" ed="#P" n="15"/>sorio est , aut in itinere, aut certe dormit , ut
+          <lb ed="#P" n="16"/>excitetur , ita haeretici reprehendunt eos, qui
+          <lb ed="#P" n="17"/>voce orant ad Deum, quia per hoc significant
+          <lb ed="#P" n="18"/>Deum aliter audire non posse.
+        </p>
+        <p xml:id="szovsr-m05319-d1e195">
+          <lb ed="#P" n="19"/>9. Hrror solum Dominicam admittens 
+          Ora<lb break="no" ed="#P" n="20"/>tionem. — Fundamenta. — Hunc errorem 
+          h<lb break="no" ed="#P" n="21"/>mitarunt alii haeretici ex factione 
+          Walden<lb break="no" ed="#P" n="22"/>sium, dicti Insabbatati. Dixerunt enim (ut 
+          Pra<lb break="no" ed="#P" n="23"/>teolus refert) nullam orationem, praeter 
+          Domi<lb break="no" ed="#P" n="24"/>nicam, admittendam esse. Itaque fatebantur
+          <lb ed="#P" n="25"/>orationem illam voce posse proferri ; 
+          vide<lb break="no" ed="#P" n="26"/>bant enim Christum Dominum de modo 
+          ex<lb break="no" ed="#P" n="27"/>terius et vocaliter orandi fuisse locutum ,
+          <lb ed="#P" n="28"/>quando illam docuit; negabant autem alias
+          <lb ed="#P" n="29"/>orationes esse licitas, vel quia crediderunt 
+          ho<lb break="no" ed="#P" n="30"/>minem non posse sua voluntate introducere
+          <lb ed="#P" n="31"/>modum loquendi cum Deo, quem ipse non
+          <lb ed="#P" n="32"/>probavit ; vel quia existimarunt Christum 
+          Do<lb break="no" ed="#P" n="33"/>minum, praescribendo illum orandi modum,
+          <lb ed="#P" n="34"/>omnem alium tacite prohibuisse; vel quia 
+          pu<lb break="no" ed="#P" n="35"/>tabant servandum esse purum Evangelium, in
+          <lb ed="#P" n="36"/>sensu erroneo, quem novi haeretici sequuntur,
+          <lb ed="#P" n="37"/>nimirum, ut in his qua ad ritum colendi
+          <lb ed="#P" n="38"/>Deum pertinent, non liceat nobis aliud 
+          velali<lb break="no" ed="#P" n="39"/>ter facere, quam scriptum in Evangelio sit.
+        </p>
+        <p xml:id="szovsr-m05319-d1e244">
+          <lb ed="#P" n="40"/>3. Prima assertio: ex natura réi, et ev omni
+          <lb ed="#P" n="41"/>jure, vocalis oratio est licita, si bene fiat. —
+          <lb ed="#P" n="42"/>Dicendum vero est primo, ex natura rei, et
+          <lb ed="#P" n="43"/>ex omni jure, tam divino quam humano, 
+          li<lb break="no" ed="#P" n="44"/>citum et sanctum esse vocales orationes ad
+          <lb ed="#P" n="45"/>Deum fundere, si debita fide ac intentione
+          <lb ed="#P" n="46"/>fiant. Assertio est de fide, quam satis probat
+          <lb ed="#P" n="47"/>communis usus, et traditio Ecclesiae quam 
+          la<lb break="no" ed="#P" n="48"/>tius ostendemus libro sequenti. Nam, si 
+          lici<lb break="no" ed="#P" n="49"/>tum est orare voce alta et cantu, simpliciter
+          <lb ed="#P" n="50"/>est licita oratio vocalis, sive alte, sive 
+          summis<lb break="no" ed="#P" n="51"/>se fiat. Unde interdum legimus in Scriptura
+          <lb ed="#P" n="52"/>orationem alta vocefactam, interdum 
+          summis<lb break="no" ed="#P" n="53"/>sa. Priori modo aiebat David: Voce mea ad 
+          Do<lb break="no" ed="#P" n="54"/>mimwm clamnavi, voce mea ad Dominum, 
+          depreca<lb break="no" ed="#P" n="55"/>tus sum, Psalm. 141; vel: Voce mea ad Deum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et intendit mihi, Psalm. 16; et Psalm. 140:
+          <lb ed="#P" n="57"/>Intende voci mece, cum clamavero ad te; et Ps.
+          <lb ed="#P" n="58"/>b:Intende voci orationis mec. Atin 1 lib. Reg.,
+          <lb ed="#P" n="59"/>c. 1, legimus Annam,dum funderet preces 
+          co<lb break="no" ed="#P" n="60"/>ram Deo, locutam fuisse in corde suo, et 
+          addi<lb break="no" ed="#P" n="61"/>tur: Tantumque labia illius movelantur, et vos
+          <lb ed="#P" n="62"/>penitus non audiebatur. Unde constat non 
+          so<lb break="no" ed="#P" n="63"/>lum animo, sed etiam corpore orasse, 
+          quam<lb break="no" ed="#P" n="64"/>vis voce adeo summissa, ut non audiretur. Ut
+          <lb ed="#P" n="65"/>ita constet omnes modos orandi corporali
+          <lb ed="#P" n="66"/>lingua et ore, in Scriptura esse approbatos.
+          <lb ed="#P" n="67"/>Nam quod illa oratio Annae Deo plaeuerit,
+          <lb ed="#P" n="68"/>tractat optime Chrys., hom. 79 ad Pop., et ex
+          <lb ed="#P" n="69"/>effectu ejus satis constat. Deaique ex 
+          Evan<lb break="no" ed="#P" n="70"/>gelio constat Christum Dominum exemplo
+          <lb ed="#P" n="71"/>suo orationem vocalem approbasse, Joan.
+          <lb ed="#P" n="72"/>11, et Matt. 6 illam docuisse.
+        </p>
+        <p xml:id="szovsr-m05319-d1e320">
+          <lb ed="#P" n="73"/>4. Quas ob causas voce oremus. — Ad 
+          ex<lb break="no" ed="#P" n="74"/>plicandam autem hujus veritatis rationem,
+          <lb ed="#P" n="75"/>addidi in assertione illa verba: 5Si debita
+          <lb ed="#P" n="76"/>fide ac intentione fiat. Non enim oramus
+          <lb ed="#P" n="77"/>voce sensibili, uti fingunt haeretici, ad 
+          exci<lb break="no" ed="#P" n="78"/>tandum Deum, vel quia putemus Deum
+          <lb ed="#P" n="79"/>indigere nostris signis sensibilibus, ad 
+          nos<lb break="no" ed="#P" n="80"/>tras cogitationes, vel desideria 
+          cognoscen<lb break="no" ed="#P" n="81"/>da; quis enim, nisi infidelis vel 
+          ignoran<lb break="no" ed="#P" n="82"/>tissimus, potest tam humiliter sentire de
+          <lb ed="#P" n="83"/>Deo? Primo igitur oramus voce, ut nos ipsos
+          <lb ed="#P" n="84"/>ad devotionem excitemus, ut ait Aug., Epist.
+          <lb ed="#P" n="85"/>121, cap. 9. Secundo, ex eodem Aug. ibid.,
+          <lb ed="#P" n="86"/>ut per certa intervalla horarum, nos ipsos 
+          ad<lb break="no" ed="#P" n="87"/>moneamus , et quantum in hoc desiderio 
+          profe<lb break="no" ed="#P" n="88"/>cerunus , nobis ipsis innotescamus.Et infra: 
+          Ad<lb break="no" ed="#P" n="89"/>monentes nos ipsos in id, quod desiderabumus
+          <lb ed="#P" n="90"/>intendere, ne quod tepescere ceperat, ommino
+          <lb ed="#P" n="91"/>frigescat. Atque ita exponens illud Paul ad
+          <lb ed="#P" n="92"/>Colossens. 4: Petitiones vestre innotescant
+          <lb ed="#P" n="93"/>apud Dewmn, ait non sic accipiendum esse,
+          <lb ed="#P" n="94"/>tanguam Deo innotescant, qui eas, et anteguam
+          <lb ed="#P" n="95"/>essent, utique noverat, sed nobis innotescant
+          <lb ed="#P" n="96"/>apud Deum, per tolerantium, non per 
+          jactan<lb break="no" ed="#P" n="97"/>tiam. Tertio, quia corpore et spiritu 
+          consta<lb break="no" ed="#P" n="98"/>mus, oramus non solum spiritu, sed etiam
+          <lb ed="#P" n="99"/>corpore, ut utroque Deum colamus, juxta 
+          il<lb break="no" ed="#P" n="100"/>lud Oseae, decimo quarto : Omnem aupfer 
+          ini<lb break="no" ed="#P" n="101"/>quitatem, accipe bonwn, et reddemus vitulos
+          <lb ed="#P" n="102"/>labiorum nostrorun. Ubi Hieronymus: 
+          Aed<lb break="no" ed="#P" n="103"/>dituros se esse dicunt labiorum vitulos, et Dei
+          <lb ed="#P" n="104"/>laudes perpeti voce cantaturos. Consonatque 
+          il<lb break="no" ed="#P" n="105"/>lud Psalm. 50: Domine, labia mea aperies, et
+          <lb ed="#P" n="106"/>os meum annuntiabit laudem tuam. Et illud 
+          Ec<lb break="no" ed="#P" n="107"/>clesiast. 39: Confitemini illi in voce labiorum
+          <lb ed="#P" n="108"/>cestrorum ; et ad Hebr. 3: Offeramus hostiam
+          <lb ed="#P" n="109"/>laudis semper Deo, id est, fructum labiorum
+          <lb ed="#P" n="110"/>confitentium nominà ejus.
+        </p>
+        <p xml:id="szovsr-m05319-d1e405">
+          <pb ed="#P" n="215"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>5. Secunda assertio: non solum verbis 
+          Do<lb break="no" ed="#P" n="2"/>minice Orationis, sed aliis etiam licet orare 
+          vo<lb break="no" ed="#P" n="3"/>caliter. — Probatur ev Scriptura. — Secundo
+          <lb ed="#P" n="4"/>dicendum est, non solum verbis Dominicae
+          <lb ed="#P" n="5"/>Orationis, sed etiam aliis ad pium animi 
+          af<lb break="no" ed="#P" n="6"/>fectum, desiderium, vel sensum explicandum
+          <lb ed="#P" n="7"/>aptis, licitum esse ac conveniens, vocaliter
+          <lb ed="#P" n="8"/>orare Deum. Assertio est de fide, quae satis
+          <lb ed="#P" n="9"/>constat communi consensu, et traditione 
+          to<lb break="no" ed="#P" n="10"/>tius Ecclesiae, et usu omnium fidelium 
+          pio<lb break="no" ed="#P" n="11"/>rum. Et de Christo ipso legimus Matt. 26,
+          <lb ed="#P" n="12"/>quod Aymno dicto eaierunt in montem Olveti,
+          <lb ed="#P" n="13"/>ubi constat Christum orationem aliquam
+          <lb ed="#P" n="14"/>(quaecumque tandem illa fuerit) in laudem
+          <lb ed="#P" n="15"/>Dei dixisse, ut Patres adnotarunt. Imo 
+          Pau<lb break="no" ed="#P" n="16"/>lus, primae ad Cor. 14, ad omnes fideles, qui
+          <lb ed="#P" n="17"/>in Eeclesia conveniunt, sic inquit: Cum 
+          con<lb break="no" ed="#P" n="18"/>venitis, unusquisque vestrum psalmum habet,
+          <lb ed="#P" n="19"/>etc., omnia ad edificationem fiant. taque 
+          dum<lb break="no" ed="#P" n="20"/>modo ad adificationem sit modus orandi,
+          <lb ed="#P" n="21"/>unicuique licitum est pro sua devotione 
+          ora<lb break="no" ed="#P" n="22"/>re, neque est omnibus unica Dominicae 
+          Ora<lb break="no" ed="#P" n="23"/>tionis orandi forma praescripta. Et inferius
+          <lb ed="#P" n="24"/>subdit idem Apostolus, loquens de illo qui
+          <lb ed="#P" n="25"/>nescit ita loqui, ut ab alis intelligatur: S
+          <lb ed="#P" n="26"/>non fuerit interpres, taceat in EFeclesia, sibi
+          <lb ed="#P" n="27"/>autem loquatur, et Deo. Non praecipit ut 
+          so<lb break="no" ed="#P" n="28"/>lam Dominicam Orationem proferat, sed 
+          h<lb break="no" ed="#P" n="29"/>berum unicuique relinquit loqui Deo juxta
+          <lb ed="#P" n="30"/>devotionem suam, quando sibi tantum et
+          <lb ed="#P" n="31"/>Deo loquitur, dummodo digne Deo loquatur,
+          <lb ed="#P" n="32"/>hoc enim semper et ex natura rei 
+          necessa<lb break="no" ed="#P" n="33"/>rium est. Ratio denique est, quia Christus
+          <lb ed="#P" n="34"/>Dominus, docens Apostolos orare, Pater 
+          nos<lb break="no" ed="#P" n="35"/>ter, etc., dedit quidem perfectum orandi 
+          mo<lb break="no" ed="#P" n="36"/>dum, et quasi eximium quoddam exemplar
+          <lb ed="#P" n="37"/>vocalis orationis, brevemque et 
+          accommoda<lb break="no" ed="#P" n="38"/>tam omnibus orandi formam, non tamen 
+          cae<lb break="no" ed="#P" n="39"/>teras orationes vocales prohibuit ; nullo enim
+          <lb ed="#P" n="40"/>verbo aut facto hanc prohibitionem 
+          significa<lb break="no" ed="#P" n="41"/>vit, nec Sancti Patres illam intellexerunt.
+          <lb ed="#P" n="42"/>Unde cum de Oratione Dominica loquuntur,
+          <lb ed="#P" n="43"/>ad summum asserunt Dominicam Orationem
+          <lb ed="#P" n="44"/>praecellere inter omnes orationes vocales, et
+          <lb ed="#P" n="45"/>illas excellere auctoritate, brevitate, 
+          perfec<lb break="no" ed="#P" n="46"/>uone, et efficacitate, ut constat ex Cypriano
+          <lb ed="#P" n="47"/>et Tertulliano, illius orationis expositoribus,
+          <lb ed="#P" n="48"/>et aliis Patribus, quos referunt Bellarm., lib.
+          <lb ed="#P" n="49"/>de Bonis oper. in particulari, c. 4, et Durand.,
+          <lb ed="#P" n="50"/>de Ritib. Ecclesiae, lib. 9, c. 46. Significat
+          <lb ed="#P" n="51"/>quidem Augustinus non licere orare quippiam
+          <lb ed="#P" n="52"/>quod oratione Dominica non contineatur. Ait
+          <lb ed="#P" n="53"/>enim Epist. 121, c. 12: Quelibet alia verba 
+          di<lb break="no" ed="#P" n="54"/>camus, quae affectus orantis, vel preecedendo
+          <lb ed="#P" n="55"/>format, ut clareat, vel consequendo attendit,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ut crescat, nihil aliud dicimus, quam quod ista
+          <lb ed="#P" n="57"/>oratione Dominica positum est, si recte et 
+          con<lb break="no" ed="#P" n="58"/>gruenter oramus ; quisquis autem id dicit, quod
+          <lb ed="#P" n="59"/>ad istam evangelicam precationen pertinere non
+          <lb ed="#P" n="60"/>possit, etiamsi non illicite orat, carnaliter orat,
+          <lb ed="#P" n="61"/>quod nescio, quomodo non dicatur illicite ,
+          <lb ed="#P" n="62"/>quandoquidem spiritus renatos non nisi 
+          spiri<lb break="no" ed="#P" n="63"/>tualiter docet orare. At vero quod non liceat
+          <lb ed="#P" n="64"/>alia forma verborum uti ad orandum, dici
+          <lb ed="#P" n="65"/>nullo modo potest. Atque ita concludit idem
+          <lb ed="#P" n="66"/>Augustinus supra: Unde liberum est aliis 
+          at<lb break="no" ed="#P" n="67"/>que aliis verbis, cadem tamen in orando dicere,
+          <lb ed="#P" n="68"/>sed non debet esse liberum alia dicere. Quod
+          <lb ed="#P" n="69"/>pertinet ad materiam orationis, de qua infra
+          <lb ed="#P" n="70"/>dicemus, simulque illas petitiones Dominicae
+          <lb ed="#P" n="71"/>Orationis exponemus.
+        </p>
+        <p xml:id="szovsr-m05319-d1e568">
+          <lb ed="#P" n="72"/>6. Objectio. — Solutio. — Solutio magis 
+          il<lb break="no" ed="#P" n="73"/>lustratur. —Dices, esto non sit simpliciter
+          <lb ed="#P" n="74"/>malum et prohibitum uti oratione vocali,
+          <lb ed="#P" n="75"/>saltem esse melius et congruentius illa non
+          <lb ed="#P" n="76"/>uti, quia melius est verba Christi proferre,
+          <lb ed="#P" n="77"/>quam propria, et quia semper eligendum est
+          <lb ed="#P" n="78"/>quod est perfectius. Respondetur negando
+          <lb ed="#P" n="79"/>consequentiam. Debent quidem Christiani 
+          il<lb break="no" ed="#P" n="80"/>lam orationem dicere et intelligere, et 
+          for<lb break="no" ed="#P" n="81"/>tasse ex praecepto tenentur, ut infra 
+          videbi<lb break="no" ed="#P" n="82"/>mus ; consilium etiam est ut quotidie eam 
+          re<lb break="no" ed="#P" n="83"/>citent. Imo Clemens Papa, lib. 7 Constit., cap.
+          <lb ed="#P" n="84"/>25, Christianis omnibus consulit, ut ter in die
+          <lb ed="#P" n="85"/>Dominicam Orationem proferant. Semper 
+          ta<lb break="no" ed="#P" n="86"/>men illam orationem proferre , et nulla alia
+          <lb ed="#P" n="87"/>uti, consilium non est, imo superstitiosum 
+          es<lb break="no" ed="#P" n="88"/>set, si tanquam necessarium observaretur.
+          <lb ed="#P" n="89"/>Unde eleganter Tertul., de Orat., c. 9: 
+          Prae<lb break="no" ed="#P" n="90"/>inissa legitima et ordinaria oratione (d est, 
+          Do<lb break="no" ed="#P" n="91"/>minica), quasi fundamento, accidentium jus est
+          <lb ed="#P" n="92"/>des ideriorum, jus est superstruendi eatrinsecus
+          <lb ed="#P" n="93"/>petitiones. Ratio imprimis esse potest, quia
+          <lb ed="#P" n="94"/>(quae est humana conditio) eadem semper
+          <lb ed="#P" n="95"/>verba proferre, taedium afferret, et 
+          attentio<lb break="no" ed="#P" n="96"/>nem ac devotionem non excitaret, varietas
+          <lb ed="#P" n="97"/>autem delectat, et recreat animum : Ea hoc
+          <lb ed="#P" n="98"/>ergo (ut ait Isidorus, lib. 1 de Divin. Off.,
+          <lb ed="#P" n="99"/>c. 9) orta est consuetudo Ecclesie uti 
+          preci<lb break="no" ed="#P" n="100"/>Lus, instar eurum quas docuit Christus. 
+          Dein<lb break="no" ed="#P" n="101"/>de, quamvis oratio illa generalia capita 
+          pe<lb break="no" ed="#P" n="102"/>tendi contineat, nihilominus sape expedit
+          <lb ed="#P" n="103"/>hoc vel illud in specie petere, et pro hac vel
+          <lb ed="#P" n="104"/>illa persona orare, et interdum immediate ad
+          <lb ed="#P" n="105"/>Deum, interdum vero per Virginem et per
+          <lb ed="#P" n="106"/>alios Sanctos, ex quibus capitibus varietas
+          <lb ed="#P" n="107"/>orationum orta est; eam ergo vitare 
+          supersti<lb break="no" ed="#P" n="108"/>tiosum esset. Alias etiam orandi formas ab
+          <lb ed="#P" n="109"/>Ecclesia receptas non probare, aut tanquam
+          <lb ed="#P" n="110"/>malas et ineptas respuere, haereticum esset.
+          <pb ed="#P" n="216"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Existimare autem nunquam expedire eis uti,
+          <lb ed="#P" n="2"/>eo quod semper melius sit orationem 
+          Domi<lb break="no" ed="#P" n="3"/>nicam recitare, plus esset quam temerarium,
+          <lb ed="#P" n="4"/>cum sit contra sensum et usum totius 
+          Eccle<lb break="no" ed="#P" n="5"/>siae. Nec semper et in omnibus 
+          circumstan<lb break="no" ed="#P" n="6"/>tiis est melius vel utilius, omne id quod de
+          <lb ed="#P" n="7"/>se est perfectius. Nam orare ex se est 
+          perfec<lb break="no" ed="#P" n="8"/>tius quam legere, et non tamen quolibet 
+          tem<lb break="no" ed="#P" n="9"/>pore et loco est melius. Sic ergo, licet Christi
+          <lb ed="#P" n="10"/>oratio et verba secundum se perfectiora sint,
+          <lb ed="#P" n="11"/>non propterea in omni loco et tempore 
+          uten<lb break="no" ed="#P" n="12"/>dum est illis, neque id semper est melius,
+          <lb ed="#P" n="13"/>quamvis caeteris paribus, et servata 
+          opportu<lb break="no" ed="#P" n="14"/>nitate, illa oratio caeteris praeferenda sit.
+        </p>
+        <p xml:id="szovsr-m05319-d1e690">
+          <lb ed="#P" n="15"/>7. Tertia assertio : non est necesse certa
+          <lb ed="#P" n="16"/>forma uti ut oratio vocalis sit honesta. — Addo
+          <lb ed="#P" n="17"/>ultimo non esse necessarium certa et 
+          prae<lb break="no" ed="#P" n="18"/>scripta forma uti, ut oratio vocalis sancta et
+          <lb ed="#P" n="19"/>honesta sit. Hoc etiam est certum, et colligi
+          <lb ed="#P" n="20"/>potest ex Scriptura, nam in Testamento 
+          ve<lb break="no" ed="#P" n="21"/>teri referuntur variae formae, et modi orandi,
+          <lb ed="#P" n="22"/>sanctarum personarum, ut Danielis, 
+          Ezechie<lb break="no" ed="#P" n="23"/>lis, Manasses, Susannae, et aliorum, qui non
+          <lb ed="#P" n="24"/>orabant secundum aliquam praescriptam 
+          for<lb break="no" ed="#P" n="25"/>mam, sed prout unicuique Spiritus Sanctus
+          <lb ed="#P" n="26"/>dictabat. David etiam in Psalmis innumeros
+          <lb ed="#P" n="27"/>orandi modos habet, et non solum res 
+          diver<lb break="no" ed="#P" n="28"/>sas, sed etiam eamdem pluribus verborum
+          <lb ed="#P" n="29"/>formulis postulare solebat. Ut maxime videre
+          <lb ed="#P" n="30"/>licet in Psalm. 118, ubi divinae legis 
+          observa<lb break="no" ed="#P" n="31"/>tionem fere singulis versibus postulat, utens
+          <lb ed="#P" n="32"/>semper diversa forma verborum : Utinaao 
+          di<lb break="no" ed="#P" n="33"/>rigantur vie mec ad custodiendas 
+          justificatio<lb break="no" ed="#P" n="34"/>nes tuas ; et iterum: Justificationes tuas 
+          cus<lb break="no" ed="#P" n="35"/>todiam , non me derelinguas usqueguaque ; et
+          <lb ed="#P" n="36"/>rursus: Penedictus es , Domine , doce me 
+          jus<lb break="no" ed="#P" n="37"/>tificationes tuas, etc. De Christo etiam 
+          Domi<lb break="no" ed="#P" n="38"/>no ex Evangelio constat , non servasse in
+          <lb ed="#P" n="39"/>orando certam verborum formam ; aliter
+          <lb ed="#P" n="40"/>enim oravit Joan. 11, Lazarum resuscitaturus,
+          <lb ed="#P" n="41"/>aliter vero in horto ad Patrem transiturus;
+          <lb ed="#P" n="42"/>imo ibi ter orans non eadem verba semper
+          <lb ed="#P" n="43"/>dixisse refertur. De Apostolis etiam legimus
+          <lb ed="#P" n="44"/>Actor. primo, orasse pro electione Matthiae,
+          <lb ed="#P" n="45"/>non ex praescripta forma, sed prout tempori,
+          <lb ed="#P" n="46"/>loco et materiae expediebat. Ratio autem est,
+          <lb ed="#P" n="47"/>quia ex natura rei licitum unicuique est voce
+          <lb ed="#P" n="48"/>orare juxta suae mentis affectum , sensum,
+          <lb ed="#P" n="49"/>vel capacitatem, et nullo jure positivo divino
+          <lb ed="#P" n="50"/>vel humano est hoc prohibitum, neque est
+          <lb ed="#P" n="51"/>praeceptum uti semper aliqua orandi forma,
+          <lb ed="#P" n="52"/>ex his quae vel in Scripturis continentur, vel
+          <lb ed="#P" n="53"/>ab Ecclesia institutae sunt ; ergo non est 
+          ne<lb break="no" ed="#P" n="54"/>cessarium ad honestatem orationis vocalis,
+          <lb ed="#P" n="55"/>ut certa forma verborum fiat. Quomodo au-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tem et de qua oratione intelligenda sit haec
+          <lb ed="#P" n="57"/>assertio, ex sequenti cap. constabit.
+        </p>
+        <p xml:id="szovsr-m05319-d1e788">
+          <lb ed="#P" n="58"/>8. Haereticorum fundamentum diruitur. —
+          <lb ed="#P" n="59"/>Fundamenta haereticorum facilem habent 
+          re<lb break="no" ed="#P" n="60"/>sponsionem. Nam Christus non dixit, Deum
+          <lb ed="#P" n="61"/>esse orandum in spiritu et veritate, quia 
+          men<lb break="no" ed="#P" n="62"/>te et non corpore orandus sit, sed quia ad
+          <lb ed="#P" n="63"/>verum Deum dirigenda est oratio, quod est
+          <lb ed="#P" n="64"/>ipsum colere in veritate, et quia ex puro 
+          cor<lb break="no" ed="#P" n="65"/>de, et desiderio placendi illi orandum est,
+          <lb ed="#P" n="66"/>quod est illum in spiritu adorare, ut ibi 
+          Pa<lb break="no" ed="#P" n="67"/>tres exporunt. Mitto Christum ibi fuisse 
+          locu<lb break="no" ed="#P" n="68"/>tum de adoratione visibili et legitima per 
+          ve<lb break="no" ed="#P" n="69"/>rum sacrificium, ut exposui 3 part., disp. 74,
+          <lb ed="#P" n="70"/>sect. 1. Tamen hinc etiam retorquetur 
+          argu<lb break="no" ed="#P" n="71"/>mentum ; nam si sacrificium dicitur fieri in
+          <lb ed="#P" n="72"/>spiritu et veritate, etiamsi actu corporali fiat,
+          <lb ed="#P" n="73"/>dummodo ex vera fide et religione fiat, 
+          ea<lb break="no" ed="#P" n="74"/>dem ratione vocalis oratio erit in spiritu et
+          <lb ed="#P" n="75"/>veritate, si ex vera fide, et gratia, et cum 
+          de<lb break="no" ed="#P" n="76"/>bita devotione, et attentione fiat. Unde Paul.
+          <lb ed="#P" n="77"/>aiebat, 1 Cor. 14: Psallam spiritu . psallam
+          <lb ed="#P" n="78"/>et mente, quamvis psallere voce fiat.
+        </p>
+        <p xml:id="szovsr-m05319-d1e837">
+          <lb ed="#P" n="79"/>9. Ratio eorumdem dissolvitur. — Ad 
+          ratio<lb break="no" ed="#P" n="80"/>nem autem haereticorum responsum jam est,
+          <lb ed="#P" n="81"/>nos non edere vocem orando, quia putemus
+          <lb ed="#P" n="82"/>Deum latere mentes nostras, neque quia
+          <lb ed="#P" n="83"/>Deus sensibiliter audiat; sed vel ut nos 
+          au<lb break="no" ed="#P" n="84"/>diamus, et ita excitemur, vel ut alii audiant
+          <lb ed="#P" n="85"/>et aedificentur, vel etiam ut illi nobiscum et
+          <lb ed="#P" n="86"/>nos cum illis oremus, vel ut nomine omnium
+          <lb ed="#P" n="87"/>oremus, ut sequenti cap. dicetur, vel denique
+          <lb ed="#P" n="88"/>ut ore et lingua Deum colamus.
+        </p>
+        <p xml:id="szovsr-m05319-d1e861">
+          <lb ed="#P" n="89"/>10. Alii haeretici convincuntur. — Ali 
+          hae<lb break="no" ed="#P" n="90"/>retici non indigent responsione, quia nullum
+          <lb ed="#P" n="91"/>afferunt fundamentum, vel supponunt alium
+          <lb ed="#P" n="92"/>errorem ab Ecclesia damnatum, nimirum in
+          <lb ed="#P" n="93"/>colendo Deum, non licere aliis ritibus aut
+          <lb ed="#P" n="94"/>verbis uti, nisi quae in Scriptura Sacra 
+          conti<lb break="no" ed="#P" n="95"/>nentur. Satis enim est ut non sint prohibita,
+          <lb ed="#P" n="96"/>si alioqui ex natura rei honesta sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

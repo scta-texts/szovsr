@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="788"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m19759"><!-- t6l1c10 -->
+        <head xml:id="szovsr-m19759-Hd1e101">Caput 10</head>
+        <head xml:id="szovsr-m19759-Hd1e103" type="question-title">Utrum ad votum sit necessaria formalis deliberatio voti in se, vel virtualis et in causa sufficiat.</head>
+        <p xml:id="szovsr-m19759-d1e106">
+          <lb ed="#P" n="10"/>CAPUT X.
+          <lb ed="#P" n="11"/>UTRUM AD VOTUM SIT NECESSARIA FORMALIS 
+          DELI<lb break="no" ed="#P" n="12"/>BERATIO VOTI IN SE, VEL VIRTUALIS ET IN
+          <lb ed="#P" n="13"/>CAUSA SUFFICIAT.
+        </p>
+        <p xml:id="szovsr-m19759-d1e117">
+          <lb ed="#P" n="14"/>1. An ad caliditatem voti necessaria sit 
+          for<lb break="no" ed="#P" n="15"/>malis deliberatio in instanti in quo emittitur.
+          <lb ed="#P" n="16"/>— In praecedenti capite praecipue explicatum
+          <lb ed="#P" n="17"/>est quae intellectus cogitatio ac consideratio
+          <lb ed="#P" n="18"/>antecedat ordinarie ad deliberandum de voto,
+          <lb ed="#P" n="19"/>priusquam fiat, et quae sit simpliciter 
+          neces<lb break="no" ed="#P" n="20"/>saria ; quae vero, ad prudentem vovendi 
+          mo<lb break="no" ed="#P" n="21"/>dum:: in hoc autem capite praecipue 
+          declaran<lb break="no" ed="#P" n="22"/>dum est, quae advertentia actualis intellectus
+          <lb ed="#P" n="23"/>necessaria sit in eomet instanti in quo votum
+          <lb ed="#P" n="24"/>fit. Et ad hoc explicandum utimur 
+          distinctio<lb break="no" ed="#P" n="25"/>ne formalis et virtualis deliberationis, qua 
+          uti<lb break="no" ed="#P" n="26"/>tur Cajetanus, in d. art. 1, et est similis illi
+          <lb ed="#P" n="27"/>quae in materia de Sacramentis dari solet de
+          <lb ed="#P" n="28"/>intentione formali et virtuali, de qua videri
+          <lb ed="#P" n="29"/>possunt dicta in 3 tom., disput. 13, sect. 3.
+          <lb ed="#P" n="30"/>Supponimus ergo, ex dictis in capite 
+          praece<lb break="no" ed="#P" n="31"/>denti, ad votum necessarium esse ut praecedat
+          <lb ed="#P" n="32"/>in intellectu deliberatio formalis de voto 
+          fa<lb break="no" ed="#P" n="33"/>ciendo, sive ordine temporis, sive saltem 
+          natu<lb break="no" ed="#P" n="34"/>rae. Difficultas ergo nunc est an necessarium
+          <lb ed="#P" n="35"/>sit, ut eadem formalis deliberatio duret usque
+          <lb ed="#P" n="36"/>ad illud instans intrinsecum (ut sic dicam), in
+          <lb ed="#P" n="37"/>quo voluntas vult obligationem voti suscipere,
+          <lb ed="#P" n="38"/>vel satis sit quod praecesserit, et virtus ejus
+          <lb ed="#P" n="39"/>maneat eo tempore in quo fit votum, quae virtus
+          <lb ed="#P" n="40"/>appellatur virtualis deliberatio.
+        </p>
+        <p xml:id="szovsr-m19759-d1e178">
+          <lb ed="#P" n="41"/>2. Prima sententia. — Prima igitur 
+          senten<lb break="no" ed="#P" n="42"/>tia esse potest, necessariam esse formalem 
+          de<lb break="no" ed="#P" n="43"/>liberationem, neque virtualem sufficere. Ita
+          <lb ed="#P" n="44"/>sentit Angel., 2 part., quaest. de Voto, 
+          articu<lb break="no" ed="#P" n="45"/>lo primo, diff. 3, cap. 2, illat. 2, et conclus.
+          <lb ed="#P" n="46"/>4, qui ita interpre'atur opinionem Richardi.
+          <lb ed="#P" n="47"/>Probatur primo, quia voluntas seu deliberatio
+          <lb ed="#P" n="48"/>in causa non sufticit ad votum, alias votum
+          <lb ed="#P" n="49"/>ebrii esset validum, cuia est voluntarium in
+          <lb ed="#P" n="50"/>causa, quod constat esse falsum; at illa est
+          <lb ed="#P" n="51"/>deliberatio virtualis; ergo. Secundo, quia qui
+          <lb ed="#P" n="52"/>jurat ex consuetudine, licet $ubito poomittat
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>cum juramento se iturum Jerusalem, si 
+          In<lb break="no" ed="#P" n="54"/>serit, etc., non obligatur voto vel juramento,
+          <lb ed="#P" n="55"/>et tamen factum est cum intentione virtuali;
+          <lb ed="#P" n="56"/>ergo. Major patet, quia sic promittens non
+          <lb ed="#P" n="57"/>habet animum promittendi, qui est de 
+          essen<lb break="no" ed="#P" n="58"/>ua voti; imo fieri potest ut, licet habeat talem
+          <lb ed="#P" n="59"/>consuetudinem, nunquam habuerit 
+          propcsi<lb break="no" ed="#P" n="60"/>tum, vel deliberationem vovendi. Minor etiam
+          <lb ed="#P" n="61"/>patet, quia ille peccat mortaliter sic jurando,
+          <lb ed="#P" n="62"/>nam illud juramentum est voluntarium, 
+          sal<lb break="no" ed="#P" n="63"/>tem in ipsa consuetudine. Tertio 
+          argumen<lb break="no" ed="#P" n="64"/>tor in hunc modum, quia voti substantia 
+          con<lb break="no" ed="#P" n="65"/>sistit in actu interno voluntatis, quo homo
+          <lb ed="#P" n="66"/>vult se obligare; ergo hic formaliter 
+          necessa<lb break="no" ed="#P" n="67"/>rius cst; ergo etiam in eodem instanti est 
+          ne<lb break="no" ed="#P" n="68"/>cessarium judicium sufficiens ad illum actum,
+          <lb ed="#P" n="69"/>quia voluntas non fertur nisi in objectum actu
+          <lb ed="#P" n="70"/>cogitatum et judicatum. Vel ergo illuljudicium
+          <lb ed="#P" n="71"/>prout tunc formaliter habetur, est sufficiens
+          <lb ed="#P" n="72"/>ut actus voluntatis sit, vel non est sufficiens.
+          <lb ed="#P" n="73"/>Si primum dicatur, illa est formalis 
+          delibera<lb break="no" ed="#P" n="74"/>tio ; si vero dicatur secundum, actus 
+          volunta<lb break="no" ed="#P" n="75"/>tis non erit sufficiens ad obligationem voti,
+          <lb ed="#P" n="76"/>etiamsi deliberatio in intellectu praecesserit.
+          <lb ed="#P" n="77"/>Probatur hoc ultimum ( caetera enim per se
+          <lb ed="#P" n="78"/>clara videntur), quia ad votum necessarium
+          <lb ed="#P" n="79"/>est liberum propositum sc obligandi, ut 
+          pro<lb break="no" ed="#P" n="80"/>batum est ; sed illud propositum non est tunc
+          <lb ed="#P" n="81"/>liberum, ut in casu supponitur; ergo non est
+          <lb ed="#P" n="82"/>sufficiens ad obligandum. Dices actum illum
+          <lb ed="#P" n="83"/>esse liberum per relationem ad praecedentem
+          <lb ed="#P" n="84"/>deliberationem. Sed contra: nam haec est 
+          li<lb break="no" ed="#P" n="85"/>bertas solum per denominationem 
+          extrinse<lb break="no" ed="#P" n="86"/>cam, quae ad moralem effectum non sufficit,
+          <lb ed="#P" n="87"/>ut patet in voluntate ebrii aut dormientis, de
+          <lb ed="#P" n="88"/>quo statim dicemus.
+        </p>
+        <p xml:id="szovsr-m19759-d1e288">
+          <lb ed="#P" n="89"/>3. Secunda sententia.— Secunda opinio est,
+          <lb ed="#P" n="90"/>sufficere virtualem deliberationem. Hanc 
+          vi<lb break="no" ed="#P" n="91"/>detur supponere Cajetan., d. art. 1. Clarius
+          <lb ed="#P" n="92"/>Navar., cap. 2, num. 206, verb. Quinto ; 
+          Ara<lb break="no" ed="#P" n="93"/>gon., d. art. 1, dub. 2, conclus. 2, in ultimis
+          <lb ed="#P" n="94"/>verbis ejus, quatenus ait, ad votum 
+          necessa<lb break="no" ed="#P" n="95"/>rium esse, quod fuerit volitum in se 
+          formali<lb break="no" ed="#P" n="96"/>ter aut virtualiter. Idem Ludov. Lopez, 1 part.
+          <lb ed="#P" n="97"/>Instruct., cap. 43, vers. 2. Et probari potest ex
+          <lb ed="#P" n="98"/>illo principio, quod illa deliberatio sufficit ad
+          <lb ed="#P" n="99"/>votum, quae sufficit ad peccandum mortaliter;
+          <lb ed="#P" n="100"/>sed deliberatio virtualis sufficit ad peccandum
+          <lb ed="#P" n="101"/>mortaliter, ut constat; ergo. Secundo, actus
+          <lb ed="#P" n="102"/>virtualiter deliberatus est perfecte humanus,
+          <lb ed="#P" n="103"/>nam sacerdos consecrans ex virtuali 
+          inten<lb break="no" ed="#P" n="104"/>tione, vel citharoedus pulsans ex vi 
+          praeceden<lb break="no" ed="#P" n="105"/>tis applicationis, actum perfeete humanum
+          <lb ed="#P" n="106"/>facit ; ergo qui vovet simili intentione, actum
+          <lb ed="#P" n="107"/>perfecte humanum facit; ergo verum votum
+          <pb ed="#P" n="789"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>emittit. Tertio, intentio virtualis sufficit ad
+          <lb ed="#P" n="2"/>sacramentum conficiendum et recipiendum,
+          <lb ed="#P" n="3"/>item ad orandum, imo ad impetrandum ; ergo
+          <lb ed="#P" n="4"/>et al vovendum sufficiet.
+        </p>
+        <p xml:id="szovsr-m19759-d1e345">
+          <lb ed="#P" n="5"/>4. Conciliantur dictee opiniones.—Quae 
+          virtua<lb break="no" ed="#P" n="6"/>lis deliberatio sit sufficiens ad votum.— Alius
+          <lb ed="#P" n="7"/>modus deliberationis virtualis. — Haec vero 
+          vi<lb break="no" ed="#P" n="8"/>dentur posse conciliari adhibita distinctione de
+          <lb ed="#P" n="9"/>virtuali deliberatione. Quaedam enim est quae
+          <lb ed="#P" n="10"/>fundatur in praecedenti deliberatione formali
+          <lb ed="#P" n="11"/>ejusdem actus, qui dicitur esse virtualiter 
+          vo<lb break="no" ed="#P" n="12"/>luntarius, seu de]iberatus ; et dicitur 
+          virtua<lb break="no" ed="#P" n="13"/>lis, quia non existit eo tempore vel momento,
+          <lb ed="#P" n="14"/>quo fit actus per illam deliberatus, licet 
+          ac<lb break="no" ed="#P" n="15"/>tualiter et formaliter praecesserit, sed 
+          mora<lb break="no" ed="#P" n="16"/>liter censetur durare et influere eo tempore in
+          <lb ed="#P" n="17"/>quo fit actio. Qui modus virtualis 
+          deliberatio<lb break="no" ed="#P" n="18"/>nis recte explicatur exemplo intentionis 
+          mi<lb break="no" ed="#P" n="19"/>nistrandi sacramentum, quae formaliter 
+          ali<lb break="no" ed="#P" n="20"/>quando praecessit, et licet in se non duret, 
+          ta<lb break="no" ed="#P" n="21"/>men esse virtualiter censetur, quando nec 
+          re<lb break="no" ed="#P" n="22"/>tractata est, nec influxus ejus omnino cessavit,
+          <lb ed="#P" n="23"/>sed ab illa adhuc movetur homo ad 
+          operan<lb break="no" ed="#P" n="24"/>dum. Simile ergo potest accidere in praesenti
+          <lb ed="#P" n="25"/>materia, si quis deliberavit votum emittere,
+          <lb ed="#P" n="26"/>aut profiteri religionem, postea vero, eo 
+          tempo<lb break="no" ed="#P" n="27"/>re ac momento quo emittit votun, disirahitur
+          <lb ed="#P" n="28"/>ab illo actuali proposito et deliberatione ; nam,
+          <lb ed="#P" n="29"/>ea distractione non obstante, censetur operari
+          <lb ed="#P" n="30"/>cum virtuali deliberatione ac proposito 
+          voven<lb break="no" ed="#P" n="31"/>di. Alio vero modo potest virtualis esse 
+          delibera<lb break="no" ed="#P" n="32"/>tio, non quia fundatur in deliberatione quae
+          <lb ed="#P" n="33"/>praecessit, sed quia ita imputatur moraliter 
+          ac<lb break="no" ed="#P" n="34"/>tus, ac si praecessisset. Ita contingit in casu de
+          <lb ed="#P" n="35"/>ebrio occidente hominem ; ille enim nunquam
+          <lb ed="#P" n="36"/>proposuit vel deliberavit de hoc formali 
+          objec<lb break="no" ed="#P" n="37"/>to, vel actu homicidii in se, sed quia deliberavit
+          <lb ed="#P" n="38"/>de causa, non adhibita sufficienti diligentia ne
+          <lb ed="#P" n="39"/>sequeretur effectus quem cavere debebat, ideo
+          <lb ed="#P" n="40"/>talis actus moraliter imputatur tanquam 
+          deli<lb break="no" ed="#P" n="41"/>beratus. Et hoc modo dicitur virtualiter 
+          deli<lb break="no" ed="#P" n="42"/>beratus in aiio.
+        </p>
+        <p xml:id="szovsr-m19759-d1e430">
+          <lb ed="#P" n="43"/>5. Posterior ergo sententia intelligenda 
+          vi<lb break="no" ed="#P" n="44"/>detur de virtuali deliberatione fundata in 
+          for<lb break="no" ed="#P" n="45"/>mali praecedente. Et in eo sensu illam suadent
+          <lb ed="#P" n="46"/>rationes ibi factae. Et addere possumus 
+          exem<lb break="no" ed="#P" n="47"/>pla : constat enim multos, ac fere omnes qui
+          <lb ed="#P" n="48"/>suscipiunt ordinem sacrum, eo tempore quo
+          <lb ed="#P" n="49"/>recipiunt ordines, non cogitare actu de voto
+          <lb ed="#P" n="50"/>castitatis emittendo, imo nec de ordine quem
+          <lb ed="#P" n="51"/>suscipiunt ; et tamen nemo dubitat quin 
+          vo<lb break="no" ed="#P" n="52"/>tum validum emittant ex virtute praecedentis
+          <lb ed="#P" n="53"/>deliberationis , cujus virtus tunc operatur.
+          <lb ed="#P" n="54"/>Idem contingere potest in professione 
+          religio<lb break="no" ed="#P" n="55"/>nis, et in emissione cujuscumque voti sim-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>plicis, maxime si exteriori voce fiat : nam in
+          <lb ed="#P" n="57"/>voto pure mentali, vix potest accidere vel 
+          co<lb break="no" ed="#P" n="58"/>gitari talis distractio, quia cum de illo 
+          forma<lb break="no" ed="#P" n="59"/>liter deliberatur, tunc subito et statim fit.
+          <lb ed="#P" n="60"/>Deinde hic modus deliberationis sufficit ad
+          <lb ed="#P" n="61"/>peccandum mortaliter per propriam et 
+          inter<lb break="no" ed="#P" n="62"/>nam culpam, vel cuipae augmentum, 
+          dum<lb break="no" ed="#P" n="63"/>modo libertas in operando duret , quamvis
+          <lb ed="#P" n="64"/>non duret actualis advertentia ad malitiam,
+          <lb ed="#P" n="65"/>et consequenter neque actualis deliberatio de
+          <lb ed="#P" n="66"/>peccato, ut peccatum est, ut latius ostenditur
+          <lb ed="#P" n="67"/>in 1. 2, quaest. 6, art. 8. Ergo eadem ratione
+          <lb ed="#P" n="68"/>sufficit ad votum, juxta principium superius
+          <lb ed="#P" n="69"/>positum.
+        </p>
+        <p xml:id="szovsr-m19759-d1e493">
+          <lb ed="#P" n="70"/>6. Ratio principalis. — Ratio denique est,
+          <lb ed="#P" n="71"/>quia in eo casu intervenit formalis voluntas
+          <lb ed="#P" n="72"/>vovendi ex propria actuali deliberatione illius,
+          <lb ed="#P" n="73"/>et illa voluntas moraliter durat, quia 
+          retracta<lb break="no" ed="#P" n="74"/>ta non est, ut supponimus, et illa est quae 
+          vir<lb break="no" ed="#P" n="75"/>tualiter influit in totam illam actionem ; ergo
+          <lb ed="#P" n="76"/>sufficit ad valorem et moralem effectum talis
+          <lb ed="#P" n="77"/>actionis. Et confirmatur, quia vix fieri potest
+          <lb ed="#P" n="78"/>ut homo aliter operetur, humano et ordinario
+          <lb ed="#P" n="79"/>modo loquendo; ad valorem autem voti ab
+          <lb ed="#P" n="80"/>homine facti, non est exigendus modus 
+          ex<lb break="no" ed="#P" n="81"/>quisitus, et praeter humanam conditionem.
+          <lb ed="#P" n="82"/>Item hac ratione homo potest obligari homini,
+          <lb ed="#P" n="83"/>etiamsi, eo tempore quo obligatur, actu non
+          <lb ed="#P" n="84"/>cogitet de tali obligatione, ut patet clare 
+          quan<lb break="no" ed="#P" n="85"/>do quis obligatur per procuratorem; nam
+          <lb ed="#P" n="86"/>postea obligatur in virtute prioris voluntatis,
+          <lb ed="#P" n="87"/>quando de re illa nihil cogitat.
+        </p>
+        <p xml:id="szovsr-m19759-d1e535">
+          <lb ed="#P" n="88"/>7. Objectio. — Solutio. — Dices, in eo casu
+          <lb ed="#P" n="89"/>votum non virtualiter tantum, sed formaliter
+          <lb ed="#P" n="90"/>etiam esse deliberatum. Patet, quia voluntas
+          <lb ed="#P" n="91"/>non dicitur deliberata nisi per 
+          denominatio<lb break="no" ed="#P" n="92"/>nem a praecedenti deliberatione intellectus;
+          <lb ed="#P" n="93"/>sed illa deliberatio, quae praecessit, formalis
+          <lb ed="#P" n="94"/>fuit, et voluntas illa non denominatur 
+          delibe<lb break="no" ed="#P" n="95"/>rata a.judicio solo, quod cum illa simul est,
+          <lb ed="#P" n="96"/>sed a collatione et resolutione quae praecessit,
+          <lb ed="#P" n="97"/>et fuit formalis deliberatio, ex qua illa 
+          volun<lb break="no" ed="#P" n="98"/>tas originem ducit. Respondeo primo, hoc
+          <lb ed="#P" n="99"/>pertinere ad quaestioncm de nomine; nam
+          <lb ed="#P" n="100"/>quod in re intendimus, solum est, non 
+          opor<lb break="no" ed="#P" n="101"/>tere ut actualis deliberatio fermaliter sit 
+          quan<lb break="no" ed="#P" n="102"/>do fit votum, et licet sit ab illa, tamen quia non
+          <lb ed="#P" n="103"/>est ab illa formaliter existente, sed virtute,
+          <lb ed="#P" n="104"/>ideo virtualis denominatur. Secundo, concedi
+          <lb ed="#P" n="105"/>potest voluntatem illam, a qua principaliter
+          <lb ed="#P" n="106"/>nascitur obligatio talis voti, esse formaliter
+          <lb ed="#P" n="107"/>deliberatam, licet voluntas illa quae adest,
+          <lb ed="#P" n="108"/>quando votum perficitur, solum sit 
+          virtuali<lb break="no" ed="#P" n="109"/>ter deliberata. Quod magis in sequentibus 
+          de<lb break="no" ed="#P" n="110"/>clarabitur.
+        </p>
+        <p xml:id="szovsr-m19759-d1e587">
+          <pb ed="#P" n="790"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>8. Si non praecessit formalis deliberatio 
+          ip<lb break="no" ed="#P" n="2"/>sius voti in se, non sufficit ad valorem illius
+          <lb ed="#P" n="3"/>virtualis deliberatio in causa. — Secundo 
+          er<lb break="no" ed="#P" n="4"/>go dicendum est juxta priorem sententiam, si
+          <lb ed="#P" n="5"/>non praecessit formalis deliberatio, et formale
+          <lb ed="#P" n="6"/>propositum deliberatum ipsius voti in se, non
+          <lb ed="#P" n="7"/>sufficere ad valorem voti virtualem 
+          delibera<lb break="no" ed="#P" n="8"/>tionem in causa, seu per moralem 
+          imputatio<lb break="no" ed="#P" n="9"/>nem. Probatur unica ratione jam insinuata,
+          <lb ed="#P" n="10"/>quia ad vovendum necessaria est formalis 
+          vo<lb break="no" ed="#P" n="11"/>luntas se obligandi voto, quae in se ac 
+          forma<lb break="no" ed="#P" n="12"/>liter libera sit, et ad illud objectum in se 
+          ter<lb break="no" ed="#P" n="13"/>minetur cum sufficienti notitia illius, sive haec
+          <lb ed="#P" n="14"/>voluntas actu duret quando fit votum, sive
+          <lb ed="#P" n="15"/>tantum ejus virtus; ergo nisi praecesserit 
+          de<lb break="no" ed="#P" n="16"/>liberatio circa talem voluntatem, non potest
+          <lb ed="#P" n="17"/>votum esse validum, cum voluntas illa debeat
+          <lb ed="#P" n="18"/>esse deliberata. Consequentia nota est, et 
+          an<lb break="no" ed="#P" n="19"/>tecedens patet, quia obligatio voti non est
+          <lb ed="#P" n="20"/>ex his, quae involuntarie oriri solent ex 
+          actio<lb break="no" ed="#P" n="21"/>nibus hominis (ut est obligatio satisfaciendi
+          <lb ed="#P" n="22"/>ex injuria orta, vel ad poenam ex culpa), sed
+          <lb ed="#P" n="23"/>est obligatio omnino voluntaria ; ergo non
+          <lb ed="#P" n="24"/>contrahitur per moralem imputationem, sed
+          <lb ed="#P" n="25"/>per directam voluntatem. Quod etiam videre
+          <lb ed="#P" n="26"/>licet in omni morali obligatione unius 
+          homi<lb break="no" ed="#P" n="27"/>nis ad alium. Et ratio a priori est, quia ad
+          <lb ed="#P" n="28"/>contrahendam obligationem non satis est 
+          vo<lb break="no" ed="#P" n="29"/>luntas proferendi verba promissionis, sed 
+          ne<lb break="no" ed="#P" n="30"/>cessaria est voluntas promittendi et se 
+          obli<lb break="no" ed="#P" n="31"/>gandi, ut ex supra dictis constat. At vero, 
+          li<lb break="no" ed="#P" n="32"/>cet prolatiio talium verborum possit esse 
+          vo<lb break="no" ed="#P" n="33"/>luntaria indirecte, seu virtualiter in causa,
+          <lb ed="#P" n="34"/>nihilominus, ut est formalis promissio, et vim
+          <lb ed="#P" n="35"/>habet obligandi, non potest esse voluntaria
+          <lb ed="#P" n="36"/>virtualiter, nisi virtute alicujus formalis 
+          vo<lb break="no" ed="#P" n="37"/>luntatis ac deliberationis quae praecesserit,
+          <lb ed="#P" n="38"/>quia, ut obligatoria sunt illa verba, non 
+          conti<lb break="no" ed="#P" n="39"/>nentur in aliis causis, nisi formaliter, ut talia
+          <lb ed="#P" n="40"/>sunt, intendantur. Quod magis declarabitur
+          <lb ed="#P" n="41"/>descendendo ad particulares casus in 
+          funda<lb break="no" ed="#P" n="42"/>mentis prioris sententiae insinuatos.
+        </p>
+        <p xml:id="szovsr-m19759-d1e686">
+          <lb ed="#P" n="43"/>9. Dubium an votum in ebrietate sit calidum
+          <lb ed="#P" n="44"/>ante illam pravisum. — Ad volum non 
+          suffi<lb break="no" ed="#P" n="45"/>cere proferre verba promissionis, sed necesse
+          <lb ed="#P" n="46"/>est velle se obligare sub ratione promissionis.
+          <lb ed="#P" n="47"/>— In priori ergo proponebatur casus de illo,
+          <lb ed="#P" n="48"/>qui emittit votum in ebrietate, quod ante
+          <lb ed="#P" n="49"/>ebrietatem praeviderat. In quo aliqui 
+          conce<lb break="no" ed="#P" n="50"/>dunt tale votum esse validum, quia est 
+          suffi<lb break="no" ed="#P" n="51"/>cienter voluntarium in causa, licet in se non
+          <lb ed="#P" n="52"/>fuerit volitum. Fundanturque in illo principio,
+          <lb ed="#P" n="53"/>quod voluntarium sufficiens ad peccatum 
+          mor<lb break="no" ed="#P" n="54"/>tale sufficit etiam ad votum ; illud autem 
+          vo<lb break="no" ed="#P" n="55"/>luntarium sufficit ad mortaliter peccandum.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Sed proculdubio errant, illoque principio 
+          abu<lb break="no" ed="#P" n="57"/>tuntur, neque auctores secunda sententiae
+          <lb ed="#P" n="58"/>hoc concedunt, sed expresse negant. Et patet,
+          <lb ed="#P" n="59"/>quia imprimis in controversia est an 
+          homici<lb break="no" ed="#P" n="60"/>dium in ebrietate commissum, etiamsi 
+          praevi<lb break="no" ed="#P" n="61"/>sum fuerit, dicendum sit peccatum, vel 
+          tan<lb break="no" ed="#P" n="62"/>tum effectus peccati praeteriti. Nam hoc 
+          poste<lb break="no" ed="#P" n="63"/>rius multi probabiliter defendunt, de quo 
+          la<lb break="no" ed="#P" n="64"/>uus in 1. 2. Deinde indubitatum est in illo
+          <lb ed="#P" n="65"/>actu non esse novam culpam, nec novum 
+          de<lb break="no" ed="#P" n="66"/>meritum apud Deum, sed ad summum esse
+          <lb ed="#P" n="67"/>novum actum externum, qui denominatur
+          <lb ed="#P" n="68"/>peccatum ab interiori voluntate, et culpa quae
+          <lb ed="#P" n="69"/>praecessit, et cum illa constituit unum 
+          pecca<lb break="no" ed="#P" n="70"/>tum, quod non habet aliam vel novam 
+          mali<lb break="no" ed="#P" n="71"/>tiam, praeter eam quae fuit in voluntate 
+          prae<lb break="no" ed="#P" n="72"/>cedente ; ergo ibi non est sufficiens voluntas
+          <lb ed="#P" n="73"/>ad peccandum de novo; ergo neque ad 
+          voven<lb break="no" ed="#P" n="74"/>dum. Unde axioma illud, deliberationem 
+          suf<lb break="no" ed="#P" n="75"/>ficientem ad peccandum mortaliter sufficere
+          <lb ed="#P" n="76"/>ad vovendum, intelligendum est in ordine ad
+          <lb ed="#P" n="77"/>ipsam voluntatem internam, non in ordine
+          <lb ed="#P" n="78"/>ad denominationem actus externi. 
+          Intelligen<lb break="no" ed="#P" n="79"/>da etiam est cum proportione , comparando,
+          <lb ed="#P" n="80"/>scilicet, voluntatem peccandi ad voluntatem
+          <lb ed="#P" n="81"/>vovendi, quae alias ex objectis sufficiunt ad
+          <lb ed="#P" n="82"/>peccandum, vel ad vovendum ; sic enim 
+          deli<lb break="no" ed="#P" n="83"/>beratio intellectus, quae ad unam fuerit 
+          suffi<lb break="no" ed="#P" n="84"/>ciens, erit etiam ad aliam. Tamen in objectis
+          <lb ed="#P" n="85"/>est differentia, nam ad peccandum non est 
+          ne<lb break="no" ed="#P" n="86"/>cesse velle formaliter malitiam, neque actum
+          <lb ed="#P" n="87"/>ut malum, sed satis est velle actum cui 
+          con<lb break="no" ed="#P" n="88"/>juncta est malitia; ad votum autem non 
+          sa<lb break="no" ed="#P" n="89"/>tis est velle proferre verba promissionis, sed
+          <lb ed="#P" n="90"/>necessarium est velle aliquo modo sub ratione
+          <lb ed="#P" n="91"/>promissionis seu obligationis. Et sic etiam 
+          lo<lb break="no" ed="#P" n="92"/>cum habet quod alii dicunt, malum imputari
+          <lb ed="#P" n="93"/>ex quocumque defectu ; votum autem, utpote
+          <lb ed="#P" n="94"/>bonum, requirere perfectiorem voluntatem,
+          <lb ed="#P" n="95"/>et ideo non induci ex sola indirecta voluntate
+          <lb ed="#P" n="96"/>in causa circa prolationem verborum 
+          promis<lb break="no" ed="#P" n="97"/>sionis, sed postulare aliquam propriam 
+          volun<lb break="no" ed="#P" n="98"/>tatem promittendi, et se obligandi.
+        </p>
+        <p xml:id="szovsr-m19759-d1e812">
+          <lb ed="#P" n="99"/>10. Eaxpenditur dubium de voto ab ebrio
+          <lb ed="#P" n="100"/>emisso.—CQuocirca duobus modis potuit se 
+          ha<lb break="no" ed="#P" n="101"/>bere circa votum, qui ante ebrietatem 
+          praevi<lb break="no" ed="#P" n="102"/>dit se solere in ebrietate vota emittere. Primo,
+          <lb ed="#P" n="103"/>ut illud praevidens non habuerit voluntatem
+          <lb ed="#P" n="104"/>se obligandi. neque ullam aliam circa votum,
+          <lb ed="#P" n="105"/>sed solum promissionem aliquam tacitam vel
+          <lb ed="#P" n="106"/>expressam proferendi verba promissoria 
+          tem<lb break="no" ed="#P" n="107"/>pore ebrietatis. Secundo modo potuit ita se
+          <lb ed="#P" n="108"/>habere, ut velit valide vovere et se obligare, si
+          <lb ed="#P" n="109"/>verba promissoria ebrius proferat. In hoc 
+          pos<lb break="no" ed="#P" n="110"/>teriori casu admitto illum manere obligatum ;
+          <pb ed="#P" n="791"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>neque est contra positam assertionem, quia
+          <lb ed="#P" n="2"/>jam supponitur habere vel habuisse 
+          volunta<lb break="no" ed="#P" n="3"/>tem formalem se obligandi. Unde in eo casu
+          <lb ed="#P" n="4"/>votum quoad substantiam factum est ante
+          <lb ed="#P" n="5"/>ebrietatem, fuit tamen veluti conditionatum,
+          <lb ed="#P" n="6"/>seu poenale, nimirum si promissionis verba in
+          <lb ed="#P" n="7"/>ebrietate proferret ; et ideo obligatio non fuit
+          <lb ed="#P" n="8"/>orta donec impleretur conditio. Neque enim
+          <lb ed="#P" n="9"/>repugnat votum fieri sub tali conditione, quae
+          <lb ed="#P" n="10"/>postea non pendeat ex nova libertate voventis,
+          <lb ed="#P" n="11"/>ut, Si Deus mea tali periculo liberarit, vel, Si
+          <lb ed="#P" n="12"/>pater consenserit. Estque optimum 
+          exem<lb break="no" ed="#P" n="13"/>plum, si quis ita voveat: Si quempiam in
+          <lb ed="#P" n="14"/>ebrietate occidam, nunquam amplius vinum
+          <lb ed="#P" n="15"/>bibam ; non est enim dubium quin ex tali voto
+          <lb ed="#P" n="16"/>impleta conditione oriatur obligatio.
+        </p>
+        <p xml:id="szovsr-m19759-d1e880">
+          <lb ed="#P" n="17"/>11. Aliquorum responsio. — Conditio 
+          requi<lb break="no" ed="#P" n="18"/>sita ad voluntarium indirectum. — At vero si
+          <lb ed="#P" n="19"/>ebrius se gessit primo modo, impossibile est
+          <lb ed="#P" n="20"/>talem promissionem esse validam, aut ex illa
+          <lb ed="#P" n="21"/>oriri obligationem. Ratio est, quia sola 
+          prola<lb break="no" ed="#P" n="22"/>tio verbi promissorii, sine voluntate vovendi
+          <lb ed="#P" n="23"/>vel se obligandi, non inducit obligationem,
+          <lb ed="#P" n="24"/>neque est votum ; in eo autem casu solum 
+          in<lb break="no" ed="#P" n="25"/>venitur prolatio exterior, et ex parte 
+          volunta<lb break="no" ed="#P" n="26"/>tis tantum est promissio quaedam proferendi
+          <lb ed="#P" n="27"/>illa verba, vel ad summum (ut id gratis 
+          de<lb break="no" ed="#P" n="28"/>mus) est veluntas virtualis illa verba 
+          profe<lb break="no" ed="#P" n="29"/>rendi. Neutrum autem horum (si amplius non
+          <lb ed="#P" n="30"/>addatur) sufficit ad votum, quia etiam 
+          volun<lb break="no" ed="#P" n="31"/>tas formalis proferendi verba, si non adsit 
+          vo<lb break="no" ed="#P" n="32"/>luntas vovendi aut se obligandi, non sufficit
+          <lb ed="#P" n="33"/>ad votum, ut supra ostensum est. Dicunt 
+          ali<lb break="no" ed="#P" n="34"/>qui voluntatem proferendi verba promissoria,
+          <lb ed="#P" n="35"/>dummodo non habeat conjunctam volitionem
+          <lb ed="#P" n="36"/>non vovendi aut se obligandi, sufficere ad 
+          vo<lb break="no" ed="#P" n="37"/>tum, etiamsi non adsit positiva voluntas 
+          vo<lb break="no" ed="#P" n="38"/>vendi, aut se obligandi, et hoc modo se habere
+          <lb ed="#P" n="39"/>ebrium in illo casu. Sed illud falsum est, nam
+          <lb ed="#P" n="40"/>voluntas proferendi verba valde materialis est,
+          <lb ed="#P" n="41"/>nisi adsit animus vovendi aut se obligandi.
+          <lb ed="#P" n="42"/>Qui licet exterius praesumi possit , quando
+          <lb ed="#P" n="43"/>contrarium non exprimitur , re tamen vera
+          <lb ed="#P" n="44"/>est quid diversum, et aliquid amplius in 
+          vo<lb break="no" ed="#P" n="45"/>luntate requirit, quam voluntariam 
+          prolatio<lb break="no" ed="#P" n="46"/>nem verborum, ut supra ostensum est ; et 
+          evi<lb break="no" ed="#P" n="47"/>dentius constat, quando hoc voluntarium tam
+          <lb ed="#P" n="48"/>remotum est et indirectum, quantum est in
+          <lb ed="#P" n="49"/>ebrio, in quo in ordine ad votum magis potest
+          <lb ed="#P" n="50"/>censeri permissio quam voluntas, ut dicebam.
+          <lb ed="#P" n="51"/>Declaratur , quia ut hujusmodi indirectum
+          <lb ed="#P" n="52"/>voluntarium tale censeatur, necesse est ut
+          <lb ed="#P" n="53"/>praeter praevisionem effectus teneatur quis 
+          vi<lb break="no" ed="#P" n="54"/>tare causam, ne talis effectus sequatur. Hle
+          <lb ed="#P" n="55"/>autem qui praevidit se solere tempore ebrie-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatis dicere verba promissionis, non videtur
+          <lb ed="#P" n="57"/>teneri ad vitandam ebrietatem intuitu voti;
+          <lb ed="#P" n="58"/>quia verba illa parvi momenti sunt ad votum,
+          <lb ed="#P" n="59"/>si non adsit alia voluntas ( et ideo dicam, 
+          il<lb break="no" ed="#P" n="60"/>lam potius esse permissionem quam 
+          volun<lb break="no" ed="#P" n="61"/>tatem in ordine ad votum ). Quamvis propter
+          <lb ed="#P" n="62"/>reverentiam divini nominis videatur quis 
+          te<lb break="no" ed="#P" n="63"/>neri ad vitandam occasionem proferendi talia
+          <lb ed="#P" n="64"/>verba, et sub ea ratione censeri possent 
+          indi<lb break="no" ed="#P" n="65"/>recte volita seu voluntaria, scilicet, ut 
+          verbo<lb break="no" ed="#P" n="66"/>rum prolatio aliquam irreverentiam in Deum
+          <lb ed="#P" n="67"/>continet. Unde si quis praevideat se in somno
+          <lb ed="#P" n="68"/>solere proferre talia verba, et nihil de illis 
+          cu<lb break="no" ed="#P" n="69"/>ret, neque habeat positivam volitionem se 
+          ob<lb break="no" ed="#P" n="70"/>ligandi, nec vovebit quicquam, nec peccabit,
+          <lb ed="#P" n="71"/>quia non tenetur vitare causam illam, ne talis
+          <lb ed="#P" n="72"/>effectus sequatur. Ex quibus a fortiori 
+          sequi<lb break="no" ed="#P" n="73"/>tur, quotiescumque ante ebrietatem non 
+          prae<lb break="no" ed="#P" n="74"/>videtur directe talis effectus, multo minus 
+          pos<lb break="no" ed="#P" n="75"/>se oriri voti obligationem, sive talis effectus
+          <lb ed="#P" n="76"/>potuerit praevideri, sive non; quia ubi non 
+          in<lb break="no" ed="#P" n="77"/>tercedit directa cognitio, nec directa voluntas
+          <lb ed="#P" n="78"/>esse potest ; ostensum est autem sine tali 
+          vo<lb break="no" ed="#P" n="79"/>luntate non posse in eo casu oriri voti 
+          obliga<lb break="no" ed="#P" n="80"/>tionem; ergo.
+        </p>
+        <p xml:id="szovsr-m19759-d1e1023">
+          <lb ed="#P" n="81"/>12. Dubium an validum sit cotum 
+          promit<lb break="no" ed="#P" n="82"/>tentis cum juramento, aut coventis em 
+          consue<lb break="no" ed="#P" n="83"/>tudine sine actuali advertentia.—In secundo
+          <lb ed="#P" n="84"/>fundamento prioris sententiae tangitur 
+          difficul<lb break="no" ed="#P" n="85"/>tas de promittente cum juramento, seu 
+          voven<lb break="no" ed="#P" n="86"/>te ex quadam consuetudine, sine actuali 
+          ad<lb break="no" ed="#P" n="87"/>vertentia ejus quod agit, quando sic jurat.
+          <lb ed="#P" n="88"/>Circa quam Cajetanus supra videtur sentire,
+          <lb ed="#P" n="89"/>deliberationem illam virtualem, quae ratione
+          <lb ed="#P" n="90"/>consuetudinis imputatur, sufficere ad valorem
+          <lb ed="#P" n="91"/>voti. Nam de illo qui operatur ex 
+          consuetu<lb break="no" ed="#P" n="92"/>dine, ait quod, licet non deliberet actualiter
+          <lb ed="#P" n="93"/>neque forte unquam deliberaverit uti tali 
+          con<lb break="no" ed="#P" n="94"/>suetudine, nihilominus ex collatione seu 
+          deli<lb break="no" ed="#P" n="95"/>beratione virtualiter operatur, quia non curat
+          <lb ed="#P" n="96"/>de collatione, sed ita acceptat opus illud, ac
+          <lb ed="#P" n="97"/>si contulisset. Et quamvis Cajetanus non
+          <lb ed="#P" n="98"/>applicet illam doctrinam ad votum , nec
+          <lb ed="#P" n="99"/>dicat expresse illum modum deliberationis
+          <lb ed="#P" n="100"/>ad votum suffticere, videtur tamen id senti
+          <lb ed="#P" n="101"/>re, nam ad hunc finem illam doctrinam 
+          ad<lb break="no" ed="#P" n="102"/>ducit.
+        </p>
+        <p xml:id="szovsr-m19759-d1e1073">
+          <lb ed="#P" n="103"/>13. HResolutio dubii negativa. —Ego vero
+          <lb ed="#P" n="104"/>existimo, verba promissionis cum juramento
+          <lb ed="#P" n="105"/>prolata, vel per modum voti sine actuali 
+          ad<lb break="no" ed="#P" n="106"/>vertentia , et sine praecedenti deliberatione
+          <lb ed="#P" n="107"/>formali sic vovendi, non esse vera vota, 
+          ne<lb break="no" ed="#P" n="108"/>que valida, propter solam consuetudinem 
+          pro<lb break="no" ed="#P" n="109"/>ferendi similia juramenta vel vota, si eis non
+          <lb ed="#P" n="110"/>praebeat alium consensum, praeter illum in-
+          <pb ed="#P" n="792"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>directum, qui colligi potest ex negligentia 
+          tol<lb break="no" ed="#P" n="2"/>lendi talem consuetudinem. Quia de hoc fere
+          <lb ed="#P" n="3"/>cadem ratio est quae de voto emisso ab ebrio
+          <lb ed="#P" n="4"/>nam sicut ebrius profert exteriora verba, ita
+          <lb ed="#P" n="5"/>in eo casu consuetudo illa solum est causa
+          <lb ed="#P" n="6"/>proferendi talia verba sine advertentia, et 
+          vo<lb break="no" ed="#P" n="7"/>luntate per se sufficiente ad inducendam voti
+          <lb ed="#P" n="8"/>obligationem. Negligentia ergo in tollenda
+          <lb ed="#P" n="9"/>consuetudine ad summum potest efficere, ut
+          <lb ed="#P" n="10"/>externa illa prolatio verborum sit aliquo 
+          mo<lb break="no" ed="#P" n="11"/>do permissa vel voluntaria, quatenus potest
+          <lb ed="#P" n="12"/>esse peccaminosa propter irreverentiam ali
+          <lb ed="#P" n="13"/>quam ; non tamen potest efficere ut illud 
+          vo<lb break="no" ed="#P" n="14"/>tum validum sit, quia nunquam facit ut sit
+          <lb ed="#P" n="15"/>ex deliberata et formali voluntate se 
+          obli<lb break="no" ed="#P" n="16"/>gandi, quae vel tunc existat, vel praecesserit,
+          <lb ed="#P" n="17"/>et virtute tunc maneat, quod tainen 
+          necessa<lb break="no" ed="#P" n="18"/>rium est, ut explicui. Et confirmari hoc 
+          po<lb break="no" ed="#P" n="19"/>test ex his quae de consuetudine pejerandi in
+          <lb ed="#P" n="20"/>praecedenti tractatu, lib. 3, cap. 5, dicta sunt,
+          <lb ed="#P" n="21"/>nimirum, si perjurium fiat sine actuali 
+          adver<lb break="no" ed="#P" n="22"/>tentia sufficiente ad actum humanum, licet
+          <lb ed="#P" n="23"/>fiat ex consuetudine, non esse novum 
+          pecca<lb break="no" ed="#P" n="24"/>tum, sed ad summum ita denominari per 
+          mo<lb break="no" ed="#P" n="25"/>dum actus exterioris a praecedenti voluntate
+          <lb ed="#P" n="26"/>in causa, et ideo eamdem esse rationem de
+          <lb ed="#P" n="27"/>tali peccato, quae de peccato ebrii; ergo etiam
+          <lb ed="#P" n="28"/>in ordine ad votum eadem est ratio. Oportet
+          <lb ed="#P" n="29"/>autem advertere, quod ibidem notavi, 
+          inter<lb break="no" ed="#P" n="30"/>dum consuetudinem non tollere actualem 
+          ad<lb break="no" ed="#P" n="31"/>vertentiam, sed potius excitare illam; et tunc
+          <lb ed="#P" n="32"/>si id contingat, neque juramentum, neque 
+          vo<lb break="no" ed="#P" n="33"/>tum posse dici indeliberatum formaliter, quia
+          <lb ed="#P" n="34"/>illa advertentia, licet brevissimo tempore fiat,
+          <lb ed="#P" n="35"/>esse potest ad deliberandum sufficiens, et ideo
+          <lb ed="#P" n="36"/>potest etiam sufficere ad valorem voti. Nos
+          <lb ed="#P" n="37"/>autem loquimur, quando rapit linguam 
+          prius<lb break="no" ed="#P" n="38"/>quam ratio advertere possit; tunc enim non
+          <lb ed="#P" n="39"/>credimus fieri votum, nisi formalis voluntas
+          <lb ed="#P" n="40"/>praecesserit, modo circa ebrium declarato.
+          <lb ed="#P" n="41"/>14. Dulium ultimum.—ln tertio 
+          fundamen<lb break="no" ed="#P" n="42"/>to posito pro priori sententia, plus videtur 
+          es<lb break="no" ed="#P" n="43"/>se difficultatis, quia videtur etiam urgere
+          <lb ed="#P" n="44"/>contra nostram priorem assertionem , et in
+          <lb ed="#P" n="45"/>universum probare, nunquam fieri posse 
+          vo<lb break="no" ed="#P" n="46"/>tum validum, nis, in eo instanti seu tempore
+          <lb ed="#P" n="47"/>quo votum emittitur, sit actualis advertentia
+          <lb ed="#P" n="48"/>intellectus sufficiens ad humanum actum 
+          sa<lb break="no" ed="#P" n="49"/>tis deliberatum, et ad peccandum mortaliter,
+          <lb ed="#P" n="50"/>non exterius tantum, vel per 
+          denominatio<lb break="no" ed="#P" n="51"/>nem a praecedenti actu, sed etiam interius
+          <lb ed="#P" n="52"/>in novo actu ipsius voluntatis. Probatur hoc,
+          <lb ed="#P" n="53"/>quia votum consistit in voluntate deliberata
+          <lb ed="#P" n="54"/>se obligandi Deo; haec autem non fuit antea,
+          <lb ed="#P" n="55"/>sed tunc primo habetur cum fit votum ; ergo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tunc debet esse sufficienter libera et humana;
+          <lb ed="#P" n="57"/>ergo requirit actualem advertentiam, alioquin
+          <lb ed="#P" n="58"/>non erit in se libera, sed ad summum per 
+          de<lb break="no" ed="#P" n="59"/>nominationem ab aliquo actu praeterito , quod
+          <lb ed="#P" n="60"/>non satis est, ut proxime dictum est; ergo
+          <lb ed="#P" n="61"/>semper requiritur ad votum actualis ac 
+          forma<lb break="no" ed="#P" n="62"/>lis deliberatio. Declaraturque difficultas ex 
+          dif<lb break="no" ed="#P" n="63"/>ferentia, verbi gratia, inter votum et 
+          sacra<lb break="no" ed="#P" n="64"/>mentum; nam sacramentum consistit in ipso
+          <lb ed="#P" n="65"/>actu exteriori; et ideo virtualis intentio ex
+          <lb ed="#P" n="66"/>formali praecedente sufficere potest ad 
+          sacra<lb break="no" ed="#P" n="67"/>mentum efficiendum ; at votum consistit in
+          <lb ed="#P" n="68"/>ipso actu interno voluntatis, saltem quoad 
+          ra<lb break="no" ed="#P" n="69"/>tionem obligationis, ut partim dictum est,
+          <lb ed="#P" n="70"/>partim in sequentibus dicetur. Et ideo 
+          neces<lb break="no" ed="#P" n="71"/>sarium videtur ut in eodem momento, in quo
+          <lb ed="#P" n="72"/>concipitur voluntas inducens oblgationem
+          <lb ed="#P" n="73"/>voti, sit in intellectu actualis consideratio, et
+          <lb ed="#P" n="74"/>advertentia sufficiens ad propriam et 
+          intrin<lb break="no" ed="#P" n="75"/>secam libertatem, et moralitatem talis 
+          volun<lb break="no" ed="#P" n="76"/>tatis ; hoc autem est talem votuntatem esse
+          <lb ed="#P" n="77"/>formaliter deliberatam ; ergo semper talis 
+          ne<lb break="no" ed="#P" n="78"/>cessaria est ad vovendum.
+        </p>
+        <p xml:id="szovsr-m19759-d1e1268">
+          <lb ed="#P" n="79"/>15. Non posse votum fieri absque aliqua
+          <lb ed="#P" n="80"/>voluntate formaliter deliberata vovendi, seu
+          <lb ed="#P" n="81"/>obligandi se Deo.—Hsaec ratio apud me 
+          convin<lb break="no" ed="#P" n="82"/>cit, non posse votum fieri sine aliqua 
+          volun<lb break="no" ed="#P" n="83"/>tate formaliter deliberata vovendi, seu se 
+          obli<lb break="no" ed="#P" n="84"/>candi Deo, ita ut ratio suflficienter advertat
+          <lb ed="#P" n="85"/>ad hoc objectum, quando voluntas habet illum
+          <lb ed="#P" n="86"/>actum in cujus virtute obligatur. Haec autem
+          <lb ed="#P" n="87"/>determinatio voluntatis dupliciter haberi 
+          po<lb break="no" ed="#P" n="88"/>test, primo, ita ut per tale propositum statim
+          <lb ed="#P" n="89"/>fiat votum, et tunc concedo semper esse 
+          ne<lb break="no" ed="#P" n="90"/>cessariam actualem ac formalem advertentiam
+          <lb ed="#P" n="91"/>cum judicio sufficienter continente 
+          delibera<lb break="no" ed="#P" n="92"/>tionem. Poterit autem ante illud tempus 
+          prae<lb break="no" ed="#P" n="93"/>cedere collatio et recogitatio quae per 
+          discur<lb break="no" ed="#P" n="94"/>sum fit, et quoad illam poterit dici 
+          delibe<lb break="no" ed="#P" n="95"/>ratio illa virtualis, quia virtute continetur in
+          <lb ed="#P" n="96"/>judicio, quod voluntatem nune movet ad 
+          vo<lb break="no" ed="#P" n="97"/>vendum. Tamen quoad ipsum judicium 
+          deli<lb break="no" ed="#P" n="98"/>beratio est formalis et actualis, ut probat 
+          ra<lb break="no" ed="#P" n="99"/>tio facta. Secundo vero modo potest haberi
+          <lb ed="#P" n="100"/>determinatio vovendi in voluntate cum 
+          ordi<lb break="no" ed="#P" n="101"/>ne et dependentia ad futurum actum, quod
+          <lb ed="#P" n="102"/>maxime contingit in votis quae exterius fiunt,
+          <lb ed="#P" n="103"/>et donec verba proferantur, non censentur 
+          fa<lb break="no" ed="#P" n="104"/>cta nec obligare; statim vero ac verba 
+          profe<lb break="no" ed="#P" n="105"/>runtur, facta sunt et obligant. Et tunc dico
+          <lb ed="#P" n="106"/>praecedere in voluntate determinationem 
+          vo<lb break="no" ed="#P" n="107"/>vendi per talia verba, prolata communi et 
+          or<lb break="no" ed="#P" n="108"/>dinario modo: et ideo etiamsi fortasse 
+          profe<lb break="no" ed="#P" n="109"/>rantur sine actuali intentione, nihilominus
+          <lb ed="#P" n="110"/>per illa fieri votum in vi prioris deliberatio-
+          <pb ed="#P" n="793"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nis ac determinationis. Et in hoc sensu 
+          acci<lb break="no" ed="#P" n="2"/>piendum est, cum dicitur tunc fieri votum
+          <lb ed="#P" n="3"/>cum sola determinatione virtuali, utique 
+          com<lb break="no" ed="#P" n="4"/>paratione ad votum externum, et ad 
+          obligatio<lb break="no" ed="#P" n="5"/>nem quae tunc de novo insurgit; re tamen
+          <lb ed="#P" n="6"/>vera tota haec obligatio nascitur ex priori 
+          vo<lb break="no" ed="#P" n="7"/>luntate, quae formaliter fuit deliberata. 
+          Vi<lb break="no" ed="#P" n="8"/>detur autem fuisse quasi conditionata, seu 
+          sus<lb break="no" ed="#P" n="9"/>pendens obligationem, donec votum exterius
+          <lb ed="#P" n="10"/>fieret, et ideo facto postea exteriori voto sine
+          <lb ed="#P" n="11"/>interiori advertentia actuali, incipit valere
+          <lb ed="#P" n="12"/>votum et obligatio ejus. Et ita res est clara,
+          <lb ed="#P" n="13"/>et difficultas expedita.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

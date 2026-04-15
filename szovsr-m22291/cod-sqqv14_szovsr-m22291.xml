@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="889"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m22291"><!-- t6l3prae -->
+        <head xml:id="szovsr-m22291-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m22291-d1e103">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="17"/>LIBER TERTIUS
+          <lb ed="#P" n="18"/>DE PERSONIS
+          <lb ed="#P" n="19"/>QUAE VOVERE POSSUNT.
+        </p>
+        <p xml:id="szovsr-m22291-d1e114">
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="20"/>Ex causis voti sola efficiens explicanda 
+          su<lb break="no" ed="#P" n="21"/>perest, ut ex initio libri praecedentis constat.
+          <lb ed="#P" n="22"/>In causa autem efficienti considerari potest vel
+          <lb ed="#P" n="23"/>facultas proxima , per quam votum efficitur,
+          <lb ed="#P" n="24"/>vel persona. De facultate in libro primo dictum
+          <lb ed="#P" n="25"/>est, explicando ipsummet actum voti, quia 
+          si<lb break="no" ed="#P" n="26"/>ne habitudine ad facultatem suam explicari
+          <lb ed="#P" n="27"/>non poterat. Ibi ergo declaratum est quomodo
+          <lb ed="#P" n="28"/>votum, ut in anima existit, voluntate et 
+          intel<lb break="no" ed="#P" n="29"/>lectu perficiatur ; exterius autem constat fieri
+          <lb ed="#P" n="30"/>ore, per se loquendo, vel scripto, aut 
+          aequiva<lb break="no" ed="#P" n="31"/>lenti signo. De hoc ergo principio proximo 
+          ni<lb break="no" ed="#P" n="32"/>hil est quod dicamus; neque hic etiam 
+          agen<lb break="no" ed="#P" n="33"/>dum de extrinseco principio, seu causa voti,
+          <lb ed="#P" n="34"/>qualis est Deus, vel concurrendo ut causa 
+          pri<lb break="no" ed="#P" n="35"/>ma, vel specialiter movendo et adjuvando per
+          <lb ed="#P" n="36"/>auxilia gratiae. Jam enim in superioribus 
+          di<lb break="no" ed="#P" n="37"/>ximus, votum, prout a fidelibus fit, opus esse
+          <cb ed="#P" n="f"/>
+          <lb ed="#P" n="38"/>gratiae, juxta definitionem Concilii 
+          Arausica<lb break="no" ed="#P" n="39"/>ni, c. 11, et juxta ea quae tract. 1 de Virtute
+          <lb ed="#P" n="40"/>Religionis generatim diximus: unde quae de
+          <lb ed="#P" n="41"/>illo sub ea consideratione dici possent, 
+          genera<lb break="no" ed="#P" n="42"/>lia sunt, neque hic habent specialem 
+          conside<lb break="no" ed="#P" n="43"/>rationem , et ideo sufficiunt quae de virtute
+          <lb ed="#P" n="44"/>religionis, et actibus ejus, tractatu primo 
+          dixi<lb break="no" ed="#P" n="45"/>mus. Solum ergo superest dicendum de 
+          perso<lb break="no" ed="#P" n="46"/>nis quae possunt votum emittere, et per illud
+          <lb ed="#P" n="47"/>obligari.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

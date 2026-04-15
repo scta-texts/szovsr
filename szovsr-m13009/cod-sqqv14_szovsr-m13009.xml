@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="520"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m13009"><!-- t5l2c6 -->
+        <head xml:id="szovsr-m13009-Hd1e101">Caput 6</head>
+        <head xml:id="szovsr-m13009-Hd1e103" type="question-title">An iuramentum factum per creaturam sine habitudine ad deum verum vel falsum obliget ?</head>
+        <p xml:id="szovsr-m13009-d1e106">
+          <lb ed="#P" n="43"/>CAPUT VI.
+          <lb ed="#P" n="44"/>AN IURAMENTUM FACTUM PER CREATURAM SINE
+          <lb ed="#P" n="45"/>HABITUDINE AD DEUM VERUM VEL FALSUM
+          <lb ed="#P" n="46"/>OBLIGET ?
+        </p>
+        <p xml:id="szovsr-m13009-d1e117">
+          <lb ed="#P" n="47"/>1. Supponimus hunc modum jurandi esse
+          <lb ed="#P" n="48"/>possibilem, quod ex dictis in primo libro 
+          mani<lb break="no" ed="#P" n="49"/>festum est, et in sequentibus declarabitur.
+          <lb ed="#P" n="50"/>Distinguo ergo creaturas intellectuales et 
+          ir<lb break="no" ed="#P" n="51"/>rationales seu sensibiles , et priores 
+          subdi<lb break="no" ed="#P" n="52"/>vido in damnatas et beatas, omittoque viatores
+          <lb ed="#P" n="53"/>homines, quia inter illos non potest esse hic
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>jurandi modus. Potest quidem unus homo 
+          ad<lb break="no" ed="#P" n="55"/>hibere alios homines in testimonium pacti
+          <lb ed="#P" n="56"/>vel promissionis, quam facit ; tamen non 
+          obli<lb break="no" ed="#P" n="57"/>gatur illis proprie loquendo, quia non inducit
+          <lb ed="#P" n="58"/>illos nisi ut testes praesentis pollicitationis, 
+          as<lb break="no" ed="#P" n="59"/>sertionis et pacti ;unde si illud postea non 
+          im<lb break="no" ed="#P" n="60"/>pleat, non facit illis injuriam. Quod si illos
+          <lb ed="#P" n="61"/>induceret ut fidejussores adimpletionis verbi
+          <lb ed="#P" n="62"/>dati, illud non implendo, peculiarem illis 
+          fa<lb break="no" ed="#P" n="63"/>ceret injuriam ; et in hocservatur ibi quaedam
+          <lb ed="#P" n="64"/>proportio ad juramentum promissorium, sed
+          <lb ed="#P" n="65"/>deficita rationejuramenti multis modis.Primo,
+          <lb ed="#P" n="66"/>quia non pertinet obligatio illa inter homines
+          <lb ed="#P" n="67"/>ad religionem, sed ad justitiam, vel ad 
+          sum<lb break="no" ed="#P" n="68"/>mum ad observantiam humanam. Deinde,
+          <lb ed="#P" n="69"/>quia non inducitur homo per modum 
+          invoca<lb break="no" ed="#P" n="70"/>tionis et reverentiae, sed per modum 
+          contrac<lb break="no" ed="#P" n="71"/>tus, ut fidejussor, neque alius modus est 
+          mo<lb break="no" ed="#P" n="72"/>raliter in usu inter homines hic viventes. At
+          <lb ed="#P" n="73"/>vero Sancti mortui, et Angeli possunt invocari
+          <lb ed="#P" n="74"/>sine ulla obligatione ex parte illorum, sed 
+          so<lb break="no" ed="#P" n="75"/>lum per modum cultus et reverentiae ex parte
+          <lb ed="#P" n="76"/>jurantis. Possunt etiam invocari non per 
+          so<lb break="no" ed="#P" n="77"/>lum respectum ad creatorem, sed secundum
+          <lb ed="#P" n="78"/>perfectionem propriam et creatam 
+          intellectua<lb break="no" ed="#P" n="79"/>lem, quam in se habent: et eadem ratione 
+          pos<lb break="no" ed="#P" n="80"/>sunt de facto, licet non jure, sed superstitiose,
+          <lb ed="#P" n="81"/>invocarti daemones, non ut dii, nec ex falsa
+          <lb ed="#P" n="82"/>existimatone divinitatis illorum, sed ut 
+          quae<lb break="no" ed="#P" n="83"/>dam creaturae intellectuales sunt, quae possunt
+          <lb ed="#P" n="84"/>nostra cognoscere et curare ; et quia homines
+          <lb ed="#P" n="85"/>etiam fideles interdum illos colunt, non divino
+          <lb ed="#P" n="86"/>cultu, sed sociabili, in quo licet gravissime
+          <lb ed="#P" n="87"/>peccent, non tamen eo ipso fidem amittunt,
+          <lb ed="#P" n="88"/>ut supra de superstitione dictum est.
+        </p>
+        <p xml:id="szovsr-m13009-d1e213">
+          <lb ed="#P" n="89"/>2. Prima assertio : qui promittii jurando
+          <lb ed="#P" n="90"/>per demonem, ut creatura quedam 
+          intellectua<lb break="no" ed="#P" n="91"/>lis est, ut illam honoret, non manet oligatus.
+          <lb ed="#P" n="92"/>— Jam ergo dico primo: si quis promittat 
+          ju<lb break="no" ed="#P" n="93"/>rando per daemonem, non sub ratione falsi
+          <lb ed="#P" n="94"/>Dei, sed sub ratione cujusdam personae 
+          intel<lb break="no" ed="#P" n="95"/>lectualis, quam honorare vult, eique fidem
+          <lb ed="#P" n="96"/>adhiberi , nullam obligationem ex tali 
+          jura<lb break="no" ed="#P" n="97"/>mento contrahit. Haec assertio certissima est
+          <lb ed="#P" n="98"/>de fide, quia daemon juxta illa quae de statu
+          <lb ed="#P" n="99"/>ejus credere tenemur, nulla fide dignus est,
+          <lb ed="#P" n="100"/>nam mendax est et pater mendacii; ergo
+          <lb ed="#P" n="101"/>testimonium ejus nullum robur dare potest
+          <lb ed="#P" n="102"/>humanae assertioni vel promissioni ; ergo
+          <lb ed="#P" n="103"/>nec potest ullam obligationem inducere. 
+          Se<lb break="no" ed="#P" n="104"/>cundo, omnis cultus daemonis sacrilegus est;
+          <lb ed="#P" n="105"/>ergo juramentum per daemonem non potest
+          <lb ed="#P" n="106"/>obligare sub ratione cultus ipsiusmet 
+          dae<lb break="no" ed="#P" n="107"/>monis ; ergo nullo modo. Tertio, omnis 
+          so<lb break="no" ed="#P" n="108"/>cietas cum daemone nobis est interdicta, et a
+          <pb ed="#P" n="521"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fortiori omnis ejus invocatio, unde tale 
+          ju<lb break="no" ed="#P" n="2"/>ramentum per daemonem superstitiosum est
+          <lb ed="#P" n="3"/>et sacrilegum ; ergo etiam observare illud
+          <lb ed="#P" n="4"/>sub tali titulo perniciosum est, nedum 
+          obliga<lb break="no" ed="#P" n="5"/>torium. Dices: posset quis jurare per 
+          daemo<lb break="no" ed="#P" n="6"/>nem cum intentione jurandi simpliciter ; 
+          er<lb break="no" ed="#P" n="7"/>go saltem ratione illius intentionis obligabitur
+          <lb ed="#P" n="8"/>tali juramento. Respondetur : si quis putaret
+          <lb ed="#P" n="9"/>illud esse verum juramentum , et obligare
+          <lb ed="#P" n="10"/>sub vera ratione culpae, maneret quidem 
+          li<lb break="no" ed="#P" n="11"/>gatus ex conscientia erronea, sicut diximus
+          <lb ed="#P" n="12"/>de jurante per idola ; absolute vero, et in re
+          <lb ed="#P" n="13"/>nulla est vis ligandi in tali juramento. Et in
+          <lb ed="#P" n="14"/>casu de quo loquimur , in homine fideli non
+          <lb ed="#P" n="15"/>potest cogitari conscientia erronea, quia 
+          ne<lb break="no" ed="#P" n="16"/>cesse est sic jurantem cognoscere daemonem
+          <lb ed="#P" n="17"/>non esse Deum, sed creaturam quamdam 
+          per<lb break="no" ed="#P" n="18"/>fectam in naturalibus, sed damnatam et 
+          obs<lb break="no" ed="#P" n="19"/>tinatam in malo.
+        </p>
+        <p xml:id="szovsr-m13009-d1e305">
+          <lb ed="#P" n="20"/>3. Secunda assertio : juramentumn per 
+          sanc<lb break="no" ed="#P" n="21"/>tos Angelos, vel homines, non obligare ex 
+          vir<lb break="no" ed="#P" n="22"/>Lute religionis, sed em virtute dulie. — 
+          Confir<lb break="no" ed="#P" n="23"/>matic. — Dico secundo : juramentum per
+          <lb ed="#P" n="24"/>sanctos Angelos, aut homines cum Christo 
+          re<lb break="no" ed="#P" n="25"/>gnantes, si ex intentione jurantis in eorum
+          <lb ed="#P" n="26"/>auctoritate sistat, id est, in testimonio creato,
+          <lb ed="#P" n="27"/>quod ab ipsis dari posset, non obligat quidem
+          <lb ed="#P" n="28"/>ex rigorosa virtute religionis, obligat tamen
+          <lb ed="#P" n="29"/>simpliciter sub mortali ex virtute duliae. 
+          Pro<lb break="no" ed="#P" n="30"/>batur prima pars, quia illud juramentum non
+          <lb ed="#P" n="31"/>continet cultum latriae ; ergo non pertinet ad
+          <lb ed="#P" n="32"/>religionem ; ergo nec obligatio ejus. Secunda
+          <lb ed="#P" n="33"/>autem pars contraria ratione ostenditur, quia
+          <lb ed="#P" n="34"/>illud juramentum pertinet ad cultum dulia;
+          <lb ed="#P" n="35"/>unde sicut frangere fidem datam sub nomine
+          <lb ed="#P" n="36"/>Dei, est grave sacrilegium contra religionem,
+          <lb ed="#P" n="37"/>ita frangere fidem in nomine et sub 
+          auctori<lb break="no" ed="#P" n="38"/>tate alicujus Sancti, est gravis irreverentia
+          <lb ed="#P" n="39"/>contra honorem duliae debitum Sancto; ergo
+          <lb ed="#P" n="40"/>tale juramentum inducit obligationem 
+          pro<lb break="no" ed="#P" n="41"/>portionatam. Fotest hoc confirmari a simili de
+          <lb ed="#P" n="42"/>promissione facta Sancto praecise propter 
+          sanc<lb break="no" ed="#P" n="43"/>titatem ejus, nam obligat ex dulia, licet non
+          <lb ed="#P" n="44"/>obliget ex rigorosa religione, de quo infra in
+          <lb ed="#P" n="45"/>materia de Voto. Item confirmari hoc potest
+          <lb ed="#P" n="46"/>ex dictis supra de oratione ad Sanctos, 
+          quan<lb break="no" ed="#P" n="47"/>do ab eis petitur, non ut petant, sed ut faciant,
+          <lb ed="#P" n="48"/>in his quae facere possunt. Denique ex supra
+          <lb ed="#P" n="49"/>dictis de modo jurandi per creaturas 
+          rationa<lb break="no" ed="#P" n="50"/>les haec obligatio satis colligitur. Verum est
+          <lb ed="#P" n="51"/>tamen hanc considerationem esse vaide 
+          meta<lb break="no" ed="#P" n="52"/>physicam, et indigere magna praecisione in
+          <lb ed="#P" n="53"/>intentione jurantis ; nam moraliter non ita fit,
+          <lb ed="#P" n="54"/>sed in Sancto praecipue consideratur Deus, et
+          <lb ed="#P" n="55"/>ita licet fortasse addatur specialis cultus duliae
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ad Sanctum, non excluditur cultus latriae ad
+          <lb ed="#P" n="57"/>Deum. Et ita erit in tali juramento duplex
+          <lb ed="#P" n="58"/>obligatio ex vi sacrae invocationis, diversa 
+          spe<lb break="no" ed="#P" n="59"/>cie, una duliae, et altera latriae ; in quo 
+          mul<lb break="no" ed="#P" n="60"/>tum differt juramentum per Sanctos, vel per
+          <lb ed="#P" n="61"/>alias res sacras inanimatas ; et ita in hac 
+          as<lb break="no" ed="#P" n="62"/>sertione nulla est difficultas.
+        </p>
+        <p xml:id="szovsr-m13009-d1e403">
+          <lb ed="#P" n="63"/>4. Juramentum promissorium factum 
+          absc<lb break="no" ed="#P" n="64"/>lute per creaturam non obligat.—bico tertio:
+          <lb ed="#P" n="65"/>juramentum promissorium per creaturam 
+          ab<lb break="no" ed="#P" n="66"/>solute spectatam, ut perlapidem, per barbam,
+          <lb ed="#P" n="67"/>et similes, quando constat fieri per illas 
+          abso<lb break="no" ed="#P" n="68"/>lute, ut tales sunt, sine respectu ad Deum,
+          <lb ed="#P" n="69"/>qui in illis est, nullam obligationem specialem
+          <lb ed="#P" n="70"/>inducit, neque in re ipsa, neque ex 
+          conscien<lb break="no" ed="#P" n="71"/>tia erronea, si absit animus tribuendi 
+          creatu<lb break="no" ed="#P" n="72"/>rae divinitatem. Haec assertio sumitur ex 
+          Bo<lb break="no" ed="#P" n="73"/>naventura, in tertio, distinct. 39, art. 2,
+          <lb ed="#P" n="74"/>quaest. 2, in fine; Turrecremata infra 
+          refe<lb break="no" ed="#P" n="75"/>rendo, et ex Navarro, cap. 12, num. 5, et ex
+          <lb ed="#P" n="76"/>diciis libro primo, de natura juramenti, et
+          <lb ed="#P" n="77"/>praesertim cap. 7, quia illud non est nec 
+          pu<lb break="no" ed="#P" n="78"/>tatur juramentum ; ergo non inducit 
+          obliga<lb break="no" ed="#P" n="79"/>tionem. Item fractio illius quasi juramenti
+          <lb ed="#P" n="80"/>non est contra divinum honorem; ergo 
+          si<lb break="no" ed="#P" n="81"/>gnum est non induxisse obligationem 
+          jura<lb break="no" ed="#P" n="82"/>menti. Consequentia est evidens. Antecedens
+          <lb ed="#P" n="83"/>patet, quia ille, qui sic jurat, non adducit
+          <lb ed="#P" n="84"/>Deum in testem, cum non invocet illum, nec
+          <lb ed="#P" n="85"/>in se, nec in creatura, ut in casu supponitur.
+        </p>
+        <p xml:id="szovsr-m13009-d1e455">
+          <lb ed="#P" n="86"/>5. Tractatur sententia Augustini in cap.
+          <lb ed="#P" n="87"/>Ecce. 92, queest. 5.—Locus Augustini a 
+          Gra<lb break="no" ed="#P" n="88"/>tiano mendose relatus. — Hanc vero 
+          assertio<lb break="no" ed="#P" n="89"/>nem per se satis claram, fecit difficilem et
+          <lb ed="#P" n="90"/>inter auctores controversam sententia 
+          quae<lb break="no" ed="#P" n="91"/>dam Augustini, quam mendose refert 
+          Gratia<lb break="no" ed="#P" n="92"/>nus in caput Zecce, 22, q. 5, ex Serm. 30 de
+          <lb ed="#P" n="93"/>Verbis Apostoli. Sed nunc habetur emendata
+          <lb ed="#P" n="94"/>in Serm. 28, c. 12, inhunc modum: Zecce dico
+          <lb ed="#P" n="95"/>charitati vestra, et qui per lapidem falsum 
+          ju<lb break="no" ed="#P" n="96"/>rat, perjurus est. Unde hoc dico?* Quia multi
+          <lb ed="#P" n="97"/>in hoc falluntur, et putant, quia nihil est per
+          <lb ed="#P" n="98"/>quod jurant, non se crimine teneri perjurii.
+          <lb ed="#P" n="99"/>Prorsus perjurus es, quia per id quod sanctum
+          <lb ed="#P" n="100"/>putas, falsum juras. Sed ego illum sanctum
+          <lb ed="#P" n="101"/>non puto. Sanctum putas cui juras, non enim
+          <lb ed="#P" n="102"/>quando juras, tibi juras, sed provimo juras.
+          <lb ed="#P" n="103"/>Homini juras ante lapidem, sed numquid non
+          <lb ed="#P" n="104"/>ante Deum? Non te audit lapis loquentem, sed
+          <lb ed="#P" n="105"/>punit te Deus fallentem. Haec August., ex
+          <lb ed="#P" n="106"/>quibus verbis videtur plaue colligi juxta 
+          men<lb break="no" ed="#P" n="107"/>tem ejus, jurare per lapidem sine ulla 
+          rela<lb break="no" ed="#P" n="108"/>tione ad Deum, sufficere ad obligationem 
+          ju<lb break="no" ed="#P" n="109"/>ramenti , quandoquidem dicit sufficere ad
+          <lb ed="#P" n="110"/>perjurium.
+        </p>
+        <p xml:id="szovsr-m13009-d1e512">
+          <pb ed="#P" n="522"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>6. Circa hunc ergo locum Augustini 
+          impri<lb break="no" ed="#P" n="2"/>mis dubitari solet, quid intelligat per illa
+          <lb ed="#P" n="3"/>verba, jurare per lapidem. Covar. supra, S 1,
+          <lb ed="#P" n="4"/>n. 8, censet Augustinum loqui de juramento
+          <lb ed="#P" n="5"/>gentilico, quo solebant Gentes jurare per 
+          Jo<lb break="no" ed="#P" n="6"/>vem lapidem, ut late ibi probat ex 
+          scriptori<lb break="no" ed="#P" n="7"/>bus profanis; et multa de illo ritu congerit 
+          Ti<lb break="no" ed="#P" n="8"/>raquel., cum Alesand. ab Alexan., libro 5
+          <lb ed="#P" n="9"/>Geniali., c. 10. Eamdemque expositionem 
+          se<lb break="no" ed="#P" n="10"/>quitur Soto, d. 1. 8, quast. 2, a. 3, qui addit
+          <lb ed="#P" n="11"/>eum, qui jurabat per lapidem Jovem, non
+          <lb ed="#P" n="12"/>fuisse solitum jurare per rem sanctam, sed
+          <lb ed="#P" n="13"/>per eum, quem putabat esse sanctum, scilicet
+          <lb ed="#P" n="14"/>per Jovem. Sed licet hoc in re verum sit, non
+          <lb ed="#P" n="15"/>videtur ad mentem Augustini, nam ille 
+          ex<lb break="no" ed="#P" n="16"/>presse cicit, lapidem reputari sanctum vela
+          <lb ed="#P" n="17"/>jurante, vel ab eo cui juratur. Quocirca hi
+          <lb ed="#P" n="18"/>auctores nullo indicio ostendunt Augustinum
+          <lb ed="#P" n="19"/>loqui de illo ritu jurandi, nec videtur 
+          veri<lb break="no" ed="#P" n="20"/>simile. quia non consonat ritus, quem ipzi
+          <lb ed="#P" n="21"/>referunt, cum verbis Augustini; nam omnia
+          <lb ed="#P" n="22"/>illa juramenta Gentilium, qua: ibi 
+          commemo<lb break="no" ed="#P" n="23"/>rant, erant execratoria, unde non assume
+          <lb ed="#P" n="24"/>bant lapidem ut Deum, vel ut rem per quam
+          <lb ed="#P" n="25"/>jurarent, sed solum ad exprimendam 
+          execra<lb break="no" ed="#P" n="26"/>tionem. Lapidem euim manu habebant, et
+          <lb ed="#P" n="27"/>illo percutiebant suem, aut agnum, vel illum
+          <lb ed="#P" n="28"/>projiciebant in terram, ita sibi imprecantes:
+          <lb ed="#P" n="29"/>Si sciens fallo, me Jupiter, salva urbe, 
+          ar<lb break="no" ed="#P" n="30"/>ceque, Donis ejiciat, uti ego lapidem hunc 
+          eji<lb break="no" ed="#P" n="31"/>cio ; non utebantur lapide ut re sancta, sed
+          <lb ed="#P" n="32"/>solum ut accommodato instrumento ad 
+          signi<lb break="no" ed="#P" n="33"/>ficandam execrationem. Àt vero Augustinus
+          <lb ed="#P" n="34"/>loquitur de lapide, per quem juratur tanquam
+          <lb ed="#P" n="35"/>per rem sanctam, ita existimatam vela 
+          ju<lb break="no" ed="#P" n="36"/>rante, vcl ab eo cui juratur ; non ergo 
+          loqui<lb break="no" ed="#P" n="37"/>tur de illo ritu. Item non videtur Augustin.
+          <lb ed="#P" n="38"/>loqui de juramento execratorio (ad quod non
+          <lb ed="#P" n="39"/>oportet cogitare creaturam, per quam fit, 
+          es<lb break="no" ed="#P" n="40"/>se sanctam), sed de simplici juramento, quod
+          <lb ed="#P" n="41"/>per talis rei attestationem fit. Nam si de 
+          exe<lb break="no" ed="#P" n="42"/>cratione loqueretur, non probaret ex 
+          sancti<lb break="no" ed="#P" n="43"/>tate lapidis vera existimata, jurantem falsum
+          <lb ed="#P" n="44"/>esse perjurum, scd ex eo quod sibi malum
+          <lb ed="#P" n="45"/>imprecatur, jurando falsum. Quod ex eodem
+          <lb ed="#P" n="46"/>Augustino, in capite antecedenti, colligi 
+          po<lb break="no" ed="#P" n="47"/>test, ut jam dicam.
+        </p>
+        <p xml:id="szovsr-m13009-d1e621">
+          <lb ed="#P" n="48"/>7. Expositio apparens in locum Augustini.
+          <lb ed="#P" n="49"/>— Apparentius dici posset, Augustinum ibi
+          <lb ed="#P" n="50"/>per lapidem intelligere idolum aliquod, 
+          quod<lb break="no" ed="#P" n="51"/>cumque illud sit. Potestque verisimile fieri ex
+          <lb ed="#P" n="52"/>contexiu, incipiendo ab ultimis verbis 
+          capi<lb break="no" ed="#P" n="53"/>tis praecedentis, sie enim habent: Tantum
+          <lb ed="#P" n="54"/>malumn habet juratio, u qui lapidem colunt,
+          <lb ed="#P" n="55"/>timeant falsum jurare per lapidem, tw non ti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mes Deum praesentem ; et infra: Claudit ille
+          <lb ed="#P" n="57"/>templum super lapidem, et it ad domum suam.
+          <lb ed="#P" n="58"/>Ipse super Deum suum clausit, et tamen 
+          quan<lb break="no" ed="#P" n="59"/>do illi dicitur :Jura per Jovem, preesentis 
+          ccu<lb break="no" ed="#P" n="60"/>los timet. Ibi ergo per lapidem evidenter 
+          in<lb break="no" ed="#P" n="61"/>tellexit Augustinus idolum, seu falsum Deum,
+          <lb ed="#P" n="62"/>qui in templo claudebatur, et a sic jurantibus
+          <lb ed="#P" n="63"/>colebatur, et tamen immediate subdit: Zt
+          <lb ed="#P" n="64"/>ecce dico charitati vestre, et qui per lapidem
+          <lb ed="#P" n="65"/>falsum urat, perjurus est; loguitur ergo de
+          <lb ed="#P" n="66"/>eodem lapide, id est, de idolo. Ex hoc autem
+          <lb ed="#P" n="67"/>sensu duae sententiae ibi colliguntur de mente
+          <lb ed="#P" n="68"/>Augustini. Prior est, qui falsum jurat per 
+          ta<lb break="no" ed="#P" n="69"/>lem lapidem, existimans esse sanctum, quia
+          <lb ed="#P" n="70"/>scilicet credit esse Deum, perjurum esse. Quae
+          <lb ed="#P" n="71"/>pars non habet difficultatem ; id enim dicit
+          <lb ed="#P" n="72"/>non quia putet esse juramentum, vel in re
+          <lb ed="#P" n="73"/>ipsa obligare, sed quia ex conscientia 
+          erro<lb break="no" ed="#P" n="74"/>nea obligat jurantem, ut supra dictum est.
+        </p>
+        <p xml:id="szovsr-m13009-d1e684">
+          <lb ed="#P" n="75"/>8. Alia sententia Augustini est, etiam 
+          il<lb break="no" ed="#P" n="76"/>lum, qui credens lapidem illum non esse
+          <lb ed="#P" n="77"/>Deum, neque aliquid sanctum, jurat tamen
+          <lb ed="#P" n="78"/>ei qui putat lapidem esse quid sanctum, 
+          pec<lb break="no" ed="#P" n="79"/>care falsum jurando. Et haec pars est 
+          obscu<lb break="no" ed="#P" n="80"/>ra, quia ille, cum tal existimatione jurans per
+          <lb ed="#P" n="81"/>lapidem, neque in re ipsa juramentum 
+          praesta<lb break="no" ed="#P" n="82"/>bat, cum non juraret per Deum, nec 
+          expres<lb break="no" ed="#P" n="83"/>se, nec tacite ; neque etiam jurabat ex 
+          con<lb break="no" ed="#P" n="84"/>scientia erronea, quia bene sciebat lapidem
+          <lb ed="#P" n="85"/>nihil esse ; ergo non erat perjurus, ut 
+          Augus<lb break="no" ed="#P" n="86"/>tinus dicit. Unde potius deberet reprehendi,
+          <lb ed="#P" n="87"/>quod, cum rectam fidem haberet, exterius et
+          <lb ed="#P" n="88"/>ficte per idolum juraret. Et hinc fit suspecta
+          <lb ed="#P" n="89"/>prior interpretatio de lapide pro idolo, quia
+          <lb ed="#P" n="90"/>Augustinus loquebatur ad fideles sibi 
+          subdi<lb break="no" ed="#P" n="91"/>tos, ad quos concionem habebat, ut patet ex
+          <lb ed="#P" n="92"/>principio sermonis, et ex illis verbis ultimi
+          <lb ed="#P" n="93"/>capitis: Ecce dico charitati vestre ; ergo 
+          veri<lb break="no" ed="#P" n="94"/>simile non est, illos fuisse solitos jurare per
+          <lb ed="#P" n="95"/>Jovem, vel idolum; nam si ita jurarent, non
+          <lb ed="#P" n="96"/>est credibile non fuisse ab Augustino 
+          comme<lb break="no" ed="#P" n="97"/>morandum et reprehendendum ex illo capite,
+          <lb ed="#P" n="98"/>quod in toto illo sermone non facit.
+        </p>
+        <p xml:id="szovsr-m13009-d1e740">
+          <lb ed="#P" n="99"/>9. Sed ad hoc responderi potest, quia eo
+          <lb ed="#P" n="100"/>tempore fideles erant permisti infidelibus, 
+          fie<lb break="no" ed="#P" n="101"/>ri potuisse ut in pactis fidelium cum 
+          infideh<lb break="no" ed="#P" n="102"/>bus, jurarent coram idolo, et tune fideles pro
+          <lb ed="#P" n="103"/>nihilo ducerent falsum jurare, quia putabaut
+          <lb ed="#P" n="104"/>illud non esse perjurium, quia lapis idoli, 
+          co<lb break="no" ed="#P" n="105"/>ram quo jurabant, nihil erat, nec ab ipsis 
+          san<lb break="no" ed="#P" n="106"/>ctus existimabatur, et ita illi non erant 
+          idolola<lb break="no" ed="#P" n="107"/>trae, quia non jurabant per illum, sed coram 
+          il<lb break="no" ed="#P" n="108"/>lo, ut indicant illa verba Augustini: Homini
+          <lb ed="#P" n="109"/>jurans ante lapidem ; quod si hoc admittitur,
+          <lb ed="#P" n="110"/>facile expedietur prior difficultas, primo, ne-
+          <pb ed="#P" n="523"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gando Augustinum dicere fidelem, sic ficte 
+          ju<lb break="no" ed="#P" n="2"/>rando falsum, esse perjurum. Dixerat enim
+          <lb ed="#P" n="3"/>prius: Tantum malum habet juratio, ut qui
+          <lb ed="#P" n="4"/>lapidem colunt, ti mcant falsum jurare per 
+          lag<lb break="no" ed="#P" n="5"/>dem. De idololatra ergo jurante subdit postea:
+          <lb ed="#P" n="6"/>Qui per lapidem falsum j urat, perjurus est. Et
+          <lb ed="#P" n="7"/>quod de illo loquatur, patet, quia pro ratione
+          <lb ed="#P" n="8"/>subdit : Quia per id, quod sanctum putas, 
+          fal<lb break="no" ed="#P" n="9"/>suin juras. Ad tale ergo perjurium requirit
+          <lb ed="#P" n="10"/>hanc erroneam conscientiam ; unde postea 
+          po<lb break="no" ed="#P" n="11"/>sita excusatione fidelis: Fgo illum sanctum
+          <lb ed="#P" n="12"/>non puto, Augustinus in sua replica non illum
+          <lb ed="#P" n="13"/>reprehendit ut perjurum, sed ut decipientem
+          <lb ed="#P" n="14"/>proximum : Homini (inquiens) juras ante 
+          lapi<lb break="no" ed="#P" n="15"/>dem, non te audit lapis loquentem, sed punat te
+          <lb ed="#P" n="16"/>Deus ut fallentem. Non dixit pejerantem, unde
+          <lb ed="#P" n="17"/>verisimile est, fideles sic jurantes infidebbus,
+          <lb ed="#P" n="18"/>scientes juramenta infidelium inania esse, et 
+          se<lb break="no" ed="#P" n="19"/>cundum se nullius roboris, ficte tantum 
+          juras<lb break="no" ed="#P" n="20"/>se, et ideo non timuisse falsum jurare, et hoc
+          <lb ed="#P" n="21"/>in eis reprehendisse Augustinum. Quod si 
+          for<lb break="no" ed="#P" n="22"/>te illi ex animo jurabant per verum Deum,
+          <lb ed="#P" n="23"/>putabant autem non obligari, quia coram 
+          ido<lb break="no" ed="#P" n="24"/>lo jurabant, et quia infideli promittebant,
+          <lb ed="#P" n="25"/>valde errabant: sed hoc non commemorat
+          <lb ed="#P" n="26"/>Augustinus. Prior ergo sensus probabilis mihi
+          <lb ed="#P" n="27"/>videtur, juxta quem sententia Augustini nihil
+          <lb ed="#P" n="28"/>facit contra conclusionem nostram.
+        </p>
+        <p xml:id="szovsr-m13009-d1e834">
+          <lb ed="#P" n="29"/>10. Expositio Canonistarum in locum 
+          Au<lb break="no" ed="#P" n="30"/>gustini. — At vero Canonista locur 
+          intelli<lb break="no" ed="#P" n="31"/>gunt de communi lapide sine cogitatione 
+          ido<lb break="no" ed="#P" n="32"/>li, vel Dei falsi, sed ut est creatura quaedam,
+          <lb ed="#P" n="33"/>neque sanctitatem, neque ullam excel'entiam
+          <lb ed="#P" n="34"/>habens. Fitque hoc verisimile ex conjectura
+          <lb ed="#P" n="35"/>facta, quod Augustinus ad fideles loguebatur,
+          <lb ed="#P" n="36"/>neque obstabit contextus litterae a nobis expen
+          <lb ed="#P" n="37"/>sus. Quia in praecedentibus capitibus 
+          repre<lb break="no" ed="#P" n="38"/>henderat consuetudinem jurandi, et 
+          persuase<lb break="no" ed="#P" n="39"/>rat sollicitudinem tollendi illam, proposito
+          <lb ed="#P" n="40"/>Dei timore, et hanc partem conclusit adducto
+          <lb ed="#P" n="41"/>exemplo Gentilium, timentium et reverentium
+          <lb ed="#P" n="42"/>sua idola. Postea vero in ultimo capite, aliam
+          <lb ed="#P" n="43"/>excusationem fidelium excludit, vel quia 
+          jura<lb break="no" ed="#P" n="44"/>bant per lapidem, et nihil se agere putabant,
+          <lb ed="#P" n="45"/>vel quia pravum alium usum et deceptionem
+          <lb ed="#P" n="46"/>ignoranter introducebant. Hoc ergo funda
+          <lb ed="#P" n="47"/>mento posito, Glossa ibi, ad exponendam
+          <lb ed="#P" n="48"/>mentem Augustini, fingit casum vel usum
+          <lb ed="#P" n="49"/>quemdam. Nam supposita consuetudine 
+          fide<lb break="no" ed="#P" n="50"/>lium jurandi super Evangelia, vel aram 
+          con<lb break="no" ed="#P" n="51"/>secratam, fieri poterat ut alter communem 
+          la<lb break="no" ed="#P" n="52"/>pidem coopertum offerret alteri ad jurandum
+          <lb ed="#P" n="53"/>super eum, ut sic alter vere juraret cogitans
+          <lb ed="#P" n="54"/>se jurare per rem sauctam, ipse vero sciens 
+          es<lb break="no" ed="#P" n="55"/>se communem lapidem posset jurare falsum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sine timore perjurii. Et in hoc casu ait, dicere
+          <lb ed="#P" n="57"/>Augustinum utrumque esse perjurum, si 
+          fal<lb break="no" ed="#P" n="58"/>sum juret ; alterum propter existimationem,
+          <lb ed="#P" n="59"/>alterum propter deceptionem. Sed imprimis
+          <lb ed="#P" n="60"/>casus ille fingitur sine fundamento in 
+          Augus<lb break="no" ed="#P" n="61"/>tiuo, in quo nihil de cooperto lapide legitur.
+          <lb ed="#P" n="62"/>Deinde non explicatur quomodo peccet ille
+          <lb ed="#P" n="63"/>qui jurat per lapidem, quem non existimat
+          <lb ed="#P" n="64"/>esse sanctum, propterea quod alter, cui jurat,
+          <lb ed="#P" n="65"/>id existimet.
+        </p>
+        <p xml:id="szovsr-m13009-d1e919">
+          <lb ed="#P" n="66"/>11. Alii ergo locum intelligunt de vulgari
+          <lb ed="#P" n="67"/>lapide, ^t non loqui Augustinum de certo 
+          ali<lb break="no" ed="#P" n="68"/>quo lapide ad jurandum destinato, sed gratia
+          <lb ed="#P" n="69"/>exempli ponere lapidem tanquam rem vilem,
+          <lb ed="#P" n="70"/>quae videtur de se inepta, ut per eam juretur,
+          <lb ed="#P" n="71"/>propter quod vulgus putat non esse perjurium
+          <lb ed="#P" n="72"/>per illam jurare. Ipse autem affirmat 
+          contra<lb break="no" ed="#P" n="73"/>rium , sed duos distinguit casus. Unus est,
+          <lb ed="#P" n="74"/>quando is, qui jurat, sanctum putat id per
+          <lb ed="#P" n="75"/>quod jurat, et nihilominus falsum jurat. Et ita
+          <lb ed="#P" n="76"/>est facilis haec pars, in qua exponenda 
+          labo<lb break="no" ed="#P" n="77"/>rant Canonistae , quia negative legitur apud
+          <lb ed="#P" n="78"/>Gratianum : Sanctum non putat, quo modo non
+          <lb ed="#P" n="79"/>poterat habere congruum sensum. In 
+          origina<lb break="no" ed="#P" n="80"/>li vero affirmative legitur : Sanctum putat.
+          <lb ed="#P" n="81"/>Putare autem dicit sanctum esse lapidem, non
+          <lb ed="#P" n="82"/>per errorem putando esse Deum, sed vel 
+          exis<lb break="no" ed="#P" n="83"/>timando esse consecratum, seu Deo dicatum ;
+          <lb ed="#P" n="84"/>quidquid enim hujusmodi est, sanctum in
+          <lb ed="#P" n="85"/>Scriptura appellatur, et in c. Nulli liceat, 12,
+          <lb ed="#P" n="86"/>q. 2; vel considerando lapidem ut creaturam
+          <lb ed="#P" n="87"/>Dei, et ut vestigium ejus, et scabellum 
+          pe<lb break="no" ed="#P" n="88"/>dum ejus, Mat. 5, sic enim omnis creatura
+          <lb ed="#P" n="89"/>Dei bona est, 1 ad Tim. 4, unde et sancta dici
+          <lb ed="#P" n="90"/>potest. Et ita constat illud esse verum 
+          jura<lb break="no" ed="#P" n="91"/>mentum, et de re falsa esse perjurium, et 
+          con<lb break="no" ed="#P" n="92"/>sequenter inducere veram obligationem, non
+          <lb ed="#P" n="93"/>ex conscientia erronea, sed ex re ipsa; quia
+          <lb ed="#P" n="94"/>illud est verum juramentum, ut superiori 
+          li<lb break="no" ed="#P" n="95"/>bro visum est.
+        </p>
+        <p xml:id="szovsr-m13009-d1e987">
+          <lb ed="#P" n="96"/>12. Alter casus sst, quando is, qui jurat,
+          <lb ed="#P" n="97"/>non cogitat in lapide aliquam sanctitatem,
+          <lb ed="#P" n="98"/>quia scilicet nec ut sacrum, neque ut Dei 
+          crea<lb break="no" ed="#P" n="99"/>turam, vestigium, aut scabellum, illum 
+          ap<lb break="no" ed="#P" n="100"/>prehendit, et sic per illum jurat, et de hoc
+          <lb ed="#P" n="101"/>etiam supponunt interpretes Augustinum 
+          di<lb break="no" ed="#P" n="102"/>ccre, esse perjurum eum, qui sic falsum jurat,
+          <lb ed="#P" n="103"/>ideoque in eo explicando laborant. Nam 
+          Tur<lb break="no" ed="#P" n="104"/>recrem., ibi, cum Bonav., in 3, d. 39, art. 2,
+          <lb ed="#P" n="105"/>q. 2, indicat vocari illum perjurum, quia 
+          ex<lb break="no" ed="#P" n="106"/>hibet lapidi honorem divinum jurando per
+          <lb ed="#P" n="107"/>illum, et consequenter etiam perjurare ex
+          <lb ed="#P" n="108"/>conscientia erronea ; sed hoc repugnat 
+          hypo<lb break="no" ed="#P" n="109"/>thesi, quia ille non cogitans aliquid sanctum
+          <lb ed="#P" n="110"/>in lapide non potest velle illi attribuere divi-
+          <pb ed="#P" n="524"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>num honorem ; item Augustinus non de hoc
+          <lb ed="#P" n="2"/>vitio illum reprehendit. Aliter idem 
+          Turre<lb break="no" ed="#P" n="3"/>crem., in fine textus, ait illum esse perjurum,
+          <lb ed="#P" n="4"/>quia alius, cui exhibet juramentum, putat
+          <lb ed="#P" n="5"/>lapidem esse sanctum, id est, sub aliqua 
+          ha<lb break="no" ed="#P" n="6"/>bitudine assumi ad verum juramentum 
+          prae<lb break="no" ed="#P" n="7"/>standum ; et juramentum ( inquit ) 
+          interpre<lb break="no" ed="#P" n="8"/>tandum est secundum intentionem illius , qui
+          <lb ed="#P" n="9"/>vectus est, et dolum non preetendit. Sed, licet
+          <lb ed="#P" n="10"/>hoc habeat locum in praesumptione externi
+          <lb ed="#P" n="11"/>fori, vel quoad aliquam aliam obligationem
+          <lb ed="#P" n="12"/>justitiae, non vero quoad vim juramenti, nec
+          <lb ed="#P" n="13"/>quoad veram transgressionem ejus, ut postea
+          <lb ed="#P" n="14"/>videbimus.
+        </p>
+        <p xml:id="szovsr-m13009-d1e1057">
+          <lb ed="#P" n="15"/>13. Fera expositio.— Alii dicunt, illum 
+          ve<lb break="no" ed="#P" n="16"/>re jurare, quia habet intentionem jurandi,
+          <lb ed="#P" n="17"/>per quam virtute refert creaturam, seu 
+          lapi<lb break="no" ed="#P" n="18"/>dem ad Creatorem, licet cogitatione et 
+          existi<lb break="no" ed="#P" n="19"/>matione non referat, et ideo vere etiam esse
+          <lb ed="#P" n="20"/>perjurum. Sed hoc etiam gratis supponitnr,
+          <lb ed="#P" n="21"/>quia contrarium colligitur ex textu; illi enim
+          <lb ed="#P" n="22"/>quos redarguit Augustinus, putabant se non
+          <lb ed="#P" n="23"/>jurare per lapidem, quem sanctum non 
+          exis<lb break="no" ed="#P" n="24"/>timabant; ideo enim putabant se non pejerare,
+          <lb ed="#P" n="25"/>etiamsi falsum dicerent ; quomodo igitur 
+          ju<lb break="no" ed="#P" n="26"/>randi intentionem habebant ? Repugnat enim
+          <lb ed="#P" n="27"/>haec intentio cum illa existimatione; unde ad
+          <lb ed="#P" n="28"/>habendam illam, potius oportuisset ut 
+          crede<lb break="no" ed="#P" n="29"/>rent illud esse juramentum, etiamsi per 
+          lapi<lb break="no" ed="#P" n="30"/>dem sic conceptum fieret, et tunc 
+          consequen<lb break="no" ed="#P" n="31"/>ter necessario putarent, jurare illo modo 
+          fal<lb break="no" ed="#P" n="32"/>sum, esse perjurium, cum perjurium non sit
+          <lb ed="#P" n="33"/>nisi juramentum cadens supra mendacium.
+          <lb ed="#P" n="34"/>Praeterea, in eo etiam casu illud non esset 
+          ju<lb break="no" ed="#P" n="35"/>ramentum in re ipsa, sed tantum putatum, ut
+          <lb ed="#P" n="36"/>supra, lib. 1, c. 7, tetigi, et consequenter nec
+          <lb ed="#P" n="37"/>obligaret in re, sed ex conscientia erronea, et
+          <lb ed="#P" n="38"/>tantum illa durante; et simili modo esset 
+          per<lb break="no" ed="#P" n="39"/>jurium in fractione ejus. Denique Augustinus
+          <lb ed="#P" n="40"/>non redarguit istos, quia intentionem jurandi
+          <lb ed="#P" n="41"/>habebant, sed quia proximum fallebant. 
+          Vi<lb break="no" ed="#P" n="42"/>detur ergo probabile, illos non reprehendi ut
+          <lb ed="#P" n="43"/>reos veri perjurii, sed ut reos injustae 
+          decep<lb break="no" ed="#P" n="44"/>tionis, vel ad summum vocari reos perjurii
+          <lb ed="#P" n="45"/>quoad speciem et scandalum, quia doloso 
+          ju<lb break="no" ed="#P" n="46"/>ramento utebantur, quod alii accipiebant ut
+          <lb ed="#P" n="47"/>verum juramentum, quia putabant fieri per
+          <lb ed="#P" n="48"/>lapidem ut sanctum in dicto sensu, id est, cum
+          <lb ed="#P" n="49"/>relatione ad Deum. Et ita illius juramenti
+          <lb ed="#P" n="50"/>transgressio apparebat aliis perjurium, et 
+          ra<lb break="no" ed="#P" n="51"/>tione scandali contrahere poterat illam 
+          mali<lb break="no" ed="#P" n="52"/>tiam; re tamen vera illud sic factum non est
+          <lb ed="#P" n="53"/>juramentum, nec obligationem religionis in
+          <lb ed="#P" n="54"/>re ipsa inducit. Et ita non obstat textus ille
+          <lb ed="#P" n="55"/>assertioni nostrae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

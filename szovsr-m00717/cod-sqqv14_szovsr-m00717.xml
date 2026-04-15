@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="31"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m00717"><!-- t4l1c9 -->
+        <head xml:id="szovsr-m00717-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-m00717-Hd1e103" type="question-title">Quomodo solus deus a nobis orandus sit?</head>
+        <p xml:id="szovsr-m00717-d1e106">
+          <lb ed="#P" n="16"/>CAPUT IX.
+          <lb ed="#P" n="17"/>QUOMODO SOLUS DEUS A NOBIS ORANDUS SIT?
+        </p>
+        <p xml:id="szovsr-m00717-d1e113">
+          <lb ed="#P" n="18"/>1. Oratio dicit habitudinem ad quatuor res.—
+          <lb ed="#P" n="19"/>Hactenus dictum est de orationis honestate,
+          <lb ed="#P" n="20"/>convenientia ac necessitate. Oportet nunc 
+          ex<lb break="no" ed="#P" n="21"/>ponere omnes circumstantias in ea servandas,
+          <lb ed="#P" n="22"/>ut sancte et honeste fiat. Quod praestabimus
+          <lb ed="#P" n="23"/>discurrendo fere per omnes circumstantias
+          <lb ed="#P" n="24"/>humanorum actuum, quatenus peculiari modo
+          <lb ed="#P" n="25"/>in oratione spectari possunt. Et imprimis 
+          ora<lb break="no" ed="#P" n="26"/>tio, quatenus petitio est, habitudinem dicit ad
+          <lb ed="#P" n="27"/>tres vel quatuor res, vel personas, aut 
+          termi<lb break="no" ed="#P" n="28"/>nos. Oportet enim intervenire eum qui petit,
+          <lb ed="#P" n="29"/>et ab aliquo petere, et aliquid, et alicui petere.
+          <lb ed="#P" n="30"/>Inter qua is a quo fit petitio, videtur esse
+          <lb ed="#P" n="31"/>quasi formale objectum orationis, et ideo de
+          <lb ed="#P" n="32"/>illo primo loco tractamus cum divo Thoma,
+          <lb ed="#P" n="33"/>d. quaest. 83, articulo 4. Satis autem constat
+          <lb ed="#P" n="34"/>ex hactenus dictis, orationem ad Deum esse
+          <lb ed="#P" n="35"/>fundendam, nam hoc ostendunt omnia quae
+          <lb ed="#P" n="36"/>hactenus de oratione dicta sunt; quia oratio
+          <lb ed="#P" n="37"/>est actus Religionis, et verum ac debitum Dei
+          <lb ed="#P" n="38"/>cultum continet ; ergo ad Deum maxime 
+          fun<lb break="no" ed="#P" n="39"/>denda est.
+        </p>
+        <p xml:id="szovsr-m00717-d1e163">
+          <lb ed="#P" n="40"/>2. Solus Deus orandus est secundwm 
+          ali<lb break="no" ed="#P" n="41"/>quam rationem . — Atque hinc ulterius in titulo
+          <lb ed="#P" n="42"/>proposito, tanquam certum supponimus 
+          ora<lb break="no" ed="#P" n="43"/>tionem sub aliqua ratione et consideratione
+          <lb ed="#P" n="44"/>ad solum Deum esse fundendam. Ita docet
+          <lb ed="#P" n="45"/>D. Thom., in d. art. 4, et constabit 
+          auctori<lb break="no" ed="#P" n="46"/>tate Scriptura et Patrum ex dicendis cap.
+          <lb ed="#P" n="47"/>seq. Ratione declaratur, quia oratio sub 
+          ali<lb break="no" ed="#P" n="48"/>qua ratione pertinet ad cultum latriae; sed
+          <lb ed="#P" n="49"/>cultus latriae soli Deo tribuendus est secundum
+          <lb ed="#P" n="50"/>fidem; ergo etiam oratio, ea ratione qua 
+          con<lb break="no" ed="#P" n="51"/>unet talem cultum, ad solum Deum dirigi 
+          po<lb break="no" ed="#P" n="52"/>test. Item supra ostendimus religionis virtu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tem per se et absolute circa solum Deum 
+          ver<lb break="no" ed="#P" n="54"/>sari ; sed oratio est proprius actus religionis,
+          <lb ed="#P" n="55"/>et continet cultum valde absolutum, id est,
+          <lb ed="#P" n="56"/>fundatum in propria excellentia personae, ad
+          <lb ed="#P" n="57"/>quam per se primo refertur, nam respicit 
+          il<lb break="no" ed="#P" n="58"/>lam ut intelligentem, et ut bonam ac 
+          excel<lb break="no" ed="#P" n="59"/>lentem, et ut potentem ad praestandum id
+          <lb ed="#P" n="60"/>quod ab ea postulatur et desideratur; ergo
+          <lb ed="#P" n="61"/>oratio, sic facta ex religione, ad solum Deum
+          <lb ed="#P" n="62"/>convenienter dirigi potest.
+        </p>
+        <p xml:id="szovsr-m00717-d1e219">
+          <lb ed="#P" n="63"/>3. D. Thomae ratio ad idem probandum. —
+          <lb ed="#P" n="64"/>D. Thomas autem, in d. art. 4, proprietatem,
+          <lb ed="#P" n="65"/>vel, ut sic dicam, singularitatem hujus 
+          ora<lb break="no" ed="#P" n="66"/>tionis ratione quadam declarat, quae 
+          difficul<lb break="no" ed="#P" n="67"/>tatem ingerit : ait enim, si oratio fiat ad
+          <lb ed="#P" n="68"/>aliquem tanquam per ipsum implenda, non
+          <lb ed="#P" n="69"/>posse fieri nisi ad Deum, quia omnis oratio
+          <lb ed="#P" n="70"/>nostra ordinari debet ad gratiam vel gloriam
+          <lb ed="#P" n="71"/>consequendam : solus autem Deus per se
+          <lb ed="#P" n="72"/>potest gratiam et gloriam praestare. In qua
+          <lb ed="#P" n="73"/>ratione, imprimis dubitari potest quomodo 
+          ve<lb break="no" ed="#P" n="74"/>rum sit, omnem orationem nostram debere ad
+          <lb ed="#P" n="75"/>gratiam et gloriam consequendam ordinari.
+          <lb ed="#P" n="76"/>Nam vel est sensus, hoc esse necessarium ad
+          <lb ed="#P" n="77"/>honestatem orationis, et hoc est falsum, ut
+          <lb ed="#P" n="78"/>infra ostendemus, quia licet a Deo petere
+          <lb ed="#P" n="79"/>bona temporalia propter naturae 
+          commodita<lb break="no" ed="#P" n="80"/>tem rationi consentaneam, etiamsi nihil de
+          <lb ed="#P" n="81"/>gratia vel gloria cogitetur. Vel si tantum 
+          re<lb break="no" ed="#P" n="82"/>quiratur ad melius esse, non deservit ad
+          <lb ed="#P" n="83"/>conclusionem inferendam, ut constat. Deinde,
+          <lb ed="#P" n="84"/>quae est necessitas recurrendi ad hoc quod
+          <lb ed="#P" n="85"/>Deus solus sit auctor gratiae et gloriae, ut solus
+          <lb ed="#P" n="86"/>ipse orandus sit, tanquam is qui per se
+          <lb ed="#P" n="87"/>potest facere quod postulatur ? Quia non 
+          so<lb break="no" ed="#P" n="88"/>lum gratiam vel gloriam, verum nec 
+          mini<lb break="no" ed="#P" n="89"/>mum aliquod bonum potest aliquis praeter
+          <lb ed="#P" n="90"/>Deum per seipsum conferre; ergo si oratio
+          <lb ed="#P" n="91"/>fiat ad aliquem ut per se auctorem boni
+          <lb ed="#P" n="92"/>postulati, de quocumque bono fiat, ad Deum
+          <lb ed="#P" n="93"/>tantum fieri potest, etiamsi tale bonum neque
+          <lb ed="#P" n="94"/>sit gratia, neque gloria, neque ad eam 
+          refe<lb break="no" ed="#P" n="95"/>ratur.
+        </p>
+        <p xml:id="szovsr-m00717-d1e293">
+          <lb ed="#P" n="96"/>4. Unde probetur adequate, peculiariter 
+          so<lb break="no" ed="#P" n="97"/>tun Deum orandwm esse. —Dico igitur 
+          pro<lb break="no" ed="#P" n="98"/>priam et adaequatam rationem petendi a Deo
+          <lb ed="#P" n="99"/>modo illi proprio et incommunicabili 
+          creatu<lb break="no" ed="#P" n="100"/>rae, esse quia oratio ad Deum fieri debet 
+          tan<lb break="no" ed="#P" n="101"/>quam ad principalem auctorem boni postulati,
+          <lb ed="#P" n="102"/>qui per seipsum illud conferre potest. In illa
+          <lb ed="#P" n="103"/>autem particula, per seipsum, includitur 
+          pri<lb break="no" ed="#P" n="104"/>mo quod propria virtute possit conferre 
+          bo<lb break="no" ed="#P" n="105"/>num quod postulatur. Secundo, ut in eo bono
+          <lb ed="#P" n="106"/>conferendo, si velit, a nullo pendeat. Tertio,
+          <lb ed="#P" n="107"/>quod a nemine impediri possit. Quarto, ut
+          <pb ed="#P" n="32"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ipse sua virtute et voluntate possit, vel 
+          au<lb break="no" ed="#P" n="2"/>ferre impedimenta, vel disponere omnia
+          <lb ed="#P" n="3"/>aliunde necessaria, ut talis effectus fiat. 
+          Ita<lb break="no" ed="#P" n="4"/>que in summa est petere ab aliquo ut a 
+          pri<lb break="no" ed="#P" n="5"/>mo auctore illius boni quod petitur, et 
+          insu<lb break="no" ed="#P" n="6"/>perabili, ut sic dicam, in eo conferendo, si
+          <lb ed="#P" n="7"/>* velit. Oratio ergo procedens ex hac 
+          existima<lb break="no" ed="#P" n="8"/>tione et fide in solum Deum cadere potest.
+          <lb ed="#P" n="9"/>Et sub ea ratione fieri debet, ut cultum latriae
+          <lb ed="#P" n="10"/>contineat, unde nisi ita fiat ad Deum, non
+          <lb ed="#P" n="11"/>recte fit; et si ad alium fieret, non esset vera
+          <lb ed="#P" n="12"/>oratio, quam supra diximus debere esse 
+          ac<lb break="no" ed="#P" n="13"/>tum honestum, sed esset execranda petitio,
+          <lb ed="#P" n="14"/>et actus idololatriae. Nam per eam 
+          tribueren<lb break="no" ed="#P" n="15"/>tur creaturae propria atiributa Dei.
+        </p>
+        <p xml:id="szovsr-m00717-d1e358">
+          <lb ed="#P" n="16"/>5. Ex eodem capite probatur solum Deum
+          <lb ed="#P" n="17"/>orandum esse, etiam ad nalure bonum 
+          ob<lb break="no" ed="#P" n="18"/>Linendwmn.— Haec ergo est generalis ratio,
+          <lb ed="#P" n="19"/>ob quam et sub qua solus Deus orandus est,
+          <lb ed="#P" n="20"/>et habet locum in postulatione 
+          cujuscun<lb break="no" ed="#P" n="21"/>que boni, sive pertineat ad ordinem 
+          gra<lb break="no" ed="#P" n="22"/>tiae et gloriae, sive ad ordinem naturae, et sive
+          <lb ed="#P" n="23"/>hoc referatur ad illud, sive non, dummodo
+          <lb ed="#P" n="24"/>in se tale sit, ut decenter a Deo postulari
+          <lb ed="#P" n="25"/>possit. Quod ideo addo, quia bonum ex 
+          inte<lb break="no" ed="#P" n="26"/>gra causa, et malum ex quocunque defectu.
+          <lb ed="#P" n="27"/>Unde si quis postularet a Deo tanquam a 
+          pri<lb break="no" ed="#P" n="28"/>mo auctore, et sub ratione explicata, 
+          auxi<lb break="no" ed="#P" n="29"/>lium peculiare ad occidendum inimicum, vel
+          <lb ed="#P" n="30"/>vindictam de illo sumendam , quamvis non
+          <lb ed="#P" n="31"/>erraret profitenáo Deum ut primum 
+          aucto<lb break="no" ed="#P" n="32"/>rem omnis realis effectus, nihilominus neque
+          <lb ed="#P" n="33"/>illum coleret, neque religionis actum faceret,
+          <lb ed="#P" n="34"/>quia rem indecentem, et alienam a Dei 
+          boni<lb break="no" ed="#P" n="35"/>tate ab ipso postularet; oportet autem per
+          <lb ed="#P" n="36"/>orationem non solum profiteri Deum 
+          omni<lb break="no" ed="#P" n="37"/>potentem, sed etiam summa bonitate et 
+          sa<lb break="no" ed="#P" n="38"/>pientia operantem. Supponenda ergo est 
+          ca<lb break="no" ed="#P" n="39"/>pacitas materiae, seu decentia respectu Dei,
+          <lb ed="#P" n="40"/>et circa illam oratio propria solius Dei, est,
+          <lb ed="#P" n="41"/>quod ab illo petatur ut a primo auctore. 
+          At<lb break="no" ed="#P" n="42"/>que ita intelligitur facile quomodo oratio non
+          <lb ed="#P" n="43"/>solum sit actus latriae infusae, quando 
+          petun<lb break="no" ed="#P" n="44"/>tur dona gratiae, sed etiam quando petuntur
+          <lb ed="#P" n="45"/>beaa naturae, quia recognoscere Deum ut
+          <lb ed="#P" n="46"/>primum augtorem eorum, modo declarato,
+          <lb ed="#P" n="47"/>et profiteri illud cum firmitate et certitudine,
+          <lb ed="#P" n="48"/>opus est gratiae, non naturae.
+        </p>
+        <p xml:id="szovsr-m00717-d1e432">
+          <lb ed="#P" n="49"/>6. Ratio D. Thome supra posita non videtur
+          <lb ed="#P" n="50"/>adcequata. — Cur ergo D. Thomas hanc 
+          ra<lb break="no" ed="#P" n="51"/>tionem reduxit ad illud principium, quod 
+          so<lb break="no" ed="#P" n="52"/>lus Deus est auctor gratiae et gloriae? Nam
+          <lb ed="#P" n="53"/>hoc principium magis restrictum et 
+          limita<lb break="no" ed="#P" n="54"/>tum est; nam Deus non tantum illo modo
+          <lb ed="#P" n="55"/>a nobis explicato est proprius et singularis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>auctor gratiae et gloriae, sed etiam quia solus
+          <lb ed="#P" n="57"/>ipse potest eam dare propria virtute, etiam
+          <lb ed="#P" n="58"/>in ratione causae proximae principalis. Ex quo
+          <lb ed="#P" n="59"/>optime infertur gratiam et gloriam peculari
+          <lb ed="#P" n="60"/>quidem titulo a solo Deo esse petendam ; 
+          ta<lb break="no" ed="#P" n="61"/>men inde non sequitur illam esse adaequatam
+          <lb ed="#P" n="62"/>rationem , secundum quam singulariter est
+          <lb ed="#P" n="63"/>orandus Deus : alias reliqua omnia bona,
+          <lb ed="#P" n="64"/>quae non sunt gratia et gloria, neque ad eum
+          <lb ed="#P" n="65"/>finem referuntur a petente, aeque possent
+          <lb ed="#P" n="66"/>postulari a creatura ac a Deo ipso, quod
+          <lb ed="#P" n="67"/>constat dici non posse. Imo etiamsi orans 
+          de<lb break="no" ed="#P" n="68"/>sideraret bona temporalia propter gratiam
+          <lb ed="#P" n="69"/>et gloriam, posset illa petere ab alio, qui
+          <lb ed="#P" n="70"/>posset ea dare, etiamsi non posset dare 
+          gra<lb break="no" ed="#P" n="71"/>tiam et gloriam. Ut si quis desideret studium
+          <lb ed="#P" n="72"/>propter beneficium obtinendum, nihilominus
+          <lb ed="#P" n="73"/>bene petit auxilium ad studendum ab aliquo
+          <lb ed="#P" n="74"/>qui potest illud dare, quamvis beneficium
+          <lb ed="#P" n="75"/>dare non possit. Sic ergo si ratio adaequata,
+          <lb ed="#P" n="76"/>ob quam solus Deus peculiari modo orandus
+          <lb ed="#P" n="77"/>est, esset quia solus potest dare gratiam et
+          <lb ed="#P" n="78"/>gloriam, solum haberet locum in illa 
+          oratio<lb break="no" ed="#P" n="79"/>ne, per quam petitur gratia et gloria, non
+          <lb ed="#P" n="80"/>veroin petitione inferiorum bonorum, 
+          etiam<lb break="no" ed="#P" n="81"/>si ex intentione et desiderio petentis propter
+          <lb ed="#P" n="82"/>gratiam et gloriam petantur.
+        </p>
+        <p xml:id="szovsr-m00717-d1e510">
+          <lb ed="#P" n="83"/>7. Quomodo explicetur a Cajetano. — Non
+          <lb ed="#P" n="84"/>admittitur ejus eaopositio. — Unde petenda sit
+          <lb ed="#P" n="85"/>supernaturalitas orationis. — In explicanda
+          <lb ed="#P" n="86"/>illa ratione laborat Cajetanus, et in summa
+          <lb ed="#P" n="87"/>dicit, orationem non ordinatam ad 
+          consecutio<lb break="no" ed="#P" n="88"/>nem gratiae et gloriae, etiamsi mala non sit,
+          <lb ed="#P" n="89"/>non esse simpliciter orationem, quia non est
+          <lb ed="#P" n="90"/>actus religionis, neque ad ipsius ordinem 
+          per<lb break="no" ed="#P" n="91"/>tinet; sentitque omnem orationem factam in
+          <lb ed="#P" n="92"/>peccato mortali esse hujusmodi, quia non
+          <lb ed="#P" n="93"/>ordinatur ad finem ultimum charitatis. Unde
+          <lb ed="#P" n="94"/>etiam consequenter sentit omnem orationem
+          <lb ed="#P" n="95"/>factam ex fide et religione ordinari ad 
+          gra<lb break="no" ed="#P" n="96"/>tiam et gloriam consequendam. Unde 
+          con<lb break="no" ed="#P" n="97"/>cludit divum Thomam locutum esse de hac
+          <lb ed="#P" n="98"/>oratione, quae ex fide et religione procedit.
+          <lb ed="#P" n="99"/>Sed non video necessitatem ob quam in has
+          <lb ed="#P" n="100"/>augustias redigamur, et in rigore, nec 
+          verita<lb break="no" ed="#P" n="101"/>tem video in illis propositionibus. Nam 
+          im<lb break="no" ed="#P" n="102"/>primis existimo fidelem peccatorem posse
+          <lb ed="#P" n="103"/>elicere actum orationis ad Deum, qui actus
+          <lb ed="#P" n="104"/>secundum speciem suam pertineat ad 
+          religio<lb break="no" ed="#P" n="105"/>nem infusam, quamvis in illo statu non 
+          eli<lb break="no" ed="#P" n="106"/>ciatur ab habitu, sed ab auxilio. Nam, ut
+          <lb ed="#P" n="107"/>suppono, idem actus secundum speciem elici
+          <lb ed="#P" n="108"/>potest ab illo qui non habet habitum, etiam
+          <lb ed="#P" n="109"/>in supernaturalibus actibus. Et in praesenti
+          <lb ed="#P" n="110"/>patet, quia potest peccator fidelis ex fide pe-
+          <pb ed="#P" n="33"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tere a Deo et gratiam, et remissionem 
+          pec<lb break="no" ed="#P" n="2"/>cati, media poenitentia, potestque id petere
+          <lb ed="#P" n="3"/>sicut oportet, ut per se constat, et supra
+          <lb ed="#P" n="4"/>etiam dictum est. Unde ulterius infero posse
+          <lb ed="#P" n="5"/>peccatorem fidelem petere aliquid a Deo 
+          ora<lb break="no" ed="#P" n="6"/>tione vera et supernaturali, etiamsi ex 
+          inten<lb break="no" ed="#P" n="7"/>tione sua non ordinet bonum, quod petit, ad
+          <lb ed="#P" n="8"/>gratiam et gloriam. Probatur, quia oratio
+          <lb ed="#P" n="9"/>proxime ac formaliter non habet quod sit 
+          su<lb break="no" ed="#P" n="10"/>pernaturalis, ex eo quod res postulata propter
+          <lb ed="#P" n="11"/>supernaturalem finem ab orante postulatur;
+          <lb ed="#P" n="12"/>nam hic finis extrinsecus est, et actus non
+          <lb ed="#P" n="13"/>habet speciem suam ex fine extrinseco, sed
+          <lb ed="#P" n="14"/>ex objecto formali et intrinseco. Est ergo
+          <lb ed="#P" n="15"/>illa oratio supernaturalis quatenus fit ex fide,
+          <lb ed="#P" n="16"/>et quatenus regulis supernaturalibus 
+          confor<lb break="no" ed="#P" n="17"/>matur, et ideo nititur in Deo, ut in auctore
+          <lb ed="#P" n="18"/>supernaturali aliquo modo, sive collaturus
+          <lb ed="#P" n="19"/>sit bonum illud propter supernaturalem finem
+          <lb ed="#P" n="20"/>gloriae, sive propter aliam causam. Unde
+          <lb ed="#P" n="21"/>talis petitio boni naturalis ordinis propter
+          <lb ed="#P" n="22"/>convenientiam cum natura, non addita 
+          rela<lb break="no" ed="#P" n="23"/>tione ad gloriam ex parte petentis, nec 
+          for<lb break="no" ed="#P" n="24"/>mali, nec virtuali, non solum in peccatore
+          <lb ed="#P" n="25"/>fideli, sed etiam in homine justo esse potest
+          <lb ed="#P" n="26"/>modo supernaturali, atque adeo ex religione
+          <lb ed="#P" n="27"/>infusa, quia sola gratia habitualis ex se non
+          <lb ed="#P" n="28"/>praebet illam relationem.
+        </p>
+        <p xml:id="szovsr-m00717-d1e638">
+          <lb ed="#P" n="29"/>8. Objectio. — Dilutio. —Dices: ipsa 
+          ora<lb break="no" ed="#P" n="30"/>lio, eo ipso quod supernaturalis est, et a 
+          vir<lb break="no" ed="#P" n="31"/>tute infusa, ex se et natura sua tendit in 
+          su<lb break="no" ed="#P" n="32"/>pernaturalem finem gloriae. Respondeo nos
+          <lb ed="#P" n="33"/>nunc non agere de ipsa oratione, sed de 
+          bo<lb break="no" ed="#P" n="34"/>no postulato per orationem, quando naturale
+          <lb ed="#P" n="35"/>est, licet supernaturali modo petatur, et ideo
+          <lb ed="#P" n="36"/>etiam tunc bonum illud ex se non tendit in
+          <lb ed="#P" n="37"/>finem supernaturalem, nisi ab orante 
+          refera<lb break="no" ed="#P" n="38"/>tur : non refertur autem ex eo tantum quod
+          <lb ed="#P" n="39"/>supernaturaliter petitur, nisi petatur ut 
+          me<lb break="no" ed="#P" n="40"/>dium ad finem supernaturalem. Nam caecus
+          <lb ed="#P" n="41"/>qui petebat visum, certe petebat miraculoso
+          <lb ed="#P" n="42"/>atque adeo supernaturali modo sibi restitui
+          <lb ed="#P" n="43"/>visum, et tamen nondum eo perveniebat ut
+          <lb ed="#P" n="44"/>corporalem visum propter gloriam 
+          desidera<lb break="no" ed="#P" n="45"/>ret.
+        </p>
+        <p xml:id="szovsr-m00717-d1e678">
+          <lb ed="#P" n="46"/>9. Addo denique, etiam in ordine orationis
+          <lb ed="#P" n="47"/>naturalis et acquisitae, quam Cajetanus ponit,
+          <lb ed="#P" n="48"/>fatendum esse dari proprium et peculiarem
+          <lb ed="#P" n="49"/>modum orandi Deum, incommunicabilem
+          <lb ed="#P" n="50"/>creaturis; sic enim nunc Judaeus vel 
+          Paga<lb break="no" ed="#P" n="51"/>nus, qui verum Deum agnoscit, solum ipsum
+          <lb ed="#P" n="52"/>orat laanquam primum auctorem et principium
+          <lb ed="#P" n="53"/>rerum, et contra rationem naturalem ageret,
+          <lb ed="#P" n="54"/>si eo modo ab alio quam a Deo peteret. Et
+          <lb ed="#P" n="55"/>Gentes colentes idola non solum committunt
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>idololatriae peccatum adorando falsum Deum,
+          <lb ed="#P" n="57"/>sed etiam petendo et orando ipsum, etiam si
+          <lb ed="#P" n="58"/>non petant nisi temporalia bona, et mere 
+          na<lb break="no" ed="#P" n="59"/>turahter. Igitur distinctio illa triplicis orationis
+          <lb ed="#P" n="60"/>ordinatae ad gloriam, non ordinatae, et 
+          inordi<lb break="no" ed="#P" n="61"/>natae contraric, quam Cajetanus hac occasione
+          <lb ed="#P" n="62"/>affert, et doctrina quam in ea fundat, nec 
+          ne<lb break="no" ed="#P" n="63"/>cessariagnec solida videtur, nec sufficiens ad
+          <lb ed="#P" n="64"/>explicandam ac defendendam rationem D.
+          <lb ed="#P" n="65"/>Thomae.
+        </p>
+        <p xml:id="szovsr-m00717-d1e726">
+          <lb ed="#P" n="66"/>10. Auctoris judicium circa rationen D.
+          <lb ed="#P" n="67"/>Thomee. — Duo ergo circa illam rationem et
+          <lb ed="#P" n="68"/>objectionem factam mihi dicenda occurrunt.
+          <lb ed="#P" n="69"/>Unum est, rationem illam fore facilem, et 
+          sa<lb break="no" ed="#P" n="70"/>tis convenientem, si nomine gratiae non 
+          in<lb break="no" ed="#P" n="71"/>telligeremus solam gratiam supernaturalem,
+          <lb ed="#P" n="72"/>sed in universum omne beneficium non 
+          debi<lb break="no" ed="#P" n="73"/>tum homini, et dandum illi per superiorem
+          <lb ed="#P" n="74"/>aliquam providentiam, quae, s; necesse sit,
+          <lb ed="#P" n="75"/>excedat communem cursum naturae, et 
+          cau<lb break="no" ed="#P" n="76"/>sarum secundarum. Nam revera omnis 
+          ora<lb break="no" ed="#P" n="77"/>tio, quae ad Deum fit modo illi proprio ac 
+          sin<lb break="no" ed="#P" n="78"/>gulari, postulat a Deo, quantum est ex se, 
+          ali<lb break="no" ed="#P" n="79"/>quod simile beneficium ; nam si Deus nihil
+          <lb ed="#P" n="80"/>posset conferre nisi per causas naturales, et
+          <lb ed="#P" n="81"/>secundum communem cursum earum, inutilis
+          <lb ed="#P" n="82"/>esset petitio a Deo, ut ex supra dictis constat ;
+          <lb ed="#P" n="83"/>ergo qui a Deo petit, sub illa existimatione et
+          <lb ed="#P" n="84"/>ea intentione petit, ac proinde semper 
+          postu<lb break="no" ed="#P" n="85"/>lat aliquo modo gratiam, et talem qualem
+          <lb ed="#P" n="86"/>nullus alius praeter Beum concedere potest,
+          <lb ed="#P" n="87"/>quia nullus alius est auctor totius naturae, 
+          ne<lb break="no" ed="#P" n="88"/>que habet in manu sua cursum ejus, nisi
+          <lb ed="#P" n="89"/>ipse. Nam, licet daemones possint aliquo
+          <lb ed="#P" n="90"/>modo impedire inferiores causas, vel 
+          appli<lb break="no" ed="#P" n="91"/>care illas per motum localem, tamen neque
+          <lb ed="#P" n="92"/>in hoc possunt libere quantum volunt, sed
+          <lb ed="#P" n="93"/>quanitum permittuntur; nec etiamsi 
+          permit<lb break="no" ed="#P" n="94"/>tantur, semper valent efficere quod cupiunt,
+          <lb ed="#P" n="95"/>maxime in his quae pendent ab arbitrio 
+          hu<lb break="no" ed="#P" n="96"/>mano. Deus autem simpliciter potest conferre
+          <lb ed="#P" n="97"/>beneficium quod ab eo postulatur, et ideo
+          <lb ed="#P" n="98"/>oratio ad Deum semper est petitio alicujus
+          <lb ed="#P" n="99"/>grat:ae, quam solus ipse conferre potest. Certe
+          <lb ed="#P" n="100"/>improbare non possum doctrinam hanc, et
+          <lb ed="#P" n="101"/>rationem, quae, sic declarata, coincidit cum
+          <lb ed="#P" n="102"/>ea quam a principio dedimus. Tamen neque
+          <lb ed="#P" n="103"/>etiam possum asserere D. Thom. in hoc sensu
+          <lb ed="#P" n="104"/>usum fuisse nomine gratiae, quia aliud constat
+          <lb ed="#P" n="105"/>ex loco Psalmi quem allegat, et ex discursu
+          <lb ed="#P" n="106"/>articuli.
+        </p>
+        <p xml:id="szovsr-m00717-d1e817">
+          <lb ed="#P" n="107"/>11. Unde possumus secundo dicere D.
+          <lb ed="#P" n="108"/>Thom. non fuisse sollicitum de reddenda 
+          ada<lb break="no" ed="#P" n="109"/>quata ratione, ob quam Deus speciali quodam
+          <lb ed="#P" n="110"/>et singulari modo orandus est, quacumque
+          <pb ed="#P" n="34"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ratione vel fine aliquid decens ab eo petatur;
+          <lb ed="#P" n="2"/>sed considerasse convenientiorem orandi 
+          mo<lb break="no" ed="#P" n="3"/>dum, quem servare debent omnes qui recta
+          <lb ed="#P" n="4"/>fide ac religione orant. Atque ita specialem
+          <lb ed="#P" n="5"/>tantum rationem reddidisse, propter quam,
+          <lb ed="#P" n="6"/>secundum illam orandi rationem, solus Deus
+          <lb ed="#P" n="7"/>orari potest. Quod sane etiam Cajetanus in
+          <lb ed="#P" n="8"/>re ipsa concedit; ait enim divum Thomam
+          <lb ed="#P" n="9"/>solum fuisse locutum de oratione, qua 
+          for<lb break="no" ed="#P" n="10"/>maliter vel virtute petitur gloria, aut aliquod
+          <lb ed="#P" n="11"/>medium ad gloriam, quatenus medium ad
+          <lb ed="#P" n="12"/>illam est. Et nihilominus non dicit omnem
+          <lb ed="#P" n="13"/>aliam orationem fuisse malam, aut non posse
+          <lb ed="#P" n="14"/>fieri ex fide, et motivo cultus divini, quod 
+          sa<lb break="no" ed="#P" n="15"/>tis est ut illa ad solum Deum fundi possit;
+          <lb ed="#P" n="16"/>ergo necesse est ut concedat illam rationem,
+          <lb ed="#P" n="17"/>quae sumitur ex eo quod solus Deus est 
+          auc<lb break="no" ed="#P" n="18"/>tor gratia et gloriae, non esse adaequatam.
+          <lb ed="#P" n="19"/>Potest autem inde per proportionem extendi
+          <lb ed="#P" n="20"/>ratio ; nam, sicut gratia et gloria non potest
+          <lb ed="#P" n="21"/>peti ab aliquo tanquam a principali auctore,
+          <lb ed="#P" n="22"/>quia Dcus hoc sibi vendicat tanquam 
+          pro<lb break="no" ed="#P" n="23"/>prium, ita quodlibet bonum a solo Deo 
+          pos<lb break="no" ed="#P" n="24"/>tulari potest, quatenus singulari et proprio
+          <lb ed="#P" n="25"/>quodam modo est auctor omnis boni. Addere
+          <lb ed="#P" n="26"/>subinde possumus divum Thomam non sine
+          <lb ed="#P" n="27"/>causa ita fuisse de oratione locutum; nam
+          <lb ed="#P" n="28"/>oratio christiana, ut sit efficax, debet niti in
+          <lb ed="#P" n="29"/>promissione divina, quae non est de bonis
+          <lb ed="#P" n="30"/>inferioribus, nisi ut ordinantur ad gratiam et
+          <lb ed="#P" n="31"/>gloriam ; et ideo qui aliter petit, quantum est
+          <lb ed="#P" n="32"/>ex se eflicaciter non petit; ac subinde, e 
+          con<lb break="no" ed="#P" n="33"/>verso, qui habet animum petendi, nixus in
+          <lb ed="#P" n="34"/>promissione divina, etiamsi de gloria non 
+          co<lb break="no" ed="#P" n="35"/>gitet, propter illam petere videtur. Et in hoc
+          <lb ed="#P" n="36"/>sensu, et respectu talis orationis, ratio est
+          <lb ed="#P" n="37"/>sufficiens et optima, quia simul docet 
+          verita<lb break="no" ed="#P" n="38"/>tem, et convenientem orandi modum.
+        </p>
+        <p xml:id="szovsr-m00717-d1e915">
+          <lb ed="#P" n="39"/>12. Difficultas quedam orta em ratione.—
+          <lb ed="#P" n="40"/>Alia occurrit difficultas circa rationem datam:
+          <lb ed="#P" n="41"/>nam ex ea sequitur non posse nos aliquid
+          <lb ed="#P" n="42"/>postulare ab una persona divina , quod ab
+          <lb ed="#P" n="43"/>omnibus non postulemus; consequens est 
+          fal<lb break="no" ed="#P" n="44"/>sum; ergo. Sequela patet, quia ratio ex
+          <lb ed="#P" n="45"/>parte Dei, ob quam ad illum singulariter 
+          ora<lb break="no" ed="#P" n="46"/>mus, sive sit omnipotens ejus voluntas et 
+          bo<lb break="no" ed="#P" n="47"/>nitas, sive sit ejus promissio, una est 
+          commu<lb break="no" ed="#P" n="48"/>nis omnibus personis ; ergo et oratio 
+          neces<lb break="no" ed="#P" n="49"/>sario esse debet omnibus communis, juxta
+          <lb ed="#P" n="50"/>illud principium: Opera Trinitatis ad extra
+          <lb ed="#P" n="51"/>sunt indivisa; ob quam etiam adoratio est
+          <lb ed="#P" n="52"/>indivisa. Minor probatur ex usu Ecclesia :
+          <lb ed="#P" n="53"/>nam ordinarie orat ad solum Patrem, cujus
+          <lb ed="#P" n="54"/>signum est, quia in fine collectarum subdere
+          <lb ed="#P" n="55"/>solet: Per Dominum nostrum Jesum Chris-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tum, Filium tuum, qui tecum, etc. Quod ita
+          <lb ed="#P" n="57"/>etiam declaratur in Concilio Carthagin. III,
+          <lb ed="#P" n="58"/>can. 23. Item in litaniis sigillatim ad singulas
+          <lb ed="#P" n="59"/>personas dicit: Pater de celis Deus, miserere
+          <lb ed="#P" n="60"/>nolis ; Fili, etc.
+        </p>
+        <p xml:id="szovsr-m00717-d1e967">
+          <lb ed="#P" n="61"/>13. Difficultati positae respondetur, et 
+          ora<lb break="no" ed="#P" n="62"/>tionem fundi posse ad unam personam divinam,
+          <lb ed="#P" n="63"/>sive respectu ad aliam, ostenditur. — 
+          Dicen<lb break="no" ed="#P" n="64"/>dum vero est nunquam esse ita orandum ad
+          <lb ed="#P" n="65"/>unam personam, ut excludantur reliquae .
+          <lb ed="#P" n="66"/>Hoc probat ratio facta, quia nihil potest dare
+          <lb ed="#P" n="67"/>una persona sine aliis, essetque stultum et
+          <lb ed="#P" n="68"/>erroneum hoc petere aut sperare. 
+          Nihilomi<lb break="no" ed="#P" n="69"/>nus dicimus secundo, licitum esse loqui 
+          spe<lb break="no" ed="#P" n="70"/>cialiter in oratione cum una persona, non 
+          di<lb break="no" ed="#P" n="71"/>rigendo locutionem ad alias ex propria et
+          <lb ed="#P" n="72"/>formali intentione orantis. Hoc probat usus
+          <lb ed="#P" n="73"/>Ecclesiae. Et ratio est, quia illae personae vcre
+          <lb ed="#P" n="74"/>sunt distinctae, et quatenus a nobis confuse et
+          <lb ed="#P" n="75"/>abstracte cognoscuntur, possumus cogitare
+          <lb ed="#P" n="76"/>de una, non cogitando actu de aliis. Rursus
+          <lb ed="#P" n="77"/>unaquaeqne per se spectata est verus Deus;
+          <lb ed="#P" n="78"/>ergo possumus ab unaquaque sigillatim 
+          pe<lb break="no" ed="#P" n="79"/>tere tanquam a vero Deo, et hoc facit 
+          Eccle<lb break="no" ed="#P" n="80"/>sia in litania, et fortasse id facit ad 
+          profiten<lb break="no" ed="#P" n="81"/>dam hanc fidem de distinctione personarum,
+          <lb ed="#P" n="82"/>et quod singula sint verus Deus; ut autem
+          <lb ed="#P" n="83"/>profiteatur omnes esse eumdem Deum, 
+          sub<lb break="no" ed="#P" n="84"/>jungit : Sancta Trinitas unus Deus, miserere
+          <lb ed="#P" n="85"/>nobis. Eodem ergo modo possumus nos et ore
+          <lb ed="#P" n="86"/>et mente orare.
+        </p>
+        <p xml:id="szovsr-m00717-d1e1026">
+          <lb ed="#P" n="87"/>14. Quamobrem dirigat Ecclesia suas 
+          ora<lb break="no" ed="#P" n="88"/>tiones ad Paitrem? — Quando solus Filius
+          <lb ed="#P" n="89"/>consueverit orari ab Ecclesia. — Cur Hoclesia
+          <lb ed="#P" n="90"/>non dirigat specialiter ad Spiritum Sanctum
+          <lb ed="#P" n="91"/>aliquam orationem es Collectis. — Seepe etiam
+          <lb ed="#P" n="92"/>haec oratio accommodatur uni vel alteri 
+          per<lb break="no" ed="#P" n="93"/>sonae, secundum quamdam appropriationem.
+          <lb ed="#P" n="94"/>Nam, sicut solemus attributa essentialia 
+          ap<lb break="no" ed="#P" n="95"/>propriare personis, non ut alias personas 
+          ex<lb break="no" ed="#P" n="96"/>cludamus ab identitate in illis attributis, sed
+          <lb ed="#P" n="97"/>ut proprietatem aliquam talis personae 
+          indi<lb break="no" ed="#P" n="98"/>cemus, ita etiam oramus ad singulas per
+          <lb ed="#P" n="99"/>quamdam appropriationem, ut aliquid 
+          pecu<lb break="no" ed="#P" n="100"/>liare in illis recognoscamus. Sic Ecclesiae 
+          ora<lb break="no" ed="#P" n="101"/>tiones regulariter diriguntur ad personam
+          <lb ed="#P" n="102"/>Patris tanquam ad primum principium, et
+          <lb ed="#P" n="103"/>fontem divinitatis. Quia sicut omnipotentia ob
+          <lb ed="#P" n="104"/>hanc causam appropriatur Patri, ita ob 
+          eam<lb break="no" ed="#P" n="105"/>dem rationem ad illum dirigit Ecclesia 
+          ora<lb break="no" ed="#P" n="106"/>tiones suas; quam rationem aftert D. Thomas,
+          <lb ed="#P" n="107"/>in 4, distinct. 15, quaestion. 4, artic. 5, 
+          quaes<lb break="no" ed="#P" n="108"/>tion. 3, ad 1. Alia reddi potest, quia solus
+          <pb ed="#P" n="35"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Pater proprie dicitur misisse Filium suum,
+          <lb ed="#P" n="2"/>Iicet tam Filius quam Spiritus Sanctus 
+          Incar<lb break="no" ed="#P" n="3"/>nationem etiam operati fuerint ; unde quia
+          <lb ed="#P" n="4"/>Ecclesia consuevit petere propter Christum,
+          <lb ed="#P" n="5"/>ideo ad Patrem, qui illum misit, orationes 
+          di<lb break="no" ed="#P" n="6"/>rigit, ut commodius addat terminationem 
+          il<lb break="no" ed="#P" n="7"/>lam: Per Dominum nostrum Jesum Christum,
+          <lb ed="#P" n="8"/>etc. Dum autem ad Patrem orat, non 
+          exclu<lb break="no" ed="#P" n="9"/>dit alias personas, sed potius virtute 
+          inclu<lb break="no" ed="#P" n="10"/>dit, ut notavit Tertullian., in lib. de 
+          Oratio<lb break="no" ed="#P" n="11"/>ne, et ad hoc significandum addere solet in
+          <lb ed="#P" n="12"/>fine orationum verba illa: Qui tecum vivit et
+          <lb ed="#P" n="13"/>regnat in unitate Spiritus Sancti Deus. 
+          Non<lb break="no" ed="#P" n="14"/>nullae item orationes Ecclesiae diriguntur 
+          spe<lb break="no" ed="#P" n="15"/>cialiter ad personam Filii, fortasse quia 
+          so<lb break="no" ed="#P" n="16"/>Ius Filius incarnatus est, et ideo maxime hoc
+          <lb ed="#P" n="17"/>consuevit facere Ecclesia in his orationibus,
+          <lb ed="#P" n="18"/>quae continent aliquem respectum vel 
+          habitu<lb break="no" ed="#P" n="19"/>dinem ad personam incarnatam, ut videre 
+          li<lb break="no" ed="#P" n="20"/>cet in orationibus de sanctissimo Eucharistiae
+          <lb ed="#P" n="21"/>sacramento, et in vigilia sancti Joannis 
+          Bap<lb break="no" ed="#P" n="22"/>tistae, et in festo sanctae Annae, et sancti 
+          Jo<lb break="no" ed="#P" n="23"/>seph, et similibus. Inter collectas autem 
+          Ec<lb break="no" ed="#P" n="24"/>clesiae non invenimus orationem specialiter
+          <lb ed="#P" n="25"/>directam ad personam Spiritus Sancti, cujus
+          <lb ed="#P" n="26"/>rationem divus Thomas supra, ad 2, reddit,
+          <lb ed="#P" n="27"/>quia Spiritus Sanctus procedit ut donum, 
+          cu<lb break="no" ed="#P" n="28"/>jus magis proprium est dari quam dare, et
+          <lb ed="#P" n="29"/>ideo magis consuevit Ecclesia petere ut sibi
+          <lb ed="#P" n="30"/>donetur Spiritus Sanctus a Patre, et Filio,
+          <lb ed="#P" n="31"/>quam ab ipsomet Spiritu Sancto. Vel fortasse
+          <lb ed="#P" n="32"/>id factum est quia Spiritus Sanctus neque est
+          <lb ed="#P" n="33"/>principium deitatis, sicut Pater, neque factus
+          <lb ed="#P" n="34"/>est homo, sicut Filius. Quamvis autem in 
+          col<lb break="no" ed="#P" n="35"/>lectis hoc servet Ecclesia, aliis modis dirigit
+          <lb ed="#P" n="36"/>orationes suas ad personam Spiritus Sancti,
+          <lb ed="#P" n="37"/>ut in litania, in hymnis: Nunc sancte nobis
+          <lb ed="#P" n="38"/>Spiritus ; et: Veni, creator Spiritus; et in 
+          pro<lb break="no" ed="#P" n="39"/>sa, et aliis similibus.
+        </p>
+        <p xml:id="szovsr-m00717-d1e1166">
+          <lb ed="#P" n="40"/>15. Oratio fundi potest ad deitatem in 
+          abs<lb break="no" ed="#P" n="41"/>tracto. — Similiter orari potest tota Trinitas
+          <lb ed="#P" n="42"/>ut sic. —Ultimo, dicendum est posse nos
+          <lb ed="#P" n="43"/>orare ad Deum non orando determinate ad
+          <lb ed="#P" n="44"/>aliquam personam. Hoc constat, quia 
+          possu<lb break="no" ed="#P" n="45"/>mus imprimis orare ad Deum, ut sic, nihil
+          <lb ed="#P" n="46"/>expresse de personis cogitando. Imo et ad
+          <lb ed="#P" n="47"/>deitatem in abstracto solet Ecclesia orare, ut
+          <lb ed="#P" n="48"/>in hymno Martyrum: Te summa Deitas, 
+          una<lb break="no" ed="#P" n="49"/>que poscimus, et quodam hymno Dominica :
+          <lb ed="#P" n="50"/>Preaestet hoc nobis Deitas beata. Aliquando vero
+          <lb ed="#P" n="51"/>invocari potest tota Trinitas ut sic. Quod est
+          <lb ed="#P" n="52"/>frequens in hymnis Ecclesiae, et apud sanctos
+          <lb ed="#P" n="53"/>Patres. Objiciunt autem quidam huaeretici,
+          <lb ed="#P" n="54"/>nam hoc est contra formam orandi nobis a
+          <lb ed="#P" n="55"/>Christo datam : Pater noster, qui es in calis,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Matth. 6, et Joann. 16: 54 quid petieritis
+          <lb ed="#P" n="57"/>Paítrem in nomine meo, dabit vobis. Sed, licet
+          <lb ed="#P" n="58"/>daremus in his locis nomen Patris 
+          personali<lb break="no" ed="#P" n="59"/>ter sumi, nulla esset illatio, quia, ut diximus,
+          <lb ed="#P" n="60"/>non excluduntur aliae personae, et ideo licet
+          <lb ed="#P" n="61"/>Christus specialiter nominaverit Patrem, quia
+          <lb ed="#P" n="62"/>ab illo habet deitatem, ut Div. Thomas supra
+          <lb ed="#P" n="63"/>dixit, non excludit alios orandi modos. Deinde
+          <lb ed="#P" n="64"/>dicitur probabile esse (ut latius lib. 3 
+          dice<lb break="no" ed="#P" n="65"/>mus) in Oratione Dominica nomen Patris 
+          di<lb break="no" ed="#P" n="66"/>rigi ad totam Trinitatem, quae nos creavit, et
+          <lb ed="#P" n="67"/>per gratiam filios adoptavit; et fortasse eodem
+          <lb ed="#P" n="68"/>modo sumitur in alio loco Joann. 16, 
+          praeser<lb break="no" ed="#P" n="69"/>tim quia cap. 14 dixit idem Christus : 
+          Quod<lb break="no" ed="#P" n="70"/>cumque petieritis Patrem in nomine meo, hoc
+          <lb ed="#P" n="71"/>faciam. Quo significat, quando Pater oratur,
+          <lb ed="#P" n="72"/>etiam ipsum orari, sicut quod Pater concedit,
+          <lb ed="#P" n="73"/>ipse etiam facit. Aliud vero dubium hinc 
+          orie<lb break="no" ed="#P" n="74"/>batur, quomodo Christus ut homo a nobis
+          <lb ed="#P" n="75"/>orandus sit. Sed hoc commodius in fine 
+          ca<lb break="no" ed="#P" n="76"/>pitis sequentis dicetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 7</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 7</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="863"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m21639"><!-- t6l2c7 -->
+        <head xml:id="szovsr-m21639-Hd1e101">Caput 7</head>
+        <head xml:id="szovsr-m21639-Hd1e103" type="question-title">Utrum actus virtutis impediens meliorem possit esse materia voti, vel necessario esse debeat votum de meliori bono?</head>
+        <p xml:id="szovsr-m21639-d1e106">
+          <lb ed="#P" n="5"/>CAPUT VII.
+          <lb ed="#P" n="6"/>UTRUM ACTUS VIRTUTIS IMPEDIENS MELIOREM
+          <lb ed="#P" n="7"/>POSSIT ESSE MATERIA VOTI, VEL 
+          NECESSA<lb break="no" ed="#P" n="8"/>RIO ESSE DEBEAT VOTUM DE MELIORI BONO?
+        </p>
+        <p xml:id="szovsr-m21639-d1e117">
+          <lb ed="#P" n="9"/>1. Ratio dubitandi. — Ratio dubitandi esse
+          <lb ed="#P" n="10"/>potest, primo quia ad faciendum aliquod opus
+          <lb ed="#P" n="11"/>propter Deum, et bene merendum coram 
+          ip<lb break="no" ed="#P" n="12"/>so, et simpliciter ad operandum in gloriam
+          <lb ed="#P" n="13"/>ejus , non est necesse facere id quod melius
+          <lb ed="#P" n="14"/>est, sed satis est facere bonum, et placens Deo,
+          <lb ed="#P" n="15"/>ut per se constat; ergo ad vovendum Deo,
+          <lb ed="#P" n="16"/>satis est quod opus sit bonum, et simplieiter
+          <lb ed="#P" n="17"/>Deo placens, etiamsi non sit melius alis. 
+          Pro<lb break="no" ed="#P" n="18"/>batur consequentia, quia non est major ratio
+          <lb ed="#P" n="19"/>de promissione, quam de donatione seu 
+          actua<lb break="no" ed="#P" n="20"/>li obligatione; imo videtur esse minor, cum
+          <lb ed="#P" n="21"/>promissio ad donationem ordinetur; ergo si
+          <lb ed="#P" n="22"/>ad actualem donationem id sufficit, ad 
+          pro<lb break="no" ed="#P" n="23"/>missionem sufficit. Confirmatur, quia in 
+          hu<lb break="no" ed="#P" n="24"/>mana promissione non solum id, quod est 
+          uti<lb break="no" ed="#P" n="25"/>lius vel melius promissario, est materia validae
+          <lb ed="#P" n="26"/>promissionis, sed satis est ut sit aliquid utile;
+          <lb ed="#P" n="27"/>ergo idem erit cum proportione erga Deum.
+          <lb ed="#P" n="28"/>Secundo explicatur in hunc modum , quia
+          <lb ed="#P" n="29"/>alias sequitur, quotiescumque actus bonus 
+          im<lb break="no" ed="#P" n="30"/>pedit meliorem , votum de illo factum non
+          <lb ed="#P" n="31"/>obligare : consequens non videtur 
+          admitten<lb break="no" ed="#P" n="32"/>dum ; ergo. Sequela clara est. Minor autem
+          <lb ed="#P" n="33"/>patet, quia alias nullum esset votum firmum
+          <lb ed="#P" n="34"/>et stabile, quia nullus est fere actns bonus,
+          <lb ed="#P" n="35"/>qui non impediat meliorem ; ut si quis vovit
+          <lb ed="#P" n="36"/>bonam actionem , impeditur a 
+          contemplatio<lb break="no" ed="#P" n="37"/>ne ; et si vovit orationem vocalem, impeditur
+          <lb ed="#P" n="38"/>a mentali ; et si vovit dare eleemosynam tali
+          <lb ed="#P" n="39"/>pauperi, fortasse esset melius dare magis 
+          in<lb break="no" ed="#P" n="40"/>digenti, vel sacerdoti , et sic de aliis. Tertio
+          <lb ed="#P" n="41"/>argumentor , quia nullus actus magis 
+          impe<lb break="no" ed="#P" n="42"/>dit melius bonum quam matrimonium ; sed
+          <lb ed="#P" n="43"/>de illo potest fieri votum, si ad cultum Dei 
+          or<lb break="no" ed="#P" n="44"/>dinetur, ut si fiat ducendi virginem 
+          paupe<lb break="no" ed="#P" n="45"/>rem animo subveniendi necessitati illius, et
+          <lb ed="#P" n="46"/>conservandi honestatem ejus; ergo.
+        </p>
+        <p xml:id="szovsr-m21639-d1e202">
+          <lb ed="#P" n="47"/>9. Resolvitur quaeestio , et asseriiur votum
+          <lb ed="#P" n="48"/>necessario esse debere de meliori bono, ut valide
+          <lb ed="#P" n="49"/>fiat. — Nibilominus dicendum est, votum 
+          ne<lb break="no" ed="#P" n="50"/>cessario esse debere de meliori bono, non 
+          so<lb break="no" ed="#P" n="51"/>lum ut recte fiat, sed etiam ut valide fiat. Haec
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>est sententia D. Thomae, d. art. 2. et in 4, d.
+          <lb ed="#P" n="53"/>398 q. 1, art. 1, q. 9. et ibi Bonay., art. 1,
+          <lb ed="#P" n="54"/>q. 2; Albert., art. 7; Majoris, q. 1; Palud.,
+          <lb ed="#P" n="55"/>q. 5, praesertim a n. 25; Richard., a. 3, q. 2;
+          <lb ed="#P" n="56"/>Durand.. q. 1, n.6; Supplem. Gabr., q. 1, in
+          <lb ed="#P" n="57"/>princ. ; Cajet., d. a. 25 Sot., a. 3, et ibi 
+          reli<lb break="no" ed="#P" n="58"/>quorum, et Summistarum, Votum ; Navar.,
+          <lb ed="#P" n="59"/>c. 19. n. 95; Anton., p., tit. 11, cap. 12. et
+          <lb ed="#P" n="60"/>in principio huius materiae vidimus , quod
+          <lb ed="#P" n="61"/>antiqui ita definiebant votum , propositum
+          <lb ed="#P" n="62"/>melioris boni promissione firmatum. Itaque
+          <lb ed="#P" n="63"/>haec videtur fuisse communis animi 
+          conce<lb break="no" ed="#P" n="64"/>ptio. Et in generali potest fundamentum ejus
+          <lb ed="#P" n="65"/>ita declarari, quia votum inducit 
+          obligatio<lb break="no" ed="#P" n="66"/>nem ; sed non potest votum obligare ad non
+          <lb ed="#P" n="67"/>faciendum id, quod melius est ; ergo non 
+          po<lb break="no" ed="#P" n="68"/>test obligare ad bonum cum detrimento 
+          me<lb break="no" ed="#P" n="69"/>lioris boni. Consequentia patet , quia jam
+          <lb ed="#P" n="70"/>obligaret ad omittendum melius bonum 
+          pro<lb break="no" ed="#P" n="71"/>pter minus. Probatur ergo minor, quia 
+          mate<lb break="no" ed="#P" n="72"/>ria voti esse debet consona divinae voluntati,
+          <lb ed="#P" n="73"/>alias Deus non acceptat illam, et consequenter
+          <lb ed="#P" n="74"/>promissio non valet ; sed obligari ad 
+          omitten<lb break="no" ed="#P" n="75"/>dum melius propter minus bonum, non est
+          <lb ed="#P" n="76"/>consonum divinae voluntati , quia voluntas
+          <lb ed="#P" n="77"/>Dei est sanctificatio nostra : unde quantum est
+          <lb ed="#P" n="78"/>ex se, cupit Deus ut homo semper faciat quod
+          <lb ed="#P" n="79"/>melius est ; ergo non placet illi, ut homo 
+          li<lb break="no" ed="#P" n="80"/>getur ad faciendum ? quod est minus 
+          bo<lb break="no" ed="#P" n="81"/>num, quia per hoc rrivatur potestate morali
+          <lb ed="#P" n="82"/>faciendi quod est melius.
+        </p>
+        <p xml:id="szovsr-m21639-d1e286">
+          <lb ed="#P" n="83"/>3. Haec autem ratio et veritas evidentior
+          <lb ed="#P" n="84"/>fiet explicando amplius, quid per melius 
+          bo<lb break="no" ed="#P" n="85"/>num intelligatur, et respondendoobjectionibus
+          <lb ed="#P" n="86"/>in principio factis. Ex dictis ergo facile 
+          intel<lb break="no" ed="#P" n="87"/>ligitur, per melius bonum non esse intelhl--
+          <lb ed="#P" n="88"/>genda sola opera consiliorum, ut auctores 
+          ci<lb break="no" ed="#P" n="89"/>tati in capite praecedenti existimarunt ; nam
+          <lb ed="#P" n="90"/>discursus factus non probat, solam religiosam
+          <lb ed="#P" n="91"/>obligationem de operibus consiliorum placere
+          <lb ed="#P" n="92"/>Deo. Quia si talis obligatio addatur operibus
+          <lb ed="#P" n="93"/>praeceptis, non impeditur homo quominus 
+          sem<lb break="no" ed="#P" n="94"/>per faciat quod Deo gratius est, nam ex 
+          tem<lb break="no" ed="#P" n="95"/>pore quo praeceptum obligat , nihil gratius
+          <lb ed="#P" n="96"/>potest homo Deo facere, quam servare 
+          prae<lb break="no" ed="#P" n="97"/>ceptum ; merito ergo illud inter meliora 
+          bo<lb break="no" ed="#P" n="98"/>na computatur. Dicitur ergo melius bonum
+          <lb ed="#P" n="99"/>quodcumque bonum opus, quod sine 
+          impedi<lb break="no" ed="#P" n="100"/>mento majoris bonis fieri potest , ita ut illa
+          <lb ed="#P" n="101"/>comparatio non fiat ad praeceptum, nec ad
+          <lb ed="#P" n="102"/>quodvis aliud melius bonum, sed ad 
+          opposi<lb break="no" ed="#P" n="103"/>tum, seu repugnans tali bono, ut bene 
+          expo<lb break="no" ed="#P" n="104"/>suit Tolet., lib. 4 Sum., cap. 17, n. 6; et 
+          si<lb break="no" ed="#P" n="105"/>gnificat Bonavent. supra. Et in simili, Gerson.,
+          <lb ed="#P" n="106"/>in tract. de Consil. Evang., Alphab. 67, lit. S,
+          <pb ed="#P" n="864"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ubi ait, cum consilia dicuntur esse de meliori
+          <lb ed="#P" n="2"/>bono, non fieri comparationem ad praecepta,
+          <lb ed="#P" n="3"/>sed ad sus contraria. Sic ergo in praesenti
+          <lb ed="#P" n="4"/>melius bonum.
+        </p>
+        <p xml:id="szovsr-m21639-d1e354">
+          <lb ed="#P" n="5"/>4. Opus melius quod est materia voti in 
+          tri<lb break="no" ed="#P" n="6"/>plici ordine distingui posse. — Potest autem
+          <lb ed="#P" n="7"/>hoc opus in tres ordines distingui : unus est
+          <lb ed="#P" n="8"/>operum praeceptorum , de quibus jam dictum
+          <lb ed="#P" n="9"/>est. Alius est quorumdam operum, quae licet
+          <lb ed="#P" n="10"/>non sint praecepta, non solum fieri bene 
+          pos<lb break="no" ed="#P" n="11"/>sunt sine impedimento majoris boni, verum
+          <lb ed="#P" n="12"/>etiam sunt de se aptissima instrumenta ad
+          <lb ed="#P" n="13"/>consequendam perfectam bonitatem et 
+          hones<lb break="no" ed="#P" n="14"/>tatem , ut sunt abrenunciatio temporalium,
+          <lb ed="#P" n="15"/>custodia castitatis , et obedientiae professio,
+          <lb ed="#P" n="16"/>quae per antonomasiam dicuntur consilia
+          <lb ed="#P" n="17"/>evangelica , et sunt praecipua materia 
+          voto<lb break="no" ed="#P" n="18"/>rum, de quibus in particulari agendum est in
+          <lb ed="#P" n="19"/>ttertio volumine hujus operis. Tertius gradus
+          <lb ed="#P" n="20"/>est nultorum bonorum operum, quae pona sunt
+          <lb ed="#P" n="21"/>non praecepta, nec de se impedientia majora
+          <lb ed="#P" n="22"/>bona, et sub hac ratione operibus 
+          supereroga<lb break="no" ed="#P" n="23"/>tionis et consilii anpumerari possunt, etiamsi
+          <lb ed="#P" n="24"/>non spectent peculiariter ad statum 
+          perfectio<lb break="no" ed="#P" n="25"/>nis tanquam propria instrumenta ejus, sed ad
+          <lb ed="#P" n="26"/>communem etiam statum virtutis pertineant,
+          <lb ed="#P" n="27"/>ut sunt jejunare , eleemosynam facere, 
+          preca<lb break="no" ed="#P" n="28"/>ri, et similia. De quibus etiam certum est, ex
+          <lb ed="#P" n="29"/>suo genere esse convenientem materiam voti.
+          <lb ed="#P" n="30"/>Quia placent Deo, et non est unde displiceant,
+          <lb ed="#P" n="31"/>cum de se meliora opera non impediant. Sic
+          <lb ed="#P" n="32"/>ergo sufficienter declarata ei probata 
+          relinqui<lb break="no" ed="#P" n="33"/>tur communis assertio. Soium circa hoc 
+          ter<lb break="no" ed="#P" n="34"/>tium membrum potest dubitari, an omnis 
+          ac<lb break="no" ed="#P" n="35"/>tus bonus non impediens meliorem possit esse
+          <lb ed="#P" n="36"/>materia voti, quod in capite sequenti 
+          tracta<lb break="no" ed="#P" n="37"/>bimus.
+        </p>
+        <p xml:id="szovsr-m21639-d1e428">
+          <lb ed="#P" n="38"/>5. Fit satis rationibus oppositis. — Ad 
+          pri<lb break="no" ed="#P" n="39"/>man. — Ad primam ergo rationem in 
+          princi<lb break="no" ed="#P" n="40"/>pio positam negatur consequentia, quia, licet
+          <lb ed="#P" n="41"/>facere aliquod opus possit ordinari in Dei 
+          glo<lb break="no" ed="#P" n="42"/>riam, obligari ad illud potest non pertinere ad
+          <lb ed="#P" n="43"/>gloriam Dei. Et ratio differentiae est, quia
+          <lb ed="#P" n="44"/>simplex operatio sine obligatione non tollit
+          <lb ed="#P" n="45"/>potestatem faciendi melius bonum in futurum,
+          <lb ed="#P" n="46"/>sed solum includit actualem voluntatem unius
+          <lb ed="#P" n="47"/>boni sine voluntate alterius, quae voluntas
+          <lb ed="#P" n="48"/>nullam habet malam circumstantiam. At vero
+          <lb ed="#P" n="49"/>promissio, seu obligatio tollit potestatem 
+          mo<lb break="no" ed="#P" n="50"/>ralem in futurum ad opus mehus, et haec 
+          abla<lb break="no" ed="#P" n="51"/>tio talis potestatis Deo non placet, et ex hac
+          <lb ed="#P" n="52"/>parte talis obligatio non cedit in gloriam Dei.
+          <lb ed="#P" n="53"/>Ita Bonaventura, dicta quaestione secunda. Ad
+          <lb ed="#P" n="54"/>confirmationem negatur similitudo, quia 
+          pro<lb break="no" ed="#P" n="55"/>missio humana fit homini, qui nec semper
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cupit quod melius est, nec curam habet 
+          per<lb break="no" ed="#P" n="57"/>fectionis promittentis, sed cui commodi; et
+          <lb ed="#P" n="58"/>licet optet quod sibi est utilius, tamen quando
+          <lb ed="#P" n="59"/>id non offertur, acceptat id quod utile est. At
+          <lb ed="#P" n="60"/>Deus semper cupit ab homine quod melius
+          <lb ed="#P" n="61"/>est, et perfectius, etiam ad honestatem ipsius
+          <lb ed="#P" n="62"/>voventis, et maxime vult illam ratione 
+          pro<lb break="no" ed="#P" n="63"/>missionis sibi factae non impedire, quominus
+          <lb ed="#P" n="64"/>possit operari, si velit, id qucd est melius et
+          <lb ed="#P" n="65"/>optimum.
+        </p>
+        <p xml:id="szovsr-m21639-d1e493">
+          <lb ed="#P" n="66"/>6. Advertendum ad secundum rationem 
+          sol<lb break="no" ed="#P" n="67"/>vendam. — Votum de actu inferiori esse 
+          vali<lb break="no" ed="#P" n="68"/>dum, nisi fiat comparatio ad meliorem. —
+          <lb ed="#P" n="69"/>Circa secundam rationem adverto , duobus
+          <lb ed="#P" n="70"/>modis posse aliquod bonum opus repugnare
+          <lb ed="#P" n="71"/>bonis melioris ordinis, scilicet, actu tantum,
+          <lb ed="#P" n="72"/>vel etiam aptitudine. Actu voco, quando actus
+          <lb ed="#P" n="73"/>inferior, solum quamdiu existit, impedit ne
+          <lb ed="#P" n="74"/>simul possit melior fieri, ut studium impedit
+          <lb ed="#P" n="75"/>orationem ; aptitudine autem appello, quando
+          <lb ed="#P" n="76"/>actus inferior semel factus reliuquit personam
+          <lb ed="#P" n="77"/>ligatam, vel impeditam moraliter, ne possit
+          <lb ed="#P" n="78"/>perfectioribus incumbere, sicut matrimonium
+          <lb ed="#P" n="79"/>impedit religiosum statum. Regula ergo 
+          as<lb break="no" ed="#P" n="80"/>sertionis positae potissimum datur de actibus
+          <lb ed="#P" n="81"/>bonis repugnantibus melioribus hoc posteriori
+          <lb ed="#P" n="82"/>modo ; et contra illam sic intellectam parum
+          <lb ed="#P" n="83"/>urget illa secunda ratio, quia inde non 
+          sequi<lb break="no" ed="#P" n="84"/>tur omnia vota de actibus minus perfectis esse
+          <lb ed="#P" n="85"/>invalida , quia non omnes illi reddunt 
+          perso<lb break="no" ed="#P" n="86"/>nam impeditam ad meliora, licet actu non
+          <lb ed="#P" n="87"/>possint simul esse cum illis. Addo vero etiam
+          <lb ed="#P" n="88"/>posse regulam extendi ad omnes actus bonos
+          <lb ed="#P" n="89"/>comparatos ad meliores incompossibiles simul
+          <lb ed="#P" n="90"/>cum illis, dummodo convenienter intelligatur.
+          <lb ed="#P" n="91"/>Dico ergo votumra de hujusmodi actu inferiori
+          <lb ed="#P" n="92"/>esse quidem validnm absolute, non tamen
+          <lb ed="#P" n="93"/>comparatione facta ad meliorem actum. Id
+          <lb ed="#P" n="94"/>est, obligare hominem simpliciter ad 
+          facien<lb break="no" ed="#P" n="95"/>dum talem actum, non tamen obligare ad
+          <lb ed="#P" n="96"/>omittendum meliorem. Probatur prior pars,
+          <lb ed="#P" n="97"/>tum quia votum illud est de quodam bono,
+          <lb ed="#P" n="98"/>quod per se non excludit melius; quod enim
+          <lb ed="#P" n="99"/>ex parte subjecti homo non possit simul
+          <lb ed="#P" n="100"/>utrumque facere , accidentarium est ; tum
+          <lb ed="#P" n="101"/>etiam quia licet aliud opus sit melius, potest
+          <lb ed="#P" n="102"/>homo nolle illud facere; ergo tunc votum
+          <lb ed="#P" n="103"/>obligabit, quia nulla est ratio cur non teneat;
+          <lb ed="#P" n="104"/>ergo absolute obligat. Altera vero pars 
+          decla<lb break="no" ed="#P" n="105"/>ratur, quia, non obstante tali voto, potest
+          <lb ed="#P" n="106"/>homo, si velit, facere melius opus 
+          incompossi<lb break="no" ed="#P" n="107"/>bile operi promisso, quia nec voluntas Dei,
+          <lb ed="#P" n="108"/>nec intentio recte voventis est obligari ad 
+          rc<lb break="no" ed="#P" n="109"/>linquendum melius propter minus bonum; in
+          <lb ed="#P" n="110"/>hoc ergo sensu semper est verum , omne vo-
+          <pb ed="#P" n="865"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum esse de bono sub ratione melioris, seu
+          <lb ed="#P" n="2"/>sub conditione, si melius opus non fiat.
+        </p>
+        <p xml:id="szovsr-m21639-d1e602">
+          <lb ed="#P" n="3"/>7. Duo modi quibus bonum ogus promissum
+          <lb ed="#P" n="4"/>propter melius relingui possit. — 
+          Adverten<lb break="no" ed="#P" n="5"/>dum autem est, duobus modis posse 
+          contin<lb break="no" ed="#P" n="6"/>gere, ut opus bonum voto promissum propter
+          <lb ed="#P" n="7"/>melius relinquatur : uno modo, per solam 
+          di<lb break="no" ed="#P" n="8"/>lationem executionis voti; alio modo, per 
+          ab<lb break="no" ed="#P" n="9"/>solutam omissionem . seu cessationem ab uno
+          <lb ed="#P" n="10"/>opere ratione alterius. Prior modus est facilis,
+          <lb ed="#P" n="11"/>quando votum non habet certum tempus 
+          prae<lb break="no" ed="#P" n="12"/>fixum, pro quo implendum sit, et lieet nunc
+          <lb ed="#P" n="13"/>differatur, potest postea impleri, et eo animo
+          <lb ed="#P" n="14"/>differri, et tunc nulla est difficultas, quia nihil
+          <lb ed="#P" n="15"/>contra votum fit. Unde potest in universum
+          <lb ed="#P" n="16"/>regula statui, nunquam violari votum etiam
+          <lb ed="#P" n="17"/>moraliter, ut sic dicam, ex eo quod ejus 
+          exe<lb break="no" ed="#P" n="18"/>cutio differatur propter aliquod majus Dei 
+          ob<lb break="no" ed="#P" n="19"/>sequium. Quia, ut supponitur, tempus 
+          exe<lb break="no" ed="#P" n="20"/>quendi votum non erat in ipso voto 
+          determi<lb break="no" ed="#P" n="21"/>natum, nec prudenter judicari potest tempus
+          <lb ed="#P" n="22"/>opportunum, nedum necessarium, illud, in
+          <lb ed="#P" n="23"/>quo omittendum esset opus melius ad votum
+          <lb ed="#P" n="24"/>implendum. Posterior autem modus non 
+          ha<lb break="no" ed="#P" n="25"/>bet iocum , nisi interveniente commutatione
+          <lb ed="#P" n="26"/>voti in melius, quam credimus fieri posse 
+          pro<lb break="no" ed="#P" n="27"/>pria voluntate voventis, quando de excessu
+          <lb ed="#P" n="28"/>constat, quia illa conditio vel distinctio est 
+          in<lb break="no" ed="#P" n="29"/>irinsece inclusa in omni voto, Faciam hoc,
+          <lb ed="#P" n="30"/>nisi aliud melius occurrerit faciendum ; vel,
+          <lb ed="#P" n="31"/>Faciam hoc, aut aliquid melius. Nam hoc 
+          in<lb break="no" ed="#P" n="32"/>telligitur esse magis consentaneum divino
+          <lb ed="#P" n="33"/>beneplacito , et acceptationi, ut infra libro
+          <lb ed="#P" n="34"/>sexto latius dicam.
+        </p>
+        <p xml:id="szovsr-m21639-d1e674">
+          <lb ed="#P" n="35"/>8. Ad secundum. — MAd secundum ergo 
+          ar<lb break="no" ed="#P" n="36"/>gumentum , vel negatur sequela simplieiter
+          <lb ed="#P" n="37"/>loquendo, vel (majoris claritatis gratia) 
+          distin<lb break="no" ed="#P" n="38"/>guitur sensus consequentis ; nam si sensus est,
+          <lb ed="#P" n="39"/>sequi, votum de actu bono repugnante 
+          me<lb break="no" ed="#P" n="40"/>liori quocumque modo non obligare absolute,
+          <lb ed="#P" n="41"/>negatur sequela ; ostensum est enim absolute
+          <lb ed="#P" n="42"/>obligare, quia per se necessarium est illud
+          <lb ed="#P" n="43"/>fieri, si commutatio in melius non interveniat.
+          <lb ed="#P" n="44"/>Quae conditio cum generalis sit, et inclusa in
+          <lb ed="#P" n="45"/>ipsa natura voti, non facit votum esse 
+          condi<lb break="no" ed="#P" n="46"/>tionatum, seu non absolutum, ut consiat ex
+          <lb ed="#P" n="47"/>dictis supra de juramento. Si autem sit 
+          sen<lb break="no" ed="#P" n="48"/>sus, sequi talia vota non obligare ita definite
+          <lb ed="#P" n="49"/>ad tales actus, quin liceat substituere 
+          melio<lb break="no" ed="#P" n="50"/>res, sic conceditur sequela ; neque inde fit 
+          ta<lb break="no" ed="#P" n="51"/>lia vota non esse firma, seu stabilia, quia 
+          sa<lb break="no" ed="#P" n="52"/>tis firma obligatio est, quae omitti non potest,
+          <lb ed="#P" n="53"/>nisi juxta arbitrium creditoris, et dando illi
+          <lb ed="#P" n="54"/>aliquid quod ab ipsolibentius acceptetur. 
+          Ter<lb break="no" ed="#P" n="55"/>tium autem argumentum petit difficultatem,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quae majori indiget examinatione, et ideo in
+          <lb ed="#P" n="57"/>capite sequenti tractabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

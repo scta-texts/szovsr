@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="501"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m12531"><!-- t5l2prae -->
+        <head xml:id="szovsr-m12531-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m12531-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="42"/>LIBER SECUNDUS
+          <lb ed="#P" n="43"/>DE JURAMENTO PROMISSORIO
+          <lb ed="#P" n="44"/>EJUSQUE OBLIGATIONE.
+        </p>
+        <p xml:id="szovsr-m12531-d1e114">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="45"/>Quae hactenus de juramento diximus, 
+          com<lb break="no" ed="#P" n="46"/>munia sunt juramento promissorio cum 
+          asser<lb break="no" ed="#P" n="47"/>torio, quatenus in juramento promissorio 
+          ali<lb break="no" ed="#P" n="48"/>qua assertio de praesenti includitur et juratur.
+          <lb ed="#P" n="49"/>Nam qui cum juramento promittit, jurat se
+          <lb ed="#P" n="50"/>non ficte, sed vere et ex animo promittere, et
+          <lb ed="#P" n="51"/>consequenter jurat se habere propositum 
+          im<lb break="no" ed="#P" n="52"/>plendi quod promittit ; quoad hoc ergo
+          <lb ed="#P" n="53"/>tale juramentum assertorium est. Ultra hoc
+          <lb ed="#P" n="54"/>vero, addit juramentum promissorium 
+          ali<lb break="no" ed="#P" n="55"/>quid in futurum, in quo differt a 
+          jura<lb break="no" ed="#P" n="56"/>mento assertorio de praesenti, vel de 
+          prae<lb break="no" ed="#P" n="57"/>terito (nam assertionem de futuro sub promis-
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="58"/>sione nunc comprehendimus); an vero aliquo
+          <lb ed="#P" n="59"/>modo distinguantur in ordine ad juramentum,
+          <lb ed="#P" n="60"/>paulo post explicabimus. Et ideo de 
+          jura<lb break="no" ed="#P" n="61"/>mento promissorio, quatenus ab assertorio
+          <lb ed="#P" n="62"/>distinguitur in eo quod supra ipsum addit,
+          <lb ed="#P" n="63"/>necessaria est specialis disputatio, quam in
+          <lb ed="#P" n="64"/>hoc libro instituimus, totaque reducitur ad
+          <lb ed="#P" n="65"/>explicandam obligationem specialem, quae in
+          <lb ed="#P" n="66"/>tali juramento nascitur; nam caetera omnia
+          <lb ed="#P" n="67"/>communia illi sunt cum juramento assertorio.
+          <lb ed="#P" n="68"/>Ex hac enim differentia inter haec duo 
+          jura<lb break="no" ed="#P" n="69"/>menta, scilicet, quod veritas assertorii non
+          <lb ed="#P" n="70"/>pendet ex facto futuro, sicut veritas promisso-
+          <pb ed="#P" n="502"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rii, sequitur alia quoad obligationem, ut notat
+          <lb ed="#P" n="2"/>D. Thomas, quia assertorium proprie non 
+          in<lb break="no" ed="#P" n="3"/>ducit novam obligationem, sed supponit illam.
+          <lb ed="#P" n="4"/>Et ut recte fiat, per illud observatur et 
+          imple<lb break="no" ed="#P" n="5"/>tur obligatio, quae illi ex natura rei inest,
+          <lb ed="#P" n="6"/>scilicet, dicendi veritatem, cum aliquid 
+          affir<lb break="no" ed="#P" n="7"/>matur vel negatur cum juramento, et similis
+          <lb ed="#P" n="8"/>est obligatio loquendi cum justitia et cum
+          <lb ed="#P" n="9"/>judicio. Impleta vero hac obligatione, nulla
+          <lb ed="#P" n="10"/>alia superest ex vi juramenti assertorii, et ita
+          <lb ed="#P" n="11"/>de illo nihil superest dicendum, praeter ea
+          <lb ed="#P" n="12"/>quae ad vitia illi contraria spectant, de quibus
+          <lb ed="#P" n="13"/>in libro sequenti dicemus. At vero 
+          juramen<lb break="no" ed="#P" n="14"/>tum promissorium, licet eamdem 
+          obligatio<lb break="no" ed="#P" n="15"/>nem supponat, et rite ac recte factum illam
+          <lb ed="#P" n="16"/>expleat, nihilominus inducit novam 
+          obliga<lb break="no" ed="#P" n="17"/>tionem in futurum, ut videbimus. Haec igitur
+          <lb ed="#P" n="18"/>est a nobis in hoc libro explicanda, et 
+          condi<lb break="no" ed="#P" n="19"/>tiones omnes quae ad illam requiruntur; de
+          <lb ed="#P" n="20"/>peccatis autem quae committuntur violando
+          <lb ed="#P" n="21"/>illam, in sequenti libro dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

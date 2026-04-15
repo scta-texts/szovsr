@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 10</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 10</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="875"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m21968"><!-- t6l2c10 -->
+        <head xml:id="szovsr-m21968-Hd1e101">Caput 10</head>
+        <head xml:id="szovsr-m21968-Hd1e103" type="question-title">Utrum objectum includens bonum et malum possit esse materia capax voti, ita ut votum de illo factum ad aliquid obliget ?</head>
+        <p xml:id="szovsr-m21968-d1e106">
+          <lb ed="#P" n="97"/>CAPUT X.
+          <lb ed="#P" n="98"/>UTRUM OBJECTUM INCLUDENS BONUM ET MALUM
+          <lb ed="#P" n="99"/>POSSIT ESSE MATERIA CAPAX VOTI, ITA UT
+          <lb ed="#P" n="100"/>VOTUM DE ILLO FACTUM AD ALIQUID OBLIGET ?
+        </p>
+        <p xml:id="szovsr-m21968-d1e117">
+          <lb ed="#P" n="101"/>1. Explicatur sensus questionis. — Duobus
+          <lb ed="#P" n="102"/>modis intelligi potest objectum voti malum et
+          <lb ed="#P" n="103"/>bonum includere: uno modo in actu, alio 
+          mo<lb break="no" ed="#P" n="104"/>do in potentia. Actu dico includere, quando
+          <lb ed="#P" n="105"/>materia ipsa, quae per votum determinatur,
+          <lb ed="#P" n="106"/>actu constat ex bono et malo, ut si quis voveat
+          <lb ed="#P" n="107"/>dare in eleemosynam mille aureos, quos par-
+          <pb ed="#P" n="876"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tim juste, partim injuste lucratus est; vel si
+          <lb ed="#P" n="2"/>quis voveat nudus peregrinari. Potentia vero
+          <lb ed="#P" n="3"/>dico includere, quando materia voti est aliquod
+          <lb ed="#P" n="4"/>generale objectum, sub quo bonae et malae 
+          ope<lb break="no" ed="#P" n="5"/>rationes contineri possunt , quas includit per
+          <lb ed="#P" n="6"/>modum totius potentialis continentis partes
+          <lb ed="#P" n="7"/>subjectivas, ut si quis voveat eleemosynam 
+          fa<lb break="no" ed="#P" n="8"/>cere ex lucro simpliciter, et absolute, cum 
+          lu<lb break="no" ed="#P" n="9"/>crum, sub se justum et injustum 
+          comprehen<lb break="no" ed="#P" n="10"/>dat, vel si quis promittat obedire alicui, nihil
+          <lb ed="#P" n="11"/>amplius determinando. Juxta hos ergo duos
+          <lb ed="#P" n="12"/>modos duae regula constitui possunt.
+        </p>
+        <p xml:id="szovsr-m21968-d1e165">
+          <lb ed="#P" n="13"/>2. Regula prima de obligatione voti in 
+          ma<lb break="no" ed="#P" n="14"/>teria, partim prava, partim honesta. — Prima
+          <lb ed="#P" n="15"/>regula : quando materia voti aliquid bonum
+          <lb ed="#P" n="16"/>et aliquid malum actu includit, votum obligat
+          <lb ed="#P" n="17"/>ad id quod est bonum, seclusa malitia, nisi
+          <lb ed="#P" n="18"/>principalis ratio vovendi fuerit pravitas 
+          mate<lb break="no" ed="#P" n="19"/>riae, seu turpe motivum, vel nisi de intentione
+          <lb ed="#P" n="20"/>voventis constet fuisse non obligari ad unam
+          <lb ed="#P" n="21"/>partem sine connexione alterius, vel quas sub
+          <lb ed="#P" n="22"/>conditione illius. Tota haec assertio explicanda
+          <lb ed="#P" n="23"/>est juxta cap. 2 et 4, quibus nihil fere 
+          adden<lb break="no" ed="#P" n="24"/>dum occurrit, quia eadem est ratio de bono et
+          <lb ed="#P" n="25"/>malo, quae de possibili et impossibili. Nam (ut
+          <lb ed="#P" n="26"/>ibi etiam notavi) malum reputari potest 
+          im<lb break="no" ed="#P" n="27"/>possibile in ordine ad votum, quia est incapax
+          <lb ed="#P" n="28"/>obligationis; sub malo autem nunc 
+          compre<lb break="no" ed="#P" n="29"/>hendimus quidquid indecens est, vel inutile,
+          <lb ed="#P" n="30"/>ac improportionatum ad cultum Dei, quia hoc
+          <lb ed="#P" n="31"/>totum est impertinens ad votum, si revera
+          <lb ed="#P" n="32"/>tale sii, et tale permaneat, ut adjungitur seu
+          <lb ed="#P" n="33"/>miscetur in matoria voti. Interdum enim 
+          condi<lb break="no" ed="#P" n="34"/>tio materiae non est per se mala moraliter, nec
+          <lb ed="#P" n="35"/>prohibita, sed videtur impertinens per se 
+          spec<lb break="no" ed="#P" n="36"/>tata; et nihilominus in particnlari 
+          considera<lb break="no" ed="#P" n="37"/>ta, saepe non invenitur impertinens, nec 
+          reji<lb break="no" ed="#P" n="38"/>cienda.
+        </p>
+        <p xml:id="szovsr-m21968-d1e225">
+          <lb ed="#P" n="39"/>3. Exemplum sit in voto peregrinandi 
+          nu<lb break="no" ed="#P" n="40"/>dus. De quo voto dixit Navarr., c. 12, n. 137,
+          <lb ed="#P" n="41"/>non obligare, quia est inhonestum, et posset
+          <lb ed="#P" n="42"/>valetudini maxime officere, praesertim in 
+          hye<lb break="no" ed="#P" n="43"/>me. Quod ad summum potest intelligi de illo
+          <lb ed="#P" n="44"/>voto, quantum ad circumstantiam nuditatis ;
+          <lb ed="#P" n="45"/>nam quoad substantiam peregrinationis sine
+          <lb ed="#P" n="46"/>dubio est validum, ut idem Namwarr. in aliis
+          <lb ed="#P" n="47"/>exemplis statim docet numero 45. de quibus
+          <lb ed="#P" n="48"/>est eadem ratio, et ita exposuit Emman. Rod.,
+          <lb ed="#P" n="49"/>secunda parte Sum., c. 91, num. 1, ubi etiam
+          <lb ed="#P" n="50"/>ait votum eundi Romam transeundo per 
+          AI<lb break="no" ed="#P" n="51"/>pes tempore hyemis nudum , non obligare
+          <lb ed="#P" n="52"/>quoad talem circumstantiam. At vero Anton.,
+          <lb ed="#P" n="53"/>d. titulo undecimo, c. 1, 83, non audet dicere
+          <lb ed="#P" n="54"/>esse nullum tale votum, sed non esse multum
+          <lb ed="#P" n="55"/>commendabile, et esse in aliud commutan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dum, antoritate, inquit, superioris. Quod erit
+          <lb ed="#P" n="57"/>verum, nisi vel impotentiam claram, vel 
+          tur<lb break="no" ed="#P" n="58"/>pitudinem aut inhonestatem contineat. 
+          Cense<lb break="no" ed="#P" n="59"/>bitur autem continere impotentiam, si 
+          creda<lb break="no" ed="#P" n="60"/>tur futura conditio valde nociva saluti ; turpis
+          <lb ed="#P" n="61"/>vero, quando manifeste est contra 
+          honesta<lb break="no" ed="#P" n="62"/>tem, ut si esset de totius corporis nuditate sine
+          <lb ed="#P" n="63"/>discrimine partium. Et tunc intelligerem non
+          <lb ed="#P" n="64"/>tenere conditionem quoad inhonesta, servari
+          <lb ed="#P" n="65"/>autem debere quoad nuditatem possibilem et
+          <lb ed="#P" n="66"/>honestam, quae ad humiliationem vel 
+          macera<lb break="no" ed="#P" n="67"/>tionem corporis deserviret, ut in hac civitate
+          <lb ed="#P" n="68"/>homines cujusdam populi quotannis in 
+          proces<lb break="no" ed="#P" n="69"/>sione veuiunt nudi quoad totam superiorem
+          <lb ed="#P" n="70"/>partem corporis, quod nec indecens, nec a 
+          re<lb break="no" ed="#P" n="71"/>ligione alienum reputatur ; nam ad 
+          ostensio<lb break="no" ed="#P" n="72"/>nem humilitatis, et corporum macerationem,
+          <lb ed="#P" n="73"/>et ad populi devotionem deservire potest.
+        </p>
+        <p xml:id="szovsr-m21968-d1e306">
+          <lb ed="#P" n="74"/>4. Secunda regula. — Secunda regula est:
+          <lb ed="#P" n="75"/>quando materia voti est commune aliquod 
+          ob<lb break="no" ed="#P" n="76"/>jectum sub se continens actiones licitas et 
+          illici<lb break="no" ed="#P" n="77"/>tas, votum obligat ad licitas, et non ad alias,
+          <lb ed="#P" n="78"/>et ex natura sua talem determinationem 
+          in<lb break="no" ed="#P" n="79"/>cludit. Est communis regula, de qua videri
+          <lb ed="#P" n="80"/>possunt Richard., 4, d. 38, articulo nono, q.
+          <lb ed="#P" n="81"/>3, et Joan. de Capis., tract. in quodam 
+          tracta<lb break="no" ed="#P" n="82"/>tu de Matrim., numero 54, in tomo nono. Ratio
+          <lb ed="#P" n="83"/>e-t, quia illa materia divisibilis est ; nulla enim
+          <lb ed="#P" n="84"/>inter partes est connexio, nisi fingatur esse in
+          <lb ed="#P" n="85"/>intentione voventis, quod accidentarium est,
+          <lb ed="#P" n="86"/>et vix potest contingere in hoc genere 
+          mate<lb break="no" ed="#P" n="87"/>riae; ergo generalis indifferentia materiae non
+          <lb ed="#P" n="88"/>obstat quin determinanda sit ad partem licitam
+          <lb ed="#P" n="89"/>et capacem obligationis. Nam licet votum in
+          <lb ed="#P" n="90"/>generali fiat, obligare debet ad particularia ;
+          <lb ed="#P" n="91"/>ergo ad illa quae sunt capacia obligationis.
+          <lb ed="#P" n="92"/>Unde licet addatur distributio, ut in illo 
+          exem<lb break="no" ed="#P" n="93"/>plo de voto faciendi eleemosynam ex omni
+          <lb ed="#P" n="94"/>lucro, intelligeretur fieri de justo, et non de 
+          in<lb break="no" ed="#P" n="95"/>justo, ut per se notum est ex conditione 
+          mate<lb break="no" ed="#P" n="96"/>riae. Et licet per errorem vovens intenderet se
+          <lb ed="#P" n="97"/>obligare ad omnia, id non obstaret quominus
+          <lb ed="#P" n="98"/>in re ipsa maneret obligatus ad ea, quae 
+          capa<lb break="no" ed="#P" n="99"/>cia sunt obligationis, et non ad alia, quia 
+          se<lb break="no" ed="#P" n="100"/>parabilia sunt. Nec in hoc relinquitur ratio
+          <lb ed="#P" n="101"/>difficultatis ex supra dictis.
+        </p>
+        <p xml:id="szovsr-m21968-d1e369">
+          <lb ed="#P" n="102"/>5. Devoto Jephte brevis digressio, Judic. 11.
+          <lb ed="#P" n="103"/>— Solum occurrit hic tractana difficultas de
+          <lb ed="#P" n="104"/>voto Jephte, quam omnes Doctores in hac 
+          ma<lb break="no" ed="#P" n="105"/>teria attingunt, et sumitur ex Judic. 11, ubi
+          <lb ed="#P" n="106"/>legimus de Jephte : Votum vovit Domano 
+          di<lb break="no" ed="#P" n="107"/>cens : Sà tradideris filios Ammon in manu
+          <lb ed="#P" n="108"/>mea, quicumque primus fuerit egressus de 
+          fori<lb break="no" ed="#P" n="109"/>bus domus mem, mihique occurrerit revertenti
+          <lb ed="#P" n="110"/>cum pace a filiis Ammon, eum holocaustum offe-
+          <pb ed="#P" n="877"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ram Dominc. Vt postea refertur illi primum
+          <lb ed="#P" n="2"/>occurrisse unigenitam filiam, cui ille dixit
+          <lb ed="#P" n="3"/>post alia: Aperui os meum Domino, et aliud
+          <lb ed="#P" n="4"/>facere non potero. Et tandem subditur: Fecit
+          <lb ed="#P" n="5"/>ei sicut voverat. lllud ergo votum de se 
+          indif<lb break="no" ed="#P" n="6"/>ferens erat qnasi potentialiter, et postea casu
+          <lb ed="#P" n="7"/>determinatum est ad actionem injustam, et
+          <lb ed="#P" n="8"/>nihilominus tanquam obligans impletum est,
+          <lb ed="#P" n="9"/>quod aperte est contra regulam positam. Circa
+          <lb ed="#P" n="10"/>hoc ergo votum primo factum ipsum, et postea
+          <lb ed="#P" n="11"/>jus expendendum est.
+        </p>
+        <p xml:id="szovsr-m21968-d1e419">
+          <lb ed="#P" n="12"/>6. Expenditur votum Jephte quoad 
+          evecu<lb break="no" ed="#P" n="13"/>Lionem ejus.—Circa factum potest primo 
+          dubi<lb break="no" ed="#P" n="14"/>tari, an Jephte vere sacrificaverit filiam suam,
+          <lb ed="#P" n="15"/>illam corporaliter occidendo. Multi enim 
+          ne<lb break="no" ed="#P" n="16"/>gant Jephte interfecisse filiam, quia Scriptura
+          <lb ed="#P" n="17"/>hoc non exprimit, sed prius dicit voluisse
+          <lb ed="#P" n="18"/>Jephte offerre id in holocaustum Domino, quod
+          <lb ed="#P" n="19"/>primo sibi occurreret, etc. Deinde vero 
+          subjun<lb break="no" ed="#P" n="20"/>git, cum filia unigenita ei occurrisset, fecisse
+          <lb ed="#P" n="21"/>ei sicul voverat, qua ignorabat virum. Solum
+          <lb ed="#P" n="22"/>ergo ex his colligitur obtulisse illam in 
+          holo<lb break="no" ed="#P" n="23"/>caustum, hinc autem non sequitur eam 
+          occi<lb break="no" ed="#P" n="24"/>disse. Nam rationalis creatura potest aliter in
+          <lb ed="#P" n="25"/>holocaustum offerri quam per interfectionem,
+          <lb ed="#P" n="26"/>et materialem combustionem, nimirum per
+          <lb ed="#P" n="27"/>abstractionem ab omnibus terrenis curis, et
+          <lb ed="#P" n="28"/>oblationem ac traditionem ejus in solius Dei
+          <lb ed="#P" n="29"/>cultum perpetuum. Sic enim hodie virgines,
+          <lb ed="#P" n="30"/>quae Deo consecrantur per votum, vel 
+          profes<lb break="no" ed="#P" n="31"/>sionem religionis, dicuntur se offerre Deo in
+          <lb ed="#P" n="32"/>holocaustum. Ita exposuit Lyra ibi, et 
+          sequi<lb break="no" ed="#P" n="33"/>tur Vatablus. Adducitque Lyra illud Levit.
+          <lb ed="#P" n="34"/>ult., ubi non solumrres aliae, sed homines 
+          con<lb break="no" ed="#P" n="35"/>secrari dicuntur Deo, quando ejus cultui 
+          di<lb break="no" ed="#P" n="36"/>cautur, quamvis non interficiantur. Et 
+          ibi<lb break="no" ed="#P" n="37"/>dem subditur : Omne, quod Domino 
+          consecra<lb break="no" ed="#P" n="38"/>tur, sive homo fuerit, sive animal, sive ager,
+          <lb ed="#P" n="39"/>non vendetur, neque redimi poterit. Quidquid
+          <lb ed="#P" n="40"/>semel fuerit consecratum. Sanctum Sanctorum
+          <lb ed="#P" n="41"/>erit Domino, et omnis consecratio, que 
+          offer<lb break="no" ed="#P" n="42"/>tur ab homine, non redimetur, sed morte 
+          mo<lb break="no" ed="#P" n="43"/>rietur. Homo ergo consecratus Domino dicitur
+          <lb ed="#P" n="44"/>etiam morte mori, non quidem naturali, ut
+          <lb ed="#P" n="45"/>constat, sed civili, quia redimi non potest, nec
+          <lb ed="#P" n="46"/>ab eo munere separari ; ergo et filia Jephte
+          <lb ed="#P" n="47"/>potest hac ratione dici in holocaustum 
+          obla<lb break="no" ed="#P" n="48"/>ta.
+        </p>
+        <p xml:id="szovsr-m21968-d1e502">
+          <lb ed="#P" n="49"/>7. Possumusque expositionem confirmare,
+          <lb ed="#P" n="50"/>quia hoc modo evitantur multa incommoda,
+          <lb ed="#P" n="51"/>quae in illa historia aliter intellecta occurrunt;
+          <lb ed="#P" n="52"/>et aliunde nulla vis infertur litterae, quia illa
+          <lb ed="#P" n="53"/>significatio holocausti usitata est, et videtur
+          <lb ed="#P" n="54"/>posse sumi ex eadem historia. Refertur enim
+          <lb ed="#P" n="55"/>ibi filamJephte deplorasse virginitatem suam,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non autem vitam, aut mortem; ergo signum
+          <lb ed="#P" n="57"/>est patrem non decrevisse illam occidere, sed
+          <lb ed="#P" n="58"/>solum ita Deo dicare, ut perpetuam 
+          virginita<lb break="no" ed="#P" n="59"/>tem conservaret, quam ipsa deplorabat, quia
+          <lb ed="#P" n="60"/>eo tempore id non erat in usu, et pro 
+          ignomi<lb break="no" ed="#P" n="61"/>nia quadam habebatur. Unde post illa verba:
+          <lb ed="#P" n="62"/>Ft fecit ei sicut voverat, statim subditur : Que
+          <lb ed="#P" n="63"/>ignorabat virum, quasi hoc fuerit consecutum
+          <lb ed="#P" n="64"/>ex illa oblatione.
+        </p>
+        <p xml:id="szovsr-m21968-d1e541">
+          <lb ed="#P" n="65"/>8. Jephte filiam sacrificavit, corporaliter 
+          in<lb break="no" ed="#P" n="66"/>terficiendo. — Nihilominus asserendum est
+          <lb ed="#P" n="67"/>Jephte sacrificasse filiam suam, interficiendo
+          <lb ed="#P" n="68"/>illam corporaliter. Haec est communis 
+          senten<lb break="no" ed="#P" n="69"/>tia Patrum, Athanasii, in Synopsi Scripturae,
+          <lb ed="#P" n="70"/>lib. 7; Aug., quaest. 49, in Judic., ubi ex 
+          pro<lb break="no" ed="#P" n="71"/>fesso reprobat illam Lyrae interpretationem;
+          <lb ed="#P" n="72"/>et Hieron., lib. 1 contra Jovin., parum ante
+          <lb ed="#P" n="73"/>medium , significat hanc fuisse communem
+          <lb ed="#P" n="74"/>intelligentiam Hebraeorum, a quibus propterea
+          <lb ed="#P" n="75"/>dicit reprehendi solitum Jephte voti temerarii.
+          <lb ed="#P" n="76"/>Nam si canis, inquiunt, occurrisset, si asinus,
+          <lb ed="#P" n="77"/>quid faceret ? Et subjungit: Zz quo colunt
+          <lb ed="#P" n="78"/>dispensatione Dei factum, ut qui imperfecte
+          <lb ed="#P" n="79"/>voverat, errorem voti in filie morte sentiret.
+          <lb ed="#P" n="80"/>Astipulatur huic sententiae Joseph., lib. 5, c.
+          <lb ed="#P" n="81"/>9: Pater mactatam holocaustoma obtulit, 
+          ne<lb break="no" ed="#P" n="82"/>que legitimum, neque Deo gratum sacrum 
+          fa<lb break="no" ed="#P" n="83"/>ciens. Famdem sententiam ut claram supponit
+          <lb ed="#P" n="84"/>Theod., q. ult. in lib. Judic. Idem Anselm.,
+          <lb ed="#P" n="85"/>ad Hebr. 11, et plures Patres statim 
+          refere<lb break="no" ed="#P" n="86"/>mus. Consentiuntque Scholastici cum D. 
+          Tho<lb break="no" ed="#P" n="87"/>ma., quaest. 88, art. 2, ad 2; Victor., helect.
+          <lb ed="#P" n="88"/>de Temperantia, n. 7; Arbore., lib. 9 
+          Theoso<lb break="no" ed="#P" n="89"/>phiae, c. 7. Probaturque ex proprietate 
+          illo<lb break="no" ed="#P" n="90"/>rum verborum : Eum in holocaustum offeram
+          <lb ed="#P" n="91"/>Domino ; nam hoc non dicitur proprie nisi de
+          <lb ed="#P" n="92"/>sacrificio per corporalem occisionem. Maxime
+          <lb ed="#P" n="93"/>quando illa verba ad caetera animalia 
+          genera<lb break="no" ed="#P" n="94"/>lia sunt; quia alia animalia non solebant in
+          <lb ed="#P" n="95"/>holocaustum offerri, nisi per realem mortem.
+        </p>
+        <p xml:id="szovsr-m21968-d1e612">
+          <lb ed="#P" n="96"/>9. Objectio. — Dicet vero aliquis verba illa:
+          <lb ed="#P" n="97"/>Quod mihi occurrerit, etc., offeram tili in 
+          holo<lb break="no" ed="#P" n="98"/>caustum, dicta esse a Jephte in generali, et
+          <lb ed="#P" n="99"/>cum distributione accommoda, concipiendo in
+          <lb ed="#P" n="100"/>intentione, si fuerit animal aptum ad 
+          sacrifi<lb break="no" ed="#P" n="101"/>cium cruentum, offeram in corporale 
+          holocaus<lb break="no" ed="#P" n="102"/>tum; si homo, in spirituale; si inferius animal
+          <lb ed="#P" n="103"/>ineptum ad sacrificium, redimam illud, et 
+          pre<lb break="no" ed="#P" n="104"/>tium offeram Domino. Sicque responderi etiam
+          <lb ed="#P" n="105"/>posset a4 reprehensionem et interrogationem
+          <lb ed="#P" n="106"/>Judaeorum, ex Hieronymo relatam. Nam 
+          dif<lb break="no" ed="#P" n="107"/>ficile creditu est, virum in lege Dei 
+          instruc<lb break="no" ed="#P" n="108"/>tum tanta ignorantia laborasse, ut alia mente
+          <lb ed="#P" n="109"/>indiscrete voveret , et incredibilius est virum
+          <lb ed="#P" n="110"/>sanctum temere id fecisse, maxime cum ibi
+          <pb ed="#P" n="878"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>scriptum sit, factum esse super Jephte 
+          spiri<lb break="no" ed="#P" n="2"/>tum Domini.
+        </p>
+        <p xml:id="szovsr-m21968-d1e656">
+          <lb ed="#P" n="3"/>10. Respondetur objectioni. — Sed in hac
+          <lb ed="#P" n="4"/>interpretatione non evitatur improprietas 
+          ver<lb break="no" ed="#P" n="5"/>borum, quae admittenda non est sine magna
+          <lb ed="#P" n="6"/>ratione vel auctoritate. Et praeterea augetur
+          <lb ed="#P" n="7"/>difficultas, dicendo idem verbum, offeram in
+          <lb ed="#P" n="8"/>holocaustum, accipit in communi, et 
+          indiffe<lb break="no" ed="#P" n="9"/>renter ad proprium et improprium 
+          holocan<lb break="no" ed="#P" n="10"/>stum. Et ideo Vatabl. sic legit, et transfert
+          <lb ed="#P" n="11"/>verba illius voti : Quodcumque occurrerit. etc.,
+          <lb ed="#P" n="12"/>Domini erit, sacrificabogue illud holocaustum.
+          <lb ed="#P" n="13"/>Et ait votum fuisse disjunctivum, scilicet, quod
+          <lb ed="#P" n="14"/>occurrerit, vel erit Dei, id est, perpetuo 
+          dicabi<lb break="no" ed="#P" n="15"/>tur, et serviet Domino, aut sacrificabo illud,
+          <lb ed="#P" n="16"/>utique juxta rei occurrentis conditionem. Sed
+          <lb ed="#P" n="17"/>verbum illud Domin erit, non est in Vulgata,
+          <lb ed="#P" n="18"/>et licet in Septuaginta habeatur, legitur 
+          copu<lb break="no" ed="#P" n="19"/>lative, et erit Domino, et vfferam eum 
+          holocau<lb break="no" ed="#P" n="20"/>stum. Quae verba non possunt sub disjunctione
+          <lb ed="#P" n="21"/>exponi, nec diversis rebus attribui, nam plane
+          <lb ed="#P" n="22"/>referuntur ad quamcumque rem primo 
+          occur<lb break="no" ed="#P" n="23"/>rentem.
+        </p>
+        <p xml:id="szovsr-m21968-d1e704">
+          <lb ed="#P" n="24"/>11. Quapropter Lyra ibi fatetur, Jephte 
+          fe<lb break="no" ed="#P" n="25"/>cisse votum intentione realiter occidendi quod
+          <lb ed="#P" n="26"/>primo occurreret, et ita etiam circa filiam 
+          fa<lb break="no" ed="#P" n="27"/>cere decrevisse in principio, postea vero 
+          ad<lb break="no" ed="#P" n="28"/>monitum a Sapientibus Hebraeorum mutasse
+          <lb ed="#P" n="29"/>sententiam, contentumque fuisse spirituali 
+          ho<lb break="no" ed="#P" n="30"/>locausto. At hoc divinare est sine fundamento,
+          <lb ed="#P" n="31"/>et contra vim verborum sequentium: Zf fecit
+          <lb ed="#P" n="32"/>ei sicui vovit. Si ergo vovit holocaustum 
+          ve<lb break="no" ed="#P" n="33"/>rum et cruentum, hoc in ea perfecit. Accedit
+          <lb ed="#P" n="34"/>quod in fine capitis dicitur, consuetudine 
+          in<lb break="no" ed="#P" n="35"/>troductum fuisse, ut singulis annis filiae Israel
+          <lb ed="#P" n="36"/>plangerent filiam Jephte , tanquam revera
+          <lb ed="#P" n="37"/>mortuam et occisam. At Vatablus sic legit
+          <lb ed="#P" n="38"/>verba illa : Facta est consuetudo in Israel, ut
+          <lb ed="#P" n="39"/>annua vice venirent filie Israel. ut dissererent
+          <lb ed="#P" n="40"/>cum filia Jephte. Ex qua lectione probatur
+          <lb ed="#P" n="41"/>contrarium : nam exponit, ut dissererent, id
+          <lb ed="#P" n="42"/>est, ut loquerentur cum illa, vel consolarentur
+          <lb ed="#P" n="43"/>illam. Sed illa lectio repugnat Vulgatae et 
+          Sep<lb break="no" ed="#P" n="44"/>tuaginta, et ideo illam non recipimus. 
+          Deni<lb break="no" ed="#P" n="45"/>que in eo tempore virginitas non erat in usu,
+          <lb ed="#P" n="46"/>nec in eo pretio habebatur, ut propter illius
+          <lb ed="#P" n="47"/>observationem, aut consecrationem ad illam
+          <lb ed="#P" n="48"/>observandam, filia Jephte dici potuerit in 
+          holo<lb break="no" ed="#P" n="49"/>caustum oblata. Ouin potius ideo dicetur 
+          de<lb break="no" ed="#P" n="50"/>plorasse virginitatem suam, auia sine filiis 
+          de<lb break="no" ed="#P" n="51"/>cedebat, quasi de hoc gravius quam de ipsa
+          <lb ed="#P" n="52"/>morte doleret.
+        </p>
+        <p xml:id="szovsr-m21968-d1e769">
+          <lb ed="#P" n="53"/>12. Votum Jephte secundum se impium
+          <lb ed="#P" n="54"/>fuit. — Hoc ergo facto supposito, de jure 
+          in<lb break="no" ed="#P" n="55"/>quirendum est, quod inquiri potest vel secun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dum se, vel in ordine ad talem personam.
+          <lb ed="#P" n="57"/>Considerando ergo rem secundum se, certum
+          <lb ed="#P" n="58"/>est votum in eo sensu factum fuisse 
+          temera<lb break="no" ed="#P" n="59"/>rium, et talem ejus executionem fuisse 
+          im<lb break="no" ed="#P" n="60"/>piam. Primum patet, quia tale votum non erat
+          <lb ed="#P" n="61"/>de re necessario bona, sed multis periculis
+          <lb ed="#P" n="62"/>exposita ; ergo factum cum illa voluntate 
+          te<lb break="no" ed="#P" n="63"/>merarium fuit. Secundum autem per se 
+          no<lb break="no" ed="#P" n="64"/>tum est, quia factum illud contra legem
+          <lb ed="#P" n="65"/>naturalem erat, et contra legem scriptam,
+          <lb ed="#P" n="66"/>Exod. 20, de non interficiendo innocente.
+          <lb ed="#P" n="67"/>Quae procedit et obligat, etiam titulo 
+          religio<lb break="no" ed="#P" n="68"/>nis et voti, quia pater non est dominus vitae
+          <lb ed="#P" n="69"/>filie, ut illam vovere aut sacrificare possit.
+          <lb ed="#P" n="70"/>Unde talia sacrificia semper impia habita sunt,
+          <lb ed="#P" n="71"/>ut late Clemens Alexan., Orat. adhort. ad
+          <lb ed="#P" n="72"/>Gent., ubi Gentianus Hervetus, S Age vero,
+          <lb ed="#P" n="73"/>littera E, advertit, mirum non esse Gentiles
+          <lb ed="#P" n="74"/>in eo fuisse errore, cum Jephte legatur suam
+          <lb ed="#P" n="75"/>filiam sacrificasse. Atque hoc modo tam de voto
+          <lb ed="#P" n="76"/>illo, quam de ejus executione Patres sentiunt.
+        </p>
+        <p xml:id="szovsr-m21968-d1e826">
+          <lb ed="#P" n="77"/>13. An Jephte, in vovendo et amplendo voto,
+          <lb ed="#P" n="78"/>excusari possit a culpa. — Quaeri vero tandem
+          <lb ed="#P" n="79"/>potest an Jephte excusari possit a culpa, tam
+          <lb ed="#P" n="80"/>in vovendo quam in adimplendo tale votum.
+          <lb ed="#P" n="81"/>Videtur enim hoc necessarium, quia Paulus,
+          <lb ed="#P" n="82"/>ad Heb. 11, inter insignes Sanctos illum refert.
+          <lb ed="#P" n="83"/>Responderi potest, etiam ibi numerare David
+          <lb ed="#P" n="84"/>et alios, qui aliquando graviter peccarunt, et
+          <lb ed="#P" n="85"/>nihilominus Sancti sunt, quia condignam 
+          ege<lb break="no" ed="#P" n="86"/>runt poenitentiam, quod etiam D. Thomas hic
+          <lb ed="#P" n="87"/>de Jephte respondet. Contra hoc vero obstant
+          <lb ed="#P" n="88"/>duo. Primum, quod in viris sanctis, quando
+          <lb ed="#P" n="89"/>Scriptura narrat culpam, narrat etiam 
+          poeni<lb break="no" ed="#P" n="90"/>tentiam; nullibi autem meminit poenitentiae
+          <lb ed="#P" n="91"/>Jephte ; ergo nec factum illud ut culpam 
+          nar<lb break="no" ed="#P" n="92"/>ravit. Secundum, quia Scriptura non narrat
+          <lb ed="#P" n="93"/>illud ut peccatum, sed potius ut opus egregium
+          <lb ed="#P" n="94"/>Spiritu Dei factum, quod significant illa 
+          ver<lb break="no" ed="#P" n="95"/>ba: Factus est ergo super Jephete Spiritus
+          <lb ed="#P" n="96"/>Domini, et votum vovit, etc. Propter quod 
+          Au<lb break="no" ed="#P" n="97"/>gustinus, lib. 1 de Civit., cap. 21: Merito, 
+          in<lb break="no" ed="#P" n="98"/>quit, quaeritur, utrum pro jussu Dei sit 
+          haben<lb break="no" ed="#P" n="99"/>dum, quod J ephte fieum, quee patri occurrit, 
+          oc<lb break="no" ed="#P" n="100"/>cidit. Unde infra optima intentio ejus illis 
+          ver<lb break="no" ed="#P" n="101"/>bis declaratur: Aperui os meum ad Dominusn,
+          <lb ed="#P" n="102"/>et aliud facere non potero. Quocirca D. 
+          Hie<lb break="no" ed="#P" n="103"/>ronymus, Epist. 34, quae est consolatio ad 
+          Ju<lb break="no" ed="#P" n="104"/>lianum, tantum abest, ut sentiat Jephte in eo
+          <lb ed="#P" n="105"/>facto peccasse, ut potius dicat, eam ob rem ab
+          <lb ed="#P" n="106"/>Apostolo inter Sanctos numerari: Jephte, 
+          in<lb break="no" ed="#P" n="107"/>quit, obtulit virginem filium, et idcirco in 
+          emume<lb break="no" ed="#P" n="108"/>ratione Sanctorum ab Apostolo ponitur. Quod
+          <lb ed="#P" n="109"/>etiam habetur in Justin., q. 99 ad Gent. ; et
+          <lb ed="#P" n="110"/>contirmatur; nam si peccavit, vel per mali-
+          <pb ed="#P" n="879"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tiam, vel ignorantiam peccavit. Primum 
+          aper<lb break="no" ed="#P" n="2"/>te repugnat textui Seripturae , ut patet ex
+          <lb ed="#P" n="3"/>verbis adductis. Secundum autem non est
+          <lb ed="#P" n="4"/>verisimile, quia res videbatur per se satis
+          <lb ed="#P" n="5"/>clara.
+        </p>
+        <p xml:id="szovsr-m21968-d1e917">
+          <lb ed="#P" n="6"/>14. Augustini sententia de voto Jephte. —
+          <lb ed="#P" n="7"/>Nihilominus D. Thomas supra sentit Jephte
+          <lb ed="#P" n="8"/>peccasse, nec esse cur excusetur, quia, licet
+          <lb ed="#P" n="9"/>fuerit Sanctus, potuit aliquando delinquere,
+          <lb ed="#P" n="10"/>maxime per ignorantiam culpabilem, et 
+          pos<lb break="no" ed="#P" n="11"/>tea sui delicti poenitentiam agere. Tribuit
+          <lb ed="#P" n="12"/>D. Thomas sententiam hanc Hieronymo, ex
+          <lb ed="#P" n="13"/>quo haec verba refert: 7In vocendo fuit stultus,
+          <lb ed="#P" n="14"/>quia discretionem non habuit, et in reddendo
+          <lb ed="#P" n="15"/>impius. Quae verba formaliter non invenio in
+          <lb ed="#P" n="16"/>Hieronymo, sed sumi possunt ex dicto lib.1
+          <lb ed="#P" n="17"/>contra Jovinian., ubi refert similem 
+          Hebraeo<lb break="no" ed="#P" n="18"/>rum sententiam, quam non rejicit. In capite
+          <lb ed="#P" n="19"/>autem 7 Jeremiae, circa finem, sic loquitur:
+          <lb ed="#P" n="20"/>Quod si Jephte obtulit filiam suam virginen
+          <lb ed="#P" n="21"/>Deo, non sacrificium plucet, sed animus 
+          offe<lb break="no" ed="#P" n="22"/>rentis ; ubi nec illum expresse accusat, neque
+          <lb ed="#P" n="23"/>excusat.
+        </p>
+        <p xml:id="szovsr-m21968-d1e960">
+          <lb ed="#P" n="24"/>15. Augustinus hoc disputans, dicta q. 49,
+          <lb ed="#P" n="25"/>in Judic., nullam hujus rei difficultatem 
+          in<lb break="no" ed="#P" n="26"/>tactam reliquit; et primum probabile censet,
+          <lb ed="#P" n="27"/>Jephte directa et speciali intentione vovisse in
+          <lb ed="#P" n="28"/>sacrificium primum hominem domus suae, qui
+          <lb ed="#P" n="29"/>sibi occurreret, etc. Acuteque ponderat, non
+          <lb ed="#P" n="30"/>solere homini revertenti in domum suam cum
+          <lb ed="#P" n="31"/>victoria, obviam de domo exire pecora, aut
+          <lb ed="#P" n="32"/>alia animalia apta ad holocaustum, sed canes,
+          <lb ed="#P" n="33"/>qui blando famulatu solent obviam dominis
+          <lb ed="#P" n="34"/>occurrere, de quibus non potuit Jephte cogi
+          <lb ed="#P" n="35"/>tare, quia et vile votum fuisset, et de re 
+          im<lb break="no" ed="#P" n="36"/>munda. Videtur ergo cogitasse de hominibus,
+          <lb ed="#P" n="37"/>et ideo non dixit : Quodcumque, sed Quicumque.
+          <lb ed="#P" n="38"/>Postea verorem in utramque partem versans,
+          <lb ed="#P" n="39"/>non satis definit alterutram, sed u: rem 
+          ut<lb break="no" ed="#P" n="40"/>rinque probabilem et dubiam relinquere 
+          vi<lb break="no" ed="#P" n="41"/>detur. In libro autem Quaestionum utriusque
+          <lb ed="#P" n="42"/>Testamenti, qui Augustino tribuitur, part. 1,
+          <lb ed="#P" n="43"/>q. 34: Jephte, inquit, homo facinorosus et 
+          im<lb break="no" ed="#P" n="44"/>providus stulta devotione munus Deo promisit,
+          <lb ed="#P" n="45"/>dicens : Quicumque, etc. Et infra: Usque adeo
+          <lb ed="#P" n="46"/>insensatus fuit Jephte, ut nec postea se stulte
+          <lb ed="#P" n="47"/>devovisse cognoscerer. Et postea dicit, Deum
+          <lb ed="#P" n="48"/>non juvisse illum in victoria propter ipsius
+          <lb ed="#P" n="49"/>meritum aut votum, sed vel propter meritum
+          <lb ed="#P" n="50"/>Abrahae, vel propter honorem suum 
+          defenden<lb break="no" ed="#P" n="51"/>dum contra Allophylos. Sed valde excessit
+          <lb ed="#P" n="52"/>auctor hujus libri, et sine dubio verba illa non
+          <lb ed="#P" n="53"/>sunt Augustini: ubique enim se valde 
+          du<lb break="no" ed="#P" n="54"/>bium ostendit in praesenti quaestione, et 
+          hono<lb break="no" ed="#P" n="55"/>rabilius loquitur de Jephte, ut visum est.
+        </p>
+        <p xml:id="szovsr-m21968-d1e1032">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>16. Chrysostomus etiam tomo primo, 
+          ser<lb break="no" ed="#P" n="57"/>mone speciali de hac historia, nullam de hac
+          <lb ed="#P" n="58"/>re movens quaestionem, nobis in exemplum
+          <lb ed="#P" n="59"/>proponit Jephte, non quidem in vovendo illo
+          <lb ed="#P" n="60"/>modo , sed in sacrificando filiam juxta 
+          mora<lb break="no" ed="#P" n="61"/>lem sensum, id est, animam nostram ; unde
+          <lb ed="#P" n="62"/>laudat intentionem Jephte, de ipsius vero 
+          fac<lb break="no" ed="#P" n="63"/>to nihil ibi dicit. In homil. autem 10 ad 
+          Ro<lb break="no" ed="#P" n="64"/>man., de insidiis damonis verba faciens, ait:
+          <lb ed="#P" n="65"/>Sic et Jephte pietatis ac veligionis specie 
+          per<lb break="no" ed="#P" n="66"/>suasit, filiam ut immolaret, illegitinumque 
+          sa<lb break="no" ed="#P" n="67"/>crificium offerret. Et homilia decima quarta
+          <lb ed="#P" n="68"/>ad Populum, ante medium, damnat factum
+          <lb ed="#P" n="69"/>illud ut malum, et a Deo dicit fuisse 
+          permis<lb break="no" ed="#P" n="70"/>sun, non ordinatum, in quo significat fuisse
+          <lb ed="#P" n="71"/>peccatum. Ambrosius item, lib. 1 de Offic.,
+          <lb ed="#P" n="72"/>cap. ult., cum dixisset, aliquando esse contra
+          <lb ed="#P" n="73"/>officium, promissum solvere, et sacramentum
+          <lb ed="#P" n="74"/>custodire, posuissetque exemplum in Herode,
+          <lb ed="#P" n="75"/>subdit : Nam de Jephte quid dicam, qui 
+          immo<lb break="no" ed="#P" n="76"/>lavit filiam, quee sibi victori prima occurrit, quo
+          <lb ed="#P" n="77"/>votum impleret quod spopouderat ? Melius 
+          fuas<lb break="no" ed="#P" n="78"/>set nihil tale promittere, quam promissum 
+          par<lb break="no" ed="#P" n="79"/>ricidio solvere. Et lib. 8, c. 12: Veque 
+          un<lb break="no" ed="#P" n="80"/>quam adducar, ut credan, non incaute 
+          princi<lb break="no" ed="#P" n="81"/>pem promisisse Jephte, etc. Et infra: Dura
+          <lb ed="#P" n="82"/>promissio, acerbior solutio. Subdit vero statim:
+          <lb ed="#P" n="83"/>Non possum accusare virum, quà necesse habuit
+          <lb ed="#P" n="84"/>implere que voverat, sed tamen miserallis
+          <lb ed="#P" n="85"/>necessitas , quae solvitur parricidio ; melius est
+          <lb ed="#P" n="86"/>non vovere, quam vovere id, quod sibi, cui 
+          pro<lb break="no" ed="#P" n="87"/>mittitur , nolit emolvi. Cum ergo ait, non 
+          pos<lb break="no" ed="#P" n="88"/>sum accusare, etc., intelligit vel quoad 
+          inten<lb break="no" ed="#P" n="89"/>tionem, vel supposita ejus conscientia 
+          erro<lb break="no" ed="#P" n="90"/>nea. Unde libro tertio de Virginit., ante 
+          me<lb break="no" ed="#P" n="91"/>dium, idem tractans factum : Quid igitur, 
+          in<lb break="no" ed="#P" n="92"/>quit, boc probamus ? minime. Sed tamen et si
+          <lb ed="#P" n="93"/>parricidium non probo, adverto praevaricande
+          <lb ed="#P" n="94"/>metum et for midinem sponsionis. Et alia, quae
+          <lb ed="#P" n="95"/>eleganter prosequitur, ejusque verba 
+          usurpa<lb break="no" ed="#P" n="96"/>vit Concilium Toletanum VIII, c. 2; et 
+          Anas<lb break="no" ed="#P" n="97"/>tasius Nicaen., lib. Quaestionum in Scriptur.,
+          <lb ed="#P" n="98"/>quaest. 36 : Quid hoc voto potuerit esse mags
+          <lb ed="#P" n="99"/>npium ? Et infra : Vicit autem Jephte non
+          <lb ed="#P" n="100"/>propter votum, sed propter justum Dei 
+          judi<lb break="no" ed="#P" n="101"/>cium ; non enim propter votum male factum
+          <lb ed="#P" n="102"/>oportebat dolere Tsraelem. Eamdem habet 
+          sen<lb break="no" ed="#P" n="103"/>tentiam Tertullianus, lib. 3 Poematum contra
+          <lb ed="#P" n="104"/>Marcion., ad finem. Item Abulens., in cap. 11
+          <lb ed="#P" n="105"/>Judic., et Matth. 14, quaest. 32, dicit vovisse
+          <lb ed="#P" n="106"/>incaute, credidisse autem obligari, et ideo 
+          oc<lb break="no" ed="#P" n="107"/>cidisse. llem Carthus., Judic. 11.
+        </p>
+        <p xml:id="szovsr-m21968-d1e1149">
+          <lb ed="#P" n="108"/>17. Proponitur sententia asserens impun
+          <lb ed="#P" n="109"/>fuisse votun Jepnhte. — Ratio autem pro hac
+          <lb ed="#P" n="110"/>sententia esse potest, quia vei Jephte est excu-
+          <pb ed="#P" n="880"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sandus propter ignorantiam, vel propter 
+          ins<lb break="no" ed="#P" n="2"/>tinctum Spiritus Sancti aequivalentem 
+          praece<lb break="no" ed="#P" n="3"/>pto. Praeter has enim nulla alia ratio 
+          excusa<lb break="no" ed="#P" n="4"/>uonis excogitari potest, neque in voto, ut ex
+          <lb ed="#P" n="5"/>dictis constat, neque in parricidio, ut per se
+          <lb ed="#P" n="6"/>notum est ex principiis fidei; neutro autem ex
+          <lb ed="#P" n="7"/>diclis modis excusari esse videtur cum 
+          tunda<lb break="no" ed="#P" n="8"/>mento. De ignorantia patet, quia licet negare
+          <lb ed="#P" n="9"/>non possimus , quin ignorantia laboraverit,
+          <lb ed="#P" n="10"/>credendo se obligari tali voto, tamen quod
+          <lb ed="#P" n="11"/>illa fuerit invincibilis, nec ex Scriptura col'
+          i<lb break="no" ed="#P" n="12"/>gitur, quia nullum ibi est de hac re verbum
+          <lb ed="#P" n="13"/>aut signum ; nec ex materia, cum fuerit de re
+          <lb ed="#P" n="14"/>contraria rationi naturali, et multis praeceptis
+          <lb ed="#P" n="15"/>legis veteris; nec ex circumstantiis personae
+          <lb ed="#P" n="16"/>aut temporis, quia erat princeps populi, et
+          <lb ed="#P" n="17"/>tenebatur esse instructus in re tam gravi; et
+          <lb ed="#P" n="18"/>licet antea non fuisset, potuit interrogare a
+          <lb ed="#P" n="19"/>sapientibus veritatem, saltem ante voti 
+          execu<lb break="no" ed="#P" n="20"/>tionem. Respondet Ribera, in c. 11 ad Hebr.,
+          <lb ed="#P" n="21"/>Jephte laborasse invincibili ignorantia, quia eo
+          <lb ed="#P" n="22"/>tempore non erant res adeo explicatae, nec
+          <lb ed="#P" n="23"/>erat Propheta quem consuleret. imo Abulen.,
+          <lb ed="#P" n="24"/>quaest. 41 et 48, credit totum populum illa
+          <lb ed="#P" n="25"/>ignorantia laborasse, ita ut neque summus
+          <lb ed="#P" n="26"/>Sacerdos sciret quaestionem dissolvere, an 
+          vo<lb break="no" ed="#P" n="27"/>tum illud obligaret. Nihilominus vero ipse
+          <lb ed="#P" n="28"/>non excusat Jephte. quia debuit, inquit, per
+          <lb ed="#P" n="29"/>sacerdotem magnum Deum consulere. Mihi
+          <lb ed="#P" n="30"/>vero difficile creditu est, talem ignorantiam
+          <lb ed="#P" n="31"/>fuisse inculpabilem , cum res sit nota lumine
+          <lb ed="#P" n="32"/>naturali, et Scriptura videatur satis declarata,
+          <lb ed="#P" n="33"/>praesertim Levit. ult. Excusatio ergo 
+          ignoran<lb break="no" ed="#P" n="34"/>tiae non videtur admittenda.
+        </p>
+        <p xml:id="szovsr-m21968-d1e1236">
+          <lb ed="#P" n="35"/>18. De instinctu autem Spiritus Sancti 
+          non<lb break="no" ed="#P" n="36"/>nulla posset conjectura sumi ex verbis illis :
+          <lb ed="#P" n="37"/>Factus est ergo Spiritus Domini super Jephte.
+          <lb ed="#P" n="38"/>Sed tamen Augustinus supra dicit, ex his non
+          <lb ed="#P" n="39"/>colligi, fuisse Jephte a Spiritu Sancto motum
+          <lb ed="#P" n="40"/>ad tale votum emittendum, et merito, quia
+          <lb ed="#P" n="41"/>Scriptura solum dicit absolute, factum esse
+          <lb ed="#P" n="42"/>super eum Spiritum Domini, quod potest 
+          in<lb break="no" ed="#P" n="43"/>telligi, vel ad pugnandum contra Ammonitas,
+          <lb ed="#P" n="44"/>vel ad sperandam a Deo victoriam , et 
+          postu<lb break="no" ed="#P" n="45"/>landam. Quod autem subjungitur, votum 
+          vo<lb break="no" ed="#P" n="46"/>visse, etc., non est necesse factum esse eadem
+          <lb ed="#P" n="47"/>Spiritus Sancti motione , sed ex proprio 
+          spi<lb break="no" ed="#P" n="48"/>ritu, vel certe, licet motio ad vovendum 
+          fuis<lb break="no" ed="#P" n="49"/>set a Spiritu Sancto, determinatio ad tale 
+          vo<lb break="no" ed="#P" n="50"/>tum potuit esse a proprio spiritu. Saepe enim
+          <lb ed="#P" n="51"/>Spiritus Sanctus in generali movet ad 
+          oran<lb break="no" ed="#P" n="52"/>dum, vel offerendum Deo aliquem cultum ob
+          <lb ed="#P" n="53"/>aliquam rem impetrandam , et homo sno 
+          ar<lb break="no" ed="#P" n="54"/>bitrio et discursu determinat modum vel 
+          ma<lb break="no" ed="#P" n="55"/>teriam, in qua determinatione culpam misceri
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>contingit ; ita ergo in Jephte accidisse 
+          verisi<lb break="no" ed="#P" n="57"/>milius est.
+        </p>
+        <p xml:id="szovsr-m21968-d1e1291">
+          <lb ed="#P" n="58"/>19. Et confirmatur, quia si materiam et
+          <lb ed="#P" n="59"/>modum illius voti consideremus, nulla 
+          proba<lb break="no" ed="#P" n="60"/>hilis ratio occurrit, ob quam Spiritus Sanctus
+          <lb ed="#P" n="61"/>tale votum inspiraverit, ac explicite vel 
+          impli<lb break="no" ed="#P" n="62"/>cite praeceperit. Non enim fuit votum de 
+          sacri<lb break="no" ed="#P" n="63"/>ficanda filia, sicut fuit praeceptum datum 
+          Abra<lb break="no" ed="#P" n="64"/>hae de filio sacrificando, sed in communi de
+          <lb ed="#P" n="65"/>sacrificando quolibet homine, ve! quolibet
+          <lb ed="#P" n="66"/>animali primum occurrente, in quo genere
+          <lb ed="#P" n="67"/>voti nihil excellens, nihil Spiritu Sancto 
+          di<lb break="no" ed="#P" n="68"/>gnum apparet. Quamvis ergo Spiritus quando
+          <lb ed="#P" n="69"/>et quomodo vult spiret, tamen quantum nos
+          <lb ed="#P" n="70"/>ex tali facto conjectare possumus, credibile
+          <lb ed="#P" n="71"/>non est fuisse ex speciali Spiritus Sancti 
+          im<lb break="no" ed="#P" n="72"/>pulsu. Nec etiam in adimpletione voti talis
+          <lb ed="#P" n="73"/>instinctus apparet, tum quia solum ex vi 
+          prio<lb break="no" ed="#P" n="74"/>ris vinculi existimati, et ex conscientia 
+          erro<lb break="no" ed="#P" n="75"/>nea id fecit Jephte, ut ex littera constat; tum
+          <lb ed="#P" n="76"/>etiam quia valde humano modo, et cum 
+          ma<lb break="no" ed="#P" n="77"/>gno animi dolore id fecit. Unde multi ex 
+          San<lb break="no" ed="#P" n="78"/>ctis citatis interrogant, cur Deus impediverit
+          <lb ed="#P" n="79"/>Abraham, ne sacrificaret filium, non autem
+          <lb ed="#P" n="80"/>Jephte. Et respondent, quia Abraham Spiritu
+          <lb ed="#P" n="81"/>Dei, Jephte proprio spiritu et errore 
+          moveba<lb break="no" ed="#P" n="82"/>tur. Imo addunt in poenam prioris temeritat
+          <lb ed="#P" n="83"/>in vovendo permisisse Deum, ut non 
+          illumina<lb break="no" ed="#P" n="84"/>retur, donec filiam cum magno suo dolore 
+          oe<lb break="no" ed="#P" n="85"/>cideret.
+        </p>
+        <p xml:id="szovsr-m21968-d1e1354">
+          <lb ed="#P" n="86"/>20. Non est ergo quod in eo facto 
+          excusa<lb break="no" ed="#P" n="87"/>tionem, vel operis, vel persona quaeramus.
+          <lb ed="#P" n="88"/>Negare autem non possumus quin Jephte 
+          ma<lb break="no" ed="#P" n="89"/>gna virtutis signa in eodem opere ostenderit:
+          <lb ed="#P" n="90"/>maxime vero fidelitatem et religionem in
+          <lb ed="#P" n="91"/>Deum. Quamquam enim erraret cogitans se
+          <lb ed="#P" n="92"/>obligatum, tamen, supposita ea dispositione,
+          <lb ed="#P" n="93"/>egregium ostendit affectum in Deum, cum
+          <lb ed="#P" n="94"/>amore unigenitae filiae non potuerit ab 
+          obser<lb break="no" ed="#P" n="95"/>vatione voti retardari, sed statim gaudium
+          <lb ed="#P" n="96"/>victoriae dolore animi interruperit, filiamque
+          <lb ed="#P" n="97"/>sacrificare decreverit. In ipso etiam voto 
+          emit<lb break="no" ed="#P" n="98"/>tendo, licet praeceps et temerarius fuerit, 
+          os<lb break="no" ed="#P" n="99"/>tendit tamen fortem et liberalem animum 
+          er<lb break="no" ed="#P" n="100"/>ga Deum, et fidem magnam de necessitate
+          <lb ed="#P" n="101"/>auxilii et protectionis ejus. Qui actus licet
+          <lb ed="#P" n="102"/>tunc non fuerint meritorii de condigno 
+          prop<lb break="no" ed="#P" n="103"/>ter interveniens peccatum, esse potuerunt 
+          dis<lb break="no" ed="#P" n="104"/>positiones congruse, ut facilius Deus illius 
+          mi<lb break="no" ed="#P" n="105"/>sereretur, quia ignorans, et bono zelo fecit,
+          <lb ed="#P" n="106"/>unde etiam facile potuit postea poenitentiam
+          <lb ed="#P" n="107"/>agere, et ad magnam sanctitatem pervenire.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

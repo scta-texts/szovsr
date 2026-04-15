@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="750"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m18838"><!-- t6prae -->
+        <head xml:id="szovsr-m18838-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m18838-d1e103">
+          <pb ed="#P" n="750"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>TRACTATUS SEXTUS.
+          <lb ed="#P" n="2"/>DE VOTO.
+          <lb ed="#P" n="3"/>PROOEMIUM.
+        </p>
+        <p xml:id="szovsr-m18838-d1e116">
+          <lb ed="#P" n="4"/>1. Duplex vocis votum sigmficatio. — Disseruimus de oratione et juramento;
+          <lb ed="#P" n="5"/>superest, ad hujus partis complementum, ut de voto disputemus; hunc enim esse
+          <lb ed="#P" n="6"/>unum ex praecipuis religionis actibus apud veros Theologos et Catholicos compertum
+          <lb ed="#P" n="7"/>est; illumque in hunc postremum tractatum de Virtute heligionis reservavimus, ut
+          <lb ed="#P" n="8"/>ab illo ad statum religiosum explicandum transitum faciamus. Est enim status ille
+          <lb ed="#P" n="9"/>unus ex potissimis effectibus votorum ; imo vix esse potest in Ecclesia status aliquis
+          <lb ed="#P" n="10"/>superans communis vitae genus, et arctiorem viam consiliorum participans, qui voto
+          <lb ed="#P" n="11"/>aliquo ad Deum facto non consecretur. Prius autem quam rem aggrediamur, oportet
+          <lb ed="#P" n="12"/>vocem exponere ; est enim ambigua, etiam in usu Scripturae, ut alios scriptores latinos
+          <lb ed="#P" n="13"/>omittamus, apud quos easdem fere significationes habet. Duae autem sunt praecipuae:
+          <lb ed="#P" n="14"/>una est, qua votum significat bonum animi propositum, ac desiderium, circa rem ad
+          <lb ed="#P" n="15"/>divinum cultum pertinentem, etiamsi nulla intercedat obligatio vel promissio. Ita
+          <lb ed="#P" n="16"/>videtur sumi Exod. 36, ibi : Quotidie mane vota populus offerebat ; nam quod illa
+          <lb ed="#P" n="17"/>oblatio esset spontanea, et non ex obligatione, declarant sequentia verba, quibus
+          <lb ed="#P" n="18"/>Moyses jussit ut nihil ultra offerrent, eo quod oblata sufficerent et superabundarent.
+          <lb ed="#P" n="19"/>Sic etiam videtur sumi Prov. 31, ibi : Quid dilecte mi, quid dilecte uteri mei, quid
+          <lb ed="#P" n="20"/>dilecte votorum meorum ? id est, desideriorum. Sic etiam exponi potest illud, quod
+          <lb ed="#P" n="21"/>in Canone Missae dicitur, tibique reddunt vota sua, id est, pia desideria, et fidei ac
+          <lb ed="#P" n="22"/>devotionis sacrificia, ut cum Alcuino et Floro exposuit Durand., lib. 2 de hitib.,
+          <lb ed="#P" n="23"/>c. 34. Non enim semper promissiones aliquas in Missa persolvimus, ut etiam notavi
+          <lb ed="#P" n="24"/>tom. 3 tertiae partis, disp. 83, sect. 2.
+        </p>
+        <p xml:id="szovsr-m18838-d1e164">
+          <lb ed="#P" n="25"/>2. Significatio voti magis propria. — Aliter votum significat promissionem Deo
+          <lb ed="#P" n="26"/>factam, et inducentem obligationem, circa quam vocis significationem graviter erravit
+          <lb ed="#P" n="27"/>Armachan., ut refert Wald., libr. 3 Doctr., c. 20, negans habere votum hanc 
+          signi<lb break="no" ed="#P" n="28"/>ficalionem in usu Scripturae et doctrinae christianae. Ipse autem Wald., per 
+          contra<lb break="no" ed="#P" n="29"/>rium extremum, ita defendit votum promissorium, ut priorem significationem negare
+          <lb ed="#P" n="30"/>videatur. Sed licet prior admitti debeat, negari non potest quin haec posterior sit
+          <lb ed="#P" n="31"/>frequentior in Scriptura, Num. 30 : Cum se voto obstrinxerit ; et Psal. 49: Redde
+          <lb ed="#P" n="32"/>Altissimo vota tua ; Psal. 65: Reddam tibi vota mea, quae distincerunt labia mea.
+          <lb ed="#P" n="33"/>Et hac ratione distingui solet redditio voti a liberali et spontanea donatione; nam,
+          <lb ed="#P" n="34"/>licet votum ipsum liberaliter fiat, postea non ita liberaliter seu absque obligatione i
+          <lb ed="#P" n="35"/>impletur. Et ideo dixit Innocentius III, in c. Magnae, de Voio, primum ad consilium,
+          <lb ed="#P" n="36"/>secundum ad imperium referri, juxta illud Eccles. 5: Si quid voveris Deo, memor
+          <lb ed="#P" n="37"/>eris reddere, displicet enim ei wfidelis et stulta promissio. Et hoc sensu 
+          condistin<lb break="no" ed="#P" n="38"/>guuntur haec duo, ex voto, vel sponte offerre, Levit. 7 et 22, Num. 15. Atque hoc l
+          <lb ed="#P" n="39"/>posteriori modo votum accipimus in praesenti materia, et est significatio magis pro-
+          <pb ed="#P" n="751"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pria, quae derivatur a verbo voveo, quod promittere significat. Solet autem interdum
+          <lb ed="#P" n="2"/>res ipsa, quae per votum promissa est, votum appellari, ut constat Deut. 12: 
+          Offe<lb break="no" ed="#P" n="3"/>retis holocausta, etc., vota, atque donaria; et 2 Paralip. 29 : Latatusque est 
+          popu<lb break="no" ed="#P" n="4"/>lus, cum vota sponte promitteret. Ilaec autem significatio solum est per translationem
+          <lb ed="#P" n="5"/>extendendo nomen, quo actus significatur, ad materiam, circa quam actus versatur.
+          <lb ed="#P" n="6"/>Proprie igitur votum dicitur actus ille, quo talis materia in divinum cultum ita 
+          offer<lb break="no" ed="#P" n="7"/>tur ex hominis spontanea voluntate, ut inde oriatur obligatio reddendi illam, qui
+          <lb ed="#P" n="8"/>actus promissionis nomine significatur.
+        </p>
+        <p xml:id="szovsr-m18838-d1e221">
+          <lb ed="#P" n="9"/>3. Atque ex hac vocis interpretatione constat imprimis, et volum esse, et 
+          genera<lb break="no" ed="#P" n="10"/>tim ac confuse quid sit, saltem quoad quid nominis; scilicet, rationem voti stricte
+          <lb ed="#P" n="11"/>et proprie sumpti consistere in spontanea promissione Deo facta. Id enim aperte
+          <lb ed="#P" n="12"/>colligitur ex locis Scripturae citatis. Quanquam ex illis maxime habetur, 
+          promissio<lb break="no" ed="#P" n="13"/>nem Deo factam esse votum; an vero sola illa votum sit, non ita clare constat, 
+          dis<lb break="no" ed="#P" n="14"/>putabitur autem in sequentibus. Nunc ex communi sensu Doctorum dictam 
+          definitio<lb break="no" ed="#P" n="15"/>nem, quid nominis voti supponimus; ad hanc enim reducuntur alixe, quas Paludanus
+          <lb ed="#P" n="16"/>refert in 4, d. 38, q. 2. Est etiam optima, quam tradit Gregorius Nyssen. in 
+          prin<lb break="no" ed="#P" n="17"/>cipio Expositionis Dominicae Orat. : Votum est promissio alicujus rei, que pietatis
+          <lb ed="#P" n="18"/>nomine dedicetur, et sacris destinetur. Magister autem ind. d. 38, non promissionem,
+          <lb ed="#P" n="19"/>sed testificationem promissionis votum appellat; videtur tamen loqui de exteriori et
+          <lb ed="#P" n="20"/>sensibili voto. D. Thomas autem 2. 2, q. 88, art. 1, dicit posse intelligi de 
+          testifica<lb break="no" ed="#P" n="21"/>tione interiori. Sed hoc etiam modo intellecta descri iptio, per aliquid poster ius 
+          cir<lb break="no" ed="#P" n="22"/>cumscribitur, nam votum non est signum promissionis, quod nomine testificationis
+          <lb ed="#P" n="23"/>significari videtur, sed est ipsa promissio. Aliam definitionem refert D. Thomas, d.
+          <lb ed="#P" n="24"/>art. 1, arg. 1, quam in sequentibus melius exponemus. His ergo circa nominis 
+          signi<lb break="no" ed="#P" n="25"/>ficationem suppositis, ad rem explicandam accedamus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

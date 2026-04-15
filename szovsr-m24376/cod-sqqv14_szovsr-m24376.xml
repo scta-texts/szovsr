@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 12</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 12</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="972"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m24376"><!-- t6l4c12 -->
+        <head xml:id="szovsr-m24376-Hd1e101">Caput 12</head>
+        <head xml:id="szovsr-m24376-Hd1e103" type="question-title">Pro quo tempore votum obliget.</head>
+        <p xml:id="szovsr-m24376-d1e106">
+          <lb ed="#P" n="38"/>CAPUT XII.
+          <lb ed="#P" n="39"/>PRO QUO TEMPORE VOTUM OBLIGET.
+        </p>
+        <p xml:id="szovsr-m24376-d1e113">
+          <lb ed="#P" n="40"/>1. In quo conveniant et differant votum 
+          af<lb break="no" ed="#P" n="41"/>firmativum et negativum. — Solum superest
+          <lb ed="#P" n="42"/>nobis dicendum de circumstantia temporis, in
+          <lb ed="#P" n="43"/>qua tria declaranda sunt : primo, quando 
+          vo<lb break="no" ed="#P" n="44"/>tum obligare incipiat ; secundo, quanto 
+          tem<lb break="no" ed="#P" n="45"/>pore duret ejus obligatio non impleta ; tertio,
+          <lb ed="#P" n="46"/>quibus modis finiatur per se, id est, quamvis
+          <lb ed="#P" n="47"/>ab alio non tollatur : hic enim modus 
+          auferen<lb break="no" ed="#P" n="48"/>di obligationem, alterius considerationis est,
+          <lb ed="#P" n="49"/>quam in librum sextum reservamus. Deinde
+          <lb ed="#P" n="50"/>in hac obligatione voti duo illa distinguenda
+          <lb ed="#P" n="51"/>sunt, quae in lege distingui solent, scilicet,
+          <lb ed="#P" n="52"/>quando obliget, et pro quando, quia praecep-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tum negativum dicitur obligare semper et pro
+          <lb ed="#P" n="54"/>semper, affirmativum autem obligare semper,
+          <lb ed="#P" n="55"/>non vero pro semper, quae habent 
+          proportio<lb break="no" ed="#P" n="56"/>nalem rationem in voto negativo et 
+          affirma<lb break="no" ed="#P" n="57"/>tivo, ut constat ex his, quae de illis supra 
+          dixi<lb break="no" ed="#P" n="58"/>mus. Unde haec duo genera votorum 
+          conve<lb break="no" ed="#P" n="59"/>niunt cum proportione in initio obligationis,
+          <lb ed="#P" n="60"/>seu in assignatione temporis vel momenti, in
+          <lb ed="#P" n="61"/>quo obligare incipiunt; differunt autem in
+          <lb ed="#P" n="62"/>modo postea obligandi, quamdiu durat eorum
+          <lb ed="#P" n="63"/>obligatio; quia votum negativum de se obligat
+          <lb ed="#P" n="64"/>semper et pro semper, quamdiu durat ; 
+          affir<lb break="no" ed="#P" n="65"/>mativum autem licet semper obliget, non pro
+          <lb ed="#P" n="66"/>semper. Vis autem horum verborum (ut semel
+          <lb ed="#P" n="67"/>explicetur) est, quod votum negativum ita
+          <lb ed="#P" n="68"/>obligat pro suo tempore, ut in nullo momento
+          <lb ed="#P" n="69"/>illius temporis liceat agere id, quod ex voto
+          <lb ed="#P" n="70"/>prohibitum manet; votum autem 
+          affirmati<lb break="no" ed="#P" n="71"/>vum dicitur intra tale tempus semper obligare,
+          <lb ed="#P" n="72"/>quia vel in qualibet parte illius temporis 
+          suf<lb break="no" ed="#P" n="73"/>ficienter impleri potest, si ex parte actus 
+          pro<lb break="no" ed="#P" n="74"/>missi non repugnet, vel saltem tenetur homo
+          <lb ed="#P" n="75"/>esse in praparatione animi ad italem actum
+          <lb ed="#P" n="76"/>praestandum in aliqua parte illius temporis.
+          <lb ed="#P" n="77"/>Dicitur autem non obligare pro semper, quia
+          <lb ed="#P" n="78"/>non in qualibet parte signata illius temporis
+          <lb ed="#P" n="79"/>necessario implendum est. Ut ergo distinete
+          <lb ed="#P" n="80"/>tempus hujus obligationis explicemus, de his
+          <lb ed="#P" n="81"/>duobus generibus votorum sigillatim 
+          dicen<lb break="no" ed="#P" n="82"/>dum est.
+        </p>
+        <p xml:id="szovsr-m24376-d1e211">
+          <lb ed="#P" n="83"/>2. Prima assertio :votum negativum absolute
+          <lb ed="#P" n="84"/>factum statim ac fit semper obligat. nasi a 
+          vo<lb break="no" ed="#P" n="85"/>vente limitetur. — Dico primo: votum 
+          negati<lb break="no" ed="#P" n="86"/>vum, absolute factum, statim ac fit, ex vi 
+          for<lb break="no" ed="#P" n="87"/>mae suae, obligare incipit, semperque ac pro
+          <lb ed="#P" n="88"/>semper et perpetuo obligat, quantum 
+          mate<lb break="no" ed="#P" n="89"/>ria patitur, nisi ex intentione vovenus 
+          limite<lb break="no" ed="#P" n="90"/>tur. Haec ultima pars semper supponitur in hac
+          <lb ed="#P" n="91"/>materia, quia, ut saepe dictum est, obligatio
+          <lb ed="#P" n="92"/>est voluntaria, et ita non extenditur ultra 
+          in<lb break="no" ed="#P" n="93"/>tentionem voventis. Haec autem intentio,
+          <lb ed="#P" n="94"/>quando in verbis non exprimitur, est quasi
+          <lb ed="#P" n="95"/>per accidens, et extra scientiam, et ideo 
+          so<lb break="no" ed="#P" n="96"/>lum oportet advertere, ut de illa et de modo
+          <lb ed="#P" n="97"/>illius satis constet, et tunc illa erit regula 
+          obli<lb break="no" ed="#P" n="98"/>gationis, tam quoad initium, quam quoad
+          <lb ed="#P" n="99"/>durationem ac terminum obligationis. Si ergo
+          <lb ed="#P" n="100"/>in ipso voto explicetur intentio suspendens 
+          ob<lb break="no" ed="#P" n="101"/>ligationem usque ad talem terminum, aut
+          <lb ed="#P" n="102"/>diem, vel addens illi certum terminum et 
+          fi<lb break="no" ed="#P" n="103"/>nem, tunc votum non erit absolutum, sed
+          <lb ed="#P" n="104"/>quasi conditionatum quoad initium, vel 
+          limi<lb break="no" ed="#P" n="105"/>tatum quoad finem, et ita de initio 
+          obligatio<lb break="no" ed="#P" n="106"/>nis ejus judicandum erit juxta dicenda in 
+          as<lb break="no" ed="#P" n="107"/>sertione sequenti. et infra de voto conditiona-
+          <pb ed="#P" n="973"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>to, de fine vero ex verbis ipsis et intentione
+          <lb ed="#P" n="2"/>voventis. Assertio autem posita loquitur de
+          <lb ed="#P" n="3"/>voto absoluto negativo. Et ratio cjus est clara,
+          <lb ed="#P" n="4"/>quia negatio absoluta natura sua omnia, quae
+          <lb ed="#P" n="5"/>post se invenit, destruit, et ideo absoluta 
+          pro<lb break="no" ed="#P" n="6"/>hibitio, ex qua fit sine limitatione, semper et
+          <lb ed="#P" n="7"/>pro semper obligat ; quia illa negatio 
+          distribu<lb break="no" ed="#P" n="8"/>tionem totius temporis sequentis continet 
+          res<lb break="no" ed="#P" n="9"/>pectu actus seu materiae in quam cadit. Et ita
+          <lb ed="#P" n="10"/>explicantur praecepta negativa absolute lata,
+          <lb ed="#P" n="11"/>et censurae non limitantes tempus,"quia 
+          priva<lb break="no" ed="#P" n="12"/>tionem continent, ut suo loco explicatum est;
+          <lb ed="#P" n="13"/>eadem ergo ratio est in praesenu.
+        </p>
+        <p xml:id="szovsr-m24376-d1e301">
+          <lb ed="#P" n="14"/>3. Addidi vero hoc esse intelligendum juxta
+          <lb ed="#P" n="15"/>materiae capacitatem, quia ex parte materiae
+          <lb ed="#P" n="16"/>limitari aut determinari potest obligatio; quia
+          <lb ed="#P" n="17"/>non potest excedere capacitatem materiae, ut
+          <lb ed="#P" n="18"/>per se constat ex dictis in superioribus. Unde
+          <lb ed="#P" n="19"/>considerare oportet actum per votum 
+          prohibi<lb break="no" ed="#P" n="20"/>tum interdum talem esse, ut quolibet tempore
+          <lb ed="#P" n="21"/>indifferenter fieri possit, ut ludere, etc. Et
+          <lb ed="#P" n="22"/>tunc votum non ludendi simpliciter obligat
+          <lb ed="#P" n="23"/>statim, et pro quolibet tempore quasi 
+          conti<lb break="no" ed="#P" n="24"/>nue, vel perpetuo, vel usque ad terminum, si
+          <lb ed="#P" n="25"/>praefixus sit. Aliquando vero talis est actus, ut
+          <lb ed="#P" n="26"/>non semper, sed certis temporibus capax sit
+          <lb ed="#P" n="27"/>obligationis voti; ut, verbi gratia, non studere
+          <lb ed="#P" n="28"/>absolute, non est materia voti negativi ; tamen
+          <lb ed="#P" n="29"/>si studium consideretur ut impedimentum
+          <lb ed="#P" n="30"/>orandi, audiendi Missam, vel quid simile, sic
+          <lb ed="#P" n="31"/>cadere potest sub votum negativum; tunc 
+          au<lb break="no" ed="#P" n="32"/>tem votum non studendi eo titulo non obligat
+          <lb ed="#P" n="33"/>semper, seu pro semper absolute, sed pro 
+          tem<lb break="no" ed="#P" n="34"/>poribus in quibus potest esse impedimentum.
+          <lb ed="#P" n="35"/>Idemque potest esse de ludo, vel aliis actibus,
+          <lb ed="#P" n="36"/>si tantum voveatur eorum cessatio, quatenus
+          <lb ed="#P" n="37"/>impedimenta sunt aliorum actuum virtutum
+          <lb ed="#P" n="38"/>suis temporibus efficiendorum. Similiter 
+          vo<lb break="no" ed="#P" n="39"/>tum non ingrediendi talem domun vitandae
+          <lb ed="#P" n="40"/>occasionis gratia, tantum durat quamdiu 
+          du<lb break="no" ed="#P" n="41"/>rat occasio, quia illa cessante, desinit illa 
+          ma<lb break="no" ed="#P" n="42"/>teria esse apta ad votum, et sic de aliis.
+        </p>
+        <p xml:id="szovsr-m24376-d1e366">
+          <lb ed="#P" n="43"/>4. Secunda assertio : votum affirmativum,
+          <lb ed="#P" n="44"/>statim ac fit, obligat, non tamen pro statim.—
+          <lb ed="#P" n="45"/>Dico ecundo: votum affirmativum, statim
+          <lb ed="#P" n="46"/>ac fit, obligat, non tamen pro statim, sed hoc
+          <lb ed="#P" n="47"/>determinandum est, vel ex intentione et 
+          ver<lb break="no" ed="#P" n="48"/>bis voti, vel ex prudenti arbitrio. Prior pars
+          <lb ed="#P" n="49"/>declaratur, quia votum etiam affirmativum
+          <lb ed="#P" n="50"/>est causa obligationis; ergo statim ac est, 
+          in<lb break="no" ed="#P" n="51"/>ducit illam ; ergo statim obligat. Prima 
+          con<lb break="no" ed="#P" n="52"/>sequentia , in qua est vis, probatur, quia 
+          vo<lb break="no" ed="#P" n="53"/>tum inducit obligationem quasi naturalitar ac
+          <lb ed="#P" n="54"/>necessario; nam (ut supra dictum est) licet
+          <lb ed="#P" n="55"/>facere votum sit liberum , quod autem votum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>factum non obliget, non est liberum voventi;
+          <lb ed="#P" n="57"/>ergo necessario sequitur. Atque haec ratio cum
+          <lb ed="#P" n="58"/>proportione habet etiam locum in votis 
+          nega<lb break="no" ed="#P" n="59"/>üvis ; nam licet obligent ad negationem, ipsa
+          <lb ed="#P" n="60"/>tamen obligatio ad negationem quasi 
+          vincu<lb break="no" ed="#P" n="61"/>lum positivum est , quod statim ac necessario
+          <lb ed="#P" n="62"/>inducitur per votum.
+        </p>
+        <p xml:id="szovsr-m24376-d1e414">
+          <lb ed="#P" n="63"/>5. Objectio. — Solutio. — Dices: si ratio
+          <lb ed="#P" n="64"/>esset efficax, omnia vota sine exceptione 
+          com<lb break="no" ed="#P" n="65"/>prehenderet , quod tamen non ita est, quia
+          <lb ed="#P" n="66"/>vota conditionata sunt vera vota, et tamen
+          <lb ed="#P" n="67"/>non obligant statim. Respondeo: imo eo 
+          mo<lb break="no" ed="#P" n="68"/>do quo sunt vota, statim obligant , ut infra
+          <lb ed="#P" n="69"/>declarabitur. Et ita concedo rationem esse 
+          uni<lb break="no" ed="#P" n="70"/>versalem, et omnia vota comprehendere. Nam
+          <lb ed="#P" n="71"/>omne votum statim ac fit, obligat hominem
+          <lb ed="#P" n="72"/>ad actum suo tempore faciendum, et 
+          con<lb break="no" ed="#P" n="73"/>sequenter ad habendum tale propositum ,
+          <lb ed="#P" n="74"/>seu animi praeparationem saltem virtualem, et
+          <lb ed="#P" n="75"/>consequenter etiamsi sit votum affirmativum,
+          <lb ed="#P" n="76"/>obligat statim ad non habendum propositum
+          <lb ed="#P" n="77"/>contrarium observantiae voti, vel ad 
+          caven<lb break="no" ed="#P" n="78"/>dum impedimentum ; ergo signum est statim
+          <lb ed="#P" n="79"/>inducere aliquam obligationem. Altera vero
+          <lb ed="#P" n="80"/>pars assertionis, quod tale votum non obliget
+          <lb ed="#P" n="81"/>pro semper, constat ex natura obligationis 
+          at<lb break="no" ed="#P" n="82"/>firmativae, quae non continet illam 
+          distributio<lb break="no" ed="#P" n="83"/>nem , quam negatio involvit, ut in principio
+          <lb ed="#P" n="84"/>dictum est, et per se constat ; quia nulla 
+          ope<lb break="no" ed="#P" n="85"/>ratio necessario est continua, sicut potest esse
+          <lb ed="#P" n="86"/>negatio operationis. Item operatio positiva
+          <lb ed="#P" n="87"/>temporis opportunitatem requirit, pro qua fiat,
+          <lb ed="#P" n="88"/>quae non semper adest : ergo natura talis 
+          obli<lb break="no" ed="#P" n="89"/>gationis est, ut non pro semper obliget.
+        </p>
+        <p xml:id="szovsr-m24376-d1e475">
+          <lb ed="#P" n="90"/>6. An votum affirmativum obliget pro 
+          sta<lb break="no" ed="#P" n="91"/>lim, vel pro prima opportunitate. — Difficultas
+          <lb ed="#P" n="92"/>vero est primo, an votum aftirmativum 
+          absolu<lb break="no" ed="#P" n="93"/>tum obliget pro statim, vel pro prima 
+          oppor<lb break="no" ed="#P" n="94"/>tunitate exercendi talem actum promissum :
+          <lb ed="#P" n="95"/>loquor autem de absoluto voto, non solum ut
+          <lb ed="#P" n="96"/>distinguitur a conditionato, de quo infra 
+          di<lb break="no" ed="#P" n="97"/>cendum est , sed etiam ut distinguitur a voto
+          <lb ed="#P" n="98"/>designante certum tempus , pro quo res 
+          pro<lb break="no" ed="#P" n="99"/>mittitur et non antea, ex declarata intentione
+          <lb ed="#P" n="100"/>voventis ; nam de hoc constat, pro tempore
+          <lb ed="#P" n="101"/>designato obligare, et non antea. Dubium 
+          er<lb break="no" ed="#P" n="102"/>go est de voto absoluto, verhi gratia, intrandi
+          <lb ed="#P" n="103"/>religionem, dandi eleemosynam, et aliis 
+          in<lb break="no" ed="#P" n="104"/>definite factis, sine alia temporis designatione,
+          <lb ed="#P" n="105"/>de quibus videtur esse recepta sententia tale
+          <lb ed="#P" n="106"/>votum obligare statim, id est, pro prima 
+          op<lb break="no" ed="#P" n="107"/>portunitate congrua. Sumitur ex D. Thoma,
+          <lb ed="#P" n="108"/>d. q. 88, art. 3, ad 3. Nam licet solum dicat,
+          <lb ed="#P" n="109"/>si de intentione voventis sit obligare se ad 
+          sta<lb break="no" ed="#P" n="110"/>tim, teneri statim solvere, secus si ad certum
+          <pb ed="#P" n="974"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tempus, vel sub conditione aliqua , 
+          nihilomi<lb break="no" ed="#P" n="2"/>nus cum nullam mentionem faciat de alio 
+          mo<lb break="no" ed="#P" n="3"/>do vovendi, satis indicat, eo ipso quod vovens
+          <lb ed="#P" n="4"/>non differt obligationem pro tali tempore, 
+          vo<lb break="no" ed="#P" n="5"/>tum obligare ad statim. Sic enim qui vult 
+          ali<lb break="no" ed="#P" n="6"/>quid vovere, et non apponit condituionem, hoc
+          <lb ed="#P" n="7"/>ipso vult absolute obligari, etiamsi non 
+          ex<lb break="no" ed="#P" n="8"/>presse velit absolutam obligationem quasi sub
+          <lb ed="#P" n="9"/>hac denominatione. Sicut ergo obligatio, non
+          <lb ed="#P" n="10"/>suspensa per conditionem, transit in 
+          absolu<lb break="no" ed="#P" n="11"/>tam, ita etiam obligatio, non dilata per 
+          inten<lb break="no" ed="#P" n="12"/>tionem in tempus futurum, incipit statim pro
+          <lb ed="#P" n="13"/>praesenti tempore.
+        </p>
+        <p xml:id="szovsr-m24376-d1e556">
+          <lb ed="#P" n="14"/>7. L. Promissor. — Conmunis resotutio. —
+          <lb ed="#P" n="15"/>Potestque ad hoc induci L. Promissor, S 1, ft.
+          <lb ed="#P" n="16"/>de Const. pecun , ibi: S sine-die constituas,
+          <lb ed="#P" n="17"/>etc.. confestim agi tecum poterit , si statim ut
+          <lb ed="#P" n="18"/>constituisti , non solvas. Praeterea induci 
+          po<lb break="no" ed="#P" n="19"/>test ratio facta, quia votum ex se est causa 
+          ef<lb break="no" ed="#P" n="20"/>ficax obligationis ; ergo si non impeditur, 
+          sta<lb break="no" ed="#P" n="21"/>tim ac pro statim inducit illam ; si enim per
+          <lb ed="#P" n="22"/>intentionem non suspenditur aut differtur
+          <lb ed="#P" n="23"/>obligatio, nullum relinquitur impedimentum;
+          <lb ed="#P" n="24"/>ergo. Alia ratio moralis est, quia si tale 
+          vo<lb break="no" ed="#P" n="25"/>tum non obligat ad statim, nulla certa ratione
+          <lb ed="#P" n="26"/>poterit designari postea initium temporis, pro
+          <lb ed="#P" n="27"/>quo obliget. In praeceptis enim affirmativis,
+          <lb ed="#P" n="28"/>quae dicuntur semper obligare, et non pro
+          <lb ed="#P" n="29"/>semper, assignantur tempora pro quibus 
+          obli<lb break="no" ed="#P" n="30"/>gant, juxta aliquam necessitatem, vel 
+          occasio<lb break="no" ed="#P" n="31"/>nem, pro qua tale praeceptum obligat, quando
+          <lb ed="#P" n="32"/>non est aliter determinatio facta a legislatore;
+          <lb ed="#P" n="33"/>in praesenti vero obligatio voti non oritur ex
+          <lb ed="#P" n="34"/>rei necessitate, sed ex voluntate voventis, et
+          <lb ed="#P" n="35"/>ideo tempus, pro quo obligat, non potest 
+          desi<lb break="no" ed="#P" n="36"/>gnari ex articulo necessitatis provenientis ex
+          <lb ed="#P" n="37"/>re ipsa secundum se. Recurrendum ergo est
+          <lb ed="#P" n="38"/>ad voluntatem voventis. Supponimus autem
+          <lb ed="#P" n="39"/>per hanc voluntatem nullum futurum tempus
+          <lb ed="#P" n="40"/>fuisse determinatum ; ergo nulla est major
+          <lb ed="#P" n="41"/>ratio explicandi hanc voluntatem de uno,
+          <lb ed="#P" n="42"/>quam de alio tempore futuro; ergo ne talis
+          <lb ed="#P" n="43"/>voluntas taleque votum inania sint, dicendum
+          <lb ed="#P" n="44"/>est statim obligare. Atque haec videtur esse
+          <lb ed="#P" n="45"/>communis sententia Theologorum in 4, 
+          dis<lb break="no" ed="#P" n="46"/>tinct. 38, ubi Palud., q. 3, art.2; late 
+          Sup<lb break="no" ed="#P" n="47"/>plement., q. 1, articulo tertio, conclus. 3;
+          <lb ed="#P" n="48"/>Angel.. Votum, 3, n. 2; Sylvest., Votum, 2,
+          <lb ed="#P" n="49"/>quaestione tertia. Sentit Panormitanus, in cap.
+          <lb ed="#P" n="50"/>Non est, de Voto, ubi ex textu per sensum a
+          <lb ed="#P" n="51"/>contrario colligit, non esse licitam voti 
+          dila<lb break="no" ed="#P" n="52"/>tionem sine dispensatione.
+        </p>
+        <p xml:id="szovsr-m24376-d1e643">
+          <lb ed="#P" n="53"/>8. Cajetani limitatio ad traditam 
+          resolutio<lb break="no" ed="#P" n="54"/>nem. — Cajetanus autem, d. art. 3, dubio 
+          ul<lb break="no" ed="#P" n="55"/>timo, videtur hanc doctrinam limitare, dicens
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>primo , spectandam esse conscientiam 
+          voven<lb break="no" ed="#P" n="57"/>tis ; nam si illa dictat non esse contra 
+          vincu<lb break="no" ed="#P" n="58"/>Ium sui voti expectare unum, vel duos annos,
+          <lb ed="#P" n="59"/>non erit in mora culpabili, qui hoc tempore
+          <lb ed="#P" n="60"/>distulerit solutionem. Quia vero objici poterat,
+          <lb ed="#P" n="61"/>tale dictamen conscientiae posse esse 
+          temera<lb break="no" ed="#P" n="62"/>rium et irrationabile, subjungit indicia , 
+          qui<lb break="no" ed="#P" n="63"/>bus cognosci possit esse prudens illud 
+          judi<lb break="no" ed="#P" n="64"/>cium, ideoque sufficiens ad excusandum. 
+          Pri<lb break="no" ed="#P" n="65"/>mum, , si quoties illi occurrit memoria illius
+          <lb ed="#P" n="66"/>vinculi, non occurrit cum remorsu 
+          conscien<lb break="no" ed="#P" n="67"/>tiae, eo quod impletum non sit, sed 
+          sim<lb break="no" ed="#P" n="68"/>pliciter, ut suo tempore implendum. 
+          Secun<lb break="no" ed="#P" n="69"/>dum, si non consuevit promittere vel 
+          propo<lb break="no" ed="#P" n="70"/>nere cum illa restrictione, sed cum magna
+          <lb ed="#P" n="71"/>tempore dilatione: nam censendus est 
+          unus<lb break="no" ed="#P" n="72"/>quisque habere intentionem se obligandi 
+          jux<lb break="no" ed="#P" n="73"/>ta suam consuetudinem. Tertio, unusquisque
+          <lb ed="#P" n="74"/>praesumitur se obligare pro tempore sibi 
+          com<lb break="no" ed="#P" n="75"/>modo; unde licet opportunitas implendi statim
+          <lb ed="#P" n="76"/>votum respectu aliorum videatur commoda, si
+          <lb ed="#P" n="77"/>non sit talis respectu ipsius voventis, non 
+          cen<lb break="no" ed="#P" n="78"/>setur intendisse statim se obligare, sed pro
+          <lb ed="#P" n="79"/>tempore sibi commodo. Tandem subjungit 
+          Ca<lb break="no" ed="#P" n="80"/>jetanus, si nihil horum occurrat, ex quo possit
+          <lb ed="#P" n="81"/>intentio voventis colligi, arbitrio prudentis viri
+          <lb ed="#P" n="82"/>determinandum esse tempus, pro quo obligat
+          <lb ed="#P" n="83"/>votum, pensatis circumstantiis personae, 
+          mate<lb break="no" ed="#P" n="84"/>rise, etc.: Si non potest (inquit) tutior pars
+          <lb ed="#P" n="85"/>eligi, implend statim vota.
+        </p>
+        <p xml:id="szovsr-m24376-d1e720">
+          <lb ed="#P" n="86"/>9. Ex qua sententia tria videntur colligi.
+          <lb ed="#P" n="87"/>Primum est, non esse idem judicium de voto,
+          <lb ed="#P" n="88"/>quo formaliter aliquis vult se obligare ad 
+          sta<lb break="no" ed="#P" n="89"/>tim, et quod simpliciter fit sine temporis 
+          deter<lb break="no" ed="#P" n="90"/>minatione; sed esse quasi medium, quod nec
+          <lb ed="#P" n="91"/>determinat certam dilationem, nec etiam 
+          sta<lb break="no" ed="#P" n="92"/>tim urget, sed admittit dilationem quasi 
+          ab<lb break="no" ed="#P" n="93"/>stracte et in communi, seu indeterminate. 
+          Se<lb break="no" ed="#P" n="94"/>cundum est, determinationem sumendam esse
+          <lb ed="#P" n="95"/>ex dictis conjecturis. Tertium, illis 
+          deficienti<lb break="no" ed="#P" n="96"/>bus, prudenti arbitrio esse utendum ; semper
+          <lb ed="#P" n="97"/>tamen admittendo (hoc enim videtur 
+          intende<lb break="no" ed="#P" n="98"/>re Cajetanus) aliquam majorem dilationem in
+          <lb ed="#P" n="99"/>hoc voto, quam in alio determinante expresse
+          <lb ed="#P" n="100"/>obligationem ad statim.
+        </p>
+        <p xml:id="szovsr-m24376-d1e755">
+          <lb ed="#P" n="101"/>10. Auctoris sententia. — Sed fortasse Caje
+          <lb ed="#P" n="102"/>tanus nihil contrarium intendit caeteris 
+          aucto<lb break="no" ed="#P" n="103"/>ribus ; omnes enim requirunt aliquod prudens
+          <lb ed="#P" n="104"/>arbitrium, quod ipse per illas omnes 
+          conjectu<lb break="no" ed="#P" n="105"/>ras voluit explicare. Unde absolute verum
+          <lb ed="#P" n="106"/>censeo, tale votum obligare ad statim, et 
+          mora<lb break="no" ed="#P" n="107"/>liter ron esse diversum ab alio, nisi secundum
+          <lb ed="#P" n="108"/>implicitam vel explicitam intentionem, ac 
+          de<lb break="no" ed="#P" n="109"/>clarationem ejusdem obligationis. Quod 
+          vide<lb break="no" ed="#P" n="110"/>tur sensisse D. Thomas, alioquin diminutam
+          <pb ed="#P" n="975"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>doctrinam tradidisset. Et rationes supra factae
+          <lb ed="#P" n="2"/>hoc satis probare videntur. Ut tamen magis
+          <lb ed="#P" n="3"/>explicetur, adverto contingere posse, ut 
+          ali<lb break="no" ed="#P" n="4"/>quis expresse nolit se obligare ad statim, nec
+          <lb ed="#P" n="5"/>certum diem ad votum implendum 
+          constitue<lb break="no" ed="#P" n="6"/>re, sed solum intendat se obligare ad hoc 
+          fa<lb break="no" ed="#P" n="7"/>ciendum post aliquod tempus, quando 
+          pru<lb break="no" ed="#P" n="8"/>denti arbitrio commodum videbitur. Tunc 
+          au<lb break="no" ed="#P" n="9"/>tem illud votum diversum esset a voto 
+          absolu<lb break="no" ed="#P" n="10"/>to et indefinito, quia vovens per intentionem
+          <lb ed="#P" n="11"/>suspendit voti obligationem, et vult 
+          dilatio<lb break="no" ed="#P" n="12"/>nem executionis, et modum determinationis
+          <lb ed="#P" n="13"/>ejus etiam statuit, quamvis tempus non 
+          prae<lb break="no" ed="#P" n="14"/>scribat. Unde si de tali intentione constaret,
+          <lb ed="#P" n="15"/>juxta illam judicandum esset de tempore 
+          obli<lb break="no" ed="#P" n="16"/>gationis. Si vero non constaret, et vovens 
+          es<lb break="no" ed="#P" n="17"/>set dubius, neque sciret satis explicare 
+          inten<lb break="no" ed="#P" n="18"/>tionem suam, praesumeret tamen aliquo modo
+          <lb ed="#P" n="19"/>se non habuisse intentionem obligandi se ad
+          <lb ed="#P" n="20"/>statim, sed potius differendi obligationem ,
+          <lb ed="#P" n="21"/>tunc haberent locum conjecturae Cajetani ad
+          <lb ed="#P" n="22"/>judicandum de tale intentione, saltem 
+          impli<lb break="no" ed="#P" n="23"/>ciia.
+        </p>
+        <p xml:id="szovsr-m24376-d1e833">
+          <lb ed="#P" n="24"/>11. Oportet autem attente illas conjecturas
+          <lb ed="#P" n="25"/>expendere; nam prima de conscientia sine
+          <lb ed="#P" n="26"/>remorsu in homine timorato et non ignaro
+          <lb ed="#P" n="27"/>facit probabilem praesumptionem; in homine
+          <lb ed="#P" n="28"/>autem ignorante, qui nescit judicare quando
+          <lb ed="#P" n="29"/>votum opliget, vel nimium negligente circa
+          <lb ed="#P" n="30"/>res ad conscientiam pertinentes, ex tali 
+          con<lb break="no" ed="#P" n="31"/>jectura nullum judicium sumi potest. Secunda
+          <lb ed="#P" n="32"/>etiam potest esse fallax, quia ssepe homo 
+          tar<lb break="no" ed="#P" n="33"/>dus et morosus in exequendis operibus 
+          virtu<lb break="no" ed="#P" n="34"/>tis solet se voto obligare, ut constringatur 
+          sta<lb break="no" ed="#P" n="35"/>tim facere; ergo ex consuetudine differendi
+          <lb ed="#P" n="36"/>opera virtutis non potest sufficienter colligi
+          <lb ed="#P" n="37"/>votum esse factum sub tali intentione. Tunc
+          <lb ed="#P" n="38"/>autem posset ali juid valere ilia conjectura,
+          <lb ed="#P" n="39"/>quando prior consuetudo circa cilationem
+          <lb ed="#P" n="40"/>temporis non excederet limites prudentia ,
+          <lb ed="#P" n="41"/>quae non permittit hominem esse praecipitem
+          <lb ed="#P" n="42"/>in rebus. agendis. Ex hus vero, et similibus
+          <lb ed="#P" n="43"/>conjecturis, ideo potest differri obligatio voti,
+          <lb ed="#P" n="44"/>quia in tali casu fertur prudens judicium, 
+          vo<lb break="no" ed="#P" n="45"/>ventem habuisse saltem implicite et 
+          virtuali<lb break="no" ed="#P" n="46"/>ter talem intentionem,
+        </p>
+        <p xml:id="szovsr-m24376-d1e885">
+          <lb ed="#P" n="47"/>12. Quomodo intelligendum quod votum 
+          af<lb break="no" ed="#P" n="48"/>firmativum, ad statim et pro semper obliget.—
+          <lb ed="#P" n="49"/>Praeterea cum dicimus votum affirmativum
+          <lb ed="#P" n="50"/>absolute factum obligare ad statim et pro
+          <lb ed="#P" n="51"/>semper, intelligendum est non metaphysice,
+          <lb ed="#P" n="52"/>sed moraliter. Ita enim exponunt omnes 
+          auc<lb break="no" ed="#P" n="53"/>tores. et significavit J. C., in d. S primo, 
+          sub<lb break="no" ed="#P" n="54"/>jungens post verba allegata: Sed modicum
+          <lb ed="#P" n="55"/>tempus statuendum est, non minnts decem. die-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rum, wt emactio celebretur ; e in l. Ritum, ff.
+          <lb ed="#P" n="57"/>de Solut., ubi, quod dicitur, statim, seu cum
+          <lb ed="#P" n="58"/>primun, declaratur esse cum quodam spatio
+          <lb ed="#P" n="59"/>temporis accipiendum; et in l. Quod dicimus,
+          <lb ed="#P" n="60"/>eod. : Statim solvere, cun aliquo temperamento
+          <lb ed="#P" n="61"/>temporis antelli gendum est ; quia, moraliter 
+          lo<lb break="no" ed="#P" n="62"/>quendo, haec est intentio omnium hominum,
+          <lb ed="#P" n="63"/>imo est ad prudentem modum operandi 
+          ne<lb break="no" ed="#P" n="64"/>cessaria. Quoad hoc ergo locum habet in hac
+          <lb ed="#P" n="65"/>determinatione prudens arbitrium ad 
+          judican<lb break="no" ed="#P" n="66"/>dum quae dilatio temporis physica (ut sic 
+          di<lb break="no" ed="#P" n="67"/>cam) non debeat moralis censeri, ita ut 
+          ratio<lb break="no" ed="#P" n="68"/>ne illius non debeat quis judicari violasse illud
+          <lb ed="#P" n="69"/>praeceptum : Si quid vovisti Dumino, ne 
+          more<lb break="no" ed="#P" n="70"/>ris reddere. Et quoad hoc habet locum 
+          consi<lb break="no" ed="#P" n="71"/>deratio commodae opportunitatis ad 
+          implen<lb break="no" ed="#P" n="72"/>dum votum ; sic enim intelligendum est, cum
+          <lb ed="#P" n="73"/>dicitur hoc votum obligare, quamprimum 
+          im<lb break="no" ed="#P" n="74"/>pleri potest, scilicet, commode, quia humano
+          <lb ed="#P" n="75"/>modo loquendo nemo intendit aliter se 
+          obli<lb break="no" ed="#P" n="76"/>gare. Quamvis in hac commoditate spectanda
+          <lb ed="#P" n="77"/>cavendum sit ne nimia sit mora, sed illa 
+          so<lb break="no" ed="#P" n="78"/>lum requiratur quae judicio prudentum in 
+          si<lb break="no" ed="#P" n="79"/>milibus negotiis expectari solet. Quod optime
+          <lb ed="#P" n="80"/>explicuit Julian., in d. l. Batum, dicens, 
+          dan<lb break="no" ed="#P" n="81"/>dum esse spatium temporis, nec minimum, nec
+          <lb ed="#P" n="82"/>maamum , et quod magis intellectu percipi,
+          <lb ed="#P" n="83"/>quam elocutione possit emprimi. Per quae verba
+          <lb ed="#P" n="84"/>prudens arbitrium significasse mihi videtur, et
+          <lb ed="#P" n="85"/>latius exprimitur inl. Continuus, statim 
+          citan<lb break="no" ed="#P" n="86"/>da. Atque hinc evenire potest, ut dilatio 
+          tem<lb break="no" ed="#P" n="87"/>poris, quae respectu unius moralis est, non sit
+          <lb ed="#P" n="88"/>respectu alterius: quia quod est commodum
+          <lb ed="#P" n="89"/>tempus respectu unius, non est respectu 
+          alte<lb break="no" ed="#P" n="90"/>rius, propter diversas circumstantias 
+          persona<lb break="no" ed="#P" n="91"/>rum ac negotiorum.
+        </p>
+        <p xml:id="szovsr-m24376-d1e987">
+          <lb ed="#P" n="92"/>13. Denique (quod considerandum est) haec
+          <lb ed="#P" n="93"/>moralis prudentia non solum locum habet in
+          <lb ed="#P" n="94"/>voto, in quo nulla fit mentio temporis, sed
+          <lb ed="#P" n="95"/>etiam in voto quod expresse determinatur ad
+          <lb ed="#P" n="96"/>statim, certum diem non declarando. Nam
+          <lb ed="#P" n="97"/>qui sic vovet, et aliud expresse non declarat,
+          <lb ed="#P" n="98"/>virtute, seu implicite intelligit illud statian,
+          <lb ed="#P" n="99"/>moraliter, et juxta humanam congruentiam
+          <lb ed="#P" n="100"/>seu commoditatem. Item quia Deus non est
+          <lb ed="#P" n="101"/>adeo rigorosus exactor, ut nullam 
+          commodi<lb break="no" ed="#P" n="102"/>tatem praebeat ad solvendum sibi debitum;
+          <lb ed="#P" n="103"/>nemo autem tenetur debitum solvere, nisi
+          <lb ed="#P" n="104"/>juxta voluntatem creditoris. Quocirca parva
+          <lb ed="#P" n="105"/>est moralis differentia inter votum positive, ut
+          <lb ed="#P" n="106"/>sic dicam, determinans obligationem ad 
+          sta<lb break="no" ed="#P" n="107"/>tim, aut solum negative non definiens 
+          dilatio<lb break="no" ed="#P" n="108"/>nem ; in utroque enim casu est obligatio ad
+          <lb ed="#P" n="109"/>statim, subintellecta morali opportunitate et
+          <lb ed="#P" n="110"/>commoditate. Dixi autem hoc habere locum,
+          <pb ed="#P" n="976"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quando certa dies non constituitur; nam si
+          <lb ed="#P" n="2"/>vovens dicat hodie, non licebit major dilatio,
+          <lb ed="#P" n="3"/>quia jam non est locus prudenti arbitrio, quia
+          <lb ed="#P" n="4"/>in eo, quod tempore atque facto finitum est,
+          <lb ed="#P" n="5"/>nullus est conjecturae locus, ut dicitur in l. 
+          Con<lb break="no" ed="#P" n="6"/>tinuus, S 2, ff. de Verb. obligat. Solum 
+          pos<lb break="no" ed="#P" n="7"/>sent admitti conjectura ad judicandum, an
+          <lb ed="#P" n="8"/>tanta restrictio fuerit imprudens ac temeraria,
+          <lb ed="#P" n="9"/>quod poterit contingere juxta materiae 
+          gravi<lb break="no" ed="#P" n="10"/>tatem. Quantum vero avt quomodo peccare
+          <lb ed="#P" n="11"/>contingat, non implendo statim hujusmodi
+          <lb ed="#P" n="12"/>votum, in libro sequenti, cap. 6, dicemus.
+        </p>
+        <p xml:id="szovsr-m24376-d1e1061">
+          <lb ed="#P" n="13"/>14. Tdem judicium ferendun de obligatione
+          <lb ed="#P" n="14"/>voli versus finem, quod de ejus initio. — 
+          Ulu<lb break="no" ed="#P" n="15"/>mo dicendum est, eisdem modis judicium 
+          es<lb break="no" ed="#P" n="16"/>se ferendum de duratione et fine obligationis
+          <lb ed="#P" n="17"/>voti, quo de ejus initio; nam si constet de 
+          in<lb break="no" ed="#P" n="18"/>tentione voventis , illa ert regula, ut saepe
+          <lb ed="#P" n="19"/>dictum est. Si vero vovens nihil expressit,
+          <lb ed="#P" n="20"/>consideranda est natura et materia voti ; nam
+          <lb ed="#P" n="21"/>quaedam sunt vota, quae habent perpetuitatem
+          <lb ed="#P" n="22"/>quasi connaturalem, ut votum castitatis, 
+          pau<lb break="no" ed="#P" n="23"/>pertatis, etc., et in his, eo ipso quod non 
+          ad<lb break="no" ed="#P" n="24"/>ditur temporis determinatio, sed simpliciter
+          <lb ed="#P" n="25"/>fiunt, perpetuam inducunt obligationem. Imo
+          <lb ed="#P" n="26"/>si talia vota solemnia sint, tam intrinsecam 
+          ha<lb break="no" ed="#P" n="27"/>bent perpetuitatem, ut etiam per intentionem
+          <lb ed="#P" n="28"/>voventis impediri non possit, ita ut si vovens
+          <lb ed="#P" n="29"/>solemniter intenderet tantum ad tempus se
+          <lb ed="#P" n="30"/>obligare, vel nihil faceret, vel saltem non 
+          fa<lb break="no" ed="#P" n="31"/>ceret votum solemne, sed ad summum 
+          asim<lb break="no" ed="#P" n="32"/>plex et temporale, ut infra suo loco latius 
+          di<lb break="no" ed="#P" n="33"/>cetur. Alia autem sunt vota, quae ex parte 
+          ma<lb break="no" ed="#P" n="34"/>teriae non habent perpetuitatem, et in his est
+          <lb ed="#P" n="35"/>aliqua diversitas inter negativa vota et 
+          affir<lb break="no" ed="#P" n="36"/>mativa. Negativa enim ex vi suae formae sunt
+          <lb ed="#P" n="37"/>perpetua , quia negant omne tempus 
+          futu<lb break="no" ed="#P" n="38"/>rum, si absolute proferantur, ut supra 
+          ponde<lb break="no" ed="#P" n="39"/>ratum est ; possunt tamen recipere terminum
+          <lb ed="#P" n="40"/>suae obligationis ex parte materiae, quae vel
+          <lb ed="#P" n="41"/>mutari potest, vel finiri, juxta ea quae in 
+          se<lb break="no" ed="#P" n="42"/>quentibus capitibus, et in libro sequenti, c. 6,
+          <lb ed="#P" n="43"/>dicemus. Votum autem affirmativum non 
+          ha<lb break="no" ed="#P" n="44"/>bet majorem durationem temporis in 
+          obliga<lb break="no" ed="#P" n="45"/>tione sua, quam postulet opus promissum,
+          <lb ed="#P" n="46"/>quia de se non est votum universale, vel 
+          par<lb break="no" ed="#P" n="47"/>ticulare, ex parte temporis, vel repetitionis 
+          ac<lb break="no" ed="#P" n="48"/>tuum , nisi juxta intentionem voventis; et
+          <lb ed="#P" n="49"/>ideo si illa non explicatur, materiae promissae
+          <lb ed="#P" n="50"/>in hoc accommodatur, et illa expleta cessat
+          <lb ed="#P" n="51"/>opligatio. Quamdiu vero non inpletur, durat,
+          <lb ed="#P" n="52"/>nisi fuerit limitata ad certum tempus ex 
+          in<lb break="no" ed="#P" n="53"/>tentione voventis, ut mox explicabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

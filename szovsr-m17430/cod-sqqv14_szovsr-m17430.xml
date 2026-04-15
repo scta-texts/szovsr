@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="694"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m17430"><!-- t5l3c9 -->
+        <head xml:id="szovsr-m17430-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-m17430-Hd1e103" type="question-title">An juramentum assertorium cum amphibologia factum sit perjurium, vel aliter peccaminosum.</head>
+        <p xml:id="szovsr-m17430-d1e106">
+          <lb ed="#P" n="71"/>CAPUT IX.
+          <lb ed="#P" n="72"/>AN JURAMENTUM ASSERTORIUM CUM 
+          AMPHIBOLO<lb break="no" ed="#P" n="73"/>GIA FACTUM SIT PERJURIUM, VEL ALITER 
+          PEC<lb break="no" ed="#P" n="74"/>CAMINOSUM.
+        </p>
+        <p xml:id="szovsr-m17430-d1e117">
+          <lb ed="#P" n="75"/>1. Quibus modis committatur amphibologia
+          <lb ed="#P" n="76"/>in jurando.— Amphibologia committi dicitur,
+          <lb ed="#P" n="77"/>quando jurans in alio sensu verba intelligit
+          <lb ed="#P" n="78"/>quam alius accipiat ; hoc autem variis modis
+          <lb ed="#P" n="79"/>fieri potest. Primo, quando verba utrumque
+          <lb ed="#P" n="80"/>sensum habere possunt in significatione 
+          pro<lb break="no" ed="#P" n="81"/>pria et usitata, ut contingit in vocibus 
+          aequi<lb break="no" ed="#P" n="82"/>vocis, ut si quis juret non comedisse rem 
+          ta<lb break="no" ed="#P" n="83"/>lem, intelligens individuam, cum ahi de tota
+          <lb ed="#P" n="84"/>specie intelligant. Secundo, potest quis uti
+          <lb ed="#P" n="85"/>ambiguo sensu, praeter propriam 
+          significatio<lb break="no" ed="#P" n="86"/>nem verborum, , subintelligendo vel addendo
+          <lb ed="#P" n="87"/>aliquid, quod mente ipse concipit, licet non
+          <lb ed="#P" n="88"/>exprimat voce, ut variis exemplis statim 
+          de<lb break="no" ed="#P" n="89"/>clarabitur. Praeterea potest haec verborum 
+          il<lb break="no" ed="#P" n="90"/>lusio fieri, vel sine necessitate et justa causa,
+          <lb ed="#P" n="91"/>vel ad decipiendum alium cum nocumento 
+          il<lb break="no" ed="#P" n="92"/>lius, vel contra obligationem justitiae, vel 
+          so<lb break="no" ed="#P" n="93"/>Ium ad ludendum et jocandum ; vel fieri 
+          po<lb break="no" ed="#P" n="94"/>test ex justa causa aut necessitate, quia vel
+          <lb ed="#P" n="95"/>injuste compellitur aliquis ad jurandum quod
+          <lb ed="#P" n="96"/>non tenetur, vel quia non potest aliter celare
+          <lb ed="#P" n="97"/>secretum, et fugere importunas 
+          interroga<lb break="no" ed="#P" n="98"/>tiones.
+        </p>
+        <p xml:id="szovsr-m17430-d1e172">
+          <lb ed="#P" n="99"/>9. Prima assertio: non est intrinsece malum
+          <lb ed="#P" n="100"/>uti amphihologia in jurundo. — Dico ergo 
+          pri<lb break="no" ed="#P" n="101"/>mo : non est intrinsece malum uti 
+          amphibolo<lb break="no" ed="#P" n="102"/>gia, etiam jurando, unde nec semper est 
+          per<lb break="no" ed="#P" n="103"/>jurium. Est certa et communis sententia, quae
+          <lb ed="#P" n="104"/>statim exemplis et auctoritate simul cum 
+          se<lb break="no" ed="#P" n="105"/>quenti assertione confirmabitur. Nunc 
+          decla<lb break="no" ed="#P" n="106"/>ratur ratione, quia loqui cum tali 
+          amphibolo<lb break="no" ed="#P" n="107"/>gia non semper est mendacium ; ergo nec est
+          <pb ed="#P" n="695"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>intrinsece malum ; ergo nec juramento id 
+          con<lb break="no" ed="#P" n="2"/>firmare est perjurium, vel intrinsece malum.
+          <lb ed="#P" n="3"/>Antecedens probatur late ab Augustino, lib.
+          <lb ed="#P" n="4"/>contra Mendac., praesertim a c. 10, ubi variis
+          <lb ed="#P" n="5"/>exemplis Sanctorum hoc confirmat, illa 
+          defen<lb break="no" ed="#P" n="6"/>dens a mendaciis propter multiplicem 
+          verbo<lb break="no" ed="#P" n="7"/>rum ant rerum significationem. Et ratio est,
+          <lb ed="#P" n="8"/>quia mendacium est dictum contra mentem,
+          <lb ed="#P" n="9"/>utique loquentis, quia ille est, qui tenetur 
+          ver<lb break="no" ed="#P" n="10"/>ba suae menti conformare, nec tenetur semper
+          <lb ed="#P" n="11"/>illa conformare menti audientis ; sed qui 
+          uti<lb break="no" ed="#P" n="12"/>tur verbis ambiguis in sensu consentaneo
+          <lb ed="#P" n="13"/>menti suae, non potest dici loqui contra 
+          men<lb break="no" ed="#P" n="14"/>tem. Ergo non mentitur, nec profert 
+          menda<lb break="no" ed="#P" n="15"/>cium ; ergo sic loqui non est intrinsece 
+          ma<lb break="no" ed="#P" n="16"/>lum; solum enim ratione mendacii posset 
+          ha<lb break="no" ed="#P" n="17"/>bere similem malitiam. Unde etiam 
+          concludi<lb break="no" ed="#P" n="18"/>tur, quod talem locutionem juramento 
+          tirma<lb break="no" ed="#P" n="19"/>re non sit perjurium, quia per illud 
+          juramen<lb break="no" ed="#P" n="20"/>tum non invocatur Deus in testem mendacii,
+          <lb ed="#P" n="21"/>quia illud non est mendacium; perjurium 
+          au<lb break="no" ed="#P" n="22"/>tem non est sine accusatione mendacii; 
+          loqui<lb break="no" ed="#P" n="23"/>mur enim proprie et rigorose de perjurio.
+          <lb ed="#P" n="24"/>Unde tiandem concluditur, tale juramentum
+          <lb ed="#P" n="25"/>non esse intrinsece malum, quia habet 
+          verita<lb break="no" ed="#P" n="26"/>tem, et facile habere potest alios comites, ut
+          <lb ed="#P" n="27"/>constat.
+        </p>
+        <p xml:id="szovsr-m17430-d1e258">
+          <lb ed="#P" n="28"/>3. Contra hoc vero objici potest sententia
+          <lb ed="#P" n="29"/>Isidori supra tractata: Quacumque arte quis
+          <lb ed="#P" n="30"/>Juret, Deus tamen, qui conscientiee Lestis est, ita
+          <lb ed="#P" n="31"/>hoc accipit, sicut ille, cui juratur, intelligit.
+          <lb ed="#P" n="32"/>Anast. etiam Nicaen., q. 13inScripturam, 
+          gra<lb break="no" ed="#P" n="33"/>vem habet sententiam huc spectantem. Cum
+          <lb ed="#P" n="34"/>enim distinxisset duplices dolos iniquos et 
+          arti<lb break="no" ed="#P" n="35"/>ficiosos, quos Theologus appellabit formales et
+          <lb ed="#P" n="36"/>materiales , subdit de justis et sapientibus
+          <lb ed="#P" n="37"/>simulationibus : Cavendum est, si quando opus
+          <lb ed="#P" n="38"/>fuerit ejusmodi mendacio (utique materiali)
+          <lb ed="#P" n="39"/>adversus hominum malitiam, ne sermoni 
+          adda<lb break="no" ed="#P" n="40"/>mus etiaum jusyurandum : non enim assumes
+          <lb ed="#P" n="41"/>nomen Dei tui in vanumn, et falsum 
+          juramen<lb break="no" ed="#P" n="42"/>tum ne diligas, et ne ad mundi negotia 
+          attra<lb break="no" ed="#P" n="43"/>has nomen Dei, eic.; et hanc sententiam ex
+          <lb ed="#P" n="44"/>Basilio in Asceticis refert. Potestque ratione
+          <lb ed="#P" n="45"/>confirmari, quia licet in amphibologica 
+          locu<lb break="no" ed="#P" n="46"/>tione nomen Dei non invocetur ex directa 
+          in<lb break="no" ed="#P" n="47"/>tentione ad confirmandum falsum, tamen in
+          <lb ed="#P" n="48"/>re ipsa affertur ad confirmandum id, quod
+          <lb ed="#P" n="49"/>aliorum opinione est falsum ; unde intelecta
+          <lb ed="#P" n="50"/>postea calliditate , falsum censebitur jurasse,
+          <lb ed="#P" n="51"/>qui sic juravit. Ergo tale juramentum contra
+          <lb ed="#P" n="52"/>reverentiam Dei est, et non caret culpa, quae
+          <lb ed="#P" n="53"/>licet formaliter non sit perjurii, ad illam 
+          re<lb break="no" ed="#P" n="54"/>ducitur. Probatur consequentia, quia 
+          reveren<lb break="no" ed="#P" n="55"/>tia divina postulat, ut non solum ex 
+          intentio<lb break="no" ed="#P" n="56"/>ne verum juretur, sed etiam ut aliis, et in
+          <lb ed="#P" n="57"/>opinione illorum verum juretur, ne, 
+          quan<lb break="no" ed="#P" n="58"/>tum in nobis est, honor divini nominis 
+          mi<lb break="no" ed="#P" n="59"/>nuatur.
+        </p>
+        <p xml:id="szovsr-m17430-d1e330">
+          <lb ed="#P" n="60"/>4. Isidorus evplicatur, et alii Patres.— Ad
+          <lb ed="#P" n="61"/>Isidorum jam supra respondimus, Deum ita
+          <lb ed="#P" n="62"/>accipere quantum ad obligationem dicendi
+          <lb ed="#P" n="63"/>verum, et non decipiendi proximum ; unde 
+          il<lb break="no" ed="#P" n="64"/>la sententia locum habet, quando aliquis 
+          irra<lb break="no" ed="#P" n="65"/>uonabiliter sic loquitur et jurat; unde cum ait:
+          <lb ed="#P" n="66"/>iSicut ille, cui juratur, intelligit, nos addere
+          <lb ed="#P" n="67"/>possumus: Vel intelligere debet; nam si ipse
+          <lb ed="#P" n="68"/>inepte decipiatur ex sua inscitia vel iniquitate,
+          <lb ed="#P" n="69"/>alteri non imputabitur. Quando vero iniquus
+          <lb ed="#P" n="70"/>est dolus, tunc peccat quidem, qui sic jurat;
+          <lb ed="#P" n="71"/>an vero perjurus sit, statim dicemus. Ad 
+          Anas<lb break="no" ed="#P" n="72"/>tasium, seu Basilium, dico imprimis, 
+          insi<lb break="no" ed="#P" n="73"/>nuare illum, licitum esse aliquando propter
+          <lb ed="#P" n="74"/>bonum finem vel officium dicere falsum, et
+          <lb ed="#P" n="75"/>proprium mendacium, non tamen licere tale
+          <lb ed="#P" n="76"/>mendacium juramento firmare ; et sic 
+          suppo<lb break="no" ed="#P" n="77"/>nit quidem falsum illa sententia ; tamen ex
+          <lb ed="#P" n="78"/>illa hypothesi aliud verum dicit, scilicet, 
+          etiam<lb break="no" ed="#P" n="79"/>si simplex mendacium in aliquo casu licitum
+          <lb ed="#P" n="80"/>esset, nullo modo id dici posse de perjurio.
+          <lb ed="#P" n="81"/>Quod etiam Angustinus, in d. lib. contra 
+          Men<lb break="no" ed="#P" n="82"/>dac. optime confirmat; et ratio est, quia, licet
+          <lb ed="#P" n="83"/>mendacium possit habere aliquara 
+          proportio<lb break="no" ed="#P" n="84"/>nem cum homine, qui falh et fallere potest,
+          <lb ed="#P" n="85"/>non tamen cum Deo, qui est infallibilis 
+          veri<lb break="no" ed="#P" n="86"/>tas, et ideo semper fieret illi injuria, 
+          adducen<lb break="no" ed="#P" n="87"/>do illum in testem mendacii, etiamsi per 
+          im<lb break="no" ed="#P" n="88"/>possibile in aliquo casu non esset malum 
+          res<lb break="no" ed="#P" n="89"/>pectu hominis. Haec autem doctrina quoad
+          <lb ed="#P" n="90"/>hypothesim illam nec vera est, nec in 
+          prae<lb break="no" ed="#P" n="91"/>senti necessaria, quia per amphibologiam non
+          <lb ed="#P" n="92"/>dicitur mendacium, ut probavimus. Secundo,
+          <lb ed="#P" n="93"/>ille auctor non aperte profitetur errorem illum
+          <lb ed="#P" n="94"/>de mendacio; et ideo ne illum ei ascribamus,
+          <lb ed="#P" n="95"/>dici potest eum non dicere semper esse 
+          perju<lb break="no" ed="#P" n="96"/>rum, aut malum jurare in sensu occulto et
+          <lb ed="#P" n="97"/>amphibologico, sed solum dicere, non quoties
+          <lb ed="#P" n="98"/>licet uti amphibologia, licere etiam illam 
+          ju<lb break="no" ed="#P" n="99"/>ramento confirmare, quia major est 
+          reveren<lb break="no" ed="#P" n="100"/>tia adhiben'a juramento, quam simplici 
+          ser<lb break="no" ed="#P" n="101"/>moni, et ideo haec juramenta regulariter 
+          ca<lb break="no" ed="#P" n="102"/>venda esse, quia non fiunt ut plurimum sine
+          <lb ed="#P" n="103"/>aliqua irreverentia et culpa, esto perjurium
+          <lb ed="#P" n="104"/>proprie non sit, ut dicemus. Et hoc fere modo
+          <lb ed="#P" n="105"/>respondendum est ad rationem; probat enim
+          <lb ed="#P" n="106"/>cavendum esse tale juramentum, ubi imminet,
+          <lb ed="#P" n="107"/>non vero probat esse per se malum.
+        </p>
+        <p xml:id="szovsr-m17430-d1e437">
+          <lb ed="#P" n="108"/>5. Secunda assertio : quoties verba 
+          profe<lb break="no" ed="#P" n="109"/>runtur in aliquo sensu proprio, vel secundwn
+          <lb ed="#P" n="110"/>aliquam legitimam interpretationem intento,
+          <pb ed="#P" n="696"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non committitur perjurium. — Dico secundo :
+          <lb ed="#P" n="2"/>quoties verba secundum aliquem sensum, vel
+          <lb ed="#P" n="3"/>proprium, vel secundum aliquam legitimam
+          <lb ed="#P" n="4"/>interpretationem intentum, proferuuntur ex
+          <lb ed="#P" n="5"/>causa honesta, nec perjurium committitur,
+          <lb ed="#P" n="6"/>neque ullum peccatum sic jurando. 
+          Declara<lb break="no" ed="#P" n="7"/>tur primo variis exemplis ab auctoribus 
+          tra<lb break="no" ed="#P" n="8"/>ditis, et usu receptis. Primum, si quis 
+          promi<lb break="no" ed="#P" n="9"/>sit, aut contraxit exterius sine intentione 
+          pro<lb break="no" ed="#P" n="10"/>mittendi, et irterrogatur a judice sub jura
+          <lb ed="#P" n="11"/>mento, an promiserit vel contraxerit, 
+          simpli<lb break="no" ed="#P" n="12"/>citer negare potest, quia habere potest 
+          legiti<lb break="no" ed="#P" n="13"/>mum sensum, scilicet, non promisi 
+          promis<lb break="no" ed="#P" n="14"/>sione me obligante, et babet legitimam 
+          cau<lb break="no" ed="#P" n="15"/>sam sic respondendi, quia ailas cum nuon 
+          pos<lb break="no" ed="#P" n="16"/>sit probare defectum intentionis, 
+          condemna<lb break="no" ed="#P" n="17"/>bitur ad solvendum quod revera non debet,
+          <lb ed="#P" n="18"/>vel ad cohabitandum cum illa, cum qua vere
+          <lb ed="#P" n="19"/>non contraxit ; ita docet late Navarr., in cap.
+          <lb ed="#P" n="20"/>Humane aures, 29, quaest. 5, quaest. 1 et2,
+          <lb ed="#P" n="21"/>ubi ait, non solum poss jurare non 
+          promisis<lb break="no" ed="#P" n="22"/>se, sed etiam non protulisse talia verba, si
+          <lb ed="#P" n="23"/>ita interrogaretur, subintelligendo, non 
+          protu<lb break="no" ed="#P" n="24"/>lisse illa, vere promittendo, vel non protulisse
+          <lb ed="#P" n="25"/>ita ut teneatur coufiteri. Et pro hac doctrina
+          <lb ed="#P" n="26"/>adducit Hier., Greg., D. Thom., Scot., 
+          Pa<lb break="no" ed="#P" n="27"/>lud., Richar., Major., Adrian. et alios, et 
+          va<lb break="no" ed="#P" n="28"/>rias rationes, quae confirmant generalem 
+          con<lb break="no" ed="#P" n="29"/>clusionem positam.
+        </p>
+        <p xml:id="szovsr-m17430-d1e513">
+          <lb ed="#P" n="30"/>6. Secundo, si quis mutuo accepit nummos,
+          <lb ed="#P" n="31"/>quos postea solvit, et ab eo iterum 
+          postulen<lb break="no" ed="#P" n="32"/>tur in judicio, in quo probare non potestse 
+          il<lb break="no" ed="#P" n="33"/>los solvisse, interrogatus a judice potest 
+          abso<lb break="no" ed="#P" n="34"/>lute negare se illa mutuo accepisse, 
+          subin<lb break="no" ed="#P" n="35"/>telligens, vel non iterum accepisse, postquam
+          <lb ed="#P" n="36"/>illos solvit, vel non ita accepisse, ut illa 
+          de<lb break="no" ed="#P" n="37"/>beat, vel non ita ut aperire teneatur. De quo
+          <lb ed="#P" n="38"/>exemplo cum aliis non paucis videri potest
+          <lb ed="#P" n="39"/>Covar., lib. 1 Variar., c. 2.
+        </p>
+        <p xml:id="szovsr-m17430-d1e537">
+          <lb ed="#P" n="40"/>7. Tertio, si exemptus a gabella solvenda,
+          <lb ed="#P" n="41"/>interrogetur an talem vel talem rem portet,
+          <lb ed="#P" n="42"/>potest absolute jurare non portare, 
+          intelligen<lb break="no" ed="#P" n="43"/>do non ita portare, ut gabellam debeat, ne si
+          <lb ed="#P" n="44"/>fateatur portare, injuste cogatur gabellam 
+          sol<lb break="no" ed="#P" n="45"/>vere, ut de clerico dixit Sylvest., verb. 
+          Men<lb break="no" ed="#P" n="46"/>dacium, q. 6, ubi alia exempla adducit. Unum
+          <lb ed="#P" n="47"/>est vulgare de illo, qui interrogatur an reus
+          <lb ed="#P" n="48"/>hac transierit, nam potest jurare non 
+          tran<lb break="no" ed="#P" n="49"/>siisse hac, designando locum quem pede 
+          tan<lb break="no" ed="#P" n="50"/>git, vel manu, quod de D. Francisco refert
+          <lb ed="#P" n="51"/>Navar. supra, et in Manual., c. 12, n. 8, ex
+          <lb ed="#P" n="52"/>aliis auctoribus. Aliud est de illo, qui 
+          interro<lb break="no" ed="#P" n="53"/>gatur an veniat de tali loco, qui falso putatur
+          <lb ed="#P" n="54"/>peste infectus, re tamen vera non est , nam
+          <lb ed="#P" n="55"/>potest absolute negare cum juramento, sub-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>intelligendo se non venire a tali loco peste 
+          in<lb break="no" ed="#P" n="57"/>fecto, ut Sylv. etiam dixit, verb. Juramentum,
+          <lb ed="#P" n="58"/>3, q. 2, in fin.; et Navar., in Manual., c. 12,
+          <lb ed="#P" n="59"/>num. 19; et Tolet., lib. 4 Summ., c. 21, qui
+          <lb ed="#P" n="60"/>addit, habere hoc verum, etiamsi locus , de
+          <lb ed="#P" n="61"/>quo quis interrogatur, peste infectus sit, 
+          per<lb break="no" ed="#P" n="62"/>sona vero ista certa sit moraliter se non esse
+          <lb ed="#P" n="63"/>infectam. Addit Navar. exemplum de 
+          scholas<lb break="no" ed="#P" n="64"/>ticis, qui jurant se non fuisse locutos cum 
+          op<lb break="no" ed="#P" n="65"/>positoribus, cum revera fuerint locuti, non 
+          ta<lb break="no" ed="#P" n="66"/>men de illis rebus quae ad subornandum 
+          fa<lb break="no" ed="#P" n="67"/>ciunt, vel non de illis rebus quae contra 
+          statu<lb break="no" ed="#P" n="68"/>ta esse crederent. Praeterea huc spectant 
+          om<lb break="no" ed="#P" n="69"/>nes responsiones amphibologicae, quibus licet
+          <lb ed="#P" n="70"/>subterfugere interrogationem judicis non 
+          ju<lb break="no" ed="#P" n="71"/>ridice interrogantis sub juramento, de quibus
+          <lb ed="#P" n="72"/>in 22, q. 690. Denique ad hoc etiam faciunt,
+          <lb ed="#P" n="73"/>quae supra de obiigatione promissorii 
+          jura<lb break="no" ed="#P" n="74"/>menti simulati diximus; et aliqua addemus de
+          <lb ed="#P" n="75"/>eodem juramento tractantes paulo inferius.
+          <lb ed="#P" n="76"/>S. Alique orationes amphibologice, quibus
+          <lb ed="#P" n="77"/>licite uti possunt, qui nom tenentur jurare. —
+          <lb ed="#P" n="78"/>Est autem haec sententia facilis et elara, 
+          quan<lb break="no" ed="#P" n="79"/>do exterior oratio sine ulla additione, vel 
+          con<lb break="no" ed="#P" n="80"/>ditione verbis non expressa, duplicem sensum
+          <lb ed="#P" n="81"/>reddere potest, ut est illa, Non transivi isthac,
+          <lb ed="#P" n="82"/>quia hoc adverbium demonstrativum 
+          indeter<lb break="no" ed="#P" n="83"/>minatam significationem habet, quae potest
+          <lb ed="#P" n="84"/>loquentis intentione determinari. Similis est
+          <lb ed="#P" n="85"/>illa aequivocatio, quam ponit Glossa in c. 
+          Ne<lb break="no" ed="#P" n="86"/>que, 22, quaest. 2, scilicet, cum quis 
+          interro<lb break="no" ed="#P" n="87"/>gatus an Petrus sit domi, respondit, Non est
+          <lb ed="#P" n="88"/>hic, accipiendo verbum est. pro verbo comedit,
+          <lb ed="#P" n="89"/>quando bono fine et justa causa vult occultare
+          <lb ed="#P" n="90"/>illum, qui fortasse ad vindictam quaeritur. 
+          Si<lb break="no" ed="#P" n="91"/>milis est aequivocatio in nomine sororis, quam
+          <lb ed="#P" n="92"/>notavit Glossa, in cap. ult., 22, q. 2. verb. S'
+          o<lb break="no" ed="#P" n="93"/>rorem. Et ratio est clara, quia tunc oratio
+          <lb ed="#P" n="94"/>etiam exterior in rigore est vera in uno sensu
+          <lb ed="#P" n="95"/>per illam significato ; ergo qui in illo sensu
+          <lb ed="#P" n="96"/>illam profert , et jurat, nec mentitur, nec est
+          <lb ed="#P" n="97"/>perjurus, etiamsi sciat alium accepturum 
+          ver<lb break="no" ed="#P" n="98"/>ba in alio sensu, et fore decipiendum, quia
+          <lb ed="#P" n="99"/>aliud est quod audiens intelligit, aliud quod
+          <lb ed="#P" n="100"/>loquens dicit. Imo si justam causam habeat
+          <lb ed="#P" n="101"/>sic loquendi et jurandi, per se loquendo non
+          <lb ed="#P" n="102"/>peccabit, permittendo alium decipi, quia non
+          <lb ed="#P" n="103"/>tenetur homo semper vitarc deceptionem 
+          alte<lb break="no" ed="#P" n="104"/>rius, quam revera ipse non facit, sed alius 
+          se<lb break="no" ed="#P" n="105"/>ipsum decipit. Sicut interdum licet facere 
+          ali<lb break="no" ed="#P" n="106"/>quid permittendo occasionem peccandi, quam
+          <lb ed="#P" n="107"/>alius accipit, et ego non do, quantum in me
+          <lb ed="#P" n="108"/>est. An vero idem sit, quando amphibologia
+          <lb ed="#P" n="109"/>in verbis solis externis non apparet, dicemus
+          <lb ed="#P" n="110"/>cap. sequenti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

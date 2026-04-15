@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="502"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m12544"><!-- t5l2c1 -->
+        <head xml:id="szovsr-m12544-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-m12544-Hd1e103" type="question-title">Utrum juramentum promissorium addat specialem obligationem, non solum rigoros promissioni, sed etiam soli assertioni de futuro.</head>
+        <p xml:id="szovsr-m12544-d1e106">
+          <lb ed="#P" n="22"/>CAPUT I.
+          <lb ed="#P" n="23"/>UTRUM JURAMENTUM PROMISSORIUM ADDAT 
+          SPE<lb break="no" ed="#P" n="24"/>CIALEM OBLIGATIONEM, NON SOLUM RIGOROS
+          <lb ed="#P" n="25"/>PROMISSIONI, SED ETIAM SOLI ASSERTIONI DE
+          <lb ed="#P" n="26"/>FUTURO.
+        </p>
+        <p xml:id="szovsr-m12544-d1e119">
+          <lb ed="#P" n="27"/>1. De fide esse juramentum additum 
+          pro<lb break="no" ed="#P" n="28"/>missioni noxam obligationem inducere. — 
+          Sup<lb break="no" ed="#P" n="29"/>ponimus in hoc titulo, juramentum 
+          promis<lb break="no" ed="#P" n="30"/>sioni additum secum afferre propriam et 
+          pe<lb break="no" ed="#P" n="31"/>culiarem obligationem, ad faciendum id quod
+          <lb ed="#P" n="32"/>promittitur. Quod quidem, in genere 
+          sump<lb break="no" ed="#P" n="33"/>tum, est certum de fide, et in universa 
+          Eccle<lb break="no" ed="#P" n="34"/>sia receptum est, et in jure canonico ita 
+          sup<lb break="no" ed="#P" n="35"/>ponitur. Nam qui juratam promissionem non
+          <lb ed="#P" n="36"/>implet, perjurus censetur, c. Querelam, c.
+          <lb ed="#P" n="37"/>Tua nos, cum aliis, de Jurejur. Et colligi 
+          po<lb break="no" ed="#P" n="38"/>test ex illis verbis Matth. 5: Reddes autem
+          <lb ed="#P" n="39"/>Domino juramenta tua ; nam, licet illa verba
+          <lb ed="#P" n="40"/>non affirmentur a Christo, sed referantur, et
+          <lb ed="#P" n="41"/>aliqui censeant non referri ex Scriptura, sed
+          <lb ed="#P" n="42"/>ex interpretatione antiquorum Hebraeorum,
+          <lb ed="#P" n="43"/>quia prius dicit Christus : Audistis quia 
+          dic<lb break="no" ed="#P" n="44"/>tum est antiquis, nihilominus probabilis 
+          vide<lb break="no" ed="#P" n="45"/>tur referri ex Seriptura. Quia Num. 30 
+          dici<lb break="no" ed="#P" n="46"/>tur: Si quis virorum votum Domino vocerit,
+          <lb ed="#P" n="47"/>aut se constrinaerit juamento, uon fuciet 
+          irri<lb break="no" ed="#P" n="48"/>tumn verbum suwn, sed omne quod promisit,
+          <lb ed="#P" n="49"/>implebit : ubi non tantum est sermo de voto
+          <lb ed="#P" n="50"/>quod fit Deo, sed absolute de quacumque 
+          pro<lb break="no" ed="#P" n="51"/>missione jurata, etiam facta proximo, juxta
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>illud Psal. 14: Qui jurat prorimo suo, et non
+          <lb ed="#P" n="53"/>decipit : et illud Psal. 23: Qnui non accepit in
+          <lb ed="#P" n="54"/>canum animam suam , nec juravit im dolo
+          <lb ed="#P" n="55"/>proaimo suo. Et tunc adimplens juratam 
+          pro<lb break="no" ed="#P" n="56"/>missionem, licet proximo satisfaciat, 
+          nihilo<lb break="no" ed="#P" n="57"/>minus recte dicitur reddere Domino 
+          juramen<lb break="no" ed="#P" n="58"/>tum suum, quia propter reverentiam ejus
+          <lb ed="#P" n="59"/>maxime adimplet. Unde in c. Debitores, de
+          <lb ed="#P" n="60"/>Jurejur., dicitur : Sà vero de ipsarum (id est
+          <lb ed="#P" n="61"/>usurarum) solutione juraverint, cogendi sunt
+          <lb ed="#P" n="62"/>Domino reddere juramentum ; per quae verba
+          <lb ed="#P" n="63"/>optime explicatur obligatio hujus juramenti.
+          <lb ed="#P" n="64"/>In eo enim casu si spectaretur injustitia 
+          exi<lb break="no" ed="#P" n="65"/>gentis usuras, non videretur implenda illa
+          <lb ed="#P" n="66"/>promissio ; tamen propter religionem 
+          jura<lb break="no" ed="#P" n="67"/>menti Domino, reddendum dicitur quod 
+          pro<lb break="no" ed="#P" n="68"/>missum est.
+        </p>
+        <p xml:id="szovsr-m12544-d1e215">
+          <lb ed="#P" n="69"/>2. Et hinc facile sumitur ratio hujus 
+          obli<lb break="no" ed="#P" n="70"/>gationis, nam, sicut juramentum assertorium
+          <lb ed="#P" n="71"/>interponitur ad veritatem confirmandam 
+          auc<lb break="no" ed="#P" n="72"/>toritate slivina, ita juramentum promissorium
+          <lb ed="#P" n="73"/>fit, ut immobilis et certa habeatur promissio.
+          <lb ed="#P" n="74"/>Unde Paulus, ad Heb. 6, ait, Deum ipsum 
+          in<lb break="no" ed="#P" n="75"/>terdum promissionem suam jurare per 
+          seip<lb break="no" ed="#P" n="76"/>sum, cum majorem non habeat per quem 
+          ju<lb break="no" ed="#P" n="77"/>ret, ut abundantius ostendat promissionis
+          <lb ed="#P" n="78"/>suae immobilitatem; ergo necesse est ut 
+          jura<lb break="no" ed="#P" n="79"/>mentum ab homine additum promissioni suae
+          <lb ed="#P" n="80"/>addat obligationem specialem mmplendi illam.
+          <lb ed="#P" n="81"/>Tum quia alias non fieret certior et 
+          immuta<lb break="no" ed="#P" n="82"/>bilior promissio ratione juramenti ; tum etiam
+          <lb ed="#P" n="83"/>quia homo per majorem sui jurat, ut inde
+          <lb ed="#P" n="84"/>promissio ejus majorem auctoritatem accipiat;
+          <lb ed="#P" n="85"/>ergo ad debitum honorem Dei, per quem 
+          ju<lb break="no" ed="#P" n="86"/>rat, spectat ut impleat quod promittit; ergo
+          <lb ed="#P" n="87"/>ex hoc capite nascitur specialis obligatio ad
+          <lb ed="#P" n="88"/>religionem spectans, quam violans censetur
+          <lb ed="#P" n="89"/>sacrilegus, ut infra videbimus. De veritate
+          <lb ed="#P" n="90"/>ergo hujus dogmatis nullus est dubitandi
+          <lb ed="#P" n="91"/>locus. |
+        </p>
+        <p xml:id="szovsr-m12544-d1e268">
+          <lb ed="#P" n="92"/>3. Difficultas questionis. — Difficultas vero
+          <lb ed="#P" n="93"/>est, an haec obligatio talis juramenti supponat
+          <lb ed="#P" n="94"/>semper propriam promissionem in quam 
+          ca<lb break="no" ed="#P" n="95"/>dat, eamque confirmet, vel ad talem 
+          obligatio<lb break="no" ed="#P" n="96"/>nem sufficiat simplex assertio de futuro 
+          con<lb break="no" ed="#P" n="97"/>tingente, cujus veritas pendeat ex voluntate
+          <lb ed="#P" n="98"/>et actione jurantis. Sunt enim haec valde 
+          dis<lb break="no" ed="#P" n="99"/>tincta, et non parum refert ea distinguere,
+          <lb ed="#P" n="100"/>et modum obligandi juramenti circa 
+          utram<lb break="no" ed="#P" n="101"/>que partem explicare ; nam hinc pendere 
+          vi<lb break="no" ed="#P" n="102"/>dentur multae quaestiones de materia hujus
+          <lb ed="#P" n="103"/>juramenti, ut videbimus. Quod ergo illa duo
+          <lb ed="#P" n="104"/>distincta sint, declarari potest, primo, quia
+          <lb ed="#P" n="105"/>simplex assertio de futuro, in genere 
+          lo<lb break="no" ed="#P" n="106"/>quendo, potest separari a promissione, quam-
+          <pb ed="#P" n="503"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vis e contrario promissio, si sit ex animo, et
+          <lb ed="#P" n="2"/>non ficta, includat assertionem de fnturo.
+          <lb ed="#P" n="3"/>Prior pars constat in assertionibus de futuro,
+          <lb ed="#P" n="4"/>vel de rebus necessariis, vel de contingentibus
+          <lb ed="#P" n="5"/>naturalibus, ut: Cras pluet, vel de 
+          contingen<lb break="no" ed="#P" n="6"/>tibus liberis, quae ab aliis facienda sunt;
+          <lb ed="#P" n="7"/>potest enim quis affirmare quid alius facturus
+          <lb ed="#P" n="8"/>sit, sive prudenter, sive temere sic loquatur;
+          <lb ed="#P" n="9"/>non tamen poterit promittere futurum factum
+          <lb ed="#P" n="10"/>alterius, quia non habet voluntatem ejus in
+          <lb ed="#P" n="11"/>manu sua ; est ergo separabilis simplex 
+          asser<lb break="no" ed="#P" n="12"/>tio de futuro a promissione. Idem ergo est in
+          <lb ed="#P" n="13"/>ordine ad factum proprium, quod ex propria
+          <lb ed="#P" n="14"/>voluntate pendet; potest enim quis 
+          simpli<lb break="no" ed="#P" n="15"/>citer affirmare se hoc facturum, non 
+          promit<lb break="no" ed="#P" n="16"/>tendo, et potest id dicere addendo 
+          promissio<lb break="no" ed="#P" n="17"/>nem, nam per affirmationem simplicem solum
+          <lb ed="#P" n="18"/>significatur propositum faciendi, ut sentit
+          <lb ed="#P" n="19"/>D. Thomas, d. q. S89. art. 7, ad primum;
+          <lb ed="#P" n="20"/>promissio vero addit obligationem fidelitatis,
+          <lb ed="#P" n="21"/>ut latius tractavi in Relect. 1, de Volunt. Dei,
+          <lb ed="#P" n="22"/>sect. 2, n. I8et 19.
+        </p>
+        <p xml:id="szovsr-m12544-d1e355">
+          <lb ed="#P" n="23"/>4. Quando ergo intercedit promissio, et illi
+          <lb ed="#P" n="24"/>additur juramentum. certum est addi 
+          specia<lb break="no" ed="#P" n="25"/>lem obligationem ad talem promissionem 
+          im<lb break="no" ed="#P" n="26"/>plendam; tunc enim maxime procedunt
+          <lb ed="#P" n="27"/>omnia quae ad probandam hanc obligationem
+          <lb ed="#P" n="28"/>adduximus. Potest autem hoc modo jurari
+          <lb ed="#P" n="29"/>tam promissio facta Deo, qua tunc votum
+          <lb ed="#P" n="30"/>juratum dicitur, quam promissio homini
+          <lb ed="#P" n="31"/>facta, et utrique additur obligatio religiosa;
+          <lb ed="#P" n="32"/>nam, licet votum secum afferat obligationem
+          <lb ed="#P" n="33"/>religionis, nihil vetat quominus ei addi possit
+          <lb ed="#P" n="34"/>alia obligatio ejusdem virtutis, quae diversae
+          <lb ed="#P" n="35"/>rationis est, ut capite sequenti dicemus. Unde
+          <lb ed="#P" n="36"/>quando juramentum cadit in promissionem
+          <lb ed="#P" n="37"/>factam homini, obligatio, quae additur, 
+          ejus<lb break="no" ed="#P" n="38"/>dem rationis est cum illa quae voto accre-cit,
+          <lb ed="#P" n="39"/>quando juramento firmatur ; quia fundatur in
+          <lb ed="#P" n="40"/>respectu ad Deum ejusdem rationis, et ab illo
+          <lb ed="#P" n="41"/>veluti a formali objecto speciem sumit. 
+          Varie<lb break="no" ed="#P" n="42"/>tas autem promissionum, et obligationum
+          <lb ed="#P" n="43"/>quae ex illis in propriis generibus oriuntur,
+          <lb ed="#P" n="44"/>materialis est respectu juramenti, et ideo non
+          <lb ed="#P" n="45"/>variat obligationem ejus, sicut etiam inter
+          <lb ed="#P" n="46"/>Iipsas promissiones humanas potest esse 
+          varie<lb break="no" ed="#P" n="47"/>tas, et distinctio etiam specifica in ordine ad
+          <lb ed="#P" n="48"/>obligationem moralem. Una enim esse potest
+          <lb ed="#P" n="49"/>simplex promissio, et tantum ex una partes
+          <lb ed="#P" n="50"/>alia potest esse onerosa, et cum pacto ex 
+          utra<lb break="no" ed="#P" n="51"/>que parte, et una de se pertinere ad 
+          fidelita<lb break="no" ed="#P" n="52"/>tem, alia ad justitiam, et nihilominus si 
+          om<lb break="no" ed="#P" n="53"/>nes illae juramento firmentur, obligatio 
+          reli<lb break="no" ed="#P" n="54"/>giosa ejusdem rationis omnibus superadditur;
+          <lb ed="#P" n="55"/>quamvis in ea possint gradus reperiri secun-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dum magis et minus, pro gravitate materiae,
+          <lb ed="#P" n="57"/>ut dicemus.
+        </p>
+        <p xml:id="szovsr-m12544-d1e436">
+          <lb ed="#P" n="58"/>5. Superest ut de assertione de futuro
+          <lb ed="#P" n="59"/>jurata dicamus, quam simplicem appellamus,
+          <lb ed="#P" n="60"/>ut eam a promissione distinguam»s. Et de illa
+          <lb ed="#P" n="61"/>supponimus, per se solam nullam inducere
+          <lb ed="#P" n="62"/>obligationem in futurum, sed solum postulare
+          <lb ed="#P" n="63"/>veritatem, quando asseritur, quatenus ex
+          <lb ed="#P" n="64"/>praesenti proposito pendet, ut in d. Releet.
+          <lb ed="#P" n="65"/>tractavi, et infra in tractatu de Voto iterum
+          <lb ed="#P" n="66"/>dicam. In hoc enim differt simplex assertio
+          <lb ed="#P" n="67"/>de futuro a promissione etiam simplici, quod
+          <lb ed="#P" n="68"/>simplex assertio solum affirmat rem 
+          facien<lb break="no" ed="#P" n="69"/>dam, quatenus est in praesenti proposito, ut
+          <lb ed="#P" n="70"/>expresse dicit D. Thomas, d. q. 98, art. 6, ad
+          <lb ed="#P" n="71"/>1; et ideo per se non inducit obligationem, ut
+          <lb ed="#P" n="72"/>clare etiam colligitur ex c. Zitteraturam, de
+          <lb ed="#P" n="73"/>Voto. Promissio vero inducit specialem 
+          obli<lb break="no" ed="#P" n="74"/>gationem perseverandi in ilio proposito, 
+          illud<lb break="no" ed="#P" n="75"/>que implendi
+        </p>
+        <p xml:id="szovsr-m12544-d1e478">
+          <lb ed="#P" n="76"/>6. Sensus quaestionis. — Secundo suppono,
+          <lb ed="#P" n="77"/>quando huic assertioni simplici de futuro 
+          ad<lb break="no" ed="#P" n="78"/>ditur juramentum. induci, vel potius supponi
+          <lb ed="#P" n="79"/>obligaticnem gravem habendi propositum, eo
+          <lb ed="#P" n="80"/>tempore quo juramentum fit , faciendt postea
+          <lb ed="#P" n="81"/>id quod juratur. Hoc etiam est certum, quia,
+          <lb ed="#P" n="82"/>quoad illud, est juramentura illud assertorium
+          <lb ed="#P" n="83"/>de praesenti ; ergo trahit secum obligationem
+          <lb ed="#P" n="84"/>habendi illud propositum, quia alias cadet 
+          su<lb break="no" ed="#P" n="85"/>pra mendacium de praesenti. Item, deficiente
+          <lb ed="#P" n="86"/>illo proposito , talis assertio de futuro statim
+          <lb ed="#P" n="87"/>falsa est, quia neque in se, neque in causa est
+          <lb ed="#P" n="88"/>vera; ergo est perjurium illam juramento
+          <lb ed="#P" n="89"/>confirmare ; ergo ad vitandum perjurium est
+          <lb ed="#P" n="90"/>obligatio habendi illud propositum, ut licite
+          <lb ed="#P" n="91"/>talis assertio jurari possit. His ergo suppositis,
+          <lb ed="#P" n="92"/>inquirimus an juramentum tali assertioni
+          <lb ed="#P" n="93"/>vera additum, inducat novam et specialem
+          <lb ed="#P" n="94"/>obligationem perseverandi in illo proposito, et
+          <lb ed="#P" n="95"/>implendi illud ex vi religionis, et reverentiae
+          <lb ed="#P" n="96"/>Deo debitae.
+        </p>
+        <p xml:id="szovsr-m12544-d1e526">
+          <lb ed="#P" n="97"/>7. Opinio aliquorum. — Ahqui auctores
+          <lb ed="#P" n="98"/>indicant, eo ipso quod assertio in futurum 
+          ju<lb break="no" ed="#P" n="99"/>ratur, assertionem transire in promissionem,
+          <lb ed="#P" n="100"/>et inducere obligationem. Atque ita videtur
+          <lb ed="#P" n="101"/>sentire Cajet., 2. 2, q. 89, art. 9, nota 1, in
+          <lb ed="#P" n="102"/>fine quatenus ait omnia juramenta, quae,
+          <lb ed="#P" n="103"/>cum sint vota, sunt Papae reservata, manere
+          <lb ed="#P" n="104"/>etiam reservata. Hoc enim verum non esset,
+          <lb ed="#P" n="105"/>nisi talia juramenta transirent in vota. Et
+          <lb ed="#P" n="106"/>idem eodem modo sentit Soto, lib. 8. q. 1.
+          <lb ed="#P" n="107"/>art. 9; clarius Nav., in Manual., c. 27, n. 275,
+          <lb ed="#P" n="108"/>ver. Decimo sexto, dicens: Juramentum videtur
+          <lb ed="#P" n="109"/>continere duo vincula, promissionis et 
+          jura<lb break="no" ed="#P" n="110"/>menti. Possuntque pro eadem sententia referri
+          <pb ed="#P" n="504"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>alii, quos infra tractando de dispensatione 
+          ju<lb break="no" ed="#P" n="2"/>ramenti commemorabimus.
+        </p>
+        <p xml:id="szovsr-m12544-d1e568">
+          <lb ed="#P" n="3"/>8. Resolutio. — Nihilominus non videtur
+          <lb ed="#P" n="4"/>posse dubitari, quin assertio jurata possit in
+          <lb ed="#P" n="5"/>rigore separari a promissione, ut supponit
+          <lb ed="#P" n="6"/>aperte Ludov. Lopez, in Inst., p. 2, in materia
+          <lb ed="#P" n="7"/>de Clavi., c. 9, de Commnut. vot., S Ad 
+          punc<lb break="no" ed="#P" n="8"/>tum, etc., et distincte declarat Valent., 3 p.,
+          <lb ed="#P" n="9"/>d. 6, q. 1, punct. 2; Sancius, 2 p., de Matrim.,
+          <lb ed="#P" n="10"/>lib. 8, disp. 13. Et ratio est, quia pura 
+          asser<lb break="no" ed="#P" n="11"/>tio de futuro ex solo proposito est prior omni
+          <lb ed="#P" n="12"/>promissione natura sua , et potest simpliciter
+          <lb ed="#P" n="13"/>proferri, ut per se constat ; ergo et jurari sine
+          <lb ed="#P" n="14"/>interventu promissionis , quia hoc pendet ex
+          <lb ed="#P" n="15"/>hominis libertate.
+        </p>
+        <p xml:id="szovsr-m12544-d1e600">
+          <lb ed="#P" n="16"/>9. Hoc supposito, videri potest tunc 
+          jura<lb break="no" ed="#P" n="17"/>mentum nullam talem obligaticnem inducere,
+          <lb ed="#P" n="18"/>quia illud juramentum est pure assertorium ;
+          <lb ed="#P" n="19"/>ergo non inducit obligationem in futurum,
+          <lb ed="#P" n="20"/>sed solum dicendi veritatem cum fit; proprium
+          <lb ed="#P" n="21"/>enim est juramenti promissorii inducere 
+          ta<lb break="no" ed="#P" n="22"/>lem obligationem in futurum; ergo. 
+          Antece<lb break="no" ed="#P" n="23"/>dens ex declara ione facta est manifestum,quia
+          <lb ed="#P" n="24"/>illud juramentum cadit supra solam 
+          assertio<lb break="no" ed="#P" n="25"/>nem; juramentum autem promissorium , ut
+          <lb ed="#P" n="26"/>ex ipsa voce patet, dicitur illud , quod supra
+          <lb ed="#P" n="27"/>promissionem cadit ; consequentia autem 
+          pro<lb break="no" ed="#P" n="28"/>bari potest ex Num. 30: S quis virorum 
+          vo<lb break="no" ed="#P" n="29"/>tum Domino vocerit, aut se constrinverit 
+          jura<lb break="no" ed="#P" n="30"/>mento, non faciet irritum verbum suwm, sed
+          <lb ed="#P" n="31"/>omne quod promisit, implebit. Ubi supponi 
+          vi<lb break="no" ed="#P" n="32"/>detur juramentum, ut obliget, debere 
+          suppo<lb break="no" ed="#P" n="33"/>nere promissionem in quam cadat ; et eodem
+          <lb ed="#P" n="34"/>modo loquuntur jura et Doctores.
+        </p>
+        <p xml:id="szovsr-m12544-d1e644">
+          <lb ed="#P" n="35"/>10. Ratione firmatur assertio. — Secundo
+          <lb ed="#P" n="36"/>probatur ratione, quia promissio est materia
+          <lb ed="#P" n="37"/>talis juramenti; ergo non existente 
+          promis<lb break="no" ed="#P" n="38"/>sione, nec juramentum promissorium esse 
+          po<lb break="no" ed="#P" n="39"/>test, sed erit tantum juramentum 
+          asserto<lb break="no" ed="#P" n="40"/>rium, quod solum obligat, ut, cum profertur,
+          <lb ed="#P" n="41"/>verum sit; ergo ex tali juramento nulla 
+          obli<lb break="no" ed="#P" n="42"/>gatio in futurum relinquetur. Secundo, si
+          <lb ed="#P" n="43"/>quis juraret expresse hoc modo : Juro me 
+          ha<lb break="no" ed="#P" n="44"/>bere propositum faciendi cras hoc vel illud,
+          <lb ed="#P" n="45"/>obligatus quidem esset ad habendum nunc 
+          il<lb break="no" ed="#P" n="46"/>lud propositum ; tamen ex vi juramenti non
+          <lb ed="#P" n="47"/>tenetur perseverare in illo proposito, quiahon
+          <lb ed="#P" n="48"/>hoc juravit , unde nec tenetur ex vi ejusdem
+          <lb ed="#P" n="49"/>juramenti id exequi, quod proposuit ; sed non
+          <lb ed="#P" n="50"/>plus jurat , qui simplicem assertionem jurat ;
+          <lb ed="#P" n="51"/>ergo non plus obligatur. Probatur minor, quia
+          <lb ed="#P" n="52"/>qui simpliciter dicit se facturum hoc sine 
+          pro<lb break="no" ed="#P" n="53"/>missione, non aliud dicit, nisi se habere 
+          pro<lb break="no" ed="#P" n="54"/>positum faciendi, quia non plus requiritur ad
+          <lb ed="#P" n="55"/>veritatem suae assertionis , ut aperte docet D.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Thomas, d. art. 7, ad 1; ergo etiam qui talem
+          <lb ed="#P" n="57"/>assertionem jurat, non plus jurat; ergo non
+          <lb ed="#P" n="58"/>plus obligatur illo juramento, quam si expresse
+          <lb ed="#P" n="59"/>jurasset se habere propositum faciendi hoc.
+          <lb ed="#P" n="60"/>Tertio, argumentor , quia alias sequitur 
+          jura<lb break="no" ed="#P" n="61"/>mentum assertorium de futuro obligare 
+          sem<lb break="no" ed="#P" n="62"/>per ad faciendum quod asseritur, iu omni 
+          ma<lb break="no" ed="#P" n="63"/>teria gravi et levi, utili vel impertinente, et
+          <lb ed="#P" n="64"/>indifferente , quae intrinsece mala non sit; et
+          <lb ed="#P" n="65"/>similiter sequitur obligare, etiamsi non fiat in
+          <lb ed="#P" n="66"/>utilitatem vel honorem alterius, sed absolute
+          <lb ed="#P" n="67"/>ex proposito operantis. Haec autem non 
+          viden<lb break="no" ed="#P" n="68"/>tur communiter admitti ; ergo. Quarto. 
+          possu<lb break="no" ed="#P" n="69"/>mus argumentari, quia alias sequitur 
+          jura<lb break="no" ed="#P" n="70"/>mentum de facto alieno futuro obligare 
+          juran<lb break="no" ed="#P" n="71"/>tem ad procurandum, saltem quantum in se
+          <lb ed="#P" n="72"/>est, ut fiat ab alio id quod juravit esse futurum
+          <lb ed="#P" n="73"/>ab illo, quia est eadem ratio, scilicet, ut sit
+          <lb ed="#P" n="74"/>verum quod juravit; consequens autem est
+          <lb ed="#P" n="75"/>falsum, quia ille non juravit se aliquid 
+          factu<lb break="no" ed="#P" n="76"/>rum vel procuraturum, sed solum veritatem
+          <lb ed="#P" n="77"/>contingentem juxta existimationem , quam
+          <lb ed="#P" n="78"/>tunc de illa habebat; ergo. Et hoc videtur 
+          sen<lb break="no" ed="#P" n="79"/>tire Soto, I. 7 de Just., q. 2, art. 9. ad 1, ubi
+          <lb ed="#P" n="80"/>ait, juramentum promissorium non obligare,
+          <lb ed="#P" n="81"/>nisi virtute praecedentis promissionis; at 
+          ve<lb break="no" ed="#P" n="82"/>rum est ibi loqui argumentando pro quadam
+          <lb ed="#P" n="83"/>sententia, quam postea non defendit.
+        </p>
+        <p xml:id="szovsr-m12544-d1e755">
+          <lb ed="#P" n="84"/>11. Nihilominus dicendum est, juramentum
+          <lb ed="#P" n="85"/>cadens in assertionem de futuro, etiamsi 
+          pro<lb break="no" ed="#P" n="86"/>missionem non supponat , praeter 
+          obligatio<lb break="no" ed="#P" n="87"/>nem dicendi verum de praesenti , quam 
+          inclu<lb break="no" ed="#P" n="88"/>dit, vel supponit, inducere specialem 
+          obliga<lb break="no" ed="#P" n="89"/>tionem ad faciendum quod juratum est. Haec
+          <lb ed="#P" n="90"/>est satis clara sententia D. Thomae, in d. q.
+          <lb ed="#P" n="91"/>89, art. 7, in corp., et ad 1, ubi, nulla facta
+          <lb ed="#P" n="92"/>mentione promissionis, dicit juramentum de
+          <lb ed="#P" n="93"/>aliquo faciendo, quod est in potestate jurantis,
+          <lb ed="#P" n="94"/>obligare in futurum ad faciendum illud. Unde
+          <lb ed="#P" n="95"/>quando dicit juramentum assertorium 
+          obli<lb break="no" ed="#P" n="96"/>gare tantum ad veritatem praesentem , aperte
+          <lb ed="#P" n="97"/>restringit sermonem ad juramentum de re
+          <lb ed="#P" n="98"/>praeterita, vel de praesenti; et loquens de 
+          jura<lb break="no" ed="#P" n="99"/>mento rei futura, solum excipit vel ea quae
+          <lb ed="#P" n="100"/>futura sunt ab aliis causis, vel quae non sunt
+          <lb ed="#P" n="101"/>in potestate jurantis, vel simpliciter, vel 
+          ho<lb break="no" ed="#P" n="102"/>neste ac rationabiliter. Unde tandem 
+          conclu<lb break="no" ed="#P" n="103"/>dit, juramentum de futuro, si habeat alios
+          <lb ed="#P" n="104"/>comites judicii et justitiae, obligare, ut fiat
+          <lb ed="#P" n="105"/>quod juratum est, ut tertius comes, scilicet
+          <lb ed="#P" n="106"/>veritas, juramento non desit ; veritas autem
+          <lb ed="#P" n="107"/>respicit assertionem, ut talis est ; ergo etiamsi
+          <lb ed="#P" n="108"/>nulla fiat promissio, sola assertio de futuro
+          <lb ed="#P" n="109"/>sufficit, ut ratio juramenti omnino verificanda
+          <lb ed="#P" n="110"/>sit. Quod magis declarans D. Thomas, in sol.
+          <pb ed="#P" n="505"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ad 1, ait, quod juramentum adhiberi non 
+          de<lb break="no" ed="#P" n="2"/>bet nisi in re , de qua aliquis firmiter certus
+          <lb ed="#P" n="3"/>est ; ergo quando jurat assertionem futuram ,
+          <lb ed="#P" n="4"/>si recte jurat, illam affirmat ut firmiter sibi
+          <lb ed="#P" n="5"/>certam, quantum in ipso est ; ergo ex vi 
+          jura<lb break="no" ed="#P" n="6"/>menti obligatur illam exequi, quantum in
+          <lb ed="#P" n="7"/>ipso est , ut assertio jurata firmiter vera 
+          per<lb break="no" ed="#P" n="8"/>maneat. Et idem videtur esse sensus aliorum
+          <lb ed="#P" n="9"/>auctorum, ut recte declarat Scot., in 3, d. 39,
+          <lb ed="#P" n="10"/>quaest. unic., art. 3, ver. Hic tamen est unum
+          <lb ed="#P" n="11"/>dubium ; nam, licet nomine promissionis seu
+          <lb ed="#P" n="12"/>juramenti promissorii frequentius utantur,
+          <lb ed="#P" n="13"/>sub illo comprehendunt omnem assertionem
+          <lb ed="#P" n="14"/>de futuro juratam, et utuntur illa voce, ut
+          <lb ed="#P" n="15"/>distinguant tale juramentum ab assertorio de
+          <lb ed="#P" n="16"/>re praesenti et praeterita , et de alis futuris,
+          <lb ed="#P" n="17"/>quae non sunt facienda ab ipso jurante. 
+          Prae<lb break="no" ed="#P" n="18"/>terea Scriptura ita loquitur ; ubicumque enim
+          <lb ed="#P" n="19"/>reperitur assertio de futuro cum juramento,
+          <lb ed="#P" n="20"/>intelligitur esse juramenti obligatio, ut. Gen.
+          <lb ed="#P" n="21"/>4T , dixerat Joseph ad patrem suum: 7Zgo 
+          fa<lb break="no" ed="#P" n="22"/>ciam quod jussisti ; dixit Jacob : Juca ergo
+          <lb ed="#P" n="23"/>mihi, neque aliam promissionem postulavit ;
+          <lb ed="#P" n="24"/>idem sumitur ex facto Abrahae cum servo suo,
+          <lb ed="#P" n="25"/>Gen. 24; et Mat. b, solum dicitur : Reddes
+          <lb ed="#P" n="26"/>Domino juramenta tua. Et idem est sensus 
+          ju<lb break="no" ed="#P" n="27"/>rium, tam canonicorum quam civilium, ut
+          <lb ed="#P" n="28"/>videbimus.
+        </p>
+        <p xml:id="szovsr-m12544-d1e881">
+          <lb ed="#P" n="29"/>12. Ratio a priori. — Ratio a priori hujus
+          <lb ed="#P" n="30"/>veritatis est, quam D. Thomas significavit,
+          <lb ed="#P" n="31"/>quia assertio futuri effectus dependentis ex
+          <lb ed="#P" n="32"/>voluntate jurantis, est contingens, et 
+          quan<lb break="no" ed="#P" n="33"/>tum est de se habet incertam, imo et 
+          indeter<lb break="no" ed="#P" n="34"/>minatam veritatem respectu cognitionis 
+          hu<lb break="no" ed="#P" n="35"/>manae ; ergo ut sic non potest licite jurari. Et
+          <lb ed="#P" n="36"/>ideo qui jurat contingens, quod ipse non 
+          po<lb break="no" ed="#P" n="37"/>test facere verum, ut: Cras pluet, et Petrus
+          <lb ed="#P" n="38"/>morietur hac die, vel similia, quae suppono
+          <lb ed="#P" n="39"/>non cognosci certe et in causis a jurante,
+          <lb ed="#P" n="40"/>graviter et temere peccat, quia neque scit 
+          es<lb break="no" ed="#P" n="41"/>se verum quod jurat, ut supponitur, nec 
+          po<lb break="no" ed="#P" n="42"/>test facere ut verum sit. Ergo qui jurat se
+          <lb ed="#P" n="43"/>aliquid facturum, ut licite juret, necesse est
+          <lb ed="#P" n="44"/>ut non solum habeat propositum faciendi quod
+          <lb ed="#P" n="45"/>jurat, sed etiam ut habeat animum se 
+          obh<lb break="no" ed="#P" n="46"/>candi ad faciendum verum quod jurat. 
+          Pro<lb break="no" ed="#P" n="47"/>batur consequentia, quia tenetur dare illi 
+          as<lb break="no" ed="#P" n="48"/>sertioni totam firmitatem veritatis quam 
+          po<lb break="no" ed="#P" n="49"/>test habere; haec autem consistit in illo animo
+          <lb ed="#P" n="50"/>et obligatione; ergo qui sic jurat, eo ipso
+          <lb ed="#P" n="51"/>obligatur ad perseverandum in illo proposito,
+          <lb ed="#P" n="52"/>et exequendum quod jurat, ut faciat verum
+          <lb ed="#P" n="53"/>quod juravit. Et confirmari potest haec ratio
+          <lb ed="#P" n="54"/>verbis jurisconsulti, ip lege JVon erit, 5, ff. de
+          <lb ed="#P" n="55"/>Jurejur.: Dato jurejurando, non aliud queri-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tur quam an juratum sit, remissa questione,
+          <lb ed="#P" n="57"/>an debeatur, quasi satis probatum sit 
+          jureju<lb break="no" ed="#P" n="58"/>rando. Cujus sententiae clarus sensus est, 
+          ip<lb break="no" ed="#P" n="59"/>sum juramentum de refacienda perse afferre
+          <lb ed="#P" n="60"/>obligationem, licet nullum supponat debitum,
+          <lb ed="#P" n="61"/>et consequenter licet nullam supponat 
+          pro<lb break="no" ed="#P" n="62"/>missionem, quae per se ad aliquam 
+          obligatio<lb break="no" ed="#P" n="63"/>nem inducendam sufficiat.
+        </p>
+        <p xml:id="szovsr-m12544-d1e962">
+          <lb ed="#P" n="64"/>13. Inductione confirmatur. —Secundo, 
+          po<lb break="no" ed="#P" n="65"/>test haec veritas variis modis declarari, et 
+          qua<lb break="no" ed="#P" n="66"/>si inductione quadam confirmari. Primo enim,
+          <lb ed="#P" n="67"/>juramentum comminatorium non includit
+          <lb ed="#P" n="68"/>promissionem, proprie loquendo, quia 
+          quate<lb break="no" ed="#P" n="69"/>nus talis est, nec fit in commodum alterius,
+          <lb ed="#P" n="70"/>nec ab illius voluntate pendet, nec fidelitas
+          <lb ed="#P" n="71"/>circa illud versatur, quae sunt propria 
+          pro<lb break="no" ed="#P" n="72"/>missionis ; et nihilominus comminatio jurata,
+          <lb ed="#P" n="73"/>per se loquendo, obligat ex vi juramenti, id
+          <lb ed="#P" n="74"/>est, si materia sit licita, et capax 
+          obligatio<lb break="no" ed="#P" n="75"/>nis; et ita docent omnes, et dicunt sub 
+          pro<lb break="no" ed="#P" n="76"/>missorio juramento includi comminatorium.
+          <lb ed="#P" n="77"/>Ergo tale juramentum solum obligat ratione
+          <lb ed="#P" n="78"/>assertionis de futuro quae per illud 
+          confirma<lb break="no" ed="#P" n="79"/>ta est, ut omnino vera fiat, quia, seclusa 
+          pro<lb break="no" ed="#P" n="80"/>missione, nulla alia ratio obligationis ibi 
+          in<lb break="no" ed="#P" n="81"/>telligi potest. Deinde interdum contingit 
+          pro<lb break="no" ed="#P" n="82"/>missionem juratam esse nullam in ratione
+          <lb ed="#P" n="83"/>promissionis, ut est promissio usuras 
+          solven<lb break="no" ed="#P" n="84"/>di, vel alia per injuriam et vim extorta; et
+          <lb ed="#P" n="85"/>nihilominus juramentum illud obligat ad 
+          fa<lb break="no" ed="#P" n="86"/>ciendum quod dictum est, quando sine 
+          dam<lb break="no" ed="#P" n="87"/>no conscientiae impleri potest, ut infra 
+          vide<lb break="no" ed="#P" n="88"/>bimus. Ergo etiam ibi tota ratio obligationis
+          <lb ed="#P" n="89"/>relinquitur, faciendi veram, assertionem de
+          <lb ed="#P" n="90"/>futuro juratam, propter divinam 
+          reveren<lb break="no" ed="#P" n="91"/>uam, ut probat c. Debitores, de Jurejur., ibi:
+          <lb ed="#P" n="92"/>Cogendi sunt Deo reddere juramentum. 
+          Prae<lb break="no" ed="#P" n="93"/>terea saepe jurat quis absolute se facturum
+          <lb ed="#P" n="94"/>aliquid, quod ad alterum non pertinet, vel
+          <lb ed="#P" n="95"/>certe non illi juratur; ut, verbi gratia, si quis
+          <lb ed="#P" n="96"/>secum tantum loquens, juret se daturum 
+          ali<lb break="no" ed="#P" n="97"/>quid Petro, vel quid simile, tenetur ex 
+          viju<lb break="no" ed="#P" n="98"/>ramenti illud implere, ut infra videbimus ; et
+          <lb ed="#P" n="99"/>si poenitens juret confessori, se restituturum,
+          <lb ed="#P" n="100"/>vel non ingressurum talem domum, tenetur
+          <lb ed="#P" n="101"/>speciali obligatione juramenti ad id 
+          servan<lb break="no" ed="#P" n="102"/>dum. Et tamen in his casibus non praecedit
+          <lb ed="#P" n="103"/>promissio, nam promissio fit alteri, et non
+          <lb ed="#P" n="104"/>est consummata donec acceptetur ; in primo
+          <lb ed="#P" n="105"/>autem casu, non ita fit, neque in secundo fit
+          <lb ed="#P" n="106"/>proprie ea promissio confessori, sed sola as
+          <lb ed="#P" n="107"/>sertio juratur ; haec ergo suffticit ad hanc 
+          obli<lb break="no" ed="#P" n="108"/>gationem. Item haec obligatio est separabilis
+          <lb ed="#P" n="109"/>ab omni alia obligatione religionis, justitiae
+          <lb ed="#P" n="110"/>et fidelitatis, ut capite sequenti ostendemus;
+          <pb ed="#P" n="506"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ergo est etiam separabilis ab omni 
+          promissio<lb break="no" ed="#P" n="2"/>ne, et cadere potest in solam veritatem 
+          asser<lb break="no" ed="#P" n="3"/>tionis de futuro. Denique hoc videtur supponi
+          <lb ed="#P" n="4"/>a Pontificibus, quando in Bullis concedunt
+          <lb ed="#P" n="5"/>confessoribus potestatem relaxandi 
+          juramen<lb break="no" ed="#P" n="6"/>ta, quando relaxatio non cederet in 
+          praejudi<lb break="no" ed="#P" n="7"/>cium tertii, et loquuntur de juramentis, quae
+          <lb ed="#P" n="8"/>non sunt vota; ergo sentiunt posse 
+          juramen<lb break="no" ed="#P" n="9"/>tum obligare sine promissione; nam ubi est
+          <lb ed="#P" n="10"/>promissio, relasatio non est sine praejudicio
+          <lb ed="#P" n="11"/>tertii.
+        </p>
+        <p xml:id="szovsr-m12544-d1e1095">
+          <lb ed="#P" n="12"/>14. Ad ea igitur quae in contrarium 
+          indu<lb break="no" ed="#P" n="13"/>cebantur ab auctoritate, jam responsum est:
+          <lb ed="#P" n="14"/>nam ostensum est potius contrarium colligi
+          <lb ed="#P" n="15"/>ex modo loquendi Scripturae et jurium, ac
+          <lb ed="#P" n="16"/>Doctorum: et ex illo eodem cap. Num. 30, 
+          fa<lb break="no" ed="#P" n="17"/>cile colligi potest, juramentum per se poni ut
+          <lb ed="#P" n="18"/>sufficiens ad inducendam obligationem, sive
+          <lb ed="#P" n="19"/>adhaereat pollicitationi propriae, sive 
+          asser<lb break="no" ed="#P" n="20"/>tioni. Addi vero potest ad majorem 
+          explica<lb break="no" ed="#P" n="21"/>tionem hujus communis appellationis 
+          jura<lb break="no" ed="#P" n="22"/>menti promissorii, assertionem de re 
+          facien<lb break="no" ed="#P" n="23"/>da in futurum, eo ipso quod juramento 
+          firma<lb break="no" ed="#P" n="24"/>tur, subire vim pollicitationis, vel 
+          formal<lb break="no" ed="#P" n="25"/>ter, vel eminenter (ut sic dicam), et ita per illa
+          <lb ed="#P" n="26"/>verba, vel aequivalentia solere nominari. 
+          Decla<lb break="no" ed="#P" n="27"/>ro assumptum, quia promissio etiam simplex,
+          <lb ed="#P" n="28"/>addit ultra puram assertionem faciendi in
+          <lb ed="#P" n="29"/>tuturum , quamdam firmitatem in praesenti
+          <lb ed="#P" n="30"/>proposito, quae consistit in obligatione 
+          perse<lb break="no" ed="#P" n="31"/>verandi in illo, donec impleatur quod 
+          promis<lb break="no" ed="#P" n="32"/>sum est. Quia ergo juramentum per sese dat
+          <lb ed="#P" n="33"/>firmitatem veritati de futuro, imponendo
+          <lb ed="#P" n="34"/>obligationem altioris rationis, faciendi ut in
+          <lb ed="#P" n="35"/>tali assertione veritas non deficiat, ideo talis
+          <lb ed="#P" n="36"/>assertio jurata pro pollicitatione habetur, et
+          <lb ed="#P" n="37"/>illo nomine significatur , maxime quando
+          <lb ed="#P" n="38"/>factum juratur in alterius utilitatem, 
+          commo<lb break="no" ed="#P" n="39"/>dum vel honorem, et ipsi acceptum esse 
+          cre<lb break="no" ed="#P" n="40"/>ditur.
+        </p>
+        <p xml:id="szovsr-m12544-d1e1161">
+          <lb ed="#P" n="41"/>15. Solvuntur argumenta.— Ad primum.—
+          <lb ed="#P" n="42"/>Atque ex his patet responsio ad primam 
+          ratio<lb break="no" ed="#P" n="43"/>nem : nam antecedens in rigore sumptum 
+          fal<lb break="no" ed="#P" n="44"/>sum est, quia promissio proprie sumpta non
+          <lb ed="#P" n="45"/>est adaequata materia juramenti promissorii,
+          <lb ed="#P" n="46"/>neque inde tantum hanc denominationem 
+          ac<lb break="no" ed="#P" n="47"/>cepit, sed, ex eo quod assertio jurata 
+          promis<lb break="no" ed="#P" n="48"/>sioni aequivalet, vel eminenter illam continet;
+          <lb ed="#P" n="49"/>vel certe licet demus nomen inde esse 
+          sum<lb break="no" ed="#P" n="50"/>ptum, quia frequentius ita fit hoc juramentum,
+          <lb ed="#P" n="51"/>plus tamen siguificat, quia materia adaequata
+          <lb ed="#P" n="52"/>hujus juramenti est factum praestandum a 
+          ju<lb break="no" ed="#P" n="53"/>rante ex vi juramenti, sive illud expresserit
+          <lb ed="#P" n="54"/>per verba assertoria iantum de futuro, sive per
+          <lb ed="#P" n="55"/>promissoria.
+        </p>
+        <p xml:id="szovsr-m12544-d1e1196">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>16. Ad secundam. — Ad secundam 
+          ratio<lb break="no" ed="#P" n="57"/>nem, licet aliqui dubitent de majori, mihi
+          <lb ed="#P" n="58"/>tamen concedenda videtur, quia longe 
+          diver<lb break="no" ed="#P" n="59"/>sum est jurare tantum assertionem de 
+          prae<lb break="no" ed="#P" n="60"/>senti proposito, vel de facto futuro praestando.
+          <lb ed="#P" n="61"/>Nam poenitens, verbi gratia, facile 
+          affirma<lb break="no" ed="#P" n="62"/>bit, et jurabit, si necesse sit, se habere 
+          propo<lb break="no" ed="#P" n="63"/>situm non peccandi amplius, non tamen 
+          aude<lb break="no" ed="#P" n="64"/>bit jurare se amplius non peccaturum. Unde
+          <lb ed="#P" n="65"/>etiam ad habendam contritionem, 
+          dicimusne<lb break="no" ed="#P" n="66"/>cessarium non esse ut quis sibi persuadeat non
+          <lb ed="#P" n="67"/>amplius peccaturum, sed solum ut id 
+          propo<lb break="no" ed="#P" n="68"/>nat ; aliud est ergo atfirmare tantum propositum
+          <lb ed="#P" n="69"/>praesens de facto futuro, aliud affirmare ipsum
+          <lb ed="#P" n="70"/>eventum futurum ; idem ergo distingui potest
+          <lb ed="#P" n="71"/>in juramento. Data ergo illa prima 
+          propositio<lb break="no" ed="#P" n="72"/>ne, seu mejori, negatur minor; nam quando
+          <lb ed="#P" n="73"/>aliquis jurat absolute se aliquid facturum, non
+          <lb ed="#P" n="74"/>tantum jurat se habere tunc propositum id
+          <lb ed="#P" n="75"/>faciendi, sed simul etiam jurat se 
+          permansu<lb break="no" ed="#P" n="76"/>rum in illo proposito, donec cum effectu illud
+          <lb ed="#P" n="77"/>impleat, et ad hoc totum firmandum, Deum
+          <lb ed="#P" n="78"/>in testem et quasi fidejussorem adducit. De
+          <lb ed="#P" n="79"/>illo etiam, qui simpliciter et sine juramento 
+          af<lb break="no" ed="#P" n="80"/>firmat se aliquid facturum, non recte dicitur
+          <lb ed="#P" n="81"/>illum solum affirmare, se habere tunc 
+          propo<lb break="no" ed="#P" n="82"/>situm faciendi; nam verba illa plus 
+          signifi<lb break="no" ed="#P" n="83"/>cant, et ille totum id affirmat, quod verba 
+          si<lb break="no" ed="#P" n="84"/>gnificant. Nec D. Thomas oppositum docet,
+          <lb ed="#P" n="85"/>sed ait, ut ille verum loquatur, satis esse quod
+          <lb ed="#P" n="86"/>habeat tunc propositum faciendi, nam hoc est
+          <lb ed="#P" n="87"/>satis ut probabiliter existimet se id facturum.
+          <lb ed="#P" n="88"/>In quo sensu intelligitur esse vera illa 
+          propo<lb break="no" ed="#P" n="89"/>sitio contingens simpliciter prolata, et quia
+          <lb ed="#P" n="90"/>per illam solam assertionem non obligatur
+          <lb ed="#P" n="91"/>quis ad faciendum, ut illa propositio de futuro
+          <lb ed="#P" n="92"/>re ipsa verificetur , ideo ad illius veritatem 
+          di<lb break="no" ed="#P" n="93"/>citur sufficere propositum faciendi quod 
+          dici<lb break="no" ed="#P" n="94"/>tur, non quia illud solum significetur, sed quia
+          <lb ed="#P" n="95"/>illud solum postulatur ad definitam veritatem
+          <lb ed="#P" n="96"/>de praesenti, et probabilem de futuro, quae 
+          so<lb break="no" ed="#P" n="97"/>lum in tali humano sermone postulatur. At
+          <lb ed="#P" n="98"/>vero quando additur juramentum, additur 
+          obli<lb break="no" ed="#P" n="99"/>gatio faciendi verum et certum factum 
+          futu<lb break="no" ed="#P" n="100"/>rum, quantum in homine est, et quoad hoc non
+          <lb ed="#P" n="101"/>est similis ratio.
+        </p>
+        <p xml:id="szovsr-m12544-d1e1300">
+          <lb ed="#P" n="102"/>17. Ad tertiam. — In tertia, argumenta
+          <lb ed="#P" n="103"/>multa petuntur de obligatione hujus 
+          juramen<lb break="no" ed="#P" n="104"/>ti, quae pendet ex materia ejus, et in capitibus
+          <lb ed="#P" n="105"/>sequentibus tractanda sunt ; ideo nunc 
+          brevi<lb break="no" ed="#P" n="106"/>ter respondeo concedendo hanc obligationem
+          <lb ed="#P" n="107"/>habere locum in omni juramento, cujus 
+          exe<lb break="no" ed="#P" n="108"/>cutio rectae rationi non repugnat, sive tale 
+          ju<lb break="no" ed="#P" n="109"/>ramentum praestetur alteri, sive absolute fiat
+          <lb ed="#P" n="110"/>a jurante de actionibus suis futuris: nam de
+          <pb ed="#P" n="507"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>omnibus procedit eadem ratio, ut 
+          argumen<lb break="no" ed="#P" n="2"/>tum probat ; an vero haec obligatio sit semper
+          <lb ed="#P" n="3"/>gravis, vel interdum sit levis, postea dicemus.
+          <lb ed="#P" n="4"/>In his autem quae rectae rationi repugnant,
+          <lb ed="#P" n="5"/>non inducitur haec obligatio, quia illa 
+          incapa<lb break="no" ed="#P" n="6"/>cia sunt ejus. Nam nec recta ratio, nec Deus
+          <lb ed="#P" n="7"/>auctor ejus obligat ad agendum contra 
+          ratio<lb break="no" ed="#P" n="8"/>nem rectam. Quomodo autem hoc sit 
+          intelli<lb break="no" ed="#P" n="9"/>gendum, et quomodo peccetur sic jurando, in
+          <lb ed="#P" n="10"/>sequentibus dicemus.
+        </p>
+        <p xml:id="szovsr-m12544-d1e1348">
+          <lb ed="#P" n="11"/>18. Ad quartam, de juramento futurae 
+          ac<lb break="no" ed="#P" n="12"/>tionis alterius hominis, respondetur dupliciter
+          <lb ed="#P" n="13"/>fieri posse tale juramentum. Primo, solum 
+          af<lb break="no" ed="#P" n="14"/>firmando veritatem quasi speculative 
+          cogni<lb break="no" ed="#P" n="15"/>tam, seu conjectatam. Secundo, potest talis
+          <lb ed="#P" n="16"/>affirmatio fieri quasi practice per ordinem ad
+          <lb ed="#P" n="17"/>ipsum affirmantem, ita ut censeatur affirmare
+          <lb ed="#P" n="18"/>illud esse futurum, non solum ut est ab alio,
+          <lb ed="#P" n="19"/>sed etiam ut a se potest aliquo mcdo pendere
+          <lb ed="#P" n="20"/>aut procurari, et in eodem sensu potest 
+          jura<lb break="no" ed="#P" n="21"/>mento confirmari. Quando ergo fit priori modo,
+          <lb ed="#P" n="22"/>clarum est ex juramento non contrahi 
+          obliga<lb break="no" ed="#P" n="23"/>tionem, quia non juratur factum proprium,
+          <lb ed="#P" n="24"/>sed mere alienum, quatenus conjectari potest
+          <lb ed="#P" n="25"/>a jurante ; ut si quis juraret pluviam cras esse
+          <lb ed="#P" n="26"/>futuram, non intelligitur jurare se facturum
+          <lb ed="#P" n="27"/>aliquam diligentiam ut eveniat pluvia, sed
+          <lb ed="#P" n="28"/>jurare se habere talem conjecturam, vel 
+          opi<lb break="no" ed="#P" n="29"/>nionem de pluvia futura. Sic ergo potest fieri
+          <lb ed="#P" n="30"/>juramentum de facto alieno, quod nullam 
+          in<lb break="no" ed="#P" n="31"/>dueat obligationem, soletque interdum ita fieri,
+          <lb ed="#P" n="32"/>vel ad erigendam spem alicujus, vel ad 
+          conso<lb break="no" ed="#P" n="33"/>landum illum, vel ad impediendum aliquod 
+          ma<lb break="no" ed="#P" n="34"/>Ium, vel ad quippiam simile. Ut tamen 
+          hujus<lb break="no" ed="#P" n="35"/>modijuramentum non ambigue nectemerefiat,
+          <lb ed="#P" n="36"/>debet supponi in jurante sufficiens conjectura
+          <lb ed="#P" n="37"/>de animo et mente alterius, et per verba ipsa
+          <lb ed="#P" n="38"/>sufficienter explicari quod ita juretur, ut : Juro
+          <lb ed="#P" n="39"/>me credere, aut opinari Petrum hoc facturum,
+          <lb ed="#P" n="40"/>vel quid simile; interdum vero poterit sensus
+          <lb ed="#P" n="41"/>ex cireumstantiis constare. Exemplum est1
+          <lb ed="#P" n="42"/>Reg. 20, ubi Jonathas dixit Davidi: 4bsit, non
+          <lb ed="#P" n="43"/>morieris, neque enim faciet Pater meus 
+          quid<lb break="no" ed="#P" n="44"/>quam grande, vel parvum, nisi prius 
+          indicave<lb break="no" ed="#P" n="45"/>rit mihi. Hunc ergo celavit a me Pater meus
+          <lb ed="#P" n="46"/>sermonem tantummodo? nequaquam ecrit istud,
+          <lb ed="#P" n="47"/>et juravit rursus Davidi ; quod juramentum
+          <lb ed="#P" n="48"/>plane fuit de facto alieno, scilicet, Saulis ; fuit
+          <lb ed="#P" n="49"/>tamen de illo, quatenus conjectabat illud 
+          Jo<lb break="no" ed="#P" n="50"/>nathas, ut ex verbis ejus constat. Unde et 
+          ve<lb break="no" ed="#P" n="51"/>rum esse potuit, et ex vi illius nullam 
+          obliga<lb break="no" ed="#P" n="52"/>tionem subiit Jonathas ad procurandum ut ita
+          <lb ed="#P" n="53"/>eveniret. At vero quando juramentum fit 
+          pos<lb break="no" ed="#P" n="54"/>teriori modo, tunc verum est inducere 
+          obliga<lb break="no" ed="#P" n="55"/>tionem, quia revera est de facto proprio, sicut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fuit aliud juramentum, quod postea addidit 
+          Jo<lb break="no" ed="#P" n="57"/>nathas in codem loco. Quoad hanc ergo 
+          poste<lb break="no" ed="#P" n="58"/>riorem partem, concedimus similitudinem 
+          ar<lb break="no" ed="#P" n="59"/>gumenti ; quoad priorem vero non est 
+          simili<lb break="no" ed="#P" n="60"/>tudo, quia quando quis jurat aliquid se 
+          factu<lb break="no" ed="#P" n="61"/>rum, non jurat quid de facto suo futuro
+          <lb ed="#P" n="62"/>conjectetur, sed jurat factum, quantum ex sua
+          <lb ed="#P" n="63"/>voluntate pendet , quam per juramentum 
+          in<lb break="no" ed="#P" n="64"/>tendit in eo proposito firmare, quod non
+          <lb ed="#P" n="65"/>habet locum circa alienam voluntatem, ut
+          <lb ed="#P" n="66"/>constat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

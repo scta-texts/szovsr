@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="459"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m11483"><!-- t5l1c5 -->
+        <head xml:id="szovsr-m11483-Hd1e101">Caput 5</head>
+        <head xml:id="szovsr-m11483-Hd1e103" type="question-title">An juramentum per solum verum deum, vel etiam per creaturas fieri possit?</head>
+        <p xml:id="szovsr-m11483-d1e106">
+          <lb ed="#P" n="39"/>CAPUT V.
+          <lb ed="#P" n="40"/>AN JURAMENTUM PER SOLUM VERUM DEUM, VEL
+          <lb ed="#P" n="41"/>ETIAM PER CREATURAS FIERI POSSIT?
+        </p>
+        <p xml:id="szovsr-m11483-d1e115">
+          <lb ed="#P" n="42"/>1. Nonnulla sunt in hac quaestione certa,
+          <lb ed="#P" n="43"/>supponendo illam tractari de actu juramenti
+          <lb ed="#P" n="44"/>licito et honesto, nam male jurando, vel 
+          po<lb break="no" ed="#P" n="45"/>tius blasphemando, clarum est posse per
+          <lb ed="#P" n="46"/>alios quam per verum Deum jurari. Primo
+          <lb ed="#P" n="47"/>ergo certum est, religiosum juramentum per
+          <lb ed="#P" n="48"/>solum Deum verum fieri. In hoc sensu optimc
+          <lb ed="#P" n="49"/>intelligitur illud Deuteron. 6 : Zt per nomen
+          <lb ed="#P" n="50"/>illius jurabis ; nam in sensu exclusivo 
+          posi<lb break="no" ed="#P" n="51"/>tum est, secundum illud, quod immediate
+          <lb ed="#P" n="52"/>praecedit : Illi soli servies ; unde recte potest
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>conditionate exponi: Si tibi jurandum est,
+          <lb ed="#P" n="54"/>per Deum tuum jurabis. Ad quem sensum 
+          pos<lb break="no" ed="#P" n="55"/>sent etiam facile trahi illa verba Matth. 5:
+          <lb ed="#P" n="56"/>Reddes Domino juramenta tua, id est, quindo
+          <lb ed="#P" n="57"/>juraveris, soli Domino reddes juramenti 
+          cul<lb break="no" ed="#P" n="58"/>tum. Imo hoc etiam videtur Aristoteles 
+          co<lb break="no" ed="#P" n="59"/>gnovisse in Rhetorica ad Alexand., c.de 
+          Jure<lb break="no" ed="#P" n="60"/>jurand., alias 17, cum dixit, jusjurandum esse,
+          <lb ed="#P" n="61"/>cum divina veneratione dictio probationis 
+          ex<lb break="no" ed="#P" n="62"/>pers. Quibus verbis etiam rationes hujus 
+          veri<lb break="no" ed="#P" n="63"/>tatis indicat : una etiam sumitur ex dictis 
+          ca<lb break="no" ed="#P" n="64"/>pite praecedenti : nam juramentum est actus
+          <lb ed="#P" n="65"/>religionis, et continet cultum latriae ; sed 
+          reli<lb break="no" ed="#P" n="66"/>gio solum verum Deum colit cultu latriae;
+          <lb ed="#P" n="67"/>ergo juramentum per solum verum Deum
+          <lb ed="#P" n="68"/>fieri potest et debet. Item juramentum fit ad
+          <lb ed="#P" n="69"/>confirmandam veritatem infallibili 
+          testimo<lb break="no" ed="#P" n="70"/>nio, quantum ab homine fieri potest ; sed haec
+          <lb ed="#P" n="71"/>infallibilis auctoritas solum in Deo vero 
+          re<lb break="no" ed="#P" n="72"/>peritur ; ergo iuramentum tantum per Deum
+          <lb ed="#P" n="73"/>fieri potest. Item veritas maxime pendet ex
+          <lb ed="#P" n="74"/>mente loquentis, nam, ut dixit August., 
+          Ser<lb break="no" ed="#P" n="75"/>mon. 28 de Verb. Apostoli, alias 30: Ream
+          <lb ed="#P" n="76"/>linguam non facit, nisi mens ren, et intentione
+          <lb ed="#P" n="77"/>discernuntur mendacia, ut idem dicit in 
+          En<lb break="no" ed="#P" n="78"/>chirid., c. 18 et sequentibus ; sed solus Deus
+          <lb ed="#P" n="79"/>mentem et intentionem hominis certo 
+          cognos<lb break="no" ed="#P" n="80"/>cit ; ergo solus ipse potuit in testem 
+          infalli<lb break="no" ed="#P" n="81"/>bilem invocari.
+        </p>
+        <p xml:id="szovsr-m11483-d1e206">
+          <lb ed="#P" n="82"/>2. Per falsos Deos, idola et creaturas 
+          ju<lb break="no" ed="#P" n="83"/>rantes, non efficere juramentum. — Secundo,
+          <lb ed="#P" n="84"/>hinc certum est juramentum per falsos Deos,
+          <lb ed="#P" n="85"/>per idola, et per creaturas absolute spectatas
+          <lb ed="#P" n="86"/>ut creaturae sunt, non esse juramentum in re
+          <lb ed="#P" n="87"/>ipsa, etiamsi ut tale fiat ex intentione jurantis.
+          <lb ed="#P" n="88"/>Circa hoc non recte videtur sentire Selva, de
+          <lb ed="#P" n="89"/>Juramento, 1 p., q. 1, n. 7, dicens 
+          juramen<lb break="no" ed="#P" n="90"/>tum tam per creaturas quam per Deum fieri
+          <lb ed="#P" n="91"/>posse, et ita esse definiendum. Quod licet 
+          pos<lb break="no" ed="#P" n="92"/>sit ad qnaestionem de modo loquendi 
+          pertine<lb break="no" ed="#P" n="93"/>re, est tamen contra communem sensum 
+          Doc<lb break="no" ed="#P" n="94"/>torum, et modum loquendi jurium, ut ex 
+          hac<lb break="no" ed="#P" n="95"/>tenus dictis constare potest, et ex his quae
+          <lb ed="#P" n="96"/>congerit Covar., in capit. Quamvis pactum, in
+          <lb ed="#P" n="97"/>principio ; et attigit Bald., in l. 2, ff. de 
+          Jure<lb break="no" ed="#P" n="98"/>jur- ; Turrec., in c. Ecce, 24, q. 5; Sylvest.,
+          <lb ed="#P" n="99"/>verb. Juram.1, q. 4; Ant., 2p., tit. 10, c.4;
+          <lb ed="#P" n="100"/>Sot., Navar. et omnes. Probatur ergo assertio,
+          <lb ed="#P" n="101"/>quia falsus Deus non est Deus, neque idolum
+          <lb ed="#P" n="102"/>aut creatura est Deus; ergo testificatio per 
+          il<lb break="no" ed="#P" n="103"/>la non potest esse juramentum. Probatur 
+          con<lb break="no" ed="#P" n="104"/>sequentia , quia juramentum verum et 
+          pro<lb break="no" ed="#P" n="105"/>prium, et ut est actus religionis, est 
+          testifica<lb break="no" ed="#P" n="106"/>tio veritatis per testimonium infallibile. Et
+          <lb ed="#P" n="107"/>confirmatur. nam ob hanc rationem juramen-
+          <pb ed="#P" n="460"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tum per falsos Deos et idola est blasphemia et
+          <lb ed="#P" n="2"/>idololatria, ut supra, in tractatu 3, ostensum
+          <lb ed="#P" n="3"/>est. quia per illud attribuitur falso Deo, id
+          <lb ed="#P" n="4"/>quod est proprium veri Dei ; sed haec 
+          attribu<lb break="no" ed="#P" n="5"/>tio falsa est, et ab hominibus ficta ; ergo et
+          <lb ed="#P" n="6"/>tale juramentum revera juramentum non est,
+          <lb ed="#P" n="7"/>sed fingitur et putatur. Atque idem est de 
+          ju<lb break="no" ed="#P" n="8"/>ramento per quamcumque creaturam 
+          absolu<lb break="no" ed="#P" n="9"/>te, ut dixi, et secundum se spectatam ; nam
+          <lb ed="#P" n="10"/>si illa, ut sic, afferatur ut testis infallibilis, eo
+          <lb ed="#P" n="11"/>ipso colitur ut idolum, et ei attribuitur quod
+          <lb ed="#P" n="12"/>divinum est, et hoc est quod Exod. 23 
+          pro<lb break="no" ed="#P" n="13"/>hibetur : Per numen eaternorum Deorum non
+          <lb ed="#P" n="14"/>Jurabitis neque audietur ex ore vestro..Dices:
+          <lb ed="#P" n="15"/>si tale juramentum prohibetur, ergo est 
+          jura<lb break="no" ed="#P" n="16"/>mentum, quia non prohibetur, nisi quod est
+          <lb ed="#P" n="17"/>vel esse potest. Respondetur esse quidem 
+          ma<lb break="no" ed="#P" n="18"/>terialiter juramentum quoad verborum 
+          so<lb break="no" ed="#P" n="19"/>num, esse etiam putatum juramentum ex 
+          con<lb break="no" ed="#P" n="20"/>scientia erronea, sicut idolum est putatus
+          <lb ed="#P" n="21"/>Deus, re tamen vera non habere subsistentiam
+          <lb ed="#P" n="22"/>juramenti, quia deest illi verum 
+          constituti<lb break="no" ed="#P" n="23"/>vum juramenti, ut declaratum est, et iterum
+          <lb ed="#P" n="24"/>dicemus lib. seq., cap. 4.
+        </p>
+        <p xml:id="szovsr-m11483-d1e322">
+          <lb ed="#P" n="25"/>3. Dubium primum. — Resolutio. — Quid
+          <lb ed="#P" n="26"/>sit simplem attestatio Dei. — His ergo 
+          sup<lb break="no" ed="#P" n="27"/>positis, dubitari potest primo, an sub 
+          al<lb break="no" ed="#P" n="28"/>qua alia ratione vel consideratione licitum
+          <lb ed="#P" n="29"/>sit per creaturas jurare, stando in sola rei 
+          na<lb break="no" ed="#P" n="30"/>tura, et secluso omni jure prohibente. Iu quo
+          <lb ed="#P" n="31"/>resolutio certa, et ab omnibus recepta est,
+          <lb ed="#P" n="32"/>posse aliquo modo vere et licite per ereaturas
+          <lb ed="#P" n="33"/>jurari. Hoc constat ex usu Scriptura et 
+          Ec<lb break="no" ed="#P" n="34"/>clesia; nam Joseph, Gen. 42, loquitur 
+          juras<lb break="no" ed="#P" n="35"/>se per salutem Pharaonis; et Paul., 2 ad 
+          Co<lb break="no" ed="#P" n="36"/>rinth. 1, per animam suam jurasse videtur,
+          <lb ed="#P" n="37"/>dicens: Testem Deum invoco in animam meam;
+          <lb ed="#P" n="38"/>et utrumque locum ita exposuit D. Thomas;
+          <lb ed="#P" n="39"/>et Moyses, Deut. 3 et 4: Testes invoco celum
+          <lb ed="#P" n="40"/>et terram ; et juramentum Pauli. 1 Corin. 15:
+          <lb ed="#P" n="41"/>Per gloriam vestram, etiam videtur fuisse per
+          <lb ed="#P" n="42"/>rem creatam, ut communiter exponitur, licet
+          <lb ed="#P" n="43"/>Basil. hom. 1 in Psalm. 14, tam hoc 
+          juramen<lb break="no" ed="#P" n="44"/>tum, quam illud Josephi, aliter interpretari
+          <lb ed="#P" n="45"/>conetur. Refert etiam Tertull., in Apol., c.
+          <lb ed="#P" n="46"/>3, olim solitos fuisse Christianos jurare per
+          <lb ed="#P" n="47"/>salutem Caesaris. Frequenter etiam fideles 
+          ju<lb break="no" ed="#P" n="48"/>rant per vitam, aut salutem suam, vel suorum,
+          <lb ed="#P" n="49"/>et per Sanctos, et per Evangelia, sine 
+          peri<lb break="no" ed="#P" n="50"/>culo erroris aut idololatriae ; imo in solemni
+          <lb ed="#P" n="51"/>forma jurandi professionem fidei a PioIV
+          <lb ed="#P" n="52"/>edita ita concluditur: Zgo ita spondeo, voveo
+          <lb ed="#P" n="53"/>ac juro- sic me Deus adjuvet, et heec Sancta
+          <lb ed="#P" n="54"/>Dei Hoangelia. Rationem autem et modum
+          <lb ed="#P" n="55"/>hujus juramenti declaravit D. Thomas, d. art.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>6, et Bonav., in3, d. 39, art. 2, q. 2, 
+          distin<lb break="no" ed="#P" n="57"/>guendo duplicem jurandi formam, per 
+          simpli<lb break="no" ed="#P" n="58"/>cem attestationem, vel per execrationem,
+          <lb ed="#P" n="59"/>quas infra latius sumus tractaturi; simplex
+          <lb ed="#P" n="60"/>attestatio est, quando Dei testimonium 
+          invo<lb break="no" ed="#P" n="61"/>catur, et ideo tale juramentum propriissime
+          <lb ed="#P" n="62"/>fit per Deum ipsum, potest autem fieri per
+          <lb ed="#P" n="63"/>creaturas non absolute spectatas, sed ut 
+          rela<lb break="no" ed="#P" n="64"/>tas ad Deum, seu per Deum ipsum, quatenus
+          <lb ed="#P" n="65"/>in illis relucet, et aliquo modo existit. Sicut
+          <lb ed="#P" n="66"/>enim potest adjurari Deus ut existens in coelo,
+          <lb ed="#P" n="67"/>vel in terra, vel in cruce, vel in Evangelis,
+          <lb ed="#P" n="68"/>quatenus sunt verba ejus, ita potest per Deum,
+          <lb ed="#P" n="69"/>ut in his rebus existentem, jurari. Sic enim
+          <lb ed="#P" n="70"/>qui jurat per crucem, per eum jurat qui pro
+          <lb ed="#P" n="71"/>nobis pependit in cruce, et sic de aliis; et hoc
+          <lb ed="#P" n="72"/>significat Christus Dominus, Matth. 5, dicens:
+          <lb ed="#P" n="73"/>Neque per celum, quia thronus Dei est : neque
+          <lb ed="#P" n="74"/>per terram, quia scabellum est pedum ejus, eic.
+          <lb ed="#P" n="75"/>Idem enim fuit, ac si dixisset, perinde esse
+          <lb ed="#P" n="76"/>jurare per haec, ac jurare per Deum, qui in
+          <lb ed="#P" n="77"/>eis est; et in eodem sensu addit: Negue per
+          <lb ed="#P" n="78"/>Hierosolymam, quia civitas est magni Regis,
+          <lb ed="#P" n="79"/>utique ejus Dei, qui est Rex Regum, et in ea
+          <lb ed="#P" n="80"/>civitate, et templo ejus, uhi peculiariter 
+          cole<lb break="no" ed="#P" n="81"/>batur; et ideo jurare per illam, virtute erat
+          <lb ed="#P" n="82"/>jurare per Deum, qui in ea regnabat ; sic ergo
+          <lb ed="#P" n="83"/>jurare per creaturas juramentum verum est,
+          <lb ed="#P" n="84"/>quia revera non ipsa, sed Deus est, qui 
+          voca<lb break="no" ed="#P" n="85"/>tur in testem, quamvis invocatio Dei implicite
+          <lb ed="#P" n="86"/>et mediate fiat, mediantibus creaturis.
+        </p>
+        <p xml:id="szovsr-m11483-d1e461">
+          <lb ed="#P" n="87"/>4. Modus jurandi per emecrationem. — 
+          Al<lb break="no" ed="#P" n="88"/>ter modus jurandi est per execrationem, id
+          <lb ed="#P" n="89"/>est, imprecando sibi vel alteri aliquod 
+          ma<lb break="no" ed="#P" n="90"/>lum, nisi verum fuerit quod juratur, ut in
+          <lb ed="#P" n="91"/>illo juramento: Sic me Deus adjuvet, vel 
+          sal<lb break="no" ed="#P" n="92"/>vet, et similia, et tale etiam fuit juramentum
+          <lb ed="#P" n="93"/>Joseph, vel Pauli. Et in hoc etiam modo per
+          <lb ed="#P" n="94"/>Deum juratur ; determinatur autem modus
+          <lb ed="#P" n="95"/>attestationis ejus, ut fiat per speciale signum,
+          <lb ed="#P" n="96"/>seu indicium circa creaturam, per quam 
+          ju<lb break="no" ed="#P" n="97"/>ratur. Est ergo etiam hoc verum juramentum,
+          <lb ed="#P" n="98"/>et de illo videtur locutus Christus Dominus,
+          <lb ed="#P" n="99"/>supra dicens: Negue per caput tuum 
+          jura<lb break="no" ed="#P" n="100"/>bis; et pro ratione addit : Quia mon potes
+          <lb ed="#P" n="101"/>unwm cagillum album facere, aut nigrum, id
+          <lb ed="#P" n="102"/>est, quia non habes dominium, nec 
+          potesta<lb break="no" ed="#P" n="103"/>tem in caput tuum, sed potestati divinae 
+          sub<lb break="no" ed="#P" n="104"/>est, et ideo sic jurare, etiam est per Deum 
+          ju<lb break="no" ed="#P" n="105"/>rare. Unde non ideo prohibuit Christus illas
+          <lb ed="#P" n="106"/>jurandi formas, quia juramenta non sint, ut
+          <lb ed="#P" n="107"/>putabant Judaei, quos in hoc reprehendit, et
+          <lb ed="#P" n="108"/>consequenter neque illa vetat, quia prava
+          <lb ed="#P" n="109"/>sint ex parte ejus, per quem juratur: cum
+          <lb ed="#P" n="110"/>potius ipse declaret quomodo illis modis Deus
+          <pb ed="#P" n="461"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ipse invocetur ; igitur potius declarat esse 
+          ve<lb break="no" ed="#P" n="2"/>ra haec juramenta, prohibet autem illa in
+          <lb ed="#P" n="3"/>sensu cap. 2 declarato. Et ita nulla superest
+          <lb ed="#P" n="4"/>difficultas in hac resolutione, quia per talem
+          <lb ed="#P" n="5"/>jurandi modum non defertur divinus honor
+          <lb ed="#P" n="6"/>creaturae, sed ipsi Deo, neque assumitur ibi
+          <lb ed="#P" n="7"/>nomen creaturae, ut creatura est, sed ut per
+          <lb ed="#P" n="8"/>eam tacite invocatur nomen Dei: et haec 
+          doc<lb break="no" ed="#P" n="9"/>trina cemmunis est Theologorum super D.
+          <lb ed="#P" n="10"/>Thomam supra, et tomo 3, dist. 3; Summist.,
+          <lb ed="#P" n="11"/>verb. Juramentum, praesertim Angei,, n. 2
+          <lb ed="#P" n="12"/>et Sylvest., Navàr., cap. 12, n. 4; Hostiens.,
+          <lb ed="#P" n="13"/>Panormit., et alii, in cap. Zt si Christus,
+          <lb ed="#P" n="14"/>de Jurejur.
+        </p>
+        <p xml:id="szovsr-m11483-d1e550">
+          <lb ed="#P" n="15"/>5. Dubium secundum. — Dubitari autem
+          <lb ed="#P" n="16"/>secundo potest, an hic modus jurandi sit 
+          ma<lb break="no" ed="#P" n="17"/>lus, saltem quia prohibitus vel divino jure
+          <lb ed="#P" n="18"/>positivo, vel humano. Nam imprimis aliqui
+          <lb ed="#P" n="19"/>putarunt hoc fuisse a Christo specialiter 
+          pro<lb break="no" ed="#P" n="20"/>hibitum, Matt. 5, quod videntur sensisse 
+          Hie<lb break="no" ed="#P" n="21"/>rony mus ibi, et Innoc. IlI, in c. Et si 
+          Chris<lb break="no" ed="#P" n="22"/>tus, de Jurejur.; dicunt enim prohibuisse
+          <lb ed="#P" n="23"/>juramentum per creaturas; non prohibuit 
+          aa<lb break="no" ed="#P" n="24"/>tem tantum jurare per creaturas, ut per 
+          ido<lb break="no" ed="#P" n="25"/>la, ut ex verbis explicatum est; ergo sentiunt
+          <lb ed="#P" n="26"/>prohibuisse modum jurandi per creaturas,
+          <lb ed="#P" n="27"/>etiam in sensu explicato. Existimari etiam 
+          po<lb break="no" ed="#P" n="28"/>test hoc fuisse prohibitum jure canonico, nain
+          <lb ed="#P" n="29"/>in c. Clericum, 22, q. 1, dicitur acerrime esse
+          <lb ed="#P" n="30"/>objurgandum clericum per creaturas 
+          juran<lb break="no" ed="#P" n="31"/>tem ; et si in vitio perstiterit, esse excommu -
+          <lb ed="#P" n="32"/>nicandum. Quod non videtur posse intelligi
+          <lb ed="#P" n="33"/>de jurante per creaturas more infidelium per
+          <lb ed="#P" n="34"/>idololatriam ; nam tale peccatum gravius 
+          de<lb break="no" ed="#P" n="35"/>testandum et puniendum est, praescrtim in
+          <lb ed="#P" n="36"/>clericis ; et similiter intelligendum videtur,
+          <lb ed="#P" n="37"/>quod in cap. Si quis, additur : S quis per
+          <lb ed="#P" n="38"/>creaturam juraverit , acerrime castigetur ,
+          <lb ed="#P" n="39"/>el juxta id, quod Synodus judicaverit, 
+          po<lb break="no" ed="#P" n="40"/>niteat.
+        </p>
+        <p xml:id="szovsr-m11483-d1e609">
+          <lb ed="#P" n="41"/>6. Resolutio. — Nihilominus dicendum est
+          <lb ed="#P" n="42"/>modum jurandi per creaturas, ex natura rei
+          <lb ed="#P" n="43"/>licitum, nullo jure positivo esse prohibitum.
+          <lb ed="#P" n="44"/>Hoc probant quae in resolutione prioris puncti
+          <lb ed="#P" n="45"/>adduximus; ostendimus enim hunc modum
+          <lb ed="#P" n="46"/>jurandi esse in usu Ecclesiae, et ipsiusmet 
+          Pau<lb break="no" ed="#P" n="47"/>li; ergo signum est nec per se malum esse,
+          <lb ed="#P" n="48"/>nec prohibitum. Item probatur, quia nullibi
+          <lb ed="#P" n="49"/>invenitur talis prohibitio ; nam de jure divino
+          <lb ed="#P" n="50"/>antiquc res clara est; neque etiam si fuisset,
+          <lb ed="#P" n="51"/>ad nos jam pertineret. De jure autem 
+          evan<lb break="no" ed="#P" n="52"/>gelico, quod ad nos spectat, jam supra dictum
+          <lb ed="#P" n="53"/>est, in lege gratiae non esse data divina 
+          prae<lb break="no" ed="#P" n="54"/>cepta positiva circa haec moralia. ltem 
+          proba<lb break="no" ed="#P" n="55"/>tum est Christum per illa verba non magis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>prohibuisse, quam ne passim et sine causa
+          <lb ed="#P" n="57"/>fiat, et de utroque dedisse consilium nunquam
+          <lb ed="#P" n="58"/>jurandi. nisi ex praecisa charitatis vel 
+          praece<lb break="no" ed="#P" n="59"/>p obligatione. Neque etiam in jure humano
+          <lb ed="#P" n="60"/>invenitur talis prohibitio ; nam jure civili 
+          ap<lb break="no" ed="#P" n="61"/>probatur in l. 3, S Jurari, et in l. Qui per 
+          sa<lb break="no" ed="#P" n="62"/>lutem, fY. de Jurejur. Wem in c. Si aliqua, et
+          <lb ed="#P" n="63"/>c. Habemnus, supponitur licitum esse 
+          juramen<lb break="no" ed="#P" n="64"/>tum per Evangelia, per reliquias, vel altare;
+          <lb ed="#P" n="65"/>et in c. Qui pejerat, 22, q. 5, supponitur esse
+          <lb ed="#P" n="66"/>licitum juramentum per crucem consecratam,
+          <lb ed="#P" n="67"/>vel non consecratam, et in c. Quoties, 141,
+          <lb ed="#P" n="68"/>q. 7, approbatur juramentum per Deum, per
+          <lb ed="#P" n="69"/>Evangelia, et persalutem principum. Igiturc.
+          <lb ed="#P" n="70"/>Clericum loquitur de jurante per creaturas
+          <lb ed="#P" n="71"/>more Gentilium, ut per Jovem, et similes. 
+          Re<lb break="no" ed="#P" n="72"/>prehensum est autem forte hoc illo tempore
+          <lb ed="#P" n="73"/>in Conc. Carthag. IV, cap. 61, non quia talia
+          <lb ed="#P" n="74"/>juramenta fierent a fidelibus ex falsa 
+          aestima<lb break="no" ed="#P" n="75"/>tione Gentilium, sed quia turpe erat et 
+          scan<lb break="no" ed="#P" n="76"/>dalosum tale juramentum in ore 
+          Christiano<lb break="no" ed="#P" n="77"/>rum, et in hoc sensu dixisse videntur Patres
+          <lb ed="#P" n="78"/>in Can. 94 Trullano: Zos, qui Gentilium 
+          sa<lb break="no" ed="#P" n="79"/>cramenta jurunt, canonicis penis subjicit, et
+          <lb ed="#P" n="80"/>nos itis quoque segregationem decernimus. Et
+          <lb ed="#P" n="81"/>hae2 vocat juramenta Graecorum, et dicit esse
+          <lb ed="#P" n="82"/>prohibita Christianis Photius, in Nomoc., tit.13,
+          <lb ed="#P" n="83"/>c. 19, ibi, d. tom. Biblioth.
+        </p>
+        <p xml:id="szovsr-m11483-d1e707">
+          <lb ed="#P" n="84"/>7. Unde hac occasioue animadverti potest,
+          <lb ed="#P" n="85"/>quod, licet jurare per creaturas in debito 
+          sen<lb break="no" ed="#P" n="86"/>su non sit per se malum, nihilominus ratione
+          <lb ed="#P" n="87"/>scandali potest fieri malum ; nam hoc 
+          genera<lb break="no" ed="#P" n="88"/>le est de quocumque actu, et in hoc invenitur
+          <lb ed="#P" n="89"/>peculiaris occasio ; nam cum jurare per 
+          crea<lb break="no" ed="#P" n="90"/>turam, absolute, et secundum se spectatam,
+          <lb ed="#P" n="91"/>idololatria sit, si juramentum absolute fiat per
+          <lb ed="#P" n="92"/>creaturam, e: fiat inter eosqui non satis valent
+          <lb ed="#P" n="93"/>disceruere, quo sensu fiat, facile potest illis
+          <lb ed="#P" n="94"/>scandalum praeberi, et ideo in hoc cautionem
+          <lb ed="#P" n="95"/>adhibere necesse est. Et imprimis distingui
+          <lb ed="#P" n="96"/>potest inter res sacras, seu specialiter Deo 
+          di<lb break="no" ed="#P" n="97"/>catas et communes; nam per priores clarius
+          <lb ed="#P" n="98"/>fit juramentum per respectum ad Deum, quam
+          <lb ed="#P" n="99"/>per posteriores, et talia sunt fere omnia 
+          exem<lb break="no" ed="#P" n="100"/>pla qua in jure canonico reperiuntur, et hac
+          <lb ed="#P" n="101"/>ratione, usus plurium clericorum habet jurare
+          <lb ed="#P" n="102"/>per manus consecratas, cum tamen laici non
+          <lb ed="#P" n="103"/>jurent per manus suas. Et hinc etiam est, ut
+          <lb ed="#P" n="104"/>quando fideles jurant per alias creaturas 
+          com<lb break="no" ed="#P" n="105"/>munes, aut id faciunt per modum 
+          execratio<lb break="no" ed="#P" n="106"/>nis, ut per salutem, per vitam, etc., quia eo
+          <lb ed="#P" n="107"/>ipso satis exprimere censentur respectum ad
+          <lb ed="#P" n="108"/>Deum, vel si jurant solum invocando. solent
+          <lb ed="#P" n="109"/>addere expresse nomen Dei, salter in obliquo,
+          <lb ed="#P" n="110"/>ut per caelum Dei, per terram Dei, et similia.
+          <pb ed="#P" n="462"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Quod notavit Sylvest., verb. Juramentum, 1,
+          <lb ed="#P" n="2"/>q. 4, significans esse necessariam illam 
+          ex<lb break="no" ed="#P" n="3"/>pressam relationem verborum, sed in 
+          interio<lb break="no" ed="#P" n="4"/>ri foro intentio sufficiet. Imo observandum est
+          <lb ed="#P" n="5"/>inter quos fiat juramentum; nam si fiat inter
+          <lb ed="#P" n="6"/>fideles, minus potest timeri scandalum ex hoc
+          <lb ed="#P" n="7"/>capite, quia facile intelligunt sensum jurandi ;
+          <lb ed="#P" n="8"/>inter infideles autem majus potest esse 
+          pericu<lb break="no" ed="#P" n="9"/>lum, et maxime si juramentum fiat per solem,
+          <lb ed="#P" n="10"/>Iunam, similia, quae a Gentibus pro diis 
+          ado<lb break="no" ed="#P" n="11"/>rata sunt. Denique in modo etiam seu verbis
+          <lb ed="#P" n="12"/>nominandi creaturas, cavendum est ne turpe
+          <lb ed="#P" n="13"/>aliquid, et quod Deum non deceat, 
+          nomine<lb break="no" ed="#P" n="14"/>tur ; nam ex ea parte posset peccari per 
+          irre<lb break="no" ed="#P" n="15"/>verentiam erga Deum; imo posset etiam ad
+          <lb ed="#P" n="16"/>blasphemiam pertinere, juxta supra dicta de
+          <lb ed="#P" n="17"/>blasphemia, tract. 3, lib. 1, et infra, c. 7, 
+          ali<lb break="no" ed="#P" n="18"/>quid attingemus.
+        </p>
+        <p xml:id="szovsr-m11483-d1e811">
+          <lb ed="#P" n="19"/>8. Dubium tertium.— Tertio, dubitari 
+          po<lb break="no" ed="#P" n="20"/>test an possit aliquod genus juramenti per
+          <lb ed="#P" n="21"/>creaturas absolute fieri absque peccato, etiamsi
+          <lb ed="#P" n="22"/>tale juramentum religiosum proprie non sit,
+          <lb ed="#P" n="23"/>neque ut tale fiat. In quo distinguendum 
+          im<lb break="no" ed="#P" n="24"/>primis est inter creaturas ratione carentes, vel
+          <lb ed="#P" n="25"/>rationales : nam de prioribus, manifestum est
+          <lb ed="#P" n="26"/>nullum per eas fieri posse tale juramentum,
+          <lb ed="#P" n="27"/>tum quia. ut Paulus dixit ad Heb. 6, homines
+          <lb ed="#P" n="28"/>per majorem sui jurant, omnes autem creaturae
+          <lb ed="#P" n="29"/>irrationales sunt homine inferiores ; tum etiam
+          <lb ed="#P" n="30"/>quia non potest esse testis veritatis, qui illam
+          <lb ed="#P" n="31"/>cognoscere non potest, ut sunt irrationalia.
+          <lb ed="#P" n="32"/>Quapropter qui sic jurat per tales creaturas,
+          <lb ed="#P" n="33"/>necesse est ut ex aliquo errore juret, putans
+          <lb ed="#P" n="34"/>illas habere aliquid divinum, et superius 
+          ho<lb break="no" ed="#P" n="35"/>mine, quod ad idofolatriam pertinebit; vel 
+          im<lb break="no" ed="#P" n="36"/>possibile est ut intentionem jurandi habeat,
+          <lb ed="#P" n="37"/>nisi plane etiam ignoret quid sit jurare. Quis
+          <lb ed="#P" n="38"/>enim potest ex animo et vera intentione 
+          ad<lb break="no" ed="#P" n="39"/>ducere in testem rem prorsus irrationalem?
+          <lb ed="#P" n="40"/>Et ita sensit expresse Bonav. supra, in fine q.
+          <lb ed="#P" n="41"/>2. Item Navarr., c. 12, n. 5, qui etiam addit,
+          <lb ed="#P" n="42"/>nullum esse peccatum sic jurare per 
+          creatu<lb break="no" ed="#P" n="43"/>ram, quia solum est verbo jurare, non re, et
+          <lb ed="#P" n="44"/>quia per hoc non defertur honor creaturae, sed
+          <lb ed="#P" n="45"/>solum materialiter nominatur sub verbo 
+          ju<lb break="no" ed="#P" n="46"/>randi, vel fortasse ad evitandum verum 
+          jura<lb break="no" ed="#P" n="47"/>mentum ; imo aliquando fieri potest in 
+          con<lb break="no" ed="#P" n="48"/>temptum daemonis, sicut refert Tertull., in
+          <lb ed="#P" n="49"/>Apolog., c. 44, Socratem solitum fuisse 
+          ju<lb break="no" ed="#P" n="50"/>rare per canem et hircum, in contemptum
+          <lb ed="#P" n="51"/>falsorum Deorum. Quod verum esse censeo,
+          <lb ed="#P" n="52"/>per se loquendo, et secluso scandalo ac 
+          erro<lb break="no" ed="#P" n="53"/>nea conscientia, et maxime loquendo de 
+          pro<lb break="no" ed="#P" n="54"/>prio peccato contra religionem; nam 
+          ordina<lb break="no" ed="#P" n="55"/>rie poterit tale verbum esse otiosum, vel fal-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sum, ut si quis dicat se jurare, quando revera
+          <lb ed="#P" n="57"/>non jurat; possunt autem hi defectus excusari,
+          <lb ed="#P" n="58"/>quando de sensu loquentis constat, et aliqua
+          <lb ed="#P" n="59"/>humana utihtas non irrationabilis ad sic 
+          lo<lb break="no" ed="#P" n="60"/>quendum movet. Ut omittam frequenter hoc
+          <lb ed="#P" n="61"/>feri sine humana advertentia, quae ad 
+          peccan<lb break="no" ed="#P" n="62"/>dum sufficiat.
+        </p>
+        <p xml:id="szovsr-m11483-d1e912">
+          <lb ed="#P" n="63"/>9. Non posse licite jurari per demonem. —
+          <lb ed="#P" n="64"/>De rationalibus autem creaturis alia ratio est,
+          <lb ed="#P" n="65"/>quia cum sint intellectuales, possunt per se
+          <lb ed="#P" n="66"/>virtute propria testimonium ferre, et ideo de
+          <lb ed="#P" n="67"/>illis subdistinguere necesse est, nam quaedam
+          <lb ed="#P" n="68"/>sunt damnatae, aliae beatae, aliae sunt nomines
+          <lb ed="#P" n="69"/>viatores. De primis absolute dicendum est non
+          <lb ed="#P" n="70"/>posse licite jurari per daemones, aut alos
+          <lb ed="#P" n="71"/>damnatos. Ratio est, quia id non potest fieri
+          <lb ed="#P" n="72"/>sine errore in fide, vel saltem superstitione;
+          <lb ed="#P" n="73"/>nam qui jurat per daemonem, vel putat illum
+          <lb ed="#P" n="74"/>omnia hnosse, et mentiri non posse, et sic est
+          <lb ed="#P" n="75"/>haereticus et idololatra ; vcl existimat saltem
+          <lb ed="#P" n="76"/>esse dignum fide, et in hoc etiam gravissime
+          <lb ed="#P" n="77"/>errat, cum fides doceat illum esse mendacem
+          <lb ed="#P" n="78"/>et patrem mendacii, et circumire ut homines
+          <lb ed="#P" n="79"/>devoret. Et praeterea est superstitiosus, quia
+          <lb ed="#P" n="80"/>vult daemonem honorare, et cum illo 
+          societa<lb break="no" ed="#P" n="81"/>tem habere. Et eadem ratio est de jurante per
+          <lb ed="#P" n="82"/>quemcumque hominem damnatum, ut per
+          <lb ed="#P" n="83"/>Mahometum, et similes. Imo addere hic obiter
+          <lb ed="#P" n="84"/>possumus, etiam esse illicitum per tales 
+          creatu<lb break="no" ed="#P" n="85"/>ras jurare sub quocumque respectu etiam ad
+          <lb ed="#P" n="86"/>Deum, quia, lic^trevera in eis quantum ad esse
+          <lb ed="#P" n="87"/>naturae reluceat veritas Dei, etin poena earum
+          <lb ed="#P" n="88"/>ostendatur potentia ejus et justitia, ratione 
+          sta<lb break="no" ed="#P" n="89"/>tus indignae sunt ut in eis vel earum nomine
+          <lb ed="#P" n="90"/>invocetur Deus in testimonium veritatis. Eo
+          <lb ed="#P" n="91"/>vel maxime quod talis invocatio non posset
+          <lb ed="#P" n="92"/>non generare scandalum, non tantum 
+          acciden<lb break="no" ed="#P" n="93"/>taliter, sed quasi per se, quia juxta 
+          commu<lb break="no" ed="#P" n="94"/>nem sensum, et apprehensionem fidelium,
+          <lb ed="#P" n="95"/>talis invocatio non accipitur in eo sensu, sed
+          <lb ed="#P" n="96"/>tanquam praebens aliquem honorem 
+          daemo<lb break="no" ed="#P" n="97"/>nibus, et ideo errorem ingerii, et blasphemia
+          <lb ed="#P" n="98"/>simpliciter judicatur c. Moc:t, 22, q. l, et
+          <lb ed="#P" n="99"/>notat Navarrus supra, n. 4. ,
+        </p>
+        <p xml:id="szovsr-m11483-d1e995">
+          <lb ed="#P" n="100"/>10. Licitum esse jurare per Sanctos cum
+          <lb ed="#P" n="101"/>Christo regnantes. — Per Sanctos autem cum
+          <lb ed="#P" n="102"/>Christo regnantes clarum est jurari posse 
+          in<lb break="no" ed="#P" n="103"/>tuitu Dei, qui in eis peculiari modo habitat,
+          <lb ed="#P" n="104"/>et virtutem suam ac veritatem ostendit, juxta
+          <lb ed="#P" n="105"/>dicta in dubio pracedenti. Atque hoc modo
+          <lb ed="#P" n="106"/>accipienda sunt juramenta, quae communiter
+          <lb ed="#P" n="107"/>fiunt a fidelibus per sanctos Angelos aut 
+          homi<lb break="no" ed="#P" n="108"/>nes, quia semper jurant principaliter intuitu
+          <lb ed="#P" n="109"/>infallibilis veritatis Dei, a quo ducit originem
+          <lb ed="#P" n="110"/>Sanctorum status. Quia vero hujusmodi erea-
+          <pb ed="#P" n="463"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>turae, quatenus intellectuales sunt, possunt
+          <lb ed="#P" n="2"/>veritatem cognoscere et testificari, ideo videri
+          <lb ed="#P" n="3"/>potest esse capaces, ut absolute, propter 
+          per<lb break="no" ed="#P" n="4"/>fectionem creatam quam in se habent, 
+          invo<lb break="no" ed="#P" n="5"/>centur, sine ullo errore aut vitio, ad 
+          testifican<lb break="no" ed="#P" n="6"/>dam veritatem. Sed in hoc oportet imprimis
+          <lb ed="#P" n="7"/>advertere , solam perfectionem naturalem,
+          <lb ed="#P" n="8"/>etiam angelicam et vitio carentem, ad hoc
+          <lb ed="#P" n="9"/>non sufficere, quia per se non est tanta, ut
+          <lb ed="#P" n="10"/>mentiri non possit in sua nuda natura 
+          specta<lb break="no" ed="#P" n="11"/>ta ; et praeterca ignorare potest quae hic 
+          agun<lb break="no" ed="#P" n="12"/>tur, praesertim internos animi motus,et futura
+          <lb ed="#P" n="13"/>contingentia, et interdum etiam praesentia,
+          <lb ed="#P" n="14"/>quia non semper Angeli ad omnia attendunt
+          <lb ed="#P" n="15"/>ex vi sua naturae: jurameutum autem est
+          <lb ed="#P" n="16"/>quaedam protestatio cognoscentis, et qui 
+          men<lb break="no" ed="#P" n="17"/>tiri non possit, et ideo etiam sancti Angeli
+          <lb ed="#P" n="18"/>sub hac ratione spectati non sunt capaces 
+          hu<lb break="no" ed="#P" n="19"/>jus honoris, seu invocationis. Et quia sub 
+          ea<lb break="no" ed="#P" n="20"/>dem consideratione non habent 
+          commer<lb break="no" ed="#P" n="21"/>cium vel societatem nobiscum, ideo nullo 
+          mc<lb break="no" ed="#P" n="22"/>do possunt sub hac ratione a nobis in testes
+          <lb ed="#P" n="23"/>vocari. Per gloriam autem participant illas
+          <lb ed="#P" n="24"/>duas perfectiones , quantum sufficere posse
+          <lb ed="#P" n="25"/>videtur ad testimonium ferendum, quia et
+          <lb ed="#P" n="26"/>mentiri non possunt, et in Verbo vident quae
+          <lb ed="#P" n="27"/>ad suum statum pertinent ex actibus nostris,
+          <lb ed="#P" n="28"/>ut sunt illi qui ad eos ordinantur, et ad eorum
+          <lb ed="#P" n="29"/>gloriam aliquo modo pertinent. Sic ergo sine
+          <lb ed="#P" n="30"/>errore aut vitio jurari potest per Sanctos; 
+          ta<lb break="no" ed="#P" n="31"/>men eo ipso totus cultus juramenti 
+          principa<lb break="no" ed="#P" n="32"/>liter refertur ad Deum, a quo ipsi tantam 
+          lu<lb break="no" ed="#P" n="33"/>cem et rectitudinem participant. Sic ergo tale
+          <lb ed="#P" n="34"/>juramentum est etiam principaliter per Deum,
+          <lb ed="#P" n="35"/>et in hoc etiam sensu videtur communiter
+          <lb ed="#P" n="36"/>fieri a fidelibus. Si quis autem velit 
+          praescin<lb break="no" ed="#P" n="37"/>dere, et considerare honorem qui per tale 
+          ju<lb break="no" ed="#P" n="38"/>ramentum defertur Sancto, ratione 
+          participa<lb break="no" ed="#P" n="39"/>tae et creatae perfectionis quam in se habet,
+          <lb ed="#P" n="40"/>sic cultus ille non pertinebit ad latriam, sed
+          <lb ed="#P" n="41"/>ad duliam, et consequenter nee sub ea 
+          prae<lb break="no" ed="#P" n="42"/>cisa ratione poterit dici simpliciter 
+          juramen<lb break="no" ed="#P" n="43"/>tum; nam, ut ait D. Thomas, in 3, d. 39, q.
+          <lb ed="#P" n="44"/>1, art. 1, ad 4, sicut veneratio quae fit summae
+          <lb ed="#P" n="45"/>majestati habet specialem modum, et nomen
+          <lb ed="#P" n="46"/>latriae, ita juramentum est proprium nomen
+          <lb ed="#P" n="47"/>invocationis divini testimonii per se 
+          infallibi<lb break="no" ed="#P" n="48"/>lis, et perfectam latriam continet. Ideoque,
+          <lb ed="#P" n="49"/>licet illa praecisio mente et intentione fieri
+          <lb ed="#P" n="50"/>possit , tamen in re, et in usu jurandi non 
+          de<lb break="no" ed="#P" n="51"/>bet excludi Deus, tanquam dans praecipuam
+          <lb ed="#P" n="52"/>auctoritatem juramento, et quia ex ejus 
+          or<lb break="no" ed="#P" n="53"/>dinatione principaliter pendet quodcumque
+          <lb ed="#P" n="54"/>testimonium veritatis, etiamsi ab ipsis 
+          Ange<lb break="no" ed="#P" n="55"/>lis immediate spectari aut postulari possent,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sicut in simili diximus supra, tractando de
+          <lb ed="#P" n="57"/>oratione ad Sganctos.
+        </p>
+        <p xml:id="szovsr-m11483-d1e1151">
+          <lb ed="#P" n="58"/>11. Viatores posse vocari in testimonium
+          <lb ed="#P" n="59"/>veritatis humannm., licet non infallibilis.— 
+          Tan<lb break="no" ed="#P" n="60"/>dem loquendo de hominibus viatoribus, 
+          cer<lb break="no" ed="#P" n="61"/>tum est posse hominem vocari in testimonium
+          <lb ed="#P" n="62"/>veritatis humanae, non tamen in testimonium
+          <lb ed="#P" n="63"/>infallibile, sed in testimonium probabile,
+          <lb ed="#P" n="64"/>quod falli et fallere potest; et ideo talis 
+          in<lb break="no" ed="#P" n="65"/>vocatio juramenti rationem non participat,
+          <lb ed="#P" n="66"/>nec nomen meretur, ut notavit divus 
+          Tho<lb break="no" ed="#P" n="67"/>mas, in d. solut. 3. Irao ita fieri hoc potest, ut
+          <lb ed="#P" n="68"/>non cedat in specialem honorem ejus, qui in
+          <lb ed="#P" n="69"/>testem vocatur, ut communiter videtur 
+          con<lb break="no" ed="#P" n="70"/>tingere in vulgari modo inducendi, vel 
+          tra<lb break="no" ed="#P" n="71"/>hendi homines ad testificandum, solum 
+          pro<lb break="no" ed="#P" n="72"/>pter communem conditionem, et facultatem
+          <lb ed="#P" n="73"/>humanam ; quando vero aliquis propter 
+          spe<lb break="no" ed="#P" n="74"/>cialem dignitatem vel virtutem inducitur 
+          tan<lb break="no" ed="#P" n="75"/>quam testis qualificatus (ut aiunt), tunc 
+          ali<lb break="no" ed="#P" n="76"/>quis peculiaris honor ei defertur ; non excedit
+          <lb ed="#P" n="77"/>tamen humanam quamdam observantiam, et
+          <lb ed="#P" n="78"/>ideo semper longe distat a ratione juramenti.
+          <lb ed="#P" n="79"/>Unde obiter colligitur, multo minus esse 
+          jura<lb break="no" ed="#P" n="80"/>mentum, quando aliquis homo per fidem aut
+          <lb ed="#P" n="81"/>veritatem suam jurat, quia tunc seipsum quasi
+          <lb ed="#P" n="82"/>testem adducit, et ita neque jurat, quia non
+          <lb ed="#P" n="83"/>adducit Deum in testem, neque ullam etiam
+          <lb ed="#P" n="84"/>humanam certitudinem addit suae assertioni,
+          <lb ed="#P" n="85"/>quia non addit novam auctoritatem, sed 
+          eam<lb break="no" ed="#P" n="86"/>dem magis exprimit, et quasi exaggerat, sicut
+          <lb ed="#P" n="87"/>iufra dicemus de juramento Dei per 
+          seip<lb break="no" ed="#P" n="88"/>sum.
+        </p>
+        <p xml:id="szovsr-m11483-d1e1221">
+          <lb ed="#P" n="89"/>12. Dubium quartum : quomodo differat
+          <lb ed="#P" n="90"/>juramentum per Deum a juramento per 
+          creatu<lb break="no" ed="#P" n="91"/>ras.— Quarto, interrogari potest an 
+          juramen<lb break="no" ed="#P" n="92"/>tum factum expresse per Deum vel per 
+          crea<lb break="no" ed="#P" n="93"/>turas specie differat. Et quidem si sermo
+          <lb ed="#P" n="94"/>sit de juramento per creaturas secundum se,
+          <lb ed="#P" n="95"/>et ut creaturae sunt, certum est differre 
+          mo<lb break="no" ed="#P" n="96"/>rali specie. Nam si sit per falsos Deos vel per
+          <lb ed="#P" n="97"/>creaturas, attribuendo illis divinitatem, plus
+          <lb ed="#P" n="98"/>quam specie differt a juramento; quia non
+          <lb ed="#P" n="99"/>est juramentum, sed eftigies juramenti, vel
+          <lb ed="#P" n="100"/>existimatum juramentum, ut dictum est; si
+          <lb ed="#P" n="101"/>vero fiat testificatio per auctoritatem creatam,
+          <lb ed="#P" n="102"/>eo modo quo potest secundum capacitatem
+          <lb ed="#P" n="103"/>vel virtutem participatam (quam habet 
+          ratio<lb break="no" ed="#P" n="104"/>nabiliter), et secundum gradum suum, in 
+          tes<lb break="no" ed="#P" n="105"/>timonium vocari, sic etiam manifestum est
+          <lb ed="#P" n="106"/>tantum differre testimonium illud a vero 
+          jura<lb break="no" ed="#P" n="107"/>mento, quantum distat creatum ab increato,
+          <lb ed="#P" n="108"/>et humanum a divino. Imo, etiamsi 
+          juramen<lb break="no" ed="#P" n="109"/>tum fiat per Sanctos, ut Sancti sunt, sistendo
+          <lb ed="#P" n="110"/>praecise in eorum auctoritate creata, sic etiam
+          <pb ed="#P" n="464"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>differret specie a juramento simpliciter dicto,
+          <lb ed="#P" n="2"/>sicut dulia differt a latria, ut ex dictis patet.
+          <lb ed="#P" n="3"/>Verumtamen interrogatio proposita maxime
+          <lb ed="#P" n="4"/>fit de juramento per creaturas, vel res sacras,
+          <lb ed="#P" n="5"/>ut in eis divina veritas relucet. Nam sic etiam
+          <lb ed="#P" n="6"/>videntur differre specie, quia, licet sit idem
+          <lb ed="#P" n="7"/>Deus, per quem juratur, tamen sub alia 
+          ra<lb break="no" ed="#P" n="8"/>tione videtur assumi nomen ejus, quando in
+          <lb ed="#P" n="9"/>seipso vel in creatura spectatur, sicut adoratio
+          <lb ed="#P" n="10"/>Dei in seipso, vel adoraiio imaginis ejus, ut
+          <lb ed="#P" n="11"/>imago ejus est, specie differunt in ratione
+          <lb ed="#P" n="12"/>actuum, licet sint ab eodem habitu.
+        </p>
+        <p xml:id="szovsr-m11483-d1e1302">
+          <lb ed="#P" n="13"/>13. Resolutio dubii. — Nihilominus 
+          dicen<lb break="no" ed="#P" n="14"/>dum est, illa juramenta non differre specie,
+          <lb ed="#P" n="15"/>quia idem est Deus, per quem juratur, et sub
+          <lb ed="#P" n="16"/>eadem ratione primae veritatis invocatur, et
+          <lb ed="#P" n="17"/>differentia illa, quod expresse in se 
+          nomine<lb break="no" ed="#P" n="18"/>tur, vel implicite mediante creatura, in qua
+          <lb ed="#P" n="19"/>est vel repraesentatur, materialis est, et per
+          <lb ed="#P" n="20"/>accidens. Quod adeo verum est, ut 
+          juramen<lb break="no" ed="#P" n="21"/>tum per creaturas factum in ratione cultus et
+          <lb ed="#P" n="22"/>venerationis nullo modo pertineat ad 
+          creatu<lb break="no" ed="#P" n="23"/>ram irrationalem, etiam secundario, in quo
+          <lb ed="#P" n="24"/>multum differt ab externa Dei adoratione in
+          <lb ed="#P" n="25"/>sua imagine ; et ratio est, quia imago est 
+          ali<lb break="no" ed="#P" n="26"/>quo modo capax illius externae venerationis
+          <lb ed="#P" n="27"/>propter Deum ; non est autem capax 
+          testifica<lb break="no" ed="#P" n="28"/>tionis, qua per juramentum intenditur, et
+          <lb ed="#P" n="29"/>ideo ad rem tantum intelligentem ordinatur,
+          <lb ed="#P" n="30"/>sicut etiam de oratione et locutione alibi 
+          dixi<lb break="no" ed="#P" n="31"/>mns. Et hanc differentiam videtur indicasse
+          <lb ed="#P" n="32"/>D. Thomas, in 3, dist. 39, q. 1, a. 1, ad 4, 
+          di<lb break="no" ed="#P" n="33"/>cens: Deo licet per creaturam jurare , non 
+          au<lb break="no" ed="#P" n="34"/>tem creatura latriam exuhibere, quia testificatio
+          <lb ed="#P" n="35"/>divina in manifestatione consistit ; divina autem
+          <lb ed="#P" n="36"/>nobis per creaturas manifestantur ; sed latria
+          <lb ed="#P" n="37"/>exhibetur ipsi, quantum in se summus est, et
+          <lb ed="#P" n="38"/>ideo non exhibetur sibi in aliqua creatura. Quod
+          <lb ed="#P" n="39"/>necessario intelligendum est de latria suprema
+          <lb ed="#P" n="40"/>et absoluta ; tum quia latria secundario et 
+          res<lb break="no" ed="#P" n="41"/>pective potest imagini Dei tribui; tum etiam
+          <lb ed="#P" n="42"/>quia juramentum continet absolutam et 
+          su<lb break="no" ed="#P" n="43"/>premam latriam, et ideo explieare voluit D.
+          <lb ed="#P" n="44"/>Thomas quomodo, hoc non obstante, possit
+          <lb ed="#P" n="45"/>juramentum per creaturas licite fieri, et 
+          ratio<lb break="no" ed="#P" n="46"/>nem significat, quia ipsae non invocantur in
+          <lb ed="#P" n="47"/>testimonium, sed solum ut per eas manifestetur
+          <lb ed="#P" n="48"/>Deus, qui invocatur.
+        </p>
+        <p xml:id="szovsr-m11483-d1e1383">
+          <lb ed="#P" n="49"/>14. Dubium ultimum. — Sed quari tandem
+          <lb ed="#P" n="50"/>solet, an illi modi jurandi differant saltem in
+          <lb ed="#P" n="51"/>gravitate accidentali, et quod illorum 
+          jura<lb break="no" ed="#P" n="52"/>mentorum gravius sit; haec enim interrogatio
+          <lb ed="#P" n="53"/>attingitur in c. S aligua, 22, q. 1, ex 
+          Chry<lb break="no" ed="#P" n="54"/>sost., hbomil. 44, imperfecti in Matth., ubi
+          <lb ed="#P" n="55"/>refert aliquos dicentes : Si aliqua fueritcausa,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modicum videtur facere, qui jurat per Deum;
+          <lb ed="#P" n="57"/>qui autem jurat per Evangelium, magis 
+          ali<lb break="no" ed="#P" n="58"/>quid fecisse videtur. Quos dicit esse similes
+          <lb ed="#P" n="59"/>Pharisaeis dicentibus : Quicumque juraverit per
+          <lb ed="#P" n="60"/>templum, nihil est ; quà autem juraverit per
+          <lb ed="#P" n="61"/>aurum templi, debet ; quibus Christus 
+          respon<lb break="no" ed="#P" n="62"/>dit, Matth. 23: Quid majus est aurum, aut
+          <lb ed="#P" n="63"/>templum , quod sanctificat aurum? Sic ait
+          <lb ed="#P" n="64"/>Chrysostomus: Dicere possumus.: Sripture
+          <lb ed="#P" n="65"/>sancta propter Deum sunt, uon Deus propter
+          <lb ed="#P" n="66"/>Scripturas ; major est enim Deus, qui 
+          sancti<lb break="no" ed="#P" n="67"/>ficat Evangelium , quam Evangelium , quod
+          <lb ed="#P" n="68"/>sanctificatur a Deo. Itaque sentit 
+          Chrysosto<lb break="no" ed="#P" n="69"/>mus gravius esse juramentum, in quo nomen
+          <lb ed="#P" n="70"/>ipsiusmet Dei immediate sumitur, quam per
+          <lb ed="#P" n="71"/>creaturas; et quidem per se loquendo, et ex
+          <lb ed="#P" n="72"/>vi modi, ac caeteris paribus, ita esse videtur,
+          <lb ed="#P" n="73"/>quia major reverentia debetur nomini Dei,
+          <lb ed="#P" n="74"/>quando expresse nominatur ; et simili 
+          propor<lb break="no" ed="#P" n="75"/>tione, quando per Sanctos vel res sacras 
+          jura<lb break="no" ed="#P" n="76"/>tur, quo res fuerit sanctior, gravius censetur
+          <lb ed="#P" n="77"/>juramentum, ut D. Thomas sentiti, cum 
+          Au<lb break="no" ed="#P" n="78"/>gust., Epist. 4. Aliquando vero additur 
+          jura<lb break="no" ed="#P" n="79"/>mento ultra invocationem Dei, ut fiat per
+          <lb ed="#P" n="80"/>Evangelia, vel aliquid hujusmodi, praesertim
+          <lb ed="#P" n="81"/>in externo solemni modo jurandi Ecclesiae,
+          <lb ed="#P" n="82"/>ad augendam aestimationem et attentionem
+          <lb ed="#P" n="83"/>ad rem de qua juratur, et tunc potest crescere
+          <lb ed="#P" n="84"/>gravitas juramenti ex modo jurandi per 
+          crea<lb break="no" ed="#P" n="85"/>turas, ut sensit D. Thomas, 2. 2, quaest. 98,
+          <lb ed="#P" n="86"/>art. 9, ad 9, et q. S9, art. 10, ad 9 Soto,
+          <lb ed="#P" n="87"/>ibid. ; et Glossa, Turrecremata, et alii, in d.
+          <lb ed="#P" n="88"/>c. Si aliqua.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

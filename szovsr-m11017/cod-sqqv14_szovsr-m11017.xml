@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="441"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m11017"><!-- t5l1c1 -->
+        <head xml:id="szovsr-m11017-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-m11017-Hd1e103" type="question-title">Quid sit juramentum.</head>
+        <p xml:id="szovsr-m11017-d1e106">
+          <lb ed="#P" n="11"/>CAPUT I.
+          <lb ed="#P" n="12"/>QUID SIT JURAMENTUM.
+        </p>
+        <p xml:id="szovsr-m11017-d1e113">
+          <lb ed="#P" n="13"/>1. Philonis descriptiones de juramento. —
+          <lb ed="#P" n="14"/>Supponimus juramentum esse, quia hoc tam
+          <lb ed="#P" n="15"/>est clarum ex Scriptura et usu ipso, ut nulla
+          <lb ed="#P" n="16"/>indigeat probatione. Ex dicendis autem 
+          con<lb break="no" ed="#P" n="17"/>stabit ratio, et modus quo talis actus possibilis
+          <lb ed="#P" n="18"/>sit; prius vero quam explicemus quid 
+          jura<lb break="no" ed="#P" n="19"/>mentum sit, vocis significationem, et quasi
+          <lb ed="#P" n="20"/>descriptionem et etymologiam breviter 
+          propo<lb break="no" ed="#P" n="21"/>nere necesse est. Traduntur autem a Theologis
+          <lb ed="#P" n="22"/>et jurisperitis variae juramenti descriptiones,
+          <lb ed="#P" n="23"/>quas late refert Selva, in tract. de Juram.,1
+          <lb ed="#P" n="24"/>p.. n. 1, ex Glos., in rubr., ff. De 
+          jurejuran<lb break="no" ed="#P" n="25"/>do. et Gloss. 99 g. 1, in princ.; Panor.,
+          <lb ed="#P" n="26"/>Felin., et aliis in Rubr., extra eodem ; 
+          Hos<lb break="no" ed="#P" n="27"/>tiens., in Summa, in principio ejusdem tituli;
+          <lb ed="#P" n="28"/>Anton., 2 p., tit. 10, c. 3; Sylvest., Angel.,
+          <lb ed="#P" n="29"/>et aliis, verb. Juramentum. Summa vero 
+          om<lb break="no" ed="#P" n="30"/>nium est, quam attigit D. Thomas 2. 2, q. 89,
+          <lb ed="#P" n="31"/>art. 1, ubi dicit jurare, esse Deum in testem
+          <lb ed="#P" n="32"/>assumere, ex August., ser. 28 de Verbis 
+          Apos<lb break="no" ed="#P" n="33"/>toli, c. 3, dicente: Quomodo tu, cum juras,
+          <lb ed="#P" n="34"/>Dewum adhibes testem, sic ipse, cum jurat, se
+          <lb ed="#P" n="35"/>testem adhibet, et in c. 6: Quid est enim, 
+          in<lb break="no" ed="#P" n="36"/>quit, jurare per Deum, nisi testis est Deus,
+          <lb ed="#P" n="37"/>quod ibi late prosequitur ; sic etiam dixit 
+          Phi<lb break="no" ed="#P" n="38"/>lo: Jusjurandwn. est testificatio Det de re 
+          con<lb break="no" ed="#P" n="39"/>iroversa; et refertur ab Antonio Melissa 
+          Ab<lb break="no" ed="#P" n="40"/>bate, lib. 2 Serm., ser. 63; apud ipsum vero,
+          <lb ed="#P" n="41"/>lib. 2 de Plantat. Noe, post medium, sic 
+          legi<lb break="no" ed="#P" n="42"/>tur: Juramentum est fidei signum 
+          firmissi<lb break="no" ed="#P" n="43"/>muwm conjunctum cum Dei testimonio, cum 
+          ju<lb break="no" ed="#P" n="44"/>rantes in re dubia testem Deum invocent ; et
+          <lb ed="#P" n="45"/>in lib. de Decalogo: Jusjurandum, ait, est
+          <lb ed="#P" n="46"/>lestimonium de rebus dubiis ; et hb. de 
+          Specia<lb break="no" ed="#P" n="47"/>libus legibus: Jusjurandum nihil est aliud
+          <lb ed="#P" n="48"/>quam in re amligua Dei testificatio. Deuique
+          <lb ed="#P" n="49"/>Gregor. Nyssenus, Orat. 4in Cant., 
+          juramen<lb break="no" ed="#P" n="50"/>tum esse dixit orationem, quae ex se fidem
+          <lb ed="#P" n="51"/>veritati conciliat, quod solus Deus facere 
+          po<lb break="no" ed="#P" n="52"/>test, quia solus ex se veritas est. Nam si jura-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>re idem est quod Deum in testem vocare, 
+          ju<lb break="no" ed="#P" n="54"/>ramentum erit actus ille invocandi, seu 
+          addu<lb break="no" ed="#P" n="55"/>cendi Deum in testem, seu enunciatio quae
+          <lb ed="#P" n="56"/>cum divino testimonio profertur. Loquor 
+          au<lb break="no" ed="#P" n="57"/>tem in generali de actu enunciandi, ut 
+          com<lb break="no" ed="#P" n="58"/>prehendam tam affirmationem quam 
+          negatio<lb break="no" ed="#P" n="59"/>nem, et tam simplicem assertionem, quam
+          <lb ed="#P" n="60"/>promissionem ; nam ab his omnibus abstrahit
+          <lb ed="#P" n="61"/>vox juramenti, ut nunc illam declaramus, et
+          <lb ed="#P" n="62"/>ita comprehenduntur sub praedicto genere
+          <lb ed="#P" n="63"/>omnes definitiones quae ab aliis assignantur.
+          <lb ed="#P" n="64"/>Addimus autem oportere esse enunciationem,
+          <lb ed="#P" n="65"/>in qua Deus ut testis afferatur, ut compleatur
+          <lb ed="#P" n="66"/>ratio juramenti, quam particulam recte D.
+          <lb ed="#P" n="67"/>Thomas declarat ex fine juramenti, qui est,
+          <lb ed="#P" n="68"/>confirmare veritatem tanta certitudine, ut ad
+          <lb ed="#P" n="69"/>terminandam quamcumque controversiam
+          <lb ed="#P" n="70"/>sufficiat, ex Paul., ad Haebr. 6. Divinum 
+          au<lb break="no" ed="#P" n="71"/>tem testimonium sufficit ad veritatem hoc
+          <lb ed="#P" n="72"/>modo confirmandam, nam humanum 
+          testi<lb break="no" ed="#P" n="73"/>monium fallibile est, et ideo juramentum 
+          in<lb break="no" ed="#P" n="74"/>ductum est, per quod veritas aliqua divino
+          <lb ed="#P" n="75"/>testimonio confirmetur.
+        </p>
+        <p xml:id="szovsr-m11017-d1e254">
+          <lb ed="#P" n="76"/>2. Objectio. — Divisio juramenti in verum
+          <lb ed="#P" n="77"/>et putatuan. — Objiciunt vero aliqui, quia non
+          <lb ed="#P" n="78"/>omne juramentum per Deum fit; aliquando
+          <lb ed="#P" n="79"/>enim fit per idolum, quod Deus non est ; 
+          ali<lb break="no" ed="#P" n="80"/>quando fit per coelum aut terram, ut sumitur
+          <lb ed="#P" n="81"/>ex Jac., c. 5, dicente: Nolite jurare omnino,
+          <lb ed="#P" n="82"/>neque per calum, neque per terram ; supponit
+          <lb ed="#P" n="83"/>enim id posse fieri, licet non sit faciendum.
+          <lb ed="#P" n="84"/>Propter quod Selva supra, addendum pu:avit
+          <lb ed="#P" n="85"/>juramentum esse, cum veritas Dei aut 
+          crea<lb break="no" ed="#P" n="86"/>turae testimonio confirmatur. Sed destruit 
+          ra<lb break="no" ed="#P" n="87"/>tionem juramenti, quia creatura, ut creatura
+          <lb ed="#P" n="88"/>est, non potest sufficienter confirmare 
+          verita<lb break="no" ed="#P" n="89"/>tem, quod per juramentum intenditur. Deinde
+          <lb ed="#P" n="90"/>infra ostendemus repugnare religioni 
+          jura<lb break="no" ed="#P" n="91"/>menti, quod fiat per creaturam, ut creatura
+          <lb ed="#P" n="92"/>est. Quando ergo infidelis jurat per idolum,
+          <lb ed="#P" n="93"/>ideo per illud jurat, quia illud Deum esse 
+          exis<lb break="no" ed="#P" n="94"/>timat, et eodem modo Gentiles omnes 
+          consue<lb break="no" ed="#P" n="95"/>verunt jurare per suos deos, quia licet essent
+          <lb ed="#P" n="96"/>falsi, putabant esse veros ; sicut etiam 
+          crede<lb break="no" ed="#P" n="97"/>bant suam religionem esse veram et sanctam,
+          <lb ed="#P" n="98"/>atque ita dixit Cicer., libr. 3 de Offic., 
+          jura<lb break="no" ed="#P" n="99"/>mentum esse sanctam et religiosam 
+          affirma<lb break="no" ed="#P" n="100"/>tionem. Sicut ergo distinximus, in tract. 1,
+          <lb ed="#P" n="101"/>religionem in veram et falsam, ita hic 
+          jura<lb break="no" ed="#P" n="102"/>mentun distinguere possumus in verum etl
+          <lb ed="#P" n="103"/>putatum, quod possumus falsum appellare,
+          <lb ed="#P" n="104"/>non quia sit de enunciatione falsa, nam etiam
+          <lb ed="#P" n="105"/>potest esse de vera, ut constat, sed quia non
+          <lb ed="#P" n="106"/>fundatur in vera divinitate, sed in ea quae 
+          ve<lb break="no" ed="#P" n="107"/>ra existimatur, cum re ipsa falsa sit. Quando
+          <pb ed="#P" n="442"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ergo dicitur, jurare, esse Deum in testem 
+          ad<lb break="no" ed="#P" n="2"/>ducere, formaliter est intelligendum, et cum
+          <lb ed="#P" n="3"/>proportione applicandum, nam testimonium
+          <lb ed="#P" n="4"/>juramenti semper inducitur ut fundatum in
+          <lb ed="#P" n="5"/>auctoritate veri Dei, quantum est ex 
+          intentio<lb break="no" ed="#P" n="6"/>ne jurantis, et hoc appello formaliter ; tamen
+          <lb ed="#P" n="7"/>in re ipsa si juramentum procedat ex vera
+          <lb ed="#P" n="8"/>fide et religione, fundatur in auctoritate veri
+          <lb ed="#P" n="9"/>Dei ; si vero ex falsa religione procedat, in re
+          <lb ed="#P" n="10"/>ipsa non habebit auctoritatem Dei veri, sed
+          <lb ed="#P" n="11"/>tantum in intentione et falsa existimatione
+          <lb ed="#P" n="12"/>jurantis. Quomodo autem jurari possit per
+          <lb ed="#P" n="13"/>creaturam, infra dicetur.
+        </p>
+        <p xml:id="szovsr-m11017-d1e359">
+          <lb ed="#P" n="14"/>3. Etymologia juramenti. — Hinc colhgit
+          <lb ed="#P" n="15"/>D. Thomas, in d. art. 1, etymologiam verbi
+          <lb ed="#P" n="16"/>Jurandi. Censetur enim a jure deductum,
+          <lb ed="#P" n="17"/>quia id, quod divino testimonio firmatur,
+          <lb ed="#P" n="18"/>quasi jure suo pro vero habendum sit ; vel
+          <lb ed="#P" n="19"/>quia id, quod juramento promittitur, ita 
+          fir<lb break="no" ed="#P" n="20"/>mum et stablle esse debet, ac si esset jure
+          <lb ed="#P" n="21"/>stabilitum. Unde solet etiam juramentum 
+          jus<lb break="no" ed="#P" n="22"/>jurandum appellari : hae namque duae voces
+          <lb ed="#P" n="23"/>synonymnae esse videntur in jure, et in usu 
+          La<lb break="no" ed="#P" n="24"/>tinorum auctorum, quamvis posterior vox 
+          fir<lb break="no" ed="#P" n="25"/>mitatem et stabilitatem juramenti magis 
+          ex<lb break="no" ed="#P" n="26"/>primere videatur, ut indicant juristae, quos
+          <lb ed="#P" n="27"/>refert Anton. Corset., in tract. de Juram.,
+          <lb ed="#P" n="28"/>q. 3, num. 5, accommodans illud Zachariae,
+          <lb ed="#P" n="29"/>Luc. 1: Jusjurandum, quod juracit ad 
+          Abra<lb break="no" ed="#P" n="30"/>ham patrem nostrum, daturum se nobis ; et in
+          <lb ed="#P" n="31"/>Scriptura frequens est usus illius nominis;
+          <lb ed="#P" n="32"/>solet etiam juramentum appellari 
+          sacramen<lb break="no" ed="#P" n="33"/>tum, ut in 3 tom., in princ., de sacramentis
+          <lb ed="#P" n="34"/>adnotavimus, ubi ex jure et Scriptura usum
+          <lb ed="#P" n="35"/>illum comprobavimus. Propter quod dixit 
+          Pa<lb break="no" ed="#P" n="36"/>nor., in Rub. de Jurejurando, haec tria esse
+          <lb ed="#P" n="37"/>synonyma, juramentum, jusjurandum, et 
+          sa<lb break="no" ed="#P" n="38"/>cramentum ; sed intelligit in subjecta 
+          mate<lb break="no" ed="#P" n="39"/>ria ; nam constat nomen sacramenti alias 
+          ha<lb break="no" ed="#P" n="40"/>bere significationes . et magis proprias ; 
+          ac<lb break="no" ed="#P" n="41"/>commodatur autem ad juramentum 
+          signifi<lb break="no" ed="#P" n="42"/>candum, quia etiam juramentum est sacrae
+          <lb ed="#P" n="43"/>rei signum, scilicet infallibilis veritatis 
+          divi<lb break="no" ed="#P" n="44"/>num testimonium : et haec videntur de 
+          nomi<lb break="no" ed="#P" n="45"/>ne sufficere.
+        </p>
+        <p xml:id="szovsr-m11017-d1e431">
+          <lb ed="#P" n="46"/>4. Explicatur quid sit juramentum. — Que
+          <lb ed="#P" n="47"/>concurrant ad juramentum. — Jwramentum
+          <lb ed="#P" n="48"/>potest sola mente consummari in ordine ad
+          <lb ed="#P" n="49"/>Deum. — Jam circa rem ipsam in juramento
+          <lb ed="#P" n="50"/>duo possumus considerare : unum est realis
+          <lb ed="#P" n="51"/>actio, per quam juramentum praestatur; aliud
+          <lb ed="#P" n="52"/>est honestas ipsius juramenti. Primum dici
+          <lb ed="#P" n="53"/>potest physicum , et quasi materiale in 
+          jura<lb break="no" ed="#P" n="54"/>mento ; secundum, morale et quasi formale
+          <lb ed="#P" n="55"/>juramenti ; ut ergo perfecte intelligatur quid
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sit juramentum, utrumque exponere necesse
+          <lb ed="#P" n="57"/>est : et de secundo quidem dicemus in 
+          capiti<lb break="no" ed="#P" n="58"/>bus sequentibus. Hic breviter circa ipsum 
+          ju<lb break="no" ed="#P" n="59"/>ramenti actum advertendum est, ad 
+          juramen<lb break="no" ed="#P" n="60"/>tum concurrere et intellectum, et voluntatem,
+          <lb ed="#P" n="61"/>et linguam. Concurrit enim intellectus 
+          propo<lb break="no" ed="#P" n="62"/>nendo necessitatem vel utilitatem jurandi, 
+          vo<lb break="no" ed="#P" n="63"/>luntas autem adjungit voluntatem , seu 
+          inten<lb break="no" ed="#P" n="64"/>tionem jurandi , ipsum autem juramentum
+          <lb ed="#P" n="65"/>sermone consummatur. Sed in hoc ultimo est
+          <lb ed="#P" n="66"/>advertendum, quod, licet respectu hominum
+          <lb ed="#P" n="67"/>juramentum consummetur per signum 
+          sensi<lb break="no" ed="#P" n="68"/>bile (quod frequentius per vocem exhibetur,
+          <lb ed="#P" n="69"/>potest tamen etiam fieri per scripturam, vel
+          <lb ed="#P" n="70"/>alia signa, ut infra dicetur), nihilominus in
+          <lb ed="#P" n="71"/>ordine ad Deum potest in mente juramentum
+          <lb ed="#P" n="72"/>consummari. Nam , sicut infra dicemus de
+          <lb ed="#P" n="73"/>voto, posse interdum mente consummari,
+          <lb ed="#P" n="74"/>quia soli Deo fit, ita etiam juramentum in 
+          or<lb break="no" ed="#P" n="75"/>dine ad Deum potest etiam sola mente fieri.
+          <lb ed="#P" n="76"/>Quod maxime locum habere videtur in 
+          jura<lb break="no" ed="#P" n="77"/>mento promissorio , nam ad simplicem 
+          asser<lb break="no" ed="#P" n="78"/>tionem npon videtur posse accommodari 
+          jura<lb break="no" ed="#P" n="79"/>mentum in ordine ad Deum , cum ipse ita sit
+          <lb ed="#P" n="80"/>certus de omni veritate, et de omni conceptu
+          <lb ed="#P" n="81"/>hominis loquentis ad ipsum, ut non possit per
+          <lb ed="#P" n="82"/>juramentum certior de illis reddi : promissio
+          <lb ed="#P" n="83"/>autem interius Deo facta potest etiam interius
+          <lb ed="#P" n="84"/>juramento firmari, non ut inde Deus certior
+          <lb ed="#P" n="85"/>reddatur, sed ut jurans, quantum in ipso est,
+          <lb ed="#P" n="86"/>majorem firmitatem suae promissioni adhibeat;
+          <lb ed="#P" n="87"/>hoc ergo possumus vocare mentale 
+          juramen<lb break="no" ed="#P" n="88"/>tum, quod solo intellectu et voluntate perficitur.
+        </p>
+        <p xml:id="szovsr-m11017-d1e529">
+          <lb ed="#P" n="89"/>5. In qua potentia formuliter sit juramen -
+          <lb ed="#P" n="90"/>lum. — Quod si inquiratur in qua illarum 
+          po<lb break="no" ed="#P" n="91"/>tentiarum formaliter sit, seun consummetur,
+          <lb ed="#P" n="92"/>dicendum est breviter esse in intellectu, nam
+          <lb ed="#P" n="93"/>in locutione mentali consistit, sicut etiam 
+          in<lb break="no" ed="#P" n="94"/>fra dicemus de mentali voto; nam sicut in
+          <lb ed="#P" n="95"/>multis aliis, ita in hoc aequiparari possunt. Et
+          <lb ed="#P" n="96"/>majori ratione hoc est necessarium in 
+          jura<lb break="no" ed="#P" n="97"/>mento, quia non consistit in ipsa promissione,
+          <lb ed="#P" n="98"/>sed in invocatione divini nominis ad 
+          confir<lb break="no" ed="#P" n="99"/>mandam illam; invocatio autem interius non
+          <lb ed="#P" n="100"/>fit, saltem modo humano, nisi per 
+          intellectua<lb break="no" ed="#P" n="101"/>lem locutionem, ut supra tractatu de Oratione
+          <lb ed="#P" n="102"/>fuse declaratum est. Ex quo intelligimus 
+          in<lb break="no" ed="#P" n="103"/>tellectum ad hoc juramentum duplieiter 
+          con<lb break="no" ed="#P" n="104"/>currere, scilicet, antecedenter et consequenter
+          <lb ed="#P" n="105"/>respectu voluntatis. Praecedit enim judicium,
+          <lb ed="#P" n="106"/>quod expediat aliquid Deo promittere cum 
+          ju<lb break="no" ed="#P" n="107"/>ramento, et sequitur voluntas promittendi et
+          <lb ed="#P" n="108"/>jurandi, et postea intellectus cum Deo loquens
+          <lb ed="#P" n="109"/>juramentum exhibet, atque ita etiam illud
+          <lb ed="#P" n="110"/>juramentum consummatur lingua, non cor-
+          <pb ed="#P" n="443"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>porali, sed spirituali. Quin potius etiam 
+          quan<lb break="no" ed="#P" n="2"/>do juramentum voce exprimitur, necesse est
+          <lb ed="#P" n="3"/>ut post voluntatem jurandi intellectus dirigat,
+          <lb ed="#P" n="4"/>et quasi dictet jurandi formam voce 
+          expri<lb break="no" ed="#P" n="5"/>mendam. De hac autem voce, seu signo 
+          sensi<lb break="no" ed="#P" n="6"/>bili sufficiente et necessario ad juramentum,
+          <lb ed="#P" n="7"/>quod inter homines fit, dicemus inferius 
+          trac<lb break="no" ed="#P" n="8"/>tando de materia et forma juramenti.
+        </p>
+        <p xml:id="szovsr-m11017-d1e601">
+          <lb ed="#P" n="9"/>6. Solum ergo superest explicandum an 
+          in<lb break="no" ed="#P" n="10"/>tentio voluntatis sit necessaria ad esse 
+          jura<lb break="no" ed="#P" n="11"/>menti; in quo non dubitamus, quin sit 
+          neces<lb break="no" ed="#P" n="12"/>saria voluntas proferendi verba, per quae 
+          suf<lb break="no" ed="#P" n="13"/>ficienter significetur Deum in testem adduci,
+          <lb ed="#P" n="14"/>quia alias prolatio talium verborum non esset
+          <lb ed="#P" n="15"/>actio humana, et consequenter non esset 
+          jura<lb break="no" ed="#P" n="16"/>mentum : nam juramentum proprie significat
+          <lb ed="#P" n="17"/>acticnem humanam; nemo enim dicet 
+          homi<lb break="no" ed="#P" n="18"/>nem dormientem jurare, etiamsi verba ad 
+          ju<lb break="no" ed="#P" n="19"/>randum sufficientia proferat, et idem est de
+          <lb ed="#P" n="20"/>amente, et similibus. Unde etiam constat 
+          ne<lb break="no" ed="#P" n="21"/>cessarium esse ut talis voluntas libera sit, et
+          <lb ed="#P" n="22"/>cum pleno judicio rationis, saltem quod ad
+          <lb ed="#P" n="23"/>peccandum mortahter sufficiat, juxta dicenda
+          <lb ed="#P" n="24"/>infra in tract. de Voto. Et ratio est clara,tum
+          <lb ed="#P" n="25"/>quia debet esse actus humanus, ut dixi, et
+          <lb ed="#P" n="26"/>sine tali judicio non est plene actus humanus;
+          <lb ed="#P" n="27"/>tum etiam quia ad perjurium simpliciter 
+          re<lb break="no" ed="#P" n="28"/>quiritur talis deliberatio ; ergo et ad 
+          juramen<lb break="no" ed="#P" n="29"/>tum. Verum est posse dari perjurium veniale
+          <lb ed="#P" n="30"/>ex surreptione, ut infra dicetur, unde etiam
+          <lb ed="#P" n="31"/>videtur posse dari simile juramentum, sed 
+          il<lb break="no" ed="#P" n="32"/>lud non erit actus virtutis, nec sufficiens per
+          <lb ed="#P" n="33"/>se ad invocandum simpliciter Deum religioso
+          <lb ed="#P" n="34"/>modo, nec ad prudenter jurandum verum ; et
+          <lb ed="#P" n="35"/>ideo absolute dicimus ad jurandum requiri
+          <lb ed="#P" n="36"/>sufficientem deliberationem humani actus;
+          <lb ed="#P" n="37"/>neque in hoc est ulla difficultas.
+        </p>
+        <p xml:id="szovsr-m11017-d1e666">
+          <lb ed="#P" n="38"/>7. Difficultas. —Dubium ergo solum est,
+          <lb ed="#P" n="39"/>an haec intentio sit separabilis ab illa 
+          volun<lb break="no" ed="#P" n="40"/>tate. Et videtur quidem inseparabilis, nam,
+          <lb ed="#P" n="41"/>eo ipso quod aliquis vult exterius significare
+          <lb ed="#P" n="42"/>se adducere Deum in testem, necessario 
+          indu<lb break="no" ed="#P" n="43"/>cit divinum testimonium ad suam 
+          enuncia<lb break="no" ed="#P" n="44"/>tionem confirmandam; ergo non requiritur
+          <lb ed="#P" n="45"/>alia intentio jurandi, sed haeec intrinsece
+          <lb ed="#P" n="46"/>includitur in illa voluntate. Antecedens 
+          pro<lb break="no" ed="#P" n="47"/>batur primo ab inconvenienti, quia si ratio
+          <lb ed="#P" n="48"/>juramenti penderet ex alia intentione 
+          homi<lb break="no" ed="#P" n="49"/>nis, juramenti usus inutilis et vanus 
+          red<lb break="no" ed="#P" n="50"/>deretur, quia ex illo nulla firmitas vel 
+          certi<lb break="no" ed="#P" n="51"/>tudo assertioni juratae accresceret, qui est 
+          fi<lb break="no" ed="#P" n="52"/>nis juramenti. Sequela patet, quia tota ratio
+          <lb ed="#P" n="53"/>juramenti esset incerta et occulta, nam 
+          pen<lb break="no" ed="#P" n="54"/>deret ex intentione interiori hominibus 
+          igno<lb break="no" ed="#P" n="55"/>ta. Unde licet audiamus hominem jurantem,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>scire non poterimus an jurct, quia nescimus
+          <lb ed="#P" n="57"/>an habeat intentionem jurandi distinctam a
+          <lb ed="#P" n="58"/>voluntate proferendi talia verba. Hoc autem
+          <lb ed="#P" n="59"/>videtur esse magnum inconveniens in re 
+          mo<lb break="no" ed="#P" n="60"/>rali; ergo non est necessaria talis intentio.
+          <lb ed="#P" n="61"/>Unde videtur consequenter diceudum, 
+          suffti<lb break="no" ed="#P" n="62"/>cienter afferri Deum in testem, eo ipso quod
+          <lb ed="#P" n="63"/>verba juramenti voluntarie proferuntur cum
+          <lb ed="#P" n="64"/>externa professione, seu demonstratione ,
+          <lb ed="#P" n="65"/>quod ad confirmandam veritatem proferantur,
+          <lb ed="#P" n="66"/>nam eo ipso censetur talis enunciatio 
+          consti<lb break="no" ed="#P" n="67"/>tuta sub divino testimonio, et pertinere ad
+          <lb ed="#P" n="68"/>cultum et honorem Dei, ut cum veritate 
+          pro<lb break="no" ed="#P" n="69"/>feratur; ergo hoc sufhicit ad rationem 
+          jura<lb break="no" ed="#P" n="70"/>menti, non obstante quacumque alia 
+          inte<lb break="no" ed="#P" n="71"/>riori intentione.
+        </p>
+        <p xml:id="szovsr-m11017-d1e744">
+          <lb ed="#P" n="72"/>8. Resolutio : intentionem in juramento esse
+          <lb ed="#P" n="73"/>omnino necessariam. — Confirmatur resolutio
+          <lb ed="#P" n="74"/>exemplis.—Nihilominus dicendum est, 
+          inten<lb break="no" ed="#P" n="75"/>tionem jurandi esse omnino necessariam ad
+          <lb ed="#P" n="76"/>constitutionem (ut sic dicam ) juramenti, et
+          <lb ed="#P" n="77"/>veritatem ejus in essendo ; nam juramentum
+          <lb ed="#P" n="78"/>exterius prolatum sine intentione jurandi 
+          fic<lb break="no" ed="#P" n="79"/>tum juramentum est, non verum, etiam si
+          <lb ed="#P" n="80"/>assertio, in quam cadit, vera sit. Ita sentiunt
+          <lb ed="#P" n="81"/>Doctores omnes, quos infra referemus 
+          trac<lb break="no" ed="#P" n="82"/>tando de juramento promissorio: hac enim
+          <lb ed="#P" n="83"/>ratione dicunt , juramentum promissorium
+          <lb ed="#P" n="84"/>factum sine intentione jurandi non iducere
+          <lb ed="#P" n="85"/>specialem obligationem. Ratio enim est, quia
+          <lb ed="#P" n="86"/>iilud non habet esse juramenti, et ideo non
+          <lb ed="#P" n="87"/>habet effectus ejus. Probari autem potest 
+          pri<lb break="no" ed="#P" n="88"/>mo exemplis, quia votum factum exterius 
+          si<lb break="no" ed="#P" n="89"/>ne intentione vovendi non est votum, nec 
+          sa<lb break="no" ed="#P" n="90"/>cramentum, sine intentione factum, est verum
+          <lb ed="#P" n="91"/>sacramentum, sed fictum, etiamsi non desit
+          <lb ed="#P" n="92"/>voluntas exercendi exterius omnia necessaria
+          <lb ed="#P" n="93"/>signa; ergo idem est in juramento, est enim
+          <lb ed="#P" n="94"/>suo modo sacramentum, id est, sacrum 
+          si<lb break="no" ed="#P" n="95"/>gnum, ut diximus. Ratio denique eadem est,
+          <lb ed="#P" n="96"/>quae in caeteris cum proportione adhiberi 
+          so<lb break="no" ed="#P" n="97"/>let : quia juramentum debet esse actus 
+          huma<lb break="no" ed="#P" n="98"/>nus, non solum quatenus est quaedam 
+          mate<lb break="no" ed="#P" n="99"/>rialis locutio, sed etiam quatenus 
+          juramen<lb break="no" ed="#P" n="100"/>tum est; non potest autem esse hujusmodi,
+          <lb ed="#P" n="101"/>nisi ab intentione jurandi procedat. Et 
+          confir<lb break="no" ed="#P" n="102"/>matur aperte, quia seepe prolatio ejusdem
+          <lb ed="#P" n="103"/>verbi in uno est juramentum, et non in alio,
+          <lb ed="#P" n="104"/>solum propter diversam intentionem, ut in
+          <lb ed="#P" n="105"/>sequentibus multis exemplis videbimus, et
+          <lb ed="#P" n="106"/>optime declarant verba Pauli I. C. inl. 3, ff.
+          <lb ed="#P" n="107"/>de Rebus dub. : In ambiguo sermone, non
+          <lb ed="#P" n="108"/>utrumque dicimus, sed dumtaxat, quod 
+          volu<lb break="no" ed="#P" n="109"/>mus. Eadem etiam verba proferri possunt
+          <lb ed="#P" n="110"/>materialiter seu relative, et formaliter seu si-
+          <pb ed="#P" n="444"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gnificative, quod pendet ex intentione 
+          dicen<lb break="no" ed="#P" n="2"/>tis, juxta cap. Humannee artes, 22, q. 5; sed
+          <lb ed="#P" n="3"/>verba uno modo sunt juramentum, et non
+          <lb ed="#P" n="4"/>alio ; ergo hoc pendet ex intentione jurantis.
+          <lb ed="#P" n="5"/>Denique hic habet locum axioma illud, quod
+          <lb ed="#P" n="6"/>actus agentium non excedunt intentionem 
+          eo<lb break="no" ed="#P" n="7"/>rum ; ergo qui non habet intentionem 
+          ju<lb break="no" ed="#P" n="8"/>randi non jurat, etiamsi verba exterius 
+          pro<lb break="no" ed="#P" n="9"/>ferat.
+        </p>
+        <p xml:id="szovsr-m11017-d1e856">
+          <lb ed="#P" n="10"/>9. Satisfit rationi opposite.— Ad rationem
+          <lb ed="#P" n="11"/>ergo in contrarium respondetur, voluntatem
+          <lb ed="#P" n="12"/>proferendi verba apta ad jurandum separari
+          <lb ed="#P" n="13"/>posse a voluntate jurandi, quamvis e converso
+          <lb ed="#P" n="14"/>voluntas jurandi humano modo, seu respectu
+          <lb ed="#P" n="15"/>hominis, necessario includat voluntatem 
+          ex<lb break="no" ed="#P" n="16"/>hibendi signum sutficiens ad jurandum. Unde
+          <lb ed="#P" n="17"/>non dicimus ad verum juramentum 
+          consti<lb break="no" ed="#P" n="18"/>tuendum necessarias esse duas voluntates,
+          <lb ed="#P" n="19"/>unam proferendi verba, et aliam jnrandi, sed
+          <lb ed="#P" n="20"/>dicimus esse necessariam talem intentionem,
+          <lb ed="#P" n="21"/>seu voluntatem, quae cadat in prolationem
+          <lb ed="#P" n="22"/>verborum sub motivo conficiendi 
+          juramen<lb break="no" ed="#P" n="23"/>tum, seu, quod idem est, afferendi Deum in
+          <lb ed="#P" n="24"/>testem. Potest autem haberi voluntas 
+          profe<lb break="no" ed="#P" n="25"/>rendi eadem verba sine illo motivo, sed ex
+          <lb ed="#P" n="26"/>intentione decipiendi alios, et tunc dicimus
+          <lb ed="#P" n="27"/>separari vuluntatem proferendi verba ab 
+          in<lb break="no" ed="#P" n="28"/>tentione jurandi, et illam non sufficere ad 
+          ju<lb break="no" ed="#P" n="29"/>ramentum ; nam ille, qui sic dolose jurat, 
+          re<lb break="no" ed="#P" n="30"/>vera non vult significare se adducere Deum
+          <lb ed="#P" n="31"/>in testem, sed vult illud fingere, aut 
+          appa<lb break="no" ed="#P" n="32"/>renter ostendere, quod non satis est ad 
+          juran<lb break="no" ed="#P" n="33"/>dum. Ad inconveniens autem illatum, 
+          res<lb break="no" ed="#P" n="34"/>pondemus certitudinem, quae ex juramento
+          <lb ed="#P" n="35"/>resultat, non esse talem aut tantam, ut non
+          <lb ed="#P" n="36"/>sit dolis hominum aut deceptionibus exposita.
+          <lb ed="#P" n="37"/>Sicut ergo potest homo mentiri, etiamsi juret,
+          <lb ed="#P" n="38"/>ita potest dolose et ficte jurare, etiam si aliud
+          <lb ed="#P" n="39"/>exterius profiteatur. Neque propterea inutile
+          <lb ed="#P" n="40"/>est juramentum, nam satis est quod teneatur
+          <lb ed="#P" n="41"/>homo, qui jurat, absque dolo et fraude jurare,
+          <lb ed="#P" n="42"/>ut moraliter credatur ex animo jurare, 
+          quan<lb break="no" ed="#P" n="43"/>do juramentum exhibet. Sicut etiam potest
+          <lb ed="#P" n="44"/>homo falsum dicere, quamvis ex animo juret,
+          <lb ed="#P" n="45"/>et nihilominus non est inutile juramentum,
+          <lb ed="#P" n="46"/>quia satis est quod homo teneatur peculiari
+          <lb ed="#P" n="47"/>obligatione dicere verum, quando Deum in
+          <lb ed="#P" n="48"/>testem adducit.
+        </p>
+        <p xml:id="szovsr-m11017-d1e943">
+          <lb ed="#P" n="49"/>10. Objectio. — Sed urgebit aliquis, 
+          inqui<lb break="no" ed="#P" n="50"/>rendo quid peculiariter operetur illa intentio
+          <lb ed="#P" n="51"/>jurandi, vel ad quid sit necessaria. Nam si
+          <lb ed="#P" n="52"/>quis intendat, ut Deus peculiari aliquo signo
+          <lb ed="#P" n="53"/>ostendat veritatem, illud esset tentare Deum,
+          <lb ed="#P" n="54"/>quia est petere miraculum, vel insolitum opus
+          <lb ed="#P" n="55"/>sine sufficienti causa ; si vero intendat solum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dare auctoritatem suae assertioni, interposito
+          <lb ed="#P" n="57"/>divino nomine, quia solent timere homines
+          <lb ed="#P" n="58"/>assumere divinum nomen ad falsum 
+          confir<lb break="no" ed="#P" n="59"/>mandum, nihil videtur conferre intentio 
+          ju<lb break="no" ed="#P" n="60"/>randi, quia quomodocumque assumatur 
+          divi<lb break="no" ed="#P" n="61"/>num nomen ad persuadendam veritatem, idem
+          <lb ed="#P" n="62"/>affectus apud alios sequitur, nam aeque 
+          exis<lb break="no" ed="#P" n="63"/>timant illud esse verum, et testimonio divino
+          <lb ed="#P" n="64"/>confirmatum. Unde videtur esse magna 
+          diffe<lb break="no" ed="#P" n="65"/>rentia inter intentionem vovendi, vel faciendi
+          <lb ed="#P" n="66"/>sacramentum, et intentionem jurandi, nam
+          <lb ed="#P" n="67"/>in voto, substantia ejus et obligatio pendent
+          <lb ed="#P" n="68"/>ex voluntate honiinis; sacramentum etiam
+          <lb ed="#P" n="69"/>ita est a Deo institutum, ut in substantia sua,
+          <lb ed="#P" n="70"/>et consequenter etiam in effectu pendeat ex
+          <lb ed="#P" n="71"/>intentione ministri ; in juramento autem nihil
+          <lb ed="#P" n="72"/>esse videtur in substantia ejus, quod pendeat
+          <lb ed="#P" n="73"/>a voluntate jurantis, nisi exterior assumptio
+          <lb ed="#P" n="74"/>divini nominis, qua invocatur Deus ut testis.
+          <lb ed="#P" n="75"/>Neque etiam invenitur ibi aliquis effectus, juem
+          <lb ed="#P" n="76"/>Deus facturus sit, qui ex intentione jurantis
+          <lb ed="#P" n="77"/>pendeat, nam, ut diximus, juramentum non
+          <lb ed="#P" n="78"/>debet fieri eo animo ut Deus exhibeat aliquod
+          <lb ed="#P" n="79"/>extraordinarium signum, quo ostendat 
+          veri<lb break="no" ed="#P" n="80"/>tatem. Effectus ergo juramenti totus videtur
+          <lb ed="#P" n="81"/>positus in opinione audientium, vidclicet, ut
+          <lb ed="#P" n="82"/>inde moveantur ad credendum, verum esse
+          <lb ed="#P" n="83"/>quod dicitur; hic autem effectus aequaliter
+          <lb ed="#P" n="84"/>sequitur, sive proferens talia verba habeat 
+          in<lb break="no" ed="#P" n="85"/>tentionem jurandi, sive non, quia sicut 
+          diffi<lb break="no" ed="#P" n="86"/>cile creditur hominem invocare Deum ad
+          <lb ed="#P" n="87"/>testificandum falsum, ita difficile creditur
+          <lb ed="#P" n="88"/>audere hominem dolose assumere nomen Dei
+          <lb ed="#P" n="89"/>ad falsum suadendum, nam irreligiositas et
+          <lb ed="#P" n="90"/>irreverentia Dei in utroque invenitur.
+        </p>
+        <p xml:id="szovsr-m11017-d1e1039">
+          <lb ed="#P" n="91"/>11. Solutio dubii. — Differentia inter 
+          ju<lb break="no" ed="#P" n="92"/>ramentum sine intentione, et juramentum 
+          om<lb break="no" ed="#P" n="93"/>nino falsum.— Juramentum fictum per se non
+          <lb ed="#P" n="94"/>inducit obligationem. — MHespondeo, sine 
+          in<lb break="no" ed="#P" n="95"/>tentione jurandi, ut dixi, neque posse definiri
+          <lb ed="#P" n="96"/>an verba ad jurandum proferantur, necne,
+          <lb ed="#P" n="97"/>neque distingui juramentum a non 
+          juramen<lb break="no" ed="#P" n="98"/>to. Haec autem intentio exterius declaranda
+          <lb ed="#P" n="99"/>est, vel sufficienter exprimenda, ut de 
+          jura<lb break="no" ed="#P" n="100"/>mento possit hominibus constare ; hoc autem
+          <lb ed="#P" n="101"/>duobus modis fieri potest, scilicet aut vere,
+          <lb ed="#P" n="102"/>aut dolose, et circa hoc maxime versatur 
+          diffi<lb break="no" ed="#P" n="103"/>cultas tacta, an scilicet sufficiat dolosa 
+          inten<lb break="no" ed="#P" n="104"/>tio; vel, si non sufficit, quid magis operetur
+          <lb ed="#P" n="105"/>ad rationem, vel effectum juramenti, intentio
+          <lb ed="#P" n="106"/>vera quam ficta, quando in prolatione 
+          verbo<lb break="no" ed="#P" n="107"/>rum eadem est species, seu forma jurandi,
+          <lb ed="#P" n="108"/>etiam apud homines. Ad quod imprimis 
+          di<lb break="no" ed="#P" n="109"/>cendum est, esse magnam differentiam apud
+          <lb ed="#P" n="110"/>Deum, nam qui habet veram intentionem ju-
+          <pb ed="#P" n="445"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>randi, quantum est in se, Deum inducit ad
+          <lb ed="#P" n="2"/>testificandum, quod non facit is qui 
+          apparen<lb break="no" ed="#P" n="3"/>ter tantum jurare intendit, seu ita proferre
+          <lb ed="#P" n="4"/>verba ac si juraret. Unde fit ut si fortasse 
+          as<lb break="no" ed="#P" n="5"/>sertio falsa sit, minor injuria fiat Deo per 
+          fic<lb break="no" ed="#P" n="6"/>tum, quam per verum juramentum, quia est
+          <lb ed="#P" n="7"/>diversa malitia, nam juramentum vera 
+          in<lb break="no" ed="#P" n="8"/>tentione factum erit perjurium ; cum dolosa
+          <lb ed="#P" n="9"/>Jdautem intentione erit mendacium 
+          pernicio<lb break="no" ed="#P" n="10"/>sum, et scandalosum. Et posterior potest 
+          de<lb break="no" ed="#P" n="11"/>clarari ex poenis, nam si lata esset 
+          excommu<lb break="no" ed="#P" n="12"/>nicatio propter perjurium, incurreret illam,
+          <lb ed="#P" n="13"/>qui verba proferret ex vera intentione jurandi,
+          <lb ed="#P" n="14"/>non autem qui ficta, sicut non incurrit poenas
+          <lb ed="#P" n="15"/>haeretici, qui ficta intentione adorat idolum.
+          <lb ed="#P" n="16"/>Denique in aliis effectibus quos juramentum
+          <lb ed="#P" n="17"/>babere potest, invenitur magna differentia,
+          <lb ed="#P" n="18"/>quia juramentum fictum per se non inducit
+          <lb ed="#P" n="19"/>obligationem sicut verum, ut infra videbimus.
+          <lb ed="#P" n="20"/>Est ergo unum juramentum verum, utique
+          <lb ed="#P" n="21"/>veritate in essendo, aliud tantum apparens, et
+          <lb ed="#P" n="22"/>haec differentia ex intentione provenit.
+        </p>
+        <p xml:id="szovsr-m11017-d1e1137">
+          <lb ed="#P" n="23"/>12. Atque ita simul cum ratione juramenti
+          <lb ed="#P" n="24"/>duas ejus partitiones explicuimus : una est
+          <lb ed="#P" n="25"/>juramenti in mentalem, et vocalem; sed 
+          men<lb break="no" ed="#P" n="26"/>tale jJuramentum solum inter Deum et 
+          homi<lb break="no" ed="#P" n="27"/>nem versari poftest, et cum interiori voto 
+          con<lb break="no" ed="#P" n="28"/>Jjungitur, quoties fieri contingit; et ideo nihil
+          <lb ed="#P" n="29"/>fere amplius in hac materia de illo 
+          conside<lb break="no" ed="#P" n="30"/>randum est, sed in tractatu de Voto. Hic vero
+          <lb ed="#P" n="31"/>proprie de juramento vocali tractamus. Altera
+          <lb ed="#P" n="32"/>divisio juramenti est in verum et fictum, quae
+          <lb ed="#P" n="33"/>proprie est subdivisio juramenti vocalis, quod
+          <lb ed="#P" n="34"/>hominibus praestatur, nam apud Deum non
+          <lb ed="#P" n="35"/>potest intercedere fictio. Est autem divisio
+          <lb ed="#P" n="36"/>analoga, nam solum verum juramentum est
+          <lb ed="#P" n="37"/>simpliciter tale : loquor autem in praesenti de
+          <lb ed="#P" n="38"/>vero juramento in essendo, id est, quod habet
+          <lb ed="#P" n="39"/>verum esse juramenti, sive cadat in 
+          assertio<lb break="no" ed="#P" n="40"/>nem veram, sive in faisam, quod poterit dici
+          <lb ed="#P" n="41"/>juramentum verum, vel falsum in dicendo,
+          <lb ed="#P" n="42"/>et de hoc vero juramento praecipue tractamus;
+          <lb ed="#P" n="43"/>obiter tamen attingemus quae necessaria 
+          fue<lb break="no" ed="#P" n="44"/>rint de imagine ejus; sic enim fictum 
+          jura<lb break="no" ed="#P" n="45"/>mentum non immerito appellari potest.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

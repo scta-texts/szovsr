@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="851"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m21345"><!-- t6l2c5 -->
+        <head xml:id="szovsr-m21345-Hd1e101">Caput 5</head>
+        <head xml:id="szovsr-m21345-Hd1e103" type="question-title">Utrum actus honestus sub conditione turpi possit esse materia voti?</head>
+        <p xml:id="szovsr-m21345-d1e106">
+          <lb ed="#P" n="59"/>CAPUT V.
+          <lb ed="#P" n="60"/>UTRUM ACTUS HONESTUS SUB CONDITIONE TURPI
+          <lb ed="#P" n="61"/>POSSIT ESSE MATERIA VOTI?
+        </p>
+        <p xml:id="szovsr-m21345-d1e115">
+          <lb ed="#P" n="62"/>1. Sensus quaestionis expenditur. — Ratio
+          <lb ed="#P" n="63"/>dubitandi. — Videri potest haec quaestio 
+          conci<lb break="no" ed="#P" n="64"/>dere cum tractata in capite praecedenti; nam
+          <lb ed="#P" n="65"/>ibi dictum est, actum bonum ex objecto, 
+          pro<lb break="no" ed="#P" n="66"/>missum cum circumstantia prava, non esse
+          <lb ed="#P" n="67"/>materiam voti; conditio autem turpis videtur
+          <lb ed="#P" n="68"/>esse prava circumstantia. Sed nihilominus
+          <lb ed="#P" n="69"/>quaestio est valde diversa: nam ibi actum est,
+          <lb ed="#P" n="70"/>quando circumstantia prava est quasi pars
+          <lb ed="#P" n="71"/>materiae promissae, quia promittitur ut 
+          cir<lb break="no" ed="#P" n="72"/>cumstantia ponenda in actu promisso per 
+          vo<lb break="no" ed="#P" n="73"/>tum, quando executioni mandatur ad votum
+          <lb ed="#P" n="74"/>implendum; hic autem non de hoc agimus,
+          <lb ed="#P" n="75"/>sed de conditione tuzpi postulata a vovente ad
+          <lb ed="#P" n="76"/>ipsam voti obligationem. Haec enim conditio
+          <lb ed="#P" n="77"/>non est futura circumstantia operis promissi
+          <lb ed="#P" n="78"/>per votum, unde per se non rcadit illud 
+          mora<lb break="no" ed="#P" n="79"/>liter malum. Et hinc potest sumi ratio 
+          dupi<lb break="no" ed="#P" n="80"/>tandi, quia, non obstante illa conditione, actus
+          <lb ed="#P" n="81"/>promissus est bonus, et potest bene fieri im
+          <lb ed="#P" n="82"/>plendo promissionem; ergo non est cur non
+          <lb ed="#P" n="83"/>sit conveniens materia voti; nam quod vovens
+          <lb ed="#P" n="84"/>nolit se obligare, nisi existente tali conditione,
+          <lb ed="#P" n="85"/>erit defectus in modo vovendi, non in 
+          mate<lb break="no" ed="#P" n="86"/>ria voti. Explicatur primo in promissione 
+          hu<lb break="no" ed="#P" n="87"/>mana ; nam si quis ingredie:s iniquum 
+          duel<lb break="no" ed="#P" n="88"/>ium cum inimico promittat alicui centum si
+          <lb ed="#P" n="89"/>vincat, vel si promittat feminae, si secum 
+          for<lb break="no" ed="#P" n="90"/>nicetur, illam ducturum, nihilominus 
+          promis<lb break="no" ed="#P" n="91"/>sio est valida, quia, licet conditio sit turpis,
+          <lb ed="#P" n="92"/>non est circumstantia actus promissi, sed 
+          po<lb break="no" ed="#P" n="93"/>terit sine peccato impleri; ergo conditio 
+          tur<lb break="no" ed="#P" n="94"/>pis non reddit turpem materiam; ergo ex hac
+          <lb ed="#P" n="95"/>parte non annullat votum erga Deum, nec 
+          ap<lb break="no" ed="#P" n="96"/>paret alia ratio invaliditatis talis voti. 
+          Confir<lb break="no" ed="#P" n="97"/>matur secundo, quia si votum fiat suh 
+          condi<lb break="no" ed="#P" n="98"/>tione indifferente, aut mere contingente ac
+          <lb ed="#P" n="99"/>temporali, validum est, ut si quis dicat: Ego
+          <lb ed="#P" n="100"/>voveo ingredi religionem, si illa nupserit, aut
+          <lb ed="#P" n="101"/>mortua fuerit ; vel promitto centum dare 
+          hos<lb break="no" ed="#P" n="102"/>pitali, si navis venerit, etc. Ergo etiam si sit
+          <lb ed="#P" n="103"/>turpis conditio, cum apponatur tantum ad
+          <lb ed="#P" n="104"/>suspendendum consensum, illa posita 
+          consen<lb break="no" ed="#P" n="105"/>sus transibit in absolutum, et obligabit circa
+          <lb ed="#P" n="106"/>materiam alias bonam, quae potest bene fieri.
+        </p>
+        <p xml:id="szovsr-m21345-d1e215">
+          <lb ed="#P" n="107"/>2. Varii modi apponendi conditiones in votas.
+          <pb ed="#P" n="852"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>—Ut decidatur quaestio, quia multa involvit,
+          <lb ed="#P" n="2"/>distinguere oportet varios modos quibus 
+          con<lb break="no" ed="#P" n="3"/>ditio similis potest apponi. Primo enim potest
+          <lb ed="#P" n="4"/>adhiberi in odium ejus (ut sic dicam), et tunc
+          <lb ed="#P" n="5"/>votum est poenale, fitque ad coercendum 
+          ho<lb break="no" ed="#P" n="6"/>minem ab actu turpi, ut cum quis promittit
+          <lb ed="#P" n="7"/>dare eleemosypam si male luserit, vel si 
+          jura<lb break="no" ed="#P" n="8"/>verit, aut si fornicatus fuerit. Secundo, potest
+          <lb ed="#P" n="9"/>votum fieri sub conditione boni etfectus 
+          prae<lb break="no" ed="#P" n="10"/>supponentis actum turpem, qui per se non 
+          in<lb break="no" ed="#P" n="11"/>tendiiur in conditione, sed supponitur, ut si
+          <lb ed="#P" n="12"/>quis promittat Deo aliquid, si filius sibi ex 
+          me<lb break="no" ed="#P" n="13"/>retrice nascatur. Tertio, fieri potest Deo 
+          pro<lb break="no" ed="#P" n="14"/>missio per modum impetrationis, ut Si me de
+          <lb ed="#P" n="15"/>inimico vindicavero , faciam eleemosynam.
+          <lb ed="#P" n="16"/>Quarto, fieri potest per modum gratiarum 
+          ac<lb break="no" ed="#P" n="17"/>tionis, ut qui vovet missam, quia potitus est
+          <lb ed="#P" n="18"/>uxore aliena. Quamvis enim hoc modo non sit
+          <lb ed="#P" n="19"/>conditio propria, se causa, quia jam 
+          suppo<lb break="no" ed="#P" n="20"/>nitur eventus, nihilominus potest sub eadem
+          <lb ed="#P" n="21"/>ratione spectari, vel pendere in futurum, et
+          <lb ed="#P" n="22"/>ideo hic etiam consideranda est. Quinto, fieri
+          <lb ed="#P" n="23"/>potest sub ratione purae conditionis, solum
+          <lb ed="#P" n="24"/>quia nolo obligari nunc absolute, sed post 
+          ta<lb break="no" ed="#P" n="25"/>lem eventum, vel quia tunc ero magis 
+          dispo<lb break="no" ed="#P" n="26"/>situs et expeditus, vel propter aliam 
+          commo<lb break="no" ed="#P" n="27"/>ditatem, vel rationem humanam, ad quam est
+          <lb ed="#P" n="28"/>impertinens quod conditio turpis sit vel ho
+          <lb ed="#P" n="29"/>nesta. Ut si meretrix promittat eleemosynam
+          <lb ed="#P" n="30"/>facere, si superflua habeat, non intentione
+          <lb ed="#P" n="31"/>obtinendi a Deo multas occasiones turpis lucri,
+          <lb ed="#P" n="32"/>sed tantum quia sine abundantibus 
+          facultati<lb break="no" ed="#P" n="33"/>bus non vult obligari, et cum .llis vult.
+        </p>
+        <p xml:id="szovsr-m21345-d1e297">
+          <lb ed="#P" n="34"/>3. Prima assertio: votum sub conditione
+          <lb ed="#P" n="35"/>turpis actus ad se puniendum, et vitandum 
+          il<lb break="no" ed="#P" n="36"/>lum, validum et conveniens est. — Dico ergo
+          <lb ed="#P" n="37"/>primo: votum cum conditione turpis actus ad
+          <lb ed="#P" n="38"/>puniendum et vitandum illum, non solum est
+          <lb ed="#P" n="39"/>validum, et de convenienti materia, sed etiam
+          <lb ed="#P" n="40"/>recte et honeste fit. Est res communis et clara,
+          <lb ed="#P" n="41"/>quia quod directe promittitur est bonum, ut
+          <lb ed="#P" n="42"/>supponitur, et finis vovendi etiam est bonus,
+          <lb ed="#P" n="43"/>scilicet, vitare actum turpem, unde ex hac 
+          par<lb break="no" ed="#P" n="44"/>te bene fit votum. Item etiam actus promissus
+          <lb ed="#P" n="45"/>ordinatur ad finem bonum, scilicet, ad 
+          vin<lb break="no" ed="#P" n="46"/>dictam actus turpis, si committatur, et ideo
+          <lb ed="#P" n="47"/>recte etiam promittitur sub conditione, quia
+          <lb ed="#P" n="48"/>materia vindictae non poterat promitti 
+          absolu<lb break="no" ed="#P" n="49"/>te, nec vindicta per se intendi, scd tantum ex
+          <lb ed="#P" n="50"/>suppositione actus mali. Et quamvis actus 
+          bo<lb break="no" ed="#P" n="51"/>nus sic promissus posset etiam promitti sine
+          <lb ed="#P" n="52"/>respectu vindictae, tamen vovens ad hoc non
+          <lb ed="#P" n="53"/>tenebatur ; potest ergo honeste promittere, ut
+          <lb ed="#P" n="54"/>voluerit, dumniodo finem bonum intendat, et
+          <lb ed="#P" n="55"/>malam circunistantiam non apponat ; hic au-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tem nulla intervenit. Denique votum illud est
+          <lb ed="#P" n="57"/>de materia quasi disjuncta sub quodam 
+          ordi<lb break="no" ed="#P" n="58"/>ne, scilicet, vel vitabo tale peccatum, vel, si in
+          <lb ed="#P" n="59"/>hoc deflcium, faciam talem actum bonum;
+          <lb ed="#P" n="60"/>utraque autem pars hujus disjnctivae bona
+          <lb ed="#P" n="61"/>est, ut constat, et ordo etiam est voluntar:us,
+          <lb ed="#P" n="62"/>et non malus. Et ita in hac parte nulla est 
+          diffi<lb break="no" ed="#P" n="63"/>cultas. Quomodo autem tale votum obliget, et
+          <lb ed="#P" n="64"/>quomodo dispensari possit, infra suis locis 
+          di<lb break="no" ed="#P" n="65"/>cemus.
+        </p>
+        <p xml:id="szovsr-m21345-d1e371">
+          <lb ed="#P" n="66"/>4. Secunda assertio : votum factum pro 
+          ef<lb break="no" ed="#P" n="67"/>fectu bono, qui ex actu turpi sequi potest, 
+          vali<lb break="no" ed="#P" n="68"/>dum est. — Ratio assertionis.— Dico secundo:
+          <lb ed="#P" n="69"/>votum factum pro effectu bono, qui ex actu
+          <lb ed="#P" n="70"/>turpi sequi potest, supponendo tantum actum
+          <lb ed="#P" n="71"/>turpem, et non ordinando ullo modo 
+          promis<lb break="no" ed="#P" n="72"/>sionem voti ad ipsum actum turpem, validum
+          <lb ed="#P" n="73"/>est. et materia illa non est inepta ad votum.
+          <lb ed="#P" n="74"/>Est communis sententia ; tenet Cajet., verb.
+          <lb ed="#P" n="75"/>Votum, et art. 2, ubi Aragon., et reliqui; et
+          <lb ed="#P" n="76"/>Soto, d. art. 3; Navar., c. 12, num. 31 et 32;
+          <lb ed="#P" n="77"/>Angles, quaest. de Voto, art. 1, difficul. 11.
+          <lb ed="#P" n="78"/>Ratio est, quia in tali voto non est per se ordo
+          <lb ed="#P" n="79"/>ad actum turpem, sed illo supposito, est ordo
+          <lb ed="#P" n="80"/>ad effectum ejus, qui bonus est ; ergotale 
+          vo<lb break="no" ed="#P" n="81"/>tum neque in se, neque in materia, habet 
+          cir<lb break="no" ed="#P" n="82"/>cumstantiam tnalam. Antecedens quoad 
+          utram<lb break="no" ed="#P" n="83"/>que partem supponitur ex casu, quia qui sic 
+          vo<lb break="no" ed="#P" n="84"/>vet, non intendit Deum facere auctorem suae
+          <lb ed="#P" n="85"/>iniquae actionis, neque vult per votum obtinere
+          <lb ed="#P" n="86"/>auxilium ad illam, sed cum alias supponat se
+          <lb ed="#P" n="87"/>facturum talem actionem, cupit obtinere a
+          <lb ed="#P" n="88"/>Deo, ut ex illo turpi facto tale bonum eliciat.
+        </p>
+        <p xml:id="szovsr-m21345-d1e423">
+          <lb ed="#P" n="89"/>5. Votum factum pro bono temporah 
+          obti<lb break="no" ed="#P" n="90"/>nendo calidum est, si voti materia sit capag.—
+          <lb ed="#P" n="91"/>Jam ergo probatur consequentia, quia in illo
+          <lb ed="#P" n="92"/>effectu duo considerari possunt: upum, quod
+          <lb ed="#P" n="93"/>temporale est, aliud, quod ex turpi actione
+          <lb ed="#P" n="94"/>procedit; neutrum autem horum est contra
+          <lb ed="#P" n="95"/>honestatem voti ; ergo. Probatur prima pars
+          <lb ed="#P" n="96"/>minoris; nam votum factum pro temporali
+          <lb ed="#P" n="97"/>bono obtinendo validum est, si alias votum sit
+          <lb ed="#P" n="98"/>de congrua materia, ut tradunt omnes. Cujus
+          <lb ed="#P" n="99"/>ratio est, quia ille finis non reddit malum 
+          ac<lb break="no" ed="#P" n="100"/>tum promissum, quia non est finis ejus. Sentit
+          <lb ed="#P" n="101"/>autem Richard., in 4, dist. 38, art. 1, q.2. 
+          vo<lb break="no" ed="#P" n="102"/>tum sic factum peccaminose fieri, quia malum
+          <lb ed="#P" n="103"/>est, spiritualem actum vovendi ordinare ad
+          <lb ed="#P" n="104"/>temporalem finem, et nihilominus ait 
+          obliga<lb break="no" ed="#P" n="105"/>re, quia materia ejus bona est, et ex illo fine
+          <lb ed="#P" n="106"/>non accipit malitiam aliquam. Dico tamen
+          <lb ed="#P" n="107"/>etiam votum ipsum non necessario male fieri
+          <lb ed="#P" n="108"/>propter talem finem, quia finis ille non est
+          <lb ed="#P" n="109"/>malus, sed indifferens, et potest honeste ?
+          n<lb break="no" ed="#P" n="110"/>tendi vel ordinari ad honestum finem ; et tunc
+          <pb ed="#P" n="853"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ordinare votum ad illum finem temporalem
+          <lb ed="#P" n="2"/>non est malum, neque ordinare spirituale ad
+          <lb ed="#P" n="3"/>temporale malum est, quando in temporali non
+          <lb ed="#P" n="4"/>sistitur tanquam in ultimo fine, ut in tractatu
+          <lb ed="#P" n="5"/>de Oratione explicatum est. Ex hoc ergo capite
+          <lb ed="#P" n="6"/>votum illud non est malum, quod pro omnibus
+          <lb ed="#P" n="7"/>aliis casibus tractandis notandum est.
+        </p>
+        <p xml:id="szovsr-m21345-d1e493">
+          <lb ed="#P" n="8"/>6. Altera pars minoris, videlicet, non 
+          ob<lb break="no" ed="#P" n="9"/>stare quod illud temporale bonum ex actione
+          <lb ed="#P" n="10"/>turpi proventurum sit, probatur, quia non
+          <lb ed="#P" n="11"/>propterea procuratur actio turpis, sed 
+          suppo<lb break="no" ed="#P" n="12"/>nitur, et effectus non sequitur ex illa ut turpis
+          <lb ed="#P" n="13"/>est, sed ut actio naturalis et materialis est; et
+          <lb ed="#P" n="14"/>hoc modo ex malis bonum elicere non est 
+          ma<lb break="no" ed="#P" n="15"/>Ium, imo est maxime consentaneum diviuae
+          <lb ed="#P" n="16"/>bonitati ac sapientiae; ergo. Et confirmatur,
+          <lb ed="#P" n="17"/>nam si quis post patratam fornicationem oret
+          <lb ed="#P" n="18"/>Deum pro felici partu, et pro filio aliquid 
+          vo<lb break="no" ed="#P" n="19"/>veat, ut, si vir fuerit, etc., tunc sine dubio 
+          vo<lb break="no" ed="#P" n="20"/>tum est va'idum, quia est ad obtinendum
+          <lb ed="#P" n="21"/>quoddam beneficium temporale, quod jam non
+          <lb ed="#P" n="22"/>pendet ex aliqua turpitudine; ergo idem erit,
+          <lb ed="#P" n="23"/>etiamsi ante patratum scelus fiat, quia fit ex
+          <lb ed="#P" n="24"/>illa suppositione, ac si jam praecessisset, 
+          red<lb break="no" ed="#P" n="25"/>ditque hunc sensum : Si postquam ego hoc 
+          fe<lb break="no" ed="#P" n="26"/>cero, Deus ex illo tale bonum elicuerit, etc.
+          <lb ed="#P" n="27"/>Et ita solvitur facile objectio quae fieri posset,
+          <lb ed="#P" n="28"/>quia tale votum, emissum ante turpe factum,
+          <lb ed="#P" n="29"/>videtur includere factum ipsum, quia 
+          neces<lb break="no" ed="#P" n="30"/>sarium est ad talem effectum, et nondum 
+          ex<lb break="no" ed="#P" n="31"/>titit. Respondetur autem non includere, sed
+          <lb ed="#P" n="32"/>supponere illud in forma et intentione 
+          voven<lb break="no" ed="#P" n="33"/>di; est enim quasi conditionatum : Si hoc 
+          fe<lb break="no" ed="#P" n="34"/>cerim, peto ut bonum exitum habeat ; sicut
+          <lb ed="#P" n="35"/>possum postulare, Si peccavero, peto, ut det
+          <lb ed="#P" n="36"/>mihi Deus poenitentiae locum, vel, Peto ut
+          <lb ed="#P" n="37"/>Deus bene utatur meo lapsu ad majus aliquod
+          <lb ed="#P" n="38"/>bonum. Sed hoc magis urgebitur et 
+          declara<lb break="no" ed="#P" n="39"/>bitur in sequenti puncto.
+        </p>
+        <p xml:id="szovsr-m21345-d1e565">
+          <lb ed="#P" n="40"/>7. Tertia assertio : votum factum ad 
+          obti<lb break="no" ed="#P" n="41"/>nendum auacilium pro malo seu turpi facto
+          <lb ed="#P" n="42"/>nullum est — Dico tertio : votum emissum ad
+          <lb ed="#P" n="43"/>obtinendum auxilium pro malo seu turpi 
+          fac<lb break="no" ed="#P" n="44"/>to nullum est, propter materiam turpem et
+          <lb ed="#P" n="45"/>iniquam. Est communis sententia. Tenet 
+          Ca<lb break="no" ed="#P" n="46"/>jet.. in Sum., ver. Votumn, et d. art. 2, ubi
+          <lb ed="#P" n="47"/>Soto, et alii moderni. ; Sylvest., verb. Votumn,
+          <lb ed="#P" n="48"/>quaest. 2, ubi refert alios; Navar., c. 12, n. 30
+          <lb ed="#P" n="49"/>et 43; Richard. autem, in 4, d. 38, art. 1,
+          <lb ed="#P" n="50"/>quaestione prima , citari solet pro hac 
+          senten<lb break="no" ed="#P" n="51"/>tia, et pro contraria parte ; ille tamen solum
+          <lb ed="#P" n="52"/>generatim dicit , quando aliquid promittitur
+          <lb ed="#P" n="53"/>propter malum finem, votum esse nullum, in
+          <lb ed="#P" n="54"/>quo huic sententiae favet. Et apertius in 
+          solu<lb break="no" ed="#P" n="55"/>tione ad primum, dum ait, hominem non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>posse consequi per Deum malum finem. Solet
+          <lb ed="#P" n="57"/>probari haec sententia, quia non solum est 
+          vo<lb break="no" ed="#P" n="58"/>tum iniuum, quando finis malus apponitur,
+          <lb ed="#P" n="59"/>ut finis illius boni quod vovetur, sed etiam
+          <lb ed="#P" n="60"/>quando est finis voti; quia tale votum est 
+          ini<lb break="no" ed="#P" n="61"/>quum ; ergo nullum. Sed nisi antecedens 
+          am<lb break="no" ed="#P" n="62"/>plius explicetur, posterior consequentia non
+          <lb ed="#P" n="63"/>est bona, quia potest votum male fieri, et esse
+          <lb ed="#P" n="64"/>validum , quando ejus malitia solum consistit
+          <lb ed="#P" n="65"/>in hoc, quod ipsemet actus promittendi propter
+          <lb ed="#P" n="66"/>malum finem fit, si alioqui res promissa bona
+          <lb ed="#P" n="67"/>permaneat , et nullam malitiam participet ex
+          <lb ed="#P" n="68"/>tali fine.
+        </p>
+        <p xml:id="szovsr-m21345-d1e633">
+          <lb ed="#P" n="69"/>8. Confirmatur assertio ratione, et 
+          explica<lb break="no" ed="#P" n="70"/>tur. — Ut ergo ratio sit firma, oportet ut 
+          os<lb break="no" ed="#P" n="71"/>tendamus, in casu assertionis turpem actum
+          <lb ed="#P" n="72"/>non solum esse finem voti ex parte 
+          promissio<lb break="no" ed="#P" n="73"/>nis, sed etiam ex parte materiae, quae Deo sub
+          <lb ed="#P" n="74"/>tali conditione promittitur. Hoc autem patet,
+          <lb ed="#P" n="75"/>quia sic vovens movetur non solum ad 
+          voven<lb break="no" ed="#P" n="76"/>dum, sed etiam ad faciendam rem, quam 
+          pro<lb break="no" ed="#P" n="77"/>mittit, ex affectu ad rem illam, quam a Deo
+          <lb ed="#P" n="78"/>obtinere intendit , nt ex re ipsa per se notum
+          <lb ed="#P" n="79"/>est ; ergo ille finis non solum est causa 
+          pro<lb break="no" ed="#P" n="80"/>missionis, sed etiam rei promissae. Cujus 
+          si<lb break="no" ed="#P" n="81"/>gnum est, quia quando aliquid est finis solius
+          <lb ed="#P" n="82"/>promissionis, et non etiam rei promissae, ex se
+          <lb ed="#P" n="83"/>non movet ad propositum faciendi rem quae
+          <lb ed="#P" n="84"/>promittitur, sed solum ad promittendum, ut
+          <lb ed="#P" n="85"/>patet in eo, qui ex affectu ad honores vel 
+          divi<lb break="no" ed="#P" n="86"/>tias vult vovere castitatem. At vero in 
+          pr<lb break="no" ed="#P" n="87"/>senti, turpis actus, propter quem obtinendum
+          <lb ed="#P" n="88"/>fit votum, non utcumque ad vovendum, sed
+          <lb ed="#P" n="89"/>maxime ad vovendum cum proposito faciendi
+          <lb ed="#P" n="90"/>movet ; nam quomodo existimaret quis se 
+          ob<lb break="no" ed="#P" n="91"/>tenturum a Deo aliquid per promissionem,
+          <lb ed="#P" n="92"/>sine proposito faciendi rem promissam? Prius
+          <lb ed="#P" n="93"/>ergo movet ille finis ad tale opus faciendum,
+          <lb ed="#P" n="94"/>et deinde ad illud promittendum ; ergo ille
+          <lb ed="#P" n="95"/>non tantum est finis promissionis, sed etiam rei
+          <lb ed="#P" n="96"/>promissae.
+        </p>
+        <p xml:id="szovsr-m21345-d1e697">
+          <lb ed="#P" n="97"/>9. Prima objectio. — Sed objicitur primo,
+          <lb ed="#P" n="98"/>quia ex vi talis voti homo non promittit facere
+          <lb ed="#P" n="99"/>postea talem actum propter talem finem; nam
+          <lb ed="#P" n="100"/>si actus promissus erat, verbhi gratia, 
+          eleemo<lb break="no" ed="#P" n="101"/>synae, licet quis postea illam non referat in 
+          tur<lb break="no" ed="#P" n="102"/>pem finem, sufficiet ad implendum votum;
+          <lb ed="#P" n="103"/>ergo relatio illius operis in talem finem non
+          <lb ed="#P" n="104"/>est materia illius voti. Et confirmatur, quia
+          <lb ed="#P" n="105"/>illa conditio non est circeumstantia operis 
+          pro<lb break="no" ed="#P" n="106"/>missi, sed pura conditio ; ergo licet turpis sit,
+          <lb ed="#P" n="107"/>non facit actum promissum esse turpem.
+        </p>
+        <p xml:id="szovsr-m21345-d1e723">
+          <lb ed="#P" n="108"/>10. Prima solutio. — Secunda. — Ad 
+          ob<lb break="no" ed="#P" n="109"/>jectionem respondeo primo negando 
+          assum<lb break="no" ed="#P" n="110"/>ptum, nam qui vovit aliquid facere in gratia-
+          <pb ed="#P" n="854"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rum actionem, tenetur id facere cum illo 
+          res<lb break="no" ed="#P" n="2"/>pectu; ergo qui vovit aliquid facere ad 
+          impe<lb break="no" ed="#P" n="3"/>trandum aliud, tenetur etiam illud facere sub
+          <lb ed="#P" n="4"/>illo respectu, si supporamus votum esse 
+          vali<lb break="no" ed="#P" n="5"/>dum. Secundo et facilius, quamvis demus 
+          ta<lb break="no" ed="#P" n="6"/>lia vota obiigare ad talem actum, et non ad
+          <lb ed="#P" n="7"/>relationem in illum finem, neganda est illatio,
+          <lb ed="#P" n="8"/>quia satis est quod illud votum, ut sic factum
+          <lb ed="#P" n="9"/>ex intentione operantis, ordinet opus 
+          promis<lb break="no" ed="#P" n="10"/>sum ad talem finem, et illum maxime requirat;
+          <lb ed="#P" n="11"/>nam hoc etiam repugnat promissioni Deo 
+          fac<lb break="no" ed="#P" n="12"/>tae, sive obliget ad illam relationem, sive non.
+          <lb ed="#P" n="13"/>Quod patet, quia per tale votum eleemosyna
+          <lb ed="#P" n="14"/>non promittitur sub sola ratione eleemosynae,
+          <lb ed="#P" n="15"/>sed sub ratione quasi mercedis et stipendii (ut
+          <lb ed="#P" n="16"/>sic rem explicem) auxilü dati ad pravum
+          <lb ed="#P" n="17"/>opus ; sub hac autem ratione illa materia 
+          pra<lb break="no" ed="#P" n="18"/>va est; ergo sive postea fiat sub illa rationc,
+          <lb ed="#P" n="19"/>sive sub alia, votum in iliam cadens pravum
+          <lb ed="#P" n="20"/>cst ex parte materiae, atque adeo nullum.
+        </p>
+        <p xml:id="szovsr-m21345-d1e780">
+          <lb ed="#P" n="21"/>11. Fit satis confirmationi.—Unde ad 
+          con<lb break="no" ed="#P" n="22"/>firmationem negatur assumptum ; nam (ut
+          <lb ed="#P" n="23"/>recte notavit Cajewanus) illa non est pura 
+          con<lb break="no" ed="#P" n="24"/>ditio in casu quem tractamus ; non enim 
+          ne<lb break="no" ed="#P" n="25"/>gamus posse esse puram conditionemn, ut 
+          pau<lb break="no" ed="#P" n="26"/>lo post videbimus. Sed dicimus in casu 
+          mo<lb break="no" ed="#P" n="27"/>rali, de quo agimus, illam revera non esse
+          <lb ed="#P" n="28"/>puram conditionem, sed includere 
+          hbabitudi<lb break="no" ed="#P" n="29"/>nem causae ; quia ad hoc fit promissio, uta
+          <lb ed="#P" n="30"/>Deo obtineatur turpis actus intentus. Quod
+          <lb ed="#P" n="31"/>plaue constat, tum ex intentione voventis;
+          <lb ed="#P" n="32"/>tum quia alias nulla esset ratio vel occasio
+          <lb ed="#P" n="33"/>apponendi voto talem conditionem ; nam 
+          di<lb break="no" ed="#P" n="34"/>cere apponi illo modo ex mero arbitrio 
+          volun<lb break="no" ed="#P" n="35"/>tatis sine alio titulo vel ratione, non est 
+          ve<lb break="no" ed="#P" n="36"/>rum, nec morale. Haec ergo est tota 
+          deformi<lb break="no" ed="#P" n="37"/>tas illius voti, propter quam censemus illud
+          <lb ed="#P" n="38"/>non acceptari a Deo, et consequenter non esse
+          <lb ed="#P" n="39"/>validum. Unde si vel ab actione, vel re 
+          in<lb break="no" ed="#P" n="40"/>tenta separetur turpitudo, vel separetur 
+          in<lb break="no" ed="#P" n="41"/>tentio consequendi illam mediante re 
+          promis<lb break="no" ed="#P" n="42"/>sa, tunc non repugnabit votum esse validum.
+          <lb ed="#P" n="43"/>Quomodo autem aut quando id possit 
+          contin<lb break="no" ed="#P" n="44"/>gere, constabit respondendo ad alias 
+          objectio<lb break="no" ed="#P" n="45"/>nes, quae in praesenti occurrunt.
+        </p>
+        <p xml:id="szovsr-m21345-d1e837">
+          <lb ed="#P" n="46"/>12. Secunda objectio. —Secundo ergo 
+          obji<lb break="no" ed="#P" n="47"/>ci potest, quia per tale votum non postulatura
+          <lb ed="#P" n="48"/>Deo aliquid quod facere non possit, et quod 
+          in<lb break="no" ed="#P" n="49"/>terdum non faciat, ut, verbi gratia, si votum
+          <lb ed="#P" n="50"/>fiat Deo, ut det victoriam in bello injusto, non
+          <lb ed="#P" n="51"/>propterea postulatur ab ipso ut sit auctor 
+          in<lb break="no" ed="#P" n="52"/>justitiae, sed solum ut actionem illam 
+          mate<lb break="no" ed="#P" n="53"/>rialem ita dirigat, ut quamvis ego injuste
+          <lb ed="#P" n="54"/>agam, nihilominus victor evadam. In hoc 
+          au<lb break="no" ed="#P" n="55"/>tem nihil petitur a Deo quod ipse facere non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>soleat. Nam constat ex Scriptura, Deum saepe
+          <lb ed="#P" n="57"/>ita ordinare cursum rerum, ut injuste 
+          bellan<lb break="no" ed="#P" n="58"/>tes consequantur victoriam ; imo seepe illis
+          <lb ed="#P" n="59"/>uti ut instrumentis ad vindictam de aliis 
+          su<lb break="no" ed="#P" n="60"/>mendam, quia, licet respectu aliorum 
+          homi<lb break="no" ed="#P" n="61"/>num juste se ab illis defendant, respectu Dei
+          <lb ed="#P" n="62"/>sunt peccatores, et vult illos punire per alios,
+          <lb ed="#P" n="63"/>etiamsi ipsi injuste agant. Unde Daniel. 1 
+          di<lb break="no" ed="#P" n="64"/>citur: Tradidit in manu ejus (scilicet 
+          Nabu<lb break="no" ed="#P" n="65"/>chod.) Joakim regem Juda; et cap. 2: Ipse
+          <lb ed="#P" n="66"/>transfert regna, etc. Et Judith. 16: Dominus
+          <lb ed="#P" n="67"/>conterens bella ; ergo si quis ex hac fide 
+          gene<lb break="no" ed="#P" n="68"/>rali voveat Deo, ut sibi concedat victoriam eo
+          <lb ed="#P" n="69"/>modo quo potest sancte et juste, licet ipse 
+          vo<lb break="no" ed="#P" n="70"/>vens injuste agat, non vovet aliquid contra
+          <lb ed="#P" n="71"/>Dei honorem; ergo erit validum tale votum.
+          <lb ed="#P" n="72"/>Unde in hoc videtur esse magna diflerentia
+          <lb ed="#P" n="73"/>inter hominem et Deum. Nam promittere 
+          ho<lb break="no" ed="#P" n="74"/>mini aliquid, ut me juvet in opere malo, est
+          <lb ed="#P" n="75"/>semper malum, quia homo non potest juvare
+          <lb ed="#P" n="76"/>ad malum, nisi male agendo; Deus autem vel
+          <lb ed="#P" n="77"/>permittendo, vel cooperando ut causa 
+          uni<lb break="no" ed="#P" n="78"/>versalis, vel suo jure et universali 
+          providen<lb break="no" ed="#P" n="79"/>tia utendo, potest sine pravitate ulla dare 
+          vic<lb break="no" ed="#P" n="80"/>toriam in bello injusto ; ergo ita vovere illi
+          <lb ed="#P" n="81"/>non est malum.
+        </p>
+        <p xml:id="szovsr-m21345-d1e920">
+          <lb ed="#P" n="82"/>13. Aliquorum responsio.—Circa hanc 
+          ob<lb break="no" ed="#P" n="83"/>jectionem, Cajetanus et alii sentiunt, eum,
+          <lb ed="#P" n="84"/>qui sic vovet, quantum est ex se facere Deum
+          <lb ed="#P" n="85"/>auctorem peccati, et hoc necessario 
+          inten<lb break="no" ed="#P" n="86"/>dere per tale votum, sicut qui promittit 
+          ho<lb break="no" ed="#P" n="87"/>mini aliquid, ut se juvet ad homicidium, 
+          in<lb break="no" ed="#P" n="88"/>tendit illum facere auctorem homicidii. Unde
+          <lb ed="#P" n="89"/>potius constituunt differentiam inter votum
+          <lb ed="#P" n="90"/>et promissionem humanam, quod respectu
+          <lb ed="#P" n="91"/>hominis tenet talis promissio. et si alius 
+          ex<lb break="no" ed="#P" n="92"/>hibeat cooperationem, debetur illi 
+          stipen<lb break="no" ed="#P" n="93"/>dium promissum, quia ille est capax 
+          induc<lb break="no" ed="#P" n="94"/>tionis et cooperationis ad malum, et ideo
+          <lb ed="#P" n="95"/>etiam est capax illius stipendii ratione laboris,
+          <lb ed="#P" n="96"/>qui ex se pretio aestimabilis est. At vero Deus
+          <lb ed="#P" n="97"/>est incapax illius cooperationis, et 
+          consequen<lb break="no" ed="#P" n="98"/>ter etiam turpis promissionis. Sed quamvis
+          <lb ed="#P" n="99"/>haec vera sint, quando vovens talem 
+          intentio<lb break="no" ed="#P" n="100"/>nem habuit, non tamen videtur necessarium
+          <lb ed="#P" n="101"/>ut illam habeat, neque etiam videtur esse
+          <lb ed="#P" n="102"/>sufficiens fundamentum ad attribuendum sic
+          <lb ed="#P" n="103"/>voventi talem intentionem. Quia neque illa
+          <lb ed="#P" n="104"/>solet haberi directe et expresse, ut per se 
+          no<lb break="no" ed="#P" n="105"/>tum videtur, moraliter loquendo; neque etiam
+          <lb ed="#P" n="106"/>interpretative, ut objectio facta videtur 
+          pro<lb break="no" ed="#P" n="107"/>bare, quia sic vovens solum vult habere 
+          victo<lb break="no" ed="#P" n="108"/>riam, verbi gratia, a Deo, eo modo quo Deus ipse
+          <lb ed="#P" n="109"/>sancte et juste potest illam dare, etiamsi ipse
+          <lb ed="#P" n="110"/>homo, illam procurando et intendendo, gravi-
+          <pb ed="#P" n="855"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ter peccet. Et explicatur in hunc modum:
+          <lb ed="#P" n="2"/>nam si quis explicite ita Deum oraret : Licet
+          <lb ed="#P" n="3"/>ego injustus sim, et injuste faciam, scio te
+          <lb ed="#P" n="4"/>posse sine iniquitate facere ut ego consequar
+          <lb ed="#P" n="5"/>quod per actionem hanc, mihi et non tibi
+          <lb ed="#P" n="6"/>iniquam, intendo; quaeso ergo ut hoc mihi
+          <lb ed="#P" n="7"/>concedas: per hanc orationem, ut videtur,
+          <lb ed="#P" n="8"/>neque actionem pravam peteret a Deo, neque
+          <lb ed="#P" n="9"/>illum faceret auctorem mali. Et similiter qui
+          <lb ed="#P" n="10"/>oraret Deum. ut permitteret inimicum suum
+          <lb ed="#P" n="11"/>labi in peccatum, non postularet ab eo 
+          ali<lb break="no" ed="#P" n="12"/>quid malum, neque ex hac parte peccaret;
+          <lb ed="#P" n="13"/>ergo idem dicendum est in casu de voto.
+        </p>
+        <p xml:id="szovsr-m21345-d1e1018">
+          <lb ed="#P" n="14"/>14. Solutio germana. —Dico igitur, etiamsi
+          <lb ed="#P" n="15"/>per tale votum non petatur a Deo, ut 
+          coopere<lb break="no" ed="#P" n="16"/>tur vel inducat ad malum, nihilominus votum
+          <lb ed="#P" n="17"/>esse iniquum, quia vovens desiderat et 
+          ordi<lb break="no" ed="#P" n="18"/>nat, quantum in se est, totam illam Dei 
+          actio<lb break="no" ed="#P" n="19"/>nem, vel permissionem, ad pravum finem. Est
+          <lb ed="#P" n="20"/>autem per se iniquum et malum, procurare
+          <lb ed="#P" n="21"/>bonum actuin alterius propter malum finem,
+          <lb ed="#P" n="22"/>quia jam bonum non procuratur nisi ut 
+          me<lb break="no" ed="#P" n="23"/>dium ad finem injustum. Deinde dico quod,
+          <lb ed="#P" n="24"/>licet Deus bene faciat permittendo peccatum,
+          <lb ed="#P" n="25"/>aut concurrendo ad materialem actum ejus,
+          <lb ed="#P" n="26"/>nihilominus si id faceret ea intentione, ut 
+          ho<lb break="no" ed="#P" n="27"/>mo peccaret, aut expleret suam iniquam 
+          vo<lb break="no" ed="#P" n="28"/>luntatem, non recte faceret, ideoque 
+          repu<lb break="no" ed="#P" n="29"/>gnaret ejus bonitati. Jam vero qui Deo aliquid
+          <lb ed="#P" n="30"/>promittit, ut injustam actionem sibi perficere
+          <lb ed="#P" n="31"/>concedat, hoc ipso vult et procurat, ut Deus
+          <lb ed="#P" n="32"/>suam cooperationem, quaecumque illa sit, 
+          or<lb break="no" ed="#P" n="33"/>dinet ad favorem vel auxilium praestandum
+          <lb ed="#P" n="34"/>iniquae voluntati ejus; et ideo talis promissio,
+          <lb ed="#P" n="35"/>et actio, quae ex vi illius fit, non solum in se
+          <lb ed="#P" n="36"/>iniqua est, sed etiam speciali modo Deo 
+          inju<lb break="no" ed="#P" n="37"/>riosa. Unde qui ex affectu peccati desiderat, ut
+          <lb ed="#P" n="38"/>Deus permittat sibi talem occasionem, vel 
+          con<lb break="no" ed="#P" n="39"/>sensum alterius, peccat quidem inique 
+          optan<lb break="no" ed="#P" n="40"/>do justam permissioncm Dei, non tamen 
+          pec<lb break="no" ed="#P" n="41"/>cat speciali malitia contra religionem, sed 
+          so<lb break="no" ed="#P" n="42"/>lum illa, quae ex tali fine turpi desumitur.
+          <lb ed="#P" n="43"/>Qui autem petit a Deo ut hoc sibi concedat
+          <lb ed="#P" n="44"/>vel permittat, jam in hoc est sacrilegus, quia
+          <lb ed="#P" n="45"/>vult ut Deus id permittat ex iniqua ejus 
+          ora<lb break="no" ed="#P" n="46"/>tione. et consequenter ordinando 
+          permissio<lb break="no" ed="#P" n="47"/>uem suam ad finem explendi iniquam 
+          volun<lb break="no" ed="#P" n="48"/>tatem et voluptatem ejus lia ergo qui ex
+          <lb ed="#P" n="49"/>simili intentione aliquid Deo vovet, sacrilegam
+          <lb ed="#P" n="50"/>facit promissionem, et injuriam in Deum 
+          com<lb break="no" ed="#P" n="51"/>mittit, illam implendo, cum virtute includat
+          <lb ed="#P" n="52"/>illam petitionem. Ob hanc ergo causam votum
+          <lb ed="#P" n="53"/>illud invalidum est.
+        </p>
+        <p xml:id="szovsr-m21345-d1e1108">
+          <lb ed="#P" n="54"/>15. Cajetani limitatio excluditur.—Objectio.
+          <lb ed="#P" n="55"/>—Solutio. — Quare non mihi placet limitatio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quam Cajetanus adhibet, videlicet, si quis 
+          dis<lb break="no" ed="#P" n="57"/>cernat in opere malo bonum a malo, et voveat
+          <lb ed="#P" n="58"/>offerre mille aureos, solum ac praecise ut 
+          con<lb break="no" ed="#P" n="59"/>sequatur illud, quod secundum se bonum est
+          <lb ed="#P" n="60"/>in victoria injusta, votum validum esse, quia
+          <lb ed="#P" n="61"/>jam non habet malitiam. Hoc inquam, mihi
+          <lb ed="#P" n="62"/>non probatur, quia respcctu intentionis 
+          homi<lb break="no" ed="#P" n="63"/>nis sic promittentis, non existimo illa duo esse
+          <lb ed="#P" n="64"/>separabilia : quia tale bonum respectu 
+          homi<lb break="no" ed="#P" n="65"/>nis semper est finis malus, quia vel secundum
+          <lb ed="#P" n="66"/>se est rationi contrarium, vel ut obtinendum
+          <lb ed="#P" n="67"/>per tale medium belli injusti. Exemplum 
+          pri<lb break="no" ed="#P" n="68"/>mi est in eo qui vovet aliquid, si talem 
+          femi<lb break="no" ed="#P" n="69"/>nam turpiter cognoscere potuerit; 
+          quantum<lb break="no" ed="#P" n="70"/>cumque enim praescindat bonum voluptatis a
+          <lb ed="#P" n="71"/>malitia intemperantiae, tale votum est iniquum
+          <lb ed="#P" n="72"/>et invalidum. Exemplum secundi est, si quis
+          <lb ed="#P" n="73"/>intendat consequi honorem alias licitum per
+          <lb ed="#P" n="74"/>injustam vindictam; nam etiam tunc votum
+          <lb ed="#P" n="75"/>ordinatur ad tale bonum, ut consequendum
+          <lb ed="#P" n="76"/>tali modo; et in tali voto, quod est ad 
+          impetran<lb break="no" ed="#P" n="77"/>dum, non existimo illa duo posse separari.
+          <lb ed="#P" n="78"/>Dices: ergo non erit votum licitum pro 
+          obti<lb break="no" ed="#P" n="79"/>nendo tilio ex pravo concubitu, ante turpem
+          <lb ed="#P" n="80"/>actum commissum. Patet consequentia, quia
+          <lb ed="#P" n="81"/>tunc etiam bonum intenditur per turpe 
+          me<lb break="no" ed="#P" n="82"/>dium. Consequens autem est contra dicta.
+          <lb ed="#P" n="83"/>Respondeo non esse simile, quia in bello 
+          in<lb break="no" ed="#P" n="84"/>justo victoria est quasi intrinsecus terminus
+          <lb ed="#P" n="85"/>actionis, et ideo vovere pro victoria, 
+          uecessa<lb break="no" ed="#P" n="86"/>rio est vovere pro auxilio ad actionem; in
+          <lb ed="#P" n="87"/>actu vero gencrandi heminem, productio filii
+          <lb ed="#P" n="88"/>est effectus valde posterior, et quasi 
+          extrinse<lb break="no" ed="#P" n="89"/>cus respectu turpis actionis hominis. Et ideo
+          <lb ed="#P" n="90"/>separari potest effectus, qui est filius, ab actu
+          <lb ed="#P" n="91"/>turpis copulae, et sine petitione alicujus auxilii
+          <lb ed="#P" n="92"/>ad talem actum, potest filius postulari, et pro
+          <lb ed="#P" n="93"/>illo voveri modo supra dicto.
+        </p>
+        <p xml:id="szovsr-m21345-d1e1199">
+          <lb ed="#P" n="94"/>16. An liceat in bello cel duello injusto 
+          ali<lb break="no" ed="#P" n="95"/>quid pro salute sua vovere?—hResolutio dulii
+          <lb ed="#P" n="96"/>affirmativa. —Sed quaeres an in bello vel
+          <lb ed="#P" n="97"/>duello injusto liceat pro incolumitate propria
+          <lb ed="#P" n="98"/>aliquid vovere. Videtur enim ex dictis sequi,
+          <lb ed="#P" n="99"/>hoc non licere, quia hoc necessario ordinatur
+          <lb ed="#P" n="100"/>ad victoriam injustam, imo est magna pars
+          <lb ed="#P" n="101"/>ejus, unde non possunt intentione separari.
+          <lb ed="#P" n="102"/>Nihilominus probabilius censeo, iale votum
+          <lb ed="#P" n="103"/>esse validum, cum Cajet., Soio, et Navarro,
+          <lb ed="#P" n="104"/>c. 12, num. 32, qv:a id, quod postulatur,
+          <lb ed="#P" n="105"/>bonum est. ut constat ; et non intenditur per
+          <lb ed="#P" n="106"/>turpe medium , quia duellum aut bellum 
+          in<lb break="no" ed="#P" n="107"/>justum non est medium ad incolumitatem
+          <lb ed="#P" n="108"/>propriam obtinendam, sed potius de se est ilii
+          <lb ed="#P" n="109"/>contrarium, et solum petitur a Deo, ut non
+          <lb ed="#P" n="110"/>permittat talem effectum, quod etiam est per
+          <pb ed="#P" n="856"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>se bonum, et Deum non dedecet. Unde etiam
+          <lb ed="#P" n="2"/>talis effectus de se hon ordinatur ad malum
+          <lb ed="#P" n="3"/>finem, neque in eo casu ordivatur a vovente
+          <lb ed="#P" n="4"/>in malum finem; ergo tale votum non est
+          <lb ed="#P" n="5"/>iniquum ex objecto vel ex fine; non est ergo
+          <lb ed="#P" n="6"/>cur invalidum sit. Nam quod non occici, 
+          ver<lb break="no" ed="#P" n="7"/>bi gratia, sit valde utile ad comparandam
+          <lb ed="#P" n="8"/>victoriam, et veluti quaedam pars ejus, non
+          <lb ed="#P" n="9"/>obstat ; quia qui hoc postulat a Deo, et 
+          prop<lb break="no" ed="#P" n="10"/>terea aliquid promittit, non ordinat aut petit
+          <lb ed="#P" n="11"/>a Deo propriam incolumitatem, tanquam
+          <lb ed="#P" n="12"/>medium ad inferendum malum alteri, sed
+          <lb ed="#P" n="13"/>per se tantum respiciendo ad bonum et 
+          com<lb break="no" ed="#P" n="14"/>modum propriae naturae. In victoria autem
+          <lb ed="#P" n="15"/>duo distingui possunt, immunitas a propria
+          <lb ed="#P" n="16"/>caesione seu passione, et offensio alterius, ct
+          <lb ed="#P" n="17"/>in hoc posteriori consistit pravitas injustae
+          <lb ed="#P" n="18"/>victoriae: primum autem per se non est 
+          ma<lb break="no" ed="#P" n="19"/>lum, et ad illud spectat non occidi aut non
+          <lb ed="#P" n="20"/>vulnerari, et ideo propter hoc praecise aliquid
+          <lb ed="#P" n="21"/>vovere non videtur inordinatum.
+        </p>
+        <p xml:id="szovsr-m21345-d1e1288">
+          <lb ed="#P" n="22"/>17. Objectio. —Sed instabit aliquis, quia
+          <lb ed="#P" n="23"/>quamvis haec vera sint considerando in 
+          com<lb break="no" ed="#P" n="24"/>muni puram defensionem. vel liberationem a
+          <lb ed="#P" n="25"/>morte, vulnere, etc., tamen in individuo, 
+          qua<lb break="no" ed="#P" n="26"/>tenus talis defensio conjuncta est cum 
+          offen<lb break="no" ed="#P" n="27"/>sione alterius, vix est separabilis a malitia 
+          il<lb break="no" ed="#P" n="28"/>lius, quia est morale auxilium ad ipsam 
+          of<lb break="no" ed="#P" n="29"/>fensionem. Quod patet, si casus similis inter
+          <lb ed="#P" n="30"/>homines consideretur; nam si quis ita 
+          assis<lb break="no" ed="#P" n="31"/>tat alicui in duello, ut solum defensioni ejus
+          <lb ed="#P" n="32"/>incumbat, censetur cooperari ad homicidtum,
+          <lb ed="#P" n="33"/>etiamsi malum aiteri non inferat, neque 
+          ta<lb break="no" ed="#P" n="34"/>lem habeat directam voluntatem. Similiter
+          <lb ed="#P" n="35"/>si aliquis fieret socius alteri eunti ad 
+          adulte<lb break="no" ed="#P" n="36"/>rium committendum, solum ut eum a malo
+          <lb ed="#P" n="37"/>tueretur, absque ulla alia cooperatione, 
+          cen<lb break="no" ed="#P" n="38"/>seretur illum juvare ad malum, et qui 
+          ali<lb break="no" ed="#P" n="39"/>quem ad id invitaret, censeretur illum 
+          indu<lb break="no" ed="#P" n="40"/>cere al malum; ergo idem censendum est
+          <lb ed="#P" n="41"/>respectu Dei. Nam qui voluntarie se ingerit
+          <lb ed="#P" n="42"/>periculosae actioni, alioqui injustae seu 
+          ini<lb break="no" ed="#P" n="43"/>quae, et in illa vult specialiter protegi a Deo
+          <lb ed="#P" n="44"/>quoad suam defensionem, virtualiter videtur
+          <lb ed="#P" n="45"/>velle juvari a Deo ad illam actionem. Item si
+          <lb ed="#P" n="46"/>certo sciret Deum, incolumem illum 
+          servatu<lb break="no" ed="#P" n="47"/>rum in ilio periculo, sine dubio majori 
+          volun<lb break="no" ed="#P" n="48"/>tate et animo aggrederetur talem actionem ;
+          <lb ed="#P" n="49"/>ergo signum est illud reputari magnum 
+          prae<lb break="no" ed="#P" n="50"/>sidium ad illam actionem.
+        </p>
+        <p xml:id="szovsr-m21345-d1e1353">
+          <lb ed="#P" n="51"/>18. Solutio. — Respondeo, argumentum 
+          so<lb break="no" ed="#P" n="52"/>lum concludere, quod si vovens haec non 
+          se<lb break="no" ed="#P" n="53"/>pararet, et sub illo titulo per tale votum 
+          in<lb break="no" ed="#P" n="54"/>tendat victoriam , aut vindictam injustam,
+          <lb ed="#P" n="55"/>graviter peccabit, et votum erit nullum. Nihi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lominus tamen absolute illa sunt separabilia,
+          <lb ed="#P" n="57"/>ct si homo recta iutentione procedat, votum
+          <lb ed="#P" n="58"/>erit validum, ut dixi; nec exempla humana
+          <lb ed="#P" n="59"/>sunt similia, quia non est in hoc comparandus
+          <lb ed="#P" n="60"/>Deus cum homine; quia homo tenetur non
+          <lb ed="#P" n="61"/>concurrere etiam illo modo in simili casu:
+          <lb ed="#P" n="62"/>Deus autem non tenetur, et homo non ita 
+          po<lb break="no" ed="#P" n="63"/>test separare defensionem unius ab offensione
+          <lb ed="#P" n="64"/>alterius, sicut potest Deus.
+        </p>
+        <p xml:id="szovsr-m21345-d1e1388">
+          <lb ed="#P" n="65"/>19. Quarta assertio- eotum factum in 
+          gra<lb break="no" ed="#P" n="66"/>tiarum actionem , pro termino actionis turpis
+          <lb ed="#P" n="67"/>jam facte, validum est.—Dico quarto: votum
+          <lb ed="#P" n="68"/>factum in gratiarum actionem pro victoria
+          <lb ed="#P" n="69"/>injusta jam parta, vel pro alio simili termino
+          <lb ed="#P" n="70"/>actionis turpis jam factae, si alioqui sit de 
+          ma<lb break="no" ed="#P" n="71"/>teria capaci, validum erit, nec ratione illius
+          <lb ed="#P" n="72"/>circumstantiae fit illacitum. Aliquibus non 
+          pla<lb break="no" ed="#P" n="73"/>cet haec assertio ; putant enim eamdem esse
+          <lb ed="#P" n="74"/>rationem, sive victoria praecesserit, sive 
+          ex<lb break="no" ed="#P" n="75"/>pectetur. Quae videtur esse opinio Cajetani:
+          <lb ed="#P" n="76"/>nam ejusdem malitiae esse existimat vovere
+          <lb ed="#P" n="77"/>in gratiarum actionem, et ad impetrandum.
+          <lb ed="#P" n="78"/>Dico tamen non esse similem rationem de 
+          vo<lb break="no" ed="#P" n="79"/>to, ante vel post effectum obtentum emisso.
+          <lb ed="#P" n="80"/>Nam quando votum praecedit , ordinatur ad
+          <lb ed="#P" n="81"/>iniquam impetrationem a Deo; quando vero
+          <lb ed="#P" n="82"/>subsequitur, jam non ordinatur actio Dei in
+          <lb ed="#P" n="83"/>malum finem , cum supponatur facta, sed 
+          so<lb break="no" ed="#P" n="84"/>lum pro effectu jam facto, qui in se bonu
+          <lb ed="#P" n="85"/>est, gratiae aguntur Deo, quod ex se bonum
+          <lb ed="#P" n="86"/>est, et non habet circumstantiam malam.
+          <lb ed="#P" n="87"/>Unde Cajetanus, Navarrus et alii fatentur,
+          <lb ed="#P" n="88"/>quando quis gratias agit pro victoria absolute
+          <lb ed="#P" n="89"/>et sine iniquitate considerata , non male 
+          age<lb break="no" ed="#P" n="90"/>re, et consequenter votum de tali gratiarum
+          <lb ed="#P" n="91"/>actione validum esse. At vero quotiescumque
+          <lb ed="#P" n="92"/>gratiarum actio est pure de effectu jam 
+          conse<lb break="no" ed="#P" n="93"/>cuto, separatur bonitas effectus ab omni 
+          mali<lb break="no" ed="#P" n="94"/>tia ; constat enim hominem non agere gratias
+          <lb ed="#P" n="95"/>pro suo peccato, sed pro tali effectu, ut fuit a
+          <lb ed="#P" n="96"/>Deo, a quo non potuit inique fieri; neque 
+          ho<lb break="no" ed="#P" n="97"/>mo tales gratias agendo, hoc beo attribuit,
+          <lb ed="#P" n="98"/>neque explicite, neque implicite, quia solum
+          <lb ed="#P" n="99"/>agit gratias pro illo bono, sicut est, et sicut
+          <lb ed="#P" n="100"/>factum est a Deo; ergo sine illa limitatione
+          <lb ed="#P" n="101"/>vel distinctione absolute et simphciter pura
+          <lb ed="#P" n="102"/>gratiarum actio pro bono jam collato bona
+          <lb ed="#P" n="103"/>est. In hoc ergo magna videtur esse differentia
+          <lb ed="#P" n="104"/>inter votum impetrativum et gratificativum,
+          <lb ed="#P" n="105"/>quod in illo, si fiat propter turpem finem, 
+          dis<lb break="no" ed="#P" n="106"/>cerni non potest bonitas a malitia; in hoc
+          <lb ed="#P" n="107"/>vero non solum discerni potest, sed etiam 
+          sem<lb break="no" ed="#P" n="108"/>per discernitur, moraliter loquendo, nisi 
+          ho<lb break="no" ed="#P" n="109"/>mo ex pura malitia, et absque ulla necessitate
+          <lb ed="#P" n="110"/>velit Deo turpitudinem sui actus imputare,
+        </p>
+        <p xml:id="szovsr-m21345-d1e1490">
+          <pb ed="#P" n="857"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>20. Duplex limitatio conclusioni apponitur.
+          <lb ed="#P" n="2"/>-—Prima. -Oportet tamen huic assertioni 
+          du<lb break="no" ed="#P" n="3"/>plicem limitationem adhibere. Primam 
+          insi<lb break="no" ed="#P" n="4"/>nuavi, cum dixi debere esse puram 
+          gratia<lb break="no" ed="#P" n="5"/>rum actionem. Nam duobus modis potest 
+          in<lb break="no" ed="#P" n="6"/>telligi, hoc votum esse post victoriam partam:
+          <lb ed="#P" n="7"/>primo, quantum ad executionem rei 
+          promis<lb break="no" ed="#P" n="8"/>sae, non vero quantum ad ipsam 
+          promissio<lb break="no" ed="#P" n="9"/>nem ; ut, verbi gratia, si ante congressum belli,
+          <lb ed="#P" n="10"/>votum talis peregrinationis fiat in gratiarum
+          <lb ed="#P" n="11"/>actionem victoriae, si concedatur. Secundo,
+          <lb ed="#P" n="12"/>ut votum quoad utrumque fiat post victoriam,
+          <lb ed="#P" n="13"/>quia nimirum hac comparata, et vovetur 
+          pe<lb break="no" ed="#P" n="14"/>regrinatio, et fit in gratiarum actionem. In
+          <lb ed="#P" n="15"/>hoc ergo locum habet doctrina data. Quando
+          <lb ed="#P" n="16"/>vero fit priori modo, votum etiam est 
+          impe<lb break="no" ed="#P" n="17"/>trativum, et ideo ccnseo esse iniquum, 
+          quan<lb break="no" ed="#P" n="18"/>tum ad ipsam promissionem. Quantum ad
+          <lb ed="#P" n="19"/>valorem autem ejus posset quis dubitare, quia
+          <lb ed="#P" n="20"/>in executione votum illud jam non est 
+          impe<lb break="no" ed="#P" n="21"/>trativum, etiamsi in intentione vel 
+          promis<lb break="no" ed="#P" n="22"/>sione fuerit. Nihilominus tamen censeo tale
+          <lb ed="#P" n="23"/>votum esse invalidum, quia observare illud
+          <lb ed="#P" n="24"/>votum, esset profiteri, per illud votum 
+          impe<lb break="no" ed="#P" n="25"/>tratam esse a Deo injustam victoriam, quod
+          <lb ed="#P" n="26"/>falsum est, et injuriosum Deo. Itemn quia 
+          il<lb break="no" ed="#P" n="27"/>lud solveretur tanquam pretium iniquo pacto
+          <lb ed="#P" n="28"/>comparatum, quod licet homini non repugnet,
+          <lb ed="#P" n="29"/>contrarium est bonitati divinae, ut diximus.
+          <lb ed="#P" n="30"/>Ac propterea in illo casu, si quis vult 
+          actic<lb break="no" ed="#P" n="31"/>nem, quam promis:t in gratiarum actionem,
+          <lb ed="#P" n="32"/>sine peccato facere, debet praescindere a 
+          vo<lb break="no" ed="#P" n="33"/>to, ut possit omnino gratiarum actionem ab
+          <lb ed="#P" n="34"/>impetratione separare. Poterit ergo sponte
+          <lb ed="#P" n="35"/>illam facere, non ex obligatione voti, atque
+          <lb ed="#P" n="36"/>ita etiam discernere bonitatem effectus a 
+          ma<lb break="no" ed="#P" n="37"/>litia sua.
+        </p>
+        <p xml:id="szovsr-m21345-d1e1578">
+          <lb ed="#P" n="38"/>21. Secunda. —Explicatur res amplius 
+          emein<lb break="no" ed="#P" n="39"/>plis. —dAltera limitatio est, ut bonum per 
+          ac<lb break="no" ed="#P" n="40"/>tionem iniquam comparatum tale sit, ut 
+          ho<lb break="no" ed="#P" n="41"/>nescte et juste retineatur; nam si malitia 
+          ac<lb break="no" ed="#P" n="42"/>tionis quodammodo perseveret in effectu, non
+          <lb ed="#P" n="43"/>potest gratiarum actio licite fieri, etiam illo
+          <lb ed="#P" n="44"/>jam consecuto, et ideo nec votum de tali 
+          gra<lb break="no" ed="#P" n="45"/>tiarum actione validum erit. Explicatur 
+          exem<lb break="no" ed="#P" n="46"/>plis utraque pars. Sumit aliquis in duello
+          <lb ed="#P" n="47"/>vindictam de inimico, occidendo eum, qui
+          <lb ed="#P" n="48"/>alapam sibi dederat, et ita honorem 
+          recupe<lb break="no" ed="#P" n="49"/>rat, vel aliud simile commodum obtinet, quod
+          <lb ed="#P" n="50"/>malum non est, etiamsi malo medio fuerit
+          <lb ed="#P" n="51"/>comparatum. Tune dico gratiarum actionem
+          <lb ed="#P" n="52"/>pro tali bono licitam esse, et votum de illa 
+          es<lb break="no" ed="#P" n="53"/>se validum, quia illud bonum, ut jam 
+          obten<lb break="no" ed="#P" n="54"/>tum, recte potest Deo attribui, separando 
+          bo<lb break="no" ed="#P" n="55"/>nitatem effectus a malitia medii, seu actionis,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Si autem rex inferat injustum bellum aiteri,
+          <lb ed="#P" n="57"/>et comparata victoria ejus regnum usurpet,
+          <lb ed="#P" n="58"/>quod juste retinere non potest, tunc dico, 
+          vo<lb break="no" ed="#P" n="59"/>tum in gratiarum actionem pro tali regno 
+          ob<lb break="no" ed="#P" n="60"/>tento iniquum esse et invalidum. Quia licet
+          <lb ed="#P" n="61"/>actio iniqua physice videatur jam finita et
+          <lb ed="#P" n="62"/>praeterita, moraliter tamen durat, et habet
+          <lb ed="#P" n="63"/>(ut aiunt) tractum successivum; atque ita
+          <lb ed="#P" n="64"/>agere Deo gratias pro tali bono consecuto est
+          <lb ed="#P" n="65"/>illi attribuere injustam retentionem ejus, 
+          il<lb break="no" ed="#P" n="66"/>lam aestimando tanquam Dei beneficium.
+          <lb ed="#P" n="67"/>Item quia gratiarum actio pro tali bono est
+          <lb ed="#P" n="68"/>quaedam virtualis petitio conservationis ejus,
+          <lb ed="#P" n="69"/>et est quaedam confirmatio propositi retinendi
+          <lb ed="#P" n="70"/>illud; est denique gaudere de injusta illius 
+          bo<lb break="no" ed="#P" n="71"/>ni possessione ; hoc autem totum iniquum est ;
+          <lb ed="#P" n="72"/>ergo haec gratiarum actio est impia; ergo
+          <lb ed="#P" n="73"/>et votum de illa praestanda invalidum est.
+          <lb ed="#P" n="74"/>Oportet ergo ut et gratiarum actio sit pura,
+          <lb ed="#P" n="75"/>et bonum (ut ita dicam) sit purum, id est, non
+          <lb ed="#P" n="76"/>habens admistam perseverantem injustitiam,
+          <lb ed="#P" n="77"/>vel aliam similem iniquitatem.
+        </p>
+        <p xml:id="szovsr-m21345-d1e1669">
+          <lb ed="#P" n="78"/>22. Quarta assertio: votum factwum sub 
+          con<lb break="no" ed="#P" n="79"/>ditiene turpi, ut pura conditio est, validum est.
+          <lb ed="#P" n="80"/>— Diico quinto : si votum fiat sub conditione
+          <lb ed="#P" n="81"/>turpi habente rationem purae conditionis, et
+          <lb ed="#P" n="82"/>non cause vel rationis voti, nihil obstabit 
+          tur<lb break="no" ed="#P" n="83"/>pitudo ejus quominus votum validum sit. Haec
+          <lb ed="#P" n="84"/>conclusio non placuit Soto, non tam quia falsa
+          <lb ed="#P" n="85"/>sit, quam quia putat hypothesim esse 
+          impos<lb break="no" ed="#P" n="86"/>sibilem: Quia nullus (inquit) sub mera 
+          condi<lb break="no" ed="#P" n="87"/>tione vovet, sed Deun: sui sceleris patronum
+          <lb ed="#P" n="88"/>compellat. Assertionem vero posuit 
+          Cajeta<lb break="no" ed="#P" n="89"/>nus, et sequitur Navarrus, et data hypothesi
+          <lb ed="#P" n="90"/>convincitur argumentis in principio capitis
+          <lb ed="#P" n="91"/>positis pro ratione dubitandi, quia tunc 
+          mate<lb break="no" ed="#P" n="92"/>ria voti non fit mala ex turpi conditione; imo
+          <lb ed="#P" n="93"/>neque ipsum votum, quia non est 
+          circumstan<lb break="no" ed="#P" n="94"/>tia ejus. Potest autem esse conditio suspensiva
+          <lb ed="#P" n="95"/>consensus et obligationis; quia, licet sit turpis,
+          <lb ed="#P" n="96"/>non habetur pro non adjecta, sicut in 
+          matri<lb break="no" ed="#P" n="97"/>monio ; nam illud est peculiare in 
+          matrimo<lb break="no" ed="#P" n="98"/>nio, et ex praesumptione juris in favorem ejus,
+          <lb ed="#P" n="99"/>juxta capnt ultimum de Condit. apposit. Hic
+          <lb ed="#P" n="100"/>autem nullum est tale jus positivum, sed ex
+          <lb ed="#P" n="101"/>sola rei natura judicandum est; sic autem
+          <lb ed="#P" n="102"/>conditio apposita cujuscumque qualitatis 
+          sus<lb break="no" ed="#P" n="103"/>pendit consensum. Post impletam vero talem
+          <lb ed="#P" n="104"/>conditionem obhgabit votum, quia honeste et
+          <lb ed="#P" n="105"/>sancte impleri potest. Hypothesis autem illa,
+          <lb ed="#P" n="106"/>licet rara sit, non est impossibilis, et in ordine
+          <lb ed="#P" n="107"/>ad humanam commoditatem potest habere 
+          ra<lb break="no" ed="#P" n="108"/>tionem non turpem, neque inhonestam, ut in
+          <lb ed="#P" n="109"/>num. 2 declaravi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="735"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m18476"><!-- t5l4c1 -->
+        <head xml:id="szovsr-m18476-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-m18476-Hd1e103" type="question-title"/>
+        <p xml:id="szovsr-m18476-d1e105">
+          <lb ed="#P" n="30"/>CAPUT I.
+          <lb ed="#P" n="31"/>UTRUM ADJURATIO SIT PROPRIUS ACTUS RELIGIONIS,
+          <lb ed="#P" n="32"/>VEL QUID SIT?
+        </p>
+        <p xml:id="szovsr-m18476-d1e114">
+          <lb ed="#P" n="33"/>1. Significationes verbi adjuratio. —
+          Impri<lb break="no" ed="#P" n="34"/>mis circa verbum adjurandi cavenda est
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="35"/>aequivocatio ; interdum enim accipitur in 
+          ea<lb break="no" ed="#P" n="36"/>dem significatione, qua verbum jurandi, 
+          so<lb break="no" ed="#P" n="37"/>lumque per illam praepositionem ad, 
+          denota<lb break="no" ed="#P" n="38"/>tur quaedam vehementia et firmitas in 
+          jura<lb break="no" ed="#P" n="39"/>mento praestando, ut ex Latinis constat. Apud
+          <lb ed="#P" n="40"/>eos vero non est in usu adjurationis nomen,
+          <lb ed="#P" n="41"/>licet inveniatur nomen abjurationis, quod 
+          ju<lb break="no" ed="#P" n="42"/>ramentum quoddam negativum significat,
+          <lb ed="#P" n="43"/>cum, scilicet, aliquis jurat se non fecisse, vel
+          <lb ed="#P" n="44"/>non esse facturum aliquid. Adjuratio vero in
+          <lb ed="#P" n="45"/>praesenti non significat ipsum actum jurandi.
+          <lb ed="#P" n="46"/>Unde in alia significatione, adjurare idem
+          <lb ed="#P" n="47"/>est quod obtestari aut imprecari, per sacram
+          <lb ed="#P" n="48"/>invocationem. Et in hoc usu invenitur haec
+          <lb ed="#P" n="49"/>vox in Scriptura , et apud Patres Latinos 
+          an<lb break="no" ed="#P" n="50"/>tiquissimos. Lactantius, l. 4, c. 17, tractans
+          <lb ed="#P" n="51"/>de virtute crucis, inquit: Quanto furori sit
+          <lb ed="#P" n="52"/>dennonibus hoc signum, sciet, qui viderit, 
+          qua<lb break="no" ed="#P" n="53"/>tenus adjurati per Christum demones de 
+          cor<lb break="no" ed="#P" n="54"/>goribus, quae obsederint, fugiant ; et Tertul.,
+          <lb ed="#P" n="55"/>in Apolog., c. 32: Demones adjurare 
+          consue<lb break="no" ed="#P" n="56"/>vimus , ut illos de hominibus emigamus. Et
+          <lb ed="#P" n="57"/>Cyprian., in lib. de Idol. vani., circa med.,
+          <lb ed="#P" n="58"/>et ad Demetriad., ait : O si audire velles eos
+          <lb ed="#P" n="59"/>(id est, daemones), quando a nobis adjuran-
+          <pb ed="#P" n="736"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tur, et torquentur spiritualibus flagris; et 
+          in<lb break="no" ed="#P" n="2"/>ferius ex Scriptura hanc eamdem rem 
+          com<lb break="no" ed="#P" n="3"/>probabimus. Tertio addi potest adjurare , 
+          in<lb break="no" ed="#P" n="4"/>terdum significare idem quod ad jurandum
+          <lb ed="#P" n="5"/>inducere, seu aliquid sub juramento 
+          postu<lb break="no" ed="#P" n="6"/>lare, ut significavit Greg. Nyssen., orat. 4 et
+          <lb ed="#P" n="7"/>13 in Cant., circa illa verb. c.2et 5: Adjuro
+          <lb ed="#P" n="8"/>vos, filie Jerusalem, etc., et alia graviora 
+          lo<lb break="no" ed="#P" n="9"/>ca Scripturae infra referemus. In praesenti 
+          au<lb break="no" ed="#P" n="10"/>tem non ita sumitur, sed in secunda tantum
+          <lb ed="#P" n="11"/>significatione.
+        </p>
+        <p xml:id="szovsr-m18476-d1e205">
+          <lb ed="#P" n="12"/>2. Ad quas personas dicat respectum 
+          adju<lb break="no" ed="#P" n="13"/>ratio. — Atque ex hac vocis significatione
+          <lb ed="#P" n="14"/>intelligitur primo, in adjuratione , praeter
+          <lb ed="#P" n="15"/>personam adjurantem, duas alias 
+          interve<lb break="no" ed="#P" n="16"/>nire : unam, quae adjuratur, aliam per quam
+          <lb ed="#P" n="17"/>adjuratur. Hoc patet ex verbis Principis 
+          Sa<lb break="no" ed="#P" n="18"/>zerdotum ad Christum , Matt. 26: Adjuro te
+          <lb ed="#P" n="19"/>per Deum vivum ; loquebatur enim ad 
+          Chris<lb break="no" ed="#P" n="20"/>tum, et illum adjurabat; interponebat autem
+          <lb ed="#P" n="21"/>Dei vivi auctoritatem, qua Christus permotus,
+          <lb ed="#P" n="22"/>veritatem confitendo, suae interrogationi 
+          res<lb break="no" ed="#P" n="23"/>ponderet. Includit ergo adjuratio respectum
+          <lb ed="#P" n="24"/>ad duplicem personam : ad unam quidem
+          <lb ed="#P" n="25"/>tanquam ad eam quae inducitur, vel 
+          impelli<lb break="no" ed="#P" n="26"/>tur ad aliquid agendum vel non agendum, et
+          <lb ed="#P" n="27"/>ideo illa denominatur passive adjurata ; ad
+          <lb ed="#P" n="28"/>aliam vero, ut ad eam quae interponitur ut
+          <lb ed="#P" n="29"/>simul rogans vel imperans majori auctoritate,
+          <lb ed="#P" n="30"/>ut efficacius persona adjurata inclinetur ad
+          <lb ed="#P" n="31"/>id faciendum quod ab ea postulatur, et ideo
+          <lb ed="#P" n="32"/>illa persona non dicitur adjurari, sed per 
+          il<lb break="no" ed="#P" n="33"/>lam, vel propter illam altera adjurari. Unde
+          <lb ed="#P" n="34"/>persona adjurata est quasi materiale 
+          objec<lb break="no" ed="#P" n="35"/>tum illius actus, ut adjuratio est, nam circa
+          <lb ed="#P" n="36"/>illam directe versatur, et illam passive 
+          deno<lb break="no" ed="#P" n="37"/>minat, ut dixi, tanquam subjectum, seu 
+          ma<lb break="no" ed="#P" n="38"/>teriam circa quam versatur. Altera vero 
+          per<lb break="no" ed="#P" n="39"/>sona, per quam fit adjuratio, videtur se 
+          habe<lb break="no" ed="#P" n="40"/>re per modum objecti formalis respectu 
+          ad<lb break="no" ed="#P" n="41"/>jurationis, quia per illam seu propter illam
+          <lb ed="#P" n="42"/>fit.
+        </p>
+        <p xml:id="szovsr-m18476-d1e276">
+          <lb ed="#P" n="43"/>3. Adjurationem esse actum honestum eam
+          <lb ed="#P" n="44"/>suo genere. — Qua conditiones requirantur, ut
+          <lb ed="#P" n="45"/>adjuratio sit honesta. — Secundo sequitur ex
+          <lb ed="#P" n="46"/>hac declaratione , actum hunc in suo genere
+          <lb ed="#P" n="47"/>honestum esse, si circa debitam materiam, et
+          <lb ed="#P" n="48"/>cum reliquis circumstantiis fiat. Probatur
+          <lb ed="#P" n="49"/>primo ex Scriptura, quia interdum fiebat 
+          ad<lb break="no" ed="#P" n="50"/>juratio auctoritate Dei, Num. 5, ubi de 
+          mu<lb break="no" ed="#P" n="51"/>liere suspecta de adulterio dicitur: Et 
+          adju<lb break="no" ed="#P" n="52"/>rabis eam. Quamvis enim aliqui censeant 
+          ad<lb break="no" ed="#P" n="53"/>jurandi verbum ibi in tertia significatione
+          <lb ed="#P" n="54"/>sumi, ut idem esset adjurare adulteram quod
+          <lb ed="#P" n="55"/>maledictionibus eam subjicere, et per exe-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>crationem illam ad jurandum inducere , 
+          nihi<lb break="no" ed="#P" n="57"/>lominus existimo, illam fuisse quamdam 
+          ad<lb break="no" ed="#P" n="58"/>jurationem propriam, sicut nunc de illa 
+          lo<lb break="no" ed="#P" n="59"/>quimur, ut infra declarabo. Sancti etiam viri
+          <lb ed="#P" n="60"/>solent adjurationibus uti, ut de Abraham 
+          le<lb break="no" ed="#P" n="61"/>gitur, Gen. 24, et de Jacob., Gen. 50, quas
+          <lb ed="#P" n="62"/>etiam fuisse proprias adjurationes infra 
+          osten<lb break="no" ed="#P" n="63"/>dam. Usus etiam Ecclesiae manifestus est.
+          <lb ed="#P" n="64"/>Ratione vero declaratur corollarium, quia
+          <lb ed="#P" n="65"/>duas habitudines (ut dixi) includit adjuratio:
+          <lb ed="#P" n="66"/>utraque autem potest esse honesta ; ergo et
+          <lb ed="#P" n="67"/>tota actio. Minor declaratur, nam adjuratio
+          <lb ed="#P" n="68"/>respectu personae adjuratae est inductio 
+          quae<lb break="no" ed="#P" n="69"/>dam ; haec autem erit honesta, si tria 
+          obser<lb break="no" ed="#P" n="70"/>ventur. Primum est, ut ad actionem, vel
+          <lb ed="#P" n="71"/>omissionem de se bonam, seu quae bene fieri
+          <lb ed="#P" n="72"/>possit, inducatur, alias esset prava et 
+          inordi<lb break="no" ed="#P" n="73"/>nata inductio. Secundum est, ut fiat debito
+          <lb ed="#P" n="74"/>modo; potest enim inductio fieri vel rogando
+          <lb ed="#P" n="75"/>tantum, et amice petendo, vel imperando et
+          <lb ed="#P" n="76"/>quasi cogendo, vel objurgando; hos enim
+          <lb ed="#P" n="77"/>duos modos distinxit D. Thomas, d. art. 1;
+          <lb ed="#P" n="78"/>licet alii solam inductionem aut imperium
+          <lb ed="#P" n="79"/>in virtute alicujus superioris velint esse 
+          ad<lb break="no" ed="#P" n="80"/>jurationem ; nam alia, quae fit rogando, magis
+          <lb ed="#P" n="81"/>pertinet ad obsecrationem, ut videre licet in
+          <lb ed="#P" n="82"/>Abulen., Matth. 8, q. 112. Sed non oportet
+          <lb ed="#P" n="83"/>de nomine contendere, quia nihil impedit
+          <lb ed="#P" n="84"/>eamdem actionem diversis respectibus 
+          obse<lb break="no" ed="#P" n="85"/>crationem et adjurationem appellari, ut infra
+          <lb ed="#P" n="86"/>declarabo. Ex illis ergo duobus adjurandi
+          <lb ed="#P" n="87"/>modis unus esse potest accommodatus uni
+          <lb ed="#P" n="88"/>personae , alius vero alteri. Debet ergo, qui
+          <lb ed="#P" n="89"/>adjurat, observare et conditionem personae
+          <lb ed="#P" n="90"/>quam adjurat, et habitudinem seu 
+          proportio<lb break="no" ed="#P" n="91"/>nem, vel potestatem quam respectu illius 
+          ha<lb break="no" ed="#P" n="92"/>bet, et juxta illius exigentiam modum 
+          adju<lb break="no" ed="#P" n="93"/>randi seu inducendi tenere, et ita honesto
+          <lb ed="#P" n="94"/>modo fiet adjuratio, ut in capite sequenti,
+          <lb ed="#P" n="95"/>descendendo ad singulas personas adjurabiles
+          <lb ed="#P" n="96"/>(ut sic dicam), distinctius explicabimus.
+          <lb ed="#P" n="97"/>Tertia conditio esse potest, ut inductio 
+          ha<lb break="no" ed="#P" n="98"/>beat justam et rationabilem causam , quae in
+          <lb ed="#P" n="99"/>omni fere negotio vel humana actione 
+          neces<lb break="no" ed="#P" n="100"/>saria est. Simili modo, observandus est 
+          de<lb break="no" ed="#P" n="101"/>bitus modus respectu ejus, per quem 
+          adjura<lb break="no" ed="#P" n="102"/>tio fit ; ille enim interponitur, ut det 
+          auctori<lb break="no" ed="#P" n="103"/>tatem, favorem, vel virtutem, inductioni 
+          alte<lb break="no" ed="#P" n="104"/>rius; ergo etiam respectu illius necessarium est
+          <lb ed="#P" n="105"/>ut inductio sit honesta, et proportonata 
+          con<lb break="no" ed="#P" n="106"/>ditioni ejus. Si ergo haec observentur, ut 
+          fa<lb break="no" ed="#P" n="107"/>cile fieri potest, adjuratio erit honesta. Qualis
+          <lb ed="#P" n="108"/>autem sit haec honestas, et quomodo 
+          obser<lb break="no" ed="#P" n="109"/>vanda sit, in sequentibus fiet manifestum.
+        </p>
+        <p xml:id="szovsr-m18476-d1e426">
+          <lb ed="#P" n="110"/>4. Adjuratio non habet specialem rationem
+          <pb ed="#P" n="737"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>religionis respectu personae adjurate. — 
+          Ter<lb break="no" ed="#P" n="2"/>tio sequitur ex dictis, adjurationem non 
+          ha<lb break="no" ed="#P" n="3"/>bere specialem rationem actus religionis ex
+          <lb ed="#P" n="4"/>habitudine ad personam adjuratam. 
+          Proba<lb break="no" ed="#P" n="5"/>tur, quia religio habet Deum pro objecto;
+          <lb ed="#P" n="6"/>ergo omnis actus religionis ut sic debet circa
+          <lb ed="#P" n="7"/>Deum versari ; sed adjuratio, ut respicit per
+          <lb ed="#P" n="8"/>sonam adjuratam , non versatur per se 
+          lo<lb break="no" ed="#P" n="9"/>quendo circa Deum, sed circa creaturas, 
+          ni<lb break="no" ed="#P" n="10"/>mirum homines vel daemones, ut exemplis 
+          ad<lb break="no" ed="#P" n="11"/>ductis constat, et in sequenti capite latius 
+          di<lb break="no" ed="#P" n="12"/>cetur ; ergo adjuratio non habet quod sit 
+          reli<lb break="no" ed="#P" n="13"/>gionis actus ex parte pcrsonae adjuraiae. Dices:
+          <lb ed="#P" n="14"/>interdum potest Deus ipse adjurari; ergo tunc
+          <lb ed="#P" n="15"/>saltem pcertinebit adjuratio etiam secundum
+          <lb ed="#P" n="16"/>illum respectum ad virtutem religionis. 
+          Res<lb break="no" ed="#P" n="17"/>ponderi potest negando consequentiam, quia
+          <lb ed="#P" n="18"/>etiam tunc non attingitur Deus ut Deus, sed
+          <lb ed="#P" n="19"/>secundum quamdam generalem rationem, quae
+          <lb ed="#P" n="20"/>potest esse communis Deo et creaturis. Verius
+          <lb ed="#P" n="21"/>tamen dicitur tunc quidem actum illum 
+          se<lb break="no" ed="#P" n="22"/>cundum illam habitudinem pertinere ad 
+          reli<lb break="no" ed="#P" n="23"/>gionem, sed non esse actum ab oratione seu
+          <lb ed="#P" n="24"/>petitione distinctum. Adjuramus enim Deum
+          <lb ed="#P" n="25"/>petendo aliquid ab ipso propter ipsum; quia
+          <lb ed="#P" n="26"/>non possuinus recte inducere Deum ad aliquid
+          <lb ed="#P" n="27"/>agendum, nisi humilter ab ipso deprecando;
+          <lb ed="#P" n="28"/>ergo, licet illamet actio sub alio respectu 
+          adju<lb break="no" ed="#P" n="29"/>ratiu dicatur, ut atiingit Deum adjuratum
+          <lb ed="#P" n="30"/>non est nisi quaedam oratio. Unde si quis 
+          in<lb break="no" ed="#P" n="31"/>terroget, quando persona adjurata est creata,
+          <lb ed="#P" n="32"/>quam honestatem possit habere adjuratio 
+          res<lb break="no" ed="#P" n="33"/>pectu illius, cum honestatem religionis non
+          <lb ed="#P" n="34"/>habeat , respondeo breviter cum proportione
+          <lb ed="#P" n="35"/>esse declarandam. Nam potest esse honesta
+          <lb ed="#P" n="36"/>petitio humanae amicitiae, si sit ad hominem
+          <lb ed="#P" n="37"/>equalem ; vel misericordia, seu cujusdam
+          <lb ed="#P" n="38"/>observantiae, si sit ad superiorem ; vel 
+          justi<lb break="no" ed="#P" n="39"/>tiae, si sit ad subditum; vel potest esse duliae,
+          <lb ed="#P" n="40"/>et suo modo religionis, si sit ad Sanctos cum
+          <lb ed="#P" n="41"/>Christo regnantes, eo, scilicet, modo quo illos
+          <lb ed="#P" n="42"/>ex religione oramus; vel denique potest esse
+          <lb ed="#P" n="43"/>quidam actus fidei et confessionis ejus, si sit
+          <lb ed="#P" n="44"/>ad daemones, ut in capite sequenti 
+          declara<lb break="no" ed="#P" n="45"/>bimus.
+        </p>
+        <p xml:id="szovsr-m18476-d1e533">
+          <lb ed="#P" n="46"/>5. Adjurationem esse actum religionis 
+          res<lb break="no" ed="#P" n="47"/>pectu persone, per quam altera adjuratur. —
+          <lb ed="#P" n="48"/>Quarto infero ex dictis, adjurationem esse 
+          ac<lb break="no" ed="#P" n="49"/>tum religionis respectu personae, per quam
+          <lb ed="#P" n="50"/>seu propter quam altera adjuratur, quando
+          <lb ed="#P" n="51"/>adjuratio per Deum ipsum fit. Supponimus
+          <lb ed="#P" n="52"/>quidem ex proprietate vocis supra explicata,
+          <lb ed="#P" n="53"/>et usu ipsius rei, adjurationem per Deum 
+          fie<lb break="no" ed="#P" n="54"/>ri; nihil enim est frequentius quam aliquid
+          <lb ed="#P" n="55"/>ab alio petere per Deum, vel propter amorem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Dei; illa ergo est adjuratio hominis per Deum.
+          <lb ed="#P" n="57"/>Ille ergo actus non est religionis ex habitudine
+          <lb ed="#P" n="58"/>ad hominem adjuratum; ergo oportet ut 
+          il<lb break="no" ed="#P" n="59"/>lam rationem participet ex habitudine, quam
+          <lb ed="#P" n="60"/>habet ad Deum, per quam alter adjuratur.
+          <lb ed="#P" n="61"/>Dices : etiam sub illo respectu non videtur esse
+          <lb ed="#P" n="62"/>actus religionis, quia religio attingit Deum, ut
+          <lb ed="#P" n="63"/>personam circa quam versatur ; sed adjuratio
+          <lb ed="#P" n="64"/>non ita respicit eum per quem fit, sed eum
+          <lb ed="#P" n="65"/>cui fit, ut dictum est; ergo nullo modo est
+          <lb ed="#P" n="66"/>actus religionis. Respondco, adjurationem
+          <lb ed="#P" n="67"/>dupliciter considerari posse: primo, quasi
+          <lb ed="#P" n="68"/>materialiter in ratione petitionis vel jussionis,
+          <lb ed="#P" n="69"/>aut alia simili; secundo, in formali ratione
+          <lb ed="#P" n="70"/>cultus. Priori modo versatur circa personam
+          <lb ed="#P" n="71"/>adjuratam. et ut sic, fatemur non esse actum
+          <lb ed="#P" n="72"/>religionis. vel, si aliquando est, non esse 
+          dis<lb break="no" ed="#P" n="73"/>tinctum ab oratione, ut diximus. Posteriori 
+          au<lb break="no" ed="#P" n="74"/>tem modo dicimus versari circa Deum, non ut
+          <lb ed="#P" n="75"/>circa personam adjuratam, sed cultam; quando
+          <lb ed="#P" n="76"/>enim aliquid per Deum petimus, in hoc ipso
+          <lb ed="#P" n="77"/>honorem et cultum tribuimus Deo, quia ejus
+          <lb ed="#P" n="78"/>auctoritatem aut veritatem sufficere 
+          profite<lb break="no" ed="#P" n="79"/>mur, ad obtinendum id quod intendimus; 
+          er<lb break="no" ed="#P" n="80"/>go ut sic actus ille religionis est.
+        </p>
+        <p xml:id="szovsr-m18476-d1e614">
+          <lb ed="#P" n="81"/>6. Confirmatur ac declaratur primo, quia
+          <lb ed="#P" n="82"/>in illo actu nomen Dei assumimus; ergo in
+          <lb ed="#P" n="83"/>illo servandum est praeceptum illud : Non 
+          as<lb break="no" ed="#P" n="84"/>sumes nomen Dei tui in vcanum; at praeceptum
+          <lb ed="#P" n="85"/>illud religionis est, ut est apud omnes 
+          recep<lb break="no" ed="#P" n="86"/>tum. Et patet, quia ad nullam aliam virtutem
+          <lb ed="#P" n="87"/>pertinet observare, ut actus ille cum debita
+          <lb ed="#P" n="88"/>reverentia Dei fiat; ergo ut sic, actus est 
+          reli<lb break="no" ed="#P" n="89"/>gionis. Tandem hac ratione, exorcismi 
+          eccle<lb break="no" ed="#P" n="90"/>siastici inter actus religionis computantur,
+          <lb ed="#P" n="91"/>quia sunt adjurationes quaedam; non sunt 
+          au<lb break="no" ed="#P" n="92"/>tem religionis, ut versantur circa res 
+          adjura<lb break="no" ed="#P" n="93"/>tas, quae maxime soient esse daemones, ut 
+          op<lb break="no" ed="#P" n="94"/>time declaravit Tertullianus, c. 32, Apolog.,
+          <lb ed="#P" n="95"/>dicens : Demones adjurare consuevimus, non
+          <lb ed="#P" n="96"/>pejerare, ut illis divinitatis honorem 
+          confera<lb break="no" ed="#P" n="97"/>mus. Est ergo exorcismus actus religionis,
+          <lb ed="#P" n="98"/>quatenus in cultum Dei cedit, eo quod virtuti
+          <lb ed="#P" n="99"/>ejus nitatur.
+        </p>
+        <p xml:id="szovsr-m18476-d1e658">
+          <lb ed="#P" n="100"/>7. Adjurationem esse specialem actum 
+          reli<lb break="no" ed="#P" n="101"/>gionis distinctum a reliquis. — Quinto infero,
+          <lb ed="#P" n="102"/>adjurationem esse specialem actum religionis
+          <lb ed="#P" n="103"/>distinctum a reliquis. Probatur, quia modus
+          <lb ed="#P" n="104"/>divini cultus, qui in eo invenitur, distinctus
+          <lb ed="#P" n="105"/>est a reliquis, ut ex proxime dictis facile 
+          in<lb break="no" ed="#P" n="106"/>telligi potest. Magis vero declarabitur 
+          confe<lb break="no" ed="#P" n="107"/>rendo illum cum oratione et juramento, cum
+          <lb ed="#P" n="108"/>quibus videri potest. habere aliquam 
+          aflinita<lb break="no" ed="#P" n="109"/>tem ; nam a caeteris tam clare distinguitur,
+          <lb ed="#P" n="110"/>it nulla collatione cum illis, vel explicatione
+          <pb ed="#P" n="738"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>opus esse videatur. Adjuratio ergo ab 
+          ora<lb break="no" ed="#P" n="2"/>tione manifeste distinguitur, quia per 
+          oratio<lb break="no" ed="#P" n="3"/>nem aliquid a Deo petimus ; per adjurationem,
+          <lb ed="#P" n="4"/>ut talis est, non petimus a Deo, sed petimus
+          <lb ed="#P" n="5"/>propter Deum, quod longe diversum est. Imo
+          <lb ed="#P" n="6"/>interdum non petimus, sed imperamus, in 
+          vir<lb break="no" ed="#P" n="7"/>tute Dei, vel nominis ejus; multum ergo 
+          diffe<lb break="no" ed="#P" n="8"/>runt hi actus etiam in suo esse reali. Unde
+          <lb ed="#P" n="9"/>etiam differunt in peculiari ratione cultus.
+          <lb ed="#P" n="10"/>Nam per orationem profitemur Deum esse
+          <lb ed="#P" n="11"/>auctorem bonorum omnium, cujus ope et 
+          au<lb break="no" ed="#P" n="12"/>xilio indigemus; per adjurationem autem 
+          pro<lb break="no" ed="#P" n="13"/>fitemur tantam esse Dei auctoritatem, vel 
+          vir<lb break="no" ed="#P" n="14"/>tutem, vel bonitatem, ut quilibet ejus nomine
+          <lb ed="#P" n="15"/>audito moveri debeat ad praestandum 
+          quid<lb break="no" ed="#P" n="16"/>quid propter Deum ab illo postulatur.
+        </p>
+        <p xml:id="szovsr-m18476-d1e723">
+          <lb ed="#P" n="17"/>8. In quo conveniant juramentum et 
+          adjura<lb break="no" ed="#P" n="18"/>lio. — In quo differant. — Cum juramento
+          <lb ed="#P" n="19"/>vero habet adjuratio quamdam convenientiam
+          <lb ed="#P" n="20"/>in hoe, quod sicut juramentum adhibetur ad
+          <lb ed="#P" n="21"/>dandam auctoritatem assertioni, vel 
+          firmita<lb break="no" ed="#P" n="22"/>tem promissioni, ita adjuratio fit ad dandam
+          <lb ed="#P" n="23"/>efficacitatem postulationi aut jussioni. Unde
+          <lb ed="#P" n="24"/>sicut juramentum non pertinet ad religionem
+          <lb ed="#P" n="25"/>propter respectum ad personam cum qua 
+          lo<lb break="no" ed="#P" n="26"/>quimur, sed propter respectum ad personam
+          <lb ed="#P" n="27"/>quam interponimus ad dandam auctoritatem
+          <lb ed="#P" n="28"/>locutioni nostrae,cujus reverentiam et hcnorem
+          <lb ed="#P" n="29"/>observat religio, ita cum proportione se habet
+          <lb ed="#P" n="30"/>adjuratio, ut explicatum est. Nihilominus tamen
+          <lb ed="#P" n="31"/>diffétint, quia per juramentum, aut divina
+          <lb ed="#P" n="32"/>veritas ad assertionem confirmandam, aut 
+          ma<lb break="no" ed="#P" n="33"/>jestas et auctoritas Dei ad firmandam 
+          promis<lb break="no" ed="#P" n="34"/>sionem adducitur; per adjurationem vero 
+          so<lb break="no" ed="#P" n="35"/>lum interponitur Deus ut objectum amoris,
+          <lb ed="#P" n="36"/>vel timoris alterius, quem adjuramus, ut inde
+          <lb ed="#P" n="37"/>vel timore vel amore moveatur ad faciendum
+          <lb ed="#P" n="38"/>aliquid. Constat autem has esse rationes valde
+          <lb ed="#P" n="39"/>diversas, tam in esse rei et intellectualis 
+          ope<lb break="no" ed="#P" n="40"/>rationis, quam in ratione cuitus; ergo. Unde
+          <lb ed="#P" n="41"/>supra explicatum est, aliter observandam esse
+          <lb ed="#P" n="42"/>reverentiam Deo debitam in juramento 
+          asser<lb break="no" ed="#P" n="43"/>torio, per quod Deus inducitur ut testis 
+          enun<lb break="no" ed="#P" n="44"/>ciationis ; aliter in promissorio, in quo se 
+          ha<lb break="no" ed="#P" n="45"/>bet, ut dans auctoritatem promissioni. Sic 
+          er<lb break="no" ed="#P" n="46"/>go differt ab utroque juramento adjuratio,
+          <lb ed="#P" n="47"/>per quam solum inducitur Deus ut movens
+          <lb ed="#P" n="48"/>alterum, seu dans efficaciam jussioni aut 
+          pe<lb break="no" ed="#P" n="49"/>titioni; nam per hunc modum multo minus
+          <lb ed="#P" n="50"/>divinam auctoritatem interponimus, et quasi
+          <lb ed="#P" n="51"/>pignoramus, ut sic dicam, quam per 
+          superio<lb break="no" ed="#P" n="52"/>res, ut constat.
+        </p>
+        <p xml:id="szovsr-m18476-d1e805">
+          <lb ed="#P" n="53"/>9. Objici vero potest, nam Genesis 24 dixit
+          <lb ed="#P" n="54"/>Abraham servo suo: Pone manum tuam 
+          sub<lb break="no" ed="#P" n="55"/>ter femur meum, ut adjurem te. Et tamen ibi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ab eo exegit juramentum, ut ipsemet 
+          Abra<lb break="no" ed="#P" n="57"/>ham paulo inferius declaravit, dicens : Sin
+          <lb ed="#P" n="58"/>autem mulier noluerit sequi te, non teneberis
+          <lb ed="#P" n="59"/>Juramento. Et subdit: Posuit ergo servus 
+          ma<lb break="no" ed="#P" n="60"/>nwumn sub femore Abraham, et juravit illi 
+          su<lb break="no" ed="#P" n="61"/>per sermone hoc; et intra dixit idem servus:
+          <lb ed="#P" n="62"/>Adjuravit me dominus meus. Ergo jurare et
+          <lb ed="#P" n="63"/>adjurare idem sunt, et consequenter adjuratio
+          <lb ed="#P" n="64"/>non est actus a juramento distinctus. 
+          Simili<lb break="no" ed="#P" n="65"/>ter Genes. 41, Jacob dixit ad Joseph : Pone
+          <lb ed="#P" n="66"/>manu tuam sub femore meo, et facies mihi
+          <lb ed="#P" n="67"/>misericordiam et veritatem ut non sepelias me
+          <lb ed="#P" n="68"/>in gypto; et infra: Respondit Joseph : Ego
+          <lb ed="#P" n="69"/>faciam quod jussisti ; et ille : Jura ergo, 
+          in<lb break="no" ed="#P" n="70"/>quit, mihi. Et tamen c. 50 dicit idem Joseph :
+          <lb ed="#P" n="71"/>Ho quod pater meus adjuraverit me ; sunt ergo
+          <lb ed="#P" n="72"/>idem. Idem sumitur ex 1 Esdr. ult., ib: Zt
+          <lb ed="#P" n="73"/>adjuravit principes Sacerdotum, et Levitarum,
+          <lb ed="#P" n="74"/>ut facerent secundum verbum hoc , et 
+          jurave<lb break="no" ed="#P" n="75"/>runt. Denique Josue 2 et 5, adjurare nihil
+          <lb ed="#P" n="76"/>aliud esse videtur, nisi ad jurandum 
+          indu<lb break="no" ed="#P" n="77"/>cere.
+        </p>
+        <p xml:id="szovsr-m18476-d1e864">
+          <lb ed="#P" n="78"/>10. Opinio aliquorum. — Propter haec 
+          di<lb break="no" ed="#P" n="79"/>cunt aliqui, quoties juramentum 
+          promisso<lb break="no" ed="#P" n="80"/>rium ab aliquo exigitur, intervenire 
+          adjura<lb break="no" ed="#P" n="81"/>tionem, et talem adjurationem factam esse in
+          <lb ed="#P" n="82"/>omnibus citatis locis ; nihilominus tamen 
+          ad<lb break="no" ed="#P" n="83"/>dunt, non confundi adjurationem cum 
+          jura<lb break="no" ed="#P" n="84"/>mento, quia potest fieri adjuratio, non 
+          exi<lb break="no" ed="#P" n="85"/>genio juramentum, ut quotidie fit a 
+          pauperi<lb break="no" ed="#P" n="86"/>bus postulantibus propter Deum, et ex 
+          dicen<lb break="no" ed="#P" n="87"/>dis evidenter constabit. Sed sicut hoc 
+          poste<lb break="no" ed="#P" n="88"/>rius certum est, ita etiam prius non est 
+          neces<lb break="no" ed="#P" n="89"/>sarium; nam sine dubio adjuratio et petitio
+          <lb ed="#P" n="90"/>juramenti etiam promissorii formaliter 
+          diver<lb break="no" ed="#P" n="91"/>sa sunt. Unde D. Thomas, d. q. 90, art. 1, ad 3,
+          <lb ed="#P" n="92"/>dixit adjurare non esse ad jurandum inducere.
+          <lb ed="#P" n="93"/>Quocirca sicut adjuratio separahilis est a 
+          jura<lb break="no" ed="#P" n="94"/>mento promissorio, ita et hoc juramentum
+          <lb ed="#P" n="95"/>peti potest sine adjuratione, ut quotidie in
+          <lb ed="#P" n="96"/>contractibus et judiciis fieri videtur; et ratio
+          <lb ed="#P" n="97"/>est, quia potest quis ab alio petere, ut cum 
+          ju<lb break="no" ed="#P" n="98"/>ramento se obhget, non interponendo alio
+          <lb ed="#P" n="99"/>modo ex parte sua divinum nomen. Igitur si
+          <lb ed="#P" n="100"/>aliquando sola petitio juramenti promissorii
+          <lb ed="#P" n="101"/>adjuratio vocatur, ut videtur esse in illo loco
+          <lb ed="#P" n="102"/>Jos. 2, verbum adjurandi aequivoce 
+          transfer<lb break="no" ed="#P" n="103"/>tur ad significandum idem quod ad jurandum
+          <lb ed="#P" n="104"/>inducere. Aliquando vero et saepe possunt illa
+          <lb ed="#P" n="105"/>duo conjungi, ut videtur fuisse in alis locis
+          <lb ed="#P" n="106"/>citatis; nam, ut dixi, adjuratio potest variis
+          <lb ed="#P" n="107"/>modis fieri, scilicet rogando, jubendo, 
+          cogen<lb break="no" ed="#P" n="108"/>do. Inter alios ergo modos unus est, exigere
+          <lb ed="#P" n="109"/>foedus et obligationem ab illo qui inducitur
+          <lb ed="#P" n="110"/>ad aliquid faciendum; et aliquando ad majo-
+          <pb ed="#P" n="739"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rem firmitatem potest exigi juramentum, ut
+          <lb ed="#P" n="2"/>in praedictis locis factum est. Conjunguntur
+          <lb ed="#P" n="3"/>ergo ibi adjuratio et juramentum ; semper 
+          ta<lb break="no" ed="#P" n="4"/>men manent distinctae quoad proprias 
+          ratio<lb break="no" ed="#P" n="5"/>nes suas, et videtur adjuratio praecedere, et
+          <lb ed="#P" n="6"/>progredi usque ad juramenti petitionem. 
+          Si<lb break="no" ed="#P" n="7"/>cut prius dicitur Jacob adjurasse Joseph, et
+          <lb ed="#P" n="8"/>Joseph obtulisse se facturum id de quo 
+          adju<lb break="no" ed="#P" n="9"/>ratus fuerat, et nihilominus addidit Jacob:
+          <lb ed="#P" n="10"/>Jura ergo anihi ; ritus enim ille ponendi 
+          ma<lb break="no" ed="#P" n="11"/>num sub femore, licet adhiberetur in 
+          jura<lb break="no" ed="#P" n="12"/>meno, ut supra lib. 1 visum est, potuit 
+          ta<lb break="no" ed="#P" n="13"/>men idem ritus in adjuratione adhiberi. 
+          Pe<lb break="no" ed="#P" n="14"/>tebatur enim simul juramentum, quia ex 
+          pro<lb break="no" ed="#P" n="15"/>missione facta cum adjuratione petentis, non
+          <lb ed="#P" n="16"/>tanta obligatio nascitur, quanta si juramento
+          <lb ed="#P" n="17"/>firmetur. Sic etiam inielligo adjurationem 
+          il<lb break="no" ed="#P" n="18"/>lam, quae circa adulteram fiebat, Num. 5, nam
+          <lb ed="#P" n="19"/>ab illa in nomine Dei petebatur, ut veritatem
+          <lb ed="#P" n="20"/>aperiret, tum ex reverentia praesentiae 
+          Domi<lb break="no" ed="#P" n="21"/>ni, juxta illud: Cum steterit mulier in 
+          con<lb break="no" ed="#P" n="22"/>spectu Domini, etc.; tum etiam ex timore 
+          di<lb break="no" ed="#P" n="23"/>vinae justitiae et comminatione ejus, quae per
+          <lb ed="#P" n="24"/>maledictiones significatur , ut legimus 1 Reg.
+          <lb ed="#P" n="25"/>14, ubi Saul populum adjurasse dicitur sub
+          <lb ed="#P" n="26"/>maledictione illi imperando. Sic ergo 
+          adjura<lb break="no" ed="#P" n="27"/>batur suspecta de adulterio, et verisimile est
+          <lb ed="#P" n="28"/>ibi etiam fuisse exactum a femina 
+          juramen<lb break="no" ed="#P" n="29"/>tum execratorium, quia non solum sacerdos
+          <lb ed="#P" n="30"/>maledicta proferebat, dicens: Sin autem 
+          dc<lb break="no" ed="#P" n="31"/>clinasti a viro tuo, his maledictionibus 
+          subja<lb break="no" ed="#P" n="32"/>cebis : Det tibi Domimis in maledictionem, sed
+          <lb ed="#P" n="33"/>etiam mulier cogebatur respondere : Amen,
+          <lb ed="#P" n="34"/>Amen, virtute jurans nt sibi talia evenirent,
+          <lb ed="#P" n="35"/>si tale quid commiserat. Interveniebat ergo
+          <lb ed="#P" n="36"/>ibi propria adjuratio, qualis a nobis descripta
+          <lb ed="#P" n="37"/>est, licet modus contestandi divinam virtutem
+          <lb ed="#P" n="38"/>singularis fuerit, et tandem per jurationem
+          <lb ed="#P" n="39"/>consummaretur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

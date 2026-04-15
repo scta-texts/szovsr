@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 35</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 35</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="640"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m16081"><!-- t5l2c35 -->
+        <head xml:id="szovsr-m16081-Hd1e101">Caput 35</head>
+        <head xml:id="szovsr-m16081-Hd1e103" type="question-title">Quando incipiat et quamdiu duret obligatio juramenti promissorii.</head>
+        <p xml:id="szovsr-m16081-d1e106">
+          <lb ed="#P" n="61"/>CAPUT XXXV.
+          <lb ed="#P" n="62"/>QUANDO INCIPIAT ET QUAMDIU DURET OBLIGATIO
+          <lb ed="#P" n="63"/>JURAMENTI PROMISSORII.
+        </p>
+        <p xml:id="szovsr-m16081-d1e115">
+          <lb ed="#P" n="64"/>1. Promissio juramenti duplem esse potest.
+          <lb ed="#P" n="65"/>—Duplex potest esse promissio talis 
+          juramen<lb break="no" ed="#P" n="66"/>ti, negativa et affirmativa, quae in hoc 
+          diffe<lb break="no" ed="#P" n="67"/>runt, quantum est ex forma sua, quod 
+          negati<lb break="no" ed="#P" n="68"/>va pro semper, affirmativa vero semper, non
+          <lb ed="#P" n="69"/>tamen pro semper obliget, sicut de praeceptis
+          <lb ed="#P" n="70"/>dici solet; est enim eadem proportionalis 
+          ra<lb break="no" ed="#P" n="71"/>tio, et utraque jurari potest vel absolute, vel
+          <lb ed="#P" n="72"/>sub conditione, juxta dicta capite praecedenti.
+          <lb ed="#P" n="73"/>In utrisque ergo juramentis considerari potest
+          <lb ed="#P" n="74"/>vel initium obligationis, vel continuatio, vel
+          <lb ed="#P" n="75"/>cessatio. Et quoad initium spectari potest 
+          tem<lb break="no" ed="#P" n="76"/>pus, in quo juramentum incipit obligare, vel
+          <lb ed="#P" n="77"/>pro quo incipit obligare.
+        </p>
+        <p xml:id="szovsr-m16081-d1e148">
+          <lb ed="#P" n="78"/>2. Quando obliget juramentum absolutum.—
+          <lb ed="#P" n="79"/>Primo ergo dicendum est, juramentum 
+          abso<lb break="no" ed="#P" n="80"/>lutum, statim ac fit, incipere obligare. Patet,
+          <lb ed="#P" n="81"/>quia ex juramento necessario sequitur 
+          obliga<lb break="no" ed="#P" n="82"/>tio, et in absoluto juramento nihil es: quod
+          <lb ed="#P" n="83"/>illam suspendat ; ergo statim oritur. Secus
+          <lb ed="#P" n="84"/>vero est de juramento conditionato, quia non
+          <lb ed="#P" n="85"/>incipit obligare ad actum promissum, donec
+          <lb ed="#P" n="86"/>impleatur conditio, c. Pervenit, 2, de Jurejur.;
+          <lb ed="#P" n="87"/>et ratio consiat ex dictis, quia conditio 
+          sus<lb break="no" ed="#P" n="88"/>pendit actum, et consequenter juramentum.
+          <lb ed="#P" n="89"/>Dico autem non obligare ex tunc ad actum
+          <lb ed="#P" n="90"/>promissum, quia obligat ad quamdam animi
+          <lb ed="#P" n="91"/>praparationem implendi promissum, si 
+          im<lb break="no" ed="#P" n="92"/>pleatur conditio ; et consequenter si 
+          contrac<lb break="no" ed="#P" n="93"/>tus sit juratus sub conditione, obhgat 
+          jura<lb break="no" ed="#P" n="94"/>mentum ad non resiliendum invito altero, quia
+          <lb ed="#P" n="95"/>haec est natura contractus, ut ex materia de
+          <lb ed="#P" n="96"/>Justitia suppono ; et ita procedit regula 
+          posi<lb break="no" ed="#P" n="97"/>ta, quod juramentum obligat juxta naturam
+          <lb ed="#P" n="98"/>actus cui adjungitur. Unde qui jurat aliquid
+          <lb ed="#P" n="99"/>dare sub conditione, si proponit non dare.
+          <lb ed="#P" n="100"/>etiamsi promissio impleatur , juramentum
+          <lb ed="#P" n="101"/>frangit ; et qui jurat ducere Mariam, si pater
+          <lb ed="#P" n="102"/>absens consenserit, et postea ducit aliam, 
+          in<lb break="no" ed="#P" n="103"/>vita priori, et non expectato eventu 
+          conditio<lb break="no" ed="#P" n="104"/>nis, juramentum violat, ut per illationem 
+          ne<lb break="no" ed="#P" n="105"/>cessariam sumitur ex Glossa in cap. Super eo,
+          <lb ed="#P" n="106"/>de Condition. apposi.. verb. Alieno arbitric.
+          <lb ed="#P" n="107"/>Et hoc declaratur ex his quae tradit Molin.,
+          <pb ed="#P" n="641"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>disp. 285, de Just., q. 4, qnuia ex tali contractu
+          <lb ed="#P" n="2"/>vel promissione oritur obligatio similis in 
+          spe<lb break="no" ed="#P" n="3"/>cie; ergo addito juramento illamet 
+          obliga<lb break="no" ed="#P" n="4"/>tio juramento confirmatur ; ergo violata 
+          in<lb break="no" ed="#P" n="5"/>juste illa obligatione, violatur juramentum.
+          <lb ed="#P" n="6"/>Denique illud juramentum quoad hoc est 
+          ab<lb break="no" ed="#P" n="7"/>solutum, quia jurans sub conditione, ex tunc
+          <lb ed="#P" n="8"/>absolute jurat stare conditioni ; quoad hoc 
+          er<lb break="no" ed="#P" n="9"/>go statim incipit obligatio juramenti ; quoad
+          <lb ed="#P" n="10"/>ipsum vero actum promissum non incipit,
+          <lb ed="#P" n="11"/>donec impleatur conditio, quae illius 
+          obliga<lb break="no" ed="#P" n="12"/>uoneun suspendit ; illa vero impleta statim 
+          in<lb break="no" ed="#P" n="13"/>cipit obligare propter contrariam rationem,
+          <lb ed="#P" n="14"/>cet quia impleta conditione conditionalis 
+          asser<lb break="no" ed="#P" n="15"/>tio transit in absolutam.
+        </p>
+        <p xml:id="szovsr-m16081-d1e253">
+          <lb ed="#P" n="16"/>3. Pro quo tempore obliget. — Secundo 
+          di<lb break="no" ed="#P" n="17"/>cendum est, juramentum obligare pro eo
+          <lb ed="#P" n="18"/>tempore, ad quod promissio vel assertio ex 
+          in<lb break="no" ed="#P" n="19"/>tentione jurantis dirigitur; ubi autem nihil
+          <lb ed="#P" n="20"/>speciale per intentionem determinatur, ex vi
+          <lb ed="#P" n="21"/>verborum colligendum est, nisi ex materia
+          <lb ed="#P" n="22"/>vel circumstantiis limitetur. Prior pars nota
+          <lb ed="#P" n="23"/>est, quia tota haec obligatio pendet ex 
+          inten<lb break="no" ed="#P" n="24"/>tione jurantis. Quamvis enim posita intentio
+          <lb ed="#P" n="25"/>ne jurandi necessario sequatur obligatio 
+          inde<lb break="no" ed="#P" n="26"/>pendenter a nova voluntate jurantis, 
+          nihilo<lb break="no" ed="#P" n="27"/>minus applicatio juramenti ad assertionem
+          <lb ed="#P" n="28"/>pro tali, vel tali tempore, pendet ex jurantis
+          <lb ed="#P" n="29"/>voluntate, quia potest asserere hoc facturum
+          <lb ed="#P" n="30"/>pro tali tempore, vel post tale tempus, et non
+          <lb ed="#P" n="31"/>ante, et similia ; ergo consequenter 
+          juramen<lb break="no" ed="#P" n="32"/>t obligatio, ut sit pro tali tempore, pendet ex
+          <lb ed="#P" n="33"/>intentione jurantis.
+        </p>
+        <p xml:id="szovsr-m16081-d1e295">
+          <lb ed="#P" n="34"/>4. Promissio negativa statim obligat. —
+          <lb ed="#P" n="35"/>Quid dicendum de promissione affirmativa. —
+          <lb ed="#P" n="36"/>Altera vero pars generatim constat ex 
+          princi<lb break="no" ed="#P" n="37"/>piis superius positis, et quia non potest 
+          aliun<lb break="no" ed="#P" n="38"/>de talis determinatio fieri. In particulari vero
+          <lb ed="#P" n="39"/>declaratur, nam si promissio sit negativa, 
+          sta<lb break="no" ed="#P" n="40"/>tim ac juratur, incipit pro statim obligare,
+          <lb ed="#P" n="41"/>quia negatio omnia destruit, et ideo si juro
+          <lb ed="#P" n="42"/>me non tibi nociturum, ex tunc pro toto 
+          tem<lb break="no" ed="#P" n="43"/>pore gmmediate sequenti obligor ; idemque
+          <lb ed="#P" n="44"/>erit de juramento non ludendi, non 
+          ingredien<lb break="no" ed="#P" n="45"/>di talem domum, et similibus, quoties 
+          mate<lb break="no" ed="#P" n="46"/>ria negationis talis est, ut statim exerceri 
+          pos<lb break="no" ed="#P" n="47"/>sit, eo quod statim actus contrarius fieri 
+          pos<lb break="no" ed="#P" n="48"/>set. Si autem actio negata talis sit, ut requirat
+          <lb ed="#P" n="49"/>determinata tempora, pro primo tempore 
+          ido<lb break="no" ed="#P" n="50"/>neo incipiet obligatio, ut si juro non adesse
+          <lb ed="#P" n="51"/>taurorum ludo, obligor a prima occasione, et
+          <lb ed="#P" n="52"/>sic de similibus. At vero in affirmativis 
+          jura<lb break="no" ed="#P" n="53"/>mentis si certum tempus in individuo 
+          designe<lb break="no" ed="#P" n="54"/>tur , res erit clara, quia pro initio designato
+          <lb ed="#P" n="55"/>obligabit ; si vero indefinite fiat, tunc pru-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>denti arbitrio opus est, considerata materia,
+          <lb ed="#P" n="57"/>occasione et circumstantiis. Et quoad hanc
+          <lb ed="#P" n="58"/>regulam non oportet distinguere inter 
+          condi<lb break="no" ed="#P" n="59"/>tionatum juramentum , et absolutum ; quia
+          <lb ed="#P" n="60"/>conditionatum non incipit obligare, nisi ut
+          <lb ed="#P" n="61"/>aliquo modo est absolutum, vel transit in 
+          ab<lb break="no" ed="#P" n="62"/>solutum impleta conditione, et tunc eamdem
+          <lb ed="#P" n="63"/>rationem participat, quoad tempus in quo 
+          in<lb break="no" ed="#P" n="64"/>cipit obligare.
+        </p>
+        <p xml:id="szovsr-m16081-d1e367">
+          <lb ed="#P" n="65"/>9. Juramentum promissorium implendum
+          <lb ed="#P" n="66"/>est , priusquam petat is, cui factum est, nisi
+          <lb ed="#P" n="67"/>aliud constet. — Unde facile expeditur 
+          dubita<lb break="no" ed="#P" n="68"/>tio, an teneatur quis juramentum 
+          promisso<lb break="no" ed="#P" n="69"/>rium implere, priusquam petat is, cui factum
+          <lb ed="#P" n="70"/>est. Respondetur enim affirmative , nisi ex
+          <lb ed="#P" n="71"/>forma juramenti aliud constet. Hoc posterius
+          <lb ed="#P" n="72"/>constat, ham si quis juret se pariturum, 
+          quo<lb break="no" ed="#P" n="73"/>ues requisitus fuerit, clarum est non teneri,
+          <lb ed="#P" n="74"/>donec requiratur. Idemque est, quoties actus
+          <lb ed="#P" n="75"/>ipse promissus talem rationem involvit; ut si
+          <lb ed="#P" n="76"/>juravi mutuare, intelligatur, si petieris ; vel si
+          <lb ed="#P" n="77"/>promisi respondere, intelligitur, interrogatus.
+          <lb ed="#P" n="78"/>At vero si juravi tali die hoc facere vel 
+          dona<lb break="no" ed="#P" n="79"/>re, non est necessaria exactio, vel petitio, nisi
+          <lb ed="#P" n="80"/>in ipso juramento exprimatur. Patet, quia
+          <lb ed="#P" n="81"/>inde nascitur absoluta obligatio, sicut ex voto.
+        </p>
+        <p xml:id="szovsr-m16081-d1e406">
+          <lb ed="#P" n="82"/>6. Quomodo reguiratur petitio ex parte ejus
+          <lb ed="#P" n="83"/>cui juratwum est. — Quaeri vero ulterius potest,
+          <lb ed="#P" n="84"/>quando ex parte ejus, cui juratur, requiritur
+          <lb ed="#P" n="85"/>petitio, an sufficiat simplex et pura, vel 
+          neces<lb break="no" ed="#P" n="86"/>sarium sit in illa exprimere , sub obligatione
+          <lb ed="#P" n="87"/>praestiti juramenti. Respondeo, non posse in
+          <lb ed="#P" n="88"/>hoc generalem regulam assignari, nam pendet
+          <lb ed="#P" n="89"/>ex qualitate materiae, et usu ; ordinarie tamen
+          <lb ed="#P" n="90"/>videtur in juramentis de speciali actu 
+          prae<lb break="no" ed="#P" n="91"/>stando, certo ac definito tempore, eo ipso quod
+          <lb ed="#P" n="92"/>actus exigitur, virtute juramenti postulari.
+          <lb ed="#P" n="93"/>At vero in generalibus juramentis obediendi
+          <lb ed="#P" n="94"/>praelato aut rectori, non censetur exigi 
+          jura<lb break="no" ed="#P" n="95"/>mentum, nisi quando id exprimitur sub poena
+          <lb ed="#P" n="96"/>praestiti Juramenti , vel alia forma simili , ut
+          <lb ed="#P" n="97"/>constat ex usu, et infra in simili dicemus de
+          <lb ed="#P" n="98"/>voto obedientiae. Imo aliqui censent, 
+          commu<lb break="no" ed="#P" n="99"/>ni uu non interponi illa verba ad 
+          oLligan<lb break="no" ed="#P" n="100"/>dum sub mortali, sed ad commemorandam
+          <lb ed="#P" n="101"/>potestatem, et ad quemdam terrorem, ut 
+          ne<lb break="no" ed="#P" n="102"/>mo contemnat jussa rectoris. Ita Dried.,1.2
+          <lb ed="#P" n="103"/>de Libert. Christian., cap. 1; sequitur Covar.,
+          <lb ed="#P" n="104"/>supra, 1 part., S 7, n. ult., in fine. Sed (ut
+          <lb ed="#P" n="105"/>dixi) in hoc consulenda est consuetudo , et
+          <lb ed="#P" n="106"/>communis intelligentia ; et maxime est 
+          quali<lb break="no" ed="#P" n="107"/>tas materiae consideranda, ut docuit Major, in
+          <lb ed="#P" n="108"/>3, dist. 39, quaest. 4, ad argumentum contra
+          <lb ed="#P" n="109"/>quartam conclusionem.
+        </p>
+        <p xml:id="szovsr-m16081-d1e469">
+          <lb ed="#P" n="110"/>7. Quo tempore et pro quo duret obüigat.o
+          <pb ed="#P" n="642"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>juramenti secundum se. — Tertio dicendum
+          <lb ed="#P" n="2"/>est, eamdem regulam cum proportione habere
+          <lb ed="#P" n="3"/>locum in designando tempore, in quo et pro
+          <lb ed="#P" n="4"/>quo durat juramenti obligatio secundum se
+          <lb ed="#P" n="5"/>spectata. Nam est eadem ratio, ut facile 
+          pate<lb break="no" ed="#P" n="6"/>bit applicando ad temporis continuationem, ea
+          <lb ed="#P" n="7"/>quae de initio diximus. Etenim juramenta 
+          npe<lb break="no" ed="#P" n="8"/>gativa, sicut pro statim obligart de se, ita et
+          <lb ed="#P" n="9"/>pro semper ac perpetuo, juxta materiae 
+          capa<lb break="no" ed="#P" n="10"/>citatem, nisi ex intentione jurantis ad certum
+          <lb ed="#P" n="11"/>tempus limitentur. Affirmativa vero etiam de
+          <lb ed="#P" n="12"/>se obligant semper, ac perpetuo, nisi ex 
+          in<lb break="no" ed="#P" n="13"/>tentione limitentur ad certum tempus, de qua
+          <lb ed="#P" n="14"/>intentione in foro conscientiae constabit per 
+          dic<lb break="no" ed="#P" n="15"/>tum jurantis. Quod si specialem intentionem
+          <lb ed="#P" n="16"/>non habuit, standum est verbis juxta materiae
+          <lb ed="#P" n="17"/>capacitatem , pensatis etiam circuffistantiis.
+          <lb ed="#P" n="18"/>Haec autem juramenta non obligant pro 
+          sem<lb break="no" ed="#P" n="19"/>per, quia hoc repugnat hominis naturae, ut per
+          <lb ed="#P" n="20"/>se constat, quia non potest homo semper et pro
+          <lb ed="#P" n="21"/>semper in una actione persistere. Obligant
+          <lb ed="#P" n="22"/>ergo pro temporibus designatis, vel pro 
+          tem<lb break="no" ed="#P" n="23"/>poribus opportunis juxta materiae 
+          conditio<lb break="no" ed="#P" n="24"/>nem, vel certe saepe erit facienda verisimilis
+          <lb ed="#P" n="25"/>conjectura ex occasione et circumstantiis , ad
+          <lb ed="#P" n="26"/>arbitrium boni viri, ut de voto etiam 
+          dice<lb break="no" ed="#P" n="27"/>mus.
+        </p>
+        <p xml:id="szovsr-m16081-d1e537">
+          <lb ed="#P" n="28"/>8. Quomodo juramentum affirmativum 
+          obli<lb break="no" ed="#P" n="29"/>gat pro semper. — Aliquando vero videri 
+          po<lb break="no" ed="#P" n="30"/>test, juramentum habere formam attirmativi,
+          <lb ed="#P" n="31"/>et obligare pro semper, ut cum juratur 
+          ami<lb break="no" ed="#P" n="32"/>citia , et pax perpetua, et similia. Sed revera
+          <lb ed="#P" n="33"/>illa juramenta in tantum obligant pro semper,
+          <lb ed="#P" n="34"/>in quantum negationem includunt, nam 
+          afftir<lb break="no" ed="#P" n="35"/>matio illa non consistit in aliquo continuo
+          <lb ed="#P" n="36"/>actu , id enim homini repugnat, sed in 
+          perse<lb break="no" ed="#P" n="37"/>veranti statu quasi habituali, qui conservatur
+          <lb ed="#P" n="38"/>per negationem actus contrarii qui amicitiam
+          <lb ed="#P" n="39"/>violare sufficiat, et quoad hanc negationem
+          <lb ed="#P" n="40"/>obligat pro semper. Est praeterea in hoc 
+          punc<lb break="no" ed="#P" n="41"/>to considerandum , hanc perpetuitatem vel
+          <lb ed="#P" n="42"/>continuationem convenire juramento, ut 
+          ab<lb break="no" ed="#P" n="43"/>solutum est, quia ut sic inducit suam 
+          obliga<lb break="no" ed="#P" n="44"/>tionem modo supra explicato ; at vero si 
+          con<lb break="no" ed="#P" n="45"/>sideretur ut conditionem includit, sive 
+          expres<lb break="no" ed="#P" n="46"/>sam, sive subintellectam, sub ea ratione 
+          desi<lb break="no" ed="#P" n="47"/>nere potest ejus obligatio, vel simpliciter, vel
+          <lb ed="#P" n="48"/>pro tali occasione ex defectu inclusae 
+          condi<lb break="no" ed="#P" n="49"/>tionis. Quia sicut conditionatum juramentum,
+          <lb ed="#P" n="50"/>ut tale est, non obligat donec impleatur 
+          con<lb break="no" ed="#P" n="51"/>ditio, ita juramentum absolutum, 
+          subintellec<lb break="no" ed="#P" n="52"/>tam condiuonem includens , non perseverat
+          <lb ed="#P" n="53"/>( ut sic dicam ) in sua obligatione , si 
+          condi<lb break="no" ed="#P" n="54"/>tio, quae supponebatur, deficiat ; est enim 
+          ea<lb break="no" ed="#P" n="55"/>dem ratio.
+        </p>
+        <p xml:id="szovsr-m16081-d1e601">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>9. Juramenti obligatio cessare potest ec
+          <lb ed="#P" n="57"/>mutatione rerum.—bico ergoquarto :quamvis
+          <lb ed="#P" n="58"/>juramenti obligatio de se perpetua sit, vel 
+          du<lb break="no" ed="#P" n="59"/>rabilis pro tali vel tali tempore, cessare potest
+          <lb ed="#P" n="60"/>ex mutatione rerum auferente subintellectam
+          <lb ed="#P" n="61"/>ac necessariam conditionem. Haec assertio 
+          con<lb break="no" ed="#P" n="62"/>cluditur plane ex dictis, et ex principio posito,
+          <lb ed="#P" n="63"/>capite preecedenti, conditione quinta. Solum
+          <lb ed="#P" n="64"/>potest interrogari, an in hujusmodi eventu
+          <lb ed="#P" n="65"/>cesset obligatio juramenti ipso facto, vel sit
+          <lb ed="#P" n="66"/>necessaria illius relaxatio. Quidam absolute
+          <lb ed="#P" n="67"/>docent necessariam esse relaxationem, quae
+          <lb ed="#P" n="68"/>opinio tribui potest Soto, 4, d. 27, q.1, art. 3,
+          <lb ed="#P" n="69"/>ad 1, quatenus dicit, sài juramentum 
+          sponsa<lb break="no" ed="#P" n="70"/>lium inter legitimas personas intercessit ,
+          <lb ed="#P" n="71"/>quamvis postea occurrat causa dissolvendi
+          <lb ed="#P" n="72"/>sponsalia, non esse sine juramenti 
+          dispensa<lb break="no" ed="#P" n="73"/>tione dissolvenda. Et idem sentit Ludov. 
+          Lo<lb break="no" ed="#P" n="74"/>pez, 2 p.. c. 36, S Propterea circa, loquens in
+          <lb ed="#P" n="75"/>durioribus terminis, quando post sponsalia 
+          ju<lb break="no" ed="#P" n="76"/>rata sponsa forn?cata est, vel invenitur non
+          <lb ed="#P" n="77"/>virgo.
+        </p>
+        <p xml:id="szovsr-m16081-d1e653">
+          <lb ed="#P" n="78"/>10. Per solam rerum mutationem, ipso facto
+          <lb ed="#P" n="79"/>cessare potest juramenti obligatio.—sS ponsalia
+          <lb ed="#P" n="80"/>Jurata quomodo cessent. — Nihilominus 
+          diceen<lb break="no" ed="#P" n="81"/>dum est per solam rerum mutationem fieri
+          <lb ed="#P" n="82"/>posse, ut ipso facto cesset juramenti obligatio,
+          <lb ed="#P" n="83"/>nec sit necessaria ulla relaxatio. Haec est 
+          com<lb break="no" ed="#P" n="84"/>munis sententia juristarum in c. 
+          Quemadmo<lb break="no" ed="#P" n="85"/>dum, de Jurejuran., et ex ipso textu 
+          mani<lb break="no" ed="#P" n="86"/>feste colligitur; nam ibi dicitur talia 
+          juramen<lb break="no" ed="#P" n="87"/>ta post mutationem factam non obligare, 
+          ne<lb break="no" ed="#P" n="88"/>que ulla postulatur relaxatio. Et ratio textus
+          <lb ed="#P" n="89"/>idem convincit, quia juramentum includit 
+          ta<lb break="no" ed="#P" n="90"/>citam conditionem, quam promissio, cui 
+          ad<lb break="no" ed="#P" n="91"/>jungitur, involvit, scilicet, nisi res notabiliter
+          <lb ed="#P" n="92"/>mutentur ; sed ubi voluntas est conditionata,
+          <lb ed="#P" n="93"/>deficiente vel cessante conditione, non 
+          subsis<lb break="no" ed="#P" n="94"/>tit obligatio ; ergo in eodem eventu juramenti
+          <lb ed="#P" n="95"/>obligatio ipso facto cessat, nec est per se 
+          ne<lb break="no" ed="#P" n="96"/>cessaria relaxatio. Hoc autem intelligendum
+          <lb ed="#P" n="97"/>est, quando mutatio esttanta, ut certo 
+          consta<lb break="no" ed="#P" n="98"/>re possit consensum promittentis nongsfuisse
+          <lb ed="#P" n="99"/>extensum ad promittendum pro illo eventu;
+          <lb ed="#P" n="100"/>quando vero dubia res fuerit, tunc jam 
+          dixi<lb break="no" ed="#P" n="101"/>mus necessariam esse superioris auctoritatem.
+          <lb ed="#P" n="102"/>Addit Innoc., in c. Cum quidam, de Jurejur.,
+          <lb ed="#P" n="103"/>quando pnon obstante cessatione obligationis
+          <lb ed="#P" n="104"/>servari potest juramentum sine peccato, 
+          abso<lb break="no" ed="#P" n="105"/>lutionem praemittendam esse, priusquam 
+          con<lb break="no" ed="#P" n="106"/>tra illud agatur. Sed hoc consilium est ad 
+          prae<lb break="no" ed="#P" n="107"/>veniendum scandalum, et satisfaciendum 
+          Ec<lb break="no" ed="#P" n="108"/>clesiae ; in rigore tamen non est necessarium,
+          <lb ed="#P" n="109"/>ut ibidem notavit Panormitanus, et sequitur
+          <lb ed="#P" n="110"/>Angel., Juramentum, 6, num. 1; Sylv., in5,
+          <pb ed="#P" n="643"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>q. 1. Contingere etiam potest ut mutatio 
+          su<lb break="no" ed="#P" n="2"/>perveniens sit sufficiens causa concedendi 
+          re<lb break="no" ed="#P" n="3"/>laxationem, licet per se sola non sufficiat 
+          au<lb break="no" ed="#P" n="4"/>ferre obligationem, et in hoc casu posse 
+          dic<lb break="no" ed="#P" n="5"/>tum Soti sustineri. Applicata vero illa 
+          senten<lb break="no" ed="#P" n="6"/>tia ad casum de sponsalibus juratis, in quibus
+          <lb ed="#P" n="7"/>postea vel committitur vel detegitur 
+          virgini<lb break="no" ed="#P" n="8"/>tatis violatio, non est vera, et juri aperte 
+          re<lb break="no" ed="#P" n="9"/>pugnat; idemque in multis aliis casibus 
+          con<lb break="no" ed="#P" n="10"/>tingit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

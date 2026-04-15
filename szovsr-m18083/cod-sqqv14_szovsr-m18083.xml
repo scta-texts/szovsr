@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 17</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 17</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="720"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m18083"><!-- t5l3c17 -->
+        <head xml:id="szovsr-m18083-Hd1e101">Caput 17</head>
+        <head xml:id="szovsr-m18083-Hd1e103" type="question-title">Utrum juramentum promissorium sine veritate factum semper sit peccatum mortale?</head>
+        <p xml:id="szovsr-m18083-d1e106">
+          <lb ed="#P" n="12"/>CAPUT XVII.
+          <lb ed="#P" n="13"/>UTRUM JURAMENTUM PROMISSORIUM SINE 
+          VERI<lb break="no" ed="#P" n="14"/>TATE FACTUM SEMPER SIT PECCATUM 
+          MOR<lb break="no" ed="#P" n="15"/>TALE?
+        </p>
+        <p xml:id="szovsr-m18083-d1e117">
+          <lb ed="#P" n="16"/>1. Quid sit fictum, quid dolosum 
+          juramen<lb break="no" ed="#P" n="17"/>tun. — Diximus de defectu veritatis in 
+          obser<lb break="no" ed="#P" n="18"/>vando juramento promissorio, nunc 
+          dicen<lb break="no" ed="#P" n="19"/>dum est de peccato quod committitur, 
+          quan<lb break="no" ed="#P" n="20"/>do in praestando ipso juramento 
+          promis<lb break="no" ed="#P" n="21"/>sorio veritas deest. Deest autem hoc modo
+          <lb ed="#P" n="22"/>veritas ex defectu debitae intentionis, sub
+          <lb ed="#P" n="23"/>quo genere juramenti duos modos supra 
+          dis<lb break="no" ed="#P" n="24"/>tinximus: unum vocavimus fictum, alium 
+          si<lb break="no" ed="#P" n="25"/>mulatum, seu dolosum, quorum prior in 
+          in<lb break="no" ed="#P" n="26"/>tentione interiori consistit, secundus in usu
+          <lb ed="#P" n="27"/>significationis verborum , et de hoc 
+          poste<lb break="no" ed="#P" n="28"/>riori multa dicta sunt in cap. 5, de 
+          asser<lb break="no" ed="#P" n="29"/>torio juramento, quae cum proportione 
+          lo<lb break="no" ed="#P" n="30"/>cum habent in promissorio, quia ut ibi etiam
+          <lb ed="#P" n="31"/>notavimus. simulatio vel dolus in verbis non
+          <lb ed="#P" n="32"/>habet locum in juramento promissorio, nisi
+          <lb ed="#P" n="33"/>ut assertorium est, quia solum committitur
+          <lb ed="#P" n="34"/>hic defectus, quando actu verba proferuntur,
+          <lb ed="#P" n="35"/>ut constat; nihilominus ad complementum
+          <lb ed="#P" n="36"/>materiae, verbum unum in fine addemus. 
+          Prae<lb break="no" ed="#P" n="37"/>cipue igitur deest veritas huic juramento,
+          <lb ed="#P" n="38"/>quando ficta intentione fit, quod variis modis
+          <lb ed="#P" n="39"/>contingit, ut l. 2. c. 6, diximus, scilicet, quia
+          <lb ed="#P" n="40"/>vel sine intentione jurandi, vel promittendi,
+          <lb ed="#P" n="41"/>vel se obligandi, vel implendi promissum, fit.
+          <lb ed="#P" n="42"/>Est autem per se manifestum, in toto hoc 
+          ge<lb break="no" ed="#P" n="43"/>nere fictionis committi aliquam culpam, quia
+          <lb ed="#P" n="44"/>non fit sine aliquo mendacio, seu fallacia, quia
+          <lb ed="#P" n="45"/>aliud verbis profertur, et aliud mente 
+          retine<lb break="no" ed="#P" n="46"/>tur. Potest autem talis culpa esse, vel contra
+          <lb ed="#P" n="47"/>religionem, vel contra justitiam, aut 
+          fidelita<lb break="no" ed="#P" n="48"/>tem humanam, et ad illius qualitatem et 
+          gra<lb break="no" ed="#P" n="49"/>vitatem explicandam per singulos fictionis
+          <lb ed="#P" n="50"/>modos breviter discurremus.
+        </p>
+        <p xml:id="szovsr-m18083-d1e195">
+          <lb ed="#P" n="51"/>2. Prima conclusio. — Dico primo: jurare
+          <lb ed="#P" n="52"/>exterius sine intentione jurandi ex suo genere
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>peccatum mortale est contra religionem, et
+          <lb ed="#P" n="54"/>contra secundum praeceptum Decalogi, et 
+          ali<lb break="no" ed="#P" n="55"/>quando esse potest contra justitiam, licet non
+          <lb ed="#P" n="56"/>semper. Conclusio est communis 
+          Theologo<lb break="no" ed="#P" n="57"/>rum, in 3, distinct. 39; Bonav., art. 3, q. 1;
+          <lb ed="#P" n="58"/>Richar., art. 2, q. 2; item Cajetan., Soti, et
+          <lb ed="#P" n="59"/>aliorum, d. q. 89, art. 7; Covar., 1p., 85,
+          <lb ed="#P" n="60"/>num. 2. Probatur primo, quia illo modo 
+          assu<lb break="no" ed="#P" n="61"/>mitur nomen Dei in vanum, et modo gravi
+          <lb ed="#P" n="62"/>ac pernicioso ; ergo est peccatum mortale ex
+          <lb ed="#P" n="63"/>suo genere. Antecedens patet, quia nomen
+          <lb ed="#P" n="64"/>Dei ficte et exterius ad jurandum assumitur;
+          <lb ed="#P" n="65"/>ergo vane, quia non sumitur ad 
+          confirman<lb break="no" ed="#P" n="66"/>dam veritatem, sed ad decipiendum; ergo in
+          <lb ed="#P" n="67"/>vanum; quid enim magis vanum quam fallacia
+          <lb ed="#P" n="68"/>et deceptio?lllatio autem primi argumenti 
+          pro<lb break="no" ed="#P" n="69"/>batur, tum quia magna irreverentia Dei est, quod
+          <lb ed="#P" n="70"/>illius nomine abutatur homo ad decipiendum
+          <lb ed="#P" n="71"/>alios; tum etiam quia talis modus jurandi est
+          <lb ed="#P" n="72"/>valde contrarius principali fini juramenti, qui
+          <lb ed="#P" n="73"/>est firmare humana foedera, et verba. Nam, ut
+          <lb ed="#P" n="74"/>in principio hujus materiae dixi,ex necessitate
+          <lb ed="#P" n="75"/>hujus internae intentionis jurandi multum 
+          vi<lb break="no" ed="#P" n="76"/>detur enervari efficacia juramenti ; unde nisi
+          <lb ed="#P" n="77"/>teneantur homines gravi obligatione ad 
+          ha<lb break="no" ed="#P" n="78"/>bendam talem intentionem, cum jurant, 
+          pror<lb break="no" ed="#P" n="79"/>sus evertitur juramenti fructus et securitas.
+          <lb ed="#P" n="80"/>Est ergo haec gravis obligatio nata ex 
+          intrin<lb break="no" ed="#P" n="81"/>seca ratione juramenti et reverentia Deo 
+          de<lb break="no" ed="#P" n="82"/>bita; et ideo ejus transgressio est ex suo 
+          ge<lb break="no" ed="#P" n="83"/>nere grave peccatum.
+        </p>
+        <p xml:id="szovsr-m18083-d1e272">
+          <lb ed="#P" n="84"/>3. Atque haec assertio locum habet tam in
+          <lb ed="#P" n="85"/>juramento promissorio quam in assertorio, ut
+          <lb ed="#P" n="86"/>constat. Item potest tam circa veram 
+          assertio<lb break="no" ed="#P" n="87"/>nem, vel promissionem, quam circa falsam
+          <lb ed="#P" n="88"/>sic jurari ; habet tamen assertio majorem 
+          cer<lb break="no" ed="#P" n="89"/>titudinem, quando falsum est quod hoc modo
+          <lb ed="#P" n="90"/>juratur, ut auctores citati, et omnes alii 
+          do<lb break="no" ed="#P" n="91"/>cent. Quia praeter inordinationem declaratam,
+          <lb ed="#P" n="92"/>ibi adducitur nomen Dei invocatione externa
+          <lb ed="#P" n="93"/>ad falsum confirmandum; hic autem est 
+          ma<lb break="no" ed="#P" n="94"/>jor abusus divini nominis, et in majorem 
+          ir<lb break="no" ed="#P" n="95"/>reverentiam Dei cedit. Quia cum homines non
+          <lb ed="#P" n="96"/>videant cor, sed ea quae exterius aguntur,
+          <lb ed="#P" n="97"/>apud illos perinde est, sic ficte jurare, ac Deum
+          <lb ed="#P" n="98"/>in falsum adducere ; unde si intelligant esse
+          <lb ed="#P" n="99"/>falsum quod sic juratum est, credent Deum
+          <lb ed="#P" n="100"/>fuisse adductum ad testificandum falsum. Quod
+          <lb ed="#P" n="101"/>autem falsitas promissionis vel assertionis sic
+          <lb ed="#P" n="102"/>juratae sit occulta aliis hominibus, est per 
+          ac<lb break="no" ed="#P" n="103"/>cidens, sed illa de se est valde perniciosa 
+          fic<lb break="no" ed="#P" n="104"/>tio. Confirmatur, nam exterius dicere verba
+          <lb ed="#P" n="105"/>blasphemiae in Deum, etiamsi dicantur sine
+          <lb ed="#P" n="106"/>intentione blasphemandi, sed ex metu vel 
+          va<lb break="no" ed="#P" n="107"/>na ostentatione, peccatum mortale est, quia
+          <pb ed="#P" n="721"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>de se tendit in gravem injuriam et 
+          inhonora<lb break="no" ed="#P" n="2"/>tionem Dei ; ergo adducere Deum exterius ad
+          <lb ed="#P" n="3"/>testificandum falsum, de se est gravis 
+          irrevc<lb break="no" ed="#P" n="4"/>rentia Dei.
+        </p>
+        <p xml:id="szovsr-m18083-d1e340">
+          <lb ed="#P" n="5"/>4. Objectio. — Dices: maledicere sine 
+          inten<lb break="no" ed="#P" n="6"/>tione imprecandi malum, non est peccatum
+          <lb ed="#P" n="7"/>mortale; ergo nec jurare sine intentione, etiam
+          <lb ed="#P" n="8"/>falsum. Item, qui jurat sine intentione, non
+          <lb ed="#P" n="9"/>jurat; ergo licet juret falsum, non perjurat ;
+          <lb ed="#P" n="10"/>ergo non peccat mortaliter. RéSpondeo ad 
+          pri<lb break="no" ed="#P" n="11"/>mum, negando consequentiam, quia qui 
+          ma<lb break="no" ed="#P" n="12"/>ledicit, non assumit nomen Dei, sed fortasse
+          <lb ed="#P" n="13"/>daemonis; et ideo fictio non auget malitiam,
+          <lb ed="#P" n="14"/>sed minuit. Deinde, licet fortasse contingat 
+          in<lb break="no" ed="#P" n="15"/>vocare nomen Dei, non invocat ad 
+          testifican<lb break="no" ed="#P" n="16"/>dum, sed ad operandum; et ideo cum invocetur
+          <lb ed="#P" n="17"/>ad malum proximi, minus malum est non ex
+          <lb ed="#P" n="18"/>animo invocare, neque in eo intervenit gravis
+          <lb ed="#P" n="19"/>injuria Dei vel proximi. Ad secundum, 
+          conce<lb break="no" ed="#P" n="20"/>do illum non vere, sed apparenter jurare, et
+          <lb ed="#P" n="21"/>ideo illud non esse verum perjurium (ut sic 
+          di<lb break="no" ed="#P" n="22"/>cam), sed apparens. Verumtamen haec ipsa
+          <lb ed="#P" n="23"/>fictio perjurii est gravis injuria Dei, et valde
+          <lb ed="#P" n="24"/>perniciosa societati humanae, et ideo sine 
+          du<lb break="no" ed="#P" n="25"/>bio est grave peccatum ex genere suo. Àn vero
+          <lb ed="#P" n="26"/>in individuo semper tale sit, vel ex levitate
+          <lb ed="#P" n="27"/>materiae possit esse veniale, non invenio 
+          dis<lb break="no" ed="#P" n="28"/>putatum ; in sequentibus vero illud attingam.
+        </p>
+        <p xml:id="szovsr-m18083-d1e395">
+          <lb ed="#P" n="29"/>5. At vero quando juramentum externum
+          <lb ed="#P" n="30"/>est de re vera, aliqui putant ex vi religionis
+          <lb ed="#P" n="31"/>non esse mortale jurare veritatem sine 
+          inten<lb break="no" ed="#P" n="32"/>tione. Dico, ex vi religionis, nam ex vi 
+          justi<lb break="no" ed="#P" n="33"/>tiae, non est dubium quin possit esse peccatum
+          <lb ed="#P" n="34"/>mortale ; ut si, judice vel superiore juste 
+          prae<lb break="no" ed="#P" n="35"/>cipiente jurare, subditus sine intentione 
+          ju<lb break="no" ed="#P" n="36"/>randi verba proferat, peccat mortaliter, quia
+          <lb ed="#P" n="37"/>contra justum mandatum in re ipsa, licet non
+          <lb ed="#P" n="38"/>in externa specie ; quod non excusat, quia est
+          <lb ed="#P" n="39"/>gravis deceptio, et inobedientia in re gravi.
+          <lb ed="#P" n="40"/>Idem credo, si in jurando gravi et justo 
+          con<lb break="no" ed="#P" n="41"/>tractu vel promissione ficte quis juret sine 
+          in<lb break="no" ed="#P" n="42"/>tentione ; nam, supposita conventione vel 
+          pac<lb break="no" ed="#P" n="43"/>to, teneris vere et ex animo te obligare, ac
+          <lb ed="#P" n="44"/>jurare. Hinc vero recte concluditur, in his 
+          ca<lb break="no" ed="#P" n="45"/>sibus, atque adeo ex genere etiam esse hoc
+          <lb ed="#P" n="46"/>peccatum mortale contra religionem, quia est
+          <lb ed="#P" n="47"/>gravis irreverentia, et abusus nominis Dei 
+          val<lb break="no" ed="#P" n="48"/>de contrarius fini juramenti, qui est veritatis
+          <lb ed="#P" n="49"/>confirmatio ; pro nihilo enim aestimabitur 
+          ju<lb break="no" ed="#P" n="50"/>ramenti adjectio, si intelligant homines sine
+          <lb ed="#P" n="51"/>peccato gravi posse ficte fieri, etiam in negotiis
+          <lb ed="#P" n="52"/>gravibus.
+        </p>
+        <p xml:id="szovsr-m18083-d1e450">
+          <lb ed="#P" n="53"/>6. Res vero dubia est, quando juramentum
+          <lb ed="#P" n="54"/>injuste exigitur, vel quoties voluntarie et sine
+          <lb ed="#P" n="55"/>obligatione, et sine alio nocumento vel injuria
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tertii fit. Nam Cajetanus, d. art. 7, dub. 
+          pe<lb break="no" ed="#P" n="57"/>nult., censet nihilominus illud esse in 
+          indivi<lb break="no" ed="#P" n="58"/>duo peccatum mortale, quia est quaedam 
+          illu<lb break="no" ed="#P" n="59"/>sio divini nominis, et contraria primario fini
+          <lb ed="#P" n="60"/>juramenti; et hoc sequitur Covar. supra, n.3,
+          <lb ed="#P" n="61"/>et est probabile, sed nimis rigorosum ; et ideo
+          <lb ed="#P" n="62"/>Soto contrarium tenet, et mulii sequuntur, et
+          <lb ed="#P" n="63"/>mihi etiam videtur probabilius. Quia ibi non
+          <lb ed="#P" n="64"/>intervenit injustitia proximi (ut in casu 
+          sup<lb break="no" ed="#P" n="65"/>ponitur) praeter illud genus mendacii, quod
+          <lb ed="#P" n="66"/>homini perniciosum non est; nec etiam 
+          respec<lb break="no" ed="#P" n="67"/>tu Dei intervenit gravis irreverentia, quia, eo
+          <lb ed="#P" n="68"/>modo quo nomen ejus assumitur, ad 
+          verita<lb break="no" ed="#P" n="69"/>tem affirmandam adducitur. Et licet ratione
+          <lb ed="#P" n="70"/>fictionis in vanum assumatur nomen Dei, quod
+          <lb ed="#P" n="71"/>negari non potest, non tamen cum gravi 
+          irre<lb break="no" ed="#P" n="72"/>verentia ratione materliae et modi, et ideo licet
+          <lb ed="#P" n="73"/>sit culpa, non tamen gravis. Sicut qui orat 
+          si<lb break="no" ed="#P" n="74"/>ne attentione, et qui laudes Deo canit, nihil
+          <lb ed="#P" n="75"/>de illo cogitans, in vanum nomen Dei assumit,
+          <lb ed="#P" n="76"/>et non propterea mortaliter peccat. Nec 
+          deni<lb break="no" ed="#P" n="77"/>que finis juramenti graviter in hoc offenditur,
+          <lb ed="#P" n="78"/>quia sufficit ad finem juramenti, quod sine
+          <lb ed="#P" n="79"/>fictione exhiberi debeat, et quod haec 
+          obliga<lb break="no" ed="#P" n="80"/>tio sit proportionata materiae, et negotio de
+          <lb ed="#P" n="81"/>quo tractatur.
+        </p>
+        <p xml:id="szovsr-m18083-d1e518">
+          <lb ed="#P" n="82"/>7. Secunda conclusio. — Objicitur contra
+          <lb ed="#P" n="83"/>secundam conclusionem. — Dico secundo: 
+          ju<lb break="no" ed="#P" n="84"/>rare cum intentione jurandi, et non servandi
+          <lb ed="#P" n="85"/>seu faciendi quod juratum est, semper est
+          <lb ed="#P" n="86"/>peecatum mortale. Hoc jam dictum est capite
+          <lb ed="#P" n="87"/>praecedenti, quia tale juramentum est 
+          perju<lb break="no" ed="#P" n="88"/>rium assertorium, quod semper est peccatum
+          <lb ed="#P" n="89"/>mortale ; neque in eo distinguitur gravis et
+          <lb ed="#P" n="90"/>levis materia quoad hanc partem, ut visum
+          <lb ed="#P" n="91"/>est. Dices: non est peccatum mortale 
+          propo<lb break="no" ed="#P" n="92"/>nere facere quod sine peccato mortali fieri 
+          po<lb break="no" ed="#P" n="93"/>test ; sed non implere juramentum 
+          promisso<lb break="no" ed="#P" n="94"/>rium in materia levi, non est peccatum 
+          mor<lb break="no" ed="#P" n="95"/>tale ; ergo proponere illud non servare, non
+          <lb ed="#P" n="96"/>erit peccatum mortale; ergo habere hoc 
+          pro<lb break="no" ed="#P" n="97"/>positum in eodem tempore et momento, in
+          <lb ed="#P" n="98"/>quo juramentum fit, non erit peccatum 
+          mor<lb break="no" ed="#P" n="99"/>tale, est enim eadem ratio. Secundo , passim
+          <lb ed="#P" n="100"/>videmus fieri juramenta levia, quae non 
+          cen<lb break="no" ed="#P" n="101"/>sentur esse peccata mortalia, licet fiant sine
+          <lb ed="#P" n="102"/>intentione exequendi illa ; talia videntur esse
+          <lb ed="#P" n="103"/>juramenta parentum vel dominorum, qui 
+          fi<lb break="no" ed="#P" n="104"/>liis vel servis supplicium snb juramento 
+          mi<lb break="no" ed="#P" n="105"/>nantur ; vel e converso solent sub juramento
+          <lb ed="#P" n="106"/>munuscula eis promittere, si aliquid faciant,
+          <lb ed="#P" n="107"/>solum ad eos excitandos, sine animo implendi.
+          <lb ed="#P" n="108"/>Huc etiam spectant juramenta urbanitatis, ut
+          <lb ed="#P" n="109"/>cum honoris causa jurat aliquis non ingredi,
+          <lb ed="#P" n="110"/>nisi alter praececat, et similia, quae neque pos-
+          <pb ed="#P" n="722"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tea implentur, neque antea cum illa 
+          intentio<lb break="no" ed="#P" n="2"/>ne fiunt. His denique adjungi solet 
+          juramen<lb break="no" ed="#P" n="3"/>tum promissorium per jocum factum: nam
+          <lb ed="#P" n="4"/>fieri solet sine intentione implendi, et tamen
+          <lb ed="#P" n="5"/>solum censetur esse peccatum veniale, ut 
+          sen<lb break="no" ed="#P" n="6"/>tit Glos., in cap. Unum, S Nunc, in fin., verb.
+          <lb ed="#P" n="7"/>Juramentum, 25 d.
+        </p>
+        <p xml:id="szovsr-m18083-d1e603">
+          <lb ed="#P" n="8"/>S. Dissolvitur prima objectio. — Ad 
+          prio<lb break="no" ed="#P" n="9"/>rem objectionem respondeo, negando ultimam
+          <lb ed="#P" n="10"/>consequentiam, quia quando fit juramentum
+          <lb ed="#P" n="11"/>cum proposito non faciendi quod juratur, 
+          ta<lb break="no" ed="#P" n="12"/>le propositum destruit primariam veritatem
+          <lb ed="#P" n="13"/>talis juramenti, et facit ut sit de formali et
+          <lb ed="#P" n="14"/>proprio mendacio. Quando autem in principio
+          <lb ed="#P" n="15"/>fit juramentum cum debito proposito, licet
+          <lb ed="#P" n="16"/>postea mutetur, non tollitur formalis et 
+          pri<lb break="no" ed="#P" n="17"/>maria veritas prioris juramenti; illa enim 
+          se<lb break="no" ed="#P" n="18"/>mel prolata mutari non potest ; solum fit ut
+          <lb ed="#P" n="19"/>assertio de futuro in re ipsa non fuerit, quod
+          <lb ed="#P" n="20"/>pertinet quasi ad materialem falsitatem, ut 
+          su<lb break="no" ed="#P" n="21"/>pra declaratum est. Propositum ergo faciendi
+          <lb ed="#P" n="22"/>vel non faciendi id, quod juramento 
+          affirma<lb break="no" ed="#P" n="23"/>tur, erit tunc quasi materia peccati muortalis
+          <lb ed="#P" n="24"/>respectu falsi juramenti.
+        </p>
+        <p xml:id="szovsr-m18083-d1e643">
+          <lb ed="#P" n="25"/>9. Secunda objectio dissolvitur. — Ad 
+          se<lb break="no" ed="#P" n="26"/>cuncam partem objectionis, omnes fere 
+          auc<lb break="no" ed="#P" n="27"/>tores conantur haec ordinaria juramenta 
+          ex<lb break="no" ed="#P" n="28"/>cusare a peccato mortali ; oportet tamen ut
+          <lb ed="#P" n="29"/>excusatio bene fundata sit. Itaque 
+          quantum<lb break="no" ed="#P" n="30"/>cumque juramentum promissorium sit de re
+          <lb ed="#P" n="31"/>levi, si absoluta intentione et proposito 
+          juran<lb break="no" ed="#P" n="32"/>di, et non implendi fit, peccatur mortaliter,
+          <lb ed="#P" n="33"/>quia est perjurium assertorium, ut supra 
+          de<lb break="no" ed="#P" n="34"/>claratum est. Primo ergo excusari possunt a
+          <lb ed="#P" n="35"/>gravi culpa, quia sicut non fiunt cum 
+          inten<lb break="no" ed="#P" n="36"/>tione faciendi quod dicitur, ita nec cum 
+          inten<lb break="no" ed="#P" n="37"/>tione jurandi ; et ita licet sit mendacium, non
+          <lb ed="#P" n="38"/>est perjurium, quia illud non est juramentum.
+          <lb ed="#P" n="39"/>Haec vero excusatio non caret scrupulo, quia
+          <lb ed="#P" n="40"/>licet illud non sit verum juramentum, est 
+          sal<lb break="no" ed="#P" n="41"/>tem externum et apparens, et cadit super
+          <lb ed="#P" n="42"/>mendacium, quod diximus supra esse 
+          pecca<lb break="no" ed="#P" n="43"/>tum mortale, nisi quis velit excusare illud
+          <lb ed="#P" n="44"/>propter levitatem materiae. Secundo vero et
+          <lb ed="#P" n="45"/>melius excusantur, quia licet fiant cum 
+          inten<lb break="no" ed="#P" n="46"/>tione jurandi, non tamen absolute, sed cum
+          <lb ed="#P" n="47"/>aliqua subintellecta conditione, scilicet, si hoc
+          <lb ed="#P" n="48"/>vel illud feceris, si consenseris, aut, si non 
+          ni<lb break="no" ed="#P" n="49"/>mium repugnaveris, vel, nisi aliud magis 
+          ex<lb break="no" ed="#P" n="50"/>pedire judicaverim, vel, quantum in me est,
+          <lb ed="#P" n="51"/>vel, si alteri non fuerit ingratum. Tertia 
+          excu<lb break="no" ed="#P" n="52"/>satio est, quod illa juramenta licet cum 
+          inten<lb break="no" ed="#P" n="53"/>tione et proposito fiant, postea non obligant,
+          <lb ed="#P" n="54"/>quia non sunt de re honesta, sed 
+          imperiinen<lb break="no" ed="#P" n="55"/>te, vel sine debita ratione ; quomodo autem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>haec esse possit excusatio a mortali, dicemus
+          <lb ed="#P" n="57"/>capite sequenti. Quarta excusatio est, quod 
+          ta<lb break="no" ed="#P" n="58"/>lia juramenta interdum obligant, postea vero
+          <lb ed="#P" n="59"/>facile non observantur propter mutationem
+          <lb ed="#P" n="60"/>animi, non tamen cum gravi culpa, propter
+          <lb ed="#P" n="61"/>dicta in capite praecedenti, quia materia levis
+          <lb ed="#P" n="62"/>est. Et haec tertia et quarta excusatio maxime
+          <lb ed="#P" n="63"/>videntur habere locum in levibus 
+          comminatio<lb break="no" ed="#P" n="64"/>nibus vel promissionibus, quae a matribus vel
+          <lb ed="#P" n="65"/>dominis fiunt ; secunda vero magis in 
+          jura<lb break="no" ed="#P" n="66"/>mentis urbanitatis locum habet. Et utraque
+          <lb ed="#P" n="67"/>videntur esse incauta juramenta, quae 
+          Augus<lb break="no" ed="#P" n="68"/>tinus ponit inter venialia peccata, sermon. 41
+          <lb ed="#P" n="69"/>de Sanctis, quia nimia facilitate in levi 
+          mate<lb break="no" ed="#P" n="70"/>ria fiunt, et postea ex quacumque necessitate
+          <lb ed="#P" n="71"/>vel oecasione non implentur. De quibus 
+          lo<lb break="no" ed="#P" n="72"/>quitur etiam Gratianus, referens Augustinum,
+          <lb ed="#P" n="73"/>in dicto 8 Nunuc, ubi Glossa de jocoso 
+          jura<lb break="no" ed="#P" n="74"/>mento id intelligit, sed non recte, quia multa
+          <lb ed="#P" n="75"/>ex dictis non sunt jocosa juramenta, ut 
+          con<lb break="no" ed="#P" n="76"/>stat. Unde( quod supra etiam dictum est ) 
+          jo<lb break="no" ed="#P" n="77"/>cus non obstat, quominus veritas in jurando
+          <lb ed="#P" n="78"/>tenenda sit ; et ideo licet promissio fiat joco,
+          <lb ed="#P" n="79"/>si tamen juratur, debet fieri animo 
+          adimplen<lb break="no" ed="#P" n="80"/>di. Postea vero frequentius non obligabit, 
+          ni<lb break="no" ed="#P" n="81"/>si sub veniali, ut dixit Marc. Anton. Baver.,
+          <lb ed="#P" n="82"/>tract. de Juramen., num. 120. Quod ideo 
+          dic<lb break="no" ed="#P" n="83"/>tum esse intelligo, quia talia juramenta 
+          non<lb break="no" ed="#P" n="84"/>nisi circa materiam levem fiunt.
+        </p>
+        <p xml:id="szovsr-m18083-d1e778">
+          <lb ed="#P" n="85"/>10. Juramentum fictum solum est mortale,
+          <lb ed="#P" n="86"/>quando includit falsitatem assertionis aut 
+          n<lb break="no" ed="#P" n="87"/>justitiam. — Dico tertio: juramentum fictum
+          <lb ed="#P" n="88"/>ex defectu intentionis promittendi, aut se
+          <lb ed="#P" n="89"/>obligandi, tunc solum est peccatum mortale,
+          <lb ed="#P" n="90"/>quando includit falsitatem assertionis, aut 
+          in<lb break="no" ed="#P" n="91"/>justitiam, alias erit veniale, vel interdum 
+          nul<lb break="no" ed="#P" n="92"/>Ium. De promisssione declaratur, nam potest
+          <lb ed="#P" n="93"/>juramentum fieri sub verbo promittendi,
+          <lb ed="#P" n="94"/>vel tantum sub verbo faciendi, ut: 
+          Promit<lb break="no" ed="#P" n="95"/>to et juro me facturum ; aut solum: Juro
+          <lb ed="#P" n="96"/>me facturum, daturum, etc. Quando 
+          jura<lb break="no" ed="#P" n="97"/>mentum cadit in promissionem, et 
+          sufficien<lb break="no" ed="#P" n="98"/>ter hoc exprimitur, tunc jurare sine intentione
+          <lb ed="#P" n="99"/>promittendi est perjurium contra veritatem
+          <lb ed="#P" n="100"/>assertionis, et ideo est peccatum mortale, ut
+          <lb ed="#P" n="101"/>constat. Quando vero juramentum cadit in
+          <lb ed="#P" n="102"/>factum, si quis habeat intentionem faciendi,
+          <lb ed="#P" n="103"/>licet non habeat intentionem promittendi, non
+          <lb ed="#P" n="104"/>peccabit mortaliter ex vi juramenti, quia 
+          nul<lb break="no" ed="#P" n="105"/>Ium mendacium jurat. Imo nec veniale 
+          pecca<lb break="no" ed="#P" n="106"/>tum hoc esse videtur ex vi religionis, quia 
+          po<lb break="no" ed="#P" n="107"/>test rectissime fieri juramentum de sola 
+          asser<lb break="no" ed="#P" n="108"/>tione futuri operis sine promissione, ut supra
+          <lb ed="#P" n="109"/>declaratum est. Dico autem, ex vi religionis
+          <lb ed="#P" n="110"/>ant juramenti, quia ex alio capite potest in-
+          <pb ed="#P" n="723"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tervenire culpa ; ut si alias convenerit de 
+          pro<lb break="no" ed="#P" n="2"/>mittendo, vel de faciendo pacto, et sine 
+          ra<lb break="no" ed="#P" n="3"/>tione decipiat alterum, et verbis eludat. Quod
+          <lb ed="#P" n="4"/>pertinebit magis ad juramentum dolosum ,
+          <lb ed="#P" n="5"/>quam ad fictum, quia utitur quis verbis 
+          asser<lb break="no" ed="#P" n="6"/>toriis, tanquam promissoriis ; quia ita illa 
+          ac<lb break="no" ed="#P" n="7"/>cipit, cui juratur, cum tamen jurans hoc non
+          <lb ed="#P" n="8"/>intendat, quod pertinet ad cautelam, non ad
+          <lb ed="#P" n="9"/>falsitatem.
+        </p>
+        <p xml:id="szovsr-m18083-d1e861">
+          <lb ed="#P" n="10"/>11. Duplex intentio se non obligandi. —
+          <lb ed="#P" n="11"/>Quod vero spectat ad intentionem non se 
+          obli<lb break="no" ed="#P" n="12"/>gandi, de duplici obligatione potest esse 
+          ser<lb break="no" ed="#P" n="13"/>mo, scilicet, de obligatione justitiae, vel 
+          fide<lb break="no" ed="#P" n="14"/>litatis, quae directe est ad hominem ; vel de
+          <lb ed="#P" n="15"/>obligatione propria juramenti. Intentio ergo
+          <lb ed="#P" n="16"/>non se obligandi priori modo eadem in re est
+          <lb ed="#P" n="17"/>cum intentione non promittendi, et ideo 
+          eam<lb break="no" ed="#P" n="18"/>dem rationem habet vel culpae, vel 
+          excusatio<lb break="no" ed="#P" n="19"/>nis. Intentio autem non se obligandi ex 
+          jura<lb break="no" ed="#P" n="20"/>mento impossibilis est, nisi ex erronea 
+          con<lb break="no" ed="#P" n="21"/>scientia. ut supra declaravi, et ideo non 
+          po<lb break="no" ed="#P" n="22"/>test in illa fictione culpa intervenire, nisi ex
+          <lb ed="#P" n="23"/>eadem erronea conscientia, et juxta modum
+          <lb ed="#P" n="24"/>et qualitatem illius ; et ideo non potest de tali
+          <lb ed="#P" n="25"/>actione et culpa aliqua regula dari, quia
+          <lb ed="#P" n="26"/>conscientia erronea est per accidens, et ad
+          <lb ed="#P" n="27"/>factum pertinet, potestque infinitis modis 
+          va<lb break="no" ed="#P" n="28"/>riari. Re autem secundum se spectata, licet
+          <lb ed="#P" n="29"/>quis erret putans posse se obligationem 
+          jura<lb break="no" ed="#P" n="30"/>menti a juramento proprio, et cum intentione
+          <lb ed="#P" n="31"/>jurandi facto. separare, vix potest ignorantia
+          <lb ed="#P" n="32"/>ad hoc extendi, ut credatur licitum hanc 
+          se<lb break="no" ed="#P" n="33"/>parationem intendere, et ideo moraliter non
+          <lb ed="#P" n="34"/>credo haberi talem intentionem sine gravi
+          <lb ed="#P" n="35"/>culpa, quae in effectu nihil confert, quia 
+          nihi<lb break="no" ed="#P" n="36"/>lominus ille manet obligatus, ut supra dixi.
+        </p>
+        <p xml:id="szovsr-m18083-d1e922">
+          <lb ed="#P" n="37"/>12. Juramentum simulatum ex honesta 
+          cau<lb break="no" ed="#P" n="38"/>sa non est peccatum mortale. — Dico quarto:
+          <lb ed="#P" n="39"/>juramentum simulatum , etiamsi 
+          promisso<lb break="no" ed="#P" n="40"/>rium sit, intrinsece non continet perjurium,
+          <lb ed="#P" n="41"/>nec grave peccatum, si absque injustitia, et ex
+          <lb ed="#P" n="42"/>honesta causa fiat; ratione autem injustitiae
+          <lb ed="#P" n="43"/>poterit esse peccatum gravius aut levius 
+          prora<lb break="no" ed="#P" n="44"/>tione materiae. Conclusio est communis, et
+          <lb ed="#P" n="45"/>clara ex dictis supra, cap. 6; nam illa 
+          com<lb break="no" ed="#P" n="46"/>munia sunt juramento promissorio; imo de
+          <lb ed="#P" n="47"/>illo principaliter dicuntur a Doctoribus, ut
+          <lb ed="#P" n="48"/>dixit Sylvester, verb. Juramentum, 3, q.2.
+          <lb ed="#P" n="49"/>Prior ergo pars constat, quia in hoc 
+          jura<lb break="no" ed="#P" n="50"/>mento non intervenit falsitas, nam secundum
+          <lb ed="#P" n="51"/>intentionem jurantis verum est quod juratur;
+          <lb ed="#P" n="52"/>quod autem alius aliter accipiat, non reddit
+          <lb ed="#P" n="53"/>juramentum falsum, quia invocatio 
+          testimo<lb break="no" ed="#P" n="54"/>nii divini non applicatur ad significatum ab
+          <lb ed="#P" n="55"/>intentione illius qui accipit jaramentum, sed
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>jurantis. Secunda pars maxime habet locum
+          <lb ed="#P" n="57"/>in juramentis metu extortis, ut bene decla
+          <lb ed="#P" n="58"/>rant Angel. Juramentwn, 5, num. 9; Navar.,
+          <lb ed="#P" n="59"/>cap. 12, num. 14; Ludov. Lop., 1 part.,
+          <lb ed="#P" n="60"/>cap. 42 et idem est de quacumque 
+          promis<lb break="no" ed="#P" n="61"/>sione injuste petita, et de usuris solvendis,
+          <lb ed="#P" n="62"/>vel similibus. Tertia vero pars habet locum
+          <lb ed="#P" n="63"/>extra hos casus, scilicet, quando quis vel ex
+          <lb ed="#P" n="64"/>obligatione, vel saltem sponte jurat et 
+          pro<lb break="no" ed="#P" n="65"/>mittit, quia tunc sincera mente et sine 
+          am<lb break="no" ed="#P" n="66"/>phibologiis promittere debet, et consequenter
+          <lb ed="#P" n="67"/>etiam jurare, et contrarium est contra 
+          justi<lb break="no" ed="#P" n="68"/>tiam ex genere suo, et ideo tale juramentum
+          <lb ed="#P" n="69"/>etiam promissorium mortale peccatum 
+          cen<lb break="no" ed="#P" n="70"/>setur. Et ita loquuntnr de illo Theologi, in 3,
+          <lb ed="#P" n="71"/>d. 39, ubi Bonav., artic. 3, quaest. 1; 
+          Ri<lb break="no" ed="#P" n="72"/>chard., Sot. et alii; intelligunt enim de 
+          do<lb break="no" ed="#P" n="73"/>lo proprie dicto, quod injustam deceptionem
+          <lb ed="#P" n="74"/>includit. Habetque locum in matrimonio,
+          <lb ed="#P" n="75"/>sponsalibus, et aliis contractibus, de quibus
+          <lb ed="#P" n="76"/>varia exempla dari possunt ; sed ad 
+          praesen<lb break="no" ed="#P" n="77"/>tem locum non spectant, et generalis 
+          doctri<lb break="no" ed="#P" n="78"/>na de juramento doloso satis ex dictis 
+          con<lb break="no" ed="#P" n="79"/>stat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

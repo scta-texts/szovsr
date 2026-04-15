@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1045"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m26199"><!-- t6l6c1 -->
+        <head xml:id="szovsr-m26199-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-m26199-Hd1e103" type="question-title">An possit votum irritari, et quid ac quotuplex sit irritatio voti?</head>
+        <p xml:id="szovsr-m26199-d1e106">
+          <lb ed="#P" n="37"/>CAPUT I.
+          <lb ed="#P" n="38"/>AN POSSIT VOTUM IRRITARI, ET QUID AC
+          <lb ed="#P" n="39"/>QUOTUPLEX SIT IRRITATIO VOTI?
+        </p>
+        <p xml:id="szovsr-m26199-d1e115">
+          <lb ed="#P" n="40"/>1. Ad declarandam voti irritationem 
+          suppo<lb break="no" ed="#P" n="41"/>nendum est ex dictis in fine libri secundi, in
+          <lb ed="#P" n="42"/>ultimis fere verbis, quaedam esse vota ita abso-
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="43"/>luta et firma, ut in rigore non pendeant, per
+          <lb ed="#P" n="44"/>se loquendo, nisi ex voluntate voventis. tam
+          <lb ed="#P" n="45"/>ex parte ipsius persona voventis, quam ex
+          <lb ed="#P" n="46"/>parte materiae promissae, ut est, verbi 
+          gra<lb break="no" ed="#P" n="47"/>tia, votum castitatis emissum ab homine 
+          ma<lb break="no" ed="#P" n="48"/>joris aetatis, et similia ; quaedam vero esse vota
+          <lb ed="#P" n="49"/>quae habent dependentiam ex voluntate 
+          alte<lb break="no" ed="#P" n="50"/>rius praeter voluntatem voventis, quae quidem
+          <lb ed="#P" n="51"/>non habent ex voluntate voventis plenam 
+          fir<lb break="no" ed="#P" n="52"/>mitatem, quia quatenus ab alia pendent, 
+          eate<lb break="no" ed="#P" n="53"/>nus infirma dici possunt.
+        </p>
+        <p xml:id="szovsr-m26199-d1e150">
+          <lb ed="#P" n="54"/>2. Objectio. — Solutio. — Dices: omne 
+          vo<lb break="no" ed="#P" n="55"/>tum, cum sit promissio, pendet ex voluntate
+          <lb ed="#P" n="56"/>ejus cui fit, nam si ille non acceptet, non 
+          vale<lb break="no" ed="#P" n="57"/>bit promissio; et si, postquam acceptavit, 
+          re<lb break="no" ed="#P" n="58"/>mittat, tolletur obligatio ; ergo saltem ex hac
+          <lb ed="#P" n="59"/>parte omne votum infirmum est et irritabile,
+          <lb ed="#P" n="60"/>sicut supra diximus omne juramentum 
+          pro<lb break="no" ed="#P" n="61"/>missorium per remissionem creditoris esse
+          <lb ed="#P" n="62"/>remissibile seu irritabile. Respondeo, cum 
+          vo<lb break="no" ed="#P" n="63"/>tum sit promissio Deo facta, ex parte 
+          promis<lb break="no" ed="#P" n="64"/>sarii proprii non posse secundum legem 
+          ordi<lb break="no" ed="#P" n="65"/>nariam auferri per condonationem, quia inter
+          <lb ed="#P" n="66"/>nos et Deum non intercedit tam familiaris
+          <lb ed="#P" n="67"/>communicatio, sicut inter homines. Oporteret
+          <lb ed="#P" n="68"/>enim Deum per se ipsum sibi immediate 
+          pro<lb break="no" ed="#P" n="69"/>missa condonare, quod non facit, sed per 
+          vica<lb break="no" ed="#P" n="70"/>rium suum ; et ideo in votis loco condonationis
+          <lb ed="#P" n="71"/>succedit dispensatio, ut infra dicam. Igitur haec
+          <lb ed="#P" n="72"/>habitudo ad Deum ut promissarium communis
+          <lb ed="#P" n="73"/>est omni voto, nec ex illa habet majorem 
+          fir<lb break="no" ed="#P" n="74"/>mitatem vel infirmitatem unum quam aliud,
+          <lb ed="#P" n="75"/>sed potius, eo ipso quod voetum validum est,
+          <lb ed="#P" n="76"/>habet firmitatem ex parte Dei, quia certum
+          <lb ed="#P" n="77"/>est Deum acceptare illud. Cum ergo dicitur
+          <lb ed="#P" n="78"/>aliquod votum esse infirmum, intelligitur
+          <lb ed="#P" n="79"/>secundum dependentiam ab alio extra 
+          promit<lb break="no" ed="#P" n="80"/>tentem et promissarium, et illud votum, quod
+          <lb ed="#P" n="81"/>talem dependentiam non habet, vocatur hic
+          <lb ed="#P" n="82"/>simpliciter firmum.
+        </p>
+        <p xml:id="szovsr-m26199-d1e216">
+          <pb ed="#P" n="1046"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>3. Quodnam votum sit irritabile. — Quid
+          <lb ed="#P" n="2"/>sit et quotuplex irritatio coti. — Tunc ergo
+          <lb ed="#P" n="3"/>dicitur votum irriiabile, quando in suo valore
+          <lb ed="#P" n="4"/>et obligatione, vel (ut ita dicam) in suo fieri
+          <lb ed="#P" n="5"/>et conservari pendet ex voluntate alicujus 
+          ter<lb break="no" ed="#P" n="6"/>tiae personae extra promittentem et 
+          promissa<lb break="no" ed="#P" n="7"/>rium. Unde tale votum semper est 
+          conditio<lb break="no" ed="#P" n="8"/>natum expresse vel tacite: habet autem hoc
+          <lb ed="#P" n="9"/>peculiare, quod ex parte conditionis involvit
+          <lb ed="#P" n="10"/>consensum positivum, aut saltem non 
+          repug<lb break="no" ed="#P" n="11"/>nantem alterius, et ideo ab illo, a quo pendet,
+          <lb ed="#P" n="12"/>irritabile est. Alia enim vota conditionata,
+          <lb ed="#P" n="13"/>quorum conditiones ex aliis causis 
+          contingen<lb break="no" ed="#P" n="14"/>ibus pendent, licet possint non valere, vel 
+          ces<lb break="no" ed="#P" n="15"/>sare ex defectu conditionis, non dicuntnr 
+          pro<lb break="no" ed="#P" n="16"/>prie irritari, sed per se desinere, aut mutari,
+          <lb ed="#P" n="17"/>vel esse nulla. Irritatio enim dicit actum 
+          libe<lb break="no" ed="#P" n="18"/>rum vo'untatis, quo is, a quo votum pendet,
+          <lb ed="#P" n="19"/>facit ut non sit seu non obliget. Talis autem
+          <lb ed="#P" n="20"/>dependentia voti ab alterius voluntate 
+          multi<lb break="no" ed="#P" n="21"/>plex esse potest ; ad duo vero capita reducitur.
+          <lb ed="#P" n="22"/>sciiicet, vel ex parte materiae, vel ex parte 
+          per<lb break="no" ed="#P" n="23"/>sonae seu voluntatis ipsius voventis. Priori 
+          mo<lb break="no" ed="#P" n="24"/>do pendet votum ab alterius voluntate, 
+          quan<lb break="no" ed="#P" n="25"/>do matezia voti ab illa pendet in aliqua 
+          condi<lb break="no" ed="#P" n="26"/>tione necessaria ad valorem voti, ut in 
+          hones<lb break="no" ed="#P" n="27"/>tate, quia potest ab alio prohiberi vel non 
+          pro<lb break="no" ed="#P" n="28"/>hiberi ; vel in possibilitate, si materia voti
+          <lb ed="#P" n="29"/>est sub alterius potestate. Posteriori modo
+          <lb ed="#P" n="30"/>pendet votum ab alterius voluntate, quando
+          <lb ed="#P" n="31"/>voluntas voventis ita est subordinata voluntati
+          <lb ed="#P" n="32"/>alterius, ut in sua obligatione includat 
+          condi<lb break="no" ed="#P" n="33"/>tionem, Si alter consenserit, aut non 
+          repugna<lb break="no" ed="#P" n="34"/>verit, ut filius impubes pendet a patre, 
+          reli<lb break="no" ed="#P" n="35"/>giosus a suo Praelato.
+        </p>
+        <p xml:id="szovsr-m26199-d1e299">
+          <lb ed="#P" n="36"/>4 Differentia inter modum irritandi ex parte
+          <lb ed="#P" n="37"/>snateriag voti, et modum ex parte actus se 
+          ha<lb break="no" ed="#P" n="38"/>bentem. — Ex qua diversitate colligitur primo
+          <lb ed="#P" n="39"/>duplex modus irritandi votum: unus est ex
+          <lb ed="#P" n="40"/>parte materiae, quasi subtrahendo vel 
+          mutan<lb break="no" ed="#P" n="41"/>do illam; alius ex parte ipsiusmet actus 
+          vo<lb break="no" ed="#P" n="42"/>vendi, seu voluntatis voventis, revocando et
+          <lb ed="#P" n="43"/>quasi dissolvendo illum. Priorem modum 
+          vo<lb break="no" ed="#P" n="44"/>care soleo indirectum et communem, quia
+          <lb ed="#P" n="45"/>non cadit immediate in votum ipsum, sed fit
+          <lb ed="#P" n="46"/>per subtractionem materiae; unde similis estilli
+          <lb ed="#P" n="47"/>ablationi vel cessationi voti, quae contingit
+          <lb ed="#P" n="48"/>ex mutatione materiae, ut in fine hbri quarti
+          <lb ed="#P" n="49"/>visum est. Posterior autein modus est directus
+          <lb ed="#P" n="50"/>et proprius, quia immediate cadit in votum
+          <lb ed="#P" n="51"/>ipsum, et habet specialem et propriam 
+          ratio<lb break="no" ed="#P" n="52"/>nem auferendi illud. Est autem diflerentia
+          <lb ed="#P" n="53"/>valde notanda inter hos duos modos 
+          irritatio<lb break="no" ed="#P" n="54"/>nis voti ; nam irritatio directa ex parte 
+          obliga<lb break="no" ed="#P" n="55"/>tionis est irritatio simpliciter, et quasi totalis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>destructio voti; altera vero indirecta irritatio
+          <lb ed="#P" n="57"/>ex parte materiae potest dici secundum quid,
+          <lb ed="#P" n="58"/>quantum est ex se. Unde saepe est quasi 
+          tem<lb break="no" ed="#P" n="59"/>poralis suspensio voti, et licet interdum 
+          omni<lb break="no" ed="#P" n="60"/>no auferat obligationem voti, est quasi per
+          <lb ed="#P" n="61"/>accidens, quia vel votum solum fuit factum
+          <lb ed="#P" n="62"/>pro eo tempore, pro quo materia ejus 
+          prohi<lb break="no" ed="#P" n="63"/>betur, aut, licet sit perpetuum ex parte sua,
+          <lb ed="#P" n="64"/>deficit persona prius quam irritatio finiatur.
+        </p>
+        <p xml:id="szovsr-m26199-d1e367">
+          <lb ed="#P" n="65"/>5. Secundo hinc etiam fit, ut votum directe
+          <lb ed="#P" n="66"/>irritatum nunquam amplius reviviscat ; si 
+          ve<lb break="no" ed="#P" n="67"/>ro tantum irritetur ex parte materiae, ablata
+          <lb ed="#P" n="68"/>prohibitione, vel illa cessante, votum incipiat
+          <lb ed="#P" n="69"/>obligare. Prior pars nota est, quia prior 
+          obli<lb break="no" ed="#P" n="70"/>gatio extincta fuit per irritationem; et patet
+          <lb ed="#P" n="71"/>exemplo; nam si impubes faciat votum 
+          reli<lb break="no" ed="#P" n="72"/>gionis, et a patre irritetur, factus pubes non
+          <lb ed="#P" n="73"/>obligatur tali voto. Alteram vero partem 
+          vide<lb break="no" ed="#P" n="74"/>tur negare Abul., numero 30, q. 67 et 68, ubi
+          <lb ed="#P" n="75"/>de Episcopo loquitur, qui vovit peregrinari, et
+          <lb ed="#P" n="76"/>petiit licentiam a Papa, qui illam non 
+          conces<lb break="no" ed="#P" n="77"/>sit, et ita votum irritavit; et de illo ait 
+          Abu<lb break="no" ed="#P" n="78"/>len., licet postea dimittat episcopatum, non
+          <lb ed="#P" n="79"/>teneri votum impnsere, quia irritatum fuit. Dico
+          <lb ed="#P" n="80"/>tamen id non esse per se, sed considerandam
+          <lb ed="#P" n="81"/>esse conditionem voti. Nam si obligat pro 
+          cer<lb break="no" ed="#P" n="82"/>to tempore. et pro illo negetur licentia, vel
+          <lb ed="#P" n="83"/>prohibeatur materia, consequenter extinguitur
+          <lb ed="#P" n="84"/>votum ; si autem votum sit indefinite factum,
+          <lb ed="#P" n="85"/>vel sit perpetuum, non extinguitur, sed solum
+          <lb ed="#P" n="86"/>ad tempus impeditur ejus executio, et ita 
+          mu<lb break="no" ed="#P" n="87"/>tato statu poterit oblizare. Ita sensit Cajet., d.
+          <lb ed="#P" n="88"/>q. SS, art. 8. Et declaratur exemplo servi, si
+          <lb ed="#P" n="89"/>votum religionis faciat. Nam potest a domino
+          <lb ed="#P" n="90"/>prohiberi ejus executio, et tunc dicitur 
+          irrita<lb break="no" ed="#P" n="91"/>re votum, non tamen aufert illud, quia si 
+          do<lb break="no" ed="#P" n="92"/>minus moriatur, vel servus ille alia via fiat liber,
+          <lb ed="#P" n="93"/>obligabitur voto; quod si nunquam fiat liber,
+          <lb ed="#P" n="94"/>nunquam obligabitur, non quia votum fuerit
+          <lb ed="#P" n="95"/>extinctum, sed quia semper fuit impeditum.
+        </p>
+        <p xml:id="szovsr-m26199-d1e437">
+          <lb ed="#P" n="96"/>6. Omnis fidelis ectra Summum Pontificem
+          <lb ed="#P" n="97"/>potest habere vota irritabilia ex parte 
+          mate<lb break="no" ed="#P" n="98"/>rie, non tamen ex parte olligationis. — Ex
+          <lb ed="#P" n="99"/>his sequitur tertio, in quocumque homine 
+          fi<lb break="no" ed="#P" n="100"/>deli exira Summum Pontificem posse dan
+          <lb ed="#P" n="101"/>vota irritabilia ex parte materia, non vero
+          <lb ed="#P" n="102"/>dari in omnibus vota irritabilia directe et ex
+          <lb ed="#P" n="103"/>parte obligationis, licet in aliquibus detur.
+          <lb ed="#P" n="104"/>Prima pars constat, quia omnes homines infra
+          <lb ed="#P" n="105"/>Pontificem habent superiorem in terris, a quo
+          <lb ed="#P" n="106"/>interdum prohiberi possunt, ne hoc vel illud
+          <lb ed="#P" n="107"/>faciant ; ergo ex hac parte potest essc in 
+          quo<lb break="no" ed="#P" n="108"/>cumque homine aliquod votum irritabile , vel
+          <lb ed="#P" n="109"/>etiam aliqua. Dixi enim indefinite in 
+          quocum<lb break="no" ed="#P" n="110"/>que homine infra Pontificem posse dari vota
+          <pb ed="#P" n="1047"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>irritabilia . quia non omnia vota subditorum
+          <lb ed="#P" n="2"/>sunt irritabilia ex parte materiae, etiam per
+          <lb ed="#P" n="3"/>Summum Pontificem , quia non potest omnia
+          <lb ed="#P" n="4"/>pro libito suo praecipere, vel prohibere. Nec
+          <lb ed="#P" n="5"/>enim opera bona et consiliorum generaliter
+          <lb ed="#P" n="6"/>prohibere potest, quia non est data ei potestas
+          <lb ed="#P" n="7"/>in destructionem, sed in aedificationem, nec
+          <lb ed="#P" n="8"/>ad omnia privata facta hominum 
+          praecipien<lb break="no" ed="#P" n="9"/>da, sed ad ea, quae ad regimen Ecclesiae 
+          spec<lb break="no" ed="#P" n="10"/>tant, et ad bonum animarum necessaria sunt,
+          <lb ed="#P" n="11"/>aut regulariter expediunt. Quod tam de 
+          cleri<lb break="no" ed="#P" n="12"/>cis quam de laicis verissimum est, quamvis
+          <lb ed="#P" n="13"/>pro ratione status quidam illi in pluribus 
+          sub<lb break="no" ed="#P" n="14"/>dantur, quam alii. Igitur absolute et genera.
+          <lb ed="#P" n="15"/>tim non potest omnia vota singulorum 
+          irri<lb break="no" ed="#P" n="16"/>tare. Non repugnat autem in quolibet homine
+          <lb ed="#P" n="17"/>inveniri materiam aliquam voti irritabilis per
+          <lb ed="#P" n="18"/>Pontificem , quia in quolibet potest occurrere
+          <lb ed="#P" n="19"/>occasio illi praecipiendi aliquid propter 
+          com<lb break="no" ed="#P" n="20"/>mune bonum , etiamsi sit privato voto 
+          contra<lb break="no" ed="#P" n="21"/>rium. [n ipso autem Pontifice non habet locum
+          <lb ed="#P" n="22"/>irritatio haec, quia non habet superiorem, ut
+          <lb ed="#P" n="23"/>constat.
+        </p>
+        <p xml:id="szovsr-m26199-d1e526">
+          <lb ed="#P" n="24"/>7. Altera pars de irritatione directa 
+          proba<lb break="no" ed="#P" n="25"/>tur, quia, non omnes homines habent suam
+          <lb ed="#P" n="26"/>voluntatem ita subordinatam et dependentem
+          <lb ed="#P" n="27"/>ab alterius consensu , ut sine dependentia ab
+          <lb ed="#P" n="28"/>illo obligari non possint Deo pro arbitrio suae
+          <lb ed="#P" n="29"/>voluntatis, si illis suppetat materia licita, et ab
+          <lb ed="#P" n="30"/>alus obligationibus vel debitis libera. Hoc 
+          pa<lb break="no" ed="#P" n="31"/>tet inductione ; nam imprimis ex parte aetatis
+          <lb ed="#P" n="32"/>omnes homines adulti majoris aetatis, quae 
+          sal<lb break="no" ed="#P" n="33"/>tem transcendat annos pubertatis, habent 
+          ra<lb break="no" ed="#P" n="34"/>Uone libertatis suae sufficientem potestatem ad
+          <lb ed="#P" n="35"/>se oblisandum per votum, nec ex hac parte
+          <lb ed="#P" n="36"/>pendent a Papa vel rege, aut alio superiore, ut
+          <lb ed="#P" n="37"/>in sequenti capite videbimus. Deinde ex parte
+          <lb ed="#P" n="38"/>status soli religiosi in rigore habent talem 
+          su<lb break="no" ed="#P" n="39"/>bordinationem et dependentiam ab alterius
+          <lb ed="#P" n="40"/>voluntate , ut ex discursu materiae constabit.
+          <lb ed="#P" n="41"/>Itaque ex parte aetatis in solis impuberibus,
+          <lb ed="#P" n="42"/>ex parte autem status in solis religiosis sunt
+          <lb ed="#P" n="43"/>vota omnia irritabilia directe, et ex parte 
+          obli<lb break="no" ed="#P" n="44"/>gationis. In majori enim aetate est sufficiens
+          <lb ed="#P" n="45"/>libertas ex parte sua sufficiens ad votum, ut
+          <lb ed="#P" n="46"/>supra visum est ; et in omni statu extra 
+          reli<lb break="no" ed="#P" n="47"/>gionem est homo sui juris in ordiue ad Deum,
+          <lb ed="#P" n="48"/>quoad ea omnia quae ex parte materiae illi
+          <lb ed="#P" n="49"/>prohibita non sunt; et ideo absolute et 
+          sim<lb break="no" ed="#P" n="50"/>plieiter obligari potest sine conditione tacita,
+          <lb ed="#P" n="51"/>quae dependentiam ab alterius voluntate 
+          inclu<lb break="no" ed="#P" n="52"/>dat. Quod a fortiori constabit ex his, quae de
+          <lb ed="#P" n="53"/>Episcopis, servis et conjugatis dicemus.
+        </p>
+        <p xml:id="szovsr-m26199-d1e594">
+          <lb ed="#P" n="54"/>8. Potestas irritandi non est semper 
+          spiri<lb break="no" ed="#P" n="55"/>tualis. — Sed oportet advertere aliud esse lo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>qui) de voto irritabili ex intrinseca conditione
+          <lb ed="#P" n="57"/>personae voventis , aliud de voto irritabili ex
+          <lb ed="#P" n="58"/>voluntaria intentione seu conditione posita a
+          <lb ed="#P" n="59"/>vovente. Nam dicta procedunt priori modo, et
+          <lb ed="#P" n="60"/>ita etiam semper loquemur ; quia ille modus
+          <lb ed="#P" n="61"/>est quasi per se, et potest sub doctrinam 
+          ca<lb break="no" ed="#P" n="62"/>dere. Posteriori autem modo, nuilus est 
+          homi<lb break="no" ed="#P" n="63"/>num qui non possit facere votum irritabile per
+          <lb ed="#P" n="64"/>alterius voluntatem ; nam ipse etiam Summus
+          <lb ed="#P" n="65"/>Pontifex potest vovere jejunium , vel 
+          eleemo<lb break="no" ed="#P" n="66"/>synam, si confessor suus non contradixerit,
+          <lb ed="#P" n="67"/>vel si consenserit, et tunc confessor poterit 
+          irri<lb break="no" ed="#P" n="68"/>tare directe tale votum Pontificis, quia potest
+          <lb ed="#P" n="69"/>facere ut non impleatur conditio, sine qua
+          <lb ed="#P" n="70"/>votum non obligat. De hoc autem modo 
+          irrita<lb break="no" ed="#P" n="71"/>tionis nihil fere dicendum occurrit, praeter ea
+          <lb ed="#P" n="72"/>quae de voto conditionato diximus; aliqua
+          <lb ed="#P" n="73"/>vero ex his, qua dicemus, possunt ad illam
+          <lb ed="#P" n="74"/>applicari. Quarto, colligitur ex diciis, 
+          potesta<lb break="no" ed="#P" n="75"/>iem irritandi non semper esse spiritua!em, ve!
+          <lb ed="#P" n="76"/>fundari in potestate jurisdictionis, sed in hoc
+          <lb ed="#P" n="77"/>distinguendum etiam esse inter irritationem
+          <lb ed="#P" n="78"/>directam et indirectam. Patet, quia directa 
+          ir<lb break="no" ed="#P" n="79"/>ritatio ex parte irritantis fundatur in patria 
+          po<lb break="no" ed="#P" n="80"/>testate, vel naturali, ut est in proprio parente
+          <lb ed="#P" n="81"/>respectu filii, vel spirituali, ut est in Praelato
+          <lb ed="#P" n="82"/>respectu religiosi ; ex parte autem voventis
+          <lb ed="#P" n="83"/>tundatur, vel in imperfectione voluntatis cum
+          <lb ed="#P" n="84"/>tali modo emanationis vel subjectionis , ut in
+          <lb ed="#P" n="85"/>filio impubere; vel in speciali proinissione, et
+          <lb ed="#P" n="86"/>pacto praecedenti, ut in religicso. Et ideo 
+          po<lb break="no" ed="#P" n="87"/>testas haec ad irritanda vota directe vocari 
+          so<lb break="no" ed="#P" n="88"/>let dominativa , quod maxime dicitur ad 
+          dis<lb break="no" ed="#P" n="89"/>tinguendam illam a propria potestate 
+          jurisdic<lb break="no" ed="#P" n="90"/>tionis, quae per se et proxime non requiritur
+          <lb ed="#P" n="91"/>ad hanc irritationem ; intelligendum autem est
+          <lb ed="#P" n="92"/>non de quacumque dominativa potestate, sed
+          <lb ed="#P" n="93"/>de illa peculiari , quae in parentibus vel 
+          reli<lb break="no" ed="#P" n="94"/>gionum Praelatis in tales personas reperitur.
+          <lb ed="#P" n="95"/>Verum etiam est, ad constituendum vel 
+          deter<lb break="no" ed="#P" n="96"/>minandum hoc genus potestatis, aliquo modo
+          <lb ed="#P" n="97"/>intervenire jus humanum civile vel 
+          ecclesias<lb break="no" ed="#P" n="98"/>ticum, ut infra videbimus, quod jus a 
+          potes<lb break="no" ed="#P" n="99"/>tate jurisdictionis pendet ; sed nihilominus
+          <lb ed="#P" n="100"/>talis actus irritandi immediate non procedit a
+          <lb ed="#P" n="101"/>potestate jurisdictionis, nec a supernaturali et
+          <lb ed="#P" n="102"/>spirituali potestate, sed a dominativa, quae vel
+          <lb ed="#P" n="103"/>a naturali origine, vel a voluntate voventis
+          <lb ed="#P" n="104"/>dimanavit, ut dixi, et in sequentibus latius
+          <lb ed="#P" n="105"/>declarabimus. Secus vero est de potestate 
+          irri<lb break="no" ed="#P" n="106"/>tandi vota indirecte ; nam haec irritatio 
+          inter<lb break="no" ed="#P" n="107"/>dum provenit immediate a potestate 
+          jurisdic<lb break="no" ed="#P" n="108"/>tionis, non tamen semper a spirituali ; sed 
+          ali<lb break="no" ed="#P" n="109"/>quando a temporali, aliquando vero a neutra,
+          <lb ed="#P" n="110"/>sed a dominio circa materiam voti. Probo sin-
+          <pb ed="#P" n="1048"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gula : quia haec irritatio fit per prohibitionem
+          <lb ed="#P" n="2"/>materiae ; haec autem prohibitio interdum est
+          <lb ed="#P" n="3"/>per potestatem jurisdictionis spiritualis, ut per
+          <lb ed="#P" n="4"/>se constat ; aliquando vero esse posset per
+          <lb ed="#P" n="5"/>principem saecularem, et per illum posset 
+          irri<lb break="no" ed="#P" n="6"/>tari votum, siles vel praeceptum esset justum,
+          <lb ed="#P" n="7"/>ut si rex praecipiat juste dari in subsidium
+          <lb ed="#P" n="8"/>belli aliquam partem bonorum, et ideo non
+          <lb ed="#P" n="9"/>possit quis dare quod promiserat in 
+          eleemosy<lb break="no" ed="#P" n="10"/>nam dare, etc. Saepe vero haec prohibitio est
+          <lb ed="#P" n="11"/>per potestatem dominativam circa personas vel
+          <lb ed="#P" n="12"/>bona, ut in hero respectu servi, marito 
+          respec<lb break="no" ed="#P" n="13"/>tu uxoris, et sic de aliis, quae in sequentibus
+          <lb ed="#P" n="14"/>videbimus.
+        </p>
+        <p xml:id="szovsr-m26199-d1e758">
+          <lb ed="#P" n="15"/>9. Quomodo sit intelligendum , quod ad 
+          ir<lb break="no" ed="#P" n="16"/>ritandum votum non sit necessariu causa. —
+          <lb ed="#P" n="17"/>Quinto, colligitur ex dictis quomodo 
+          intelli<lb break="no" ed="#P" n="18"/>gendum sit quod communiter dici solet, ad 
+          ir<lb break="no" ed="#P" n="19"/>ritandum votum non esse necessariam 
+          cau<lb break="no" ed="#P" n="20"/>sam, sicut ad dispensandum vel 
+          commutan<lb break="no" ed="#P" n="21"/>dum. Quod docent communiter doctores in 4,
+          <lb ed="#P" n="22"/>distinct. 38, praesertim Palud., quaest. 4, art. ?;
+          <lb ed="#P" n="23"/>Suppl., q. 1, a. 5, c. 2; Sylvest., Votum, 3,
+          <lb ed="#P" n="24"/>q. 3, et lVotum, 4, q.2; Angel. Votum, 2, n.
+          <lb ed="#P" n="25"/>10; Abulen., num. 30, quaest. 43; Soto, lib.
+          <lb ed="#P" n="26"/>1, quaest. 3, art. 1; Navar., cap. 12. num.
+          <lb ed="#P" n="27"/>63 et 69; Cajetan., verb. Votum, cap. ult.;
+          <lb ed="#P" n="28"/>Anton., 2 p., tit. 12, cap. 2, S 6. Sumitur ex
+          <lb ed="#P" n="29"/>D. Thom., d. q.89, art. 12, ad2, ubi omnes 
+          mo<lb break="no" ed="#P" n="30"/>derni. Intelligendum ergo hoce est formaliter de
+          <lb ed="#P" n="31"/>irritatione, ut talis est ; ad illam enim ut sic
+          <lb ed="#P" n="32"/>non requiritur causa, licet ex parte 
+          funda<lb break="no" ed="#P" n="33"/>menti vel aliunde possit requiri. Ad quod 
+          ex<lb break="no" ed="#P" n="34"/>plicandum oportet distinguere juxta proxime
+          <lb ed="#P" n="35"/>dicta. Nam illud maxime locum habet in 
+          irri<lb break="no" ed="#P" n="36"/>tatione directa, quae fundatur in potestate 
+          do<lb break="no" ed="#P" n="37"/>minativa, loquendo praecipue de causa 
+          neces<lb break="no" ed="#P" n="38"/>saria ad valorem irritationis ; nulla enim 
+          ne<lb break="no" ed="#P" n="39"/>ccssaria est, tum quia utitur quis jure suo et
+          <lb ed="#P" n="40"/>re sua, et justa potestate quam super illam 
+          ha<lb break="no" ed="#P" n="41"/>bet, ut supponitur; tum etiam quia tale votum
+          <lb ed="#P" n="42"/>fuit implicite conditionatum, et de facto 
+          con<lb break="no" ed="#P" n="43"/>ditio non impletur, quando alter repugnat, sive
+          <lb ed="#P" n="44"/>ex causa, sive absque causa suo arbitrio id
+          <lb ed="#P" n="45"/>faciat; ergo id satis est ut votum non 
+          obh<lb break="no" ed="#P" n="46"/>get, utpote conditione non impleta. At vero
+          <lb ed="#P" n="47"/>quando irritatio est indirecta per potestatem
+          <lb ed="#P" n="48"/>jurisdictionis, necessaria est causa justa, ut lex
+          <lb ed="#P" n="49"/>sit valida, vel praeceptum obliget ; unde quia
+          <lb ed="#P" n="50"/>irritatio supponit validam prohibitionem, ex
+          <lb ed="#P" n="51"/>hac parte requirere potest causam, non quae
+          <lb ed="#P" n="52"/>tormaliter respiciat ablationem voti (nam in
+          <lb ed="#P" n="53"/>tah irritatione illa non necessario per se 
+          inten<lb break="no" ed="#P" n="54"/>ditur, sed quasi consequitur), sed quae 
+          respi<lb break="no" ed="#P" n="55"/>ciat aequalitatem legis vel praecepti.
+        </p>
+        <p xml:id="szovsr-m26199-d1e849">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>10. An pctestas dominativa, ad irritanda
+          <lb ed="#P" n="57"/>vota justa, requirat causam. — Sed quaeres
+          <lb ed="#P" n="58"/>circa irritationem ex potestate dominativa, an
+          <lb ed="#P" n="59"/>requirat causam saltem ut juste fiat. Quidam
+          <lb ed="#P" n="60"/>enim simpliciter negant, quia unusquisque
+          <lb ed="#P" n="61"/>libere potest uti jure suo. At Soto et Abulens.
+          <lb ed="#P" n="62"/>supra affirmant, quia saltem erit actus otiosus
+          <lb ed="#P" n="63"/>vel imprudens irritare votum sine causa. 
+          Di<lb break="no" ed="#P" n="64"/>cendum vero est, sermonem esse posse de
+          <lb ed="#P" n="65"/>peccato contra religionem voti, quod sit quasi
+          <lb ed="#P" n="66"/>injuriosum Deo, et sic nullum esse peccatum
+          <lb ed="#P" n="67"/>in tali irritatione, quale invenitur in 
+          dispen<lb break="no" ed="#P" n="68"/>satione voti sine causa data. Et ratio est, quia
+          <lb ed="#P" n="69"/>illud votum est conditionatum, et positum in
+          <lb ed="#P" n="70"/>arbitrio irritantis. Posset autem generaliter
+          <lb ed="#P" n="71"/>iuterrogatio fieri de quovis gcnere peccati. Et
+          <lb ed="#P" n="72"/>sic dico, ulterius considerandum esse an talis
+          <lb ed="#P" n="73"/>potestas data sit irritanti in bonum et 
+          utihta<lb break="no" ed="#P" n="74"/>tem voventis, vel in commodum ipsiusmet 
+          ir<lb break="no" ed="#P" n="75"/>ritantis, vel utriusque intuitu. Primo modo
+          <lb ed="#P" n="76"/>data est Praelato religionis ; secundo modo,
+          <lb ed="#P" n="77"/>domino in servum; tertio data videtur patri
+          <lb ed="#P" n="78"/>in filium, et marito in uxorem. In primo 
+          igi<lb break="no" ed="#P" n="79"/>tur modo, ut irritatio licite fiat, oportebit ut
+          <lb ed="#P" n="80"/>censeatur utilis, vel voventi, vel religioni, aut
+          <lb ed="#P" n="81"/>quod, pensatis omnibus, censeatur esse majus
+          <lb ed="#P" n="82"/>Dei obsequium, alioquin male utetur Praelatus
+          <lb ed="#P" n="83"/>potestate sua; factum tamen tenebit. Et raro
+          <lb ed="#P" n="84"/>erit peccatum mortalé, nisi vel prava intentio
+          <lb ed="#P" n="85"/>vel grave nocumentum subditi ex notabili 
+          ne<lb break="no" ed="#P" n="86"/>gligentia Praelati intercedat , quod raro 
+          eve<lb break="no" ed="#P" n="87"/>niet, seclusa directa malitia. In secundo 
+          mo<lb break="no" ed="#P" n="88"/>do, nullum erit peccatum votum irritare ex
+          <lb ed="#P" n="89"/>solo affectu propria commoditatis sine alia
+          <lb ed="#P" n="90"/>speciali causa, quia ibi utitur dominus re 
+          om<lb break="no" ed="#P" n="91"/>nino sua ; ut si alius voveat facere 
+          eleemosy<lb break="no" ed="#P" n="92"/>nam ex aliena pecunia, si dominus consentiat,
+          <lb ed="#P" n="93"/>omnino libere potest dominus non consentire.
+          <lb ed="#P" n="94"/>Sic ergo potest se habere dominus circa vota
+          <lb ed="#P" n="95"/>servi de rebus suis, vel de actionibus sibi 
+          de<lb break="no" ed="#P" n="96"/>bitis; solum oportet ut talis actus habeat
+          <lb ed="#P" n="97"/>generalem circumstantiam finis honesti, et
+          <lb ed="#P" n="98"/>observare etiam ne contra charitatem fiat,
+          <lb ed="#P" n="99"/>quae servo etiam debetur. Et idem fere est in
+          <lb ed="#P" n="100"/>tertio modo, quamvis ibi majori obligatione
+          <lb ed="#P" n="101"/>teneatur pater consulere commodis filii, et vir
+          <lb ed="#P" n="102"/>uxoris vel familiae, ut bene suo jure et 
+          potes<lb break="no" ed="#P" n="103"/>tate utatur.
+        </p>
+        <p xml:id="szovsr-m26199-d1e958">
+          <lb ed="#P" n="104"/>11. Prelatus non potest cogere subditum, ut
+          <lb ed="#P" n="105"/>conuutationem acceptet , si illum impediat ab
+          <lb ed="#P" n="106"/>observatione voti proprii. — Uberius vero 
+          in<lb break="no" ed="#P" n="107"/>terrogari potest, an teneatur Praelatus, qui
+          <lb ed="#P" n="108"/>votum irritat, praesertim quando id facit per
+          <lb ed="#P" n="109"/>potestatem jurisdictionis , non simpliciter 
+          tol<lb break="no" ed="#P" n="110"/>lere votum, sed in aliquid aliud commutare,
+          <pb ed="#P" n="1049"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prout fit in cap. Magne, de Voto. Ante cujus
+          <lb ed="#P" n="2"/>resolutionem oportet ulterius interrogare, an
+          <lb ed="#P" n="3"/>possit Praelatus cogere subditum ut talem
+          <lb ed="#P" n="4"/>commutationem acceptet. Et hinc initium
+          <lb ed="#P" n="5"/>sumendo, dico non posse Praelatum imponere
+          <lb ed="#P" n="6"/>hoc onus subdito, qui votum emisit, quando
+          <lb ed="#P" n="7"/>non vult dare licentiam ad servandum votum
+          <lb ed="#P" n="8"/>in propria specie in qua factum est. Ratio est,
+          <lb ed="#P" n="9"/>quia subditus non vovit nisi talem materiam
+          <lb ed="#P" n="10"/>in specie ; ergo si illa non permittitur, non
+          <lb ed="#P" n="11"/>potest cogi ad aliam; quia non potest cogi ad
+          <lb ed="#P" n="12"/>vovendum, vel simpliciter, vel hanc rem 
+          po<lb break="no" ed="#P" n="13"/>tius quam illam. Confirmatur, quia illa non
+          <lb ed="#P" n="14"/>esset irritatio, sed commutatio ; potestas 
+          au<lb break="no" ed="#P" n="15"/>tem commutandi pertinet ad jurisdictionem
+          <lb ed="#P" n="16"/>voluntariam, ut ex dictis constare potest, et
+          <lb ed="#P" n="17"/>infra etiam dicetur. Neque contra hoc facit
+          <lb ed="#P" n="18"/>cap. Magna, quia ibi facta est commutatio ad
+          <lb ed="#P" n="19"/>petitionem voventis. Itaque si vovens petat
+          <lb ed="#P" n="20"/>ablationem voti, potest Papa, si velit, per
+          <lb ed="#P" n="21"/>commutationem tollere, et non per 
+          irritatio<lb break="no" ed="#P" n="22"/>nem , et tunc si subditus nolit acceptare 
+          com<lb break="no" ed="#P" n="23"/>mutationem, obligabitur ad votum 
+          implen<lb break="no" ed="#P" n="24"/>dum, et ita tunc commutatio est quasi 
+          condi<lb break="no" ed="#P" n="25"/>tionata , sub conditione, scilicet, acceptandi
+          <lb ed="#P" n="26"/>aliud onus ; tunc autem liberum erit voventi
+          <lb ed="#P" n="27"/>non acceptare, sed votum suum formaliter
+          <lb ed="#P" n="28"/>implere. Si vero Papa invitum compellat ad
+          <lb ed="#P" n="29"/>votum non implendum, non potest illum 
+          sim<lb break="no" ed="#P" n="30"/>pliciter cogere ad aliquid aliud faciendum.
+          <lb ed="#P" n="31"/>Addi etiam potest, si votum sit mixtum ex
+          <lb ed="#P" n="32"/>personali et reali, et solum praejudicet juri
+          <lb ed="#P" n="33"/>superioris vel Eccles:ae, ut personale est, posse
+          <lb ed="#P" n="34"/>irritari quoad eam partem, relicta obligatione
+          <lb ed="#P" n="35"/>quoad alteram de reali subsidio, quia tunc non
+          <lb ed="#P" n="36"/>tam est commutatio voluntaria, quam 
+          par<lb break="no" ed="#P" n="37"/>tialis irritatio, relicto partiali debito, quod
+          <lb ed="#P" n="38"/>inerat ex vi voti. Hoc autem solum habet 
+          lo<lb break="no" ed="#P" n="39"/>cum quando talis obiigatio est per accidens
+          <lb ed="#P" n="40"/>conjuncta cum personali, non vero quando est
+          <lb ed="#P" n="41"/>accessoria , quae cessat cessante principali,
+          <lb ed="#P" n="42"/>juxta superius dicta.
+        </p>
+        <p xml:id="szovsr-m26199-d1e1071">
+          <lb ed="#P" n="43"/>19. Superior, qui votum irritat, non tenetur
+          <lb ed="#P" n="44"/>illud in aliud commutare. — Unde ad priorem
+          <lb ed="#P" n="45"/>interrogationem respondeo, non teneri 
+          supe<lb break="no" ed="#P" n="46"/>riorem ad hujusmodi commnutationem impo -
+          <lb ed="#P" n="47"/>nendam, per se loquendo, et ex vi 
+          obligatio<lb break="no" ed="#P" n="48"/>nis voti. Probatur, quia non potest cogere ad
+          <lb ed="#P" n="49"/>illam acceptandam ; ergo non tenetur illam
+          <lb ed="#P" n="50"/>intentare, ut sic dicam. Item potest absolute
+          <lb ed="#P" n="51"/>uti jure suo, absque alia causa; ergo. Item
+          <lb ed="#P" n="52"/>votum non obligat ad compensationem, 
+          quan<lb break="no" ed="#P" n="53"/>do impleri non potest ; ergo neque illa est
+          <lb ed="#P" n="54"/>necessaria, quando alias irritari potest.
+        </p>
+        <p xml:id="szovsr-m26199-d1e1100">
+          <lb ed="#P" n="55"/>20. Quotuplex sit irritatio voti, el quomodo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>differat a dispensatione. — Tandem constat ex
+          <lb ed="#P" n="57"/>dictis quid et quotuplex sit irritatio voti, et
+          <lb ed="#P" n="58"/>quomodo a dispensatione differat ; conveniunt
+          <lb ed="#P" n="59"/>enim in effectu auferendi votum, differunt 
+          ta<lb break="no" ed="#P" n="60"/>men in habitudine ad votum. Quia 
+          dispensa<lb break="no" ed="#P" n="61"/>tio cadit in illud, ut solum pendet ex 
+          acce<lb break="no" ed="#P" n="62"/>ptatione Dei, eiiamsi alias sit omnino firmum
+          <lb ed="#P" n="63"/>et absolutum ; irritatio vero respicit votum,
+          <lb ed="#P" n="64"/>ut est aliunde infirmum, et conditionatum ex
+          <lb ed="#P" n="65"/>parte materiae vel voluntatis ipsiusmet 
+          voven<lb break="no" ed="#P" n="66"/>tis. Unde provenit, ut etiam differant in 
+          potes<lb break="no" ed="#P" n="67"/>tate a qua manant; nam dispensatio semper 
+          pro<lb break="no" ed="#P" n="68"/>venit a potestate speciali a Deo concessa, non 
+          au<lb break="no" ed="#P" n="69"/>tem semper irritatio. Item dispensatio semper
+          <lb ed="#P" n="70"/>requirit justam causam, non autem irritatio.
+          <lb ed="#P" n="71"/>Item irritatio fieri potest invito vovente, ut
+          <lb ed="#P" n="72"/>constat, dispensatio vero minime ; quia est 
+          be<lb break="no" ed="#P" n="73"/>neficium, quod non fit invito, et fit in levamen
+          <lb ed="#P" n="74"/>dispensati, et ideo non debet fieri in ejus 
+          gra<lb break="no" ed="#P" n="75"/>vamen, juxia regulasjuris 61 et 69, in 6. 
+          Maxi<lb break="no" ed="#P" n="76"/>me quia si dispensatus non acceptet 
+          dispensatio<lb break="no" ed="#P" n="77"/>nem, eo ipso quasi confirmat, et iterum 
+          emit<lb break="no" ed="#P" n="78"/>tit idem votum. Quare si Praelatus velit 
+          sub<lb break="no" ed="#P" n="79"/>diti votum auferre, illo etiam invito, necesse
+          <lb ed="#P" n="80"/>est ut irritatione utatur, prohibendo 
+          mate<lb break="no" ed="#P" n="81"/>riam, vel resistendo obligationi voti, et quasi
+          <lb ed="#P" n="82"/>auferendo conditionem, sine qua validum esse
+          <lb ed="#P" n="83"/>non potest. Atque idem fere est de 
+          commuta<lb break="no" ed="#P" n="84"/>tione, quae in hoc maxime differt a 
+          dispensa<lb break="no" ed="#P" n="85"/>tione, quod dispensatio est quasi mera 
+          priva<lb break="no" ed="#P" n="86"/>tio, commutatio vero est quasi mutatio inter
+          <lb ed="#P" n="87"/>terminos positivos , quia non pure tollit 
+          obli<lb break="no" ed="#P" n="88"/>gationem, sed unam in aliam transfert: in quo
+          <lb ed="#P" n="89"/>etiam irritatio convenit cum dispensatione,
+          <lb ed="#P" n="90"/>a commutatione etiam differt , et fere in aliis
+          <lb ed="#P" n="91"/>omnibus , in quibus diximus a dispensatione
+          <lb ed="#P" n="92"/>distingui; nam illa suo modo commutationi
+          <lb ed="#P" n="93"/>communia sunt, ut in sequentibus 
+          videbi<lb break="no" ed="#P" n="94"/>mus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

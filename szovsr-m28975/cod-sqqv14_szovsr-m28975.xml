@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 22</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 22</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1154"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m28975"><!-- t6l6c22 -->
+        <head xml:id="szovsr-m28975-Hd1e101">Caput 22</head>
+        <head xml:id="szovsr-m28975-Hd1e103" type="question-title">De votis conditionalibus, quando et quomodo reservata sint.</head>
+        <p xml:id="szovsr-m28975-d1e106">
+          <lb ed="#P" n="42"/>CAPUT XXII.
+          <lb ed="#P" n="43"/>DE VOTIS CONDITIONALIBUS, QUANDO ET QUOMODO
+          <lb ed="#P" n="44"/>RESERVATA SINT.
+        </p>
+        <p xml:id="szovsr-m28975-d1e115">
+          <lb ed="#P" n="45"/>t. Punctum difficultatis. — Haec quaestio
+          <lb ed="#P" n="46"/>generalis est omnibus votis reservatis, et 
+          fre<lb break="no" ed="#P" n="47"/>quentissime occurrit, tam in votis 
+          peregrina<lb break="no" ed="#P" n="48"/>tionum reservatarum, quam in aliis, et ideo
+          <lb ed="#P" n="49"/>necessaria hoc loco visa est. Ratio autem 
+          ge<lb break="no" ed="#P" n="50"/>neralis dubitandi in ea est, quia reservatio
+          <lb ed="#P" n="51"/>haec stricte est interpretanda, quia coarctat
+          <lb ed="#P" n="52"/>potestatem dispensandi, quae favorabilis est,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>maxime quia etiam potestatem ordinariam
+          <lb ed="#P" n="54"/>restringit: ergo solum comprehendit illa vota,
+          <lb ed="#P" n="55"/>qua simpliciter talia sunt; sed hujusmodi
+          <lb ed="#P" n="56"/>tantum sunt vota absoluta et determinata,
+          <lb ed="#P" n="57"/>nam vovere sub conditione, non est 
+          simplici<lb break="no" ed="#P" n="58"/>ter vovere talem rem; ergo talia vota non
+          <lb ed="#P" n="59"/>comprehenduntur sub reservatione, quae fit
+          <lb ed="#P" n="60"/>simpliciter de voto eundi Hierosolymam, vel
+          <lb ed="#P" n="61"/>similibus. In contrarium vero est, quia dici
+          <lb ed="#P" n="62"/>non potest nulla vota conditionata esse 
+          reser<lb break="no" ed="#P" n="63"/>vata ; nam votum hoc, Si pater decesserit, 
+          re<lb break="no" ed="#P" n="64"/>ligionem ingrediar, idque promitto, 
+          reserva<lb break="no" ed="#P" n="65"/>tum est, et similia; ergo esse conditionatum
+          <lb ed="#P" n="66"/>non obstat reservationi ; ergo omnia 
+          conditio<lb break="no" ed="#P" n="67"/>nata erunt reservata circa materiam 
+          propor<lb break="no" ed="#P" n="68"/>tionatam, quia non est major ratio de una
+          <lb ed="#P" n="69"/>conditione, quam de alia. Quaestio haec et 
+          ra<lb break="no" ed="#P" n="70"/>tio proposita locum habet, non tantum in
+          <lb ed="#P" n="71"/>votis conditionalibus puris, sed etiam in 
+          poe<lb break="no" ed="#P" n="72"/>nalibus, de quorum distinctione diximus in
+          <lb ed="#P" n="73"/>lib. 1, cap. ult. Verumtamen, majporis 
+          clarita<lb break="no" ed="#P" n="74"/>tis gratia, in hoc capite solum de 
+          conditiona<lb break="no" ed="#P" n="75"/>tis, in sequenti de poenalibus dicemus, et 
+          post<lb break="no" ed="#P" n="76"/>ea de disjunctivis aliquid addemus. In 
+          condi<lb break="no" ed="#P" n="77"/>tionalibus item sunt distinguendi duo status:
+          <lb ed="#P" n="78"/>unus est ante impletam conditionem, alius
+          <lb ed="#P" n="79"/>post eventum conditionis, juxta quos duo sunt
+          <lb ed="#P" n="80"/>dubia.
+        </p>
+        <p xml:id="szovsr-m28975-d1e198">
+          <lb ed="#P" n="81"/>2. Primum dubium . an votum 
+          transmari<lb break="no" ed="#P" n="82"/>mum conditionatum aute adventum conditionis
+          <lb ed="#P" n="83"/>sit reservatum.— Prima sententia. — Primum
+          <lb ed="#P" n="84"/>ergo dubium est, an votum transmarinum,
+          <lb ed="#P" n="85"/>verbi gratia, sub conditione factum, ante
+          <lb ed="#P" n="86"/>eventum conditionis sit reservatum, vel possit
+          <lb ed="#P" n="87"/>per Episcopum dispensari, seu commutari. Et
+          <lb ed="#P" n="88"/>idem semper est intelligendum de caeteris, et
+          <lb ed="#P" n="89"/>loquimur praecise de conditionali, ut a poenali
+          <lb ed="#P" n="90"/>distinguitur. Prima sententia dicit, tale 
+          vo<lb break="no" ed="#P" n="91"/>tum contineri sub reservatis ; tenet Soto, lib.
+          <lb ed="#P" n="92"/>1 de Justit., q. 2, art. 1, ad 4, et q. 4, art. 3,
+          <lb ed="#P" n="93"/>quem sequitur Arag., d. q. S$, art. 12, in
+          <lb ed="#P" n="94"/>dubio de Votis poenal.; et videtur idem sentire
+          <lb ed="#P" n="95"/>Valent., 3 tom., disp. 6, q. 6, part. 7, cirea
+          <lb ed="#P" n="96"/>finem ; Navar., cap. 12, n. 43; Cord., in Sum.,
+          <lb ed="#P" n="97"/>q. 152; Guttier., lib. 2 Quaestionum canon.,
+          <lb ed="#P" n="98"/>cap. 22, num. ult.; Azor, tom. 1, lib. 11,
+          <lb ed="#P" n="99"/>cap. 19, q. 13, et aliqui ali moderni. Ratio
+          <lb ed="#P" n="100"/>est, quia votum conditionatum, quod non est
+          <lb ed="#P" n="101"/>poenale, est votum directum de mareria sub
+          <lb ed="#P" n="102"/>conditione promissa, et ex directa intentione
+          <lb ed="#P" n="103"/>et affectu illius fit; ergo si materia illa est 
+          re<lb break="no" ed="#P" n="104"/>servata, votum illud, etiamsi conditionale sit,
+          <lb ed="#P" n="105"/>est reservatum, quia est verum votum 
+          casti<lb break="no" ed="#P" n="106"/>tatis aut religionis, etc. Secundo declaratur,
+          <lb ed="#P" n="107"/>quia votum conditionale statim obligat quoad
+          <pb ed="#P" n="1155"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vinculum voti, ut supra visum est; ergo 
+          sta<lb break="no" ed="#P" n="2"/>tim consummatur in ratione voti, solumque
+          <lb ed="#P" n="3"/>suspenditur executio quoad actum 
+          promis<lb break="no" ed="#P" n="4"/>sum , ratione conditionis. Quod non satis
+          <lb ed="#P" n="5"/>est ut illud non sit simpliciter votum talis
+          <lb ed="#P" n="6"/>materiae ; nam qui vovet religionem, 
+          suspen<lb break="no" ed="#P" n="7"/>dens per intentionem exccutionem per unum
+          <lb ed="#P" n="8"/>vel duos annos, verum votum religionis
+          <lb ed="#P" n="9"/>emittit, quod plane reservatum est; ergo
+          <lb ed="#P" n="10"/>idem dicencum est, licet talis suspensio fiat
+          <lb ed="#P" n="11"/>per adjectam conditionem. Accedit, quod
+          <lb ed="#P" n="12"/>saepe tale votum obligat statim ad aliquos 
+          ac<lb break="no" ed="#P" n="13"/>tus, vel omissiones ; ut si sit votum casiitatis,
+          <lb ed="#P" n="14"/>aut religionis, obligat ad non contrahendum
+          <lb ed="#P" n="15"/>matrimonium ante expectatum eventum 
+          con<lb break="no" ed="#P" n="16"/>ditionis; peccabit enim quis contra votum, 
+          an<lb break="no" ed="#P" n="17"/>tea contrahens et consummans matrimonium;
+          <lb ed="#P" n="18"/>et similiter alia cum proportione obligant ad
+          <lb ed="#P" n="19"/>expectandum conditionis eventum, et vitanda
+          <lb ed="#P" n="20"/>impedimenta, quae tunc possent facere 
+          impos<lb break="no" ed="#P" n="21"/>sibilem plenam voti executionem. Signum
+          <lb ed="#P" n="22"/>ergo est, has esse veras promissiones talium
+          <lb ed="#P" n="23"/>materiarum cum dilatione executionis, quod
+          <lb ed="#P" n="24"/>non obstat quominus sint vera vota. Tertio
+          <lb ed="#P" n="25"/>probatur inductione ; nam primo, in voto 
+          in<lb break="no" ed="#P" n="26"/>grediendi religionem, vel eundi 
+          Hierosoly<lb break="no" ed="#P" n="27"/>mam, si pater obierit ; secundo, si frater natu
+          <lb ed="#P" n="28"/>major habuerit filios; tertio, servandi 
+          casti<lb break="no" ed="#P" n="29"/>tatem, nisi frater moriatur sine filiis : ihaec
+          <lb ed="#P" n="30"/>enim conditionalia sunt, et tamen in eis non
+          <lb ed="#P" n="31"/>potest Episcopus dispensare, quia revera sunt
+          <lb ed="#P" n="32"/>vota castitatis, religionis, aut transmarinum,
+          <lb ed="#P" n="33"/>et in communi aestimatione talia censentur;
+          <lb ed="#P" n="34"/>ergo.
+        </p>
+        <p xml:id="szovsr-m28975-d1e338">
+          <lb ed="#P" n="35"/>3. Resolutio. —Vota conditionalia, qua talia,
+          <lb ed="#P" n="36"/>non esse resercata. — Contractus sub conditione
+          <lb ed="#P" n="37"/>factus non est contractus perfectus. — 
+          Nihilo<lb break="no" ed="#P" n="38"/>minus probabilius censeo, vota conditionalia,
+          <lb ed="#P" n="39"/>quamdiu in illo statu permanent, non esse 
+          re<lb break="no" ed="#P" n="40"/>servata. Ita tenet Tolet., lib. 4 Summa, c. 19,
+          <lb ed="#P" n="41"/>in fine; refert Victor. Item Ledesm., 2 p.,
+          <lb ed="#P" n="42"/>Sum., tract. 10, c. 8. Insinuat Emman. Rod.,
+          <lb ed="#P" n="43"/>2 p. Sum., cap. 97, in fine. Tenet Lessius,
+          <lb ed="#P" n="44"/>lib. 9, cap. 4, dub. 13; et Sanc., lib. 8, 
+          dis<lb break="no" ed="#P" n="45"/>put. 10, num. 12 et 13, et refert Perez, Vegam,
+          <lb ed="#P" n="46"/>et Ant. Gomez. Ratio praecipua est, quia 
+          vo<lb break="no" ed="#P" n="47"/>tum conditionatum, non impleta conditione,
+          <lb ed="#P" n="48"/>nondum est consummatum et perfectum 
+          vo<lb break="no" ed="#P" n="49"/>tum, et ideo ad illud non extenditur reservatio.
+          <lb ed="#P" n="50"/>Consequentia supponitur ut clara, ex regula
+          <lb ed="#P" n="51"/>supra posita, quod reservatio est odiosa et 
+          res<lb break="no" ed="#P" n="52"/>tringenda, ut in materia etiam de casibus 
+          re<lb break="no" ed="#P" n="53"/>servatis alibi ostendimus. Antecedens patet,
+          <lb ed="#P" n="54"/>quia contractus sub conditione factus non est
+          <lb ed="#P" n="55"/>perfectus contractus, ut in sponsalibus, matri-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>monio, etsimilibus videre licet ; votum autem
+          <lb ed="#P" n="57"/>est quasi quidam contractus cum Deo; ergo.
+          <lb ed="#P" n="58"/>Item votum conditionatum conditione non 
+          im<lb break="no" ed="#P" n="59"/>pleta non obligat simpliciter, id est, non 
+          obli<lb break="no" ed="#P" n="60"/>gat ad materiam sub conditione promissam, sed
+          <lb ed="#P" n="61"/>solum ad expectandum eventum conditionis;
+          <lb ed="#P" n="62"/>ergo pro illo statu non potest dici votum 
+          sim<lb break="no" ed="#P" n="63"/>pliciter talis materiae, castitatis, etc. Item, qui
+          <lb ed="#P" n="64"/>solum sub conditione vovet religionem, verbi
+          <lb ed="#P" n="65"/>gratia, nondum consentit plene in religionem,
+          <lb ed="#P" n="66"/>sicut qui ducit uxorem sub conditione, 
+          non<lb break="no" ed="#P" n="67"/>dum consentit in matrimonium plene; ergo
+          <lb ed="#P" n="68"/>neque in obligationem plene consentit, neque
+          <lb ed="#P" n="69"/>habet propositum simpliciter servandi 
+          castita<lb break="no" ed="#P" n="70"/>tem ; ergo nec votum illud pro illo statu est
+          <lb ed="#P" n="71"/>simpliciter votum castitatis. Atque ita votum
+          <lb ed="#P" n="72"/>conditionatum, ut sic, includit conditionem
+          <lb ed="#P" n="73"/>valde dimipuentem rationem voti respectu
+          <lb ed="#P" n="74"/>materiae tantum sub conditione promissae, ac
+          <lb ed="#P" n="75"/>subinde non est votum simpliciter tale, nec
+          <lb ed="#P" n="76"/>reservatum. Confirmatur ac declaratur : nam
+          <lb ed="#P" n="77"/>si lata esset excommunicatio contra voventem
+          <lb ed="#P" n="78"/>ire Hierosolymam tali tempore, et aliquis 
+          vo<lb break="no" ed="#P" n="79"/>veret ire, sub conditione, Si uaciscenerit, non
+          <lb ed="#P" n="80"/>incurreret excommunicationem, quamdiu non
+          <lb ed="#P" n="81"/>esset impieta conditio; sicut qui contraheret
+          <lb ed="#P" n="82"/>matrimonium clandestinum conditionatum,
+          <lb ed="#P" n="83"/>non incurreret censuram, etiamsi esset 
+          impo<lb break="no" ed="#P" n="84"/>sita in contrahentem clandestine; signum est
+          <lb ed="#P" n="85"/>ergo omnes actus, qui requirunt absolutum
+          <lb ed="#P" n="86"/>consensum ad perfectam obligationem, si sub
+          <lb ed="#P" n="87"/>conditione fiant, non esse consummatos 
+          pen<lb break="no" ed="#P" n="88"/>dente conditione, et consequenter non esse 
+          ta<lb break="no" ed="#P" n="89"/>les simpliciter, nec venire sub tali voce 
+          sim<lb break="no" ed="#P" n="90"/>pliciter posita, praesertim in odiosis et 
+          restrin<lb break="no" ed="#P" n="91"/>gendis.
+        </p>
+        <p xml:id="szovsr-m28975-d1e466">
+          <lb ed="#P" n="92"/>4. Confirmatur resolutio eax solutione 
+          ratio<lb break="no" ed="#P" n="93"/>num in coutrariuin.— Ad primam. — 
+          Adcer<lb break="no" ed="#P" n="94"/>tendum. — Maxime vero confirmabitur haec
+          <lb ed="#P" n="95"/>resolutio, ex pendendo rationes oppositas ; nam
+          <lb ed="#P" n="96"/>cum simus in materia odiosa, et haec pars 
+          fa<lb break="no" ed="#P" n="97"/>vorabilis sit, eo ipso quod contraria non 
+          pro<lb break="no" ed="#P" n="98"/>batur. fit haec credibilior. Ratio ergo prima
+          <lb ed="#P" n="99"/>alterius opinionis ex dictis enervatur, quia,
+          <lb ed="#P" n="100"/>licet votum conditionatum sit verum votum,
+          <lb ed="#P" n="101"/>non tamen est votum simpliciter castitatis aut
+          <lb ed="#P" n="102"/>religionis, sed tantum secundum quid. Unde
+          <lb ed="#P" n="103"/>non sufficit quod fiat ex affectu castitatis, ad
+          <lb ed="#P" n="104"/>votum simpliciter. Deinde addo, quod 
+          notan<lb break="no" ed="#P" n="105"/>dum est, talia vota non semper fieri ex affectu
+          <lb ed="#P" n="106"/>ad materiam sie promissam, sed ad aliud
+          <lb ed="#P" n="107"/>commodum, propter quod promittuntur sub
+          <lb ed="#P" n="108"/>conditione ; ut, verbi gratia, cum in mortis
+          <lb ed="#P" n="109"/>periculo quis promittit peregrinationem, si
+          <lb ed="#P" n="110"/>evaserit, non id facit ex affectu peregrinatio-
+          <pb ed="#P" n="1156"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nis, sed ex affectu vitae, et timore mortis; et
+          <lb ed="#P" n="2"/>talia esse solent ordinarie vota conditionalia,
+          <lb ed="#P" n="3"/>quae fiunt in aegritudine, et in quolibet alio
+          <lb ed="#P" n="4"/>periculo, vel etiam quae fiunt ad 
+          impetran<lb break="no" ed="#P" n="5"/>dum aliquid a Deo, ut, si Deus mihi dederit
+          <lb ed="#P" n="6"/>tilium, hoc faciam ; vel, si vicero hanc 
+          tenta<lb break="no" ed="#P" n="7"/>tionem, religiosus efficiar, etc.; ergo in his
+          <lb ed="#P" n="8"/>saltem non habet locum illud fundamentum.
+          <lb ed="#P" n="9"/>De aliis autem votis, quae aliter fieri solent,
+          <lb ed="#P" n="10"/>statim dicam.
+        </p>
+        <p xml:id="szovsr-m28975-d1e536">
+          <lb ed="#P" n="11"/>5. Ad secundam. — Eadem responsio est
+          <lb ed="#P" n="12"/>ad secundum: nam in illo solum probatur,
+          <lb ed="#P" n="13"/>votum conditionatum esse votum, et inducere
+          <lb ed="#P" n="14"/>aliquam obligationem, etiam in ordine ad 
+          ma<lb break="no" ed="#P" n="15"/>teriam sub conditione promissam: 
+          nihilomi<lb break="no" ed="#P" n="16"/>nus tamen dicimus, totam illam obligationem
+          <lb ed="#P" n="17"/>esse secundum quid respectu talis materiae, ut
+          <lb ed="#P" n="18"/>satis declaratum est. Non admittimus autem
+          <lb ed="#P" n="19"/>exemplum ibi adductum de voto religionis,
+          <lb ed="#P" n="20"/>quod nunc fit, ut ex nunc obliget, non tamen
+          <lb ed="#P" n="21"/>pro statim, sed post biennium, verbi gratia.
+          <lb ed="#P" n="22"/>Nam boc votum non est ullo modo 
+          conditio<lb break="no" ed="#P" n="23"/>natum, sed absolutum. Quia, licet virtute 
+          in<lb break="no" ed="#P" n="24"/>cludat hanc conditionem, S vixero, haec non
+          <lb ed="#P" n="25"/>facit votum conditionatum, quia est generalis
+          <lb ed="#P" n="26"/>conditio in omnibus votis subintellecta, ut
+          <lb ed="#P" n="27"/>dicto cap. ult., lib. 1, dictum est. Unde votum
+          <lb ed="#P" n="28"/>illud consummatum omnino est, et absolntum
+          <lb ed="#P" n="29"/>ac perfectum consensum includit. Quod patet,
+          <lb ed="#P" n="30"/>quia multa sunt vota, praesertim affirmativa,
+          <lb ed="#P" n="31"/>quae non pro semper, sed pro certis 
+          tempo<lb break="no" ed="#P" n="32"/>ribus, et cum dilatione vel unius anni vel 
+          plu<lb break="no" ed="#P" n="33"/>rium obligant, ut si quis voveat ire ad limina
+          <lb ed="#P" n="34"/>Sancti Petri singulis quinquenniis, vei 
+          singu<lb break="no" ed="#P" n="35"/>lis annis festum alicujus Sancti celebrare, quae
+          <lb ed="#P" n="36"/>vota nemo appellabit conditionata, sed 
+          sim<lb break="no" ed="#P" n="37"/>pliciter absoluta. Votum ergo 
+          conditiona<lb break="no" ed="#P" n="38"/>tum non tantum includit temporis 
+          dilatio<lb break="no" ed="#P" n="39"/>nem, sed suspendit praecipuam obligationem,
+          <lb ed="#P" n="40"/>et reddit consensum imperfectum circa 
+          abso<lb break="no" ed="#P" n="41"/>lutam executionem talis rei, et ideo non est
+          <lb ed="#P" n="42"/>simile.
+        </p>
+        <p xml:id="szovsr-m28975-d1e608">
+          <lb ed="#P" n="43"/>6. Ad tertiam. — Tertium argumentum
+          <lb ed="#P" n="44"/>positum est ad expendenda aliqua exempla,
+          <lb ed="#P" n="45"/>quae partim afferuntur a dictis auctoribus,
+          <lb ed="#P" n="46"/>partm addi possunt. Primum est de hoc voto:
+          <lb ed="#P" n="47"/>Promitto ingredi religionem, si mater obierit.
+          <lb ed="#P" n="48"/>Hoc enim posuit Soto inter conditionalia vota,
+          <lb ed="#P" n="49"/>et ideo maxime ilium movit, quia tale 
+          vo<lb break="no" ed="#P" n="50"/>tum non videtur posse ab Episcopo 
+          dispen<lb break="no" ed="#P" n="51"/>sari. In quo ego illi consentio quoad hanc
+          <lb ed="#P" n="52"/>posteriorem partem, nego tamen votum illud
+          <lb ed="#P" n="53"/>esse conditionale, sed absotutum, cum 
+          dilatio<lb break="no" ed="#P" n="54"/>ne executionis, quod longe diversum est, ut 
+          su<lb break="no" ed="#P" n="55"/>pra lib. 1, cap. ult., declaravi. Nam revera
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>qui sic vovet, nullo modo habet suspensum
+          <lb ed="#P" n="57"/>consensum, sed omnino resolutus est sibi 
+          ex<lb break="no" ed="#P" n="58"/>pedire statum religiosum, illudque absolute
+          <lb ed="#P" n="59"/>promittit ; tamen quia mater indiget, vel ne
+          <lb ed="#P" n="60"/>illam contristet, non vult exequi votum illud
+          <lb ed="#P" n="61"/>ea vivente, et ita ex priori capite est 
+          absolu<lb break="no" ed="#P" n="62"/>tum, ex posteriori autem differtur executio
+          <lb ed="#P" n="63"/>ejus, quod non est contra rationem voti 
+          abso<lb break="no" ed="#P" n="64"/>luti. Et patet, quia si quis voveat similiter 
+          re<lb break="no" ed="#P" n="65"/>ligionem ingredi intra biennium, sine dubio
+          <lb ed="#P" n="66"/>est votum absolutum religionis, sicut 
+          jura<lb break="no" ed="#P" n="67"/>mentum ducendi aliquam intra biennium est
+          <lb ed="#P" n="68"/>absolutum juramentum, cap. Commissum, de
+          <lb ed="#P" n="69"/>Sponsal. Et sumitur a simili ex cap. Per (uas,
+          <lb ed="#P" n="70"/>de Voto, et ideo tale votum est reservatum,
+          <lb ed="#P" n="71"/>quamvis ad executionem non obliget durante
+          <lb ed="#P" n="72"/>biennio ; ergo similiter votum illud absolutum
+          <lb ed="#P" n="73"/>est.
+        </p>
+        <p xml:id="szovsr-m28975-d1e680">
+          <lb ed="#P" n="74"/>7. Objectio. — Solutio. — Confirmatio ab
+          <lb ed="#P" n="75"/>exemplo. — Dices non esse simile, quia ibi 
+          po<lb break="no" ed="#P" n="76"/>nitur certus terminus, pro quo est absoluta
+          <lb ed="#P" n="77"/>obligatio ; hic autem terminus est incertus, et
+          <lb ed="#P" n="78"/>ita explicatur per conditionem, Si mater 
+          obie<lb break="no" ed="#P" n="79"/>rit, et includit etiam aliam, Si ego matri 
+          su<lb break="no" ed="#P" n="80"/>pervixero. Unde legata sic tacta conditionalia
+          <lb ed="#P" n="81"/>in jure censentur, nam Dies incertus 
+          conditio<lb break="no" ed="#P" n="82"/>nem in testamento facit, ut est lex 75, ff. de
+          <lb ed="#P" n="83"/>Condit. et Demonst., et lex Si cum haeres, ft.
+          <lb ed="#P" n="84"/>Quando dies legat. etc. Respondeo, ad 
+          con<lb break="no" ed="#P" n="85"/>scientiae forum et obligationem parum referre
+          <lb ed="#P" n="86"/>quod dies sit certus vel incertus, si animus 
+          vo<lb break="no" ed="#P" n="87"/>ventis idem est ; in utroque autem casu animus
+          <lb ed="#P" n="88"/>voventis est addere illum terminum solum ad
+          <lb ed="#P" n="89"/>commodam executionem voti, non ad 
+          suspen<lb break="no" ed="#P" n="90"/>dendam vel minuendam determinationem
+          <lb ed="#P" n="91"/>consensus, et ideo utrumque votum aeque
+          <lb ed="#P" n="92"/>absolutum est. Nec refert quod explicatur per
+          <lb ed="#P" n="93"/>particulam si, quia illa ibi aequivalet adverbio
+          <lb ed="#P" n="94"/>temporali qguando , vel cum, quod ponitur ad
+          <lb ed="#P" n="95"/>determinandum tempus, non ad suspensionem
+          <lb ed="#P" n="96"/>obligationis. Est optimum exemplum : si quis
+          <lb ed="#P" n="97"/>agens decimum quartum aetatis aunum 
+          vo<lb break="no" ed="#P" n="98"/>veat, Si decimum sextum attigero, ingrediar
+          <lb ed="#P" n="99"/>religionem, non animo obtinendi vitam a Deo
+          <lb ed="#P" n="100"/>illo medio, sed solum ut sibi praescribat 
+          termi<lb break="no" ed="#P" n="101"/>num exequendae obligationis, votum est 
+          abso<lb break="no" ed="#P" n="102"/>lutum , licet in verbis conditionale appareat.
+          <lb ed="#P" n="103"/>Nec etiam obstat conditio inclusa, 56 
+          super<lb break="no" ed="#P" n="104"/>virero, quia haec non est exirinseca , sed per
+          <lb ed="#P" n="105"/>se inest; eadem enim est cum hac, 57 vixero;
+          <lb ed="#P" n="106"/>sicut etiam votum implendum post biennium
+          <lb ed="#P" n="107"/>includit conditionem, Si ago ultra vizero. 
+          De<lb break="no" ed="#P" n="108"/>nique non obstant leges civiles, quia solum
+          <lb ed="#P" n="109"/>procedunt in ordine ad effectum civilem non
+          <lb ed="#P" n="110"/>transmittendi legatum ad baeredem legatarii ;
+          <pb ed="#P" n="1157"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>unde in . 1 de Condit. et demonst., legatus ad
+          <lb ed="#P" n="2"/>diem incertnm distinguitura conditionato, licet
+          <lb ed="#P" n="3"/>postea in illo effectu aequiparentur ; non 
+          opor<lb break="no" ed="#P" n="4"/>tet ergo aequiparationem ad nostram materiam
+          <lb ed="#P" n="5"/>extendere. Aliter dici posset, haec vota esse
+          <lb ed="#P" n="6"/>absoluta quoad substantiam obiigationis, licet
+          <lb ed="#P" n="7"/>sint conditionata quoad temporis 
+          determina<lb break="no" ed="#P" n="8"/>tionem , et ratione prioris obligationis esse 
+          re<lb break="no" ed="#P" n="9"/>servata.
+        </p>
+        <p xml:id="szovsr-m28975-d1e787">
+          <lb ed="#P" n="10"/>8. Satisfit secundo exemplo. — Secundum
+          <lb ed="#P" n="11"/>exemplum erat de hoc voto, Promitto ingredi
+          <lb ed="#P" n="12"/>Religionem, si frater natu major habuerit 
+          fi<lb break="no" ed="#P" n="13"/>lios; nam videtur omnino conditionale, sicut
+          <lb ed="#P" n="14"/>fuit votum Annae, Si dederis seroce tue secum
+          <lb ed="#P" n="15"/>virilem, dabo eum Domino, 1 Reg. 1. Sed, licet
+          <lb ed="#P" n="16"/>hoc regulariter ita sit, nihilominus considero
+          <lb ed="#P" n="17"/>differentiam inter illa duo vota ; nam mater,
+          <lb ed="#P" n="18"/>ut Anna , per votum intendit consequi a Deo
+          <lb ed="#P" n="19"/>filium , et ita ponit illam ut conditionem 
+          ne<lb break="no" ed="#P" n="20"/>cessariam ad suam obligationem , et 
+          includi<lb break="no" ed="#P" n="21"/>tur in illo voto pactum cum Deo, Dabo, si
+          <lb ed="#P" n="22"/>dederis ; et ideo tale votum simpliciter 
+          condi<lb break="no" ed="#P" n="23"/>uonale est, et in simili forma semper est non
+          <lb ed="#P" n="24"/>servatum ante impletam conditionem , nisi
+          <lb ed="#P" n="25"/>constet voventem magis absolute voluisse 
+          vo<lb break="no" ed="#P" n="26"/>vere, et in alio sensu verba accepisse. At vero
+          <lb ed="#P" n="27"/>in exemplo de fratre, plane considerata 
+          mate<lb break="no" ed="#P" n="28"/>ria et communi usu, non est ille sensus 
+          ver<lb break="no" ed="#P" n="29"/>borum, sed particula si aequipollet huic, Quam
+          <lb ed="#P" n="30"/>primum frater haDuerit successorem, ego 
+          sta<lb break="no" ed="#P" n="31"/>tum religiosi aut clerici assumam. Nam illud
+          <lb ed="#P" n="32"/>votum non fit ad impetrandum filium 
+          haere<lb break="no" ed="#P" n="33"/>dem fratri, nec talis solet esse intentio sic
+          <lb ed="#P" n="34"/>voventis , sed solum ponitur illa limitatio ad
+          <lb ed="#P" n="35"/>ex pectandam opportunitatem ad exequendum
+          <lb ed="#P" n="36"/>votum, ne domus, sive familia sine successore
+          <lb ed="#P" n="37"/>relinquatur. Sed licet hoc ita sit ex hoc capite,
+          <lb ed="#P" n="38"/>ex alio videtur mihi tale votum regulariter
+          <lb ed="#P" n="39"/>esse imperfectum et conditionatum , quia 
+          or<lb break="no" ed="#P" n="40"/>dinarie non fit ex absoluto affectu ad statum
+          <lb ed="#P" n="41"/>religiosum; imo frequenter qui sic vovet, 
+          de<lb break="no" ed="#P" n="42"/>siderat ut conditio non impleatur, et vellet
+          <lb ed="#P" n="43"/>potius esse haeres in domo patris, quam 
+          reli<lb break="no" ed="#P" n="44"/>giosus, quamvis pro contrario eventu id nunc
+          <lb ed="#P" n="45"/>deliberet, et sic votum illud erit 
+          conditiona<lb break="no" ed="#P" n="46"/>tum, et non reservatum. Necest eadem ratio de
+          <lb ed="#P" n="47"/>illo, et de voto, cum pater obierit, etc., quia
+          <lb ed="#P" n="48"/>hoc, moraliter loquendo , semper fit ex puro
+          <lb ed="#P" n="49"/>affectu ad religionem, et cum absolnto 
+          con<lb break="no" ed="#P" n="50"/>sensu ; illud vero non est hujusmodi in casu
+          <lb ed="#P" n="51"/>posito. Secus vero esset, si certo constaret de
+          <lb ed="#P" n="52"/>animo voventis, quod revera ex puro et 
+          abso<lb break="no" ed="#P" n="53"/>luto affectu ad retigionem, illam promittit, et
+          <lb ed="#P" n="54"/>solum suspendit executionem propter 
+          vitan<lb break="no" ed="#P" n="55"/>dam domus incommoditatem, nam tunc vide-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tur valde probabile, tale votum esse 
+          absolu<lb break="no" ed="#P" n="57"/>tum et reservatum, et hoc mihi magis placet.
+          <lb ed="#P" n="58"/>et sine dubio est tutius, licet oppositum 
+          de<lb break="no" ed="#P" n="59"/>fendi etiam possit.
+        </p>
+        <p xml:id="szovsr-m28975-d1e901">
+          <lb ed="#P" n="60"/>9. Satisfit tertio ecemplo.—Tertium 
+          exem<lb break="no" ed="#P" n="61"/>plum erat de voto servandi castitatem , nisi
+          <lb ed="#P" n="62"/>frater sine filiis moriatur. De quo breviter
+          <lb ed="#P" n="63"/>dico, tale votum esse absolutum, quia illa
+          <lb ed="#P" n="64"/>conditio non ponitur ad suspendendum 
+          con<lb break="no" ed="#P" n="65"/>sensum, vel obligationem de praesenti, sed 
+          so<lb break="no" ed="#P" n="66"/>Ium ad terminandam et extinguendam illam
+          <lb ed="#P" n="67"/>in tali eventu, cujus signum est, quia si ille
+          <lb ed="#P" n="68"/>violet castitatem, vel uxorem ducat, non 
+          ex<lb break="no" ed="#P" n="69"/>pectata conditione, agit contra votum ; ergo
+          <lb ed="#P" n="70"/>est absolutnm, quia statim et pro statim 
+          obli<lb break="no" ed="#P" n="71"/>gat ad servandam castitatem. Nihilominus 
+          ta<lb break="no" ed="#P" n="72"/>men dico non esse reservatum, quia non est
+          <lb ed="#P" n="73"/>perpetuum , et ita non est simpliciter votum
+          <lb ed="#P" n="74"/>castitatis, sed cum aliquo termino saltem 
+          pos<lb break="no" ed="#P" n="75"/>sibili, licet incerto. Et ex hac parte votum 
+          il<lb break="no" ed="#P" n="76"/>lud, ut castitatis simpliciter, seu ut perpetuum,
+          <lb ed="#P" n="77"/>non est absolutum, sed conditionatum, ut per
+          <lb ed="#P" n="78"/>se constat, et ita reservatum non est.
+        </p>
+        <p xml:id="szovsr-m28975-d1e945">
+          <lb ed="#P" n="79"/>10. Secundum dubium - an talia vota 
+          con<lb break="no" ed="#P" n="80"/>ditionata, posita conditione, maneant 
+          reser<lb break="no" ed="#P" n="81"/>vata. — Aliquorum sententia. — Secundum
+          <lb ed="#P" n="82"/>dubium est de eisdem votis conditionatis post
+          <lb ed="#P" n="83"/>impletam conditionem, an maneant reservata.
+          <lb ed="#P" n="84"/>Quidam negant esse reservata, et affirmant
+          <lb ed="#P" n="85"/>posse commutari ab Episcopis jure ordinario,
+          <lb ed="#P" n="86"/>vel a delegatis habentibus facultatem 
+          genera<lb break="no" ed="#P" n="87"/>lem commutandi vota. Ratio est, quia illud
+          <lb ed="#P" n="88"/>votum a principio fuit imperfectum, et 
+          diver<lb break="no" ed="#P" n="89"/>sae naturae ab absoluto, et ideo licet magis 
+          ab<lb break="no" ed="#P" n="90"/>solute obliget, impleta conditione, semper 
+          ta<lb break="no" ed="#P" n="91"/>men provenit illa obligatio ex radice 
+          imper<lb break="no" ed="#P" n="92"/>fecta, et ileo ad illam non extenditur 
+          reserva<lb break="no" ed="#P" n="93"/>tio. Confirmatur, quia hac ratione vota p»
+          ena<lb break="no" ed="#P" n="94"/>lia, etiam post culpam commissam, possunt
+          <lb ed="#P" n="95"/>per Episcopum dispensari ; est autem fere 
+          ea<lb break="no" ed="#P" n="96"/>dem ratio in praesenti ; nam omnia haec vota
+          <lb ed="#P" n="97"/>couditionalia non solent fieri ex perfecto 
+          affec<lb break="no" ed="#P" n="98"/>tu ad rem sub conditione promissam , sed 
+          po<lb break="no" ed="#P" n="99"/>tius ex affectu ad ipsam conditionem, et ex
+          <lb ed="#P" n="100"/>hac parte sunt imperfecta, et simpliciter 
+          cen<lb break="no" ed="#P" n="101"/>senda non sunt vota religionis aut castitatis,
+          <lb ed="#P" n="102"/>etiam post impletam conditionem. 
+          Confirma<lb break="no" ed="#P" n="103"/>tur secundo, quia si dispensari non posset hoc
+          <lb ed="#P" n="104"/>votum post impletam conditiopem, neque 
+          an<lb break="no" ed="#P" n="105"/>tea posset. Probatur sequela, quia talis 
+          dis<lb break="no" ed="#P" n="106"/>pensatio antea data referretur ad tempus 
+          im<lb break="no" ed="#P" n="107"/>pletae conditionis; ad hoc enim ordinaretur,
+          <lb ed="#P" n="108"/>ut impleta conditione votum non obliget;
+          <lb ed="#P" n="109"/>ergo si in eo tempore non potest Episcopus
+          <lb ed="#P" n="110"/>dispensare , refert suam dispensationem ad
+          <pb ed="#P" n="1158"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tempus inhabile ; ergo est nulla dispensatio,
+          <lb ed="#P" n="2"/>quia ad valorem actus non est inspiciendum
+          <lb ed="#P" n="3"/>initium ejus, sed tempus pro quo fit, quia si
+          <lb ed="#P" n="4"/>in illo factus non valeret , nec pro ilio antea
+          <lb ed="#P" n="5"/>factus valebit ; haec enim in jure 
+          aequiparan<lb break="no" ed="#P" n="6"/>tur leg. Eum qui, ff. de Jurisd. omn. judic.,
+          <lb ed="#P" n="7"/>et late per Tiraq., de Jure constit., limit. 2,
+          <lb ed="#P" n="8"/>num. 3, unde votum factum ab impubere 
+          irri<lb break="no" ed="#P" n="9"/>tiari potest post pubertatem propter 
+          imperfec<lb break="no" ed="#P" n="10"/>tam originem ; ergo similiter. Pro hac 
+          senten<lb break="no" ed="#P" n="11"/>tia refertur Toletus , sed revera illam non
+          <lb ed="#P" n="12"/>declarat, licet absolute loquatur de votis 
+          con<lb break="no" ed="#P" n="13"/>ditionalibus et poenalibus, et fortasse de 
+          utris<lb break="no" ed="#P" n="14"/>que intellexit , quamdiu sunt in statu 
+          condi<lb break="no" ed="#P" n="15"/>tionalium. Tenet vero iliam Sanc. supra, qui
+          <lb ed="#P" n="16"/>refert Petr. Ledesm., in Summa, et Anton.
+          <lb ed="#P" n="17"/>Gom. super Bullam Cruciatae, quos videre non
+          <lb ed="#P" n="18"/>potui. Adjungit etiam viros doctissimos nostrae
+          <lb ed="#P" n="19"/>aetatis ita sentire.
+        </p>
+        <p xml:id="szovsr-m28975-d1e1062">
+          <lb ed="#P" n="20"/>11. Resolutio. — Votum conditionatum, 
+          po<lb break="no" ed="#P" n="21"/>sita conditione , manet vresercatum , ac si esset
+          <lb ed="#P" n="22"/>absolutum. — Fvasio quorumdam. — 
+          Nihilo<lb break="no" ed="#P" n="23"/>minus tamen dico, votum, quod a principio
+          <lb ed="#P" n="24"/>fuit vere et proprie conditionatum, impleta
+          <lb ed="#P" n="25"/>conditione esse vere et proprie votum talis
+          <lb ed="#P" n="26"/>rei, puta religionis, vel simile, ideoque esse
+          <lb ed="#P" n="27"/>vere et proprie reservatum. Haec assertio 
+          in<lb break="no" ed="#P" n="28"/>telligitur de voto conditionali, ut distincto a
+          <lb ed="#P" n="29"/>poenali, et sic est communis. Eam enim 
+          impri<lb break="no" ed="#P" n="30"/>mis tenent omnes auctores in superiori 
+          punc<lb break="no" ed="#P" n="31"/>to allegati pro priori sententia, Soto, Navar.,
+          <lb ed="#P" n="32"/>Arag., Gutier., Cord., Azor, Valen. Item 
+          Les<lb break="no" ed="#P" n="33"/>si., Emman. Rod., Perez et Vega, citati pro
+          <lb ed="#P" n="34"/>secunda sententia. Idem tenet Covar., in cap.
+          <lb ed="#P" n="35"/>Quamvis pactum, 1 part., S 3, num. 12.et
+          <lb ed="#P" n="36"/>omnes qui hoc dicunt de voto poeuali, quos
+          <lb ed="#P" n="37"/>paulo post referam, idem a fortiori supponunt
+          <lb ed="#P" n="38"/>de omni conditionali, ut per se notum est;
+          <lb ed="#P" n="39"/>diflicile autem est in re tam gravi et necessa -
+          <lb ed="#P" n="40"/>ria a communi sensu recedere sine textu, vel
+          <lb ed="#P" n="41"/>cogente ratione. Probatur autem primo, quia,
+          <lb ed="#P" n="42"/>licet contractus fuerit a principio 
+          conditiona<lb break="no" ed="#P" n="43"/>tus, impleta conditione purificatur, et tam
+          <lb ed="#P" n="44"/>perfectus manet, ac si a principio fuisset sine
+          <lb ed="#P" n="45"/>conditione factus; ergo idem est de voto. 
+          Con<lb break="no" ed="#P" n="46"/>sequentia patet a paritate rationis. Antecedens
+          <lb ed="#P" n="47"/>autem probatur ex l. Potior, ad fin., ft. Qui
+          <lb ed="#P" n="48"/>in pignore potiores, etc., ubi sic habet : Cum
+          <lb ed="#P" n="49"/>semel conditio eatiterit, perinde habetur, ac si
+          <lb ed="#P" n="50"/>illo tempore, quo stipulatio interposita est,
+          <lb ed="#P" n="51"/>sine conditione facta esset. Respondent aliqui
+          <lb ed="#P" n="52"/>verum esse hoc quantum ad obligationem,
+          <lb ed="#P" n="53"/>non vero quantum ad radicem obligationis ;
+          <lb ed="#P" n="54"/>nam, licet obligatio aequaiis sit, tamen radix
+          <lb ed="#P" n="55"/>obligationis non est aeque perfecta.
+        </p>
+        <p xml:id="szovsr-m28975-d1e1143">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>12. Occluditur. — Sed contra primo, quia
+          <lb ed="#P" n="57"/>in aliis contractibus non tantum obligatio, sed
+          <lb ed="#P" n="58"/>etiam contractus ipse est aeque perfectus,
+          <lb ed="#P" n="59"/>conditione impleta, ut patet in matrimonio et
+          <lb ed="#P" n="60"/>sponsalibus, impleta conditione, et idem estin
+          <lb ed="#P" n="61"/>emptione et venditione, et quacumque 
+          hu<lb break="no" ed="#P" n="62"/>mana promissione; ergo voluntarium est solum
+          <lb ed="#P" n="63"/>votum excipere. Secundo, videtur impossibile
+          <lb ed="#P" n="64"/>obligationem esse aeque perfectam et 
+          consum<lb break="no" ed="#P" n="65"/>matam, et consensum non esse aeque perfec
+          <lb ed="#P" n="66"/>tum, cum obligatio sit quasi formalis effectus
+          <lb ed="#P" n="67"/>consensus et voti, vel si sit in genere causae
+          <lb ed="#P" n="68"/>efficientis, est ita intrinsecus, ut non possit esse
+          <lb ed="#P" n="69"/>major perfectio in ratione obligationis, quamin
+          <lb ed="#P" n="70"/>ratione voti.Tertio, quiacommutatio vel 
+          dispen<lb break="no" ed="#P" n="71"/>satio non cadit in votum, ut est actus qui 
+          prae<lb break="no" ed="#P" n="72"/>cessit, et jam non est, sed ut relinquit 
+          obliga<lb break="no" ed="#P" n="73"/>tionem; ergo si pervenit ad eum statum, in quo
+          <lb ed="#P" n="74"/>tam perfectam obligationem inducit sicut votum
+          <lb ed="#P" n="75"/>absolutum, erit aeque indispensabile seu 
+          reser<lb break="no" ed="#P" n="76"/>vatum. Quarto, alii actus vel contractus sub
+          <lb ed="#P" n="77"/>conditionefacti, impleta conditione, eosdem 
+          pa<lb break="no" ed="#P" n="78"/>riunt effectus morales, etiam odiosos et 
+          poena<lb break="no" ed="#P" n="79"/>les, quos pariunt similes contractus absoluti a
+          <lb ed="#P" n="80"/>principio; ergo ir praesenti erit eadem 
+          reserva<lb break="no" ed="#P" n="81"/>tio. Antecedens patet inductione: nam sponpsalia
+          <lb ed="#P" n="82"/>sub conditione, quae ante conditionem 
+          imple<lb break="no" ed="#P" n="83"/>tam non inducunt impedimentum publicae 
+          ho<lb break="no" ed="#P" n="84"/>nestatis, impleta conditione illam inducunt,
+          <lb ed="#P" n="85"/>non minus quam si a principio fuissent 
+          abso<lb break="no" ed="#P" n="86"/>luta, cap. Unico, S Ille, de Sponsalibus, in 6.
+          <lb ed="#P" n="87"/>Item datio beneficii sub conditione simoniaca
+          <lb ed="#P" n="88"/>de futuro, ante conditionem impletam non
+          <lb ed="#P" n="89"/>inducit censuram et alias poenas ; impleta vero
+          <lb ed="#P" n="90"/>conditione, inducit, et idem est in similibus.
+          <lb ed="#P" n="91"/>Consequentia autem probatur a paritate 
+          ratio<lb break="no" ed="#P" n="92"/>nis : dicere enim quod in reservatione 
+          atten<lb break="no" ed="#P" n="93"/>ditur ad originem, et non in sponsalibus et
+          <lb ed="#P" n="94"/>aliis, gratis dicitur, et nulia ratio differentiae
+          <lb ed="#P" n="95"/>assignari potest.
+        </p>
+        <p xml:id="szovsr-m28975-d1e1234">
+          <lb ed="#P" n="96"/>13. Secundo principaliter, ut hoc evidentius
+          <lb ed="#P" n="97"/>constet, ostendo illam imperfectionem, quae in
+          <lb ed="#P" n="98"/>voto sub conditione facto tanquam in radice
+          <lb ed="#P" n="99"/>consideratur, nullam esse, nec in ordine ad
+          <lb ed="#P" n="100"/>cousensum, nec in ordine ad morales effectus.
+          <lb ed="#P" n="101"/>Quod ut declarem, distinguo duos ordines 
+          ho<lb break="no" ed="#P" n="102"/>rum votorum conditionalium : sub uno 
+          con<lb break="no" ed="#P" n="103"/>stituo omnia illa vota, quae fiunt per modum
+          <lb ed="#P" n="104"/>pacti conditionati cum Deo, Si periculum 
+          eva<lb break="no" ed="#P" n="105"/>sero, hoc faciam; si tale beneficium contuleris,
+          <lb ed="#P" n="106"/>tale servitium faciam, etc. In alio pono alia
+          <lb ed="#P" n="107"/>vota , quae sub simplici conditione fiunt sine
+          <lb ed="#P" n="108"/>figura pacti cum Deo, ut, voveo castitatem, si
+          <lb ed="#P" n="109"/>confessor probaverit, vel si pater consenserit,
+          <lb ed="#P" n="110"/>etc. In prioribus votis nulla imperfectio est ex
+          <pb ed="#P" n="1159"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>parte consensus, praeter suspensionem et 
+          im<lb break="no" ed="#P" n="2"/>perfectionem contractus, quae durat. quamdiu
+          <lb ed="#P" n="3"/>conditio non impletur : illa autem posita, 
+          tol<lb break="no" ed="#P" n="4"/>litur suspensio et imperfectio contractus ; ergo
+          <lb ed="#P" n="5"/>nulla imp: rfectio relinquitur ex vi illius 
+          origi<lb break="no" ed="#P" n="6"/>nis. Quia illa solum erat pro statu conditionis
+          <lb ed="#P" n="7"/>non impletae, et ita illemet consensus, qui
+          <lb ed="#P" n="8"/>praecessit, respicit duo tempora, praesens, 
+          sci<lb break="no" ed="#P" n="9"/>licet, dum non est conditio; et futurum, pro
+          <lb ed="#P" n="10"/>quo erit ; et licet pro priori sit imperfectus,
+          <lb ed="#P" n="11"/>pro posteriori est perfectus, et talis incipit esse
+          <lb ed="#P" n="12"/>statim ac conditio ponitur. Obligatio autem
+          <lb ed="#P" n="13"/>tunc non oritur ex consensu , ut terminato ad
+          <lb ed="#P" n="14"/>tempus praecedens, sed terminato ad 
+          subse<lb break="no" ed="#P" n="15"/>quens tempus, in quo est impleta conditio.
+          <lb ed="#P" n="16"/>44. Heasio. — Occluditur. — Votum 
+          reli<lb break="no" ed="#P" n="17"/>gionis intuitu honoris, et commodorum 
+          tempo<lb break="no" ed="#P" n="18"/>ralium factum , perfectum, et validum est. —
+          <lb ed="#P" n="19"/>Dices : semper est haec imperfectio , quod 
+          vo<lb break="no" ed="#P" n="20"/>tum fit intuitu rei obtinendae a Deo. Sed 
+          con<lb break="no" ed="#P" n="21"/>tra : nam haec imperfectio, qualiscumque illa
+          <lb ed="#P" n="22"/>sit, impertinens est ad reservationem ; nam
+          <lb ed="#P" n="23"/>votum religionis etiamsi fiat intuitu honorum
+          <lb ed="#P" n="24"/>et commoditatum temporalium religionis , et
+          <lb ed="#P" n="25"/>ex ea parte sit imperfectum , nihilominus 
+          va<lb break="no" ed="#P" n="26"/>lidum et reservatum est, quia illa non est 
+          im<lb break="no" ed="#P" n="27"/>perfectio in proprio objecto, seu materia voti,
+          <lb ed="#P" n="28"/>nec in plenitudine consensus , sed tantum est
+          <lb ed="#P" n="29"/>in motivo ex parte voventis, seu in 
+          applica<lb break="no" ed="#P" n="30"/>tione ad vovendum. Idem autem est in voto
+          <lb ed="#P" n="31"/>illo conditionato ; nam esto motivum vovendi
+          <lb ed="#P" n="32"/>sit minus perfectum, tamen consensus est
+          <lb ed="#P" n="33"/>plenus, et pro tempore in quo fuerit posita
+          <lb ed="#P" n="34"/>conditio , est absolutus, cujus signum est,
+          <lb ed="#P" n="35"/>quia, posita conditione, transit in absolutum,
+          <lb ed="#P" n="36"/>et consummat contractum sine sui mutatione,
+          <lb ed="#P" n="37"/>per solam mutationem objecti. Quod autem
+          <lb ed="#P" n="38"/>ille idem consensus prius fuerit conditionatus,
+          <lb ed="#P" n="39"/>nulla est imperfectio , sicut non est 
+          imperfec<lb break="no" ed="#P" n="40"/>tio, quae ad rem pertneat, quod fiat sub 
+          con<lb break="no" ed="#P" n="41"/>ditione de praesenti, vel praeterito. Ut, verbi
+          <lb ed="#P" n="42"/>gratia, si pater pro absente filio sic voveat : S
+          <lb ed="#P" n="43"/>filius meus vivit hodie, voveo peregrinari 
+          Com<lb break="no" ed="#P" n="44"/>postellam : subsistente enim conditione, sine
+          <lb ed="#P" n="45"/>dubio est validum votum, et reservatum 
+          se<lb break="no" ed="#P" n="46"/>cundum omnes, licet sit imperfectum in 
+          mo<lb break="no" ed="#P" n="47"/>tivo, vel in modo vovendi. Denique in his
+          <lb ed="#P" n="48"/>votis , quatenus habent formam contractus,
+          <lb ed="#P" n="49"/>videtur esse major ratio obligationis quam in
+          <lb ed="#P" n="50"/>promissione absoluta et simplici, ut inter 
+          ho<lb break="no" ed="#P" n="51"/>mines magis obligat promissio sub conditione
+          <lb ed="#P" n="52"/>impleta ab alio, quam simplex. At vero in
+          <lb ed="#P" n="53"/>his votis ex parte Dei est perfectissimus 
+          con<lb break="no" ed="#P" n="54"/>sensus in contractum , (ut sic dicam), et Deus
+          <lb ed="#P" n="55"/>ex parte sua perfecte implet contractum con-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ferendo beneficium, et custodiendo a periculo:
+          <lb ed="#P" n="57"/>ergo ut sit aequalitas, etiam ex parte voventis
+          <lb ed="#P" n="58"/>est consummata obligatio, et perfectum 
+          vo<lb break="no" ed="#P" n="59"/>tum.
+        </p>
+        <p xml:id="szovsr-m28975-d1e1403">
+          <lb ed="#P" n="60"/>15. Idem facile probari potest de secundo
+          <lb ed="#P" n="61"/>ordine votorum, nam in his materia voti est
+          <lb ed="#P" n="62"/>promissa directe, et per se intenta a vovente;
+          <lb ed="#P" n="63"/>solum est imperfcctus consensus, quamdiu 
+          con<lb break="no" ed="#P" n="64"/>ditio est suspensa ; illa autem completa, 
+          abso<lb break="no" ed="#P" n="65"/>lutus est, parumque ad effectus morales refert
+          <lb ed="#P" n="66"/>quod illa conditio praecesserit, et 
+          consequen<lb break="no" ed="#P" n="67"/>ter nec ad reservationem confert. Quod 
+          de<lb break="no" ed="#P" n="68"/>clarari potest, apphcando discursum factum:
+          <lb ed="#P" n="69"/>nam ille etiam consensus habet duplicem 
+          res<lb break="no" ed="#P" n="70"/>pectum ad duo tempora, et pro tempore 
+          con<lb break="no" ed="#P" n="71"/>summatae conditionis est omnino perfectus.
+          <lb ed="#P" n="72"/>Solumque in illo considerari potest, quod 
+          vo<lb break="no" ed="#P" n="73"/>tum illud quasi pauatim fit et consummatur;
+          <lb ed="#P" n="74"/>nam prius est conditionaum, postea 
+          absolu<lb break="no" ed="#P" n="75"/>tum, et ita in eo proceditur, quasi ab 
+          imper<lb break="no" ed="#P" n="76"/>fecto ad perfectum ; at hoc nihil impedit 
+          quo<lb break="no" ed="#P" n="77"/>minus postquam est consummatum, perfectum
+          <lb ed="#P" n="78"/>sit, ita enim contingit in rebus omnibus quae
+          <lb ed="#P" n="79"/>paulatim acquirunt perfectionem suam. Et
+          <lb ed="#P" n="80"/>declaratur amplius, quia illa imperfectio 
+          so<lb break="no" ed="#P" n="81"/>lum erat dependentia a judicio et consilio
+          <lb ed="#P" n="82"/>alieno, quae plene tollitur, posito consilio 
+          fa<lb break="no" ed="#P" n="83"/>vente voto ; vel forte erat expectatio alieni
+          <lb ed="#P" n="84"/>consensus, quo posito, manet consummatuts
+          <lb ed="#P" n="85"/>consensus voventis, si jam fuit de praesenti
+          <lb ed="#P" n="86"/>datus, ut supponitur ; ergo sicut in his votis
+          <lb ed="#P" n="87"/>nihil deest ad perfectissimam obligationem,
+          <lb ed="#P" n="88"/>ita neque ad perfectam rationem voti absoluti,
+          <lb ed="#P" n="89"/>in eisque verum est commune axioma, 
+          condi<lb break="no" ed="#P" n="90"/>tionalem assertionem, vel consensum, posita
+          <lb ed="#P" n="91"/>conditione, transire in absolutum ; ergo nihii
+          <lb ed="#P" n="92"/>deest talibus votis, quominus reservata sint.
+        </p>
+        <p xml:id="szovsr-m28975-d1e1478">
+          <lb ed="#P" n="93"/>16. Fit satis fundamentis opposite 
+          seuten<lb break="no" ed="#P" n="94"/>tig.— Fundamentum alterius sententiae 
+          suffi<lb break="no" ed="#P" n="95"/>cienter solutum est ex dictis; nego enim 
+          vo<lb break="no" ed="#P" n="96"/>tum conditionatum fuisse imperfectum in 
+          or<lb break="no" ed="#P" n="97"/>dine ad tempus futurum, pro quo esset 
+          im<lb break="no" ed="#P" n="98"/>pleta conditio, sed solum fuisse imperfectum
+          <lb ed="#P" n="99"/>ex parte alterius extremi, quasi extrinsece,
+          <lb ed="#P" n="100"/>quia nondum conditio posita erat, tamen jam
+          <lb ed="#P" n="101"/>ex parte sua habebat totam pertectionem 
+          ne<lb break="no" ed="#P" n="102"/>cessariam, ut esset absolutus consensus, 
+          po<lb break="no" ed="#P" n="103"/>sita conditione ; et ideo, licet imperfectio 
+          con<lb break="no" ed="#P" n="104"/>ferat ad non reservationem quamdiu durat,
+          <lb ed="#P" n="105"/>non tamen postquam sublata est, ut satis est
+          <lb ed="#P" n="106"/>declaratum. Ad primam confirmationem, in
+          <lb ed="#P" n="107"/>sequenti capite, in secundo dubio, dicetur;
+          <lb ed="#P" n="108"/>nunc assero, si necessarium esset, per 
+          illatio<lb break="no" ed="#P" n="109"/>nem unum ex altero inferre, potius 
+          conceden<lb break="no" ed="#P" n="110"/>dum esse, vota poenalia esse reservata, imple-
+          <pb ed="#P" n="1160"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ta conditione, quam conditionalia non esse,
+          <lb ed="#P" n="2"/>et ideo propter rem incertam non est neganda
+          <lb ed="#P" n="3"/>res longe certior; quanta vero sit illa connexio,
+          <lb ed="#P" n="4"/>mox declarabo. Ad secundam confirmationem
+          <lb ed="#P" n="5"/>nego sequelam ; et ad probationem dico, 
+          re<lb break="no" ed="#P" n="6"/>gulam illam non recte in praesenti applicari,
+          <lb ed="#P" n="7"/>quia dispensatio voti conditionalis, data ante
+          <lb ed="#P" n="8"/>impletam conditionem, non refertur proprie
+          <lb ed="#P" n="9"/>ad tempus futurum, in quo esset implenda
+          <lb ed="#P" n="10"/>conditio, sed statim habet suum effectum, 
+          tol<lb break="no" ed="#P" n="11"/>lendo votum, et ad hunc effectum tempus illud
+          <lb ed="#P" n="12"/>habile est et opportunum, quia votum 
+          non<lb break="no" ed="#P" n="13"/>dum perfecte obligat ; votum autem, semel
+          <lb ed="#P" n="14"/>ablatum, semper manet ablatum, et ita 
+          con<lb break="no" ed="#P" n="15"/>sequenter fit ut, licet postea impleatur 
+          condi<lb break="no" ed="#P" n="16"/>tio, jam votum non obliget. Inde vero non fit
+          <lb ed="#P" n="17"/>ut dispensatio referatur ad tempus inhabile,
+          <lb ed="#P" n="18"/>sed fit potius ut praeveniat illud tempus, et
+          <lb ed="#P" n="19"/>faciat ut jam in illo non sit necessaria 
+          dispen<lb break="no" ed="#P" n="20"/>satio. Ad tertiam confirmationem negatur
+          <lb ed="#P" n="21"/>eiiam consequentia : nam votum impuberis
+          <lb ed="#P" n="22"/>fuit imperfectum ex imperfecta ratione et
+          <lb ed="#P" n="23"/>voluntate voventis, quae imperfectio non 
+          pur<lb break="no" ed="#P" n="24"/>gatur ex solo tractu temporis sine nova 
+          con<lb break="no" ed="#P" n="25"/>firmatione. Hic autem non fuit imperfectio iu
+          <lb ed="#P" n="26"/>deliberatione voventis, sed solum in 
+          suspen<lb break="no" ed="#P" n="27"/>sione consensus per conditionem, quae 
+          imper<lb break="no" ed="#P" n="28"/>fectio purgatur conditione impleta.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

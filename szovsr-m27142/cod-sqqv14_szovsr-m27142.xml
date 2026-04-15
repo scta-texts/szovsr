@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1082"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m27142"><!-- t6l6c9 -->
+        <head xml:id="szovsr-m27142-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-m27142-Hd1e103" type="question-title">Utrum sit in ecclesia potestas dispensandi in votis, eaque commutandi?</head>
+        <p xml:id="szovsr-m27142-d1e106">
+          <lb ed="#P" n="60"/>CAPUT IX
+          <lb ed="#P" n="61"/>UTRUM SIT IN ECCLESIA POTESTAS DISPENSANDI
+          <lb ed="#P" n="62"/>IN VOTIS, EAQUE COMMUTANDI?
+        </p>
+        <p xml:id="szovsr-m27142-d1e115">
+          <lb ed="#P" n="63"/>1. Definitio dispensationis.— Post 
+          irritatio<lb break="no" ed="#P" n="64"/>nem dicendum est de dispensatione, de 
+          qua<lb break="no" ed="#P" n="65"/>rum differentia jam supra dictum est, et ex
+          <lb ed="#P" n="66"/>definitione dispensationis constabit. De 
+          com<lb break="no" ed="#P" n="67"/>mutatione vero postea dicetur ; tamen, quia
+          <lb ed="#P" n="68"/>in multis convenit cum dispensatione, et 
+          ali<lb break="no" ed="#P" n="69"/>quando dispensationem involvit, non possunt
+          <lb ed="#P" n="70"/>omnino disputationes sejungi; et ideo 
+          dicen<lb break="no" ed="#P" n="71"/>do de dispensatione, obiter explicabimus quae
+          <lb ed="#P" n="72"/>fuerint communia commutationi, ut per 
+          eo<lb break="no" ed="#P" n="73"/>rum comparationem magis etiam dispensatio
+          <lb ed="#P" n="74"/>declaretur. Dispensatio autem, ut 
+          communi<lb break="no" ed="#P" n="75"/>ter a jurisperitis et Theologis definitur, est
+          <lb ed="#P" n="76"/>relaxatio juris ab habente potestatem legitime
+          <lb ed="#P" n="77"/>facta ; solet etiam requiri ut fiat ex causa 
+          co<lb break="no" ed="#P" n="78"/>gnita, sed hoc non semper est de substantia
+          <lb ed="#P" n="79"/>dispensationis, et ideo non oportet poni in
+          <lb ed="#P" n="80"/>descriptione, ut ex materia de Legibus 
+          suppo<lb break="no" ed="#P" n="81"/>no. Quamvis in praesenti hoc non impediret,
+          <lb ed="#P" n="82"/>quia causa est de substantia dispensationis 
+          vo<lb break="no" ed="#P" n="83"/>ti, et ideo parum refert illam addere; non est
+          <lb ed="#P" n="84"/>tamen necessarium, quia in prioribus verbis
+          <lb ed="#P" n="85"/>sufficienter continetur, et non oportet omnia
+          <lb ed="#P" n="86"/>in definitione distincte explicare.
+        </p>
+        <p xml:id="szovsr-m27142-d1e170">
+          <lb ed="#P" n="87"/>2. Differentia inter dispensationem et 
+          inter<lb break="no" ed="#P" n="88"/>pretationem. — Ex hac vero detinitione 
+          colli<lb break="no" ed="#P" n="89"/>gere licet discrimen inter dispensationem et
+          <lb ed="#P" n="90"/>interpretationem, quam hic praenotare 
+          neces<lb break="no" ed="#P" n="91"/>sarium est. Nam dispensatio supponit 
+          vincu<lb break="no" ed="#P" n="92"/>lum actu obligans, et tollit illud, seu 
+          obliga<lb break="no" ed="#P" n="93"/>tionem ejus ; interpretatio vero non tollit 
+          obli<lb break="no" ed="#P" n="94"/>gationem, sed declarat tantum in re ipsa non
+          <lb ed="#P" n="95"/>esse ; unde potius supponit casum, in quo lex
+          <lb ed="#P" n="96"/>vel votum ex se non obliget. Et ideo 
+          inter<lb break="no" ed="#P" n="97"/>dum fieri potest auctoritate privata, et per
+          <lb ed="#P" n="98"/>doctrinam, potius quam per jurisdictionem,
+          <lb ed="#P" n="99"/>licet etiam possit fieri authentice, et tunc 
+          pos<lb break="no" ed="#P" n="100"/>tulet publicam potestatem. Hoc declaratur ex
+          <lb ed="#P" n="101"/>cap. Quinta vallis, de Jurejuran., ibi: Ad 
+          man<lb break="no" ed="#P" n="102"/>dati observationem denuncies, non teneri. Nam
+          <lb ed="#P" n="103"/>qui denunciat. nihil agit, sed significat quod
+          <lb ed="#P" n="104"/>factum est, ut dicitur in leg. Heredes palam,
+          <lb ed="#P" n="105"/>§  Si quid post, ff. de Testament.; et ita ibi
+          <lb ed="#P" n="106"/>Abbas, num. 3, notat illam fuisse 
+          interpreta<lb break="no" ed="#P" n="107"/>tionem juramenti de se non obligantis, non
+          <pb ed="#P" n="1083"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>relaxationem ejus. Non desunt autem qui
+          <lb ed="#P" n="2"/>hanc interpretationem interdum vocent 
+          dis<lb break="no" ed="#P" n="3"/>pensationem, ut videre licet in Bonavent., in
+          <lb ed="#P" n="4"/>4, d. 38, q. ult.; Scot., 3, d. 31, q. unica; et
+          <lb ed="#P" n="5"/>Gab. ibi, art. 1, notab. 3, qui dicunt 
+          dupli<lb break="no" ed="#P" n="6"/>cem esse dispensationem, scilicet, juris 
+          revo<lb break="no" ed="#P" n="7"/>cationem, et juris declarationem, quam 
+          dis<lb break="no" ed="#P" n="8"/>tinctionem admisit etiam Specul., tit. de 
+          Dis<lb break="no" ed="#P" n="9"/>pens., in principio.
+        </p>
+        <p xml:id="szovsr-m27142-d1e243">
+          <lb ed="#P" n="10"/>3. Verumtamen non oportet abuti terminis,
+          <lb ed="#P" n="11"/>nec confundere aequitatem seu epiikeiam cum
+          <lb ed="#P" n="12"/>dispensatione : sunt enim actus diversarum
+          <lb ed="#P" n="13"/>virtutum et potestatum, et longe diversos 
+          ha<lb break="no" ed="#P" n="14"/>bent effectus, et ideo merito diversis vocibus
+          <lb ed="#P" n="15"/>significantur. Per dispensationem enim 
+          tolli<lb break="no" ed="#P" n="16"/>tur obligatio, per interpretationem non 
+          tolh<lb break="no" ed="#P" n="17"/>tur, sed declaratur non esse, quia vel nunquam
+          <lb ed="#P" n="18"/>orta est, vel cessavit per sese, vel simpliciter,
+          <lb ed="#P" n="19"/>vel pro tali easu. Unde dispensatio per se est
+          <lb ed="#P" n="20"/>actus jurisdictionis, interpretatio vero per se
+          <lb ed="#P" n="21"/>est actus scientiae seu doctrina; ac denique
+          <lb ed="#P" n="22"/>dispensatio est proprie actus justitiae 
+          distribu<lb break="no" ed="#P" n="23"/>tivae, interpretatio ad specialem virtutem 
+          epii<lb break="no" ed="#P" n="24"/>keiae magis pertinet ; recte ergo diversis 
+          voci<lb break="no" ed="#P" n="25"/>bus significantur, et ad hoc accommodatae
+          <lb ed="#P" n="26"/>sunt illae duae. Ut in hac materia notarunt
+          <lb ed="#P" n="27"/>Soto, lib. 7, q. 4, art. 1; Aragon., q. S8, art.
+          <lb ed="#P" n="28"/>10; Azor, lib.11, cap. 19 et 20. et communiter
+          <lb ed="#P" n="29"/>alii in materia de Legibus. Et bene 
+          Turre<lb break="no" ed="#P" n="30"/>crem., in Summ. de Eccles., lib. 3, c. 53et
+          <lb ed="#P" n="31"/>55; et Covar., in 4, secunda parte, c. 6, 89,
+          <lb ed="#P" n="32"/>num. 2, ubi ait, ex diametro pugnare 
+          dispen<lb break="no" ed="#P" n="33"/>sare et declarare, seu interpretari.
+        </p>
+        <p xml:id="szovsr-m27142-d1e298">
+          <lb ed="#P" n="34"/>4. Punctum difficultatis empenditur. —
+          <lb ed="#P" n="35"/>Aliqguorum opinatio. — Denique hinc 
+          colli<lb break="no" ed="#P" n="36"/>gere licet , interpretationem voti versari,
+          <lb ed="#P" n="37"/>vel circa materiam, vel circa intentionem
+          <lb ed="#P" n="38"/>voventis ; dispensationem autem dari ex 
+          par<lb break="no" ed="#P" n="39"/>te Dei, qui tanquam supremus dominus,
+          <lb ed="#P" n="40"/>vel tanquam creditor cedit suo debito. 
+          Om<lb break="no" ed="#P" n="41"/>nis enim interpretatio , quod votum non
+          <lb ed="#P" n="42"/>obliget, sumitur vel ex materia, quia est 
+          fac<lb break="no" ed="#P" n="43"/>ta incapax obligationis voti; vel ex 
+          intentio<lb break="no" ed="#P" n="44"/>ne voventis, quia conjectamus non fuisse 
+          in<lb break="no" ed="#P" n="45"/>tentionem voventis se obligare pro illo casu.
+          <lb ed="#P" n="46"/>Ita sumitur a simili de juramento, ex textu
+          <lb ed="#P" n="47"/>cum Gloss., in d. c. Quinta vallis ; nam in 
+          tex<lb break="no" ed="#P" n="48"/>tu dicitur , denunciandum fuisse 
+          juramen<lb break="no" ed="#P" n="49"/>tum in eo casu non obligasse, quia 
+          praecep<lb break="no" ed="#P" n="50"/>tum erat de re illicita ; et addit Glossa, per
+          <lb ed="#P" n="51"/>Panorm. et alios approbata, etiam potuisse
+          <lb ed="#P" n="52"/>juramentum illud denunciari, non obligasse,
+          <lb ed="#P" n="53"/>quia non erat verisimile intendisse jurantem
+          <lb ed="#P" n="54"/>se obligare pro tali casu. Item ex supra dictis
+          <lb ed="#P" n="55"/>de valore vel mutatione voti, intelligi potest
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>omnem voti interpretationem in his duobus
+          <lb ed="#P" n="57"/>capitibus fundari ; nam si materia sit capax
+          <lb ed="#P" n="58"/>obligationis, et constet voventem voluisse se
+          <lb ed="#P" n="59"/>obligare, nulla ratione interpretari possumus
+          <lb ed="#P" n="60"/>votum non obligare ; sed tunc, supposita 
+          fir<lb break="no" ed="#P" n="61"/>mitate voti recurrendum est ad 
+          dispensatio<lb break="no" ed="#P" n="62"/>nem, ut voti obligatio auferri possit, quod
+          <lb ed="#P" n="63"/>fieri non potest nisi ex parte Dei, ut dicemus.
+          <lb ed="#P" n="64"/>De interpretatione igitur nihil amplius nobis
+          <lb ed="#P" n="65"/>superest dicendum ; nam quae dicta sunt in
+          <lb ed="#P" n="66"/>libro superiori de mutatione et cessatione 
+          cir<lb break="no" ed="#P" n="67"/>ca obligationem voti, et de votis dubiis, et de
+          <lb ed="#P" n="68"/>modo interpretandi votum, sufficiunt ; in 
+          prae<lb break="no" ed="#P" n="69"/>senti ergo solum de propria dispenusatione
+          <lb ed="#P" n="70"/>tractamus.
+        </p>
+        <p xml:id="szovsr-m27142-d1e383">
+          <lb ed="#P" n="71"/>5. Detur in Ecclesia potestas ad 
+          auferen<lb break="no" ed="#P" n="72"/>dam votorum obligationem. — Ex dictis ergo
+          <lb ed="#P" n="73"/>oritur ratio dubitandi in quaestione proposita:
+          <lb ed="#P" n="74"/>nam dispensatio est juris relaxatio ; sed jus
+          <lb ed="#P" n="75"/>solvendi vota Deo relaxari non potest ; ergo
+          <lb ed="#P" n="76"/>nec votum potest dispensari. Probatur minor,
+          <lb ed="#P" n="77"/>tum quia illud jus est naturale, et in jure 
+          na<lb break="no" ed="#P" n="78"/>turali non cadit dispensatio ; tum etiam quia
+          <lb ed="#P" n="79"/>obligatio fundatur in fidelitate Deo debita;
+          <lb ed="#P" n="80"/>dispensabile autem non est ut Deo fidelitas
+          <lb ed="#P" n="81"/>non servetur ; ergo. Propter hoc quidam 
+          di<lb break="no" ed="#P" n="82"/>xerunt, non esse potestatem in Ecclesia ad
+          <lb ed="#P" n="83"/>dispensandum in votis, sed solum ad 
+          inter<lb break="no" ed="#P" n="84"/>pretandum, an obligent, necne. Quod videtur
+          <lb ed="#P" n="85"/>sentire D. Thomas, dicta q. S8, art. 10. Nam
+          <lb ed="#P" n="86"/>in corpore articuli solum ait votum esse 
+          dis<lb break="no" ed="#P" n="87"/>pensabile, quia potest contingere quod m 
+          ali<lb break="no" ed="#P" n="88"/>quo casu sit simpliciter malum , vel inutile,
+          <lb ed="#P" n="89"/>vel majoris boni impeditivum. Et in solut. ad
+          <lb ed="#P" n="90"/>2. declarat dispensationem voti tantum ex
+          <lb ed="#P" n="91"/>parte materiae feri, ita ut dispensare, nihil
+          <lb ed="#P" n="92"/>aliud sit quam determinare in hoc casu hanc
+          <lb ed="#P" n="93"/>non esse congruam materiam voti, quia vel
+          <lb ed="#P" n="94"/>est aliquid malum, vel inutile, vel majoris 
+          bo<lb break="no" ed="#P" n="95"/>ni impeditivum, ut etiam in solutione ad 3
+          <lb ed="#P" n="96"/>declarat. Expressius vero illam sententiam 
+          do<lb break="no" ed="#P" n="97"/>cuit S. Bonaven., 4, d. 38, quaestion. ult, ; et
+          <lb ed="#P" n="98"/>Glossa, in cap. Non est, de Voto, verb. 
+          Aucto<lb break="no" ed="#P" n="99"/>ritate ; et ibi Anton., num. 3; et Cardin., in
+          <lb ed="#P" n="100"/>cap. Cum ad monasterium, de Statu Monach.,
+          <lb ed="#P" n="101"/>in fine.
+        </p>
+        <p xml:id="szovsr-m27142-d1e453">
+          <lb ed="#P" n="102"/>6. Nihilominus certum est esse in Ecclesia
+          <lb ed="#P" n="103"/>potestatem circa vota ad auferendum, quando
+          <lb ed="#P" n="104"/>oportuerit, illorum obligationem. Ita D. 
+          Tho<lb break="no" ed="#P" n="105"/>mas expresse reprobans contrariam 
+          opinio<lb break="no" ed="#P" n="106"/>nem, in A4, dist. 38, q. 1, art. 4; nec in dicta
+          <lb ed="#P" n="107"/>q. 88, art. 10, aliud sentit, ut intelligi potest
+          <lb ed="#P" n="108"/>ex comparatione ad dispensationem legis 
+          hu<lb break="no" ed="#P" n="109"/>manae, qua in corp. et ad 2 utitur, et ex
+          <lb ed="#P" n="110"/>doctrina ejusdem, in articul. 11 et 12. Unde
+          <pb ed="#P" n="1084"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quando in illo articulo ait, per dispensationem
+          <lb ed="#P" n="2"/>determinari, non esse bonum vel conveniens
+          <lb ed="#P" n="3"/>servare votum, non est intelligendum supponi
+          <lb ed="#P" n="4"/>hoc ante dispensationem, sed per illius 
+          deter<lb break="no" ed="#P" n="5"/>minationem fieri ; vel intelligendum est 
+          affir<lb break="no" ed="#P" n="6"/>mative potius quam negative, scilicet, bonum
+          <lb ed="#P" n="7"/>esse et conveniens media dispensatione in tali
+          <lb ed="#P" n="8"/>causa non servari votum. Et ita etiain 
+          intel<lb break="no" ed="#P" n="9"/>ligendum est, quod ait, praesertim in 
+          solutio<lb break="no" ed="#P" n="10"/>ne ad tertium, dispensationem voti eo 
+          tende<lb break="no" ed="#P" n="11"/>re, ut malum vel inutile vitetur, non quod
+          <lb ed="#P" n="12"/>semper supponatur ante dispensationem 
+          vo<lb break="no" ed="#P" n="13"/>tum esse inutile, vel impedire majus bonum,
+          <lb ed="#P" n="14"/>sed quod debeat causa intercedere, quae ad
+          <lb ed="#P" n="15"/>hoc ducat, ita ut periculum sit ne id eveniat,
+          <lb ed="#P" n="16"/>nisi in voto dispensetur. Semper ergo fuit D.
+          <lb ed="#P" n="17"/>Thom. in eadem sententia , quam etiam 
+          se<lb break="no" ed="#P" n="18"/>quuntur in 4, d. 38, Richar., art. 3, q. 1; 
+          Pa<lb break="no" ed="#P" n="19"/>lud., q. 4. art. 3; Sup. q. 1, art. 4. Palac.,
+          <lb ed="#P" n="20"/>disp. 9; Ant..9p tit. 11 cap. 9.$9. Sot.,
+          <lb ed="#P" n="21"/>lib. 7, quaest. 4, art.1; Abulens., Numeror.
+          <lb ed="#P" n="22"/>30, quaest. 102; Navarrus, dicto capit. 12,a
+          <lb ed="#P" n="23"/>num. 63, et reliqui Summistae. Idem docent
+          <lb ed="#P" n="24"/>communiter Canonistae, in c. Non est, de 
+          Vo<lb break="no" ed="#P" n="25"/>to, et in cap. Proposuit, de Conces. praeben.,
+          <lb ed="#P" n="26"/>ubi bene Panorm., in num. 12, referens Host.
+          <lb ed="#P" n="27"/>et Innoc. ; Covar., in cap. Quamois pactum, 1
+          <lb ed="#P" n="28"/>part., 83, n. 4.
+        </p>
+        <p xml:id="szovsr-m27142-d1e540">
+          <lb ed="#P" n="29"/>7. Probatur primo ex usu, et traditione 
+          Ec<lb break="no" ed="#P" n="30"/>clesiae ; tam frequens enim est usus hujus 
+          dis<lb break="no" ed="#P" n="31"/>pensationis in Ecclesia, tamque antiquus, ut
+          <lb ed="#P" n="32"/>de potestate dubitare non liceat; nam esset
+          <lb ed="#P" n="33"/>intolerabilis error in Ecclesia in re maxime 
+          ne<lb break="no" ed="#P" n="34"/>cessaria ad mores, quod ejus sanctitati 
+          repu<lb break="no" ed="#P" n="35"/>gnat. Neque etiam dici potest has, quae 
+          conce<lb break="no" ed="#P" n="36"/>duntur, esse tantum declarationes, non 
+          pro<lb break="no" ed="#P" n="37"/>prias dispensationes. Nam oppositum evidenter
+          <lb ed="#P" n="38"/>constat, tum ex facto ipso, nam ubi est 
+          obli<lb break="no" ed="#P" n="39"/>gatio voti certa ante dispensationem, per illam
+          <lb ed="#P" n="40"/>tollitur ; tum ex verbis dispeusandi vel 
+          com<lb break="no" ed="#P" n="41"/>mutandi, quae in proprietate hoc significant;
+          <lb ed="#P" n="42"/>et in jure, quando fit tantum interpretatio,
+          <lb ed="#P" n="43"/>pouitur verbum judicand?, ut in cap. 
+          Zittera<lb break="no" ed="#P" n="44"/>turam,de Voto, vel verbum declarandi, ut in
+          <lb ed="#P" n="45"/>d. cap. Quinta callis, de Jurejur. Quando vero
+          <lb ed="#P" n="46"/>fit relaxatio, ponitur verbum dispensandi, ut
+          <lb ed="#P" n="47"/>in cap. 1, de Voto, vel verbum absolvendi, ut
+          <lb ed="#P" n="48"/>cap. 2, eodcm, et frequenter verbum 
+          commu<lb break="no" ed="#P" n="49"/>tandi et redimendi, de quibus infra. Tum 
+          prae<lb break="no" ed="#P" n="50"/>terea quia ob hanc causam haec dispensatio a
+          <lb ed="#P" n="51"/>solis Praelatis fieri potest, et non ab 
+          inferiori<lb break="no" ed="#P" n="52"/>bus, licet doctissimis. Et inter vota quaedam
+          <lb ed="#P" n="53"/>reservantur Papae, quod est signum hunc esse
+          <lb ed="#P" n="54"/>actum jurisdictionis, ac subinde esse propriam
+          <lb ed="#P" n="55"/>dispensationem ; nam interpretatio ut sic non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est jurisdictionis, ut dixi, nisi fiat per 
+          mo<lb break="no" ed="#P" n="57"/>dum dispensationis aut legis, ut infra etiam
+          <lb ed="#P" n="58"/>dicetur.
+        </p>
+        <p xml:id="szovsr-m27142-d1e610">
+          <lb ed="#P" n="59"/>8. Ratione declaratur, quia omnis humana
+          <lb ed="#P" n="60"/>lex indiget interdum dispensatione; sed 
+          vo<lb break="no" ed="#P" n="61"/>tum est quasi privata lex humana ; ergo 
+          indi<lb break="no" ed="#P" n="62"/>get interdum dispensatione ; ergo non deest in
+          <lb ed="#P" n="63"/>Ecclesia potestas ad illam concedendam, juxta
+          <lb ed="#P" n="64"/>illud Matth. 16: Quodcumgque solveris. Et ratio
+          <lb ed="#P" n="65"/>est, quia humana deliberatio non potest omnia
+          <lb ed="#P" n="66"/>circumspicere, et ideo saepe non expedit quod
+          <lb ed="#P" n="67"/>lege fuerat praescriptum, vel expedit aliquem
+          <lb ed="#P" n="68"/>ab obligatione legis excipere, vel propter 
+          ma<lb break="no" ed="#P" n="69"/>jus bonum, vel propter aliquod malum 
+          vitan<lb break="no" ed="#P" n="70"/>dum, quae est ratio justificans dispensationem,
+          <lb ed="#P" n="71"/>ut ex Cyrillo dicitur in cap. Dispensationem,
+          <lb ed="#P" n="72"/>1, quaest. 7. Et inde facile ostenditur prima
+          <lb ed="#P" n="73"/>consequentia : quia, sicut lex, quae generaliter
+          <lb ed="#P" n="74"/>proponitur, in particulari potest non expedire,
+          <lb ed="#P" n="75"/>ita votum, quod est veluti privata lex, potest
+          <lb ed="#P" n="76"/>alicui vel in aliquo casu non expedire; unde
+          <lb ed="#P" n="77"/>in multis casibus sequerentur multa mala et
+          <lb ed="#P" n="78"/>pericula ex vinculo voti, nisi in eo 
+          dispensa<lb break="no" ed="#P" n="79"/>retur. Secunda vero consequentia probatur,
+          <lb ed="#P" n="80"/>quia Christus non defuit Ecclesiae in 
+          necessa<lb break="no" ed="#P" n="81"/>riis. Unde haec potestas sine dubio 
+          contine<lb break="no" ed="#P" n="82"/>tur in his verbis, Pasce oves meas, quia unus
+          <lb ed="#P" n="83"/>ex praecipuis magisque necessarys actibus 
+          hu<lb break="no" ed="#P" n="84"/>jus pastoralis muneris est haec potestas. Et
+          <lb ed="#P" n="85"/>eadem ratione continetur in illa promissione:
+          <lb ed="#P" n="86"/>Tibi dabo claves, etc.; et: Quodcumque 
+          solve<lb break="no" ed="#P" n="87"/>ris, etc.
+        </p>
+        <p xml:id="szovsr-m27142-d1e676">
+          <lb ed="#P" n="88"/>9. Quorumdum canonistarum responsio ad
+          <lb ed="#P" n="89"/>difficultatem. —Atque haec veritas magis 
+          con<lb break="no" ed="#P" n="90"/>stabit respondendo ad difficultatem 
+          proposi<lb break="no" ed="#P" n="91"/>tam. Ad quam quidam Canonistae respondent,
+          <lb ed="#P" n="92"/>posse Pontificem dispensare in jure divino 
+          na<lb break="no" ed="#P" n="93"/>turali. Quibus in hac parte consentit Cano,
+          <lb ed="#P" n="94"/>Relect. de Poenitentia, part. 5, tractando de
+          <lb ed="#P" n="95"/>praecepto divino confessionis. Verumtamen si
+          <lb ed="#P" n="96"/>hoc intelligatur de jure proprie, ut significat
+          <lb ed="#P" n="97"/>legem naturalem, est falsa sententia, ut 
+          dice<lb break="no" ed="#P" n="98"/>mus in materia de Legibus, et tractant late
+          <lb ed="#P" n="99"/>Canonista, in cap. Que in Hcclesiarum, de
+          <lb ed="#P" n="100"/>Constitut., ubi Decius, num. 4; Felinus, num.
+          <lb ed="#P" n="101"/>19 et sequentibus, ubi plures allegat ; et 
+          Co<lb break="no" ed="#P" n="102"/>var.. in 4, secunda parte, cap. 6, S 9, num. 4,
+          <lb ed="#P" n="103"/>et patet breviter, quia quod est contra legem
+          <lb ed="#P" n="104"/>naturalem, est per se intrinsece malum et
+          <lb ed="#P" n="105"/>ideo prohibitum ; quod autem tale est, 
+          nun<lb break="no" ed="#P" n="106"/>quam potest non esse malum; ergo non 
+          po<lb break="no" ed="#P" n="107"/>test in eo dispensari. Et hoc convincit secunda
+          <lb ed="#P" n="108"/>probatio posita in ratione dubitandi, quia non
+          <lb ed="#P" n="109"/>potest cadere dispensatio in fidelitatem Deo
+          <lb ed="#P" n="110"/>debitam. In hoc ergo puncto vera sententia
+          <pb ed="#P" n="1085"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est, non dispensari in lege naturali 
+          formali<lb break="no" ed="#P" n="2"/>ter, sed auferri et mutari materiam legis 
+          na<lb break="no" ed="#P" n="3"/>turalis, et ita cessare obligationem. Lex enim
+          <lb ed="#P" n="4"/>naturalis in praesenti est, ut vota Deo 
+          reddan<lb break="no" ed="#P" n="5"/>tur, quae sicut non incipit obligare nisi 
+          post<lb break="no" ed="#P" n="6"/>quam ftit votum, ita non conservat 
+          obligatio<lb break="no" ed="#P" n="7"/>nem (ut sic dicam)nisi durante voto; si autem
+          <lb ed="#P" n="8"/>votum semel factum auferatur, cessabit 
+          obli<lb break="no" ed="#P" n="9"/>gatio illius legis sine dispensatione in illa;
+          <lb ed="#P" n="10"/>hoc ergo fit per dispensationem voti. Affert
+          <lb ed="#P" n="11"/>exemplum D. Thomas de lege humana; nam
+          <lb ed="#P" n="12"/>etiam lex naturalis dictat esse servandam 
+          le<lb break="no" ed="#P" n="13"/>gem humanam; si tamen lex humana 
+          aufe<lb break="no" ed="#P" n="14"/>ratur, vel simpliciter, vel in casu, jam non 
+          ob<lb break="no" ed="#P" n="15"/>ligabit illa lex naturalis, licet in ea non fiat
+          <lb ed="#P" n="16"/>dispensatio.
+        </p>
+        <p xml:id="szovsr-m27142-d1e767">
+          <lb ed="#P" n="17"/>10. Cano vero supra, licet fateatur hanc
+          <lb ed="#P" n="18"/>responsionem esse D. Thomae et discipulorum
+          <lb ed="#P" n="19"/>ejus, eam non probat, tum quia ex ea 
+          seque<lb break="no" ed="#P" n="20"/>retur dispensationem voti sine causa factam
+          <lb ed="#P" n="21"/>validam esse ; tum euam quia alas,seclusa 
+          in<lb break="no" ed="#P" n="22"/>stitutione divina, non possent principes 
+          hu<lb break="no" ed="#P" n="23"/>mani in votis dispensare. Unde ipse sentit,
+          <lb ed="#P" n="24"/>Deum dedisse potestatem dispensandi in hoc
+          <lb ed="#P" n="25"/>jure naturali servandi vota, quia servare et
+          <lb ed="#P" n="26"/>praebere vota (sic enim loquitur), poterat esse
+          <lb ed="#P" n="27"/>regni coelorum impedimentum, et vergere in
+          <lb ed="#P" n="28"/>salutis dispendium. Sed certe non recte 
+          loqui<lb break="no" ed="#P" n="29"/>tur, vel sententiam communem refutando, vel
+          <lb ed="#P" n="30"/>suam astruendo. Nos enim non asserimus legem
+          <lb ed="#P" n="31"/>obligantem ad servandum votum esse 
+          huma<lb break="no" ed="#P" n="32"/>nam, ut possit auctoritate mere humana tolli,
+          <lb ed="#P" n="33"/>aut sine causa valide dispensari ; sed dicimus
+          <lb ed="#P" n="34"/>votum ipsum esse quid factum voluntate 
+          hu<lb break="no" ed="#P" n="35"/>mana, a quo pendet illa obligatio, et ideo illud
+          <lb ed="#P" n="36"/>posse auferri, non tamen sine causa et debita
+          <lb ed="#P" n="37"/>potestate, propter rationem infra 
+          explican<lb break="no" ed="#P" n="38"/>dam. Quod autem ipse ait, servare votum
+          <lb ed="#P" n="39"/>posse esse salutis dispendium, in rigore 
+          fal<lb break="no" ed="#P" n="40"/>sum est ; quia servare votum nunquam potest
+          <lb ed="#P" n="41"/>spirituali saluti nocere, quia nunquam obligat
+          <lb ed="#P" n="42"/>cum dispendio spiritualis salutis. Habere ergo
+          <lb ed="#P" n="43"/>votum potest interdum esse impedimentum,
+          <lb ed="#P" n="44"/>et vergere in dispendium, et ideo ad hoc fuit
+          <lb ed="#P" n="45"/>necessaria potestas ut votum ipsum auferretur.
+          <lb ed="#P" n="46"/>Adde non solum ex illo periculo, sed etiam
+          <lb ed="#P" n="47"/>ex aliis rationibus posse interdum insurgere
+          <lb ed="#P" n="48"/>justam causam dispensandi in voto.
+        </p>
+        <p xml:id="szovsr-m27142-d1e839">
+          <lb ed="#P" n="49"/>11. Dubium. — Hinc autem oritur 
+          difficul<lb break="no" ed="#P" n="50"/>tas, quomodo possit homo auferre votum Deo
+          <lb ed="#P" n="51"/>factum, quia promissionem regi factam nemo
+          <lb ed="#P" n="52"/>remittere potest, nisi ipse rex. Et de.laratur
+          <lb ed="#P" n="53"/>in esemplo D Thomae: nam ex materia illius
+          <lb ed="#P" n="54"/>legis naturalis, obediendum est iegi principis,
+          <lb ed="#P" n="55"/>ideoque auferri potest ab ipso principe, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ipse potest mutare legem suam ; non tamen
+          <lb ed="#P" n="57"/>poterit auferri ab alio inferiore principe; in
+          <lb ed="#P" n="58"/>praesenti autem votum, Deo factum, non potest
+          <lb ed="#P" n="59"/>auferri ab eo qui illud fecit, non enim potest
+          <lb ed="#P" n="60"/>mutare voluntatem suam propria auctoritate ;
+          <lb ed="#P" n="61"/>hoc enim est contra legem naturalem, et 
+          con<lb break="no" ed="#P" n="62"/>tra fidelitatem Deo debitam ; ergo nec aliquis,
+          <lb ed="#P" n="63"/>qui sit infra Deum, potest illud votum 
+          tolle<lb break="no" ed="#P" n="64"/>re ; ergo neque subtrahere materiam illi legi
+          <lb ed="#P" n="65"/>naturali.
+        </p>
+        <p xml:id="szovsr-m27142-d1e881">
+          <lb ed="#P" n="66"/>12. Prima responsio ad dubium. — Primus
+          <lb ed="#P" n="67"/>modus respondendi ad hanc difficultatem est,
+          <lb ed="#P" n="68"/>omne votum includere hanc conditionem, nisi
+          <lb ed="#P" n="69"/>Praelato aliud visum fuerit, et ex ea parte posse
+          <lb ed="#P" n="70"/>dispensari votum a Praelato. Ita referunt D.
+          <lb ed="#P" n="71"/>Thomas et D. Bonaventura supra, et ex parte
+          <lb ed="#P" n="72"/>sequitur Medin., loco infra citando. Quod si
+          <lb ed="#P" n="73"/>objiciatur, quia inde sequeretur hanc non esse
+          <lb ed="#P" n="74"/>dispensationem, sed irritationem, et 
+          conse<lb break="no" ed="#P" n="75"/>quenter posse sine speciali causa tolli votum a
+          <lb ed="#P" n="76"/>Praelato propter conditiunem inclusam, quod
+          <lb ed="#P" n="77"/>est omnino falsum et absurdum, responderi
+          <lb ed="#P" n="78"/>potest, in ipsa conditione includi ordinem ad
+          <lb ed="#P" n="79"/>justam causam, id est, Nisi Prelato es justa
+          <lb ed="#P" n="80"/>causa videatur, hoc non esse servandum, et ita
+          <lb ed="#P" n="81"/>nunquam valebit ablatio voti, nisi ex justa
+          <lb ed="#P" n="82"/>causa fiat, quia non implebitur conditio. Sed
+          <lb ed="#P" n="83"/>in hoc sensu non satisfacit illa sententia. Nam
+          <lb ed="#P" n="84"/>interrogo an illa conditio includatur in votis
+          <lb ed="#P" n="85"/>ex voluntate libera vov ntium, vel ex aliqua
+          <lb ed="#P" n="86"/>lege et necessitate. Primum dici non potest.
+          <lb ed="#P" n="87"/>tum quia illud voluntarie dicetur ; potest enim
+          <lb ed="#P" n="88"/>unusquisque vovere absolute et sine ulla 
+          con<lb break="no" ed="#P" n="89"/>ditione, quantum legitime potest ; tum etiam
+          <lb ed="#P" n="90"/>quia, illo posito, non exceduntur limites 
+          irri<lb break="no" ed="#P" n="91"/>tationis indirectae, et solum ex parte materiae,
+          <lb ed="#P" n="92"/>et non ex potestate superiore in ipsum 
+          voven<lb break="no" ed="#P" n="93"/>tem. Unde ulterius fit, ut non habeat locum
+          <lb ed="#P" n="94"/>reservatio in dispensatione votorum, quia 
+          dis<lb break="no" ed="#P" n="95"/>pensatio haec pendet ex conditione voluntaria
+          <lb ed="#P" n="96"/>voventis, et nemo cogi potest ut non faciat 
+          vo<lb break="no" ed="#P" n="97"/>tum sub conditione quacumque, prout 
+          volue<lb break="no" ed="#P" n="98"/>rit, dummodo conditio honesta sit. Imo etiam
+          <lb ed="#P" n="99"/>inde fit, ut haec potestas non tantum sit in 
+          Prae<lb break="no" ed="#P" n="100"/>latis, sed etiam possit esse in parochis et 
+          con<lb break="no" ed="#P" n="101"/>fessoribus et similibus, pro arbitrio vovenuum,
+          <lb ed="#P" n="102"/>si insuis votis conditiones similes includant:
+          <lb ed="#P" n="103"/>Nisi meo confessori aut parocho ea rationabili
+          <lb ed="#P" n="104"/>causa aliud videaiur. Non fundatur ergo 
+          po<lb break="no" ed="#P" n="105"/>testas dispensandi in simili voluntaria 
+          condi<lb break="no" ed="#P" n="106"/>tione voventium. Si ergo dicatur secundum,
+          <lb ed="#P" n="107"/>scilicet, conditionem illam ex necessitate 
+          in<lb break="no" ed="#P" n="108"/>cludi, interrogo quis imposuerit voventibus
+          <lb ed="#P" n="109"/>hanc necessitatem. Deinde vel ilia necessitas
+          <lb ed="#P" n="110"/>est de lege naturae, vel de jure ecclesiastico.
+          <pb ed="#P" n="1086"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Primum dici non potest, tum quia lex 
+          natura<lb break="no" ed="#P" n="2"/>lis non prohibet aliquid absolute Deo 
+          promit<lb break="no" ed="#P" n="3"/>tere; tum quia ex natura rei non magis 
+          obli<lb break="no" ed="#P" n="4"/>gatur vovens ad constituendam illam 
+          conditio<lb break="no" ed="#P" n="5"/>nem in ordine ad Pontificem, quam ad 
+          Epis<lb break="no" ed="#P" n="6"/>copum, vel alium Pastorem suum inferiorem,
+          <lb ed="#P" n="7"/>vel etiam hominem doctum et pium ; ergo ex
+          <lb ed="#P" n="8"/>sola lege naturali non potest talis conditio
+          <lb ed="#P" n="9"/>praescribi. Contra secundum etiam de 
+          eccle<lb break="no" ed="#P" n="10"/>siastico jure objici potest ex D. Thoma et 
+          Bona<lb break="no" ed="#P" n="11"/>ventura supra, quia multa sunt qua nullus
+          <lb ed="#P" n="12"/>Praelatus et:am Papa potest prohibere, ut 
+          ope<lb break="no" ed="#P" n="13"/>ra consiliorum per se loquendo; ergo non 
+          pos<lb break="no" ed="#P" n="14"/>sunt imponere necessitatem vovendi 
+          conditio<lb break="no" ed="#P" n="15"/>nate et non absolute, et multo minus possunt
+          <lb ed="#P" n="16"/>determinare conditionem, ut sit ad voluntatem
+          <lb ed="#P" n="17"/>Papae, vel Episcopi ; non potest ergo haec 
+          dis<lb break="no" ed="#P" n="18"/>pensabilitas (ut sic dicam ) provenire ex parte
+          <lb ed="#P" n="19"/>voventium.
+        </p>
+        <p xml:id="szovsr-m27142-d1e1027">
+          <lb ed="#P" n="20"/>13. Secunda responsio. — Differentia inter
+          <lb ed="#P" n="21"/>legem privatam , et publicam. — Secundus
+          <lb ed="#P" n="22"/>modus respondendi est, vinculum voti esse
+          <lb ed="#P" n="23"/>humana voluntate contractum, et ex hac 
+          par<lb break="no" ed="#P" n="24"/>te rescindi et auferri posse per voluntatem
+          <lb ed="#P" n="25"/>Praelati , quae superior est ipso vovente. Sic
+          <lb ed="#P" n="26"/>enim potest obligatio facta ab inferiori 
+          rescin<lb break="no" ed="#P" n="27"/>di per superiorem ex rationabili causa. Et
+          <lb ed="#P" n="28"/>hoc modo dicebamus supra posse relaxari 
+          ju<lb break="no" ed="#P" n="29"/>ramentum , rescindendo promissionem illi
+          <lb ed="#P" n="30"/>subtractam. Potestque in hunc modum amplius
+          <lb ed="#P" n="31"/>declarari, quia in hoc differt lex privata, quae
+          <lb ed="#P" n="32"/>est votum, a lege propria et publica, quod
+          <lb ed="#P" n="33"/>haec per eamdem voluntatem, per quam lata
+          <lb ed="#P" n="34"/>fuit, potest auferri vel temperari ex causa 
+          jus<lb break="no" ed="#P" n="35"/>ta ; illa vero, cum non sit propria lex, sed
+          <lb ed="#P" n="36"/>promissio, non pendet amplius ex voluntate
+          <lb ed="#P" n="37"/>promittentis, quia non potest ipse suo 
+          arbi<lb break="no" ed="#P" n="38"/>trio auferre a se obligationem, quam semel
+          <lb ed="#P" n="39"/>contraxit , quia hoc repugnat cum vera 
+          ra<lb break="no" ed="#P" n="40"/>tione et obligatione promissionis etiam inter
+          <lb ed="#P" n="41"/>homines. Et ideo ut tollatur obligatio, necesse
+          <lb ed="#P" n="42"/>est ut vel tanta sit rerum mutatio, ut per se
+          <lb ed="#P" n="43"/>cesset, vel ut a superiore auferatur, legitima
+          <lb ed="#P" n="44"/>causa interveniente. Ergo ex ea parte, qua
+          <lb ed="#P" n="45"/>lex illa vel obligatio humana est, poterit per
+          <lb ed="#P" n="46"/>Praelatum humanum auferri, cum privata 
+          vo<lb break="no" ed="#P" n="47"/>luntas ad id non sufficiat. et sufficiens ratio
+          <lb ed="#P" n="48"/>ad auferendam illam possit intervenire 
+          pro<lb break="no" ed="#P" n="49"/>pter defectibilitatem humanae voluntatis, ut
+          <lb ed="#P" n="50"/>supra in fundamento assertionis dictum est.
+          <lb ed="#P" n="51"/>Ita sentiunt Joan. Medin.. C. de Confess.,
+          <lb ed="#P" n="52"/>quaest. de Dispensat. super confess. revel., ad
+          <lb ed="#P" n="53"/>secundum ; Covarr., de Testamentis, cap. 2,
+          <lb ed="#P" n="54"/>num. 12; Mich. Medin., lib. 5 de Continen.
+          <lb ed="#P" n="55"/>Sacerd., cap. 50, et in re idem ait Soto, dict.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>art. 1, ad 2, dicens, dispensationem in voto
+          <lb ed="#P" n="57"/>immediate tollere obligationem, quatenus ex
+          <lb ed="#P" n="58"/>voluntate hominis emersit, que quodam modo
+          <lb ed="#P" n="59"/>est lev humana. Et idem habet lib. 10 de Just.,
+          <lb ed="#P" n="60"/>quaest. 3, art. 4, S Quod si quis ; et Victoria,
+          <lb ed="#P" n="61"/>Relect. de Potestate Ecclesiastic., ad 2. Ac 
+          de<lb break="no" ed="#P" n="62"/>nique D. Thomas et omnes, qui dicunt, per
+          <lb ed="#P" n="63"/>relasationem voti non dispensari in lege 
+          ser<lb break="no" ed="#P" n="64"/>vandi votum, sed auferri votum, idem dicunt.
+          <lb ed="#P" n="65"/>Solum posteriores Doctores magis declarant,
+          <lb ed="#P" n="66"/>ideo votum auferri posse, quia humana 
+          vo<lb break="no" ed="#P" n="67"/>luntate obligationem induxit.
+        </p>
+        <p xml:id="szovsr-m27142-d1e1136">
+          <lb ed="#P" n="68"/>14. Aliquae objectiones contra traditam 
+          doc<lb break="no" ed="#P" n="69"/>trinam. — Contra hanc vero responsionem
+          <lb ed="#P" n="70"/>objici potest ex Cano supra, ex illa sequi, 
+          vo<lb break="no" ed="#P" n="71"/>tum posse auferri per voluntatem voventis,
+          <lb ed="#P" n="72"/>quia res, per quas causas nascitur, per easdem
+          <lb ed="#P" n="73"/>dissolvi potest. E contrario vero objicit Azor,
+          <lb ed="#P" n="74"/>tom. 1, lib. 6, cap. 1, quaest. 4, quia inde 
+          se<lb break="no" ed="#P" n="75"/>quitur posse Pontificem suo arbitrio sine alia
+          <lb ed="#P" n="76"/>causa votum auferre. Sed revera neutrum 
+          se<lb break="no" ed="#P" n="77"/>quitur. Non quidem primum, quia non potest
+          <lb ed="#P" n="78"/>humana voluntas a se auferre obligationem
+          <lb ed="#P" n="79"/>quam sibi imposuit, acceptante alio, quia tunc
+          <lb ed="#P" n="80"/>jam alter acquisivit jus aliquod, ratione cujus
+          <lb ed="#P" n="81"/>sine ejus consensu vel superioris non potest
+          <lb ed="#P" n="82"/>auferri obligatio. Neque hic habet locum 
+          axio<lb break="no" ed="#P" n="83"/>ma illud : Per quas causas, etc., quia non est
+          <lb ed="#P" n="84"/>integra causa voluntas promittentis, sed etiam
+          <lb ed="#P" n="85"/>acceptantis. Praeterquam quod axioma illud
+          <lb ed="#P" n="86"/>suas habet exceptiones, ut in matrimonio,
+          <lb ed="#P" n="87"/>professione, etc., de quibus alibi. Nec etiam
+          <lb ed="#P" n="88"/>sequitur secundum, quia Pontifex non potest
+          <lb ed="#P" n="89"/>dissolvere pacta pro suo arbitrio, nec 
+          obliga<lb break="no" ed="#P" n="90"/>tionem humana voluntate inductam etiam
+          <lb ed="#P" n="91"/>inter homines, nedum inter hominem et
+          <lb ed="#P" n="92"/>Deum ; licet ergo habeat potestatem super
+          <lb ed="#P" n="93"/>hanc obligationem ex ea parte qua humana
+          <lb ed="#P" n="94"/>est. non sequitur esse potestatem quasi 
+          domi<lb break="no" ed="#P" n="95"/>nativam, ut sine causa operari possit.
+        </p>
+        <p xml:id="szovsr-m27142-d1e1200">
+          <lb ed="#P" n="96"/>15. Major superest difficultas, quia, licet
+          <lb ed="#P" n="97"/>obligatio voti ex parte hominis sit humana,
+          <lb ed="#P" n="98"/>ex parte Dei est divina, quatenus voluntas 
+          di<lb break="no" ed="#P" n="99"/>vina ad illam concurrit, acceptando illam, et
+          <lb ed="#P" n="100"/>suo modo acquirendo jus ratione illius, quod
+          <lb ed="#P" n="101"/>jus divinum non immerito dici potest ; ergo
+          <lb ed="#P" n="102"/>non potest homo in illa obligatione 
+          dispensa<lb break="no" ed="#P" n="103"/>re, etiam auferendo illam, quin dispenset in
+          <lb ed="#P" n="104"/>jure divino. Secundo augetur difficultas, quia
+          <lb ed="#P" n="105"/>ad dissolvendum pactum duabus 
+          voluntati<lb break="no" ed="#P" n="106"/>bus contractum, necessarium est ut vel illa
+          <lb ed="#P" n="107"/>duae voluntates consentiant, vel ut voluntas,
+          <lb ed="#P" n="108"/>quae illud dissoivit, superior sit utrisque ; sed
+          <lb ed="#P" n="109"/>in voto consurgit obligatio, voluntate humana
+          <lb ed="#P" n="110"/>concurrente ut promittente, et divina ut acce-
+          <pb ed="#P" n="1087"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ptante ; ergo non potest sola voluntas Praelati,
+          <lb ed="#P" n="2"/>quae humana est, obligationem illam auferre,
+          <lb ed="#P" n="3"/>cum sit inferior voluntate divina. Tertio , lex
+          <lb ed="#P" n="4"/>ipsa naturalis, quae dietat ut vota reddantur,
+          <lb ed="#P" n="5"/>dictat ut immutabilia permaneant, quia hoc
+          <lb ed="#P" n="6"/>ipsum includitur in promissione ; ergo non
+          <lb ed="#P" n="7"/>potest votum ipsum auferri, quin dispensetur
+          <lb ed="#P" n="8"/>in ipsa lege naturali reddendi vota.
+        </p>
+        <p xml:id="szovsr-m27142-d1e1257">
+          <lb ed="#P" n="9"/>16. Pontifex, seu Praelatus dispensando in
+          <lb ed="#P" n="10"/>votis, Dei vicem gerit remittendo obligationem
+          <lb ed="#P" n="11"/>Deo factam. — Quapropter necessarium est
+          <lb ed="#P" n="12"/>dicere, in hac voti ablatione concurrere 
+          Pon<lb break="no" ed="#P" n="13"/>tificem seu Praelatum ex parte Dei, 
+          remitten<lb break="no" ed="#P" n="14"/>do obligationem Deo factam, et declarando
+          <lb ed="#P" n="15"/>sibi esse placitum, ut non servetur ; nam alia
+          <lb ed="#P" n="16"/>ratione non posser talis obligatio auferri, aut
+          <lb ed="#P" n="17"/>pactum dissolvi, ut ultimae rationes mihi 
+          pro<lb break="no" ed="#P" n="18"/>bant, et praesertim secunda. lllo autem modo
+          <lb ed="#P" n="19"/>Beri dissolutionem pacti, et extingui 
+          obliga<lb break="no" ed="#P" n="20"/>tionem facillimum est. Nam etiam inter 
+          ho<lb break="no" ed="#P" n="21"/>mines hoc modo tolluntur obligationes 
+          pro<lb break="no" ed="#P" n="22"/>missionum , et rex posset committere officiali
+          <lb ed="#P" n="23"/>suo, ut promissiones sibi factas relaxaret vel
+          <lb ed="#P" n="24"/>componeret ; ita ergo intelligere possumus 
+          fe<lb break="no" ed="#P" n="25"/>cisse Deum. Et tunc non dispensatur in jure
+          <lb ed="#P" n="26"/>divino, ut significat legem naturalem, in qua
+          <lb ed="#P" n="27"/>formaliter ac proprie dispensanda involvitur
+          <lb ed="#P" n="28"/>repugnantia contra naturalem honestatem.
+          <lb ed="#P" n="29"/>Sed est dispensatio in jure Deo acquisito per
+          <lb ed="#P" n="30"/>votum, quod suo modo ad factum pertinet,
+          <lb ed="#P" n="31"/>quatenus jus dicit actionem ad debitum, vel
+          <lb ed="#P" n="32"/>ut dicit lominium. Quomodo possunt homines
+          <lb ed="#P" n="33"/>dici dispensatores jurium, seu bonorum Dei,
+          <lb ed="#P" n="34"/>sicut a Paulo vocantur dispensatores 
+          mysterio<lb break="no" ed="#P" n="35"/>rum Dei, 4 Corinth. 4. Nam s1 possunt 
+          remit<lb break="no" ed="#P" n="36"/>tere peccata, quibus homo maxime efficitur
+          <lb ed="#P" n="37"/>debitor Dei, quid mirum quod possint 
+          remit<lb break="no" ed="#P" n="38"/>tere debita promissionum Dei? Hoc igitur 
+          mo<lb break="no" ed="#P" n="39"/>do votum mutare, non est contra legem 
+          na<lb break="no" ed="#P" n="40"/>turalem reddendi vota, quia lex illa solum 
+          pe<lb break="no" ed="#P" n="41"/>tit immutabilitatem in voluntate promittentis
+          <lb ed="#P" n="42"/>sine consensu promissarii, non autem illo 
+          con<lb break="no" ed="#P" n="43"/>sentiente, vel juri suo cedente per se, vel per
+          <lb ed="#P" n="44"/>Vicarium suum.
+        </p>
+        <p xml:id="szovsr-m27142-d1e1338">
+          <lb ed="#P" n="45"/>17. Instantia. — Solutio. — Solum potest
+          <lb ed="#P" n="46"/>videri, juxta hunc modum explicandi hanc
+          <lb ed="#P" n="47"/>voti ablationem, non esse dispensationem, sed
+          <lb ed="#P" n="48"/>remissionem debiti, sicut homo remittens 
+          de<lb break="no" ed="#P" n="49"/>bitum promittenti non dispensat. sed donat
+          <lb ed="#P" n="50"/>jus suum. Ex alio etiam capite videri potest
+          <lb ed="#P" n="51"/>haec non esse dispensatio, quia potius videtur
+          <lb ed="#P" n="52"/>abrogatio, quia cum votum sit privata lex,
+          <lb ed="#P" n="53"/>non potest tolli, quin omnino tollatur et 
+          abro<lb break="no" ed="#P" n="54"/>getur. Sed hac de nomine tantum sunt. Ad
+          <lb ed="#P" n="55"/>primum enim fateor hanc esse quamdam re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>missionem debiti nomine Dei factam, quae
+          <lb ed="#P" n="57"/>potest dici absolutio vel relaxatio, et ita 
+          tolli<lb break="no" ed="#P" n="58"/>tur quaestio de nomine; tamen, quia non
+          <lb ed="#P" n="59"/>Deus ipse immediate, sed per suum Vicarium,
+          <lb ed="#P" n="60"/>et quasi dispensatorem hanc facit 
+          remissio<lb break="no" ed="#P" n="61"/>nem, ideo merito dispensatio dicitur, eo vel
+          <lb ed="#P" n="62"/>maxime quod non vocatur dispensatio in
+          <lb ed="#P" n="63"/>praecepto, sed in voto; ex qua fit ut cesset 
+          obli<lb break="no" ed="#P" n="64"/>gatio praecepti reddendi vota, licet in ea non
+          <lb ed="#P" n="65"/>dispensetur. Ad secundum etiam concedi 
+          po<lb break="no" ed="#P" n="66"/>test hanc esse quamdam abrogationem voti,
+          <lb ed="#P" n="67"/>maxime quando totaliter aufertur : nam si ex
+          <lb ed="#P" n="68"/>parte auferatur, et ex parte relinquatur ( ut
+          <lb ed="#P" n="69"/>fieri potest ), magis retinebit modum 
+          dispen<lb break="no" ed="#P" n="70"/>sationis. Verumtamen , licet respectu ipsius
+          <lb ed="#P" n="71"/>personae, a qua votum aufertur, videatur haec
+          <lb ed="#P" n="72"/>esse voti abrogatio, tamcn respectu aliorum
+          <lb ed="#P" n="73"/>nabentium similia vota , a quibus non 
+          aufe<lb break="no" ed="#P" n="74"/>runtur, vocatur haec dispensatio, quia jugum
+          <lb ed="#P" n="75"/>castitatis , verbi gratia, ab uno aufertur, et
+          <lb ed="#P" n="76"/>non ab omnibus.
+        </p>
+        <p xml:id="szovsr-m27142-d1e1412">
+          <lb ed="#P" n="77"/>18. Unde constet in hominibus esse 
+          potesta<lb break="no" ed="#P" n="78"/>lem componendi pacta hominum cum ipso Deo.
+          <lb ed="#P" n="79"/>—lta ergo recte expeditur principalis 
+          difficul<lb break="no" ed="#P" n="80"/>tas de lege naturali : ut tamen plene et ex
+          <lb ed="#P" n="81"/>omni parte satisfactum sit, oportet exponere
+          <lb ed="#P" n="82"/>unde constet esse in hominibus hanc 
+          potesta<lb break="no" ed="#P" n="83"/>tem componendi pacta hominum cum Deo 
+          ip<lb break="no" ed="#P" n="84"/>so inita, aut unde trahat originem haec 
+          potes<lb break="no" ed="#P" n="85"/>tas. Nam, licet ratio in principio facta 
+          osten<lb break="no" ed="#P" n="86"/>dat necessitatem hujus potestatis, et ususa
+          <lb ed="#P" n="87"/>posteriori illam comprobet, a priori oportet
+          <lb ed="#P" n="88"/>ostendere unde fieri potuerit. Ad quod dico
+          <lb ed="#P" n="89"/>hanc potestatem in lege evangelica 
+          superna<lb break="no" ed="#P" n="90"/>turalem esse, et a Christo ipso datam. Nam
+          <lb ed="#P" n="91"/>quod dari ab ipso potuerit, manifestum est;
+          <lb ed="#P" n="92"/>quod autem data sit, ex verbis Christi supra
+          <lb ed="#P" n="93"/>adductis habemus. Nam, licet in illis non fiat
+          <lb ed="#P" n="94"/>specialis mentio hujus potestatis, in absoluto
+          <lb ed="#P" n="95"/>verbo pasce, et in universali distributione,
+          <lb ed="#P" n="96"/>Quodcumque solveris, etc., sufficienter 
+          conti<lb break="no" ed="#P" n="97"/>netur. Nam etiam ibi non explicatur in 
+          parti<lb break="no" ed="#P" n="98"/>culari potestas concedendi indulgentias, et
+          <lb ed="#P" n="99"/>dispensandi merita et satisfactiones Christi, et
+          <lb ed="#P" n="100"/>similes, quae in generali clausula censentur
+          <lb ed="#P" n="101"/>concessae, tum propter proprietatem et vim
+          <lb ed="#P" n="102"/>verborum ; tum propter eminentem Christi
+          <lb ed="#P" n="103"/>potestatem ix calo et in terra, quam 
+          largis<lb break="no" ed="#P" n="104"/>sime suo Vicario communicavii, tum 
+          ma<lb break="no" ed="#P" n="105"/>xime propter Ecclesiae traditionem, quae ita
+          <lb ed="#P" n="106"/>sensum illorum verborum explicuit ; tum 
+          de<lb break="no" ed="#P" n="107"/>nique quia maxime congruebat ad 
+          perfectio<lb break="no" ed="#P" n="108"/>nem spiritualem Ecclesiae Christi; ergo 
+          ea<lb break="no" ed="#P" n="109"/>dem rauone comprehensa est ibi haec 
+          potes<lb break="no" ed="#P" n="110"/>tas, quia est eadem necessitas, et eadem tra-
+          <pb ed="#P" n="1088"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ditio Ecclesiae declarat ibi esse 
+          comprehen<lb break="no" ed="#P" n="2"/>sam.
+        </p>
+        <p xml:id="szovsr-m27142-d1e1497">
+          <lb ed="#P" n="3"/>19. An potestas dispensandi in votis sit de
+          <lb ed="#P" n="4"/>jJure nature in republica christiana. — An
+          <lb ed="#P" n="5"/>fuerit eadem potestas in tempore legis scriptae,
+          <lb ed="#P" n="6"/>in republica Hebraeorum. — Hic vero 
+          occurre<lb break="no" ed="#P" n="7"/>bat dubium, an haec potestas dispensandi in
+          <lb ed="#P" n="8"/>volis sit aliquo modo in republica christiana
+          <lb ed="#P" n="9"/>de jure naturae, ita ut, seclusa speciali Christi
+          <lb ed="#P" n="10"/>institutione, esset in tempore legis naturalis,
+          <lb ed="#P" n="11"/>in quo erat verus cultus Dei, et fiebant vota.
+          <lb ed="#P" n="12"/>Imo etiam de pura natura sola ratione 
+          natu<lb break="no" ed="#P" n="13"/>rali ducta idem interrogari potest. Quia sicut
+          <lb ed="#P" n="14"/>in natura ratione ducta posset esse religio ad
+          <lb ed="#P" n="15"/>Deum, ita posset etiam esse votum et 
+          promis<lb break="no" ed="#P" n="16"/>sio, et consequenter esset etiam potestas 
+          dis<lb break="no" ed="#P" n="17"/>pensandi in votis, quando expediret. Nam 
+          ra<lb break="no" ed="#P" n="18"/>tio supra facta. quae ostendit necessitatem 
+          hu<lb break="no" ed="#P" n="19"/>jus dispensationis, naturalis est; ergo et 
+          po<lb break="no" ed="#P" n="20"/>testas videtur esse naturalis, quia Deus, etiam
+          <lb ed="#P" n="21"/>ut auctor natura,, non deest in necessaris.
+          <lb ed="#P" n="22"/>Neque hoc posito sequitur tupc etiam 
+          potes<lb break="no" ed="#P" n="23"/>tatem Ecclesiae esse naturalem, quia 
+          simpli<lb break="no" ed="#P" n="24"/>citer est superioris ordibis, et longe major et
+          <lb ed="#P" n="25"/>excellentior, et non est, nisi in his, in quibus
+          <lb ed="#P" n="26"/>Christus illam contult, et successoribus 
+          eo<lb break="no" ed="#P" n="27"/>rum. Át vero stando in puranatura, esse 
+          pos<lb break="no" ed="#P" n="28"/>set immediate in republica, seu communitate
+          <lb ed="#P" n="29"/>humana, et per illam dari posset alicui 
+          ma<lb break="no" ed="#P" n="30"/>gistratui, vel sacerdoti ad hoc a republica 
+          de<lb break="no" ed="#P" n="31"/>putato, qui ordo naturalis nunc cessavit, quia
+          <lb ed="#P" n="32"/>Deus elevavit illum ad superiorem ordinem.
+          <lb ed="#P" n="33"/>Unde etiam dubitari potest an in republica
+          <lb ed="#P" n="34"/>Hehraeorum fuerit similis potestas tempore 
+          le<lb break="no" ed="#P" n="35"/>gis scriptae, quae esset, vel eadem quae antea
+          <lb ed="#P" n="36"/>erat, applicata ad illum statum, juxta modum
+          <lb ed="#P" n="37"/>ejus, vel esset specialiter a Deo concessa 
+          Pon<lb break="no" ed="#P" n="38"/>tificibus illius populi ab ipso institutis. Quod
+          <lb ed="#P" n="39"/>videtur posse verisimiliter colligi ex illo 
+          Deu<lb break="no" ed="#P" n="40"/>teron. 17: Si difficile atque ambiguum 
+          judi<lb break="no" ed="#P" n="41"/>cium esse perspexeris, etc., surge, el ascende
+          <lb ed="#P" n="42"/>ad locum quem elegerit Dominus Deus tuus;
+          <lb ed="#P" n="43"/>et infra: E facies quodcumque dixerint qui
+          <lb ed="#P" n="44"/>praesunt loco quem elegerit Dowinus.
+        </p>
+        <p xml:id="szovsr-m27142-d1e1591">
+          <lb ed="#P" n="45"/>20. Sed in his dubiis nihil certi statuere
+          <lb ed="#P" n="46"/>possumus, quia magna ex parte pendent ex
+          <lb ed="#P" n="47"/>divina revelatione, per quam ejus 
+          beneplaci<lb break="no" ed="#P" n="48"/>tum circa vota illi facta innotescat. Et idco in
+          <lb ed="#P" n="49"/>pura natura difficile creditu est, futuram fuisse
+          <lb ed="#P" n="50"/>hanc potestatem, quasi proprietatem 
+          conse<lb break="no" ed="#P" n="51"/>quentem naturain, sicut esset potestas 
+          guber<lb break="no" ed="#P" n="52"/>nandi rempublicam, tam in politicis, quam in
+          <lb ed="#P" n="53"/>his quae ad religionem pertinent. Nam cum
+          <lb ed="#P" n="54"/>dispensatio includat interpretauonem 
+          volun<lb break="no" ed="#P" n="55"/>tatis Dei quasi remitteniis debitum, in tali vel
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tali casu, in quo ipsa obligatio per se, ac 
+          se<lb break="no" ed="#P" n="57"/>clusa dispensatione, non cessaret, vix credi
+          <lb ed="#P" n="58"/>potest pctestatem ad talem declarationem 
+          fa<lb break="no" ed="#P" n="59"/>ciendam sequ ex vi solius naturae. Quis enim
+          <lb ed="#P" n="60"/>potest per rationem naturalem declarare 
+          be<lb break="no" ed="#P" n="61"/>neplacitum Dei, vel quomodo constare posset
+          <lb ed="#P" n="62"/>consensuram divinam voluntatem in 
+          remis<lb break="no" ed="#P" n="63"/>sione debiti cum hominis arbitrio? Ut enim
+          <lb ed="#P" n="64"/>nobis constaret, necessarium fuit ut Christus
+          <lb ed="#P" n="65"/>dixerit, soluta fore in coelis, quae Petrus 
+          solve<lb break="no" ed="#P" n="66"/>ret. At per rationem nihil tale vel simile
+          <lb ed="#P" n="67"/>etiam quoad aliquam participationem cogitavi
+          <lb ed="#P" n="68"/>poterat. Igitur si in illo statu essent vota, 
+          ser<lb break="no" ed="#P" n="69"/>vanda essent, donec tanta fieret mutatio 
+          re<lb break="no" ed="#P" n="70"/>rum, ut eorum obligatio cessaret, juxta 
+          regu<lb break="no" ed="#P" n="71"/>lam supra positam cum proportione 
+          applica<lb break="no" ed="#P" n="72"/>tam. Et licet hoc jugum esset grave et 
+          diffi<lb break="no" ed="#P" n="73"/>cile ad observandum, tamen imperfectio 
+          na<lb break="no" ed="#P" n="74"/>turae humanae, sibi relictae, his et majoribus
+          <lb ed="#P" n="75"/>difficultatibus subjecta est, quibus per gratiam
+          <lb ed="#P" n="76"/>Christi subventum est.
+        </p>
+        <p xml:id="szovsr-m27142-d1e1666">
+          <lb ed="#P" n="77"/>21. Unde si forte in lege naturae inter 
+          fide<lb break="no" ed="#P" n="78"/>les, vel in lege scripta fuit aliquis usus hujus
+          <lb ed="#P" n="79"/>potestatis (quod mihi est incertum), 
+          creden<lb break="no" ed="#P" n="80"/>dum est per revelationem incepisse, et 
+          super<lb break="no" ed="#P" n="81"/>naturaliter fuisse concessum, et sic per 
+          tradi<lb break="no" ed="#P" n="82"/>tionem ad posteros manasse. Nam in illis 
+          sta<lb break="no" ed="#P" n="83"/>tibus fuisse simiiia supernaturalia dona 
+          con<lb break="no" ed="#P" n="84"/>venientia ad spivituale regimen et ad cultum
+          <lb ed="#P" n="85"/>Dei, improbabile non est, licet incertum, ut
+          <lb ed="#P" n="86"/>dixi. Denique his addere oportet, omnia quae
+          <lb ed="#P" n="87"/>dicta sunt de potestate dispensandi, a fortiori
+          <lb ed="#P" n="88"/>habere locum in potestate commutandi, quae
+          <lb ed="#P" n="89"/>minor est, ut latius dicemus in cap. 11. Quod
+          <lb ed="#P" n="90"/>intelligo quoad commutationem, quae requirit
+          <lb ed="#P" n="91"/>Praelati auctoritatem; nam si aliqua sine illa
+          <lb ed="#P" n="92"/>fieri potest, alia est ejus ratio, ut infra 
+          videbi<lb break="no" ed="#P" n="93"/>mus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

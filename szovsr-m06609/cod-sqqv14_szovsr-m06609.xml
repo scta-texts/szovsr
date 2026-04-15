@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="265"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m06609"><!-- t4l4c1 -->
+        <head xml:id="szovsr-m06609-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-m06609-Hd1e103" type="question-title">Quam sit antiqua in ecclesia et per se honesta oratio, quae chorus ecclesiasticus appellatur.</head>
+        <p xml:id="szovsr-m06609-d1e106">
+          <lb ed="#P" n="30"/>CAPUT I.
+          <lb ed="#P" n="31"/>QUAM SIT ANTIQUA IN ECCLESIA ET PER SE HONESTA
+          <lb ed="#P" n="32"/>ORATIO, QUAE CHORUS ECCLESIASTICUS 
+          APPELLA<lb break="no" ed="#P" n="33"/>TUR.
+        </p>
+        <p xml:id="szovsr-m06609-d1e117">
+          <lb ed="#P" n="34"/>1. Prima suppositio : honestum est et 
+          san<lb break="no" ed="#P" n="35"/>ctum orationes fundere etiam extra missam. —
+          <lb ed="#P" n="36"/>Duobus modis solita est fieri haec oratio in
+          <lb ed="#P" n="37"/>Ecclesia: primo, in missa, quasi conjungendo
+          <lb ed="#P" n="38"/>banc actionem cum ipso sacrificio ad illius
+          <lb ed="#P" n="39"/>majorem reverentiam et ornatum; secundo,
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="40"/>extra sacrificium, tantum ipsius orationis
+          <lb ed="#P" n="41"/>gratia, ad postulandum aliquid a Deo, ipsive
+          <lb ed="#P" n="42"/>gratias agendum, aut laudandum ipsum. De
+          <lb ed="#P" n="43"/>priori modo dixi in 3 tom. tertiae part., disp.
+          <lb ed="#P" n="44"/>85, sect. 1, ubi in hunc locum remisi ea, quae
+          <lb ed="#P" n="45"/>pertinent ad alias orationes publicas extra
+          <lb ed="#P" n="46"/>missam, quod implendum nunc est. Suppono
+          <lb ed="#P" n="47"/>autem sanctum esse hujusmodi orationes ad
+          <lb ed="#P" n="48"/>Deum fundere extra missae sacrificium, quia
+          <lb ed="#P" n="49"/>oratio per se est actio bona et honesia, et
+          <lb ed="#P" n="50"/>non habet necessariam connexionem cum
+          <lb ed="#P" n="51"/>sacrificio, potestque saepius in die vel nocte
+          <lb ed="#P" n="52"/>fieri, etiam quando non est tempus sacrificii.
+          <lb ed="#P" n="53"/>Et ita constat in antiquo templo et lege fuisse
+          <lb ed="#P" n="54"/>consuetudinem orandi variis horis, in quibus
+          <lb ed="#P" n="55"/>non offerebantur sacrificia, ut colligitur ex illo
+          <lb ed="#P" n="56"/>Act. 3: Ad horam orationis nonam, et infra 
+          la<lb break="no" ed="#P" n="57"/>tius dicemus. Et Christus Dominus, licet in
+          <lb ed="#P" n="58"/>offerendo sacrificio suo, tam cruento quam
+          <lb ed="#P" n="59"/>incruento, multiplicem orationem miscuerit,
+          <lb ed="#P" n="60"/>et internam ac mentalem, et publicam ac 
+          vo<lb break="no" ed="#P" n="61"/>calem, etiam cum clamore valido, tamen ante
+          <lb ed="#P" n="62"/>illud sacrificium saepius oravit, et nocte 
+          coe<lb break="no" ed="#P" n="63"/>nae, illa jam finita, hymnum cum discipulis
+          <lb ed="#P" n="64"/>dixit, quod erat orationis genus; et postea in
+          <lb ed="#P" n="65"/>horto oravit, ubi saepius cum discipulis ad
+          <lb ed="#P" n="66"/>orandum, et non ad sacrificandum, convenire
+          <lb ed="#P" n="67"/>solebat, ut Joannes, cap. 18, refert. 
+          Consue<lb break="no" ed="#P" n="68"/>tudo ergo orandi seepius extra sacrificium
+          <lb ed="#P" n="69"/>per se honesta, antiqua et laudabilis est.
+        </p>
+        <p xml:id="szovsr-m06609-d1e200">
+          <lb ed="#P" n="70"/>2. Secunda suppositio : facta a tota aliqua
+          <lb ed="#P" n="71"/>communitate est Deo gratissima. — Secundo,
+          <lb ed="#P" n="72"/>suppono orationem in communi factam a tota
+          <lb ed="#P" n="73"/>aliqua communitate, vel populo, sanctam,
+          <lb ed="#P" n="74"/>et Deo gratissimam esse, ideoque merito ab
+          <lb ed="#P" n="75"/>Ecclesia servatam, et more receptam 
+          fuis<lb break="no" ed="#P" n="76"/>se. Omitto haereticos, qui circa hanc 
+          oratio<lb break="no" ed="#P" n="77"/>nem errarunt, quia nullus absolute videtur
+          <pb ed="#P" n="266"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illam negasse, sed quoad aliquas speciales
+          <lb ed="#P" n="2"/>circumstantias, de quibus in sequentibus 
+          ca<lb break="no" ed="#P" n="3"/>pitibus dicendum est. Haec ergo veritas facile
+          <lb ed="#P" n="4"/>persuadetur, quia si unius personae 
+          singula<lb break="no" ed="#P" n="5"/>ris oratio multum valet apud Deum, si multi
+          <lb ed="#P" n="6"/>eodem spiritu et actu orationis conveniant,
+          <lb ed="#P" n="7"/>sine dubio gratior erit et potentior eorum
+          <lb ed="#P" n="8"/>oratio; et ideo de antiquis Christianis 
+          legi<lb break="no" ed="#P" n="9"/>mus , quod statim post Christi ascensum,
+          <lb ed="#P" n="10"/>erant perseverantes unanimiler in oratione,
+          <lb ed="#P" n="11"/>vel in Coenaculo ante Spiritus Sancti 
+          adven<lb break="no" ed="#P" n="12"/>tum, Actor. 1, vel in templo post adventum
+          <lb ed="#P" n="13"/>Spiritus Sancti, et inchoatam praedicationem
+          <lb ed="#P" n="14"/>Apostolorum, et conversionem Christianorum,
+          <lb ed="#P" n="15"/>Actor. 2; unde Chrysost., hom. 79 ad 
+          Popu<lb break="no" ed="#P" n="16"/>lum : Quid hac (inquit) oratione Ecclesie 
+          poten<lb break="no" ed="#P" n="17"/>tius, qug columnam et Ecclesie turrim 
+          adju<lb break="no" ed="#P" n="18"/>vit? et infra: Magna vis est orationis in 
+          Hccle<lb break="no" ed="#P" n="19"/>sia concorditer a populo oblate ; et infra: Ft
+          <lb ed="#P" n="20"/>domi quidem orari potest, sic autem ut in 
+          Ec<lb break="no" ed="#P" n="21"/>clesia non potest, ubi tanta Patrum 
+          multitu<lb break="no" ed="#P" n="22"/>do, ubi clamor ad Dewn unanimiter emittitur.
+          <lb ed="#P" n="23"/>Jon ita a Domino per te solus orans audiris,
+          <lb ed="#P" n="24"/>ut cum fratribus. Hic enim majus aliquid est,
+          <lb ed="#P" n="25"/>puta, unanimitas, et consonantia, charitatisque
+          <lb ed="#P" n="26"/>vinculum, et sacerdotum orationes. Est ergo
+          <lb ed="#P" n="27"/>oratio communitatis optima, et caeteris 
+          pari<lb break="no" ed="#P" n="28"/>bus efficacior, quia ex majori charitate 
+          proce<lb break="no" ed="#P" n="29"/>dit. Et quia circumstantia personae petentis
+          <lb ed="#P" n="30"/>multum ad ;orationem confert, communitas
+          <lb ed="#P" n="31"/>autem habet peculiarem quamdam 
+          dignita<lb break="no" ed="#P" n="32"/>tem, ratione cujus commune bonum divinius
+          <lb ed="#P" n="33"/>censetur. Et quia ubi multi concurrunt, unus
+          <lb ed="#P" n="34"/>ab alio juvatur, et imperfectionem unius alius
+          <lb ed="#P" n="35"/>supplet, et ita oratio evadit, vel omnibus 
+          nu<lb break="no" ed="#P" n="36"/>meris absoluta, vel certe perfectior. Denique
+          <lb ed="#P" n="37"/>quia talis oratio habet a Christo specialem
+          <lb ed="#P" n="38"/>promissionem, ut statim dicam.
+        </p>
+        <p xml:id="szovsr-m06609-d1e308">
+          <lb ed="#P" n="39"/>3. Primus modus quo a communitate fieri
+          <lb ed="#P" n="40"/>potest oratio. — Duobus autem modis intelligi
+          <lb ed="#P" n="41"/>potest orationem fieri a communitate : primo,
+          <lb ed="#P" n="42"/>quia multi simul ad orandum conveniunt,
+          <lb ed="#P" n="43"/>unusquisque auten per se orat, quasi 
+          priva<lb break="no" ed="#P" n="44"/>tim, nec habet cum oratione alterius aliam
+          <lb ed="#P" n="45"/>conjunctionem praeter concomitantiam 
+          tempo<lb break="no" ed="#P" n="46"/>ris, aut loci, vel materiae. Et talis oratio habet
+          <lb ed="#P" n="47"/>a Christo peculiarem promissionem, Matth.
+          <lb ed="#P" n="48"/>18: Iterum dico vobDis, quia si duo em vobis
+          <lb ed="#P" n="49"/>consenserint super terram de ommi re, 
+          quam<lb break="no" ed="#P" n="50"/>cunque petierint, fiet illis a Patre meo, qui in
+          <lb ed="#P" n="51"/>calis est. Et sub dit rationem: Ubi enim sunt
+          <lb ed="#P" n="52"/>duo, vel tres congregati in nomine aneo, ibi sum
+          <lb ed="#P" n="53"/>in aedio eorwmn. In quo promittit suum 
+          pecu<lb break="no" ed="#P" n="54"/>liare auxilium his, qui hoc spiritu ad orandum
+          <lb ed="#P" n="55"/>conveniunt. Oportet autem ut ille concursus
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sit ex intentione orantium, ad orandum 
+          con<lb break="no" ed="#P" n="57"/>venientium communi consensu. Nam si omni
+          <lb ed="#P" n="58"/>no casu contingat multos simul orare, erunt
+          <lb ed="#P" n="59"/>orationes plurium, non tamen erit oratio
+          <lb ed="#P" n="60"/>unius communitatis. Hic autem modus 
+          com<lb break="no" ed="#P" n="61"/>munis potest etiam in oratione mentali 
+          inve<lb break="no" ed="#P" n="62"/>niri, sicut patet in communitate religiosa, cujus
+          <lb ed="#P" n="63"/>persona omnes eadem hora ad sic orandum
+          <lb ed="#P" n="64"/>conveniunt, ex communi ritu et consensu.
+          <lb ed="#P" n="65"/>Ideoque ad hunc modum communis orationis,
+          <lb ed="#P" n="66"/>per se necessarium non est ut omnes, qui sic
+          <lb ed="#P" n="67"/>orant, in eodem loco communi proxime 
+          con<lb break="no" ed="#P" n="68"/>veniant, sed esse possunt in eadem domo, et
+          <lb ed="#P" n="69"/>diversis cellis, imo etiam in diversis domibus
+          <lb ed="#P" n="70"/>et populis esse possunt, et per modum unius
+          <lb ed="#P" n="71"/>corporis mystici eadem hora ad orandum, vel
+          <lb ed="#P" n="72"/>mentaliter, vel vocaliter convenire. Quae 
+          qui<lb break="no" ed="#P" n="73"/>dem oratio etiam est optima, et caeteris 
+          pari<lb break="no" ed="#P" n="74"/>bus erit etiam potentior et efficacior quam
+          <lb ed="#P" n="75"/>oratio singulorum, praesertim si ad idem 
+          pos<lb break="no" ed="#P" n="76"/>tulandum simul ab omnibus offeratur: 
+          talis<lb break="no" ed="#P" n="77"/>que videtur fuisse oratio fidelium, quando
+          <lb ed="#P" n="78"/>unanimiter in templo orabant, Act. 2, quia in
+          <lb ed="#P" n="79"/>illo templo non poterant eo modo 
+          communi<lb break="no" ed="#P" n="80"/>ter orare, quo postea orabant in templis 
+          Chris<lb break="no" ed="#P" n="81"/>lianorum, cujus inchoatio quaedam in 4 cap.
+          <lb ed="#P" n="82"/>Act. conspicitur, ut mox dicemus. De hoc 
+          igi<lb break="no" ed="#P" n="83"/>tur modo communis orationis nihil hic addere
+          <lb ed="#P" n="84"/>necesse est, praeter dicta in lib. praeceden.,
+          <lb ed="#P" n="85"/>quia revera talis oratio per se privata est, et
+          <lb ed="#P" n="86"/>per accidens communis: neque habet illam
+          <lb ed="#P" n="87"/>perfectam unitatem mysticam, quam oratio
+          <lb ed="#P" n="88"/>communitatis habere potest, quia multi sic
+          <lb ed="#P" n="89"/>orantes non fundunt omnes et singuli unum
+          <lb ed="#P" n="90"/>et eumdem orationis actum, et ita per se 
+          lo<lb break="no" ed="#P" n="91"/>quendo non possunt per modum unius 
+          con<lb break="no" ed="#P" n="92"/>currere ad eamdem petitionem.
+        </p>
+        <p xml:id="szovsr-m06609-d1e430">
+          <lb ed="#P" n="93"/>4. Secundus modus, quo a communitate 
+          ora<lb break="no" ed="#P" n="94"/>Lio potest fieri. — Alio ergo modo fieri potest
+          <lb ed="#P" n="95"/>oratio a communitate, quia una oratio 
+          fundi<lb break="no" ed="#P" n="96"/>tur in persona omnium, ita ut omnes orent
+          <lb ed="#P" n="97"/>ut membra illius communitatis, et oratio ab
+          <lb ed="#P" n="98"/>omnibus fundatur, singulis partialiter aliquo
+          <lb ed="#P" n="99"/>modo concurrentibus, etiamsi non omnes
+          <lb ed="#P" n="100"/>aeque loquantur, vel eumdem modum actionis
+          <lb ed="#P" n="101"/>exerceant, sed quidam loquantur, alii adsint
+          <lb ed="#P" n="102"/>et consentiant, aut alio modo cooperentur.
+          <lb ed="#P" n="103"/>Et haec est propriissima unius communitatis
+          <lb ed="#P" n="104"/>oratio, talemque videtur describere Tertull.,
+          <lb ed="#P" n="105"/>in Apolog., cap. 39. dicens: Corpus sumus de
+          <lb ed="#P" n="106"/>conscientia religionis, et discipline unitate,
+          <lb ed="#P" n="107"/>et spei federe ; conoenimus in caetum et 
+          congre<lb break="no" ed="#P" n="108"/>gationem, ut Deum quasi munn facta 
+          precatio<lb break="no" ed="#P" n="109"/>nibus ambiamus orantes : hec vis Deo grata
+          <lb ed="#P" n="110"/>est. Quibus verbis eleganter explicat hanc
+          <pb ed="#P" n="267"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>communem orationem quasi uno ore et uno
+          <lb ed="#P" n="2"/>spiritu a tota communitate offerri. Exemplum
+          <lb ed="#P" n="3"/>optimum est Act. 4, ubi redeuntibus 
+          Aposto<lb break="no" ed="#P" n="4"/>lis a concilio Pharisaeorum ad caetum 
+          fide<lb break="no" ed="#P" n="5"/>lium, et narrantibus illis quomodo eos 
+          dimi<lb break="no" ed="#P" n="6"/>sissent, quidque illis comminati fuissent, 
+          sub<lb break="no" ed="#P" n="7"/>ditur: Qui cum audissent, unanimiter 
+          levave<lb break="no" ed="#P" n="8"/>runt cocem ad Deumn, et diverunt : Domine, tu
+          <lb ed="#P" n="9"/>es qui fecisti ceelum et terram, etc., ubi non 
+          so<lb break="no" ed="#P" n="10"/>lum corda, sed etiam vocem ad Deum 
+          ele<lb break="no" ed="#P" n="11"/>vasse significantur, ut notat Lyra, etindicat
+          <lb ed="#P" n="12"/>Chrysostom. , et proprietas verbi postulat;
+          <lb ed="#P" n="13"/>nam solus internus affectus non dicitur 
+          pro<lb break="no" ed="#P" n="14"/>prie vocis elevatio. Praesertim quia verba 
+          om<lb break="no" ed="#P" n="15"/>nia, quae ibi referuntur, fuerunt tunc, ab 
+          Ec<lb break="no" ed="#P" n="16"/>clesia ibi coacta, una voce prolata. Igitur non
+          <lb ed="#P" n="17"/>tantum communi voluntatum consensu, sed
+          <lb ed="#P" n="18"/>etiam quasi uno ore idem omnino precati
+          <lb ed="#P" n="19"/>sunt, quod non sine miraculo accidisse pie
+          <lb ed="#P" n="20"/>Carthusianus et alii considerant. Unde illa
+          <lb ed="#P" n="21"/>oratio tantam habuit vim apud Deum, ut ejus
+          <lb ed="#P" n="22"/>efficacia statim visibili signo commotionis 
+          to<lb break="no" ed="#P" n="23"/>tius domus, et fervoris praedicatorum 
+          Evange<lb break="no" ed="#P" n="24"/>Iii, manifestata fuerit.
+        </p>
+        <p xml:id="szovsr-m06609-d1e528">
+          <lb ed="#P" n="25"/>5. Unica assertio - Chorus ecclesiasticus est
+          <lb ed="#P" n="26"/>sanctus, et a divino spiritu introductus.—
+          Pro<lb break="no" ed="#P" n="27"/>batur ea sacre Scripturae testimoniis. — Dico
+          <lb ed="#P" n="28"/>ergo, chorum ecclesiasticum, in quo publica
+          <lb ed="#P" n="29"/>et communes orationes a christiano populo
+          <lb ed="#P" n="30"/>seu illius nomine fiunt, sanctum esse, et 
+          Spi<lb break="no" ed="#P" n="31"/>ritus Sancti instinctu in Ecclesia introductum,
+          <lb ed="#P" n="32"/>ut antiquissima et universalis traditio 
+          osten<lb break="no" ed="#P" n="33"/>dit. Haec doctrina de fide certa est, quae satis
+          <lb ed="#P" n="34"/>probatur ex Ecclesig universali consensu,
+          <lb ed="#P" n="35"/>quae in re tam gravi errare non potest. 
+          Anti<lb break="no" ed="#P" n="36"/>quitas etiam hujus traditionis ostenditur,
+          <lb ed="#P" n="37"/>nam in Actibus Apostolorum habemus hujus
+          <lb ed="#P" n="38"/>consuetudinis initia, ut jam notatum est. 
+          In<lb break="no" ed="#P" n="39"/>sinuatur etiam a Paulo, 1 ad Cor. 14, ubi ex
+          <lb ed="#P" n="40"/>professo tractat de ecclesiasticis conventibus,
+          <lb ed="#P" n="41"/>qui tunc fieri solebant, et significat non tantum
+          <lb ed="#P" n="42"/>ad sacrificium offerendum, et ad doctrinam,
+          <lb ed="#P" n="43"/>vel concionem habendam, sed etiam ad 
+          com<lb break="no" ed="#P" n="44"/>munes orationes, et laudes Dei solitos esse
+          <lb ed="#P" n="45"/>frequentari, et solere unum loco omnium 
+          gra<lb break="no" ed="#P" n="46"/>tias agere, et alios annuere, ac respondere
+          <lb ed="#P" n="47"/>Amen, unde inter alia ait: Si benediseris 
+          spi<lb break="no" ed="#P" n="48"/>ritu, id est, ita ut ab aliis non intelligaris, qui
+          <lb ed="#P" n="49"/>supplet (id est, tenet) locum idiotee, quomodo
+          <lb ed="#P" n="50"/>dice, Amen, nam tu quidem bene gratias agis,
+          <lb ed="#P" n="51"/>sed alter non edificatur. De quibus verbis 
+          vi<lb break="no" ed="#P" n="52"/>deri possunt, quae in 3 tom. 3 part. diximus,
+          <lb ed="#P" n="53"/>disp. 83, sect. 1; et infra: Cum convenitis,
+          <lb ed="#P" n="54"/>wnusquisque vestrum psalmum habet, etc. Et
+          <lb ed="#P" n="55"/>concludit : Omnia honeste et secundum ordinem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fiant. Quae, ultima verba notanda sunt, nam
+          <lb ed="#P" n="57"/>ex eis habetur ad ecclesiasticam institutionem
+          <lb ed="#P" n="58"/>pertinere, haec omnia ordinare; unde recte
+          <lb ed="#P" n="59"/>colligitur, insolentissimee insaniee esse 
+          consue<lb break="no" ed="#P" n="60"/>tudinem Ecclesie in hujusmodi rebus 
+          improba<lb break="no" ed="#P" n="61"/>re, ut pie dixit Augustinus, Epist. 118.
+        </p>
+        <p xml:id="szovsr-m06609-d1e613">
+          <lb ed="#P" n="62"/>6. Potest etiam hoc colligi ex Paulo, ad
+          <lb ed="#P" n="63"/>Ephes. 5, dicente: Fmplemini Spyiritu Sancto,
+          <lb ed="#P" n="64"/>loquentes volismetipsis in psalmis, et hymnis,
+          <lb ed="#P" n="65"/>et canticis spiritualibus cantantes, et 
+          psallen<lb break="no" ed="#P" n="66"/>Les in cordibus vestris Domino, gratias agentes
+          <lb ed="#P" n="67"/>semper pro omnibus, in nomine Domini nostri
+          <lb ed="#P" n="68"/>Jesu Christi, Deo et Patri. Ubi non vocat 
+          spi<lb break="no" ed="#P" n="69"/>rituales canticos, quia spiritu tantum 
+          profe<lb break="no" ed="#P" n="70"/>rantur, sed quia spiritualem materiam 
+          conti<lb break="no" ed="#P" n="71"/>nent et significant; nec dicit, Psallentes in 
+          cor<lb break="no" ed="#P" n="72"/>dibus, ut vocem excludat, sed ut declaret illud
+          <lb ed="#P" n="73"/>esse praecipuum, et per se necessarium, etiam
+          <lb ed="#P" n="74"/>dum voce oratur, unde quod ait, loguentes 
+          vo<lb break="no" ed="#P" n="75"/>lismetipsis, Haimo ibi interpretatur, id est,
+          <lb ed="#P" n="76"/>invicem, seu alternatim, dum unus loquitur, et
+          <lb ed="#P" n="77"/>alius respondet. Sic etiam intelligi potest illud
+          <lb ed="#P" n="78"/>ad Colos. 3: Verbum Dei habitet in vobis 
+          abun<lb break="no" ed="#P" n="79"/>danter, in omni sapientia docentes, et 
+          commo<lb break="no" ed="#P" n="80"/>nentes vosmetipsos psalmis, hmnis, et canticis
+          <lb ed="#P" n="81"/>spiritualbus, in gratia cantantes in cordibus
+          <lb ed="#P" n="82"/>vestris Deo. Quae omnia possunt quidem 
+          intel<lb break="no" ed="#P" n="83"/>ligi de oratione privata et de mentali, et ita
+          <lb ed="#P" n="84"/>exponuntur frequenter, non tamen 
+          excludi<lb break="no" ed="#P" n="85"/>tur oratio vocalis, ut D. Thom. ibi notat: et
+          <lb ed="#P" n="86"/>videtur Paulus etiam loqui de oratione 
+          publi<lb break="no" ed="#P" n="87"/>ca totius Ecclesia ; nam etiam hoc modo 
+          ad<lb break="no" ed="#P" n="88"/>monet, ut verbum Dei abundet in christiano
+          <lb ed="#P" n="89"/>populo, non solum in doctrina, sed etiam in
+          <lb ed="#P" n="90"/>psalmodia et hymnis, et canticis 
+          spirituali<lb break="no" ed="#P" n="91"/>bus, quibus invicem excitemur ad 
+          devotio<lb break="no" ed="#P" n="92"/>nem, etc.
+        </p>
+        <p xml:id="szovsr-m06609-d1e683">
+          <lb ed="#P" n="93"/>7. Patrum auctoritate confirmatur. — 
+          Se<lb break="no" ed="#P" n="94"/>cundo principaliter constat haec traditio ex
+          <lb ed="#P" n="95"/>Patribus, Clemen., lib. 8, per totum, 
+          praeci<lb break="no" ed="#P" n="96"/>pue cap. 34: Precationes facite «ane, etc.,
+          <lb ed="#P" n="97"/>ubi horas canonicas numerat, ut infra 
+          videbi<lb break="no" ed="#P" n="98"/>mus; quod autem illa esset oratio publica et
+          <lb ed="#P" n="99"/>communis, patet ex his, quae subjungit : Quod
+          <lb ed="#P" n="100"/>si ad Ecclesiam prodire non licuerit propter
+          <lb ed="#P" n="101"/>infideles, congregabis, Episcope, in domo 
+          ali<lb break="no" ed="#P" n="102"/>qua, ne ingrediatur pius in ecclesiam 
+          impio<lb break="no" ed="#P" n="103"/>rum ; et infra: Quod si neque in domo, neque
+          <lb ed="#P" n="104"/>in ecclesia congregari poterunt, psallat sibi
+          <lb ed="#P" n="105"/>unusquisque, canat, oret, saltem duo simul,
+          <lb ed="#P" n="106"/>aut tres. Et infra ait, non debere fideles orare
+          <lb ed="#P" n="107"/>cum haeretico, imo nec cum catechumeno,
+          <lb ed="#P" n="108"/>quia nondum est Ecclesiae membrum ; 
+          suppo<lb break="no" ed="#P" n="109"/>nit ergo illam orationem esse communem
+          <lb ed="#P" n="110"/>unius corporis Ecclesie per membra sua et
+          <pb ed="#P" n="268"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ministros suos. Justin. Martyr., Apolog. 2
+          <lb ed="#P" n="2"/>pro Christianis, in fine, postquam usum 
+          ba<lb break="no" ed="#P" n="3"/>ptismi solemnis tradiderat, subdit: Nos 
+          au<lb break="no" ed="#P" n="4"/>tem, posteaquam ita abluimus , empiavimusque
+          <lb ed="#P" n="5"/>eun qui credidit, et assensus est, eum ad eos
+          <lb ed="#P" n="6"/>quà fratres dicuntur ducimus in eumn locum quo
+          <lb ed="#P" n="7"/>convenerunt comprecandi causa contentis 
+          ani<lb break="no" ed="#P" n="8"/>mis, et pro se, et pro eo qui ilustratus est, et
+          <lb ed="#P" n="9"/>pro omnibus aliis qui ubigue sunt. Et infra 
+          in<lb break="no" ed="#P" n="10"/>ter alia inquit: T'um surgimus omnes, ac 
+          com<lb break="no" ed="#P" n="11"/>precamur , conclusisque nostris precibus, panis,
+          <lb ed="#P" n="12"/>ut diai, vinumque et aqua offeruntur, eic.; ubi
+          <lb ed="#P" n="13"/>considerandum est verbum comprecandi, bis
+          <lb ed="#P" n="14"/>repetitum, nam recte declarat conjunctionem
+          <lb ed="#P" n="15"/>omnium ad unam orationem fundendam.
+        </p>
+        <p xml:id="szovsr-m06609-d1e761">
+          <lb ed="#P" n="16"/>8. Tertullianus. — Hoc etiam declaravit
+          <lb ed="#P" n="17"/>Tertull., in Apol., cap. 39, in verbis supra
+          <lb ed="#P" n="18"/>citatis: Corpus sumus de conscientia religionis,
+          <lb ed="#P" n="19"/>etc., convenimus in cotum, ut ad Deum quasi
+          <lb ed="#P" n="20"/>mannw facta, etc., id est, ut quasi uno ore et
+          <lb ed="#P" n="21"/>uno impetu vim faciamus; et similia sumi
+          <lb ed="#P" n="22"/>possunt ex eodem, libr. 2 ad Uxorem, c. 4 et
+          <lb ed="#P" n="23"/>5, ubi indicat fuisse consuetudinem Christiani
+          <lb ed="#P" n="24"/>populi convenire in Ecclesia, etiam noctu, ad
+          <lb ed="#P" n="25"/>communes orationes, quas nocturnas 
+          convo<lb break="no" ed="#P" n="26"/>cationes, seu vigilias appellat; et specialiter
+          <lb ed="#P" n="27"/>meminit solemnis pernoctationis in vigilia
+          <lb ed="#P" n="28"/>Paschae, cujus etiam est frequens mentio in
+          <lb ed="#P" n="29"/>Patribus, quos ibi refert Pamelius, et plura
+          <lb ed="#P" n="30"/>Durand., de hitib. Eccl., lib.2, c. 4, et videri
+          <lb ed="#P" n="31"/>potest Concil. Aquisgr., c. 130; et Isidor., lib.
+          <lb ed="#P" n="32"/>1 de Divin. off., cap. 22; deinde ad easdem
+          <lb ed="#P" n="33"/>publicas et communes orationes pertinet,
+          <lb ed="#P" n="34"/>quod idem Tertullianus refert in cap. 2 
+          Apo<lb break="no" ed="#P" n="35"/>loget., ex Plinio secundo in quadam Epist. ad
+          <lb ed="#P" n="36"/>Trajan., ubi de Christianis ait, preeter 
+          obsti<lb break="no" ed="#P" n="37"/>nationem non sacrificandi nihil aliud de sacris
+          <lb ed="#P" n="38"/>eorum comperisse, quam cetus antelucanos ad
+          <lb ed="#P" n="39"/>canendum Christo, et Deo, et ad 
+          confederan<lb break="no" ed="#P" n="40"/>dam disciplinam. Habetur haec Epistola apud
+          <lb ed="#P" n="41"/>Plin., lib. 10, Epist. 97, et ex utroque retulit
+          <lb ed="#P" n="42"/>Euseb., lib. 3 Histor. cap. 27, alias 32, et de
+          <lb ed="#P" n="43"/>eadem consuetudine videri potest Arnob.,
+          <lb ed="#P" n="44"/>lib. 1 Advers. Gent. ; Epiph., contra haeres.,
+          <lb ed="#P" n="45"/>lib. 3, in fine, ubi inter alia inquit : Matutini
+          <lb ed="#P" n="46"/>eliam hgmni in ipsa sancta Ecclesia perpetuo
+          <lb ed="#P" n="47"/>fiunt, et orationes matutinee. lucernalesque 
+          si<lb break="no" ed="#P" n="48"/>mul psalmi, atque orationes: et infra: Preces
+          <lb ed="#P" n="49"/>assidue inperat cum omni sedulitate, et 
+          proliai<lb break="no" ed="#P" n="50"/>tate, et geniculatione in ordinatis diebus, noctu,
+          <lb ed="#P" n="51"/>atque interdiu ad Deum fundere.
+        </p>
+        <p xml:id="szovsr-m06609-d1e843">
+          <lb ed="#P" n="52"/>9. Insigne vero testimonium est apud 
+          Ba<lb break="no" ed="#P" n="53"/>sil., Epist. 93, Apolog. ad Clerum Neocaesar.,
+          <lb ed="#P" n="54"/>ex qua sequentia verba referre judico 
+          op<lb break="no" ed="#P" n="55"/>portunum : Quid jam obtinuerunt ritus, omni-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bus Hcclesiis Dei concordes sunt, et consoni.
+          <lb ed="#P" n="57"/>De nocte siquidem populus consurgens, 
+          an<lb break="no" ed="#P" n="58"/>telucano tempore domum orationis petit, et in
+          <lb ed="#P" n="59"/>in labore, tribuatione, ac lacrymis 
+          indesi<lb break="no" ed="#P" n="60"/>nentibus facta ad Deum confessione, tandem
+          <lb ed="#P" n="61"/>ab oratione surgentes, ad psalmodiam 
+          insti<lb break="no" ed="#P" n="62"/>tuuntur, et uunc quidem fn duas partes divisi,
+          <lb ed="#P" n="63"/>alternis preecinentes psallunt, etc.; et infra:
+          <lb ed="#P" n="64"/>Illucescente jam die, pariter omnes velut uno
+          <lb ed="#P" n="65"/>ore et corde, confessionis psalmun Domino 
+          of<lb break="no" ed="#P" n="66"/>ferunt. Et infra vocat has vigilias ac preces
+          <lb ed="#P" n="67"/>communesque psalmodias, quas dicit fuisse
+          <lb ed="#P" n="68"/>apud omnes orientales Ecclesias in magno 
+          pre<lb break="no" ed="#P" n="69"/>tio. Favent ad hoc confirmandum verba 
+          Hie<lb break="no" ed="#P" n="70"/>ron., Epist. 84, ab Sabinian., circa medium:
+          <lb ed="#P" n="71"/>Tota Ecclesia nocturnis vigiliis Christum 
+          Do<lb break="no" ed="#P" n="72"/>minum personabat, et in diversarum gentium
+          <lb ed="#P" n="73"/>linguis unus in laudibus Dei spiritus 
+          concine<lb break="no" ed="#P" n="74"/>bat. Ad eamdem consuetudinem alludit 
+          Au<lb break="no" ed="#P" n="75"/>gust., Serm. 251 de Tempore, dicens: 
+          pe<lb break="no" ed="#P" n="76"/>niant ergo quicumque possilile sit, ad 
+          vesperti<lb break="no" ed="#P" n="77"/>na atque nocturnam celebrationem, et oret
+          <lb ed="#P" n="78"/>ibi in conventu ecclesice pro peccatis suis Deum.
+          <lb ed="#P" n="79"/>Idem, libr. 50 homil., in 26, et libr. 9 
+          Con<lb break="no" ed="#P" n="80"/>fess., cap. 7, cujus verba infra, cap. 4, 
+          refe<lb break="no" ed="#P" n="81"/>ram, ubi alia Patrum adjungam testimonia :
+          <lb ed="#P" n="82"/>nam omnia, quae de antiquitate horarum 
+          ca<lb break="no" ed="#P" n="83"/>nonicarum et cantus ecclesiastici dicenda
+          <lb ed="#P" n="84"/>sunt, hanc veritatem confirmant.
+        </p>
+        <p xml:id="szovsr-m06609-d1e919">
+          <lb ed="#P" n="85"/>10. Proposita assertio rationibus 
+          stabi<lb break="no" ed="#P" n="86"/>litur. — Tertio potest haec veritas rationibus
+          <lb ed="#P" n="87"/>ostendi. Prima est, quia Ecclesia est unum
+          <lb ed="#P" n="88"/>corpus mysticum, in quo omnes unum sumus
+          <lb ed="#P" n="89"/>in Christo, ideoque debet per modum unius
+          <lb ed="#P" n="90"/>Deum colere et venerari, atque hac ratione in
+          <lb ed="#P" n="91"/>nomine totius Ecclesiae unum offertur 
+          sacrifi<lb break="no" ed="#P" n="92"/>cium, et ubicumque offertur, a tota Ecclesia
+          <lb ed="#P" n="93"/>-offertur, ut alibi ostendimus. Sic ergo tota
+          <lb ed="#P" n="94"/>debet per modum unius déprecari, ut hoc
+          <lb ed="#P" n="95"/>etiam nobilissimo modo communi nomine
+          <lb ed="#P" n="96"/>Deum colat. Secundo, talis oratio, caeteris 
+          pa<lb break="no" ed="#P" n="97"/>ribus, est magis acceptabilis Deo et Christo,
+          <lb ed="#P" n="98"/>quia ab ejus Sponsa offertur, quae non esse
+          <lb ed="#P" n="99"/>potest non sancta, et sibi grata, etiamsi in
+          <lb ed="#P" n="100"/>ea multi mali sint, et indigni. Tertio, hic 
+          mo<lb break="no" ed="#P" n="101"/>dus orationis multum fovet totius Ecclesiae
+          <lb ed="#P" n="102"/>charitatem, cum omnes discunt communi 
+          spi<lb break="no" ed="#P" n="103"/>ritu pro omnibus esse oranduni, praeterquam
+          <lb ed="#P" n="104"/>quod hae orationes publicae et communes ad
+          <lb ed="#P" n="105"/>devotionem et compunctionem singulos 
+          mo<lb break="no" ed="#P" n="106"/>vent, ut in sequentibus latius dicemus. 
+          At<lb break="no" ed="#P" n="107"/>que hae rationes concludunt, non solum in
+          <lb ed="#P" n="108"/>unaquaque Ecclesia particulari, vel in 
+          singu<lb break="no" ed="#P" n="109"/>lis plebibus et communitatibus fieri orationes
+          <lb ed="#P" n="110"/>communes nomine totius populi, sed etiam
+          <pb ed="#P" n="269"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>a tota universali Ecclesia fieri aliquas 
+          oratio<lb break="no" ed="#P" n="2"/>nes communes, quae re vera totius Ecclesiae
+          <lb ed="#P" n="3"/>nomine Deo funduntur. Quia licet 
+          particula<lb break="no" ed="#P" n="4"/>res Ecclesiae suo modo sint plures, et 
+          una<lb break="no" ed="#P" n="5"/>quaeque earum suam habeat peculiarem 
+          uni<lb break="no" ed="#P" n="6"/>tatem, et ita specialiori modo possit 
+          commu<lb break="no" ed="#P" n="7"/>niter Deum precari, nihilominus omnes sunt
+          <lb ed="#P" n="8"/>partes unius Ecclesiae, quae simpliciter una est,
+          <lb ed="#P" n="9"/>et Deo charior quacumque Ecclesia 
+          particu<lb break="no" ed="#P" n="10"/>lari ; ejus enim sanctitas, et major, et 
+          cer<lb break="no" ed="#P" n="11"/>tior ac infallibilior est, ideoque tota etiam
+          <lb ed="#P" n="12"/>simul orare debet, et pro omnibus suis filiis
+          <lb ed="#P" n="13"/>intercedere. Ad illam etiam maxime pertinet
+          <lb ed="#P" n="14"/>pro totius conservatione et augmento 
+          sollici<lb break="no" ed="#P" n="15"/>tam esse, et ita non solum pro suis membris,
+          <lb ed="#P" n="16"/>sed etiam pro infidelibus interdum orat, ut
+          <lb ed="#P" n="17"/>ad Deum convertantur.
+        </p>
+        <p xml:id="szovsr-m06609-d1e1019">
+          <lb ed="#P" n="18"/>11. Respondetur objectioni que fieri posset,
+          <lb ed="#P" n="19"/>et ostenditur quomodo unius oratio fiat nomine
+          <lb ed="#P" n="20"/>totius Ecclesie. — Dices : quomodo potest
+          <lb ed="#P" n="21"/>universa Ecclesia in unum convenire ad unam
+          <lb ed="#P" n="22"/>orationem communem proferendam? 
+          Res<lb break="no" ed="#P" n="23"/>pondetur primo, hac ratione institutos esse
+          <lb ed="#P" n="24"/>ejusdem Ecclesiae ministros et sacerdotes, qui
+          <lb ed="#P" n="25"/>nomine totius Ecclesiae orent, quibus 
+          Eccle<lb break="no" ed="#P" n="26"/>sia commisit vices suas, ut nomine totius 
+          cor<lb break="no" ed="#P" n="27"/>poris orationes fundant. Et hoc est optimum
+          <lb ed="#P" n="28"/>signum hujus communis orationis ; quocirca,
+          <lb ed="#P" n="29"/>licet sacerdotium a Christo Domino in 
+          Eccle<lb break="no" ed="#P" n="30"/>sia sit institutum, ac subinde ex ejusdem
+          <lb ed="#P" n="31"/>Christi ordinatione habeat sacerdos 
+          evange<lb break="no" ed="#P" n="32"/>licus, ut possit in ejus persona offerre etorare,
+          <lb ed="#P" n="33"/>et impetrare nomine illius, ultra hoc etiam
+          <lb ed="#P" n="34"/>habet ex institutione et commissione 
+          Eccle<lb break="no" ed="#P" n="35"/>siae, ut suo nomine pro se, et suis filiis, ac
+          <lb ed="#P" n="36"/>membris oret, ut in dicto 3 tom., disput. 17,
+          <lb ed="#P" n="37"/>sect. 2, tractatum est. Et hac ratione potuit
+          <lb ed="#P" n="38"/>Ecclesia excommunicatos omnino excludere a
+          <lb ed="#P" n="39"/>participatione suarum communium 
+          oratio<lb break="no" ed="#P" n="40"/>num, tam efticaciter, ut, licet minister tentet
+          <lb ed="#P" n="41"/>pro eis orare nomine Ecclesiae, mentiatur, 
+          ni<lb break="no" ed="#P" n="42"/>hilque faciat, nullumve fructum 
+          excommu<lb break="no" ed="#P" n="43"/>nicato conferat, ut in 5 tom., disp. 9, sect. 4,
+          <lb ed="#P" n="44"/>et disp. 11, sect. 2, et disp. 12, sect. 2, 
+          te<lb break="no" ed="#P" n="45"/>tigi. Signum ergo est, Ecclesiam totam per
+          <lb ed="#P" n="46"/>modum unius ad Deum orare per ministrum
+          <lb ed="#P" n="47"/>suum tanquam per legatum, vel nuncium a
+          <lb ed="#P" n="48"/>se constitutum. Potest enim respublica hoc
+          <lb ed="#P" n="49"/>modo loqui, et scribere ad alterum 
+          princi<lb break="no" ed="#P" n="50"/>pem per legatum a se missum. Ut autem talis
+          <lb ed="#P" n="51"/>minister auctoritatem ad sic orandum ab
+          <lb ed="#P" n="52"/>Ecclesia accipiat, non est necesse ut per 
+          suf<lb break="no" ed="#P" n="53"/>fragia singulorum illam recipiat, sed satis est
+          <lb ed="#P" n="54"/>quod auctoritate publica et suprema totius
+          <lb ed="#P" n="55"/>Ecclesiae illam habeat ; nam Ecclesia est cor-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pus monarchicum, cujus monarchia non est
+          <lb ed="#P" n="57"/>ab hominibus, sed ab ipso Christo instituta,
+          <lb ed="#P" n="58"/>qui suo vicario commisit totam potestatem et
+          <lb ed="#P" n="59"/>auctoritatem, quae universo corpori 
+          expedie<lb break="no" ed="#P" n="60"/>bat. Et ita solus Pontifex potestatem habet
+          <lb ed="#P" n="61"/>constituendi hoc ministerium deprecandi 
+          no<lb break="no" ed="#P" n="62"/>mine totius Ecclesiae, et committendi illud 
+          sa<lb break="no" ed="#P" n="63"/>cerdotibus et ministris a se deputatis, et ita
+          <lb ed="#P" n="64"/>fit, ut orationes per hos ministros oblatae 
+          no<lb break="no" ed="#P" n="65"/>mine totius Ecclesiae fiant.
+        </p>
+        <p xml:id="szovsr-m06609-d1e1128">
+          <lb ed="#P" n="66"/>12. Sequitur emposita doctrina, quod Ecclesia
+          <lb ed="#P" n="67"/>certam deprecatiomtm formam potuerit 
+          insti<lb break="no" ed="#P" n="68"/>tuere, qua dicitur officium divinum. — Hinc
+          <lb ed="#P" n="69"/>ulterius factum est (quod est aliud hujus 
+          com<lb break="no" ed="#P" n="70"/>munis orationis signum), ut ejusdem 
+          Eccle<lb break="no" ed="#P" n="71"/>siae auctoritate institutae sint peculiares 
+          depre<lb break="no" ed="#P" n="72"/>cationes, quae nomine illius offerantur. Sicut
+          <lb ed="#P" n="73"/>enim princeps legatum mittens ad alium 
+          prin<lb break="no" ed="#P" n="74"/>cipem, solet certam ac praescriptam formam
+          <lb ed="#P" n="75"/>petitionis, vel pacti, aut legationis illi tradere,
+          <lb ed="#P" n="76"/>saltem quoad subtantiam ejus, licet interdum
+          <lb ed="#P" n="77"/>aliqua accidentalia illi committat; et sicut
+          <lb ed="#P" n="78"/>sorores Lazari, cum ad Christum miserunt
+          <lb ed="#P" n="79"/>nuncium, conceptis verbis petitionem 
+          dede<lb break="no" ed="#P" n="80"/>runt : Ecce quem amas, infirmatur ; ta 
+          Eccle<lb break="no" ed="#P" n="81"/>sia universalis, quia per suos publicos 
+          mini<lb break="no" ed="#P" n="82"/>stros suo et communi nomine orare intendit,
+          <lb ed="#P" n="83"/>ideo certam orandi formam illis praebuit, ut
+          <lb ed="#P" n="84"/>omnia purius et sincerius fiant, ut in principio
+          <lb ed="#P" n="85"/>libri praecedentis dixi. Haec ergo institutio
+          <lb ed="#P" n="86"/>aperte indicat communitatem orationis 
+          eccle<lb break="no" ed="#P" n="87"/>siasticae, quam docemus ; et similiter ostendit
+          <lb ed="#P" n="88"/>orationes communes Ecclesiae illas 
+          propriis<lb break="no" ed="#P" n="89"/>sime esse, quae in recitandis horis canonicis
+          <lb ed="#P" n="90"/>per ministros Ecclesiae funduntur, ut notavit
+          <lb ed="#P" n="91"/>D. Thomas, Quodlib. 7, art. 18. Hae autem
+          <lb ed="#P" n="92"/>preces, sic ab Ecclesia institutae, horae 
+          canoni<lb break="no" ed="#P" n="93"/>cae appellantur, de quo nomine in cap. 3
+          <lb ed="#P" n="94"/>dicemus ; appellantur etiam quasi per 
+          an<lb break="no" ed="#P" n="95"/>tonomasiam officium divinum, in cap. 
+          Dolen<lb break="no" ed="#P" n="96"/>tes, de Celebr. Miss., et in Concilio 
+          Aquis<lb break="no" ed="#P" n="97"/>gran. I, tempore Ludovici, cap. 131; est enim
+          <lb ed="#P" n="98"/>praecipuum officium Christianorum, et 
+          ma<lb break="no" ed="#P" n="99"/>xime ecclesiasticorum, orare Deum, quod
+          <lb ed="#P" n="100"/>merito divinum nominatur, quia totum pro
+          <lb ed="#P" n="101"/>cultu Dei esi instiiutum. Dicitur etiam 
+          Fecle<lb break="no" ed="#P" n="102"/>siasticum officium, in Clemen. I, de Celebr.
+          <lb ed="#P" n="103"/>Miss., quia per Ecclesiam approbatum est
+          <lb ed="#P" n="104"/>et traditum, ut in persona Ecclesiae recitari
+          <lb ed="#P" n="105"/>possit, ut constat exicap. 7n die, de Cons., d. 5,
+          <lb ed="#P" n="106"/>quod est Gregor., cum Concil. generali, 
+          idem<lb break="no" ed="#P" n="107"/>que habetur in duobus praecedentibus 
+          capi<lb break="no" ed="#P" n="108"/>tulis, ex Concil. Agathen., cap. 30. et 
+          Ge<lb break="no" ed="#P" n="109"/>rund., cap. 10, et in Concil. Tolet. IV, cap. 2,
+          <lb ed="#P" n="110"/>sic statuitur : Unus ordo orandi atque psallendi
+          <pb ed="#P" n="270"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>a nobis per omnem Hispaniam, atque Galliam
+          <lb ed="#P" n="2"/>conservetur, etc. Et similiter in Conc. Milevi.,
+          <lb ed="#P" n="3"/>cap. 12, prohibentur dici in Ecclesia 
+          oratio<lb break="no" ed="#P" n="4"/>nes, quae per Concilium approbatae non 
+          fue<lb break="no" ed="#P" n="5"/>rint ; idem in Concil. Bracharen. I, cap. 19,
+          <lb ed="#P" n="6"/>cap. Placuit, d. 12.
+        </p>
+        <p xml:id="szovsr-m06609-d1e1245">
+          <lb ed="#P" n="7"/>13. Objectio contra traditam docirinam. —
+          <lb ed="#P" n="8"/>Respondetur objectioni, ac statuitur officium
+          <lb ed="#P" n="9"/>Fcclesiasticum substantialiter esse unwmn in
+          <lb ed="#P" n="10"/>tota Ecclesia. — Dices, ex his decretis potius
+          <lb ed="#P" n="11"/>inferri posse, non esse has orationes 
+          commu<lb break="no" ed="#P" n="12"/>nes totius universalis Ecclesiae, sed 
+          unam<lb break="no" ed="#P" n="13"/>quamque Ecclesiam vel congregationem 
+          pro<lb break="no" ed="#P" n="14"/>prio utentem officio pro se communiter orare.
+          <lb ed="#P" n="15"/>Nam, licet objective unaquaeque oret pro 
+          om<lb break="no" ed="#P" n="16"/>nibus, et privatae etiam orationes possint et
+          <lb ed="#P" n="17"/>debeant esse communes, ut Cyprianus docet
+          <lb ed="#P" n="18"/>in initio expositionis Orationis Dominicae, 
+          ni<lb break="no" ed="#P" n="19"/>hilominus videtur unaquaeque Ecclesia suo
+          <lb ed="#P" n="20"/>nomine specialiter orare per ministros suos,
+          <lb ed="#P" n="21"/>cum proprium officium unaquaeque sibi 
+          desi<lb break="no" ed="#P" n="22"/>gnet et approbet, quo sui ministri uti 
+          de<lb break="no" ed="#P" n="23"/>beant, ut ex Decretis citatis constat. 
+          Respon<lb break="no" ed="#P" n="24"/>deo imprimis, totum ecclesiasticum officium,
+          <lb ed="#P" n="25"/>quo Ecclesia Catholica utitur, substantialiter
+          <lb ed="#P" n="26"/>esse unum, id est, ex eadem meteria proxima,
+          <lb ed="#P" n="27"/>ut sic dicam, et eisdem partibus principalibus
+          <lb ed="#P" n="28"/>constans, ut ex dicendis patebit ; idque satis
+          <lb ed="#P" n="29"/>esse ut tota haec Ecclesiae deprecatio una sit,
+          <lb ed="#P" n="30"/>et in persona totius Ecclesiae universalis 
+          fun<lb break="no" ed="#P" n="31"/>datur, licet in aliquibus accidentalibus et 
+          mi<lb break="no" ed="#P" n="32"/>nutioribus ritibus sit aliqua varietas, quae 
+          uni<lb break="no" ed="#P" n="33"/>tatem non minuit in corpore mystico, sed ornat
+          <lb ed="#P" n="34"/>potius. Deinde dico, hanc ipsam varietatem
+          <lb ed="#P" n="35"/>ita esse permissam in Ecclesia, maxime in
+          <lb ed="#P" n="36"/>hoc officio divino, ut ejusdem Ecclesiae 
+          aucto<lb break="no" ed="#P" n="37"/>ritate et suprema potestate tacite vel expresse
+          <lb ed="#P" n="38"/>sit approbanda. Per se enim pertinet ad
+          <lb ed="#P" n="39"/>Apostolicam Sedem hos ritus praescribere, si
+          <lb ed="#P" n="40"/>universales sint pro tota Ecclesia, vel 
+          appro<lb break="no" ed="#P" n="41"/>bare particulares et proprios aliquarum 
+          na<lb break="no" ed="#P" n="42"/>tionum seu Ecclesiarum ; interdum vero 
+          taci<lb break="no" ed="#P" n="43"/>tam approbationem indicat consuetudo, vel
+          <lb ed="#P" n="44"/>traditio particularis alicujus Ecclesiae tolerata
+          <lb ed="#P" n="45"/>a Pontificibus illam non ignorantibus. Nunc
+          <lb ed="#P" n="46"/>autem de hac re habemus expressam 
+          Eccle<lb break="no" ed="#P" n="47"/>sie declarationem, et quasi institutionem a
+          <lb ed="#P" n="48"/>Pio V in Bulla breviarii tradita, et a 
+          Cle<lb break="no" ed="#P" n="49"/>ment. VIII recognita et confirmata, ut infra
+          <lb ed="#P" n="50"/>suo loco videbimus. Est ergo hoc officium
+          <lb ed="#P" n="51"/>vere commune et Ecclesiasticum, ac de se
+          <lb ed="#P" n="52"/>universale, unde etiam canonicum dicitur,
+          <lb ed="#P" n="53"/>quia juxta regulam ab Ecclesia approbatam
+          <lb ed="#P" n="54"/>celebratur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

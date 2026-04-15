@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="745"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m18724"><!-- t5l4c4 -->
+        <head xml:id="szovsr-m18724-Hd1e101">Caput 4</head>
+        <head xml:id="szovsr-m18724-Hd1e103" type="question-title"/>
+        <p xml:id="szovsr-m18724-d1e105">
+          <lb ed="#P" n="46"/>CAPUT IV.
+          <lb ed="#P" n="47"/>QUIBUS MODIS CIRCA ADJURATIONEM PECCARI 
+          POS<lb break="no" ed="#P" n="48"/>SIT, ET CONSEQUENTER QUAM OBLIGATIONEM
+          <lb ed="#P" n="49"/>SECUM TRAHAT VEL INDUCAT ADJURATIO.
+        </p>
+        <p xml:id="szovsr-m18724-d1e116">
+          <lb ed="#P" n="50"/>1. Hic exponemus breviter materiam 
+          mo<lb break="no" ed="#P" n="51"/>ralem hujus actionis ; quamvis enim ex dietis
+          <lb ed="#P" n="52"/>in superioribus capitibus facile colligi possit,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>oportet nihilominus obligationes, quae hic 
+          in<lb break="no" ed="#P" n="54"/>tervenire possunt, et modos peccandi contra
+          <lb ed="#P" n="55"/>illas, distinctius explicare. Loquimur autem
+          <lb ed="#P" n="56"/>de adjuratione propria et religiosa, quae 
+          cul<lb break="no" ed="#P" n="57"/>tum latriae continet ; quia haec sola est 
+          pro<lb break="no" ed="#P" n="58"/>prius actus religionis, solaque meretur nomen
+          <lb ed="#P" n="59"/>adjurationis simpliciter. Item loquimur de
+          <lb ed="#P" n="60"/>hac adjuratione, prout ab hominibus 
+          viatori<lb break="no" ed="#P" n="61"/>bus exerceri potest, horum enim obligationes
+          <lb ed="#P" n="62"/>explicabimus. Denique intelligi hic potest 
+          obli<lb break="no" ed="#P" n="63"/>gatio, vel antecedenter se habens ad 
+          adjura<lb break="no" ed="#P" n="64"/>tionem, vel conscquenter: prior pertinet ad
+          <lb ed="#P" n="65"/>adjurantem, quatenus vel ad adjurandum,
+          <lb ed="#P" n="66"/>vel tali modo adjurandum obligari potest, si
+          <lb ed="#P" n="67"/>adjurare velit, quae obligatio antecedit actum
+          <lb ed="#P" n="68"/>ipsum adjurandi ; posterior vero pertinebit ad
+          <lb ed="#P" n="69"/>personam adjuratam, si talis sit, ut ratione
+          <lb ed="#P" n="70"/>adjurationis possit in conscientia obligari, quod
+          <lb ed="#P" n="71"/>dubitari non immerito potest.
+        </p>
+        <p xml:id="szovsr-m18724-d1e168">
+          <lb ed="#P" n="72"/>2. An detur preceptum affirmativum 
+          obli<lb break="no" ed="#P" n="73"/>gans ad adjurandum. — Primo ergo inquiri
+          <lb ed="#P" n="74"/>potest, an detur aliquod praeceptum 
+          affirmati<lb break="no" ed="#P" n="75"/>vum quoad exercitium actus, id est, 
+          simplici<lb break="no" ed="#P" n="76"/>ter obligans ad adjurandum. In quo breviter
+          <lb ed="#P" n="77"/>dicendum videtur, ex vi juris divini aut 
+          na<lb break="no" ed="#P" n="78"/>turalis nunquam hunc actum cadere sub 
+          obli<lb break="no" ed="#P" n="79"/>gationem praecepti affirmativi, ex praecepto
+          <lb ed="#P" n="80"/>autem Ecclesiae interdum hujusmodi 
+          obliga<lb break="no" ed="#P" n="81"/>tionem imponi. Prior pars probatur, quia vel
+          <lb ed="#P" n="82"/>hic actus consideratur ratione cultus divini,
+          <lb ed="#P" n="83"/>vel ratione utilitatis ejus ad consequendum
+          <lb ed="#P" n="84"/>aliquem effectum nobis necessarium; neutro
+          <lb ed="#P" n="85"/>autem modo est de necessitate praecepti 
+          divi<lb break="no" ed="#P" n="86"/>ni aut naturalis ; ergo. Consequentia fundatur
+          <lb ed="#P" n="87"/>recte in partitione facta, quae sufficiens 
+          pro<lb break="no" ed="#P" n="88"/>batur, quia nullus alius titulus utilitatis, vel
+          <lb ed="#P" n="89"/>honestatis in tali actione excogitari potest;
+          <lb ed="#P" n="90"/>ergo neque necessitatis seu obligationis. 
+          Mi<lb break="no" ed="#P" n="91"/>nor quoad priorem partem nota est, quia non
+          <lb ed="#P" n="92"/>desunt alii actus, quibus sufficienter 
+          implea<lb break="no" ed="#P" n="93"/>tur obligatio naturalis colendi Deum absque
+          <lb ed="#P" n="94"/>adjurationc. Item juramentum non est per se
+          <lb ed="#P" n="95"/>necessarium propter cultum, nisi alia 
+          necessi<lb break="no" ed="#P" n="96"/>tas illud postulet ; ergo multo minus 
+          adjura<lb break="no" ed="#P" n="97"/>tio.
+        </p>
+        <p xml:id="szovsr-m18724-d1e228">
+          <lb ed="#P" n="98"/>3. Altera vero pars minoris probatur, quia
+          <lb ed="#P" n="99"/>quidquid utilitatis potest esse in adjuratione
+          <lb ed="#P" n="100"/>ex parte Dei, potest per orationem suffticienter
+          <lb ed="#P" n="101"/>impleri. Aut enim est sermo de adjuratione
+          <lb ed="#P" n="102"/>ipsiusmet Dei, quam diximus esse 
+          obsecratio<lb break="no" ed="#P" n="103"/>nem, et illa, ut addit aliquid ultra simplicem
+          <lb ed="#P" n="104"/>orationem, sen petitionem, aut postulationem,
+          <lb ed="#P" n="105"/>non est simpliciter necessaria ad salutem ,
+          <lb ed="#P" n="106"/>nam sufficere potest simplex ad Deum 
+          suppli<lb break="no" ed="#P" n="107"/>catio; et eadem ratio est de adjuratione Sanc-
+          <pb ed="#P" n="746"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>torum, vel quorumcumque hcminum. Si vero
+          <lb ed="#P" n="2"/>sit adjuratio daemonum, et occurrat necessitas
+          <lb ed="#P" n="3"/>fugandi illos, vel defensionis contra illos, sic
+          <lb ed="#P" n="4"/>etiam potest talis effectus per orationem ad
+          <lb ed="#P" n="5"/>Deum vel Sanctos obtineri, licet propria 
+          alju<lb break="no" ed="#P" n="6"/>ratio ipsorum daemonum non fiat. Et ideo ad
+          <lb ed="#P" n="7"/>superandas tentationes vel infestationes 
+          dae<lb break="no" ed="#P" n="8"/>monum,, saepe dicunt Theologi , esse 
+          necessa<lb break="no" ed="#P" n="9"/>rium ad orationem recurrere, et posse hoc 
+          in<lb break="no" ed="#P" n="10"/>terdum cadere sub obligationem praecepti
+          <lb ed="#P" n="11"/>charitatis propria vel communis. De 
+          adjura<lb break="no" ed="#P" n="12"/>tione vero nulla est talis obligatio ; quia 
+          nun<lb break="no" ed="#P" n="13"/>quam in Scriptura proponitur ut medium ne
+          <lb ed="#P" n="14"/>cessarium ad obtinendum divinum auxilium,
+          <lb ed="#P" n="15"/>sicut propouitur oratio. Imo ipsa adjuratio
+          <lb ed="#P" n="16"/>ideo interdum snfhicere potest, quia includit
+          <lb ed="#P" n="17"/>orationem, et ad perfectionem ejus juvat; non
+          <lb ed="#P" n="18"/>est tamen haec perfectio ita necessaria, ut sub
+          <lb ed="#P" n="19"/>obligationem naturalis praecepti cadat; nulla
+          <lb ed="#P" n="20"/>enim sufficiens ratio talis obligationis 
+          inveni<lb break="no" ed="#P" n="21"/>tur.
+        </p>
+        <p xml:id="szovsr-m18724-d1e302">
+          <lb ed="#P" n="22"/>4. Altera pars de praecepto positivo ex usu
+          <lb ed="#P" n="23"/>Ecclesiae, ejusque ministeriis, et obligationibus
+          <lb ed="#P" n="24"/>eorum colligi potest. Nam publicae orationes
+          <lb ed="#P" n="25"/>Ecclesiae quamdam Dei adjurationem 
+          conti<lb break="no" ed="#P" n="26"/>nent ; sed ministri Ecclesiae seepe tenentur ex
+          <lb ed="#P" n="27"/>praecepto illas orationes et obsecrationes ad
+          <lb ed="#P" n="28"/>Deum facere; ergo tenentur ex praecepto
+          <lb ed="#P" n="29"/>Deum adjurarc. Hoc ergo praeceptum 
+          coinci<lb break="no" ed="#P" n="30"/>dit cum praecepto recitandi horas canonieas,
+          <lb ed="#P" n="31"/>vel dicendi Missam, vel ministrandi 
+          solemni<lb break="no" ed="#P" n="32"/>ter sacramenta, vel sacramentalia, cum illis
+          <lb ed="#P" n="33"/>orationibus et obsecraticnibus ad Deum, quas
+          <lb ed="#P" n="34"/>Ecclesia dicere praecipit. De quo praecepto 
+          su<lb break="no" ed="#P" n="35"/>pra de horis canonicis, et alibi de 
+          sacramen<lb break="no" ed="#P" n="36"/>tis, sacrificio et caremoniis eorum dictum est.
+          <lb ed="#P" n="37"/>Sic ergo adjuratio deprecativa (ut sic dicam)
+          <lb ed="#P" n="38"/>potest sub praeceptum ecclesiasticum cadere,
+          <lb ed="#P" n="39"/>de quo etiam potest intelligi illud Pauli, 1 ad
+          <lb ed="#P" n="40"/>Timoth. 2: Obsecro igitur primum omnium
+          <lb ed="#P" n="41"/>fieri obsecrationes, etc. Nam licet verbum 
+          ob<lb break="no" ed="#P" n="42"/>secrandi in rigore non indicet praeceptum,
+          <lb ed="#P" n="43"/>ex materia applicata ad publica Eecclesiae
+          <lb ed="#P" n="44"/>suffragia et orationes potest illud continere.
+        </p>
+        <p xml:id="szovsr-m18724-d1e354">
+          <lb ed="#P" n="45"/>5. Praeterea adjuratio coactiva, quae est ad
+          <lb ed="#P" n="46"/>daemones, rarius quidem cadere solet sub
+          <lb ed="#P" n="47"/>obligationem absolutam praecepti constitutivi,
+          <lb ed="#P" n="48"/>nihilominus tamen ex suppositione solemnis
+          <lb ed="#P" n="49"/>administrationis, verbi gratia, baptismi, 
+          sta<lb break="no" ed="#P" n="50"/>tim urget talis obligatio, quia oportet ut 
+          exor<lb break="no" ed="#P" n="51"/>cismi praecedant, et insufllationes deemonum,
+          <lb ed="#P" n="52"/>ut suo loco diximus. Et idem ivenitur in
+          <lb ed="#P" n="53"/>nonnullis benedictionibus solemnibus, vel 
+          sa<lb break="no" ed="#P" n="54"/>cramentalibus, quae similem caeremoniam 
+          re<lb break="no" ed="#P" n="55"/>quirunt. Supposita etiam necessitate hominis
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>a daemone obsessi. vel alia simili, possunt 
+          mi<lb break="no" ed="#P" n="57"/>nistri Ecclesiae ex officio obligari ad 
+          damo<lb break="no" ed="#P" n="58"/>nem adjurandum, seu exorcizandum juxta
+          <lb ed="#P" n="59"/>formam et ritum Ecclesiae, quia tenentur 
+          sub<lb break="no" ed="#P" n="60"/>venire necessitatibus suorum fidelium per 
+          re<lb break="no" ed="#P" n="61"/>media convenientia, et ab Ecclesia instituta ;
+          <lb ed="#P" n="62"/>unum autem ex remediis pro illa gravi 
+          ne<lb break="no" ed="#P" n="63"/>cessitate destinatum ab Eeclesia, est 
+          exorcis<lb break="no" ed="#P" n="64"/>mus ; ergo.
+        </p>
+        <p xml:id="szovsr-m18724-d1e402">
+          <lb ed="#P" n="65"/>6. Quae requirantur ut adjuratio deprecativa
+          <lb ed="#P" n="66"/>ad Deum licite fiat.—sSecundo, inquiri potest
+          <lb ed="#P" n="67"/>an detur praeceptum affirmativum quoad 
+          spe<lb break="no" ed="#P" n="68"/>cificationem, seu modum actus, id est, quod
+          <lb ed="#P" n="69"/>licet non obliget ad exercendum actum 
+          ad<lb break="no" ed="#P" n="70"/>jurandi, si tamen illum exercere velimus,
+          <lb ed="#P" n="71"/>obliget ad exercendum illum tali, vel tali 
+          mo<lb break="no" ed="#P" n="72"/>co; in quo etiam involvitur quaestio de 
+          prae<lb break="no" ed="#P" n="73"/>ceptis negativis prohibentibus actum 
+          adjuran<lb break="no" ed="#P" n="74"/>di, non simpliciter (sic enim non est 
+          prohibi<lb break="no" ed="#P" n="75"/>tus, cum sit actus virtutis, ut ostensum est),
+          <lb ed="#P" n="76"/>sed tali, vel tali modo factum. In hac ergo
+          <lb ed="#P" n="77"/>dubitatione dico primo: in adjuratione 
+          de<lb break="no" ed="#P" n="78"/>precativa, quae est ad Deum, ut licite fiat,
+          <lb ed="#P" n="79"/>servanda est dehita ad Deum reverentia ; ad
+          <lb ed="#P" n="80"/>hanc autem spectat, ut cum veritate, justitia
+          <lb ed="#P" n="81"/>et judicio fiat. Prior pars communis est apud
+          <lb ed="#P" n="82"/>Doctores supra citatos, constatque ex 
+          termi<lb break="no" ed="#P" n="83"/>nis, quia adjuratio est actus religionis; ergo
+          <lb ed="#P" n="84"/>continet cultum ejus; sed de ratione omnis
+          <lb ed="#P" n="85"/>veri cultus divini est, ut cum debita reverentia
+          <lb ed="#P" n="86"/>ad Deum fiat ; ergo hoc ipsum est de ratione
+          <lb ed="#P" n="87"/>adjurationis. Quaerit autem Sylvest., verb.
+          <lb ed="#P" n="88"/>Adjuratio, q. 1, an defectus in hujusmodi
+          <lb ed="#P" n="89"/>reverentia sit peccatum mortale, aut veniale.
+          <lb ed="#P" n="90"/>Refertque Angelum, asserentem esse ex se
+          <lb ed="#P" n="91"/>peccatum mortale, etin hanc sententiam 
+          al<lb break="no" ed="#P" n="92"/>legantem Richardum. Ipse vero imprimis 
+          ne<lb break="no" ed="#P" n="93"/>gat Richardum id docuisse, et in ultimis 
+          ver<lb break="no" ed="#P" n="94"/>bis sentit, tantum esse veniale peccatum. Sed
+          <lb ed="#P" n="95"/>media via tenenda videtur, ut declarabo.
+        </p>
+        <p xml:id="szovsr-m18724-d1e472">
+          <lb ed="#P" n="96"/>7. Quomodo requiratur veritas ad 
+          adjuran<lb break="no" ed="#P" n="97"/>dum. —Ad explicandam ergo hanc debitam 
+          re<lb break="no" ed="#P" n="98"/>verentiam, applicemus ad hunc actum tres 
+          ju<lb break="no" ed="#P" n="99"/>ramenti comites, quia sicut adjuratio continet
+          <lb ed="#P" n="100"/>quoddam vestigium juramenti, ita suo modo
+          <lb ed="#P" n="101"/>et cum proportione illas circumstantias 
+          requi<lb break="no" ed="#P" n="102"/>rit. Est autem circa veritatem advertendum,
+          <lb ed="#P" n="103"/>in adjuratione nihil proprie affirmari, vel 
+          ne<lb break="no" ed="#P" n="104"/>gari, quia non fit per modum judicandi, sed
+          <lb ed="#P" n="105"/>deprecandi, et ideo non ita hic requiritur 
+          ve<lb break="no" ed="#P" n="106"/>ritas, sicut in juramento. Postulari tamen 
+          po<lb break="no" ed="#P" n="107"/>test quoad duo: unum est, ut fiat propter 
+          ve<lb break="no" ed="#P" n="108"/>rum Deum, vel in se, vel in Sanctis ejus, alias
+          <lb ed="#P" n="109"/>esset actus idololatriae ac superstitionis, ut est
+          <lb ed="#P" n="110"/>in pagano petere aliquid ab alio propter Jo-
+          <pb ed="#P" n="747"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vem, vel Saturnum, vel propter aliquod 
+          ido<lb break="no" ed="#P" n="2"/>Ium, aut propter Mahometum, vel quid 
+          simi<lb break="no" ed="#P" n="3"/>le. Et quoad hanc partem, adjuratio sine 
+          ve<lb break="no" ed="#P" n="4"/>ritate facta erit peccatum mortale, nam ad
+          <lb ed="#P" n="5"/>idololatriam pertinet, ut dictum est.
+        </p>
+        <p xml:id="szovsr-m18724-d1e522">
+          <lb ed="#P" n="6"/>8. Aliud, in quo potest veritas postulari,
+          <lb ed="#P" n="7"/>est, ut adjuratio fiat sine fictione, et ex justo
+          <lb ed="#P" n="8"/>ac vero desiderio obtinendi id, quod cum 
+          ad<lb break="no" ed="#P" n="9"/>juratione postulatur, alioqui non fiet 
+          adjura<lb break="no" ed="#P" n="10"/>tio sine peccato divinae irreverentiae, seu 
+          irre<lb break="no" ed="#P" n="11"/>ligiositatis. Probatur, quia quacumque 
+          ratio<lb break="no" ed="#P" n="12"/>ne nomen Dei in vanum assumatur, peccatum
+          <lb ed="#P" n="13"/>est contra illud praeceptum: XNon assumes 
+          no<lb break="no" ed="#P" n="14"/>men Domini Dei tui in vanum ; sed per 
+          adju<lb break="no" ed="#P" n="15"/>rationem nomen Dei assumitur; ergo si in
+          <lb ed="#P" n="16"/>vanum sumatur, peccatum est; at vero si 
+          ad<lb break="no" ed="#P" n="17"/>juratio propter Deum fiat animo ficto, in 
+          va<lb break="no" ed="#P" n="18"/>num assumitur Dei nomen, quia ficte, et 
+          con<lb break="no" ed="#P" n="19"/>sequenter frustra assumitur; ergo. Videtur
+          <lb ed="#P" n="20"/>autem hoc peccatum ordinarie esse veniale ex
+          <lb ed="#P" n="21"/>levitate materiae, quia non inducitur Deus ad
+          <lb ed="#P" n="22"/>testificandum falsum, neque alia gravis 
+          inju<lb break="no" ed="#P" n="23"/>ria per se loquendo ibi intervenire videtur.
+          <lb ed="#P" n="24"/>Aliquar.lo vero si cum gravi proximi injuria
+          <lb ed="#P" n="25"/>et deceptione fiat, poterit esse mortale. Et ex
+          <lb ed="#P" n="26"/>hac parte videri potest grave peccatum, 
+          pete<lb break="no" ed="#P" n="27"/>re eleemosynam propter Deum, fingendo 
+          ne<lb break="no" ed="#P" n="28"/>cessitatem, ubi revera non est. Quia tunc non
+          <lb ed="#P" n="29"/>solum injustitia committitur (de qua res est
+          <lb ed="#P" n="30"/>clara , sed etiam irreligiositas, quia nomen
+          <lb ed="#P" n="31"/>Dei in vanum assumitur, quae in tali materia
+          <lb ed="#P" n="32"/>videtur gravis, quia sumitur Deus ut 
+          velamen<lb break="no" ed="#P" n="33"/>tum malitiae et injustitia, unde videtur quis
+          <lb ed="#P" n="34"/>tunc velle uti divino oraculo (ut sic dicam) et
+          <lb ed="#P" n="35"/>auctoritate ad furandam rem alienam, quod
+          <lb ed="#P" n="36"/>injuriam non levem Dei continere videtur. Si
+          <lb ed="#P" n="37"/>autem fictio non sit tam gravis, sed fiat vel ad
+          <lb ed="#P" n="38"/>explorandum animum alterius, vel ad 
+          deci<lb break="no" ed="#P" n="39"/>piendum illum in re levi et jocosa, erit veniale
+          <lb ed="#P" n="40"/>peccatum ex levitate materiae, ut per se 
+          con<lb break="no" ed="#P" n="41"/>stat. Imo etiam in priori casu, licet recte 
+          pro<lb break="no" ed="#P" n="42"/>betur malitia contra religionem, et gravis 
+          in<lb break="no" ed="#P" n="43"/>tra latitudinem venialium culparum, 
+          nihilo<lb break="no" ed="#P" n="44"/>minus probabile satis est, circumstantiam illam
+          <lb ed="#P" n="45"/>non addere malitiam mortalem specie 
+          distinc<lb break="no" ed="#P" n="46"/>tam, quia non videtur per se loquendo esse
+          <lb ed="#P" n="47"/>tam gravis irreverentia Dei, inducere alium ad
+          <lb ed="#P" n="48"/>faciendum actum propter amorem suum, qui
+          <lb ed="#P" n="49"/>actus, ut est ab operante, est bonus, liceta
+          <lb ed="#P" n="50"/>a recipiente male postuletur; licet ergo ibi
+          <lb ed="#P" n="51"/>negari non possit aliqua malitia contra 
+          religio<lb break="no" ed="#P" n="52"/>nem, non tamen facile damnanda est ut 
+          mor<lb break="no" ed="#P" n="53"/>talis in illa specie.
+        </p>
+        <p xml:id="szovsr-m18724-d1e630">
+          <lb ed="#P" n="54"/>9. Quomodo requiratur justitia. — Ad 
+          justi<lb break="no" ed="#P" n="55"/>tiam autem adjurationis maxime pertinet, ut
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>super materiam licitam, et honestam cadat.
+          <lb ed="#P" n="57"/>Nam si res. quae postulatur vel imperatur sub
+          <lb ed="#P" n="58"/>invocatione divini nominis, turpis sit, injuria
+          <lb ed="#P" n="59"/>fit Deo, quia interponitur ut dans favorem et
+          <lb ed="#P" n="60"/>auctoritatem actioni turpi, vel quasi postulans
+          <lb ed="#P" n="61"/>aut imperans illam. Unde quoad hanc 
+          par<lb break="no" ed="#P" n="62"/>tem videtur culpa gravis contra religionem,
+          <lb ed="#P" n="63"/>sicut est gravis injuria vovere Deo aliquid 
+          tur<lb break="no" ed="#P" n="64"/>pe, etiamsi tantum sit veniale peccatum.
+          <lb ed="#P" n="65"/>Exempla sunt, si quis ab alio, amore Dei, 
+          pe<lb break="no" ed="#P" n="66"/>tat mendacium, aut injustum suffragium, vel
+          <lb ed="#P" n="67"/>actum inhonestum ; idemque erit, si petat 
+          ac<lb break="no" ed="#P" n="68"/>tum de se non malum ab eo, qui non potest
+          <lb ed="#P" n="69"/>licite illum exercere, sub eadem divina 
+          adjura<lb break="no" ed="#P" n="70"/>tione. De quibus exemplis judicandum est juxta
+          <lb ed="#P" n="71"/>superius dicta de juramento promissorio 
+          ca<lb break="no" ed="#P" n="72"/>dente in materiam illicitam ; licet enim ex suo
+          <lb ed="#P" n="73"/>genere peccatum mortale sit, tamen in 
+          indi<lb break="no" ed="#P" n="74"/>viduo potest esse veniale ex levitate materiae:
+          <lb ed="#P" n="75"/>idem ergo dicendum est de adjuratione, et
+          <lb ed="#P" n="76"/>praesertim quoad posteriorem partem; quia
+          <lb ed="#P" n="77"/>non tam graviter interponitur Dei auctoritas
+          <lb ed="#P" n="78"/>in adjuratione, sicut in juramento 
+          promisso<lb break="no" ed="#P" n="79"/>rio, ut tale est. Quocirca multo minor erit 
+          cul<lb break="no" ed="#P" n="80"/>pa, si adjuratio non fiat expresse propter
+          <lb ed="#P" n="81"/>Deum, sed propter vitam alicujus hominis,
+          <lb ed="#P" n="82"/>vel aliam rationem creatam, quae (ut dixi)
+          <lb ed="#P" n="83"/>vix meretur nonem adjurationis, et ita vix
+          <lb ed="#P" n="84"/>auget culpam pravae petitionis.
+        </p>
+        <p xml:id="szovsr-m18724-d1e702">
+          <lb ed="#P" n="85"/>10. Quomodo requiratur judicium. — 
+          Den<lb break="no" ed="#P" n="86"/>que ad judicium seu discretionem 
+          adjuratio<lb break="no" ed="#P" n="87"/>nis maxime pertinet modus. In quo primum
+          <lb ed="#P" n="88"/>obser vandum est, ut non leviter nec temere
+          <lb ed="#P" n="89"/>fiat in quacumqne occasione, absque ulla 
+          ne<lb break="no" ed="#P" n="90"/>cessitate, vel utilitate; nam tunc etiam 
+          assu<lb break="no" ed="#P" n="91"/>mitur nomen Dei in vanum, et ita non fit sine
+          <lb ed="#P" n="92"/>aliqua culpa, licet in tali materia semper 
+          vi<lb break="no" ed="#P" n="93"/>deatur venialis, ut afortiori constat ex hisquae
+          <lb ed="#P" n="94"/>de juramento dicta sunt. Denique observare
+          <lb ed="#P" n="95"/>oportet convenientem habitudinem adjurantis
+          <lb ed="#P" n="96"/>ad adjuratum, quae in hoc consistit, ut 
+          adju<lb break="no" ed="#P" n="97"/>retur solo imperio, qui capax est illius, et non
+          <lb ed="#P" n="98"/>alterius communicationis, vel e contrario ut
+          <lb ed="#P" n="99"/>adjuretur prece sola, qui non est capax 
+          impe<lb break="no" ed="#P" n="100"/>rii: si autem persona utriusque capax sit, 
+          po<lb break="no" ed="#P" n="101"/>terit licite utroque modo adjurari ad arbitrium
+          <lb ed="#P" n="102"/>adjurantis.
+        </p>
+        <p xml:id="szovsr-m18724-d1e744">
+          <lb ed="#P" n="103"/>11. Aliquot corrollaria, que em superiori
+          <lb ed="#P" n="104"/>doctrina inferuntur.— Atque hinc sequuntur
+          <lb ed="#P" n="105"/>aliqua ab omnibus recepta. Primum, esse 
+          pec<lb break="no" ed="#P" n="106"/>catum adjurare daemonem obsecrando, et 
+          ro<lb break="no" ed="#P" n="107"/>gando, propter rationes supra tactas, quia 
+          dae<lb break="no" ed="#P" n="108"/>mon secundum rectam rationem non est capax
+          <lb ed="#P" n="109"/>talis communicationis et societatis cum 
+          homi<lb break="no" ed="#P" n="110"/>ne. Secundum, non posse licite adjurari daema-
+          <pb ed="#P" n="748"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem, imperando illi aliquod obsequium, vel
+          <lb ed="#P" n="2"/>ministerium, redundans in hominis 
+          utilita<lb break="no" ed="#P" n="3"/>tem, tum propter eamdem rationem iniquae
+          <lb ed="#P" n="4"/>societatis ; tum etiam quia homo non habet hoc
+          <lb ed="#P" n="5"/>jus vel potestatem in daemonem, nec Deus 
+          il<lb break="no" ed="#P" n="6"/>lam permittit secundum ordinariam legem.
+          <lb ed="#P" n="7"/>Nam si intercedat miraculosa operatio ex 
+          spe<lb break="no" ed="#P" n="8"/>ciali instinctu Spiritus Sancti, jam purgabitur
+          <lb ed="#P" n="9"/>vitium ; nunquam tamen id contingit propter
+          <lb ed="#P" n="10"/>solam aliquam humanam utilitatem, maxime
+          <lb ed="#P" n="11"/>privatam, sed propter publicam et 
+          spiritua<lb break="no" ed="#P" n="12"/>lem, et ita semper redundabit in aliquam 
+          dae<lb break="no" ed="#P" n="13"/>monis confusionem et abjectionem, ad quem
+          <lb ed="#P" n="14"/>finem recte potest daemon imperiose adjurari,
+          <lb ed="#P" n="15"/>et tune jam servatur judicium, et justitia in
+          <lb ed="#P" n="16"/>tali adjuratione. Tertium, non posse licite 
+          ad<lb break="no" ed="#P" n="17"/>jurari cum imperio homines non subditos,
+          <lb ed="#P" n="18"/>quia tunc usurpatur potestas contra jus, quia
+          <lb ed="#P" n="19"/>imperare superioris est. Unde a fortiori 
+          con<lb break="no" ed="#P" n="20"/>stat esse peccatum adjurare superiorem 
+          impe<lb break="no" ed="#P" n="21"/>rando ill.
+        </p>
+        <p xml:id="szovsr-m18724-d1e814">
+          <lb ed="#P" n="22"/>12. Quartum est, non sine peccato adjurari
+          <lb ed="#P" n="23"/>irrationales creaturas, sive obsecrando illas,
+          <lb ed="#P" n="24"/>sive imperando eis cum proprietate, cum
+          <lb ed="#P" n="25"/>utrumque sit omnino vanum. In quibus 
+          om<lb break="no" ed="#P" n="26"/>nibus conveniunt auctores allegati, D. Thom.,
+          <lb ed="#P" n="27"/>in d. q. 90, per totam ; Richard., 3, d. 37,
+          <lb ed="#P" n="28"/>art.9 q.9. Anton. 9p., tit. 10, c. 8; Sylv.
+          <lb ed="#P" n="29"/>q. 7; Augel. et Tabien., qui aperte sentiunt, in
+          <lb ed="#P" n="30"/>his omnibhus esse aliquam mahtiam specialiter
+          <lb ed="#P" n="31"/>contra Deum et contra religionem, etiamsi 
+          ac<lb break="no" ed="#P" n="32"/>tus possit aliunde habere aliam malitiam 
+          con<lb break="no" ed="#P" n="33"/>tra aliam virtutem, ut justitiae vel 
+          temperan<lb break="no" ed="#P" n="34"/>iiae, vel in alia specie irreligiositatis, ut 
+          super<lb break="no" ed="#P" n="35"/>stitionis cum daemone, vel alterius similis. Et
+          <lb ed="#P" n="36"/>ratio est, quia in illis omnibus modis 
+          assumi<lb break="no" ed="#P" n="37"/>tur in vanum Dei nomen, proprio quodam
+          <lb ed="#P" n="38"/>modo et speciali, inde autem insurgit specialis
+          <lb ed="#P" n="39"/>malitia contra secundum praeceptum. An vero
+          <lb ed="#P" n="40"/>haec sit mortalis vel venialis, D. Thomas et
+          <lb ed="#P" n="41"/>Richar. nihil dicunt; Sylvester autem dicit
+          <lb ed="#P" n="42"/>non semper esse peccatum mortale, quod 
+          ve<lb break="no" ed="#P" n="43"/>rum est, ut ex dictis patet. Neque Angelus 
+          do<lb break="no" ed="#P" n="44"/>cet contrarium, solum enim ait ez se esse 
+          pec<lb break="no" ed="#P" n="45"/>catum mortale : quod magis explicuit Tabien.
+          <lb ed="#P" n="46"/>in ultimis verbis, dicens esse mortale ex 
+          gene<lb break="no" ed="#P" n="47"/>re suo. Quod est verum, quia ad hoc satis est ut
+          <lb ed="#P" n="48"/>ex vi talis speciei possit esse mortale, quod
+          <lb ed="#P" n="49"/>ita contingit in praesenti ; nam in duobus 
+          pri<lb break="no" ed="#P" n="50"/>mis casibus malitia mortalis est ex suo genere,
+          <lb ed="#P" n="51"/>quia videtur quidam contemptus Dei, vel 
+          re<lb break="no" ed="#P" n="52"/>rum sacrarum, rogare daemonem propter 
+          amo<lb break="no" ed="#P" n="53"/>rem Dei, vel ob reverentiam debitam rebus
+          <lb ed="#P" n="54"/>sacris. Idemque fere est de modo adjurandi
+          <lb ed="#P" n="55"/>daemonem, quasi usurpando divinam auctori-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tatem, et ita fatentur Summistae allegati.
+        </p>
+        <p xml:id="szovsr-m18724-d1e895">
+          <lb ed="#P" n="57"/>13. Dubium. —Dubitari autem non 
+          immeri<lb break="no" ed="#P" n="58"/>to potest, an ille actus habeat tunc duas 
+          ma<lb break="no" ed="#P" n="59"/>litias mortales specie distinctas, unam 
+          super<lb break="no" ed="#P" n="60"/>stitionis, vel tentationis Dei, et aliam 
+          irreli<lb break="no" ed="#P" n="61"/>giosae assumptionis nominis Dei. Nam 
+          specu<lb break="no" ed="#P" n="62"/>lative non est id improbabile, sed moraliter
+          <lb ed="#P" n="63"/>parum id refert, quia sunt ita conjunctae illae
+          <lb ed="#P" n="64"/>cireumstantiae, ut non possint separari vel
+          <lb ed="#P" n="65"/>sufficienter explicari una sine alia; et 
+          quid<lb break="no" ed="#P" n="66"/>quid sit de possibili, censeo non esse in 
+          confes<lb break="no" ed="#P" n="67"/>sione omittendam illam circumstantiam 
+          irre<lb break="no" ed="#P" n="68"/>ligiosae adjurationis, quia revera gravis est. In
+          <lb ed="#P" n="69"/>tertio etiam puncto, omnes fatentur malitiam
+          <lb ed="#P" n="70"/>esse mortalem ex suo genere, quatenus est 
+          con<lb break="no" ed="#P" n="71"/>tra justitiam. et est resclara. An vero malitia,
+          <lb ed="#P" n="72"/>quae additur contra religionem, sit mortalis,
+          <lb ed="#P" n="73"/>non declarant dicti auctores; mihi autem esse
+          <lb ed="#P" n="74"/>videtur, si materia sit etiam gravis momenti,
+          <lb ed="#P" n="75"/>quia usurpatur Dei nomen ad violentiam 
+          in<lb break="no" ed="#P" n="76"/>justam proximo inferendam. At in casu 
+          ul<lb break="no" ed="#P" n="77"/>timo res videtur vana et otiosa, et ideo non
+          <lb ed="#P" n="78"/>excedere gravitatem culpae venialis, nisi ex 
+          ali<lb break="no" ed="#P" n="79"/>quo gravi errore et superstitione procedat.
+        </p>
+        <p xml:id="szovsr-m18724-d1e947">
+          <lb ed="#P" n="80"/>14. An adjuratio imponat aliquam 
+          obliga<lb break="no" ed="#P" n="81"/>tionem implendi id quod per eam postulatur.—
+          <lb ed="#P" n="82"/>Resolutio dubii. — Ultimo inquiri potest, an
+          <lb ed="#P" n="83"/>adjuratio imponat aliquam obligationem 
+          per<lb break="no" ed="#P" n="84"/>sonae adjuratae ad faciendum id quod ab ea
+          <lb ed="#P" n="85"/>postulatur, ita ut illud non facere aliqua 
+          cul<lb break="no" ed="#P" n="86"/>pa sit, ex vi adjurationis. Quod dulium 
+          so<lb break="no" ed="#P" n="87"/>lum habet locum, quando persona adjurata
+          <lb ed="#P" n="88"/>est homo viator, ut per se constat. Et 
+          commu<lb break="no" ed="#P" n="89"/>nis resolutio esse videtur sub distinctione. Nam
+          <lb ed="#P" n="90"/>si adjuratio solum sit deprecativa, non 
+          indu<lb break="no" ed="#P" n="91"/>cit obligationem. Ratio est, quia deprecatio
+          <lb ed="#P" n="92"/>non imponit obligationem ; ergo nec 
+          adjura<lb break="no" ed="#P" n="93"/>tio deprecativa. Patet consequentia, quia nec
+          <lb ed="#P" n="94"/>addit praeceptum, nec promissionem, aut 
+          ju<lb break="no" ed="#P" n="95"/>ramentum ; non apparet autem ex quo alio
+          <lb ed="#P" n="96"/>capite possit oriri gravis obligatio. Nam sola
+          <lb ed="#P" n="97"/>reverentia ad Dei nomen potest quidem 
+          face<lb break="no" ed="#P" n="98"/>re, ut magis deceat vel expediat , non vero
+          <lb ed="#P" n="99"/>satis est ut inducat obligationem, et hoc 
+          ma<lb break="no" ed="#P" n="100"/>gis statim patebit.
+        </p>
+        <p xml:id="szovsr-m18724-d1e996">
+          <lb ed="#P" n="101"/>15. Si autem adjuratio sit cum imperio et
+          <lb ed="#P" n="102"/>sit justa, dicunt Anton., Sylv., et alii, 
+          induce<lb break="no" ed="#P" n="103"/>re obligationem sub mortali culpa; si vero
+          <lb ed="#P" n="104"/>sit injusta, nullam inducere; et hoc quidem
+          <lb ed="#P" n="105"/>posterius per se clarum est. Primum autem
+          <lb ed="#P" n="106"/>ab eis fundatur in sola justitia, unde solum
+          <lb ed="#P" n="107"/>habet locum, quando imperium est de re 
+          gra<lb break="no" ed="#P" n="108"/>vi, et per verba quae satis significent 
+          volun<lb break="no" ed="#P" n="109"/>tatem obligandi. Tunc enim si potestas 
+          suppo<lb break="no" ed="#P" n="110"/>natur, non est dubium quin oriatur obligatio,
+          <pb ed="#P" n="749"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel ex justitia, vel ex obedientia, juxta 
+          inten<lb break="no" ed="#P" n="2"/>tionem imperantis.
+        </p>
+        <p xml:id="szovsr-m18724-d1e1029">
+          <lb ed="#P" n="3"/>16. Dubium autem est an imperium illud,
+          <lb ed="#P" n="4"/>propter adjunctam adjurationem, inducat
+          <lb ed="#P" n="5"/>specialem obligationem religionis. ita ut non
+          <lb ed="#P" n="6"/>parens tali adjurationi sit non tantum 
+          inobe<lb break="no" ed="#P" n="7"/>diens, vel injustus, sed etiam sacrilegus. 
+          Doc<lb break="no" ed="#P" n="8"/>tores enim allegati indistincte loquuntur. 
+          An<lb break="no" ed="#P" n="9"/>ton. vero hoc posterius magis indicat, dicens,
+          <lb ed="#P" n="10"/>quod in eo casu, fenetur subditus sicut ex 
+          pre<lb break="no" ed="#P" n="11"/>cepto et juramento exacto, facere vel dicere ad
+          <lb ed="#P" n="12"/>quod adjuratur. Et in hauc sententiam 
+          incli<lb break="no" ed="#P" n="13"/>nare videtur Jansen., in c. 31 Concor., ubi
+          <lb ed="#P" n="14"/>ait, orationem hanc: Adjuro te per Deum, ita
+          <lb ed="#P" n="15"/>esse explicandum: Per gloriam, et 
+          obedien<lb break="no" ed="#P" n="16"/>tiam Deo debitam te obstringo, quasi te 
+          jure<lb break="no" ed="#P" n="17"/>AJurando ad hec adstringissem, ita ut 
+          temera<lb break="no" ed="#P" n="18"/>Ie religionis et obedientie in Deum crimen 
+          in<lb break="no" ed="#P" n="19"/>cidas, nisi parueris. Unde c. 18 ita exponit
+          <lb ed="#P" n="20"/>verba illa Phariseeorum ad caecum: Da gloriam
+          <lb ed="#P" n="21"/>Deo, nos scimus quia hic homo peccator est,
+          <lb ed="#P" n="22"/>etc., quod fuerit forma adjurandi apud 
+          Hae<lb break="no" ed="#P" n="23"/>braeos. Quod etiam ibi tradunt Tolet., etlatius
+          <lb ed="#P" n="24"/>Mald., ex illo Josue 7: Fili mi, da gloriam
+          <lb ed="#P" n="25"/>Domino Doeo, et confitere. Admonebantur enim
+          <lb ed="#P" n="26"/>lis verbis, ut Maldonatus ait, stare se coram
+          <lb ed="#P" n="27"/>Deo, reverendam sibi ejus esse majestatem.
+          <lb ed="#P" n="28"/>Ne ergo coram illo mentirentur, qui omnia
+          <lb ed="#P" n="29"/>probe sciret, quasi judicantes illum ignarum
+          <lb ed="#P" n="30"/>esse humanarun rerum, qua magna in Deum
+          <lb ed="#P" n="31"/>erat injuria, luunc potius illi honorem 
+          defer<lb break="no" ed="#P" n="32"/>rent . ui confitenda illius reverentia 
+          veri<lb break="no" ed="#P" n="33"/>ltate, ostenderent se credere nihil illum 
+          igno<lb break="no" ed="#P" n="34"/>rare.
+        </p>
+        <p xml:id="szovsr-m18724-d1e1101">
+          <lb ed="#P" n="35"/>17. Et sola adjuratione non oriri propriam
+          <lb ed="#P" n="36"/>obligationem religionis.—Nihilominus tamen
+          <lb ed="#P" n="37"/>existimo, ex sola adjuratione non oriri 
+          pro<lb break="no" ed="#P" n="38"/>priam obligationem intra virtutem religionis,
+          <lb ed="#P" n="39"/>nisi eo procedat adjuratio, ut per eam 
+          jura<lb break="no" ed="#P" n="40"/>mentum exigatur, et in eo sensu satis clare
+          <lb ed="#P" n="41"/>fiat. Ratio est, quia licet judex habeat 
+          potes<lb break="no" ed="#P" n="42"/>tatem ad interrogandam veritatem, et ad 
+          prae<lb break="no" ed="#P" n="43"/>cipiendum ut subditus illam declaret, et 
+          jura<lb break="no" ed="#P" n="44"/>mento confirmet , nihilominus, secluso 
+          jura<lb break="no" ed="#P" n="45"/>mento, non potest actionem illam constituere
+          <lb ed="#P" n="46"/>in materia religionis, nec obligationem 
+          impo<lb break="no" ed="#P" n="47"/>nere utendi confessione illa veritatis, ut signo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="48"/>divini cultus et honoris. Alias etiam posset
+          <lb ed="#P" n="49"/>Praelatus interrogans illam confessionem in
+          <lb ed="#P" n="50"/>materia fidei constituere, et exigere illam, ut
+          <lb ed="#P" n="51"/>fidei confessionem de divina praesentia et
+          <lb ed="#P" n="52"/>scientia rerum omnium humanarum, quod
+          <lb ed="#P" n="53"/>dicere ridiculum esse:. Quia potestas 
+          supe<lb break="no" ed="#P" n="54"/>rioris aut judicis ad extorquendam 
+          confessio<lb break="no" ed="#P" n="55"/>nem veritatis non ordinatur ad confessionem
+          <lb ed="#P" n="56"/>fidei divinae, neque ad cultum religiosum Dei,
+          <lb ed="#P" n="57"/>sed ad humana judicia vel negotia 
+          terminan<lb break="no" ed="#P" n="58"/>da. Et ideo ex vi illius potestatis non potest
+          <lb ed="#P" n="59"/>ipsam confessionem veritatis in facto humano
+          <lb ed="#P" n="60"/>praecipere sub ratione confessionis fidei 
+          divi<lb break="no" ed="#P" n="61"/>nae, vel cultus religiosi. Juramentum autem
+          <lb ed="#P" n="62"/>potest exigere, quia, ut ait Paulus ad 
+          Hae<lb break="no" ed="#P" n="63"/>braeos 6: Omnis controversie finis ad 
+          confir<lb break="no" ed="#P" n="64"/>mationem est juramentum. Adjuratio autem
+          <lb ed="#P" n="65"/>per se sumpta non habet hanc vim, nec ad
+          <lb ed="#P" n="66"/>hunc finem est introducta; sed solum ut ex
+          <lb ed="#P" n="67"/>divini nominis commemoratione, alter 
+          timo<lb break="no" ed="#P" n="68"/>re, vel reverentia ipsius, aut amore 
+          movea<lb break="no" ed="#P" n="69"/>tur, etiamsi inde specialis obligatio non 
+          oria<lb break="no" ed="#P" n="70"/>tur. Et ideo Jacob, licet prius adjurasset filium
+          <lb ed="#P" n="71"/>suum Joseph, et ille obtulisset facere quod 
+          ro<lb break="no" ed="#P" n="72"/>gabatur, nihilominus juramentum postea ab
+          <lb ed="#P" n="73"/>illo postulavit, ut religiosam obligationem vel
+          <lb ed="#P" n="74"/>praecepto suo, vel simplici promissioni 
+          adde<lb break="no" ed="#P" n="75"/>ret, ut supra notatum est, ex Genes. 47. Ita
+          <lb ed="#P" n="76"/>ergo judices et superiores, ut gravem 
+          religio<lb break="no" ed="#P" n="77"/>nis obligationem inducant, sic adjurant 
+          sub<lb break="no" ed="#P" n="78"/>ditos, ut ab eis tandem juramentum exigant;
+          <lb ed="#P" n="79"/>praemittunt autem adjurationem, ut majorem
+          <lb ed="#P" n="80"/>reverentiam erga Deum, et timorem 
+          pejeran<lb break="no" ed="#P" n="81"/>di eis immittant. At vero si sola adjuratione
+          <lb ed="#P" n="82"/>utantur, absque juramenti exactione, poterunt
+          <lb ed="#P" n="83"/>ex justitia vel obedientia obligare; et fortasse
+          <lb ed="#P" n="84"/>graviori quodam modo intra illam speciem
+          <lb ed="#P" n="85"/>propter majorem excitationem subditi ad
+          <lb ed="#P" n="86"/>considerandam negotii gravitatem et 
+          potes<lb break="no" ed="#P" n="87"/>tatem ministerialem Dei, a qua imperatur. 
+          Ni<lb break="no" ed="#P" n="88"/>si tamen procedant ad juramentum 
+          exigen<lb break="no" ed="#P" n="89"/>dum, non credo adjungere specialem 
+          obliga<lb break="no" ed="#P" n="90"/>tionem religionis, propter rationem 
+          explica<lb break="no" ed="#P" n="91"/>tam. Semper tamen cavendus est 
+          contemp<lb break="no" ed="#P" n="92"/>tus, nam si quis adjurationem contemneret,
+          <lb ed="#P" n="93"/>posset graviter peccare, si in Deum ipsum 
+          con<lb break="no" ed="#P" n="94"/>temptus redundaret.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

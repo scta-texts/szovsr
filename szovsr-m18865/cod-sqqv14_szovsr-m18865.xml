@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="753"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m18865"><!-- t6l1prae -->
+        <head xml:id="szovsr-m18865-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m18865-d1e103">
+          <pb ed="#P" n="753"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER PRIMUS
+          <lb ed="#P" n="2"/>ESSENTIA ET HONESTATE VOTI.
+        </p>
+        <p xml:id="szovsr-m18865-d1e114">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="3"/>Methodus servanda in hoc tractatu. — 
+          Ser<lb break="no" ed="#P" n="4"/>vabimus in hoc tractatu methodum quam 
+          so<lb break="no" ed="#P" n="5"/>lemus. Et in hof libro de illius natura seu 
+          es<lb break="no" ed="#P" n="6"/>sentia dicemus; in sequentibus de causis et
+          <lb ed="#P" n="7"/>effectibus ejus, ac tandem de illius 
+          dispensa<lb break="no" ed="#P" n="8"/>tione, et aliis modis quibus auferri potest,
+          <lb ed="#P" n="9"/>tractabimus. Et quamvis satis per se notum
+          <lb ed="#P" n="10"/>sit votum esse possibile, imo esse in usu ct
+          <lb ed="#P" n="11"/>consuetudine hominum. nihilominus propter
+          <lb ed="#P" n="12"/>hujus temporis haereticos aliquid de hac 
+          quae<lb break="no" ed="#P" n="13"/>stione praemittere necessarium erit, postea
+          <lb ed="#P" n="14"/>vero inquiremus quid votum sit. Significatur
+          <lb ed="#P" n="15"/>autem nomine voti, ut dixi, promissio 
+          homi<lb break="no" ed="#P" n="16"/>nis ad Deum; promissio autem actum dicit
+          <lb ed="#P" n="17"/>humanum, voluntarium, et obligationem 
+          mo<lb break="no" ed="#P" n="18"/>ralem inducentem. Votum ergo similem 
+          ac<lb break="no" ed="#P" n="19"/>tum dicit, juxta illud Augustin., Epist. 45:
+          <lb ed="#P" n="20"/>Jam vovisti, jam te astrinaistt; esV ergo 
+          vo<lb break="no" ed="#P" n="21"/>tum quidam actus, per quem homo voluntarie
+          <lb ed="#P" n="22"/>se obligat Deo. Per hunc enim effectum recte
+          <lb ed="#P" n="23"/>in hac generalitate et confusione explicatur,
+          <lb ed="#P" n="24"/>praesertim cum effectus ille quasi formalis 
+          vi<lb break="no" ed="#P" n="25"/>deatur, et ideo in illius cognitione tcta fere
+          <lb ed="#P" n="26"/>cognitio voti consistit. Ex hoc ergo effectu
+          <lb ed="#P" n="27"/>constat, tam voluntatis quam intellectus actus
+          <lb ed="#P" n="28"/>esse ad votum necessarios, quia moralis 
+          obli<lb break="no" ed="#P" n="29"/>gatio sine intellectu dirigente, et voluntate
+          <lb ed="#P" n="30"/>consentiente non tit. Imo etiam sequitur, his
+          <lb ed="#P" n="31"/>actibus votum per se loquendo consummar;
+          <lb ed="#P" n="32"/>quia illius obligatio Deum respicit, qui cor 
+          in<lb break="no" ed="#P" n="33"/>tuetur, et signis externis ad cognoscendam
+          <lb ed="#P" n="34"/>hominis voluntatem non indiget. Quod si 
+          in<lb break="no" ed="#P" n="35"/>terdum adhibentur, id est vel ut de 
+          obiiga<lb break="no" ed="#P" n="36"/>tione voti aliis hominibus constet, vel ut cum
+          <lb ed="#P" n="37"/>majori aliqua solemnitate ecclesiastica fiat,
+          <lb ed="#P" n="38"/>vel ut homo ipse ad majorem devotionem in
+          <lb ed="#P" n="39"/>vovendo, et majorem sollicitudinem in 
+          obser<lb break="no" ed="#P" n="40"/>vando votum excitetur, ut notavit D. Thomas
+          <lb ed="#P" n="41"/>in art. 1 hujus meteriae, et infra suis locis 
+          di<lb break="no" ed="#P" n="42"/>cetur. Ad explicandam ergo essentiam voti,
+          <lb ed="#P" n="43"/>oportet imprimis exponere actus intellectus et
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="44"/>voluntatis, quibus perficitur. Deinde vero de
+          <lb ed="#P" n="45"/>ipsius honestate dicemus. Et quoniam sine
+          <lb ed="#P" n="46"/>formali objecto intelligi non potest specifica
+          <lb ed="#P" n="47"/>honestas, ideo de personis, quibus votum fieri
+          <lb ed="#P" n="48"/>potest, et sub qua ratione fieri debeat, in hoc
+          <lb ed="#P" n="49"/>libro dicere oportebit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 5</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 5</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="935"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m23427"><!-- t6l4c5 -->
+        <head xml:id="szovsr-m23427-Hd1e101">Caput 5</head>
+        <head xml:id="szovsr-m23427-Hd1e103" type="question-title">De obligatione voti de quo dubitatur an factum sit</head>
+        <p xml:id="szovsr-m23427-d1e106">
+          <pb ed="#P" n="935"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT V.
+          <lb ed="#P" n="2"/>DE OBLIGATIONE VOTI DE QUO DUBITATUR AN
+          <lb ed="#P" n="3"/>FACTUM SIT.
+        </p>
+        <p xml:id="szovsr-m23427-d1e119">
+          <lb ed="#P" n="4"/>1. Duplex dubium circa votum. — Duplex
+          <lb ed="#P" n="5"/>potest circa votum oriri dubium : unum est,
+          <lb ed="#P" n="6"/>an factum fuerit, necne ; aliud est, an votum,
+          <lb ed="#P" n="7"/>quod constat certo factum esse, obliget, vel
+          <lb ed="#P" n="8"/>an obliget tali vel tali modo. Et quoniam non
+          <lb ed="#P" n="9"/>est eadem regula in utroque dubio servanda,
+          <lb ed="#P" n="10"/>ideo de illis sigillatim dicendum est. Circa
+          <lb ed="#P" n="11"/>primum igitur contrarias invenio opiniones.
+          <lb ed="#P" n="12"/>Prima simpliciter affirmat, tale votum, de quo
+          <lb ed="#P" n="13"/>dubitatur an factum sit, obligare ad sui 
+          ob<lb break="no" ed="#P" n="14"/>servationem. Tenet expresse Corduba, in Sum.,
+          <lb ed="#P" n="15"/>quaest. 141, refertque Cajetanum, Sylvestrem
+          <lb ed="#P" n="16"/>et Sotum, qui id pon dicunt. Magis favet 
+          An<lb break="no" ed="#P" n="17"/>gel., Votum, 3, num. 13, licet in propriis 
+          ter<lb break="no" ed="#P" n="18"/>minis bon loquatur, ut infra dicam; favet
+          <lb ed="#P" n="19"/>Sylvester, Votu, 2, quaest. 2, versu quarto,
+          <lb ed="#P" n="20"/>nam in quodam casu dubio, dicit tutius esse
+          <lb ed="#P" n="21"/>servare votum, cum Archid., qui refertur, inc.
+          <lb ed="#P" n="22"/>Non solum, 39, quaest. 8, sed ibi aliud agit.
+          <lb ed="#P" n="23"/>Tenet Azor, tom. 1, lib. 2, cap. 19, quaest. 10;
+          <lb ed="#P" n="24"/>latius Vasquez, 1. 2, disp. 65, cap. 3; inclinat
+          <lb ed="#P" n="25"/>Navarrus, consilio 26, de Voto, num. 2.
+        </p>
+        <p xml:id="szovsr-m23427-d1e169">
+          <lb ed="#P" n="26"/>2. Probatur primo, quia in dubio facti 
+          tu<lb break="no" ed="#P" n="27"/>tior pars est eligenda; sed dubium voti est
+          <lb ed="#P" n="28"/>dubium facti; ergo. Minor facile probatur,
+          <lb ed="#P" n="29"/>quia est dubium an fecerim votum, necne,
+          <lb ed="#P" n="30"/>quod spectat ad purum factum. Nam licet 
+          vo<lb break="no" ed="#P" n="31"/>tum diei soleat privata lex, jam supra 
+          dixi<lb break="no" ed="#P" n="32"/>mus hoc non per proprietatem , sed per
+          <lb ed="#P" n="33"/>quamdam analogiam dici, cum votum non
+          <lb ed="#P" n="34"/>sit actus jurisictionis vel imperii, in quo
+          <lb ed="#P" n="35"/>propria lex seu jus consistit, sed actus 
+          pro<lb break="no" ed="#P" n="36"/>missionis, quae ad factum pertinet, ut 
+          con<lb break="no" ed="#P" n="37"/>stat inter homines. Major autem probatur
+          <lb ed="#P" n="38"/>primo inductione : nam dubitans de veritate
+          <lb ed="#P" n="39"/>matrimonii, et an haec sit uxor sua, non
+          <lb ed="#P" n="40"/>potest petere debitum ; ibi enim intervenit
+          <lb ed="#P" n="41"/>dubium facti, puta contractus matrimonii et
+          <lb ed="#P" n="42"/>valoris ejus, ex quo oritur periculum 
+          agen<lb break="no" ed="#P" n="43"/>di contra naturale jus prohibens fornicationem
+          <lb ed="#P" n="44"/>accedendo ad uxorem dubiam. Idem autem
+          <lb ed="#P" n="45"/>est in praesenti, nam dubitans de voto, et
+          <lb ed="#P" n="46"/>agens contra illud, exponit se periculo agendi
+          <lb ed="#P" n="47"/>contra paturale jus reddendi Domino vota, seu
+          <lb ed="#P" n="48"/>violandi illa. Secundum exemplum est dc 
+          ir<lb break="no" ed="#P" n="49"/>regularitate ; nam in dubio facti tenetur quis
+          <lb ed="#P" n="50"/>se gerere ut irregularis, juxta cap. Ad 
+          aa<lb break="no" ed="#P" n="51"/>dientiam, de Homicid., et tamen est eadem
+          <lb ed="#P" n="52"/>ratio. :
+        </p>
+        <p xml:id="szovsr-m23427-d1e231">
+          <lb ed="#P" n="53"/>3. Tertio facit axioma illuc : In dubiis tu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>tior pars est eligenda, approbatum in Jure, c.
+          <lb ed="#P" n="55"/>Juvenis, de Sponsalib., et d. cap. Ad 
+          audien<lb break="no" ed="#P" n="56"/>Ltium, et cap. Significasti, 2, de Homicid.; sed
+          <lb ed="#P" n="57"/>in praesenti tutius est servare dubium votum,
+          <lb ed="#P" n="58"/>quia in hoc nihil est periculi, in 
+          transgressio<lb break="no" ed="#P" n="59"/>ne est periculum non implendi promissum;
+          <lb ed="#P" n="60"/>ergo. Et confirmatur, quia alias nunquam 
+          ha<lb break="no" ed="#P" n="61"/>beret locum illud principium, quod dici non
+          <lb ed="#P" n="62"/>potest , nam est contra jura et contra 
+          commu<lb break="no" ed="#P" n="63"/>nem conceptionem. Sequela vero patet, quia
+          <lb ed="#P" n="64"/>qua ratione in hoc casu non admittitur nec 
+          ap<lb break="no" ed="#P" n="65"/>plicatur, eadem non habebit locum in 
+          quoli<lb break="no" ed="#P" n="66"/>bet alio. Probatur hoc, quia si aliqua hic 
+          sub<lb break="no" ed="#P" n="67"/>esset ratio, maxime quia in dubio melior est
+          <lb ed="#P" n="68"/>conditio hominis possidentis suam libertatem;
+          <lb ed="#P" n="69"/>at haec ratio currit in matrimonio, in 
+          irregu<lb break="no" ed="#P" n="70"/>laritate, et in omnibus, etc. Unde inferunt
+          <lb ed="#P" n="71"/>dicti auctores illud aliud axioma : 7n dubiis
+          <lb ed="#P" n="72"/>melior est conditio possidentis, solum habere
+          <lb ed="#P" n="73"/>locum in materia justitiae, et ideo non recte
+          <lb ed="#P" n="74"/>hic applicari, quia non de obligatione 
+          justi<lb break="no" ed="#P" n="75"/>tiae, sed de periculo violandi religionem 
+          trac<lb break="no" ed="#P" n="76"/>tatur; in dubio autem favendum est religioni,
+          <lb ed="#P" n="77"/>et divino cultui, L. Sunt persone, tt. de Relig.
+          <lb ed="#P" n="78"/>et sumpti. funer. Sic enim non habet locum
+          <lb ed="#P" n="79"/>in irregularitate propter idem periculum 
+          con<lb break="no" ed="#P" n="80"/>tra religionem, nec in matrimonio propter
+          <lb ed="#P" n="81"/>periculum in materia castitatis, et sic de altis.
+          <lb ed="#P" n="82"/>Et ratio reddi potest, quia possessio non dat
+          <lb ed="#P" n="83"/>jus spirituale, nec proprie habet locum nisi in
+          <lb ed="#P" n="84"/>materia justitiae.
+        </p>
+        <p xml:id="szovsr-m23427-d1e305">
+          <lb ed="#P" n="85"/>4. Secunda opinio. — Secunda opinio 
+          abso<lb break="no" ed="#P" n="86"/>lute dicit, quando dubium est an votum fuerit
+          <lb ed="#P" n="87"/>emissum, non teneri aliquem ad servandum
+          <lb ed="#P" n="88"/>illud. Tenet Soto, lib. 7 de Just., q. 3, art. 2;
+          <lb ed="#P" n="89"/>Med., in Sum., lib. 1,c. 14, 8 7; Angel, q.9,
+          <lb ed="#P" n="90"/>de Jejun., art. 1, difficul. 7, dub. 2, proposit.
+          <lb ed="#P" n="91"/>3, et idem fere habet, licet minus constanter,
+          <lb ed="#P" n="92"/>in quaest. 4, art. 1, difficult. 3, dub. 3, prop.
+          <lb ed="#P" n="93"/>2. Denique hanc partem secuti sunt Ludovic.
+          <lb ed="#P" n="94"/>Lop., Emmanuel Rodr., Henriq. et alii, quos
+          <lb ed="#P" n="95"/>refert et sequitur Sancius, lib. 1 de Sponsalib.,
+          <lb ed="#P" n="96"/>disp. 9, n. 11; et favet Glossa, in cap. Ez
+          <lb ed="#P" n="97"/>parte, de Censib., in propositione casus in 
+          fi<lb break="no" ed="#P" n="98"/>ne, ubi pro regula statuit, in dubiis liberum
+          <lb ed="#P" n="99"/>esse sequi quod magis placuerit ; quae nimis
+          <lb ed="#P" n="100"/>ampla videri potest. Sed limitanda videtur
+          <lb ed="#P" n="101"/>juxta materiam textus, quae est de voto reali,
+          <lb ed="#P" n="102"/>in quo dubium est de quantitate promissa;
+          <lb ed="#P" n="103"/>nam tunc sentit Glossa, liberum esse voventi,
+          <lb ed="#P" n="104"/>illam determinare; ergo idem sentit quando
+          <lb ed="#P" n="105"/>est dubium de toto voto emisso. Et hanc 
+          sen<lb break="no" ed="#P" n="106"/>tentiam obiter in aliis locis probavi, et nunc
+          <lb ed="#P" n="107"/>etiam veram esse judico: oportet tamen illam
+          <lb ed="#P" n="108"/>convenienter ex ponere et fundare.
+        </p>
+        <p xml:id="szovsr-m23427-d1e360">
+          <pb ed="#P" n="936"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>5. Sensus quaestionis expenditur, et de quo
+          <lb ed="#P" n="2"/>dbio sit sermo. — Principio ergo 
+          supponen<lb break="no" ed="#P" n="3"/>dum est, sensum quaestionis esse de dubio,
+          <lb ed="#P" n="4"/>quod vocant negativum , quando intellectus
+          <lb ed="#P" n="5"/>ita est in utramque partem suspensus, ut 
+          neu<lb break="no" ed="#P" n="6"/>tri det assensum . quia pro neutra habet 
+          ra<lb break="no" ed="#P" n="7"/>tiores quae ad judicium saltem probabile 
+          fte<lb break="no" ed="#P" n="8"/>rendum sufficiant. Nam si dubium sit 
+          positi<lb break="no" ed="#P" n="9"/>vum, id est , per judicium probabile 
+          utrius<lb break="no" ed="#P" n="10"/>que partis, tunc omnes fere auctores 
+          consen<lb break="no" ed="#P" n="11"/>tiunt, si homo judicet probabiliter se non
+          <lb ed="#P" n="12"/>emisisse votum, non obligari tali voto, 
+          etiam<lb break="no" ed="#P" n="13"/>si fortasse habeat rationes probabiles, quae
+          <lb ed="#P" n="14"/>contrarium suadeant ; nam inter probabilia
+          <lb ed="#P" n="15"/>potest homo tuta conscientia sequi quam 
+          par<lb break="no" ed="#P" n="16"/>tcm maluerit ; quod est certum, quando 
+          pro<lb break="no" ed="#P" n="17"/>babilitas utrinque est aequalis, quod praesenti
+          <lb ed="#P" n="18"/>instituto sufficit. At vero si judicium 
+          positi<lb break="no" ed="#P" n="19"/>vum sit, votum fuisse factum, et dubium sit
+          <lb ed="#P" n="20"/>tantum formidinis, non sufficit ad 
+          constituen<lb break="no" ed="#P" n="21"/>dum hominem in vero dubio morali ; ut si
+          <lb ed="#P" n="22"/>quis probabiliter credat se emisisse votum, et
+          <lb ed="#P" n="23"/>ad contrarium credendum non habeat 
+          pro<lb break="no" ed="#P" n="24"/>babilia motiva, sed solam formidinem, quia
+          <lb ed="#P" n="25"/>non habet evidentiam , sed probabiles 
+          conjec<lb break="no" ed="#P" n="26"/>turas, tunc non est dubium quin teneatur
+          <lb ed="#P" n="27"/>servare votum. Quia illa probabilitas facit 
+          cer<lb break="no" ed="#P" n="28"/>titudinem moralem, quando non est alia 
+          si<lb break="no" ed="#P" n="29"/>milis in contrarium, quia in rebus humanis
+          <lb ed="#P" n="30"/>non est major certitudo exigenda, cum vix
+          <lb ed="#P" n="31"/>aliquid per infallibilem evidentiam 
+          cognosca<lb break="no" ed="#P" n="32"/>mus. Neque oportet distinguere de judicio
+          <lb ed="#P" n="33"/>magis vel minus firmo, seu cum majori vel
+          <lb ed="#P" n="34"/>minori formidine ; nam si judicium est revera
+          <lb ed="#P" n="35"/>probabile in favorem voti, illud sufficit ut
+          <lb ed="#P" n="36"/>votrm integre servandum sit, etiamsi sit 
+          mi<lb break="no" ed="#P" n="37"/>nimum, seu cum quacumque formidine, si 
+          ju<lb break="no" ed="#P" n="38"/>dicium in contrarium non est probabile. Hic
+          <lb ed="#P" n="39"/>ergo agimus de dubio negativo, quod durat
+          <lb ed="#P" n="40"/>quamdiu pro neutra parte ferri potest 
+          pro<lb break="no" ed="#P" n="41"/>babile judicium. Nec refert quod pro altera
+          <lb ed="#P" n="42"/>sint plures vel pauciores conjecturae, si 
+          neu<lb break="no" ed="#P" n="43"/>trae sufficiant ad judicium probabile pro 
+          alte<lb break="no" ed="#P" n="44"/>ra parte, quia tunc simpliciter manet 
+          intellec<lb break="no" ed="#P" n="45"/>tus suspensus, et rationes aeque procedunt, ut
+          <lb ed="#P" n="46"/>videbimus.
+        </p>
+        <p xml:id="szovsr-m23427-d1e467">
+          <lb ed="#P" n="47"/>6. Duples status, in quo dubitans esse 
+          pa<lb break="no" ed="#P" n="48"/>test de emissione voti.—Secundo, distinguendi
+          <lb ed="#P" n="49"/>sunt duo status dubitantis dicto modo. Unus
+          <lb ed="#P" n="50"/>est, quando homo dubitat, et diligentiam non
+          <lb ed="#P" n="51"/>fecit ad expellendum dubium, et veritatem 
+          in<lb break="no" ed="#P" n="52"/>veniendam. Alter est, quando postquam in
+          <lb ed="#P" n="53"/>dubium incidit, moralem diligentiam fecit, et
+          <lb ed="#P" n="54"/>non potuit dubium expellere, nec 
+          probabilita<lb break="no" ed="#P" n="55"/>tem invenire, sed suspensus sicut in principio
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>manet. Dubium ergo accipi debet in hoc 
+          pos<lb break="no" ed="#P" n="57"/>teriori statu: nam in priori certum existimo,
+          <lb ed="#P" n="58"/>non posse hominem agere contra votum,
+          <lb ed="#P" n="59"/>priusquam diligentiam adhibeat ad veritatem
+          <lb ed="#P" n="60"/>cognoscendam, hoc enim ad minimum 
+          pro<lb break="no" ed="#P" n="61"/>bant motiva primae opinionis. Nam sine dubio
+          <lb ed="#P" n="62"/>esset magna temeritas sic agere contra votum
+          <lb ed="#P" n="63"/>dubium sine alio examine, nam sic operans
+          <lb ed="#P" n="64"/>evidenti periculo errandi se exponeret. 
+          Intel<lb break="no" ed="#P" n="65"/>ligendum autem hoc est, supposita potestate
+          <lb ed="#P" n="66"/>faciendi diligentiam, et differendi voti 
+          execu<lb break="no" ed="#P" n="67"/>tionem et transgressionem. Nam si votum 
+          ne<lb break="no" ed="#P" n="68"/>cessario sit statim exequendum vel 
+          omitten<lb break="no" ed="#P" n="69"/>dum, ut contingit maxime in votis negativis
+          <lb ed="#P" n="70"/>et in affirmativis pro certo tempore 
+          propin<lb break="no" ed="#P" n="71"/>quo, tunc satisfaciet dubitans si juxta 
+          tempo<lb break="no" ed="#P" n="72"/>ris apngustias et capacitatem diligentiam 
+          adhi<lb break="no" ed="#P" n="73"/>beat, prout potuerit ; nam si quod in se est
+          <lb ed="#P" n="74"/>faciat pro tali opportunitate, jam erit 
+          consi<lb break="no" ed="#P" n="75"/>tutus in posteriori statu dubii, de quo est 
+          con<lb break="no" ed="#P" n="76"/>troversia.
+        </p>
+        <p xml:id="szovsr-m23427-d1e537">
+          <lb ed="#P" n="77"/>1. Dubius de voto post moralem daligentiam
+          <lb ed="#P" n="78"/>factam non tenetur servare illud. — His 
+          posi<lb break="no" ed="#P" n="79"/>tis dico, eum, qui post moralem diligentiam
+          <lb ed="#P" n="80"/>dubius manet de voto emisso , et non potest
+          <lb ed="#P" n="81"/>ferre probabile judicium quod illud emiserit,
+          <lb ed="#P" n="82"/>non teneri ad talis voti observationem. 
+          Pro<lb break="no" ed="#P" n="83"/>batur primo ex communi fundamento , quod
+          <lb ed="#P" n="84"/>in dubiis melior est conditio possidentis ; nam
+          <lb ed="#P" n="85"/>ille sic dubitans possidet suam libertatem ;
+          <lb ed="#P" n="86"/>ergo est melioris conditionis, ut non 
+          subjicia<lb break="no" ed="#P" n="87"/>tur obligationi voti propter solam 
+          dubitatio<lb break="no" ed="#P" n="88"/>nem. hespondent principium illud: 7n dubais
+          <lb ed="#P" n="89"/>melior est conditio possidentis, habere locum
+          <lb ed="#P" n="90"/>in materia justitiae, non aliarum virtutum.
+          <lb ed="#P" n="91"/>Sed hoc gratis dicitur. Primo, quia jura, ex
+          <lb ed="#P" n="92"/>quibus regnula ilia desumitur, generatim et 
+          si<lb break="no" ed="#P" n="93"/>ne restrictione loquuntur ; ut in cap. 7n pari,
+          <lb ed="#P" n="94"/>65, de Regul. jur., in 6, absolute dicitur, in
+          <lb ed="#P" n="95"/>quacumque causa praeferri jus possidentis.
+        </p>
+        <p xml:id="szovsr-m23427-d1e581">
+          <lb ed="#P" n="96"/>8. Secundo, quia nulla ratio differentiae 
+          as<lb break="no" ed="#P" n="97"/>signatur, nec assignari posse videtur, quod in
+          <lb ed="#P" n="98"/>hunc modum declaro. Quia in materia justitiae
+          <lb ed="#P" n="99"/>principium illud, vel fundatur in hoc, quod
+          <lb ed="#P" n="100"/>quando est dubium circa fundamentum 
+          obli<lb break="no" ed="#P" n="101"/>gationis, ut verbi gratia, an haec res sit mea,
+          <lb ed="#P" n="102"/>vel aliena, est quaedam aequalitas inter 
+          obli<lb break="no" ed="#P" n="103"/>gationem restituendi, et potestatem 
+          retinen<lb break="no" ed="#P" n="104"/>di, et alioquin possessio rei confert aliquod
+          <lb ed="#P" n="105"/>jus, et ideo praevalet jus possidentis. Vel 
+          fun<lb break="no" ed="#P" n="106"/>datur in hoc, quod propter solum dubium
+          <lb ed="#P" n="107"/>non sunt immutandsae res ab antiquo statu, in
+          <lb ed="#P" n="108"/>quo bona fide existehant, quia cum in dubio
+          <lb ed="#P" n="109"/>sit quaedam aequalitas utrinque, non est cur
+          <lb ed="#P" n="110"/>potius in unam partem obliget quam in aliam.
+          <pb ed="#P" n="937"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Vel fundatur in hoc, quod interveniente
+          <lb ed="#P" n="2"/>ignorantia invincibili insurgit excusatio 
+          obli<lb break="no" ed="#P" n="3"/>gationis; intercedente autem dubio, 
+          inter<lb break="no" ed="#P" n="4"/>venit ignorantia rei, de qua dubitatur, et facta
+          <lb ed="#P" n="5"/>diligentia ad expellendum dubium, et 
+          per<lb break="no" ed="#P" n="6"/>severante nihilominus dubio, fit illa 
+          igno<lb break="no" ed="#P" n="7"/>rantia inculpabilis, quia non fuit in potestate
+          <lb ed="#P" n="8"/>hominis illam depellere, et ideo impedit 
+          obh<lb break="no" ed="#P" n="9"/>gationem. Vel fundatur in hoc, quod obligatio
+          <lb ed="#P" n="10"/>est onerosa, et suo modo odiosa, et ideo 
+          res<lb break="no" ed="#P" n="11"/>tringenda, ut non oriatur, nisi ubi 
+          fundamen<lb break="no" ed="#P" n="12"/>tum ejus moraliter certum est, praesertim ubi
+          <lb ed="#P" n="13"/>caetera non sunt paria. At hae omnes rationes
+          <lb ed="#P" n="14"/>habent locum extra materiam justitiae, et 
+          spe<lb break="no" ed="#P" n="15"/>cialiter in voto, de quo tractamus ; ergo. 
+          Con<lb break="no" ed="#P" n="16"/>sequentiam suppono ut claram, quia nec aiia
+          <lb ed="#P" n="17"/>ratio ultra insinuatas in majori affertur, neque
+          <lb ed="#P" n="18"/>facile est aliam invenire, quae sit propria 
+          ju<lb break="no" ed="#P" n="19"/>stitiae, ut ex dicendis clarius constabit.
+          <lb ed="#P" n="20"/>9. Probatur ergo minor quoad singulas 
+          par<lb break="no" ed="#P" n="21"/>tes; nam imprimis etiam in voto dubio est
+          <lb ed="#P" n="22"/>quaedam aequalitas inter obligationem 
+          dan<lb break="no" ed="#P" n="23"/>di seu faciendi, et potestatem non solvendi,
+          <lb ed="#P" n="24"/>quia dubium aeque versatur in fundamento
+          <lb ed="#P" n="25"/>obligationis, quod est promissio, et aliunde
+          <lb ed="#P" n="26"/>homo possidet suam libertatem, et rem 
+          il<lb break="no" ed="#P" n="27"/>lam, quae est materia voti, eo modo quo 
+          pos<lb break="no" ed="#P" n="28"/>sideri potest; ergo. Minor patet, nam si 
+          vo<lb break="no" ed="#P" n="29"/>tum est reale, possideo rem illam quam
+          <lb ed="#P" n="30"/>alienare a me debeo, si votum implendum
+          <lb ed="#P" n="31"/>est; si autem est votum personale, 
+          possi<lb break="no" ed="#P" n="32"/>deo meas actiones, vel morale jus utendi me
+          <lb ed="#P" n="33"/>ipso, vel potentiis meis, cum indifferentia et
+          <lb ed="#P" n="34"/>libertate etiam ab obligatione. Unde falsum
+          <lb ed="#P" n="35"/>est quod in contrarium dicebatur, possessionis
+          <lb ed="#P" n="36"/>titulum essc proprium justitiae. Nam, sicut
+          <lb ed="#P" n="37"/>libertas est generalis conditio omnis materiae
+          <lb ed="#P" n="38"/>virtutis, ita et possessio. Et declaratur in 
+          utra<lb break="no" ed="#P" n="39"/>que materia voti et justitiae ; quia in 
+          utra<lb break="no" ed="#P" n="40"/>que potest esse dubium circa rem distinctam
+          <lb ed="#P" n="41"/>proprie possessam ab eo qui dubitat, et circa
+          <lb ed="#P" n="42"/>actiones personales, et omissiones, quae non
+          <lb ed="#P" n="43"/>in se, sed in potestate, et libertate faciendi et
+          <lb ed="#P" n="44"/>non faciendi, possidentur, et illa possessio est
+          <lb ed="#P" n="45"/>sufficiens, quia est eo modo quo esse potest
+          <lb ed="#P" n="46"/>circa jura incorporalia. Sed dicunt non deesse
+          <lb ed="#P" n="47"/>possessiouem, sed illam juvare contra 
+          proxi<lb break="no" ed="#P" n="48"/>mum, qui nobiscum circa eamdem rem de
+          <lb ed="#P" n="49"/>justitia contendit, non vero juvare contra
+          <lb ed="#P" n="50"/>Deum ; quia dubitans de voto non contendit
+          <lb ed="#P" n="51"/>cum Deo de justitia circa rem illam, sed ex
+          <lb ed="#P" n="52"/>religione.
+        </p>
+        <p xml:id="szovsr-m23427-d1e734">
+          <lb ed="#P" n="53"/>10. Sed haec est petitio principii: jam enim
+          <lb ed="#P" n="54"/>habemus titulum possessionis in materia voti;
+          <lb ed="#P" n="55"/>cur ergo non praevalet et juvat in casu dubio?
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Si enim dicatur majorem esse voti seu 
+          religio<lb break="no" ed="#P" n="57"/>nis obligationem, quam justitiae, imprimis 
+          in<lb break="no" ed="#P" n="58"/>certum hoc est ; aliqui enim existimant magis
+          <lb ed="#P" n="59"/>rigorosam esse obligationem justitiae. Deinde,
+          <lb ed="#P" n="60"/>esto obligatio religionis sit major ex parte
+          <lb ed="#P" n="61"/>Dei, nihilominus ex genere fidelitatis est 
+          mi<lb break="no" ed="#P" n="62"/>nor, et non potest dici infidelis, qui non facit
+          <lb ed="#P" n="63"/>aliquid, quia non sibi constat de promissione.
+          <lb ed="#P" n="64"/>Denique, parum refert quod obligatio major
+          <lb ed="#P" n="65"/>sit, si resest dubia; quia tunc contendimus
+          <lb ed="#P" n="66"/>non oriri obligationem contra eum, quicerto
+          <lb ed="#P" n="67"/>possidet jus suum, et in hoc est quaedam 
+          pro<lb break="no" ed="#P" n="68"/>portionalis aequalitas inter justitiae 
+          obligatio<lb break="no" ed="#P" n="69"/>nem et voti.
+        </p>
+        <p xml:id="szovsr-m23427-d1e776">
+          <lb ed="#P" n="70"/>11. In exteriori foro non cogitur servare 
+          vo<lb break="no" ed="#P" n="71"/>tum, nisi qui probatur illài obhgatus. — 
+          Prae<lb break="no" ed="#P" n="72"/>terea ad hoc juvat secunda ratio, quia ante 
+          vo<lb break="no" ed="#P" n="73"/>tum ejusque dubium exortum, homo erat in
+          <lb ed="#P" n="74"/>statu indifferentiae et libertatis (ut sic dicam)
+          <lb ed="#P" n="75"/>ad faciendum vel non faciendum aliquid in
+          <lb ed="#P" n="76"/>Dei cultum ; ergo non debet cogi propter solum
+          <lb ed="#P" n="77"/>dubium ad unam partem potius quam ad
+          <lb ed="#P" n="78"/>aliam, cum dubium utrinque sit aequale; ergo
+          <lb ed="#P" n="79"/>ex tali dubio non sequitur obligatio nec actio,
+          <lb ed="#P" n="80"/>ac subinde relinquitur res in statu in quo de
+          <lb ed="#P" n="81"/>se erat. Et confirmatur quia in exteriori foro,
+          <lb ed="#P" n="82"/>qui non probatur voto obligatus, non cogitur
+          <lb ed="#P" n="83"/>illud servare, etiamsi res maneat dubia; ut
+          <lb ed="#P" n="84"/>si alicui objiciatur impedimentum voti ut a
+          <lb ed="#P" n="85"/>matrimonio arceatur, si actor deficiat in
+          <lb ed="#P" n="86"/>probatione voti, et dubia sit res, non 
+          obliga<lb break="no" ed="#P" n="87"/>bitur, quia, ubi partium jura sunt obscura,
+          <lb ed="#P" n="88"/>favendum est potius reo quam actori, ut 
+          ha<lb break="no" ed="#P" n="89"/>bet undecima regula, in 6; ergoidem est in
+          <lb ed="#P" n="90"/>foro conscientia, quia ubi non proceditur ex
+          <lb ed="#P" n="91"/>praesumptione, idem est jus conscientiae, et
+          <lb ed="#P" n="92"/>ecclesiastici judicii.
+        </p>
+        <p xml:id="szovsr-m23427-d1e828">
+          <lb ed="#P" n="93"/>12. Accedit tertia ratio, quia hic intervenit
+          <lb ed="#P" n="94"/>ignorantia invincibilis voti; ergo impediet
+          <lb ed="#P" n="95"/>obligationem et conservabitur homo in 
+          liber<lb break="no" ed="#P" n="96"/>tate faciendi vel non faciendi, quam antea 
+          ha<lb break="no" ed="#P" n="97"/>bebat. Antecedens patet, quia qui habet 
+          du<lb break="no" ed="#P" n="98"/>bium negativum voti, revera non scit se 
+          habe<lb break="no" ed="#P" n="99"/>re votum; ergo habet ignorantiam negationis
+          <lb ed="#P" n="100"/>de tali voto. Ad hanc enim ignorantiam non
+          <lb ed="#P" n="101"/>est necessarium scire votum non esse ; satis
+          <lb ed="#P" n="102"/>est non scire votum esse, quia ignorantia haec
+          <lb ed="#P" n="103"/>in sola negatione scientiae consistit, alias nemo
+          <lb ed="#P" n="104"/>ignoraret votum, nisi qui errans existimat se
+          <lb ed="#P" n="105"/>non habere votum, cum revera habeat, quod
+          <lb ed="#P" n="106"/>aperte falsum est. Est ergo illa vera 
+          ignoran<lb break="no" ed="#P" n="107"/>tia. Deinde illa ignorantia fit invincibilis,
+          <lb ed="#P" n="108"/>quando post diligentiam sufficientem non 
+          ex<lb break="no" ed="#P" n="109"/>pellitur, quia est argumentum, non esse in
+          <lb ed="#P" n="110"/>potestate hominis illam vincere. Nam si verum
+          <pb ed="#P" n="938"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est quod habet regula juris, in 6: Preesumitur
+          <lb ed="#P" n="2"/>ignorantia, ubi scientia non probatur, multo
+          <lb ed="#P" n="3"/>magis excusabitur ignorantia ubi probatur
+          <lb ed="#P" n="4"/>nescientia ; ergo talis ignorantia sufficit ad 
+          im<lb break="no" ed="#P" n="5"/>pediendam obligationem ; ergo, stante dubio
+          <lb ed="#P" n="6"/>quod talem ignorantiam includit, non potest
+          <lb ed="#P" n="7"/>votum obligare.
+        </p>
+        <p xml:id="szovsr-m23427-d1e889">
+          <lb ed="#P" n="8"/>13. Obligatio voti quomodo restringenda.—
+          <lb ed="#P" n="9"/>Ultima etiam ratio in hac materia locum 
+          ha<lb break="no" ed="#P" n="10"/>bet, quia obligatio voti valde onerosa est; 
+          er<lb break="no" ed="#P" n="11"/>go restringenda est, et non amplianda; ergo
+          <lb ed="#P" n="12"/>non est extendenda ad votum dubium. Unde
+          <lb ed="#P" n="13"/>hic etiam habet locum regula communiter 
+          re<lb break="no" ed="#P" n="14"/>cepta, neminem esse cogendum ad solutionem
+          <lb ed="#P" n="15"/>certam pro debito incerto; quia sine causa
+          <lb ed="#P" n="16"/>etian hoc limitabitur ad debitum justitiae,
+          <lb ed="#P" n="17"/>cum eamdem vel majorem habeat rationem in
+          <lb ed="#P" n="18"/>debito fidelitatis, etiamsi sit ad Deum. Sic
+          <lb ed="#P" n="19"/>ergo non solum mane: firmum fundamentum
+          <lb ed="#P" n="20"/>illud, quod in dubio melior est conditio 
+          possi<lb break="no" ed="#P" n="21"/>dentis etiam in materia voti, sed etiam 
+          obi<lb break="no" ed="#P" n="22"/>ter est confirmata assertio variis rationibus;
+          <lb ed="#P" n="23"/>ut quod nemo obligatur solvere, nisi 
+          probe<lb break="no" ed="#P" n="24"/>tur esse debitor; non probatur autem deb;-
+          <lb ed="#P" n="25"/>tor, nisi probetur fundamentum debiti, quod
+          <lb ed="#P" n="26"/>est promissio in praesenti materia. Debet 
+          au<lb break="no" ed="#P" n="27"/>tem probari in eo foro, in quo solvere cogitur,
+          <lb ed="#P" n="28"/>scilicet, in foro conscientiae, ut in illo 
+          oblige<lb break="no" ed="#P" n="29"/>tur, sicut in foro externo, ut in eo compella
+          <lb ed="#P" n="30"/>tur. Aliae rationes ex dictis constant; amplius
+          <lb ed="#P" n="31"/>vero confirmabitur assertio, respondendo ad
+          <lb ed="#P" n="32"/>fundamenta contraria.
+        </p>
+        <p xml:id="szovsr-m23427-d1e946">
+          <lb ed="#P" n="33"/>14. Explicatur fundamentum prioris 
+          senten<lb break="no" ed="#P" n="34"/>Lug.—Non semper licet operari cum dubio 
+          spe<lb break="no" ed="#P" n="35"/>culativo. — Totum ergo fundamentum prioris
+          <lb ed="#P" n="36"/>sententiae nititur in illo principio: 7n dubiis
+          <lb ed="#P" n="37"/>tutior pars est eligenda. Et priusquam 
+          respon<lb break="no" ed="#P" n="38"/>deam, interrogo an illud habeat locum in 
+          ma<lb break="no" ed="#P" n="39"/>teria justitia; nam si habeat locum, sicut,
+          <lb ed="#P" n="40"/>illo non obstante, sine peccato non restituitur
+          <lb ed="#P" n="41"/>quod dubitatur an sit debitum, ita illo non
+          <lb ed="#P" n="42"/>obstante, poterit dubium votum sine peccato
+          <lb ed="#P" n="43"/>non impleri. Si veroillud principium non 
+          ad<lb break="no" ed="#P" n="44"/>mittitur in materia justitiae, eadem ratione 
+          di<lb break="no" ed="#P" n="45"/>cetur, non esse necessarium in materia voti in
+          <lb ed="#P" n="46"/>rigore praecepti, sed tantum consilii, ut multi ex
+          <lb ed="#P" n="47"/>auctoribus allegatis docuerunt, dicentes satis
+          <lb ed="#P" n="48"/>esse sequi partem tutam.Dico ergo axiomaillud,
+          <lb ed="#P" n="49"/>quatenus praeceptum continet, etiam habere 
+          lo<lb break="no" ed="#P" n="50"/>cum in materia justitiae, quia fundatur in illo
+          <lb ed="#P" n="51"/>principio ex Eecl. 3: Qui asiat periculun, peri it
+          <lb ed="#P" n="52"/>in illo ; ratione cujus ienetur quis non operari
+          <lb ed="#P" n="53"/>etiam in materia justitiae cum periculo 
+          peccan<lb break="no" ed="#P" n="54"/>di, et consequenter nec cum conscientia 
+          practi<lb break="no" ed="#P" n="55"/>ce dubia de bonitate vel malitia actionis. At hoc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modo etiam in materia voti nemo potest 
+          ope<lb break="no" ed="#P" n="57"/>rari contra votum cum dubio practico, an 
+          be<lb break="no" ed="#P" n="58"/>ne vel male faciat agendo contra votum; hinc
+          <lb ed="#P" n="59"/>vero non efficitur, ut dubius de voto male agat
+          <lb ed="#P" n="60"/>non servando illud; quia illud dubium 
+          specu<lb break="no" ed="#P" n="61"/>lativum est, et cum illo stat dictamen certum
+          <lb ed="#P" n="62"/>practice, non esse peccatum non servare tale
+          <lb ed="#P" n="63"/>votum, sicut cum dubio, an haec res sit aliena,
+          <lb ed="#P" n="64"/>stat practica certitudo, nullum esse peccatum,
+          <lb ed="#P" n="65"/>illam non restituere. Nam licet possit 
+          contin<lb break="no" ed="#P" n="66"/>gere illam rem esse alienum, et detineri invito
+          <lb ed="#P" n="67"/>vero domino, tamen illud est tautum 
+          materia<lb break="no" ed="#P" n="68"/>liter; nam formaliter detinetur, ut non debita
+          <lb ed="#P" n="69"/>hic et nunc, et cam his conditionibus, ac 
+          in<lb break="no" ed="#P" n="70"/>terveniente bona fide. Et eadem ratione, licet
+          <lb ed="#P" n="71"/>possit contingere ut non servans votum 
+          du<lb break="no" ed="#P" n="72"/>bium, non reddat Deo, quod illi promissum
+          <lb ed="#P" n="73"/>fuerat, hoc tantum est materialiter; nam 
+          for<lb break="no" ed="#P" n="74"/>maliter bona fide et justa ratioue 
+          apprehendi<lb break="no" ed="#P" n="75"/>tur ut non promissum sufficienter ad 
+          parien<lb break="no" ed="#P" n="76"/>dam obligationem. Et ita nullum est 
+          pericu<lb break="no" ed="#P" n="77"/>lum, et pars illa est omnino tuta, quod attinet
+          <lb ed="#P" n="78"/>ad excludendum pericu!um culpae. Neque in
+          <lb ed="#P" n="79"/>hoc est proprie magis vel minus, quia 
+          certitu<lb break="no" ed="#P" n="80"/>do practica excludit omnino periculum, et ita
+          <lb ed="#P" n="81"/>locum habet regula juris 31, in 6: Eum, qui
+          <lb ed="#P" n="82"/>certus est, certiorari ulterius non oportet. Est
+          <lb ed="#P" n="83"/>enim illa quasi privatio totalis, quae non 
+          reci<lb break="no" ed="#P" n="84"/>pit magis et minus in se ac formaliter, licet
+          <lb ed="#P" n="85"/>respectu materialis perieuli possit esse aliquid
+          <lb ed="#P" n="86"/>tutius. In quo sensu non semper spectat ad
+          <lb ed="#P" n="87"/>praeceptum eligere partem tutiorem, sive in
+          <lb ed="#P" n="88"/>materia justitiae, sive in voto, et in aliis. Nec
+          <lb ed="#P" n="89"/>tamen semper licet operari cum dubio quasi
+          <lb ed="#P" n="90"/>speculativo de materiali nocumento, vel 
+          trans<lb break="no" ed="#P" n="91"/>gressione, sed tunc solum quando, pensatis
+          <lb ed="#P" n="92"/>omnibus, secundum rectam rationem, non
+          <lb ed="#P" n="93"/>obstante illo dubio speculativo, potest 
+          pruden<lb break="no" ed="#P" n="94"/>ter retineri judicium practicum, ut in praesenti
+          <lb ed="#P" n="95"/>retinetur ex illo principio, quod in dubiis 
+          me<lb break="no" ed="#P" n="96"/>lior est conditio possidentis.
+        </p>
+        <p xml:id="szovsr-m23427-d1e1089">
+          <lb ed="#P" n="97"/>15. Explicatur lex de implendis votis. — 
+          Be<lb break="no" ed="#P" n="98"/>siringitur ad vota certa moraliter.—Quod 
+          po<lb break="no" ed="#P" n="99"/>test etiam explicari hoc modo : qui non servat
+          <lb ed="#P" n="100"/>votum dubium, certus est non agere contra 
+          il<lb break="no" ed="#P" n="101"/>lam legem: Aeddes Domino vota tua. Nam
+          <lb ed="#P" n="102"/>illa lex merito intelligitur de votis moraliter
+          <lb ed="#P" n="103"/>et humano modo certis, seu probabilibus, non
+          <lb ed="#P" n="104"/>de incertis, quae probari non possunt, etiama
+          <lb ed="#P" n="105"/>propria conscientia. Sicut de peccatis 
+          reser<lb break="no" ed="#P" n="106"/>vatis dicimus, non obstante reservatione 
+          ali<lb break="no" ed="#P" n="107"/>cujus peccati absolute facta, posse absolvi 
+          il<lb break="no" ed="#P" n="108"/>lum, qui dubitat an tale peccatum 
+          commise<lb break="no" ed="#P" n="109"/>rit, quia reservatio, quae onerosa est, 
+          restrin<lb break="no" ed="#P" n="110"/>gitur ad casum certum ; et qui tunc absolvit,
+          <pb ed="#P" n="939"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>licet dubitet an peccatum tale fuerit 
+          commis<lb break="no" ed="#P" n="2"/>sum, certus est non esse reservatum, et ita
+          <lb ed="#P" n="3"/>tutam et tutissimam partem sequitur. Ita 
+          er<lb break="no" ed="#P" n="4"/>go in praesenti lex imperans implere vota,
+          <lb ed="#P" n="5"/>merito restringitur ad vota certa moraliter,
+          <lb ed="#P" n="6"/>et ideo licet quis dubitet de voto, certus esse
+          <lb ed="#P" n="7"/>potest non obügari illa lege, quia nondum
+          <lb ed="#P" n="8"/>materia ejus constituta est. Talis autem 
+          inter<lb break="no" ed="#P" n="9"/>pretatio legis ( praeter omnia dicta) fundari
+          <lb ed="#P" n="10"/>potest in c. Ex parte, de Censib., ubi 
+          benig<lb break="no" ed="#P" n="11"/>nior fit interpretatio : tum quia non est Deus
+          <lb ed="#P" n="12"/>tam rigorosus exactor, ut etiam debita 
+          incer<lb break="no" ed="#P" n="13"/>ta et non probata exigat ; tum ex omnibus
+          <lb ed="#P" n="14"/>quibus supra probavimus, in votis benigniorem
+          <lb ed="#P" n="15"/>interpretationem esse faciendam, ubi etiam
+          <lb ed="#P" n="16"/>ostendimus, hoc tandem cedere in majorem
+          <lb ed="#P" n="17"/>favorem religionis, propter vitandum 
+          pericu<lb break="no" ed="#P" n="18"/>lum, quod in his vinculis multiplicandis 
+          inve<lb break="no" ed="#P" n="19"/>nitur. Et quia vix esset qui de vovendo 
+          aude<lb break="no" ed="#P" n="20"/>ret cogitare aut deliberare, si tam rigorose
+          <lb ed="#P" n="21"/>exigeretur dubia obligatio.
+        </p>
+        <p xml:id="szovsr-m23427-d1e1173">
+          <lb ed="#P" n="22"/>16. Quid tenendum in dubio matrimonii. —
+          <lb ed="#P" n="23"/>Ad exemplum autem de matrimonio posset
+          <lb ed="#P" n="24"/>nonnulla differentia assignari, quia 
+          matrimo<lb break="no" ed="#P" n="25"/>nium facit licitum quod antea erat illicitum,
+          <lb ed="#P" n="26"/>scilicet accessum ad talem personam ; et ideo
+          <lb ed="#P" n="27"/>ubi de veritate matrimonii non constat, sed
+          <lb ed="#P" n="28"/>res dubia est, videtur res permanere in statu
+          <lb ed="#P" n="29"/>in quo ex se antea erat, et ideo non esse 
+          lici<lb break="no" ed="#P" n="30"/>tum accessum ad talem personam. At votum
+          <lb ed="#P" n="31"/>e contrafio facit illicitum, quod antea ac per
+          <lb ed="#P" n="32"/>se licitum erat, utique omissionem, vel 
+          actio<lb break="no" ed="#P" n="33"/>nem voto contrariam ; et ideo ubi de veritate
+          <lb ed="#P" n="34"/>voti non constat, manet res in statu priori, et
+          <lb ed="#P" n="35"/>per se illi conveniente , et ideo est licita talis
+          <lb ed="#P" n="36"/>actio, vel omissio, non obstante dubio. Sed
+          <lb ed="#P" n="37"/>quidquid sit de hoc discrimine, verius et 
+          con<lb break="no" ed="#P" n="38"/>stantius respondetur . si dubium antecessit
+          <lb ed="#P" n="39"/>matrimonium, tunc, non excluso dubio, 
+          nun<lb break="no" ed="#P" n="40"/>quam licere usum talis matrimonii, et tunc
+          <lb ed="#P" n="41"/>recte procedere rationem factam, et maxime
+          <lb ed="#P" n="42"/>quia ille nunquam est possessor bonae fidei, a
+          <lb ed="#P" n="43"/>qua regula solet excipi casus impotentiae 
+          im<lb break="no" ed="#P" n="44"/>pedientis matrimonium, quia ipse usus est
+          <lb ed="#P" n="45"/>medium necessarium ad expellendum 
+          du<lb break="no" ed="#P" n="46"/>bium, de quo alias. At vero si dubium ortum
+          <lb ed="#P" n="47"/>est post matrinonium contractum, et facta 
+          di<lb break="no" ed="#P" n="48"/>ligentia non potest expelli, licitum est uti
+          <lb ed="#P" n="49"/>tam reddendo quam petendo, ut verior 
+          ha<lb break="no" ed="#P" n="50"/>bet sententia; et ita hoc exemplo potius 
+          con<lb break="no" ed="#P" n="51"/>firmatur nostra sententia, de quo puncto 
+          vi<lb break="no" ed="#P" n="52"/>deri potest Sanc., lib. 2 de Matrim , c. 41,
+          <lb ed="#P" n="53"/>quaest. 4. Ad secundum exemplum de 
+          irregu<lb break="no" ed="#P" n="54"/>laritate alibi late responsum est , illud esse
+          <lb ed="#P" n="55"/>speciale in irregularitate homicidii , et in ca-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sibus a jure expressis, quia sicut jus 
+          canoni<lb break="no" ed="#P" n="57"/>cum potuit statuere irregularitatem pro 
+          homi<lb break="no" ed="#P" n="58"/>cidio, ita potuit statuere ut homicidium 
+          du<lb break="no" ed="#P" n="59"/>bium suffhiceret ad talem irregularitatem 
+          con<lb break="no" ed="#P" n="60"/>trahendam , vel ad obligationem servandi 
+          il<lb break="no" ed="#P" n="61"/>lam. Nec refert quod jura id statuentia 
+          fun<lb break="no" ed="#P" n="62"/>dentur in illo principio, in dubiis tutius esse
+          <lb ed="#P" n="63"/>eligendum ; quia fundantur in illo ut in 
+          ratio<lb break="no" ed="#P" n="64"/>ne movente Pontificem ad talem legem 
+          feren<lb break="no" ed="#P" n="65"/>dam, non ut titulo per se sufficiente ad 
+          obli<lb break="no" ed="#P" n="66"/>gandum hominem in eo casu, seclusa tali 
+          le<lb break="no" ed="#P" n="67"/>ge. De qua re late iu 5 tomo, tertia parte,
+          <lb ed="#P" n="68"/>disp. 40, sect. 6.
+        </p>
+        <p xml:id="szovsr-m23427-d1e1280">
+          <lb ed="#P" n="69"/>17. In dubiis eligendum est tutius , quando
+          <lb ed="#P" n="70"/>cetera sunt paria. — Unde etiam patet 
+          res<lb break="no" ed="#P" n="71"/>ponsio ad jura approbantia principium illud:
+          <lb ed="#P" n="72"/>In dubiis tutius esse eligendum. Nam cap. Ad
+          <lb ed="#P" n="73"/>audientiam, et cap. S'ignificasti, oquuntur de
+          <lb ed="#P" n="74"/>irregularite homicidii, de quo jam dictum est.
+          <lb ed="#P" n="75"/>In cap. autem Jucenis, videtur esse sermo de
+          <lb ed="#P" n="76"/>dubio practico, ut ex casu textus constat.
+          <lb ed="#P" n="77"/>Dico etiam ibi nullum fuisse possessorem bonae
+          <lb ed="#P" n="78"/>fidei; nam dubium de priori impedimento 
+          pu<lb break="no" ed="#P" n="79"/>blicae honestatis praecessit secundum 
+          maatri<lb break="no" ed="#P" n="80"/>monium, et ideo merito judicatum est pro
+          <lb ed="#P" n="81"/>parte certiori. et pertinente ad Ecclesiae 
+          ho<lb break="no" ed="#P" n="82"/>nestatem, ut ibi dicitur. Ex quo potest colligi
+          <lb ed="#P" n="83"/>modus alius interpretandi illud principium,
+          <lb ed="#P" n="84"/>scilicet in dubiis eligendum esse tutius, 
+          quan<lb break="no" ed="#P" n="85"/>do caetera paria sunt, id est, quando ex neutra
+          <lb ed="#P" n="86"/>parte intercedit jus possessionis, vel alia 
+          aequi<lb break="no" ed="#P" n="87"/>valens ratio, quae parti minus tutae 
+          materiali<lb break="no" ed="#P" n="88"/>ter (ut sic me explicem:) magis faveat ; ita enim
+          <lb ed="#P" n="89"/>contingebat in casu d. cap. Jucenis.
+        </p>
+        <p xml:id="szovsr-m23427-d1e1328">
+          <lb ed="#P" n="90"/>18. Quo pacto in dubiis tutior pars eligenda
+          <lb ed="#P" n="91"/>sit. — Et ita patet responsio ad ultimam 
+          con<lb break="no" ed="#P" n="92"/>firmationem, in qua inferebatur ut absurdum,
+          <lb ed="#P" n="93"/>quia nunquam haberet locum principium 
+          il<lb break="no" ed="#P" n="94"/>lud : In dubiis tutior pars est eligenda. 
+          Res<lb break="no" ed="#P" n="95"/>pondetur autem imprimis, intellectum illud
+          <lb ed="#P" n="96"/>principium de dubio practico semper esse 
+          ser<lb break="no" ed="#P" n="97"/>vandum , ut declaratum est. Sic autem 
+          in<lb break="no" ed="#P" n="98"/>tellectum illud principium, improprie in illo
+          <lb ed="#P" n="99"/>ponitur comparativum utius, quia non a tuto,
+          <lb ed="#P" n="100"/>sed a periculoso practice discernitur. Si vero
+          <lb ed="#P" n="101"/>intelligatur de dubio speculativo, et tutius 
+          di<lb break="no" ed="#P" n="102"/>catur id, in quo nullum pericu!um 
+          transgres<lb break="no" ed="#P" n="103"/>sioris etiam materialis intervenit, sic dicimus
+          <lb ed="#P" n="104"/>regulam illam non esse semper necessariam,
+          <lb ed="#P" n="105"/>nec sub praecepto ; negamus tamen inde sequi,
+          <lb ed="#P" n="106"/>nunquam habere locum cum obligatione 
+          prae<lb break="no" ed="#P" n="107"/>cepti. Nam servanda est, quando caetera sunt
+          <lb ed="#P" n="108"/>paria, ut dixi, seu quando ex neutra parte
+          <lb ed="#P" n="109"/>intercedit possessio, aut peculiare jus, vel 
+          ra<lb break="no" ed="#P" n="110"/>tio guae practice conferat securitatem ac cer-
+          <pb ed="#P" n="940"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>titudinem, et hanc dicimus in praesenti 
+          inter<lb break="no" ed="#P" n="2"/>venire, ut ostensum est, non tamen semper
+          <lb ed="#P" n="3"/>inveniri, ut quando dubium antecessit 
+          posses<lb break="no" ed="#P" n="4"/>sionem, et in casibus similibus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

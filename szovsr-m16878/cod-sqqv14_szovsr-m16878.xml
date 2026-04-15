@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="673"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m16878"><!-- t5l3prae -->
+        <head xml:id="szovsr-m16878-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m16878-d1e103">
+          <pb ed="#P" n="673"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER TERTIUS.
+          <lb ed="#P" n="2"/>DE PRAECEPTIS AD JURAMENTUM
+          <lb ed="#P" n="3"/>PERTINENTIBUS, ET PERJURIO, ALITSQUE PECCATIS EIS CONTRARIIS.
+        </p>
+        <p xml:id="szovsr-m16878-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Explicata generali ratione juramenti, cum
+          <lb ed="#P" n="5"/>ejus speciebus, causis et effectibus, superest
+          <lb ed="#P" n="6"/>ut de praeceptis ad hoc pertinentibus, et 
+          con<lb break="no" ed="#P" n="7"/>scquenter de vitiis illi contrariis disseramus.
+          <lb ed="#P" n="8"/>Prius ergo dicemus de praecepto affirmativo,
+          <lb ed="#P" n="9"/>quomodo in hoc actu inveniri possit, unde 
+          fa<lb break="no" ed="#P" n="10"/>cile constabit quomodo per omissionem in hoc
+          <lb ed="#P" n="11"/>peccari possit; deinde dicemus de praeceptis
+          <lb ed="#P" n="12"/>negativis, et peccatis commissionis eis 
+          contra<lb break="no" ed="#P" n="13"/>riis, inter quae maximum est perjurium 
+          pro<lb break="no" ed="#P" n="14"/>prie et stricte dictum. Et ideo de illo 
+          potissi<lb break="no" ed="#P" n="15"/>mum disseruit divus Thomas 2. 2, quaest. 89,
+          <lb ed="#P" n="16"/>quam in hunc locum explicandam 
+          reliqui<lb break="no" ed="#P" n="17"/>mus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

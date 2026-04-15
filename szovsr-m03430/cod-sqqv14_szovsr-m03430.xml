@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="139"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m03430"><!-- t4l2c6 -->
+        <head xml:id="szovsr-m03430-Hd1e101">Caput 6</head>
+        <head xml:id="szovsr-m03430-Hd1e103" type="question-title">Quid sit devotio, quidve hac voce significetur.</head>
+        <p xml:id="szovsr-m03430-d1e106">
+          <lb ed="#P" n="5"/>CAPUT VI.
+          <lb ed="#P" n="6"/>QUID SIT DEVOTIO, QUIDVE HAC VOCE
+          <lb ed="#P" n="7"/>SIGNIFICETUR.
+        </p>
+        <p xml:id="szovsr-m03430-d1e115">
+          <lb ed="#P" n="8"/>1. Devotionis etgymologia et significatio
+          <lb ed="#P" n="9"/>multiplea ex divo Thomna. — Devotionem, ut
+          <lb ed="#P" n="10"/>supra animadverti, ponit D. Thom. 2. 2, q.
+          <lb ed="#P" n="11"/>82, ut actum religionis ab oratione 
+          distinc<lb break="no" ed="#P" n="12"/>tum ; tamen non raro accipitur pro studio et
+          <lb ed="#P" n="13"/>attentione, vel perfectione orationis, ut 
+          vide<lb break="no" ed="#P" n="14"/>bimus ; et ideo simul cum mentali oratione
+          <lb ed="#P" n="15"/>commodius explicabitur, nam in illa maxime
+          <lb ed="#P" n="16"/>exercetur, et in illa percipitur aut sentitur,
+          <lb ed="#P" n="17"/>qualiter in hac vita sentiri potest. Quia vero
+          <lb ed="#P" n="18"/>illa vox, ut Cajetanus, dicta q. 82, art. 2, 
+          no<lb break="no" ed="#P" n="19"/>tavit, multis modis accipi solet, dicitur enim
+          <lb ed="#P" n="20"/>servus esse devotus domino suo, etdiscipulus
+          <lb ed="#P" n="21"/>magistro, etc., hic quasi per antonomasiam
+          <lb ed="#P" n="22"/>accipitur in ordine ad Deum, cujus rationem
+          <lb ed="#P" n="23"/>in principio capitis sequentis commodius 
+          red<lb break="no" ed="#P" n="24"/>demus. Nihilque curamus an illa vox in tota
+          <lb ed="#P" n="25"/>sua latitudine aequivoca sit, vel analoga, aut
+          <lb ed="#P" n="26"/>univoca ; parum enim id refert, nam 
+          qualis<lb break="no" ed="#P" n="27"/>cumque fuerit, potuit ad hunc usum 
+          accom<lb break="no" ed="#P" n="28"/>modari. Derivatur autem illa vox a verbo 
+          de<lb break="no" ed="#P" n="29"/>c0veo, et ideo devotio, in ecclesiastico et 
+          Theo<lb break="no" ed="#P" n="30"/>logico usu (quicquid sit de rigore linguae 
+          la<lb break="no" ed="#P" n="31"/>tinae), sumpta est pro peculiari quadam 
+          pro<lb break="no" ed="#P" n="32"/>pensione animi ad Deum et res divinas, quod
+          <lb ed="#P" n="33"/>ex ipso usu habetur, et ex dicendis notum
+          <lb ed="#P" n="34"/>fiet.
+        </p>
+        <p xml:id="szovsr-m03430-d1e176">
+          <lb ed="#P" n="35"/>2. Devotio ad voluntatem per se primo 
+          per<lb break="no" ed="#P" n="36"/>Linel. — Hinc supponmmus ut certum, 
+          devo<lb break="no" ed="#P" n="37"/>tionem ad voluntatem per se primo pertinere,
+          <lb ed="#P" n="38"/>ut docet D. Thomas, dicta q. 82, art. 1, et 
+          ha<lb break="no" ed="#P" n="39"/>betur nomine Augustini, lib. de Spirit. et
+          <lb ed="#P" n="40"/>anim., cap. 5: Devotio (inquit) est pius et
+          <lb ed="#P" n="41"/>Iumalis affectus in Deum ; humilis, ea 
+          cons<lb break="no" ed="#P" n="42"/>cientia infirmitatis proprie, pius em 
+          conside<lb break="no" ed="#P" n="43"/>ratione divinae clementie. Constat autem 
+          affec<lb break="no" ed="#P" n="44"/>tum ad voluntatem pertinere. Unde ibidem
+          <lb ed="#P" n="45"/>subjungitur : Affectus est spontanea quedam
+          <lb ed="#P" n="46"/>ac dulcis ipsius animi in Deum inclinatio. Vt
+          <lb ed="#P" n="47"/>idem sentiunt Bernardus, Ambros. et Bonav.,
+          <lb ed="#P" n="48"/>locis statim citandis. Ratio vero est, quia 
+          de<lb break="no" ed="#P" n="49"/>votio est voluntaria quaedam promptitudo et
+          <lb ed="#P" n="50"/>propensio ad Dei cultum et famulatum ; sed
+          <lb ed="#P" n="51"/>haec pertinet ad voluntatem, nam per 
+          volun<lb break="no" ed="#P" n="52"/>tatem inclinamur in Dei obsequium, et quasi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>nosilli devovemus; ergo. Dices : sicut votum
+          <lb ed="#P" n="54"/>dicitur a vovendo, ita devotio a devovendo;
+          <lb ed="#P" n="55"/>sed vovere est actus intellectus, non 
+          volunta<lb break="no" ed="#P" n="56"/>lis ; ergo et devotio. Respondeo : si 
+          argu<lb break="no" ed="#P" n="57"/>mentum esset validum, devovere idem esset
+          <lb ed="#P" n="58"/>quod votum facere, ac proinde devotio et 
+          vo<lb break="no" ed="#P" n="59"/>tum essent idem, quod constat esse falsum ,
+          <lb ed="#P" n="60"/>quia non omnes qui sunt devoti, vota 
+          emit<lb break="no" ed="#P" n="61"/>tunt. Licet ergo voces videantur habere 
+          ana<lb break="no" ed="#P" n="62"/>logiam quamdam in etymologia, non tamen
+          <lb ed="#P" n="63"/>sunt similia in significando : nam votum 
+          si<lb break="no" ed="#P" n="64"/>gnificat promissionem, de qua probabile est
+          <lb ed="#P" n="65"/>pertinere ad intellectum ; certum autem est
+          <lb ed="#P" n="66"/>propositum, quod supponit, pertinere ad 
+          vo<lb break="no" ed="#P" n="67"/>luntatem. Devotio autem significat affectum
+          <lb ed="#P" n="68"/>et propensionem voluntatis, quae fortasse 
+          con<lb break="no" ed="#P" n="69"/>sistit in quodam peculiari proposito, ut mox
+          <lb ed="#P" n="70"/>dicemus.
+        </p>
+        <p xml:id="szovsr-m03430-d1e260">
+          <lb ed="#P" n="71"/>3. Objectio. — Contra hocvero potest objici,
+          <lb ed="#P" n="72"/>quia devotio nihil aliud esse videtur quam 
+          ora<lb break="no" ed="#P" n="73"/>tionis attentio; at vero attentio ad intellectum
+          <lb ed="#P" n="74"/>pertinet, ut per se constat; ergo et devotio.
+          <lb ed="#P" n="75"/>Major colligitur ex cap. Dolentes, de Celebr.
+          <lb ed="#P" n="76"/>Missar., ubi praecipitur clericis recitare horas
+          <lb ed="#P" n="77"/>studiose pariter et devote, id est, attente, ut
+          <lb ed="#P" n="78"/>omnes exponunt, quia nulla alia devotio est
+          <lb ed="#P" n="79"/>de necessitate illius praecepti. Unde in dicto
+          <lb ed="#P" n="80"/>lib. de Spirit. et anim., cap. 50, devotio dicitur
+          <lb ed="#P" n="81"/>esse perfectio orationis : Devotio (inquit) 
+          per<lb break="no" ed="#P" n="82"/>ficit orationem. Imo infra subjungitur, quod
+          <lb ed="#P" n="83"/>oratio est mentis devotio, id est conversio in
+          <lb ed="#P" n="84"/>Deum, per pium et humilem affectum; nam
+          <lb ed="#P" n="85"/>quia in mentali oratione attentio non videtur
+          <lb ed="#P" n="86"/>esse quid distinctum ab oratione ipsa, ut 
+          su<lb break="no" ed="#P" n="87"/>pra dixi, ideo devotio, et perficere orationem
+          <lb ed="#P" n="88"/>dicitur, et esse oratio ipsa. Et sane si quis
+          <lb ed="#P" n="89"/>consideret multa quae de devotione scribit
+          <lb ed="#P" n="90"/>Bonav.,in 2 tomo Opusc., in ultim., quod est
+          <lb ed="#P" n="91"/>de sex alis Seraphim, c. 8, plane intelliget
+          <lb ed="#P" n="92"/>idem esse devotionem cum mentali oratione,
+          <lb ed="#P" n="93"/>de qua nunc disserimmus.
+        </p>
+        <p xml:id="szovsr-m03430-d1e312">
+          <lb ed="#P" n="94"/>4. Solutio. — Sed, ut dixi, licet usus hujus
+          <lb ed="#P" n="95"/>vocis sit varius et multiplex, ideoque interdum
+          <lb ed="#P" n="96"/>vel pro noratione tota, vel pro attentione aut
+          <lb ed="#P" n="97"/>meditatione accipiatur, tamen proprie 
+          signifi<lb break="no" ed="#P" n="98"/>cat promptum aliquem affectum, vel in 
+          univer<lb break="no" ed="#P" n="99"/>sum ad omnia quae ad divinum cultum 
+          spec<lb break="no" ed="#P" n="100"/>tant, vel specialiter ad orationem, 
+          praeser<lb break="no" ed="#P" n="101"/>tim mentalem, secundum totam latitudinem
+          <lb ed="#P" n="102"/>suam. Unde in dicto cap. Dolentes , licet 
+          di<lb break="no" ed="#P" n="103"/>recte praecipiatur attentio in recitatione 
+          di<lb break="no" ed="#P" n="104"/>vini officii, tamen quia illa attentio debet esse
+          <lb ed="#P" n="105"/>voluntaria, et haec maxime exhibetur quando
+          <lb ed="#P" n="106"/>homo ex magno affectu illam procurat, qui
+          <lb ed="#P" n="107"/>affectus devotio est, ideo per illam vocem
+          <pb ed="#P" n="140"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>praeceptum illud declaratur. Imo in rigore
+          <lb ed="#P" n="2"/>loquendo, magis necessaria est in illo 
+          prae<lb break="no" ed="#P" n="3"/>cepto implendo voluntas attente orandi,
+          <lb ed="#P" n="4"/>quam attentio ipsa, quae in intellectu est; illa
+          <lb ed="#P" n="5"/>autem voluntas quaedam devotio est, et qui
+          <lb ed="#P" n="6"/>cum hac voluntate orat, dici potest devote
+          <lb ed="#P" n="7"/>orare, ideoque ex illa locutione colligi non
+          <lb ed="#P" n="8"/>potest devotionem ad intellectum pertinere.
+          <lb ed="#P" n="9"/>Et eadem ratione, intelligi potest devotionem
+          <lb ed="#P" n="10"/>perficere orationem, quia si voluntas est 
+          be<lb break="no" ed="#P" n="11"/>ne affecta, ex illa nascitur perfecta oratio.
+          <lb ed="#P" n="12"/>Probabile praeterea est auctorem illius libri
+          <lb ed="#P" n="13"/>de Spirit. et anima, sensisse orationem 
+          perti<lb break="no" ed="#P" n="14"/>nere ad voluntatem, et devotionem nihil
+          <lb ed="#P" n="15"/>aliud esse quam ferventem quamdam 
+          oratio<lb break="no" ed="#P" n="16"/>nem. Vel potest causaliter exponi, orationem
+          <lb ed="#P" n="17"/>esse mentis devotionem, quia ex affectu 
+          de<lb break="no" ed="#P" n="18"/>votionis convertitur mens in Deum per 
+          ora<lb break="no" ed="#P" n="19"/>tionem; itaque devotio proprie sumpta 
+          vo<lb break="no" ed="#P" n="20"/>luntatis perfectio est.
+        </p>
+        <p xml:id="szovsr-m03430-d1e393">
+          <lb ed="#P" n="21"/>5. Ad explicationem devotionis tria in 
+          vo<lb break="no" ed="#P" n="22"/>luntate distinguuntur. — Ut autem ulterius
+          <lb ed="#P" n="23"/>explicemus quidnam devotio sit in ipsa 
+          vo<lb break="no" ed="#P" n="24"/>luntate, duo vel tria in voluntate ipsa 
+          distin<lb break="no" ed="#P" n="25"/>guere possumus, scilicet, velle, prompte 
+          vel<lb break="no" ed="#P" n="26"/>le, cum gustu et suavitate velle; haec enim
+          <lb ed="#P" n="27"/>non semper conjuncta sunt, sed priora 
+          sepa<lb break="no" ed="#P" n="28"/>rantur a posterioribus, licet non e contrario.
+          <lb ed="#P" n="29"/>Nam qui vult cum gustu et suavitate, et vult,
+          <lb ed="#P" n="30"/>ut supponitur, et prompte etiam vult ; nam
+          <lb ed="#P" n="31"/>ea quae suaviter ac delectabiliter fiunt, facile
+          <lb ed="#P" n="32"/>et prompte fiunt. At e contrario qui prompte
+          <lb ed="#P" n="33"/>vult, etiamsi jam velit, non statim gustum et
+          <lb ed="#P" n="34"/>suavitatem sentit in volendo, quia potest illa
+          <lb ed="#P" n="35"/>promptitudo aliunde quam ex suavitate 
+          pro<lb break="no" ed="#P" n="36"/>venire, ut ex habitu, aut ex cupiditate aliqua,
+          <lb ed="#P" n="37"/>vel alio extrinseco affectu; fortis enim 
+          prom<lb break="no" ed="#P" n="38"/>pte suffert, et castus tentationi resistit,
+          <lb ed="#P" n="39"/>etiamsi fortasse suavitatem et gustum non
+          <lb ed="#P" n="40"/>sentiant. Multo autem frequentius contingit
+          <lb ed="#P" n="41"/>velle sine promptitudine ,. vel suavitate , ut
+          <lb ed="#P" n="42"/>constat experientia. Devotio ergo tria illa 
+          vi<lb break="no" ed="#P" n="43"/>detur complecti, justa communem illius 
+          vo<lb break="no" ed="#P" n="44"/>cis apprehensionem; quando enim quis orat,
+          <lb ed="#P" n="45"/>vel opera religionis exercet sua voluntate,
+          <lb ed="#P" n="46"/>non tamen prompte, nec cum gustu et 
+          sua<lb break="no" ed="#P" n="47"/>vitate, sed potius cum difficultate ac 
+          repu<lb break="no" ed="#P" n="48"/>gnantia, non putatur esse devotus; si autem
+          <lb ed="#P" n="49"/>voluntas sit prompta, desit tamen gustus et
+          <lb ed="#P" n="50"/>suavitas , aliqua devotio esse censetur, sed
+          <lb ed="#P" n="51"/>non perfecta; quando vero omnia illa 
+          con<lb break="no" ed="#P" n="52"/>currunt, tunc censetur simpliciter esse 
+          devo<lb break="no" ed="#P" n="53"/>tio. Videndum ergo est quidnam horum 
+          de<lb break="no" ed="#P" n="54"/>votio sit, vel quomodo illa omnia ad 
+          devotio<lb break="no" ed="#P" n="55"/>nem requirantur.
+        </p>
+        <p xml:id="szovsr-m03430-d1e471">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>6. Cajetanus constituit devotionem in 
+          qua<lb break="no" ed="#P" n="57"/>litate actus voluntatis. —Cajetanus ergo, 
+          dic<lb break="no" ed="#P" n="58"/>ta q. 83, art. 1, distinguens illa duo in 
+          affec<lb break="no" ed="#P" n="59"/>tu colendi Deum, voluntatem, et 
+          promptitu<lb break="no" ed="#P" n="60"/>dinem, dicit velle, actum esse voluntatis;
+          <lb ed="#P" n="61"/>promptitudinem autem non esse actum 
+          vo<lb break="no" ed="#P" n="62"/>luntatis, sed qualitatem, seu modum actus
+          <lb ed="#P" n="63"/>voluntatis. Additque devotionem non esse 
+          ip<lb break="no" ed="#P" n="64"/>sum velle, sed promptitudinem ejus, atque ita
+          <lb ed="#P" n="65"/>formaliter devotionem non esse actum 
+          volun<lb break="no" ed="#P" n="66"/>tatis, sed modum et qualitatem ejus. Quia
+          <lb ed="#P" n="67"/>vero promptitudo videtur esse conditio 
+          om<lb break="no" ed="#P" n="68"/>nium studiosorum actuum qui ex habitu
+          <lb ed="#P" n="69"/>fiunt, devotio autem est propria religionis,
+          <lb ed="#P" n="70"/>ut D. Thomas ibi docet, ideo subjungit 
+          Caje<lb break="no" ed="#P" n="71"/>tanus quod, sicut simitas est curvitas, non
+          <lb ed="#P" n="72"/>tamen dicit illam absolute , sed connotando
+          <lb ed="#P" n="73"/>talem materiam, scilicet, nasum, ita devotio
+          <lb ed="#P" n="74"/>dicit promptitudinem non absolute, sed ut est
+          <lb ed="#P" n="75"/>in affectu colendi Deum, quem affectum 
+          con<lb break="no" ed="#P" n="76"/>notat. Atque ita exponit D. Thom. dicentem,
+          <lb ed="#P" n="77"/>devotionem esse actum religionis, scilicet,
+          <lb ed="#P" n="78"/>ratione connotati. Movetur hac ratione, quia
+          <lb ed="#P" n="79"/>devotio est actus religionis; sed religio est
+          <lb ed="#P" n="80"/>qualitas potentiae voluntatis ; ergo devotio est
+          <lb ed="#P" n="81"/>qualitas actus voluntatis, seu religionis. 
+          Pro<lb break="no" ed="#P" n="82"/>bat consequentiam inductione aliarum 
+          virtu<lb break="no" ed="#P" n="83"/>tum ; nam semper affectus seu actus proprius
+          <lb ed="#P" n="84"/>virtutis est modus actus potentiae, non 
+          ipse<lb break="no" ed="#P" n="85"/>met actus, ut prudentiae actus est recte 
+          prae<lb break="no" ed="#P" n="86"/>cipere, temperantiae moderate comedere, et
+          <lb ed="#P" n="87"/>omnium virtutum bene, vel prompte, aut
+          <lb ed="#P" n="88"/>recte operari.
+        </p>
+        <p xml:id="szovsr-m03430-d1e547">
+          <lb ed="#P" n="89"/>7. Cajetani sententia non placet. — Ego 
+          ve<lb break="no" ed="#P" n="90"/>ro imprimis non intelligo modos illos actuum
+          <lb ed="#P" n="91"/>immanentium, quos his vocibus significamus,
+          <lb ed="#P" n="92"/>promptitudo . facilitas , vel quid simile, hos
+          <lb ed="#P" n="93"/>( inquam ) modos esse qualitates distinctas ab
+          <lb ed="#P" n="94"/>ipsis actibus elicitis ab habitibus, nec esse
+          <lb ed="#P" n="95"/>modos intrinsecos talium actuum ab ipsis ex
+          <lb ed="#P" n="96"/>natura rei distinctos. Quia illi actus, qui ex
+          <lb ed="#P" n="97"/>habitu fiunt, sunt qualitates quaedam cum
+          <lb ed="#P" n="98"/>suis actionibus, et non sunt capaces 
+          alia<lb break="no" ed="#P" n="99"/>rum qualitatum, nec etiam habent alium
+          <lb ed="#P" n="100"/>modum praeter inhaerentiam, et intensionem,
+          <lb ed="#P" n="101"/>et extensionem, vel habitudinem ad sua 
+          ob<lb break="no" ed="#P" n="102"/>jecta, quos modos omnes potest habere 
+          ac<lb break="no" ed="#P" n="103"/>tus, qui ab habitu non elicitur. Solum ergo
+          <lb ed="#P" n="104"/>habet actus productus ab habitu peculiarem
+          <lb ed="#P" n="105"/>habitudinem , quam in productione sua 
+          ha<lb break="no" ed="#P" n="106"/>bet ad proximum principium, quia non 
+          res<lb break="no" ed="#P" n="107"/>picit nudam potentiam, sed affectam habitu,
+          <lb ed="#P" n="108"/>ratione cujus actus dicitur prompte fieri,
+          <lb ed="#P" n="109"/>quia fit a principio potentiori et robustiori ad
+          <lb ed="#P" n="110"/>agendum; et quando actus est supernatura-
+          <pb ed="#P" n="141"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lis, et fit ab habitu infuso, dicitur etiam 
+          con<lb break="no" ed="#P" n="2"/>naturaliter fieri, quia fit a principio 
+          intrinse<lb break="no" ed="#P" n="3"/>co proportionato. Ultra haec vero 
+          supervaca<lb break="no" ed="#P" n="4"/>neum est fingere alium modum intrinsecum,
+          <lb ed="#P" n="5"/>vel qualitatem in tali actu; nec a Cajetano
+          <lb ed="#P" n="6"/>explicatur, nec mente percipitur quid vel ad
+          <lb ed="#P" n="7"/>quid sit. Et ideo in Metaphysic., 
+          disputatio<lb break="no" ed="#P" n="8"/>ne 44, late ostendi habitum, per se 
+          loquen<lb break="no" ed="#P" n="9"/>do, non dare promptitudinem vel facilitatem
+          <lb ed="#P" n="10"/>in operando , nisi augendo virtutem agendi,
+          <lb ed="#P" n="11"/>et influendo simul cum potentia in ipsammet
+          <lb ed="#P" n="12"/>entitatem et substantiam actus. Dico autem
+          <lb ed="#P" n="13"/>per se loguendo, quia interdum provenit 
+          faci<lb break="no" ed="#P" n="14"/>litas ex remotione impedimentorum, quae
+          <lb ed="#P" n="15"/>usu ipso tolluntur, vel ex ipsius corporis 
+          dis<lb break="no" ed="#P" n="16"/>positione. Sed haec extrinseca sunt, et per 
+          ac<lb break="no" ed="#P" n="17"/>cidens, ad intrinsecam promptitudinem quam
+          <lb ed="#P" n="18"/>habitus praebet, de qua Cajetanus loquitur.
+          <lb ed="#P" n="19"/>Loquor item de promptitudine vel facilitate,
+          <lb ed="#P" n="20"/>non de suavitate, prout dicere potest 
+          quam<lb break="no" ed="#P" n="21"/>dam delectationem ; sic enim delectatio actus
+          <lb ed="#P" n="22"/>quidam est, non afhiciens proprie alium 
+          ac<lb break="no" ed="#P" n="23"/>tum, sed voluntatem, vel appetitum, ratione
+          <lb ed="#P" n="24"/>cujus dicitur alius actus delectabiliter fieri
+          <lb ed="#P" n="25"/>solum per quamdam denominationem 
+          ratio<lb break="no" ed="#P" n="26"/>ne concomrtantiae, vel consecutionis unius ex
+          <lb ed="#P" n="27"/>alio, vel quia unus actus objectum est 
+          alte<lb break="no" ed="#P" n="28"/>rius, ut contemplatio delectationis.
+        </p>
+        <p xml:id="szovsr-m03430-d1e662">
+          <lb ed="#P" n="29"/>8. Devotio in actu coluntatis consistit. —
+          <lb ed="#P" n="30"/>Quocirca , loquendo in particulari de 
+          devo<lb break="no" ed="#P" n="31"/>tione, mihi certum videtur non consistere in
+          <lb ed="#P" n="32"/>tali modo, vel qualitate actus, sed in aliquo
+          <lb ed="#P" n="33"/>voluntatis actu. Loquor enim de devotione
+          <lb ed="#P" n="34"/>actuali in actu secundo, quia de actibus 
+          reli<lb break="no" ed="#P" n="35"/>gionis agimus, sicut D. Thomas illam 
+          consi<lb break="no" ed="#P" n="36"/>deravit. Non enim repugnat considerare 
+          de<lb break="no" ed="#P" n="37"/>votionem in actu primo: sic enim 
+          denomi<lb break="no" ed="#P" n="38"/>natur homo devotus, si est deditus divino 
+          ob<lb break="no" ed="#P" n="39"/>sequio, et illud solet cum delectatione 
+          ope<lb break="no" ed="#P" n="40"/>rari, et in eo est strenuus et diligens, etiamsi
+          <lb ed="#P" n="41"/>actu non operetur, sed dormiat. llla autem
+          <lb ed="#P" n="42"/>devotio in actu primo non est aliud quam
+          <lb ed="#P" n="43"/>promptitudo habitualis ad divinum cultum,
+          <lb ed="#P" n="44"/>quae promptitudo non est modus habitus, nec
+          <lb ed="#P" n="45"/>qualitas ejus, sed est ipsemet habitus 
+          reli<lb break="no" ed="#P" n="46"/>gionis, vel alterius virtutis similis valde 
+          per<lb break="no" ed="#P" n="47"/>fectus, vel consuetudine firmatus, qui 
+          adhae<lb break="no" ed="#P" n="48"/>rendo potentia, reddit illam facilem in actu
+          <lb ed="#P" n="49"/>primo. Actualis autem devotio consistit in 
+          ac<lb break="no" ed="#P" n="50"/>tu, nimirum (ut D. Thomas dixit) in actuali
+          <lb ed="#P" n="51"/>affectu ad divinum cultum, vel qvuid simile.
+          <lb ed="#P" n="52"/>Et patet ex ipso nomine deducto a verbo 
+          de<lb break="no" ed="#P" n="53"/>voveo, nam homo se devovet divino cultui non
+          <lb ed="#P" n="54"/>per modum aliquem actus, sed per ipsum 
+          ac<lb break="no" ed="#P" n="55"/>tum et affectum. Unde (quod notandum est)
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non est de ratione actualis devotionis, quod
+          <lb ed="#P" n="57"/>sit actus ab habitu elicitus; nam actus ille,
+          <lb ed="#P" n="58"/>qui dicitur devotio, non habet quod sit 
+          devo<lb break="no" ed="#P" n="59"/>tio, ex particulari respectu ad habitum, sed
+          <lb ed="#P" n="60"/>ex sua specie, essentia et objecto, ut constat
+          <lb ed="#P" n="61"/>ex D. Thom., dicta quaest. 82, art. 1 et 2, ubi
+          <lb ed="#P" n="62"/>probat devotionem esse actum specialem, ex
+          <lb ed="#P" n="63"/>materia et formali effectu ejus, et cum cadem
+          <lb ed="#P" n="64"/>proportione probat essc actum religionis. 
+          Di<lb break="no" ed="#P" n="65"/>citur autem actus religionis, non tantum ille
+          <lb ed="#P" n="66"/>qui de facto elicitur ab habitu, sed qui 
+          natu<lb break="no" ed="#P" n="67"/>ra sua et ratione sui objecti talis est, ut ad
+          <lb ed="#P" n="68"/>religionem pertineat. Unde si quis in prima
+          <lb ed="#P" n="69"/>sua conversione simul dum conteritur de 
+          pec<lb break="no" ed="#P" n="70"/>catis, se devoveat Deo per deliberatum 
+          affec<lb break="no" ed="#P" n="71"/>tum colendi illum in omnibus, actum verae
+          <lb ed="#P" n="72"/>devotionis exercet, etiamsi in tali habitu non
+          <lb ed="#P" n="73"/>operetur. Sicut quando Paulus, vocatus a
+          <lb ed="#P" n="74"/>Deo, respondit : Domine, quid me vis facere?
+          <lb ed="#P" n="75"/>jam veram devotionem in Christum elicuit,
+          <lb ed="#P" n="76"/>licet non ex habitu, sed ex auxiliante gratia
+          <lb ed="#P" n="77"/>vocationis, illum affectum conceperit. 
+          Pecca<lb break="no" ed="#P" n="78"/>tor etiam potest interdum actum devotionis in
+          <lb ed="#P" n="79"/>oratione exercere, etiamsi nec justus sit, nec
+          <lb ed="#P" n="80"/>per illum actum statim justificetur, et 
+          conse<lb break="no" ed="#P" n="81"/>quenter illum non eliciat ex habitu, sed ex
+          <lb ed="#P" n="82"/>auxilio.
+        </p>
+        <p xml:id="szovsr-m03430-d1e785">
+          <lb ed="#P" n="83"/>9. Devotio substaxtialiter non consistit in
+          <lb ed="#P" n="84"/>promptitudine quee oritur em habitu. — Ex his
+          <lb ed="#P" n="85"/>ergo concludo , devotionem non consistere
+          <lb ed="#P" n="86"/>substantialiter in promptitudine illa, 
+          prove<lb break="no" ed="#P" n="87"/>niente ab habitu; nam, licet haec conferat ad
+          <lb ed="#P" n="88"/>quamdam perfectionem talis operationis ,
+          <lb ed="#P" n="89"/>quia devotio ex habitu regulariter erit 
+          cons<lb break="no" ed="#P" n="90"/>tantior ac ferventior, caeteris paribus, tamen
+          <lb ed="#P" n="91"/>non est illa substantia devotionis , tum quia
+          <lb ed="#P" n="92"/>sine illa potest esse devotio, ut ostensum est;
+          <lb ed="#P" n="93"/>tum etiam quia illa promptitudo non est nisi
+          <lb ed="#P" n="94"/>relatio, vel denominatio a tali principio, ut
+          <lb ed="#P" n="95"/>declaratum est. Neque contra hoc urget ratio
+          <lb ed="#P" n="96"/>Cajetani ; negatur enim consequentia illa:
+          <lb ed="#P" n="97"/>Religio est qualitas potentiae voluntatis ; ergo
+          <lb ed="#P" n="98"/>devotio est qualitas actus voluntatis. Imo,
+          <lb ed="#P" n="99"/>quia religio est qualitas voluntatis, ideo a 
+          vo<lb break="no" ed="#P" n="100"/>luntate religione atfecta ( quando ita esse 
+          con<lb break="no" ed="#P" n="101"/>tingit ) elicitur volitio colendi Deum, quae
+          <lb ed="#P" n="102"/>etiam est qualitas voluntatis, et simul est 
+          ef<lb break="no" ed="#P" n="103"/>fectus virtutis religionis indivisibiliter et 
+          im<lb break="no" ed="#P" n="104"/>partibiliter ( ut sic dicam) elicitus a potentia
+          <lb ed="#P" n="105"/>et habitu. Nec illa partitio intelligibilis est,
+          <lb ed="#P" n="106"/>scilicet , quod potentia faciat actum, religio
+          <lb ed="#P" n="107"/>vero modum distinctum ab actu; tum quia
+          <lb ed="#P" n="108"/>intelligibilis non est ille modus, qui sit 
+          ali<lb break="no" ed="#P" n="109"/>quid per se factibile, ut sic dicam; tum etiam
+          <lb ed="#P" n="110"/>quia ipsa substantia actus debet prompte fie-
+          <pb ed="#P" n="142"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ri ; non posset autem ita fieri nisi habitus 
+          ju<lb break="no" ed="#P" n="2"/>varet potentiam ad ipsam substantiam actus
+          <lb ed="#P" n="3"/>faciendam. Hoc ergo est munus virtutis 
+          reli<lb break="no" ed="#P" n="4"/>gionis circa actum devotionis, quando ab ea
+          <lb ed="#P" n="5"/>elicitur. Idemque est in alis virtutibus cum
+          <lb ed="#P" n="6"/>proportione : nam prudentia, verbi gratia,
+          <lb ed="#P" n="7"/>non aliter dat recte praecipere, quam 
+          incli<lb break="no" ed="#P" n="8"/>nando ad judicium practicum, et practice 
+          ve<lb break="no" ed="#P" n="9"/>rum secundum honestatem moralem ; et
+          <lb ed="#P" n="10"/>temperantia dat modum temperate 
+          comeden<lb break="no" ed="#P" n="11"/>di, inclinando ad medium in tali materia, et
+          <lb ed="#P" n="12"/>eliciendo actum circa illud ; et justitia dicitur
+          <lb ed="#P" n="13"/>operari juste, quia inclinat ad servandum
+          <lb ed="#P" n="14"/>jus, et sic de aliis. Cum autem dici solet
+          <lb ed="#P" n="15"/>eum, qui sine habitu facit justitiam , operari
+          <lb ed="#P" n="16"/>justum, sed non juste, ibi juste non significat
+          <lb ed="#P" n="17"/>modum aliquem actus qui fiat ab habitu, sed
+          <lb ed="#P" n="18"/>significat modum ipsum operandi ex habitu
+          <lb ed="#P" n="19"/>cum majori facilitate et promptitudine, quae
+          <lb ed="#P" n="20"/>non dicit in actu alium modum, praeter 
+          dima<lb break="no" ed="#P" n="21"/>nationem a potentia habente majorem vim
+          <lb ed="#P" n="22"/>ratione habitus. At vero haec ipsa 
+          promptitu<lb break="no" ed="#P" n="23"/>do non est de ratione et substantia 
+          devotio<lb break="no" ed="#P" n="24"/>nis, ut dixi, licet ad illam juvet ; unde devotio
+          <lb ed="#P" n="25"/>non significat illam promptitudinem.
+        </p>
+        <p xml:id="szovsr-m03430-d1e907">
+          <lb ed="#P" n="26"/>10. Devotio actualis est actus voluntatis, qui
+          <lb ed="#P" n="27"/>dicitur pius affectus. — Hinc ergo ulterius
+          <lb ed="#P" n="28"/>concluditur devotionem actualem esse actum
+          <lb ed="#P" n="29"/>aliquem voluntatis, scilicet, pium affectum
+          <lb ed="#P" n="30"/>quo se homo devovet aliquo modo divino 
+          ob<lb break="no" ed="#P" n="31"/>sequio, devovet, inquam, non promittendo,
+          <lb ed="#P" n="32"/>sed volendo et proponendo. Haec est 
+          senten<lb break="no" ed="#P" n="33"/>tia D. Thomae, dicta quaest., art. 1, quam ex
+          <lb ed="#P" n="34"/>ipsa etymologia vocis demonstrat ; potestque
+          <lb ed="#P" n="35"/>in hunc modum declarari. Quia non est 
+          du<lb break="no" ed="#P" n="36"/>bium quin talis voluntatis actus possibilis sit,
+          <lb ed="#P" n="37"/>quia homo voluntate sua potest se tradere,
+          <lb ed="#P" n="38"/>offerre, aut dicare servitio alterius; ergo
+          <lb ed="#P" n="39"/>multo magis Dei. Illa ergo oblatio voluntarie
+          <lb ed="#P" n="40"/>facta recte dicitur devotio; sed illa oblatio
+          <lb ed="#P" n="41"/>formaliter est in voluntate ratione illius actus ;
+          <lb ed="#P" n="42"/>ergo illa est devotio, et ab illo actu 
+          denomi<lb break="no" ed="#P" n="43"/>natur persona devota, quasi oblata, et 
+          di<lb break="no" ed="#P" n="44"/>cata in obsequium Dei per suam voluntatem.
+          <lb ed="#P" n="45"/>Et reliqua omnia, quae sub talem voluntatem
+          <lb ed="#P" n="46"/>cadunt, ut genuflexio, laus Dei, etalia similia,
+          <lb ed="#P" n="47"/>quatenus imperantur ab illo affectu 
+          devotio<lb break="no" ed="#P" n="48"/>nis, potius dicuntur actiones devotae Deo, id
+          <lb ed="#P" n="49"/>est, dicatae et oblatae Deo, quam devotiones,
+          <lb ed="#P" n="50"/>licet interdum late sumpto vocabulo dicantur
+          <lb ed="#P" n="51"/>devotiones, vel materialiter, quia sunt 
+          mate<lb break="no" ed="#P" n="52"/>ria in qua versatur devotio, vel per 
+          denomi<lb break="no" ed="#P" n="53"/>nationem a devotione. Atque ita dixit D.
+          <lb ed="#P" n="54"/>Thomas dicto art. 1, ad 2, quod sicut motio
+          <lb ed="#P" n="55"/>moventis transit ad mobile, sic suo modo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>motio devotionis transit ad caeteras actiones,
+          <lb ed="#P" n="57"/>quae ex imperio illius fiunt.
+        </p>
+        <p xml:id="szovsr-m03430-d1e981">
+          <lb ed="#P" n="58"/>11. Quomodo se habeant cum devotione, prom -
+          <lb ed="#P" n="59"/>pte velle;et suaviter velle.— Primo, circa 
+          prom<lb break="no" ed="#P" n="60"/>ptitudinem eapenditur mens D. Thom. — Quid
+          <lb ed="#P" n="61"/>vero respondendum est ad difficultatem supra
+          <lb ed="#P" n="62"/>insinuatam, quod volitio haec non est 
+          devo<lb break="no" ed="#P" n="63"/>tio, nisi sit prompta ; imo, nisi dulcedinem
+          <lb ed="#P" n="64"/>quamdam, et suavitatem secum afferat, non
+          <lb ed="#P" n="65"/>censetur vere devotio? Oportet ergo 
+          expone<lb break="no" ed="#P" n="66"/>re quomodo haec duo ad devotionem 
+          neces<lb break="no" ed="#P" n="67"/>saria sint, et quas partes in illa habeant. Circa
+          <lb ed="#P" n="68"/>promptitudinem, duo dicta D. Thomae, in dicto
+          <lb ed="#P" n="69"/>art. 1 et 2, notanda et explicanda sunt, sunt
+          <lb ed="#P" n="70"/>enim subobscura ; eorum tamen exphcatio
+          <lb ed="#P" n="71"/>ad rem declarandam deserviet. In primo ergo
+          <lb ed="#P" n="72"/>articulo ait, devotionem esse voluntatem 
+          prom<lb break="no" ed="#P" n="73"/>pte faciendi que ad Dei cultum spectant ; quo
+          <lb ed="#P" n="74"/>dicendi modo significat promptitudinem 
+          devo<lb break="no" ed="#P" n="75"/>tionis non requiri ex parte actus, sed ex 
+          par<lb break="no" ed="#P" n="76"/>te objecti illius actus qui est devotio. Juxta
+          <lb ed="#P" n="77"/>quem modum dicendi facile est ad 
+          interroga<lb break="no" ed="#P" n="78"/>tionem respondere, licet quis non habeat 
+          fa<lb break="no" ed="#P" n="79"/>cilitatem et promptitudinem in eliciendo illo
+          <lb ed="#P" n="80"/>actu, quo vult prompte tradere se ad divinum
+          <lb ed="#P" n="81"/>cultum, nihilominus esse devotionem, quia ex
+          <lb ed="#P" n="82"/>parte objecti desiderat et proponit prompte
+          <lb ed="#P" n="83"/>famulari Deo.
+        </p>
+        <p xml:id="szovsr-m03430-d1e1040">
+          <lb ed="#P" n="84"/>12. Mentem D. Thom. aliam fuisse creditwr.
+          <lb ed="#P" n="85"/>— Sed hoc mihi non probatur, neque 
+          existi<lb break="no" ed="#P" n="86"/>mo D. Thom. hoc intendisse. Primo, quia
+          <lb ed="#P" n="87"/>promptitudo haec in exercendis actibus 
+          divi<lb break="no" ed="#P" n="88"/>ni cultus multa requirit, vel ex multis 
+          ca<lb break="no" ed="#P" n="89"/>pitibus oriri potest, quae vel non sunt in 
+          po<lb break="no" ed="#P" n="90"/>testate hominis, vel non cadunt sub objectum
+          <lb ed="#P" n="91"/>directum devotionis. Saepe enim illa 
+          prompti<lb break="no" ed="#P" n="92"/>tudo provenit ex dulcedine et gustu rerum
+          <lb ed="#P" n="93"/>divinarum, ut mox dicemus; illa autem 
+          dul<lb break="no" ed="#P" n="94"/>cedo saepe non est in potestate hominis, sed a
+          <lb ed="#P" n="95"/>Deo fit. Requirit etiam promptitudo illa 
+          conve<lb break="no" ed="#P" n="96"/>nientem corporis dispositionem et ablationem
+          <lb ed="#P" n="97"/>impedimentorum, quae non semper sunt in
+          <lb ed="#P" n="98"/>potestate nostra. Denique, licet ad illam 
+          prom<lb break="no" ed="#P" n="99"/>ptitudinem juvet habitus, nihilominus hoc 
+          ip<lb break="no" ed="#P" n="100"/>sum, quod est operari ex habitu, non cadit
+          <lb ed="#P" n="101"/>sub dictum affectum devotionis, saltem ex 
+          ne<lb break="no" ed="#P" n="102"/>cessitate, neque regulariter, sed directe 
+          ten<lb break="no" ed="#P" n="103"/>dit affectus ad colendum Deum, et se illius
+          <lb ed="#P" n="104"/>famulatui tradendum. Devotio autem propria,
+          <lb ed="#P" n="105"/>de qua loquimur, est actus humanus, et est
+          <lb ed="#P" n="106"/>de re quae est in potestate nostra ; non habet
+          <lb ed="#P" n="107"/>ergo pro objecto illam promptitudinem, sed
+          <lb ed="#P" n="108"/>cultum.
+        </p>
+        <p xml:id="szovsr-m03430-d1e1097">
+          <lb ed="#P" n="109"/>13. Secundo, quia esto possit haberi 
+          affec<lb break="no" ed="#P" n="110"/>tus voluntatis ad iflam promptitudinem et ad
+          <pb ed="#P" n="143"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cultum cum illa perfectione, quod negari non
+          <lb ed="#P" n="2"/>potest, tamen etiam est certum posse 
+          volun<lb break="no" ed="#P" n="3"/>tatem simpliciter tendere in ipsum Dei 
+          obse<lb break="no" ed="#P" n="4"/>quium, praescindendo ab illo modo; hoc 
+          au<lb break="no" ed="#P" n="5"/>tem satis estut ille sit perfectus actus 
+          religio<lb break="no" ed="#P" n="6"/>nis et devotionis, nam homo per illum revera
+          <lb ed="#P" n="7"/>se totum devovet Deo. Imo. licet ipsum Dei
+          <lb ed="#P" n="8"/>obsequium repraesentetur difficile et grave, et
+          <lb ed="#P" n="9"/>illa suavitas vel voluptas in illo non sentiatur
+          <lb ed="#P" n="10"/>nec repraesentetur, et nihilominus deliberate
+          <lb ed="#P" n="11"/>et definite voluntas in illud feratur, illa est 
+          op<lb break="no" ed="#P" n="12"/>tima et magna devotio.
+        </p>
+        <p xml:id="szovsr-m03430-d1e1134">
+          <lb ed="#P" n="13"/>14. Mens D. Thomee declaratur. — Cum 
+          er<lb break="no" ed="#P" n="14"/>go D. Thomas ait devotionem esse 
+          volunta<lb break="no" ed="#P" n="15"/>tem prompte faciendi, vel tradendi se, 
+          intelli<lb break="no" ed="#P" n="16"/>gendum videtur in actu exercito (ut sic 
+          di<lb break="no" ed="#P" n="17"/>cam), non in actu signato, nam qui afficitur
+          <lb ed="#P" n="18"/>per devotionem cultui divino, hoc ipso in 
+          exer<lb break="no" ed="#P" n="19"/>citio appetit promptitudinem in illo cultu,
+          <lb ed="#P" n="20"/>etiamsi formaliter non cogitet de tali 
+          prom<lb break="no" ed="#P" n="21"/>ptitudine, nec illam expresse et per modum
+          <lb ed="#P" n="22"/>objecti appetat. Imo non solum appetit 
+          prom<lb break="no" ed="#P" n="23"/>plitudinem, sed etiam illam facit quoad 
+          po<lb break="no" ed="#P" n="24"/>test, quia ipsamet devotio est substantialis
+          <lb ed="#P" n="25"/>promptitudo, ut statim declarabo; unde cum
+          <lb ed="#P" n="26"/>illa affectio et promptitudo voluntaria sit, eo
+          <lb ed="#P" n="27"/>modo quo actus elicitus a voluntate est 
+          intrin<lb break="no" ed="#P" n="28"/>sece voluntarius, etiam volendo cultum Dei,
+          <lb ed="#P" n="29"/>vult quis promptitudinem ad illum, quia vult
+          <lb ed="#P" n="30"/>esse bene affectus ad illum. Hoc ergo satis est
+          <lb ed="#P" n="31"/>ad rationem devotionis, quamvis si quis 
+          velu<lb break="no" ed="#P" n="32"/>ii per reflexionem consideret etiam ipsam
+          <lb ed="#P" n="33"/>promptitudinem, et per suam voluntatem et
+          <lb ed="#P" n="34"/>propositum velit comparare illam, quantum
+          <lb ed="#P" n="35"/>potest, sine dubio erit etiam optimae 
+          devotio<lb break="no" ed="#P" n="36"/>nis actus, expressius et formalius continens 
+          vo<lb break="no" ed="#P" n="37"/>luntariam subjectionem, et sui traditionem, ad
+          <lb ed="#P" n="38"/>promptum Dei obsequium.
+        </p>
+        <p xml:id="szovsr-m03430-d1e1194">
+          <lb ed="#P" n="39"/>15. Proponitur alterum D. Thome dictum
+          <lb ed="#P" n="40"/>de eadem promptitudine ad devotionem. — Alia
+          <lb ed="#P" n="41"/>sententia Div. Thom. est in art. 2 ejusdem
+          <lb ed="#P" n="42"/>quaest. 82, ubi dicit, ad eamdem virtutem 
+          perti<lb break="no" ed="#P" n="43"/>nere, velle facere aliquid, et habere voluntatem
+          <lb ed="#P" n="44"/>promptam ad illud faciendum. Et devotionem
+          <lb ed="#P" n="45"/>ponit in hoc actu, qui est habere voluntatem
+          <lb ed="#P" n="46"/>promptam ad exequenda ea quae sunt divini
+          <lb ed="#P" n="47"/>cultus: sentit ergo, devotionem consistere in
+          <lb ed="#P" n="48"/>hac promptitudine. Et quod obscurius est, 
+          dis<lb break="no" ed="#P" n="49"/>unguit duo illa tanquam duos actus ejusdem
+          <lb ed="#P" n="50"/>virtutis, scilicet velle habere promptam 
+          volun<lb break="no" ed="#P" n="51"/>tatem, et velle exequi illam, quia utriusque
+          <lb ed="#P" n="52"/>actus (inquit) est idem objectum ; sentit ergo
+          <lb ed="#P" n="53"/>esse actus distinctos, licet ejusdem virtutis.
+          <lb ed="#P" n="54"/>Difficlie autem videtur in ipsa voluntate 
+          il<lb break="no" ed="#P" n="55"/>los actus distinguere, cum tamen divus Tho
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mas aperte loquatur de voluntate et actibus
+          <lb ed="#P" n="57"/>ejus.
+        </p>
+        <p xml:id="szovsr-m03430-d1e1240">
+          <lb ed="#P" n="58"/>16. Devotio consistit in actu quodam 
+          red<lb break="no" ed="#P" n="59"/>dente hominem promptum ad cultum Dei. —
+          <lb ed="#P" n="60"/>Distinctio duplicis actus in obsequio divino,
+          <lb ed="#P" n="61"/>juata quam utrumque D. Thomee dictum 
+          empo<lb break="no" ed="#P" n="62"/>nitur. — Dico igitur devotionem ipsam esse
+          <lb ed="#P" n="63"/>actum quemdam, qui hominem reddit 
+          faci<lb break="no" ed="#P" n="64"/>lem et promptum ad obsequium et cultum
+          <lb ed="#P" n="65"/>Dei, quod facit ipsa devotio per seipsam 
+          for<lb break="no" ed="#P" n="66"/>maliter, vel virtute, quamdiu illa permanet.
+          <lb ed="#P" n="67"/>Hoc intelligitur facile distinguendo circa 
+          di<lb break="no" ed="#P" n="68"/>vinum obsequium duplicem actum. Unus est
+          <lb ed="#P" n="69"/>generalis ex parte materiae , licet in se et in
+          <lb ed="#P" n="70"/>suo esse particularis sit, et hujusmodi est 
+          vo<lb break="no" ed="#P" n="71"/>luntas illa deliberata, qua quis se offert, et
+          <lb ed="#P" n="72"/>tradit omnino in divinum obsequium, qui 
+          ac<lb break="no" ed="#P" n="73"/>tus universam materiam religionis 
+          amplecti<lb break="no" ed="#P" n="74"/>tur, et non descendit ad particularia 
+          obse<lb break="no" ed="#P" n="75"/>quia. Alius vero esse potest affectus 
+          particu<lb break="no" ed="#P" n="76"/>laris, vel ad orandum voce, vel ad 
+          meditan<lb break="no" ed="#P" n="77"/>dum, vel ad assistendum sacrificio, vel ad
+          <lb ed="#P" n="78"/>alia similia opera. Priorem ergo actum 
+          intel<lb break="no" ed="#P" n="79"/>lexit D. Thomas, dicta q. 82, nomine 
+          devo<lb break="no" ed="#P" n="80"/>tionis; unde in art. 1 dicit, eos dici devotos,
+          <lb ed="#P" n="81"/>qui seipsos quodammodo devovent Deo, ut ei se
+          <lb ed="#P" n="82"/>totaliter subdant. Et de eodem actu intelligit
+          <lb ed="#P" n="83"/>in art. 2, reddere promptam voluntatem ad
+          <lb ed="#P" n="84"/>divinum obsequium ; tum quia actus ille est
+          <lb ed="#P" n="85"/>veluti amor quidam ad divinum cultum;
+          <lb ed="#P" n="86"/>amor autem dat facilitatem et 
+          promptitudi<lb break="no" ed="#P" n="87"/>nem in exequenda actione amata; tum etiam
+          <lb ed="#P" n="88"/>quia illa generalis voluntas est efticax 
+          inten<lb break="no" ed="#P" n="89"/>tio divini obsequii, adl quam comparantur,
+          <lb ed="#P" n="90"/>ut media, particularia obsequia, quando 
+          eo<lb break="no" ed="#P" n="91"/>rum occasiones occurrunt; intentio autem 
+          ef<lb break="no" ed="#P" n="92"/>ficax dat promptitudinem in executione 
+          medio<lb break="no" ed="#P" n="93"/>rum. Et ita recte distinguuntur illa duo, velle
+          <lb ed="#P" n="94"/>facere aliquid, et velle habere promptam 
+          vo<lb break="no" ed="#P" n="95"/>luntatem ad illud faciendum ; nam prior 
+          ac<lb break="no" ed="#P" n="96"/>tus est vel voluntas executiva, seu actualis
+          <lb ed="#P" n="97"/>usus ; posterior est veluti intentio, aut 
+          sim<lb break="no" ed="#P" n="98"/>plex voluntatis affectus, qui reddit illam
+          <lb ed="#P" n="99"/>promptam et facilem ad executionem , 
+          quan<lb break="no" ed="#P" n="100"/>do occurrit. Et in hoc affectu ponitur a divo
+          <lb ed="#P" n="101"/>Thoma devotio : unde cum ait, per hunc 
+          ac<lb break="no" ed="#P" n="102"/>tum velle hominem habere promptam 
+          volun<lb break="no" ed="#P" n="103"/>tatem ad divinum obsequium , non intelligit
+          <lb ed="#P" n="104"/>hoc ipsum, scilicet, habere promptam 
+          volun<lb break="no" ed="#P" n="105"/>tatem esse objectum proprium illius actus 
+          ge<lb break="no" ed="#P" n="106"/>neralis, sed esse quasi formalem ettectum
+          <lb ed="#P" n="107"/>ejus ; quia vero hic effectus voluntarius est,
+          <lb ed="#P" n="108"/>sicut et actus ipse est voluntarius, ideo per
+          <lb ed="#P" n="109"/>illum actum dicitur homo velle habere 
+          prom<lb break="no" ed="#P" n="110"/>ptam voluntatem ad divinam obsequium.
+        </p>
+        <p xml:id="szovsr-m03430-d1e1357">
+          <pb ed="#P" n="144"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>17. Quaenam sit propria devotionis 
+          prompti<lb break="no" ed="#P" n="2"/>tudo. — In hoc ergo sensu, verum est 
+          devo<lb break="no" ed="#P" n="3"/>tionem consistere in promptitudine ad 
+          divi<lb break="no" ed="#P" n="4"/>num obsequium , non vero in promptitudine
+          <lb ed="#P" n="5"/>ad eliciendum ipsum actum devotionis, seu
+          <lb ed="#P" n="6"/>voluntatem illam generalem tradendi se 
+          divi<lb break="no" ed="#P" n="7"/>no obsequio ; sive enim haec eliciatur 
+          prom<lb break="no" ed="#P" n="8"/>pte, sive aegre et difficulter, si tamen 
+          elicia<lb break="no" ed="#P" n="9"/>tur, et constanter retineatur, ipsa reddet 
+          ho<lb break="no" ed="#P" n="10"/>minem promptum ad actus particulares divini
+          <lb ed="#P" n="11"/>obsequii; voluntas enim quamdiu in neutram
+          <lb ed="#P" n="12"/>partem deliberat vel afficitur, non est 
+          prom<lb break="no" ed="#P" n="13"/>pta ad aliquod munus praestandum; at 
+          post<lb break="no" ed="#P" n="14"/>quam decrevit, et se offert ad aliquod 
+          mu<lb break="no" ed="#P" n="15"/>nus, ex vi illius actus prompta est, si actus
+          <lb ed="#P" n="16"/>vel virtus ejus duret, et non mutetur. 
+          Un<lb break="no" ed="#P" n="17"/>de in hoc sensu fatemur, devotionem 
+          con<lb break="no" ed="#P" n="18"/>sistere in promptitudine ad divinum 
+          obse<lb break="no" ed="#P" n="19"/>quium ; sed inde non sequitur, non 
+          con<lb break="no" ed="#P" n="20"/>sistere in actu; nam illa promptitudo 
+          for<lb break="no" ed="#P" n="21"/>maliter sumpta nihil aliud est quam actus
+          <lb ed="#P" n="22"/>ille quem explicumus. Nec refert quod, 
+          stan<lb break="no" ed="#P" n="23"/>te illo actu, possit aliquis sentire difficultatem
+          <lb ed="#P" n="24"/>in exequendis actibus divini obsequii, 
+          pro<lb break="no" ed="#P" n="25"/>pter desuetudinem, vel alia impedimenta 
+          cor<lb break="no" ed="#P" n="26"/>poris, vel inferioris appetitus, aut daemonis;
+          <lb ed="#P" n="27"/>nam hoc est extrinsecum et.per accidens ;
+          <lb ed="#P" n="28"/>nos autem consideramus id quod actus ille
+          <lb ed="#P" n="29"/>per se confert. Unde distinguere possumus
+          <lb ed="#P" n="30"/>duplicem promptitudinem : unam 
+          appella<lb break="no" ed="#P" n="31"/>mus deliberationis, et est illa quam praebet
+          <lb ed="#P" n="32"/>ille affectus quem explicuimus; aliam vocare
+          <lb ed="#P" n="33"/>possumus habitum, vel dispositionem 
+          ope<lb break="no" ed="#P" n="34"/>rantis, sub qua comprehendimus tam illam
+          <lb ed="#P" n="35"/>quae provenire potest ex habitu et positiva
+          <lb ed="#P" n="36"/>inclinatione ejus, quam illam quae ex 
+          abla<lb break="no" ed="#P" n="37"/>tuone impedimentorum evenire solet. Priorem
+          <lb ed="#P" n="38"/>ergo censemus substantialem , et per se 
+          per<lb break="no" ed="#P" n="39"/>tinentem ad devotionem, et positam esse in
+          <lb ed="#P" n="40"/>nostra potestate cum gratia divina, quia 
+          de<lb break="no" ed="#P" n="41"/>liberatio propositi et affectus in nostra 
+          potes<lb break="no" ed="#P" n="42"/>tate est. Posteriorem vero reputamus 
+          extrin<lb break="no" ed="#P" n="43"/>secam et accidentalem, et non esse per se 
+          ne<lb break="no" ed="#P" n="44"/>cessariam ad veram devotionem, licet ad ejus
+          <lb ed="#P" n="45"/>facilitatem et durationem multum conferat.
+          <lb ed="#P" n="46"/>18. Altera devotionis promptitudo ex animi
+          <lb ed="#P" n="47"/>ad res divinas affectu proveniens. qua solet
+          <lb ed="#P" n="48"/>etiam appellari devotio. — Superest dicendum
+          <lb ed="#P" n="49"/>de alia promptitudine , quae ex delectatione,
+          <lb ed="#P" n="50"/>suavitate, seu gustu spirituali provenit. 
+          Con<lb break="no" ed="#P" n="51"/>stat enim ex Scriptura, Patribus, ac 
+          experien<lb break="no" ed="#P" n="52"/>tia, ex affectu ad Deum vel res divinas oriri
+          <lb ed="#P" n="53"/>in animo suavitatem quamdam , vel 
+          delecta<lb break="no" ed="#P" n="54"/>tionem , quam etiam spiritualem 
+          consolatio<lb break="no" ed="#P" n="55"/>nem mystici Theologi vocant. Constat etiam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>hoc genus consolationis, seu gaudii per se
+          <lb ed="#P" n="57"/>inultum conferre ad promptitudinem 
+          opera<lb break="no" ed="#P" n="58"/>tionis, quia ea, quae delectabiliter ac suaviter
+          <lb ed="#P" n="59"/>facimus , promptius et facilius praestamus.
+          <lb ed="#P" n="60"/>Hinc ergo solet etiam haec suavitas nomine
+          <lb ed="#P" n="61"/>devotionis appellari , praesertim quando non
+          <lb ed="#P" n="62"/>solum in voluntate , sed etiam in 
+          appe<lb break="no" ed="#P" n="63"/>titu et corpore percipitur, juxta illud: Cor
+          <lb ed="#P" n="64"/>mewn et caro mea emultaverunt in Deum 
+          vi<lb break="no" ed="#P" n="65"/>vun ; et illud : Viam mandatorum tuorum
+          <lb ed="#P" n="66"/>cucurri, cum dilatasti cor meum. Hoc modo
+          <lb ed="#P" n="67"/>videtur devotionem sumpsisse Bernard. serm.
+          <lb ed="#P" n="68"/>1 de Nativit. Domini, cum dixit : AEes cordis
+          <lb ed="#P" n="69"/>est gratia devotionis, quam querimus, de qua
+          <lb ed="#P" n="70"/>infra ait esse, hilaritatem mentis , et 
+          dulcedi<lb break="no" ed="#P" n="71"/>nem spiritualis gratie, qua bona ogera 
+          con<lb break="no" ed="#P" n="72"/>diuntur. Et latius, serm. 3 de Circumcis.,
+          <lb ed="#P" n="73"/>dixit : Jam vero cum in his diu fueris 
+          exerci<lb break="no" ed="#P" n="74"/>tatus, roga dari tibi devotionis lumen, diem 
+          se<lb break="no" ed="#P" n="75"/>renissimam, et sabbatlnum mentis , in quo 
+          tan<lb break="no" ed="#P" n="76"/>quam emeritus müiles, in laboribus universis
+          <lb ed="#P" n="77"/>vivas absque labore , dilatato nimirum corde
+          <lb ed="#P" n="78"/>currens viam mandatorum Dei, ut quod prius
+          <lb ed="#P" n="79"/>cum amaritudine et coactione tui spiritus 
+          facie<lb break="no" ed="#P" n="80"/>bas, de caetero jam cum summa dulcedine 
+          pera<lb break="no" ed="#P" n="81"/>gas et delectatione. Et infra : Qua eaercitatos
+          <lb ed="#P" n="82"/>habent sensus devotionis hujus fruuntur 
+          jucun<lb break="no" ed="#P" n="83"/>ditate. Eodem modo videtur devotionis voce
+          <lb ed="#P" n="84"/>uti Bonav. t. 2 Opusc., de Processu reli., lib. 7,
+          <lb ed="#P" n="85"/>c. 16, ubi varias ponit radices devotionis, et
+          <lb ed="#P" n="86"/>tandem dicit : Cum devotio sit pie affectionis
+          <lb ed="#P" n="87"/>pinguedo, et magis se habeat ad affectum quam
+          <lb ed="#P" n="88"/>ad intellectum , perfecta tamen non est devotio
+          <lb ed="#P" n="89"/>sine lumine intellectus.
+        </p>
+        <p xml:id="szovsr-m03430-d1e1559">
+          <lb ed="#P" n="90"/>19. Duo animadvertuntur circa 
+          promptitu<lb break="no" ed="#P" n="91"/>dinem istam , nimirum diversam esse ab affectu
+          <lb ed="#P" n="92"/>colendi Deum , et hanc substantialem , illam
+          <lb ed="#P" n="93"/>cero accidentalem dici posse. — De hac ergo
+          <lb ed="#P" n="94"/>promptitudine , seu suavitate duo dicenda
+          <lb ed="#P" n="95"/>sunt. Primum est, esse quid distinctum ab illo
+          <lb ed="#P" n="96"/>affectu colendi Deum, quem hactenus 
+          expli<lb break="no" ed="#P" n="97"/>cuimus ; nam, ut constat, potest ille actus 
+          de<lb break="no" ed="#P" n="98"/>liberatus esse in nobis sine hoc gustu, vel
+          <lb ed="#P" n="99"/>suavitate, unde haec suavitas non semper est
+          <lb ed="#P" n="100"/>in potestate nostra, etiam ex gratia, ut infra
+          <lb ed="#P" n="101"/>dieemus. Ille vero affectus est in nostra 
+          potes<lb break="no" ed="#P" n="102"/>tate cum divina gratia, quae ad illum 
+          sem<lb break="no" ed="#P" n="103"/>per parata est. Quia ille affectus est per se
+          <lb ed="#P" n="104"/>necessarius ad virtutem ; haec autem suavitas
+          <lb ed="#P" n="105"/>non est ita necessaria : unde ille est proprie
+          <lb ed="#P" n="106"/>actus noster, haec vero magis se habet ad
+          <lb ed="#P" n="107"/>modum passionis ; nam, licet ad illam 
+          phy<lb break="no" ed="#P" n="108"/>sice ac vitaliter concurramus, tamen vel 
+          h<lb break="no" ed="#P" n="109"/>bera non est, vel saltem non est in se libera,
+          <lb ed="#P" n="110"/>nec per se primo fit, sed resultat ex aliquo
+          <pb ed="#P" n="145"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>actu tanquam proprietas ejus, ut cap. 8 
+          dice<lb break="no" ed="#P" n="2"/>mus. Secundum quod dicimus, est nomen
+          <lb ed="#P" n="3"/>devotionis videri aequivocum, et interdum
+          <lb ed="#P" n="4"/>pro illo affectu supra explicato sumi, 
+          inter<lb break="no" ed="#P" n="5"/>dum pro hac mentis dulcedine. Hoc vero 
+          pa<lb break="no" ed="#P" n="6"/>rum refert, quia solum spectat ad usum 
+          vo<lb break="no" ed="#P" n="7"/>cis ; nos vero, ut sine aquivocatione 
+          loqua<lb break="no" ed="#P" n="8"/>mur, priorem vocabimus substantialem 
+          devo<lb break="no" ed="#P" n="9"/>tionem, posteriorem vero accidentalem ; nam
+          <lb ed="#P" n="10"/>revera in priori consistit substantia virtutis,
+          <lb ed="#P" n="11"/>posterior vero est accidens ejus , ideoque D.
+          <lb ed="#P" n="12"/>Thomas hanc posteriorem posuit , ut 
+          effec<lb break="no" ed="#P" n="13"/>tum devotionis. et proprio nomine 
+          spiritua<lb break="no" ed="#P" n="14"/>lem laetitiam appellavit in dicta q. 82, art. 4.
+          <lb ed="#P" n="15"/>At vero in art. 1 priorem vocavit, devotionem
+          <lb ed="#P" n="16"/>simpliciter. Quam mihi videtur recte 
+          signi<lb break="no" ed="#P" n="17"/>ficasse Gregorius, lib. 4, in primum Regum,
+          <lb ed="#P" n="18"/>suo cap. 4, circa illa verba cap. 9: 
+          Sacri<lb break="no" ed="#P" n="19"/>ficium est populi in egcelso, cum dixit : Hostia
+          <lb ed="#P" n="20"/>mentis ejus decotio est, tunc enim carnalia
+          <lb ed="#P" n="21"/>nostra destruimus, cum ardenti devotione ad
+          <lb ed="#P" n="22"/>cclestia sublevamur. Per illum enim actum,
+          <lb ed="#P" n="23"/>quo anima se offert ad Dei famulatum, recte
+          <lb ed="#P" n="24"/>dicitur se hostiam consecrare et sacrificare
+          <lb ed="#P" n="25"/>Deo ; illa ergo est proprie et simpliciter 
+          men<lb break="no" ed="#P" n="26"/>Dis devotio ; alia vero suavitas potius est ve
+          <lb ed="#P" n="27"/>luti consequens ad sacrificium, et ideo 
+          acci<lb break="no" ed="#P" n="28"/>dentariam devotionem eam appellamus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

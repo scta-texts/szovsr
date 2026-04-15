@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 21</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 21</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="369"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m09246"><!-- t4l4c21 -->
+        <head xml:id="szovsr-m09246-Hd1e101">Caput 21</head>
+        <head xml:id="szovsr-m09246-Hd1e103" type="question-title">Utrum habens beneficium tenue ad horas canonicas recitandas teneatur?</head>
+        <p xml:id="szovsr-m09246-d1e106">
+          <lb ed="#P" n="83"/>CAPUT XXI.
+          <lb ed="#P" n="84"/>UTRUM HABENS BENEFICIUM TENUE AD HORAS
+          <lb ed="#P" n="85"/>CANONICAS RECITANDAS TENEATUR?
+        </p>
+        <p xml:id="szovsr-m09246-d1e115">
+          <lb ed="#P" n="86"/>1. Prima sententia, asserens tenuitatem 
+          be<lb break="no" ed="#P" n="87"/>neficii deobligare a recitando.—Hoc dubium ex
+          <lb ed="#P" n="88"/>dictis nascitur; nam ex illis videtur sequi
+          <lb ed="#P" n="89"/>pars negans, quia onus recitandi non 
+          sequi<lb break="no" ed="#P" n="90"/>tur ex beneficio nisi cum ordine ad fructus;
+          <lb ed="#P" n="91"/>unde si beneficium nullos haberet fructus, 
+          ta<lb break="no" ed="#P" n="92"/>lem obligationem inducere non posset (
+          quan<lb break="no" ed="#P" n="93"/>quam illud nec proprie beneficium dici 
+          pos<lb break="no" ed="#P" n="94"/>set) ; sed in moralibus parum quasi nihil 
+          re<lb break="no" ed="#P" n="95"/>putatur ; ergo tam tenues possunt esse fructus
+          <lb ed="#P" n="96"/>ut beneficium non magis obliget, quam si
+          <lb ed="#P" n="97"/>nihil redderet. Et confirmatur haec pars: nam
+          <lb ed="#P" n="98"/>justitia postulat ut qui non accipit justum 
+          sti<lb break="no" ed="#P" n="99"/>pendium, non teneatur laborare: sed fructus
+          <lb ed="#P" n="100"/>tenuissimi non sunt stipendium condignum
+          <lb ed="#P" n="101"/>clerici. Quod declaratur ex illo: Qui altari
+          <lb ed="#P" n="102"/>deservit, ex altari vivere debet ; nam clericus
+          <lb ed="#P" n="103"/>non potest vivere tenurissimis fructibus ; ergo
+          <lb ed="#P" n="104"/>neque ad serviendum, seu recitandum 
+          obli<lb break="no" ed="#P" n="105"/>gandus est. Atque hanc sententiam tenuit 
+          So<lb break="no" ed="#P" n="106"/>tus, lib. 10 de Just., q. 5, art. 3, quem 
+          sequi<lb break="no" ed="#P" n="107"/>tur Arag., 9. 9, q. 83, art. 19, qui ait, recen-
+          <pb ed="#P" n="370"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tiores Theologos communiter sequi hanc 
+          opi<lb break="no" ed="#P" n="2"/>nionem; idem fere Emmanuel Rodriguez, in
+          <lb ed="#P" n="3"/>Sum., cap. 140, n. 3. Qui auctores addunt,
+          <lb ed="#P" n="4"/>beneficium tenue in jure pro non beneficio
+          <lb ed="#P" n="5"/>reputari, ex cap. Zs cui, de Praeb., in 6, ubi
+          <lb ed="#P" n="6"/>dicitur eum, qui ex Apostolico indulto potest
+          <lb ed="#P" n="7"/>uni persona de idoneo beneficio providere,
+          <lb ed="#P" n="8"/>non posse quidem illud conferre Aabenti 
+          be<lb break="no" ed="#P" n="9"/>neficium sufficiens. Per quod significatur, 
+          pos<lb break="no" ed="#P" n="10"/>se illud dare habenti beneficium tenue, ut
+          <lb ed="#P" n="11"/>Glossa ibi notat; signum est ergo beneficium
+          <lb ed="#P" n="12"/>tenue pro non beneficio reputari.
+        </p>
+        <p xml:id="szovsr-m09246-d1e196">
+          <lb ed="#P" n="13"/>2. Quale existimandum est beneficium tenue.
+          <lb ed="#P" n="14"/>— Si autem in hac opinione quaeratur quod
+          <lb ed="#P" n="15"/>dicendum sit beneficium tenue, quoad hunc
+          <lb ed="#P" n="16"/>effectum non obligandi ad recitandum , 
+          qui<lb break="no" ed="#P" n="17"/>dam extendunt ad omne beneficium 
+          insufhi<lb break="no" ed="#P" n="18"/>ciens ad vitam clerici sustentandam. Sed hoc
+          <lb ed="#P" n="19"/>non dixit Soto, nec est practice probabile:
+          <lb ed="#P" n="20"/>alias redditus triginta vel quadraginta 
+          aureo<lb break="no" ed="#P" n="21"/>rum non sufficerent ad hanc obligationem,
+          <lb ed="#P" n="22"/>quod admittere valde perniciosum esset. Item
+          <lb ed="#P" n="23"/>non est id consentaneum rationi, nam pensum
+          <lb ed="#P" n="24"/>horarum canonicarum non est adeo grave,
+          <lb ed="#P" n="25"/>neque tam magnam diei partem occupat, ut
+          <lb ed="#P" n="26"/>sit dignum integra sustentatione personae,
+          <lb ed="#P" n="27"/>imo nec pro majori parte ejus. Unde Soto ad
+          <lb ed="#P" n="28"/>summum suam opinionem esxtendit ad 
+          quan<lb break="no" ed="#P" n="29"/>titatem decem aureorum ; Aragon. vero dicit,
+          <lb ed="#P" n="30"/>relinquendum esse prudenti arbitrio ; videtur
+          <lb ed="#P" n="31"/>tamen requirere , ut obliget, quod adjuvet
+          <lb ed="#P" n="32"/>bonee parti sustentationis clerici, ut ipse 
+          loqui<lb break="no" ed="#P" n="33"/>tur. Bona autem pars dici non potest , nisi
+          <lb ed="#P" n="34"/>tertia, vel ad summum quarta, quae hodie
+          <lb ed="#P" n="35"/>existimari non potest minor triginta 
+          aureo<lb break="no" ed="#P" n="36"/>rum . etiam respectu clerici infimae 
+          conditio<lb break="no" ed="#P" n="37"/>nis. Et haec notari potest ut prima difficultas
+          <lb ed="#P" n="38"/>hujus opinionis, quia sine lege facit 
+          exceptio<lb break="no" ed="#P" n="39"/>nem a lege, et talem exceptionem, quae cum
+          <lb ed="#P" n="40"/>sit interminata, relinquenda est prudentis 
+          ar<lb break="no" ed="#P" n="41"/>bitrio, et ita aperitur via ad derogandum 
+          gra<lb break="no" ed="#P" n="42"/>viter legi, et paulatim extenuandum graviter
+          <lb ed="#P" n="43"/>obligationem ejus.
+        </p>
+        <p xml:id="szovsr-m09246-d1e267">
+          <lb ed="#P" n="44"/>3. Sententia, astruens ex beneficio quamnis
+          <lb ed="#P" n="45"/>levi oriri obligationem recitandi. — Est ergo
+          <lb ed="#P" n="46"/>secunda sententia, quae simpliciter affirmat,
+          <lb ed="#P" n="47"/>ex beneficio quantumvis tenui oriri 
+          obligatio<lb break="no" ed="#P" n="48"/>nem recitandi. Haec est communis opinio 
+          Ca<lb break="no" ed="#P" n="49"/>nonistarum, cum Olossa, in c. Clericus, 1, d.
+          <lb ed="#P" n="50"/>91; sequuntur Hostiens., Joan. Andr., 
+          Pa<lb break="no" ed="#P" n="51"/>norm., et alii, in c. 1 deCelebr. Missar., et alii
+          <lb ed="#P" n="52"/>in Clement. 1, eod. tit., et in d. c. Clericus;
+          <lb ed="#P" n="53"/>et Turrecrem., in principio, d. 91, q. 6; 
+          Na<lb break="no" ed="#P" n="54"/>var., in c. T de Orat., n. 97, etc. 14. n. 11;
+          <lb ed="#P" n="55"/>Covar., lib. 3 Variar.. c. 13, num. 8, 8 Duode-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cimo, qui alios refert ; Albertus de Ferrariis,
+          <lb ed="#P" n="57"/>in tractatu de Horis Canonicis, q. 8, num. 10;
+          <lb ed="#P" n="58"/>Host., in Summ., tit. de Consec. Eccles.,8 A
+          <lb ed="#P" n="59"/>quibus. vers. Dic secundum Goffrediwm ; Tolet.,
+          <lb ed="#P" n="60"/>lib. 2, Instruct., c. 14, num. 4; Azor, lib. 10,
+          <lb ed="#P" n="61"/>c. 3, q. 3; Valent., 3 tom., disp. 6, quaest. 2,
+          <lb ed="#P" n="62"/>punct. 10, S 7; Summistae, verbo Hora ; 
+          Syl<lb break="no" ed="#P" n="63"/>vest., q. 2; Rosel., n. 1; Tabien, n. 1; 
+          Armil<lb break="no" ed="#P" n="64"/>la, num. etiam 1; Anton., 3p., tit.13, c. ,8
+          <lb ed="#P" n="65"/>1; Graffis, lib. 2 suarum Decisionum, c. 49,
+          <lb ed="#P" n="66"/>num. 28. Idem tenet Medin., quaest. 7, de
+          <lb ed="#P" n="67"/>Orat., et Ledesm., 1, p. 4, q. 16, art. 4, dub.
+          <lb ed="#P" n="68"/>5, prop. 4, dicens, esse communem sententiam
+          <lb ed="#P" n="69"/>Doctorum, et ponens exemplum, si solum 
+          red<lb break="no" ed="#P" n="70"/>dat quatuor aut quinque aureos; et idem 
+          su<lb break="no" ed="#P" n="71"/>mitur ex Palud., in 4, d. 15, q. 5. Alii vero
+          <lb ed="#P" n="72"/>hoc non attigerunt, unde inter Theologos, qui
+          <lb ed="#P" n="73"/>scripta sua typis mandarunt, non potest dici
+          <lb ed="#P" n="74"/>prior sententia communis.
+        </p>
+        <p xml:id="szovsr-m09246-d1e339">
+          <lb ed="#P" n="75"/>4. Beneficium quantumuis tenue verum 
+          re<lb break="no" ed="#P" n="76"/>putatur beneficium.— Ut fundetur haec 
+          senten<lb break="no" ed="#P" n="77"/>tia, supponendum est, beneficium, 
+          quantum<lb break="no" ed="#P" n="78"/>vis tenue, verum beneficium esse, et ut tale
+          <lb ed="#P" n="79"/>absolute et simpliciter in jure reputari. Hoc
+          <lb ed="#P" n="80"/>aperte supponunt auctores hujus sententise, et
+          <lb ed="#P" n="81"/>colligitur ex eodem c. 7s cui, quod in 
+          contra<lb break="no" ed="#P" n="82"/>rium citatur, et ex eodem verbo Beneficium
+          <lb ed="#P" n="83"/>sufficiens ; ideo enim addit sufficiens, quia si
+          <lb ed="#P" n="84"/>absolute dixisset beneficium, etiam suffticiens
+          <lb ed="#P" n="85"/>et tenue comprehenderet, ut ibi Glossa 
+          signifi<lb break="no" ed="#P" n="86"/>cavit, ubi Archid. idem dicit. Et addit, ei, qui
+          <lb ed="#P" n="87"/>habet insufficiens beneficium, posse conferri
+          <lb ed="#P" n="88"/>aliud ex vi illius indulti, dummodo in 
+          colla<lb break="no" ed="#P" n="89"/>tione faciat mentionem de primo, juxta caput
+          <lb ed="#P" n="90"/>Collatio, de Offic. legati, in 6, ubi solum 
+          dici<lb break="no" ed="#P" n="91"/>ur, ut collatio secundi beneficii teneat, 
+          opor<lb break="no" ed="#P" n="92"/>tere mentionem facere de alio beneficio ; ergo
+          <lb ed="#P" n="93"/>sub hac voce etiam beneficium tenue in jure
+          <lb ed="#P" n="94"/>comprehenditur. Hhatione etiam patet, quia
+          <lb ed="#P" n="95"/>beneficium quantumvis tenue confert verum
+          <lb ed="#P" n="96"/>spirituale jus, quod est principale in 
+          benefi<lb break="no" ed="#P" n="97"/>cio ; ergo licet accessorium sit tenue, est 
+          sim<lb break="no" ed="#P" n="98"/>pliciter verum beneficium. Unde sufficiet ad
+          <lb ed="#P" n="99"/>fruendum omnibus privilegiis, quae 
+          concedun<lb break="no" ed="#P" n="100"/>tur clerico minorum ordinum habenti 
+          eccle<lb break="no" ed="#P" n="101"/>siasticum beneficium. Dicet aliquis, auctores
+          <lb ed="#P" n="102"/>prioris sententiae non negare quoad 
+          substan<lb break="no" ed="#P" n="103"/>tiam illud esse et reputari verum beneficium,
+          <lb ed="#P" n="104"/>quoad obligandum vero ad pensum orandi
+          <lb ed="#P" n="105"/>horas canonicas pro beneficio non reputari.
+          <lb ed="#P" n="106"/>At profecto in hoc sensu non recte fundatur
+          <lb ed="#P" n="107"/>illa sententia in hoc principio, quia solum est
+          <lb ed="#P" n="108"/>repetitio assertionis illius sententiae : quod
+          <lb ed="#P" n="109"/>enim tale beneticium ad illum effectum non
+          <lb ed="#P" n="110"/>reputetur beneficium, non habetur in jure,
+          <pb ed="#P" n="371"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nec ex d. c. 7s cui colligitur, neque etiam
+          <lb ed="#P" n="2"/>habetur ex communi existimatione 
+          pruden<lb break="no" ed="#P" n="3"/>tum : nam omnes anctores secundae opinionis
+          <lb ed="#P" n="4"/>reputant illud ut beneficium, etiam in ordine
+          <lb ed="#P" n="5"/>ad hunc effectum ; qui ergo non reputant, 
+          so<lb break="no" ed="#P" n="6"/>lum sunt auctores prioris sententiae : dum
+          <lb ed="#P" n="7"/>ergo pro fundamento suae assertionis afferunt
+          <lb ed="#P" n="8"/>illam aestimationem seu reputationem, nihil
+          <lb ed="#P" n="9"/>aliud afferunt quam judicium et opinionem
+          <lb ed="#P" n="10"/>suam. Loqui ergo debemus de illo beneficio
+          <lb ed="#P" n="11"/>quoad esse simpliciter beneficii, et quoad 
+          mo<lb break="no" ed="#P" n="12"/>dum quo sub tali voce in jure 
+          comprehendi<lb break="no" ed="#P" n="13"/>tur, quoties de beneficio sermo est.
+        </p>
+        <p xml:id="szovsr-m09246-d1e452">
+          <lb ed="#P" n="14"/>5. Concluditur eadem sententia em c. ult. de
+          <lb ed="#P" n="15"/>Rescrip., in 6. — Ex hoc ergo fundamento
+          <lb ed="#P" n="16"/>subinferimus, quando jus dicit, beneficium dari
+          <lb ed="#P" n="17"/>propter officiwn, c. ult. de Rescript., in 6,
+          <lb ed="#P" n="18"/>non solum loqui de beneticio sufficiente, sed
+          <lb ed="#P" n="19"/>etiam de tenui, quia indistincte loquitur, et
+          <lb ed="#P" n="20"/>vox illa omnia beneficia comprehendit. Sicut
+          <lb ed="#P" n="21"/>etiam quando aliquis in jure suspenditur ab
+          <lb ed="#P" n="22"/>officio et beneficio, non rninus suspenditur a
+          <lb ed="#P" n="23"/>beneficio tenui, quam a pingui, et sic de alis.
+          <lb ed="#P" n="24"/>Cum ergo in Concilio Later., sub Leone X, et
+          <lb ed="#P" n="25"/>communi sensu Ecclesiae declaratum sit, 
+          offi<lb break="no" ed="#P" n="26"/>cium, propter quod datur beneticium, primo
+          <lb ed="#P" n="27"/>ac per se esse officium recitandi horas 
+          cano<lb break="no" ed="#P" n="28"/>nicas, plane concluditur, etiam beneficium
+          <lb ed="#P" n="29"/>tenue dari propter hoc officium, ac subinde
+          <lb ed="#P" n="30"/>qui tale beneficium acceptat, ad illud officium
+          <lb ed="#P" n="31"/>obligari.
+        </p>
+        <p xml:id="szovsr-m09246-d1e494">
+          <lb ed="#P" n="32"/>6. Responsio ad citatum cap. pro prima 
+          sen<lb break="no" ed="#P" n="33"/>tentia. — Responsio data impugnatur pro 
+          se<lb break="no" ed="#P" n="34"/>cunda. — Responderi potest juxta primam
+          <lb ed="#P" n="35"/>sententiam, omne beneficium dari propter
+          <lb ed="#P" n="36"/>officium, tamen servata justitiae aequitate, quae
+          <lb ed="#P" n="37"/>postulat ut non exigatur grave officium, cui
+          <lb ed="#P" n="38"/>datur leve beneficium; et ideo licet tenue
+          <lb ed="#P" n="39"/>beneficium detur propter officium, non tamen
+          <lb ed="#P" n="40"/>ut statim vel ex vi illius solius beneficii 
+          to<lb break="no" ed="#P" n="41"/>tum officium dicatur, sed ut clericus per tale
+          <lb ed="#P" n="42"/>beneficium aliquo modo Ecclesiae servitio 
+          in<lb break="no" ed="#P" n="43"/>cipiat deputari, et cum primum obtento alio
+          <lb ed="#P" n="44"/>competentes fructus habuerit, officium suum
+          <lb ed="#P" n="45"/>expleat, interim vero satis videri, si aliquid
+          <lb ed="#P" n="46"/>suo arbitrio specialiter oret, vel ad summum
+          <lb ed="#P" n="47"/>aliquam partem horarum dicat. Sed contra
+          <lb ed="#P" n="48"/>hoc instatur, quia ubi voluntarium pactum
+          <lb ed="#P" n="49"/>intervenit, non est injustitia, quia scienti et
+          <lb ed="#P" n="50"/>volenti non fit injuria; sed in praesenti inter
+          <lb ed="#P" n="51"/>clericum et Ecclesiam tacitum pactum 
+          inter<lb break="no" ed="#P" n="52"/>venit, nam lex ab Ecclesia declarata est, se
+          <lb ed="#P" n="53"/>nolle dare alicui beneficium, nisi ea conditione
+          <lb ed="#P" n="54"/>ut ad totum officium canonicum obligetur;
+          <lb ed="#P" n="55"/>qui autem recipit beneficium, voluntarie ac-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ceptat conditionem ; ergo obligatus manet, et
+          <lb ed="#P" n="57"/>nulla ei fit injuria; sibi enim imputet si 
+          tan<lb break="no" ed="#P" n="58"/>tum onus cum tam parva remuneratione 
+          ac<lb break="no" ed="#P" n="59"/>ceptavit. Et in hac ratione et voluntaria 
+          ac<lb break="no" ed="#P" n="60"/>ceptatione magnam vim faciunt auctores hujus
+          <lb ed="#P" n="61"/>sententiae. Famque confirmant exemplis : nam
+          <lb ed="#P" n="62"/>qui sciens et volens acceptat uxorem 
+          paupe<lb break="no" ed="#P" n="63"/>rem, tam obligatus manet ad munera 
+          matri<lb break="no" ed="#P" n="64"/>monii, ac si divitem accepisset. Et miles,
+          <lb ed="#P" n="65"/>qui declarata conditione acceptavit militiam
+          <lb ed="#P" n="66"/>cum parvo stipendio, militare obligatur;
+          <lb ed="#P" n="67"/>ergo similiter in praesenti. Maxime quia
+          <lb ed="#P" n="68"/>in ipso jure canonico videtur ita declarata haec
+          <lb ed="#P" n="69"/>conditio : nam inc. Clericus victum, distinct.
+          <lb ed="#P" n="70"/>91, de clerico paupere dicitur, ut artificiolo,
+          <lb ed="#P" n="71"/>vel agricultura victum et vestitum sibi paret
+          <lb ed="#P" n="72"/>absque officii sui detrimento. In quo textu 
+          aper<lb break="no" ed="#P" n="73"/>te supponitur teneri clericum ad officium
+          <lb ed="#P" n="74"/>suum, etiamsi non possit ex beneficio victum
+          <lb ed="#P" n="75"/>et vestitum habere, quod beneficium necesse
+          <lb ed="#P" n="76"/>est esse valde tenue. Verum est posse textum
+          <lb ed="#P" n="77"/>illum exponi de clerico, qui ratione 
+          ordinatio<lb break="no" ed="#P" n="78"/>nis sacrae tenetur officium dicere, etiamsi 
+          nul<lb break="no" ed="#P" n="79"/>lam sustentationem ab Ecclesia habeat ; 
+          Glos<lb break="no" ed="#P" n="80"/>sa vero et omnes id intelligunt de officio 
+          Ec<lb break="no" ed="#P" n="81"/>clesiae debito ratione beneficii, et textus ipse
+          <lb ed="#P" n="82"/>generaliter loquitur, et in c. Presbyter, 
+          ejus<lb break="no" ed="#P" n="83"/>dem distinct., quod est primum, extra, de
+          <lb ed="#P" n="84"/>Celeb. Missar., idem indicatur.
+        </p>
+        <p xml:id="szovsr-m09246-d1e614">
+          <lb ed="#P" n="85"/>7. Expenditur leec secunda sententia, neque
+          <lb ed="#P" n="86"/>ita in ea quiescit animus. — EHt primo non
+          <lb ed="#P" n="87"/>videtur equa et justa conditio, sed quedam
+          <lb ed="#P" n="88"/>moralis coactio. — Adhuc vero non quiescit
+          <lb ed="#P" n="89"/>animus in hac doctrina. Primo, quia hic non
+          <lb ed="#P" n="90"/>est considerandum, quod beneficiarius, 
+          accep<lb break="no" ed="#P" n="91"/>tans beneficium tenue, non patiatur injuriam,
+          <lb ed="#P" n="92"/>quia sciens et volens admittit conditionem, sed
+          <lb ed="#P" n="93"/>considerandum est an res ipsa aequa et justa
+          <lb ed="#P" n="94"/>sit, quia non est credendum, Ecclesiam 
+          im<lb break="no" ed="#P" n="95"/>ponere onera ultra naturalem aequitatem ; si
+          <lb ed="#P" n="96"/>ergo secundum se non est aequalitas inter 
+          il<lb break="no" ed="#P" n="97"/>lud stipendium et hoc onus, non est verisimile
+          <lb ed="#P" n="98"/>Ecclesiam velle obhgare ad tale onus, etiamsi
+          <lb ed="#P" n="99"/>alius voluntarie acceptet beneficium. Eo vel
+          <lb ed="#P" n="100"/>maxime quod videretur ibi esse quaedam 
+          mo<lb break="no" ed="#P" n="101"/>ralis coactio respectu pauperum clericorum,
+          <lb ed="#P" n="102"/>vel scholasticorum, qui cum vix possint aliter
+          <lb ed="#P" n="103"/>vivere, coguntur similia beneficia acceptare.
+          <lb ed="#P" n="104"/>Et tunc durissimum esset inaequalem 
+          condi<lb break="no" ed="#P" n="105"/>tionem is imponere, ut si rex nollet 
+          pro<lb break="no" ed="#P" n="106"/>mittere ministris suis, vel militibus, nisi 
+          vilis<lb break="no" ed="#P" n="107"/>sima et insufficientia, quia scit non defuturos
+          <lb ed="#P" n="108"/>qui illa acceptent ; velsi paterfamilias cum 
+          fa<lb break="no" ed="#P" n="109"/>mulis pauperibus ita paciscatur, in quo casu
+          <lb ed="#P" n="110"/>multi sentiunt non teneri famulum ad servan-
+          <pb ed="#P" n="372"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dum integre pactum, sed posse vel exsuis 
+          ope<lb break="no" ed="#P" n="2"/>ribus aliquid subtrahere in suam utilitatem, vel
+          <lb ed="#P" n="3"/>ex bonis domini, ut possit sustentari. Nee 
+          satis<lb break="no" ed="#P" n="4"/>faciet, qui dixerit non esse hanc aequalitatem
+          <lb ed="#P" n="5"/>ita necessariam inter spirituale ministerium
+          <lb ed="#P" n="6"/>et stipendium materiaie, sicut inter mercedem
+          <lb ed="#P" n="7"/>et laborem corporalem : nam, licet non 
+          inter<lb break="no" ed="#P" n="8"/>cedat idem modus justitiae, vel contractus,
+          <lb ed="#P" n="9"/>quia non est haec posterior, propria 
+          commu<lb break="no" ed="#P" n="10"/>tatio unius rei pro alia, sicut est prior, 
+          ni<lb break="no" ed="#P" n="11"/>hilominus secundum suum modum postulat
+          <lb ed="#P" n="12"/>proportionem, seu aequitatem, quatenus is qui
+          <lb ed="#P" n="13"/>servit, sustentatione indiget. Unde si 
+          sacer<lb break="no" ed="#P" n="14"/>doti, ut sacrificium pro me offerat, nimis 
+          par<lb break="no" ed="#P" n="15"/>vam eleemosynam tribuam, injuste ago, 
+          ne<lb break="no" ed="#P" n="16"/>que ille tenebitur integra obligatione, ut sic
+          <lb ed="#P" n="17"/>dicam, sed poterit uno sacrificio pro pluribus
+          <lb ed="#P" n="18"/>eleemosynis talibus satisfacere ; sic ergo in
+          <lb ed="#P" n="19"/>praesenti servanda est aequitas, nec sufficit 
+          vo<lb break="no" ed="#P" n="20"/>luntaria acceptatio, si in re est inaequalitas,
+          <lb ed="#P" n="21"/>tum quia non est verisimile Ecclesiam, talem
+          <lb ed="#P" n="22"/>inaequahtatem velle, nec consensum in illam
+          <lb ed="#P" n="23"/>exigere ; tum etiam quia videtur intervenire
+          <lb ed="#P" n="24"/>quaedam moralis coactio, ut declaratum est.
+        </p>
+        <p xml:id="szovsr-m09246-d1e729">
+          <lb ed="#P" n="25"/>8. Secundo, sequitur em secunda sententia
+          <lb ed="#P" n="26"/>non teneri ad idem omus recitandi, qui 
+          pin<lb break="no" ed="#P" n="27"/>que accepit beneficium, quod postea factum est
+          <lb ed="#P" n="28"/>teuue. — Aliorum distinctio et modificatio pro
+          <lb ed="#P" n="29"/>secunda sententia impugnatur tamen.— Abliter
+          <lb ed="#P" n="30"/>alii opinautur de obligatione tenuis beneficii.—
+          <lb ed="#P" n="31"/>Deinde est alia difficultas in illa responsione,
+          <lb ed="#P" n="32"/>quia sequitur eum, qui sufficiens beneficium
+          <lb ed="#P" n="33"/>acceptavit, quia cum illo habebat congruam
+          <lb ed="#P" n="34"/>sustentationem, si postea beneficium fiat tenue
+          <lb ed="#P" n="35"/>in perpetuum, non teneri ad idem onus 
+          reci<lb break="no" ed="#P" n="36"/>tandi, quia ille non acceptavit voluntarie 
+          be<lb break="no" ed="#P" n="37"/>neficium tenue ; ergo ratione voluntariae 
+          ac<lb break="no" ed="#P" n="38"/>ceptationis non obligatur, si res ipsa 
+          secun<lb break="no" ed="#P" n="39"/>dum se non est sufficiens ad obligandum. 
+          Ne<lb break="no" ed="#P" n="40"/>que quoad hoc est simile de matrimonio cum
+          <lb ed="#P" n="41"/>sponsa divite, quae postea fit pauper, quia dos
+          <lb ed="#P" n="42"/>vel divitiae accidentaria sunt in matrimonio,
+          <lb ed="#P" n="43"/>neque obligatio ad onera ejus ex illis per se
+          <lb ed="#P" n="44"/>nascitur ; at vero in praesenti, fructus seu 
+          sti<lb break="no" ed="#P" n="45"/>pendium censentur pertinere ad intrinsecam
+          <lb ed="#P" n="46"/>rationem hujus obligationis. Et ideo non 
+          de<lb break="no" ed="#P" n="47"/>sunt qui, hoc argumento coacti, 
+          distinguen<lb break="no" ed="#P" n="48"/>dum putent inter beneficium, quod receptum
+          <lb ed="#P" n="49"/>est pingue, et factum tenue discursu temporis,
+          <lb ed="#P" n="50"/>vel quod jam erat tenue, quando receptum est.
+          <lb ed="#P" n="51"/>Et de primo fatentur desinere obligare, 
+          post<lb break="no" ed="#P" n="52"/>quam factum est tenue: de secundo vero
+          <lb ed="#P" n="53"/>aiunt obligare propter voluntariam 
+          acceptatio<lb break="no" ed="#P" n="54"/>nem. Sed hoc certe non dicitur consequenter ;
+          <lb ed="#P" n="55"/>nam :i primum beneficium factumtenue de-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sinit obligare, ideo est quia fructus 
+          competen<lb break="no" ed="#P" n="57"/>tes sunt per se et intrinsece necessarii ad
+          <lb ed="#P" n="58"/>hanc obligationem ; ergo in quolibet beneficio
+          <lb ed="#P" n="59"/>erunt necessari ; ergo etiamsi a principio tale
+          <lb ed="#P" n="60"/>sit beneficium, ex se non est inductivum 
+          obli<lb break="no" ed="#P" n="61"/>gationis; ergo nec propter acceptationem 
+          vo<lb break="no" ed="#P" n="62"/>luntariam illam inducet, quia censetur 
+          ac<lb break="no" ed="#P" n="63"/>ceptari juxta exigentiam suae conditionis. Unde
+          <lb ed="#P" n="64"/>alii potius censent contrario modo de illis 
+          duo<lb break="no" ed="#P" n="65"/>bus membris, nam qui beneficium pingue
+          <lb ed="#P" n="66"/>accepit, se in perpetuum obligavit ad onera
+          <lb ed="#P" n="67"/>talis beneficii, et sicut eo ipso acquisivit jus
+          <lb ed="#P" n="68"/>ad quodcumque augmentum fructuum sine
+          <lb ed="#P" n="69"/>augmento onerum, ita assumpsit etiam 
+          peri<lb break="no" ed="#P" n="70"/>culum sustinendi quamcumque diminutionem
+          <lb ed="#P" n="71"/>fructuum, sine diminutione obligationum, nam
+          <lb ed="#P" n="72"/>hoc postulat aequitatis ratio. Et ideo licet 
+          be<lb break="no" ed="#P" n="73"/>neficium fiat tenue, imo licet nullos fructus
+          <lb ed="#P" n="74"/>reddat (ait Turrecre., dicta. q. 6 et 24), 
+          sem<lb break="no" ed="#P" n="75"/>per recitare tenebitur. At vero quando 
+          bene<lb break="no" ed="#P" n="76"/>ficium a principio receptum est tenue, homo
+          <lb ed="#P" n="77"/>non obligatur ex vi illius, neque ibi habet 
+          lo<lb break="no" ed="#P" n="78"/>cum illa consideratio vel compensatio spet et
+          <lb ed="#P" n="79"/>periculi, sed est certa insufficientia reddituum,
+          <lb ed="#P" n="80"/>et ideo cessat ibi ratio obligationis. Unde 
+          ma<lb break="no" ed="#P" n="81"/>xime confirmari videtur opinio Soti, juxta 
+          opi<lb break="no" ed="#P" n="82"/>nionem valde probabilem Cajetani, et 
+          alio<lb break="no" ed="#P" n="83"/>rum, qui dicunt, quando ex beneficio non 
+          per<lb break="no" ed="#P" n="84"/>cipiuntur fructus, neque aliquando 
+          recupe<lb break="no" ed="#P" n="85"/>randi sperantur, non obligari ad recitationem.
+          <lb ed="#P" n="86"/>Tum quia locum habet eadem proportionalis
+          <lb ed="#P" n="87"/>ratio, quando fructus sunt tam tenues, ut pro
+          <lb ed="#P" n="88"/>nihilo moraliter reputentur, nec possint 
+          pru<lb break="no" ed="#P" n="89"/>denter judicari justum stipendium ; tum
+          <lb ed="#P" n="90"/>etiam, quia juxta illam opinionem 
+          necessa<lb break="no" ed="#P" n="91"/>rium est adhibere distinctionem aliquam vel
+          <lb ed="#P" n="92"/>limitationem, in lege dicente dari beneficium
+          <lb ed="#P" n="93"/>propter hoc officium : oportet enim 
+          intel<lb break="no" ed="#P" n="94"/>ligi de beneficio cum redditibus ; ergo poterit
+          <lb ed="#P" n="95"/>etiam addi, ut intelligatur de beneficio cum
+          <lb ed="#P" n="96"/>redditibus commodis, seu habentibus 
+          mora<lb break="no" ed="#P" n="97"/>lem proportionem cum tali onere.
+        </p>
+        <p xml:id="szovsr-m09246-d1e893">
+          <lb ed="#P" n="98"/>9. Unica assertio: prina sententia quae ob
+          <lb ed="#P" n="99"/>tenuitatem beneficii obligationem tollit 
+          reci<lb break="no" ed="#P" n="100"/>tandi, speculative considerata, probabilas est;
+          <lb ed="#P" n="101"/>secunda regulariter in praa seroanda.—
+          Bene<lb break="no" ed="#P" n="102"/>ficium simplen, licet tenue, oblagat ad 
+          recitan<lb break="no" ed="#P" n="103"/>dun. — Quocirca si vimrationis expendamus,
+          <lb ed="#P" n="104"/>non potest negari quin prior sententia recte
+          <lb ed="#P" n="105"/>applicata ad beneficium vere tenue probabilis
+          <lb ed="#P" n="106"/>valde sit, speculative considerata ; existimo
+          <lb ed="#P" n="107"/>tamen vix posse ad praxim applicari, servata
+          <lb ed="#P" n="108"/>illa ratione aequitatis et justitia, quam illa
+          <lb ed="#P" n="109"/>sententia considerat, et ideo in praxi 
+          regu<lb break="no" ed="#P" n="110"/>lariter esse servandam sententiam commu-
+          <pb ed="#P" n="373"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem. Hoc ut declarem, adverto duplex esse
+          <lb ed="#P" n="2"/>posse beneficium : unum adeo simplex, ut ad
+          <lb ed="#P" n="3"/>nullum servitium obliget, praeterquam ad 
+          re<lb break="no" ed="#P" n="4"/>citandum officium canonicum ; aliud, quod
+          <lb ed="#P" n="5"/>habet servitium annexum in aliqua ecclesia.
+          <lb ed="#P" n="6"/>De priori censeo non posse moraliter habere
+          <lb ed="#P" n="7"/>tam tenues fructus, quin obliget ad 
+          recitan<lb break="no" ed="#P" n="8"/>dum. hRatio est, quia cum nullum aliud 
+          servi<lb break="no" ed="#P" n="9"/>tium postulet, et non detur nisi propter 
+          ali<lb break="no" ed="#P" n="10"/>quod officium, necesse est ut saltem propter
+          <lb ed="#P" n="11"/>horas detur ; at vero solum onus horarum non
+          <lb ed="#P" n="12"/>est adeo grave, ut per tenues fructus 
+          com<lb break="no" ed="#P" n="13"/>pensari non possit, etiamsi rigorosam 
+          aequita<lb break="no" ed="#P" n="14"/>tem inter stipendium et laborem considerare
+          <lb ed="#P" n="15"/>velimus. Nam ex recitatione solum occupatur
+          <lb ed="#P" n="16"/>clericus per horam temporis, et paulo amplius
+          <lb ed="#P" n="17"/>per totum diem, et non prohibetur, neque
+          <lb ed="#P" n="18"/>impeditur, quin aliquo modo honesto 
+          neces<lb break="no" ed="#P" n="19"/>saria corpori quaerat ; ergo etiamsi beneficium
+          <lb ed="#P" n="20"/>tantum octo vel decem aureos reddat, 
+          sufti<lb break="no" ed="#P" n="21"/>cient pro illo parvo onere. Eo vel maxime
+          <lb ed="#P" n="22"/>quod praeter hoc stipendium, habet clericus
+          <lb ed="#P" n="23"/>ratione talis heneficii multa alia commoda 
+          ho<lb break="no" ed="#P" n="24"/>noris, exemptionis, et aliorum privilegiorum ;
+          <lb ed="#P" n="25"/>ergo in omni rigore aequitatis potest ita 
+          obli<lb break="no" ed="#P" n="26"/>gari. Unde cum jura indistincte loquantur, et
+          <lb ed="#P" n="27"/>ratio aequitatis non cogat ad distinctionem 
+          fa<lb break="no" ed="#P" n="28"/>ciendam in hoc casu, nullo modo facienda est.
+        </p>
+        <p xml:id="szovsr-m09246-d1e989">
+          <lb ed="#P" n="29"/>10. Non simplex moraliter nunguam potest
+          <lb ed="#P" n="30"/>esse tenue, si habel aliquid per modum grossa.
+          <lb ed="#P" n="31"/>— De beneficio autem habente aliud servitium
+          <lb ed="#P" n="32"/>annexum, adhuc subdistinguendum videtur.
+          <lb ed="#P" n="33"/>Aliquando enim est tale ut, licet quis actu nec
+          <lb ed="#P" n="34"/>per se, nec per alium inserviat, et ideo 
+          amit<lb break="no" ed="#P" n="35"/>tat certas distributiones, nihilominus fructus
+          <lb ed="#P" n="36"/>aliquos ex beneficio accipit per modum grossae.
+          <lb ed="#P" n="37"/>Et ejusdem rationis censendum est, quando
+          <lb ed="#P" n="38"/>necessarium est servire saltem per alium, qui
+          <lb ed="#P" n="39"/>distributionibus fruitur, proprietario autem
+          <lb ed="#P" n="40"/>servatur aliqua pars quasi grossae, licet tenuis.
+          <lb ed="#P" n="41"/>Et in his casibus, non est dubium quin 
+          bene<lb break="no" ed="#P" n="42"/>ficiarius teneatur recitare: tum quia quoad
+          <lb ed="#P" n="43"/>illam partem, quam reportat, illud est 
+          tan<lb break="no" ed="#P" n="44"/>quam beneficium omnino simplex, et nullum
+          <lb ed="#P" n="45"/>habens servitium ; tum maxime quia per 
+          il<lb break="no" ed="#P" n="46"/>lum beneficiarium stat, quominus habeat 
+          ube<lb break="no" ed="#P" n="47"/>riores fructus. Unde vix contingere potest ut
+          <lb ed="#P" n="48"/>detur beneficium speciale servitium requirens,
+          <lb ed="#P" n="49"/>ut serviatur in illo, quod tam parvos reddat
+          <lb ed="#P" n="50"/>fructus et distributiones, aut ex oblationibus
+          <lb ed="#P" n="51"/>altaris, aut ex aliis emolumentis, ut possit
+          <lb ed="#P" n="52"/>simphceiter tenue reputari, ita ut non sufficiat
+          <lb ed="#P" n="53"/>saltem ad tertiam partem sustentationis ; si
+          <lb ed="#P" n="54"/>autem hanc conferat , dubitari non potest de
+          <lb ed="#P" n="55"/>obligatione recitandi. Et propterea dixi mora-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>liter loquendo non possc opinionem Soti ad
+          <lb ed="#P" n="57"/>praxim applicari, quia omnia beneficia, vel
+          <lb ed="#P" n="58"/>sunt simplicia, vel servientia, et in prioribus
+          <lb ed="#P" n="59"/>non sufficit tenuitas, in posterioribus vero tanta
+          <lb ed="#P" n="60"/>non invenitur.
+        </p>
+        <p xml:id="szovsr-m09246-d1e1063">
+          <lb ed="#P" n="61"/>11. Beneficia obligantia ad alia Heclesie
+          <lb ed="#P" n="62"/>munia, si ad quartam partem sustentationis
+          <lb ed="#P" n="63"/>non sufficiant, probabile est non obligare ad
+          <lb ed="#P" n="64"/>recitandum. — Possunt vero excogitari 
+          benc<lb break="no" ed="#P" n="65"/>ficia obligantia ad alia servitia Ecclesiae, quae
+          <lb ed="#P" n="66"/>sint tam tenuia, ut licet quis integre illis 
+          in<lb break="no" ed="#P" n="67"/>serviat, et accipiat omnes distributiones. et
+          <lb ed="#P" n="68"/>quicquid emolumenti ad illa pertinet, adhuc
+          <lb ed="#P" n="69"/>non sufficiant ad sustentationem personsae,
+          <lb ed="#P" n="70"/>etiam quoad tertiam vel quartam partem ; et
+          <lb ed="#P" n="71"/>si qua sunt hujusmodi, censeo vaide probable
+          <lb ed="#P" n="72"/>et securum, non obligare ad recitandum, quia
+          <lb ed="#P" n="73"/>juste reputari possunt non esse beneficia data
+          <lb ed="#P" n="74"/>pro illo munere, sed tantum pro alio servitio,
+          <lb ed="#P" n="75"/>unde respectu recitationis se habent tanquam
+          <lb ed="#P" n="76"/>beneficia non habentia ullos redditus ; et ideo
+          <lb ed="#P" n="77"/>mirum non estquod sub generali lege non 
+          com<lb break="no" ed="#P" n="78"/>prehendantur. Atque hoc probabilius fiet ex
+          <lb ed="#P" n="79"/>his, quae dicemus dc restitutione frevctuum in
+          <lb ed="#P" n="80"/>iis qui non recitant. Nec video quomodo possit
+          <lb ed="#P" n="81"/>in eo casn imponi obligatio, nisi dicendo, ir
+          <lb ed="#P" n="82"/>obligatione recitandi propter beneficium 
+          nul<lb break="no" ed="#P" n="83"/>lam haberi considerationem fructuum, sed
+          <lb ed="#P" n="84"/>solius tituli, et ad summum possessionis. Et
+          <lb ed="#P" n="85"/>quidem non dubito quin potuerit Ecclesia,
+          <lb ed="#P" n="86"/>servata omni aequitate, ita hoc instituere et
+          <lb ed="#P" n="87"/>praecipere, sicut obligationem recitandi 
+          con<lb break="no" ed="#P" n="88"/>junxit cum ordine sacro, etiamsi nullum 
+          emo<lb break="no" ed="#P" n="89"/>lumentum temporale secum afferat per se 
+          lo<lb break="no" ed="#P" n="90"/>quendo. Ita enim per beneficium peculiari
+          <lb ed="#P" n="91"/>modo quasi sacratur persona, et magis 
+          eccle<lb break="no" ed="#P" n="92"/>siastica efficitur, ita ut in privilegiis et multis
+          <lb ed="#P" n="93"/>aliis aequiparetur clerico in sacris, et ideo
+          <lb ed="#P" n="94"/>juste etiam potuisset Ecclesia similiter 
+          conjun<lb break="no" ed="#P" n="95"/>gere obligationem recitandi cum beneficio,
+          <lb ed="#P" n="96"/>nulla habita consideratione fructuum. 
+          Verum<lb break="no" ed="#P" n="97"/>tamen non creditur ita fuisse, juxta doctrinam
+          <lb ed="#P" n="98"/>magis receptam ; et ideo si tenues fructus 
+          be<lb break="no" ed="#P" n="99"/>neficii alteri servitio aequissime correspondent,
+          <lb ed="#P" n="100"/>merito censetur non esse tale beneficium ad
+          <lb ed="#P" n="101"/>recitandum datum, et fortasse auctores 
+          secun<lb break="no" ed="#P" n="102"/>dae opinionis hoc non negarent. Extra hunc
+          <lb ed="#P" n="103"/>vero casum, eorum sententiam servandam esse
+          <lb ed="#P" n="104"/>etiam in praxi censemus.
+        </p>
+        <p xml:id="szovsr-m09246-d1e1161">
+          <lb ed="#P" n="105"/>12. Unde facile expeditur novum dubium
+          <lb ed="#P" n="106"/>nobis propositum, si quis habeat plura 
+          bene<lb break="no" ed="#P" n="107"/>ficia ita tenuia, ut nullum per se snfficiat
+          <lb ed="#P" n="108"/>obligare juxta opinionem Soti, omnia vero
+          <lb ed="#P" n="109"/>simul reddant competentes fructus, ah 
+          obli<lb break="no" ed="#P" n="110"/>getur ad recitandum. Respondeo enim om-
+          <pb ed="#P" n="374"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nino obligari, quod in omni sententia censeo
+          <lb ed="#P" n="2"/>esse indubitatum, nam de posteriori et nostra
+          <lb ed="#P" n="3"/>per se patet ; de priori probatur. Tum quia
+          <lb ed="#P" n="4"/>ile habet ab Ecclesia stipendium suffticiens
+          <lb ed="#P" n="5"/>titulo beneficii, vel beneficiorum, haec enim
+          <lb ed="#P" n="6"/>differentia impertinens est; nec minuit, sed
+          <lb ed="#P" n="7"/>potius quodammodo auget obligationem. Tum
+          <lb ed="#P" n="8"/>etiam quia, licet tenue beneficium per se non
+          <lb ed="#P" n="9"/>obligat, juxta illam sententiam, inchoat 
+          sal<lb break="no" ed="#P" n="10"/>tem obligationem, et ad aliquam orationem,
+          <lb ed="#P" n="11"/>vel partem horarum obligat, ut supra 
+          dice<lb break="no" ed="#P" n="12"/>bam; ergo si plura beneficia compleant 
+          suffi<lb break="no" ed="#P" n="13"/>ciens stipendium, integre obligabunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

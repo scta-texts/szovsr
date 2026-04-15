@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="213"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m05313"><!-- t4l3prae -->
+        <head xml:id="szovsr-m05313-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m05313-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="19"/>LIBER TERTIUS
+          <lb ed="#P" n="20"/>DE OBATIONE VOCALI IN COMMUNI
+          <lb ed="#P" n="21"/>ET PRESERTIM DE PRIVATA.
+        </p>
+        <p xml:id="szovsr-m05313-d1e114">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="22"/>Preesentis libri institutum. — Vocalis 
+          ora<lb break="no" ed="#P" n="23"/>tio ultra mentalem addit sensibilem 
+          signifi<lb break="no" ed="#P" n="24"/>cationem ejus desiderii, aut petitionis qua in
+          <lb ed="#P" n="25"/>mente versatur, voce facta; et ratione hujus
+          <lb ed="#P" n="26"/>significationis ad externos actus virtutis 
+          per<lb break="no" ed="#P" n="27"/>tinet : potestque habere proprias conditiones,
+          <lb ed="#P" n="28"/>proprietates, effectus, aut obligationes, quas
+          <lb ed="#P" n="29"/>in hoc et sequenti libro explicare necesse
+          <lb ed="#P" n="30"/>est. Suppositis autem his, quae diximus de
+          <lb ed="#P" n="31"/>oratione in communi, nihil nobis dicendum
+          <lb ed="#P" n="32"/>superest de vocali oratione quoad physicam
+          <lb ed="#P" n="33"/>entitatem ejus, nam hoc satis per se constat
+          <lb ed="#P" n="34"/>ex his, quae philosophi de voce, et signis
+          <lb ed="#P" n="35"/>sensibilibus tractant. Quomodo autem vocalis
+          <lb ed="#P" n="36"/>oratio a mentali procedat, in cap. 3 et 
+          4de<lb break="no" ed="#P" n="37"/>clarabimus. Igitur in hoc libro praecipue
+          <lb ed="#P" n="38"/>ageudum est de his, qua ad moralem 
+          doc<lb break="no" ed="#P" n="39"/>trinam vocalis orationis pertinent , nimirum
+          <lb ed="#P" n="40"/>de honestate, de utilitate et effectibus ejus,
+          <lb ed="#P" n="41"/>et quot modis fieri possit ac debeat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

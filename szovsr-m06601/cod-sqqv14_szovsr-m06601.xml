@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="265"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m06601"><!-- t4l4prae -->
+        <head xml:id="szovsr-m06601-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m06601-d1e103">
+          <pb ed="#P" n="265"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER QUARTUS
+          <lb ed="#P" n="2"/>DE
+          <lb ed="#P" n="3"/>ORATIONE PUBLICA ECCLESIAE
+          <lb ed="#P" n="4"/>HORIS CANONICIS, ET LAUDE DEI PER CANTUM ET PSALMODIAM.
+        </p>
+        <p xml:id="szovsr-m06601-d1e119">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>Libri partitio et dispositio. — Diximus de
+          <lb ed="#P" n="6"/>oratione vocali in communi, et ut private fit;
+          <lb ed="#P" n="7"/>superest dicendum de oratione per se publica,
+          <lb ed="#P" n="8"/>id est, quae in persona totius Ecclesiae 
+          fundi<lb break="no" ed="#P" n="9"/>tur; nam ex hoc induit peculiarem 
+          obligatio<lb break="no" ed="#P" n="10"/>nem ex instituto Ecclesiae, multasque 
+          proprie<lb break="no" ed="#P" n="11"/>tates habet, quae specialem considerationem
+          <lb ed="#P" n="12"/>requirunt, quam in hoc libro prosequemur.
+          <lb ed="#P" n="13"/>Sicut autem haec oratio per se publica est, ita
+          <lb ed="#P" n="14"/>per se postulat ut in Ecclesia fiat, in loco 
+          pu<lb break="no" ed="#P" n="15"/>blico, et in populi concursu, ac subinde tali
+          <lb ed="#P" n="16"/>modo, ut ab omnibus astantibus audiri possit.
+          <lb ed="#P" n="17"/>Et ideo hic orandi modus ad ecclesiasticum
+          <lb ed="#P" n="18"/>chorum, aut cantum, vel psalmodiam spectat.
+          <lb ed="#P" n="19"/>Per accidens autem separatim seu occulte fit,
+          <lb ed="#P" n="20"/>vel ratione loci, quia in privato cubiculo, vel
+          <lb ed="#P" n="21"/>ratione modi, quia summissa voce dicitur.
+          <lb ed="#P" n="22"/>Prius ergo dicemus dehis qui in choro, postea
+          <lb ed="#P" n="23"/>de his qui extra chorum, canonicum officium
+          <lb ed="#P" n="24"/>ex obligatione recitant; de illis vero, qui ex
+          <lb ed="#P" n="25"/>devotione absque obligatione recitant, nihil
+          <lb ed="#P" n="26"/>dicere oportebit, quia illa oratio omnino 
+          pri<lb break="no" ed="#P" n="27"/>vata est, et ita nullam habet peculiarem 
+          con<lb break="no" ed="#P" n="28"/>siderationem, praeter ea quae in superiori libro
+          <lb ed="#P" n="29"/>tractata sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

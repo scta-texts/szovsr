@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="440"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m11008"><!-- t5l1prae -->
+        <head xml:id="szovsr-m11008-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m11008-d1e103">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="32"/>LIBER PRIMUS
+          <lb ed="#P" n="33"/>DE IURAMENTO
+          <lb ed="#P" n="34"/>PRIESERTIM ASSERTORIO.
+        </p>
+        <p xml:id="szovsr-m11008-d1e114">
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="35"/>Explicatur quid sit juramentum 
+          asserto<lb break="no" ed="#P" n="36"/>rium, quid promissorium. — ln hoc titulo 
+          ta<lb break="no" ed="#P" n="37"/>cite supponimus divisionem juramenti in 
+          as<lb break="no" ed="#P" n="38"/>sertorium et promissorium, quam postea ex
+          <lb ed="#P" n="39"/>professo exponemus. Nunc breviter 
+          asserto<lb break="no" ed="#P" n="40"/>rium dicitur, quando solum fit ad veritatem
+          <lb ed="#P" n="41"/>confirmandam ; promissorium vero quando
+          <lb ed="#P" n="42"/>ultra praesentem veritatem adducitur Deus ad
+          <lb ed="#P" n="43"/>confirmandam aliquam promissionem , seu
+          <cb ed="#P" n="f"/>
+          <lb ed="#P" n="44"/>obligationem in futurum. Non instituimus 
+          au<lb break="no" ed="#P" n="45"/>tem specialem disputationem de juramento in
+          <lb ed="#P" n="46"/>genere, ut abstrahit ab assertorio, et 
+          promis<lb break="no" ed="#P" n="47"/>sorio, quia, ut videbimus, omne juramentum
+          <lb ed="#P" n="48"/>promissorium , assertorium etiam est, licet
+          <lb ed="#P" n="49"/>non convertantur, quia potest esse 
+          juramen<lb break="no" ed="#P" n="50"/>tum assertorium, et non promissorium. Unde
+          <lb ed="#P" n="51"/>fit ut necessaria non sit abstracta seu 
+          commu<lb break="no" ed="#P" n="52"/>nis consideratio. Nam explicando assertorium
+          <pb ed="#P" n="441"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>juramentum, exponetur quidquid habet 
+          com<lb break="no" ed="#P" n="2"/>mune cum promissorio, et solum supererit
+          <lb ed="#P" n="3"/>declarandum id quod est proprium juramenti
+          <lb ed="#P" n="4"/>promissorii, quodque ipsum addit ultra 
+          asser<lb break="no" ed="#P" n="5"/>torium. Circa juramentum ergo assertorium,
+          <lb ed="#P" n="6"/>quod simpliciter juramentum appellabimus,
+          <lb ed="#P" n="7"/>primo videndum est quid sit, et quos actus
+          <lb ed="#P" n="8"/>mentis aut corporis requirat, quamque 
+          hones<lb break="no" ed="#P" n="9"/>tatem habeat. Deinde causas ejus, et si quas
+          <lb ed="#P" n="10"/>habuerit proprietates, declarabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

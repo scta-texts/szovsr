@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 21</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 21</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1148"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m28821"><!-- t6l6c21 -->
+        <head xml:id="szovsr-m28821-Hd1e101">Caput 21</head>
+        <head xml:id="szovsr-m28821-Hd1e103" type="question-title">De dispensatione et commutatione votorum quae sunt pontifici reservata.</head>
+        <p xml:id="szovsr-m28821-d1e106">
+          <lb ed="#P" n="35"/>CAPUT XXI.
+          <lb ed="#P" n="36"/>DE DISPENSATIONE ET COMMUTATIONE VOTORUM
+          <lb ed="#P" n="37"/>QUAE SUNT PONTIFICI RESERVATA.
+        </p>
+        <p xml:id="szovsr-m28821-d1e115">
+          <lb ed="#P" n="38"/>1. Nulla vota propria Episcopis esse 
+          reser<lb break="no" ed="#P" n="39"/>vata. — Diximus generatim de dispensatione
+          <lb ed="#P" n="40"/>et commutatione votorum communium ; nunc
+          <lb ed="#P" n="41"/>pauca addenda sunt de votis reservatis 
+          Ponti<lb break="no" ed="#P" n="42"/>fici ; et quoniam inter illa praecipua sunt 
+          cas<lb break="no" ed="#P" n="43"/>titatis et religionis, de quibus in sequenti 
+          vo<lb break="no" ed="#P" n="44"/>lumine in particulari disputandum est, ideo
+          <lb ed="#P" n="45"/>in prasenti brevius agemus , solum ea, quae
+          <lb ed="#P" n="46"/>generalia sunt attingendo, et quae ad vota 
+          pe<lb break="no" ed="#P" n="47"/>regrinationum spectant expediendo ; quae 
+          au<lb break="no" ed="#P" n="48"/>tem propria fuerint illorum votorum, in 
+          pro<lb break="no" ed="#P" n="49"/>prium locum reservando. Praemittendum
+          <lb ed="#P" n="50"/>etiam hic est, in votis non inveniri proprie
+          <lb ed="#P" n="51"/>vota reservata Episcopis, sicut inveniuntur in
+          <lb ed="#P" n="52"/>casibus seu peccatis reservatis. sed tantum Pon-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tifici. Et ratio est, quia ex vi communis juris
+          <lb ed="#P" n="54"/>omnia vota quoad reservationem sunt propria
+          <lb ed="#P" n="55"/>Episcoporum , seu habentium jurisdictionem
+          <lb ed="#P" n="56"/>Episcopalem, ideoque non oportet ea reservare
+          <lb ed="#P" n="57"/>respectu inferiorum, sed ex se, seu ex genere
+          <lb ed="#P" n="58"/>suo sunt quasi reservata , vel potius extra 
+          ju<lb break="no" ed="#P" n="59"/>risdictionem illorum, quod non ita est in 
+          pec<lb break="no" ed="#P" n="60"/>catorum et censurarum absolutione ; possunt
+          <lb ed="#P" n="61"/>enim ab inferioribus remitti, nisi reserventur
+          <lb ed="#P" n="62"/>Papae, vel Episcopis. Hinc ergo est, ut 
+          reser<lb break="no" ed="#P" n="63"/>vatio votorum solum fiat respectu 
+          Episcopo<lb break="no" ed="#P" n="64"/>rum, quatenus aliqua ab eorum ordinaria 
+          ju<lb break="no" ed="#P" n="65"/>risdictione eximuntur. Possunt tamen ipsi
+          <lb ed="#P" n="66"/>Episcopi, quando alteri suam jurisdictionem
+          <lb ed="#P" n="67"/>committunt, seu delegant, votum aliquod 
+          re<lb break="no" ed="#P" n="68"/>servare ; sed de hoc nihil est jure statutum, et
+          <lb ed="#P" n="69"/>ideo illa reservatio ad factum pertinet, et 
+          tan<lb break="no" ed="#P" n="70"/>ta erit, quanta fuerit explicata, nec de illa
+          <lb ed="#P" n="71"/>oportet plura dicere. Respectu vero 
+          Episcopo<lb break="no" ed="#P" n="72"/>rum solus Papa potest vota reservare, quia
+          <lb ed="#P" n="73"/>solus ille potest jurisdictionem eorum 
+          ordina<lb break="no" ed="#P" n="74"/>riam restringere, vel ex parte auferre; 
+          dis<lb break="no" ed="#P" n="75"/>pensatio autem votorum ad jurisdictionem 
+          or<lb break="no" ed="#P" n="76"/>dinariam Episcoporum pertinet , ut diximus.
+          <lb ed="#P" n="77"/>Unde etiam fit (quod pro his quae dicemus 
+          ob<lb break="no" ed="#P" n="78"/>servandum est) ut haec reservatio stricte 
+          inter<lb break="no" ed="#P" n="79"/>pretanda sit, quia non fit per non 
+          concessio<lb break="no" ed="#P" n="80"/>nem jurisdictionis, sed per ablationem ejus,
+          <lb ed="#P" n="81"/>et quasi diminutionem ordinariae potestatis,
+          <lb ed="#P" n="82"/>quae non mensuratur per affirmativam 
+          regu<lb break="no" ed="#P" n="83"/>lam, ut scilicet, ea tantum possint Episcopi in
+          <lb ed="#P" n="84"/>dispensandis votis, quae ipsis inveniuntur 
+          con<lb break="no" ed="#P" n="85"/>cessa; sed per negativam, ut omnia possint
+          <lb ed="#P" n="86"/>quae ipsis non inveniuntur prohibita , et ideo
+          <lb ed="#P" n="87"/>est propriissima et rigorosa reservatio.
+        </p>
+        <p xml:id="szovsr-m28821-d1e228">
+          <lb ed="#P" n="88"/>2. Prima assertio : que vota sint tantum
+          <lb ed="#P" n="89"/>Pontifici reservata quoad dispensationem. —
+          <lb ed="#P" n="90"/>Dico ergo primo : quinque tantum sunt vota
+          <lb ed="#P" n="91"/>Pontifici reservata quoad dispensationem,
+          <lb ed="#P" n="92"/>scilicet, religionis, castitatis, 
+          Hierosolymita<lb break="no" ed="#P" n="93"/>num, Romanum, et Compostellanum. Haec
+          <lb ed="#P" n="94"/>assertio certa est, et communis ; duas autem
+          <lb ed="#P" n="95"/>continet partes : una est affirmans 
+          reservatio<lb break="no" ed="#P" n="96"/>nem quinque votorum, alia excludens alia.
+          <lb ed="#P" n="97"/>Circa priorem, est sciendum hanc 
+          reservatio<lb break="no" ed="#P" n="98"/>nem non haberi expressam in jure antiquo,
+          <lb ed="#P" n="99"/>nisi de solo voto Hierosolymitano, in cap.
+          <lb ed="#P" n="100"/>Ex multa, de Voto. Imo de illo Canonistae 
+          dis<lb break="no" ed="#P" n="101"/>tinguunt de voto facto in subsidium terrae
+          <lb ed="#P" n="102"/>sanctae, vel peregrinandi tantum illue, 
+          devo<lb break="no" ed="#P" n="103"/>tionis aut poenitentiae gratia, et dicunt 
+          pri<lb break="no" ed="#P" n="104"/>mum votum ibi reservari, non secundum. Ita
+          <lb ed="#P" n="105"/>Glossa, in dicto c. Ex multta ; Abbas ibi, in
+          <lb ed="#P" n="106"/>fine, et in cap. 1, in fine, et in cap. Quod 
+          su<lb break="no" ed="#P" n="107"/>per, in finc, de Voto; et idem sentiunt ibi Hos-
+          <pb ed="#P" n="1149"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tiens. et alii; Anton. de DButr., in c. 
+          Scriptu<lb break="no" ed="#P" n="2"/>ra, de Voto; Felinus, in cap. Quod super, de
+          <lb ed="#P" n="3"/>Fid. instrum. Et videtur sumi ex dicto cap.
+          <lb ed="#P" n="4"/>HFa multa. Praeterea de voto castitatis aliqui
+          <lb ed="#P" n="5"/>dicunt esse etiam jure reservatum, quia licet
+          <lb ed="#P" n="6"/>in particulari non excipiatur, reservatum 
+          cen<lb break="no" ed="#P" n="7"/>setur ex vi generalis regulae, cap. Majores,
+          <lb ed="#P" n="8"/>de DBaptism., quod graviores causae ad 
+          Sum<lb break="no" ed="#P" n="9"/>mum Pontificem sunt referendae.
+        </p>
+        <p xml:id="szovsr-m28821-d1e299">
+          <lb ed="#P" n="10"/>3. Et ita haec tantum duo vota reservata
+          <lb ed="#P" n="11"/>Papae ponit Panormit., c. 1, de Voto, num. 8;
+          <lb ed="#P" n="12"/>Hostiens. in Sum., titul. de Voto, S Qualiter,
+          <lb ed="#P" n="13"/>et cujus auctoritate, etc. Expressius Petr. Ant.
+          <lb ed="#P" n="14"/>Gambara, de Offic. et potestate legat., lib. 2,
+          <lb ed="#P" n="15"/>sub tit. de Variis ordinar. noniinib., n. 177,
+          <lb ed="#P" n="16"/>ubi ait, de jure tantum duo vota esse 
+          reser<lb break="no" ed="#P" n="17"/>vata Papae, castitatis, et terrae sanctae 
+          redem<lb break="no" ed="#P" n="18"/>ptionis, seu pro subsidio. Unde generaliter de
+          <lb ed="#P" n="19"/>omnibus votis peregrinationum, quod possint
+          <lb ed="#P" n="20"/>ab Episcopo dispensari, dicit Felin., dicto c.
+          <lb ed="#P" n="21"/>Quod super, cum Ant., ibidem. De voto autem
+          <lb ed="#P" n="22"/>religionis nullus ex his auctoribus affirmat
+          <lb ed="#P" n="23"/>aliquid, vel negat in particulari; et Bonaguid.,
+          <lb ed="#P" n="24"/>tract. de Dispensat , n. 26, absolute ait, 
+          Epis<lb break="no" ed="#P" n="25"/>copos posse dispensare in omnibus vous, 
+          prae<lb break="no" ed="#P" n="26"/>ter castitatis et subsidii terrae sanctae; imo D.
+          <lb ed="#P" n="27"/>Thomas, d. q. 88, art. 12, ad 2, tantum illa
+          <lb ed="#P" n="28"/>duo vota enumerat ; ille vero, ut existimo, sub
+          <lb ed="#P" n="29"/>castitate, religionis vorum comprehendit, de
+          <lb ed="#P" n="30"/>quo in aliis locis statim citandis mentionem
+          <lb ed="#P" n="31"/>facit; duas autem peregrinationes omittit, quia
+          <lb ed="#P" n="32"/>suo tempore forte non erant reservatae. Unde
+          <lb ed="#P" n="33"/>Richard., d. 38, art. 9, q. 2, votum sancti 
+          Ja<lb break="no" ed="#P" n="34"/>cobi dicit posse dispensari ab Episcopo, et
+          <lb ed="#P" n="35"/>idem sentit de voto sancti Petri, quia tantum
+          <lb ed="#P" n="36"/>numerat tria. Non video autem cur magis
+          <lb ed="#P" n="37"/>votum castitatis sit dicendum jure reservatum,
+          <lb ed="#P" n="38"/>quam votum religionis, quia reservatio 
+          ex<lb break="no" ed="#P" n="39"/>pressa et in particulari, non magis unius,
+          <lb ed="#P" n="40"/>quam alterius invenitur in jure; generalis 
+          au<lb break="no" ed="#P" n="41"/>tem ratio illius regulae, quod graviores causae
+          <lb ed="#P" n="42"/>pertinent ad Papam, non minus convenit voto
+          <lb ed="#P" n="43"/>religionis quam castitatis, cum non sit minus
+          <lb ed="#P" n="44"/>grave ; verius autem puto solam illam 
+          regu<lb break="no" ed="#P" n="45"/>lam non sufficere, etiam in voto simplici 
+          cas<lb break="no" ed="#P" n="46"/>titatis.
+        </p>
+        <p xml:id="szovsr-m28821-d1e382">
+          <lb ed="#P" n="47"/>4. Unde inducta sit hac reservatio votorum.
+          <lb ed="#P" n="48"/>— Hsaec igitur reservatio, si antiquitatem 
+          re<lb break="no" ed="#P" n="49"/>spiciamus, magis traditione et consuetudine,
+          <lb ed="#P" n="50"/>quam jure scripto probanda est, ut sentit
+          <lb ed="#P" n="51"/>Sylv., Votum , 4, q. 3, ubi solum loquitur de
+          <lb ed="#P" n="52"/>tribus praecipuis ; tamen de omnibus quinque
+          <lb ed="#P" n="53"/>idem dixit Soto, d. q. 4, art. 3; et Navarr.,
+          <lb ed="#P" n="54"/>n. 75, dicit esse reservata ex stylo Curiae, et
+          <lb ed="#P" n="55"/>hoc sequuntur omnes recentiores auctores. Et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>videtur certe haec reservatio jam esse facta 
+          sa<lb break="no" ed="#P" n="57"/>lis expressa in Extravag. FEt si dominici, 2, de
+          <lb ed="#P" n="58"/>Ponit. et remiss., per illa verba: Nisi ex 
+          spe<lb break="no" ed="#P" n="59"/>ciali licentia, et certa scientia nostra. Quamvis
+          <lb ed="#P" n="60"/>enim ibi solum tractet Pontifex de 
+          dispensa<lb break="no" ed="#P" n="61"/>tione, quae fit virtute litterarum ab ipso Papa
+          <lb ed="#P" n="62"/>emanatarum, uihilominus supponere videtur
+          <lb ed="#P" n="63"/>reservationem, tum quia ob hanc causam non
+          <lb ed="#P" n="64"/>vult comprehendi in clasula generali ; tum
+          <lb ed="#P" n="65"/>etiam quia supponit esse necessariam 
+          licen<lb break="no" ed="#P" n="66"/>tiam specialem Papae ; supponit ergo ab 
+          Epis<lb break="no" ed="#P" n="67"/>copis dari non posse ; ergo supponit etiam 
+          ip<lb break="no" ed="#P" n="68"/>sos Episcopos non habere nunc ordinariam 
+          po<lb break="no" ed="#P" n="69"/>testatem ad dispensandum in his votis. Tum
+          <lb ed="#P" n="70"/>denique, quia cum proportione aequiparat 
+          re<lb break="no" ed="#P" n="71"/>laxationem horum votorum absolutioni 
+          cen<lb break="no" ed="#P" n="72"/>surarum ceenae Domini, quae minus reservatae
+          <lb ed="#P" n="73"/>sunt simpliciter, etiam respectu Episcoporum.
+          <lb ed="#P" n="74"/>Haee ergo sunt propria fundamenta hujus 
+          re<lb break="no" ed="#P" n="75"/>servationis. Ratio autem, seu congruentia 
+          su<lb break="no" ed="#P" n="76"/>menda est ex illo principio, quod graves 
+          cau<lb break="no" ed="#P" n="77"/>sae merito reservantur Sedi Apostolicae; haec
+          <lb ed="#P" n="78"/>autem omnia vota gravia judicanda sunt.
+        </p>
+        <p xml:id="szovsr-m28821-d1e456">
+          <lb ed="#P" n="79"/>5. Unde loquendo de his votis, prout de 
+          fac<lb break="no" ed="#P" n="80"/>to sunt reservata per usum vel jus novum,
+          <lb ed="#P" n="81"/>non est limitandum votum transmarinum ad
+          <lb ed="#P" n="82"/>illud, quod fuit subsidii gratia, sed simpliciter
+          <lb ed="#P" n="83"/>de voto illius peregrinationis accipiendum est,
+          <lb ed="#P" n="84"/>ut sentiunt auctores proxime allegati, et 
+          Pa<lb break="no" ed="#P" n="85"/>lud., 4, d. 38, q. 4, n. :3; et ibi Suppl. Angel.,
+          <lb ed="#P" n="86"/>Vetum, 4, n. 6, licet non constanter ; Covar.,
+          <lb ed="#P" n="87"/>in c. Quamvis, p. 1, 8 3, n. 12; Greg. Lop., in
+          <lb ed="#P" n="88"/>leg. 5, tit. 5. et inleg. 5, tit. p. 1, ubi merito
+          <lb ed="#P" n="89"/>rejicit limitationem Angeli dicentis, licet 
+          re<lb break="no" ed="#P" n="90"/>currendum sit ad Papam, si tamen 
+          dispensa<lb break="no" ed="#P" n="91"/>tio concedatur ab Episcopo, fore validam, quod
+          <lb ed="#P" n="92"/>certe improbabile est , maxime post dictam
+          <lb ed="#P" n="93"/>Extravagantem, et post constantem 
+          consuetu<lb break="no" ed="#P" n="94"/>dinem, et stylum Curiae, qui ex Bulla 
+          Crucia<lb break="no" ed="#P" n="95"/>tae et similibus satis constat. Nec magis 
+          pro<lb break="no" ed="#P" n="96"/>babiliter loquuntur , qui limitationem illam
+          <lb ed="#P" n="97"/>ponunt in votis Romano et Compostellano, ut
+          <lb ed="#P" n="98"/>idem Angel. indicat ; clarius Armill, verb.
+          <lb ed="#P" n="99"/>Dispensatio, n. 16; Vival., d. c. 14, n. 63, 
+          ci<lb break="no" ed="#P" n="100"/>tans Summam Confess., l. 1, tit. 8, cap. 70.
+          <lb ed="#P" n="101"/>Nam in his votis nec secundum jus habet 
+          lo<lb break="no" ed="#P" n="102"/>cum lIimitatio, quia jus nihil de illis disponit,
+          <lb ed="#P" n="103"/>nec secundum consuetudinem, ut iidem 
+          auc<lb break="no" ed="#P" n="104"/>tores fatentur. Et est per se notum, quia illa
+          <lb ed="#P" n="105"/>vota nunquam fieri consueverunt in 
+          subsi<lb break="no" ed="#P" n="106"/>dium belli, de quo jura loquuntur, quando
+          <lb ed="#P" n="107"/>tractant de voto Crucis.
+        </p>
+        <p xml:id="szovsr-m28821-d1e521">
+          <lb ed="#P" n="108"/>6. Circa secundam partem assertionis 
+          ex<lb break="no" ed="#P" n="109"/>clusivam supe-est nonnulla difficultas , quia
+          <lb ed="#P" n="110"/>Div. Thomas 2. 2, q. 184, art. 6, quaest. 185,
+          <pb ed="#P" n="1150"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>art. 4, q. 189, art. 7, et in 4, d. 38, q. 1, art.
+          <lb ed="#P" n="2"/>4, quaest. 2, dixit omnia vota perpetua 
+          reser<lb break="no" ed="#P" n="3"/>vari Papae ; sed haec possunt esse multo plura;
+          <lb ed="#P" n="4"/>ergo. Respondet Cajetanus, Soto, et alii, Div.
+          <lb ed="#P" n="5"/>Thomam intelligendum esse de votis per se
+          <lb ed="#P" n="6"/>perpetuis , id est, quae simpliciter facta sine
+          <lb ed="#P" n="7"/>additione ulla vel limitatione, perpetua sunt,
+          <lb ed="#P" n="8"/>non vero de illis qua peculiari additione ad
+          <lb ed="#P" n="9"/>totam vitam extenduntur, et ideo per accidens
+          <lb ed="#P" n="10"/>perpetua dici possunt. Sed haec responsio 
+          li<lb break="no" ed="#P" n="11"/>cet quoad aliqua vota difficultatem fugiat, non
+          <lb ed="#P" n="12"/>tamen quoad omnia difficultatem evacuat.
+          <lb ed="#P" n="13"/>Nam imprimis ex illa sequitur, votum 
+          acci<lb break="no" ed="#P" n="14"/>piendi ordinem sacrum esse reservatum, quia
+          <lb ed="#P" n="15"/>de se perpetuum est. Item votum, verbi gratia,
+          <lb ed="#P" n="16"/>se tradendi hospitali in servum, vel faciendo
+          <lb ed="#P" n="17"/>ibi absolutam promissionem obedientiae, aut
+          <lb ed="#P" n="18"/>servitutis, ex vi objecti est perpetuum, 
+          quam<lb break="no" ed="#P" n="19"/>vis nihil addatur. Item votum non ludendi,
+          <lb ed="#P" n="20"/>non comedendi carnes, et similia simpliciter
+          <lb ed="#P" n="21"/>facta, essent etiam vota reservata, quia etiam
+          <lb ed="#P" n="22"/>sunt de se perpetua. Quod amplius declaratur,
+          <lb ed="#P" n="23"/>nam votum religionis ideo est per se 
+          perpe<lb break="no" ed="#P" n="24"/>tuum, quia est de statu perpetuo; ergo omnia
+          <lb ed="#P" n="25"/>vota de statu perpetuo sunt per se perpetua ;
+          <lb ed="#P" n="26"/>tale autem est votum clericatus in sacris, et
+          <lb ed="#P" n="27"/>votum servitutis per veram traditionem, et
+          <lb ed="#P" n="28"/>dominii translationem. Votum autem 
+          castita<lb break="no" ed="#P" n="29"/>tis ideo est per se perpetuum, quia est de 
+          ob<lb break="no" ed="#P" n="30"/>jecto negativo non admittendi venereas 
+          delec<lb break="no" ed="#P" n="31"/>tationes, tam lictas quam ilbcitas. Negatio
+          <lb ed="#P" n="32"/>autem absolute prolata omnia tempora negat,
+          <lb ed="#P" n="33"/>et ideo perpetua est ; omne ergo votum 
+          ne<lb break="no" ed="#P" n="34"/>gativum, absolute factum, erit de se 
+          perpe<lb break="no" ed="#P" n="35"/>tuum, nam est eadem ratio ; ut votum non
+          <lb ed="#P" n="36"/>nubendi perpetuum est, et votum non se 
+          pol<lb break="no" ed="#P" n="37"/>luendi, vel votum castitatis conjugalis. Omnia
+          <lb ed="#P" n="38"/>autem illa consequentia, seu illata, contra 
+          as<lb break="no" ed="#P" n="39"/>sertionem sunt.
+        </p>
+        <p xml:id="szovsr-m28821-d1e619">
+          <lb ed="#P" n="40"/>7. Votum clericatus non est Papae 
+          reserva<lb break="no" ed="#P" n="41"/>tum. — Objectio. — Solutio. — Instantia. —
+          <lb ed="#P" n="42"/>Besponsio. — Circa hanc difficultatem , primo
+          <lb ed="#P" n="43"/>dicendum est de singulis consequentibus 
+          illa<lb break="no" ed="#P" n="44"/>tis, et postea de assertione. Primum illatum
+          <lb ed="#P" n="45"/>erat de voto clericatus in sacris, de quo assero
+          <lb ed="#P" n="46"/>non esse reservatum. Ita Pet. Ant. Gamb.,
+          <lb ed="#P" n="47"/>de Auctor. legat., lib. 10, num. 484; et 
+          Na<lb break="no" ed="#P" n="48"/>varr., Cons. 18, de Voto, et sequuntur omnes
+          <lb ed="#P" n="49"/>moderni, quos refert Sanc., libro octavo de
+          <lb ed="#P" n="50"/>Matrim., disp. 9, num. 13. Et ratio est, quia
+          <lb ed="#P" n="51"/>illud non est votum castitatis, ut patet ex 
+          ob<lb break="no" ed="#P" n="52"/>jecto ; nam per se est votum affirmativum,
+          <lb ed="#P" n="53"/>votum autem castitatis est negativum, unde
+          <lb ed="#P" n="54"/>licet ille fornicetur, non peccat contra votum;
+          <lb ed="#P" n="55"/>et licet contrahat matrimonium, et in eo pec-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cet contra votum, non tamen peccabit postea
+          <lb ed="#P" n="57"/>petendo debitum, nec etiam aget contra 
+          vo<lb break="no" ed="#P" n="58"/>tum adulterando. Dices: illud objectum 
+          inclu<lb break="no" ed="#P" n="59"/>dit virtute castitatem. hespondeo includere
+          <lb ed="#P" n="60"/>ilam ut promittendam, non ut promissam,
+          <lb ed="#P" n="61"/>quod non sufficit ut praesens votum sit 
+          casti<lb break="no" ed="#P" n="62"/>tatis. Magis enim includit castitatem status
+          <lb ed="#P" n="63"/>religiosus , et nihilominus votum religionis
+          <lb ed="#P" n="64"/>non est votum castitatis, nec inducit per se
+          <lb ed="#P" n="65"/>immediate obligationem ejus, ut postea 
+          vide<lb break="no" ed="#P" n="66"/>bimns. Urgebis, quia perinde est facere votum
+          <lb ed="#P" n="67"/>vovendi castitatem, et castitatem vovere ; qui
+          <lb ed="#P" n="68"/>autem vovet clericatum in sacris , 
+          consequen<lb break="no" ed="#P" n="69"/>ter vovet vovere castitatem. Respondeo 
+          con<lb break="no" ed="#P" n="70"/>cedendo illud votum: esse de vovenda 
+          pos<lb break="no" ed="#P" n="71"/>tea continentia, ut admittit Gambar. supra ;
+          <lb ed="#P" n="72"/>nihilominus tamen non est immediate votum
+          <lb ed="#P" n="73"/>castitatis , et hoc satis est ut non sit 
+          reserva<lb break="no" ed="#P" n="74"/>tum, quia reservatio utpote odiosa non 
+          exten<lb break="no" ed="#P" n="75"/>ditur ad diversa, etiamsi in multis videantur
+          <lb ed="#P" n="76"/>esse similia. Unde licet quis voveret expresse
+          <lb ed="#P" n="77"/>se facturum votum simplex castitatis, tale 
+          vo<lb break="no" ed="#P" n="78"/>tum non esset reservatum, propter eamdem
+          <lb ed="#P" n="79"/>rationem ; quia illud votum solum ac per se
+          <lb ed="#P" n="80"/>non obligat ad castitatem servandam.
+        </p>
+        <p xml:id="szovsr-m28821-d1e713">
+          <lb ed="#P" n="81"/>8. Votum servitutis propter Deum, vel 
+          ali<lb break="no" ed="#P" n="82"/>cujus similis status de se perpetui, non est 
+          re<lb break="no" ed="#P" n="83"/>servatum. — Secundum illatum erat de voto
+          <lb ed="#P" n="84"/>servitutis propter Deum , vel alio simili statu
+          <lb ed="#P" n="85"/>de se perpetuo. De quo etiam assero non esse
+          <lb ed="#P" n="86"/>reservatum , quia inter illa quinque non 
+          con<lb break="no" ed="#P" n="87"/>tinetur, et licet cum illis conveniat in aliqua
+          <lb ed="#P" n="88"/>proprietate, non satis est ad extensionem 
+          fa<lb break="no" ed="#P" n="89"/>ciendam ; imo, licet votum sit de aliquo statu,
+          <lb ed="#P" n="90"/>qui ultra perpetuitatem habeat conjunctum
+          <lb ed="#P" n="91"/>votum castitatis, ut est quorumdam 
+          converso<lb break="no" ed="#P" n="92"/>rum, aut quarumdam feminarum 
+          tertiaria<lb break="no" ed="#P" n="93"/>rum, quae beatae appellantur, et peculiari 
+          ha<lb break="no" ed="#P" n="94"/>bitu utuntur, et votum castitatis emittunt.
+          <lb ed="#P" n="95"/>Votum enim de tali statu assumendo 
+          reserva<lb break="no" ed="#P" n="96"/>tum non est, quia neque est votum religionis,
+          <lb ed="#P" n="97"/>ut constat, nec est votum castitatis, licet 
+          in<lb break="no" ed="#P" n="98"/>cludat votum de illa emittenda. Et eadem 
+          ra<lb break="no" ed="#P" n="99"/>tione votum obedientia extra statum 
+          religio<lb break="no" ed="#P" n="100"/>sum non est reseryatum, tum quia de se non
+          <lb ed="#P" n="101"/>est perpetuum, nisi ut annexum religioso 
+          sta<lb break="no" ed="#P" n="102"/>tui. extra illum enim fieri potest ad tempus,
+          <lb ed="#P" n="103"/>vel pro tota vita, pro arbitrio voventis; tum
+          <lb ed="#P" n="104"/>quia licet esset perpetuum. non invenitur 
+          re<lb break="no" ed="#P" n="105"/>servatum, nec censetur tantae aestimationis,
+          <lb ed="#P" n="106"/>ut reservari debuerit , quando extra statum
+          <lb ed="#P" n="107"/>religiosum fit, ut postea videbimus.
+        </p>
+        <p xml:id="szovsr-m28821-d1e775">
+          <lb ed="#P" n="108"/>9. De votis negativis solum castitatis est 
+          re<lb break="no" ed="#P" n="109"/>servatum. — Votwn paupertatis eatra 
+          religio<lb break="no" ed="#P" n="110"/>nem uon est reservatum. —Tertium exemplum
+          <pb ed="#P" n="1151"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>erat de votis negativis, de quibus etiam 
+          dici<lb break="no" ed="#P" n="2"/>mus, quod licet secundum se revera sint 
+          per<lb break="no" ed="#P" n="3"/>petua, non sunt reservata, nisi illud tantum
+          <lb ed="#P" n="4"/>quod est de tota materia castitatis, quia ex
+          <lb ed="#P" n="5"/>omnibus votis negativis possibilibus unicum
+          <lb ed="#P" n="6"/>tantum reservatum est, utique castitatis 
+          sim<lb break="no" ed="#P" n="7"/>pliciter ; reliqua ergo. quae vel circa alias 
+          ma<lb break="no" ed="#P" n="8"/>terias versantur, vel circa materiam tantum
+          <lb ed="#P" n="9"/>partialem castitatis, reservata non sunt. 
+          Prio<lb break="no" ed="#P" n="10"/>ra quidem , quia nullam habent affinitatem
+          <lb ed="#P" n="11"/>cuni votis reservatis, nisi in perpetuitate, quae
+          <lb ed="#P" n="12"/>satis non est. Posteriora vero, quia licet 
+          ha<lb break="no" ed="#P" n="13"/>beant materiam ad castitatem pertinentem,
+          <lb ed="#P" n="14"/>simpliciter non sunt vota castitatis, et 
+          reser<lb break="no" ed="#P" n="15"/>vatio restringenda est. Circa quam ultimam
+          <lb ed="#P" n="16"/>partem multa dicenda occurrebant, sed illa in
+          <lb ed="#P" n="17"/>propriam disputatiorem de voto castitatis, in
+          <lb ed="#P" n="18"/>sequenti volumine tradendam , remittimus.
+          <lb ed="#P" n="19"/>Atque hinc colligitur, etiam votum 
+          pauperta<lb break="no" ed="#P" n="20"/>tis extra statum religionis factum non esse 
+          re<lb break="no" ed="#P" n="21"/>servatum, quia, licet negativum sit, et inde
+          <lb ed="#P" n="22"/>videatur de se perpetuum, et de materia 
+          gra<lb break="no" ed="#P" n="23"/>vi, et multum pertinente ad perfectionem, 
+          ni<lb break="no" ed="#P" n="24"/>hilominus de facto non est reservatum, quia
+          <lb ed="#P" n="25"/>nec invenitur talis reservatio in jure, nec
+          <lb ed="#P" n="26"/>consuetudine introdncta est. Et forte ratio
+          <lb ed="#P" n="27"/>est, quia tale votum rarum est, vel quia licet
+          <lb ed="#P" n="28"/>paupertas de se sit instrumentum perfectionis,
+          <lb ed="#P" n="29"/>extra sta'um religiosum non solet esse adeo
+          <lb ed="#P" n="30"/>utilis et secura. Et ita de illo voto sentit 
+          Na<lb break="no" ed="#P" n="31"/>varrus, in Comment. 1, de Regularib., n 21,
+          <lb ed="#P" n="32"/>S Figesimum nonum ; et Henr., lib. 7, de 
+          In<lb break="no" ed="#P" n="33"/>dulgentiis, cap. 30, num. 6, lit. F.
+        </p>
+        <p xml:id="szovsr-m28821-d1e860">
+          <lb ed="#P" n="34"/>10. Explicatur D. Thomas.— Ad 
+          difficulta<lb break="no" ed="#P" n="35"/>tem ergo fatemur, regulam illam de votis
+          <lb ed="#P" n="36"/>perpetuis, in rigore acceptam, non esse 
+          univer<lb break="no" ed="#P" n="37"/>salem, nec veram, quia perpetuitas, etiam per
+          <lb ed="#P" n="38"/>se, nec ad reservationem requiritur, ut in 
+          vo<lb break="no" ed="#P" n="39"/>lis peregrinationis constat, nec suihcit, ut
+          <lb ed="#P" n="40"/>probant omnia quae diximus. D. Thomas 
+          au<lb break="no" ed="#P" n="41"/>tem exponendus est juxta subjectam materiam,
+          <lb ed="#P" n="42"/>de qua loquitur; nam in omnibus locis citatis
+          <lb ed="#P" n="43"/>ex 2. 2. loquitur de votis perpetuis, quae per
+          <lb ed="#P" n="44"/>se pertinent ad statum perfectionis, ut in 
+          pri<lb break="no" ed="#P" n="45"/>mo loco aperte declarat ; loquitur etiam de
+          <lb ed="#P" n="46"/>votis ordinariis, et usitatis in Ecclesia, qualia
+          <lb ed="#P" n="47"/>sunt votum castitatis aut religionis; nam, licet
+          <lb ed="#P" n="48"/>ibi ponat-votum Episcopi permanendi in suo
+          <lb ed="#P" n="49"/>munere, id vocat solemne, et ideo ad praesens
+          <lb ed="#P" n="50"/>non spectat ; quale autem sit, videbimus 
+          post<lb break="no" ed="#P" n="51"/>ea iractando de statu perfectionis. In quarto
+          <lb ed="#P" n="52"/>auiem, in ipsis verbis ponit restrictionem,
+          <lb ed="#P" n="53"/>si attente legatur, sic enim ait : Votum 
+          re<lb break="no" ed="#P" n="54"/>ligionis, es alia hujusmodi vota perpetua, 
+          so<lb break="no" ed="#P" n="55"/>lus Papa dispensave potest. Particula enim Au-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>jusmodi limitat sermonem ad vota 
+          constituen<lb break="no" ed="#P" n="57"/>tia aliquo modo, vel respicientia statum 
+          per<lb break="no" ed="#P" n="58"/>fectionis; videtur autem etiam loqui de votis
+          <lb ed="#P" n="59"/>solemnibus, quae in 4censuit dispensabilia, et
+          <lb ed="#P" n="60"/>ideo in plurali dicit: Et alia vota ; significat
+          <lb ed="#P" n="61"/>etiam haec vota, sic perfecta et integra, quasi
+          <lb ed="#P" n="62"/>natura sua esse reservata Papae, fortasse 
+          pro<lb break="no" ed="#P" n="63"/>pter gravitatem eorum, propter quam 
+          viden<lb break="no" ed="#P" n="64"/>tur semper fuisse reservata. Nam de votis 
+          pe<lb break="no" ed="#P" n="65"/>regrinationum ait esse Episcopalia , nisi 
+          re<lb break="no" ed="#P" n="66"/>serventur, quia haec reservatio non tam ex 
+          in<lb break="no" ed="#P" n="67"/>trinseca natura talis materiae oritur, quam ex
+          <lb ed="#P" n="68"/>peculiari institutione vel consuetudine, ut 
+          Ca<lb break="no" ed="#P" n="69"/>jetanus notavit.
+        </p>
+        <p xml:id="szovsr-m28821-d1e943">
+          <lb ed="#P" n="70"/>11. Quas restrictiones et extensiones 
+          patian<lb break="no" ed="#P" n="71"/>tur vota Pontifici reservata. — Circa eamdem
+          <lb ed="#P" n="72"/>secundam partem assertionis, dubitari potest
+          <lb ed="#P" n="73"/>secundo, quid sub singulis ex quinque illis
+          <lb ed="#P" n="74"/>votis comprehenv'atur, et consequenter quas
+          <lb ed="#P" n="75"/>extensiones vel restrictiones admittant. In quo
+          <lb ed="#P" n="76"/>puncto multa dici possent de voto castitatis et
+          <lb ed="#P" n="77"/>religionis, sed quia de illis in particulari 
+          trac<lb break="no" ed="#P" n="78"/>taturi sumus, in eum locum omnia, quae ad
+          <lb ed="#P" n="79"/>illa pertinent, reservamus ; quia revera non
+          <lb ed="#P" n="80"/>possunt commode exponi, non declarata prius
+          <lb ed="#P" n="81"/>natura et obligatione talium votorum. De 
+          duo<lb break="no" ed="#P" n="82"/>bus autem votis peregrinationum ad limina
+          <lb ed="#P" n="83"/>Apostolorum, et ad sanctum Jacobum, nihil
+          <lb ed="#P" n="84"/>invenio ab auctoribus traditum, quod 
+          adno<lb break="no" ed="#P" n="85"/>tare necesse sit; neque in eis aliquid est 
+          pe<lb break="no" ed="#P" n="86"/>culiare, praeter ea quae diximus; alia enim
+          <lb ed="#P" n="87"/>communia sunt caeteris votis peregrinationum,
+          <lb ed="#P" n="88"/>praeter reservationem, de qua etiam nihil 
+          no<lb break="no" ed="#P" n="89"/>tandum occurrit, praeter ea quae supra 
+          indica<lb break="no" ed="#P" n="90"/>vimus, circa modum, quo excipiuntur vel 
+          com<lb break="no" ed="#P" n="91"/>prehenduntur in indultis concedentibus 
+          voto<lb break="no" ed="#P" n="92"/>rum commutationem.
+        </p>
+        <p xml:id="szovsr-m28821-d1e995">
+          <lb ed="#P" n="93"/>12. Circa votum autem Hierosolymitanum,
+          <lb ed="#P" n="94"/>seu transmarinum, duo puncta invenio tacia
+          <lb ed="#P" n="95"/>ab auctoribus. Unum est, votu:n illud esse
+          <lb ed="#P" n="96"/>ampliandum ad omnia vota Crucis. Ita dixit
+          <lb ed="#P" n="97"/>Hostiens., in Sum., tit. de Voto, § Qualiter, et
+          <lb ed="#P" n="98"/>cujus auctoritate, etc., ubi cum dixisset 
+          vo<lb break="no" ed="#P" n="99"/>ium transmarinum in subsidium terrae sanctae
+          <lb ed="#P" n="100"/>non posse tolli sine auctoritate Sedis 
+          Aposto<lb break="no" ed="#P" n="101"/>licae, subdit : Jdem puto in voto Crucis 
+          cujus<lb break="no" ed="#P" n="102"/>libet , quia ad ipsum pertinet de talibus jud:-
+          <lb ed="#P" n="103"/>care. Non adducit autem ibi probationem, sed
+          <lb ed="#P" n="104"/>remittit ad S ultimum ejnsdem tituh ; in 
+          eoau<lb break="no" ed="#P" n="105"/>tem solam hanc ind:cat, quia quoties in aliis
+          <lb ed="#P" n="106"/>casibus praedicatur Crux, seu conceditur 
+          in<lb break="no" ed="#P" n="107"/>dulgentia ejus in expeditionem alicujus belli
+          <lb ed="#P" n="108"/>contra infideles, haereticos, vel schismaticos,
+          <lb ed="#P" n="109"/>eadem privilegia conceduntur accedentibus
+          <lb ed="#P" n="110"/>ad illud bellum, quae pro expeditione terrae
+          <pb ed="#P" n="1152"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sanctae conceduntur, c. Excommunicamus, S
+          <lb ed="#P" n="2"/>Catholici, de Haeret.; ergo etiam eamdem
+          <lb ed="#P" n="3"/>habet immunitatem, seu reservationem.
+        </p>
+        <p xml:id="szovsr-m28821-d1e1047">
+          <lb ed="#P" n="4"/>13. Excluditur ampliatio Hostiensis im voto
+          <lb ed="#P" n="5"/>Hierosolyma. — Sed hance extensionem non
+          <lb ed="#P" n="6"/>censeo esse admittendam, quia haec reservatio
+          <lb ed="#P" n="7"/>ex jure sumenda est, ut diximus : jus autem
+          <lb ed="#P" n="8"/>solum loquitur de Cruce pro expeditione terrae
+          <lb ed="#P" n="9"/>sanctae, ut constat ex d. c. Quod super his, et
+          <lb ed="#P" n="10"/>cap. Ex wulta ; ergo non debet ad alia 
+          exten<lb break="no" ed="#P" n="11"/>di. Probatur consequentia, tum quia sumus
+          <lb ed="#P" n="12"/>in dispositione onerosa; tum etiam quia non
+          <lb ed="#P" n="13"/>est similis ratio, quia in voto transmarino 
+          ha<lb break="no" ed="#P" n="14"/>bita est specialis ratio recuperationis terrae
+          <lb ed="#P" n="15"/>sanctae, propter specialem pietatem, et 
+          sancti<lb break="no" ed="#P" n="16"/>tatem illorum locorum. Nec satis est quod
+          <lb ed="#P" n="17"/>alia privilegia concedantur, nam illa non 
+          per<lb break="no" ed="#P" n="18"/>tinent ad reservationem aut materiam 
+          voto<lb break="no" ed="#P" n="19"/>rum, sed sunt indulgentiae, quae etiam 
+          Inqui<lb break="no" ed="#P" n="20"/>sitoribus, et eorum ministris in certis casibus
+          <lb ed="#P" n="21"/>conceduntur, ut videre licet apud Eymeric , 3
+          <lb ed="#P" n="22"/>part. Directorii, cap. 129 et 130. Imo in tract.
+          <lb ed="#P" n="23"/>de Forma procedendi Inquisit., attributo Joan.
+          <lb ed="#P" n="24"/>Calder., part. 1, sub tit. de Offic. Cruce 
+          si<lb break="no" ed="#P" n="25"/>gnat., refertur privilegium Innocentii III, ubi
+          <lb ed="#P" n="26"/>conceditur Inquisitoribus facultas praedicandi
+          <lb ed="#P" n="27"/>Crucem in favorem fidei, signando Cruce 
+          vo<lb break="no" ed="#P" n="28"/>ventes suum auxilium ad extirpandas 
+          haere<lb break="no" ed="#P" n="29"/>ses, et inter alias gratias datur Inquisitoribus
+          <lb ed="#P" n="30"/>facultas commutand: vota officialium Cruce
+          <lb ed="#P" n="31"/>signatorum ; addit vero: Terrae sancte votis,
+          <lb ed="#P" n="32"/>aliisque perpetuis, que commutationis non 
+          ad<lb break="no" ed="#P" n="33"/>mittunt remedium ,dumntazal eaceptis.Cum ergo
+          <lb ed="#P" n="34"/>tam explicite tria illa tantum numerantur,
+          <lb ed="#P" n="35"/>signum clarum est, votum illud assumendi
+          <lb ed="#P" n="36"/>Crucem in alium finem non esse reservatum.
+        </p>
+        <p xml:id="szovsr-m28821-d1e1121">
+          <lb ed="#P" n="37"/>14. Fotum de applicandis bonis iucertis 
+          ter<lb break="no" ed="#P" n="38"/>ra suncte aligui sentiunt reservatum.—
+          Eaclu<lb break="no" ed="#P" n="39"/>ditur eorum opinatio, et emplicatur. — Aliud
+          <lb ed="#P" n="40"/>punctum notandum est, quod aliqui extendunt
+          <lb ed="#P" n="41"/>hanc reservationem ad votum factum de 
+          ap<lb break="no" ed="#P" n="42"/>plicandis bonis incertis in terrae sanctae 
+          subsi<lb break="no" ed="#P" n="43"/>dium, ita ut tale votum ab Episcopo dispensari
+          <lb ed="#P" n="44"/>non possit, ut illa bona in alios usus 
+          transfe<lb break="no" ed="#P" n="45"/>rantur. Ita Angel.. Votum, 4, quaest. 13, qui
+          <lb ed="#P" n="46"/>citat Redoan., qui addit, etiam per ingressum
+          <lb ed="#P" n="47"/>religionis non posse tale votum auferri, et 
+          se<lb break="no" ed="#P" n="48"/>quitur Sylvest., Votumn, 4, quaest. 3, S 
+          Quin<lb break="no" ed="#P" n="49"/>tuin. Sed hi auctores nullum fundamentum
+          <lb ed="#P" n="50"/>adducunt, et ideo non censeo eorum 
+          senten<lb break="no" ed="#P" n="51"/>tiam admittendam. Nam tale votum 
+          distinc<lb break="no" ed="#P" n="52"/>tum est a voto transmarino, quod reservatur,
+          <lb ed="#P" n="53"/>ut patet ex d. cap. Quod super his, quod in
+          <lb ed="#P" n="54"/>principio loquitur de his, qui vovent pro 
+          suc<lb break="no" ed="#P" n="55"/>cursu terrae sanclae, Craucis signo assumpto, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de hoc tantum voto explicat Papa, in cap. Ez
+          <lb ed="#P" n="57"/>multa, sine speciali licentia sua non posse 
+          au<lb break="no" ed="#P" n="58"/>ferri; ergo ex vi juris solum illud votum est
+          <lb ed="#P" n="59"/>reservatum. Nulla autem consuetudine ostendi
+          <lb ed="#P" n="60"/>potest reservationem esse extensam ad votum
+          <lb ed="#P" n="61"/>dandi bona incerta in subsidium terrae 
+          sanc<lb break="no" ed="#P" n="62"/>tae ; ergo non est id sine fundamento 
+          asseren<lb break="no" ed="#P" n="63"/>dum. Alias etiam esset dicendum , omne 
+          vo<lb break="no" ed="#P" n="64"/>tum faciendi eleemosynam locis piis terrae
+          <lb ed="#P" n="65"/>sanctae esse reservatum Papae, et vota 
+          resti<lb break="no" ed="#P" n="66"/>tuendi debita (quae incertis seu ignotis 
+          credito<lb break="no" ed="#P" n="67"/>ribus debentur) in subsidium terrae sanctae esse
+          <lb ed="#P" n="68"/>reservata, etiamsi nullum sit bellum pro illa
+          <lb ed="#P" n="69"/>recuperanda: hoc autem est praeter 
+          intentio<lb break="no" ed="#P" n="70"/>nem jurium, et sine fundamento. 5
+        </p>
+        <p xml:id="szovsr-m28821-d1e1200">
+          <lb ed="#P" n="71"/>15. Unde illa reservatio, quatenus est juris,
+          <lb ed="#P" n="72"/>et pro subsidio, solum habet locum, quando
+          <lb ed="#P" n="73"/>praedicatur Crux pro expeditione belli ad 
+          recu<lb break="no" ed="#P" n="74"/>perationem terrae sanctae, et fit votum in 
+          sub<lb break="no" ed="#P" n="75"/>sidium ejus, asssumpta Cruce, quod votum,
+          <lb ed="#P" n="76"/>etiamsi sit de subsidio personali, per reale 
+          re<lb break="no" ed="#P" n="77"/>dimitur a Papa, quando aliter non potest 
+          im<lb break="no" ed="#P" n="78"/>pleri, et de tali voto judicium ferendum esset
+          <lb ed="#P" n="79"/>per se loquendo juxta intentionem voventis;
+          <lb ed="#P" n="80"/>jam vero reservatio ex consuetudine 
+          extendi<lb break="no" ed="#P" n="81"/>tur ad votum peregrinationis transmarinae,
+          <lb ed="#P" n="82"/>quod omni tempore fieri potest. At vero alia
+          <lb ed="#P" n="83"/>vota eleemosy narum, sive ex bonis proprus,
+          <lb ed="#P" n="84"/>sive ex debitis incertis, etiamsi fiant in 
+          favo<lb break="no" ed="#P" n="85"/>rem terrae sanctae, nullo modo inveniuntur 
+          re<lb break="no" ed="#P" n="86"/>servata, sed sequuntur regulam supra datam
+          <lb ed="#P" n="87"/>de votis factis in favorem alicujus pii loci.
+          <lb ed="#P" n="88"/>Nam si non est acquisitum jus tali loco, 
+          pos<lb break="no" ed="#P" n="89"/>sunt per Episcopum dispensari; si autem sit
+          <lb ed="#P" n="90"/>jus acquisitum, solus Papa dispensare poterit,
+          <lb ed="#P" n="91"/>non propter reservationem, sed quia solus ipse
+          <lb ed="#P" n="92"/>est supremus dispensator bonorum et jurium
+          <lb ed="#P" n="93"/>ecclesiasticorum.
+        </p>
+        <p xml:id="szovsr-m28821-d1e1252">
+          <lb ed="#P" n="94"/>16. Votum de domo Lauretana visenda fulso
+          <lb ed="#P" n="95"/>asseritur reservatum. — Praeterea occurrit 
+          ad<lb break="no" ed="#P" n="96"/>vertendum, circa hunc numerum votorum 
+          pe<lb break="no" ed="#P" n="97"/>regrinationum, Navar., in Comment. 1 de Reg.,
+          <lb ed="#P" n="98"/>num. 21, S Vigesimuwm nouum, exceptis dictis
+          <lb ed="#P" n="99"/>quinque votis, haec verba addidisse: Quibus
+          <lb ed="#P" n="100"/>hodie anmumneratur volum visitandi domum
+          <lb ed="#P" n="101"/>gloriosam gloriosissime Virginis Marie 
+          Lau<lb break="no" ed="#P" n="102"/>retanamn. Quod additum valde novum et 
+          sin<lb break="no" ed="#P" n="103"/>gulare videtur, estque ab eodem aucture tam
+          <lb ed="#P" n="104"/>in Manuali quam in consiliis praetermissum.
+          <lb ed="#P" n="105"/>Et quod mirum est, nullam probationem, vei
+          <lb ed="#P" n="106"/>ex consuetudine, vel ex stylo Curiae, aut 
+          ali<lb break="no" ed="#P" n="107"/>quo rescripto Pontificio adducit. Nec memini
+          <lb ed="#P" n="108"/>me vidisse fieri exceptionem illius voti in 
+          ali<lb break="no" ed="#P" n="109"/>quo privilegio, vel jubilaeo, ant alia generali
+          <lb ed="#P" n="110"/>concessione dispensandi in votis. Quapropter
+          <pb ed="#P" n="1153"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non censeo esse facile credendam illam 
+          ad<lb break="no" ed="#P" n="2"/>ditionem sine majori probatione. Unde non
+          <lb ed="#P" n="3"/>dubito quin sub facultate gencrali ad 
+          dispen<lb break="no" ed="#P" n="4"/>sandum in votis Lauretanum 
+          comprehenda<lb break="no" ed="#P" n="5"/>tur, quia ex consuetudine nulla habet 
+          specia<lb break="no" ed="#P" n="6"/>litatem. Et inde a fortiori fit ut Episcopus 
+          pos<lb break="no" ed="#P" n="7"/>sit in illo dispensare.
+        </p>
+        <p xml:id="szovsr-m28821-d1e1311">
+          <lb ed="#P" n="8"/>17. An possit votum reservari ex intentione
+          <lb ed="#P" n="9"/>coventis ?— Resolutio negativa. — Ultimo circa
+          <lb ed="#P" n="10"/>hunc numerum interrogari potest, an possit
+          <lb ed="#P" n="11"/>augeri ex voluntate et intentione voventis, id
+          <lb ed="#P" n="12"/>est, an possit quis ita se voto suo obligare, ut
+          <lb ed="#P" n="13"/>intendat efficaciter, quod a nemine tolli pos -
+          <lb ed="#P" n="14"/>sit, nisi a Papa, atque suum votum 
+          reserva<lb break="no" ed="#P" n="15"/>tum efficerc, licet alias non sit. Respondeo,
+          <lb ed="#P" n="16"/>non esse hoc in potestate voventis, quia 
+          reser<lb break="no" ed="#P" n="17"/>vatio consistit in ablatione, vel non 
+          conces<lb break="no" ed="#P" n="18"/>sione jurisdictionis; subditus autem, 
+          quan<lb break="no" ed="#P" n="19"/>tumcumque conetur, non potest Episcopum
+          <lb ed="#P" n="20"/>sua jurisdictione privare. Item alias etiam
+          <lb ed="#P" n="21"/>posset facere votum indispensabile per Papam,
+          <lb ed="#P" n="22"/>si id intenderet. Item in peccatis non potest
+          <lb ed="#P" n="23"/>quis facere ut peccatum suum sit reservatum,
+          <lb ed="#P" n="24"/>etiamsi id intendat, vel promittat. Idem ergo
+          <lb ed="#P" n="25"/>est in votis, quia est eadem ratio. llla ergo 
+          in<lb break="no" ed="#P" n="26"/>tentio in hov sensu vana est, et ex ignorantia
+          <lb ed="#P" n="27"/>profecta. Ad summum ergo posset quis se
+          <lb ed="#P" n="28"/>obligare ad non petendam vel acceptandam
+          <lb ed="#P" n="29"/>dispensationem, nisi a Summo Pontfice, et
+          <lb ed="#P" n="30"/>tunc de tali voto judicandum est, sicut de 
+          vo<lb break="no" ed="#P" n="31"/>to non petendi dispensationem, de quo supra,
+          <lb ed="#P" n="32"/>lib. 2, e. 11, dictum est.
+        </p>
+        <p xml:id="szovsr-m28821-d1e1368">
+          <lb ed="#P" n="33"/>18. Secunda assertio : preedicta quinque 
+          vo<lb break="no" ed="#P" n="34"/>ta, et quead commutationem et quoad 
+          dispensa<lb break="no" ed="#P" n="35"/>tionem sunt resercata. —Dico secundo: 
+          prae<lb break="no" ed="#P" n="36"/>dicta quinque vota non solum quoad 
+          dispen<lb break="no" ed="#P" n="37"/>sationem, sed etiam quoad commutationem
+          <lb ed="#P" n="38"/>reservata sunt. Est certa et communis 
+          senten<lb break="no" ed="#P" n="39"/>tia, quae ex eisdem principiis ostendenda est.
+          <lb ed="#P" n="40"/>Nam cap. Ez multa aperte loquitur de 
+          com<lb break="no" ed="#P" n="41"/>mutatione, et redemptione, quae commutatio
+          <lb ed="#P" n="42"/>quaedam est. Item Extiavag. Zt si dominici,
+          <lb ed="#P" n="43"/>de sola commutatione loquitur, sub illa 
+          com<lb break="no" ed="#P" n="44"/>prehendens dispensationem ; nam qui 
+          com<lb break="no" ed="#P" n="45"/>mutare non potest, multo minus poterit 
+          dis<lb break="no" ed="#P" n="46"/>pensare. Usus etiam ita observat, et stylus 
+          Cu<lb break="no" ed="#P" n="47"/>riae. Unde cum Bullis Cruciatae, jubilaeis, et
+          <lb ed="#P" n="48"/>similibus ordinarie non concedatur nisi 
+          com<lb break="no" ed="#P" n="49"/>mutandi facultas, excipi solent haec vota, vel
+          <lb ed="#P" n="50"/>omnia, vel aliqua pro amplitudine 
+          concessio<lb break="no" ed="#P" n="51"/>nis. Et ratio est eadem, quia propter 
+          gravita<lb break="no" ed="#P" n="52"/>tem talium votorum et causarum, conveniens
+          <lb ed="#P" n="53"/>judicatum est, ut in propria specie solvantur,
+          <lb ed="#P" n="54"/>neque aliud liceat sine Summi Pontificis 
+          ar<lb break="no" ed="#P" n="55"/>bitrio aut licentia.
+        </p>
+        <p xml:id="szovsr-m28821-d1e1420">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>19. Quaeri autem potest an inter ipsa vo:a
+          <lb ed="#P" n="57"/>reservata, licita sit commutatio sine 
+          auctori<lb break="no" ed="#P" n="58"/>tate Pontificis, quando fit in melius; ut si
+          <lb ed="#P" n="59"/>quis velit commutare votum Sancti Jacobi
+          <lb ed="#P" n="60"/>in votum Sancti Petri, vel hoc in votum 
+          Hie<lb break="no" ed="#P" n="61"/>rosolymitanum, vel hoc in votum castitatis,
+          <lb ed="#P" n="62"/>vel hoc in votum religionis ; nam in his 
+          gra<lb break="no" ed="#P" n="63"/>dibus videtur fieri semper ascensus satis 
+          cer<lb break="no" ed="#P" n="64"/>tus et evidens, qui non potest existimari 
+          pro<lb break="no" ed="#P" n="65"/>hibitus per reservationem, quia esset contra
+          <lb ed="#P" n="66"/>bonos mores. Sed nihilominus censeo etiam
+          <lb ed="#P" n="67"/>hanc commutationem esse reservatam, ita ut
+          <lb ed="#P" n="68"/>nullius Praelati inferioris auctoritate fieri 
+          pos<lb break="no" ed="#P" n="69"/>sit, nec intelligatur concessa per generalem
+          <lb ed="#P" n="70"/>clausulam ; imo potius censeatur excepta,
+          <lb ed="#P" n="71"/>quoties talia vota excipiuntur, vel in specie
+          <lb ed="#P" n="72"/>non conceduntur. Quia dicta Extravagans
+          <lb ed="#P" n="73"/>absolute de commutatione loquitur , et 
+          eo<lb break="no" ed="#P" n="74"/>dem modo solent fieri exceptiones in 
+          Privi<lb break="no" ed="#P" n="75"/>legiis et Bullis, et ita etiam lcquuntur 
+          com<lb break="no" ed="#P" n="76"/>muniter Doctores, et servat usus. Et ratio 
+          red<lb break="no" ed="#P" n="77"/>di potest primo, quia, ut supra dixi, 
+          commu<lb break="no" ed="#P" n="78"/>tatio etiam in melius potest per Sedem 
+          Apos<lb break="no" ed="#P" n="79"/>tolicam prohiberi, privata auctoritate ne fiat,
+          <lb ed="#P" n="80"/>propter speciales causas. Neque hoc est contra
+          <lb ed="#P" n="81"/>bonos mores, qunia per hoc non prohibetur
+          <lb ed="#P" n="82"/>simpliciter melius bonum, sed praescribitur
+          <lb ed="#P" n="83"/>modus transeundi ad illud ex licentia 
+          supre<lb break="no" ed="#P" n="84"/>mi Vicarii Christi, cui aliud bonum erat in
+          <lb ed="#P" n="85"/>specie promissum. Secundo, quia, licet 
+          consi<lb break="no" ed="#P" n="86"/>derando illa vota in generali, recte videantur
+          <lb ed="#P" n="87"/>illo modo ordinari, nihilominus in particulari
+          <lb ed="#P" n="88"/>potest esse laboriosius et gravius votum 
+          Com<lb break="no" ed="#P" n="89"/>postellanum quam Romanum, et in 
+          Hieroso<lb break="no" ed="#P" n="90"/>lymitano possunt multae rationes occurrere,
+          <lb ed="#P" n="91"/>ob quas minus expediat quam alia. Votum 
+          au<lb break="no" ed="#P" n="92"/>tem castitatis nunquam impedit aliorum 
+          vo<lb break="no" ed="#P" n="93"/>torum observantiam ; imo ad illa et ad omne
+          <lb ed="#P" n="94"/>bonum juvat; et ideo non oportuit concedi,
+          <lb ed="#P" n="95"/>ut propter castitatem possit quis se aliis votis
+          <lb ed="#P" n="96"/>exonerare.
+        </p>
+        <p xml:id="szovsr-m28821-d1e1514">
+          <lb ed="#P" n="97"/>20. Exceptio de voto religionis per quod
+          <lb ed="#P" n="98"/>omnia commutantur.—Solum videtur 
+          facien<lb break="no" ed="#P" n="99"/>da exceptio de voto religiofiis, in quod 
+          pos<lb break="no" ed="#P" n="100"/>sunt omnia commuiari, juxta cap. Scripture,
+          <lb ed="#P" n="101"/>de Voto. Et tunc dici posset, illam 
+          commuta<lb break="no" ed="#P" n="102"/>tionem fieri ex vi juris, et non ab homine,
+          <lb ed="#P" n="103"/>prout nos loquimur. Advertere autem oportet,
+          <lb ed="#P" n="104"/>votum religionis dici posse constitutivum, vel
+          <lb ed="#P" n="105"/>promissivum religionis. Constitutivum voco
+          <lb ed="#P" n="106"/>illud, quod emittitur in professione religionis,
+          <lb ed="#P" n="107"/>quod ordinarie est solemne. Promissivum est
+          <lb ed="#P" n="108"/>votum simplex religionis, id est, ingrediendi,
+          <lb ed="#P" n="109"/>aut assumendi statum religiosum. Dictum 
+          er<lb break="no" ed="#P" n="110"/>go cap. Scripturaae, videtur loqui de voto con-
+          <pb ed="#P" n="1154"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>stituente religiosum ; nam, licet hac voce non
+          <lb ed="#P" n="2"/>utatur, illud significat, cum ait licitum esse
+          <lb ed="#P" n="3"/>quocumque temporale votum in perpetuam
+          <lb ed="#P" n="4"/>religionis observantiam commutare. Nam sola
+          <lb ed="#P" n="5"/>promissio simplex religionis non potest dici
+          <lb ed="#P" n="6"/>perpetua religionis observantia ; loquitur 
+          er<lb break="no" ed="#P" n="7"/>go de assumptioue ipsius status per 
+          professio<lb break="no" ed="#P" n="8"/>nem. Unde fit imprimis, ut non oporteat ibi
+          <lb ed="#P" n="9"/>comprehendi votum castitatis, tum quia illud
+          <lb ed="#P" n="10"/>non est temporale, sed perpetuum ; tum etiam
+          <lb ed="#P" n="11"/>quia illud non commutatur, sed solidatur per
+          <lb ed="#P" n="12"/>statum religiosum. De caeteris autem votis,
+          <lb ed="#P" n="13"/>verum est commutari posse in illum statum, de
+          <lb ed="#P" n="14"/>qua commutatione, quomodo fiat, postea suo
+          <lb ed="#P" n="15"/>loco generaliter dicemus. Proprie autem non
+          <lb ed="#P" n="16"/>credo posse commutari in simplex votum 
+          re<lb break="no" ed="#P" n="17"/>ligionis, posteriori et usitato modo intellectum,
+          <lb ed="#P" n="18"/>ita ut per illam commutationem ipso facto alia
+          <lb ed="#P" n="19"/>vota extinguantur. Nam licet votum 
+          peregri<lb break="no" ed="#P" n="20"/>nationum possit suspendi per ipsum 
+          ingres<lb break="no" ed="#P" n="21"/>sum ad probationem religionis, et 
+          consequen<lb break="no" ed="#P" n="22"/>ter possit etiam per votum simplex religionis
+          <lb ed="#P" n="23"/>impediri eorum executio, inchoando prius 
+          exe<lb break="no" ed="#P" n="24"/>cutionem voti religionis, nihilominus talia 
+          vo<lb break="no" ed="#P" n="25"/>ta non extinguuntur per illam 
+          commutatio<lb break="no" ed="#P" n="26"/>nem, vel promissionem religionis. Nam si quis
+          <lb ed="#P" n="27"/>in eo statu non perseveret, et habitum 
+          reli<lb break="no" ed="#P" n="28"/>gionis dimittat, tenebitur votum 
+          peregrina<lb break="no" ed="#P" n="29"/>tionis reservatum implere; vel, licet votum
+          <lb ed="#P" n="30"/>religionis quis emiserit, si illud non implet,
+          <lb ed="#P" n="31"/>sive per excusationem, quae non impediat 
+          pe<lb break="no" ed="#P" n="32"/>regrinationem, sive per dispensationem, 
+          tene<lb break="no" ed="#P" n="33"/>bitur aliul votum implere. Et ita inter illa
+          <lb ed="#P" n="34"/>quinque vota simplicia et reservata nunquam
+          <lb ed="#P" n="35"/>admittitur propria commutatio sine Pontificis
+          <lb ed="#P" n="36"/>auctoritate. Hic vero statim occurrebat 
+          du<lb break="no" ed="#P" n="37"/>bium, an semel commutatum aliquod ex his
+          <lb ed="#P" n="38"/>votis, onus pro illo impositum reservatum 
+          ma<lb break="no" ed="#P" n="39"/>neat. Sed hoc in capite praecedenti expeditum
+          <lb ed="#P" n="40"/>est, quia ad naturam commutationis 
+          explican<lb break="no" ed="#P" n="41"/>dam pertinebat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

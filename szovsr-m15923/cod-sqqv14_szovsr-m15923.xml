@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 33</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 33</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="634"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m15923"><!-- t5l2c33 -->
+        <head xml:id="szovsr-m15923-Hd1e101">Caput 33</head>
+        <head xml:id="szovsr-m15923-Hd1e103" type="question-title">De obligatione juramenti in casu dubio.</head>
+        <p xml:id="szovsr-m15923-d1e106">
+          <lb ed="#P" n="40"/>CAPUT XXXII.
+          <lb ed="#P" n="41"/>DE OBLIGATIONE JURAMENTI IN CASU DUBIO.
+        </p>
+        <p xml:id="szovsr-m15923-d1e113">
+          <lb ed="#P" n="42"/>1. Statuitur sensus controversia.— Videtur
+          <lb ed="#P" n="43"/>ex dictis principiis sequi, in casu dubio non
+          <lb ed="#P" n="44"/>obligare juramentum, quia in dubio 
+          resirin<lb break="no" ed="#P" n="45"/>gendum est juramentum ; ergo similiter ubi
+          <lb ed="#P" n="46"/>dubitatur de ipso juramento, interpretandum
+          <lb ed="#P" n="47"/>est non obligare, nam haec est tunc 
+          obligatio<lb break="no" ed="#P" n="48"/>nis restrictio. In contrarium vero est, quia
+          <lb ed="#P" n="49"/>potius in dubio videtur favendum religioni.
+          <lb ed="#P" n="50"/>Verumtamen non potest una regula generalis
+          <lb ed="#P" n="51"/>tradi, quia multiplex potest esse dubium, et
+          <lb ed="#P" n="52"/>non est eadem ratio de omnibus.
+        </p>
+        <p xml:id="szovsr-m15923-d1e139">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>2. Qui habet negativum dubium utrum 
+          ju<lb break="no" ed="#P" n="54"/>raverit, non tenetur. — Primo ergo dubitare
+          <lb ed="#P" n="55"/>potest quis an juramentum emiserit, necne.
+          <lb ed="#P" n="56"/>Et in hoc casu censent aliqui teneri 
+          dubitan<lb break="no" ed="#P" n="57"/>tem ad servandum juramentum, quia in dubiis
+          <lb ed="#P" n="58"/>tutior pars eligenda est, sicut dubitans, an
+          <lb ed="#P" n="59"/>irregularitatem vel censuram incurrerit, 
+          tene<lb break="no" ed="#P" n="60"/>tur abstinere, et qui dubitat an peecaverit
+          <lb ed="#P" n="61"/>mortaliter, tenetur dubium confiteri. Alii sub
+          <lb ed="#P" n="62"/>distinctione respondent, si potest servari 
+          jura<lb break="no" ed="#P" n="63"/>mentum sine magno gravamine teneri, non
+          <lb ed="#P" n="64"/>vero cum illo. Ego vero censeo simpliciter
+          <lb ed="#P" n="65"/>non teneri, quando est verum dubium 
+          nega<lb break="no" ed="#P" n="66"/>tivum, ita ut non possit probabile judicium
+          <lb ed="#P" n="67"/>ferre, quod juramentum emiserit ; quia tunc
+          <lb ed="#P" n="68"/>non proponitur illi sufficienter ratio 
+          obliga<lb break="no" ed="#P" n="69"/>tionis, ut se possit agnoscere obligatum, sicut
+          <lb ed="#P" n="70"/>si illo modo dubitat de lege vel praecepto 
+          su<lb break="no" ed="#P" n="71"/>perioris, et facta diligentia non potest ferre
+          <lb ed="#P" n="72"/>judicium, quod tale preceptum sit latum,
+          <lb ed="#P" n="73"/>non obligatur. Idemque dicam infra de voto
+          <lb ed="#P" n="74"/>cum Soto, Medina, et aliis, est enim eadem
+          <lb ed="#P" n="75"/>ratio. Idemque dico de censura, quando 
+          du<lb break="no" ed="#P" n="76"/>bium est totale, etiam de fundamento 
+          censu<lb break="no" ed="#P" n="77"/>rae. De irregularitate vero est specialis ratio
+          <lb ed="#P" n="78"/>in casibus a jure concessis, ut alibi dixi; et
+          <lb ed="#P" n="79"/>non est simile de confessione peccati dubii,
+          <lb ed="#P" n="80"/>quia ibi non obligatur homo ad aliquid quod
+          <lb ed="#P" n="81"/>dubium excedat, ut dixi in 4tomo tertiae 
+          par<lb break="no" ed="#P" n="82"/>tis, disp. 22, sect. 9.
+        </p>
+        <p xml:id="szovsr-m15923-d1e210">
+          <lb ed="#P" n="83"/>3. Quid faciendum cum aliquis dubitat de
+          <lb ed="#P" n="84"/>intentione vel significatione juramenti. — 
+          Se<lb break="no" ed="#P" n="85"/>cundo potest quis esse certus quod promiserit
+          <lb ed="#P" n="86"/>vel asseruerit se aliquid facturum, per verba,
+          <lb ed="#P" n="87"/>quae possunt habere scnsum ambiguum, 
+          sint<lb break="no" ed="#P" n="88"/>ne juratoria, necne, et dubius esse de 
+          inten<lb break="no" ed="#P" n="89"/>tione et significatione, in qua illa dixit, seu
+          <lb ed="#P" n="90"/>dicere voluit; ut si dixit per fidem suam, et
+          <lb ed="#P" n="91"/>dubitat de qua fide intellexerit, vel quid 
+          si<lb break="no" ed="#P" n="92"/>mile. Et in illo casu dicunt aliqui, teneri 
+          du<lb break="no" ed="#P" n="93"/>bitantem ad observandum juramentum, quia
+          <lb ed="#P" n="94"/>in dubiis animae tenemur sequi tutiorem 
+          par<lb break="no" ed="#P" n="95"/>tem, ex cap. Ad audientian, de Homicid. Sed
+          <lb ed="#P" n="96"/>contrarium verum censeo, cum Cajetano, 2. 2,
+          <lb ed="#P" n="97"/>quaest. 89, art. 7, cujus sententiam valde 
+          com<lb break="no" ed="#P" n="98"/>mendat Covarr. supra, 1 p., 82, num. 2, in
+          <lb ed="#P" n="99"/>fin.; et ienuit etiam Alciat., in Rub. de 
+          jura<lb break="no" ed="#P" n="100"/>mento, n. 5. Et probatur ex principio posito,
+          <lb ed="#P" n="101"/>quod in dubiis mitior interpretatio est 
+          facien<lb break="no" ed="#P" n="102"/>da, quando inducenda est tam gravis 
+          obliga<lb break="no" ed="#P" n="103"/>tio, quanta est juramenti. Et confirmatur 
+          op<lb break="no" ed="#P" n="104"/>time ex cap. penultim., de Jurejur., ubi 
+          Pon<lb break="no" ed="#P" n="105"/>tifex in dubio de his verbis: Promitto per idem
+          <lb ed="#P" n="106"/>juramentum, interpretatur, non oriri ex illis
+          <lb ed="#P" n="107"/>obligationem juramenti de novo praestiti, ne-
+          <pb ed="#P" n="635"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>que antiquam extendi ad praesentem 
+          matc<lb break="no" ed="#P" n="2"/>riam, cum tamen res videretur dubia, nam
+          <lb ed="#P" n="3"/>verba illa possent cum proportione utrumque
+          <lb ed="#P" n="4"/>sensum recipere; et tamen Papa in benigniori
+          <lb ed="#P" n="5"/>sensu illa interpreiatur. Ouoties ergo res ita
+          <lb ed="#P" n="6"/>fuerit dubia, et ex circumstantiis personae,
+          <lb ed="#P" n="7"/>temporis, loci, et similibus, contrarium non
+          <lb ed="#P" n="8"/>praesumatur, in dubio sequenda est benignior
+          <lb ed="#P" n="9"/>interpretatio. Neque tunc omittitur pars 
+          tu<lb break="no" ed="#P" n="10"/>tior, quia haec est tutissima, et practice verta,
+          <lb ed="#P" n="11"/>et secundum rectam rationem et 
+          interpreta<lb break="no" ed="#P" n="12"/>tionem potest dici tutior, quia majus 
+          pericu<lb break="no" ed="#P" n="13"/>lum animarum incurreretur, si tot vincula in
+          <lb ed="#P" n="14"/>casibus dubiis eis injicerentur. De illo autem
+          <lb ed="#P" n="15"/>principio, in dubiis tutius esse eligendum, et
+          <lb ed="#P" n="16"/>de sensu dicti cap. Ad audientiam, dixi late
+          <lb ed="#P" n="17"/>in tom. 4 de Censuris, disput. 4, sect. 6.
+        </p>
+        <p xml:id="szovsr-m15923-d1e308">
+          <lb ed="#P" n="18"/>4. Agitur de dubio intentionis.—Tertio po
+          <lb ed="#P" n="19"/>test quis esse certus quod verba jurandi 
+          pro<lb break="no" ed="#P" n="20"/>tulerit, dubius tamen de intentione, an, 
+          scili<lb break="no" ed="#P" n="21"/>cet, jurare intenderit, vel simulare. Et in hoc
+          <lb ed="#P" n="22"/>casu censeo juramentum obligare ; tunc enim
+          <lb ed="#P" n="23"/>est favendum juranti in casu dubio, quando
+          <lb ed="#P" n="24"/>ipse bona fide procedit; nam si non 
+          possu<lb break="no" ed="#P" n="25"/>mus dubium in favorem ejus interpretari, 
+          ni<lb break="no" ed="#P" n="26"/>si dolum et fraudem illi attribuendo, nullo
+          <lb ed="#P" n="27"/>modo admittenda est talis interpretatio. Et ita
+          <lb ed="#P" n="28"/>sentit Sylvest., Juramentum, 4, q. 1, citans
+          <lb ed="#P" n="29"/>Abbat., Archid., et Rosel. Ratio reddi potest,
+          <lb ed="#P" n="30"/>quia tunc constat, juramentum saltem 
+          exter<lb break="no" ed="#P" n="31"/>num esse factum ; ergo si non constat ficte
+          <lb ed="#P" n="32"/>fuisse factum, praesumendum est fuisse vere
+          <lb ed="#P" n="33"/>et ex animo factum ; tum quia hoc spectat ad
+          <lb ed="#P" n="34"/>reverentiam Deo debitam ; tum quia non est
+          <lb ed="#P" n="35"/>praesumendum peccatum, ubi de illo non 
+          con<lb break="no" ed="#P" n="36"/>stat. Et in hoc est magna differentia inter
+          <lb ed="#P" n="37"/>hunc casum, et duos praecedentes. Quia quod
+          <lb ed="#P" n="38"/>juramentum sit factum, vel non factum, nihil
+          <lb ed="#P" n="39"/>spectat ad reverentiam Dei, nec in alterutra
+          <lb ed="#P" n="40"/>parte praesumitur peccatum ; idemque est,
+          <lb ed="#P" n="41"/>quando verba sunt ambigua, quia sine 
+          pec<lb break="no" ed="#P" n="42"/>cato vel reverentia Dei potuerunt dici in 
+          sen<lb break="no" ed="#P" n="43"/>su, quo juramentum non continent. At vero in
+          <lb ed="#P" n="44"/>hoc tertio casu fictio non fit sine gravi culpa,
+          <lb ed="#P" n="45"/>et irreverentia Dei, et ideo non potest 
+          praesu<lb break="no" ed="#P" n="46"/>mi in casu dubio, in quo non probatur ; 
+          maxi<lb break="no" ed="#P" n="47"/>me quia juramentum ipsum est signum de se
+          <lb ed="#P" n="48"/>talis intentionis et veri juramenti, et ideo si
+          <lb ed="#P" n="49"/>oppositum non probetur, majus est jus ipsius
+          <lb ed="#P" n="50"/>juramenti, ut pro illo praesumatur.
+        </p>
+        <p xml:id="szovsr-m15923-d1e382">
+          <lb ed="#P" n="51"/>5. Panor mitanus. — Cap. Si vero. — Qui
+          <lb ed="#P" n="52"/>vult jurare , vult se obligare. — 
+          Panormita<lb break="no" ed="#P" n="53"/>nus autem, in cap. Si vero, de Jurejur., in
+          <lb ed="#P" n="54"/>fine, et Angel., verb. Juramentum, 5, n. 10,
+          <lb ed="#P" n="55"/>limitat in juramento metu facto. Nam tunc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>(aiunt) in dubio praesumitur quis non 
+          ha<lb break="no" ed="#P" n="57"/>buisse animum se obligandi (ut ipsi 
+          loquun<lb break="no" ed="#P" n="58"/>tur) ; intelligendum autem puto de animo 
+          ju<lb break="no" ed="#P" n="59"/>randi, nam si quis certus sit de animo 
+          juran<lb break="no" ed="#P" n="60"/>di, parum refert quod dubitet de animo se
+          <lb ed="#P" n="61"/>obligandi, quandoquidem supra dictum est,
+          <lb ed="#P" n="62"/>quod, licet nolit se obligare, obligatur, si vult
+          <lb ed="#P" n="63"/>jurare. Igitur oportet ut loquantur de dubio
+          <lb ed="#P" n="64"/>cirea intentionem jurandi. Allegant cap. 
+          Su<lb break="no" ed="#P" n="65"/>per hoc, de Elect., quia ibi dicitur: 
+          Juramen<lb break="no" ed="#P" n="66"/>Lwn via creditur fieri de voluntate propria.
+          <lb ed="#P" n="67"/>Sed non est sensus, vix credi fieri cum vera
+          <lb ed="#P" n="68"/>intentione jurandi, sed vix credi fieri 
+          sponta<lb break="no" ed="#P" n="69"/>nea voluntate, id est, sine magna necessitate,
+          <lb ed="#P" n="70"/>vel coactione, quod longe diversum est, ut per
+          <lb ed="#P" n="71"/>se constat. Est autem evidens ex re ipsa, et
+          <lb ed="#P" n="72"/>ex materia textus, hunc esse sensum illius.
+          <lb ed="#P" n="73"/>Citant etiam l. Cum de indebito, tt. de 
+          Pro<lb break="no" ed="#P" n="74"/>bat., quae judicio meo nihil ad causam facit,
+          <lb ed="#P" n="75"/>quia non de juramento, sed de aliis 
+          generi<lb break="no" ed="#P" n="76"/>bus praesumptionum inter actorem, et eum
+          <lb ed="#P" n="77"/>qui se defendit in exteriori foro, tractat. 
+          De<lb break="no" ed="#P" n="78"/>nique citant cap. Ferum, de Jurejurando, ubi
+          <lb ed="#P" n="79"/>potius videtur oppositum supponi, quatenus
+          <lb ed="#P" n="80"/>absolute dicitur ibi, in talibus juramentis 
+          ne<lb break="no" ed="#P" n="81"/>cessariam esse absolutionem.
+        </p>
+        <p xml:id="szovsr-m15923-d1e454">
+          <lb ed="#P" n="82"/>6. Covar. — Juramentum metu factum
+          <lb ed="#P" n="83"/>obligare. — Quomodo possit non obligare. —
+          <lb ed="#P" n="84"/>Atque ita Covar., in 4, 2 p., c. 3, 855, num.
+          <lb ed="#P" n="85"/>3, in fin., reprobat sententiam Panorm., 
+          di<lb break="no" ed="#P" n="86"/>cens in ea manifestissime errasse. Unde 
+          con<lb break="no" ed="#P" n="87"/>trarium etiam docuerunt hnol., in cap. Ad
+          <lb ed="#P" n="88"/>audientiam, de lis quae vi, num. 5; Alexand,
+          <lb ed="#P" n="89"/>in d. cap. Si vero, n. 42; Felin., ibi, num.
+          <lb ed="#P" n="90"/>8; Guttier., de Juram., 1 p., c. 57, n. 20, 
+          est<lb break="no" ed="#P" n="91"/>que vera sententia. Et ratio est, quia licet 
+          ne<lb break="no" ed="#P" n="92"/>gari non possit, ex metu aliquam conjecturam
+          <lb ed="#P" n="93"/>sumi, qucd juramentum non fuerit ex animo
+          <lb ed="#P" n="94"/>factum, nihilominus illa per se sola 
+          insuffi<lb break="no" ed="#P" n="95"/>ciens est; et ideo si, non obstante metu, 
+          ju<lb break="no" ed="#P" n="96"/>ranti non constiterit se ficte jurasse, licet non
+          <lb ed="#P" n="97"/>constet etiam positive de intentione jurandi,
+          <lb ed="#P" n="98"/>sed solum quod simpliciter juravit, 
+          judican<lb break="no" ed="#P" n="99"/>dus est vere jurasse, et obligari. Quia licet 
+          ali<lb break="no" ed="#P" n="100"/>quis metnu coactus fuerit jurare, non potuit
+          <lb ed="#P" n="101"/>sine peccato ficte jurare, et ideo non debet ab
+          <lb ed="#P" n="102"/>obligatione juramenti excusari, supponendo
+          <lb ed="#P" n="103"/>in se grave peccatum, de quo non constat;
+          <lb ed="#P" n="104"/>ergo praesumi potius debet ex animo jurasse,
+          <lb ed="#P" n="105"/>quae ratio in utroque foro procedit. 
+          Praeser<lb break="no" ed="#P" n="106"/>tim, quia dum ille non recordatur se habuisse
+          <lb ed="#P" n="107"/>simulatam intentionem, seu voluisse alium
+          <lb ed="#P" n="108"/>decipere, magnum indicium est, intendisse
+          <lb ed="#P" n="109"/>jurare, sicut alius postulabat. Posset autem
+          <lb ed="#P" n="110"/>sententia Panormitani locum habere, quando
+          <pb ed="#P" n="636"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quis haberet dubium, non de peccaminosa 
+          fic<lb break="no" ed="#P" n="2"/>tione, sed de prudenti simulatione, vel per
+          <lb ed="#P" n="3"/>ambiguitatem verborum, vel per additionem
+          <lb ed="#P" n="4"/>mente conceptam, juxta probabilem 
+          opinio<lb break="no" ed="#P" n="5"/>nem; tunc enim dubium reducitur ad illud,
+          <lb ed="#P" n="6"/>de quo in puncto praecedenti diximus. Non
+          <lb ed="#P" n="7"/>poterit autem auis cum fundamento tali 
+          du<lb break="no" ed="#P" n="8"/>bium habere, nisi prius noverit illos jurandi,
+          <lb ed="#P" n="9"/>simulandi, seu occultandi modos, ut 
+          con<lb break="no" ed="#P" n="10"/>stat.
+        </p>
+        <p xml:id="szovsr-m15923-d1e545">
+          <lb ed="#P" n="11"/>7. Qui est dubius an impleverit juramentum,
+          <lb ed="#P" n="12"/>Lenetur dubiwm tollere. — Quarto, potest quis
+          <lb ed="#P" n="13"/>esse certus de promissorio juramento 
+          obli<lb break="no" ed="#P" n="14"/>gante, et dubius an illud impleverit. Et tunc
+          <lb ed="#P" n="15"/>extra controversiam est, illum teneri ad 
+          fa<lb break="no" ed="#P" n="16"/>ciendum quod in se est, ut tollat dubium, et
+          <lb ed="#P" n="17"/>saltem probabilem conscientiam formet, quod
+          <lb ed="#P" n="18"/>juramentum impleverit; si autem non potest
+          <lb ed="#P" n="19"/>expellere dubium, obligari ad implendum
+          <lb ed="#P" n="20"/>quod juravit. Quia tunc non habet locum 
+          in<lb break="no" ed="#P" n="21"/>terpretatio favorabilis, cum sensus et obligatio
+          <lb ed="#P" n="22"/>juramenti certa esse supponatur ; sed aliis
+          <lb ed="#P" n="23"/>principiis utendum est, scilicet, quod ubi 
+          de<lb break="no" ed="#P" n="24"/>bitum est certum, et solutio non probatur, 
+          de<lb break="no" ed="#P" n="25"/>bitor cogitur solvere, et quod in dubiis me
+          <lb ed="#P" n="26"/>lior est conditio possidentis, tunc autem 
+          ju<lb break="no" ed="#P" n="27"/>ramentum est quasi possidens jus suum.
+        </p>
+        <p xml:id="szovsr-m15923-d1e584">
+          <lb ed="#P" n="28"/>8. Quid faciendum quando dubitatur utrum
+          <lb ed="#P" n="29"/>juramentum fuerit de re licita. — Quinto,
+          <lb ed="#P" n="30"/>fieri potest ut juramentum fuerit factum, 
+          du<lb break="no" ed="#P" n="31"/>hitando an esset de re licita, necne, vel etiam
+          <lb ed="#P" n="32"/>ut post emissum juramentum bona tide, 
+          oria<lb break="no" ed="#P" n="33"/>tur dubium, an possit sine peccato impleri, et
+          <lb ed="#P" n="34"/>tunc non est dubium quin sit locus 
+          interpreta<lb break="no" ed="#P" n="35"/>tioni. In eo tamen casu ita est interpretatio
+          <lb ed="#P" n="36"/>facienda, ut si in aliquo sensu potest 
+          jura<lb break="no" ed="#P" n="37"/>mentum esse de re licita, in illo factum esse
+          <lb ed="#P" n="38"/>credatur, etiamsi de intentione jurantis non
+          <lb ed="#P" n="39"/>possit certo constare. Ratio est, quia hoc 
+          pos<lb break="no" ed="#P" n="40"/>tulat reverentia debita juramento, ne in 
+          va<lb break="no" ed="#P" n="41"/>num, et dere illicita factum sit, et ita procedit
+          <lb ed="#P" n="42"/>tunc generalis regula supra tradita, et 
+          com<lb break="no" ed="#P" n="43"/>muniter recepta, quod juramentum valet eo
+          <lb ed="#P" n="44"/>modo quo valere potest. Ouam sub his verbis
+          <lb ed="#P" n="45"/>tradunt juristae : Sa non valet quod ago, ut
+          <lb ed="#P" n="46"/>ago, valeat ut valere potest, dicuntque huic
+          <lb ed="#P" n="47"/>clausulae aequivalere juramentum, ut patet ex
+          <lb ed="#P" n="48"/>Panorm., c. Veniens. de Jurejur., n. 7. Sic
+          <lb ed="#P" n="49"/>etiam juramentum , quod in uno sensu videri
+          <lb ed="#P" n="50"/>potest esse de re impossibili , factum censeri
+          <lb ed="#P" n="51"/>debet prout possibile est, quando commode
+          <lb ed="#P" n="52"/>recipit talem interpretationem. Atque eadem
+          <lb ed="#P" n="53"/>ratione juramentum de facto alieno, quod non
+          <lb ed="#P" n="54"/>est in absoluta potestate jurantis , obligat 
+          sal<lb break="no" ed="#P" n="55"/>tem-ad procurandum cum illo tertio, ut velit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et consentiat, ut docet Abbas, in cap. Ez 
+          ves<lb break="no" ed="#P" n="57"/>cripto, de Jurejuran., cum Glossa ibi, ubi 
+          Ad<lb break="no" ed="#P" n="58"/>ditio ad Abb. varia congerit ; et Marc. Ant.
+          <lb ed="#P" n="59"/>Baverius, tractatu de Jurament., numero 
+          sex<lb break="no" ed="#P" n="60"/>to, et plura Anton. Corset., tractat. de 
+          Ju<lb break="no" ed="#P" n="61"/>rament., num. 237. At vero si materia 
+          jura<lb break="no" ed="#P" n="62"/>menti adeo dubia est, ut in nullo sensu 
+          cer<lb break="no" ed="#P" n="63"/>tum vel satis probabile sit, juramentum posse
+          <lb ed="#P" n="64"/>licite impleri, ac proinde obligare, tunc 
+          jura<lb break="no" ed="#P" n="65"/>mentum non obligat. quia non debet impleri
+          <lb ed="#P" n="66"/>cum periculo faciendi aliquid illicitum.
+        </p>
+        <p xml:id="szovsr-m15923-d1e674">
+          <lb ed="#P" n="67"/>9. Dubitari autem potest an tunc possit
+          <lb ed="#P" n="68"/>quis propria auctoritate non servare 
+          juramen<lb break="no" ed="#P" n="69"/>tum, vel sit necessaria auctoritas superioris,
+          <lb ed="#P" n="70"/>et quae sufficiat. Ad hoc D. Thomas 2. 2,
+          <lb ed="#P" n="71"/>quaest. 69, art. 9, ad 3, solum dicit, quando
+          <lb ed="#P" n="72"/>est dubium an juramentum sit licitum vel 
+          il<lb break="no" ed="#P" n="73"/>licitum, propitium vel nocivum, vel 
+          simplici<lb break="no" ed="#P" n="74"/>ter, vel in casu, Episcopum posse in illo 
+          dis<lb break="no" ed="#P" n="75"/>pensare. In quo videtur supponere, et 
+          jura<lb break="no" ed="#P" n="76"/>mentum illud obligare, et necessariam esse
+          <lb ed="#P" n="77"/>dispensationem. Quam sententiam Soto ibi, et
+          <lb ed="#P" n="78"/>alii, ut indubitatam sequuntur. Idem sentit
+          <lb ed="#P" n="79"/>Angel., Juramentum, 6. n. 1; Tabien., num.
+          <lb ed="#P" n="80"/>20 ; Sylvest., Juramentum, 5, quaest. 1, 
+          di<lb break="no" ed="#P" n="81"/>cens in eo casu , neminem posse sine 
+          auctori<lb break="no" ed="#P" n="82"/>tate superioris ecclesiastici contravenire. 
+          Est<lb break="no" ed="#P" n="83"/>que sententia Innocent., in cap. Debitores, de
+          <lb ed="#P" n="84"/>Jurejur. ; et Hostiens., in cap. Verum, de 
+          Ju<lb break="no" ed="#P" n="85"/>rejur.; Panor., in c. Cum contingat, eod.,
+          <lb ed="#P" n="86"/>num. 15. Et late Felin., c. 1, de Jurejur,
+          <lb ed="#P" n="87"/>num. 19, ubi plures alios refert. Videturque
+          <lb ed="#P" n="88"/>haec sententia sufficienter probari ex c. 
+          Vene<lb break="no" ed="#P" n="89"/>rabilem, 34, de Elect., ibi : Cum super illo 
+          ju<lb break="no" ed="#P" n="90"/>ramento prius Romana Ecclesia consuli 
+          de<lb break="no" ed="#P" n="91"/>buisset ; et infra : Nec valet ad plenam 
+          escusa<lb break="no" ed="#P" n="92"/>tionem ipsius, si juramentum illud dicatur 
+          ill<lb break="no" ed="#P" n="93"/>citum, cum nibilominus super eo nos prius 
+          con<lb break="no" ed="#P" n="94"/>sulere debuisset , quam contra ipsum propria
+          <lb ed="#P" n="95"/>auctoritate venire. Quia, scilicet, dubium erat,
+          <lb ed="#P" n="96"/>ut ibi notant Glossa, et omnes. Videtur tamen
+          <lb ed="#P" n="97"/>ex illo textu posse colligi ad solum Papam
+          <lb ed="#P" n="98"/>hoc pertinere ; set ibi erat sermo de negotio
+          <lb ed="#P" n="99"/>universali, et valde ardno, ut imperii, quae
+          <lb ed="#P" n="100"/>causae sunt Pontifici reservatae, juxta caput
+          <lb ed="#P" n="101"/>Majores, de Baptismo; ordinarie vero non 
+          in<lb break="no" ed="#P" n="102"/>venitur talis reservatio facta Pontifici, et ideo
+          <lb ed="#P" n="103"/>jure ordinario Episcopis convenit, arg. c. 
+          Na<lb break="no" ed="#P" n="104"/>per, de Sentent. excommunie , quia haec 
+          po<lb break="no" ed="#P" n="105"/>testas ad ordinarium regimen animarum 
+          ne<lb break="no" ed="#P" n="106"/>cessaria est. Sed de hoc puncto, et generaliter
+          <lb ed="#P" n="107"/>de necessitate dispensationis, plura inferius.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

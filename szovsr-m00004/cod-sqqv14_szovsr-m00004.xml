@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m00004"><!-- t4prae -->
+        <head xml:id="szovsr-m00004-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m00004-d1e103">
+          <pb ed="#P" n="1"/>
+          <lb ed="#P" n="1"/>TRACTATUS QUARTUS
+          <lb ed="#P" n="2"/>DE ORATIONE, DEVOTIONE
+          <lb ed="#P" n="3"/>ET HORIS CANONICIS.
+        </p>
+        <p xml:id="szovsr-m00004-d1e114">
+          <lb ed="#P" n="4"/>Materiam de virtute religionis in duas praecipuas partes in superioribus divisimus.
+          <lb ed="#P" n="5"/>Et in priori comprehendimus generalem doctrinam de divino cultu, et praeceptis ad
+          <lb ed="#P" n="6"/>illum pertinentibus, vitiisque contrariis, quam totam in superiori volumine complexi
+          <lb ed="#P" n="7"/>sumus. In hoc vero reservavimus tres speciales actus hujus virtuiis ; orationem 
+          nimi<lb break="no" ed="#P" n="8"/>rum, juramentum et votum; quoniam, praeter rationem cultus, peculiares habent
+          <lb ed="#P" n="9"/>rationes morales, quae ad cultum supponuntur, quarum specialis cognitio necessaria
+          <lb ed="#P" n="10"/>est, et propriam investigationem et considerationem requirit. Igitur ad institutum
+          <lb ed="#P" n="11"/>accedendo, ab actu orationis, tanquam praecipuo magisque interno, initium sumimus.
+        </p>
+        <p xml:id="szovsr-m00004-d1e134">
+          <lb ed="#P" n="12"/>Disputavit autem divus Thomas de hoc actu in 2. 2, quaesion. 83, ante quam
+          <lb ed="#P" n="13"/>praemittit tractatum de Devotione, in q. 82. Imo hos duos tantum actus ponit inter
+          <lb ed="#P" n="14"/>actus internos religionis, ideoque de illis ante alios disputat. Postea vero, in 
+          quaes<lb break="no" ed="#P" n="15"/>iion. 91, inter actus externos religionis, quibus aliquid divinum ab hominibus 
+          assu<lb break="no" ed="#P" n="16"/>mitur, ponit laudem et invocationem Dei, quoniam per illam divinum nomen 
+          assumi<lb break="no" ed="#P" n="17"/>mus. Nos vero omnes hos actus, et plures alios, propter magnam eorum connexionem,
+          <lb ed="#P" n="18"/>in hoc tractatu declarabimus. Consideravimus enim devotionem non tam esse cultum,
+          <lb ed="#P" n="19"/>quam ipsum affectum cultus, et ita secundum quamdam rationem esse veluti 
+          quod<lb break="no" ed="#P" n="20"/>dam generale principium conjunctum cum omni externo actu religionis; quatenus
+          <lb ed="#P" n="21"/>vero aliquam specialem rationem et considerationem habere potest, esse quemdam
+          <lb ed="#P" n="22"/>effectum. vel intrinsecam proprietatem orationis, praesertim mentalis, vixque ab ea
+          <lb ed="#P" n="23"/>separari posse in suo fieri et esse, ideoque nec cognitione separandam esse. Deinde
+          <lb ed="#P" n="24"/>animadvertimus, licet oratio dicatur actus interior religionis, quia praecipue debet in
+          <lb ed="#P" n="25"/>mente versari, tamen etiam esse actum exteriorem, quia etiam ore fieri debet. Imo,
+          <lb ed="#P" n="26"/>si quis recte consideret, nullus est actus religionis, ab affectu colendi distinctus, qui
+          <lb ed="#P" n="27"/>non possit et sola mente fieri, et per corpus exhiberi; nam de adoratione diximus
+          <lb ed="#P" n="28"/>utroque modo fieri posse; et votum ac juramentum mente ac ore fieri possunt; et
+          <lb ed="#P" n="29"/>consequenter etiam laus Dei et invocatio nominis ejus interior et exterior esse potest;
+          <lb ed="#P" n="30"/>et invocatio proprie est oratio, laus vero cum oratione est conjuncta, sicut et 
+          gra<lb break="no" ed="#P" n="31"/>uarum actio et obsecratio; ideoque de his omnibus in hoc tractatu dicemus.
+        </p>
+        <p xml:id="szovsr-m00004-d1e180">
+          <lb ed="#P" n="32"/>Dividenda igitur est oratio in internam et externam, seu mentalem et vocalem,
+          <lb ed="#P" n="33"/>sumiturque divisio ex Chrysostomo, homilia 79 ad Populum; Nilo, libr. de Orauone,
+          <lb ed="#P" n="34"/>cap. 39 et 40, et aliis, quos infra, utrumque membrum pertractando, referemus. Ilia
+          <lb ed="#P" n="35"/>vero duo membra ita distinguuntur, ut oratio mentalis sola mente consummetur,
+          <lb ed="#P" n="36"/>signumque externum non requirat ; vocalis autem voce quidem consummatur, 
+          neces<lb break="no" ed="#P" n="37"/>sario tamen postulat interiorem actum tanquam formam, seu vitam suam ; sicut enim
+          <lb ed="#P" n="38"/>actus externus sine interno nec bonus, nec malus, imo nec moralis esse potest, ita nec
+          <pb ed="#P" n="2"/>
+          <lb ed="#P" n="1"/>oratio externa sine interna nomen orationis meretur. Unde fit, non recte addi illi 
+          divi<lb break="no" ed="#P" n="2"/>sioni tertium membrum, quasi subdividendo orationem vocalem in pure vocalem, et
+          <lb ed="#P" n="3"/>quasi compositam ex mentali et vocali; qua divisione utitur Navar., in Enchiridio de
+          <lb ed="#P" n="4"/>Oratione, c. 1, n. 28. At vero oratio, quae solis labiis, sine mente et sine ullo geaere
+          <lb ed="#P" n="5"/>attentionis, fit, umbram habet orationis, non veritatem; ideoque membrum illud 
+          ne<lb break="no" ed="#P" n="6"/>cessarium non est, ut bene notavit Cardinalis Dellarminus, lib. 1 de Bbona Operatione,
+          <lb ed="#P" n="7"/>c..2. Ex illis autem duobus membiris prior est mentalis oratio, et veluti in se praehabet
+          <lb ed="#P" n="8"/>omnes orationis proprietates, per eam tamen orationi vocali conveniunt, quatenus in
+          <lb ed="#P" n="9"/>ea quodammodo includitur. Unde fit ut et in multis conveniant, et in multis etiam 
+          dif<lb break="no" ed="#P" n="10"/>ferant. Praesertim vero est hoc loco una differentia notanda, quod mentalis oratio,
+          <lb ed="#P" n="11"/>quia non percipitur ab alus hominibus, privata solum esse potest; vocalis tamen
+          <lb ed="#P" n="12"/>oratio, quia externa est et sensibilis, et privata et publica esse potest. Juxta has
+          <lb ed="#P" n="13"/>ergo rationes et partitiones, tractatum hunc in quatuor libros dividemus. Primus erit
+          <lb ed="#P" n="14"/>de oratione in communi. Secundus de mentali oratione, ac devotione. Tertius de
+          <lb ed="#P" n="15"/>vocali oratione privata. Quartus de publica, qui de Horis Canonicis inscribi potest.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="869"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m21806"><!-- t6l2c9 -->
+        <head xml:id="szovsr-m21806-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-m21806-Hd1e103" type="question-title">Utrum actus moraliter bonus, inducens inhabilitatem in futurum ad statum perfectionis, possit interdum esse materia voti?</head>
+        <p xml:id="szovsr-m21806-d1e106">
+          <lb ed="#P" n="60"/>CAPUT IX.
+          <lb ed="#P" n="61"/>UTRUM ACTUS MORALITER BONUS, INDUCENS 
+          INHA<lb break="no" ed="#P" n="62"/>BILITATEM IN FUTURUM AD STATUM 
+          PERFEC<lb break="no" ed="#P" n="63"/>TIONIS, POSSIT INTERDUM ESSE MATERIA VOTI?
+        </p>
+        <p xml:id="szovsr-m21806-d1e117">
+          <lb ed="#P" n="64"/>1 Haec quaestio peculiarem difficultatem
+          <lb ed="#P" n="65"/>habet in voto de matrimonio contrahendo,
+          <lb ed="#P" n="66"/>propter perpetuitatem illius status, et 
+          repu<lb break="no" ed="#P" n="67"/>gnantiam quam habet cum consiliis 
+          perfectio<lb break="no" ed="#P" n="68"/>nis, maxime cum consilio de castitate 
+          servan<lb break="no" ed="#P" n="69"/>da, et cum statu religionis; in nullo enim alio
+          <lb ed="#P" n="70"/>actu inferioris ordinis hoc invenitur. Nam 
+          li<lb break="no" ed="#P" n="71"/>cet multi repugnent statui perfectionis, ita ut
+          <lb ed="#P" n="72"/>non pessint simul esse cum illo, non tamen
+          <lb ed="#P" n="73"/>inducunt statum immutabilem impedientem
+          <lb ed="#P" n="74"/>transitum ad statum meliorem, et ideo de
+          <lb ed="#P" n="75"/>matrimonio in speciali quaestionem 
+          tractabi<lb break="no" ed="#P" n="76"/>mus, et deinde quid de aliis actibus dicendum
+          <lb ed="#P" n="77"/>sit, breviter indicabimus. Circa matrimonium
+          <lb ed="#P" n="78"/>autem prius statuenda est regula generalis per
+          <lb ed="#P" n="79"/>se observanda ; postea inquiremus an patiatur
+          <lb ed="#P" n="80"/>aliquam exceptionem.
+        </p>
+        <p xml:id="szovsr-m21806-d1e156">
+          <lb ed="#P" n="81"/>2. Generalis regula inculcatur, et assaritur
+          <lb ed="#P" n="82"/>actum contrahendi matrimonium , per se 
+          Io<lb break="no" ed="#P" n="83"/>quendo, non esse materiam voti. — Regula 
+          igi<lb break="no" ed="#P" n="84"/>tur generalis est, actum contrahendi 
+          matri<lb break="no" ed="#P" n="85"/>monium, per se loquendo, non esse materiam
+          <lb ed="#P" n="86"/>voti. In hac regula conveniunt omnes 
+          Docto<lb break="no" ed="#P" n="87"/>res infra citandi, et sentiunt illam esse 
+          mate<lb break="no" ed="#P" n="88"/>riam incapacem obligationis voti, tam 
+          com<lb break="no" ed="#P" n="89"/>parative quam absolute, et ideo tale votum
+          <lb ed="#P" n="90"/>esse nullum. Ratio est, quia illud vinculum
+          <lb ed="#P" n="91"/>inducit effectum repugnantem meliori bono,
+          <lb ed="#P" n="92"/>quale est status religiosus, et perpetua 
+          obser<lb break="no" ed="#P" n="93"/>vantia castitatis; ergo votum de tali vinculo
+          <lb ed="#P" n="94"/>assumendo nec potest obligare ad non 
+          ingre<lb break="no" ed="#P" n="95"/>diendam religionem propter matrimonium,
+          <lb ed="#P" n="96"/>neque etiam ad statum continentiae seu 
+          caeli<lb break="no" ed="#P" n="97"/>batus dimittendum ; ergo ad nihil obligare 
+          po<lb break="no" ed="#P" n="98"/>test, ideoque est irritum. Haec ultima 
+          conse<lb break="no" ed="#P" n="99"/>quentia constat ex doctrina data capite 
+          prae<lb break="no" ed="#P" n="100"/>cedenti, quod quando actus bonus tam est
+          <lb ed="#P" n="101"/>imperfectus, ut carentia ejus sit moraliter 
+          me<lb break="no" ed="#P" n="102"/>lior, tunc non potest esse materia voti, nec
+          <lb ed="#P" n="103"/>votum de illo obligare; talis autem est actus
+          <lb ed="#P" n="104"/>nubendi comparatus ad negationem nubendi,
+          <lb ed="#P" n="105"/>quia haec per se melior est, quia magis 
+          abs<lb break="no" ed="#P" n="106"/>trahit hominem a secularibus curis, et 
+          volup<lb break="no" ed="#P" n="107"/>tatibus carnis, 1 Corintb. 7. Unde Concilium
+          <pb ed="#P" n="870"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Tridentinum, sess. 24, canon. 10, dicit, 
+          me<lb break="no" ed="#P" n="2"/>liorem esse statum virginitalis ac caelibatus
+          <lb ed="#P" n="3"/>statu matrimonii; constat autem 
+          matrimo<lb break="no" ed="#P" n="4"/>nium immediate et coniradictorie repugnare
+          <lb ed="#P" n="5"/>huic meliori bono; ergo, per se loquendo, non
+          <lb ed="#P" n="6"/>potest esse materia validi voti.
+        </p>
+        <p xml:id="szovsr-m21806-d1e235">
+          <lb ed="#P" n="7"/>3. Soti limitatio ad regulam supra datam.
+          <lb ed="#P" n="8"/>— Adldit vero Soto, d. q. 1, art. 3, quamdam
+          <lb ed="#P" n="9"/>limitationem huic regulae, dicens, vovere 
+          ma<lb break="no" ed="#P" n="10"/>trimonium illicitum esse, nisi expresse 
+          pro<lb break="no" ed="#P" n="11"/>meres exceptionem, dicens : Voveo Deo 
+          matri<lb break="no" ed="#P" n="12"/>qonium, nisi de me ipse salubrius quidpiam
+          <lb ed="#P" n="13"/>disposuerit. Sed haec conditio parum refert ad
+          <lb ed="#P" n="14"/>honestandum votum ; alias enim votum sine
+          <lb ed="#P" n="15"/>illa valeret, quia illa conditio in omni voto, et
+          <lb ed="#P" n="16"/>in omni actu nostro tacite inest ; ergo non 
+          mi<lb break="no" ed="#P" n="17"/>nus esset validum votum cum illa conditione
+          <lb ed="#P" n="18"/>tacita, quam cum expressa ; regulariter enim
+          <lb ed="#P" n="19"/>loquendo, et ex natura rei, non minus operari
+          <lb ed="#P" n="20"/>solet conditio tacita, praesertim intrinseca,
+          <lb ed="#P" n="21"/>quam expressa. Deinde illa conditio vel Dei
+          <lb ed="#P" n="22"/>tentationem includit, vel non apparet quem
+          <lb ed="#P" n="23"/>lesitimum sensum, vel quam utilitatem 
+          ha<lb break="no" ed="#P" n="24"/>bere possit. Nam qui sic vovet, quomodo vult
+          <lb ed="#P" n="25"/>cognoscere Deum de se aliter disponere, ut
+          <lb ed="#P" n="26"/>nisi Deus id faciat, voto obligetur? Aut enim
+          <lb ed="#P" n="27"/>intendit solum ut Deus id faciat per 
+          ordina<lb break="no" ed="#P" n="28"/>xium modum et legem, et hoc jam disposuit
+          <lb ed="#P" n="29"/>consulendo caelibatum ac religionem, et 
+          quan<lb break="no" ed="#P" n="30"/>tum in se est vocando ad illam, et ita bona est
+          <lb ed="#P" n="31"/>conditio , tamen in hoc sensu destruit votum,
+          <lb ed="#P" n="32"/>quia in illo sensu jam est posita; vel intendit ut
+          <lb ed="#P" n="33"/>Deus specialiter revelet suam voluntatem esse,
+          <lb ed="#P" n="34"/>ut non contrahat, vel ut hoc praecipiat, et hoc
+          <lb ed="#P" n="35"/>est tentare Deum, et rem extraordinariam
+          <lb ed="#P" n="36"/>sine causa postulare. Vel denique intendit ut
+          <lb ed="#P" n="37"/>Deus extraordinaria vocatione illum vocet ad
+          <lb ed="#P" n="38"/>non contrahendum, et hoc etiam est tentare
+          <lb ed="#P" n="39"/>Deum, quia est coarctare providentiam ejus,
+          <lb ed="#P" n="40"/>et quasi exigere gratiam non debitam, et 
+          ex<lb break="no" ed="#P" n="41"/>traordinarium signum. Maxime quia necesse
+          <lb ed="#P" n="42"/>est ut votum illud, vel statim, vel pro certo
+          <lb ed="#P" n="43"/>iempore obliget, infra quod Deus debeat 
+          si<lb break="no" ed="#P" n="44"/>gnum illud praestare, quod etiam spectat ad
+          <lb ed="#P" n="45"/>tentationem D:i, ut sumitur ex Judith 8, et
+          <lb ed="#P" n="46"/>supra tractatum est ; ergo simpliciter, et 
+          inde<lb break="no" ed="#P" n="47"/>pendenter ab illa conditione, regula 
+          intelli<lb break="no" ed="#P" n="48"/>genda est.
+        </p>
+        <p xml:id="szovsr-m21806-d1e329">
+          <lb ed="#P" n="49"/>4. Prima, objectio. — Solutio. — Sed 
+          obji<lb break="no" ed="#P" n="50"/>citur primo contra regulam, quia juramentum
+          <lb ed="#P" n="51"/>potest obligare ad matrimonium, saltem 
+          ab<lb break="no" ed="#P" n="52"/>soluta obligatione; ergo et votum, cujus 
+          obli<lb break="no" ed="#P" n="53"/>gatio major est quam juramenti promissorii.
+          <lb ed="#P" n="54"/>Antecedens constat in sponsalibus juratis. 
+          Res<lb break="no" ed="#P" n="55"/>pondetur primo negando consequentiam, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>juramentum sequitur naturam promissionis,
+          <lb ed="#P" n="57"/>cui adjungitur ; natura autem promissionis
+          <lb ed="#P" n="58"/>humanae est, quod obliget ad id quod homini
+          <lb ed="#P" n="59"/>promittitur, si est bonum, et commodum illi,
+          <lb ed="#P" n="60"/>etiamsi non sit ex bonis melioribus respectu
+          <lb ed="#P" n="61"/>promittentis, quia hoc non attenditur in tali
+          <lb ed="#P" n="62"/>promissione. Secus vero est in promissione
+          <lb ed="#P" n="63"/>voti, in qua divinus cultus, et quod Deo est
+          <lb ed="#P" n="64"/>gratius, per se intenditur; unde si promissio
+          <lb ed="#P" n="65"/>de contrahendo matrimonio soli Deo fiat,
+          <lb ed="#P" n="66"/>etiamsi juretur, nec votum, nec juramentum
+          <lb ed="#P" n="67"/>obligat, quia votum est nullum, et 
+          juramen<lb break="no" ed="#P" n="68"/>tum confirmat promissionem nullam, quae 
+          pro<lb break="no" ed="#P" n="69"/>missario non placet. Quia vero promissio 
+          ho<lb break="no" ed="#P" n="70"/>mini facta de matrimonio cum illo 
+          contra<lb break="no" ed="#P" n="71"/>hendo valida est, ideo juramentum illam 
+          con<lb break="no" ed="#P" n="72"/>firmat, quia per juramentum materia jurata
+          <lb ed="#P" n="73"/>non dicatur in cultum Dei, sicut per votum,
+          <lb ed="#P" n="74"/>sed solum adducitur Deus in testimonium 
+          ve<lb break="no" ed="#P" n="75"/>ritatis. Secundo vero additur, etiam 
+          illudju<lb break="no" ed="#P" n="76"/>ramentum non obligare ad matrimonium
+          <lb ed="#P" n="77"/>comparatione cujuscumque status melioris,
+          <lb ed="#P" n="78"/>quia, non obstante illo juramento. potest quis
+          <lb ed="#P" n="79"/>ingredi religionem, quia hic status in ipsa
+          <lb ed="#P" n="80"/>promissione intelligitur exceptus, ut superiori
+          <lb ed="#P" n="81"/>tractatu dictum est. An vero etiam intelligatur
+          <lb ed="#P" n="82"/>exceptus status perpetuae continentiae per 
+          vo<lb break="no" ed="#P" n="83"/>tum simplex castitatis, vel per ordinem 
+          sa<lb break="no" ed="#P" n="84"/>crum, dicemus in sequentibus. Solum ergo
+          <lb ed="#P" n="85"/>obligat ad matrimonium cum tali persona cui
+          <lb ed="#P" n="86"/>juratum est, vel respectu aliarum, vel etiam
+          <lb ed="#P" n="87"/>comparatione ad simplicem negationem non
+          <lb ed="#P" n="88"/>nnbendi ; quia ilii immediate opponitur 
+          obli<lb break="no" ed="#P" n="89"/>gatio contrahendi, quam promissio humana
+          <lb ed="#P" n="90"/>induxit, per quam potuit homo se privare
+          <lb ed="#P" n="91"/>illa libertate. Et ad bonum reipublicae 
+          expe<lb break="no" ed="#P" n="92"/>dit tales promissiones esse firmas et stabiles,
+          <lb ed="#P" n="93"/>saltem in illo sensu, et maxime quando 
+          jura<lb break="no" ed="#P" n="94"/>mento firmantur.
+        </p>
+        <p xml:id="szovsr-m21806-d1e433">
+          <lb ed="#P" n="95"/>5. Secunda objectio. — Secundo vero objici
+          <lb ed="#P" n="96"/>potest contra dictam regulam, quia 
+          funda<lb break="no" ed="#P" n="97"/>mentum ejus ad summum procedit in 
+          matri<lb break="no" ed="#P" n="98"/>monio consummato ; nam solum ratum non
+          <lb ed="#P" n="99"/>impedit transitum ad méliorem statum 
+          reli<lb break="no" ed="#P" n="100"/>gionis, ut nunc supponimus, et consequenter
+          <lb ed="#P" n="101"/>non impedit perpetuam observantiam 
+          castita<lb break="no" ed="#P" n="102"/>tis; ergo non opponitur per se majori bono;
+          <lb ed="#P" n="103"/>et aliequi actus ipse contrahendi per se 
+          bo<lb break="no" ed="#P" n="104"/>nus est, et in lege gratiae confert gratiam ex
+          <lb ed="#P" n="105"/>opere operato; ergo votum de matrimonio rato
+          <lb ed="#P" n="106"/>cum intentione non consummandi illud, esse
+          <lb ed="#P" n="107"/>poterit validum, quia est de quodam magno
+          <lb ed="#P" n="108"/>bono, etiam religioso, cum sit de susceptione
+          <lb ed="#P" n="109"/>cujusdam sacramenti, et non impedit 
+          transi<lb break="no" ed="#P" n="110"/>tum ad majus bonum intrinsece ac per se, ut
+          <pb ed="#P" n="871"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>declaratum est. Et confirmatur, quia possent
+          <lb ed="#P" n="2"/>contrahentes convenire de perpetua castitate
+          <lb ed="#P" n="3"/>servanda in matrimonio, imo et de illa Deo
+          <lb ed="#P" n="4"/>vovenda, ut de Sanctissima Virgine, et Sancto
+          <lb ed="#P" n="5"/>Joseph credimus, et tunc actus ille 
+          matri<lb break="no" ed="#P" n="6"/>monii nullo modo excludit bonum melius;
+          <lb ed="#P" n="7"/>ergo.
+        </p>
+        <p xml:id="szovsr-m21806-d1e490">
+          <lb ed="#P" n="8"/>6. Resolutio quaestionis. — Nihilominus 
+          res<lb break="no" ed="#P" n="9"/>pondemus, regulam positam etiam in 
+          matri<lb break="no" ed="#P" n="10"/>monio rato procedere. Primo quidem, quia
+          <lb ed="#P" n="11"/>contrahere matrimonium animo non 
+          consum<lb break="no" ed="#P" n="12"/>mandi illud. licet in casu possit expedire, ut
+          <lb ed="#P" n="13"/>infra dicam, nihilominus, per se loquendo,
+          <lb ed="#P" n="14"/>non videtur honestum , neque consentaueum
+          <lb ed="#P" n="15"/>rationi. Maxime si fiat ab uno contrahentium,
+          <lb ed="#P" n="16"/>ignorante altero, et bona fide contrahente,
+          <lb ed="#P" n="17"/>quia videtur illi fieri aliqua injuria, vel 
+          sal<lb break="no" ed="#P" n="18"/>tem aliquis modus deceptionis, et ideo non est
+          <lb ed="#P" n="19"/>illa conveniens materia voti. Secundo, et 
+          ma<lb break="no" ed="#P" n="20"/>gis ex propriis, quia etiam votum illud non
+          <lb ed="#P" n="21"/>est de meliori bono, tum quia licet solum
+          <lb ed="#P" n="22"/>ma:rimonii vinculum per se non excludat 
+          cas<lb break="no" ed="#P" n="23"/>titatem vel religionem, nihilominus constituit
+          <lb ed="#P" n="24"/>hominem in gravi periculo mutandi 
+          intentio<lb break="no" ed="#P" n="25"/>nem, et permanendi in illo statu; tum etiam
+          <lb ed="#P" n="26"/>quia ex vi talis voti saltem excluderetur status
+          <lb ed="#P" n="27"/>caelibatus simplicis, qui etiam est melior quam
+          <lb ed="#P" n="28"/>status matrimonii; ergo excluderetur aliquod
+          <lb ed="#P" n="29"/>melius bonum. Antecedens patet, quia si 
+          vo<lb break="no" ed="#P" n="30"/>tum illud esset validum absolute, teneretur
+          <lb ed="#P" n="31"/>homo matrimonium contrahene; illo autem
+          <lb ed="#P" n="32"/>contracto non potest contrahens servare 
+          per<lb break="no" ed="#P" n="33"/>petuam castitatem, nisi ingrediendo 
+          religio<lb break="no" ed="#P" n="34"/>nem, saltem invito altero conjuge; ergo 
+          coge<lb break="no" ed="#P" n="35"/>retur ille non manere in caelibatu. Quod 
+          au<lb break="no" ed="#P" n="36"/>tem hoc sit contra perfectionem voti, patet,
+          <lb ed="#P" n="37"/>quia nullum aliud melius bonum debet per
+          <lb ed="#P" n="38"/>votum excludi, hoc enim ad Dei obsequium
+          <lb ed="#P" n="39"/>non confert; item quia non solum omnino
+          <lb ed="#P" n="40"/>excludere, sed etiam coarctare (ut sic dicam)
+          <lb ed="#P" n="41"/>viam perfectionis, vel etiam difficiliorem 
+          il<lb break="no" ed="#P" n="42"/>lam reddere, contrarium est meliori bono.
+          <lb ed="#P" n="43"/>Hac ergo ratione contrahere matrimonium
+          <lb ed="#P" n="44"/>etiam quoad vinculum, de se censetur minus
+          <lb ed="#P" n="45"/>bonum. Nec refert, quod gratiam conferat,
+          <lb ed="#P" n="46"/>quia major gratia poterit per alia 
+          sacramen<lb break="no" ed="#P" n="47"/>ta, et per alia opera perfectionis comparari.
+        </p>
+        <p xml:id="szovsr-m21806-d1e579">
+          <lb ed="#P" n="48"/>7. Satisfit ultime objectioni. — Et ita 
+          res<lb break="no" ed="#P" n="49"/>ponsum est ad principalem objectionem. Ad
+          <lb ed="#P" n="50"/>confirmationem respondetur, contrahere illo
+          <lb ed="#P" n="51"/>modo, scilicet cum pacto mutuo non 
+          consum<lb break="no" ed="#P" n="52"/>mandi, nisi interveniat specialis revelatio
+          <lb ed="#P" n="53"/>divina, vel esse contra substantiam 
+          matrimo<lb break="no" ed="#P" n="54"/>nii, ut D. Thomas et quam plures Doctores 
+          opi<lb break="no" ed="#P" n="55"/>nantur ; vel certe non est modus contrahendi
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>consentaneus fini matrimonii, et consequenter
+          <lb ed="#P" n="57"/>nec rationi; et ideo sine dubio non est illa
+          <lb ed="#P" n="58"/>materia voti. Addo, ex natura rei etiam 
+          dero<lb break="no" ed="#P" n="59"/>gare illud matrimonium perfectioni castitatis,
+          <lb ed="#P" n="60"/>quia saltem minuitur obligatio naturalis 
+          absti<lb break="no" ed="#P" n="61"/>nendi a coitu; nam possent postea illi 
+          contra<lb break="no" ed="#P" n="62"/>hentes a contractu recedere, et matrimonium
+          <lb ed="#P" n="63"/>consummare sine peccato contra castitatem.
+          <lb ed="#P" n="64"/>Denique tale matrimonium inutile est ad finem
+          <lb ed="#P" n="65"/>divini obsequii, et esto non impediat 
+          perfectio<lb break="no" ed="#P" n="66"/>nem ( quod vix potest moraliter contingere ),
+          <lb ed="#P" n="67"/>saltem non confert; ergo non est cur 
+          intelli<lb break="no" ed="#P" n="68"/>gatur acceptari a Deo tale votum, nisi aliqua
+          <lb ed="#P" n="69"/>alia specialis ratio divini obsequii illud 
+          hones<lb break="no" ed="#P" n="70"/>tet, ut contigit inter Dominam et Joseph, ubi
+          <lb ed="#P" n="71"/>etiam divina revelatio intervenit, ut abhbi
+          <lb ed="#P" n="72"/>diximus.
+        </p>
+        <p xml:id="szovsr-m21806-d1e638">
+          <lb ed="#P" n="73"/>8. Quas exceptiones patiatur regula tradita.
+          <lb ed="#P" n="74"/>— Quando matrimonium cadit sub preceptum,
+          <lb ed="#P" n="75"/>potest esse materia voti. — Superest dicendum
+          <lb ed="#P" n="76"/>de secundo puncto, an regula haec patiatur
+          <lb ed="#P" n="77"/>exceptionem. In quo unum est certum, scilicet
+          <lb ed="#P" n="78"/>excipiendos esse casus, in quibus homo 
+          tene<lb break="no" ed="#P" n="79"/>tur ex praecepto matrimonium contrahere, vel
+          <lb ed="#P" n="80"/>absolute, vel cum tali persona. Potest enim
+          <lb ed="#P" n="81"/>aliquando matrimonium cadere sub 
+          praece<lb break="no" ed="#P" n="82"/>ptum, vel ob necessitatem generis humani,
+          <lb ed="#P" n="83"/>in casu qui magis potest cogitari quam 
+          eveni<lb break="no" ed="#P" n="84"/>re; vel certe propter commune bonum, et
+          <lb ed="#P" n="85"/>pacem alicujus regni vel provinciae, qui etiam
+          <lb ed="#P" n="86"/>casus rarissimus est; vel denique ad 
+          legitiman<lb break="no" ed="#P" n="87"/>dos filios ex concubina genitos, et illius honori
+          <lb ed="#P" n="88"/>consulendum, quae obligatio aliquando 
+          maxi<lb break="no" ed="#P" n="89"/>me urget in articulo mortis, potestque in 
+          or<lb break="no" ed="#P" n="90"/>dinario vitae cursu contingere. Et saepe 
+          prove<lb break="no" ed="#P" n="91"/>nire solet ex nocumento facto alicui personae,
+          <lb ed="#P" n="92"/>maxime sub promissione ducendi ilam in
+          <lb ed="#P" n="93"/>uxorem. Quando ergo matrimonium cadit sub
+          <lb ed="#P" n="94"/>praeceptum, potest etiam cadere sub votum.
+          <lb ed="#P" n="95"/>Patet, quia tunc votum non est impedimentum
+          <lb ed="#P" n="96"/>melioris boni, quia supponitur homo 
+          sufli<lb break="no" ed="#P" n="97"/>cienter impeditus, ut non possit altiorem 
+          sta<lb break="no" ed="#P" n="98"/>tum assumere ; unde in hypothesi facta, tale
+          <lb ed="#P" n="99"/>votum redundat in majus bonum voventis,
+          <lb ed="#P" n="100"/>quia confirmat illum in bono quod facere 
+          tene<lb break="no" ed="#P" n="101"/>tur, et confert ut actus ipse meliori modo fiat.
+          <lb ed="#P" n="102"/>Item qua ratione potest fieri votum de 
+          obser<lb break="no" ed="#P" n="103"/>vatione praecepti in alia materia, potest etiam
+          <lb ed="#P" n="104"/>fieri in hac. Item si quis teneretur non ingredi
+          <lb ed="#P" n="105"/>religionem, ut subveniret, verbi gratia, 
+          paren<lb break="no" ed="#P" n="106"/>tibus, et propterea faceret votum non 
+          ingre<lb break="no" ed="#P" n="107"/>diendi religionem, durante tali necessitate
+          <lb ed="#P" n="108"/>parentum, validum esset votum, quia non 
+          im<lb break="no" ed="#P" n="109"/>pediret majus bonum et confirmaret in bono.
+          <lb ed="#P" n="110"/>Nam obedire praecepto per voluntariam ca-
+          <pb ed="#P" n="872"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rentiam tanti boni bonum est, et potest in eo
+          <lb ed="#P" n="2"/>casu Deo offerri in magnum obsequium.
+        </p>
+        <p xml:id="szovsr-m21806-d1e733">
+          <lb ed="#P" n="3"/>9. Quomodo eaxplicanda regula data per 
+          ordi<lb break="no" ed="#P" n="4"/>nen ad matrimonium. — Duplea regula. —
+          <lb ed="#P" n="5"/>Regula ergo generalis supra posita intelligitur
+          <lb ed="#P" n="6"/>de matrimonio voluntario ; nam hoc est 
+          re<lb break="no" ed="#P" n="7"/>gulare in ipso, et quia propria materia voti
+          <lb ed="#P" n="8"/>est voluntaria, etde illa nunc agimus; in 
+          eo<lb break="no" ed="#P" n="9"/>dem ergo sensu inquirimus nunc an haec 
+          gene<lb break="no" ed="#P" n="10"/>ralis regula exceptionem patiatur propter 
+          cir<lb break="no" ed="#P" n="11"/>cumstantias occurrentes. Duplex autem 
+          occa<lb break="no" ed="#P" n="12"/>sio excogitari potest. Una pertinens ad 
+          spiri<lb break="no" ed="#P" n="13"/>tualem necessitatem ipsius voventis; alia
+          <lb ed="#P" n="14"/>spectans ad pietatem erga alium. Prima ergo
+          <lb ed="#P" n="15"/>exceptio adhibetur ad vitandum periculum
+          <lb ed="#P" n="16"/>intemperantiae. Ita tenent Cajetanus, d. 
+          ar<lb break="no" ed="#P" n="17"/>ticulo secundo, dub. ultimo ; Navar., cap. 12,
+          <lb ed="#P" n="18"/>num. 53; Palacios, 1in 4, dist. 38, disp. 1,
+          <lb ed="#P" n="19"/>col. 14; Bellar., libr. 2 de Monachis, cap. 14,
+          <lb ed="#P" n="20"/>versus finem ; Ludovic. Lop., 1 p. Instr., 
+          ca<lb break="no" ed="#P" n="21"/>pit. 44, ubi ait, ita tenuisse Canum contra
+          <lb ed="#P" n="22"/>Sotum. Item sequuntur plures alii moderni,
+          <lb ed="#P" n="23"/>quos refert et sequitur Sanc., lib. 1 de 
+          Spon<lb break="no" ed="#P" n="24"/>sal., disp. 4, n. 7. Dicunt ergo hi auctores in eo
+          <lb ed="#P" n="25"/>casu, in quo persona adeo est fragilis, ut ad
+          <lb ed="#P" n="26"/>vitandum carnis lapsum judicio prudentum
+          <lb ed="#P" n="27"/>melius illi sit nubere quam uri, tunc votum
+          <lb ed="#P" n="28"/>ducendi uxorem esse validum, si propter hoc
+          <lb ed="#P" n="29"/>emittatur.
+        </p>
+        <p xml:id="szovsr-m21806-d1e794">
+          <lb ed="#P" n="30"/>10. Ratio est primo, quia tale votum in tali
+          <lb ed="#P" n="31"/>persona simpliciter est de meliori bono, cum
+          <lb ed="#P" n="32"/>Paulus dicat melius esse illi nubere. Secundo
+          <lb ed="#P" n="33"/>declaratur, quia consilia Dei licet generatim
+          <lb ed="#P" n="34"/>dentur, tamen in particulari applicanda sunt,
+          <lb ed="#P" n="35"/>expensis circumstantiis personae, loci, etc.
+          <lb ed="#P" n="36"/>Unde fit ut, licet ingredi religionem absolute
+          <lb ed="#P" n="37"/>s:t in consilio, nihilominus huic personae 
+          fra<lb break="no" ed="#P" n="38"/>gili habenti tales conditiones consulendum non
+          <lb ed="#P" n="39"/>sit. Idemque est de non contrahendo 
+          matri<lb break="no" ed="#P" n="40"/>monio ; sape enim prudenter judicatur tali
+          <lb ed="#P" n="41"/>personae non esse conveniens consilium a 
+          ma<lb break="no" ed="#P" n="42"/>trimonio abstinere ; ergo talis persona non
+          <lb ed="#P" n="43"/>aget contra consilium, etiamsi contrahat ; 
+          er<lb break="no" ed="#P" n="44"/>go, licet id ipsum voveat, non vovet aliquid
+          <lb ed="#P" n="45"/>contra id quod sibi est in consilio; ergo tale
+          <lb ed="#P" n="46"/>votum in tali persona non est impedimentum
+          <lb ed="#P" n="47"/>majoris boni; ergo est validum, cum alias sit
+          <lb ed="#P" n="48"/>de re bona, et maxime utili tali personae ad
+          <lb ed="#P" n="49"/>salutem animae. Tertio, quia propter has 
+          cir<lb break="no" ed="#P" n="50"/>cumsiantias potest interdum aliquis obligari
+          <lb ed="#P" n="51"/>ad matrimonium contrahendum,, si arbitrio
+          <lb ed="#P" n="52"/>prudentum judicetur illud medium moraliter
+          <lb ed="#P" n="53"/>necessarium ad vitandum periculum lapsus;
+          <lb ed="#P" n="54"/>ergo eadem ratione poterit votum ex eodem
+          <lb ed="#P" n="55"/>fiue factum esse validum. Quarto, votum illud
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>videtur prudens atque licitum, quia sumitur
+          <lb ed="#P" n="57"/>ut medium commodum ad bonum et 
+          necessa<lb break="no" ed="#P" n="58"/>rium finem ; est ergo validum ; jam enim 
+          su<lb break="no" ed="#P" n="59"/>pra ostensum est omne votum invalidum esse
+          <lb ed="#P" n="60"/>etiam illicitum. Tandem confirmatur alis
+          <lb ed="#P" n="61"/>exemplis ; nam, licet votum non mutuandi 
+          ab<lb break="no" ed="#P" n="62"/>solute non sit validum, tamen si fiat ex 
+          in<lb break="no" ed="#P" n="63"/>tentione vitandi litem, aut rixam, vel grave
+          <lb ed="#P" n="64"/>detrimentum filiorum, aut propter alium 
+          si<lb break="no" ed="#P" n="65"/>milem finem, qui respectu particularis 
+          perso<lb break="no" ed="#P" n="66"/>nae occurrat, licitum et validum est. Idem 
+          di<lb break="no" ed="#P" n="67"/>ci potest de voto non jejunandi: nam praecise
+          <lb ed="#P" n="68"/>spectatum non valet ; tamen si in particulari
+          <lb ed="#P" n="69"/>fiat ad vitandum scandalum, quod vere ac
+          <lb ed="#P" n="70"/>probabiliter timetur, validum erit. Ita ergo in
+          <lb ed="#P" n="71"/>praesenti dicendum videtur.
+        </p>
+        <p xml:id="szovsr-m21806-d1e890">
+          <lb ed="#P" n="72"/>11. Auctores negantes primum exceptionem.
+          <lb ed="#P" n="73"/>— Nihilominus aliqui auctores non admittunt
+          <lb ed="#P" n="74"/>hanc exeeptionem ; negant enim, ob vitandum
+          <lb ed="#P" n="75"/>periculum fornicationis esse validum votum
+          <lb ed="#P" n="76"/>contrahendi maitrimonium. Ita tenet Sot., lib.
+          <lb ed="#P" n="77"/>1 de Just., quaest. 1, art. 3, quem sequuntur
+          <lb ed="#P" n="78"/>Aragon., d. art. 2, et aliqui moderni. Quorum
+          <lb ed="#P" n="79"/>fundamentum est, quia semper votum ilud
+          <lb ed="#P" n="80"/>est de re impediente ascensum ad 
+          perfectio<lb break="no" ed="#P" n="81"/>rem statum. Sed hoc fundamentum videtur
+          <lb ed="#P" n="82"/>petere principium , et sumere id de quo est
+          <lb ed="#P" n="83"/>quaestio; nam , licet matrimonium semper
+          <lb ed="#P" n="84"/>impediat statum de se perfectiorem , quando
+          <lb ed="#P" n="85"/>hic status tali personae consuli non potest ,
+          <lb ed="#P" n="86"/>tunc non est melior respectu ejusdem persona;
+          <lb ed="#P" n="87"/>ergo obstare non potest quominus ejus votum
+          <lb ed="#P" n="88"/>validum sit. Sed urgetur fundamentum, quia
+          <lb ed="#P" n="89"/>licev in prassenti tempore matrimonium in
+          <lb ed="#P" n="90"/>tali homine sit remedium contra 
+          concupiscen<lb break="no" ed="#P" n="91"/>tiam, reddit tamen illum inhabilem ad statum
+          <lb ed="#P" n="92"/>perfectionis , etiam pro tempore futuro, pro
+          <lb ed="#P" n="93"/>quo fortasse illud medium non esset ita 
+          ne<lb break="no" ed="#P" n="94"/>cessarium, quia cum divina gratia posset ilia
+          <lb ed="#P" n="95"/>difficultas paulatim vinci, adhibendo alia 
+          re<lb break="no" ed="#P" n="96"/>media orationis, poenitentiae, etc. Ergo non
+          <lb ed="#P" n="97"/>est validum votum, quo remedium illius mah
+          <lb ed="#P" n="98"/>ad tale medium determinatur , et ponitur
+          <lb ed="#P" n="99"/>obstaculum Spiritui Sancto, ne perfectioribus
+          <lb ed="#P" n="100"/>mediis possit malum illud impedire. 
+          Contir<lb break="no" ed="#P" n="101"/>matur primo, quia intendere actum 
+          matrimo<lb break="no" ed="#P" n="102"/>nii propter fornicationem in se ipso 
+          vitan<lb break="no" ed="#P" n="103"/>dam, est peccatum saltem veniale, teste divo
+          <lb ed="#P" n="104"/>Thoma, in 4, dist. 31. quaest. 2, art. 2, ad2;
+          <lb ed="#P" n="105"/>ergo ex hoc fine non potest fieri matrimonium
+          <lb ed="#P" n="106"/>materia voti. Confirmatur secundo, quia, non
+          <lb ed="#P" n="107"/>obstante tali voto, potest homo fragilis 
+          ingre<lb break="no" ed="#P" n="108"/>di religionem ; ergo signum est votum fuisse
+          <lb ed="#P" n="109"/>invalidum.
+        </p>
+        <p xml:id="szovsr-m21806-d1e975">
+          <lb ed="#P" n="110"/>12. Resolutio dubii. — Nihilominus admit-
+          <pb ed="#P" n="873"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tenda videtur exceptio, dummodo et 
+          occur<lb break="no" ed="#P" n="2"/>rens necessitas, et modus obligationis voti
+          <lb ed="#P" n="3"/>convenienter explicetur. Assero ergo imprimis
+          <lb ed="#P" n="4"/>non obstante tali voto et necessitate, fere 
+          seni<lb break="no" ed="#P" n="5"/>per esse licitum illi, qui tale votum emisit,
+          <lb ed="#P" n="6"/>ingredi religionem, et tentare alia media 
+          qui<lb break="no" ed="#P" n="7"/>bus juvetur ad observandam continentiam,
+          <lb ed="#P" n="8"/>atque ita omittere vel suspendere talis voti
+          <lb ed="#P" n="9"/>executionem. Hoc probat fundamentum 
+          se<lb break="no" ed="#P" n="10"/>cundae sententiae, quia Deus non permittit 
+          ali<lb break="no" ed="#P" n="11"/>quem tentari supra id quod potest, neque 
+          ne<lb break="no" ed="#P" n="12"/>gat auxilium facienti quod in se est, et orant
+          <lb ed="#P" n="13"/>sicut oportet; ergo si talis homo velit 
+          confi<lb break="no" ed="#P" n="14"/>dere de divina gratia, et proponere 
+          coopera<lb break="no" ed="#P" n="15"/>ri illi, vel assumendo statum quo paulatim ad
+          <lb ed="#P" n="16"/>perfectionem ascendat , vel saltem quantum
+          <lb ed="#P" n="17"/>necessarium sit ad vincendam fragilitatem
+          <lb ed="#P" n="18"/>suam , et continentiam servandam, non est
+          <lb ed="#P" n="19"/>obligandus ad matrimonium contrahendum:
+          <lb ed="#P" n="20"/>nam hoc jam esset ponere obicem divinae 
+          gra<lb break="no" ed="#P" n="21"/>tiae, quod per votum fieri non potest.
+        </p>
+        <p xml:id="szovsr-m21806-d1e1030">
+          <lb ed="#P" n="22"/>13. Satisfit rationibus prioris sententie. —
+          <lb ed="#P" n="23"/>Neque contra hanc partem procedunt 
+          ratio<lb break="no" ed="#P" n="24"/>nes prioris sententiae, quia tunc non solum in
+          <lb ed="#P" n="25"/>geuerali, sed etiam huic personae in 
+          particula<lb break="no" ed="#P" n="26"/>ri melius est non contrahere matrimonium,
+          <lb ed="#P" n="27"/>sed perfectiori modo vincere fragilitatem suam.
+          <lb ed="#P" n="28"/>Nec sententia Pauli in eo casu recte 
+          applica<lb break="no" ed="#P" n="29"/>tur; nam Paulus non dixit; Melius est nubere
+          <lb ed="#P" n="30"/>quam se ipsum vincere, et contra se puguare
+          <lb ed="#P" n="31"/>per alia media divine gratie, sed, quam uri,
+          <lb ed="#P" n="32"/>id est, quam ex propria fragilitate cadere,
+          <lb ed="#P" n="33"/>seu tentationi succumbere. Unde sensus 
+          il<lb break="no" ed="#P" n="34"/>lius sententiae est quasi compositus (ut ita 
+          di<lb break="no" ed="#P" n="35"/>cam), scilicet mulieri, quae propter 
+          fragilita<lb break="no" ed="#P" n="36"/>tem suam non decernit facere quod in se est,
+          <lb ed="#P" n="37"/>ut continentiam servet, melius est nubere
+          <lb ed="#P" n="38"/>quam uri ; sic enim proxime praemiserat : Quod
+          <lb ed="#P" n="39"/>si non se continent, uubant. Dixi autem fere
+          <lb ed="#P" n="40"/>semper, quia si talis esset conditio personae,
+          <lb ed="#P" n="41"/>ut, moraliter loquendo, judicaretur prudenter
+          <lb ed="#P" n="42"/>esse illi melius et securius nubere, quam 
+          rel<lb break="no" ed="#P" n="43"/>gionem ingredi, vel aliter conari ad 
+          servan<lb break="no" ed="#P" n="44"/>dam castitatem , tunc votum determinate
+          <lb ed="#P" n="45"/>obligaret ad matrimonium, ut jam dicam.
+        </p>
+        <p xml:id="szovsr-m21806-d1e1085">
+          <lb ed="#P" n="46"/>14. Secunda assertio.—Assero ergo 
+          secun<lb break="no" ed="#P" n="47"/>do, in casu illo necessitatis, votum de 
+          matri<lb break="no" ed="#P" n="48"/>monio contrahendo validum esse, non tamen
+          <lb ed="#P" n="49"/>semper eodem modo obligare. Priorem 
+          par<lb break="no" ed="#P" n="50"/>tem probant recte argumenta primae 
+          senten<lb break="no" ed="#P" n="51"/>tiae. Secunda explicatur, quia tunc 
+          matrimo<lb break="no" ed="#P" n="52"/>nium non propter se promittitur, sed ut 
+          me<lb break="no" ed="#P" n="53"/>dicina et remedium tali articulo necessitatis.
+          <lb ed="#P" n="54"/>Potest autem haec necessitas esse varia ; ergo
+          <lb ed="#P" n="55"/>et modus obligationis potest esse multiplex.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Probatur minor, quia fieri potest ut, omnibus
+          <lb ed="#P" n="57"/>pensatis, tale remedium censeatur simpliciter
+          <lb ed="#P" n="58"/>necessarium huic personae, vel saltem utilius
+          <lb ed="#P" n="59"/>quam status religionis, vel quam alia 
+          reme<lb break="no" ed="#P" n="60"/>dia. Et tunc votum absolute et definite 
+          obli<lb break="no" ed="#P" n="61"/>gabit ad matrimonium, quia de illo factum
+          <lb ed="#P" n="62"/>est sub ratione Deo grata, et commutatio 
+          il<lb break="no" ed="#P" n="63"/>lius remedii in alia non est in melius 
+          res<lb break="no" ed="#P" n="64"/>pectu taiis personae; ergo obligat determinate
+          <lb ed="#P" n="65"/>ad illud, de quo factum est. Secundo, potest
+          <lb ed="#P" n="66"/>illud medium matrimonii esse aptum ad 
+          vi<lb break="no" ed="#P" n="67"/>tandum periculum, non tamen simpliciter
+          <lb ed="#P" n="68"/>necessarium, neque optimum, quia melius
+          <lb ed="#P" n="69"/>per religionis statum vel aliam vitae 
+          mutatio<lb break="no" ed="#P" n="70"/>nem fiet, et tunc votum non obligabit 
+          prae<lb break="no" ed="#P" n="71"/>cise ad matrimonium contrahendum. Non 
+          ta<lb break="no" ed="#P" n="72"/>men propterea erit nullum, sed obligabit ad
+          <lb ed="#P" n="73"/>matrimonium saltem sub ea conditione, nisi
+          <lb ed="#P" n="74"/>velit vovens per religionis ingressum, vel
+          <lb ed="#P" n="75"/>aliud simile vitare periculum, in quo 
+          versa<lb break="no" ed="#P" n="76"/>tur.
+        </p>
+        <p xml:id="szovsr-m21806-d1e1158">
+          <lb ed="#P" n="77"/>15. Explicatur sensus illius. —Jam enim
+          <lb ed="#P" n="78"/>supra dictum est non esse hanc conditionem
+          <lb ed="#P" n="79"/>contra obligationem voti, imo esse inclusam
+          <lb ed="#P" n="80"/>fere in omni voto. Atque in hoc sensu 
+          proce<lb break="no" ed="#P" n="81"/>dit prior opinio, et exceptio posita. Nam si
+          <lb ed="#P" n="82"/>quis solutus matrimonio, longo tempore 
+          ex<lb break="no" ed="#P" n="83"/>pertus sit fragilitatem suam, vel longam 
+          con<lb break="no" ed="#P" n="84"/>suetudinem cum concubina, a qua difficillime
+          <lb ed="#P" n="85"/>dimoveri possit, et ideo voveat uxorem 
+          duce<lb break="no" ed="#P" n="86"/>re, ex vi illius voti obligatus manet ad 
+          adhi<lb break="no" ed="#P" n="87"/>bendum remedium illi infirmitati, saltem per
+          <lb ed="#P" n="88"/>matrimonium carnale, quia tunc illi hoc 
+          me<lb break="no" ed="#P" n="89"/>lius est quam solutum manere, sicut antea
+          <lb ed="#P" n="90"/>erat, et quoad hoc obligatur ad 
+          matrimo<lb break="no" ed="#P" n="91"/>nium comparatione facta ad carentiam ejus,
+          <lb ed="#P" n="92"/>seu ad statum anteriorem. Quia vero 
+          matri<lb break="no" ed="#P" n="93"/>monium tunc solum vovetur ut remedium,
+          <lb ed="#P" n="94"/>si aliud excellentius adhiberi possit, ut est 
+          re<lb break="no" ed="#P" n="95"/>ligio, nunquam illud ita excluditur, quin
+          <lb ed="#P" n="96"/>possit vovens illud adhibere, si velit. Imo si
+          <lb ed="#P" n="97"/>prudenter rem considerando censeatur 
+          suffi<lb break="no" ed="#P" n="98"/>cere status ordinis sacri, vel votum simplex
+          <lb ed="#P" n="99"/>castitatis cum aliis spiritualibus remedis, non
+          <lb ed="#P" n="100"/>existimo esse necessarium commutare votum
+          <lb ed="#P" n="101"/>matrimonii in religionem, sed in alia etiam
+          <lb ed="#P" n="102"/>remedia spiritualia mutari posse.
+        </p>
+        <p xml:id="szovsr-m21806-d1e1217">
+          <lb ed="#P" n="103"/>16. Satisfit argumentis posterioris 
+          senten<lb break="no" ed="#P" n="104"/>Lie.—Ad argumenta autem posterioris 
+          sen<lb break="no" ed="#P" n="105"/>tentia, quatenus priori sic declaratae 
+          repu<lb break="no" ed="#P" n="106"/>gnant, facile est respondere. Ad primum 
+          dici<lb break="no" ed="#P" n="107"/>tur: licet matrimonium impediat perfectiorem
+          <lb ed="#P" n="108"/>statum, tamen in eo casu, respectu talis 
+          per<lb break="no" ed="#P" n="109"/>sonae, non impedit id quod est illi melius. Nam
+          <lb ed="#P" n="110"/>si matrimonium censetur simpliciter necessa-
+          <pb ed="#P" n="874"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>rium, vel utilius ad impedienda majora mala,
+          <lb ed="#P" n="2"/>illud tunc est melius; si vero censetur utile,
+          <lb ed="#P" n="3"/>et non optimum, tunc licet votum obliget ad
+          <lb ed="#P" n="4"/>matrimonium, non tamen excluditur optio
+          <lb ed="#P" n="5"/>eligendi melius remedium. Sicut si quis in eo
+          <lb ed="#P" n="6"/>casu explicite voveret hoc disjunctum intra
+          <lb ed="#P" n="7"/>certum tempus, vel ducere concubinam, vel
+          <lb ed="#P" n="8"/>ingredi religionem, sine dubio obligaretur;
+          <lb ed="#P" n="9"/>in eumdem autem sensum redit votum illud
+          <lb ed="#P" n="10"/>matrimonii, ut declaratum est. Ad primam
+          <lb ed="#P" n="11"/>confirmationem, dico nullum peccatum esse
+          <lb ed="#P" n="12"/>uti matrimonio propter vitandam 
+          fornicatio<lb break="no" ed="#P" n="13"/>nem, maxime quando tentatio urget, et est
+          <lb ed="#P" n="14"/>moralis necessitas, vel saltem utilitas, quia 
+          fi<lb break="no" ed="#P" n="15"/>nis ille non est malus, sed bonus, et medium
+          <lb ed="#P" n="16"/>secundum se non est malum, cum sit usus 
+          le<lb break="no" ed="#P" n="17"/>gitimi conjugii. Sententia autem illa D. 
+          Tho<lb break="no" ed="#P" n="18"/>mae, in 4, vel non est admittenda, vel ad
+          <lb ed="#P" n="19"/>summum habebit locum, quando sine 
+          neces<lb break="no" ed="#P" n="20"/>sitate vult quis delectatione illius actus 
+          gau<lb break="no" ed="#P" n="21"/>dere illo titulo, qui tunc est fictus et non est
+          <lb ed="#P" n="22"/>verus, de quo in suo loco, Deo dante, 
+          dicc<lb break="no" ed="#P" n="23"/>mus. Ad secundam confirmationem jam 
+          res<lb break="no" ed="#P" n="24"/>ponsum est, et antecedens non esse semper
+          <lb ed="#P" n="25"/>verum, et consequentiam non esse bonam,
+          <lb ed="#P" n="26"/>nam licet votum obliget, relinquit optionem
+          <lb ed="#P" n="27"/>melioris boni, quam esse sententiam omnium
+          <lb ed="#P" n="28"/>dixit Navarr., c. 12, n. 53, cum Tabien., 
+          Jo<lb break="no" ed="#P" n="29"/>tumn, 1, numero ultimo, qui id sumpsit ex
+          <lb ed="#P" n="30"/>Anton., 2 part., tit. 11, c. 2, notab. 4; et ita
+          <lb ed="#P" n="31"/>est etiam intelligendus Paludanus, 4, dist. 38,
+          <lb ed="#P" n="32"/>q. 1, n. 29, ut indicavit etiam Sylv., Votum,
+          <lb ed="#P" n="33"/>1, q. 4.
+        </p>
+        <p xml:id="szovsr-m21806-d1e1313">
+          <lb ed="#P" n="34"/>17. Secunda exceptio.—Secunda exceptio
+          <lb ed="#P" n="35"/>adhiberi solet, si votum ducendi aliquam in
+          <lb ed="#P" n="36"/>matrimonium fiat intuitu misericordia et
+          <lb ed="#P" n="37"/>pietatis, ac subinde in obsequium Dei. Ut cum
+          <lb ed="#P" n="38"/>quis vovet ducere meretricem, ut eam liberet
+          <lb ed="#P" n="39"/>ab illo malo statu, vel virginem panperem,
+          <lb ed="#P" n="40"/>cujus integritas periclitatur, ut ei subveniat,
+          <lb ed="#P" n="41"/>etc. Ita tenet Henriquez, lib. 11 de 
+          Matrimo<lb break="no" ed="#P" n="42"/>nio, c. 6, n. D, dicens, si votum sit publicum,
+          <lb ed="#P" n="43"/>posse Episcopum compellere promittentem ad
+          <lb ed="#P" n="44"/>votum implendum. Item Philiar., de Officus
+          <lb ed="#P" n="45"/>Sacerd.. tomo primo, parte secunda, lib. 3,
+          <lb ed="#P" n="46"/>c. 17, n. 3. Hanc vero sententiam, ut 
+          verisi<lb break="no" ed="#P" n="47"/>milis sit, in hoc sensu intelligendam esse 
+          cen<lb break="no" ed="#P" n="48"/>seo, scilicet, ut tale votum non obliget 
+          sim<lb break="no" ed="#P" n="49"/>pliciter ad exercitium talis actus, sed ad
+          <lb ed="#P" n="50"/>specificationem (ut sic dicam), seu ad 
+          deter<lb break="no" ed="#P" n="51"/>minationem ejus quoad talem personam, vel
+          <lb ed="#P" n="52"/>quoad talem personae conditionem; ita ut 
+          vo<lb break="no" ed="#P" n="53"/>tum non includat simul et absolute haec duo,
+          <lb ed="#P" n="54"/>Voveo ducere uxoreni, et, Voveo ducere istam
+          <lb ed="#P" n="55"/>pauperem, vel indigentem hoc remedio, eitc.,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sed solum per modum unius conditionalis
+          <lb ed="#P" n="57"/>voti obliget ad ducendam pauperem, si 
+          uxo<lb break="no" ed="#P" n="58"/>rem accepturus sit.
+        </p>
+        <p xml:id="szovsr-m21806-d1e1372">
+          <lb ed="#P" n="59"/>18. Et in hoc sensu videtur intellexisse
+          <lb ed="#P" n="60"/>hanc sententiam Armil., verb. Votum, n. 92,
+          <lb ed="#P" n="61"/>ubi sentit posse eum, qui habet votum 
+          du<lb break="no" ed="#P" n="62"/>cendi pauperem, vovere religionem, et 
+          quan<lb break="no" ed="#P" n="63"/>co jam habet haec duo vota incompossibilia
+          <lb ed="#P" n="64"/>(ut ipse loquitur), teneri ad servandum 
+          vo<lb break="no" ed="#P" n="65"/>tum religionis tanquam perfectius. Uhi clare
+          <lb ed="#P" n="66"/>supponit primum votum esse validum, et 
+          ni<lb break="no" ed="#P" n="67"/>hilominus non impedire valorem secundi,
+          <lb ed="#P" n="68"/>nec ingressum religionis; ergo signum est 
+          pri<lb break="no" ed="#P" n="69"/>mum votum non obligare absolute ad 
+          exerci<lb break="no" ed="#P" n="70"/>tium actus; alias obligaret ad non 
+          ingre<lb break="no" ed="#P" n="71"/>diendam religionem. Atque haec est ratioa
+          <lb ed="#P" n="72"/>priori hujus partis, quia votum illud, etiam
+          <lb ed="#P" n="73"/>factum sub titulo pietatis, si obligaret 
+          abso<lb break="no" ed="#P" n="74"/>lute ad exercitium, esset impeditivum 
+          majo<lb break="no" ed="#P" n="75"/>ris boni, scilicet. altioris status perfectionis;
+          <lb ed="#P" n="76"/>ergo non potest sic obligare, quia 
+          matrimo<lb break="no" ed="#P" n="77"/>nium, etiam spectatum ut pium opus, est 
+          mi<lb break="no" ed="#P" n="78"/>nus bonum, quam religio.
+        </p>
+        <p xml:id="szovsr-m21806-d1e1418">
+          <lb ed="#P" n="79"/>19. Confirmatur amplius.—Imo addo, 
+          ra<lb break="no" ed="#P" n="80"/>tionem hanc non solum convincere, tale 
+          vo<lb break="no" ed="#P" n="81"/>tum maitrimonii non solum non obligare 
+          ab<lb break="no" ed="#P" n="82"/>solute ad exercitium comparatione status 
+          re<lb break="no" ed="#P" n="83"/>ligiosi, sed etiam respectu caelibatus in 
+          quo<lb break="no" ed="#P" n="84"/>cumque continentiae gradu, quia caelibatus
+          <lb ed="#P" n="85"/>simpliciter est melior quam matrimonium,
+          <lb ed="#P" n="86"/>etiam ut pium opus. Quia matrimonium ut
+          <lb ed="#P" n="87"/>sic facit descendere hominem a perfectione
+          <lb ed="#P" n="88"/>continentiae, et hoc damnum non 
+          compensa<lb break="no" ed="#P" n="89"/>tur solo illo motivo pietatis, et ideo semper
+          <lb ed="#P" n="90"/>tale votum est de bono minori impediente
+          <lb ed="#P" n="91"/>transitum ad melius, vel privans meliori 
+          sta<lb break="no" ed="#P" n="92"/>tu, et ideo sub ea ratione obligare non 
+          po<lb break="no" ed="#P" n="93"/>test. Unde licet votum sit publicum, non 
+          po<lb break="no" ed="#P" n="94"/>terit quis cogi ad illud implendum positive
+          <lb ed="#P" n="95"/>(ut sic dicam), id est, cogendo illum ad 
+          du<lb break="no" ed="#P" n="96"/>cendam uxorem, sed negative poterit cogi ad
+          <lb ed="#P" n="97"/>non ducendam aliam, vel non ducendam
+          <lb ed="#P" n="98"/>divitem juxta exigentiam voti; seu, quod
+          <lb ed="#P" n="99"/>idem est, poterit cogi sub conditione, ut si
+          <lb ed="#P" n="100"/>velit ducere aliquam, talem assumat, et non
+          <lb ed="#P" n="101"/>aliam.
+        </p>
+        <p xml:id="szovsr-m21806-d1e1470">
+          <lb ed="#P" n="102"/>20. Ut improbetur heec sententia.—Haec 
+          au<lb break="no" ed="#P" n="103"/>tem sententia etiam in hoc sensu, et quoad
+          <lb ed="#P" n="104"/>obligationem illam conditionatam, 
+          improba<lb break="no" ed="#P" n="105"/>tur ab aliquibus, quia ille, qui sic vovit, non
+          <lb ed="#P" n="106"/>vovit conditionaliter, nec intendit se 
+          obliga<lb break="no" ed="#P" n="107"/>re sub conditione, Si ducturus sim, hanc 
+          acci<lb break="no" ed="#P" n="108"/>piam ; sed absolute, et per modum unius 
+          vo<lb break="no" ed="#P" n="109"/>vit, hanc pauperem ducere, vel quid simile;
+          <lb ed="#P" n="110"/>sed hoc votum absolutum est de materia in-
+          <pb ed="#P" n="875"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>debita et incapaci obligationis; ergo ad mhil
+          <lb ed="#P" n="2"/>obligat. Item non obligat absolute; ergo nec
+          <lb ed="#P" n="3"/>sub conditione, quia actus agentium non 
+          ope<lb break="no" ed="#P" n="4"/>rantur ultra intentionem eorum; ille autem
+          <lb ed="#P" n="5"/>non habuit intentionem se obligandi sub 
+          con<lb break="no" ed="#P" n="6"/>ditione; ergo. Unde in praesenti habet locum
+          <lb ed="#P" n="7"/>illa ratio, quod ille non se obligavit ut volnit,
+          <lb ed="#P" n="8"/>quia non potuit, nec se obligavit ut potuit,
+          <lb ed="#P" n="9"/>quia noluit.
+        </p>
+        <p xml:id="szovsr-m21806-d1e1517">
+          <lb ed="#P" n="10"/>21. Sed statuitur tanquam vera. — Sed 
+          m<lb break="no" ed="#P" n="11"/>hilominus sententia illa quoad hanc partem
+          <lb ed="#P" n="12"/>mihi probanda videtur. Primo, quia sic vovens
+          <lb ed="#P" n="13"/>intendit se obligare ad opus illud pietatis,
+          <lb ed="#P" n="14"/>quantum potest ; ergo si non potest obligari
+          <lb ed="#P" n="15"/>absolute ad exercitium actus, obligabitur 
+          sal<lb break="no" ed="#P" n="16"/>tem ad determinationem seu specificationem
+          <lb ed="#P" n="17"/>ejus. Nam in votis sicut in juramentis locum
+          <lb ed="#P" n="18"/>habet illa regula, Si non valet quod ago ut
+          <lb ed="#P" n="19"/>ago, valeat, ut valere potcst. Secundo, quia
+          <lb ed="#P" n="20"/>qui vovet impossibile , complectens aliquid
+          <lb ed="#P" n="21"/>possibile, obligatur ad id quod potest, 
+          li<lb break="no" ed="#P" n="22"/>cet non obligetur ad id quod non potest, et
+          <lb ed="#P" n="23"/>(ut statim dicam capite sequenti) qui vovet
+          <lb ed="#P" n="24"/>licitum cum modo illicito, obligatur ad 
+          lici<lb break="no" ed="#P" n="25"/>tum, excluso modo, saltem quando modus
+          <lb ed="#P" n="26"/>non est praecipua ratio vovendi ; ergo in 
+          prae<lb break="no" ed="#P" n="27"/>senti qui vovet tale opus pietatis , obligatur
+          <lb ed="#P" n="28"/>ad illud modo hcito et possibili, licet non 
+          obli<lb break="no" ed="#P" n="29"/>getur ad id quod sub voti obhgationem 
+          cade<lb break="no" ed="#P" n="30"/>re non potest. Tertio, quando aliquis vovet
+          <lb ed="#P" n="31"/>aliquod minus bonum, per se et simpliciter
+          <lb ed="#P" n="32"/>obligatur ad illud, sub tali conditione 
+          subin<lb break="no" ed="#P" n="33"/>tellecta, ut liceat transire ad melius ; sed hoc
+          <lb ed="#P" n="34"/>votum est de opere pietatis ; ergo obligat sub
+          <lb ed="#P" n="35"/>simili conditione. Major communis sententia
+          <lb ed="#P" n="36"/>est, ut paulo antea dixi, et ex dictis in c. 6 et
+          <lb ed="#P" n="37"/>est manifcs'a.
+        </p>
+        <p xml:id="szovsr-m21806-d1e1580">
+          <lb ed="#P" n="38"/>22. Objectio precluditur. — Dices, illud
+          <lb ed="#P" n="39"/>principium intelligi, quando minus bonum
+          <lb ed="#P" n="40"/>non praecludit viam ad bonum perfectius;
+          <lb ed="#P" n="41"/>matrimonium autem praecludere hanc viam.
+          <lb ed="#P" n="42"/>Sed contra, nam propterea dicimus non 
+          obli<lb break="no" ed="#P" n="43"/>gare tale votum ad exercendum actum 
+          matri<lb break="no" ed="#P" n="44"/>monii, sed obligare ad pietatem matrimonii
+          <lb ed="#P" n="45"/>si fiat, et tunc non praecluditur via perfectiori
+          <lb ed="#P" n="46"/>operi ratione voti, sed ex propria voluntate
+          <lb ed="#P" n="47"/>ducendi uxorem, et illa supposita, obligat 
+          vo<lb break="no" ed="#P" n="48"/>tum ad exequendam illam voluntatem titulo
+          <lb ed="#P" n="49"/>pietatis. Unde argumentor quarto: quia si
+          <lb ed="#P" n="50"/>quis explicite voveret, Voveo quod, si 
+          decreve<lb break="no" ed="#P" n="51"/>ro ducere uxorem, pauperem ducam, ut illius
+          <lb ed="#P" n="52"/>miseriam sublevem , votum obligaret ; sed
+          <lb ed="#P" n="53"/>haec conditio tacite inest in voto illo facto in
+          <lb ed="#P" n="54"/>torma absoluta. Nec refert puod fortasse ille,
+          <lb ed="#P" n="55"/>dum vovit, non cogitavit de conditione, vel
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quod forte voluit obligari absolute ad totum
+          <lb ed="#P" n="57"/>actum. Quia hic error non obstat quominus
+          <lb ed="#P" n="58"/>conditio ipsa ibi elaudatur, nec etiam excludit
+          <lb ed="#P" n="59"/>generalem intentionem se obligandi ad illud
+          <lb ed="#P" n="60"/>opus, ut est pietatis, eo modo quo potest. De
+          <lb ed="#P" n="61"/>nique utile per inutile non vitiatur , et ideo
+          <lb ed="#P" n="62"/>licet non tenuerit illa intentio quoad inntile,
+          <lb ed="#P" n="63"/>tenere debuit quoad id in quo utilis esse 
+          po<lb break="no" ed="#P" n="64"/>tuit. Et per haec satis responsum est ad 
+          ratio<lb break="no" ed="#P" n="65"/>nem in oppositum. Nam , licet votum sit
+          <lb ed="#P" n="66"/>unum, interpretandum est in sensu possibili,
+          <lb ed="#P" n="67"/>et intento ex vi motivi, secluso privato errore,
+          <lb ed="#P" n="68"/>quia non minuebat , sed augebat voluntatem
+          <lb ed="#P" n="69"/>se obligandi ad id quod est possibile, seu 
+          con<lb break="no" ed="#P" n="70"/>veniens, ut supra explicatum est.
+        </p>
+        <p xml:id="szovsr-m21806-d1e1656">
+          <lb ed="#P" n="71"/>23. Concluditur resolutio. — Tandem ex
+          <lb ed="#P" n="72"/>his, quae de matrimonio diximus, constat quid
+          <lb ed="#P" n="73"/>dicendum sit de voto assumendi 
+          quemcum<lb break="no" ed="#P" n="74"/>que statum pium, vel quasi statum inferiorem
+          <lb ed="#P" n="75"/>impedientem perfectiorem , solum quasi 
+          ac<lb break="no" ed="#P" n="76"/>tualiter, non tamen inhabilitando ad illum.
+          <lb ed="#P" n="77"/>Dicendum est enim, quando in illo statu 
+          in<lb break="no" ed="#P" n="78"/>feriori est aliquid pietatis elevans hominem
+          <lb ed="#P" n="79"/>aliquo modo ultra statum communem, votum
+          <lb ed="#P" n="80"/>obligare ad illum statum absolute, et per se
+          <lb ed="#P" n="81"/>spectatum, non ablata libertate transeundi ad
+          <lb ed="#P" n="82"/>meliorem. Hoc constat evidenter ex regula
+          <lb ed="#P" n="83"/>posita , et quia tunc illud votum simpliciter
+          <lb ed="#P" n="84"/>est de meliori bono, si ita accipiatur, et non
+          <lb ed="#P" n="85"/>aliter. Exempla sunt: si quis voveat ingredi
+          <lb ed="#P" n="86"/>laxiorem religionem , simpliciter obligatur,
+          <lb ed="#P" n="87"/>quia licet ingrediendo illam omittere videatur
+          <lb ed="#P" n="88"/>perfectiorem, licitum erit illi implere votum
+          <lb ed="#P" n="89"/>in religione perfectiori, et postea etiam licet
+          <lb ed="#P" n="90"/>transitus, per se loquendo, et seclusa Eeclesiae
+          <lb ed="#P" n="91"/>prohibitione, et quoad hoc non est illa 
+          immo<lb break="no" ed="#P" n="92"/>bilitas in statu religioso, quae est in 
+          matrimo<lb break="no" ed="#P" n="93"/>nio. Item si quis vovit perpetuo servire 
+          hospi<lb break="no" ed="#P" n="94"/>tali, obligatur ; potest tamen fieri religiosus,
+          <lb ed="#P" n="95"/>si velit, et sic de aliis, quae ex dictis satis 
+          pa<lb break="no" ed="#P" n="96"/>tent.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

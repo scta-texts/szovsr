@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 38</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 38</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="652"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m16389"><!-- t5l2c38 -->
+        <head xml:id="szovsr-m16389-Hd1e101">Caput 38</head>
+        <head xml:id="szovsr-m16389-Hd1e103" type="question-title">Utrum juramentum promissorium irritari possit?</head>
+        <p xml:id="szovsr-m16389-d1e106">
+          <lb ed="#P" n="59"/>CAPUT XXXVII.
+          <lb ed="#P" n="60"/>UTRUM JURAMENTUM PROMISSORIUM IRRITARI
+          <lb ed="#P" n="61"/>POSSIT?
+        </p>
+        <p xml:id="szovsr-m16389-d1e115">
+          <lb ed="#P" n="62"/>1. Hactenus explicuimus obligationem 
+          jura<lb break="no" ed="#P" n="63"/>menti promissorii, nunc de modis auferendi
+          <lb ed="#P" n="64"/>talem obligationem dicendum est. Prius tamen
+          <lb ed="#P" n="65"/>necesse est nonnullos terminos distinguere et
+          <lb ed="#P" n="66"/>breviter explicare ; nam aliud est juramentum
+          <lb ed="#P" n="67"/>certo non obligare, aliud obligationem ejus
+          <lb ed="#P" n="68"/>quasi sponte sua, seu ipso facto cessare ; aliud
+          <lb ed="#P" n="69"/>obligationem impleri, et ideo jam non durare,
+          <lb ed="#P" n="70"/>aliud vero obligationem ejus esse dubiam, vel
+          <lb ed="#P" n="71"/>a principio, vel per discursum temporis 
+          pro<lb break="no" ed="#P" n="72"/>pter aliquam accidentalem mutationem; aliud
+          <lb ed="#P" n="73"/>item est eamdem obligationem certam ab
+          <lb ed="#P" n="74"/>una re in aliam transferri, seu commutari,
+          <lb ed="#P" n="75"/>aliud vero obligationem semel contractam,
+          <lb ed="#P" n="76"/>et ex se durantem tolli, sine ulla solutione
+          <lb ed="#P" n="77"/>ejusdem, vel aequivalentis rei. Dicitur enim
+          <lb ed="#P" n="78"/>juramentum non obligare, quando a 
+          princi<lb break="no" ed="#P" n="79"/>pio nullum est ; quod quando, et quibus 
+          mo<lb break="no" ed="#P" n="80"/>dis et causis contingat, in superioribus 
+          latis<lb break="no" ed="#P" n="81"/>sime explicatum est, et pauca inferius 
+          adde<lb break="no" ed="#P" n="82"/>mus. Juramenti autem obligatio cessare 
+          dici<lb break="no" ed="#P" n="83"/>tur sponte sua, quando a principio obligavit,
+          <lb ed="#P" n="84"/>et postea per rerum mutationem evacuatur
+          <lb ed="#P" n="85"/>obligatio, et hoc etiam explicatum est. Quod
+          <lb ed="#P" n="86"/>autem per solutionem rei promissae impleatur
+          <lb ed="#P" n="87"/>veritas juramenti, et consequenter 
+          extingua<lb break="no" ed="#P" n="88"/>tur obligatio, per se notum est; modus autem
+          <lb ed="#P" n="89"/>solutionis in praecedenti capite satis 
+          explica<lb break="no" ed="#P" n="90"/>tus est. Ubi etiam declaratum est, quando et
+          <lb ed="#P" n="91"/>quomodo liceat commutatio ; et simul 
+          expli<lb break="no" ed="#P" n="92"/>catum est quomodo prior obligatio quasi 
+          in<lb break="no" ed="#P" n="93"/>dividua cesset, et alia loco illius inaucatur,
+          <lb ed="#P" n="94"/>de cujus observantia, duratione, et solutione
+          <lb ed="#P" n="95"/>idem judicandum est, ac si de illa materia in
+          <lb ed="#P" n="96"/>principio esset juratum. Pro casu vero, in quo
+          <lb ed="#P" n="97"/>juramentum est dubium, non tam 
+          dispensa<lb break="no" ed="#P" n="98"/>tio quam interpretatio necessaria est, de qua
+          <lb ed="#P" n="99"/>supra dictum est, ad quem pertineat.
+        </p>
+        <p xml:id="szovsr-m16389-d1e200">
+          <lb ed="#P" n="100"/>2. Quot modis juramenti obligatio tollatur.
+          <lb ed="#P" n="101"/>—duramenti dispensatio quomodo differat ab
+          <lb ed="#P" n="102"/>ejusdem relazatione. — lgitur de solo ultimo
+          <lb ed="#P" n="103"/>puncto dicendum superest, an scilicet, et 
+          quo<lb break="no" ed="#P" n="104"/>modo possit tolli obligatio juramenti, quando
+          <lb ed="#P" n="105"/>nec per se cessat, nec impletur formaliter, nec
+          <lb ed="#P" n="106"/>virtute, nec per aequivalens. Distingui autem
+          <lb ed="#P" n="107"/>solent varii modi tollendi hanc obligationem
+          <pb ed="#P" n="653"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quos nos ad quatuor reducimus, scilicet, 
+          irri<lb break="no" ed="#P" n="2"/>tatione, condonatione, dispensatione et 
+          relaxa<lb break="no" ed="#P" n="3"/>tione, ex quibus irritatio et dispensatio 
+          com<lb break="no" ed="#P" n="4"/>munes sunt voto, et ideo ibi de illis dicendum
+          <lb ed="#P" n="5"/>est ex professo. Nunc solum supponimus, in
+          <lb ed="#P" n="6"/>juramento irritationem fieri ex parte materiae
+          <lb ed="#P" n="7"/>propter potestatem dominativam, vel quasi
+          <lb ed="#P" n="8"/>dominativam: dispensationem vero fieri ex
+          <lb ed="#P" n="9"/>parte ipsius obligationis, tollendo illam per
+          <lb ed="#P" n="10"/>potestatem jurisdictionis in ipsam personam.
+          <lb ed="#P" n="11"/>Condonatio autem et relasatio specialiter 
+          tri<lb break="no" ed="#P" n="12"/>buuntur juramento , et videtur condonatio
+          <lb ed="#P" n="13"/>esse quaedam irritatio; proprie vero dicitur,
+          <lb ed="#P" n="14"/>quando opligatio a creditore remittitur, et ita
+          <lb ed="#P" n="15"/>propria irritatio erit, quando sine consensu
+          <lb ed="#P" n="16"/>creditoris fit ab alio habente potestatem. 
+          Prae<lb break="no" ed="#P" n="17"/>terea relaxatio interdum videtur sumi in 
+          si<lb break="no" ed="#P" n="18"/>gnificatione generali pro quacumque ablatione
+          <lb ed="#P" n="19"/>vinculi juramenti, interdum vero cum 
+          dispen<lb break="no" ed="#P" n="20"/>satione confunditur, potest vero speciali modo
+          <lb ed="#P" n="21"/>sumi pro determinato modo relaxationis, seu
+          <lb ed="#P" n="22"/>dispensationis. Dispensatio enim et relaxatio
+          <lb ed="#P" n="23"/>stricte sumpta possunt ita distingui, ut 
+          dis<lb break="no" ed="#P" n="24"/>pensatio dicatur, quando ad auferendum 
+          vin<lb break="no" ed="#P" n="25"/>culum juramenti solum spectatur potesias in
+          <lb ed="#P" n="26"/>personam jurantis cum causa ex parte ejus;
+          <lb ed="#P" n="27"/>relaxatio vero, quando causa potissime 
+          atten<lb break="no" ed="#P" n="28"/>ditur ex parte ejus, cui juramentum factum
+          <lb ed="#P" n="29"/>est. Unde dispensatio proprie locum habet in
+          <lb ed="#P" n="30"/>juramentis, qua per modum voti soli Deo,
+          <lb ed="#P" n="31"/>seu absolute fiunt; relaxatio autem in 
+          jura<lb break="no" ed="#P" n="32"/>mentis promissoriis homini factis. Quae 
+          dis<lb break="no" ed="#P" n="33"/>tinctio juramentorum est in hac materia prae
+          <lb ed="#P" n="34"/>oculis habenda, nam juramentum. quod fit
+          <lb ed="#P" n="35"/>per modum voti, soli Deo fit, vel solum illum
+          <lb ed="#P" n="36"/>respicit in obligatione sua; juramentum 
+          au<lb break="no" ed="#P" n="37"/>tem, quod fit homini, pendet ab illo, nam ad
+          <lb ed="#P" n="38"/>illum dicit specialem habitudinem. Ex qua 
+          dif<lb break="no" ed="#P" n="39"/>ferenua oriuntur multae in modo toilendi 
+          obli<lb break="no" ed="#P" n="40"/>gationem utriusque juramenti, ut notavit 
+          Ca<lb break="no" ed="#P" n="41"/>jetanus, dict. art. 9, et ex discursu 
+          sequen<lb break="no" ed="#P" n="42"/>tium capitum patebit. Iu hoc ergo de 
+          irrita<lb break="no" ed="#P" n="43"/>tione, in sequentibus de aliis dicemus.
+        </p>
+        <p xml:id="szovsr-m16389-d1e318">
+          <lb ed="#P" n="44"/>3. A quo relavari possit vinculum 
+          juramen<lb break="no" ed="#P" n="45"/>lti. —Quid sit reale, quid personale 
+          juramen<lb break="no" ed="#P" n="46"/>tum. — Respondeo itaque vinculum juramenti
+          <lb ed="#P" n="47"/>per irritationem auferri posse ab habente 
+          po<lb break="no" ed="#P" n="48"/>testatem. Assertio est communis et clara, quia
+          <lb ed="#P" n="49"/>seepe materia juramenti pertinet ad 
+          domi<lb break="no" ed="#P" n="50"/>nium, vel jus alterius; ergo si ipse ratum non
+          <lb ed="#P" n="51"/>habeat juramentum, et illi contradicat, eo 
+          ip<lb break="no" ed="#P" n="52"/>so cessat obligatio juramenti, imo juste 
+          im<lb break="no" ed="#P" n="53"/>pleri non potest, et hoc est irritari. 
+          Conse<lb break="no" ed="#P" n="54"/>quentia patet, quia juramentum obligare non
+          <lb ed="#P" n="55"/>potest in praejudicium tertii, ut supra osten-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sum est ; ergo si ejus materia est sub jure 
+          al<lb break="no" ed="#P" n="57"/>terius, non potest obligare illo 
+          contradicen<lb break="no" ed="#P" n="58"/>te. Antecedens vero intelligitur facile 
+          distin<lb break="no" ed="#P" n="59"/>guendo duplicia juramenta, sicut et vota vel
+          <lb ed="#P" n="60"/>promissiones distingui solent : quaedam 
+          jura<lb break="no" ed="#P" n="61"/>menta dici possunt realia, alia personalia.
+          <lb ed="#P" n="62"/>Realia dicuntur, quando versantur circa 
+          dis<lb break="no" ed="#P" n="63"/>positionem, vel alienationem, aut donationem
+          <lb ed="#P" n="64"/>rerum externarum; ut cum juro dare decem
+          <lb ed="#P" n="65"/>aureos, vel triticum, vinum, et similia 
+          fortu<lb break="no" ed="#P" n="66"/>na bona. Personalia dicuntur, quando sunt
+          <lb ed="#P" n="67"/>de solis actionibus personae, ut si juro servire,
+          <lb ed="#P" n="68"/>adesse, vel abesse tali loco, studere, vel 
+          si<lb break="no" ed="#P" n="69"/>milia. Contingere ergo potest ut, qui facit 
+          ju<lb break="no" ed="#P" n="70"/>ramentum reale, non habeat potestatem 
+          dis<lb break="no" ed="#P" n="71"/>ponendi de re promissa, quia est sub 
+          domi<lb break="no" ed="#P" n="72"/>nio vel principali administratione alterius, et
+          <lb ed="#P" n="73"/>ea ratione poterit irritari juramentum ab 
+          ha<lb break="no" ed="#P" n="74"/>bente potestatem in talem rem. Simile cum
+          <lb ed="#P" n="75"/>proportione accidit in actionibus. nam potest
+          <lb ed="#P" n="76"/>quis actiones suas habere ita subjectas, et 
+          de<lb break="no" ed="#P" n="77"/>pendentes a voluntate alterius, ut non possit
+          <lb ed="#P" n="78"/>eas licite exercere, vel de illis disponere 
+          con<lb break="no" ed="#P" n="79"/>tra voluntatem ejus: et inde fiet ut, licet sub
+          <lb ed="#P" n="80"/>juramento suas operas promittat, irritari 
+          pos<lb break="no" ed="#P" n="81"/>sit juramentum a domimno, vel superiori, a
+          <lb ed="#P" n="82"/>quo in suis actionibus peudet.
+        </p>
+        <p xml:id="szovsr-m16389-d1e407">
+          <lb ed="#P" n="83"/>4. Juramentum irritari potest a domino et a
+          <lb ed="#P" n="84"/>patre sine speciali causa ; non ita tamen a 
+          su<lb break="no" ed="#P" n="85"/>periori. — Sequitur primo, ad hanc 
+          irritatio<lb break="no" ed="#P" n="86"/>nem non esse necessariam specialem causam,
+          <lb ed="#P" n="87"/>sed suftficere jus vel dominium circa talem
+          <lb ed="#P" n="88"/>materiam, ut aliquis, utens jure suo, illam
+          <lb ed="#P" n="89"/>subtrahat et prohibeat, et consequenter 
+          jura<lb break="no" ed="#P" n="90"/>mentum irritet. Est autem hoc intelligendum
+          <lb ed="#P" n="91"/>cum proportione ad potestatem , nam si illa
+          <lb ed="#P" n="92"/>si mere dominativa, ut est domini in servum,
+          <lb ed="#P" n="93"/>vel suo modo patris in filium, nulla causa 
+          re<lb break="no" ed="#P" n="94"/>quiritur, sed sufficit potestas utendi jure suo;
+          <lb ed="#P" n="95"/>si vero sit potestas jurisdictionis, seu 
+          admi<lb break="no" ed="#P" n="96"/>nistrationis , requiretur causa sufficiens ad
+          <lb ed="#P" n="97"/>prohibendam actionem, vel dispensationem
+          <lb ed="#P" n="98"/>rei juramento promissae, quia hoc 
+          necessa<lb break="no" ed="#P" n="99"/>rium est ut prohibitio sit valida. Praeter hanc
+          <lb ed="#P" n="100"/>vero non requiritur aliqua causa ex parte 
+          ju<lb break="no" ed="#P" n="101"/>ramenti , prout concernit personam jurantem,
+          <lb ed="#P" n="102"/>vel cui juramentum praestatur , quia respectu
+          <lb ed="#P" n="103"/>illarum fit irritatio, quasi per absolutam et
+          <lb ed="#P" n="104"/>dominativam potestatem, nulla habita ratione
+          <lb ed="#P" n="105"/>conventionis illarum. Quae omnia in materia
+          <lb ed="#P" n="106"/>de Voto latius explicanda sunt, et statim
+          <lb ed="#P" n="107"/>exemplis declarabuntur.
+        </p>
+        <p xml:id="szovsr-m16389-d1e464">
+          <lb ed="#P" n="108"/>5. Summus Pontifex et Preelati ratione 
+          a<lb break="no" ed="#P" n="109"/>terie multa irritare possunt juramenta. —
+          <lb ed="#P" n="110"/>Secundo sequitur, posse Pontificem hoc modo
+          <pb ed="#P" n="654"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>irritare multa juramenta ecclesiasticarum 
+          per<lb break="no" ed="#P" n="2"/>sonarum , quatenus versantur circa materias
+          <lb ed="#P" n="3"/>vel actiones, quae per se subsunt juri 
+          Pontifi<lb break="no" ed="#P" n="4"/>cs, ejusque liberae dispositioni. Sic potest
+          <lb ed="#P" n="5"/>Pontifex irritare juramentum clerici de danda
+          <lb ed="#P" n="6"/>consanguineo certa quantitate fructuum 
+          bene<lb break="no" ed="#P" n="7"/>ficii , quia dispensatio illorum fructuum 
+          sem<lb break="no" ed="#P" n="8"/>per est subordinata Pontifici. Ita etiam potest
+          <lb ed="#P" n="9"/>irritare juramentum canonicorum de servando
+          <lb ed="#P" n="10"/>statuto, quia potest statutum abrogare. 
+          Deni<lb break="no" ed="#P" n="11"/>que hoc modo irritat Papa omnia juramenta ,
+          <lb ed="#P" n="12"/>quae impedire possunt liberam 
+          dispensatio<lb break="no" ed="#P" n="13"/>nem, vel distributionem, quam ipse hahet
+          <lb ed="#P" n="14"/>circa beneficia , aut officia, aut gradus 
+          eccle<lb break="no" ed="#P" n="15"/>siasticos, ut recte declarat Cajet. d. q. 89,a.9.
+          <lb ed="#P" n="16"/>Et hoc modo intel.igit regulam c. Venientes, de
+          <lb ed="#P" n="17"/>Jureju., quod in hujusmodi juramento 
+          intelli<lb break="no" ed="#P" n="18"/>gitur semper exceptum jus superioris. Et idem
+          <lb ed="#P" n="19"/>sentiunt Canonistae ibi; Hostien. etiam, et
+          <lb ed="#P" n="20"/>Panorm., in c. Quanto, de Jurejur.. inc.
+          <lb ed="#P" n="21"/>Constitutus, de Rescript.; Angel., 
+          Juramen<lb break="no" ed="#P" n="22"/>tun, 6, in princip.; Sylv., Jurementum, 5,
+          <lb ed="#P" n="23"/>q. 2; Covarr., supra, 1p., S3, n. 5, et 
+          om<lb break="no" ed="#P" n="24"/>nes. Et haec regula cum proportione 
+          applican<lb break="no" ed="#P" n="25"/>da est ad alios Praelatos ecclesiasticos respectu
+          <lb ed="#P" n="26"/>suorum subditorum respective , quoad illas
+          <lb ed="#P" n="27"/>materias, in quibus possunt ipsi libere 
+          dispo<lb break="no" ed="#P" n="28"/>nere, aut praecipere, vel prohibere ; poterunt
+          <lb ed="#P" n="29"/>enim jure suo uti, non obstante juramento
+          <lb ed="#P" n="30"/>subditi. Ut si inferior clericus juravit mutuare
+          <lb ed="#P" n="31"/>vestes, vel alias res ecclesiae, potest Episcopus
+          <lb ed="#P" n="32"/>suo nutu tale juramentum irritare. Maxime
+          <lb ed="#P" n="33"/>vero reperitur baec potestas in praelatis 
+          religio<lb break="no" ed="#P" n="34"/>num respectu subditorum , de qua re dicturi
+          <lb ed="#P" n="35"/>sumus late in tract. de Voto, et ideo hic illam
+          <lb ed="#P" n="36"/>praetermittimus.
+        </p>
+        <p xml:id="szovsr-m16389-d1e555">
+          <lb ed="#P" n="37"/>6. Principes et laice potestates quomodo 
+          ir<lb break="no" ed="#P" n="38"/>ritare possint juramenta. — Ecclesiastica po-.
+          <lb ed="#P" n="39"/>testas laicorum juramenta irritare potest. —
+          <lb ed="#P" n="40"/>Sequitur tertio, non esse propriam Ecclesiae 
+          po<lb break="no" ed="#P" n="41"/>testatem hanc, sed esse posse etiam in 
+          princi<lb break="no" ed="#P" n="42"/>pibus et potestatibus laicis. Nam licet illi non
+          <lb ed="#P" n="43"/>habeant directam potestatem in juramentum,
+          <lb ed="#P" n="44"/>vel obligationem ejus, quae ad forum 
+          eccle<lb break="no" ed="#P" n="45"/>siasticum pertinet, c. ult., de Foro 
+          competen<lb break="no" ed="#P" n="46"/>te, in 6, nihilominus ratione materiae possunt
+          <lb ed="#P" n="47"/>irrita facere illa juramenta, quae eorum juri,
+          <lb ed="#P" n="48"/>vel dominio, aut potestati praejudicant. Sic
+          <lb ed="#P" n="49"/>rex potest irritare juramentum factum a suo
+          <lb ed="#P" n="50"/>subdito, vel de donanda quantitate pecuniae,
+          <lb ed="#P" n="51"/>vel de eundo in alium locum, vel aliqua re 
+          si<lb break="no" ed="#P" n="52"/>mili. Quia potcst prohibere illum ne discedat
+          <lb ed="#P" n="53"/>a tali loco, vel ne in talem locum eat, vel ne
+          <lb ed="#P" n="54"/>donet, et tunc juramentum eo ipso desinit 
+          ob<lb break="no" ed="#P" n="55"/>ligare, quia incipit esse de re illicita. Et isto
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>modo etiam potestas ecclesiastica poterit 
+          in<lb break="no" ed="#P" n="57"/>terdum irritare juramenta laicorum, 
+          prohiben<lb break="no" ed="#P" n="58"/>do actus, circa quos versantur, et pravam 
+          red<lb break="no" ed="#P" n="59"/>dendo executionem rei juratae, quando materia
+          <lb ed="#P" n="60"/>talis est, ut ad ecclesiasticam potestatem 
+          perti<lb break="no" ed="#P" n="61"/>neat. Quia vero haec non possunt ab his 
+          potesta<lb break="no" ed="#P" n="62"/>tibus pro libito prohiberi aut praecipi, sed ex
+          <lb ed="#P" n="63"/>rationabili causa, ideo in tali modo irritationis
+          <lb ed="#P" n="64"/>requiritur causa justa preecipiendi, vel 
+          prohi<lb break="no" ed="#P" n="65"/>bendi, non tamen requiritur major vel 
+          specia<lb break="no" ed="#P" n="66"/>lis causa propter interpositum juramentum
+          <lb ed="#P" n="67"/>subditi. Illud enim non potest impedire 
+          princi<lb break="no" ed="#P" n="68"/>pi aut praelato liberum usum suae potestatis,
+          <lb ed="#P" n="69"/>et ideo haec proprie irritatio vocatur. n
+        </p>
+        <p xml:id="szovsr-m16389-d1e631">
+          <lb ed="#P" n="70"/>7. Parentes, domini et marità irritare 
+          pos<lb break="no" ed="#P" n="71"/>sunt juramenta, quee illorum dominio 
+          preju<lb break="no" ed="#P" n="72"/>dicant. — Quarto sequitur, etiam parentes
+          <lb ed="#P" n="73"/>posse irritare juramenta realia et personalia
+          <lb ed="#P" n="74"/>filiorum, et viros uxorum, et dominos 
+          servo<lb break="no" ed="#P" n="75"/>rum, in his rebus quae praejudicant dominio
+          <lb ed="#P" n="76"/>seu potostati eorum. Ita D. Thomas, d. q. 89,
+          <lb ed="#P" n="77"/>art. 9, ad 3, et ibi omnes; et Sylvest., 
+          Jura<lb break="no" ed="#P" n="78"/>mentum, 6, q. 1, et est res clara ex principio
+          <lb ed="#P" n="79"/>posito, et habetur Numer. 30. Sed de his 
+          dice<lb break="no" ed="#P" n="80"/>mus ex proposito tractando de Voto, quia est
+          <lb ed="#P" n="81"/>eadem ratio. |
+        </p>
+        <p xml:id="szovsr-m16389-d1e660">
+          <lb ed="#P" n="82"/>8. Quo pacto itutores irritare possint 
+          jura<lb break="no" ed="#P" n="83"/>menta minoris.—Solum hic potest interrogari,
+          <lb ed="#P" n="84"/>an juramenta minoris possint irritari a 
+          tuto<lb break="no" ed="#P" n="85"/>ribus. Et ratio dubitandi est, quia vota 
+          pos<lb break="no" ed="#P" n="86"/>sunt irritari, et quia etiam minores sunt 
+          sub<lb break="no" ed="#P" n="87"/>jecti administrationi tutorum. In contrarium
+          <lb ed="#P" n="88"/>autem 'videtur facere Authent. Sacramenta
+          <lb ed="#P" n="89"/>puberum, et lex 1, Cod. Si adversus vendit.,
+          <lb ed="#P" n="90"/>ubi juramenta minorum dicuntur esse rata et
+          <lb ed="#P" n="91"/>firma. Respondeo imprimis juramenta 
+          pupil<lb break="no" ed="#P" n="92"/>lorum, quae votum includunt, vel sapiunt 
+          na<lb break="no" ed="#P" n="93"/>turam voti, irritari posse a tutoribus, eo modo
+          <lb ed="#P" n="94"/>quo vota, quia est eadem ratio, ut saepe dictum
+          <lb ed="#P" n="95"/>est, et ita haec remittimus ad materiam de
+          <lb ed="#P" n="96"/>Voto. Deinde assero, etiam minorum 
+          jura<lb break="no" ed="#P" n="97"/>menta, quae versantur circa contractus 
+          huma<lb break="no" ed="#P" n="98"/>nos, vel promissiones hominibus factas, posse
+          <lb ed="#P" n="99"/>a tutoribus irritavi, quando contractus ipsi 
+          in<lb break="no" ed="#P" n="100"/>validi sunt non obstante juramento. Probatur,
+          <lb ed="#P" n="101"/>quia tunc ratione contractus nullum jus est
+          <lb ed="#P" n="102"/>acquisitum tertio , manet ergo juramentum in
+          <lb ed="#P" n="103"/>sola obligatione religionis ; ergo potest irritari
+          <lb ed="#P" n="104"/>sicut alia vota, vel juramenta, quae per se 
+          ob<lb break="no" ed="#P" n="105"/>ligant soli Deo.
+        </p>
+        <p xml:id="szovsr-m16389-d1e716">
+          <lb ed="#P" n="106"/>9. Unde ulterius addo, juramenta puberum,
+          <lb ed="#P" n="107"/>quibus confirmatur contractus, non posse 
+          irri<lb break="no" ed="#P" n="108"/>tari a tutoribus. Probatur, quia per citatas 
+          le<lb break="no" ed="#P" n="109"/>ces talia juramenta sunt omnino firma et 
+          ra<lb break="no" ed="#P" n="110"/>ta. Item per illos contractus acquiritur jus
+          <pb ed="#P" n="655"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tertio, quod tutor auferre non potest, et 
+          con<lb break="no" ed="#P" n="2"/>sequenter nec fundamentum ejus, quod est
+          <lb ed="#P" n="3"/>juramentum, ita lege statuente. Et ratio a
+          <lb ed="#P" n="4"/>priori est, quia potestas irritandi 
+          juramen<lb break="no" ed="#P" n="5"/>tum potest a lege civili pendere, quatenus
+          <lb ed="#P" n="6"/>subjectio minoris, et dependentia voluntatis
+          <lb ed="#P" n="7"/>ejus a tutore potest per legem minui, vel 
+          auge<lb break="no" ed="#P" n="8"/>ri. Et ita notavit Less., l. 2, c. 42, n. 6f;et
+          <lb ed="#P" n="9"/>Sanc., l. 6 de Matrimon., disp. 38, n. 17, ubi
+          <lb ed="#P" n="10"/>refert Ludovic. Lopez, dicentem contrarium ;
+          <lb ed="#P" n="11"/>sed non video fundamentum, nec quomodo
+          <lb ed="#P" n="12"/>respondere possit dispositioni legum.
+        </p>
+        <p xml:id="szovsr-m16389-d1e760">
+          <lb ed="#P" n="13"/>10. Cap. Pueri. — Juramenta impuberum,
+          <lb ed="#P" n="14"/>quibus suos contractus confirmant, possunt a
+          <lb ed="#P" n="15"/>tutoribus irritari. — De juramentis autem 
+          im<lb break="no" ed="#P" n="16"/>puberum, quibus suos contractus confirmant,
+          <lb ed="#P" n="17"/>dissentiunt inter se dicti auctores. Prior enim
+          <lb ed="#P" n="18"/>putat posse talia juramenta irritari a tutoribus
+          <lb ed="#P" n="19"/>ex c. Pueri, 22, q. 5. Et quia de illis nihil in
+          <lb ed="#P" n="20"/>contrarium dispositum est jure, et ideo 
+          se<lb break="no" ed="#P" n="21"/>quuntur generalem regulam, quod non sunt
+          <lb ed="#P" n="22"/>sui juris, sed subsunt tutoribus quoad omnes
+          <lb ed="#P" n="23"/>obligationes suas; etita sicut vota illorum 
+          pos<lb break="no" ed="#P" n="24"/>sunt tutores irritare, ita et juramenta ; et hoc
+          <lb ed="#P" n="25"/>etiam absolute affirmat Ludovic. Lopez, lib.2
+          <lb ed="#P" n="26"/>de Contract., c. 39. At veroSancius oppositum
+          <lb ed="#P" n="27"/>sentit, supponendo unum principium, scilicet,
+          <lb ed="#P" n="28"/>contractus istorum pupillorum faetos sine 
+          auc<lb break="no" ed="#P" n="29"/>toritate tutorum non esse omnino irritos quoad
+          <lb ed="#P" n="30"/>obligationem naturalem ; ex quo infert, si 
+          con<lb break="no" ed="#P" n="31"/>firmentur juramento, non posse tutores talia
+          <lb ed="#P" n="32"/>juramenta irritare, quia cum acquiratur jus
+          <lb ed="#P" n="33"/>tertio, non habet locum irritatio tutoris. Mihi
+          <lb ed="#P" n="34"/>vero prior sententia placet, tum quia illud
+          <lb ed="#P" n="35"/>suppositum de validitate contractus incertum
+          <lb ed="#P" n="36"/>est, et contrarium est valde probabile, et 
+          pos<lb break="no" ed="#P" n="37"/>set tutor uti jure suo adhaerendo illi opinioni
+          <lb ed="#P" n="38"/>ut probabili. Tum etiam quia licetil!e 
+          contrac<lb break="no" ed="#P" n="39"/>tus non sit irritus ipso jure, irritari potest ab
+          <lb ed="#P" n="40"/>ipso tutore, acujus voluntate voluntas pupilli
+          <lb ed="#P" n="41"/>pendet, et ita consequenter poterit etiam 
+          irri<lb break="no" ed="#P" n="42"/>tari juramentum. Et ita dixit Soto, 
+          dictaquaes<lb break="no" ed="#P" n="43"/>tione prima, articulo nono, quando pater aut
+          <lb ed="#P" n="44"/>maritus ( et idem est de tutore ) potest 
+          irri<lb break="no" ed="#P" n="45"/>tare suorum contractum , consequenter 
+          tol<lb break="no" ed="#P" n="46"/>lere posse obligationem juramenti, quia 
+          tolli<lb break="no" ed="#P" n="47"/>tur ejus materia; quando autem non potest
+          <lb ed="#P" n="48"/>mrritare contractum, nec juramentum posse.
+        </p>
+        <p xml:id="szovsr-m16389-d1e841">
+          <lb ed="#P" n="49"/>12. Sed dubitari potest circa assertionem
+          <lb ed="#P" n="50"/>positam, an per legem, vel potestatem 
+          huma<lb break="no" ed="#P" n="51"/>nam fieri possit, ut juramentum irritetur non
+          <lb ed="#P" n="52"/>solum ex parte materiae, sed etiam ex parte
+          <lb ed="#P" n="53"/>ipsius jurantis. Ut enim latius de voto 
+          dice<lb break="no" ed="#P" n="54"/>mus, duobus modis intelligi potest irritatio
+          <lb ed="#P" n="55"/>ejus. Primo ex parte materiae subtrahendo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>illam per prohibitionem, vel per 
+          inhabilita<lb break="no" ed="#P" n="57"/>tem personae, et irritationem actus promissi.
+          <lb ed="#P" n="58"/>Secundo immediate, irritando ipsum actum
+          <lb ed="#P" n="59"/>voti in se, ex parte voluntatis ipsius 
+          promitten<lb break="no" ed="#P" n="60"/>tis, reldendo illam inefficacem ad 
+          promitten<lb break="no" ed="#P" n="61"/>dum. Hi ergo duo modi applicari possunt ad
+          <lb ed="#P" n="62"/>juramentum, et de priori nulla est difficultas,
+          <lb ed="#P" n="63"/>quin habeat locum in juramento, et hoc 
+          pro<lb break="no" ed="#P" n="64"/>bant omnia hactenus dicta; et hanc vocare
+          <lb ed="#P" n="65"/>possumus irritationem quasi indirectam, quia
+          <lb ed="#P" n="66"/>solum est per subtractionem materiae. 
+          Potest<lb break="no" ed="#P" n="67"/>que aliis duobus modis fieri, ut infra de voto
+          <lb ed="#P" n="68"/>dicam, scilicet consequenter vel antecedenter,
+          <lb ed="#P" n="69"/>id est, vel post factum juramentum, et 
+          con<lb break="no" ed="#P" n="70"/>tractam obligationem, tollendo illam per 
+          sub<lb break="no" ed="#P" n="71"/>tractionem materiae, prohibendo nimirum vel
+          <lb ed="#P" n="72"/>irritando actum promissum, de quo modo
+          <lb ed="#P" n="73"/>procedit conclusio posita ; vel antequam 
+          jura<lb break="no" ed="#P" n="74"/>mentum fiat, praveniendo ut non possit a
+          <lb ed="#P" n="75"/>principio obligare, quod eadem proportione 
+          fie<lb break="no" ed="#P" n="76"/>ri potest per prohibitionem materiae, ut ex
+          <lb ed="#P" n="77"/>dictis de juramentis contra leges humanas satis
+          <lb ed="#P" n="78"/>constat.
+        </p>
+        <p xml:id="szovsr-m16389-d1e911">
+          <lb ed="#P" n="79"/>12. An juramentum per huumanam 
+          potesta<lb break="no" ed="#P" n="80"/>tem directe possit irritari. — Difficultas ergo
+          <lb ed="#P" n="81"/>est, an directe et in se possit juramentum 
+          irri<lb break="no" ed="#P" n="82"/>tari per humanam potestatem, vel postquam
+          <lb ed="#P" n="83"/>factum est, reddendo inefficax ipsum 
+          juramen<lb break="no" ed="#P" n="84"/>tum ad obligandum, etiamsi materia non fiat
+          <lb ed="#P" n="85"/>incapax, vel etiam antecedenter, faciendo ut
+          <lb ed="#P" n="86"/>a principio juramentum non obliget, 
+          etiam<lb break="no" ed="#P" n="87"/>si materia non prohibeatur, nec fiat 
+          inca<lb break="no" ed="#P" n="88"/>pas.
+        </p>
+        <p xml:id="szovsr-m16389-d1e935">
+          <lb ed="#P" n="89"/>13. Juramentum non potest directe irritari.
+          <lb ed="#P" n="90"/>— Discrimen inter juramentum et votum.—
+          <lb ed="#P" n="91"/>Respondeo valde probabile esse, irritationem
+          <lb ed="#P" n="92"/>juramenti nunquam posse fieri sine mutatione
+          <lb ed="#P" n="93"/>ex parte materiae, propter dependentiam quam
+          <lb ed="#P" n="94"/>illa habet ab irritante. Probatur, quia valde
+          <lb ed="#P" n="95"/>probabile est non posse fieri, ut juramentum
+          <lb ed="#P" n="96"/>non sit juramentum quoad esse juramenti,
+          <lb ed="#P" n="97"/>per solam irritationem consensus, seu 
+          volun<lb break="no" ed="#P" n="98"/>tatis ipsius jurantis; quia si ille habet 
+          inten<lb break="no" ed="#P" n="99"/>tionem jurandi, et de facto profert verba 
+          in<lb break="no" ed="#P" n="100"/>vocationis divini testimonii, super materiam
+          <lb ed="#P" n="101"/>capacem, non potest illa intentio ita irritari,
+          <lb ed="#P" n="102"/>quin sufficiat ad juramentum, quia nulla alia
+          <lb ed="#P" n="103"/>efficacia requiritur in illa intentione ad 
+          ratio<lb break="no" ed="#P" n="104"/>nem juramenti, nisi quod ab illa procedat 
+          effi<lb break="no" ed="#P" n="105"/>caciter invocatio divini nominis ad 
+          testifican<lb break="no" ed="#P" n="106"/>dum. Et hine consequenter sequitur non 
+          pos<lb break="no" ed="#P" n="107"/>se juramentum illud irritari quoad 
+          obligatio<lb break="no" ed="#P" n="108"/>nem, nisi mutando materiam, vel per moduin
+          <lb ed="#P" n="109"/>condonationis. Probatur, quia stante materia
+          <lb ed="#P" n="110"/>capaci, obligatio juramenti est mere naturalis,
+          <pb ed="#P" n="656"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et independens ab hominis voluntate, quia ex
+          <lb ed="#P" n="2"/>jure naturae sequitur, ut supra ostensum est.
+          <lb ed="#P" n="3"/>Unde in hoc videtur esse differentia inter 
+          ju<lb break="no" ed="#P" n="4"/>ramentum et votum, nam votum consistit in
+          <lb ed="#P" n="5"/>ipsa promissione efficaci ad oblivandum ; et ita
+          <lb ed="#P" n="6"/>substantia voti pendet ex voluntate se 
+          obli<lb break="no" ed="#P" n="7"/>gandi, quae voluntas potest irritari tam 
+          ante<lb break="no" ed="#P" n="8"/>cedenter quam consequenter, ut iufra 
+          videbi<lb break="no" ed="#P" n="9"/>mus. Juramentum autem est aliquid prius, a
+          <lb ed="#P" n="10"/>quo naturaliter sequitur obligatio; requirit
+          <lb ed="#P" n="11"/>autem materiam capacem, et acceptationem
+          <lb ed="#P" n="12"/>ejus in cujus gratiam fit; et ideo solum ex
+          <lb ed="#P" n="13"/>his capitibus potest irritari, vel relaxari, ut
+          <lb ed="#P" n="14"/>in sequentibus videbimus. Et hanc 
+          differen<lb break="no" ed="#P" n="15"/>tiam inter votum et juramentum notavit 
+          Va<lb break="no" ed="#P" n="16"/>lent., disp. 6, q. 7, punct. 4, 8 3, verb. 
+          Quar<lb break="no" ed="#P" n="17"/>tum, hcet rationem ejus paulo aliter explicare
+          <lb ed="#P" n="18"/>videatur, quae est probabilis, et illam latius
+          <lb ed="#P" n="19"/>examinabimus in tractatu de Voto. Hic vero
+          <lb ed="#P" n="20"/>interrogari potest, qualis mutatio materiae 
+          ne<lb break="no" ed="#P" n="21"/>cessaria sit. Sed hoc pendet ex dicendis, et ideo
+          <lb ed="#P" n="22"/>breviter dico, non esse semper necessarium ut
+          <lb ed="#P" n="23"/>prohibeatur actio, vel alia detur obligatio, sed
+          <lb ed="#P" n="24"/>sufficere ut aliqua condonatio intercedat, ut in
+          <lb ed="#P" n="25"/>sequentibus videbimus.
+        </p>
+        <p xml:id="szovsr-m16389-d1e1044">
+          <lb ed="#P" n="26"/>14. Objectio. — Sed objici potest, quia 
+          Con<lb break="no" ed="#P" n="27"/>cilium Tridentinum, session. 25, cap. 16, de
+          <lb ed="#P" n="28"/>Regular., irritat juramentum novitii 
+          renun<lb break="no" ed="#P" n="29"/>ciantis bonis suis sine licentia Episcopi ante
+          <lb ed="#P" n="30"/>duos menses proximos professioni, quae 
+          irrita<lb break="no" ed="#P" n="31"/>tio videtur cadere directe in juramentum 
+          ip<lb break="no" ed="#P" n="32"/>sum. Item in hoc regno Lusitania, est lex
+          <lb ed="#P" n="33"/>civilis irritans juramenta addita 
+          quibuscum<lb break="no" ed="#P" n="34"/>que contractibus civilibus ad confirmandos
+          <lb ed="#P" n="35"/>illos, lib. 4 Ordin., tit. 73; et similis habetur
+          <lb ed="#P" n="36"/>in regno Castellae, licet cum aliqua majori 
+          mo<lb break="no" ed="#P" n="37"/>deratione, in nova Recopil., l. 4, tit. 1,1. Il et
+          <lb ed="#P" n="38"/>12; etin d. Authent. Sacramenta puberum,
+          <lb ed="#P" n="39"/>irritantur juramenta saltem extorta per vim
+          <lb ed="#P" n="40"/>et metum.
+        </p>
+        <p xml:id="szovsr-m16389-d1e1080">
+          <lb ed="#P" n="41"/>14. Respondetur ad objectionem. — 
+          Respon<lb break="no" ed="#P" n="42"/>detur ad priorem partem, Concilium irritasse
+          <lb ed="#P" n="43"/>illud juramentum, irritando contractum, et
+          <lb ed="#P" n="44"/>consensum ejus in cujus favorem fit 
+          renun<lb break="no" ed="#P" n="45"/>ciatio. Sed hoc non satisfacit, quia stante 
+          nul<lb break="no" ed="#P" n="46"/>litate contractus, et acceptationis sufficientis
+          <lb ed="#P" n="47"/>ad acquirendum jus et dominium, potest 
+          ju<lb break="no" ed="#P" n="48"/>ramentum esse validum, et obligare, ut patet
+          <lb ed="#P" n="49"/>in juramento solvendi usuras. Propter hoc
+          <lb ed="#P" n="50"/>addi potest, Concilium, irritando, remisisse
+          <lb ed="#P" n="51"/>et condonasse obligationem juramenti per
+          <lb ed="#P" n="52"/>potestatem superiorem, ut in sequenti puncto
+          <lb ed="#P" n="53"/>dicemus. Facilius tamen dicitur, supposita 
+          pro<lb break="no" ed="#P" n="54"/>hibitione Concilu, illud juramentum esse 
+          con<lb break="no" ed="#P" n="55"/>a bonos mores, et ideo irritationem illam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>etiam esse ex parte materiae. Quia illa 
+          renun<lb break="no" ed="#P" n="57"/>ciatio prohibita est in favorem religiosi status,
+          <lb ed="#P" n="58"/>ut ejus professio liberior sit, cui libertati 
+          im<lb break="no" ed="#P" n="59"/>pedimentum afferebant similes 
+          renunciatio<lb break="no" ed="#P" n="60"/>nes; et ideo illas nunc facere, et illis velle
+          <lb ed="#P" n="61"/>obligari malum est, ac propterea merito tale
+          <lb ed="#P" n="62"/>juramentum irritum fit, vel declaratur.
+        </p>
+        <p xml:id="szovsr-m16389-d1e1132">
+          <lb ed="#P" n="63"/>16. Ad leges horum regnorum respondetur,
+          <lb ed="#P" n="64"/>in illis nullum esse verbum de irritatione 
+          ju<lb break="no" ed="#P" n="65"/>ramenti, nam talis irritatio, etiamsi directe
+          <lb ed="#P" n="66"/>fieri posset, non posset fieri per legem civilem,
+          <lb ed="#P" n="67"/>cum sit extra forum ejus. Solum ergo 
+          irritan<lb break="no" ed="#P" n="68"/>tur ibi contractus civiles, quando juramentum
+          <lb ed="#P" n="69"/>eis additur; et tunc licet ex contractibus non
+          <lb ed="#P" n="70"/>nascatur obligatio ratione illarum legum, 
+          ju<lb break="no" ed="#P" n="71"/>ramentum per se obligabit ad id, de quo 
+          fac<lb break="no" ed="#P" n="72"/>tum est, quodque sine peccato fieri potest. Hoc
+          <lb ed="#P" n="73"/>enim non potest impedire lex civilis, stante tali
+          <lb ed="#P" n="74"/>conditione, ut in illis juramentis revera stat,
+          <lb ed="#P" n="75"/>non obstantibus illis legibus, nam si 
+          juramen<lb break="no" ed="#P" n="76"/>tum est de non contraveniendo illis 
+          cortrac<lb break="no" ed="#P" n="77"/>tibus quantumvis nullis, licite servari potest;
+          <lb ed="#P" n="78"/>servandum ergo est. Non carent tamen 
+          diffi<lb break="no" ed="#P" n="79"/>cultate illae leges irritantes contractum solum
+          <lb ed="#P" n="80"/>propter adjectionem juramenti, nam videntur
+          <lb ed="#P" n="81"/>saltem indirecte esse contra libertatem 
+          eccle<lb break="no" ed="#P" n="82"/>siasticam, licet lex Castellae expresse id neget,
+          <lb ed="#P" n="83"/>et in ea dicatur, ita post diligentem 
+          inquisitio<lb break="no" ed="#P" n="84"/>nem judicatum esse. Sed hoc examinare ad
+          <lb ed="#P" n="85"/>rem praesentem non spectat ; videri potest 
+          Co<lb break="no" ed="#P" n="86"/>var. supra, et Didac. Perez, lib. Ordin. 
+          Cas<lb break="no" ed="#P" n="87"/>tellae, tit. 1, 1. 6; et Valasc., tom. 1 Consil.,
+          <lb ed="#P" n="88"/>in 99.
+        </p>
+        <p xml:id="szovsr-m16389-d1e1191">
+          <lb ed="#P" n="89"/>17. Ad Authenticam, quicquid ibi Bart. et
+          <lb ed="#P" n="90"/>alii dicant , respondendum est, juramentum
+          <lb ed="#P" n="91"/>illud obligare, et validum esse, posse tamen
+          <lb ed="#P" n="92"/>postea relaxari per ecclesiasticam potestatem,
+          <lb ed="#P" n="93"/>de quo supra dictum est. Quod ergo ibi 
+          dici<lb break="no" ed="#P" n="94"/>tur de tali juramento : Jullius momenti esse
+          <lb ed="#P" n="95"/>jubemus, intelligendum est quoad 
+          confirma<lb break="no" ed="#P" n="96"/>tionem contractus, de quo lex illa tractaverat,
+          <lb ed="#P" n="97"/>non quoad obligationem suam inducendam,
+          <lb ed="#P" n="98"/>quae ex illa lege non pendet; vel, quod in idem
+          <lb ed="#P" n="99"/>redit, intelligitur nullius esse momenti quoad
+          <lb ed="#P" n="100"/>dandam actionem in foro civili, secus in 
+          cons<lb break="no" ed="#P" n="101"/>cientia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1045"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m26190"><!-- t6l6prae -->
+        <head xml:id="szovsr-m26190-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m26190-d1e103">
+          <pb ed="#P" n="1045"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SEXTUS
+          <lb ed="#P" n="2"/>DE MODIS
+          <lb ed="#P" n="3"/>QUIBUS VOTUM EJUSVE OBLIGATIO TOLLI POTEST, VIDELICET, TRRITATIONE,
+          <lb ed="#P" n="4"/>DISPENSATIONE ET COMMUTATIONE.
+        </p>
+        <p xml:id="szovsr-m26190-d1e119">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>Explicando voti naturam et obligationem,
+          <lb ed="#P" n="6"/>declaravimus quomodo interdum contingat,
+          <lb ed="#P" n="7"/>aut votum a principio non obligare, ac 
+          su<lb break="no" ed="#P" n="8"/>binde esse nullum ; vel, licet initio validum
+          <lb ed="#P" n="9"/>fuerit, postea per rerum mutationem cessare;
+          <lb ed="#P" n="10"/>in hoc ergo libro explicandum superest quibus
+          <lb ed="#P" n="11"/>modis possit votum validum, et in sua vi et
+          <lb ed="#P" n="12"/>obligatione perseverans, per hominem auferri;
+          <lb ed="#P" n="13"/>nam quod auferri possit, pro constanti 
+          suppo<lb break="no" ed="#P" n="14"/>nitur, et patebit ex dicendis. Non enim uno
+          <lb ed="#P" n="15"/>tantum modo auferri potest, et ideo generalis
+          <lb ed="#P" n="16"/>illa conclusio melius probabitur discurrendo
+          <lb ed="#P" n="17"/>per singulos modos, quibus auferri potest,
+          <lb ed="#P" n="18"/>quam in communi, quia hujusmodi actiones
+          <lb ed="#P" n="19"/>et causae earum circa particularia versantur.
+          <lb ed="#P" n="20"/>In communi ergo satis sit dicere, non fuisse
+          <lb ed="#P" n="21"/>conveniens obligationem voti ita esse 
+          perpe<lb break="no" ed="#P" n="22"/>tuam, ut semel inhaerens removeri non possit;
+          <lb ed="#P" n="23"/>nam considerata mutabili conditione humanae
+          <lb ed="#P" n="24"/>naturae, esset valde dura et perniciosa talis
+          <lb ed="#P" n="25"/>conditio. Pertinuit ergo ad convenientem 
+          gu<lb break="no" ed="#P" n="26"/>bernationem, et quasi necessariam 
+          providen<lb break="no" ed="#P" n="27"/>tiam erga homines, ut aliqua via et modo 
+          pos<lb break="no" ed="#P" n="28"/>set haec auferri, si expediret. Tres autem modi
+          <lb ed="#P" n="29"/>auferendi votum distingui solent, qui sunt 
+          ir<lb break="no" ed="#P" n="30"/>ritatio, dispensatio et commutatio, quos 
+          ter<lb break="no" ed="#P" n="31"/>minos explicuimus tractando de juramento,
+          <lb ed="#P" n="32"/>quoad vocum significationem ; quoad ipsam
+          <lb ed="#P" n="33"/>vero rem ex singulorum tractatione constabit,
+          <lb ed="#P" n="34"/>quid sint, et quomodo distinguantur, ac 
+          deni<lb break="no" ed="#P" n="35"/>que quomodo nonnulli alii, qui addi solent, ad
+          <lb ed="#P" n="36"/>illos reducantur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

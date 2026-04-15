@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1013"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m25406"><!-- t6l5prae -->
+        <head xml:id="szovsr-m25406-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m25406-d1e103">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="19"/>LIBER QUINTUS
+          <lb ed="#P" n="20"/>DE VITITS SEU PROCATIS
+          <lb ed="#P" n="21"/>VOTO EJUSQUE OBLIGATIONI CONTRARIIS.
+        </p>
+        <p xml:id="szovsr-m25406-d1e114">
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="22"/>Quibus modis peccetur contra votum. — Que
+          <lb ed="#P" n="23"/>requirantur ad honestatem voti. —Explicuimus
+          <lb ed="#P" n="24"/>omnia, quae ad intelligendam voti naturam et
+          <lb ed="#P" n="25"/>obligationem necessaria visa sunt ; nune 
+          opor<lb break="no" ed="#P" n="26"/>tet ut de peccatis voto contrariis disseramus ;
+          <lb ed="#P" n="27"/>hoc enim necessarium est ad perfectionem
+          <lb ed="#P" n="28"/>doctrinae moralis : nam, licet fere omnia 
+          su<lb break="no" ed="#P" n="29"/>perioribus libris tractata moralia sint, tamen
+          <lb ed="#P" n="30"/>non satis applicantur ad mores, nisi modi 
+          pec<lb break="no" ed="#P" n="31"/>candi in tali materia in particulari tradantur.
+          <lb ed="#P" n="32"/>Et ideo haec consulto separatim tractanda 
+          re<lb break="no" ed="#P" n="33"/>servavimus, ut distinctius et facilius 
+          compre<lb break="no" ed="#P" n="34"/>hendantur, et usui esse possint. Optimoque
+          <lb ed="#P" n="35"/>ordine in hunc locum cadit haec disputatio,
+          <cb ed="#P" n="f"/>
+          <lb ed="#P" n="36"/>priusquam de modis, quibus vota auferuntur,
+          <lb ed="#P" n="37"/>tractemus, quia voti ablatio ad hoc ordinatur,
+          <lb ed="#P" n="38"/>ut culpa et peccatum in iilo non observando
+          <lb ed="#P" n="39"/>excusetur. Duobus autem modis, in genere 
+          lo<lb break="no" ed="#P" n="40"/>quendo , peceari potest circa votum , scilicet,
+          <lb ed="#P" n="41"/>vel male vovendo, vel violando votum, quia
+          <lb ed="#P" n="42"/>duplex intelligitur in voto obligatio : una,
+          <lb ed="#P" n="43"/>quasi antecedens ipsum votum, et obligans ut
+          <lb ed="#P" n="44"/>debito modo fiat ; alia, ex voto ipso resultans,
+          <lb ed="#P" n="45"/>ut impleatur. Contra priorem peccari potest
+          <lb ed="#P" n="46"/>in voto faciendo ; contra posteriorem , contra
+          <lb ed="#P" n="47"/>votum jam factum. Et de utroque modo 
+          pec<lb break="no" ed="#P" n="48"/>candi dicendum est. Ad honestatem autem
+          <lb ed="#P" n="49"/>voti duo requiruntur, scilicet, modus fidelis ct
+          <pb ed="#P" n="1014"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prudens vovendi, et materia debita, et ita
+          <lb ed="#P" n="2"/>possumus duos modos peccandi in vovendo
+          <lb ed="#P" n="3"/>considerare , qui faciles sunt ex dictis, et ideo
+          <lb ed="#P" n="4"/>illos prius breviter expediemus ; postea circa
+          <lb ed="#P" n="5"/>proprias votorum transgressiones immorabi
+          <lb ed="#P" n="6"/>mur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

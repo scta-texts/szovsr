@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="305"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m07625"><!-- t4l4c9 -->
+        <head xml:id="szovsr-m07625-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-m07625-Hd1e103" type="question-title">Ad quas personas pertineat horas canonicas in choro publice canere seu recitare.</head>
+        <p xml:id="szovsr-m07625-d1e106">
+          <lb ed="#P" n="76"/>CAPUT IX.
+          <lb ed="#P" n="77"/>AD QUAS PERSONAS PERTINEAT HORAS CANONICAS
+          <lb ed="#P" n="78"/>IN CHORO PUBLICE CANERE SEU RECITARE.
+        </p>
+        <p xml:id="szovsr-m07625-d1e115">
+          <lb ed="#P" n="79"/>1. Totius capitis dispositio. — Hactenus
+          <lb ed="#P" n="80"/>explicuimus institutionem et rationem 
+          hora<lb break="no" ed="#P" n="81"/>rum canonicarum, eas in se (ut ita dicam) 
+          spe<lb break="no" ed="#P" n="82"/>culando, et quasi earum naturam, vel potius
+          <lb ed="#P" n="83"/>artificium, compositionem, unitatem et 
+          dis<lb break="no" ed="#P" n="84"/>tinctionem explicando; jam ergo de usu 
+          ea<lb break="no" ed="#P" n="85"/>rum, et de moralibus obligationibus qua ad
+          <lb ed="#P" n="86"/>eas pertinere possunt, dicendum superest; et
+          <lb ed="#P" n="87"/>quamvis publica oratio non semper fiat 
+          can<lb break="no" ed="#P" n="88"/>tando, sed interdum alta voce recitando juxta
+          <lb ed="#P" n="89"/>plebis, aut communitatis, aut loci 
+          capacita<lb break="no" ed="#P" n="90"/>tem, vel consuetudinem, brevitatis gratia,
+          <lb ed="#P" n="91"/>nomine cantus omnem hunc modum 
+          compre<lb break="no" ed="#P" n="92"/>hendemus, quoniam lata significatione ita 
+          so<lb break="no" ed="#P" n="93"/>let appellari. Dicemus autem prius de 
+          perso<lb break="no" ed="#P" n="94"/>nis ad quas hoc spectat officium, deinde de
+          <lb ed="#P" n="95"/>circumstantiis in illo servandis, prout in choro
+          <lb ed="#P" n="96"/>fit, seu fieri debet. Duo autem circa personas
+          <lb ed="#P" n="97"/>inquiri possunt : unum est, quae sint capaces,
+          <lb ed="#P" n="98"/>juxta morem Ecclesiae et decentiam ejus, ut
+          <lb ed="#P" n="99"/>eis hoc ministerium, seu officium 
+          committa<lb break="no" ed="#P" n="100"/>tur. Alterum est, quibus ex obligatione et
+          <lb ed="#P" n="101"/>praecepto impositum sit, et de his sigillatim
+          <lb ed="#P" n="102"/>dicemus.
+        </p>
+        <p xml:id="szovsr-m07625-d1e170">
+          <lb ed="#P" n="103"/>2. Prima assertio: munus hoc canendi 
+          pu<lb break="no" ed="#P" n="104"/>Llice horas canonicas ad peculiares Ecclesie
+          <lb ed="#P" n="105"/>ministros per se pertinet. — Prolatur ex usu
+          <lb ed="#P" n="106"/>H'cclesie.—Probatur assertio em variis 
+          Conci<lb break="no" ed="#P" n="107"/>liis. — Circa propositam ergo quaestionem,
+          <pb ed="#P" n="306"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dicendum est primo, munus hoc canendi 
+          pu<lb break="no" ed="#P" n="2"/>blice horas canonicas ad ecclesiasticas 
+          per<lb break="no" ed="#P" n="3"/>sonas seu peculiares Ecclesiae ministros per
+          <lb ed="#P" n="4"/>se loquendo pertinere. Hoc constat ex usu
+          <lb ed="#P" n="5"/>Ecclesiae, quem declarando, facile conclusio
+          <lb ed="#P" n="6"/>constabit ; supponimus ergo ex antiquo usu,
+          <lb ed="#P" n="7"/>officium hoc cantandi seu recitandi horas 
+          ca<lb break="no" ed="#P" n="8"/>nonicas publice, non pertinere ad totam 
+          fide<lb break="no" ed="#P" n="9"/>lium plebem, et communitatem, ita ut omnes
+          <lb ed="#P" n="10"/>canere seu vociferari debeant m ecclesia,
+          <lb ed="#P" n="11"/>prout nonnulli novi haeretici in suis 
+          conventi<lb break="no" ed="#P" n="12"/>culis introduxerunt, ut aliqui referunt; est
+          <lb ed="#P" n="13"/>enim illud novum, et inusitatum in Ecclesia,
+          <lb ed="#P" n="14"/>quae semper in hoc observavit quod 
+          Aposto<lb break="no" ed="#P" n="15"/>lus monet, 1 Cor. 14: Omnia ad 
+          edificatio<lb break="no" ed="#P" n="16"/>nem fiant ; et iterum: Omnia autem honeste,
+          <lb ed="#P" n="17"/>et secundum ordinem fiant. Rectus autem-ordo
+          <lb ed="#P" n="18"/>postulat, ut sacra officia publica per selectas
+          <lb ed="#P" n="19"/>personas, et aliquo modo sacras, et peculiari
+          <lb ed="#P" n="20"/>cura ad id deputatas ftiant. Cantus enim 
+          ec<lb break="no" ed="#P" n="21"/>clesiasticus simul est, et ad Dei cultum 
+          insti<lb break="no" ed="#P" n="22"/>tutus, et ad excitandum populum ad 
+          devotio<lb break="no" ed="#P" n="23"/>nem cum quadam reverentia et admiratione.
+          <lb ed="#P" n="24"/>Et ideo studium semper Ecclesiae fuit 
+          ser<lb break="no" ed="#P" n="25"/>vandi gravitatem et auctoritatem in his 
+          Eccle<lb break="no" ed="#P" n="26"/>siasticis officiis, ut rudis populus, qui his 
+          re<lb break="no" ed="#P" n="27"/>bus sensibilibus maxime movetur ad 
+          colen<lb break="no" ed="#P" n="28"/>dum Deum, cum majori reverentia et 
+          devo<lb break="no" ed="#P" n="29"/>tione excitaretur. At vero si ab universa plebe
+          <lb ed="#P" n="30"/>horae decantarentur, statim munus illud 
+          vile<lb break="no" ed="#P" n="31"/>sceret, praeterquam quod non posset sine
+          <lb ed="#P" n="32"/>magna confusione et perturbatione fieri. Hinc
+          <lb ed="#P" n="33"/>semper in ecclesiis Christianorum 
+          observa<lb break="no" ed="#P" n="34"/>tum cst, ut locus separatus constituatur, qui
+          <lb ed="#P" n="35"/>chorus dicitur, in quo clerus seu ministri 
+          di<lb break="no" ed="#P" n="36"/>vinorum officiorum recipiantur, et separati
+          <lb ed="#P" n="37"/>sint a populo. De quo fit mentio in Concilio
+          <lb ed="#P" n="38"/>Toletano IV, c. 18, ubi ordinatur ut sacerdos
+          <lb ed="#P" n="39"/>et levita ante altare communicet, clerus in
+          <lb ed="#P" n="40"/>choro, populus extra chorum; et in c. 1 de
+          <lb ed="#P" n="41"/>Vita et honestat. Clericor., de hoc choro
+          <lb ed="#P" n="42"/>sermo est, cum dicitur: Pars illa, que 
+          can<lb break="no" ed="#P" n="43"/>cellis ab altari dividitur, tantum psallentibus
+          <lb ed="#P" n="44"/>pateat clericis ; quae verba referuniur ex Conc.
+          <lb ed="#P" n="45"/>Mogunt., c. 13. Inveniuntur autem fere illa
+          <lb ed="#P" n="46"/>verba in Concilio Turonico II, circa tempora
+          <lb ed="#P" n="47"/>Pelagii I, c. 4, ubi sic dicitur : Ut laici secus
+          <lb ed="#P" n="48"/>altare , quo sancta mpysteria celebrantur inter
+          <lb ed="#P" n="49"/>clericos, tam ad vigilias, quam ad missas stare
+          <lb ed="#P" n="50"/>penitus non presumant, sed pars illa que a
+          <lb ed="#P" n="51"/>cancellis cersus altare dividitur, choris tantum
+          <lb ed="#P" n="52"/>psallentium pateat clericorum. Et concordat
+          <lb ed="#P" n="53"/>cap. Sacerdotum, de Consec., d. 2; et 
+          Cle<lb break="no" ed="#P" n="54"/>mens, lib. 2 Const., c. 57, ordinavit ut locus
+          <lb ed="#P" n="55"/>clericorum separatus sit a loco laicorum, quia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nimirum ad illos semper pertinuit divina 
+          of<lb break="no" ed="#P" n="57"/>ficia peragere, et horas canonicas decantare,
+          <lb ed="#P" n="58"/>ad populum autem in suo loco sistere, et 
+          au<lb break="no" ed="#P" n="59"/>dire.
+        </p>
+        <p xml:id="szovsr-m07625-d1e319">
+          <lb ed="#P" n="60"/>3. Obicitur ex doctrina Alberti Magni. —
+          <lb ed="#P" n="61"/>Objici vero potest ex Albert., 4, d. 24, a. 20,
+          <lb ed="#P" n="62"/>quia officium cantandi in ecclesia est officium
+          <lb ed="#P" n="63"/>orandi et laudandi Deum, a quo nullus 
+          ex<lb break="no" ed="#P" n="64"/>cludendus est, unde ibi ille concludit hoc esse
+          <lb ed="#P" n="65"/>officium communitatis et totius corporis 
+          Ec<lb break="no" ed="#P" n="66"/>clesiae in devotione Deo servientis, et non 
+          of<lb break="no" ed="#P" n="67"/>ficium ministrorum, ut ministri sunt, ac 
+          sub<lb break="no" ed="#P" n="68"/>inde totum conventum fidelium posse esse
+          <lb ed="#P" n="69"/>chorum, et respondere praecinentibus in 
+          lau<lb break="no" ed="#P" n="70"/>dem Dei. Potestque hoc confirmari ex Basil.,
+          <lb ed="#P" n="71"/>Epist. 63, referente, totam plebem fidelium,
+          <lb ed="#P" n="72"/>ad nocturnas preces concurrentem , solitam
+          <lb ed="#P" n="73"/>fuisse ad psalmodiam instrui, et illucescente
+          <lb ed="#P" n="74"/>die omnes veluti uno ore solitos fuisse Deum
+          <lb ed="#P" n="75"/>confiteri. Et Baron., tom. 1 Annal., ann. 60,
+          <lb ed="#P" n="76"/>n. 28, dicit, olim populum promiscue cum
+          <lb ed="#P" n="77"/>clericis in ecclesia cantasse , et sacerdoti
+          <lb ed="#P" n="78"/>oranti consuevisse respondere, Amen, juxta
+          <lb ed="#P" n="79"/>illud Hieronymi, in Praefatione lib. 2 ad 
+          Ga<lb break="no" ed="#P" n="80"/>latas : Ad similitudinem caelestis tonitrui,
+          <lb ed="#P" n="81"/>amen vreboat. Quod notavit etiam Glos., in d.
+          <lb ed="#P" n="82"/>cap. De iis, d. 12, ver. Civis, ex hoc eodem
+          <lb ed="#P" n="83"/>verbo illud colligens; sed vera lectio habet
+          <lb ed="#P" n="84"/>Pontifices, et ita nihil potest in ea fundari;
+          <lb ed="#P" n="85"/>expresse vero id affirmat Aug., lib. de 
+          Cate<lb break="no" ed="#P" n="86"/>chiz. rudib., c. 9, in c. Sedulo, d. 38.
+        </p>
+        <p xml:id="szovsr-m07625-d1e380">
+          <lb ed="#P" n="87"/>4. Secunda assertio : canere officium 
+          divi<lb break="no" ed="#P" n="88"/>wn non est ita proprium clericorum, ut aliqui
+          <lb ed="#P" n="89"/>non ordinati non possint assumi ad 
+          canen<lb break="no" ed="#P" n="90"/>dum. — Probatur em Isidoro, et Conciliis. —
+          <lb ed="#P" n="91"/>Priusquam respondeamus, dicimus secundo,
+          <lb ed="#P" n="92"/>hoc munus cantandi divinum officium, licet
+          <lb ed="#P" n="93"/>ad totam plebem fidelium non pertineat, 
+          ni<lb break="no" ed="#P" n="94"/>hilominus non esse ita proprium clericorum,
+          <lb ed="#P" n="95"/>ut illi soli ad illud assumantur : possunt enim
+          <lb ed="#P" n="96"/>aliqui non ordinati ad hoc ministerium 
+          de<lb break="no" ed="#P" n="97"/>putari. Unde Isidor., lib. 2, de Divin. offic.,
+          <lb ed="#P" n="98"/>capit. 12, mentionem faciens de psalmistis,
+          <lb ed="#P" n="99"/>quos Ecclesia alere solet et instruere ad 
+          can<lb break="no" ed="#P" n="100"/>tandi ministerium, in fine subjungit, posse
+          <lb ed="#P" n="101"/>presbyterum sine conscientia Episcopi 
+          quin<lb break="no" ed="#P" n="102"/>que ad officium cantandi sibi deligere ; dicit
+          <lb ed="#P" n="103"/>autem sine conscientia Fpiscopi, quia non
+          <lb ed="#P" n="104"/>oportebat eos prius ab Episcopo ordinari,
+          <lb ed="#P" n="105"/>seu in gradu aliquo ecclesiastico constitui.
+          <lb ed="#P" n="106"/>Non intelligo autem cur ad quinque cantores
+          <lb ed="#P" n="107"/>illum numerum limitaverit ; nam in Concilio
+          <lb ed="#P" n="108"/>Carth. IV, c. 10, cap. Psalmista, d.
+          <lb ed="#P" n="109"/>lute dicitur: Psalmista, id est, cantor, potest 
+          <lb ed="#P" n="110"/>absque scientia Episcopi, sola jussione pre-
+          <pb ed="#P" n="307"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>byteri, officium cantandi suscipere , dicente
+          <lb ed="#P" n="2"/>sibi presbytero : Vide ut quod ore cantas,
+          <lb ed="#P" n="3"/>corde credas ; et quod corde credis, operibus
+          <lb ed="#P" n="4"/>comprobes. Constat ergo hoc oflicium seu 
+          mi<lb break="no" ed="#P" n="5"/>nisterium non pertinere per se ad ordinem
+          <lb ed="#P" n="6"/>aliquem, quandoquidem per solam jussionem
+          <lb ed="#P" n="7"/>presbyteri potest conferri. Eo vel maxime
+          <lb ed="#P" n="8"/>quod in eodem Concilio prius omnes 
+          ordi<lb break="no" ed="#P" n="9"/>nes majores et minores numerantur, et 
+          pos<lb break="no" ed="#P" n="10"/>tea subjungitur psalmistarum munus.
+        </p>
+        <p xml:id="szovsr-m07625-d1e461">
+          <lb ed="#P" n="11"/>5. Psalmista per se non est clericus. —
+          <lb ed="#P" n="12"/>Unde omnes Theologi concludunt, 
+          psalmis<lb break="no" ed="#P" n="13"/>tam per se non esse clericum, neque 
+          consti<lb break="no" ed="#P" n="14"/>tuere proprium ordinem clericorum, ut patet
+          <lb ed="#P" n="15"/>ex Albert., loco citato, et D. Thom., ibi, q. 2,
+          <lb ed="#P" n="16"/>art. 1, quaest. 2, ad 5, et latius Bonav., art. 2,
+          <lb ed="#P" n="17"/>q. 2, et Turrecrem., in c. Psalmista, 23 d.,
+          <lb ed="#P" n="18"/>a. 1. Qui etiam a prima tonsura psalmistatum
+          <lb ed="#P" n="19"/>distinguunt, quia etiam prima tonsura, licet
+          <lb ed="#P" n="20"/>proprie ordo non sit, cum ordinibus in hoc
+          <lb ed="#P" n="21"/>convenit, quod per specialem ritum et per se
+          <lb ed="#P" n="22"/>a solo Episcopo confertur ; officium autem
+          <lb ed="#P" n="23"/>psallendi potest committi a presbytero per
+          <lb ed="#P" n="24"/>solam electionem, seu jussionem suam. Idem
+          <lb ed="#P" n="25"/>in re tenet Gullielm. Durant., in Rationahl,
+          <lb ed="#P" n="26"/>lib. 2, c.2; tamen in c. 3ait, psalmistam esse
+          <lb ed="#P" n="27"/>illum qui ordinatus est prima tonsura. Sed
+          <lb ed="#P" n="28"/>ibidem declarat nomen esse aequivocum, et
+          <lb ed="#P" n="29"/>interdum accipi in illa significatione ; sed,
+          <lb ed="#P" n="30"/>licet afferat jura, in quibus tonsurati clerici
+          <lb ed="#P" n="31"/>appellantur, ut cap. Cum contingat, de tat.
+          <lb ed="#P" n="32"/>et qualit., c. Cum inter, de Rejudi., nullum
+          <lb ed="#P" n="33"/>tamen adducit in quo psalmista vocentur.
+          <lb ed="#P" n="34"/>Fatetur vero psalmistam, ut est idem quod
+          <lb ed="#P" n="35"/>cantor, ut in dicto Concilio Tolet., non esse
+          <lb ed="#P" n="36"/>nomen ordinis, sed officii, et hoc est quod ad
+          <lb ed="#P" n="37"/>rem spectat. Tandem confirmatur ex capit. 1
+          <lb ed="#P" n="38"/>de Celebr. Miss., ubi monentur rurales 
+          pres<lb break="no" ed="#P" n="39"/>byteri, ut suis horis faciant horas canonicas
+          <lb ed="#P" n="40"/>publice expleri per se, vel per scholares ; at 
+          hu<lb break="no" ed="#P" n="41"/>jusmodi scholares non videntur esse clerici,
+          <lb ed="#P" n="42"/>sed filii idelium qui in Ecclesia docentur et
+          <lb ed="#P" n="43"/>instruuntur, juxta c. Ut quisque, de Vit. et
+          <lb ed="#P" n="44"/>honest. clericor. Verum est Innocent. et 
+          Hos<lb break="no" ed="#P" n="45"/>tiens. ibi per scholares intelligere clericos in
+          <lb ed="#P" n="46"/>minoribus ; quod sequitur etiam Durant.,
+          <lb ed="#P" n="47"/>lib. 3, de Ritib., c. 23, n. 7; sed, licet id 
+          sus<lb break="no" ed="#P" n="48"/>tineri possit, nihil est quod cogat ut dicamus
+          <lb ed="#P" n="49"/>necessarium esse omnes hujusmodi scholares
+          <lb ed="#P" n="50"/>esse ordinatos, vel tonsuratos, ut possint in
+          <lb ed="#P" n="51"/>hoc ministerio adjuvare.
+        </p>
+        <p xml:id="szovsr-m07625-d1e552">
+          <lb ed="#P" n="52"/>6. Ratio Alberti quare in ecclesia psallere non
+          <lb ed="#P" n="53"/>sit officium alicui ordini deputatum. -— Eadem
+          <lb ed="#P" n="54"/>ratio magis ac melius a D. Thoma expenditur.
+          <lb ed="#P" n="55"/>— Albertus ergo in citato loco rationem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>reddit, cur cantare et psallere in ecclesia non
+          <lb ed="#P" n="57"/>sit officium per se alicui ordini deputatum,
+          <lb ed="#P" n="58"/>quia hoc officium de se commune est 
+          omni<lb break="no" ed="#P" n="59"/>bus Christianis. Unde quantum est ex vi 
+          mu<lb break="no" ed="#P" n="60"/>neris, posset esse communis toti coetui 
+          fide<lb break="no" ed="#P" n="61"/>lium, qui ad horas canonicas conveniunt, nisi
+          <lb ed="#P" n="62"/>aliunde ad majorem decentiam et melicrem
+          <lb ed="#P" n="63"/>ordinem prrtineret, ut ad munus recitandi,
+          <lb ed="#P" n="64"/>legendi, vel canendi, pauci aliqui eligantur,
+          <lb ed="#P" n="65"/>et separatim in loco altiori, digniori, et 
+          quo<lb break="no" ed="#P" n="66"/>dammodo secretiori collocentur : reliquus
+          <lb ed="#P" n="67"/>autem assistat tantum attente audiens, et
+          <lb ed="#P" n="68"/>per alios orans, vel privatim etiam proprias
+          <lb ed="#P" n="69"/>orationes fundens, si velit. Quod ergo 
+          Alber<lb break="no" ed="#P" n="70"/>tus ait, totum coeetum fidelium posse esse
+          <lb ed="#P" n="71"/>chorum, non de morali potestate ( ut sic 
+          di<lb break="no" ed="#P" n="72"/>cam ) et pensatis omnibus circumstantiis , et
+          <lb ed="#P" n="73"/>consuetudine Ecclesia , intelligendum est,
+          <lb ed="#P" n="74"/>sed solum de quadam non repugnantia,
+          <lb ed="#P" n="75"/>quantum est ex parte actionis, hoc enim
+          <lb ed="#P" n="76"/>sufficit intentioni ejus, nec plus ejus ratio
+          <lb ed="#P" n="77"/>probat, nec in alio sensu admittenda est ejus
+          <lb ed="#P" n="78"/>sententia. Unde cautius D. Thomas in eodem
+          <lb ed="#P" n="79"/>loco supra citato dixit : Cantor non est nomen
+          <lb ed="#P" n="80"/>ordinis specialis, tum quia cantare pertinet ad
+          <lb ed="#P" n="81"/>totum chorum, tum quia non habet specialem
+          <lb ed="#P" n="82"/>relationem ad Eucharistie sacramentum , tum
+          <lb ed="#P" n="83"/>quia officium quoddam est, quod inter ordines
+          <lb ed="#P" n="84"/>largo modo acceptos computatur quandoque ;
+          <lb ed="#P" n="85"/>ubi non dixit cantare pertinere ad totum 
+          po<lb break="no" ed="#P" n="86"/>puium, sed ad totum chorum, in quo possunt
+          <lb ed="#P" n="87"/>aliqui, etiam non ordinati convenire ; semper
+          <lb ed="#P" n="88"/>tamen debet constare ex aliquibus ad id 
+          mu<lb break="no" ed="#P" n="89"/>nus specialiter deputatis, quo sensu inter 
+          cle<lb break="no" ed="#P" n="90"/>ricos cantor vel psalmista computatur. 
+          Basi<lb break="no" ed="#P" n="91"/>lius etiam non dicit totum populum 
+          conveni<lb break="no" ed="#P" n="92"/>re, et omnes instrui ut cantent, sed verba
+          <lb ed="#P" n="93"/>ejus sunt : Populus domum precationis petit,
+          <lb ed="#P" n="94"/>et facta ad Deum confessione, tandem ab 
+          ora<lb break="no" ed="#P" n="95"/>tione surgentes ad psalmodiam instituuntur.
+          <lb ed="#P" n="96"/>Quod potest intelligi , vel de solis ministris
+          <lb ed="#P" n="97"/>qui ad psallendum accedunt, vel de omnibus
+          <lb ed="#P" n="98"/>accommodata partitione; nam omnes quidem
+          <lb ed="#P" n="99"/>instituuntur, praeparantur, ac se disponunt ad
+          <lb ed="#P" n="100"/>psalmodiam, hi quidem ad dicendum, seu
+          <lb ed="#P" n="101"/>canendum, illi vero ad audiendum; atque 
+          eo<lb break="no" ed="#P" n="102"/>dem modo ait inferius : Omnes velut ore uno
+          <lb ed="#P" n="103"/>ei corde uno confessionis psalmum Domino 
+          of<lb break="no" ed="#P" n="104"/>ferunt. Quamvis enim soli ministri canant, et
+          <lb ed="#P" n="105"/>alii assistant, omnes uno corde et veluti uno
+          <lb ed="#P" n="106"/>ore Deum laudant. Denique licet olim fuerit
+          <lb ed="#P" n="107"/>consuetudo, ut populus in fine collectae 
+          res<lb break="no" ed="#P" n="108"/>ponderet Amen, non sequitur potuisse 
+          psal<lb break="no" ed="#P" n="109"/>lere in reliqua parte officii, sed illud fortasse
+          <lb ed="#P" n="110"/>permittebatur ad ostendendam unionem et
+          <pb ed="#P" n="308"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>consensionem animorum unica dictione , et
+          <lb ed="#P" n="2"/>hoc ipsum ob vitandam confusionem in 
+          de<lb break="no" ed="#P" n="3"/>suetudinem abiit.
+        </p>
+        <p xml:id="szovsr-m07625-d1e695">
+          <lb ed="#P" n="4"/>7. Atque hinc intelligitur merito in 
+          Eccle<lb break="no" ed="#P" n="5"/>sia institutum esse , ut non solum per 
+          cleri<lb break="no" ed="#P" n="6"/>cos, sed etiam laicos, et per religiosos horae
+          <lb ed="#P" n="7"/>canonica publice recitentur, seu canantur,
+          <lb ed="#P" n="8"/>etiam nomine totius Ecclesiae ; imo non 
+          so<lb break="no" ed="#P" n="9"/>lum per viros, sed etiam per feminas, ut in
+          <lb ed="#P" n="10"/>monasteriis monialium fieri videmus, et idem
+          <lb ed="#P" n="11"/>fiebat olim in monasteriis monachorum,
+          <lb ed="#P" n="12"/>quamvis clerici non essent in initio vitae 
+          mo<lb break="no" ed="#P" n="13"/>nastica, ut infra suo loco videbimus. 
+          Sem<lb break="no" ed="#P" n="14"/>per tamen observatum videtur, ut personae
+          <lb ed="#P" n="15"/>ad hoc ministerium deputatae sint 
+          ecclesiasti<lb break="no" ed="#P" n="16"/>cae personae; si enim seculares personae sint,
+          <lb ed="#P" n="17"/>aut sunt clerici saltem m minoribus ordinati,
+          <lb ed="#P" n="18"/>aut sunt familiares ecclesiae peculiari aliquo
+          <lb ed="#P" n="19"/>modo ad divinum obsequium destinati ; si
+          <lb ed="#P" n="20"/>vero sint religiosi, eo ipso inter ecclesiasticas
+          <lb ed="#P" n="21"/>personas computantur, etiamsi feminae sint,
+          <lb ed="#P" n="22"/>ut nunc suppono : loquimur autem de his
+          <lb ed="#P" n="23"/>qui aliquo modo stabili, et quasi ex officio ad
+          <lb ed="#P" n="24"/>hoc ministerium sunt deputati. Nam absolute
+          <lb ed="#P" n="25"/>non est seculari personae prohibitum in choro
+          <lb ed="#P" n="26"/>canere cum clericis ex illorum permissu , et
+          <lb ed="#P" n="27"/>quasi juvando illos; nulla enim prohibitio
+          <lb ed="#P" n="28"/>positiva Ecclesia circa hoc invenitur, nec
+          <lb ed="#P" n="29"/>scripta, nec consuetudine introducta, nec
+          <lb ed="#P" n="30"/>est etiam per se malum ita fieri , ut est per
+          <lb ed="#P" n="31"/>se notum, et ex discursu Alberti supra satis
+          <lb ed="#P" n="32"/>etiam constat.
+        </p>
+        <p xml:id="szovsr-m07625-d1e760">
+          <lb ed="#P" n="33"/>8. Tertia assertio : munus hoc canendi 
+          ec<lb break="no" ed="#P" n="34"/>clesiasticum officiuum ad seculares et religiosos
+          <lb ed="#P" n="35"/>pertinet, diverso tumen modo. — Pro laicis.—
+          <lb ed="#P" n="36"/>Pro religiosis.— Unde tertio dicere possumus
+          <lb ed="#P" n="37"/>munus hoc, et ad seculares clericos, et ad
+          <lb ed="#P" n="38"/>religiosos pertinere , quamvis diverso titulo
+          <lb ed="#P" n="39"/>et ratione. Prior pars satis nota est ex dictis,
+          <lb ed="#P" n="40"/>et ex usu Ecclesiae, et amplius cum secunda
+          <lb ed="#P" n="41"/>declarabitur, advertendo chorum duplici 
+          ra<lb break="no" ed="#P" n="42"/>tione, seu fine proximo solitum esse introduci
+          <lb ed="#P" n="43"/>in Ecclesia, scilicet vel principaliter propter
+          <lb ed="#P" n="44"/>audientes, vel praecipue propter ipsosmet 
+          ca<lb break="no" ed="#P" n="45"/>nentes in choro. Quamvis enim semper 
+          prin<lb break="no" ed="#P" n="46"/>cipalis finis chori sit laus Dei, et communis
+          <lb ed="#P" n="47"/>Ecclesiae deprecatio, et ad devotionem 
+          exci<lb break="no" ed="#P" n="48"/>tatio, juxta doctrinam D. Thom. 2. 2, q. 83,
+          <lb ed="#P" n="49"/>art. 12, et q. 91, art. 1, tamen interdum in
+          <lb ed="#P" n="50"/>tali loco, ecclesia, seu congregatione, 
+          intro<lb break="no" ed="#P" n="51"/>ducitur principaliter ad usum populi, ut 
+          ha<lb break="no" ed="#P" n="52"/>beat divina officia publica, quibus interesse
+          <lb ed="#P" n="53"/>possit, et Deum precari vel laudare per 
+          com<lb break="no" ed="#P" n="54"/>munes ministros ejus, suo modo cooperando
+          <lb ed="#P" n="55"/>seu assentiendo. Aliquando vero in aliqua
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>congregatione instituitur primo ac 
+          principa<lb break="no" ed="#P" n="57"/>liter propter usum talis congregationis, et
+          <lb ed="#P" n="58"/>personarum ejus, quae ad chorum 
+          deputan<lb break="no" ed="#P" n="59"/>tur, ut in illo religioso ac praestantissimo 
+          ac<lb break="no" ed="#P" n="60"/>tu occupentur. Priori modo est chorus 
+          ordi<lb break="no" ed="#P" n="61"/>narie institutus in ecclesiis clericorum 
+          secu<lb break="no" ed="#P" n="62"/>larium, in quibus constituuntur tanquam 
+          mi<lb break="no" ed="#P" n="63"/>nistri publici divinorum officiorum pro 
+          com<lb break="no" ed="#P" n="64"/>moditate et usu totius populi. Et de hoc 
+          in<lb break="no" ed="#P" n="65"/>telligo, quod D. Thom., Opusc. 19, cap. 5,
+          <lb ed="#P" n="66"/>dixit : Orationibus et psalmis vacare an 
+          eccle<lb break="no" ed="#P" n="67"/>sia divinum officium celebrando , est quoddam
+          <lb ed="#P" n="68"/>opus publicum ad Ecclesiee edificationem 
+          ordi<lb break="no" ed="#P" n="69"/>natum. Posteriori autem modo videtur 
+          prm<lb break="no" ed="#P" n="70"/>cipaliter institutus chorus in religionibus,
+          <lb ed="#P" n="71"/>quibus ex proprio instituto convenit profiteri
+          <lb ed="#P" n="72"/>chorum ; nam, licet contingere possit ut 
+          mi<lb break="no" ed="#P" n="73"/>nistri deputati ad cantum pro usu totius 
+          po<lb break="no" ed="#P" n="74"/>puli , religiosi sint, vel quod religio aliqua
+          <lb ed="#P" n="75"/>assumat hoc munus ad inserviendum populo,
+          <lb ed="#P" n="76"/>tamen per se, sine hoc respectu ad populum
+          <lb ed="#P" n="77"/>audientem, solet hoc munus institui in 
+          reli<lb break="no" ed="#P" n="78"/>gionibus monachalibus ad ipsorum 
+          religioso<lb break="no" ed="#P" n="79"/>rum laudabilem occupationem. Nam quia 
+          di<lb break="no" ed="#P" n="80"/>vino cultui omnino dedicantur, et non 
+          sem<lb break="no" ed="#P" n="81"/>per possunt internae meditationi vel 
+          contem<lb break="no" ed="#P" n="82"/>plationi intenti esse, nec labore manuum,
+          <lb ed="#P" n="83"/>aut alia exteriori actione semper occupantur,
+          <lb ed="#P" n="84"/>institutus est eis chorus in quo sancte et 
+          uti<lb break="no" ed="#P" n="85"/>liter otientur et occupentur, etiamsi nullus
+          <lb ed="#P" n="86"/>sit populus propter quem canant, neque 
+          eo<lb break="no" ed="#P" n="87"/>rum vita et institutum ad aliorum usum per
+          <lb ed="#P" n="88"/>se ordinetur. Hinc Gerson, lib. de Orat. et
+          <lb ed="#P" n="89"/>ejus valor., in fin., alias p. 3, Alphab. 78,
+          <lb ed="#P" n="90"/>lit. G : Sunt, ait, rarissimi valde inter 
+          homi<lb break="no" ed="#P" n="91"/>nes, tam religiosos quam seculares , preecipue
+          <lb ed="#P" n="92"/>in adolescentia, et jwventute, idonei ad 
+          contem<lb break="no" ed="#P" n="93"/>plationis adeptionem. Propterea Sancti 
+          Pa<lb break="no" ed="#P" n="94"/>tres, videntes amperfectum nostrum , et 
+          atten<lb break="no" ed="#P" n="95"/>dentes quamn difficile est otio bono uti, 
+          volue<lb break="no" ed="#P" n="96"/>runt occupationem bonam dare hominibus sumis,
+          <lb ed="#P" n="97"/>feceruntque hoc in orationibus et canticis 
+          mul<lb break="no" ed="#P" n="98"/>tis. Similem fere doctrinam habet idem 
+          Auc<lb break="no" ed="#P" n="99"/>tor in l. de Cant., in 1 tomo illius, circa 
+          fi<lb break="no" ed="#P" n="100"/>nem ; alias 3 p., Alph. 79, lit. N, ubi rationem
+          <lb ed="#P" n="101"/>illam extendit ad illos cantus, qui propter
+          <lb ed="#P" n="102"/>populum in ecclesiis fiunt : Multe, inquit,
+          <lb ed="#P" n="103"/>sunt cause multiplicationis psalmodiarum 
+          vo<lb break="no" ed="#P" n="104"/>calium in ecclesiis; una est vite laicorum 
+          lau<lb break="no" ed="#P" n="105"/>dabilis occupatio, eic. Alia similia verba 
+          ha<lb break="no" ed="#P" n="106"/>bet in l. Myst. Theol., quae inferius tractando
+          <lb ed="#P" n="107"/>de choro religiosorum afferemus, ubi etiam
+          <lb ed="#P" n="108"/>ex D. Thoma et aliis Patribus alia 
+          refere<lb break="no" ed="#P" n="109"/>mus.
+        </p>
+        <p xml:id="szovsr-m07625-d1e933">
+          <lb ed="#P" n="110"/>9. Quarta assertio : non omnes ministri
+          <pb ed="#P" n="309"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Ecclesice in cantu debent occupari, sed qui 
+          su<lb break="no" ed="#P" n="2"/>perfuerint ea aliis ministeriis gravioribus. —
+          <lb ed="#P" n="3"/>Quarto dicimus, non omnes clericos 
+          occupan<lb break="no" ed="#P" n="4"/>dos esse in hoc ministerio cantandi in choro,
+          <lb ed="#P" n="5"/>sed illos tantum qui in gravioribus Ecclesiee
+          <lb ed="#P" n="6"/>ministeriis seu officiis occupati non sunt. Quae
+          <lb ed="#P" n="7"/>regula in religiosis etiam personis scrvanda
+          <lb ed="#P" n="8"/>est. Ita monet D. Thom., d. q. 91, art. 2, ad
+          <lb ed="#P" n="9"/>3; et Gerson, loco ultimo proxime citato, et
+          <lb ed="#P" n="10"/>alii multi infra citandi, qui ad hoc referunt
+          <lb ed="#P" n="11"/>sententiam Gregorii, in c. In sancta Romana,
+          <lb ed="#P" n="12"/>92 d., etl. 4 Registri, c. 88, ubi Gregorius 
+          pro<lb break="no" ed="#P" n="13"/>hibet ne sacri altaris ministri (id est, diaconi)
+          <lb ed="#P" n="14"/>in munere cantandi occupentur; verba ejus
+          <lb ed="#P" n="15"/>sunt : Consuetudo valde reprehensibilis emorta
+          <lb ed="#P" n="16"/>est, ut quidam ad sacri altaris ministerium
+          <lb ed="#P" n="17"/>cantores eligantur, et in diaconatus ordine 
+          con<lb break="no" ed="#P" n="18"/>stituti modulationi vocis inserviant, quos ad
+          <lb ed="#P" n="19"/>preedicationis officium et elegmosynarum 
+          stu<lb break="no" ed="#P" n="20"/>dium vcacare congruebet; et infra: Constituo
+          <lb ed="#P" n="21"/>ut in hac sede sacri altaris ministri cantare
+          <lb ed="#P" n="22"/>non debeant, sotumque Evangelice lectionis 
+          in<lb break="no" ed="#P" n="23"/>ler missarum solemnia emsolvant ; Psalmos
+          <lb ed="#P" n="24"/>cero et ceteras lectiones censeo per 
+          subdiaco<lb break="no" ed="#P" n="25"/>103 ; vel si necessitas edigat, per minores 
+          cleri<lb break="no" ed="#P" n="26"/>cos exhiberi. Qui textus accuratius a nobis 
+          ex<lb break="no" ed="#P" n="27"/>pendendus est, quia ad ea, quae diximus, 
+          ex<lb break="no" ed="#P" n="28"/>plicanda multum confert. Item quia difticile
+          <lb ed="#P" n="29"/>creditu videtur, Gregorium simpliciter 
+          prohi<lb break="no" ed="#P" n="30"/>buisse, ne diaconi cantent in choro, cum
+          <lb ed="#P" n="31"/>etiam presbyteri et Episcopi ipsi munus illud
+          <lb ed="#P" n="32"/>altissimum obire possint, sicut credendum est,
+          <lb ed="#P" n="33"/>Basilium, Cbrysostomum, Augustinum, et 
+          ip<lb break="no" ed="#P" n="34"/>summet Gregorium saepc illud exercuisse.
+          <lb ed="#P" n="35"/>Item alias male essent institutae religiones
+          <lb ed="#P" n="36"/>canonicorum, vel mendicantium, in quibus
+          <lb ed="#P" n="37"/>ct diaconi et presbyteri ex vi instituti esse
+          <lb ed="#P" n="38"/>debent choro addicti.
+        </p>
+        <p xml:id="szovsr-m07625-d1e1024">
+          <lb ed="#P" n="39"/>10. Varia verborum S. Gregorii 
+          explicatio<lb break="no" ed="#P" n="40"/>nes inprobantur. — Dicunt ergo aliqui 
+          Gre<lb break="no" ed="#P" n="41"/>gorium solum prohibuisse ne diaconi 
+          modu<lb break="no" ed="#P" n="42"/>lationi inserviant, id est, cantui indecoro, et
+          <lb ed="#P" n="43"/>ad aures plebis demulcendas ordinato. At hoc
+          <lb ed="#P" n="44"/>extra mentem Gregorii est, quia immoderata
+          <lb ed="#P" n="45"/>seu indecora modulatio in choro ecclesiastico
+          <lb ed="#P" n="46"/>non diaconis tantum, sed omnibus ministris
+          <lb ed="#P" n="47"/>Ecclesiae prohibita est; at Gregorius ibi quam
+          <lb ed="#P" n="48"/>modulationem prohibet diaconis, jubet per
+          <lb ed="#P" n="49"/>inferiores ministros fieri; non ergo loquitur
+          <lb ed="#P" n="50"/>de indecora.
+        </p>
+        <p xml:id="szovsr-m07625-d1e1053">
+          <lb ed="#P" n="51"/>11. Aliter igitur responderi potest, 
+          Grego<lb break="no" ed="#P" n="52"/>rium ibi non prohibere simpliciter diaconis
+          <lb ed="#P" n="53"/>ne in choro cantent, sed ne illo tempore in
+          <lb ed="#P" n="54"/>quo in Missa solemniter inserviunt, 
+          can<lb break="no" ed="#P" n="55"/>tent in choro, sed tantum in Missa evange-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>lium tunc cantent. Ita limitat Glos., proxime
+          <lb ed="#P" n="57"/>ante illud cap., ver. Exempti, et in ipso cap.,
+          <lb ed="#P" n="58"/>ver. In hac sede; et Turrec. ibi, art. 3, hanc
+          <lb ed="#P" n="59"/>limitationem probare videtur, licet non satis
+          <lb ed="#P" n="60"/>constanter loquatur, ut ostendam. Verum
+          <lb ed="#P" n="61"/>negue haec expositio satisfacit. Primo, quia
+          <lb ed="#P" n="62"/>Gregorius absolute vult reprobare 
+          consuetu<lb break="no" ed="#P" n="63"/>dinem ; consuetudo autem non erat ut 
+          dia<lb break="no" ed="#P" n="64"/>coni tantum tempore Missae solemnis 
+          canta<lb break="no" ed="#P" n="65"/>rent in choro, sed simpliciter quod cantui
+          <lb ed="#P" n="66"/>tanquam principali ministerio deputarenitur,
+          <lb ed="#P" n="67"/>et quod in eis eligendis praecipue 
+          observare<lb break="no" ed="#P" n="68"/>tur aptitudo ad cantandum. Hoc ergo 
+          abso<lb break="no" ed="#P" n="69"/>lute reprobat, unde in verbis constitutionis
+          <lb ed="#P" n="70"/>illa limitatio : Inter missarum solemnia, non
+          <lb ed="#P" n="71"/>ponitur ad verba prohibitiva, nam illa 
+          om<lb break="no" ed="#P" n="72"/>nino absoluta et generalia sunt : Constituo,
+          <lb ed="#P" n="73"/>ut in hac sede sacri altaris ministri cantare
+          <lb ed="#P" n="74"/>1,0n debeant ; quis enim dicat facere haec verba
+          <lb ed="#P" n="75"/>sensum quasi compositum (ut sic dicam),
+          <lb ed="#P" n="76"/>id est, non cantent, dum altari deserviunt?
+          <lb ed="#P" n="77"/>ubi enim potuit esse unquam talis consuetudo,
+          <lb ed="#P" n="78"/>ut qui solemniter ministrat in altari, simul 
+          ve<lb break="no" ed="#P" n="79"/>niat ad cantandum in choro? vel si hoc in
+          <lb ed="#P" n="80"/>aliquo pago rarissime contingit fieri, quid 
+          ne<lb break="no" ed="#P" n="81"/>cesse erat propter hoc prohibitionem 
+          univer<lb break="no" ed="#P" n="82"/>salem facere ? Adde etiam esse indecorum et
+          <lb ed="#P" n="83"/>indecens, ut subdiaconus, dum solemniter in
+          <lb ed="#P" n="84"/>altari ministrat, officium cantandi in choro
+          <lb ed="#P" n="85"/>simul exerceat ; et tamen id quod ibi 
+          prohi<lb break="no" ed="#P" n="86"/>betur diacono, subdiacono imperatur.
+        </p>
+        <p xml:id="szovsr-m07625-d1e1136">
+          <lb ed="#P" n="87"/>12. Vera expositio verborum S. Gregorii
+          <lb ed="#P" n="88"/>prohibentis cantare diaconos.— Prohibitio ergo
+          <lb ed="#P" n="89"/>illa absolute et sine tali limitatione fit; illa
+          <lb ed="#P" n="90"/>vero determinatio additur in altera parte 
+          af<lb break="no" ed="#P" n="91"/>firmativa, seu concessiva, ut cantent diaconi
+          <lb ed="#P" n="92"/>evangelium in missarum solemnis. Deinde
+          <lb ed="#P" n="93"/>Gregorius duplicem rationem insinuavit, ob
+          <lb ed="#P" n="94"/>quam diaconi illi muneri cantandi addicti essc
+          <lb ed="#P" n="95"/>non debent. Una est, ut et praedicandi officio,
+          <lb ed="#P" n="96"/>et pauperum curae ac sollicitudini vacare 
+          pos<lb break="no" ed="#P" n="97"/>sint; ad hoc autem necesse est ut non 
+          tan<lb break="no" ed="#P" n="98"/>tum liberi sint a debito cantandi, dum 
+          inser<lb break="no" ed="#P" n="99"/>viunt altari, haec enim nulla est exemptio, nam
+          <lb ed="#P" n="100"/>per ministerium altaris satis erant pro tunca
+          <lb ed="#P" n="101"/>choro liberati, et simul impediti ne de 
+          paupe<lb break="no" ed="#P" n="102"/>ribus vel de studio praedicationis curare 
+          pos<lb break="no" ed="#P" n="103"/>sent; ergo voluit illos esse liberos simpliciter
+          <lb ed="#P" n="104"/>a cantandi munere, etiam pro aliis horis.
+          <lb ed="#P" n="105"/>Aliam rationem insinuat, nimirum diaconos
+          <lb ed="#P" n="106"/>non esse ad cantum eligendos, ne in eis 
+          blan<lb break="no" ed="#P" n="107"/>da cor, potius quam vita (adde etiam et 
+          doc<lb break="no" ed="#P" n="108"/>trina) quaeratur ; at haec ratio probat 
+          simpli<lb break="no" ed="#P" n="109"/>citer de munere cantandi in divinis officiis,
+          <lb ed="#P" n="110"/>quia alias illud inconveniens non evitaretur.
+        </p>
+        <p xml:id="szovsr-m07625-d1e1191">
+          <pb ed="#P" n="310"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>13. Comprobatur ex sententia Gratiani et
+          <lb ed="#P" n="2"/>D. Thomae. — Bbtque ita intellexit textum 
+          il<lb break="no" ed="#P" n="3"/>lum Gratianus ibi, nam ante illum pramittit
+          <lb ed="#P" n="4"/>haec verba : Ab officio cautandi et psallendi
+          <lb ed="#P" n="5"/>diaconi invemuntur exempti, ne dum vocis 
+          mo<lb break="no" ed="#P" n="6"/>dulationi student, altaris ministeria negligant;
+          <lb ed="#P" n="7"/>et in hujus assertionis confirmationem 
+          tex<lb break="no" ed="#P" n="8"/>tum Gregor. supponit. Similiter D. Thom.
+          <lb ed="#P" n="9"/>non solum approbat eamdem expositionem,
+          <lb ed="#P" n="10"/>sed etiam doctrinam ampliat, dicens : 
+          Nobi<lb break="no" ed="#P" n="11"/>lior modus est provocandi homines ad 
+          decotio<lb break="no" ed="#P" n="12"/>nem per doctrinam et predicationem, quam per
+          <lb ed="#P" n="13"/>cantun, et ideo diaconi el pralati, quibus 
+          com<lb break="no" ed="#P" n="14"/>petit per praedicationem et doctrinam animos
+          <lb ed="#P" n="15"/>hominun provocare in Deum, non debent 
+          canti<lb break="no" ed="#P" n="16"/>bus insistere, ne per hoc a majoribus 
+          retrahan<lb break="no" ed="#P" n="17"/>tur. Et in hujus doctrinae confirmationem 
+          ad<lb break="no" ed="#P" n="18"/>ducit statim verba Gregorii, intelligens plane
+          <lb ed="#P" n="19"/>Gregorium in eodem sensu fuisse locutum;
+          <lb ed="#P" n="20"/>supponit autem D. Thomas ibi, cum 
+          Grego<lb break="no" ed="#P" n="21"/>rius ait, ad diaconum pertinere praedicationis
+          <lb ed="#P" n="22"/>officium, proprie loqui de officio docendi 
+          po<lb break="no" ed="#P" n="23"/>pulum, non de solo cantu, vel lectione 
+          evan<lb break="no" ed="#P" n="24"/>gelii, ut quidam exposuerunt, et non 
+          impro<lb break="no" ed="#P" n="25"/>bat ibi Glos. ; tamen sine dubio prior sensus
+          <lb ed="#P" n="26"/>est verus, ut idem D. Thomas, 3 p., q. 61,
+          <lb ed="#P" n="27"/>art. 1, ad 1, distincte declaravit; et ibi Cajet.;
+          <lb ed="#P" n="28"/>et in 6 tom. tertiae partis, Deo dante, 
+          dice<lb break="no" ed="#P" n="29"/>mus; et videri potest Bellarm., 1. 1 de 
+          Cle<lb break="no" ed="#P" n="30"/>ric., c. 12. Eamdem doctrinam ex eodem
+          <lb ed="#P" n="31"/>textu Gregorii colligit Gorson, in 
+          Cantichor<lb break="no" ed="#P" n="32"/>do, in fin., Alphab. 79, ht. N, ubi sic ait:
+          <lb ed="#P" n="33"/>Beatus Gregorius de instituto isto canticorum
+          <lb ed="#P" n="34"/>ita censuit , ut judicaverit indigmun , si dediti
+          <lb ed="#P" n="35"/>verbo Dei , studium suum in istis , tempusque
+          <lb ed="#P" n="36"/>darent. Sic etiam Gulliel. Dur., l. 1 Rational.,
+          <lb ed="#P" n="37"/>c. 2; Dionys. Carthus., l. 3 Summae fidei,
+          <lb ed="#P" n="38"/>art. 155; Stephan. Duran., 1l. 3 de Ritib.,
+          <lb ed="#P" n="39"/>c. 31, in fin., referens Gregorium et divum
+          <lb ed="#P" n="40"/>Thomam.
+        </p>
+        <p xml:id="szovsr-m07625-d1e1285">
+          <lb ed="#P" n="41"/>14. Advertentia date explicationis. — 
+          Ad<lb break="no" ed="#P" n="42"/>dendum vero his omnibus est, ut difficultati
+          <lb ed="#P" n="43"/>propositae satisfaciamus, hanc Gregorii 
+          pro<lb break="no" ed="#P" n="44"/>hibitionem non ita esse intelligendam, ut
+          <lb ed="#P" n="45"/>simpliciter intelligatur interdictus diaconis
+          <lb ed="#P" n="46"/>cantus in choro; constat enim neque nunc
+          <lb ed="#P" n="47"/>esse , neque unquam fuisse in hoc sensu 
+          la<lb break="no" ed="#P" n="48"/>tam prohibitionem illam. Quia neque actio
+          <lb ed="#P" n="49"/>haec talis est, ut omnino prohiberi debeat
+          <lb ed="#P" n="50"/>aut possit, praesertim ecclesiasticis personis,
+          <lb ed="#P" n="51"/>neque ratio, quam Gregorius adducit, in eo
+          <lb ed="#P" n="52"/>sensu ostendit necessitatem talis 
+          prohibitio<lb break="no" ed="#P" n="53"/>nis, et hoc etiam convincit objectio facta:
+          <lb ed="#P" n="54"/>intelligendum ergo est, prohibitum fuisse a
+          <lb ed="#P" n="55"/>Gregorio ne diacono imponatur onus cantan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>di tanquam ex debito officii sui, ad quod vel
+          <lb ed="#P" n="57"/>ordinetur, vel principaliter eligatur. Item ne
+          <lb ed="#P" n="58"/>in eo munere ita occupetur, ut a munere 
+          do<lb break="no" ed="#P" n="59"/>cendi, vel certe ab studio ad docendum 
+          ne<lb break="no" ed="#P" n="60"/>cessario ea de causa impediatur. Atque in
+          <lb ed="#P" n="61"/>hunc sensum optime quadrant rationes et
+          <lb ed="#P" n="62"/>verba Gregorii, eumque propterea omnes dicti
+          <lb ed="#P" n="63"/>auctores secuti sunt. Quod vero in eodem
+          <lb ed="#P" n="64"/>textu Gregorius ait, hoc officium 
+          committen<lb break="no" ed="#P" n="65"/>dum esse subdiaconis, vel in necessitate 
+          infe<lb break="no" ed="#P" n="66"/>rioribus clericis, non ideo est, quia 
+          subdia<lb break="no" ed="#P" n="67"/>conatus vel alius proprius ordo clericorum sit
+          <lb ed="#P" n="68"/>per se necessarius ad officium cantandi, sed
+          <lb ed="#P" n="69"/>quia decet per clericos fieri, quando 
+          commo<lb break="no" ed="#P" n="70"/>de potest, et praesertim ut hi qui habent 
+          il<lb break="no" ed="#P" n="71"/>lius muneris praecipuam curam , clerici sint.
+          <lb ed="#P" n="72"/>Et quoniam subdiaconus superior est caeteris
+          <lb ed="#P" n="73"/>clericis post diaconum , et ex vi sui ordinis
+          <lb ed="#P" n="74"/>non habet munus aliquod majoris momenti,
+          <lb ed="#P" n="75"/>quo possit ab officio cantandi divinum 
+          offi<lb break="no" ed="#P" n="76"/>cium impediri, ideo haec cura illi praecipue
+          <lb ed="#P" n="77"/>committenda dicitur.
+        </p>
+        <p xml:id="szovsr-m07625-d1e1371">
+          <lb ed="#P" n="78"/>15. Antiqua D. Gregorii consuetudo , et lex
+          <lb ed="#P" n="79"/>prohibens cantare diaconos et jubens predicare,
+          <lb ed="#P" n="80"/>exolevit. — Denique intelliguntur haec omnia
+          <lb ed="#P" n="81"/>ex vi ordinis, et supposito antiquo more, quo
+          <lb ed="#P" n="82"/>diaconis ordinarie officium praedicationis 
+          ver<lb break="no" ed="#P" n="83"/>bi Dei committebatur, ut diximus, et 
+          col<lb break="no" ed="#P" n="84"/>ligitur etiam ex epistolis Clementis prima et
+          <lb ed="#P" n="85"/>tertia, c. Audire, 25 d., c. Sicut enim, juncta
+          <lb ed="#P" n="86"/>Gloss., verb. Per Diaconos, 11, q. 1. Haec 
+          au<lb break="no" ed="#P" n="87"/>tem consuetudo nostris temporibus fere 
+          ces<lb break="no" ed="#P" n="88"/>savit ; nullum enim fere aliud munus 
+          exer<lb break="no" ed="#P" n="89"/>cent, nisi cantandi solemniter evangelium,
+          <lb ed="#P" n="90"/>cum in Missa sacerdoti solemniter ministrant,
+          <lb ed="#P" n="91"/>ideoque jam illa prohibitio Gregorii cessasse
+          <lb ed="#P" n="92"/>videtur, non solum quoad diaconos, ut tales
+          <lb ed="#P" n="93"/>sunt, sed etiam quoad presbyteros, qui 
+          aliun<lb break="no" ed="#P" n="94"/>de non obligantur ad praedicandum, vel ad
+          <lb ed="#P" n="95"/>alia graviora Ecclesiae munera, quae cum 
+          obli<lb break="no" ed="#P" n="96"/>gatione chori repugnant. Atque ita facile 
+          sol<lb break="no" ed="#P" n="97"/>vitur objectio, quae de religionibus fiebat, in
+          <lb ed="#P" n="98"/>quibus et diaconi et presbyteri ad chorum
+          <lb ed="#P" n="99"/>sancte ac utiliter destinantur. Id enim verum
+          <lb ed="#P" n="100"/>est, quia vel tales religiones ad officium 
+          prae<lb break="no" ed="#P" n="101"/>dicationis aut alia ministeria spiritualia non
+          <lb ed="#P" n="102"/>sunt principaliter institutae, sed ad vitam pure
+          <lb ed="#P" n="103"/>contemplativam, quae per psalmodiam 
+          mul<lb break="no" ed="#P" n="104"/>tum juvatur, vel certe quia si corpusreligionis
+          <lb ed="#P" n="105"/>utrumque munus amplectitur, illud in varias
+          <lb ed="#P" n="106"/>ac distinctas personas partitur, quasdam 
+          de<lb break="no" ed="#P" n="107"/>dicando choro, et alias aliis ministeriis; 
+          sem<lb break="no" ed="#P" n="108"/>per tamen necesse est ut qui gravioribus 
+          des<lb break="no" ed="#P" n="109"/>tinantur ministeriis , non ita graventur onere
+          <lb ed="#P" n="110"/>chori , ut a propriis muneribus impediantur.
+          <pb ed="#P" n="311"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Et ita lex et doctrina Gregorii formaliter (ut
+          <lb ed="#P" n="2"/>sic dicam) semper integra manet, quia in
+          <lb ed="#P" n="3"/>ipsa ratione naturali fundata est, licet 
+          mate<lb break="no" ed="#P" n="4"/>rialiter (ut sic dicam) in diaconis cessaverit.
+          <lb ed="#P" n="5"/>Quam rem tractando de statu religioso tam in
+          <lb ed="#P" n="6"/>genere, quam in specie, latius explicaturi 
+          su<lb break="no" ed="#P" n="7"/>mus , quatenus specialiter ad illum statum
+          <lb ed="#P" n="8"/>pertinere potest.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

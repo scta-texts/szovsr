@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="4"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m00029"><!-- t4l1prae -->
+        <head xml:id="szovsr-m00029-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m00029-d1e103">
+          <pb ed="#P" n="4"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER PRIMUS
+          <lb ed="#P" n="2"/>DE ORATIONE IN COMMLUNI.
+        </p>
+        <p xml:id="szovsr-m00029-d1e114">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="3"/>Quoniam oratio (ut dixi), praeter rationem
+          <lb ed="#P" n="4"/>cultus, suam peculiarem naturam habet, 
+          se<lb break="no" ed="#P" n="5"/>cundum quam proprias conditiones requirit,
+          <lb ed="#P" n="6"/>tam quoad suum esse physicum et entitativum
+          <lb ed="#P" n="7"/>(ut sic dicam), quam quoad suam honestatem
+          <lb ed="#P" n="8"/>et moralitatem, ideo prius utrumque esse 
+          ora<lb break="no" ed="#P" n="9"/>tionis, tam physicum quam morale, a nobis
+          <lb ed="#P" n="10"/>explicandum est; postea de illius principiis,
+          <lb ed="#P" n="11"/>et causis, deinde vero de effectibus dicemus;
+          <lb ed="#P" n="12"/>ac tandem praeceptum illius et necessitatem
+          <lb ed="#P" n="13"/>declarabimus. De vitiis autem orationi 
+          oppo<lb break="no" ed="#P" n="14"/>sitis nihil dicere oportebit, quia praeceptum
+          <lb ed="#P" n="15"/>ejus aftirmativum est, et per omissionem 
+          po<lb break="no" ed="#P" n="16"/>tissimum violatur, quae specialem 
+          considera<lb break="no" ed="#P" n="17"/>tionem non requirit ultra praecepti 
+          declaratio<lb break="no" ed="#P" n="18"/>nem. Praesertim quia de tali omissione vix
+          <lb ed="#P" n="19"/>conStare potest, nisi ubi intercedit 
+          ecclesias<lb break="no" ed="#P" n="20"/>ticum praeceptum, de quo in lib. 4 
+          potissi<lb break="no" ed="#P" n="21"/>mum dicendum est. Quod si interdum 
+          pec<lb break="no" ed="#P" n="22"/>catur, etiam committendo contra debitum
+          <lb ed="#P" n="23"/>orandi modum, explicando conditiones ad
+          <lb ed="#P" n="24"/>orationem necessarias, omnes illos defectus
+          <lb ed="#P" n="25"/>declarabimus, et ita nihil de vitiis contra
+          <lb ed="#P" n="26"/>orationem separatim considerandum 
+          relin<lb break="no" ed="#P" n="27"/>quetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

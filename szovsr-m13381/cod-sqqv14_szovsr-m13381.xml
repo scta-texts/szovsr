@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="535"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m13381"><!-- t5l2c9 -->
+        <head xml:id="szovsr-m13381-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-m13381-Hd1e103" type="question-title">Utrum juramentum extortum per injuriam obliget?</head>
+        <p xml:id="szovsr-m13381-d1e106">
+          <pb ed="#P" n="535"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT IX.
+          <lb ed="#P" n="2"/>UTRUM JURAMENTUM EXTORTUM PER INJURIAM
+          <lb ed="#P" n="3"/>OBLIGET ?
+        </p>
+        <p xml:id="szovsr-m13381-d1e119">
+          <lb ed="#P" n="4"/>1. Tria sunt capita, quae videntur posse
+          <lb ed="#P" n="5"/>obligationem juramenti impedire. scilicet, 
+          in<lb break="no" ed="#P" n="6"/>juria, vis seu metus, et dolus, quae inter se
+          <lb ed="#P" n="7"/>affinitatem habent, quatenus omnia videntur
+          <lb ed="#P" n="8"/>facere actum vel involuntarium, vel iniquum,
+          <lb ed="#P" n="9"/>et ex hac parte videntur posse facere 
+          jura<lb break="no" ed="#P" n="10"/>mentum invalidum ad opligandum; et ideo
+          <lb ed="#P" n="11"/>de illis sigillatim dicemus, de injuria in hoc
+          <lb ed="#P" n="12"/>capite, de aliis in sequentibus. Solet autem
+          <lb ed="#P" n="13"/>praecipue tractari haec quaestio in juramento
+          <lb ed="#P" n="14"/>quod praestatur usurario de solvendis usuris,
+          <lb ed="#P" n="15"/>quia non vult aliter mutuare ; idem vero est
+          <lb ed="#P" n="16"/>de juramento non rescindendi contractum
+          <lb ed="#P" n="17"/>emptionis et venditionis, etiamsi ultra 
+          dimi<lb break="no" ed="#P" n="18"/>dium justi pretii vendatur, et de similibus 
+          ca<lb break="no" ed="#P" n="19"/>sibus. In quibus non oritur difficultas ex 
+          co<lb break="no" ed="#P" n="20"/>actione vel defectu voluntarii, quia in eis non
+          <lb ed="#P" n="21"/>fit absoluta vis, quia mutuans vel vendens 
+          co<lb break="no" ed="#P" n="22"/>git alium ad recipiendum mutuum, vel ad
+          <lb ed="#P" n="23"/>emendum, et consequenter neque ad 
+          juran<lb break="no" ed="#P" n="24"/>dum, sed tantum sub conditione cogit ad 
+          ju<lb break="no" ed="#P" n="25"/>randum, si velit habere mutuum, aut rem
+          <lb ed="#P" n="26"/>emptam quam desiderat, et ita ibi non proprie
+          <lb ed="#P" n="27"/>intercedit metus, sed potius concupiscentia, et
+          <lb ed="#P" n="28"/>ideo ex hac parte parva est difficultas, sed 
+          to<lb break="no" ed="#P" n="29"/>ta reducitur ad rationem injuriae.
+        </p>
+        <p xml:id="szovsr-m13381-d1e178">
+          <lb ed="#P" n="30"/>2. Videtur ergo in his casibus juramentum
+          <lb ed="#P" n="31"/>non posse obligare, quia in eis promissio per
+          <lb ed="#P" n="32"/>injuriam extorquetur; ergo est ipso jure 
+          nul<lb break="no" ed="#P" n="33"/>la; ergo et juramentum , quo confirmatur,
+          <lb ed="#P" n="34"/>est nullum. Antecedens per se ciarum est.
+          <lb ed="#P" n="35"/>Consequentia prima probatur, quia per 
+          inju<lb break="no" ed="#P" n="36"/>riam non potest acquiri jus contra eum, qui
+          <lb ed="#P" n="37"/>patitur injuriam. Secunda vero consequentia
+          <lb ed="#P" n="38"/>probatur, quia juramentum sequitur et 
+          imi<lb break="no" ed="#P" n="39"/>tatur naturam actus, cui adjungitur ; ergo si
+          <lb ed="#P" n="40"/>promissio est nulla, etiam juramentum est
+          <lb ed="#P" n="41"/>nullum. Secundo augetur difficultas, quia in
+          <lb ed="#P" n="42"/>illo casu de usuris solvendis, implere 
+          jura<lb break="no" ed="#P" n="43"/>mentum est cooperari peccato alterius, nam
+          <lb ed="#P" n="44"/>mutuator peccat accipiendo usuras; ergo 
+          mu<lb break="no" ed="#P" n="45"/>tuarius solvendo illas cooperatur peccato illius.
+          <lb ed="#P" n="46"/>Imo quodammodo allicit et invitat illum ad
+          <lb ed="#P" n="47"/>peccandum. Quia receptio et solutio, sicut actio
+          <lb ed="#P" n="48"/>et passio comparantur, unde sicut agens 
+          coo<lb break="no" ed="#P" n="49"/>peratur passioni, et inducit illam, ita solvens
+          <lb ed="#P" n="50"/>cooperatur recipienti, eumque ad recipiendum
+          <lb ed="#P" n="51"/>inducit. Tertio, illa solutio non est actus vir-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>tutis, nec est utilis illi cui factum est 
+          jura<lb break="no" ed="#P" n="53"/>mentum, sed potius nociva; ergo tale 
+          jura<lb break="no" ed="#P" n="54"/>mentum non potest obligare, ex incapacitate
+          <lb ed="#P" n="55"/>materiae, juxta ca quae in sequentibus 
+          capi<lb break="no" ed="#P" n="56"/>tibus dicemus. Major patet, quia illa solutio
+          <lb ed="#P" n="57"/>non est actus justitiae, cum non debeatur illa
+          <lb ed="#P" n="58"/>'ecunia ; nec est actus liberalitatis, cum non
+          <lb ed="#P" n="59"/>donetur ; nec fidelitatis, cum promissio non
+          <lb ed="#P" n="60"/>teneat ; nec potest dici religionis ratione solius
+          <lb ed="#P" n="61"/>juramenti, nam hoc est petere principium;
+          <lb ed="#P" n="62"/>hoc enim contendimus, quod juramentum non
+          <lb ed="#P" n="63"/>constituat talem actum, ut necessarium titulo
+          <lb ed="#P" n="64"/>religionis, quia hic titulus semper supponere
+          <lb ed="#P" n="65"/>debet materiam secundum se honestam. Imo
+          <lb ed="#P" n="66"/>juramentum non proprie constituit actum, iu
+          <lb ed="#P" n="67"/>quem cadit, in specie religionis, teste D. 
+          Tho<lb break="no" ed="#P" n="68"/>ma, 2. 2, q. 89, art. 5, ad 1. Quod vero talis
+          <lb ed="#P" n="69"/>actus sit etiam inutilis recipienti pecuniam,
+          <lb ed="#P" n="70"/>patet, tum quia peccat recipiendo, tum quia
+          <lb ed="#P" n="71"/>non acquirit illius pecuniae dominium, vel
+          <lb ed="#P" n="72"/>saltem ienetur illam restituere. Item sie 
+          sol<lb break="no" ed="#P" n="73"/>vens potest statim repetere; ergo ex hac 
+          par<lb break="no" ed="#P" n="74"/>te est etiam otiosus actus ille.
+        </p>
+        <p xml:id="szovsr-m13381-d1e281">
+          <lb ed="#P" n="75"/>3. Resolutio quaestionis : juramentum per
+          <lb ed="#P" n="76"/>injuriam extortum obligationem inducit , si
+          <lb ed="#P" n="77"/>absque peccato et turpitudine impleri queat.—
+          <lb ed="#P" n="78"/>Nihilominus dicendum est omne juramentum
+          <lb ed="#P" n="79"/>homini factum, licet sit per injuriam 
+          extor<lb break="no" ed="#P" n="80"/>tum, si absque peccato et turpitudine jurantis
+          <lb ed="#P" n="81"/>impleri possit, esse validum, et obligationem
+          <lb ed="#P" n="82"/>inducere. Ita est definitum in c. Delitores, de
+          <lb ed="#P" n="83"/>Jurejur., ubi de his qui de solvendis usuris 
+          ju<lb break="no" ed="#P" n="84"/>raverunt, dicitur: Cogendi sunt Domino 
+          red<lb break="no" ed="#P" n="85"/>dere juramentum ; et idem supponitur in c. 1,
+          <lb ed="#P" n="86"/>dum dlcitur, cogendos esse debitores ad 
+          hu<lb break="no" ed="#P" n="87"/>jusmodi juramenta relaxanda ; ubi autem 
+          re<lb break="no" ed="#P" n="88"/>laxatio necessaria est, validum snpponitur 
+          ju<lb break="no" ed="#P" n="89"/>ramentum. Et idem sumitur ex c. S cero, et
+          <lb ed="#P" n="90"/>c. Verum , eod., ubi juramenta per vim 
+          ex<lb break="no" ed="#P" n="91"/>torta servanda dicuntur, nisi relaxentur per
+          <lb ed="#P" n="92"/>habentem potestatem ; vis enim illa injuriam
+          <lb ed="#P" n="93"/>continet, ut constat. Ratio autem quae in 
+          eis<lb break="no" ed="#P" n="94"/>dem juribus redditur, est, quia talia 
+          juramen<lb break="no" ed="#P" n="95"/>ta servari possunt sine discrimine salutis 
+          aeter<lb break="no" ed="#P" n="96"/>nae, et ideo servanda sunt, nisi de illis, vel ab
+          <lb ed="#P" n="97"/>eo cui praestantur, vel a legitimo superiore
+          <lb ed="#P" n="98"/>relaxatio obtineatur. Antecedens supponitur,
+          <lb ed="#P" n="99"/>quia in solvenda usura, vel alia simili re,
+          <lb ed="#P" n="100"/>nullum committitur peccatum, ut ex 
+          solutio<lb break="no" ed="#P" n="101"/>nibus argumentorum facile constabit. 
+          Conse<lb break="no" ed="#P" n="102"/>quentia vero probatur, quia juramentum 
+          pro<lb break="no" ed="#P" n="103"/>missorium obligat in vi praecepti : Non 
+          assu<lb break="no" ed="#P" n="104"/>mes nomen Dei tui in vanum, quod cum 
+          nega<lb break="no" ed="#P" n="105"/>tivum sit et naturale, semper et pro semper
+          <lb ed="#P" n="106"/>obligat ; ergo non obstante injuria, etiam obli-
+          <pb ed="#P" n="536"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gat in materia capaci, qualis est quoties sine
+          <lb ed="#P" n="2"/>peecato impleri potest.
+        </p>
+        <p xml:id="szovsr-m13381-d1e362">
+          <lb ed="#P" n="3"/>4. Declarari potest optime haec ratio, quia
+          <lb ed="#P" n="4"/>licet juramentum per injuriam extortum sit,
+          <lb ed="#P" n="5"/>nihilominus verum est juramentum ; ergo
+          <lb ed="#P" n="6"/>suam inducit obligationem, si materia est 
+          ca<lb break="no" ed="#P" n="7"/>pax, ut esse supponimus. Antecedens patet,
+          <lb ed="#P" n="8"/>quia, non obstante injuria ex parte jurantis,
+          <lb ed="#P" n="9"/>nihil deest necessarium a substantiam et 
+          ve<lb break="no" ed="#P" n="10"/>ritatem juramenti ; supponimus enim 
+          pro<lb break="no" ed="#P" n="11"/>mittentem habere intentionem jurandi. 
+          Con<lb break="no" ed="#P" n="12"/>sequentia autem probatur , quia obligatio 
+          se<lb break="no" ed="#P" n="13"/>quitur naturaliter ex juramento, nec potest
+          <lb ed="#P" n="14"/>impediri propter injuriam alterius. Quam 
+          ra<lb break="no" ed="#P" n="15"/>tionem in sequenti capite latius exponemus.
+          <lb ed="#P" n="16"/>Potestque confirmari, quia si aliquis in simili
+          <lb ed="#P" n="17"/>casu simpliciter et sine juramento promisisset
+          <lb ed="#P" n="18"/>solvere usuras, posset honeste aolvere illas, 
+          li<lb break="no" ed="#P" n="19"/>cet non teneretur, ut paulo inferius ostendam;
+          <lb ed="#P" n="20"/>ergo si addidit juramentum, ratione illius 
+          te<lb break="no" ed="#P" n="21"/>nebitur.
+        </p>
+        <p xml:id="szovsr-m13381-d1e406">
+          <lb ed="#P" n="22"/>5. Opinio aliquorum. — Circa primam ergo
+          <lb ed="#P" n="23"/>rationem dubitandi aliqui censent 
+          promis<lb break="no" ed="#P" n="24"/>sioncm factam usurario, vel latroni, non
+          <lb ed="#P" n="25"/>esse ex vi juris naturalis irritam et inanem,
+          <lb ed="#P" n="26"/>quia licet latro et usurarius turpiter agant
+          <lb ed="#P" n="27"/>exigendo illam, ex parte promittentis bona est
+          <lb ed="#P" n="28"/>promissio, quod satis est ut sit valida , et ut
+          <lb ed="#P" n="29"/>postea illam implendo bene faciat, et 
+          fidelita<lb break="no" ed="#P" n="30"/>tem servet, qui illam fecit. Nam alioqui si
+          <lb ed="#P" n="31"/>promissio irrita esset jure natura, non 
+          pos<lb break="no" ed="#P" n="32"/>set juramento confirmari, quia id, quod est
+          <lb ed="#P" n="33"/>nullum de se , nunquam potest convalescere.
+          <lb ed="#P" n="34"/>Secus vero est , quando promissio est irrita
+          <lb ed="#P" n="35"/>jure tantum civili, quia tunc potest 
+          juramen<lb break="no" ed="#P" n="36"/>tum praevalere contra jus civile, et illam 
+          con<lb break="no" ed="#P" n="37"/>firmare, et ita censetur esse in praesenti. 
+          Ali<lb break="no" ed="#P" n="38"/>ter Panormit., in c. 1, de Jurejur., n.1et 2,
+          <lb ed="#P" n="39"/>dicit, in eo casu juramentum efficere, ut 
+          ali<lb break="no" ed="#P" n="40"/>qua obligatio oriatur respectu creditoris ,
+          <lb ed="#P" n="41"/>etiamsi ex solo pacto non posset oriri. 
+          Move<lb break="no" ed="#P" n="42"/>tur, quia alias non posset creditor relaxare
+          <lb ed="#P" n="43"/>juramentum in illo casu. Veritas nihilominus
+          <lb ed="#P" n="44"/>est promissionem illam esse irritam jure 
+          na<lb break="no" ed="#P" n="45"/>turae. Quod communiter in hac materia 
+          sup<lb break="no" ed="#P" n="46"/>ponunt tam Theologi quam Canonistae, ut 
+          pa<lb break="no" ed="#P" n="47"/>tet ex Cajet. 2. 2, q. 89, art. 7, circa ad 3; et
+          <lb ed="#P" n="48"/>Soto , Aragon., et aliis ibi; et ex Panorm.,
+          <lb ed="#P" n="49"/>Felin., Imol., Henr. et aliis, in d. c. Debitores,
+          <lb ed="#P" n="50"/>et sufficienter probatur illo argumento , quod
+          <lb ed="#P" n="51"/>promissio illa fundatur in injuria; in actione
+          <lb ed="#P" n="52"/>autem injuriosa non potest fundari vera 
+          obli<lb break="no" ed="#P" n="53"/>gatio ex parte ejus qui injuriam patitur.
+          <lb ed="#P" n="54"/>Item probatur ex communiori sententia 
+          Theo<lb break="no" ed="#P" n="55"/>logorum , et vera, per solutionem usurarum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non transferri dominium in accipientem ,
+          <lb ed="#P" n="57"/>quia solvens usuras non intendit donare, sed
+          <lb ed="#P" n="58"/>solvere debitum, unde, quia nihil debet, ideo
+          <lb ed="#P" n="59"/>nihil transfert in alterius dominium ; et ita
+          <lb ed="#P" n="60"/>datio illa est irrita jure naturae; ergo a 
+          for<lb break="no" ed="#P" n="61"/>tiori promissio. Deinde verius est ex illa 
+          pro<lb break="no" ed="#P" n="62"/>missione etiam jurata non conferri jus'aliquod
+          <lb ed="#P" n="63"/>creditori, ut ratio facta probat. Ad hoc 
+          ponde<lb break="no" ed="#P" n="64"/>rari possunt verba textus, in d. c. Debitores
+          <lb ed="#P" n="65"/>Cogendi sunt Domino reddere juramentum ; in
+          <lb ed="#P" n="66"/>illis enim satis significatur ex illa promissione
+          <lb ed="#P" n="67"/>nullam obligationem homini resultare, sed ex
+          <lb ed="#P" n="68"/>juramento obligari hominem Deo, et ideo 
+          im<lb break="no" ed="#P" n="69"/>plendum esse , cum sine interitu salutis 
+          ser<lb break="no" ed="#P" n="70"/>vari possit. Quod bene expendit Covar. supra,
+          <lb ed="#P" n="71"/>9p., S 3, n. 9.
+        </p>
+        <p xml:id="szovsr-m13381-d1e519">
+          <lb ed="#P" n="72"/>6. Solutio primi argumenti. — Vera ergo
+          <lb ed="#P" n="73"/>responsio est, juramentum firmare 
+          assertio<lb break="no" ed="#P" n="74"/>nem, non promissionem ; haec enim duo 
+          sepa<lb break="no" ed="#P" n="75"/>rari possunt, ut supra ostensum est, et ita
+          <lb ed="#P" n="76"/>quoad hoc non ita adhaeret juramentum 
+          pro<lb break="no" ed="#P" n="77"/>missioni , ut in suo esse et valore pendeat
+          <lb ed="#P" n="78"/>semper ex valore promissionis , sed potest 
+          ju<lb break="no" ed="#P" n="79"/>ramentum valere ad firmandam assertionem
+          <lb ed="#P" n="80"/>in promissione inclusam, etiamsi promissio in
+          <lb ed="#P" n="81"/>ratione promissionis vires non habeat. Ad hoc
+          <lb ed="#P" n="82"/>autem explicandum, notanda est doctrina 
+          Bar<lb break="no" ed="#P" n="83"/>toli communiter recepta, in l. Si quis pro eo,
+          <lb ed="#P" n="84"/>ft. de Fidejussor., n. 4 et sequentibus, ubi
+          <lb ed="#P" n="85"/>duplex distinguit juramentum : unum vocat
+          <lb ed="#P" n="86"/>introductorium obligationis, quia nullam 
+          sup<lb break="no" ed="#P" n="87"/>ponit, sed per sese illam introducit , et ideo
+          <lb ed="#P" n="88"/>solet etiam hoc juramentum vocari per se
+          <lb ed="#P" n="89"/>stans, vel simpliciter obligatorium ; alium
+          <lb ed="#P" n="90"/>appellat confirmatorium , quia supponit 
+          obli<lb break="no" ed="#P" n="91"/>gationem pacti seu promissionis, et illam 
+          con<lb break="no" ed="#P" n="92"/>firmat addendo novam obligationem altioris
+          <lb ed="#P" n="93"/>rationis ; inter quae duo genera juramentorum
+          <lb ed="#P" n="94"/>sunt plures differentiae, quae ad effectus 
+          mora<lb break="no" ed="#P" n="95"/>les multum conducunt, ut in superioribus
+          <lb ed="#P" n="96"/>tactum est, et infra, cap. seq., latius dicetur.
+          <lb ed="#P" n="97"/>Juramentum ergo promissorium de solvendis
+          <lb ed="#P" n="98"/>usuris, vel de pecunia solvenda latroni 
+          exi<lb break="no" ed="#P" n="99"/>genti , et simile, non est juramentum 
+          confir<lb break="no" ed="#P" n="100"/>matorium , in dicta significatione et rigore
+          <lb ed="#P" n="101"/>sumptum ; et hoc probat argumentum factum,
+          <lb ed="#P" n="102"/>quia promissio, vel contractus jure naturae 
+          ir<lb break="no" ed="#P" n="103"/>ritus non potest producere propriam 
+          obliga<lb break="no" ed="#P" n="104"/>tionem ; ergo juramentum illi additum non
+          <lb ed="#P" n="105"/>potest esse confirmatorium. Nihilominus 
+          ta<lb break="no" ed="#P" n="106"/>men esse potest tale juramentum 
+          introducto<lb break="no" ed="#P" n="107"/>rium obligationis, quia ad hoc satis est ut 
+          ad<lb break="no" ed="#P" n="108"/>haereat cuidam assertioni de futuro, quae licite
+          <lb ed="#P" n="109"/>et sine ullo morali incommodo potest fieri vera
+          <lb ed="#P" n="110"/>ab eo, qui illam juravit, et talis estilla promis-
+          <pb ed="#P" n="537"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sio, quantumvis nulla jure promissionis. Et hoc
+          <lb ed="#P" n="2"/>etiam intendit D. Thomas, d. q. 89, art 7, ad
+          <lb ed="#P" n="3"/>3, distinguens duplicem obligationem in 
+          Jura<lb break="no" ed="#P" n="4"/>mento promissorio, aliam homini, aliam Deo,
+          <lb ed="#P" n="5"/>docens priorem deficere in hoc juramento 
+          ini<lb break="no" ed="#P" n="6"/>que extorto, manere autem posteriorem : hic
+          <lb ed="#P" n="7"/>est enim clarus sensus D. Thomae, quem sine
+          <lb ed="#P" n="8"/>causa Cajetanus ibi mutat et corrumpit, contra
+          <lb ed="#P" n="9"/>simplicem litteram, et ita etiam censent 
+          Cano<lb break="no" ed="#P" n="10"/>nistae, in c. $7 vero, de Jurejur., et alii, quos
+          <lb ed="#P" n="11"/>referunt Covarr. supra, et Gutüerez, de 
+          Jura<lb break="no" ed="#P" n="12"/>mento, 1 p., c. 57, n. 20. Sed objici contra
+          <lb ed="#P" n="13"/>hoc potest ; nam sequitur non posse tunc 
+          cre<lb break="no" ed="#P" n="14"/>ditorem remittere debitum, et relaxare 
+          jura<lb break="no" ed="#P" n="15"/>mentum, quia nulla obligatio ad illum orta est;
+          <lb ed="#P" n="16"/>consequens est plane falsum; ergo. 
+          Responde<lb break="no" ed="#P" n="17"/>tur negando sequelam, quia ipsamet obligatio
+          <lb ed="#P" n="18"/>ad Deum habet inclusam hanc conditionem
+          <lb ed="#P" n="19"/>solvendi usuras: Si voluerit creditor ; unde si
+          <lb ed="#P" n="20"/>ipse remiserit, cessat obligatio.
+        </p>
+        <p xml:id="szovsr-m13381-d1e654">
+          <lb ed="#P" n="21"/>7. Solutio ad secundum. — Circa secundum
+          <lb ed="#P" n="22"/>argumentum , propter illud dixerunt aliqui,
+          <lb ed="#P" n="23"/>juramentum hoc de usuris solvendis, et 
+          simi<lb break="no" ed="#P" n="24"/>lia, solum obligare quando usurarius paratus
+          <lb ed="#P" n="25"/>est al mutuandum sub usuris, et ad 
+          recipien<lb break="no" ed="#P" n="26"/>das illas, quia tunc non peccat dans vel 
+          pro<lb break="no" ed="#P" n="27"/>mittens illas, nec inducit alium, cum jam
+          <lb ed="#P" n="28"/>supponatur paratus, nec cooperatur peccato
+          <lb ed="#P" n="29"/>illius, quia jam supponit illud, et ilia largitio
+          <lb ed="#P" n="30"/>potius haberet rationem permissionis, ut alius
+          <lb ed="#P" n="31"/>accipiat , quam actionis. At vero quando 
+          usu<lb break="no" ed="#P" n="32"/>rarius paratus non erat, tunc putant 
+          convin<lb break="no" ed="#P" n="33"/>cere argumentum factum , juramentum non
+          <lb ed="#P" n="34"/>posse obligare, quia peccat qui promittit, et
+          <lb ed="#P" n="35"/>juramentum non potest esse vinculum 
+          ini<lb break="no" ed="#P" n="36"/>quitatis. Ita Bellamera, et nonnulli alii, in
+          <lb ed="#P" n="37"/>disto capiulo Debitores ; sed immerito 
+          ad<lb break="no" ed="#P" n="38"/>dunt hanc limitationem illi textui, ut ibi 
+          no<lb break="no" ed="#P" n="39"/>tat Feiin., n. 7, quia textus generaliter 
+          loqui<lb break="no" ed="#P" n="40"/>tur. Nam in prioribus verbis, cum ait 
+          debito<lb break="no" ed="#P" n="41"/>res non esse cogendos ad solvendas usuras
+          <lb ed="#P" n="42"/>quas promiserunt, indifferenter loquitur, 
+          si<lb break="no" ed="#P" n="43"/>ve paratis , sive non paratis illas promiserint;
+          <lb ed="#P" n="44"/>ergo cum subdit, si de ipsarum solutione 
+          ju<lb break="no" ed="#P" n="45"/>raverint, cogendos esse, cum eadem 
+          generali<lb break="no" ed="#P" n="46"/>tate loquitur, nam est uniformis locutio.
+        </p>
+        <p xml:id="szovsr-m13381-d1e713">
+          <lb ed="#P" n="47"/>8. Praeterea non minor, imo major videtur
+          <lb ed="#P" n="48"/>esse ratio obligationis in eo, qui alium non
+          <lb ed="#P" n="49"/>paratum induxit ad mutuandum, invitando
+          <lb ed="#P" n="50"/>fortasse illum promissione usurarum, quam
+          <lb ed="#P" n="51"/>in eo qui a parato petiit, quia ille prior magis
+          <lb ed="#P" n="52"/>voluntarie promisit, et majus damnum intulit
+          <lb ed="#P" n="53"/>ei quem induxit. Item, licet promittere seu
+          <lb ed="#P" n="54"/>inducere culpa fuerit, nihilominus solvere
+          <lb ed="#P" n="55"/>non erit culpa, quia licet mutuans non fuerit
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>paratus ad mutuandum , et tunc fuerit 
+          induc<lb break="no" ed="#P" n="57"/>tus, postea paratus est ad recipiendum usuras;
+          <lb ed="#P" n="58"/>nam si non esset paratus, remitteret illas, et
+          <lb ed="#P" n="59"/>consequenter mutuatarius esset liber ab 
+          obli<lb break="no" ed="#P" n="60"/>gatione juramenti ; offerendo ergo, et 
+          traden<lb break="no" ed="#P" n="61"/>do quod promisit, jam non inducit alterum ad
+          <lb ed="#P" n="62"/>peccandum , nec cooperatur peccato ejus,
+          <lb ed="#P" n="63"/>etiamsi prius peccaverit inducendo ; ergo 
+          pec<lb break="no" ed="#P" n="64"/>catum praecedens non obstat quominus postea
+          <lb ed="#P" n="65"/>debeat juramentum impleri, cum sine 
+          pecca<lb break="no" ed="#P" n="66"/>to fieri possit. Unde tale juramentum non 
+          po<lb break="no" ed="#P" n="67"/>terit dici contra bonos mores , quia sine ullo
+          <lb ed="#P" n="68"/>actu contrario bonis moribus impleri potest a
+          <lb ed="#P" n="69"/>jurante , etiamsi fuerit factum cum peccato.
+          <lb ed="#P" n="70"/>Addo denique, non semper committi peccatum
+          <lb ed="#P" n="71"/>petendo tmutuum ab homine non parato ad
+          <lb ed="#P" n="72"/>foconerandum , etiamsi inde sumpturus esset
+          <lb ed="#P" n="73"/>occasionem ad petendam promissionem et 
+          ju<lb break="no" ed="#P" n="74"/>ramentum de solvendis illi usuris, dummodo
+          <lb ed="#P" n="75"/>hoc non illi offeratur directe. Nam hoc 
+          ulti<lb break="no" ed="#P" n="76"/>mum est intrinsece malum, quia est directe
+          <lb ed="#P" n="77"/>inducere ad peccandum : illud autem prius
+          <lb ed="#P" n="78"/>non est inductio ad peccandum, ad 
+          succurren<lb break="no" ed="#P" n="79"/>dum meae necessitati, quae tanta esse potest,
+          <lb ed="#P" n="80"/>ut non tenear vitare occasionem passivi 
+          scan<lb break="no" ed="#P" n="81"/>dali , quam alter sumpturus est ex mea justa
+          <lb ed="#P" n="82"/>petitione, cum tanto discrimine, et 
+          nocumen<lb break="no" ed="#P" n="83"/>to proprio. Igitur etiam tunc non habet locum
+          <lb ed="#P" n="84"/>dicta limitatio.
+        </p>
+        <p xml:id="szovsr-m13381-d1e801">
+          <lb ed="#P" n="85"/>9. Solutio ad tertium. — Ad tertium, de
+          <lb ed="#P" n="86"/>inutilitate actus solvendi usuras, Cajet., d.
+          <lb ed="#P" n="87"/>art. , circa solutionem ad 3, $ Ad evidentiam,
+          <lb ed="#P" n="88"/>quem Soto, Aragon., et alii sequuntur, 
+          respon<lb break="no" ed="#P" n="89"/>det, illam promissionem esse actum virtutis,
+          <lb ed="#P" n="90"/>quia est redemptio vexationis propriae, vel ad
+          <lb ed="#P" n="91"/>subveniendum propriae indigentiae, ut in casu
+          <lb ed="#P" n="92"/>usurarum , vel ad evitandam mortem, quam
+          <lb ed="#P" n="93"/>latro comminatur ; subvenire enim hoc modo
+          <lb ed="#P" n="94"/>propria necessitati, actus charitatis est. 
+          Sta<lb break="no" ed="#P" n="95"/>tim vero occurrit replica, quam sibiipsi 
+          obji<lb break="no" ed="#P" n="96"/>cit Cajetanus, quia ad redimendum 
+          vexatio<lb break="no" ed="#P" n="97"/>nem, ad summum fuit necessaria promissio
+          <lb ed="#P" n="98"/>juramento firmata, nam per illam liberatus
+          <lb ed="#P" n="99"/>est promittens ab actuali vexatione ; postea
+          <lb ed="#P" n="100"/>vero, quando solvit usuras, vel quod latroni
+          <lb ed="#P" n="101"/>promisit, non vexatur, nam liber jam est a
+          <lb ed="#P" n="102"/>periculo et necessitate; ergo solutio illa non
+          <lb ed="#P" n="103"/>honestatur per redemptionem vexationis. 
+          Re<lb break="no" ed="#P" n="104"/>spondet autem satis esse quod redemptio 
+          vexa<lb break="no" ed="#P" n="105"/>tionis fuerit inchoata per promissionem 
+          jura<lb break="no" ed="#P" n="106"/>tam cum ordine ad complementum ejus ; nam
+          <lb ed="#P" n="107"/>inde habet praedicta solutio, ut sub ratione 
+          re<lb break="no" ed="#P" n="108"/>demptionis vexationis fiat tanquam 
+          comple<lb break="no" ed="#P" n="109"/>mentum ejus, quod sufficit ad honestatem ejus.
+        </p>
+        <p xml:id="szovsr-m13381-d1e858">
+          <lb ed="#P" n="110"/>10. Maxime (inquit) quia propter Dei aucto-
+          <pb ed="#P" n="538"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ritatem per juramentum interpositam 
+          accep<lb break="no" ed="#P" n="2"/>tata est illa promissio tanquam sufficiens nd 
+          re<lb break="no" ed="#P" n="3"/>dimendam illam vexationem, non minus quam
+          <lb ed="#P" n="4"/>si haberet solutionem conjunctam, et ideo ad
+          <lb ed="#P" n="5"/>divinam auctoritatem et reverentiam spectat,
+          <lb ed="#P" n="6"/>ut redemptio impleatur. Sed hoc ultimum
+          <lb ed="#P" n="7"/>est, quod ad rem spectat, nam primum non
+          <lb ed="#P" n="8"/>est per se necessarium. Aliquando enim fieri
+          <lb ed="#P" n="9"/>potest ut tale juramentum fiat sine 
+          redemptio<lb break="no" ed="#P" n="10"/>ne vexationis, et nihilominus obliget, ut 
+          con<lb break="no" ed="#P" n="11"/>stat ex dictis in praecedenti solutione, quando
+          <lb ed="#P" n="12"/>aliquis inducit alium non paratum ad 
+          mu<lb break="no" ed="#P" n="13"/>tuandum, et consequenter inducit directe vel
+          <lb ed="#P" n="14"/>indirecte ad petendam promissionem 
+          usura<lb break="no" ed="#P" n="15"/>rum, et maxime si absque gravi necessitate
+          <lb ed="#P" n="16"/>petit ; nam ille non potest dici redimere 
+          vexa<lb break="no" ed="#P" n="17"/>tionem, imo nec subvenire necessitati suae,
+          <lb ed="#P" n="18"/>sed potius explere appetitum suum ; ergo 
+          con<lb break="no" ed="#P" n="19"/>sideratio illa redemptionis necessaria non est,
+          <lb ed="#P" n="20"/>licet, quando intervenit, conferat ad 
+          honestan<lb break="no" ed="#P" n="21"/>dam promissionem.
+        </p>
+        <p xml:id="szovsr-m13381-d1e913">
+          <lb ed="#P" n="22"/>11. Respondeo igitur, sufficientem utilitatem
+          <lb ed="#P" n="23"/>illius solutionis esse, ut fiat verum, quod sub
+          <lb ed="#P" n="24"/>divino testimonio dictum est, cum possit 
+          ve<lb break="no" ed="#P" n="25"/>rum fieri sine peccato. Quia actus ille 
+          solven<lb break="no" ed="#P" n="26"/>di non solum malus non est ex malitia 
+          reci<lb break="no" ed="#P" n="27"/>pientis, ut declaratum est, verum etiam non
+          <lb ed="#P" n="28"/>est otiosus et inutilis ad humanam societatem,
+          <lb ed="#P" n="29"/>sed suam habet commoditatem. Haec autem
+          <lb ed="#P" n="30"/>primo ac praecipue spectanda est ex parte 
+          pro<lb break="no" ed="#P" n="31"/>mittentium, quia illis commodum est, quod
+          <lb ed="#P" n="32"/>tanta sit auctoritas juramenti, ut etiam 
+          injus<lb break="no" ed="#P" n="33"/>tos et iniquos exactores reddat magis certos
+          <lb ed="#P" n="34"/>de impletione promissi, quam si absque 
+          jura<lb break="no" ed="#P" n="35"/>mento fieret, ut si iterum indiguerint 
+          promit<lb break="no" ed="#P" n="36"/>tentes tali remedio, illis fides adhibeatur. 
+          Se<lb break="no" ed="#P" n="37"/>cundo, quia hoc ipsum, scilicet, stare 
+          promis<lb break="no" ed="#P" n="38"/>sis et datum verbum implere, est per se adeo
+          <lb ed="#P" n="39"/>decens, ut etiam in injustis extorsionibus ad
+          <lb ed="#P" n="40"/>perfectionem quamdam veritatis pertinere 
+          vi<lb break="no" ed="#P" n="41"/>deatur . et ideo homines suae existimationi
+          <lb ed="#P" n="42"/>consulentes solent haec etiam promissa 
+          imple<lb break="no" ed="#P" n="43"/>re, non sine humana utilitate ad honorem 
+          li<lb break="no" ed="#P" n="44"/>citum pertinente ; haec ergo utilitas satis est ut
+          <lb ed="#P" n="45"/>ille actus non sit otiosus, nec vanus, et 
+          conse<lb break="no" ed="#P" n="46"/>quenter ut interveniente juramento omnino
+          <lb ed="#P" n="47"/>debeat impleri. Accedit tertio, actum illum de
+          <lb ed="#P" n="48"/>se non carere utilitate ex parte recipientis,
+          <lb ed="#P" n="49"/>utilitate (inquam) temporali et humana, quae
+          <lb ed="#P" n="50"/>ad promissionem humanamn satis est. Nam licet
+          <lb ed="#P" n="51"/>in effectu, ratione conscientiae, non sit utilis
+          <lb ed="#P" n="52"/>illa receptio,el quia ille non acquirit 
+          domi<lb break="no" ed="#P" n="53"/>nium, vel quia tenetur restituere, non oportet
+          <lb ed="#P" n="54"/>haec considerari a dante, sed solnm quod 
+          pe<lb break="no" ed="#P" n="55"/>cunia illa utilis est, et quod ipse, quantum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in se est, rem utilem confert, quam promisit.
+        </p>
+        <p xml:id="szovsr-m13381-d1e994">
+          <lb ed="#P" n="57"/>12. Objectio. — Satisfit objectioni. — Dices:
+          <lb ed="#P" n="58"/>ergo promissio illa, quamvis facta fuisset sine
+          <lb ed="#P" n="59"/>juramento, deberet omnino impleri, saltem
+          <lb ed="#P" n="60"/>propter illam utilitatem faciendi verum, quod
+          <lb ed="#P" n="61"/>semel dictum est, et ut simile remedium 
+          es<lb break="no" ed="#P" n="62"/>set utilius in humana societate, vel ad 
+          redi<lb break="no" ed="#P" n="63"/>mendas vexationes similes, vel ad 
+          subvenien<lb break="no" ed="#P" n="64"/>dum justis necessitatibus. Circa hoc Cajetanus
+          <lb ed="#P" n="65"/>supra , quem Aragon. sequitur, non ex alio
+          <lb ed="#P" n="66"/>capite censet talem promissionem, sine 
+          jura<lb break="no" ed="#P" n="67"/>mento factam, esse nullam, nisi quia est de 
+          ma<lb break="no" ed="#P" n="68"/>teria incapaci obligationis, id est, de actu et re
+          <lb ed="#P" n="69"/>inutili accipienti : Quia de ratione 
+          promissio<lb break="no" ed="#P" n="70"/>nis lummanc (inquit Cajetanus ) est, ut sit 
+          uti<lb break="no" ed="#P" n="71"/>lis recipienti, quia alias erit de actu vano et
+          <lb ed="#P" n="72"/>otioso, ac proinde non obligabit. Hanc vero 
+          ra<lb break="no" ed="#P" n="73"/>tionem improbat Soto, quia non est de 
+          ra<lb break="no" ed="#P" n="74"/>tione obligationis humanae promissionis , ut
+          <lb ed="#P" n="75"/>res promissa de facto sit utilis accipienti;
+          <lb ed="#P" n="76"/>satis enim est quod de se sit utilis, etiamsi de
+          <lb ed="#P" n="77"/>facto ex abusu vel malitia ejus utilitatem non
+          <lb ed="#P" n="78"/>sit ei allatura. Et certe si ratio Cajetani valida
+          <lb ed="#P" n="79"/>esset, non solum probaret promissionem illam
+          <lb ed="#P" n="80"/>usurarum non obligare, sed etiam impleri
+          <lb ed="#P" n="81"/>non posse licite, secluso juramento, qua esset
+          <lb ed="#P" n="82"/>actus inutilis et otiosus, et sine causa 
+          consti<lb break="no" ed="#P" n="83"/>tueret proximum in majoribus periculis. 
+          Con<lb break="no" ed="#P" n="84"/>sequens autem est plane falsum, et contra
+          <lb ed="#P" n="85"/>communem sensum omnium hominum, nam
+          <lb ed="#P" n="86"/>potius censetur quis facere opus 
+          supererogatio<lb break="no" ed="#P" n="87"/>nis, et eximiae veracitatis, talem promissionem
+          <lb ed="#P" n="88"/>simplicem implendo. Adde promissiones has,
+          <lb ed="#P" n="89"/>quae non ex mera liberalitate, sed quasi 
+          coac<lb break="no" ed="#P" n="90"/>tione quadam ftiunt, non solum respicere 
+          utili<lb break="no" ed="#P" n="91"/>tatem eorum quibus fiunt, sed etiam 
+          promit<lb break="no" ed="#P" n="92"/>tentium, et ideo in eis explendis etiam hane
+          <lb ed="#P" n="93"/>utilitatem posse et debere considerari. Ad 
+          ob<lb break="no" ed="#P" n="94"/>jectionem ergo respondeo, illam solum 
+          proba<lb break="no" ed="#P" n="95"/>re talem promissionem simplicem posse 
+          ho<lb break="no" ed="#P" n="96"/>neste impleri, non tamen hoc esse sub 
+          obliga<lb break="no" ed="#P" n="97"/>tione, quia omnes illae rationes, quae ibi 
+          con<lb break="no" ed="#P" n="98"/>siderantur, inducunt honestatem, non 
+          neces<lb break="no" ed="#P" n="99"/>sitatem ; tum quia cum majori ex parte 
+          res<lb break="no" ed="#P" n="100"/>piciant utilitatem promittentis , potest ipse
+          <lb ed="#P" n="101"/>ili cedere ; tum etiam quia non tenetur
+          <lb ed="#P" n="102"/>quis cum tanto onere suo facere verum, quod
+          <lb ed="#P" n="103"/>injuste coactus dixit, seu promisit, nec alius
+          <lb ed="#P" n="104"/>per injuriam potuit eum obligare. Secus vero
+          <lb ed="#P" n="105"/>est ratione juramenti, in quo solius Dei ratio
+          <lb ed="#P" n="106"/>habetur, qui injuriam non intulit, neque in
+          <lb ed="#P" n="107"/>vanum invocandus est.
+        </p>
+        <p xml:id="szovsr-m13381-d1e1107">
+          <lb ed="#P" n="108"/>13. Sed instari potest, quia non implere
+          <lb ed="#P" n="109"/>illam promissionem juratam, est perjurium;
+          <lb ed="#P" n="110"/>ergo subest ibi mendacium; ergo etiam non
+          <pb ed="#P" n="539"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>implere illam promissionem non juratam erit
+          <lb ed="#P" n="2"/>mendacium, quia perjurium non facit suam
+          <lb ed="#P" n="3"/>materiam esse mendacium, sed suppouit. Et
+          <lb ed="#P" n="4"/>ideo in c. Juramenti, 22, q. 5, dicitur inter
+          <lb ed="#P" n="5"/>juramentum, et simplicem loquelam, non 
+          de<lb break="no" ed="#P" n="6"/>bere esse distantiam, non quidem quoa4 
+          gra<lb break="no" ed="#P" n="7"/>vitatem vel aequalitatem culpae aut honestatis,
+          <lb ed="#P" n="8"/>sed quoad hoc, quod sicut in juramento non
+          <lb ed="#P" n="9"/>debet admitti falsitas, ita nec in simplici 
+          lo<lb break="no" ed="#P" n="10"/>quela ; ergo si in tali promissione jurata est,
+          <lb ed="#P" n="11"/>falsitas, si non fiat quod dicitur, etiam in
+          <lb ed="#P" n="12"/>simplici loquela erit.
+        </p>
+        <p xml:id="szovsr-m13381-d1e1146">
+          <lb ed="#P" n="13"/>14. Explicatio ad cap. Juramenti. — 
+          Res<lb break="no" ed="#P" n="14"/>pondetur. tam in promissione simplici, quam
+          <lb ed="#P" n="15"/>in jurata requiri veritatem de praesenti, id
+          <lb ed="#P" n="16"/>est, ut fiat cum proposito implendi, alias in
+          <lb ed="#P" n="17"/>utraque peccatur, licet non aeque. Hoc per se
+          <lb ed="#P" n="18"/>constat, et sumitur ex doctrina D. Thomee2.
+          <lb ed="#P" n="19"/>2. q. 110, art. 3, ad 5. Et ratio est, quia ille
+          <lb ed="#P" n="20"/>defectus veritatis continet formale 
+          menda<lb break="no" ed="#P" n="21"/>cium; at vero in executione vel impletione
+          <lb ed="#P" n="22"/>promissionis, per quam fit verum, quod 
+          dic<lb break="no" ed="#P" n="23"/>tum est, defectus vcritatis non semper est
+          <lb ed="#P" n="24"/>malus, sed quandoque est debitus. Et ratio
+          <lb ed="#P" n="25"/>est, quia illa est magis veritas facti quam
+          <lb ed="#P" n="26"/>dicti, et ideo non requiritur ratione formalis
+          <lb ed="#P" n="27"/>veritatis, quae mentem respicit, sed ratione 
+          fi<lb break="no" ed="#P" n="28"/>delitatis, ut sumitur ex D. Thoma supra, et
+          <lb ed="#P" n="29"/>infra lib. 3 latius dicetur. Et ideo defectus in
+          <lb ed="#P" n="30"/>illa veritate peccatum non est, nisi quando
+          <lb ed="#P" n="31"/>supponitur obligatio, estque tunc infidelitas
+          <lb ed="#P" n="32"/>potius quam mendacium. In hac ergo veritate
+          <lb ed="#P" n="33"/>facienda non semper aequiparantur promissio
+          <lb ed="#P" n="34"/>simplex et jurata, quia non semper aeque
+          <lb ed="#P" n="35"/>obligant. Quod recte notavit Panormitanus,
+          <lb ed="#P" n="36"/>in dicto capite Debitores, numer. 3; et late
+          <lb ed="#P" n="37"/>Covarruvias supra, 1 p., S 2, n. 1. Ad 
+          argu<lb break="no" ed="#P" n="38"/>mentum ergo respondetur, negando 
+          illatio<lb break="no" ed="#P" n="39"/>nem, nam perjurium illud non est proprie
+          <lb ed="#P" n="40"/>mendacii et falsitatis, sed infidelitatis et 
+          irre<lb break="no" ed="#P" n="41"/>verentiae. Et ideo quando est simplex 
+          promis<lb break="no" ed="#P" n="42"/>sio injuste extorta, nulla est infidelitas non
+          <lb ed="#P" n="43"/>implere, quia non est valida, nec parit 
+          obliga<lb break="no" ed="#P" n="44"/>tionem; quando vero additur juramentum,
+          <lb ed="#P" n="45"/>ex illo resultat obligatio, et ideo est perjurium
+          <lb ed="#P" n="46"/>irreverentiae, et quasi infidelitatis erga Deum.
+          <lb ed="#P" n="47"/>Ad c. Juramenti, dicitur, aequiparationem
+          <lb ed="#P" n="48"/>solum fieri in necessitate cavendi mendacium,
+          <lb ed="#P" n="49"/>et posse etiam ferl in necessitate servandi
+          <lb ed="#P" n="50"/>obligationem, quando est; non vero fieri, vel
+          <lb ed="#P" n="51"/>in quantitate obligationis seu culpae, nec in
+          <lb ed="#P" n="52"/>aequali virtute inducendi obligationem. Haec
+          <lb ed="#P" n="53"/>sumi possunt ex Abb., et Felin., in d. c. 
+          De<lb break="no" ed="#P" n="54"/>bitores ; Sylv., Juramentum, 4, q. ult.; Covar.,
+          <lb ed="#P" n="55"/>supra. 1 p.,$ 2. n. 1.
+        </p>
+        <p xml:id="szovsr-m13381-d1e1243">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>15. Objectio ultima. — Ultimo instari 
+          po<lb break="no" ed="#P" n="57"/>test; nam sequitur per alind extremum, 
+          jura<lb break="no" ed="#P" n="58"/>mentum illud non solum obligare ad 
+          solven<lb break="no" ed="#P" n="59"/>dam rem vel pecuniam promissam, sed etiam
+          <lb ed="#P" n="60"/>ad non repetendam illam, sed in perpetuum
+          <lb ed="#P" n="61"/>largiendum, quantum est ex parte solventis.
+          <lb ed="#P" n="62"/>Consequens est falsum, ut sumitur ex eodem
+          <lb ed="#P" n="63"/>c. Debitores, ubi dicitur, postquam debitores
+          <lb ed="#P" n="64"/>solverint, creditores cogendos esse ad 
+          resti<lb break="no" ed="#P" n="65"/>tuendum. Non enim sunt cogendi nisi ad 
+          pe<lb break="no" ed="#P" n="66"/>titionem illorum, qui jus habent ad res illas;
+          <lb ed="#P" n="67"/>possunt ergo debitores repetere. Item, eadem
+          <lb ed="#P" n="68"/>ratione possunt petere ut creditores 
+          compel<lb break="no" ed="#P" n="69"/>lantur ad relaxandum juramentum; ergo
+          <lb ed="#P" n="70"/>absolute non tcnentur solvere: imo superflua
+          <lb ed="#P" n="71"/>est talis solutio, cum possit meliori et faciliori
+          <lb ed="#P" n="72"/>medio licito extingui talis obligatio.
+        </p>
+        <p xml:id="szovsr-m13381-d1e1285">
+          <lb ed="#P" n="73"/>16. Solutio. — Réspondeo ad argumentum
+          <lb ed="#P" n="74"/>negando sequelam, si juramentum tanturm
+          <lb ed="#P" n="75"/>fiat de solvendis usuris, vel dandis tot aureis,
+          <lb ed="#P" n="76"/>quia in hoc non includitur renunciatio juris,
+          <lb ed="#P" n="77"/>quod quis habet ad repetendas pecunias, quas
+          <lb ed="#P" n="78"/>alter non potest juste retinere. Neque satis est
+          <lb ed="#P" n="79"/>quod forte latro vel usurarius intendat hoc
+          <lb ed="#P" n="80"/>totum, quia alter non tenetur conformari 
+          in<lb break="no" ed="#P" n="81"/>tentioni ejus, sed purae ac praecisae 
+          significa<lb break="no" ed="#P" n="82"/>tioni rigorosae verborum, sub quibus jurat,
+          <lb ed="#P" n="83"/>et sub legitima intentione qua ab ipso 
+          profe<lb break="no" ed="#P" n="84"/>runtur. Et hoc satis expresse declaratum est
+          <lb ed="#P" n="85"/>in c. Ad nostram, de lis quae vi, ibi: Non
+          <lb ed="#P" n="86"/>obstante juramento predicto, quo non ad non
+          <lb ed="#P" n="87"/>repetendum, sed ad resignandum solummodo
+          <lb ed="#P" n="88"/>tenebatur ; ubi Glossa et omnes id notant.
+          <lb ed="#P" n="89"/>Certum ergo est, quoties exactio juramenti
+          <lb ed="#P" n="90"/>turpis est ex parte petentis illud, expleri 
+          suft<lb break="no" ed="#P" n="91"/>ficienter juramentum per traditionem rei 
+          pro<lb break="no" ed="#P" n="92"/>missae et statim posse recuperari, 
+          quacum<lb break="no" ed="#P" n="93"/>que via justa et legitima id fieri possit.
+        </p>
+        <p xml:id="szovsr-m13381-d1e1333">
+          <lb ed="#P" n="94"/>I7. Sed quid si iniqua exactio directe 
+          ex<lb break="no" ed="#P" n="95"/>tendatur ad juramentum de non repetendo,
+          <lb ed="#P" n="96"/>et ihud etiam fiat? Respondet D. Thomas,
+          <lb ed="#P" n="97"/>dicto art. 7, ad 3, his verbis: Potest autem
+          <lb ed="#P" n="98"/>repetere in judicio, quod solvit, vel Prelato
+          <lb ed="#P" n="99"/>denunciare, non obstante quod contrarium 
+          ju<lb break="no" ed="#P" n="100"/>ravit, quia tale juramentum vergeret in 
+          dete<lb break="no" ed="#P" n="101"/>riorem emitum, esset enim contra justitiam 
+          pu<lb break="no" ed="#P" n="102"/>blicam. Sed illa verba, non obstante, non ad
+          <lb ed="#P" n="103"/>totam disjunctionem praecedentem, et 
+          singu<lb break="no" ed="#P" n="104"/>las ejus partes referenda sunt, sed tantum ad
+          <lb ed="#P" n="105"/>proximam. Duo enim dixit D. Thomas: unum
+          <lb ed="#P" n="106"/>est, quod potest repetere in judicio, quod 
+          in<lb break="no" ed="#P" n="107"/>telligendum est, quando de hoc nihil in 
+          jura<lb break="no" ed="#P" n="108"/>mento actum est; at vero si jurasset etiam
+          <lb ed="#P" n="109"/>non repetere in judicio, servari debet 
+          jura<lb break="no" ed="#P" n="110"/>mentum. Quod per argumentum a contrario
+          <pb ed="#P" n="540"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>colligitur ex d. c. Ad nostram, ibi: Quo non ad
+          <lb ed="#P" n="2"/>non repetendwn ; ergo secus, si ad hoc se 
+          jura<lb break="no" ed="#P" n="3"/>mento obligasset. Item, quia illud etiam 
+          ju<lb break="no" ed="#P" n="4"/>ramentum potest impleri sine salutis periculo,
+          <lb ed="#P" n="5"/>ut constat ex c. Quemadmodum, S Illud, eod.,
+          <lb ed="#P" n="6"/>de quo textu infra late dicendum est. Denique
+          <lb ed="#P" n="7"/>ex c. Si cero, eod., quatenus in eo dicitur,
+          <lb ed="#P" n="8"/>juramentum, quo quis cogitur renunciare juri
+          <lb ed="#P" n="9"/>suo, obligare, licet relaxari possit; et idem
+          <lb ed="#P" n="10"/>colligitur ex c. Ad aures, De lis quae vi, ubi
+          <lb ed="#P" n="11"/>id notat Glossa, verb. Nisi forte in 
+          juramen<lb break="no" ed="#P" n="12"/>to, et Doctores in d. c. Ad audientiam, et
+          <lb ed="#P" n="13"/>Bart., in l. Si quis pro eo, ff. de Fidejus.,
+          <lb ed="#P" n="14"/>n. 40. Covarr., 9 p., S 3, n. 2, Gutier., 1 p.
+          <lb ed="#P" n="15"/>c. 53, n. 8.
+        </p>
+        <p xml:id="szovsr-m13381-d1e1409">
+          <lb ed="#P" n="16"/>18. Addit vero D. Thomas posse 
+          nihilomi<lb break="no" ed="#P" n="17"/>nus eum, qui sic juravit, denunciare Praelato
+          <lb ed="#P" n="18"/>Ecclesiae tale delictum, et injustitiam contra
+          <lb ed="#P" n="19"/>se commissam. Quod verum est etiam sine 
+          re<lb break="no" ed="#P" n="20"/>laxatione prioris juramenti, quia illud non
+          <lb ed="#P" n="21"/>fuit de non denunciando, sed de non 
+          accu<lb break="no" ed="#P" n="22"/>sando, quod etiam affirmant Glossae supra,
+          <lb ed="#P" n="23"/>et constat ex d. S Zllud. Denique addit D.
+          <lb ed="#P" n="24"/>Thomas, quod lieet fuisset exhibitum 
+          jura<lb break="no" ed="#P" n="25"/>mentum de non denunciando, posset 
+          denun<lb break="no" ed="#P" n="26"/>ciare, quia tale juramentum esset de re 
+          illi<lb break="no" ed="#P" n="27"/>cita, et ita bonis moribus contrarium. Et in
+          <lb ed="#P" n="28"/>hoc sensu ait D. Thomas esse contra justitiam
+          <lb ed="#P" n="29"/>publicam, in quo verbo explicando laborat ibi
+          <lb ed="#P" n="30"/>Cajetanus ; sed non habet difficultatem, licet
+          <lb ed="#P" n="31"/>ea, quae Cajetanus illa occasione docet, vera
+          <lb ed="#P" n="32"/>sint et utilia, quae nos latius et generalius
+          <lb ed="#P" n="33"/>trademus infra, explicando d. S 7llud, ex quo
+          <lb ed="#P" n="34"/>idem colligitur. Videtur tamen ex eo inferri,
+          <lb ed="#P" n="35"/>hanc denunciationem non posse fieri ad 
+          recu<lb break="no" ed="#P" n="36"/>perandum proprium interesse, supposito
+          <lb ed="#P" n="37"/>priori juramento, cujus contrarium dicit 
+          Ca<lb break="no" ed="#P" n="38"/>jetanus ibi. Sed duplex potest esse interesse:
+          <lb ed="#P" n="39"/>unum non necessarium ut proximus a 
+          pec<lb break="no" ed="#P" n="40"/>cato exeat, sed vel ad vindictam, vel ad aliam
+          <lb ed="#P" n="41"/>commoditatem denunciantis, et hoc intendi
+          <lb ed="#P" n="42"/>non potest per denunciationem, supposito 
+          ju<lb break="no" ed="#P" n="43"/>ramento, nisi prius relaxetur; aliud est 
+          neces<lb break="no" ed="#P" n="44"/>sarium ad exeundum ab statu peccati, ut est
+          <lb ed="#P" n="45"/>restitutio rei malae retentae, et hoc intendi 
+          po<lb break="no" ed="#P" n="46"/>test secundario, utpote conjunctum cum
+          <lb ed="#P" n="47"/>emendatione fratris, et de hoc bene loquitur
+          <lb ed="#P" n="48"/>Cajetanus.
+        </p>
+        <p xml:id="szovsr-m13381-d1e1483">
+          <lb ed="#P" n="49"/>19. Instantia. — Solutio. — Dices: ergo si
+          <lb ed="#P" n="50"/>hoc juramentnm non denunciandi non 
+          obli<lb break="no" ed="#P" n="51"/>gat, non poterit licite fieri ad redimendam
+          <lb ed="#P" n="52"/>vexationem. Patet sequela, quia est 
+          juramen<lb break="no" ed="#P" n="53"/>tum de materia turpi, et iniqua etiam ipsi 
+          ju<lb break="no" ed="#P" n="54"/>ranti. Consequens autem videtur durum, quia
+          <lb ed="#P" n="55"/>redigentur homines in magnas angustias, et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>non poterunt saepe aut evadere pericula ,
+          <lb ed="#P" n="57"/>aut necessitatibus suis subvenire. Respondeo,
+          <lb ed="#P" n="58"/>concedendo non esse licitum tale juramentum
+          <lb ed="#P" n="59"/>facere, prout ab iniquo exactore postulatur,
+          <lb ed="#P" n="60"/>hoc enim convincit argumentum factum. Ut
+          <lb ed="#P" n="61"/>tamen rigor hic leniatur, adjungo licitum 
+          es<lb break="no" ed="#P" n="62"/>se simulatis verbis et diversa intentione tale
+          <lb ed="#P" n="63"/>juramentum facere, nimirum, intendendo non
+          <lb ed="#P" n="64"/>denunciare, ut judici ad vindictam, sed ut
+          <lb ed="#P" n="65"/>patri ad medelam, vel jurando non 
+          denun<lb break="no" ed="#P" n="66"/>ciare, si licite potuero, aut debuero, seu fuero
+          <lb ed="#P" n="67"/>obligatus, juxta superius dicta de simulato 
+          ju<lb break="no" ed="#P" n="68"/>ramento; hic enim justissima causa 
+          simu<lb break="no" ed="#P" n="69"/>landi intervenit, ut per se constat. p
+        </p>
+        <p xml:id="szovsr-m13381-d1e1533">
+          <lb ed="#P" n="70"/>20. Idemque dicendum ecenseo, si exigatur
+          <lb ed="#P" n="71"/>juramentum de non petenda relaxatione 
+          alte<lb break="no" ed="#P" n="72"/>rius juramenti. De quo Covar. supra, p. 2,
+          <lb ed="#P" n="73"/>S 3, n. 2, cum Felin., in c. Constitutus, de
+          <lb ed="#P" n="74"/>Rescrip., n. 18, dicit, illud juramentum non
+          <lb ed="#P" n="75"/>petendi relaxationem non esse obligatorium.
+          <lb ed="#P" n="76"/>Sicut dixit Richard., in 4, d. 38, art. 9, q. 3,
+          <lb ed="#P" n="77"/>quem sequitur Anton., 2 p., tit. 11, c. 2. 89,
+          <lb ed="#P" n="78"/>in fin., et Astens., in Sum., lib. 1, q. 20,
+          <lb ed="#P" n="79"/>art. 11, votum de non petenda dispensatione
+          <lb ed="#P" n="80"/>non esse validum, quia est in praejudicium
+          <lb ed="#P" n="81"/>Papae, seu Praelati, et quia non est de meliori
+          <lb ed="#P" n="82"/>bono, imo nec de bono per se utili animae.
+          <lb ed="#P" n="83"/>Idem enim videtur cum proportione in 
+          prae<lb break="no" ed="#P" n="84"/>senti. Covar. vero addit, securius esse petere
+          <lb ed="#P" n="85"/>relaxationem hujus juramenti; et Felin. supra,
+          <lb ed="#P" n="86"/>n. 14, ait in petenda relaxatione narrandum
+          <lb ed="#P" n="87"/>esse totum quod juratum est, scilicet, an 
+          jura<lb break="no" ed="#P" n="88"/>tum sit non petere relaxationem, quod in idem
+          <lb ed="#P" n="89"/>redit. Unde verum est tale juramentum non
+          <lb ed="#P" n="90"/>potuisse obligare ad non recurrendum ad
+          <lb ed="#P" n="91"/>Papam, et petendum ab illo remedium, 
+          nar<lb break="no" ed="#P" n="92"/>rando integre juramentum. Quocirca in idem
+          <lb ed="#P" n="93"/>redit, si dicatur semper peti posse 
+          relaxatio<lb break="no" ed="#P" n="94"/>nem de hoc ultimo juramento, et illa obtenta
+          <lb ed="#P" n="95"/>posse consequenter peti de aliis. Tamen tanta
+          <lb ed="#P" n="96"/>est malitia hominum, ut possit cogitari 
+          exac<lb break="no" ed="#P" n="97"/>tio juramenti de non petenda relaxatione 
+          ul<lb break="no" ed="#P" n="98"/>lius juramenti, etiam ipsius quo talis 
+          promis<lb break="no" ed="#P" n="99"/>sio juratur ; tunc enim videtur juramentum
+          <lb ed="#P" n="100"/>quasi supra seipsum reflecti, et per ipsummet
+          <lb ed="#P" n="101"/>jurari non petere de ipsomet relaxationem.
+          <lb ed="#P" n="102"/>Sed nihilominus probabilius est semper 
+          relin<lb break="no" ed="#P" n="103"/>qui ultimum juramentum, de quo peti possit
+          <lb ed="#P" n="104"/>relaxatio, vel si orta fuerit perplexitas aut
+          <lb ed="#P" n="105"/>dubitatio, semper esse licitum ad Praelatum
+          <lb ed="#P" n="106"/>accedere, et statum negotii et conscientiae
+          <lb ed="#P" n="107"/>aperire ; et ipse ex officio poterit, vel alterum
+          <lb ed="#P" n="108"/>compellere ad remittendum, vel juramentum
+          <lb ed="#P" n="109"/>relaxare, prout expedire judicaverit, juxta
+          <lb ed="#P" n="110"/>c. 1, de Jurejurand., c. 7uas, de Usuris.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

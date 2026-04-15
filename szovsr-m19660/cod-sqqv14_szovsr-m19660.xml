@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="784"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m19660"><!-- t6l1c9 -->
+        <head xml:id="szovsr-m19660-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-m19660-Hd1e103" type="question-title">Utrum voluntas vovendi non solum libera, sed etiam plene et exacte deliberata esse debeat?</head>
+        <p xml:id="szovsr-m19660-d1e106">
+          <lb ed="#P" n="27"/>CAPUT IX.
+          <lb ed="#P" n="28"/>UTRUM VOLUNTAS VOVENDI NON SOLUM LIBERA,
+          <lb ed="#P" n="29"/>SED ETIAM PLENE ET EXACTE DELIBERATA
+          <lb ed="#P" n="30"/>ESSE DEBEAT?
+        </p>
+        <p xml:id="szovsr-m19660-d1e117">
+          <lb ed="#P" n="31"/>1. Haec est alia proprietas, quae ad votum
+          <lb ed="#P" n="32"/>postulatur, nimirum, ut ex deliberatione fiat,
+          <lb ed="#P" n="33"/>ac subinde ut propositum ejus deliberatum sit.
+          <lb ed="#P" n="34"/>De ipsa vero deliberatione, quis actus sit,
+          <lb ed="#P" n="35"/>nonnulla est contentio, quae mihi parvi 
+          mo<lb break="no" ed="#P" n="36"/>menti et de nomine esse videtur. Cajetan.
+          <lb ed="#P" n="37"/>enim, d. q. SS, art. 1, putat dehberationem
+          <lb ed="#P" n="38"/>esse actum voluntatis eligentis unum ex 
+          mul<lb break="no" ed="#P" n="39"/>tis, quae prius per rationem considerata et 
+          in<lb break="no" ed="#P" n="40"/>ter se collata fuerunt ; quia quamdiu aliquis
+          <lb ed="#P" n="41"/>cogitat, et discurrit donec eligat, non dicitur
+          <lb ed="#P" n="42"/>deliberasse , quia nondum se determinavit.
+          <lb ed="#P" n="43"/>D. Thom. autem, in eod. art. 1, aperte 
+          dis<lb break="no" ed="#P" n="44"/>iinguit deliberationem a proposito voluntatis,
+          <lb ed="#P" n="45"/>dicens propositum praeexigere deliberationem,
+          <lb ed="#P" n="46"/>cum sit actus voluntatis deliberatae. Quasi 
+          di<lb break="no" ed="#P" n="47"/>cat, sicut voluntatis actus supponit rationis
+          <lb ed="#P" n="48"/>judicium, ita propositum deliberatum 
+          suppo<lb break="no" ed="#P" n="49"/>nit rationis deliberationem. Et hic modus 
+          di<lb break="no" ed="#P" n="50"/>cendi mihi placet, et illo utar, quia est aptior
+          <lb ed="#P" n="51"/>ad rem explicandam, dummodo sub 
+          delibera<lb break="no" ed="#P" n="52"/>tione comprehendamus non solum consulta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tionem et quasi inquisitionem intellectus, sed
+          <lb ed="#P" n="54"/>etiam judicium, quo intellectus definite 
+          pro<lb break="no" ed="#P" n="55"/>ponit quid sit eligibile vel eligibilius, vel quo
+          <lb ed="#P" n="56"/>in praesenti materia judicat expedire votum
+          <lb ed="#P" n="57"/>emittere. Atque hoc modo propositum 
+          volun<lb break="no" ed="#P" n="58"/>tatis licet ab ipsa sit elicitum, denominabitur
+          <lb ed="#P" n="59"/>deliberatum extrinsece ab actu intellectus ,
+          <lb ed="#P" n="60"/>quia, scilicet, cum sufficienti animadversione
+          <lb ed="#P" n="61"/>et judicio intellectus fit. Et ita explicando
+          <lb ed="#P" n="62"/>hanc proprietatem, incipimus exponere actus,
+          <lb ed="#P" n="63"/>qui ex parte intellectus praecedere debent, ut
+          <lb ed="#P" n="64"/>votum validum et obligatorium fieri possit.
+          <lb ed="#P" n="65"/>2. Ad votum necessariam esse aliquam 
+          de<lb break="no" ed="#P" n="66"/>liberationem, et consensum liberum voluntatis.
+          <lb ed="#P" n="67"/>— Quuoe sit sufficiens deliberatio ad vcovendum.
+          <lb ed="#P" n="68"/>— Prima opinio. — Ex hac ergo terminorum
+          <lb ed="#P" n="69"/>declaratione, et ex hactenus dictis constat, ad
+          <lb ed="#P" n="70"/>votum necessariam esse aliquam 
+          deliberatio<lb break="no" ed="#P" n="71"/>nem, quia non fit sine consensu libero 
+          volun<lb break="no" ed="#P" n="72"/>tatis; voluntas autem operari non potest sine
+          <lb ed="#P" n="73"/>praevia ratione considerante et discurrente;
+          <lb ed="#P" n="74"/>ergo est necessaria aliqua deliberatio , saltem
+          <lb ed="#P" n="75"/>illa quae ad actum perfecte humanum et 
+          sim<lb break="no" ed="#P" n="76"/>pliciter liberum satis sit. Difficultas autem
+          <lb ed="#P" n="77"/>est, an haec sufficiat, vel major requiratur, 
+          at<lb break="no" ed="#P" n="78"/>que adeo quanta debeat esse haec consideratio.
+          <lb ed="#P" n="79"/>Quidam enim dicunt necessariam esse 
+          matu<lb break="no" ed="#P" n="80"/>ram considerationem et consultationem, ita ut
+          <lb ed="#P" n="81"/>non sufficiat usus et judicium rationis, quod
+          <lb ed="#P" n="82"/>ad libertatem et dominium actus, et ad 
+          pec<lb break="no" ed="#P" n="83"/>candum mortaliter satis sit, sed oporteat non
+          <lb ed="#P" n="84"/>fieri ex aliqua repentina et subita mutatione
+          <lb ed="#P" n="85"/>aut passione, sed ex plena advertentia ac 
+          con<lb break="no" ed="#P" n="86"/>silio. Haec opinio tribui solet Richard., in 4,
+          <lb ed="#P" n="87"/>d. 38, art. 2, q. 2. Sed revera eam non docet ;
+          <lb ed="#P" n="88"/>solum enim ait, vota ex surreptione facta non
+          <lb ed="#P" n="89"/>obligare ; nam votum requirit 
+          deliberatio<lb break="no" ed="#P" n="90"/>nem. Quanta vero debeat esse deliberatio, vel
+          <lb ed="#P" n="91"/>quae surreptio sufficiat impedire votum, non
+          <lb ed="#P" n="92"/>declarat. Eam vero opinionem tenuisse videtur
+          <lb ed="#P" n="93"/>Glossa, in cap. Dudum, de Conver. conjugat.,
+          <lb ed="#P" n="94"/>verb. Calore iracundie, a qua non dissentiunt
+          <lb ed="#P" n="95"/>ibi Panorm., Hostiens. et Anton., et favent
+          <lb ed="#P" n="96"/>Doctores, imo et jura dicentia, facta calore
+          <lb ed="#P" n="97"/>iracundiae non valere, donec transacta 
+          passio<lb break="no" ed="#P" n="98"/>ne contirmentur, leg. Quidguid, 48, ff. de 
+          Re<lb break="no" ed="#P" n="99"/>gul. jur., ubi Glossa et Bart., pluresque alios
+          <lb ed="#P" n="100"/>refert Tiraquel., de Poenis temp., caus. 1,
+          <lb ed="#P" n="101"/>num. 26, de juramento, et n. 27, de voto. Et
+          <lb ed="#P" n="102"/>a n. 24 usque ad 30 idem refert de multis alus
+          <lb ed="#P" n="103"/>actionibus factis calore iracundiae, inter quas
+          <lb ed="#P" n="104"/>etiam ponit promissionem religionis cum 
+          An<lb break="no" ed="#P" n="105"/>ton., in cap. Sicat ex litteris, de Jurejuran.;
+          <lb ed="#P" n="106"/>et Felin. ibi, late, et in capit. S? vero, eod,
+          <lb ed="#P" n="107"/>n. 7, et cap. Mattheum , de Simon.. n. 2.
+          <pb ed="#P" n="785"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Idem late Rom. , Singul. 313, alias 314, ubi
+          <lb ed="#P" n="2"/>excipit donationem piae causae, quae valet etiam
+          <lb ed="#P" n="3"/>facta calore iracundiae. Quod cum aliis 
+          appro<lb break="no" ed="#P" n="4"/>bat Tiraquel., supra, num. 4, et de Privileg.
+          <lb ed="#P" n="5"/>piae causae , in 108. Possuntque pro hac 
+          sen<lb break="no" ed="#P" n="6"/>tentia afferri cap. Divortium , de Poenit., d.
+          <lb ed="#P" n="7"/>1, et cap. Si quis juratus, 2, quaest. 3.
+        </p>
+        <p xml:id="szovsr-m19660-d1e308">
+          <lb ed="#P" n="8"/>3. Ratio pro hac sentent. — Ratio addi 
+          po<lb break="no" ed="#P" n="9"/>test, quia votum est res valde gravis, inducit
+          <lb ed="#P" n="10"/>enim gravissimam obligationem , ac de se
+          <lb ed="#P" n="11"/>perpetuam ; ergo natura sua postulat plenam
+          <lb ed="#P" n="12"/>rei considerationem et advertentiam, quia si
+          <lb ed="#P" n="13"/>aliter fiat, et homo maneat ligatus, sequuntur,
+          <lb ed="#P" n="14"/>moraliter loquendo, innumera pericula 
+          pec<lb break="no" ed="#P" n="15"/>candi mortaliter, quia vota sic facta statim
+          <lb ed="#P" n="16"/>displicent, et difficile implentur, facillimeque
+          <lb ed="#P" n="17"/>violantur ; ergo non est verisimile placere Deo
+          <lb ed="#P" n="18"/>talia vota, neque acceptare illa; non ergo
+          <lb ed="#P" n="19"/>sunt valida. Eo vel maxime quod votum 
+          na<lb break="no" ed="#P" n="20"/>tura sua est actus religionis; ergo etiam ex
+          <lb ed="#P" n="21"/>natura sua postulat ut ex judicio 
+          pruden<lb break="no" ed="#P" n="22"/>ti fiat; nam hoc postulat religionis virtus:
+          <lb ed="#P" n="23"/>votum autem quod non fit cum praedicta
+          <lb ed="#P" n="24"/>deliberatione perfecta, imprudenter fit et 
+          pec<lb break="no" ed="#P" n="25"/>caminose ; non est ergo votum.
+        </p>
+        <p xml:id="szovsr-m19660-d1e351">
+          <lb ed="#P" n="26"/>4. Secunda sententia amplectenda - 
+          delibe<lb break="no" ed="#P" n="27"/>ratio rationis sufficiens ad votum est, que 
+          re<lb break="no" ed="#P" n="28"/>quiritur ut actus sit simpliciter liber. — 
+          Se<lb break="no" ed="#P" n="29"/>cunda sententia vera et communis est, ad 
+          vo<lb break="no" ed="#P" n="30"/>tum suffticere illam deliberationem rationis,
+          <lb ed="#P" n="31"/>quae necessaria est ut actus voluntatis sit 
+          sim<lb break="no" ed="#P" n="32"/>pliciter liber, ita ut fiat cum dominio 
+          simplici<lb break="no" ed="#P" n="33"/>ter morali, id est, sufficiente ad actum 
+          abso<lb break="no" ed="#P" n="34"/>lute humanum, seu ad peccandum mortaliter;
+          <lb ed="#P" n="35"/>per hunc enim effectum solet communiter 
+          ex<lb break="no" ed="#P" n="36"/>plicari haec sententia. Quam indicat D. 
+          Tho<lb break="no" ed="#P" n="37"/>mas hic ; dum enim ait deliberationem 
+          requi<lb break="no" ed="#P" n="38"/>ri ad votum, et non declarat specialem 
+          gra<lb break="no" ed="#P" n="39"/>dum aut modum hujus deliberationis, satis
+          <lb ed="#P" n="40"/>indicat eam deliberationem sufficere , quae
+          <lb ed="#P" n="41"/>simpliciter deliberatio est: hujusmodi autem
+          <lb ed="#P" n="42"/>est illa, quae sufficit ad actum absolute 
+          huma<lb break="no" ed="#P" n="43"/>num, et ad peccandum mortalter. Et ita 
+          ex<lb break="no" ed="#P" n="44"/>ponit et sentit Cajetan., hic secutus Paludan.,
+          <lb ed="#P" n="45"/>in 4, d. 38, q. 1, quem caeteri sequuntur ;
+          <lb ed="#P" n="46"/>Soto, lib. 7 de Justit., q. 1, art. 2; Sylvest.,
+          <lb ed="#P" n="47"/>verb. Juramentum, 4, n. 4, Votum, 2, q. 13.
+          <lb ed="#P" n="48"/>Idem Angel. et alii Summistae, Navar. supra,
+          <lb ed="#P" n="49"/>cap. 19, n. 24 et 25; Anton., 2 p., ut. 11,
+          <lb ed="#P" n="50"/>cap. 2. Sumiturque ex Gloss. 1, in c. Mulier,
+          <lb ed="#P" n="51"/>32. q. 2, quatenus dicit, qui potest se obligare
+          <lb ed="#P" n="52"/>diabolo, posse etiam obligare se Deo. Et idem
+          <lb ed="#P" n="53"/>habet habet Glos. 20, q. 1,in princ.; Panorm.,
+          <lb ed="#P" n="54"/>in cap. Sicut in litteris, de Jurejur., n. 2, ubi
+          <lb ed="#P" n="55"/>Felin., num. 3. Et in eamdem sententiam in-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>clinant Joan. Andr. et alii expositores, in
+          <lb ed="#P" n="57"/>cap. Dudwmn, de Convers. conjug.
+        </p>
+        <p xml:id="szovsr-m19660-d1e425">
+          <lb ed="#P" n="58"/>5. Probari autem potest primo ex c. Sicut
+          <lb ed="#P" n="59"/>ex litteris, de Jurejur., ubi juramentum 
+          calo<lb break="no" ed="#P" n="60"/>re iracundiae temerarie factum punitur ut
+          <lb ed="#P" n="61"/>grave peccatum, quia factum fuerat de re 
+          il<lb break="no" ed="#P" n="62"/>licita, et propter hunc posteriorem defectum
+          <lb ed="#P" n="63"/>censetur non obligare, non ex defectu 
+          delibe<lb break="no" ed="#P" n="64"/>rationis. Simile argumentum sumitur ex cap.
+          <lb ed="#P" n="65"/>Duduwm, de Convers. conjug., ubi significatur,
+          <lb ed="#P" n="66"/>votum factum calore iracundiae, quae non 
+          abs<lb break="no" ed="#P" n="67"/>tulit rationis usum, validum fuisse, cum 
+          ta<lb break="no" ed="#P" n="68"/>men non potuerit similis iracundia non 
+          impe<lb break="no" ed="#P" n="69"/>dire plenissimam et exactam deliberationem.
+          <lb ed="#P" n="70"/>Idem sumitur ex cap. 2, de Voto, ubi validum
+          <lb ed="#P" n="71"/>censetur esse votum Hierosolymitanae 
+          peregri<lb break="no" ed="#P" n="72"/>nationis factum a quodam in puerili et tenera
+          <lb ed="#P" n="73"/>aetate, facilitate potius quam arbitrio 
+          discre<lb break="no" ed="#P" n="74"/>tionis ; ergo ex sententia Pontificis non 
+          requi<lb break="no" ed="#P" n="75"/>ritur tam exacta discretio et prudentiale 
+          judi<lb break="no" ed="#P" n="76"/>cium ad valorem voti. Estque attente 
+          consi<lb break="no" ed="#P" n="77"/>derandum ad ea, quae infra dicemus , votum
+          <lb ed="#P" n="78"/>illud Hierosoly mitana peregrinationis fuisse
+          <lb ed="#P" n="79"/>semper in Ecclesia inter gravissima 
+          computa<lb break="no" ed="#P" n="80"/>tum ; ergo si ad illud non requiritur tanta 
+          de<lb break="no" ed="#P" n="81"/>hberatio, multo minus requiretur ad alia.
+        </p>
+        <p xml:id="szovsr-m19660-d1e480">
+          <lb ed="#P" n="82"/>6. Favet etiam huic sententiae Ambrosius
+          <lb ed="#P" n="83"/>relatus in cap. Sunt qui opes, 16, q. 4, ex 1.2
+          <lb ed="#P" n="84"/>de Poenit , cap. 9, ubi habet, donationem 
+          fac<lb break="no" ed="#P" n="85"/>tam Ecclesiae, tumultuario mentis impulsu, non
+          <lb ed="#P" n="86"/>perpetuo judicio, revocari non posse sine 
+          sacri<lb break="no" ed="#P" n="87"/>legio ; ergo donatio facta Ecclesiae sine 
+          pru<lb break="no" ed="#P" n="88"/>denti et matura deliberatione valida est, 
+          alio<lb break="no" ed="#P" n="89"/>quin non esset sacrilegium talia bona 
+          repete<lb break="no" ed="#P" n="90"/>re ; ergo a fortiori promissio facta Ecclesiae,
+          <lb ed="#P" n="91"/>verbi gratia, dandi talia bona, qua votum
+          <lb ed="#P" n="92"/>est, non requirit ad valorem suum tam 
+          exac<lb break="no" ed="#P" n="93"/>tam deliberationem. Denique hoc etiam 
+          sua<lb break="no" ed="#P" n="94"/>dent illa jura, quibus supra ostendimus vota
+          <lb ed="#P" n="95"/>facta in periculis mortis, et ex metu praesertim
+          <lb ed="#P" n="96"/>proveniente ab intrinseco, valida esse, cap. 2,
+          <lb ed="#P" n="97"/>cap. Sicut nobis, de Regular., cum similibus.
+          <lb ed="#P" n="98"/>Nam hujusmodi vota fieri non solent cum tam
+          <lb ed="#P" n="99"/>exacta deliberatione.
+        </p>
+        <p xml:id="szovsr-m19660-d1e522">
+          <lb ed="#P" n="100"/>7. Tandem probatur ratione , quia de 
+          es<lb break="no" ed="#P" n="101"/>sentia voti solum est quod sit actus humanus,
+          <lb ed="#P" n="102"/>et sufficienter voluntarius ad talem 
+          obligatio<lb break="no" ed="#P" n="103"/>nem ; sed ad hoc sufficit communis 
+          delibera<lb break="no" ed="#P" n="104"/>tio, quae ad peccandum mortaliter, vel ad alios
+          <lb ed="#P" n="105"/>contractus humanos satis est ; ergo illa etiam
+          <lb ed="#P" n="106"/>suflicit ad valorem voti. Et confirmatur: nam
+          <lb ed="#P" n="107"/>similis deliberatio sufficit ad valorem 
+          jura<lb break="no" ed="#P" n="108"/>menti, et ad culpam perjurii, et ad 
+          peccan<lb break="no" ed="#P" n="109"/>dum etiam mortaliter contra votum ; ergo et
+          <lb ed="#P" n="110"/>ad obligationem voti, est enim de his omni-
+          <pb ed="#P" n="786"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bus consimilis ratio. Et illa generalis est 
+          op<lb break="no" ed="#P" n="2"/>tima, quod illa deliberatio, quae sufficit ad se
+          <lb ed="#P" n="3"/>ligandum reatui aeternae damnationis, sufficit
+          <lb ed="#P" n="4"/>etiam ad se obligandum Deo vinculo 
+          promis<lb break="no" ed="#P" n="5"/>sionis. Item quod deliberatio, quae sufficit ad
+          <lb ed="#P" n="6"/>proponendum sibi ultimum finem, quod 
+          cen<lb break="no" ed="#P" n="7"/>setur facere qui peccat mortaliter , sufficit ad
+          <lb ed="#P" n="8"/>imponendam sibi voti obligationem. 
+          Confir<lb break="no" ed="#P" n="9"/>matur secundo, nam si ultra hanc 
+          deliberatio<lb break="no" ed="#P" n="10"/>nem alia major postulatur, nulla certa ratio
+          <lb ed="#P" n="11"/>excogitari potest ad designandum gradum 
+          hu<lb break="no" ed="#P" n="12"/>jus deliberationis, sufficientis ac necessariae
+          <lb ed="#P" n="13"/>ad votum ; potest enim haec deliberatio esse
+          <lb ed="#P" n="14"/>magis vel minus diuturna , et cum 
+          considera<lb break="no" ed="#P" n="15"/>tione plurium vel pauciorum rationum aut
+          <lb ed="#P" n="16"/>difficultatum, quae in aliquo voto esse solent.
+          <lb ed="#P" n="17"/>Item cum non omnia vota sint paria, ad 
+          vo<lb break="no" ed="#P" n="18"/>tum gravius, ut validum esset, postulanda 
+          es<lb break="no" ed="#P" n="19"/>set major deliberatio, quod neque in jure fit,
+          <lb ed="#P" n="20"/>ut ex capitulis citatis constat, neque moraliter
+          <lb ed="#P" n="21"/>fieri potest, ita ut de valore uniuscujusque
+          <lb ed="#P" n="22"/>voti habeatur humana certitudo. Sistendum
+          <lb ed="#P" n="23"/>ergo est in generali ratione deliberationis 
+          suf<lb break="no" ed="#P" n="24"/>ficientis ad actum simpliciter liberum.
+        </p>
+        <p xml:id="szovsr-m19660-d1e605">
+          <lb ed="#P" n="25"/>8. Neque est verisimile Glossas et auctores
+          <lb ed="#P" n="26"/>in contrarium allegatos, contra hanc 
+          verita<lb break="no" ed="#P" n="27"/>tem sensisse ; plures enim illorum distinctione
+          <lb ed="#P" n="28"/>declarant ac temperant sententiam suam. 
+          Po<lb break="no" ed="#P" n="29"/>test autem duplex adhiberi distinctio. Prior
+          <lb ed="#P" n="30"/>est, calorem iracundiae interdum tantum esse,
+          <lb ed="#P" n="31"/>ut rationis usum pro tunc ita perturbet, ut 
+          li<lb break="no" ed="#P" n="32"/>berum judicium non relinquat ; aliquando
+          <lb ed="#P" n="33"/>vero non est tam vehemens, quin relinquat
+          <lb ed="#P" n="34"/>potestatem deliberandi sufficienter ad 
+          peccan<lb break="no" ed="#P" n="35"/>dum mortaliier; quia non obstante passione
+          <lb ed="#P" n="36"/>homo satis advertit quid faciat, et quid 
+          com<lb break="no" ed="#P" n="37"/>modi vel incommodi sit in tali actione , ut
+          <lb ed="#P" n="38"/>eligi debeat vel repudiari, quamvis hoc fiat
+          <lb ed="#P" n="39"/>nimia celeritate , quasi praecipitatione 
+          qua<lb break="no" ed="#P" n="40"/>dam. In priori casu procedere possunt jura,
+          <lb ed="#P" n="41"/>quae facta calore iracundie non recipiunt,
+          <lb ed="#P" n="42"/>nisi transacta passione rata habeantur ; et
+          <lb ed="#P" n="43"/>idem est de voto, juramento, etc., et non 
+          so<lb break="no" ed="#P" n="44"/>lum in passione ira, sed etiam in amore, et
+          <lb ed="#P" n="45"/>quacumque alia ita perturbante rationem , id
+          <lb ed="#P" n="46"/>locum habet. Et in hoc sensu non habet 
+          lo<lb break="no" ed="#P" n="47"/>cum exceptio de donatione piae causae , nam
+          <lb ed="#P" n="48"/>etiam illa, si cum tanta perturbatione fiat,
+          <lb ed="#P" n="49"/>valida non erit, ut constat. At vero quando
+          <lb ed="#P" n="50"/>calor iracundiae tantum posteriori modo 
+          impe<lb break="no" ed="#P" n="51"/>dit perfectionem deliberationis, per se non 
+          in<lb break="no" ed="#P" n="52"/>validat votum neque alium actum.
+        </p>
+        <p xml:id="szovsr-m19660-d1e668">
+          <lb ed="#P" n="53"/>9. Unde potest adhiberi secunda distinctio
+          <lb ed="#P" n="54"/>quoad hoe membrum , scilicet de actu irrito
+          <lb ed="#P" n="55"/>vel irritabili; nam actus sic factus non est
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quidem irritus, ut dictum est, habet tamen
+          <lb ed="#P" n="57"/>justam causam cur irritari vel dispensari 
+          pos<lb break="no" ed="#P" n="58"/>sit, ut infra dicemus. Et quoad hoc posset 
+          ha<lb break="no" ed="#P" n="59"/>bere locum exceptio de donatione piae causae,
+          <lb ed="#P" n="60"/>in cujus favorem, etiamsi mente perturbata
+          <lb ed="#P" n="61"/>fiat, non irritatur. De quo alias. Atque haec
+          <lb ed="#P" n="62"/>doctrina sumitur maxime ex Ant. de But., in
+          <lb ed="#P" n="63"/>d. c. Sicut ex litteris, et ibi Felin. ; Deci., in
+          <lb ed="#P" n="64"/>d. l. Quidquid ; Joan. Andr., in d. e. Dudum;
+          <lb ed="#P" n="65"/>Ant.. 2 p., tit 10, c. 6, verb. Quartus casus ;
+          <lb ed="#P" n="66"/>Panorm., in d. c. Si eero.
+        </p>
+        <p xml:id="szovsr-m19660-d1e704">
+          <lb ed="#P" n="67"/>10. Fit satis rationi contrarie. — Per haec
+          <lb ed="#P" n="68"/>ergo sufficienter responsum est ad propria
+          <lb ed="#P" n="69"/>jura. Ad rationem autem respondetur 
+          negan<lb break="no" ed="#P" n="70"/>do consequentiam, alioquin probaret non 
+          so<lb break="no" ed="#P" n="71"/>lum in votis, sed etiam in omnibus actionibus
+          <lb ed="#P" n="72"/>et negotiis humanis, quae gravia sunt, 
+          majo<lb break="no" ed="#P" n="73"/>rem deliberationem esse simpliciter 
+          necessa<lb break="no" ed="#P" n="74"/>riam. Probaret etiam, pro negotü qualitate
+          <lb ed="#P" n="75"/>et differentia, diversos gradus deliberationis
+          <lb ed="#P" n="76"/>esse postulandos ad valorem negotii seu 
+          obli<lb break="no" ed="#P" n="77"/>gationis. Imo etiam probaret, quo peccatum
+          <lb ed="#P" n="78"/>mortale gravius est ex sua specie seu genere,
+          <lb ed="#P" n="79"/>eo necessariam esse majorem deliberationem,
+          <lb ed="#P" n="80"/>ut ad talem culpam imputetur. Solum igitur
+          <lb ed="#P" n="81"/>probatur illo argumento , juxta prudentem
+          <lb ed="#P" n="82"/>modum operandi requiri ad votum majorem
+          <lb ed="#P" n="83"/>deliberationem , quam ad alias communes 
+          ac<lb break="no" ed="#P" n="84"/>tiones, et quo votum gravius est, eo majorem
+          <lb ed="#P" n="85"/>esse adhibendam considerationem. Iude autem
+          <lb ed="#P" n="86"/>non fit ut si in hoc defectus aliquis 
+          committa<lb break="no" ed="#P" n="87"/>tur, statim votum sit invalidum, nisi tanta sit
+          <lb ed="#P" n="88"/>indeliberatio , ut usum libertatis simphlieiter
+          <lb ed="#P" n="89"/>impediat. Addunt vero praedicti auctores. et
+          <lb ed="#P" n="90"/>recte, votum, quod fit absque matura 
+          delibe<lb break="no" ed="#P" n="91"/>ratione proportionata, esse imperfectum, et
+          <lb ed="#P" n="92"/>ex eo capite habere causam aliquam ob quam
+          <lb ed="#P" n="93"/>dispensari possit, ut hoc modo occurrat illis
+          <lb ed="#P" n="94"/>incommodis, quae ex hujusmodi temerariis seu
+          <lb ed="#P" n="95"/>repentinis votis oriri solent , quod etiam 
+          mo<lb break="no" ed="#P" n="96"/>vebat auctores alterius sententiae. Sed ex illis
+          <lb ed="#P" n="97"/>incommodis male colligitur , unumquemque
+          <lb ed="#P" n="98"/>pro arbitrio suo posse statim talia vota 
+          con<lb break="no" ed="#P" n="99"/>temnere ; illud enim majus esset 
+          incommo<lb break="no" ed="#P" n="100"/>dum, multisque periculis expositum ; sed 
+          col<lb break="no" ed="#P" n="101"/>ligi debet, Praelatum jurisdictionem habentem
+          <lb ed="#P" n="102"/>posse, et interdum debere talia vota auferre
+          <lb ed="#P" n="103"/>vel commutare, considerata qualitate voti, et
+          <lb ed="#P" n="104"/>imperfectae deliberationis; et hoc etiam in
+          <lb ed="#P" n="105"/>praedictis juribus docetur.
+        </p>
+        <p xml:id="szovsr-m19660-d1e791">
+          <lb ed="#P" n="106"/>11. Quo signo colligi poterit am votum 
+          subi<lb break="no" ed="#P" n="107"/>to factum , validum aut invalidum sit ex 
+          men<lb break="no" ed="#P" n="108"/>lis inconsiderantia. — Sed quaeret aliquis quo
+          <lb ed="#P" n="109"/>signo discerni poterit quando votum subito
+          <lb ed="#P" n="110"/>factum, validum aut invalidum fuerit cx per-
+          <pb ed="#P" n="787"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>turbatione vel inconsideratione rationis. Ad
+          <lb ed="#P" n="2"/>hoc respondet Angel., Votum, 1, n. 6, si, 
+          fac<lb break="no" ed="#P" n="3"/>to voto, homo cessante passione statim 
+          poeni<lb break="no" ed="#P" n="4"/>teat, signum esse votum fnisse indeliberatum
+          <lb ed="#P" n="5"/>et invalidum. Sequitur ibi Tabien., et 
+          Supple<lb break="no" ed="#P" n="6"/>mentum Gabr., d. 38, q. 1, art. 1, circa finem.
+          <lb ed="#P" n="7"/>Et videntur fundari in d. cap. Divortium, et
+          <lb ed="#P" n="8"/>d. l. Quidquid. Hoc vero signum reprobant
+          <lb ed="#P" n="9"/>Palud., Anton., Sylvest., Soto, et alii, quia
+          <lb ed="#P" n="10"/>saepe retractatur actus plene deliberatus 
+          pro<lb break="no" ed="#P" n="11"/>pter libertatem voluntatis, vel propter novam
+          <lb ed="#P" n="12"/>considerationem statim occurrentem, quae non
+          <lb ed="#P" n="13"/>impedit quominus praecedens actus fuerit 
+          suf<lb break="no" ed="#P" n="14"/>ficienter liber. Item licet poenitentia statim
+          <lb ed="#P" n="15"/>post peccatum sequatur , non est signum 
+          pec<lb break="no" ed="#P" n="16"/>catum non fuisse mortale, sed ad summum 
+          in<lb break="no" ed="#P" n="17"/>dicatur non fuisse ex habitu, sed ex passione,
+          <lb ed="#P" n="18"/>vel repentina occasione, ut notavit Gutuer.,
+          <lb ed="#P" n="19"/>d. c. 22, num. 14. Non tamen ita rejiciendum
+          <lb ed="#P" n="20"/>est hoc signum, quin sit aliqua conjectura, si
+          <lb ed="#P" n="21"/>aliae accedant ; sed solum nec sufficiens nec
+          <lb ed="#P" n="22"/>vehemens existimandum est.
+        </p>
+        <p xml:id="szovsr-m19660-d1e856">
+          <lb ed="#P" n="23"/>12. Alii docent tunc passionem impedire
+          <lb ed="#P" n="24"/>valorem voti, quando tanta est, quod sine illa
+          <lb ed="#P" n="25"/>votum non fuisset factum. Ita Panor., d. c.
+          <lb ed="#P" n="26"/>Si vero, n. 7, cum Anton., in c. Sicut ea 
+          lit<lb break="no" ed="#P" n="27"/>teris, n. 9. Idem clarius Abbas, in d. c. 
+          Da<lb break="no" ed="#P" n="28"/>dum. n. 8, et idem videtur dicere Syivest., d.
+          <lb ed="#P" n="29"/>q. 13. Sed est magis fallax et incertum 
+          si<lb break="no" ed="#P" n="30"/>gnum, tum quia multa per occasionem fiunt
+          <lb ed="#P" n="31"/>quae sine illa non fierent, et tamen valide
+          <lb ed="#P" n="32"/>fiunt ; quia non obstante occasione, voluntas
+          <lb ed="#P" n="33"/>fuit sufficienter libera, et dedit consummatum
+          <lb ed="#P" n="34"/>consensum. Tum etiam quia quid homo 
+          face<lb break="no" ed="#P" n="35"/>ret vel non faceret, non stante tali passione.
+          <lb ed="#P" n="36"/>et incertissimum est, et de facto nihil confert
+          <lb ed="#P" n="37"/>ad meritum vel demeritum; ergo nec ad 
+          vali<lb break="no" ed="#P" n="38"/>ditatem vel invaliditatem voti. Neque etiam
+          <lb ed="#P" n="39"/>est signum non praestiti consensus, posita
+          <lb ed="#P" n="40"/>passione; neque etiam indicat fuisse omnino
+          <lb ed="#P" n="41"/>perturbatam rationem, sed ad summum 
+          indi<lb break="no" ed="#P" n="42"/>cat indiscretum vel imprudens judicium.
+        </p>
+        <p xml:id="szovsr-m19660-d1e902">
+          <lb ed="#P" n="43"/>13. Nullum certum. indicium posse dari de
+          <lb ed="#P" n="44"/>validitate voti facti, vel invaliditate per 
+          incon<lb break="no" ed="#P" n="45"/>siderantiam, nisi prudentis arbitrium.—bico
+          <lb ed="#P" n="46"/>ergo nullum signum certum et infallibile posse
+          <lb ed="#P" n="47"/>circa hoc dari, sed prudenti arbitrio opus esse,
+          <lb ed="#P" n="48"/>et praesertim spectandam rationis 
+          adverten<lb break="no" ed="#P" n="49"/>tiam. Nam si tanta fuit passio, ut homo non
+          <lb ed="#P" n="50"/>attenderit quid ageret, tunc indeliberata fuit
+          <lb ed="#P" n="51"/>actio. et insufficiens ad votum, quia etiam ad
+          <lb ed="#P" n="52"/>peccandum mortaliter non sufficeret. Si vero
+          <lb ed="#P" n="53"/>nec subita passio nec brevitas temporis 
+          abstu<lb break="no" ed="#P" n="54"/>lit sufficientem advertentiam, cum aliqua
+          <lb ed="#P" n="55"/>collatione ejus (quod agebatur) cum actu op-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>posito, sine ullo signo perturbati discursus,
+          <lb ed="#P" n="57"/>tunc passio non abstulit sufficientem 
+          delibera<lb break="no" ed="#P" n="58"/>tionem, ut bene Cajet. declarat. Quid autem
+          <lb ed="#P" n="59"/>agendum sit in casu dubio, dicemus infra in
+          <lb ed="#P" n="60"/>peculiari capite.
+        </p>
+        <p xml:id="szovsr-m19660-d1e946">
+          <lb ed="#P" n="61"/>14. Non oportere ut deliberatio ad votum
+          <lb ed="#P" n="62"/>sufficiens quoad judicium tempore preecedat.—
+          <lb ed="#P" n="63"/>Sed quid de temporis brevitate seu 
+          successio<lb break="no" ed="#P" n="64"/>ne? Navar., capite duodecimo, num. 26, 
+          de<lb break="no" ed="#P" n="65"/>liberationem hanc in momento dicit haberi
+          <lb ed="#P" n="66"/>posse, et non oportere ut tempore antccedat
+          <lb ed="#P" n="67"/>ad propositum voluntatis, sed tantum naturae
+          <lb ed="#P" n="68"/>ordine; nam in eodem instanti potest votum
+          <lb ed="#P" n="69"/>emitti. Sed hoc potest intelligi vel de tota 
+          de<lb break="no" ed="#P" n="70"/>liberatione, vel tantum de conclusione seu 
+          ju<lb break="no" ed="#P" n="71"/>dicio ejus. Priori modo esset vera illa 
+          senten<lb break="no" ed="#P" n="72"/>tia, si de Angelis esset sermo, vel de 
+          homini<lb break="no" ed="#P" n="73"/>bus divinitus elevatis, ut fuerunt Christus 
+          Do<lb break="no" ed="#P" n="74"/>minus, et B. Virgo, de quibus verisimile est
+          <lb ed="#P" n="75"/>in primo instanti conceptionis suae votum 
+          ali<lb break="no" ed="#P" n="76"/>quod emisisse. At in hominibus connaturali
+          <lb ed="#P" n="77"/>modo operantibus id non contingit, ob 
+          ratio<lb break="no" ed="#P" n="78"/>nem supra factam, quod sufficiens 
+          adverten<lb break="no" ed="#P" n="79"/>tia et deliberatio non habetur sine discursu;
+          <lb ed="#P" n="80"/>discursus autem in tempore fit. Et ideo recte
+          <lb ed="#P" n="81"/>dixit Cajetanus hanc deliberationem interdum
+          <lb ed="#P" n="82"/>fieri imperceptibiliter, quia, lieet in tempore
+          <lb ed="#P" n="83"/>fiat, temporis tamen successio non percipitur,
+          <lb ed="#P" n="84"/>ut etiam notavit Gabriel, in 3, d. 39, q.2,
+          <lb ed="#P" n="85"/>not. 2. At loquendo de solo judicio, verum
+          <lb ed="#P" n="86"/>est quod, licet discursus quoad inquisitionem,
+          <lb ed="#P" n="87"/>apprehensionem , et aliquod judicium 
+          prae<lb break="no" ed="#P" n="88"/>missarum in tempore fiat, nihilominus quoad
+          <lb ed="#P" n="89"/>judicium de voto faciendo in momento fit. Et
+          <lb ed="#P" n="90"/>sic etiam verum est, non oportere ut 
+          delibe<lb break="no" ed="#P" n="91"/>ratio quoad hoc judicium tempore praecedat
+          <lb ed="#P" n="92"/>votum; nam in eodem momento, quo 
+          intel<lb break="no" ed="#P" n="93"/>lectvs judicat, potest voluntas velle ita 
+          effica<lb break="no" ed="#P" n="94"/>citer, ut in eodem momento fiat promissio,
+          <lb ed="#P" n="95"/>sicut potest etiam cum simili celeritate 
+          pec<lb break="no" ed="#P" n="96"/>care.
+        </p>
+        <p xml:id="szovsr-m19660-d1e1027">
+          <lb ed="#P" n="97"/>15. Objectio.— Solutio. —Sed objiciebatar
+          <lb ed="#P" n="98"/>tale votum imprudens esse et peccaminosum,
+          <lb ed="#P" n="99"/>ideoque non esse acceptum Deo. Respondetur
+          <lb ed="#P" n="100"/>ex dictis negando consequentiam : supra enim
+          <lb ed="#P" n="101"/>ostensum est, votum, quod peccaminose fit,
+          <lb ed="#P" n="102"/>licet non sit placitum Deo quoad malitiam,
+          <lb ed="#P" n="103"/>acceptari nihilominus quoad obligationem Ita
+          <lb ed="#P" n="104"/>ergo nunc dicimus votum. quod imprudenter
+          <lb ed="#P" n="105"/>fit, non placere Deo quoad imprudentiam, nec
+          <lb ed="#P" n="106"/>quoad malitiam, si quam inde contrahit, et
+          <lb ed="#P" n="107"/>nihilominus si sufficienti deliberatione fit, 
+          ac<lb break="no" ed="#P" n="108"/>ceptari quoad obligationem. Secundo, 
+          dici<lb break="no" ed="#P" n="109"/>mus non esse necessarium ut votum sic 
+          fac<lb break="no" ed="#P" n="110"/>tum peccaminosum sit; saepius enim fit bona
+          <pb ed="#P" n="788"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>intentione, et ex motivo honesto, et absque
+          <lb ed="#P" n="2"/>cireumstantia quae imputari posset ad culpam,
+          <lb ed="#P" n="3"/>quia, licet fortasse in re ipsa modus sit ex se
+          <lb ed="#P" n="4"/>reprehensibilis et culpabilis, facile tamen 
+          ac<lb break="no" ed="#P" n="5"/>cidere potest ut hoc ipsum vel non 
+          adverta<lb break="no" ed="#P" n="6"/>tur, vel ignoretur inculpabiliter. Et tunc 
+          ac<lb break="no" ed="#P" n="7"/>tus vovendi non solum non erit peccatum,
+          <lb ed="#P" n="8"/>sed etiam esse potest meritorius, si vovens in
+          <lb ed="#P" n="9"/>gratia sit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

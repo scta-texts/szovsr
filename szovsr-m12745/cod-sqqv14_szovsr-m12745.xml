@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 3</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 3</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="510"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m12745"><!-- t5l2c3 -->
+        <head xml:id="szovsr-m12745-Hd1e101">Caput 3</head>
+        <head xml:id="szovsr-m12745-Hd1e103" type="question-title">An obligatio juramenti major sit quam obligatio voti?</head>
+        <p xml:id="szovsr-m12745-d1e106">
+          <lb ed="#P" n="8"/>CAPUT III
+          <lb ed="#P" n="9"/>AN OBLIGATIO JURAMENTI MAJOR SIT QUAM 
+          OBLI<lb break="no" ed="#P" n="10"/>GATIO VOTI?
+        </p>
+        <p xml:id="szovsr-m12745-d1e115">
+          <lb ed="#P" n="11"/>1. Hanc quaestionem proponit D. Thomas,
+          <lb ed="#P" n="12"/>dicta quaest. 89, art. 8, et respondet, magis
+          <lb ed="#P" n="13"/>obligare votum quam juramentum. E: illius
+          <lb ed="#P" n="14"/>resolutionem sequitur ibi Cajet., Soto, et 
+          Ara<lb break="no" ed="#P" n="15"/>gon.; Sylvester, Juramentum, 4, q. 5, Votum,
+          <lb ed="#P" n="16"/>2. q. 20; et refertur Summ. confess., lib. 1,
+          <lb ed="#P" n="17"/>tit. 8, q. 23, et tit. 9, q. 14; et communiter
+          <lb ed="#P" n="18"/>ibi sentiunt Summistae. Canonistae autem 
+          or<lb break="no" ed="#P" n="19"/>dinarie dicunt votum et juramentum paria
+          <lb ed="#P" n="20"/>judicari, Abb., in c. Si vcero, de Jurejur., et
+          <lb ed="#P" n="21"/>in cap. Rursus, Qui Cler. vel vovent. At vero
+          <lb ed="#P" n="22"/>pro contraria sententia solet referri Major, 4,
+          <lb ed="#P" n="23"/>dist. 38, ubi post quaest. 4, dub. 2, hoc 
+          trac<lb break="no" ed="#P" n="24"/>tat, et reprobat sententiam D. Thomae; 
+          ta<lb break="no" ed="#P" n="25"/>men revera non contradicit illi, nec rem satis
+          <lb ed="#P" n="26"/>explicat. Primo enim solum dicit majorem
+          <lb ed="#P" n="27"/>esse obligationem juramenti quam voti, 
+          quan<lb break="no" ed="#P" n="28"/>do juramentum votum includit. Hoc autem
+          <lb ed="#P" n="29"/>D. Thomas non negat, sed admittit in eodem
+          <lb ed="#P" n="30"/>articulo ad secundum; declarat tamen 
+          obli<lb break="no" ed="#P" n="31"/>gationem voti jurati esse majorem quam voti
+          <lb ed="#P" n="32"/>puri extensive, quia per duas res immobiles
+          <lb ed="#P" n="33"/>firmitas habetur; non vero intensive. Neque
+          <lb ed="#P" n="34"/>plus probat ratio Majoris, qui sic 
+          argumenta<lb break="no" ed="#P" n="35"/>tur : Omnis ratio obligationis in voto manet in
+          <lb ed="#P" n="36"/>juramento, et additur aliquid aliud, eic. Haec
+          <lb ed="#P" n="37"/>enim propositio est vera in voto jurato,non 
+          ve<lb break="no" ed="#P" n="38"/>ro in quolibet juramento, ut ex dictis constat,
+          <lb ed="#P" n="39"/>et ita ex illa solum potest concludi, votum 
+          ju<lb break="no" ed="#P" n="40"/>ratum extensive magis obligare, quam votum
+          <lb ed="#P" n="41"/>nudum. Et similiter alia propositio, quam ibi
+          <lb ed="#P" n="42"/>habet Major, scilicet, quod sicut observatio
+          <lb ed="#P" n="43"/>voti pertinet ad fidelitatem ad Deum, ita etiam
+          <lb ed="#P" n="44"/>observatio juramenti ; haec (inquam) 
+          proposi<lb break="no" ed="#P" n="45"/>tio non est vera in omni juramento, sed in
+          <lb ed="#P" n="46"/>voto jurato habet locum, ut votum est, non
+          <lb ed="#P" n="47"/>ratione juramenti. Neque ipse Major videtur
+          <lb ed="#P" n="48"/>plus docere, cum concludit, caeteris omnibus
+          <lb ed="#P" n="49"/>paribus, plus obligare juramentum quam 
+          vo<lb break="no" ed="#P" n="50"/>tum. Unde respondendo ibidem ad 
+          argumen<lb break="no" ed="#P" n="51"/>tum Sed contra, D. Thom. scilicet, quia vo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>tum fit Deo, et juramentum saepe fit homini,
+          <lb ed="#P" n="53"/>etc., respondet hoc non concludere, quia 
+          com<lb break="no" ed="#P" n="54"/>paratio fit cum juramento quod fit Deo, ut de
+          <lb ed="#P" n="55"/>ingrediendo religionem, quemadmodum si 
+          il<lb break="no" ed="#P" n="56"/>lud coverem. Unde plane concedit, vctum 
+          fac<lb break="no" ed="#P" n="57"/>tum Deo sine juramento, plus obligare 
+          pro<lb break="no" ed="#P" n="58"/>missione jurata facta homini; at hoc est quod
+          <lb ed="#P" n="59"/>D. Thomas intendit; in re ergo non 
+          contra<lb break="no" ed="#P" n="60"/>dicit. Deficit autem, quia non bene explicat
+          <lb ed="#P" n="61"/>D. Thom., nec rem ipsam satis expendit ; falso
+          <lb ed="#P" n="62"/>etiam supponit omne juramentum de re 
+          sa<lb break="no" ed="#P" n="63"/>cra includere votum, et ideo aliam 
+          compara<lb break="no" ed="#P" n="64"/>tionem hic necessariam omittit, de qua statim
+          <lb ed="#P" n="65"/>dicam. -
+        </p>
+        <p xml:id="szovsr-m12745-d1e239">
+          <lb ed="#P" n="66"/>2. Magis igitur proprie et directe contra
+          <lb ed="#P" n="67"/>Div. Thomam opinatus est Medin., lib. 5 de
+          <lb ed="#P" n="68"/>Continen. Sacer., c. 22 et 23, qui etiam 
+          com<lb break="no" ed="#P" n="69"/>parando juramentum promissorium homini,
+          <lb ed="#P" n="70"/>cum nudo voto, dicit majorem esse 
+          obligatio<lb break="no" ed="#P" n="71"/>nem juramenti, licet obligatio voti sanctior
+          <lb ed="#P" n="72"/>sit. Quod refert Navarr., d. c. 12, n. 32; ipse
+          <lb ed="#P" n="73"/>autem distinctione quadam conatur conciliare
+          <lb ed="#P" n="74"/>opiuiones, triaque membra constituit. Primum
+          <lb ed="#P" n="75"/>est, si juramentum et votum fiant intuitu 
+          ho<lb break="no" ed="#P" n="76"/>noris Dei, magis obligare juramentum quam
+          <lb ed="#P" n="77"/>votum. Secundum est, idem esse, si utrumque
+          <lb ed="#P" n="78"/>fiat in utilitatem proximi. Tertium, si votum
+          <lb ed="#P" n="79"/>fiat in honorem Dei, et juramentum in 
+          utili<lb break="no" ed="#P" n="80"/>tatem proximi, magis obligare votum, et hoc
+          <lb ed="#P" n="81"/>ultimum putat intendere D. Thom.; Medinam
+          <lb ed="#P" n="82"/>vero ait recte probare, firmiorem esse 
+          obliga<lb break="no" ed="#P" n="83"/>tionem juramenti quam voti, licet haec 
+          sanc<lb break="no" ed="#P" n="84"/>tior sit, cum per illam promittamus proximo,
+          <lb ed="#P" n="85"/>per hanc Deo. Videtur ergo quoad hoc cedere
+          <lb ed="#P" n="86"/>rationibus Medinse, et a priori sententia 
+          rece<lb break="no" ed="#P" n="87"/>dere. Primum vero membrum, quod ponit,
+          <lb ed="#P" n="88"/>ambiguum est ; nam si intelligatur de 
+          jura<lb break="no" ed="#P" n="89"/>mento ita facto in honorem Dei, ut votum
+          <lb ed="#P" n="90"/>includat, clarum est in sensu explicato ; si 
+          ve<lb break="no" ed="#P" n="91"/>ro intelligatur de nudo juramento comparato
+          <lb ed="#P" n="92"/>cum nudo voto, sic falsum est, et contra D.
+          <lb ed="#P" n="93"/>Thomam, ut statim dicam. In secundo autem
+          <lb ed="#P" n="94"/>membro, imprimis non satis intelligitur 
+          quo<lb break="no" ed="#P" n="95"/>modo votum principalius fiat propter 
+          utili<lb break="no" ed="#P" n="96"/>tatem proximi, cum de ratione illius sit ut
+          <lb ed="#P" n="97"/>principaliter et directe fiat Deo, licet fortasse
+          <lb ed="#P" n="98"/>ex parte operantis possit votum imperari ex
+          <lb ed="#P" n="99"/>affectu ad utilitatem proximi. Tunc autem
+          <lb ed="#P" n="100"/>etiam est falsum, et contra D. Thomam, 
+          ju<lb break="no" ed="#P" n="101"/>ramentum magis obligare, ut ostendam. 
+          Ter<lb break="no" ed="#P" n="102"/>tium autem membrum, licet fortasse verum
+          <lb ed="#P" n="103"/>sit, non confert ad concordiam opinionum ;
+          <lb ed="#P" n="104"/>nam illud est quod Medina negat; de Majore
+          <lb ed="#P" n="105"/>autem jam diximus in eo non discordare. Haec
+          <lb ed="#P" n="106"/>ergo distinctio et concordia Navarri omittenda
+          <pb ed="#P" n="511"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>est. Opinio autem Medinae aliquibus doctis
+          <lb ed="#P" n="2"/>modernis placet.
+        </p>
+        <p xml:id="szovsr-m12745-d1e340">
+          <lb ed="#P" n="3"/>3. Probatur autem primo, quia 
+          juramen<lb break="no" ed="#P" n="4"/>tum ita obligat, ut ejus fractio repugnet Deo
+          <lb ed="#P" n="5"/>contrarie, et, quabtum est in se, aliquid illi
+          <lb ed="#P" n="6"/>imputet, quod naturae ejus repugnat, nempe,
+          <lb ed="#P" n="7"/>aut esse testem mendacii, aut esse infidelem
+          <lb ed="#P" n="8"/>in promissis; votum autem ita obligat, ut si
+          <lb ed="#P" n="9"/>non impleatur, licet non reddatur Deo 
+          debi<lb break="no" ed="#P" n="10"/>tum, non tamen aliquid illi contrarium ipsi
+          <lb ed="#P" n="11"/>imputetur ; ergo major est obligatio 
+          juramen<lb break="no" ed="#P" n="12"/>ti. Patet consequentia, quia sicut major est
+          <lb ed="#P" n="13"/>injuria quae fit cum positiva contumelia, vel
+          <lb ed="#P" n="14"/>laesione honoris alterius, quam sit omissio 
+          ali<lb break="no" ed="#P" n="15"/>cujus honoris debiti, ita major est obligatio
+          <lb ed="#P" n="16"/>quae violari non potest sine positiva 
+          contu<lb break="no" ed="#P" n="17"/>melia et inhonoratione, quam quae consistit
+          <lb ed="#P" n="18"/>in reddendo debito. Et haec ratio enervat
+          <lb ed="#P" n="19"/>fundamentum D. Thommse, sic enim colligit:
+          <lb ed="#P" n="20"/>Fractio voti est infidelitas ad Deum, quae 
+          irre<lb break="no" ed="#P" n="21"/>verentiam involvit , juramenti vero fractio
+          <lb ed="#P" n="22"/>solum est irreverentia quaedam sine 
+          infideli<lb break="no" ed="#P" n="23"/>tate ; ergo deterior est voti fractio ; ergo et
+          <lb ed="#P" n="24"/>voti obligatio est major. Negatur enim prior
+          <lb ed="#P" n="25"/>consequentia , quia non sunt caetera paria;
+          <lb ed="#P" n="26"/>nam irreverentia perjurii est longe major, et
+          <lb ed="#P" n="27"/>includit quamdam gravem contumeliam in
+          <lb ed="#P" n="28"/>Deum ( quia quantum est ex parte jurantis,
+          <lb ed="#P" n="29"/>fit Deus testis falsus ), quae superat in malitia
+          <lb ed="#P" n="30"/>infidelitatem in promissis Deo factis. Item 
+          ir<lb break="no" ed="#P" n="31"/>reverentia infidelitatis in fractione voti, unica
+          <lb ed="#P" n="32"/>malitia est ; nam tota ratio irreverentiae est
+          <lb ed="#P" n="33"/>infidelitatis ; et similiter in perjurio 
+          irreveren<lb break="no" ed="#P" n="34"/>tia falsitatis ( ut sic dicam ) unica est, quia 
+          ir<lb break="no" ed="#P" n="35"/>reverentia perjurii tota consistit in hoc, quod
+          <lb ed="#P" n="36"/>Deus fit mendax vel infidelis, quantum est
+          <lb ed="#P" n="37"/>ex parte jurantis; hoc autem fundamentum
+          <lb ed="#P" n="38"/>irreverentiae gravius multo apparet in 
+          perju<lb break="no" ed="#P" n="39"/>rio, quam in infidelitate ad Deum, propter 
+          ra<lb break="no" ed="#P" n="40"/>tionem factam. Secundo argumentatur , quia
+          <lb ed="#P" n="41"/>votum factum ex metu gravi est invalidum
+          <lb ed="#P" n="42"/>ad obligandum , juramentum autem obhligat
+          <lb ed="#P" n="43"/>non obstante metu ; ergo signum est, facilius
+          <lb ed="#P" n="44"/>impediri obligationem voti quam juramenti ;
+          <lb ed="#P" n="45"/>ergo signum est esse minus gravem voti 
+          obli<lb break="no" ed="#P" n="46"/>gationem. Simile argumentum potest fieri,
+          <lb ed="#P" n="47"/>quia facilius videtur dispensare in voto quam
+          <lb ed="#P" n="48"/>in juramento ; ergo minor est ejus obligatio.
+          <lb ed="#P" n="49"/>Tertio argumentantur alii, quia minor 
+          obli<lb break="no" ed="#P" n="50"/>gatio solet per majorem firmari ; ita enim
+          <lb ed="#P" n="51"/>promissio humana per juramentum firmatur ;
+          <lb ed="#P" n="52"/>sed promissio etiam Deo facta solet per 
+          jura<lb break="no" ed="#P" n="53"/>mentum confirmari ; ergo signum est 
+          majo<lb break="no" ed="#P" n="54"/>rem esse obligationem juramenti quam voti.
+        </p>
+        <p xml:id="szovsr-m12745-d1e455">
+          <lb ed="#P" n="55"/>4. Mihi distinguendum videtur inter jura-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>mentum assertorium et promissorium, quae,
+          <lb ed="#P" n="57"/>ut dixi, in hoc differunt, quod assertorium
+          <lb ed="#P" n="58"/>non tam inducit quam supponit obhgationem
+          <lb ed="#P" n="59"/>dicendi verum, et nullam aliam in futurum
+          <lb ed="#P" n="60"/>relinquit ; juramentum autem promissorium,
+          <lb ed="#P" n="61"/>ut tale est, imponit novam obligationem. Et
+          <lb ed="#P" n="62"/>in hoc convenit cum voto, quod novam 
+          obli<lb break="no" ed="#P" n="63"/>gationem inducit, et utrumque, scilicet, tam
+          <lb ed="#P" n="64"/>votum quam juramentum promissorium, in
+          <lb ed="#P" n="65"/>hoc genere effectus differunt a juramento 
+          as<lb break="no" ed="#P" n="66"/>sertorio, ut ex dictis constat.
+        </p>
+        <p xml:id="szovsr-m12745-d1e486">
+          <lb ed="#P" n="67"/>5. Prima assertio major est obligatio quam
+          <lb ed="#P" n="68"/>supponit juramentum assertorium, quam voti
+          <lb ed="#P" n="69"/>obligatio. — Ratio fundamentalis assertionis.
+          <lb ed="#P" n="70"/>— Dico ergo primo: obligatio, quam includit
+          <lb ed="#P" n="71"/>seu supponit juramentum assertorium, 
+          gra<lb break="no" ed="#P" n="72"/>vior est quam obligatio, quam votum inducit.
+          <lb ed="#P" n="73"/>In hac assertione sentio cum posteriori 
+          opi<lb break="no" ed="#P" n="74"/>nione, et credo non esse contra D. Thom.,
+          <lb ed="#P" n="75"/>nam de juramento tantum promissorio 
+          vide<lb break="no" ed="#P" n="76"/>tur locutus. Quaerit enim an major sit 
+          obliga<lb break="no" ed="#P" n="77"/>tio juramenti quam voti; loquitur ergo de
+          <lb ed="#P" n="78"/>obligatione, quam utrumque inducit ; nam in
+          <lb ed="#P" n="79"/>articulo proximo praecedenti dixerat, 
+          obliga<lb break="no" ed="#P" n="80"/>tionem proprie pertinere ad juramentum
+          <lb ed="#P" n="81"/>promissorium, non ad assertorium. Probatur
+          <lb ed="#P" n="82"/>ergo assertio ratione fundamentali posterioris
+          <lb ed="#P" n="83"/>sententiae, quia obligatio non attribuendi Deo
+          <lb ed="#P" n="84"/>falsum, multo major videtur quam obligatio
+          <lb ed="#P" n="85"/>reddendi Domino vota, quia prior est 
+          obliga<lb break="no" ed="#P" n="86"/>tio negativa, ut ex forma praecepti constat :
+          <lb ed="#P" n="87"/>Non asswnes in vanum nomen Dei tui, vel,
+          <lb ed="#P" n="88"/>Non pejerabis ; obligatque ad non inferendum
+          <lb ed="#P" n="89"/>Deo gravissimam injuriam et nocumentum,
+          <lb ed="#P" n="90"/>quantum est ex parte jurantis, privando 
+          il<lb break="no" ed="#P" n="91"/>lum, quantum est ex parte pejerantis, 
+          praero<lb break="no" ed="#P" n="92"/>gativa primae veritatis , et faciendo illum
+          <lb ed="#P" n="93"/>mendacem. Posterior vero est obligatio 
+          affir<lb break="no" ed="#P" n="94"/>mativa, ut ex ipsa verborum forma apparet:
+          <lb ed="#P" n="95"/>Roeddes Domino vota tua, obligatque ad 
+          red<lb break="no" ed="#P" n="96"/>dendum Deo quoddam peculiare debitum,
+          <lb ed="#P" n="97"/>quod cernitur in implenda promissione sub
+          <lb ed="#P" n="98"/>divina auctoritate facta, sicut etiam voti 
+          ob<lb break="no" ed="#P" n="99"/>servatio et ad affirmativum praeceptum 
+          spec<lb break="no" ed="#P" n="100"/>tat, ut infra suo loco latius declarabitur ; 
+          con<lb break="no" ed="#P" n="101"/>sequenter ad non praetermittendam fidelitatem
+          <lb ed="#P" n="102"/>Deo debitam. Ex quo statim apparet majorem
+          <lb ed="#P" n="103"/>esse priorem obligationem, et magis pravam
+          <lb ed="#P" n="104"/>ejus transgressionem. Sicut major est 
+          obliga<lb break="no" ed="#P" n="105"/>tio non furandi pecuniam alienam, quam 
+          red<lb break="no" ed="#P" n="106"/>denci promissam, et gravius delinquitur per
+          <lb ed="#P" n="107"/>injuriam furandi, quam per infidelitatem non
+          <lb ed="#P" n="108"/>dandi: sicut etiam respectu regis eravius 
+          pec<lb break="no" ed="#P" n="109"/>catur, directam et positivam injuriam illi 
+          con<lb break="no" ed="#P" n="110"/>trariam committendo , quam non implendo
+          <pb ed="#P" n="512"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>promissionem illi factam. Imo etiam gravius
+          <lb ed="#P" n="2"/>peccatur, propria ejus bona surripiendo, quam
+          <lb ed="#P" n="3"/>tributa non solvendo.
+        </p>
+        <p xml:id="szovsr-m12745-d1e595">
+          <lb ed="#P" n="4"/>6. Responsio aliquorum. — Sed dicunt 
+          ali<lb break="no" ed="#P" n="5"/>qui, eum, qui per Deum mendacium jurat,
+          <lb ed="#P" n="6"/>non facere Deum mendacem, neque id 
+          inten<lb break="no" ed="#P" n="7"/>dere, sed solum quadam interpretatione 
+          fin<lb break="no" ed="#P" n="8"/>gere Deum ignorantem, aut mendacem, id
+          <lb ed="#P" n="9"/>est, ita se gerere erga Deum, ac si ille mendax
+          <lb ed="#P" n="10"/>esset. Unde D. Thomas 2. 2, q. 14, art. 3, ad
+          <lb ed="#P" n="11"/>2. dicit, qui pejerat, non inducere Deum 
+          tan<lb break="no" ed="#P" n="12"/>quam existimans illum posse testificari 
+          men<lb break="no" ed="#P" n="13"/>dacium, sed tanquam sperans illum non 
+          tes<lb break="no" ed="#P" n="14"/>tificaturum in tali re per aliquod evidens 
+          si<lb break="no" ed="#P" n="15"/>gnum. Qui autem votum frangit, revera 
+          ne<lb break="no" ed="#P" n="16"/>gat debitum Deo, esique illi infidelis, et ideo
+          <lb ed="#P" n="17"/>dicunt hanc esse majorem irreverentiam. Sed
+          <lb ed="#P" n="18"/>hoc non recte dicitur, quia gravitas perjurii
+          <lb ed="#P" n="19"/>ex affectu spectanda est, et ex practica 
+          opera<lb break="no" ed="#P" n="20"/>tione, non ex speculativa cognitione ; unde,
+          <lb ed="#P" n="21"/>licet sit verum, perjurum non errare in fide,
+          <lb ed="#P" n="22"/>nec speculative putare Deum esse posse 
+          tes<lb break="no" ed="#P" n="23"/>tem mendacii, tamen practice ita se gerit 
+          er<lb break="no" ed="#P" n="24"/>ga Deum, ac si Deus posset falsum testificari ;
+          <lb ed="#P" n="25"/>et quantum est in se, ad hoc illum inducit,
+          <lb ed="#P" n="26"/>etiamsi formaliter hoc non intendat, imo sciat
+          <lb ed="#P" n="27"/>Deum non id facturum. Ille autem practicus
+          <lb ed="#P" n="28"/>contemptus sufficit ad gravitatem majorem in
+          <lb ed="#P" n="29"/>perjurio, quam sit in fractione voti. Et patet,
+          <lb ed="#P" n="30"/>quia similis interpretativa voluntas sufficit ad
+          <lb ed="#P" n="31"/>infinitam quamdam gravitatem cujuscumque
+          <lb ed="#P" n="32"/>peccati mortalis, quia practice quis protitetur
+          <lb ed="#P" n="33"/>se constituere ultimum finem in creatura, et
+          <lb ed="#P" n="34"/>quantum est in se, privat Deum dignitate 
+          ul<lb break="no" ed="#P" n="35"/>timi finis; ergo similis affectus in praesenti
+          <lb ed="#P" n="36"/>sufficit ad majorem gravitatem. Item ille 
+          mo<lb break="no" ed="#P" n="37"/>dus injuriae sufficit ut perjurium in 
+          quacum<lb break="no" ed="#P" n="38"/>que re minima sit peccatum mortale, et tamen
+          <lb ed="#P" n="39"/>debitum voti non sufficit ut violatio ejus, seu
+          <lb ed="#P" n="40"/>non solutio, aut infidelitas in parva materia,
+          <lb ed="#P" n="41"/>sit peccatum mortale ; ergo magnum signum
+          <lb ed="#P" n="42"/>est injuriam perjurii esse majorem, magisque
+          <lb ed="#P" n="43"/>repugnare dignitati Dei. Denique a posteriori
+          <lb ed="#P" n="44"/>hoc persuadetur ex communi consensu 
+          om<lb break="no" ed="#P" n="45"/>nium hominum ; concipiunt enim falsuin 
+          ju<lb break="no" ed="#P" n="46"/>ramentum ut atrocius delictum quam 
+          fractio<lb break="no" ed="#P" n="47"/>nem voti, et ideo majorem generat infamiam,
+          <lb ed="#P" n="48"/>gravioribusque afficitur poenis; unde gravior
+          <lb ed="#P" n="49"/>in se censetur, ac secundum appretiationem,
+          <lb ed="#P" n="50"/>potius vitandum esse juramentum falsum quam
+          <lb ed="#P" n="51"/>voti transgressionem, si per impossibile 
+          alte<lb break="no" ed="#P" n="52"/>rum esset ex necessitate committendum ; 
+          er<lb break="no" ed="#P" n="53"/>go signum est obligationem vitandi perjurium
+          <lb ed="#P" n="54"/>esse majorem.
+        </p>
+        <p xml:id="szovsr-m12745-d1e708">
+          <lb ed="#P" n="55"/>1. Secunda assertio: Voti obligatio major
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>esse videtur quam obligatio juramenti 
+          promis<lb break="no" ed="#P" n="57"/>sorii. —Dico secundo: obligatio voti major 
+          es<lb break="no" ed="#P" n="58"/>se videtur quam obligatio juramenti 
+          promis<lb break="no" ed="#P" n="59"/>sorii. Hanc fuisse existimo sententiam D.
+          <lb ed="#P" n="60"/>Thomae, et veram esse, beneque probari 
+          ra<lb break="no" ed="#P" n="61"/>tione ejus. Quia per votum fides directe datur
+          <lb ed="#P" n="62"/>Deo, per juramentum autem promissorium,
+          <lb ed="#P" n="63"/>ut tale est, nonfit obligatio ipsi Deo, sed solum
+          <lb ed="#P" n="64"/>adducitur Deus ut testis promissionis vel 
+          asser<lb break="no" ed="#P" n="65"/>tionis de aliquo actu futuro. Inter hos autem
+          <lb ed="#P" n="66"/>duos respectus prior videtur magis pertinere
+          <lb ed="#P" n="67"/>ad honorem Dei, quia magis directe illum
+          <lb ed="#P" n="68"/>respicit, unde et ad divinam auctoritatem et
+          <lb ed="#P" n="69"/>reverentiam magis spectat. Sed potissimum
+          <lb ed="#P" n="70"/>hoc declaratur, quia illa peculiaris gravitas,
+          <lb ed="#P" n="71"/>quae invenitur in juramento assertorio, et
+          <lb ed="#P" n="72"/>agnoscitur in perjurio illi contrario, non ita
+          <lb ed="#P" n="73"/>invenitur in juramento promissorio ; et in 
+          re<lb break="no" ed="#P" n="74"/>liquis excellentius est votum; ergo excedit
+          <lb ed="#P" n="75"/>etiam in obligatione. Consequentia videtur
+          <lb ed="#P" n="76"/>clara, et minor ex dictis circa rationem D.
+          <lb ed="#P" n="77"/>Thomae satis probari videtur. Major autem,
+          <lb ed="#P" n="78"/>in qua est tota difficultas, declaratur imprimis
+          <lb ed="#P" n="79"/>a posteriori juxta opinionem infra libro 
+          ter<lb break="no" ed="#P" n="80"/>tio tractandam, quam probabilem 
+          existima<lb break="no" ed="#P" n="81"/>mus, scilicet, frangere juramentum 
+          promisso<lb break="no" ed="#P" n="82"/>rium in materia levi non esse peccatum 
+          mor<lb break="no" ed="#P" n="83"/>tale in individuo; et in hoc differre perjurium
+          <lb ed="#P" n="84"/>in promissione a perjurio in assertione ; nam
+          <lb ed="#P" n="85"/>hoc in quocumque minimo mendacio est 
+          pec<lb break="no" ed="#P" n="86"/>catum mortale valde grave.
+        </p>
+        <p xml:id="szovsr-m12745-d1e782">
+          <lb ed="#P" n="87"/>8. Hinc ergo colligimus, longe minorem
+          <lb ed="#P" n="88"/>esse obligationem, quam inducit juramentum
+          <lb ed="#P" n="89"/>promissorium, quam illam, quae in assertorio
+          <lb ed="#P" n="90"/>supponitur, ac proinde posse obligationem
+          <lb ed="#P" n="91"/>voti esse mediam inter utramque, minorem,
+          <lb ed="#P" n="92"/>scilicet, quam in juramento assertorio, et ma
+          <lb ed="#P" n="93"/>jorem, quam in promissorio. Colligimus 
+          dein<lb break="no" ed="#P" n="94"/>de ex eodem indicio, per violationem 
+          promis<lb break="no" ed="#P" n="95"/>sionis juratae non fieri Deum testem faisitatis,
+          <lb ed="#P" n="96"/>etiam interpretative et practice, quia si hanc
+          <lb ed="#P" n="97"/>divinam injuriam includeret, non posset non
+          <lb ed="#P" n="98"/>esse peccatum mortale in quocumque 
+          indi<lb break="no" ed="#P" n="99"/>viduo, et materia etiam minima; ergo non
+          <lb ed="#P" n="100"/>est in transgressione juramenti promissorii
+          <lb ed="#P" n="101"/>formaliter ac per se talis injuria divina. Ergo
+          <lb ed="#P" n="102"/>e converso juramentum promissorium non
+          <lb ed="#P" n="103"/>obligat quasi impignorando (ut sic dicam) 
+          di<lb break="no" ed="#P" n="104"/>vinam veritatem, ita ut si promissio deficiat,
+          <lb ed="#P" n="105"/>videatur Deus factus mendacii testis ; sed 
+          so<lb break="no" ed="#P" n="106"/>lum obligat tanquam praebendo specialem
+          <lb ed="#P" n="107"/>auctoritatem et firmitatem promissioni, quasi
+          <lb ed="#P" n="108"/>per fidejussionem Dei. Et ideo si non 
+          imple<lb break="no" ed="#P" n="109"/>tur promissio, non fit Deus testis falsitatis,
+          <lb ed="#P" n="110"/>sed irreverenter tractatur, quandoquidem rul-
+          <pb ed="#P" n="513"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>la habita ratione auctoritatis ejus, verbum
+          <lb ed="#P" n="2"/>promissum sub illius auctoritate et praesentia,
+          <lb ed="#P" n="3"/>non impletur : haec autem irreverentia minor
+          <lb ed="#P" n="4"/>est, quam infidelitas voti, ut per se clarum
+          <lb ed="#P" n="5"/>videtur ex dictis.
+        </p>
+        <p xml:id="szovsr-m12745-d1e853">
+          <lb ed="#P" n="6"/>9. Exemplo res fit clarior .— Potestque 
+          hu<lb break="no" ed="#P" n="7"/>mano exemplo declarari; nam si quis pactum
+          <lb ed="#P" n="8"/>faceret cum rege, vel faceret pactum cum
+          <lb ed="#P" n="9"/>alio aequali in praesentia regis, ad dandum
+          <lb ed="#P" n="10"/>auctoritatem contractui, tanquam suscepto a
+          <lb ed="#P" n="11"/>rege sub protectione sua, certe per 
+          violatio<lb break="no" ed="#P" n="12"/>nem utriusque pacti censeretur rex contemni,
+          <lb ed="#P" n="13"/>sed multo magis per fractionem pacti cum 
+          ip<lb break="no" ed="#P" n="14"/>somet initi (loquendo per se, et ex genere, ut
+          <lb ed="#P" n="15"/>loquimur), quia magis directe offenditur in
+          <lb ed="#P" n="16"/>eo persona regis, sicut etiam majores partes
+          <lb ed="#P" n="17"/>babet rex in primo contractu, quam in 
+          secun<lb break="no" ed="#P" n="18"/>do. Sic autem se habet Deus in voto, et 
+          jura<lb break="no" ed="#P" n="19"/>mento promissorio, ut facile ex dictis patet.
+          <lb ed="#P" n="20"/>Unde in illo etiam exemplo, non servans 
+          pac<lb break="no" ed="#P" n="21"/>tum cum alio factum sub regia auctoritate,
+          <lb ed="#P" n="22"/>non potest dici vere ac proprie, quod 
+          induxe<lb break="no" ed="#P" n="23"/>rit regem ad falsum testificandum, sed solum
+          <lb ed="#P" n="24"/>quod comtempserit auctoritatem et 
+          protectio<lb break="no" ed="#P" n="25"/>nem regis. Et ratio est, quia, ut supra tetigi,
+          <lb ed="#P" n="26"/>lib. 1, c. 7, propria testificatio veritatis 
+          so<lb break="no" ed="#P" n="27"/>lum est cirea verba, quando proferuntur,
+          <lb ed="#P" n="28"/>et haec in principio vera formaliter fuerunt,
+          <lb ed="#P" n="29"/>quando prolata sunt, ut supponitur, quia ex
+          <lb ed="#P" n="30"/>animo implendi pactum dicta fuere, et quoad
+          <lb ed="#P" n="31"/>id habet juramentum illud rationem 
+          asserto<lb break="no" ed="#P" n="32"/>rii, ut ibidem explicui. Postea vero solum
+          <lb ed="#P" n="33"/>manet obligatio ad faciendum, ut facta verbis
+          <lb ed="#P" n="34"/>conformentur, et consequenter ad cavendum
+          <lb ed="#P" n="35"/>ne saltem materialiter falsa reddatur assertio
+          <lb ed="#P" n="36"/>de futuro prius prolata et jurata. Haec autem
+          <lb ed="#P" n="37"/>obligatio non nascitur ex testificatione Dei
+          <lb ed="#P" n="38"/>proprie dicta, quia haec cadit in veritatem 
+          for<lb break="no" ed="#P" n="39"/>malem, non in materialem per se loquendo,
+          <lb ed="#P" n="40"/>ut ibidem declaravi; sed pertinet quasi ad
+          <lb ed="#P" n="41"/>honorem Dei, et ad reverentiam illius 
+          aucto<lb break="no" ed="#P" n="42"/>ritati debitam. Et ideo talis obligatio licet ex
+          <lb ed="#P" n="43"/>suo genere gravis sit, non est tanta quanta
+          <lb ed="#P" n="44"/>obligatio voti. et longe minor quam obligatio
+          <lb ed="#P" n="45"/>assertorii juramenti.
+        </p>
+        <p xml:id="szovsr-m12745-d1e942">
+          <lb ed="#P" n="46"/>10. Objectio contra assertum.— Responsic.
+          <lb ed="#P" n="47"/>— Sed occurrit objectio in lib. 1,c. 7, facta,
+          <lb ed="#P" n="48"/>quia sequitur diversam esse specie 
+          obligatio<lb break="no" ed="#P" n="49"/>nem juramenti assertorii et promissorii, quod
+          <lb ed="#P" n="50"/>supra simpliciter negatum est : sequela patet,
+          <lb ed="#P" n="51"/>quia obligatio voti est quasi media inter ila
+          <lb ed="#P" n="52"/>duo juramenta ; ergo oportet illa esse specie
+          <lb ed="#P" n="53"/>distincta. Respondetur primo non esse 
+          impro<lb break="no" ed="#P" n="54"/>babile consequens. Secundo, respondetur 
+          ne<lb break="no" ed="#P" n="55"/>gando sequelam, quia obligatio major ex ge-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nere potest esse minor in individuo, ut per se
+          <lb ed="#P" n="57"/>notum est; nam etiam aliqua promissio 
+          hu<lb break="no" ed="#P" n="58"/>mana in individuo, utpote de re maximi 
+          mo<lb break="no" ed="#P" n="59"/>menti, potest esse gravior quam obligatio
+          <lb ed="#P" n="60"/>voti de re levi, licet haec sit major ex genere.
+          <lb ed="#P" n="61"/>Ergo condividendo totam obligationem 
+          jura<lb break="no" ed="#P" n="62"/>menti in duo generalia membra inaequalia in
+          <lb ed="#P" n="63"/>gravitate intra eamdem speciem, poterit etiam
+          <lb ed="#P" n="64"/>intelligi, obligationem voti comparatam ad
+          <lb ed="#P" n="65"/>obligationem jnuramenti, ut invenitur in 
+          as<lb break="no" ed="#P" n="66"/>sertorio, esse minorem ex genere, quia in 
+          as<lb break="no" ed="#P" n="67"/>sertorio est obligatio juramenti, quasi in 
+          sum<lb break="no" ed="#P" n="68"/>mo, et nihilominus vóti obligationem esse 
+          ma<lb break="no" ed="#P" n="69"/>jorem ex genere, quam obligationem 
+          jura<lb break="no" ed="#P" n="70"/>menti promissorii intra illius latitudinem 
+          sis<lb break="no" ed="#P" n="71"/>tendo, quia in illo est obligatio juramenti
+          <lb ed="#P" n="72"/>quasi in inferiori gradu, scilicet materiali, et
+          <lb ed="#P" n="73"/>quasi individuo.
+        </p>
+        <p xml:id="szovsr-m12745-d1e1007">
+          <lb ed="#P" n="74"/>11. Solvuntur rationes pro opinione Medinee.
+          <lb ed="#P" n="75"/>— Ad primum. — Ad secundum.— Ad 
+          argu<lb break="no" ed="#P" n="76"/>menta ergo facta pro opinione Medinaee, si 
+          in<lb break="no" ed="#P" n="77"/>ducantur contra secundam assertionem 
+          nos<lb break="no" ed="#P" n="78"/>tram, facile est respondere. Ad primum, 
+          ne<lb break="no" ed="#P" n="79"/>gatur assumptum quoad juramentum 
+          promis<lb break="no" ed="#P" n="80"/>sorium ; nam per illius violationem non 
+          tri<lb break="no" ed="#P" n="81"/>buitur Deo testimonium falsum, saltem 
+          for<lb break="no" ed="#P" n="82"/>maliter, sed reverentia ejus auctoritati debita
+          <lb ed="#P" n="83"/>contemnitur; et ad summum fit, ut 
+          materia<lb break="no" ed="#P" n="84"/>liter fiat falsum quod Deus vere testificatus
+          <lb ed="#P" n="85"/>fuerat, quae non est injuria ita repugnans 
+          ve<lb break="no" ed="#P" n="86"/>ritati Dei. Ad secundum respondetur, etiam
+          <lb ed="#P" n="87"/>votum factum ex metu ex natura rei validum
+          <lb ed="#P" n="88"/>esse, sed per Ecclesiam interdum esse factum
+          <lb ed="#P" n="89"/>irritum, ut postea videbimus ; quod idem 
+          po<lb break="no" ed="#P" n="90"/>tuisset facere in juramento promissorio. Quod
+          <lb ed="#P" n="91"/>si forte non fecit, non inde potest colligi 
+          ma<lb break="no" ed="#P" n="92"/>jor vel minor obligatio, ut per se constat; nam
+          <lb ed="#P" n="93"/>potuit Ecclesia moveri ex aliis rationibus, ut
+          <lb ed="#P" n="94"/>quod Deus non vult acceptare coactam 
+          promis<lb break="no" ed="#P" n="95"/>sionem, vel quod aliquod majus periculum
+          <lb ed="#P" n="96"/>animmae in talibus votis inveniatur, vel quid 
+          si<lb break="no" ed="#P" n="97"/>mile. Sic enim non omnia vota metu facta 
+          Ec<lb break="no" ed="#P" n="98"/>clesia irritat, licet non minus obligarent de se
+          <lb ed="#P" n="99"/>illa quae irritat, quam quae non irritat; imo
+          <lb ed="#P" n="100"/>interlum magis, ratione modi, ut solemne,
+          <lb ed="#P" n="101"/>quam simplex, etc. Quod autem facilior sit
+          <lb ed="#P" n="102"/>dispensatio voti quam juramenti promissorii,
+          <lb ed="#P" n="103"/>gratis assumitur (de quo infra), et non facit
+          <lb ed="#P" n="104"/>ad rem, quia potest id provenire ex majori
+          <lb ed="#P" n="105"/>causa, non ex minori obligatione ; 
+          juramen<lb break="no" ed="#P" n="106"/>tum autem assertorium in utroque excedit,
+          <lb ed="#P" n="107"/>quia propter nullum metum licere potest, nec
+          <lb ed="#P" n="108"/>dispensatio in illud cadit.
+        </p>
+        <p xml:id="szovsr-m12745-d1e1085">
+          <lb ed="#P" n="109"/>19. Ad tertium. — Dubium. — Solutio. —
+          <lb ed="#P" n="110"/>Ad tertium satis respondet D. Thomas, jura-
+          <pb ed="#P" n="514"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mentum addi voto, non ut addatur major
+          <lb ed="#P" n="2"/>obligatio, sed ut multiplicentur vincula. Unde
+          <lb ed="#P" n="3"/>sentit (et merito) in voto jurato esse duas
+          <lb ed="#P" n="4"/>obligationes specie diversas, ut supra 
+          declara<lb break="no" ed="#P" n="5"/>vi; et praecise comparando illas inter se, ut
+          <lb ed="#P" n="6"/>circa eamdem voti materiam conjunguntur,
+          <lb ed="#P" n="7"/>semper obligationem voti esse majorem, quod
+          <lb ed="#P" n="8"/>consequenter loquendo ita necessario 
+          dicen<lb break="no" ed="#P" n="9"/>dum est. Unde quoad hoc partim convenit 
+          vo<lb break="no" ed="#P" n="10"/>tum juratum cum promissione ad hominem
+          <lb ed="#P" n="11"/>jurata, partim differt ; conveniunt quidem,
+          <lb ed="#P" n="12"/>quia in utroque est duplex obligatio diversae
+          <lb ed="#P" n="13"/>rationis : unde utrumque excedit (saltem 
+          ex<lb break="no" ed="#P" n="14"/>tensive) obligationem puri voti, vel purae 
+          pro<lb break="no" ed="#P" n="15"/>missionis, vel etiam puri juramenti, ut per se
+          <lb ed="#P" n="16"/>constat. Differunt autem, quia promissio 
+          hu<lb break="no" ed="#P" n="17"/>mana jurata, etiamsi duplex habeat vinculum,
+          <lb ed="#P" n="18"/>non adaequatur intensive uni obligationi puri
+          <lb ed="#P" n="19"/>voti ex genere suo, quia duo inferiora 
+          diver<lb break="no" ed="#P" n="20"/>sarum rationum non facinnt unum intensive
+          <lb ed="#P" n="21"/>majus; votum autem juratum ex parte voti
+          <lb ed="#P" n="22"/>habet intensivam aequalitatem, et ideo 
+          sim<lb break="no" ed="#P" n="23"/>pliciter dici potest magis obligare. Àn vero
+          <lb ed="#P" n="24"/>secandum moralem asestimationem duplex
+          <lb ed="#P" n="25"/>obligatio humanae promissionis juratae censeri
+          <lb ed="#P" n="26"/>possit aequalis obligationi voti, controverti 
+          po<lb break="no" ed="#P" n="27"/>test? Consequenter autem dicendum videtur
+          <lb ed="#P" n="28"/>ex genere non aequari, tamen in individuo
+          <lb ed="#P" n="29"/>posse interdum praeferri, et utrumque satis
+          <lb ed="#P" n="30"/>constat ex dictis.
+        </p>
+        <p xml:id="szovsr-m12745-d1e1161">
+          <lb ed="#P" n="31"/>13. Ad argumenta vero aliorum Doctorum,
+          <lb ed="#P" n="32"/>qui indistincte praeferunt obligationem voti
+          <lb ed="#P" n="33"/>obligationi juramenti, etiam assertorii (ut 
+          si<lb break="no" ed="#P" n="34"/>gnificant), non oportet respondere, quia quoad
+          <lb ed="#P" n="35"/>eam partem sufficienter satisfactum illis est
+          <lb ed="#P" n="36"/>probando nostram primam assertionem, et in
+          <lb ed="#P" n="37"/>argumentis factis pro opinione contraria, 
+          prae<lb break="no" ed="#P" n="38"/>sertim in primo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

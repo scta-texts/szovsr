@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="735"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m18470"><!-- t5l4prae -->
+        <head xml:id="szovsr-m18470-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m18470-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="11"/>LIBER QUARTUS
+          <lb ed="#P" n="12"/>DE ADIURATIONE.
+        </p>
+        <p xml:id="szovsr-m18470-d1e112">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="13"/>Hunc actum posuit D. Thomas inter 
+          exter<lb break="no" ed="#P" n="14"/>nos actus religionis 2. 2, q. 90, et habere 
+          po<lb break="no" ed="#P" n="15"/>test rationem formalem distinctam a reliquis;
+          <lb ed="#P" n="16"/>habetque quamdam afhinitatem cum 
+          jura<lb break="no" ed="#P" n="17"/>mento, sicut in voce, ita etiam in 
+          invocatio<lb break="no" ed="#P" n="18"/>ne nominis Dei, ideoque convenienter in
+          <lb ed="#P" n="19"/>hunc locum cadit de illo disputatio. Quae licet
+          <lb ed="#P" n="20"/>brevis et facilis sit, praetermitti omnino non
+          <lb ed="#P" n="21"/>debuit, tum propter materiae complcmentum,
+          <lb ed="#P" n="22"/>tum quia et ad nonnullos casus morales, et
+          <lb ed="#P" n="23"/>ad occurrendum aliquibus haereticis utilis 
+          es<lb break="no" ed="#P" n="24"/>se potest. Primo ergo explicabimus quid sit
+          <lb ed="#P" n="25"/>haec adjuratio, et cur inter actus religionis
+          <lb ed="#P" n="26"/>ponatur. Deinde videbimus quae res et 
+          quo<lb break="no" ed="#P" n="27"/>modo adjurari possint; ac demum constabit
+          <lb ed="#P" n="28"/>quid vitii vel superstitionis in hoc genere 
+          ac<lb break="no" ed="#P" n="29"/>tionis misceri possit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

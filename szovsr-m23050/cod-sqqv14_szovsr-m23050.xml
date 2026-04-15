@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="920"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m23050"><!-- t6l4prae -->
+        <head xml:id="szovsr-m23050-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m23050-d1e103">
+          <pb ed="#P" n="920"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER QUARTUS
+          <lb ed="#P" n="2"/>DE OBLIGATIONE VOTI,
+        </p>
+        <p xml:id="szovsr-m23050-d1e114">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="3"/>Diximus de natura et essentia voti, et de
+          <lb ed="#P" n="4"/>causis ac conditionibus ad illud requisitis;
+          <lb ed="#P" n="5"/>consequens est ut de effectibus ejus dicamus.
+          <lb ed="#P" n="6"/>Possumns autem duplicem effectum voti 
+          dis<lb break="no" ed="#P" n="7"/>tinguere: unus est obligare voventem ad 
+          im<lb break="no" ed="#P" n="8"/>plendum quod promisit; alius est constituere
+          <lb ed="#P" n="9"/>voventem in statu vel via perfectionis. Prior
+          <lb ed="#P" n="10"/>effectus est universalis, et quasi intrinsecus,
+          <lb ed="#P" n="11"/>et proximus voti ; et dici potest intrinsecus 
+          fi<lb break="no" ed="#P" n="12"/>nis, et veluti effectus formalis, quia votum est
+          <lb ed="#P" n="13"/>veluti quoddam vinculum quod formaliter 
+          li<lb break="no" ed="#P" n="14"/>gat; licet etiam dici possit quaedam moralis
+          <lb ed="#P" n="15"/>efficientia intrinseca voto, et ideo de hoc 
+          effec<lb break="no" ed="#P" n="16"/>tu in praesenti tractamus. Alius vero vel non est
+          <lb ed="#P" n="17"/>universalis omnibus votis, vel est extrinsecus
+          <lb ed="#P" n="18"/>et remotus , et ideo post integram 
+          tractatio<lb break="no" ed="#P" n="19"/>nem de voto in communi, in sequenti 
+          volu<lb break="no" ed="#P" n="20"/>mine specialem disputationem de illo 
+          institue<lb break="no" ed="#P" n="21"/>mus. Ibique dicemus de aliis effectibus 
+          impe<lb break="no" ed="#P" n="22"/>diendi matrimonium, vel rerum dominium, et
+          <lb ed="#P" n="23"/>aliis hujusmodi, qui cum illo effectu conjuncti
+          <lb ed="#P" n="24"/>sunt. Circa voti autem obligationem oportet
+          <lb ed="#P" n="25"/>recolere quod de juramento promissorio 
+          dixi<lb break="no" ed="#P" n="26"/>mus, in eo considerari posse antecedentem et
+          <lb ed="#P" n="27"/>sequentem obligationem, utraque enim in voto
+          <lb ed="#P" n="28"/>locum habet. Antecedens dicitur , quae ante
+          <lb ed="#P" n="29"/>votum est de servando debito modo in 
+          voven<lb break="no" ed="#P" n="30"/>do, et haec satis explicata est in superioribus
+          <lb ed="#P" n="31"/>libris; et de peccatis quae in ejus violatione
+          <lb ed="#P" n="32"/>committuntur, dicemus libro sequenti. 
+          Obti<lb break="no" ed="#P" n="33"/>gatio autem consequens dicitur, quae per 
+          ip<lb break="no" ed="#P" n="34"/>sum votum inducitur tanquam effectus ejus;
+          <lb ed="#P" n="35"/>et de hac est sermo in praesenti. Et quamvis
+          <lb ed="#P" n="36"/>explicatio hujus oblisationis vix possit 
+          separa<lb break="no" ed="#P" n="37"/>ri a culpis et peccatis quae in illis 
+          committun<lb break="no" ed="#P" n="38"/>tur, nihilominus majoris claritatis et utilitatis
+          <lb ed="#P" n="39"/>gratia, curabimus ea distinguere, et hic solam
+          <lb ed="#P" n="40"/>vim obligandi, et modum ac circumstantias
+          <lb ed="#P" n="41"/>ejus declarare ; de peccatis autem quae contra
+          <lb ed="#P" n="42"/>ilam committuntur, in sequenti libro 
+          dice<lb break="no" ed="#P" n="43"/>mus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-04-15">April 15, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv14">Paris 1859, v. 14</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-04-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="836"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-m20966"><!-- t6l2prae -->
+        <head xml:id="szovsr-m20966-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-m20966-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="29"/>LIBER SECUNDUS
+          <lb ed="#P" n="30"/>DE MATERIA VOTI
+          <lb ed="#P" n="31"/>ET DIVISIONIBUS QUA EX MATERIA SUMUSTUR.
+        </p>
+        <p xml:id="szovsr-m20966-d1e114">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="32"/>Explicuimus naturam et essentiam voti, 
+          si<lb break="no" ed="#P" n="33"/>mulque nonnullas ejus causas declaravimus,
+          <lb ed="#P" n="34"/>praesertim formalem et finalem. Nam quia 
+          vo<lb break="no" ed="#P" n="35"/>tum actus quidam humanus est, ab intrinseco
+          <lb ed="#P" n="36"/>tine speciem sumit , et ideo finem hunc 
+          decla<lb break="no" ed="#P" n="37"/>ravimus ostendendo quomodo votum a1 
+          divi<lb break="no" ed="#P" n="38"/>num cultum ordinetur. Ibique consequenter
+          <lb ed="#P" n="39"/>egimus de personis quibus voti promissio fieri
+          <lb ed="#P" n="40"/>potest. Unde etiam explicatum reliquimus id,
+          <lb ed="#P" n="41"/>quod respectu voti potest habere aliquem 
+          mo<lb break="no" ed="#P" n="42"/>dum formae, nimirum objectum formale ejus;
+          <lb ed="#P" n="43"/>nam cum actus ipse sit quaedam forma, non
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="44"/>habet aliam formam intrinsecam, praeter 
+          ob<lb break="no" ed="#P" n="45"/>jectum suum, quamquam ornnia, quae dixi- à
+          <lb ed="#P" n="46"/>mus de deliberatione servanda in vovendo,
+          <lb ed="#P" n="47"/>possint dici ad formam ejus pertinere. Igitur
+          <lb ed="#P" n="48"/>dicendum superest de causa materiali et 
+          efti<lb break="no" ed="#P" n="49"/>ciente voti : efficientem voco personam 
+          voven<lb break="no" ed="#P" n="50"/>tem, quam considerabimus in libro sequenti
+          <lb ed="#P" n="51"/>et in hoc de materia voti dicendum cst. 
+          Vo<lb break="no" ed="#P" n="52"/>tum autem, cum sit forma quaedam , non 
+          ha<lb break="no" ed="#P" n="53"/>bet materiam ex qua componatur , habet 
+          ta<lb break="no" ed="#P" n="54"/>men materiam, seu subjectum, ex cujus 
+          po<lb break="no" ed="#P" n="55"/>tentia cducatur et in quo recipiatur; haec au-
+          <pb ed="#P" n="837"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tem materia non est alia praeter potentiam 
+          il<lb break="no" ed="#P" n="2"/>lam cujus actus est votum , de qua etiam in
+          <lb ed="#P" n="3"/>supertiori libro sufficienter dictum est. Solum
+          <lb ed="#P" n="4"/>ergo superest dicendum de materia circa quam
+          <lb ed="#P" n="5"/>votum versari debet, ut licitum et validum
+          <lb ed="#P" n="6"/>sit, id est, de rebus illis quae possunt Deo 
+          con<lb break="no" ed="#P" n="7"/>venienter promitti , et quam conditionem 
+          ha<lb break="no" ed="#P" n="8"/>bere debeant ut sub voti obligationem cadere
+          <lb ed="#P" n="9"/>possint. Et hinc consequenter veritatem et
+          <lb ed="#P" n="10"/>distinctionem votorum ex parte materiae 
+          de<lb break="no" ed="#P" n="11"/>clarabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
