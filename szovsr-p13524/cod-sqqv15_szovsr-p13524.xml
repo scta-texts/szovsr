@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="543"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p13524"><!-- t7l8c1 -->
+        <head xml:id="szovsr-p13524-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-p13524-Hd1e103" type="question-title">Utrum paupertas sit necessaria ad salutem.</head>
+        <p xml:id="szovsr-p13524-d1e106">
+          <lb ed="#P" n="40"/>CAPUT I.
+          <lb ed="#P" n="41"/>UTRUM PAUPERTAS SIT NECESSARIA AD SALUTEM.
+        </p>
+        <p xml:id="szovsr-p13524-d1e113">
+          <lb ed="#P" n="42"/>1. Errores haereticorum. — Haeretici dicti
+          <lb ed="#P" n="43"/>Apostolici dixerunt paupertatem Apostolicam
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="44"/>esse ad salutem necessariam , quod etiam 
+          sen<lb break="no" ed="#P" n="45"/>serunt Pelagiani, dicentes non posse homines
+          <lb ed="#P" n="46"/>salvari, nisi renuntient omnibus quae 
+          possi<lb break="no" ed="#P" n="47"/>dent, ut sumitur ex Augustino, epistola 89 et
+          <lb ed="#P" n="48"/>106 ; Nazian. etiam , oratione prima in 
+          Julia<lb break="no" ed="#P" n="49"/>num, refert statuisse ne Christianis daretur
+          <lb ed="#P" n="50"/>actio ad se defendendum, etiamsi rebus 
+          om<lb break="no" ed="#P" n="51"/>nibus spoliarentur, cum iu Evangelio eis 
+          prae<lb break="no" ed="#P" n="52"/>ceptum sit ut nihil possideant. Haeretici etiam
+          <lb ed="#P" n="53"/>dicti Fratrieelli dixerunt non licere habere
+          <lb ed="#P" n="54"/>aliquid proprium, ut sumitur ex Extravag.
+          <lb ed="#P" n="55"/>22. Sancta Romana, ubi eos damnat, et 
+          an<lb break="no" ed="#P" n="56"/>tea Borifacius VIII jam damnaverat.
+        </p>
+        <p xml:id="szovsr-p13524-d1e150">
+          <lb ed="#P" n="57"/>2. Assertio - paupertas actualis non est 
+          ne<lb break="no" ed="#P" n="58"/>cessaria ad salutem, neque praecepta. — 
+          Nihi<lb break="no" ed="#P" n="59"/>lominus dicendum est paupertatem actualem
+          <lb ed="#P" n="60"/>non esse ad salutem necessariam, neque 
+          ho<lb break="no" ed="#P" n="61"/>minibus praeceptam. Quod est de fide certum,
+          <lb ed="#P" n="62"/>et sufficienter convincitur ex ipso usu et statu
+          <lb ed="#P" n="63"/>Ecclesiae. Nam si paupertas ita esset 
+          necessa<lb break="no" ed="#P" n="64"/>ria ad salutem, erraret universa Ecclesia , et
+          <lb ed="#P" n="65"/>major pars fidelium ejus, etiamsi servarent
+          <lb ed="#P" n="66"/>omnia alia praecepta, essent in statu 
+          damnatio<lb break="no" ed="#P" n="67"/>nis, quod repugnat ejus sanctitati et veritati.
+          <lb ed="#P" n="68"/>Convinci tamen potest haec veritas, partim
+          <lb ed="#P" n="69"/>ratione, partim ex ipso Evangelio. Aut enim
+          <lb ed="#P" n="70"/>loquimur ex natura rei, aut ex aliquo Christi
+          <lb ed="#P" n="71"/>praecepto ; neutro autem modo invenitur 
+          di<lb break="no" ed="#P" n="72"/>vitiarum possessio ita prohibita, ut paupertas
+          <lb ed="#P" n="73"/>sit ad salutem necessaria. Minor quoad 
+          prio<lb break="no" ed="#P" n="74"/>rem partem de naturali jure latius probatur
+          <lb ed="#P" n="75"/>in materia de justitia, tractando de rerum
+          <lb ed="#P" n="76"/>dominio, et est per se evidens , quia divisio
+          <lb ed="#P" n="77"/>rerum, et dominiorum proprietas contra 
+          nul<lb break="no" ed="#P" n="78"/>lum praeceptum naturale est. Nam, quamvis
+          <lb ed="#P" n="79"/>Deus ipse dominia rerum non diviserit , sed
+          <lb ed="#P" n="80"/>absolute potestati et usui hominum haec 
+          in<lb break="no" ed="#P" n="81"/>feriora bona concesserit, juxta illud Genes. 1:
+          <lb ed="#P" n="82"/>Dominamini piscibus maris, etc., tamen neque
+          <lb ed="#P" n="83"/>ipse ut auctor naturae praecepit ut res semper
+          <lb ed="#P" n="84"/>manerent sub libero et communi usu 
+          homi<lb break="no" ed="#P" n="85"/>num, neque naturalis ratio per se sola dictat
+          <lb ed="#P" n="86"/>esse malum aut prohibitum hanc divisionem
+          <lb ed="#P" n="87"/>tacere, et unumquemque proprium aliquid
+          <pb ed="#P" n="544"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>possidere. Quin potius, generatim ac 
+          regulari<lb break="no" ed="#P" n="2"/>ter loquendo, in statu naturae lapsae, et 
+          conve<lb break="no" ed="#P" n="3"/>niens, et moraliter necessarium fuit, quia 
+          alio<lb break="no" ed="#P" n="4"/>qui vix possent applicari homines vel ad 
+          ex<lb break="no" ed="#P" n="5"/>colendos agros, vel ad alia negotia et munia
+          <lb ed="#P" n="6"/>sustentationi hominum necessaria. Secundo,
+          <lb ed="#P" n="7"/>quia septimum praeceptum Decalogi de non 
+          fu<lb break="no" ed="#P" n="8"/>rando naturale est, et ad honestatem morum
+          <lb ed="#P" n="9"/>necessarium ; ergo id, quod intrinsece ad 
+          il<lb break="no" ed="#P" n="10"/>lud supponitur, non potest esse contra 
+          natu<lb break="no" ed="#P" n="11"/>ralem legem; supponit autem rerum 
+          domi<lb break="no" ed="#P" n="12"/>nium et proprietatem ; nam in definitione
+          <lb ed="#P" n="13"/>furti ponitur, quod sit acceptio rei alienae 
+          in<lb break="no" ed="#P" n="14"/>vito domino. Tertio id est manifestum ex 
+          dis<lb break="no" ed="#P" n="15"/>cursu totius veteris Testamenti ; nam a 
+          prin<lb break="no" ed="#P" n="16"/>cipio humani generis ab ipsis filiis Adae 
+          coepe<lb break="no" ed="#P" n="17"/>runt homines habere proprias possessiones, et
+          <lb ed="#P" n="18"/>divitias maxime rerum mobilium, ac se 
+          mo<lb break="no" ed="#P" n="19"/>ventium, et sanctissimi viri divites satis fuisse
+          <lb ed="#P" n="20"/>leguntur, tam in lege natura, ut Job, 
+          Abra<lb break="no" ed="#P" n="21"/>ham, etc., quam in lege scripta, quo tempore
+          <lb ed="#P" n="22"/>Deus abstulit a barbaris gentibus terram 
+          pro<lb break="no" ed="#P" n="23"/>missionis, et suo populo tradidit, eamque 
+          de<lb break="no" ed="#P" n="24"/>inde missis sortibus inter tribus divisit , 
+          pos<lb break="no" ed="#P" n="25"/>teaque regnum Saulh tradidit , quod postea
+          <lb ed="#P" n="26"/>in David transtulit, cujus filius Salomon 
+          ditis<lb break="no" ed="#P" n="27"/>simus fuit. In hoc ergo, per se loquendo , et
+          <lb ed="#P" n="28"/>ex sola natura rei, nulla est malitia. Et ratio
+          <lb ed="#P" n="29"/>denique est manifesta, quia in hoc nulla est
+          <lb ed="#P" n="30"/>injustitia, cum nullus possit assignari cui fiat
+          <lb ed="#P" n="31"/>injuria ; seclusa autem injustitia, nulla alia
+          <lb ed="#P" n="32"/>ratio malitiae in tali actu vel objecto 
+          excogi<lb break="no" ed="#P" n="33"/>tari potest.
+        </p>
+        <p xml:id="szovsr-p13524-d1e297">
+          <lb ed="#P" n="34"/>3. Venio ad aliam partem, in qua magis 
+          vi<lb break="no" ed="#P" n="35"/>dentur haeretici errasse, quia in Evangelio 
+          in<lb break="no" ed="#P" n="36"/>terdum videtur Christus Dominus paupertatem,
+          <lb ed="#P" n="37"/>ut omnino necessariam ad salutem, postulare.
+          <lb ed="#P" n="38"/>Matth. 19, dixit: Facilius est camelum per 
+          fo<lb break="no" ed="#P" n="39"/>ramen acus transire, quam divitem intrare in
+          <lb ed="#P" n="40"/>regnum celorum. Ex Lucae 14: Qui non 
+          renun<lb break="no" ed="#P" n="41"/>tiat omnibus quae possidet, non potest meus esse
+          <lb ed="#P" n="42"/>discipulus. Verumtamen ex his eisdem locis
+          <lb ed="#P" n="43"/>manifestum est, Christum non praecepisse 
+          ac<lb break="no" ed="#P" n="44"/>tualem paupertatem et renuntiationem 
+          bono<lb break="no" ed="#P" n="45"/>rum omnium ut necessariam ad salutem, sed
+          <lb ed="#P" n="46"/>solum invitasse ad illam, eamque consuluisse
+          <lb ed="#P" n="47"/>ut valde utilem ad perfectionem et facilitatem
+          <lb ed="#P" n="48"/>quamdam in consequenda salute. Hoc plane
+          <lb ed="#P" n="49"/>constat ex discursu posterioris testimonii ; cum
+          <lb ed="#P" n="50"/>enim quidam adolescens ad Christum 
+          acces<lb break="no" ed="#P" n="51"/>sisset, interrogans: Quid boni faciam ut 
+          ha<lb break="no" ed="#P" n="52"/>beam vitam eternam ? Christus solum 
+          respon<lb break="no" ed="#P" n="53"/>dit : Si vis ad vitam ingredi, serva mandata.
+          <lb ed="#P" n="54"/>Ille autem iterum interrogavit: Quae? Christus
+          <lb ed="#P" n="55"/>autem praecepta Decalogi proposuit, nulla di-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vitiarum aut paupertatis mentione facta. Ad
+          <lb ed="#P" n="57"/>quem itcrum adolescens: Omnia hec custodivi
+          <lb ed="#P" n="58"/>a juventute mea; quid adhuc mihi deest ? Ait illi
+          <lb ed="#P" n="59"/>Jesus : Si vis perfectus esse, vade, et vende 
+          om<lb break="no" ed="#P" n="60"/>nia qua habes, et da pauperibus, et habebis 
+          the<lb break="no" ed="#P" n="61"/>saurum n calo, et veni, et sequere me. Ubi 
+          pri<lb break="no" ed="#P" n="62"/>mum expendo Christum hoc proposuisse extra
+          <lb ed="#P" n="63"/>praecepta, idque addidisse ultra ea, quae sunt
+          <lb ed="#P" n="64"/>simpliciter necessaria ad consequendam 
+          salu<lb break="no" ed="#P" n="65"/>tem; cum enim interrogationi factae plene
+          <lb ed="#P" n="66"/>respondisse credendus sit, ea sine dubio, quae
+          <lb ed="#P" n="67"/>simpliciter necessaria sunt, proposuerat, nam
+          <lb ed="#P" n="68"/>sub illis praeceptis reliqua virtute 
+          continen<lb break="no" ed="#P" n="69"/>tur ; ergo quod postea addit extra praecepta
+          <lb ed="#P" n="70"/>est. Deiude expendo illas duas conditionales:
+          <lb ed="#P" n="71"/>Si vis ad vitam ingredi ; et: Si vis perfectus
+          <lb ed="#P" n="72"/>esse; in quibus clare ostendit Christus ad 
+          in<lb break="no" ed="#P" n="73"/>gressum vitae non esse necessarium vendere
+          <lb ed="#P" n="74"/>omnia, etc., sed ad perfectionem obtinendam.
+          <lb ed="#P" n="75"/>Declaravit etiam illa duo, scilicet, ingredi ad
+          <lb ed="#P" n="76"/>vitam et perfectum esse, inter se distincta 
+          es<lb break="no" ed="#P" n="77"/>se, et diversis modis comparari, et primum
+          <lb ed="#P" n="78"/>sine posteriori contingere. Unde constat 
+          ine<lb break="no" ed="#P" n="79"/>ptam fuisse Pelagianorum expositionem apud
+          <lb ed="#P" n="80"/>Augustinum, epist. 89, q. 4: Si vis perfectus
+          <lb ed="#P" n="81"/>esse, id est, sivis ut nihil tibi desit ad salutem,
+          <lb ed="#P" n="82"/>nam ipsemet adolescens interrogavit: Quid.
+          <lb ed="#P" n="83"/>adhauc mihi deest ? et Christus, ut Marcus 
+          ex<lb break="no" ed="#P" n="84"/>pressit c. 10: Unum tibi deest. Sed plane 
+          in<lb break="no" ed="#P" n="85"/>telligit deesse ad perfectionem, non ad 
+          salu<lb break="no" ed="#P" n="86"/>tem, alias et immerito distinxisset inter 
+          vi<lb break="no" ed="#P" n="87"/>tam et perfectionem, et falso dixisset: S1 vis
+          <lb ed="#P" n="88"/>ad vitaum ingredi, serva mandata , intelligendo
+          <lb ed="#P" n="89"/>de illis mandatis, quae numeraverat, seclusa
+          <lb ed="#P" n="90"/>renuntiatione, quam postea addidit. Atque hoc
+          <lb ed="#P" n="91"/>modo intellexerunt hunc locum Chrysostomus
+          <lb ed="#P" n="92"/>et omnes Graeci ibi, Anselm., D. Thom. et
+          <lb ed="#P" n="93"/>alii, Marci 10, et alii Patres sequenti 
+          asser<lb break="no" ed="#P" n="94"/>tione citandi. Et videtur res adeo clara ex ipso
+          <lb ed="#P" n="95"/>contextu, ut vix possit ad alium sensum 
+          detor<lb break="no" ed="#P" n="96"/>queri.
+        </p>
+        <p xml:id="szovsr-p13524-d1e438">
+          <lb ed="#P" n="97"/>4. Discipulus Christi duobus modis quis 
+          di<lb break="no" ed="#P" n="98"/>citur. — Et eumdem sensum habere potest,
+          <lb ed="#P" n="99"/>quod Christus dixit Lucae 14: Quà non 
+          renun<lb break="no" ed="#P" n="100"/>tiat omnibus quae possidet, non potest meus 
+          es<lb break="no" ed="#P" n="101"/>se discipulus. Discipulus enim Christi (quod ad
+          <lb ed="#P" n="102"/>varia loca Evangelii intelligenda notandum
+          <lb ed="#P" n="103"/>est) dupliciter dicitur. Primo, omnis ille qui
+          <lb ed="#P" n="104"/>fidem Christi sequitur, et praesertim si eam
+          <lb ed="#P" n="105"/>habeat vivam, et in illa perseveret, quomodo
+          <lb ed="#P" n="106"/>dicebat Christus, Joan. 8: Si vos manseritis
+          <lb ed="#P" n="107"/>in sermone meo, vere discipuli meà eratis ; Ma
+          <lb ed="#P" n="108"/>enim verba de omnibus credentibus dixit. De
+          <lb ed="#P" n="109"/>qua acceptione legi potest August., lib. 2 de
+          <lb ed="#P" n="110"/>Consens. Evangelist., c. 1, circa finem. Alio
+          <pb ed="#P" n="545"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>modo specialiter dicitur discipulus Christi, qui
+          <lb ed="#P" n="2"/>in perfectione vitae et renuntiatione saeculi 
+          il<lb break="no" ed="#P" n="3"/>lum imitatur ; sic specialiter vocantur 
+          disci<lb break="no" ed="#P" n="4"/>puli illi septuaginta duo quos Christus 
+          desi<lb break="no" ed="#P" n="5"/>gnayit Luc. 10, qui discipulorum nomine 
+          spe<lb break="no" ed="#P" n="6"/>cialiter significantur, Matth. 9, ibi: Tunc
+          <lb ed="#P" n="7"/>diait discipulis . Messis quidem multa, operarii
+          <lb ed="#P" n="8"/>autem pauci. Nam Lucas postquam dixerat:
+          <lb ed="#P" n="9"/>Designavit Dominus et alios septuaginta duos,
+          <lb ed="#P" n="10"/>subdit : Et dicebat illis : Messis quidem multa,
+          <lb ed="#P" n="11"/>etc. Et utroque modo sumitur frequenter illa
+          <lb ed="#P" n="12"/>vox, tam in Evangelio quam in actis 
+          Aposto<lb break="no" ed="#P" n="13"/>lorum. Si ergo in praedictis verbis Lucae, 
+          dis<lb break="no" ed="#P" n="14"/>cipnlum hoc posteriori modo accipiamus, eum
+          <lb ed="#P" n="15"/>plane intelligemus qui vult perfectus esse, et
+          <lb ed="#P" n="16"/>ideo illi merito dici potest non posse consequi
+          <lb ed="#P" n="17"/>quod intendit, nisi renuntiet omnibus quae
+          <lb ed="#P" n="18"/>possidet.Nam in illa conditionali posita a
+          <lb ed="#P" n="19"/>Christo: Si vis perfectus esse, etc., 
+          includi<lb break="no" ed="#P" n="20"/>tur haec necessitas talis medii ad talem finem,
+          <lb ed="#P" n="21"/>et consequenter impossibilitas consequendi
+          <lb ed="#P" n="22"/>illum gradum, seu statum perfectionis; at 
+          ve<lb break="no" ed="#P" n="23"/>ro esse illo modo discipulum Christi, non est
+          <lb ed="#P" n="24"/>simpliciter necessarium ad salutem, ut 
+          decla<lb break="no" ed="#P" n="25"/>ratum est, et ideo inde etiam non probatur
+          <lb ed="#P" n="26"/>renuntiationem omnium rerum esse 
+          necessa<lb break="no" ed="#P" n="27"/>riam, vel in praecepto. Alium vero sensum, et
+          <lb ed="#P" n="28"/>fortasse magis proprium habere potest hic 
+          lo<lb break="no" ed="#P" n="29"/>cus, ut statim dicam.
+        </p>
+        <p xml:id="szovsr-p13524-d1e538">
+          <lb ed="#P" n="30"/>5. Quod ergo in priori loco Matth. Christus
+          <lb ed="#P" n="31"/>Dominus addidit de comparatione camehl, 
+          du<lb break="no" ed="#P" n="32"/>pliciter exponi potest. Primo, ut juxta 
+          sub<lb break="no" ed="#P" n="33"/>jectam materiam, et consequenter ad ea, quae
+          <lb ed="#P" n="34"/>proxime dicta erant, ibi non sit sermo de 
+          quo<lb break="no" ed="#P" n="35"/>cumque ingressu in regnum coelorum, sed
+          <lb ed="#P" n="36"/>per antonomasiam de ingressu per quamdam
+          <lb ed="#P" n="37"/>excellentiam et perfectionem, seu (quod idem
+          <lb ed="#P" n="38"/>est) de tali ingressu quod sine ullo 
+          impedi<lb break="no" ed="#P" n="39"/>mento ac detentione statim pateat. Postquam
+          <lb ed="#P" n="40"/>enim Christus responderat : S vis perfectus
+          <lb ed="#P" n="41"/>es$e, etc., refert Evangelista adolescentem
+          <lb ed="#P" n="42"/>abisse tristem, tunc autem subdit Christus:
+          <lb ed="#P" n="43"/>Amen dico cobis, quia dives difficile intrabit
+          <lb ed="#P" n="44"/>in regnum colorum ; ergo loquitur de introitu
+          <lb ed="#P" n="45"/>cum perfectione, seu ad perfectionem; nam
+          <lb ed="#P" n="46"/>illi adolescenti diviti non fuerat difficile 
+          ser<lb break="no" ed="#P" n="47"/>vare mandata, nedum impossibile, cum a 
+          ju<lb break="no" ed="#P" n="48"/>ventute sua illa servasset, non obstantibus 
+          di<lb break="no" ed="#P" n="49"/>vitiis. Nec enim dubitari potest quin verum
+          <lb ed="#P" n="50"/>dixerit, ut recte Chrysostomus notavit. Nam
+          <lb ed="#P" n="51"/>Marcus, c. 10, ait Christum statim eum 
+          in<lb break="no" ed="#P" n="52"/>tuitum esse, et dilexisse eum, quod 
+          benevo<lb break="no" ed="#P" n="53"/>lentiae signum, veritatem ipsum dixisse satis
+          <lb ed="#P" n="54"/>O ;ergo qued reliquum erat, eifuit 
+          diffi<lb break="no" ed="#P" n="55"/>cile, scilicet, tendere ad perfeotiunom, quam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>difficultatem ex divitiis ortam fuisse declaravit
+          <lb ed="#P" n="57"/>Matth.,cum dixit : Frat enim habens multas 
+          pos<lb break="no" ed="#P" n="58"/>sessiones,et propterec abüt tristis. De hoc ergo
+          <lb ed="#P" n="59"/>introitu, deque difficultate ad illum, loqui
+          <lb ed="#P" n="60"/>videtur Christus. Hanc vero adeo exaggeravit
+          <lb ed="#P" n="61"/>Christus exemplo cameli, ut impossibilitatem
+          <lb ed="#P" n="62"/>esse significaverit ; utrumque vero, cum 
+          pro<lb break="no" ed="#P" n="63"/>portione accommodatum, verum est; diviti
+          <lb ed="#P" n="64"/>enim difficile est regnum coelorum cum 
+          per<lb break="no" ed="#P" n="65"/>fectione quaerere, quia propter amorem 
+          divi<lb break="no" ed="#P" n="66"/>tiarum, difficile iili est omnibnus renuntiare;
+          <lb ed="#P" n="67"/>ei autem, nisi hanc difficultatem superet, 
+          im<lb break="no" ed="#P" n="68"/>possibile est, retinendo divitias, pertectionem
+          <lb ed="#P" n="69"/>profiteri, sicut camelo impossibile est per 
+          fo<lb break="no" ed="#P" n="70"/>ramen acus introire. Quae expositio veram
+          <lb ed="#P" n="71"/>doctrinam continet, ac pia est ; aliquantulum
+          <lb ed="#P" n="72"/>tamen videtur violenta quoad proprictatem
+          <lb ed="#P" n="73"/>verbi intrandi in regnum coelorum.
+        </p>
+        <p xml:id="szovsr-p13524-d1e638">
+          <lb ed="#P" n="74"/>6. Ahter ergo exponitur ille locus, ut per
+          <lb ed="#P" n="75"/>eam comparationem magna quaedam 
+          difficul<lb break="no" ed="#P" n="76"/>tas et humanpa impossibilitas significetur, non
+          <lb ed="#P" n="77"/>vero talis quae ex praecepto relinquendi divitias,
+          <lb ed="#P" n="78"/>sed ex impedimentis, et periculis quae secum
+          <lb ed="#P" n="79"/>afferunt, oriatur; neque etiam talis quae nullo
+          <lb ed="#P" n="80"/>modo superari possit, sed quae non solis viribus
+          <lb ed="#P" n="81"/>humanis, scd divina gratia vinc possit. Hunc
+          <lb ed="#P" n="82"/>sensum indicant ipsa Christi verba : nam 
+          ini<lb break="no" ed="#P" n="83"/>tio solum dixit: Dives difficile intrabit in 
+          ve<lb break="no" ed="#P" n="84"/>gnum calorum, quod ex eo intulit, quod 
+          ado<lb break="no" ed="#P" n="85"/>lescens ille. propter amorem divitiarum, tristis
+          <lb ed="#P" n="86"/>abiit, inde occasionem sumens ad 
+          praedican<lb break="no" ed="#P" n="87"/>dam difficultatem quam divitiae secum 
+          affe<lb break="no" ed="#P" n="88"/>runt ad consequendam salutem. Deinde,
+          <lb ed="#P" n="89"/>quamvis hyperbolico exemplo difficultatem
+          <lb ed="#P" n="90"/>exaggeret, non oportet rem esse aeque 
+          im<lb break="no" ed="#P" n="91"/>possibilem ; loquitur enim Christus Dominus
+          <lb ed="#P" n="92"/>communi et usitato modo, quo solent 
+          ho<lb break="no" ed="#P" n="93"/>mines per aliquam hujusmodi hyperbolem,
+          <lb ed="#P" n="94"/>magnam alicujus rei difficultatem 
+          declara<lb break="no" ed="#P" n="95"/>re. Tandem, cum discipuli admirarentur,
+          <lb ed="#P" n="96"/>Christus admirationem abstulit, dicens: Apud
+          <lb ed="#P" n="97"/>homines hoc impossibile est, apud Deum 
+          aau<lb break="no" ed="#P" n="98"/>tem omnia possibila sunt ; non est ergo 
+          ma<lb break="no" ed="#P" n="99"/>lum nec turpe esse divitem in sensu 
+          compo<lb break="no" ed="#P" n="100"/>sito, ut aiunt. Est ergo solum difficile propter
+          <lb ed="#P" n="101"/>impedimenta quae divitiae secum afferunt,
+          <lb ed="#P" n="102"/>quae, licet humanis viribus vinci non possint,
+          <lb ed="#P" n="103"/>cum divina gratia possunt, et ideo apud Deum
+          <lb ed="#P" n="104"/>possibile hoc dicitur, ut notavit Gregorius 
+          Na<lb break="no" ed="#P" n="105"/>zianzenus, orat. 36; et August., dicta epist.
+          <lb ed="#P" n="106"/>94. q. 4. Et hoc ipsum significavit Paulus, 1
+          <lb ed="#P" n="107"/>ad Tim., 6, dicens: Dicitibus hujus seculi
+          <lb ed="#P" n="108"/>praecipe non sublime sapere, neque sperare in
+          <lb ed="#P" n="109"/>incerlo divitiarum, sed in Deo vivo, qui praestat
+          <lb ed="#P" n="110"/>nobis hodie abunde ad fruendum, bene agere,
+          <pb ed="#P" n="546"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>divites fteri in Lonis operibus, facile tribuere,
+          <lb ed="#P" n="2"/>com municare, thesaurizare sibi fundamentun
+          <lb ed="#P" n="3"/>bomwun in futurum, ut apprehendant ceram 
+          vi<lb break="no" ed="#P" n="4"/>tam. Supponit ergo Paulus, posse divites,
+          <lb ed="#P" n="5"/>etiamsi divites maneant, veram vitam 
+          appre<lb break="no" ed="#P" n="6"/>hendere, dummodo in divitiis non nimium
+          <lb ed="#P" n="7"/>confidant, et Cis recte utantur, quos in Deuwmn
+          <lb ed="#P" n="8"/>divites appellat Christus, Luc. 12.
+        </p>
+        <p xml:id="szovsr-p13524-d1e742">
+          <lb ed="#P" n="9"/>7. Et juxta haec exponi etiam potest locus
+          <lb ed="#P" n="10"/>alius Luc. 14, admittendo in illo esse 
+          sermo<lb break="no" ed="#P" n="11"/>nem de necessitate medii, seu praecepti ad
+          <lb ed="#P" n="12"/>salutem, atque adeo de quocumque vero 
+          Chri<lb break="no" ed="#P" n="13"/>sti discipulo, qui salvari vult. Est autem 
+          ad<lb break="no" ed="#P" n="14"/>vertendum, necessitatem ibi insinuatam 
+          perti<lb break="no" ed="#P" n="15"/>nere ad praeceptum affirmativum renuntiandi
+          <lb ed="#P" n="16"/>omnibus quae possidentur, in quo servanda
+          <lb ed="#P" n="17"/>est regula affirmativorum praeceptorum, quia
+          <lb ed="#P" n="18"/>non pro semper obligant, sed pro articulo 
+          ne<lb break="no" ed="#P" n="19"/>cessitatis. Ita ergo non est necessarium ad 
+          salu<lb break="no" ed="#P" n="20"/>tem semper aut pro aliquo certo iempore 
+          spe<lb break="no" ed="#P" n="21"/>ciali lege definito, omnibus renuntiare, sed
+          <lb ed="#P" n="22"/>tunc solum quando vel ad fidei defensionem
+          <lb ed="#P" n="23"/>vel occurrentem aliquam obligationem 
+          chari<lb break="no" ed="#P" n="24"/>tatis fuerit necessarium. Et quia haec occasio
+          <lb ed="#P" n="25"/>rara esse solet, ideo haec necessitas, quatenus
+          <lb ed="#P" n="26"/>sub praeceptum cadit, dicitur non esse de 
+          re<lb break="no" ed="#P" n="27"/>nuntiatione actuali, sed in animi 
+          praepara<lb break="no" ed="#P" n="28"/>tione. Quomodo exposuit dictum locum D. 
+          Au<lb break="no" ed="#P" n="29"/>gustinus, epist. 5, et dicta epist., 89, q. 4,
+          <lb ed="#P" n="30"/>quem sequitur Beda in Lucam, qui ad hoc
+          <lb ed="#P" n="31"/>explicandum distinguit inter illa verba, 
+          relin<lb break="no" ed="#P" n="32"/>quere omnia, et renuntiare omnibus: 
+          Pauco<lb break="no" ed="#P" n="33"/>rum enim (inquit) perfectorum est relinguere
+          <lb ed="#P" n="34"/>omnia, hoc est, curas mundi postponere ; 
+          cunc<lb break="no" ed="#P" n="35"/>torum autemn fidelium est renuntiare omnibus,
+          <lb ed="#P" n="36"/>hoc est, sic tenere omnia, que in mundo sunt,
+          <lb ed="#P" n="37"/>ut per ea non Lteneatur in mundo. Consonatque
+          <lb ed="#P" n="38"/>haec expositio his, quae paulo superius Christus
+          <lb ed="#P" n="39"/>dixerat, Luc. 14: Siquis venit ad me, et non
+          <lb ed="#P" n="40"/>odit patrem suwm, et mairem, et ucvorem, et
+          <lb ed="#P" n="41"/>filios, et fratres, et serores, adhuc autem et
+          <lb ed="#P" n="42"/>animam suam,non potest meus esse discipulus.
+          <lb ed="#P" n="43"/>Nam, licet haec verba, relata ad discipulum.
+          <lb ed="#P" n="44"/>posteriori modo supra posito sumptum, id est,
+          <lb ed="#P" n="45"/>perfectiori modo sequentem Christum, 
+          pos<lb break="no" ed="#P" n="46"/>sint de actuali renuntiatione verificari, tamen
+          <lb ed="#P" n="47"/>intellecta generatim de discipulis Christi, id
+          <lb ed="#P" n="48"/>est, de omnibus Christianis, necessarium 
+          om<lb break="no" ed="#P" n="49"/>nino est ut praedicto modo intelligatur. Idem
+          <lb ed="#P" n="50"/>ergo est de aliis verbis quae tractavimus ; nam
+          <lb ed="#P" n="51"/>est eadem ratio, imo virtute eadem sunt; nam
+          <lb ed="#P" n="52"/>cum Christus concludit: Sic ergo omnis ex 
+          vo<lb break="no" ed="#P" n="53"/>bis, qui non renuntiat omnibus quee possidet,
+          <lb ed="#P" n="54"/>non solum de divitiis et bonis fortunae, quae
+          <lb ed="#P" n="55"/>sunt de materia paupertatis, sed simpliciter
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>de bonis omnibus quae supra numeraverat, 
+          lo<lb break="no" ed="#P" n="57"/>quitur, alias non declarasset satis, et 
+          conclu<lb break="no" ed="#P" n="58"/>sisset quod proposuerat, ut recte observavit
+          <lb ed="#P" n="59"/>Augustinus, epist. 38 ad Laetum, ubi sic ipse
+          <lb ed="#P" n="60"/>concludit : Sc ergo omnis ex vobis, qui non
+          <lb ed="#P" n="61"/>renuntiat omnibus quae sunt ejus, non potest
+          <lb ed="#P" n="62"/>meus esse discipulus. Et subjungit: Praelocutio
+          <lb ed="#P" n="63"/>autem cwm extrema conclusione concordat ; in
+          <lb ed="#P" n="64"/>eo enim quod unusquisque renuntiat omnibus
+          <lb ed="#P" n="65"/>quae sunt ejus, ctiam illud continetur, ut 
+          ode<lb break="no" ed="#P" n="66"/>rit patrem swwmn, et matrem, et ugorem, et 
+          fi<lb break="no" ed="#P" n="67"/>lios, et fratres, et sorores, adhuc et animam
+          <lb ed="#P" n="68"/>suam; omnia enim hec propria ejus sunt, quae
+          <lb ed="#P" n="69"/>plerumque implicant et àmpediunt, etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

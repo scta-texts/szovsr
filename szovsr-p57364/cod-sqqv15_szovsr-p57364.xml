@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="230"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p57364"><!-- t7l3c2 -->
+        <head xml:id="szovsr-p57364-Hd1e101">Caput 2</head>
+        <head xml:id="szovsr-p57364-Hd1e103" type="question-title">Utrum religiosus status a christo ipso fuerit institutus.</head>
+        <p xml:id="szovsr-p57364-d1e106">
+          <lb ed="#P" n="42"/>CAPUT II.
+          <lb ed="#P" n="43"/>UTRUM RELIGIOSUS STATUS A CHRISTO IPSO 
+          FUE<lb break="no" ed="#P" n="44"/>RIT INSTITUTUS.
+        </p>
+        <p xml:id="szovsr-p57364-d1e115">
+          <lb ed="#P" n="45"/>1. Mirum est quanto odio ab initio 
+          Eecle<lb break="no" ed="#P" n="46"/>siae religionis status oppugnatus sit ; duplices
+          <lb ed="#P" n="47"/>autem fuere religiosorum hostes, alii enim
+          <lb ed="#P" n="48"/>personas, alii statum ipsum insectati sunt;
+          <lb ed="#P" n="49"/>utrumque autem modum homines impi , et
+          <lb ed="#P" n="50"/>praesertim haeretici exercuerunt, ut eleganter
+          <lb ed="#P" n="51"/>prosequitur noster Platus, in prooemio, lib. 1
+          <lb ed="#P" n="52"/>de Statu Relig. Ut autem Julianum Aposta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tam , et alios principes haereticos omittam,
+          <lb ed="#P" n="54"/>qui potentia et vi religiosos vexarunt, quos
+          <lb ed="#P" n="55"/>late refert Jodoc. Coccius, tom. 2 thes., libro
+          <lb ed="#P" n="56"/>quarto de Vita Monastica, art. 2, in principio,
+          <lb ed="#P" n="57"/>Ariani summo odio religiosos prosecuti sunt,
+          <lb ed="#P" n="58"/>ut ex Athanasio colligi potest in Apologetico,
+          <lb ed="#P" n="59"/>prosime ante secundam ejus epistolam; et in
+          <lb ed="#P" n="60"/>epist. ad Solit. vit. agent., sub finem; et ex
+          <lb ed="#P" n="61"/>Rufino , lib. 1 Hist., c. 3. Similia de 
+          Donatis<lb break="no" ed="#P" n="62"/>tis refert Augustipus , Enarrat. in Psalm.
+          <lb ed="#P" n="63"/>132; lib. autem 3 contra Petilian., c. 40. 
+          si<lb break="no" ed="#P" n="64"/>gnif:cat non solum contra personas, sed etiam
+          <lb ed="#P" n="65"/>contra statum invectos fuisse. Tempore etiam
+          <lb ed="#P" n="66"/>Chrysostomi multi fuerunt non solum 
+          haere<lb break="no" ed="#P" n="67"/>tici, sed etiam mali fideles vituperatores vitae
+          <lb ed="#P" n="68"/>monasticae, contra quos ille tres libros scripsit.
+          <lb ed="#P" n="69"/>Helvidius et Jovinianus etiam hunc statum
+          <lb ed="#P" n="70"/>oppugnarunt, nec enim potuerunt hostes 
+          casti<lb break="no" ed="#P" n="71"/>tatis et virginitatis esse, quin etiam contra 
+          re<lb break="no" ed="#P" n="72"/>ligiosum statum se armaverint. Postea 
+          Wicle<lb break="no" ed="#P" n="73"/>phus statum hunc a daemone inventum ausus
+          <lb ed="#P" n="74"/>est dicere, quem errorem damnavit Concilium
+          <lb ed="#P" n="75"/>Constant., sess. 8, et late impugnatur ab 
+          Wal<lb break="no" ed="#P" n="76"/>densi, tom. 2, a c. 83. Ac tandem novi 
+          haere<lb break="no" ed="#P" n="77"/>tici illum vehementer insectantur, asserentes
+          <lb ed="#P" n="78"/>rem novam esse, et ab hominibus otiosis 
+          in<lb break="no" ed="#P" n="79"/>ventam calumniantur. Et qui majorem ei
+          <lb ed="#P" n="80"/>anctoritatem tribuunt, post 300 annos Christi
+          <lb ed="#P" n="81"/>dicunt incepisse, ejusque inventorem fuisse
+          <lb ed="#P" n="82"/>Macarium, Antonium, et similes. Et ne hanc
+          <lb ed="#P" n="83"/>etiam antiquitatem nostris religiosis tribuere
+          <lb ed="#P" n="84"/>videantur, dicunt illos nihil habere commune
+          <lb ed="#P" n="85"/>cum illis antiquis monachis, ut Bellar. refert,
+          <lb ed="#P" n="86"/>2 l. de Monach.. c. 5. Tria ergovidenda sunt,
+          <lb ed="#P" n="87"/>Primum, hoc non esse inventum pure 
+          hu<lb break="no" ed="#P" n="88"/>manum, sed ab ipso divino jure ducere 
+          origi<lb break="no" ed="#P" n="89"/>nem. Secundum, statum hunc continua et non
+          <lb ed="#P" n="90"/>interrupta traditione in Ecclesia servatum
+          <lb ed="#P" n="91"/>fuisse. Tertium, substantia et essentia 
+          eum<lb break="no" ed="#P" n="92"/>dem semper fuisse statum, licet accidentibus
+          <lb ed="#P" n="93"/>et caeremoniis varietatem obtineat.
+        </p>
+        <p xml:id="szovsr-p57364-d1e226">
+          <lb ed="#P" n="94"/>2. Primum punctum , et ratio dubitandi an
+          <lb ed="#P" n="95"/>status religiosus sit inventio humana. — 
+          Pri<lb break="no" ed="#P" n="96"/>mo. — Secundo. — Tertio. — Circa primum
+          <lb ed="#P" n="97"/>punctum, ratio dubitandi esse potest, primo,
+          <lb ed="#P" n="98"/>quia nullibi legimus talem institutionem.
+          <lb ed="#P" n="99"/>Secundo , quia nulla ex religionibus , quae
+          <lb ed="#P" n="100"/>in Ecclesia sunt, vel fuerunt unquam, est a
+          <lb ed="#P" n="101"/>Christo instituta ; ergo nec status religiosus
+          <lb ed="#P" n="102"/>secundum se, quia institutio divina debet esse
+          <lb ed="#P" n="103"/>in particularia, sicut statum Episcoporum, vel
+          <lb ed="#P" n="104"/>sacerdotum instituit. Tertio, vel hic status ex
+          <lb ed="#P" n="105"/>natura sua bonus est, et sic non indiguit 
+          posi<lb break="no" ed="#P" n="106"/>tiva institutione ; vel est indifferens, et sic
+          <lb ed="#P" n="107"/>non potuit a Christo institui, maxime cum ex
+          <pb ed="#P" n="231"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vitalis institutionis nihil speciale a Christo
+          <lb ed="#P" n="2"/>collatum sit.
+        </p>
+        <p xml:id="szovsr-p57364-d1e269">
+          <lb ed="#P" n="3"/>3. Vera resolutio : status religionis quoad
+          <lb ed="#P" n="4"/>substantiam suam a Christo Domino immed'
+          a<lb break="no" ed="#P" n="5"/>te trad tus et institutus fuit, ac proinde est de
+          <lb ed="#P" n="6"/>jure divino non precipiente, sed consulente.
+          <lb ed="#P" n="7"/>— Pro explicatione advertendum est, aliud
+          <lb ed="#P" n="8"/>esse loqui de statu religioso puro ac nudo,
+          <lb ed="#P" n="9"/>quoad ea quae illi substantialia sunt, aliud 
+          ve<lb break="no" ed="#P" n="10"/>ro esse loqui de illo ut determinato ad certam
+          <lb ed="#P" n="11"/>regulam , seu certum vivendi modum, vel,
+          <lb ed="#P" n="12"/>quod perinde est, ut talibus cireumstanuis
+          <lb ed="#P" n="13"/>vestitum. Dico ergo primo: status religionis
+          <lb ed="#P" n="14"/>secundum se, et quoad substantiam suam ab
+          <lb ed="#P" n="15"/>ipso Christo Domino immediate traditus et
+          <lb ed="#P" n="16"/>institutus fuit ; atque ita dici potest esse de
+          <lb ed="#P" n="17"/>jure divino non praecipiente, sed consulente;
+          <lb ed="#P" n="18"/>haec est sententia omnium catholicorum recte
+          <lb ed="#P" n="19"/>sentientium, D. Thomae 2. 2, q. 88, art. 4, ad
+          <lb ed="#P" n="20"/>3; Palud., in 4, d. 38, q. 1, de fin. 5, circa 3;
+          <lb ed="#P" n="21"/>Wald., tom. 1 de Sacramental, tit. 9. c. 83et
+          <lb ed="#P" n="22"/>84, et tom. 3 Doctr. Fid., c. 31 et 32; Clitov.,
+          <lb ed="#P" n="23"/>lib. 3 de Votis Monast., cap. 5; Soto, lib. 7de
+          <lb ed="#P" n="24"/>Justit., q. 5, art. 1, praesertim corol. 6 et 7;
+          <lb ed="#P" n="25"/>Castro, contra haeres., ver. Votum ; Navarr.,
+          <lb ed="#P" n="26"/>comment. 4 de Regular , n. 3, et de Redit.
+          <lb ed="#P" n="27"/>Eccles., monit. 3; Alvar. Pelag., libr. 2 de
+          <lb ed="#P" n="28"/>Planct. Eccles., c. 56, alias 53; Catharin. , l.
+          <lb ed="#P" n="29"/>2 contra Cajet. ; Turrian., lib. 5, pro Epist.
+          <lb ed="#P" n="30"/>Pont., c. 2; Bellarm., lib. 2 de Monac., c. 5;
+          <lb ed="#P" n="31"/>Piatus, lib. 2 de Bono stat. Relig., c. 20; 
+          Va<lb break="no" ed="#P" n="32"/>len. 9 9 disp. 1, q. 4. punct. 1, 86; et in
+          <lb ed="#P" n="33"/>Controv., tit. de Votis monast., c. 2; 
+          Henri<lb break="no" ed="#P" n="34"/>quez, lib. 10 de Sacramento Ordin., cap. 1;
+          <lb ed="#P" n="35"/>Alhert. Pius, lib. 5 de Monach.; Salmeron,
+          <lb ed="#P" n="36"/>tom. 8, tract. 52, in solutione octavae 
+          objectio<lb break="no" ed="#P" n="37"/>nis ; Vasquez 1. 2. disp. 165, c. 5.
+        </p>
+        <p xml:id="szovsr-p57364-d1e347">
+          <lb ed="#P" n="38"/>4. Probatur ex Patribus. — Eadem veritas
+          <lb ed="#P" n="39"/>sumnitur ex antiquis Patribus, qui communiter
+          <lb ed="#P" n="40"/>docent Christianorum vitam et statum in duos
+          <lb ed="#P" n="41"/>ordines Christum distribuisse, unum 
+          profiten<lb break="no" ed="#P" n="42"/>tium communem viam mandatorum, ut sunt
+          <lb ed="#P" n="43"/>conjugati, alium qni profitentur altiorem et
+          <lb ed="#P" n="44"/>Angelicam vitam, id est, religiosam. Notavit
+          <lb ed="#P" n="45"/>hoc Simon Logothetes, antiquus auctor, in
+          <lb ed="#P" n="46"/>Chronic., refertque varios Patres. Potissimum
+          <lb ed="#P" n="47"/>id docuit Basil., serm. 1 Ascetico, de 
+          Abdi<lb break="no" ed="#P" n="48"/>cat.«rerum et perfect. spirit., ubi inter alia
+          <lb ed="#P" n="49"/>dixit, per illa verba Matt. 11: Veaite ad me,
+          <lb ed="#P" n="50"/>onnes qui laboratis, vocare nos Christum ad
+          <lb ed="#P" n="51"/>monachorum vitam. Idem in Regul. fus. disp.,
+          <lb ed="#P" n="52"/>Regula 6, duplicem illam vitam expresse 
+          dis<lb break="no" ed="#P" n="53"/>tinguit, et de perfecta exponit illud : Qui vult
+          <lb ed="#P" n="54"/>venire post me, abneget semetipsum ; et in 
+          Con<lb break="no" ed="#P" n="55"/>stit. monast., cap. 9, dicit religiosam vitam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>esse imitationem illius, quam Christus cum
+          <lb ed="#P" n="57"/>suis Apostolis instituit; et cap. 23, loquens de
+          <lb ed="#P" n="58"/>obedientia religiosa : Hanc (inquit) is, qui 
+          se<lb break="no" ed="#P" n="59"/>cunduin Deum cere est monachus, antistiti suo
+          <lb ed="#P" n="60"/>praestet oportet, si quidein, ut jam d'aimus,
+          <lb ed="#P" n="61"/>Christus discipulos in hoc elegit, qui hoc cite
+          <lb ed="#P" n="62"/>institutum ewularentur, ut per eos formauam 
+          re<lb break="no" ed="#P" n="63"/>lingueret eamdem secuturae posteritati. Idem
+          <lb ed="#P" n="64"/>habet, epist. 79 ad Eustath. ; Chrysostomus
+          <lb ed="#P" n="65"/>etiam homil. 17 ad Popul., religiosam vitam
+          <lb ed="#P" n="66"/>vocat philosophiam a Christo introductam, qui
+          <lb ed="#P" n="67"/>tres etiam libros scripsit contra vituperatores
+          <lb ed="#P" n="68"/>vitae monasterii. Idem Athanasius, epist. ad
+          <lb ed="#P" n="69"/>Ammon. monachum, tom. 5, qui etiam tom.
+          <lb ed="#P" n="70"/>4 exhortationem habet ad monachos, ubi inter
+          <lb ed="#P" n="71"/>alia ait: /Ilud legis indultum est terminis, hoc
+          <lb ed="#P" n="72"/>gratie servatum est incrementis. Eusebius, lib.
+          <lb ed="#P" n="73"/>1 de Demonst., c. 8: In Fcclesia Dei duo modi
+          <lb ed="#P" n="74"/>vivendi instituti sunt, etc., ubi licet non dicat
+          <lb ed="#P" n="75"/>expresse esse institutos a Christo, tamen ex
+          <lb ed="#P" n="76"/>contextu praecedentium capitum constat hanc
+          <lb ed="#P" n="77"/>esse illius mentem : optime autem in hunc 
+          mo<lb break="no" ed="#P" n="78"/>dum definuit statum religiosum, dicens: Alter
+          <lb ed="#P" n="79"/>qudem (scilicet vivendi modus) naturam 
+          nos<lb break="no" ed="#P" n="80"/>tram, et communem hominum wvitee rationem 
+          ez<lb break="no" ed="#P" n="81"/>cedens, non nuptias, non sobolem, non 
+          substan<lb break="no" ed="#P" n="82"/>Lium, non opum facuttaten requirens, totus 
+          au<lb break="no" ed="#P" n="83"/>tem prorsus a communi et consueta cunctorum
+          <lb ed="#P" n="84"/>hominm vita abhorrens, et solum divino cultui,
+          <lb ed="#P" n="85"/>ei inamenso rerum calestium amori addictus.
+          <lb ed="#P" n="86"/>Copiose etiam de eadem rescribit Augustinus,
+          <lb ed="#P" n="87"/>epist. 89 ad Hilar., q. 4, ubi ait se 
+          Apostolo<lb break="no" ed="#P" n="88"/>rum exemplo hanc viain secutum fuisse, et
+          <lb ed="#P" n="89"/>alios ad hoc propositum, quantum poterat,
+          <lb ed="#P" n="90"/>fuisse hortatum. Hieronymus, epist. ad 
+          Rus<lb break="no" ed="#P" n="91"/>üc. monach., et saepe alias, idem sentit; et
+          <lb ed="#P" n="92"/>aperte Origenes, hom. 9 in Josue.
+        </p>
+        <p xml:id="szovsr-p57364-d1e471">
+          <lb ed="#P" n="93"/>5. Protatur precipue es Hvangelio. — 
+          In<lb break="no" ed="#P" n="94"/>stantia solvitur. — Fundatur autem praecipue
+          <lb ed="#P" n="95"/>haec veritas in Evangelio, in quo Christus 
+          ho<lb break="no" ed="#P" n="96"/>mines ad tria illa consilia, paupertatis, 
+          casti<lb break="no" ed="#P" n="97"/>tatis et obedientiae exhortatur, et ad vota 
+          per<lb break="no" ed="#P" n="98"/>petua de illis facienda, quae duo in 
+          superiori<lb break="no" ed="#P" n="99"/>bus a nobis ostensa sunt, de illis votis 
+          simpli<lb break="no" ed="#P" n="100"/>cibus in particulari disputando. At vero 
+          sub<lb break="no" ed="#P" n="101"/>stantia status religioa in his tribus votis 
+          con<lb break="no" ed="#P" n="102"/>sistit ; ergo hic status ab ipso Christo traditus
+          <lb ed="#P" n="103"/>est. Dices: esto Christus haec vota 
+          consulue<lb break="no" ed="#P" n="104"/>rit, non tamen inde fit consuluisse statum 
+          re<lb break="no" ed="#P" n="105"/>ligiosum, tum quia potuerunt singula laudari
+          <lb ed="#P" n="106"/>et commendari per sese, non tamen ut 
+          com<lb break="no" ed="#P" n="107"/>ponentia unum statum ; tum maxime quia 
+          sta<lb break="no" ed="#P" n="108"/>tus religiosus pwus includit quam illa tria 
+          vo<lb break="no" ed="#P" n="109"/>ta, nam supra diximus, licet quisilla tria vota
+          <lb ed="#P" n="110"/>simplieiter emittat, non statim esse vere ac
+          <pb ed="#P" n="232"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>proprie religiosum. Respondeo ad priorem
+          <lb ed="#P" n="2"/>partem, si singula per se laudata et 
+          commen<lb break="no" ed="#P" n="3"/>data sunt, multo magis necesse est ut omnia
+          <lb ed="#P" n="4"/>tradita sub consilio fuerint, quia iila non se
+          <lb ed="#P" n="5"/>impediunt, sed potius jusant. Addo Christum
+          <lb ed="#P" n="6"/>Dominum saepius hoc significasse ; cum enim
+          <lb ed="#P" n="7"/>ait, Matth. 19: Fade, et vende omnia quaee 
+          ha<lb break="no" ed="#P" n="8"/>bes, et da pauperibus, ac sequere me, expresse
+          <lb ed="#P" n="9"/>conjungit paupertatem cum obedientia, et 
+          ne<lb break="no" ed="#P" n="10"/>cessario supponit eastitatem, quia non posset
+          <lb ed="#P" n="11"/>quis sequi libere Christum obligatus uxori, nec
+          <lb ed="#P" n="12"/>etiam paupertas cum filiorum procreatione, et
+          <lb ed="#P" n="13"/>obligatione, quae inde nascitur, bene 
+          conjun<lb break="no" ed="#P" n="14"/>gitur, ut supra ostendimus. Et ideo alio loco
+          <lb ed="#P" n="15"/>omnia Christus conjunxit, relinquere patrem,
+          <lb ed="#P" n="16"/>matrem, uaorem, filios, agros, adhuc autem et
+          <lb ed="#P" n="17"/>animam sttam ; et Matt. 16: Qui cult venire post
+          <lb ed="#P" n="18"/>me, abneget semctpsum, et tollat crucem suam,
+          <lb ed="#P" n="19"/>et sequatur me. Quae omnia et similia, licet
+          <lb ed="#P" n="20"/>in aliquo sensu possint ad omnes fideles 
+          per<lb break="no" ed="#P" n="21"/>tinere, et de obligatione praecepti exponi, in
+          <lb ed="#P" n="22"/>praeparatione animi pro casu necessitatis, etc.,
+          <lb ed="#P" n="23"/>tamen proprie et in rigore intelliguntur de 
+          ac<lb break="no" ed="#P" n="24"/>tuali renuntiatione omnium ad Christum 
+          per<lb break="no" ed="#P" n="25"/>fecte sequendum, ut supra ex sanctis Patribus,
+          <lb ed="#P" n="26"/>et ex ipso textu evangelico ostensum est; ergo
+          <lb ed="#P" n="27"/>satis aperte invitavit nos Christus ad 
+          quam<lb break="no" ed="#P" n="28"/>dam vivendi rationem et statum, omnem 
+          il<lb break="no" ed="#P" n="29"/>lam abnegationem cum immobilitate et 
+          stabi<lb break="no" ed="#P" n="30"/>litate includentem.
+        </p>
+        <p xml:id="szovsr-p57364-d1e582">
+          <lb ed="#P" n="31"/>6. Secunda assertio: status religionis non
+          <lb ed="#P" n="32"/>est institutus a Christo quoad particularem
+          <lb ed="#P" n="33"/>ejus determinationem ad talem regulam cel
+          <lb ed="#P" n="34"/>circunstantins. — Unde ad alteram partem
+          <lb ed="#P" n="35"/>respondeo, et dico secundo, Christum 
+          Domi<lb break="no" ed="#P" n="36"/>num instituisse religiosum statum, quantum
+          <lb ed="#P" n="37"/>ad omnia quae sunt de substantia talis status,
+          <lb ed="#P" n="38"/>etiamsi non instituerit particularem 
+          determi<lb break="no" ed="#P" n="39"/>nationem ejus ad talem regulam vel 
+          circum<lb break="no" ed="#P" n="40"/>stantias. Illud vero sufficit ut simpliciter 
+          di<lb break="no" ed="#P" n="41"/>catur talem statum instituisse. Haec ultima
+          <lb ed="#P" n="42"/>pars per se nota est, quia res simpliciter 
+          dici<lb break="no" ed="#P" n="43"/>tur talis ratione suae substantiae et essentiae,
+          <lb ed="#P" n="44"/>et idec qui rei substantiam productt, absolute
+          <lb ed="#P" n="45"/>illam producit, etiamsi non conferat 
+          acciden<lb break="no" ed="#P" n="46"/>taria. Sic eiiam dicitur Christus instituisse
+          <lb ed="#P" n="47"/>sacramenta, quia docuit ea quae sunt de corum
+          <lb ed="#P" n="48"/>substantia, etsi accidentalia Eeclesiee 
+          commi<lb break="no" ed="#P" n="49"/>serit. Prima vero pars declaratur, quia si quid
+          <lb ed="#P" n="50"/>est de substantia hujus status praeter tria vota,
+          <lb ed="#P" n="51"/>solum est traditio sui, quam in manibus 
+          prae<lb break="no" ed="#P" n="52"/>lati facit, qui religionem profitetur; at vero
+          <lb ed="#P" n="53"/>hanc etiam Christus consuluit, ut non obscure
+          <lb ed="#P" n="54"/>ex verbis cjus colligitur: Abneget semetipsum.
+          <lb ed="#P" n="55"/>Abnegat enim se maxime homo (ut Patres om-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nes exponunt), quando se privat sua propria
+          <lb ed="#P" n="57"/>voluntate et libertate propter Christum, quia
+          <lb ed="#P" n="58"/>hoc est maxime proprium hominis ut sic, et
+          <lb ed="#P" n="59"/>ita hoc significat illud relativum, semetipsum ;
+          <lb ed="#P" n="60"/>maxime autem se privat homo hac voluntate
+          <lb ed="#P" n="61"/>propria et libertate per illam traditionem ;
+          <lb ed="#P" n="62"/>nam, licet per obedientiam etiam id fiat, 
+          sta<lb break="no" ed="#P" n="63"/>tus autem hujus obedientiae tunc est perfectus,
+          <lb ed="#P" n="64"/>quapdo homo non solum promittit, sed etiam
+          <lb ed="#P" n="65"/>donat se, ita ut nec dominium suae libertatis
+          <lb ed="#P" n="66"/>quodammodo retineat. Verbum etiam illud
+          <lb ed="#P" n="67"/>quoc Christus saepe repetit : Veni, sequere me,
+          <lb ed="#P" n="68"/>hoc ipsum consilium continet; non enim 
+          so<lb break="no" ed="#P" n="69"/>lum significat, me sequere, id est, me imitare,
+          <lb ed="#P" n="70"/>sed reipsa me sequere, quocumque ego iero,
+          <lb ed="#P" n="71"/>et voluero, teipsum mihi dando, ut in 
+          om<lb break="no" ed="#P" n="72"/>nibus ad nutum meum movearis. Deinde usus
+          <lb ed="#P" n="73"/>ipse (qui sicut est optimus legum interpres,
+          <lb ed="#P" n="74"/>ita et consiliorum) ostendit hoc sensu fuisse
+          <lb ed="#P" n="75"/>intellecta Christi verba ab Apostolis, et ad 
+          pra<lb break="no" ed="#P" n="76"/>xim reducta, et ita etiam fuisse in morem 
+          Ec<lb break="no" ed="#P" n="77"/>clesiae perpetua traditione introductum, ut
+          <lb ed="#P" n="78"/>sequenti capite constabit. Et ex responsionibus
+          <lb ed="#P" n="79"/>ad rationes dubitandi propositas, magis etiam
+          <lb ed="#P" n="80"/>declarabitur haec prima pars simul cum 
+          se<lb break="no" ed="#P" n="81"/>cunda, quae etiam ex se satis clara est, et ex
+          <lb ed="#P" n="82"/>secunda ratione in principio facta, quam jam
+          <lb ed="#P" n="83"/>ex pendemus.
+        </p>
+        <p xml:id="szovsr-p57364-d1e702">
+          <lb ed="#P" n="84"/>7. Respondetur ad rationcs in contrarium
+          <lb ed="#P" n="85"/>allatas. — Ad primam. — Ad primam ergo
+          <lb ed="#P" n="86"/>rationem negatur assumptum, satis enim in
+          <lb ed="#P" n="87"/>Evangelio significata est institutio hujus 
+          sta<lb break="no" ed="#P" n="88"/>tus. Addi etiam potest ex Dasil., in Reg. 
+          mo<lb break="no" ed="#P" n="89"/>ral., resul, 19. c. 1, et regul. TO, c. S, et in
+          <lb ed="#P" n="90"/>reg. 1, ex brevioribus, quamvis hoc in 
+          parti<lb break="no" ed="#P" n="91"/>culari Christus non consuluisset, eo ipso quod
+          <lb ed="#P" n="92"/>ubique nobis consuiuit id, quod est perfectum
+          <lb ed="#P" n="93"/>et melius, et sufficienti ratione constat hunc
+          <lb ed="#P" n="94"/>statum esse meliorem, et perfectiorem, id 
+          sa<lb break="no" ed="#P" n="95"/>tis esse ut censeatur a Christo consultum.
+        </p>
+        <p xml:id="szovsr-p57364-d1e731">
+          <lb ed="#P" n="96"/>8. Ad secundam. — In secunda ratione 
+          pe<lb break="no" ed="#P" n="97"/>titur quam religionem Christus instituerit. Cui
+          <lb ed="#P" n="98"/>brcviter responderi posset, instituisse omnem
+          <lb ed="#P" n="99"/>quatenus religio est, nullam vero in 
+          particu<lb break="no" ed="#P" n="100"/>lari, nullam, id est, neque hane, neque illam
+          <lb ed="#P" n="101"/>in particulari, sed religionis statum secundum
+          <lb ed="#P" n="102"/>se, ac immobiliter, ut aiunt dialectici, sicut 
+          in<lb break="no" ed="#P" n="103"/>stituit sacramentum Baptismi, non in 
+          parti<lb break="no" ed="#P" n="104"/>culari hoc vel illud, sed simpliciter 
+          Baptis<lb break="no" ed="#P" n="105"/>mum. Unde aliud est instituere, aliud facere,
+          <lb ed="#P" n="106"/>vel conferre ; Christus enim omnia sacramentia
+          <lb ed="#P" n="107"/>instituit, non tamen omnia fecit aut contulit.
+          <lb ed="#P" n="108"/>Unde si neminem ipse suis manibus 
+          baptizas<lb break="no" ed="#P" n="109"/>set, licet Baptismum instituisset, nullum 
+          ta<lb break="no" ed="#P" n="110"/>men in particulari fecisset; et de facto prius
+          <pb ed="#P" n="233"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>forte instituit, postea vero suis manibus 
+          sanc<lb break="no" ed="#P" n="2"/>tissimam matrem , et aliquos ex praecipuis
+          <lb ed="#P" n="3"/>Apostolis baptizavit, ut alibi docui ex 
+          Euthy<lb break="no" ed="#P" n="4"/>mio, et aliis. Instituere ergo solum est 
+          desi<lb break="no" ed="#P" n="5"/>gnare talis rei substantiam, seu velle ut talis
+          <lb ed="#P" n="6"/>res moralis (sive sit status, sive sacramentum)
+          <lb ed="#P" n="7"/>tali vel tali modo fiat, abstrahendo a 
+          particu<lb break="no" ed="#P" n="8"/>laribus, et ab omnibus etiam accidentbus, si
+          <lb ed="#P" n="9"/>necesse sit; facere vero est exercere, aut a
+          <lb ed="#P" n="10"/>parte rei ponere talem rem, quae institui 
+          di<lb break="no" ed="#P" n="11"/>citur in hoc vel illo individuo. Christus ergo
+          <lb ed="#P" n="12"/>Dominus instituit religionis statum secundum
+          <lb ed="#P" n="13"/>se, praedicando tria consilia, et docenao 
+          ho<lb break="no" ed="#P" n="14"/>mines perfectam abnegationem, et saeculi 
+          re<lb break="no" ed="#P" n="15"/>nuntiationem, ut statim in solutione tertiae
+          <lb ed="#P" n="16"/>rationis magis explicabitur. Atque hoc satis
+          <lb ed="#P" n="17"/>esset ad veritatem propositae doctrinae, et 
+          so<lb break="no" ed="#P" n="18"/>lutionem argumenti.
+        </p>
+        <p xml:id="szovsr-p57364-d1e810">
+          <lb ed="#P" n="19"/>9. Christus etiam instituit religionem in
+          <lb ed="#P" n="20"/>particulari, ad eam Apostolos congregando. —
+          <lb ed="#P" n="21"/>A postoli vere religiosi fuerunt, et vola 
+          emise<lb break="no" ed="#P" n="22"/>runt. — Addo vero insuper etiam fecisse
+          <lb ed="#P" n="23"/>Christum quamdam religionem in partieulari,
+          <lb ed="#P" n="24"/>ad eamdem quosdam homines congregando,
+          <lb ed="#P" n="25"/>eisque proprium et particularem modum vitae
+          <lb ed="#P" n="26"/>religiosae tribuendo. Declaratur, nam Christus
+          <lb ed="#P" n="27"/>Apostolos vocavit ad verum ac proprium 
+          rel<lb break="no" ed="#P" n="28"/>giosum statum assumendum. Hoc ex parte 
+          su<lb break="no" ed="#P" n="29"/>pra ostendimus, quando agentes de tribus 
+          vo<lb break="no" ed="#P" n="30"/>tis castitatis, paupertatis et obediertiae, 
+          Apos<lb break="no" ed="#P" n="31"/>tolos vere ac proprie illa emisisse probavimus.
+          <lb ed="#P" n="32"/>Non enim utcumque illa emiserunt, sed ut
+          <lb ed="#P" n="33"/>pertinentia ad statum perfectionis, ut ait D.
+          <lb ed="#P" n="34"/>'Thomas 2. 2, q. 88, art. 4, ad 3, id est, ut 
+          il<lb break="no" ed="#P" n="35"/>lum statum continentia, quod etiam sensit
+          <lb ed="#P" n="36"/>q. 186, art. 6, ad 1, dum ait Apostolos 
+          secu<lb break="no" ed="#P" n="37"/>tos fuisse Christum , tanquam immobiliter ei
+          <lb ed="#P" n="38"/>aühaerentes, et nunquam recessuri, ex 
+          Augus<lb break="no" ed="#P" n="39"/>tino, de Conson. Evang., lib. 2, c. 17, et hoc
+          <lb ed="#P" n="40"/>etiam sensit idem Augustinus, 17 de Civit.,
+          <lb ed="#P" n="41"/>c. 4, cum dixit Apostolos hoc magnum votum
+          <lb ed="#P" n="42"/>emisisse, et epist. 89, q. 4, dicens se 
+          Aposto<lb break="no" ed="#P" n="43"/>lorum exemplo hanc perfectionis viam 
+          se<lb break="no" ed="#P" n="44"/>cutum fuisse. Unde in vita ejus, c. 5, refertur
+          <lb ed="#P" n="45"/>Augustinum factum presbyterum 
+          monaste<lb break="no" ed="#P" n="46"/>rium intra Ecclesiam instituisse, et cum Dei
+          <lb ed="#P" n="47"/>servis vivere coepisse , secundum modum et
+          <lb ed="#P" n="48"/>regulam a sanctis Apostolis institutam ; et
+          <lb ed="#P" n="49"/>Chrysost. homil. 17 ad Populum, nou solum
+          <lb ed="#P" n="50"/>dicit hanc philosophiam fuisse a Chiisto 
+          prae<lb break="no" ed="#P" n="51"/>dicatam aut institutam, sed introductam, id
+          <lb ed="#P" n="52"/>est, exercitam in aliqua congregatione ab ipso
+          <lb ed="#P" n="53"/>coacta ; et homil. 17 in Matth., ad hunc 
+          sta<lb break="no" ed="#P" n="54"/>tum exhortans : Jis, inquit, o monache, esse
+          <lb ed="#P" n="55"/>discipulus meus? Fac tu quod fcit Petrus,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quod fecit Jacobus et Joannes ; et homil. 69
+          <lb ed="#P" n="57"/>in Matt, dicit monachos imitari Apostolos
+          <lb ed="#P" n="58"/>etiam in habitu; et lib. 4, contra Vituper. vit.
+          <lb ed="#P" n="59"/>monast., circa finem, dicit Apostolos implevisse
+          <lb ed="#P" n="60"/>quae nunc monachi faciunt. Hinc etiam 
+          Ber<lb break="no" ed="#P" n="61"/>nar., ad Fratres de Monte Dei, de antiquitate
+          <lb ed="#P" n="62"/>status religiosi loquens, ait : Res a Deo 
+          fami<lb break="no" ed="#P" n="63"/>liarissime celebrata , et ab ejus discipulis
+          <lb ed="#P" n="64"/>ipso praesente concupita. Quae verba plane 
+          in<lb break="no" ed="#P" n="65"/>dicant Christum usu ipso e exercitio statum
+          <lb ed="#P" n="66"/>hunc cum suis in discipulis coluisse, quod non
+          <lb ed="#P" n="67"/>potuit esse nisi in aliqua particulari religione.
+          <lb ed="#P" n="68"/>Item sentit idem Bernardus, in Apolog. ad
+          <lb ed="#P" n="69"/>Guilliel. Abb., et tract. de Amore Dei, post
+          <lb ed="#P" n="70"/>me«lium ; et plures alios supra retuli. Estquc
+          <lb ed="#P" n="71"/>haec veritas per se maxime credibilis, nam
+          <lb ed="#P" n="72"/>cum vocaret Christus Apostolos, ut eis 
+          primi<lb break="no" ed="#P" n="73"/>tias spiritus communicaret, et ut semen omnis
+          <lb ed="#P" n="74"/>virtutis et perfectionis per eos in universum
+          <lb ed="#P" n="75"/>mundum spargeret, et alioquin Christus ipse
+          <lb ed="#P" n="76"/>omnes ad perfectionem vocaret, dubitari non
+          <lb ed="#P" n="77"/>potest quin suos Aposto!os primum vocaverit,
+          <lb ed="#P" n="78"/>et in eo statu, in quo omnibus exemplum ad
+          <lb ed="#P" n="79"/>perfectionem esse possint, constituerit.
+        </p>
+        <p xml:id="szovsr-p57364-d1e947">
+          <lb ed="#P" n="80"/>10. Status religiosus ad diversos fines 
+          parti<lb break="no" ed="#P" n="81"/>culares ordinari potest. — Deiude cum status
+          <lb ed="#P" n="82"/>religiosus ad diversos fines particulares 
+          ordi<lb break="no" ed="#P" n="83"/>nari possit, qui sub illis tribus 
+          comprehendun<lb break="no" ed="#P" n="84"/>tur, qui sunt aut vita contemplativa, aut 
+          acti<lb break="no" ed="#P" n="85"/>va, aut mixta, Christus specialiter vocavit
+          <lb ed="#P" n="86"/>Apostolos ad hoc tertium genus vitae in 
+          parti<lb break="no" ed="#P" n="87"/>culari, et non tantum indefinite ad 
+          perfectio<lb break="no" ed="#P" n="88"/>nem ; ergo etiam ex fine specialem 
+          religio<lb break="no" ed="#P" n="89"/>nem in eis condidit. Antecedens constat ex
+          <lb ed="#P" n="90"/>modo quo a Christo vocabantur, Matth. 4:
+          <lb ed="#P" n="91"/>Venite post me, et faciam vos fieri piscatores
+          <lb ed="#P" n="92"/>hominum. Sic etiam Luc. 9, cum vocasset
+          <lb ed="#P" n="93"/>quemdam, dicens : Sequere me, et ille 
+          petiis<lb break="no" ed="#P" n="94"/>set: Permitt2 mhi primum ire, et sepelire 
+          pa<lb break="no" ed="#P" n="95"/>lrem meum, ipse respondit : Sine mortui 
+          se<lb break="no" ed="#P" n="96"/>peliant ortuos suos, tu autem vade, et 
+          aunua<lb break="no" ed="#P" n="97"/>cia regnum Doei ; et infra subdit : Nemo
+          <lb ed="#P" n="98"/>miltens mauum ad aratrum, et respiciens 
+          ve<lb break="no" ed="#P" n="99"/>tro, aptus est regno Dei, utique, praedicando;
+          <lb ed="#P" n="100"/>et ideo aliis locis, Marc. 10, et Luc. 18, 
+          spe<lb break="no" ed="#P" n="101"/>cialiter promittit singulare praemium 
+          dimtit<lb break="no" ed="#P" n="102"/>teutibus omnia, propter mce (ait) et propter
+          <lb ed="#P" n="103"/>Frangelium, seu propter reguum Dei. Vocabat
+          <lb ed="#P" n="104"/>ergo Christus omnes quidem ad perfectionem
+          <lb ed="#P" n="105"/>et statum religiosum, aliquos vero specialiter
+          <lb ed="#P" n="106"/>ad illum statum vitae religiosae, quo ad 
+          Evan<lb break="no" ed="#P" n="107"/>gelii praedicationem homines destinarentur et
+          <lb ed="#P" n="108"/>perficerentur; et ita constat finem specialem
+          <lb ed="#P" n="109"/>Apostolicae religionis fuisse cooperari Christo
+          <lb ed="#P" n="110"/>in salute animarum. Clarum est autem cum
+          <pb ed="#P" n="234"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>illo conjunctam fuisse praecipnam partem vitae
+          <lb ed="#P" n="2"/>contemplativae, sine qua non poterat esse 
+          sta<lb break="no" ed="#P" n="3"/>tus ille undequaque perfectus, prout esse 
+          de<lb break="no" ed="#P" n="4"/>buit. Et ideo ipsi Apostoli Actor. 6, dicebant:
+          <lb ed="#P" n="5"/>Non est equum nos derelinguere verbum Dei,
+          <lb ed="#P" n="6"/>et ministrare mensis ; et infra : Nos vero 
+          ora<lb break="no" ed="#P" n="7"/>tioni et ministerii verbo instantes erimus. Ecce
+          <lb ed="#P" n="8"/>praestantissimum finem illius religionis, in
+          <lb ed="#P" n="9"/>qua ex plenitudine contemplationis ad 
+          annun<lb break="no" ed="#P" n="10"/>tiandum Evangelium Apostoli procedebant.
+          <lb ed="#P" n="11"/>Unde etiam verisimile mihi est, ita suscepisse
+          <lb ed="#P" n="12"/>Apostolos statum illum, ut non solum ex 
+          cha<lb break="no" ed="#P" n="13"/>ritate, vel obedientia Dei quasi extrinseca, sed
+          <lb ed="#P" n="14"/>intrinsece ex vi sui status obligati manserint
+          <lb ed="#P" n="15"/>ad munus illud praestandnm. Et ideo de Juda
+          <lb ed="#P" n="16"/>dicitur, Act. 1. praevaricatum esse de 
+          aposto<lb break="no" ed="#P" n="17"/>latu; praevaricari enim proprie est a fide data
+          <lb ed="#P" n="18"/>vel proprio officio deficere, etc. Sic etiam
+          <lb ed="#P" n="19"/>aiebat Paulus, 1 Cor. 9: S non evangelizavero,
+          <lb ed="#P" n="20"/>ve mihi est, necessitas enim mihi incumbit.
+          <lb ed="#P" n="21"/>Sic ergo constat religionem a Christo 
+          congre<lb break="no" ed="#P" n="22"/>gatam fuisse particularem, tum ex fine, tum
+          <lb ed="#P" n="23"/>ex modo obligationis et obedientiae sub uno
+          <lb ed="#P" n="24"/>pastore Christo, cui omnes se peculiariter 
+          di<lb break="no" ed="#P" n="25"/>cabant et tradebant ad illud munus. Non fuit
+          <lb ed="#P" n="26"/>autem necesse in illa religione aliquam 
+          spe<lb break="no" ed="#P" n="27"/>cialem regulam describi aut statui, quoad alia,
+          <lb ed="#P" n="28"/>quae sunt secundaria vel ceeremonialia in 
+          reli<lb break="no" ed="#P" n="29"/>gionibus, quia Christum habebat praesentem,
+          <lb ed="#P" n="30"/>qui erat regula viva sufficiens; post illum 
+          au<lb break="no" ed="#P" n="31"/>tem non poterant esse hujusmodi caeremoniis,
+          <lb ed="#P" n="32"/>aut speciali regulae adstricti, qui per 
+          univer<lb break="no" ed="#P" n="33"/>sum mundum spargendi eranut ; nec etiam illa
+          <lb ed="#P" n="34"/>indigebant, quia erant perfectissimi, et 
+          Spiri<lb break="no" ed="#P" n="35"/>tu Sancto potissimum regendi erant, et ex
+          <lb ed="#P" n="36"/>parte hominum vivus etium Petri influxus 
+          sa<lb break="no" ed="#P" n="37"/>tis illis futurus erat.
+        </p>
+        <p xml:id="szovsr-p57364-d1e1101">
+          <lb ed="#P" n="38"/>11. An institutio religionis fuerit a Christo
+          <lb ed="#P" n="39"/>per doctrinam tantum, vel etiam per 
+          potesta<lb break="no" ed="#P" n="40"/>ltem. — Opinio aliquorum est, statwm 
+          religio<lb break="no" ed="#P" n="41"/>sum a Christo institutum per solam doctrinam
+          <lb ed="#P" n="42"/>fuisse. — Probnatur opinio posita. — In tertia
+          <lb ed="#P" n="43"/>ratione, petitur an institutio religionis fuerit a
+          <lb ed="#P" n="44"/>Christo Domino per doctrinam tantum, vel
+          <lb ed="#P" n="45"/>etiam per potestatem. Per doctrinam tantum
+          <lb ed="#P" n="46"/>esse appello, quando per solam 
+          manifestatio<lb break="no" ed="#P" n="47"/>nem absconditae veritatis, aut per 
+          exhortatio<lb break="no" ed="#P" n="48"/>nem ad id quod ex se bonum vel melius erat,
+          <lb ed="#P" n="49"/>ob ignorantiam vero vel negligentiam 
+          omitte<lb break="no" ed="#P" n="50"/>batur, introduci incipit ; sic votum simplex
+          <lb ed="#P" n="51"/>castitatis, verbi gratia, dici potest institutum
+          <lb ed="#P" n="52"/>esse a Christo, non quia ex speciali 
+          concessio<lb break="no" ed="#P" n="53"/>ne Christi aliquid de novo acceperit, propter
+          <lb ed="#P" n="54"/>quod amplectendum sit ; sed quia specialiter
+          <lb ed="#P" n="55"/>circa perfectionem illius homines illuminavit,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et publice ad illum amplectendum omnes 
+          in<lb break="no" ed="#P" n="57"/>vitavit. Per potestatem autem institui dicitur,
+          <lb ed="#P" n="58"/>cum ex efficacitate et concessionc instituentis
+          <lb ed="#P" n="59"/>aliquid habet, quod ex se non habebat, et 
+          ra<lb break="no" ed="#P" n="60"/>tione illius incipit esse utile aut honestum. Sic
+          <lb ed="#P" n="61"/>sacramentorum usus est a Christo institutus,
+          <lb ed="#P" n="62"/>quia illis ceremonlis externis aliquid a Christo
+          <lb ed="#P" n="63"/>collatum est, sinc quo nec ex se utiles, nec
+          <lb ed="#P" n="64"/>rcligiosae essent. Quaerimus ergo quo ex his
+          <lb ed="#P" n="65"/>duobus modis status religiosus a Christo 
+          insti<lb break="no" ed="#P" n="66"/>tutus dicatur. Videtur enim sola doctrina et
+          <lb ed="#P" n="67"/>praedicatione potuisse a Christo institui, quia
+          <lb ed="#P" n="68"/>nihil est in hoc statu, quod ex se non 
+          perti<lb break="no" ed="#P" n="69"/>neat ad majorem animi perfectioném, ita ut
+          <lb ed="#P" n="70"/>licet fingamus in Christo nullam fuisse 
+          poten<lb break="no" ed="#P" n="71"/>tiam, sed solum sapientiam et doctrinam, per
+          <lb ed="#P" n="72"/>illam solam posset invitare et provocare 
+          ho<lb break="no" ed="#P" n="73"/>mines ad statum religiosum. Atque hanc 
+          par<lb break="no" ed="#P" n="74"/>tem videtur insinuasse Soto, lib. 7 de Justitia,
+          <lb ed="#P" n="75"/>q. 1, art. 1, c. 7, cum inquit 
+          abrenuntiatio<lb break="no" ed="#P" n="76"/>nem saeculi, quae per statum religiosum fit,
+          <lb ed="#P" n="77"/>non modo jure divino existere per Christum
+          <lb ed="#P" n="78"/>constituto, verum ex visceribus naturalis juris
+          <lb ed="#P" n="79"/>depromi. Unde clare sentit Christum in hoc
+          <lb ed="#P" n="80"/>nihil fecisse, sed solum naturale jus 
+          decla<lb break="no" ed="#P" n="81"/>rasse; sic enim concludit: A/gue adeo Christi
+          <lb ed="#P" n="82"/>preedicatao legis naturalis declaratio fuit. 
+          Ra<lb break="no" ed="#P" n="83"/>tiones autem ibi aliquas accumulat non 
+          admo<lb break="no" ed="#P" n="84"/>dum congruentes; ut quod Christus sua 
+          prae<lb break="no" ed="#P" n="85"/>dicatione non mutavit naturam, sed perfecit,
+          <lb ed="#P" n="86"/>et suo exemplo ac vivendi modo id servavit,
+          <lb ed="#P" n="87"/>quod est secundum naturam ; hae (inquam) 
+          ra<lb break="no" ed="#P" n="88"/>iiones non concludunt, quia Christus non 
+          con<lb break="no" ed="#P" n="89"/>tra naturam, sed supra naturam nos vivere
+          <lb ed="#P" n="90"/>docuit, atque ita ipse vixit; unde non dubito
+          <lb ed="#P" n="91"/>quin pura naturalis ratio, lumine gratiae 
+          de<lb break="no" ed="#P" n="92"/>stituta, aut vix, aut nullo modo possit tale 
+          vi<lb break="no" ed="#P" n="93"/>tae institutum assequi vel probare. Ratio ergo
+          <lb ed="#P" n="94"/>propria est, quia bona consiliorum non ideo
+          <lb ed="#P" n="95"/>talia sunt, quia Christus illa tradidit, sed 
+          po<lb break="no" ed="#P" n="96"/>tius e converso, ideo Christus illa tradidit,
+          <lb ed="#P" n="97"/>quia talia sunt, id est, optima, et aptissima
+          <lb ed="#P" n="98"/>ad perfectionem charitatis obtinendam. Unde
+          <lb ed="#P" n="99"/>quidquid sit de pura natura, tamen de natura
+          <lb ed="#P" n="100"/>illuminata per fidem, non videtur dubium
+          <lb ed="#P" n="101"/>quin potuerit consiliorum honestatem et 
+          uti<lb break="no" ed="#P" n="102"/>litatem spiritualem cognoscere ; inter haec 
+          au<lb break="no" ed="#P" n="103"/>tem consilia unum est consilium religionis;
+          <lb ed="#P" n="104"/>ergo idem de illo sentiendum est; ergo non
+          <lb ed="#P" n="105"/>fuit necessarium aliter institui a Christo, quam
+          <lb ed="#P" n="106"/>per doctrinam, et approbationem naturalis 
+          ju<lb break="no" ed="#P" n="107"/>ris. Atque hoc etiam sentiunt, qui putant 
+          sta<lb break="no" ed="#P" n="108"/>tum hunc fuisse in usu ante Christi adventum,
+          <lb ed="#P" n="109"/>licet paucioribus esset cognitum.
+        </p>
+        <p xml:id="szovsr-p57364-d1e1262">
+          <lb ed="#P" n="110"/>12. Resolutio vera est, hunc statum non so-
+          <pb ed="#P" n="235"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>lum doctrina, sed etiam potestate a Christo
+          <lb ed="#P" n="2"/>fvisse institutum. — Moc vero non obstante,
+          <lb ed="#P" n="3"/>absolute dicendum esse censeo, licet Christus
+          <lb ed="#P" n="4"/>Dominus multa de hoc statu docuerit, quae ex
+          <lb ed="#P" n="5"/>se talia sunt, nihilominus non sola doctrina,
+          <lb ed="#P" n="6"/>sed potestate aliqua, et facultate Ecclesiae suae
+          <lb ed="#P" n="7"/>concessa hunc statum instituisse. Priorem 
+          par<lb break="no" ed="#P" n="8"/>tem probat bene ratio facta, et potest etiam
+          <lb ed="#P" n="9"/>collisi ex ipsa praedicatione Christi et 
+          Aposto<lb break="no" ed="#P" n="10"/>lorum; cum enim persuadent paupertatem aut
+          <lb ed="#P" n="11"/>castitatem, rationibus naturalibus utuntur,
+          <lb ed="#P" n="12"/>quibus ostendant ad spiritualem profectum
+          <lb ed="#P" n="13"/>ilam esse utilem; et ideo aiebat Christus,
+          <lb ed="#P" n="14"/>Matt. 19: Si vis perfectus esse, cade et vende
+          <lb ed="#P" n="15"/>omnia qu«e habes, etc.Sic enim aiebat Paulus,
+          <lb ed="#P" n="16"/>1 Cor. 1: Mulier nupta cogitat quo modo p!
+          a<lb break="no" ed="#P" n="17"/>ceat viro, virgo autem cogitat que Dominà sunt.
+          <lb ed="#P" n="18"/>Posterior pars probatur primo gencrali 
+          ratio<lb break="no" ed="#P" n="19"/>ne, quia alias Christus vere ac proprie non 
+          in<lb break="no" ed="#P" n="20"/>stituisset religiosum statum, ad hoc enim non
+          <lb ed="#P" n="21"/>sufficit sola doctrina. Non enim dicetur 
+          Chri<lb break="no" ed="#P" n="22"/>stum instituisse, ut vinculum matrimonii 
+          es<lb break="no" ed="#P" n="23"/>set indissolubile, eo quod specialiter hoc 
+          prae<lb break="no" ed="#P" n="24"/>dicaverit, et fortasse mundum de hac veritate
+          <lb ed="#P" n="25"/>illuminaverit, quae Judaeis et a fortiori 
+          Genti<lb break="no" ed="#P" n="26"/>bus antea erat ignota. Nec etiam dicetur 
+          in<lb break="no" ed="#P" n="27"/>stituisse usurarum prohibitionem, quia illam
+          <lb ed="#P" n="28"/>docuit, et sic de aliis. Dicitur autem a 
+          Patri<lb break="no" ed="#P" n="29"/>bus instituisse hunc statum; ergo aliquid ei
+          <lb ed="#P" n="30"/>addidit sua potestate. Secundo. declaratur 
+          ra<lb break="no" ed="#P" n="31"/>tione ; nam, licet vota castitatis et paupertatis
+          <lb ed="#P" n="32"/>fortasse ex natura rei fieri possent, ideoque
+          <lb ed="#P" n="33"/>non indigerent nisi promulgatione, votum 
+          au<lb break="no" ed="#P" n="34"/>tem obedientiae religiosae cum traditione 
+          spe<lb break="no" ed="#P" n="35"/>ciali, quae ad religiosum statum necessaria est,
+          <lb ed="#P" n="36"/>non potest ex sola rei natura subsistere, sed
+          <lb ed="#P" n="37"/>postulat specialem Dei institutionem, et 
+          fa<lb break="no" ed="#P" n="38"/>cultatem aliquam ab ipso datam, et hanc 
+          di<lb break="no" ed="#P" n="39"/>cimus dedisse Christum. Probatur assumptum,
+          <lb ed="#P" n="40"/>quia, ut supra visum est, hic status non solum
+          <lb ed="#P" n="41"/>promissionem, sed etiam traditionem requirit,
+          <lb ed="#P" n="42"/>quae fiat homini, ut vicem Dei tenenti, et 
+          ac<lb break="no" ed="#P" n="43"/>ceptanti traditionem nomine Dei; hoc autem
+          <lb ed="#P" n="44"/>ieri non potest ex sola rei natura, sed oportet
+          <lb ed="#P" n="45"/>ut Deus ostenderit se velle hunc modum 
+          con<lb break="no" ed="#P" n="46"/>tractus inire cum homine, et quod alicui 
+          de<lb break="no" ed="#P" n="47"/>derit facultatem, ut suo nomine illum 
+          perfi<lb break="no" ed="#P" n="48"/>cere valeat.
+        </p>
+        <p xml:id="szovsr-p57364-d1e1375">
+          <lb ed="#P" n="49"/>13. Quod autem Christus Dominus hoc 
+          fe<lb break="no" ed="#P" n="50"/>cerit, primo colligitur ex verbis quibus ad
+          <lb ed="#P" n="51"/>hunc statum homines vocavit: Seguere me, et:
+          <lb ed="#P" n="52"/>Abneget semetipsum, et sequatur me. Nam per
+          <lb ed="#P" n="53"/>haec vocabat homines, ut sese omnino illi 
+          tra<lb break="no" ed="#P" n="54"/>derent in perpetuum obsequium et servitutem,
+          <lb ed="#P" n="55"/>seipsis (ut sic dicam) et suo dominio se spo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>liantes, et in illum transferentes. Quia vero
+          <lb ed="#P" n="57"/>non solum praesentes vocabat, sed omnes, ideo,
+          <lb ed="#P" n="58"/>cum ait, Seguatur me, non de se tantum in
+          <lb ed="#P" n="59"/>propria persona loquitur, sed etiam de illis
+          <lb ed="#P" n="60"/>qui ilam in terris seraper repraesentaturi
+          <lb ed="#P" n="61"/>erant, per potestatem ab ipso datam ; ergo per
+          <lb ed="#P" n="62"/>haec et similia verba significavit Christus, et
+          <lb ed="#P" n="63"/>se cupere ab hominibus hoc genus traditionis,
+          <lb ed="#P" n="64"/>et semper fore paratum ad acceptandum 
+          il<lb break="no" ed="#P" n="65"/>lam per se, vel ministros suos. Tertio denique
+          <lb ed="#P" n="66"/>ob hanc causam, ut statim ostendam, quod in
+          <lb ed="#P" n="67"/>Apostolis incepit, in caeteris imitatoribus 
+          per<lb break="no" ed="#P" n="68"/>petua traditione servatum est; et ob eamdem
+          <lb ed="#P" n="69"/>rationem ad Ecclesiae pastores semper 
+          perti<lb break="no" ed="#P" n="70"/>nuit, religiosam traditionem acceptare vel 
+          re<lb break="no" ed="#P" n="71"/>pellere, quod profecto in sola rerum natura
+          <lb ed="#P" n="72"/>fundari non potest. Confirmatur ac declaratur,
+          <lb ed="#P" n="73"/>nam per religionis professionem fit quaedam
+          <lb ed="#P" n="74"/>spiritualis desponsatio inter Deum et 
+          homi<lb break="no" ed="#P" n="75"/>nem, ut Sancti loquuntur ; ergo ad illam 
+          ne<lb break="no" ed="#P" n="76"/>cessarius est utriusque partis consensus; ergo
+          <lb ed="#P" n="77"/>necesse est ut ex parte Dei illum praebeat 
+          ah<lb break="no" ed="#P" n="78"/>quis, qui ab eo potestatem habeat.
+        </p>
+        <p xml:id="szovsr-p57364-d1e1445">
+          <lb ed="#P" n="79"/>14. Instantia allata solvitur. — Dices:
+          <lb ed="#P" n="80"/>etiam voti simphrcis obligatio requirit 
+          accepta<lb break="no" ed="#P" n="81"/>tionem Dei, quia nulla promissio obligat, nisi
+          <lb ed="#P" n="82"/>acceptata, et tamen non oportet ut Deus alicui
+          <lb ed="#P" n="83"/>contulerit potestatem acceptandi 
+          promsssio<lb break="no" ed="#P" n="84"/>nem sibi factam nom:ine suo, sed ex eo ipso
+          <lb ed="#P" n="85"/>quod ex se honesta est, intelligitur illi grata
+          <lb ed="#P" n="86"/>et accepta; ergo idem dici poterit de 
+          traditio<lb break="no" ed="#P" n="87"/>ne religionis. Respondeo non esse similem 
+          ra<lb break="no" ed="#P" n="88"/>tionem, nam per votum simplex, seu privatum
+          <lb ed="#P" n="89"/>et purum, fit obligatio Deo ipsi immediate, et
+          <lb ed="#P" n="90"/>(ut ita dicam) in seipso, quare per se sol'um
+          <lb ed="#P" n="91"/>intercedit inter Deum et hominem; ideoque
+          <lb ed="#P" n="92"/>non requiritur alius modus acceptationis quam
+          <lb ed="#P" n="93"/>generalis, quo Deus jam declaravit vota sancta
+          <lb ed="#P" n="94"/>sihi esse accepia, et sub obligatione implendi,
+          <lb ed="#P" n="95"/>sive hoc constiterit per Scripturam, seu 
+          divi<lb break="no" ed="#P" n="96"/>nam revelationem, quod est certum, sive etiam
+          <lb ed="#P" n="97"/>constare sufficienter potuerit per solam 
+          ratio<lb break="no" ed="#P" n="98"/>nem naturalem, quod est probabile. At vero
+          <lb ed="#P" n="99"/>in religiosa professione obligatur et traditur
+          <lb ed="#P" n="100"/>homo Deo, non immediate in seipso, sed 
+          me<lb break="no" ed="#P" n="101"/>dio aliquo homine per externam traditionem,
+          <lb ed="#P" n="102"/>et donationem irrevocabilem, quam oportet
+          <lb ed="#P" n="103"/>exterius etiam acceptari per Ecclesiam, ut
+          <lb ed="#P" n="104"/>D. Thomas dixit, q. 184, art. 4; hic status est
+          <lb ed="#P" n="105"/>publicus, et in foro Ecclesiae. Ob hanc ergo
+          <lb ed="#P" n="106"/>causam necessarium fuit publice acceptari per
+          <lb ed="#P" n="107"/>specialem potestatem a Christo datam. 
+          Quan<lb break="no" ed="#P" n="108"/>tum ad hoc igitur institutus est hic status a
+          <lb ed="#P" n="109"/>Christo Domino, non per solam doctrinam,
+          <lb ed="#P" n="110"/>sed per institutionem specialem, et collatio-
+          <pb ed="#P" n="236"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nem dictae potestatis, quam Petro dedisse 
+          cre<lb break="no" ed="#P" n="2"/>dendum est. Et per illam communicari aliis,
+          <lb ed="#P" n="3"/>quia ad pastoralem potestatem pertinet, et ad
+          <lb ed="#P" n="4"/>cum, quai Vicarius Christi est, et dispensator
+          <lb ed="#P" n="5"/>bonorum ejus; atque adeo ad potestatem 
+          li<lb break="no" ed="#P" n="6"/>gandi et solvendi optime revocari potest.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

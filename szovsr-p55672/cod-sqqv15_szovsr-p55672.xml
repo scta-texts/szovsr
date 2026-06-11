@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="223"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p55672"><!-- t7l3prae -->
+        <head xml:id="szovsr-p55672-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-p55672-d1e103">
+          <lb ed="#P" n="14"/>LIBER TERTIUS
+          <lb ed="#P" n="15"/>DE ALCTURE
+          <lb ed="#P" n="16"/>SEU CAUSA EFFICIENTE RELIGIOSI STATUS,
+          <lb ed="#P" n="17"/>AC PRUESERTIM DE EJUS ORIGINE ET ANTIQUITATE.
+        </p>
+        <p xml:id="szovsr-p55672-d1e114">
+          <lb ed="#P" n="18"/>Explicata natura status religiosi, 
+          prius<lb break="no" ed="#P" n="19"/>quam de singulis ejus obligationibus ac votis
+          <lb ed="#P" n="20"/>disseramus, dicendum est de primaria causa
+          <lb ed="#P" n="21"/>et origine ejus, et quid in hoc statu in tota
+          <lb ed="#P" n="22"/>antiquitate observatum est; multum enim hoc
+          <lb ed="#P" n="23"/>confert, ut ea, qua de natura hujus status
+          <lb ed="#P" n="24"/>diximus, amplius declarentur et 
+          confirmen<lb break="no" ed="#P" n="25"/>tur, et ob hanc rationem ab efficiente causa
+          <lb ed="#P" n="26"/>initium sumimus, licet extrinseca videatur. Et
+          <lb ed="#P" n="27"/>praeterea , quia de causa finali hujus status
+          <lb ed="#P" n="28"/>satis in duobus libris pracedentibus dictum
+          <lb ed="#P" n="29"/>est, ubi ostendimus perfectionem christianam,
+          <lb ed="#P" n="30"/>ut acquirendam , esse hujus status finem, 
+          ea<lb break="no" ed="#P" n="31"/>que occasione, quid haec perfectio sit 
+          ostendi<lb break="no" ed="#P" n="32"/>mus ; infra etiam tractando de ingressu 
+          reli<lb break="no" ed="#P" n="33"/>gionis, quo fine status hic assumendus sit, os-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="34"/>tendemus, et de varietate religionum , et im
+          <lb ed="#P" n="35"/>specie de Societate disputando, finem hunc
+          <lb ed="#P" n="36"/>amplius explicabimus; quamobrem de hac
+          <lb ed="#P" n="37"/>causa, licet praecipua sit, hic plura dicere
+          <lb ed="#P" n="38"/>non est necesse. Materialis autem causa hujus
+          <lb ed="#P" n="39"/>status non sunt nisi homines ipsi, qui statum
+          <lb ed="#P" n="40"/>hunc possunt assumere, de quibus tractantes
+          <lb ed="#P" n="41"/>de ingressu et de professione melius dicemus.
+          <lb ed="#P" n="42"/>Tandem formalis causa non est alia quam ipsa
+          <lb ed="#P" n="43"/>professio, et vota quibus homo religiosus 
+          effi<lb break="no" ed="#P" n="44"/>citur, ut jura dicunt, et ideo inferius 
+          expli<lb break="no" ed="#P" n="45"/>canda est. Circa causam autem efficientem
+          <lb ed="#P" n="46"/>advertendum est, aliud esse loqui de statu
+          <lb ed="#P" n="47"/>religionis secundum se, aliud de applicatione
+          <lb ed="#P" n="48"/>ejus (ut sic dicam) ad talem personam; 
+          po<lb break="no" ed="#P" n="49"/>test enim status religiosus institui, etiamsi
+          <pb ed="#P" n="224"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nullus religiosus efficiatnr, sicut insitutus est
+          <lb ed="#P" n="2"/>status matrimonii antequam contraheretur, et
+          <lb ed="#P" n="3"/>sacramentum instituitur ante usum ejus; 
+          in<lb break="no" ed="#P" n="4"/>stitutio enim solum dicit aptitudinem ut in tali
+          <lb ed="#P" n="5"/>vivendi modo possit verus religiosus fieri, qui
+          <lb ed="#P" n="6"/>voluerit; applicatio autem illius vocatur,
+          <lb ed="#P" n="7"/>quando in exercitio aliquis talem statum 
+          as<lb break="no" ed="#P" n="8"/>sumit. Hic ergo non agimus de causa 
+          efficien<lb break="no" ed="#P" n="9"/>te hujus status, quatenus applicatur ad 
+          sin<lb break="no" ed="#P" n="10"/>gulas personas , nam hoc pertinct ad librum
+          <lb ed="#P" n="11"/>de professione religiouis, ex quo constabit
+          <lb ed="#P" n="12"/>non esse ibi alias causas quaerendas, praeter
+          <lb ed="#P" n="13"/>ipsos qui sua voluntate et consensu talem
+          <lb ed="#P" n="14"/>statum assumunt , et eum qui potest et vult
+          <lb ed="#P" n="15"/>oblationem acceptare ; est enim ille quidam
+          <lb ed="#P" n="16"/>contractus, qui mutuo consensu 
+          contrahen<lb break="no" ed="#P" n="17"/>tium perficitur , ut dicemus. Agimus ergo de
+          <lb ed="#P" n="18"/>causa instituente hunc statum, quam 
+          inquiri<lb break="no" ed="#P" n="19"/>mus nunc solum in generali; inde enim facile
+          <lb ed="#P" n="20"/>constabit quid de singulis religionibus 
+          dicen<lb break="no" ed="#P" n="21"/>dum sit, supposita earum varietate, quae 
+          post<lb break="no" ed="#P" n="22"/>ea etiam explicanda est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

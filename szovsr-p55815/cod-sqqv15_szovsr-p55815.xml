@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="224"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p55815"><!-- t7l3c1 -->
+        <head xml:id="szovsr-p55815-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-p55815-Hd1e103" type="question-title">Utrum religiosus status sit proprius legis gratiae vel etiam ante illam fuerit.</head>
+        <p xml:id="szovsr-p55815-d1e106">
+          <lb ed="#P" n="23"/>CAPUT I.
+          <lb ed="#P" n="24"/>UTRUM RELIGIOSUS STATUS SIT PROPRIUS LEGIS
+          <lb ed="#P" n="25"/>GRATIAE VEL ETIAM ANTE ILLAM FUERIT.
+        </p>
+        <p xml:id="szovsr-p55815-d1e115">
+          <lb ed="#P" n="26"/>l. Status religiosus antiquior est statu 
+          le<lb break="no" ed="#P" n="27"/>gis gratie. — Multorum sententia est statum
+          <lb ed="#P" n="28"/>religiosorum antiquiorem esse statu legis 
+          gra<lb break="no" ed="#P" n="29"/>tiae, coepisseque vel a tempore legis naturae
+          <lb ed="#P" n="30"/>in Enos, de quo dicitur, Genes. 4, coepisse 
+          in<lb break="no" ed="#P" n="31"/>vocare nomen Domini, aliquo, scilicet, 
+          specia<lb break="no" ed="#P" n="32"/>lis religionis cultu, nam communisa principio
+          <lb ed="#P" n="33"/>in primis parentibus, Abel, et aliis fidelibus
+          <lb ed="#P" n="34"/>fuit; vel saltem in tempore legis veteris, vel
+          <lb ed="#P" n="35"/>in Nazarais, de quorum votis , Numer. 6,
+          <lb ed="#P" n="36"/>mentio fit, vel praecipue in Elia et Eliseo, ac
+          <lb ed="#P" n="37"/>filiis Prophetarum, qui in collegiis 
+          habita<lb break="no" ed="#P" n="38"/>bant; eorum vero auctorem et fundatorem
+          <lb ed="#P" n="39"/>Hebraei Samuelem faciunt, ut docet Geneb.,
+          <lb ed="#P" n="40"/>in Chrono. ; et Comestor, in Histor., lib. 1
+          <lb ed="#P" n="41"/>Reg., cap. 10. Nota, inquit Comest., quod
+          <lb ed="#P" n="42"/>Samwuel primo instituit conentus religiosorum
+          <lb ed="#P" n="43"/>jugiter psallentium Domino. Idem confirmatur
+          <lb ed="#P" n="44"/>ex D. Hieronymo, epist. 4 ad hustic. : Fla
+          <lb ed="#P" n="45"/>Prophetarum, quos monachos in veteri 
+          Testa<lb break="no" ed="#P" n="46"/>mento legimus , eedificabant sibi casulas prope
+          <lb ed="#P" n="47"/>fluenta Jordanis, etc. , et turbis urbium 
+          dere<lb break="no" ed="#P" n="48"/>lictis, polenta, et herbis agrestibus victitabant ;
+          <lb ed="#P" n="49"/>et epistol. 13 ad Paulin. : Nos autem habeamus
+          <lb ed="#P" n="50"/>propositi nostri (1d est, monachatus) principes
+          <lb ed="#P" n="51"/>Paulos, Antonios, Hilariones, Macharios; et
+          <lb ed="#P" n="52"/>ut ad Scripturarum auctoritatem redeum , noster
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>princeps Elias, noster E liseus, nostri filii 
+          Pro<lb break="no" ed="#P" n="54"/>phetarum, etc. Deinde Joannem Baptistam ante
+          <lb ed="#P" n="55"/>tempus legis gratiae statum hunc professum
+          <lb ed="#P" n="56"/>fuisse, illumque vel instituisse, vel instaurasse,
+          <lb ed="#P" n="57"/>significat Chrysostomus, hom. 1 in Marcum,
+          <lb ed="#P" n="58"/>dicens : Sicut sacerdotum principes sunt 
+          Apos<lb break="no" ed="#P" n="59"/>tuli, sic monachorum princeps Joannes Baptista.
+          <lb ed="#P" n="60"/>est. Et Hieronymus, epistol. 22 ad Eustoch., de
+          <lb ed="#P" n="61"/>Custod. Virgin.: Hujus cite (scilicet 
+          anacho<lb break="no" ed="#P" n="62"/>ritarum) auctor Paulus, illustrator Antonius,
+          <lb ed="#P" n="63"/>et ut ad superiora conscendam, princeps Joannes
+          <lb ed="#P" n="64"/>DBaptista est. In Vita denique Pauli primi 
+          Ere<lb break="no" ed="#P" n="65"/>mitae, idem fere repetit. Hinc etiam scripsit
+          <lb ed="#P" n="66"/>Bernar. , epist. ad Fratr. de Monte Dei, prope
+          <lb ed="#P" n="67"/>initium: Sed hec novitas (loquitur de illorum
+          <lb ed="#P" n="68"/>instituto non est novella vanitas, res enim est
+          <lb ed="#P" n="69"/>antique religionis perfecte fundatee in Christo,
+          <lb ed="#P" n="70"/>pietatis, antiqua hareditas Ecclesie Dei a
+          <lb ed="#P" n="71"/>tempore Prophetarum demonstrata, jamque 
+          no<lb break="no" ed="#P" n="72"/>vc gratig sole creata, iun Joanne Baptista 
+          ins<lb break="no" ed="#P" n="73"/>taurata et innovata, ab ipso Domino 
+          fumilia<lb break="no" ed="#P" n="74"/>rissime celebrata, et ab ejus discipulis ipso
+          <lb ed="#P" n="75"/>presente concupita. Ad eumdem modum de
+          <lb ed="#P" n="76"/>hujus status origine sensit Macar., serm. ad
+          <lb ed="#P" n="77"/>Monachos, ubi Eliae in veteri lege, Joanni 
+          Ba<lb break="no" ed="#P" n="78"/>pstae in lege gratiae, tribuit initium hujus
+          <lb ed="#P" n="79"/>status. Item Cassianus, lib. 1 de Instit. coenob.,
+          <lb ed="#P" n="80"/>c. 2, de Elia et Eliseo ait: Qau in veteri 
+          Testa<lb break="no" ed="#P" n="81"/>mento proyessionis hujus fundavere primordia.
+          <lb ed="#P" n="82"/>Principes vero auctoresque Testamenti novi
+          <lb ed="#P" n="83"/>Joannem Baptistam nominat, Petrum, et 
+          Pau<lb break="no" ed="#P" n="84"/>lum. Idem sentit Isidor., libr. 2 de Officiis,
+          <lb ed="#P" n="85"/>cap. 9; Dorotheus, in synopsi Prophetarum .
+        </p>
+        <p xml:id="szovsr-p55815-d1e250">
+          <lb ed="#P" n="86"/>2. Verisimile videtur ante legem gratie 
+          fuis<lb break="no" ed="#P" n="87"/>se in usu tria vota substantialia religionis. —
+          <lb ed="#P" n="88"/>Praeterea ante legem novam in usu fuisse tria
+          <lb ed="#P" n="89"/>illa vota, in quibus substantia religiosi status
+          <lb ed="#P" n="90"/>consistit, verisimile videtur. Nam etsi ante
+          <lb ed="#P" n="91"/>legem scrijtam nihil certi de hac re affirmare
+          <lb ed="#P" n="92"/>possimus, considerata ratione naturali, 
+          intel<lb break="no" ed="#P" n="93"/>ligi potest illum modum vivendi, et Deo 
+          ser<lb break="no" ed="#P" n="94"/>viendi, tunc non defuisse, quia imprimis ritus
+          <lb ed="#P" n="95"/>vivendi, seu consecrandi aliquid per votum
+          <lb ed="#P" n="96"/>Deo, de jure naturae est, maxime supposita 
+          fi<lb break="no" ed="#P" n="97"/>dei illustratione, ut supra tractatum cst. 
+          De<lb break="no" ed="#P" n="98"/>inde eodem jure, seu ratione naturali , 
+          mani<lb break="no" ed="#P" n="99"/>festum est esse optimum viam perfectionis
+          <lb ed="#P" n="100"/>sequi, eamque per mundi abnegationem 
+          com<lb break="no" ed="#P" n="101"/>parari ; cur ergo valde credibile non est, in 
+          le<lb break="no" ed="#P" n="102"/>ge naturae fuisse plures sanctos viros, qui hanc
+          <lb ed="#P" n="103"/>viam secuti sunt ? Etenim si inter Gentiles
+          <pb ed="#P" n="225"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>multi castitatem perpetuam servabant , cur
+          <lb ed="#P" n="2"/>multi fideles non eam Deo devovissent? De
+          <lb ed="#P" n="3"/>Crate illo Thebano Hieronymus refert, cpist.
+          <lb ed="#P" n="4"/>13. propter amorem sapientiae ingentem auri
+          <lb ed="#P" n="5"/>thesaurum reliquisse; cur ergo propter 
+          coe<lb break="no" ed="#P" n="6"/>lestem contemplationem non multi sancti 
+          ter<lb break="no" ed="#P" n="7"/>rena omnia illis etiam priscis temporibus 
+          de<lb break="no" ed="#P" n="8"/>spexisse credendum est?
+        </p>
+        <p xml:id="szovsr-p55815-d1e314">
+          <lb ed="#P" n="9"/>3. Probatur in lege scripta fuisse castitatis
+          <lb ed="#P" n="10"/>volum. — Jam vero de tempore legis scriptae
+          <lb ed="#P" n="11"/>habemus, ad id asserendum, magnum in 
+          Scri<lb break="no" ed="#P" n="12"/>pturis fundamentum, nam per Isaiam 56, 
+          Do<lb break="no" ed="#P" n="13"/>minus eunuchos consolatur , eisque promittit
+          <lb ed="#P" n="14"/>nomen sempyternum, quod non peribit. Eunuchi
+          <lb ed="#P" n="15"/>autem ibi non corporaliter, sed spiritualiter
+          <lb ed="#P" n="16"/>intelligendi sunt, de quibus Matt. 19 dicitur:
+          <lb ed="#P" n="17"/>Bunuchi sunt qui se castraverunt propter 
+          re<lb break="no" ed="#P" n="18"/>gnum coloru ; castraverunt ( inquam) se per
+          <lb ed="#P" n="19"/>castitatis votum, ut supra cum Patribus 
+          expo<lb break="no" ed="#P" n="20"/>suimus, et ita locum etiam illum Isaiae 
+          anti<lb break="no" ed="#P" n="21"/>qui Patres intellexerunt, ut fuse Bellar , 1. 2
+          <lb ed="#P" n="22"/>de Monach., cap. 9, cui etiam consonat illud
+          <lb ed="#P" n="23"/>Saplent. 3: Feliz spado , qui non operatus est
+          <lb ed="#P" n="24"/>per manus suas iniqutatem, nec cogitavit 
+          con<lb break="no" ed="#P" n="25"/>ra Dewn negquissima , dabitur enim illi fidei
+          <lb ed="#P" n="26"/>douum, electum , et sors in templo Dei 
+          accepta<lb break="no" ed="#P" n="27"/>Lissima. Ác propterea Damas., lib. 4, cap. 25,
+          <lb ed="#P" n="28"/>virginitatem a multis antiquis Patribus 
+          serva<lb break="no" ed="#P" n="29"/>tam esse dicit.
+        </p>
+        <p xml:id="szovsr-p55815-d1e362">
+          <lb ed="#P" n="30"/>4. Probatur fuisse votun obedientiee et 
+          pau<lb break="no" ed="#P" n="31"/>pertatis. — De voto etiam obedientiae in usu
+          <lb ed="#P" n="32"/>fuisse inter Essencs indicat Josephus, lib. 2
+          <lb ed="#P" n="33"/>de Bello Judaico, cap. 7, et cum constet eos
+          <lb ed="#P" n="34"/>et filios Prophetarum communem vivendi 
+          ra<lb break="no" ed="#P" n="35"/>tionem tenuisse in uno corpore seu 
+          congre<lb break="no" ed="#P" n="36"/>gatione , per se statim fit credibile, 
+          obedien<lb break="no" ed="#P" n="37"/>tiam fuisse professos, quia aliter non ordinate
+          <lb ed="#P" n="38"/>nec politice vivere potuissent. Denique de
+          <lb ed="#P" n="39"/>paupertate , quod multi etiam veteres Patres
+          <lb ed="#P" n="40"/>eam coluerint, praesertim Elias, Eliseus, et qui
+          <lb ed="#P" n="41"/>eos imitati sunt, sancti citati seepe significant,
+          <lb ed="#P" n="42"/>et ad eos alludere videtur Paulus, cum ad
+          <lb ed="#P" n="43"/>Hebr. 11 dicit : Circumierunt in melotis, in
+          <lb ed="#P" n="44"/>pellibus caprinis egentes, angustiati , afflicti,
+          <lb ed="#P" n="45"/>quibus dignus non erat mundus, in 
+          solitudini<lb break="no" ed="#P" n="46"/>bus errantes , in montibus et speluncis, et in
+          <lb ed="#P" n="47"/>cacernis terre ; ubi D. Thomas notat his 
+          ver<lb break="no" ed="#P" n="48"/>bis describi a Paulo mala voluntarie assumpta
+          <lb ed="#P" n="49"/>ab antiquis Patribus ex fide, unde in illo 
+          ver<lb break="no" ed="#P" n="50"/>bo egentes, intelligit indicari paupertatem 
+          vo<lb break="no" ed="#P" n="51"/>luntarie assumptam, in quo prefigurabant,
+          <lb ed="#P" n="52"/>ait, statum perfectionis novi Testamenti, quod
+          <lb ed="#P" n="53"/>etiam dicit generaliier notari in Elia, qui
+          <lb ed="#P" n="54"/>pastus fuit a corvo, et a muliere vidua, etc.
+          <lb ed="#P" n="55"/>Fuit ergo ante legem Evangelicam vera pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>fessio omnium ad statum religiosum
+          <lb ed="#P" n="57"/>sunt necessaria ; ergo et ipse status.
+        </p>
+        <p xml:id="szovsr-p55815-d1e427">
+          <lb ed="#P" n="58"/>5. Vera sententin asserit statum religiosum
+          <lb ed="#P" n="59"/>simpliciter , et prout includit omnia, quee de
+          <lb ed="#P" n="60"/>illius substantia sunt, esse proprium legis 
+          gra<lb break="no" ed="#P" n="61"/>tie, anten vero fuisse adumbratum et 
+          inchoa<lb break="no" ed="#P" n="62"/>tum, non vero perfecium. — Nihilominus 
+          exis<lb break="no" ed="#P" n="63"/>timo perfectionis ac religionis statum absolute
+          <lb ed="#P" n="64"/>et simpliciter, ac prout includit omnia quae de
+          <lb ed="#P" n="65"/>illius substantiali perfectione sunt, esse 
+          pro<lb break="no" ed="#P" n="66"/>prium legis gratiae, anteaque fuisse 
+          adumbra<lb break="no" ed="#P" n="67"/>tum, et ex parte inchoatum, non vero 
+          perfec<lb break="no" ed="#P" n="68"/>tum. Hanc sententiam significasse mihi 
+          vi<lb break="no" ed="#P" n="69"/>dentur D. Bernardus et D. Thomas locis 
+          cita<lb break="no" ed="#P" n="70"/>tis; ille enim dicit a tempore Prophetarum
+          <lb ed="#P" n="71"/>fuisse hanc vitam praemonstratam , in Joanne
+          <lb ed="#P" n="72"/>Baptista innovatam, ab ipso vero Domino 
+          fa<lb break="no" ed="#P" n="73"/>miliarissime celebratam ; significans 
+          perfec<lb break="no" ed="#P" n="74"/>tionem ipsam ab illis quidem antiquis 
+          Patri<lb break="no" ed="#P" n="75"/>bus fuisse exercitam, etiam quoad opera 
+          con<lb break="no" ed="#P" n="76"/>siliorum, statum vero ipsum a Christo 
+          Domi<lb break="no" ed="#P" n="77"/>no fuisse profectum. Clarius vero D. Thomas,
+          <lb ed="#P" n="78"/>ad Hebr. 11, lec. S, exponens verba illa, 
+          egen<lb break="no" ed="#P" n="79"/>tes, angustiuti, afflicti , dicit in priorl verbo
+          <lb ed="#P" n="80"/>significari statum voluntariae paupertatis 
+          ali<lb break="no" ed="#P" n="81"/>quorum veterum Prophetarum, in quo, iuquit,
+          <lb ed="#P" n="82"/>prefigurabant statum perfectionis novi 
+          Testa<lb break="no" ed="#P" n="83"/>menti. De quo Matth. 19: Si vis perfectus 
+          es<lb break="no" ed="#P" n="84"/>se, cade , et vende omnia que habes. Sentit 
+          er<lb break="no" ed="#P" n="85"/>go D. Thomas hunc statum esse proprium 
+          no<lb break="no" ed="#P" n="86"/>vi Testamenti, olim vero solum fuisse 
+          adum<lb break="no" ed="#P" n="87"/>bratum. Unde D. Hieronymus , epist. 22 de
+          <lb ed="#P" n="88"/>Custod. Virg., ad Eustoch. : Alia, inquit, fuit
+          <lb ed="#P" n="89"/>in ceteri lege felicitas ; iba dicitur - Beatus qui
+          <lb ed="#P" n="90"/>habet semen in Sion, et domesticos in 
+          Jerusa<lb break="no" ed="#P" n="91"/>lem, etc.; et infra: Paulatim vero increscente
+          <lb ed="#P" n="92"/>segete, messor immissus est, virgo Hlias, 
+          El<lb break="no" ed="#P" n="93"/>seus virgo, virgines multi filii Prophetarum,
+          <lb ed="#P" n="94"/>etc.; et infra: Invenielur ergo in viris tantum
+          <lb ed="#P" n="95"/>hoc continentie donum, et in doloribus jugiter
+          <lb ed="#P" n="96"/>Hva parturiebat. Postquam vero virgo concepit
+          <lb ed="#P" n="97"/>in utero, et peperit nolis puerum, soluta 
+          male<lb break="no" ed="#P" n="98"/>diclio est, ideoque et ditius virginitatis donum
+          <lb ed="#P" n="99"/>fluait in feminas, quia capit a femina. Statim
+          <lb ed="#P" n="100"/>ut filius Dei ingressus est super terram, novam
+          <lb ed="#P" n="101"/>sibi funiliam instituit , ut qui ab Angelis 
+          ado<lb break="no" ed="#P" n="102"/>rabatur in celis, haberet Angelos et in terris.
+          <lb ed="#P" n="103"/>Et infra, quod ad rem maxime spectabat :
+          <lb ed="#P" n="104"/>Tunc primun auditum est: Qui vwlt venire
+          <lb ed="#P" n="105"/>post me, abneget semetipsum, et tollat crucem
+          <lb ed="#P" n="106"/>suam, et sequatür me ; quae verba de vocatione
+          <lb ed="#P" n="107"/>ad statum religiosum Patres intelligunt, 
+          prae<lb break="no" ed="#P" n="108"/>sertim Basilius, in reg. 6, ex fusius 
+          disputa<lb break="no" ed="#P" n="109"/>tis. Ex dictia ergo colligitur religiosum 
+          sta<lb break="no" ed="#P" n="110"/>tum, etsi ante Christum fuerit a Patribus an-
+          <pb ed="#P" n="226"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tiquis et Prophetis adumbratum, et ex parte
+          <lb ed="#P" n="2"/>inchaotum , illius tamen perfectionem , seu
+          <lb ed="#P" n="3"/>perfectam institutionem , esse propriam legis
+          <lb ed="#P" n="4"/>gratiae Quod late etiam ostendunt 
+          Hierony<lb break="no" ed="#P" n="5"/>mu: Plaius, lib. 2 de Bono stat. relig., c. 19
+          <lb ed="#P" n="6"/>et 20; Bellarminus, l. 2 de Monach., cap. 5;
+          <lb ed="#P" n="7"/>Matth. Galenius, de Orig. Monast. ; Henriq.,
+          <lb ed="#P" n="8"/>tom. 2, lib 12, capit. 5; Basil. Ponce, q. 3
+          <lb ed="#P" n="9"/>Scholast., capite secundo.
+        </p>
+        <p xml:id="szovsr-p55815-d1e568">
+          <lb ed="#P" n="10"/>6. Declaratur autem assertio primo generali
+          <lb ed="#P" n="11"/>ratione, quia tanta perfectio, quanta secum 
+          af<lb break="no" ed="#P" n="12"/>fert religiosus status, debuit in tempus gratiae
+          <lb ed="#P" n="13"/>reservari. Primo, quia nihil ad perfectum 
+          ad<lb break="no" ed="#P" n="14"/>duat ler, ut Paulus ait, ad Hebr. ; ideo ad
+          <lb ed="#P" n="15"/>Galat. 4, tempus legis veteris appellat tempus
+          <lb ed="#P" n="16"/>infantiae, seu pueritiae, dicens: 7ta et nos cum
+          <lb ed="#P" n="17"/>essemus parvuli, sub elementis mundi hujus
+          <lb ed="#P" n="18"/>eramus servientes, etc. Secundo, quia decebat
+          <lb ed="#P" n="19"/>nt, sicut Christus de caelo venieus pro 
+          univer<lb break="no" ed="#P" n="20"/>so mundo, novam legem et abundantiae 
+          gra<lb break="no" ed="#P" n="21"/>tiam attulit, ita etiam intra suam Ecclesiam
+          <lb ed="#P" n="22"/>novam vivendi rationem excellentiori modo
+          <lb ed="#P" n="23"/>ad perfectionem tendentem institueret ac 
+          de<lb break="no" ed="#P" n="24"/>monstraret. Tertio, quia status perfectionis
+          <lb ed="#P" n="25"/>maxime consistit in sequendo et imitando
+          <lb ed="#P" n="26"/>Christum, propter quod ubicumque ad hunc
+          <lb ed="#P" n="27"/>statum vocat, addit illam vocem. et seguatur
+          <lb ed="#P" n="28"/>me ; ubi Hierony mus: Quod proprium (mquit)
+          <lb ed="#P" n="29"/>Apostoloruns est, atque credentium ; et de l'etro
+          <lb ed="#P" n="30"/>dicente: Zcce nos reliquimus omnia, inquit,
+          <lb ed="#P" n="31"/>jungit qued perfectum est, scilicet, et secuti
+          <lb ed="#P" n="32"/>sunus te; ergo expediebat ut dux hujus viae
+          <lb ed="#P" n="33"/>et status esset ipsum Dei Verbum jam 
+          incar<lb break="no" ed="#P" n="34"/>natum. Nam, licet etiam veteres per fidem in
+          <lb ed="#P" n="35"/>eum aspicerent, et ita eum imitari potuerint,
+          <lb ed="#P" n="36"/>juxta illud quod de Moyse scribit Paulus, ad
+          <lb ed="#P" n="37"/>Hebr. 11: Majoras divitias estimans thesauro
+          <lb ed="#P" n="38"/>gyptiorum improperium Christi , 
+          nihilomi<lb break="no" ed="#P" n="39"/>nus non habebant tam expressam cognitionem
+          <lb ed="#P" n="40"/>vitae, et morum futurorum in Christo, nec 
+          ex<lb break="no" ed="#P" n="41"/>perimentalem earum rerum cognitionem. Et
+          <lb ed="#P" n="42"/>praeterea, licet cognitio illa in uno vel altero
+          <lb ed="#P" n="43"/>tuerit sufliciens, et ideo ipsa imitatio et 
+          per<lb break="no" ed="#P" n="44"/>fectio etiam in aliquibus esse potuerit, 
+          ta<lb break="no" ed="#P" n="45"/>men communiter ac regulariter non erat 
+          ge<lb break="no" ed="#P" n="46"/>neralis illa tam distincta cognitio, et ideo
+          <lb ed="#P" n="47"/>nec perfectio ipsa quoad statum publicum,
+          <lb ed="#P" n="48"/>ei omnibus propositum , potuit aut debuit
+          <lb ed="#P" n="49"/>esse illo tempore in eo gradu et modo quo
+          <lb ed="#P" n="50"/>nunc est.
+        </p>
+        <p xml:id="szovsr-p55815-d1e659">
+          <lb ed="#P" n="51"/>7. Secunda pars vere sententie propositee
+          <lb ed="#P" n="52"/>ostenditur , et satisfit argwmnentis contrarig
+          <lb ed="#P" n="53"/>opinionis. — Haplicatur locus Isaie et 
+          Sa<lb break="no" ed="#P" n="54"/>pientig. — Tandem ex duabus partibus quas
+          <lb ed="#P" n="55"/>nostra habet assertio, prior affirmans, quae ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tempus legis gratiae pertinet, in sequentibus
+          <lb ed="#P" n="57"/>demonstranda est, quamvis ex dictis in libris
+          <lb ed="#P" n="58"/>praecedentibus et ex usu ipso satis per se sit
+          <lb ed="#P" n="59"/>evidens. Altera vero pars, quae partim 
+          affir<lb break="no" ed="#P" n="60"/>mans etiam est, partim negans, quoad 
+          aftir<lb break="no" ed="#P" n="61"/>mantem partlem sufhicienter probatur 
+          rationi<lb break="no" ed="#P" n="62"/>bus in principio propositis ; quoad partem vero
+          <lb ed="#P" n="63"/>negantem explicanda a nobis est, atque ita
+          <lb ed="#P" n="64"/>rationibus alterius sententiae, quatenus nostrae
+          <lb ed="#P" n="65"/>repugnare possunt, satisfaciendum. Primum
+          <lb ed="#P" n="66"/>igitur negare non possumus quin aliqui ex
+          <lb ed="#P" n="67"/>veteribus Sanctis fuerint virgines, ut de Elia,
+          <lb ed="#P" n="68"/>Eliseo, ac filiis Prophetarum affirmat expresse
+          <lb ed="#P" n="69"/>Hierony mus supra, et de illis et aliis Ignatius,
+          <lb ed="#P" n="70"/>Ambrosius et Damas., quos cum alis retuli in
+          <lb ed="#P" n="71"/>2 tom. tertiae partis, disp. 6, sect. 3, ubi etiam
+          <lb ed="#P" n="72"/>dixi, licet hi virginitatem servaverint, 
+          incer<lb break="no" ed="#P" n="73"/>tum tamen esse an per votum iilam Deo 
+          con<lb break="no" ed="#P" n="74"/>secraverint ; nam de hac re nulla mentio vel
+          <lb ed="#P" n="75"/>ignificatio in Scriptura fit. Nec ex eo solum
+          <lb ed="#P" n="76"/>quod voti sanctitatem et perfectionem 
+          agnos<lb break="no" ed="#P" n="77"/>cebant, sufficiens conjectura sumitur, ut 
+          dica<lb break="no" ed="#P" n="78"/>mus il'os virginitatem seu castitatem vovisse;
+          <lb ed="#P" n="79"/>tum quia virginitas non crat in communi 
+          ob<lb break="no" ed="#P" n="80"/>servantia illius temporis, nec in lege 
+          consule<lb break="no" ed="#P" n="81"/>batur, sed potius videbatur commendari 
+          fae<lb break="no" ed="#P" n="82"/>cunditas ; et ideo fortasse licet illam servarent,
+          <lb ed="#P" n="83"/>quamdiu aliud Deo placere eis non constabat,
+          <lb ed="#P" n="84"/>non tamen in perpetuum promittere auderent
+          <lb ed="#P" n="85"/>sine speciali Dei revelatione. Sic enim et am
+          <lb ed="#P" n="86"/>de Beatissima Virgine et Josepho multi Patres
+          <lb ed="#P" n="87"/>sentiunt non vovisse virginitatem sine speciali
+          <lb ed="#P" n="88"/>Dei revelatione, vel Spiritus Sancti instinctu
+          <lb ed="#P" n="89"/>el aequivalente. Tum etiam quia, licet vota de
+          <lb ed="#P" n="90"/>singularibus actionibus, et praesertim de 
+          sa<lb break="no" ed="#P" n="91"/>crificiis et oblationibus, essent tunc in usu,
+          <lb ed="#P" n="92"/>tamen vota de rebus perpetuis, et quae varios
+          <lb ed="#P" n="93"/>ac difficiles poterant habere eventus, non 
+          fie<lb break="no" ed="#P" n="94"/>bant eo tempore, quia superabant 
+          perfectio<lb break="no" ed="#P" n="95"/>nem illius status, et ideo fieri potuit ut etiam
+          <lb ed="#P" n="96"/>viri sancti talia vota non emitterent. Nec ex
+          <lb ed="#P" n="97"/>locis illis Isaiae aut Sapientia aliquid 
+          suffi<lb break="no" ed="#P" n="98"/>cienter probatur ; nam, licet admittamus ibi
+          <lb ed="#P" n="99"/>esse sermonem de Eunuchis spiritualibus per
+          <lb ed="#P" n="100"/>votum castitatis, non est tamen necesse ut illa
+          <lb ed="#P" n="101"/>verba ad mores vel homines illius temporis 
+          re<lb break="no" ed="#P" n="102"/>ferantur. Sed I[saias prophetice loquitur de his,
+          <lb ed="#P" n="103"/>quae in adventu Messia futura erant in 
+          Eecle<lb break="no" ed="#P" n="104"/>sia, et ita verba ejus continent vaticinium in
+          <lb ed="#P" n="105"/>nova lege impletum, ut signiticavit Bellarm.,
+          <lb ed="#P" n="106"/>lib. 2 de Monach., c. 9, ubi cum Hieronymo
+          <lb ed="#P" n="107"/>eodem modo intelligit testimonium Sapientiae.
+          <lb ed="#P" n="108"/>Videtur utem in illo loco generalem 
+          sermo<lb break="no" ed="#P" n="109"/>nem esse de omnibus justis castitatlem 
+          custo<lb break="no" ed="#P" n="110"/>dientibus, seque ab omni toro maculato ser-
+          <pb ed="#P" n="227"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vantibus, sive ex voto, sive sine voto, sive in
+          <lb ed="#P" n="2"/>hoc, sive in illo tempore.
+        </p>
+        <p xml:id="szovsr-p55815-d1e802">
+          <lb ed="#P" n="3"/>8. Votum paupertatis non fuit in usu 
+          tem<lb break="no" ed="#P" n="4"/>pore legis veteris. — Hinc constat multo minus
+          <lb ed="#P" n="5"/>ostendi posse votum paupertatis fuisse in usu
+          <lb ed="#P" n="6"/>tempore legis veteris, nullum enim talis voti
+          <lb ed="#P" n="7"/>ibi vestigium invenitur. Imo et de usu 
+          pau<lb break="no" ed="#P" n="8"/>pertatis voluntariae rarissima sunt indicia in
+          <lb ed="#P" n="9"/>una vel alia persona, de quibus etiam 
+          incer<lb break="no" ed="#P" n="10"/>tum est quem modum vel gradum 
+          pauperta<lb break="no" ed="#P" n="11"/>tis servaverint. Esto enim Elias paupertatem
+          <lb ed="#P" n="12"/>amaverit quoad usum paucarum rerum, quis
+          <lb ed="#P" n="13"/>affirmare poterit nullius habuisse dominium,
+          <lb ed="#P" n="14"/>vel, quod difficilius est, nec licite habere 
+          po<lb break="no" ed="#P" n="15"/>tuisse? Imo, si illius historiam attente 
+          lega<lb break="no" ed="#P" n="16"/>mus, 3 Reg. 17 inveniemus ipsum non coepisse
+          <lb ed="#P" n="17"/>voluntariam paupertatem profiteri, donec illi
+          <lb ed="#P" n="18"/>praecepit Deus: Becede hinc, et vade coutra
+          <lb ed="#P" n="19"/>Orientem, etc., ubi de torrente lihes, corvisque
+          <lb ed="#P" n="20"/>praecep ut pascant te 4; et infra: Surge, et
+          <lb ed="#P" n="21"/>cade in Sarephtha Sidoniorum, et manebis
+          <lb ed="#P" n="22"/>iba, praecepi enim ibi mulieri vidue ut pascat
+          <lb ed="#P" n="23"/>te. Ex quibus verbis potius possumus 
+          conjec<lb break="no" ed="#P" n="24"/>tare, prius habuisse Evam bona ex quibus 
+          ale<lb break="no" ed="#P" n="25"/>retur, ideo enim videtur a Deo praeventus et
+          <lb ed="#P" n="26"/>admonitus, unde esset sustentandus, ne de ea
+          <lb ed="#P" n="27"/>re esset sollicitus, nec de ejus paupertate 
+          plu<lb break="no" ed="#P" n="28"/>ra in Scriptura leguntur. Nec etiam de 
+          pauper<lb break="no" ed="#P" n="29"/>tate Elisei, praeter id quod 4 Reg. 4 legimus,
+          <lb ed="#P" n="30"/>cum frequenter transiret per Sunam, solitum
+          <lb ed="#P" n="31"/>fuisse divertere ad quamdam feminam, ut
+          <lb ed="#P" n="32"/>hospitio reciperetur et aleretur, quod est 
+          in<lb break="no" ed="#P" n="33"/>dicium paupertatis ejus, licet non suffticiens,
+          <lb ed="#P" n="34"/>nam ibidem de muliere dicitur: Que tenuit
+          <lb ed="#P" n="35"/>eum ut comederet panem ; ei inferius, eod. cap.,
+          <lb ed="#P" n="36"/>dieitur tempore famis filios Prophetarum 
+          ha<lb break="no" ed="#P" n="37"/>bitasse coram eo in Galgala, ipsumque 
+          prae<lb break="no" ed="#P" n="38"/>cepisse uni de pueris suis: Pone ollam 
+          gran<lb break="no" ed="#P" n="39"/>dem, et coque pulmentum pro filiis 
+          Propheta<lb break="no" ed="#P" n="40"/>wm. Unde colligi potest ipsum habuisse 
+          ali<lb break="no" ed="#P" n="41"/>qua bona, cum tempore famis abundanter
+          <lb ed="#P" n="42"/>posset alere filios Prophetarum , quamvis
+          <lb ed="#P" n="43"/>etiam pulmentum illud potuerit esse vile, et
+          <lb ed="#P" n="44"/>eleemosynis comparatum. Itaque nihil certi
+          <lb ed="#P" n="45"/>de modo paupertatis ejus, vel sociorum, seu
+          <lb ed="#P" n="46"/>eorum qui filii Prophetarum appellantur, 
+          affir<lb break="no" ed="#P" n="47"/>mare possumus.
+        </p>
+        <p xml:id="szovsr-p55815-d1e903">
+          <lb ed="#P" n="48"/>9. Similiter obedientie votum non fuit àn
+          <lb ed="#P" n="49"/>usu tempore legis veteris, ut patet in Hliseo.—
+          <lb ed="#P" n="50"/>Praeterea de usu, multoque minus de voto 
+          obe<lb break="no" ed="#P" n="51"/>dientiae vestigium sufticiens non invenimus
+          <lb ed="#P" n="52"/>in Elia; de Eliseo solum legimus ministrasse
+          <lb ed="#P" n="53"/>Eliae, fuisseque discipulum ejus, unde fit 
+          con<lb break="no" ed="#P" n="54"/>sequens ut illi obsequens fuerit; quod autem
+          <lb ed="#P" n="55"/>vel eam obedientiam voto consecraverit, vel
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>intuitu status religiosi id fecerit, affirmare
+          <lb ed="#P" n="57"/>non possumus, quia in Sceriptura nullum 
+          in<lb break="no" ed="#P" n="58"/>venimus hujus rei indicium. Solum enim 3
+          <lb ed="#P" n="59"/>Reg. 19 dixit Dominus Elie: Fliseum, filium
+          <lb ed="#P" n="60"/>Saphat, unges Prophetam pro te. In fine vero
+          <lb ed="#P" n="61"/>illius capitis signiticatur Eliseum, relictis 
+          pa<lb break="no" ed="#P" n="62"/>tre et matre, et rebus quas habebat, secutum
+          <lb ed="#P" n="63"/>fuisse Eliam. Ex quo optime colligimus 
+          prae<lb break="no" ed="#P" n="64"/>cessisse tunc quamdam figuram et 
+          adumbra<lb break="no" ed="#P" n="65"/>tionem status religiosi; quod autem Eliseus
+          <lb ed="#P" n="66"/>fuerit secutus Eliam cum voto obedientise, et
+          <lb ed="#P" n="67"/>cum tali renunciatione rerum omnium, ut 
+          ni<lb break="no" ed="#P" n="68"/>hil proprium habere liceret, nec usum rei 
+          ali<lb break="no" ed="#P" n="69"/>cujus sine facultate Eliae. neque in Sceriptura
+          <lb ed="#P" n="70"/>habet fundamentum, neque id, nisi mere 
+          vo<lb break="no" ed="#P" n="71"/>luntarie, affirmare possumus; potiusque ex
+          <lb ed="#P" n="72"/>auctoritate negativa possumus contrarium
+          <lb ed="#P" n="73"/>conjectare, quia rem tanti momenti Scriptura
+          <lb ed="#P" n="74"/>non tacuisset, vel saltem indicasset.
+        </p>
+        <p xml:id="szovsr-p55815-d1e966">
+          <lb ed="#P" n="75"/>10. Filii Prophetarum obedientiam sub 
+          Eli<lb break="no" ed="#P" n="76"/>seo haueruut, sed non coverunt. — De filiis
+          <lb ed="#P" n="77"/>autem Prophetarum, quidam colligunt 
+          pro<lb break="no" ed="#P" n="78"/>fessionem quamdam obedientiae, ex eo quod
+          <lb ed="#P" n="79"/>4 Reg. 2 legitur, postquam raptus est Elias, et
+          <lb ed="#P" n="80"/>Eliseus , recepto ejus p llio, reversus est, et
+          <lb ed="#P" n="81"/>diviso Jordane transivit , cognovisse filios
+          <lb ed="#P" n="82"/>Prophetarum, requievisse spiritum Eliae super
+          <lb ed="#P" n="83"/>E iseum ; unde ait Scriptura : Et cenientes in.
+          <lb ed="#P" n="84"/>occursum ejus, adoraverunt eum proni in 
+          ter<lb break="no" ed="#P" n="85"/>TG ;acsitacite dicerent se ei obedientiam
+          <lb ed="#P" n="86"/>praestare , quam antea Eliae tribuere soliti
+          <lb ed="#P" n="87"/>erant. At hoc non habet sufticiens 
+          fundamen<lb break="no" ed="#P" n="88"/>tum in textu , nec consonat verbis 
+          sequenti<lb break="no" ed="#P" n="89"/>bus : Digmeruntque ei : Ecce cum sercis tuis
+          <lb ed="#P" n="90"/>sunt quinguaginta viri, etc. Igitur ex 
+          priori<lb break="no" ed="#P" n="91"/>bus verbis nihil aliud colligi potest, nisi 
+          reco<lb break="no" ed="#P" n="92"/>gnovisse illum ut sanctum virum, et 
+          speciali<lb break="no" ed="#P" n="93"/>ter afflatum spiritu Dei, et ideo desiderasse 
+          il<lb break="no" ed="#P" n="94"/>lum consolari, et juvare in eo quod possent,
+          <lb ed="#P" n="95"/>ut indicant posteriora verba.
+        </p>
+        <p xml:id="szovsr-p55815-d1e1014">
+          <lb ed="#P" n="96"/>11. Vivebant sub Eliseo veluti in quadam
+          <lb ed="#P" n="97"/>congregatione. — Magis colligi potest modus
+          <lb ed="#P" n="98"/>congregationis et subordinationis religiosae 
+          in<lb break="no" ed="#P" n="99"/>ter Eliseum et illos filios Prophetarum, ex
+          <lb ed="#P" n="100"/>verbis 4 Reg. 6: Dimerunt flii Prophetarum
+          <lb ed="#P" n="101"/>ad Hliseum - Ecce locus, in quo habitamus 
+          co<lb break="no" ed="#P" n="102"/>ram te , angustus est nobis . eamus usque ad
+          <lb ed="#P" n="103"/>Jordanem, et tollant singuli de sya materias
+          <lb ed="#P" n="104"/>singulas, ut edificemus nobis ibi locum ad 
+          ha<lb break="no" ed="#P" n="105"/>bitandum - qui disit- Ite, etc. Et quidem haec
+          <lb ed="#P" n="106"/>verba manifeste indicant habitasse filios illos
+          <lb ed="#P" n="107"/>Prophetarum cum Eliseo in una societate. seu
+          <lb ed="#P" n="108"/>collegio , cumque ut dominum et superiorem
+          <lb ed="#P" n="109"/>solitos esse recognoscere. Quis autem fuerit
+          <lb ed="#P" n="110"/>ille modus congregationis, non satis constat,
+          <pb ed="#P" n="228"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quia Scriptura solum veluti casu et per 
+          occa<lb break="no" ed="#P" n="2"/>sionem eam indicat. Incertum ergo est an illi
+          <lb ed="#P" n="3"/>Prophetarum filii ita Eliae vel Eliseo 
+          adhaere<lb break="no" ed="#P" n="4"/>rent, ut perpetuam cum illo societatem 
+          ini<lb break="no" ed="#P" n="5"/>rent, vel solum ad tempus cum eo degerent,
+          <lb ed="#P" n="6"/>ut ab eo instituerentur in divinis rebus, et
+          <lb ed="#P" n="7"/>postea de se libere disponerent. Unde, licet
+          <lb ed="#P" n="8"/>Hierony mus absolute dicat hos filios 
+          Prophe<lb break="no" ed="#P" n="9"/>tarum fnisse virgines, in Scriptura id non 
+          re<lb break="no" ed="#P" n="10"/>perio, et verisimile est, dum ibi erant, 
+          casti<lb break="no" ed="#P" n="11"/>tatem coluisse, nec in congregatione illa 
+          soli<lb break="no" ed="#P" n="12"/>tos fuisse admitti, nisi ab onere matrimonii
+          <lb ed="#P" n="13"/>liberos ; quod autem in eo statu 
+          persevera<lb break="no" ed="#P" n="14"/>rent semper, aut quod voto ad hoc 
+          obligaren<lb break="no" ed="#P" n="15"/>tur, affirmari non potest. Ac similiter de 
+          obe<lb break="no" ed="#P" n="16"/>dientia credendum sine dubio est, dum ibi
+          <lb ed="#P" n="17"/>erant, Eliseo fuisse obsequentes, tum quia 
+          il<lb break="no" ed="#P" n="18"/>lum agnoscebant ut sanctum, et donis Dei
+          <lb ed="#P" n="19"/>superiorem, et ita semper eum dominum 
+          ap<lb break="no" ed="#P" n="20"/>pellabant ; tum etiam quia sine aliquo 
+          obe<lb break="no" ed="#P" n="21"/>dientiae genere impossibile est in 
+          congrega<lb break="no" ed="#P" n="22"/>tione ordinate vivere. An vero ila obedientia
+          <lb ed="#P" n="23"/>esset ex voto, vel ex promissione humana, vel
+          <lb ed="#P" n="24"/>ex pacto tantum conditionato, si ibi 
+          perseve<lb break="no" ed="#P" n="25"/>rare vellent, vel solum ex interna spiritus
+          <lb ed="#P" n="26"/>motione , et operatione mere voluntaria , 
+          in<lb break="no" ed="#P" n="27"/>certum est.
+        </p>
+        <p xml:id="szovsr-p55815-d1e1112">
+          <lb ed="#P" n="28"/>12. Probatur tradita doctrina discurrendo per
+          <lb ed="#P" n="29"/>omnes vivendi modos, qui ante Christi adventum
+          <lb ed="#P" n="30"/>inler Judeeos extiterunt. — Quid de Essenis 
+          di<lb break="no" ed="#P" n="31"/>cendum. — VPossumus praeterea similem 
+          dis<lb break="no" ed="#P" n="32"/>cursum facere per omnes congregationes, seu
+          <lb ed="#P" n="33"/>vivendi modos, qui ante Christi adventum 
+          di<lb break="no" ed="#P" n="34"/>cuntur fuisse inter Judaeos per modum 
+          reli<lb break="no" ed="#P" n="35"/>gionis, seu religiosi status, et in singulis 
+          ex<lb break="no" ed="#P" n="36"/>plicare quomodo perfectam hujus status 
+          ratio<lb break="no" ed="#P" n="37"/>nem non attgerint. Inter quos famosiores
+          <lb ed="#P" n="38"/>videntur esse Esseni, de quibus illustris 
+          nar<lb break="no" ed="#P" n="39"/>ratio est apud Philonem, lib. de Vita 
+          contem<lb break="no" ed="#P" n="40"/>plat. ; et Joseph., lib. 18 Antiquit., cap. 2, et
+          <lb ed="#P" n="41"/>lib. 2 de Bello Jud., c. 7, ex quibus etiam 
+          in<lb break="no" ed="#P" n="42"/>telligere licet illos fuisse religiosos, et 
+          pauper<lb break="no" ed="#P" n="43"/>tatem ac caetera consilia observasse. At vero
+          <lb ed="#P" n="44"/>de his Essenis varia est opinio; multi enim
+          <lb ed="#P" n="45"/>Patres existimarunt illos , de quibus Philo 
+          lo<lb break="no" ed="#P" n="46"/>quitur, non fuisse Judaeos, sed Christianos, et
+          <lb ed="#P" n="47"/>D. Marci discipulos. Ita docet Hieronymus, de
+          <lb ed="#P" n="48"/>Script. Eccles., in Marc., de quo sic ait: 
+          As<lb break="no" ed="#P" n="49"/>sumpto Ecangelio, quod ipse confecerat , 
+          per<lb break="no" ed="#P" n="50"/>recit in zgyptum , et primum Alexandriee
+          <lb ed="#P" n="51"/>Christum aununtians constituit Ecclesiam 
+          tan<lb break="no" ed="#P" n="52"/>ta doctrina, et vitee continentia, ut omanes 
+          sec<lb break="no" ed="#P" n="53"/>tatores Christi ad exemplum suum cogeret. 
+          De<lb break="no" ed="#P" n="54"/>nique Philo, disertissimus Judeorum, videns
+          <lb ed="#P" n="55"/>Alezandrie primum Eclesiam adhuc judai-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>zantem, quasi in laudem gentis suee librum 
+          su<lb break="no" ed="#P" n="57"/>per eorum conversatione scripsit ; et quomodo
+          <lb ed="#P" n="58"/>Lucas narrat, Hierosolymae credentes omnia
+          <lb ed="#P" n="59"/>habuisse communia, sic et ille quod sub Marco,
+          <lb ed="#P" n="60"/>Alevandrie doctore, fieri cernebat, memorice
+          <lb ed="#P" n="61"/>tradidit. Dicit autem Hieronymus vidisse 
+          Phi<lb break="no" ed="#P" n="62"/>lonem Alexandrinam Ecclesiam judaizantem,
+          <lb ed="#P" n="63"/>quia, licet Christiana esset, adhuc legalia 
+          ser<lb break="no" ed="#P" n="64"/>vabat; Philonem autem propter judaismum 
+          il<lb break="no" ed="#P" n="65"/>lam laudasse, quamvis revera de Christianis
+          <lb ed="#P" n="66"/>loqueretur. Idem repetit paulo inferius in 
+          Phi<lb break="no" ed="#P" n="67"/>lone, quem dicit habitacula Christianorum
+          <lb ed="#P" n="68"/>vocasse monasteria, ea in multis provinciis
+          <lb ed="#P" n="69"/>esse memorans: Ex quo (ait Hieronymus)
+          <lb ed="#P" n="70"/>apparct talem primum Christo credentium
+          <lb ed="#P" n="71"/>fuisse Ecclesiam, quaies nunc monachà esse 
+          ni<lb break="no" ed="#P" n="72"/>tuntur et cupiunt, etc. Hanc sententiam 
+          secu<lb break="no" ed="#P" n="73"/>tus est Beda, praefatione in Marcum; et 
+          Cas<lb break="no" ed="#P" n="74"/>sian., lib. 2 de Instit. renunc., cap. 5, et eam
+          <lb ed="#P" n="75"/>prius docuit Eusebius, lib. 2 Histor., cap. 15;
+          <lb ed="#P" n="76"/>Sozom., lib. 1, cap. 12, in fin. Denique 
+          Epi<lb break="no" ed="#P" n="77"/>phan., haeres. 29, ut nominis rationem reddat,
+          <lb ed="#P" n="78"/>ait illos, de quibus loquitur Philo, non 
+          Esse<lb break="no" ed="#P" n="79"/>nos, sed Esseos vocari, vel potius Jessos, a 
+          Je<lb break="no" ed="#P" n="80"/>su nomine. Potestque hoc confirmari, quia si
+          <lb ed="#P" n="81"/>Esseni fuissent ante Christi adventum, 
+          esset<lb break="no" ed="#P" n="82"/>que aliqua Judaecrum religio, utique fieret
+          <lb ed="#P" n="83"/>aliqua mentio illorum in Evangelio, sicut fit
+          <lb ed="#P" n="84"/>Pharisaeorum et Sadducaeorum ; at nulla fit;
+          <lb ed="#P" n="85"/>signum ergo est inter Judaeos non fuisse.
+        </p>
+        <p xml:id="szovsr-p55815-d1e1242">
+          <lb ed="#P" n="86"/>13. Josephus loguitur de Essenis Judas, et
+          <lb ed="#P" n="87"/>a Phariseis et Sadduceis illos distinguit. —
+          <lb ed="#P" n="88"/>At vero quanquam de Philone probabile sit
+          <lb ed="#P" n="89"/>loqui de Essenis Christianis, quia tractat de
+          <lb ed="#P" n="90"/>illis, qui novam perfectionis viam eo tempore
+          <lb ed="#P" n="91"/>profiteri coeperant, Josephus autem de Judaeis
+          <lb ed="#P" n="92"/>videtur loqui, nam antiquiores inter Judaeos
+          <lb ed="#P" n="93"/>illos esse significat, et a Pharisaeis et 
+          Saddu<lb break="no" ed="#P" n="94"/>caeis illos distinguit, et quaedam eorum 
+          dog<lb break="no" ed="#P" n="95"/>mata refert, quae cum Christiana religione
+          <lb ed="#P" n="96"/>non consonant. Unde Epiph., haeres. 19, ponit
+          <lb ed="#P" n="97"/>Essenos Judaeos, qui ante ( hristum fuerunt,
+          <lb ed="#P" n="98"/>et haeres. 9 et sequentibus, alios Essenos 
+          Sa<lb break="no" ed="#P" n="99"/>maritanos fuisse affirmat. Cyrillus etiam, lib.
+          <lb ed="#P" n="100"/>5 contra Julian., ex Porphyr., eorum 
+          mentio<lb break="no" ed="#P" n="101"/>nem facit, dicitque in perserutandis Prophetis
+          <lb ed="#P" n="102"/>fuisse diligentes, et ideo multi existimant
+          <lb ed="#P" n="103"/>non fuisse Christum persecutos, et ob eam
+          <lb ed="#P" n="104"/>causam non fieri eorum menticnem in 
+          Evan<lb break="no" ed="#P" n="105"/>gelio. Eorum etiam meminit Plinius, lib. 5
+          <lb ed="#P" n="106"/>Histor., c. 17, et antiquissimos illos esse 
+          signi<lb break="no" ed="#P" n="107"/>ficat, et castitatem ac paupertatem dicit 
+          co<lb break="no" ed="#P" n="108"/>luisse. sine ulla femina, sine pecunia. B. 
+          Ni<lb break="no" ed="#P" n="109"/>lus, in princ. Asceticorum suorum, ait, illos
+          <lb ed="#P" n="110"/>habuisse mores similes nostris religiosis, non
+          <pb ed="#P" n="229"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tamen credidisse in Christum. Philast. etiam
+          <lb ed="#P" n="2"/>contra haereses, ait multos eorum in judaismo
+          <lb ed="#P" n="3"/>permansisse. Verisimile ergo est et ante et
+          <lb ed="#P" n="4"/>post Christum fuisse, et multos ex illis ad 
+          fi<lb break="no" ed="#P" n="5"/>dem conversos per Marci praedicationem 
+          Ale<lb break="no" ed="#P" n="6"/>xandria, moralem vivendi modum de se 
+          bo<lb break="no" ed="#P" n="7"/>num in Christianismo retinuisse et perfecisse,
+          <lb ed="#P" n="8"/>et ideo verum quidem esse Philonem de 
+          Chris<lb break="no" ed="#P" n="9"/>tianis loqui, non tamen excludere antiquiores
+          <lb ed="#P" n="10"/>Essenos ; imo forte etiam Josephus, ut 
+          Hie<lb break="no" ed="#P" n="11"/>ronymus significat, de eisdem loquitur, illos
+          <lb ed="#P" n="12"/>cum Judaeis confundens. De quibus videri 
+          pos<lb break="no" ed="#P" n="13"/>sunt plura in Matthaeo Gal., lib. de Origine
+          <lb ed="#P" n="14"/>Monast., c.5; Baron., tom. 1, an. 654, num. 6
+          <lb ed="#P" n="15"/>et seq.; Bellar., lib. 2 de Monach., c. 5.
+        </p>
+        <p xml:id="szovsr-p55815-d1e1336">
+          <lb ed="#P" n="16"/>14. Hsseni licet modum religiosce vitae 
+          tenue<lb break="no" ed="#P" n="17"/>rint, non fuerunt vere religiosi. — De his ergo
+          <lb ed="#P" n="18"/>Essenis, qui inter Judaeos fuerunt, licet 
+          con<lb break="no" ed="#P" n="19"/>stet modum religiosae vitae tenuisse, tamen
+          <lb ed="#P" n="20"/>quod non veri religiosi fuerint osteudi potest.
+          <lb ed="#P" n="21"/>Primo, quia etiam illo tempore non creduntur
+          <lb ed="#P" n="22"/>habuisse veram et sanam fidem, ut ex Josepho
+          <lb ed="#P" n="23"/>colligitur, et ex Epiphan.; sine vera autem
+          <lb ed="#P" n="24"/>fide, nec vera religio esse potest. Secundo, ex
+          <lb ed="#P" n="25"/>Josepho, lib.18 Antiquit., cap. 2; et Philone,
+          <lb ed="#P" n="26"/>lib. Quod liber sit probus, eos non servasse 
+          ve<lb break="no" ed="#P" n="27"/>ram paupertatem, sed habuisse divitias, unde
+          <lb ed="#P" n="28"/>viverent. Tertio, de observatione castitatis et
+          <lb ed="#P" n="29"/>obedientiae ninil certo affirmare possumus,
+          <lb ed="#P" n="30"/>multoque magis incertum est an vota 
+          emise<lb break="no" ed="#P" n="31"/>rint, praesertim perpetua ; nam de his 
+          omni<lb break="no" ed="#P" n="32"/>bus, qui castitatem servabant in lege veteri,
+          <lb ed="#P" n="33"/>certius creditur, regulariter solum pro aliquo
+          <lb ed="#P" n="34"/>iempore illam servasse.
+        </p>
+        <p xml:id="szovsr-p55815-d1e1381">
+          <lb ed="#P" n="35"/>15. Idein dicendum de Nazarais.—Nazaraei
+          <lb ed="#P" n="36"/>etiam videntur habuisse inter Judaeos 
+          simili<lb break="no" ed="#P" n="37"/>tudinem quamdam religionis ; nam de illis 
+          di<lb break="no" ed="#P" n="38"/>citur, Num. 6, quod se sanctificabant, et per
+          <lb ed="#P" n="39"/>votum Domino consecrabant ; sed (ut omittam
+          <lb ed="#P" n="40"/>illos etiam non habuisse integram et sanam 
+          fi<lb break="no" ed="#P" n="41"/>dem, ut videre licet in Epiph., haeres. 18) ex
+          <lb ed="#P" n="42"/>eodem loco Scripturae constat illam 
+          consecra<lb break="no" ed="#P" n="43"/>tionem vel sanctificationem non fuisse 
+          perpe<lb break="no" ed="#P" n="44"/>tuam. sed ad tempus, nec alia opera 
+          perfectio<lb break="no" ed="#P" n="45"/>nis comprehendisse, praeter abstinentiam a
+          <lb ed="#P" n="46"/>vino et uvis, cum aliis caeremoniis quae ibi
+          <lb ed="#P" n="47"/>narrantur, de quibus videri potest Abul., ad
+          <lb ed="#P" n="48"/>locum citatum ; et Mendoca, in Quodl., q. 5,
+          <lb ed="#P" n="49"/>n. 1. Unde probabile aliqui existimant ab 
+          ho<lb break="no" ed="#P" n="50"/>rum Nazaraeorum ritu duxisse originem 
+          Recha<lb break="no" ed="#P" n="51"/>bites, adeo in Scriptura celebres, propter 
+          lau<lb break="no" ed="#P" n="52"/>des quas de illis refert Jerem., c. 35. llli enim
+          <lb ed="#P" n="53"/>a Jonadab patre suo hoc praeceptum 
+          habue<lb break="no" ed="#P" n="54"/>runt: Non bibet:s vinum vos, et filii vestri 
+          us<lb break="no" ed="#P" n="55"/>que in sempiternum, et domum non cdificabi-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tis, et semen non seretis, et vineam non 
+          planta<lb break="no" ed="#P" n="57"/>Ditis, sed in tabernaculis habitabitis cunctis
+          <lb ed="#P" n="58"/>diehus vestris; quod paternum praeceptum
+          <lb ed="#P" n="59"/>ipsi inviolabiliter observarunt, pro quo laudem
+          <lb ed="#P" n="60"/>et praemium a Deo meruerunt. Illorum ergo
+          <lb ed="#P" n="61"/>vivendi modus ab institutione paterna duxit
+          <lb ed="#P" n="62"/>originem ; tamen Jonadab occasionem id 
+          prae<lb break="no" ed="#P" n="63"/>cipiendi videtur sumpsisse a ritu Nazaraeorum,
+          <lb ed="#P" n="64"/>cui ipse aliquid addidit. Quod tamen etiam illi
+          <lb ed="#P" n="65"/>religiosi non fuerint, constat, quia in reliquis
+          <lb ed="#P" n="66"/>rebus extra illas caeremonias, laicorum more
+          <lb ed="#P" n="67"/>vivebant, et filios generabant, etc. Monstrat
+          <lb ed="#P" n="68"/>autem Baron., supra, hos Rechabites diversos
+          <lb ed="#P" n="69"/>fuisse ab Essenis, licct verisimile censeat hos
+          <lb ed="#P" n="70"/>ab illis originem duxisse. Non omittam autem
+          <lb ed="#P" n="71"/>advertere Hieronymum, epistol. 13, 
+          interanti<lb break="no" ed="#P" n="72"/>quos religiosorum duces cum Elia, Eliseo, et
+          <lb ed="#P" n="73"/>filiis Prophetarum hos etiam Rechabites 
+          nu<lb break="no" ed="#P" n="74"/>merare, ut intelligatur ipsum non appellasse
+          <lb ed="#P" n="75"/>eos duces, eo quod perfectum religiosum 
+          sta<lb break="no" ed="#P" n="76"/>tum ad amussim tenerent, sed quia extra 
+          ur<lb break="no" ed="#P" n="77"/>bem vivebant, et vitam quamdam solitariam et
+          <lb ed="#P" n="78"/>pauperem profitebantur. Omitto sectas alias,
+          <lb ed="#P" n="79"/>quae inter Judaeos fuerunt, Pharisaeorum, 
+          Sad<lb break="no" ed="#P" n="80"/>ducaeorum, Dosithaeorum, et similium; constat
+          <lb ed="#P" n="81"/>enim eos et in fide, et in moribus multum a
+          <lb ed="#P" n="82"/>vera religione defecisse, ut videri potest apud
+          <lb ed="#P" n="83"/>Josephum, d. lib. 18 Antiquit., capite secundo,
+          <lb ed="#P" n="84"/>et lib. 2de Bello Jud., c. 2; Epiph., haeres. 13
+          <lb ed="#P" n="85"/>et seq., quae in summam redigit Baron., in
+          <lb ed="#P" n="86"/>Apparatu ad Annales, initio tomi primi.
+        </p>
+        <p xml:id="szovsr-p55815-d1e1498">
+          <lb ed="#P" n="87"/>16. Eaxplicatur magis tradita assertio quoad
+          <lb ed="#P" n="88"/>vota substantialia status veligiosi. — Tandem
+          <lb ed="#P" n="89"/>explicari potest in hunc modum assertio 
+          posi<lb break="no" ed="#P" n="90"/>ta. Nam imprimis, si consideremus statum
+          <lb ed="#P" n="91"/>nostrum religiosum, ut constantem ex 
+          solem<lb break="no" ed="#P" n="92"/>nibus votis, nullo fundamento affirmare 
+          pos<lb break="no" ed="#P" n="93"/>sumus tale genus voti fuisse in usu in lege
+          <lb ed="#P" n="94"/>naturae aut veteri, quo, scilicet, personae 
+          fie<lb break="no" ed="#P" n="95"/>rent inhabiles ad matrimonium 
+          contrahen<lb break="no" ed="#P" n="96"/>dum, et matrimonium rite contractum ante
+          <lb ed="#P" n="97"/>consummationem dirimeretur ; sunt enim haec
+          <lb ed="#P" n="98"/>propria Ecclesiae Christi, nec potest afferri 
+          ul<lb break="no" ed="#P" n="99"/>lum exemplum aut vestigium antiquitatum,
+          <lb ed="#P" n="100"/>quo ostendatur ante illos fuisse. Quod satis
+          <lb ed="#P" n="101"/>confirmant Pontifices , qui declarant hanc 
+          so<lb break="no" ed="#P" n="102"/>lemnitatem ab Ecclesia fuisse introductam,
+          <lb ed="#P" n="103"/>utique per specialem potestatem a Christo 
+          da<lb break="no" ed="#P" n="104"/>tam ; antea ergo quam Christus daret 
+          homi<lb break="no" ed="#P" n="105"/>nibus hanc potestatem , non fuit nec esse 
+          po<lb break="no" ed="#P" n="106"/>tuit inter eos usus talium votorum. Idem 
+          ar<lb break="no" ed="#P" n="107"/>gumentum fieri potest de voto paupertatis,
+          <lb ed="#P" n="108"/>quatenus hominem reddit inhabilem ad 
+          tem<lb break="no" ed="#P" n="109"/>poralium rerum dominium ; imo etiam 
+          quate<lb break="no" ed="#P" n="110"/>nus obligat ad illud non habendum , neque
+          <pb ed="#P" n="230"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>acceptandum circa ullam rem, vel nunquam,
+          <lb ed="#P" n="2"/>vel raro existimo esse cognitum a veteribus,
+          <lb ed="#P" n="3"/>licet actualem usum paupertatis multi 
+          colue<lb break="no" ed="#P" n="4"/>rint. Unde si abstrahamus a votis solemnibus
+          <lb ed="#P" n="5"/>hac speciali et legitima solemnitate , fortasse
+          <lb ed="#P" n="6"/>fieri potuit ut aliquis tria vota emiserit 
+          pris<lb break="no" ed="#P" n="7"/>cis illis temporibus ; dico tamen de nullo 
+          pos<lb break="no" ed="#P" n="8"/>se cum sufficienti fundamento affirmari, 
+          mul<lb break="no" ed="#P" n="9"/>toque minus de aliqua communitate , et ritu
+          <lb ed="#P" n="10"/>aliquo vivendi pro omnibus hominibus 
+          com<lb break="no" ed="#P" n="11"/>muniter proposito. Unde hic accommodari 
+          po<lb break="no" ed="#P" n="12"/>test distinctio insinuata a D. Thoma 2. 2, q.
+          <lb ed="#P" n="13"/>184, art. 4, de statu hominis vel interno vel
+          <lb ed="#P" n="14"/>occulto, et apud Deum, vel de externo, 
+          pu<lb break="no" ed="#P" n="15"/>blico, et apud Ecclesiam. Prior potest suo 
+          mo<lb break="no" ed="#P" n="16"/>do consurgere ex votis soli Deo factis, de 
+          qui<lb break="no" ed="#P" n="17"/>bus nos judicare non possumus , et ita neque
+          <lb ed="#P" n="18"/>affirmare simpliciter ab aliquo ante 
+          Evange<lb break="no" ed="#P" n="19"/>lium fuisse omnia simul facta ut perpetua, et
+          <lb ed="#P" n="20"/>ut per illa se totum Deo consecraret 
+          immo<lb break="no" ed="#P" n="21"/>biliter, quia hoc scriptum aut traditum non
+          <lb ed="#P" n="22"/>est ; nec etiam id possumus constanter 
+          nega<lb break="no" ed="#P" n="23"/>re, quia neque hoc etiam est scriptum, et non
+          <lb ed="#P" n="24"/>fuit impossibile fieri, quanquam praesumptio
+          <lb ed="#P" n="25"/>sit in contrarium, tum propter auctoritatem
+          <lb ed="#P" n="26"/>negativam , tum quia non erant talia vota
+          <lb ed="#P" n="27"/>illis temporibus accommodata, vel propter non
+          <lb ed="#P" n="28"/>usum, vel propter minorem lucem Evangelicae
+          <lb ed="#P" n="29"/>perfectionis, vel propter temporales 
+          promis<lb break="no" ed="#P" n="30"/>siones, quae tunc fiebant, et propter alias 
+          si<lb break="no" ed="#P" n="31"/>miles causas. Posterior autem status praeter
+          <lb ed="#P" n="32"/>tria vota apud Deum requirit specialem 
+          potes<lb break="no" ed="#P" n="33"/>tatem in hominibus acceptandi illa vomine
+          <lb ed="#P" n="34"/>Dei, et traditionem quamdam , quae in statu
+          <lb ed="#P" n="35"/>religioso cum illis conjuncta est, quae potestas
+          <lb ed="#P" n="36"/>supernaturalis est, et propria legis novae, nec
+          <lb ed="#P" n="37"/>cum probabili fandamento potest 
+          antiquiori<lb break="no" ed="#P" n="38"/>bus tribui, magis quam potestas ligandi et
+          <lb ed="#P" n="39"/>solvendi, quae in Evangelio data est. Et per
+          <lb ed="#P" n="40"/>haec satis responsum est rationibus dubitandi
+          <lb ed="#P" n="41"/>in principio positis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

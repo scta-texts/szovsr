@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="609"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p15181"><!-- t7l8c9 -->
+        <head xml:id="szovsr-p15181-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-p15181-Hd1e103" type="question-title">Quaenam paupertas, inter eas quae a religiosis communitatibus observantur, sit omnium praestantissima.</head>
+        <p xml:id="szovsr-p15181-d1e106">
+          <lb ed="#P" n="25"/>CAPUT IX.
+          <lb ed="#P" n="26"/>QUAENAM PAUPERTAS, INTER EAS QUAE A RELIGIOSIS
+          <lb ed="#P" n="27"/>COMMUNITATIBUS OBSERVANTUR, SIT OMNIUM
+          <lb ed="#P" n="28"/>PRAESTANTISSIMA.
+        </p>
+        <p xml:id="szovsr-p15181-d1e117">
+          <lb ed="#P" n="29"/>1. Ex his quae diximus superiori capite,
+          <lb ed="#P" n="30"/>praesens haec controversia orta est inter 
+          Theo<lb break="no" ed="#P" n="31"/>logos, scilicet, quaenam paupertatum, ex his
+          <lb ed="#P" n="32"/>quas supra commemoravimus, sit aptior ad
+          <lb ed="#P" n="33"/>perfectionem obtinendam, atque adeo 
+          sim<lb break="no" ed="#P" n="34"/>pliciter perfectior. Quidam enim existimant
+          <lb ed="#P" n="35"/>absolute et simpliciter praeferendam esse 
+          pau<lb break="no" ed="#P" n="36"/>pertatem illam, quae nullum mobilium etiam
+          <lb ed="#P" n="37"/>rerum dominium in communi admittit. Quod
+          <lb ed="#P" n="38"/>videtur sanctus Franciscus suo exemplo 
+          do<lb break="no" ed="#P" n="39"/>cuisse , et ideo qui ejus institutum 
+          profiten<lb break="no" ed="#P" n="40"/>tur, ita sentire videntur. Imo et Christus 
+          Do<lb break="no" ed="#P" n="41"/>minus exemplo suo id docuisse videtur, cum
+          <lb ed="#P" n="42"/>de se dixit : Filius autem hominis non habet
+          <lb ed="#P" n="43"/>ubi caput sun. reclinet , Matth. S, ubi 
+          Chry<lb break="no" ed="#P" n="44"/>sost., hom. 28, advertit, non divisse habere se
+          <lb ed="#P" n="45"/>quidem, sed despicere , sed nihil se prorsus 
+          ha<lb break="no" ed="#P" n="46"/>bere ; et Hieronymus sic interpretatur : Quid
+          <lb ed="#P" n="47"/>me propter divitias et lucra seculi cupis sequi,
+          <lb ed="#P" n="48"/>cum tante sim paupertatis, ut nec hosgntiolum
+          <lb ed="#P" n="49"/>quidem habenm , nec meo utar tecto? et D.
+          <lb ed="#P" n="50"/>Thom., opusc. 17, cap. 15, ex Chrysost., haec
+          <lb ed="#P" n="51"/>refert verba circa praedictum Christi 
+          exem<lb break="no" ed="#P" n="52"/>plum ac testimonium : Aspice qualiter pau-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>pertatem, quam Dominus docuerat, et opere
+          <lb ed="#P" n="54"/>demonstravit, non erat eà mensa, non 
+          candela<lb break="no" ed="#P" n="55"/>brum, non domus, nec quidquam aliud tale.
+          <lb ed="#P" n="56"/>Denique cum Christus Dominus simpliciter
+          <lb ed="#P" n="57"/>consuluerit paupertatem, quo haec fuerit 
+          ma<lb break="no" ed="#P" n="58"/>Jjor, eo per se loquendo erit magis 
+          consenta<lb break="no" ed="#P" n="59"/>nea consilio ejus.
+        </p>
+        <p xml:id="szovsr-p15181-d1e189">
+          <lb ed="#P" n="60"/>2. Tres fines religionis.—HAt vero D. Thom.
+          <lb ed="#P" n="61"/>2.2. q. 188, art. 7, neutram paupertatem 
+          pu<lb break="no" ed="#P" n="62"/>tat simpliciter esse praeferendam, sed illam
+          <lb ed="#P" n="63"/>quae fuerit magis accommodata filiis 
+          religio<lb break="no" ed="#P" n="64"/>nis ; nam cum paupertas non propter se 
+          spec<lb break="no" ed="#P" n="65"/>tatur, sed praecise ut medium ad finem 
+          per<lb break="no" ed="#P" n="66"/>fectionis, non semper illa paupertas est 
+          me<lb break="no" ed="#P" n="67"/>lior quae est major, sed quae est magis 
+          pro<lb break="no" ed="#P" n="68"/>portionata ad finem , nam in hoc consistit
+          <lb ed="#P" n="69"/>perfectio ejus. Distinguit ergo tres ordines,
+          <lb ed="#P" n="70"/>seu fines religionum. Quaedam enim sunt
+          <lb ed="#P" n="71"/>principaliter activae, circa opera corporalia,
+          <lb ed="#P" n="72"/>ut hospitalitatis, militiae, etc., et in his ait
+          <lb ed="#P" n="73"/>melius esse habere in communi bona ctiam
+          <lb ed="#P" n="74"/>copiosa, quia ad illum finem necessaria sunt.
+          <lb ed="#P" n="75"/>Aliae vero sunt religiones, quae ad vitam 
+          tan<lb break="no" ed="#P" n="76"/>tum contemplativam ordinantur; et in his
+          <lb ed="#P" n="77"/>etiam ait, conveniens esse habere possessiones
+          <lb ed="#P" n="78"/>in communi moderatas, quia illo modo 
+          suffi<lb break="no" ed="#P" n="79"/>cienter tollitur sollicitudo temporalium 
+          re<lb break="no" ed="#P" n="80"/>rum, quatenus ad illum finem necessarium
+          <lb ed="#P" n="81"/>est. Aliee denique sunt religiones, quae non
+          <lb ed="#P" n="82"/>solum ad contemplandum, sed etiam ad 
+          con<lb break="no" ed="#P" n="83"/>templata alüs tradendum institutae sunt; et
+          <lb ed="#P" n="84"/>in his ait paupertatem, tam in particulari,
+          <lb ed="#P" n="85"/>quam in communi, esse praeferendam ; quia
+          <lb ed="#P" n="86"/>ille status indiget minima sollicitudine 
+          tem<lb break="no" ed="#P" n="87"/>porali; hoc autem paupertatis genus 
+          mini<lb break="no" ed="#P" n="88"/>mam sollicitudinem relinquit , omnino enim
+          <lb ed="#P" n="89"/>illam auferre hujus vitae status non permittit.
+          <lb ed="#P" n="90"/>Siquis autem recte consideret, ex hac doctrina
+          <lb ed="#P" n="91"/>D. Thom. colligituf, absolute et simpliciter
+          <lb ed="#P" n="92"/>loquendo, hoc ultimum paupertatis genus 
+          es<lb break="no" ed="#P" n="93"/>se perfectius caeteris, quia ille tertius ordo
+          <lb ed="#P" n="94"/>religionum et finis ejus est caeteris perfectior ;
+          <lb ed="#P" n="95"/>ergo paupertas illi proportionata est etiam
+          <lb ed="#P" n="96"/>perfectior caeteris.
+        </p>
+        <p xml:id="szovsr-p15181-d1e273">
+          <lb ed="#P" n="97"/>3. Tertia opinio. — Favet Conciliumn 
+          Tri<lb break="no" ed="#P" n="98"/>dentinum. — Nihilominus non defuerunt viri
+          <lb ed="#P" n="99"/>docti, et sectatores D. Thomae, qui, absolute
+          <lb ed="#P" n="100"/>loquendo, censeant esse melius secundum
+          <lb ed="#P" n="101"/>genus paupertatis, etiam his religionibus,
+          <lb ed="#P" n="102"/>quae ad contemplandum, et ad contemplata
+          <lb ed="#P" n="103"/>aliis communicanda ordinantur. À qua 
+          sen<lb break="no" ed="#P" n="104"/>tentia non multum discrepat Cajetan., circa
+          <lb ed="#P" n="105"/>d. art. 7 D. Thom.; nam, licet dicat 
+          simplici<lb break="no" ed="#P" n="106"/>ter melius esse his religionibus non habere
+          <lb ed="#P" n="107"/>possessiones in communi, sed vivere ex elee-
+          <pb ed="#P" n="610"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>mosynis, tamen ad hoc requirit et magnam
+          <lb ed="#P" n="2"/>moderationem in religiosorum numero, et
+          <lb ed="#P" n="3"/>magnam perfectionem in vita eorum; unde
+          <lb ed="#P" n="4"/>secundum praesentem statum convenientius
+          <lb ed="#P" n="5"/>esse habere possessiones in communi. Id 
+          ve<lb break="no" ed="#P" n="6"/>ro expressius docuit Ferrar., 3 Cont. gentes,
+          <lb ed="#P" n="7"/>cap. 133, in fine, dicens : Qui hac tempestate,
+          <lb ed="#P" n="8"/>frigescente an hominibus charitate , et 
+          veligio<lb break="no" ed="#P" n="9"/>nibus, que paupertatem voluntariam sectantur,
+          <lb ed="#P" n="10"/>multiplicatis, non possunt religiosi ab alàs
+          <lb ed="#P" n="11"/>sustentationem vitae acquirere, nisi cum magna
+          <lb ed="#P" n="12"/>sollicitudine, et mentis disiractione, quee a 
+          spi<lb break="no" ed="#P" n="13"/>ritualum contemplatione eos retrahi necesse
+          <lb ed="#P" n="14"/>est - idcirco convenientius fortassis est ut 
+          ha<lb break="no" ed="#P" n="15"/>beant àn communi, unde vite necessaria habere
+          <lb ed="#P" n="16"/>possint, quam ut mendicitati dent operam. Ubi
+          <lb ed="#P" n="17"/>non ex parte uniuscujusque religionis, sed ex
+          <lb ed="#P" n="18"/>parte secularium, et ex multitudine 
+          religio<lb break="no" ed="#P" n="19"/>num rationem hujus majoris congruentiae 
+          as<lb break="no" ed="#P" n="20"/>sumit. Eamdem sententiam latius 
+          amplecti<lb break="no" ed="#P" n="21"/>tur Soto, lib. 3 de Justitia, q. 5, art. 3, 
+          con<lb break="no" ed="#P" n="22"/>clus. 2, ubi conjungit utrasque causas ab aliis
+          <lb ed="#P" n="23"/>auctoribus tactas. Idem Viguerius, in 
+          Sum<lb break="no" ed="#P" n="24"/>ma, cap. 17, 1, vers. J9. Huic sententiae 
+          vi<lb break="no" ed="#P" n="25"/>detur favere Concilium Tridentinum, sess. 25,
+          <lb ed="#P" n="26"/>cap. 3, de Regularibus, ubi omnibus 
+          monas<lb break="no" ed="#P" n="27"/>teriis et domibus religionum , etiam 
+          mendi<lb break="no" ed="#P" n="28"/>cantium , concedit ut possint habere 
+          immo<lb break="no" ed="#P" n="29"/>bilia bona, etiamsi ex instituto, et quocumque
+          <lb ed="#P" n="30"/>alio modo illis esset prohibitum, exceptis so
+          <lb ed="#P" n="31"/>lis fratribus Minoribus de Observantia, et 
+          Ca<lb break="no" ed="#P" n="32"/>puccinis. Per quod decretum significavit ,
+          <lb ed="#P" n="33"/>hunc modum vivendi ex possessionibus 
+          com<lb break="no" ed="#P" n="34"/>munibus regulariter esse magis 
+          convenien<lb break="no" ed="#P" n="35"/>tem; excepit autem Minores, tum propter
+          <lb ed="#P" n="36"/>singularem illius religionis professionem;
+          <lb ed="#P" n="37"/>tum etiam quia non expediebat hoc 
+          institu<lb break="no" ed="#P" n="38"/>tum ounino auferre a statu religionis ; tum
+          <lb ed="#P" n="39"/>denique quia si hic modus paupertatis in 
+          pau<lb break="no" ed="#P" n="40"/>cioribus religionibus observetur, facilius 
+          po<lb break="no" ed="#P" n="41"/>terit, cum augmento perfectionis, in una vel
+          <lb ed="#P" n="42"/>altera religione observari.
+        </p>
+        <p xml:id="szovsr-p15181-d1e395">
+          <lb ed="#P" n="43"/>4. Assertio : Paupertas bonorum stabilium,
+          <lb ed="#P" n="44"/>tam in particulari, quam in communi, est 
+          per<lb break="no" ed="#P" n="45"/>factior in religiosis Apostolicis. — Hanc 
+          pro<lb break="no" ed="#P" n="46"/>fitetur paupertatem religio D. Francisci. —
+          <lb ed="#P" n="47"/>Item Societas Jesu professa. — Probatur. —
+          <lb ed="#P" n="48"/>In hac re dicendum censeo in his religiosis,
+          <lb ed="#P" n="49"/>qui statum Apostolicum profitentur, non 
+          so<lb break="no" ed="#P" n="50"/>lum propriam unionem cum Deo per 
+          contem<lb break="no" ed="#P" n="51"/>plationem, sed etiam proximorum 
+          spiritua<lb break="no" ed="#P" n="52"/>lem fructum quaerendo, perfectiorem esse
+          <lb ed="#P" n="53"/>paupertatem, tam in particulari, quam in
+          <lb ed="#P" n="54"/>communi, quoad stabiles reditus, vel 
+          posses<lb break="no" ed="#P" n="55"/>siones ex quibus illi percipiantur, per se lo-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quendo, et ex vi status : ita loquiturD. Thom.,
+          <lb ed="#P" n="57"/>et in Opusc. 17 et seq.. id late defendit; et
+          <lb ed="#P" n="58"/>S. Bonavent., tom. 1 Opusculorum, opusc. 17,
+          <lb ed="#P" n="59"/>de Christi paupertate, S Queritur de 
+          mendi<lb break="no" ed="#P" n="60"/>catione. Quod nobis satis confirmat 
+          exem<lb break="no" ed="#P" n="61"/>plum Christi, et Collegii Apostolici, de quo
+          <lb ed="#P" n="62"/>supra dictum est. Cui accedit esempium S.
+          <lb ed="#P" n="63"/>Francisci, et D. Dominici, qui videntur fuisse
+          <lb ed="#P" n="64"/>primi institutores hujusmodi religionum 
+          men<lb break="no" ed="#P" n="65"/>dicantium, quae ad spiritualia ministeria 
+          pro<lb break="no" ed="#P" n="66"/>ximorum aliquo modo ordinantur ; nam, licet
+          <lb ed="#P" n="67"/>aliquae religiones , quae nunc observant hoc
+          <lb ed="#P" n="68"/>genus instituti, existimentur antiquiores, 
+          ta<lb break="no" ed="#P" n="69"/>men quoad hunc vivendi modum fortasse
+          <lb ed="#P" n="70"/>sunt posteriores, ut postea videbimus. 
+          Quan<lb break="no" ed="#P" n="71"/>tum autem D. Franciscus hanc paupertatem
+          <lb ed="#P" n="72"/>amaverit, satis per se notum est. De divo 
+          au<lb break="no" ed="#P" n="73"/>tem Dominico refert Bonaventura supra, in
+          <lb ed="#P" n="74"/>morte sua imprecatum esse omnibus 
+          male<lb break="no" ed="#P" n="75"/>dictionem, qui in ordinem suum possessiones
+          <lb ed="#P" n="76"/>conarentur inducere; quanquam non 
+          videa<lb break="no" ed="#P" n="77"/>tur specialem regulam de hoc constituisse,
+          <lb ed="#P" n="78"/>sicut B. Franciscus, et ideo a toto ordine 
+          post<lb break="no" ed="#P" n="79"/>ea statutum fuit Parisiis, in capitulo generali
+          <lb ed="#P" n="80"/>celebrato anno 1228, et habetur in eorum
+          <lb ed="#P" n="81"/>constitutionibus, distinct. 2, cap. 20, lect. 3.
+          <lb ed="#P" n="82"/>Denique (ut alia omittamus) Societas Jesu
+          <lb ed="#P" n="83"/>professa, sicut in praedicto fine et modo 
+          reli<lb break="no" ed="#P" n="84"/>gionis Apostolos imitatur, ita modum ilium
+          <lb ed="#P" n="85"/>paupertatis, approbante Sede Apostolica, 
+          pro<lb break="no" ed="#P" n="86"/>fitetur, et non solum per solemne votum 
+          il<lb break="no" ed="#P" n="87"/>lam promittit, sed etiam novo voto, quasi 
+          re<lb break="no" ed="#P" n="88"/>flexo, promittit nunquam consentire, 
+          quan<lb break="no" ed="#P" n="89"/>tum in se est, ut talis paupertas immutetur
+          <lb ed="#P" n="90"/>et minuatur ; quam institutionem specialiter
+          <lb ed="#P" n="91"/>postea declarabimus et confirmabimus. Nunc
+          <lb ed="#P" n="92"/>sufficit nobis ratio D. Thomae, quia hic modus
+          <lb ed="#P" n="93"/>vivendi de se liberior est a cura et 
+          sollicitu<lb break="no" ed="#P" n="94"/>dine temporalium rerum. Sed quia in hoc
+          <lb ed="#P" n="95"/>potest esse nonnullum humanum arbitrium,
+          <lb ed="#P" n="96"/>quid scilicet majorem solhcitudinem 
+          requi<lb break="no" ed="#P" n="97"/>rat, administratio propriarum possessionum
+          <lb ed="#P" n="98"/>communitatis, vel mendicatio 
+          eleemosyna<lb break="no" ed="#P" n="99"/>rum pro tota communitate, addo in hoc 
+          du<lb break="no" ed="#P" n="100"/>bio, et in aequilibrio, vel etiam si de 
+          aequali<lb break="no" ed="#P" n="101"/>tate utrinque constaret, praeferendam esse
+          <lb ed="#P" n="102"/>paupertatem in communi, tum propterChristi
+          <lb ed="#P" n="103"/>exemplum ; tum quia ex se habet adjunctum
+          <lb ed="#P" n="104"/>exercitium plurium virtutum, humilitatis, 
+          pa<lb break="no" ed="#P" n="105"/>tientiae, confidentiae in Deo, etc. ; tum 
+          deni<lb break="no" ed="#P" n="106"/>que quia de se est aptior ad 
+          communicatio<lb break="no" ed="#P" n="107"/>nem proximorum, et ideo quamvis ex parte
+          <lb ed="#P" n="108"/>sollicitudinis esset aequalitas ( quod etiam non
+          <lb ed="#P" n="109"/>admittimus), in tali statu praeferenda est. 
+          Un<lb break="no" ed="#P" n="110"/>de obiter adverto, cum D. Thomas ait pau-
+          <pb ed="#P" n="611"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pertatem deservire perfectioni, quatenus 
+          au<lb break="no" ed="#P" n="2"/>fert sollicitudinem bonorum temporalium,
+          <lb ed="#P" n="3"/>non excludere omnem aliam utilitatem, sed
+          <lb ed="#P" n="4"/>assignare primariam causam, propter quam
+          <lb ed="#P" n="5"/>non solum utilis, sed etiam necessaria est
+          <lb ed="#P" n="6"/>paupertas ; praeter eam vero posse habere
+          <lb ed="#P" n="7"/>alias utilitates, ut explicatum est.
+        </p>
+        <p xml:id="szovsr-p15181-d1e567">
+          <lb ed="#P" n="8"/>5. Assertio secunda.—CQuanquam autem hoc
+          <lb ed="#P" n="9"/>ita sit, negari non potest quin, loquendo in
+          <lb ed="#P" n="10"/>particulari de hac vel illa religione, possit, 
+          ra<lb break="no" ed="#P" n="11"/>tione circumstantiarum, esse illi magis 
+          expe<lb break="no" ed="#P" n="12"/>diens habere possessiones moderatas in 
+          com<lb break="no" ed="#P" n="13"/>muni. Et hoc maxime intendunt auctores 
+          ci<lb break="no" ed="#P" n="14"/>tati, et hoc ad summum probant eorum 
+          con<lb break="no" ed="#P" n="15"/>jecturae. Quibus nos addimus primum, non
+          <lb ed="#P" n="16"/>omnes illas circumstantias, vel incommoda
+          <lb ed="#P" n="17"/>quae illi auctores proponunt, inveniri in omni
+          <lb ed="#P" n="18"/>religione quae hanc paupertatem profitetur, et
+          <lb ed="#P" n="19"/>si in aliqua inveniuntur, non in omnibus 
+          mo<lb break="no" ed="#P" n="20"/>nasteriis, neque in pluribus. Deinde si 
+          alicu<lb break="no" ed="#P" n="21"/>bi inveniantur, vel paulatim introducantur,
+          <lb ed="#P" n="22"/>non propterea statim immutandam esse 
+          pau<lb break="no" ed="#P" n="23"/>pertatem, sed alia remedia esse adhibenda ,
+          <lb ed="#P" n="24"/>et totis viribus conandum ut talis paupertas
+          <lb ed="#P" n="25"/>conservetur, quia revera esse potest occasio
+          <lb ed="#P" n="26"/>multarum virtutum, et valde proportionatae
+          <lb ed="#P" n="27"/>tali statui. Ubi autem ob diuturnam 
+          experien<lb break="no" ed="#P" n="28"/>tiam aliud expedire judicatum fuerit, et ideo
+          <lb ed="#P" n="29"/>legitima auctoritate fuerit introductum vel
+          <lb ed="#P" n="30"/>immnutatum, reprehendi non poterit, sed 
+          lau<lb break="no" ed="#P" n="31"/>dari; nec timendum est quod ob eam rem
+          <lb ed="#P" n="32"/>substantialis perfectio minuatur.
+        </p>
+        <p xml:id="szovsr-p15181-d1e624">
+          <lb ed="#P" n="33"/>6. Dubitatio specialis, circa providentiam 
+          bo<lb break="no" ed="#P" n="34"/>norum mobilmn. — Resolutio.— Hic vero 
+          ul<lb break="no" ed="#P" n="35"/>terius inquiri potest, an in hujusmodi 
+          religio<lb break="no" ed="#P" n="36"/>nibus, quae hanc paupertatem profitentur, per«
+          <lb ed="#P" n="37"/>fectius sit non solum immobilia bona non 
+          pos<lb break="no" ed="#P" n="38"/>sidere, verum etiam neque ex rebus usu 
+          con<lb break="no" ed="#P" n="39"/>sumptibilibus in futuram tempus provideri ,
+          <lb ed="#P" n="40"/>eas scilicet congregando pro temporibus 
+          op<lb break="no" ed="#P" n="41"/>portunis. Omissis enim haereticis, qui hoc 
+          pu<lb break="no" ed="#P" n="42"/>tarunt per se esse illicitum, contra quos satis
+          <lb ed="#P" n="43"/>is superioribus dictum est, non desunt 
+          religio<lb break="no" ed="#P" n="44"/>si, qui putent pertinere ad majorem 
+          perfectio<lb break="no" ed="#P" n="45"/>nem, nihil providere in futurum, sed in diem
+          <lb ed="#P" n="46"/>vivere, petendo quotidie eleemosynas pro
+          <lb ed="#P" n="47"/>singulis diebus necessarias. Sed, quamvis hoc
+          <lb ed="#P" n="48"/>fortasse possit alicubi cum fructu, vel sine 
+          re<lb break="no" ed="#P" n="49"/>prehensione servari, loquendo tamen 
+          mora<lb break="no" ed="#P" n="50"/>liter ac regulariter, prout de rebus humanis
+          <lb ed="#P" n="51"/>judicandum est, ille modus vivendi nec est
+          <lb ed="#P" n="52"/>expediens, neque consulendus , et ideo D.
+          <lb ed="#P" n="53"/>Thom. supra prudenter dixit : Minimam 
+          sol<lb break="no" ed="#P" n="54"/>licitudinem ingerit servare res usui hominum
+          <lb ed="#P" n="55"/>necessarias, tempore congruo procuratas ; et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>infra inquit : Et hoc Dominus paupertatis 
+          in<lb break="no" ed="#P" n="57"/>stitutor docuit suo exemplc ; hahebat enim 
+          lo<lb break="no" ed="#P" n="58"/>culos Judee commissos, in quibus recondebantur
+          <lb ed="#P" n="59"/>ei oblata, Joan. 12, ubi August., tract. 50:
+          <lb ed="#P" n="60"/>E«vemplum Domini accipe conversantis in 
+          ter<lb break="no" ed="#P" n="61"/>ra; et tract. 62 : Habebat Dominus loculos, et
+          <lb ed="#P" n="62"/>a fidelibus oblata conservans, et suorum 
+          neces<lb break="no" ed="#P" n="63"/>sitatibus, et aliis indigentibus tribuebat, tum
+          <lb ed="#P" n="64"/>primum Hcclesiastice pecunie forma est 
+          in<lb break="no" ed="#P" n="65"/>stitua, quae cum aliis multis referuntur, 12,
+          <lb ed="#P" n="66"/>q. 1, et ex lib. Augustini de Opere monach.
+          <lb ed="#P" n="67"/>Multa ad hoc confirmandum assumi possunt,
+          <lb ed="#P" n="68"/>ei ex consuetudine omnium religionum, et
+          <lb ed="#P" n="69"/>specialiter de religione Minorum declaratum
+          <lb ed="#P" n="70"/>est a Summis Pontificibus, in cap. Eaiit, et
+          <lb ed="#P" n="71"/>alis decretis supra citatis. Denique, 
+          conside<lb break="no" ed="#P" n="72"/>rata hominum conditione et indigentia, et
+          <lb ed="#P" n="73"/>temporum et actionum varietate, est aut 
+          mo<lb break="no" ed="#P" n="74"/>raliter impossibile communitatem religiosam
+          <lb ed="#P" n="75"/>sustentare, omnibusque illius necessitatibus
+          <lb ed="#P" n="76"/>subvenire, vel certe est adeo difficile, ut sine
+          <lb ed="#P" n="77"/>magna distractione et inquietudine, ac 
+          peri<lb break="no" ed="#P" n="78"/>culo religiosorum fieri non possit.
+        </p>
+        <p xml:id="szovsr-p15181-d1e728">
+          <lb ed="#P" n="79"/>7. Ultima dubitatio : an sit perfectius non 
+          ha<lb break="no" ed="#P" n="80"/>bere dominium in communi, etiam istorum 
+          bo<lb break="no" ed="#P" n="81"/>norum moblilium. — Paupertias in communi
+          <lb ed="#P" n="82"/>quoad immolilia est mediun per se ad 
+          perfec<lb break="no" ed="#P" n="83"/>tionem. — Tandem inquiri potest an per se
+          <lb ed="#P" n="84"/>spectet ad majorem perfectionem habere haec
+          <lb ed="#P" n="85"/>ipsa bona mobilia, absque dominio 
+          commu<lb break="no" ed="#P" n="86"/>nitaüs, etiam pro illo tempore quo 
+          possiden<lb break="no" ed="#P" n="87"/>tur et conservantur ; nam fratres Minores hoc
+          <lb ed="#P" n="88"/>punctum paupertatis, tanquam sibi proprium,
+          <lb ed="#P" n="89"/>et ad sui status perfectionem maxime 
+          perti<lb break="no" ed="#P" n="90"/>nens, defendunt ; quibus in hac parte favet
+          <lb ed="#P" n="91"/>Nicolaus IV, et Clemens V., in locis supra ci-"
+          <lb ed="#P" n="92"/>tatis ; Joannes autem XXII, in citatis etiam
+          <lb ed="#P" n="93"/>Extravagantibus de Verborum significatione,
+          <lb ed="#P" n="94"/>videtur hoc genus paupertatis pro nihilo 
+          du<lb break="no" ed="#P" n="95"/>cere, vel potius tanquam moraliter 
+          impossi<lb break="no" ed="#P" n="96"/>bile refutare. Verumtamen haec controversia,
+          <lb ed="#P" n="97"/>et in 2 tom. tertiae partis, et in superioribus,
+          <lb ed="#P" n="98"/>sufficienter tacta est. Non censemus enim ad
+          <lb ed="#P" n="99"/>moralem usum, et ad profectum perfectionis
+          <lb ed="#P" n="100"/>esse magni momenti. Quamvis enim non 
+          nege<lb break="no" ed="#P" n="101"/>mus professionem illius paupertatis esse 
+          pos<lb break="no" ed="#P" n="102"/>sibilem, et amorem ejus sanctum esse, et posse
+          <lb ed="#P" n="103"/>habere optimos spirituales effectus, et ex hac
+          <lb ed="#P" n="104"/>parte posse ad majorem perfectionem juvare,
+          <lb ed="#P" n="105"/>sicut conferre possunt omnes boni affectus et
+          <lb ed="#P" n="106"/>actus virtutum , nihilominus non existimamus
+          <lb ed="#P" n="107"/>hanc carentiam dominii quoad hoc punctum
+          <lb ed="#P" n="108"/>per se pertinere ad eam paupertatem, quae
+          <lb ed="#P" n="109"/>est instrumentum perfectionis acquirendae.
+          <lb ed="#P" n="110"/>Aliud est enim esse objectum, vel effectum
+          <pb ed="#P" n="612"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bonum, et honestum, et accommodatum 
+          sta<lb break="no" ed="#P" n="2"/>tui perfectionis, quia cum illa esse potest, et
+          <lb ed="#P" n="3"/>per se non excludit aliquid melius. Quod 
+          to<lb break="no" ed="#P" n="4"/>tum admittimus in illo gradu seu puncto 
+          pau<lb break="no" ed="#P" n="5"/>pertatis. Aliud vero est esse medium per se
+          <lb ed="#P" n="6"/>ordinatum et moraliter necessarium ad 
+          per<lb break="no" ed="#P" n="7"/>fectionem acquirendam in quocumque 
+          gra<lb break="no" ed="#P" n="8"/>du perfectionis, et juxta perfectissimum finem
+          <lb ed="#P" n="9"/>religiosi status; et sic negamus illum gradum
+          <lb ed="#P" n="10"/>paupertatis pertinere ad majorem 
+          perfectio<lb break="no" ed="#P" n="11"/>nem. Cujus ratio est, quia habere vel non 
+          ha<lb break="no" ed="#P" n="12"/>bere dominium illo modo, nec refert aliquid
+          <lb ed="#P" n="13"/>ad augendam vel minuendam sollicitudinem
+          <lb ed="#P" n="14"/>rerum temporalium, neque etiam confert ad
+          <lb ed="#P" n="15"/>actus aliarum virtutum exercendos, vel 
+          hu<lb break="no" ed="#P" n="16"/>militatis, patientiae, et similes ad 
+          perfectio<lb break="no" ed="#P" n="17"/>nem valde utiles. Declaratur hoc primo ex
+          <lb ed="#P" n="18"/>differentia inter mobilia bona et immobilia ;
+          <lb ed="#P" n="19"/>nam immobilia sicut non habentur sub 
+          domi<lb break="no" ed="#P" n="20"/>nio, ita nec possidentur, nec administrantur a
+          <lb ed="#P" n="21"/>tali religione, quia possessa et administrata,
+          <lb ed="#P" n="22"/>non minorem sollicitudinem afferrent, quam
+          <lb ed="#P" n="23"/>si essent propria ; nec etiam minus 
+          impedi<lb break="no" ed="#P" n="24"/>rent incertam mendicitatem, seu indigentiam
+          <lb ed="#P" n="25"/>eleemosynarum. et ideo paupertas in 
+          commu<lb break="no" ed="#P" n="26"/>ni quoad bona immobilia est medium per se
+          <lb ed="#P" n="27"/>conferens ad perfectionem, minuendo 
+          solli<lb break="no" ed="#P" n="28"/>citudinem temporalem, et praebendo 
+          occasio<lb break="no" ed="#P" n="29"/>nem mendicitatis, et earum virtutum quae
+          <lb ed="#P" n="30"/>cum illa conjunctae sunt. At vero mobilia bona
+          <lb ed="#P" n="31"/>necessaria ad victum et vestitum humanum,
+          <lb ed="#P" n="32"/>quantumcumque dicantur non haberi sub 
+          do<lb break="no" ed="#P" n="33"/>minio communitatis , nihilominus excludi
+          <lb ed="#P" n="34"/>non potest, quin convenienti modo, et 
+          op<lb break="no" ed="#P" n="35"/>portuno tempore congregentur , et 
+          conse<lb break="no" ed="#P" n="36"/>quenter possideantur, custodiantur, 
+          adminis<lb break="no" ed="#P" n="37"/>trentur, et suis temporibus dispensentur, 
+          ex<lb break="no" ed="#P" n="38"/>pendantur, et consumantur a communitate,
+          <lb ed="#P" n="39"/>vel nomine communitatis. Quae omnia nec
+          <lb ed="#P" n="40"/>majori Sllicitudine fiunt propter illam 
+          caren<lb break="no" ed="#P" n="41"/>tiam dominii, ut per se constat , quia tam
+          <lb ed="#P" n="42"/>fideliter administranda sunt illa bona, quam
+          <lb ed="#P" n="43"/>si essent propria; neque etiam illa bona cum
+          <lb ed="#P" n="44"/>dominio possessa magis excludunt incertam
+          <lb ed="#P" n="45"/>mendicitatem ; nam per eamdem obtinentur,
+          <lb ed="#P" n="46"/>sive cum dominio, sive absque illo 
+          acquiran<lb break="no" ed="#P" n="47"/>tur.
+        </p>
+        <p xml:id="szovsr-p15181-d1e906">
+          <lb ed="#P" n="48"/>8. Duplex genus bonorum immobiluum. —
+          <lb ed="#P" n="49"/>Ex quibus duo in hac materia observanda
+          <lb ed="#P" n="50"/>elicio : unum pertinet ad bona immobilia,
+          <lb ed="#P" n="51"/>quorum carentiam in communi diximus per
+          <lb ed="#P" n="52"/>se pertinere ad majorem perfectionem ; 
+          in<lb break="no" ed="#P" n="53"/>telligendum enim hoc est de illis bonis, quae
+          <lb ed="#P" n="54"/>ad hunc finem habentur, ut ex eorum 
+          fruc<lb break="no" ed="#P" n="55"/>tibus , seu reditibus religiosi alantur ; nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>haec bona sunt quae sollicitudinem evitabilem
+          <lb ed="#P" n="57"/>( ut sic dicam) afferunt, et incertam 
+          mendici<lb break="no" ed="#P" n="58"/>tatem excludunt. Sunt vero alia bona 
+          immo<lb break="no" ed="#P" n="59"/>bilia, quae solum ad necessarium usum 
+          pos<lb break="no" ed="#P" n="60"/>sidentur, ut est domus ad habitandum, et
+          <lb ed="#P" n="61"/>Ecclesia ad Deo et proximis ministrandum ;
+          <lb ed="#P" n="62"/>et si quid aliud est simile; et haec necessario
+          <lb ed="#P" n="63"/>possidenda sunt, conservanda , et debite 
+          ad<lb break="no" ed="#P" n="64"/>ministranda. Quod si haec aliquam 
+          sollicitudi<lb break="no" ed="#P" n="65"/>nem afferunt, illa excusabilis humano modo
+          <lb ed="#P" n="66"/>non est; suppono enim talia bona cum debita
+          <lb ed="#P" n="67"/>moderatione possideri et administrari, et
+          <lb ed="#P" n="68"/>ideo carentia eorum quoad possessionem et
+          <lb ed="#P" n="69"/>administrationem respectu communitatis non
+          <lb ed="#P" n="70"/>pertinet ad perfectionem. Et consequenter,
+          <lb ed="#P" n="71"/>quod communitas habeat dominium talium
+          <lb ed="#P" n="72"/>bonorum, vel quod dicatur esse apud 
+          Pontifi<lb break="no" ed="#P" n="73"/>cem, per se non est medium necessarium ad
+          <lb ed="#P" n="74"/>majorem perfectionem , quia tale dominium
+          <lb ed="#P" n="75"/>per se neque auget, nec minuit 
+          sollicitudi<lb break="no" ed="#P" n="76"/>nem, nec impedit mendicitatem , aut aliud
+          <lb ed="#P" n="77"/>exercitium externum virtutis, quod possit ad
+          <lb ed="#P" n="78"/>perfectionem juvare.
+        </p>
+        <p xml:id="szovsr-p15181-d1e979">
+          <lb ed="#P" n="79"/>9. Aliud illatum pertinet ad quaestum, seu
+          <lb ed="#P" n="80"/>congregationem pecuniarum vel aliorum 
+          bo<lb break="no" ed="#P" n="81"/>norum mobilium; nam, licet verum sit, hoc
+          <lb ed="#P" n="82"/>per se non impedire statum perfectionis 
+          hu<lb break="no" ed="#P" n="83"/>manae, quia est moraliter necessarium ad 
+          vi<lb break="no" ed="#P" n="84"/>tam humanam sustentandam , nihilominus
+          <lb ed="#P" n="85"/>necesse est ut in hoc moderatio paupertati
+          <lb ed="#P" n="86"/>accommodata diligenter observetur : quod
+          <lb ed="#P" n="87"/>maxime commendant Pontifices in d. capit.
+          <lb ed="#P" n="88"/>Hoaiit, et Clemen. Eivit, quia si in hoc 
+          ge<lb break="no" ed="#P" n="89"/>nere quaestus permittantur excessus, et 
+          ma<lb break="no" ed="#P" n="90"/>jorem multo sollicitudinem afferre potest,
+          <lb ed="#P" n="91"/>quam possessionum divitia , et moraliter
+          <lb ed="#P" n="92"/>etiam potest excludere indigentiam, et 
+          in<lb break="no" ed="#P" n="93"/>certam mendicitatem, saltem pro multo 
+          tem<lb break="no" ed="#P" n="94"/>pore. Et ideo, cum dicimus possessionem 
+          ho<lb break="no" ed="#P" n="95"/>rum bonorum mobilium, et eorum 
+          acquisi<lb break="no" ed="#P" n="96"/>tionem et conservationem non repugnare
+          <lb ed="#P" n="97"/>perfectioni paupertatis, intelligendum est de
+          <lb ed="#P" n="98"/>possessione et supellectili accommodata 
+          sta<lb break="no" ed="#P" n="99"/>tui paupertatis juxta uniuscujusque religionis
+          <lb ed="#P" n="100"/>regulam et institutionem, et similiter de 
+          pru<lb break="no" ed="#P" n="101"/>denti jprovidentia in praeveniendis seu 
+          con<lb break="no" ed="#P" n="102"/>gregandis hujusmodi rebus, temporibus 
+          op<lb break="no" ed="#P" n="103"/>portunis, et conservandis solum pro eo 
+          tem<lb break="no" ed="#P" n="104"/>pore quod juxta rerum conditionem, et 
+          cir<lb break="no" ed="#P" n="105"/>cumstantias locorum ac temporum, moraliter
+          <lb ed="#P" n="106"/>fuerit existimatum necessarium , aut valde
+          <lb ed="#P" n="107"/>conveniens. In quo praeter regulam 
+          uniuscu<lb break="no" ed="#P" n="108"/>jusque instituti ( quae servanda est, si aliquid
+          <lb ed="#P" n="109"/>in hoc disposuerit ), nullam aliam praebere
+          <lb ed="#P" n="110"/>possumus, praeter prudentiam et bonam in-
+          <pb ed="#P" n="613"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tentionem Praelatorum, et aliarum 
+          persona<lb break="no" ed="#P" n="2"/>rum ad quarum sollicitudinem monasterii
+          <lb ed="#P" n="3"/>sustentatio pertinuerit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

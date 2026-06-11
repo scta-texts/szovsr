@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="155"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p38707"><!-- t7l2c9 -->
+        <head xml:id="szovsr-p38707-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-p38707-Hd1e103" type="question-title">Ratione ostenditur traditionem religiosam ex solo jure naturali non irritare subsequens matrimonium.</head>
+        <p xml:id="szovsr-p38707-d1e106">
+          <lb ed="#P" n="33"/>CAPUT IX.
+          <lb ed="#P" n="34"/>RATIONE OSTENDITUR TRADITIONEM RELIGIOSAM
+          <lb ed="#P" n="35"/>EX SOLO JURE NATURALI NON IRRITARE 
+          SUB<lb break="no" ed="#P" n="36"/>SEQUENS MATRIMONIUM.
+        </p>
+        <p xml:id="szovsr-p38707-d1e117">
+          <lb ed="#P" n="37"/>1. Utrum traditio sit de jure divino. — 
+          Ulti<lb break="no" ed="#P" n="38"/>mo, ne solis exemplis vel auctoritate niti 
+          vi<lb break="no" ed="#P" n="39"/>deamur, ratione sententia illa improbanda
+          <lb ed="#P" n="40"/>est. Duo autem dicit principaliter : unum est,
+          <lb ed="#P" n="41"/>traditionem illam, qua religioni in Dei 
+          obse<lb break="no" ed="#P" n="42"/>quium fit, de jure divino esse necessariam
+          <lb ed="#P" n="43"/>ad statum religiosum constituendum , 
+          quam<lb break="no" ed="#P" n="44"/>vis modus faciendi illam , per Ecclesiam 
+          de<lb break="no" ed="#P" n="45"/>terminetur; alterum est, traditionem illam
+          <lb ed="#P" n="46"/>semel factam ex ipso jure naturae reddere
+          <lb ed="#P" n="47"/>personam inhabilem ad matrimonium valide
+          <lb ed="#P" n="48"/>contrahendum. Et de primo quidem nunc non
+          <lb ed="#P" n="49"/>multum contendimus : in bono enim sensu
+          <lb ed="#P" n="50"/>concedere possumus esse de jure divino, ut
+          <lb ed="#P" n="51"/>status religionis per traditionem propriae 
+          per<lb break="no" ed="#P" n="52"/>sonae, talem statum assumentis, factam in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>manu alicujus, qui illam acceptet, et per 
+          il<lb break="no" ed="#P" n="54"/>lam peculiare jus in personam religiosam 
+          ac<lb break="no" ed="#P" n="55"/>quirat, constituatur; sive illa traditio sit 
+          sim<lb break="no" ed="#P" n="56"/>pliciter necessaria ad statum religiosuin, et
+          <lb ed="#P" n="57"/>de illius essentia, sive pertineat ad quamdam
+          <lb ed="#P" n="58"/>veluti speciem ejus, seu peculiarem modum
+          <lb ed="#P" n="59"/>constituendi illum statum. Quia fortasse 
+          po<lb break="no" ed="#P" n="60"/>test etiam sine illa per sola tria vota alio
+          <lb ed="#P" n="61"/>modo constitui; et forte aliquando usitatum
+          <lb ed="#P" n="62"/>ita fuit, licet nunc non sit in usu, de qua re
+          <lb ed="#P" n="63"/>infra, tractando de origine hujus status, et de
+          <lb ed="#P" n="64"/>modo illum profitendi tractandum erit. Juxta
+          <lb ed="#P" n="65"/>hunc autem posteriorem dicendi modum, qui
+          <lb ed="#P" n="66"/>satis probabilis est , non potest traditio illa
+          <lb ed="#P" n="67"/>ita de jure divino reputari, ut jus divinum
+          <lb ed="#P" n="68"/>statuerit vel instituerit statum religiosum illo
+          <lb ed="#P" n="69"/>modo determinate faciendum, sed vel illo vel
+          <lb ed="#P" n="70"/>alio sufticiet. Atque illa traditio non ut 
+          exis<lb break="no" ed="#P" n="71"/>tens (ut sic dicam ), sed ut possibilis erit de
+          <lb ed="#P" n="72"/>jure divino, vel ( quod in idem redit) potius
+          <lb ed="#P" n="73"/>potestas instituendi talem traditionem et 
+          ac<lb break="no" ed="#P" n="74"/>ceptandi illam, erit de jure divino, quam ipsa
+          <lb ed="#P" n="75"/>traditio seu actualis ejus institutio; sicut
+          <lb ed="#P" n="76"/>alias de excommunicatione, et aliis censuris,
+          <lb ed="#P" n="77"/>et de sacramentalibus diximus. Quia vero ad
+          <lb ed="#P" n="78"/>praesens non refert . damus absolute 
+          hujus<lb break="no" ed="#P" n="79"/>modi traditionem quoad substantiam esse de
+          <lb ed="#P" n="80"/>ure divino, quamvis modo ab Ecclesia 
+          prae<lb break="no" ed="#P" n="81"/>scripto fieri debeat.
+        </p>
+        <p xml:id="szovsr-p38707-d1e219">
+          <lb ed="#P" n="82"/>2. Probatur traditionem non irritare 
+          matri<lb break="no" ed="#P" n="83"/>monium solo jure divino.— Addimusque circa
+          <lb ed="#P" n="84"/>secundum punctum , etiam traditionem 
+          legi<lb break="no" ed="#P" n="85"/>time factam, et a jure divino manantem, non
+          <lb ed="#P" n="86"/>irritare matrimonium subsecutum, ex vi 
+          so<lb break="no" ed="#P" n="87"/>lius juris divini. Probatur primo, quia si 
+          tra<lb break="no" ed="#P" n="88"/>ditio illa spiritualis de se et ab intrinseco 
+          re<lb break="no" ed="#P" n="89"/>pugnat cum traditione carnalis vinculi 
+          ma<lb break="no" ed="#P" n="90"/>trimonii , etiamsi fiat absque speciali voto
+          <lb ed="#P" n="91"/>castitatis, irritabit matrimonium subsequens.
+          <lb ed="#P" n="92"/>Consequens est falsum; ergo. Probatur 
+          se<lb break="no" ed="#P" n="93"/>quela, quia si illa traditio intrinsece pugnat
+          <lb ed="#P" n="94"/>cum matrimonio, et irritat illud, ideo est quia
+          <lb ed="#P" n="95"/>per illam abdicat persona sui dominium a se,
+          <lb ed="#P" n="96"/>et transfert in alium, ideoque jam non potest
+          <lb ed="#P" n="97"/>alteri se donare. At vero per solam 
+          donatio<lb break="no" ed="#P" n="98"/>nem fit illa abdicatio et translatio dominii,
+          <lb ed="#P" n="99"/>etiamsi votum castitatis non addatur; ergo
+          <lb ed="#P" n="100"/>etiam sic facta irritabit matrimonium. 
+          Con<lb break="no" ed="#P" n="101"/>sequens autem falsum est; ergo, etc. Major
+          <lb ed="#P" n="102"/>nota est ex fundamento contrariae sententiae.
+          <lb ed="#P" n="103"/>Minor autem etiam est in jure manifesta , et
+          <lb ed="#P" n="104"/>usu etiam est nota ; quia quotidie fiunt 
+          trans<lb break="no" ed="#P" n="105"/>lationes dominiorum per puras donationes,
+          <lb ed="#P" n="106"/>sine additione alicujus promissionis, vel voti,
+          <lb ed="#P" n="107"/>aut juramenti. Et ratio est, quia voluntas ab-
+          <pb ed="#P" n="156"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>soluta donandi, iu habente potestatem, sine
+          <lb ed="#P" n="2"/>alio adminiculo est sufficiens ad 
+          transferen<lb break="no" ed="#P" n="3"/>dum dominium, praesertim si in actum 
+          exter<lb break="no" ed="#P" n="4"/>num traditionis cum acceptatione donatarii
+          <lb ed="#P" n="5"/>prodeat. Ergo, sicut aliarum rerum 
+          donatio<lb break="no" ed="#P" n="6"/>nes ita fiunt, potest fieri donatio et traditio
+          <lb ed="#P" n="7"/>propriae personae. Item in servitute civili seu
+          <lb ed="#P" n="8"/>carnali, ita fieri potest; ergo etiam religiosa
+          <lb ed="#P" n="9"/>seu spiritualis servitus potest eodem modo
+          <lb ed="#P" n="10"/>contrahi. Et ideo diximus in superiori libro,
+          <lb ed="#P" n="11"/>ad rationem status perfectionis ex natura rei
+          <lb ed="#P" n="12"/>non esse necessarium votum, sed 
+          donatio<lb break="no" ed="#P" n="13"/>nem, vel pactum aliquod sufficere, ut in statu
+          <lb ed="#P" n="14"/>Episcopi videre licet. Ergo idem est de 
+          tradi<lb break="no" ed="#P" n="15"/>tione, quam nunc consideramus.
+        </p>
+        <p xml:id="szovsr-p38707-d1e316">
+          <lb ed="#P" n="16"/>3. Quid de traditione cum solo voto 
+          castita<lb break="no" ed="#P" n="17"/>lis ? — Nec votum illud esset solemne, nec 
+          per<lb break="no" ed="#P" n="18"/>sona esset inhalilis ad matrinonium. — Minor
+          <lb ed="#P" n="19"/>autem prioris syllogismi, seu falsitas 
+          conse<lb break="no" ed="#P" n="20"/>quentis satis certa esse videtur; quia de facto
+          <lb ed="#P" n="21"/>nulla traditio sui sine voto castitatis, vel lege
+          <lb ed="#P" n="22"/>Ecclesiae, irritat matrimonium. Hoc patet ex
+          <lb ed="#P" n="23"/>traditione personae, quae suscipiendo sacrum
+          <lb ed="#P" n="24"/>ordinem fit; item in conversis seu oblatis, qui
+          <lb ed="#P" n="25"/>se offerunt hospitali vel religioni, in 
+          perpe<lb break="no" ed="#P" n="26"/>tuam quasi servitutem spiritualem; nam vere
+          <lb ed="#P" n="27"/>dominium sui a se abdicant, et in hospitale
+          <lb ed="#P" n="28"/>vel religionem transferunt; et tamen non
+          <lb ed="#P" n="29"/>fiunt inhabiles ad matrimonium. Item pueri,
+          <lb ed="#P" n="30"/>qui olim donabantur a parentibus religioni,
+          <lb ed="#P" n="31"/>vere constituebantur sub potestate et 
+          domi<lb break="no" ed="#P" n="32"/>nio religionis, ut infra suo loco videbimus; et
+          <lb ed="#P" n="33"/>nihilominus pervenientes ad aetatem adultam
+          <lb ed="#P" n="34"/>non erant inhabiles ad matrimonium , ut ex
+          <lb ed="#P" n="35"/>usu illorum temporum infra etiam 
+          monstra<lb break="no" ed="#P" n="36"/>bimus. Adde quod, licet nunc fieret traditio
+          <lb ed="#P" n="37"/>rcligiosa cum voto castitatis sine aliis 
+          sub<lb break="no" ed="#P" n="38"/>stantialibus votis religionis, nec votum illud
+          <lb ed="#P" n="39"/>esset solemne, nec persona esset inhabilis ad
+          <lb ed="#P" n="40"/>matrimonium; ergo multo minus potest fieri
+          <lb ed="#P" n="41"/>persona inhabilis ad id per solam 
+          traditio<lb break="no" ed="#P" n="42"/>nem. lllatio per se nota est, et antecedens
+          <lb ed="#P" n="43"/>probatur, quia talis traditio cum solo uno
+          <lb ed="#P" n="44"/>voto castitatis non esset professio religiosa,
+          <lb ed="#P" n="45"/>nec constitueret statum religiosum, quia 
+          de<lb break="no" ed="#P" n="46"/>sunt aliqua substantialia; ergo votum illud
+          <lb ed="#P" n="47"/>non esset solemne, quia nec esset 
+          conjunc<lb break="no" ed="#P" n="48"/>tum ordini sacro, nec professioni relgionis.
+          <lb ed="#P" n="49"/>Et ita sumitur ex c. Fa perpetua, de Convers.
+          <lb ed="#P" n="50"/>conjug., quamvis Innocentius ibi, num. 1,
+          <lb ed="#P" n="51"/>quem multi sequuntur, non recte in hac parte
+          <lb ed="#P" n="52"/>opinetur; meliusque sentiunt Panor., in d. c.
+          <lb ed="#P" n="53"/>Rursus, in fine, quem cum aliis sequitur
+          <lb ed="#P" n="54"/>sancius supra, n. 21. Et idem sumitur ex
+          <lb ed="#P" n="55"/>Sylvestro, relig. 3, n. I8, ubi idem dicit de
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>professione, seu traditione facta cum solo
+          <lb ed="#P" n="57"/>voto obedientise, excludendo alia. Meritoque
+          <lb ed="#P" n="58"/>addit , excludendo alia ; nam votum 
+          obedien<lb break="no" ed="#P" n="59"/>tiae, si fiat secundum regulam approbatam,
+          <lb ed="#P" n="60"/>virtute includit alia vota, ut usus ahquarum
+          <lb ed="#P" n="61"/>insignium rehgionum ostendit. Et sumitur ex
+          <lb ed="#P" n="62"/>d. c. Ea parte tua, in fine, ibi : Nisi se coto
+          <lb ed="#P" n="63"/>adstrinaerit ad observationem regularem. 
+          Uti<lb break="no" ed="#P" n="64"/>que de praesenti, non de futuro, vel, ut glossa
+          <lb ed="#P" n="65"/>ibi dicit, voto, id est, professione, quae et 
+          tra<lb break="no" ed="#P" n="66"/>ditionem et votum praedictum includit ; hoc
+          <lb ed="#P" n="67"/>autem non habet locum in solo voto 
+          castita<lb break="no" ed="#P" n="68"/>tis, quia neque formaliter neque virtualiter
+          <lb ed="#P" n="69"/>caetera includit.
+        </p>
+        <p xml:id="szovsr-p38707-d1e438">
+          <lb ed="#P" n="70"/>4. Instantia solvitur. — Dicet fortasse 
+          ali<lb break="no" ed="#P" n="71"/>quis, quando fit traditio sola, vel cum solo
+          <lb ed="#P" n="72"/>voto castitatis, vel non esse ejusdem rationis
+          <lb ed="#P" n="73"/>cum donatione sui, quam facit religiosus 
+          ad<lb break="no" ed="#P" n="74"/>junctis tribus votis; vel, si talis fiat ex 
+          in<lb break="no" ed="#P" n="75"/>tentione voventis, non esse validam, quia
+          <lb ed="#P" n="76"/>sine firmitate trium votorum non acceptatur
+          <lb ed="#P" n="77"/>ab Ecclesia, quia non fit (sicut fieri debet)
+          <lb ed="#P" n="78"/>in religione ab Ecclesia approbata. Sed 
+          neu<lb break="no" ed="#P" n="79"/>trum horum vim argumenti facti evacuat ;
+          <lb ed="#P" n="80"/>nam imprimis illa traditio, licet non sit 
+          ejus<lb break="no" ed="#P" n="81"/>dem rationis moralis, vel potius non habeat
+          <lb ed="#P" n="82"/>eamdem vim ad effectum constituendi verum
+          <lb ed="#P" n="83"/>religiosum statum, quia vel non fit in 
+          reh<lb break="no" ed="#P" n="84"/>gione ab Ecclesia approbata, vel non habet
+          <lb ed="#P" n="85"/>omnia vota substantialia conjuncta, 
+          nihilo<lb break="no" ed="#P" n="86"/>minus in sua intrinseca ratione et substantia
+          <lb ed="#P" n="87"/>potest esse ejusdem rationis; utraque enim
+          <lb ed="#P" n="88"/>est donatio habens eamdem materiam, 
+          scili<lb break="no" ed="#P" n="89"/>cet, propriam personam, et potest fieri tam
+          <lb ed="#P" n="90"/>integra et plena, ex intentione donantis, ad
+          <lb ed="#P" n="91"/>omnia obsequia Dei et religionis, uno modo,
+          <lb ed="#P" n="92"/>sicut alio; et eodem modo potest a religione
+          <lb ed="#P" n="93"/>acceptari. Deinde, licet Ecclesia non 
+          appro<lb break="no" ed="#P" n="94"/>bet illam traditionem in ratione professionis
+          <lb ed="#P" n="95"/>religiosaee propter defectum votorum, 
+          nihilo<lb break="no" ed="#P" n="96"/>miuus non reprobat nec irritat illam, sed suae
+          <lb ed="#P" n="97"/>naturae illam relinquit. Nulla enim lex 
+          cano<lb break="no" ed="#P" n="98"/>nica proferetur, in qua talis oblatio sui nuda
+          <lb ed="#P" n="99"/>(ut sic dicam), id est, non firmata et ornata
+          <lb ed="#P" n="100"/>per tria vota, ab Ecclesia irritetur, vel 
+          prohi<lb break="no" ed="#P" n="101"/>beatur. Ergo cum de se sit bona, et ad Dei
+          <lb ed="#P" n="102"/>obsequium fiat, et in salutem spiritualem
+          <lb ed="#P" n="103"/>personae sic tradentis redundet, non est cur
+          <lb ed="#P" n="104"/>invalida judicetur.
+        </p>
+        <p xml:id="szovsr-p38707-d1e516">
+          <lb ed="#P" n="105"/>5. Prelati religionum habent potestatem
+          <lb ed="#P" n="106"/>accipiendi conversos. — RBesponderi potest
+          <lb ed="#P" n="107"/>esse invalidam, quia non est qui acceptet
+          <lb ed="#P" n="108"/>nomine Dei, quod esset necessarium; quia
+          <lb ed="#P" n="109"/>haec oblatio non fit homini in ejus 
+          commo<lb break="no" ed="#P" n="110"/>dum, sed it in honorem Dei. Sed contra, quia
+          <pb ed="#P" n="157"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>multae religiones habent a Pontifice 
+          potesta<lb break="no" ed="#P" n="2"/>tem acceptandi conversos sic se offerentes,
+          <lb ed="#P" n="3"/>non ut religiosos, sed ut Deo devotos. Item
+          <lb ed="#P" n="4"/>ex natura rei videtur esse haec potestas in
+          <lb ed="#P" n="5"/>ordinariis praelatis, si Pontifex illam non 
+          li<lb break="no" ed="#P" n="6"/>mitet, quod non fecit quoad hanc partem; et
+          <lb ed="#P" n="7"/>in religione similiter invenitur talis potestas,
+          <lb ed="#P" n="8"/>quia cum illa fit contractus, et in illius 
+          utili<lb break="no" ed="#P" n="9"/>tatem cedit, licet principaliter fiat in 
+          hono<lb break="no" ed="#P" n="10"/>rem Dei. Denique, licet daremus nunquam
+          <lb ed="#P" n="11"/>esse validam ex defectu alicujus conditionis
+          <lb ed="#P" n="12"/>ab Ecclesia praescriptae, ac requisitae ut 
+          va<lb break="no" ed="#P" n="13"/>lide fieret, nihilominus de se potest esse 
+          va<lb break="no" ed="#P" n="14"/>lida, etiamsi absque votis fiat, et Ecclesia
+          <lb ed="#P" n="15"/>posset non exigere talem conditionem ut 
+          ne<lb break="no" ed="#P" n="16"/>cessariam ad valorem ejus; et nihilominus
+          <lb ed="#P" n="17"/>sic facta non faceret personam inhabilem ad
+          <lb ed="#P" n="18"/>matrimonium ex inirinseca natura sua, siue
+          <lb ed="#P" n="19"/>adminiculo ecclesiasticae constitutionis, ut 
+          os<lb break="no" ed="#P" n="20"/>tensum est; ac proinde recte sequitur, neque
+          <lb ed="#P" n="21"/>nunc feri illum effectum ex sola rei natura,
+          <lb ed="#P" n="22"/>ut etiam probatum est.
+        </p>
+        <p xml:id="szovsr-p38707-d1e584">
+          <lb ed="#P" n="23"/>6. Sequitur ez praedicta sententia, in peccato
+          <lb ed="#P" n="24"/>religiosi praeter malitiam conira temperantiam,
+          <lb ed="#P" n="25"/>dari duas malitias : unam contra religionem, et
+          <lb ed="#P" n="26"/>aliam conira justitiam. — Potestque amplius
+          <lb ed="#P" n="27"/>hoc declarari ac confirmari ; quia talis 
+          tradi<lb break="no" ed="#P" n="28"/>tio per se, et ut distincta et praecisa a voto
+          <lb ed="#P" n="29"/>castitatis, non obligat ad castitatem 
+          servan<lb break="no" ed="#P" n="30"/>dam ; ergo nec per se potest ab intrinseco
+          <lb ed="#P" n="31"/>valorem matrimonii impedire. Antecedens
+          <lb ed="#P" n="32"/>probatur primo a posteriori, quia alias 
+          reli<lb break="no" ed="#P" n="33"/>giosus, peccando contra castitatem, praeter
+          <lb ed="#P" n="34"/>malitiam contra temperantiam, duas haberet
+          <lb ed="#P" n="35"/>malitias : unam contra religionem , quia est
+          <lb ed="#P" n="36"/>contra votum ; et aliam contra justitiam,
+          <lb ed="#P" n="37"/>quia est contra donationem religioni factam;
+          <lb ed="#P" n="38"/>sicut conjux habens votum castitatis, 
+          adulte<lb break="no" ed="#P" n="39"/>rium committens, praeter intemperantiam et
+          <lb ed="#P" n="40"/>sacrilegium, contra justitiam peccat in 
+          alte<lb break="no" ed="#P" n="41"/>rum conjugem, cui jam suum corpus tradidit.
+          <lb ed="#P" n="42"/>Consequens autem est falsum; ergo et illud
+          <lb ed="#P" n="43"/>unde sequitur. Minor probari potest ex 
+          com<lb break="no" ed="#P" n="44"/>muni consensu Doctorum , quos late refert
+          <lb ed="#P" n="45"/>Sancius, lib. 7 de Matrim., disp. 27, a n. 19,
+          <lb ed="#P" n="46"/>disputando de obligatione aperiendi in 
+          con<lb break="no" ed="#P" n="47"/>fessiore circumstantiam voti simplicis vel 
+          so<lb break="no" ed="#P" n="48"/>lemnis, ordinis sacri, aut professionis, ex
+          <lb ed="#P" n="49"/>quibus quamplures docent sufficere explicare
+          <lb ed="#P" n="50"/>circumstantiam voti absolute, non explicando
+          <lb ed="#P" n="51"/>solemnitatem, nec modum solemnitatis , nec
+          <lb ed="#P" n="52"/>an votum fuerit bis vel ter emissum. Et licet
+          <lb ed="#P" n="53"/>alii dicant, aliquas ex his circumstantiis esse
+          <lb ed="#P" n="54"/>aperiendas, non fundantur in eo quod addant
+          <lb ed="#P" n="55"/>plures species malitiarum , sed vel in hoc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quod notabiliter aggravant, vel pauci in hoc
+          <lb ed="#P" n="57"/>quod votum simplex et solemne ditferant 
+          spe<lb break="no" ed="#P" n="58"/>cie, quod est falsum, ut irfre ostendemus. Et
+          <lb ed="#P" n="59"/>quod ad praesens attinet, non ideo dicunt
+          <lb ed="#P" n="60"/>multiplicari malitias in fornicatione religiosi
+          <lb ed="#P" n="61"/>professi, sed unam tantum ponunt, licet 
+          alte<lb break="no" ed="#P" n="62"/>rius rationis esse fingant. Nullus ergo est qui
+          <lb ed="#P" n="63"/>senserit plures esse malitias in fornicatione
+          <lb ed="#P" n="64"/>religiosi, praeter eam quae est contra 
+          tempe<lb break="no" ed="#P" n="65"/>rantiam seu castitatem, et aliam contra 
+          vo<lb break="no" ed="#P" n="66"/>tum seu professionem. Est ergo una tantum
+          <lb ed="#P" n="67"/>malitia sacrilegii in tali actu. Et ratio non est
+          <lb ed="#P" n="68"/>alia, nisi quia traditio per se non obligat ad
+          <lb ed="#P" n="69"/>servandam castitatem, sed solum votum.
+        </p>
+        <p xml:id="szovsr-p38707-d1e691">
+          <lb ed="#P" n="70"/>7. Oppositum autem ex illa sententia sequi
+          <lb ed="#P" n="71"/>facile probatur, quia traditio religiosi et 
+          pro<lb break="no" ed="#P" n="72"/>missio castitatis sunt actus inter se moraliter
+          <lb ed="#P" n="73"/>ac realiter distincti , et inducunt 
+          obligatio<lb break="no" ed="#P" n="74"/>nem pertinentem ad diversas virtutes ; votum
+          <lb ed="#P" n="75"/>enim inducit obligationem religionis ac 
+          fideli<lb break="no" ed="#P" n="76"/>tatis ad Deum ; traditio, justitia ad 
+          religio<lb break="no" ed="#P" n="77"/>nem, cui se donavit. Vel, ut alii volunt, erit
+          <lb ed="#P" n="78"/>etiam sacrilegii species diversi, quatenus est
+          <lb ed="#P" n="79"/>contra specialem honorem Dei, vel contra 
+          no<lb break="no" ed="#P" n="80"/>vum jus dominii illi acquisitum, simile illi 
+          sa<lb break="no" ed="#P" n="81"/>crilegio quod invenitur in furto rei sacrae ,
+          <lb ed="#P" n="82"/>vel in violatione templi ; et ita erit in illo
+          <lb ed="#P" n="83"/>actu, non tantum duplex, sed etiam triplex
+          <lb ed="#P" n="84"/>malitia praeter luxuriam ; quae omnia in 
+          mo<lb break="no" ed="#P" n="85"/>ralibus absurda sunt. Ratio autem cur illa
+          <lb ed="#P" n="86"/>traditio non obliget specialiter ad castitatem,
+          <lb ed="#P" n="87"/>reddi potest, quia objectum seu materia 
+          il<lb break="no" ed="#P" n="88"/>lius traditionis, est ipsamet persona 
+          donan<lb break="no" ed="#P" n="89"/>tis, non in ordine ad non fornicandum, vel
+          <lb ed="#P" n="90"/>abstinendum ab usu copula carnalis, quia,
+          <lb ed="#P" n="91"/>licet iste possit esse finis illius traditionis,
+          <lb ed="#P" n="92"/>non tamen est ejus materia. Unde sicut finis
+          <lb ed="#P" n="93"/>legis non cadit sub obligationem legis, ita nec
+          <lb ed="#P" n="94"/>ille finis talis donationis cadit sub 
+          obligatio<lb break="no" ed="#P" n="95"/>nem ex ipsa donatione intrinsece ortam. 
+          Alio<lb break="no" ed="#P" n="96"/>quin ex illa traditione oriretur specialis 
+          obli<lb break="no" ed="#P" n="97"/>gatio ad vitanda singula peccata, quia sub 
+          fi<lb break="no" ed="#P" n="98"/>nem illius traditionis comprehenditur, nam ad
+          <lb ed="#P" n="99"/>caetera peccata vitanda ordinatur. Unde 
+          tan<lb break="no" ed="#P" n="100"/>dem facile probatur consequentia principalis
+          <lb ed="#P" n="101"/>argumenti, quia si fornicatio non est 
+          contra<lb break="no" ed="#P" n="102"/>ria intrinsecae obligationi illius traditionis, 
+          er<lb break="no" ed="#P" n="103"/>go usus matrimonii per honestam carnalem
+          <lb ed="#P" n="104"/>copulam multo minus erit illi contrarius. 
+          Er<lb break="no" ed="#P" n="105"/>go nec vinculum matrimonii est contrarium
+          <lb ed="#P" n="106"/>illi traditioni ; ergo ex sola rei natura non 
+          ir<lb break="no" ed="#P" n="107"/>ritatur ab illa, vel ab obligatione, quae ex illa
+          <lb ed="#P" n="108"/>nascitur.
+        </p>
+        <p xml:id="szovsr-p38707-d1e778">
+          <lb ed="#P" n="109"/>8. Confirmatur exemplo servitutis. — 
+          Ult<lb break="no" ed="#P" n="110"/>mo explicatur vis hujus rationis, et assertio
+          <pb ed="#P" n="158"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>intenta amplius roboratur exemplo servitutis
+          <lb ed="#P" n="2"/>contractae per donationem, aut venditionem,
+          <lb ed="#P" n="3"/>vel similem contractum ipsius servi. Nam per
+          <lb ed="#P" n="4"/>illum contractum se privat dominio sui ipsius,
+          <lb ed="#P" n="5"/>et se donat alteri, et nihilominus invito 
+          domi<lb break="no" ed="#P" n="6"/>no potest se valide tradere alteri conjugi per
+          <lb ed="#P" n="7"/>matrimonium ; nec prior traditio inhabihtat
+          <lb ed="#P" n="8"/>personam ad secundam ; ergo proportionali
+          <lb ed="#P" n="9"/>ratione dicendum est de religiosa servitute
+          <lb ed="#P" n="10"/>ex tali traditione orta, non reddere ab 
+          intrin<lb break="no" ed="#P" n="11"/>seco personam inhabilem ad se tradendum
+          <lb ed="#P" n="12"/>alteri per matrimonium. Antecedens 
+          suppo<lb break="no" ed="#P" n="13"/>nimus ut certum, ex c. 1 de Conjug. 
+          servo<lb break="no" ed="#P" n="14"/>rum , et aliis. Consequentia vero probatur,
+          <lb ed="#P" n="15"/>quia imprimis disparitas rationis non facile
+          <lb ed="#P" n="16"/>redditur. Deinde, quia aequiparatio potest
+          <lb ed="#P" n="17"/>suaderi sufficienter, quia, licet dominus 
+          ac<lb break="no" ed="#P" n="18"/>quirat jus in servum quoad opera ejus, ita ut
+          <lb ed="#P" n="19"/>possit illo uti in omnem corporalem usum
+          <lb ed="#P" n="20"/>prudentem et sibi utilem et fortasse per 
+          ma<lb break="no" ed="#P" n="21"/>trimonium aliquo modo impediatur ab 
+          hu<lb break="no" ed="#P" n="22"/>jusmodi ministerio, cum aliqua domini 
+          in<lb break="no" ed="#P" n="23"/>commoditate, vel minori utilitate, 
+          nihilomi<lb break="no" ed="#P" n="24"/>nus jus et libertas matrimonii tanta est, 
+          tam<lb break="no" ed="#P" n="25"/>que naturalis, ut non potuerit quispiam vel
+          <lb ed="#P" n="26"/>coacte, vel etiam sua privata voluntate tali
+          <lb ed="#P" n="27"/>potestate privari, etiamsi in poenam justam,
+          <lb ed="#P" n="28"/>vel per venditionem parentis, vel per suam
+          <lb ed="#P" n="29"/>voluntatem servus effectus sit. Unde, quia
+          <lb ed="#P" n="30"/>servitus , nec a jure, nec ab auctoritate 
+          Rei<lb break="no" ed="#P" n="31"/>publicae cum illo rigore introducta est, nec
+          <lb ed="#P" n="32"/>fortasse introduci potuit , ideo, non obstante
+          <lb ed="#P" n="33"/>priori traditione servitutis , habilitas ad 
+          con<lb break="no" ed="#P" n="34"/>trahendum matrimonium retenta est. Simili
+          <lb ed="#P" n="35"/>ergo modo, quando aliquis se tradit in 
+          servi<lb break="no" ed="#P" n="36"/>tutem religiosam, non statim ex vi sui privati
+          <lb ed="#P" n="37"/>consensus in illam traditionem se reddit 
+          in<lb break="no" ed="#P" n="38"/>habilem, et impotentem ad se trahendum in
+          <lb ed="#P" n="39"/>matr:monium, nisi accedat Ecclesiae 
+          auctori<lb break="no" ed="#P" n="40"/>tas, quae illam inhabilitatem introducat ; quia
+          <lb ed="#P" n="41"/>per illam traditionem non se oblhgat ex 
+          jus<lb break="no" ed="#P" n="42"/>titia ad se abstinendum ab omni usu corporis
+          <lb ed="#P" n="43"/>sui, qui aliquo modo possit impedire 
+          obse<lb break="no" ed="#P" n="44"/>quium religionis exactissimum, et cum 
+          com<lb break="no" ed="#P" n="45"/>moditate maxima religionis. Et ideo cum illa
+          <lb ed="#P" n="46"/>traditione non repugnat formahter et ex 
+          na<lb break="no" ed="#P" n="47"/>tura rei vinculum matrimonii.
+        </p>
+        <p xml:id="szovsr-p38707-d1e892">
+          <lb ed="#P" n="48"/>9. Confirmatur ultimo. — Et confirmatur,
+          <lb ed="#P" n="49"/>quia conjugatus, postquam consummavit
+          <lb ed="#P" n="50"/>matrimonium, potest profiteri religionem de
+          <lb ed="#P" n="51"/>licentia alterrus conjugis, cum aliis de jure
+          <lb ed="#P" n="52"/>requisitis, et tunc non dissolvitur vinculum
+          <lb ed="#P" n="53"/>matrimonii per traditionem religioni factam ;
+          <lb ed="#P" n="54"/>ergo signum est non habere inter se 
+          forma<lb break="no" ed="#P" n="55"/>lem et intrinsecam repugnantiam: sunt enim
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>hae traditiones seu vincula diversarum 
+          ratio<lb break="no" ed="#P" n="57"/>num, et ad distinctos fines ordinata ; non 
+          ta<lb break="no" ed="#P" n="58"/>men sunt formahter repugnantia, nec ad 
+          fi<lb break="no" ed="#P" n="59"/>nes contrarios tendunt; et ideo sine 
+          admi<lb break="no" ed="#P" n="60"/>riculo juris, unum non impedit et irritat
+          <lb ed="#P" n="61"/>aliud, eo vel maxime quod potestas 
+          matrimo<lb break="no" ed="#P" n="62"/>nium ineundi tam est naturalis, et ad 
+          com<lb break="no" ed="#P" n="63"/>mune bonum totius naturae data, ut, licet 
+          pos<lb break="no" ed="#P" n="64"/>sit homo sola voluntate sua se obligare Deo
+          <lb ed="#P" n="65"/>ad non utendum illa, non tamen videatur
+          <lb ed="#P" n="66"/>posse se privare illa ornnino, et inhabilem se
+          <lb ed="#P" n="67"/>ad matrimonium reddere sola sua privata
+          <lb ed="#P" n="68"/>auctoritate , nisi auctoritas publica 
+          interce<lb break="no" ed="#P" n="69"/>dat. Quia jus matrimonii ineundi magis 
+          vide<lb break="no" ed="#P" n="70"/>tur publicum totius natura jus, quam 
+          indi<lb break="no" ed="#P" n="71"/>vidui, quia ad conservationefh speciei 
+          ordina<lb break="no" ed="#P" n="72"/>tur. Et ideo, licet possit homo pro suo 
+          arbi<lb break="no" ed="#P" n="73"/>trio non uti illo jure et potestate, non tamen
+          <lb ed="#P" n="74"/>se omnino illa potestate privat sine 
+          admini<lb break="no" ed="#P" n="75"/>culo publicae potestatis. Imo videtur fuisse
+          <lb ed="#P" n="76"/>necessaria potestas supernaturalis data 
+          Ec<lb break="no" ed="#P" n="77"/>clesia ; quia nec naturalis potestas humana
+          <lb ed="#P" n="78"/>potuit introducere servitutem, quae 
+          liberta<lb break="no" ed="#P" n="79"/>tem et potestatem ad centrahendum 
+          vincu<lb break="no" ed="#P" n="80"/>lum matrimonii auferret ; ut D. Thomas et
+          <lb ed="#P" n="81"/>Theologi scntiunt, in 4, dist. 36. Nec etiam in
+          <lb ed="#P" n="82"/>lege videtur fuisse talis potestas, etiam in 
+          or<lb break="no" ed="#P" n="83"/>dine ad spiritualem servitutem, ut in libro 
+          se<lb break="no" ed="#P" n="84"/>quenti videbimus.
+        </p>
+        <p xml:id="szovsr-p38707-d1e977">
+          <lb ed="#P" n="85"/>10. Quorumdam opinio partim approbanda.
+          <lb ed="#P" n="86"/>—linc tandem aliqui graves, et antiqui 
+          auc<lb break="no" ed="#P" n="87"/>tores, licet dixerint votum castitatis fieri 
+          so<lb break="no" ed="#P" n="88"/>lemne per traditionem quam habet adjunctam,
+          <lb ed="#P" n="89"/>nihilominus addiderunt illam traditionem non
+          <lb ed="#P" n="90"/>dirimere matrimonium subsequens ex vi 
+          ju<lb break="no" ed="#P" n="91"/>ris naturalis, seu divini, sed ecclesiastici, ac
+          <lb ed="#P" n="92"/>subinde non solemnizare votum ex natura
+          <lb ed="#P" n="93"/>sua, sed virtute constitutionis Ecclesiae ; ita
+          <lb ed="#P" n="94"/>sentit Altsiod., lib. 3 Sum., tract. ?8, cap. 2,
+          <lb ed="#P" n="95"/>q. 3, S Quod votum solemne. Et idem tradunt
+          <lb ed="#P" n="96"/>Joan. Andr., Anchar., Dominic., et Archidiac.,
+          <lb ed="#P" n="97"/>in c. unico de Voto, in 6; et Card., in Clem.
+          <lb ed="#P" n="98"/>unic. de Consang., q. 24. Haec tamen 
+          senten<lb break="no" ed="#P" n="99"/>tia parum differt a nostra et communi, quam
+          <lb ed="#P" n="100"/>in capite scquenti trademus : immerito tamen
+          <lb ed="#P" n="101"/>tribuit irritationem matrimonii traditioni 
+          po<lb break="no" ed="#P" n="102"/>tius quam voto, cum jura aliter loquantur,
+          <lb ed="#P" n="103"/>ut in sequenti capite amplius explicabimus.
+          <lb ed="#P" n="104"/>Fundamenta vero prioris sententiae non 
+          indi<lb break="no" ed="#P" n="105"/>gent peculiari responsione ; nam primum
+          <lb ed="#P" n="106"/>expeditum et impugnatum est exemplo 
+          ser<lb break="no" ed="#P" n="107"/>vitutis, quod ostendit non omnem 
+          traditio<lb break="no" ed="#P" n="108"/>nem unius rei vel personae ad aliquos usus,
+          <lb ed="#P" n="109"/>impedire traditionem ejusdem persona ad
+          <lb ed="#P" n="110"/>usus alterius rationis et ordinis ; quia pos-
+          <pb ed="#P" n="159"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sunt non habere formalem oppositionem 
+          con<lb break="no" ed="#P" n="2"/>tradicentem, ut contingit in servitute et 
+          ma<lb break="no" ed="#P" n="3"/>trimonio : et idem est in praesenti, sola 
+          natu<lb break="no" ed="#P" n="4"/>ra rei spectata. Ad alteram rationem 
+          respon<lb break="no" ed="#P" n="5"/>demus , concedendo esse possibilem talem
+          <lb ed="#P" n="6"/>traditionem, sed non absque adminiculo voti
+          <lb ed="#P" n="7"/>auctoritate Ecclesiae solemnizati, ut mox 
+          ex<lb break="no" ed="#P" n="8"/>plicabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

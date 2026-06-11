@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="2"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p00092"><!-- t7l1c1 -->
+        <head xml:id="szovsr-p00092-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-p00092-Hd1e103" type="question-title">Quid sit status vita christianae, et quas conditiones postulet.</head>
+        <p xml:id="szovsr-p00092-d1e106">
+          <lb ed="#P" n="33"/>CAPUT I.
+          <lb ed="#P" n="34"/>QUID SIT STATUS VITA CHRISTIANAE, ET QUAS
+          <lb ed="#P" n="35"/>CONDITIONES POSTULET.
+        </p>
+        <p xml:id="szovsr-p00092-d1e115">
+          <lb ed="#P" n="36"/>1. Significatio nominis status. — Principio,
+          <lb ed="#P" n="37"/>significatio nominis status esplicanda est, et
+          <lb ed="#P" n="38"/>praesenti instituto accommodanda ; est enim
+          <lb ed="#P" n="39"/>multiplex, et nisi certus ac definitus illius usus
+          <lb ed="#P" n="40"/>supponatur , in aequivoco saepe laborabimus.
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="41"/>Attribuitur enim rebus viventibus et non 
+          vi<lb break="no" ed="#P" n="42"/>ventibus, rationalibus et irrationalibus, 
+          natu<lb break="no" ed="#P" n="43"/>ralibus et moralibus ; cum vero personae 
+          attri<lb break="no" ed="#P" n="44"/>buitur, duo semper indicat, scilicet, 
+          perfec<lb break="no" ed="#P" n="45"/>tionem in aliqua conditione, vel modo 
+          exis<lb break="no" ed="#P" n="46"/>tendi ejus, et quietem seu immutabilitatem
+          <lb ed="#P" n="47"/>in illa. Prior conditio exemplis declaratur:
+          <lb ed="#P" n="48"/>nam philosophi statum solis appellant, 
+          termi<lb break="no" ed="#P" n="49"/>num ascensionis ejus; et terminum 
+          accretio<lb break="no" ed="#P" n="50"/>nis vocant viventis statum; et medici statum
+          <lb ed="#P" n="51"/>eegritudinis vocant, cum ad summum gradum
+          <lb ed="#P" n="52"/>pervenit. Item leges dicunt hominem ad 
+          sta<lb break="no" ed="#P" n="53"/>tum pervenisse, quando majorem aetatem, ut
+          <lb ed="#P" n="54"/>viginti quinque annorum, attigit, l. Cum 
+          pa<lb break="no" ed="#P" n="55"/>ter, 19, S Juratores , juncta gloss., ff. de
+          <lb ed="#P" n="56"/>Legat., 2. Item jurisperiti statum causae 
+          vo<lb break="no" ed="#P" n="57"/>cant, quando inquisitio et allegatio ex utraque
+          <lb ed="#P" n="58"/>parte consummata est. Et nos statum 
+          quaes<lb break="no" ed="#P" n="59"/>tionis vocamus, quando punctum 
+          controver<lb break="no" ed="#P" n="60"/>siae clare et sine ambiguitate propositum est.
+          <lb ed="#P" n="61"/>Ex his ergo intelligere licet, statum 
+          signifi<lb break="no" ed="#P" n="62"/>care aliquam conditionem perfectam, et quasi
+          <lb ed="#P" n="63"/>consummatam in suo genere. Dico autem in
+          <lb ed="#P" n="64"/>suo genere, quia non oportet ui dicat 
+          perfec<lb break="no" ed="#P" n="65"/>tionem simpliciter, vel per comparationem ad
+          <lb ed="#P" n="66"/>oppositam perfectionem; sed solum in suo
+          <lb ed="#P" n="67"/>ordine, seu oppositam inchoationi rei, quasi
+          <lb ed="#P" n="68"/>in fieri existentis.
+        </p>
+        <p xml:id="szovsr-p00092-d1e191">
+          <lb ed="#P" n="69"/>2. Status definitio a divo Thoma. — Et ita
+          <lb ed="#P" n="70"/>haec conditio per alteram recte explicatur;
+          <lb ed="#P" n="71"/>requiritur enim ad statum permanentia 
+          quae<lb break="no" ed="#P" n="72"/>dam, seu quies in conditione per statum 
+          si<lb break="no" ed="#P" n="73"/>gnificata. Quod quidem ipsa vox status satis
+          <lb ed="#P" n="74"/>indicat; quietem enim et stabilitatem prae se
+          <lb ed="#P" n="75"/>fert ; et ideo quae in continua mutatione sunt,
+          <lb ed="#P" n="76"/>dici non possunt habere statum; et e 
+          contra<lb break="no" ed="#P" n="77"/>rio, quae in eodem esse permanent, 
+          secun<lb break="no" ed="#P" n="78"/>dum illum, statum habere dicuntur, juxta
+          <lb ed="#P" n="79"/>illud Paul., ad Hebr. 9 : Adhuc priore 
+          testa<lb break="no" ed="#P" n="80"/>mento habente statum, id est, nondum immu-
+          <pb ed="#P" n="3"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tato; et e contrario cum res aliter se habet
+          <lb ed="#P" n="2"/>quam erat, mutare statum dicitur, juxta illud
+          <lb ed="#P" n="3"/>Job. 14: Nunguam in eodem statu permanet.
+          <lb ed="#P" n="4"/>Unde D. Thom. 2. 2, q. 183, art. 1, statum
+          <lb ed="#P" n="5"/>definit esse, quamdam positionis differentiam
+          <lb ed="#P" n="6"/>alicujus rei secundum modum sue nature,
+          <lb ed="#P" n="7"/>quasi in quadam immutabilitate. Et in priori
+          <lb ed="#P" n="8"/>parte primam conditionem, in posteriori 
+          se<lb break="no" ed="#P" n="9"/>cundam indicat ; utramque vero declarat ex
+          <lb ed="#P" n="10"/>proprietate verbi staudi ; nam homini 
+          attri<lb break="no" ed="#P" n="11"/>butum duo in rigore involvit: unum est, quod
+          <lb ed="#P" n="12"/>homo sit rectus, quia in ea positione singulae
+          <lb ed="#P" n="13"/>partes corporis quasi naturalem situm habent,
+          <lb ed="#P" n="14"/>pedes infimum, caput supremum , et caetera
+          <lb ed="#P" n="15"/>medium sibi convenientem. Et in hoc 
+          indica<lb break="no" ed="#P" n="16"/>tur prior conditio, sed non sufficit; nam
+          <lb ed="#P" n="17"/>aliud simul necessarium est, nimirum ut
+          <lb ed="#P" n="18"/>homo quiescat, nam si homo ambulet, non
+          <lb ed="#P" n="19"/>dicetur stare, licet rectus incedat, et in hoc
+          <lb ed="#P" n="20"/>insinuatur altera conditio status, nimirum,
+          <lb ed="#P" n="21"/>quod res in ea perfectione, vel modo existendi
+          <lb ed="#P" n="22"/>immota permaneat; vel etiam aliquo modo
+          <lb ed="#P" n="23"/>immobilis persistat.
+        </p>
+        <p xml:id="szovsr-p00092-d1e275">
+          <lb ed="#P" n="24"/>3. Que immobilitas ad moralem statum 
+          regui<lb break="no" ed="#P" n="25"/>ritur. — Hinc vero oritur morale dubium,
+          <lb ed="#P" n="26"/>quania immobilitas ad moralem statum 
+          ne<lb break="no" ed="#P" n="27"/>cessaria sit. Nam Henric., Quodlib. 12, quaest.
+          <lb ed="#P" n="28"/>29, ad 1, negat immobilitatem esse de 
+          ra<lb break="no" ed="#P" n="29"/>tione status moralis, sed sufficere putat 
+          ca<lb break="no" ed="#P" n="30"/>rentiam mutationis, vel ad summum 
+          proposi<lb break="no" ed="#P" n="31"/>tum permanendi in tali genere vitae. Probat
+          <lb ed="#P" n="32"/>inductione, quia homo dicitur esse in statu
+          <lb ed="#P" n="33"/>gratiae, licet non habeat immutabilitatem in
+          <lb ed="#P" n="34"/>illa; et clericus in minoribus simpliciter est
+          <lb ed="#P" n="35"/>in statu clericali, licet per conjugium cum
+          <lb ed="#P" n="36"/>vidua illum possit amittere ; et homo dicitur
+          <lb ed="#P" n="37"/>esse in statu libertatis, licet sua voluntate
+          <lb ed="#P" n="38"/>servus fieri possit. Unde colligit, secundum
+          <lb ed="#P" n="39"/>communem usum loquendi, vocem status
+          <lb ed="#P" n="40"/>non significare talem immobilitatem, ac
+          <lb ed="#P" n="41"/>proinde non esse illam conditionem 
+          necessa<lb break="no" ed="#P" n="42"/>riam ad statum moralem. Contrarium vero
+          <lb ed="#P" n="43"/>docet D. Thom., dicta quaest. 183, art. 1, in
+          <lb ed="#P" n="44"/>corpore , et ad 3. Imo hanc conditionem
+          <lb ed="#P" n="45"/>ponit in definitione status ; et hoc sequuntur
+          <lb ed="#P" n="46"/>ibi communiter expositores. Et Soto, lib. 7
+          <lb ed="#P" n="47"/>de Just., quaest. 5, articulo primo; 
+          Anto<lb break="no" ed="#P" n="48"/>nin., 3p., in Prolog., 8 4; Turrecr., lib. 2
+          <lb ed="#P" n="49"/>Sum., cap. 73. Isti autem auctores fere omnes
+          <lb ed="#P" n="50"/>fatentur quaestionem esse de modo loquendi.
+          <lb ed="#P" n="51"/>Unde etiam Antonin. et Turrecr. dicunt, 
+          con<lb break="no" ed="#P" n="52"/>ditionem immobilitatis requiri ad statum
+          <lb ed="#P" n="53"/>stricte sumptum, quamvis interdum vox illa
+          <lb ed="#P" n="54"/>in latiori significatione sumatur.
+        </p>
+        <p xml:id="szovsr-p00092-d1e345">
+          <lb ed="#P" n="55"/>4. Que immobihtlas ad moralem statum ve-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quiratur.— Licet verbum standi non semper 
+          im<lb break="no" ed="#P" n="57"/>mobilitatem importet, illam tamen in communi
+          <lb ed="#P" n="58"/>usu, et prout hic accipitur, significat. — Et
+          <lb ed="#P" n="59"/>certe dubitari non potest quin verbum ipsum
+          <lb ed="#P" n="60"/>standi interdum perventionem ad terminum
+          <lb ed="#P" n="61"/>motus, licet res in illo nihil quiescat, 
+          signifi<lb break="no" ed="#P" n="62"/>cet, ut in ascensu solis vel lapidis, vel in 
+          aug<lb break="no" ed="#P" n="63"/>mento viventis constat ; aliquande vero addat
+          <lb ed="#P" n="64"/>positioni rei quietem actualem (ut sic dicam),
+          <lb ed="#P" n="65"/>id est, carentiam motus, sine carentia 
+          muta<lb break="no" ed="#P" n="66"/>bilitatis, ut quando homo stare dicitur. 
+          Sae<lb break="no" ed="#P" n="67"/>pius autem significat firmitatem et aliquam
+          <lb ed="#P" n="68"/>immutabilitatem in stando; hanc enim 
+          ener<lb break="no" ed="#P" n="69"/>giam habere videtur hoc verbum ad Galat. 5,
+          <lb ed="#P" n="70"/>cum Paulus dicit : State, et nolite iterum jugo
+          <lb ed="#P" n="71"/>servitutis contineri. Et in usu communi 
+          lo<lb break="no" ed="#P" n="72"/>quendi Latinorum ita accipi solet, quando de
+          <lb ed="#P" n="73"/>conditione personae seu modo vivendi 
+          loquun<lb break="no" ed="#P" n="74"/>tur. Unde statum dicunt esse veluti habitum,
+          <lb ed="#P" n="75"/>qui est difficile mobilis, quia est vel 
+          consue<lb break="no" ed="#P" n="76"/>tudine, vel lege, vel alio modo simili firmatus.
+          <lb ed="#P" n="77"/>Denique, ut non sit dubium de ambiguitate
+          <lb ed="#P" n="78"/>vocis, supponimus, in hac significatione 
+          vo<lb break="no" ed="#P" n="79"/>cem illam in praesenti materia sumi.
+        </p>
+        <p xml:id="szovsr-p00092-d1e404">
+          <lb ed="#P" n="80"/>5. An immoblilitas status requirat aliquam
+          <lb ed="#P" n="81"/>obligationem permanendi in illo. — Ut autem
+          <lb ed="#P" n="82"/>magis hoc declaretur, interrogari ulterius
+          <lb ed="#P" n="83"/>potest an haec immobilitas status necessario
+          <lb ed="#P" n="84"/>includat obligationem permanendi in illo;
+          <lb ed="#P" n="85"/>obligationem (inquam) vel legis, vel justitiae,
+          <lb ed="#P" n="86"/>aut voti, aut aliam similem, ratione cujus
+          <lb ed="#P" n="87"/>non possit homo hrcite illum statum 
+          relin<lb break="no" ed="#P" n="88"/>quere, in quo constitutus videtur. Nam D.
+          <lb ed="#P" n="89"/>Thomas, d. q. 183, art. 1, dicit: Ad statum
+          <lb ed="#P" n="90"/>hominis pertinere videtur, quod resgicit 
+          obli<lb break="no" ed="#P" n="91"/>gationem personae hominis. Et in q. 184, art. 4,
+          <lb ed="#P" n="92"/>ex hoc principio colligit, ad statum 
+          perfectio<lb break="no" ed="#P" n="93"/>nis obligationem requiri. Et idem sentiunt
+          <lb ed="#P" n="94"/>Turrec. et Anton. supra. Et idem indicat Soto,
+          <lb ed="#P" n="95"/>d. art. 1, post concl. 8. Ratio reddi potest ex
+          <lb ed="#P" n="96"/>mente horum auctorum, quia status non dicit
+          <lb ed="#P" n="97"/>solum actum vel exercitium, sed jus vel 
+          obli<lb break="no" ed="#P" n="98"/>gationem; non est enim in statu servitutis
+          <lb ed="#P" n="99"/>omnis qui servit, Sed qui ex peculiari jure
+          <lb ed="#P" n="100"/>et obligatione servire tenetur, et sic de aliis.
+          <lb ed="#P" n="101"/>Confirmatur, quia sicut status, de quo 
+          tracta<lb break="no" ed="#P" n="102"/>mus, moralis est, ita requirit moralem 
+          firmi<lb break="no" ed="#P" n="103"/>tatem; haec autem sine obligatione esse non
+          <lb ed="#P" n="104"/>potest.
+        </p>
+        <p xml:id="szovsr-p00092-d1e461">
+          <lb ed="#P" n="105"/>6. At vero Henric. supra hoc maxime negat,
+          <lb ed="#P" n="106"/>et quae adducit exémpla, hoc suadere 
+          viden<lb break="no" ed="#P" n="107"/>tur; nam in Ecclesia dicuntur esse status 
+          vi<lb break="no" ed="#P" n="108"/>duarum, virginum, laicorum, et secularium,
+          <lb ed="#P" n="109"/>qui nullam habent obligationem permanendi
+          <lb ed="#P" n="110"/>in illo statu. Idem probat exemplum de statu
+          <pb ed="#P" n="4"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>libertatis et servitutis, quia non minus 
+          pro<lb break="no" ed="#P" n="2"/>prie, imo perfectior status est libertatis quam
+          <lb ed="#P" n="3"/>servitutis, ut ex jure constat; et tamen non
+          <lb ed="#P" n="4"/>habet firmitatem obligationis, sicut illam 
+          ha<lb break="no" ed="#P" n="5"/>bet status servitutis. Unde idem D. Thomas
+          <lb ed="#P" n="6"/>9. 9, q. 184, art. 4, sub disjunctione dicit:
+          <lb ed="#P" n="7"/>Ad statum requiritur obligatio aligua, vel 
+          ab<lb break="no" ed="#P" n="8"/>solutio ab illa. Ex qua disjunctiva videtur
+          <lb ed="#P" n="9"/>aperte colligi, obligationem non esse de 
+          ra<lb break="no" ed="#P" n="10"/>tione status in communi; quia si inter 
+          oppo<lb break="no" ed="#P" n="11"/>sitas differentias, una posita disjunctive 
+          sufti<lb break="no" ed="#P" n="12"/>cit ad constitutionem rei, neutra determinate
+          <lb ed="#P" n="13"/>potest esse de necessitate talis rei. Ut si de
+          <lb ed="#P" n="14"/>ratione numeri est ut sit par vel impar, dici
+          <lb ed="#P" n="15"/>non potest esse de necessitate numeri, ut sit
+          <lb ed="#P" n="16"/>par. Unde Cajet., dict. q. 183, in principio,
+          <lb ed="#P" n="17"/>fatetur obligationem determinate non esse de
+          <lb ed="#P" n="18"/>ratione status, sed ordinem ad obligationem,
+          <lb ed="#P" n="19"/>utique habendi, vel carendi illa. Quod potest
+          <lb ed="#P" n="20"/>ratione et inductione declarari; quia status
+          <lb ed="#P" n="21"/>moralis, de quo tractamus, pertinet ad 
+          sta<lb break="no" ed="#P" n="22"/>tum libertatis vel servitutis, ut D. Thomas
+          <lb ed="#P" n="23"/>docet, d. q. 183, art. 1, et colligitur ex jure,
+          <lb ed="#P" n="24"/>ut paulo post videbimus ; quod ut universale
+          <lb ed="#P" n="25"/>sit, intelligendum est late, accipiendo 
+          servi<lb break="no" ed="#P" n="26"/>tutem ut extenditur ad omne vinculum 
+          sub<lb break="no" ed="#P" n="27"/>jectionis vel obligationis ad alium; sic enim
+          <lb ed="#P" n="28"/>status conjugalis continetur sub statu 
+          servi<lb break="no" ed="#P" n="29"/>tutis; vidualis autem et virginitatis sub statu
+          <lb ed="#P" n="30"/>libertatis, et sic de aliis. Atque ita in 
+          univer<lb break="no" ed="#P" n="31"/>sum omnis status constituitur, vel per 
+          obli<lb break="no" ed="#P" n="32"/>gationem aliquam, vel per carentiam ejus;
+          <lb ed="#P" n="33"/>ergo obligatio determinate non est de ratione
+          <lb ed="#P" n="34"/>status in communi, sed ordo ad 
+          obligatio<lb break="no" ed="#P" n="35"/>nem.
+        </p>
+        <p xml:id="szovsr-p00092-d1e557">
+          <lb ed="#P" n="36"/>7. Impugnatur sententia Henrici. — Sed
+          <lb ed="#P" n="37"/>contra hanc doctrinam et explicationem 
+          ob<lb break="no" ed="#P" n="38"/>jici potest, quia hinc sequitur immobilitatem
+          <lb ed="#P" n="39"/>non esse de ratione status, sed vel 
+          immuta<lb break="no" ed="#P" n="40"/>bilitatem vel carentiam ejus, seu 
+          habitudi<lb break="no" ed="#P" n="41"/>nem ad immobilitatem, quae potest esse vel
+          <lb ed="#P" n="42"/>carendi illa, vel illam habendi; consequens
+          <lb ed="#P" n="43"/>autem destruit prius fundamentum de statu
+          <lb ed="#P" n="44"/>positum ; ergo. Sequela probatur, quia 
+          ea<lb break="no" ed="#P" n="45"/>dem est ratio obligationis et immobilitatis ;
+          <lb ed="#P" n="46"/>quia moralis stabilitas non potest intelligi
+          <lb ed="#P" n="47"/>ine obligatione , et carentia obligationis 
+          va<lb break="no" ed="#P" n="48"/>rietatem et mutationem facile admittit. Unde
+          <lb ed="#P" n="49"/>confirmatur , nam carentia obligationis non
+          <lb ed="#P" n="50"/>confert ad immobilitatem conditionis 
+          per<lb break="no" ed="#P" n="51"/>sonae, secundum quam dfcitur esse in statu;
+          <lb ed="#P" n="52"/>ergo nec potest ad statum conferre; ergo
+          <lb ed="#P" n="53"/>frustra etsine fundamento dicitur, ad statum
+          <lb ed="#P" n="54"/>esse necessariam, vel obligationem, vel 
+          ca<lb break="no" ed="#P" n="55"/>rentiam ejus, cum haec carentia de se statui
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>repugnet. Ut declaratur facile in vidua vel
+          <lb ed="#P" n="57"/>virgine ; nam sola carentia servitutis conjugii
+          <lb ed="#P" n="58"/>non constituit illas in proprio statu, si non
+          <lb ed="#P" n="59"/>habeant aliunde firmitatem in tali conditione
+          <lb ed="#P" n="60"/>vitae continentis ; alioquin solum propositum
+          <lb ed="#P" n="61"/>continentiae sufficeret ad statum, ut Henricus
+          <lb ed="#P" n="62"/>volebat.
+        </p>
+        <p xml:id="szovsr-p00092-d1e620">
+          <lb ed="#P" n="63"/>8. Solvuntur rationes in contrarium, et 
+          ve<lb break="no" ed="#P" n="64"/>solvitur nec requiri obligationem, nec sufficere.
+          <lb ed="#P" n="65"/>— Ad haec vero tacite respondet D. Thomas
+          <lb ed="#P" n="66"/>in d. q. 183, art. 1, dum addit, ad statum 
+          re<lb break="no" ed="#P" n="67"/>quiri libertatem vel servitutem, seu 
+          obligatio<lb break="no" ed="#P" n="68"/>nem vel carentiam ejus, ec causa permanente,
+          <lb ed="#P" n="69"/>et non facile utabili. taque verum quidem
+          <lb ed="#P" n="70"/>est, in omni statu includi respectum ad 
+          obli<lb break="no" ed="#P" n="71"/>gationem, quasi sub disjunctione habendi
+          <lb ed="#P" n="72"/>vel carendi illa, non tamen suffticere, nisi
+          <lb ed="#P" n="73"/>habitudo illa, quae statum in particulari 
+          con<lb break="no" ed="#P" n="74"/>stituerit, ex causa permanente et non facile
+          <lb ed="#P" n="75"/>mutabili proveniat. Unde carentia conjugii
+          <lb ed="#P" n="76"/>per se non sufficit constituere statum, sed
+          <lb ed="#P" n="77"/>opus est ut ex causa permanente proveniat.
+          <lb ed="#P" n="78"/>Imo neque omnis obligatio sufficiet 
+          consti<lb break="no" ed="#P" n="79"/>tuere statum, nisi causam habeat 
+          permanen<lb break="no" ed="#P" n="80"/>tem. Famulus enim etiam habet obhgationem
+          <lb ed="#P" n="81"/>serviendi domino; tamen, quia illa obligatio
+          <lb ed="#P" n="82"/>non habet causam permanentem, non 
+          con<lb break="no" ed="#P" n="83"/>stituit proprium statum ; et ita facile solvitur
+          <lb ed="#P" n="84"/>difficultas tacta; quia carentia obligationis
+          <lb ed="#P" n="85"/>non ponitur ut necessaria ad aliquem 
+          sta<lb break="no" ed="#P" n="86"/>tum , quia det illi stabilitatem , sed quia 
+          per<lb break="no" ed="#P" n="87"/>tinet ad conditionem persona, quae ad 
+          for<lb break="no" ed="#P" n="88"/>malem statum libertatis constituendum 
+          suffi<lb break="no" ed="#P" n="89"/>ciet, si ex causa permanente proveniat.
+        </p>
+        <p xml:id="szovsr-p00092-d1e682">
+          <lb ed="#P" n="90"/>9. Quenam causa permanens requiratur ad
+          <lb ed="#P" n="91"/>immobilitatem status. — Interrogari vero 
+          ul<lb break="no" ed="#P" n="92"/>terius potest quaenam esse debeat haec causa
+          <lb ed="#P" n="93"/>permanens; nam ex dictis colligitur non esse
+          <lb ed="#P" n="94"/>ipsam obligationem , nec carentiam 
+          obliga<lb break="no" ed="#P" n="95"/>tionis, sed aliam permanentem causam, quae
+          <lb ed="#P" n="96"/>talem conditionem inducit. Quam ergo vel
+          <lb ed="#P" n="97"/>qualem causam illam esse oportet? Nam D.
+          <lb ed="#P" n="98"/>Thomas vel Cajet. in hoc nihil declarant, 
+          lo<lb break="no" ed="#P" n="99"/>quendo de statu in communi ; quamvis in
+          <lb ed="#P" n="100"/>particulari tractando de statu perfectionis,
+          <lb ed="#P" n="101"/>vel religionis , dicant in illo statu requiri 
+          vo<lb break="no" ed="#P" n="102"/>tum, ut causam firmitatis ejus; imo etiam
+          <lb ed="#P" n="103"/>addunt esse necessarium votum solemne.
+          <lb ed="#P" n="104"/>Quod etiam sequuntur Antonin., Turrec. et
+          <lb ed="#P" n="105"/>Soto. Sed hoc postea examinandum est ; nunc
+          <lb ed="#P" n="106"/>enim in communi loquimur de statu ; et sic
+          <lb ed="#P" n="107"/>certum est votum non esse causam 
+          adaequa<lb break="no" ed="#P" n="108"/>tam firmitatis ejus ; nam status in communi
+          <lb ed="#P" n="109"/>comprehendit omnem statum libertatis et
+          <lb ed="#P" n="110"/>servitutis, ut etiam D. Thomas indicat. Mani-
+          <pb ed="#P" n="5"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>festum est autem non omnem statum 
+          hujus<lb break="no" ed="#P" n="2"/>modi ex voto pendere. Et ita facile posset
+          <lb ed="#P" n="3"/>hoc inductione ostendi, quae statim fiet. Et
+          <lb ed="#P" n="4"/>ratio est clara, quia status de se abstrahit a
+          <lb ed="#P" n="5"/>cultu religioso, et ab speciali obligatione ad
+          <lb ed="#P" n="6"/>Deum; nam potest esse mere CS et per
+          <lb ed="#P" n="7"/>obligationem ad homines, vel per carentiam
+          <lb ed="#P" n="8"/>ejus, et ita potest sine voto subsistere.
+        </p>
+        <p xml:id="szovsr-p00092-d1e752">
+          <lb ed="#P" n="9"/>10. Nulla causa in genere assignari potest.
+          <lb ed="#P" n="10"/>— Dico ergo hujusmodi causam 
+          permanen<lb break="no" ed="#P" n="11"/>tem, et ad statum constituendum 
+          sufhicien<lb break="no" ed="#P" n="12"/>tem , quoad modum vel speciem non esse
+          <lb ed="#P" n="13"/>determinatam, sed esse variam et 
+          multiplhi<lb break="no" ed="#P" n="14"/>cem , juxta capacitatem materiae in qua 
+          sta<lb break="no" ed="#P" n="15"/>tus versatur. Ratio in generali reddi potest,
+          <lb ed="#P" n="16"/>quia ad rationem status solum requiritur 
+          im<lb break="no" ed="#P" n="17"/>mobilitas aliqua materiae proportionata; sed
+          <lb ed="#P" n="18"/>haec non potest oriri ex eadem causa in omni
+          <lb ed="#P" n="19"/>materia, ut est per se notum; ergo nec ratio
+          <lb ed="#P" n="20"/>status petit immobilitatem provenientem ex
+          <lb ed="#P" n="21"/>eadem causa vel radice, sed juxta materiae
+          <lb ed="#P" n="22"/>exigentiam ; melius tamen declaratur in 
+          par<lb break="no" ed="#P" n="23"/>ticulari, veluti quadam inductione. Nam 
+          om<lb break="no" ed="#P" n="24"/>nis proprius status, prout de illo nunc 
+          loqui<lb break="no" ed="#P" n="25"/>mur, reducitur ad statum libertatis et 
+          servi<lb break="no" ed="#P" n="26"/>tutis. At vero in servitute civih et humana
+          <lb ed="#P" n="27"/>maxime propria, immobiltas talis status
+          <lb ed="#P" n="28"/>nascitur ex causa morali, nimirum ex illo 
+          ti<lb break="no" ed="#P" n="29"/>tulo dominii justi domini in servum, sive sit
+          <lb ed="#P" n="30"/>justum bellum, sive emptio et venditio justa,
+          <lb ed="#P" n="31"/>sive alius contractus justus, vel immediate,
+          <lb ed="#P" n="32"/>vel mediante nativitate ex matre jam serva;
+          <lb ed="#P" n="33"/>qui titulus etiam lege juvatur, quae causa
+          <lb ed="#P" n="34"/>etiam est moralis. Ex hoc ergo titulo 
+          nasci<lb break="no" ed="#P" n="35"/>tur dominium in servum, quod de se inducit
+          <lb ed="#P" n="36"/>in servum obligationem ex se immutabilem
+          <lb ed="#P" n="37"/>moraliter ; quamvis per liberalem 
+          manumis<lb break="no" ed="#P" n="38"/>sionem, vel alium contractum auferri possit.
+          <lb ed="#P" n="39"/>Quod non obstat rationi status, quia non 
+          pos<lb break="no" ed="#P" n="40"/>tulat vinculum prorsus imnutabile, sed 
+          mora<lb break="no" ed="#P" n="41"/>liter fixum ac permanens. In statu autem 
+          li<lb break="no" ed="#P" n="42"/>bertatis oppositae dictae servituti, firmitas 
+          nas<lb break="no" ed="#P" n="43"/>citur ex naturali lege ; quia homo naturaliter
+          <lb ed="#P" n="44"/>liber creatus est, et ita ex parentibus liberis
+          <lb ed="#P" n="45"/>liber nascitur, quae libertas, ratione hujus 
+          na<lb break="no" ed="#P" n="46"/>turalis dominii, difficile mobilis est, quod
+          <lb ed="#P" n="47"/>sufficit ad rationem status, licet ex voluntate
+          <lb ed="#P" n="48"/>ipsius hominis, vel in poenam justam auferri
+          <lb ed="#P" n="49"/>possit. Unde in hoc genere status non est 
+          ne<lb break="no" ed="#P" n="50"/>cessaria in ipso homine libero obligatio 
+          per<lb break="no" ed="#P" n="51"/>manendi m tali statu libertatis; poterit enim
+          <lb ed="#P" n="52"/>aliquando sine peccato se in servum tradere
+          <lb ed="#P" n="53"/>aut vendere; sufficit ergo vel quod id non
+          <lb ed="#P" n="54"/>possit facere licite sine justa et gravi causa,
+          <lb ed="#P" n="55"/>vel etiam quod ab aliis non possit tali liber-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tate invitus privari sine publica potestate et
+          <lb ed="#P" n="57"/>causa justa.
+        </p>
+        <p xml:id="szovsr-p00092-d1e863">
+          <lb ed="#P" n="58"/>11. Status peccati proprie est status 
+          servi<lb break="no" ed="#P" n="59"/>tutis cujus immobilitas oritur , vel ea 
+          proclivi<lb break="no" ed="#P" n="60"/>tate ad malum, vel difficultate regressus ad 
+          gra<lb break="no" ed="#P" n="61"/>tiam. — At vero in statu apud Deum spirituali
+          <lb ed="#P" n="62"/>et interno, ut est status peccati et gratiae, 
+          sta<lb break="no" ed="#P" n="63"/>tus peccati videri potest status libertatis ab
+          <lb ed="#P" n="64"/>obligatione Deo debita, juxta illud Jerem. 2:
+          <lb ed="#P" n="65"/>Hwpisti vincula, confregisti jugum, diaisti
+          <lb ed="#P" n="66"/>Non serviain ; hoc enim fit per actuale 
+          pecca<lb break="no" ed="#P" n="67"/>tum, a quo talis status duxit originem. Re 
+          ta<lb break="no" ed="#P" n="68"/>men vera est status servitutis ; quia rebellio
+          <lb ed="#P" n="69"/>non aufert obligationem Deo debitam, et
+          <lb ed="#P" n="70"/>aliunde inducit debitum poenae, et cogit 
+          quo<lb break="no" ed="#P" n="71"/>dammodo servire peccato, quia peccatum 
+          in<lb break="no" ed="#P" n="72"/>haerens suo pondere in aliud trahit; et hanc
+          <lb ed="#P" n="73"/>conditionem servitutis vocavit Cajetanus 
+          su<lb break="no" ed="#P" n="74"/>pra obligationem, ut defendat etiam hunc
+          <lb ed="#P" n="75"/>statum sumi ex aliqua obligatione. Sed 
+          re<lb break="no" ed="#P" n="76"/>vera non est obligatio moralis et propria,
+          <lb ed="#P" n="77"/>secundum quam homo dicitur teneri ad 
+          ali<lb break="no" ed="#P" n="78"/>quid faciendum, vel ad permanendum in
+          <lb ed="#P" n="79"/>tali statu, nam haec obligatio impossibilis est,
+          <lb ed="#P" n="80"/>ut constat ; sed dicitur obligatio, id est, 
+          neces<lb break="no" ed="#P" n="81"/>sitas quaedam et debitum ejus, vel quia est
+          <lb ed="#P" n="82"/>fragilitas, et pronitas ad malum, quae ipsum
+          <lb ed="#P" n="83"/>peccatum comitatur ; vel quia peccatum 
+          mor<lb break="no" ed="#P" n="84"/>tale, de quo est sermo , difficile mobile est,
+          <lb ed="#P" n="85"/>quia nec per vires hominis naturales, nec per
+          <lb ed="#P" n="86"/>ullam causam creatam auferri potest; ideo
+          <lb ed="#P" n="87"/>ex hac parte sufficiens est ad statum 
+          consti<lb break="no" ed="#P" n="88"/>tuendum. Videri autem potest deficere a 
+          ra<lb break="no" ed="#P" n="89"/>tione status, quia in eo potius homo jacet
+          <lb ed="#P" n="90"/>quam stet, quia in eo non habet positionem
+          <lb ed="#P" n="91"/>(ut sic dicam) secundum naturam, sed contra
+          <lb ed="#P" n="92"/>illam. Nihilominus tamen, quia in suo ordine
+          <lb ed="#P" n="93"/>habet consummationem, vel per 
+          comparatio<lb break="no" ed="#P" n="94"/>nem ad suum oppositum, ad idem genus 
+          re<lb break="no" ed="#P" n="95"/>ducitur.
+        </p>
+        <p xml:id="szovsr-p00092-d1e948">
+          <lb ed="#P" n="96"/>12. Status gratie status libertatis dicitur,
+          <lb ed="#P" n="97"/>licet servitutis Dei dici possit. — Alter vero
+          <lb ed="#P" n="98"/>status est huic oppositus, scilicet , status 
+          gra<lb break="no" ed="#P" n="99"/>tiae, quem Cajetanus vocat statum libertatis,
+          <lb ed="#P" n="100"/>utique a servitute peccati, et ab obligatione
+          <lb ed="#P" n="101"/>seu debito perpetuae poenae. Addere vero
+          <lb ed="#P" n="102"/>possumus , principaliter esse statum 
+          servitu<lb break="no" ed="#P" n="103"/>tis Dei, quae est vera libertas, juxta illud ad
+          <lb ed="#P" n="104"/>Rom. 6: Liberati a peccato, servi facti estis
+          <lb ed="#P" n="105"/>justitie. Et iterum : Liberati a peccato, servi
+          <lb ed="#P" n="106"/>autem facti Deo. Est autem illa servitus, non
+          <lb ed="#P" n="107"/>vilis , sed nobilissima , quia perficit 
+          liberta<lb break="no" ed="#P" n="108"/>tem hominis ; ideoque hoc etiam titulo est
+          <lb ed="#P" n="109"/>status libertatis; imo etiam est status 
+          amici<lb break="no" ed="#P" n="110"/>tiae apud Deum, juxta verbum Christi, Joan.
+          <pb ed="#P" n="6"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>15: Jam non dicam vos servos, sed amicos.
+          <lb ed="#P" n="2"/>Unde non ita est status libertatis, ut solum
+          <lb ed="#P" n="3"/>dicat carentiam obligationis , sed potius ut
+          <lb ed="#P" n="4"/>magnam obligationem importet serviendi Deo.
+          <lb ed="#P" n="5"/>amandi ipsum, et permanendi in tali statu.
+          <lb ed="#P" n="6"/>Hanc autem permanentiam et stabilitatem
+          <lb ed="#P" n="7"/>ipsa gratia, quantum ex se est, secum affert;
+          <lb ed="#P" n="8"/>et ideo, licet ex libertate et fragilitate 
+          homi<lb break="no" ed="#P" n="9"/>nis frequenter amittatur , nihilominus 
+          pro<lb break="no" ed="#P" n="10"/>prium statum apud Deum constituit , quia
+          <lb ed="#P" n="11"/>gratia ipsa est permanens causa. et de se
+          <lb ed="#P" n="12"/>tirmitatem et stabilitatem secum afferi.
+        </p>
+        <p xml:id="szovsr-p00092-d1e1013">
+          <lb ed="#P" n="13"/>13. Status regularis, servitutis est ; a 
+          pro<lb break="no" ed="#P" n="14"/>fessione, voto vel pacto ejus immobihtas 
+          ori<lb break="no" ed="#P" n="15"/>tur.—sS tatus secularis libertatis est ; ejus causa
+          <lb ed="#P" n="16"/>permanens est jus libertatis. — Denique idem
+          <lb ed="#P" n="17"/>videre licet in statibus politicis et humanis,
+          <lb ed="#P" n="18"/>ut, verbi gratia, in statu seculari et regulari.
+          <lb ed="#P" n="19"/>Nam hic posterior ad statum servitutis 
+          redu<lb break="no" ed="#P" n="20"/>citur, quia peculiarem subjectionem et 
+          obli<lb break="no" ed="#P" n="21"/>gationem inducit, cujus habet permanentem
+          <lb ed="#P" n="22"/>causam; qualis est vel professio religiosa, vel
+          <lb ed="#P" n="23"/>votum, vel pactum aliquod, ut postea late 
+          trac<lb break="no" ed="#P" n="24"/>tandum est. Status vero secularis, est status 
+          li<lb break="no" ed="#P" n="25"/>bertatis, utique a jugo, et obligationereligiosa:
+          <lb ed="#P" n="26"/>illius autem libertatis habet stabilem et 
+          perma<lb break="no" ed="#P" n="27"/>nentem causam, scilicet, ipsum naturale jus
+          <lb ed="#P" n="28"/>propriae libertatis, quod de se stabile ac 
+          perpe<lb break="no" ed="#P" n="29"/>tuum est,quandiu per voluntatem propriam 
+          re<lb break="no" ed="#P" n="30"/>gulari jugo non subjicitur. Et ad hunc modum
+          <lb ed="#P" n="31"/>sub his membris alia subdividuntur, quae sunt
+          <lb ed="#P" n="32"/>in usu, ut de statibus regularibus postea 
+          di<lb break="no" ed="#P" n="33"/>cendum est. Sub statu vero seculari distingui
+          <lb ed="#P" n="34"/>possunt status laicorum et clericorum. Nam,
+          <lb ed="#P" n="35"/>licet hic posterior fortasse non habeat tam
+          <lb ed="#P" n="36"/>propriam rationem status (ut infra dicam),
+          <lb ed="#P" n="37"/>nihilominus eo modo quo illam 
+          denominatio<lb break="no" ed="#P" n="38"/>nem recipit, habet causam de se 
+          permanen<lb break="no" ed="#P" n="39"/>tem. Nam est status servitutis, quatenus in
+          <lb ed="#P" n="40"/>illo specialiter cultui divino persona dicatur,
+          <lb ed="#P" n="41"/>et suo modo consecratur, quae consecratio 
+          in<lb break="no" ed="#P" n="42"/>choatur per sacramentale quoddam ita 
+          per<lb break="no" ed="#P" n="43"/>manens, ut iterabile non sit, utique per 
+          pri<lb break="no" ed="#P" n="44"/>mam tonsuram; et paulatim perficitur per 
+          sa<lb break="no" ed="#P" n="45"/>cramentum immoblile, et imprimens 
+          charac<lb break="no" ed="#P" n="46"/>terem indelebilem. Ideoque, licet in usu vel
+          <lb ed="#P" n="47"/>professione ejus possit mutari, nihilominus
+          <lb ed="#P" n="48"/>status seu munus de se causam et 
+          fundamen<lb break="no" ed="#P" n="49"/>tum permanens habet; e contrario vero 
+          sta<lb break="no" ed="#P" n="50"/>tus laicorum est status libertatis a clericali
+          <lb ed="#P" n="51"/>obligatione et destinatione, quae naturalis est,
+          <lb ed="#P" n="52"/>et inde habet causam de se permanentem,
+          <lb ed="#P" n="53"/>sicut in aliis explicuimus.
+        </p>
+        <p xml:id="szovsr-p00092-d1e1104">
+          <lb ed="#P" n="54"/>14. Status virginitatis vel viduitatis sunt
+          <lb ed="#P" n="55"/>status libertatis ; illius immobilitas a jure pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>priae libertatis mutuanda. — Et idem est de
+          <lb ed="#P" n="57"/>statu conjugii, aut viduitatis, vel virginitatis;
+          <lb ed="#P" n="58"/>nam prior, qui est status servitutis, causam
+          <lb ed="#P" n="59"/>habet satis permanentem, ut de se satis 
+          pa<lb break="no" ed="#P" n="60"/>let. Posterior vero praecise sumptus, ut priori
+          <lb ed="#P" n="61"/>opponitur, est status libertatis a servitute 
+          con<lb break="no" ed="#P" n="62"/>jugii, et ut sic habet etiam causam satis 
+          per<lb break="no" ed="#P" n="63"/>manentem, utique naturale jus propriae 
+          liber<lb break="no" ed="#P" n="64"/>tatis, quam habet virgo quandiu non nupsit,
+          <lb ed="#P" n="65"/>et vidua quando per mortem viri, a jure et
+          <lb ed="#P" n="66"/>subjectione conjugii liberatur. Quatenus vero
+          <lb ed="#P" n="67"/>hic status viduitatis vel virginitatis potest
+          <lb ed="#P" n="68"/>transire ad statum servitutis, id est, 
+          obliga<lb break="no" ed="#P" n="69"/>tionis servandi castitatem, sic non 
+          constitui<lb break="no" ed="#P" n="70"/>tur in propria ratione status, nisi aliqua causa
+          <lb ed="#P" n="71"/>permanens, et aliquo modo immutabilis 
+          in<lb break="no" ed="#P" n="72"/>terveniat; ut est votum castitatis, ut postea
+          <lb ed="#P" n="73"/>videbimus. Ex quibus omnibus sufficienter
+          <lb ed="#P" n="74"/>declaratum est, quomodo ratio status non sit
+          <lb ed="#P" n="75"/>sine aliqua immutabilitate quae causam 
+          per<lb break="no" ed="#P" n="76"/>manentem habeat, et qualis et quam varia
+          <lb ed="#P" n="77"/>talis causa esse possit; simulque satisfactum
+          <lb ed="#P" n="78"/>est fundamento Henrici, nam fere omnia
+          <lb ed="#P" n="79"/>exempla, quae adducit, in contrarium inducta
+          <lb ed="#P" n="80"/>sunt, et in discursu sequentium capitum id
+          <lb ed="#P" n="81"/>magis declarabitur.
+        </p>
+        <p xml:id="szovsr-p00092-d1e1170">
+          <lb ed="#P" n="82"/>15. Haplicatur secunda particula capitis.—
+          <lb ed="#P" n="83"/>Hactenus solum exposuimus priorem 
+          particu<lb break="no" ed="#P" n="84"/>lam in titulo capitis positam, scilicet, statum;
+          <lb ed="#P" n="85"/>nunc superest secundo loco esplicanda alia
+          <lb ed="#P" n="86"/>particula, scilicet, vitee christiane ; sunt enim
+          <lb ed="#P" n="87"/>in Ecclesia varii modi statuum ; non tamen
+          <lb ed="#P" n="88"/>omnes ad vitam christianam, ut christiana
+          <lb ed="#P" n="89"/>est. ordinantur, et ideo ad praesentem 
+          dispu<lb break="no" ed="#P" n="90"/>tationem non pertinent ; ideoque particulam
+          <lb ed="#P" n="91"/>illam formaliter sumimus, quia de solo illo
+          <lb ed="#P" n="92"/>statu, qui peculiari modo ad vitam aeternam
+          <lb ed="#P" n="93"/>consequendam ordinatur, tractamus. Ad hoc
+          <lb ed="#P" n="94"/>autem meliusintelligendum, distinguere 
+          opor<lb break="no" ed="#P" n="95"/>tet in Ecclesia id; uod habet commune cum
+          <lb ed="#P" n="96"/>aliis infidelium pu seu 
+          congre<lb break="no" ed="#P" n="97"/>gationibus , aut rebuspublicis , ab eo quod
+          <lb ed="#P" n="98"/>habet speciale, ut Christi Ecclesia est. Priori
+          <lb ed="#P" n="99"/>enim modo sumpta, ordinatur ad praesentis
+          <lb ed="#P" n="100"/>vitae conservationem, propagationem, et 
+          tem<lb break="no" ed="#P" n="101"/>poralem pacem et commoditatem; posteriori
+          <lb ed="#P" n="102"/>autem modo spectata, ordinatur ad bonum
+          <lb ed="#P" n="103"/>animae, et vitam aeternam consequendam; et
+          <lb ed="#P" n="104"/>sub utraque raltione distinguuntur in illa 
+          va<lb break="no" ed="#P" n="105"/>rii status. Nam ut est respublica temporalis,
+          <lb ed="#P" n="106"/>sunt in ea status libertatis et servitutis 
+          hu<lb break="no" ed="#P" n="107"/>manae, secundum quas conditiones, ut saepe
+          <lb ed="#P" n="108"/>dixi, maxime distingui solent status in 
+          repu<lb break="no" ed="#P" n="109"/>blica humana, ut docet D. Thomas 2. 2, q.
+          <lb ed="#P" n="110"/>183, a. J, ex cap. Si quando, 2. q. 6, ubi
+          <pb ed="#P" n="7"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>causa libertatis vel servitutis, causa status
+          <lb ed="#P" n="2"/>appellatur. Idemque sumitur ex leg. 3 et 4,
+          <lb ed="#P" n="3"/>fr. de Capitis diminut., et ex toto tit. c. de 
+          In<lb break="no" ed="#P" n="4"/>genuis manumiss., et ff. de Statu liberis, et,
+          <lb ed="#P" n="5"/>Ne de statu defunctorum, et praesertim in l.
+          <lb ed="#P" n="6"/>9 et 3, ff. de Statu hominum. Et sub statu 
+          li<lb break="no" ed="#P" n="7"/>berorum distinguebantur olim status 
+          inge<lb break="no" ed="#P" n="8"/>nuorum et libertinorum; et nunc 
+          distinguun<lb break="no" ed="#P" n="9"/>tur status nobilium et plebeiorum. Item sunt
+          <lb ed="#P" n="10"/>in republica humana status conjugatorum
+          <lb ed="#P" n="11"/>vel solutorum. Item status majorum vel 
+          mi<lb break="no" ed="#P" n="12"/>norum, secundum aetates; in quibus omnibus
+          <lb ed="#P" n="13"/>aliquis modus subjectionis vel carentiae illius
+          <lb ed="#P" n="14"/>considerari potest, ut ex dictis facile patet.
+          <lb ed="#P" n="15"/>Horum autem statuum consideratio per se ad
+          <lb ed="#P" n="16"/>nos non spectat, quia mere civilis et politica
+          <lb ed="#P" n="17"/>est. Dico autem per se, quia indirecte, 
+          quate<lb break="no" ed="#P" n="18"/>nus ex illis statibus aliquo modo pendet 
+          pro<lb break="no" ed="#P" n="19"/>prius spiritualis status, interdum a Theologis
+          <lb ed="#P" n="20"/>considerantur, ut dicemus.
+        </p>
+        <p xml:id="szovsr-p00092-d1e1283">
+          <lb ed="#P" n="21"/>16. E'cclesia, ut status vite christiane seu
+          <lb ed="#P" n="22"/>spiritualis, duplem : militans et triumphans.—
+          <lb ed="#P" n="23"/>Alio ergo modo consideratur Ecclesia, ut est
+          <lb ed="#P" n="24"/>congregatio hominum per fidem et opera
+          <lb ed="#P" n="25"/>tendentium in supernaturalem beatitudinem;
+          <lb ed="#P" n="26"/>et sic ipsamet Ecclesia est status vitae 
+          chris<lb break="no" ed="#P" n="27"/>tianae, seu spiritualis ; et secundum hanc 
+          con<lb break="no" ed="#P" n="28"/>siderationem, sicut est duplex Ecclesia, 
+          mili<lb break="no" ed="#P" n="29"/>tans et triumphans, ita distingui solet duplex
+          <lb ed="#P" n="30"/>status, termini et viae : et ille prior in statum
+          <lb ed="#P" n="31"/>beatitudinis et damnationis subdistingui 
+          po<lb break="no" ed="#P" n="32"/>test ex Ansel., lib. de Similitud., c. 46, ubi
+          <lb ed="#P" n="33"/>distinguit quidem duos ultimos terminos viae,
+          <lb ed="#P" n="34"/>non vero ultitur nomine status. Verumtamen
+          <lb ed="#P" n="35"/>priori termino, scilicet, beatitudinis, nomen
+          <lb ed="#P" n="36"/>status vitae christianae merito tribuitur, nam
+          <lb ed="#P" n="37"/>inillo perfectissime inveniunturillae duae 
+          con<lb break="no" ed="#P" n="38"/>ditiones perfectionis et stabilitatis ; et ideo
+          <lb ed="#P" n="39"/>ille solus quasi per antonomasiam nomen
+          <lb ed="#P" n="40"/>status meretur ; nam in secundo nullum est
+          <lb ed="#P" n="41"/>bonum, sed summa miseria, et potius est in
+          <lb ed="#P" n="42"/>perpetua malorum successione, quam in 
+          sta<lb break="no" ed="#P" n="43"/>bili quiete. Nihilominus tamen denominatur
+          <lb ed="#P" n="44"/>status, vel propter perpetuitatem solam, quia
+          <lb ed="#P" n="45"/>ab illo statu non potest mutatio fieri; vel etiam
+          <lb ed="#P" n="46"/>quia in genere mali et miseriae ad terminum
+          <lb ed="#P" n="47"/>summum pervenitur; vel denique quia 
+          oppo<lb break="no" ed="#P" n="48"/>sita ad idem genus reducuntur. Non poterit
+          <lb ed="#P" n="49"/>tamen status vitae christianae appellari, tum
+          <lb ed="#P" n="50"/>quia potius est status mortis quam vitae; tum
+          <lb ed="#P" n="51"/>quia, licet sit vitae naturalis, nullo modo est
+          <lb ed="#P" n="52"/>christianae. In purgatorio autem, ut est locus
+          <lb ed="#P" n="53"/>poenae, non censetur esse status; quia est in
+          <lb ed="#P" n="54"/>transitu, et ad breve tempus; ut vero ad 
+          sta<lb break="no" ed="#P" n="55"/>tum salutis pertinet, propter ejus certitudinem
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et perpetuitatem, quaedam est status 
+          beatitu<lb break="no" ed="#P" n="57"/>dinis inchoatio.
+        </p>
+        <p xml:id="szovsr-p00092-d1e1368">
+          <lb ed="#P" n="58"/>17. Quo pacto status viee dari possit.— 
+          Sta<lb break="no" ed="#P" n="59"/>tus innocentie de se durabilis erat. — Nunc
+          <lb ed="#P" n="60"/>vero non de statu seu statibus termini, sed
+          <lb ed="#P" n="61"/>de statu viae agimus. De quo etiam 
+          interro<lb break="no" ed="#P" n="62"/>gari posset, quomodo cohaereant status et viae,
+          <lb ed="#P" n="63"/>cum via mutationem postulet, status vero
+          <lb ed="#P" n="64"/>quietem. Dicendum vero est optime 
+          cohaere<lb break="no" ed="#P" n="65"/>re, quia non ipse usus ambulandi per viam
+          <lb ed="#P" n="66"/>(ut sic rem declarem) dicitur status viae, sed
+          <lb ed="#P" n="67"/>conditio personae, vel modus vivendi aptus
+          <lb ed="#P" n="68"/>ad tendendum in beatitudinem, acquirendo
+          <lb ed="#P" n="69"/>illam, dicitur status viae, quia in illo, et 
+          per<lb break="no" ed="#P" n="70"/>fectio, et stabilitas ad rationem status juxta
+          <lb ed="#P" n="71"/>hujus vitae capacitatem sufficiens, invenitur;
+          <lb ed="#P" n="72"/>et sic distinguitur a Theologis in hominibus
+          <lb ed="#P" n="73"/>duplex status viae, scilicet, innocentise et 
+          na<lb break="no" ed="#P" n="74"/>turae lapsae, ut in tractatu de Gratia, in 
+          prin<lb break="no" ed="#P" n="75"/>cipio, dictum est. Et de priori in proprio
+          <lb ed="#P" n="76"/>tractatu late disputavimus. Hic solum 
+          adver<lb break="no" ed="#P" n="77"/>timus, quamvis ille vivendi modus brevi 
+          tem<lb break="no" ed="#P" n="78"/>pore duraverit, nihilominus nomen status
+          <lb ed="#P" n="79"/>mereri, quia de se durabilis valde erat; imo
+          <lb ed="#P" n="80"/>ut perpetuo usque ad finem seculi duraret,
+          <lb ed="#P" n="81"/>constitutus fuit, licet conditionem 
+          contingen<lb break="no" ed="#P" n="82"/>tem includeret, quod rationi status non 
+          re<lb break="no" ed="#P" n="83"/>pugnat; et ratione illius conditionis non 
+          im<lb break="no" ed="#P" n="84"/>pletae, potuit homo intra breve tempus ab illo
+          <lb ed="#P" n="85"/>statu cadere, et status ipse a sua stabilitate
+          <lb ed="#P" n="86"/>deficere ; hoc enim rationi status non 
+          repu<lb break="no" ed="#P" n="87"/>gnat, quia (ut dicunt logici) verba in 
+          definitio<lb break="no" ed="#P" n="88"/>nibus non dicunt actum, sed aptitudinem, 
+          si<lb break="no" ed="#P" n="89"/>cut etiam in statu gratiae et peccati supra 
+          de<lb break="no" ed="#P" n="90"/>claratum est.
+        </p>
+        <p xml:id="szovsr-p00092-d1e1442">
+          <lb ed="#P" n="91"/>18. Status nature lapse revera status vita.
+          <lb ed="#P" n="92"/>— Status autem naturae lapsae, licet, ut talis
+          <lb ed="#P" n="93"/>est, formaliter (ut sic dicam) potius sit status
+          <lb ed="#P" n="94"/>mortis quam vitae, quia pertinet ad statum
+          <lb ed="#P" n="95"/>peccati, corruptionis ac servitutis, 
+          nihilomi<lb break="no" ed="#P" n="96"/>nus, quatenus in eo concessa est homini 
+          gra<lb break="no" ed="#P" n="97"/>tia viae sufficientis ad reparandam salutem,
+          <lb ed="#P" n="98"/>amissam, et vitam aeternam consequendam,
+          <lb ed="#P" n="99"/>revera est status vitae fidelis, seu status 
+          or<lb break="no" ed="#P" n="100"/>dinati ad vitam ,consequendam '. Et hic
+          <lb ed="#P" n="101"/>status potest rursus distingui in statum 
+          le<lb break="no" ed="#P" n="102"/>gis naturae, statum legis veteris (cujus 
+          men<lb break="no" ed="#P" n="103"/>tionem fecit Paulus, in epistola ad Hebr.),
+          <lb ed="#P" n="104"/>et statum Ecclesiae Christi ; et duobus primis
+          <lb ed="#P" n="105"/>pro nunc omissis, tertium vocamus statum
+          <lb ed="#P" n="106"/>vitae christianae, de quo nunc tractamus. 
+          Cu<lb break="no" ed="#P" n="107"/>jus ratio in hoc consistit, quod sit quidam
+          <pb ed="#P" n="8"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>modus religionis, ad salutem et vitam 
+          aeter<lb break="no" ed="#P" n="2"/>nam consequendam necessarius, et per 
+          suffi<lb break="no" ed="#P" n="3"/>cientia media ordinatus ; qui vivendi modus
+          <lb ed="#P" n="4"/>in sola Ecclesia Christi reperitur, et in fide
+          <lb ed="#P" n="5"/>Christi fundatur, et ideo status vitae 
+          christia<lb break="no" ed="#P" n="6"/>nae nominatur. Nam, quod in illo vivendi 
+          mo<lb break="no" ed="#P" n="7"/>do inveniantur cum magna perfectione 
+          con<lb break="no" ed="#P" n="8"/>ditiones ad statum requisitae, manifestum est.
+          <lb ed="#P" n="9"/>Quia imprimis in illo magna stabilitas et 
+          fir<lb break="no" ed="#P" n="10"/>mitas invenitur : primo quidem in 
+          communi<lb break="no" ed="#P" n="11"/>tate Ecclesiee Christi, quia in ipso, tanquam
+          <lb ed="#P" n="12"/>in firmissima petra, fundata est principahter,
+          <lb ed="#P" n="13"/>et ex promissione ac potentia ejus, ita 
+          stabi<lb break="no" ed="#P" n="14"/>lita est ut portae inferi contra eam praevalere
+          <lb ed="#P" n="15"/>non possint. Deinde etiam in singulis 
+          perso<lb break="no" ed="#P" n="16"/>nis hunc statum profitentibus, habet causam
+          <lb ed="#P" n="17"/>permanentem de se ac stabilem. Quia 
+          funda<lb break="no" ed="#P" n="18"/>tur imprimis in professione fidei facta in 
+          Da<lb break="no" ed="#P" n="19"/>ptismo, quae de se obligat ad permanendum
+          <lb ed="#P" n="20"/>semper in tali genere vitae ad salutem 
+          ani<lb break="no" ed="#P" n="21"/>mae pertinentis, et in vera Christi fide. 
+          Dein<lb break="no" ed="#P" n="22"/>de fides ipsa habet firmissima fundamenta,
+          <lb ed="#P" n="23"/>et impetrare potest vires et auxilia ad 
+          perse<lb break="no" ed="#P" n="24"/>verandum in Christi Ecclesia; habet ergo hic
+          <lb ed="#P" n="25"/>modus vitae ex hac parte perfectam rationem
+          <lb ed="#P" n="26"/>status. Aliunde vero, in hoc vivendi modo,
+          <lb ed="#P" n="27"/>vera rectitudo et tota perfectio ad salutem
+          <lb ed="#P" n="28"/>animae necessaria invenitur; ergo etiam ex
+          <lb ed="#P" n="29"/>hac parte invenitur in Ecclesia Christi 
+          quid<lb break="no" ed="#P" n="30"/>quid ad rationem status propriissimi ac 
+          per<lb break="no" ed="#P" n="31"/>fecti desiderari potest. Ex his ergo satis 
+          con<lb break="no" ed="#P" n="32"/>stat quid sit status vitae christiana; quotuplex
+          <lb ed="#P" n="33"/>autem ille sit, et quomodo ad statum 
+          perfec<lb break="no" ed="#P" n="34"/>tionis comparetur, in sequentibus capitibus
+          <lb ed="#P" n="35"/>exponetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="381"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p94764"><!-- t7l6prae -->
+        <head xml:id="szovsr-p94764-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-p94764-d1e103">
+          <pb ed="#P" n="381"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SEXTUS
+          <lb ed="#P" n="2"/>DE PROFISSIONE RELIGIOSA.
+        </p>
+        <p xml:id="szovsr-p94764-d1e114">
+          <lb ed="#P" n="3"/>Post novitiatum completum, sequitur 
+          reli<lb break="no" ed="#P" n="4"/>giosa professio, per quam religiosus status 
+          sub<lb break="no" ed="#P" n="5"/>stantialiter consummatur, et ideo de illa 
+          con<lb break="no" ed="#P" n="6"/>sequenter dicendum est. Primo, quam sit 
+          ne<lb break="no" ed="#P" n="7"/>cessaria ad religiosum statum. Deinde, in quo
+          <lb ed="#P" n="8"/>substantialiter consistat, et quas causas vel
+          <lb ed="#P" n="9"/>conditiones requirat ut valida sit, et quot 
+          mo<lb break="no" ed="#P" n="10"/>dis fieri possit, seu quotuplex sit. Ac deinde
+          <lb ed="#P" n="11"/>quas proprietates et effectus habeat. Quia vero
+          <lb ed="#P" n="12"/>professio et expresse et tacite fieri potest, et
+          <lb ed="#P" n="13"/>illa, quae est expressa, et quasi exemplar 
+          alte<lb break="no" ed="#P" n="14"/>rius, et professio simpliciter, ideo de illa prius
+          <lb ed="#P" n="15"/>et praecipue hic disputamus ; postea vcro quae
+          <lb ed="#P" n="16"/>ad aliam pertinent, addemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

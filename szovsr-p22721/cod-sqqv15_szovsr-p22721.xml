@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="909"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p22721"><!-- t7l10c9 -->
+        <head xml:id="szovsr-p22721-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-p22721-Hd1e103" type="question-title">Utrum perfecta obedientia evangelica requirat universalem materiam sine ulla regulae limitatione.</head>
+        <p xml:id="szovsr-p22721-d1e106">
+          <lb ed="#P" n="95"/>CAPUT IX.
+          <lb ed="#P" n="96"/>UTRUM PERFECTA OBEDIENTIA EVANGELICA 
+          REQUI<lb break="no" ed="#P" n="97"/>RAT UNIVERSALEM MATERIAM SINE ULLA 
+          REGU<lb break="no" ed="#P" n="98"/>LAE LIMITATIONE.
+        </p>
+        <p xml:id="szovsr-p22721-d1e117">
+          <lb ed="#P" n="99"/>1. Triplicem obedientie gradum distingui.
+          <lb ed="#P" n="100"/>—dHlaec quaestio proponitur ad respondendum
+          <lb ed="#P" n="101"/>aliis dubitationibus, et objectionibus 
+          proposi<lb break="no" ed="#P" n="102"/>tis in superiori capite. Dicendum ergo primo
+          <lb ed="#P" n="103"/>est obedientiam Evangelicam, ut perfectissima
+          <lb ed="#P" n="104"/>sit, amplissimam esse debere, et aliquo modo
+          <lb ed="#P" n="105"/>ad omnia perfecta sine limitatione extendi.
+          <lb ed="#P" n="106"/>Hanc assertionem probant quae, in principio
+          <lb ed="#P" n="107"/>capitis praecedentis, ex Evangelio, et consiliis
+          <lb ed="#P" n="108"/>Christi Domini adduximus. Sumitur etiam ex
+          <pb ed="#P" n="910"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>communi modo loquendi Sanctorum Patrum
+          <lb ed="#P" n="2"/>in hac materia, quos ex parte ibi citavimus.
+          <lb ed="#P" n="3"/>Quibus addi posset Basilius, in regul. 8, ex 
+          fu<lb break="no" ed="#P" n="4"/>sioribus, ubi expendens illa verba Luc. 14:
+          <lb ed="#P" n="5"/>Si quis vult venire post me, abneget 
+          semetip<lb break="no" ed="#P" n="6"/>sun, inquit: Dominus noster Jesus Christus
+          <lb ed="#P" n="7"/>rem ad summmwum prorsus fastigium perducit,
+          <lb ed="#P" n="8"/>nempe odiwn animee et suimet ipsius 
+          abnega<lb break="no" ed="#P" n="9"/>Lionem ; et homil. 2, de Institutione 
+          Monacho<lb break="no" ed="#P" n="10"/>rum, ad perfectionem obedientiae pertinere
+          <lb ed="#P" n="11"/>dicit, ut neque illa ctiam quae iaudabilia sunt,
+          <lb ed="#P" n="12"/>sine approbatione superioris fiant : idem late
+          <lb ed="#P" n="13"/>in Constit. Monastic., cap. 20. Idem sumitur
+          <lb ed="#P" n="14"/>cx Gregorio, homil. 20 in Ezech., circa finem,
+          <lb ed="#P" n="15"/>ubi hae ratione dicit, perfectam obedientiam
+          <lb ed="#P" n="16"/>esse holocaustum, et non tantum sacrificium,
+          <lb ed="#P" n="17"/>quia nihil sibi reservat, sed totum Deo offert;
+          <lb ed="#P" n="18"/>idem lib. 1 Regum, cap. 2. Hoc etiam sentit
+          <lb ed="#P" n="19"/>D. Bonaventura, quando, in opusculo de 
+          Pro<lb break="no" ed="#P" n="20"/>cessu religionis, lib. 6, c. 27, triplicem 
+          obc<lb break="no" ed="#P" n="21"/>dientiam distinxit, spiritualem. quae debetur
+          <lb ed="#P" n="22"/>Praelatis Ecclesiae secundum ejus leges, et 
+          ca<lb break="no" ed="#P" n="23"/>nones; spiritualiorem, qualis est illa, quae
+          <lb ed="#P" n="24"/>propria voluntate promittitur alieui personae
+          <lb ed="#P" n="25"/>vel religioni cum limitatione ad certam 
+          mate<lb break="no" ed="#P" n="26"/>riam vel regulam ; et spiritualissimam, quae
+          <lb ed="#P" n="27"/>sinclimitatione promittitur ad omnia quae non
+          <lb ed="#P" n="28"/>sunt contra animam, et talem regulam. Unde
+          <lb ed="#P" n="29"/>indicat Bonaventura aliud esse promitiere
+          <lb ed="#P" n="30"/>obedientiam tantum secundum regulam, aiiud
+          <lb ed="#P" n="31"/>vero, promittere in omnibus quae non sunut
+          <lb ed="#P" n="32"/>contra talem regulam, nam prior obedientia
+          <lb ed="#P" n="33"/>positive (ut sic dicam) limitata est ad regulam,
+          <lb ed="#P" n="34"/>ct idco judicatur a Bonaventura minus 
+          per<lb break="no" ed="#P" n="35"/>lecta; posterior autem obedientia soium 
+          ne<lb break="no" ed="#P" n="36"/>cative se habet, non admittendo aliquid 
+          con<lb break="no" ed="#P" n="37"/>trarium regulae, et idco spiritualissima, id est,
+          <lb ed="#P" n="38"/>perfectissima judicatur. Unde cap. 28 subdit,
+          <lb ed="#P" n="39"/>tcrtium et perfectum gradum obedientiae esse,
+          <lb ed="#P" n="40"/>cx sola directione Dei, non tantum 
+          volunta<lb break="no" ed="#P" n="41"/>rie, sed etiam cum gaudio obedire, non 
+          so<lb break="no" ed="#P" n="42"/>lum ad facilia, sed ctiam ad difficilia atque
+          <lb ed="#P" n="43"/>dura, etiam ad mortem, et infra concludit :
+          <lb ed="#P" n="44"/>De hac obedientia Dominus specialiter dicit -
+          <lb ed="#P" n="45"/>Si quis vult venire post me, abueget 
+          semetip<lb break="no" ed="#P" n="46"/>sumn et tollat crucem suam, et sequatur one ; 
+          se<lb break="no" ed="#P" n="47"/>mctipsum abnegat, qui sui juris esse recusat,
+          <lb ed="#P" n="48"/>ct tolus se alterius arbitrio submattit propter
+          <lb ed="#P" n="49"/>Christum, sicut Christus non venit facere 
+          vo<lb break="no" ed="#P" n="50"/>luntatem suam, sed Patris. Similia habet in
+          <lb ed="#P" n="51"/>expositione regulae Minorum, cap. 1, ubi inter
+          <lb ed="#P" n="52"/>alia dicit altiorem esse obedientiam, qua 
+          te<lb break="no" ed="#P" n="53"/>nentur alienjus regulee professores nihil 
+          res<lb break="no" ed="#P" n="54"/>puere, nisi sit ipsi regulae contrarium, vel 
+          sa<lb break="no" ed="#P" n="55"/>luti, directe vel indirecte ; et infra : Qui nil
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sibi obedientialiter impositum possunt 
+          repelle<lb break="no" ed="#P" n="57"/>re, quasi transcendens suam regulam, nisi 
+          ver<lb break="no" ed="#P" n="58"/>gat in sue anim«e detrimentum ; unde 
+          conclu<lb break="no" ed="#P" n="59"/>dit errare eos, qui dicunt, quod in omnibus
+          <lb ed="#P" n="60"/>religionibus obedientia sit aequalis.
+        </p>
+        <p xml:id="szovsr-p22721-d1e278">
+          <lb ed="#P" n="61"/>2. Objectio.— Ratione probatur conclusio,
+          <lb ed="#P" n="62"/>quia sient simpliciter ad simpliciter, ita magis
+          <lb ed="#P" n="63"/>ad magis; sed abnegare propriam voluntatem
+          <lb ed="#P" n="64"/>per obedientiam consiliorum est bonum, ct
+          <lb ed="#P" n="65"/>pertinet ad perfectionem ; ergo quo major
+          <lb ed="#P" n="66"/>fuerit haec abnegatio, eo erit obedientia 
+          per<lb break="no" ed="#P" n="67"/>fectior, et consequenter illa erit perfectissima,
+          <lb ed="#P" n="68"/>quae sine limitatione ad omnia extenditur.
+          <lb ed="#P" n="69"/>Dices, illud axioma non habere locum in his
+          <lb ed="#P" n="70"/>quae in quadam moderatione consistunt, ut
+          <lb ed="#P" n="71"/>sunt virtutes, et ideo non sequi, illam 
+          genc<lb break="no" ed="#P" n="72"/>ralissimam obedientiam esse meliorem, quia
+          <lb ed="#P" n="73"/>fortasse non est proportionata humana 
+          possi<lb break="no" ed="#P" n="74"/>bilitati et fragilitati. Quod explicatur a simili
+          <lb ed="#P" n="75"/>de paupertate, nam, licet relinquere omnia
+          <lb ed="#P" n="76"/>consilium perfectionis sit, non propterea 
+          ma<lb break="no" ed="#P" n="77"/>jor paupertas est semper melior, nisi sit etiam
+          <lb ed="#P" n="78"/>proportionata fini, ut supra vidimus. Sic ergo
+          <lb ed="#P" n="79"/>de obedientia dici potest; nam illa etiam 
+          or<lb break="no" ed="#P" n="80"/>dinatur ad finem perfectionis, et in 
+          unaqua<lb break="no" ed="#P" n="81"/>que religione ordinatur ad finem ejus; crgo
+          <lb ed="#P" n="82"/>non illa obedientia erit perfectior, quae fuerit
+          <lb ed="#P" n="83"/>universalior ex parte materiae, sed quae fuerit
+          <lb ed="#P" n="84"/>ordinata ad altiorem finem. et illi magis 
+          pro<lb break="no" ed="#P" n="85"/>portionata.
+        </p>
+        <p xml:id="szovsr-p22721-d1e336">
+          <lb ed="#P" n="86"/>3. Responsio. — Differentia inter 
+          obedien<lb break="no" ed="#P" n="87"/>tiam et paupertatem.—sSed contra hoc 
+          robo<lb break="no" ed="#P" n="88"/>ratur ratio facta, quia obedientia si non sit
+          <lb ed="#P" n="89"/>contraria bonis moribus aut regulae, quo 
+          fue<lb break="no" ed="#P" n="90"/>rit universalior, eo erit et in se melior, 
+          caetc<lb break="no" ed="#P" n="91"/>ris paribus, et magis conferet ad finem 
+          per<lb break="no" ed="#P" n="92"/>fectionis ; nec potest esse improportionata
+          <lb ed="#P" n="93"/>propter excessum. Ergo si fuerit generalis, et
+          <lb ed="#P" n="94"/>sine ulla limitatione, erit perfectissima. 
+          Ante<lb break="no" ed="#P" n="95"/>cedens declaratur, adnctando imprimis 
+          diffe<lb break="no" ed="#P" n="96"/>rentiam inter paupertatem et obedientiam ;
+          <lb ed="#P" n="97"/>nam paupertas non habet ex objecto propriam
+          <lb ed="#P" n="98"/>honestatem, propter quam pertineat ad 
+          per<lb break="no" ed="#P" n="99"/>fectionem, sed solum ex fine religionis ad
+          <lb ed="#P" n="100"/>tollenda impedimenta perfectionis. Obedientia
+          <lb ed="#P" n="101"/>autem per se, et ex objecto habet propriam
+          <lb ed="#P" n="102"/>honestatem, quae cernitur in subjectione 
+          pro<lb break="no" ed="#P" n="103"/>priae voluntatis ad voluntatem alterius vicem
+          <lb ed="#P" n="104"/>Dei habentis, et ideo, licet paupertas solum
+          <lb ed="#P" n="105"/>conferat ad perfectionem juxta proportionem
+          <lb ed="#P" n="106"/>ad extrinsecum finem, obedientia autem non
+          <lb ed="#P" n="107"/>tantum isto modo, sed etiam per sese, quia
+          <lb ed="#P" n="108"/>in se continet rem perfectissimam, et 
+          gratissi<lb break="no" ed="#P" n="109"/>mam Deo, et ideo quo major illa fuerit, etiam
+          <lb ed="#P" n="110"/>extensive. eo melior erit, si caetera sint paria.
+        </p>
+        <p xml:id="szovsr-p22721-d1e393">
+          <pb ed="#P" n="911"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>4. Dua conditiones necessarie ad 
+          obedien<lb break="no" ed="#P" n="2"/>tiam humanam. — Deinde observo, in omni
+          <lb ed="#P" n="3"/>obedientia humana necessariam esse 
+          dupli<lb break="no" ed="#P" n="4"/>cem limitationem jam insinuatam. Una est,
+          <lb ed="#P" n="5"/>ut non sit de re mala, sive intrinsece, sive ex
+          <lb ed="#P" n="6"/>praecepto aut prohibitione superioris Praelati,
+          <lb ed="#P" n="7"/>contra quem non potest praevalere praeceptum
+          <lb ed="#P" n="8"/>ipferioris Praelati, quae conditio certissima est,
+          <lb ed="#P" n="9"/>et satis nota, de qua plura dicemus infra, 
+          ex<lb break="no" ed="#P" n="10"/>plicando institutum Societatis. Aitera conditio
+          <lb ed="#P" n="11"/>cst, ut materia obedientiae non sit contra 
+          re<lb break="no" ed="#P" n="12"/>gulam, et statum, quem quis profitetur. Quam
+          <lb ed="#P" n="13"/>poesuit Bonaventura, etiain loquendo in 
+          ge<lb break="no" ed="#P" n="14"/>nere de perfectissima obedientia Evangelica,
+          <lb ed="#P" n="15"/>et de statu perfectionis ut sic. Et eamdem 
+          vi<lb break="no" ed="#P" n="16"/>dentur supponere Bernardus, D. Thomas et alii
+          <lb ed="#P" n="17"/>relati sectione praecedenti. Ratio vero est, quia
+          <lb ed="#P" n="18"/>ad perfectionem hujus vitae pertinet, ut homo
+          <lb ed="#P" n="19"/>habeat firmum aliquem statum, quem 
+          profi<lb break="no" ed="#P" n="20"/>teatur, in quo tendat ad destinatum aliquem
+          <lb ed="#P" n="21"/>scopum, quo mediante perfectionem 
+          conse<lb break="no" ed="#P" n="22"/>quatur ; necessarium est ergo ad 
+          perfectio<lb break="no" ed="#P" n="23"/>nem, ut obedientia, quam quis promittit, sit
+          <lb ed="#P" n="24"/>consenianea, et saliem non contraria statui,
+          <lb ed="#P" n="25"/>et fini quem profitetur ; nam si illi repugnet,
+          <lb ed="#P" n="26"/>vel destruet ipsum statum, vel impediet potius
+          <lb ed="#P" n="27"/>progressum perfectionis quam promoveat.
+          <lb ed="#P" n="28"/>Item quia oppositum involvit obligationes 
+          re<lb break="no" ed="#P" n="29"/>pugnantes, nam professio status secum affert
+          <lb ed="#P" n="30"/>obligationem servandi leges ejus, et per eas
+          <lb ed="#P" n="31"/>tendendi in finem ejus; ergo obedientia, quae
+          <lb ed="#P" n="32"/>tendat in destructionem talis status, 
+          repu<lb break="no" ed="#P" n="33"/>gnando regulae ejus, non potest esse materia
+          <lb ed="#P" n="34"/>perfectionis. Haec ergo duplex moderatio 
+          ne<lb break="no" ed="#P" n="35"/>cessaria est in omni humana obedientia, per
+          <lb ed="#P" n="36"/>quam ad perfectionem tenditur, quia per
+          <lb ed="#P" n="37"/>priorem tollitur impedimentum malitiae; per
+          <lb ed="#P" n="38"/>posteriorem autem tollitur impedimentum
+          <lb ed="#P" n="39"/>perfectionis. Per haec autem duo sufficienter
+          <lb ed="#P" n="40"/>constituitur obedientia in medio, seu 
+          medio<lb break="no" ed="#P" n="41"/>critate, ut non possit per excessum in ea 
+          pec<lb break="no" ed="#P" n="42"/>cari. Sic ergo explicata universalitate 
+          obe<lb break="no" ed="#P" n="43"/>dientiae, eo sine dubio perfectior est 
+          obedien<lb break="no" ed="#P" n="44"/>tia, quo fuerit universalior ; ergo quo fuerit
+          <lb ed="#P" n="45"/>universalissima, crit ctiam perfectissima ex
+          <lb ed="#P" n="46"/>objecto suo.
+        </p>
+        <p xml:id="szovsr-p22721-d1e500">
+          <lb ed="#P" n="47"/>5. Perfecta obedientia ad actus euwternos et
+          <lb ed="#P" n="48"/>internos extenditur. — Differentia in hoc inter
+          <lb ed="#P" n="49"/>obedientiam, et alia duo vota. — Atque hinc
+          <lb ed="#P" n="50"/>sequitur primo, perfectam obedientiam 
+          Evan<lb break="no" ed="#P" n="51"/>gelicam non solum in exteriores actus, sed
+          <lb ed="#P" n="52"/>etiam in interiores cadere posse. Probatur
+          <lb ed="#P" n="53"/>primo ex dicto principio, quia talis obedientia
+          <lb ed="#P" n="54"/>universalior erit, et non excedit capacitatem
+          <lb ed="#P" n="55"/>seu proportionem humanam, quia unus homo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dirigi potest ab alio, etiam in actibus 
+          interio<lb break="no" ed="#P" n="57"/>ribus intellectus et voluntatis, tum quoad 
+          spe<lb break="no" ed="#P" n="58"/>cificationem, seu modum illorum, tum etiam
+          <lb ed="#P" n="59"/>quoad exercitium. Quod patet, tum quia in
+          <lb ed="#P" n="60"/>illis actibus maxime consistit vita 
+          contempla<lb break="no" ed="#P" n="61"/>tiva, quae ad perfectionem imprimis 
+          necessa<lb break="no" ed="#P" n="62"/>ria est; potest autem unus homo alium 
+          in<lb break="no" ed="#P" n="63"/>struere , quomodo interius meditandum aut
+          <lb ed="#P" n="64"/>contemplandum illi sit, quam vocamus 
+          in<lb break="no" ed="#P" n="65"/>struetionem quoad specificationem ; potest
+          <lb ed="#P" n="66"/>etiam injungere, nt tali vel tanto tempore
+          <lb ed="#P" n="67"/>exercitio contemplationis incumbat. Sic ergo
+          <lb ed="#P" n="68"/>potest homo homini subdi quoad directionem
+          <lb ed="#P" n="69"/>actuum internorum. Tum ctiam quoad 
+          modc<lb break="no" ed="#P" n="70"/>rationem internorum aftectuum, quae ad 
+          per<lb break="no" ed="#P" n="71"/>fectionem summe necessaria est, et non 
+          so<lb break="no" ed="#P" n="72"/>lum requirit exteriora media , sed ctiam 
+          inte<lb break="no" ed="#P" n="73"/>riora ; ergo in utrisque potest homo homini
+          <lb ed="#P" n="74"/>subjici per obedientiae votum. Estque haec 
+          sub<lb break="no" ed="#P" n="75"/>jectio consentanea fini obedientiae 
+          Evangeli<lb break="no" ed="#P" n="76"/>ca; nam, ut docuit D. Thom. 2.2, quaest. 189,
+          <lb ed="#P" n="77"/>artic. 5. in tantum haec obedientia est 
+          neces<lb break="no" ed="#P" n="78"/>saria, in quantum homo tendens ad 
+          perfectio<lb break="no" ed="#P" n="79"/>nem indiget ab alio instrui, in his qua ad
+          <lb ed="#P" n="80"/>perfectionem pertinent. Sed in his 
+          principa<lb break="no" ed="#P" n="81"/>lem locum habent interiores actus, ut 
+          decla<lb break="no" ed="#P" n="82"/>ratum est; ergo. Et confirmatur , nam 
+          obe<lb break="no" ed="#P" n="83"/>dientia est perfectum holocaustum, per quem
+          <lb ed="#P" n="84"/>homo se immolat Deo, ut dixit Gregorius, 
+          ho<lb break="no" ed="#P" n="85"/>mil. 20 in Ezechielem; ergo, ut sit omnino
+          <lb ed="#P" n="86"/>perfectum, non solum exteriores, sed etiam
+          <lb ed="#P" n="87"/>interiores actus Deo specialiter immolat, 
+          sub<lb break="no" ed="#P" n="88"/>jiciendo illos superiori. Imo in hoc maxime
+          <lb ed="#P" n="89"/>excedit votum obedientiae alia duo, quia non
+          <lb ed="#P" n="90"/>solum res exteriores, sed etiam interiorem 
+          vo<lb break="no" ed="#P" n="91"/>luntatem Deo offert, ut dixit D. Thom., dicta
+          <lb ed="#P" n="92"/>quaest. 186, artic. 4. Neque obstat quod 
+          obe<lb break="no" ed="#P" n="93"/>dientia humana non se extendit ad actus mere
+          <lb ed="#P" n="94"/>internos, teste D. Thom. 2. 2, quaest. 104,
+          <lb ed="#P" n="95"/>art.5; illud enim verum est de obedientia 
+          ne<lb break="no" ed="#P" n="96"/>cessaria ex vi legis, seu praecepti, quod ex 
+          ju<lb break="no" ed="#P" n="97"/>risdictione, vcl naturali aut coacto dominio,
+          <lb ed="#P" n="98"/>in hominem nascitur, ut in materia de lcgibus
+          <lb ed="#P" n="99"/>latius tractatum est. Non vero est eadem 
+          ra<lb break="no" ed="#P" n="100"/>tio de obedientia quae nascitur ex voluntaria
+          <lb ed="#P" n="101"/>promissicne hominis, nam ipse pro suo 
+          arbi<lb break="no" ed="#P" n="102"/>trio potest promittere obedientiam homini
+          <lb ed="#P" n="103"/>vice Dei, etiam in his rebus, in quibus 
+          natu<lb break="no" ed="#P" n="104"/>raliter non posset esse homini subjectus. Nam,
+          <lb ed="#P" n="105"/>sicut potest homo promittere Deo actus mere
+          <lb ed="#P" n="106"/>internos , ita etiam potest promittere in usu
+          <lb ed="#P" n="107"/>illorum parere homini vice Dei praecipient.
+        </p>
+        <p xml:id="szovsr-p22721-d1e637">
+          <lb ed="#P" n="108"/>6. Gecundo scquitur ex dictis, non omnes
+          <lb ed="#P" n="109"/>religiones profiteri perfectissimam 
+          obedien<lb break="no" ed="#P" n="110"/>tiam Evangelicam. Hoc aperte supponit Bo-
+          <pb ed="#P" n="912"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>naventura supra, dum ait, non omnes 
+          religio<lb break="no" ed="#P" n="2"/>nes esse aequales in perfectione voti 
+          obedicn<lb break="no" ed="#P" n="3"/>tiae. Idem docuit Henriq., Quodlib. 3, quaest.
+          <lb ed="#P" n="4"/>20, ubi ait, quanto obedientia universalior
+          <lb ed="#P" n="5"/>cst, eo esse perfectiorem , et ideo eam etiam
+          <lb ed="#P" n="6"/>religionem esse perfectiorem , in qua 
+          univer<lb break="no" ed="#P" n="7"/>salior obedientia promittitur ; supponit ergo
+          <lb ed="#P" n="8"/>non in omni religione fieri professionem 
+          per<lb break="no" ed="#P" n="9"/>fectissimae obedientiae Evangelicae. Denique
+          <lb ed="#P" n="10"/>hoc patet ex dictis capite praecedenti, ubi 
+          os<lb break="no" ed="#P" n="11"/>tendimus votum obedientiae religiosae non 
+          obli<lb break="no" ed="#P" n="12"/>gare ad omnia simpliciter, sed solum 
+          secun<lb break="no" ed="#P" n="13"/>dum regulam.
+        </p>
+        <p xml:id="szovsr-p22721-d1e679">
+          <lb ed="#P" n="14"/>7. Difficultas ea dictis prosime orta, an
+          <lb ed="#P" n="15"/>omnis status religionis sit perfectionis. — Hinc
+          <lb ed="#P" n="16"/>vero oritur gravis difficultas, nam sequitur
+          <lb ed="#P" n="17"/>nullum statum religiosum esse statum 
+          perfec<lb break="no" ed="#P" n="18"/>tionis ; consequens est falsum; ergo. Sequela
+          <lb ed="#P" n="19"/>probatur, quia ad statum perfectionis 
+          neces<lb break="no" ed="#P" n="20"/>sarium est se totum consecrare Dco, nihil 
+          ju<lb break="no" ed="#P" n="21"/>ris in seipsum reservando, ut ex Gregorio 
+          do<lb break="no" ed="#P" n="22"/>cet D. Thomas, d. quaest. 186, artic. 1et 6:
+          <lb ed="#P" n="23"/>Cum quis (inquit) omne quod habet, omue quod
+          <lb ed="#P" n="24"/>vivit, omne quod sapit , omnipotenti Deo covet,
+          <lb ed="#P" n="25"/>bolocaustum est ; et hoc dicit pertinere ad cos,
+          <lb ed="#P" n="26"/>qui statum perfectionis profitentur. Item quia
+          <lb ed="#P" n="27"/>ad statum perfectionis pertinet consilia 
+          Evan<lb break="no" ed="#P" n="28"/>gelica primaria et substantialia perfecte 
+          pro<lb break="no" ed="#P" n="29"/>fiteri, quorum praecipuum est consilium 
+          obc<lb break="no" ed="#P" n="30"/>dientiae; ergo si in statu religioso consilium
+          <lb ed="#P" n="31"/>hoc non promittitur integre et perfecte, non
+          <lb ed="#P" n="32"/>crit sufficiens status perfectionis. Accedit 
+          prae<lb break="no" ed="#P" n="33"/>turca, quia nulla est religio quae illam 
+          univer<lb break="no" ed="#P" n="34"/>salem obedientiam profiteatur, sed unaquaque
+          <lb ed="#P" n="35"/>illam promittit secundum suam regulam ; 
+          ne<lb break="no" ed="#P" n="36"/>que aliter unquam fuit in Ecclesia factum ;
+          <lb ed="#P" n="37"/>ergo vel illud consilium Evangelicum 
+          nun<lb break="no" ed="#P" n="38"/>quam fuit in Ecclesia servatum, quod 
+          absur<lb break="no" ed="#P" n="39"/>dum est dicere, vel certe dicendum est in 
+          sta<lb break="no" ed="#P" n="40"/>tu religioso perfecte observari, neque aliter
+          <lb ed="#P" n="41"/>consuli, quam in singulis religionibus 
+          promit<lb break="no" ed="#P" n="42"/>tatur. Addo denique impossibilem videri 
+          pro<lb break="no" ed="#P" n="43"/>fessionem universalis obedientiae aliter quam
+          <lb ed="#P" n="44"/>in quolibet statu religioso fiat. Nam, ut ait
+          <lb ed="#P" n="45"/>D. Thom. 2. 2, quaest. 186, art. 5, ad 4: 
+          Vo<lb break="no" ed="#P" n="46"/>Lum cbedientiee ad religionem pertinens se 
+          ca<lb break="no" ed="#P" n="47"/>tendit ad dispositionem totivs humanee vite, et
+          <lb ed="#P" n="48"/>secundum hoc votum obedientiee habet 
+          quam<lb break="no" ed="#P" n="49"/>dam universalitatem , licet non se extendat ad
+          <lb ed="#P" n="50"/>omnes particulares actus. Quia enim per 
+          obe<lb break="no" ed="#P" n="51"/>dientiam religiosam ipsa voluntas Deo offertur
+          <lb ed="#P" n="52"/>et consecratur, quae est principium omnium
+          <lb ed="#P" n="53"/>actionum humanarum , ideo ex hac parte 
+          ha<lb break="no" ed="#P" n="54"/>bet hoc votum quamdam universalitatem.
+          <lb ed="#P" n="55"/>Quod autem non possit illam habere absolu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tam, et sine ulla limitatione, ctiam intra 
+          lati<lb break="no" ed="#P" n="57"/>tudinem perfectarum actionum , patet, tum
+          <lb ed="#P" n="58"/>quia non omnes hujusmodi actiones sunt 
+          sin<lb break="no" ed="#P" n="59"/>sulis statibus accommodatae, essetquce infinita
+          <lb ed="#P" n="60"/>confusio, si actiones propriae unius status 
+          pos<lb break="no" ed="#P" n="61"/>sent in alio praecipi, vel in illo prohiberi ; tum
+          <lb ed="#P" n="62"/>etiam quia hoc saltem necessario reservatum
+          <lb ed="#P" n="63"/>est, ut nemini possit praecipi transitus ad 
+          al<lb break="no" ed="#P" n="64"/>tiorem statum; neque in hoc obedientiam 
+          pro<lb break="no" ed="#P" n="65"/>mittere, pertinere potest ad statum 
+          perfectio<lb break="no" ed="#P" n="66"/>nis, nam potius quodammodo repugnat eidem
+          <lb ed="#P" n="67"/>statui.
+        </p>
+        <p xml:id="szovsr-p22721-d1e801">
+          <lb ed="#P" n="68"/>8. In obedientia duplea: per fectio 
+          distinguen<lb break="no" ed="#P" n="69"/>da. — Circa principalem difficultatem, 
+          dicen<lb break="no" ed="#P" n="70"/>dum imprimis est, aliud esse loqui de statu
+          <lb ed="#P" n="71"/>perfectionis essentialiter ac simpliciter, aliud
+          <lb ed="#P" n="72"/>vero de statu perfecto aut perfectissimo in
+          <lb ed="#P" n="73"/>illo ordine , id est, in schola, seu via ad 
+          per<lb break="no" ed="#P" n="74"/>fectionem. In priori sensu nulla est in 
+          objec<lb break="no" ed="#P" n="75"/>tione difficultas ; nam ad essentiam status 
+          per<lb break="no" ed="#P" n="76"/>fectionis , et ut absolute et simpliciter talis
+          <lb ed="#P" n="77"/>sit, non est necessarium profiteri singula 
+          con<lb break="no" ed="#P" n="78"/>silia etiam principalia cum summa 
+          perfec<lb break="no" ed="#P" n="79"/>tione, sed satis, profiteri illa secundum 
+          ali<lb break="no" ed="#P" n="80"/>quam prudentem reguiam, alicui perfecto fini
+          <lb ed="#P" n="81"/>accommodatam, ut in superioribus visum est,
+          <lb ed="#P" n="82"/>et in paupertatis vcto est manifestum. In hoc
+          <lb ed="#P" n="83"/>ergo sensu respondetur negando sequelam. Ad
+          <lb ed="#P" n="84"/>probationem autem dicendum est, in his 
+          con<lb break="no" ed="#P" n="85"/>siliis, et specialiter in obedientia , distingui
+          <lb ed="#P" n="86"/>posse duplicem perfectionem, unam 
+          essen<lb break="no" ed="#P" n="87"/>tialem, et aliam extensivam, atque hanc 
+          pos<lb break="no" ed="#P" n="88"/>teriorem non esse totam necessariam in 
+          quo<lb break="no" ed="#P" n="89"/>libet statu perfectionis simpliciter. Priorem
+          <lb ed="#P" n="90"/>vero in statu religioso sufticienter inveniri, et
+          <lb ed="#P" n="91"/>cum sufficientc extensione, seu universalitate,
+          <lb ed="#P" n="92"/>ut recte probat ratio ex D. Thom. et Gregorio
+          <lb ed="#P" n="93"/>ibi adducta. Loquendo autem in altero sensu
+          <lb ed="#P" n="94"/>de perfecto statu perfectionis, Henricus supra
+          <lb ed="#P" n="95"/>concedit omnem religionem, in qua non 
+          pro<lb break="no" ed="#P" n="96"/>mittitur dicta universalis obedientia , quoad
+          <lb ed="#P" n="97"/>hoc non esse perfectam , et idem plane sentit
+          <lb ed="#P" n="98"/>bonaventura : quod tamen intelligendum est
+          <lb ed="#P" n="99"/>mere negative, non privativc, quia haec 
+          per<lb break="no" ed="#P" n="100"/>fectio non est dcbita cuicumque statui 
+          religio<lb break="no" ed="#P" n="101"/>so; si tamen illam non habet, ex ea parte
+          <lb ed="#P" n="102"/>aliqua majori perfectione caret, et ideo 
+          caete<lb break="no" ed="#P" n="103"/>ris paribus minus perfectus est, quam qui 
+          il<lb break="no" ed="#P" n="104"/>lam profitetur. Quae doctrina mihi vera 
+          vide<lb break="no" ed="#P" n="105"/>tur, si illa universalitas obedientiae 
+          conve<lb break="no" ed="#P" n="106"/>nienter juxta dicta explicetur, sic enim aperte
+          <lb ed="#P" n="107"/>sequitur ex conclusione posita.
+        </p>
+        <p xml:id="szovsr-p22721-d1e891">
+          <lb ed="#P" n="108"/>9. Votum perfectissimum obedientie 
+          habue<lb break="no" ed="#P" n="109"/>runt Apostoli, et Apostolici viri. — Item 
+          reli<lb break="no" ed="#P" n="110"/>gio S. Francisci illud profitelur. — Hoc vo-
+          <pb ed="#P" n="913"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Lum perfeciissimo modo habet Socictas Jesu.—
+          <lb ed="#P" n="2"/>Unde ad alteram partem difticultatis , negatur
+          <lb ed="#P" n="3"/>repugnare omni statui religicso in particulari,
+          <lb ed="#P" n="4"/>hauc universalem obedientiam vel 
+          promissio<lb break="no" ed="#P" n="5"/>nem ejus; negatur etiam nunquam fuisse aut
+          <lb ed="#P" n="6"/>esse in Ecclesia religiosum statum, in quo 
+          ta<lb break="no" ed="#P" n="7"/>lis obedientia promissa sit; imo credendum
+          <lb ed="#P" n="8"/>est Apostolos hujusmodi obedientiam Christo
+          <lb ed="#P" n="9"/>promisisse, eamdemque exhibuisse Petro 
+          cae<lb break="no" ed="#P" n="10"/>teros Apostolos post Christi ascensionem, quia
+          <lb ed="#P" n="11"/>illi non sunt professi obedientiam secundum
+          <lb ed="#P" n="12"/>aliam regulam, nisi charitatis et majoris 
+          ob<lb break="no" ed="#P" n="13"/>sequii divini, juxta munus suum, seu 
+          minis<lb break="no" ed="#P" n="14"/>terium ad quod erant vocati. Et idem 
+          creden<lb break="no" ed="#P" n="15"/>dum est de primis illis religiosis Apostolorum
+          <lb ed="#P" n="16"/>imitatoribus. Inter eos autem qui profitentur
+          <lb ed="#P" n="17"/>obedientiam secundum certam regulam, 
+          Bo<lb break="no" ed="#P" n="18"/>naventura supra existimat in religione Sancti
+          <lb ed="#P" n="19"/>Francisci emitti votum obedientiae perfectae
+          <lb ed="#P" n="20"/>universale; quia, licet fiat secundum regulam,
+          <lb ed="#P" n="21"/>Lanen ecm vi ejusdem regule tenentur illius 
+          pro<lb break="no" ed="#P" n="22"/>fissores mihil respuere , nisi sit ipsi regulee
+          <lb ed="#P" n="23"/>contrarum, vel saluti, directe, vel aliqualiter,
+          <lb ed="#P" n="24"/>quae duae limitationes non sunt contra 
+          uni<lb break="no" ed="#P" n="25"/>versalitatem obedientiae Evangelicae , ut ex
+          <lb ed="#P" n="26"/>dictis in superioribus constat. Ilemque nos
+          <lb ed="#P" n="27"/>dicere possumus, et fortasse ampliori ratione
+          <lb ed="#P" n="28"/>ae voto obedientiae Societatis ; nam materia
+          <lb ed="#P" n="29"/>ejus, in his quae non sunt contra bonos 
+          mo<lb break="no" ed="#P" n="30"/>res aut regulam, amplissima est, et directe
+          <lb ed="#P" n="31"/>extenditur ad ministeria ardua et difficillima,
+          <lb ed="#P" n="32"/>et ad bonum valde perfectum, et cum magna
+          <lb ed="#P" n="33"/>dependentia etiam in minimis a Praelatis, tit
+          <lb ed="#P" n="34"/>infra in proprio loco latius trademus. De aliis
+          <lb ed="#P" n="35"/>vero religionibus nihil dicimus, sed juxta 
+          prin<lb break="no" ed="#P" n="36"/>cipia posita et suam regulam unaquaeque de se
+          <lb ed="#P" n="37"/>judicabit.
+        </p>
+        <p xml:id="szovsr-p22721-d1e985">
+          <lb ed="#P" n="38"/>10. At vero Heuriquus supra significat,
+          <lb ed="#P" n="39"/>nullum votum obedientiae, limitatum ad 
+          quam<lb break="no" ed="#P" n="40"/>cumque regulam, esse undequaque perfectum
+          <lb ed="#P" n="41"/>quod universalitatem; ait enim non repugnare
+          <lb ed="#P" n="42"/>dari aliquam religionem, in qua fiat votum
+          <lb ed="#P" n="43"/>obedientiae perfectum : Quoniam (inquit) etsi
+          <lb ed="#P" n="44"/>certa regula sit in qualibet religione, quoad illa
+          <lb ed="#P" n="45"/>que sunt accidentalia religioni, mom tamen
+          <lb ed="#P" n="46"/>eportet quin n aliqua veligione existente, vel,
+          <lb ed="#P" n="47"/>qua possit esse, quoad articulum obedientie, sit
+          <lb ed="#P" n="48"/>regula universalis, et in eternitate obedientiee
+          <lb ed="#P" n="49"/>quoud omnia licita, sive indifferentia, sive 
+          ne<lb break="no" ed="#P" n="50"/>cessaria. Et omne aliud genus obedientiae, seu
+          <lb ed="#P" n="51"/>regulas, negat esse perfectum. Sed haec 
+          doc<lb break="no" ed="#P" n="52"/>irina vel incidit in sententiam Bonaventurse,
+          <lb ed="#P" n="53"/>vel in alio sensu admitti non potest, quia 
+          in<lb break="no" ed="#P" n="54"/>volvit repugnantiam moralem. Nam regula
+          <lb ed="#P" n="55"/>universalis obediendi in omnibus licitis potest
+          <lb ed="#P" n="56"/>xv,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="57"/>ita intelligi, ut lieita solum censeantur ea,
+          <lb ed="#P" n="58"/>quae nec propriis praeceptis, nec 
+          constitutioni<lb break="no" ed="#P" n="59"/>bus, seu statutis ejusdem regule sint 
+          contra<lb break="no" ed="#P" n="60"/>ria; at in hoc sensu manifestum est non 
+          re<lb break="no" ed="#P" n="61"/>pugnare, et hoc coincidere in sententiam 
+          Do<lb break="no" ed="#P" n="62"/>naventurae. Aut illa universalis regula ita 
+          in<lb break="no" ed="#P" n="63"/>telligitur, ut in omnibus alias licitis 
+          obedien<lb break="no" ed="#P" n="64"/>dum sit Praelato, etiam si sint contraria eidem
+          <lb ed="#P" n="65"/>regulae, quoad alia statuta, et in hoc sensu
+          <lb ed="#P" n="66"/>videtur involvi moralis repugnantia; quia
+          <lb ed="#P" n="67"/>quod nna ,via construitur, alia destruitur; et
+          <lb ed="#P" n="68"/>quia, esto non sit per se malum agere contra
+          <lb ed="#P" n="69"/>regulam, qua secundum se non obligat ad
+          <lb ed="#P" n="70"/>culpam, nihilominus voto se astringere ad
+          <lb ed="#P" n="71"/>agendum contra illam per se malum est, sicut
+          <lb ed="#P" n="72"/>et imperium violandi illam malum etiam est.
+          <lb ed="#P" n="73"/>Quapropter modus ille universalitatis ad 
+          pcr<lb break="no" ed="#P" n="74"/>fectionem universalis obedientiae spectare non
+          <lb ed="#P" n="75"/>potest, quia non potest esse proportionata
+          <lb ed="#P" n="76"/>alicui statui religionis, in qvo vita instituatur,
+          <lb ed="#P" n="77"/>secundum aliquam regulam, vel in ordine ad
+          <lb ed="#P" n="78"/>determinatum finem, quod moraliter 
+          necessa<lb break="no" ed="#P" n="79"/>rium est in omni statu perfectionis: nam 
+          om<lb break="no" ed="#P" n="80"/>nia illa, quae impediunt fnem vel institutum
+          <lb ed="#P" n="81"/>talis religionis, impediunt potius quam juvant
+          <lb ed="#P" n="82"/>ad perfectionem in illa acquirendam. In hoc
+          <lb ed="#P" n="83"/>ergo sensu, verum est nullam esse religionem
+          <lb ed="#P" n="84"/>quae universalem obedientiam promittat. Indc
+          <lb ed="#P" n="85"/>autem non sequitur nullam esse, quae 
+          pro<lb break="no" ed="#P" n="86"/>mittat perfectam obedientiam Evangelicam,
+          <lb ed="#P" n="87"/>quia ad hoc satis est promittere obedientiam
+          <lb ed="#P" n="88"/>in omnibus, quae nec bonis moribus nec 
+          re<lb break="no" ed="#P" n="89"/>gulae repugnant.
+        </p>
+        <p xml:id="szovsr-p22721-d1e1102">
+          <lb ed="#P" n="90"/>11. Differentia inter votum obsdientie 
+          se<lb break="no" ed="#P" n="91"/>cundum regulum, et in omnibus qua regule
+          <lb ed="#P" n="92"/>non repugnant.— Universalis obed entie duples
+          <lb ed="#P" n="93"/>modus.—Unde obiter intelligiturJonge 
+          diver<lb break="no" ed="#P" n="94"/>sum esse promittere obedientiam secundum
+          <lb ed="#P" n="95"/>determinatam regulam, vel promittere in 
+          om<lb break="no" ed="#P" n="96"/>nibus quae regulae non repugnant, nam prius
+          <lb ed="#P" n="97"/>votum obligat solum ad ea quae directe vel
+          <lb ed="#P" n="98"/>indirecte continentur in regula ; non vero ad
+          <lb ed="#P" n="99"/>omnia quae illi non repugnant, sicut obligat
+          <lb ed="#P" n="100"/>posterius votum. Dixi autem, secundum 
+          deter<lb break="no" ed="#P" n="101"/>minatam regulam, ut excludam eam quae 
+          con<lb break="no" ed="#P" n="102"/>tinet universalem regulam obediendi in 
+          om<lb break="no" ed="#P" n="103"/>nibus, quae casteris statutis non repugnant;
+          <lb ed="#P" n="104"/>nam tunc ratione talis regulae utrumque 
+          vo<lb break="no" ed="#P" n="105"/>tum in idem revolvitur. Intelligitur ex dictis
+          <lb ed="#P" n="106"/>etiam quo sensu verum sit, quod Divus 
+          Tho<lb break="no" ed="#P" n="107"/>mas dixit, votum obedientiae in quacumque
+          <lb ed="#P" n="108"/>religione habere quamdam universalitatem
+          <lb ed="#P" n="109"/>quoad dispositionem humanae vitae, et 
+          nihilo<lb break="no" ed="#P" n="110"/>minus verum etiam sit quod Bonaventura et
+          <lb ed="#P" n="111"/>Henrieus insinuant, votum obedientiae in qui-
+          <pb ed="#P" n="914"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>busdam religionibus essc partieulare, in alus
+          <lb ed="#P" n="2"/>universale. Possumus enim hic duplicem 
+          uni<lb break="no" ed="#P" n="3"/>versalitatem distinguere, quas vocare 
+          possu<lb break="no" ed="#P" n="4"/>mus quoad exercitium, vel quoad speciem 
+          ac<lb break="no" ed="#P" n="5"/>tnum ; obedientia ergo cujuscumque 
+          heligio<lb break="no" ed="#P" n="6"/>nis potest dici universalis quoad exercitium
+          <lb ed="#P" n="7"/>actuum, sub exercitio cessationem etiam 
+          in<lb break="no" ed="#P" n="8"/>cludendo ; nam quia per obedientiam 
+          religio<lb break="no" ed="#P" n="9"/>sam voluntas ipsa consecratur, et tota sub 
+          vo<lb break="no" ed="#P" n="10"/>Iuntate Fraelati constituitur, ideo quoad 
+          agen<lb break="no" ed="#P" n="11"/>dum vel non agendum, non retinpet jus 
+          pro<lb break="no" ed="#P" n="12"/>prium, sed potest semper a Praelato oceupari
+          <lb ed="#P" n="13"/>in aliqua actione sibi proportionata, et 
+          conse<lb break="no" ed="#P" n="14"/>quenter ut cesset ab omni alia illi repugnante;
+          <lb ed="#P" n="15"/>et hoc sensu dixit Divus Thomas hanc 
+          obe<lb break="no" ed="#P" n="16"/>dientiam esse universalem, et se extendere
+          <lb ed="#P" n="17"/>ad dispositionem totius humanae vitae. 
+          Conti<lb break="no" ed="#P" n="18"/>neri autem potest, et quasi positive limitari
+          <lb ed="#P" n="19"/>ad definitum modum actionis, habitationis,
+          <lb ed="#P" n="20"/>etc., juxta definitam regulam, et in hoc sensu
+          <lb ed="#P" n="21"/>est particularis, quoad speciem actuum, seu
+          <lb ed="#P" n="22"/>materiae obedientiae, quia non potest vagari
+          <lb ed="#P" n="23"/>per omnes species seu modos actionum, sed
+          <lb ed="#P" n="24"/>solum juxta praescriptam regulam. Et ideo in
+          <lb ed="#P" n="25"/>hoc sensu talis obedientia dici potest 
+          particu<lb break="no" ed="#P" n="26"/>laris. Universalis autem contrario modo 
+          dice<lb break="no" ed="#P" n="27"/>tur, quae non limitatur positive ad 
+          particula<lb break="no" ed="#P" n="28"/>rem regulam, sed solum negative, cum 
+          ex<lb break="no" ed="#P" n="29"/>tensione ad omnia, quae ipsi regulae non sunt
+          <lb ed="#P" n="30"/>contraria. Quae universalis obedientia ex suo
+          <lb ed="#P" n="31"/>genere perfectior est , ut dixi; in ea vero 
+          po<lb break="no" ed="#P" n="32"/>Lest quaedam latitudo inveniri; nam, licet ex
+          <lb ed="#P" n="33"/>forma vovendi videatur esse universalissima,
+          <lb ed="#P" n="34"/>ct ideo non posse suscipere magis vel minus,
+          <lb ed="#P" n="35"/>nihilominus ex parte materiae potest habere
+          <lb ed="#P" n="36"/>inaequalitatem, vel quia regula ipsa, juxta
+          <lb ed="#P" n="37"/>quam fit, postulat directe majorem 
+          subjectio<lb break="no" ed="#P" n="38"/>nem in omnibus; vel quia regula ipsa 
+          ad<lb break="no" ed="#P" n="39"/>mittit majorem latitudinem et varietatem, in
+          <lb ed="#P" n="40"/>his, quae extra illam ad arbitrium superioris
+          <lb ed="#P" n="41"/>ordinarie praecipi possunt ; nam quo 
+          obe<lb break="no" ed="#P" n="42"/>dientia fuerit hoc modo universalior, eo 
+          re<lb break="no" ed="#P" n="43"/>quirit animum magis indifferentem, et 
+          va<lb break="no" ed="#P" n="44"/>euum propria voluntate et affectione. Per haec
+          <lb ed="#P" n="45"/>ergo satistactum est difficultatibus omnibus,
+          <lb ed="#P" n="46"/>preterquam ultimae de transitu ad alium
+          <lb ed="#P" n="47"/>statum, cujus occasione sequens caput 
+          insti<lb break="no" ed="#P" n="48"/>tuam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

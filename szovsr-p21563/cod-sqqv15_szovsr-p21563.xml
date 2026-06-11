@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="864"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p21563"><!-- t7l10c1 -->
+        <head xml:id="szovsr-p21563-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-p21563-Hd1e103" type="question-title">Utrum simplex obedientiae votum, et honestum, et in consilio sit.</head>
+        <p xml:id="szovsr-p21563-d1e106">
+          <lb ed="#P" n="11"/>CAPUT I.
+          <lb ed="#P" n="12"/>UTRUM SIMPLEX OBEDIENTIAE VOTUM, ET 
+          HONES<lb break="no" ed="#P" n="13"/>TUM, ET IN CONSILIO SIT.
+        </p>
+        <p xml:id="szovsr-p21563-d1e115">
+          <lb ed="#P" n="14"/>1. Errores hereticorum. — Haeretici non
+          <lb ed="#P" n="15"/>minus rejiciunt obedientiae consilium quam
+          <lb ed="#P" n="16"/>caetera , nec minus contemnunt obedientiae
+          <lb ed="#P" n="17"/>votum quam alia. In quo errore fuerunt olim
+          <lb ed="#P" n="18"/>Lampetiani, ut eos Prateolus appellat, lib. 10,
+          <lb ed="#P" n="19"/>in principio, ubi eos existimat fuisse auno
+          <lb ed="#P" n="20"/>1352, tempore Innocentii VI, et Caroli IV, eo
+          <lb ed="#P" n="21"/>quod Wicleph.. qui prope illa tempora fuit,
+          <lb ed="#P" n="22"/>in eodem errore cum illis consensit. Levis
+          <lb ed="#P" n="23"/>quidem conjectura ; potuit enim eorum 
+          erro<lb break="no" ed="#P" n="24"/>rem Wicleph. excitare, etiamsi multo esset
+          <lb ed="#P" n="25"/>antiquior, ut revera fuit. Nam illorum 
+          haere<lb break="no" ed="#P" n="26"/>ticorum meminit Damascenus, qui ante 
+          non<lb break="no" ed="#P" n="27"/>centos annos fuit, in catalog. haeres., ad
+          <lb ed="#P" n="28"/>fin., eosque Lampetianos, a Lampetio 
+          appel<lb break="no" ed="#P" n="29"/>lat. Eumdem errorem postea secuti sunt
+          <lb ed="#P" n="30"/>Waldenses, Begardi, et Beginee , ut Castro 
+          re<lb break="no" ed="#P" n="31"/>tert, verb. Obedientia ; ac tandem Lutherani,
+          <lb ed="#P" n="32"/>et omnes novi haeretici, qui ut Bellarminus
+          <lb ed="#P" n="33"/>refert, lib. secundo de Monach., c. octavo, in
+          <lb ed="#P" n="34"/>summa dicunt, promittere obedientiam 
+          homi<lb break="no" ed="#P" n="35"/>ni in cultum Dei, superstitiosum esse et 
+          sa<lb break="no" ed="#P" n="36"/>crilegum ; premittere autem obedientiam ei.
+          <lb ed="#P" n="37"/>cui alias non debetur alio fine extra cultum
+          <lb ed="#P" n="38"/>Dei, stultum esse, ac proinde malum. Addere
+          <lb ed="#P" n="39"/>etiam possent, videri contra jus et 
+          institutio<lb break="no" ed="#P" n="40"/>nem naturae, quae hommem fecit liberum,
+          <lb ed="#P" n="41"/>ipse autem se reddit captivum , dum alteri
+          <lb ed="#P" n="42"/>obedientiam promittit.
+        </p>
+        <p xml:id="szovsr-p21563-d1e180">
+          <lb ed="#P" n="43"/>2. Confutantur.— Sed haec sententia plane
+          <lb ed="#P" n="44"/>haeretica est, quae nunc generali ratione 
+          re<lb break="no" ed="#P" n="45"/>dargui potest; nam vel hanc obedientiam 
+          re<lb break="no" ed="#P" n="46"/>jiciunt , quia ipsa bona non sit, vel quia 
+          vo<lb break="no" ed="#P" n="47"/>tum de illa non sit pium ac sauctum ; 
+          utrum<lb break="no" ed="#P" n="48"/>que autem est plane falsum; ergo. Minor
+          <lb ed="#P" n="49"/>quoad posteriorem partem probata erit 
+          de<lb break="no" ed="#P" n="50"/>monstrando priorem. Si enim ostenderimus
+          <lb ed="#P" n="51"/>hanc obedientiam esse honestam, et per se
+          <lb ed="#P" n="52"/>loquendo, et cum debitis circumstantiis sum-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>ptam esse ex melioribus bonis, quae sub 
+          con<lb break="no" ed="#P" n="54"/>silio sunt, evidenter constabit juxta principia
+          <lb ed="#P" n="55"/>superius posita, et probata, etiam votum ejus
+          <lb ed="#P" n="56"/>ex se optimum essc, ac Deo placitum ; quia
+          <lb ed="#P" n="57"/>per se honestum est Deo promittere, in 
+          cul<lb break="no" ed="#P" n="58"/>tum et obsequium, id quod est melius, et ad
+          <lb ed="#P" n="59"/>perfectionem assequendam utilius ; et quia si
+          <lb ed="#P" n="60"/>obedientia bona est, quo fuerit firmior, et
+          <lb ed="#P" n="61"/>immobilior, atque sacratior, ceo erit melior.
+          <lb ed="#P" n="62"/>Unde eadem testimonia, atque eaedem 
+          ratio<lb break="no" ed="#P" n="63"/>nes quae probant obedientiam esse ex 
+          melio<lb break="no" ed="#P" n="64"/>ribus bonis, probant etiam votum ejus 
+          opli<lb break="no" ed="#P" n="65"/>mum esse.
+        </p>
+        <p xml:id="szovsr-p21563-d1e236">
+          <lb ed="#P" n="66"/>3. De qua obedientia sit questio. — Duples
+          <lb ed="#P" n="67"/>obedientia. — Ut autem ostendamus 
+          obedien<lb break="no" ed="#P" n="68"/>tiam esse aptam voti materiam , supponere
+          <lb ed="#P" n="69"/>necesse est hic non esse sermonem de sola
+          <lb ed="#P" n="70"/>illa obedientia quae Deo et praeceptis ejus 
+          de<lb break="no" ed="#P" n="71"/>betur, nec de illa sola quae alioquin debita
+          <lb ed="#P" n="72"/>est hominibus habentibus veram 
+          jurisdictio<lb break="no" ed="#P" n="73"/>nem, aut potestatem ad praecipieudum, et illa
+          <lb ed="#P" n="74"/>utentibus; nam de hac obedientia cvidens
+          <lb ed="#P" n="75"/>est, non solum esse bonam, sed etiam 
+          neces<lb break="no" ed="#P" n="76"/>sariam ad vitandam culpam, ac proinde non
+          <lb ed="#P" n="77"/>esse ex his bonis quae dicuntur 
+          supereroga<lb break="no" ed="#P" n="78"/>tionis et consilii, sed ex his quae necessaria
+          <lb ed="#P" n="79"/>sunt. De quibus bonis, et in universum de
+          <lb ed="#P" n="80"/>observatione mandatorum , quomodo possint
+          <lb ed="#P" n="81"/>sub votum cadere , satis in superioribus 
+          dic<lb break="no" ed="#P" n="82"/>tum est. Praeter hanc autem obedientiam 
+          po<lb break="no" ed="#P" n="83"/>test intelligi alia, in qua homo se subdit 
+          vo<lb break="no" ed="#P" n="84"/>luntati alterius, in his quae alioquin praecepta
+          <lb ed="#P" n="85"/>non sunt, possunt tamen licite et honeste 
+          fie<lb break="no" ed="#P" n="86"/>ri; nam si hanc conditionem non habeant,
+          <lb ed="#P" n="87"/>clarum est non posse esse materiam honestae
+          <lb ed="#P" n="88"/>obedientiae, quia quae honesta non est, 
+          obe<lb break="no" ed="#P" n="89"/>dientia dici non potest. At vero in hreitis et
+          <lb ed="#P" n="90"/>honestis, per se loquendo, etiam honestum
+          <lb ed="#P" n="91"/>est alteri obedire, seu ejus facere 
+          volunta<lb break="no" ed="#P" n="92"/>tem, quia actio ex parte materiae, in qua 
+          ver<lb break="no" ed="#P" n="93"/>satur, bona est, et non fit mala ex tali 
+          cir<lb break="no" ed="#P" n="94"/>cumstantia, scilicet, quod fiat ad obediendum
+          <lb ed="#P" n="95"/>voluntati alterius ; ergo talis obedientia, per
+          <lb ed="#P" n="96"/>se loquendo, bona est.
+        </p>
+        <p xml:id="szovsr-p21563-d1e306">
+          <lb ed="#P" n="97"/>4. Objectio. — Dices, hinc solum probari
+          <lb ed="#P" n="98"/>esse bonam materialiter, si actio illa , quae
+          <lb ed="#P" n="99"/>praecipitur, alias bona sit, non tamen esse
+          <lb ed="#P" n="100"/>formaliter bonam, id est, ob illam specialem
+          <lb ed="#P" n="101"/>rationem, quod per illum actum fit voluntas
+          <lb ed="#P" n="102"/>alterius, et ideo inde non probari talem 
+          obce<lb break="no" ed="#P" n="103"/>dientiam esse aptam materiam voti, sed 
+          so<lb break="no" ed="#P" n="104"/>Ium quod actiones illae alioquin honestae 
+          pos<lb break="no" ed="#P" n="105"/>sint esse materia voti, etiam propria sponte
+          <lb ed="#P" n="106"/>absque altcrius voluntate factae. Nam quod
+          <lb ed="#P" n="107"/>tiant ex voluntate alterius, qui per se non
+          <pb ed="#P" n="865"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>possit illas praecipere, inditferens quid est, et
+          <lb ed="#P" n="2"/>non reddit illas meliores; ergo ex hoc 
+          spe<lb break="no" ed="#P" n="3"/>ciali respectu non sunt materia voti. Nec 
+          sa<lb break="no" ed="#P" n="4"/>lis est dicere, per ipsum votum fieri ut talis
+          <lb ed="#P" n="5"/>voluntas habeat vim praecepti, et ideo explere
+          <lb ed="#P" n="6"/>illam, posse esse materiam voti. Non, 
+          in<lb break="no" ed="#P" n="7"/>quam, hoc satisfacit , quia votum debet 
+          sup<lb break="no" ed="#P" n="8"/>ponere honestatem suae materiae, non facere;
+          <lb ed="#P" n="9"/>ergo id, quod promittitur per obecientiae 
+          vo<lb break="no" ed="#P" n="10"/>tum, debet supponi, ut habens specialem 
+          bo<lb break="no" ed="#P" n="11"/>uitatem supererogationis et consili, ratione
+          <lb ed="#P" n="12"/>cujus voveri possit ; ergo illa non potest 
+          con<lb break="no" ed="#P" n="13"/>sisterc in obligatione proveniente ex ipsomet
+          <lb ed="#P" n="14"/>voto. Accedit quod intelligi non potest, ex
+          <lb ed="#P" n="15"/>sola promissione fieri voluntatem alterius 
+          ei<lb break="no" ed="#P" n="16"/>ficacem ad praecipiendum, quae antea non
+          <lb ed="#P" n="17"/>erat, quia sine jurisdictionc nunquam 
+          volun<lb break="no" ed="#P" n="18"/>tas est efficas ad praecipiendum; promissio
+          <lb ed="#P" n="19"/>autem, seu votum unius hominis non dat 
+          al<lb break="no" ed="#P" n="20"/>teri jurisdictionem.
+        </p>
+        <p xml:id="szovsr-p21563-d1e380">
+          <lb ed="#P" n="21"/>5. Obedientia est opus honestum. et consilii.
+          <lb ed="#P" n="22"/>— Nihilominus dicendum est obedientiam
+          <lb ed="#P" n="23"/>hanc, quatenus est subordinatio, et subjectio
+          <lb ed="#P" n="24"/>propriae voluntatis ad alienam, esse ex bonis
+          <lb ed="#P" n="25"/>supererogationis, quae sub consilium cadunt,
+          <lb ed="#P" n="26"/>quod debet intelligi, per se loquendo, et cum
+          <lb ed="#P" n="27"/>debita mensura, ac circumstantis quas 
+          pos<lb break="no" ed="#P" n="28"/>tea explicabimus. Sic ergo probatur assertio
+          <lb ed="#P" n="29"/>ex verbis Christi , Matth. 19: Si vis perfectus
+          <lb ed="#P" n="30"/>esse, cade, et vende omnia que habes, et 
+          se<lb break="no" ed="#P" n="31"/>quere ie; nam duplex consilium in illis 
+          con<lb break="no" ed="#P" n="32"/>tinetur. Unum est paupertatis, de qua jam
+          <lb ed="#P" n="33"/>dictum est; aliud est sequendi Christum ,
+          <lb ed="#P" n="34"/>quod esse videtur consilium obedientiae, quia
+          <lb ed="#P" n="35"/>sequi Christum est ipsum imitari : Seguitur
+          <lb ed="#P" n="36"/>enim Dominum (ait ibi Hieronymus) qu 
+          imi<lb break="no" ed="#P" n="37"/>talor ejus est, et per vestigia illius graditur ;
+          <lb ed="#P" n="38"/>Christus autem in obedientia, et per 
+          obedien<lb break="no" ed="#P" n="39"/>tiam vitam suam consummavit, factus 
+          obe<lb break="no" ed="#P" n="40"/>diens usque ad mortem, ad Philip. 2.
+        </p>
+        <p xml:id="szovsr-p21563-d1e426">
+          <lb ed="#P" n="41"/>6. Dices, eadem ratione posse per illud
+          <lb ed="#P" n="42"/>verbum intelligi consilium virginitatis, nam
+          <lb ed="#P" n="43"/>per virginitatem etiam Christum sequimur,
+          <lb ed="#P" n="44"/>quia illum imitamur. Respondetur imprimis
+          <lb ed="#P" n="45"/>jam in eodem capite datum fuisse a 
+          Chris<lb break="no" ed="#P" n="46"/>to consilium virginitatis , ubi de Eunuchis
+          <lb ed="#P" n="47"/>voluntariis dixerat : Qui potest cagere , 
+          ca<lb break="no" ed="#P" n="48"/>piat ; ergo aliud est consilium, quod in illo
+          <lb ed="#P" n="49"/>ultimo verbo indicatur. Deinde alia consilia
+          <lb ed="#P" n="50"/>castitatis, vel paupertatis , veluti particularia
+          <lb ed="#P" n="51"/>sunt comparatione obedientiae, quae totam
+          <lb ed="#P" n="52"/>quodammodo hominis vitam complectitur,
+          <lb ed="#P" n="53"/>quia voluntatem ipsam Deo consecrat, quae
+          <lb ed="#P" n="54"/>principium est omnium humanarum 
+          actio<lb break="no" ed="#P" n="55"/>num ; consilium autem sequendi Christum,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>et imitandi ipsum, non est de una aut aitera
+          <lb ed="#P" n="57"/>actione aut virtute, sed absolute de toto vitae
+          <lb ed="#P" n="58"/>instituto, et ideo obedientiae consilium 
+          appo<lb break="no" ed="#P" n="59"/>sitissime explicatum est illo verbo scquendi
+          <lb ed="#P" n="60"/>Christum. Quod ipsemet Christus , Matt. 16,
+          <lb ed="#P" n="61"/>explicuisse videtur, dicens: Qui vult venirc
+          <lb ed="#P" n="62"/>post me, abneget semetipsum , et toliat erucem
+          <lb ed="#P" n="63"/>suanm . et sequatur me; illud enim tertium,
+          <lb ed="#P" n="64"/>seguatur me, non est diversum a duobus
+          <lb ed="#P" n="65"/>primis , ut recte Hieronymus adnotavit ,
+          <lb ed="#P" n="66"/>quem alii sequuntur, sed est veluti 
+          expli<lb break="no" ed="#P" n="67"/>catio corum , aut conclusio in illis 
+          conten<lb break="no" ed="#P" n="68"/>ta; non enim diceret Christus : Qui vult 
+          ce<lb break="no" ed="#P" n="69"/>nire post ine, sequatur ine, essct enim negatio
+          <lb ed="#P" n="70"/>quaedam, sed dicit : Qui vult venire post me,
+          <lb ed="#P" n="71"/>abueget semetipsum, et tollat crucem suam,et
+          <lb ed="#P" n="72"/>sic seguatur mc. Perinde ergo est ac si 
+          dice<lb break="no" ed="#P" n="73"/>ret: Imitetur me abnegando seipsum ; nilil
+          <lb ed="#P" n="74"/>autem est seipsum abnegare , quam suam
+          <lb ed="#P" n="75"/>voluntatem relinquere, ut divina impleatur,
+          <lb ed="#P" n="76"/>quod est obedire , ut significavit Gregorius,
+          <lb ed="#P" n="77"/>bomil. 32 in Evangelia , et 10 in Ezech., et
+          <lb ed="#P" n="78"/>alii Patres infra citandi; ergo sequi Christum
+          <lb ed="#P" n="79"/>nihil aliud est quam viam obedientiae 
+          profi<lb break="no" ed="#P" n="80"/>teri.
+        </p>
+        <p xml:id="szovsr-p21563-d1e517">
+          <lb ed="#P" n="81"/>7. Dices, esto hoc verum sit, hoc tamen
+          <lb ed="#P" n="82"/>satis impleri per obedientiam mandatorum,
+          <lb ed="#P" n="83"/>quia talis esse debet , ut propter illam tiam
+          <lb ed="#P" n="84"/>propria vita, si necessarium fuerit, amittenda
+          <lb ed="#P" n="85"/>sit. et a fortiori quilibet alius humanus 
+          effec<lb break="no" ed="#P" n="86"/>tus superandus ; quod revera etiam est 
+          abne<lb break="no" ed="#P" n="87"/>gare seipsum ; et de hac abnegatione 
+          maxi<lb break="no" ed="#P" n="88"/>me videtur locutnus esse Christus in posteriori
+          <lb ed="#P" n="89"/>loco citato , ita ut abnegare se, nihil aliud
+          <lb ed="#P" n="90"/>esse videatur quam Deum diligere plus quam
+          <lb ed="#P" n="91"/>se; et ferre crucem suam, idem sit quod 
+          om<lb break="no" ed="#P" n="92"/>nia incommoda , et mala poena in hac vita
+          <lb ed="#P" n="93"/>occurrentia forctiter ferre, ne a divina 
+          obe<lb break="no" ed="#P" n="94"/>dientia diflidatur ; hoc autem non est 
+          consi<lb break="no" ed="#P" n="95"/>lium, sed praeceptum ; ergo hinc non potest
+          <lb ed="#P" n="96"/>colligi aliqua obedientia, quae sit in consilio,
+          <lb ed="#P" n="97"/>sed solum illa quae est in praecepto. Quod
+          <lb ed="#P" n="98"/>valde confirmant verba quae Christus 
+          sub<lb break="no" ed="#P" n="99"/>jecit, Matt. 16, dicens : Qui enim voluerit 
+          ani<lb break="no" ed="#P" n="100"/>mam suam salcam facere, perdet eam ; qui 
+          au<lb break="no" ed="#P" n="101"/>tem perdiderit animam suam propter me, 
+          inve<lb break="no" ed="#P" n="102"/>niet eam ; quid enim prodest homini, si 
+          mun<lb break="no" ed="#P" n="103"/>dum universum lucretur, anime vero sua 
+          de<lb break="no" ed="#P" n="104"/>trimentum patiatur, aut quam dalit bkomo 
+          com<lb break="no" ed="#P" n="105"/>anutationem pro anima sua? Quibus, Luc. 9,
+          <lb ed="#P" n="106"/>adjungitur : Nam qui me erubuerit et meos
+          <lb ed="#P" n="107"/>se;anones, hunc Filius hominis erubescet, cum
+          <lb ed="#P" n="108"/>venerit in majeslate sua. Ex quibus omnibus
+          <lb ed="#P" n="109"/>constat Christum loqui de abnegatione ad 
+          sa<lb break="no" ed="#P" n="110"/>lutem necessaria , atque adeo de re pracc-
+          <pb ed="#P" n="866"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pti, et non tantum consilii. Respondetur 
+          con<lb break="no" ed="#P" n="2"/>cedendo Christum , citato loco Matt. 16, et
+          <lb ed="#P" n="3"/>Luc. 9, loqui de quadam abnegatione, et 
+          obe<lb break="no" ed="#P" n="4"/>dientia quae est in praecepto, ut argumentum
+          <lb ed="#P" n="5"/>factum convincit, et Chrysostomus et alii 
+          ex<lb break="no" ed="#P" n="6"/>ponunt, quod nobis non repugnat , quia non
+          <lb ed="#P" n="7"/>inde immediate probamus obedientiam , quae
+          <lb ed="#P" n="8"/>est sub consilio; sed inde colligimus, sequi
+          <lb ed="#P" n="9"/>Christum, consistere in obedientia ad Deum,
+          <lb ed="#P" n="10"/>ct ad ipsum Christum, propter quam et 
+          om<lb break="no" ed="#P" n="11"/>nes affectus , et propria vita, si necesse 
+          fue<lb break="no" ed="#P" n="12"/>rit, abneganda sunt, quod necessario 
+          intelli<lb break="no" ed="#P" n="13"/>cendum est de illa Christi sequela, quae ad
+          <lb ed="#P" n="14"/>salutem necessaria est.
+        </p>
+        <p xml:id="szovsr-p21563-d1e619">
+          <lb ed="#P" n="15"/>8. Ex alio vero loco Matth. 19, colligimus
+          <lb ed="#P" n="16"/>esse aliam Christi sequelam, quae non est ad
+          <lb ed="#P" n="17"/>salutem necessaria, sed sub consilio ad 
+          ma<lb break="no" ed="#P" n="18"/>jorem perfectionem. Quod facile probari 
+          po<lb break="no" ed="#P" n="19"/>lest rationibus, quibus supra probavimus ibi
+          <lb ed="#P" n="20"/>dari consilium, et non praeceptum 
+          pauperta<lb break="no" ed="#P" n="21"/>lis; nam sub eodem tenorc utrumque 
+          propo<lb break="no" ed="#P" n="22"/>nitur : Sà vis perfectus esse, cade, et vende
+          <lb ed="#P" n="23"/>omnia quae habes. et da pauperibus, et sequere
+          <lb ed="#P" n="24"/>me ; nam utrumque proponitur post 
+          observa<lb break="no" ed="#P" n="25"/>tionem praeceptorum necessariorum ad 
+          salu<lb break="no" ed="#P" n="26"/>tem, et sub illa tantum conditionc, $2 cis
+          <lb ed="#P" n="27"/>perfectus esse. Hinc ergo cum eadem 
+          propor<lb break="no" ed="#P" n="28"/>tione, et servata eadem phrasi locutionis,
+          <lb ed="#P" n="29"/>colligimus, praeter obedientiam, et 
+          abnegatio<lb break="no" ed="#P" n="30"/>nem necessariam ad salutem, esse allam,
+          <lb ed="#P" n="31"/>quae sub consilio proponitur, sub eodem 
+          ver<lb break="no" ed="#P" n="32"/>bo sequendi Christum ; recte ergo de consilio
+          <lb ed="#P" n="33"/>obedientiae verba illa interpretantur. 
+          Nihilo<lb break="no" ed="#P" n="34"/>minus subterfugere quis potest, dicendo
+          <lb ed="#P" n="35"/>Christum in illis verbis, Veni, sequere me, 
+          com<lb break="no" ed="#P" n="36"/>prehendisse omnem vita illius imitationem
+          <lb ed="#P" n="37"/>perfectam quoad fieri possit in omni genere
+          <lb ed="#P" n="38"/>virtutis, et in omni meliori bono, ac propria
+          <lb ed="#P" n="39"/>abnegatione, ideoque necessarium non esse
+          <lb ed="#P" n="40"/>verba illa intelligere de aliquo speciali 
+          con<lb break="no" ed="#P" n="41"/>sillo obedientiae, imo neque esse aliquod tale
+          <lb ed="#P" n="42"/>consilium, quod sub illo verbo 
+          comprchenda<lb break="no" ed="#P" n="43"/>tur ; quia neque ipse Christus talem 
+          obedien<lb break="no" ed="#P" n="44"/>ltiam in hac vita professus est, sed obedivit
+          <lb ed="#P" n="45"/>aeterno Patri, quod ex vi sua humanitatis 
+          abs<lb break="no" ed="#P" n="46"/>que alia promissione facere tenebatur, nulli
+          <lb ed="#P" n="47"/>autem alteri obedientiam promisit ; quod si 
+          il<lb break="no" ed="#P" n="48"/>lam exhibuit parentibus, juxta illud Luc. 2: Ft
+          <lb ed="#P" n="49"/>erat subditus illis, id non fuit ex speciali 
+          pro<lb break="no" ed="#P" n="50"/>missione, neque ex naturali obligatione, cum
+          <lb ed="#P" n="51"/>esset filius Dei naturalis, sed ob exemplum
+          <lb ed="#P" n="52"/>et humilitatem, sicut etiam obedivit legi, et
+          <lb ed="#P" n="53"/>solvit tributum ob vitandum scandalum. Ex
+          <lb ed="#P" n="54"/>quibus ad summum colligi potest esse 
+          con<lb break="no" ed="#P" n="55"/>silium obedire aliis iu similibus casibus pro-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>pter rationes extrinsecas, non vero per se, eo
+          <lb ed="#P" n="57"/>quod ipsa obedientia seu subjectio melior sit,
+          <lb ed="#P" n="58"/>etiam respectu illius, qui alias superior est,
+          <lb ed="#P" n="59"/>seclusa hominis promissione et voluntari
+          <lb ed="#P" n="60"/>subjectione.
+        </p>
+        <p xml:id="szovsr-p21563-d1e724">
+          <lb ed="#P" n="61"/>9. Propter hoc ulterius addendum censeo,
+          <lb ed="#P" n="62"/>Christum, verbo illo, sequere me, non invitasse
+          <lb ed="#P" n="63"/>adolescentem illum tantum ad suam 
+          imita<lb break="no" ed="#P" n="64"/>tionem in omni genere, sed etiam ad 
+          sequen<lb break="no" ed="#P" n="65"/>dum realiter et corporaliter, ut sic dicam, se
+          <lb ed="#P" n="66"/>et actiones suas illi committendo, seque cum
+          <lb ed="#P" n="67"/>illo veluti in unum corpus conjungendo, 
+          at<lb break="no" ed="#P" n="68"/>que, ut semel dicam, obedientiam illi 
+          pre<lb break="no" ed="#P" n="69"/>stando, non illam tantum quae ad salutem 
+          ne<lb break="no" ed="#P" n="70"/>cessaria est, sed aliam specialiorem, et ad
+          <lb ed="#P" n="71"/>perfectionis viam assequendam necessariam,
+          <lb ed="#P" n="72"/>juxta discursum superius factum, qui hane
+          <lb ed="#P" n="73"/>ultimam partem satis probat. Prior vero 
+          de<lb break="no" ed="#P" n="74"/>claratur, imprimis ex eo quod supra diximus,
+          <lb ed="#P" n="75"/>discipulatum, seu hanc denominationem 
+          dis<lb break="no" ed="#P" n="76"/>cipulorum Christi dupliciter in Evangelio 
+          ac<lb break="no" ed="#P" n="77"/>cipi. Primo, prout communis est omnibus in
+          <lb ed="#P" n="78"/>Christum credentibus; secundo, prout erat
+          <lb ed="#P" n="79"/>specialis quorumdam, qui singulari et 
+          per<lb break="no" ed="#P" n="80"/>tectiori modo Christo adhaerebant, eumque
+          <lb ed="#P" n="81"/>sequebantur, vel corporaliter eum 
+          comitan<lb break="no" ed="#P" n="82"/>do , vel ei parendo. Sic Joan. 2 dicitur : 
+          Vo<lb break="no" ed="#P" n="83"/>catus est Jesus, et discipuli ejus ad nuptias.
+          <lb ed="#P" n="84"/>Et infra : Post hoc descendit Carpharuawn —
+          <lb ed="#P" n="85"/>ipse, et discipi ejus, et ibi manserunt non
+          <lb ed="#P" n="86"/>multis diebus. Et infra : Becordati sunt vero
+          <lb ed="#P" n="87"/>discipuli ejus, ubi nomine discipulorum 
+          sem<lb break="no" ed="#P" n="88"/>per intelliguntur illi qui specialiter Christo
+          <lb ed="#P" n="89"/>adhaerebant, ejusque et doctrinam et 
+          perso<lb break="no" ed="#P" n="90"/>narm sequebantur, de quibus etiam Judaei 
+          di<lb break="no" ed="#P" n="91"/>cebant, Joan. 7: Ut discipuli tui videant opera
+          <lb ed="#P" n="92"/>qua facis, etc., ut ibi indicavit Chrysostomus,
+          <lb ed="#P" n="93"/>hom. 47. Ad hunc ergo perfectum 
+          discipula<lb break="no" ed="#P" n="94"/>tum vocabat Christus adolescentem illum,
+          <lb ed="#P" n="95"/>cui consulebat, Vende omnia quae habes, et 
+          se<lb break="no" ed="#P" n="96"/>quere me. Quod patet primo ex consonantia
+          <lb ed="#P" n="97"/>aliorum locorum, statim enim subjecit Petrus:
+          <lb ed="#P" n="98"/>Hcce nos reliquimus omnia, ei secuti sumns te ,
+          <lb ed="#P" n="99"/>ac si diceret: Jam nos fecimus quod huic 
+          ado<lb break="no" ed="#P" n="100"/>lescenti consulis ; clarum est autem Petrum
+          <lb ed="#P" n="101"/>loqui de illo speciali modo sequendi 
+          Chris<lb break="no" ed="#P" n="102"/>tum, ad quem eos vocaverat, Matt. 4: 7psi
+          <lb ed="#P" n="103"/>autem, relictis vetibus, secuti sunt eum. Et 
+          eo<lb break="no" ed="#P" n="104"/>dem modo vocavit Matthaeum : S'equere me,
+          <lb ed="#P" n="105"/>et surgens secutus est eum. Intellexit ergo
+          <lb ed="#P" n="106"/>Petrum locutum fuisse de hoc peculiari
+          <lb ed="#P" n="107"/>modo assumendi disciplinam ejus, in illo 
+          con<lb break="no" ed="#P" n="108"/>silio : Zt veni, sequere me. Quam 
+          intelligen<lb break="no" ed="#P" n="109"/>tiam rcsponsione sua Christus probavit, 
+          di<lb break="no" ed="#P" n="110"/>cens : los, qui reliquistis omnia, et seculà es-
+          <pb ed="#P" n="867"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tis me. Consonant etiam quae Matt., c. S, et
+          <lb ed="#P" n="2"/>Luc. 9, ubi cum Christus cuidam dixisset:
+          <lb ed="#P" n="3"/>Sequere me, et ille respondisset : Domine,
+          <lb ed="#P" n="4"/>permitte mihi primum ire, et sepelire patrem
+          <lb ed="#P" n="5"/>mewn, adjunsit Christus : Sine mortuos 
+          sepe<lb break="no" ed="#P" n="6"/>lire mortuos suos. Ubi similia de aliis duobus
+          <lb ed="#P" n="7"/>narrantur. Ex quibus planum est, Christum
+          <lb ed="#P" n="8"/>per hujusmodi verba, quatenus speciale 
+          con<lb break="no" ed="#P" n="9"/>silium continent, invitasse homines, quos sic
+          <lb ed="#P" n="10"/>vocabat, ad illum perfectum modum sequendi
+          <lb ed="#P" n="11"/>ipsum corporaliter, alioqui nec excusatio 
+          il<lb break="no" ed="#P" n="12"/>lorum hominum esset ad rem, neque Christi
+          <lb ed="#P" n="13"/>responsio fuisset necessaria.
+        </p>
+        <p xml:id="szovsr-p21563-d1e867">
+          <lb ed="#P" n="14"/>10. Ostenditur ratione evidenti specialis
+          <lb ed="#P" n="15"/>Apostolorum obedientia. — Quod autem hic
+          <lb ed="#P" n="16"/>modus sequendi Christum specialem 
+          obedien<lb break="no" ed="#P" n="17"/>tiam includeret, praeter eam quae est 
+          genera<lb break="no" ed="#P" n="18"/>lis praeceptorum, per sese evidens videtur;
+          <lb ed="#P" n="19"/>qua enimm ratione possent discipuli Christi
+          <lb ed="#P" n="20"/>cum ipso in unum aggregari, nisi esset inter
+          <lb ed="#P" n="21"/>eos subordinatio et obedientia? alioqui esset
+          <lb ed="#P" n="22"/>confessio ; quod si ad ordinatum vivendi 
+          mo<lb break="no" ed="#P" n="23"/>dum obedientia necessaria erat, clarum est
+          <lb ed="#P" n="24"/>in illo sacro collegio deesse non potuisse, 
+          at<lb break="no" ed="#P" n="25"/>que adeo cam discipulos Christo Domino 
+          ex<lb break="no" ed="#P" n="26"/>hibuissc. Quam etiam ipsum nomen discipuli
+          <lb ed="#P" n="27"/>prae se fert. Unde Joan. 13 aiebat Christus :
+          <lb ed="#P" n="28"/>Vos vocatis me Magister, et Dominus, et bene
+          <lb ed="#P" n="29"/>dicitis, suin etenim ; recognoscebant ergo 
+          il<lb break="no" ed="#P" n="30"/>lum ut superiorem et dominum peculiari
+          <lb ed="#P" n="31"/>modo. Ac denique ex usu ipso hanc 
+          discipu<lb break="no" ed="#P" n="32"/>lorum obedientiam in Evangelio legimus,
+          <lb ed="#P" n="33"/>nam illos mittebat ad praedicandum, et 
+          spe<lb break="no" ed="#P" n="34"/>cialia praecepta vel documenta dabat, quibus
+          <lb ed="#P" n="35"/>ipsi parebant, Luc. 10; et c. 22: Misit 
+          Pe<lb break="no" ed="#P" n="36"/>Irum et Jounnem, dicens : Euntes, parate 
+          mo<lb break="no" ed="#P" n="37"/>bis Pascha, etc., et similia, quae passim 
+          in<lb break="no" ed="#P" n="38"/>venientur. Vocabat ergo Christus discipulos
+          <lb ed="#P" n="39"/>ad sequendum se per specialem vivendi 
+          mo<lb break="no" ed="#P" n="40"/>dum atque institutum, in quo sibi imperanti
+          <lb ed="#P" n="41"/>obedirent.
+        </p>
+        <p xml:id="szovsr-p21563-d1e930">
+          <lb ed="#P" n="42"/>11. Obedientia Apostolorum fuit etiam 
+          fir<lb break="no" ed="#P" n="43"/>ma. — Praeterea, iliam obedientiam seu 
+          se<lb break="no" ed="#P" n="44"/>quelam fuisse ita firmam et stabilem, ut post
+          <lb ed="#P" n="45"/>consensum praestitum non liceret ab ea 
+          rece<lb break="no" ed="#P" n="46"/>dere, ex eodem Evangelio colligi potest ; nam
+          <lb ed="#P" n="47"/>ob eam causam dixisse videtur Christus, Luc.
+          <lb ed="#P" n="48"/>0: Jemo mittens manum suam ad aratrum,
+          <lb ed="#P" n="49"/>et respiciens retro, aptus est regno Dei. 
+          Loque<lb break="no" ed="#P" n="50"/>batur enim ad quemdam, qui se invitaverat
+          <lb ed="#P" n="51"/>ad ipsum sequendum, ea speciali sequela de
+          <lb ed="#P" n="52"/>qua loquimur, et de illo ait, si retrocedat, eo
+          <lb ed="#P" n="53"/>ipso non esse aptum regno Dei, quo 
+          signifi<lb break="no" ed="#P" n="54"/>catur illum retrocedendo peccare ; ergo 
+          con<lb break="no" ed="#P" n="55"/>scquenter significatur illam sequelam futu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ram fuisse moraliter firmam et stabilem. Qui
+          <lb ed="#P" n="57"/>sensus probabilis est, et usitatus a Patribus,
+          <lb ed="#P" n="58"/>non tamen necessarius, ut late tractavi supra,
+          <lb ed="#P" n="59"/>quaestione octogesima octava, art. 1, in 
+          com<lb break="no" ed="#P" n="60"/>mentartio. Hoc etiam confirmare videtur 
+          Chri<lb break="no" ed="#P" n="61"/>stus, Luc. 14, dupiici parabola, altera de illo,
+          <lb ed="#P" n="62"/>qui coepit aedificare, et non potuit 
+          consum<lb break="no" ed="#P" n="63"/>mare, altera de rege, qui procedens ad 
+          bel<lb break="no" ed="#P" n="64"/>lum sine sufficienti copia et virtute, postea
+          <lb ed="#P" n="65"/>non audens congredi, adhuc longe existens,
+          <lb ed="#P" n="66"/>rogat quae pacis sunt ; nam per haec significat
+          <lb ed="#P" n="67"/>Christus, eos, qui ipsum sequuntur, non 
+          pos<lb break="no" ed="#P" n="68"/>se nisi turpiter retrocedere, donec rem 
+          per<lb break="no" ed="#P" n="69"/>ficiant, quae tamen non perficitur, nisi 
+          per<lb break="no" ed="#P" n="70"/>severando usque in finem: et ideo Theoph.,
+          <lb ed="#P" n="71"/>exponens illam Christi promissionem : Jos,
+          <lb ed="#P" n="72"/>qui secuti estis me, sedebitis, etc., Mat. 19,
+          <lb ed="#P" n="73"/>interrogat : JIVum et Judas sedebit ? Et 
+          res<lb break="no" ed="#P" n="74"/>pondet : JVon: dicit enim : Quài secuti me
+          <lb ed="#P" n="75"/>fuerint, hoc est, qui usque in finem, etc. 
+          Un<lb break="no" ed="#P" n="76"/>de, Act. 1, Judas dicitur esse praevagjicatus
+          <lb ed="#P" n="77"/>de loco ministerii Apostolici; praevaricari 
+          au<lb break="no" ed="#P" n="78"/>tem est deficere ab statu ad quem aliquis
+          <lb ed="#P" n="79"/>obligatus erat.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1017">
+          <lb ed="#P" n="80"/>12. Allata testimonia non comcincunt.—Sed
+          <lb ed="#P" n="81"/>haec etiam omnia non videntur cogere, primo,
+          <lb ed="#P" n="82"/>quia in illo loco Luc. 14, probabile est 
+          Chri<lb break="no" ed="#P" n="83"/>stum loqui de omnibus fidelibus ipsum 
+          sc<lb break="no" ed="#P" n="84"/>quentibus per fidem et obedientiam 
+          manda<lb break="no" ed="#P" n="85"/>torum, ut praecedenti libro tactum est, et
+          <lb ed="#P" n="86"/>consequenter possunt illae parabolae ad 
+          om<lb break="no" ed="#P" n="87"/>nes facile accommodari. Deinde quia, licet
+          <lb ed="#P" n="88"/>eas accommodemus ad eos qui incipiunt 
+          per<lb break="no" ed="#P" n="89"/>fectionem aedificare, et hostes illius debellare,
+          <lb ed="#P" n="90"/>non satis concluditur eos peccare viam illam
+          <lb ed="#P" n="91"/>deserendo, et retrocedendo; sed ad summum
+          <lb ed="#P" n="92"/>minus constanter et prudenter agere, quod
+          <lb ed="#P" n="93"/>potest esse sine obligatione permanendi in
+          <lb ed="#P" n="94"/>illo statu, et absque speciali culpa in eo 
+          de<lb break="no" ed="#P" n="95"/>serendo; sicut nunc imprudenter agit, qui
+          <lb ed="#P" n="96"/>sine sufBcienti consideratione habitum 
+          rch<lb break="no" ed="#P" n="97"/>cionis sumit, et paulo post illum deserit. Qui
+          <lb ed="#P" n="98"/>etiam non assequetur praemium illud : 
+          Secc<lb break="no" ed="#P" n="99"/>lDitis super sedem, etc., solum quia in eo 
+          sta<lb break="no" ed="#P" n="100"/>tu non perseverat, etiamsi, non perseverando,
+          <lb ed="#P" n="101"/>specialiter non peccet, quia illud pramium
+          <lb ed="#P" n="102"/>accidentale est, et amitti potest sine culpa.
+          <lb ed="#P" n="103"/>Quod autem de Juda dicitur, Act. 1, 
+          praevari<lb break="no" ed="#P" n="104"/>catum esse de loco suo, licet gravem«culpam
+          <lb ed="#P" n="105"/>indicet, non satis tamen convincit illam fuisse
+          <lb ed="#P" n="106"/>positam solum in retrocedendo, vel 
+          Aposto<lb break="no" ed="#P" n="107"/>lico officio deserendo, cui esset speciali 
+          vin<lb break="no" ed="#P" n="108"/>culo obligatus, sed eo maxime quod 
+          traden<lb break="no" ed="#P" n="109"/>do Christum illume deseruit, et fingendo se
+          <lb ed="#P" n="110"/>sectatorem cjus, adversario Hlum tradidit,
+          <pb ed="#P" n="868"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod fuit proprie pracvaricatoris mumnus
+          <lb ed="#P" n="2"/>exercere.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1095">
+          <lb ed="#P" n="3"/>13. Sed, licet ex dictis locis non colligatur
+          <lb ed="#P" n="4"/>cvidenter Christi discipulos fuisse speciah
+          <lb ed="#P" n="5"/>vinculo obligatos ad permanendum in ea
+          <lb ed="#P" n="6"/>Christi sequela, seu discipulatu, 
+          post<lb break="no" ed="#P" n="7"/>quam semel illi se consecrarunt , tamen 
+          dn<lb break="no" ed="#P" n="8"/>bitari non potest quin eo auimo illi se 
+          trade<lb break="no" ed="#P" n="9"/>rent, ut perpetuo illi adhaererent, et illud 
+          vi<lb break="no" ed="#P" n="10"/>tae ac perfectionis genus profiterentur ; nam
+          <lb ed="#P" n="11"/>ad hunc finem omnia sua relinquebant, 
+          ven<lb break="no" ed="#P" n="12"/>dendo illa, et dando pauperibus, si oportebat;
+          <lb ed="#P" n="13"/>quae actio satis indicat animum perpetuo 
+          per<lb break="no" ed="#P" n="14"/>severandi in tali vivendi modo, maxime cum
+          <lb ed="#P" n="15"/>ctiam uxorum usum relinquerent, et 
+          perpe<lb break="no" ed="#P" n="16"/>tuam castitatem amplecterentur, ut infra 
+          os<lb break="no" ed="#P" n="17"/>tendemus. Item ad hoc Christum 
+          sequeban<lb break="no" ed="#P" n="18"/>tur, ut Evangelium annuntiarent; sic enim 
+          si<lb break="no" ed="#P" n="19"/>gnificavit Christus, Luc. 9, cum dixit cuidam:
+          <lb ed="#P" n="20"/>Sine ut mortui sepeliant mortuos suos, tu 
+          au<lb break="no" ed="#P" n="21"/>tem cade, et annuntia regnum Dei. Ex Matt. 4,
+          <lb ed="#P" n="22"/>in Apostolorum vocatione : Fenite post ine, et
+          <lb ed="#P" n="23"/>facia vos fieri piscatores hominum. Hoc 
+          au<lb break="no" ed="#P" n="24"/>tem munus non est opus unius diei, sed 
+          vi<lb break="no" ed="#P" n="25"/>tam integram requirit.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1147">
+          <lb ed="#P" n="26"/>14. Hinc autem fit satis verisimile 
+          discipu<lb break="no" ed="#P" n="27"/>los ita fuisse Christum secutos, ut in 
+          poste<lb break="no" ed="#P" n="28"/>rum manerent obligati ad obediendum illi et
+          <lb ed="#P" n="29"/>permanendum cum illo ; hanc enim ob 
+          cau<lb break="no" ed="#P" n="30"/>sam res haec tanquam sats ardua illis 
+          propo<lb break="no" ed="#P" n="31"/>nebatur, quia erat res perpetua, quam semel
+          <lb ed="#P" n="32"/>inchoatam relinquere non licebat ; nam si
+          <lb ed="#P" n="33"/>hoc liberum semper maneret, non esset adeo
+          <lb ed="#P" n="34"/>diflicile illud vitae genus tentare. Et hoc 
+          si<lb break="no" ed="#P" n="35"/>gnificasse videtur Petrus, cum dixit Matth.
+          <lb ed="#P" n="36"/>19: Fece nos reliquimus omma, et secuti 
+          su<lb break="no" ed="#P" n="37"/>mtus te, quid ergo erit nobis ? nondum enim
+          <lb ed="#P" n="38"/>reipsa secuti erant Christum per totum vitae
+          <lb ed="#P" n="39"/>tempus, seu in ejus obedientia per totam
+          <lb ed="#P" n="40"/>vitam perseverando ; tamen, quia proposito
+          <lb ed="#P" n="41"/>et obligatione se jam illi perpetuo dicaverant,
+          <lb ed="#P" n="42"/>tanquam de re jam perfecta seu irrcvocabili
+          <lb ed="#P" n="43"/>loquitur, et solum de praemio interrogat. 
+          De<lb break="no" ed="#P" n="44"/>nique Patres ita sentiunt de hac discipulorum
+          <lb ed="#P" n="45"/>Christi obedientia. Duphciter autem illam 
+          de<lb break="no" ed="#P" n="46"/>clarare videntur, primo quod speciali Christi
+          <lb ed="#P" n="47"/>praecepto obpligati fuerint ad Christum ita 
+          se<lb break="no" ed="#P" n="48"/>quendum, eique perpetuo obsequendum ; ita
+          <lb ed="#P" n="49"/>loquuntur Hieronymus, ep. 151 ad Algasiam,
+          <lb ed="#P" n="50"/>q. 8, dicens : Preceptum est Apostolis - 
+          Es<lb break="no" ed="#P" n="51"/>tote perfecti, sicul Pater vester celestis 
+          per<lb break="no" ed="#P" n="52"/>fectus est; etinfra: Apostolis, non pueris 
+          pre<lb break="no" ed="#P" n="53"/>cipitur , verun jam ctatis robuste , ut 
+          assu<lb break="no" ed="#P" n="54"/>mant perfectionem; Augunus etiam , lib. 2
+          <lb ed="#P" n="55"/>de Consensu Evang., c. 17, verbo jubendi uti-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tur, diecus, Christum jussisse discipulos 
+          pis<lb break="no" ed="#P" n="57"/>cantes, ut eum sequerentur. Difticihus 
+          Salvia<lb break="no" ed="#P" n="58"/>nus, lib. 2 de Eccl. Cathol.. ubi loquens de
+          <lb ed="#P" n="59"/>ministris Evangelii, quos Christus vocabat:
+          <lb ed="#P" n="60"/>F'is, inquit, Salvator ipse in Evangelio non
+          <lb ed="#P" n="61"/>ut ceeteris voluntarium, sed imperativum 
+          offt<lb break="no" ed="#P" n="62"/>ciuin iperfectionis indicit ; quid enim laico illi
+          <lb ed="#P" n="63"/>adolescenti divisse legimus ? S vis perfectus
+          <lb ed="#P" n="64"/>esse, vende omnia qua habes, et da 
+          puuperi<lb break="no" ed="#P" n="65"/>bus. Quid autem ministris suis ? Nolite 
+          possi<lb break="no" ed="#P" n="66"/>dere aurum , neque argentum , etc., Mat. 10.
+          <lb ed="#P" n="67"/>Videte quanta sit in utrogue hoc Dei sermonue
+          <lb ed="#P" n="68"/>diversitas.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1246">
+          <lb ed="#P" n="69"/>15. Verumtamen ex ipsismet Christi 
+          ver<lb break="no" ed="#P" n="70"/>bis , si vis perfectus esse, etc., satis constat
+          <lb ed="#P" n="71"/>Christum Dominum non imposuisse proprium
+          <lb ed="#P" n="72"/>praeceptum omnibus quos ad se sequendum
+          <lb ed="#P" n="73"/>ita vocabat, nam adolescentem illum ctiam
+          <lb ed="#P" n="74"/>vocavit, dicens : Veni, et sequere me, et tamen
+          <lb ed="#P" n="75"/>sub praedicta conditione vocavit, vis 
+          per<lb break="no" ed="#P" n="76"/>fectus esse ; licet ergo aliquando illam non
+          <lb ed="#P" n="77"/>exprimeret, semper subintellgit ; sicut Luc.
+          <lb ed="#P" n="78"/>9, ad quemdam disit absolute : Seguere me,
+          <lb ed="#P" n="79"/>et vade , et aummtia reguum Dei , cum tamen
+          <lb ed="#P" n="80"/>constet illud non fuisse absolutum 
+          praece<lb break="no" ed="#P" n="81"/>ptum , sed vocationem ad statum 
+          perfectio<lb break="no" ed="#P" n="82"/>nis. Hieronymus vero et Augustinus illo verbo
+          <lb ed="#P" n="83"/>utantur solum propter formam verborum
+          <lb ed="#P" n="84"/>Christi, qui aliquando per modum invitantis,
+          <lb ed="#P" n="85"/>aliquando per modum invocantis vocabat, ut:
+          <lb ed="#P" n="86"/>Qui cult venire post me, aut: Fenite post mce.
+          <lb ed="#P" n="87"/>Videtur autem in hoc posteriori modo fere
+          <lb ed="#P" n="88"/>semper indicari efficaciam vocationis, quae
+          <lb ed="#P" n="89"/>non in speciali aliqua obligatione assumendi
+          <lb ed="#P" n="90"/>perfectionis viam, sed in congruitate et 
+          efli<lb break="no" ed="#P" n="91"/>cacitate gratiae, posita erat; et ob eam 
+          cau<lb break="no" ed="#P" n="92"/>sam potest etiam imperium vocari, sicut 
+          di<lb break="no" ed="#P" n="93"/>citur etiam Christus imperio suo mira opera
+          <lb ed="#P" n="94"/>fecisse. Salvianus autem loquitur de imperio
+          <lb ed="#P" n="95"/>non antecedente, sed consequente, ut sic 
+          di<lb break="no" ed="#P" n="96"/>cam, id est, non de imperio assumendi 
+          sta<lb break="no" ed="#P" n="97"/>tum perfectionis, sed reservandi, et 
+          retinen<lb break="no" ed="#P" n="98"/>di paupertatem in illo statu semcl 
+          assum<lb break="no" ed="#P" n="99"/>pto.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1316">
+          <lb ed="#P" n="100"/>16. Unde provenit fermitas in sequendo 
+          Chris<lb break="no" ed="#P" n="101"/>tum. — Haec ergo firmitas et necessitas non
+          <lb ed="#P" n="102"/>proveniebat ex solo Christi praecepto specialt
+          <lb ed="#P" n="103"/>et positivo, sed ex voluntaria professione
+          <lb ed="#P" n="104"/>obedientiae includente promissionem 
+          esplici<lb break="no" ed="#P" n="105"/>tam vel implicitam permanendi in illa. Quod
+          <lb ed="#P" n="106"/>expresse docuit D. Thomas 2. 2, q. 186, a. 6,
+          <lb ed="#P" n="107"/>ad 2, ubi ita concludit : Hec autem 
+          immobil<lb break="no" ed="#P" n="108"/>tas sequclee Christi firmatur per votum. Et
+          <lb ed="#P" n="109"/>loquitur de hac sequela, etiam prout facta est
+          <lb ed="#P" n="110"/>ab his, qui personaliter Christum ipsum se-
+          <pb ed="#P" n="869"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>cuti sunt. Et idem sentiunt omnes Doctores,
+          <lb ed="#P" n="2"/>qui asserunt Apostolos emisisse tria vota 
+          es<lb break="no" ed="#P" n="3"/>sentialia religionis , quos infra 
+          commemora<lb break="no" ed="#P" n="4"/>bimus, et de voto paupertatis aliqua dicta
+          <lb ed="#P" n="5"/>sunt libr. 8, et de castitate, libro praecedenti;
+          <lb ed="#P" n="6"/>non est autem minor ratio de promissione
+          <lb ed="#P" n="7"/>obedientiae ; imo multo major, quia reliqua
+          <lb ed="#P" n="8"/>ad hoc ordinabantur tanquam media ad 
+          fi<lb break="no" ed="#P" n="9"/>nem ; ideo enim futuri Christi discipuli 
+          re<lb break="no" ed="#P" n="10"/>nuntiabant omnibus bonis, et voluptatibus
+          <lb ed="#P" n="11"/>corporis, ut essent expediti ad obediendum
+          <lb ed="#P" n="12"/>ipsi praesertim in annuntiatione Evangelii.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1373">
+          <lb ed="#P" n="13"/>17. Objectio. — Adhuc vero dicere 
+          po<lb break="no" ed="#P" n="14"/>test aliquis, esto fuerit optimum consilium
+          <lb ed="#P" n="15"/>personaliter sequi Christum vocantem, illi
+          <lb ed="#P" n="16"/>perpetuam obedientiam promittendo , non
+          <lb ed="#P" n="17"/>posse inde colligi, nunc etiam esse bonum
+          <lb ed="#P" n="18"/>similem obedientiam promittere alicui 
+          ho<lb break="no" ed="#P" n="19"/>mini. Est enim maena differentia inter 
+          Chris<lb break="no" ed="#P" n="20"/>tum et quemcumque alium purum 
+          homi<lb break="no" ed="#P" n="21"/>nem , tum quia Christus Dominus non 
+          po<lb break="no" ed="#P" n="22"/>test errare in praecipiendo, neque ex malitia,
+          <lb ed="#P" n="23"/>neque ex ignorantia, sed semper injunget
+          <lb ed="#P" n="24"/>subdito id quod melius, et salubrius illi est,
+          <lb ed="#P" n="25"/>homo vero utroque modo errare potest, 
+          prae<lb break="no" ed="#P" n="26"/>cipiendo vel inutiBa, vel qua magis 
+          impe<lb break="no" ed="#P" n="27"/>diant quam juvent ad salutem; tum etiam
+          <lb ed="#P" n="28"/>quia Christus est absolute omnium dominus,
+          <lb ed="#P" n="29"/>etiam in quantum homo; et ideo, si absoluta
+          <lb ed="#P" n="30"/>potestate uti voluisset, sine dubio potuisset
+          <lb ed="#P" n="31"/>per proprium imperium obligare quos vellet
+          <lb ed="#P" n="32"/>ad se sequendum, et perpetuo militandum
+          <lb ed="#P" n="33"/>sub obedientia sua, etiam in operibus et 
+          mi<lb break="no" ed="#P" n="34"/>nisteriis perfectionis; et ideo quamvis ipse
+          <lb ed="#P" n="35"/>pro sua humanitate nollet tanta uti potestate,
+          <lb ed="#P" n="36"/>sed solum volentes invitare ad societatem 
+          se<lb break="no" ed="#P" n="37"/>cum ineundam, optimum consilium erat 
+          in<lb break="no" ed="#P" n="38"/>vitanti consentire, eique obedientiam 
+          promit<lb break="no" ed="#P" n="39"/>lere. Alii vero homines (seclusa potestate 
+          ju<lb break="no" ed="#P" n="40"/>risdictionis, de qua non agimus) nec 
+          supe<lb break="no" ed="#P" n="41"/>riores sunt, nec recte possunt alios invitare
+          <lb ed="#P" n="42"/>ut sibi obedientiam promittant; ergo talis
+          <lb ed="#P" n="43"/>obedientia non potest conferri cum illa, quae
+          <lb ed="#P" n="44"/>Christo offerebatur, neque ab una ad alteram
+          <lb ed="#P" n="45"/>potest argumentum fieri.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1447">
+          <lb ed="#P" n="46"/>18. Responsio. — Nihilominus Doctores
+          <lb ed="#P" n="47"/>sancti semper intellexerunt, quae Christus in
+          <lb ed="#P" n="48"/>hoc negotio et egit, et d$cuit, non pro illo
+          <lb ed="#P" n="49"/>solo tempore, nec pro his solum qui Christo
+          <lb ed="#P" n="50"/>Domino obtemperarunt, fuisse tradita, sed
+          <lb ed="#P" n="51"/>fuisse normam et exemplum eorum, quae 
+          per<lb break="no" ed="#P" n="52"/>petuo in Eeclesia duratura erant, et tanquam
+          <lb ed="#P" n="53"/>meliora fidelibus consulenda: ita exposuit
+          <lb ed="#P" n="54"/>Basilius, sermone de abdicatione rerum, illa
+          <lb ed="#P" n="55"/>verba Matth. 11: Venite ad e, omnes qui la-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>boratis, quae de vocatione ad statum 
+          pauper<lb break="no" ed="#P" n="57"/>tatis et obedientiae intelligit, et ideo inferius
+          <lb ed="#P" n="58"/>statum religiosum vocat Sanctorum Christi
+          <lb ed="#P" n="59"/>discipulorum malitiam ; et in Constit. monast.,
+          <lb ed="#P" n="60"/>cap. decimo nono, de monachis ita loquitur:
+          <lb ed="#P" n="61"/>Hi veri imitatores sunt Salvatoris nostri, 
+          ejus<lb break="no" ed="#P" n="62"/>que vita, quam inter nos duxit ; quemad modum
+          <lb ed="#P" n="63"/>enim ille coacto Apostolorum choro, comuunia
+          <lb ed="#P" n="64"/>cuncta, seque ipsum communem Apostolis 
+          prae<lb break="no" ed="#P" n="65"/>lunt, ita hi quogue antistiti suo obtemperantes
+          <lb ed="#P" n="66"/>genus vivendi Apostolorum imitantur ac 
+          Do<lb break="no" ed="#P" n="67"/>mini ; et cap. 23, Christum ait ad hoc elegisse
+          <lb ed="#P" n="68"/>discipulos, u£ per eos formam velingueret 
+          fa<lb break="no" ed="#P" n="69"/>ture posteritati. Idem sumitur ex Augustino,
+          <lb ed="#P" n="70"/>lib. 2 contra litteras Petil., cap. 104, et 17 de
+          <lb ed="#P" n="71"/>Civit., cap. 4, et ex omnibus Patribus 
+          ubi<lb break="no" ed="#P" n="72"/>cumque exponunt verba Christi saepe citata :
+          <lb ed="#P" n="73"/>Si vis perfectus esse, vade, et vende omnia quee
+          <lb ed="#P" n="74"/>habes, et sequere me ; et: Qui vult venire post
+          <lb ed="#P" n="75"/>me, abneget semetipsum, etc. ; et: Omnis qui
+          <lb ed="#P" n="76"/>reliquerit patren, etc. Nam et multa ex his
+          <lb ed="#P" n="77"/>verbis universalia sunt, quae proinde non 
+          res<lb break="no" ed="#P" n="78"/>tringuntur ex vi et proprietate sua ad 
+          prae<lb break="no" ed="#P" n="79"/>sentes, qui tunc aderant, sed ad omnes, qui
+          <lb ed="#P" n="80"/>consilia Christi sequi voluerunt, extenduntur,
+          <lb ed="#P" n="81"/>et materia ipsa talis est, ut ad omnes 
+          perti<lb break="no" ed="#P" n="82"/>neat; ergo etiam doctrina. Urde etiam 
+          pro<lb break="no" ed="#P" n="83"/>missio illa, Matth. 19: Vos, qui secuti estis
+          <lb ed="#P" n="84"/>me, sedebitis super sedes, etc., quae considerata
+          <lb ed="#P" n="85"/>forma verborum ad Apostolos dirigi 
+          videba<lb break="no" ed="#P" n="86"/>tur, a Patribus intelligitur facta omnibus, qui
+          <lb ed="#P" n="87"/>in statu perfectionis Apostolos imitantur, ut
+          <lb ed="#P" n="88"/>videre licet in Augustino, epist. 89, quaest. 4,
+          <lb ed="#P" n="89"/>et Psalm. 49 et 121; Hieronymo, opist. 28 ad
+          <lb ed="#P" n="90"/>Lucinium, et aliis, quos supra citavi. 
+          Diffe<lb break="no" ed="#P" n="91"/>rentiae autem inter Christum et ejus 
+          minis<lb break="no" ed="#P" n="92"/>tros assignatae nihil obstant; nam ipse dixit
+          <lb ed="#P" n="93"/>hominibus locum ejus tenentibus: Quwi cos
+          <lb ed="#P" n="94"/>audit, me audit ; et quà vos spermt, me spernit.
+          <lb ed="#P" n="95"/>Unde Basilius, dict. cap. 23 Constit. monast.:
+          <lb ed="#P" n="96"/>Nihil aliud (inquit) est antistes, quam is qui
+          <lb ed="#P" n="97"/>personam Christi sustinet, et seguester est inter
+          <lb ed="#P" n="98"/>Dewn et homines, etc. Quocirca non qualibet
+          <lb ed="#P" n="99"/>obedientia, homini praestita, inter bona ad
+          <lb ed="#P" n="100"/>perfectionem pertinentia computatur, sed illa
+          <lb ed="#P" n="101"/>per quam aliquis loco Dei et Christi 
+          assumi<lb break="no" ed="#P" n="102"/>tur, ut in via perfectionis hominem dirigat,
+          <lb ed="#P" n="103"/>et adjuvet. Quod sine dubio utilissimum est,
+          <lb ed="#P" n="104"/>et moraliter necessarium; nam, ut ibidem
+          <lb ed="#P" n="105"/>Basilius subjungit : Kes omniuwm difficillima
+          <lb ed="#P" n="106"/>est seipsum cognoscere, et curare, propterea
+          <lb ed="#P" n="107"/>quod naturaliter seipsum quisque amat, et 
+          qui<lb break="no" ed="#P" n="108"/>libet, propterea quod in seipsoe propensi sunt,
+          <lb ed="#P" n="109"/>in veritatis judicio falluntur ; porro ab alio 
+          co<lb break="no" ed="#P" n="110"/>gnosci, curarique facile est, et ceetera, quae
+          <pb ed="#P" n="870"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>prosequitur , multa et magna hujus 
+          obedien<lb break="no" ed="#P" n="2"/>liae commoda enumerat.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1601">
+          <lb ed="#P" n="3"/>19. Neque obstat quod hujusmodi persona
+          <lb ed="#P" n="4"/>errare possit ; hoc enim probat feliciores
+          <lb ed="#P" n="5"/>fuisse, qui Christo ipsi obedientiam in hac
+          <lb ed="#P" n="6"/>vita praestare potuerunt, non tamen probat
+          <lb ed="#P" n="7"/>hoc genus obedientiae ob eam causam 
+          con<lb break="no" ed="#P" n="8"/>temnendum esse, alioquin omne humanum
+          <lb ed="#P" n="9"/>regimen vitandum esset, quia in eo semper
+          <lb ed="#P" n="10"/>homines errare possunt. Eo vel maxime quod
+          <lb ed="#P" n="11"/>Basilius, in eisdem Constit. monast., cap. 22,
+          <lb ed="#P" n="12"/>late prosequitur, moraliter timeri non potest
+          <lb ed="#P" n="13"/>quod spiritualis Praelatus ex malitia erret in
+          <lb ed="#P" n="14"/>spirituali subditi directione ; et quamvis id
+          <lb ed="#P" n="15"/>aliquando contingat, accidentarium est; unde
+          <lb ed="#P" n="16"/>non debet ob eam causam obedientiae bonum
+          <lb ed="#P" n="17"/>infamari. Praesertim, quia si error talis sit ut
+          <lb ed="#P" n="18"/>aliquid contra bonos mores praecipiatur, talis
+          <lb ed="#P" n="19"/>jussio nec obligare potest, nec sub 
+          promis<lb break="no" ed="#P" n="20"/>sione obedientiae continetur; si vero non est
+          <lb ed="#P" n="21"/>contra bonos mores, semper poterit in 
+          spiri<lb break="no" ed="#P" n="22"/>tualem profectum obedientiae redundare , si
+          <lb ed="#P" n="23"/>per ipsum non stet, et ita hujusmodi error
+          <lb ed="#P" n="24"/>nunquam erit impedimentum perfectionis 
+          ac<lb break="no" ed="#P" n="25"/>quirendae. Sed de hoc latius infra, tractando
+          <lb ed="#P" n="26"/>de obedientia religiosa. Altera vero 
+          differen<lb break="no" ed="#P" n="27"/>tia inter Christum et alios Praelatos nihil ad
+          <lb ed="#P" n="28"/>rem praesentem facit ; quia ipsemet Christus
+          <lb ed="#P" n="29"/>vivens in hac vita mortali homines vocabat
+          <lb ed="#P" n="30"/>ad obediendum sibi. Ex tunc etiam generaliter
+          <lb ed="#P" n="31"/>vocavit omnes ad voluntariam obedientiam
+          <lb ed="#P" n="32"/>praestandam Praelatis locum ipsius Christi 
+          te<lb break="no" ed="#P" n="33"/>nentibus, et nunc ctiam vel interius per
+          <lb ed="#P" n="34"/>seipsum, vel etiam exterius per suos 
+          minis<lb break="no" ed="#P" n="35"/>lros, multos vocat ad hanc perfectionis viam
+          <lb ed="#P" n="36"/>profitendam.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1677">
+          <lb ed="#P" n="37"/>20. Atque hinc facile satisfieri potest 
+          diffi<lb break="no" ed="#P" n="38"/>cultati in principio positae, in qua 
+          postulaba<lb break="no" ed="#P" n="39"/>lur quam bonitatem obedientia habeat, prout
+          <lb ed="#P" n="40"/>supponitur ad votum obedientiae. Dicitur
+          <lb ed="#P" n="41"/>enim imprimis non semper esse necessarium
+          <lb ed="#P" n="42"/>ad materiam voti, ut specialem honestatem
+          <lb ed="#P" n="43"/>alicujus virtutis habeat, quatenus ad votum
+          <lb ed="#P" n="44"/>supponitur ; sed satis esse ut sit res utilis, ad
+          <lb ed="#P" n="45"/>virtutem quamcumque disponendo hominem,
+          <lb ed="#P" n="46"/>vel tollendo impedimenta virtutis. Sic enim
+          <lb ed="#P" n="47"/>paupertas per se spectata non habet 
+          intrinse<lb break="no" ed="#P" n="48"/>cam honestatem, nec est actus vel materia
+          <lb ed="#P" n="49"/>alicujus virtutis specialis , et tamen quia est
+          <lb ed="#P" n="50"/>utilissima ad perfectionem acquirendam, ideo
+          <lb ed="#P" n="51"/>sub ea ratione est apta materia voti. Sic ergo
+          <lb ed="#P" n="52"/>dici potest de obedientia, quatenus est 
+          pro<lb break="no" ed="#P" n="53"/>priae voluntatis renuntiatio, et subjectio ad
+          <lb ed="#P" n="54"/>voluntatem alterius, alioquin jurisdictionem
+          <lb ed="#P" n="55"/>non habentis ; hic enim actus per se specta-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>-tus ante promissionem non habet aliquam 
+          in<lb break="no" ed="#P" n="57"/>trinsecam honestatem specialem, licet possit
+          <lb ed="#P" n="58"/>esse imperatus ab humilitate , vel ab alia 
+          si<lb break="no" ed="#P" n="59"/>mili virtute ; per se tamen est utilis, ut homo
+          <lb ed="#P" n="60"/>convenienter dirigatur in exercitio virtutis,
+          <lb ed="#P" n="61"/>praesertim in via perfectionis, in qua non 
+          so<lb break="no" ed="#P" n="62"/>lum praecepta , sed etiam consilia executioni
+          <lb ed="#P" n="63"/>mandanda sunt. Nam cum haec non sint per
+          <lb ed="#P" n="64"/>praeceptum determinata, nec possint omnia
+          <lb ed="#P" n="65"/>ab omnibus impleri, necessarium est prudens
+          <lb ed="#P" n="66"/>arbitrium, in quo melius unusquisque ab alio
+          <lb ed="#P" n="67"/>dirigitur, quam a seipso, propter rationes 
+          su<lb break="no" ed="#P" n="68"/>perius a Basilio datas.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1752">
+          <lb ed="#P" n="69"/>21. Hinc dicitur ulterius quod, licet 
+          mate<lb break="no" ed="#P" n="70"/>ria hujus voti, ut ad illud supponitur, 
+          non<lb break="no" ed="#P" n="71"/>dum habeat in se actu honestatem obedientiae
+          <lb ed="#P" n="72"/>virtutis, habet tamen potestate, quod satis
+          <lb ed="#P" n="73"/>est ut, adjuncta promissione, actus ille 
+          inci<lb break="no" ed="#P" n="74"/>piat habere illam honestatem. Quod sic 
+          decla<lb break="no" ed="#P" n="75"/>ratur; nam ante votum hic non est mihi 
+          su<lb break="no" ed="#P" n="76"/>perior, et ideo nondum habet locum propria
+          <lb ed="#P" n="77"/>obedientia circa illum ; per promissionem 
+          au<lb break="no" ed="#P" n="78"/>tem, qua me illi trado ac subjicio, mihi illum
+          <lb ed="#P" n="79"/>superiorem constituo; et ideo jam habet 
+          lo<lb break="no" ed="#P" n="80"/>cum erga illum obedientia. Unde actus ille
+          <lb ed="#P" n="81"/>promittendi et assumendi alium in 
+          superio<lb break="no" ed="#P" n="82"/>rem et Praelatum, proxime et ex objecto non
+          <lb ed="#P" n="83"/>habet honestatem obedientiae, neque ab ea
+          <lb ed="#P" n="84"/>virtute elicitur, sed a religione, cum illa 
+          pro<lb break="no" ed="#P" n="85"/>missio fiat in Dei cultum, eo quod ad 
+          perfec<lb break="no" ed="#P" n="86"/>tionem assequendam utilis censeatur. 
+          Nihilo<lb break="no" ed="#P" n="87"/>minus tamen ex fine participat ille actus 
+          ho<lb break="no" ed="#P" n="88"/>nestatem obedientiae, quatenus ex amore 
+          il<lb break="no" ed="#P" n="89"/>lius procedit ; ideo enim quis hunc assumit ut
+          <lb ed="#P" n="90"/>superiorem, ut in omnibus suis actibus possit
+          <lb ed="#P" n="91"/>obedientiam exercere ; et idcirco, quamvis
+          <lb ed="#P" n="92"/>encomia et laudes obedientiae , quae in 
+          Scri<lb break="no" ed="#P" n="93"/>ptura et Patribus leguntur, proprie dici 
+          vi<lb break="no" ed="#P" n="94"/>deantur de ipso usu et exercitio obedientia,
+          <lb ed="#P" n="95"/>quale est illud 1 Reg. 15: Melior est obedientia
+          <lb ed="#P" n="96"/>quam viclime, et similia, nihilominus etiam
+          <lb ed="#P" n="97"/>conveniunt in hunc actum, qui ad tale 
+          exerci<lb break="no" ed="#P" n="98"/>tium voluntariae obedienriae supponitur, 
+          scili<lb break="no" ed="#P" n="99"/>cet voluntariam subjectionem huic personae
+          <lb ed="#P" n="100"/>promissione firmatam ; nam in hoc actu dixi
+          <lb ed="#P" n="101"/>virtute, et quasi in radice tota honestas 
+          obe<lb break="no" ed="#P" n="102"/>dientiae continetur et intenditur ; unde in 
+          il<lb break="no" ed="#P" n="103"/>Ium optime quadraf ratio tradita a Gregorio,
+          <lb ed="#P" n="104"/>lib. 35 Moral., cap. 10, ob quam obedientia
+          <lb ed="#P" n="105"/>victimis praefertur : Quia per victimas, inquit,
+          <lb ed="#P" n="106"/>aliena caro, per obedientiam vero voluntas 
+          pro<lb break="no" ed="#P" n="107"/>pria mactatur ; hoc enim sacrificium propriae
+          <lb ed="#P" n="108"/>voluntatis maxime fit in ejusdem voluntatis
+          <lb ed="#P" n="109"/>subjectione et promissione ; unde in illam
+          <lb ed="#P" n="110"/>etiam convenit, servata proportione, quod de
+          <pb ed="#P" n="871"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>virtute obedientiae idem Gregorius eodem
+          <lb ed="#P" n="2"/>loco dixit, talem esse virtutem, quee sola 
+          ir<lb break="no" ed="#P" n="3"/>tutes menti inserit, insertasque custodit : nam
+          <lb ed="#P" n="4"/>hoc etiam suo modo facit haec voluntaria
+          <lb ed="#P" n="5"/>subjectio ad aliquem loco Dei constitutum,
+          <lb ed="#P" n="6"/>nam illius providentia et cura, et divino
+          <lb ed="#P" n="7"/>auxilio per illum tanquam per Dei ministrum
+          <lb ed="#P" n="8"/>praestito, virtutes facilius acquiruntur et 
+          con<lb break="no" ed="#P" n="9"/>servantur, ut eleganter Basilius in locis supra
+          <lb ed="#P" n="10"/>citatis declarat. Neque huic efticaciae talis
+          <lb ed="#P" n="11"/>promissionis obstat , quod per illam non 
+          de<lb break="no" ed="#P" n="12"/>tur propria jurisdictio ei, cui obedientia 
+          pro<lb break="no" ed="#P" n="13"/>mittitur ; satis est enim quod acquirat vel jus
+          <lb ed="#P" n="14"/>aliquod dominativum, quale est domini in
+          <lb ed="#P" n="15"/>seryum, vel patris in filium; vel quod 
+          acqui<lb break="no" ed="#P" n="16"/>rat potestatem exigendi materiam illam ut
+          <lb ed="#P" n="17"/>Deo debitam ex vi promissionis, quae omnia
+          <lb ed="#P" n="18"/>latius in sequentibus exponemus.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1889">
+          <lb ed="#P" n="19"/>22. Difficultas de obedientia simplici. —
+          <lb ed="#P" n="20"/>Una vero superest difficultas propria hujus
+          <lb ed="#P" n="21"/>disputationis, in qua specialiter de voto 
+          obe<lb break="no" ed="#P" n="22"/>dientia omnino simplici inquintur; et qua
+          <lb ed="#P" n="23"/>hactenus diximus ad summum persuadent
+          <lb ed="#P" n="24"/>obedientiam similem obedientiae 
+          discipulo<lb break="no" ed="#P" n="25"/>rum Christi, esse laudabilem, et voto 
+          conse<lb break="no" ed="#P" n="26"/>crabilem. Hujusmodi autem solum est 
+          obe<lb break="no" ed="#P" n="27"/>dientia religionis , in qua plures sub uno 
+          ca<lb break="no" ed="#P" n="28"/>pite Christum repraesentantes congregantur;
+          <lb ed="#P" n="29"/>ergo inde probari non potest esse consilium
+          <lb ed="#P" n="30"/>extra hunc statum obedientiam alicui 
+          pro<lb break="no" ed="#P" n="31"/>mittere ; imo neque esse bonum aut tutum,
+          <lb ed="#P" n="32"/>quia tunc nou potest assumi aliquis tanquam
+          <lb ed="#P" n="33"/>Christi vices gerens, ut ei obedientia 
+          pro<lb break="no" ed="#P" n="34"/>mittatur ; nullus enim potest in Ecclesia vices
+          <lb ed="#P" n="35"/>Christi gerere, qui auctoritate et potestate
+          <lb ed="#P" n="36"/>publica non sit ad tale munus destinatus,
+          <lb ed="#P" n="37"/>quod in praesenti non servatur, sed solum
+          <lb ed="#P" n="38"/>privato judicio ac voluntate eligitur persona,
+          <lb ed="#P" n="39"/>cui talis promissio fii. Et ob eamdem causam
+          <lb ed="#P" n="40"/>non videiur tuta talis promissio, cum solo 
+          pri<lb break="no" ed="#P" n="41"/>vato judicio, et non aliqua publica approba
+          <lb ed="#P" n="42"/>tione nitatur; non est ergo haec obedientia
+          <lb ed="#P" n="43"/>apta materia, ut per tale vorum Deo 
+          conse<lb break="no" ed="#P" n="44"/>cretur.
+        </p>
+        <p xml:id="szovsr-p21563-d1e1948">
+          <lb ed="#P" n="45"/>23. Obedientia simplem est honesta et 
+          lauda<lb break="no" ed="#P" n="46"/>bilis.— Nihilominus dicendum est etiam hanc
+          <lb ed="#P" n="47"/>promissionem ex suo genere optimam esse,
+          <lb ed="#P" n="48"/>si cum debitis circumstantiis fiat. Hoc enim
+          <lb ed="#P" n="49"/>satis persuadet Ecclesia consuetudo; solet
+          <lb ed="#P" n="50"/>enim saepe tale volum fieri a viris piis extra
+          <lb ed="#P" n="51"/>religiosum statum, quod judicio omnium 
+          pru<lb break="no" ed="#P" n="52"/>dentum laudabile est, et, per se loquendo,
+          <lb ed="#P" n="53"/>obligat. Et licet ad proprium statum 
+          religio<lb break="no" ed="#P" n="54"/>sum necessaria sit Ecclesiee approbatio 
+          spe<lb break="no" ed="#P" n="55"/>cialis, ut l. 2 ostendimus, non tamen esse ne-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cessariam ad omnem vivendi modum 
+          partici<lb break="no" ed="#P" n="57"/>pantem seu imitantem aliquo modo illum
+          <lb ed="#P" n="58"/>statum, aperte sentit Cajetan. 2. 2, quaest.
+          <lb ed="#P" n="59"/>1SS, art. 1; et Navar., comment. 1 de Regul.
+          <lb ed="#P" n="60"/>Unde fit ut saepe in aliquo vivendi modo, vel
+          <lb ed="#P" n="61"/>ab aliquibus personis emittantur tria vota,
+          <lb ed="#P" n="62"/>paupertatis, castitatis et obedientiae, sine 
+          spe<lb break="no" ed="#P" n="63"/>ciali approbatione Ecclesiae, quae nihilominus
+          <lb ed="#P" n="64"/>vera sunt et valida, licet pure simplicia, ut
+          <lb ed="#P" n="65"/>Navar. etiam, dicto comment. 1 de Regul., 
+          sae<lb break="no" ed="#P" n="66"/>pius docet. Quocirca omnia, quae de 
+          obedien<lb break="no" ed="#P" n="67"/>tize honestate diximus, ad hoc simplex votum
+          <lb ed="#P" n="68"/>applicari possunt ; nam etiam tale votum fit
+          <lb ed="#P" n="69"/>homini ut vicem Dei tenenti, vel e contrario
+          <lb ed="#P" n="70"/>fit Deo, ut homo nomine ipsius praecipiat
+          <lb ed="#P" n="71"/>quae ad majus animae bonum expedire 
+          judi<lb break="no" ed="#P" n="72"/>cantur.
+        </p>
+        <p xml:id="szovsr-p21563-d1e2013">
+          <lb ed="#P" n="73"/>24. Respectu cujus persone fiat 
+          convenien<lb break="no" ed="#P" n="74"/>tius hec simplea obedientia. — Neque ad hoc
+          <lb ed="#P" n="75"/>necessarium est ut talis persona potestatem
+          <lb ed="#P" n="76"/>aliquam ab Ecclesia habeat, quia non per 
+          po<lb break="no" ed="#P" n="77"/>testatem jurisdictionis, sed per potestatem
+          <lb ed="#P" n="78"/>dominativam praeceptura est, quam 
+          potesta<lb break="no" ed="#P" n="79"/>tem ab ipsomet vovente privatim accipere
+          <lb ed="#P" n="80"/>potest. Neque est etiam necessarium ut 
+          ha<lb break="no" ed="#P" n="81"/>beat aliquam publicam seu authenticam 
+          ap<lb break="no" ed="#P" n="82"/>probationem, quia tale etiam votum non est
+          <lb ed="#P" n="83"/>publicum, sed privatum. Satis ergo est quod
+          <lb ed="#P" n="84"/>prudenti judicio, sive morali probabiltate,
+          <lb ed="#P" n="85"/>lalis persona apta et habilis exisumetur, ut
+          <lb ed="#P" n="86"/>ci possit aliquis curam animae suae per 
+          spe<lb break="no" ed="#P" n="87"/>cialem obedientiam committere. Regulariter
+          <lb ed="#P" n="88"/>autem tale votum securius fit respectu 
+          alicu<lb break="no" ed="#P" n="89"/>jus, qui pastoralem curam in Ecclesia habet,
+          <lb ed="#P" n="90"/>ut si secularis quispiam suo Episcopo 
+          specia<lb break="no" ed="#P" n="91"/>lem obedientiam voveat, vel alicui Praelato
+          <lb ed="#P" n="92"/>alicujus approbatae religionis; vel fieri etiam
+          <lb ed="#P" n="93"/>potest parocho aut discreto confessori ; 
+          quan<lb break="no" ed="#P" n="94"/>quam tunc securius fortasse erit votum facere
+          <lb ed="#P" n="95"/>respectu hujus vel illius personae in 
+          indivi<lb break="no" ed="#P" n="96"/>duo, cujus virtus et prudentia probata esse
+          <lb ed="#P" n="97"/>posset, quam generatim respectu 
+          cujuscum<lb break="no" ed="#P" n="98"/>que confessoris. Denique hic non 
+          descendi<lb break="no" ed="#P" n="99"/>mus ad particulares circumstantias, ex 
+          qui<lb break="no" ed="#P" n="100"/>bus in quocumque voto potest aliquando esse
+          <lb ed="#P" n="101"/>periculum; satis ergo est, quod actus, ex se
+          <lb ed="#P" n="102"/>ac prudenter factus, bonus ac religiosus sit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

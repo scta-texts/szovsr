@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="288"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p71579"><!-- t7l5prae -->
+        <head xml:id="szovsr-p71579-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-p71579-d1e103">
+          <pb ed="#P" n="288"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER QUINTUS
+          <lb ed="#P" n="2"/>DE INGRESSU RELIGIONIS
+          <lb ed="#P" n="3"/>AC NOVITIATU.
+        </p>
+        <p xml:id="szovsr-p71579-d1e116">
+          <lb ed="#P" n="4"/>1. Duplex potest ingressus religionis 
+          distin<lb break="no" ed="#P" n="5"/>gui: unus, per susceptionem habitus, alius
+          <lb ed="#P" n="6"/>per professionem, et hic posterior est per
+          <lb ed="#P" n="7"/>quem verus religiosus quoad proprium 
+          sta<lb break="no" ed="#P" n="8"/>tum, de quo hic agimus, constituitur ; tamen,
+          <lb ed="#P" n="9"/>quia ad hunc posteriorem ingressum juxta 
+          sa<lb break="no" ed="#P" n="10"/>cros canones non pervenitur nisi per priorem,
+          <lb ed="#P" n="11"/>et inter eos probationis annus seu novitiatus
+          <lb ed="#P" n="12"/>intercedit , et saepe valor professionis ex illis
+          <lb ed="#P" n="13"/>duobus pendet, ideo in praesenti libro de 
+          pri<lb break="no" ed="#P" n="14"/>mo ingressu ac de novitiatu, in aliis vero 
+          se<lb break="no" ed="#P" n="15"/>quentibus de professione, et omnibus quae ad
+          <lb ed="#P" n="16"/>illam pertinent vel consequuntur, dicemus.
+          <lb ed="#P" n="17"/>Prior autem ingressus subdistingui solet : nam
+          <lb ed="#P" n="18"/>quidam est ad educationem, alius ad 
+          novitia<lb break="no" ed="#P" n="19"/>tum ; nos autem de hoc posteriori hic tantum
+          <lb ed="#P" n="20"/>agimus, nam ille tantum proprie est 
+          ingres<lb break="no" ed="#P" n="21"/>sus ad religionem ; prior enim potius est 
+          prae<lb break="no" ed="#P" n="22"/>ambulum quoddam ; quanquam si ingressus
+          <lb ed="#P" n="23"/>ad educationem fiat sub habitu religionis, per
+          <lb ed="#P" n="24"/>modum unius sub alio comprehendi potest,
+          <lb ed="#P" n="25"/>quamvis novitiatus non statim incipiat , ut
+          <lb ed="#P" n="26"/>infra dicam.
+        </p>
+        <p xml:id="szovsr-p71579-d1e168">
+          <lb ed="#P" n="27"/>2. De hoc ergo ingressu suppono per se 
+          ac<lb break="no" ed="#P" n="28"/>tum esse religionis , quatenus via est, seu 
+          in<lb break="no" ed="#P" n="29"/>choatio quaedam ad illam traditionem , per
+          <lb ed="#P" n="30"/>quam homo se totum divino cultui dedicat,
+          <lb ed="#P" n="31"/>unde non est dubium quin talis actus ex 
+          ob<lb break="no" ed="#P" n="32"/>jecto suo honestus sit, et optimus; oportet 
+          au<lb break="no" ed="#P" n="33"/>tem (quod secundo supponendum est) hunc
+          <lb ed="#P" n="34"/>ingressum esse in religione approbata juxta
+          <lb ed="#P" n="35"/>superius dicta de approbatione religionis, quia
+          <lb ed="#P" n="36"/>alias non erit via ad verum statum religionis;
+          <lb ed="#P" n="37"/>hic enim secundum ecclesiasticam 
+          traditio<lb break="no" ed="#P" n="38"/>nem extra religionem approbatam esse non
+          <lb ed="#P" n="39"/>potest. Tertio suppono , ut hic ingressus recte
+          <lb ed="#P" n="40"/>et valide fiat, necessarium esse ut cum debitis
+          <lb ed="#P" n="41"/>circumstantiis, vel ex natura rei, vel ex jure
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="42"/>canonico requisitis , fiat; hoc enim in omni
+          <lb ed="#P" n="43"/>actu studioso cum proportione necessarium
+          <lb ed="#P" n="44"/>est ; hae autem conditiones requiri possunt
+          <lb ed="#P" n="45"/>vel ex parte personse ingredientis, vel ex 
+          par<lb break="no" ed="#P" n="46"/>te recipientis, vel ex parte modi, quae tria in
+          <lb ed="#P" n="47"/>discursu hujus libri praecipue declaranda
+          <lb ed="#P" n="48"/>sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="246"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p61303"><!-- t7l4prae -->
+        <head xml:id="szovsr-p61303-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-p61303-d1e103">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="29"/>LIBER QUARTUS
+          <lb ed="#P" n="30"/>ASSUMENDI STATUM RELIGIONIS.
+        </p>
+        <p xml:id="szovsr-p61303-d1e112">
+          <lb ed="#P" n="31"/>Quamvis hoc votum simplex sit, est enim
+          <lb ed="#P" n="32"/>mera promissio de futuro, qua» statum 
+          religio<lb break="no" ed="#P" n="33"/>sum non constituit, sed ad illum ordinatur,
+          <lb ed="#P" n="34"/>nihilominus illius tractationem in hunc locum
+          <lb ed="#P" n="35"/>reservavimus, quia cum tale votum pro 
+          objec<lb break="no" ed="#P" n="36"/>to habeat ipsum religiosum statum, oportuit
+          <lb ed="#P" n="37"/>prius de ipso statu notitiam aliquam 
+          pramit<lb break="no" ed="#P" n="38"/>tere, ac deinceps de illius promissione 
+          sermo<lb break="no" ed="#P" n="39"/>nem facere. Dicemus ergo prius deobligatione
+          <lb ed="#P" n="40"/>hujus voti, quatenus ex tali materia specialem
+          <lb ed="#P" n="41"/>aliquam proprietatem vel conditionem habet;
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="42"/>postea de modis quibus cessare possit haec 
+          obli<lb break="no" ed="#P" n="43"/>gatio; nam caetera, quae communia sunt, ex
+          <lb ed="#P" n="44"/>generali doctrina de voto sunt potius 
+          suppo<lb break="no" ed="#P" n="45"/>nenda.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

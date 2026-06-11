@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="863"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p21554"><!-- t7l10prae -->
+        <head xml:id="szovsr-p21554-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-p21554-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="35"/>LIBER DECIMUS
+          <lb ed="#P" n="36"/>DE VOTO OBEDIENTIAE.
+        </p>
+        <p xml:id="szovsr-p21554-d1e112">
+          <lb ed="#P" n="37"/>Argumentum hujus ultimi libri, est 
+          obe<lb break="no" ed="#P" n="38"/>dientia speciali voto in cultum Deo oblata,
+          <lb ed="#P" n="39"/>quae, ut sic, non solum est unum ex consiliis
+          <lb ed="#P" n="40"/>Evangelicis a Christo Domino traditis, et
+          <lb ed="#P" n="41"/>unum e tribus votis quibus religiosus status
+          <lb ed="#P" n="42"/>essentialiter constituitur, sed etiam inter ea
+          <lb ed="#P" n="43"/>praestantissimum, ut docet D. Thomas 2. 2,
+          <lb ed="#P" n="44"/>q. 166, art. 8, tum ratione nobilioris materiae,
+          <lb ed="#P" n="45"/>quam per hoc votum homo Deo consecrat;
+          <lb ed="#P" n="46"/>nam paupertas, bona externa, scilicet, divi-
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="47"/>tias; castitas, quasdam corporis voluptates ;
+          <lb ed="#P" n="48"/>per obedientiam vero Deo quis offert animam,
+          <lb ed="#P" n="49"/>intellectum, ac voluntatem, ac seipsum totum
+          <lb ed="#P" n="50"/>in holocaustum ; tum etiam ratione majoris
+          <lb ed="#P" n="51"/>oblationis extensivae, quia per hoc votum
+          <lb ed="#P" n="52"/>etiam Deo homo subjicit, offertque omnes
+          <lb ed="#P" n="53"/>suas divitias, voluptates, caeterasque actioncs,
+          <lb ed="#P" n="54"/>imo et seipsum totum cum illis in perpetuum
+          <lb ed="#P" n="55"/>famulatum et servitutem; hinc est, quod 
+          Au<lb break="no" ed="#P" n="56"/>custinus, lib. Contra adversarium legis, obe-
+          <pb ed="#P" n="864"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dientiam maximam virtutum appellet , que
+          <lb ed="#P" n="2"/>mazima , inquit, est cirtutum, et, ut diverim,
+          <lb ed="#P" n="3"/>omnium origo , materque. De illa ergo in hoc
+          <lb ed="#P" n="4"/>libro, servato ordine quem in praecedentibus
+          <lb ed="#P" n="5"/>tenuimus, dicemus, prius scilicet de 
+          obe<lb break="no" ed="#P" n="6"/>dientia simplici, postea de solemni, vel prius
+          <lb ed="#P" n="7"/>de obedientia quae extra religionem 
+          obser<lb break="no" ed="#P" n="8"/>vari potest, posterius de illa quae intra 
+          exer<lb break="no" ed="#P" n="9"/>cetur; de qua tamen multa in tractatum de
+          <lb ed="#P" n="10"/>Societate reservamus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

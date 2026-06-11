@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="743"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p18535"><!-- t7l9c9 -->
+        <head xml:id="szovsr-p18535-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-p18535-Hd1e103" type="question-title">Quid possit uxor circa votum castitatis mariti sine ejus consensu emissum, et quid de voto castitatis utriusque ex mutuo facto consensu.</head>
+        <p xml:id="szovsr-p18535-d1e106">
+          <lb ed="#P" n="66"/>CAPUT IX.
+          <lb ed="#P" n="67"/>QUID POSSIT UXOR CIRCA VOTUM CASTITATIS 
+          MA<lb break="no" ed="#P" n="68"/>RITI SINE EJUS CONSENSU EMISSUM, ET QUID DE
+          <lb ed="#P" n="69"/>VOTO CASTITATIS UTRIUSQUE EX MUTUO FACTO
+          <lb ed="#P" n="70"/>CONSENSU.
+        </p>
+        <p xml:id="szovsr-p18535-d1e119">
+          <lb ed="#P" n="71"/>1. Opinio asserentium hoc cotum non obligare
+          <lb ed="#P" n="72"/>ad non petendun debitum. — Es dictis a 
+          for<lb break="no" ed="#P" n="73"/>tiori constat quid dicendum sit de voto 
+          casti<lb break="no" ed="#P" n="74"/>tatis emisso a viro sine consensu uxoris, sive
+          <lb ed="#P" n="75"/>ante, sive post matrimonium. Nam certum
+          <lb ed="#P" n="76"/>est tale votum non obligare ad non 
+          redden<lb break="no" ed="#P" n="77"/>dum debitum, quia talis materia injusta est;
+          <lb ed="#P" n="78"/>unde ad hoc non indiget irritatione. Certum
+          <lb ed="#P" n="79"/>est etiam votum hoc in se et in tota sua 
+          am<lb break="no" ed="#P" n="80"/>plitudine non posse irritari, tum ratione 
+          spe<lb break="no" ed="#P" n="81"/>ciali, tum etiam generali, quia votum hoc,
+          <lb ed="#P" n="82"/>saltem quoad obligationem castitatis 
+          conju<lb break="no" ed="#P" n="83"/>galis, vel vidualis post mortem uxoris, 
+          au<lb break="no" ed="#P" n="84"/>ferri non potest ab ullo conjuge. Quantum
+          <lb ed="#P" n="85"/>vero ad obligationem non petendi debitum,
+          <lb ed="#P" n="86"/>aliqui putant tale votum per se non obligare,
+          <lb ed="#P" n="87"/>quia est in magnum praejudicium uxoris, et
+          <lb ed="#P" n="88"/>quia in tali persona non est de meliori bono.
+          <lb ed="#P" n="89"/>Sed hoc non credo verum, quia saltem si
+          <lb ed="#P" n="90"/>uxor non contradixerit, sine dubio tale 
+          vo<lb break="no" ed="#P" n="91"/>tum oblgat, quod probant omnia supra 
+          ad<lb break="no" ed="#P" n="92"/>ducta ; quia in hoc maritus est sui juris; et
+          <lb ed="#P" n="93"/>illud, quod vovet, simpliciter cst melius, si
+          <lb ed="#P" n="94"/>rationabili modo illud interpretemur, ut 
+          su<lb break="no" ed="#P" n="95"/>pra factum est. Denique indicium 
+          manifes<lb break="no" ed="#P" n="96"/>tum est, quia si uxor cognito voto mariti 
+          con<lb break="no" ed="#P" n="97"/>tenta sit, sine dubio vir tenetur voto; quia
+          <lb ed="#P" n="98"/>tunc cessat omne praejudicium ; ergo signum
+          <lb ed="#P" n="99"/>est a principio non fuisse omnino irritum.
+          <lb ed="#P" n="100"/>Quocirca, si maritus nolit manifestare votum
+          <lb ed="#P" n="101"/>uxori, semper tenebitur illo voto in omni 
+          pro<lb break="no" ed="#P" n="102"/>babili opinione. An vero male faciat maritus,
+          <lb ed="#P" n="103"/>non manifestando uxori suam obligationem,
+          <lb ed="#P" n="104"/>et cessando a petendo absolute, juxta 
+          se<lb break="no" ed="#P" n="105"/>quentes opiniones judicandum est.
+        </p>
+        <p xml:id="szovsr-p18535-d1e197">
+          <lb ed="#P" n="106"/>2. Opinio asserentium tale votum quoad 
+          ob<lb break="no" ed="#P" n="107"/>ligationem non petendi delitum ab ueore irri-
+          <pb ed="#P" n="744"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tari posse. — Dicunt vero aliqui votum illud,
+          <lb ed="#P" n="2"/>quantum ad obligationem non pe:endi posse
+          <lb ed="#P" n="3"/>irritari ab uxore. Quod sentiunt plerique 
+          eo<lb break="no" ed="#P" n="4"/>rum, qui de marito id affirmant; imo, putant
+          <lb ed="#P" n="5"/>majorem rationem quoad hoc esse in uxore;
+          <lb ed="#P" n="6"/>quia hoc non provenit ex potestate superiori,
+          <lb ed="#P" n="7"/>sed ex praejudicio; majus autem 
+          pragjudi<lb break="no" ed="#P" n="8"/>cium fit mulieri per hujusmodi votum viri,
+          <lb ed="#P" n="9"/>quam e converso, eo quod pudori femineo
+          <lb ed="#P" n="10"/>onerosius sit semper debitum postulare: ita
+          <lb ed="#P" n="11"/>sentit Sot., ubi supra Navar., et praeter alios
+          <lb ed="#P" n="12"/>supra citatos, tenet Henriq.,1. 11 deMatrim.,
+          <lb ed="#P" n="13"/>c. 15, n. 8, ad fin.; et Emman. Roder., tom.
+          <lb ed="#P" n="14"/>2 Summ., c. 90, n. 3.
+        </p>
+        <p xml:id="szovsr-p18535-d1e240">
+          <lb ed="#P" n="15"/>3. Votum non habendi copulam, nisi 
+          empres<lb break="no" ed="#P" n="16"/>se petatur, aliquando non obligat. — Verius
+          <lb ed="#P" n="17"/>tamen existimo, etiam quoad hanc partem,
+          <lb ed="#P" n="18"/>non posse uxorem, si proprie loquamur, 
+          vo<lb break="no" ed="#P" n="19"/>tum viri irritare ; sed aut illud per se non
+          <lb ed="#P" n="20"/>obligare, si inepte factum sit, aut in eo, quod
+          <lb ed="#P" n="21"/>est validum, irritari non posse. Ita sentiunt
+          <lb ed="#P" n="22"/>reliqui auctores supra citati. Imo et Sancius,
+          <lb ed="#P" n="23"/>praecedenti puncto nobis contrarius, in hac
+          <lb ed="#P" n="24"/>parte assentitur, tum lib. 9 de Matrim., disp.
+          <lb ed="#P" n="25"/>42. n. T, tum etiam in Decalog., lib. 4 de 
+          Vo<lb break="no" ed="#P" n="26"/>to, c. 34, n. 27. Et generatim ostenditur, quia
+          <lb ed="#P" n="27"/>in hoc jure debiti aequales sunt vir et uxor, 1
+          <lb ed="#P" n="28"/>Cor. 1, et c. Si quis primo, 32, q. 1. Deinde
+          <lb ed="#P" n="29"/>ita declaratur ; quia vel votum est de non
+          <lb ed="#P" n="30"/>petendo ex se et propter se, et quasi jam 
+          in<lb break="no" ed="#P" n="31"/>choando, et tale votum et validum cst, et per
+          <lb ed="#P" n="32"/>se loquendo licitum, et omnino firmum, ita
+          <lb ed="#P" n="33"/>ut ab uxore irritari non possit, quia nec 
+          su<lb break="no" ed="#P" n="34"/>per personam mariti, nec super talem 
+          mate<lb break="no" ed="#P" n="35"/>riam habet potestatem ullam. Nec inde 
+          ali<lb break="no" ed="#P" n="36"/>quod gravamen ei accrescit; vel si quod 
+          ac<lb break="no" ed="#P" n="37"/>cedit, est valde extrinsecum, et non est 
+          injus<lb break="no" ed="#P" n="38"/>tum, nec contrarium charitati. Vel votum
+          <lb ed="#P" n="39"/>mariti est de non accedendo ad uxorem ullo
+          <lb ed="#P" n="40"/>modo, donec ipsa expresse petat, etiausi
+          <lb ed="#P" n="41"/>illam videat in periculo constitutam, et tacite
+          <lb ed="#P" n="42"/>petentem, et desideriumsignificantem; et tunc
+          <lb ed="#P" n="43"/>tale votum censeo esse indiscretum, et 
+          con<lb break="no" ed="#P" n="44"/>trarium vel minus consentaneum ordini 
+          cha<lb break="no" ed="#P" n="45"/>ritatis, et prudentiae servandae in illo statu.
+          <lb ed="#P" n="46"/>Et ideo non obligat quoad illam partem, seu
+          <lb ed="#P" n="47"/>excessum. An vero in hoc possit uxor cedere
+          <lb ed="#P" n="48"/>juri suo, et ita quoad hanc partem dare 
+          valo<lb break="no" ed="#P" n="49"/>rem huic voto, statim dicam ; nunc solum 
+          as<lb break="no" ed="#P" n="50"/>sero non teneri maritum ad postulandum vel
+          <lb ed="#P" n="51"/>expectandum talem consensum uxoris, sed
+          <lb ed="#P" n="52"/>quoad illam partem statim, ac per se, non
+          <lb ed="#P" n="53"/>obligari tali voto; et ita proprie hic non 
+          ha<lb break="no" ed="#P" n="54"/>bere locum irritationem.
+        </p>
+        <p xml:id="szovsr-p18535-d1e329">
+          <lb ed="#P" n="55"/>4. Difficultas , quando tale votum ez mutuo
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>u uterque facit. — Tale cotum est 
+          lici<lb break="no" ed="#P" n="57"/>tum. — Etiam est validum. — Ulterius ex his
+          <lb ed="#P" n="58"/>constat, quid dicendum sit quando vir et uxor
+          <lb ed="#P" n="59"/>ex mutuo consensu votum castitatis emittunt.
+          <lb ed="#P" n="60"/>Circa quod occurrebat disputatio cum 
+          haereti<lb break="no" ed="#P" n="61"/>cis, an tale votum licitum sit. Haeretici vero
+          <lb ed="#P" n="62"/>illud damnant tanquam contrarium illi divino
+          <lb ed="#P" n="63"/>praecepto: Quos Deus conjunzit , etc. 
+          Verum<lb break="no" ed="#P" n="64"/>tamen necesse non est contra hanc 
+          ineptissi<lb break="no" ed="#P" n="65"/>mam haeresim disputare, tum quia per tale
+          <lb ed="#P" n="66"/>votum non solvitur matrimonii vinculum , et
+          <lb ed="#P" n="67"/>ita non agitur contra divinum praeceptum;
+          <lb ed="#P" n="68"/>tum etiam quia per talia vota neutri conjugi
+          <lb ed="#P" n="69"/>fit injuria, quia uterque cedit juri suo, et 
+          vo<lb break="no" ed="#P" n="70"/>lenti et consentienti non fit injuria. Tum 
+          de<lb break="no" ed="#P" n="71"/>nique quia perpetua Ecclesiae traditione , et
+          <lb ed="#P" n="72"/>innumeris Sanctorum exemplis ac 
+          testimo<lb break="no" ed="#P" n="73"/>niis, hujusmodi vota approbata sunt, ut 
+          eru<lb break="no" ed="#P" n="74"/>dite ostendit Bellarm. , lib. 2 de Monachis,
+          <lb ed="#P" n="75"/>c. 37. Quin potius Augustinus, lib. 1 de Serm.
+          <lb ed="#P" n="76"/>Dom. in mont., c. 14, beatiora vocat 
+          hujus<lb break="no" ed="#P" n="77"/>modi conjugia , in quibus conjuges inter se
+          <lb ed="#P" n="78"/>continentiam pari consensu servare 
+          potue<lb break="no" ed="#P" n="79"/>runt. Supposita ergo honestate hujus voti,
+          <lb ed="#P" n="80"/>certum est, in eo casu utriusque conjugis 
+          vo<lb break="no" ed="#P" n="81"/>tum et validum esse et firmum, ita ut neuter
+          <lb ed="#P" n="82"/>possit votum alterius irritare, quod est 
+          cer<lb break="no" ed="#P" n="83"/>tissimum quoad perpetuitatem voti, et quoad
+          <lb ed="#P" n="84"/>alias materias extra copulam 
+          matrimonia<lb break="no" ed="#P" n="85"/>lem.
+        </p>
+        <p xml:id="szovsr-p18535-d1e401">
+          <lb ed="#P" n="86"/>5. An obliget ad non reddendum debitum 
+          al<lb break="no" ed="#P" n="87"/>Lero petente. — Circa hanc vero dubitari 
+          po<lb break="no" ed="#P" n="88"/>test an tale votum obliget ad non 
+          redden<lb break="no" ed="#P" n="89"/>dum, etiam altero petente et exigente. Palac.,
+          <lb ed="#P" n="90"/>in 4, dist. 32, disp. 4, col. 8, asserit non 
+          te<lb break="no" ed="#P" n="91"/>neri ad reddendum, donec alter revocet 
+          con<lb break="no" ed="#P" n="92"/>sensum. Si autem revocet, et reddere posse,
+          <lb ed="#P" n="93"/>et debere. Sed distinctio minime necessaria
+          <lb ed="#P" n="94"/>videtur. Nam reddere nemo potest, donec
+          <lb ed="#P" n="95"/>alter petat. Eo autem ipso quod petit, jam
+          <lb ed="#P" n="96"/>revocat priorem consensum, et recedit a
+          <lb ed="#P" n="97"/>priori pacto. Diceret tamen fortasse hic 
+          auc<lb break="no" ed="#P" n="98"/>tor, quando alter conjugum in eo casu petit,
+          <lb ed="#P" n="99"/>alium non debere statim reddere; sed se 
+          ex<lb break="no" ed="#P" n="100"/>cusare quod jam non teneatur ratione pacti,
+          <lb ed="#P" n="101"/>nec possit ratione voti. Si autem alter tunc
+          <lb ed="#P" n="102"/>revocaverit priorem consensum, et non solum
+          <lb ed="#P" n="103"/>rogaverit, sed jus suum exegerit, alium tunc
+          <lb ed="#P" n="104"/>licite posse reddere debitum, et 
+          consequen<lb break="no" ed="#P" n="105"/>ter teneri. Ratio esse potest, quia supra 
+          dic<lb break="no" ed="#P" n="106"/>tum est, superiorem valide posse revocare 
+          li<lb break="no" ed="#P" n="107"/>centiam vovendi datam subdito ; et tunc licet
+          <lb ed="#P" n="108"/>ipse peccet, subditum excusari; ergo idem
+          <lb ed="#P" n="109"/>erit in praesenti.
+        </p>
+        <p xml:id="szovsr-p18535-d1e456">
+          <lb ed="#P" n="110"/>6. Communis sententia asserit non posse
+          <pb ed="#P" n="745"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>reddi debitun. — Communis tamen sententia
+          <lb ed="#P" n="2"/>est in contrarium ; dicit enim in eo casu
+          <lb ed="#P" n="3"/>neutrum conjugum posse alteri reddere 
+          de<lb break="no" ed="#P" n="4"/>bitum, etiamsi maxime exigat, et velit 
+          prio<lb break="no" ed="#P" n="5"/>rem consensum revocare ; ita sentiunt 
+          com<lb break="no" ed="#P" n="6"/>muniter Theologi, in.4, d, 32, ubi D. 
+          Tho<lb break="no" ed="#P" n="7"/>mas, Palud., Richard., Supplem., et Sot.,
+          <lb ed="#P" n="8"/>art. 3, et d. 27, q. 1, art. 4; Sylvest., d. q. 2;
+          <lb ed="#P" n="9"/>Tabien., Matrimonium , 4, S 30 ; Navar., in
+          <lb ed="#P" n="10"/>Summ., d. c. 12, n. 59, et cap. 16, n. 33;et
+          <lb ed="#P" n="11"/>Panorm., in c. Charissimus, de Convers. 
+          con<lb break="no" ed="#P" n="12"/>jug., n.6; Lessius, lib. 2 de Just., c. 40, dub.
+          <lb ed="#P" n="13"/>10, n. 88; et Sancius, in Decalog., lib. 4, c.
+          <lb ed="#P" n="14"/>34, n. 15. Potest autem hoc fundari, et in 
+          vo<lb break="no" ed="#P" n="15"/>to ipsius conjugis qui redditurus est debitum,
+          <lb ed="#P" n="16"/>et in voto alterius qui illud exigit. Priori 
+          mo<lb break="no" ed="#P" n="17"/>do fundamentum esse debet, quia, 
+          quantum<lb break="no" ed="#P" n="18"/>vis alius, qui petit debitum, revocet 
+          consen<lb break="no" ed="#P" n="19"/>sum prius datum, voium alterius manet 
+          fir<lb break="no" ed="#P" n="20"/>mum, quia revocatio illa non potest esse 
+          ef<lb break="no" ed="#P" n="21"/>ficax ad invalidandum contractum prius 
+          fac<lb break="no" ed="#P" n="22"/>tum inter ipsos conjuges, ratione cujus jam
+          <lb ed="#P" n="23"/>alter cessit juri suo; et consequenter alium
+          <lb ed="#P" n="24"/>liberavit onere et obligatione reddendi 
+          debi<lb break="no" ed="#P" n="25"/>tum, quam non potest iterum imponere 
+          revo<lb break="no" ed="#P" n="26"/>cando priorem consensum. Quod 
+          confirma<lb break="no" ed="#P" n="27"/>tur et declaratur, quia pacta et conventiones
+          <lb ed="#P" n="28"/>justae, in quibus aequale pro aequali redditur,
+          <lb ed="#P" n="29"/>absolute et sine conditione factae, sunt 
+          per<lb break="no" ed="#P" n="30"/>petuae, nec revocantur eo quod alter 
+          retrac<lb break="no" ed="#P" n="31"/>tat voluntatem suam ; sed inter maritum et
+          <lb ed="#P" n="32"/>uxorem in eo casu praecessit pactum 
+          mu<lb break="no" ed="#P" n="33"/>tuum, et utrinque fuit conditio aequalis ; ergo
+          <lb ed="#P" n="34"/>non potest alter conjugum revocare pactum
+          <lb ed="#P" n="35"/>alio invito ; ergo, quantumvis revocet, alter
+          <lb ed="#P" n="36"/>semper obligatur voto ad abstinendum 
+          abso<lb break="no" ed="#P" n="37"/>lute a copula conjugali. Patet consequentia ,
+          <lb ed="#P" n="38"/>quia ratione pacti potest licite negare 
+          dcbi<lb break="no" ed="#P" n="39"/>tum ; ergo ratione voti tenetur. Unde recte
+          <lb ed="#P" n="40"/>Navarrus supra considerat, discrimen esse,
+          <lb ed="#P" n="41"/>quando praecessit inter conjuges pactum 
+          nu<lb break="no" ed="#P" n="42"/>dum, vel voto firmatum ; quia quando 
+          pac<lb break="no" ed="#P" n="43"/>tum fuit nudum, licite possunt conjuges ex
+          <lb ed="#P" n="44"/>mutuo consensu ab illo recedere, argumento
+          <lb ed="#P" n="45"/>c. 2, de Sponsal., quia unusquisque potest
+          <lb ed="#P" n="46"/>cedere juri suo. Imo addit Navar., citans 
+          Hu<lb break="no" ed="#P" n="47"/>gonem Card., in c. 6, 1 ad Cor., in eo casu,
+          <lb ed="#P" n="48"/>si alter conjugum petat, vel se ostendat 
+          pro<lb break="no" ed="#P" n="49"/>pensum, etc., alium debere condescendere.
+          <lb ed="#P" n="50"/>Sed non credo teneri debito justitia, alias
+          <lb ed="#P" n="51"/>praecedens pactum nihil operaretur. Sed 
+          ali<lb break="no" ed="#P" n="52"/>quando poterit intervenire debitum 
+          honesta<lb break="no" ed="#P" n="53"/>tis , vel charitalis, si alter in periculo 
+          verse<lb break="no" ed="#P" n="54"/>tur. Át vero quando ultra pactum mutuum
+          <lb ed="#P" n="55"/>accessit votum, jam non est liberum illis re-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>cedere a pacto, neque alteri revocationem
+          <lb ed="#P" n="57"/>alterius acceptare, aut illi consentire, aut suo
+          <lb ed="#P" n="58"/>juri per pactum acquisito cedere, quia in hoc
+          <lb ed="#P" n="59"/>ageret contra absolutum votum castitatis.
+        </p>
+        <p xml:id="szovsr-p18535-d1e595">
+          <lb ed="#P" n="60"/>7. Difficultas : an post revocationem mutui
+          <lb ed="#P" n="61"/>consensus peccent reddendo debitum. — Sed
+          <lb ed="#P" n="62"/>quid, si semel conjuges mutuo consensu 
+          pac<lb break="no" ed="#P" n="63"/>tum prius factum, quantumvis voto 
+          firma<lb break="no" ed="#P" n="64"/>tum, revocarint? numquid peccabit postea
+          <lb ed="#P" n="65"/>alter eorum reddendo alteri debitum ? Quod
+          <lb ed="#P" n="66"/>enim in illa revocatione pacti peccaverint, et
+          <lb ed="#P" n="67"/>contra votum egerint, dubium non est, ut ex
+          <lb ed="#P" n="68"/>dictis patet. Tamen quia illa revocatio facta
+          <lb ed="#P" n="69"/>tenet, videntur postea non peccare reddendo
+          <lb ed="#P" n="70"/>debitum, etiamsi peccent petendo. Primum
+          <lb ed="#P" n="71"/>patet, scilicet, revocationem fuisse validam,
+          <lb ed="#P" n="72"/>quia, licet fuerit peccaminosa contra votum,
+          <lb ed="#P" n="73"/>non tamen contra justitiam, cum unusquisque
+          <lb ed="#P" n="74"/>conjugum semper maneat dominus juris sui,
+          <lb ed="#P" n="75"/>cui potest cedere; ergo quibus voluntatibus
+          <lb ed="#P" n="76"/>illud pactum favctum sit, dissolvi potuit 
+          effica<lb break="no" ed="#P" n="77"/>citer quantum ad mutuam obligationem ,
+          <lb ed="#P" n="78"/>quicquid sit de peccato contra promissionem
+          <lb ed="#P" n="79"/>Deo factam. Hinc vero sequi videtur 
+          secun<lb break="no" ed="#P" n="80"/>dum, scilicet, nullum eorum peccare 
+          redden<lb break="no" ed="#P" n="81"/>do debitum, quia jam materia illa est aliena,
+          <lb ed="#P" n="82"/>et redit ad antiquum statum, in quo ex vi
+          <lb ed="#P" n="83"/>matrimonii tenentur conjuges reddere 
+          debi<lb break="no" ed="#P" n="84"/>tum. Quocirca simile videtur in eo casu 
+          con<lb break="no" ed="#P" n="85"/>tingere, ac in eo qui matrimonium contrabit
+          <lb ed="#P" n="86"/>habens votum castitatis. Nam, licet semel
+          <lb ed="#P" n="87"/>peccet, factum tamen tenet, ratione cujus
+          <lb ed="#P" n="88"/>potest licite, et debet postea debitum 
+          redde<lb break="no" ed="#P" n="89"/>re. Respondent aliqui hoc ad summum 
+          pro<lb break="no" ed="#P" n="90"/>cedere de obligatione ex vi proprii voti, quod
+          <lb ed="#P" n="91"/>jam non videtur obligare ad non reddendum,
+          <lb ed="#P" n="92"/>supposita dissolutione pacti; aliunde vero
+          <lb ed="#P" n="93"/>manere obligationem ex vi cooperationis ad
+          <lb ed="#P" n="94"/>malum, sed de hoc statim.
+        </p>
+        <p xml:id="szovsr-p18535-d1e673">
+          <lb ed="#P" n="95"/>8. Quid si alter eorum velit reiterare 
+          revo<lb break="no" ed="#P" n="96"/>catum consensum, et alius nolit ? — Tenetur
+          <lb ed="#P" n="97"/>reddere petenti. — Respondeo igitur, in eo
+          <lb ed="#P" n="98"/>casu teneri utrumque conjugem ex vi sui
+          <lb ed="#P" n="99"/>voti pactum reiterare, et mutuo sibi remittere
+          <lb ed="#P" n="100"/>obligationem reddendi debitum, quia 
+          obliga<lb break="no" ed="#P" n="101"/>tio voti in utroque semper manet ; ergo 
+          uter<lb break="no" ed="#P" n="102"/>que tenetur facere quod potest ut non reddat
+          <lb ed="#P" n="103"/>debitum, quia ad hoc etiam votum a 
+          princi<lb break="no" ed="#P" n="104"/>pio obligavit ; possent autem hoc facile 
+          prae<lb break="no" ed="#P" n="105"/>bere ad prius pactum redeundo ; ergo ex vi
+          <lb ed="#P" n="106"/>prioris voti ad hoc semper tenentur. Denique
+          <lb ed="#P" n="107"/>recedendo a pacto. et revertendo ad jus 
+          an<lb break="no" ed="#P" n="108"/>tiquum, contra votum peccarunt; ergo 
+          per<lb break="no" ed="#P" n="109"/>severando in eo statu, semper contra votum
+          <lb ed="#P" n="110"/>agunt; tenentur ergo semper ad pactum re-
+          <pb ed="#P" n="746"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dire. Unde fit ut ex tali collusione , seu 
+          mu<lb break="no" ed="#P" n="2"/>tua remissione, nullum commodum reportent
+          <lb ed="#P" n="3"/>hujusmodi conjuges quoad culpam vitandam,
+          <lb ed="#P" n="4"/>quia semper in eo peccant contra votum,
+          <lb ed="#P" n="5"/>quod prius pactum non servent. Quod si 
+          for<lb break="no" ed="#P" n="6"/>tasse alter eorum post talem revocationem,
+          <lb ed="#P" n="7"/>poenitentia ductus, illam retractare velit, alter
+          <lb ed="#P" n="8"/>vero nolit, non poterit quidem ille, qui 
+          invi<lb break="no" ed="#P" n="9"/>tus est, alterum cogere; quia jam de facto
+          <lb ed="#P" n="10"/>cessit juri suo, et valide quidem quantum
+          <lb ed="#P" n="11"/>spectat ad rationem justitiae. Et ideo ille, qui
+          <lb ed="#P" n="12"/>sic peenitens, et invitus, reddiderit debitum,
+          <lb ed="#P" n="13"/>non peccabit directe contra votum suum,
+          <lb ed="#P" n="14"/>quia ex vi ejus jam non tenetur non reddere,
+          <lb ed="#P" n="15"/>facta tali rerum mutatione. An vero ex vi
+          <lb ed="#P" n="16"/>voti alterius conjugis teneatur non reddere,
+          <lb ed="#P" n="17"/>jam dicetur.
+        </p>
+        <p xml:id="szovsr-p18535-d1e752">
+          <lb ed="#P" n="18"/>9. Alio ergo modo tundari potest heec 
+          sen<lb break="no" ed="#P" n="19"/>tentia communis in voto alterius conjugis,
+          <lb ed="#P" n="20"/>quia nimirum ille peccat petendo debitum in
+          <lb ed="#P" n="21"/>eo casu, etiamsi datum consensum 
+          revocave<lb break="no" ed="#P" n="22"/>rit , et ideo hic non potest reddere debitum,
+          <lb ed="#P" n="23"/>nisi cooperando peccato ejus, quod nunquam
+          <lb ed="#P" n="24"/>licet ; ita sumitur ex Navarro supra , n. 59,
+          <lb ed="#P" n="25"/>qui refert D. Thomam,, in 4, d. 38. Et 
+          expli<lb break="no" ed="#P" n="26"/>cari potest a simili ; nam, licet jure naturae
+          <lb ed="#P" n="27"/>teneamur alteri reddere rem suam vel 
+          depo<lb break="no" ed="#P" n="28"/>situm, si tamen constet illam velle in malum
+          <lb ed="#P" n="29"/>usum, et praejudicium tertii, non debemus
+          <lb ed="#P" n="30"/>dare, etiamsi petat, ut Tryphon. jurecons.
+          <lb ed="#P" n="31"/>tradit in l. Bona fides, ff. Depositi; ergo a
+          <lb ed="#P" n="32"/>fortiori in praesenti.
+        </p>
+        <p xml:id="szovsr-p18535-d1e787">
+          <lb ed="#P" n="33"/>10. Contra hanc vero rationem instari
+          <lb ed="#P" n="34"/>posse videtur. Nam si alter conjugum emittat
+          <lb ed="#P" n="35"/>votum castitatis sine alterius consensu , et
+          <lb ed="#P" n="36"/>postea debitum petat , quamvis in eo peccet,
+          <lb ed="#P" n="37"/>et in copula etiam quae ex vi talis petitionis
+          <lb ed="#P" n="38"/>sequitur , nihilominus alter conjux non 
+          pec<lb break="no" ed="#P" n="39"/>cat reddendo, imo reddere tenetur. Quod 
+          te<lb break="no" ed="#P" n="40"/>net expresse Sot., in 4, disi. 17, q. 1, art. 4,
+          <lb ed="#P" n="41"/>circa finem. Et ratio esse potest, quia ille 
+          pe<lb break="no" ed="#P" n="42"/>tit jus suum, et actus quem petit de se 
+          lici<lb break="no" ed="#P" n="43"/>tus est ; malitia vero , quae illi admiscetur ex
+          <lb ed="#P" n="44"/>voto conjugis, est valde extrinseca, quae non
+          <lb ed="#P" n="45"/>imputatur alteri reddenti jus, nec potest dici
+          <lb ed="#P" n="46"/>ad illam cooperari, sed solum permittere 
+          il<lb break="no" ed="#P" n="47"/>lam, quia nec directe vult illam malitiam,
+          <lb ed="#P" n="48"/>nec actum , cui illa sit intrinsece adjuncta;
+          <lb ed="#P" n="49"/>sed per accidens in tali casu, in quo ipse non
+          <lb ed="#P" n="50"/>tenetur vitare actum , aut negare quod 
+          de<lb break="no" ed="#P" n="51"/>bet, ne talis mahtia sequatur. Confirmatur a
+          <lb ed="#P" n="52"/>simili, nam D. Thomas et multi Theologi 
+          sen<lb break="no" ed="#P" n="53"/>tiunt peccare maritum petendo debitum ab
+          <lb ed="#P" n="54"/>uxore menstruata , et illam nihilomiuus non
+          <lb ed="#P" n="55"/>peccare reddendo ; ergo idem dici potest in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>praesenti. Ilia ergo ratio ex hoc praecise capite
+          <lb ed="#P" n="57"/>non videtur firma. |
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

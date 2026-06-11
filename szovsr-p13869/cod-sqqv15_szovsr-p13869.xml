@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 4</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 4</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="557"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p13869"><!-- t7l8c4 -->
+        <head xml:id="szovsr-p13869-Hd1e101">Caput 4</head>
+        <head xml:id="szovsr-p13869-Hd1e103" type="question-title">Quae sit materia remota voti paupertatis.</head>
+        <p xml:id="szovsr-p13869-d1e106">
+          <lb ed="#P" n="24"/>CAPUT IV.
+          <lb ed="#P" n="25"/>QUAE SIT MATERIA REMOTA VOTI PAUPERTATIS.
+        </p>
+        <p xml:id="szovsr-p13869-d1e113">
+          <lb ed="#P" n="26"/>1. Materia voti paupertatis duplem et qualis.
+          <lb ed="#P" n="27"/>— Cum paupertas in privatione seu carentia
+          <lb ed="#P" n="28"/>quadam consistat, solum per modum 
+          priva<lb break="no" ed="#P" n="29"/>tionis potest habere materiam, illam, scilicet,
+          <lb ed="#P" n="30"/>quam removet, ad eum modum quo 
+          pecca<lb break="no" ed="#P" n="31"/>tum dicitur esse materia poenitentiae. Potest
+          <lb ed="#P" n="32"/>autem haec materia duplex in voto 
+          distin<lb break="no" ed="#P" n="33"/>gui, remota scilicet et proxima. Remotam
+          <lb ed="#P" n="34"/>voco res illas, seu divitias in quarum carentia
+          <lb ed="#P" n="35"/>paupertas consistit; proximam autem 
+          habi<lb break="no" ed="#P" n="36"/>tudinem illam, vel actionem hominis circa
+          <lb ed="#P" n="37"/>talem rem paupertati repugnantem, 
+          cujus<lb break="no" ed="#P" n="38"/>modi est dominium rei, vel jus, aut usus 
+          ali<lb break="no" ed="#P" n="39"/>quis ilh aequivalens, vel illud participans.
+          <lb ed="#P" n="40"/>Duo ergo explicanda sunt. Primum, quae res
+          <lb ed="#P" n="41"/>ad votum paupertatis pertineant. Secundum,
+          <lb ed="#P" n="42"/>quid prohibeatur homini circa res tales ex vi
+          <lb ed="#P" n="43"/>voti paupertatis.
+        </p>
+        <p xml:id="szovsr-p13869-d1e155">
+          <lb ed="#P" n="44"/>2. Assertio prima . materia remota 
+          pauper<lb break="no" ed="#P" n="45"/>tatis sunt tantum bona emtrinseca, que sub 
+          di<lb break="no" ed="#P" n="46"/>vitiarum nomine comprehenduntur.— Probutur
+          <lb ed="#P" n="47"/>excludendo alias res. — Circa priorem partem
+          <lb ed="#P" n="48"/>dicendum est, materiam- paupertatis esse
+          <lb ed="#P" n="49"/>tantum ea bona extrinseca, quae divitiarum
+          <lb ed="#P" n="50"/>nomine comprehenduntur. Itaque non omnia
+          <lb ed="#P" n="51"/>bona, quorum homo habet dominium, usum
+          <lb ed="#P" n="52"/>fructum, aut.jus utendi illis, sunt materia
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>paupertatis, quod patet breviter per illa 
+          dis<lb break="no" ed="#P" n="54"/>currendo. Nam imprimis, licet homo non sit
+          <lb ed="#P" n="55"/>proprie dominus vitae suae, habet tamen jus
+          <lb ed="#P" n="56"/>proprium habendi et conservandi illam; quod
+          <lb ed="#P" n="57"/>non solum per paupertatem non abdicat, 
+          ve<lb break="no" ed="#P" n="58"/>rum nec abdicare potest, aut a se separare,
+          <lb ed="#P" n="59"/>quia est contra jus et potestatem principalis
+          <lb ed="#P" n="60"/>domini. Et ideo, licet quis possit vendere se
+          <lb ed="#P" n="61"/>in servum, non tamen potest vendere vitam
+          <lb ed="#P" n="62"/>suam, nec jus, quod in illam habet, alienare.
+          <lb ed="#P" n="63"/>Habet praeterea homo jus utendi suis 
+          mem<lb break="no" ed="#P" n="64"/>bris et facultatibus ad actiones suas, quarum
+          <lb ed="#P" n="65"/>etiam est dominus, quod jus alienare potest,
+          <lb ed="#P" n="66"/>ut fit per voluntariam servitutem ; tamen haec
+          <lb ed="#P" n="67"/>etiam non spectant ad materiam paupertatis,
+          <lb ed="#P" n="68"/>quia non computantur inter divitias, quae sunt
+          <lb ed="#P" n="69"/>bona extrinseca, sed inter bona corporalia,quae
+          <lb ed="#P" n="70"/>intrinseca sunt. Unde, eo modo quo haec 
+          pos<lb break="no" ed="#P" n="71"/>sunt esse materia voti, ad votum obedientiae
+          <lb ed="#P" n="72"/>potius pertinent, ut postea dicemus. Atque his
+          <lb ed="#P" n="73"/>adjungi possunt interna bona spiritualia, ut
+          <lb ed="#P" n="74"/>sunt gratia et virtutes, quorum bonorum non
+          <lb ed="#P" n="75"/>iuopia, sed abundantia procuranda est, et
+          <lb ed="#P" n="76"/>ideo manifestum est ad hanc materiam non
+          <lb ed="#P" n="77"/>pertiuere; nam potius paupertas promittitur
+          <lb ed="#P" n="78"/>ut hae divitia augeantur; ususfructus etiam,
+          <lb ed="#P" n="79"/>vel usus horum bonorum, qui in bonis 
+          acti<lb break="no" ed="#P" n="80"/>bus procedentibus a gratia consistunt, integer
+          <lb ed="#P" n="81"/>manet, nec per votum paupertatis aliquo 
+          mo<lb break="no" ed="#P" n="82"/>do minuitur; nam, eo non obstante, potest
+          <lb ed="#P" n="83"/>homo libere his actibus uti, vel etiam eos
+          <lb ed="#P" n="84"/>dispensare aut donare, quantum ipsi capaces
+          <lb ed="#P" n="85"/>sunt. Unde magis possunt pertinere haec 
+          bo<lb break="no" ed="#P" n="86"/>na ad votum obedientia, per quod subjicitur
+          <lb ed="#P" n="87"/>alteri propria voluntas, quae est proximum
+          <lb ed="#P" n="88"/>principium talium actuum ; quod non 
+          repu<lb break="no" ed="#P" n="89"/>gnat eorum perfectioni, sicut repugnaret 
+          pau<lb break="no" ed="#P" n="90"/>pertas circa talia bona, quia paupertas 
+          con<lb break="no" ed="#P" n="91"/>summatur in carentia illorum bonorum, 
+          quo<lb break="no" ed="#P" n="92"/>rum est inopia ; obedientia vero circa tales
+          <lb ed="#P" n="93"/>actus non est ad carendum illis, sed potius
+          <lb ed="#P" n="94"/>ad habendos illos cum majori perfectione, et
+          <lb ed="#P" n="95"/>sub meliori regula.
+        </p>
+        <p xml:id="szovsr-p13869-d1e273">
+          <lb ed="#P" n="96"/>3. Hacluditur etiam fuma, et honos. — 
+          Prae<lb break="no" ed="#P" n="97"/>ter haec bona sunt alia, his quidem inferiora,
+          <lb ed="#P" n="98"/>tamen magis interna quam sint temporales
+          <lb ed="#P" n="99"/>divitiae, eisque superiora ; hujusmodi autem
+          <lb ed="#P" n="100"/>sunt fama et honor; et haec etiam ad 
+          mate<lb break="no" ed="#P" n="101"/>riam hujus voti non pertinent, ut specialiter
+          <lb ed="#P" n="102"/>notavit D. Thomas 2. 2, q. 186, art. 2, ad 4,
+          <lb ed="#P" n="103"/>ubi specialiter loquitur de honore; est autem
+          <lb ed="#P" n="104"/>eadem ratio de fama. Reddidit autem hanc
+          <lb ed="#P" n="105"/>rationem, quia honor duplex est. Unus 
+          pro<lb break="no" ed="#P" n="106"/>prius et verus, qui virtuti debetur, teste
+          <lb ed="#P" n="107"/>Aristotele, lib. 4 Ethic., c. 3. Alius vulgaris,
+          <pb ed="#P" n="558"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>qui exteriori excellentiae, quae ex abundantia
+          <lb ed="#P" n="2"/>exteriorum bonorum communiter attenditur,
+          <lb ed="#P" n="3"/>ac vulgo attribuitur. Priori ergo honori nec
+          <lb ed="#P" n="4"/>potest , unec debet homo per votum 
+          pauperta<lb break="no" ed="#P" n="5"/>tis renuntiare, et ideo talis honor non est 
+          ma<lb break="no" ed="#P" n="6"/>teria hujus voti. Posterior autem honor 
+          reve<lb break="no" ed="#P" n="7"/>ra non habet locum in homine paupere, quia
+          <lb ed="#P" n="8"/>ejus fundamentum sublatum est, et ideo 
+          vo<lb break="no" ed="#P" n="9"/>tum paupertatis radicaliter quidem tollit hunc
+          <lb ed="#P" n="10"/>honorem ; proprie autem, et formaliter non
+          <lb ed="#P" n="11"/>obligat ad fugiendum illum. Unde, licet 
+          ha<lb break="no" ed="#P" n="12"/>beat quis votum paupertatis, et hujusmodi
+          <lb ed="#P" n="13"/>honorem quaerat tanquam sibi debitum, ac
+          <lb ed="#P" n="14"/>tanquam injustus aut ambitiosus censeri 
+          pos<lb break="no" ed="#P" n="15"/>sit, non tamen per se violat votum 
+          pauper<lb break="no" ed="#P" n="16"/>tatis, si alia ratione usurpando temporales et
+          <lb ed="#P" n="17"/>externas divitias non excedit.
+        </p>
+        <p xml:id="szovsr-p13869-d1e343">
+          <lb ed="#P" n="18"/>4. Alia ratione utitur ad hoc probandum
+          <lb ed="#P" n="19"/>idem Div. Thomas, opusc. 19, contra 
+          im<lb break="no" ed="#P" n="20"/>pugn. relig., c. 2, et eam explicat Cajet. circa
+          <lb ed="#P" n="21"/>praedictam solutionem, ad 4, quia honor non
+          <lb ed="#P" n="22"/>est in honorato, sed in honorante, et ideo non
+          <lb ed="#P" n="23"/>potest quis renuntiare honori in seipso, quia
+          <lb ed="#P" n="24"/>nemo renuntiat operi quod non est in se, sed
+          <lb ed="#P" n="25"/>in alio: solum ergo potest quis renuntiare
+          <lb ed="#P" n="26"/>honori in radice, abjiciendo a se titulum 
+          ho<lb break="no" ed="#P" n="27"/>noris; hoc autem neque ad paupertatem
+          <lb ed="#P" n="28"/>spectat, ut per se constat, neque semper ad
+          <lb ed="#P" n="29"/>consilium pertinet, cum ratio honoris sape
+          <lb ed="#P" n="30"/>sit, Imo, per se loquendo, esse debeat sancta
+          <lb ed="#P" n="31"/>et honesta. Atque hic fere discursus applicari
+          <lb ed="#P" n="32"/>etiam potest ad bonum famae; nam etiam 
+          il<lb break="no" ed="#P" n="33"/>la est bonum extrinsecum, et si vera sit, et in
+          <lb ed="#P" n="34"/>virtute fundata, nemo potest honeste illam
+          <lb ed="#P" n="35"/>prodigere, aut a se alienare ; nam est debita
+          <lb ed="#P" n="36"/>virtuti et veritati : si autem sit fama etiam
+          <lb ed="#P" n="37"/>vera, non tamen de bonis primi ordinis, ut
+          <lb ed="#P" n="38"/>sunt virtutes, sed de bonis mediis, quae ad
+          <lb ed="#P" n="39"/>virtutem et convictum humanum utilia sunt,
+          <lb ed="#P" n="40"/>qualia sunt ingenium, scientia, et alia naturae
+          <lb ed="#P" n="41"/>ornamenta, et de his bona existimatio per se
+          <lb ed="#P" n="42"/>valde utilis esse potest, etiam ad vitae 
+          tran<lb break="no" ed="#P" n="43"/>quillitatem, et ad plures effectus rationi 
+          con<lb break="no" ed="#P" n="44"/>sentaneos, vel etiam spirituales. Quapropter
+          <lb ed="#P" n="45"/>non pertinet etiam perse ad virtutem huic
+          <lb ed="#P" n="46"/>famae renuntiare, aut eam prodigere, maxime
+          <lb ed="#P" n="47"/>cum ab aliis sine culpa auferri non possit, et
+          <lb ed="#P" n="48"/>ipse homo per suas actiones non possit etiam
+          <lb ed="#P" n="49"/>licite se illa privare.
+        </p>
+        <p xml:id="szovsr-p13869-d1e415">
+          <lb ed="#P" n="50"/>5. Ostenditur idem in fama falsa. — Si 
+          au<lb break="no" ed="#P" n="51"/>tem fama non sit vera, sed falsa, tunc quidem
+          <lb ed="#P" n="52"/>non est proprie homo dominus fammee, et ideo
+          <lb ed="#P" n="53"/>etiam non potest proprie illi renuntiare ; 
+          ha<lb break="no" ed="#P" n="54"/>bet tamen homo naturale jus, ut non 
+          infa<lb break="no" ed="#P" n="55"/>mctur, etiam in his defectibus quos habet, si
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>aliis occulti sunt: et hoc etiam jus non 
+          amit<lb break="no" ed="#P" n="57"/>ut propter paupertatis professionem, quia nec
+          <lb ed="#P" n="58"/>pertinet ad temporalia bona extrinseca, neque
+          <lb ed="#P" n="59"/>in illius renuntiatione est, per se loquendo,
+          <lb ed="#P" n="60"/>illa spiritualis utilitas, quae in vera 
+          pauper<lb break="no" ed="#P" n="61"/>tate invenitur. Denique fama esse potest 
+          ma<lb break="no" ed="#P" n="62"/>la, quae potius vocatur infamia ; et haec, si sit
+          <lb ed="#P" n="63"/>de malis moribus, scandalosa est, et quantum
+          <lb ed="#P" n="64"/>est ex parte hominis omuino tollenda, prius
+          <lb ed="#P" n="65"/>fundamento subiato: haec autem non est 
+          ab<lb break="no" ed="#P" n="66"/>dicatio alicujus boni, ut hac ratione ad 
+          pau<lb break="no" ed="#P" n="67"/>pertatem revocari possit, sed potrus est 
+          sub<lb break="no" ed="#P" n="68"/>tractio alicujus mali, et contrarii boni 
+          procu<lb break="no" ed="#P" n="69"/>ratio; unde potius pertinet ad quoddam 
+          ge<lb break="no" ed="#P" n="70"/>nus divitiarum, seu abundantiae in bonis 
+          hu<lb break="no" ed="#P" n="71"/>jus ordinis. Quod si haec infamia sit circa alia
+          <lb ed="#P" n="72"/>bona mediocria naturae aut fortunae, licet eam
+          <lb ed="#P" n="73"/>tolerare, aut patienter ferre virtutis opus esse
+          <lb ed="#P" n="74"/>possit , constat nihilominus ad paupertatem
+          <lb ed="#P" n="75"/>nihil referre.
+        </p>
+        <p xml:id="szovsr-p13869-d1e476">
+          <lb ed="#P" n="76"/>6. Dicet aliquis: honor et fama possunt
+          <lb ed="#P" n="77"/>esse materia voti, sicut possunt esse materia
+          <lb ed="#P" n="78"/>virtutis, quae moderatur affectum circa haec
+          <lb ed="#P" n="79"/>bona, et aufert nimiam sollicitudinem 
+          quae<lb break="no" ed="#P" n="80"/>rendi illa: ergo potest fieri votum non 
+          quae<lb break="no" ed="#P" n="81"/>rendi indebitos honores, vel illos etiam 
+          abla<lb break="no" ed="#P" n="82"/>tos repudiandi. Imo etiam potest fieri votum
+          <lb ed="#P" n="83"/>non habendi rem aliquam, propter quam 
+          so<lb break="no" ed="#P" n="84"/>leat ab hominibus honor tribui praeter 
+          virtu<lb break="no" ed="#P" n="85"/>tem, aut ea quae mere naturalia sunt, et cum
+          <lb ed="#P" n="86"/>eadem proportione posset fieri votum non
+          <lb ed="#P" n="87"/>quaerendi famam ectiam bonam et veram per
+          <lb ed="#P" n="88"/>se, et directa intlentione ; quamvis enim non
+          <lb ed="#P" n="89"/>possit homo se infamare, potest tamen licite
+          <lb ed="#P" n="90"/>et sancte se occultare: quod si interdum sua
+          <lb ed="#P" n="91"/>bona occultare non potest, aut non expedit,
+          <lb ed="#P" n="92"/>potest tamen et debet illam suam claritatem,
+          <lb ed="#P" n="93"/>aut famam bonam non persse et directe 
+          inten<lb break="no" ed="#P" n="94"/>dere, sed vel illam permittere aut tolerare,
+          <lb ed="#P" n="95"/>vel ad summum, ad aliquem honestum finem
+          <lb ed="#P" n="96"/>illam admittere ; ergo juxta hanc mensuram
+          <lb ed="#P" n="97"/>potest fama esse materia voti ; ergo qui 
+          per<lb break="no" ed="#P" n="98"/>fectionem profitentur, etiam haec bona famae
+          <lb ed="#P" n="99"/>et honoris sub hac consideratione sub votis
+          <lb ed="#P" n="100"/>suis comprehendunt; et non sub alio, nisi sub
+          <lb ed="#P" n="101"/>voto paupertalis ; ergo.
+        </p>
+        <p xml:id="szovsr-p13869-d1e535">
+          <lb ed="#P" n="102"/>7. Responsio.—hespondeo primo negando
+          <lb ed="#P" n="103"/>consequentiam, quidquid sit de toto 
+          antece<lb break="no" ed="#P" n="104"/>dente, quia, ut infra dicam, necessarium non
+          <lb ed="#P" n="105"/>est ut qui perfectionem profitentur, vota 
+          fa<lb break="no" ed="#P" n="106"/>ciant de omnibus et singulis actionibus suis,
+          <lb ed="#P" n="107"/>aut de moderandis singulis passionibus 
+          spe<lb break="no" ed="#P" n="108"/>ciatim ; nam hoc impediret potius et 
+          la<lb break="no" ed="#P" n="109"/>queum injiceret, quam juvaret ad 
+          perfectio<lb break="no" ed="#P" n="110"/>nem ; et ideo non oportet ut honor et fama,
+          <pb ed="#P" n="559"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quatenus affectus ad illa,virtute moderari 
+          po<lb break="no" ed="#P" n="2"/>test, sub aliquo ex tribus votis quae dicuntur
+          <lb ed="#P" n="3"/>perfectionis, contineantur. Sicut exercitium
+          <lb ed="#P" n="4"/>etiam humilitatis, patientiae, aut aliarum 
+          vir<lb break="no" ed="#P" n="5"/>tutum, non continetur sub his votis, sed 
+          po<lb break="no" ed="#P" n="6"/>tius se habet ut finis illorum votorum, quae
+          <lb ed="#P" n="7"/>ad illum finem consequendum juvent, vel
+          <lb ed="#P" n="8"/>disponant, quod satis est, ut eleganter 
+          expli<lb break="no" ed="#P" n="9"/>cavit D. Thom., 2. 2, q. 186, art.1, ad 1et 2.
+          <lb ed="#P" n="10"/>Unde respondendo ad antecedens, concedo
+          <lb ed="#P" n="11"/>actus ibi explicatos esse sufficientem 
+          mate<lb break="no" ed="#P" n="12"/>riam voti, non quidem paupertatis, sed 
+          humi<lb break="no" ed="#P" n="13"/>litatis, aut contemptus honoris, qui ambitioni
+          <lb ed="#P" n="14"/>aut inani glorie opponitur. Dico autem vota
+          <lb ed="#P" n="15"/>illa, ita generatim facta circa moderationem
+          <lb ed="#P" n="16"/>hujus affectus honoris aut famae, regulariter
+          <lb ed="#P" n="17"/>peosse periculum continere, quia materia illa
+          <lb ed="#P" n="18"/>valde lubrica est, et difficilimum est circa
+          <lb ed="#P" n="19"/>illam vitare omnem culpam, unde si de tota
+          <lb ed="#P" n="20"/>illa in confuso votum fieret, saepius 
+          violare<lb break="no" ed="#P" n="21"/>tur, saltem venialiter, et obscurum esset ac
+          <lb ed="#P" n="22"/>perdiffielle discernere quando lapsus essent
+          <lb ed="#P" n="23"/>mortales, et ideo communiter talia vota non
+          <lb ed="#P" n="24"/>fiunt, neque expedit fieri. Circa determinatos
+          <lb ed="#P" n="25"/>autem actus hujus materiae, quales sunt non
+          <lb ed="#P" n="26"/>procurare dignitates humanas, aut loca, vel
+          <lb ed="#P" n="27"/>titulos honoris, et similia, possunt 
+          conve<lb break="no" ed="#P" n="28"/>nienter Beri talia vota, et in aliquibus 
+          reli<lb break="no" ed="#P" n="29"/>gionibus fiunt, ut de nostra Societate infra
+          <lb ed="#P" n="30"/>dicemus, suntque plane distincta a voto 
+          pau<lb break="no" ed="#P" n="31"/>pertatis. Tota igitur heec materia ahena est
+          <lb ed="#P" n="32"/>ab hoc voto.
+        </p>
+        <p xml:id="szovsr-p13869-d1e631">
+          <lb ed="#P" n="33"/>8. Probatur tandem assertio posita.—
+          he<lb break="no" ed="#P" n="34"/>linquitur ergo, et jam fere probata est altera
+          <lb ed="#P" n="35"/>pars affirmans assertionis positae, scilicet, 
+          ex<lb break="no" ed="#P" n="36"/>terna bona, quae divitiarum nomine 
+          compre<lb break="no" ed="#P" n="37"/>henduntur, esse materiam quasi remotam
+          <lb ed="#P" n="38"/>hujus voti, nam praeter bona hactenus 
+          nume<lb break="no" ed="#P" n="39"/>rata nulla alia supersunt in homine, quibus
+          <lb ed="#P" n="40"/>per paupertatem privari possit; constat 
+          au<lb break="no" ed="#P" n="41"/>tem ex ipsa vocis significatione, et communi
+          <lb ed="#P" n="42"/>sensu paupertatem consistere in carentia 
+          ali<lb break="no" ed="#P" n="43"/>quorum bonorum ; eodemque modo ex 
+          com<lb break="no" ed="#P" n="44"/>muni etiam sensu manifestum est, 
+          pauperta<lb break="no" ed="#P" n="45"/>lem in proprietate sumptam ad divitias 
+          re<lb break="no" ed="#P" n="46"/>ferri, sivut privationem ad habitum. Et ideo
+          <lb ed="#P" n="47"/>Christus Dominus, Luc. 6, illi beatitudini,
+          <lb ed="#P" n="48"/>Beati pauperes, quia vestrum est regmum Dei,
+          <lb ed="#P" n="49"/>opponit illud : Vee vobis divitibus, qui habetis
+          <lb ed="#P" n="50"/>consolationem vesiram ; sic eiiam Jacobus,
+          <lb ed="#P" n="51"/>c. 2, divitem describit, dicens: Sà introierit
+          <lb ed="#P" n="52"/>in conventum cestrum vir aumdum aurewn
+          <lb ed="#P" n="53"/>habens in veste candidu, cui pauperem 
+          oppo<lb break="no" ed="#P" n="54"/>nit, dicens: Introierit autem et pauper in 
+          sor<lb break="no" ed="#P" n="55"/>dido habitu. De quibus infra subdit: Nonne
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Deus clegit pauperes in hoc mundo? etc. Et:
+          <lb ed="#P" n="57"/>Nonne divites opprimunt eos, etc. Haec 
+          deni<lb break="no" ed="#P" n="58"/>que est tam in Latino, quam in vulgari 
+          ser<lb break="no" ed="#P" n="59"/>mone, propria hujus voti significatio.
+        </p>
+        <p xml:id="szovsr-p13869-d1e695">
+          <lb ed="#P" n="60"/>9. Divitiurum nomane quid intelligatur.—
+          <lb ed="#P" n="61"/>Divitiarum autem nomine imprimis veniunt
+          <lb ed="#P" n="62"/>pecuniae, ut per se constat, non tamen illa
+          <lb ed="#P" n="63"/>solae, sed quidquid pecunia aestimari aut 
+          com<lb break="no" ed="#P" n="64"/>parari potest ; nam omne illud in bonis 
+          tem<lb break="no" ed="#P" n="65"/>poralibus et externis continetur, et moraliter
+          <lb ed="#P" n="66"/>pecuniae aequivalet ; imo, late utendo 
+          no<lb break="no" ed="#P" n="67"/>mine pecuniae, de his omnibus dici solet,
+          <lb ed="#P" n="68"/>juxta Augustin., de Disciplina Christiana,
+          <lb ed="#P" n="69"/>c. 6, et habetur in cap. Totum, 1, q. 3: Quid
+          <lb ed="#P" n="70"/>(inquit) amat, unde putat se fieri beatum ? 
+          pe<lb break="no" ed="#P" n="71"/>cunidin, aurum, argentum, possessiones, 
+          bre<lb break="no" ed="#P" n="72"/>viter dico pecuniam. Totum enim quodquod
+          <lb ed="#P" n="73"/>possident homines in terra, omnia quorum 
+          do<lb break="no" ed="#P" n="74"/>mini sunt, pecuniam vocatur, servus sit, vas,
+          <lb ed="#P" n="75"/>ager, arbor, pecus, quidquid horum est, 
+          pe<lb break="no" ed="#P" n="76"/>cunia dicitur; et unde est primo vocata 
+          pecu<lb break="no" ed="#P" n="77"/>nia? ideo pecunia, quia antiqui totum quod
+          <lb ed="#P" n="78"/>habebant, in pecoribus habebant, a pecore 
+          pe<lb break="no" ed="#P" n="79"/>cunia vocatur. In quibus verbis duo notare
+          <lb ed="#P" n="80"/>libet. Primum est, servos cum pecunia 
+          nu<lb break="no" ed="#P" n="81"/>merari et computari, licet supra dictum sit
+          <lb ed="#P" n="82"/>membra humani corporis, et usum eorum,
+          <lb ed="#P" n="83"/>non computari in bonis quae paupertati 
+          op<lb break="no" ed="#P" n="84"/>ponuntur. Hoc enim verum est considerando
+          <lb ed="#P" n="85"/>haec bona respectu ejusdem hominis, cujus
+          <lb ed="#P" n="86"/>sunt partes vel actiones; sic enim sunt bona
+          <lb ed="#P" n="87"/>intrinseca et naturalia, quae ut sic pretio
+          <lb ed="#P" n="88"/>computari ron possunt ; haec vero, ut 
+          trans<lb break="no" ed="#P" n="89"/>lata in dominium alterius, inter possessiones,
+          <lb ed="#P" n="90"/>et dominia extrinseca computantur, 
+          pretio<lb break="no" ed="#P" n="91"/>que aestimari et comparari possunt, 
+          eorum<lb break="no" ed="#P" n="92"/>que dominium non naturale est, sed 
+          acqui<lb break="no" ed="#P" n="93"/>situm. Dices: ergo ex vi voti paupertatis 
+          re<lb break="no" ed="#P" n="94"/>pugnat habere propriam uxorem, quod est
+          <lb ed="#P" n="95"/>contra superius dicta. Sequela probatur, quia
+          <lb ed="#P" n="96"/>illud jus in propriam uxorem est quoddam
+          <lb ed="#P" n="97"/>dominium humanitus acquisitum in illam
+          <lb ed="#P" n="98"/>personam, tanquam in rem aliquo modo
+          <lb ed="#P" n="99"/>propriam. Respondeo negando sequelam,
+          <lb ed="#P" n="100"/>quia uxor, juxta communem et proprium
+          <lb ed="#P" n="101"/>modum loquendi, non computatur inter 
+          ex<lb break="no" ed="#P" n="102"/>terna bona, nec jus illud est pecunia 
+          aestima<lb break="no" ed="#P" n="103"/>bile; ac denique vir et uxor tanquam una
+          <lb ed="#P" n="104"/>caro reputantur, et ideo illud qualecumque
+          <lb ed="#P" n="105"/>dominium potius est quasi intrinsecum, quale
+          <lb ed="#P" n="106"/>est jus utendi proprio corpore.
+        </p>
+        <p xml:id="szovsr-p13869-d1e799">
+          <lb ed="#P" n="107"/>10. Duplex in homine dominium.—Alterum
+          <lb ed="#P" n="108"/>notandum est, distributionem illam August.:
+          <lb ed="#P" n="109"/>Totum quod homanes possident, seu quorum
+          <lb ed="#P" n="110"/>sunt dovrini, intelligendam esse de dominio,
+          <pb ed="#P" n="560"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ut ita dicam, adventitio, seu humano. 
+          Du<lb break="no" ed="#P" n="2"/>plex enim in homine dominium distingui 
+          po<lb break="no" ed="#P" n="3"/>test. Unum est naturale et innatum ; alterum
+          <lb ed="#P" n="4"/>ab hominibus introductum, et per 
+          volunta<lb break="no" ed="#P" n="5"/>tem humanam aliquo modo acquisitum.
+          <lb ed="#P" n="6"/>Prius versatur circa bona interna, sive 
+          cor<lb break="no" ed="#P" n="7"/>poralia, sive spiritualia, et circa famam et
+          <lb ed="#P" n="8"/>honorem ; nam sine ulla hominum divisione
+          <lb ed="#P" n="9"/>vel applicatione unusquisque ex se habet 
+          pro<lb break="no" ed="#P" n="10"/>prium dominium harum rerum ad se 
+          perti<lb break="no" ed="#P" n="11"/>nentium ; dominium vero externarum rerum
+          <lb ed="#P" n="12"/>non est a natura, sed ex hominum divisione
+          <lb ed="#P" n="13"/>ac voluntate, loquendo de proprio dominio;
+          <lb ed="#P" n="14"/>nam de communi usu aliud est, ut infra 
+          attin<lb break="no" ed="#P" n="15"/>gam. De hoc ergo dominio Augustinus 
+          lo<lb break="no" ed="#P" n="16"/>quitur, cum dicit, omnia, quae sub dominium
+          <lb ed="#P" n="17"/>hominum cadunt, appellatione pecuniae
+          <lb ed="#P" n="18"/>comprehendi. Quod etiam docuit 
+          Jurecon<lb break="no" ed="#P" n="19"/>sultus, in l. 222, ff. de Verborum 
+          significa<lb break="no" ed="#P" n="20"/>tione, dicens: Pecunie nomine non solum 
+          nu<lb break="no" ed="#P" n="21"/>merata pecunia, sed omnes res tam soli quam
+          <lb ed="#P" n="22"/>mobiles, tam corpora quam jura contineutur,
+          <lb ed="#P" n="23"/>quia omnes possunt in pecuniam converti,
+          <lb ed="#P" n="24"/>ut recte ibidem glossa notavit. Et eadem 
+          ra<lb break="no" ed="#P" n="25"/>tione his omnibus fit homo dives, ac proinde
+          <lb ed="#P" n="26"/>paupertas omnia illa excludit, et circa 
+          om<lb break="no" ed="#P" n="27"/>nia illa, ut circa propriam materiam versatur.
+          <lb ed="#P" n="28"/>Quod etiam potest optime colligi ex locc
+          <lb ed="#P" n="29"/>Matthaei 19, ubi Christus dans consilium 
+          pau<lb break="no" ed="#P" n="30"/>pertatis dixit : Vade, et vende omnia que 
+          ha<lb break="no" ed="#P" n="31"/>bes ; de adolescente auiem : Abit tristis, erat
+          <lb ed="#P" n="32"/>enumn habens multas possessiones ; omnes ergo
+          <lb ed="#P" n="33"/>ille erant materia paupertatis, et omnes 
+          per<lb break="no" ed="#P" n="34"/>tinent ad divitias, quae difficilem reddunt 
+          adi<lb break="no" ed="#P" n="35"/>tum regni coelorum, ut statim Christus 
+          decla<lb break="no" ed="#P" n="36"/>ravit.
+        </p>
+        <p xml:id="szovsr-p13869-d1e893">
+          <lb ed="#P" n="37"/>11. Dubitatio specialis circa beneficia et
+          <lb ed="#P" n="38"/>officia, honorem et utilitatem afferentia.— Hic
+          <lb ed="#P" n="39"/>vero suboritur dubitatio de quibusdam bonis,
+          <lb ed="#P" n="40"/>quae mediam quamdam rationem, seu 
+          com<lb break="no" ed="#P" n="41"/>positam habere videntur, an 
+          comprehendun<lb break="no" ed="#P" n="42"/>tur sub hac materia paupertatis. Hujusmodi
+          <lb ed="#P" n="43"/>autem est, imprimis Ecclesiasticum 
+          benefi<lb break="no" ed="#P" n="44"/>cium, in quo et est jus spirituale ad actiones
+          <lb ed="#P" n="45"/>et bona spiritualia dispensanda; cujus 
+          pro<lb break="no" ed="#P" n="46"/>prium dominium habet legitimus beneficii
+          <lb ed="#P" n="47"/>possessor; et praeterea est jus ad redditus
+          <lb ed="#P" n="48"/>beneficii. Unde quoad primum est quid 
+          spi<lb break="no" ed="#P" n="49"/>rituale, quoad secundum vero involvit 
+          ma<lb break="no" ed="#P" n="50"/>teriam temporalem. In eodem ordine possunt
+          <lb ed="#P" n="51"/>poni doctoratus ; nam quatenus est 
+          testimo<lb break="no" ed="#P" n="52"/>nium excellentiae, et titulus honoris, pertinet
+          <lb ed="#P" n="53"/>ad superiora bona; quatenus vero habet 
+          ali<lb break="no" ed="#P" n="54"/>quod emolumentum temporale, ad haec 
+          infi<lb break="no" ed="#P" n="55"/>ma spectat. Idemque de quocumque alio mu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>nere honorifico simul et utili dici potest. 
+          Vi<lb break="no" ed="#P" n="57"/>detur ergo paupertas haec omnia necessario
+          <lb ed="#P" n="58"/>excludere, quia quodlibet ex his sufficit 
+          ho<lb break="no" ed="#P" n="59"/>minem divitem reddere, parumque refert
+          <lb ed="#P" n="60"/>quod pecuniae primario aut consequenter 
+          ha<lb break="no" ed="#P" n="61"/>beantur, dummodo habeantur, nam eo ipso
+          <lb ed="#P" n="62"/>paupertas violatur; ergo hoc votum ir ista
+          <lb ed="#P" n="63"/>omnia cadit, tanquam in propriam materiam.
+          <lb ed="#P" n="64"/>In contrarium autem est, quia accessorium
+          <lb ed="#P" n="65"/>sequitur naturam principalis, et ideo redditus
+          <lb ed="#P" n="66"/>beneficii, ut ejus titulo annexi, pecunia 
+          aesti<lb break="no" ed="#P" n="67"/>mabiles non sunt, quia titulus ipse spiritualis
+          <lb ed="#P" n="68"/>est, et pecunia aestimari non potest; ergo,
+          <lb ed="#P" n="69"/>commuíata proportione, cum spiritualia bona
+          <lb ed="#P" n="70"/>per se non sint materia voti paupertatis, 
+          quid<lb break="no" ed="#P" n="71"/>quid illis annexum fuerit, non est in tali 
+          ma<lb break="no" ed="#P" n="72"/>teria computandum; ergo idem dicendum
+          <lb ed="#P" n="73"/>est de omnibus alis juribus, vel titulis 
+          excel<lb break="no" ed="#P" n="74"/>lentioribus quam sit pecunia, etiamsi illam
+          <lb ed="#P" n="75"/>annexam habeant.
+        </p>
+        <p xml:id="szovsr-p13869-d1e982">
+          <lb ed="#P" n="76"/>12. Resolutio sub distinctione. — 
+          Distinc<lb break="no" ed="#P" n="77"/>tione nihilominus utendum censeo. Illa enim
+          <lb ed="#P" n="78"/>duo nunquam sunt ita connexa, quin 
+          inten<lb break="no" ed="#P" n="79"/>tione, imo et executione ipsa discerni possint.
+          <lb ed="#P" n="80"/>Dico ergo haec bona, praecise spectata quoad
+          <lb ed="#P" n="81"/>jura spiritua'ia, vel honorifica, etc., non 
+          com<lb break="no" ed="#P" n="82"/>prehendi sub materia paupertatls; ideo exvi
+          <lb ed="#P" n="83"/>talis voti neminem esse incapacem illorum,
+          <lb ed="#P" n="84"/>nec prohiberi quin illa desiderare, procurare
+          <lb ed="#P" n="85"/>et acceptare debita intentione posset. Dico
+          <lb ed="#P" n="86"/>autem, ex vi talis voti, quia aliunde, verbi
+          <lb ed="#P" n="87"/>gratia, ex voto obedientiae fieri potest, ut
+          <lb ed="#P" n="88"/>religiosus sit incapax talis muneris, vel juris,
+          <lb ed="#P" n="89"/>nisi ex voluntate sui praelati, ut postea 
+          vide<lb break="no" ed="#P" n="90"/>bimus. Dico autem, debita intentione, 
+          praeci<lb break="no" ed="#P" n="91"/>pue ut excludam affectum ad temporales 
+          red<lb break="no" ed="#P" n="92"/>ditus paupertati repugnantem, de quo statim
+          <lb ed="#P" n="93"/>dicam. Atque hoc modo explicata assertio
+          <lb ed="#P" n="94"/>probatur facile ex dictis, quia talia bona vere
+          <lb ed="#P" n="95"/>ac proprie non sunt temporales divitiae, sed
+          <lb ed="#P" n="96"/>ad superiorem ordinem pertinent; ergo non
+          <lb ed="#P" n="97"/>continentur sub materia pauperiatis. Item
+          <lb ed="#P" n="98"/>illa praecise sumpta non faciunt hominem 
+          di<lb break="no" ed="#P" n="99"/>vitem, nec per se sufticiunt ad providendum
+          <lb ed="#P" n="100"/>necessitatibus corporis in victu, vestitu, etc.;
+          <lb ed="#P" n="101"/>ergo cum illis secundum se spectatis stat 
+          per<lb break="no" ed="#P" n="102"/>fecta paupertas; ergo illa non pertinent ad 
+          ma<lb break="no" ed="#P" n="103"/>teriam paupertatis. Denique, quia haec bona
+          <lb ed="#P" n="104"/>pertinent ad ecclesiasticos honores, seu illorum
+          <lb ed="#P" n="105"/>titulos, quibus non renuntiat homo ex vi voti
+          <lb ed="#P" n="106"/>paupertatis, ut ex D. Thom. 2.2, q. 186,art. 7,
+          <lb ed="#P" n="107"/>ad 4, supra notavimus. Quod latius et optime
+          <lb ed="#P" n="108"/>prosequitur idem S. Doctor, Opusc. 19, 
+          Con<lb break="no" ed="#P" n="109"/>tra impugnantes religionem, c. 2, ubi ex 
+          pro<lb break="no" ed="#P" n="110"/>fesso probat religiosum per vota religionis,
+          <pb ed="#P" n="561"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in quibus constat perfectum votum 
+          pauper<lb break="no" ed="#P" n="2"/>tatis includi, non renuntiare omni honori,
+          <lb ed="#P" n="3"/>sed mundano, non vero ecclesiastico, 
+          multo<lb break="no" ed="#P" n="4"/>que minus renuntiare omnibus officiis quibus
+          <lb ed="#P" n="5"/>honor debetur, et specialiter tractat de officio
+          <lb ed="#P" n="6"/>docendi, et de gradu magisterii. Et ad hoc
+          <lb ed="#P" n="7"/>etiam spectat quod idem D. Thomas disit,
+          <lb ed="#P" n="8"/>Quodlib. 3, q. 4, art. 9, non esse, per se 
+          lo<lb break="no" ed="#P" n="9"/>quendo, contra perfectionem petere officium
+          <lb ed="#P" n="10"/>docendi in Theologia; neque ibi distinguit
+          <lb ed="#P" n="11"/>an tale officium habeat temporales redditus
+          <lb ed="#P" n="12"/>annexos, necne; neque id erat necessarium,
+          <lb ed="#P" n="13"/>quia ex hoc capite non mutatur natura talis
+          <lb ed="#P" n="14"/>muneris, et semper potest per se spectari,
+          <lb ed="#P" n="15"/>secluso respectu ad illam utilitatem.
+        </p>
+        <p xml:id="szovsr-p13869-d1e1097">
+          <lb ed="#P" n="16"/>13. Eamdem doctrinam secutus est 
+          Caje<lb break="no" ed="#P" n="17"/>tanus, d. q. centesima octogesima sexta, 
+          arti<lb break="no" ed="#P" n="18"/>culo septimo, circa 4, qui tamen in eo mihi 
+          vi<lb break="no" ed="#P" n="19"/>detur excedere, dum ait reprehensione esse
+          <lb ed="#P" n="20"/>dignos religiosos abdicantes a suis honores
+          <lb ed="#P" n="21"/>magisterii, si sint de religionibus ad 
+          praedi<lb break="no" ed="#P" n="22"/>candum institutis, sicut essent reprebensione
+          <lb ed="#P" n="23"/>digni, si presbyteros nollent habere suos; 
+          fa<lb break="no" ed="#P" n="24"/>temur quidem non esse reprehensione dignos,
+          <lb ed="#P" n="25"/>religiosos hujusmodi gradus et honores 
+          ad<lb break="no" ed="#P" n="26"/>mittentes debito modo, et juxta suum 
+          insti<lb break="no" ed="#P" n="27"/>tutum; hoc enim probat tam ratio div.
+          <lb ed="#P" n="28"/>Thomae, quam ipsiusmet et aliorum 
+          Sanc<lb break="no" ed="#P" n="29"/>torum exemplum, quod Cajetanus adducit.
+          <lb ed="#P" n="30"/>Non tamen censemus esse reprehensione 
+          di<lb break="no" ed="#P" n="31"/>gnos illos religiosos, qui, licet ex instituto
+          <lb ed="#P" n="32"/>habeant docere et praedicare, nihilominus hos
+          <lb ed="#P" n="33"/>gradus a se abdicant; nam hoc etiam alii
+          <lb ed="#P" n="34"/>Sancti fecerunt, ut S. Bonaventura, S. 
+          An<lb break="no" ed="#P" n="35"/>ton. de Padua, et eorum similes, quia 
+          magis<lb break="no" ed="#P" n="36"/>terium licet possit esse utile ad illum finem,
+          <lb ed="#P" n="37"/>non tamen est necessarium, et aliunde potest
+          <lb ed="#P" n="38"/>non parva utilitas spiritualis ex illius 
+          abdica<lb break="no" ed="#P" n="39"/>tione provenire, maxime respectu 
+          communi<lb break="no" ed="#P" n="40"/>tatis. In his ergo rebus, quae ex se malae non
+          <lb ed="#P" n="41"/>sunt, et sub diversis intentionibus possunt
+          <lb ed="#P" n="42"/>honeste et sancte fieri vel omitti, nemo 
+          re<lb break="no" ed="#P" n="43"/>prehendere debet alterius diversam 
+          profes<lb break="no" ed="#P" n="44"/>sionem, sed illud servare, quod Apostolus ait,
+          <lb ed="#P" n="45"/>Rom. 14: Qui non manducat, manducantem
+          <lb ed="#P" n="46"/>non spernat ; et qui manducat, non 
+          manducan<lb break="no" ed="#P" n="47"/>tem non judicet. Ubi autem haec abdicatio fit
+          <lb ed="#P" n="48"/>(quod ad praesens spectat). non fit ex vi 
+          pau<lb break="no" ed="#P" n="49"/>pertatis, sed vel ex voto obedientiae, vel per
+          <lb ed="#P" n="50"/>professionem talis regulae. Denique huic
+          <lb ed="#P" n="51"/>doctrinae consonat Navarr., comment. 2 de
+          <lb ed="#P" n="52"/>Regular., numero secundo, secundo dicto
+          <lb ed="#P" n="53"/>et sequentibus, ubi dist--te declarat sub
+          <lb ed="#P" n="54"/>his muneribus comprehendi dignitatem 
+          Ab<lb break="no" ed="#P" n="55"/>batialem et Episcopalem. ltem jus eligen-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>di, praesentandi, confirmandi, instituendi, et
+          <lb ed="#P" n="57"/>omnem ecclesiasticam jurisdictionem, imo et
+          <lb ed="#P" n="58"/>secularem, et beneficia, cathedras, et 
+          simi<lb break="no" ed="#P" n="59"/>lia; nam haec omnia haberi possunt tam 
+          quo<lb break="no" ed="#P" n="60"/>ad proprietatem quam quoad possessionem
+          <lb ed="#P" n="61"/>facti et juris, ut demonstrat totius Ecclesiae
+          <lb ed="#P" n="62"/>consuetudo.
+        </p>
+        <p xml:id="szovsr-p13869-d1e1204">
+          <lb ed="#P" n="63"/>14. Nihilominus ulterius assero, temporalia
+          <lb ed="#P" n="64"/>bona, quae solent esse annexa his muneribus,
+          <lb ed="#P" n="65"/>sine dubio comprehendi sub voto 
+          pauper<lb break="no" ed="#P" n="66"/>tatis, et materia ejus. Probatur, quia talia
+          <lb ed="#P" n="67"/>bona non mutant naturam suam ex illa 
+          con<lb break="no" ed="#P" n="68"/>nexione, et si possideantur, vel sub dominio
+          <lb ed="#P" n="69"/>habeantur, non minus reddunt hominem 
+          di<lb break="no" ed="#P" n="70"/>vitem, nec minorem sufficientiam et 
+          sollici<lb break="no" ed="#P" n="71"/>tudinem afferunt, quam si essent aliunde 
+          ac<lb break="no" ed="#P" n="72"/>quisita. Unde nihil obstat in praesenti axioma
+          <lb ed="#P" n="73"/>illud, quod accessorium naturam sequitur
+          <lb ed="#P" n="74"/>principalis, quia, licet hoc sit verum 
+          forma<lb break="no" ed="#P" n="75"/>liter (ut sic dicam), loquendo de ipso 
+          acces<lb break="no" ed="#P" n="76"/>sorio, quatenus tale est, et in eo statu durat,
+          <lb ed="#P" n="77"/>et solum ut tale est attingitur per actiones,
+          <lb ed="#P" n="78"/>quae immediate vel per se circa ipsum 
+          princi<lb break="no" ed="#P" n="79"/>pale versantur, quando vero accessorium a
+          <lb ed="#P" n="80"/>principali separatur, et circa illud, ut sic, 
+          pro<lb break="no" ed="#P" n="81"/>pria ac peculiares actiones versantur, tunc 
+          su<lb break="no" ed="#P" n="82"/>am propriam retinet naturam et conditionem.
+          <lb ed="#P" n="83"/>Ita vero est in praesenti, nam, licet 
+          tempc<lb break="no" ed="#P" n="84"/>rales proventus, vel stipendia annexa sint
+          <lb ed="#P" n="85"/>juri seu muneri altiori , nihilominus quando
+          <lb ed="#P" n="86"/>ipsa exiguntur, contrectantur et possidentur,
+          <lb ed="#P" n="87"/>jam amittunt conditionem accessorii, 
+          sunt<lb break="no" ed="#P" n="88"/>que principalis materia talium actionum, et
+          <lb ed="#P" n="89"/>ideo necesse est ut qui votum habet 
+          pauper<lb break="no" ed="#P" n="90"/>tatis, illius obligationem ac mensuram in 
+          ta<lb break="no" ed="#P" n="91"/>libus actionibus, et circa talem materiam
+          <lb ed="#P" n="92"/>servet. Atque in re hoc ipsum sentit 
+          Navar<lb break="no" ed="#P" n="93"/>rus, comment. 2 de Regul., n. 2, S Ex his
+          <lb ed="#P" n="94"/>infertur, 1, cum sequentibus, ubi per varia
+          <lb ed="#P" n="95"/>exempla in particulari hoc explicat, quae 
+          ma<lb break="no" ed="#P" n="96"/>gis pertinent ad votum solemne paupertatis,
+          <lb ed="#P" n="97"/>et ideo inferius a nobis suo loco 
+          tracta<lb break="no" ed="#P" n="98"/>buntur.
+        </p>
+        <p xml:id="szovsr-p13869-d1e1286">
+          <lb ed="#P" n="99"/>15. Dubium de jure percipiendi alimenta.—
+          <lb ed="#P" n="100"/>solum potest alicui dubitationem facere,
+          <lb ed="#P" n="101"/>quod ibi, in objectione quarta, inter alia
+          <lb ed="#P" n="102"/>multa quae pauper potest habere quoad
+          <lb ed="#P" n="103"/>proprietatem et possessionem facti et juris,
+          <lb ed="#P" n="104"/>unum est jus suscipiendi alimenta em illo 
+          mo<lb break="no" ed="#P" n="105"/>nasterio, quod postea ut verum admittit ; et
+          <lb ed="#P" n="106"/>tamen id videtur difficile, quia hoc jus 
+          imme<lb break="no" ed="#P" n="107"/>diate et principaliter versatur circa 
+          tempo<lb break="no" ed="#P" n="108"/>ralia bona, unde videtur esse temporale quid,
+          <lb ed="#P" n="109"/>et pretio aestimabile, sicut ipsamet bona;
+          <lb ed="#P" n="110"/>ergo est propria materia paupertatis. Quod
+          <pb ed="#P" n="562"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quidem verum est de proprio ac temporali
+          <lb ed="#P" n="2"/>jure ad justitiam pertinente, quod temporali
+          <lb ed="#P" n="3"/>deminio aequivalet, et pecunia quaedam est,
+          <lb ed="#P" n="4"/>quia, quantum est in se, vendi potest. Illud
+          <lb ed="#P" n="5"/>ergo intelligendum est de jure aliquo 
+          spiri<lb break="no" ed="#P" n="6"/>tuali, quale est jus decimarum, vel jus 
+          com<lb break="no" ed="#P" n="7"/>mendae, vel aliud simile ; hoc enim per se
+          <lb ed="#P" n="8"/>non est materia paupertatis, ut dixi, quamvis
+          <lb ed="#P" n="9"/>pecunia ipsa, vel quidquid illi aequivalet,
+          <lb ed="#P" n="10"/>quod virtute talis juris exigi potest, statim
+          <lb ed="#P" n="11"/>subjecta sit voto et legibus paupertatis. .
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

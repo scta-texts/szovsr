@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="113"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p28059"><!-- t7l2prae -->
+        <head xml:id="szovsr-p28059-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-p28059-d1e103">
+          <pb ed="#P" n="113"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER SECUNDUS
+          <lb ed="#P" n="2"/>DE
+          <lb ed="#P" n="3"/>RELIGIOSI STATUS ESSENTIA, ORIGINE,
+          <lb ed="#P" n="4"/>ET VOTIS QUIBUS CONSTITUITUR, AC DE ALIIS QUE AD ILLUM SPECTANT.
+        </p>
+        <p xml:id="szovsr-p28059-d1e119">
+          <lb ed="#P" n="5"/>Diximus de statu perfectionis, illumque in
+          <lb ed="#P" n="6"/>statum perfectionis exercendae vel acquirendae
+          <lb ed="#P" n="7"/>distinximus ; et de statu perfectionis 
+          exercen<lb break="no" ed="#P" n="8"/>dae, quae huic operi opportuna visa sunt, 
+          suf<lb break="no" ed="#P" n="9"/>ficienter explicavimus. Superest igitur ut de
+          <lb ed="#P" n="10"/>altero membro ex professo et copiosius 
+          dispu<lb break="no" ed="#P" n="11"/>temus. Nam, ut in principio dixi, in hoc opere
+          <lb ed="#P" n="12"/>de statu religioso proprio et perfecto, 
+          praeci<lb break="no" ed="#P" n="13"/>pue dicere intendimus. Est autem religiosus
+          <lb ed="#P" n="14"/>status idem cum statu perfectionis acquirendae,
+          <lb ed="#P" n="15"/>ut mox explicabimus. Hujus ergo status, quem
+          <lb ed="#P" n="16"/>in Ecclesia esse tanquam notum supponimus,
+          <lb ed="#P" n="17"/>essentiam et originem in hoc libro explicare
+          <lb ed="#P" n="18"/>intendimus. Quia vero in usu vocis hujus potest
+          <lb ed="#P" n="19"/>esse quaedam analogia, et in re ipsa invenitur
+          <lb ed="#P" n="20"/>varietas ; nam quidam est status religionis
+          <lb ed="#P" n="21"/>proprius, corapletus atque perfectus; alii vero
+          <lb ed="#P" n="22"/>esse possunt imperfecti, et secundum 
+          quam<lb break="no" ed="#P" n="23"/>dam participationem ; ideo in discursu hujus
+          <lb ed="#P" n="24"/>libri utrumque modum status perfectionis 
+          ac<lb break="no" ed="#P" n="25"/>quirendae distinguemus et explicabimus. Et
+          <lb ed="#P" n="26"/>quia talis status per votum aliquod Deo 
+          emis<lb break="no" ed="#P" n="27"/>sum constituitur, ideo simul in hoc libro, de
+          <lb ed="#P" n="28"/>votis, quibus status religiosus integre, vel 
+          im<lb break="no" ed="#P" n="29"/>perfecte constituitur, dicendum erit 
+          genera<lb break="no" ed="#P" n="30"/>tim ; nam in particulari de singulis postea
+          <lb ed="#P" n="31"/>dicturi sumus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

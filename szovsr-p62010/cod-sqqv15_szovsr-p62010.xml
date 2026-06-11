@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-06-10">June 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv15">Paris 1859, v. 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="249"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-p62010"><!-- t7l4c2 -->
+        <head xml:id="szovsr-p62010-Hd1e101">Caput 2</head>
+        <head xml:id="szovsr-p62010-Hd1e103" type="question-title">Quomodo votum hoc obliget ad religionis ingressum.</head>
+        <p xml:id="szovsr-p62010-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>CAPUT II.
+          <lb ed="#P" n="57"/>QUOMODO VOTUM HOC OBLIGET AD RELIGIONIS 
+          IN<lb break="no" ed="#P" n="58"/>GRESSUM.
+        </p>
+        <p xml:id="szovsr-p62010-d1e117">
+          <lb ed="#P" n="59"/>1. Conclusio : votum hoc obligat ad 
+          procu<lb break="no" ed="#P" n="60"/>randum religionis ingressum, et antequam 
+          ho<lb break="no" ed="#P" n="61"/>ino recipiatur, nullam aliam inducit 
+          obligatio<lb break="no" ed="#P" n="62"/>nem. — hatio dubitandi est, quia nemo 
+          obli<lb break="no" ed="#P" n="63"/>gatur ad id quod non est in sua potestate;
+          <lb ed="#P" n="64"/>sed ingredi religionem non est in potestate
+          <lb ed="#P" n="65"/>hominis, pendet enim a voluntate eorum a
+          <lb ed="#P" n="66"/>quibus admitti debet; ergo. Dicendum 
+          impri<lb break="no" ed="#P" n="67"/>mis est obligare hoc votum ad procurandum
+          <lb ed="#P" n="68"/>religionis habitum seu ingressum , et 
+          ante<lb break="no" ed="#P" n="69"/>quam homo recipiatur, nullam aliam 
+          indu<lb break="no" ed="#P" n="70"/>cere obligationem. Prior pars manifesta est,
+          <lb ed="#P" n="71"/>quia hoc votum inducit obligationem ad id
+          <lb ed="#P" n="72"/>quod per illud promittitur, ut supcriori capite
+          <lb ed="#P" n="73"/>ostensum est; promittitur autem assumptio
+          <lb ed="#P" n="74"/>religicsi status, quae a petitione ejus, qui 
+          fu<lb break="no" ed="#P" n="75"/>turus est religiosus, inchoanda est; ergo ad
+          <lb ed="#P" n="76"/>hanc primo ac per se obligat hoc votum. 
+          Con<lb break="no" ed="#P" n="77"/>firmatur ex secunda ratione dubitandi 
+          propo<lb break="no" ed="#P" n="78"/>sita; nam hoc votum obligat saltem ad id
+          <lb ed="#P" n="79"/>quod fieri potest ex parte voventis, ut talem
+          <lb ed="#P" n="80"/>statum assumat ; sed petere et procurare 
+          il<lb break="no" ed="#P" n="81"/>lum, maxime est in potestate ejus; ergo ad
+          <lb ed="#P" n="82"/>hoc obhgat.
+        </p>
+        <p xml:id="szovsr-p62010-d1e172">
+          <lb ed="#P" n="83"/>2. Probatur secunda pars. — Addidi vero
+          <lb ed="#P" n="84"/>secundam partem assertionis propter 
+          quos<lb break="no" ed="#P" n="85"/>dam asserentes, qui religionem vovet, eo ipso
+          <lb ed="#P" n="86"/>obligari ad eastitatem servandam , quia 
+          reli<lb break="no" ed="#P" n="87"/>gio castitatem includit, et ideo qui religionem
+          <lb ed="#P" n="88"/>vovit, castitatem vovere censetur. Imo addunt
+          <lb ed="#P" n="89"/>aliqui etiam obligari ad alia onera religionis,
+          <lb ed="#P" n="90"/>si cum mora culpabili per illum stet, 
+          quomi<lb break="no" ed="#P" n="91"/>nus religionem ingrediatur. Sed utrumque
+          <lb ed="#P" n="92"/>faisum est; nam, licet professio ipsa 
+          religio<lb break="no" ed="#P" n="93"/>nis includat castitatis votum, tamen qui 
+          so<lb break="no" ed="#P" n="94"/>lum vovit religionem ingredi aut profiteri,
+          <lb ed="#P" n="95"/>nondum castitatem vovit, neque ad hoc se 
+          in<lb break="no" ed="#P" n="96"/>tendit obligare in seculo manens ; et ideo, licet
+          <lb ed="#P" n="97"/>ante ingressum conira castitatem peccet, 
+          sacri<lb break="no" ed="#P" n="98"/>legium contra votum non committit, quae est
+          <lb ed="#P" n="99"/>communis sententia, ut statim referemus. Et
+          <lb ed="#P" n="100"/>eadem ratione a fortiori non obligatur ad
+          <lb ed="#P" n="101"/>paupertatem, neque ad alia onera religionis,
+          <lb ed="#P" n="102"/>quamdiu in seculo manet, sive licite in eo
+          <lb ed="#P" n="103"/>statu duret propter legitimam excusaticnem,
+          <lb ed="#P" n="104"/>vel dilationem, quod certissimum est; sive
+          <lb ed="#P" n="105"/>etiam illicite, et transgrediendo votum, 
+          pro<lb break="no" ed="#P" n="106"/>pter rationem factam, quia ille non vovit 
+          pau<lb break="no" ed="#P" n="107"/>pertatem , vel alia onera, sed statum cui illa
+          <pb ed="#P" n="250"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>annexa sunt postquam assumitur, non vero
+          <lb ed="#P" n="2"/>antea. Circa hanc vero pariem, per quam 
+          ex<lb break="no" ed="#P" n="3"/>cludimus omnem aliam obligationem, 
+          obser<lb break="no" ed="#P" n="4"/>vare possumus regulam illam, quod exclusiva
+          <lb ed="#P" n="5"/>non excludit comitantia ; nam hic etiam non
+          <lb ed="#P" n="6"/>excludimus quin hoc votum obliget ad 
+          caven<lb break="no" ed="#P" n="7"/>da impedimenta religiosi status, quale 
+          maxi<lb break="no" ed="#P" n="8"/>me est status matrimonii, de quo infra plura
+          <lb ed="#P" n="9"/>dicemus.
+        </p>
+        <p xml:id="szovsr-p62010-d1e254">
+          <lb ed="#P" n="10"/>3. Vovens religionem, tenetur ingredi, si 
+          ad<lb break="no" ed="#P" n="11"/>mittatur. — Atque ex hac assertione sequitur,
+          <lb ed="#P" n="12"/>eum, qui hujusmodi votum habet, tenueri ad
+          <lb ed="#P" n="13"/>suscipiendum religiosum habitum, seu 
+          ingre<lb break="no" ed="#P" n="14"/>diendum religionem, si ab ipsa admitti valeat.
+          <lb ed="#P" n="15"/>Patet, quia propter hanc causam obligatur ad
+          <lb ed="#P" n="16"/>petendam religionem, et quia ad 
+          ingredien<lb break="no" ed="#P" n="17"/>dum cum effectu se obligavit, quantum in
+          <lb ed="#P" n="18"/>ipso est. Et ob contrariam rationem, si non
+          <lb ed="#P" n="19"/>admittatur , viietur manere liber ab 
+          obli<lb break="no" ed="#P" n="20"/>gatione voti, si supponamus fecisse 
+          suffi<lb break="no" ed="#P" n="21"/>cientem diligentiam ut admitteretur, et 
+          ni<lb break="no" ed="#P" n="22"/>hilominus repulsam pas-us est; tunc enim
+          <lb ed="#P" n="23"/>jam fecit quod in ipso erat. Qnod autem 
+          pen<lb break="no" ed="#P" n="24"/>det ex alterius voluntate, quatenus taie est,
+          <lb ed="#P" n="25"/>non cadit sub obligationem voti, et hoc 
+          sen<lb break="no" ed="#P" n="26"/>sit D. Thomas, q. 88, art. 3. ad 2, ubi recte
+          <lb ed="#P" n="27"/>ait, in eo casu reddi impossibilem homini 
+          in<lb break="no" ed="#P" n="28"/>gressum religionis, et ideo cessare talis voti
+          <lb ed="#P" n="29"/>obligationem, quod etiam sensit q. 189, art. 3,
+          <lb ed="#P" n="30"/>ad 2.
+        </p>
+        <p xml:id="szovsr-p62010-d1e302">
+          <lb ed="#P" n="31"/>4. Dubium resolvitur. — Difficultas vero
+          <lb ed="#P" n="32"/>superest, quando censeatur aliquis sufficienter
+          <lb ed="#P" n="33"/>fecisse quod in ipso est, ut propter repnlsam
+          <lb ed="#P" n="34"/>liber maneat ab obligatione voti. Ad quod
+          <lb ed="#P" n="35"/>explicandum advertendum est ex D. Thoma
+          <lb ed="#P" n="36"/>supra, tripliciter posse fieri hoc votum: 
+          pri<lb break="no" ed="#P" n="37"/>mo, de religione in genere ; secundo, de tali
+          <lb ed="#P" n="38"/>religione in specie, vel substantia, ut est, 
+          ver<lb break="no" ed="#P" n="39"/>bi gratia, religio Mendicantium, vel in specie
+          <lb ed="#P" n="40"/>atoma, ut est religio Praedicatorum; tertio, de
+          <lb ed="#P" n="41"/>tali religione seu monasterio in individuo, ita
+          <lb ed="#P" n="42"/>ut principalis intentio voventis feratur in
+          <lb ed="#P" n="43"/>hunc locum propter specialem devotionem,
+          <lb ed="#P" n="44"/>vel cbservantiam ejus, aut aliam similem
+          <lb ed="#P" n="45"/>cansam. Quando ergo religionis votum factum
+          <lb ed="#P" n="46"/>est hoc tertio modo, sufhiciens diligentia est
+          <lb ed="#P" n="47"/>petere habitum in illo loco; quod si non 
+          ad<lb break="no" ed="#P" n="48"/>mittatur, non tenetur vovens alibi petere, 
+          ne<lb break="no" ed="#P" n="49"/>que alibi ingredi, etiamsi invitetur vel 
+          roge<lb break="no" ed="#P" n="50"/>tur : ita D. Thomas, loc. citat., et ibi Cajet.,
+          <lb ed="#P" n="51"/>Sot., et alii Doctores, in 4, d. 38; hRichar.,
+          <lb ed="#P" n="52"/>art. 5, q. 1; Supplem. Gabrielis, q. 1, art. 3;
+          <lb ed="#P" n="53"/>Palac., disput. 1, concl. 4, Palud., d. 27,
+          <lb ed="#P" n="54"/>q. 3, art. 1, c. 3; Angel., Votum, 3, a num.
+          <lb ed="#P" n="55"/>10; Sylvest., verb. Votum, 2, q. 11, et commu-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>niter Summistae. Ratio vero est, quia 
+          obliga<lb break="no" ed="#P" n="57"/>tio non excedit intentionem promittentis, nec
+          <lb ed="#P" n="58"/>materiam promissionis ; sed hic vovens solum
+          <lb ed="#P" n="59"/>intendit se obligare ad hunc locum, et illum
+          <lb ed="#P" n="60"/>sumit ut materiam adaequatam snae 
+          promissio<lb break="no" ed="#P" n="61"/>nis; ergo si illa sit impossibilis propter 
+          re<lb break="no" ed="#P" n="62"/>pulsam, liber manet.
+        </p>
+        <p xml:id="szovsr-p62010-d1e376">
+          <lb ed="#P" n="63"/>5. Instantia facta solvitur.— Dices: 
+          quam<lb break="no" ed="#P" n="64"/>vis materia voti facta sit impossibilis, ita ut
+          <lb ed="#P" n="65"/>tota impleri non possit, si saltem ex parte 
+          im<lb break="no" ed="#P" n="66"/>pleri possit, quoad illam votum obligat ; sed
+          <lb ed="#P" n="67"/>in praesenti votum ingrediendi hoc 
+          monas<lb break="no" ed="#P" n="68"/>terium includit promissionem religionis, et
+          <lb ed="#P" n="69"/>licet per repulsam ingressus in hoe 
+          monaste<lb break="no" ed="#P" n="70"/>rium redditus sit impossibilis , adhuc manet
+          <lb ed="#P" n="71"/>possibilis illa materia quoad ingressum 
+          reli<lb break="no" ed="#P" n="72"/>gionis, ut sic; ergo ad hoc obligabit tale 
+          vo<lb break="no" ed="#P" n="73"/>tum. Maxime, quia in illa materia hoc est
+          <lb ed="#P" n="74"/>praecipuum, et quasi per se, nam 
+          determina<lb break="no" ed="#P" n="75"/>tio ad particularem locum videtur esse valde
+          <lb ed="#P" n="76"/>materialis, et per accidens. Respondetur 
+          nihi<lb break="no" ed="#P" n="77"/>lominus mensuram hujus obligationis non
+          <lb ed="#P" n="78"/>esse sumendam ex ipsa rei natura, sed ex 
+          in<lb break="no" ed="#P" n="79"/>tentione voventis ; et ideo licet religio ut sic,
+          <lb ed="#P" n="80"/>quatenus plura virtute complectitur, 
+          principa<lb break="no" ed="#P" n="81"/>hor videatur, liberum nihilominus est voventi
+          <lb ed="#P" n="82"/>non illam sic intendere, sed quatenus 
+          con<lb break="no" ed="#P" n="83"/>trarta est ad hanc speciem, et ad hoc 
+          indivi<lb break="no" ed="#P" n="84"/>duum , et ideo extra illud ad nihil obligatur;
+          <lb ed="#P" n="85"/>nam status religonis, ut possibilis alibi, non
+          <lb ed="#P" n="86"/>est pars materiae hujus voti in particulari,
+          <lb ed="#P" n="87"/>et ideo nihil eorum, quae sub tale votum 
+          ca<lb break="no" ed="#P" n="88"/>dunt, relinquitur possibile.
+        </p>
+        <p xml:id="szovsr-p62010-d1e435">
+          <lb ed="#P" n="89"/>6. Notandum circa traditam conclusionem.
+          <lb ed="#P" n="90"/>—Sed attente observare oportet sermonem
+          <lb ed="#P" n="91"/>esse, quando primaria ac praecisa intentio 
+          vo<lb break="no" ed="#P" n="92"/>ventis fiit de ingressu in hoc monasterio ; nam
+          <lb ed="#P" n="93"/>si fuisset de ipsa religione in communi, licet
+          <lb ed="#P" n="94"/>postea ex peculiari devotione animum ad hoc
+          <lb ed="#P" n="95"/>monasterium applicuisset, non esset in hoc 
+          re<lb break="no" ed="#P" n="96"/>gula servanda, sed qua in sequenti puncto
+          <lb ed="#P" n="97"/>tradetur, ut omnes auctores citati advertunt;
+          <lb ed="#P" n="98"/>quia voluntaria applicatio postea subsecuta
+          <lb ed="#P" n="99"/>non coarctat generalem obligationem voti
+          <lb ed="#P" n="100"/>prius contractam. Quid vero sit agendum,
+          <lb ed="#P" n="101"/>quando dubium est quae fuerit principalis 
+          in<lb break="no" ed="#P" n="102"/>tentio voventis, definuiendum ex doctrina 
+          su<lb break="no" ed="#P" n="103"/>pra data de voto dubio. Nam, licet Sylvest.,
+          <lb ed="#P" n="104"/>Angel. et alii dicant inclinandum esse in
+          <lb ed="#P" n="105"/>partem rigorosiorem, quam ipsi tutiorem 
+          vo<lb break="no" ed="#P" n="106"/>cant, ego nihilominus existimo magis esse 
+          in<lb break="no" ed="#P" n="107"/>terpretandum dubium in favorem voventis,
+          <lb ed="#P" n="108"/>qui possidet suam libertatem, et quatenus est
+          <lb ed="#P" n="109"/>certus se vovisse aliquam religionem, jam 
+          im<lb break="no" ed="#P" n="110"/>plet votum petendo in hac; quatenus vero du-
+          <pb ed="#P" n="251"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bitat an principaliter voverit religionem in
+          <lb ed="#P" n="2"/>cenere aut specie, vel potius in tali 
+          particu<lb break="no" ed="#P" n="3"/>lari loco, non est certus de aliquo majori 
+          vin<lb break="no" ed="#P" n="4"/>culo aut debito, quam sit circa talem locum,
+          <lb ed="#P" n="5"/>et ideo amplius obligandus non est.
+        </p>
+        <p xml:id="szovsr-p62010-d1e500">
+          <lb ed="#P" n="6"/>7. Dulitatur an vovens teneatur sepius 
+          pe<lb break="no" ed="#P" n="7"/>tere, et an post prinam repulsam, si invitetur,
+          <lb ed="#P" n="8"/>teneatur ingredi religionem. — Ad neutrum
+          <lb ed="#P" n="9"/>tenetur regulariter loguendo, nisi aliud constet
+          <lb ed="#P" n="10"/>de sua intentione. — Sed quaeret aliquis an
+          <lb ed="#P" n="11"/>sufficiat semel petere religionem in tali loco,
+          <lb ed="#P" n="12"/>vel teneatur quis iterum ac saepius hoc 
+          procu<lb break="no" ed="#P" n="13"/>rare; praesertim, si, mutatis circumstantiis,
+          <lb ed="#P" n="14"/>vel praelatorum, vel aliarum personarum, aut
+          <lb ed="#P" n="15"/>occasionum seu impedimmentorum, concipiatur
+          <lb ed="#P" n="16"/>nova spes obtinendi religionem. Item quaeri
+          <lb ed="#P" n="17"/>potest an teneatur quis acceptare religionem,
+          <lb ed="#P" n="18"/>si post primam repulsam, ipso etiam non 
+          pe<lb break="no" ed="#P" n="19"/>tente, ab ipso monasterio vocetur et invitetur
+          <lb ed="#P" n="20"/>ad habitum religionis. Respondeo, in his et
+          <lb ed="#P" n="21"/>similibus interrogationibus non posse certam
+          <lb ed="#P" n="22"/>et generalem regulam tradi, nam pendet ex
+          <lb ed="#P" n="23"/>intentione voventis. et ultra illam ad 
+          execu<lb break="no" ed="#P" n="24"/>tionem ejus moraliter necessarium est 
+          pru<lb break="no" ed="#P" n="25"/>dentis viri arbitrium. lItaque, regnlariter 
+          lo<lb break="no" ed="#P" n="26"/>quendo, qui hoc votum emittit, solum 
+          inten<lb break="no" ed="#P" n="27"/>dit se obligare al procurandum seme: 
+          ingres<lb break="no" ed="#P" n="28"/>sum talis monasterii, ea diligentia et 
+          sollici<lb break="no" ed="#P" n="29"/>tudine, quae ad negotium grave peragendum
+          <lb ed="#P" n="30"/>juxta prudens arbitrium sit sufficiens; non
+          <lb ed="#P" n="31"/>intendit autem se obligare ad importunas 
+          pre<lb break="no" ed="#P" n="32"/>ces, et consequenter neque ad multiplicandas
+          <lb ed="#P" n="33"/>petitiones ; et quia non est major ratio de
+          <lb ed="#P" n="34"/>uno numero quam de alio, ideo si semel fecit
+          <lb ed="#P" n="35"/>sufficientem diligeutiam, non tenetur amplius
+          <lb ed="#P" n="36"/>receptionem postulare. Mexime si, cum 
+          pri<lb break="no" ed="#P" n="37"/>rum petiit religionem, manfestavit 
+          obliga<lb break="no" ed="#P" n="38"/>tionem suam, et nihilominus admissus non
+          <lb ed="#P" n="39"/>est, sed liber relictus. Quod advertit 
+          Cajeta<lb break="no" ed="#P" n="40"/>nus, d. q. 88, ari. 3, in quodam brevi dub.
+          <lb ed="#P" n="41"/>2. circa ad 2, addens necessarium esse ut 
+          re<lb break="no" ed="#P" n="42"/>pulsa sit totalis, quia si non repellitur 
+          simpli<lb break="no" ed="#P" n="43"/>citer, sed pro tunc, expectare tenetur. Et hoc
+          <lb ed="#P" n="44"/>secundum censeo verum, dummodo dilatio
+          <lb ed="#P" n="45"/>non sit nimia, et ita molesta, ut prudenti 
+          ar<lb break="no" ed="#P" n="46"/>bitrio judicari possit voventem non se 
+          obli<lb break="no" ed="#P" n="47"/>gasse ad expectandum cum tanto onere. Iliud
+          <lb ed="#P" n="48"/>vero prius de marifestatione voti est quidem
+          <lb ed="#P" n="49"/>securius consilium, non videtur tamen 
+          abso<lb break="no" ed="#P" n="50"/>lute necessarium, quia nullo jure ad hoc 
+          obii<lb break="no" ed="#P" n="51"/>gatur ; neque illud est necessarium, vel ut
+          <lb ed="#P" n="52"/>voti obhigatio cesset, cum non auferatur per
+          <lb ed="#P" n="53"/>dispensationem, sed per defectum materiae ;
+          <lb ed="#P" n="54"/>vel ut diligentia in procuranda religione 
+          cen<lb break="no" ed="#P" n="55"/>seatur sufficiens, quia obligatio petentis non
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>est conditio necessaria, imo nvuc per se 
+          mo<lb break="no" ed="#P" n="57"/>vens, ut quis recipiatur in religione; quod si
+          <lb ed="#P" n="58"/>aliquando movere possit, accidentarium est,
+          <lb ed="#P" n="59"/>et ideo non obligatur is qui petit ad 
+          manifes<lb break="no" ed="#P" n="60"/>tandum suum votum. Tandem non videtur
+          <lb ed="#P" n="61"/>esse intentio voventis semper manere 
+          suspen<lb break="no" ed="#P" n="62"/>sum, et quasi pendere a voluntate 
+          religioso<lb break="no" ed="#P" n="63"/>rum; et ideo si post sufficientem 
+          postulatio<lb break="no" ed="#P" n="64"/>nem semel ac definite ei denegata est religio,
+          <lb ed="#P" n="65"/>votum omnino cessare et extingui videtur,
+          <lb ed="#P" n="66"/>ita ut ex vi illius cogi non possit ad eam 
+          ac<lb break="no" ed="#P" n="67"/>ceptandam, etiamsi inv taretur. Haec autem
+          <lb ed="#P" n="68"/>semper habent illam conditionem 
+          subintellec<lb break="no" ed="#P" n="69"/>tam, nisi constet aliam fuisse intentionem 
+          vo<lb break="no" ed="#P" n="70"/>ventis, nam illi semper standum est; hic 
+          au<lb break="no" ed="#P" n="71"/>tem solum tradimus ea quae regulariter 
+          aeci<lb break="no" ed="#P" n="72"/>dunt, et quae ex communi forma vovendi 
+          in<lb break="no" ed="#P" n="73"/>telligenda sunt, quamdiu de alia intentione
+          <lb ed="#P" n="74"/>voventis non constiterit.
+        </p>
+        <p xml:id="szovsr-p62010-d1e654">
+          <lb ed="#P" n="75"/>8. Secunda assertio : vovens religionem in
+          <lb ed="#P" n="76"/>specie, tenetur in multis locis id procurare. — -
+          <lb ed="#P" n="77"/>Circa secandum modum vovendi religionem
+          <lb ed="#P" n="78"/>in specie, praeter superius dicta, quae 
+          propor<lb break="no" ed="#P" n="79"/>tione servata applicari possunt, addendum est
+          <lb ed="#P" n="80"/>non satisfacere hominem voventein suae 
+          obli<lb break="no" ed="#P" n="81"/>gationi, petendo in uno vel alio loco, sed 
+          te<lb break="no" ed="#P" n="82"/>neri in muitis id procurare, si forte 
+          recipia<lb break="no" ed="#P" n="83"/>tur ; ita docet Thomas, quem alii sequuntur.
+          <lb ed="#P" n="84"/>Ratio est, quia illud votum, ex forma et modo
+          <lb ed="#P" n="85"/>quo fi , ob'igat universalius. quia generalius
+          <lb ed="#P" n="86"/>seu magis indefinitum habet objectum; ergo
+          <lb ed="#P" n="87"/>respectu illius non est sufficiens diligentia,
+          <lb ed="#P" n="88"/>quae fit per particularem petitionem in uno
+          <lb ed="#P" n="89"/>vel alio loco, sed oportet eam facere in 
+          pluri<lb break="no" ed="#P" n="90"/>bus. Patet consequentia, quia per solam unam
+          <lb ed="#P" n="91"/>vel alteram particularem repulsam non fit
+          <lb ed="#P" n="92"/>moraliter impossibilis materia talis voti, 
+          pro<lb break="no" ed="#P" n="93"/>ut cecidit sub intentionem voventis votum
+          <lb ed="#P" n="94"/>autem obligat, quamiu illud implere non est
+          <lb ed="#P" n="95"/>moraliter impossibile. Confirmatur ac 
+          declara<lb break="no" ed="#P" n="96"/>tur, nam si quis voveat aliquid facere sub hac
+          <lb ed="#P" n="97"/>conditione disjunctiva, Si Petrus, vel Paulus,
+          <lb ed="#P" n="98"/>vel Joannes, etc., mecum consenserint, non
+          <lb ed="#P" n="99"/>satisfaciet unius tantum vel alterius 
+          consen<lb break="no" ed="#P" n="100"/>sum requirendo, sed teneretur omnes 
+          consu<lb break="no" ed="#P" n="101"/>lere, quia alias non posset esse certus an 
+          con<lb break="no" ed="#P" n="102"/>ditio impleretur necne; sed qui vovet 
+          abso<lb break="no" ed="#P" n="103"/>lute aliquam religionem in specie, virtute 
+          in<lb break="no" ed="#P" n="104"/>volvit conditionem, si in aliquo illius 
+          monas<lb break="no" ed="#P" n="105"/>terio recipiatur, quae aequivalet huic 
+          disjunc<lb break="no" ed="#P" n="106"/>tivae, si in hoc, vel illo, aut illo loco 
+          re<lb break="no" ed="#P" n="107"/>cipiatur; ergo si in uno vel alio non 
+          ad<lb break="no" ed="#P" n="108"/>mittatur, tenetur in aliis postulare, alioquin
+          <lb ed="#P" n="109"/>non censebitur sufficientem diligentiam fe
+          <lb ed="#P" n="110"/>cisse.
+        </p>
+        <p xml:id="szovsr-p62010-d1e736">
+          <pb ed="#P" n="252"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>9. An talis teneatur discurrere per omnia
+          <lb ed="#P" n="2"/>monasteria. — BEt resolvitur teneri, sed cum
+          <lb ed="#P" n="3"/>quibusdam limitationibus. — Prima limitatio.
+          <lb ed="#P" n="4"/>— Dices : ergo qui habet hujusmodi votum,
+          <lb ed="#P" n="5"/>tenetur discurrere per omnia monasteria talis
+          <lb ed="#P" n="6"/>religionis, donec vel in aliquo recipiatur, vel
+          <lb ed="#P" n="7"/>ab omnibus repellatur, alioquin non satisfacit
+          <lb ed="#P" n="8"/>obligationi suae. Consequens autem videtur
+          <lb ed="#P" n="9"/>durissimum, et praeter communem usum, quia
+          <lb ed="#P" n="10"/>est res difficillima, et moraliter impossibilis,
+          <lb ed="#P" n="11"/>atque adeo praeter cogitationem voventium.
+          <lb ed="#P" n="12"/>hespondeo nihilominus concedi posse 
+          seque<lb break="no" ed="#P" n="13"/>lam adhibitis limitationibus, quae 
+          admiratio<lb break="no" ed="#P" n="14"/>nem et difficultatem auferent ; nam si 
+          forma<lb break="no" ed="#P" n="15"/>liter sistamus in casu de quo loquimur, 
+          ratio<lb break="no" ed="#P" n="16"/>nes factae revera aeque procedent de omnibus
+          <lb ed="#P" n="17"/>locis talis religionis, et ideo sufficienter 
+          pro<lb break="no" ed="#P" n="18"/>bant sequelam. Prima vero limitatio est, nisi
+          <lb ed="#P" n="19"/>ex intentione voventis coarctetur aliquo modo
+          <lb ed="#P" n="20"/>amplitudo talis voti, seu materiae ejus; jam
+          <lb ed="#P" n="21"/>enim dictum est obligationem voti nunquam
+          <lb ed="#P" n="22"/>extendi ultra intentionem voventis; tunc 
+          au<lb break="no" ed="#P" n="23"/>tem jam illud votum non est absolute de 
+          re<lb break="no" ed="#P" n="24"/>ligione in specie, sed cum aliqua 
+          determina<lb break="no" ed="#P" n="25"/>tione, et ita non omnino persistitur in casu
+          <lb ed="#P" n="26"/>proposito. Atque in hac morali praesumptione
+          <lb ed="#P" n="27"/>fundatur, quod Cajetanus dixit d. q. 88, art.
+          <lb ed="#P" n="28"/>3, non teneri, qui sic vovit, discurrere extra
+          <lb ed="#P" n="29"/>regnum, quia non est verosimile voluisse ad
+          <lb ed="#P" n="30"/>hoc obligari, cum sit valde difticile et 
+          extraor<lb break="no" ed="#P" n="31"/>dinarium. Quod etiam tuentur Navar., c. 12,
+          <lb ed="#P" n="32"/>n. 49. Sot., lib. 7 de Just., q. 2. artic 1;
+          <lb ed="#P" n="33"/>Angles, Florib., 2 p., q. unic., de Voto, q. 2,
+          <lb ed="#P" n="34"/>diffie. 5: Tolet., lib. 4 Sum., c. 17, n. 12;et
+          <lb ed="#P" n="35"/>alii moderni secuti sunt; et revera ita est 
+          prae<lb break="no" ed="#P" n="36"/>sumendum, quamdiu oppositum non 
+          consti<lb break="no" ed="#P" n="37"/>terit de intentione voventis. Et eadem 
+          ratio<lb break="no" ed="#P" n="38"/>ne, si Vovens non intendit se obligare ad loca
+          <lb ed="#P" n="39"/>multum distantia, sed intra patriam suam, vel
+          <lb ed="#P" n="40"/>prope illam, solum tenebitur per propinqua
+          <lb ed="#P" n="41"/>loca discurrere, ut iidem auctores docent;
+          <lb ed="#P" n="42"/>oportebit iamen ut in tali casu clarius constet
+          <lb ed="#P" n="43"/>de tali intentione voventis; nam generalis
+          <lb ed="#P" n="44"/>praesumptio non sufficiet, nisi plures et 
+          parti<lb break="no" ed="#P" n="45"/>culares conjectura intercedant ; hae autem
+          <lb ed="#P" n="46"/>conjecturae frequentius habebunt locum in
+          <lb ed="#P" n="47"/>feminis quam in viris, ut per se constat, quia
+          <lb ed="#P" n="48"/>magis inusitatum est feminis, magisque 
+          diffi<lb break="no" ed="#P" n="49"/>cile extra patriam longius peregrinari.
+        </p>
+        <p xml:id="szovsr-p62010-d1e849">
+          <lb ed="#P" n="50"/>10. Secunda limitatio. — Altera limitatio,
+          <lb ed="#P" n="51"/>valde necessaria ad tollendam moralem 
+          diffi<lb break="no" ed="#P" n="52"/>cultatem, est, non esse necessarium ut omnia
+          <lb ed="#P" n="53"/>monasteria formaliter requirantur, sed vel
+          <lb ed="#P" n="54"/>formaliter, vel virtualiter. Est enim haec quasi
+          <lb ed="#P" n="55"/>dialectica quaedam inductio, in qua ex nume-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ratione plurium particularium infertur 
+          uni<lb break="no" ed="#P" n="57"/>versalis, et quia impossibile est omnia 
+          indi<lb break="no" ed="#P" n="58"/>vidua formaliter recensere, sufticit illa 
+          nume<lb break="no" ed="#P" n="59"/>rare, ex quibus probabilter intelligi possit
+          <lb ed="#P" n="60"/>eamdem esse rationem de caeteris, nam illa
+          <lb ed="#P" n="61"/>est quaedam virtualis omnium enumeratio. Ad
+          <lb ed="#P" n="62"/>hunc ergo modum in praesenti censeo 
+          suffi<lb break="no" ed="#P" n="63"/>cere , et talia adire monasteria , ex 
+          qui<lb break="no" ed="#P" n="64"/>bus probabilis conjectura fiat, eum, qui in
+          <lb ed="#P" n="65"/>illis non admittitur, neque in alis ejusdem
+          <lb ed="#P" n="66"/>religionis monasteriis esse recipiendum ; quae
+          <lb ed="#P" n="67"/>conjectura moraliter fiet considerata causa
+          <lb ed="#P" n="68"/>non admittendi talem personam, si generalis
+          <lb ed="#P" n="69"/>sit, et ejusdem rationis respectu aliorum 
+          loco<lb break="no" ed="#P" n="70"/>rum ejusdem religionis; quod facile 
+          consta<lb break="no" ed="#P" n="71"/>bit, tum ex unifcrmi modo vivendi talis 
+          reli<lb break="no" ed="#P" n="72"/>gionis in omnibus locis, tum etiam ex 
+          suffi<lb break="no" ed="#P" n="73"/>cienti informatione, quae ex tribus vel quatuor
+          <lb ed="#P" n="74"/>monasteriis regulariter accipi potest. Atque
+          <lb ed="#P" n="75"/>hanc limitationem insinuant dicti auctores,
+          <lb ed="#P" n="76"/>cum dicunt teneri quempiam adire alia 
+          mo<lb break="no" ed="#P" n="77"/>nasteria, etiam remotiora, si sit spes quod in
+          <lb ed="#P" n="78"/>eis recipiatur. Haec enim spes moraliter 
+          adi<lb break="no" ed="#P" n="79"/>mitur, facta praedicta diligentia et probabili
+          <lb ed="#P" n="80"/>inductione.
+        </p>
+        <p xml:id="szovsr-p62010-d1e921">
+          <lb ed="#P" n="81"/>11. Resolutio vera : aliquando sufficiet tria
+          <lb ed="#P" n="82"/>vel quatuor monasteria, aliquando duo vel unum
+          <lb ed="#P" n="83"/>etiam, aliquando vero plura. —Ex ideo censeo
+          <lb ed="#P" n="84"/>regulariter sufficere adire tria vel quatuor 
+          lo<lb break="no" ed="#P" n="85"/>ca praecipua; et aliquando talis esse posset
+          <lb ed="#P" n="86"/>causa denegationis, talisque informatio ex
+          <lb ed="#P" n="87"/>parte religiosorum, ut suffciat duo vel 
+          ali<lb break="no" ed="#P" n="88"/>quando etiam unum tantum monasterium 
+          adi<lb break="no" ed="#P" n="89"/>re, si ex illo poseit satis probabilter fieri 
+          uni<lb break="no" ed="#P" n="90"/>versalis induct:o. Sicut etiam e contrario 
+          cau<lb break="no" ed="#P" n="91"/>sae non admittendi voventem in pluribus 
+          mo<lb break="no" ed="#P" n="92"/>nasteriis possunt esse adeo particulares et
+          <lb ed="#P" n="93"/>dissimiles, et similiter mores et consuetudines
+          <lb ed="#P" n="94"/>diversorum monasteriorum adeo variae, ut ex
+          <lb ed="#P" n="95"/>quatuor vel quinque saepe non fiat sufficiens
+          <lb ed="#P" n="96"/>inductio, et ideo semper durabit obligatio 
+          am<lb break="no" ed="#P" n="97"/>plius procurandi in aliis locis, donec arbitrio
+          <lb ed="#P" n="98"/>viri prudentis (quod in his rebus semper 
+          ne<lb break="no" ed="#P" n="99"/>cessarium est) per probabilem inductionem
+          <lb ed="#P" n="100"/>censeatur probabiliter facta universalis 
+          peti<lb break="no" ed="#P" n="101"/>iio ac denegatio. Hae autem conjecturae fere
+          <lb ed="#P" n="102"/>cessant in illis religionibus, in quibus receptio
+          <lb ed="#P" n="103"/>per Provincialem fit, vel solum cum capitulo,
+          <lb ed="#P" n="104"/>seu concilio Provinciali ; tunc enim 
+          Provin<lb break="no" ed="#P" n="105"/>cialis ipse consulendus est ; quod si ab eo quis
+          <lb ed="#P" n="106"/>non admittitur, consequenter censetur a tota
+          <lb ed="#P" n="107"/>provincia repulsus, et ideo moraliter aestimari
+          <lb ed="#P" n="108"/>potest ipsa repulsa virtualiter universalis, 
+          ma<lb break="no" ed="#P" n="109"/>xime si cum consilio gravium virorum 
+          ejus<lb break="no" ed="#P" n="110"/>dem religionis censeatur facta. Quamvis au-
+          <pb ed="#P" n="253"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tem haec praesumptio moralis sit, nihilominus
+          <lb ed="#P" n="2"/>semper in particulari considerare oportet an
+          <lb ed="#P" n="3"/>relinquatur moralis spes, conveniendo 
+          prae<lb break="no" ed="#P" n="4"/>latum alterius provincia, vel Generalem 
+          ip<lb break="no" ed="#P" n="5"/>sum, pensata etiam intentione voventis, si ad
+          <lb ed="#P" n="6"/>omnia illa loca se extendit.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1006">
+          <lb ed="#P" n="7"/>12. An teneatur petere arctiora monasteria,
+          <lb ed="#P" n="8"/>quando in laxioribus non recipitur. Sed quid
+          <lb ed="#P" n="9"/>si intra eamdem religionem sint monasteria
+          <lb ed="#P" n="10"/>valde diversa in austeritate vitae, et 
+          observa<lb break="no" ed="#P" n="11"/>tione disciplinae religiosae, et aliquis non 
+          reci<lb break="no" ed="#P" n="12"/>piatur in laxioribus? tenebiturne arctiora 
+          pe<lb break="no" ed="#P" n="13"/>tere, si in eis sit spes; vel e contrario, si ab
+          <lb ed="#P" n="14"/>arctioribus repellatur, et in aliis relinquatur
+          <lb ed="#P" n="15"/>spes, an illa procurare teneatur ? Respondeo in
+          <lb ed="#P" n="16"/>hoc fere idem judicium dandum esse quod in
+          <lb ed="#P" n="17"/>voto religionis in genere, de quo statim dicam.
+          <lb ed="#P" n="18"/>Addo etiam considerandam esse intentionem
+          <lb ed="#P" n="19"/>voventis, nam si de illa sufhicienter constet,
+          <lb ed="#P" n="20"/>non multum refert illa locorum varietas ac
+          <lb ed="#P" n="21"/>dissimilitudo. Nam si quis vovens religionem
+          <lb ed="#P" n="22"/>Sancti Francisci, verbi gratia, solum sibi 
+          pro<lb break="no" ed="#P" n="23"/>posuit eam rationem vivendi in ea religione,
+          <lb ed="#P" n="24"/>quam de Observantia vocant, et in ea non 
+          re<lb break="no" ed="#P" n="25"/>cipiatur, non tenebitur alium arctiorem 
+          vi<lb break="no" ed="#P" n="26"/>vendi modum, qui in pluribus provinciis illius
+          <lb ed="#P" n="27"/>religionis observatur, procurare aut acceptare;
+          <lb ed="#P" n="28"/>aut e converso, si primario intendit 
+          austerio<lb break="no" ed="#P" n="29"/>rem vivendi modum, et illum obtinere non
+          <lb ed="#P" n="30"/>possit, non tenebitur, etiamsi possit ingredi
+          <lb ed="#P" n="31"/>monasteria, ubi alia vivendi ratio, quamvis
+          <lb ed="#P" n="32"/>religiosa, observatur. At vero si intentio 
+          vo<lb break="no" ed="#P" n="33"/>ventis fuit omnino indifferens de religione D.
+          <lb ed="#P" n="34"/>Francisci, et non habet aliquam probabilem
+          <lb ed="#P" n="35"/>conjecturam, ex qua colligat determinationem
+          <lb ed="#P" n="36"/>voluntatis suae ad hunc modum vivendi, 
+          po<lb break="no" ed="#P" n="37"/>tius quam ad illum, intra eamdem religionem,
+          <lb ed="#P" n="38"/>tenebitur illam suscipere ubicumque 
+          recipia<lb break="no" ed="#P" n="39"/>tur, juxta doctrinam paulo antea traditam, et
+          <lb ed="#P" n="40"/>in sequenti puncto amplius explicabitur.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1082">
+          <lb ed="#P" n="41"/>13. Tertia assertio. — Superest dicendum
+          <lb ed="#P" n="42"/>de tertio modo vovendi religionem in genere,
+          <lb ed="#P" n="43"/>ad quod votum multa ex dictis in 
+          superiori<lb break="no" ed="#P" n="44"/>bus cum proportione applicari possunt. Est
+          <lb ed="#P" n="45"/>autem ulterius considerandum, hoc votum in
+          <lb ed="#P" n="46"/>hoc differre ab aliis duobus, quod per illud
+          <lb ed="#P" n="47"/>praecise intenditur substantia religionis sine
+          <lb ed="#P" n="48"/>determinatione ad certum vivendi modum,
+          <lb ed="#P" n="49"/>quae determinatio in aliis votis adjungitur, vel
+          <lb ed="#P" n="50"/>major, vel minor, pro illorum diversitate.
+          <lb ed="#P" n="51"/>Quia vero substantia religionis in re ipsa non
+          <lb ed="#P" n="52"/>invenitur, nisi cum aliqua determinatione ad
+          <lb ed="#P" n="53"/>certam regulam, vel certum aliquem vivendi
+          <lb ed="#P" n="54"/>modum, ideo tale votum obligat ad 
+          suscipien<lb break="no" ed="#P" n="55"/>dum illum statum, cum aliquo determinato
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>vivendi modo, iudifierenter autem in quolibet,
+          <lb ed="#P" n="57"/>quia votum ipsum omnino indifferens fuisse
+          <lb ed="#P" n="58"/>supponitur.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1126">
+          <lb ed="#P" n="59"/>14. Primum dubium. — Qui absolute vovit,
+          <lb ed="#P" n="60"/>non implet votum ingrediendo aliquam ex 
+          mi<lb break="no" ed="#P" n="61"/>litaribus. — Implet vero votum ingrediendo 
+          or<lb break="no" ed="#P" n="62"/>dinem clericorum ordiuum militarium. — Duo
+          <lb ed="#P" n="63"/>vero hinc nascuntur dubia: primum est, an
+          <lb ed="#P" n="64"/>votum hoc sufficienter impleatur in 
+          quacum<lb break="no" ed="#P" n="65"/>que religione, quod specialiter quaeri solet de
+          <lb ed="#P" n="66"/>religionibus militaribus, in quibus 
+          substantia<lb break="no" ed="#P" n="67"/>lia votareligionis diminuta quodammodo fiunt,
+          <lb ed="#P" n="68"/>quia non vovetur castitas simpliciter, sed 
+          con<lb break="no" ed="#P" n="69"/>jugalis, et sic de aliis. Sed haec quaestio 
+          attin<lb break="no" ed="#P" n="70"/>git aliamn, an hae militares religiones sint 
+          reli<lb break="no" ed="#P" n="71"/>giones simpliciter, saltem quoad eum gradum
+          <lb ed="#P" n="72"/>personarum, quae et uxorem ducere, et 
+          pro<lb break="no" ed="#P" n="73"/>prium suo modo habere possunt. Sed omissa
+          <lb ed="#P" n="74"/>nunc hac quaestione, quam infra tomo sequenti
+          <lb ed="#P" n="75"/>tractabimus, ego existimo eum, qui absolute
+          <lb ed="#P" n="76"/>religionem vovit, non satisfacere tali voto 
+          as<lb break="no" ed="#P" n="77"/>sumendo illum statum, quia obligatio voti
+          <lb ed="#P" n="78"/>mensuranda est juxta intentionem voventis;
+          <lb ed="#P" n="79"/>nullus autem qui religionem vovet, per 
+          reli<lb break="no" ed="#P" n="80"/>gionem intelligit hujusmodi statum, sed alium
+          <lb ed="#P" n="81"/>perfectiorem ; ergo non satisfacit obligationi
+          <lb ed="#P" n="82"/>intentae assumendo talem statum. Minor 
+          pa<lb break="no" ed="#P" n="83"/>tet ex communi modo concipiendi, juxta quem
+          <lb ed="#P" n="84"/>interpretari debemus voti obligationem, sicut
+          <lb ed="#P" n="85"/>etiam interpretanda sunt verba cujuscumque
+          <lb ed="#P" n="86"/>contractus, seu promissionis, argumento 
+          tex<lb break="no" ed="#P" n="87"/>tus in c. Ez litteris, 1, de Sponsalibus. 
+          Con<lb break="no" ed="#P" n="88"/>stat autem, cumaliquis dicit se velle 
+          ingredireli<lb break="no" ed="#P" n="89"/>gionem, communiter non intelligi de hoc statu
+          <lb ed="#P" n="90"/>conjugatorum militum.Imo hinc ulterius infert
+          <lb ed="#P" n="91"/>Corduba, in Summa, q. 143, non impleri hoc
+          <lb ed="#P" n="92"/>votum sufhcicnter inreligione militari, 
+          etiam<lb break="no" ed="#P" n="93"/>si quis eam profiteatur in gradu clericorum;
+          <lb ed="#P" n="94"/>imo neque in religione canonicorum 
+          regula<lb break="no" ed="#P" n="95"/>rium, quia, licet ab his fiant tria vota 
+          substan<lb break="no" ed="#P" n="96"/>tialia religionis perfecta et integra, imo et 
+          so<lb break="no" ed="#P" n="97"/>lemnia, et ideo veri religiosi sint, nihilominus
+          <lb ed="#P" n="98"/>juxta communem significationem verborum
+          <lb ed="#P" n="99"/>non solent comprehendi sub intentione 
+          voven<lb break="no" ed="#P" n="100"/>tium absolute religionem, sed tantum illi 
+          or<lb break="no" ed="#P" n="101"/>dines in quibus striétius vivitur. Sed hoc mihi
+          <lb ed="#P" n="102"/>non probatur, nam, ut omittam, aliqua esse
+          <lb ed="#P" n="103"/>monasteria canonicorum regularium, in 
+          qui<lb break="no" ed="#P" n="104"/>bus religiosa disciplina satis stricte 
+          observa<lb break="no" ed="#P" n="105"/>tur, et inter militares aliquos esse vere 
+          mona<lb break="no" ed="#P" n="106"/>chos, de quibus dubitari non potest quin 
+          eo<lb break="no" ed="#P" n="107"/>rum status sufficiat ad hujus voti 
+          observatio<lb break="no" ed="#P" n="108"/>nem, adhuc generalius loquendo, existimo
+          <lb ed="#P" n="109"/>hoc votum sufficienter impleri in hujusmodi
+          <lb ed="#P" n="110"/>statu clericorum ordinum militarium, quam-
+          <pb ed="#P" n="254"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>diu aliquid non constiterit de expressa 
+          inten<lb break="no" ed="#P" n="2"/>iione voventis. Ratio est, quia is, qui absolute
+          <lb ed="#P" n="3"/>et indefinite vovet religionem, non dirigit 
+          in<lb break="no" ed="#P" n="4"/>tentionem suam nisi ad substantiam religionis,
+          <lb ed="#P" n="5"/>neque eam determinat ad particularem 
+          mo<lb break="no" ed="#P" n="6"/>dum, ut dixi; in his autem statibus nitegre
+          <lb ed="#P" n="7"/>ac perfecte salvatur substantia religionis, quae
+          <lb ed="#P" n="8"/>in tribus votis consistit. Praeterea hujusmodi
+          <lb ed="#P" n="9"/>clerici in communi vivunt, et disciplinam 
+          re<lb break="no" ed="#P" n="10"/>ligiosam observant. Unde falsum est, sub 
+          no<lb break="no" ed="#P" n="11"/>mine rehgionis, vel religiosi absolute dicti,
+          <lb ed="#P" n="12"/>hunc statum non comprehendi, etiam 
+          secun<lb break="no" ed="#P" n="13"/>dum communem loquendi modum.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1275">
+          <lb ed="#P" n="14"/>15. An impleatur tale vcotum, si fiat ea 
+          mi<lb break="no" ed="#P" n="15"/>litibus Sancti-Joannis. — Major dubitatio esse
+          <lb ed="#P" n="16"/>potest de militibus Sancti-Joannis, qui vota
+          <lb ed="#P" n="17"/>solemnia emittunt, et matrimonio copulari
+          <lb ed="#P" n="18"/>no possunt. Tamen, quia in modo viveni,
+          <lb ed="#P" n="19"/>et exterioribus actionibus, seu exercitiis, 
+          ma<lb break="no" ed="#P" n="20"/>gram habent affinitatem cum statu seculari,
+          <lb ed="#P" n="21"/>non videntur in vulgari sermone religiosorum
+          <lb ed="#P" n="22"/>nomine comprehendi; et ideo magis dubitari
+          <lb ed="#P" n="23"/>potest ie intentione voventis rehgionem, an
+          <lb ed="#P" n="24"/>hunc statum comprehendere voluerit 
+          Nihilo<lb break="no" ed="#P" n="25"/>minus tamen, si vovens non sit moraliter 
+          cer<lb break="no" ed="#P" n="26"/>tus quod intentione sua excluserit hunc 
+          reli<lb break="no" ed="#P" n="27"/>giosae vitae modum, magis quam alios, non
+          <lb ed="#P" n="28"/>damnarem illum qui in eo statu velit tale 
+          vo<lb break="no" ed="#P" n="29"/>tum implere, nam revera est simpliciter 
+          sta<lb break="no" ed="#P" n="30"/>tus perfectionis ac religionis ; et si debite 
+          ser<lb break="no" ed="#P" n="31"/>vetur prout potest, non minus difficilis est
+          <lb ed="#P" n="32"/>quam multi alii, in quibus sine controversia
+          <lb ed="#P" n="33"/>sufficienter impletur tale votum; et ideo hanc
+          <lb ed="#P" n="34"/>partem tuentur Arag. 2. 2, q. S8, art. 11;
+          <lb ed="#P" n="35"/>Azor, tom. 1, lib. 13 Inst. Moral., cap. 4, q.
+          <lb ed="#P" n="36"/>4; et Sayro. tom. 1 Thesaur., lib. 6, cap. 7,
+          <lb ed="#P" n="37"/>n. 10. Quia tamen hoc pendet ex intentione
+          <lb ed="#P" n="38"/>voventis, haec est praecipue consulenda, et 
+          om<lb break="no" ed="#P" n="39"/>nibus modis ex verbis, fine et circumstantis,
+          <lb ed="#P" n="40"/>quoad fieri possit, conjectandum ; et quando
+          <lb ed="#P" n="41"/>probabiliter constiterit intentionem voventis
+          <lb ed="#P" n="42"/>positam fuisse in perfectiori gradu religionis,
+          <lb ed="#P" n="43"/>iunc certum est in inferiori non sufficienter
+          <lb ed="#P" n="44"/>impleri, per se loquendo, et seclusa legitima
+          <lb ed="#P" n="45"/>commutatione, de qua supra in generali 
+          doc<lb break="no" ed="#P" n="46"/>irina de commutatione votorum diximus. Ubi
+          <lb ed="#P" n="47"/>etiam declaravimus qua ratione cesset 
+          obliga<lb break="no" ed="#P" n="48"/>tio voti de strictiori religione per professionem
+          <lb ed="#P" n="49"/>in laxiori, etiamsi haec non fiant sine 
+          trans<lb break="no" ed="#P" n="50"/>gressione prioris voti.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1358">
+          <lb ed="#P" n="51"/>16. Secundum dubium . ad quid teneatur
+          <lb ed="#P" n="52"/>qui hoc votum habet, si post factam diligentiam
+          <lb ed="#P" n="53"/>in nulla religione recipiatur. — Secundum 
+          du<lb break="no" ed="#P" n="54"/>bium erat, ad quid teneatur qui hoc votum
+          <lb ed="#P" n="55"/>babet, si in nulla religione recipiatur. Quod
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dubium solum habet locum post factam 
+          suffi<lb break="no" ed="#P" n="57"/>cientem diligentiam; haec autem diligentia
+          <lb ed="#P" n="58"/>cum proportione ad ea quae in superiori 
+          punc<lb break="no" ed="#P" n="59"/>to diximus, facienda est ; nam quod ibi de 
+          di<lb break="no" ed="#P" n="60"/>versis monasteriis quasi numero distinctis 
+          dic<lb break="no" ed="#P" n="61"/>tum est, hic applicandum est ad religiones
+          <lb ed="#P" n="62"/>specie diversas, in quibus propter earum 
+          dis<lb break="no" ed="#P" n="63"/>similitudinem non tam facile fieri potest 
+          con<lb break="no" ed="#P" n="64"/>jectura supra tradita, quod qui in una non
+          <lb ed="#P" n="65"/>admittitur, etiam repelletur in alia, et ideo
+          <lb ed="#P" n="66"/>regulariter necessarium erit plures tentare
+          <lb ed="#P" n="67"/>religiones, ut tandem repulsa judicetur 
+          uni<lb break="no" ed="#P" n="68"/>versalis. De quo plura dicere non est necesse,
+          <lb ed="#P" n="69"/>quia res est magis pertinens ad prudentiam
+          <lb ed="#P" n="70"/>quam ad doctrinam. Supposita ergo universali
+          <lb ed="#P" n="71"/>re»ulsa , dixerunt aliqui teneri nihilominus
+          <lb ed="#P" n="72"/>eum, qui tale votum religionis emisit , ad 
+          as<lb break="no" ed="#P" n="73"/>sumendum religiosum statum eo modo quo
+          <lb ed="#P" n="74"/>possit, scilicet vovendo paupertatem, et 
+          casti<lb break="no" ed="#P" n="75"/>tatem, et obedientiam in manu sui Episcopi;
+          <lb ed="#P" n="76"/>ita tenuit Hostien., in c. Porrectum, num. 14,
+          <lb ed="#P" n="77"/>de Regul. ; et Innoc. ibidem, et ali Juristae,
+          <lb ed="#P" n="78"/>quia qui non potest in totum implere votum,
+          <lb ed="#P" n="79"/>debet servare in quantum potest. Ttem quia
+          <lb ed="#P" n="80"/>ille status religiosus est, cum in eo emittantur
+          <lb ed="#P" n="81"/>tria vota sub:tantialia religionis.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1430">
+          <lb ed="#P" n="82"/>17. Rejicitur praedicta opinio. — Haec vero
+          <lb ed="#P" n="83"/>opinio fortasse haberet locum praeteritis 
+          tem<lb break="no" ed="#P" n="84"/>poribus, quando ad statum relgiosum non
+          <lb ed="#P" n="85"/>requirebatur specialis approbatio Pontificis,
+          <lb ed="#P" n="86"/>quia tunc professio facta in manibus Episcopi,
+          <lb ed="#P" n="87"/>et ab eo recepta et probata, revera 
+          constitue<lb break="no" ed="#P" n="88"/>bat verum religiosum; et ideo comprehendi
+          <lb ed="#P" n="89"/>poterat ille status sub absoluto voto rehgionis.
+          <lb ed="#P" n="90"/>Quamvis in hoc etiam observare tunc 
+          oporte<lb break="no" ed="#P" n="91"/>bat intentionem voventis ; nam si haec fuit de
+          <lb ed="#P" n="92"/>assumendo statu religioso in vita communi
+          <lb ed="#P" n="93"/>sub aliqua communi reguia, non tenetur quis
+          <lb ed="#P" n="94"/>ex vi talis voti assumere quasi privatum illum
+          <lb ed="#P" n="95"/>statum religiosum, quia non fuit 
+          comprehen<lb break="no" ed="#P" n="96"/>sus sub intentione voventis; sicut enim qui
+          <lb ed="#P" n="97"/>vovet unam domum, vel unam religionem in
+          <lb ed="#P" n="98"/>particulari, si ib: non recipitur, non obligatur
+          <lb ed="#P" n="99"/>ad alias, ita qui vovet statum religiosum in
+          <lb ed="#P" n="100"/>communi vita, non tenetur illum assumere
+          <lb ed="#P" n="101"/>in privata domo; vel sicut etiam vovens vitam
+          <lb ed="#P" n="102"/>coenobiticam, si ad eam non admittitur, non
+          <lb ed="#P" n="103"/>tenetur vitam solitariam profiteri.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1480">
+          <lb ed="#P" n="104"/>18. Ex quo evidentius concluditur 
+          secun<lb break="no" ed="#P" n="105"/>dum praesentem Ecclesiae statum ex voto 
+          reli<lb break="no" ed="#P" n="106"/>gionis non oriri illam obfigationem , quam
+          <lb ed="#P" n="107"/>Hostiensis et Innocentius existimavit, ut recte
+          <lb ed="#P" n="108"/>docuit Cajetanus 2. 2, q. 184, art. 3, et 
+          surmi<lb break="no" ed="#P" n="109"/>tur ex Panorm., d. cap. Purrectum, num. 12,
+          <lb ed="#P" n="110"/>quatenus dicit, per tria vcta emissa in mani-
+          <pb ed="#P" n="255"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bus Episcopi non constitui aliquem vere ac 
+          sim<lb break="no" ed="#P" n="2"/>pliciter religiosum, et in mareria stricta 
+          reli<lb break="no" ed="#P" n="3"/>giosorum nomine non comprehendi sic 
+          voven<lb break="no" ed="#P" n="4"/>tem in manu Episcopi, quae quidem vera esse
+          <lb ed="#P" n="5"/>consiat ex supra aietis de statu religioso, et ex
+          <lb ed="#P" n="6"/>his concluditur intentum. Nam per votum 
+          re<lb break="no" ed="#P" n="7"/>ligionis solum promittitur verus staius 
+          reli<lb break="no" ed="#P" n="8"/>giosus ; quod patet tum ex vi verborum, tum
+          <lb ed="#P" n="9"/>ex intentione voventium. Sed illa emissio
+          <lb ed="#P" n="10"/>trium votorum in manu Episcopi non 
+          consti<lb break="no" ed="#P" n="11"/>tnit verum religiosum ; ergo ex vi talis voti
+          <lb ed="#P" n="12"/>non relinquitur obligatio ad illum actum ; et
+          <lb ed="#P" n="13"/>ita patet responsio ad secundum 
+          fundamen<lb break="no" ed="#P" n="14"/>tum contrariae sententiae. Primum auterm ja
+          <lb ed="#P" n="15"/>supra m simili solutum est : illud enim 
+          axio<lb break="no" ed="#P" n="16"/>ma : Qci non potest tetum votum servare, 
+          de<lb break="no" ed="#P" n="17"/>bet implere quod potest. solum habet locum,
+          <lb ed="#P" n="18"/>quando 1d. quod a vovente fieri potest, per se
+          <lb ed="#P" n="19"/>comprehensum fuit sub materia voti; quod
+          <lb ed="#P" n="20"/>in praesenti verum non est, ut supra 
+          explicui<lb break="no" ed="#P" n="21"/>mus.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1548">
+          <lb ed="#P" n="22"/>19. Fetum religionis impletur in Societate,
+          <lb ed="#P" n="23"/>in qv cumque gradu ejus. — Hinc autem 
+          obi<lb break="no" ed="#P" n="24"/>ter noari potest, si contingat habentem tale
+          <lb ed="#P" n="25"/>votum in nulla religione recipi, nec etiam in
+          <lb ed="#P" n="26"/>Societate admitti ad gradum professorum, 
+          ad<lb break="no" ed="#P" n="27"/>mitti vero in hac religione ad gradum 
+          coadja<lb break="no" ed="#P" n="28"/>torum, vel in ordine ad illum, teneri ad 
+          mm<lb break="no" ed="#P" n="29"/>plendum ibi votum suum; quia, licet vota, quae
+          <lb ed="#P" n="30"/>in eo gradu emittuntur, tantum simplicia sint,
+          <lb ed="#P" n="31"/>sunt tamen per Ecclesiam approbata, ut 
+          sub<lb break="no" ed="#P" n="32"/>stantialia religionis, verumque ac proprium
+          <lb ed="#P" n="33"/>religiosum constituunt; et ideo ingressus in
+          <lb ed="#P" n="34"/>talem religionem in ordine ad illum gradum
+          <lb ed="#P" n="35"/>sub materia illius voti comprehenditur. Et
+          <lb ed="#P" n="36"/>confirmatur, nam ob hanc rationem 
+          sufficien<lb break="no" ed="#P" n="37"/>ter impletur hoc votum religionis in Sccietate
+          <lb ed="#P" n="38"/>in quocumque gradu ejus, ut a Pontificibus
+          <lb ed="#P" n="39"/>etiam in suis Bullis declaratum est, et infra 
+          vi<lb break="no" ed="#P" n="40"/>debimus; ergo et e contrario quando alibi, vel
+          <lb ed="#P" n="41"/>in alio gradu, locus non conceditur, tenetur
+          <lb ed="#P" n="42"/>quis in hoc gradu implere votum suum, si ille
+          <lb ed="#P" n="43"/>conced:tur, quia votum semper obligat, dum
+          <lb ed="#P" n="44"/>moraliter impleri potest.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1600">
+          <lb ed="#P" n="45"/>20. Si in nulla religione recipiatur, manet
+          <lb ed="#P" n="46"/>omnino liber a voto. — Ultimo infertur ex 
+          dic<lb break="no" ed="#P" n="47"/>tis, quoties aliquis in casu proposito (et idem
+          <lb ed="#P" n="48"/>est cum proportione in superiori) redditur
+          <lb ed="#P" n="49"/>impotens ad implendum votum, quia omnino
+          <lb ed="#P" n="50"/>non admittitur, tunc liberum manere, ut de
+          <lb ed="#P" n="51"/>suo statu disponere possit, perinde ac si 
+          vo<lb break="no" ed="#P" n="52"/>tum non emisisset; ita docet Cajetanus, d.
+          <lb ed="#P" n="53"/>quaest. 189, art. 3, et quaest. 88, art. 3, dub. 1,
+          <lb ed="#P" n="54"/>circa solutionem ad 2; Sot., ibidem, lib. 7 de
+          <lb ed="#P" n="55"/>ust., quaest. 1, art. 3; Sylvest., Religio, 2,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>quaest. 17 ; Navar., c. 12, num. 48; Cordub.,
+          <lb ed="#P" n="57"/>in Summa, quaest. 136; Angles, difficul. 9, de
+          <lb ed="#P" n="58"/>Voto; Azor, lib. 11 Inst. Moral., cap. 22,.3;
+          <lb ed="#P" n="59"/>Sanchez, in Decal., lib. 4 de Voto, cap. 16,
+          <lb ed="#P" n="60"/>num. 111; et alii communiter , et sequitur
+          <lb ed="#P" n="61"/>manifeste ex dictis in superiori, quia in eo
+          <lb ed="#P" n="62"/>casu ille non teuetur ad castitatem servandam,
+          <lb ed="#P" n="63"/>nec etiam tenetur ad paupertatem, vel alia
+          <lb ed="#P" n="64"/>onera religionis, quia illa non vovit extra 
+          re<lb break="no" ed="#P" n="65"/>ligionem ; nec etiam tenetur manere 
+          suspen<lb break="no" ed="#P" n="66"/>sus et expectans, si forte recipiatur, quae 
+          om<lb break="no" ed="#P" n="67"/>nia in superioribus ostensa sunt; ergo nihil
+          <lb ed="#P" n="68"/>cogitari potest ad quod maneat obligatus.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1658">
+          <lb ed="#P" n="69"/>21. Dubium in hac materia solvitur. — 
+          So<lb break="no" ed="#P" n="70"/>lum potest inquiri. si forte repulsus sit 
+          pro<lb break="no" ed="#P" n="71"/>pter causam vel defectum qui, adhibita 
+          dili<lb break="no" ed="#P" n="72"/>gentia et industria, ab ipso vovente tolli possit,
+          <lb ed="#P" n="73"/>an ad hoc maneat obligatus. Ut, verbi gratia,
+          <lb ed="#P" n="74"/>si non admittatur propter defectum 
+          gramma<lb break="no" ed="#P" n="75"/>ticae, an tencatur illam discere, et sic de abis.
+          <lb ed="#P" n="76"/>Ad quod breviter dicendum est, quando 
+          im<lb break="no" ed="#P" n="77"/>pedimentum tale est, ut sine gravi onere ac
+          <lb ed="#P" n="78"/>difficultate removeri possit, tunc sine dubio
+          <lb ed="#P" n="79"/>obligari voventem ad se reddendum habilem,
+          <lb ed="#P" n="80"/>ut sic dicam, ut in religione recipi possit;
+          <lb ed="#P" n="81"/>nam is, qui ad aliquid obli:atur, 
+          consequen<lb break="no" ed="#P" n="82"/>ter obligatur ad media moraliter necessaria,
+          <lb ed="#P" n="83"/>praesertim quando extraordinaria non sunt,
+          <lb ed="#P" n="84"/>nec nimium ardua aut ditficilia ; sed in 
+          prae<lb break="no" ed="#P" n="85"/>senti hoc medium est hujusmodi in ordine ad
+          <lb ed="#P" n="86"/>votum implendum, et per illud observatio
+          <lb ed="#P" n="87"/>voti est moraliter et facile possibilis ; ergo
+          <lb ed="#P" n="88"/>obligatur ad illud exhibendum ex vi voti. At
+          <lb ed="#P" n="89"/>vero si ses sit extraordinaria, aut nimis 
+          gra<lb break="no" ed="#P" n="90"/>vis, vel simpliciter, vel respectu voventis
+          <lb ed="#P" n="91"/>( qualis reputari solet in homine grandioris
+          <lb ed="#P" n="92"/>eetatis grammaticae disciplina ), tunc 
+          consulen<lb break="no" ed="#P" n="93"/>da est dispositio et intentio voventis. Nam si
+          <lb ed="#P" n="94"/>constet illum non intendisse se obligare cum
+          <lb ed="#P" n="95"/>tanto onere, non erit cogendus se illo modo
+          <lb ed="#P" n="96"/>ad religionem praeparare. Ac proinde si 
+          quan<lb break="no" ed="#P" n="97"/>do vovit, ignorabat illud esse impedimentum,
+          <lb ed="#P" n="98"/>cogitabatque se posse recipi sine tali scientia
+          <lb ed="#P" n="99"/>vel arte, est signum suthiciens noluisse se 
+          obli<lb break="no" ed="#P" n="100"/>gare cum illo onere ; at vero si sciebat 
+          dispo<lb break="no" ed="#P" n="101"/>sitionem illam esse necessariam, et 
+          nihilomi<lb break="no" ed="#P" n="102"/>nus, dum illa careret, religionem vovit, 
+          tene<lb break="no" ed="#P" n="103"/>bitur vel illo modo se disponere ut recipiatur,
+          <lb ed="#P" n="104"/>vel esse contentus inferiori gradu religionis,
+          <lb ed="#P" n="105"/>si in eo absque tali dispositione recipiatur,
+          <lb ed="#P" n="106"/>quod docuit Soto, lib. 7 de Justitia, q. 2, art.
+          <lb ed="#P" n="107"/>1, arg. 3. Ratio autem est, quia qui, non 
+          ob<lb break="no" ed="#P" n="108"/>stante illa cognitione, absoiute vovit 
+          religio<lb break="no" ed="#P" n="109"/>nem, virtualiter intendit se obligare ad media
+          <lb ed="#P" n="110"/>quae novit esse necessaria ad illum finem asse-
+          <pb ed="#P" n="256"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quendum. Dixi autem, nisi velis inferiori 
+          gra<lb break="no" ed="#P" n="2"/>du religionis esse contentus. Quia si absque
+          <lb ed="#P" n="3"/>cognitione linguae latinae recipiatur in gradu
+          <lb ed="#P" n="4"/>laicorum, qui etiam veri religiosi sunt, 
+          satis<lb break="no" ed="#P" n="5"/>faciet suo voto illum gradum acceptando, quia,
+          <lb ed="#P" n="6"/>licet a principio illud non intenderit nec 
+          pro<lb break="no" ed="#P" n="7"/>miserit, coram Deo aequivalet, et propter 
+          ma<lb break="no" ed="#P" n="8"/>jorem humilitatem majoremque mundi 
+          con<lb break="no" ed="#P" n="9"/>temptum in accidentalibus excedit, cum 
+          alio<lb break="no" ed="#P" n="10"/>quin in substantia religionis aequahs sit.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1778">
+          <lb ed="#P" n="11"/>22. Vovens religionem indefinite , si non 
+          ve<lb break="no" ed="#P" n="12"/>cipiatur ad gradum sacerdotum , tenetur 
+          in<lb break="no" ed="#P" n="13"/>gredi pro gradu laicorum, dummodo illius 
+          in<lb break="no" ed="#P" n="14"/>Lentio non fuerit vovere, et ingredi in gradu 
+          sa<lb break="no" ed="#P" n="15"/>cerdotum. — Ex quo etiam facile expeditur 
+          in<lb break="no" ed="#P" n="16"/>terrogatio alia, quam Soto dicto loco 
+          propo<lb break="no" ed="#P" n="17"/>nit, an is, qui vovit rcligionem, et in ea non
+          <lb ed="#P" n="18"/>recipitur ad gradum sacerdotum propter 
+          de<lb break="no" ed="#P" n="19"/>fectum scientiae, vel aliam ineptitudinem ad
+          <lb ed="#P" n="20"/>illum gradum, teneatur ingredi gro gradu
+          <lb ed="#P" n="21"/>laicorum , ut ad illum admittatur. 
+          Respon<lb break="no" ed="#P" n="22"/>dendum est enim hoc pendere ex intentione
+          <lb ed="#P" n="23"/>voventis ; nam si indefinite vovit religionem,
+          <lb ed="#P" n="24"/>et nec formaliter nec virtualiter applicuit 
+          in<lb break="no" ed="#P" n="25"/>tentionem suam ad gradum sacerdotum, 
+          tene<lb break="no" ed="#P" n="26"/>tur acceptare alium gradum, quia tenetur 
+          im<lb break="no" ed="#P" n="27"/>plere votum prout potest ; potest autem illo 
+          mo<lb break="no" ed="#P" n="28"/>do qui comprehensus fuit sub tali voto, veluti
+          <lb ed="#P" n="29"/>sub disjunctione, ut in superioribus in simili
+          <lb ed="#P" n="30"/>explicatum est. Si autem intentio voventis 
+          so<lb break="no" ed="#P" n="31"/>lum fuit assumere religiosum statum in gradu
+          <lb ed="#P" n="32"/>sacerdotum , seu in ordine ad illum, et ad
+          <lb ed="#P" n="33"/>eum non admittatur, non tenetur absolute 
+          in<lb break="no" ed="#P" n="34"/>gredi pro inferiori gradu, quia, ut saepe dixi,
+          <lb ed="#P" n="35"/>non amplius obligatur quam intenderit. Et
+          <lb ed="#P" n="36"/>ideo dixi absolute non obligari, quia ex 
+          sup<lb break="no" ed="#P" n="37"/>positione et per modum voluntariae 
+          commuta<lb break="no" ed="#P" n="38"/>tionis, obligari poterit ad excusandam aliam
+          <lb ed="#P" n="39"/>obligationem, vel diligentiam faciendam pro
+          <lb ed="#P" n="40"/>alio gradu obtinendo, ut in casu proxime 
+          prae<lb break="no" ed="#P" n="41"/>cedenti dictum est, nunc enim non jam ex vi
+          <lb ed="#P" n="42"/>solius voti praecedentis, sed ex vi novae 
+          volun<lb break="no" ed="#P" n="43"/>tatis obhgatur. Quocirca, si quis sponte sua
+          <lb ed="#P" n="44"/>nolit facere talem commutationem, et 
+          mora<lb break="no" ed="#P" n="45"/>lem ac sufficientem diligentiam adhibeat, ut
+          <lb ed="#P" n="46"/>pro gradu sacerdotum aptus reddatur, 
+          addis<lb break="no" ed="#P" n="47"/>cendo grammaticam, vel quid simile, et id 
+          as<lb break="no" ed="#P" n="48"/>sequi non possit, non propterea obligandus est
+          <lb ed="#P" n="49"/>ad acceptandum gradum laicorum , quia jam
+          <lb ed="#P" n="50"/>per illum non stat quominus adimpleat votum,
+          <lb ed="#P" n="51"/>prout a principio emissum fuit, et ideo non
+          <lb ed="#P" n="52"/>cogitur in alio gradu non intento votum 
+          im<lb break="no" ed="#P" n="53"/>plere. Sicut si vovisset ingredi in particulari
+          <lb ed="#P" n="54"/>aliquam religionem, in qua vel certa conditio
+          <lb ed="#P" n="55"/>origiuis, vel major eruditio, aut saltem major
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>aptitudo ad illam postulatur, et ob illius 
+          de<lb break="no" ed="#P" n="57"/>fectum in tali religione non admittitur, non
+          <lb ed="#P" n="58"/>tenetur aliam ingredi, etiamsai admittatur,
+          <lb ed="#P" n="59"/>quia illam non vovit, nec se obligavit ; 
+          se<lb break="no" ed="#P" n="60"/>cundum moralem autem aestimationem, non
+          <lb ed="#P" n="61"/>minus diversum ac difficile est intra eamdem
+          <lb ed="#P" n="62"/>religionem, vel gradum laicorum aut 
+          sacer<lb break="no" ed="#P" n="63"/>dotum acceptare, quam unam religionem in
+          <lb ed="#P" n="64"/>aliam commutare.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1900">
+          <lb ed="#P" n="65"/>23. Quidam vero hoc limitant, ut solum
+          <lb ed="#P" n="66"/>procedat, quando vovens a principio 
+          ignora<lb break="no" ed="#P" n="67"/>bat suam impotentiam vel incapacitatem ad
+          <lb ed="#P" n="68"/>talem gradum; quia si illam sciebat, et 
+          nihi<lb break="no" ed="#P" n="69"/>lominns vovit, obligandus est ad iugrediendum
+          <lb ed="#P" n="70"/>in gradu laicorum in favorem voti, ne sciens
+          <lb ed="#P" n="71"/>et prudens frustra illud emisisse videatur.
+          <lb ed="#P" n="72"/>Item, quia cum jam sciret illum gradum sibi
+          <lb ed="#P" n="73"/>esse moraliter impossibilem, virtualiter voluit
+          <lb ed="#P" n="74"/>se obligare ad gradum possibilem. 
+          Verumta<lb break="no" ed="#P" n="75"/>men cum hic tractemus de obligatione in 
+          con<lb break="no" ed="#P" n="76"/>scientia, non est praesumptionibus utendum,
+          <lb ed="#P" n="77"/>et ideo, nisi alias sufficienter constet de 
+          inten<lb break="no" ed="#P" n="78"/>tione voventis, non est obligandus; fieri enim
+          <lb ed="#P" n="79"/>potest (quod magis praesumendum est) ut, 
+          li<lb break="no" ed="#P" n="80"/>cet suam incapacitatem agnoverit, speraverit
+          <lb ed="#P" n="81"/>illam vinccre, vel magnis laboribus, vel 
+          im<lb break="no" ed="#P" n="82"/>portunis precibus, vel aliis mediis. Merito 
+          er<lb break="no" ed="#P" n="83"/>go tunc poterit obligari ad majorem 
+          diligen<lb break="no" ed="#P" n="84"/>tiam adhibendam, non tamen ad gradum 
+          lai<lb break="no" ed="#P" n="85"/>corum acceptandum, si illum omnino non 
+          in<lb break="no" ed="#P" n="86"/>tendit. Haec autem intentio cognosci poterit
+          <lb ed="#P" n="87"/>vel ex voluntate expressa et formali, velex
+          <lb ed="#P" n="88"/>qualitate et statu personae voventis, 
+          conside<lb break="no" ed="#P" n="89"/>rato simul communi usu personarum talis
+          <lb ed="#P" n="90"/>conditionis circa religiosum statum 
+          assumen<lb break="no" ed="#P" n="91"/>dum; nam ex his circumstantiis sufficienter
+          <lb ed="#P" n="92"/>determinatur intentio voventis, et sensus 
+          ver<lb break="no" ed="#P" n="93"/>borum, etiamsi in promissione ipsa non 
+          adda<lb break="no" ed="#P" n="94"/>tur expres:a determinatio.
+        </p>
+        <p xml:id="szovsr-p62010-d1e1968">
+          <lb ed="#P" n="95"/>24. Vocens religionem in gradu laicorum, si
+          <lb ed="#P" n="96"/>non recipiatur. nisi prius addiscat hoc vel illud
+          <lb ed="#P" n="97"/>officium, tenetur addiscere quando alias esset
+          <lb ed="#P" n="98"/>inutilis sine illo, non ita si tale officium non
+          <lb ed="#P" n="99"/>est simpliciter necessarium. — Ex quibus 
+          tan<lb break="no" ed="#P" n="100"/>dem constat quid dicendum sit de eo qui 
+          vo<lb break="no" ed="#P" n="101"/>vit religionem ingredi in gradu laicorum, et
+          <lb ed="#P" n="102"/>non admittitur, nisi addiscat hoc vel illud 
+          of<lb break="no" ed="#P" n="103"/>ficium, in quo possit religioni deservire. Ad
+          <lb ed="#P" n="104"/>quod Soto cum limitatione respondet, si 
+          offi<lb break="no" ed="#P" n="105"/>cium sit difficile ad addiscendum, vel 
+          laborio<lb break="no" ed="#P" n="106"/>sum, non teneri; quod sine dubio verum est,
+          <lb ed="#P" n="107"/>quando vovens de tali medio seu officio non
+          <lb ed="#P" n="108"/>cogitavit, quia nullo modo intendit se ad id
+          <lb ed="#P" n="109"/>obligare. Nam si prius intellexisset ac 
+          praevi<lb break="no" ed="#P" n="110"/>disset religionem postulaturam ab ipso talem
+          <pb ed="#P" n="257"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>conditionem. et nihilominus vovisset, 
+          obligan<lb break="no" ed="#P" n="2"/>dus esset, quia saltem virtualiter id vovisse et
+          <lb ed="#P" n="3"/>intendisse videtur. Unde in pradicta 
+          hmita<lb break="no" ed="#P" n="4"/>tione continuat Soto, si offivcium sit facile,
+          <lb ed="#P" n="5"/>obligari voventem ad eam diligentiam 
+          prae<lb break="no" ed="#P" n="6"/>standam justa religionis placitum. Quod ego
+          <lb ed="#P" n="7"/>verum existimarem, quando talis persona,
+          <lb ed="#P" n="8"/>ienorans tale officium, inutilis esset religioni
+          <lb ed="#P" n="9"/>in muneribus laicorum, quia tunc 
+          rationabili<lb break="no" ed="#P" n="10"/>ter ab eo postulatur illa dispositio, et vovens
+          <lb ed="#P" n="11"/>per se tenetur adhibere media facilia, et 
+          mo<lb break="no" ed="#P" n="12"/>raliter necessaria ad votum suum implendum.
+          <lb ed="#P" n="13"/>At vero si ipse alias absque tali officio est 
+          sa<lb break="no" ed="#P" n="14"/>tis idoneus, ut in aliis muneribus laicorum
+          <lb ed="#P" n="15"/>possit sufficienter religioni inservire, et si
+          <lb ed="#P" n="16"/>aliquid ultra necessarium est, facile potest 
+          in<lb break="no" ed="#P" n="17"/>tra religionem addiscere, non potest cogi aut
+          <lb ed="#P" n="18"/>obligari, ut priusquam in religione recipiatur,
+          <lb ed="#P" n="19"/>vacet tali officio addiscendo, etiamsi id facile
+          <lb ed="#P" n="20"/>praestare possit, quia illa non est dispositio
+          <lb ed="#P" n="21"/>necessaria, nec medium per se ordinatum, nec
+          <lb ed="#P" n="22"/>simpliciter, nec in tali persona, et ideo ex vi
+          <lb ed="#P" n="23"/>voti non obligatur ad illud praestandum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
