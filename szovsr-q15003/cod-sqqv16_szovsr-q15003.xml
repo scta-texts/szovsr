@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="601"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q15003"><!-- t10l1c9 -->
+        <head xml:id="szovsr-q15003-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-q15003-Hd1e103" type="question-title">Utrum societas arctam simpliciter an laxam regulam profiteatur.</head>
+        <p xml:id="szovsr-q15003-d1e106">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="50"/>CAPUT IX.
+          <lb ed="#P" n="51"/>UTRUM SOCIETAS ARCTAM SIMPLICITER AN LAXAM
+          <lb ed="#P" n="52"/>REGULAM PROFITEATUR.
+        </p>
+        <p xml:id="szovsr-q15003-d1e117">
+          <lb ed="#P" n="53"/>1. Ratio dubitandi. — Ut secundae 
+          objec<lb break="no" ed="#P" n="54"/>tioni relictae in c. 7, n. 2, radicitus et plene
+          <lb ed="#P" n="55"/>respondeam , praesentem quaestionem tractare
+          <lb ed="#P" n="56"/>visum est. Quia enim Societas vitam minus
+          <lb ed="#P" n="57"/>austeram in his, quae ad externam corporis
+          <lb ed="#P" n="58"/>tractationem pertinent, scilicet , in victu et
+          <lb ed="#P" n="59"/>vestitu. assumpsisse videtur, ideo 
+          calumnia<lb break="no" ed="#P" n="60"/>tores aliqui in eam objiciunt , quod laxiorem
+          <lb ed="#P" n="61"/>regulam observet ; quibus ex hactenus dictis
+          <lb ed="#P" n="62"/>non satis responsum videtur, quia fieri optime
+          <lb ed="#P" n="63"/>potest ut religio aliqua ex fine suo, et 
+          aliqui<lb break="no" ed="#P" n="64"/>bus ministeriis majorem quamdam dignitatem
+          <lb ed="#P" n="65"/>habeat , et nihitominus sub laxiori regula 
+          vi<lb break="no" ed="#P" n="66"/>vat. Sic ergo religio Canonicorum regularium,
+          <lb ed="#P" n="67"/>eo quod sit religio sacerdotum, et ad officia,
+          <lb ed="#P" n="68"/>quae in divinis mysteriis peraguntur, 
+          ordine<lb break="no" ed="#P" n="69"/>tur, specialem ac propriam habet dignitatem.
+          <lb ed="#P" n="70"/>Et nihilominus in cap. Quod Dei timore, de
+          <lb ed="#P" n="71"/>Statu monachor., de illis dicit Innocentius Ill,
+          <lb ed="#P" n="72"/>quod regule inserviunt lasiori. Hoc autem
+          <lb ed="#P" n="73"/>non videtur alia ratione dictum , nisi quia 
+          li<lb break="no" ed="#P" n="74"/>cet in caeteris religiose vivant, in his, quae ad
+          <lb ed="#P" n="75"/>corpus pertinent, nullam specialem observant
+          <lb ed="#P" n="76"/>asperitatem , sed commodum,, licet 
+          tempera<lb break="no" ed="#P" n="77"/>tum, vivendi modum habent. Ergo eadem 
+          ra<lb break="no" ed="#P" n="78"/>tione dicenda est laxiori regulae Societas 
+          inser<lb break="no" ed="#P" n="79"/>vire. Atque hoc aliqui ita exaggerant, ut inde
+          <lb ed="#P" n="80"/>velint persuadere hominibus religionem hane
+          <lb ed="#P" n="81"/>imperfectissimam esse, eo quod ejus 
+          professo<lb break="no" ed="#P" n="82"/>res delicate (ut ipsi aiunt) vivant, nihilque a
+          <lb ed="#P" n="83"/>secularibus discerni videantur. (Dominicus
+          <lb ed="#P" n="84"/>Bannes, Relectione de charitate).
+        </p>
+        <p xml:id="szovsr-q15003-d1e189">
+          <lb ed="#P" n="85"/>2. Discrimen inter austeritatem, 
+          poniten<lb break="no" ed="#P" n="86"/>lium, et arctam regulam. — In quo austeritas
+          <lb ed="#P" n="87"/>vitee consistat.— Quid penustentiu.— Arctitudo
+          <lb ed="#P" n="88"/>regule quid sit. — Ut ergo calumniam hanc
+          <lb ed="#P" n="89"/>excludamus, et quid rei veritas habeat 
+          apc<lb break="no" ed="#P" n="90"/>riamus, tria hic distinguenda sunt, scilicet,
+          <lb ed="#P" n="91"/>poenitentia, austeritas, et arcta regula; sunt
+          <lb ed="#P" n="92"/>enim haec valde distincta. Quia austeritas 
+          vi<lb break="no" ed="#P" n="93"/>tae, prout in praesenti, et justa communem
+          <lb ed="#P" n="94"/>modum loquendi sumitur, significat specialem
+          <lb ed="#P" n="95"/>asperitatem in externa ac ordinaria, et 
+          com<lb break="no" ed="#P" n="96"/>muni corporis tractatione, ad quam praecipue
+          <lb ed="#P" n="97"/>pertinet , quoad victum, abstinentia a 
+          carni<lb break="no" ed="#P" n="98"/>bus, et erit major, si sit etiam a lacticiniis, et
+          <lb ed="#P" n="99"/>gravior, quo etiam in quantitate ciborum. et
+          <pb ed="#P" n="602"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in jejuuiorum frequentia fuerit durior. In
+          <lb ed="#P" n="2"/>vestitu ordinaria austeritas est, non uti lineis
+          <lb ed="#P" n="3"/>internis; erit autem major, quo indumentum
+          <lb ed="#P" n="4"/>fuerit asperius, vel etiam simplicius; atque
+          <lb ed="#P" n="5"/>huc etiam spectat non uti calceis, sed nudis
+          <lb ed="#P" n="6"/>pedibus ambularc. Denique etiam in lecto
+          <lb ed="#P" n="7"/>cernitur haec asperitas , in non utendo panno
+          <lb ed="#P" n="8"/>lineo, sed lanco, vel in alio duriori usu lecti,
+          <lb ed="#P" n="9"/>usque ad humicubationem. Poenitentia vero
+          <lb ed="#P" n="10"/>latius patet, nam praeter haec, quae 
+          numeravi<lb break="no" ed="#P" n="11"/>mus, quae certe ad poenitentiam pertinent, 
+          po<lb break="no" ed="#P" n="12"/>test aliis modis fieri non tantum animo, sed
+          <lb ed="#P" n="13"/>etiam corpore (ita enim nunc loquimur), per
+          <lb ed="#P" n="14"/>actiones aut res quae secrete et occulte fiunt,
+          <lb ed="#P" n="15"/>licet in exteriori habitu non appareant. 
+          Hujus<lb break="no" ed="#P" n="16"/>modi sunt secretae et privatae flagellationes,
+          <lb ed="#P" n="17"/>cilicia, extraordinariae vigiliae, graviores 
+          labo<lb break="no" ed="#P" n="18"/>res ex pia causa assumpti , et similia. Rigor
+          <lb ed="#P" n="19"/>autem seu arctitudo regulae, non solum in his
+          <lb ed="#P" n="20"/>rebus, imo nec principaliter in eis consistit,
+          <lb ed="#P" n="21"/>sed subtilius ac spiritualius (ut existimo) 
+          pen<lb break="no" ed="#P" n="22"/>sanda est. Nam, licet arcta regula 
+          sufficien<lb break="no" ed="#P" n="23"/>tem austeritatem vel poenitentiam non 
+          omit<lb break="no" ed="#P" n="24"/>tat, principaliter autem consistit in rigorosa
+          <lb ed="#P" n="25"/>trium votorum observatione, et in omnibus
+          <lb ed="#P" n="26"/>observantiis quae ad illa per se reducuntur,
+          <lb ed="#P" n="27"/>tanquam media ex se necessaria ad perfectam
+          <lb ed="#P" n="28"/>illorum cnstodiam, vel tanquam digni fructus
+          <lb ed="#P" n="29"/>illius. Ut, verbi gratia, in observatione 
+          casti<lb break="no" ed="#P" n="30"/>tatis regula arcta est, quae non solum omnem
+          <lb ed="#P" n="31"/>actum aut motum turpem comprimit, sed
+          <lb ed="#P" n="32"/>etiam omnium sensuum mortificationi 
+          invigi<lb break="no" ed="#P" n="33"/>lat, et omnia verba, non solum lasciva, verum
+          <lb ed="#P" n="34"/>etiam quomodocumque vana, et quae vel 
+          re<lb break="no" ed="#P" n="35"/>mote possunt puritatem offendere, omnino
+          <lb ed="#P" n="36"/>vetat, prohibet ac coercet; et sic de alüs. In
+          <lb ed="#P" n="37"/>paupertate multa numerari possent, quae c. 3.
+          <lb ed="#P" n="38"/>num. 5 et 6, tacta sunt, quorum summa est,
+          <lb ed="#P" n="39"/>ut unica ratio utendi temporalibus bonis sit
+          <lb ed="#P" n="40"/>necessitas, et hac sit omnibus communis;
+          <lb ed="#P" n="41"/>usus vero sit in omnibus dependens a 
+          Supe<lb break="no" ed="#P" n="42"/>rioris arbitrio. Maximus vero rigor, et regulae
+          <lb ed="#P" n="43"/>arctitudo esse potest in obedientiae 
+          observan<lb break="no" ed="#P" n="44"/>tia; nam, sicut illa est caeteris excellentior,
+          <lb ed="#P" n="45"/>ita etiam est difficior , et majorem 
+          abnega<lb break="no" ed="#P" n="46"/>tionem propriam, majoremque omnium 
+          affec<lb break="no" ed="#P" n="47"/>tuum abjurationem postulat. Et hic merito
+          <lb ed="#P" n="48"/>dici potest maximus rigor religiosae regulae;
+          <lb ed="#P" n="49"/>nam, ut Gregorius dixit : Minus unicuique est
+          <lb ed="#P" n="50"/>abnegare quod habet, calde autem multum est
+          <lb ed="#P" n="51"/>abnegare quod est.
+        </p>
+        <p xml:id="szovsr-q15003-d1e340">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="52"/>PRO QUAESTIONIS RESOLUTIONE PRIMA CONCLUSIO.
+          <lb ed="#P" n="53"/>Societatem non profiteri definitam austeritatem,
+          <lb ed="#P" n="54"/>aut ponitentie aodum pro omnibus sociis
+          <lb ed="#P" n="55"/>commuwnem.
+        </p>
+        <p xml:id="szovsr-q15003-d1e353">
+          <lb ed="#P" n="56"/>3. Fatemur igitur ingenue non profiteri,
+          <lb ed="#P" n="57"/>quoad regularem et omnibus propositam 
+          ob<lb break="no" ed="#P" n="58"/>servantiam, definitum aliquem austeritatis aut
+          <lb ed="#P" n="59"/>poenitentiae modum ; ita enim in ejus 
+          consti<lb break="no" ed="#P" n="60"/>tutionibus expresse cautum est. Nam in 
+          Exa<lb break="no" ed="#P" n="61"/>mine, capite 1, S 6, sic dicitur: Batio vivendi
+          <lb ed="#P" n="62"/>in ecterioribus justas ob causas, majus Dei 
+          ob<lb break="no" ed="#P" n="63"/>sequium semper intuendo, communis est, neque
+          <lb ed="#P" n="64"/>ullas ordinarias panitentias vel corporis 
+          efflic<lb break="no" ed="#P" n="65"/>tones ez obligatione subeundas habet. Idemque
+          <lb ed="#P" n="66"/>in aliis constitutionibus declaratur, quas 
+          pos<lb break="no" ed="#P" n="67"/>tea referemus; et in bulla, in qua Julius HI
+          <lb ed="#P" n="68"/>cum majori declaratione institutum 
+          confirma<lb break="no" ed="#P" n="69"/>vit , hac sunt ultima verba in narratione seu
+          <lb ed="#P" n="70"/>declaratione instituti Pontifici proposita : 7»
+          <lb ed="#P" n="71"/>his, qua ad victum, et vestitum, et cetera 
+          ez<lb break="no" ed="#P" n="72"/>teriora pertinent, honestorum sacerdotum 
+          com<lb break="no" ed="#P" n="73"/>munem et approbatum usum sequentur ; uwt quod
+          <lb ed="#P" n="74"/>inde pro cujusque necessitate, vel spiritualis
+          <lb ed="#P" n="75"/>profectus desiderio subtractum fuerit, em 
+          devo<lb break="no" ed="#P" n="76"/>Ltione, et non ex obligatione, rationabile 
+          obse<lb break="no" ed="#P" n="77"/>quum corporis Deo, prout expediat, offeratur.
+          <lb ed="#P" n="78"/>Et nihilominus statim subdit Pontifex, nihil,
+          <lb ed="#P" n="79"/>quod pium sanctumque non sit, in dicta 
+          Socie<lb break="no" ed="#P" n="80"/>tate, ejusque lmudabilibus institulis reperiri,
+          <lb ed="#P" n="81"/>eaque omnia ad suorum., et aliorum Christi 
+          fide<lb break="no" ed="#P" n="82"/>lium anunarum salutem, et fideli exaltationem
+          <lb ed="#P" n="83"/>tendere ; ergo, ex sententia Pontificis, etiam
+          <lb ed="#P" n="84"/>quoad hanc partem hoc institutum pium est et
+          <lb ed="#P" n="85"/>sanctum, et ad praedictum finem egregie 
+          ac<lb break="no" ed="#P" n="86"/>commodatum, quod nobis superest 
+          explican<lb break="no" ed="#P" n="87"/>dum.
+        </p>
+        <p xml:id="szovsr-q15003-d1e425">
+          <lb ed="#P" n="88"/>SECUNDA CONCLUSIO.
+          <lb ed="#P" n="89"/>Societate uti debere penitentüs, et 
+          efflictio<lb break="no" ed="#P" n="90"/>nilus corporis, modo in Constitutionibus 
+          pre<lb break="no" ed="#P" n="91"/>scripto.
+        </p>
+        <p xml:id="szovsr-q15003-d1e436">
+          <lb ed="#P" n="92"/>4. Probatur conclusio ex v ariis locis 
+          Consti<lb break="no" ed="#P" n="93"/>tutionun. — Dico ergo secundo, Societatem
+          <lb ed="#P" n="94"/>ex vi sua regula uti debere poenitentiis , et
+          <lb ed="#P" n="95"/>afflictionibus corporis, modum tamen utendi
+          <lb ed="#P" n="96"/>illis prudenti et sapientissima ratione in ejus
+          <lb ed="#P" n="97"/>regula esse praescriptum. Utraque pars ex 
+          eis<lb break="no" ed="#P" n="98"/>dem constitutionibus probatur. Nam in diet.
+          <lb ed="#P" n="99"/>cap. 1 Examin., S 6, post verba superius 
+          ci<lb break="no" ed="#P" n="100"/>tata subditur : Sed illos (scilicet poenitentias,
+          <lb ed="#P" n="101"/>et corporis afflictiones ) assumere quivis 
+          pote<lb break="no" ed="#P" n="102"/>rit, que sibi videbuntur ( cum approbatione
+          <lb ed="#P" n="103"/>superioris ) ad majorsm sui spiritus profectum
+          <lb ed="#P" n="104"/>conrenire , et gquas propter eumdem fine, su-
+          <pb ed="#P" n="603"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>periores eis poterunt imponere. Circa quae 
+          ver<lb break="no" ed="#P" n="2"/>ba solum expendo verbum illud poterit, aut
+          <lb ed="#P" n="3"/>poterunt. Potuisset enim Beatus Ignatius uti
+          <lb ed="#P" n="4"/>verbo debelit ; ne tamen videretur 
+          obligatio<lb break="no" ed="#P" n="5"/>nem aliquam in conscientia inducere, ab illo
+          <lb ed="#P" n="6"/>verbo abstinuit ; in universum enim noluit 
+          re<lb break="no" ed="#P" n="7"/>gulam hanc specialem obligationem in 
+          cons<lb break="no" ed="#P" n="8"/>cientia importare. Si tamen verbum debendi
+          <lb ed="#P" n="9"/>non dicat obligationem sub culpa aliqua , sed
+          <lb ed="#P" n="10"/>solum directionem regula ad id quod 
+          per<lb break="no" ed="#P" n="11"/>fectius est, et per ipsam regulam consulitur,
+          <lb ed="#P" n="12"/>sic vere possumus dicere , debere Societatis
+          <lb ed="#P" n="13"/>alumnos, ex vi hujus regulae, uti afflictionibus
+          <lb ed="#P" n="14"/>corporis , duobus illis modis in ipsa 
+          praescri<lb break="no" ed="#P" n="15"/>ptis. Debent enim quantum est ex se has 
+          poe<lb break="no" ed="#P" n="16"/>nitentias desiderare et petere, et juxta 
+          arbi<lb break="no" ed="#P" n="17"/>trium sui Superioris illas fideliter exequi.
+          <lb ed="#P" n="18"/>Quod si quispiam in hoc negligens fuerit, 
+          de<lb break="no" ed="#P" n="19"/>bet Superior pro ratione sui muneris, quo 
+          te<lb break="no" ed="#P" n="20"/>netur subditos ad majorem profectum 
+          spiri<lb break="no" ed="#P" n="21"/>tualem juvare, et non defectus punire 
+          so<lb break="no" ed="#P" n="22"/>lummodo, tales poenitentias injungere; tunc
+          <lb ed="#P" n="23"/>vero manifestius est debere subditos illas 
+          as<lb break="no" ed="#P" n="24"/>sumere, cum ad perfectionem tendere ex vi
+          <lb ed="#P" n="25"/>sui status teneantur; atque in hoc sensu 
+          in<lb break="no" ed="#P" n="26"/>tellecta est haec regula ab universa Societate,
+          <lb ed="#P" n="27"/>prout ratio ipsa majoris perfectionis 
+          postula<lb break="no" ed="#P" n="28"/>bat, et perpetua etiam consuetudine, quae est
+          <lb ed="#P" n="29"/>optima legum interpres, eamdem 
+          intelligen<lb break="no" ed="#P" n="30"/>tiam consummavit. Unde, in sexta parte 
+          Con<lb break="no" ed="#P" n="31"/>stitutionum , cap. tertio, paragrapho primo,
+          <lb ed="#P" n="32"/>de professis Societatis agens Beatus lgnatius,
+          <lb ed="#P" n="33"/>cum dixisset in corporali exercitatione 
+          jeiu<lb break="no" ed="#P" n="34"/>niorum, vigiliarum, aut aliarum rerum ad
+          <lb ed="#P" n="35"/>austeritatem, vel corporis castigationem 
+          spec<lb break="no" ed="#P" n="36"/>tantium, nullam regulam eis praescribendam
+          <lb ed="#P" n="37"/>esse, nisi quam discreta charitas unicuique
+          <lb ed="#P" n="38"/>dictaverit, dummodo consulatur confessor vel
+          <lb ed="#P" n="39"/>superior , subdit: Hoc tamen dicitur in 
+          uni<lb break="no" ed="#P" n="40"/>cerswm esse quidem animadcertenduin, ne 
+          mi<lb break="no" ed="#P" n="41"/>mius hujusmodi rerum usus tantopere vires
+          <lb ed="#P" n="42"/>corgoris debilitet , ut deinde spirituali 
+          promi<lb break="no" ed="#P" n="43"/>aorum auzilio justa nostri isstituti rationen
+          <lb ed="#P" n="44"/>non sufficiant ; nec contra, tanta in illis sit 
+          ve<lb break="no" ed="#P" n="45"/>lazatio, ut fercore spiritus vefrigescente , 
+          hu<lb break="no" ed="#P" n="46"/>mani ac inferiores affectus incaescant. Et 3
+          <lb ed="#P" n="47"/>p. eap. 1, 512, admonentur omnes, u 
+          po<lb break="no" ed="#P" n="48"/>aitentias omnes, vel mortificationes, et 
+          devo<lb break="no" ed="#P" n="49"/>tiones confessori vel Superiori aperiant, 
+          no<lb break="no" ed="#P" n="50"/>lentes suo proprio sensu duci. coluntate pura
+          <lb ed="#P" n="51"/>optantes ab illis dirigi, sicubi a rectitudine
+          <lb ed="#P" n="52"/>deflecterent ; a rectitudine (inquam) religiosa,
+          <lb ed="#P" n="53"/>id est ( ita enim interpretor ), ab eo quod 
+          me<lb break="no" ed="#P" n="54"/>lius, et gratius Deo est. Haec enim debet esse
+          <lb ed="#P" n="55"/>regula etiam in poenitentiis agendis. Unde, in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>capite secundo ejusdem tertiae partis 
+          Constitu<lb break="no" ed="#P" n="57"/>tionum, § 5, dicitur : Corporis castigatio 
+          im<lb break="no" ed="#P" n="58"/>moderata esse non debet, nec indiscreta in 
+          vi<lb break="no" ed="#P" n="59"/>gilüs, et abstinentiis, et aliis penitentiis 
+          ea<lb break="no" ed="#P" n="60"/>ternis ac laboribus, quae ei nocumentum 
+          affer<lb break="no" ed="#P" n="61"/>re, etl majora bona impedire solent. Ideo suo
+          <lb ed="#P" n="62"/>confessario delegi ab unoguoque convenit 
+          quid<lb break="no" ed="#P" n="63"/>quid in hac parte faciat, qui si judicat excedi
+          <lb ed="#P" n="64"/>mensuram, aut certe dubitat de emcessu, illum
+          <lb ed="#P" n="65"/>ad superiorem remittat. In quibus et similibus
+          <lb ed="#P" n="66"/>regulis, considero fuisse majorem curam 
+          Bea<lb break="no" ed="#P" n="67"/>to Ignatio adhibendi remedia ne in hac parte
+          <lb ed="#P" n="68"/>excedatur, quam ne deficiatur; supponit enim
+          <lb ed="#P" n="69"/>hanc posteriorem curam, et in subditis, 
+          ut<lb break="no" ed="#P" n="70"/>pote viris spiritualibus, et orationi deditis,
+          <lb ed="#P" n="71"/>non defuturam, et in superioribus debere esse
+          <lb ed="#P" n="72"/>maximam, et ideo cum excessum vetat, 
+          sem<lb break="no" ed="#P" n="73"/>per significat religiosam curam se exercendi
+          <lb ed="#P" n="74"/>in operibus poenitentiae, et afflictionibus 
+          cor<lb break="no" ed="#P" n="75"/>poris, quantum cum aliis laboribus Societatis
+          <lb ed="#P" n="76"/>conjungi possint, ex vi hujus instituti debitam
+          <lb ed="#P" n="77"/>esse in sensu paulo superius declarato. Et
+          <lb ed="#P" n="78"/>praeterea, in 6 p., cap. 2, paragrapho decimo
+          <lb ed="#P" n="79"/>quinto, de vestitu in particulari admonet, wut
+          <lb ed="#P" n="80"/>honcstus sit, el ad usum loci accommodatus, et
+          <lb ed="#P" n="81"/>professioni paupertatis non repugnans, et 
+          hu<lb break="no" ed="#P" n="82"/>militatis ac summissionis indicia prabens. In
+          <lb ed="#P" n="83"/>paragrapho autem decimo sexto : In iis (ait)
+          <lb ed="#P" n="84"/>qua ad rationem victus, somni, ac usus rela
+          <lb ed="#P" n="85"/>quarum rerum cite necessariarum cel 
+          conve<lb break="no" ed="#P" n="86"/>niecntiwn spectant, quamvis communis illa sit,
+          <lb ed="#P" n="87"/>minimeque diversa ab eo, quod medicus illius
+          <lb ed="#P" n="88"/>loci, in quo vivitur, judicabit, ita ut quod 
+          quis<lb break="no" ed="#P" n="89"/>que sibi inde subtracerit, em devotione, non eg
+          <lb ed="#P" n="90"/>obligatione subirahat , habenda tamen semper
+          <lb ed="#P" n="91"/>erit ratio homnilitatis, paupertatis, ac 
+          spiritua<lb break="no" ed="#P" n="92"/>lis edificationis, quae semper nobis in Domino
+          <lb ed="#P" n="93"/>ob oculos versari debet.
+        </p>
+        <p xml:id="szovsr-q15003-d1e675">
+          <lb ed="#P" n="94"/>5. Quo consilio B. Tgnatius certas 
+          poniten<lb break="no" ed="#P" n="95"/>lias non praescripserit toti Societati. — 
+          Pre<lb break="no" ed="#P" n="96"/>dictum consilium testimonio Patrwum suadetur.
+          <lb ed="#P" n="97"/>— Ex his ergo omnibus satis constat, 
+          Societa<lb break="no" ed="#P" n="98"/>tem ex vi suae regnlae debere operibus 
+          poeeni<lb break="no" ed="#P" n="99"/>tentiee, et austeritati corporis insistere, 
+          ma<lb break="no" ed="#P" n="100"/>gnamque illarum rationem habere, alioqui
+          <lb ed="#P" n="101"/>magnum profecto religionis, ac perfectionis
+          <lb ed="#P" n="102"/>instrumentum Societati deesset ; quamvis enim
+          <lb ed="#P" n="103"/>in his afflictionibus corporis sanctitas non
+          <lb ed="#P" n="104"/>consistat, tamen negligendae nullo modo sunt,
+          <lb ed="#P" n="105"/>quia et ad cordis puritatem purgando priora
+          <lb ed="#P" n="106"/>delicta, praecavendognue sequentia , et ad 
+          hu<lb break="no" ed="#P" n="107"/>militatem, ad Christi imitationem, ac plures
+          <lb ed="#P" n="108"/>alios spirituales fructus necessariae sunt. 
+          Con<lb break="no" ed="#P" n="109"/>silium autem Beati Ignatii fuit, non eamdem
+          <lb ed="#P" n="110"/>regnlam aut modum pro omnibus praeeseribe-
+          <pb ed="#P" n="604"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>re, quia in ianta varietate personarum ac 
+          ha<lb break="no" ed="#P" n="2"/>bitudinum ut ipse alias disit') certa regula
+          <lb ed="#P" n="3"/>praescribi nequibat, pn prudenti judicio
+          <lb ed="#P" n="4"/>Superioris mensuram unicuique 
+          proportiona<lb break="no" ed="#P" n="5"/>tam remitiit. Quam vero fuerit hoc consilium
+          <lb ed="#P" n="6"/>prudentiae ae sanctitatis plenum, facile ex 
+          an<lb break="no" ed="#P" n="7"/>tiquis Patribus et ratione intelligi potest. 
+          Ba<lb break="no" ed="#P" n="8"/>silius enim, interrogatione 19 ex fusioribus,
+          <lb ed="#P" n="9"/>quae erat : Qui odus servari in contiuentia
+          <lb ed="#P" n="10"/>debeat ? respondet: 7n citiis quidem animi
+          <lb ed="#P" n="11"/>«nus continentie anodus est; summa earum 
+          ve<lb break="no" ed="#P" n="12"/>rum, que ad pestiferam voluplatem ferunt, a
+          <lb ed="#P" n="13"/>nobis alienatio ; in cibis autem , quemadmodum
+          <lb ed="#P" n="14"/>aliis alii necessarii sunt, pro etate scilicet 
+          ca<lb break="no" ed="#P" n="15"/>jusque, ac studiis, hique apposile ad corporis
+          <lb ed="#P" n="16"/>cujusque habitudinem distincti, ita quogue 
+          di<lb break="no" ed="#P" n="17"/>versa sunt usus illorum, modus, ratiogue ; quo
+          <lb ed="#P" n="18"/>fit ul ueguaguam omnes unà et eidem regule
+          <lb ed="#P" n="19"/>subjici possiut. Et ideo hanc justam 
+          distribu<lb break="no" ed="#P" n="20"/>tionem seu convenientem accommodationem
+          <lb ed="#P" n="21"/>Praelato committit, qui providere debet ut
+          <lb ed="#P" n="22"/>nulli desit, quod necessitas petit, neque aliquid
+          <lb ed="#P" n="23"/>immoderatum alicni tribuatur , afferens illud
+          <lb ed="#P" n="24"/>Actor. 4: Dividebantur omnia singulis, prout
+          <lb ed="#P" n="25"/>unicuigue opus erat. Eamdem regulam fere
+          <lb ed="#P" n="26"/>praescrihit Augustinus. Nam capite 2 Regulae
+          <lb ed="#P" n="27"/>sic inquit : Distribuatur unicuigue vestruma
+          <lb ed="#P" n="28"/>Preeposito vestro victus et tegumentum ; non
+          <lb ed="#P" n="29"/>tamen omnibus equaliter, quia non equaliter
+          <lb ed="#P" n="30"/>valetis omues , sed polius unicuique, sicut
+          <lb ed="#P" n="31"/>cuigue opus fuerit. Sic enim legitis in Actibus
+          <lb ed="#P" n="32"/>Apostolorum , etc. Et capite 11: Carnen 
+          ves<lb break="no" ed="#P" n="33"/>iram domate (inquit) jejuniis, et abstinentia
+          <lb ed="#P" n="34"/>esce et potus. quantum caletudo permittit. Hinc
+          <lb ed="#P" n="35"/>auctor? sermonis vigesimi quinti ad fratres in
+          <lb ed="#P" n="36"/>eremo, fratres introducit interrogantes : 
+          Num<lb break="no" ed="#P" n="37"/>quid in via nostra semper jejunare debemus?
+          <lb ed="#P" n="38"/>respondet : O fratres mei, legem recepistis, et
+          <lb ed="#P" n="39"/>audistis frequenter inter cetera, quod carnem
+          <lb ed="#P" n="40"/>cestram dometis abstinentia esce et potus,
+          <lb ed="#P" n="41"/>quantuan caletudo permittit ; aolo enim meipsum
+          <lb ed="#P" n="42"/>ligare ; nolui onera vestra portarve , sed hoc 
+          so<lb break="no" ed="#P" n="43"/>lun super vos ponere, ut jejunetis et 
+          abstinea<lb break="no" ed="#P" n="44"/>lis , quantum Deo favente poteslis. Denique
+          <lb ed="#P" n="45"/>ejusdem regulae interpretes ?, et ejusdem 
+          fa<lb break="no" ed="#P" n="46"/>miliae alumni intellexerunt Augustinum, 
+          sum<lb break="no" ed="#P" n="47"/>ma discretione pollentem, non praecepisse in
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="48"/>regula determinata jejunia, sed prudenti 
+          ar<lb break="no" ed="#P" n="49"/>bitrio, juxta uniuscujusque vires, definienda
+          <lb ed="#P" n="50"/>reliquisse. Unde idem Augustinus, multa quae
+          <lb ed="#P" n="51"/>ad similem prudentiam pertinent circa 
+          cibo<lb break="no" ed="#P" n="52"/>rum usum, in eadem regula prosequitur usque
+          <lb ed="#P" n="53"/>ad regulam 18, in qua de vestitu sic inquit:
+          <lb ed="#P" n="54"/>Non sit notabilis habitus vester, nec affectetis
+          <lb ed="#P" n="55"/>cestibus placere, sed moribus. Benedictus etiam
+          <lb ed="#P" n="56"/>in capite 40 regulae : Unusquisque (inquit
+          <lb ed="#P" n="57"/>propriwin domnwn habet ex Deo, unus sic, alius
+          <lb ed="#P" n="58"/>vero sic; et ideo cum aliqua scrupulositate a
+          <lb ed="#P" n="59"/>nobis anensura victus et vestitus aliorum 
+          sta<lb break="no" ed="#P" n="60"/>tuitur. Quae verba accommodate ad nostrum
+          <lb ed="#P" n="61"/>propositum exposuit Turrecremat., tract. 105,
+          <lb ed="#P" n="62"/>in expositione regulae. Eodem modo 
+          Cassia<lb break="no" ed="#P" n="63"/>nus, libro 5 de Institutis renuntiantium, 
+          ca<lb break="no" ed="#P" n="64"/>pite 5 : Super jejuniorum (inquit) modo haud
+          <lb ed="#P" n="65"/>potest facile unifor mis regula custodiri, quia nec
+          <lb ed="#P" n="66"/>robur unum cunctis corporibus inest, nec sicut
+          <lb ed="#P" n="67"/>cetera virtutes, ammi solius rigore parantur ;
+          <lb ed="#P" n="68"/>quod late prosequitur. Pallad. etiam, capite 38
+          <lb ed="#P" n="69"/>suae Historiae, refert regulam ab Angelo Beato
+          <lb ed="#P" n="70"/>Pachomio revelatam, cujus unum caput erai:
+          <lb ed="#P" n="71"/>Concede unicuique ut comedat et bibat pro 
+          va<lb break="no" ed="#P" n="72"/>tione virium, et pro viribus comedentium ; eis
+          <lb ed="#P" n="73"/>quoque manda opera, quae proportione 
+          conve<lb break="no" ed="#P" n="74"/>niant ac respondeant, ei nec jejunare prohibe,
+          <lb ed="#P" n="75"/>neque comedere, siquidem furtibus fortin opera,
+          <lb ed="#P" n="76"/>imbecilla autem et levia his, qui imbecilliores
+          <lb ed="#P" n="77"/>sunt, conceniunt. Denique Eusebius, lib. 9 de
+          <lb ed="#P" n="78"/>Praeparat. Evangel., cap. 1, de Essenis loquens
+          <lb ed="#P" n="79"/>(quos tractatu octavo diximus, cum 
+          Hierony<lb break="no" ed="#P" n="80"/>mo, Epiphanio et aliis, in Eeclesia fuisse ex
+          <lb ed="#P" n="81"/>primis religiosis qui sub Marco Alexandriae
+          <lb ed="#P" n="82"/>Horuerunt), inter alias regulas instituti eorum
+          <lb ed="#P" n="83"/>in praesenti materia, hanc ait servasse : Cilus
+          <lb ed="#P" n="84"/>et potus vite necessitate mensuratur. Non
+          <lb ed="#P" n="85"/>omittam etiam hoe loco verba quibus sancti
+          <lb ed="#P" n="86"/>cujusdam juvenis vivendi rationem Sanctus
+          <lb ed="#P" n="87"/>Chrysostomus refert, libro 3 contra 
+          vitupera<lb break="no" ed="#P" n="88"/>tores monasterii vitae, post medium; nam
+          <lb ed="#P" n="89"/>Beati Ignatii consilium d unguem xpHiucie
+          <lb ed="#P" n="90"/>videntur : Ft quod est (ait) wrabilius, 
+          eaterio<lb break="no" ed="#P" n="91"/>ri quidem cultu, nihil a ceeteris differre 
+          vide<lb break="no" ed="#P" n="92"/>batur, non enim agrestibus cel incomptis erat
+          <lb ed="#P" n="93"/>moribus , aon come negligentia , non amictus
+          <lb ed="#P" n="94"/>vilitate nobilis, sed erat commwnis habitu, coce,
+          <lb ed="#P" n="95"/>aspectu , et cateris omnibus. Quibus ex vebus
+          <lb ed="#P" n="96"/>factum est ut fucilius plurimos contubernalium
+          <lb ed="#P" n="97"/>intra retia sua includeret, cum haberet 
+          intria<lb break="no" ed="#P" n="98"/>secus incredibilem lalentem sapientiam. 
+          Deni<lb break="no" ed="#P" n="99"/>que, si quis illum domi oidisset, umwn em eis
+          <lb ed="#P" n="100"/>esse putavissct, quà montes et deserta incolunt;
+          <lb ed="#P" n="101"/>domus enim ita illi disposita et parata erat, ut
+          <lb ed="#P" n="102"/>in mullo monasterii diHgentiam desideraret ,
+          <pb ed="#P" n="605"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nihique necessarii amplius habebat. Talem
+          <lb ed="#P" n="2"/>Beatus Tgnatius totam Societatem formari 
+          op<lb break="no" ed="#P" n="3"/>tabat.
+        </p>
+        <p xml:id="szovsr-q15003-d1e953">
+          <lb ed="#P" n="4"/>6. Ratione idem ostenditur. — Ratio aulem
+          <lb ed="#P" n="5"/>generalis est, quae ex medio temperantiae et
+          <lb ed="#P" n="6"/>similium virtutum moralium sumitur. Non est
+          <lb ed="#P" n="7"/>enim (ut aiunt) medium rei, sed rationis, et
+          <lb ed="#P" n="8"/>ideo non est unum respectu omnium , sed in
+          <lb ed="#P" n="9"/>unoquoque consideratur per proportionem ad
+          <lb ed="#P" n="10"/>intentum finem, considerata personae, seu
+          <lb ed="#P" n="11"/>subjeeti qualitate, et aliis circumstantiis. Unde
+          <lb ed="#P" n="12"/>recte dixit Gregorius, libro 2 Registri, capite
+          <lb ed="#P" n="13"/>31 : Cum non plus quam necesse est servitur
+          <lb ed="#P" n="14"/>corpori, sed sola ejus infirmitas veficitur, ut
+          <lb ed="#P" n="15"/>ad usum exercendee virtutis habeatur, tunc 
+          ve<lb break="no" ed="#P" n="16"/>raciter eo chavitate convivia prodennt. Heec si
+          <lb ed="#P" n="17"/>vos in vestris conviviis agitis, abstinentium
+          <lb ed="#P" n="18"/>fateor magistri estis. Multa similia late 
+          pro<lb break="no" ed="#P" n="19"/>sequitur Basilius, sermone de Vera 
+          virginita<lb break="no" ed="#P" n="20"/>te, ubi pro regula circa abstinentiam 
+          servan<lb break="no" ed="#P" n="21"/>dam ponit, ut tanta sit, quanta ad virtutis 
+          ac<lb break="no" ed="#P" n="22"/>quisitionem confert, et subdit : Z7utegra se
+          <lb ed="#P" n="23"/>in hac parte, atgue inviolabilem, sanucta virgo
+          <lb ed="#P" n="24"/>caute servabit, corpusque, ut servire queat 
+          ani<lb break="no" ed="#P" n="25"/>me. in his, que sunt necessaria victui, 
+          mode<lb break="no" ed="#P" n="26"/>rabitur prudenter, ac reget ; neque enim 
+          eupe<lb break="no" ed="#P" n="27"/>dit, dum nimis observat ne gustus voluptate
+          <lb ed="#P" n="28"/>rapiatur, manantesque em ventre voluptates per
+          <lb ed="#P" n="29"/>ciborum abstinentiam franare per pit, contra ita
+          <lb ed="#P" n="30"/>corpus alterere, ut incalidum jam inutilegue
+          <lb ed="#P" n="31"/>reddatur. Quod late prosequitur, et post multa
+          <lb ed="#P" n="32"/>subjungit : Sicut in gule intemperantium 
+          de<lb break="no" ed="#P" n="33"/>clinare grave ac periculosum est, ita per 
+          ni<lb break="no" ed="#P" n="34"/>mia abstinentium corpus atterere omnà 
+          pro<lb break="no" ed="#P" n="35"/>fecto ratione caret ; neque enim abstinere a
+          <lb ed="#P" n="36"/>voluptatibus gule per se espetendum est, sed
+          <lb ed="#P" n="37"/>quia ad virtutis acquisitionem confert. Quod
+          <lb ed="#P" n="38"/>si illud, cujus gratie ciborum abstinentiam
+          <lb ed="#P" n="39"/>ecligimus , per immoderatam negligamus 
+          ine<lb break="no" ed="#P" n="40"/>diam , contra ac instiluimus agimus; nam
+          <lb ed="#P" n="41"/>fracto contritogue instrumento, nec Deo 
+          inhee<lb break="no" ed="#P" n="42"/>rere per lectionis el orationis studium 
+          possu<lb break="no" ed="#P" n="43"/>nus, neque ad fratrum beneficeutiam 
+          humani<lb break="no" ed="#P" n="44"/>tatis officium obire. Igitur et corporis cura
+          <lb ed="#P" n="45"/>aecessario habenda est, non ipsius gratia, sed
+          <lb ed="#P" n="46"/>ul servitio illius ad philosophie studia uti
+          <lb ed="#P" n="47"/>possimus. Quibus verbis nulla possunt esse
+          <lb ed="#P" n="48"/>aptiora ad mentem et spiritum Beati Ignatii
+          <lb ed="#P" n="49"/>explicandum. Multaque similia habet idem
+          <lb ed="#P" n="50"/>Basilius in Constitut. monast. , capite 5, ubi
+          <lb ed="#P" n="51"/>inter alia hanc regulam constituit : Continens
+          <lb ed="#P" n="52"/>ventris moderatio ea prestautissima judicanda
+          <lb ed="#P" n="53"/>est, quam vires corgoris cujusque defimunt,
+          <lb ed="#P" n="54"/>quod late prosequitur. Alia ad idem 
+          confir<lb break="no" ed="#P" n="55"/>mandum sumi possunt ex Cassiano, collat. 2,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>capite 2, et ex aliis locis quae irfra referemus.
+          <lb ed="#P" n="57"/>Non omittam etiam advertere, quoi 
+          Cajeta<lb break="no" ed="#P" n="58"/>nus, 2. 2, quaestione centesima quadragesima
+          <lb ed="#P" n="59"/>septima, articulo primo, ex mente D. Thomae
+          <lb ed="#P" n="60"/>observavit , regulam temperantiae esse 
+          neces<lb break="no" ed="#P" n="61"/>sitatem vitae praesentis, quoad duo, scilicet,
+          <lb ed="#P" n="62"/>convenientem sustentationem natura 
+          quan<lb break="no" ed="#P" n="63"/>tum ad esse, et quantum ad potestatem 
+          exer<lb break="no" ed="#P" n="64"/>cendi debita virtutis opera. Unde si quis (
+          in<lb break="no" ed="#P" n="65"/>quit) tenetur ad aliquod opus, vel liberale, puta
+          <lb ed="#P" n="66"/>ad legendum, praedicandum , cantandum, vel
+          <lb ed="#P" n="67"/>mechanicum, puta ad edificandum, fodiendum,
+          <lb ed="#P" n="68"/>etc., abstinentia impediens potentiom ad haec
+          <lb ed="#P" n="69"/>n03 est actus virtutis. Quae sententia ad omnes
+          <lb ed="#P" n="70"/>afflictiones corporis applicari potest. Cum ergo
+          <lb ed="#P" n="71"/>medium non sit unum et idem in hac materia
+          <lb ed="#P" n="72"/>pro omnibus personis, merito Societas noluit
+          <lb ed="#P" n="73"/>unam et eamdem regulam pro omnibus suis
+          <lb ed="#P" n="74"/>subditis aequaliter statuere, sed vivae regulae,
+          <lb ed="#P" n="75"/>quae est Superior, id commisit. Nec vero 
+          pro<lb break="no" ed="#P" n="76"/>pterea improbavit Sanctus Ignatius 
+          consuetu<lb break="no" ed="#P" n="77"/>dinem aliarum religionum, in quibus 
+          hujus<lb break="no" ed="#P" n="78"/>modi austeritates per generales regulas 
+          statu<lb break="no" ed="#P" n="79"/>tae sunt; nam in eis sancte et prudenter id
+          <lb ed="#P" n="80"/>fieri potuit, quia, licet non ab omnibus 
+          aequa<lb break="no" ed="#P" n="81"/>liter possint observari, possunt tamen a 
+          pluri<lb break="no" ed="#P" n="82"/>bus; ac regulariter possunt hae dispensationes
+          <lb ed="#P" n="83"/>esse in paucioribus. In Societate autem non
+          <lb ed="#P" n="84"/>ita esse poterat, sed potius oportuisset 
+          gene<lb break="no" ed="#P" n="85"/>ralem regulam, si statuenda esset, nimium
+          <lb ed="#P" n="86"/>esse moderatam , propter specialem rationem
+          <lb ed="#P" n="87"/>in ea inventam, quae a nobis supra, in num.
+          <lb ed="#P" n="88"/>4. est explicata.
+        </p>
+        <p xml:id="szovsr-q15003-d1e1143">
+          <lb ed="#P" n="89"/>7. Rationem huiusmodi vite ex Societatis
+          <lb ed="#P" n="90"/>fine sumptam esse. — Societas in hoc 
+          modoi<lb break="no" ed="#P" n="91"/>te communis in exterioribus initari Christwn
+          <lb ed="#P" n="92"/>Dominum. — Ratio ergo specialis, qua 
+          Bea<lb break="no" ed="#P" n="93"/>tum Ignatium movit, ut hunc vitae modum
+          <lb ed="#P" n="94"/>communem cum praedicia reguia in 
+          poeniten<lb break="no" ed="#P" n="95"/>iiis et afflictionibus corporis assumendis in
+          <lb ed="#P" n="96"/>Societate reliquerit, ex fine ejusdem instituii,
+          <lb ed="#P" n="97"/>qui est animarum salus, desumitur; jam enim
+          <lb ed="#P" n="98"/>in superioribus, capite 2, diximus hunc finem
+          <lb ed="#P" n="99"/>ita esse ab hac religione intentum, ut totum
+          <lb ed="#P" n="100"/>religionis pondus, quoad fieri possit, in illum
+          <lb ed="#P" n="101"/>feratur, ac proinde tota ratio vivendi, et ipse
+          <lb ed="#P" n="102"/>etiam modus inquirendi perfectionem 
+          pro<lb break="no" ed="#P" n="103"/>priam huic fini accommodetur. Propter hunc
+          <lb ed="#P" n="104"/>ergo finem primo factum est, ut ratio vivendi
+          <lb ed="#P" n="105"/>Societatis in exterioribus communis sit. In
+          <lb ed="#P" n="106"/>quo voluit Ignatius socios imitari ducem suum
+          <lb ed="#P" n="107"/>Christum, de quo recte docuit D. Thomas, 
+          ter<lb break="no" ed="#P" n="108"/>tia parte, quaest. quadragesima, art. 1, cum
+          <lb ed="#P" n="109"/>hominibus familiariter conversatum esse, et
+          <lb ed="#P" n="110"/>in his exterioribus, praesertim quae ad cibum
+          <pb ed="#P" n="606"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>et potum pertinent, vitam cum aliis egisse
+          <lb ed="#P" n="2"/>communem, ut finem, propter quem 
+          principa<lb break="no" ed="#P" n="3"/>liter mortalem carnem assumpserat, 
+          conse<lb break="no" ed="#P" n="4"/>queretur, id est, ut omnes ad se attraheret, ac
+          <lb ed="#P" n="5"/>lucrifaceret ; et in hoe sensu concludit idem
+          <lb ed="#P" n="6"/>D. Thomas ibi, a. 2, non fuisse conveniens, ut
+          <lb ed="#P" n="7"/>Christus in hoc mundo vitam duceret austeram,
+          <lb ed="#P" n="8"/>scilicet, quoad modum cibi et potus : Nam
+          <lb ed="#P" n="9"/>convenientissimu est (inquit) ut qui 
+          commua<lb break="no" ed="#P" n="10"/>niter cum aliquibus conversatur, se eis in
+          <lb ed="#P" n="11"/>conversatione conformet, juxta illud, 1 
+          Co<lb break="no" ed="#P" n="12"/>rinth. 9: Omnihus omnia factus sum, ut omnes
+          <lb ed="#P" n="13"/>lucrifaciam. Quam doctrinam ibi nos, 
+          dispu<lb break="no" ed="#P" n="14"/>tat. 28, sect. 1 et 3, testimoniis divina 
+          Scri<lb break="no" ed="#P" n="15"/>pturae et Sanctorum Patrum, ac ratione 
+          con<lb break="no" ed="#P" n="16"/>tirmavimus. Quanquam postea non defuerint,
+          <lb ed="#P" n="17"/>qui eam impugnare studuerint, quia videbant
+          <lb ed="#P" n="18"/>tortasse magnum esse fundamentum ejus rei,
+          <lb ed="#P" n="19"/>de qua nunc agimus; sed profecto minime
+          <lb ed="#P" n="20"/>praevalere potuerunt contra veritatem, quae in
+          <lb ed="#P" n="21"/>Evangelio manifesta est, et quidquid dicant,
+          <lb ed="#P" n="22"/>proferre non possunt Patres qui aliter de 
+          Chri<lb break="no" ed="#P" n="23"/>sti vita sentiant.
+        </p>
+        <p xml:id="szovsr-q15003-d1e1247">
+          <lb ed="#P" n="24"/>8. Qua ratione intelligendum sit Chrisium
+          <lb ed="#P" n="25"/>Dominum commuwnem vitam egisse. — Sed in
+          <lb ed="#P" n="26"/>hae re cavenda est magna quaedam 
+          aequivoca<lb break="no" ed="#P" n="27"/>tio, in qua forte aliqui versantur. Nam dum
+          <lb ed="#P" n="28"/>agimus de communitate vitae, quantum ad
+          <lb ed="#P" n="29"/>conversandum cum hominibus, ad utendum
+          <lb ed="#P" n="30"/>communi cibo et potu, transitum faciunt ad
+          <lb ed="#P" n="31"/>vitam laburiosam, aerumnosam, pauperrimam,
+          <lb ed="#P" n="32"/>injuriis, doloribus, maximisque passionibus,
+          <lb ed="#P" n="33"/>usque ad mortem, subjectam; et ita 
+          conclu<lb break="no" ed="#P" n="34"/>dunt Christum austeram vitam professum esse,
+          <lb ed="#P" n="35"/>et putant se nobis contradicere. Quis autem
+          <lb ed="#P" n="36"/>Catholicus, etiam rudis, ignorat Christum 
+          Do<lb break="no" ed="#P" n="37"/>minum, a principio nativitatis usque ad 
+          mor<lb break="no" ed="#P" n="38"/>tein, vitam pauperrimam amplexum esse,
+          <lb ed="#P" n="39"/>adeo ut ne cum primum nasceretur, locum 
+          ha<lb break="no" ed="#P" n="40"/>beret ubi in diversorio poneretur, praeter vile
+          <lb ed="#P" n="41"/>praesepium; et postea, dum regnum coelorum
+          <lb ed="#P" n="42"/>praedicaret, non haberet ubi inclinaret caput
+          <lb ed="#P" n="43"/>suum, ac tandem nudus in cruce finiret 
+          vi<lb break="no" ed="#P" n="44"/>tam ? Quis etiam nesciat Christum recenter
+          <lb ed="#P" n="45"/>natum coactum fuisse peregrinari, quod sine
+          <lb ed="#P" n="46"/>magnis laboribus et incommodis fieri non 
+          po<lb break="no" ed="#P" n="47"/>tuit; et postea, praesertim ex quo tempore
+          <lb ed="#P" n="48"/>praedicare coepit, multum pro salute hominum
+          <lb ed="#P" n="49"/>laborasse, peditem quoque per varias partes
+          <lb ed="#P" n="50"/>discurrendo, famem. sitim et aestum saepius
+          <lb ed="#P" n="51"/>sustinuisse, cujus indicium nobis praebuit,
+          <lb ed="#P" n="52"/>quando, Joan. 4, fatigatus ex itinere, sedebat
+          <lb ed="#P" n="53"/>eic supra fontem, jejunus unius animae et per
+          <lb ed="#P" n="54"/>ilam aliarum multarum conversionem 
+          ex<lb break="no" ed="#P" n="55"/>pectando ? Penique omnes norunt Christum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Dominum magnos dolores et afflictiones 
+          cor<lb break="no" ed="#P" n="57"/>poris propter hunc finem exantelasse ; 
+          ali<lb break="no" ed="#P" n="58"/>quando ab inclementia aeris et coeli, seepius
+          <lb ed="#P" n="59"/>autem per hominum injuriam, quae omnia,
+          <lb ed="#P" n="60"/>tam in citata disput. 28, quam in mubiis 
+          se<lb break="no" ed="#P" n="61"/>quentibus abunde locupletavi. Non ergo de
+          <lb ed="#P" n="62"/>hoc agimus, cum de vita communi vel austera
+          <lb ed="#P" n="63"/>disserimus, sed solum ut vita communis 
+          op<lb break="no" ed="#P" n="64"/>ponitur solitariae, et non austera dicitur, 
+          quo<lb break="no" ed="#P" n="65"/>ad exteriorem usum cibi, ac potus, ac 
+          vesti<lb break="no" ed="#P" n="66"/>tus. Potest enim vita esse pauperrima inter
+          <lb ed="#P" n="67"/>homines degendo, et communibus eorum eibis
+          <lb ed="#P" n="68"/>eleemosyna acceptis utendo. Et similiter 
+          po<lb break="no" ed="#P" n="69"/>test esse talis vita laboriosa nimis, et injuriis
+          <lb ed="#P" n="70"/>et laboribus exposita, ut per se notum est.
+          <lb ed="#P" n="71"/>Dico autem passionibus expositam, quia aliud
+          <lb ed="#P" n="72"/>est agere, aliud pati; illud prius est in 
+          pote<lb break="no" ed="#P" n="73"/>state hominis, hoc autem posterius minime,
+          <lb ed="#P" n="74"/>sed ad Dei providentiam vel permissionem
+          <lb ed="#P" n="75"/>spectat, praesertim quando tales passiones vel
+          <lb ed="#P" n="76"/>injuriae ab aliis hominibus sustinendae sunt.
+          <lb ed="#P" n="77"/>Unde non est in potestate hominis imitari
+          <lb ed="#P" n="78"/>Christum, in actuali (ut sic dicam exercitio
+          <lb ed="#P" n="79"/>talium passionum vel injuriarum, sed in hoc
+          <lb ed="#P" n="80"/>solum ut, cum oportuerit, se illis, Deo 
+          ausi<lb break="no" ed="#P" n="81"/>liante, exponat, et propter illa non formidet
+          <lb ed="#P" n="82"/>in aliis operibus ministrare Christo. et 
+          conse<lb break="no" ed="#P" n="83"/>quentcer quando Deus illa permiserit, 
+          patien<lb break="no" ed="#P" n="84"/>ter sustinere. Sic ergo manifestum est, ablata
+          <lb ed="#P" n="85"/>verborum ambiguitate, qualem vitae rationem
+          <lb ed="#P" n="86"/>Christus servaverit.
+        </p>
+        <p xml:id="szovsr-q15003-d1e1388">
+          <lb ed="#P" n="87"/>9. In quibusdam Societas commumis vilg
+          <lb ed="#P" n="88"/>modum, a Christo servatum, imitatur. —Cumin
+          <lb ed="#P" n="89"/>ergo Societatis finis proximus sit et 
+          similli<lb break="no" ed="#P" n="90"/>mus fini incarnationis Christi, scilicet, 
+          ani<lb break="no" ed="#P" n="91"/>marum salus, et (ut ita dicam) efficacia 
+          re<lb break="no" ed="#P" n="92"/>demptionis circa illas, merito etiam Christum
+          <lb ed="#P" n="93"/>imitata est in hoc modo exteriori vitae 
+          com<lb break="no" ed="#P" n="94"/>munis. Primo quidem quoad hoc, ut inter 
+          ho<lb break="no" ed="#P" n="95"/>mines vivat et conversetur , quia non posset
+          <lb ed="#P" n="96"/>alio modo eos lucrari. Unde etiam religiones
+          <lb ed="#P" n="97"/>monachorum, quae praesertim a temporibus
+          <lb ed="#P" n="98"/>Sanctorum Dominici et Francisci, aliqua ex
+          <lb ed="#P" n="99"/>parte officium assumpserunt adjuvandi 
+          Epis<lb break="no" ed="#P" n="100"/>copos in ministerio animarum (ut Cajetanus
+          <lb ed="#P" n="101"/>alias dixit), rigorem etiam antiquorum 
+          mona<lb break="no" ed="#P" n="102"/>chorum, qui omnimodam separationem quoad
+          <lb ed="#P" n="103"/>habitationem observabant , ut est apud 
+          Basi<lb break="no" ed="#P" n="104"/>lium, regul. 6, ex tusioribus, temperarunt, in
+          <lb ed="#P" n="105"/>civitatibus monasteria construentes, et cum
+          <lb ed="#P" n="106"/>hominibus conversantes. Quo ergo Societas
+          <lb ed="#P" n="107"/>propensius huic muneri incumbit, eo amplius
+          <lb ed="#P" n="108"/>cum hominibus conversatur , quia non solum
+          <lb ed="#P" n="109"/>in civitatibus habitat, et ad se venientes 
+          be<lb break="no" ed="#P" n="110"/>uevole excipit, sed etiam per vieos et plateae
+          <pb ed="#P" n="607"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>eos quaerit, et per universum mundum 
+          pere<lb break="no" ed="#P" n="2"/>grinatur, ut omnes Christo lucretur, in quo
+          <lb ed="#P" n="3"/>et Christum et Apostolos imitatur. Studet
+          <lb ed="#P" n="4"/>etiam eorum spiritu rectam intentionem et
+          <lb ed="#P" n="5"/>prudentiam imitari , ut cum aliorum fructu,
+          <lb ed="#P" n="6"/>et sine proprio detrimento tantum opus 
+          per<lb break="no" ed="#P" n="7"/>ficiat. Secundo, ad hoc consequens est, ut
+          <lb ed="#P" n="8"/>etiam Christum imitetur in exteriori ratione
+          <lb ed="#P" n="9"/>vitae communis, quoad ea qua ad cibum, 
+          po<lb break="no" ed="#P" n="10"/>tum et vestitum pertinent, ex eodem 
+          funda<lb break="no" ed="#P" n="11"/>mento a D. Thoma constituto, quoniam 
+          con<lb break="no" ed="#P" n="12"/>venientissimum est ut is, qui cum aliis 
+          con<lb break="no" ed="#P" n="13"/>versatur, ut eos lucrifaciat, se cum eis in 
+          con<lb break="no" ed="#P" n="14"/>versatione conformet; quia sine dubio hoc
+          <lb ed="#P" n="15"/>multum confert ad conciliandos sibi eorum
+          <lb ed="#P" n="16"/>animos, quae magna est dispositio ut 
+          conver<lb break="no" ed="#P" n="17"/>satio cum illis fructuosa sit, et effectum 
+          ha<lb break="no" ed="#P" n="18"/>beat, si in illomet genere vitae omnis decentia,
+          <lb ed="#P" n="19"/>nt supponitur, temperantia, et honestas 
+          obser<lb break="no" ed="#P" n="20"/>vetur. Accedit etiam , quod ad pradictum 
+          fi<lb break="no" ed="#P" n="21"/>nem necessarium erat per varias mundi 
+          par<lb break="no" ed="#P" n="22"/>tes discurrere, saepiusque peregrinari , imo
+          <lb ed="#P" n="23"/>haec est gratia hujus cocationis, ut 
+          Grego<lb break="no" ed="#P" n="24"/>rius XIII, saepe citatus, dixit, et ideo oportuit
+          <lb ed="#P" n="25"/>homines Societatis, ex vi suae regulae, non
+          <lb ed="#P" n="26"/>esse huic vel illi ciborum generi addictos, sed
+          <lb ed="#P" n="27"/>illam Evangelii regulam , Luc. 106, servare:
+          <lb ed="#P" n="28"/>Manducate que apponuntur vobis. Neque enim
+          <lb ed="#P" n="29"/>expediebat aut frequenti dispensaticne uti,
+          <lb ed="#P" n="30"/>aut alium domi, alium foris vivendi ritum
+          <lb ed="#P" n="31"/>tenere, aut onerosos esse aliis, inter quos 
+          fre<lb break="no" ed="#P" n="32"/>quenter versari, et ab eis ali deberent.
+        </p>
+        <p xml:id="szovsr-q15003-d1e1516">
+          <lb ed="#P" n="33"/>10. Non solum in communis vitae modo, sed
+          <lb ed="#P" n="34"/>eliam in vite austeritate Societas Christum
+          <lb ed="#P" n="35"/>nitatur. — Atque hinc etiam fit ut, sicut 
+          So<lb break="no" ed="#P" n="36"/>cietas in hoc genere vitae communis Christum
+          <lb ed="#P" n="37"/>imitatur , ita etiam in ea vitae austeritate ,
+          <lb ed="#P" n="38"/>quam ipse amplexus est (ut adversariorum
+          <lb ed="#P" n="39"/>verbis utar ), ab ejusdem vestigio non recedat.
+          <lb ed="#P" n="40"/>Atque imprimis cum hoc genere vitae 
+          perfec<lb break="no" ed="#P" n="41"/>tam paupertatem conjungit ; nam, ut supra,
+          <lb ed="#P" n="42"/>capite 3, num. 5, tetigi, et infra, libro 4, cap.
+          <lb ed="#P" n="43"/>1, latius dicam, in domibus professorum 
+          pau<lb break="no" ed="#P" n="44"/>pertatem in particulari et in communi 
+          obser<lb break="no" ed="#P" n="45"/>vat; in collegiis autem studiorum eam 
+          reti<lb break="no" ed="#P" n="46"/>net, quae illi tempori et occupationi maxime
+          <lb ed="#P" n="47"/>est accommodata; et, quod caput est , in usu
+          <lb ed="#P" n="48"/>paupertatis quoad singulas personas maximum
+          <lb ed="#P" n="49"/>rigorem observat. In missionibus autem et
+          <lb ed="#P" n="50"/>peregrinationibus pro animarum salute, quoad
+          <lb ed="#P" n="51"/>feri possit, emendicato vivere debet. Deinde
+          <lb ed="#P" n="52"/>in laboribus pro animarum salute suscipiendis
+          <lb ed="#P" n="53"/>plurimum Christum imitatur; nulli enim 
+          la<lb break="no" ed="#P" n="54"/>bori parcere debet, ut illum finem assequatur.
+          <lb ed="#P" n="55"/>Unde in 4 p. Consti:utiouum. in deelaratione
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>prooemii, ea ratio redditur, propter quam 
+          ex<lb break="no" ed="#P" n="57"/>pedit juvenes in Societate admittere, qui et
+          <lb ed="#P" n="58"/>vita et moribus ab ea bene instituantur, et
+          <lb ed="#P" n="59"/>convenienter educentur : Tum (dicitur ibi)
+          <lb ed="#P" n="60"/>propter inagnos labores , quos ejus institutum
+          <lb ed="#P" n="61"/>emigit, twn propter magnam sui ipsorum 
+          abue<lb break="no" ed="#P" n="62"/>gationem. Atque hinc tandem fit, ut etiam in
+          <lb ed="#P" n="63"/>sustinendis injuriis, doloribus, aut passionibus
+          <lb ed="#P" n="64"/>Christum etiam imitari debeat, ut luculenter
+          <lb ed="#P" n="65"/>in Examine , cap. 4, S 44, et in 11 regula
+          <lb ed="#P" n="66"/>Summarii proponitur. Nam (ut in fine num.
+          <lb ed="#P" n="67"/>8 dixi) actualis occasio haec patiendi non est
+          <lb ed="#P" n="68"/>posita in patientis voluntate ; tamen 
+          praepara<lb break="no" ed="#P" n="69"/>tio, et animus ea sustinendi necessarius 
+          om<lb break="no" ed="#P" n="70"/>nino est eis, qui vitam suam huic ministerio
+          <lb ed="#P" n="71"/>et labori consecrarunt , quia moraliter fieri
+          <lb ed="#P" n="72"/>non potest, quin quamplures occasiones sese
+          <lb ed="#P" n="73"/>offerant talia patiendi eis, qui pro dignitate
+          <lb ed="#P" n="74"/>Evangelium praedicant, non solum inter 
+          fide<lb break="no" ed="#P" n="75"/>les, sed etiam inter paganos, Gentiles, et 
+          hae<lb break="no" ed="#P" n="76"/>reticos, ut non solum in Christo, et Apostolis,
+          <lb ed="#P" n="77"/>et in aliis praedicatoribus Evangelicis, sed
+          <lb ed="#P" n="78"/>etiam in ipsa Societate experientia, tum 
+          prae<lb break="no" ed="#P" n="79"/>terita, tum praesenti , compertum est. Ac 
+          pro<lb break="no" ed="#P" n="80"/>pterea in ejus Constitutionibus seepe 
+          commen<lb break="no" ed="#P" n="81"/>datur sui ipsorum abnegatio, et omnium 
+          re<lb break="no" ed="#P" n="82"/>rum temporalium contemptus, et desiderium
+          <lb ed="#P" n="83"/>patiendi cum Christo, quoniam nihi! magis
+          <lb ed="#P" n="84"/>necessarium est ad liberam et efficacem 
+          Evan<lb break="no" ed="#P" n="85"/>gelii praedicationem , qua de causa dictum
+          <lb ed="#P" n="86"/>existimo in bulla prima Julii IHI, non esse 
+          ali<lb break="no" ed="#P" n="87"/>quos in hac Societate admittendos , nisi pos:
+          <lb ed="#P" n="88"/>diuturnas et diligentissimas probationes , quia
+          <lb ed="#P" n="89"/>recera hoc institutum omnino humiles , et 
+          pru<lb break="no" ed="#P" n="90"/>dentes in Christo, et in Christiune vitee 
+          puri<lb break="no" ed="#P" n="91"/>late, ac litteris conspicuos exigit.
+        </p>
+        <p xml:id="szovsr-q15003-d1e1649">
+          <lb ed="#P" n="92"/>11. Objectio. — At vero, dicet aliquis, esto
+          <lb ed="#P" n="93"/>expediens fuerit, Societatem in externo habitu
+          <lb ed="#P" n="94"/>et in frequenti usu ciborum mediocritatem
+          <lb ed="#P" n="95"/>et communitatem quamdam tenere, hoc 
+          ta<lb break="no" ed="#P" n="96"/>men non impedire quin in interiori habitu,
+          <lb ed="#P" n="97"/>aut lectis, majorem aliquam asperitatem, et
+          <lb ed="#P" n="98"/>in jejuniis aliquam peculiarem observantiam
+          <lb ed="#P" n="99"/>ex vi regula habuerit praescriptam. Nam et
+          <lb ed="#P" n="100"/>Christus Dominus licet ordinarie dictum vitae
+          <lb ed="#P" n="101"/>modum observaverit, aliquando quadraginta
+          <lb ed="#P" n="102"/>diebus jejunavit, ut ejus rei nobis exemplum
+          <lb ed="#P" n="103"/>praeberet ; et similiter in suo habitu 
+          asperita<lb break="no" ed="#P" n="104"/>tem aliquam servasse credendus est, cum de
+          <lb ed="#P" n="105"/>Joanne loquens dixerit, Matth. 11 : Quem
+          <lb ed="#P" n="106"/>existis videre, hominem mollibus cestitun?
+          <lb ed="#P" n="107"/>Hocce qui mollibus vestiuntur, in domibus 
+          ve<lb break="no" ed="#P" n="108"/>gum sunt. Unde multi credunt tunicam 
+          incon<lb break="no" ed="#P" n="109"/>sutilem, super quam milites sortiti sunt. non
+          <lb ed="#P" n="110"/>lineam, scd laneam fuisse ; et alii opinantur
+          <pb ed="#P" n="608"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Christum Dominum nudis pedibus ambuiasse.
+        </p>
+        <p xml:id="szovsr-q15003-d1e1699">
+          <lb ed="#P" n="2"/>12. Pro objectionis solutione additur 
+          secun<lb break="no" ed="#P" n="3"/>da ratio praedicte coustitutionis. — Possemus
+          <lb ed="#P" n="4"/>ex ratione facta, eam cum proportione 
+          ap<lb break="no" ed="#P" n="5"/>plicando, huic objectioni satisfacere. Ut tamen
+          <lb ed="#P" n="6"/>res evidentior fiat, addamus secundam, quam
+          <lb ed="#P" n="7"/>existimamus multum movisse Beatum 
+          Igna<lb break="no" ed="#P" n="8"/>tium, ut praedictam vivendi regulam suis 
+          re<lb break="no" ed="#P" n="9"/>liquerit, et Summi Pontifices illam 
+          approba<lb break="no" ed="#P" n="10"/>rint. Hla autem est, quia, considerato fine
+          <lb ed="#P" n="11"/>hujus religionis, necessarium erat socios 
+          om<lb break="no" ed="#P" n="12"/>nes in maximis laboribus, tam mentis quam
+          <lb ed="#P" n="13"/>corporis, perpetuo versari, ideoque ad 
+          eum<lb break="no" ed="#P" n="14"/>dem finem consequendum, necessarium 
+          futu<lb break="no" ed="#P" n="15"/>rum esse afflictiones corporis ita moderari,
+          <lb ed="#P" n="16"/>ut laboribus illis sustinendis possint 
+          sufhi<lb break="no" ed="#P" n="17"/>cere, ne Societas suo fine frustraretur, et 
+          cu<lb break="no" ed="#P" n="18"/>randis aegris, potius quam proximis juvandis,
+          <lb ed="#P" n="19"/>instituta videretur. Quod praesentiens ac 
+          ti<lb break="no" ed="#P" n="20"/>mens Beatus Ignatius, non solum in 
+          afflictio<lb break="no" ed="#P" n="21"/>nibus corporis, sed etiam in ipsismet 
+          labori<lb break="no" ed="#P" n="22"/>bnus moderationem saepius commendat ; 
+          in<lb break="no" ed="#P" n="23"/>tellexit ergo, si jejuniorum aut aliarum 
+          auste<lb break="no" ed="#P" n="24"/>ritatum generalem aliquam regulam siatuere
+          <lb ed="#P" n="25"/>vellet, necessario futuram fuisse 
+          moderatissi<lb break="no" ed="#P" n="26"/>mam, quia generalis rigor in rebus 
+          corpora<lb break="no" ed="#P" n="27"/>libus, cum tanta varietate actionum et 
+          labo<lb break="no" ed="#P" n="28"/>rum, primum in studiis, et postea in 
+          minis<lb break="no" ed="#P" n="29"/>teriis etiam erga proximos, non poterat ab
+          <lb ed="#P" n="30"/>omnibus sustineri sine magno periculo, ac
+          <lb ed="#P" n="31"/>dispendio salutis, et consequenter cum 
+          impe<lb break="no" ed="#P" n="32"/>dimento majorum bonorum, quae ad Dei 
+          glo<lb break="no" ed="#P" n="33"/>riam et animarum profectum magis 
+          confe<lb break="no" ed="#P" n="34"/>runt. Melius autem judicavit pro regula 
+          re<lb break="no" ed="#P" n="35"/>linguere, et uniuscujusque affectum et 
+          facul<lb break="no" ed="#P" n="36"/>tatem, et Superioris providentiam ac 
+          pruden<lb break="no" ed="#P" n="37"/>tiam, quam generalem regulam multum 
+          mo<lb break="no" ed="#P" n="38"/>deratam proponere. Nam hac semel constituta
+          <lb ed="#P" n="39"/>omnes contenti essent illam implendo, etiamsi
+          <lb ed="#P" n="40"/>fortasse et viribus corporis potentiores essent,
+          <lb ed="#P" n="41"/>ctinajori poenitentiae exercitio ad suum 
+          pro<lb break="no" ed="#P" n="42"/>fectum indigerent. E converso vero alii, qui
+          <lb ed="#P" n="43"/>forte etiam ad illam moderationem 
+          suflticien<lb break="no" ed="#P" n="44"/>tes vires non haberent, vel eamdem servare
+          <lb ed="#P" n="45"/>regulam, vel ex dispensatione vivere 
+          cogeren<lb break="no" ed="#P" n="46"/>tur. Quorum prius, detrimentum, posterius
+          <lb ed="#P" n="47"/>vero tristitiam et anxietatem animi afferre
+          <lb ed="#P" n="48"/>solet.
+        </p>
+        <p xml:id="szovsr-q15003-d1e1804">
+          <lb ed="#P" n="49"/>13. Utilitates que eg hugusmodi 
+          constitu<lb break="no" ed="#P" n="50"/>lione sequuntur.—Plures ergo utilitates 
+          spera<lb break="no" ed="#P" n="51"/>vit Beatus Ignatius futuras in Societate ex
+          <lb ed="#P" n="52"/>hujusmodi regula, quas successores ejus per
+          <lb ed="#P" n="53"/>Dei gratiam experti sunt. Prima est, quod
+          <lb ed="#P" n="54"/>ponitentia Societatis non tantum poenitentia
+          <lb ed="#P" n="55"/>est, sed etiam obedicntia et humilitas, nam
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>hae duae virtutes maxime exercentur, dum
+          <lb ed="#P" n="57"/>aliquis Superiori suo aperit quidquid in hoc
+          <lb ed="#P" n="58"/>genere et facit et desiderat, et ejus arbitrio se
+          <lb ed="#P" n="59"/>conformat, vel moderando, vel augendo 
+          poe<lb break="no" ed="#P" n="60"/>nitentiae opera, juxta Superioris voluntaiem.
+          <lb ed="#P" n="61"/>Quod fuit consilium omnium antiquorum 
+          Pa<lb break="no" ed="#P" n="62"/>trum spiritualium, ut videre licet in Basilio,
+          <lb ed="#P" n="63"/>in Constit. monast., capite 20, et regul. 45,
+          <lb ed="#P" n="64"/>ex fusius disputatis ; Cassian., collat. 4, cap.
+          <lb ed="#P" n="65"/>20; Benedict.. in capite 49 suae regulae, ubi
+          <lb ed="#P" n="66"/>habet illa verba notanda: Quod umusquisque
+          <lb ed="#P" n="67"/>offerre coluerit (scilicet voluntariae 
+          abstinen<lb break="no" ed="#P" n="68"/>tiae, etc..) Abbati manifestet, ei cum ejus 
+          bene<lb break="no" ed="#P" n="69"/>dictione et voluntate faciat, uam quod sine 
+          li<lb break="no" ed="#P" n="70"/>centia Patris spiritualis fit, presumptioni et
+          <lb ed="#P" n="71"/>cane glorie tribuitur, non mercedi. Et de 
+          ea<lb break="no" ed="#P" n="72"/>dem re videri potest Bernard., sermon. 7 in
+          <lb ed="#P" n="73"/>Cant. Secunda utilitas est, quia hoc modo
+          <lb ed="#P" n="74"/>uniuscujusque utilitati corporali et spirituali
+          <lb ed="#P" n="75"/>melius provideri potest. Nam constitutio 
+          scri<lb break="no" ed="#P" n="76"/>pta complecti non potest qua unumquemque
+          <lb ed="#P" n="77"/>sigillatim attingunt, ut dixit Basilius supra,
+          <lb ed="#P" n="78"/>et in Constitut. monast., cap. 5, ubi 
+          mate<lb break="no" ed="#P" n="79"/>riam hanc late et eleganter prosequitur ; et
+          <lb ed="#P" n="80"/>ideo, licet ex aliis circumstantiis praestet 
+          legi<lb break="no" ed="#P" n="81"/>bus scriptis quam judiciis hominum 
+          guber<lb break="no" ed="#P" n="82"/>nari homines, ut communiter traditur cum
+          <lb ed="#P" n="83"/>D. Tüom., 1.2, quaest. 95, art. 1, attamen ex
+          <lb ed="#P" n="84"/>suo genere melior est animata regula, quam
+          <lb ed="#P" n="85"/>inanimata, ut dicitur in Authent. de 
+          Consuli<lb break="no" ed="#P" n="86"/>bus ', S Omnibus, ad finem, et indicat 
+          Aristo<lb break="no" ed="#P" n="87"/>teles. 3 Polit., cap. 11, et melius 5 Ethic., 
+          ca<lb break="no" ed="#P" n="88"/>pite 4, praesertim ubi animata regula facile
+          <lb ed="#P" n="89"/>conveniri potest, et ubi magnum periculum
+          <lb ed="#P" n="90"/>imminet, si pro omnibus una regula signetur,
+          <lb ed="#P" n="91"/>et majus, si uniuscujusque arbitrio negotium
+          <lb ed="#P" n="92"/>relinquatur. Unde Abbas Plato (ut apud 
+          Pal<lb break="no" ed="#P" n="93"/>ladium, in Historia Sanctorum, refert Sanet.
+          <lb ed="#P" n="94"/>Theodorus, in ejus vita) sic aiebat : Corporis
+          <lb ed="#P" n="95"/>afflictiones, humi cubationes, vigilie, et 
+          lu<lb break="no" ed="#P" n="96"/>jusinodi, per se laudabilia esse conc:det aliquis,
+          <lb ed="#P" n="97"/>sed nihil tamen evpedit, imo vero et ruina
+          <lb ed="#P" n="98"/>causum illam esse affirmaumus, qu suo uvlitrio
+          <lb ed="#P" n="99"/>in his faciendus utitur, nis ejus, quiprast,.
+          <lb ed="#P" n="100"/>5 ei regula dirigatur.
+        </p>
+        <p xml:id="szovsr-q15003-d1e1921">
+          <lb ed="#P" n="101"/>14. Tertia utilitas, de emercitio ganitentie
+          <lb ed="#P" n="102"/>is ori quom sipro omnibus moderata aligua
+          <lb ed="#P" n="103"/>preescriberetur. — Quarta utilitas. — Tertio,
+          <lb ed="#P" n="104"/>hinc factum credimus, ut cum effectu majus
+          <lb ed="#P" n="105"/>sit in Societate poenitentiae exercitium, quam
+          <lb ed="#P" n="106"/>si certa aliqua regula fuisset praescripta, quae
+          <lb ed="#P" n="107"/>fini ejus et tantae personarum varietati esset
+          <lb ed="#P" n="108"/>proportionata. Nam tunc, ut num. 12 dice-
+          <pb ed="#P" n="609"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>bam, omnes essent illa regula contenti, quae
+          <lb ed="#P" n="2"/>necessario deberet esse moderata, ut ostendi;
+          <lb ed="#P" n="3"/>nunc autem onmnes appetunt (regulariter 
+          lo<lb break="no" ed="#P" n="4"/>quor) facere quantum possunt, et plures etiam
+          <lb ed="#P" n="5"/>plusquam possunt; Superior autem vel 
+          confes<lb break="no" ed="#P" n="6"/>sor singulorum desideria moderatur. Unde
+          <lb ed="#P" n="7"/>etiam ftit, ut apud Deum longe major sit poeni -
+          <lb ed="#P" n="8"/>tentia, quam exterius appareat, quod non 
+          pa<lb break="no" ed="#P" n="9"/>rum etiam ad nostram humilitatem juvat, ut
+          <lb ed="#P" n="10"/>infra iterum attingam. Possem autem 
+          utilita<lb break="no" ed="#P" n="11"/>tem hanc ex effectu ipso ostendere, 
+          recensen<lb break="no" ed="#P" n="12"/>do varise poenitentiae opera, quae praedicto 
+          mo<lb break="no" ed="#P" n="13"/>do generali quidem consuetudine, justa vero,
+          <lb ed="#P" n="14"/>accommodave distributione in Societate fit,
+          <lb ed="#P" n="15"/>qualia sunt cilicia, non crebrae solum 
+          flagella<lb break="no" ed="#P" n="16"/>tiones secretae, sed publicae etiam multorum
+          <lb ed="#P" n="17"/>simul, in refectorio, praecipuis quibusque 
+          fes<lb break="no" ed="#P" n="18"/>iis Christi Domini, B. Virginis, Apostolorum,
+          <lb ed="#P" n="19"/>ac eorum quos alii atque alii praecipua 
+          vene<lb break="no" ed="#P" n="20"/>ratione colunt, patronosque deligunt ; item
+          <lb ed="#P" n="21"/>vigiliae, jejunia et similia. Veramtamen haec
+          <lb ed="#P" n="22"/>omitto, quia hominibus bene afftectis vel nota
+          <lb ed="#P" n="23"/>sunt, vel per se credibilia, male autem 
+          aflec<lb break="no" ed="#P" n="24"/>tis diflieile credentur, maxime cum sint 
+          secre<lb break="no" ed="#P" n="25"/>ta. Duo solum adverto : unum est, quia inter
+          <lb ed="#P" n="26"/>pradicta opera, jejunia sunt magis publica,
+          <lb ed="#P" n="27"/>et qua non possunt nisi in conspectu 
+          commu<lb break="no" ed="#P" n="28"/>nitatis fieri, ideo specialiter cautum esse in
+          <lb ed="#P" n="29"/>prima congregatione generali, ut Praepositi et
+          <lb ed="#P" n="30"/>heclores curam habeant admonendi alios ad
+          <lb ed="#P" n="31"/>singularitatem non pertinere, si quis jejunet
+          <lb ed="#P" n="32"/>aliis non jejunantibus. In quo supponitur 
+          je<lb break="no" ed="#P" n="33"/>junia particularia et privata debere esse in usu
+          <lb ed="#P" n="34"/>pro uniuseujusque devotione, habita ratione
+          <lb ed="#P" n="35"/>virium et laboris, judicio Superioris, ui reipsa
+          <lb ed="#P" n="36"/>sunt, iis maxime diebus, quibus per 
+          hebdo<lb break="no" ed="#P" n="37"/>madam ex praecepto Ecclesiae a carnibus 
+          absti<lb break="no" ed="#P" n="38"/>netur citra jejunium. Aliud est in partem non
+          <lb ed="#P" n="39"/>modicam poenitentiae computari , imprimis
+          <lb ed="#P" n="40"/>quoad cibum et potum, non solum contentos
+          <lb ed="#P" n="41"/>csse communi quantitate et qualitate ciborum
+          <lb ed="#P" n="42"/>proomnibus designata, quae juxta 
+          consuetudi<lb break="no" ed="#P" n="43"/>nem religionis vix eredi ab aliis potest, quam
+          <lb ed="#P" n="44"/>sit moderata ; verum etiam illa uti cum 
+          ma<lb break="no" ed="#P" n="45"/>gna temperantia et sobrietate, et praesertim
+          <lb ed="#P" n="46"/>nihil privatim possidere aut in propriis cellis
+          <lb ed="#P" n="47"/>habere, quo possint aliquando, vel necessitati
+          <lb ed="#P" n="48"/>occurrenti subvenire, vel insurgenti desiderio
+          <lb ed="#P" n="49"/>consentire, quam tanquam regulam perfectae
+          <lb ed="#P" n="50"/>abstinentiae posuerunt antiqui Patres; et 
+          spe<lb break="no" ed="#P" n="51"/>cialiter videri potest Cassianus, lib. 5 de 
+          Insti<lb break="no" ed="#P" n="52"/>tutis jejunantium, cap. 8 et 9; et Basil.,in
+          <lb ed="#P" n="53"/>Constit. monast., cap. 5, et optime in 26. Et
+          <lb ed="#P" n="54"/>cadem proportione de vestitu, et usu abarum
+          <lb ed="#P" n="55"/>rerum judicium fercndum est. Tandem pro
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>maxima utilitate reputatur, quod religiosi 
+          or<lb break="no" ed="#P" n="57"/>dinarie vivere possint, et suis laboriosis 
+          mu<lb break="no" ed="#P" n="58"/>neribus inservire, sine frequenti 
+          dispensatio<lb break="no" ed="#P" n="59"/>ne, quae sine dubio occasio esse solet et 
+          ob<lb break="no" ed="#P" n="60"/>murmurationis et relaxationis. Propter quod
+          <lb ed="#P" n="61"/>etiam in Concilio Tridentino cautum egst, ut
+          <lb ed="#P" n="62"/>frequentes legum dispensationes vitentur,
+          <lb ed="#P" n="63"/>quoad fieri possit ; maxime vero id vitandum
+          <lb ed="#P" n="64"/>venit, si pro tota vita, a totius communitatis
+          <lb ed="#P" n="65"/>rigore sint aliqui eximendi ob rationem ( ut
+          <lb ed="#P" n="66"/>aiunt) status magisterii, jubilationis, 
+          concio<lb break="no" ed="#P" n="67"/>natoris ordinis, efc. Propter has ergo, et alias
+          <lb ed="#P" n="68"/>causas, non una poenitentiae regula pro 
+          onni<lb break="no" ed="#P" n="69"/>bus posita est, sed illa solum, quae ad 
+          tempe<lb break="no" ed="#P" n="70"/>rantiam, honestatem, decentiam et 
+          pauperta<lb break="no" ed="#P" n="71"/>tem sufliciant ; has enim conditiones saepe in
+          <lb ed="#P" n="72"/>Constitutionibus suis observat D. Ignatius, ut
+          <lb ed="#P" n="73"/>patet tertia parte, cap. secundo, et sexta 
+          par<lb break="no" ed="#P" n="74"/>te, cap. 2, S decimo quinto, et sequenti.
+        </p>
+        <p xml:id="szovsr-q15003-d1e2108">
+          <lb ed="#P" n="75"/>15. Exemplo in objectione adducto de Christi
+          <lb ed="#P" n="76"/>Jejuniv satisfit. —Ad exemplum autem illud,
+          <lb ed="#P" n="77"/>quod in eadem objectione n. 11, de jejunio
+          <lb ed="#P" n="78"/>Christi Domini, afferebatur , respondet 
+          Basi<lb break="no" ed="#P" n="79"/>lius, dict. cap. 5 Constit. monast., in fine, ubi
+          <lb ed="#P" n="80"/>cum fere totam doctrinam a nobis positam
+          <lb ed="#P" n="81"/>late tradidisset , eodem modo sibi objicit, 
+          di<lb break="no" ed="#P" n="82"/>cens : At, et diuturnam Dominus inediam 
+          per<lb break="no" ed="#P" n="83"/>Lulit, diveris ; idem fecit Moyses , idem Hlias
+          <lb ed="#P" n="84"/>propheta; respondet : At enim illud tu quogue
+          <lb ed="#P" n="85"/>animadvertito, Dominum, itemque Moysem, et
+          <lb ed="#P" n="86"/>Hliam, hoc semel tantumn fecisse ; reliquo autem
+          <lb ed="#P" n="87"/>toto vite tempore, quod in regendo corpore eam,
+          <lb ed="#P" n="88"/>quam par erat, perpetuo disciplinge 
+          moderatio<lb break="no" ed="#P" n="89"/>nem adhübuerint, idque otio languere nunguam
+          <lb ed="#P" n="90"/>sigerint , sed usque in laboribus assiduisque
+          <lb ed="#P" n="91"/>exercitationibus continuerint , sicaue auailiari
+          <lb ed="#P" n="92"/>opera corporis, anima virlutes illustriores 
+          red<lb break="no" ed="#P" n="93"/>diderunt, dum omnibus swis partibus 
+          absolven<lb break="no" ed="#P" n="94"/>de spirituali sume conversationi operatorium
+          <lb ed="#P" n="95"/>ejusinodi, et acticam vitum , ceu sigilhun ac
+          <lb ed="#P" n="96"/>clausulum adjeceruut. Ubi Scholiastes in 
+          mar<lb break="no" ed="#P" n="97"/>gine adnotavit, Basilium loqui de activa vita,
+          <lb ed="#P" n="98"/>quae ex plenitudine contemplationis derivatur,
+          <lb ed="#P" n="99"/>ut est spiritualis doctrina, quam dicit esse
+          <lb ed="#P" n="100"/>consummationem perfectionis, et ad hanc 
+          per<lb break="no" ed="#P" n="101"/>tinere ita moderari corpus, ut illi possit 
+          in<lb break="no" ed="#P" n="102"/>servire. Atque hujus rei exempluimn dedisse
+          <lb ed="#P" n="103"/>Christum in ordinario cursu vitae suae, licet
+          <lb ed="#P" n="104"/>semel extraordinarium etiam jejunium 
+          serva<lb break="no" ed="#P" n="105"/>verit. Unde D. Thomas, 3 part., quaest. 
+          qua<lb break="no" ed="#P" n="106"/>dragesima , art. secundo, ad 1: Uftraque (
+          in<lb break="no" ed="#P" n="107"/>quit) vita est licita et laudabilis, ut , scilicet,
+          <lb ed="#P" n="108"/>aliquis a communi hominum consortio 
+          segre<lb break="no" ed="#P" n="109"/>gatus abstinentiam servet , et ut n societate
+          <lb ed="#P" n="110"/>aliorum positus communi vite utatur , et ideo
+          <pb ed="#P" n="610"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Dominus voluit utriusque vite evemplum dare
+          <lb ed="#P" n="2"/>hominibus. Fortasse etiam voluit illo exemplo
+          <lb ed="#P" n="3"/>docere, praedicatores , et ministros Evangelii
+          <lb ed="#P" n="4"/>oportere aliquoties a communi vita segregari,
+          <lb ed="#P" n="5"/>et per aliqua temporis spatia serius et 
+          fre<lb break="no" ed="#P" n="6"/>quendius contemplationi vacare, et corpus
+          <lb ed="#P" n="7"/>majoribus jejuniis, vigiliis et aliis modis 
+          affli<lb break="no" ed="#P" n="8"/>gere. In quo etiam Societas ipsum maxime
+          <lb ed="#P" n="9"/>imitatur per usum spiritualium exercitiorum,
+          <lb ed="#P" n="10"/>quae vel semel, vel saepius in anno fere ab
+          <lb ed="#P" n="11"/>omnibus per hebdomadam vel plures dies fieri
+          <lb ed="#P" n="12"/>solent , cum frequentiori usu jejuniorum, et
+          <lb ed="#P" n="13"/>aliarum corporalium afflictionum, quae ad 
+          ma<lb break="no" ed="#P" n="14"/>jorem devotionem, ac longiorem solito 
+          divi<lb break="no" ed="#P" n="15"/>narum rerum meditationem et 
+          contemplatio<lb break="no" ed="#P" n="16"/>nem possint deservire. Quam tandem 
+          consue<lb break="no" ed="#P" n="17"/>tudinem, sexta generalis congregatio suo 
+          de<lb break="no" ed="#P" n="18"/>creto stabilivit, ut lib. 8, c. 1, in fine 
+          aftere<lb break="no" ed="#P" n="19"/>mus.
+        </p>
+        <p xml:id="szovsr-q15003-d1e2234">
+          <lb ed="#P" n="20"/>16. Respondetur ad verba Christi, Qui 
+          mol<lb break="no" ed="#P" n="21"/>Itbus, e£c. — Ad aliam vero partem in eodem
+          <lb ed="#P" n="22"/>n. 11, respondetur, verba illa Christi Domini,
+          <lb ed="#P" n="23"/>Qui mollibus vestiuntur , etc., in eos dicta
+          <lb ed="#P" n="24"/>esse, qui delicias in vestibus quaerunt; non
+          <lb ed="#P" n="25"/>vero ad eos transferri possunt, qui (juxta 
+          con<lb break="no" ed="#P" n="26"/>silium Apostoli, 1 Tim. 6) habentes alimenta,
+          <lb ed="#P" n="27"/>et quibus tegantur, his contenti sint. Neque
+          <lb ed="#P" n="28"/>enim amplius habere censendi sunt, qui licet
+          <lb ed="#P" n="29"/>habitu nimirum austero non utantur, nihil
+          <lb ed="#P" n="30"/>tamen aliud in eo, quam decentiam, 
+          honesta<lb break="no" ed="#P" n="31"/>tem et commoditatem, suo statui, hoc est, 
+          re<lb break="no" ed="#P" n="32"/>ligioso clericatui necessariam, quaerunt. Hanc
+          <lb ed="#P" n="33"/>autem regulam servari voluit B. Ignatius in
+          <lb ed="#P" n="34"/>vestitu Societatis, ut supra, in cap. 5, notatum
+          <lb ed="#P" n="35"/>est. Unde, licet ex priori ratione, quae sumpta
+          <lb ed="#P" n="36"/>est ex communi vita, et conversatione cum
+          <lb ed="#P" n="37"/>proximis, prout supra disseruimus, solum 
+          vi<lb break="no" ed="#P" n="38"/>deatur concludi utilem fuisse communem 
+          ha<lb break="no" ed="#P" n="39"/>bitum clericorum, quantum ad ea quae 
+          exte<lb break="no" ed="#P" n="40"/>rius apparent, tamen ex ratione secunda, 
+          nu<lb break="no" ed="#P" n="41"/>mero duodecimo addita, quae respicit 
+          necessi<lb break="no" ed="#P" n="42"/>tatem virium, et salutis corporis ad sustinendos
+          <lb ed="#P" n="43"/>labores Societatis, idem a fortiori concluditur
+          <lb ed="#P" n="44"/>de usu interparum vestium. Eo vel maxime
+          <lb ed="#P" n="45"/>quod nullae fere adeo interiores lateant, quin
+          <lb ed="#P" n="46"/>exterius appareant ; et inter eas etiam est 
+          ser<lb break="no" ed="#P" n="47"/>vanda proportio et decentia, ad quam multum
+          <lb ed="#P" n="48"/>pertinet munditia , maxime in his personis
+          <lb ed="#P" n="49"/>quae cum aliis familiariter conversaturae sunt .
+          <lb ed="#P" n="50"/>Unde de omnibus clericis dixit Hieronymus,
+          <lb ed="#P" n="51"/>epistol. 2 ad Nepotianum : Ornatus et sordes
+          <lb ed="#P" n="52"/>pari modo fugiendae sunt, quia alterum deli-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>cias, alterum gloriam edolet. Quibus etiam
+          <lb ed="#P" n="54"/>ait, non ornentur veste, sed noribus ; et similia
+          <lb ed="#P" n="55"/>habet epist. 22 ad Eustochium. Cujus 
+          aucto<lb break="no" ed="#P" n="56"/>ritate hoc ipsum confirmat Concilium 
+          Seno<lb break="no" ed="#P" n="57"/>nense, 2 p. de Moribus, c. 24, et Concilium
+          <lb ed="#P" n="58"/>Coloniense, p. 5, c. 26. Et idem habet 
+          Conci<lb break="no" ed="#P" n="59"/>lium Mediolanense, sub Cardinalhi Borromeo,
+          <lb ed="#P" n="60"/>p- 2, c. de Clericorum vestitu. Et de b. 
+          Au<lb break="no" ed="#P" n="61"/>gustino refert Possid., in Vita ejus, c. 
+          vige<lb break="no" ed="#P" n="62"/>simo secundo, vestimenta illius, nec nitida
+          <lb ed="#P" n="63"/>nimium, neque abjecta plurimum, sed ex 
+          mo<lb break="no" ed="#P" n="64"/>derato et competenti habitu fuisse. De qua
+          <lb ed="#P" n="65"/>etiam re nonnulla in superioribus diximus in
+          <lb ed="#P" n="66"/>c. 5. Propter hanc ergo exteriorem decentiam,
+          <lb ed="#P" n="67"/>et munditiam (quam certe solitariis 
+          superva<lb break="no" ed="#P" n="68"/>caneam censuit Hilarion, nisi forte de curiosa
+          <lb ed="#P" n="69"/>ac mundum redolente locutus est) necessarium
+          <lb ed="#P" n="70"/>etiam fuit Societatem hoc genere vestimenti
+          <lb ed="#P" n="71"/>uti, cum illud propriam perfectionem non
+          <lb ed="#P" n="72"/>impediat , et utile sit, ut faciliorem magisque
+          <lb ed="#P" n="73"/>gratum possit habere aditum, ad omnes 
+          homi<lb break="no" ed="#P" n="74"/>nes, cujuscumque ordinis sint, lucrandos et 
+          fa<lb break="no" ed="#P" n="75"/>miliariter tractandos, quantum eorum saluti
+          <lb ed="#P" n="76"/>expediat. Porro autem dictis in tota hac 
+          se<lb break="no" ed="#P" n="77"/>cunda assertione minime adversatur observari
+          <lb ed="#P" n="78"/>in Societate, juxta regulam 5 ex communibus,
+          <lb ed="#P" n="79"/>abstinentiam sexta feriae per annum, 
+          statu<lb break="no" ed="#P" n="80"/>tumque fuisse in septima congregatione, can.
+          <lb ed="#P" n="81"/>2, ut in pervigilio S. Patris nostri Ignatii 
+          je<lb break="no" ed="#P" n="82"/>junium servetur. Haec enim magis ad cultum
+          <lb ed="#P" n="83"/>ac memoriam passionis Christi Domini et 
+          fun<lb break="no" ed="#P" n="84"/>datoris nostri referuntur, quam ad statam
+          <lb ed="#P" n="85"/>communemque toti religioni peenitentiam 
+          in<lb break="no" ed="#P" n="86"/>dicendam. Quod etiam de illa abstinentia ab
+          <lb ed="#P" n="87"/>omni recreatione, quam eadem Congregatio,
+          <lb ed="#P" n="88"/>in can. $, pro triduo passionis Christi pie 
+          in<lb break="no" ed="#P" n="89"/>troduxit , accipiendum est.
+        </p>
+        <p xml:id="szovsr-q15003-d1e2390">
+          <lb ed="#P" n="90"/>TERTIA CONCLUSIO.
+          <lb ed="#P" n="91"/>Societatis regulam valde strictam esse.
+        </p>
+        <p xml:id="szovsr-q15003-d1e2397">
+          <lb ed="#P" n="92"/>17. Suadetur ea dictis. — Tertio dicendum
+          <lb ed="#P" n="93"/>est, religionem Societatis sub regula valde
+          <lb ed="#P" n="94"/>stricta et rigorosa Deo inservire. Hoc facile
+          <lb ed="#P" n="95"/>demonstrabitur ex dictis, si declaratio 
+          termino<lb break="no" ed="#P" n="96"/>rum, supra, num. 2, posita, prae oculis 
+          habea<lb break="no" ed="#P" n="97"/>tur, nam regula non dicitur arcta, vel laxa,
+          <lb ed="#P" n="98"/>propter corporales afflictiones majores aut 
+          mi<lb break="no" ed="#P" n="99"/>nores (quamvis hoc etiam adjuvet), sed 
+          prae<lb break="no" ed="#P" n="100"/>cipue propter majorem rigorem et 
+          observan<lb break="no" ed="#P" n="101"/>tam in omnibus operibus virtutum et 
+          consi<lb break="no" ed="#P" n="102"/>liorum, et tanto erit major arctitudo, quanto
+          <lb ed="#P" n="103"/>fuerit major observantia in his quae majoris
+          <lb ed="#P" n="104"/>momenti et perfectionis sunt. Constat autem
+          <lb ed="#P" n="105"/>evidenter, regulam Societatis circa consilium
+          <pb ed="#P" n="611"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>obedientiae, quod est omnium maximum, esse
+          <lb ed="#P" n="2"/>arctissimum, quia descendit usque ad minima,
+          <lb ed="#P" n="3"/>cum maxima dependentia et subordinatione
+          <lb ed="#P" n="4"/>ad Superiorem; et se extendit usque ad 
+          ma<lb break="no" ed="#P" n="5"/>xima cum summa promptitudine, et totius 
+          ho<lb break="no" ed="#P" n="6"/>minis abnegatione ; qua de re late in lib. 4,
+          <lb ed="#P" n="7"/>c. 12 et 13; et qui hujusmodi obedientiam
+          <lb ed="#P" n="8"/>non observat, revera huic regulae plene non
+          <lb ed="#P" n="9"/>satisfacit ; ergo. In usu etiam paupertatis 
+          ma<lb break="no" ed="#P" n="10"/>ximam quamdam perfectionem requirit, ut in
+          <lb ed="#P" n="11"/>superioribus satis tactum est, et citato lib. 4,
+          <lb ed="#P" n="12"/>c. 8 et9 tractabitur. In castitate vero rigor
+          <lb ed="#P" n="13"/>consistit in summa vigilantia vitandi omnia,
+          <lb ed="#P" n="14"/>quae vel minimum possunt eam laedere. Quam
+          <lb ed="#P" n="15"/>verosit exacta haec cura, tam inregulis, quam
+          <lb ed="#P" n="16"/>in usu Societatis, notissimum est; nam 
+          ai<lb break="no" ed="#P" n="17"/>quibus potius videtur nimia; considerato 
+          au<lb break="no" ed="#P" n="18"/>tem fine et ministeriis Societats, nimia 
+          qui<lb break="no" ed="#P" n="19"/>dem non est, non tamen potest non esse 
+          ma<lb break="no" ed="#P" n="20"/>xima et valde rigorosa, si Societas debet in sua
+          <lb ed="#P" n="21"/>puritate conservari, ut per divinam gratiam
+          <lb ed="#P" n="22"/>hactenus conservatur; qui effectus satis probat
+          <lb ed="#P" n="23"/>regulam ejus in hac parte esse arctissimam.
+          <lb ed="#P" n="24"/>His accedit, quod ex vi regula Societatis, tam
+          <lb ed="#P" n="25"/>in Constitutionibus quam in regulis 
+          commu<lb break="no" ed="#P" n="26"/>nibus et particularibus contentae, necesse est,
+          <lb ed="#P" n="27"/>ut, qui perfecte ad illam se conformare 
+          volue<lb break="no" ed="#P" n="28"/>rit, strenue vigilet in custodia omnium 
+          sen<lb break="no" ed="#P" n="29"/>suum, et circumspectione verborum, et in 
+          ab<lb break="no" ed="#P" n="30"/>negatione propria voluntatis, et 
+          mortificatio<lb break="no" ed="#P" n="31"/>ne omnium affectuum, praesertim ambitionis
+          <lb ed="#P" n="32"/>et elationis ; quae omnia non solum corpus,
+          <lb ed="#P" n="33"/>sed etiam spiritum valde constringunt, et non
+          <lb ed="#P" n="34"/>parum interdum affligunt, praesertim quia haec
+          <lb ed="#P" n="35"/>eura, licet singulis voluntaria esse debeat, 
+          eis<lb break="no" ed="#P" n="36"/>que praecipue demandata sit, non tamen illis
+          <lb ed="#P" n="37"/>solis, sed etiam Superioribus ex vi suarum 
+          re<lb break="no" ed="#P" n="38"/>gularum, ut si qui in toto hoc negotio propriae
+          <lb ed="#P" n="39"/>mortificationis negligentes, ac remissi sint,
+          <lb ed="#P" n="40"/>eos excitent et exerceant. Si igitur haec omnia
+          <lb ed="#P" n="41"/>attente considerentur, et multa alia, quae ex
+          <lb ed="#P" n="42"/>ordinariis laboribus et exercitiis Societatis,
+          <lb ed="#P" n="43"/>tam internis quam externis, adjunguntur, 
+          ne<lb break="no" ed="#P" n="44"/>mo, qui ea satis percipiat, dubitabit quin 
+          hu<lb break="no" ed="#P" n="45"/>jus religionis institutum satis arctum et 
+          rigo<lb break="no" ed="#P" n="46"/>rosum sit.
+        </p>
+        <p xml:id="szovsr-q15003-d1e2535">
+          <lb ed="#P" n="47"/>18. Atque hine, servata proportione, inferre
+          <lb ed="#P" n="48"/>possumus illa duo, quae in capite superiori,
+          <lb ed="#P" n="49"/>num. 8 et 9, intulimus. Unum est, institutum
+          <lb ed="#P" n="50"/>hoc non posse in se judicari impertectum, aut
+          <lb ed="#P" n="51"/>minus prudenter ordinatum, eo quod ex 
+          re<lb break="no" ed="#P" n="52"/>gula certam corporis austeritatem aut afflic-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tionem non profiteatur, sed vitam quamdam
+          <lb ed="#P" n="54"/>in exterioribus communem, severam tamen,
+          <lb ed="#P" n="55"/>moderatam ac honestam. Probatur codem 
+          dis<lb break="no" ed="#P" n="56"/>cursu quem supra fecimus ; nam hae corporis
+          <lb ed="#P" n="57"/>afflictiones non sunt ita per se bonae, ut in eis
+          <lb ed="#P" n="58"/>consistat perfectio, sed ut sint instrumenta
+          <lb ed="#P" n="59"/>perfectionis acquirendae, ut D. Thomas docuit,
+          <lb ed="#P" n="60"/>quaest. 188, art. 6, ad3; et est doctrina 
+          om<lb break="no" ed="#P" n="61"/>nium Patrum : Augustini, quem D. Thom. 
+          ci<lb break="no" ed="#P" n="62"/>tat, 2 quaest. Evang., quaest. 11; et Gratiani,
+          <lb ed="#P" n="63"/>in c. Quod dicit , 41 d.; Basilii, citatis locis,
+          <lb ed="#P" n="64"/>praesertim in Constit. monast., c. 5, et serm.
+          <lb ed="#P" n="65"/>de Servanda virginitate ; Cassiani, et Patrum
+          <lb ed="#P" n="66"/>quos refert , collat. 1, c. 7,collat. 2, c. 2,et
+          <lb ed="#P" n="67"/>collat. 21, c. 13, 14 et 15. Et idem sumitur ex
+          <lb ed="#P" n="68"/>lib. 1 de Institutis, c. 11, et toto lib. 5. Igitur
+          <lb ed="#P" n="69"/>si, considerato fine (eoque perfectissimo) 
+          re<lb break="no" ed="#P" n="70"/>ligionis, major asperitas ex vi regula non est
+          <lb ed="#P" n="71"/>non solum necessaria, verum nec conveniens,
+          <lb ed="#P" n="72"/>non potest religio in se imperfecta aut minus
+          <lb ed="#P" n="73"/>bene instituta judicari, eo quod illo medio non
+          <lb ed="#P" n="74"/>utatur nisi cum moderatione et discretione,
+          <lb ed="#P" n="75"/>suo illi fini accommodato. Demonstratum 
+          au<lb break="no" ed="#P" n="76"/>tem est, considerato fine Societatis et 
+          labori<lb break="no" ed="#P" n="77"/>bus ejus, illud medium non fuisse illi 
+          conve<lb break="no" ed="#P" n="78"/>niens in alio gradu aut modo; ergo ex eo 
+          ca<lb break="no" ed="#P" n="79"/>pite non habet imperfectionem privativam, ut
+          <lb ed="#P" n="80"/>superiori capite, numero secundo, 
+          loqueba<lb break="no" ed="#P" n="81"/>mur. Quod si ulterius addamus, finem et 
+          la<lb break="no" ed="#P" n="82"/>bores hujus religionis adeo perfectos esse ex
+          <lb ed="#P" n="83"/>suo genere, ut austeritati corporis praeferend
+          <lb ed="#P" n="84"/>sint , quatenus hi cum illa conjungi non 
+          pos<lb break="no" ed="#P" n="85"/>sunt, juxta illud Pauli 1 ad Timoth. 4: 
+          Eer<lb break="no" ed="#P" n="86"/>citatio corporalis ad modicum utilis est, pietas
+          <lb ed="#P" n="87"/>autem ad omnia ; quemlocum ad hoc 
+          propo<lb break="no" ed="#P" n="88"/>situm, adjunctis multis Patrum testimoniis,
+          <lb ed="#P" n="89"/>tractavi in tom. 2 tertise partis, disput. 28,
+          <lb ed="#P" n="90"/>sect. 3; si hoc (inquam) addamus , ulterius
+          <lb ed="#P" n="91"/>etiam concludemus, nec negativam 
+          imperfec<lb break="no" ed="#P" n="92"/>tionem illam dici posse in tali religione, quia
+          <lb ed="#P" n="93"/>illa non est perfectio simpliciter simplex in
+          <lb ed="#P" n="94"/>hoc genere, ita ut formaliter sit necessaria ad
+          <lb ed="#P" n="95"/>perfectionem religionis ut sic ; potest siquidem
+          <lb ed="#P" n="96"/>eminenter contineri in aliis laboribus, et 
+          afflic<lb break="no" ed="#P" n="97"/>tionibus majoris momenti, et suppleri per
+          <lb ed="#P" n="98"/>desiderium exterioris poenitentiae gravioris,
+          <lb ed="#P" n="99"/>ex magno affectu interioris poenitentiae, 
+          prae<lb break="no" ed="#P" n="100"/>sertimque per voluntatis abnegationem, in
+          <lb ed="#P" n="101"/>qua religiosi perfectio consistit, ut dixit 
+          Joan<lb break="no" ed="#P" n="102"/>nes Climacus, in Gradu primo perfectionis, et
+          <lb ed="#P" n="103"/>Bonaventura in Speculo disciplinae, p. 1, cap.
+          <lb ed="#P" n="104"/>4. Advertant autem religiosi Societatis, nos
+          <lb ed="#P" n="105"/>hic. loqui de instituto ipso, non de singulis
+          <lb ed="#P" n="106"/>personis , nam singuli imperfecti erunt, si,
+          <lb ed="#P" n="107"/>quantum in ipsis est, afflictionibus corporis
+          <pb ed="#P" n="612"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>sibi proportionatis non utantur; neque erit eis
+          <lb ed="#P" n="2"/>sufficiens excusatio, quod in aliis laboribus
+          <lb ed="#P" n="3"/>studiorum aut aliorum operum pietatis 
+          ver<lb break="no" ed="#P" n="4"/>sentur, vel quod aliae abnegationes et internae
+          <lb ed="#P" n="5"/>mortificationes ab ipsis exerceantur, et 
+          custo<lb break="no" ed="#P" n="6"/>diae sensuum cura vigiliaque occupentur ; nam
+          <lb ed="#P" n="7"/>haec omnia non excusant ab usu poenitentiae
+          <lb ed="#P" n="8"/>exterioris, cum omni austeritate quae arbitrio
+          <lb ed="#P" n="9"/>Superioris possit prudenter cum illo alio 
+          gra<lb break="no" ed="#P" n="10"/>viori onere conjungi ; hoc enim non solum
+          <lb ed="#P" n="11"/>ipsa ratio per se majoris perfectionis, 
+          majoris<lb break="no" ed="#P" n="12"/>que cum Christo et Sanctis conformitatis, 
+          ve<lb break="no" ed="#P" n="13"/>rum etiam propria regula Societatis illa a 
+          no<lb break="no" ed="#P" n="14"/>bis sigillatim requirit, ut explicatum est, 
+          de<lb break="no" ed="#P" n="15"/>clararique amplius potest exempio paupertatis,
+          <lb ed="#P" n="16"/>quam collegia Societatis in communi non 
+          ha<lb break="no" ed="#P" n="17"/>bent, cum tamen singuli scholares habeant ;
+          <lb ed="#P" n="18"/>sic ergo in communitate Societatis regula 
+          de<lb break="no" ed="#P" n="19"/>finitae poenitentiae non datur ; quisque autem
+          <lb ed="#P" n="20"/>ex regula tenetur sibi convenientem cum 
+          Su<lb break="no" ed="#P" n="21"/>perioris nutu aut jussu assumere, contra quam
+          <lb ed="#P" n="22"/>etiam regulam faciet Superior, qui subdito ea
+          <lb ed="#P" n="23"/>in re non prospexerit.
+        </p>
+        <p xml:id="szovsr-q15003-d1e2726">
+          <lb ed="#P" n="24"/>19. Aliud corollarium huic simile est, 
+          pro<lb break="no" ed="#P" n="25"/>pter hoc genus vitae, non posse religionem hanc
+          <lb ed="#P" n="26"/>judicari minus perfectam quacumque alia, a
+          <lb ed="#P" n="27"/>qua in exteriori vitae austeritate ex vi regulae
+          <lb ed="#P" n="28"/>excedatur ; sicut D. Thomas dixit de excessu
+          <lb ed="#P" n="29"/>in paupertate, et nos ostendimus de excessu
+          <lb ed="#P" n="30"/>in usu chori, in citato num. 5 superioris 
+          capi<lb break="no" ed="#P" n="31"/>tis. Eadem enim ratio hic omnino applicari
+          <lb ed="#P" n="32"/>potest, quia ille excessus non est in re 
+          simpli<lb break="no" ed="#P" n="33"/>citer necessaria ad perfectionem, nequce in re
+          <lb ed="#P" n="34"/>omnium optima. Oportet ergo pensare an 
+          re<lb break="no" ed="#P" n="35"/>ligio illa, quae in austeritate excedit, in aliquo
+          <lb ed="#P" n="36"/>alio bono excedatur, ut in perfectione 
+          obe<lb break="no" ed="#P" n="37"/>dientiae, contemptu honorum et dignitatum,
+          <lb ed="#P" n="38"/>laboribus circa salutem proximi, et 
+          exercita<lb break="no" ed="#P" n="39"/>tione ac professione perfectarum 
+          solidarum<lb break="no" ed="#P" n="40"/>que virtutum, vel alia simili et deinde 
+          opor<lb break="no" ed="#P" n="41"/>tebit expendere quod illorum bonorum magis
+          <lb ed="#P" n="42"/>ponderet, et tunc legitime fiet comparatio,
+          <lb ed="#P" n="43"/>quam tamen facere, ut saepe dixi, mcum non
+        </p>
+        <p xml:id="szovsr-q15003-d1e2772">
+          <lb ed="#P" n="44"/>20. Ultimo ex dictis facilis est responsio ad
+          <lb ed="#P" n="45"/>secundam objectionem, cap. 7, num. 2, 
+          relic<lb break="no" ed="#P" n="46"/>tam, et ad rationem dubitandi in principio 
+          hu<lb break="no" ed="#P" n="47"/>jus capitis propositam. Nam imprimis 
+          distin<lb break="no" ed="#P" n="48"/>guimus austeritatem corporalem a rigore vel
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="49"/>arctitudine religionis, quae non immerito dici
+          <lb ed="#P" n="50"/>potest spiritualis austeritas, et quamvis prior
+          <lb ed="#P" n="51"/>in Societate non emineat, posteriorem 
+          ostendi<lb break="no" ed="#P" n="52"/>mus esse magnam, eamque per se ad 
+          perfec<lb break="no" ed="#P" n="53"/>tionem religionis pertinerc. Deinde fatemur
+          <lb ed="#P" n="54"/>antiquas religiones in majori austeritate 
+          cor<lb break="no" ed="#P" n="55"/>porali fuisse fundatas, quantum ad ea quae pro
+          <lb ed="#P" n="56"/>toto corpore religionis per generales regulas
+          <lb ed="#P" n="57"/>designabantur ; id vero ortum est ex 
+          diversi<lb break="no" ed="#P" n="58"/>tate finis, studiorum, actionum ac laborum ;
+          <lb ed="#P" n="59"/>et ideo haec diversitas non est contrarietas, sed
+          <lb ed="#P" n="60"/>potius conformitas proportionata. Quoad usum
+          <lb ed="#P" n="61"/>autem et exercitium earumdem vel 
+          aequivalen<lb break="no" ed="#P" n="62"/>tium austeritatum, et afflictionum corporis ,
+          <lb ed="#P" n="63"/>ortum etiam ex vi regulae, licet diverso modo
+          <lb ed="#P" n="64"/>propositae, fortasse non est magna diversitas;
+          <lb ed="#P" n="65"/>et si qua est, aliis muneribus compensatur, ut
+          <lb ed="#P" n="66"/>satis explicatum est. Denique addere 
+          possu<lb break="no" ed="#P" n="67"/>mus primam et antiquissimam religionum 
+          fuis<lb break="no" ed="#P" n="68"/>se religionem Apostolorum, quae quia non fuit
+          <lb ed="#P" n="69"/>instituta ad vitam quietam, vel solitariam aut
+          <lb ed="#P" n="70"/>otiosam, ut Augustinus loquitur, nee ut 
+          mem<lb break="no" ed="#P" n="71"/>bra ejus in uno loco consisterent, sed per
+          <lb ed="#P" n="72"/>universum mundum discurrerent , ideo non
+          <lb ed="#P" n="73"/>legitur fuisse fundata in certa aut uniformi
+          <lb ed="#P" n="74"/>austeritatis regula, praeter tria substantialia
+          <lb ed="#P" n="75"/>religionis vota, cum maxima eorum 
+          perfectio<lb break="no" ed="#P" n="76"/>ne in ordine ad illum finem, qui, Actor. 6, illis
+          <lb ed="#P" n="77"/>verbis exprimitur : JVos vero orationi et 
+          ininis<lb break="no" ed="#P" n="78"/>terio verbi instantes erimus. Unde, licet 
+          cer<lb break="no" ed="#P" n="79"/>tum sit Apostolos castigasse corpora sua, et in
+          <lb ed="#P" n="80"/>servitutem redegisse, modus tamen non cst
+          <lb ed="#P" n="81"/>certus, nec unus et idem pro omnibus fuit 
+          de<lb break="no" ed="#P" n="82"/>finitus, sed unusquisque, quod prudenti 
+          arbi<lb break="no" ed="#P" n="83"/>trio suo muneri, juxta proportionem virium et
+          <lb ed="#P" n="84"/>actionum, expedire judicabat, egissc creditur.
+          <lb ed="#P" n="85"/>Nam de Jacobo fratre Domini refert Eusebius,
+          <lb ed="#P" n="86"/>lib. 2 Histor., cap. vigesimo quarto, ex 
+          Hege<lb break="no" ed="#P" n="87"/>sippo, nunquam induisse laneam vesiem, sed
+          <lb ed="#P" n="88"/>sola syndone linea usum ; alii vero hoc non
+          <lb ed="#P" n="89"/>observarunt, et ita est de aliis rebus ad usum
+          <lb ed="#P" n="90"/>corporis accommodatis. Illud ergo institutum
+          <lb ed="#P" n="91"/>suo modo imitatur Societas, ejusque alumni
+          <lb ed="#P" n="92"/>conari debent ut, quoad possint, Apostolos
+          <lb ed="#P" n="93"/>imitentur. Hoc, inter alia, observato 
+          discri<lb break="no" ed="#P" n="94"/>mine, quod Apostoli in hujusmodi rebus ab
+          <lb ed="#P" n="95"/>spiritu Sancto proxime et specialissime 
+          regc<lb break="no" ed="#P" n="96"/>bantur ; nobis autem Superioris. judicium et
+          <lb ed="#P" n="97"/>volurtas pro regula proposita est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

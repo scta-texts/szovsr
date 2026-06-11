@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="654"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r00018"><!-- t10l3c1 -->
+        <head xml:id="szovsr-r00018-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-r00018-Hd1e103" type="question-title">Proponuntur rationes dubitandi circa advissionem scholarium in societatem.</head>
+        <p xml:id="szovsr-r00018-d1e106">
+          <lb ed="#C" n="13"/>CAPUT I.
+          <lb ed="#C" n="14"/>PROPONUNTUR RATIONES DUBITANDI CIRCA 
+          ADVIS<lb break="no" ed="#C" n="15"/>SIONEM SCHOLARIUM IN SOCIETATEM.
+        </p>
+        <p xml:id="szovsr-r00018-d1e115">
+          <lb ed="#C" n="16"/>1. Prima dubitandi ratio. — Secunda. —
+          <lb ed="#C" n="17"/>Tertia ea multiplici incommodo. —In hac 
+          ad<lb break="no" ed="#C" n="18"/>missione novitiorum ad gradum scholarium
+          <lb ed="#C" n="19"/>per vota simplicia, prima ratio dubitandi est,
+          <lb ed="#C" n="20"/>quia vel in hac admissione persona se tradit
+          <lb ed="#C" n="21"/>Societati, eique se devovet, et ab ea 
+          admitti<lb break="no" ed="#C" n="22"/>tur, vel non, sed solum simpliciter talia vota
+          <lb ed="#C" n="23"/>emittit. Si primum dicatur, nihil deest ad
+          <lb ed="#C" n="24"/>perfectam professionem religiosam, quia de
+          <lb ed="#C" n="25"/>substantia hujus professionis duo tantum sunt,
+          <lb ed="#C" n="26"/>scilicet, traditio acceptata, cum tribus votis
+          <lb ed="#C" n="27"/>substantialibus, ut supra ostensum est. Si
+          <lb ed="#C" n="28"/>vero dicatur secundum, illa non est unio cum
+          <lb ed="#C" n="29"/>religione, quia ubi non est contractus mutuus
+          <lb ed="#C" n="30"/>dandi et acceptandi, non potest esse vera
+          <lb ed="#C" n="31"/>unio moralis, quae constituat unum corpus
+          <lb ed="#C" n="32"/>politicum, et efficiat verum et stabile 
+          mem<lb break="no" ed="#C" n="33"/>brum; non videtur ergo possibilis talis 
+          mo<lb break="no" ed="#C" n="34"/>dus unionis, medius inter novitiatum et 
+          pro<lb break="no" ed="#C" n="35"/>fessionem. Dicetur fortasse, dari quidem 
+          tra<lb break="no" ed="#C" n="36"/>ditionem et acceptionem, sed non 
+          recipro<lb break="no" ed="#C" n="37"/>cam, quia obligat simpliciter cum, qui se 
+          tra<lb break="no" ed="#C" n="38"/>dit, non tamen religionem, sed solum 
+          quan<lb break="no" ed="#C" n="39"/>diu illum retinere voluerit. Contra hoc vero
+          <lb ed="#C" n="40"/>suboritur secunda ratio dubitandi, quia hinc
+          <lb ed="#C" n="41"/>sequitur talem modum receptionis esse 
+          illici<lb break="no" ed="#C" n="42"/>tum atque injustum. Probatur sequela, quia
+          <lb ed="#C" n="43"/>justitia contractus postulat aequalitatem ex
+          <lb ed="#C" n="44"/>utraque parte; hic autem invenitur maxima
+          <lb ed="#C" n="45"/>inaequalitas, quia receptus in Socictate manet
+          <lb ed="#C" n="46"/>obligatus ex se ad perpetuo vivendum et 
+          mo<lb break="no" ed="#C" n="47"/>riendum in illa, eique serviendum; ipsa vero
+          <lb ed="#C" n="48"/>Societas non se obligat ad perpetuo 
+          retinen<lb break="no" ed="#C" n="49"/>dum illum; est ergo injustitia in tali 
+          con<lb break="no" ed="#C" n="50"/>iractu, et ideo Doctores communiter, in c.
+          <lb ed="#C" n="51"/>Porrectum, de Regul., Navarrus, et alii, quos
+          <lb ed="#C" n="52"/>superiori tom. retuli, agentes de professione
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="53"/>religiosa, in hoc conveniunt, quod professio
+          <lb ed="#C" n="54"/>religiosa, ut debito modo fiat, debet continere
+          <lb ed="#C" n="55"/>contractum, et obligationem reciprocam 
+          in<lb break="no" ed="#C" n="56"/>ter religiosum et religionem. Tertio, etiamsi
+          <lb ed="#C" n="57"/>talis receptio esset licita, non videtur 
+          expe<lb break="no" ed="#C" n="58"/>diens, nec religioni accommodata. Primo 
+          qui<lb break="no" ed="#C" n="59"/>dem, quia talis vivendi modus non potest esse
+          <lb ed="#C" n="60"/>stabilis ac perpetuus, quod maxime 
+          necessa<lb break="no" ed="#C" n="61"/>rium est ad vitam religiosam. Deinde, quia ex
+          <lb ed="#C" n="62"/>illo sequi possunt multa inconvenientia, et
+          <lb ed="#C" n="63"/>quae scandalum generare possunt, quale est,
+          <lb ed="#C" n="64"/>quod personae semel Deo dicatae ad seculum
+          <lb ed="#C" n="65"/>facile revertantur, et negotiis secularibus,
+          <lb ed="#C" n="66"/>etiam in statu conjugii, omnino tradantur 
+          con<lb break="no" ed="#C" n="67"/>tra regulam 51: Semel Deo dicatum non est ad
+          <lb ed="#C" n="68"/>usus humanos ulterius transferendum, de 
+          Re<lb break="no" ed="#C" n="69"/>gul. jur., in 6. Item ex parte personarum 
+          in<lb break="no" ed="#C" n="70"/>eredientium possunt esse multae fraudes, ut si
+          <lb ed="#C" n="71"/>post vota liberius vivant, ut liberi 
+          dimittan<lb break="no" ed="#C" n="72"/>tur; vel, quod gravius est, si a principio eo
+          <lb ed="#C" n="73"/>animo ingrediantur, et ficte voveant, solum
+          <lb ed="#C" n="74"/>ut bonis et commodis religionis, quoad studia
+          <lb ed="#C" n="75"/>vel alia hujusmodi, aliquibus annis frui 
+          pos<lb break="no" ed="#C" n="76"/>sint, et postea sic vivere, vel occasionem 
+          quae<lb break="no" ed="#C" n="77"/>rere ut liberi dimittantur. Ex parte etiam 
+          re<lb break="no" ed="#C" n="78"/>ligionis possunt injustitiae intervenire, ex odio
+          <lb ed="#C" n="79"/>vel alio humano respectu aliquos dimittendo,
+          <lb ed="#C" n="80"/>vel certe, ex nimio affectu ad commodum 
+          re<lb break="no" ed="#C" n="81"/>ligionis, innocentem dimittendo, quia forte in
+          <lb ed="#C" n="82"/>eegritudinem incidit. Quae omnia pericula 
+          at<lb break="no" ed="#C" n="83"/>tente considerata avertere possunt homines
+          <lb ed="#C" n="84"/>ab affectu ingrediendi hanc religionem ; ergo,
+          <lb ed="#C" n="85"/>omnibus consideratis, nec simpliciter, nec 
+          re<lb break="no" ed="#C" n="86"/>ligioni talis modus admissionis expediens est.
+        </p>
+        <p xml:id="szovsr-r00018-d1e274">
+          <lb ed="#C" n="87"/>Necessarium esse admitti in Societate juvenes,
+          <lb ed="#C" n="88"/>qui bonis litieris imbuantur , antequam ad
+          <lb ed="#C" n="89"/>Societatis ministeria applicentur.
+        </p>
+        <p xml:id="szovsr-r00018-d1e284">
+          <lb ed="#C" n="90"/>2. Prima suppositio pro resolutione 
+          difft<lb break="no" ed="#C" n="91"/>cultatum adductarum.— Ratione suadetur ea 4
+          <lb ed="#C" n="92"/>parte Constitutionum, in principio. — Ut 
+          veri<lb break="no" ed="#C" n="93"/>tatem exponamus, suppono imprimis id, quod
+          <lb ed="#C" n="94"/>per se notum est, et infra, lib. 5, tractabitur,
+          <lb ed="#C" n="95"/>necessarium fuisse in hac religione, ad 
+          utili<lb break="no" ed="#C" n="96"/>tatem et conservationem ejus, recipi juvenes,
+          <lb ed="#C" n="97"/>qui ad ministeria Societatis optimis litteris in
+          <lb ed="#C" n="98"/>ea prius imbuantur, quam ad ejus ministeria
+          <lb ed="#C" n="99"/>applicentur. Cujus rei ratio optime traditur in
+          <lb ed="#C" n="100"/>initio quartae partis Constitutionum, lit. A, et
+          <lb ed="#C" n="101"/>ideo solum oportebit verba illa referre. Atque
+          <lb ed="#C" n="102"/>imprimis ex fine Societatis colligitur, et 
+          ne<lb break="no" ed="#C" n="103"/>cessarium, et rationi consentaneum esse, ti
+          <lb ed="#C" n="104"/>qui in ean sunt ingressuri (scilicet in Societa
+          <lb ed="#C" n="105"/>tem professam, seu ad ejus ministeria quas
+          <lb ed="#C" n="106"/>ex officio et propria obligatione peragenda).
+          <pb ed="#P" n="655"/>
+          <!-- 651 -->
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>viri sint vitae probitate et litterarum eruditione
+          <lb ed="#C" n="2"/>ad id officium idonei. Deinde vero optime 
+          sub<lb break="no" ed="#C" n="3"/>jungitur : Et quia boni simul et eruditi pauci
+          <lb ed="#C" n="4"/>inveniuntur, si cum alis comparentur, et ez
+          <lb ed="#C" n="5"/>paucis major pars jam a susceptis laboribus 
+          ve<lb break="no" ed="#C" n="6"/>lit conguiescere , perdifficile fore 
+          comprehendi<lb break="no" ed="#C" n="7"/>mus, hujusmodi hominibus, qui boni simul ac
+          <lb ed="#C" n="8"/>litterati essent, hanc Societatem augeri posse,
+          <lb ed="#C" n="9"/>tun propter magnos labores quos ejus 
+          institu<lb break="no" ed="#C" n="10"/>hun exigit ; tum propter magnam sui ipsorum
+          <lb ed="#C" n="11"/>abnegationem ; ideo nobis omnibus, qui 
+          conser<lb break="no" ed="#C" n="12"/>valtionem et incrementum ejus, ad majorem 
+          lau<lb break="no" ed="#C" n="13"/>dem et obsequium Dei, ac Domini Nostri 
+          cupie<lb break="no" ed="#C" n="14"/>Damus, alia via tenenda esse visa est ; 
+          admit<lb break="no" ed="#C" n="15"/>Ltendi nimirum juvenes, qui bonorum morum et
+          <lb ed="#C" n="16"/>ingeniorum indole spem facerent, quod in 
+          pro<lb break="no" ed="#C" n="17"/>bos simul ac doctos viros, ad colendam Christi
+          <lb ed="#C" n="18"/>Domini Nostri vineam essent evasuri, 
+          admit<lb break="no" ed="#C" n="19"/>tendi etiam in collegia, cum iis conditionibus,
+          <lb ed="#C" n="20"/>que in litteris Apostolicis continentur, sive in
+          <lb ed="#C" n="21"/>unicersitatibus, sice egtraillas fuerint ; et 
+          qui<lb break="no" ed="#C" n="22"/>dem si in universitatibus, sive Mle Sociectatis
+          <lb ed="#C" n="23"/>cura comnnisse sint, sive non. Hac enim 
+          va<lb break="no" ed="#C" n="24"/>tione nobis in Domino persuademus, ad mapus
+          <lb ed="#C" n="25"/>Divine Majestatis obsequium fore, si e uumero
+          <lb ed="#C" n="26"/>augeantur, et in litteris ac virtutibus 
+          progres<lb break="no" ed="#C" n="27"/>sum faciant ii, qui eidem obsequio se totos 
+          im<lb break="no" ed="#C" n="28"/>gendunt.
+        </p>
+        <p xml:id="szovsr-r00018-d1e391">
+          <lb ed="#C" n="29"/>3. Hanc consuetudinem jwvenes educandi 
+          an<lb break="no" ed="#C" n="30"/>Liguissiman esse monstratur. — Nec solum 
+          ra<lb break="no" ed="#C" n="31"/>lio et evidens necessitas, sed etiam antiqua
+          <lb ed="#C" n="32"/>Ecclesiae consuetudo Ignatium et Societatem
+          <lb ed="#C" n="33"/>docuit hoc modo educare et instituere 
+          juven<lb break="no" ed="#C" n="34"/>tutem , quae ad spiritualia ministeria, 
+          proxi<lb break="no" ed="#C" n="35"/>morum saluti necessaria, idonea postea 
+          exis<lb break="no" ed="#C" n="36"/>teret. Diximus enim saepe Societatem esse 
+          re<lb break="no" ed="#C" n="37"/>ligionem clericorum aut presbyterorum ; fuit
+          <lb ed="#C" n="38"/>autem olim juxta primitivam Ecclesiam 
+          ob<lb break="no" ed="#C" n="39"/>servatum, ut in dicecesibus, seu locis 
+          Episco<lb break="no" ed="#C" n="40"/>porum, domus aliquae essent specialiter 
+          depu<lb break="no" ed="#C" n="41"/>tatae ad juvenes in virtute et litteris 
+          educan<lb break="no" ed="#C" n="42"/>dos, ex quibus postea possent boni clerici et
+          <lb ed="#C" n="43"/>Ecclesiae utiles ordinari, ut intelligi potest ex
+          <lb ed="#C" n="44"/>Concilio Toletano II, c. 1, et habetur d. 28, c.
+          <lb ed="#C" n="45"/>5, ubi sic dicitur: De his, quos coluntas 
+          paren<lb break="no" ed="#C" n="46"/>tum a primis infantie annis clericatus officio
+          <lb ed="#C" n="47"/>mancipavit , statuimus observandum , ut mox
+          <lb ed="#C" n="48"/>detonsi, vel ministerio doctorwmn traditi, in 
+          do<lb break="no" ed="#C" n="49"/>o Lcelesie sub Episcopali praesentia, a 
+          pre<lb break="no" ed="#C" n="50"/>posito sibi debeant erudiri. Idem habetur ex
+          <lb ed="#C" n="51"/>Concilio Toletano IV, cap. vigesimo tertio,
+          <lb ed="#C" n="52"/>quod est apud Gratianum, cap. 1, 12, quaest.
+          <lb ed="#C" n="53"/>1. Omnis (inquit) etas ab adolescentia ad 
+          ma<lb break="no" ed="#C" n="54"/>lum prona. est, nihil enim incertius quam cita
+          <lb ed="#C" n="55"/>adolescentium ; ob hoc constituere oportuit, ut
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>si qui in clero impuberes aut adolescentes 
+          exis<lb break="no" ed="#C" n="57"/>tunt, omnes in uno conclavi atrii maneant, ut
+          <lb ed="#C" n="58"/>lubrice etatis annos non in luauria, scd in 
+          dis<lb break="no" ed="#C" n="59"/>ciplinis ecclesiasticis agant, deputati 
+          devotissi<lb break="no" ed="#C" n="60"/>mo seniori, etc. Idem fere habetur in Concilio
+          <lb ed="#C" n="61"/>Aquisgran., c. 135. Quem morem juvare 
+          stu<lb break="no" ed="#C" n="62"/>duit Concilium Lateranense sub AlexandrollT,
+          <lb ed="#C" n="63"/>p. L c. 18; et aliud Lateranense, sub 
+          Inno<lb break="no" ed="#C" n="64"/>centio III, c. 11; et aliud sub Leone X, c. 9,
+          <lb ed="#C" n="65"/>de reformatione Curiae ; et tandem Concilium
+          <lb ed="#C" n="66"/>Tridentinum, sess. vigesima tertia, cap. 
+          de<lb break="no" ed="#C" n="67"/>cimo octavo. Ad hujus ergo sanctae 
+          consuetu<lb break="no" ed="#C" n="68"/>dinis imitationem Societas scholarium 
+          gra<lb break="no" ed="#C" n="69"/>dum introduxit, tanquam necessarium 
+          semi<lb break="no" ed="#C" n="70"/>narium ad eos ministros instituendos, qui pro
+          <lb ed="#C" n="71"/>dignitate Societati ad finem suum inservire
+          <lb ed="#C" n="72"/>possint. Quo enim presbyteri Societatis, ex vi
+          <lb ed="#C" n="73"/>sui instituti et vi professionis, ad perfectionem
+          <lb ed="#C" n="74"/>sacerdotalem (ut sic dicam) magis obligantur,
+          <lb ed="#C" n="75"/>eo perfectiori etiam indigent educatione et
+          <lb ed="#C" n="76"/>institutione a juventute sua.
+        </p>
+        <p xml:id="szovsr-r00018-d1e500">
+          <lb ed="#C" n="77"/>Conveniens ac necessarium fuisse hujusmodi
+          <lb ed="#C" n="78"/>scholares Societati per tria vota esse 
+          sub<lb break="no" ed="#C" n="79"/>stantialiter conjunctos.
+        </p>
+        <p xml:id="szovsr-r00018-d1e509">
+          <lb ed="#C" n="80"/>4. Secunda suppositio. — Ratione probatur
+          <lb ed="#C" n="81"/>conveniens, tum ex parte ipsorum scholarium.
+          <lb ed="#C" n="82"/>— Tum ea parte Societatis. — Secundo 
+          sup<lb break="no" ed="#C" n="83"/>ponendum est, convenientissimum ac 
+          mora<lb break="no" ed="#C" n="84"/>liter necessarium fuisse, ut hi scholares 
+          sub<lb break="no" ed="#C" n="85"/>stantialiter essent Societati conjuncti per 
+          ve<lb break="no" ed="#C" n="86"/>ram unionem moralem cum illa; et per tria
+          <lb ed="#C" n="87"/>substantialia vota religionis, ut cum 
+          pollici<lb break="no" ed="#C" n="88"/>tatione sese amplius conjungendi cum illa,
+          <lb ed="#C" n="89"/>vel eam profitendi, quando et quomodo 
+          ju<lb break="no" ed="#C" n="90"/>berentur. Hoc constat ex Constitutionibus et
+          <lb ed="#C" n="91"/>bullis Pontificiis, hunc gradum tanquam 
+          So<lb break="no" ed="#C" n="92"/>cietati intrinsecum, eique maxime 
+          necessa<lb break="no" ed="#C" n="93"/>rium approbantibus, ut c. 3 videbimus; quod
+          <lb ed="#C" n="94"/>etiam ratione et exemplo facile ostendi 
+          po<lb break="no" ed="#C" n="95"/>test. Ratio quidem, quia et ad spirituale 
+          bo<lb break="no" ed="#C" n="96"/>num ipsorum religiosorum, et ad finem et
+          <lb ed="#C" n="97"/>conservationem Societatis, hoc erat 
+          necessa<lb break="no" ed="#C" n="98"/>rium. Primum patet, quia ad perfectionem 
+          ta<lb break="no" ed="#C" n="99"/>lium personarum, necessarium erat ut a 
+          prin<lb break="no" ed="#C" n="100"/>cipio Deo dicarentur, et ad perfectionem 
+          se<lb break="no" ed="#C" n="101"/>quendam obligarentur ; alioqui, si usque ad
+          <lb ed="#C" n="102"/>finem studiorum hoc differretur, et ipsi 
+          ma<lb break="no" ed="#C" n="103"/>gnis commodis spiritualibus et gratiis 
+          priva<lb break="no" ed="#C" n="104"/>rentur, et periculo facillima mutabilitatis 
+          ex<lb break="no" ed="#C" n="105"/>ponerentur. Ex parte item Societatis erat 
+          evi<lb break="no" ed="#C" n="106"/>dens necessitas, quia, nisi ex parte 
+          studen<lb break="no" ed="#C" n="107"/>tium esset obligatio manendi in illa, suo fine
+          <lb ed="#C" n="108"/>et laboribus fere frustraretur; nam 
+          complu<lb break="no" ed="#C" n="109"/>res post studia discederent, si hoc esset posi-
+          <pb ed="#P" n="656"/>
+          <!-- 652 -->
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>tum in libera eorum voluntate: 7nigue autem
+          <lb ed="#C" n="2"/>(ait Gregorius NIII, in Constitutione 
+          Ascen<lb break="no" ed="#C" n="3"/>dente Domino) cum Societate ageretur, si viris
+          <lb ed="#C" n="4"/>multo labore ad urdua ministeria eruditis, cum
+          <lb ed="#C" n="5"/>religionis Catholice et hejus Sedis detrimento
+          <lb ed="#C" n="6"/>privaretur. Ft e converso pauci essent vcrum
+          <lb ed="#C" n="7"/>desiderium religiosi status habentes, qui 
+          tan<lb break="no" ed="#C" n="8"/>to tempore sine illo statu permanere vellent.
+          <lb ed="#C" n="9"/>Deinde vix possent convenienter gubernari,
+          <lb ed="#C" n="10"/>nisi votum obedientiae et paupertatis 
+          habe<lb break="no" ed="#C" n="11"/>rent, et innumera incommoda, et magna 
+          con<lb break="no" ed="#C" n="12"/>fusio sequi posset; quantum autem votum
+          <lb ed="#C" n="13"/>castitatis expediat, per se notum est. 
+          Deni<lb break="no" ed="#C" n="14"/>que, cum hujusmodi scholares approbati 
+          in<lb break="no" ed="#C" n="15"/>timam debeant habere communicationem cum
+          <lb ed="#C" n="16"/>reliquis membris Societatis in victu, 
+          familia<lb break="no" ed="#C" n="17"/>ritate, totiusque vitae communitate, 
+          monstro<lb break="no" ed="#C" n="18"/>sum esset et indecens, si omnia haec membra
+          <lb ed="#C" n="19"/>non haberent inter se substantialem unionem
+          <lb ed="#C" n="20"/>religiosi status. Quapropter, cum in 
+          Constitu<lb break="no" ed="#C" n="21"/>tionibus Societatis, p. 3, c. 3, lit. B, 
+          declara<lb break="no" ed="#C" n="22"/>tum sit, non repugnare instituto nostro, ex
+          <lb ed="#C" n="23"/>licentia Praepositi Generalis, et ad tempus,
+          <lb ed="#C" n="24"/>aliquos pauperes scholasticos in collegiis 
+          So<lb break="no" ed="#C" n="25"/>cietatis admittere, quamvis intra Societatem
+          <lb ed="#C" n="26"/>vere non recipiantur, neque ipsi promittant
+          <lb ed="#C" n="27"/>ipsam ingredi, statim adjungitur, et vestitus
+          <lb ed="#C" n="28"/>rationem in eis fuaturam esse diversam, et 
+          ha<lb break="no" ed="#C" n="29"/>bitationem separatam, ita ut qui institutum
+          <lb ed="#C" n="30"/>Societatis sequuntur, seorsim, et non 
+          com<lb break="no" ed="#C" n="31"/>misti aliis externis maneant. Dices: cur non
+          <lb ed="#C" n="32"/>poterant hoc modo educari omnes scholares
+          <lb ed="#C" n="33"/>Socictatis ? Respondeo, propter rationes 
+          fac<lb break="no" ed="#C" n="34"/>tas, non potuit haec esse generalis regula, 
+          ne<lb break="no" ed="#C" n="35"/>que educatio illa esset cum tguto affectu ci
+          <lb ed="#C" n="36"/>unione charitatis, tam ipsorum ad religionem,
+          <lb ed="#C" n="37"/>quam religionis ad ipsos; ex quadam vero 
+          ve<lb break="no" ed="#C" n="38"/>iuti dispensatione, id in casu aliquo 
+          permitti<lb break="no" ed="#C" n="39"/>tur, quando ex parte ipsorum non esset 
+          vo<lb break="no" ed="#C" n="40"/>luntas ingrediendi Socictatem, et ob alias
+          <lb ed="#C" n="41"/>cansas judicaretur ad majus Dei obsequium
+          <lb ed="#C" n="42"/>expedire aliquos ingenuos adolescentes ita
+          <lb ed="#C" n="43"/>educare. Sicut autem illa permissio specialis
+          <lb ed="#C" n="44"/>est, et per se non expediens, ita ejus usus 
+          ra<lb break="no" ed="#C" n="45"/>rissimus est, aut certe nullus; et experientia
+          <lb ed="#C" n="46"/>ipsa docuit, quando similis necessitas 
+          occur<lb break="no" ed="#C" n="47"/>rit, melius in separata domo et peculiari 
+          col<lb break="no" ed="#C" n="48"/>legio id fieri, quamvis sub cura Societatis
+          <lb ed="#C" n="49"/>existat, ut videmus Romae auctoritate 
+          Summo<lb break="no" ed="#C" n="50"/>rum Pontificum, et aliis locis fien.
+        </p>
+        <p xml:id="szovsr-r00018-d1e691">
+          <lb ed="#C" n="51"/>5. Exemplo idem suadetur. — Aliud 
+          exemn<lb break="no" ed="#C" n="52"/>phim. — Tandem non deest hujus 
+          institutio<lb break="no" ed="#C" n="53"/>nis proportionale exemplum ex antiquitate
+          <lb ed="#C" n="54"/>desumptum. Nam in dicto Concilio Toletano lT,
+          <lb ed="#C" n="55"/>et c. De his, 28 d., de iis minoribus clerieis,
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>qui in seminario Episcopali educabantur, 
+          di<lb break="no" ed="#C" n="57"/>citur, cum ad decimum octavum aetatis an
+          <lb ed="#C" n="58"/>uum perveniebant, interrogandos fuisse ar
+          <lb ed="#C" n="59"/>vellent ceelibatum servare; quod si 
+          perma<lb break="no" ed="#C" n="60"/>nere volcbant, promittebant castitatem, uil
+          <lb ed="#C" n="61"/>illo vinculo quasi obtigati ad clericatum 
+          ma<lb break="no" ed="#C" n="62"/>nerent. Sic etiam in Concilio Carthaginensi HI.
+          <lb ed="#C" n="63"/>c. 19, dicitur : Lectores, cum ad aunos 
+          puber<lb break="no" ed="#C" n="64"/>tatis pervenerint, cogantur aut ucores ducere
+          <lb ed="#C" n="65"/>aut continentiam profiteri. Hac etiam ratione.
+          <lb ed="#C" n="66"/>in Concilio illo Toletano ll, c. 2, statutum es
+          <lb ed="#C" n="67"/>ne clerici, ab uno Episcopo in suo collegio sex
+          <lb ed="#C" n="68"/>seminario enntriti, ab alio Episcopo in su:
+          <lb ed="#C" n="69"/>Ecclesia recipiantur: Quia durum est (inqui
+          <lb ed="#C" n="70"/>Concilium) vt eum, quem clius sensu et 
+          squa<lb break="no" ed="#C" n="71"/>lore infantim ewuit. alius suscipere ac 
+          vendi<lb break="no" ed="#C" n="72"/>care presumat. Volebant ergo antiqua de
+          <lb ed="#C" n="73"/>creta, ac merito, hujusmodi clericos esse 
+          ad<lb break="no" ed="#C" n="74"/>dictos illi Ecclesiae, in qua et pro qua educa
+          <lb ed="#C" n="75"/>bantur. Ad hunc ergo modum se habet 
+          So<lb break="no" ed="#C" n="76"/>cietas circa scholares suos, et eodem consilio
+          <lb ed="#C" n="77"/>ordinarunt Pontifices, ut scholares approbat
+          <lb ed="#C" n="78"/>in Societate ad nullam aliam religionem trans
+          <lb ed="#C" n="79"/>ire possint, excepto Carthusiensium ordine
+          <lb ed="#C" n="80"/>quod commune est etiam professis; de quc
+          <lb ed="#C" n="81"/>infra, libro undecimo, c. 2, dicendum est
+          <lb ed="#C" n="82"/>Potest etiam in hujus rei exemplum adduc
+          <lb ed="#C" n="83"/>id, quod nunc videmus a Pontificibus 
+          ob<lb break="no" ed="#C" n="84"/>servari in his seminarnis, quae ad edncan
+          <lb ed="#C" n="85"/>dos presbyteros doctos et catholicos diversa
+          <lb ed="#C" n="86"/>rum nationum, ad expugnandas haereses ii
+          <lb ed="#C" n="87"/>eis exortas, erexerunt; non enim aliter (quoc
+          <lb ed="#C" n="88"/>sciam) eos admittunt, nisi prius voto, vel ju
+          <lb ed="#C" n="89"/>ramento praestito suscipiendi sacros Ordines
+          <lb ed="#C" n="90"/>et in suis regnis vel provinciis pro fide 
+          Catho<lb break="no" ed="#C" n="91"/>lica, et animarum conversione laborandi, e.
+          <lb ed="#C" n="92"/>ministeria sacerdotalia exercendi, quia alias
+          <lb ed="#C" n="93"/>fere nullus fructus ex eo labore et expensis
+          <lb ed="#C" n="94"/>probabili certitudine sperari posset. Ia 
+          er<lb break="no" ed="#C" n="95"/>2o, servata proportione, necessaria fuit in 
+          So<lb break="no" ed="#C" n="96"/>cietate obligatio ex parte scholasticorum, eam
+          <lb ed="#C" n="97"/>vero oportuit fieri modo religioni 
+          accommo<lb break="no" ed="#C" n="98"/>dato, atque adeo per substantialia vota, e
+          <lb ed="#C" n="99"/>intumam religiosam unionem cum Societate
+          <lb ed="#C" n="100"/>ipsa.
+        </p>
+        <p xml:id="szovsr-r00018-d1e804">
+          <lb ed="#C" n="101"/>Obligationem per praedicta vota non esse 
+          mu<lb break="no" ed="#C" n="102"/>tuam.
+        </p>
+        <p xml:id="szovsr-r00018-d1e812">
+          <lb ed="#C" n="103"/>6. Tertia suppositio lipartita. — Ostenditur
+          <lb ed="#C" n="104"/>prior pars. — Tertio supponendum est, haec
+          <lb ed="#C" n="105"/>vota ita fieri in Societate, ut ex parte 
+          voven<lb break="no" ed="#C" n="106"/>tis sint ex intentione se obligandi in 
+          perpe<lb break="no" ed="#C" n="107"/>tuum, ad vivendum et moriendum in hac 
+          re<lb break="no" ed="#C" n="108"/>ligione sub obedientia ejus; es parte vero 
+          re<lb break="no" ed="#C" n="109"/>ligionis solum udmittaniur acceptando tradi-
+          <pb ed="#P" n="653"/>
+          <!-- 653 -->
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>tionem et obligationem ipsius voventis, non
+          <lb ed="#C" n="2"/>tamen se obligando ad semper retinendum 
+          ip<lb break="no" ed="#C" n="3"/>sum voventem, aut vota ejus; sed solum 
+          guaa<lb break="no" ed="#C" n="4"/>Lum Prepositus Generalis eos in Societate 
+          reti<lb break="no" ed="#C" n="5"/>nendos censuerit. Utrumque est manifestum,
+          <lb ed="#C" n="6"/>ac saepius repetitum in Constitutionibus ac
+          <lb ed="#C" n="7"/>Bullis Societatis. Nam, quod ad primum 
+          at<lb break="no" ed="#C" n="8"/>tinet, nihil magis ab scholasticis approbatis,
+          <lb ed="#C" n="9"/>vela novitiis expleto biennio, ut in illum 
+          gra<lb break="no" ed="#C" n="10"/>dum admittantur, postulatur, quam ut firmum
+          <lb ed="#C" n="11"/>propositum habeant vivendi et moriendi in
+          <lb ed="#C" n="12"/>Socielate. Unde in cap. tertio Examinis, S 
+          de<lb break="no" ed="#C" n="13"/>cimo tertio, primum interrogatur novitius, a
+          <lb ed="#C" n="14"/>ommnino decreverit seculum reliuguere, et cons:-
+          <lb ed="#C" n="15"/>lia Domiui uostri Jesu Christi sequi. Et 
+          sta<lb break="no" ed="#C" n="16"/>tim, 8 14: Num deliberatum habeat animi 
+          pro<lb break="no" ed="#C" n="17"/>positum vivendi et moriendi iu Domino, cum
+          <lb ed="#C" n="18"/>Lhac et in hac Societate Jesu Christi Creatoris,
+          <lb ed="#C" n="19"/>ac Domini nostri ? Et rursus c. 7, S 5: An 
+          sta<lb break="no" ed="#C" n="20"/>tuerit omnino apud se, studiis absolutis, ac 
+          pro<lb break="no" ed="#C" n="21"/>bationibus peractis, Societatem ad vivendum in
+          <lb ed="#C" n="22"/>ea, et inoriendum ingredi. Et infra, n. 7 et 8,
+          <lb ed="#C" n="23"/>haec stabilitas saepius examinanda dicitur.
+          <lb ed="#C" n="24"/>Deinde idem constat ex ipsa forma vovendi
+          <lb ed="#C" n="25"/>tria vota substantialia, atque ingressum in
+          <lb ed="#C" n="26"/>Societatem , ut vitam in ea perpetuo degant,
+          <lb ed="#C" n="27"/>jam formati aut professi, ut constat ex parte
+          <lb ed="#C" n="28"/>quinta Constitutionum, c. 4, 8 4, quae vota ad
+          <lb ed="#C" n="29"/>majus meritum et stabilitatem emitti 
+          dicun<lb break="no" ed="#C" n="30"/>tur, in Exam., c. 7, in principio. Denique 
+          ni<lb break="no" ed="#C" n="31"/>hil frequentius in Constitutionibus repetitur,
+          <lb ed="#C" n="32"/>et rationes, quibus paulo ante in secunda 
+          sup<lb break="no" ed="#C" n="33"/>positione probatum est , necessarium fuisse
+          <lb ed="#C" n="34"/>scholares approbari, et admitti in Societate
+          <lb ed="#C" n="35"/>sub obligatione, probant etiam talem 
+          obliga<lb break="no" ed="#C" n="36"/>tionem debuisse esse perpetuam, alioqui non
+          <lb ed="#C" n="37"/>vitarentür incommoda quae ibi dicta sunt.
+        </p>
+        <p xml:id="szovsr-r00018-d1e916">
+          <lb ed="#C" n="38"/>7. Ostenditur posterior. — Exponitur 
+          con<lb break="no" ed="#C" n="39"/>stitutio.— Altera item pars, quod Societas ex
+          <lb ed="#C" n="40"/>parte sua non absolute obligetur, expresse
+          <lb ed="#C" n="41"/>habetur in Examine, c. 7, et quinta parte,
+          <lb ed="#C" n="42"/>cap. 4, lit. D, et his verbis ponitur in 
+          Consti<lb break="no" ed="#C" n="43"/>lutione Ascendente Domino, Gregorii XII, ubi
+          <lb ed="#C" n="44"/>cum sermo sit de scholaribus, dicitur : 
+          Quaa<lb break="no" ed="#C" n="45"/>tun est ex parte ipsorum, perpetuo ; cz gurte
+          <lb ed="#C" n="46"/>vero Societatis, juzta Apostolica Tndulta et
+          <lb ed="#C" n="47"/>Constituliones praedictas tamdiu obligati sunt,
+          <lb ed="#C" n="48"/>quamndiu Prapositus Generalis eos in Societate
+          <lb ed="#C" n="49"/>retinendos esse judicaverit. Et ideo quinta
+          <lb ed="#C" n="50"/>parte Constitutionum, c. 4, de his scholaribus
+          <lb ed="#C" n="51"/>dicitur : Qui, peracta sua priori probatione
+          <lb ed="#C" n="52"/>el experimentis per biennium, in scholasticos
+          <lb ed="#C" n="53"/>approbatos admittuutur, coram aliquibus 
+          do<lb break="no" ed="#C" n="54"/>esticis, quamvis non in manibus cujusquam
+          <lb ed="#C" n="55"/>rota sua cnttaat, eic. Ubi in declaratione ita
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>explicantur illa verba: Non in manibus 
+          cu<lb break="no" ed="#C" n="57"/>jusquam :ut hoc votum soli Deo offertur, et non
+          <lb ed="#C" n="58"/>howini, ita ueino id admittit; propterea in 
+          nul<lb break="no" ed="#C" n="59"/>lius manibus fieri dicitur. Quve verba 
+          obscu<lb break="no" ed="#C" n="60"/>riora sunt, et egent expositione, quae iterum
+          <lb ed="#C" n="61"/>in c. 5, ad finem, recolenda erit. Nam certum
+          <lb ed="#C" n="62"/>est hac vota fieri aliquo modo in manibus
+          <lb ed="#C" n="63"/>Praelati Societatis, multumque in hoc differre
+          <lb ed="#C" n="64"/>a votis, quae novitius suo arbitrio facere 
+          po<lb break="no" ed="#C" n="65"/>test, et saepe facit, et repetit etiam publice,
+          <lb ed="#C" n="66"/>et in praesentia multorum, juxta easdem 
+          Con<lb break="no" ed="#C" n="67"/>stitutiones Societatis, in Examine, c. 1, et 3
+          <lb ed="#C" n="68"/>p. Constitutionum, c. 1, lit. F, ubi etiam 
+          de<lb break="no" ed="#C" n="69"/>claratur, talia vota non fieri in manibus 
+          cu<lb break="no" ed="#C" n="70"/>jusquam, neque admitti, quod longe aliter
+          <lb ed="#C" n="71"/>quam de votis scholasticorum approbatorum
+          <lb ed="#C" n="72"/>necesse est intelligi. Quia negari etiam non
+          <lb ed="#C" n="73"/>potest quin haec vota scholasticorum aliquo
+          <lb ed="#C" n="74"/>modo a Societate admittantur, alioqui non
+          <lb ed="#C" n="75"/>vere cum illa unirentur. Et ideo, in quinta
+          <lb ed="#C" n="76"/>parte Constitutionum, cap. 1, dicitur: Quic
+          <lb ed="#C" n="77"/>scholastici approbati, etiam modo qucdum 
+          inte<lb break="no" ed="#C" n="78"/>riori quam adanissi ad probationem, in corpus
+          <lb ed="#C" n="79"/>Societatis cooptantur, de eorum quoque 
+          admis<lb break="no" ed="#C" n="80"/>sione in hec quinta parte dicetur. Inscribitur
+          <lb ed="#C" n="81"/>autem illa pars, De iis quee ad admittendum in
+          <lb ed="#C" n="82"/>corpus Societatis pertinent ; ubi corpus 
+          Socic<lb break="no" ed="#C" n="83"/>tatis sumitur ut constat ex suis veris 
+          mem<lb break="no" ed="#C" n="84"/>bris, excludendo novitios, de quorum 
+          admis<lb break="no" ed="#C" n="85"/>sione in prima parte dictum fuerat. Ergo 
+          ne<lb break="no" ed="#C" n="86"/>cesse est ut scholastici ab ipsa Societate 
+          ad<lb break="no" ed="#C" n="87"/>mittantur iu vera membra ejus, quod non fit
+          <lb ed="#C" n="88"/>nisi per hac vota. Unde si talia vota etiam
+          <lb ed="#C" n="89"/>post biennium fiant coram aliquo, qui 
+          potes<lb break="no" ed="#C" n="90"/>tatem non habeat admittendi illa, non habent
+          <lb ed="#C" n="91"/>vim incorporandi in Societate, neque efliciunt
+          <lb ed="#C" n="92"/>scholarem approbatum, nec denique efficiunt
+          <lb ed="#C" n="93"/>vota Societatis. Necessaria ergo est aliqua 
+          ad<lb break="no" ed="#C" n="94"/>missio ; alioqui ad quid esset necessaria 
+          po<lb break="no" ed="#C" n="95"/>testas in admittente ? In hoc ergo sensu non
+          <lb ed="#C" n="96"/>tautum fiunt coram ipso, sed etiam in 
+          mani<lb break="no" ed="#C" n="97"/>bus ejus, ut ipse possit ea acceptare. Sic enim
+          <lb ed="#C" n="98"/>disit Gregorius XIII, in praedicta Constitutione
+          <lb ed="#C" n="99"/>Ascendente Domino, scholares, per haec vota
+          <lb ed="#C" n="100"/>se Societali dedicare, atque actu tradere ; quod
+          <lb ed="#C" n="101"/>impossibile est fieri, uisi in manibus alicujus
+          <lb ed="#C" n="102"/>illa emittant. In praedicta igitur Constitutione,
+          <lb ed="#C" n="103"/>dicuntur haec vota non fieri in manibus 
+          alicu<lb break="no" ed="#C" n="104"/>jus, qui ita illa acceptet vel recipiat, ut 
+          So<lb break="no" ed="#C" n="105"/>cietatem obliget ad ea semper in suo valore
+          <lb ed="#C" n="106"/>retinenda et conservanda. Et eodem sensu
+          <lb ed="#C" n="107"/>dicitur in declaratione neminem talia vota
+          <lb ed="#C" n="108"/>admittere, scilicet, ut absolute perpetua sint,
+          <lb ed="#C" n="109"/>sed solum sub conditione subintellecta,
+          <lb ed="#C" n="110"/>Societas huusmodi personas retinere velit, ut
+          <pb ed="#P" n="654"/>
+          <!-- 654 -->
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>ibidem dicitur. Quam conditionem latius, 
+          ca<lb break="no" ed="#C" n="2"/>pite sequenti, a n. 3, explicaturi sumus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

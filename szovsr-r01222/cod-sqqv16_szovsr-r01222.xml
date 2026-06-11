@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="699"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r01222"><!-- t10l4c1 -->
+        <head xml:id="szovsr-r01222-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-r01222-Hd1e103" type="question-title">Votum castitatis scholarium societatis jesu quale sit, et an dirimat subsequens matrimonium.</head>
+        <p xml:id="szovsr-r01222-d1e106">
+          <lb ed="#C" n="12"/>CAPUT I.
+          <lb ed="#C" n="13"/>VOTUM CASTITATIS SCHOLARIUM SOCIETATIS JESU
+          <lb ed="#C" n="14"/>QUALE SIT, ET AN DIRIMAT SUBSEQUENS 
+          MA<lb break="no" ed="#C" n="15"/>TRIMONIUM.
+        </p>
+        <p xml:id="szovsr-r01222-d1e117">
+          <lb ed="#C" n="16"/>1. Prima suppositio pro prima parte 
+          titu<lb break="no" ed="#C" n="17"/>li. — Secunda suppositio. — Quamvis inter
+          <lb ed="#C" n="18"/>vota minus perfectum sit votum paupertatis,
+          <lb ed="#C" n="19"/>tamen, quia votum castitatis brevius expediri
+          <lb ed="#C" n="20"/>potest, ab illo incipimus. Quod ergo attinet
+          <lb ed="#C" n="21"/>ad primam tituli partem, suppono primo hoc
+          <lb ed="#C" n="22"/>votum esse omnino integrum, et perfectum,
+          <lb ed="#C" n="23"/>tam in extensione materiae, quam in 
+          obliga<lb break="no" ed="#C" n="24"/>tione quam inducit; comprehendit enim 
+          to<lb break="no" ed="#C" n="25"/>tam materiam castitatis sine ulla restrictione,
+          <lb ed="#C" n="26"/>et ad totam illam servandam obligat cum
+          <lb ed="#C" n="27"/>omni rigore, cum quo potest obligare 
+          casti<lb break="no" ed="#C" n="28"/>tatis votum. Et ideo nihil circa haec addendum
+          <lb ed="#C" n="29"/>nunc occurrit iis, quae generatim de voto 
+          cas<lb break="no" ed="#C" n="30"/>titatis disputavimus superiori tomo. Suppono
+          <lb ed="#C" n="31"/>secundo hoc votum esse per se annexum 
+          sta<lb break="no" ed="#C" n="32"/>tui religioso, et traditioni seu dedicationi ad
+          <lb ed="#C" n="33"/>cultum Dei, quam de se facit talis persona in
+          <lb ed="#C" n="34"/>tali religione approbata. In quo, suo modo
+          <lb ed="#C" n="35"/>conveuit hoc votum cum solemni voto 
+          casti<lb break="no" ed="#C" n="36"/>tatis religionis, quoad perpetuitatem et 
+          sepa<lb break="no" ed="#C" n="37"/>rabilitatem a tali statu. Et idéo quae hic 
+          pos<lb break="no" ed="#C" n="38"/>sent tractari de dispensatione hujus voti per
+          <lb ed="#C" n="39"/>se, ac separatim a vinculo traditionis, seu 
+          in<lb break="no" ed="#C" n="40"/>corporationis cum Societate, eamdem 
+          ratio<lb break="no" ed="#C" n="41"/>nem habent cum illis, quae de voto solemni
+          <cb ed="#V" n="c"/>
+          <lb ed="#C" n="42"/>castitatis ibidem in simili puncto dicta sunt.
+          <lb ed="#C" n="43"/>Simpliciter enim inseparabile est a tali statu,
+          <lb ed="#C" n="44"/>illo durante, neque in hoc cadit unquam 
+          dis<lb break="no" ed="#C" n="45"/>pensatio, nec fortasse cadere potest, et 
+          cer<lb break="no" ed="#C" n="46"/>tum est praeter Summum Pontificem neminem
+          <lb ed="#C" n="47"/>habere hanc potestatem. Unde, licet Societas
+          <lb ed="#C" n="48"/>possit hoc votum tollere irritando hoc 
+          vincu<lb break="no" ed="#C" n="49"/>lum modo in cap. ult. superioris libri 
+          de<lb break="no" ed="#C" n="50"/>clarato, non tamen potest, retento vinculo,
+          <lb ed="#C" n="51"/>alicui facultatem dare ducendi uxorem, 
+          ve<lb break="no" ed="#C" n="52"/>luti sub ea conditione et lege, ut, si moriatur
+          <lb ed="#C" n="53"/>uxor, idem vinculum cum Societate maneat
+          <lb ed="#C" n="54"/>idem, et quasi reviviscat quoad usum, quia
+          <lb ed="#C" n="55"/>nullibi data est illi haec potestas; et quia 
+          ibi<lb break="no" ed="#C" n="56"/>dem generaliter dictum est non habere 
+          po<lb break="no" ed="#C" n="57"/>testatem dispensandi in his votis; haec autem
+          <lb ed="#C" n="58"/>quaedam dispensatio esset, et adeo specialis,
+          <lb ed="#C" n="59"/>ut nec a Pontifice unquam concedatur, et 
+          du<lb break="no" ed="#C" n="60"/>bium sit an concedi possit; in quo (ut dixij
+          <lb ed="#C" n="61"/>idem sentiendum est quod de voto solemni,
+          <lb ed="#C" n="62"/>quia aeque per se annexum est statui 
+          religio<lb break="no" ed="#C" n="63"/>so. Ab illo ergo solum differt conditione quam
+          <lb ed="#C" n="64"/>includit traditio cui annexum est. Et ideo
+          <lb ed="#C" n="65"/>omnia, quae diximus de illo voto solemni, huic
+          <lb ed="#C" n="66"/>communia sunt, his exceptis quae ex illa 
+          con<lb break="no" ed="#C" n="67"/>ditione, vel carentia ejus, pendent, ut est 
+          ir<lb break="no" ed="#C" n="68"/>ritabilitas, de qua jam dictum est, et vis 
+          di<lb break="no" ed="#C" n="69"/>rimendi matrimonium, vel subsequens, vel
+          <lb ed="#C" n="70"/>antecedens, de quibus hic solum in praesenti
+          <lb ed="#C" n="71"/>capite et sequenti dicendum superest. In 
+          ter<lb break="no" ed="#C" n="72"/>tio vero ad majorem explicationem et 
+          com<lb break="no" ed="#C" n="73"/>mendationem nostri instituti aliqua de hujus
+          <lb ed="#C" n="74"/>voti observantia adducemus.
+        </p>
+        <p xml:id="szovsr-r01222-d1e250">
+          <lb ed="#C" n="75"/>2. Exponitur sensus secundee partis tituli.
+          <lb ed="#C" n="76"/>— Quod attinet ad secundam partem tituli
+          <lb ed="#C" n="77"/>quaestio solum intelligi potest quamdiu hic
+          <lb ed="#C" n="78"/>status durat; nam si quis ejiciatur a 
+          Societa<lb break="no" ed="#C" n="79"/>te votis solutus, et ex religioso factus non 
+          re<lb break="no" ed="#C" n="80"/>ligiosus, clarum est non impediri hoc voto,
+          <lb ed="#C" n="81"/>quominus matrimonium licite et valide con-
+          <pb ed="#P" n="700"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>trahere possit, quia illud jam non est, et quod
+          <lb ed="#C" n="2"/>non est, nullum effectum habet. Potest autem
+          <lb ed="#C" n="3"/>quaestio tractari aut de hoc voto secundum
+          <lb ed="#C" n="4"/>se solum, quatenus per se est annexum tali
+          <lb ed="#C" n="5"/>statui, vel ratione juris positivi specialiter 
+          la<lb break="no" ed="#C" n="6"/>ti a Gregorio XIII, in Constitutione Ascendente
+          <lb ed="#C" n="7"/>Domino.
+        </p>
+        <p xml:id="szovsr-r01222-d1e288">
+          <lb ed="#C" n="8"/>3. Assertio certa.— Probatur primo ea 
+          men<lb break="no" ed="#C" n="9"/>te Pontificis. — Accedit unum signum a 
+          pos<lb break="no" ed="#C" n="10"/>teriori.— Alterum signum. — Ratio a priori.
+          <lb ed="#C" n="11"/>— Primo ergo certum est hoc votum ante 
+          il<lb break="no" ed="#C" n="12"/>lud decretum Gregorii impedivisse quidem,
+          <lb ed="#C" n="13"/>non tamen irritasse matrimonium postea 
+          sub<lb break="no" ed="#C" n="14"/>secutum. Heaec assertio certa est, primo ex
+          <lb ed="#C" n="15"/>Gregorio XIII, in dicta Constitutione, ubi illud
+          <lb ed="#C" n="16"/>jus condit tanquam novum, et ideo in priori
+          <lb ed="#C" n="17"/>bulla, ubi, idem institutum confirmaverat, et
+          <lb ed="#C" n="18"/>hos scholares veros religiosos esse 
+          declarave<lb break="no" ed="#C" n="19"/>rat, nullam hujus rei mentionem fecit; et 
+          no<lb break="no" ed="#C" n="20"/>bis, qui eo tempore Theologiam Romae 
+          profite<lb break="no" ed="#C" n="21"/>bamur, constat, magna diligentia et studio, et
+          <lb ed="#C" n="22"/>ab ipso Pontifice, qui doctissimus erat, et ab
+          <lb ed="#C" n="23"/>aliis doctoribus Theologis et Jurisperitis 
+          la<lb break="no" ed="#C" n="24"/>boratum esse, inquirendo an posset Pontifex,
+          <lb ed="#C" n="25"/>et an expediret tale impedimentum addere,
+          <lb ed="#C" n="26"/>omnesque pro certo supponebant usque ad
+          <lb ed="#C" n="27"/>illud tempus hoc votum non habuisse illum
+          <lb ed="#C" n="28"/>effectum. Quod etiam in tota Societate, et in
+          <lb ed="#C" n="29"/>omnibus qui illud emittebant, pro indubitato
+          <lb ed="#C" n="30"/>semper habitum est, quod est signum neque
+          <lb ed="#C" n="31"/>a voventibus fieri, neque a Societate solitum
+          <lb ed="#C" n="32"/>fuisse acceptari sub illa intentione irritandi.
+          <lb ed="#C" n="33"/>Denique, si aliquando contigit tale 
+          matrimo<lb break="no" ed="#C" n="34"/>nium sacrilege contrahi, dissolutum postea
+          <lb ed="#C" n="35"/>non est, sed ratum permansit, estra omnem
+          <lb ed="#C" n="36"/>controversiam, de quo eliam nobis evidenter
+          <lb ed="#C" n="37"/>constat, quod est signum hoc sensu fuisse 
+          re<lb break="no" ed="#C" n="38"/>ceptum tale votum in universa Ecclesia. 
+          Ra<lb break="no" ed="#C" n="39"/>tio vero a priori est, quia hoc impedimentum
+          <lb ed="#C" n="40"/>non est annexum voto castitatis, nisi ex 
+          con<lb break="no" ed="#C" n="41"/>stitutione Eeclesiae, ut in eadem constitutione
+          <lb ed="#C" n="42"/>idem Pontifex sensit, et significaverat prius
+          <lb ed="#C" n="43"/>Bonifacius VIII, in cap. unico de Voto, in 6.
+        </p>
+        <p xml:id="szovsr-r01222-d1e369">
+          <lb ed="#C" n="44"/>4. Objectio prima contra assertionem.—Dbuce
+          <lb ed="#C" n="45"/>vero contra hoc occurrunt objectiones. Prior
+          <lb ed="#C" n="46"/>est, quia ex multorum sententia votum 
+          castita<lb break="no" ed="#C" n="47"/>tis, eo ipso quod est per se annexum traditioni
+          <lb ed="#C" n="48"/>religiosae, irritat matrimonium contrahendum,
+          <lb ed="#C" n="49"/>ex vi traditionis, absque alio statuto 
+          Eccle<lb break="no" ed="#C" n="50"/>siae ; ergo juxta illam sententiam idem 
+          dicen<lb break="no" ed="#C" n="51"/>dum erit de hoc voto; nam in Societate 
+          sem<lb break="no" ed="#C" n="52"/>per fuit per se annexum traditioni, et vero
+          <lb ed="#C" n="53"/>statui religioso, neque quoad hoc, ut supra,
+          <lb ed="#C" n="54"/>libro praecedenti a cap. 2, visum est, 
+          Grego<lb break="no" ed="#C" n="55"/>rius XIII edidit jus novum, sed magis decla-
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>ravit antiquum, cum quo, vel ex quo ipsa 
+          So<lb break="no" ed="#C" n="57"/>cietas nata est. Nec quoad hoc videtur 
+          refer<lb break="no" ed="#C" n="58"/>re, quod haec traditio non sit ita absoluta et
+          <lb ed="#C" n="59"/>perpetua ex parte Societatis, sicut est in aliis
+          <lb ed="#C" n="60"/>religionibus ; nam, hinc solum colligi potest
+          <lb ed="#C" n="61"/>proportionalis differentia, scilicet, hoc 
+          impe<lb break="no" ed="#C" n="62"/>dimentum in hoc gradu Societatis non esse
+          <lb ed="#C" n="63"/>ita perpetuum intrinsece, et ex omni parte
+          <lb ed="#C" n="64"/>immutabile, sicut est in religiosis professis.
+          <lb ed="#C" n="65"/>Illud autem nihil obstare videtur, quominus
+          <lb ed="#C" n="66"/>cum proportione dictum impedimentum ita
+          <lb ed="#C" n="67"/>nascatur ex hoc voto, quamdiu durat, sicut
+          <lb ed="#C" n="68"/>ex alio. Nam ratio, ob quam dicitur sequi ex
+          <lb ed="#C" n="69"/>voto solemni, ratione traditionis, est, quia 
+          ta<lb break="no" ed="#C" n="70"/>lis persona jam non habet dominium sui 
+          cor<lb break="no" ed="#C" n="71"/>poris, ut illud tradat alteri. At haec ratio etiam
+          <lb ed="#C" n="72"/>in hoc voto, quamdiu durat, locum habet;
+          <lb ed="#C" n="73"/>quia etiam est annexum traditioni, per quam
+          <lb ed="#C" n="74"/>omnino idem jus translatum est in 
+          religio<lb break="no" ed="#C" n="75"/>nem ; et persona, durante illo vinculo, aeque
+          <lb ed="#C" n="76"/>non est sui juris, neque habet potestatem in
+          <lb ed="#C" n="77"/>corpus suum ; ergo, durante illo statu, 
+          tradi<lb break="no" ed="#C" n="78"/>tio erit nulla, facta alteri per matrimonium.
+        </p>
+        <p xml:id="szovsr-r01222-d1e450">
+          <lb ed="#C" n="79"/>5. Roboratur exemplo. — Profecto illatio
+          <lb ed="#C" n="80"/>objectionis apud me est valde probabilis, et
+          <lb ed="#C" n="81"/>efficaciter probata ex proportionalitate 
+          ratio<lb break="no" ed="#C" n="82"/>nis, quae potest hoc exemplo declarari. Nam
+          <lb ed="#C" n="83"/>si Joannes, verbi gratia, se traderet in 
+          servi<lb break="no" ed="#C" n="84"/>tutem Petro sub reciproca obligatione, ut nec
+          <lb ed="#C" n="85"/>Joannes se a servitute eximere, nec Petrus
+          <lb ed="#C" n="86"/>illum manumittere posset, Franciscus autem
+          <lb ed="#C" n="87"/>se traderet in perpetuam servitutem sine 
+          ob<lb break="no" ed="#C" n="88"/>ligatione ex parte domini, sed cum potestate
+          <lb ed="#C" n="89"/>manumittendi illum, si vellet, nihilominus
+          <lb ed="#C" n="90"/>Franciscus et Joannes aeque impotentes 
+          ma<lb break="no" ed="#C" n="91"/>nent durante illo statu, ut se alteri tradant in
+          <lb ed="#C" n="92"/>servos, quia utraque donatio fuit aeque 
+          vali<lb break="no" ed="#C" n="93"/>da, et utumque aeque privavit jure in se 
+          ip<lb break="no" ed="#C" n="94"/>sum; solumque relinquitur illa differentia,
+          <lb ed="#C" n="95"/>quod Joannes nunquam potest iterum fieri
+          <lb ed="#C" n="96"/>liber, et ideo impotentia ejus est omnino 
+          per<lb break="no" ed="#C" n="97"/>petua ; Franciscus autem potest manumitti,
+          <lb ed="#C" n="98"/>et tunc, si fiat liber, poterit alteri se tradere
+          <lb ed="#C" n="99"/>in servum, si voluerit. Ita ergo est in 
+          Socie<lb break="no" ed="#C" n="100"/>tate ; nam ex parte se tradentium est aequalis
+          <lb ed="#C" n="101"/>donatio, et consequenter aequalis privatio 
+          ju<lb break="no" ed="#C" n="102"/>ris in se ipsos. Differentia autem solum est in
+          <lb ed="#C" n="103"/>obligatione ex parte religionis, quae ad 
+          prae<lb break="no" ed="#C" n="104"/>dictum effectum nihil refert, ut ex dicto
+          <lb ed="#C" n="105"/>exemplo constat. Et ratio etiam est evidens,
+          <lb ed="#C" n="106"/>quia illa impotentia, si vera est, non fundatur
+          <lb ed="#C" n="107"/>in obligatione alterius, sed in privatione juris
+          <lb ed="#C" n="108"/>in se ipsum, quia translatum est in alium.
+          <lb ed="#C" n="109"/>Respondeo ergo ad objectionem , hoc 
+          discur<lb break="no" ed="#C" n="110"/>su potius mihi probari et confirmari, illam
+          <pb ed="#P" n="701"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>multorum sententiam essc falsam, de qua re
+          <lb ed="#C" n="2"/>tomo praecedenti, libro secundo, a cap. 
+          septi<lb break="no" ed="#C" n="3"/>mo, dictum est. Sed contirmationem hanc huc
+          <lb ed="#C" n="4"/>inde remisi, quia prius non poterat 
+          suflicien<lb break="no" ed="#C" n="5"/>ter intelligi. Itaque in forma negandum est
+          <lb ed="#C" n="6"/>objectionis antecedens.
+        </p>
+        <p xml:id="szovsr-r01222-d1e539">
+          <lb ed="#C" n="7"/>6. Secunda objectio.— Evasio. — on 
+          vide<lb break="no" ed="#C" n="8"/>tur salisfacere. — Alia objectio est, quia a
+          <lb ed="#C" n="9"/>principio institutionis Societatis optime potuit
+          <lb ed="#C" n="10"/>hoc votum comprehendi sub declaratione
+          <lb ed="#C" n="11"/>Bonifacii in cap. unico de Voto, in 6. Ergo
+          <lb ed="#C" n="12"/>virtute illius decreti habuit semper hoc votum
+          <lb ed="#C" n="13"/>vim irritandi matrimonium subsequens. 
+          Con<lb break="no" ed="#C" n="14"/>sequentia est clara, et antecedens probatur.
+          <lb ed="#C" n="15"/>Nam ibi in universum dicitur votum 
+          solem<lb break="no" ed="#C" n="16"/>nizari quoad hunc effectum per professionem
+          <lb ed="#C" n="17"/>factam in religione approbata a Sede 
+          Apos<lb break="no" ed="#C" n="18"/>tolica. Dictum est autem supra , libro 
+          praece<lb break="no" ed="#C" n="19"/>denti, cap. 5, hanc incorporationem 
+          schola<lb break="no" ed="#C" n="20"/>rium in Societate recte posse professionem
+          <lb ed="#C" n="21"/>appellari, et sub ea voce saepe in jure 
+          com<lb break="no" ed="#C" n="22"/>prehendi, praesertim in favorabilibus, inter
+          <lb ed="#C" n="23"/>quae merito computari potest hoc decretum;
+          <lb ed="#C" n="24"/>nam favor rergionis et ipsius voti est, quod
+          <lb ed="#C" n="25"/>tantam habeat efficaciam. Dicetur fortasse, in
+          <lb ed="#C" n="26"/>ipsis constitutionibus Societatis declaratum
+          <lb ed="#C" n="27"/>esse, tam ex intentione voventis quam 
+          Socie<lb break="no" ed="#C" n="28"/>tatis, hoc votum non fieri ut solemne, sed ut
+          <lb ed="#C" n="29"/>simplex, et ideo non potuisse sub illo decreto
+          <lb ed="#C" n="30"/>comprehendi. Sed hoc non videtur 
+          satisface<lb break="no" ed="#C" n="31"/>re, nam intentio voventis nihil refert ad illam
+          <lb ed="#C" n="32"/>solemnitatem, quae in hoc impedimento 
+          con<lb break="no" ed="#C" n="33"/>sistit; nam hoc impedimentum non provenit
+          <lb ed="#C" n="34"/>a voluntate voventis vel acceptantis, sed ab
+          <lb ed="#C" n="35"/>statuto Ecclesiae; unde, si de facto fiat illud
+          <lb ed="#C" n="36"/>votum, cui Ecclesia adjunxit hoc 
+          impedimen<lb break="no" ed="#C" n="37"/>tum, quidquid vovens intendat, contrahet 
+          il<lb break="no" ed="#C" n="38"/>lud; ut si quis recipiens Ordinem sacrum 
+          in<lb break="no" ed="#C" n="39"/>lendat simplex votum emittere, et non 
+          so<lb break="no" ed="#C" n="40"/>lemne, nihilominus votum ejus solemne erit,
+          <lb ed="#C" n="41"/>quia facto ipso ordinationis sacrae 
+          solemniza<lb break="no" ed="#C" n="42"/>tur, virtute ecclesiastici decreti, et 
+          indepen<lb break="no" ed="#C" n="43"/>denter ab ejus intentione. Sic ergo, cum illa
+          <lb ed="#C" n="44"/>intentio non impediat proprium vinculum 
+          re<lb break="no" ed="#C" n="45"/>ligiosum in religione approbata, quod 
+          genc<lb break="no" ed="#C" n="46"/>ratim per veram professionem contrahitur,
+          <lb ed="#C" n="47"/>non poterit impedire quominus votum inde
+          <lb ed="#C" n="48"/>solemnizetur quoad hunc effectum 
+          impedien<lb break="no" ed="#C" n="49"/>di matrimonium, quamvis maneat simplex
+          <lb ed="#C" n="50"/>quoad carentiam absolutae perpetuitatis, et
+          <lb ed="#C" n="51"/>quoad irritabilitatem ex parte religionis, nam
+          <lb ed="#C" n="52"/>cum hoc pendeat ex mutua obligatione, 
+          pen<lb break="no" ed="#C" n="53"/>det etiam ex intentione operantis. Maxime,
+          <lb ed="#C" n="54"/>quia a principio, in ipsis bullis approbantibus
+          <lb ed="#C" n="55"/>Societatem, dcclaratum est hoc votum ita
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>acceptari, et ideo esse simplex, et non 
+          so<lb break="no" ed="#C" n="57"/>lemne, quoad carentiam perpetuitatis 
+          abso<lb break="no" ed="#C" n="58"/>lutae ; nunquam tamen declaratum est non
+          <lb ed="#C" n="59"/>comprehendi sub solemni, quantum ad illum
+          <lb ed="#C" n="60"/>effectum.
+        </p>
+        <p xml:id="szovsr-r01222-d1e661">
+          <lb ed="#C" n="61"/>7. Probabilis ad objectionem responsto 
+          tri<lb break="no" ed="#C" n="62"/>pliciter suadetur. — Respondeo nihilominus,
+          <lb ed="#C" n="63"/>verius esse hoc votum non fuisse 
+          compre<lb break="no" ed="#C" n="64"/>hensum sub illa declaratione Bonifacii VIIT,
+          <lb ed="#C" n="65"/>non quia Societas tunc instituta non esset,
+          <lb ed="#C" n="66"/>nam, hoc non obstante, vota professorum
+          <lb ed="#C" n="67"/>Societalis,et cujuscumque religionis post illud
+          <lb ed="#C" n="68"/>decretum approbatae, sub eo plane 
+          compre<lb break="no" ed="#C" n="69"/>henduntur; sed quia nomine professionis ibi
+          <lb ed="#C" n="70"/>non includitur haec traditio, et acceptatio seu
+          <lb ed="#C" n="71"/>incorporatio scholarium in Societate. Hoc
+          <lb ed="#C" n="72"/>autem ostendit imprimis usus ipse, et 
+          com<lb break="no" ed="#C" n="73"/>munis sensus omnium sapientum, qui sunt
+          <lb ed="#C" n="74"/>praecipui legum interpretes. Secundo, quia
+          <lb ed="#C" n="75"/>Bonifacius revera intendit loqui de 
+          professio<lb break="no" ed="#C" n="76"/>ne simpliciter, quae omnem perfectionem 
+          vin<lb break="no" ed="#C" n="77"/>culi religiosi, etiam cum absoluia 
+          perpetuita<lb break="no" ed="#C" n="78"/>te includit; nam ponit hoc impedimentum
+          <lb ed="#C" n="79"/>tanquam perpetuo immutabile; tunc enim
+          <lb ed="#C" n="80"/>nondum erat in Ecclesia visum aut 
+          interdic<lb break="no" ed="#C" n="81"/>tum impedimentum irritans matrimonium ex
+          <lb ed="#C" n="82"/>vi voti, quod auferri postea posset, per 
+          muta<lb break="no" ed="#C" n="83"/>tionem seu ejectionem personae a statu 
+          reli<lb break="no" ed="#C" n="84"/>gioso. Tertio, quia ex primaeva institutione
+          <lb ed="#C" n="85"/>Societatis hoc votum ut simplex omnino 
+          in<lb break="no" ed="#C" n="86"/>stitutum est, et eodem modo fuit a 
+          Pontifici<lb break="no" ed="#C" n="87"/>bus approbatum et receptum, non solum 
+          pro<lb break="no" ed="#C" n="88"/>pter conditionem quam includit ex parte 
+          tra<lb break="no" ed="#C" n="89"/>ditionis, sed etiam quia non est illi addita vis
+          <lb ed="#C" n="90"/>inhabilitandi personam ad matrimonium; imo
+          <lb ed="#C" n="91"/>ex priori conditione sequebatur haec 
+          poste<lb break="no" ed="#C" n="92"/>rior, jure ordinario, quia Ecclesia nunquam
+          <lb ed="#C" n="93"/>addiderat tale impedimentum nisi voto 
+          om<lb break="no" ed="#C" n="94"/>nino absoluto. Quod ordinarium jus in 
+          prin<lb break="no" ed="#C" n="95"/>cipio Societatis conditae auctum non fuit; et
+          <lb ed="#C" n="96"/>ideo, tam ex intentione emittentis, quam 
+          So<lb break="no" ed="#C" n="97"/>cietatis acceptantis, et Sedis Apostolicae 
+          ap<lb break="no" ed="#C" n="98"/>probantis, fiebat hoc votum, tanquam omnino
+          <lb ed="#C" n="99"/>simplex, nullumque habens annexum 
+          impe<lb break="no" ed="#C" n="100"/>dimentum irritans subsequens matrimonium.
+        </p>
+        <p xml:id="szovsr-r01222-d1e750">
+          <lb ed="#C" n="101"/>8. Assertio omnino certa ex decreto 
+          Pontift<lb break="no" ed="#C" n="102"/>cio Gregorii XIII. — Id decretum potuisse
+          <lb ed="#C" n="103"/>condi probatur tripliciter. — Effugium 
+          eaclu<lb break="no" ed="#C" n="104"/>ditur. — Secundo certum est, post 
+          consti<lb break="no" ed="#C" n="105"/>tutionem Gregorii, Ascendente Domino, hoc
+          <lb ed="#C" n="106"/>votum , quamdiu durat, reddere personam
+          <lb ed="#C" n="107"/>inhabilem ad matrimonium contrahendum.
+          <lb ed="#C" n="108"/>Patet, quia ita expresse in illo definitum est;
+          <lb ed="#C" n="109"/>cum enim dixisset neminem posse tollere hoc
+          <lb ed="#C" n="110"/>votum, nisi vcl Summum Pontificem, vel So-
+          <pb ed="#P" n="702"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>cietatem , dimittendo personam, subdit : 
+          Ne<lb break="no" ed="#C" n="2"/>que ante hujusmodi dimissionein matrimonium
+          <lb ed="#C" n="3"/>contrahere, quinimo eos omnes ad 
+          contraben<lb break="no" ed="#C" n="4"/>dum inhabiles, ac contractus hujusmodi nullos
+          <lb ed="#C" n="5"/>et irritos facimus et anmullamus. Duo autem a
+          <lb ed="#C" n="6"/>nobis probanda sunt, scilicet, et Pontificem
+          <lb ed="#C" n="7"/>potuisse hoc facere, et expediens fuisse. 
+          Pri<lb break="no" ed="#C" n="8"/>mum satis ex facto ipso probatur; valde enim
+          <lb ed="#C" n="9"/>erraret in sana doctrina, qui, supposito 
+          fac<lb break="no" ed="#C" n="10"/>to, auderet potestatem negare, nam esset
+          <lb ed="#C" n="11"/>intolerabilis error in Ecclesia. Deinde 
+          proba<lb break="no" ed="#C" n="12"/>tur, quia Ecclesia potest matrimonii 
+          impedi<lb break="no" ed="#C" n="13"/>menta irritantia augere vel minuere, ut 
+          defi<lb break="no" ed="#C" n="14"/>nit Concilium Tridentinum, sess. 24, capit. 3,
+          <lb ed="#C" n="15"/>loquens in particulari de gradibus 
+          consan<lb break="no" ed="#C" n="16"/>guinitatis ; eadem autem ratio est dereliquis.
+          <lb ed="#C" n="17"/>Unde cap. 2 et 3 coarctat impedimenta 
+          irri<lb break="no" ed="#C" n="18"/>tantia, quae ex aflinitate carnali, publica 
+          ho<lb break="no" ed="#C" n="19"/>nestate et cognatione spirituali oriuntur : et
+          <lb ed="#C" n="20"/>a contrario, in cap. 1 inducit novum 
+          impedi<lb break="no" ed="#C" n="21"/>mentum matrimonii clandestini. Praeterea
+          <lb ed="#C" n="22"/>certum est, hoc impedimentum adjunctum
+          <lb ed="#C" n="23"/>esse voto clericorum ex constitutione 
+          Eccle<lb break="no" ed="#C" n="24"/>siae; ergo addi etiam potuit huic voto 
+          Socie<lb break="no" ed="#C" n="25"/>tatis. Quin etiam Sot., in 4, d. 27, quaest. 1,
+          <lb ed="#C" n="26"/>articulo quarto, de militibus S. Joannis 
+          affir<lb break="no" ed="#C" n="27"/>mat, illorum votum non irritare 
+          matrimo<lb break="no" ed="#C" n="28"/>nium natura sua (cum de aliis religiosis 
+          op<lb break="no" ed="#C" n="29"/>positum censeat), sed ex Pontificum 
+          consti<lb break="no" ed="#C" n="30"/>tutione; supponit ergo posse hoc 
+          impedi<lb break="no" ed="#C" n="31"/>mentum addi per Ecclesiam alicui statui 
+          reli<lb break="no" ed="#C" n="32"/>gioso; ergo eadem ratione potuit Gregorius
+          <lb ed="#C" n="33"/>huic statui et voto hoc impedimentum 
+          ad<lb break="no" ed="#C" n="34"/>jungere. Dices esse diversitatem, quia hoc
+          <lb ed="#C" n="35"/>votum non est ita absolutum. At hoc quid
+          <lb ed="#C" n="36"/>interest? Nam quamdiu durat , tam verum
+          <lb ed="#C" n="37"/>votum est, tamque verum statum religiosum
+          <lb ed="#C" n="38"/>constituit, sicut quodlibet aliud. Quod autem
+          <lb ed="#C" n="39"/>in casu aliquo auferri possit, non obstat 
+          quo<lb break="no" ed="#C" n="40"/>minus ei possit adjungi impedimentum, quod,
+          <lb ed="#C" n="41"/>illo ablato, auferatur. Sicut, carentia parochi
+          <lb ed="#C" n="42"/>et testium supposita, personae sunt inhabiles
+          <lb ed="#C" n="43"/>ad contrahendum; illa autem conditione 
+          abla<lb break="no" ed="#C" n="44"/>ta, aufertur inhabihtas. Item minor aetas,
+          <lb ed="#C" n="45"/>quamdiu durat, facit inhabilem; ea vero 
+          tran<lb break="no" ed="#C" n="46"/>sacta tollitur inhabilitas. Itaque nulla ratio
+          <lb ed="#C" n="47"/>afferri potest cur hoc fieri non potuerit ; et
+          <lb ed="#C" n="48"/>alioqui potestas Pontificis et suprema, et 
+          uni<lb break="no" ed="#C" n="49"/>versalis ad constituenda impedimenta quae
+          <lb ed="#C" n="50"/>matrimonium dirimant, si expedire 
+          censue<lb break="no" ed="#C" n="51"/>rit.
+        </p>
+        <p xml:id="szovsr-r01222-d1e890">
+          <lb ed="#C" n="52"/>9. Dubium, an condi cepedierit tale decretum.
+          <lb ed="#C" n="53"/>— Affirmandum esse ostenditur eu contrariis
+          <lb ed="#C" n="54"/>incommodis. — Cur autem hoc expedierit 
+          du<lb break="no" ed="#C" n="55"/>bitari potest. Nam st hoc erat expediens, cur
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>a principio factum non est? Cur ita in re adeo
+          <lb ed="#C" n="57"/>gravi, et quodammodo substantiali, tam cito
+          <lb ed="#C" n="58"/>mutatio facta est ? Neque enim tam brevi
+          <lb ed="#C" n="59"/>tempore res adeo mutari potuerunt, ut 
+          dica<lb break="no" ed="#C" n="60"/>mus coepisse esse expediens quod antea non
+          <lb ed="#C" n="61"/>fuerat. Verum absque ulla dubitatione fuit 
+          ex<lb break="no" ed="#C" n="62"/>pediens et opportunum remedium ad 
+          subve<lb break="no" ed="#C" n="63"/>niendum Societati adversus fraudes et 
+          inju<lb break="no" ed="#C" n="64"/>rias, quae in illo negotio vel illi fiebant, vel 
+          fa<lb break="no" ed="#C" n="65"/>cile fieri poterant, contra divinum honorem,
+          <lb ed="#C" n="66"/>commune bonum, reverentiam religiosi 
+          sta<lb break="no" ed="#C" n="67"/>tus, ac denique in perniciem ipsorummet 
+          vo<lb break="no" ed="#C" n="68"/>ventium , seu religiosorum. Prius enim ad
+          <lb ed="#C" n="69"/>succurendum his damnis obligationi votorum
+          <lb ed="#C" n="70"/>additae sunt ecclesiasticae poenae 
+          excommunica<lb break="no" ed="#C" n="71"/>Uonis, etaliae, quae apostatis imponuntur. 
+          Pos<lb break="no" ed="#C" n="72"/>tea vero experientia compertum est, in tanta
+          <lb ed="#C" n="73"/>malitia hominum, haec remedia non esse 
+          sa<lb break="no" ed="#C" n="74"/>tis efficacia, quia semel contracto matrimonio,
+          <lb ed="#C" n="75"/>vellet, nollet, cogebatur Societas personam
+          <lb ed="#C" n="76"/>dimittere, et privari operariis quos multis 
+          la<lb break="no" ed="#C" n="77"/>boribus et expensis habiles ministros crearat
+          <lb ed="#C" n="78"/>ad serviendum Excclesiae. Cum autem 
+          perso<lb break="no" ed="#C" n="79"/>nae essent habiles ad matrimonium valide
+          <lb ed="#C" n="80"/>contrahendum, et a cognatis vel amicis 
+          pote<lb break="no" ed="#C" n="81"/>rant interdum ad hoc vehementius induci, et
+          <lb ed="#C" n="82"/>ipsi etiam possent procliviores et faciliores 
+          in<lb break="no" ed="#C" n="83"/>veniri circa hujusmodi lapsum, imo aliquando
+          <lb ed="#C" n="84"/>possent Societatem decipere, mala fide in ea,
+          <lb ed="#C" n="85"/>tictoque animo multo tempore perseverando,
+          <lb ed="#C" n="86"/>solum ad litterarum profectum, ut inde 
+          com<lb break="no" ed="#C" n="87"/>modius possent alium statum assumere, cum
+          <lb ed="#C" n="88"/>id facere possent, etiam invita Societate, ad
+          <lb ed="#C" n="89"/>subveniendum hisce incommodis, conveniens
+          <lb ed="#C" n="90"/>fuit personas inhabiles reddere, ne facile 
+          pos<lb break="no" ed="#C" n="91"/>sent a suscepto statu cum detrimento 
+          religio<lb break="no" ed="#C" n="92"/>nis, ipsa invita, recedere.
+        </p>
+        <p xml:id="szovsr-r01222-d1e984">
+          <lb ed="#C" n="93"/>10. Apposito exemplo id declaratur.—
+          BEHem<lb break="no" ed="#C" n="94"/>plun aliud ex Societate sunptum. — 
+          Coufir<lb break="no" ed="#C" n="95"/>matur tandem a simili.—Est commodum 
+          hu<lb break="no" ed="#C" n="96"/>jus rei exemplum in cap. Cumn ex eo, de 
+          Elec<lb break="no" ed="#C" n="97"/>tionibus, in 6, ubi Bonifacius VIIT, cum 
+          gene<lb break="no" ed="#C" n="98"/>raliter dispenset cum personis habentibus 
+          be<lb break="no" ed="#C" n="99"/>neficium parochiale, ut studiorum gratia non
+          <lb ed="#C" n="100"/>tencantur intra annum sacerdotes ordinari, 
+          li<lb break="no" ed="#C" n="101"/>cet id statutum esset in Concilio Lugdunensi,
+          <lb ed="#C" n="102"/>ut habetur in cap. Licet, eod. tit., adjungit 
+          ni<lb break="no" ed="#C" n="103"/>hilominus, ut infra annum teneantur saltem
+          <lb ed="#C" n="104"/>ordinem subdiaconatus suscipere; et causam
+          <lb ed="#C" n="105"/>seu rationem reddit: Ne sicut a multis de
+          <lb ed="#C" n="106"/>Christi patrimonio sublimatis olim factum esse
+          <lb ed="#C" n="107"/>dignoscitur, a statu retrocedere valeant clericali.
+          <lb ed="#C" n="108"/>Ubi glossa advertit prudenter ex praeteritis
+          <lb ed="#C" n="109"/>circa futura caveri; ad vitanda ergo 
+          impedi<lb break="no" ed="#C" n="110"/>menta qua per esperientiam cognita fuerant;
+          <pb ed="#P" n="703"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>voluit Bonifacius hujusmodi parochos statim
+          <lb ed="#C" n="2"/>fieri inhabiles ad matrimonium, 
+          subdiacona<lb break="no" ed="#C" n="3"/>tu suscepto. Eamdem ergo providentiam 
+          ha<lb break="no" ed="#C" n="4"/>buit Gregorius XIII in Societatem, et ideo
+          <lb ed="#C" n="5"/>illa non fuit reprehensibilis mutatio, sed 
+          uti<lb break="no" ed="#C" n="6"/>lis additio, quia haec est humana conditio, ut
+          <lb ed="#C" n="7"/>non statim valeat comprehendere, quid in
+          <lb ed="#C" n="8"/>omnibus et singulis rebus magis expediat;
+          <lb ed="#C" n="9"/>unde est illud Proverb. 4: Justorum semita
+          <lb ed="#C" n="10"/>quasi luz splendens procedit, et crescit usque
+          <lb ed="#C" n="11"/>ad perfecium diem. Similiter in Societate a
+          <lb ed="#C" n="12"/>principio, qui in ea vota emittebant, non 
+          fie<lb break="no" ed="#C" n="13"/>bant inhabiles, saltem ex statuto Ecclesiae, ad
+          <lb ed="#C" n="14"/>professionem emittendam iu quacumque 
+          re<lb break="no" ed="#C" n="15"/>ligione; postea vero experimento compertum
+          <lb ed="#C" n="16"/>est, expedire hanc inhabilitatem addere aut
+          <lb ed="#C" n="17"/>declarare, praeterquam respectu Carthusiae, ut
+          <lb ed="#C" n="18"/>sic indemnitati, tranquillitati et conservationi
+          <lb ed="#C" n="19"/>Societatis consuleretur, ut Pius IV et Pius V
+          <lb ed="#C" n="20"/>in sua bulla statuerunt. Ita ergo, vel certe 
+          ma<lb break="no" ed="#C" n="21"/>jori ratione expediens fuit hanc 
+          inhabilita<lb break="no" ed="#C" n="22"/>tem ad matrimonium addere, quia magis 
+          in<lb break="no" ed="#C" n="23"/>decens est a statu religioso ad matrimonium
+          <lb ed="#C" n="24"/>transire, et majus scandalum generat, et 
+          fa<lb break="no" ed="#C" n="25"/>cilius potest religiosorum animos perturbare.
+          <lb ed="#C" n="26"/>Denique, cum vinculum hoc status religiosi
+          <lb ed="#C" n="27"/>sit quoddam matrimonium spirituale cum
+          <lb ed="#C" n="28"/>Christo, merito, dum in eo statu perseverat
+          <lb ed="#C" n="29"/>quis, ad matrimonium inferius inhabilis 
+          red<lb break="no" ed="#C" n="30"/>ditur.
+        </p>
+        <p xml:id="szovsr-r01222-d1e1095">
+          <lb ed="#C" n="31"/>11. Dubium alterwn, an predictum decretum
+          <lb ed="#C" n="32"/>comprehenderit personas jam tunc existentes in
+          <lb ed="#C" n="33"/>Societate. — Resolvitur pars affirmativa, quod
+          <lb ed="#C" n="34"/>potuerit Pontifex eas comprelendere.—Hic vero
+          <lb ed="#C" n="35"/>inquiret aliquis, an per illud Gregorii 
+          decre<lb break="no" ed="#C" n="36"/>tum facti sint ipsojure inhabiles ad 
+          matrimo<lb break="no" ed="#C" n="37"/>nium scholares, qui jam vota in Societate
+          <lb ed="#C" n="38"/>emiserant. Nam, cum ipsi hoc non voverint,
+          <lb ed="#C" n="39"/>neque intenderint, quando approbati fuerunt,
+          <lb ed="#C" n="40"/>nisi de novo consentirent, et vota sua in eo
+          <lb ed="#C" n="41"/>gradu rata haherent, non viderentur potuisse
+          <lb ed="#C" n="42"/>virtute solius extrinsecae legis inhabiles reddi;
+          <lb ed="#C" n="43"/>praesertim quia leges non respiciunt 
+          praeteri<lb break="no" ed="#C" n="44"/>ta, sed futura, c. 2, de Constit., unde (
+          quid<lb break="no" ed="#C" n="45"/>quid sit de potestate) de facto non 
+          vide<lb break="no" ed="#C" n="46"/>tur hoc decretum illes personas reddidisse
+          <lb ed="#C" n="47"/>inhabiles. Quod etiam confirmatur, quia lex
+          <lb ed="#C" n="48"/>irritans habet vim legis poenalis, juxta 
+          glos<lb break="no" ed="#C" n="49"/>sam in cap. Decet, de Immunit. Eccles., in 6,
+          <lb ed="#C" n="50"/>verbo Processus, de quo multa congerit 
+          Pa<lb break="no" ed="#C" n="51"/>normitanus, iu cap. 2, de Constit. , numero
+          <lb ed="#C" n="52"/>quinto, et ibi additio ejus, verb. RHetractatio
+          <lb ed="#C" n="53"/>actus. Videriquc possunt alii apud Sancium,
+          <lb ed="#C" n="54"/>lib. 3 de Matrim., disput. 4, à num. 8,et in
+          <lb ed="#C" n="55"/>opere nostro de legib., libro quinto, cap. de-
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>cimo nono. Dicendum nihilominus est, illud
+          <lb ed="#C" n="57"/>decretum statim habuisse effectum in 
+          omni<lb break="no" ed="#C" n="58"/>bus personis Societatis, quod est certum, et
+          <lb ed="#C" n="59"/>ita ab omnibus intellectum. Et imprimis, quod
+          <lb ed="#C" n="60"/>ita fieri potuerit a Pontifice, patet, quia per
+          <lb ed="#C" n="61"/>illam legem non inhabilitatur persona ad 
+          ali<lb break="no" ed="#C" n="62"/>quid praeteritum (hoc enim sensu verum est
+          <lb ed="#C" n="63"/>statutum non respicere praeterita), sed ad 
+          ma<lb break="no" ed="#C" n="64"/>trimonium in futurum contrahendum ; ergo
+          <lb ed="#C" n="65"/>ex hac parte optime potuit hoc decretum 
+          com<lb break="no" ed="#C" n="66"/>prehendere non solum personas futuras in
+          <lb ed="#C" n="67"/>Societate, sed etiam existentes jam ; nam
+          <lb ed="#C" n="68"/>constitutio in aliqua, vel pro aliqua 
+          commu<lb break="no" ed="#C" n="69"/>nitate facta, non solum obligat vel 
+          compre<lb break="no" ed="#C" n="70"/>hendit personas futuras in tali communitate,
+          <lb ed="#C" n="71"/>sed etiam jam existentes in illa. Imo per sc
+          <lb ed="#C" n="72"/>primo obligat praesentes, quatenus constituunt
+          <lb ed="#C" n="73"/>actu hoc corpus; atque hoc modo lex 
+          respec<lb break="no" ed="#C" n="74"/>tu personarum non solum respicit futuras, sed
+          <lb ed="#C" n="75"/>etiam praeteritas, vel potius praesentes, licet
+          <lb ed="#C" n="76"/>per actum praeteritum tali communitati unitae
+          <lb ed="#C" n="77"/>fuerint. Deinde nec ratione materiae repugnat
+          <lb ed="#C" n="78"/>hoc decretum habuisse suam efficaciam circa
+          <lb ed="#C" n="79"/>personas quae jam voverant in Societate 
+          casti<lb break="no" ed="#C" n="80"/>tatem ; quia Pontifex non solum potest 
+          ad<lb break="no" ed="#C" n="81"/>jungere hoc impedimentum voto in futurum
+          <lb ed="#C" n="82"/>emittendo, sed etiam jam emisso, quatenus
+          <lb ed="#C" n="83"/>in praesens moraliter durat et fit. Quia non est
+          <lb ed="#C" n="84"/>major ratio unius quam alterius. Neque ad
+          <lb ed="#C" n="85"/>hunc effectumi necessarius fuit consensus 
+          ta<lb break="no" ed="#C" n="86"/>lium personarum ; sed Pontifex ipse per 
+          effi<lb break="no" ed="#C" n="87"/>caciam suae legis potuit talem inhabilitatem
+          <lb ed="#C" n="88"/>inducere, et subsequentes contractus irritare,
+          <lb ed="#C" n="89"/>quia per hoc decretum nullam obligationem
+          <lb ed="#C" n="90"/>novam ad aliquod opus consilii talibus 
+          perso<lb break="no" ed="#C" n="91"/>nis imposuit, neque ad aliquem statum eos
+          <lb ed="#C" n="92"/>obligavit ; jam enim ratione voti tenebantur
+          <lb ed="#C" n="93"/>non contrahere matrimonium, et in statu 
+          per<lb break="no" ed="#C" n="94"/>fectionis perseverare ; sed solum per eam 
+          le<lb break="no" ed="#C" n="95"/>gem cautum es: ne illi statui talis injuria 
+          fie<lb break="no" ed="#C" n="96"/>ret, et medium prudens adhibitum, quo illa
+          <lb ed="#C" n="97"/>obligatio melius impleretur ; nihil ergo est in
+          <lb ed="#C" n="98"/>ea lege, quod excedat Pontificis potestatem,
+          <lb ed="#C" n="99"/>aut propter quod inferiorum consensum 
+          re<lb break="no" ed="#C" n="100"/>quirat.
+        </p>
+        <p xml:id="szovsr-r01222-d1e1251">
+          <lb ed="#C" n="101"/>12. Instantia contra proximam resolutionem
+          <lb ed="#C" n="102"/>diluitur. — Dices: qui priusquam Ecclesia 
+          in<lb break="no" ed="#C" n="103"/>habilitaret sacerdotes ad matrimonium, erant
+          <lb ed="#C" n="104"/>in sacris ordinati, non potuerunt per legem
+          <lb ed="#C" n="105"/>posterius latam inhabilitari , ut in superiori
+          <lb ed="#C" n="106"/>tomo tetigimus; ergo neque in praesenti. 
+          Rc<lb break="no" ed="#C" n="107"/>spondeo ad antecedens, dupliciter id potuisse
+          <lb ed="#C" n="108"/>contingere : primo quod illi sacerdotes 
+          nul<lb break="no" ed="#C" n="109"/>lum haberent votum simplex integrae 
+          casti<lb break="no" ed="#C" n="110"/>tutis; et sic dato antccedente, negatur con-
+          <pb ed="#P" n="704"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>sequentia ; est enim ratio valde diversa ; nam
+          <lb ed="#C" n="2"/>illi non poterant cogi ad vovendam castitatem
+          <lb ed="#C" n="3"/>absolute et simpliciter ; ergo nec poterat cis
+          <lb ed="#C" n="4"/>matrimonium prohiberi ipsis nolentibus, quia
+          <lb ed="#C" n="5"/>hoc est opus consilii, secluso voto ; ergo 
+          mul<lb break="no" ed="#C" n="6"/>to minus poterant ad matrimonium 
+          inhabili<lb break="no" ed="#C" n="7"/>tari, quia hoc plus est quam prohiberi ; in
+          <lb ed="#C" n="8"/>nostro autem casu supponitur jam votum et
+          <lb ed="#C" n="9"/>obligaiio in personis. Dixi autem absolute et
+          <lb ed="#C" n="10"/>simpliciter, quia si ad Ecclesiae bonum 
+          expe<lb break="no" ed="#C" n="11"/>diret, potuisset in eo casu Ecclesia illis 
+          cleri<lb break="no" ed="#C" n="12"/>cis praecipere, ut vcl ab usu Ordinum 
+          absti<lb break="no" ed="#C" n="13"/>nerent , vel castitatem promitterent , et ita,
+          <lb ed="#C" n="14"/>eo ipso, quod Ordine sacro uterentur, eos 
+          in<lb break="no" ed="#C" n="15"/>habiles ad matrimonium reddere ; de qvo 
+          ci<lb break="no" ed="#C" n="16"/>tato tomo dictum est. Alio modo poterat id
+          <lb ed="#C" n="17"/>contingere, scilicet, ut sacerdotes illi 
+          habe<lb break="no" ed="#C" n="18"/>rent votum simplex castitatis, quia Ecclesia
+          <lb ed="#C" n="19"/>nondum impedimentum hoc adjunxisset, et
+          <lb ed="#C" n="20"/>tunc negatur antecedens ; sic enim in eo
+          <lb ed="#C" n="21"/>ctiam casu procedunt omnes rationes factae.
+        </p>
+        <p xml:id="szovsr-r01222-d1e1325">
+          <lb ed="#C" n="22"/>13. Resolvitur ulterius quod de facto 
+          com<lb break="no" ed="#C" n="23"/>prehenderit, ea ipsius Pontificis verlis.— 
+          Con<lb break="no" ed="#C" n="24"/>irmatur a simili. — De potestate igitur nulla
+          <lb ed="#C" n="25"/>potest esse dubitandi ratio. Quod autem etiam
+          <lb ed="#C" n="26"/>de facto hoc sensu lata fuerit illa lex, patet
+          <lb ed="#C" n="27"/>primo ex serie et contextu illius 
+          constitutio<lb break="no" ed="#C" n="28"/>nis. Nam prius expresse loquitur tam de his,
+          <lb ed="#C" n="29"/>qui haec vota in Societate emiserunt, quam qui
+          <lb ed="#C" n="30"/>in futurum emittent, et de utrisque expresse
+          <lb ed="#C" n="31"/>declarat cere et proprie religiosos fuisse, esse,
+          <lb ed="#C" n="32"/>et fore; et de illis consequenter ait esse 
+          exem<lb break="no" ed="#C" n="33"/>ptos, ac Sedi Apostolica immediate 
+          subjec<lb break="no" ed="#C" n="34"/>tos, gaudereque privilegiis Societatis, et fore
+          <lb ed="#C" n="35"/>apostatas, et excommunicatos, a Societate 
+          fu<lb break="no" ed="#C" n="36"/>giendo ; ac tandem de illis ait : Eos omnes ad
+          <lb ed="#C" n="37"/>contrahendum inhabiles fachnus. Ergo 
+          eviden<lb break="no" ed="#C" n="38"/>ter loquitur etiam de his, qui jam erant in
+          <lb ed="#C" n="39"/>hoc gradu religiosorum Societatis constituti.
+          <lb ed="#C" n="40"/>Potestque hoc confirmari a simili ; quia, 
+          quo<lb break="no" ed="#C" n="41"/>iies Ecclesia similia impedimenta de novo 
+          im<lb break="no" ed="#C" n="42"/>ponit, omnes personas jam existentes, et 
+          ca<lb break="no" ed="#C" n="43"/>paces talis impedimenti comprehendit : ut
+          <lb ed="#C" n="44"/>lex Concilii Tridentini de iuhabilitate ad 
+          con<lb break="no" ed="#C" n="45"/>trahendum clandestine, omnes homines jam
+          <lb ed="#C" n="46"/>existentes, et antea habiles comprehendit. Et
+          <lb ed="#C" n="47"/>si Ecclesia nunc adderet quintum gradum
+          <lb ed="#C" n="48"/>consanguinitatis inter impedimenta irritantia,
+          <lb ed="#C" n="49"/>non solum futuros homines, sed etiam jam
+          <lb ed="#C" n="50"/>existentes , et in eo gradu constitutos 
+          inha<lb break="no" ed="#C" n="51"/>biles redderet ; sicut etiam e contrario, 
+          quan<lb break="no" ed="#C" n="52"/>do restrinxit gradus aflinitatis, etiam jam 
+          na<lb break="no" ed="#C" n="53"/>tos, et in aliquo gradu existentes, eo 
+          impe<lb break="no" ed="#C" n="54"/>dimento liberavit. Et per haec satisfactum est
+          <lb ed="#C" n="55"/>ad rationes dubitandi in contrarium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

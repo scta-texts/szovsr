@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="554"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q13824"><!-- t10l1prae -->
+        <head xml:id="szovsr-q13824-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-q13824-d1e103">
+          <pb ed="#P" n="554"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER PRIMUS
+          <lb ed="#P" n="2"/>DE RELIGIONE SOCIETATIS JESU
+          <lb ed="#P" n="3"/>QUOAD INSTITUTIONEM ET INSTITUTUM EJUS IN GENERATT.
+        </p>
+        <p xml:id="szovsr-q13824-d1e116">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="4"/>Haec est postrema pars totius operis de
+          <lb ed="#P" n="5"/>statu religionis , quae, sicut pluribus titulis
+          <lb ed="#P" n="6"/>ac nominibus a me debita est, ita praecipue
+          <lb ed="#P" n="7"/>ac primario est intenta. Cum enim ante 
+          qua<lb break="no" ed="#P" n="8"/>draginta annos, ex quo haec scribo, scribo
+          <lb ed="#P" n="9"/>autem anno 1595, magno divina gratiae 
+          be<lb break="no" ed="#P" n="10"/>neficio ad hanc religionem vocatus sim, et
+          <lb ed="#P" n="11"/>toto hoc tempore in ea educatus, nutritus et
+          <lb ed="#P" n="12"/>conversatus, ejus vivendi rationem ac 
+          insti<lb break="no" ed="#P" n="13"/>tutum admiratus semper fuerim, et in ea
+          <lb ed="#P" n="14"/>singularem morum probitatem, et erga 
+          di<lb break="no" ed="#P" n="15"/>vinam majestatem religionem ac 
+          reveren<lb break="no" ed="#P" n="16"/>tiam, erga proximos vero eximiam 
+          charita<lb break="no" ed="#P" n="17"/>tem et animarum zelum, in variis ac 
+          distan<lb break="no" ed="#P" n="18"/>tissimis provinciis Italiae, Galliae , totius fere
+          <lb ed="#P" n="19"/>Hispaniae, ac tandem Lusitaniae fuerim 
+          exper<lb break="no" ed="#P" n="20"/>tus; videamque nihilominus religionem hanc
+          <lb ed="#P" n="21"/>non solum ab haereticis hominibus (quae illius
+          <lb ed="#P" n="22"/>magna laus est) odio haberi, verum etiam,
+          <lb ed="#P" n="23"/>specie religionis, ab hominibus sanam 
+          doc<lb break="no" ed="#P" n="24"/>trinam , et religionem Catholicam 
+          profitenti<lb break="no" ed="#P" n="25"/>bus oppugnari, variisque modis, tum in 
+          pri<lb break="no" ed="#P" n="26"/>vatis colloquiis, tum etiam in publicis 
+          lectio<lb break="no" ed="#P" n="27"/>nibus et concionibus, vel iniquis 
+          detractioni<lb break="no" ed="#P" n="28"/>bus, vel sophisticis argumentationibus 
+          exa<lb break="no" ed="#P" n="29"/>gitari ; diu, multumque desideravi, ejus, quae
+          <lb ed="#P" n="30"/>in nobis est, religionis rationem utrisque 
+          red<lb break="no" ed="#P" n="31"/>dere , et objectionibus universis , quae 
+          hacte<lb break="no" ed="#P" n="32"/>nus contra Societatem excogitatae sunt, 
+          satis<lb break="no" ed="#P" n="33"/>facere. Non quia veritas ipsa, quae luce 
+          cla<lb break="no" ed="#P" n="34"/>rior est, aut religio, quam Apostolica Sedes
+          <lb ed="#P" n="35"/>toties probavit, et divina gratia suis operibus
+          <lb ed="#P" n="36"/>illustriorem reddidit, nostra defensione aut
+          <lb ed="#P" n="37"/>illustratione indigeat, sed ut signum aliquod
+          <lb ed="#P" n="38"/>grati animi, et Deo, qui me vocavit in 
+          Socie<lb break="no" ed="#P" n="39"/>tatem Filii sui, et ipsi Societati, cui totum.
+          <lb ed="#P" n="40"/>quod sum, vel habeo, debitum recognosco,
+          <lb ed="#P" n="41"/>exhiberem. Quamobrem, Sanctissimorum 
+          Pa<lb break="no" ed="#P" n="42"/>irum Thomae et Bonaventurae exempla 
+          secu<lb break="no" ed="#P" n="43"/>tus, opus hoc divina gratia confisus aggressus
+          <lb ed="#P" n="44"/>sum. Ouia vero Societas haec quaedam habet
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="45"/>cum caeteris religionibus communia, quaedam
+          <lb ed="#P" n="46"/>autem propria ; propter priora, nonnullis 
+          mi<lb break="no" ed="#P" n="47"/>nus necessaria in Ecclesia, vel potius 
+          super<lb break="no" ed="#P" n="48"/>vacanea visa est; eo quod novissimis 
+          tempo<lb break="no" ed="#P" n="49"/>ribus, quando Ecclesia multis et gravissimis
+          <lb ed="#P" n="50"/>religionibus abundabat , inventa videatur;
+          <lb ed="#P" n="51"/>propter posteriora vero, res nova, ac 
+          propter<lb break="no" ed="#P" n="52"/>ea vel hoc solo nomine suspecta multis 
+          exis<lb break="no" ed="#P" n="53"/>timata est ; ab aliis autem minoris habita,
+          <lb ed="#P" n="54"/>quod parum rigorosum et austerum vivendi
+          <lb ed="#P" n="55"/>modum amplexam esse calumnientur. Ad 
+          sa<lb break="no" ed="#P" n="56"/>tisfaciendum igitur omnibus, necessarium
+          <lb ed="#P" n="57"/>existimavimus ea prius , quae religioso statui
+          <lb ed="#P" n="58"/>communia sunt , diligenter, et exacte 
+          tracta<lb break="no" ed="#P" n="59"/>re; quod hactenus praestitimus '; deinde vero
+          <lb ed="#P" n="60"/>(quod nunc aggredimur) Societatis 
+          institu<lb break="no" ed="#P" n="61"/>tum distincte ac dilucide explicare. Ita enim
+          <lb ed="#P" n="62"/>speramus fore, ut ad majorem Dei gloriam,
+          <lb ed="#P" n="63"/>et animarum fructum , religionis hujus 
+          di<lb break="no" ed="#P" n="64"/>gnitas et utilitas omnibus innotescat, et 
+          obla<lb break="no" ed="#P" n="65"/>trantium ora aut obticescant, aut 
+          confundan<lb break="no" ed="#P" n="66"/>tur. In hoc ergo primo libro, generatim 
+          So<lb break="no" ed="#P" n="67"/>cietatis institutum, ordinem, harmoniam, seu
+          <lb ed="#P" n="68"/>hierarchiam proponemus ac declarabimus.
+          <lb ed="#P" n="69"/>In sequentibus vero de singulis ejus partibus,
+          <lb ed="#P" n="70"/>volis, ac praecipuis constitutionibus (haec
+          <lb ed="#P" n="71"/>enim omnia instituti nomine 
+          comprehendun<lb break="no" ed="#P" n="72"/>tur) disseremus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 6</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 6</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="587"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q14640"><!-- t10l1c6 -->
+        <head xml:id="szovsr-q14640-Hd1e101">Caput 6</head>
+        <head xml:id="szovsr-q14640-Hd1e103" type="question-title">Utrum societas contemplativam vel activam vitam amplectatur.</head>
+        <p xml:id="szovsr-q14640-d1e106">
+          <pb ed="#P" n="587"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>CAPUT VI.
+          <lb ed="#P" n="2"/>UTRUM SOCIETAS CONTEMPLATIVAM VEL ACTIVAM
+          <lb ed="#P" n="3"/>VITAM AMPLECTATUR.
+        </p>
+        <p xml:id="szovsr-q14640-d1e119">
+          <lb ed="#P" n="4"/>1. Quid sit activa, contemplativa , ac mista
+          <lb ed="#P" n="5"/>religio. — Distinximus. in superiori tractatu
+          <lb ed="#P" n="6"/>cum D. Thom. 2. 2, q. 188, tres ordines, seu
+          <lb ed="#P" n="7"/>species religionis; cum enim omnes tendant
+          <lb ed="#P" n="8"/>ad perfectionem charitatis, quaedam illam 
+          quae<lb break="no" ed="#P" n="9"/>runt per viam tantum contemplationis , quae
+          <lb ed="#P" n="10"/>per se perficit amorem erga Deum. Aliae illam
+          <lb ed="#P" n="11"/>inquirunt per actiones amoris, et 
+          misericor<lb break="no" ed="#P" n="12"/>diae erga proximos ; nam cum illee etiam sint
+          <lb ed="#P" n="13"/>propter Deum, etiam charitas erga Deum illo
+          <lb ed="#P" n="14"/>modo perficitur. Aliae denique utramque viam
+          <lb ed="#P" n="15"/>complectuntur, quorum vita mista dicitur ex
+          <lb ed="#P" n="16"/>contemplatione et actione. Est autem 
+          adver<lb break="no" ed="#P" n="17"/>tendum,, ut supra tetigi, nullam esse posse in
+          <lb ed="#P" n="18"/>mortalibus hominibus congregationem adeo
+          <lb ed="#P" n="19"/>contemplativam, quin actioni etiam aliqua ex
+          <lb ed="#P" n="20"/>parte vacet, et corporalibus exercitationibus,
+          <lb ed="#P" n="21"/>nt constat ex Basilio, in Regulis fusius 
+          dispu<lb break="no" ed="#P" n="22"/>tatis, regul. 35, cum tamen ejus religio 
+          maxi<lb break="no" ed="#P" n="23"/>me contemplativa fuerit. Et e converso nulla
+          <lb ed="#P" n="24"/>etiam esse potest religio adeo activa, quin 
+          ali<lb break="no" ed="#P" n="25"/>quid de contemplatione participet , quia sine
+          <lb ed="#P" n="26"/>oratione et laude Dei nulla potest esse perfecta
+          <lb ed="#P" n="27"/>religio. Quapropter videri potest omnis religio
+          <lb ed="#P" n="28"/>esse mista; non tamen ita est. Nam aliquando
+          <lb ed="#P" n="29"/>religio per se solum intendit 
+          centemplatio<lb break="no" ed="#P" n="30"/>nem ; de actione vero solum id accipit, quod
+          <lb ed="#P" n="31"/>necessarium est vel ad disponendum hominem
+          <lb ed="#P" n="32"/>ad contemplationem, velad levandum taedium,
+          <lb ed="#P" n="33"/>vel ad sustentandum vel sublevandum ipsum
+          <lb ed="#P" n="34"/>mortale corpus, et haec dicitur tantum 
+          contem<lb break="no" ed="#P" n="35"/>plativa. Alia vero religio e contrario per se
+          <lb ed="#P" n="36"/>solum intendit actionem; de contemplatione
+          <lb ed="#P" n="37"/>vero tantum suscipit, quod vel ad actionem
+          <lb ed="#P" n="38"/>ipsam perfecte agendam necessarium est, vel
+          <lb ed="#P" n="39"/>certe ad reddendum Deo debitum ac 
+          religic<lb break="no" ed="#P" n="40"/>sum cultum, et haec dicitur pure activa, quia
+          <lb ed="#P" n="41"/>unaquaeque denominatur ab eo quod est sibi
+          <lb ed="#P" n="42"/>proprium et peculiare per se intentum. Mista
+          <lb ed="#P" n="43"/>ergo dicetur, quando utrumque per se 
+          inten<lb break="no" ed="#P" n="44"/>dit proprio et speciali modo. Cum enim 
+          utra<lb break="no" ed="#P" n="45"/>que vita per se honesta sit et amabilis, et 
+          alio<lb break="no" ed="#P" n="46"/>quin inter se non pugnent, possunt simul
+          <lb ed="#P" n="47"/>propter se intendi; imo intendi debent, 
+          quan<lb break="no" ed="#P" n="48"/>tum et charitas veritatis et necessitas 
+          chari<lb break="no" ed="#P" n="49"/>tatis postulaverint, ut verbis utar Augustini,
+          <lb ed="#P" n="50"/>lib. 19 de Civitate, cap. 19. Et hoc genus vitee
+          <lb ed="#P" n="51"/>dixit pertinere ad Praelatos Gregorius, in 
+          Pas<lb break="no" ed="#P" n="52"/>tor.. part. 2, cap. 1. dicens : Sit Bector in ac-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>tione precipuus, prae cunctis in contemplatione
+          <lb ed="#P" n="54"/>suspensus. Quae verba referens D. Thom. 2.2,
+          <lb ed="#P" n="55"/>q. 182, art. 1, ad 1. ait: Ad Praelatos non 
+          so<lb break="no" ed="#P" n="56"/>lum pertinet vita activa, sed eliam debent esse
+          <lb ed="#P" n="57"/>excellentes in vita contemplativa.
+        </p>
+        <p xml:id="szovsr-q14640-d1e241">
+          <lb ed="#P" n="58"/>Societatem ex vi sui instituti mistam 
+          veligio<lb break="no" ed="#P" n="59"/>nem esse.
+        </p>
+        <p xml:id="szovsr-q14640-d1e249">
+          <lb ed="#P" n="60"/>9. Probatur assertio quoad eam partem que
+          <lb ed="#P" n="61"/>ad actionem pertinet.—bDico ergo, Societatem ex
+          <lb ed="#P" n="62"/>vi sui instituti utrumque vitae genus per se ac
+          <lb ed="#P" n="63"/>principaliter intendere, cum omni perfectione,
+          <lb ed="#P" n="64"/>quanium moraliter fieri potest. Quae quidem
+          <lb ed="#P" n="65"/>assertio , quoad eam partem quae pertinet ad
+          <lb ed="#P" n="66"/>vitam activam, multa probatione non indiget.
+          <lb ed="#P" n="67"/>Nam cum ad vitam activam pertineant omnes
+          <lb ed="#P" n="68"/>actiones quae versantur circa proximum, et ex
+          <lb ed="#P" n="69"/>supra dictis satis in cap. 2 constet, principale
+          <lb ed="#P" n="70"/>munus hujus religionis esse spiritualem 
+          salu<lb break="no" ed="#P" n="71"/>tem et perfectionem proximorum procurare, et
+          <lb ed="#P" n="72"/>ad illum omnibus congruentibus mediis uti,
+          <lb ed="#P" n="73"/>manifestum est per se amplecti activam vitam,
+          <lb ed="#P" n="74"/>et cum magna perfectione illam profiteri. Ft
+          <lb ed="#P" n="75"/>quoniam de spiritualibus actionibus, seu 
+          me<lb break="no" ed="#P" n="76"/>diis, satis supra, in cap. 3, dictum est, hic 
+          so<lb break="no" ed="#P" n="77"/>lum addimus, religionem hanc non solum
+          <lb ed="#P" n="78"/>opera misericordise spiritualia, sed etiam 
+          cor<lb break="no" ed="#P" n="79"/>poralia ex vi sui instituti exercere, qualia sunt
+          <lb ed="#P" n="80"/>infirmos in xenodochiis visitare, consolari, et
+          <lb ed="#P" n="81"/>eis inservire, si necesse sit, adjuvare eos qui
+          <lb ed="#P" n="82"/>in carceribus detinentur, et similia, quae 
+          dis<lb break="no" ed="#P" n="83"/>tincte enumerantaur in 7 part. Constit., cap. 4,
+          <lb ed="#P" n="84"/>S 9, ubi dicitur : His corporalibus pietatis 
+          ope<lb break="no" ed="#P" n="85"/>ribus, quantum spiritualia, que maporis sunt
+          <lb ed="#P" n="86"/>momenti, germitlent, quantumque vires 
+          paties<lb break="no" ed="#P" n="87"/>tur, incumbent. In quibus verbis magna 
+          per<lb break="no" ed="#P" n="88"/>fectio hujus instituti quoad hanc partem 
+          con<lb break="no" ed="#P" n="89"/>siderari potest. Cum enim ea pars vitae activae,
+          <lb ed="#P" n="90"/>quae ad spiritualem profectum ordinatur, 
+          mul<lb break="no" ed="#P" n="91"/>to excellentior sit, illa est primario ae per se
+          <lb ed="#P" n="92"/>in hac religione intenta. Quia vero alia pars,
+          <lb ed="#P" n="93"/>quae pertinet ad subveniendam corpori, et per
+          <lb ed="#P" n="94"/>sc honesta est ac necessaria, et multum etiam
+          <lb ed="#P" n="95"/>juvat ad spirituale Iucrum animarum , ideo
+          <lb ed="#P" n="96"/>secundario, et quasi propter aliud hanc etiam
+          <lb ed="#P" n="97"/>partem amplectitur Societas, cum hac tamen
+          <lb ed="#P" n="98"/>moderatione , ut talia opera spiritualibus 
+          in<lb break="no" ed="#P" n="99"/>serviant, vel saltem illa non impediant , et
+          <lb ed="#P" n="100"/>praeter banc nulla adhibetur limitatio, sed 
+          po<lb break="no" ed="#P" n="101"/>tius adjungitur illa extensio, quantum vires
+          <lb ed="#P" n="102"/>patientur.
+        </p>
+        <p xml:id="szovsr-q14640-d1e345">
+          <lb ed="#P" n="103"/>3. Alterius garts difficultas propouitur. —
+          <lb ed="#P" n="104"/>Ex his autem non solum videtur probari haec
+          <lb ed="#P" n="105"/>pars, sed etiam difficilis redditur altera. Oni
+          <lb ed="#P" n="106"/>enim fieri potest nt cum taii genere vite acti-
+          <pb ed="#P" n="588"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vae simul esse possit perfectio vitae 
+          contempla<lb break="no" ed="#P" n="2"/>tivae per se intenta ? Quamvis enim hae duae
+          <lb ed="#P" n="3"/>vitae, ex ea parte qua honestae sunt et sanctae,
+          <lb ed="#P" n="4"/>non sint contraria, sed sorore:, ex ea 
+          ta<lb break="no" ed="#P" n="5"/>men parte, qua una requirit otium, alia 
+          ne<lb break="no" ed="#P" n="6"/>gotium, non videntur simul esse posse in 
+          gra<lb break="no" ed="#P" n="7"/>du intenso, ut sic dicam, id est, in magna ac
+          <lb ed="#P" n="8"/>per se intenta perfectione. Quia, ut 
+          argumen<lb break="no" ed="#P" n="9"/>tatur D. Thom. 2. 2, q. 182, art. 3, cum 
+          un<lb break="no" ed="#P" n="10"/>mana capacitas sit valde limitata, non potest
+          <lb ed="#P" n="11"/>simul intendere contemplationi summae 
+          ve<lb break="no" ed="#P" n="12"/>ritatis, et amori ac dulcedini ejus, quod est
+          <lb ed="#P" n="13"/>otium vitee contemplativae, et operibus 
+          mise<lb break="no" ed="#P" n="14"/>ricordise erga proximos, quod est negotium
+          <lb ed="#P" n="15"/>vitae activae. Qui ergo fieri potest ut Societas
+          <lb ed="#P" n="16"/>cum tanto negotio, et occupatione circa 
+          pro<lb break="no" ed="#P" n="17"/>ximos, vitam contemplativam, non utcumque,
+          <lb ed="#P" n="18"/>sed per se ac perfecte conjungere valeat ?
+        </p>
+        <p xml:id="szovsr-q14640-d1e400">
+          <lb ed="#P" n="19"/>4. Ostenditur tamen predicta pars, 
+          Societa<lb break="no" ed="#P" n="20"/>lem per se ctiam citam conteveplativam 
+          am<lb break="no" ed="#P" n="21"/>plecti, primo eg ipsius instituti verbis. — 
+          Ni<lb break="no" ed="#P" n="22"/>hilominus partem illam verissimam esse ex
+          <lb ed="#P" n="23"/>verbis ipsius instituti, et ex usu, ac rebus
+          <lb ed="#P" n="24"/>ipsis , et ratione etiam convincere possumus.
+          <lb ed="#P" n="25"/>Primum enim hoc mihi videntur significare
+          <lb ed="#P" n="26"/>verba illa B. Ignatii, in Examine, c.1, 82:
+          <lb ed="#P" n="27"/>Finis hujus Societatis est non solum saluti ac
+          <lb ed="#P" n="28"/>perfectioni propriarum animarmn cum diviua
+          <lb ed="#P" n="29"/>gratia cacare, sed cuu eadem, etc. Nam huic
+          <lb ed="#P" n="30"/>perfectioni potissimum vacatur per otium vitae
+          <lb ed="#P" n="31"/>contemplativae , quod verbum ipsum cacandi
+          <lb ed="#P" n="32"/>ndicat. Hoc etiam supponit in 3 parte 
+          Con<lb break="no" ed="#P" n="33"/>stit.. cap. 1, S 10, cum inquit : Doceantur
+          <lb ed="#P" n="34"/>quomodo ab illusionibus deemonis in suis 
+          spiri<lb break="no" ed="#P" n="35"/>tualibus exercitationibus caveant ; et infra:
+          <lb ed="#P" n="36"/>Ad veras solidasque virtutes insistant, sice
+          <lb ed="#P" n="37"/>plures adsint visitationes spirituales, sive 
+          pau<lb break="no" ed="#P" n="38"/>ciores. Ubi praesertim agit de modo 
+          spirituali<lb break="no" ed="#P" n="39"/>ter educandi cos, qui in probatione manent,
+          <lb ed="#P" n="40"/>quem consiat majori es parte per exercitia
+          <lb ed="#P" n="41"/>vitae contemplativae fieri in Societate. Nam
+          <lb ed="#P" n="42"/>statim in principio, in rebus spiritualibus 
+          in<lb break="no" ed="#P" n="43"/>situuntur , et diu exercentur, in his 
+          praeser<lb break="no" ed="#P" n="44"/>tim quae ad viam purgativam pertinent, et
+          <lb ed="#P" n="45"/>ideo primum experimenium novitiorum est,
+          <lb ed="#P" n="46"/>in spiritualibus exercitiis mensem unwum, plus
+          <lb ed="#P" n="47"/>minusve versari, id est, tum in examiuanda
+          <lb ed="#P" n="48"/>coascientia et anteacta viia recogitauda , ct
+          <lb ed="#P" n="49"/>confessione generali facienda , ac peccatorum
+          <lb ed="#P" n="50"/>suorun meditatione, (um in contemplatione 
+          ve<lb break="no" ed="#P" n="51"/>vum ac mysteriorum vita, nortis, 
+          resurrec<lb break="no" ed="#P" n="52"/>Lonis et ascensionis C hristi redemptoris uostri,
+          <lb ed="#P" n="53"/>tum etiam in oratione mentali et vocali jumta
+          <lb ed="#P" n="54"/>cujusque captum , prout iu Domno edocti 
+          fue<lb break="no" ed="#P" n="55"/>riut, se egercere, ut dicitur in Examine. c. 4,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>§ 10. Postea vero in discursu probationis, in
+          <lb ed="#P" n="57"/>his maxime spiritualibus exercitiis 
+          instruun<lb break="no" ed="#P" n="58"/>tur, ad quae pertinent frequens et debitus usus
+          <lb ed="#P" n="59"/>sacramentorum confessionis et communionis,
+          <lb ed="#P" n="60"/>devote etiam quctidie audire Missam, vel in
+          <lb ed="#P" n="61"/>ea ministrare ; modus etiam legendi, 
+          medi<lb break="no" ed="#P" n="62"/>tandi, et orandi cum fructu ; et ideo in tertia
+          <lb ed="#P" n="63"/>parte Constitutionum, c. 1, 8 20, providetur
+          <lb ed="#P" n="64"/>ut de his omnibus frequens sit sermo, et 
+          ern<lb break="no" ed="#P" n="65"/>ditio ac cura, ut non solum addiscantur et 
+          me<lb break="no" ed="#P" n="66"/>moria teneantur, sed ut etiam exerceantur; et
+          <lb ed="#P" n="67"/>adjunguntur illa notanda verba : Omnes suum
+          <lb ed="#P" n="68"/>tempus rebus spiritualibus impendant, et 
+          devo<lb break="no" ed="#P" n="69"/>tioni querendee pro mensura divine gratie sibi
+          <lb ed="#P" n="70"/>comminunicande insistant. Deinde haec 
+          spiritua<lb break="no" ed="#P" n="71"/>lia exercitia. etiam studiorum tempore 
+          conti<lb break="no" ed="#P" n="72"/>nuanda sunt, juxta easdem constitutiones.
+          <lb ed="#P" n="73"/>Quamvis enim propter studiorum laborem et
+          <lb ed="#P" n="74"/>occupationem aliquid de temporis 
+          diuturni<lb break="no" ed="#P" n="75"/>tate, et de actionum spirituaiium frequentia
+          <lb ed="#P" n="76"/>detrahatur , tamen illud onus, quod sufficiens
+          <lb ed="#P" n="77"/>ad majorem Dei gloriam videtur, imponitur ;
+          <lb ed="#P" n="78"/>quod si perfecte servetur, ut in eisdem 
+          consti<lb break="no" ed="#P" n="79"/>tutionibus ordinatur, revera continet magnam
+          <lb ed="#P" n="80"/>perfectionem vita contemplativae ; ut sunt
+          <lb ed="#P" n="81"/>quotidiana lectio spiritualis , quae merito a
+          <lb ed="#P" n="82"/>D. Thoma inter opera vitae coutemplativae 
+          nu<lb break="no" ed="#P" n="83"/>meratur, 2. 2, q. 188, articulo sexto; 
+          quoti<lb break="no" ed="#P" n="84"/>diana etiam oratio, et meditatio mentalis.
+          <lb ed="#P" n="85"/>saltem per integram horam ; bis in die per
+          <lb ed="#P" n="86"/>quadrantem conscientiam examinare ; 
+          sa<lb break="no" ed="#P" n="87"/>crificio Missae interesse ; Hosarium 
+          Virgi<lb break="no" ed="#P" n="88"/>nis, cti alias proprias et peculiares 
+          devo<lb break="no" ed="#P" n="89"/>tiones , juxta confessoris vel superioris 
+          ju<lb break="no" ed="#P" n="90"/>dicium, explere ; quae omnia in praedictis 
+          1o<lb break="no" ed="#P" n="91"/>cis Constitutionum continentur, et in 
+          congre<lb break="no" ed="#P" n="92"/>gationibus generalibus postea aucta et 
+          con<lb break="no" ed="#P" n="93"/>firmata sunt :, et si necesse fuerit, augeri
+          <lb ed="#P" n="94"/>posse dicuntur a Praeposito Generali, et in alus
+          <lb ed="#P" n="95"/>etiam regulis saepe commendantur. Post studia
+          <lb ed="#P" n="96"/>rero, cum haec omnia a professis et formatis
+          <lb ed="#P" n="97"/>coadjutoribus servanda sint, nuila tamen 
+          li<lb break="no" ed="#P" n="98"/>mitatio eis adhibetur, quia, ut de iilis in8p.
+          <lb ed="#P" n="99"/>Constit., cap. 3: Tauquam certwn ducitur eos
+          <lb ed="#P" n="100"/>viros spirituales futuros , et qui sie in cia
+          <lb ed="#P" n="101"/>Christi Domini nostri profecerint, ut per eam
+          <lb ed="#P" n="102"/>curere possint, quantum corporis valetudo, et
+          <lb ed="#P" n="103"/>exteruce cceupationes charitalis, et obedientiee
+          <lb ed="#P" n="104"/>per mittent ; et ideo subditur ibidem : ANon 
+          ci<lb break="no" ed="#P" n="105"/>detur in his, que ad orationem , meditationem
+          <lb ed="#P" n="106"/>et studium pertinent, ctc.. ulla regula eis prae-
+          <pb ed="#P" n="589"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>scribenda. Additur vero ibidem in 
+          declara<lb break="no" ed="#P" n="2"/>tione, nihilominus superioris cura semper
+          <lb ed="#P" n="3"/>esse cavere, ne hujusmodi ctiam personae in
+          <lb ed="#P" n="4"/>spiritualibus exercitiis deficiant vel excedant.
+          <lb ed="#P" n="5"/>laque, ex modo et providentia instituti satis
+          <lb ed="#P" n="6"/>constat ea, quae pertinent ad vitam 
+          contempla<lb break="no" ed="#P" n="7"/>tivam, primum ac praecipuum locum in eo 
+          te<lb break="no" ed="#P" n="8"/>nere.
+        </p>
+        <p xml:id="szovsr-q14640-d1e617">
+          <lb ed="#P" n="9"/>5. Secundo. ea usu et effectibus suadetur.—
+          <lb ed="#P" n="10"/>Secundo, possumus hoc ex ipso usu et 
+          effecti<lb break="no" ed="#P" n="11"/>bus ostendere. Constat enim experientia 
+          gene<lb break="no" ed="#P" n="12"/>rali, eos (generaliter loquimur), qui hoc 
+          insti<lb break="no" ed="#P" n="13"/>tutum profitentur et observant, csse 
+          spiritua<lb break="no" ed="#P" n="14"/>les viros, multum in spiritualibus rebus 
+          in<lb break="no" ed="#P" n="15"/>structos, et orationi atque contemplationi 
+          de<lb break="no" ed="#P" n="16"/>ditos ; multosque cognovimus in hoc genere
+          <lb ed="#P" n="17"/>eximios , quia perfecte illud observare 
+          stu<lb break="no" ed="#P" n="18"/>duerunt ; ergo signum est ipsum institutum
+          <lb ed="#P" n="19"/>ex primaria intentione sua in hunc finem
+          <lb ed="#P" n="20"/>tendere; nam in his rebus, quae solum per
+          <lb ed="#P" n="21"/>occasionem , vel ratione alterius assumuntur,
+          <lb ed="#P" n="22"/>non solet vel tanta diligentia adbiberi , vel
+          <lb ed="#P" n="23"/>tam copiosus fructus universaliter vel ut 
+          plu<lb break="no" ed="#P" n="24"/>rimum colligi. Nec solum hinc elicitur 
+          inten<lb break="no" ed="#P" n="25"/>dere Societatem principaliter hunc finem,
+          <lb ed="#P" n="26"/>sed etiam habere media efficacissima et 
+          ac<lb break="no" ed="#P" n="27"/>cominodatissima ad illum assequendum ; nam
+          <lb ed="#P" n="28"/>(ut Christus Dominus dixit, Matt. 7) ex 
+          fructi<lb break="no" ed="#P" n="29"/>bus arbor cognoscitur. Possumus etiam addcre
+          <lb ed="#P" n="30"/>aiiam conjecturam, ex effectibus quoque 
+          sum<lb break="no" ed="#P" n="31"/>ptam, quia experientia etiam compertum est,
+          <lb ed="#P" n="32"/>iideles Societatis operarios ac praedicatores,
+          <lb ed="#P" n="33"/>alios etiam seculares inducere ad exercitium
+          <lb ed="#P" n="34"/>orandi et contemplandi, eosque egregie ad 
+          il<lb break="no" ed="#P" n="35"/>Iud recte agendum instruere, et per Dei 
+          gra<lb break="no" ed="#P" n="36"/>tam habere hoc peculiare donum illuminandi
+          <lb ed="#P" n="37"/>et dirigendi homines in hac vita spirituali,
+          <lb ed="#P" n="38"/>quae principaliter contemplativa est. Ergo 
+          si<lb break="no" ed="#P" n="39"/>gnum manifestum est, alumnos hujus 
+          religio<lb break="no" ed="#P" n="40"/>nuis ex vi sui instituti contemplativos esse 
+          de<lb break="no" ed="#P" n="41"/>bere, et non quomodocumque, sed ita ut viros
+          <lb ed="#P" n="42"/>contemplativos possint efficere. Etenim, si in
+          <lb ed="#P" n="43"/>aliqua disciplina illud, 1 Metaph., cap. 1, 
+          ve<lb break="no" ed="#P" n="44"/>rum est, signum sapientis esse posse docere .
+          <lb ed="#P" n="45"/>et si de aliqua etiam causa recte dicitur , 
+          per<lb break="no" ed="#P" n="46"/>fectiorem esse, caeteris paribus, quae potest
+          <lb ed="#P" n="47"/>alus se communicare, utrumque maxime 
+          ve<lb break="no" ed="#P" n="48"/>rum habet in hoc genere causae et doctrina.
+          <lb ed="#P" n="49"/>Nam haec via contemplativa adeo est 
+          spiritua<lb break="no" ed="#P" n="50"/>lis et interna, ut nemo possit de ca sapienter
+          <lb ed="#P" n="51"/>loqui, vel utiliter, ac sine magno periculo alios
+          <lb ed="#P" n="52"/>in ea instruere, nisi prius ipse illam didicerit,
+          <lb ed="#P" n="53"/>multumque expertus sit. Nam, licet 
+          theolo<lb break="no" ed="#P" n="54"/>gica scientia necessaria sit, multumque juvare
+          <lb ed="#P" n="55"/>pessit ad hoc spirituale et mysticum magistc-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rium, tamen sine proprio usu et experientia
+          <lb ed="#P" n="57"/>non suflicit; quia actiones et motiones vitae
+          <lb ed="#P" n="58"/>contemplativae specialiter pendent ex 
+          iuspira<lb break="no" ed="#P" n="59"/>tione et instinctu Spiritus Sancti, cujus 
+          pecu<lb break="no" ed="#P" n="60"/>liares modos et effectus nenmo scit, aisi qui 
+          ac<lb break="no" ed="#P" n="61"/>cipit , Apocal. 2. Neque etiam refert, quod in
+          <lb ed="#P" n="62"/>hoc genere doctrina homo non est 
+          principali<lb break="no" ed="#P" n="63"/>ter doctor, sed minister Spiritus Saneti, qui
+          <lb ed="#P" n="64"/>principaliter docere debet ; non est enim 
+          iu<lb break="no" ed="#P" n="65"/>strumentum mortuum, sed vivum, quod 
+          plan<lb break="no" ed="#P" n="66"/>tare et rigare debet consulendo , judicando et
+          <lb ed="#P" n="67"/>monendo ; et ideo ut sit aptum instrumentum,
+          <lb ed="#P" n="68"/>oportet ut ad hujusmodi actiones, et 
+          scieu<lb break="no" ed="#P" n="69"/>tiam, et experientiam habeat accommodatam.
+          <lb ed="#P" n="70"/>Spiritus Sanctus autem, licet pro sua potestate
+          <lb ed="#P" n="71"/>quocumque valeat instrumento uti, 
+          regulari<lb break="no" ed="#P" n="72"/>ter tamen, et secundum legem ordinariam,
+          <lb ed="#P" n="73"/>utitur ministris aecommodatis, et optime 
+          dis<lb break="no" ed="#P" n="74"/>positis ad tale ministerium. Et ita experientia
+          <lb ed="#P" n="75"/>compertum est, tum praedicatorem habere vim
+          <lb ed="#P" n="76"/>ad sanctificandas animas suo ministerio, 
+          quan<lb break="no" ed="#P" n="77"/>do ipse sanctus est, et sic de aliis; cum ergo
+          <lb ed="#P" n="78"/>eadem experientia nos doceat per hanc 
+          reli<lb break="no" ed="#P" n="79"/>gionem Deum promovere in Ecclesia spiritum
+          <lb ed="#P" n="80"/>orandi et contemplandi , signum profecto est
+          <lb ed="#P" n="81"/>in ea parare sibi ministros aptos et 
+          accommo<lb break="no" ed="#P" n="82"/>datos , recteque dispositos ad hoc 
+          ministe<lb break="no" ed="#P" n="83"/>rium.
+        </p>
+        <p xml:id="szovsr-q14640-d1e784">
+          <lb ed="#P" n="84"/>6. Tertio, idem ratione ostenditur.—Tria in
+          <lb ed="#P" n="85"/>fine Societatis consideranda. — Tertio, ex hoc
+          <lb ed="#P" n="86"/>ipso effectu, illum ut finem considerando, 
+          col<lb break="no" ed="#P" n="87"/>ligere possumus rationem a priori hujus 
+          veri<lb break="no" ed="#P" n="88"/>tatis. Nam Societas, ut saepe diximus, 
+          princi<lb break="no" ed="#P" n="89"/>paliter ordinatur ad propriam et proximorum
+          <lb ed="#P" n="90"/>perfectionem, in quo fine tria considerat. 
+          Pri<lb break="no" ed="#P" n="91"/>mum est, perfectio propria, quae principaliter
+          <lb ed="#P" n="92"/>consistit in unione ad Deum, et ex hac parte
+          <lb ed="#P" n="93"/>maxime requirit contemplationem. Secundum
+          <lb ed="#P" n="94"/>est perfectio proximorum. Est enim attentc
+          <lb ed="#P" n="95"/>considerandum , in bullis et constitutionibus
+          <lb ed="#P" n="96"/>Societatis , non sine mysterio saepius dici ac
+          <lb ed="#P" n="97"/>repeti, finem ejus non solum esse incumbere
+          <lb ed="#P" n="98"/>correctioni aut saluti, sed etiam perfectioni
+          <lb ed="#P" n="99"/>proximorum ; unde ad finem hujus insututi
+          <lb ed="#P" n="100"/>pertinet prosimum juvare, et instruere in his
+          <lb ed="#P" n="101"/>omnibus quae ad hunc finem necessaria sunt ;
+          <lb ed="#P" n="102"/>inter quae potissimun locum tenet 
+          contempla<lb break="no" ed="#P" n="103"/>tio; unde etiam ex hoc capite, necesse est ut
+          <lb ed="#P" n="104"/>hoc institutum eo prius tendat, ut suos 
+          pro<lb break="no" ed="#P" n="105"/>fessores faciat contemplativos. Tertium, quod
+          <lb ed="#P" n="106"/>hoe maxime dceclarat, est debitus ordo inter
+          <lb ed="#P" n="107"/>illa duo, sine quo ordine neutra perfectio, 
+          pro<lb break="no" ed="#P" n="108"/>pria vel aliena, comparari poterit. Est autem
+          <lb ed="#P" n="109"/>hic ordo, ut prius perSciaiur minister per
+          <lb ed="#P" n="110"/>quem alii perticiendi sunt, propter ca quae in
+          <pb ed="#P" n="590"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>proxima ratione divta sunt. Unde Dionysius,
+          <lb ed="#P" n="2"/>cap. 3 Eccles. hierarch. : Decentissimus (
+          in<lb break="no" ed="#P" n="3"/>quit) divinarum rerum ordo est, ut prius 
+          com<lb break="no" ed="#P" n="4"/>quinicet , atque impleatur sanctus Proesul his,
+          <lb ed="#P" n="5"/>qua per illum distribuenda sunt caeteris, 
+          divi<lb break="no" ed="#P" n="6"/>nis donis, et sic aliis tradat. Verum est bi 
+          lo<lb break="no" ed="#P" n="7"/>qui Dionysium de participatione Eucharistiae,
+          <lb ed="#P" n="8"/>quam prius debet sacerdos sumere, quam aliis
+          <lb ed="#P" n="9"/>tribuat ; tamen in illo ordine hune, de quo
+          <lb ed="#P" n="10"/>agimus, esse significatum Dionysius intellexit.
+          <lb ed="#P" n="11"/>Unde subdit : Quocirca et hi, qui divinis 
+          magis<lb break="no" ed="#P" n="12"/>teriis (priusquam digna illis conversatione 
+          ca<lb break="no" ed="#P" n="13"/>paces effecti sunt) abutuntur audacter, impuri,
+          <lb ed="#P" n="14"/>atque sacra lege catranei omnuino censentur. Ut
+          <lb ed="#P" n="15"/>cnim im sols radiis tenuiores limpidioresque
+          <lb ed="#P" n="16"/>substantie . primae iufluenti luce replentur,
+          <lb ed="#P" n="17"/>sicque exuberantem lucem in subsequentes solis
+          <lb ed="#P" n="18"/>cice trausfundunt, ita non sine periculo divinis
+          <lb ed="#P" n="19"/>in reblus quibusque aliis sc ducem praestare
+          <lb ed="#P" n="20"/>prasumet , qui non per omnia evaserit similis
+          <lb ed="#P" n="21"/>Deo. Jam vero Bernardus multus est in 
+          sua<lb break="no" ed="#P" n="22"/>dendo iis, qui alios lucrari conautur, se prius
+          <lb ed="#P" n="23"/>exhibeant conchas, quam canales, etc. Videri
+          <lb ed="#P" n="24"/>potest serm. 1 in Cant., et lib. 2 de Consider.,
+          <lb ed="#P" n="25"/>cap. 3. Atque hic ordo videtur a Christo etiam
+          <lb ed="#P" n="26"/>significari, Luc. ult., cum suis discipulis dixit:
+          <lb ed="#P" n="27"/>Alanete in civitate, douec induamini virtute ex
+          <lb ed="#P" n="28"/>alto. Ergo ratione talis ordinis necesse est, ut
+          <lb ed="#P" n="29"/>primarius finis hujus religionis sit 
+          contempla<lb break="no" ed="#P" n="30"/>tio; tunc cnim uterque ille finis comparari
+          <lb ed="#P" n="31"/>poterit, quando (ut Gregorius dixit, homil. 5
+          <lb ed="#P" n="32"/>super Ezechiel.) predicatores fueriat viri 
+          per<lb break="no" ed="#P" n="33"/>fecti , qui Dona coelestia, quae contemplari 
+          po<lb break="no" ed="#P" n="34"/>Luerunt , fratribus denuntinnt, eorumque 
+          ani<lb break="no" ed="#P" n="35"/>mas in amorem intime charitatis accendunt ;
+          <lb ed="#P" n="36"/>loquentes autem verbis suis corda audientimn
+          <lb ed="#P" n="37"/>feriunt et iuceudunt. Cum ergo finis hujus 
+          in<lb break="no" ed="#P" n="38"/>stituti sit, et perfectos viros, et perfectos 
+          mi<lb break="no" ed="#P" n="39"/>nistros, aliosque perficientes generare, ficri
+          <lb ed="#P" n="40"/>non potest quin finis ejus etiam sit eos 
+          con<lb break="no" ed="#P" n="41"/>templativos efficere ; ergo necesse est ut ad
+          <lb ed="#P" n="42"/>hunc fincm media etiam habeat accommodata;
+          <lb ed="#P" n="43"/>alias non esset recte praestitutum, nec tanta
+          <lb ed="#P" n="44"/>approbatione institutum ipsum fuisset dignum.
+        </p>
+        <p xml:id="szovsr-q14640-d1e945">
+          <lb ed="#P" n="45"/>7. Inductione eadem ratio confirmatur. —
+          <lb ed="#P" n="46"/>Haec autem ratio optime contirmatur esx illis
+          <lb ed="#P" n="47"/>actionibus, per quas Societas principaliter
+          <lb ed="#P" n="48"/>exercet vitam activam, quatenus ad suum 
+          in<lb break="no" ed="#P" n="49"/>stitutum pertinet, quae sunt spirituales 
+          actio<lb break="no" ed="#P" n="50"/>nes, et ad animarum proftectum proxime ac
+          <lb ed="#P" n="51"/>per se ordinantur; alia enim opera 
+          miseri<lb break="no" ed="#P" n="52"/>cordiae corporalis, sicut secundaria sunt, ita
+          <lb ed="#P" n="53"/>etiam rariora, et ideo et parum extrahere 
+          pos<lb break="no" ed="#P" n="54"/>sunt ab operationibus vitae contemplativa,
+          <lb ed="#P" n="55"/>et aliunde potius juvant humanam infirmita-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>tem, quae non valet semper surgere ad 
+          con<lb break="no" ed="#P" n="57"/>templanda coelestia ; et ideo necesse est ut 
+          ali<lb break="no" ed="#P" n="58"/>quandco ad activam redeat, et quae potest bona
+          <lb ed="#P" n="59"/>agere, non recuset, ut dixit Gregorius, d. 
+          ho<lb break="no" ed="#P" n="60"/>mil. 5 in Ezechielem. Alie ergo spirituales
+          <lb ed="#P" n="61"/>actiones tales sunt, ut, licet, quatenus ad 
+          pro<lb break="no" ed="#P" n="62"/>ximos referuntur, formaliter pertineant ad 
+          vi<lb break="no" ed="#P" n="63"/>tam activam, nihilominus ratione materiae in
+          <lb ed="#P" n="64"/>qua versantur, intime ac eminenter includant
+          <lb ed="#P" n="65"/>ac supponant vitam contemplativam, 
+          praeser<lb break="no" ed="#P" n="66"/>tim si modo perfecto exercendae sint. Ergo
+          <lb ed="#P" n="67"/>institutum Societatis, quod ad has actiones
+          <lb ed="#P" n="68"/>perfecte exercendas ordinatur, necessario prius
+          <lb ed="#P" n="69"/>et principalius ordinari debet ad vitam 
+          con<lb break="no" ed="#P" n="70"/>templativam, tanquam ad primum fontem, et
+          <lb ed="#P" n="71"/>principium talium actionum. Assumptum 
+          de<lb break="no" ed="#P" n="72"/>claro in doctrinae actione, quae fere in 
+          om<lb break="no" ed="#P" n="73"/>nibus his actionibus spiritualibus intime 
+          in<lb break="no" ed="#P" n="74"/>cluditur. De doctrina igitur agens D. Thom.
+          <lb ed="#P" n="75"/>2. 2, q. 181, art. 3, quaerit utrum docere sit
+          <lb ed="#P" n="76"/>actus vitae contemplativae vel activae; et 
+          res<lb break="no" ed="#P" n="77"/>pondet, licet respectu discipulorum sit actus
+          <lb ed="#P" n="78"/>vitae activae, ex partc objecti et materiae, si
+          <lb ed="#P" n="79"/>doctrina sit perfecta, et de rebus divinis, 
+          pc<lb break="no" ed="#P" n="80"/>tius esse actum vitae contemplativae, quia est
+          <lb ed="#P" n="81"/>conceptus alicujus veritatis intelligibilis, in
+          <lb ed="#P" n="82"/>cujus consideratione et amore bomo 
+          delecta<lb break="no" ed="#P" n="83"/>tur. Affertque Augustinum, serm. 27 de 
+          Ver<lb break="no" ed="#P" n="84"/>bis Domini, dicentem : Eligant sibi partem
+          <lb ed="#P" n="85"/>meliorem, que non auferetur ab cis, vacent
+          <lb ed="#P" n="86"/>verbo, inbient doctring dulcedini, occupentur
+          <lb ed="#P" n="87"/>circa scientiamn salutarem ; iu quibus verbis,
+          <lb ed="#P" n="88"/>et doctrinam, et verbum Dei inter actus vitae
+          <lb ed="#P" n="89"/>contemplativae numerat. Dicet fortasse 
+          ali<lb break="no" ed="#P" n="90"/>quis, Augustinum non loqui de doctrina ex
+          <lb ed="#P" n="91"/>parte docentis, sed ex parte discentis; et cum
+          <lb ed="#P" n="92"/>dicit, cacare verbo. non intelligere proferendo,
+          <lb ed="#P" n="93"/>sed audiendo, sicut vacabat Maria, quando,
+          <lb ed="#P" n="94"/>sedens secus pedes Domini, audiebat verbum
+          <lb ed="#P" n="95"/>illius ; et sicut inferius dicit idem Augustinus:
+          <lb ed="#P" n="96"/>Nam et modo inde aliquid agimus remotia
+          <lb ed="#P" n="97"/>negotiis, si positis familiaribus curis, 
+          conveni<lb break="no" ed="#P" n="98"/>lis, statis, auditis. At enim si audire verbum
+          <lb ed="#P" n="99"/>Dei est actus vitae contemplativas, cur non
+          <lb ed="#P" n="100"/>magis docere? Etenim, si disciplinam 
+          consi<lb break="no" ed="#P" n="101"/>deremus per ordinem tantum ad discentem,
+          <lb ed="#P" n="102"/>non est proprie actus vitae contemplativae,
+          <lb ed="#P" n="103"/>imo neque est tam actio quam receptio. 
+          Per<lb break="no" ed="#P" n="104"/>tinet ergo ad vitam contemplativam ratione
+          <lb ed="#P" n="105"/>termini seu effectus, et in ordine ad obiectum
+          <lb ed="#P" n="106"/>ipsius disciplina, quatenus est aliqua veritas,
+          <lb ed="#P" n="107"/>ad quam cum delectatione considerandam 
+          au<lb break="no" ed="#P" n="108"/>ditores per disciplinam elevantur; multo ergo
+          <lb ed="#P" n="109"/>magis doctrina, ratione suas causae et 
+          princi<lb break="no" ed="#P" n="110"/>pii, est actus vitae contemplativae. Cnin crgo
+          <pb ed="#P" n="591"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>spirituales actiones intime habeant adjunctam
+          <lb ed="#P" n="2"/>doctrinam dc rebus divinis ( haec enim non
+          <lb ed="#P" n="3"/>solum per publicas lectiones et conciones,
+          <lb ed="#P" n="4"/>sed etiam in seecreta contessione et in 
+          se<lb break="no" ed="#P" n="5"/>creio colloquio ac instructione traditur), non
+          <lb ed="#P" n="6"/>potest talis activa vita a contemplativa 
+          se<lb break="no" ed="#P" n="7"/>parari, imo esse debet legitimus partus ejus;
+          <lb ed="#P" n="8"/>nam tunc docirina recte et cflicaciter 
+          tra<lb break="no" ed="#P" n="9"/>ditur, quando ex divina et interna 
+          contem<lb break="no" ed="#P" n="10"/>platione procedit, juxtia illud Psalm. A4:
+          <lb ed="#P" n="11"/>AMeincriam abundantie suavitatis ium 
+          eructa<lb break="no" ed="#P" n="12"/>bunt, et in justitia iua exultabunt. Atque hoc
+          <lb ed="#P" n="13"/>praecipue explicare possumus in quodam 
+          spe<lb break="no" ed="#P" n="14"/>ciali medio, quo Societas utitur ad spirituale
+          <lb ed="#P" n="15"/>bonum proximorum, quod est iradere illis
+          <lb ed="#P" n="16"/>spiritualia exercitia (de quibus infra, a cap. 4,
+          <lb ed="#P" n="17"/>lib. 9, ex professo erit sermo). Nam haec actio,
+          <lb ed="#P" n="18"/>si in ordine ad proximum consideretur, sine
+          <lb ed="#P" n="19"/>dubio est opus vita activae, et nihilominus,
+          <lb ed="#P" n="20"/>secundum se intime spectatum, opus est vitae
+          <lb ed="#P" n="21"/>contemplativae respectu materiae, seu objecti
+          <lb ed="#P" n="22"/>in quo versatur; ergo usus talis medii seu 
+          ac<lb break="no" ed="#P" n="23"/>lionis intrinsece includit contemplationem.
+          <lb ed="#P" n="24"/>Quocirca, sicut D. Thomas alias objicere solet,
+          <lb ed="#P" n="25"/>divinam seu theologicam scientiam esse 
+          emi<lb break="no" ed="#P" n="26"/>nenter practicam et speculativam, principaiius
+          <lb ed="#P" n="27"/>vero speculaiivam esse, iia nos dicere 
+          possu<lb break="no" ed="#P" n="28"/>mus, actiones has esse eminenter activae et
+          <lb ed="#P" n="29"/>contemplativae vitae, principalius autem 
+          con<lb break="no" ed="#P" n="30"/>templativae, illa enim est quasi vita et 
+          ani<lb break="no" ed="#P" n="31"/>ma talium actionum. Nec refert quod actiones
+          <lb ed="#P" n="32"/>iila aliquando fieri possint a viris nihil aut
+          <lb ed="#P" n="33"/>parum in contemplatione esercitatis ; quia hic
+          <lb ed="#P" n="34"/>nou consideramus has actiones prout ab illis
+          <lb ed="#P" n="35"/>vel iilis fiunt, sed prout fieri debent ex vi 
+          in<lb break="no" ed="#P" n="36"/>stituti ; sic enim fieri debent ut fructus 
+          con<lb break="no" ed="#P" n="37"/>templationis, et ut formatae interiori spiritu,
+          <lb ed="#P" n="38"/>quia tunc erunt perfectae, et eflicaces ad finem
+          <lb ed="#P" n="39"/>instituti; aliter vero factae erunt ineflicaces,
+          <lb ed="#P" n="40"/>et quasi mortuee, magisque in sola specie 
+          ex<lb break="no" ed="#P" n="41"/>teriori materialiter apparentes, quam verae,
+          <lb ed="#P" n="42"/>quantum est ex parte ministrorum, ut 
+          exclu<lb break="no" ed="#P" n="43"/>damus et eflicaciam sacramentorum ex opere
+          <lb ed="#P" n="44"/>operato, et quam Spiritus Sanctus ex suamet
+          <lb ed="#P" n="45"/>liberalitate adjungere potesi.
+        </p>
+        <p xml:id="szovsr-q14640-d1e1196">
+          <lb ed="#P" n="46"/>8. Confirmatur ultimo idem discursus. —
+          <lb ed="#P" n="47"/>Ultimo confirmari potest hic discursus ex 
+          re<lb break="no" ed="#P" n="48"/>solutione superioris capitis, in quo diximus
+          <lb ed="#P" n="49"/>Societatem per se esse rcligionem 
+          sacerdo<lb break="no" ed="#P" n="50"/>tum ; reiigio enim sacerdotum ad opera vite
+          <lb ed="#P" n="51"/>contemplativa ordinatur , ut ex D. Thoma
+          <lb ed="#P" n="52"/>coliigo, 2. 2, q. 199, art. 8, ad2, ubi id 
+          affir<lb break="no" ed="#P" n="53"/>mat de religione Canonicorum regularium.
+          <lb ed="#P" n="54"/>Est autem cadem ratio in quacumque 
+          religio<lb break="no" ed="#P" n="55"/>ue, quae per sc sit presbyterorum reiigio. Du-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>plicia enim sunt opera per se pertinentia ad
+          <lb ed="#P" n="57"/>sacerdotalem ordinem. Priora et praecipua
+          <lb ed="#P" n="58"/>sunt illa quae aguntur in divinis mysteriis, et
+          <lb ed="#P" n="59"/>versantur circa corpus Christi. Verum alia
+          <lb ed="#P" n="60"/>sunt ea quae versantur circa corpus mysticum,
+          <lb ed="#P" n="61"/>ut sunt actiones illae spirituales, quae ad salutem
+          <lb ed="#P" n="62"/>proximorum ordinantur , de quibus proximce
+          <lb ed="#P" n="63"/>antea loquebamur. Sicut ergo hae posteriores
+          <lb ed="#P" n="64"/>actiones supponunt priores, ita religio, quae
+          <lb ed="#P" n="65"/>per se ordinatur ad perficiendos sacerdotes,
+          <lb ed="#P" n="66"/>nt sacerdotes sunt (hoc est enim esse per sc
+          <lb ed="#P" n="67"/>religionem sacerdotum) , primario tendere
+          <lb ed="#P" n="68"/>debet ad perficiendos illos in ordine ad 
+          prio<lb break="no" ed="#P" n="69"/>res actiones, quae spectant ad divina mysteria,
+          <lb ed="#P" n="70"/>alioquin ineptissime esset instituta religio.
+          <lb ed="#P" n="71"/>Unde, quia prius ( ut aiunt) separatur a 
+          pos<lb break="no" ed="#P" n="72"/>teriori, bene potest aliqua religio clericorum
+          <lb ed="#P" n="73"/>esse instituta ad perficiendos sacerdotes in his
+          <lb ed="#P" n="74"/>actionibus, quae in divinis mysteriis 
+          peragen<lb break="no" ed="#P" n="75"/>dis consistunt, quamvis ulterius non 
+          extenda<lb break="no" ed="#P" n="76"/>tur ad actiones erga proximos ; eritque talis
+          <lb ed="#P" n="77"/>religio contemplativa, talisque est religio 
+          Ca<lb break="no" ed="#P" n="78"/>nonicorum regularium ex D. Thomae 
+          senten<lb break="no" ed="#P" n="79"/>tia, loco proxime citato. At vero e converso,
+          <lb ed="#P" n="80"/>posterius non separatur a priort, neque 
+          acces<lb break="no" ed="#P" n="81"/>sorium a principali, et ideo non potest essc
+          <lb ed="#P" n="82"/>bene instituta religio , quae sacerdotes 
+          pert<lb break="no" ed="#P" n="83"/>ciat in actionibus erga proximum, et non
+          <lb ed="#P" n="84"/>multo magis eos perficere intendat in 
+          actioni<lb break="no" ed="#P" n="85"/>bus circa Deum, et quae in divinis mysteriis
+          <lb ed="#P" n="86"/>aguntur. Societas ergo, quae optime et 
+          Spiri<lb break="no" ed="#P" n="87"/>tus Sancti instinctu instituta et probata est,
+          <lb ed="#P" n="88"/>ad perficiendum sacerdotes, quatenus 
+          sacer<lb break="no" ed="#P" n="89"/>dotes sunt, et se extendit ad perficiendos illos
+          <lb ed="#P" n="90"/>in actionibus sacerdotalibus erga proximos,
+          <lb ed="#P" n="91"/>multo magis intendit eos perficere in his 
+          om<lb break="no" ed="#P" n="92"/>nibus quae in divinis mysteriis aguntur. Quod
+          <lb ed="#P" n="93"/>etiam, quantum ex signis exterioribus ostendi
+          <lb ed="#P" n="94"/>potest, effectus ipse manifestat. Quamvis enim
+          <lb ed="#P" n="95"/>haec religio ( propter alias rationes divini 
+          ob<lb break="no" ed="#P" n="96"/>sequii, quas infra, c. 8, videbimus) cantu et
+          <lb ed="#P" n="97"/>aliis solemnitatibus externis in his mysteriis
+          <lb ed="#P" n="98"/>non utatur; quod ad decentiam et 
+          reveren<lb break="no" ed="#P" n="99"/>tiam eorum spectat, nullibi cum majori 
+          deco<lb break="no" ed="#P" n="100"/>re tractantur. Nullaque major cura huic 
+          reli<lb break="no" ed="#P" n="101"/>gioni esse solet, quam ut ea, qua pertinent ad
+          <lb ed="#P" n="102"/>divinum cultum , et ad veneratiecuem 
+          sacro<lb break="no" ed="#P" n="103"/>sancti sacrificii , et ad dignum usum 
+          sacra<lb break="no" ed="#P" n="104"/>mentorum esactissime peragantur. Cum ergo
+          <lb ed="#P" n="105"/>ostensum cit religionem hane, etiam ex ea
+          <lb ed="#P" n="106"/>parte, qua perficit sacerdotes in ordine ad 
+          ac<lb break="no" ed="#P" n="107"/>tiones spirituales circa proximos , intime 
+          in<lb break="no" ed="#P" n="108"/>cludere vitam contemplativam, multo magis
+          <lb ed="#P" n="109"/>illam includet, quatenus eosdem perficit iu
+          <lb ed="#P" n="110"/>sacerdotalibus actionibus divinorum myste-
+          <pb ed="#P" n="592"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>riorum ; nam in his potissima pars vita 
+          con<lb break="no" ed="#P" n="2"/>templativae consistit.
+        </p>
+        <p xml:id="szovsr-q14640-d1e1350">
+          <lb ed="#P" n="3"/>Quomodo Societas tam multae actioni simul
+          <lb ed="#P" n="4"/>cum contempletione possit satisfucere?
+        </p>
+        <p xml:id="szovsr-q14640-d1e1357">
+          <lb ed="#P" n="5"/>9. Ad alteram partem difficultatis in 
+          uu<lb break="no" ed="#P" n="6"/>nero Tertio. — Deum unicuique religioni 
+          gra<lb break="no" ed="#P" n="7"/>Liam suo instituto accommodatam 
+          communi<lb break="no" ed="#P" n="8"/>care. — Atque ex his difficile non est tollere
+          <lb ed="#P" n="9"/>admirationem, quae in numero tertio 
+          objicie<lb break="no" ed="#P" n="10"/>batur, scilicet, qui fieri possit ut tam multa
+          <lb ed="#P" n="11"/>actio, quam Societas profitetur, cum perfecta
+          <lb ed="#P" n="12"/>contemplatione conjungatur. Respondemus
+          <lb ed="#P" n="13"/>enim imprimis hoc non esse impossibile cum
+          <lb ed="#P" n="14"/>divina gratia; et quamvis id difficle 
+          vidca<lb break="no" ed="#P" n="15"/>tur, perfectam tamen virtutem circa 
+          difti<lb break="no" ed="#P" n="16"/>cile versari, atque ita diflicultatem illam, per
+          <lb ed="#P" n="17"/>religionis providentiam et perfectam 
+          institu<lb break="no" ed="#P" n="18"/>tionem, cum vocationis gratia posse superari.
+          <lb ed="#P" n="19"/>Dico autem cum cocationis gratia, tum quia
+          <lb ed="#P" n="20"/>nemo pro ratione sui status potest pie vivere,
+          <lb ed="#P" n="21"/>nedum perfecte, sine speciali gratia Dei; tum
+          <lb ed="#P" n="22"/>ctiam quia pie credendum est, vel potius est
+          <lb ed="#P" n="23"/>moraliter certum, Deum unicuiqne religioni
+          <lb ed="#P" n="24"/>dare specialem gratiam, quam communicat
+          <lb ed="#P" n="25"/>omnibus qui ab Spiritu Sancto ad illam 
+          vo<lb break="no" ed="#P" n="26"/>cantur, si per illos non steterit, ut finem illius
+          <lb ed="#P" n="27"/>instituti consequi valeant. Sic enim dixit D.
+          <lb ed="#P" n="28"/>Thom., in 4, d. 2, quaest. 1, articulo secundo,
+          <lb ed="#P" n="29"/>ad 9, ad quamlibet eminentiam status dari
+          <lb ed="#P" n="30"/>aliquam sanctitatem, cum sit ibi necessarium
+          <lb ed="#P" n="31"/>speciale auxilium gratiae. Et d. 38, quaest. 1,
+          <lb ed="#P" n="32"/>articulo quinto, ad 2, dixit, in consecratione
+          <lb ed="#P" n="33"/>virginum, et aliis hujusmodi benedictionibus,
+          <lb ed="#P" n="34"/>dari gratiam, nisi sit impedimentum ex parte
+          <lb ed="#P" n="35"/>suscipientis. Cujus locutionis sensus non est,
+          <lb ed="#P" n="36"/>per hos actus dari aliquam gratiam ex opere
+          <lb ed="#P" n="37"/>operato, cum non sint sacramenta, nec de hoc
+          <lb ed="#P" n="38"/>possit assignari certa aliqua lex; imo neque
+          <lb ed="#P" n="39"/>speciale privilegium eis esse concessum, cum
+          <lb ed="#P" n="40"/>ufficienti fundamento dici potest. Sensus ergo
+          <lb ed="#P" n="41"/>est, de speciali gratia auxiliante, excitante et
+          <lb ed="#P" n="42"/>adjuvanie, quam Deus, quantum in ipso est,
+          <lb ed="#P" n="43"/>majorem et specialiorem tribuit his, quos in
+          <lb ed="#P" n="44"/>speciali statu ac munere constituit, ad cujus
+          <lb ed="#P" n="45"/>convenientem usum illa indigent. Quo 
+          princi<lb break="no" ed="#P" n="46"/>pio usus est etiam idem D. Thomas, tertia
+          <lb ed="#P" n="47"/>parte, quaest. 27, articulo quinto, ad T, eta
+          <lb ed="#P" n="48"/>nobis confirmatum est in 2tom. tertiae partis,
+          <lb ed="#P" n="49"/>disp. 1, sect. 2, ad finem, et disp. tertia, sect.
+          <lb ed="#P" n="50"/>quinta, ration. 3, ubi ex Scriptura et Patribus
+          <lb ed="#P" n="51"/>illud confirmavimus. Quibus addi potest illud
+          <lb ed="#P" n="52"/>Pauli, ad Ephes. 3: Ejus factus sum ego 
+          mi<lb break="no" ed="#P" n="53"/>nister secundum donum gratie Dei, que data
+          <lb ed="#P" n="54"/>est inihi sccundum virtutem operelionis ejus;
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="55"/>mihi enim Sanctorum minimo data est gratia
+          <lb ed="#P" n="56"/>evangelizare investigabiles dicitias Christi.
+          <lb ed="#P" n="57"/>etc. Atque hoc voluit Deus significare Moysi,
+          <lb ed="#P" n="58"/>quando se excusanti a divino ministerio, eo
+          <lb ed="#P" n="59"/>quod ad illud imparem se agnosceret, 
+          respon<lb break="no" ed="#P" n="60"/>dit : Ego erotecum ; hoc enim verbo non 
+          tan<lb break="no" ed="#P" n="61"/>tum speciale privilegium, sed suavis etiam
+          <lb ed="#P" n="62"/>dispositio providentiae divinae significata est,
+          <lb ed="#P" n="63"/>dantis unicuique gratiam muneri vel statui
+          <lb ed="#P" n="64"/>ab ipso Deo instituto accommodatam. Cum
+          <lb ed="#P" n="65"/>ergo omnes religiones approbatae merito 
+          cen<lb break="no" ed="#P" n="66"/>seantur speciali Dei providentia institutae, 
+          du<lb break="no" ed="#P" n="67"/>bitandum non est quin singulae habeant 
+          para<lb break="no" ed="#P" n="68"/>tum speciale Dei auxilium suae vocationi 
+          pro<lb break="no" ed="#P" n="69"/>portionatum, ac proinde eo majus, quo 
+          insti<lb break="no" ed="#P" n="70"/>tutum fuerit altius ac difficilius, eu ad majus
+          <lb ed="#P" n="71"/>Dei obsequium, majoremque Ecclesiae 
+          utilita<lb break="no" ed="#P" n="72"/>tem ordinatum. Ostendimus autem in 
+          Socie<lb break="no" ed="#P" n="73"/>tatis instituto haec omnia excellenti quodam
+          <lb ed="#P" n="74"/>modo inveniri, scilicet, approbationem, 
+          in<lb break="no" ed="#P" n="75"/>stitutionem ex Spiritus Sancti instinctu, 
+          in<lb break="no" ed="#P" n="76"/>ientionem divini cultus et gloriae, cum 
+          gravis<lb break="no" ed="#P" n="77"/>simo munere et onere procurandi salutem
+          <lb ed="#P" n="78"/>animarum ; ergo dubitari non potest quin 
+          ha<lb break="no" ed="#P" n="79"/>beat a Deo paratam specialem vocationis 
+          gra<lb break="no" ed="#P" n="80"/>tiam, qua praedictum finem comparare valeat.
+          <lb ed="#P" n="81"/>Atque hujus gratiae vocationis videtur nobis
+          <lb ed="#P" n="82"/>praebuisse testimonium Gregorius XIII, 
+          consti<lb break="no" ed="#P" n="83"/>tutione Quanto fructuosius, et in alia bulla
+          <lb ed="#P" n="84"/>Ascendente Domino, cum dixit: Sicut 
+          Socie<lb break="no" ed="#P" n="85"/>talis finis est propagatio et defensio fidei, 
+          ani<lb break="no" ed="#P" n="86"/>marumque in vita et doctrina Christiana 
+          pro<lb break="no" ed="#P" n="87"/>gressus, ita etiam gratie ejus vocationis 
+          pro<lb break="no" ed="#P" n="88"/>prium est, diversa loca ey Romani Pontificis
+          <lb ed="#P" n="89"/>vel Praepositi generalis directione peragvare.
+          <lb ed="#P" n="90"/>Nam, quia ille actus et difficilior et 
+          periculo<lb break="no" ed="#P" n="91"/>sior aliis esse potest, ideo gratiw vocationis
+          <lb ed="#P" n="92"/>specialiter illum attribuit ; sic ergo nos 
+          dici<lb break="no" ed="#P" n="93"/>mus, si qua est diflicultas in conjungenda
+          <lb ed="#P" n="94"/>perfectione vitae activae cum perfectlone vitae
+          <lb ed="#P" n="95"/>contemplativae, per gratiam cocationis uon
+          <lb ed="#P" n="96"/>difficile superari posse.
+        </p>
+        <p xml:id="szovsr-q14640-d1e1561">
+          <lb ed="#P" n="97"/>10. Alio modo eidem dubitationi satisfit. —
+          <lb ed="#P" n="98"/>Prima circumstantiu ad Societatis actiones
+          <lb ed="#P" n="99"/>requisita. — Secunda. — Addo vero ulterius,
+          <lb ed="#P" n="100"/>si attente consideremus ea quae diximus, non
+          <lb ed="#P" n="101"/>esse in co negotio nimis magnam 
+          difficulta<lb break="no" ed="#P" n="102"/>tem, quia principales actiones, in quibus vita
+          <lb ed="#P" n="103"/>activa Societatis versatur, ita sunt conjunctae
+          <lb ed="#P" n="104"/>cum vita contemplativa, ut veluti ex corpore
+          <lb ed="#P" n="105"/>et animo unum quid ex illis efficiatur ; 
+          quam<lb break="no" ed="#P" n="106"/>vis autem plura, ut plura, intendere difficile
+          <lb ed="#P" n="107"/>sit, qua de causa, Ecclesiastici 11, dicitur:
+          <lb ed="#P" n="108"/>Fili, ne in multis sint actus tui ; et Luc. 10,
+          <lb ed="#P" n="109"/>Marthae declaratur unum ecsse nbecessariunm,
+          <pb ed="#P" n="593"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quod Augustinus et alii Patres unico vitae 
+          con<lb break="no" ed="#P" n="2"/>templativae negotio seu otio exponunt. Plura
+          <lb ed="#P" n="3"/>tamen per modum unius intendere non est
+          <lb ed="#P" n="4"/>difficile. Exemplo ab speculatione et doctrina
+          <lb ed="#P" n="5"/>aliarum scientiarum sumpto, rem declaro.
+          <lb ed="#P" n="6"/>Longe enim diversum videtur docere et 
+          spe<lb break="no" ed="#P" n="7"/>culari, scribere aut meditari ; tamen haec duo
+          <lb ed="#P" n="8"/>munia non se impediunt, neque unum ratione
+          <lb ed="#P" n="9"/>alterius difficilius redditur, quia unum ex alio
+          <lb ed="#P" n="10"/>oritur, et tunc recte doctrina traditur, 
+          quan<lb break="no" ed="#P" n="11"/>do interior veritatis speculatio perfecta est.
+          <lb ed="#P" n="12"/>Ita vero se habet contemplatio ad praedictas
+          <lb ed="#P" n="13"/>Societatis actiones, et ideo illam per se non
+          <lb ed="#P" n="14"/>impediunt, eo vel maxime quod tales actiones,
+          <lb ed="#P" n="15"/>ut perfecte fiant, duas circumstantias ad 
+          con<lb break="no" ed="#P" n="16"/>templativam partem maxime pertinentes per
+          <lb ed="#P" n="17"/>se requirunt. Una est, ut fiant intuitu 
+          ma<lb break="no" ed="#P" n="18"/>joris glorias, et obsequii divini, et quod 
+          sem<lb break="no" ed="#P" n="19"/>per aut frequenter quoad fieri possit, illuc
+          <lb ed="#P" n="20"/>referantur, de quo frequenter filii Societatis
+          <lb ed="#P" n="21"/>in suis constitutionibus admonentur, ut 
+          vi<lb break="no" ed="#P" n="22"/>dere licet in 3 p. Constit., cap. 1. S 
+          vigesi<lb break="no" ed="#P" n="23"/>mo sexto, et p. 7, c. , SI, et c. 2, per 
+          to<lb break="no" ed="#P" n="24"/>tum, et p. 8, cap. 1, et ideo in parte decima,
+          <lb ed="#P" n="25"/>S 2, dicitur : Ad conserceationem et 
+          incremen<lb break="no" ed="#P" n="26"/>tun spiritus Societatis, atgue ad assecutionem
+          <lb ed="#P" n="27"/>finis quem sibi pgrefigit, auailii animarum ad
+          <lb ed="#P" n="28"/>ultimum et supernaturalem suum fiuem 
+          conse<lb break="no" ed="#P" n="29"/>quendum, media illa, que cum Deo 
+          instrumen<lb break="no" ed="#P" n="30"/>Un conjungunt ac disponunt, ut a divina munu
+          <lb ed="#P" n="31"/>recte gubernetur, efficaciora sunt quam que
+          <lb ed="#P" n="32"/>illud disponunt erga homines. Hujusmodi est
+          <lb ed="#P" n="33"/>probitas et virtus , ac precipue charitas, et
+          <lb ed="#P" n="34"/>pura intentio divini servitii, et familiuritas
+          <lb ed="#P" n="35"/>cum Deo in spiritualibus devotionis emercitiis.
+          <lb ed="#P" n="36"/>Qui modus operandi perfectissimus est, et qui
+          <lb ed="#P" n="37"/>assiduam Dei memoriam maxime conservat,
+          <lb ed="#P" n="38"/>ut late explicat Basilius, reg. 5, ex fusius 
+          dis<lb break="no" ed="#P" n="39"/>putatis, et attingit in brevioribus, regul. 195
+          <lb ed="#P" n="40"/>et 196. Alia circumstantia, quae ex dictis facile
+          <lb ed="#P" n="41"/>colligitur, est, ut talia opera fiant cum actuali
+          <lb ed="#P" n="42"/>oratione ac petitione divini auxilii. Quia cum
+          <lb ed="#P" n="43"/>in illis omnibus homo semper operari debeat
+          <lb ed="#P" n="44"/>nt Dei instrumentum, a quo debet efficaciam
+          <lb ed="#P" n="45"/>illorum expectare, tunc perfecte fiunt, quando
+          <lb ed="#P" n="46"/>pradicta oratio cum eis adjungitur. Igitur si
+          <lb ed="#P" n="47"/>debito modo tales actiones fiant, ex se non
+          <lb ed="#P" n="48"/>impediunt perfectionem vitae contemplativae,
+          <lb ed="#P" n="49"/>sed potius ex se juvant. Et quamvis contingat
+          <lb ed="#P" n="50"/>aliquando impedire actualem quamdam 
+          inte<lb break="no" ed="#P" n="51"/>riorem suavitatem et dulcedinem, illud non
+          <lb ed="#P" n="52"/>est substantiale detrimentum, multoque 
+          ma<lb break="no" ed="#P" n="53"/>gis perfeciionem auget opus charitatis erga
+          <lb ed="#P" n="54"/>proximos propter Deum factum. Propter quod
+          <lb ed="#P" n="55"/>dixit Gregorius, prima p. Pastorahs, c. 5, ad
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>finem : Sunt nonnulli qui, maguis muneribus
+          <lb ed="#P" n="57"/>ditati, dum solius contemplationis studiis 
+          in<lb break="no" ed="#P" n="58"/>ardescunt, parere utilitati provimorum 
+          prae<lb break="no" ed="#P" n="59"/>dicatione refugiunt, secretum quietis diligunt,
+          <lb ed="#P" n="60"/>secessum speculationis petunt; de quo si 
+          dis<lb break="no" ed="#P" n="61"/>lricte judicentur, ex tantis proculdubio rei sunt,
+          <lb ed="#P" n="62"/>quantis venientes ad publicum prodesse 
+          potue<lb break="no" ed="#P" n="63"/>runt ; qua enim mente is, qui promimis 
+          pre<lb break="no" ed="#P" n="64"/>futurus enitesceret, utilitati ceterorum 
+          secre<lb break="no" ed="#P" n="65"/>tum pra ponit suum, quando ipse summi Patris
+          <lb ed="#P" n="66"/>Unigenitus, ut a multis prodesset, de sinu 
+          Pa<lb break="no" ed="#P" n="67"/>tris egressus est ad publicum nostrum?
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

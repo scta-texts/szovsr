@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="77"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q01882"><!-- t8l2prae -->
+        <head xml:id="szovsr-q01882-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-q01882-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="25"/>LIBER SECUNDUS
+          <lb ed="#P" n="26"/>DE RELIGIOSIS
+          <lb ed="#P" n="27"/>OUATENUS PRAELATI SUNT, ET EORUM OBLIGATIONIBUS UT SIC.
+        </p>
+        <p xml:id="szovsr-q01882-d1e114">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="28"/>Post explicatam essentiam, et praecipua
+          <lb ed="#P" n="29"/>vincula status reliiosi, dicendum de caeteris
+          <lb ed="#P" n="30"/>obligationibus et proprietatibus ejus. Ad hoc
+          <lb ed="#P" n="31"/>autem oportet gradus personarum, ex quibus
+          <lb ed="#P" n="32"/>religiosa congregatio coalescit, distinguere,
+          <lb ed="#P" n="33"/>et sigillatim considerare, quia pro diversitate
+          <lb ed="#P" n="34"/>eorum diversa est obligatio, et in quibusdam
+          <lb ed="#P" n="35"/>carum personarum oritur ex respectu ad
+          <lb ed="#P" n="36"/>alias. Ad duo autem capita possunt dictae
+          <lb ed="#P" n="37"/>personae revocari , Praelatos scilicet et 
+          subdi<lb break="no" ed="#P" n="38"/>tos. Primum vero occurrit Praelatorum 
+          consi<lb break="no" ed="#P" n="39"/>deratio, quia et praecipui sunt, et post 
+          doctri<lb break="no" ed="#P" n="40"/>nam de obedientia et subjectione, opportune
+          <lb ed="#P" n="41"/>cadit sermo de Praelatis. Igitur de eis 
+          dice<lb break="no" ed="#P" n="42"/>mus, quae pertinent ad ipsorum creationem,
+          <lb ed="#P" n="43"/>seu existentiam (ut sic dicam); deinde, quae
+          <lb ed="#P" n="44"/>ad potestatem et obligationes ipsorum, quae
+          <lb ed="#P" n="45"/>in tali creatione fundamentum habent.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

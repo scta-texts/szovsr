@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="911"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r06503"><!-- t10l7prae -->
+        <head xml:id="szovsr-r06503-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-r06503-d1e103">
+          <cb ed="#V" n="d"/>
+          <lb ed="#C" n="15"/>LIBER SEPTIMUS
+          <lb ed="#C" n="16"/>DE
+          <lb ed="#C" n="17"/>PROFBESSIS TRIUM VOTORUM
+          <lb ed="#C" n="18"/>ET COADJUTORIBUS FORMATIS SOCINIATIS.
+        </p>
+        <p xml:id="szovsr-r06503-d1e116">
+          <cb ed="#V" n="e"/>
+          <lb ed="#C" n="19"/>Introductio ad sequentem librum septumum.
+          <lb ed="#C" n="20"/>— Constat ex Bullis et Constitutionibus 
+          Socie<lb break="no" ed="#C" n="21"/>tatis, quas infra, c. 1, referemus, praeter 
+          pro<lb break="no" ed="#C" n="22"/>fessos quatuor votorum, esse alios presbyteros
+          <lb ed="#C" n="23"/>religiosos, qui ad ipsos professos in 
+          spirituali<lb break="no" ed="#C" n="24"/>bus ministeriis juvandos in Societate 
+          reci<lb break="no" ed="#C" n="25"/>piuntur , eique alio genere professionis vel
+          <lb ed="#C" n="26"/>unionis incorporantur, et in ultimo quodam
+          <lb ed="#C" n="27"/>gradu religioso constituuntur, quos professos
+          <lb ed="#C" n="28"/>trium votorum, aut coadjutores spirituales 
+          for<lb break="no" ed="#C" n="29"/>matos appellamus. De his ergo nunc 
+          commo<lb break="no" ed="#C" n="30"/>de sermo incidit, quia cum professis in 
+          mi<lb break="no" ed="#C" n="31"/>nisteriis et in vitae genere conveniunt, 
+          praeter<lb break="no" ed="#C" n="32"/>quam in modo votorum qua emittunt , et
+          <lb ed="#C" n="33"/>consequenter in conditionibus quas 
+          requi<lb break="no" ed="#C" n="34"/>runt ; quam differentiam hic explicare 
+          ejus<lb break="no" ed="#C" n="35"/>que rationem reddere necesse est, simulque
+          <lb ed="#C" n="36"/>quidquid his gradibus proprium ac speciale
+          <lb ed="#C" n="37"/>fuerit declarabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="2"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q00017"><!-- t8l1c1 -->
+        <head xml:id="szovsr-q00017-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-q00017-Hd1e103" type="question-title">Quid et quotuplex regula religiosa sit, et quomodo a constitutione differat?</head>
+        <p xml:id="szovsr-q00017-d1e106">
+          <lb ed="#P" n="24"/>CAPUT I.
+          <lb ed="#P" n="25"/>QUID ET QUOTUPLEX REGULA RELIGIOSA SIT, ET
+          <lb ed="#P" n="26"/>QUOMODO A CONSTITUTIONE DIFFERAT?
+        </p>
+        <p xml:id="szovsr-q00017-d1e115">
+          <lb ed="#P" n="27"/>i. Regulue significatio multiples.— Ut 
+          obhi<lb break="no" ed="#P" n="28"/>gationem directe provenientem personae 
+          re<lb break="no" ed="#P" n="29"/>Iigiosae ex sua regula vel constitutione 
+          intel<lb break="no" ed="#P" n="30"/>ligamus, oportet ut quid ipsa regula, quidve
+          <lb ed="#P" n="31"/>constitutio sit, et an discrimen inter se 
+          ha<lb break="no" ed="#P" n="32"/>beant, exponamus. RAegula (inquit Isidorus,
+          <lb ed="#P" n="33"/>libr. 6 Etymologiar., cap. 16, et refertur cap.
+          <lb ed="#P" n="34"/>2, d. 3.) dicta ea eo quod ducit, nec aliquando
+          <lb ed="#P" n="35"/>aliorsum trahit, et subjungit : Alii dimerunt
+          <lb ed="#P" n="36"/>regulam dictam, vel quod regat, vel quod
+          <lb ed="#P" n="37"/>uormum recte vivendi prebeat, vel quod 
+          dis<lb break="no" ed="#P" n="38"/>Lortwn pravumque corrigat. Ahter 
+          juriscon<lb break="no" ed="#P" n="39"/>sultus, l. 1, ff. de Beg. juris : Regula est (
+          in<lb break="no" ed="#P" n="40"/>quit) qug rem que est breciter enarrat ; non
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="41"/>ut ex regula jus sumatur, sed eo jure quod es!
+          <lb ed="#P" n="42"/>regula fiat. Unde constat vocem hanc 
+          aequi<lb break="no" ed="#P" n="43"/>vocam esse, nam interdum significat instru
+          <lb ed="#P" n="44"/>mentum artis ad dirigendas aliquas actiones
+          <lb ed="#P" n="45"/>inventum, ut ex communi usu constat, et inde
+          <lb ed="#P" n="46"/>videtur derivata ad significandum principium
+          <lb ed="#P" n="47"/>aliquod inventum ad dirigendas operationes
+          <lb ed="#P" n="48"/>morales, et sic apud jurisperitos regula 
+          fre<lb break="no" ed="#P" n="49"/>quentius appellatur brevis et compendiosa
+          <lb ed="#P" n="50"/>praeceptio ex jure collecta, ut sit veluti 
+          nor<lb break="no" ed="#P" n="51"/>ma aliquarum actionum. Sic inscribuntur 
+          ti<lb break="no" ed="#P" n="52"/>tuli de Regulis juris; sic etium dicitur in l. 9,
+          <lb ed="#P" n="53"/>ff. de juris et facti ignorantia : Regula juris
+          <lb ed="#P" n="54"/>est, ignorantiam juris nocere, facti vero non,
+          <lb ed="#P" n="55"/>et sic de aliis. Ex quo tandem in jure 
+          cano<lb break="no" ed="#P" n="56"/>nico regula solet pro lege seu jure sumi; nam
+          <lb ed="#P" n="57"/>lex est, quae maxime dirigit operationes 
+          mo<lb break="no" ed="#P" n="58"/>rales, et in hoc sensu videtur sumpta ab 
+          Isi<lb break="no" ed="#P" n="59"/>doro, citato loco; ubi etiam ait regulam 
+          la<lb break="no" ed="#P" n="60"/>tine idem esse quod canonem graece; 
+          cano<lb break="no" ed="#P" n="61"/>nes autem communi usu jam vocamus 
+          cano<lb break="no" ed="#P" n="62"/>nicas leges. Nihilominus tamen nomen 
+          regu<lb break="no" ed="#P" n="63"/>Iae, etiam in hac significatione ecclesiastica
+          <lb ed="#P" n="64"/>sumptum, non significat rigorosum 
+          praece<lb break="no" ed="#P" n="65"/>ptum, obligans in conscientia, sed simplicem
+          <lb ed="#P" n="66"/>ordinationem mores hominum dirigentem:
+          <lb ed="#P" n="67"/>sicut regulae artis appellantur praeceptiones in
+          <lb ed="#P" n="68"/>unaquaque servandae, ut opus artificiose fiat.
+          <lb ed="#P" n="69"/>Hoc ergo modo quasi per antonomasiam 
+          ap<lb break="no" ed="#P" n="70"/>piicata est illa vox ad significandum regulam
+          <lb ed="#P" n="71"/>religiosam, quia strictiori et perfectiori modo
+          <lb ed="#P" n="72"/>religiosorum actus dirigit, ut bene notavit 
+          Um<lb break="no" ed="#P" n="73"/>bertus, in expositione regulae Augustini, c. 7,
+          <lb ed="#P" n="74"/>unde abilla ipsi religiosi regulares sunt 
+          appel<lb break="no" ed="#P" n="75"/>lati, quia ad vivendum secundum regulam 
+          ali<lb break="no" ed="#P" n="76"/>quam astringuntur, ut constat ex rubrica de
+          <lb ed="#P" n="77"/>Regularibus, ubi Panormitanus et alii id 
+          no<lb break="no" ed="#P" n="78"/>tant. Sicut olim clerici in communi et religiose
+          <lb ed="#P" n="79"/>viventes a canone canonici dicti sunt. Postea
+          <pb ed="#P" n="3"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vero canonici regulares sunt appellati, quia
+          <lb ed="#P" n="2"/>nomen canonici generalius est, ut optime 
+          no<lb break="no" ed="#P" n="3"/>tavit Navarrus, comment. 1 de Regular.,
+          <lb ed="#P" n="4"/>num. 2 et 3, ubi optime defendit geminatam
+          <lb ed="#P" n="5"/>illam vocem a calumnia Ludovici Vives, nam
+          <lb ed="#P" n="6"/>canonici simpliciter dicuntur clerici, qui sub
+          <lb ed="#P" n="7"/>aliqua communitate et regula vivunt, 
+          quam<lb break="no" ed="#P" n="8"/>vis religiosi non sint, sed proprium habeant;
+          <lb ed="#P" n="9"/>canoniei autem regulares appellantur, qui
+          <lb ed="#P" n="10"/>non utcumque communiter vivunt, sed alia
+          <lb ed="#P" n="11"/>insuper obligatione astringuntur, quod recte
+          <lb ed="#P" n="12"/>etiam notavit Covar., in Clement. Si 
+          furio<lb break="no" ed="#P" n="13"/>sus, part. 1, in princip., num. 4, ubi advertit
+          <lb ed="#P" n="14"/>cliam sanctimoniales virgines in hac 
+          signifi<lb break="no" ed="#P" n="15"/>catione a Chrysostomo Canonicas appellari,
+          <lb ed="#P" n="16"/>id est, regulares.
+        </p>
+        <p xml:id="szovsr-q00017-d1e274">
+          <lb ed="#P" n="17"/>2. Regula pro instituto vitee, seu collectione
+          <lb ed="#P" n="18"/>muitarum regularum speciulium, quadruplec
+          <lb ed="#P" n="19"/>cliin tantummodo. — Ulterius autem, ut 
+          sc<lb break="no" ed="#P" n="20"/>cundae parti ütuhl satisfaciamus, adverti 
+          po<lb break="no" ed="#P" n="21"/>test interdum appellari regulam 
+          quamcum<lb break="no" ed="#P" n="22"/>que singularem ordinationem, seu legem, ita
+          <lb ed="#P" n="23"/>ut nomen regula commune sit; interdum
+          <lb ed="#P" n="24"/>vero esse hoc nomen collectivum, significans
+          <lb ed="#P" n="25"/>normam vivendi secundum perfectionem
+          <lb ed="#P" n="26"/>evangelicam ; quo modo una regula 
+          conti<lb break="no" ed="#P" n="27"/>net in se plures regulas priori modo 
+          sum<lb break="no" ed="#P" n="28"/>ptas, et utroque modo est frequens usus 
+          hu<lb break="no" ed="#P" n="29"/>jus voeis in praesenti materia ; praecipue 
+          ta<lb break="no" ed="#P" n="30"/>men loquimur posteriori modo. Atque ita 
+          di<lb break="no" ed="#P" n="31"/>stingui solet ab auctoribus quadruplex regula
+          <lb ed="#P" n="32"/>religiosa specialiter ab Ecclesia approbata,
+          <lb ed="#P" n="33"/>scilicet Basilii, Augustini, Benedicti (de 
+          qui<lb break="no" ed="#P" n="34"/>bus fit mentio, et earum approbatio 
+          suppo<lb break="no" ed="#P" n="35"/>nitur in cap. Perniciosam, i8, q. 2, ex 
+          Conci<lb break="no" ed="#P" n="36"/>lio Romano sub Innocentio II, cap. 26 et 27),
+          <lb ed="#P" n="37"/>et regula S. Francisci, ab Honorio IlI 
+          ap<lb break="no" ed="#P" n="38"/>probata, sub quibus regulis multae religiones
+          <lb ed="#P" n="39"/>vivunt, ut sub regula S. Benedicti militant
+          <lb ed="#P" n="40"/>fere omnes ordines monachales, praeter 
+          Car<lb break="no" ed="#P" n="41"/>thusianos, qui habent statuta pro regula, ut
+          <lb ed="#P" n="42"/>notat Sylv., verb. Eeligio, 1, q. 1, ut 
+          pro<lb break="no" ed="#P" n="43"/>prii Benedictini, qui in jure monachi nigri
+          <lb ed="#P" n="44"/>appellantur, Cistercienses, Camaldulenses, et
+          <lb ed="#P" n="45"/>alii praeterea fere omnes ordines militares
+          <lb ed="#P" n="46"/>Hispania. Sub regula S. Basin dicuntur
+          <lb ed="#P" n="47"/>miiitare fere omnes Orientis monachi, et
+          <lb ed="#P" n="48"/>idem cicit Anton., tertia part., tit. 16, cap. 1,
+          <lb ed="#P" n="49"/>S 8, de Carmelitis; sed de hoc postea n.6
+          <lb ed="#P" n="50"/>videbimus, nam illius Ordinis auctores non
+          <lb ed="#P" n="51"/>facile hoc admittunt, sed suam regulam esse
+          <lb ed="#P" n="52"/>volunt ab omnibnus praedictis diversam, ct
+          <lb ed="#P" n="53"/>ante Honorium etiam approbatam. Sub 
+          re<lb break="no" ed="#P" n="54"/>gula vero Augustini militant omnes canonici
+          <lb ed="#P" n="55"/>regulares, et eremite, qui Augustiniani et
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>Praedicatores, et plures alii, qui, ut Anton.,
+          <lb ed="#P" n="57"/>Sylvest., et alii aiunt, licet in regula 
+          conve<lb break="no" ed="#P" n="58"/>niant, constitutionibus inter se differunt.
+        </p>
+        <p xml:id="szovsr-q00017-d1e371">
+          <lb ed="#P" n="59"/>3. Discutitur praedicta quadrimembris 
+          divi<lb break="no" ed="#P" n="60"/>sio regule. — Ut autem hoc explicemus, ect
+          <lb ed="#P" n="61"/>cur illae tantum quatuor regulae numerentur,
+          <lb ed="#P" n="62"/>et approbatae dicantur, quaeri potest quid 
+          in<lb break="no" ed="#P" n="63"/>ter regulam et constitutiones differat. Nam
+          <lb ed="#P" n="64"/>si regula singulariter sumatur, quaelibet 
+          con<lb break="no" ed="#P" n="65"/>stitutio religiosa, regula est; si autem 
+          suma<lb break="no" ed="#P" n="66"/>tur collective, regula uniuscujusque 
+          religio<lb break="no" ed="#P" n="67"/>uis comprehendet omnes constitutiones ejus,
+          <lb ed="#P" n="68"/>quia ex omnibus consurgit norma vivendi in
+          <lb ed="#P" n="69"/>illa religione, et quia non est major ratio cur
+          <lb ed="#P" n="70"/>sub collectione regulae quaedam constitutiones
+          <lb ed="#P" n="71"/>potius quam aliae comprehendantur. 
+          Confir<lb break="no" ed="#P" n="72"/>matur et declaratur, quia quando religiosi
+          <lb ed="#P" n="73"/>promittunt obedientiam secundum regulam,
+          <lb ed="#P" n="74"/>necesse est ut sub regula constitutiones 
+          com<lb break="no" ed="#P" n="75"/>prehendant, alias non tenerentur secundum
+          <lb ed="#P" n="76"/>ilas obedire, nec ad majorem vel 
+          strictio<lb break="no" ed="#P" n="77"/>rem obedientiam obligarentur fratres 
+          Praedi<lb break="no" ed="#P" n="78"/>catores, verbi gratia, quam canoniciregulares,
+          <lb ed="#P" n="79"/>quia omnes obligantur ad obediendum 
+          secun<lb break="no" ed="#P" n="80"/>dum eamdem regulam, si per regulain sola
+          <lb ed="#P" n="81"/>Augustini regula intelligenda est ; consequens
+          <lb ed="#P" n="82"/>est apertefalsum ; ergo oportet ut in 
+          unaqua<lb break="no" ed="#P" n="83"/>que religione propriae constitutiones sub illius
+          <lb ed="#P" n="84"/>regula comprehendantur. Quod si hoc ita est,
+          <lb ed="#P" n="85"/>sine causa distinguuntur tantum quatuor 
+          regu<lb break="no" ed="#P" n="86"/>lae approbatae, sed tot distinguendae sunt, quo:
+          <lb ed="#P" n="87"/>sunt in Ecclesia religiones approbatae; quia
+          <lb ed="#P" n="88"/>nulla esse potest religio sine propria regula
+          <lb ed="#P" n="89"/>in eo sensu sumpta, alias non haberet in quo
+          <lb ed="#P" n="90"/>distingueretur ab alia, nec potest esse religio
+          <lb ed="#P" n="91"/>approbata, quin regula ejus approbata sit,
+          <lb ed="#P" n="92"/>cum tota perfectio et substantia religionis (ut
+          <lb ed="#P" n="93"/>sic dicam) pendeat ex regula, seu ex ordine
+          <lb ed="#P" n="94"/>ad illam.
+        </p>
+        <p xml:id="szovsr-q00017-d1e452">
+          <lb ed="#P" n="95"/>4. Enucleatur jam ipsa divisio. —In hoc
+          <lb ed="#P" n="96"/>potest solum esse quaestio de vocabulis, et
+          <lb ed="#P" n="97"/>ideo illa, vel illorum usum distinguere 
+          opor<lb break="no" ed="#P" n="98"/>tet, et ita constabit an in re sit aliqua 
+          diffc<lb break="no" ed="#P" n="99"/>rentia. Non est ergo dubium quin, loquendo
+          <lb ed="#P" n="100"/>de regula juxta significationem explicatam,
+          <lb ed="#P" n="101"/>pro norma recte et perfecte vivendi, omnes
+          <lb ed="#P" n="102"/>constitutiones religionis, qua in illa habent
+          <lb ed="#P" n="103"/>vim legis, sub regula comprehendantur, quia
+          <lb ed="#P" n="104"/>in illis omnibus consistit norma perfecte 
+          vi<lb break="no" ed="#P" n="105"/>vendi in tali religione, et hoc convincit ratio
+          <lb ed="#P" n="106"/>facta. Videtur autem in aliquibus religionibus
+          <lb ed="#P" n="107"/>quasi per antonomasiam vocari regula, 
+          quae<lb break="no" ed="#P" n="108"/>dam specialis norma seu praeceptorum 
+          col<lb break="no" ed="#P" n="109"/>lectio a primo aliquo fundatore rehgiosi 
+          sta<lb break="no" ed="#P" n="110"/>tus tradita, qua a caeteris sumpta est tanquam
+          <pb ed="#P" n="4"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>fundamentum suae religionis, seu modi 
+          vi<lb break="no" ed="#P" n="2"/>vendi; et hujusmodi fuerunt tres illae 
+          anti<lb break="no" ed="#P" n="3"/>quiores regulae Basilii, Augustini et Benedicti,
+          <lb ed="#P" n="4"/>quae si attente iuspiciantur, adeo breves sunt,
+          <lb ed="#P" n="5"/>ut non contineant omnia quae in 
+          communi<lb break="no" ed="#P" n="6"/>tate religiosa necessaria vel utilia esse 
+          pos<lb break="no" ed="#P" n="7"/>sunt, sed tantum praecipua et substantialia,
+          <lb ed="#P" n="8"/>et praesertim regula Basilii, quam nunc ex
+          <lb ed="#P" n="9"/>ejus operibus colligere possumus, vel ex 
+          re<lb break="no" ed="#P" n="10"/>culis brevius aut fusius disputatis, vel ex 
+          con<lb break="no" ed="#P" n="11"/>stitutionibus monasticis, vel ex epistola ejus
+          <lb ed="#P" n="12"/>ad Gregorium Theologum, quae incipit:
+          <lb ed="#P" n="13"/>Agnori litteras tuas, quae est de forma 
+          hone<lb break="no" ed="#P" n="14"/>stae vitae; ex his (inquam) locis solum 
+          colli<lb break="no" ed="#P" n="15"/>guntur generalia quaedam consilia ad viam
+          <lb ed="#P" n="16"/>perfectionis instituendam , non vero omnia
+          <lb ed="#P" n="17"/>quae ad plenam institutionem monasterii, vel
+          <lb ed="#P" n="18"/>totius reipublicae religiosae necessaria sunt;
+          <lb ed="#P" n="19"/>ct idem fere observari potest in aliis duabus.
+          <lb ed="#P" n="20"/>Unde ortum est ut semper illis regulis additae
+          <lb ed="#P" n="21"/>sint aliquae constitutiones, vel nova statuta,
+          <lb ed="#P" n="22"/>quae temporum necessitas ostendit esse 
+          ne<lb break="no" ed="#P" n="23"/>cessaria. Item, factum est ut intra 
+          latitudi<lb break="no" ed="#P" n="24"/>nem status religiosi ad diversos fines sit 
+          una<lb break="no" ed="#P" n="25"/>quaeque ex illis regulis applicata, vel ad 
+          eum<lb break="no" ed="#P" n="26"/>dem sub diversis caeremoniis et observantiis,
+          <lb ed="#P" n="27"/>juxta diversas vocationes, aut pios affectus
+          <lb ed="#P" n="28"/>quos Deus fundatoribus, aut potius 
+          reforma<lb break="no" ed="#P" n="29"/>toribus, vel moderatoribus aliquarum 
+          religio<lb break="no" ed="#P" n="30"/>num inspiravit. Atque hoc modo dicuntur
+          <lb ed="#P" n="31"/>varie religioncs sub una vel altera illarum
+          <lb ed="#P" n="32"/>regularum militare, quia illam regulam quasi
+          <lb ed="#P" n="33"/>pro fundamento sumpserunt, et proprias 
+          ob<lb break="no" ed="#P" n="34"/>servantias addiderunt, de illis etiam proprias
+          <lb ed="#P" n="35"/>ordinationes faciendo, quas, ut ab illa 
+          prima<lb break="no" ed="#P" n="36"/>ria regula distinguerent, constitutiones vel
+          <lb ed="#P" n="37"/>statuta appellarunt. D. autem Franciscus 
+          nul<lb break="no" ed="#P" n="38"/>lam illarum regularum pro fundamento suae
+          <lb ed="#P" n="39"/>religionis sumpsit, sed propriam confecit,
+          <lb ed="#P" n="40"/>ejusque peculiarem approbationem obtinuit,
+          <lb ed="#P" n="41"/>ct ideo quarto loco inter approbatas 
+          nomina<lb break="no" ed="#P" n="42"/>tur, sub qua militant ctiam varia religiones,
+          <lb ed="#P" n="43"/>vel potius familiae Minorum, praesertim tres,
+          <lb ed="#P" n="44"/>Observantiae, Conventualitatis, et 
+          Capuccino<lb break="no" ed="#P" n="45"/>rum, quae sub distinctis Generalibus proprias
+          <lb ed="#P" n="46"/>ctiam habent constitutiones, seu statuta a
+          <lb ed="#P" n="47"/>propria regula S. Francisci distincta.
+        </p>
+        <p xml:id="szovsr-q00017-d1e595">
+          <lb ed="#P" n="48"/>5. Primum corollarium, quo vrespondetur
+          <lb ed="#P" n="49"/>tertie parti tituli.— Ex his ergo satis constat
+          <lb ed="#P" n="50"/>quomodo differat constitutio a regula in his
+          <lb ed="#P" n="51"/>religionibus ubi haec distinguuntur; non enim
+          <lb ed="#P" n="52"/>per se differunt ex obligatione quam 
+          indu<lb break="no" ed="#P" n="53"/>cunt; utraque enim esse potest, vel ad culpam
+          <lb ed="#P" n="54"/>mortalem aut venialem, vel ad solam 
+          poe<lb break="no" ed="#P" n="55"/>nam, juxta intentionem instituentium aut ac-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>ceptantium talem regulam, vel 
+          consintutio<lb break="no" ed="#P" n="57"/>nes; et secundum utramque debent Praelati
+          <lb ed="#P" n="58"/>uniuscujusque religionis subditos gubernare,
+          <lb ed="#P" n="59"/>et potest eis impuiarc ex vi obedientiae, ut
+          <lb ed="#P" n="60"/>probatum est. Differentia vero solum videtur
+          <lb ed="#P" n="61"/>accidentaria in origine, et in hoc quod regula
+          <lb ed="#P" n="62"/>est quasi generalis et communis, 
+          constitutio<lb break="no" ed="#P" n="63"/>nes autem speciales et propriae. Aliqui 
+          existi<lb break="no" ed="#P" n="64"/>mant ctiam differre aliquo modo in majori
+          <lb ed="#P" n="65"/>perpetuitate, proveniente ex specialiori 
+          Pon<lb break="no" ed="#P" n="66"/>tificis approbatione seu confirmatione; nam
+          <lb ed="#P" n="67"/>regula non potest sine Pontificis auctoritate
+          <lb ed="#P" n="68"/>mutari, quia est jure communi, vel a 
+          Pontifi<lb break="no" ed="#P" n="69"/>ce specialiter confirmata; constitutiones 
+          au<lb break="no" ed="#P" n="70"/>tem sicut per religionem factae sunt, ita per
+          <lb ed="#P" n="71"/>eam mutari possunt; ita D. Anton., tertia
+          <lb ed="#P" n="72"/>part., tit. 16, cap. 4, S 4, ex Joan. Andrea,
+          <lb ed="#P" n="73"/>in Novellis. De qua differentia mihi satis non
+          <lb ed="#P" n="74"/>constat, et ideo consulenda censeo singula
+          <lb ed="#P" n="75"/>instituta, et quo sensu et modo unaquaeque
+          <lb ed="#P" n="76"/>talem regulam sumpserit ac profiteatur ; nam
+          <lb ed="#P" n="77"/>de tribus antiquioribus regulis non habemus
+          <lb ed="#P" n="78"/>ita expressam Pontificum aut juris communis
+          <lb ed="#P" n="79"/>approbationem. Nam Innocentius lH, in dict.
+          <lb ed="#P" n="80"/>cap. Perniciosam, obiter tantum iliarum 
+          men<lb break="no" ed="#P" n="81"/>tionem facit, et supponit potius antiquam 
+          ap<lb break="no" ed="#P" n="82"/>probationem, quae scripta non habetur, sed
+          <lb ed="#P" n="83"/>potius traditione et usu facta videtur, 
+          quam<lb break="no" ed="#P" n="84"/>vis de regula S. Benedicti legitur specialis
+          <lb ed="#P" n="85"/>S. Gregorii approbatio in haec verba: Ego
+          <lb ed="#P" n="86"/>Gregorius, S. Ie. E. Presul scripsi vitam B.
+          <lb ed="#P" n="87"/>Benedicti, et legi regulam, quam ipse Sonctus
+          <lb ed="#P" n="88"/>man propria scripsit; laudavi eam, et 
+          confir<lb break="no" ed="#P" n="89"/>qnavi in sancta Synodo ; ita refertur ad finem
+          <lb ed="#P" n="90"/>illius regulae post commentarios 
+          Turrecrema<lb break="no" ed="#P" n="91"/>tae, in quodam antiquo volumine de cujus
+          <lb ed="#P" n="92"/>auctoritate mihi satis non constat. Deinde
+          <lb ed="#P" n="93"/>non constat illas regulas ita esse confirmatas
+          <lb ed="#P" n="94"/>a Pontificibus, ut non possint a religionibus,
+          <lb ed="#P" n="95"/>quae illas profitentur, communi consensu et
+          <lb ed="#P" n="96"/>auctoritate mutari. Loquimur autem de 
+          mu<lb break="no" ed="#P" n="97"/>tatione quoad aliquas particulares partes 
+          re<lb break="no" ed="#P" n="98"/>cula, nam mutarc tolam, jam esset mutare
+          <lb ed="#P" n="99"/>religionem, et substantiam ejus, quod religio
+          <lb ed="#P" n="100"/>facere non potest, alias destrueret seipsam.
+          <lb ed="#P" n="101"/>Hoc tamen modo, etiam non potest talis 
+          reli<lb break="no" ed="#P" n="102"/>gio auctoritate sua mutare omnes 
+          constitutio<lb break="no" ed="#P" n="103"/>nes simul sumptas, quibus quasi constituitur
+          <lb ed="#P" n="104"/>in essc talis religionis ; quia hoc esset 
+          des<lb break="no" ed="#P" n="105"/>truere suam specialem professionem ; non
+          <lb ed="#P" n="106"/>videtur ergo esse in hoc magna dilfferentia.
+          <lb ed="#P" n="107"/>Praesertim quia etiam constitutiones 
+          appro<lb break="no" ed="#P" n="108"/>batarum religionum solent esse a Sede 
+          Apo<lb break="no" ed="#P" n="109"/>stolica confirmatae, et nihilominus ab eadem
+          <lb ed="#P" n="110"/>Scde habet religio potestatem ad mutationem
+          <pb ed="#P" n="5"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>aliquam faciendam; idem ergo potest 
+          con<lb break="no" ed="#P" n="2"/>tingere circa regulam. Consulendae ergo sunt
+          <lb ed="#P" n="3"/>facultates Apostolicae, quas in hoc 
+          unaquae<lb break="no" ed="#P" n="4"/>que religio habet. Specialiter vero ex regula
+          <lb ed="#P" n="5"/>S. Benedicti, et S. Francisci, quaedam sunt
+          <lb ed="#P" n="6"/>in jure canonico insertee, ut patet ex cap.
+          <lb ed="#P" n="7"/>Cwum ad monasteriun, de Statu monach., et
+          <lb ed="#P" n="8"/>ex cap. Exiit, de Verborum signif., in 6, et
+          <lb ed="#P" n="9"/>Clement. Exivit, eod. tit., et in his verum
+          <lb ed="#P" n="10"/>esse opinor non posse fieri abrogationem seu
+          <lb ed="#P" n="11"/>derogationem, Summo Pontitice inconsulto.
+        </p>
+        <p xml:id="szovsr-q00017-d1e764">
+          <lb ed="#P" n="12"/>6. Secundum corollariun. — Ferificatur
+          <lb ed="#P" n="13"/>plane de Carthusianis, et Societate, et aliis. —
+          <lb ed="#P" n="14"/>Secundo, sequitur ex dictis, multas esse 
+          reli<lb break="no" ed="#P" n="15"/>giones approbatas quae non habent regulam
+          <lb ed="#P" n="16"/>in eo sensu sumplam, id est, a 
+          constitutioni<lb break="no" ed="#P" n="17"/>bus distinctam, aut ex aliquo antiquo 
+          Patriar<lb break="no" ed="#P" n="18"/>cha religionum sumptam, non tamen 
+          pro<lb break="no" ed="#P" n="19"/>pterea carent regula propriissime dicta ; vere
+          <lb ed="#P" n="20"/>enim ac proprie regulares sunt; habent ergo
+          <lb ed="#P" n="21"/>suas constitutiones pro regula: ita sentiunt
+          <lb ed="#P" n="22"/>dc Carthusiensibus Antonin., Sylvest. et alii,
+          <lb ed="#P" n="23"/>qui putant usque ad sua tempora nullam
+          <lb ed="#P" n="24"/>alam religionem approbatam fuisse, quae 
+          ali<lb break="no" ed="#P" n="25"/>quam ex praedictis regulis non profiteretur.
+          <lb ed="#P" n="26"/>Et sane Innocentius II, in dict. cap. 
+          Pernicio<lb break="no" ed="#P" n="27"/>58n, satis significat usque ad sua tempora
+          <lb ed="#P" n="28"/>omnes veros religiosos sub aliqua trium 
+          an<lb break="no" ed="#P" n="29"/>liquarum regularum militasse; sic enim ait
+          <lb ed="#P" n="30"/>de quibusdam mulieribus : Quae, licet neque
+          <lb ed="#P" n="31"/>secundum regulam B. Benedicti, neque Basilii
+          <lb ed="#P" n="32"/>aut Augustini vivant, sanctimoniales tamen
+          <lb ed="#P" n="33"/>vulgo censeri desiderant ; quasi tacite 
+          suppo<lb break="no" ed="#P" n="34"/>nendo illas feminas non potuisse, nisi sub
+          <lb ed="#P" n="35"/>aliqua ex his regulis, veram religionem 
+          pro<lb break="no" ed="#P" n="36"/>fiteri. Nihilominus tamen Carmelitae ante 
+          In<lb break="no" ed="#P" n="37"/>nocentium II vere religiosi erant, et tacitam
+          <lb ed="#P" n="38"/>saltem approbationem habebant, ut colligitur
+          <lb ed="#P" n="39"/>ex cap. Unico, S Sane, de Relig. domib., in
+          <lb ed="#P" n="40"/>6, et infra latius dicemus; et tamen ipsimet
+          <lb ed="#P" n="41"/>dicunt se nullam es dictis regulis profiteri,
+          <lb ed="#P" n="42"/>sed propriam; non ergo religiones omnes
+          <lb ed="#P" n="43"/>approbatae vivebant sub aliqua illarum. 
+          An<lb break="no" ed="#P" n="44"/>tonin. autem, et alii ad hoc respondent, 
+          Car<lb break="no" ed="#P" n="45"/>melitarum regulam a Basilio duxisse 
+          origi<lb break="no" ed="#P" n="46"/>nem, et ita sub illa comprehendi ; quod licet
+          <lb ed="#P" n="47"/>aliquibus non placeat, mihi videtur 
+          necessa<lb break="no" ed="#P" n="48"/>rium, propter textum citatum Innocentii II.
+          <lb ed="#P" n="49"/>isque ad tempora ergo Honorii III, facile
+          <lb ed="#P" n="50"/>concedemus nullam fuisse religionem 
+          appro<lb break="no" ed="#P" n="51"/>batam, quae suas constitutiones quasi pro
+          <lb ed="#P" n="52"/>primaria regula habuerit, praeter 
+          Carthusia<lb break="no" ed="#P" n="53"/>nos, de quibus dicit Antonm. supra, quod 
+          ha<lb break="no" ed="#P" n="54"/>bent sua statuta pro regula, et habetur in
+          <lb ed="#P" n="55"/>maena veneratione in Ecclesia. Post Hono-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>rium vero Societas in hoc imitata est 
+          Carthu<lb break="no" ed="#P" n="57"/>sianos, nullam enim ex antiquioribus regulis
+          <lb ed="#P" n="58"/>profitetur, sed Constitutiones, quas a suo
+          <lb ed="#P" n="59"/>fundatore S. Ignatio accepit, habet pro regula
+          <lb ed="#P" n="60"/>a Sede Apostolica approbata, ut infra 
+          videbi<lb break="no" ed="#P" n="61"/>mus. Ordo etiam Minimorum dicitur habere
+          <lb ed="#P" n="62"/>propriam regulam, a suo institutore S. 
+          Fran<lb break="no" ed="#P" n="63"/>cisco de Paula editam, et a Sixto IV et 
+          Ale<lb break="no" ed="#P" n="64"/>xandro VI approbatam.
+        </p>
+        <p xml:id="szovsr-q00017-d1e884">
+          <lb ed="#P" n="65"/>7. Tertium corollarium. — Tertio sequitur,
+          <lb ed="#P" n="66"/>nunc plures esse in Ecclesia quam quatuor
+          <lb ed="#P" n="67"/>regulas approbatas. Nam, praeterquam quod
+          <lb ed="#P" n="68"/>religio Carmelitarum suam propriam regulam
+          <lb ed="#P" n="69"/>approbatam habere contendit , Carthusienses,
+          <lb ed="#P" n="70"/>et Minimi, et Societas, et fortasse alii habent
+          <lb ed="#P" n="71"/>suas, quia nec esse possunt sine regula, ut
+          <lb ed="#P" n="72"/>dixi, nec potest religio esse approbata sine
+          <lb ed="#P" n="73"/>sua regula; hae autem religiones approbatae
+          <lb ed="#P" n="74"/>sunt, ut supponimus, et non profitentur 
+          su<lb break="no" ed="#P" n="75"/>pradictas regulas; ergo unaquaque habet
+          <lb ed="#P" n="76"/>suam approbatam. Neque enim in illis 
+          priori<lb break="no" ed="#P" n="77"/>bus quatuor major aut diversae rationis 
+          appro<lb break="no" ed="#P" n="78"/>batio cogitanda erit; nullo enim fundamento
+          <lb ed="#P" n="79"/>hoc dici potest, cum, eadem auctoritate 
+          Pon<lb break="no" ed="#P" n="80"/>ificia, et eisdem verbis etiam hae posteriores
+          <lb ed="#P" n="81"/>regulae approbatae et confirmatae sint; de quo
+          <lb ed="#P" n="82"/>videbimus plura in particulari infra tractando
+          <lb ed="#P" n="83"/>de approbatione Societatis. Non omittam
+          <lb ed="#P" n="84"/>etiam advertere, in nono tomo operum D.
+          <lb ed="#P" n="85"/>Hieronymi haberi regulam monachorum ex
+          <lb ed="#P" n="86"/>scriptis D. Hieronymi a Lupo de Oliveto, 
+          Ge<lb break="no" ed="#P" n="87"/>nerali ejusdem Ordinis, collectam, ibidemque
+          <lb ed="#P" n="88"/>refert litteras Apostolicas Martini V, quibus
+          <lb ed="#P" n="89"/>eam approbavit , ut monachi illius ordinis,
+          <lb ed="#P" n="90"/>qui prius secundum regulam B. Augustini
+          <lb ed="#P" n="91"/>profitebantur, sub propria regula, D. 
+          Hierony<lb break="no" ed="#P" n="92"/>mi nuncupata, deinceps profiterentur. Extat
+          <lb ed="#P" n="93"/>etiam regula S. Pachomii, quem ab Angelo
+          <lb ed="#P" n="94"/>dictante accepisse Hieronymus refert, et suh
+          <lb ed="#P" n="95"/>ca multos AEgypti monachos vixisse.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

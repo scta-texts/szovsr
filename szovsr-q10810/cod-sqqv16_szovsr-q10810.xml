@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="432"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q10810"><!-- t9l1c2 -->
+        <head xml:id="szovsr-q10810-Hd1e101">Caput 2</head>
+        <head xml:id="szovsr-q10810-Hd1e103" type="question-title">Utrum religiosa vita in solitariam et coenobiticam recte distinguatur, et utra perfectior sit.</head>
+        <p xml:id="szovsr-q10810-d1e106">
+          <lb ed="#P" n="26"/>CAPUT II
+          <lb ed="#P" n="27"/>UTRUM RELIGIOSA VITA IN SOLITARIAM ET 
+          COE<lb break="no" ed="#P" n="28"/>NOBITICAM RECTE DISTINGUATUR, ET UTRA 
+          PER<lb break="no" ed="#P" n="29"/>FECTIOR SIT.
+        </p>
+        <p xml:id="szovsr-q10810-d1e117">
+          <lb ed="#P" n="30"/>1. Supponendum est, sermonem esse de
+          <lb ed="#P" n="31"/>proprio statu religioso ; late enim potest 
+          reli<lb break="no" ed="#P" n="32"/>ciosa vita appellari omnis illa, quae ad 
+          divi<lb break="no" ed="#P" n="33"/>num cultum instituitur, etiamsi non habeat
+          <lb ed="#P" n="34"/>omnia requisita ad religiosum statum , ut ex
+          <lb ed="#P" n="35"/>superius dictis satis notum est. Videtur autem
+          <lb ed="#P" n="36"/>hoc modo non posse habere locum distinctio
+          <lb ed="#P" n="37"/>proposita, quia repugnat vitam esse vere 
+          re<lb break="no" ed="#P" n="38"/>ligiosam, et esse solitariam. Primo, quia vota
+          <lb ed="#P" n="39"/>religiosa esse debent sub speciali obedientia
+          <lb ed="#P" n="40"/>alicujus Praelati; qui autem solitariam vitam
+          <lb ed="#P" n="41"/>agit, nullius obedientiae specialiter subjectus
+          <lb ed="#P" n="42"/>est, ut patet de Joanne Baptista, de Paulo,
+          <lb ed="#P" n="43"/>primo eremita , et similibus; ergo. Secundo,
+          <lb ed="#P" n="44"/>quia vita religiosa debet esse regularis, debet
+          <lb ed="#P" n="45"/>enim statui et firmari per professionem sub
+          <lb ed="#P" n="46"/>aliqua certa regula ; unde et in jure 
+          religio<lb break="no" ed="#P" n="47"/>si regulares appellantur, et pro eodem 
+          repu<lb break="no" ed="#P" n="48"/>tantur; sed qui vitam solitariam agit, nullam
+          <lb ed="#P" n="49"/>regulam profitetur, ut per se constat ; ergo.
+          <lb ed="#P" n="50"/>Tertium, quia status religiosus requirit 
+          Ec<lb break="no" ed="#P" n="51"/>clesiae approbationem et acceptationem ; in
+          <lb ed="#P" n="52"/>vita autem solitaria nihil horum reperitur.
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>In contrarium est, quia antiqui et 
+          perfectissi<lb break="no" ed="#P" n="54"/>mi monachi hanc vitam professi sunt; imo
+          <lb ed="#P" n="55"/>hac ratione, Joannes Baptista eorum princeps
+          <lb ed="#P" n="56"/>et dux in lege gratiae appellari solet; et antc
+          <lb ed="#P" n="57"/>illum, in lege veteri, Elias censetur huic 
+          sta<lb break="no" ed="#P" n="58"/>tui principium dedisse ; cujus exemplum
+          <lb ed="#P" n="59"/>etiam Christus dare voluit, quaudo in 
+          deser<lb break="no" ed="#P" n="60"/>tum per quadraginta dies secessit, ut jejunio
+          <lb ed="#P" n="61"/>et contemplationi vacaret. Atque ita est apud
+          <lb ed="#P" n="62"/>Patres vulgaris distinctio monachorum in 
+          ana<lb break="no" ed="#P" n="63"/>choretas et coenobitas , ut videre licet apud
+          <lb ed="#P" n="64"/>Hieronymum , epist. 22 ad Eustochium , de
+          <lb ed="#P" n="65"/>Custod. vizgin. ; Cassianum, collat. 18, c. 4;
+          <lb ed="#P" n="66"/>Isidorum, lib. 2 de Offic. Eccles., cap. 15, de
+          <lb ed="#P" n="67"/>Monachis, et lib. 7 Etymolog., c. 13, ubi 
+          ana<lb break="no" ed="#P" n="68"/>choretas et eremitas in duos ordines 
+          distin<lb break="no" ed="#P" n="69"/>guit; nam eremitas vocat, qui semper a 
+          prin<lb break="no" ed="#P" n="70"/>cipio solitariam vitam profitentur ; anachorc -
+          <lb ed="#P" n="71"/>tas, qui post acquisitam perfectionem in vita
+          <lb ed="#P" n="72"/>coenobitica , in solitudinem separantur. 
+          Suffi<lb break="no" ed="#P" n="73"/>ciens tamen est bimembris divisio: nam 
+          qui<lb break="no" ed="#P" n="74"/>cumque solitariam vitam agunt, utroque 
+          no<lb break="no" ed="#P" n="75"/>mine appellari solent, et cum illa duo 
+          mem<lb break="no" ed="#P" n="76"/>bra quasi per contradictorias differentias 
+          dis<lb break="no" ed="#P" n="77"/>tinguantur , adequatc distinguunt divisum.
+          <lb ed="#P" n="78"/>Solent etiam Patres addere alia membra illi
+          <lb ed="#P" n="79"/>divisioni, ut patet ex proxime citatis , et ex
+          <lb ed="#P" n="80"/>S. Benedicto, in principio sua hegula.. 
+          Ve<lb break="no" ed="#P" n="81"/>erumtamen illa alia membra non pertinent
+          <lb ed="#P" n="82"/>ad veros et religiosos monachos de quibus
+          <lb ed="#P" n="83"/>agimus, sed dantur de quibusdam fietis et 
+          rc<lb break="no" ed="#P" n="84"/>probis monachis , qui illis temporibus 
+          vigc<lb break="no" ed="#P" n="85"/>bant.
+        </p>
+        <p xml:id="szovsr-q10810-d1e243">
+          <lb ed="#P" n="86"/>2. Tota ergo difticultas hujus divisionis, vt
+          <lb ed="#P" n="87"/>argumenta ostendunt, versatur in altero 
+          mem<lb break="no" ed="#P" n="88"/>bro, scilicet, vitae solitariae; nam de vita 
+          coc<lb break="no" ed="#P" n="89"/>nobitica non est dubium. Dicitur enim 
+          coeno<lb break="no" ed="#P" n="90"/>bitica vita, quae agitur in religiosa 
+          congrega<lb break="no" ed="#P" n="91"/>tione, cujuscumque ordinis illa sit, quae dici
+          <lb ed="#P" n="92"/>etiam potest vita communis et socialis. Sed
+          <lb ed="#P" n="93"/>quia hae voces generaliores sunt, ideo 
+          religio<lb break="no" ed="#P" n="94"/>sae vitae, quae in conventu fratrum fit, vox illa
+          <lb ed="#P" n="95"/>accommodata est. Quod ergo haec vitae 
+          com<lb break="no" ed="#P" n="96"/>munis ratio accommodatissima sit statui 
+          reli<lb break="no" ed="#P" n="97"/>gioso, per se notum est, tum ex usu Ecclesiae,
+          <lb ed="#P" n="98"/>in qua hic modus vitae religiosae praevaluit, ac
+          <lb ed="#P" n="99"/>fere solus conservatur ; ium etiam quia ad
+          <lb ed="#P" n="100"/>omnia vota religioso statui substantialia, et ad
+          <lb ed="#P" n="101"/>praxim omnium consiliorum et virtutum est
+          <lb ed="#P" n="102"/>valde opportuna, ut statim magis patebit. 
+          Un<lb break="no" ed="#P" n="103"/>de de hac interpretatur Augustinus illud 
+          Psal<lb break="no" ed="#P" n="104"/>mi 132: Quamn bonum et quam jucundum 
+          ha<lb break="no" ed="#P" n="105"/>litare fratres in unwm ; quia in hujusmodi 
+          re<lb break="no" ed="#P" n="106"/>ligiosis coenobiis ita sunt multi, ut tamen sit
+          <lb ed="#P" n="107"/>cor unum et anima una, cujus initium, et
+          <pb ed="#P" n="433"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>quasi exemplar ait fuisse in ceenaculo, ubi post
+          <lb ed="#P" n="2"/>Ghristi Domini ascensionem erant Apostoli
+          <lb ed="#P" n="3"/>cum fidelibus congregati in unum, orationibus
+          <lb ed="#P" n="4"/>instantes, et expectantes Spiritus Sancti 
+          ad<lb break="no" ed="#P" n="5"/>ventum. Et ideo iu hos etiam coenobitas 
+          in<lb break="no" ed="#P" n="6"/>terpretatur, optimc convenire monachi 
+          no<lb break="no" ed="#P" n="7"/>men, quia, licet ab unitate sumptum sit ( 
+          uto<lb break="no" ed="#P" n="8"/>nos enim est unus, unde monachus, quasi unus
+          <lb ed="#P" n="9"/>ct solitarius dictus est), tamen etiam coenobitae
+          <lb ed="#P" n="10"/>monachi recte dicuntur : Nan qui sic vivunt
+          <lb ed="#P" n="11"/>in wnwn (ait Augustinus), ut unum hominem
+          <lb ed="#P" n="12"/>faciant, ut sit illis verum, sicut scriptum cst,
+          <lb ed="#P" n="13"/>cor uwm et anima una, nulta corpora, sed
+          <lb ed="#P" n="14"/>eunun cor, et una anima, recte dicilur monos,
+          <lb ed="#P" n="15"/>id est, unus solus. Igitur modis omnibus, et
+          <lb ed="#P" n="16"/>res , et vox religiosi status in hujusmodi 
+          con<lb break="no" ed="#P" n="17"/>gregationes, earumque religiosos convenit; de
+          <lb ed="#P" n="18"/>alio ergo membro videndum superest.
+        </p>
+        <p xml:id="szovsr-q10810-d1e338">
+          <lb ed="#P" n="19"/>3. Vita solitaria late et presse dicitur.—
+          Vi<lb break="no" ed="#P" n="20"/>ta eremitica late, est verus status religiosus.—
+          <lb ed="#P" n="21"/>Sermones ad Fratres i, eremo, nwn sint 
+          Au<lb break="no" ed="#P" n="22"/>gustini.— Vita eremitica presse, qua.—Est 
+          cr<lb break="no" ed="#P" n="23"/>go ulterius advertendum, generaliter dici 
+          pos<lb break="no" ed="#P" n="24"/>se solitariam vitam, omnem illam quae 
+          com<lb break="no" ed="#P" n="25"/>munis non est, neque in societate multorum
+          <lb ed="#P" n="26"/>idem genus vitae profitentium, sive agatur in
+          <lb ed="#P" n="27"/>solitudine ab omni commercio hominum 
+          se<lb break="no" ed="#P" n="28"/>parata, qua: proprie dicitur vita eremitica;
+          <lb ed="#P" n="29"/>sive agatur in pagis, villis, et civitatibus, in
+          <lb ed="#P" n="30"/>propriis tamen ae privatis domibus; licet enim
+          <lb ed="#P" n="31"/>haec non possit dici vita solitaria, quantum ad
+          <lb ed="#P" n="32"/>conversationem et convictum cum aliis 
+          homi<lb break="no" ed="#P" n="33"/>nibus, potest tamen dici solitaria, si alioqui
+          <lb ed="#P" n="34"/>rcligiosa sit, quoad societatem et unitatem in
+          <lb ed="#P" n="35"/>codem genere vitae. Fuit autem uterque 
+          mo<lb break="no" ed="#P" n="36"/>dus vivendi cultus in Ecclesia ab his 
+          homini<lb break="no" ed="#P" n="37"/>bus. qui viam consiliorum et perfectionis 
+          am<lb break="no" ed="#P" n="38"/>plexi sunt. Nam de vita eremitica extant 
+          cla<lb break="no" ed="#P" n="39"/>rissima antiquitatis exempla. Tamen, ne sit
+          <lb ed="#P" n="40"/>ambiguitas in nomine , oportet advertere, 
+          in<lb break="no" ed="#P" n="41"/>terdum dici eremitas, eos, qui in coenobiis 
+          de<lb break="no" ed="#P" n="42"/>sunt, quando talia monasteria solum in 
+          deser<lb break="no" ed="#P" n="43"/>lis locis ac eremis construebant, et ex sua 
+          vi<lb break="no" ed="#P" n="44"/>veudi ratione talem separationem a populis
+          <lb ed="#P" n="45"/>hominum postulabant. Hoc modo fuerunt 
+          ere<lb break="no" ed="#P" n="46"/>mitae religiosi S. Basilii, ut ex eo accipi potest
+          <lb ed="#P" n="47"/>in regul. 6, ex fus. disputat.; in hac etiam
+          <lb ed="#P" n="48"/>amplitudine videtur mihi de solitaria vita 
+          lo<lb break="no" ed="#P" n="49"/>qui Hierony mus, cum illam mire laudat in
+          <lb ed="#P" n="50"/>epistola prima ad Heliodorum. Augustini 
+          mo<lb break="no" ed="#P" n="51"/>nachi eremitae dicuntur , ad quos sunt 
+          sermo<lb break="no" ed="#P" n="52"/>nes ejus ad Fratres in eremo, de quorum 
+          auc<lb break="no" ed="#P" n="53"/>lore licet aliqui recentiores dubitaverint, 
+          ta<lb break="no" ed="#P" n="54"/>men plerique doctiores, eos Augustinianos 
+          ve<lb break="no" ed="#P" n="55"/>re esse recognoscunt. ei ita invcuiuntur passim
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>citati a gravibus auctoribus, praesertim a 
+          Ni<lb break="no" ed="#P" n="57"/>colao V, in tractatu de laudibus Augustini, et
+          <lb ed="#P" n="58"/>a S. Antonio de Paulo, Vincentio Feirr., ci
+          <lb ed="#P" n="59"/>Bernard. Senen., saepe in suis concionibus; ct
+          <lb ed="#P" n="60"/>Concilium Aquisgran. citat sermones de 
+          com<lb break="no" ed="#P" n="61"/>muni vita clericorum , qui ejusdem ordinis et
+          <lb ed="#P" n="62"/>rationis esse censentur. Et fortasse non pauci
+          <lb ed="#P" n="63"/>inter illos inserti erunt, qui non sint 
+          Augusti<lb break="no" ed="#P" n="64"/>ni, de quo iterum libro sequenti, capite 
+          octa<lb break="no" ed="#P" n="65"/>vo, numero octavo; tamen quod aliquos 
+          in<lb break="no" ed="#P" n="66"/>scripserit eo titulo, verisimillimum est ob 
+          tan<lb break="no" ed="#P" n="67"/>tam antiquitatem. Sic etiam Carthusiani 
+          erc<lb break="no" ed="#P" n="68"/>mitae appellari solent, et in sua professionc
+          <lb ed="#P" n="69"/>promittunt conversionem et emenaationem
+          <lb ed="#P" n="70"/>morum in illa eremo; constat autem illorum
+          <lb ed="#P" n="71"/>vitam coenobiticam esse, licet multum 
+          partici<lb break="no" ed="#P" n="72"/>pet de vita solitaria. Alio vero modo dicuntur
+          <lb ed="#P" n="73"/>cremitae, qui vitam solitariam profitentur 
+          ex<lb break="no" ed="#P" n="74"/>tra omnem hominum congregationem , ct
+          <lb ed="#P" n="75"/>conversationem , qualem egit saepius Elias in
+          <lb ed="#P" n="76"/>monte Carmelo, et Joannes Baptista in 
+          deser<lb break="no" ed="#P" n="77"/>to, et Paulus, primus eremita, ut in 
+          Kalenda<lb break="no" ed="#P" n="78"/>rio Romano appellatur.
+        </p>
+        <p xml:id="szovsr-q10810-d1e473">
+          <lb ed="#P" n="79"/>4. Hec vita laudabilis est.—Fwit etium 
+          sta<lb break="no" ed="#P" n="80"/>tus religiosus quando a canobio ad illam 
+          trans<lb break="no" ed="#P" n="81"/>itus erat. — Hanc ergo vitam eremiticam in
+          <lb ed="#P" n="82"/>hoc rigore sumptam, sanctam, et Deo gratam
+          <lb ed="#P" n="83"/>esse ostendit late Bellarminus, contra hujus
+          <lb ed="#P" n="84"/>temporis haereticos, lib. 2 de Monachis, cap.
+          <lb ed="#P" n="85"/>39, ubi plurima et optima congerit Patrum
+          <lb ed="#P" n="86"/>testimonia, quae ibi videri possunt; nam res
+          <lb ed="#P" n="87"/>satis clara est, tam ex se, quam ex usu, et 
+          ap<lb break="no" ed="#P" n="88"/>probatione totius Ecclesiae, propter quod iu
+          <lb ed="#P" n="89"/>Concilio Chalcedonensi, cap. 4, dictum est:
+          <lb ed="#P" n="90"/>Qui vere pureque solitarium chgunt vitam,
+          <lb ed="#P" n="91"/>digni sunt comveniceti honore; habetur 16,
+          <lb ed="#P" n="92"/>quaest. 1, cap. Qui vere. Supposita vero illius
+          <lb ed="#P" n="93"/>vitae sanctitate, ostendere oportet fuisse verc
+          <lb ed="#P" n="94"/>statum religiosum. Circa quod sciendum est,
+          <lb ed="#P" n="95"/>vitam illam solitariam dupliciter assumi posse :
+          <lb ed="#P" n="96"/>primo, statim a principio conversionis ab ilia
+          <lb ed="#P" n="97"/>inchoando ; secundo, ad illam a coenobitica
+          <lb ed="#P" n="98"/>vita transeundo. Hoc posteriori modo 
+          consu<lb break="no" ed="#P" n="99"/>lunt Patres vitam illam esse assumendam,
+          <lb ed="#P" n="100"/>postquam, scilieet, aliquis in coenobio per mu!-
+          <lb ed="#P" n="101"/>tos annos se exercuerit, et magnos progressus
+          <lb ed="#P" n="102"/>in perfectione fecerit, ut monet Hieronymus,
+          <lb ed="#P" n="103"/>in epist. 22, de Custod. virgin., ad Eustochium,
+          <lb ed="#P" n="104"/>in fin., et epist. 4 ad husticum: De udo 
+          mo<lb break="no" ed="#P" n="105"/>uasterioruum hujuscemodi volumus regredi 
+          mi<lb break="no" ed="#P" n="106"/>lites, quos cremi dura rudimenta non terrcant.
+          <lb ed="#P" n="107"/>Idem sensit Augustinus, lib. 1 de Morib. 
+          kEc<lb break="no" ed="#P" n="108"/>cles., cap. 3; Cassian., collat. 10, cap. 3; 
+          Dc<lb break="no" ed="#P" n="109"/>nedicius , cap. 1 suae regule ; Bernardus ,
+          <lb ed="#P" n="110"/>scrm. 3 de Circumcis. ; et Iidor., lib. 2 de
+          <pb ed="#P" n="434"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>Offic., cap. 15, sub titulo De tertio genere 
+          mo<lb break="no" ed="#P" n="2"/>nachorum, vefert norem antiquum fuisse, ut
+          <lb ed="#P" n="3"/>per viginii annos, alias triginta, prius 
+          proba<lb break="no" ed="#P" n="4"/>rentur in caenobiis, et postea non nisi per 
+          elec<lb break="no" ed="#P" n="5"/>tionem obedientiae, ad solitariam vitam 
+          trans<lb break="no" ed="#P" n="6"/>irent; in canone autem 4 Trullano, saltem
+          <lb ed="#P" n="7"/>quatuor anni requiruntur, et Episcopi 
+          appro<lb break="no" ed="#P" n="8"/>batio. Hanc ergo vitam solitariam manifestum
+          <lb ed="#P" n="9"/>est, et supponere et includere religiosum 
+          sta<lb break="no" ed="#P" n="10"/>tum, quia ex illo, quem in monasterio 
+          quis<lb break="no" ed="#P" n="11"/>piam professus est, ad eremum transit ; per
+          <lb ed="#P" n="12"/>hunc autem transitum non aufertur religiosus
+          <lb ed="#P" n="13"/>status, qui in tali persona supponitur, cum
+          <lb ed="#P" n="14"/>talis status immutabilis ex se sit, sed usus ejus
+          <lb ed="#P" n="15"/>accidentaliter mutatur. Unde, quod spectat ad
+          <lb ed="#P" n="16"/>castitatem et paupertatem, manifestum est in
+          <lb ed="#P" n="17"/>illa solitaria vita perfectissime posse servari,
+          <lb ed="#P" n="18"/>et eamdem obligationem manere; quoad 
+          obe<lb break="no" ed="#P" n="19"/>dientiam vero existimo, hujusmodi transitum
+          <lb ed="#P" n="20"/>semper debuisse fieri servata obedientiae lege,
+          <lb ed="#P" n="21"/>et obligatione ; imo etiam in ipso eremo 
+          sem<lb break="no" ed="#P" n="22"/>per conservari debuisse subordinationem 
+          ali<lb break="no" ed="#P" n="23"/>quam ad Praelatum. secundum aliquam 
+          regu<lb break="no" ed="#P" n="24"/>lam: quia obedientiae votum in se manebat
+          <lb ed="#P" n="25"/>ctiam integrum, et ideo aliquem usum ejus
+          <lb ed="#P" n="26"/>luisse necesse est, juxta regulam tamen et
+          <lb ed="#P" n="27"/>consuetudinem voventium. Et eadem ratione,
+          <lb ed="#P" n="28"/>illa separatio a coenobio non repugnat 
+          tradi<lb break="no" ed="#P" n="29"/>tioni quam de se fecerat quispiam monasterio
+          <lb ed="#P" n="30"/>per professionem suam, quia illa traditio etiam
+          <lb ed="#P" n="31"/>intelligitur juxta mensuram regulae et 
+          obe<lb break="no" ed="#P" n="32"/>dientiae, et tota ordinatur ad majus bonum et
+          <lb ed="#P" n="33"/>perfectionem profitentis, quae omnia in illo
+          <lb ed="#P" n="34"/>transitu servabantur.
+        </p>
+        <p xml:id="szovsr-q10810-d1e623">
+          <lb ed="#P" n="35"/>5. Quando vero immediate a seculo ad iilam
+          <lb ed="#P" n="36"/>transitus erat, non videri statum vreligiosum.
+          <lb ed="#P" n="37"/>— Quando vero status ille eremiticus 
+          imme<lb break="no" ed="#P" n="38"/>diate inchoabatur, sine ullo transitu per 
+          coeno<lb break="no" ed="#P" n="39"/>bium, nec per professionem in illo factam, ui
+          <lb ed="#P" n="40"/>fuit in S. Paulo per totam vitam, et Antonio
+          <lb ed="#P" n="41"/>multis annis, et plerisque aliis, difficile est 
+          de<lb break="no" ed="#P" n="42"/>finire an et quo modo in eis fuerit vera 
+          pro<lb break="no" ed="#P" n="43"/>fessio religiosi status. Quia licet, quoad 
+          obser<lb break="no" ed="#P" n="44"/>vantiam, summam paupertatem et 
+          perfectis<lb break="no" ed="#P" n="45"/>simam castitatem coluerint, non constat nobis
+          <lb ed="#P" n="46"/>an talia vota emitterent. Deinde, licet demus
+          <lb ed="#P" n="47"/>ea emisisse, ex illo affectu, quem habebant se
+          <lb ed="#P" n="48"/>totos consecrandi cultui divino et perfectioni
+          <lb ed="#P" n="49"/>quarenda, et quo vitam illam assumebant
+          <lb ed="#P" n="50"/>firmo proposito in illa perpeiuo manendi, et
+          <lb ed="#P" n="51"/>ideo credibile sit perpetuam illam 
+          perseveran<lb break="no" ed="#P" n="52"/>tam Deo promisisse, maxime quia non 
+          igno<lb break="no" ed="#P" n="53"/>rabant hoc esse melius et gratius Deo, hoc 
+          ta<lb break="no" ed="#P" n="54"/>men totum ad verum religiosum statum non
+          <lb ed="#P" n="55"/>sufficit. Et, quod caput est, illi nullam obe-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>dientiam alicui homini profitebantur, nec 
+          se<lb break="no" ed="#P" n="57"/>cundum certam regulam, vel voluntatem 
+          alie<lb break="no" ed="#P" n="58"/>nam vivere statuebant aut promittebant; 
+          quo<lb break="no" ed="#P" n="59"/>modo ergo poterat in eis esse status religiosus
+          <lb ed="#P" n="60"/>perfectus ? De hac vero difficultate inferius 
+          di<lb break="no" ed="#P" n="61"/>cam in numero duodecimo.
+        </p>
+        <p xml:id="szovsr-q10810-d1e686">
+          <lb ed="#P" n="62"/>6. Modus quidam vatee solitarie memoratur,
+          <lb ed="#P" n="63"/>el rejicitur. — Venio ad alium modum vitae
+          <lb ed="#P" n="64"/>religiosae privatum quidem, non tamen 
+          om<lb break="no" ed="#P" n="65"/>nino solitarium. Ubi primum rejiciendus est
+          <lb ed="#P" n="66"/>quidam monachorum gradus, cujus 
+          meniio<lb break="no" ed="#P" n="67"/>nem fecit Hierony mus, in epist. 22, de Custod.
+          <lb ed="#P" n="68"/>vivgin., in fin., eosque Remoboth appellat,
+          <lb ed="#P" n="69"/>quod nomen AEgyptium est, qui non omnino
+          <lb ed="#P" n="70"/>soli, sed bini, vel terni habitabant, suo tamen
+          <lb ed="#P" n="71"/>arbitratu, et sine obedientia vivebant; et, lieet
+          <lb ed="#P" n="72"/>aliqua opera paupertatis, et poenitentiee 
+          face<lb break="no" ed="#P" n="73"/>rent, perfectionem tamen vitae non 
+          profite<lb break="no" ed="#P" n="74"/>bantur. Eorumdem videtur facere sermonem
+          <lb ed="#P" n="75"/>Benedictus in sua Regula, cap. 1, ubi duo 
+          ge<lb break="no" ed="#P" n="76"/>nera horum hominum distinguit. Sed eos
+          <lb ed="#P" n="77"/>missos faciamus, nihil enim ad praesentem
+          <lb ed="#P" n="78"/>causam pertinent, non enim erant veri 
+          reli<lb break="no" ed="#P" n="79"/>giosi, sed ficti, et perditi homines, et ut tales,
+          <lb ed="#P" n="80"/>dicti Patres eos reprehendunt.
+        </p>
+        <p xml:id="szovsr-q10810-d1e730">
+          <lb ed="#P" n="81"/>7. Alier modus a feminis praesertum 
+          usita<lb break="no" ed="#P" n="82"/>tus , et statum religionis includens. — WMhlius
+          <lb ed="#P" n="83"/>ergo status ac modi vivendi vestigia praecipue
+          <lb ed="#P" n="84"/>in feminis et sacris virginibus inveniuntur;
+          <lb ed="#P" n="85"/>quamvis enim olim etiam in monasteriis 
+          vi<lb break="no" ed="#P" n="86"/>vere solerent, ut ex Ambrosio, ad Virginem
+          <lb ed="#P" n="87"/>lapsam, cap. 7, Hieronymo, epist. 8, ad 
+          De<lb break="no" ed="#P" n="88"/>metriad., et 48 ad Sabinian., et aliis constat,
+          <lb ed="#P" n="89"/>sepe etiam in propriis domibus vivebant ,
+          <lb ed="#P" n="90"/>postquam coram Episcopo virginitatem 
+          profes<lb break="no" ed="#P" n="91"/>see fuerant, et ab eo velum acceperant. Unde
+          <lb ed="#P" n="92"/>Augustinus, serm. 1 de Commun. vit. cleric.:
+          <lb ed="#P" n="93"/>Virgo (ait) etsi nunquam fuerit in monasterio,
+          <lb ed="#P" n="94"/>si virgo sacrata est, ili nubere non licet,
+          <lb ed="#P" n="95"/>quampnvis esse in monasterio non compellatur.
+          <lb ed="#P" n="96"/>Hinc Concilium Toletanum IV, cap. S, et est
+          <lb ed="#P" n="97"/>apud Burch., lib. 8 Decret., cap. 48, et 
+          Gra<lb break="no" ed="#P" n="98"/>tian., 27, q. 1, cap. 7: De viduis (ait) et 
+          puci<lb break="no" ed="#P" n="99"/>lis, que habilum veligionis in domibus 
+          pro<lb break="no" ed="#P" n="100"/>grüs, tum a parentibus quam per se 
+          mutave<lb break="no" ed="#P" n="101"/>runt, si posten contra instituta Pairum, cel
+          <lb ed="#P" n="102"/>ecepta canonum conjugia putaverint 
+          copu<lb break="no" ed="#P" n="103"/>landa , tamdiu a communione habeantur 
+          sus<lb break="no" ed="#P" n="104"/>pense , quamdiu quod illicite perpetrarunt
+          <lb ed="#P" n="105"/>emendaverint. Quibus verbis significatur illas
+          <lb ed="#P" n="106"/>fuisse veras religiosas, et incapaces 
+          matrimo<lb break="no" ed="#P" n="107"/>nii, quamvis in domibus propriis professae 
+          fuis<lb break="no" ed="#P" n="108"/>sent; imo significatur professionem tacitam
+          <lb ed="#P" n="109"/>per solam gestationem habitus fuisse 
+          suflicien<lb break="no" ed="#P" n="110"/>tem. Idem sumi potest ex Concilio Carthagi-
+          <pb ed="#P" n="435"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nensi IV, c. 54, et ex aliis, qu« referuntur a
+          <lb ed="#P" n="2"/>Gratian., 27, q. 1. Clarius ex Concilio 
+          Cartha<lb break="no" ed="#P" n="3"/>ginensi Ill, c, 33, colligimus virgines sacras,
+          <lb ed="#P" n="4"/>quae parentes habebant, sub eorum custodia
+          <lb ed="#P" n="5"/>in propriis domibus vivere potuisse; ac 
+          mor<lb break="no" ed="#P" n="6"/>tuis parentibus, dicitur ibi, in monasteriis sub
+          <lb ed="#P" n="7"/>providentia Episcopi esse custodiendas. Quod
+          <lb ed="#P" n="8"/>etiam ex Concilio Afric., c. 11, refert Durch.,
+          <lb ed="#P" n="9"/>libro 7, capite septuagesimo quinto, qui
+          <lb ed="#P" n="10"/>etiam , cap. 54, refert decretum Eugenii
+          <lb ed="#P" n="11"/>Papae. dicentis : Mulieres sub obtentu 
+          religio<lb break="no" ed="#P" n="12"/>nis velate, aut in monasterio regulariter 
+          vi<lb break="no" ed="#P" n="13"/>cant, aut domibus suis susceptum habitum caste
+          <lb ed="#P" n="14"/>observent. Hinc etiam in Concilio Eliber., cap.
+          <lb ed="#P" n="15"/>vigesimo septimo, permittitur Episcopo ct
+          <lb ed="#P" n="16"/>presbytero apud se habere filiam virginem
+          <lb ed="#P" n="17"/>Deo dicatam. Denique in c. Ea parte, 2, de
+          <lb ed="#P" n="18"/>Conver. conjug., clare supponitur, in propria
+          <lb ed="#P" n="19"/>domo posse religiosam professionem fieri, et
+          <lb ed="#P" n="20"/>idem clarius habetur in c. Z7nsinuante, Qui
+          <lb ed="#P" n="21"/>cler. vel vovent.
+        </p>
+        <p xml:id="szovsr-q10810-d1e847">
+          <lb ed="#P" n="22"/>8. Juxta hunc modum satis verificatur 
+          di<lb break="no" ed="#P" n="23"/>visio in titulo posita. — Constat igitur etiam
+          <lb ed="#P" n="24"/>hoc modo recte distingui posse statum 
+          religio<lb break="no" ed="#P" n="25"/>sum in caenobiticum, seu regu!arem, et 
+          solita<lb break="no" ed="#P" n="26"/>rium, seu vitae privatee, quia in hoc etiam 
+          in<lb break="no" ed="#P" n="27"/>terveniunt omnia, quae sunt de essentia talis
+          <lb ed="#P" n="28"/>status ; non enim est de essentia ejus quod
+          <lb ed="#P" n="29"/>fiat sub ccrta regula, ut supra ostensum est;
+          <lb ed="#P" n="30"/>potestque habere Ecclesiae approbationem 
+          suf<lb break="no" ed="#P" n="31"/>ficientem , si talis professio, cum vera 
+          tradi<lb break="no" ed="#P" n="32"/>tione et votis substantialibus religionis, 
+          auc<lb break="no" ed="#P" n="33"/>toritate Ecclesia recipiatur et approbetur.
+          <lb ed="#P" n="34"/>Quamvis autem hoc ita sit, et olim fuerit in
+          <lb ed="#P" n="35"/>usu, nunc jam non est in Ecclesia talis 
+          con<lb break="no" ed="#P" n="36"/>suetudo , quia nulla professio ab Ecclesia 
+          re<lb break="no" ed="#P" n="37"/>cipitur quae non fiat: secundum aliquem 
+          regu<lb break="no" ed="#P" n="38"/>lam ab eadem Ecclesia approbatam , juxta c.
+          <lb ed="#P" n="39"/>ulr. , de Religios. domib., et c. unic., eod.
+          <lb ed="#P" n="40"/>titul., in 6; ergo qui nunquam religiosi 
+          fue<lb break="no" ed="#P" n="41"/>runt, nec sub obedientia alicujus Praelati et
+          <lb ed="#P" n="42"/>approbatae regula vivunt , sine dubio non
+          <lb ed="#P" n="43"/>sunt veri religiosi, etiamsi forte castitatem
+          <lb ed="#P" n="44"/>voveant.
+        </p>
+        <p xml:id="szovsr-q10810-d1e900">
+          <lb ed="#P" n="45"/>9. Hodie dicta divisio simpliciter locum non
+          <lb ed="#P" n="46"/>habet. — Quapropter distinctio haec jam non
+          <lb ed="#P" n="47"/>habet fere locum in Ecclesia ; nam, licet sint
+          <lb ed="#P" n="48"/>aliqui. qui solitariam vitam agunt, et eremitae
+          <lb ed="#P" n="49"/>dicuntur , illi aut professi sunt sub obedientia
+          <lb ed="#P" n="50"/>alicujus regulae approbatae, sub qua etiam 
+          vi<lb break="no" ed="#P" n="51"/>vunt, licet a consortio communis 
+          congregatio<lb break="no" ed="#P" n="52"/>nis separati; aut tales professionem nunquam
+          <lb ed="#P" n="53"/>emiserunt. Priores, ut bene notavit Sylvester,
+          <lb ed="#P" n="54"/>verb. Eremita, non sunt pracise eremitee, sed
+          <lb ed="#P" n="55"/>sunt religiosi ducentes vitam eremiticam, qui
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in praeparatione animi etiam ducunt vitam
+          <lb ed="#P" n="57"/>coenobiticam, si ad illam per obedientiam 
+          re<lb break="no" ed="#P" n="58"/>vocentur. Cujus vita antiqua vestigia et
+          <lb ed="#P" n="59"/>exempla in Hispania conservant Patres S. 
+          Be<lb break="no" ed="#P" n="60"/>nedicti , in celeberrimo et religiosissimo 
+          con<lb break="no" ed="#P" n="61"/>ventu S. Mariae de Monte Serrato. Quocirca,
+          <lb ed="#P" n="62"/>licet in his distingui possit vita solitaria a 
+          coe<lb break="no" ed="#P" n="63"/>nobitica , quantum ad actualem vivendi 
+          mo<lb break="no" ed="#P" n="64"/>dum , ut sic dicam, non tamen quantum ad
+          <lb ed="#P" n="65"/>statum religiosum, quia est unus et idem, 
+          va<lb break="no" ed="#P" n="66"/>rias actiones sub eadem regula et obedientia
+          <lb ed="#P" n="67"/>exercens.
+        </p>
+        <p xml:id="szovsr-q10810-d1e955">
+          <lb ed="#P" n="68"/>10. Eremitae qui non profitentur regulam
+          <lb ed="#P" n="69"/>aliquam non sunt religiosi. — Posteriores 
+          au<lb break="no" ed="#P" n="70"/>tem non sunt veri religiosi, ut communiter
+          <lb ed="#P" n="71"/>auctores sentiunt , adeo ut multi negent eos
+          <lb ed="#P" n="72"/>caudere privilegio clericali. Nam primo illi
+          <lb ed="#P" n="73"/>non vovent , nec se tradunt in manibus 
+          alicu<lb break="no" ed="#P" n="74"/>jus , nec profitentur secundum aliquam 
+          regu<lb break="no" ed="#P" n="75"/>lam approbatam. Secundo, vel castitatem non
+          <lb ed="#P" n="76"/>vovent, vel, si vovent, id est mere privatim
+          <lb ed="#P" n="77"/>et simpliciter, unde nec inhabiles fiunt ad 
+          ma<lb break="no" ed="#P" n="78"/>trimonium ; nec publice, et coram Eeclesia
+          <lb ed="#P" n="79"/>vovent per se loquendo. Tertio, non 
+          obligan<lb break="no" ed="#P" n="80"/>tur ad paupertatem, ut ait Glossa, in c. Qui
+          <lb ed="#P" n="81"/>vere, 16, q. 1, quam omnes Doctores 
+          sequun<lb break="no" ed="#P" n="82"/>tur. Unde etiam possunt condere testamentum,
+          <lb ed="#P" n="83"/>ut supponit Gratian, 19, q. 3, S F contra, ubi
+          <lb ed="#P" n="84"/>etiam ait Paulum, primum eremitam, 
+          testa<lb break="no" ed="#P" n="85"/>mentum condidisse; sed in facto deceptus est,
+          <lb ed="#P" n="86"/>ut constat ex Hieronymo, in Vita Pauli, 
+          quid<lb break="no" ed="#P" n="87"/>quid sit de jure an illud condere potuerit.
+          <lb ed="#P" n="88"/>Quarto, nec obedientiam vovent, ut ait S.
+          <lb ed="#P" n="89"/>Thornas , in 4, d. 27, in expositione litterae,
+          <lb ed="#P" n="90"/>ad finem, circa illa verba : Eremi 
+          solitudi<lb break="no" ed="#P" n="91"/>nem elegit. Sed solum tenentur obedire 
+          Epis<lb break="no" ed="#P" n="92"/>copo sicnt alii fideles, ut idem ait, 2. 2, q. 186,
+          <lb ed="#P" n="93"/>art. 5, ad 3.
+        </p>
+        <p xml:id="szovsr-q10810-d1e1014">
+          <lb ed="#P" n="94"/>11. An saltem gaudeant privilegio clericali.
+          <lb ed="#P" n="95"/>— Hinc a multis Doctoribus hi eremitae non
+          <lb ed="#P" n="96"/>reputantur personae ecclesiasticae, nec gauderc
+          <lb ed="#P" n="97"/>privilegio clericali. Quod sensit Joannes de 
+          Li<lb break="no" ed="#P" n="98"/>gnano, in Clement. Per litteras, de Fraebend.;
+          <lb ed="#P" n="99"/>Abb., inc. Nullus, de Foro compet. ; Angel.,
+          <lb ed="#P" n="100"/>verb. Eremita , n. 3, qui tamen inconstanter
+          <lb ed="#P" n="101"/>ait hunc eremitam esse personam 
+          ecclesiasti<lb break="no" ed="#P" n="102"/>cam, et de foro ecclesiastico, per c. Nulla 
+          ra<lb break="no" ed="#P" n="103"/>Lionc, d. 93, et c. Si autem, 11, q. 3, qui 
+          tex<lb break="no" ed="#P" n="104"/>tus nihil omnino de hac re loquuntur, nec ad
+          <lb ed="#P" n="105"/>illam faciunt, et hoc repugnat cum eo, quod
+          <lb ed="#P" n="106"/>proxime dixerat hic auctor, hos eremitas css
+          <lb ed="#P" n="107"/>laicos, et manere sub jurisdictione 
+          imperato<lb break="no" ed="#P" n="108"/>ris, quia nihil habent quod illos eximat. Item
+          <lb ed="#P" n="109"/>sine causa negaretur eis privilegium clericale,
+          <lb ed="#P" n="110"/>si personae essent ecclesiasticae ; unde Glossa,
+          <pb ed="#P" n="436"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>in d. c. Qui vere, dicit, eos gaudere privilegio
+          <lb ed="#P" n="2"/>clericali , quia ibi iu textu dicitur , qui cere
+          <lb ed="#P" n="3"/>pureque solitarium eliqunt vitam, dignos esse
+          <lb ed="#P" n="4"/>compeltenti honore. Sed hoc longe diversum
+          <lb ed="#P" n="5"/>cst, nimisque generale. Unde Archid. , quem
+          <lb ed="#P" n="6"/>sequitur Sylvester, ait gaudere, si subsint 
+          re<lb break="no" ed="#P" n="7"/>ligioni, vel personae religiosae gaudenti illo
+          <lb ed="#P" n="8"/>privilegio. Sed licet hoc demus, id non erit,
+          <lb ed="#P" n="9"/>quia sunt religiosi, sed quia tunc sunt veluti
+          <lb ed="#P" n="10"/>conversi, aut obligati religioni ; de qua re dixi
+          <lb ed="#P" n="11"/>plura in t. 5, in 3 part., disp. 22, sect. 1, n. 1,
+          <lb ed="#P" n="12"/>exponendo canonem 5Si quis suadente, ubi
+          <lb ed="#P" n="13"/>partem negativam secutus sum.
+        </p>
+        <p xml:id="szovsr-q10810-d1e1086">
+          <lb ed="#P" n="14"/>12. Discutitur dubium in nwm.5 
+          proposi<lb break="no" ed="#P" n="15"/>lum. — An vero idem sentiendum sit de 
+          anti<lb break="no" ed="#P" n="16"/>quis sanctis eremitis , Paulo. et similibus,
+          <lb ed="#P" n="17"/>quod, scilicet veri religiosi non fuerint , 
+          judi<lb break="no" ed="#P" n="18"/>cium aliis relinquo. Nam D. Thomas, 2.2,
+          <lb ed="#P" n="19"/>q. 186, art. 5, ad 3, videtur eos inter 
+          religio<lb break="no" ed="#P" n="20"/>sos computare, et ideo conatur declarare 
+          quo<lb break="no" ed="#P" n="21"/>modo habeant sufficientem obedientiam ad
+          <lb ed="#P" n="22"/>illum statum, quia, scilicet , subsunt 
+          Episcc<lb break="no" ed="#P" n="23"/>pis. Quod quidem esset verum, si constaret
+          <lb ed="#P" n="24"/>eos vovisse specialem obedientiam Episcopis,
+          <lb ed="#P" n="25"/>sed hoc nobis non constat. Idem vero D.
+          <lb ed="#P" n="26"/>Thomas, quaest. 188, art. 8, ad 3, signiticat
+          <lb ed="#P" n="27"/>hos sanctos habuisse obedientiam in 
+          praepa<lb break="no" ed="#P" n="28"/>ratione animi, idque satis illis fuisse , quia
+          <lb ed="#P" n="29"/>actu obedire ( ait ) non est necessarium 
+          per<lb break="no" ed="#P" n="30"/>fectis. Sed, licet hoc sit verum respectu 
+          per<lb break="no" ed="#P" n="31"/>fectionis personalis , tamen respectu status
+          <lb ed="#P" n="32"/>necessarium videtur actuale votum 
+          obedien<lb break="no" ed="#P" n="33"/>tiae, in quo illa aptitudinalis obedientia 
+          fun<lb break="no" ed="#P" n="34"/>detur, et non tantum in generali obligatione
+          <lb ed="#P" n="35"/>praeceptorum ; de hoc autem voto nobis 
+          du<lb break="no" ed="#P" n="36"/>bium est an illi sancti eremitae, qui solitariam
+          <lb ed="#P" n="37"/>omnino vitam a principio vixerunt, illud 
+          emi<lb break="no" ed="#P" n="38"/>serint. Et probabilius, ac fere certum videtur,
+          <lb ed="#P" n="39"/>non emisisse illud. nec alia vota in manu 
+          ali<lb break="no" ed="#P" n="40"/>cujus, qui vice Dei ejusque auctoritate illa 
+          re<lb break="no" ed="#P" n="41"/>ciperet et acceptaret, atque adeo nec veram
+          <lb ed="#P" n="42"/>professionem ad statum religiosum 
+          necessa<lb break="no" ed="#P" n="43"/>riam fecisse. In hac ergo re nihil certi habeo
+          <lb ed="#P" n="44"/>quod respondeam, et ideo mallem aliorum
+          <lb ed="#P" n="45"/>judicio hoc relinquere , quam quicquam 
+          defi<lb break="no" ed="#P" n="46"/>nire. Aut enim dicendum est, hos sanctos
+          <lb ed="#P" n="47"/>Patres, priusquam in eremum secederent, 
+          re<lb break="no" ed="#P" n="48"/>ligiosam professionem in manibus 
+          Episcopo<lb break="no" ed="#P" n="49"/>rum fecisse, quod est divinare, nam in 
+          histo<lb break="no" ed="#P" n="50"/>riis seu vitis eorum hoc non legitur ; aut 
+          di<lb break="no" ed="#P" n="51"/>cendum est eos non fuisse proprie ac 
+          formali<lb break="no" ed="#P" n="52"/>ter religiosis quoad statum publicum, et 
+          ap<lb break="no" ed="#P" n="53"/>probatum jure ordinario in Ecclesia, sed 
+          fuis<lb break="no" ed="#P" n="54"/>se religiosos apud Deum altiori ratione, 
+          spe<lb break="no" ed="#P" n="55"/>cialiter approbata peculiari Spiritus Sancti in-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>stinctu. Quod videtur significassc D. Thomas,
+          <lb ed="#P" n="57"/>q. 188, art. 8, cum ait, in illis sancus viris
+          <lb ed="#P" n="58"/>Spiritum Sanctum sua gratia supplevisse ,
+          <lb ed="#P" n="59"/>quod in aliis per exercitationem acquiritur ;
+          <lb ed="#P" n="60"/>unde dicere possumus in eis fuisse statum
+          <lb ed="#P" n="61"/>religiosum quasi emiuenter , per 
+          abundan<lb break="no" ed="#P" n="62"/>tiam gratiae confirmantis illos quasi 
+          immobi<lb break="no" ed="#P" n="63"/>liter in tali vivendi modo, et supplentis 
+          direc<lb break="no" ed="#P" n="64"/>tionem obedientiae, quae in aliis per homines
+          <lb ed="#P" n="65"/>fieri solet, et in illis Sanctis erat perfecta in
+          <lb ed="#P" n="66"/>animi praeparatione respectu Praelatorum 
+          Ec<lb break="no" ed="#P" n="67"/>clesiae. Quod paulo inferius amplius 
+          declara<lb break="no" ed="#P" n="68"/>bitur.
+        </p>
+        <p xml:id="szovsr-q10810-d1e1210">
+          <lb ed="#P" n="69"/>13. Neque etiam locum unc hbe divisio
+          <lb ed="#P" n="70"/>quoad religiosum statum in n. 7. — Neque
+          <lb ed="#P" n="71"/>etiam habet locum praedicta distinctio, etiamsi
+          <lb ed="#P" n="72"/>vita solitaria non sumatur in illo rigore, sed
+          <lb ed="#P" n="73"/>ut distinguitur a vita coenobitica, seu in 
+          com<lb break="no" ed="#P" n="74"/>munitate aliqua. Nunc enim jam non possunt
+          <lb ed="#P" n="75"/>fieri vota religionis, nec professio valida in
+          <lb ed="#P" n="76"/>statu omnino privato, sed debent fieri in 
+          rc<lb break="no" ed="#P" n="77"/>ligione approbata per Romanam Sedem, juxta
+          <lb ed="#P" n="78"/>cap. ult., de Religios. dom., et cap. unic., eod.
+          <lb ed="#P" n="79"/>tit., in 6. Talis autem religio non est nisi
+          <lb ed="#P" n="80"/>communitas aliqua sub obedientia alicujus
+          <lb ed="#P" n="81"/>Praelati, et sub aliqua regula vivens; cujus
+          <lb ed="#P" n="82"/>membrum eftici est, eique se tradere,
+          <lb ed="#P" n="83"/>qui secundum illam statum religiosum 
+          assu<lb break="no" ed="#P" n="84"/>mit ac profitetur. Quocirca omnes, sive viri,
+          <lb ed="#P" n="85"/>sive feminae virgines privatam vitam agentes,
+          <lb ed="#P" n="86"/>quantumvis se Deo dedicent, et voveant 
+          casti<lb break="no" ed="#P" n="87"/>tatem, vel etiam paupertatem, et obedientiam,
+          <lb ed="#P" n="88"/>etiam in manibus Episcopi, religiosi non sunt,
+          <lb ed="#P" n="89"/>quia ilia non est vera professio, nec traditio,
+          <lb ed="#P" n="90"/>cum non sit acceptata ab habente potestatem,
+          <lb ed="#P" n="91"/>nec modo ab Ecclesia praescripto, ut satis ex
+          <lb ed="#P" n="92"/>superioribus patet.
+        </p>
+        <p xml:id="szovsr-q10810-d1e1265">
+          <lb ed="#P" n="93"/>Utra sit vita perfectior, cenobiticaue ad 
+          soli<lb break="no" ed="#P" n="94"/>taria.
+        </p>
+        <p xml:id="szovsr-q10810-d1e1273">
+          <lb ed="#P" n="95"/>14. Resolutio D. Thome solum procedit dc
+          <lb ed="#P" n="96"/>ulragne vita intra ewndem statum. — Uhimo
+          <lb ed="#P" n="97"/>constat ex dictis, quid dicendum sit de 
+          eom<lb break="no" ed="#P" n="98"/>paratione inter hos duos status, solitarium ct
+          <lb ed="#P" n="99"/>ceenobiticum. Nam D. Thomas, d. q. 188, art.
+          <lb ed="#P" n="100"/>8, videtur simpliciter solitariam vitam 
+          prae<lb break="no" ed="#P" n="101"/>ferre, quando debito ordine ac modo 
+          assumi<lb break="no" ed="#P" n="102"/>tur : quia comparatur ad aliam, sicut 
+          termi<lb break="no" ed="#P" n="103"/>nus ad viam; terminus autem ex suo genere
+          <lb ed="#P" n="104"/>perfectior est via. Et in praesenti coenobia ad
+          <lb ed="#P" n="105"/>hoc sunt, ut homines tendant ad 
+          pertectio<lb break="no" ed="#P" n="106"/>nem, vita autem solitaria supponit 
+          perfectio<lb break="no" ed="#P" n="107"/>nem acquisitam, unde solum est ad exercen -
+          <lb ed="#P" n="108"/>dam perfectionem. Sed in primis D. Thomas
+          <pb ed="#P" n="437"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>loquitur de vita solitaria, quando ad illam per
+          <lb ed="#P" n="2"/>vitam religiosam in coenobio seu conventu
+          <lb ed="#P" n="3"/>transitur. Quomodo vita haee solitaria jam 
+          sup<lb break="no" ed="#P" n="4"/>ponit verum statum religiosum, et ita non
+          <lb ed="#P" n="5"/>praefertur status statui. sed in eodem statu
+          <lb ed="#P" n="6"/>praefertur gradus perfectorum, gradui 
+          profi<lb break="no" ed="#P" n="7"/>cientium. Unde etiam supponitur diligens
+          <lb ed="#P" n="8"/>exerciiatio in vita communi religiosa, ita ut
+          <lb ed="#P" n="9"/>perfectio jam comparata sit, et ad illam 
+          exer<lb break="no" ed="#P" n="10"/>cendam solitudo eligatur, non proprio 
+          judi<lb break="no" ed="#P" n="11"/>cio, sed superioris arbitrio; nam talis 
+          solita<lb break="no" ed="#P" n="12"/>ria vita non caret obedientiae subordinatione,
+          <lb ed="#P" n="13"/>cum non destruat religiosum statum, sed 
+          per<lb break="no" ed="#P" n="14"/>ficiat.
+        </p>
+        <p xml:id="szovsr-q10810-d1e1341">
+          <lb ed="#P" n="15"/>15. Solitaria cita ex canobitica ut sit 
+          per<lb break="no" ed="#P" n="16"/>fectior , supponit licentiam Pralati. — 
+          Qua<lb break="no" ed="#P" n="17"/>propter in viro jam religioso solitaria vita 
+          ali<lb break="no" ed="#P" n="18"/>ter assumpta, non solum perfecta non esset,
+          <lb ed="#P" n="19"/>verum nec laudabilis, quia obedientiae et 
+          obli<lb break="no" ed="#P" n="20"/>eationi prioris professionis repugnaret. Neque
+          <lb ed="#P" n="21"/>quoad hoc credendum esset cuicumque 
+          spiri<lb break="no" ed="#P" n="22"/>tui moventi ad vitam solitariam, contra 
+          supe<lb break="no" ed="#P" n="23"/>rioris voluntatem assumendam; nam qua a
+          <lb ed="#P" n="24"/>Deo sunt, ordinata sunt. Ubi applicari possunt
+          <lb ed="#P" n="25"/>verba Innocentii HI, in cap. Nisi cum pridem,
+          <lb ed="#P" n="26"/>de Electione, ubi ad quemdam Ebpiscopum,
+          <lb ed="#P" n="27"/>qui cedere Episcopatu: volebat sine alia 
+          legi<lb break="no" ed="#P" n="28"/>tima causa vel auctoritate , solum ut 
+          contem<lb break="no" ed="#P" n="29"/>plationi vacaret, sic inquit: Sed dices: 
+          Spi<lb break="no" ed="#P" n="30"/>vitus ubi vult spirat, et nescis uude veniat, aut
+          <lb ed="#P" n="31"/>quo cadat ; et ideo non est qui possit vias illius
+          <lb ed="#P" n="32"/>Spiritus perscrutari, qui vero S piritu Dei 
+          agun<lb break="no" ed="#P" n="33"/>tur, non sunt sub lege, quia ubi Spiritus Dei,
+          <lb ed="#P" n="34"/>ibi libertas; quare si cedendi (quod nos in 
+          prae<lb break="no" ed="#P" n="35"/>sen diccre possumus, si recedendi) potestas
+          <lb ed="#P" n="36"/>data ab homine ncn fuerit, nihilominus tamen
+          <lb ed="#P" n="37"/>cedes (seu recedes) a Deo certe (respondit 
+          Pon<lb break="no" ed="#P" n="38"/>tifex ) desipis, si sic sapis, uam quoinodo 
+          Spi<lb break="no" ed="#P" n="39"/>ritu Dei agilur, qui coutra Spiritum Dei agit?
+          <lb ed="#P" n="40"/>si enim vera sunt quae gramisimus (scilicet,
+          <lb ed="#P" n="41"/>de obligatione Episcopi, et idem est in 
+          prae<lb break="no" ed="#P" n="42"/>senti de obligatione professionis) (imo quia
+          <lb ed="#P" n="43"/>idubitanter sunt vera) procul dubio contra
+          <lb ed="#P" n="44"/>Sgiritun Dei agit, qui aliquid conira 
+          vcrita<lb break="no" ed="#P" n="45"/>ldem alttentot, quoniam ipse est Spiritus 
+          veri<lb break="no" ed="#P" n="46"/>latis. Dices : nonne licet religioso ad arctiorem
+          <lb ed="#P" n="47"/>religionem transire sine obtenta licentia sui
+          <lb ed="#P" n="48"/>Praelaii ? Respondeo primo, illum transitum
+          <lb ed="#P" n="49"/>esse ab Ecclesia illo modo approbatum. Deinde,
+          <lb ed="#P" n="50"/>ibi mutatur status in perfectiorem, quae 
+          ex<lb break="no" ed="#P" n="51"/>ceptio fuit in priori professione virtute inclusa,
+          <lb ed="#P" n="52"/>et ita non agitur contra illam; hic vero non
+          <lb ed="#P" n="53"/>mutatur status, sed in eodem assumitur certus
+          <lb ed="#P" n="54"/>vitae modus, quem non licet propria voluntate
+          <lb ed="#P" n="55"/>assumere, quia, licet ille modus vitae videatur
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>secundum se perfectior, tamen ei, qui in tali
+          <lb ed="#P" n="57"/>statu existit, melius est obedire, et contra 
+          obe<lb break="no" ed="#P" n="58"/>dientiam nullus vivendi modus potest esse in
+          <lb ed="#P" n="59"/>tali statu perfectior.
+        </p>
+        <p xml:id="szovsr-q10810-d1e1443">
+          <lb ed="#P" n="60"/>16. At vero, quando hic status vitae 
+          solita<lb break="no" ed="#P" n="61"/>riae non supponit statum religiosum, licet 
+          pos<lb break="no" ed="#P" n="62"/>sit fortasse dici modus vivendi perfectior
+          <lb ed="#P" n="63"/>quoad actionem, vel quoad usum, non potest
+          <lb ed="#P" n="64"/>dici status perfectior, quia status non est; et
+          <lb ed="#P" n="65"/>ex ea parte imperfectus modus vitae est, quia
+          <lb ed="#P" n="66"/>potest propria voluntate mutari. Quomodo
+          <lb ed="#P" n="67"/>dixit Glossa, in dict. c. Qui cere, eremitam,
+          <lb ed="#P" n="68"/>transeundo ad monachum, transire ad vitam
+          <lb ed="#P" n="69"/>arctiorem, quia jam non potest habere 
+          pro<lb break="no" ed="#P" n="70"/>prium ; adde, et quia jam est sub 
+          obedien<lb break="no" ed="#P" n="71"/>tia, quod est omnium optimum, quantum
+          <lb ed="#P" n="72"/>ad statum spectat. Quin potius, licet 
+          sup<lb break="no" ed="#P" n="73"/>ponatur religiosus status, si non supponitur
+          <lb ed="#P" n="74"/>exercitatio religiosa in congregatione fratrum,
+          <lb ed="#P" n="75"/>et magna virtus ac perfectio acquisita, illud
+          <lb ed="#P" n="76"/>vitae genus, regulariter loquendo, cligibile
+          <lb ed="#P" n="77"/>non est, quia non est via secura ad 
+          perfectio<lb break="no" ed="#P" n="78"/>nem, sed periculis plena, nisi divina gratia
+          <lb ed="#P" n="79"/>(ait D. Thomas) suppleat quod in aliis per 
+          ezer<lb break="no" ed="#P" n="80"/>citationem acquiritur, ut in S. Benedicto, el
+          <lb ed="#P" n="81"/>aliis. Quamobrem, absolute ac humano modo
+          <lb ed="#P" n="82"/>loquendo, ille vivendi modus omnino 
+          solita<lb break="no" ed="#P" n="83"/>rius, illo modo assumptus , non cadit sul
+          <lb ed="#P" n="84"/>humanum consilium, nec potest dici 
+          sim<lb break="no" ed="#P" n="85"/>pliciter melior, sed solum cum hoc addito,
+          <lb ed="#P" n="86"/>Nisi specialis Spiritus Saneti instinctus 
+          in<lb break="no" ed="#P" n="87"/>terveniat, ita ut homo interius ab Spiritu
+          <lb ed="#P" n="88"/>Sancto certitudinem accipiat, quod sub 
+          pro<lb break="no" ed="#P" n="89"/>tectione et directione sua illum suscipiat.
+          <lb ed="#P" n="90"/>Quin etiam addo, regulariter item loquendo,
+          <lb ed="#P" n="91"/>etiam religiosis viris, et in vitae sanctitate
+          <lb ed="#P" n="92"/>exercitatis, salubrius esse in fratrum 
+          congre<lb break="no" ed="#P" n="93"/>gatione quam in solitudine versari, ut docuit
+          <lb ed="#P" n="94"/>Basilius, serm. 1 de Institutis monachorum,
+          <lb ed="#P" n="95"/>ubi ad minimum in conventu denarium 
+          nu<lb break="no" ed="#P" n="96"/>merum requirit ex professo vero id disputat
+          <lb ed="#P" n="97"/>regula 7, ex fusioribus, comparatione facta
+          <lb ed="#P" n="98"/>inter vitam solitariam et coenobiticam, et
+          <lb ed="#P" n="99"/>hanc multis rationibus praefert.
+        </p>
+        <p xml:id="szovsr-q10810-d1e1532">
+          <lb ed="#P" n="100"/>17. Qua a fortiori probant, statum 
+          reli<lb break="no" ed="#P" n="101"/>giosum in vita communitatis esse longe 
+          uti<lb break="no" ed="#P" n="102"/>liorem et securiorem, quam in vita privata
+          <lb ed="#P" n="103"/>domestica, et non omnino solitaria, quia in
+          <lb ed="#P" n="104"/>tali modo vivendi et desunt utilitates vitae
+          <lb ed="#P" n="105"/>communis, quales sunt, major et quasi 
+          conti<lb break="no" ed="#P" n="106"/>nuus obedientiae influxus, adjutorium aliorum
+          <lb ed="#P" n="107"/>fratrum per exemplum, per correptionem, et
+          <lb ed="#P" n="108"/>per alia charitatis opera, plures item 
+          occasio<lb break="no" ed="#P" n="109"/>nes exercendi omnes virtutes, humilitatis
+          <lb ed="#P" n="110"/>praecipue ac charitatis, major custodia, et vi-
+          <pb ed="#P" n="438"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>gilantia ad proficiendum, et vitandos omnes
+          <lb ed="#P" n="2"/>defectus, atque aliae similes. Deest etiam in
+          <lb ed="#P" n="3"/>illo vivendi modo illa specialis commoditas,
+          <lb ed="#P" n="4"/>vacandi semper Deo, propter quam vita 
+          soli<lb break="no" ed="#P" n="5"/>taria in veneratione et admiratione habetur.
+          <lb ed="#P" n="6"/>Unde factum est, ut uterque modus vitae 
+          re<lb break="no" ed="#P" n="7"/>ligiosae privatae seu solitariae, fere ab usu 
+          Ec<lb break="no" ed="#P" n="8"/>clesiae sublatus fuerit. Domesticus quidem et
+          <lb ed="#P" n="9"/>urbanus (ut sic dicam), ut parum utilis, et
+          <lb ed="#P" n="10"/>occasionibus expositus; eremiticus vero, et
+          <lb ed="#P" n="11"/>omnino solitarius, ut periculosus, et ordinarie
+          <lb ed="#P" n="12"/>etiam minus utilis, nisi sub actuali obedientia
+          <lb ed="#P" n="13"/>alicujus religionis retineatur.
+        </p>
+        <p xml:id="szovsr-q10810-d1e1591">
+          <lb ed="#P" n="14"/>18. Addo praeterea, etiam illo modo, quo
+          <lb ed="#P" n="15"/>vita eremitica praefertur a D. Thoma 
+          coenobi<lb break="no" ed="#P" n="16"/>ticae, intelligendum id esse praecise stando 
+          in<lb break="no" ed="#P" n="17"/>tra latitudinem vitae contemplativae; ideo
+          <lb ed="#P" n="18"/>enim solitaria vita praefertur, quia ad 
+          actua<lb break="no" ed="#P" n="19"/>lem contemplationem aptior est. Nihilominus
+          <lb ed="#P" n="20"/>tamen si vita illa omnino solitaria et otiosa
+          <lb ed="#P" n="21"/>illo sancto otio, quod diligit charitas veritatis,
+          <lb ed="#P" n="22"/>ut Augustinus ait, si illa (inquam) 
+          compare<lb break="no" ed="#P" n="23"/>tur cum vita actuosa actione illa, quae ex
+          <lb ed="#P" n="24"/>contemplatione manat, et aliquam 
+          conversa<lb break="no" ed="#P" n="25"/>tionem inter homines requirit, perfectior
+          <lb ed="#P" n="26"/>simpliciter est haec vita, quam illa omnino
+          <lb ed="#P" n="27"/>solitaria, ut manifeste probat discursus 
+          ejus<lb break="no" ed="#P" n="28"/>dem D. Thomae, d. q. 188, art. 6; et ideo in
+          <lb ed="#P" n="29"/>art. 8, ab illa comparatione vitae socialis et
+          <lb ed="#P" n="30"/>solitariae , separat religiones, quae ad actiones
+          <lb ed="#P" n="31"/>aliquo modo ordinantur, de quibus jam 
+          dixe<lb break="no" ed="#P" n="32"/>rat, eas, quae ad docendum et praedicandum
+          <lb ed="#P" n="33"/>ordinantur, ex suo genere praeferre his quae
+          <lb ed="#P" n="34"/>tantum contemplationi vacant, quia altius est
+          <lb ed="#P" n="35"/>perficere quam perfici, et ex abundantia 
+          per<lb break="no" ed="#P" n="36"/>fectionis provenit, contemplata aliis tradere.
+          <lb ed="#P" n="37"/>Unde Basilius, dict. regula 7, vitam socialem
+          <lb ed="#P" n="38"/>maxime praefert, propter exercitium operum
+          <lb ed="#P" n="39"/>charitatis, inter quae potissima sunt quae 
+          proxi<lb break="no" ed="#P" n="40"/>me ex ipsa contemplatione nascuntur. Hoc
+          <lb ed="#P" n="41"/>etiam videtur confirmari exemplo Joannis 
+          Bap<lb break="no" ed="#P" n="42"/>tistae, qui post vitam solitariam ad 
+          praedican<lb break="no" ed="#P" n="43"/>dum accessit.Item ad hoc propositum utitur 
+          In<lb break="no" ed="#P" n="44"/>nocentius IlI, in d. c. Nisi cum pridem, de 
+          Re<lb break="no" ed="#P" n="45"/>nunt., exemplo Jeremiae, dicens ad quemdam
+          <lb ed="#P" n="46"/>Episcopum, qui propter otium 
+          contemplatio<lb break="no" ed="#P" n="47"/>nis Episcopi munus recusabat: Scire debes
+          <lb ed="#P" n="48"/>0. esse te sanctificato in utero sanctiorem, et
+          <lb ed="#P" n="49"/>ideo non oportet te predicationis jam 
+          suscep<lb break="no" ed="#P" n="50"/>te respuere aninisterium, etc. Et in fine illius
+          <lb ed="#P" n="51"/>capitis, plura dicit in confirmationem hujus
+          <lb ed="#P" n="52"/>sententive, quae inferius cap. 8, cum iterum
+          <lb ed="#P" n="53"/>haec comparatio occurret, afferemus.
+        </p>
+        <p xml:id="szovsr-q10810-d1e1680">
+          <lb ed="#P" n="54"/>19. Utra vita sit antiquior. — Ultimo 
+          pos<lb break="no" ed="#P" n="55"/>sunt hi duo status comparari in antiquitate,
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>uter, scilicet, antiquior fuerit. Quidam enim
+          <lb ed="#P" n="57"/>censent eremiticum fuisse antiquiorem , nam
+          <lb ed="#P" n="58"/>auctorem coenobiorum dicunt fuisse 
+          Anto<lb break="no" ed="#P" n="59"/>nium , quem praecessit Paulus , qui 
+          eremita<lb break="no" ed="#P" n="60"/>rum pater post Christum appellatur, quamvis
+          <lb ed="#P" n="61"/>ante ipsum Christum illius vitae exempla 
+          prae<lb break="no" ed="#P" n="62"/>cesserint in Elia, Eliseo et Joanne Baptista,
+          <lb ed="#P" n="63"/>teste Hieronymo, epist. 22. Sed nihil certum
+          <lb ed="#P" n="64"/>existimo posse in hoc statui ; et si quid 
+          affir<lb break="no" ed="#P" n="65"/>mandum est, verisimilius videtur coenobia
+          <lb ed="#P" n="66"/>fuisse antiquiora. Nam a tempore 
+          Apostolo<lb break="no" ed="#P" n="67"/>rum et D. Marci inceperunt, sive clericorum,
+          <lb ed="#P" n="68"/>sive monachorum, ut in superioribus tactum
+          <lb ed="#P" n="69"/>est, et infra, tract. 10, lib. 1, etiam dicetur.
+          <lb ed="#P" n="70"/>Et tempore etiam Elisei et Prophetarum fuisse
+          <lb ed="#P" n="71"/>societatem aliquam inter solitariam vitam
+          <lb ed="#P" n="72"/>agentes, ex antiquis auctoribus colligitur. 
+          Ve<lb break="no" ed="#P" n="73"/>risimile autem est nunquam defuisse aliquos,
+          <lb ed="#P" n="74"/>qui desiderio contemplationis majoris 
+          solita<lb break="no" ed="#P" n="75"/>riam vitam amaverint, ut ait Cassianus, 
+          col<lb break="no" ed="#P" n="76"/>lat. 18, c. 6; et ideo hi duo status quoad hoc
+          <lb ed="#P" n="77"/>dici possunt aequales, quamvis ordine magis
+          <lb ed="#P" n="78"/>congruo coenobiticus debeat praecedere , ut 
+          di<lb break="no" ed="#P" n="79"/>xi n. 16, licet interdum ex divina inspiratione
+          <lb ed="#P" n="80"/>ordo mutetur, sicut Paulus ad solitudinem
+          <lb ed="#P" n="81"/>statim vocatus est, occasione quidem vitandi
+          <lb ed="#P" n="82"/>persecutionem, ut supra ait Cassianus, et 
+          Ni<lb break="no" ed="#P" n="83"/>cephorus, lib. 8 Histor., c. 39 et 40, ex 
+          spe<lb break="no" ed="#P" n="84"/>ciali tamen Dei providentia , ad singulare 
+          il<lb break="no" ed="#P" n="85"/>lius vitae exemplum ; Antonius et Benedictus
+          <lb ed="#P" n="86"/>solitariam vitam prius coluerunt, et postea ad
+          <lb ed="#P" n="87"/>multorum perfectionem coenobiticam 
+          institue<lb break="no" ed="#P" n="88"/>runt,
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

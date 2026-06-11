@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="744"/>
+        <cb ed="#P" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r02364"><!-- t10l4c9 -->
+        <head xml:id="szovsr-r02364-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-r02364-Hd1e103" type="question-title">De paupertate domorum professarum propria.</head>
+        <p xml:id="szovsr-r02364-d1e106">
+          <lb ed="#C" n="89"/>CAPUT IX
+          <lb ed="#C" n="90"/>DE PAUPERTATE DOMORUM PROFESSARUM PROPRIA.
+        </p>
+        <p xml:id="szovsr-r02364-d1e113">
+          <lb ed="#C" n="91"/>Diximus hactenus de his quae ad 
+          pauperta<lb break="no" ed="#C" n="92"/>tem singularum personarum pertinent; 
+          dicen<lb break="no" ed="#C" n="93"/>dum superest de paupertate, quae in 
+          communi<lb break="no" ed="#C" n="94"/>tatibus Societatis servanda est. Sunt autem in
+          <lb ed="#C" n="95"/>Societate tria genera domorum,, scilicet 
+          pro<lb break="no" ed="#C" n="96"/>fessarum, collegiorum et novitiatuum, ut in
+          <lb ed="#C" n="97"/>superioribus, libro 2 secundo, c. quinto, 
+          nu<lb break="no" ed="#C" n="98"/>mero decimo quarto, visum est; et in eis pro
+          <lb ed="#C" n="99"/>pro ratione finis et muneris uniuscujusque 
+          di<lb break="no" ed="#C" n="100"/>versus modus paupertatis servatur, qui 
+          sigilla<lb break="no" ed="#C" n="101"/>tim explicandus est ; in hoc quidem et sequenti
+          <lb ed="#C" n="102"/>capite quoad domos professas, in undecimo,
+          <lb ed="#C" n="103"/>quoad collegia et novitiatus.
+        </p>
+        <p xml:id="szovsr-r02364-d1e144">
+          <lb ed="#C" n="104"/>1. Quarumnam rerum dominài sint 
+          incapa<lb break="no" ed="#C" n="105"/>ces professae domus, etiam in communi —
+          Qua<lb break="no" ed="#C" n="106"/>rum sint capaces. — Primo ergo, Societas 
+          pro<lb break="no" ed="#C" n="107"/>fessa, in communi etiam, capax non est do-
+          <pb ed="#P" n="745"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>minii aliquorum bonorum immobilium; ita
+          <lb ed="#C" n="2"/>habetur in prima Bulla Pauli lI: Declarantes,
+          <lb ed="#C" n="3"/>quod non solum privatim, sed negue elium 
+          com<lb break="no" ed="#C" n="4"/>muniter possint pro Societatis sustentatione aut
+          <lb ed="#C" n="5"/>usu, ad bona aliqua stabilia, aut ad proventus
+          <lb ed="#C" n="6"/>seu introitus aliquos jus aliquod civile 
+          acqui<lb break="no" ed="#C" n="7"/>rere. Idem in Bulla prima Julii IIT, ubi 
+          decla<lb break="no" ed="#C" n="8"/>ratio additur, partim ampliationem, partim 
+          li<lb break="no" ed="#C" n="9"/>mitationem continens ; cum enim dicitur, 
+          ne<lb break="no" ed="#C" n="10"/>que professos, neque eorum domos aut 
+          Eecle<lb break="no" ed="#C" n="11"/>siam posse habere proventus, redditus, 
+          posses<lb break="no" ed="#C" n="12"/>siones, aut bona stabilia, ampliatio quaedam
+          <lb ed="#C" n="13"/>est, vel saltem major explicatio. Cum vero 
+          ad<lb break="no" ed="#C" n="14"/>ditur: Praeeter ea quee opportuna erunt ad uswn
+          <lb ed="#C" n="15"/>proprium et habitationem, limitatio quaedam
+          <lb ed="#C" n="16"/>est. Alia etiam est diversitas notanda; nam in
+          <lb ed="#C" n="17"/>priori Bulla subjiciebantur haec verba: Sed sint
+          <lb ed="#C" n="18"/>contenti usum tantum rerum sibi donatarum ad
+          <lb ed="#C" n="19"/>necessaria sibi comparanda recipere. Quae 
+          ver<lb break="no" ed="#C" n="20"/>ba statim excitabunt illam quaestionem, an 
+          do<lb break="no" ed="#C" n="21"/>minium talium rerum apud Societatem sit. Ad
+          <lb ed="#C" n="22"/>hanc ergo quaestionem tollendam aliter in 
+          pos<lb break="no" ed="#C" n="23"/>teriori Bulla illa proposita sunt, scilicet, rebus
+          <lb ed="#C" n="24"/>sibi ex charitale donatis ad necessurium vite
+          <lb ed="#C" n="25"/>usn contenti. ltaque in Societate non habet
+          <lb ed="#C" n="26"/>locum illa quaestio, quae de religione Minorum
+          <lb ed="#C" n="27"/>controverti solet. Nam revera domus professa
+          <lb ed="#C" n="28"/>est capax alicujus dominii in communi, 
+          nimi<lb break="no" ed="#C" n="29"/>rum earum rerum mobilium quae ad actualem
+          <lb ed="#C" n="30"/>usum habet. Et ita expresse declaratum est in
+          <lb ed="#C" n="31"/>d. cap. secundo sextae partis Constitutionum,
+          <lb ed="#C" n="32"/>S 5, lit. E. Ilemque censendum est de 
+          domi<lb break="no" ed="#C" n="33"/>nio illius rei immobilis, quae solum ad 
+          habita<lb break="no" ed="#C" n="34"/>tionem, vel alium hujusmodi usum, sceilicet,
+          <lb ed="#C" n="35"/>ad aliquam recreationem religiosis 
+          necessa<lb break="no" ed="#C" n="36"/>riam inserviat, non vero ad redditus et 
+          pro<lb break="no" ed="#C" n="37"/>ventus, ex quibusreligiosi sustententur. 
+          Quam<lb break="no" ed="#C" n="38"/>vis autem horum bonorum dominium habeant
+          <lb ed="#C" n="39"/>professae domus, plenam autem 
+          administratio<lb break="no" ed="#C" n="40"/>nem non habent, sed in Praeposito Generali
+          <lb ed="#C" n="41"/>praecipue residet, propter perfectam 
+          subordi<lb break="no" ed="#C" n="42"/>nationem et monarchicum regimen, quod 
+          So<lb break="no" ed="#C" n="43"/>cietas profitetur, et ideo contractus, qui de
+          <lb ed="#C" n="44"/>his rebus in domibus professis, non a 
+          conven<lb break="no" ed="#C" n="45"/>tu, nec nomine ejus, sed a Superiore nomine
+          <lb ed="#C" n="46"/>Generalis fiunt, tertia parte Constitutionum,
+          <lb ed="#C" n="47"/>cap. 3, 85. Aliorum autem reddituum vel 
+          bo<lb break="no" ed="#C" n="48"/>norum immobilium, praeter ea quae dicta sunt,
+          <lb ed="#C" n="49"/>incapax est professa Societas; quod etiam
+          <lb ed="#C" n="50"/>Pius V et Gregorius XIII in suis Bullis 
+          confir<lb break="no" ed="#C" n="51"/>marunt. Idem habetur sexta parte 
+          Constitutio<lb break="no" ed="#C" n="52"/>num, c. 2, S2, ubi amplius his verbis 
+          decla<lb break="no" ed="#C" n="53"/>ratur: 7a domibus, vel Ecclesiis, qui a 
+          Societa<lb break="no" ed="#C" n="54"/>te ad auailivin animarum adnittentur, redditus
+          <lb ed="#C" n="55"/>nulli, nec sacristiee quidem aut fabrice appli-
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>cati, haberi possint, sed neque ulla alia ratione,
+          <lb ed="#C" n="57"/>ita ut penes Socictatem sit ulla eorum 
+          dispen<lb break="no" ed="#C" n="58"/>satio. EtLS 5 additur: Non solum redditus,
+          <lb ed="#C" n="59"/>sed nec possessiones ullas habeaut in 
+          particula<lb break="no" ed="#C" n="60"/>ri, neque in commnuni domus vel Ecclesiee 
+          So<lb break="no" ed="#C" n="61"/>cietatis, preterquam quod ad halitationem vel
+          <lb ed="#C" n="62"/>usn nuecessarium eis conveniens fuerit, etc. In
+          <lb ed="#C" n="63"/>Examine etiam, cap. primo, S 3, declaratur,
+          <lb ed="#C" n="64"/>paupertatem Societatis talem esse, uf nec 
+          ce<lb break="no" ed="#C" n="65"/>lit, uec possit redditus ullos ad suam 
+          sustenta<lb break="no" ed="#C" n="66"/>tionem, neque ad quidvis aliud habere.
+        </p>
+        <p xml:id="szovsr-r02364-d1e306">
+          <lb ed="#C" n="67"/>2. Quam late pateat illa incapacitas seu 
+          pau<lb break="no" ed="#C" n="68"/>gertas bouorum in comamuni, et cur.—Ubi 
+          par<lb break="no" ed="#C" n="69"/>ticula illa, nec quidvis aliud, posita est ad 
+          ex<lb break="no" ed="#C" n="70"/>plicandum, etiam ad servitium vel expensas 
+          sa<lb break="no" ed="#C" n="71"/>cristiae, vel sacrificii divini, ut pro 
+          ornamen<lb break="no" ed="#C" n="72"/>tis, ad sumptus olei, cerae, tritici, aut vini 
+          con<lb break="no" ed="#C" n="73"/>sumendi in altari, non posse Societatem 
+          pro<lb break="no" ed="#C" n="74"/>fessam habere redditus, ad quos habeat 
+          pro<lb break="no" ed="#C" n="75"/>prium jus. Et hoc ipsum significatum est in
+          <lb ed="#C" n="76"/>sexta parte Constitutionum in verbis illis : Nec
+          <lb ed="#C" n="77"/>sacristie quidem aut fabrice applicati. 
+          Addi<lb break="no" ed="#C" n="78"/>tur praeterea in quarta parte Constitutionum,
+          <lb ed="#C" n="79"/>c. 2, $4, in domibus et Ecclesiis Societatis 
+          pro<lb break="no" ed="#C" n="80"/>fessae non posse admitti obligationes ad curam
+          <lb ed="#C" n="81"/>animarum, vel a aliquas missas dicendas; per
+          <lb ed="#C" n="82"/>quod excluduntur etiam omnes redditus, qui
+          <lb ed="#C" n="83"/>ex anniversariis seu. capellaniis provenire 
+          so<lb break="no" ed="#C" n="84"/>lent. Verum hoc commune est toti Societati,
+          <lb ed="#C" n="85"/>etiam in collegiis. Provenit enim ex illa 
+          genc<lb break="no" ed="#C" n="86"/>rali conditione paupertatis Societatis, quod pro
+          <lb ed="#C" n="87"/>missis, vel aliis ministeriis spiritualibus non
+          <lb ed="#C" n="88"/>potest stipendium vel eleemosynam accipere.
+          <lb ed="#C" n="89"/>Quanquam non haec sola ratio ibi interveniat,
+          <lb ed="#C" n="90"/>sed etiam ut operarii Societatis professae magis
+          <lb ed="#C" n="91"/>expediti sint ad sua ministeria, et ad 
+          missio<lb break="no" ed="#C" n="92"/>nes obeundas, quando iujuncta fuerint. Et ideo
+          <lb ed="#C" n="93"/>additur ibi in declaratione, quod, licet collegia
+          <lb ed="#C" n="94"/>possint interdum aliquas obligationes 
+          accipe<lb break="no" ed="#C" n="95"/>re, quae neque animarum curam contineant,
+          <lb ed="#C" n="96"/>nec distractionem afferant, nec multam 
+          occu<lb break="no" ed="#C" n="97"/>pationem repugnantem Societati : 7a domibus
+          <lb ed="#C" n="98"/>aute;n professorum (dicitur ibi), quando nec 
+          ii<lb break="no" ed="#C" n="99"/>le redditus ullos habent, nec ipsi stabilem 
+          ha<lb break="no" ed="#C" n="100"/>bitationem , hujusmodi obligationes uon 
+          tolc<lb break="no" ed="#C" n="101"/>rantur.
+        </p>
+        <p xml:id="szovsr-r02364-d1e384">
+          <lb ed="#C" n="102"/>3. Ad quas etiai personas doinorun 
+          ipsa<lb break="no" ed="#C" n="103"/>rum se extendat. — Ex quibus omnibus 
+          con<lb break="no" ed="#C" n="104"/>stat occlusam omnino esse viam Societati 
+          pro<lb break="no" ed="#C" n="105"/>fessae habendi redditus certos et stabiles ad
+          <lb ed="#C" n="106"/>quascumque expensas sibi necessarias, sive ad
+          <lb ed="#C" n="107"/>fabricam Ecclesiae, aut domus, sive ad 
+          expen<lb break="no" ed="#C" n="108"/>sas Ecclesiae, seu sacristiae, sive ad 
+          sustenta<lb break="no" ed="#C" n="109"/>tionem tam professorum, quam omnium 
+          co<lb break="no" ed="#C" n="110"/>rum qui eos adjuvant, vel in temporalibus,
+          <pb ed="#P" n="746"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>vel in spiritualibus, in quocumque gradu 
+          So<lb break="no" ed="#C" n="2"/>cietatis illi sint, vel etiam novitii, imo 
+          etiam<lb break="no" ed="#C" n="3"/>si sint famuli ; nam omnes hi 
+          comprehendun<lb break="no" ed="#C" n="4"/>tur in sustentatione domus. Neque etiam pro
+          <lb ed="#C" n="5"/>hospitibus, nec pro itineribus agendis, 
+          multo<lb break="no" ed="#C" n="6"/>que minus ut ipsi professi in missionibus ex
+          <lb ed="#C" n="7"/>eis sustentari possint, quia verba sunt 
+          gene<lb break="no" ed="#C" n="8"/>ralia, et omnem titulum vel occasionem 
+          ex<lb break="no" ed="#C" n="9"/>cludunt.
+        </p>
+        <p xml:id="szovsr-r02364-d1e430">
+          <lb ed="#C" n="10"/>4. Dicta paupertas exceditur, et excedit 
+          pau<lb break="no" ed="#C" n="11"/>pertatesm Minorum. — Deinde constat in hoc
+          <lb ed="#C" n="12"/>genere paupertatis, quoad multa convenire
+          <lb ed="#C" n="13"/>paupertatem Societatis cum paupertate 
+          Mino<lb break="no" ed="#C" n="14"/>rum, quatenus nihil proprium in communi
+          <lb ed="#C" n="15"/>habere possunt ; in aliquibus vero differre ex
+          <lb ed="#C" n="16"/>parte minuendo, et ex parte augendo illam
+          <lb ed="#C" n="17"/>paupertatem. Nam quoad dominium 
+          pro<lb break="no" ed="#C" n="18"/>prium rerum mobilium, quae actu 
+          possiden<lb break="no" ed="#C" n="19"/>tur, et tenentur ad usum, et quoad 
+          Eccle<lb break="no" ed="#C" n="20"/>siam, et domum habitationis, non refugit 
+          So<lb break="no" ed="#C" n="21"/>cietas illud admittere, quia non existimat 
+          im<lb break="no" ed="#C" n="22"/>pedire aliquo modo finem suum. Minores
+          <lb ed="#C" n="23"/>vero profitentur hoc etiam dominium non 
+          ad<lb break="no" ed="#C" n="24"/>mittere , sed purum usum ; quod sanctum
+          <lb ed="#C" n="25"/>etiam est, et ex eo capite paupertatem auget,
+          <lb ed="#C" n="26"/>et commendat ejus affectum. Aliunde vero 
+          ex<lb break="no" ed="#C" n="27"/>cedit haec paupertas Societatis, quatenus 
+          ex<lb break="no" ed="#C" n="28"/>cludit omnes redditus pro sacristia et 
+          sumpti<lb break="no" ed="#C" n="29"/>bus ejus, et omnes proventus ex capellaniis,
+          <lb ed="#C" n="30"/>anniversariis, etc., quae cum paupertate 
+          Mino<lb break="no" ed="#C" n="31"/>rum non repugnant, ut in tomo superiori,
+          <lb ed="#C" n="32"/>tractando de religionibus mendicantibus, 
+          vi<lb break="no" ed="#C" n="33"/>sum est. Atque hinc tandem fit, ut ad 
+          decla<lb break="no" ed="#C" n="34"/>randam hanc paupertatem Societatis professae
+          <lb ed="#C" n="35"/>nihil hic adducere necessarium sit ; nam quae
+          <lb ed="#C" n="36"/>illi communia sunt cum religionibus 
+          mendi<lb break="no" ed="#C" n="37"/>cantibus, illo in loco declarata sunt. Quae vero
+          <lb ed="#C" n="38"/>sunt propria Societatis, aperte fere in ipsis
+          <lb ed="#C" n="39"/>Constitutionibus continentur. Ut tamen 
+          dis<lb break="no" ed="#C" n="40"/>tinctius ea, quae sunt propria , intelligantur,
+          <lb ed="#C" n="41"/>operae pretium erit nonnulla ex verbis 
+          Ponti<lb break="no" ed="#C" n="42"/>ficum paulo ante allatis magis exponere, et
+          <lb ed="#C" n="43"/>dübia incidentia expedire.
+        </p>
+        <p xml:id="szovsr-r02364-d1e506">
+          <lb ed="#C" n="44"/>DUBIUM PRIMUM.
+          <lb ed="#C" n="45"/>Quid verba illa Bulle Pauli III(jus
+          <lb ed="#C" n="46"/>aliquod civile ) importent.
+        </p>
+        <p xml:id="szovsr-r02364-d1e515">
+          <lb ed="#C" n="47"/>5. Ratio dubii. — Confirmatur egemplo. —
+          <lb ed="#C" n="48"/>Primum ergo inquici potest, quid significet in
+          <lb ed="#C" n="49"/>Bulla Pauli III verbum illud, jus aliguod 
+          ci<lb break="no" ed="#C" n="50"/>vile. Videtur enim in rigore significare 
+          actio<lb break="no" ed="#C" n="51"/>nem ad petendum coram judice redditus vel
+          <lb ed="#C" n="52"/>proventus aliquos, atque ita non repugnare
+          <lb ed="#C" n="53"/>quin domus professa habeat jus, quod vocant
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="54"/>naturale ad hujusmodi redditus, vel bona 
+          sta<lb break="no" ed="#C" n="55"/>bilia ; recte enim unum jus ab alio separatur ;
+          <lb ed="#C" n="56"/>ut in sententia multorum per testamentum
+          <lb ed="#C" n="57"/>minus solemne, quando certo constat 
+          conti<lb break="no" ed="#C" n="58"/>nere voluntatem testatoris , jus naturale 
+          ac<lb break="no" ed="#C" n="59"/>quiritur, id est, in conscientia et vera justitia,
+          <lb ed="#C" n="60"/>quamvis non acquiratur jus civile, id est, 
+          ac<lb break="no" ed="#C" n="61"/>tio ad petendam juridice haereditatem. 
+          Si<lb break="no" ed="#C" n="62"/>militer qui deceptus est in venditione citra
+          <lb ed="#C" n="63"/>dimidium, jus naturale habet ad id in quo 
+          de<lb break="no" ed="#C" n="64"/>ceptus est, non tamen jus civile, quia ei non
+          <lb ed="#C" n="65"/>datur actio. Cum ergo in dicta Bulla solum
+          <lb ed="#C" n="66"/>declaretur, Societatem professam non posse
+          <lb ed="#C" n="67"/>acquirere aliquod jus civile, non videtur 
+          ex<lb break="no" ed="#C" n="68"/>cludi quin habere possit verum jus justitiae ad
+          <lb ed="#C" n="69"/>aliquos redditus, quamvis illos juridice petere
+          <lb ed="#C" n="70"/>non possit; ut, verbi gratia, si aliquis 
+          testa<lb break="no" ed="#C" n="71"/>mento relinqueret suam haereditatem alicui
+          <lb ed="#C" n="72"/>cum onere dandi singulis annis pensionem
+          <lb ed="#C" n="73"/>centum aureorum domui professae Societatis,
+          <lb ed="#C" n="74"/>conferendo etiam ipsi Societati jus naturale
+          <lb ed="#C" n="75"/>justitiae, absque actione civili.
+        </p>
+        <p xml:id="szovsr-r02364-d1e583">
+          <lb ed="#C" n="76"/>6. Bipartito resolvitur dubiwn. — 
+          Ostendi<lb break="no" ed="#C" n="77"/>tur prior pavs. — Ostenditur posterior. — 
+          Re<lb break="no" ed="#C" n="78"/>spondeo certum esse Societatem esse 
+          incapa<lb break="no" ed="#C" n="79"/>cem omnis dominii harum rerum, tam 
+          corpo<lb break="no" ed="#C" n="80"/>ralium quam incorporalium , atque adeo nec
+          <lb ed="#C" n="81"/>census ullos habere posse, nec verum aut 
+          pro<lb break="no" ed="#C" n="82"/>prium jus ad ullos redditus. Prima pars 
+          con<lb break="no" ed="#C" n="83"/>stat ex multis aliis verbis supra citatis, 
+          prae<lb break="no" ed="#C" n="84"/>sertim quia proxime post illa verba in Bulla
+          <lb ed="#C" n="85"/>Pauli IH additur : Sed sint contenti usum 
+          tan<lb break="no" ed="#C" n="86"/>tum rerum sibi donatarum, ad necessaria sili
+          <lb ed="#C" n="87"/>comparanda, vecipere. Ubi etiam rerum 
+          mobi<lb break="no" ed="#C" n="88"/>lium solus usus videbatur permitti. 
+          Apertis<lb break="no" ed="#C" n="89"/>sime vero id declaratum est in 
+          Constitutioni<lb break="no" ed="#C" n="90"/>bus, ubi, nulla facta mentione juris civilis, 
+          ab<lb break="no" ed="#C" n="91"/>solute dicitur Societatem professam, neque in
+          <lb ed="#C" n="92"/>communi, neque in particulari posse habere
+          <lb ed="#C" n="93"/>haec bona; et ad majorem explicationem 
+          ad<lb break="no" ed="#C" n="94"/>ditur, sed neque ulla alia ratione, ita ut 
+          pe<lb break="no" ed="#C" n="95"/>nes Societatem sit ulla eorum dispensatio.
+          <lb ed="#C" n="96"/>Quod vero sub hac generali prohibitione
+          <lb ed="#C" n="97"/>comprehendantur non tantum res 
+          corpora<lb break="no" ed="#C" n="98"/>les, sed etiam illae qua incorporales 
+          vo<lb break="no" ed="#C" n="99"/>cantur, ex ipsis verbis manifestum est, quia
+          <lb ed="#C" n="100"/>census annui sunt ex his bonis 
+          incorporali<lb break="no" ed="#C" n="101"/>bus ; at illi etiam exclusi sunt per illa verba,
+          <lb ed="#C" n="102"/>nulli redditus, nam ex censu aliqui redditus
+          <lb ed="#C" n="103"/>debentur. Imo, juxta veram sententiam, hoc
+          <lb ed="#C" n="104"/>commune est omni religioni , quae 
+          pauperta<lb break="no" ed="#C" n="105"/>tem in communi profitetur, nam eo ipso 
+          re<lb break="no" ed="#C" n="106"/>pugnat illi habere jus aliquod proprium ad
+          <lb ed="#C" n="107"/>certos redditus ; et ideo Bonifacius VIII, in
+          <lb ed="#C" n="108"/>c. 1, § 1, de Religiosis domibus, in 6, dixit,
+          <pb ed="#P" n="747"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>hujusmodi religionem incerta mendicitate
+          <lb ed="#C" n="2"/>sustentandam esse, quia nihil debet habere
+          <lb ed="#C" n="3"/>certum unde alatur; sed ex eleemosynis 
+          vi<lb break="no" ed="#C" n="4"/>vere debere, ut ihi glossa et omnes notant.
+          <lb ed="#C" n="5"/>Ergo omnes certi redditus, sive proveniant ex
+          <lb ed="#C" n="6"/>re corporali , sive ex incorporali jure, 
+          repu<lb break="no" ed="#C" n="7"/>gnant huic paupertati. Non ergo excluditur 
+          so<lb break="no" ed="#C" n="8"/>lum jus seu actio civilis, scd etiam jus ipsum
+          <lb ed="#C" n="9"/>substantiale, ut sic dicam; quod inter bona
+          <lb ed="#C" n="10"/>temporalia et immobilia per se computatur,
+          <lb ed="#C" n="11"/>et est aestimabile pretio, etiam seclusa actione
+          <lb ed="#C" n="12"/>civili, et de se sufficere potest ad certam vitae
+          <lb ed="#C" n="13"/>sustentationem , etiamsi ex alterius injustitia
+          <lb ed="#C" n="14"/>negari possint redditus debiti ex tali jure;
+          <lb ed="#C" n="15"/>quae sententia manifeste sumitur ex 
+          declara<lb break="no" ed="#C" n="16"/>tione Pontificis in Clement. Eivi, vers. 
+          Cun<lb break="no" ed="#C" n="17"/>que anmui redditus, de Verborum signific. Cum
+          <lb ed="#C" n="18"/>ergo in Bullis ponitur particula illa, jus civile,
+          <lb ed="#C" n="19"/>non intelligitur sola actio civilis, sed omne
+          <lb ed="#C" n="20"/>jus seu dominium humanum, quod jus civile
+          <lb ed="#C" n="21"/>appellari potuit, vel quia inter cives versari
+          <lb ed="#C" n="22"/>solet, vel quia fundamentum est juris civilis,
+          <lb ed="#C" n="23"/>et per se confert illud, quamvis aliquando ex
+          <lb ed="#C" n="24"/>accidenti negetur.
+        </p>
+        <p xml:id="szovsr-r02364-d1e714">
+          <lb ed="#C" n="25"/>7. Ad confirmationem ab exemplo legati in
+          <lb ed="#C" n="26"/>illo n. 5. — Societas professa legata quaedam
+          <lb ed="#C" n="27"/>in eleemosynam acceptare potest. — Ad 
+          exem<lb break="no" ed="#C" n="28"/>plum autem ibi positum, manifestum est in eo
+          <lb ed="#C" n="29"/>casu legatum illud repugnare paupertati 
+          So<lb break="no" ed="#C" n="30"/>cietatis , atque adeo esse nullum , ita ut non
+          <lb ed="#C" n="31"/>solum non acquirat Societas jus ad tales 
+          red<lb break="no" ed="#C" n="32"/>ditus, verum etiam non possit illos recipere,
+          <lb ed="#C" n="33"/>quia esset virtute consentire, et acceptare jus,
+          <lb ed="#C" n="34"/>aut saltem velle habere certos redditus ad
+          <lb ed="#C" n="35"/>suam sustertationem ( nisi forte haeredes 
+          ex<lb break="no" ed="#C" n="36"/>presse declararent se ultro dare velle). Imo,
+          <lb ed="#C" n="37"/>etiamsi testator hoc onus imponeret haeredi,
+          <lb ed="#C" n="38"/>nullo jure dato Societati, sed solum gravando
+          <lb ed="#C" n="39"/>conscientiam haeredis, juxta communem 
+          sen<lb break="no" ed="#C" n="40"/>teutiam tomo praecedenti tractatam de 
+          men<lb break="no" ed="#C" n="41"/>dicantibus, non esset validum tale legatum,
+          <lb ed="#C" n="42"/>quia repugnat strictae paupertati, quae omnes
+          <lb ed="#C" n="43"/>redditus certos excludit, ut notat 
+          Panormita<lb break="no" ed="#C" n="44"/>nus, in cap. Nimis prava, 2, de Excess. 
+          Prae<lb break="no" ed="#C" n="45"/>lat., numero secundo, et in c. 7n praesentia, de
+          <lb ed="#C" n="46"/>Probationibus; et ideo in septima tandem 
+          Con<lb break="no" ed="#C" n="47"/>gregatione generali, decreto quinquagesimo
+          <lb ed="#C" n="48"/>editionis anni 1616, stabilitum est repugnare
+          <lb ed="#C" n="49"/>Societatis instituto , et puritati paupertatis
+          <lb ed="#C" n="50"/>ejus, si collegia acceptent redditus cum onere
+          <lb ed="#C" n="51"/>dandi aliquam partem domui professae. Et
+          <lb ed="#C" n="52"/>quamvis Sylvester, Legatum, 2, q.2, particula
+          <lb ed="#C" n="53"/>2 et 3, cum Paludano, et aliis Doctoribus, hoc
+          <lb ed="#C" n="54"/>limitet quoad alias religiones mendicantes, 
+          vi<lb break="no" ed="#C" n="55"/>delicet, nisi per modum eleemosynoe id vecipe-
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>rent, et non exigendo judicialiter, de quo 
+          ci<lb break="no" ed="#C" n="57"/>tato tomo visum est, nihilominus in Societate
+          <lb ed="#C" n="58"/>ipsa non existimo habere locum generaliter
+          <lb ed="#C" n="59"/>de quibuscumque legatis illam limitationem,
+          <lb ed="#C" n="60"/>sed solum in casu in ejus Constitutionibus 
+          ex<lb break="no" ed="#C" n="61"/>presso. Nam in sesxta parte Constitutionum,
+          <lb ed="#C" n="62"/>c. 2, 82, cum dictum esset, domus et 
+          Eccle<lb break="no" ed="#C" n="63"/>sias Socictatis non posse habere redditus, 
+          ad<lb break="no" ed="#C" n="64"/>ditur in declaratione , lit. B: Si aliquis ez
+          <lb ed="#C" n="65"/>fundatoribus domorum vel Hoclesiarum vellet
+          <lb ed="#C" n="66"/>redditus aliquos ad fabrice uswmn relinquere ,
+          <lb ed="#C" n="67"/>dumnodo nec dispositio eorum ad Societatem
+          <lb ed="#C" n="68"/>pertineat, nec sit unde ei competat actio in illos
+          <lb ed="#C" n="69"/>(quamvis id illi curae esset, ut is, cui tale 
+          mau<lb break="no" ed="#C" n="70"/>nus commissum est, suum officium fuceret), et
+          <lb ed="#C" n="71"/>sic in relus similibus, non esset id a 
+          Societa<lb break="no" ed="#C" n="72"/>tis pauperlate alieuun. Ex qua declaratione
+          <lb ed="#C" n="73"/>constat, in casu ibi expresso tale legatum seu
+          <lb ed="#C" n="74"/>onus validum esse, quia Societati licet 
+          gau<lb break="no" ed="#C" n="75"/>dere illo, modo sibi permisso, scilicet, 
+          acci<lb break="no" ed="#C" n="76"/>piendo redditus illos, si dentur, et admonendo
+          <lb ed="#C" n="77"/>etiam sui officii haeredem, qui supponatur in
+          <lb ed="#C" n="78"/>conscientia obligatus, alias nulla esset 
+          admo<lb break="no" ed="#C" n="79"/>nitio. Qualis vero esse possit illa obligatio 
+          hae<lb break="no" ed="#C" n="80"/>redis, in tomo superiori explicatum est.
+        </p>
+        <p xml:id="szovsr-r02364-d1e840">
+          <lb ed="#C" n="81"/>8. Non tamen quecumque legata. — 
+          Nomi<lb break="no" ed="#C" n="82"/>ne fabrice non veniunt ornamenta. — Neque
+          <lb ed="#C" n="83"/>sumptus pro sacrificiis el luminaribus. —um
+          <lb ed="#C" n="84"/>autem exceptio firmet regulam in contrarium,
+          <lb ed="#C" n="85"/>et haec videatur in praesenti esse exceptio 
+          sin<lb break="no" ed="#C" n="86"/>gularis, consequenter videtur, extra hunc 
+          ca<lb break="no" ed="#C" n="87"/>sum non licere Societati acceptare hujusmodi
+          <lb ed="#C" n="88"/>redditus jam certos, saltem ex obligatione 
+          al<lb break="no" ed="#C" n="89"/>terius, ut verbi gratia, siilli redditusnon ad 
+          fa<lb break="no" ed="#C" n="90"/>bricam Ecclesiae aut domus, sed ad 
+          sustentatic<lb break="no" ed="#C" n="91"/>nem religiosorum relinquerentur ; quia hoc
+          <lb ed="#C" n="92"/>magis repugnat paupertati personali, ut sic 
+          di<lb break="no" ed="#C" n="93"/>cam. Quod si haec expositio vera est, etiam non
+          <lb ed="#C" n="94"/>licebit (attento jure communi) similes 
+          reddi<lb break="no" ed="#C" n="95"/>ius acceptare ad ornamenta Ecclesise, et alia
+          <lb ed="#C" n="96"/>onera sacristiae ; quia nomine fabrice haec non
+          <lb ed="#C" n="97"/>comprehenduntur, argum. c. De his, de 
+          Tes<lb break="no" ed="#C" n="98"/>tamentis, ubi haec ponuntur tanquam diversa,
+          <lb ed="#C" n="99"/>quod ibi notat Panormitanus, numero 
+          secun<lb break="no" ed="#C" n="100"/>do, et infert redditus deputatos ad fabricam
+          <lb ed="#C" n="101"/>non posse converti in ornamenta Ecclesise. Hic
+          <lb ed="#C" n="102"/>ergo in praesenti dicendum videtur 
+          permissio<lb break="no" ed="#C" n="103"/>nem, expressam tantum circa fabricam, non
+          <lb ed="#C" n="104"/>extendi ad ornamenta, et alios sumptus pro
+          <lb ed="#C" n="105"/>Iuminaribus, sacrificiis, etc. Deinde etiam 
+          pon<lb break="no" ed="#C" n="106"/>derari potest hoc solum permitti fundatoribus.
+          <lb ed="#C" n="107"/>Quod etiam videtur speciale prop:er 
+          gratitu<lb break="no" ed="#C" n="108"/>dinem eis debitam, et quia sunt veluti 
+          domi<lb break="no" ed="#C" n="109"/>ni, id est, patroni, ad quos maxime pertinet,
+          <lb ed="#C" n="110"/>et veluti in eorum commodum redundat, quod
+          <pb ed="#P" n="748"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>talia sedificia conserventur perpetuo, et ita ab
+          <lb ed="#C" n="2"/>alio extraneo non esse hoc admittendum; non
+          <lb ed="#C" n="3"/>enim sine causa nomen fundatoris positum
+          <lb ed="#C" n="4"/>est. Quae expositio tota eo potest religiosis 
+          So<lb break="no" ed="#C" n="5"/>cietatis magis placere, quod paupertatem 
+          do<lb break="no" ed="#C" n="6"/>morum magis restringit, et quia singula 
+          ver<lb break="no" ed="#C" n="7"/>ba B. P.Ignatii magis expendit, qui non sine
+          <lb ed="#C" n="8"/>speciali motivo et ratione casum illum in 
+          par<lb break="no" ed="#C" n="9"/>ticulari expressit.
+        </p>
+        <p xml:id="szovsr-r02364-d1e931">
+          <lb ed="#C" n="10"/>9. Probabile tamen est posse acceptare 
+          quae<lb break="no" ed="#C" n="11"/>cumque eo modo relicta. — Nihilominus talem
+          <lb ed="#C" n="12"/>expositionem non propono ut certam ; 
+          pri<lb break="no" ed="#C" n="13"/>mum, quia argumentum a contrario, vel ab
+          <lb ed="#C" n="14"/>speciali, ubi prohibitio generalis lata non erat,
+          <lb ed="#C" n="15"/>non est firmum ad concludendam generalem
+          <lb ed="#C" n="16"/>prohibitionem in aliis casibus; in praesenti
+          <lb ed="#C" n="17"/>autem non est prohibitum ex vi voti 
+          pauper<lb break="no" ed="#C" n="18"/>tatis, neque ex aliis regulis Societatis recipere
+          <lb ed="#C" n="19"/>hujusmodi redditus, si ab alio conferantur ex
+          <lb ed="#C" n="20"/>obligatione sibi relicta, sine jure vel cura 
+          So<lb break="no" ed="#C" n="21"/>cietatis, nam, seclusa hac speciali 
+          declaratio<lb break="no" ed="#C" n="22"/>ne, nihil peculiare habet Societas plusquam
+          <lb ed="#C" n="23"/>aliae religiones quibus prohibitum est habere
+          <lb ed="#C" n="24"/>redditus in communi, quibus non propterea
+          <lb ed="#C" n="25"/>censetur prohibitum acceptare hanc 
+          eleemosy<lb break="no" ed="#C" n="26"/>nam, quantumvis obligatoriam ex parte 
+          dan<lb break="no" ed="#C" n="27"/>tis: ergo quamvis in praedicta declaratione,
+          <lb ed="#C" n="28"/>numero septimo, allata, ille casus specialis 
+          ex<lb break="no" ed="#C" n="29"/>pressus sit, non licet inde inferre generalem
+          <lb ed="#C" n="30"/>prohibitionem in omnibus aliis ; nam ad 
+          re<lb break="no" ed="#C" n="31"/>cedendum a jure communi, et ad inducendam
+          <lb ed="#C" n="32"/>specialem voti obligationem, seu materiam,
+          <lb ed="#C" n="33"/>major declaratio necessaria erit ; potuit enim
+          <lb ed="#C" n="34"/>ille casus exprim non ut esplicaretur, tantum
+          <lb ed="#C" n="35"/>in eo specialiter licere, sed ut insinuaretur in
+          <lb ed="#C" n="36"/>hoc casu esse specialem rationem, non ut 
+          li<lb break="no" ed="#C" n="37"/>ceat, sed ut etiam congruum sit talem piam
+          <lb ed="#C" n="38"/>operam acceptare, modo nostra paupertati 
+          ac<lb break="no" ed="#C" n="39"/>commodato, etiamsi fortasse inaliis casibus, vel
+          <lb ed="#C" n="40"/>melius sit illa non acceptare, vel regulariter
+          <lb ed="#C" n="41"/>possit esse aliquod inconveniens, vel 
+          pericu<lb break="no" ed="#C" n="42"/>lum alicujus fraudis, vel diminutionis 
+          pau<lb break="no" ed="#C" n="43"/>pertatis per hujusmodi legata. Deinde moveor
+          <lb ed="#C" n="44"/>propter illa verba, et sic in rebus similibus,
+          <lb ed="#C" n="45"/>per quae significari videtur non esse speciale
+          <lb ed="#C" n="46"/>in illo casu, sed extendi etiam ad alios 
+          simi<lb break="no" ed="#C" n="47"/>les, nullum enim alium congruum sensum 
+          illo<lb break="no" ed="#C" n="48"/>rum verborum invenio. Nam illa res similes
+          <lb ed="#C" n="49"/>non possunt referri ad res in testamento 
+          re<lb break="no" ed="#C" n="50"/>lictas; quia omnes, quae relinqui possunt, 
+          com<lb break="no" ed="#C" n="51"/>prehensae jam erant nomine reddituum, nam si
+          <lb ed="#C" n="52"/>non sint redditus, sed res semel donandae et
+          <lb ed="#C" n="53"/>consumendse, illae etiam cum perfecto jure et
+          <lb ed="#C" n="54"/>actione civili acceptari possunt. Igitur referri
+          <lb ed="#C" n="55"/>necessario debeut ad alios casus, in quibus
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>aliqui redditus sub eodem onere et modo 
+          re<lb break="no" ed="#C" n="57"/>linquantur ad alios usus Ecclesiarum, vel 
+          do<lb break="no" ed="#C" n="58"/>morum Societatis. Accedit etiam, quod in 
+          ori<lb break="no" ed="#C" n="59"/>ginali hispano verba, quibus illa declaratio
+          <lb ed="#C" n="60"/>concluditur, sunt: No seria inconveniente, quae
+          <lb ed="#C" n="61"/>non tam significant hoc esse licitum, quam
+          <lb ed="#C" n="62"/>non esse contra perfectionem vel 
+          convenien<lb break="no" ed="#C" n="63"/>tem gubernationem, quando ratio aliqua 
+          gra<lb break="no" ed="#C" n="64"/>titudinis vel pietatis id postulaverit ; ita enim
+          <lb ed="#C" n="65"/>interpretor illa verba : Ft sic in rebus 
+          simili<lb break="no" ed="#C" n="66"/>bus. Denique hoc videtur sufticienter colligi ex
+          <lb ed="#C" n="67"/>d. c. 2, 6 p. Constit., 8 6, in quo tria 
+          ordi<lb break="no" ed="#C" n="68"/>nantur. Primum est, ut nullus Societatis 
+          eaxci<lb break="no" ed="#C" n="69"/>Let aliquem ad relinquendas perpetuas 
+          eleemo<lb break="no" ed="#C" n="70"/>synas alicuà domui , vel Ecclesie Societatis ;
+          <lb ed="#C" n="71"/>quod per se non pertinet ad votum paupertatis,
+          <lb ed="#C" n="72"/>neque ad materiam ejus, sed ad quamdam 
+          per<lb break="no" ed="#C" n="73"/>fectionem et ad regulae observationem 
+          mag<lb break="no" ed="#C" n="74"/>namque aedificationem. Secundum est, ut si
+          <lb ed="#C" n="75"/>quis sponte sua eas relinquat, uullum jus cvile
+          <lb ed="#C" n="76"/>ad eas in judicio petendas acquiratur 
+          Societa<lb break="no" ed="#C" n="77"/>ti ; et hoc pertinet ad materiam voti 
+          pauper<lb break="no" ed="#C" n="78"/>tatis. Tertium est, tales eleemosynas recipi
+          <lb ed="#C" n="79"/>posse, si alii, cum ad id charitas propter Deum
+          <lb ed="#C" n="80"/>eos mocerit, eas elargiantur ; haec enim 
+          ver<lb break="no" ed="#C" n="81"/>ba manifeste supponunt tunc etiam posse a 
+          So<lb break="no" ed="#C" n="82"/>cietate recipi. Quaeri autem circa illas potest,
+          <lb ed="#C" n="83"/>an oporteat alium ex sola charitate, id est,
+          <lb ed="#C" n="84"/>ex spontanea voluntate absque obligatione 
+          il<lb break="no" ed="#C" n="85"/>las donare ; hoc enim videntur significare in
+          <lb ed="#C" n="86"/>rigore illa verba. Non tamen ita censeo, nam
+          <lb ed="#C" n="87"/>etiam ex charitate moveri potest, qui suam
+          <lb ed="#C" n="88"/>obligationem, quaecumque illa sit, implet. 
+          So<lb break="no" ed="#C" n="89"/>lum ergo ibi significatur respectu 
+          Socicta<lb break="no" ed="#C" n="90"/>tis non posse esse obligationem justitiae, 
+          quid<lb break="no" ed="#C" n="91"/>quid sit de quacumque alia obligatione, quam
+          <lb ed="#C" n="92"/>heeres potest habere respectu testatoris.
+        </p>
+        <p xml:id="szovsr-r02364-d1e1116">
+          <lb ed="#C" n="93"/>DUBIUM SECUNDUM.
+          <lb ed="#C" n="94"/>Quid importent verba illa Bullae (redditus et
+          <lb ed="#C" n="95"/>possessiones).
+        </p>
+        <p xml:id="szovsr-r02364-d1e1125">
+          <lb ed="#C" n="96"/>10. Redditus etiam certi temporis 
+          prohiben<lb break="no" ed="#C" n="97"/>tur professae domui. — Dubitari vcro ulterius
+          <lb ed="#C" n="98"/>potest, an nomine reddituum 
+          coniprehendan<lb break="no" ed="#C" n="99"/>tur temporales pensiones, si ad quinque vel
+          <lb ed="#C" n="100"/>sex annos tantum relinquantur; sed de hoc
+          <lb ed="#C" n="101"/>idem censendum est, quod de mendicantibus
+          <lb ed="#C" n="102"/>religionibus tomo superiore dixi contra 
+          Cor<lb break="no" ed="#C" n="103"/>dubam et alios, si talis sit pensio, ut ad eam
+          <lb ed="#C" n="104"/>religio ipsa jus acquirat, etiamsi temporalis
+          <lb ed="#C" n="105"/>sit, repugnare paupertati Societatis professae ;
+          <lb ed="#C" n="106"/>quia etiam hujusmodi pensio impediet saltem
+          <lb ed="#C" n="107"/>pro illo tempore incertam mendicitatem; ergo
+          <lb ed="#C" n="108"/>repugnat dictae paupertati. Et ideo Clemens,
+          <pb ed="#P" n="749"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>in d. Clem. Eziri, absolute et sine 
+          distinctio<lb break="no" ed="#C" n="2"/>ne dixit, hujusmodi redditus retinere, 
+          pau<lb break="no" ed="#C" n="3"/>pertati et mendicitati repugnare. Et ibidem
+          <lb ed="#C" n="4"/>etiam asserit hos annuos redditus inter 
+          im<lb break="no" ed="#C" n="5"/>mobilia bona computari , quia jus ad illos est
+          <lb ed="#C" n="6"/>quasi res fructifera , de se permanens et 
+          ven<lb break="no" ed="#C" n="7"/>dibilis, quod non solum verum est de 
+          perpe<lb break="no" ed="#C" n="8"/>tuo, sed etiam de temporali censu, ut 
+          com<lb break="no" ed="#C" n="9"/>muniter Doctores docent, et videri potest 
+          Co<lb break="no" ed="#C" n="10"/>varr., 3 Variarum, cap. 7. Praeterea ob hanc
+          <lb ed="#C" n="11"/>rationem docent omnes Doctores, ut tomo 
+          su<lb break="no" ed="#C" n="12"/>periori vidimus, usumfructum ejus, qui 
+          pro<lb break="no" ed="#C" n="13"/>fessionem facit in religione, quae non potest
+          <lb ed="#C" n="14"/>proprium in communi habere, non cedere in
+          <lb ed="#C" n="15"/>commodum religionis, sed per professionem
+          <lb ed="#C" n="16"/>extingui; cum tamen redditus usufructuarii
+          <lb ed="#C" n="17"/>temporales sint, maxime respectu religionis,
+          <lb ed="#C" n="18"/>quia ad summum durare possent pro tempore
+          <lb ed="#C" n="19"/>vitae ipsius usufructuarii; signum ergo est
+          <lb ed="#C" n="20"/>ctiam temporales redditus, cum jure ad illos,
+          <lb ed="#C" n="21"/>huic paupertati repugnare. Denique in 
+          Con<lb break="no" ed="#C" n="22"/>stitutionibus Societatis illa distributio additur,
+          <lb ed="#C" n="23"/>ulli redditus ; et illa, sed neque ulla alia 
+          ra<lb break="no" ed="#C" n="24"/>Lione; et illa, sive vedditibus ullis. An vero
+          <lb ed="#C" n="25"/>tale legatum, relictum Societati professee, ut
+          <lb ed="#C" n="26"/>possit converti in utilitatem ejus, aliquo modo
+          <lb ed="#C" n="27"/>non repugnante paupertati ipsius, et sub ea
+          <lb ed="#C" n="28"/>ratione, validum esse possit, dicam statim.
+        </p>
+        <p xml:id="szovsr-r02364-d1e1221">
+          <lb ed="#C" n="29"/>11. Circa verbum possessiones puncta tria
+          <lb ed="#C" n="30"/>declarantur. — Unuun punctum, quid sint 
+          pos<lb break="no" ed="#C" n="31"/>sessiones.—Societas concessioni Tridentini 
+          ve<lb break="no" ed="#C" n="32"/>uuitiat.—Circa aliam particulam, qua 
+          prohi<lb break="no" ed="#C" n="33"/>betur Societas habere possessiones praeter 
+          ne<lb break="no" ed="#C" n="34"/>cessarias ad usum, inquiri potest quid nomine
+          <lb ed="#C" n="35"/>possessionum intelligatur, et quae sint 
+          per<lb break="no" ed="#C" n="36"/>missae, quae vero prohibitae, et an prohibeatur
+          <lb ed="#C" n="37"/>illarum tantum proprietas, vel etiam usus.
+          <lb ed="#C" n="38"/>Primum horum per se facile est; possessiones
+          <lb ed="#C" n="39"/>enim appellantur omnia bona immobilia 
+          cor<lb break="no" ed="#C" n="40"/>poralia, ut sunt domus, et quaecumque 
+          aedifi<lb break="no" ed="#C" n="41"/>cia, vineae, horti, et in universum agri, sive
+          <lb ed="#C" n="42"/>fructiferi sint, sive infructiferi ; haec enim 
+          om<lb break="no" ed="#C" n="43"/>nia tam in jure, quam in communi modo 
+          lo<lb break="no" ed="#C" n="44"/>quendi, nomine possessionum significantur.
+          <lb ed="#C" n="45"/>Oportet autem hic notare Concilium 
+          Tridenti<lb break="no" ed="#C" n="46"/>num, sess. 15, c. 3, de Regularibus, 
+          conces<lb break="no" ed="#C" n="47"/>sisse omnibus regularibus, Minoribus de 
+          Ob<lb break="no" ed="#C" n="48"/>servantia et Capuccinis exceptis, ut monasteria
+          <lb ed="#C" n="49"/>et domus eorum habere possent bona 
+          immo<lb break="no" ed="#C" n="50"/>bilia, etiamsi in Constitutionibus suis eis id sit
+          <lb ed="#C" n="51"/>prohibitum ; sub quo decreto vidcbatur 
+          Socie<lb break="no" ed="#C" n="52"/>tas etiam comprehensa. Quia vero Concilium
+          <lb ed="#C" n="53"/>non praecipit, sed concedit, ideo postea 
+          Socie<lb break="no" ed="#C" n="54"/>tas in secunda Congregatione generali, can.
+          <lb ed="#C" n="55"/>vigcsimo primo, cessit cuicumque juri, quod
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>ei posset ex hac concessione Concilii 
+          proveni<lb break="no" ed="#C" n="57"/>re, et ideo obligatio nunc integra perseverat,
+          <lb ed="#C" n="58"/>et post illud decretum Concilii confirmata est
+          <lb ed="#C" n="59"/>haec paupertas Societatis a Pio V et 
+          Grego<lb break="no" ed="#C" n="60"/>rio XIIF; ille enim, in Bulla Dum indefessm,
+          <lb ed="#C" n="61"/>declarat Societatem mendicantem existere,
+          <lb ed="#C" n="62"/>quippe qua (ait) ex ejus instituto et 
+          Constitu<lb break="no" ed="#C" n="63"/>tionibus Apostolica auctoritate confir natis 
+          Lo<lb break="no" ed="#C" n="64"/>na stabilia possidere neguit, sed iucertis 
+          eleemo<lb break="no" ed="#C" n="65"/>synis, fideliumque elargitionibus et 
+          subventio<lb break="no" ed="#C" n="66"/>nibus cicit. Gregorius vero, in Constitutione
+          <lb ed="#C" n="67"/>A scendente Domino, et hanec praedecessoris sui
+          <lb ed="#C" n="68"/>declarationem citat et probat, et deinceps 
+          to<lb break="no" ed="#C" n="69"/>tum institutum, ac expresse etiam quoad hanc
+          <lb ed="#C" n="70"/>partem confirmat.
+        </p>
+        <p xml:id="szovsr-r02364-d1e1318">
+          <lb ed="#C" n="71"/>12. Alterum punctum, quae possessiones 
+          pro<lb break="no" ed="#C" n="72"/>fessis permittantur.— Quam possessionem non
+          <lb ed="#C" n="73"/>sibi junctam possit habere domus professa. —
+          <lb ed="#C" n="74"/>De secundo autem puncto dicendum est, duas
+          <lb ed="#C" n="75"/>tantum vel tres possessiones posse habere 
+          con<lb break="no" ed="#C" n="76"/>ventum unum Societatis professae, scilicet 
+          do<lb break="no" ed="#C" n="77"/>mum ordinariam, in qua habitent religiosi ;
+          <lb ed="#C" n="78"/>Ecclesiam, in qua sacra ministeria exerceant,
+          <lb ed="#C" n="79"/>quae regulariter non reputatur possessio 
+          dis<lb break="no" ed="#C" n="80"/>Uncta, sed unum corpus eflicit cum ipsa domo,
+          <lb ed="#C" n="81"/>et cum eadem domo computatur hortus 
+          ali<lb break="no" ed="#C" n="82"/>quis ad quotidianum usum necessarium 
+          reli<lb break="no" ed="#C" n="83"/>giosorum ; nam hoc totum nomine monasterii
+          <lb ed="#C" n="84"/>aut domus comprehendi solet. Praeter haec
+          <lb ed="#C" n="85"/>vero habere potest separatam aliquam 
+          posses<lb break="no" ed="#C" n="86"/>sionem, ubi etiam domum cum agro vel cum
+          <lb ed="#C" n="87"/>horto habeat ad extraordinarium, necessarium
+          <lb ed="#C" n="88"/>tamen usum religiosorum, ad corporis vel
+          <lb ed="#C" n="89"/>spiritus levamen aliquod aut refrigerium; haec
+          <lb ed="#C" n="90"/>enim omnia sunt in praedictis Constitutionibus
+          <lb ed="#C" n="91"/>contenta. Quia vero quod ad Ecclesiam vel 
+          do<lb break="no" ed="#C" n="92"/>mum pertinet, declaratione non eget, ideo 
+          so<lb break="no" ed="#C" n="93"/>lum de possessione alia explicatur in sexta
+          <lb ed="#C" n="94"/>parte Constitutionum, cap. secundo, S 5, 
+          ta<lb break="no" ed="#C" n="95"/>lem esse debere, ut nec aliis locetur, nec 
+          fruc<lb break="no" ed="#C" n="96"/>lus, qui reddituum loco esse possint, babeat ; 
+          sci<lb break="no" ed="#C" n="97"/>licet (additur ibi in declaratione, lit. F) si oini
+          <lb ed="#C" n="98"/>vel olci, vel tritici proventum dicte possessiones
+          <lb ed="#C" n="99"/>fervent, cel si fructus et olera em hortis 
+          vendc<lb break="no" ed="#C" n="100"/>rentur, quorum nihil licebit ; quae verba 
+          de<lb break="no" ed="#C" n="101"/>sumpta videntur ex dict. Clement. Zaivi,
+          <lb ed="#C" n="102"/>Licet. Non repugnabit autem paupertati 
+          con<lb break="no" ed="#C" n="103"/>vertere in usum domus fructus aliquos, vel
+          <lb ed="#C" n="104"/>olera ex hujusmodi locis provenientia. Omnis
+          <lb ed="#C" n="105"/>autem alia utilitas ex illis prohibita est, ut 
+          eo<lb break="no" ed="#C" n="106"/>dem loco satis declaratur. Praeter has autem
+          <lb ed="#C" n="107"/>possessiones, nullas alias habere licet ; quia in
+          <lb ed="#C" n="108"/>hoc genere quidquid concessum non est, 
+          cen<lb break="no" ed="#C" n="109"/>setur prchibitum, ut argumentatur Pontifex
+          <lb ed="#C" n="110"/>in d. Clemcut. Zuivi, vors. Cumque annui ; et
+          <pb ed="#P" n="750"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>optime, nam hic prohibitio generalis est 
+          ra<lb break="no" ed="#C" n="2"/>tione talis voti, et ideo solum id est licitum,
+          <lb ed="#C" n="3"/>quod est concessum seu exceptum. Non ergo
+          <lb ed="#C" n="4"/>licebit Societati professee habere domum 
+          ali<lb break="no" ed="#C" n="5"/>quam, vel vineam, vel quippiam simile, quod
+          <lb ed="#C" n="6"/>ad praedictos usus moraliter necessarium non
+          <lb ed="#C" n="7"/>sit, etiamsi ex illis possessionibus non 
+          susten<lb break="no" ed="#C" n="8"/>tetur, sed fructus earum in eleemosynam 
+          ali<lb break="no" ed="#C" n="9"/>quam convertat, et sic de aliis. Vide 
+          Cordu<lb break="no" ed="#C" n="10"/>bam, in c. 6 sua regula, q. 10, punct. 2; el
+          <lb ed="#C" n="11"/>Serenam conscientiam, q. 10.
+        </p>
+        <p xml:id="szovsr-r02364-d1e1435">
+          <lb ed="#C" n="12"/>13. Tertium punctum, an prohibeatur sola
+          <lb ed="#C" n="13"/>proprietas, an etiam ususfructus. — Usus 
+          nu<lb break="no" ed="#C" n="14"/>dus nom prohibetur. — Administrare fructus
+          <lb ed="#C" n="15"/>vel redditus alicujus, paupertati repugnat. —
+          <lb ed="#C" n="16"/>Quoad tertium vero punctum, manifestum est
+          <lb ed="#C" n="17"/>imprimis maxime prohibitum esse dominium
+          <lb ed="#C" n="18"/>harum possessionum ; deinde certum est 
+          pro<lb break="no" ed="#C" n="19"/>hiberi usumfructum, etiam absque dominio;
+          <lb ed="#C" n="20"/>quia non minus hoc repuguat paupertati, imo
+          <lb ed="#C" n="21"/>quodammodo magis, quia indigentiee magis
+          <lb ed="#C" n="22"/>subvenitur usufructu quam proprietate. Item
+          <lb ed="#C" n="23"/>quia expresse in dictis Constitutionibus 
+          prohi<lb break="no" ed="#C" n="24"/>bentur proventus ; quae vox proprie significat
+          <lb ed="#C" n="25"/>fructus, seu commoditatem ususfructus. ltem
+          <lb ed="#C" n="26"/>prohibentur quicumque redditus, vei 
+          emolu<lb break="no" ed="#C" n="27"/>menta quarumcumque possessionum ; ergo
+          <lb ed="#C" n="28"/>multo magis ususfructus. Denique dicendum
+          <lb ed="#C" n="29"/>est, etiam usum talium possessionum (praeter
+          <lb ed="#C" n="30"/>supra dictas) esse prohibitum, quod sumo ex
+          <lb ed="#C" n="31"/>dict. Clem. Zaivi, ubi de Minoribus sic 
+          dici<lb break="no" ed="#C" n="32"/>tur: Possessiones, vel earum etiam usum (cum
+          <lb ed="#C" n="33"/>cis won reperiatur concessus) recipere, vel 
+          ha<lb break="no" ed="#C" n="34"/>bere (conditione considerata ipsorum) non licet.
+          <lb ed="#C" n="35"/>Quae verba, et ratio eorum in Societate 
+          pro<lb break="no" ed="#C" n="36"/>fessa locum habent. Intelligo autem per usum,
+          <lb ed="#C" n="37"/>jus utendi ; nam solus usus facti per se non
+          <lb ed="#C" n="38"/>repugnat voto paupertatis; et ideo, si 
+          domi<lb break="no" ed="#C" n="39"/>nus concederet Societati usum alicujus 
+          pos<lb break="no" ed="#C" n="40"/>sessionis ex mera liberalitate, nullum jus illi
+          <lb ed="#C" n="41"/>tribuendo, sed cum potestate libera respectu
+          <lb ed="#C" n="42"/>Societatis negandi illum usum, cum velit, 
+          ha<lb break="no" ed="#C" n="43"/>bere talem usum non esset contra 
+          pauperta<lb break="no" ed="#C" n="44"/>tem, quia ibi nulla est proprietas. nec jus 
+          pro<lb break="no" ed="#C" n="45"/>prium, et perinde est accipere usum domus,
+          <lb ed="#C" n="46"/>ac recipere usum equi, aut alterius rei 
+          cujus<lb break="no" ed="#C" n="47"/>cumque. Poterit ergo esse in hoc aliquis 
+          ex<lb break="no" ed="#C" n="48"/>cessus, si talis usus non esset adeo decens 
+          re<lb break="no" ed="#C" n="49"/>ligiosis , praesertim profitentibus solemnem
+          <lb ed="#C" n="50"/>paupertatem ; tamen in rigore non esset 
+          con<lb break="no" ed="#C" n="51"/>tra tale votum. Atque eodem modo 
+          accipien<lb break="no" ed="#C" n="52"/>dum est, quod de usufructu diximus; nam
+          <lb ed="#C" n="53"/>ususfructus proprie significat jus ad 
+          percipien<lb break="no" ed="#C" n="54"/>dos fructus. Si autem dominus possessionis 
+          li<lb break="no" ed="#C" n="55"/>beraliter tribueret fructus unius anni, accep-
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>tari possent, sicut aliae eleemosynae, imo et
+          <lb ed="#C" n="57"/>plures annos posset id facere, nullum jus 
+          con<lb break="no" ed="#C" n="58"/>ferendo Societati. Addo etiam quod, licet ille
+          <lb ed="#C" n="59"/>voto ad id se obligaret, votum esset validum,
+          <lb ed="#C" n="60"/>et Societas posset fructus recipere, cummodo
+          <lb ed="#C" n="61"/>votum intelligatur soli Deo factum, et ipsi
+          <lb ed="#C" n="62"/>nullum esse acquisitum jus, sicut supra, n. 9,
+          <lb ed="#C" n="63"/>dicebamus de obligatione haeredis ex 
+          testa<lb break="no" ed="#C" n="64"/>mento. Denique adverto, cavendum esse ne in
+          <lb ed="#C" n="65"/>Societate admittatur administratio seu 
+          dispo<lb break="no" ed="#C" n="66"/>sitio talium fructuum vel reddituum ; nam hoc
+          <lb ed="#C" n="67"/>repugnaret ejus paupertati, ut constat ex cap.
+          <lb ed="#C" n="68"/>secundo sextae partis Constitutionum, 83 et 6,
+          <lb ed="#C" n="69"/>et lit. B.
+        </p>
+        <p xml:id="szovsr-r02364-d1e1565">
+          <lb ed="#C" n="70"/>14. Dubium si domui professe possessio non
+          <lb ed="#C" n="71"/>necessaria legetur. — Quando paupertati 
+          sem<lb break="no" ed="#C" n="72"/>per repugnet legatum. — Opinio Antonini.—
+          <lb ed="#C" n="73"/>Opinio aliorum. — Sed quid si demui 
+          profes<lb break="no" ed="#C" n="74"/>sae possessio aliqua ad usum suum non 
+          neces<lb break="no" ed="#C" n="75"/>saria donetur, aut testamento relinquatur ?
+          <lb ed="#C" n="76"/>Respondeo, dupliciter posse id contingere. 
+          Pri<lb break="no" ed="#C" n="77"/>mo, ut legatum habeat adjunctam aliquam
+          <lb ed="#C" n="78"/>conditionem repugnantem paupertati , prout
+          <lb ed="#C" n="79"/>declarata est; ut, verbi gratia quod talis 
+          pos<lb break="no" ed="#C" n="80"/>sessio sub dominio vel usufructu Societatis
+          <lb ed="#C" n="81"/>semper conservetur, vel alia similis, et tunc
+          <lb ed="#C" n="82"/>clarum est non posse legatum cum tali 
+          con<lb break="no" ed="#C" n="83"/>ditione acceptari. Dubitant autem Doctores,
+          <lb ed="#C" n="84"/>an in illo casu legatum illud valeat, necne?
+          <lb ed="#C" n="85"/>Quidam enim censent esse validum, et 
+          condi<lb break="no" ed="#C" n="86"/>tionem utpote iniquam debere haberi pro non
+          <lb ed="#C" n="87"/>adjecta ; ita enet Antonin., 3 p., tit. decimo
+          <lb ed="#C" n="88"/>sexto, c. primo, S duodecimo, notab. 7, 
+          argu<lb break="no" ed="#C" n="89"/>mento c. Tua nobis, de Testamentis, et 
+          regu<lb break="no" ed="#C" n="90"/>lae 37 juris in 6, quod utile per inutile non 
+          vi<lb break="no" ed="#C" n="91"/>tiatur. Nihilominus hujusmodi legatum 
+          nul<lb break="no" ed="#C" n="92"/>lum simpliciter esse tenet glossa in dict. Clem.
+          <lb ed="#C" n="93"/>Huivi, verb. Proinde, circa finem, et ibi 
+          Car<lb break="no" ed="#C" n="94"/>dinal., numero undecimo; Bartolus, 1. 2 
+          Mi<lb break="no" ed="#C" n="95"/>noricarum, dict. 2, c. 1 et 2, quia ita expresse
+          <lb ed="#C" n="96"/>est declaratum a Nicolao III, in c. Zaiit, de
+          <lb ed="#C" n="97"/>Verborum signif., in 6. Notat autem Bartolus
+          <lb ed="#C" n="98"/>hoc esse speciale, ex declaratione Summi 
+          Pon<lb break="no" ed="#C" n="99"/>tificis, in odium lalis legati seu legantis, et in
+          <lb ed="#C" n="100"/>favorem paupertatis Minorum. Unde infert, si
+          <lb ed="#C" n="101"/>conditio adjecta legato ex alia ratione esset
+          <lb ed="#C" n="102"/>turpis vel impossibilis, non quia specialiter
+          <lb ed="#C" n="103"/>repugnet paupertati Minorum, sed religioni in
+          <lb ed="#C" n="104"/>gerere, etc., tunc rejecta conditione, retineri
+          <lb ed="#C" n="105"/>posse legatum; quia tunc non procedit illud
+          <lb ed="#C" n="106"/>jus speciale, et ita regulandum esse legatum
+          <lb ed="#C" n="107"/>per generale jus, quod habet, ut a legato 
+          sub<lb break="no" ed="#C" n="108"/>ducatur omnis impossibilitas, leg. Obtinuit, ff.
+          <lb ed="#C" n="109"/>de Conditionibus et demonstrationibus, et leg.
+          <lb ed="#C" n="110"/>Legatwn, ff. de Usufructu legato, et leg. Re-
+          <pb ed="#P" n="751"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>prehensa, de Istitutionibus et 
+          substitutioni<lb break="no" ed="#C" n="2"/>bus.
+        </p>
+        <p xml:id="szovsr-r02364-d1e1665">
+          <lb ed="#C" n="3"/>15. Auctoris judicium juxta opinionem 
+          An<lb break="no" ed="#C" n="4"/>tonini.—Ego vero hinc ulterius colligo, 
+          ca<lb break="no" ed="#C" n="5"/>sum hunc, de quo agimus, non videri 
+          deci<lb break="no" ed="#C" n="6"/>dendum respectu Societatis ex illo jure 
+          spe<lb break="no" ed="#C" n="7"/>ciali pro fratribus Minoribus declarato; quia,
+          <lb ed="#C" n="8"/>licet Societas professa in aliquo cum eis 
+          con<lb break="no" ed="#C" n="9"/>veniat in communi paupertate, non tamen in
+          <lb ed="#C" n="10"/>omnibus ; non est ergo necesse ad illam 
+          ex<lb break="no" ed="#C" n="11"/>tendere illud jus speciale, seu declarationem
+          <lb ed="#C" n="12"/>illam, quae per se non spectat ad substantiam
+          <lb ed="#C" n="13"/>paupertatis. Unde quantum ad Societatem
+          <lb ed="#C" n="14"/>probabilem censeo opinionem Antonini. Quia
+          <lb ed="#C" n="15"/>vero Societas non acquirit jus civile, non 
+          po<lb break="no" ed="#C" n="16"/>terit petere tale legatum; si autem haeres 
+          vo<lb break="no" ed="#C" n="17"/>luerit dare zestimationem ejus, vel ipsummet
+          <lb ed="#C" n="18"/>liberum et rejecta conditione tradere, licite 
+          ac<lb break="no" ed="#C" n="19"/>ceptari potest, quia nec voto, nec alicui juri
+          <lb ed="#C" n="20"/>Societatis repugnat. An vero haeres teneatur
+          <lb ed="#C" n="21"/>in conscientia hoc modo dare legatum 
+          Socie<lb break="no" ed="#C" n="22"/>tati, existimo in rigore non teneri, quia illi
+          <lb ed="#C" n="23"/>constat non fuisse talem voluntatem defuncti,
+          <lb ed="#C" n="24"/>et alioqui jura civilia, quae de hujusmodi 
+          lega<lb break="no" ed="#C" n="25"/>us disponunt, ibi non obligant, quia non 
+          ac<lb break="no" ed="#C" n="26"/>quiritur jus civile.
+        </p>
+        <p xml:id="szovsr-r02364-d1e1720">
+          <lb ed="#C" n="27"/>16. Quando legatum paupertati non repugnat,
+          <lb ed="#C" n="28"/>cería resolutio. — Secundo , potest hoc 
+          lega<lb break="no" ed="#C" n="29"/>tum relinqui, vel sub expressa conditione, ut
+          <lb ed="#C" n="30"/>convertatur in utilitatem Socictatis, co modo
+          <lb ed="#C" n="31"/>quo licite potuerit, vel simpliciter legando 
+          ta<lb break="no" ed="#C" n="32"/>lem rem, et nihil declarando, et hi duo modi
+          <lb ed="#C" n="33"/>eequiparantur in jure; quia quoties 
+          contra<lb break="no" ed="#C" n="34"/>rium non esxplicatur, intelligitur testator 
+          le<lb break="no" ed="#C" n="35"/>gare eo modo quo melius potest, ut in specie
+          <lb ed="#C" n="36"/>declaratur in dict. c. Eaiit, S Ad hec. In 
+          utro<lb break="no" ed="#C" n="37"/>que ergo casu validum est legatum, et a 
+          So<lb break="no" ed="#C" n="38"/>cietate acceptari potest, ad usum suae 
+          pauper<lb break="no" ed="#C" n="39"/>tati convenientem, ut declaratur in sexta 
+          par<lb break="no" ed="#C" n="40"/>te Constitutionum, c. 2, lit. E, ubi in genere
+          <lb ed="#C" n="41"/>dicitur : Quidquid stabile illi datum fuerit, 
+          te<lb break="no" ed="#C" n="42"/>neatur, eo quamprimun poterit, se exuere ac
+          <lb ed="#C" n="43"/>vendere, ut pauperibus Societatis, vel esternis,
+          <lb ed="#C" n="44"/>sua in penuria subveniatur ; quod ex natura
+          <lb ed="#C" n="45"/>rei est necessarium, supposito tali voto, et tali
+          <lb ed="#C" n="46"/>genere paupertatis. Et ita commune hoc esse
+          <lb ed="#C" n="47"/>omnibus mendicantibus, qui paupertatem in
+          <lb ed="#C" n="48"/>communi observant, dixit Antoninus, dict.
+          <lb ed="#C" n="49"/>not. 1; et Navarrus, in Comment. 2 de Hegul.
+          <lb ed="#C" n="50"/>Ad tollendos vero scrupulos additur in 
+          prae<lb break="no" ed="#C" n="51"/>dicta declarátione, lit. E, posse expectari 
+          tem<lb break="no" ed="#C" n="52"/>poris opportunitatem, ne forte necessarium sit
+          <lb ed="#C" n="53"/>vilius rem divendere, quam oporteat; facit
+          <lb ed="#C" n="54"/>etiam ad hoc, quod in decreto quinquagesimo
+          <lb ed="#C" n="55"/>primo Congregationis septimae fuit declaratum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

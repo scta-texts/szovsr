@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="613"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q15288"><!-- t10l2prae -->
+        <head xml:id="szovsr-q15288-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-q15288-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="21"/>LIBER SECUNDUS
+          <lb ed="#P" n="22"/>DE INGRESSU IN SOCIETATEM
+          <lb ed="#P" n="23"/>ET PROBATIONE TUM QUJE ILLUM ANTEGEDIT, ET QUAE SUBSEQUITUR.
+        </p>
+        <p xml:id="szovsr-q15288-d1e114">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="24"/>Explicato Societatis instituto, ut rationem
+          <lb ed="#P" n="25"/>omnium, quae in ipso sunt, distinctius 
+          trada<lb break="no" ed="#P" n="26"/>mus, necesse est ex illa generalitate ad 
+          parti<lb break="no" ed="#P" n="27"/>eularia descendere, quod faciemus servato illo
+          <lb ed="#P" n="28"/>ordine, quem in superioribus disputando de
+          <lb ed="#P" n="29"/>statu religioso in genere ténuimus ; quamvis,
+          <lb ed="#P" n="30"/>quia in Societate plures sunt personarum 
+          dif<lb break="no" ed="#P" n="31"/>ferentiae et gradus, quam in aliis religionibus,
+          <lb ed="#P" n="32"/>ut notatum est lib. 1, cap. 1, num. 3, et 
+          la<lb break="no" ed="#P" n="33"/>tius cap. 3, num. 12, ideo per illos omnes 
+          dis<lb break="no" ed="#P" n="34"/>currere necessarium erit. Incipimus ergo a
+          <lb ed="#P" n="35"/>primo ingressu, de quo ante omnia 
+          supponen<lb break="no" ed="#P" n="36"/>da sunt, quae in communi de ingressu 
+          religio<lb break="no" ed="#P" n="37"/>nis in tomo superiori sunt dicta ; nam in illis
+          <lb ed="#P" n="38"/>fere convenit Societas cum aliis religionibus,
+          <lb ed="#P" n="39"/>praeter quaedam specialia, quae ex proprio 
+          insti<lb break="no" ed="#P" n="40"/>tuto illi conveniunt, ex quibus quaedam dici
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="41"/>possunt substantialia, id est, nccessaria ad 
+          va<lb break="no" ed="#P" n="42"/>lorem ingressus, quaedam vero accidentaria,
+          <lb ed="#P" n="43"/>quia nimirum servari debent ut receptio recte
+          <lb ed="#P" n="44"/>fiat, quamvis si omittantur valida sit, et 
+          utra<lb break="no" ed="#P" n="45"/>que sunt a nohbis explicanda.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

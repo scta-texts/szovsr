@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1148"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r12394"><!-- t10l11prae -->
+        <head xml:id="szovsr-r12394-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-r12394-d1e103">
+          <cb ed="#V" n="d"/>
+          <lb ed="#C" n="11"/>LIBER UNDECIMUS
+          <lb ed="#C" n="12"/>DE IIS QUI
+          <lb ed="#C" n="13"/>RELIGIOSUM STATUM
+          <lb ed="#C" n="14"/>A SOCTETATE MUTANT.
+        </p>
+        <p xml:id="szovsr-r12394-d1e116">
+          <cb ed="#V" n="e"/>
+          <lb ed="#C" n="15"/>Varii modi hujus mutationis alio 
+          remittun<lb break="no" ed="#C" n="16"/>tur. — Que mutatio hoc in libro tractanda.
+          <lb ed="#C" n="17"/>— Duplex mnutatio status religiosi potest in
+          <lb ed="#C" n="18"/>Societate contingere : unus est, quando 
+          perso<lb break="no" ed="#C" n="19"/>na ita mutatur, ut ex religioso fiat non 
+          reli<lb break="no" ed="#C" n="20"/>giosus ; alter est, quando perseverante 
+          religio<lb break="no" ed="#C" n="21"/>so statu mutatur vivendi modus. Hic posterior
+          <lb ed="#C" n="22"/>modus communis est Sccietati cum aliis 
+          reli<lb break="no" ed="#C" n="23"/>gionibus. Prior vero est proprius ejus, 
+          locum<lb break="no" ed="#C" n="24"/>que habet, non in religiosis professis, sed in
+          <lb ed="#C" n="25"/>caeteris gradibus, qui per vota simplicia 
+          con<lb break="no" ed="#C" n="26"/>stituuntur, ut supra, lib. 3, cap. 9, visum est.
+          <lb ed="#C" n="27"/>De priori ergo modo mutationis nihil nobis
+          <lb ed="#C" n="28"/>superest dicendum, quia in superioribus satis
+          <lb ed="#C" n="29"/>ex positae sunt causae ob quas in Societate haec
+          <lb ed="#C" n="30"/>libertas et facultas retinetur, et quomodo, et
+          <lb ed="#C" n="31"/>quo ordine, et quibaus ex causis illa utendum
+          <lb ed="#C" n="32"/>est, et quem effectum habeat circa personam
+          <lb ed="#C" n="33"/>ejectam, nam relinquit illam liberam 
+          religic<lb break="no" ed="#C" n="34"/>nis vinculo, et votis. Quare nihil etiam 
+          dicen<lb break="no" ed="#C" n="35"/>dum superest de obligationibus talis personae,
+          <lb ed="#C" n="36"/>post factam mutationem , quia cum religiosa
+          <cb ed="#V" n="f"/>
+          <lb ed="#C" n="37"/>non sit, nullas obligationes habet quae ad 
+          prae<lb break="no" ed="#C" n="38"/>sentem considerationem pertineant, per se
+          <lb ed="#C" n="39"/>loquendo ; per accidens vero habere poterit,
+          <lb ed="#C" n="40"/>quia si forte ante ingressum in Societate voto
+          <lb ed="#C" n="41"/>aliquo tenebatur, id plane post dimissionem
+          <lb ed="#C" n="42"/>reviviscet, nisi ejus materia jam eessaverit,
+          <lb ed="#C" n="43"/>aut lapsu temporis transierit obligatio ; qua
+          <lb ed="#C" n="44"/>de re extat decretum 132 primae 
+          Congregatio<lb break="no" ed="#C" n="45"/>nis generalis, et canon 22 ejusdem. An vero
+          <lb ed="#C" n="46"/>maneat tutus in conscientia, qui dedita opera
+          <lb ed="#C" n="47"/>male vixit, ut liber dimitteretur, in 
+          superio<lb break="no" ed="#C" n="48"/>ribus, libro 3, etiam declaratum est. 
+          Quapro<lb break="no" ed="#C" n="49"/>pter de his qui de Societate dimittuntur, nihil
+          <lb ed="#C" n="50"/>nobis dicendum superest. Alter modus 
+          muta<lb break="no" ed="#C" n="51"/>tionis varios habet modos et gradus, de 
+          qui<lb break="no" ed="#C" n="52"/>bus satis diximus supra, in tract. 8, libro 3, ex
+          <lb ed="#C" n="53"/>quibus multi vel nihil habent speciale in 
+          So<lb break="no" ed="#C" n="54"/>cietate, vel in ea locum non habent. Unus
+          <lb ed="#C" n="55"/>modus est involuntarius et injuriosus 
+          religio<lb break="no" ed="#C" n="56"/>ni, sciiicet per fugam vel apostasiam religiosi;
+          <lb ed="#C" n="57"/>et de hoc videnda sunt dicta in citato loco de
+          <lb ed="#C" n="58"/>religione in communi, quia si quid in hoc ha-
+          <pb ed="#P" n="1149"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>bet proprium Societas, ibi declaratum est, et
+          <lb ed="#C" n="2"/>in superioribus etiam est dictum hunc modum
+          <lb ed="#C" n="3"/>habere locum in omnibus gradibus Societatis,
+          <lb ed="#C" n="4"/>etiam in his qui votis simplicibus incorporati
+          <lb ed="#C" n="5"/>sunt, et easdem poenas incurrere, etc. Alia
+          <lb ed="#C" n="6"/>mutatio est, vel ad Episcopatum, vel ad 
+          bene<lb break="no" ed="#C" n="7"/>ficium seculare, vel ad habitationem 
+          perpe<lb break="no" ed="#C" n="8"/>tuam extra obedientiam religionis; et hae
+          <lb ed="#C" n="9"/>mutationes non habent locum in Societate 
+          se<lb break="no" ed="#C" n="10"/>cundum regulam ejus ; unde vel nunquam,
+          <lb ed="#C" n="11"/>vel rarissime fiunt; si autem ex speciali 
+          dis<lb break="no" ed="#C" n="12"/>pensatione fiant, sequuntur naturam religiosi
+          <lb ed="#C" n="13"/>status, juxta dicta in superioribus. Idemque
+          <lb ed="#C" n="14"/>fere est de mutatione per transitum ad alias
+          <lb ed="#C" n="15"/>rcligiones ; et si quid habet speciale, supra in
+          <lb ed="#C" n="16"/>communi doctrina tactum est , et ex dicendis
+          <lb ed="#C" n="17"/>hic accipi poterit; quare in his mutationibus
+          <lb ed="#C" n="18"/>immorari non est necesse. Est ergo alia 
+          mu<lb break="no" ed="#C" n="19"/>tatio per dimissionem seu ejectionem ab ipsa
+          <lb ed="#C" n="20"/>religione, per potestatem seu jurisdictionem
+          <lb ed="#C" n="21"/>ejus, quae solum contingit in professis, nam
+          <lb ed="#C" n="22"/>alii solent liberi dimitti, ut dictum est. Si 
+          au<lb break="no" ed="#C" n="23"/>tem aliquando dimittantur ligati, eamdem
+          <lb ed="#C" n="24"/>proportionem servabunt ; et ideo de sola 
+          di<lb break="no" ed="#C" n="25"/>missione professorum superest nobis 
+          dicen<lb break="no" ed="#C" n="26"/>dum , et poterit res paucis expediri; quia,
+          <lb ed="#C" n="27"/>praeter ea, quae communia sunt religioso 
+          sta<lb break="no" ed="#C" n="28"/>tui, quae hic repetenda non sunt, pauca sunt
+          <lb ed="#C" n="29"/>specialia puncta , quae aliqua declaratione 
+          in<lb break="no" ed="#C" n="30"/>digeant.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

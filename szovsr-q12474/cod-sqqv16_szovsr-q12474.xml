@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="498"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q12474"><!-- t9l2prae -->
+        <head xml:id="szovsr-q12474-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-q12474-d1e103">
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="33"/>LIBER SECUNDDUS
+          <lb ed="#P" n="34"/>DE VARIETATE RELIGIONUM
+          <lb ed="#P" n="35"/>IN SPECIE.
+        </p>
+        <p xml:id="szovsr-q12474-d1e114">
+          <cb ed="#P" n="d"/>
+          <lb ed="#P" n="36"/>Tria principalia genera religiosorum ex
+          <lb ed="#P" n="37"/>praecedenti libro sumimus, monachor um, 
+          cle<lb break="no" ed="#P" n="38"/>ricorum, et fratrum mendicantium ; quamvis
+          <lb ed="#P" n="39"/>enim hi vulgari modo loquendi sub nomine
+          <lb ed="#P" n="40"/>monachorum venire soleant, proprie tamen
+          <lb ed="#P" n="41"/>diversum gradum consttuunt, quasi medium
+          <lb ed="#P" n="42"/>inter duos praedictos, ut satis explicatum est,
+          <lb ed="#P" n="43"/>et communi ctiam usu monachales ordines,
+          <lb ed="#P" n="44"/>stricte sumpti, solent a mendicantibus 
+          distin<lb break="no" ed="#P" n="45"/>gui. Sub unoquoque ergo horum generum
+          <cb ed="#P" n="e"/>
+          <lb ed="#P" n="46"/>sunt varia species, de quibus omnibus exacte
+          <lb ed="#P" n="47"/>dicere infinitum esset opus, et a meo instituto
+          <lb ed="#P" n="48"/>alienum; non possumus autem omnino eas
+          <lb ed="#P" n="49"/>praetermittere, ut distincta hujus status 
+          co<lb break="no" ed="#P" n="50"/>gnitio habeatur. Dicam ergo de praecipuis
+          <lb ed="#P" n="51"/>specicbus singulorum generum, et in singulis
+          <lb ed="#P" n="52"/>quatuor puncta praecipua atiingam. Primo,
+          <lb ed="#P" n="53"/>institutionem et originem seu auctorem et
+          <lb ed="#P" n="54"/>approbationem religionis. Secundo, finom
+          <lb ed="#P" n="55"/>ejus proprium, et ab alis relgionibus dis-
+          <pb ed="#P" n="499"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tinctum. Tertio, media et observantias 
+          pro<lb break="no" ed="#P" n="2"/>prias, quibus et ad suum finem 
+          consequen<lb break="no" ed="#P" n="3"/>dum utitur, et ab aliis religionibus 
+          distingui<lb break="no" ed="#P" n="4"/>tur. Quarto, de ettectibus et de illustrioribus
+          <lb ed="#P" n="5"/>personis nonnihi! attingam, vel potius quia
+          <lb ed="#P" n="6"/>hoc magis historicum est quam doctrinale,
+          <lb ed="#P" n="7"/>auctores apud quos inveniri poterunt, 
+          indica<lb break="no" ed="#P" n="8"/>bo. Quia vero de religione Societatis Jesu,
+          <lb ed="#P" n="9"/>propter quam maxime tractandam totum opus
+          <lb ed="#P" n="10"/>de religione aggressus fui, aliquanto fusius
+          <lb ed="#P" n="11"/>scripsi , ideo in sequentem tractatum eam
+          <lb ed="#P" n="12"/>doctrinam seposui.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

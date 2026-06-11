@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 9</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 9</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="480"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q12033"><!-- t9l1c9 -->
+        <head xml:id="szovsr-q12033-Hd1e101">Caput 9</head>
+        <head xml:id="szovsr-q12033-Hd1e103" type="question-title">Quot sint ordines clericorum regularium.</head>
+        <p xml:id="szovsr-q12033-d1e106">
+          <lb ed="#P" n="47"/>CAPUT IX.
+          <lb ed="#P" n="48"/>QUOT SINT ORDINES CLERICORUM REGULARIUM.
+        </p>
+        <p xml:id="szovsr-q12033-d1e113">
+          <lb ed="#P" n="49"/>1. Divisio in regulares simpliciter, et 
+          secun<lb break="no" ed="#P" n="50"/>dum quid. — Clericos etiam tempore Augustini
+          <lb ed="#P" n="51"/>cideri religiosos secundum quid.—Primum 
+          di<lb break="no" ed="#P" n="52"/>vicere possumus statum clericorum regula-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="53"/>rium, in eum qui simpliciter religiosus est, vel
+          <lb ed="#P" n="54"/>tantum secundum quid. Non desunt enim,
+          <lb ed="#P" n="55"/>qui existimant clericos illos, qui in principio
+          <lb ed="#P" n="56"/>Ecclesiae, etiam usque ad tempora Augustini,
+          <lb ed="#P" n="57"/>vitam communem agebant cum Episcopis in
+          <lb ed="#P" n="58"/>icclesiis cathedralibus , solam paupertatem
+          <lb ed="#P" n="59"/>observasse ; alia tamen vota non emisisse, ct
+          <lb ed="#P" n="60"/>ideo non simpliciter, sed secundum quid 
+          reli<lb break="no" ed="#P" n="61"/>giosos fuisse ; nam D. Augustinus, in duobus
+          <lb ed="#P" n="62"/>sermonibus de vita communi clericorum; ct
+          <lb ed="#P" n="63"/>Concilium Aquisgranense, sub Ludovieo , e.
+          <lb ed="#P" n="64"/>112 et 113, ubi iidem sermones referuntur ,
+          <lb ed="#P" n="65"/>tantum hanc conditionem vitae communis,
+          <lb ed="#P" n="66"/>quoad paupertatem clericis cum Augustino in
+          <lb ed="#P" n="67"/>monasterio viventibus servandam proponit.
+          <lb ed="#P" n="68"/>Deinde nihil aliud a suis clericis Augustinus
+          <lb ed="#P" n="69"/>exigit, nisi quod imitentur vitam quam 
+          fide<lb break="no" ed="#P" n="70"/>les, Apostolorum tempore, observabant, ut
+          <lb ed="#P" n="71"/>Act. 4et 5 referiur. Constat autem non 
+          om<lb break="no" ed="#P" n="72"/>nes, qui in communi tunc vivebant, fuisse 
+          rc<lb break="no" ed="#P" n="73"/>ligiosos, nam etiam conjugati, vel onnes, vel
+          <lb ed="#P" n="74"/>plures, vitam illam communem profitebantur,
+          <lb ed="#P" n="75"/>ut ex generali narratione, et ex speciali facto
+          <lb ed="#P" n="76"/>Ananiae et Saphirae colligimus.
+        </p>
+        <p xml:id="szovsr-q12033-d1e178">
+          <lb ed="#P" n="77"/>2. Verumtamen, licet non repuguet hoc 
+          gc<lb break="no" ed="#P" n="78"/>nus vitae in congregatione tam laicorum quam
+          <lb ed="#P" n="79"/>clericorum servari, tamen quod aliquando
+          <lb ed="#P" n="80"/>fuerit, et praesertim sub Augusiini institutione,
+          <lb ed="#P" n="81"/>nec constat, nec verisimile est. Quod patet ex
+          <lb ed="#P" n="82"/>doctrina D. Thomse, et juribus, c. 7 adductis,
+          <lb ed="#P" n="83"/>et ex c. Praeter, 32 dist., ubi clerici 
+          commu<lb break="no" ed="#P" n="84"/>niter viventes religiosi clerici appellantur, et
+          <lb ed="#P" n="85"/>c. Prasens, 20, q. 3, in fine, ibi: Non 
+          puta<lb break="no" ed="#P" n="86"/>mus Canonicos religiosos (id est regulares, ut
+          <lb ed="#P" n="87"/>Gloss. exponit) a sanctorum monachorwmn veta
+          <lb ed="#P" n="88"/>et consortio sejunctos ; id est, alienos a vero
+          <lb ed="#P" n="89"/>religionis statu. Praeterea, quia licet in dietis
+          <lb ed="#P" n="90"/>sermonibus Augustinus solam paupertatem
+          <lb ed="#P" n="91"/>commendet, et proprietatem reprehendat, non
+          <lb ed="#P" n="92"/>tamen alia vota excludit. Quin potius eorum
+          <lb ed="#P" n="93"/>integram observantiam supponere videtur, ci
+          <lb ed="#P" n="94"/>quia in paupertate gravis lapsus contigerat ,
+          <lb ed="#P" n="95"/>pro ea pugnat ; ibi enim non tradit regulam
+          <lb ed="#P" n="96"/>aut institutionem integram, sed concionatur,
+          <lb ed="#P" n="97"/>et solam materiam paupertatis 
+          commendan<lb break="no" ed="#P" n="98"/>dam, et proprietatem propulsandam, veluti in
+          <lb ed="#P" n="99"/>argumentum illorum sermonum assumpsit.
+          <lb ed="#P" n="100"/>In eisdem tamen domum suam Monasterium
+          <lb ed="#P" n="101"/>clericormn vocat, eosque suae regulae 
+          observan<lb break="no" ed="#P" n="102"/>dae obligatos fuisse supponit. Quare verisimilc
+          <lb ed="#P" n="103"/>non cst, eos clericos non multo magis 
+          conti<lb break="no" ed="#P" n="104"/>nentiam ex voto observasse, quam ipse 
+          Augus<lb break="no" ed="#P" n="105"/>tinus tanta circumspectione servarit, ut nec
+          <lb ed="#P" n="106"/>sororem secum habere permitteret, dicehat
+          <lb ed="#P" n="107"/>enim : Qua enim cum sorore mea sunt, sorores
+          <pb ed="#P" n="481"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>uest noi sunt, ut Possidonius, c. 26, in ejus
+          <lb ed="#P" n="2"/>vita refert; unde in c. 11, ait in monasterio
+          <lb ed="#P" n="3"/>Augustini servos Dei servasse propositum 
+          con<lb break="no" ed="#P" n="4"/>tinentue cum paupertate profunda. Ex quibus
+          <lb ed="#P" n="5"/>Beatus Augustinus, ab aliis Ecclesiis rogatus,
+          <lb ed="#P" n="6"/>decem venerabiles viros continentes et 
+          doctis<lb break="no" ed="#P" n="7"/>simos dedit. Unde etiam constat, illius 
+          obe<lb break="no" ed="#P" n="8"/>dientiae specialiter subjectos fuisse, quod etiam,
+          <lb ed="#P" n="9"/>supposita communi et continenti vita in 
+          ea<lb break="no" ed="#P" n="10"/>dem congregatione, per se evidens est, quia 
+          si<lb break="no" ed="#P" n="11"/>ne obedientia subsisterc non possit. Et ob hanc
+          <lb ed="#P" n="12"/>rationem existimo hoc genus vitae 
+          semiregu<lb break="no" ed="#P" n="13"/>laris (ut sic dicam) non posse habere locum in
+          <lb ed="#P" n="14"/>congregatione clericorum, si paupertatem 
+          ob<lb break="no" ed="#P" n="15"/>servet, nam multo magis in eis postulatur
+          <lb ed="#P" n="16"/>castitas, vel eo ipso quod clerici sunt; 
+          obe<lb break="no" ed="#P" n="17"/>dientia vero saltem ex eo quod in 
+          congrega<lb break="no" ed="#P" n="18"/>tione, seu in communitate vivere 
+          supponun<lb break="no" ed="#P" n="19"/>tur; unde facilius posset cogitari hic 
+          imperfec<lb break="no" ed="#P" n="20"/>tus status ex defectu paupertatis , si 
+          congre<lb break="no" ed="#P" n="21"/>gatio aliqua clericorum castitatem et 
+          obedien<lb break="no" ed="#P" n="22"/>tiam servaret, proprium vero non omnino 
+          ab<lb break="no" ed="#P" n="23"/>jiceret ; nullam tamen nobis constat 
+          hujusmo<lb break="no" ed="#P" n="24"/>di esse, vel aliquando fuisse.
+        </p>
+        <p xml:id="szovsr-q12033-d1e305">
+          <lb ed="#P" n="25"/>3. Duplex alter modus clericorum secundumn
+          <lb ed="#P" n="26"/>quid religiosorum. — Primus modus. — Ex
+          <lb ed="#P" n="27"/>alio vero capite contingere potest, ut 
+          congre<lb break="no" ed="#P" n="28"/>gatio aliqua clericorum regulariter viventium
+          <lb ed="#P" n="29"/>propria religio non sit, scilicet ex defectu 
+          vo<lb break="no" ed="#P" n="30"/>torum, quia, nimirum, vel non emittuntur,
+          <lb ed="#P" n="31"/>sed solum ex quadam societate vel 
+          conven<lb break="no" ed="#P" n="32"/>tione humana, aut statutis ab ea 
+          provenien<lb break="no" ed="#P" n="33"/>tibus servantur ea, quae a religiosis ex voto
+          <lb ed="#P" n="34"/>servari solent; vel, si fiunt vota, non includunt
+          <lb ed="#P" n="35"/>obligationem ad permanendum in tali statu,
+          <lb ed="#P" n="36"/>sed supponunt potius libertatem relinquendi 
+          il<lb break="no" ed="#P" n="37"/>lum, solumque obligant sub conditione, 
+          quam<lb break="no" ed="#P" n="38"/>diu ibi perseverare libuerit. Prioris modi 
+          di<lb break="no" ed="#P" n="39"/>cuntur esse nonnulla congregationes in Italia,
+          <lb ed="#P" n="40"/>praesertim Romae, quae religiosos habent 
+          vi<lb break="no" ed="#P" n="41"/>vendi modos, et perfectos atque illustres 
+          vi<lb break="no" ed="#P" n="42"/>ros ex se producunt, ad praesentem autem
+          <lb ed="#P" n="43"/>tractatum non spectant, quia proprie 
+          religio<lb break="no" ed="#P" n="44"/>nes non sunt.
+        </p>
+        <p xml:id="szovsr-q12033-d1e351">
+          <lb ed="#P" n="45"/>4. Secundus modus.—bPosterioris modi 
+          cen<lb break="no" ed="#P" n="46"/>setur esse congregatio sancti Georgii in Alga,
+          <lb ed="#P" n="47"/>quae initium Venetiis habuit, et ab Eugenio IV
+          <lb ed="#P" n="48"/>instituta dicitur, sed ab eo potius illustrata
+          <lb ed="#P" n="49"/>fuit, jam enim a Gregorio XII fuerat 
+          confir<lb break="no" ed="#P" n="50"/>matus ille vivendi modus, quem Laurentius
+          <lb ed="#P" n="51"/>Justinianus eo jam tempore vita et doctrina
+          <lb ed="#P" n="52"/>multum commendaverat. Pius autem V, suo
+          <lb ed="#P" n="53"/>Motu proprio 75, Zubricum vite genus, 
+          hu<lb break="no" ed="#P" n="54"/>jusmodi congregationibus, et nominatim huic
+          <lb ed="#P" n="55"/>sancti Georgii praecepit, aut solemnuia vota
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>sub aliqua regula approbata emittere, aut 
+          ta<lb break="no" ed="#P" n="57"/>lem vivendi modum dimittere. Adhuc tamen
+          <lb ed="#P" n="58"/>extat iu Lusitania congregatio religiosa, sub
+          <lb ed="#P" n="59"/>appellatione S. Joannis Evangelistae, qua
+          <lb ed="#P" n="60"/>eumdem vitae modum absque votis 
+          solemni<lb break="no" ed="#P" n="61"/>bus retinet. Hujusmodi autem clerici in rigorc
+          <lb ed="#P" n="62"/>regulares non sunt, et ita in ipsis bullis 
+          Pon<lb break="no" ed="#P" n="63"/>tificalibus in quibus varia privilegia eis 
+          concc<lb break="no" ed="#P" n="64"/>duntur, Canonici seculares appellantur. 
+          Ma<lb break="no" ed="#P" n="65"/>gis autem ad religionem accedunt, quam qui
+          <lb ed="#P" n="66"/>nulla vota emittunt ; nam, quamdiu in tali
+          <lb ed="#P" n="67"/>congregatione perseverant, suntque membra
+          <lb ed="#P" n="68"/>ejus, obedientiam, paupertatem, etc., ex voto
+          <lb ed="#P" n="69"/>servare tenentur. Unde pro tunc, quoad 
+          co<lb break="no" ed="#P" n="70"/>rum obligationes de illis judicandum est, 
+          ea<lb break="no" ed="#P" n="71"/>dem proportione qua de caeteris religiosis. An
+          <lb ed="#P" n="72"/>vero hic modus libertatis in hujusmodi 
+          com<lb break="no" ed="#P" n="73"/>munitatibus seu congregationibus expediat,
+          <lb ed="#P" n="74"/>ad nos judicare non pertinet; certum tamen
+          <lb ed="#P" n="75"/>est, id ex se malum non esse, esto non sit
+          <lb ed="#P" n="76"/>maxime perfectum ex parte personarum, se
+          <lb ed="#P" n="77"/>offerentium Deo (negare enim non possumus
+          <lb ed="#P" n="78"/>quin vinculum perpetuum saltem ex parte 
+          vo<lb break="no" ed="#P" n="79"/>ventis perfectius sit, tum ad constituendum
+          <lb ed="#P" n="80"/>statum, tum ad consecandam personam Deo).
+          <lb ed="#P" n="81"/>Nihilominus ille etiam modus vivendi et 
+          vo<lb break="no" ed="#P" n="82"/>vendi non solum honestus est, sed etiam ad
+          <lb ed="#P" n="83"/>perfectionem assequendam potest esse valde
+          <lb ed="#P" n="84"/>utilis, et sua peculiaria commoda liberius 
+          ser<lb break="no" ed="#P" n="85"/>viendi Deo, et majori voluntate sustinendi et
+          <lb ed="#P" n="86"/>superandi diftieultates, quae in perseverantia
+          <lb ed="#P" n="87"/>vitae religiosae occurrunt, habere potest. 
+          De<lb break="no" ed="#P" n="88"/>nique ad Ecclesiae spendorem, et 
+          pulchritudi<lb break="no" ed="#P" n="89"/>nem ac perfectionem pertinet tota haec 
+          varie<lb break="no" ed="#P" n="90"/>tas, non solum in religionibus, sed etiam in
+          <lb ed="#P" n="91"/>modis vivendi religiosis, qui ad perfectionem
+          <lb ed="#P" n="92"/>juvant; non est enim minor, sed multo major
+          <lb ed="#P" n="93"/>varietas in hominum ingeniis seu 
+          propensio<lb break="no" ed="#P" n="94"/>nibus, et ad suavitatem divinae providentiac
+          <lb ed="#P" n="95"/>pertinet omnes congruenter vocare, quos vult
+          <lb ed="#P" n="96"/>ad perfectionem aliquo modo perducerc.
+        </p>
+        <p xml:id="szovsr-q12033-d1e468">
+          <lb ed="#P" n="97"/>5. Secunda divisio in Canonicos regulares,
+          <lb ed="#P" n="98"/>et presbyteros simpliciter. — Praeterea 
+          clerico<lb break="no" ed="#P" n="99"/>rum religio vera ac propria, tribusquc 
+          sub<lb break="no" ed="#P" n="100"/>stantialibus votis de se perpetuis firmata, 
+          di<lb break="no" ed="#P" n="101"/>vidi potest inreligionem Canonicorum, et 
+          pres<lb break="no" ed="#P" n="102"/>byterorum simplicium, ut sic dicam. Haec 
+          di<lb break="no" ed="#P" n="103"/>visio constat ex usu Ecclesiae. Est enim 
+          cele<lb break="no" ed="#P" n="104"/>bris et antiquissima religio Canonicorum 
+          regu<lb break="no" ed="#P" n="105"/>larium, de qua an sit una vel multiplex, 
+          pos<lb break="no" ed="#P" n="106"/>tea videbimus ; certum est autem esse 
+          religio<lb break="no" ed="#P" n="107"/>nem clericorum et presbyterorum ; tamen dum
+          <lb ed="#P" n="108"/>specialiter Canonici appellantur, aliquo modo
+          <lb ed="#P" n="109"/>dignitatis vel cxceilentiae nomen participarc
+          <lb ed="#P" n="110"/>videntur, et iu co distingui a clericis regula
+          <pb ed="#P" n="482"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>ribus, qui Canonici regulares nec sunt, nec
+          <lb ed="#P" n="2"/>appellantur. Nam, quod sint plures hujusmodi,
+          <lb ed="#P" n="3"/>constat sufficienter exemplo Societatis Jesu,
+          <lb ed="#P" n="4"/>quae est religio clericorum et presbyterorum,
+          <lb ed="#P" n="5"/>ut loquuntur Pontifices, et Concilium 
+          Triden<lb break="no" ed="#P" n="6"/>tinum, infraque ostendemus in tractatu 
+          se<lb break="no" ed="#P" n="7"/>quenti ; et tamen Canonici regulares dici non
+          <lb ed="#P" n="8"/>possunt, talis enim appellatio neque in jurc,
+          <lb ed="#P" n="9"/>neque in usu habet fundamentum , et ideo
+          <lb ed="#P" n="10"/>credendum est, neque in ro ipsa, vel iu 
+          condi<lb break="no" ed="#P" n="11"/>tionibus talis religionis illud habere. Idemque
+          <lb ed="#P" n="12"/>est de aliis (quas infra commemorabimus) 
+          re<lb break="no" ed="#P" n="13"/>ligionibus clericorum, quos nunc simplices
+          <lb ed="#P" n="14"/>appellamus, ut a Canonicis regularibus eos
+          <lb ed="#P" n="15"/>distinguamus.
+        </p>
+        <p xml:id="szovsr-q12033-d1e538">
+          <lb ed="#P" n="16"/>6. Quid nomine Canonici veniat.— Non est
+          <lb ed="#P" n="17"/>autem facile diversitatem hanc deciarare;
+          <lb ed="#P" n="18"/>nam, si primam originem et usum hupus 
+          vo<lb break="no" ed="#P" n="19"/>cis Canonicus, spectemus, nihil aliud in 
+          prin<lb break="no" ed="#P" n="20"/>cipio significasse videtur, quam clericum sub
+          <lb ed="#P" n="21"/>regula viventem, et communem vitam, 
+          Apos<lb break="no" ed="#P" n="22"/>tolorum more, cum aliis in ecclesiastico 
+          colle<lb break="no" ed="#P" n="23"/>gio observantem, ut notavit Covarr., in 
+          Cle<lb break="no" ed="#P" n="24"/>ment. Sifuriosus, p. 1, in rincipio; et Navar.,
+          <lb ed="#P" n="25"/>Comment. 3, de Regul., n. 2 et 3. Nam canon
+          <lb ed="#P" n="26"/>graece regulam significat, unde Canonicus 
+          dic<lb break="no" ed="#P" n="27"/>tus est clericus regularem vitam sequens. Cum
+          <lb ed="#P" n="28"/>enim in principio Eecclesiae, vel omnes fideles,
+          <lb ed="#P" n="29"/>vel saltem omnes clerici communem vitam
+          <lb ed="#P" n="30"/>profiterentur, suecessu temporis multi etiam
+          <lb ed="#P" n="31"/>clericorum, relicta vita communi, coeperunt
+          <lb ed="#P" n="32"/>privatim vivere, et proprium habere; qui 
+          au<lb break="no" ed="#P" n="33"/>tem priorem statum retinuerunt, ut a 
+          com<lb break="no" ed="#P" n="34"/>muni clericcrum turba distinguerentur, 
+          Cano<lb break="no" ed="#P" n="35"/>nici dicti sunt. Ac verisimile est illos fuisse ab
+          <lb ed="#P" n="36"/>Episcopis proxime apud se retentos, et ad 
+          prin<lb break="no" ed="#P" n="37"/>cipalia ministeria et consilia ecclesiastica fuisse
+          <lb ed="#P" n="38"/>assumptos, ac subinde in communibus 
+          clerico<lb break="no" ed="#P" n="39"/>rum consessibus digniora loca habuisse. 
+          Pos<lb break="no" ed="#P" n="40"/>tea vero ipsi etiam Canonici vitam illam 
+          com<lb break="no" ed="#P" n="41"/>munem relinquere coeperunt, et proprias 
+          ca<lb break="no" ed="#P" n="42"/>nonias et praebendas inter se dividcre, 
+          Cano<lb break="no" ed="#P" n="43"/>nicorum nihilominus retento nomine ; et idco
+          <lb ed="#P" n="44"/>illi Canonici, qui in religiosa et communi vita
+          <lb ed="#P" n="45"/>permanserunt, Canoniei regulares dicti sunt,
+          <lb ed="#P" n="46"/>non propter ambiücnem el ignorantiam, ut
+          <lb ed="#P" n="47"/>calumniatus est Ludovicus Vives, sed propter
+          <lb ed="#P" n="48"/>necessitatem determinandi ambiguitatem 
+          vo<lb break="no" ed="#P" n="49"/>cis Canonicus, in qua non unde imposita sit,
+          <lb ed="#P" n="50"/>sed ad quid tandem significandum sit 
+          trans<lb break="no" ed="#P" n="51"/>lata, oportet expendere ; jam enim absolute
+          <lb ed="#P" n="52"/>sumpta non significat regularem aut 
+          religio<lb break="no" ed="#P" n="53"/>sum, sed quemcumque habentem 
+          canonica<lb break="no" ed="#P" n="54"/>tum, seu canoniam. Est autem cauonia, 
+          spiri<lb break="no" ed="#P" n="55"/>tuale jus, ratione cujus aliquis habet stallum
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>in choro alicujus Ecclesiae, et locum in 
+          Capi<lb break="no" ed="#P" n="57"/>tulo, ut colligitur ex cap. Dilecto, de 
+          Praeben<lb break="no" ed="#P" n="58"/>dis, et notant Innocentius, et Doctores, in cap.
+          <lb ed="#P" n="59"/>Cum M., de Constitutionibus. Ut ergo 
+          deter<lb break="no" ed="#P" n="60"/>minetur significatio ad Canonicos vitam 
+          reli<lb break="no" ed="#P" n="61"/>giosam retinentes, merito cum additione 
+          ap<lb break="no" ed="#P" n="62"/>Eellantur regulares.
+        </p>
+        <p xml:id="szovsr-q12033-d1e645">
+          <lb ed="#P" n="63"/>7. Canonici regulares sunt praprie Caenici
+          <lb ed="#P" n="64"/>—Opponitur non cideri distingui ab alio 
+          mem<lb break="no" ed="#P" n="65"/>bro clericorum regularium. — Hinc autem 
+          in<lb break="no" ed="#P" n="66"/>telligitur Canonicum, etiamsi regularis sit, 
+          of<lb break="no" ed="#P" n="67"/>ficium. et spirituale jus Canonici retinere, hoc
+          <lb ed="#P" n="68"/>enim cum substantiali statu religionis non 
+          re<lb break="no" ed="#P" n="69"/>pugnat. Distinguitur ergo a clerico regulari,
+          <lb ed="#P" n="70"/>quia qui simplex clericus rcgularis est, 
+          cano<lb break="no" ed="#P" n="71"/>niam non habet, etiamsi religionem habeat.
+          <lb ed="#P" n="72"/>Sicut enim inter saeculares dantur clerici qui
+          <lb ed="#P" n="73"/>non sunt Canonici, ita inter regulares possunt
+          <lb ed="#P" n="74"/>Canonici distingui a simplicibus clericis 
+          reli<lb break="no" ed="#P" n="75"/>giosis. Dices: esto hoc locum habeat in 
+          Ca<lb break="no" ed="#P" n="76"/>nonicis collatis cum clericis secularibus, non
+          <lb ed="#P" n="77"/>tamen cum regularibus, nam hi ex vi 
+          profes<lb break="no" ed="#P" n="78"/>sionis suae habent statum in choro, et votum
+          <lb ed="#P" n="79"/>in Capitulo, si aliae conditiones eetatis, 
+          anti<lb break="no" ed="#P" n="80"/>quitatis, et similes concurrant; et eodem 
+          ti<lb break="no" ed="#P" n="81"/>tulo habent jus ad congruam portionem, seu
+          <lb ed="#P" n="82"/>sustentationem ex bonis monasterii, seu 
+          Ec<lb break="no" ed="#P" n="83"/>clesiae ; ergo eo ipso habent canoniam, 
+          quate<lb break="no" ed="#P" n="84"/>nus in tali statu esse potest; quid enim aliud
+          <lb ed="#P" n="85"/>csse potest canonia in statu regulari?
+        </p>
+        <p xml:id="szovsr-q12033-d1e697">
+          <lb ed="#P" n="86"/>8. Diluitur inprimis facta comparatione cum
+          <lb ed="#P" n="87"/>clericis Societatis.— Diluitur item ex alio 
+          prin<lb break="no" ed="#P" n="88"/>cipio. —hespondeo imprimis objectionem hauc
+          <lb ed="#P" n="89"/>nullum habere locum respectu clericorum 
+          re<lb break="no" ed="#P" n="90"/>gularium Societatis Jesu; nam illi nec statum
+          <lb ed="#P" n="91"/>in choro habent, quia illud munus chori ex vi
+          <lb ed="#P" n="92"/>sul instituti non profitentur, neque etiam 
+          ha<lb break="no" ed="#P" n="93"/>bent proprie locum in Capitulo, quia ordinarie
+          <lb ed="#P" n="94"/>non per Capitula, sed per Praelatos suos 
+          gu<lb break="no" ed="#P" n="95"/>bernantur, nec electiones Praelatorum habent
+          <lb ed="#P" n="96"/>praeter unius Gener alis, nec conventuaha 
+          Ca<lb break="no" ed="#P" n="97"/>pitula celebrant, nec in communibus 
+          sessioni<lb break="no" ed="#P" n="98"/>bus certa habent antiquitatis vel honoris loca,
+          <lb ed="#P" n="99"/>unde nec vestigium, neque umbram 
+          canoni<lb break="no" ed="#P" n="100"/>catus seu canonia participant. Quod etiam
+          <lb ed="#P" n="101"/>alio modo ex fine utriusque instituti deelarari
+          <lb ed="#P" n="102"/>potest : nam Canonici regulares ad divinum
+          <lb ed="#P" n="103"/>cultum in divinis mysteriis et officiis praecipue
+          <lb ed="#P" n="104"/>destinantur, et huec creditur fuisse prima 
+          eo<lb break="no" ed="#P" n="105"/>rum institutio, ut supra diximus; ideoque 
+          eo<lb break="no" ed="#P" n="106"/>rum institutio optime congruit, ut et statum
+          <lb ed="#P" n="107"/>habeant in choro, et vocem in Capitulo, per
+          <lb ed="#P" n="108"/>quod solet eorum Ecclesia vel monasterium
+          <lb ed="#P" n="109"/>gubernari. Religiosi autem Socieiatis ad 
+          eccle<lb break="no" ed="#P" n="110"/>siastica ministeria in ordine a salutem ani-
+          <pb ed="#P" n="483"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>marum desiinantur, et ideo, licet per sc et ex
+          <lb ed="#P" n="2"/>vi instituti clerici sint, non tamen ad munus
+          <lb ed="#P" n="3"/>Canonicorum per se ordinantur, ideoque nec
+          <lb ed="#P" n="4"/>stallum in choro habent, nec Canonici 
+          regu<lb break="no" ed="#P" n="5"/>lares dicuntur, sed tantum clerici.
+        </p>
+        <p xml:id="szovsr-q12033-d1e770">
+          <lb ed="#P" n="6"/>9. Quid eidem objectioni possit concedi.—Ahii
+          <lb ed="#P" n="7"/>vero religiosi clerici, qui vitee tautum 
+          contcm<lb break="no" ed="#P" n="8"/>plativae vacant, et ad sacra ministeria divini
+          <lb ed="#P" n="9"/>cultus primario instituuntur, fortasse possunt
+          <lb ed="#P" n="10"/>nomine Canonicorum regularium 
+          comprehen<lb break="no" ed="#P" n="11"/>di, propter objectionem factam ; 
+          namregulari<lb break="no" ed="#P" n="12"/>ter omnes habent et certas sedes iu choro juxta
+          <lb ed="#P" n="13"/>suum gradum et dignitatem, et vocem in suo
+          <lb ed="#P" n="14"/>Capitulo. Unde in jure, clerici regulares dici
+          <lb ed="#P" n="15"/>solent Canonici regulares, et e converso, ut
+          <lb ed="#P" n="16"/>colligitur ex c. unico, 15, q. 2, addita 
+          exposi<lb break="no" ed="#P" n="17"/>tione Gratiani ibidem, in 8 Hoc autem; nam
+          <lb ed="#P" n="18"/>ubi in textu dicitur: Ne quis sacerdotum, cvel
+          <lb ed="#P" n="19"/>clericorum , more secularium judicum pro 
+          im<lb break="no" ed="#P" n="20"/>ensis patrociniis anunera audeat accipere, ipse
+          <lb ed="#P" n="21"/>exponit intelligendum esse de clericis, qui, 
+          ca<lb break="no" ed="#P" n="22"/>nonicam vitam professi, regulariter se 
+          vic<lb break="no" ed="#P" n="23"/>turos proposuerunt. Idem colligitur ex c. 
+          De<lb break="no" ed="#P" n="24"/>cimas, 16, q. 1, ibi: A monavcnis sive clericis
+          <lb ed="#P" n="25"/>communiter viventibus nulla ratio sit, ut. 
+          mili<lb break="no" ed="#P" n="26"/>tes. aut Episcopi, aut personee queelibet decimas
+          <lb ed="#P" n="27"/>de laborilus, seu uubrimentis suis propriis 
+          ex<lb break="no" ed="#P" n="28"/>torguere dabeant. Ubi clerici communiter 
+          vi<lb break="no" ed="#P" n="29"/>ventes dicuntur Canonici regulares ; non cnim
+          <lb ed="#P" n="30"/>constat tempore Paschalis If, cujus fuit illud
+          <lb ed="#P" n="31"/>decretum, id est anno 1100, alium clericorum
+          <lb ed="#P" n="32"/>ordinem fuisse, unde in c. 7a omnibus. de
+          <lb ed="#P" n="33"/>Consecrat., distinct. 5, Canonici clerici 
+          dicun<lb break="no" ed="#P" n="34"/>tur, id est, regulares clerici (ita enim 
+          legen<lb break="no" ed="#P" n="35"/>dum et exponendum existimo), quibus 
+          injun<lb break="no" ed="#P" n="36"/>gitur ut canonice, id est regulariter vivant, in
+          <lb ed="#P" n="37"/>quibus locis sermo est de clericis communiter
+          <lb ed="#P" n="38"/>et religiose viventibus, et ad servitium alicujus
+          <lb ed="#P" n="39"/>Ecclesiae deputatis ; omnes ergo illi sine 
+          incon<lb break="no" ed="#P" n="40"/>venienti possunt nomine Canonicorum 
+          regu<lb break="no" ed="#P" n="41"/>larium comprehendi.
+        </p>
+        <p xml:id="szovsr-q12033-d1e851">
+          <lb ed="#P" n="42"/>10. Alii etiam clerici regulares, preterguam
+          <lb ed="#P" n="43"/>iocietatis, a Canonicis regularibus 
+          distinguun<lb break="no" ed="#P" n="44"/>tur.—Ouia vero, ut infra videbimus, nprater
+          <lb ed="#P" n="45"/>Societatem sunt nunc in Ecclesia aliquae 
+          reli<lb break="no" ed="#P" n="46"/>giones clericorum, quae hoc nomen 
+          Canonico<lb break="no" ed="#P" n="47"/>ruan regularum non usurpant, possumus 
+          dif<lb break="no" ed="#P" n="48"/>ferentiam aliquam inter has religiones 
+          assi<lb break="no" ed="#P" n="49"/>gnare; Canonici enim regulares dicuntur illi
+          <lb ed="#P" n="50"/>tantum , qui alicui Ecclesia cathedrali, vel
+          <lb ed="#P" n="51"/>collegiatae deputati sunt. Alii vero, quorum
+          <lb ed="#P" n="52"/>ecclesia non habet hanc dignitatem, sed est
+          <lb ed="#P" n="53"/>ant parochialis, aut omnino simplex, non sunt
+          <lb ed="#P" n="54"/>proprie Canonici regulares,'sed simpliciter 
+          cle<lb break="no" ed="#P" n="55"/>rici religiosi. Sicut enim in Ecclesiis secula:i-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>bus est illa distinctio juxta varios gradus 
+          di<lb break="no" ed="#P" n="57"/>gnitatis, ita in regularibus invenitur. Ecclesia
+          <lb ed="#P" n="58"/>enim cathedralis dicitur, quaee sedem habet
+          <lb ed="#P" n="59"/>Episcopalem ; constat autem plures hujusmodi
+          <lb ed="#P" n="60"/>Ecclesias Canonicos regulares habere, ctiam
+          <lb ed="#P" n="61"/>nostris temporibus. Collegialis autem Ecclesia
+          <lb ed="#P" n="62"/>dicitur, quae dignitatem Ecclesiae cathedralis
+          <lb ed="#P" n="63"/>aliquo modo participat, cujus Superior vere
+          <lb ed="#P" n="64"/>Praelatus est participans jurisdictionem 
+          Epis<lb break="no" ed="#P" n="65"/>copalem, cujusmodi sunt etiam multae 
+          Eccle<lb break="no" ed="#P" n="66"/>siae regulares. Canonicatus autem proprie 
+          so<lb break="no" ed="#P" n="67"/>lum inveniuntur in Ecclesiis cathedralibus vel
+          <lb ed="#P" n="68"/>collegiatis, ut constat ex usu, et modoloquendi
+          <lb ed="#P" n="69"/>tam juris, quam vulgari; ergo convenienter
+          <lb ed="#P" n="70"/>dicimus omnes illos et solos regulares 
+          cleri<lb break="no" ed="#P" n="71"/>cos, qui hujusmodi Ecclesiis deputantur, dici
+          <lb ed="#P" n="72"/>Canonicos regulares.
+        </p>
+        <p xml:id="szovsr-q12033-d1e923">
+          <lb ed="#P" n="73"/>11. Id impugnatur. — Occurritur 
+          distin<lb break="no" ed="#P" n="74"/>guendo duos modos Hoclesie collegiate. —
+          <lb ed="#P" n="75"/>Primus modus. — Secundus modus. — 
+          Obj<lb break="no" ed="#P" n="76"/>cies, omnes Ecclesias regulares esse 
+          collegia<lb break="no" ed="#P" n="77"/>tas, ac proinde potius hinc sequi, omnes 
+          clce<lb break="no" ed="#P" n="78"/>ricos regulares, ministerio Ecclesiae deputatos,
+          <lb ed="#P" n="79"/>esse etiam Canonicos regulares. Antecedens
+          <lb ed="#P" n="80"/>patet ex Panormitano, in c. JVobis, de Jurc
+          <lb ed="#P" n="81"/>patronat., n. 8, et insinuatur in c. Ne pro, de
+          <lb ed="#P" n="82"/>Electione, et in c. 1, de Statu monach., quae
+          <lb ed="#P" n="83"/>ipsc refert ; et idem sumitur ex his, quae 
+          trac<lb break="no" ed="#P" n="84"/>tant Innocentius, in c. Postulasti, de Jure
+          <lb ed="#P" n="85"/>patronat. ; et Felin., in cap. Accedentes, de
+          <lb ed="#P" n="86"/>Praescriptionibus. Respondetur, aliter sumi
+          <lb ed="#P" n="87"/>nomen Zecclesig collegiate ab his auctoribus,
+          <lb ed="#P" n="88"/>quam in praesenti sumatur. Ibi enim 
+          Zeocie<lb break="no" ed="#P" n="89"/>siam collegiatam vocant omnem illam, quae
+          <lb ed="#P" n="90"/>instituta est, ut in ea sit clericorum, vel etiam
+          <lb ed="#P" n="91"/>monachorum collegium seu conventus, a quo
+          <lb ed="#P" n="92"/>guberncetur vel serviatur, et vocatur etiam
+          <lb ed="#P" n="93"/>concentualis (quamvis haec vox ex usu 
+          mona<lb break="no" ed="#P" n="94"/>chis accommodata sit); atque hoc modo 
+          om<lb break="no" ed="#P" n="95"/>nis Ecclesia cathedrahs est collegialis, licet non
+          <lb ed="#P" n="96"/>convertatur; et sic etiam dantur Ecclesiae 
+          col<lb break="no" ed="#P" n="97"/>legiales secularium clericorum, in quibus nec
+          <lb ed="#P" n="98"/>canonicatus, nec dignitates, sed inferiora 
+          be<lb break="no" ed="#P" n="99"/>neficia esse censentur. Alio vcro modo vocatur
+          <lb ed="#P" n="100"/>collegialis Ecclesia, quasi per antonomasiam,
+          <lb ed="#P" n="101"/>illa quae, licet cathedralis non sit, habet 
+          spe<lb break="no" ed="#P" n="102"/>cialem dignitatem et honorem, in quo superat
+          <lb ed="#P" n="103"/>inferiores Ecclesias ctiam conventuales, et de
+          <lb ed="#P" n="104"/>his videtur loqui Glossa, in e. Statutum, de
+          <lb ed="#P" n="105"/>Rescriptis, verb. Cathedraliuwm, ubi has vocat
+          <lb ed="#P" n="106"/>Hcclesias collegiatas honorabiles. Videtur 
+          au<lb break="no" ed="#P" n="107"/>tem carum dignitas per hoc recte explicari,
+          <lb ed="#P" n="108"/>quod aliquam jurisdictionem habent 
+          superio<lb break="no" ed="#P" n="109"/>ris rationis, et Abbas, vel Prior, aut 
+          quocum<lb break="no" ed="#P" n="110"/>quc alio nomine vocetur, earum caput, dignui-
+          <pb ed="#P" n="484"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tatem habet, et jurisdictionem quasi 
+          Episco<lb break="no" ed="#P" n="2"/>palem. Hoc igitur modo non omnis Ecclesia
+          <lb ed="#P" n="3"/>regularis est proprie collegialis, et ideo 
+          ne<lb break="no" ed="#P" n="4"/>cesse pon est ut omnes rcgulares clerici sint
+          <lb ed="#P" n="5"/>Canonici regulares. Potuit etiam hoc nomen
+          <lb ed="#P" n="6"/>sumi ex origine, et ideo non accommodari illis
+          <lb ed="#P" n="7"/>clerivis regularibus, qui eamdem originem
+          <lb ed="#P" n="8"/>non habent, ut in sequenti puncto 
+          explicabi<lb break="no" ed="#P" n="9"/>mus.
+        </p>
+        <p xml:id="szovsr-q12033-d1e1032">
+          <lb ed="#P" n="10"/>12. Subdirisio Cauonicorum regularium. —
+          <lb ed="#P" n="11"/>Possunt ergo ulterius Canonici regulares 
+          dis<lb break="no" ed="#P" n="12"/>ingui in Canonicos Eeclesiarum cathedralium,
+          <lb ed="#P" n="13"/>et non cathedralium; hos enim duos ordines
+          <lb ed="#P" n="14"/>illorum reperiri, et usu ipso, et jure, ac 
+          histo<lb break="no" ed="#P" n="15"/>riis constat ; nam in Hispania habemus 
+          Eccle<lb break="no" ed="#P" n="16"/>sias Ciesaraugustanam, Tarraconensem, et
+          <lb ed="#P" n="17"/>Pampilonensem, et Oesomensem, quarum 
+          Ca<lb break="no" ed="#P" n="18"/>nonici sunt regulares; et extra Hispaniam per
+          <lb ed="#P" n="19"/>totum orbem sunt piures hujusmodi Ecclesiae,
+          <lb ed="#P" n="20"/>ut late refert Trullus, lib. 1 Ordinis 
+          canoni<lb break="no" ed="#P" n="21"/>corum , c. 30, ubi late ostendit hujusmodi 
+          Ca<lb break="no" ed="#P" n="22"/>nonicos catuedralium Ecclesiarum esse verc
+          <lb ed="#P" n="23"/>religiosos, et ejusdem ordinis cum aliis 
+          Cano<lb break="no" ed="#P" n="24"/>nicis regularibus, qui in monasteriis, seu 
+          Ec<lb break="no" ed="#P" n="25"/>clesiis collegiatis degunt, quia eamdem 
+          profes<lb break="no" ed="#P" n="26"/>sionem sub eadem Augustini regula faciunt,
+          <lb ed="#P" n="27"/>et eumdem substantialem habitum religionis
+          <lb ed="#P" n="28"/>portant, solumque in accidentalibus rebus,
+          <lb ed="#P" n="29"/>majorique aut minori observantia differunt.
+          <lb ed="#P" n="30"/>Imo, si originem et antiquitatem spectemus,
+          <lb ed="#P" n="31"/>praecipue videtur incepisse ille ordo in 
+          Eccle<lb break="no" ed="#P" n="32"/>siis cathedralibus, et ibi Canonicorum nomen
+          <lb ed="#P" n="33"/>accepisse, quod ad omnes postea derivatum
+          <lb ed="#P" n="34"/>est, etiamsi extra Ecclesiam cathedralem in
+          <lb ed="#P" n="35"/>privata Ecclesia vel monasterio profiteantur.
+        </p>
+        <p xml:id="szovsr-q12033-d1e1091">
+          <lb ed="#P" n="36"/>13. Reliqui clerici regulares a Canonicis
+          <lb ed="#P" n="37"/>condistinguuntur.— Heliqui ergo clerici 
+          regu<lb break="no" ed="#P" n="38"/>lares, qui illud institutum non profitentur, sed
+          <lb ed="#P" n="39"/>propriam et peculiarem habent institutionem,
+          <lb ed="#P" n="40"/>quae per se non postulat vel cathedralem 
+          Ec<lb break="no" ed="#P" n="41"/>clesiam, vel aliquam aliam, specialem 
+          dignita<lb break="no" ed="#P" n="42"/>tem habentem, in rigore non 
+          comprehendun<lb break="no" ed="#P" n="43"/>tur sub illo nomine, neque habent unde illud
+          <lb ed="#P" n="44"/>participent, ut satis declaratum est. Potestque
+          <lb ed="#P" n="45"/>hoc deservire ad intelligenda jura quae de 
+          Ca<lb break="no" ed="#P" n="46"/>nonicis regularibus loquuntur ; nam ex vi 
+          ver<lb break="no" ed="#P" n="47"/>borum, et in rigore, non pertinet ad alios 
+          cle<lb break="no" ed="#P" n="48"/>ricos regulares, nisi disponant de re quae 
+          so<lb break="no" ed="#P" n="49"/>lum fundatur in religioso statu clerieali, 
+          qua<lb break="no" ed="#P" n="50"/>tenus talis est, vel contineant favorem 
+          religio<lb break="no" ed="#P" n="51"/>nis ut sic. Si autem contineant licentiam vitae
+          <lb ed="#P" n="52"/>laxioris, non sunt extendenda nec applicanda
+          <lb ed="#P" n="53"/>ad omnes elericos regulares, nisi quatenus
+          <lb ed="#P" n="54"/>uniuscujusque instituto accommodata 
+          fue<lb break="no" ed="#P" n="55"/>rint.
+        </p>
+        <p xml:id="szovsr-q12033-d1e1137">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>14. Quomodo etiam hi subdicidantur. —
+          <lb ed="#P" n="57"/>Tandem potest clericorum religio dividi in
+          <lb ed="#P" n="58"/>mendicantem , et non mendicantem , item in
+          <lb ed="#P" n="59"/>pure contemplativam, et mixtam ex 
+          contem<lb break="no" ed="#P" n="60"/>plativa et activa. Societas enim, quae sub hoc
+          <lb ed="#P" n="61"/>gcnere continetur, mendicans est et mixta;
+          <lb ed="#P" n="62"/>aliae vcro religiones clericorum non 
+          profiten<lb break="no" ed="#P" n="63"/>tur mendicitatem, aut proximorum ministeriis
+          <lb ed="#P" n="64"/>ex instituto vacant, ut es his. quae in 
+          particu<lb break="no" ed="#P" n="65"/>lari tractatu sequenti, lib. 4, cap. 5, dicemus,
+          <lb ed="#P" n="66"/>constabit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 2</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 2</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="915"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r06599"><!-- t10l7c2 -->
+        <head xml:id="szovsr-r06599-Hd1e101">Caput 2</head>
+        <head xml:id="szovsr-r06599-Hd1e103" type="question-title">De coadjutoribus spiritualibus societatis.</head>
+        <p xml:id="szovsr-r06599-d1e106">
+          <lb ed="#C" n="39"/>CAPUT II
+          <lb ed="#C" n="40"/>DE COADJUTORIBUS SPIRITUALIBUS SOCIETATIS.
+        </p>
+        <p xml:id="szovsr-r06599-d1e113">
+          <lb ed="#C" n="41"/>1. Coadjutores spirituales gradum 
+          consti<lb break="no" ed="#C" n="42"/>tuunt in Societate per iria vota simplicia. —
+          <lb ed="#C" n="43"/>Partitio presentis c. in puncta tria. — 
+          Supe<lb break="no" ed="#C" n="44"/>riori capite ostensum est, aliquos in nostra
+          <lb ed="#C" n="45"/>Societate recipi, ut professos in spiritualibus
+          <lb ed="#C" n="46"/>ministeriis adjuvent, quamvis in aequali gradu
+          <lb ed="#C" n="47"/>cum eis in Societate non constituantur; hi
+          <lb ed="#C" n="48"/>ergo spirituales coadjutores appellantur, qui
+          <lb ed="#C" n="49"/>proinde specialem in Societate gradum 
+          con<lb break="no" ed="#C" n="50"/>stituunt, ut constat ex Examine, c. 1, 89, et
+          <lb ed="#C" n="51"/>toto cap. 6, et secunda parte Constitutionum,
+          <lb ed="#C" n="52"/>c. 1,lit. A, et quinta parte Constitutionum, c. 1,
+          <lb ed="#C" n="53"/>lit, A, et c. 4, et in Bullis Apostolicis Pauli IIT,
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="54"/>et Julii III, et Gregorii XIII. Ex quibus locis
+          <lb ed="#C" n="55"/>etiam constat, hos coadjutores incorporari 
+          ul<lb break="no" ed="#C" n="56"/>timate Societati per tria tantum vota 
+          simpli<lb break="no" ed="#C" n="57"/>cia; ita enim expresse declaratur in ipso 
+          in<lb break="no" ed="#C" n="58"/>stiuuto locis citatis, et aliis, et expresse 
+          appro<lb break="no" ed="#C" n="59"/>batur ab istis Pontificibus, praesertim a 
+          Gre<lb break="no" ed="#C" n="60"/>gorio XIIT. Ratio autem ob quam hi religiosi
+          <lb ed="#C" n="61"/>tria tantum vota emittunt, et non quartum,
+          <lb ed="#C" n="62"/>ex capite praecedenti, numero secundo et 
+          ter<lb break="no" ed="#C" n="63"/>tio, petenda est, nam eadem in illis est quae in
+          <lb ed="#C" n="64"/>professis trium votorum, ut ibidem diximus.
+          <lb ed="#C" n="65"/>Hie ergo solum superest ut dicamus cur haec
+          <lb ed="#C" n="66"/>vota simplicia tantum sint; in quo duo peti
+          <lb ed="#C" n="67"/>possunt : primum est, quid desit his votis,
+          <lb ed="#C" n="68"/>quominus solemnia sint. Secundum est, quae
+          <lb ed="#C" n="69"/>ratio moverit B. Ignatium, ob quam voluerit
+          <lb ed="#C" n="70"/>in hoc gradu nunquam admitti ad vota 
+          so<lb break="no" ed="#C" n="71"/>lemnia, quibus possumus addere tertium, 
+          sci<lb break="no" ed="#C" n="72"/>licet, quid necesse fuerit hunc gradum 
+          distin<lb break="no" ed="#C" n="73"/>guere a gradu scholarium , aut in quo 
+          distin<lb break="no" ed="#C" n="74"/>gui possit, cum omnium vota simplicia 
+          tan<lb break="no" ed="#C" n="75"/>tum sint.
+        </p>
+        <p xml:id="szovsr-r06599-d1e194">
+          <lb ed="#C" n="76"/>Dubium primum, quid desit votis condjuiorum
+          <lb ed="#C" n="77"/>spiritualuum formatorum, quominus 
+          solen<lb break="no" ed="#C" n="78"/>nia sint.
+        </p>
+        <p xml:id="szovsr-r06599-d1e204">
+          <lb ed="#C" n="79"/>2. Dubitandi ratio in hoc puncto. — Evasio
+          <lb ed="#C" n="80"/>occluditur. — De primo dubio multa essent a
+          <lb ed="#C" n="81"/>nobis tractanda, nisi ex dictis supra, in tomo
+          <lb ed="#C" n="82"/>3, de solemnitate voti, essent perspicua. Tota
+          <lb ed="#C" n="83"/>ergo ratio dubitandi est, quia haec vota 
+          red<lb break="no" ed="#C" n="84"/>dunt personas inhabiles ad matrimonium, ct
+          <lb ed="#C" n="85"/>incapaces dominii omnium bonorum, tam 
+          re<lb break="no" ed="#C" n="86"/>tinendi quam acquirendi, et plene subjiciunt
+          <lb ed="#C" n="87"/>voluntatem propriam alienae, cum totali sui
+          <lb ed="#C" n="88"/>traditione; quid ergo illis deest quominus 
+          so<lb break="no" ed="#C" n="89"/>lemnia sint? Dicere enim quod ex intentione
+          <lb ed="#C" n="90"/>fiunt, ut simplicia, et non ut solemnia, non
+          <lb ed="#C" n="91"/>satisfacit, quia vel est repugnanuia in illa 
+          in<lb break="no" ed="#C" n="92"/>tentione; quomodo enim potest quis velle
+          <lb ed="#C" n="93"/>emittere votum quod habet omnes effectus
+          <lb ed="#C" n="94"/>voti solemnis, et nolle emittere votum 
+          solem<lb break="no" ed="#C" n="95"/>ne? vel certe aliquid assignare oportet, praeter
+          <lb ed="#C" n="96"/>intentionem , quod hic desit ad voti 
+          solemni<lb break="no" ed="#C" n="97"/>tatem.
+        </p>
+        <p xml:id="szovsr-r06599-d1e248">
+          <lb ed="#C" n="98"/>3. Resolutio puncti. — Dicte conditiones
+          <lb ed="#C" n="99"/>quadrant votis Societatis.—H edem repugnant
+          <lb ed="#C" n="100"/>votis solemnibus.—Quid ad rationem 
+          dubitan<lb break="no" ed="#C" n="101"/>di in wmero pracedenti.— Dicendum vero 
+          ni<lb break="no" ed="#C" n="102"/>hilominus est, haec vota tantum esse simplicia,
+          <lb ed="#C" n="103"/>quod satis probant testimonia Pontificum;
+          <lb ed="#C" n="104"/>quia, ut tomo praecedenti ostensum est, 
+          so<lb break="no" ed="#C" n="105"/>lemnitas voti pendet ex approbatione et 
+          insti<lb break="no" ed="#C" n="106"/>tutione Ecclesiee; Ecclesia autem non 
+          appre<lb break="no" ed="#C" n="107"/>bavit haec vota ut solemnia, sed tantum ut
+          <pb ed="#P" n="916"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>simplicia; ergo haec ratio ostendit saltem ita
+          <lb ed="#C" n="2"/>esse, quamvis non declaret cur ita sit, vel
+          <lb ed="#C" n="3"/>quomodo potuerit Ecclesia approbare vota,
+          <lb ed="#C" n="4"/>quoad illos effectus in ratione dubitandi 
+          posi<lb break="no" ed="#C" n="5"/>tos, et non facere illa solemnia. Seeundo idem
+          <lb ed="#C" n="6"/>probat replica facta de intentione, quia 
+          effec<lb break="no" ed="#C" n="7"/>tus agentium non excedit intentionem eorum;
+          <lb ed="#C" n="8"/>sed nec ex intentione voventium, nec ex 
+          in<lb break="no" ed="#C" n="9"/>tentione Societatis admittentis, haec vota sunt
+          <lb ed="#C" n="10"/>solemnia, sed tantum simplicia ; ergo. Propria
+          <lb ed="#C" n="11"/>vero ratio est, quia haec vota non fiunt ut 
+          ab<lb break="no" ed="#C" n="12"/>solute perpetua, sed solum ex parte 
+          voven<lb break="no" ed="#C" n="13"/>tium; ex parte autem Societatis habent 
+          subin<lb break="no" ed="#C" n="14"/>tellectam illam conditionem, ut durent 
+          quam<lb break="no" ed="#C" n="15"/>diu Societas hos religiosos retinendos 
+          judica<lb break="no" ed="#C" n="16"/>verit. Unde etiam fit ut in traditione, quae per
+          <lb ed="#C" n="17"/>haec vota fit, non sit mutua obligatie ejusdem
+          <lb ed="#C" n="18"/>rationis in utrcque extremo ; nam ex parte 
+          re<lb break="no" ed="#C" n="19"/>ligiosi est absoluta vivendi perpetuo in 
+          Socie<lb break="no" ed="#C" n="20"/>tate, quantum in ipso est; ex porte autem 
+          re<lb break="no" ed="#C" n="21"/>ligionis non est ita absoluta , sed retinendo
+          <lb ed="#C" n="22"/>libertatem ad dimittendam liberam personam
+          <lb ed="#C" n="23"/>in aliquo raro casu, et ex gravissimis causis.
+          <lb ed="#C" n="24"/>Quod enim haec vota hoc modo et sub his 
+          con<lb break="no" ed="#C" n="25"/>ditionibus fiant, satis expresse declaratur in
+          <lb ed="#C" n="26"/>instituto Societatis. Primum in Examine, c. 1,
+          <lb ed="#C" n="27"/>S 9, ubi haec vota vocantur simplicia; cap. 
+          au<lb break="no" ed="#C" n="28"/>tem 6 diserte declaratur, ez parte ipsorum 
+          co<lb break="no" ed="#C" n="29"/>adjutorum ligari ad semper vivendum et 
+          no<lb break="no" ed="#C" n="30"/>riendum in Societate, et nihilominus 
+          Societa<lb break="no" ed="#C" n="31"/>tem, vel ejus Superiorem, qui commune 
+          bo<lb break="no" ed="#C" n="32"/>num debet intueri, cum expedire judicaverit,
+          <lb ed="#C" n="33"/>posse eos dimittere, et a sua Congregatione 
+          se<lb break="no" ed="#C" n="34"/>gavare, et tunc illos omnino liberos, nullique
+          <lb ed="#C" n="35"/>voto obstrictos remanere. Et in declaratione
+          <lb ed="#C" n="36"/>additur , id fieri non posse sine causis 
+          justissi<lb break="no" ed="#C" n="37"/>mis. Idem repetitur secunda parte 
+          Constitu<lb break="no" ed="#C" n="38"/>iionum, cap. 1, lit. À, cap. 4, S 3, et parte
+          <lb ed="#C" n="39"/>quinta, cap. 4, lit. B, et in Bullis Pontificiis
+          <lb ed="#C" n="40"/>citatis expresse approbatur et confirmatur.
+          <lb ed="#C" n="41"/>Unde constat contractum esse justum, et 
+          sanc<lb break="no" ed="#C" n="42"/>tum ; in quo eadem est ratio, quae de 
+          schola<lb break="no" ed="#C" n="43"/>ribus supra, lib. 3, cap. 2, a num. 2, tractata
+          <lb ed="#C" n="44"/>est. Quod vero hic modus traditionis, et 
+          voto<lb break="no" ed="#C" n="45"/>rum repugnet solemnitati votorum, in tomo
+          <lb ed="#C" n="46"/>superiori a nobis ostensum est. Votum enim
+          <lb ed="#C" n="47"/>solemne debet esse immuiabile, vcl omnino,
+          <lb ed="#C" n="48"/>vel ad summum per solam dispensationem
+          <lb ed="#C" n="49"/>raram, et gravissimam ; haec autem vota non
+          <lb ed="#C" n="50"/>habent tantam immutabilitatem. ix alio item
+          <lb ed="#C" n="51"/>effecu manifestari potest, quia vota horum
+          <lb ed="#C" n="52"/>coadjutorum non habent vim dirimendi 
+          prae<lb break="no" ed="#C" n="53"/>cedens matrimonium ratum , qui cffectus 
+          in<lb break="no" ed="#C" n="54"/>separabilis est a professione solemnium 
+          voto<lb break="no" ed="#C" n="55"/>rum ; ergo. Major probanda est eodem modo,
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>quo de votis scholarium lib. 4, cap. 2, id 
+          os<lb break="no" ed="#C" n="57"/>tendimus; est enim eadem ratio in utrisque,
+          <lb ed="#C" n="58"/>ut consideranti facile patebit ; et ex hisrationi
+          <lb ed="#C" n="59"/>dubitandi in contrarium adductae satisfactum
+          <lb ed="#C" n="60"/>est.
+        </p>
+        <p xml:id="szovsr-r06599-d1e409">
+          <lb ed="#C" n="61"/>Dubium secundum, cur dicti condjutores 
+          spiri<lb break="no" ed="#C" n="62"/>tuales ad professionem solemnem non 
+          admit<lb break="no" ed="#C" n="63"/>tantur.
+        </p>
+        <p xml:id="szovsr-r06599-d1e418">
+          <lb ed="#C" n="64"/>4. Prima ratio dubitandi. — Confirmatur.
+          <lb ed="#C" n="65"/>—Circa secundum dubium in fine num. 1 
+          pro<lb break="no" ed="#C" n="66"/>positum, major videtur esse dubitandi ratio,
+          <lb ed="#C" n="67"/>nam hi coadjutores formati supponuntur 
+          im<lb break="no" ed="#C" n="68"/>primis esse homines apti ad ministeria 
+          Socie<lb break="no" ed="#C" n="69"/>tatis spiritualia, et si non ad omnia et 
+          majo<lb break="no" ed="#C" n="70"/>ra, saltem ad multa, et. satis gravia, et 
+          qui<lb break="no" ed="#C" n="71"/>dem majora quam sit sola chori assistentia,
+          <lb ed="#C" n="72"/>propter quam solam in aliis religionibus multi
+          <lb ed="#C" n="73"/>religiosi recipiuntur, et solemnem 
+          professio<lb break="no" ed="#C" n="74"/>nem emittunt. Deinde supponuntur esse 
+          homi<lb break="no" ed="#C" n="75"/>nes probatae virtutis, et suae religioni satis 
+          fide<lb break="no" ed="#C" n="76"/>les, et digni qui post sufficientem probationem
+          <lb ed="#C" n="77"/>ad vitam in Societate perpetuo agendam 
+          ad<lb break="no" ed="#C" n="78"/>mittantur. Denique tantum de eis fidit 
+          Socie<lb break="no" ed="#C" n="79"/>tas, ut quando alias non oberit, eos velit esse
+          <lb ed="#C" n="80"/>Rectores collegiorum, quarta parte 
+          Constitu<lb break="no" ed="#C" n="81"/>tionnm, c. 10, et ad Congregationem 
+          genera<lb break="no" ed="#C" n="82"/>lem, si opus fuerit, saltem pro negotiis 
+          trac<lb break="no" ed="#C" n="83"/>tandis eos admittat, octava parte 
+          Constitutio<lb break="no" ed="#C" n="84"/>num, cap. 3, lit. A, et cap. 6, lit. B, et 
+          inquar<lb break="no" ed="#C" n="85"/>ta Congregatione generali, can. 16. Cur ergo
+          <lb ed="#C" n="86"/>ad professionem solemnem non admittentur ?
+          <lb ed="#C" n="87"/>Accedit, quod haec tanta graduum varietas in
+          <lb ed="#C" n="88"/>uno corpore Societatis potest esse occasio 
+          di<lb break="no" ed="#C" n="89"/>visionis, aut scandali vel minoris unionis ; non
+          <lb ed="#C" n="90"/>erat ergo multiplicanda sine urgenti 
+          necessi<lb break="no" ed="#C" n="91"/>tate, quae in hoc speciali gradu nulla 
+          appa<lb break="no" ed="#C" n="92"/>ret.
+        </p>
+        <p xml:id="szovsr-r06599-d1e483">
+          <lb ed="#C" n="93"/>5. Altera dubitandi ratio.— Atque eo 
+          maxi<lb break="no" ed="#C" n="94"/>me superflua apparet haec varietas, quod vota
+          <lb ed="#C" n="95"/>substantialia horum coadjutorum quoad 
+          mate<lb break="no" ed="#C" n="96"/>riam eadem omnino sunt, et eodem modo fiunt
+          <lb ed="#C" n="97"/>quo vota professorum; nam et in voto 
+          obe<lb break="no" ed="#C" n="98"/>dientiae eodem modo explicant specialiter eam
+          <lb ed="#C" n="99"/>promittere circa puerorum educationem, 
+          quin<lb break="no" ed="#C" n="100"/>ta parte Constitutionum, cap. 3, S 3 et 5, et in
+          <lb ed="#C" n="101"/>secunda Congregatione generali, can. 20, et
+          <lb ed="#C" n="102"/>per votum paupertatis eodem modo 
+          profiten<lb break="no" ed="#C" n="103"/>tur se nihil habere nec in particulari, nec in
+          <lb ed="#C" n="104"/>communi, ac denique eodem modo publice, et
+          <lb ed="#C" n="105"/>in manibus Praelati vota sua emittunt ; cur 
+          er<lb break="no" ed="#C" n="106"/>go non etiam ex parte Societatis ut solemnia
+          <lb ed="#C" n="107"/>admittentur ? Ubi etiam quaeri potest, cur hi
+          <lb ed="#C" n="108"/>coadjutores alia vota simplicia professorum
+          <lb ed="#C" n="109"/>non emittant, cum professi etiam trium voto-
+          <pb ed="#P" n="917"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>rum illa faciant ; nam (ut capite praecedenti
+          <lb ed="#C" n="2"/>dixi) hi omnes substantialiter sunt in eodem
+          <lb ed="#C" n="3"/>gradu et munere; et alioqui isti etiam sunt
+          <lb ed="#C" n="4"/>membra perpetua Societatis , quae oportet
+          <lb ed="#C" n="5"/>omnino cavere ab omni ambitione, et 
+          praeten<lb break="no" ed="#C" n="6"/>tione dignitatis extra et intra Societatem, ad
+          <lb ed="#C" n="7"/>quem finem dicta vota pracipue ordinantur.
+        </p>
+        <p xml:id="szovsr-r06599-d1e542">
+          <lb ed="#C" n="8"/>6. Vera resolutio puncti. — Probatur 
+          aucto<lb break="no" ed="#C" n="9"/>ritate. — Probatur etiam ab utilitate 
+          multipli<lb break="no" ed="#C" n="10"/>ci. —Nihilominus dicendum est, non sine 
+          ma<lb break="no" ed="#C" n="11"/>gna causa B. Ignatium ita haec ordinasse et
+          <lb ed="#C" n="12"/>instituisse, sufficiensque argumentum esse 
+          de<lb break="no" ed="#C" n="13"/>bet, quod Romani Pontifices expresse hanc 
+          in<lb break="no" ed="#C" n="14"/>stituti partem approbarunt ; Paulus enim III,
+          <lb ed="#C" n="15"/>in Bulla speciali, de hoc gradu expresse 
+          decla<lb break="no" ed="#C" n="16"/>rat, haec vota coadjutorum fieri cum illa 
+          con<lb break="no" ed="#C" n="17"/>ditione ut obligent, quamdiu Societas 
+          hujus<lb break="no" ed="#C" n="18"/>modi personas retinendas in suo 
+          munerejudi<lb break="no" ed="#C" n="19"/>caverit, et non ultra; nec propterea (inquit)
+          <lb ed="#C" n="20"/>ad aliquam solemnem professionem emittendam
+          <lb ed="#C" n="21"/>teneantur , neque ad eam aliter admittantur.
+          <lb ed="#C" n="22"/>Gregorius autem XII, in Constitutione 
+          Ascen<lb break="no" ed="#C" n="23"/>dente Domino, expresse declarat haec tria vota
+          <lb ed="#C" n="24"/>esse simplicia, et per ea constitui hominem in
+          <lb ed="#C" n="25"/>certo Societatis gradu, idque specialiter 
+          ap<lb break="no" ed="#C" n="26"/>probat et confirmat. Ratio autem inter alias,
+          <lb ed="#C" n="27"/>quae fundatorem movit, fuisse videtur, quia
+          <lb ed="#C" n="28"/>religioni utilissimum, et ipsis religiosis 
+          mini<lb break="no" ed="#C" n="29"/>me nocivumjudicavit, ut, quoad fieri commode
+          <lb ed="#C" n="30"/>posset, religio retineret debitam potestatem
+          <lb ed="#C" n="31"/>dimittendi omnes, qui ad religionis finem et
+          <lb ed="#C" n="32"/>modum non sese accommodarent ; sic enim et
+          <lb ed="#C" n="33"/>ipsa religio in sua puritate melius conservatur,
+          <lb ed="#C" n="34"/>et securius ac utilius potest proximis 
+          inservi<lb break="no" ed="#C" n="35"/>re, qui est scopus illius. Deinde zommodius
+          <lb ed="#C" n="36"/>judicavit Ignatius, ut hi, qui dimittendi sunt,
+          <lb ed="#C" n="37"/>liberi potius, quam votis ligati dimittantur,
+          <lb ed="#C" n="38"/>ut cum minori dispendio utriusque partis fieri
+          <lb ed="#C" n="39"/>possit dimissio ; grave enim est religioni extra
+          <lb ed="#C" n="40"/>se abjicere eum, qui adhuc vere religiosus
+          <lb ed="#C" n="41"/>ejusdem religionis maneat. Ipsi etiam qui 
+          di<lb break="no" ed="#C" n="42"/>mittitur, grave onus est privari religionis 
+          com<lb break="no" ed="#C" n="43"/>modo, et jugum retinere. Ut ergo haec 
+          dimis<lb break="no" ed="#C" n="44"/>sio suavius fieri possit, hoc medium tanquam
+          <lb ed="#C" n="45"/>commodius electum est ; itemque ut religiosi
+          <lb ed="#C" n="46"/>ipsi in majori timore conservarentur, 
+          semper<lb break="no" ed="#C" n="47"/>que vigilantius viverent.
+        </p>
+        <p xml:id="szovsr-r06599-d1e632">
+          <lb ed="#C" n="48"/>7. Dictae utilitates non habent locun in 
+          on<lb break="no" ed="#C" n="49"/>nibus membris Societatis. — Non potuit autem
+          <lb ed="#C" n="50"/>haec conditio generaliter in omnibus membris
+          <lb ed="#C" n="51"/>Societatis observari; nam (ut philosophi aiunt)
+          <lb ed="#C" n="52"/>omne mobile fundatur in aliquo immobili,
+          <lb ed="#C" n="53"/>quo certe principio ad vestigandum Deum
+          <lb ed="#C" n="54"/>usi sunt, decuitque in hac religione esse 
+          ali<lb break="no" ed="#C" n="55"/>qua principalia membra, quae essent velnti co-
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>lumnae et fundamenta ejus, in quibus ipsa 
+          re<lb break="no" ed="#C" n="57"/>ligio quasi immobilis esset : ideoque et ipsi 
+          in<lb break="no" ed="#C" n="58"/>dissolubili vinculo ligarentur, et ipsa religio
+          <lb ed="#C" n="59"/>se illis perfecte obligaret, nec votis liberosa
+          <lb ed="#C" n="60"/>se posset dimittere. Atque hi sunt soli professi
+          <lb ed="#C" n="61"/>quatuor votorum : extra illos vero, mens B.
+          <lb ed="#C" n="62"/>Ignatii fuit ut omnes alii dependentes semper
+          <lb ed="#C" n="63"/>essent a Societatis ordinata potestate. Hac ergo
+          <lb ed="#C" n="64"/>ratione, voluit coadjutores spirituales in dicto
+          <lb ed="#C" n="65"/>gradu permanere, solumque per modum 
+          dis<lb break="no" ed="#C" n="66"/>pensationis permisit aliquos ecrum ad 
+          profes<lb break="no" ed="#C" n="67"/>sionem trium votorum admitti, propter 
+          gra<lb break="no" ed="#C" n="68"/>ves causas occurrentes, ut capite praecedenti
+          <lb ed="#C" n="69"/>declaravi, in quibus magis (suppositis dictis
+          <lb ed="#C" n="70"/>causis ac meritis) devotioni eorum, qui 
+          ad<lb break="no" ed="#C" n="71"/>mittuntur, quam generali rationt instituti 
+          at<lb break="no" ed="#C" n="72"/>tenditur.
+        </p>
+        <p xml:id="szovsr-r06599-d1e691">
+          <lb ed="#C" n="73"/>8. Probatur tandem eadem resolutio a 
+          ca<lb break="no" ed="#C" n="74"/>rentia omnis detrimenti spiritualis. — Neque
+          <lb ed="#C" n="75"/>ex hoc modo institutionis aliquod 
+          detrimen<lb break="no" ed="#C" n="76"/>tum his religiosis sequitur; nam (ut in libro
+          <lb ed="#C" n="77"/>tertio, cap. secundo, numero secundo, disi)
+          <lb ed="#C" n="78"/>apud Deum nullo merito privantur propter 
+          ta<lb break="no" ed="#C" n="79"/>lem conditionem suorum votorum; imo 
+          cres<lb break="no" ed="#C" n="80"/>cunt quodammodo, quia liberalius se obligant,
+          <lb ed="#C" n="81"/>non expectantes ex parte religionis similem
+          <lb ed="#C" n="82"/>obligationem. Item, quantum in ipsis est,
+          <lb ed="#C" n="83"/>aeque se tradunt Deo et religioni in perpetuum,
+          <lb ed="#C" n="84"/>nec est ullum periculum de status 
+          perpetui<lb break="no" ed="#C" n="85"/>tate et stabilitate, si ipsi velint debito modo
+          <lb ed="#C" n="86"/>se gerere ; ergo nullo spirituali commodo 
+          pri<lb break="no" ed="#C" n="87"/>vantur, ex eo quod ad professionem solemnem
+          <lb ed="#C" n="88"/>non admittantur; imo etiam inde juvantur,
+          <lb ed="#C" n="89"/>quod eo ipso monentur ut fideles suae 
+          religio<lb break="no" ed="#C" n="90"/>ni sint, suoque muneri, ut par est, 
+          satisfa<lb break="no" ed="#C" n="91"/>ciant. Aliunde vero, ut conveniens ordo in
+          <lb ed="#C" n="92"/>toto corpore religionis servetur, expedit ut
+          <lb ed="#C" n="93"/>unusquisque gradum suum agnoscat, et sciat
+          <lb ed="#C" n="94"/>ad quod ministerium vocatus est; quia ergo
+          <lb ed="#C" n="95"/>hi non sunt ut principales operarii, sed ut 
+          ad<lb break="no" ed="#C" n="96"/>jutores eorum, ideo oportuit diverso modo
+          <lb ed="#C" n="97"/>uniri religioni, quasi dependenter a superiori
+          <lb ed="#C" n="98"/>gradu, et cum subordinatione ad illum, ut ita
+          <lb ed="#C" n="99"/>debitus ordo, sine quo religionis unitas stare
+          <lb ed="#C" n="100"/>non potest, conservetur.
+        </p>
+        <p xml:id="szovsr-r06599-d1e754">
+          <lb ed="#C" n="101"/>9. Ad primum argumentum in n. 4. — Unde
+          <lb ed="#C" n="102"/>ad primam rationem dubitandi in contrarium
+          <lb ed="#C" n="103"/>in numero quarto, respondetur, non propterca
+          <lb ed="#C" n="104"/>hos religiosos non admitti ad professionem 
+          so<lb break="no" ed="#C" n="105"/>lemnem, quia non sunt probatae virtutis, vel
+          <lb ed="#C" n="106"/>quia non possint multa et gravia ministeria in
+          <lb ed="#C" n="107"/>Societate obire ; sed quia ad illorum 
+          perfectio<lb break="no" ed="#C" n="108"/>nem et meritum satis est alio simpliciori 
+          mo<lb break="no" ed="#C" n="109"/>do Societati incorporari, et ut in suo gradu et
+          <lb ed="#C" n="110"/>humilitate conserventur, id melius est tum ip-
+          <pb ed="#P" n="918"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>sis, tum etiam religioni, ut exposuimus. Nec
+          <lb ed="#C" n="2"/>in exemplum adducendi sunt mores aliarum
+          <lb ed="#C" n="3"/>religionum, quia Spiritus Sanctus est unus et
+          <lb ed="#C" n="4"/>multiplex. et diversis religionibus diversa 
+          tri<lb break="no" ed="#C" n="5"/>buit instituta, juxta varios fines earum. In aliis
+          <lb ed="#C" n="6"/>ergo religionibus, in admittendis personis 
+          sut<lb break="no" ed="#C" n="7"/>ficientibus ad professionem et religiosum 
+          sta<lb break="no" ed="#C" n="8"/>tum, consideratur tantum aptitudo ad 
+          pro<lb break="no" ed="#C" n="9"/>priam perfectionem, et ad summum ad 
+          off<lb break="no" ed="#C" n="10"/>cium chori, vel ministeria divini cultus, seu
+          <lb ed="#C" n="11"/>vitae contemplativae ; in Societate autem inter
+          <lb ed="#C" n="12"/>principalia consideratur aptitudo ad 
+          minis<lb break="no" ed="#C" n="13"/>teria erga proximos, et ideo ctiamsi aliquis
+          <lb ed="#C" n="14"/>sibi bonus esse videatur, non statim ad 
+          so<lb break="no" ed="#C" n="15"/>lemnem professionem admittitur. Et 
+          praete<lb break="no" ed="#C" n="16"/>rca in nac religione, propter periculum, quod
+          <lb ed="#C" n="17"/>in his ministeriis cum proximis esse potest,
+          <lb ed="#C" n="18"/>difficillus fit obligatio ex parte religionis, ita
+          <lb ed="#C" n="19"/>ut regulariter non fiat nisi ad eos qui sunt 
+          ve<lb break="no" ed="#C" n="20"/>luti fundamenta et praecipua religionis 
+          mem<lb break="no" ed="#C" n="21"/>bra. Nec etiam timenda hinc est divisio, aut
+          <lb ed="#C" n="22"/>minor concordia animorum in hac religione,
+          <lb ed="#C" n="23"/>quoniam sicut in eodem corpore varia 
+          mem<lb break="no" ed="#C" n="24"/>bra diversa munera habent, et juxta illa 
+          di<lb break="no" ed="#C" n="25"/>versam habent dispositionem et unionem
+          <lb ed="#C" n="26"/>cum toto, imo et diversam seu heterogeneam
+          <lb ed="#C" n="27"/>animae informationem, ut dicitur libro 1 de
+          <lb ed="#C" n="28"/>Anima, cap. 2, a numero vigesimo sexto, et
+          <lb ed="#C" n="29"/>nihilominus omnia inter se perfecte uniuntur
+          <lb ed="#C" n="30"/>ad unum corpus constituendum ; et sicut in
+          <lb ed="#C" n="31"/>eodem mystico corpore Ecclesiae varii sunt
+          <lb ed="#C" n="32"/>gradus in ordine hierarchico, qui non solum
+          <lb ed="#C" n="33"/>non impediunt corporis unitatem, sed 
+          ma<lb break="no" ed="#C" n="34"/>xime illam conservant, ut in disp. 9, defide,
+          <lb ed="#C" n="35"/>sect. 5, disseruimus ; ita in hac religione,
+          <lb ed="#C" n="36"/>quae hierarchiam ecclesiasticam maxime 
+          imi<lb break="no" ed="#C" n="37"/>tatur, haee varietas non impedit unionem
+          <lb ed="#C" n="38"/>animorum, sed potius illam perficit ; 
+          maxi<lb break="no" ed="#C" n="39"/>me quia fundata est in humilitate et 
+          chari<lb break="no" ed="#C" n="40"/>tate; nam qui majora Dei dona acceperunt,
+          <lb ed="#C" n="41"/>et ideo in superiori gradu constituti sunt,
+          <lb ed="#C" n="42"/>alios non despiciunt , sed potius honorant,
+          <lb ed="#C" n="43"/>et ut commilitones et cooperatores suos amant,
+          <lb ed="#C" n="44"/>et ut Dei ministros ac servos venerantur. 
+          Ip<lb break="no" ed="#C" n="45"/>si vero, qui in coadjutorum gradum asciü
+          <lb ed="#C" n="46"/>sunt, suam etiam sortem amplexi, in vitee
+          <lb ed="#C" n="47"/>candore et humilitate Deo serviunt, et alios ut
+          <lb ed="#C" n="48"/>patres aestimant ; neque in hac distributione
+          <lb ed="#C" n="49"/>graduum intercedere debet ambitio ex parte
+          <lb ed="#C" n="50"/>subditorum, nec personarum acceptio ex parte
+          <lb ed="#C" n="51"/>Praelatorum, quia in eis non consideratur 
+          ho<lb break="no" ed="#C" n="52"/>nor, sed onus, et majus Dei obsequium, et
+          <lb ed="#C" n="53"/>proximorum auxilium. Ad secundam 
+          ratio<lb break="no" ed="#C" n="54"/>nem dubitandi in numero quinto, patebit 
+          so<lb break="no" ed="#C" n="55"/>lutio a fortiori in num. decimo tertio, ubi
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>differentias inter coadjutores ac trium 
+          voto<lb break="no" ed="#C" n="57"/>rum professos adducemus.
+        </p>
+        <p xml:id="szovsr-r06599-d1e908">
+          <lb ed="#C" n="58"/>Dubium tertium, in quo hic gradus 
+          coadjuto<lb break="no" ed="#C" n="59"/>rum spiritualium ab aliis, presertim 
+          scho<lb break="no" ed="#C" n="60"/>lasticorum, distinguatur.
+        </p>
+        <p xml:id="szovsr-r06599-d1e917">
+          <lb ed="#C" n="61"/>10. Superest dicendum de tertio dubio, in
+          <lb ed="#C" n="62"/>quo explicanda est differentia inter haec vota,
+          <lb ed="#C" n="63"/>et vola scholarium approbatorum. 
+          Supponi<lb break="no" ed="#C" n="64"/>mus autem differentiam hanc non posse esse
+          <lb ed="#C" n="65"/>substantialem, quia etiam inter vota simplicia
+          <lb ed="#C" n="66"/>et solemnia non intercedit; debet ergo esse
+          <lb ed="#C" n="67"/>moralis, nimirum quoad aliquos effectus, vel
+          <lb ed="#C" n="68"/>conditiones ad statum vita pertinentes. Est
+          <lb ed="#C" n="69"/>autem per se valde consentaneum rationi, ut
+          <lb ed="#C" n="70"/>aliqua hujusmodi ditferentia constituta fuerit
+          <lb ed="#C" n="71"/>inter scholares, et coadjutores formatos; 
+          scho<lb break="no" ed="#C" n="72"/>lares enim, licet veri religiosi sint, ut libro 3,
+          <lb ed="#C" n="73"/>cap. 3, tractatum est, adhuc tamen sunt 
+          ali<lb break="no" ed="#C" n="74"/>quo modo in via et in probatione, qui status,
+          <lb ed="#C" n="75"/>quoad id quod habet viae et probationis, non
+          <lb ed="#C" n="76"/>debet esse perpetuus, sed habere aliquem 
+          ter<lb break="no" ed="#C" n="77"/>minum ; ergo etiam in coadjutoribus 
+          requiri<lb break="no" ed="#C" n="78"/>tur aliquis status, qui sit veluti terminus, et
+          <lb ed="#C" n="79"/>approbatio ultima religionis in suo ordine. 
+          At<lb break="no" ed="#C" n="80"/>que haec est prima differentia inter gradum
+          <lb ed="#C" n="81"/>scholarium et coadjutorum a religione intenta;
+          <lb ed="#C" n="82"/>quomodo autem exerceatur, et in quo posita
+          <lb ed="#C" n="83"/>sit, explicandum superest. Secundo ergo ex
+          <lb ed="#C" n="84"/>parte votorum, et effectuum eorum, est 
+          diffe<lb break="no" ed="#C" n="85"/>rentia in voto paupertatis, quod in Societate
+          <lb ed="#C" n="86"/>reddit coadjutores incapaces dominii, et 
+          inha<lb break="no" ed="#C" n="87"/>biles ad haereditatem, quem effectum in 
+          scho<lb break="no" ed="#C" n="88"/>laribus non habet; utrumque autem constat
+          <lb ed="#C" n="89"/>ex Bullis Pontificiis n. 6 allatis, a quibus hic
+          <lb ed="#C" n="90"/>effectus maxime pendet. In voto autem 
+          casti<lb break="no" ed="#C" n="91"/>tatis nullam invenio differentiam quoad 
+          effec<lb break="no" ed="#C" n="92"/>tus, quia utrorumque votum obligat ad 
+          per<lb break="no" ed="#C" n="93"/>fectam castitatem, et inhabilitat ad 
+          matrimo<lb break="no" ed="#C" n="94"/>nium contrahendum, licet neutrum dirimat
+          <lb ed="#C" n="95"/>praecedens matrimonium ratum. Idem fere
+          <lb ed="#C" n="96"/>est de voto obedientiae, nisi quod coadjutores
+          <lb ed="#C" n="97"/>dum illud votum emittunt, exprimunt 
+          specia<lb break="no" ed="#C" n="98"/>liter curam circa puerorum eruditionem in
+          <lb ed="#C" n="99"/>doctrina Christiana, sicut professi ; sed jam 
+          su<lb break="no" ed="#C" n="100"/>pra, libro 6, c. 3, numero 9, diximus per hoc
+          <lb ed="#C" n="101"/>non addi specialem aliquam obligationem
+          <lb ed="#C" n="102"/>voti.
+        </p>
+        <p xml:id="szovsr-r06599-d1e1011">
+          <lb ed="#C" n="103"/>11. Causae sufficientes ad dimittendum 
+          scho<lb break="no" ed="#C" n="104"/>larem, non tamen coadjutorem formatum.—
+          Cer<lb break="no" ed="#C" n="105"/>tio ac praecipue differunt in strictiore 
+          obli<lb break="no" ed="#C" n="106"/>gatione ex parte religionis. Si quis enim 
+          con<lb break="no" ed="#C" n="107"/>sideret quae hactenus diximus, haec vota ideo
+          <lb ed="#C" n="108"/>tantum non sunt solemnia, quia non habent
+          <lb ed="#C" n="109"/>reciprocam obligationem, et perpetuitatem ex
+          <pb ed="#P" n="919"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>parte religionis, et in hoc conveniunt vota
+          <lb ed="#C" n="2"/>scholarium et coadjutorum. Diximus autem
+          <lb ed="#C" n="3"/>supra, in numero tertio, non ita hoc esse 
+          iu<lb break="no" ed="#C" n="4"/>telligendum, ut ipsa religio nullo modo 
+          obli<lb break="no" ed="#C" n="5"/>getur; sed ut non obligetur absolute, nec
+          <lb ed="#C" n="6"/>sine facultate retenta ad remittenda talia 
+          vo<lb break="no" ed="#C" n="7"/>ta ; obligetur tamen aliquo modo ad non 
+          dimit<lb break="no" ed="#C" n="8"/>tendum quacumque ex causa ob quam 
+          scho<lb break="no" ed="#C" n="9"/>laris juste dimitteretur, sed plane graviore; 
+          ita<lb break="no" ed="#C" n="10"/>que ut rem magis explicemus, in hac non 
+          di<lb break="no" ed="#C" n="11"/>mittendi obligatione ex parte religionis potest
+          <lb ed="#C" n="12"/>esse magis vel minus, et circa coadjutores 
+          for<lb break="no" ed="#C" n="13"/>matos est longe major, ideoque eorum vota 
+          ma<lb break="no" ed="#C" n="14"/>gis accedunt ad perfectionem votorum 
+          solem<lb break="no" ed="#C" n="15"/>nium. Et ex hac majori obligatione provenit, ut
+          <lb ed="#C" n="16"/>longe difficiltus sit expellere coadjutorem a 
+          So<lb break="no" ed="#C" n="17"/>cietate, quam scholarem, nam ex pluribus 
+          cau<lb break="no" ed="#C" n="18"/>sis potest hicexpelli, interdum invitus,interdum
+          <lb ed="#C" n="19"/>ex consensu illius et religionis ; coadjutor 
+          ve<lb break="no" ed="#C" n="20"/>ro (ut sentio) non tam piuribus, sed ex earum
+          <lb ed="#C" n="21"/>gravioribus quibusdam dimitti potest. Unde in
+          <lb ed="#C" n="22"/>secunda parte Constitutionum, cap. 1, lit. A,
+          <lb ed="#C" n="23"/>major dicitur esse in horum dimissione 
+          diffi<lb break="no" ed="#C" n="24"/>cultas, et lit. C, reservatur Generali. Unde in
+          <lb ed="#C" n="25"/>in secunda, tertia et quarta Congregationibus
+          <lb ed="#C" n="26"/>generalibus, ubi de officio vicarii agitur, in
+          <lb ed="#C" n="27"/>hoc professis aequiparantur. In particulari 
+          au<lb break="no" ed="#C" n="28"/>tem non invenio in Bullis vel Constitutonibus
+          <lb ed="#C" n="29"/>declaratam hanc differentiam secundum magis
+          <lb ed="#C" n="30"/>et minus, sed arbitrio Generalis esse relictam,
+          <lb ed="#C" n="31"/>et ideo eam in particulari non definio, sed 
+          pru<lb break="no" ed="#C" n="32"/>denti zelo et arbitrio Praelati committendam
+          <lb ed="#C" n="33"/>censeo. Experientia iamen mihi compertum
+          <lb ed="#C" n="34"/>est, longe difhicilius coadjutores dimitti, rarius
+          <lb ed="#C" n="35"/>enim hoc factum vidimus, illud vero saepius.
+          <lb ed="#C" n="36"/>Oportet ergo ut causa non temporalis, sed
+          <lb ed="#C" n="37"/>spiritualis sit ; positiveque religioni contraria,
+          <lb ed="#C" n="38"/>et non tantum negative. In scholaribus enim
+          <lb ed="#C" n="39"/>saepe corporalis infirmitas sufficit, maximce si
+          <lb ed="#C" n="40"/>ipsi id petant ; in coadjutoribus autem 
+          forma<lb break="no" ed="#C" n="41"/>tis non esset talis causa admittenda, etiam 
+          ip<lb break="no" ed="#C" n="42"/>sis petentibus. In scholari praecerea satis erit,
+          <lb ed="#C" n="43"/>qucd inutilis ad ministeria religionis videatur,
+          <lb ed="#C" n="44"/>prout haec latius, 1. 3, c. 9, sunt exposita ; in
+          <lb ed="#C" n="45"/>coadjutore autem minime, nisi etiam 
+          perni<lb break="no" ed="#C" n="46"/>ciosus sit. In scholari etiam non oportet 
+          sem<lb break="no" ed="#C" n="47"/>per expectare ut incorrigibilis sit, sed satis est
+          <lb ed="#C" n="48"/>quod difficilis naturae se ostendat ; in 
+          coad<lb break="no" ed="#C" n="49"/>jutore omnis curatio praemittenda est, ita ut
+          <lb ed="#C" n="50"/>prius se incorrigibilem ostendat. Denique quia
+          <lb ed="#C" n="51"/>scholaris adhuc in probatione est, non 
+          emen<lb break="no" ed="#C" n="52"/>dari, aut non meliorer fieri, erit sufficiens
+          <lb ed="#C" n="53"/>causa dimittendi illum; in coadjuture autem
+          <lb ed="#C" n="54"/>minime, quia jam cum talibus 
+          imperfectioni<lb break="no" ed="#C" n="55"/>bus, verbi gratia, admissus est, non ut probe-
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>tur, sed ut probatus, et ideo licet in eis 
+          ma<lb break="no" ed="#C" n="57"/>neat, expelli non potest. His ergo et similibus
+          <lb ed="#C" n="58"/>modis differentia haec intelligi potest.
+        </p>
+        <p xml:id="szovsr-r06599-d1e1162">
+          <lb ed="#C" n="59"/>12. Unde fit quarto, nt etiam quoad 
+          exte<lb break="no" ed="#C" n="60"/>riorem solemnitatem vota haec coadjutorum
+          <lb ed="#C" n="61"/>formatorum solemnius fiant. Unde quinta 
+          par<lb break="no" ed="#C" n="62"/>te Constitutionum, cap. 4, S 1, praecipiuntur
+          <lb ed="#C" n="63"/>fieri publice in ecclesia, vel sacello , coram
+          <lb ed="#C" n="64"/>domesticis et externis, et in manibus alicujus
+          <lb ed="#C" n="65"/>qui illa admittat, quod non ita asseritur in 
+          vo<lb break="no" ed="#C" n="66"/>iis scholarium ; idque ad explicandam 
+          majo<lb break="no" ed="#C" n="67"/>rem unitatem cum Societate, majoremque
+          <lb ed="#C" n="68"/>obligationem, quae ex parte Societatis respectu
+          <lb ed="#C" n="69"/>coadjutorum intervenit. Alia praeterea 
+          diffe<lb break="no" ed="#C" n="70"/>rentia assignari potest, quoad conditionem
+          <lb ed="#C" n="71"/>praerequisitam ex parte personarum ad 
+          hujus<lb break="no" ed="#C" n="72"/>modi vota ; nam in coadjutoribus formatis,
+          <lb ed="#C" n="73"/>regulariter postulatur diuturnior experientia
+          <lb ed="#C" n="74"/>et probatio, juxta quintam partem Constitu
+          <lb ed="#C" n="75"/>tionum, c. 2, S 4, licet vero certum tempu
+          <lb ed="#C" n="76"/>ibi non limitetur, sicut de professis trium 
+          vo<lb break="no" ed="#C" n="77"/>torum factum fuerat in S 3. In ordinationibus
+          <lb ed="#C" n="78"/>tamen Generalium toti Societati communibus,
+          <lb ed="#C" n="79"/>editis tum anno 1606, pag. 225, in fine, n. 5,
+          <lb ed="#C" n="80"/>tum etiam anno 10646, pag. 144, in fine, 
+          se<lb break="no" ed="#C" n="81"/>ptennium specificatur, ad non differendam 
+          su<lb break="no" ed="#C" n="82"/>per illis informationem. Item requiritur quod
+          <lb ed="#C" n="83"/>docti, vel sutficienti doctrina instructi, Exam.,
+          <lb ed="#C" n="84"/>c. 1, S IO,etc. 6, S 1, ubi etiam postulatur ut
+          <lb ed="#C" n="85"/>sint sacerdotes. Denique hac ratione 
+          coadjuto<lb break="no" ed="#C" n="86"/>res spirituales ex scholaribus fiunt, et omnes
+          <lb ed="#C" n="87"/>hae differentiae sequuntur ex prima ; nam 
+          scho<lb break="no" ed="#C" n="88"/>lares adhuc sunt quodammodo in via, hi vero
+          <lb ed="#C" n="89"/>jam in termino sunt.
+        </p>
+        <p xml:id="szovsr-r06599-d1e1232">
+          <lb ed="#C" n="90"/>13. Primum discrimen eorundem 
+          coadjuto<lb break="no" ed="#C" n="91"/>rum a professis votorum trium. — Unde etiam
+          <lb ed="#C" n="92"/>constat, in his etiam omnibus convenire 
+          coad<lb break="no" ed="#C" n="93"/>jutores formatos cum professis trium votorum,
+          <lb ed="#C" n="94"/>quamvis nonnullae etiam differentiae inter eos
+          <lb ed="#C" n="95"/>ex Constitutionibus notari possint, praeter eam
+          <lb ed="#C" n="96"/>quae est in solemnitate votorum. Primo enim
+          <lb ed="#C" n="97"/>in his professis determinatur tempus 
+          septen<lb break="no" ed="#C" n="98"/>ni, ante quod admitti non possunt secundum
+          <lb ed="#C" n="99"/>Constitutiones ; de coadjutoribus vero non fit
+          <lb ed="#C" n="100"/>certa limitatio, sed arbitrio Generalis 
+          relinqui<lb break="no" ed="#C" n="101"/>tur, quoad in ordinationibus expressum est, ut
+          <lb ed="#C" n="102"/>paulo ante notavimus. Ille enim modus 
+          pro<lb break="no" ed="#C" n="103"/>fessionis (ut c. 1, num. 6, dixi) est per modum
+          <lb ed="#C" n="104"/>cujusdam dispensationis, et ideo major 
+          pro<lb break="no" ed="#C" n="105"/>batio ad illum requiritur, siquidem in eis 
+          an<lb break="no" ed="#C" n="106"/>ticipari septennium non potest, in 
+          coadjutori<lb break="no" ed="#C" n="107"/>bus autem non potest differri, saltem quoad
+          <lb ed="#C" n="108"/>informationem. Secundo, de coadjutoribus 
+          ex<lb break="no" ed="#C" n="109"/>presse dicitur in citato S 1, ut sint sacerdotes,
+          <lb ed="#C" n="110"/>de his vero professis non ita expresse; tamen
+          <pb ed="#P" n="920"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>ut supra in dicto cap. 1, num. 2, advertimus,
+          <lb ed="#C" n="2"/>in examine comprehenduntur hi prcfessi sub
+          <lb ed="#C" n="3"/>coadjutoribus spiritualibus, quia cap. 1, $8,
+          <lb ed="#C" n="4"/>expresse fit mentio professorum tantum 
+          qua<lb break="no" ed="#C" n="5"/>tuor votorum, et in sequenti soli coadjutores
+          <lb ed="#C" n="6"/>adduntur ; unde videntur sub his comprehendi
+          <lb ed="#C" n="7"/>professi trium votorum ; ideoque omnia, quae
+          <lb ed="#C" n="8"/>in eodem examine pro coadjutoribus 
+          spiritua<lb break="no" ed="#C" n="9"/>libus requicuntur, esse intelliguntur 
+          necessa<lb break="no" ed="#C" n="10"/>ria his professis, quorum unum est 
+          sacerdo<lb break="no" ed="#C" n="11"/>tium. Unde quinta parte Constitutionum, c. 2,
+          <lb ed="#C" n="12"/>litt. C, in his professis postulatur ordinarie,
+          <lb ed="#C" n="13"/>ut habeant sufficientiam in litteris, quae ad
+          <lb ed="#C" n="14"/>confessarii munus bene obeundum satis sit,
+          <lb ed="#C" n="15"/>nisi aliis Dei donis compensetur. Unde 
+          vide<lb break="no" ed="#C" n="16"/>tur supponi debere esse sacerdotes, qui in 
+          mu<lb break="no" ed="#C" n="17"/>nere audiendi confessiones possint exerceri.
+          <lb ed="#C" n="18"/>Atque ita videtur quidem dicendum jure 
+          ordi<lb break="no" ed="#C" n="19"/>nario. Aliquando (ut supra notavi, lib. 6, cap.
+          <lb ed="#C" n="20"/>primo, numero quarto, admittuntur ad 
+          pro<lb break="no" ed="#C" n="21"/>fessionem trium votorum aliqui ante 
+          sacerdo<lb break="no" ed="#C" n="22"/>tium ; sed illud est extra Constitutiones, ob
+          <lb ed="#C" n="23"/>peculiares casus occurrentes, qui in 
+          coadjuto<lb break="no" ed="#C" n="24"/>ribus spiritualibus locum non habent, et ideo
+          <lb ed="#C" n="25"/>nunquam in eis fit haec dispensatio.
+        </p>
+        <p xml:id="szovsr-r06599-d1e1339">
+          <lb ed="#C" n="26"/>14. Tertia differentia assignari potest, quia
+          <lb ed="#C" n="27"/>coadjntores formati non emittunt alia 
+          quin<lb break="no" ed="#C" n="28"/>que vota simplicia, quae professi quatuor 
+          vo<lb break="no" ed="#C" n="29"/>torum faciunt; illa vero promittunt professi
+          <lb ed="#C" n="30"/>irium votorum, ut declaratum est in quarta
+          <lb ed="#C" n="31"/>Congregatione generali, decret. trigesimo 
+          no<lb break="no" ed="#C" n="32"/>no, vel can. 10. Coadjutoribus enim non 
+          imn<lb break="no" ed="#C" n="33"/>ponitur hoc onus, quia Constitutiones solum a
+          <lb ed="#C" n="34"/>professis illa vota exigunt, sexta parte, cap. 2,
+          <lb ed="#C" n="35"/>S 1, parte decima, S 6. Et quia in eis locis 
+          ab<lb break="no" ed="#C" n="36"/>solute dicitur: Quicumqnue in Societate 
+          profes<lb break="no" ed="#C" n="37"/>sionem emiserint , vel omnes professi, et non
+          <lb ed="#C" n="38"/>adhibet limitationem de professione quatuor
+          <lb ed="#C" n="39"/>votorum, ideo de omnibus generaliter 
+          intellec<lb break="no" ed="#C" n="40"/>tum hoc est. Quamvis enim interdum illa vox
+          <lb ed="#C" n="41"/>absolute prolata soleat sumi in 
+          Constitutioni<lb break="no" ed="#C" n="42"/>bnus, quasi principaliori significato, ut patet
+          <lb ed="#C" n="43"/>quinta parte, cap. 2, S 2, notavimusque in 
+          li<lb break="no" ed="#C" n="44"/>bro praecedenti, cap. 3, num. 3, tamen, quia
+          <lb ed="#C" n="45"/>illa Constitutio erat favorabilis religioni, 
+          am<lb break="no" ed="#C" n="46"/>ple interpretanda fuit. Item quia hi sunt vere
+          <lb ed="#C" n="47"/>et simpliciter professi, et ideo 
+          comprehendun<lb break="no" ed="#C" n="48"/>tur sub regula generaliter ac indefinite 
+          obli<lb break="no" ed="#C" n="49"/>gante professos. Ratio autem hujus 
+          differen<lb break="no" ed="#C" n="50"/>tiae esse potuit , quia professi sunt magis 
+          im<lb break="no" ed="#C" n="51"/>mohiliter conjuncti Societati, et possunt 
+          faci<lb break="no" ed="#C" n="52"/>lius admitti in Congregationibus generalibus,
+          <lb ed="#C" n="53"/>et ideo oportuit ut haberent omnes 
+          obligatio<lb break="no" ed="#C" n="54"/>nes quas professi habent , ad institutum 
+          So<lb break="no" ed="#C" n="55"/>cietatis in sua puritate conservandum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

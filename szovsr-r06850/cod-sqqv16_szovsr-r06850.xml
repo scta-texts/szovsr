@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="925"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r06850"><!-- t10l8prae -->
+        <head xml:id="szovsr-r06850-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-r06850-d1e103">
+          <cb ed="#V" n="d"/>
+          <lb ed="#C" n="32"/>LIBER OCTAVUS
+          <lb ed="#C" n="33"/>DE MEDIIS
+          <lb ed="#C" n="34"/>QUIBUS AD PROPRIAM PERFECTIONEM ACQUIRENDAM SOCIETAS UTITUR.
+        </p>
+        <p xml:id="szovsr-r06850-d1e114">
+          <cb ed="#V" n="e"/>
+          <lb ed="#C" n="35"/>Explicatis votis omnibus Societatis, et variis
+          <lb ed="#C" n="36"/>personarum ordinibus qui ex eis oriuntur, 
+          di<lb break="no" ed="#C" n="37"/>cendum sequitur de actibus seu ministeriis in
+          <lb ed="#C" n="38"/>quibus personae Societatis exerceri et occupari
+          <lb ed="#C" n="39"/>debent. Ordinatur autem haec rcligio, ut 
+          vi<lb break="no" ed="#C" n="40"/>dimus , primo quidem ac per se, ad suorum
+          <lb ed="#C" n="41"/>membrorum spiritualem perfectionem , 
+          dein<lb break="no" ed="#C" n="42"/>de vero proximorum ; et ideo, priusquam de
+          <lb ed="#C" n="43"/>ministeriis erga proximos dicamus, de mediis
+          <lb ed="#C" n="44"/>quibus ipsa religio in se, et in suis membris
+          <cb ed="#V" n="f"/>
+          <lb ed="#C" n="45"/>spiritualiter perficitur, dicendum est ; haec 
+          au<lb break="no" ed="#C" n="46"/>tem media quaedam sunt mere interna, per
+          <lb ed="#C" n="47"/>quae anima immediate conjungitur Deo, dum
+          <lb ed="#C" n="48"/>oeterna meditatur, conscientiam recogroscit,
+          <lb ed="#C" n="49"/>et in interioribus actibus virtutum omnium
+          <lb ed="#C" n="50"/>versatur ; alia sunt externa, quae subdistingui
+          <lb ed="#C" n="51"/>possunt in ca quae per sese, et ex opcere 
+          ope<lb break="no" ed="#C" n="52"/>rato animam sanctificant, ut sunt sacrificium
+          <lb ed="#C" n="53"/>et sacramenta, et in ea quae ex opere 
+          operan<lb break="no" ed="#C" n="54"/>tis, ut sunt exteriores exercitationes virtutum,
+          <pb ed="#P" n="926"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>De his ergo omnibus ex professo dicendum
+          <lb ed="#C" n="2"/>est. et distinctius explicabimus aliqua, quae
+          <lb ed="#C" n="3"/>in primo libro, cap. quinto et sexto, tacta sunt;
+          <lb ed="#C" n="4"/>quae vero a cap. septimo, et dcinceps 
+          suffi<lb break="no" ed="#C" n="5"/>cienter tractata sunt, hic omittuntur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

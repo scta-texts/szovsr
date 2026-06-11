@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="427"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q10682"><!-- t9l1prae -->
+        <head xml:id="szovsr-q10682-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-q10682-d1e103">
+          <pb ed="#P" n="427"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER PRIMUS
+          <lb ed="#P" n="2"/>DE
+          <lb ed="#P" n="3"/>VARIETATE RELIGIONUM IN GENERE.
+        </p>
+        <p xml:id="szovsr-q10682-d1e116">
+          <lb ed="#P" n="4"/>Ordo et partitio hujus tractatus. — 
+          Post<lb break="no" ed="#P" n="5"/>quam ea omnia explicuimus, quae de statu 
+          re<lb break="no" ed="#P" n="6"/>ligioso absolute spectato consideranda 
+          occur<lb break="no" ed="#P" n="7"/>runt, quoniam propositum nostrum est, ea
+          <lb ed="#P" n="8"/>omnia in religione Societatis specialiter 
+          con<lb break="no" ed="#P" n="9"/>templari, et pro viribus explicare, ut 
+          comple<lb break="no" ed="#P" n="10"/>ia doctrina sit, necesse est de distinctione et
+          <lb ed="#P" n="11"/>varietate religionum aliqua praemittere. 
+          Pos<lb break="no" ed="#P" n="12"/>sunt autem religiones distingui vel per 
+          quae<lb break="no" ed="#P" n="13"/>dam generalia capita, seu conditiones et fines
+          <lb ed="#P" n="14"/>earum, ut religio contemplativa, vel activa,
+          <lb ed="#P" n="15"/>etc., vel per species proprias earum, ut 
+          Prae<lb break="no" ed="#P" n="16"/>dicatorum, Minorum, etc.; hoc ergo libro 
+          pri<lb break="no" ed="#P" n="17"/>orem divisionem, in sequenti vero posteriorem
+          <lb ed="#P" n="18"/>explicabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="427"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q10688"><!-- t9l1c1 -->
+        <head xml:id="szovsr-q10688-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-q10688-Hd1e103" type="question-title">Utrum potuerit vel debuerit esse in ecclesia religionum varietas.</head>
+        <p xml:id="szovsr-q10688-d1e106">
+          <lb ed="#P" n="19"/>CAPUT I.
+          <lb ed="#P" n="20"/>UTRUM POTUERIT VEL DEBUERIT ESSE IN
+          <lb ed="#P" n="21"/>ECCLESIA RELIGIONUM VARIETAS.
+        </p>
+        <p xml:id="szovsr-q10688-d1e115">
+          <lb ed="#P" n="22"/>1. Impugnatio haereticorum pro parte 
+          ne<lb break="no" ed="#P" n="23"/>gativa. — Imgpugnatio altera ab incommodis.
+          <lb ed="#P" n="24"/>— Haeretici, qui summo odio hunc statum
+          <lb ed="#P" n="25"/>prosequuntur, multitudinem ac varietatem
+          <lb ed="#P" n="26"/>religionum maxime damnant, ac perinde 
+          pu<lb break="no" ed="#P" n="27"/>tant esse dicere, hos religiosos esse sancti 
+          Do<lb break="no" ed="#P" n="28"/>minici, illos sancti Francisci, ac dicere: Ego
+          <lb ed="#P" n="29"/>sum Puuli, ego autem Apollo, quod 
+          repre<lb break="no" ed="#P" n="30"/>hendit Paulus, 1 Corint. 1 et 3; quia hoc est
+          <lb ed="#P" n="31"/>schismata et divisiones in Ecclesiam 
+          introdu<lb break="no" ed="#P" n="32"/>cere, unde videntur contendere, salva unitate
+          <lb ed="#P" n="33"/>fidei et charitatis, non posse hanc 
+          multiplica<lb break="no" ed="#P" n="34"/>tionem admitti. Nam, sicut fides et charitas
+          <lb ed="#P" n="35"/>una est, et ideo esse potest una religio 
+          Chris<lb break="no" ed="#P" n="36"/>tiana, ita etiam perfectio charitatis una est;
+          <lb ed="#P" n="37"/>ergo non possunt in ordine ad illam 
+          religio<lb break="no" ed="#P" n="38"/>nem multiplicari , maxime quia nos docemus
+          <lb ed="#P" n="39"/>viam consiliorum esse viam ad hanc 
+          perfec<lb break="no" ed="#P" n="40"/>tionem, et consilia eadem sunt respectu 
+          om<lb break="no" ed="#P" n="41"/>nium ; ergo et religio debet esse eadem. Tan-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="42"/>dem concluditur, saltem non expedire hanc
+          <lb ed="#P" n="43"/>varietatem propter divisionem et incommoda
+          <lb ed="#P" n="44"/>quae ex ea nascuntur. Quod videtur 
+          experi<lb break="no" ed="#P" n="45"/>mento posse comprobari ; nam occasione hujus
+          <lb ed="#P" n="46"/>diversitatis multae contentiones inter varias
+          <lb ed="#P" n="47"/>religiones ortae sunt, dum aliae alias praecedere
+          <lb ed="#P" n="48"/>contendunt, vel honorc et ioco, vel fama, et
+          <lb ed="#P" n="49"/>existimatione apud homines, vel litteris, et
+          <lb ed="#P" n="50"/>aliis hujusmodi bonis. Ex quo etiam fit ut
+          <lb ed="#P" n="51"/>seepe proximorum fructus propter 
+          religiosc<lb break="no" ed="#P" n="52"/>rum contentionem inter se impediantur ; quae
+          <lb ed="#P" n="53"/>omnia cessarent, si omnes idem corpus 
+          reli<lb break="no" ed="#P" n="54"/>gionis conficerent. His accedit Divi Basilii 
+          auc<lb break="no" ed="#P" n="55"/>toritas; ille enim similem fere quaestionem
+          <lb ed="#P" n="56"/>pertractat in Regulis fus. disp., quaest. 35, ubi
+          <lb ed="#P" n="57"/>quaerit an expediat in eodem pago plures
+          <lb ed="#P" n="58"/>esse religiosorum conventus; responcet non
+          <lb ed="#P" n="59"/>expedire, tum quia difficile est unum invenire
+          <lb ed="#P" n="60"/>condignum Praelatum, nedum plures; tum
+          <lb ed="#P" n="61"/>quia inter eos qui sunt ejusdem artis, facile
+          <lb ed="#P" n="62"/>oriuntur contentiones et aemulationes, quod
+          <lb ed="#P" n="63"/>( inquit) idem fere in hac vita solet accidere:
+          <lb ed="#P" n="64"/>Initio enim contentiones a rebus honestis 
+          aus<lb break="no" ed="#P" n="65"/>picantes, cum inter se certatim ali alios 
+          stu<lb break="no" ed="#P" n="66"/>deant superare , dum progressus ajores 
+          fa<lb break="no" ed="#P" n="67"/>ciunt, postremo in simultates contentiosas 
+          de<lb break="no" ed="#P" n="68"/>labuntur. Loquitur autem Dasilius de 
+          monas<lb break="no" ed="#P" n="69"/>teriis ejusdem rationis et religionis; multo 
+          au<lb break="no" ed="#P" n="70"/>tem gravius sequuntur illa incommoda in 
+          di<lb break="no" ed="#P" n="71"/>versitate religionum. Accedit tandem quod,
+          <lb ed="#P" n="72"/>si semel haec varietas admittatur, in infinitum
+          <lb ed="#P" n="73"/>crescere et multiplicari potest, ut etiam 
+          expe<lb break="no" ed="#P" n="74"/>rientia nos docet, quia homines semper amant
+          <lb ed="#P" n="75"/>nova, et inventiones proprias; at haec nimia
+          <lb ed="#P" n="76"/>multitudo non potest non parere confusionem,
+          <lb ed="#P" n="77"/>ut dicitur in c. ult., de Regular., et cap. unic.,
+          <lb ed="#P" n="78"/>eodem tit., in 6; ergo, etc.
+        </p>
+        <p xml:id="szovsr-q10688-d1e243">
+          <lb ed="#P" n="79"/>2. Puncta tria tractanda proponuntur. —
+          <lb ed="#P" n="80"/>Nihilominus veritas catholiea est, varietatem
+          <lb ed="#P" n="81"/>religionum, ad decorem et utilitatem Ecclesiae
+          <lb ed="#P" n="82"/>majusque Dei obsequium pertinere. Hoc veri-
+          <pb ed="#P" n="428"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tas de fide certa est, al quam confirmandam
+          <lb ed="#P" n="2"/>sufficiunt nobis Sanctorum exempla, qui 
+          va<lb break="no" ed="#P" n="3"/>rias religiones instituerunt, et communis 
+          Ec<lb break="no" ed="#P" n="4"/>clesiae consensus, Pontificumque auctoritas,
+          <lb ed="#P" n="5"/>quae illas approbarunt, et optima verba 
+          Gre<lb break="no" ed="#P" n="6"/>gorii NHT, in quadam Constitutione 
+          Ascen<lb break="no" ed="#P" n="7"/>dente Domino, in Societatis confirmationem,
+          <lb ed="#P" n="8"/>ubi sic inquit: Cum divina providentia, pro
+          <lb ed="#P" n="9"/>temporum necessitate, varia et salutaria 
+          odi<lb break="no" ed="#P" n="10"/>mum instituta in Feclesia sua producerit , 
+          no<lb break="no" ed="#P" n="11"/>visque in ea subinde uascentibus morbis nova
+          <lb ed="#P" n="12"/>vemedia, novisque emergentibus hostium 
+          impu<lb break="no" ed="#P" n="13"/>gnationibus, nova regularium ordimum aucilia
+          <lb ed="#P" n="14"/>excitarit, et cuique illorum, juvta cujuslibet
+          <lb ed="#P" n="15"/>peculiaris gratie vocationem, peculiares 
+          quas<lb break="no" ed="#P" n="16"/>dam notas, peculiaria insignia, et opportuna
+          <lb ed="#P" n="17"/>ad [inem, quem intendunt, edia 
+          suggesse<lb break="no" ed="#P" n="18"/>rit, etc. Constat ergo varietatem religionum
+          <lb ed="#P" n="19"/>divina providentia introductam esse, esseque
+          <lb ed="#P" n="20"/>Veclesiae opportunam et auxiliarem. Ut autem
+          <lb ed="#P" n="21"/>hane veritatem magis explicemus et 
+          confirme<lb break="no" ed="#P" n="22"/>mus, tria puncta declaranda sunt : primum,
+          <lb ed="#P" n="23"/>qualis distinctio et varietas inter religiones
+          <lb ed="#P" n="24"/>intelligi possit; secundum, quae sit sufliciens
+          <lb ed="#P" n="25"/>ratio ejus; tertium, si qua incommoda ex
+          <lb ed="#P" n="26"/>illa nasci possint , quomodo caveantur; per
+          <lb ed="#P" n="27"/>quod allatis in num. 1 impugnationihus 
+          sa<lb break="no" ed="#P" n="28"/>tisflet.
+        </p>
+        <p xml:id="szovsr-q10688-d1e320">
+          <lb ed="#P" n="29"/>Qualis distinctio et varietas iuter religiones
+          <lb ed="#P" n="30"/>intelligi possit.
+        </p>
+        <p xml:id="szovsr-q10688-d1e327">
+          <lb ed="#P" n="31"/>J. Haec varietas aut ea fine peculiari, aut
+          <lb ed="#P" n="32"/>ex mediis petenda. — Circa primum 
+          statuen<lb break="no" ed="#P" n="33"/>dum imprimis est, omnes religiones 
+          necessa<lb break="no" ed="#P" n="34"/>rio convenire in substantiali ritu status 
+          reli<lb break="no" ed="#P" n="35"/>giosi, qui consistit in duobus, scilicet, in 
+          in<lb break="no" ed="#P" n="36"/>tendenda pertectione charitatis erga Deum, et
+          <lb ed="#P" n="37"/>consequenter etiam circa proximum, et in 
+          re<lb break="no" ed="#P" n="38"/>nunciatione seculi per tria vota substantialia,
+          <lb ed="#P" n="39"/>et traditionem illam talibus votis firmatam,
+          <lb ed="#P" n="40"/>per quam homo se totum consecrat divino
+          <lb ed="#P" n="41"/>obsequio. Haec duo satis constant ex omnibus
+          <lb ed="#P" n="42"/>hactenus dictis de statu religionis ; cum haec
+          <lb ed="#P" n="43"/>enim sint substantialia illi statui, non 
+          pos<lb break="no" ed="#P" n="44"/>sunt non convenire omni verae religioni, sive
+          <lb ed="#P" n="45"/>illa sit substantia generica, sive specifica, de
+          <lb ed="#P" n="46"/>quo statim. Hinc D. Thomas 2. 2, quaest.
+          <lb ed="#P" n="47"/>188, articulo 1, concludit duobus tantum 
+          mo<lb break="no" ed="#P" n="48"/>dis posse distinctionem inter religiones 
+          inve<lb break="no" ed="#P" n="49"/>niri, scilicet, vel in fine proprio, vel in 
+          exer<lb break="no" ed="#P" n="50"/>citiis et mediis quibus ad eumdem finem 
+          ten<lb break="no" ed="#P" n="51"/>dit. Cum enim religio sit status tendens in 
+          fi<lb break="no" ed="#P" n="52"/>nem perfectionis, necesse est ut per certa ac
+          <lb ed="#P" n="53"/>determinata media tendat: ergo non potest
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="54"/>alia distinctio inter religiones cogitari, nisi ex
+          <lb ed="#P" n="55"/>fine proprio, vel mediis.
+        </p>
+        <p xml:id="szovsr-q10688-d1e386">
+          <lb ed="#P" n="56"/>4. Objectio contra varietatem ea fine.—Quid
+          <lb ed="#P" n="57"/>quando ducee religiones habent eumdem finem
+          <lb ed="#P" n="58"/>promimun. — Dices: imo non videntur 
+          reli<lb break="no" ed="#P" n="59"/>giones distingui in finibus, sed solum in 
+          me<lb break="no" ed="#P" n="60"/>diis ; omnia enim, quae intendunt vel 
+          operan<lb break="no" ed="#P" n="61"/>tur, sunt media in finem charitatis perfectae ;
+          <lb ed="#P" n="62"/>ergo solum possunt distingui in mediis quibus
+          <lb ed="#P" n="63"/>utuntur ad hunc finem charitatis perfectae.
+          <lb ed="#P" n="64"/>Respondeo, verum quidem esse, omnes fines
+          <lb ed="#P" n="65"/>particulares religionum singularum esse 
+          me<lb break="no" ed="#P" n="66"/>dia, si cum generali perfectione charitatis
+          <lb ed="#P" n="67"/>comparentur ; sunt tamen nihilominus fines
+          <lb ed="#P" n="68"/>proprii, quia sunt bona per se honesta, quae
+          <lb ed="#P" n="69"/>propter se proxime expetuntur, et propter 
+          ip<lb break="no" ed="#P" n="70"/>sa reliqua omnia exercitia talium religionum
+          <lb ed="#P" n="71"/>instituta sunt, vel assumuntur. Dici etiam
+          <lb ed="#P" n="72"/>possunt illi fines, quia sunt quasi formales
+          <lb ed="#P" n="73"/>quaedam actiones ipsius charitatis, quae, ut in
+          <lb ed="#P" n="74"/>se tales sunt, intenduntur ut fines; ut vero per
+          <lb ed="#P" n="75"/>eas comparatur perfectio charitatis absolute
+          <lb ed="#P" n="76"/>et secundum se spectatae, media dici possunt.
+          <lb ed="#P" n="77"/>Itaque si charitas secundum se consideretur,
+          <lb ed="#P" n="78"/>plura habet oflicia, in quibus exercetur, et
+          <lb ed="#P" n="79"/>eisdem proxime augetur ; sunt autem illa
+          <lb ed="#P" n="80"/>adeo diversa, ut non possint omnia et singula
+          <lb ed="#P" n="81"/>per se primo ab omni religione intendi, quia
+          <lb ed="#P" n="82"/>quaedam in contemplatione Dei, aliae in 
+          ope<lb break="no" ed="#P" n="83"/>ratione circa proximum versantur, et inter
+          <lb ed="#P" n="84"/>actiones erga proximum magna est varietas,
+          <lb ed="#P" n="85"/>quae non potest sub eodem vitae instituto 
+          prin<lb break="no" ed="#P" n="86"/>cipaliter intendi, ut relemptio captivorum,
+          <lb ed="#P" n="87"/>infirmorum curatio, etc. Hinc ergo factum est,
+          <lb ed="#P" n="88"/>nt quaedam religio dicatur instituta ad hunc
+          <lb ed="#P" n="89"/>finem proprium, id est, ad hoc officium 
+          cha<lb break="no" ed="#P" n="90"/>ritatis, alia ad alium, et hac ratione 
+          distin<lb break="no" ed="#P" n="91"/>guuntur aliquae religiones es finibus, ut 
+          reli<lb break="no" ed="#P" n="92"/>sio contemplativa ab activa, et sic de aliis. Ad
+          <lb ed="#P" n="93"/>hunc autem finem proprium consequendum,
+          <lb ed="#P" n="94"/>et religiose exercendum, utitur unaquaque
+          <lb ed="#P" n="95"/>religio propriis modis et observantiis, ut 
+          ora<lb break="no" ed="#P" n="96"/>tionibus, jejuniis, operibus manuum. et 
+          simi<lb break="no" ed="#P" n="97"/>libus, et haee vocantur propria media, quia
+          <lb ed="#P" n="98"/>immediate referuntur ad illum proprium 
+          fi<lb break="no" ed="#P" n="99"/>nem, etillo mediante ad generalem finem 
+          per<lb break="no" ed="#P" n="100"/>fectionis charitatis. Contingit autem aliquando
+          <lb ed="#P" n="101"/>duas religiones ad eumdem prosimum 
+          sceo<lb break="no" ed="#P" n="102"/>pum esse institutas, ut ad militiam, verbi
+          <lb ed="#P" n="103"/>gratia, uti tamen diversis observantiis, ad 
+          il<lb break="no" ed="#P" n="104"/>lum finem religiose exercendum, et tunc 
+          di<lb break="no" ed="#P" n="105"/>cuntur religiones distingui in mediis, et non
+          <lb ed="#P" n="106"/>in fine; sicut motus interdum distinguuntur,
+          <lb ed="#P" n="107"/>quia ad diversos terminos tendunt, aliquando
+          <lb ed="#P" n="108"/>vero quia ad eumdem tendunt diversa figura.
+          <pb ed="#P" n="429"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>vel per diversa spatia ; quae posterior 
+          distinc<lb break="no" ed="#P" n="2"/>tio solet a Philosophis revocari ad 
+          distinctio<lb break="no" ed="#P" n="3"/>nem terminorum formalium, cum prior 
+          dis<lb break="no" ed="#P" n="4"/>tinctio sit per terminos reales et formales ; 
+          sic<lb break="no" ed="#P" n="5"/>que in proprio dici possunt religiones omnes
+          <lb ed="#P" n="6"/>distingui ex fine, quia, licet aliquae in proximo
+          <lb ed="#P" n="7"/>linerealiter convenire videantur, tamen, 
+          qua<lb break="no" ed="#P" n="8"/>tenus illum intendunt per diversa media, et
+          <lb ed="#P" n="9"/>exercitia, etiam in ipso formaliter distingui
+          <lb ed="#P" n="10"/>videntur, quia sub alia ratione, aut modo, aut
+          <lb ed="#P" n="11"/>perfectione illum intendunt. Modus autem 
+          lo<lb break="no" ed="#P" n="12"/>quendi D. Thomae sicut magis realis est, ita
+          <lb ed="#P" n="13"/>etiam est magis perspicuus et clarus.
+        </p>
+        <p xml:id="szovsr-q10688-d1e536">
+          <lb ed="#P" n="14"/>5. Distinctio religionum eam finibus 
+          majori<lb break="no" ed="#P" n="15"/>bus. — Ex quo recte idem infert, magis 
+          dis<lb break="no" ed="#P" n="16"/>tingui religiones, quae ex fine, quam quae ex
+          <lb ed="#P" n="17"/>solis mediis, sive exercitiis in ordine ad 
+          eum<lb break="no" ed="#P" n="18"/>dem finem distinguuntur. Quod est per se 
+          sa<lb break="no" ed="#P" n="19"/>tis clarum ; tum quia distinctio in rebus 
+          mo<lb break="no" ed="#P" n="20"/>ralibus maxime est ex finibus ; religio autem
+          <lb ed="#P" n="21"/>moralis res est ; tum etiam quia religiones,
+          <lb ed="#P" n="22"/>quie in finibus distinguuntur , regulariter
+          <lb ed="#P" n="23"/>ctiam in mediis et exercitiis diversitatem 
+          ha<lb break="no" ed="#P" n="24"/>bent, quia ad fines diversos regulariter media
+          <lb ed="#P" n="25"/>diversa requiruntur, etiamsi in aliquibus 
+          eo<lb break="no" ed="#P" n="26"/>rum possit esse convenientia ; tum denique
+          <lb ed="#P" n="27"/>quia, quo major est convenientia inter aliqua
+          <lb ed="#P" n="28"/>duo, co illa minus distinguuntur; religiones
+          <lb ed="#P" n="29"/>autem, quae in fine conveniunt, magnam 
+          in<lb break="no" ed="#P" n="30"/>ter se habent conveniecntiam, quam aliae non
+          <lb ed="#P" n="31"/>habent ; ergo. Quapropter adeo verum hoc est,
+          <lb ed="#P" n="32"/>ut religiones, quae in fine distingurntur, 
+          pos<lb break="no" ed="#P" n="33"/>siut quodammodo dici specie diversae, aliae
+          <lb ed="#P" n="34"/>vero tantum accidentaliter. Patet 
+          proportio<lb break="no" ed="#P" n="35"/>uali ratione, nam finis est, qui in moralibus
+          <lb ed="#P" n="36"/>dat speciem ; ergo religiones, quae 
+          distinguun<lb break="no" ed="#P" n="37"/>tur in fine, dici possunt specie diversae. Item
+          <lb ed="#P" n="38"/>artes, quae tendunt ad diversos fines, specie
+          <lb ed="#P" n="39"/>distinguuntur; sed religiones sunt veluti 
+          quae<lb break="no" ed="#P" n="40"/>cam spirituales disciplinae seu artes; ergo.
+          <lb ed="#P" n="41"/>Haec autem distinctio in finibus tanto erit 
+          ma<lb break="no" ed="#P" n="42"/>jor, quanto inter ipsos fines secundum se 
+          spec<lb break="no" ed="#P" n="43"/>tatos major fuerit. Aliquando enim fines ipsi
+          <lb ed="#P" n="44"/>erunt quasi substantialiter diversi, ut 
+          hospita<lb break="no" ed="#P" n="45"/>litas, et praedicatio verbi Dei; aliquando vero
+          <lb ed="#P" n="46"/>solum sccundum magis et minus, ut 
+          contem<lb break="no" ed="#P" n="47"/>platio perpetua, seu diuturna, vel solum 
+          defi<lb break="no" ed="#P" n="48"/>nitis horis; item praedicatio Evangelii inter
+          <lb ed="#P" n="49"/>fideles, velin universo orbe et inter infideles,
+          <lb ed="#P" n="50"/>et sic de aliis. Clarum est ergo majorem esse
+          <lb ed="#P" n="51"/>diversitatem religionum, quando fines sunt
+          <lb ed="#P" n="52"/>substantialiter diversi, tuncque magis dici
+          <lb ed="#P" n="53"/>posse religiones ipsas substantia diversas ;
+          <lb ed="#P" n="54"/>quamvis in hoc oportet magnam vim in verbis
+          <lb ed="#P" n="55"/>constituere, quia hic revera nonu potest cssc
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>diversitas in substantia physica, ut sic dicam,
+          <lb ed="#P" n="57"/>quia traditio et tria substantialia vota, quae in
+          <lb ed="#P" n="58"/>omnibus religionibus fiunt, ejusdem speciei et
+          <lb ed="#P" n="59"/>cssentiae sunt; igitur religionum diversitas
+          <lb ed="#P" n="60"/>non potest esse in substantia status. Moraliter
+          <lb ed="#P" n="61"/>autem dici possunt quodammodo 
+          substantiali<lb break="no" ed="#P" n="62"/>ter differre, quae in primario fine differunt,
+          <lb ed="#P" n="63"/>comparatione earum, quae in ordine ad 
+          eum<lb break="no" ed="#P" n="64"/>dem finem solum in mediis seu exercitiis 
+          dis<lb break="no" ed="#P" n="65"/>tinguuntur.
+        </p>
+        <p xml:id="szovsr-q10688-d1e653">
+          <lb ed="#P" n="66"/>6. Ex mediis quoque ad tales fiues varii 
+          gra<lb break="no" ed="#P" n="67"/>dus distinctionis inveniuntur.— Rursusque 
+          in<lb break="no" ed="#P" n="68"/>ter has tanto erit major diversitas, quanto
+          <lb ed="#P" n="69"/>media et exercitia fuerint magis diversa ; 
+          ali<lb break="no" ed="#P" n="70"/>quando enim tam parva est differentia, ut 
+          so<lb break="no" ed="#P" n="71"/>lum in habitu, et insigniis, et paucis 
+          caerc<lb break="no" ed="#P" n="72"/>moniis distinguantur, ut religio S. Benedicti,
+          <lb ed="#P" n="73"/>et S. Bernardi inter monachales; et inter 
+          mi<lb break="no" ed="#P" n="74"/>litares, Alcantarae, aut Calatravae, et similes,
+          <lb ed="#P" n="75"/>quae videntur solum numero distingui, 
+          quam<lb break="no" ed="#P" n="76"/>vis in ea latitudine magis distinguantur quam
+          <lb ed="#P" n="77"/>duo monasteria ejusdem habitus, sicut in
+          <lb ed="#P" n="78"/>naturalibus homo albus et niger solum 
+          nu<lb break="no" ed="#P" n="79"/>mero differunt, quamvis magis in ea latitudinc
+          <lb ed="#P" n="80"/>quam duo homines albi distingui videantur.
+          <lb ed="#P" n="81"/>At vero mendicantes religiones, ut Minorum
+          <lb ed="#P" n="82"/>et Praedicatorum, non videntur distingui in
+          <lb ed="#P" n="83"/>fine, sed in modo et mediis, et est differentia
+          <lb ed="#P" n="84"/>longe major, ita ut a4 specificam differentiam
+          <lb ed="#P" n="85"/>magis accedere videatur.
+        </p>
+        <p xml:id="szovsr-q10688-d1e699">
+          <lb ed="#P" n="86"/>7. Distinctio eu finium simul ac mediorum
+          <lb ed="#P" n="87"/>diversitate , mauima. — Distinctio em diversis
+          <lb ed="#P" n="88"/>Prelatis.—Maxime vero distinguentur 
+          reli<lb break="no" ed="#P" n="89"/>giones, si in utroque, finc sceilicet et 
+          exerci<lb break="no" ed="#P" n="90"/>tiis, distinctionem habeant. Et praesertim si in
+          <lb ed="#P" n="91"/>votis ipsis et in observantiis eorum 
+          diversita<lb break="no" ed="#P" n="92"/>tem habuerint, quia cum in votis consistat
+          <lb ed="#P" n="93"/>substantia religionis, diversitas in illis 
+          maxi<lb break="no" ed="#P" n="94"/>me ad substantiales accedit. Sicut dicimus,
+          <lb ed="#P" n="95"/>Deatos distingui in essentiali beatitudine, quia
+          <lb ed="#P" n="96"/>in re illa, in qua est substantia beatitudinis,
+          <lb ed="#P" n="97"/>habent aliquam varietatem, licet in rigore 
+          di<lb break="no" ed="#P" n="98"/>versitas illa specifica aut essentialis non sit.
+          <lb ed="#P" n="99"/>Tandem aliquando intra eamdem religioncum
+          <lb ed="#P" n="100"/>videtur esse tanta varietas, ut plures 
+          religio<lb break="no" ed="#P" n="101"/>nes esse apparcant, ut inter Minores, quod
+          <lb ed="#P" n="102"/>maxime verum est quando sub diversis 
+          Prae<lb break="no" ed="#P" n="103"/>latis generalibus versantur, quia tunc sunt 
+          vc<lb break="no" ed="#P" n="104"/>luti diversi exercitus, habentes diversos 
+          du<lb break="no" ed="#P" n="105"/>ces, et insignia distincta, et interdum etiam
+          <lb ed="#P" n="106"/>arma divoersa, quamvis in fine et aliis multum
+          <lb ed="#P" n="107"/>conveniant. His ergo modis potest distinctio
+          <lb ed="#P" n="108"/>et varietas in religionibus reperiri.
+        </p>
+        <p xml:id="szovsr-q10688-d1e752">
+          <lb ed="#P" n="109"/>8. Unitas religionis e comrario ab uuitatc
+          <lb ed="#P" n="110"/>fiuis pelanda. — Ex quibus intelligerc licet, ad
+          <pb ed="#P" n="430"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>unitatem religionis requiri convenientiam in
+          <lb ed="#P" n="2"/>fine et in mediis, quae, quanto major fuerit,
+          <lb ed="#P" n="3"/>lanto erit major unitas ; nam bonum, ut aiunt,
+          <lb ed="#P" n="4"/>ex integra causa; unitas autem habet 
+          ratio<lb break="no" ed="#P" n="5"/>nem boni, pluralitas vero, qua talis, a 
+          perfec<lb break="no" ed="#P" n="6"/>Lione declinat; nam, ut dixit Augustinus,
+          <lb ed="#P" n="7"/>serm. 27, de Verbis Domini, preponitur aun
+          <lb ed="#P" n="8"/>naltis, non enim a multis unum, sed multa ab
+          <lb ed="#P" n="9"/>uno. Item res morales maxime recipiunt 
+          uni<lb break="no" ed="#P" n="10"/>tatem vel distinctionem ex fine ; unitas autem
+          <lb ed="#P" n="11"/>religionis, ut num. 5 dicebam, moralis est;
+          <lb ed="#P" n="12"/>maxime ergo requirit unitatem et 
+          convenien<lb break="no" ed="#P" n="13"/>tiam in fine proprio, qui est veluti scopus 
+          re<lb break="no" ed="#P" n="14"/>ligionis.
+        </p>
+        <p xml:id="szovsr-q10688-d1e794">
+          <lb ed="#P" n="15"/>9. Item ab unitate modorum. — Deinde 
+          nc<lb break="no" ed="#P" n="16"/>cessaria est etiam convenientia in mediis, tum
+          <lb ed="#P" n="17"/>quia, ut n. 4 attigi, nunquam finis est omnino
+          <lb ed="#P" n="18"/>et formaliter idem, si per diversa media et
+          <lb ed="#P" n="19"/>vias omnino distinctas quaeritur; ium etiam
+          <lb ed="#P" n="20"/>quia religio est quasi via quaedam et tendentia
+          <lb ed="#P" n="21"/>in finem; via autem, ut sit eadem, non satis
+          <lb ed="#P" n="22"/>cst quod ad eumdem terminum tendat, sed
+          <lb ed="#P" n="23"/>per eadem media; tum denique quia, si media
+          <lb ed="#P" n="24"/>sunt diversa, mores etiam et vitae 
+          consuetudi<lb break="no" ed="#P" n="25"/>nem diversa esse oportet, cum qua diversitate
+          <lb ed="#P" n="26"/>non stat vera unitas moralis. Hoc autem 
+          intel<lb break="no" ed="#P" n="27"/>ligendum est de praccipuis et substantialibus
+          <lb ed="#P" n="28"/>mediis, quia nonnulla diversitas in rebus 
+          mi<lb break="no" ed="#P" n="29"/>nutioribus et accidentalibus non obstat. 
+          Intel<lb break="no" ed="#P" n="30"/>ligendum etiam est de mediis non 
+          subordina<lb break="no" ed="#P" n="31"/>tis aut connexis inter se, siquidem intra 
+          eam<lb break="no" ed="#P" n="32"/>dem religionem possunt esse plura media , et
+          <lb ed="#P" n="33"/>consequenter plures gradus personarum, qua
+          <lb ed="#P" n="34"/>ad diversa munera destinentur; quae varietas
+          <lb ed="#P" n="35"/>non impedit unitatem, quia sunt velut 
+          mem<lb break="no" ed="#P" n="36"/>bra eterogenea ejusdem corporis.
+        </p>
+        <p xml:id="szovsr-q10688-d1e844">
+          <lb ed="#P" n="37"/>10. Unitas capitis conducit, scd non 
+          vegui<lb break="no" ed="#P" n="38"/>vritur. — Praeter illa autem duo, finis scilicet
+          <lb ed="#P" n="39"/>ac mediorum convenientiam, requiri potest
+          <lb ed="#P" n="40"/>ad unitatem, convenientia in uno capite, vel
+          <lb ed="#P" n="41"/>supremo Praelato proprio cjusdem religionis;
+          <lb ed="#P" n="42"/>sed, si considerentur ea, quae tractatu 
+          praece<lb break="no" ed="#P" n="43"/>dente, lib. 2, cap. 2, de Praelatis religionum
+          <lb ed="#P" n="44"/>diximus, haec cenditio non videtur ita 
+          neces<lb break="no" ed="#P" n="45"/>saria, si alias sit convenientia in regula, et
+          <lb ed="#P" n="46"/>origine religionis; maxime secundum modum
+          <lb ed="#P" n="47"/>loquendi, non solum vulgi, sed etiam juris;
+          <lb ed="#P" n="48"/>sic enim moniales omnes regulam sancte 
+          Cla<lb break="no" ed="#P" n="49"/>rae, verbi gratia, profitentes, ejusdem 
+          religio<lb break="no" ed="#P" n="50"/>nis esse perhibentur, quamvis aliqua earum
+          <lb ed="#P" n="51"/>monasteria Episcopo subdantur, aliqua vero
+          <lb ed="#P" n="52"/>Praelato regulari, qui inter se minime 
+          subor<lb break="no" ed="#P" n="53"/>dinantur; et eadem Praelatorum diversitas in
+          <lb ed="#P" n="54"/>aliis, tam feminarum, quam virorum 
+          conven<lb break="no" ed="#P" n="55"/>tibus facile deprehendi potest, quanquam ne-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>gari non debet majorem fuisse fuiuram 
+          uni<lb break="no" ed="#P" n="57"/>tatem, si non solum regulam, sed etiam 
+          Prae<lb break="no" ed="#P" n="58"/>latum eumdem haberent, quia politicum 
+          cor<lb break="no" ed="#P" n="59"/>pus, qualis est religio, ex unitate capitis recipit
+          <lb ed="#P" n="60"/>etiam unitatem, sive id caput una sit persona,
+          <lb ed="#P" n="61"/>sive aggregatum ex pluribus.
+        </p>
+        <p xml:id="szovsr-q10688-d1e903">
+          <lb ed="#P" n="62"/>11. Similiter et uniforinitas omnimoda in
+          <lb ed="#P" n="63"/>habitu.— Quea uniformilas in habitu servanda
+          <lb ed="#P" n="64"/>in Societate. — Addi praeterea potest, requiri
+          <lb ed="#P" n="65"/>ad religionis unitatem convenientiam in 
+          exte<lb break="no" ed="#P" n="66"/>riori habitu; quia, licet hic non sit de 
+          substan<lb break="no" ed="#P" n="67"/>tia religionis, est tamen signum talis vel talis
+          <lb ed="#P" n="68"/>professionis. Haec etiam conditio non est adeo
+          <lb ed="#P" n="69"/>necessaria, quin intra eamdem religionem
+          <lb ed="#P" n="70"/>nonnulla diversitas in exteriori habitu 
+          permit<lb break="no" ed="#P" n="71"/>tatur, ut sentiunt Glossa et Doctores ex textu
+          <lb ed="#P" n="72"/>in Clement. 1, de Electione, et usu ipso 
+          con<lb break="no" ed="#P" n="73"/>stat. Et ratio est, quia interdum ipsamet 
+          re<lb break="no" ed="#P" n="74"/>gula postulat positive (ut sic dicam) hanc 
+          di<lb break="no" ed="#P" n="75"/>versitatem, justas ob causas, ut videmus in
+          <lb ed="#P" n="76"/>religiosis laicis et clericis ejusdem religionis.
+          <lb ed="#P" n="77"/>Aliquando vero illam diversitatem permittit,
+          <lb ed="#P" n="78"/>quatenus directe non prohibet, et id quod de
+          <lb ed="#P" n="79"/>habitu statuit, servari potest cum aliqua 
+          di<lb break="no" ed="#P" n="80"/>versitate in alis conditionibus ; ut si statuat
+          <lb ed="#P" n="81"/>de figura et materia, non vero de colore 
+          ha<lb break="no" ed="#P" n="82"/>bitus, tunc, licet aliqua varietas in colore in
+          <lb ed="#P" n="83"/>diversis monasteriis aut provinciis 
+          permitta<lb break="no" ed="#P" n="84"/>tur, non erit contra unitatem religionis. Haec
+          <lb ed="#P" n="85"/>autem varietas in habitu nunquam potest 
+          tan<lb break="no" ed="#P" n="86"/>ta esse, quin aliqua unitas seu convenientia
+          <lb ed="#P" n="87"/>conservetur, quae unitatem talis religionis 
+          in<lb break="no" ed="#P" n="88"/>dicet, ut videre est in religione S. Francisci
+          <lb ed="#P" n="89"/>Observantiae et Conventualium ac 
+          Capuccino<lb break="no" ed="#P" n="90"/>rum, et in religione SS. Trinitatis , ae multo
+          <lb ed="#P" n="91"/>magis in religione Canonicorum regularium.
+          <lb ed="#P" n="92"/>Omitto Societatem Jesu, quae peculiarem 
+          ha<lb break="no" ed="#P" n="93"/>bitum non assumpsit, et ita admittit illam 
+          va<lb break="no" ed="#P" n="94"/>rietatem, quam habitus clericorum in diversis
+          <lb ed="#P" n="95"/>regionibus habuerit ; servaudo tamen illam
+          <lb ed="#P" n="96"/>unitatem , nimirum ut ubique eo habitu 
+          ho<lb break="no" ed="#P" n="97"/>nesto et ad statum religiosum decente utatur.
+          <lb ed="#P" n="98"/>In aliis vero religionibus semper servatur 
+          ah<lb break="no" ed="#P" n="99"/>qua unitas, vel in figura, vel in colore, vel in
+          <lb ed="#P" n="100"/>utroque signo, vel in aliquo alio signo 
+          specia<lb break="no" ed="#P" n="101"/>li, quod juxta uniuscujusque religionis 
+          regu<lb break="no" ed="#P" n="102"/>lam observandum est, ut unitas religionis
+          <lb ed="#P" n="103"/>quoad habitum retineri censeatur. Et haec de
+          <lb ed="#P" n="104"/>primo puncto.
+        </p>
+        <p xml:id="szovsr-q10688-d1e999">
+          <lb ed="#P" n="105"/>Approbatur ac defenditur dicta religionum
+          <lb ed="#P" n="106"/>varietas.
+        </p>
+        <p xml:id="szovsr-q10688-d1e1006">
+          <lb ed="#P" n="107"/>12. Secundo dicendum est, varietatem 
+          re<lb break="no" ed="#P" n="108"/>ligionum non sine magna divinae providenia
+          <pb ed="#P" n="431"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>dispositione, et Spiritus Sancti directione 
+          in<lb break="no" ed="#P" n="2"/>ventam esse, et in Ecclesia introductam, 
+          tan<lb break="no" ed="#P" n="3"/>quam illi valde utilem. Ratio penetrabilis est,
+          <lb ed="#P" n="4"/>quia status religionum proponitur hominibus
+          <lb ed="#P" n="5"/>lanquam via utilissima ad perfectionem 
+          ac<lb break="no" ed="#P" n="6"/>quirendam; fieri autem non poterat, 
+          morali<lb break="no" ed="#P" n="7"/>ter loquendo, ut una religio unusque vivendi
+          <lb ed="#P" n="8"/>modus omnibus accommodaretur, propter 
+          va<lb break="no" ed="#P" n="9"/>rias hominum complexiones ac propensiones,
+          <lb ed="#P" n="10"/>ut notavit Gregorius, 6 Moral., c. 26, alias 27:
+          <lb ed="#P" n="11"/>Nonnulli namque hominum (ait) ita otiosce
+          <lb ed="#P" n="12"/>mentis sunt, ut, si cos labor occupationis 
+          acci<lb break="no" ed="#P" n="13"/>piat, in ipsa operis occupatione succumbant, et
+          <lb ed="#P" n="14"/>nonnulli ita inguieti sunt ut, si vacationem 
+          la<lb break="no" ed="#P" n="15"/>boris habuerint, gravius laborent, quia tanto
+          <lb ed="#P" n="16"/>deteriores tumultus tolerant, quanto eis 
+          licen<lb break="no" ed="#P" n="17"/>Lius ad cogitationem vacat. Unde necesse est uz
+          <lb ed="#P" n="18"/>nec quieta mens ad exercitationem se 
+          immodc<lb break="no" ed="#P" n="19"/>rati operis dilatet , nec inguieta ad studium
+          <lb ed="#P" n="20"/>contemplaetionis angustet. Ob hanc ergo causam
+          <lb ed="#P" n="21"/>ulilissimum fuit quasdam esse religiones ad
+          <lb ed="#P" n="22"/>quieiem et otium contemplationis ordinatas,
+          <lb ed="#P" n="23"/>alias ad actiones, alias ex utroque mixtas, ut
+          <lb ed="#P" n="24"/>omnes haberent unde, quod sibi magis 
+          expe<lb break="no" ed="#P" n="25"/>diret , eligere possent. Et eadem est ratio de
+          <lb ed="#P" n="26"/>aliis differentiis; hi enim his actionibus et
+          <lb ed="#P" n="27"/>exercitiis potius quam aliis delectantur; 
+          qui<lb break="no" ed="#P" n="28"/>dam ad solitariam, alii ad socialem vitam
+          <lb ed="#P" n="29"/>propensi sunt; quidam corporibus fortiores ad
+          <lb ed="#P" n="30"/>labores et rigores corporis sunt apti, alii ad
+          <lb ed="#P" n="31"/>studia, et spiritualia exercitia; sic ergo per
+          <lb ed="#P" n="32"/>varietatem religionum omnibus subventum
+          <lb ed="#P" n="33"/>cst. Alia ratio etiam valde generalis est, quia
+          <lb ed="#P" n="34"/>religiones ex intentione Spiritus Sancti non
+          <lb ed="#P" n="35"/>solum institutae sunt ad bonum eorum qui in
+          <lb ed="#P" n="36"/>eis congregantur, sed etiam ut per eos alii,
+          <lb ed="#P" n="37"/>atque adeo universa Ecclesia juveiur; quia
+          <lb ed="#P" n="38"/>crgo variae sunt actiones et ministeria in 
+          qui<lb break="no" ed="#P" n="39"/>bus possunt religiones Ecclesiae inservire, et
+          <lb ed="#P" n="40"/>non suffticit una pro omnibus actionibus, ideo
+          <lb ed="#P" n="41"/>ex earum varietate consurgit plenitudo 
+          mi<lb break="no" ed="#P" n="42"/>nistrorum, qui possint omnibus modis, et in
+          <lb ed="#P" n="43"/>omni actionum genere Ecclesiam juvare. Et
+          <lb ed="#P" n="44"/>hoc est etiam quod Gregorius XIIL, citato loco,
+          <lb ed="#P" n="45"/>dixit : Pro temporum etiam varietate 
+          provi<lb break="no" ed="#P" n="46"/>disse Deum varias religiones, prout occasiones,
+          <lb ed="#P" n="47"/>cel necessitates temporum postulabant. Addit
+          <lb ed="#P" n="48"/>etiam Bernardus, in Apolog. Guillel. Abb., ad
+          <lb ed="#P" n="49"/>pulchritudinem Eecclesiae pertinere hanc 
+          va<lb break="no" ed="#P" n="50"/>rietatem , juxta id Psal. 44 : Astitit regina a
+          <lb ed="#P" n="51"/>deztris tuis in vestitu deaurato, circumdata
+          <lb ed="#P" n="52"/>varietate : Nec mirum (inquit) si in boc exilio,
+          <lb ed="#P" n="53"/>peregrinante Ecclesia, sit hujusmodi pluralis
+          <lb ed="#P" n="54"/>unitas, et una pluralitas , cun in illa quogue
+          <lb ed="#P" n="55"/>gatria, quando ei ipsa regnabit, futura, sit ali-
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="56"/>qua dispar aqualitas , cum scriptum sit : In
+          <lb ed="#P" n="57"/>domo patris mei mansiones multee sunt.
+        </p>
+        <p xml:id="szovsr-q10688-d1e1144">
+          <lb ed="#P" n="58"/>13. Ex his ergo constat, quam longe sit haec
+          <lb ed="#P" n="59"/>religionum distinctio ab omni Ecclesiae 
+          divi<lb break="no" ed="#P" n="60"/>sione et schismate; sicut enim in eadem domo
+          <lb ed="#P" n="61"/>diversitas mansionum et cubiculorum non
+          <lb ed="#P" n="62"/>destruit, sed pulcherrime construit unitatem
+          <lb ed="#P" n="63"/>domus, et in republica vel civitate, pluralitas
+          <lb ed="#P" n="64"/>artium et officiorum non est contra unitatem,
+          <lb ed="#P" n="65"/>sed potius est maxime necessaria , ut civitas
+          <lb ed="#P" n="66"/>sit consummata et perfecta , ita in Ecclesia
+          <lb ed="#P" n="67"/>varietas religionum ejus unitatem non 
+          divi<lb break="no" ed="#P" n="68"/>dit , sed illustrat. Neque obstat quod 
+          charita<lb break="no" ed="#P" n="69"/>tis perfectio una sit, quia viae ad illam possunt
+          <lb ed="#P" n="70"/>esse plures, non quidem quoad substaniiam
+          <lb ed="#P" n="71"/>omnino diversa, sed quoad actionem , vel
+          <lb ed="#P" n="72"/>quoad modum, et ( ut ita dicam) quoad 
+          mi<lb break="no" ed="#P" n="73"/>stionem et participationem actionum. Omnes
+          <lb ed="#P" n="74"/>enim religiones in substantia easdem ferc 
+          ac<lb break="no" ed="#P" n="75"/>tiones exercent, tamen quaedam in quibusdam
+          <lb ed="#P" n="76"/>excedunt, aliae in aliis, quaedam hoc modo,
+          <lb ed="#P" n="77"/>aliae alio illas participant, omnes tamen sunt
+          <lb ed="#P" n="78"/>sanctae , et ad supra dictos fines necessariae.
+          <lb ed="#P" n="79"/>Incommoda autem, quae ex hac varietate 
+          se<lb break="no" ed="#P" n="80"/>qui objiciuntur, minoris momenti sunt, neque
+          <lb ed="#P" n="81"/>cum utilitatibus numeratis possunt 
+          compara<lb break="no" ed="#P" n="82"/>ri. Res enim humana hujusmodi sunt, ut .
+          <lb ed="#P" n="83"/>nunquam cmnibus incommodis careant; et
+          <lb ed="#P" n="84"/>ideo quando haec sequuntur , non ex re ipsa
+          <lb ed="#P" n="85"/>vel actione, sed ex infirmitate, vel malitia 
+          ho<lb break="no" ed="#P" n="86"/>minum, non sunt propter illa omittenda bona
+          <lb ed="#P" n="87"/>majora , sed adhibenda remeda, ne illa mala
+          <lb ed="#P" n="88"/>sequantur ; potissimum autem est charitas.
+          <lb ed="#P" n="89"/>Unde eleganter Bernardus, in dicta Apologia:
+          <lb ed="#P" n="90"/>Requiritur ( inquit) a me, cur, cum omnes 
+          or<lb break="no" ed="#P" n="91"/>dines laudem, omnes non tenean , laudo enim
+          <lb ed="#P" n="92"/>omnes, et diligo, ubicumque juste et pie vivitur
+          <lb ed="#P" n="93"/>in Hcclesia ; unwm opere teneo, ceteros 
+          chari<lb break="no" ed="#P" n="94"/>tate ; faciel culem charitas ( fidenter loguor)
+          <lb ed="#P" n="95"/>ut ne illorun quidem fructu frauder , qurum
+          <lb ed="#P" n="96"/>institula non sequor.
+        </p>
+        <p xml:id="szovsr-q10688-d1e1231">
+          <lb ed="#P" n="97"/>14. Divus autem Basilius citato loco non 
+          lo<lb break="no" ed="#P" n="98"/>quitur proprie de diversitate religionum, sed
+          <lb ed="#P" n="99"/>de multiplicatione domorum seu 
+          monasterio<lb break="no" ed="#P" n="100"/>rum ejusdem religionis in eodem oppido, 
+          trac<lb break="no" ed="#P" n="101"/>tatque prudentialem quaestionem, an expediat
+          <lb ed="#P" n="102"/>talia monasteria multiplicari in eodem 
+          oppi<lb break="no" ed="#P" n="103"/>do: et ipse fert probabile judicium , expedire
+          <lb ed="#P" n="104"/>magis ut in uno domicilio, et sub uno Praelato
+          <lb ed="#P" n="105"/>omnes aggregentur. Haec autem quaestio 
+          lon<lb break="no" ed="#P" n="106"/>ge diversa est ab ea, quam nunc tractamus,
+          <lb ed="#P" n="107"/>estque in ea satis verisimile Basilii judicium,
+          <lb ed="#P" n="108"/>et fortasse regulariter ita est ; et maxime co
+          <lb ed="#P" n="109"/>tempore, in quo, ut supponere videtur 
+          Basi<lb break="no" ed="#P" n="110"/>lius, religiose domus erant ita distinctae, ut
+          <pb ed="#P" n="432"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>non unirentur sub uno capite, quarum 
+          multi<lb break="no" ed="#P" n="2"/>plicatio vicina poterat facile discordiam 
+          pa<lb break="no" ed="#P" n="3"/>rere, et non erat necessaria, quia regula erat
+          <lb ed="#P" n="4"/>uniformis omnino in modo vivendi separato
+          <lb ed="#P" n="5"/>et remoto ab actionibus externis. Ait etiam
+          <lb ed="#P" n="6"/>Dasilius fuisse tunc penuriam hominum, qui
+          <lb ed="#P" n="7"/>hujusmodi domos regere utiliter possent, quia
+          <lb ed="#P" n="8"/>monachi regulariter sacerdotes non erant, 
+          ne<lb break="no" ed="#P" n="9"/>que docti. Quae rationes hoc tempore cessant,
+          <lb ed="#P" n="10"/>nam in eadem religione sunt variae actiones,
+          <lb ed="#P" n="11"/>vel ad studia, vel ad conciones et alia 
+          minis<lb break="no" ed="#P" n="12"/>teria ; est etiam unio earum inter se, et sub
+          <lb ed="#P" n="13"/>uno superiori Praelato ; nec desunt homines
+          <lb ed="#P" n="14"/>docti et prudentes, per quos possint 
+          guberna<lb break="no" ed="#P" n="15"/>ri, et ideo etiam hoc modo possunt utiliter
+          <lb ed="#P" n="16"/>seepe monasteria in eadem civitate 
+          multipli<lb break="no" ed="#P" n="17"/>cari. Quia vero in utraque multiplicatione 
+          po<lb break="no" ed="#P" n="18"/>terat esse excessus, ideo multiplicatio 
+          religio<lb break="no" ed="#P" n="19"/>num Summo Peontifici merito reservata est,
+          <lb ed="#P" n="20"/>ut patet ex Concil. Lateranensi, in c. ult., de
+          <lb ed="#P" n="21"/>hReligios. dom., et Concilio Lugdunensi , in c.
+          <lb ed="#P" n="22"/>unic., eod. tit., in 6. In Concilio autem 
+          Tri<lb break="no" ed="#P" n="23"/>dentino, sess. 25, c. 3, de Regul., ad alia 
+          in<lb break="no" ed="#P" n="24"/>commoda vitanda statuitur, ut sine licentia
+          <lb ed="#P" n="25"/>Episcopi monasteria non erigantur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

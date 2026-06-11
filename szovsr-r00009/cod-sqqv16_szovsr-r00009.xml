@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="649"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r00009"><!-- t10l3prae -->
+        <head xml:id="szovsr-r00009-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-r00009-d1e103">
+          <cb ed="#V" n="d"/>
+          <lb ed="#C" n="34"/>LIBER TERTIUS
+          <lb ed="#C" n="35"/>DE ADMISSIONE SCHOLARIUM
+          <lb ed="#C" n="36"/>IN SOCIETATEM, PER VOTA SIMPLICIA, FORUMQUE DIMISSIONE
+        </p>
+        <p xml:id="szovsr-r00009-d1e114">
+          <cb ed="#V" n="e"/>
+          <lb ed="#C" n="37"/>Proprium ac peculiare est Societatis inter
+          <lb ed="#C" n="38"/>omnes religiones, ut inter receptionem ad
+          <lb ed="#C" n="39"/>habitum et ad professionem solemnem, 
+          ha<lb break="no" ed="#C" n="40"/>beat medium quemdam admittendi modum,
+          <lb ed="#C" n="41"/>per quem is, qui admittitur, estra gradum
+          <lb ed="#C" n="42"/>novitiorum constiiuiiur, et religioni unitur,
+          <lb ed="#C" n="43"/>tanquam verum membrum ejus, verusque
+          <lb ed="#C" n="44"/>religioas: et nihilominus non constituitur in
+          <cb ed="#V" n="f"/>
+          <lb ed="#C" n="45"/>ultimo termino perfectae unionis, quam cum
+          <lb ed="#C" n="46"/>corpore Societatis habere potest, sed adhuc
+          <lb ed="#C" n="47"/>in ordine ad illum aliquo modo in probatione
+          <lb ed="#C" n="48"/>manet. Qui modus admissionis propter 
+          scho<lb break="no" ed="#C" n="49"/>lasticos praecipue inventus est; extenditur 
+          ta<lb break="no" ed="#C" n="50"/>men etiam ad coadjutores temporales, qui ad
+          <lb ed="#C" n="51"/>scholares ipsosjuvandosrecipiuniur; et 
+          quam<lb break="no" ed="#C" n="52"/>vis in ministeriis differant, in substantia et
+          <pb ed="#P" n="650"/>
+          <!-- 650 -->
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>modo hujus receptionis, et votorum quae in
+          <lb ed="#C" n="2"/>illa fiunt, ejusdem omnino rationis sunt, et
+          <lb ed="#C" n="3"/>ita sub illis comprehenduntur, tanquam 
+          ac<lb break="no" ed="#C" n="4"/>cessorium sub principali. Hic igitur 
+          receptio<lb break="no" ed="#C" n="5"/>nis modus multis modis impugnatus est, et
+          <lb ed="#C" n="6"/>tanquam novus, et tanquam injustus, et 
+          in<lb break="no" ed="#C" n="7"/>sufficiens ad religiosum constituendum. Ut
+          <lb ed="#C" n="8"/>ergo plene omnibus satisfaciamus, 
+          convenien<lb break="no" ed="#C" n="9"/>tiam hujus institutionis, et essentiam, et 
+          qua<lb break="no" ed="#C" n="10"/>si quidditatem hujus receptionis, et vim 
+          vo<lb break="no" ed="#C" n="11"/>torum ejus, causas denique, effectus, et 
+          pro<lb break="no" ed="#C" n="12"/>prietates ejus explicabimus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

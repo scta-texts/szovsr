@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="968"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r07910"><!-- t10l9prae -->
+        <head xml:id="szovsr-r07910-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-r07910-d1e103">
+          <lb ed="#C" n="28"/>LIBER NONUS
+          <lb ed="#C" n="29"/>DE MEDIIS
+          <lb ed="#C" n="30"/>SEU VINISTERIS, QUIBUS AD PROXIMORUM SALUTEM SOCIETAS UTITUR.
+        </p>
+        <p xml:id="szovsr-r07910-d1e112">
+          <cb ed="#V" n="d"/>
+          <lb ed="#C" n="31"/>Cum duplex sit, seu duas praecipuas partes
+          <lb ed="#C" n="32"/>habeat Societatis finis, propriam scilicet 
+          suo<lb break="no" ed="#C" n="33"/>rum religiosorum perfectionem , et 
+          proximo<lb break="no" ed="#C" n="34"/>rum salutem, media utrique parti 
+          accommo<lb break="no" ed="#C" n="35"/>data requirit, ut bene et perfecte instituta
+          <lb ed="#C" n="36"/>sit; et ideo, postquam libro praecedenti de
+          <lb ed="#C" n="37"/>mediis ad priorem finem ordinatis diximus,
+          <lb ed="#C" n="38"/>de his quae propter prosimos suscipiuntur,
+          <lb ed="#C" n="39"/>dicendum est. Duo tamen sunt in quibus 
+          So<lb break="no" ed="#C" n="40"/>cietas proximos juvare principaliter solet,
+          <lb ed="#C" n="41"/>doctrina, scilicet, et virtus: omitto enim opera
+          <cb ed="#V" n="e"/>
+          <lb ed="#C" n="42"/>misericordiae corporalis, tum quia non 
+          princi<lb break="no" ed="#C" n="43"/>paliter et per se intenduntur; tum etiam quia
+          <lb ed="#C" n="44"/>non indigent peculiari declaratione, et cum
+          <lb ed="#C" n="45"/>spiritualibus obiter attingentur. De doctrina
+          <lb ed="#C" n="46"/>etiam in lib. 5, c. bet 6, satis dictum est, quia
+          <lb ed="#C" n="47"/>cum tractatione de scholaribus Societatis 
+          con<lb break="no" ed="#C" n="48"/>juncta erat ; solum ergo superest ut de aliis
+          <lb ed="#C" n="49"/>mediis, quae ad excitandos affectus, et ad 
+          pro<lb break="no" ed="#C" n="50"/>ximorum sanctificationem proxime 
+          ordinan<lb break="no" ed="#C" n="51"/>tur, tractemus. Possunt autem haec media, ut
+          <lb ed="#C" n="52"/>ex septima parte nostrarum Constitutionum,
+          <pb ed="#P" n="969"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>c. 4, sumitur, distingui in interiora, seu mere
+          <lb ed="#C" n="2"/>spiritualia, et externa. Prioris generis sunt
+          <lb ed="#C" n="3"/>bonum vitae exemplum, sancta desideria, et
+          <lb ed="#C" n="4"/>orationes continua pro salute proximorum,
+          <lb ed="#C" n="5"/>sacrificia propter eumdem finem Deo oblata,
+          <lb ed="#C" n="6"/>qua media omnibus religionibus communia
+          <lb ed="#C" n="7"/>sunt; maxime vero Societati, propter suum
+          <lb ed="#C" n="8"/>particulare institutum, commendantur, et ab
+          <lb ed="#C" n="9"/>omnibus personis ejus juxta uniuscujusque
+          <lb ed="#C" n="10"/>captum exercenda sunt; tamen de illis nihil
+          <lb ed="#C" n="11"/>speciale dicendum superest, praeter ea quae
+          <lb ed="#C" n="12"/>in superiori libro diximus. Media ergo 
+          exter<lb break="no" ed="#C" n="13"/>na, qua in praedicatione divini verbi, 
+          sacra<lb break="no" ed="#C" n="14"/>mentorum administratione, et spirituali 
+          pro<lb break="no" ed="#C" n="15"/>ximorum instructione, potissimum consistunt,
+          <lb ed="#C" n="16"/>explicanda a nobis sunt , et simul 
+          declarabi<lb break="no" ed="#C" n="17"/>mus privilegia, et facultates quas ad haec 
+          mi<lb break="no" ed="#C" n="18"/>nisteria exercenda Sedes Apostolica Societati
+          <lb ed="#C" n="19"/>concessit,
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

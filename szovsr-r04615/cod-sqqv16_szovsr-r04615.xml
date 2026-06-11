@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="836"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r04615"><!-- t10l6prae -->
+        <head xml:id="szovsr-r04615-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-r04615-d1e103">
+          <cb ed="#V" n="d"/>
+          <lb ed="#C" n="37"/>LIBER SEXTUS
+          <lb ed="#C" n="38"/>DE PROFESSIONE
+          <lb ed="#C" n="39"/>QUA IN SOCIETATE FIT, AC DE IIS QUIE ILLAM ANTECEDUNT ET CONSEQUUNTUR.
+        </p>
+        <p xml:id="szovsr-r04615-d1e114">
+          <cb ed="#V" n="e"/>
+          <lb ed="#C" n="40"/>Diximus hactenus de gradu scholarium 
+          So<lb break="no" ed="#C" n="41"/>cietatis ; reliquum est ut ad gradum 
+          profes<lb break="no" ed="#C" n="42"/>sorum transitum faciamus. Prius autem quam
+          <lb ed="#C" n="43"/>de professione ipsa, per quam gradus ille
+          <lb ed="#C" n="44"/>constituitur, consideremus, primo loco per
+          <lb ed="#C" n="45"/>duo sequentia capita nonnulla praemittenda
+          <lb ed="#C" n="46"/>sunt, de tempore et probatione praeviis ad
+          <lb ed="#C" n="47"/>illam juxta peculiarem Societatis institutio-
+          <cb ed="#V" n="f"/>
+          <lb ed="#C" n="48"/>nem; quae in hoc ab aliis differt , quod 
+          reli<lb break="no" ed="#C" n="49"/>giosos suos ad professionem solemnem, non
+          <lb ed="#C" n="50"/>nisi post diuturnum tempus , admittit; et in
+          <lb ed="#C" n="51"/>hoc etiam quod, non contenta priori biennio
+          <lb ed="#C" n="52"/>probationis, tertium annum ab scholaribus
+          <lb ed="#C" n="53"/>suis post finita studia exigit; et quia 
+          utrum<lb break="no" ed="#C" n="54"/>que singulare videtur, utrumque in ea 
+          repre<lb break="no" ed="#C" n="55"/>hensum est; et ideo utriusque rationem red-
+          <pb ed="#P" n="837"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>dere est necessarium. Secundo loco dicendum
+          <lb ed="#C" n="2"/>erit , in cap. 3, 4 et 5, de ipsa solemni 
+          pro<lb break="no" ed="#C" n="3"/>fessione. Tertio tandem, a cap. 6 usque ad 
+          fi<lb break="no" ed="#C" n="4"/>nem libri, de quibusdam votis simplicibus,
+          <lb ed="#C" n="5"/>quae consequenter ad illam emittuntur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

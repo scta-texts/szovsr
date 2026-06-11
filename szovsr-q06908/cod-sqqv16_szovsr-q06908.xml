@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="277"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-q06908"><!-- t8l3prae -->
+        <head xml:id="szovsr-q06908-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-q06908-d1e103">
+          <pb ed="#P" n="277"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>LIBER TERTIUS
+          <lb ed="#P" n="2"/>DE
+          <lb ed="#P" n="3"/>RELIGIOSIS DESERENTIBUS
+          <lb ed="#P" n="4"/>VEL MUTANTIBUS ALIQUO MODO STATUM SUUM, ATQUE DE OBLIGATIONIBUS EORUM.
+        </p>
+        <p xml:id="szovsr-q06908-d1e119">
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="5"/>1. Hactenus dictum est de omnibus, quae
+          <lb ed="#P" n="6"/>spectant ad statum religiosum in communi
+          <lb ed="#P" n="7"/>sumptum. Nunc, priusquam sequenti tractatu
+          <lb ed="#P" n="8"/>descendamus ad species ejus, oportet etiam in
+          <lb ed="#P" n="9"/>generali tractare de his qui ab hoc statu 
+          de<lb break="no" ed="#P" n="10"/>ficiunt, vel illum mutant quocumque modo ,
+          <lb ed="#P" n="11"/>nam oppositorum cognitio ad eamdem 
+          doctri<lb break="no" ed="#P" n="12"/>nam spectat, atque adeo quas obligationes per
+          <lb ed="#P" n="13"/>talem mutationem deponant, vel retineant,
+          <lb ed="#P" n="14"/>aut etiam de novo incurrrant ; unde merito
+          <lb ed="#P" n="15"/>praesens liber ad tractatum hune de 
+          obligatio<lb break="no" ed="#P" n="16"/>nibus veluti accessoriis annectitur.
+        </p>
+        <p xml:id="szovsr-q06908-d1e150">
+          <lb ed="#P" n="17"/>2. Mutatio de religioso in non religiosum 
+          du<lb break="no" ed="#P" n="18"/>pler, et utraque ab hoc libro aliena. — Prima
+          <lb ed="#P" n="19"/>suutatio per totalem dispensationem. — Potest
+          <lb ed="#P" n="20"/>autem in praesenti duplex distingui mutatio:
+          <lb ed="#P" n="21"/>una, qua fit aliquis ex religioso non 
+          religio<lb break="no" ed="#P" n="22"/>ss ; alia, qua retento statu religioso, fit 
+          mu<lb break="no" ed="#P" n="23"/>tatio in usu et vita illius, vel in alium statum.
+          <lb ed="#P" n="24"/>De priori modo hic non agimus, quia solum
+          <lb ed="#P" n="25"/>duobus modis contingit: unus est per 
+          dispen<lb break="no" ed="#P" n="26"/>sationem Summi Pontificis, de qua satis in
+          <lb ed="#P" n="27"/>superioribus ostensum est esse possibilem ex
+          <lb ed="#P" n="28"/>causa gravissima ; facta autem illa mutatione
+          <lb ed="#P" n="29"/>modo legitimo, per se loquendo, nulla 
+          super<lb break="no" ed="#P" n="30"/>est obligatio prioris status, quia omnino 
+          sub<lb break="no" ed="#P" n="31"/>latus est, si dispensatio fuit absoluta ; nam si
+          <lb ed="#P" n="32"/>habet admixtam commutationem aliquam ,
+          <lb ed="#P" n="33"/>maanebit obligatio ad illud opus in 
+          compensa<lb break="no" ed="#P" n="34"/>tionem impositum, quae obligatio est vel 
+          prae<lb break="no" ed="#P" n="35"/>cepti a superiore dispensante impositi, velerit
+          <lb ed="#P" n="36"/>potius cujusdam voti simplicis, quod 
+          virtuali<lb break="no" ed="#P" n="37"/>ter fit, quando talis commutatio acceptatur,
+          <lb ed="#P" n="38"/>quia suscipitur illa tanquam cbhgatio 
+          reli<lb break="no" ed="#P" n="39"/>giosa succedens loco alterius quae aufertur,
+          <lb ed="#P" n="40"/>et accipitur sub eodem genere obligationis.
+          <lb ed="#P" n="41"/>Dico autem , seclusa commutatione , nullam
+          <lb ed="#P" n="42"/>tunc manere obligationem rigorosam prioris
+          <cb ed="#P" n="c"/>
+          <lb ed="#P" n="43"/>status, quia nec vota manent, nec subjectio ad
+          <lb ed="#P" n="44"/>regulam ; nihilominus ex quadam decentia
+          <lb ed="#P" n="45"/>manet quaedam obligatio honeste vivendi, et
+          <lb ed="#P" n="46"/>consentanee ad priorem statum, quoad fieri
+          <lb ed="#P" n="47"/>possit. Dixi etiam, dummodo legitima sit 
+          dis<lb break="no" ed="#P" n="48"/>pensatio, quia si sit subreptitia, aut sine justa
+          <lb ed="#P" n="49"/>causa, et consequenter nulla, nullam auferet
+          <lb ed="#P" n="50"/>obligationem, et ita erit judicandum de tali
+          <lb ed="#P" n="51"/>persona, sicut de Apostata et fugitiva ; de 
+          qui<lb break="no" ed="#P" n="52"/>bus statim dicemus.
+        </p>
+        <p xml:id="szovsr-q06908-d1e233">
+          <lb ed="#P" n="53"/>3. Secunda mutatio per relawationem 
+          voto<lb break="no" ed="#P" n="54"/>rum.— Alius modus, quo haec mutatio 
+          con<lb break="no" ed="#P" n="55"/>tingit, est, per talem ejectionem a religione,
+          <lb ed="#P" n="56"/>quae includat votorum irritationem, et hic
+          <lb ed="#P" n="57"/>modus non habet locum in religiosis 
+          profes<lb break="no" ed="#P" n="58"/>sis, sed est specialis in religione Societatis,
+          <lb ed="#P" n="59"/>quoad aliqua membra illius, et ideo in 
+          specia<lb break="no" ed="#P" n="60"/>lem tractatum hunc modum reservamus.
+        </p>
+        <p xml:id="szovsr-q06908-d1e254">
+          <lb ed="#P" n="61"/>4. De mutatione non tollente vinculum 
+          sub<lb break="no" ed="#P" n="62"/>stantiale religiosi status hic tractatur. — 
+          Mul<lb break="no" ed="#P" n="63"/>tiplex modus dicte mutatonis tractandus. —
+          <lb ed="#P" n="64"/>Retento autem religioso statu quoad 
+          vincu<lb break="no" ed="#P" n="65"/>lum et substantiam ejus, potest fieri desertio
+          <lb ed="#P" n="66"/>vel mutatio illius quoad usum communis 
+          vi<lb break="no" ed="#P" n="67"/>tae, habitationem, habitum, subjectionem ad
+          <lb ed="#P" n="68"/>regulam, et alios mores vitae religiosae. De hac
+          <lb ed="#P" n="69"/>ergo mutatione duo praecipue a nobis 
+          expli<lb break="no" ed="#P" n="70"/>canda sunt, quibus, scilicet, modis licite vel
+          <lb ed="#P" n="71"/>illicite fiat, et post illam factam, quae obligatio
+          <lb ed="#P" n="72"/>maneat in religioso, quatenus talis est. Ut 
+          au<lb break="no" ed="#P" n="73"/>tem in particulari distincte rem tractemus ,
+          <lb ed="#P" n="74"/>distinguere possumus quinque vel sex modos
+          <lb ed="#P" n="75"/>hujus mutationis. Quaedam enim est 
+          volunta<lb break="no" ed="#P" n="76"/>ria, sed illicita, ut est per fugam vel 
+          aposta<lb break="no" ed="#P" n="77"/>siam. Alia est involuntaria, quae supponit 
+          cau<lb break="no" ed="#P" n="78"/>sam illicitam ; tamen cum fit, sine culpa fieri
+          <lb ed="#P" n="79"/>potest, ut est per justam ejectionem. Alia est
+          <lb ed="#P" n="80"/>voluntaria, et potest esse licita ex justa dis-
+          <pb ed="#P" n="278"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>pensatione, solum ad vivendum extra 
+          conven<lb break="no" ed="#P" n="2"/>tum, vel ad tempus, vel perpetuo, vel retento
+          <lb ed="#P" n="3"/>habitu, vel mutato. Quarta mutatio fit per
+          <lb ed="#P" n="4"/>transitum ad alium statum, non repugnantem
+          <lb ed="#P" n="5"/>priori, qui potest esse vel status in alia 
+          reh<lb break="no" ed="#P" n="6"/>gione, vel ascensus ad gradum Episcopalem,
+          <lb ed="#P" n="7"/>quibus etiam addere possumus transitum ad
+          <lb ed="#P" n="8"/>serviendum Ecclesia , in aliquo beneficio 
+          sae<lb break="no" ed="#P" n="9"/>culari, vel regulari, de quibus omnihus 
+          sigil<lb break="no" ed="#P" n="10"/>latim dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

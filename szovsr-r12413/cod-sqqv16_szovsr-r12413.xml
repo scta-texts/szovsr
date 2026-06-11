@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Caput 1</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Caput 1</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1149"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r12413"><!-- t10l11c1 -->
+        <head xml:id="szovsr-r12413-Hd1e101">Caput 1</head>
+        <head xml:id="szovsr-r12413-Hd1e103" type="question-title">Utrum professus possit a societate expelli, et quas ob causas.</head>
+        <p xml:id="szovsr-r12413-d1e106">
+          <lb ed="#C" n="31"/>CAPUT I.
+          <lb ed="#C" n="32"/>UTRUM PROFESSUS POSSIT A SOCIETATE EXPELLI,
+          <lb ed="#C" n="33"/>ET QUAS OB CAUSAS.
+        </p>
+        <p xml:id="szovsr-r12413-d1e115">
+          <lb ed="#C" n="34"/>1. Prima assertio. — Certum imprimis est,
+          <lb ed="#C" n="35"/>in aliquibus casibus posse professum quatuor
+          <lb ed="#C" n="36"/>votorum a Societate expelli, ut in multis locis
+          <lb ed="#C" n="37"/>Constitutionum declaratur. Nam 2 p. 
+          Consti<lb break="no" ed="#C" n="38"/>tutionum, c. 1, 5 1: Quamvis causes ed 
+          dimis<lb break="no" ed="#C" n="39"/>sionem dignas co graviores esse oporteat , quo
+          <lb ed="#C" n="40"/>quis arclius Socictatis corpori conjunctus est,
+          <lb ed="#C" n="41"/>quantumlibel tamen quisque sit conjunctus, in
+          <lb ed="#C" n="42"/>quibusdam casibus separari ab ea posset et 
+          de<lb break="no" ed="#C" n="43"/>beret. Quod de separatione per dimissionem in
+          <lb ed="#C" n="44"/>declaratione exponitur, et ad professos quatuor
+          <lb ed="#C" n="45"/>votorum in specie extenditur, cujuscumque
+          <lb ed="#C" n="46"/>gradus (dicitur ibi) e dignitatis in Societate
+          <lb ed="#C" n="47"/>sint. Adeo ut, nona parte Constitutionum, c. 4,
+          <lb ed="#C" n="48"/>S 7, de ipsomet Generali idem dicatur; potest
+          <lb ed="#C" n="49"/>enim imprimis a generalatu deponi justis de
+          <lb ed="#C" n="50"/>causis; deinde vero si causae obligent, etiam
+          <lb ed="#C" n="51"/>a Societate excludi. Ex quibus 
+          Constitutioni<lb break="no" ed="#C" n="52"/>bus constat, cum professio et vota in Societate
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="53"/>fiant juxta Constitutiones ejus, nibil fieri 
+          con<lb break="no" ed="#C" n="54"/>tra justitiam, aut contra pactum in 
+          profes<lb break="no" ed="#C" n="55"/>sione inclusum, ejiciendo professum justis de
+          <lb ed="#C" n="56"/>causis juxta Constitutiones , quia Societas sub
+          <lb ed="#C" n="57"/>hac conditione, et non alias, se obligat ad 
+          pro<lb break="no" ed="#C" n="58"/>fessos suos retinendos. Nec vero in eo genere
+          <lb ed="#C" n="59"/>contractus est inaequalitas, vel injustitia 
+          ali<lb break="no" ed="#C" n="60"/>qua , ut a fortiori constat ex superius dictis
+          <lb ed="#C" n="61"/>de scholaribus , libro tertio, c. 2, n. 4, etex
+          <lb ed="#C" n="62"/>his quae supra, tractat. 8, libro tertio, in 
+          ge<lb break="no" ed="#C" n="63"/>nere diximus de potestate ejiciendi professos
+          <lb ed="#C" n="64"/>in quacumque religione. Denique haec 
+          liber<lb break="no" ed="#C" n="65"/>tas Societatis ad ejiciendos professos suos 
+          ge<lb break="no" ed="#C" n="66"/>neratim approbata est a Pontificibus 
+          Societa<lb break="no" ed="#C" n="67"/>tem et Constitutiones ejus approbantibus et
+          <lb ed="#C" n="68"/>confirmantibus, et specialiter a Gregorio XIIT,
+          <lb ed="#C" n="69"/>loco statim citando in num. 6.
+        </p>
+        <p xml:id="szovsr-r12413-d1e198">
+          <lb ed="#C" n="70"/>2. Secunda assertio bipartita. — Unde 
+          con<lb break="no" ed="#C" n="71"/>stet prior pars. — Impedimentum antecedens
+          <lb ed="#C" n="72"/>ingressum duplex. — De substantiali 
+          impedi<lb break="no" ed="#C" n="73"/>mento. — Secundo dicendum est posse 
+          So<lb break="no" ed="#C" n="74"/>cietatem expellere aliquem professum, non
+          <lb ed="#C" n="75"/>solum propter nimiam contumaciam et 
+          incor<lb break="no" ed="#C" n="76"/>rigibilitatem, sed etiam propter grave crimen,
+          <lb ed="#C" n="77"/>quod in scandalum vel infamiam Societatis
+          <lb ed="#C" n="78"/>verteretur. Prior pars communis est omnibus
+          <lb ed="#C" n="79"/>religionibus, ideoque satis patet ex his quae in
+          <lb ed="#C" n="80"/>communi diximus. Posterior vero posita est
+          <lb ed="#C" n="81"/>ad explicandum quid in hoc habeat peculiare
+          <lb ed="#C" n="82"/>Societas; sipe dubio enim habet ampliorem
+          <lb ed="#C" n="83"/>in hoc genere facultatem, majoremque 
+          liber<lb break="no" ed="#C" n="84"/>tatem quam regulariter aliae religiones 
+          ha<lb break="no" ed="#C" n="85"/>beant. Probatur ergo primo ex secunda parte
+          <lb ed="#C" n="86"/>Constitutionum, c. 2, ubi praeter 
+          incorrigibili<lb break="no" ed="#C" n="87"/>tatem , aliae ponuntur causae ob quas dimitti
+          <lb ed="#C" n="88"/>possunt religiosi Societatis. Et quamvis illae
+          <lb ed="#C" n="89"/>praecipue videantur habere locum in his qui
+          <lb ed="#C" n="90"/>in probationibus versantur, tamen revera 
+          ser<lb break="no" ed="#C" n="91"/>mo generalis est, ut constat ex praeced. c.1
+          <lb ed="#C" n="92"/>secundae partis Consututionum, S 1, in fin.,
+          <lb ed="#C" n="93"/>ubi ita concluditur : Quantumlibet sit 
+          conjunc<lb break="no" ed="#C" n="94"/>Lus Societati, in quibusdam casibus seperari ab
+          <lb ed="#C" n="95"/>ea posset cc deberet, ul sequenti capite cidebitur;
+          <lb ed="#C" n="96"/>ergo doctrina illius cap. 2 ad omnes de 
+          So<lb break="no" ed="#C" n="97"/>cietate, quantumvis illi conjunctos ac 
+          profes<lb break="no" ed="#C" n="98"/>sos, extenditur. Est autem considerandum,
+          <lb ed="#C" n="99"/>causas in illo cap. 2 numeratas ad duo capita
+          <lb ed="#C" n="100"/>revocari. Prius est impedimentum aliquod
+          <lb ed="#C" n="101"/>antecedens primum Societatis ingressum, per
+          <lb ed="#C" n="102"/>mendacium vel injustam taciturnitatem in
+          <lb ed="#C" n="103"/>examine et probationibus occultatum. Hoc
+          <lb ed="#C" n="104"/>autem impedimentum potest esse duplex, 
+          sub<lb break="no" ed="#C" n="105"/>stantiale et accidentale. Si ergo sit ex 
+          substan<lb break="no" ed="#C" n="106"/>tialibus, non est dubium quin, statim ac 
+          dete<lb break="no" ed="#C" n="107"/>citur, etiam post professionem emissam, eji-
+          <pb ed="#P" n="1150"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>cienda sit talis persona a tota Societate. Sed
+          <lb ed="#C" n="2"/>illa non est emissio de qua nunc loquimur,
+          <lb ed="#C" n="3"/>quia, juxta doctrinam a nobis supra, lib. 2,
+          <lb ed="#C" n="4"/>c. 1, datam, illa professio non est valida; tunc
+          <lb ed="#C" n="5"/>ergo non ejicitur verus professus, sed fictus et
+          <lb ed="#C" n="6"/>apparens , nec dimittitur cum votis, sed sine
+          <lb ed="#C" n="7"/>illis, quia illa nunquam habuit.
+        </p>
+        <p xml:id="szovsr-r12413-d1e303">
+          <lb ed="#C" n="8"/>3. Accidentale impedimentum quousque 
+          suf<lb break="no" ed="#C" n="9"/>ficiat ad ejectionem. — At vero si 
+          impedimen<lb break="no" ed="#C" n="10"/>tum sit accidentarium, tunc non obstitit 
+          quo<lb break="no" ed="#C" n="11"/>minus professio valida fuerit, et ideo maturius
+          <lb ed="#C" n="12"/>considerandum est an eam ob causam debeat
+          <lb ed="#C" n="13"/>ejici professus. Quod enim possit, videtur 
+          col<lb break="no" ed="#C" n="14"/>ligi ex dicto cap. 2, S 3et 5, quia illa 
+          doctri<lb break="no" ed="#C" n="15"/>na, ut dixi, generalis est; tamen, quia 
+          mo<lb break="no" ed="#C" n="16"/>raliter difficillimum est, etiamsi in principio
+          <lb ed="#C" n="17"/>hujusmodi defectus occultetur, tanto tempore,
+          <lb ed="#C" n="18"/>et per tot tamque diuturnas probationes non
+          <lb ed="#C" n="19"/>detegi , et cognosci a Societate, ideo quando
+          <lb ed="#C" n="20"/>tales defectus (ut supt, verbi gratia, antiquus
+          <lb ed="#C" n="21"/>morbus, ingens aes alienum, et similes) non
+          <lb ed="#C" n="22"/>cognoscuntur publice usque ad professionem
+          <lb ed="#C" n="23"/>factam, moraliter praesumitur Societatem illos
+          <lb ed="#C" n="24"/>non ignorassce , sed dissimulasse propter 
+          ali<lb break="no" ed="#C" n="25"/>quod majus bonum. Quod si ita contigerit,
+          <lb ed="#C" n="26"/>non habebit jam Societas jus dimittendi talem
+          <lb ed="#C" n="27"/>personam propser illam causam , quia 
+          volun<lb break="no" ed="#C" n="28"/>tarie consensit in ejus professionem, illa non
+          <lb ed="#C" n="29"/>obstante. Posito autem casu in quo cesset
+          <lb ed="#C" n="30"/>praesumptio, et revera constet defectum 
+          la<lb break="no" ed="#C" n="31"/>tuisse usque ad factam professionem, tunc 
+          ul<lb break="no" ed="#C" n="32"/>terius duo ponderanda sunt : unum est, an
+          <lb ed="#C" n="33"/>res sit adeo gravis, ut merito censeatur 
+          So<lb break="no" ed="#C" n="34"/>cietas involuntarie admisisse talem 
+          professio<lb break="no" ed="#C" n="35"/>nem cum absoluta obligatione retinendi talem
+          <lb ed="#C" n="36"/>personam , non obstante tali defectu; aliud
+          <lb ed="#C" n="37"/>est, an defectus ille, qui fortasse fuisset 
+          suffi<lb break="no" ed="#C" n="38"/>ciens ad non admittendam talem personam,
+          <lb ed="#C" n="39"/>satis etiam moraliter sit ad prudenter 
+          dimit<lb break="no" ed="#C" n="40"/>tendam illam ; quia turpius ejicitur quam non
+          <lb ed="#C" n="41"/>admittitur bospes, etiamsi fortasse per aliquam
+          <lb ed="#C" n="42"/>piam vel indiscretam deceptionem admissus
+          <lb ed="#C" n="43"/>sit. Ponderandum ergo est quid majoris 
+          mo<lb break="no" ed="#C" n="44"/>menti sit, vel scandalum, aut rumor qui ex
+          <lb ed="#C" n="45"/>hujusmodi ejectionibus oriri solet, vel 
+          dam<lb break="no" ed="#C" n="46"/>num Societatis in retinenda tali persona; si
+          <lb ed="#C" n="47"/>enim hoc damnum non sit magni mormenti,
+          <lb ed="#C" n="48"/>nec redundet in res spirituales, aut in 
+          decen<lb break="no" ed="#C" n="49"/>tem famam , aliud remedium videretur 
+          adhi<lb break="no" ed="#C" n="50"/>bendum ; quanquam in rigore potestas 
+          dimit<lb break="no" ed="#C" n="51"/>tendi non desit, qua etiam uti licebit, et 
+          ex<lb break="no" ed="#C" n="52"/>pediet , si nocumeutum Societatis gravius sit.
+          <lb ed="#C" n="53"/>Quae omnia sunt consentanea declarationibus
+          <lb ed="#C" n="54"/>illius c. 2, littera B.
+        </p>
+        <p xml:id="szovsr-r12413-d1e407">
+          <lb ed="#C" n="55"/>4. Impedimentum post ingressum dupliciter.
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>— Primo , si contrahatur ante professionem.
+          <lb ed="#C" n="57"/>— Posterius caput causaruin hujus 
+          dimissio<lb break="no" ed="#C" n="58"/>nis esse potest vitium aliquod, aut peccatum
+          <lb ed="#C" n="59"/>post ingressum in Societate commissum. In
+          <lb ed="#C" n="60"/>quo est ulterius animadvertendum, fieri posse
+          <lb ed="#C" n="61"/>ut hoc peccatum sit ante solemnem 
+          professio<lb break="no" ed="#C" n="62"/>nem intra Societatem commissum , vel post
+          <lb ed="#C" n="63"/>illam. Quando est prioris modi , minoris est
+          <lb ed="#C" n="64"/>considerationis, tum quia jam supponitur
+          <lb ed="#C" n="65"/>emendatum ( nam si adhuc duraret, non 
+          pos<lb break="no" ed="#C" n="66"/>set dici solum ante professionem commissum,
+          <lb ed="#C" n="67"/>sed etiam post, nam ipsa perseverantia 
+          pec<lb break="no" ed="#C" n="68"/>catum novum est; esset ergo antea 
+          inchoa<lb break="no" ed="#C" n="69"/>tum, postea vere quasi consummatum, quod
+          <lb ed="#C" n="70"/>non minueret, sed augeret causam ejectionis
+          <lb ed="#C" n="71"/>propter duritiam et insordescentiam ) ; tum
+          <lb ed="#C" n="72"/>etiam quia tale peccatum supponitur in ipsa
+          <lb ed="#C" n="73"/>professione extinctum ac plane dimissum, et
+          <lb ed="#C" n="74"/>ideo si non reincidatur in illud, nec sit morale
+          <lb ed="#C" n="75"/>periculum recidivi, quod auferri non possit
+          <lb ed="#C" n="76"/>intra Socictatem, non est sufficiens causa 
+          ejec<lb break="no" ed="#C" n="77"/>tionis, nec potest juste puniri talis persona,
+          <lb ed="#C" n="78"/>regulariter loquendo. Quod si contingat tale
+          <lb ed="#C" n="79"/>delictum esse occultum usque ad professionem
+          <lb ed="#C" n="80"/>factam, et ita, licet forte quoad Deum fuerit
+          <lb ed="#C" n="81"/>dimissum, in foro tamen humano non esse
+          <lb ed="#C" n="82"/>vindicatum , postea vero publice detegi, et 
+          in<lb break="no" ed="#C" n="83"/>famiam aut scandalum oriri, cui non possit
+          <lb ed="#C" n="84"/>nisi per ejectionem occurri, fieri aliquando
+          <lb ed="#C" n="85"/>poterit, sed raro (ut existimo) id expediet aut
+          <lb ed="#C" n="86"/>licebit, quia semper poterit praeterita culpa
+          <lb ed="#C" n="87"/>aliis modis ita puniri, ut infamia et 
+          scanda<lb break="no" ed="#C" n="88"/>lum sufhicienter tollantur; et ideo cum apud
+          <lb ed="#C" n="89"/>Deum jam sit omnino dimissa (ut suppono)
+          <lb ed="#C" n="90"/>per professionem, et in futurum non pendeat,
+          <lb ed="#C" n="91"/>non est rationabilis causa separationis.
+        </p>
+        <p xml:id="szovsr-r12413-d1e492">
+          <lb ed="#C" n="92"/>5. Secundo, si post professionem , etiam
+          <lb ed="#C" n="93"/>tunc valet ejectio. — Id ostenditur ratione. —
+          <lb ed="#C" n="94"/>Confirmatur a fortiori de Generali. — De 
+          pec<lb break="no" ed="#C" n="95"/>cato autem commisso post ipsam 
+          professio<lb break="no" ed="#C" n="96"/>nem, alia ratio est, etiamsi emendatum 
+          appa<lb break="no" ed="#C" n="97"/>reat, tum quia per illud major injuria fit 
+          So<lb break="no" ed="#C" n="98"/>cietati professae, magisque illius famam et
+          <lb ed="#C" n="99"/>existimationem elevat, et ideo sepe potest
+          <lb ed="#C" n="100"/>esse necessarium ad bonum nomen Societatis
+          <lb ed="#C" n="101"/>conservandum, ut ob hujusmodi causam 
+          quis<lb break="no" ed="#C" n="102"/>piam ejiciatur. Tum etiam quia de tali 
+          per<lb break="no" ed="#C" n="103"/>sona minor spes concipi potest , quod vere
+          <lb ed="#C" n="104"/>emendata sit, aut certe quod in poenitentiam
+          <lb ed="#C" n="105"/>stabilem emendata sit, ita ut sit perseveratura
+          <lb ed="#C" n="106"/>inter eas occasiones et pericula in quibus 
+          pro<lb break="no" ed="#C" n="107"/>fessus Societatis necessario versari debet. Et
+          <lb ed="#C" n="108"/>ob hanc specialem rationem existimo Sccietati
+          <lb ed="#C" n="109"/>permissum esse ut majorem in hoc licentiam
+          <lb ed="#C" n="110"/>habeat, etiam circa professos suos, quia et apud
+          <pb ed="#P" n="1151"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#C" n="1"/>proximos , et propter ipsorum bonum magis
+          <lb ed="#C" n="2"/>indiget bono nomine, et quadam majpori 
+          fidu<lb break="no" ed="#C" n="3"/>cia, et veluti securitate suorum ministrorum,
+          <lb ed="#C" n="4"/>quod nomen maxime conservabitur, si omnes
+          <lb ed="#C" n="5"/>intelligant infideles ministros esse a Societate
+          <lb ed="#C" n="6"/>dimittendos , etiamsi professi sint; et ad 
+          bo<lb break="no" ed="#C" n="7"/>num ipsorum professorum est maxime 
+          con<lb break="no" ed="#C" n="8"/>veniens propter pericula in quibus versantur,
+          <lb ed="#C" n="9"/>ut in illis cautiores sint. Quod etiam maxime
+          <lb ed="#C" n="10"/>confirmatur ex his quae de Praeposito generali
+          <lb ed="#C" n="11"/>dicuntur , nona parte Constitutionum, cap. 4,
+          <lb ed="#C" n="12"/>§ 7, ubi casus numerantur, in quibus per 
+          So<lb break="no" ed="#C" n="13"/>cietatem deponi potest : Cujusmodi (inquit)
+          <lb ed="#C" n="14"/>sunt peccata mortalia in emteruum actum 
+          pro<lb break="no" ed="#C" n="15"/>deuntia, copula carnalis, vulnerare quemquam,
+          <lb ed="#C" n="16"/>reditus collegiorum usurpare ad proprios 
+          sum<lb break="no" ed="#C" n="17"/>ptus, vel extra Societatem donare , vel stabilia
+          <lb ed="#C" n="18"/>Lona Societatis alienare , vel pravam 
+          doctri<lb break="no" ed="#C" n="19"/>nam habere. Propter haec ergo si 
+          sufficientis<lb break="no" ed="#C" n="20"/>sime constent, deponendus dicitur; et 
+          addi<lb break="no" ed="#C" n="21"/>tur : Et si opus est, a Societatle 
+          remocen<lb break="no" ed="#C" n="22"/>dus, etc. Quae limitatio, si opus est , indicat
+          <lb ed="#C" n="23"/>plus requiri ad expellendum illum, quam ad
+          <lb ed="#C" n="24"/>eum officio privandum, et merito, quia major
+          <lb ed="#C" n="25"/>est poena, majoremque causam et pertinaciam
+          <lb ed="#C" n="26"/>requirit. Nihilominus etiam in illa persona
+          <lb ed="#C" n="27"/>non postnlatur incorrigibilitas et pertinacia,
+          <lb ed="#C" n="28"/>sed prudentiali judicio Societatis relinquitur,
+          <lb ed="#C" n="29"/>prae oculis habendo, quod ad majorem Dei 
+          glo<lb break="no" ed="#C" n="30"/>riam et universale bonum Societatis fore 
+          judi<lb break="no" ed="#C" n="31"/>cabitur. Igitur a fortiori in quolibet alio 
+          simi<lb break="no" ed="#C" n="32"/>les causae sufficiunt, eademque regula majoris
+          <lb ed="#C" n="33"/>boni universalis servanda est; nam, ut dixit
+          <lb ed="#C" n="34"/>Pelagius Papa, cap. Scias, 1, quaest. 1: 
+          Pla<lb break="no" ed="#C" n="35"/>rimorn utilitas unius utilitati aut voluntati
+          <lb ed="#C" n="36"/>praeferenda est.
+        </p>
+        <p xml:id="szovsr-r12413-d1e618">
+          <lb ed="#C" n="37"/>6. Confirmatur tandem ex Ghregorio XIII.
+          <lb ed="#C" n="38"/>— Tandem id declaratur ex speciali Bulla
+          <lb ed="#C" n="39"/>Gregorii XIII , concessa mense septembri 
+          an<lb break="no" ed="#C" n="40"/>ni 1582, quae incipit Cum alias, etc., in qua
+          <lb ed="#C" n="41"/>concedit facultatem Praeposito generali, ut
+          <lb ed="#C" n="42"/>possit ex causis justis quemlibet professum a
+          <lb ed="#C" n="43"/>Societate ejicere, vel ut ad aliam religionem
+          <lb ed="#C" n="44"/>etiam laxiorem transeat, facultatem 
+          concede<lb break="no" ed="#C" n="45"/>re. In qua Bulla primum omnium 
+          perpenden<lb break="no" ed="#C" n="46"/>dus est tenor et discursus ejus. Prius enim 
+          pro<lb break="no" ed="#C" n="47"/>ponit dubitationem subortam, an Praepositus
+          <lb ed="#C" n="48"/>Societatis valeat professos es causis id 
+          cxigen<lb break="no" ed="#C" n="49"/>tibus a Societate emittere , aut eis sic emissis
+          <lb ed="#C" n="50"/>liberum sit de ejus licentia se ad quemvis alium
+          <lb ed="#C" n="51"/>ordinem transferre. Et ratio dubitationis 
+          fue<lb break="no" ed="#C" n="52"/>rat, quia Paulus II et Pius IV statuerunt ut
+          <lb ed="#C" n="53"/>nemo de Societate possit ad alium ordinem
+          <lb ed="#C" n="54"/>transire (Carthusiensium excepto ), nisi de
+          <lb ed="#C" n="55"/>licentia Romani Pontificis , aut Praepositi ge-
+          <cb ed="#V" n="b"/>
+          <lb ed="#C" n="56"/>neralis Societatis. Unde per illam 
+          exceptio<lb break="no" ed="#C" n="57"/>nem videbatur jam haec facultas Praeposito
+          <lb ed="#C" n="58"/>concessa ; quia vero non erat directe facta
+          <lb ed="#C" n="59"/>concessio, nec satis in particulari, nec cum
+          <lb ed="#C" n="60"/>sufficiente declaratione, ideo forte oriebatur
+          <lb ed="#C" n="61"/>dubitatio ; ad quam Gregorius XIII non 
+          vide<lb break="no" ed="#C" n="62"/>tur directe voluisse respondere, sed novam 
+          fa<lb break="no" ed="#C" n="63"/>cere concessionem pro futuro tempore , 
+          di<lb break="no" ed="#C" n="64"/>cens : Nos, re perpensa atque diligenter 
+          exa<lb break="no" ed="#C" n="65"/>ininata, Societatis ipsius puritati atgue 
+          incre<lb break="no" ed="#C" n="66"/>mento , emissorumque pro tempore saluti 
+          con<lb break="no" ed="#C" n="67"/>sulere volentes, statuimus ut deinceps in 
+          perpe<lb break="no" ed="#C" n="68"/>tuum liceat dicto Preposito, quos judicaverit,
+          <lb ed="#C" n="69"/>ab ipsa Societate emittere, etc.
+        </p>
+        <p xml:id="szovsr-r12413-d1e694">
+          <lb ed="#C" n="70"/>7. Dicta Gregorii verba quantum operentur.
+          <lb ed="#C" n="71"/>— Per quae verba, ut ex eorum tenore 
+          con<lb break="no" ed="#C" n="72"/>stat, nihil de dubitatione proposita, quoad 
+          po<lb break="no" ed="#C" n="73"/>testatem quam antea Praepositus habebat,
+          <lb ed="#C" n="74"/>respondet, sed in posterum eam dubitationem
+          <lb ed="#C" n="75"/>abstulit , absolutam facultatem concedendo.
+          <lb ed="#C" n="76"/>Per quod tamen, ut existimo, non intendit
+          <lb ed="#C" n="77"/>negare quin antea potestatem hanc haberet,
+          <lb ed="#C" n="78"/>sed quia parum referebat, ab illa quaestione
+          <lb ed="#C" n="79"/>abstinuit, et absolutam facultatem concessit.
+          <lb ed="#C" n="80"/>Haec vero licet nunc clarior et certior sit, non
+          <lb ed="#C" n="81"/>tamen magis ampla, ut opinor, quoad 
+          potes<lb break="no" ed="#C" n="82"/>tatem dimittendi professos in justam poenam
+          <lb ed="#C" n="83"/>delictorum, nam haec expulsio jure communi
+          <lb ed="#C" n="84"/>concessa est. Et sic in Bulla Pii dicitur justis
+          <lb ed="#C" n="85"/>de causis posse Praepositum quoslibet 
+          expel<lb break="no" ed="#C" n="86"/>lere ; et quoad hoc eodem modo intelligi 
+          po<lb break="no" ed="#C" n="87"/>test quod Gregorius dicit, quos judicaverit,
+          <lb ed="#C" n="88"/>possit e Societate emittere ; nam hoc judicium
+          <lb ed="#C" n="89"/>semper intelligitur debere esse justum, atque
+          <lb ed="#C" n="90"/>adeo justis de causis fieri debere, ut amplius
+          <lb ed="#C" n="91"/>sequenti capite intelligetur. Quia vero hoc
+          <lb ed="#C" n="92"/>non limitatur ad pertinaciam et 
+          incorrigibili<lb break="no" ed="#C" n="93"/>tatem, ideo in eadem amplitudine concedi
+          <lb ed="#C" n="94"/>censetur, qua fuerit in Constitutionibus 
+          de<lb break="no" ed="#C" n="95"/>claratum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

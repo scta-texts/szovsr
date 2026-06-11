@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#FranciscoSuarez">Francisco Suarez</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2026-06-11">June 11, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-sqqv16">Paris 1860, v. 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+     guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-06-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="800"/>
+        <cb ed="#P" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="szovsr-r03744"><!-- t10l5prae -->
+        <head xml:id="szovsr-r03744-Hd1e101">Praeambulum</head>
+        <p xml:id="szovsr-r03744-d1e103">
+          <cb ed="#V" n="c"/>
+          <lb ed="#C" n="23"/>LIBER QUINTUS
+          <lb ed="#C" n="24"/>DE SCHOLASTICIS
+          <lb ed="#C" n="25"/>AC STUDIIS SOCIETATIS JESU,
+          <lb ed="#C" n="26"/>TAM DOMESTICIS QUAM EXTERNIS.
+        </p>
+        <p xml:id="szovsr-r03744-d1e116">
+          <cb ed="#V" n="d"/>
+          <lb ed="#C" n="27"/>Libri argumentum. — Hactenus solum 
+          ex<lb break="no" ed="#C" n="28"/>plicummus statum hunc religiosum, quantum
+          <lb ed="#C" n="29"/>ad substantiam ejus, et quoad vincula 
+          voto<lb break="no" ed="#C" n="30"/>rum, quibus constituitur et obligatur. Nunc,
+          <lb ed="#C" n="31"/>priusquam ad alios gradus transeamus, 
+          di<lb break="no" ed="#C" n="32"/>cere oportet de muneribus et exercitiis hujus
+          <lb ed="#C" n="33"/>status, quae et litteraria esse possunt et 
+          spiri<lb break="no" ed="#C" n="34"/>tualia. Priora sunt propria, et idco de illis
+          <lb ed="#C" n="35"/>praecipue dicemus; posteriora magis 
+          com<lb break="no" ed="#C" n="36"/>munia sunt toti religioni, et de illis aliquid
+          <lb ed="#C" n="37"/>tactum est in primo libro,cap. praesertim 
+          ter<lb break="no" ed="#C" n="38"/>lio; addemus vero hic aliqua, qua videbun-
+          <cb ed="#V" n="e"/>
+          <lb ed="#C" n="39"/>tur magis propria, et necessaria ad 
+          religio<lb break="no" ed="#C" n="40"/>sam professionem hujus status explicandam.
+          <lb ed="#C" n="41"/>Litteraria autem exercitia et passive et active
+          <lb ed="#C" n="42"/>considerari possunt, id est, vel ut ordinantur
+          <lb ed="#C" n="43"/>ad discendum, vel ad docendum. Priori modo
+          <lb ed="#C" n="44"/>pertinent proprie et per sc ad seholares 
+          So<lb break="no" ed="#C" n="45"/>cietatis ; posteriori autem modo etiam 
+          assu<lb break="no" ed="#C" n="46"/>muntur a Societate, tum ob suorum 
+          profec<lb break="no" ed="#C" n="47"/>tum, tum etiam ob externos et quoscumque
+          <lb ed="#C" n="48"/>fideles, qui sacra doctrina indigent; et quia
+          <lb ed="#C" n="49"/>haec duo omnino conjuncta sunt, de illis suo
+          <lb ed="#C" n="50"/>crdine dicemus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
